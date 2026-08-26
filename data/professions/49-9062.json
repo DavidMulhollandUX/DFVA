@@ -1,98 +1,177 @@
 {
   "onet_soc_code": "49-9062",
+  "researchMethod": "empirical-five-lane-v1",
   "title": "Medical Equipment Repairers",
   "aliases": [
-    "Field Service Technician"
+    "Field Service Technician",
+    "Biomedical Equipment Technician",
+    "Healthcare Technology Management (HTM) Professional"
   ],
-  "anzsco": "220000",
+  "anzsco": "342313",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2026-02-27",
+    "to": "2026-08-26"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-26",
+  "expires": "2027-02-26",
   "programs": [],
   "claims": [
     {
-      "id": "49-9062-01",
-      "text": "National peak professional bodies and statutory regulators governing Medical Equipment Repairers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "id": "mer-01",
+      "text": "Under Australia's Therapeutic Goods framework, repair, modification and adjustment of medical devices are regulated post-market actions: the TGA's procedure for recalls, product alerts and product corrections treats device repair as a recordable corrective action with sponsor notification and record-keeping obligations.",
       "lane": "L1",
-      "tier": "regulatory",
+      "tier": "regulator-procedure-instrument",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Medical Equipment Repairers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Medical Equipment Repairers",
-          "url": "https://www.psc.gov.au/standards/49-9062",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Medical Equipment Repairers"
+          "publisher": "Therapeutic Goods Administration",
+          "title": "Procedure for recalls, product alerts and product corrections (PRAC)",
+          "url": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/procedure-recalls-product-alerts-and-product-corrections-prac",
+          "date": "2026-08-26",
+          "dateNote": "undated regulator page; access date recorded",
+          "whatItMeasured": "The regulator's procedural definition of which device actions, including repair, modification and adjustment, count as regulated corrections and what sponsors must do when they occur",
+          "quote": "Repair, modification, adjustment, or re-labelling of products.",
+          "httpStatus": 200,
+          "accessDate": "2026-08-26"
         }
       ],
-      "scope": "Australian practitioners in Medical Equipment Repairers across public, private, and research sectors.",
-      "disposition": "sourced",
+      "scope": "Australia; binds sponsors and manufacturers' post-market conduct rather than licensing individual repairers. It does not measure demand, automation or workforce.",
+      "disposition": "scoped",
       "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
+      "bearing": ["G1", "W1"],
       "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "refuteNotes": "3 of 3 skeptics failed to overturn: the TGA source is real (HTTP 200), it names repair as a regulated action, and the page is current at access date."
     },
     {
-      "id": "49-9062-02",
-      "text": "Automation of routine transactional and analytical tasks in Medical Equipment Repairers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "id": "mer-02",
+      "text": "A March 2026 US PIRG Education Fund survey of 107 biomedical equipment repair professionals found 83 per cent report manufacturer repair barriers increase equipment downtime somewhat frequently or most of the time, 70 per cent commonly experience diagnostic-tool restrictions delaying patient care, 79 per cent had been denied service information for critical equipment (up from 64 per cent in a 2020 survey), and 94 per cent believe Right to Repair reforms would improve patient safety.",
       "lane": "L2",
-      "tier": "scholarly",
+      "tier": "institutional-survey-declared-n",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Medical Equipment Repairers",
-          "url": "https://www.jobsandskills.gov.au/research/49-9062",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Medical Equipment Repairers in Australia"
+          "publisher": "U.S. PIRG Education Fund",
+          "title": "Hospital Repair Restrictions II",
+          "url": "https://pirg.org/edfund/resources/hospital-repair-restrictions-ii/",
+          "date": "2026-03",
+          "whatItMeasured": "Survey of 107 medical repair professionals (biomeds/HTMs), conducted December 2025 to January 2026, on manufacturer repair restrictions, downtime, delayed patient care and rural effects",
+          "quote": "Approximately 83% of biomeds report that equipment downtime increases from repair barriers either \u201csomewhat frequently\u201d or \u201cmost of the time.\u201d",
+          "httpStatus": 200,
+          "accessDate": "2026-08-26"
         }
       ],
-      "scope": "Entry-level and senior Medical Equipment Repairers roles in Australia.",
-      "disposition": "sourced",
+      "scope": "US biomedical equipment technicians surveyed by an advocacy-funded education fund, with self-selected respondents. It does not measure Australian practice, and its framing favours repair reform.",
+      "disposition": "scoped",
       "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
+      "bearing": ["C3", "W1"],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "3 of 3 skeptics failed to overturn existence, population and window; the advocacy funding and self-selection are preserved in scope."
+    },
+    {
+      "id": "mer-03",
+      "text": "Trade press reports that employers are formalising cybersecurity-specialist roles inside healthcare technology management: Sodexo requires all 600-plus of its HTM staff to complete a six-week cybersecurity training program and hires dedicated BMET cybersecurity specialists, and the US Department of Veterans Affairs embeds biomedical engineers in medical-device network security.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "24x7 Magazine (HTM trade press)",
+          "title": "The Rise of the Cyber Biomed",
+          "url": "https://24x7mag.com/professional-development/education/career-advancement/rise-cyber-biomed/",
+          "date": "2026-08-25",
+          "whatItMeasured": "Dated reporting on employers (Sodexo, VA) creating cybersecurity-focused BMET roles and training programs within healthcare technology management",
+          "quote": "a distinct career track is emerging inside healthcare technology management (HTM): the cyber biomed",
+          "httpStatus": 200,
+          "accessDate": "2026-08-26"
+        }
+      ],
+      "scope": "US healthcare technology management sector as reported by its trade magazine. It shows role diversification toward cybersecurity tasks, not AI automation, and says nothing about Australian hospitals.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": ["C4", "W1"],
+      "refuted": false,
+      "refuteNotes": "3 of 3 skeptics failed to overturn: dated trade press, named employers, in window."
+    },
+    {
+      "id": "mer-04",
+      "text": "A major US health system (Memorial Hermann) made a strategic investment in PartsSource, a clinical-technology platform whose stated function is shifting hospital equipment support from reactive repair toward predictive failure signals, faster parts sourcing and higher first-time fix rates for clinical engineering teams.",
+      "lane": "L3",
+      "tier": "trade-press-dated-vendor-announcement",
+      "sources": [
+        {
+          "publisher": "PR Newswire (PartsSource announcement)",
+          "title": "Memorial Hermann Health System Deepens Partnership with Strategic Investment in PartsSource",
+          "url": "https://www.prnewswire.com/news-releases/memorial-hermann-health-system-deepens-partnership-with-strategic-investment-in-partssource-302859366.html",
+          "date": "2026-08-25",
+          "whatItMeasured": "Vendor-announced strategic investment by a US health system in a clinical-engineering asset-management platform",
+          "quote": "PartsSource delivers real-time visibility into asset performance, predictive signals that anticipate failure risk, and prescriptive insights that reduce time to repair and lower cost of service.",
+          "httpStatus": 200
+        },
+        {
+          "publisher": "24x7 Magazine",
+          "title": "Memorial Hermann Health System Invests in PartsSource",
+          "url": "https://24x7mag.com/inside-htm/company-news/memorial-hermann-health-system-invests-partssource-htm-platform/",
+          "date": "2026-08-25",
+          "whatItMeasured": "Independent HTM trade-press coverage of the same investment, noting the platform shifts health systems from reactive repair to proactive data-driven asset management and that the amount was undisclosed",
+          "quote": "helps health systems shift from reactive equipment repair to proactive, data-driven asset management",
+          "httpStatus": 200
+        }
+      ],
+      "scope": "US health systems; vendor-authored announcement corroborated by trade-press coverage. It evidences investment direction, not measured adoption rates, and no Australian equivalent was found.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": ["C3"],
+      "refuted": false,
+      "refuteNotes": "3 of 3 skeptics failed to overturn: both sources resolve with matching dates, and the claim is limited to the investment's occurrence and stated purpose."
+    }
+  ],
+  "refutedClaims": [
+    {
+      "text": "24x7 Magazine's 'Right to Repair Laws Expand, But Medical Devices Remain Sidelined' (Apr 9, 2025) was reviewed as a candidate L3 legislative-state claim.",
+      "refuted": true,
+      "refuteNotes": "Refuted on window: published April 2025, outside the declared 180-day window."
+    },
+    {
+      "text": "Hacker News items on hospitals replacing radiologists with AI were reviewed as candidate claims.",
+      "refuted": true,
+      "refuteNotes": "Refuted on population fit: clinical AI adoption affecting doctors, not medical equipment repairers."
+    },
+    {
+      "text": "Reddit career-choice threads ('Electrical or biomedical?', 'Biomedical engineering what do you do?') were reviewed as L5 practitioner-discourse candidates.",
+      "refuted": true,
+      "refuteNotes": "Refuted on population fit: student career-selection discussion, not practising repairer discourse on automation."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "medical equipment repairers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+    "query": "medical equipment repairer (primary); biomedical equipment technician; clinical engineer hospital (both zero)",
+    "window": "retrieved 2026-08-26",
+    "count": 9,
+    "countNote": "9 listings for 'medical equipment repairer'; 0 for the two narrower queries",
+    "topEmployers": ["S C Medical Pty Limited", "Perth Scientific", "Macro Recruitment", "MICOB Biomedical Service", "ResMed", "701 Recruitment"],
+    "topSkills": ["biomedical", "hospital", "medical device", "preventative maintenance", "electronics"]
   },
   "corpus": {
     "platforms": [
-      {
-        "name": "practitioner_forums",
-        "scope": "National Medical Equipment Repairers Association discourse",
-        "items": 45
-      }
+      {"name": "reddit", "scope": "r/BiomedicalEngineers, r/ClinicalEngineering, r/HTM, r/biotech via last30days plus arctic-shift thread dating", "items": 5, "state": "ok"},
+      {"name": "hackernews", "scope": "last30days sweep", "items": 11, "state": "ok"},
+      {"name": "youtube", "scope": "last30days sweep", "items": 0, "state": "no-results"},
+      {"name": "github", "scope": "last30days sweep", "items": 5, "state": "ok"},
+      {"name": "polymarket", "scope": "last30days sweep", "items": 0, "state": "no-results"}
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": []
+    "retrieved": "2026-08-26",
+    "searchesReturningNothing": [
+      "Factiva: session live; one query ran and returned 20 items, only the PartsSource item was occupation-relevant and it is admitted via public sources",
+      "grounding: unreachable (keyless web search unavailable), not recorded as silence",
+      "youtube: no-results; polymarket: no-results",
+      "x: unauthenticated (bird_authenticated false), coverage degraded and not recorded as silence",
+      "tiktok/instagram: skipped-unconfigured (no ScrapeCreators key)",
+      "r/ClinicalEngineering and r/HTM subreddits returned nothing in scope during the window",
+      "no Australian regulatory instrument licensing medical-equipment repairers individually was located; the admitted L1 binds sponsors instead"
+    ]
   },
-  "confidence": "high",
-  "caveats": []
+  "confidence": "medium",
+  "confidenceNote": "One L1 and one L2 claim plus two scoped L3 claims are admitted, but the L2 source is US-only and advocacy-funded, the declared L5 corpus yielded no surviving practitioner claim, and no Factiva-grade L3 depth exists for this occupation.",
+  "caveats": [
+    "US SOC 49-9062 maps onto ANZSCO electronic-equipment trades grain used here; no dedicated ANZSCO unit exists for medical equipment repairers",
+    "Australian evidence is thin: demand-side signal rests on nine Adzuna listings",
+    "The PIRG survey is advocacy-funded with self-selected respondents; figures are scoped accordingly"
+  ]
 }
