@@ -253,15 +253,16 @@
     "51-6052",
     "51-9012",
     "53-5031",
-    "factiva_backlog"
+    "factiva_backlog",
+    "_adzuna_summary"
   ],
   "status": {
     "11-1011": "done",
     "11-1021": "pending",
-    "11-2011": "pending",
-    "11-2021": "pending",
-    "11-2022": "pending",
-    "11-2031": "pending",
+    "11-2011": "done",
+    "11-2021": "done",
+    "11-2022": "done",
+    "11-2031": "done",
     "11-3021": "pending",
     "11-3031": "pending",
     "11-3051": "pending",
@@ -391,10 +392,10 @@
     "25-9021": "pending",
     "25-9031": "pending",
     "25-9041": "pending",
-    "27-1011": "pending",
-    "27-1013": "pending",
-    "27-1014": "pending",
-    "27-1021": "pending",
+    "27-1011": "done",
+    "27-1013": "done",
+    "27-1014": "done",
+    "27-1021": "done",
     "27-1024": "pending",
     "27-1025": "pending",
     "27-2011": "pending",
@@ -506,7 +507,8 @@
     "51-6052": "in_progress",
     "51-9012": "in_progress",
     "53-5031": "pending",
-    "factiva_backlog": "pending"
+    "factiva_backlog": "pending",
+    "_adzuna_summary": "pending"
   },
   "attempts": {
     "11-1011": 1,
@@ -518,7 +520,15 @@
     "47-2061": 1,
     "47-2111": 1,
     "49-2094": 1,
-    "49-9062": 1
+    "49-9062": 1,
+    "27-1011": 1,
+    "27-1013": 1,
+    "27-1014": 1,
+    "27-1021": 1,
+    "11-2011": 1,
+    "11-2021": 1,
+    "11-2022": 1,
+    "11-2031": 1
   },
   "leases": {
     "51-6052": {
@@ -596,6 +606,54 @@
       "soc": "49-9062",
       "status": "done",
       "note": "commit preceding; admitted 4; refuted 3; confidence medium"
+    },
+    {
+      "at": "2026-08-26T13:07:53.915948+00:00",
+      "soc": "27-1011",
+      "status": "done",
+      "note": "empirical-five-lane-v1 ledgers committed b31d20f"
+    },
+    {
+      "at": "2026-08-26T13:07:53.982927+00:00",
+      "soc": "27-1013",
+      "status": "done",
+      "note": "empirical-five-lane-v1 ledgers committed b31d20f"
+    },
+    {
+      "at": "2026-08-26T13:07:54.047129+00:00",
+      "soc": "27-1014",
+      "status": "done",
+      "note": "empirical-five-lane-v1 ledgers committed b31d20f"
+    },
+    {
+      "at": "2026-08-26T13:07:54.108276+00:00",
+      "soc": "27-1021",
+      "status": "done",
+      "note": "empirical-five-lane-v1 ledgers committed b31d20f"
+    },
+    {
+      "at": "2026-08-26T14:22:37.751809+00:00",
+      "soc": "11-2011",
+      "status": "done",
+      "note": "5-lane autoloop: real L1/L2 + Adzuna L4 + last30days L5; Factiva L3 kept/attempted"
+    },
+    {
+      "at": "2026-08-26T14:22:37.809137+00:00",
+      "soc": "11-2021",
+      "status": "done",
+      "note": "5-lane autoloop: real L1/L2 + Adzuna L4 + last30days L5; Factiva L3 kept/attempted"
+    },
+    {
+      "at": "2026-08-26T14:22:37.864308+00:00",
+      "soc": "11-2022",
+      "status": "done",
+      "note": "5-lane autoloop: real L1/L2 + Adzuna L4 + last30days L5; Factiva L3 kept/attempted"
+    },
+    {
+      "at": "2026-08-26T14:22:37.922441+00:00",
+      "soc": "11-2031",
+      "status": "done",
+      "note": "5-lane autoloop: real L1/L2 + Adzuna L4 + last30days L5; Factiva L3 kept/attempted"
     }
   ]
 }
