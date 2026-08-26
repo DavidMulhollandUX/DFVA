@@ -68,6 +68,25 @@ budget with the capture and scoring tasks. The next run picks up what you leave.
    about AI screening stops becoming a claim about AI interviews.
 6. Persist, then render.
 
+### Running L4 (LinkedIn as a third demand source)
+
+L4 is demand-side job ads: Adzuna AU (time-series, owns the quantitative trend), Seek
+trend pages, `last30days --hiring-signals`, and now **LinkedIn postings** as an optional
+corpus source. LinkedIn (`linkedin-mcp-search`, local npx, no auth) returns live postings
+(title/company/location/posted/url) — it supports "who advertises, what they ask for",
+not salary or hire-volume, so it does not replace Adzuna's trend. Run it as a corpus
+contribution, degrading like Factiva:
+
+```bash
+python3.12 scripts/linkedin_l4.py <soc> --title "<occupation>" --location "Australia" --limit 20
+python3.12 scripts/linkedin_fold.py <soc>
+```
+
+Provenance: `linkedin-mcp-search` is a third-party unofficial LinkedIn scraper. The folder
+tags every L4 LinkedIn claim `source: linkedin (unofficial scrape)` so provenance is
+transparent in evidence-grade reports. If the server is down or returns no postings, skip
+and log — never block the batch on it. It complements, not substitutes for, Adzuna/Seek.
+
 ### Running L5
 
 L5 uses the [last30days engine](https://github.com/mvanhorn/last30days-skill), installed at
