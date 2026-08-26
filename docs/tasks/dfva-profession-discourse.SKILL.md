@@ -80,20 +80,28 @@ python3.12 $L30 --diagnose
 ```
 
 Call `python3.12`, not `python3`: the engine needs 3.12 or later and the default is 3.9.
-Write the query plan yourself, since the internal planner needs an LLM key and none is
-configured, then emit items rather than prose:
+The internal planner needs an LLM key (none configured here), so generate the
+plan with the repo's deterministic helper, then emit items rather than prose:
 
 ```bash
-python3.12 $L30 "<occupation> <what you are testing>" \
-  --plan plan.json --emit json --json-profile raw \
-  --days 180 --as-of <today> --subreddits <real,communities> \
-  --save-dir data/professions/<soc>/raw/ --max-source-fetches 6
+L30=~/.claude/skills/last30days/scripts/last30days.py
+# 1. Generate the QueryPlan (deterministic; no LLM needed)
+python3.12 scripts/l5_plan.py "<occupation title>" --soc <soc> --days 180 \
+  --out data/professions/<soc>/raw/l5_plan.json
+# 2. Sweep (run in background; hangs on YouTube transcripts)
+python3.12 $L30 "<occupation> AI disruption" \
+  --plan data/professions/<soc>/raw/l5_plan.json \
+  --emit json --json-profile raw \
+  --days 180 --as-of <today> --save-dir data/professions/<soc>/raw/ \
+  --max-source-fetches 6 --no-browser-cookies
+# 3. Fold the emitted payload into the ledger as L5 claims
+python3.12 scripts/l5_fold.py <soc>
 ```
 
-Run it in the background, because it hangs while fetching YouTube transcripts. As of
-2026-08-24 TikTok and Instagram are unavailable (`has_scrapecreators: false`) and X is
-unauthenticated, so read `source_status` and record those as coverage gaps rather than as
-evidence that a platform was quiet. `--hiring-signals` belongs to L4.
+X is authenticated via `~/.config/last30days/.env` (AUTH_TOKEN/CT0 extracted
+from the user's Chrome). As of 2026-08-26 TikTok and Instagram are unavailable
+(`has_scrapecreators: false`); read `source_status` and record those as coverage
+gaps, not as evidence a platform was quiet. `--hiring-signals` belongs to L4.
 
 Treat the engine's items as leads. They re-enter the pipeline as candidate claims and pass
 through refute and scope like everything else. Do not copy its synthesis prose into §3.
@@ -123,6 +131,15 @@ through refute and scope like everything else. Do not copy its synthesis prose i
   `corpus.searchesReturningNothing` — but prefer refreshing the session first.
 - Job ads are demand, not destinations. A survey of employers is not a claim about
   recruiters.
+- **Failure logging + backfill.** When Factiva is unavailable (auth expired) or
+  returns 0 results for every phrasing, the loop records the gap in
+  `data/professions/factiva_backlog.json` (keyed by SOC, with reason +
+  attempts) instead of silently dropping it. Re-run `python3.12
+  scripts/factiva_backfill.py --cookies data/factiva_cookies.json` after
+  refreshing the session to close those gaps. The backfill tool opens ONE
+  session, iterates every profession missing Factiva L3, tries three phrasings
+  per profession, merges claims into existing ledgers (never overwrites), and
+  stops cleanly on auth expiry — leaving the remainder in the backlog.
 - Quote at most one short passage per source, with attribution.
 - Never report a lexicon sentiment score. State sentiment as a judgement anchored to
   quotes.
