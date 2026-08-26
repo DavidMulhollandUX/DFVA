@@ -267,14 +267,14 @@
     "11-3061": "pending",
     "11-3121": "pending",
     "11-9021": "pending",
-    "11-9031": "pending",
-    "11-9032": "pending",
-    "11-9033": "pending",
+    "11-9031": "done",
+    "11-9032": "done",
+    "11-9033": "done",
     "11-9041": "pending",
     "11-9111": "pending",
     "11-9121": "pending",
     "11-9141": "pending",
-    "11-9151": "pending",
+    "11-9151": "done",
     "11-9199": "pending",
     "13-1041": "pending",
     "13-1051": "pending",
@@ -510,7 +510,11 @@
     "11-1021": 1,
     "11-3021": 1,
     "11-3031": 1,
-    "11-3051": 1
+    "11-3051": 1,
+    "11-9031": 1,
+    "11-9032": 1,
+    "11-9033": 1,
+    "11-9151": 1
   },
   "leases": {},
   "runs": [
@@ -537,6 +541,30 @@
       "soc": "11-3051",
       "status": "done",
       "note": "replaced fabricated L1/L2 with verified SWA/PwC; +L4; L5"
+    },
+    {
+      "at": "2026-08-26T16:58:35.161908+00:00",
+      "soc": "11-9031",
+      "status": "done",
+      "note": "empirical-five-lane-v1: L1/L2/L3 web-sourced, L4 Adzuna, L5 last30days; Factiva L3 gap (auth_expired) logged to backlog"
+    },
+    {
+      "at": "2026-08-26T16:58:35.217335+00:00",
+      "soc": "11-9032",
+      "status": "done",
+      "note": "empirical-five-lane-v1: L1/L2/L3 web-sourced, L4 Adzuna, L5 last30days; Factiva L3 gap (auth_expired)"
+    },
+    {
+      "at": "2026-08-26T16:58:35.273169+00:00",
+      "soc": "11-9033",
+      "status": "done",
+      "note": "empirical-five-lane-v1: L1/L2 web-sourced, L4 Adzuna, L5 last30days; L3 Factiva gap (auth_expired)"
+    },
+    {
+      "at": "2026-08-26T16:58:35.329835+00:00",
+      "soc": "11-9151",
+      "status": "done",
+      "note": "empirical-five-lane-v1: L1/L2/L3 web-sourced, L4 Adzuna, L5 last30days; Factiva L3 gap (auth_expired)"
     }
   ]
 }
