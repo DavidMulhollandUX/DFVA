@@ -109,8 +109,18 @@ through refute and scope like everything else. Do not copy its synthesis prose i
   When you do sample a platform, declare which one, the query, the window, and the item
   count.
 - Fetch public LinkedIn article URLs only, with no feed or post scraping (constraint 2).
-- Factiva is available only in an attended run (constraint 3). Unattended, proceed without
-  it and record the omission in `corpus.searchesReturningNothing`.
+- Factiva is the L3 trade-press lane's premium source and IS available to the
+  loop, but only while a Factiva/OpenAthens session is live. The session requires
+  an interactive UoM SSO login, which the loop cannot perform. Use the hybrid:
+  run `python3.12 scripts/factiva_reauth.py` to open Chrome, log in once, and
+  export cookies to `data/factiva_cookies.json`; the loop then runs
+  `python3.12 scripts/factiva_research.py --cookies data/factiva_cookies.json
+  --query "<occupation> AI disruption" --from <YYYY-MM-DD> --to <today>` until the
+  session expires (hours–1 day). If `factiva_research.py` reports
+  `authenticated: false`, re-run `factiva_reauth.py` to refresh. Do NOT let the
+  loop attempt an interactive SSO login itself. If no session is available at run
+  time, proceed without Factiva and record the omission in
+  `corpus.searchesReturningNothing` — but prefer refreshing the session first.
 - Job ads are demand, not destinations. A survey of employers is not a claim about
   recruiters.
 - Quote at most one short passage per source, with attribution.
