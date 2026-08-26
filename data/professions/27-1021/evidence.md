@@ -1,29 +1,25 @@
-# Deep Research Evidence Log: Commercial and Industrial Designers (27-1021)
+# Evidence log — Commercial and Industrial Designers (27-1021)
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Method: empirical-five-lane-v1. Window 2026-02-28..2026-08-26. Generated 2026-08-26.
 
-## Admitted Claims and Verified Citations
 
-### Claim `27-1021-01` (L1 · regulatory)
+One short verbatim quote per admitted source:
 
-> "National peak professional bodies and statutory regulators governing Commercial and Industrial Designers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+- [L1] Australian Government (response to the Senate Select Committee on Adopting AI, via Copyright Agency) — Government response to Senate Adopting AI inquiry — copyright position (2026-04-01)
+  (quote captured in corpus; see source)
+  https://copyright.com.au/2026/04/government-response-to-senate-adopting-ai-inquiry
 
-- **Scope:** Australian practitioners in Commercial and Industrial Designers across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Commercial and Industrial Designers** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Commercial and Industrial Designers](https://www.psc.gov.au/standards/27-1021) — *What it measured:* National competency and ethics framework for Commercial and Industrial Designers
+- [L2] Design Research Society (DRS2026: Edinburgh) — A survey of generative AI adoption amongst industrial design experts (2026-06-08)
+  (quote captured in corpus; see source)
+  https://dl.designresearchsociety.org/cgi/viewcontent.cgi?article=4088&context=drs-conference-papers
 
----
+- [L4] Adzuna AU — Live job ads — 'product designer', 'industrial designer' (2026-08-26)
+  (quote captured in corpus; see source)
+  https://api.adzuna.com/v1/api/jobs/au/search/1?app_id=REDACTED&app_key=REDACTED&results_per_page=100&what=product%20designer&content-type=application/json
 
-### Claim `27-1021-02` (L2 · scholarly)
 
-> "Automation of routine transactional and analytical tasks in Commercial and Industrial Designers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
+## Searches returning nothing
 
-- **Scope:** Entry-level and senior Commercial and Industrial Designers roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Commercial and Industrial Designers](https://www.jobsandskills.gov.au/research/27-1021) — *What it measured:* Labour market analysis of automation resilience across Commercial and Industrial Designers in Australia
+- Factiva: 'industrial design artificial intelligence' returned 13 items, none occupation-relevant (design-services market reports, manufacturing/sourcing news) — no trade-press admitted.
 
----
+- L5: retrieved practitioner-discourse items for this SOC were off-topic (manufacturing/industrial-revolution), so no L5 corpus is declared.

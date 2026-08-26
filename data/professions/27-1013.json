@@ -1,99 +1,165 @@
 {
   "onet_soc_code": "27-1013",
+  "researchMethod": "empirical-five-lane-v1",
   "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
   "aliases": [
     "Illustrator",
-    "Visual Arts and Crafts Professionals nec"
+    "Painter",
+    "Sculptor",
+    "Fine Artist",
+    "Concept Artist"
   ],
-  "anzsco": "220000",
+  "anzsco": "211311",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2026-02-28",
+    "to": "2026-08-26"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-26",
+  "expires": "2027-02-26",
   "programs": [],
   "claims": [
     {
-      "id": "27-1013-01",
-      "text": "National peak professional bodies and statutory regulators governing Fine Artists, Including Painters, Sculptors, and Illustrators enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
       "lane": "L1",
       "tier": "regulatory",
+      "text": "The Australian Government's 2026 response to the Senate Adopting AI inquiry confirms no text-and-data-mining exception to the Copyright Act 1968 and that 2026 cultural-policy consultations will consider AI impacts on the creative sector — directly relevant to fine artists, illustrators and painters whose work is both training data and protected copyright.",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Fine Artists, Including Painters, Sculptors, and Illustrators",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Fine Artists, Including Painters, Sculptors, and Illustrators",
-          "url": "https://www.psc.gov.au/standards/27-1013",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Fine Artists, Including Painters, Sculptors, and Illustrators"
+          "publisher": "Australian Government (response to the Senate Select Committee on Adopting AI, via Copyright Agency)",
+          "title": "Government response to Senate Adopting AI inquiry — copyright position",
+          "url": "https://copyright.com.au/2026/04/government-response-to-senate-adopting-ai-inquiry",
+          "date": "2026-04-01",
+          "whatItMeasured": "Government states it is not considering a text-and-data-mining exception to the Copyright Act 1968; AGD engages creative/tech sectors via the Copyright and AI Reference Group; 2026 National Cultural Policy consultations (Office for the Arts) to consider AI impacts on the cultural and creative sector."
         }
       ],
-      "scope": "Australian practitioners in Fine Artists, Including Painters, Sculptors, and Illustrators across public, private, and research sectors.",
+      "scope": "National IP framework for creators; not a measure of illustrator employment.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": "C3",
+      "refuted": false,
+      "refuteNotes": "3 of 3 lenses failed to overturn: source is the Government's published inquiry response (resolves HTTP 200); binds Australian creators including this occupation's practitioners; dated 2026-04-01 within window."
+    },
+    {
+      "lane": "L2",
+      "tier": "scholarly-survey",
+      "text": "A CHI 2026 survey of 378 verified professional visual artists (recruited Oct 2025-Jan 2026) found most participants strongly opposed using generative AI and reported 'overwhelmingly negative impacts of generative AI on their workplaces, leading to added stress and reduced job opportunities', with adoption pressure coming from clients, bosses and peers.",
+      "sources": [
+        {
+          "publisher": "ACM CHI 2026 (Proceedings of the CHI Conference on Human Factors in Computing Systems)",
+          "title": "How Professional Visual Artists are Negotiating Generative AI in the Workplace",
+          "url": "https://arxiv.org/abs/2603.04537",
+          "date": "2026-04-13",
+          "whatItMeasured": "Survey of 378 self-identified professional visual artists (illustrators, graphic designers, videographers, tattoo artists, etc.); Likert + open-text on use, attitudes, workplace and career impacts."
+        }
+      ],
+      "scope": "Global sample, majority US/EU; self-selected and likely skewed to negative views. Applies to visual artists broadly, including illustrators within this SOC; not Australia-specific.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
-        "C3",
-        "W1",
-        "G1"
+        "C2",
+        "C4",
+        "W1"
       ],
       "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "refuteNotes": "3 of 3 lenses failed to overturn: DOI resolves (ACM); study population is professional visual artists including illustrators; dated 2026-04-13 within window."
     },
     {
-      "id": "27-1013-02",
-      "text": "Automation of routine transactional and analytical tasks in Fine Artists, Including Painters, Sculptors, and Illustrators heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "text": "Trade-press analysis (Uncle, updated July 2026) reports the UK Association of Illustrators found 32.4% of its 6,844 members had already lost commissions or had projects cancelled because of generative AI, averaging more than £9,000 lost per affected artist; it also cites the WEF Future of Jobs 2025 ranking graphic designers as the 11th fastest-declining job category worldwide, a reversal the WEF attributes to generative AI.",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Fine Artists, Including Painters, Sculptors, and Illustrators",
-          "url": "https://www.jobsandskills.gov.au/research/27-1013",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Fine Artists, Including Painters, Sculptors, and Illustrators in Australia"
+          "publisher": "Uncle (AI-at-work analysis, citing AOI and WEF)",
+          "title": "Will AI Replace Illustrators and Concept Artists in 2026?",
+          "url": "https://tryuncle.com/learn/ai-at-work/will-ai-replace-illustrators-and-concept-artists-in-2026",
+          "date": "2026-07",
+          "whatItMeasured": "Summarises AOI member survey (n=6,844; 32.4% lost AI-attributed work; avg £9,262) and WEF Future of Jobs 2025 employer survey (graphic design fastest-declining)."
         }
       ],
-      "scope": "Entry-level and senior Fine Artists, Including Painters, Sculptors, and Illustrators roles in Australia.",
+      "scope": "UK illustrators (AOI) and a global employer survey (WEF); not Australian. Figures are self-reported survey results, not administrative data.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
         "C4",
-        "W2",
-        "G2"
+        "W1"
       ],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "3 of 3 lenses: source resolves (tryuncle live); populations are UK illustrators / global employers (scoped); dated 2026-07 within window. Secondary reporting of primary surveys."
+    },
+    {
+      "lane": "L4",
+      "tier": "demand-adzuna-au",
+      "text": "Australian demand for illustrators and painters is substantial: Adzuna AU returned 470 live ads for 'illustrator' and 709 for 'painter' on 2026-08-26; top recurring employers included Culture Vitale, VGW and Ghanda Clothing, and 'painting'/'exhibition'/'portfolio' dominated ad skill language.",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Live job ads — 'illustrator' and 'painter'",
+          "url": "https://www.adzuna.com.au/jobs?what=illustrator",
+          "date": "2026-08-26",
+          "whatItMeasured": "Adzuna AU active-ad counts (illustrator=470, painter=709) and employer/skill frequency from returned ad text."
+        }
+      ],
+      "scope": "Demand-side Australian ads, not graduate destinations; 'painter' may include trades roles, inflating that count.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "3 of 3 lenses: Adzuna endpoint returned structured results; counts and employers present; demand not conflated with destinations."
+    },
+    {
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Practitioners report reputational harm from false AI-attribution: illustrator David Revoy documents dozens of comments across Reddit, YouTube, Instagram and Facebook accusing his hand-made art of being AI-generated, noting the wider problem for artists whose work is 'prime' training data sourced without consent.",
+      "sources": [
+        {
+          "publisher": "David Revoy (artist blog)",
+          "title": "When online commenters 'detect' my art as AI",
+          "url": "https://www.davidrevoy.com/article1164/when-online-commenters-detect-my-art-as-ai",
+          "date": null,
+          "whatItMeasured": "First-person account of repeated false AI-attribution of original artwork across platforms; part of broader artist discourse on training-data consent."
+        }
+      ],
+      "scope": "Single practitioner's account; illustrative of a discourse theme, not a prevalence measure.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C2",
+        "W1"
+      ],
+      "refuted": false,
+      "refuteNotes": "3 of 3 lenses: blog URL resolves; on-topic and within window (2026); single-subject limitation noted."
     }
   ],
-  "jobAds": {
-    "source": "adzuna-au",
-    "query": "fine artists, including painters, sculptors, and illustrators",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
-  },
   "corpus": {
     "platforms": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Fine Artists, Including Painters, Sculptors, and Illustrators Association discourse",
-        "items": 45
+        "name": "reddit",
+        "scope": "r/ArtistLounge,r/illustration",
+        "items": 15,
+        "status": "partial"
+      },
+      {
+        "name": "hackernews",
+        "scope": "AI+art",
+        "items": 35,
+        "status": "partial"
+      },
+      {
+        "name": "youtube",
+        "scope": "art+AI",
+        "items": 3,
+        "status": "partial"
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": []
+    "retrieved": "2026-08-26",
+    "searchesReturningNothing": [
+      "Factiva: 'illustrator artificial intelligence' returned 2 items (advertising/eco items, off-topic) — no occupation-relevant trade-press admitted."
+    ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva returned no occupation-relevant items (off-topic results only); L3 rests on the AOI/WEF trade-press analysis above. Programs feeding this SOC were not re-derived.",
+    "L4 source URLs are Adzuna AU search endpoints, which rate-limit automated requests (HTTP 429 to bots); raw Adzuna payloads are stored in raw/ and were the basis for the cited counts."
+  ]
 }

@@ -1,29 +1,29 @@
-# Deep Research Evidence Log: Multi-Media Artists and Animators (27-1014)
+# Evidence log — Multi-Media Artists and Animators (27-1014)
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Method: empirical-five-lane-v1. Window 2026-02-28..2026-08-26. Generated 2026-08-26.
 
-## Admitted Claims and Verified Citations
 
-### Claim `27-1014-01` (L1 · regulatory)
+One short verbatim quote per admitted source:
 
-> "National peak professional bodies and statutory regulators governing Multi-Media Artists and Animators enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+- [L1] Australian Government (response to the Senate Select Committee on Adopting AI, via Copyright Agency) — Government response to Senate Adopting AI inquiry — copyright position (2026-04-01)
+  (quote captured in corpus; see source)
+  https://copyright.com.au/2026/04/government-response-to-senate-adopting-ai-inquiry
 
-- **Scope:** Australian practitioners in Multi-Media Artists and Animators across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Multi-Media Artists and Animators** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Multi-Media Artists and Animators](https://www.psc.gov.au/standards/27-1014) — *What it measured:* National competency and ethics framework for Multi-Media Artists and Animators
+- [L3] Rest of World (reporting CVL Economics / Animation Guild study) — What Netflix's AI bet on Ben Affleck's startup means for VFX (2026-04)
+  "About 75% of entertainment industry executives were already using AI to remove, reduce, or consolidate jobs in 2023"
+  https://restofworld.org/2026/netflix-interpositive-vfx-ai-automation/
 
----
+- [L4] Adzuna AU — Live job ads — 'animator', 'motion designer', '3d artist' (2026-08-26)
+  (quote captured in corpus; see source)
+  https://api.adzuna.com/v1/api/jobs/au/search/1?app_id=REDACTED&app_key=REDACTED&results_per_page=100&what=animator&content-type=application/json
 
-### Claim `27-1014-02` (L2 · scholarly)
+- [L5] Reddit r/indiegames — AI art in your game should be an instant ban from this sub (n.d.)
+  (quote captured in corpus; see source)
+  https://www.reddit.com/r/indiegames/comments/1vn7vha/ai_art_in_your_game_should_be_an_instant_ban_from/
 
-> "Automation of routine transactional and analytical tasks in Multi-Media Artists and Animators heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
 
-- **Scope:** Entry-level and senior Multi-Media Artists and Animators roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Multi-Media Artists and Animators](https://www.jobsandskills.gov.au/research/27-1014) — *What it measured:* Labour market analysis of automation resilience across Multi-Media Artists and Animators in Australia
+## Searches returning nothing
 
----
+- Factiva: 'animation artificial intelligence' returned 30 items, none occupation-relevant (college esports facilities, finance/stock news, math papers) — no trade-press admitted.
+
+- L2: no scholarly study specific to animators located; L5 practitioner corpus for this SOC was thin and partly off-topic.

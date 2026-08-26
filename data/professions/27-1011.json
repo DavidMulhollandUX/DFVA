@@ -1,99 +1,141 @@
 {
   "onet_soc_code": "27-1011",
+  "researchMethod": "empirical-five-lane-v1",
   "title": "Art Directors",
   "aliases": [
-    "Creative Lead",
-    "Head of Design"
+    "Creative Director",
+    "Art Director",
+    "Visual Designer",
+    "Brand Art Director"
   ],
-  "anzsco": "220000",
+  "anzsco": "232111",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2026-02-28",
+    "to": "2026-08-26"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-26",
+  "expires": "2027-02-26",
   "programs": [],
   "claims": [
     {
-      "id": "27-1011-01",
-      "text": "National peak professional bodies and statutory regulators governing Art Directors enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
       "lane": "L1",
       "tier": "regulatory",
+      "text": "The Australian Government's 2026 response to the Senate Adopting AI inquiry confirms it is not considering a text-and-data-mining exception to the Copyright Act 1968, and that 2026 National Cultural Policy consultations (Office for the Arts) will consider AI's impacts on the cultural and creative sector, setting the IP framework within which art directors' commissioned work is produced and protected.",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Art Directors",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Art Directors",
-          "url": "https://www.psc.gov.au/standards/27-1011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Art Directors"
+          "publisher": "Australian Government (response to the Senate Select Committee on Adopting AI, via Copyright Agency)",
+          "title": "Government response to Senate Adopting AI inquiry — copyright position",
+          "url": "https://copyright.com.au/2026/04/government-response-to-senate-adopting-ai-inquiry",
+          "date": "2026-04-01",
+          "whatItMeasured": "Government states it is not considering a text-and-data-mining exception to the Copyright Act 1968; AGD engages creative/tech sectors via the Copyright and AI Reference Group; 2026 National Cultural Policy consultations (Office for the Arts) to consider AI impacts on the cultural and creative sector."
         }
       ],
-      "scope": "Australian practitioners in Art Directors across public, private, and research sectors.",
+      "scope": "National copyright policy. It sets the legal backdrop for creative commissions; it is not a measure of art-director employment or tool adoption.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": "C3",
+      "refuted": false,
+      "refuteNotes": "3 of 3 lenses failed to overturn: source is the Government's published inquiry response (resolves HTTP 200); binds Australian creators including this occupation's practitioners; dated 2026-04-01 within window."
+    },
+    {
+      "lane": "L4",
+      "tier": "demand-adzuna-au",
+      "text": "Australian employer demand for art directors remains active: an Adzuna AU query for 'art director' returned 46 live job ads on 2026-08-26, with employers including Cotton On Group (7 ads), Laser Clinics Australia (5) and Canva (4); creative-direction and campaign skills recur across ad copy.",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Live job ads — query 'art director'",
+          "url": "https://www.adzuna.com.au/jobs?what=art%20director",
+          "date": "2026-08-26",
+          "whatItMeasured": "Adzuna AU active job-ad count for 'art director' (count=46); top employers and skill frequency across returned ad text."
+        }
+      ],
+      "scope": "Demand-side Australian job ads, not graduate destinations. A small query window of one role title; counts are platform-reported and fluctuate.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
-        "C3",
-        "W1",
-        "G1"
+        "W2"
       ],
       "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "refuteNotes": "3 of 3 lenses failed to overturn: Adzuna endpoint returned structured results; count and employer fields present in payload; demand not confused with destinations."
     },
     {
-      "id": "27-1011-02",
-      "text": "Automation of routine transactional and analytical tasks in Art Directors heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Practitioner discourse shows clients already expect AI-substituted output: a r/graphic_design thread 'It happened to me - client says AI could have done it in 5 mins' (2026-08) documents clients treating generative output as a substitute for paid designer work, a recurring theme in design communities.",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Art Directors",
-          "url": "https://www.jobsandskills.gov.au/research/27-1011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Art Directors in Australia"
+          "publisher": "Reddit r/graphic_design",
+          "title": "It happened to me - client says AI could have done it in 5 mins",
+          "url": "https://www.reddit.com/r/graphic_design/comments/1vqve7w/it_happened_to_me_client_says_ai_could_have_done/",
+          "date": null,
+          "whatItMeasured": "Self-reported practitioner account of client price/effort expectations under generative AI; one of multiple similar threads in the 180-day window."
         }
       ],
-      "scope": "Entry-level and senior Art Directors roles in Australia.",
+      "scope": "Self-selected design-community posts; indicative of client pressure, not a prevalence measure.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "W1",
+        "C2"
+      ],
+      "refuted": false,
+      "refuteNotes": "3 of 3 lenses failed to overturn: URL resolves; thread is within window and on-topic; self-selected sample noted as limitation."
+    },
+    {
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "A Stanford-led study reported by Ars Technica (2026-08) found employment for workers aged 22-25 in the most AI-impacted occupations fell about 11% since 2022, versus ~10% growth in least-impacted occupations — relevant to art-direction entry on-ramps, since the effect is driven by lower hiring for entry-level roles in codified-knowledge, AI-automatable work.",
+      "sources": [
+        {
+          "publisher": "Ars Technica (reporting Stanford/Brynjolfsson et al. working paper)",
+          "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
+          "url": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
+          "date": "2026-08",
+          "whatItMeasured": "Analysis of US payroll/employment data 2022-2026 by age cohort and AI-exposure quintile; entry-level employment effect concentrated in automatable occupations."
+        }
+      ],
+      "scope": "US economy-wide study, not specific to art directors; used as contextual evidence about entry-level on-ramps in AI-exposed creative roles.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
         "C4",
-        "W2",
-        "G2"
+        "W2"
       ],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "3 of 3 lenses: source real (Ars Technica live, study cited); population is US workers not AU art directors (scoped); within window (2026-08)."
     }
   ],
-  "jobAds": {
-    "source": "adzuna-au",
-    "query": "art directors",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
-  },
   "corpus": {
     "platforms": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Art Directors Association discourse",
-        "items": 45
+        "name": "reddit",
+        "scope": "r/graphic_design",
+        "items": 15,
+        "status": "partial"
+      },
+      {
+        "name": "hackernews",
+        "scope": "AI+creative-work",
+        "items": 35,
+        "status": "partial"
+      },
+      {
+        "name": "youtube",
+        "scope": "AI video/creative",
+        "items": 3,
+        "status": "partial"
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": []
+    "retrieved": "2026-08-26",
+    "searchesReturningNothing": [
+      "Factiva: 'art director AI' returned 1 item (Duke Chronicle careers event, off-topic) — no occupation-relevant trade-press admitted.",
+      "L2: no scholarly study specific to art directors located; L3 trade press for this SOC not gathered."
+    ]
   },
-  "confidence": "high",
-  "caveats": []
+  "confidence": "medium",
+  "caveats": [
+    "No L2 scholarly or L3 trade-press claim specific to art directors was admitted: Factiva returned only an off-topic careers-event item, and no other dated trade source was gathered. Confidence is therefore medium (L1+L4+L5), not high. Programs feeding this SOC were not re-derived.",
+    "L4 source URLs are Adzuna AU search endpoints, which rate-limit automated requests (HTTP 429 to bots); raw Adzuna payloads are stored in raw/ and were the basis for the cited counts."
+  ]
 }

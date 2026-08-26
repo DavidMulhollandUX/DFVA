@@ -1,100 +1,100 @@
 {
   "onet_soc_code": "27-1021",
+  "researchMethod": "empirical-five-lane-v1",
   "title": "Commercial and Industrial Designers",
   "aliases": [
     "Industrial Designer",
     "Product Designer",
-    "Service Designer"
+    "Commercial Designer",
+    "Designer"
   ],
-  "anzsco": "220000",
+  "anzsco": "232312",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2026-02-28",
+    "to": "2026-08-26"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-26",
+  "expires": "2027-02-26",
   "programs": [],
   "claims": [
     {
-      "id": "27-1021-01",
-      "text": "National peak professional bodies and statutory regulators governing Commercial and Industrial Designers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
       "lane": "L1",
       "tier": "regulatory",
+      "text": "The Australian Government's 2026 response to the Senate Adopting AI inquiry confirms no text-and-data-mining exception to the Copyright Act 1968 and that 2026 cultural-policy consultations will consider AI impacts on the creative sector — relevant to commercial and industrial designers whose sketches, renders and product forms are both protected designs and potential AI training material.",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Commercial and Industrial Designers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Commercial and Industrial Designers",
-          "url": "https://www.psc.gov.au/standards/27-1021",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Commercial and Industrial Designers"
+          "publisher": "Australian Government (response to the Senate Select Committee on Adopting AI, via Copyright Agency)",
+          "title": "Government response to Senate Adopting AI inquiry — copyright position",
+          "url": "https://copyright.com.au/2026/04/government-response-to-senate-adopting-ai-inquiry",
+          "date": "2026-04-01",
+          "whatItMeasured": "Government states it is not considering a text-and-data-mining exception to the Copyright Act 1968; AGD engages creative/tech sectors via the Copyright and AI Reference Group; 2026 National Cultural Policy consultations (Office for the Arts) to consider AI impacts on the cultural and creative sector."
         }
       ],
-      "scope": "Australian practitioners in Commercial and Industrial Designers across public, private, and research sectors.",
+      "scope": "National IP framework; not a measure of designer employment or tool adoption.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
+      "bearing": "C3",
       "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "refuteNotes": "3 of 3 lenses failed to overturn: source is the Government's published inquiry response (resolves HTTP 200); binds Australian creators including this occupation's practitioners; dated 2026-04-01 within window."
     },
     {
-      "id": "27-1021-02",
-      "text": "Automation of routine transactional and analytical tasks in Commercial and Industrial Designers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
       "lane": "L2",
-      "tier": "scholarly",
+      "tier": "scholarly-interview",
+      "text": "A DRS2026 conference paper based on interviews with 20 expert industrial designers (8-40+ years' experience) found that top-down pressure for speed and efficiency drives rapid, bottom-up adoption of generative AI tools, and that in this scramble designers and businesses risk 'cognitive offloading and significant loss of control over micro-decisions' in the design process.",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Commercial and Industrial Designers",
-          "url": "https://www.jobsandskills.gov.au/research/27-1021",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Commercial and Industrial Designers in Australia"
+          "publisher": "Design Research Society (DRS2026: Edinburgh)",
+          "title": "A survey of generative AI adoption amongst industrial design experts",
+          "url": "https://doi.org/10.21606/drs.2026.2166",
+          "date": "2026-06-08",
+          "whatItMeasured": "Qualitative study: 20 senior expert industrial designers interviewed (~60 min each); reflexive thematic analysis of Gen-AI adoption drivers and consequences."
         }
       ],
-      "scope": "Entry-level and senior Commercial and Industrial Designers roles in Australia.",
+      "scope": "20 senior experts in Norway/Sweden; small, qualitative, not representative of the Australian designer population. Applies to industrial-design practice generally.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
-        "C4",
-        "W2",
-        "G2"
+        "C1",
+        "C2",
+        "W1"
       ],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "3 of 3 lenses: DRS Digital Library URL resolves (open access); population is expert industrial designers (scoped); conference date 2026-06 within window."
+    },
+    {
+      "lane": "L4",
+      "tier": "demand-adzuna-au",
+      "text": "Australian employer demand for designers is large: Adzuna AU returned 2,432 live ads for 'product designer' and 1,388 for 'industrial designer' on 2026-08-26; top recurring employers included Entain, Coates Group, Brisbane Catholic Education and Procreate, with 'product design', 'manufacturing' and 'CAD' among the most frequent skill terms.",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Live job ads — 'product designer', 'industrial designer'",
+          "url": "https://www.adzuna.com.au/jobs?what=product%20designer",
+          "date": "2026-08-26",
+          "whatItMeasured": "Adzuna AU active-ad counts (product designer=2,432; industrial designer=1,388) and employer/skill frequency from returned ad text."
+        }
+      ],
+      "scope": "Demand-side Australian ads, not graduate destinations; 'product designer' overlaps with software/product roles, likely inflating that count.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "3 of 3 lenses: Adzuna endpoint returned structured results; counts and employers present; demand not conflated with destinations."
     }
   ],
-  "jobAds": {
-    "source": "adzuna-au",
-    "query": "commercial and industrial designers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+  "corpus": {
+    "platforms": [],
+    "retrieved": "2026-08-26",
+    "searchesReturningNothing": [
+      "Factiva: 'industrial design artificial intelligence' returned 13 items, none occupation-relevant (design-services market reports, manufacturing/sourcing news) — no trade-press admitted.",
+      "L5: retrieved practitioner-discourse items for this SOC were off-topic (manufacturing/industrial-revolution), so no L5 corpus is declared."
     ]
   },
-  "corpus": {
-    "platforms": [
-      {
-        "name": "practitioner_forums",
-        "scope": "National Commercial and Industrial Designers Association discourse",
-        "items": 45
-      }
-    ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": []
-  },
-  "confidence": "high",
-  "caveats": []
+  "confidence": "medium",
+  "caveats": [
+    "No L3 trade-press claim specific to industrial designers was admitted (Factiva returned only off-topic 'design services' market reports). No L5 practitioner corpus was found: the retrieved last30days items for this SOC conflated 'industrial' with manufacturing/industrial-revolution, not industrial designers, and were excluded. Confidence is medium (L1+L2+L4), below high because no declared L5 corpus. Programs feeding this SOC were not re-derived.",
+    "L4 source URLs are Adzuna AU search endpoints, which rate-limit automated requests (HTTP 429 to bots); raw Adzuna payloads are stored in raw/ and were the basis for the cited counts."
+  ]
 }

@@ -1,98 +1,143 @@
 {
   "onet_soc_code": "27-1014",
+  "researchMethod": "empirical-five-lane-v1",
   "title": "Multi-Media Artists and Animators",
   "aliases": [
-    "Multimedia Specialist"
+    "Animator",
+    "Multimedia Artist",
+    "3D Artist",
+    "Motion Designer",
+    "VFX Artist"
   ],
-  "anzsco": "220000",
+  "anzsco": "232411",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2026-02-28",
+    "to": "2026-08-26"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-26",
+  "expires": "2027-02-26",
   "programs": [],
   "claims": [
     {
-      "id": "27-1014-01",
-      "text": "National peak professional bodies and statutory regulators governing Multi-Media Artists and Animators enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
       "lane": "L1",
       "tier": "regulatory",
+      "text": "The Australian Government's 2026 response to the Senate Adopting AI inquiry confirms no text-and-data-mining exception to the Copyright Act 1968 and that 2026 cultural-policy consultations will consider AI impacts on the creative sector — relevant to animators and multimedia artists whose generated and trained work sits at the centre of the AI-copyright debate.",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Multi-Media Artists and Animators",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Multi-Media Artists and Animators",
-          "url": "https://www.psc.gov.au/standards/27-1014",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Multi-Media Artists and Animators"
+          "publisher": "Australian Government (response to the Senate Select Committee on Adopting AI, via Copyright Agency)",
+          "title": "Government response to Senate Adopting AI inquiry — copyright position",
+          "url": "https://copyright.com.au/2026/04/government-response-to-senate-adopting-ai-inquiry",
+          "date": "2026-04-01",
+          "whatItMeasured": "Government states it is not considering a text-and-data-mining exception to the Copyright Act 1968; AGD engages creative/tech sectors via the Copyright and AI Reference Group; 2026 National Cultural Policy consultations (Office for the Arts) to consider AI impacts on the cultural and creative sector."
         }
       ],
-      "scope": "Australian practitioners in Multi-Media Artists and Animators across public, private, and research sectors.",
+      "scope": "National IP framework; not a measure of animator employment or tool adoption.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
+      "bearing": "C3",
       "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "refuteNotes": "3 of 3 lenses failed to overturn: source is the Government's published inquiry response (resolves HTTP 200); binds Australian creators including this occupation's practitioners; dated 2026-04-01 within window."
     },
     {
-      "id": "27-1014-02",
-      "text": "Automation of routine transactional and analytical tasks in Multi-Media Artists and Animators heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "text": "Reporting on the 2023 CVL Economics study (commissioned by the Animation Guild, Concept Art Association and other Hollywood labour groups, surveyed 300 executives) found about 75% of entertainment-industry executives were already using AI to remove, reduce or consolidate jobs, and estimated as many as 118,500 US entertainment positions could be lost within three years, with 80% of early adopters deploying AI in post-production — the layer (rotoscoping, cleanup, early concept passes) that has historically trained junior animators.",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Multi-Media Artists and Animators",
-          "url": "https://www.jobsandskills.gov.au/research/27-1014",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Multi-Media Artists and Animators in Australia"
+          "publisher": "Rest of World (reporting CVL Economics / Animation Guild study)",
+          "title": "What Netflix's AI bet on Ben Affleck's startup means for VFX",
+          "url": "https://restofworld.org/2026/netflix-interpositive-vfx-ai-automation/",
+          "date": "2026-04",
+          "whatItMeasured": "Rest of World article reporting the 2023 CVL Economics executive survey (n=300): 75% using AI to cut/consolidate jobs; ~118,500 US entertainment positions at risk in 3 yrs; 80% early adopters in post-production."
         }
       ],
-      "scope": "Entry-level and senior Multi-Media Artists and Animators roles in Australia.",
+      "scope": "US entertainment industry (film/TV/animation/VFX), not Australian. A 2023 study reported in 2026 trade press; figures are industry projections, not realised headcounts.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
         "C4",
-        "W2",
-        "G2"
+        "W1",
+        "W2"
       ],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "3 of 3 lenses: Rest of World URL resolves; population is US entertainment executives (scoped); article dated 2026 within window, citing a 2023 study."
+    },
+    {
+      "lane": "L4",
+      "tier": "demand-adzuna-au",
+      "text": "Australian employer demand for animators is active: Adzuna AU returned 233 live ads for 'animator', 65 for 'motion designer' and 2 for '3d artist' on 2026-08-26; counts reflect a small-sample query set for this niche.",
+      "sources": [
+        {
+          "publisher": "Adzuna AU",
+          "title": "Live job ads — 'animator', 'motion designer', '3d artist'",
+          "url": "https://www.adzuna.com.au/jobs?what=animator",
+          "date": "2026-08-26",
+          "whatItMeasured": "Adzuna AU active-ad counts (animator=233, motion designer=65, 3d artist=2) from returned payloads."
+        }
+      ],
+      "scope": "Demand-side Australian ads, not graduate destinations; '3d artist' query returned very few, likely under-coverage.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "3 of 3 lenses: Adzuna endpoint returned structured results; counts present; demand not conflated with destinations."
+    },
+    {
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Practitioner resistance is visible in creator communities: a r/indiegames thread 'AI art in your game should be an instant ban from this sub' (2026-08) shows game developers rejecting AI-generated art, a stance that extends to animation/game-art practitioner norms around disclosure and substitution.",
+      "sources": [
+        {
+          "publisher": "Reddit r/indiegames",
+          "title": "AI art in your game should be an instant ban from this sub",
+          "url": "https://www.reddit.com/r/indiegames/comments/1vn7vha/ai_art_in_your_game_should_be_an_instant_ban_from/",
+          "date": null,
+          "whatItMeasured": "Self-reported community norm rejecting AI-generated art in game dev; one of several practitioner-resistance threads in the window."
+        }
+      ],
+      "scope": "Self-selected game-dev community; indicative of practitioner norms, not a prevalence measure.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C2",
+        "W1"
+      ],
+      "refuted": false,
+      "refuteNotes": "3 of 3 lenses: URL resolves; on-topic and within window (2026-08); self-selected sample noted."
     }
   ],
-  "jobAds": {
-    "source": "adzuna-au",
-    "query": "multi-media artists and animators",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
-  },
   "corpus": {
     "platforms": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Multi-Media Artists and Animators Association discourse",
-        "items": 45
+        "name": "reddit",
+        "scope": "r/animation,r/vfx,r/gamedev",
+        "items": 15,
+        "status": "partial"
+      },
+      {
+        "name": "hackernews",
+        "scope": "AI+creative",
+        "items": 30,
+        "status": "partial"
+      },
+      {
+        "name": "youtube",
+        "scope": "AI video",
+        "items": 4,
+        "status": "partial"
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": []
+    "retrieved": "2026-08-26",
+    "searchesReturningNothing": [
+      "Factiva: 'animation artificial intelligence' returned 30 items, none occupation-relevant (college esports facilities, finance/stock news, math papers) — no trade-press admitted.",
+      "L2: no scholarly study specific to animators located; L5 practitioner corpus for this SOC was thin and partly off-topic."
+    ]
   },
-  "confidence": "high",
-  "caveats": []
+  "confidence": "medium",
+  "caveats": [
+    "No L2 scholarly claim specific to animators was admitted (the strongest evidence is US entertainment-industry trade press, carried as L3). Factiva returned 30 items for 'animation artificial intelligence' but all were off-topic (college esports, finance, stock news). Confidence is medium (L3-led). Programs feeding this SOC were not re-derived.",
+    "L4 source URLs are Adzuna AU search endpoints, which rate-limit automated requests (HTTP 429 to bots); raw Adzuna payloads are stored in raw/ and were the basis for the cited counts."
+  ]
 }

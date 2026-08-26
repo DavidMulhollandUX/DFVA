@@ -1,29 +1,31 @@
-# Deep Research Evidence Log: Fine Artists, Including Painters, Sculptors, and Illustrators (27-1013)
+# Evidence log — Fine Artists, Including Painters, Sculptors, and Illustrators (27-1013)
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Method: empirical-five-lane-v1. Window 2026-02-28..2026-08-26. Generated 2026-08-26.
 
-## Admitted Claims and Verified Citations
 
-### Claim `27-1013-01` (L1 · regulatory)
+One short verbatim quote per admitted source:
 
-> "National peak professional bodies and statutory regulators governing Fine Artists, Including Painters, Sculptors, and Illustrators enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+- [L1] Australian Government (response to the Senate Select Committee on Adopting AI, via Copyright Agency) — Government response to Senate Adopting AI inquiry — copyright position (2026-04-01)
+  (quote captured in corpus; see source)
+  https://copyright.com.au/2026/04/government-response-to-senate-adopting-ai-inquiry
 
-- **Scope:** Australian practitioners in Fine Artists, Including Painters, Sculptors, and Illustrators across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Fine Artists, Including Painters, Sculptors, and Illustrators** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Fine Artists, Including Painters, Sculptors, and Illustrators](https://www.psc.gov.au/standards/27-1013) — *What it measured:* National competency and ethics framework for Fine Artists, Including Painters, Sculptors, and Illustrators
+- [L2] ACM CHI 2026 (Proceedings of the CHI Conference on Human Factors in Computing Systems) — How Professional Visual Artists are Negotiating Generative AI in the Workplace (2026-04-13)
+  "visual artists report overwhelmingly negative impacts of generative AI on their workplaces, leading to added stress and reduced job opportunities"
+  https://dl.acm.org/doi/10.1145/3772363.3799003
 
----
+- [L3] Uncle (AI-at-work analysis, citing AOI and WEF) — Will AI Replace Illustrators and Concept Artists in 2026? (2026-07)
+  "32.4% had already lost commissions or had projects cancelled specifically because of generative AI"
+  https://tryuncle.com/learn/ai-at-work/will-ai-replace-illustrators-and-concept-artists-in-2026
 
-### Claim `27-1013-02` (L2 · scholarly)
+- [L4] Adzuna AU — Live job ads — 'illustrator' and 'painter' (2026-08-26)
+  (quote captured in corpus; see source)
+  https://api.adzuna.com/v1/api/jobs/au/search/1?app_id=REDACTED&app_key=REDACTED&results_per_page=100&what=illustrator&content-type=application/json
 
-> "Automation of routine transactional and analytical tasks in Fine Artists, Including Painters, Sculptors, and Illustrators heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
+- [L5] David Revoy (artist blog) — When online commenters 'detect' my art as AI (n.d.)
+  (quote captured in corpus; see source)
+  https://www.davidrevoy.com/article1164/when-online-commenters-detect-my-art-as-ai
 
-- **Scope:** Entry-level and senior Fine Artists, Including Painters, Sculptors, and Illustrators roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Fine Artists, Including Painters, Sculptors, and Illustrators](https://www.jobsandskills.gov.au/research/27-1013) — *What it measured:* Labour market analysis of automation resilience across Fine Artists, Including Painters, Sculptors, and Illustrators in Australia
 
----
+## Searches returning nothing
+
+- Factiva: 'illustrator artificial intelligence' returned 2 items (advertising/eco items, off-topic) — no occupation-relevant trade-press admitted.
