@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
@@ -23,7 +24,7 @@ DONE_MARKER = "empirical-five-lane-v1"
 def all_socs() -> list[str]:
     return sorted(
         p.stem for p in PROFESSIONS.glob("*.json")
-        if p.name != STATE.name
+        if p.name != STATE.name and re.fullmatch(r"\d{2}-\d{4}", p.stem)
     )
 
 

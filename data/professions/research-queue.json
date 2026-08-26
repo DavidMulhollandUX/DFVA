@@ -1,7 +1,7 @@
 {
   "version": 1,
   "method": "empirical-five-lane-v1",
-  "created": "2026-08-25T13:55:51.618955+00:00",
+  "created": "2026-08-26T14:25:27.215054+00:00",
   "queue": [
     "11-1011",
     "11-1021",
@@ -252,9 +252,7 @@
     "49-9062",
     "51-6052",
     "51-9012",
-    "53-5031",
-    "factiva_backlog",
-    "_adzuna_summary"
+    "53-5031"
   ],
   "status": {
     "11-1011": "done",
@@ -504,156 +502,11 @@
     "47-2111": "done",
     "49-2094": "done",
     "49-9062": "done",
-    "51-6052": "in_progress",
-    "51-9012": "in_progress",
-    "53-5031": "pending",
-    "factiva_backlog": "pending",
-    "_adzuna_summary": "pending"
+    "51-6052": "pending",
+    "51-9012": "pending",
+    "53-5031": "pending"
   },
-  "attempts": {
-    "11-1011": 1,
-    "45-1011": 2,
-    "45-2011": 1,
-    "45-2091": 1,
-    "45-2093": 1,
-    "47-1011": 1,
-    "47-2061": 1,
-    "47-2111": 1,
-    "49-2094": 1,
-    "49-9062": 1,
-    "27-1011": 1,
-    "27-1013": 1,
-    "27-1014": 1,
-    "27-1021": 1,
-    "11-2011": 1,
-    "11-2021": 1,
-    "11-2022": 1,
-    "11-2031": 1
-  },
-  "leases": {
-    "51-6052": {
-      "worker": "autoloop",
-      "claimed_at": "2026-08-26T01:06:16.332557+00:00"
-    },
-    "51-9012": {
-      "worker": "autoloop",
-      "claimed_at": "2026-08-26T01:06:16.392044+00:00"
-    }
-  },
-  "runs": [
-    {
-      "at": "2026-08-25T14:08:14.087155+00:00",
-      "soc": "11-1011",
-      "status": "done",
-      "note": "commit 8491471b91cab24979604bede4f14aa9be048e6f; admitted 6; refuted 2; empty lanes none; Factiva omitted; L5 grounding unreachable, X unauthenticated, polymarket no-results; Adzuna 643"
-    },
-    {
-      "at": "2026-08-25T20:59:31.236568+00:00",
-      "soc": "45-1011",
-      "status": "retry",
-      "note": "stale lease cleared after TERMINAL_CWD lock-timeout failure"
-    },
-    {
-      "at": "2026-08-25T21:28:25.949730+00:00",
-      "soc": "45-1011",
-      "status": "done",
-      "note": "commit 036c9ed; admitted 8; refuted 0; L5 corpus empty (15 items all off-population); Factiva omitted unattended"
-    },
-    {
-      "at": "2026-08-25T21:34:51.812676+00:00",
-      "soc": "45-2011",
-      "status": "done",
-      "note": "commit bcb7210; admitted 5; refuted 0; L5 corpus empty (30 items off-population); Factiva omitted unattended"
-    },
-    {
-      "at": "2026-08-25T21:40:29.443925+00:00",
-      "soc": "45-2091",
-      "status": "done",
-      "note": "commit 4e04927; admitted 3; refuted 0; L5 corpus empty (38 items off-population); Factiva omitted unattended"
-    },
-    {
-      "at": "2026-08-25T23:42:53.125111+00:00",
-      "soc": "45-2093",
-      "status": "done",
-      "note": "commit e4af6ff; admitted 4; refuted 0; empty: L5 in-scope items none, Factiva omitted unattended, grounding no-results"
-    },
-    {
-      "at": "2026-08-25T23:55:57.425432+00:00",
-      "soc": "47-1011",
-      "status": "done",
-      "note": "commit ef531cc; admitted 3; refuted 0; empty: L5 in-scope items none, L1 no in-window instrument, Factiva omitted, grounding no-results"
-    },
-    {
-      "at": "2026-08-25T23:58:53.017172+00:00",
-      "soc": "47-2061",
-      "status": "done",
-      "note": "commit fa887bd; admitted 3; refuted 0; empty: L5 in-scope items none, Factiva omitted, grounding no-results"
-    },
-    {
-      "at": "2026-08-26T00:03:21.977370+00:00",
-      "soc": "47-2111",
-      "status": "done",
-      "note": "commit e37bd07; admitted 4; refuted 0; L5 found 1 in-scope AU item (AskAusElectricians); empty: Factiva omitted, grounding/youtube no-results"
-    },
-    {
-      "at": "2026-08-26T01:19:31.037145+00:00",
-      "soc": "49-2094",
-      "status": "done",
-      "note": "commit 9945331; admitted 4; refuted 3; Factiva ran-no-relevant; confidence medium"
-    },
-    {
-      "at": "2026-08-26T01:27:40.590199+00:00",
-      "soc": "49-9062",
-      "status": "done",
-      "note": "commit preceding; admitted 4; refuted 3; confidence medium"
-    },
-    {
-      "at": "2026-08-26T13:07:53.915948+00:00",
-      "soc": "27-1011",
-      "status": "done",
-      "note": "empirical-five-lane-v1 ledgers committed b31d20f"
-    },
-    {
-      "at": "2026-08-26T13:07:53.982927+00:00",
-      "soc": "27-1013",
-      "status": "done",
-      "note": "empirical-five-lane-v1 ledgers committed b31d20f"
-    },
-    {
-      "at": "2026-08-26T13:07:54.047129+00:00",
-      "soc": "27-1014",
-      "status": "done",
-      "note": "empirical-five-lane-v1 ledgers committed b31d20f"
-    },
-    {
-      "at": "2026-08-26T13:07:54.108276+00:00",
-      "soc": "27-1021",
-      "status": "done",
-      "note": "empirical-five-lane-v1 ledgers committed b31d20f"
-    },
-    {
-      "at": "2026-08-26T14:22:37.751809+00:00",
-      "soc": "11-2011",
-      "status": "done",
-      "note": "5-lane autoloop: real L1/L2 + Adzuna L4 + last30days L5; Factiva L3 kept/attempted"
-    },
-    {
-      "at": "2026-08-26T14:22:37.809137+00:00",
-      "soc": "11-2021",
-      "status": "done",
-      "note": "5-lane autoloop: real L1/L2 + Adzuna L4 + last30days L5; Factiva L3 kept/attempted"
-    },
-    {
-      "at": "2026-08-26T14:22:37.864308+00:00",
-      "soc": "11-2022",
-      "status": "done",
-      "note": "5-lane autoloop: real L1/L2 + Adzuna L4 + last30days L5; Factiva L3 kept/attempted"
-    },
-    {
-      "at": "2026-08-26T14:22:37.922441+00:00",
-      "soc": "11-2031",
-      "status": "done",
-      "note": "5-lane autoloop: real L1/L2 + Adzuna L4 + last30days L5; Factiva L3 kept/attempted"
-    }
-  ]
+  "attempts": {},
+  "leases": {},
+  "runs": []
 }
