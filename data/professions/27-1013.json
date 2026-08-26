@@ -21,11 +21,11 @@
     {
       "lane": "L1",
       "tier": "regulatory",
-      "text": "The Australian Government's 2026 response to the Senate Adopting AI inquiry confirms no text-and-data-mining exception to the Copyright Act 1968 and that 2026 cultural-policy consultations will consider AI impacts on the creative sector — directly relevant to fine artists, illustrators and painters whose work is both training data and protected copyright.",
+      "text": "The Australian Government's 2026 response to the Senate Adopting AI inquiry confirms no text-and-data-mining exception to the Copyright Act 1968 and that 2026 cultural-policy consultations will consider AI impacts on the creative sector \u2014 directly relevant to fine artists, illustrators and painters whose work is both training data and protected copyright.",
       "sources": [
         {
           "publisher": "Australian Government (response to the Senate Select Committee on Adopting AI, via Copyright Agency)",
-          "title": "Government response to Senate Adopting AI inquiry — copyright position",
+          "title": "Government response to Senate Adopting AI inquiry \u2014 copyright position",
           "url": "https://copyright.com.au/2026/04/government-response-to-senate-adopting-ai-inquiry",
           "date": "2026-04-01",
           "whatItMeasured": "Government states it is not considering a text-and-data-mining exception to the Copyright Act 1968; AGD engages creative/tech sectors via the Copyright and AI Reference Group; 2026 National Cultural Policy consultations (Office for the Arts) to consider AI impacts on the cultural and creative sector."
@@ -65,14 +65,14 @@
     {
       "lane": "L3",
       "tier": "trade-press-dated",
-      "text": "Trade-press analysis (Uncle, updated July 2026) reports the UK Association of Illustrators found 32.4% of its 6,844 members had already lost commissions or had projects cancelled because of generative AI, averaging more than £9,000 lost per affected artist; it also cites the WEF Future of Jobs 2025 ranking graphic designers as the 11th fastest-declining job category worldwide, a reversal the WEF attributes to generative AI.",
+      "text": "Trade-press analysis (Uncle, updated July 2026) reports the UK Association of Illustrators found 32.4% of its 6,844 members had already lost commissions or had projects cancelled because of generative AI, averaging more than \u00a39,000 lost per affected artist; it also cites the WEF Future of Jobs 2025 ranking graphic designers as the 11th fastest-declining job category worldwide, a reversal the WEF attributes to generative AI.",
       "sources": [
         {
           "publisher": "Uncle (AI-at-work analysis, citing AOI and WEF)",
           "title": "Will AI Replace Illustrators and Concept Artists in 2026?",
           "url": "https://tryuncle.com/learn/ai-at-work/will-ai-replace-illustrators-and-concept-artists-in-2026",
           "date": "2026-07",
-          "whatItMeasured": "Summarises AOI member survey (n=6,844; 32.4% lost AI-attributed work; avg £9,262) and WEF Future of Jobs 2025 employer survey (graphic design fastest-declining)."
+          "whatItMeasured": "Summarises AOI member survey (n=6,844; 32.4% lost AI-attributed work; avg \u00a39,262) and WEF Future of Jobs 2025 employer survey (graphic design fastest-declining)."
         }
       ],
       "scope": "UK illustrators (AOI) and a global employer survey (WEF); not Australian. Figures are self-reported survey results, not administrative data.",
@@ -92,7 +92,7 @@
       "sources": [
         {
           "publisher": "Adzuna AU",
-          "title": "Live job ads — 'illustrator' and 'painter'",
+          "title": "Live job ads \u2014 'illustrator' and 'painter'",
           "url": "https://www.adzuna.com.au/jobs?what=illustrator",
           "date": "2026-08-26",
           "whatItMeasured": "Adzuna AU active-ad counts (illustrator=470, painter=709) and employer/skill frequency from returned ad text."
@@ -129,6 +129,237 @@
       ],
       "refuted": false,
       "refuteNotes": "3 of 3 lenses: blog URL resolves; on-topic and within window (2026); single-subject limitation noted."
+    },
+    {
+      "id": "l406",
+      "text": "Curatorial - Expression of Interest \u2014 Mona - Museum of Old and New Art (Greater Hobart Area). Posted 15 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Mona - Museum of Old and New Art",
+          "title": "Curatorial - Expression of Interest",
+          "url": "https://www.linkedin.com/jobs/view/4457697338",
+          "date": "15 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l407",
+      "text": "Regional Teaching Artist - Mackay \u2014 Queensland Ballet (Mackay, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Ballet",
+          "title": "Regional Teaching Artist - Mackay",
+          "url": "https://www.linkedin.com/jobs/view/4450033987",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l408",
+      "text": "Workshop Craftsman \u2014 ILANEL: Light. Art. Design. (St Kilda, Victoria, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "ILANEL: Light. Art. Design.",
+          "title": "Workshop Craftsman",
+          "url": "https://www.linkedin.com/jobs/view/4457196656",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l409",
+      "text": "Expression of Interest: 2D Animation Design Artists \u2014 Flying Bark Productions (Sydney, New South Wales, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Flying Bark Productions",
+          "title": "Expression of Interest: 2D Animation Design Artists",
+          "url": "https://www.linkedin.com/jobs/view/4458725868",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l410",
+      "text": "Expression of Interest - Production - Netflix Animation Studios \u2014 Netflix (Sydney, New South Wales, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Netflix",
+          "title": "Expression of Interest - Production - Netflix Animation Studios",
+          "url": "https://www.linkedin.com/jobs/view/4456515029",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l411",
+      "text": "2026 Bunbury Museum Heritage Centre & Regional Art Gallery Expressions of Interest \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "City of Bunbury",
+          "title": "2026 Bunbury Museum Heritage Centre & Regional Art Gallery Expressions of Interest",
+          "url": "https://www.linkedin.com/jobs/view/2026",
+          "date": "7 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l412",
+      "text": "2026 Bunbury Museum Heritage Centre & Regional Art Gallery Expressions of Interest \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "City of Bunbury",
+          "title": "2026 Bunbury Museum Heritage Centre & Regional Art Gallery Expressions of Interest",
+          "url": "https://www.linkedin.com/jobs/view/4362820523",
+          "date": "7 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l413",
+      "text": "Expression of Interest - Rigging - Netflix Animation Studios \u2014 Netflix (Sydney, New South Wales, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Netflix",
+          "title": "Expression of Interest - Rigging - Netflix Animation Studios",
+          "url": "https://www.linkedin.com/jobs/view/4456515031",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l414",
+      "text": "Teacher - Visual Arts \u2014 Department of Education, Western Australia (Greater Perth Area). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Education, Western Australia",
+          "title": "Teacher - Visual Arts",
+          "url": "https://www.linkedin.com/jobs/view/4454266027",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l415",
+      "text": "Senior Art Curator and Manager, University Galleries \u2014 University of Newcastle (Newcastle, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "University of Newcastle",
+          "title": "Senior Art Curator and Manager, University Galleries",
+          "url": "https://www.linkedin.com/jobs/view/4454497440",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l416",
+      "text": "Teacher - Arts \u2014 Department of Education, Western Australia (Kimberley, Western Australia, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Education, Western Australia",
+          "title": "Teacher - Arts",
+          "url": "https://www.linkedin.com/jobs/view/4456084778",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     }
   ],
   "corpus": {
@@ -154,7 +385,18 @@
     ],
     "retrieved": "2026-08-26",
     "searchesReturningNothing": [
-      "Factiva: 'illustrator artificial intelligence' returned 2 items (advertising/eco items, off-topic) — no occupation-relevant trade-press admitted."
+      "Factiva: 'illustrator artificial intelligence' returned 2 items (advertising/eco items, off-topic) \u2014 no occupation-relevant trade-press admitted."
+    ],
+    "linkedin": [
+      {
+        "date": "2026-08-27",
+        "soc": "27-1013",
+        "query": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+        "location": "Australia",
+        "returned": 11,
+        "totalResults": 11,
+        "status": "sampled"
+      }
     ]
   },
   "confidence": "high",

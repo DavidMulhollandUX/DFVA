@@ -20,11 +20,11 @@
     {
       "lane": "L1",
       "tier": "regulatory",
-      "text": "The Australian Government's 2026 response to the Senate Adopting AI inquiry confirms no text-and-data-mining exception to the Copyright Act 1968 and that 2026 cultural-policy consultations will consider AI impacts on the creative sector — relevant to commercial and industrial designers whose sketches, renders and product forms are both protected designs and potential AI training material.",
+      "text": "The Australian Government's 2026 response to the Senate Adopting AI inquiry confirms no text-and-data-mining exception to the Copyright Act 1968 and that 2026 cultural-policy consultations will consider AI impacts on the creative sector \u2014 relevant to commercial and industrial designers whose sketches, renders and product forms are both protected designs and potential AI training material.",
       "sources": [
         {
           "publisher": "Australian Government (response to the Senate Select Committee on Adopting AI, via Copyright Agency)",
-          "title": "Government response to Senate Adopting AI inquiry — copyright position",
+          "title": "Government response to Senate Adopting AI inquiry \u2014 copyright position",
           "url": "https://copyright.com.au/2026/04/government-response-to-senate-adopting-ai-inquiry",
           "date": "2026-04-01",
           "whatItMeasured": "Government states it is not considering a text-and-data-mining exception to the Copyright Act 1968; AGD engages creative/tech sectors via the Copyright and AI Reference Group; 2026 National Cultural Policy consultations (Office for the Arts) to consider AI impacts on the cultural and creative sector."
@@ -68,7 +68,7 @@
       "sources": [
         {
           "publisher": "Adzuna AU",
-          "title": "Live job ads — 'product designer', 'industrial designer'",
+          "title": "Live job ads \u2014 'product designer', 'industrial designer'",
           "url": "https://www.adzuna.com.au/jobs?what=product%20designer",
           "date": "2026-08-26",
           "whatItMeasured": "Adzuna AU active-ad counts (product designer=2,432; industrial designer=1,388) and employer/skill frequency from returned ad text."
@@ -82,14 +82,235 @@
       ],
       "refuted": false,
       "refuteNotes": "3 of 3 lenses: Adzuna endpoint returned structured results; counts and employers present; demand not conflated with destinations."
+    },
+    {
+      "id": "l404",
+      "text": "Industrial Designer \u2014 Form Designs Australia Pty Ltd (Greater Perth Area). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Form Designs Australia Pty Ltd",
+          "title": "Industrial Designer",
+          "url": "https://www.linkedin.com/jobs/view/4449312754",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l405",
+      "text": "Industrial Designer \u2014 Puretec Pty Ltd (Adelaide, South Australia, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Puretec Pty Ltd",
+          "title": "Industrial Designer",
+          "url": "https://www.linkedin.com/jobs/view/4454184699",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l406",
+      "text": "Industrial Designer \u2014 Coates Group (Sydney, New South Wales, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Coates Group",
+          "title": "Industrial Designer",
+          "url": "https://www.linkedin.com/jobs/view/4437387290",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l407",
+      "text": "Studio Designer \u2014 ARB Corporation Ltd (Melbourne, Victoria, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "ARB Corporation Ltd",
+          "title": "Studio Designer",
+          "url": "https://www.linkedin.com/jobs/view/4447253760",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l408",
+      "text": "Industrial Designer / Project Manager \u2014 Tag (Melbourne, Victoria, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Tag",
+          "title": "Industrial Designer / Project Manager",
+          "url": "https://www.linkedin.com/jobs/view/4434950306",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l409",
+      "text": "Senior Industrial Designer \u2014 Capgemini (Glebe Island, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Capgemini",
+          "title": "Senior Industrial Designer",
+          "url": "https://www.linkedin.com/jobs/view/4455583328",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l410",
+      "text": "Industrial Designer \u2014 leManoosh (Thornleigh, New South Wales, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "leManoosh",
+          "title": "Industrial Designer",
+          "url": "https://www.linkedin.com/jobs/view/4456732326",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l411",
+      "text": "Industrial Designer \u2014 Elton Mayo's (Murwillumbah, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Elton Mayo's",
+          "title": "Industrial Designer",
+          "url": "https://www.linkedin.com/jobs/view/4454480531",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l412",
+      "text": "Senior Product Designer \u2014 Bradken (Burswood, Western Australia, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Bradken",
+          "title": "Senior Product Designer",
+          "url": "https://www.linkedin.com/jobs/view/4428795692",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l413",
+      "text": "Graduate Product Design Engineer \u2014 ITW Construction Products - Asia Pacific (Dandenong South, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "ITW Construction Products - Asia Pacific",
+          "title": "Graduate Product Design Engineer",
+          "url": "https://www.linkedin.com/jobs/view/4444077762",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     }
   ],
   "corpus": {
     "platforms": [],
     "retrieved": "2026-08-26",
     "searchesReturningNothing": [
-      "Factiva: 'industrial design artificial intelligence' returned 13 items, none occupation-relevant (design-services market reports, manufacturing/sourcing news) — no trade-press admitted.",
+      "Factiva: 'industrial design artificial intelligence' returned 13 items, none occupation-relevant (design-services market reports, manufacturing/sourcing news) \u2014 no trade-press admitted.",
       "L5: retrieved practitioner-discourse items for this SOC were off-topic (manufacturing/industrial-revolution), so no L5 corpus is declared."
+    ],
+    "linkedin": [
+      {
+        "date": "2026-08-27",
+        "soc": "27-1021",
+        "query": "Commercial and Industrial Designers",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
     ]
   },
   "confidence": "medium",

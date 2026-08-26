@@ -37,7 +37,10 @@
       "scope": "Victoria only. Other states run their own licensing frameworks. It binds what repairers may legally do, not demand or automation.",
       "disposition": "scoped",
       "supersedes": null,
-      "bearing": ["G1", "W1"],
+      "bearing": [
+        "G1",
+        "W1"
+      ],
       "refuted": false,
       "refuteNotes": "3 of 3 skeptics failed to overturn: the regulator source is real (HTTP 200), it names this occupation's exact work functions, and the page is current as at the access date."
     },
@@ -62,7 +65,9 @@
       "scope": "Australian employment stock for the ANZSCO unit-group member 342313, which is broader than the US SOC 49-2094. Census-based stock, not projections, and not evidence of growth or decline.",
       "disposition": "scoped",
       "supersedes": null,
-      "bearing": ["W2"],
+      "bearing": [
+        "W2"
+      ],
       "refuted": false,
       "refuteNotes": "3 of 3 skeptics failed to overturn: JSA is the authoritative national source, the population is stated, and the February 2026 data file is inside the window."
     },
@@ -86,7 +91,10 @@
       "scope": "Aviation maintenance operations worldwide, not commercial/industrial electronics repair generally and not Australia-specific. The effect sizes are single-study figures, not a meta-analytic range.",
       "disposition": "scoped",
       "supersedes": null,
-      "bearing": ["C3", "W2"],
+      "bearing": [
+        "C3",
+        "W2"
+      ],
       "refuted": false,
       "refuteNotes": "2 of 3 skeptics failed to overturn: the paper and posted date resolve and the population is preserved as aviation-only; the third flagged that no AU replication exists, which the scope records."
     },
@@ -127,9 +135,222 @@
       "scope": "Self-selected forum sample: three threads from r/PLC, r/IndustrialAutomation and r/MaintenanceTechnician within the declared window out of 21 retrieved Reddit items. No prevalence claim about the profession is supported, and the poster base is international rather than Australian.",
       "disposition": "scoped",
       "supersedes": null,
-      "bearing": ["C4", "W1"],
+      "bearing": [
+        "C4",
+        "W1"
+      ],
       "refuted": false,
       "refuteNotes": "3 of 3 skeptics failed to overturn for existence and window; the claim is restricted to what the threads show and asserts no prevalence."
+    },
+    {
+      "id": "l405",
+      "text": "Repair Centre Technician \u2014 Cubic Corporation (Murarrie, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Cubic Corporation",
+          "title": "Repair Centre Technician",
+          "url": "https://www.linkedin.com/jobs/view/4435304703",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l406",
+      "text": "Service Technician (QLD) \u2014 NHP Electrical Engineering Products (Queensland, Australia). Posted 11 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NHP Electrical Engineering Products",
+          "title": "Service Technician (QLD)",
+          "url": "https://www.linkedin.com/jobs/view/4459180468",
+          "date": "11 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l407",
+      "text": "Electrical Maintenance Technician \u2014 Anduril Industries (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Anduril Industries",
+          "title": "Electrical Maintenance Technician",
+          "url": "https://www.linkedin.com/jobs/view/4448748893",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l408",
+      "text": "Maintenance Technician \u2014 Amazon (Horsley Park, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Amazon",
+          "title": "Maintenance Technician",
+          "url": "https://www.linkedin.com/jobs/view/4455913058",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l409",
+      "text": "Technician \u2013 Electrical Field Service \u2014 Cummins Asia Pacific (Perth, Western Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Cummins Asia Pacific",
+          "title": "Technician \u2013 Electrical Field Service",
+          "url": "https://www.linkedin.com/jobs/view/4454991559",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l410",
+      "text": "Workshop / Field Technician (Electrical Service Technician) \u2014 Rotork (Gladstone, Queensland, Australia). Posted 3 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Rotork",
+          "title": "Workshop / Field Technician (Electrical Service Technician)",
+          "url": "https://www.linkedin.com/jobs/view/4410108303",
+          "date": "3 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l411",
+      "text": "Electrical Technician \u2014 Hatch (Thornleigh, New South Wales, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Hatch",
+          "title": "Electrical Technician",
+          "url": "https://www.linkedin.com/jobs/view/4446762556",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l412",
+      "text": "Maintenance Technician \u2014 Amazon (Jandakot, Western Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Amazon",
+          "title": "Maintenance Technician",
+          "url": "https://www.linkedin.com/jobs/view/4455799259",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l413",
+      "text": "Service Technician \u2014 EnerSys (Pinkenba, Queensland, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "EnerSys",
+          "title": "Service Technician",
+          "url": "https://www.linkedin.com/jobs/view/4457405215",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l414",
+      "text": "Service Technician \u2014 ABB (Moorebank, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "ABB",
+          "title": "Service Technician",
+          "url": "https://www.linkedin.com/jobs/view/4455277572",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     }
   ],
   "refutedClaims": [
@@ -155,16 +376,58 @@
     "window": "retrieved 2026-08-26",
     "count": 233,
     "countNote": "233 for broad 'electronics repairer'; 15 for 'electronic equipment trades worker'; 2 for 'industrial electronics technician'",
-    "topEmployers": ["Lucky White Goods Pty Limited", "11 Recruitment", "Talent Recruitment", "BAE Systems", "Tekk Group WA", "2XM Recruit", "Skill Match Recruit", "CEA Technologies"],
-    "topSkills": ["motor", "PCB", "fault finding", "soldering", "preventative maintenance", "automation", "instrumentation"]
+    "topEmployers": [
+      "Lucky White Goods Pty Limited",
+      "11 Recruitment",
+      "Talent Recruitment",
+      "BAE Systems",
+      "Tekk Group WA",
+      "2XM Recruit",
+      "Skill Match Recruit",
+      "CEA Technologies"
+    ],
+    "topSkills": [
+      "motor",
+      "PCB",
+      "fault finding",
+      "soldering",
+      "preventative maintenance",
+      "automation",
+      "instrumentation"
+    ]
   },
   "corpus": {
     "platforms": [
-      {"name": "reddit", "scope": "r/PLC, r/electricians, r/IndustrialAutomation, r/MaintenanceTechnician via last30days plus arctic-shift thread harvest", "items": 21, "state": "ok"},
-      {"name": "hackernews", "scope": "last30days sweep", "items": 25, "state": "ok"},
-      {"name": "youtube", "scope": "last30days sweep", "items": 1, "state": "ok"},
-      {"name": "github", "scope": "last30days sweep", "items": 5, "state": "ok"},
-      {"name": "polymarket", "scope": "last30days sweep", "items": 0, "state": "no-results"}
+      {
+        "name": "reddit",
+        "scope": "r/PLC, r/electricians, r/IndustrialAutomation, r/MaintenanceTechnician via last30days plus arctic-shift thread harvest",
+        "items": 21,
+        "state": "ok"
+      },
+      {
+        "name": "hackernews",
+        "scope": "last30days sweep",
+        "items": 25,
+        "state": "ok"
+      },
+      {
+        "name": "youtube",
+        "scope": "last30days sweep",
+        "items": 1,
+        "state": "ok"
+      },
+      {
+        "name": "github",
+        "scope": "last30days sweep",
+        "items": 5,
+        "state": "ok"
+      },
+      {
+        "name": "polymarket",
+        "scope": "last30days sweep",
+        "items": 0,
+        "state": "no-results"
+      }
     ],
     "retrieved": "2026-08-26",
     "searchesReturningNothing": [
@@ -175,6 +438,17 @@
       "tiktok/instagram: skipped-unconfigured (no ScrapeCreators key)",
       "hackernews, youtube and github: results returned but no occupation-fit practitioner claim survived the refute pass",
       "JSA employment-projection search for projections data: no projections series located for this occupation; only census stock data admitted"
+    ],
+    "linkedin": [
+      {
+        "date": "2026-08-27",
+        "soc": "49-2094",
+        "query": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
     ]
   },
   "confidence": "medium",

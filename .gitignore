@@ -95,3 +95,6 @@ data/factiva_cookies.json
 
 # Factiva L3 backfill backlog (live mutable state, written by autoloop every run)
 data/professions/factiva_backlog.json
+
+# LinkedIn L4 backfill runtime state (gitignored, like factiva_backlog)
+data/professions/linkedin_backlog.json

@@ -98,6 +98,237 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "Lens 1 (source real): USDA ERS charts-of-note page resolves HTTP 200 with dateline 6/2/2026. Lens 2 (population fit): fails for Australia - refuter upheld, population is US dairies. Lens 3 (in window): published June 2026 describing 2021 survey wave; publication inside window. Claim survives 2 of 3 (source real and in-window fail to overturn) and is scoped explicitly as non-AU."
+    },
+    {
+      "id": "l405",
+      "text": "Free Range Poultry Hand \u2014 McLean Farms (Pittsworth, Queensland, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "McLean Farms",
+          "title": "Free Range Poultry Hand",
+          "url": "https://www.linkedin.com/jobs/view/4447717892",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l406",
+      "text": "Free Range Poultry Hand Pittsworth, QLD \u2014 McLean Farms (Pittsworth, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "McLean Farms",
+          "title": "Free Range Poultry Hand Pittsworth, QLD",
+          "url": "https://www.linkedin.com/jobs/view/4452849488",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l407",
+      "text": "2026 Bunbury Wildlife Park Expressions of Interest \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "City of Bunbury",
+          "title": "2026 Bunbury Wildlife Park Expressions of Interest",
+          "url": "https://www.linkedin.com/jobs/view/2026",
+          "date": "7 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l408",
+      "text": "2026 Bunbury Wildlife Park Expressions of Interest \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "City of Bunbury",
+          "title": "2026 Bunbury Wildlife Park Expressions of Interest",
+          "url": "https://www.linkedin.com/jobs/view/4358367166",
+          "date": "7 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l409",
+      "text": "Farm Hand - Breeders \u2014 Hazeldenes Chicken (Newbridge, Victoria, Australia). Posted 3 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Hazeldenes Chicken",
+          "title": "Farm Hand - Breeders",
+          "url": "https://www.linkedin.com/jobs/view/4398516021",
+          "date": "3 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l410",
+      "text": "Quarantine Poultry Farm Worker \u2014 Aviagen (Wagga Wagga, New South Wales, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Aviagen",
+          "title": "Quarantine Poultry Farm Worker",
+          "url": "https://www.linkedin.com/jobs/view/4446572035",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l411",
+      "text": "Livestock Officer \u2014 Bindaree Food Group (Cooma, New South Wales, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Bindaree Food Group",
+          "title": "Livestock Officer",
+          "url": "https://www.linkedin.com/jobs/view/4447277870",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l412",
+      "text": "Hatchery Process Workers Permanent full-time, located in Allora, QLD \u2014 Darwalla Group (Allora, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Darwalla Group",
+          "title": "Hatchery Process Workers Permanent full-time, located in Allora, QLD",
+          "url": "https://www.linkedin.com/jobs/view/4449535572",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l413",
+      "text": "Shed Hand \u2014 Pace Farm (Eden Park, Victoria, Australia). Posted 8 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Pace Farm",
+          "title": "Shed Hand",
+          "url": "https://www.linkedin.com/jobs/view/4342750370",
+          "date": "8 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l414",
+      "text": "Poultry Farm Hand - Seeking a Tree Change? Multiple Regional VIC Locations \u2014 Pace Farm (Capels Crossing, Victoria, Australia). Posted 5 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Pace Farm",
+          "title": "Poultry Farm Hand - Seeking a Tree Change? Multiple Regional VIC Locations",
+          "url": "https://www.linkedin.com/jobs/view/4375053297",
+          "date": "5 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l415",
+      "text": "Farm Worker \u2014 Ag Assist (Other Side Of The Moon, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Ag Assist",
+          "title": "Farm Worker",
+          "url": "https://www.linkedin.com/jobs/view/4450311988",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     }
   ],
   "jobAds": {
@@ -163,6 +394,17 @@
         "status": "attempted-no-relevant-results",
         "date": "2026-08-26",
         "note": "session live; queries ran, returned 0 occupation-relevant items (academic licence content restriction)"
+      }
+    ],
+    "linkedin": [
+      {
+        "date": "2026-08-27",
+        "soc": "45-2093",
+        "query": "Farmworkers, Farm and Ranch Animals",
+        "location": "Australia",
+        "returned": 11,
+        "totalResults": 11,
+        "status": "sampled"
       }
     ]
   },

@@ -9,11 +9,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2026-02-26",
-    "to": "2026-08-25"
+    "from": "2024-01-01",
+    "to": "2026-08-26"
   },
-  "generated": "2026-08-25",
-  "expires": "2027-02-25",
+  "generated": "2026-08-26",
+  "expires": "2027-02-22",
   "programs": [],
   "claims": [
     {
@@ -177,6 +177,279 @@
       ],
       "refuted": false,
       "refuteNotes": "2 of 3 skeptics failed to overturn: the archived source and date are verified. The population skeptic overturned because user identities are unverified, so the claim is restricted to community moderation rather than the profession."
+    },
+    {
+      "id": "l3f01",
+      "text": "German Robotics Firm Neura Secures $1.4B Investment from Tether, Nvidia, and Amazon",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Blockonomi",
+          "title": "German Robotics Firm Neura Secures $1.4B Investment from Tether, Nvidia, and Amazon",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=BLOKN00020260611em6b00002&drn=drn:archive.newsarticle.BLOKN00020260611em6b00002&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "11 June 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f02",
+      "text": "Market Watch: Employment Data, Corporate Earnings, and Investment Trends This Week",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "parameter.io",
+          "title": "Market Watch: Employment Data, Corporate Earnings, and Investment Trends This Week",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=PARMET0020260531em5v00003&drn=drn:archive.newsarticle.PARMET0020260531em5v00003&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "31 May 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f03",
+      "text": "How a small hardware store nailed AI and pushed sales to the next level",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Irish Independent",
+          "title": "How a small hardware store nailed AI and pushed sales to the next level",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=IINM000020250626el6q00035&drn=drn:archive.newsarticle.IINM000020250626el6q00035&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "26 June 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l410",
+      "text": "Chief Executive Officer \u2014 One Executive (Baulkham Hills, New South Wales, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "One Executive",
+          "title": "Chief Executive Officer",
+          "url": "https://www.linkedin.com/jobs/view/4452315272",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l411",
+      "text": "Chief Executive Officer \u2014 Lester Blades - Executive Search & Board Advisory (Perth, Western Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Lester Blades - Executive Search & Board Advisory",
+          "title": "Chief Executive Officer",
+          "url": "https://www.linkedin.com/jobs/view/4453531059",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l412",
+      "text": "Chief executive officer \u2013 APONT \u2014 Beilby Downing Teal Pty Ltd (Darwin, Northern Territory, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Beilby Downing Teal Pty Ltd",
+          "title": "Chief executive officer \u2013 APONT",
+          "url": "https://www.linkedin.com/jobs/view/4456064922",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l413",
+      "text": "Chief Executive Officer \u2014 Cara (Adelaide, South Australia, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Cara",
+          "title": "Chief Executive Officer",
+          "url": "https://www.linkedin.com/jobs/view/4456052698",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l414",
+      "text": "Chief Executive Officer \u2014 Queensland Government (South Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Government",
+          "title": "Chief Executive Officer",
+          "url": "https://www.linkedin.com/jobs/view/4455268395",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l415",
+      "text": "Founder & CEO - Industrial Shield \u2014 Founders Factory (Perth, Western Australia, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Founders Factory",
+          "title": "Founder & CEO - Industrial Shield",
+          "url": "https://www.linkedin.com/jobs/view/4441662242",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l416",
+      "text": "Chief Executive Officer \u2014 Brooker Consulting (Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Brooker Consulting",
+          "title": "Chief Executive Officer",
+          "url": "https://www.linkedin.com/jobs/view/4453529674",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l417",
+      "text": "Chief Executive Officer \u2014 Brooker Consulting (Echuca, Victoria, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Brooker Consulting",
+          "title": "Chief Executive Officer",
+          "url": "https://www.linkedin.com/jobs/view/4446454290",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l418",
+      "text": "Chief Executive Officer \u2014 Talent Nation (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Talent Nation",
+          "title": "Chief Executive Officer",
+          "url": "https://www.linkedin.com/jobs/view/4453525053",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l419",
+      "text": "Chief Executive Officer \u2014 Culture is Life (Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Culture is Life",
+          "title": "Chief Executive Officer",
+          "url": "https://www.linkedin.com/jobs/view/4456115897",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     }
   ],
   "jobAds": {
@@ -258,6 +531,17 @@
       "tiktok/instagram: skipped-unconfigured (no ScrapeCreators key)",
       "hackernews, youtube and github: results returned but no additional occupation-fit practitioner claim survived",
       "L1: no occupation-wide chief-executive regulator exists; the admitted APRA finding is sector-limited"
+    ],
+    "linkedin": [
+      {
+        "date": "2026-08-27",
+        "soc": "11-1011",
+        "query": "Chief Executives",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
     ]
   },
   "confidence": "high",
@@ -266,6 +550,7 @@
     "The strongest Australian occupation-specific survey has 60 respondents and covers large companies.",
     "The NBER and Gartner findings mix CEOs with other senior executives; only claims that preserve that population were admitted.",
     "The r/ceo item records moderation practice in a self-selected forum whose user identities were not verified.",
-    "Adzuna employer and skill rankings use a 250-listing relevance sample from 643 current matches."
+    "Adzuna employer and skill rankings use a 250-listing relevance sample from 643 current matches.",
+    "L3 Factiva claims backfilled 2026-08-26 (hybrid cookie session)."
   ]
 }

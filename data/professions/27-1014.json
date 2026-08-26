@@ -21,11 +21,11 @@
     {
       "lane": "L1",
       "tier": "regulatory",
-      "text": "The Australian Government's 2026 response to the Senate Adopting AI inquiry confirms no text-and-data-mining exception to the Copyright Act 1968 and that 2026 cultural-policy consultations will consider AI impacts on the creative sector — relevant to animators and multimedia artists whose generated and trained work sits at the centre of the AI-copyright debate.",
+      "text": "The Australian Government's 2026 response to the Senate Adopting AI inquiry confirms no text-and-data-mining exception to the Copyright Act 1968 and that 2026 cultural-policy consultations will consider AI impacts on the creative sector \u2014 relevant to animators and multimedia artists whose generated and trained work sits at the centre of the AI-copyright debate.",
       "sources": [
         {
           "publisher": "Australian Government (response to the Senate Select Committee on Adopting AI, via Copyright Agency)",
-          "title": "Government response to Senate Adopting AI inquiry — copyright position",
+          "title": "Government response to Senate Adopting AI inquiry \u2014 copyright position",
           "url": "https://copyright.com.au/2026/04/government-response-to-senate-adopting-ai-inquiry",
           "date": "2026-04-01",
           "whatItMeasured": "Government states it is not considering a text-and-data-mining exception to the Copyright Act 1968; AGD engages creative/tech sectors via the Copyright and AI Reference Group; 2026 National Cultural Policy consultations (Office for the Arts) to consider AI impacts on the cultural and creative sector."
@@ -41,7 +41,7 @@
     {
       "lane": "L3",
       "tier": "trade-press-dated",
-      "text": "Reporting on the 2023 CVL Economics study (commissioned by the Animation Guild, Concept Art Association and other Hollywood labour groups, surveyed 300 executives) found about 75% of entertainment-industry executives were already using AI to remove, reduce or consolidate jobs, and estimated as many as 118,500 US entertainment positions could be lost within three years, with 80% of early adopters deploying AI in post-production — the layer (rotoscoping, cleanup, early concept passes) that has historically trained junior animators.",
+      "text": "Reporting on the 2023 CVL Economics study (commissioned by the Animation Guild, Concept Art Association and other Hollywood labour groups, surveyed 300 executives) found about 75% of entertainment-industry executives were already using AI to remove, reduce or consolidate jobs, and estimated as many as 118,500 US entertainment positions could be lost within three years, with 80% of early adopters deploying AI in post-production \u2014 the layer (rotoscoping, cleanup, early concept passes) that has historically trained junior animators.",
       "sources": [
         {
           "publisher": "Rest of World (reporting CVL Economics / Animation Guild study)",
@@ -69,7 +69,7 @@
       "sources": [
         {
           "publisher": "Adzuna AU",
-          "title": "Live job ads — 'animator', 'motion designer', '3d artist'",
+          "title": "Live job ads \u2014 'animator', 'motion designer', '3d artist'",
           "url": "https://www.adzuna.com.au/jobs?what=animator",
           "date": "2026-08-26",
           "whatItMeasured": "Adzuna AU active-ad counts (animator=233, motion designer=65, 3d artist=2) from returned payloads."
@@ -106,6 +106,258 @@
       ],
       "refuted": false,
       "refuteNotes": "3 of 3 lenses: URL resolves; on-topic and within window (2026-08); self-selected sample noted."
+    },
+    {
+      "id": "l405",
+      "text": "Expression of Interest - Production - Netflix Animation Studios \u2014 Netflix (Sydney, New South Wales, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Netflix",
+          "title": "Expression of Interest - Production - Netflix Animation Studios",
+          "url": "https://www.linkedin.com/jobs/view/4456515029",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l406",
+      "text": "Expression of Interest - Rigging - Netflix Animation Studios \u2014 Netflix (Sydney, New South Wales, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Netflix",
+          "title": "Expression of Interest - Rigging - Netflix Animation Studios",
+          "url": "https://www.linkedin.com/jobs/view/4456515031",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l407",
+      "text": "Expression of Interest: 2D Animation Design Artists \u2014 Flying Bark Productions (Sydney, New South Wales, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Flying Bark Productions",
+          "title": "Expression of Interest: 2D Animation Design Artists",
+          "url": "https://www.linkedin.com/jobs/view/4458725868",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l408",
+      "text": "Animator \u2014 Industrial Light & Magic (Moore Park, New South Wales, Australia). Posted 2 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Industrial Light & Magic",
+          "title": "Animator",
+          "url": "https://www.linkedin.com/jobs/view/4430926926",
+          "date": "2 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l409",
+      "text": "3D Artist (Animation) - TikTok Design LIVE Gifts & Effects \u2014 TikTok (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "TikTok",
+          "title": "3D Artist (Animation) - TikTok Design LIVE Gifts & Effects",
+          "url": "https://www.linkedin.com/jobs/view/3",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l410",
+      "text": "3D Artist (Animation) - TikTok Design LIVE Gifts & Effects \u2014 TikTok (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "TikTok",
+          "title": "3D Artist (Animation) - TikTok Design LIVE Gifts & Effects",
+          "url": "https://www.linkedin.com/jobs/view/4452740074",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l411",
+      "text": "Animator \u2014 Framestore (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Framestore",
+          "title": "Animator",
+          "url": "https://www.linkedin.com/jobs/view/4451608138",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l412",
+      "text": "Crowd TD \u2014 Flying Bark Productions (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Flying Bark Productions",
+          "title": "Crowd TD",
+          "url": "https://www.linkedin.com/jobs/view/4446708684",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l413",
+      "text": "2D Animation Director \u2014 Glitch Productions (Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Glitch Productions",
+          "title": "2D Animation Director",
+          "url": "https://www.linkedin.com/jobs/view/2",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l414",
+      "text": "2D Animation Director \u2014 Glitch Productions (Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Glitch Productions",
+          "title": "2D Animation Director",
+          "url": "https://www.linkedin.com/jobs/view/4457461196",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l415",
+      "text": "Content Creator (Home) \u2014 VaynerX (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "VaynerX",
+          "title": "Content Creator (Home)",
+          "url": "https://www.linkedin.com/jobs/view/4425812951",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l416",
+      "text": "Content Creator (Home) \u2014 VaynerMedia (Sydney, New South Wales, Australia). Posted 2 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "VaynerMedia",
+          "title": "Content Creator (Home)",
+          "url": "https://www.linkedin.com/jobs/view/4426345299",
+          "date": "2 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     }
   ],
   "corpus": {
@@ -131,8 +383,19 @@
     ],
     "retrieved": "2026-08-26",
     "searchesReturningNothing": [
-      "Factiva: 'animation artificial intelligence' returned 30 items, none occupation-relevant (college esports facilities, finance/stock news, math papers) — no trade-press admitted.",
+      "Factiva: 'animation artificial intelligence' returned 30 items, none occupation-relevant (college esports facilities, finance/stock news, math papers) \u2014 no trade-press admitted.",
       "L2: no scholarly study specific to animators located; L5 practitioner corpus for this SOC was thin and partly off-topic."
+    ],
+    "linkedin": [
+      {
+        "date": "2026-08-27",
+        "soc": "27-1014",
+        "query": "Multi-Media Artists and Animators",
+        "location": "Australia",
+        "returned": 12,
+        "totalResults": 12,
+        "status": "sampled"
+      }
     ]
   },
   "confidence": "medium",

@@ -37,7 +37,10 @@
       "scope": "Australia; binds sponsors and manufacturers' post-market conduct rather than licensing individual repairers. It does not measure demand, automation or workforce.",
       "disposition": "scoped",
       "supersedes": null,
-      "bearing": ["G1", "W1"],
+      "bearing": [
+        "G1",
+        "W1"
+      ],
       "refuted": false,
       "refuteNotes": "3 of 3 skeptics failed to overturn: the TGA source is real (HTTP 200), it names repair as a regulated action, and the page is current at access date."
     },
@@ -61,7 +64,10 @@
       "scope": "US biomedical equipment technicians surveyed by an advocacy-funded education fund, with self-selected respondents. It does not measure Australian practice, and its framing favours repair reform.",
       "disposition": "scoped",
       "supersedes": null,
-      "bearing": ["C3", "W1"],
+      "bearing": [
+        "C3",
+        "W1"
+      ],
       "refuted": false,
       "refuteNotes": "3 of 3 skeptics failed to overturn existence, population and window; the advocacy funding and self-selection are preserved in scope."
     },
@@ -85,7 +91,10 @@
       "scope": "US healthcare technology management sector as reported by its trade magazine. It shows role diversification toward cybersecurity tasks, not AI automation, and says nothing about Australian hospitals.",
       "disposition": "scoped",
       "supersedes": null,
-      "bearing": ["C4", "W1"],
+      "bearing": [
+        "C4",
+        "W1"
+      ],
       "refuted": false,
       "refuteNotes": "3 of 3 skeptics failed to overturn: dated trade press, named employers, in window."
     },
@@ -117,9 +126,221 @@
       "scope": "US health systems; vendor-authored announcement corroborated by trade-press coverage. It evidences investment direction, not measured adoption rates, and no Australian equivalent was found.",
       "disposition": "scoped",
       "supersedes": null,
-      "bearing": ["C3"],
+      "bearing": [
+        "C3"
+      ],
       "refuted": false,
       "refuteNotes": "3 of 3 skeptics failed to overturn: both sources resolve with matching dates, and the claim is limited to the investment's occurrence and stated purpose."
+    },
+    {
+      "id": "l405",
+      "text": "Service Technician - General \u2014 Aidacare Pty Ltd (Mackay, Queensland, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Aidacare Pty Ltd",
+          "title": "Service Technician - General",
+          "url": "https://www.linkedin.com/jobs/view/4436488291",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l406",
+      "text": "Service Technician \u2014 Aidacare Pty Ltd (Ballina, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Aidacare Pty Ltd",
+          "title": "Service Technician",
+          "url": "https://www.linkedin.com/jobs/view/4446544907",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l407",
+      "text": "Field service technician - Brisbane \u2014 Umano Medical (Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Umano Medical",
+          "title": "Field service technician - Brisbane",
+          "url": "https://www.linkedin.com/jobs/view/4448447244",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l408",
+      "text": "Field Service Engineer - Mackay \u2014 Siemens Healthineers (Mackay, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Siemens Healthineers",
+          "title": "Field Service Engineer - Mackay",
+          "url": "https://www.linkedin.com/jobs/view/4451238362",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l409",
+      "text": "Field Service Engineer \u2014 Stryker (Melbourne, Victoria, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Stryker",
+          "title": "Field Service Engineer",
+          "url": "https://www.linkedin.com/jobs/view/4410469677",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l410",
+      "text": "Field Service Engineer \u2014 Stryker (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Stryker",
+          "title": "Field Service Engineer",
+          "url": "https://www.linkedin.com/jobs/view/4431225386",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l411",
+      "text": "Field Service Technician \u2014 Henry Schein Australia (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Henry Schein Australia",
+          "title": "Field Service Technician",
+          "url": "https://www.linkedin.com/jobs/view/4449362811",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l412",
+      "text": "Field Service Technician \u2014 Henry Schein Australia (Hunter, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Henry Schein Australia",
+          "title": "Field Service Technician",
+          "url": "https://www.linkedin.com/jobs/view/4450041879",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l413",
+      "text": "Field Service Engineer - Cairns \u2014 Siemens Healthineers (Cairns, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Siemens Healthineers",
+          "title": "Field Service Engineer - Cairns",
+          "url": "https://www.linkedin.com/jobs/view/4449580034",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l414",
+      "text": "Field Service Engineer \u2014 Device Technologies | Robotics (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Device Technologies | Robotics",
+          "title": "Field Service Engineer",
+          "url": "https://www.linkedin.com/jobs/view/4448488711",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     }
   ],
   "refutedClaims": [
@@ -145,16 +366,54 @@
     "window": "retrieved 2026-08-26",
     "count": 9,
     "countNote": "9 listings for 'medical equipment repairer'; 0 for the two narrower queries",
-    "topEmployers": ["S C Medical Pty Limited", "Perth Scientific", "Macro Recruitment", "MICOB Biomedical Service", "ResMed", "701 Recruitment"],
-    "topSkills": ["biomedical", "hospital", "medical device", "preventative maintenance", "electronics"]
+    "topEmployers": [
+      "S C Medical Pty Limited",
+      "Perth Scientific",
+      "Macro Recruitment",
+      "MICOB Biomedical Service",
+      "ResMed",
+      "701 Recruitment"
+    ],
+    "topSkills": [
+      "biomedical",
+      "hospital",
+      "medical device",
+      "preventative maintenance",
+      "electronics"
+    ]
   },
   "corpus": {
     "platforms": [
-      {"name": "reddit", "scope": "r/BiomedicalEngineers, r/ClinicalEngineering, r/HTM, r/biotech via last30days plus arctic-shift thread dating", "items": 5, "state": "ok"},
-      {"name": "hackernews", "scope": "last30days sweep", "items": 11, "state": "ok"},
-      {"name": "youtube", "scope": "last30days sweep", "items": 0, "state": "no-results"},
-      {"name": "github", "scope": "last30days sweep", "items": 5, "state": "ok"},
-      {"name": "polymarket", "scope": "last30days sweep", "items": 0, "state": "no-results"}
+      {
+        "name": "reddit",
+        "scope": "r/BiomedicalEngineers, r/ClinicalEngineering, r/HTM, r/biotech via last30days plus arctic-shift thread dating",
+        "items": 5,
+        "state": "ok"
+      },
+      {
+        "name": "hackernews",
+        "scope": "last30days sweep",
+        "items": 11,
+        "state": "ok"
+      },
+      {
+        "name": "youtube",
+        "scope": "last30days sweep",
+        "items": 0,
+        "state": "no-results"
+      },
+      {
+        "name": "github",
+        "scope": "last30days sweep",
+        "items": 5,
+        "state": "ok"
+      },
+      {
+        "name": "polymarket",
+        "scope": "last30days sweep",
+        "items": 0,
+        "state": "no-results"
+      }
     ],
     "retrieved": "2026-08-26",
     "searchesReturningNothing": [
@@ -165,6 +424,17 @@
       "tiktok/instagram: skipped-unconfigured (no ScrapeCreators key)",
       "r/ClinicalEngineering and r/HTM subreddits returned nothing in scope during the window",
       "no Australian regulatory instrument licensing medical-equipment repairers individually was located; the admitted L1 binds sponsors instead"
+    ],
+    "linkedin": [
+      {
+        "date": "2026-08-27",
+        "soc": "49-9062",
+        "query": "Medical Equipment Repairers",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
     ]
   },
   "confidence": "medium",

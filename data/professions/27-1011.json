@@ -24,7 +24,7 @@
       "sources": [
         {
           "publisher": "Australian Government (response to the Senate Select Committee on Adopting AI, via Copyright Agency)",
-          "title": "Government response to Senate Adopting AI inquiry — copyright position",
+          "title": "Government response to Senate Adopting AI inquiry \u2014 copyright position",
           "url": "https://copyright.com.au/2026/04/government-response-to-senate-adopting-ai-inquiry",
           "date": "2026-04-01",
           "whatItMeasured": "Government states it is not considering a text-and-data-mining exception to the Copyright Act 1968; AGD engages creative/tech sectors via the Copyright and AI Reference Group; 2026 National Cultural Policy consultations (Office for the Arts) to consider AI impacts on the cultural and creative sector."
@@ -44,7 +44,7 @@
       "sources": [
         {
           "publisher": "Adzuna AU",
-          "title": "Live job ads — query 'art director'",
+          "title": "Live job ads \u2014 query 'art director'",
           "url": "https://www.adzuna.com.au/jobs?what=art%20director",
           "date": "2026-08-26",
           "whatItMeasured": "Adzuna AU active job-ad count for 'art director' (count=46); top employers and skill frequency across returned ad text."
@@ -85,7 +85,7 @@
     {
       "lane": "L5",
       "tier": "practitioner-discourse",
-      "text": "A Stanford-led study reported by Ars Technica (2026-08) found employment for workers aged 22-25 in the most AI-impacted occupations fell about 11% since 2022, versus ~10% growth in least-impacted occupations — relevant to art-direction entry on-ramps, since the effect is driven by lower hiring for entry-level roles in codified-knowledge, AI-automatable work.",
+      "text": "A Stanford-led study reported by Ars Technica (2026-08) found employment for workers aged 22-25 in the most AI-impacted occupations fell about 11% since 2022, versus ~10% growth in least-impacted occupations \u2014 relevant to art-direction entry on-ramps, since the effect is driven by lower hiring for entry-level roles in codified-knowledge, AI-automatable work.",
       "sources": [
         {
           "publisher": "Ars Technica (reporting Stanford/Brynjolfsson et al. working paper)",
@@ -104,6 +104,216 @@
       ],
       "refuted": false,
       "refuteNotes": "3 of 3 lenses: source real (Ars Technica live, study cited); population is US workers not AU art directors (scoped); within window (2026-08)."
+    },
+    {
+      "id": "l405",
+      "text": "Art Director (12 Months) \u2014 Eucalyptus (Sydney, New South Wales, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Eucalyptus",
+          "title": "Art Director (12 Months)",
+          "url": "https://www.linkedin.com/jobs/view/4439843127",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l406",
+      "text": "Senior Art Director \u2014 Guzman y Gomez Mexican Kitchen (Surry Hills, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Guzman y Gomez Mexican Kitchen",
+          "title": "Senior Art Director",
+          "url": "https://www.linkedin.com/jobs/view/4449506275",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l407",
+      "text": "Retail Experience Art Director \u2014 Cheil Australia (Sydney Olympic Park, New South Wales, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Cheil Australia",
+          "title": "Retail Experience Art Director",
+          "url": "https://www.linkedin.com/jobs/view/4446243616",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l408",
+      "text": "Art Director \u2014 I Want It Yesterday. (Sydney, New South Wales, Australia). Posted 16 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "I Want It Yesterday.",
+          "title": "Art Director",
+          "url": "https://www.linkedin.com/jobs/view/4459131019",
+          "date": "16 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l409",
+      "text": "Creative Lead, MECCA-Maginations \u2014 MECCA Brands (Richmond, Victoria, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "MECCA Brands",
+          "title": "Creative Lead, MECCA-Maginations",
+          "url": "https://www.linkedin.com/jobs/view/4458192001",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l410",
+      "text": "Head of Creative Studio \u2014 King Living (Turrella, New South Wales, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "King Living",
+          "title": "Head of Creative Studio",
+          "url": "https://www.linkedin.com/jobs/view/4446893100",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l411",
+      "text": "EOI - 2D Art Directors \u2014 Princess Bento Studio (South Melbourne, Victoria, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Princess Bento Studio",
+          "title": "EOI - 2D Art Directors",
+          "url": "https://www.linkedin.com/jobs/view/4441300326",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l412",
+      "text": "Brand Creative Lead \u2014 Restoke.ai (Melbourne, Victoria, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Restoke.ai",
+          "title": "Brand Creative Lead",
+          "url": "https://www.linkedin.com/jobs/view/4457091633",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l413",
+      "text": "Brand Design Lead \u2014 Askable (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Askable",
+          "title": "Brand Design Lead",
+          "url": "https://www.linkedin.com/jobs/view/4407341581",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l414",
+      "text": "Creative Lead Designer \u2014 Early Settler (Keysborough, Victoria, Australia). Posted 7 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Early Settler",
+          "title": "Creative Lead Designer",
+          "url": "https://www.linkedin.com/jobs/view/4457446764",
+          "date": "7 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     }
   ],
   "corpus": {
@@ -129,8 +339,19 @@
     ],
     "retrieved": "2026-08-26",
     "searchesReturningNothing": [
-      "Factiva: 'art director AI' returned 1 item (Duke Chronicle careers event, off-topic) — no occupation-relevant trade-press admitted.",
+      "Factiva: 'art director AI' returned 1 item (Duke Chronicle careers event, off-topic) \u2014 no occupation-relevant trade-press admitted.",
       "L2: no scholarly study specific to art directors located; L3 trade press for this SOC not gathered."
+    ],
+    "linkedin": [
+      {
+        "date": "2026-08-27",
+        "soc": "27-1011",
+        "query": "Art Directors",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
     ]
   },
   "confidence": "medium",
