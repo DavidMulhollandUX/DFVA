@@ -84,6 +84,18 @@ export function whatThisMeans(title: string): {
     };
   }
 
+  if (title.includes("CourseLeaf") && title.includes("Infrastructure")) {
+    return {
+      paragraphs: [
+        "Four independent projects building the same workaround is not a niche complaint — it is demand-side proof at market scale. The University of Illinois built an Azure Function just to load its own data, APInception wraps an API that cannot serve analytics, and cc-coursemap and UniPaith each maintain their own CourseLeaf scraper. When institutions vote with their engineering time, they are telling you precisely where the market has a hole.",
+        "Every one of these custom builds is a fragile bandaid over the same root cause: degree requirements stored as unstructured HTML blocks. Scrapers break when upstream HTML changes; Azure Functions need maintenance nobody budgeted for; API wrappers inherit the limitations of the thing they wrap. DFVA's structured, schema-first data model makes this entire class of infrastructure unnecessary — the analysis comes from structured records, not scraped pages.",
+        "These institutions are pre-qualified DFVA audiences. They have already diagnosed the problem, secured engineering time, and accepted bespoke-tooling maintenance as the price of analytics — the hardest part of adoption is done. The pitch writes itself: skip the custom build. DFVA delivers the analytics layer as a maintained product, without touching CourseLeaf's workflow and without a rip-and-replace decision.",
+        "The window here is opening, not closing. While competitors consolidate around workflow features, the largest installed base in the market (roughly 29% via CourseLeaf) remains structurally unable to answer strategic questions about program durability. DFVA does not compete with CourseLeaf — it completes it, owning the analytics layer above any platform. Every new third-party tool confirms both the demand and the gap.",
+      ],
+      sourceUrl: "https://github.com/unimelb-mdap/cc-coursemap",
+    };
+  }
+
   if (title.includes("ClassRanked")) {
     return {
       paragraphs: [
