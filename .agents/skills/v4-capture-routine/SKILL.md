@@ -87,3 +87,65 @@ Two Hermes cron jobs drive this pipeline (`cronjob action='list'` for ids):
 - **Resume**: `cronjob action='resume'` on both job ids.
 - **Unattended block recovery**: clear the challenge in Chrome yourself, then run `python3 scripts/v4-capture-queue.py unblock`.
 - Scoring runs need Claude Code available for the Workflow tool; without it the tick must report blocked rather than fall back to unverified scoring.
+
+---
+
+## Status reporting contract
+
+Every tick's final response is the status update. Report against this structure so
+any tick (and any reader skimming history) can see pipeline health at a glance —
+a bare "done" or "[SILENT]" hides the numbers someone will otherwise have to
+re-derive by hand.
+
+**Capture ticks report:**
+
+```
+CAPTURE <ok|blocked|cooloff|idle> | pages +<n> (total <T>/~8900) | assembled <A>/221 (+new: <codes>)
+leased <L> | failed 0 | breaker closed | next codes: <c1>, <c2>
+```
+
+**Score & Author ticks report one line per stage reached, then the summary:**
+
+```
+SCORE <code>: scored (instrument, adaptiveness/workplace) → verified (adversarial demotions: n,
+boundary notes: n) → exposure ok → scaffolded → §4/§5 authored → recommend done → gate PASS/FAIL
+→ committed <sha> | remaining assembled-unscored: <n> (<codes>)
+```
+
+On failure, name the STAGE that died and what survived it:
+
+```
+SCORE <code>: FAILED at <stage> — persisted but unverified / scored but not persisted / not started
+Retry plan: <next tick re-runs from stage N because state X is on disk>
+```
+
+Stage-boundary rules for partial runs:
+
+- A block written to `dfva/source/evidence/<code>.json` without a `verified` stamp is
+  **persisted-but-unverified** — say so explicitly; it must NOT be committed and the next
+  tick resumes at VERIFY, not at SCORE.
+- Extracts in `scrapes/v4/<code>.txt` with no evidence file are **scored-not-started**.
+- Anything already committed needs no re-report beyond the summary line.
+
+Health flags worth surfacing even when green:
+
+- ox-alpha stall-watchdog kills (TimeoutError idle >600s) — note "model stalls" if a tick
+  died that way, since it predicts retries.
+- Chrome absent / challenge pending / breaker open — always named, never silent.
+- Any program stuck non-assembled with 0 pending pages (e.g. a handbook page gap like
+  572at's missing assessment pages) — flag once per day, not per tick.
+
+### Pitfall: "Executing JavaScript through AppleScript is turned off" (2026-08-26)
+
+If batches fail with that error while `browser.allow_javascript_apple_events` is `true` in
+`~/Library/Application Support/Google/Chrome/Default/Preferences`, a second Chrome instance
+(e.g. leftover `factiva-reauth-*` temp-profile launches under `$TMPDIR`) has stolen AppleScript
+targeting. Fresh profiles default the toggle off, so every page fails. Fix:
+
+```bash
+ps -axo pid,lstart,command | grep '[G]oogle Chrome' | grep -v Helper   # spot extra --user-data-dir instances
+kill -TERM <stale pids>                                               # keep only the main instance
+osascript -e 'tell application "Google Chrome" to execute front window'"'"'s active tab javascript "1+1"'
+```
+
+The last command must return `2`. Whatever spawns factiva-reauth Chrome instances must quit them when done — they otherwise accumulate and break capture routing.
