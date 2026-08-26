@@ -3,6 +3,7 @@ import {
   INFRASTRUCTURE_GAP_EVENT,
   INFRASTRUCTURE_GAP_SIGNALS,
 } from "../seedCourseLeafInfrastructureGapResponse";
+import { whatThisMeans } from "../CompetitiveThreatCard";
 
 /**
  * Tests for the CourseLeaf Infrastructure Gap competitive intelligence data.
@@ -108,5 +109,70 @@ describe("INFRASTRUCTURE_GAP_SIGNALS", () => {
       expect(s.isActive).toBe(true);
       expect(s.dateDiscovered).toBeInstanceOf(Date);
     }
+  });
+});
+
+describe("whatThisMeans — CourseLeaf infrastructure gap case", () => {
+  const infraGapTitle =
+    "Third-Party Tool Ecosystem Builds Custom Infrastructure Around CourseLeaf";
+
+  it("returns 4 paragraphs for the infrastructure gap title", () => {
+    const result = whatThisMeans(infraGapTitle);
+    expect(result.paragraphs).toHaveLength(4);
+  });
+
+  it("returns a non-null sourceUrl pointing at the cc-coursemap repo", () => {
+    const result = whatThisMeans(infraGapTitle);
+    expect(result.sourceUrl).not.toBeNull();
+    expect(result.sourceUrl).toContain("github.com/unimelb-mdap/cc-coursemap");
+  });
+
+  it("frames the ecosystem as demand-side proof", () => {
+    const result = whatThisMeans(infraGapTitle);
+    const allText = result.paragraphs.join(" ").toLowerCase();
+    expect(allText).toContain("demand");
+    expect(allText).toContain("engineering");
+  });
+
+  it("positions DFVA as complementary, not rip-and-replace", () => {
+    const result = whatThisMeans(infraGapTitle);
+    const allText = result.paragraphs.join(" ").toLowerCase();
+    expect(allText).toContain("rip-and-replace");
+  });
+
+  it("matches on both substrings in a variant title", () => {
+    const result = whatThisMeans(
+      "CourseLeaf Customers Build Custom Infrastructure to Extract Their Own Data",
+    );
+    expect(result.paragraphs).toHaveLength(4);
+    expect(result.sourceUrl).not.toBeNull();
+  });
+
+  it("is distinct from the default case (2 paragraphs, null sourceUrl)", () => {
+    const gapResult = whatThisMeans(infraGapTitle);
+    const defaultResult = whatThisMeans("Some unrelated event title");
+    expect(gapResult.paragraphs.length).not.toBe(
+      defaultResult.paragraphs.length,
+    );
+    expect(gapResult.sourceUrl).not.toBe(defaultResult.sourceUrl);
+  });
+
+  it("is distinct from the CourseLeaf Analytics case", () => {
+    const gapResult = whatThisMeans(infraGapTitle);
+    const analyticsResult = whatThisMeans(
+      "CourseLeaf Adds Analytics Features to Product Listing",
+    );
+    expect(gapResult.paragraphs[0]).not.toBe(analyticsResult.paragraphs[0]);
+    expect(gapResult.sourceUrl).not.toBe(analyticsResult.sourceUrl);
+  });
+
+  it("leaves existing cases unaffected — Analytics title still hits its case", () => {
+    const analyticsResult = whatThisMeans(
+      "CourseLeaf Adds Analytics Features to Product Listing",
+    );
+    // The Analytics case mentions "market validation" in paragraph 1
+    expect(analyticsResult.paragraphs[0].toLowerCase()).toContain(
+      "market validation",
+    );
   });
 });
