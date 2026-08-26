@@ -264,13 +264,13 @@
     "11-3021": "done",
     "11-3031": "done",
     "11-3051": "done",
-    "11-3061": "pending",
-    "11-3121": "pending",
-    "11-9021": "pending",
+    "11-3061": "done",
+    "11-3121": "done",
+    "11-9021": "done",
     "11-9031": "done",
     "11-9032": "done",
     "11-9033": "done",
-    "11-9041": "pending",
+    "11-9041": "done",
     "11-9111": "pending",
     "11-9121": "pending",
     "11-9141": "pending",
@@ -514,7 +514,11 @@
     "11-9031": 1,
     "11-9032": 1,
     "11-9033": 1,
-    "11-9151": 1
+    "11-9151": 1,
+    "11-3061": 1,
+    "11-3121": 1,
+    "11-9021": 1,
+    "11-9041": 1
   },
   "leases": {},
   "runs": [
@@ -565,6 +569,30 @@
       "soc": "11-9151",
       "status": "done",
       "note": "empirical-five-lane-v1: L1/L2/L3 web-sourced, L4 Adzuna, L5 last30days; Factiva L3 gap (auth_expired)"
+    },
+    {
+      "at": "2026-08-26T19:23:10.216001+00:00",
+      "soc": "11-3061",
+      "status": "done",
+      "note": "empirical five-lane: L1/L2 web+O*NET, L3 web (Factiva auth_expired), L4 Adzuna, L5 reddit-scoped"
+    },
+    {
+      "at": "2026-08-26T19:23:10.279139+00:00",
+      "soc": "11-3121",
+      "status": "done",
+      "note": "empirical five-lane: L1/L2 web+O*NET, L3 web (Factiva auth_expired), L4 Adzuna, L5 reddit-scoped"
+    },
+    {
+      "at": "2026-08-26T19:23:10.335786+00:00",
+      "soc": "11-9021",
+      "status": "done",
+      "note": "empirical five-lane: L1/L2 web+O*NET, L3 web (Factiva auth_expired), L4 Adzuna, L5 reddit-scoped"
+    },
+    {
+      "at": "2026-08-26T19:23:10.392248+00:00",
+      "soc": "11-9041",
+      "status": "done",
+      "note": "empirical five-lane: L1/L2 web+O*NET, L3 web (Factiva auth_expired), L4 Adzuna, L5 reddit-scoped"
     }
   ]
 }

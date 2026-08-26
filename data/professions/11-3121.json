@@ -1,5 +1,6 @@
 {
   "onet_soc_code": "11-3121",
+  "researchMethod": "empirical-five-lane-v1",
   "title": "Human Resources Managers",
   "aliases": [
     "Human Resource Manager",
@@ -7,28 +8,30 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-27",
+    "to": "2026-08-27"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-27",
+  "expires": "2027-02-23",
   "programs": [],
   "claims": [
     {
-      "id": "11-3121-01",
-      "text": "National peak professional bodies and statutory regulators governing Human Resources Managers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "id": "hr-l1",
+      "text": "From 10 December 2026, Australian Privacy Act amendments (APP 1.7) require organisations to disclose in their privacy policy where a computer program makes or materially helps make decisions significantly affecting a person - directly capturing HR uses of AI in recruitment, rostering, performance management and monitoring.",
       "lane": "L1",
-      "tier": "regulatory",
+      "tier": "regulatory-privacy",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Human Resources Managers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Human Resources Managers",
-          "url": "https://www.psc.gov.au/standards/11-3121",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Human Resources Managers"
+          "publisher": "Responsible AI Australia (summarising Privacy Act 1988 Cth, APP 1.7)",
+          "title": "AI Rules for Australian Employers (2026): Hiring, Monitoring, WHS and Privacy",
+          "url": "https://responsibleaiaustralia.com.au/industries/workplace",
+          "date": "2026",
+          "whatItMeasured": "Explains the 10 December 2026 automated-decision transparency obligation under APP 1.7 and its reach into HR AI use",
+          "quote": "From 10 December 2026, organisations covered by the Privacy Act must spell out in their privacy policy where they use computer programs to make (or substantially help make) decisions that could significantly affect a person - including the kinds of personal information used.",
+          "httpStatus": 200
         }
       ],
-      "scope": "Australian practitioners in Human Resources Managers across public, private, and research sectors.",
+      "scope": "National-system employers covered by the Privacy Act; binding from 10 December 2026. Does not itself create a right to human review (unlike EU GDPR).",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
@@ -37,23 +40,51 @@
         "G1"
       ],
       "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "refuteNotes": "Source is a real explainer of the enacted APP 1.7 amendment; population (Privacy Act-covered employers) and window (Dec 2026 commencement) both match. 2 of 3 skeptics failed to overturn."
     },
     {
-      "id": "11-3121-02",
-      "text": "Automation of routine transactional and analytical tasks in Human Resources Managers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
+      "id": "hr-l1b",
+      "text": "The Fair Work Commission published an exposure draft of its generative-AI guidance note after an AI-driven surge in lodgements, with disclosure and verification requirements for AI-prepared documents - a constraint that lands on HR managers who draft, file or assess workplace documents.",
+      "lane": "L1",
+      "tier": "regulatory-industrial",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Human Resources Managers",
-          "url": "https://www.jobsandskills.gov.au/research/11-3121",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Human Resources Managers in Australia"
+          "publisher": "Responsible AI Australia (summarising Fair Work Commission practice)",
+          "title": "AI Rules for Australian Employers (2026): Hiring, Monitoring, WHS and Privacy",
+          "url": "https://responsibleaiaustralia.com.au/industries/workplace",
+          "date": "2026",
+          "whatItMeasured": "Notes the FWC generative-AI guidance note and its disclosure/verification expectations for AI-prepared documents",
+          "quote": "The Fair Work Commission published an exposure draft of its generative AI guidance note after an unprecedented AI-driven surge in lodgements, with disclosure and verification requirements for AI-prepared documents.",
+          "httpStatus": 200
         }
       ],
-      "scope": "Entry-level and senior Human Resources Managers roles in Australia.",
+      "scope": "Fair Work system; guidance addresses documents before the Commission, not private HR AI use generally.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source reports the FWC action; in-window and population-appropriate. 2 of 3 skeptics failed to overturn."
+    },
+    {
+      "id": "hr-l2",
+      "text": "O*NET lists Human Resources Managers' core tasks as administering compensation, benefits and performance systems, analysing statistical data to diagnose personnel problems, studying legislation, arbitration decisions and collective-bargaining contracts, and maintaining personnel records - a task mix where AI now drafts, screens and analyses, but where anti-discrimination and privacy law still bind the human decision.",
+      "lane": "L2",
+      "tier": "institutional-occupational-data",
+      "sources": [
+        {
+          "publisher": "O*NET OnLine (US Department of Labor)",
+          "title": "11-3121.00 - Human Resources Managers",
+          "url": "https://www.onetonline.org/link/summary/11-3121.00",
+          "date": "2026",
+          "whatItMeasured": "Occupational task and work-activity taxonomy for HR Managers",
+          "quote": "Analyze statistical data and reports to identify and determine causes of personnel problems and develop recommendations for improvement of organization's personnel policies and practices.",
+          "httpStatus": 200
+        }
+      ],
+      "scope": "US O*NET occupational data; task composition is indicative of the role, not an Australian employment count or a legal statement.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
@@ -62,38 +93,323 @@
         "G2"
       ],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "Primary occupational database; US population noted in scope; in-window. 2 of 3 skeptics failed to overturn."
+    },
+    {
+      "id": "hr-l3",
+      "text": "ELMO Software's 2026 HR Industry Benchmark Report (online survey of 904 Australian HR professionals, 6-15 January 2026) found 80% of Australian organisations use AI and 93% of HR teams use it, yet only 15% of HR leaders say it delivered transformational impact against 32% who expected it - a gap between adoption and realised outcomes.",
+      "lane": "L3",
+      "tier": "trade-press-survey",
+      "sources": [
+        {
+          "publisher": "HR Leader (reporting ELMO Software 2026 HR Industry Benchmark Report)",
+          "title": "Where AI is and isn't helping workplaces",
+          "url": "https://hrleader.com.au/tech/27966-where-ai-is-and-isn-t-helping-workplaces",
+          "date": "2026",
+          "whatItMeasured": "Reports ELMO's survey of 904 Australian HR professionals on AI adoption vs realised impact",
+          "quote": "While 32 per cent of HR leaders anticipated organisational transformation from AI, only 15 per cent said it actually delivered.",
+          "httpStatus": 200
+        }
+      ],
+      "scope": "Australian HR professionals (n=904, Jan 2026), self-reported survey; measures stated adoption and perceived impact, not productivity measured independently.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Accessible trade-press report of a named vendor survey with declared n and dates; Australian population matches. 2 of 3 skeptics failed to overturn."
+    },
+    {
+      "id": "l537",
+      "text": "How is AI actually being used in HR functions today? [N/A]\nI want to know how organizations are adopting AI across different HR functions and would love to hear from HR professionals, managers, and employees who have firsthand experience. &#32; submitted by &#32; /u/hornytiramisu [link] &#32; [comments]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "How is AI actually being used in HR functions today? [N/A]\nI want to know how or\u2026",
+          "url": "https://www.reddit.com/r/humanresources/comments/1vx1m3o/how_is_ai_actually_being_used_in_hr_functions/",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
+          "httpStatus": 200,
+          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l538",
+      "text": "Boss uses AI for EVERYTHING [N/A]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Boss uses AI for EVERYTHING [N/A]",
+          "url": "https://www.reddit.com/r/humanresources/comments/1vlmxlv/boss_uses_ai_for_everything_na/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
+          "httpStatus": 200,
+          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l539",
+      "text": "Looking for AI search tools help",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Looking for AI search tools help",
+          "url": "https://www.reddit.com/r/recruiting/comments/1vqq9s6/looking_for_ai_search_tools_help/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
+          "httpStatus": 200,
+          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l540",
+      "text": "Expose AI Applications",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Expose AI Applications",
+          "url": "https://www.reddit.com/r/recruiting/comments/1vbkv4i/expose_ai_applications/",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
+          "httpStatus": 200,
+          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l541",
+      "text": "Using AI for healthcare recruiting?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Using AI for healthcare recruiting?",
+          "url": "https://www.reddit.com/r/recruiting/comments/1vr1qcu/using_ai_for_healthcare_recruiting/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
+          "httpStatus": 200,
+          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l542",
+      "text": "When using AI goes wrong [N/A]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "When using AI goes wrong [N/A]",
+          "url": "https://www.reddit.com/r/humanresources/comments/1v90qrn/when_using_ai_goes_wrong_na/",
+          "date": "2026-07-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
+          "httpStatus": 200,
+          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l543",
+      "text": "Boss uses AI for EVERYTHING [N/A]\nI definitely work with some leaders that do this and I agree that it\u2019s completely unnecessary and super annoying. At this point I\u2019m just waiting for the following scenario will happen: I\u2019ll ask for in Just to add some levity from a funny meme I saw: \"To all the people who are anti-Al or want to slow Al progress, I have one question: If Al disappeared tomorrow, could you still get through an entire Your last paragraph is key. If your entire job could be replaced \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Boss uses AI for EVERYTHING [N/A]\nI definitely work with some leaders that do th\u2026",
+          "url": "https://www.reddit.com/r/humanresources/comments/1vlmxlv/boss_uses_ai_for_everything_na/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
+          "httpStatus": 200,
+          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l544",
+      "text": "Using AI for healthcare recruiting?\nWhat kind of Healthcare roles? Every AI tool I've seen is just some different version of scrapping data from LinkedIn. And most/all violate LinkedIn TOS unless they have partnered integration. LinkedIn is going hard into AI themsel traditional sourcing platforms meaning?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Using AI for healthcare recruiting?\nWhat kind of Healthcare roles? Every AI tool\u2026",
+          "url": "https://www.reddit.com/r/recruiting/comments/1vr1qcu/using_ai_for_healthcare_recruiting/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
+          "httpStatus": 200,
+          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l545",
+      "text": "When using AI goes wrong [N/A]\nAnd my HRIS thinks I\u2019m insane for not wanting their AI bot available to employees \ud83e\udd26\ud83c\udffb\u200d\u2642\ufe0f I realize that\u2019s not the same thing but it\u2019s the same kind of stupid lol Did you see Bill Oliver\u2019s speech? He didn\u2019t even catch the mistake as he was reading \u201chis\u201d speech Hadn't seen this but just watched it - comedy gold/political trash!",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "When using AI goes wrong [N/A]\nAnd my HRIS thinks I\u2019m insane for not wanting the\u2026",
+          "url": "https://www.reddit.com/r/humanresources/comments/1v90qrn/when_using_ai_goes_wrong_na/",
+          "date": "2026-07-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
+          "httpStatus": 200,
+          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l546",
+      "text": "Expose AI Applications\nFor better or worse, I think job postings are just dead for now. They're legit a waste of time. You have to do sourcing - which as someone who is inhouse, that's not often as easy as it sounds; that's A lot of the noise we get are from scammers, so I wouldn't expect their systems to answer honestly. You can use a knockout question with something like \"how many R's in strawberry\"- that won't probabl Thanks. I couldn\u2019t agree more. Right now we have a hiring spike and I am de\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Expose AI Applications\nFor better or worse, I think job postings are just dead f\u2026",
+          "url": "https://www.reddit.com/r/recruiting/comments/1vbkv4i/expose_ai_applications/",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
+          "httpStatus": 200,
+          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "human resources managers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "human resources manager",
+    "window": {
+      "from": "2026-02-28",
+      "to": "2026-08-27"
+    },
+    "count": 1059,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Core Talent",
+      "Marriott",
+      "Burger Urge",
+      "Marriott Hotels Resorts",
+      "EMRC",
+      "Polaris Engineering Services",
+      "Gold Coast Disability and Youth",
+      "Mamu Health Services Limited"
     ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+    "topSkills": {
+      "performance": 14,
+      "workforce": 11,
+      "talent": 6,
+      "employee relations": 5,
+      "recruitment": 4,
+      "payroll": 2,
+      "industrial relations": 2,
+      "onboarding": 1
+    }
   },
   "corpus": {
     "platforms": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Human Resources Managers Association discourse",
-        "items": 45
+        "name": "reddit",
+        "scope": "r/humanresources, r/recruiting, r/HR, r/AskHR",
+        "items": 10
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": []
+    "retrieved": "2026-08-27",
+    "searchesReturningNothing": [
+      "Factiva L3 trade-press lane: auth_expired (cookie-based headless session invalid; 'Page.evaluate: Execution context was destroyed'). Logged to data/professions/factiva_backlog.json. L3 sourced from open-web trade press and global industry surveys instead.",
+      "L5: GitHub, HackerNews, X and YouTube sweeps returned predominantly off-topic generic AI-ecosystem items (dev repos, AI-news posts); excluded. L5 corpus restricted to occupation-scoped Reddit subreddits."
+    ],
+    "l5Sample": [
+      {
+        "date": "2026-08-27",
+        "added": 10,
+        "sources": {
+          "reddit": 10
+        },
+        "status": "sampled (reddit subreddits only; other sources excluded as off-topic)"
+      }
+    ]
   },
-  "confidence": "high",
-  "caveats": []
+  "confidence": "medium",
+  "caveats": [
+    "Factiva L3 premium source unavailable this run (auth_expired); L3 claims rest on open-web trade press and global/national industry surveys, not Factiva.",
+    "O*NET data is US occupational composition, not Australian employment counts.",
+    "L5 practitioner discourse is a self-selected sample, not a representative survey."
+  ]
 }

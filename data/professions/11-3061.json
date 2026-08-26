@@ -1,5 +1,6 @@
 {
   "onet_soc_code": "11-3061",
+  "researchMethod": "empirical-five-lane-v1",
   "title": "Purchasing Managers",
   "aliases": [
     "Global Procurement Manager",
@@ -7,30 +8,32 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-27",
+    "to": "2026-08-27"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-27",
+  "expires": "2027-02-23",
   "programs": [
     "761em"
   ],
   "claims": [
     {
-      "id": "11-3061-01",
-      "text": "National peak professional bodies and statutory regulators governing Purchasing Managers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "id": "pm-l1",
+      "text": "Australia's Commonwealth Procurement Rules require agencies to approach Australian businesses first for contracts below $125,000 and, from 2026, all procurements over $1 million must factor economic benefit to the Australian economy into value-for-money assessments - a framework that now governs how government purchasing managers adopt and buy AI tools.",
       "lane": "L1",
-      "tier": "regulatory",
+      "tier": "regulatory-procurement",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Purchasing Managers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Purchasing Managers",
-          "url": "https://www.psc.gov.au/standards/11-3061",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Purchasing Managers"
+          "publisher": "Bush Letter (reporting 2026 Commonwealth Procurement Rules revision)",
+          "title": "Labor embeds AI worker protections in procurement rules",
+          "url": "https://bushletter.com/labor-embeds-worker-protections-in-ai-linked-procurement-rules",
+          "date": "2026-07-08",
+          "whatItMeasured": "Reports the 2026 update to the Commonwealth Procurement Rules and AI-linked procurement settings",
+          "quote": "The updated Commonwealth Procurement Rules require agencies to approach Australian businesses first for any procurement valued below $125,000... all procurements valued at $1 million or more must now explicitly factor economic benefit to the Australian economy into value-for-money assessments.",
+          "httpStatus": 200
         }
       ],
-      "scope": "Australian practitioners in Purchasing Managers across public, private, and research sectors.",
+      "scope": "Commonwealth (federal) government procurement; does not bind private-sector purchasing managers, though the economic-benefit test shapes large AI tooling buys.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
@@ -39,23 +42,51 @@
         "G1"
       ],
       "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "refuteNotes": "Dated news report of the enacted rule change; federal-government population noted in scope; in-window. 2 of 3 skeptics failed to overturn."
     },
     {
-      "id": "11-3061-02",
-      "text": "Automation of routine transactional and analytical tasks in Purchasing Managers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
+      "id": "pm-l1b",
+      "text": "The Digital Transformation Agency's Policy for the Responsible Use of AI in Government (v2.0, effective 15 December 2025) includes mandatory AI procurement guidance and a register-and-report regime, so public-sector purchasing managers must assess and document AI use cases at design stage.",
+      "lane": "L1",
+      "tier": "regulatory-ai-governance",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Purchasing Managers",
-          "url": "https://www.jobsandskills.gov.au/research/11-3061",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Purchasing Managers in Australia"
+          "publisher": "noice.net.au (summarising DTA Policy for the Responsible Use of AI in Government v2.0)",
+          "title": "Agentic RAG for Australian Government",
+          "url": "https://noice.net.au/blog/agentic-rag-australian-government",
+          "date": "2026",
+          "whatItMeasured": "Notes the DTA AI policy effective 15 Dec 2025 with mandatory AI procurement guidance and use-case register",
+          "quote": "Version 2.0 of the Policy for the responsible use of AI in government took effect on 15 December 2025... a register-and-report regime, not a statement of intent.",
+          "httpStatus": 200
         }
       ],
-      "scope": "Entry-level and senior Purchasing Managers roles in Australia.",
+      "scope": "Australian Government (federal) agencies; sets procurement and assessment duties for public-sector purchasing managers, not private procurement.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Real report of the DTA policy; agency population noted; in-window. 2 of 3 skeptics failed to overturn."
+    },
+    {
+      "id": "pm-l2",
+      "text": "O*NET classifies Purchasing Managers' core tasks as developing and implementing purchasing and contract-management policies, reviewing purchase orders and contracts for conformance, administering online purchasing systems, analysing market and delivery systems, and representing companies in supplier negotiations - a task mix where spend analysis, contract review and supplier communications are directly exposed to generative-AI and agentic tooling.",
+      "lane": "L2",
+      "tier": "institutional-occupational-data",
+      "sources": [
+        {
+          "publisher": "O*NET OnLine (US Department of Labor)",
+          "title": "11-3061.00 - Purchasing Managers",
+          "url": "https://www.onetonline.org/link/summary/11-3061.00",
+          "date": "2026",
+          "whatItMeasured": "Occupational task and work-activity taxonomy for Purchasing Managers",
+          "quote": "Review purchase order claims and contracts for conformance to company policy. Administer online purchasing systems.",
+          "httpStatus": 200
+        }
+      ],
+      "scope": "US O*NET occupational data; task composition is indicative of the role, not an Australian employment count.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
@@ -64,38 +95,188 @@
         "G2"
       ],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "Primary occupational database; US population noted in scope; in-window. 2 of 3 skeptics failed to overturn."
+    },
+    {
+      "id": "pm-l3",
+      "text": "Deloitte's Global CPO Survey finds 73% of procurement organisations were piloting or scaling AI in 2026, up from 28% in 2023 - indicating rapid mainstreaming of AI in the purchasing manager's core workflow.",
+      "lane": "L3",
+      "tier": "trade-press-survey",
+      "sources": [
+        {
+          "publisher": "Supply Chain AI Pro (citing Deloitte Global CPO Survey)",
+          "title": "The Complete Guide to AI in Procurement [2026]",
+          "url": "https://supplychainaipro.com/ai-in-procurement-complete-guide-2026",
+          "date": "2026-03",
+          "whatItMeasured": "Reports Deloitte Global CPO Survey AI-adoption figure for procurement organisations",
+          "quote": "In 2026, 73% of procurement organizations are either piloting or scaling AI solutions, up from just 28% in 2023, according to Deloitte's Global CPO Survey.",
+          "httpStatus": 200
+        }
+      ],
+      "scope": "Global procurement organisations (Deloitte CPO survey); not Australia-specific. Adoption, not measured productivity.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Trade-press citation of a named global survey; global population noted in scope; in-window. 2 of 3 skeptics failed to overturn."
+    },
+    {
+      "id": "pm-l3b",
+      "text": "APQC's 2025 Procurement Benchmarking Survey finds 44% of organisations with formal AI deployments in procurement (up from 27% in 2023) and 78% have automated at least some purchase-order step - showing AI is moving from pilots into production purchasing controls.",
+      "lane": "L3",
+      "tier": "trade-press-survey",
+      "sources": [
+        {
+          "publisher": "Stealth Agents (citing APQC 2025 Procurement Benchmarking Survey)",
+          "title": "AI Purchase Order Automation Statistics 2026",
+          "url": "https://stealthagents.com/research/ai-purchase-order-automation-statistics-2026",
+          "date": "2026-07-03",
+          "whatItMeasured": "Reports APQC 2025 benchmarking on AI deployment and PO automation rates in procurement",
+          "quote": "Among organizations with formal AI deployments in procurement, the share is 44%, up from 27% in 2023. APQC's 2025 Procurement Benchmarking Survey found that automation adoption varies by process step...",
+          "httpStatus": 200
+        }
+      ],
+      "scope": "Global benchmark (APQC); adoption and automation rates, not Australian employment effects.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Trade-press citation of a named benchmark with declared year; global population noted; in-window. 2 of 3 skeptics failed to overturn."
+    },
+    {
+      "id": "l534",
+      "text": "Procurement AI Assistant on GitHub",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Procurement AI Assistant on GitHub",
+          "url": "https://www.reddit.com/r/procurement/comments/1vahr8q/procurement_ai_assistant_on_github/",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
+          "httpStatus": 200,
+          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l535",
+      "text": "What are the best AI certifications for procurement jobs?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "What are the best AI certifications for procurement jobs?",
+          "url": "https://www.reddit.com/r/procurement/comments/1vtt8ft/what_are_the_best_ai_certifications_for/",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
+          "httpStatus": 200,
+          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l536",
+      "text": "EU AI act - what are you all doing? Found this EU AI tool",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "EU AI act - what are you all doing? Found this EU AI tool",
+          "url": "https://www.reddit.com/r/procurement/comments/1vxb9pg/eu_ai_act_what_are_you_all_doing_found_this_eu_ai/",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
+          "httpStatus": 200,
+          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "purchasing managers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "purchasing manager",
+    "window": {
+      "from": "2026-02-28",
+      "to": "2026-08-27"
+    },
+    "count": 1142,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Skilled Jobs Australia",
+      "Lasseters",
+      "Sharp & Carter",
+      "Engine Australia",
+      "Godden Food Group",
+      "Regent RV Pty LTD",
+      "Regent RV Pty",
+      "MEI Group Pty Ltd"
     ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+    "topSkills": {
+      "procurement": 19,
+      "supplier": 13,
+      "inventory": 12,
+      "contract": 5,
+      "supply chain": 3,
+      "negotiation": 1,
+      "sourcing": 1,
+      "tender": 1
+    }
   },
   "corpus": {
     "platforms": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Purchasing Managers Association discourse",
-        "items": 45
+        "name": "reddit",
+        "scope": "r/supplychain, r/procurement, r/Logistics",
+        "items": 3
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": []
+    "retrieved": "2026-08-27",
+    "searchesReturningNothing": [
+      "Factiva L3 trade-press lane: auth_expired (cookie-based headless session invalid; 'Page.evaluate: Execution context was destroyed'). Logged to data/professions/factiva_backlog.json. L3 sourced from open-web trade press and global industry surveys instead.",
+      "L5: GitHub, HackerNews, X and YouTube sweeps returned predominantly off-topic generic AI-ecosystem items (dev repos, AI-news posts); excluded. L5 corpus restricted to occupation-scoped Reddit subreddits."
+    ],
+    "l5Sample": [
+      {
+        "date": "2026-08-27",
+        "added": 3,
+        "sources": {
+          "reddit": 3
+        },
+        "status": "sampled (reddit subreddits only; other sources excluded as off-topic)"
+      }
+    ]
   },
-  "confidence": "high",
-  "caveats": []
+  "confidence": "medium",
+  "caveats": [
+    "Factiva L3 premium source unavailable this run (auth_expired); L3 claims rest on open-web trade press and global industry surveys, not Factiva.",
+    "O*NET data is US occupational composition, not Australian employment counts.",
+    "L5 practitioner discourse is a self-selected sample, not a representative survey."
+  ]
 }

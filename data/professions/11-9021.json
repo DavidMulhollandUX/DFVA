@@ -1,4 +1,6 @@
 {
+  "onet_soc_code": "11-9021",
+  "researchMethod": "empirical-five-lane-v1",
   "title": "Construction Managers and Quantity Surveyors",
   "aliases": [
     "Construction Cadet",
@@ -13,60 +15,40 @@
     "Commercial Manager"
   ],
   "anzsco": "133111",
-  "jobAds": {
-    "source": "adzuna-au",
-    "query": "construction manager OR project manager construction OR quantity surveyor",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 3980,
-    "topEmployers": [
-      "Multiplex",
-      "Lendlease",
-      "Probuild / Roberts Co",
-      "John Holland",
-      "Kane Constructions",
-      "WT Partnership",
-      "Rider Levett Bucknall"
-    ],
-    "topSkills": [
-      "Commercial contract administration",
-      "Site safety & EHS governance",
-      "Subcontractor negotiation",
-      "Cost estimation & cashflow forecasting",
-      "Construction scheduling (Primavera P6)"
-    ]
+  "window": {
+    "from": "2025-08-27",
+    "to": "2026-08-27"
   },
-  "corpus": {
-    "platforms": [
-      {
-        "name": "reddit",
-        "scope": "r/AusRenovation, r/Construction",
-        "items": 85
-      },
-      {
-        "name": "master_builders_bulletins",
-        "scope": "Master Builders Australia / AIQS Building Economist",
-        "items": 42
-      }
-    ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": []
-  },
+  "generated": "2026-08-27",
+  "expires": "2027-02-23",
+  "programs": [],
   "claims": [
     {
-      "id": "cm-01",
-      "text": "The National Construction Code (NCC) and Australian Institute of Building (AIB) professional standards require construction managers to maintain statutory responsibility for site safety compliance, material quality certification, and structural handover.",
+      "id": "cm-l1",
+      "text": "Safe Work Australia published guidance (23 July 2026) that AI and digital technologies are a work health and safety matter requiring the normal WHS risk-management process, and NSW's WHS Amendment (Digital Work Systems) Act 2026 is the first law imposing express WHS duties on employers using AI, automation and digital platforms - binding construction managers who introduce site cameras, scheduling tools or AI assistants.",
       "lane": "L1",
-      "tier": "regulatory",
+      "tier": "regulatory-whs",
       "sources": [
         {
-          "publisher": "Australian Building Codes Board (ABCB)",
-          "title": "National Construction Code 2025 \u2014 Structural Reliability and Management Provisions",
-          "url": "https://ncc.abcb.gov.au/",
-          "date": "2025-05-01",
-          "whatItMeasured": "National statutory building standards across all Australian states and territories"
+          "publisher": "The Good Builder (reporting Safe Work Australia guidance and NSW WHS Amendment Act 2026)",
+          "title": "AI Workplace Safety Guidance: What Builders Should Know",
+          "url": "https://thegoodbuilder.com.au/safe-work-australia-publishes-ai-and-digital-technology-safety-guidance-signalling-where-national-rules-are-headed",
+          "date": "2026",
+          "whatItMeasured": "Reports Safe Work Australia's July 2026 AI/digital-tech WHS guidance and the NSW Digital Work Systems Act 2026",
+          "quote": "Safe Work Australia has just made clear that those changes carry a safety obligation. The national policy body has released guidance explaining the work health and safety implications of introducing or changing AI and digital technologies at work.",
+          "httpStatus": 200
+        },
+        {
+          "publisher": "OSIAT (Australian WHS Legislative Updates)",
+          "title": "Australian WHS Legislative Updates",
+          "url": "https://osiat.com.au/australian-whs-legislative-updates",
+          "date": "2026-07-23",
+          "whatItMeasured": "Records Safe Work Australia's new AI and Digital Technologies WHS guidance (published 23 July 2026)",
+          "quote": "Safe Work Australia has released new guidance on managing work health and safety risks associated with artificial intelligence and digital technologies.",
+          "httpStatus": 200
         }
       ],
-      "scope": "Commercial, residential, and civil construction builders and project managers.",
+      "scope": "National model WHS plus NSW (first jurisdiction with express digital-work-systems duties); primary duties in NSW not yet all commenced as at mid-2026. Binds PCBUs, including construction managers.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
@@ -75,42 +57,200 @@
         "G1"
       ],
       "refuted": false,
-      "refuteNotes": "Statutory building code compliance requirement."
+      "refuteNotes": "Two independent trade/regulatory summaries of the same Safe Work Australia guidance and NSW Act; population and window match. 2 of 3 skeptics failed to overturn."
     },
     {
-      "id": "cm-02",
-      "text": "Automated 5D BIM and digital cost takeoff software streamline quantity estimation, elevating the commercial necessity for dynamic subcontractor dispute resolution, weather delay mitigation, and live site coordination under severe market volatility.",
-      "lane": "L2",
-      "tier": "scholarly",
+      "id": "cm-l1b",
+      "text": "State builder licensing (NSW Fair Trading, Victorian Building Authority, QBCC) holds the licensed builder responsible for the accuracy of representations and quote claims, including AI-generated content - so a construction manager cannot delegate accuracy to a generative tool.",
+      "lane": "L1",
+      "tier": "regulatory-licensing",
       "sources": [
         {
-          "publisher": "Construction Management and Economics",
-          "title": "Digital Transformation, AI Cost Estimation and Contractual Risk Management in Australian Commercial Construction",
-          "url": "https://doi.org/10.1080/01446193.2025.2319045",
-          "date": "2025-07-14",
-          "whatItMeasured": "Empirical survey of 65 Tier-1 and Tier-2 construction head contractors in Australia"
+          "publisher": "Mindiam (AI for Trades and Construction in Australia)",
+          "title": "AI for Trades and Construction in Australia",
+          "url": "https://mindiam.com/industries/trades-construction",
+          "date": "2026",
+          "whatItMeasured": "States the regulatory frame that state builder licensing holds the licensed builder responsible for AI-generated representations",
+          "quote": "State builder licensing (NSW Fair Trading, Victorian Building Authority, QBCC) holds the licensed builder responsible for accuracy of representations and quote claims - including AI-generated content.",
+          "httpStatus": 200
         }
       ],
-      "scope": "Commercial and civil construction management.",
+      "scope": "State-licensed building work in NSW/VIC/QLD; the PCBU/supervisor must review and adopt AI output rather than rely on it.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
-        "C1",
+        "C3",
+        "W1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Real industry summary of state licensing obligations; population and window match. 2 of 3 skeptics failed to overturn."
+    },
+    {
+      "id": "cm-l2",
+      "text": "O*NET lists Construction Managers' tasks as inspecting projects for building and safety-code compliance, preparing budgets and progress reports, negotiating contracts, and directing drone use for site inspections and progress monitoring - and reports US employment of 550,300 with projected growth of 7% or higher (2024-2034), much faster than average.",
+      "lane": "L2",
+      "tier": "institutional-occupational-data",
+      "sources": [
+        {
+          "publisher": "O*NET OnLine (US Department of Labor) / BLS",
+          "title": "11-9021.00 - Construction Managers",
+          "url": "https://www.onetonline.org/link/summary/11-9021.00",
+          "date": "2026",
+          "whatItMeasured": "Occupational task taxonomy and US BLS employment/growth projections for Construction Managers",
+          "quote": "Direct how drone technology is used for site inspections and progress monitoring, ensuring accurate and timely project completion. Employment (2024) 550,300 employees. Projected growth (2024-2034) Much faster than average (7% or higher).",
+          "httpStatus": 200
+        }
+      ],
+      "scope": "US O*NET/BLS data; task composition is indicative, and the employment/growth figures are US, not Australian.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
         "W2",
         "G2"
       ],
       "refuted": false,
-      "refuteNotes": "Corroborated by AIQS national industry surveys."
+      "refuteNotes": "Primary occupational database; US population and employment counts explicitly scoped; in-window. 2 of 3 skeptics failed to overturn."
+    },
+    {
+      "id": "cm-l3",
+      "text": "AGC of America's 2026 outlook reports 61% of contractors use AI or plan to increase AI investment, with office/administrative tasks (45%) and estimating (23%) the most-adopted functions; a 2026 MDPI systematic review of 191 articles (2020-2025) found AI adoption in construction remains fragmented and inconsistent across organisations and regions.",
+      "lane": "L3",
+      "tier": "trade-press-survey",
+      "sources": [
+        {
+          "publisher": "DataGrid (reporting AGC of America 2026 outlook)",
+          "title": "AI Agents for Construction: Statistics & Trends",
+          "url": "https://datagrid.com/blog/ai-agent-construction-statistics",
+          "date": "2026",
+          "whatItMeasured": "Reports AGC 2026 outlook on contractor AI use and function-level adoption",
+          "quote": "AGC's 2026 outlook reported 61% use AI or plan to increase AI investment... Office or administrative tasks: 45% Estimating: 23%.",
+          "httpStatus": 200
+        },
+        {
+          "publisher": "MDPI (Buildings), systematic review",
+          "title": "Artificial Intelligence (AI) in Construction Management (CM): A Systematic Review of Models and Methods",
+          "url": "https://mdpi.com/2075-5309/16/11/2225",
+          "date": "2026-06-01",
+          "whatItMeasured": "Systematic review of 191 peer-reviewed articles (2020-2025) on AI in construction management",
+          "quote": "their adoption in CM remains fragmented and inconsistent across organizations and regions",
+          "httpStatus": 403
+        }
+      ],
+      "scope": "Predominantly US/global contractor surveys and literature; Australian adoption is implied, not measured. MDPI direct fetch returned 403 (abstract retrieved via search index; page renders in browser).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Named industry survey (AGC) plus peer-reviewed review; global population noted in scope; MDPI 403 is a bot block, not a dead link. 2 of 3 skeptics failed to overturn."
+    },
+    {
+      "id": "l533",
+      "text": "seems like 42% of construction businesses are paying for AI tools\nmaybe estimating or office work but the guys building stuff arent using it much You clearly haven't seen my guys on their lunch break. At least once a day someone on my crew decides to text me an AI photoshop of their foreman herding goats or something... 42% of construction business want you to shut the hell up",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "seems like 42% of construction businesses are paying for AI tools\nmaybe estimati\u2026",
+          "url": "https://www.reddit.com/r/Construction/comments/1vyerub/seems_like_42_of_construction_businesses_are/",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
+          "httpStatus": 200,
+          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l534",
+      "text": "32 Construction Project Manager",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "32 Construction Project Manager",
+          "url": "https://www.reddit.com/r/ConstructionManagers/comments/1vybaow/32_construction_project_manager/",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
+          "httpStatus": 200,
+          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
-  "onet_soc_code": "11-9021",
-  "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "construction manager",
+    "window": {
+      "from": "2026-02-28",
+      "to": "2026-08-27"
+    },
+    "count": 6175,
+    "returned": 50,
+    "topEmployers": [
+      "GR Engineering Services",
+      "Enemix",
+      "Downer",
+      "Downer Group",
+      "Lendlease",
+      "RJV",
+      "Hickinbotham Group",
+      "Pearl Recruitment Group"
+    ],
+    "topSkills": {
+      "construction": 130,
+      "site": 17,
+      "quality": 10,
+      "builder": 8,
+      "project management": 3,
+      "program": 3,
+      "stakeholder": 3
+    }
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
-  "programs": [],
-  "confidence": "high",
-  "caveats": []
+  "corpus": {
+    "platforms": [
+      {
+        "name": "reddit",
+        "scope": "r/ConstructionManagers, r/construction, r/Construction, r/builders",
+        "items": 2
+      }
+    ],
+    "retrieved": "2026-08-27",
+    "searchesReturningNothing": [
+      "Factiva L3 trade-press lane: auth_expired (cookie-based headless session invalid; 'Page.evaluate: Execution context was destroyed'). Logged to data/professions/factiva_backlog.json. L3 sourced from open-web trade press and global industry surveys instead.",
+      "L5: GitHub, HackerNews, X and YouTube sweeps returned predominantly off-topic generic AI-ecosystem items (dev repos, AI-news posts); excluded. L5 corpus restricted to occupation-scoped Reddit subreddits."
+    ],
+    "l5Sample": [
+      {
+        "date": "2026-08-27",
+        "added": 2,
+        "sources": {
+          "reddit": 2
+        },
+        "status": "sampled (reddit subreddits only; other sources excluded as off-topic)"
+      }
+    ]
+  },
+  "confidence": "medium",
+  "caveats": [
+    "Factiva L3 premium source unavailable this run (auth_expired); L3 claims rest on open-web trade press and global industry surveys, not Factiva.",
+    "O*NET/BLS data is US occupational composition and employment counts, not Australian.",
+    "L5 practitioner discourse is a self-selected sample, not a representative survey."
+  ]
 }
