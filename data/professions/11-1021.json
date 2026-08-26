@@ -1,100 +1,351 @@
 {
   "onet_soc_code": "11-1021",
-  "title": "General and Operations Managers",
-  "aliases": [
-    "Corporate General Manager",
-    "Head of Operations",
-    "Product Director"
-  ],
-  "anzsco": "220000",
+  "researchMethod": "factiva-l3-hybrid",
+  "title": "Product Director (management field grain)",
+  "aliases": [],
+  "anzsco": null,
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2024-01-01",
+    "to": "2026-08-26"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-26",
+  "expires": "2027-02-22",
   "programs": [],
   "claims": [
     {
-      "id": "11-1021-01",
-      "text": "National peak professional bodies and statutory regulators governing General and Operations Managers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
+      "id": "l3f01",
+      "text": "Pinterest - The organizational chart displays its 55 executives, including Bill Ready and Ben Silbermann",
+      "lane": "L3",
+      "tier": "trade-press-dated",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for General and Operations Managers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for General and Operations Managers",
-          "url": "https://www.psc.gov.au/standards/11-1021",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for General and Operations Managers"
+          "publisher": "The Official Board",
+          "title": "Pinterest - The organizational chart displays its 55 executives, including Bill Ready and Ben Silbermann",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=OFBOAR0020260810em850012v&drn=drn:archive.newsarticle.OFBOAR0020260810em850012v&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "11 August 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
         }
       ],
-      "scope": "Australian practitioners in General and Operations Managers across public, private, and research sectors.",
+      "scope": "Trade-press report; not a primary study. Field grain (management).",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
+      "bearing": [],
       "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
     },
     {
-      "id": "11-1021-02",
-      "text": "Automation of routine transactional and analytical tasks in General and Operations Managers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
+      "id": "l3f02",
+      "text": "Intel - The organizational chart displays its 66 executives, including Lip-Bu Tan and Gregory Smith",
+      "lane": "L3",
+      "tier": "trade-press-dated",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in General and Operations Managers",
-          "url": "https://www.jobsandskills.gov.au/research/11-1021",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across General and Operations Managers in Australia"
+          "publisher": "The Official Board",
+          "title": "Intel - The organizational chart displays its 66 executives, including Lip-Bu Tan and Gregory Smith",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=OFBOAR0020260817em8a0003a&drn=drn:archive.newsarticle.OFBOAR0020260817em8a0003a&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "10 August 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
         }
       ],
-      "scope": "Entry-level and senior General and Operations Managers roles in Australia.",
+      "scope": "Trade-press report; not a primary study. Field grain (management).",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
+      "bearing": [],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
+    },
+    {
+      "id": "l3f03",
+      "text": "Alausa unveils national digital training academy to drive skills development",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Nigerian Tribune",
+          "title": "Alausa unveils national digital training academy to drive skills development",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NIGTRI0020260813em87000gk&drn=drn:archive.newsarticle.NIGTRI0020260813em87000gk&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "7 August 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study. Field grain (management).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
+    },
+    {
+      "id": "l3f04",
+      "text": "Imagine Learning - The organizational chart displays its 34 executives, including Jonathan Grayer and Leslie Curtis",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "The Official Board",
+          "title": "Imagine Learning - The organizational chart displays its 34 executives, including Jonathan Grayer and Leslie Curtis",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=OFBOAR0020260727em7l0045z&drn=drn:archive.newsarticle.OFBOAR0020260727em7l0045z&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "21 July 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study. Field grain (management).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
+    },
+    {
+      "id": "l3f05",
+      "text": "Uberall - The organizational chart displays its 35 executives, including Anthony Foy and David Federhen",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "The Official Board",
+          "title": "Uberall - The organizational chart displays its 35 executives, including Anthony Foy and David Federhen",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=OFBOAR0020260727em7l002vx&drn=drn:archive.newsarticle.OFBOAR0020260727em7l002vx&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "21 July 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study. Field grain (management).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
+    },
+    {
+      "id": "l3f06",
+      "text": "Elastic - The organizational chart displays its 41 executives, including Ashutosh Kulkarni and Alison Gleeson",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "The Official Board",
+          "title": "Elastic - The organizational chart displays its 41 executives, including Ashutosh Kulkarni and Alison Gleeson",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=OFBOAR0020260629em6p001ah&drn=drn:archive.newsarticle.OFBOAR0020260629em6p001ah&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "25 June 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study. Field grain (management).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
+    },
+    {
+      "id": "l3f07",
+      "text": "LPL Financial - The organizational chart displays its 56 executives, including Richard Steinmeier and William Glavin",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "The Official Board",
+          "title": "LPL Financial - The organizational chart displays its 56 executives, including Richard Steinmeier and William Glavin",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=OFBOAR0020260622em6j000nc&drn=drn:archive.newsarticle.OFBOAR0020260622em6j000nc&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "19 June 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study. Field grain (management).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
+    },
+    {
+      "id": "l3f08",
+      "text": "YouTube Shopping Comes to Argentina Through Mercado Libre: How It Works",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "CE NoticiasFinancieras",
+          "title": "YouTube Shopping Comes to Argentina Through Mercado Libre: How It Works",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NFINCE0020260618em6i00e7w&drn=drn:archive.newsarticle.NFINCE0020260618em6i00e7w&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "18 June 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study. Field grain (management).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
+    },
+    {
+      "id": "l3f09",
+      "text": "6 ways young professionals in tech can find useful podcasts",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Under30CEO",
+          "title": "6 ways young professionals in tech can find useful podcasts",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=UTCEO00020260616em6g00001&drn=drn:archive.newsarticle.UTCEO00020260616em6g00001&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "16 June 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study. Field grain (management).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
+    },
+    {
+      "id": "l3f10",
+      "text": "Meltwater Group - The organizational chart displays its 22 executives, including John Box and Jorn Lyseggen",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "The Official Board",
+          "title": "Meltwater Group - The organizational chart displays its 22 executives, including John Box and Jorn Lyseggen",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=OFBOAR0020260608em610010b&drn=drn:archive.newsarticle.OFBOAR0020260608em610010b&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "1 June 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study. Field grain (management).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
+    },
+    {
+      "id": "l3f11",
+      "text": "HSB Appoints Former IIM Lucknow Director Prof. Archana\u202fShukla as Director",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "News18.com",
+          "title": "HSB Appoints Former IIM Lucknow Director Prof. Archana\u202fShukla as Director",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NEWSET0020250813el8d000um&drn=drn:archive.newsarticle.NEWSET0020250813el8d000um&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "13 August 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study. Field grain (management).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
+    },
+    {
+      "id": "l3f12",
+      "text": "HSB Appoints Former IIM Lucknow Director Prof. Archana\u202fShukla as Director",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Press Trust of India",
+          "title": "HSB Appoints Former IIM Lucknow Director Prof. Archana\u202fShukla as Director",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=PRTRIN0020250813el8d00fqp&drn=drn:archive.newsarticle.PRTRIN0020250813el8d00fqp&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "13 August 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study. Field grain (management).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
+    },
+    {
+      "id": "l3f13",
+      "text": "HSB Appoints Former IIM Lucknow Director Prof. Archana\u202fShukla as Director",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "NewsVoir",
+          "title": "HSB Appoints Former IIM Lucknow Director Prof. Archana\u202fShukla as Director",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NEWVOR0020250813el8d00006&drn=drn:archive.newsarticle.NEWVOR0020250813el8d00006&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "13 August 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study. Field grain (management).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
+    },
+    {
+      "id": "l3f14",
+      "text": "HSB Appoints Former IIM Lucknow Director Prof. Archana Shukla as Director",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "News18.com",
+          "title": "HSB Appoints Former IIM Lucknow Director Prof. Archana Shukla as Director",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NEWSET0020250813el8d000h6&drn=drn:archive.newsarticle.NEWSET0020250813el8d000h6&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "13 August 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study. Field grain (management).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
+    },
+    {
+      "id": "l3f15",
+      "text": "Sea opens new digital financial services headquarters in Singapore; rebrands SeaMoney to Monee",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "TechNode Global",
+          "title": "Sea opens new digital financial services headquarters in Singapore; rebrands SeaMoney to Monee",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=TENOGL0020250512el5c00001&drn=drn:archive.newsarticle.TENOGL0020250512el5c00001&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "12 May 2025",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study. Field grain (management).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
     }
   ],
   "jobAds": {
-    "source": "adzuna-au",
-    "query": "general and operations managers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+    "source": "none-this-pass",
+    "query": null,
+    "window": null,
+    "count": 0,
+    "topEmployers": [],
+    "topSkills": []
   },
   "corpus": {
-    "platforms": [
-      {
-        "name": "practitioner_forums",
-        "scope": "National General and Operations Managers Association discourse",
-        "items": 45
-      }
-    ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": []
+    "platforms": [],
+    "retrieved": "2026-08-26",
+    "searchesReturningNothing": [
+      "Factiva query 'general manager artificial intelligence automation' returned 0 (content restriction on academic licence)"
+    ]
   },
-  "confidence": "high",
-  "caveats": []
+  "confidence": "low",
+  "caveats": [
+    "L3-only entry from Factiva hybrid lane; no L1/L2/L5 corroboration in this pass.",
+    "Factiva session is cookie-based and expires (hours-1 day); re-run factiva_reauth.py to refresh."
+  ]
 }
