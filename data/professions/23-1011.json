@@ -209,7 +209,12 @@
       "x: unauthenticated - degraded coverage, not recorded as silence",
       "tiktok/instagram: skipped-unconfigured (no ScrapeCreators key)",
       "adzuna-au: no API credentials configured - L4 falls back to YourCareer/Workforce Australia public counts",
-      "factiva: unattended run - omitted per constraint 3"
+      {
+        "source": "Factiva",
+        "status": "attempted-no-relevant-results",
+        "date": "2026-08-26",
+        "note": "session live; queries ran, returned 0 occupation-relevant items (academic licence content restriction)"
+      }
     ]
   },
   "confidence": "high",

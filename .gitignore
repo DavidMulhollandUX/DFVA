@@ -92,3 +92,6 @@ data/professions/*/raw/*
 
 # Factiva session cookies (sensitive, re-exported via factiva_reauth.py)
 data/factiva_cookies.json
+
+# Factiva L3 backfill backlog (live mutable state, written by autoloop every run)
+data/professions/factiva_backlog.json

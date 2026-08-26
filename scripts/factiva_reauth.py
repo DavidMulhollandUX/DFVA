@@ -23,7 +23,12 @@ import browser_cookie3 as bc
 from playwright.sync_api import sync_playwright
 
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-FACTIVA_URL = "https://global-factiva-com.eu1.proxy.openathens.net/sb/default.aspx?lnep=hp"
+# Correct OpenAthens SSO entry point: the library-search resolver kicks off the
+# UoM login handshake cleanly. Opening Factiva directly lands on a timed-out SSO
+# page. This URL is the one the user supplies to launch a Factiva session.
+FACTIVA_URL = ("https://librarysearch.unimelb.edu.au/view/action/uresolver.do"
+               "?operation=resolveService&package_service_id=19964600370009604"
+               "&institutionId=9604&customerId=9603&VE=true")
 
 DOMAINS = [
     "global-factiva-com.eu1.proxy.openathens.net",

@@ -149,6 +149,132 @@
       ],
       "refuted": false,
       "refuteNotes": "Posts verified against arctic-shift archive (scores, comment counts, dates match). Two of three skeptics failed to overturn the third defaulted on representativeness, which scoping addresses."
+    },
+    {
+      "id": "l3bf06",
+      "text": "DAVID FRIGSTAD LED FROST AND SULLIVAN AND PEER UPDATES",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "People in Business",
+          "title": "DAVID FRIGSTAD LED FROST AND SULLIVAN AND PEER UPDATES",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NBPPBS0020260721em7l006rk&drn=drn:archive.newsarticle.NBPPBS0020260721em7l006rk&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "21 July 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report (Factiva backfill); not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
+    },
+    {
+      "id": "l3bf07",
+      "text": "ORIT GADIESH LED BAIN & COMPANY, INC. AND PEER UPDATES",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "People in Business",
+          "title": "ORIT GADIESH LED BAIN & COMPANY, INC. AND PEER UPDATES",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NBPPBS0020260721em7l006r3&drn=drn:archive.newsarticle.NBPPBS0020260721em7l006r3&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "21 July 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report (Factiva backfill); not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
+    },
+    {
+      "id": "l3bf08",
+      "text": "NICK STUDER LED OLIVER WYMAN, LLC AND PEER UPDATES",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "People in Business",
+          "title": "NICK STUDER LED OLIVER WYMAN, LLC AND PEER UPDATES",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NBPPBS0020260609em6900ep5&drn=drn:archive.newsarticle.NBPPBS0020260609em6900ep5&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "9 June 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report (Factiva backfill); not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
+    },
+    {
+      "id": "l3bf09",
+      "text": "YEZDI NAGPOREWALLA LED KPMG LLP AND PEER UPDATES",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "People in Business",
+          "title": "YEZDI NAGPOREWALLA LED KPMG LLP AND PEER UPDATES",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NBPPBS0020260609em6900ep0&drn=drn:archive.newsarticle.NBPPBS0020260609em6900ep0&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "9 June 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report (Factiva backfill); not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
+    },
+    {
+      "id": "l3bf10",
+      "text": "SURESH SUBBIAH LED SILVERLINE CRM AND PEER UPDATES",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "People in Business",
+          "title": "SURESH SUBBIAH LED SILVERLINE CRM AND PEER UPDATES",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NBPPBS0020260609em6900epc&drn=drn:archive.newsarticle.NBPPBS0020260609em6900epc&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "9 June 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report (Factiva backfill); not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
+    },
+    {
+      "id": "l3bf11",
+      "text": "PATRICE CAINE LED THALES SOFTWARE INDIA PVT LTD AND PEER UPDATES",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "People in Business",
+          "title": "PATRICE CAINE LED THALES SOFTWARE INDIA PVT LTD AND PEER UPDATES",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NBPPBS0020260609em6900epb&drn=drn:archive.newsarticle.NBPPBS0020260609em6900epb&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "9 June 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report (Factiva backfill); not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
     }
   ],
   "jobAds": {
@@ -194,8 +320,14 @@
       "polymarket: ran, no results",
       "x: unauthenticated (bird_authenticated false) - coverage degraded, not recorded as silence",
       "tiktok/instagram: skipped-unconfigured (no ScrapeCreators key)",
-      "adzuna-au: no API credentials configured - L4 falls back to Workforce Australia public vacancy count",
-      "factiva: unattended run - omitted per constraint 3"
+      "adzuna-au: no API credentials configured - L4 falls back to Workforce Australia public vacancy count"
+    ],
+    "factivaBackfill": [
+      {
+        "date": "2026-08-26",
+        "added": 6,
+        "status": "backfilled"
+      }
     ]
   },
   "confidence": "medium",

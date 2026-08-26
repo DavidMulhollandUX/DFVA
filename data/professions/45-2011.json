@@ -198,7 +198,9 @@
       },
       {
         "source": "Factiva",
-        "status": "omitted: unattended run (constraint 3)"
+        "status": "attempted-no-relevant-results",
+        "date": "2026-08-26",
+        "note": "session live; queries ran, returned 0 occupation-relevant items (academic licence content restriction)"
       }
     ]
   },
