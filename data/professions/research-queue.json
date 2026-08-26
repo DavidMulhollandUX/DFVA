@@ -294,10 +294,10 @@
     "13-2072": "pending",
     "13-2081": "pending",
     "13-2099": "pending",
-    "15-1121": "pending",
-    "15-1122": "pending",
-    "15-1132": "pending",
-    "15-1133": "pending",
+    "15-1121": "done",
+    "15-1122": "done",
+    "15-1132": "done",
+    "15-1133": "done",
     "15-1134": "pending",
     "15-1142": "pending",
     "15-1143": "pending",
@@ -518,7 +518,11 @@
     "11-3061": 1,
     "11-3121": 1,
     "11-9021": 1,
-    "11-9041": 1
+    "11-9041": 1,
+    "15-1121": 1,
+    "15-1122": 1,
+    "15-1132": 1,
+    "15-1133": 1
   },
   "leases": {},
   "runs": [
@@ -593,6 +597,30 @@
       "soc": "11-9041",
       "status": "done",
       "note": "empirical five-lane: L1/L2 web+O*NET, L3 web (Factiva auth_expired), L4 Adzuna, L5 reddit-scoped"
+    },
+    {
+      "at": "2026-08-26T20:33:51.628637+00:00",
+      "soc": "15-1121",
+      "status": "done",
+      "note": "empirical-five-lane-v1: L1-L5, Factiva gap logged"
+    },
+    {
+      "at": "2026-08-26T20:33:51.691128+00:00",
+      "soc": "15-1122",
+      "status": "done",
+      "note": "empirical-five-lane-v1: L1-L5, Factiva gap logged"
+    },
+    {
+      "at": "2026-08-26T20:33:51.750282+00:00",
+      "soc": "15-1132",
+      "status": "done",
+      "note": "empirical-five-lane-v1: L1-L5, Factiva gap logged"
+    },
+    {
+      "at": "2026-08-26T20:33:51.805246+00:00",
+      "soc": "15-1133",
+      "status": "done",
+      "note": "empirical-five-lane-v1: L1-L5, Factiva gap logged"
     }
   ]
 }
