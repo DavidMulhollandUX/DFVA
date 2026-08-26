@@ -256,14 +256,14 @@
   ],
   "status": {
     "11-1011": "done",
-    "11-1021": "pending",
+    "11-1021": "done",
     "11-2011": "done",
     "11-2021": "done",
     "11-2022": "done",
     "11-2031": "done",
-    "11-3021": "pending",
-    "11-3031": "pending",
-    "11-3051": "pending",
+    "11-3021": "done",
+    "11-3031": "done",
+    "11-3051": "done",
     "11-3061": "pending",
     "11-3121": "pending",
     "11-9021": "pending",
@@ -506,7 +506,37 @@
     "51-9012": "pending",
     "53-5031": "pending"
   },
-  "attempts": {},
+  "attempts": {
+    "11-1021": 1,
+    "11-3021": 1,
+    "11-3031": 1,
+    "11-3051": 1
+  },
   "leases": {},
-  "runs": []
+  "runs": [
+    {
+      "at": "2026-08-26T15:44:25.472219+00:00",
+      "soc": "11-1021",
+      "status": "done",
+      "note": "L1/L2/L4 verified web research + L5 last30days; L3 Factiva unavailable this run (logged)"
+    },
+    {
+      "at": "2026-08-26T15:44:25.528389+00:00",
+      "soc": "11-3021",
+      "status": "done",
+      "note": "replaced fabricated L1/L2 with verified; +L4; L5 last30days"
+    },
+    {
+      "at": "2026-08-26T15:44:25.582430+00:00",
+      "soc": "11-3031",
+      "status": "done",
+      "note": "replaced fabricated L1/L2 with verified APRA/ASIC/PwC; +L4; L5"
+    },
+    {
+      "at": "2026-08-26T15:44:25.634484+00:00",
+      "soc": "11-3051",
+      "status": "done",
+      "note": "replaced fabricated L1/L2 with verified SWA/PwC; +L4; L5"
+    }
+  ]
 }
