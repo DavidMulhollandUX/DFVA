@@ -1,98 +1,128 @@
 {
-  "onet_soc_code": "47-2111",
-  "title": "Electricians",
-  "aliases": [
-    "Electrician (General)"
-  ],
-  "anzsco": "220000",
-  "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
-  },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
-  "programs": [],
-  "claims": [
+ "onet_soc_code": "47-2111",
+ "title": "Electricians",
+ "aliases": ["Electrician (General)"],
+ "anzsco": "220000",
+ "window": {"from": "2025-08-01", "to": "2026-08-26"},
+ "generated": "2026-08-26",
+ "expires": "2027-02-26",
+ "researchMethod": "empirical-five-lane-v1",
+ "programs": [],
+ "claims": [
+  {
+   "id": "c01",
+   "text": "The Clean Energy Regulator's solar battery installers and designers guidance (last updated 31 July 2026) requires that solar-battery designers and installers be accredited by Solar Accreditation Australia, that installations use products listed by the Clean Energy Council, that new critical labelling photo requirements apply, and that installation be carried out by or under on-site supervision of an accredited battery installer.",
+   "lane": "L1",
+   "tier": "regulator-requirement-dated",
+   "sources": [
     {
-      "id": "47-2111-01",
-      "text": "National peak professional bodies and statutory regulators governing Electricians enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Electricians",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Electricians",
-          "url": "https://www.psc.gov.au/standards/47-2111",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Electricians"
-        }
-      ],
-      "scope": "Australian practitioners in Electricians across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "47-2111-02",
-      "text": "Automation of routine transactional and analytical tasks in Electricians heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Electricians",
-          "url": "https://www.jobsandskills.gov.au/research/47-2111",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Electricians in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Electricians roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+     "publisher": "Clean Energy Regulator",
+     "title": "Solar battery installers and designers",
+     "url": "https://cer.gov.au/schemes/renewable-energy-target/renewable-energy-target-participants-and-industry/solar-battery-installers-and-designers",
+     "date": "2026-07-31",
+     "whatItMeasured": "Federal regulator's eligibility requirements for STC-accredited solar-battery design and installation work, including accreditation body, product listing and photo-evidence rules"
     }
+   ],
+   "scope": "Only SRES-eligible rooftop solar and battery work; a specialist subset of electricians (those doing accredited solar/battery installation), not general electrical licence holders doing other work. It governs who may lawfully do subsidised storage work, not overall employment.",
+   "disposition": "scoped",
+   "supersedes": null,
+   "bearing": [],
+   "refuted": false,
+   "refuteNotes": "Lens 1 (source real): federal regulator page, resolves HTTP 200, 'Last updated 31 July 2026'. Lens 2 (population fit): applies to accredited solar/battery installers, a defined electrician sub-population. Lens 3 (in window): July 2026 update, inside window. No refuter overturned."
+  },
+  {
+   "id": "c02",
+   "text": "From 1 May 2026, new applications for products to feature on the Clean Energy Council's approved PV module list must be certified to IEC 61730:2023, phasing in updated international module standards that determine which panels electricians may legally install under state networks and rebate programs.",
+   "lane": "L1",
+   "tier": "product-standard-requirement-dated",
+   "sources": [
+    {
+     "publisher": "Clean Energy Council",
+     "title": "Apply to join the approved products list",
+     "url": "https://cleanenergycouncil.org.au/industry-programs/products-program/apply",
+     "date": "2026-05-01",
+     "whatItMeasured": "Product-listing rule change (effective 1 May 2026) raising the PV module certification standard to IEC 61730:2023 for new applications"
+    }
+   ],
+   "scope": "Affects which modules may be listed and therefore installed under SRES and state rebates; it is a product-compliance gate, not a change to electrician licensing or employment.",
+   "disposition": "scoped",
+   "supersedes": null,
+   "bearing": [],
+   "refuted": false,
+   "refuteNotes": "Lens 1 (source real): CEC product-program page, resolves HTTP 200, states the 1 May 2026 effective date. Lens 2 (population fit): governs what accredited electricians can install, relevant to the occupation's solar work. Lens 3 (in window): May 2026, inside window. No refuter overturned."
+  },
+  {
+   "id": "c03",
+   "text": "A 2026 renewable-energy workforce analysis projects that electricity-sector employment will need to roughly double to about 66,300 full-time-equivalent workers by 2029 under the Step Change scenario, implying sustained demand pressure on electrical trades.",
+   "lane": "L3",
+   "tier": "vendor-workforce-analysis-dated",
+   "sources": [
+    {
+     "publisher": "Fuse Recruitment",
+     "title": "Renewable Energy Workforce Shortage Australia 2026",
+     "url": "https://www.fuserecruitment.com/blogs/renewable-energy-workforce-shortage-australia-2026/",
+     "date": "2026-01-01",
+     "whatItMeasured": "Recruitment-industry analysis citing a Step Change scenario projection of electricity-sector FTE employment reaching ~66,300 by 2029"
+    }
+   ],
+   "scope": "Vendor-published workforce projection, not official employment data; a scenario estimate for the electricity sector broadly, which includes electricians among other roles. Indicates demand direction, not an occupation-level headcount.",
+   "disposition": "scoped",
+   "supersedes": null,
+   "bearing": [],
+   "refuted": false,
+   "refuteNotes": "Lens 1 (source real): active recruitment-firm blog, resolves HTTP 200, cites the Step Change scenario. Lens 2 (population fit): electricity-sector demand includes electricians but is wider; scoped accordingly. Lens 3 (in window): 2026 analysis, inside window. Dissent recorded: vendor source, held at trade tier."
+  },
+  {
+   "id": "c04",
+   "text": "Practitioner discourse on the Australian subreddit r/AskAusElectricians (within the 180-day window) includes overseas-trained electricians actively seeking recognition of their licences to work in Australia, indicating that licence reciprocity and recognition remain a practical barrier to supplying the electrical workforce.",
+   "lane": "L5",
+   "tier": "practitioner-forum-item-dated",
+   "sources": [
+    {
+     "publisher": "Reddit - r/AskAusElectricians",
+     "title": "Underground Coal Mine Electrician from India - Need Honest Advice on Jobs, Licen[ce]",
+     "url": "https://www.reddit.com/r/AskAusElectricians/comments/1v7b4sw/underground_coal_mine_electrician_from_india_need_honest_advice_on_jobs_licen/",
+     "date": "2026-06-01",
+     "whatItMeasured": "A single practitioner post seeking guidance on migrating and having an overseas electrical licence recognised in Australia; captured via the last30days engine"
+    }
+   ],
+   "scope": "One anecdotal forum post, not a representative sample; it shows licence recognition is a live concern for at least some migrating electricians but says nothing about total supply or automation.",
+   "disposition": "scoped",
+   "supersedes": null,
+   "bearing": [],
+   "refuted": false,
+   "refuteNotes": "Lens 1 (source real): the thread resolves HTTP 200; captured by the engine with a within-window date. Lens 2 (population fit): concerns Australian electrical licensing directly. Lens 3 (in window): post falls within the 180-day window. Dissent recorded: single post, so treated as a lead rather than a measured finding."
+  }
+ ],
+ "jobAds": {
+  "source": "adzuna-au",
+  "query": "electrician",
+  "retrieved": "2026-08-26",
+  "count": 13417,
+  "topEmployers": ["Skill Match Recruit", "Konecranes", "Engineering Trades Australia", "2XM Recruit", "IntoWork Australia", "Core Talent", "CGC Recruitment", "Universal Anodisers"],
+  "topSkills": ["maintenance", "solar", "battery", "licence", "apprentice", "EV"],
+  "notes": "The single largest demand of the four occupations (13,417 live listings). Top employers are recruitment firms, consistent with widespread contracting. A minority of listings mention solar (5), battery (2) or EV (1), so electrification-specific work is a growing but still small share of advertised electrician roles."
+ },
+ "corpus": {
+  "platforms": [
+   {"name": "reddit", "scope": "r/electricians, r/solar, r/AskAusElectricians (engineered)", "items": 13},
+   {"name": "hackernews", "scope": "keyword sweep", "items": 10},
+   {"name": "youtube", "scope": "keyword sweep", "items": 0},
+   {"name": "github", "scope": "keyword sweep", "items": 12},
+   {"name": "grounding", "scope": "web sweep", "items": 0}
   ],
-  "jobAds": {
-    "source": "adzuna-au",
-    "query": "electricians",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
-  },
-  "corpus": {
-    "platforms": [
-      {
-        "name": "practitioner_forums",
-        "scope": "National Electricians Association discourse",
-        "items": 45
-      }
-    ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": []
-  },
-  "confidence": "high",
-  "caveats": []
+  "retrieved": "2026-08-26",
+  "searchesReturningNothing": [
+   "Factiva omitted: unattended run",
+   "last30days grounding: no-results; youtube: no-results",
+   "X coverage degraded (bird_authenticated: false); TikTok and Instagram unconfigured (has_scrapecreators: false)",
+   "Most HN/reddit/solar items were US-centric; only r/AskAusElectricians yielded an in-scope Australian practitioner item"
+  ]
+ },
+ "confidence": "medium",
+ "caveats": [
+  "Factiva omitted (unattended run); L1/L3 rest on public regulator and industry sources.",
+  "L5 found one in-scope Australian item (r/AskAusElectricians licence-recognition thread) among mostly US-centric results; the corpus is thin rather than empty.",
+  "c03 is a vendor workforce projection, not official employment data; c04 is a single anecdotal forum post."
+ ]
 }
