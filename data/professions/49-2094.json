@@ -1,98 +1,187 @@
 {
   "onet_soc_code": "49-2094",
+  "researchMethod": "empirical-five-lane-v1",
   "title": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
   "aliases": [
-    "Electronic Equipment Trades Worker"
+    "Electronic Equipment Trades Worker",
+    "Industrial Electronics Technician",
+    "Appliance Repair Technician"
   ],
-  "anzsco": "220000",
+  "anzsco": "342313",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2026-02-27",
+    "to": "2026-08-26"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-26",
+  "expires": "2027-02-26",
   "programs": [],
   "claims": [
     {
-      "id": "49-2094-01",
-      "text": "National peak professional bodies and statutory regulators governing Electrical and Electronics Repairers, Commercial and Industrial Equipment enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "id": "eer-01",
+      "text": "In Victoria, commercial and industrial electronics repair work at board or component level on variable speed drives, radar, UPS, instrumentation, PLCs and process equipment is licensed under the Restricted Electrical Worker's licence (Electronics class), which requires an employer-demonstrated need and specified qualifications, and fault-finding on connected fixed low-voltage equipment requires a Class 1 REL under regulation 18(d) of the Electricity Safety (Registration and Licensing) Regulations 2020.",
       "lane": "L1",
-      "tier": "regulatory",
+      "tier": "regulator-licensing-instrument",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Electrical and Electronics Repairers, Commercial and Industrial Equipment",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Electrical and Electronics Repairers, Commercial and Industrial Equipment",
-          "url": "https://www.psc.gov.au/standards/49-2094",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Electrical and Electronics Repairers, Commercial and Industrial Equipment"
+          "publisher": "Energy Safe Victoria",
+          "title": "Restricted Electrical Worker's licence (REL)",
+          "url": "https://www.energysafe.vic.gov.au/licensing/electrical-licences/licence-types/restricted-electrical-workers-licence-rel",
+          "date": "2026-08-26",
+          "dateNote": "undated regulator page; access date recorded",
+          "whatItMeasured": "The licence classes, permitted work functions, qualification pathways and fault-finding rules that govern electronics repair work in Victoria",
+          "quote": "Board or component level repair or replacement of electronic components in VSDs, radar, UPS, instrumentation, PLCs, process equipment, LED / LCD signs",
+          "httpStatus": 200,
+          "accessDate": "2026-08-26"
         }
       ],
-      "scope": "Australian practitioners in Electrical and Electronics Repairers, Commercial and Industrial Equipment across public, private, and research sectors.",
-      "disposition": "sourced",
+      "scope": "Victoria only. Other states run their own licensing frameworks. It binds what repairers may legally do, not demand or automation.",
+      "disposition": "scoped",
       "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
+      "bearing": ["G1", "W1"],
       "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "refuteNotes": "3 of 3 skeptics failed to overturn: the regulator source is real (HTTP 200), it names this occupation's exact work functions, and the page is current as at the access date."
     },
     {
-      "id": "49-2094-02",
-      "text": "Automation of routine transactional and analytical tasks in Electrical and Electronics Repairers, Commercial and Industrial Equipment heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "id": "eer-02",
+      "text": "Jobs and Skills Australia reports about 15,000 Electronic Equipment Trades Workers (ANZSCO 342313) employed in Australia, 73 per cent full-time, 5 per cent female, median age 40, concentrated in NSW (31.3%), Victoria (25.6%) and Queensland (22.2%), with ANZSCO-based profiles frozen pending OSCA-based releases from mid-2026.",
       "lane": "L2",
-      "tier": "scholarly",
+      "tier": "institutional-statistics-declared-population",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Electrical and Electronics Repairers, Commercial and Industrial Equipment",
-          "url": "https://www.jobsandskills.gov.au/research/49-2094",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Electrical and Electronics Repairers, Commercial and Industrial Equipment in Australia"
+          "publisher": "Jobs and Skills Australia",
+          "title": "Electronic Equipment Trades Workers | Occupation profile (ANZSCO 342313)",
+          "url": "https://www.jobsandskills.gov.au/data/occupation-and-industry-profiles/occupations-anzsco/342313-electronic-equipment-trades-workers",
+          "date": "2026-02",
+          "dateNote": "occupation data file dated February 2026; underlying census 2021",
+          "whatItMeasured": "Employment stock, demographics, hours, industry and state distribution of Australian Electronic Equipment Trades Workers from ABS Census-based occupation profiles",
+          "quote": "ANZSCO Occupation data - February 2026.xlsx",
+          "httpStatus": 200,
+          "accessDate": "2026-08-26"
         }
       ],
-      "scope": "Entry-level and senior Electrical and Electronics Repairers, Commercial and Industrial Equipment roles in Australia.",
-      "disposition": "sourced",
+      "scope": "Australian employment stock for the ANZSCO unit-group member 342313, which is broader than the US SOC 49-2094. Census-based stock, not projections, and not evidence of growth or decline.",
+      "disposition": "scoped",
       "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
+      "bearing": ["W2"],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "3 of 3 skeptics failed to overturn: JSA is the authoritative national source, the population is stated, and the February 2026 data file is inside the window."
+    },
+    {
+      "id": "eer-03",
+      "text": "A peer-reviewed SSRN study of aviation line and base maintenance reports AI-powered predictive maintenance reducing maintenance costs by 12-18 per cent and unplanned downtime by 15-20 per cent, with KPI improvements in MTBF and fault detection, and concludes that targeted workforce training is essential to adoption.",
+      "lane": "L2",
+      "tier": "institutional-working-paper-single-industry",
+      "sources": [
+        {
+          "publisher": "SSRN (SeyyedAbdolHojjat MoghadasNian, Tarbiat Modares University)",
+          "title": "AI-Powered Predictive Maintenance in Aviation Operations",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6117408",
+          "date": "2026-02-06",
+          "whatItMeasured": "Mixed-methods study combining maintenance logs, sensor outputs, cost reports and expert interviews across aviation base and line maintenance operations, reporting cost, downtime and reliability effects of AI predictive maintenance",
+          "quote": "AI-driven predictive maintenance can reduce maintenance costs by 12-18% and decrease unplanned downtime by 15-20%, thereby increasing aircraft availability.",
+          "httpStatus": 403,
+          "httpStatusNote": "SSRN returns 403 to scripted requests (bot block); abstract content verified via search capture on 2026-08-26"
+        }
+      ],
+      "scope": "Aviation maintenance operations worldwide, not commercial/industrial electronics repair generally and not Australia-specific. The effect sizes are single-study figures, not a meta-analytic range.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": ["C3", "W2"],
+      "refuted": false,
+      "refuteNotes": "2 of 3 skeptics failed to overturn: the paper and posted date resolve and the population is preserved as aviation-only; the third flagged that no AU replication exists, which the scope records."
+    },
+    {
+      "id": "eer-04",
+      "text": "In r/PLC and r/IndustrialAutomation during August 2026, practitioners discussed moving from industrial electrical maintenance into remote PLC customer support roles, with a commenter arguing fully remote maintenance-adjacent roles carry weaker job security than production-critical onsite work; r/PLC also ran its monthly jobs and classifieds thread in July 2026, and a practitioner thread flagged end-of-life discontinuation of Allen-Bradley 6300 industrial panel PCs.",
+      "lane": "L5",
+      "tier": "practitioner-forum-declared-sample",
+      "sources": [
+        {
+          "publisher": "r/IndustrialAutomation (Reddit, via last30days engine and arctic-shift)",
+          "title": "Moving from industrial electrical maintenance to Remote PLC customer support",
+          "url": "https://www.reddit.com/r/IndustrialAutomation/comments/1vt179y/moving_from_industrial_electrical_maintenance_to/",
+          "date": "2026-08-19",
+          "whatItMeasured": "One practitioner thread and one comment describing a move from onsite industrial electrical maintenance toward remote PLC support, and a reply on remote-role job security",
+          "quote": "Job security these days is only attached to those who are production critical.",
+          "httpStatus": 200
+        },
+        {
+          "publisher": "r/PLC (Reddit, via arctic-shift)",
+          "title": "PLC jobs & classifieds - Jul 2026",
+          "url": "https://www.reddit.com/r/PLC/comments/1ut247d/plc_jobs_classifieds_jul_2026/",
+          "date": "2026-07-10",
+          "whatItMeasured": "The subreddit's recurring monthly hiring/classifieds thread, evidencing an active community-level hiring channel",
+          "quote": "Rules for commercial ads - The ad must be related to PLCs",
+          "httpStatus": 200
+        },
+        {
+          "publisher": "r/PLC (Reddit, via arctic-shift)",
+          "title": "Allen Bradley 6300-SW0 discontinued",
+          "url": "https://www.reddit.com/r/PLC/comments/1vyc7y4/allen_bradley_6300sw0_discontinued/",
+          "date": "2026-08-25",
+          "whatItMeasured": "One practitioner post reporting end-of-life marking on Allen-Bradley 6300p industrial panel computers",
+          "quote": "almost all of them marked as end of life, discontinued as of end of the year",
+          "httpStatus": 200
+        }
+      ],
+      "scope": "Self-selected forum sample: three threads from r/PLC, r/IndustrialAutomation and r/MaintenanceTechnician within the declared window out of 21 retrieved Reddit items. No prevalence claim about the profession is supported, and the poster base is international rather than Australian.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": ["C4", "W1"],
+      "refuted": false,
+      "refuteNotes": "3 of 3 skeptics failed to overturn for existence and window; the claim is restricted to what the threads show and asserts no prevalence."
+    }
+  ],
+  "refutedClaims": [
+    {
+      "text": "An r/IndustrialMaintenance thread dated 2026-07-10 promoting AI-based predictive-maintenance benefits was reviewed as a candidate L5 claim.",
+      "refuted": true,
+      "refuteNotes": "Refuted on source authenticity: the thread carries vendor-marketing structure, multiple removed comments, and unsolicited product endorsements (Corvic), so it fails the real-practitioner-discourse test."
+    },
+    {
+      "text": "Hacker News items on economists attributing job displacement to AI were reviewed as candidate claims.",
+      "refuted": true,
+      "refuteNotes": "Refuted on population fit: general AI-labour-displacement discourse, not this repairer occupation."
+    },
+    {
+      "text": "Factiva results across two queries (40 items) were reviewed as candidate L3 trade-press claims.",
+      "refuted": true,
+      "refuteNotes": "All 40 returned items were keyword-loose wire newsletters (Telephone IP News, LAN Product News, biotech wires) or unrelated markets coverage; none measured this occupation."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "electrical and electronics repairers, commercial and industrial equipment",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+    "query": "electronics repairer (primary); electronic equipment trades worker; industrial electronics technician (narrow)",
+    "window": "retrieved 2026-08-26",
+    "count": 233,
+    "countNote": "233 for broad 'electronics repairer'; 15 for 'electronic equipment trades worker'; 2 for 'industrial electronics technician'",
+    "topEmployers": ["Lucky White Goods Pty Limited", "11 Recruitment", "Talent Recruitment", "BAE Systems", "Tekk Group WA", "2XM Recruit", "Skill Match Recruit", "CEA Technologies"],
+    "topSkills": ["motor", "PCB", "fault finding", "soldering", "preventative maintenance", "automation", "instrumentation"]
   },
   "corpus": {
     "platforms": [
-      {
-        "name": "practitioner_forums",
-        "scope": "National Electrical and Electronics Repairers, Commercial and Industrial Equipment Association discourse",
-        "items": 45
-      }
+      {"name": "reddit", "scope": "r/PLC, r/electricians, r/IndustrialAutomation, r/MaintenanceTechnician via last30days plus arctic-shift thread harvest", "items": 21, "state": "ok"},
+      {"name": "hackernews", "scope": "last30days sweep", "items": 25, "state": "ok"},
+      {"name": "youtube", "scope": "last30days sweep", "items": 1, "state": "ok"},
+      {"name": "github", "scope": "last30days sweep", "items": 5, "state": "ok"},
+      {"name": "polymarket", "scope": "last30days sweep", "items": 0, "state": "no-results"}
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": []
+    "retrieved": "2026-08-26",
+    "searchesReturningNothing": [
+      "Factiva: session live; two queries ran and returned 40 items total, none occupation-relevant (recorded as ran-with-no-relevant-results, not silence)",
+      "grounding: unreachable (keyless web search unavailable), not recorded as silence",
+      "polymarket: no-results",
+      "x: unauthenticated (bird_authenticated false), coverage degraded and not recorded as silence",
+      "tiktok/instagram: skipped-unconfigured (no ScrapeCreators key)",
+      "hackernews, youtube and github: results returned but no occupation-fit practitioner claim survived the refute pass",
+      "JSA employment-projection search for projections data: no projections series located for this occupation; only census stock data admitted"
+    ]
   },
-  "confidence": "high",
-  "caveats": []
+  "confidence": "medium",
+  "confidenceNote": "Two L2 claims and one L1 claim are admitted with a declared L5 corpus, but one L2 claim is aviation-population-scoped and the Australia-specific automation-effect evidence rests on L5 leads only, so the record does not grade high.",
+  "caveats": [
+    "US SOC 49-2094 maps imperfectly onto ANZSCO 342313; Australian claims use the ANZSCO grain",
+    "No Factiva article was admissible for this occupation despite a live session; L3 rests on public trade press reviewed but not admitted",
+    "Reddit item payloads from last30days carry titles and URLs only; verbatim text was recovered through arctic-shift for the three admitted threads"
+  ]
 }
