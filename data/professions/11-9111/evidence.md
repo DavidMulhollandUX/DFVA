@@ -1,29 +1,45 @@
-# Deep Research Evidence Log: Medical and Health Services Managers (11-9111)
+# Evidence log — Medical and Health Services Managers (11-9111)
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+- researchMethod: empirical-five-lane-v1
+- window: 2025-08-01 to 2026-08-27
+- generated: 2026-08-27  expires: 2027-02-23
+- confidence: high
 
-## Admitted Claims and Verified Citations
+## L1 / L2 sourced claims (verbatim where available)
 
-### Claim `11-9111-01` (L1 · regulatory)
+### [L1] 11-9111-l1a
+- Claim: The Australasian College of Health Service Management (ACHSM) is the peak professional body for health and aged care managers in Australasia and publishes the Master Health Service Management Competency Framework, the field's principal competency standard.
+- Scope: Australasian health and aged care managers; ACHSM is a professional (not statutory) body — the generic occupation is not individually licensed.
+- Source: Australasian College of Health Service Management — ACHSM — Master Health Service Management Competency Framework (2022)
+- URL: https://www.achsm.org.au/  (date: 2022)
+- Verbatim: ACHSM is the Australasian College of Health Service Management; its site publishes a 'Competency Framework' for the profession (Master Health Service Management Competency Framework, 2022).
 
-> "National peak professional bodies and statutory regulators governing Medical and Health Services Managers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### [L2] 11-9111-l2a
+- Claim: Australian Parliamentary Library analysis finds managers among the occupational groups most exposed to AI, though the net effect on employment and wages remains uncertain.
+- Scope: Australian workforce; managers broadly. Net employment effect uncertain.
+- Source: Australian Parliament Library — Potential impact of Artificial Intelligence (AI) on the Australian workforce
+- URL: https://www.aph.gov.au/About_Parliament/Parliamentary_departments/Parliamentary_Library/Research/Issues_and_Insights/48th_Parliament/potentialimpactofArtificialIntelligence  (date: 2026-08-27)
+- Verbatim: "While higher educated professionals and managers are most likely to be exposed to AI, the overall impact of such exposure on employment and wages remains uncertain." (Published May 2025.)
 
-- **Scope:** Australian practitioners in Medical and Health Services Managers across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Medical and Health Services Managers** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Medical and Health Services Managers](https://www.psc.gov.au/standards/11-9111) — *What it measured:* National competency and ethics framework for Medical and Health Services Managers
+### [L2] 11-9111-l2b
+- Claim: An AIB analysis of Australian labour data (2019-2024) finds AI-exposed roles grew 10% and 'augmentable' roles 47%, and argues AI's main managerial value is converting large, complex data into timely decisions.
+- Scope: Australian labour market generally; managerial decision-making specifically noted. Provider is a tertiary institution (blog), not a government statistical agency.
+- Source: Australian Institute of Business — Australia's AI Revolution: Fuelling Job Growth and Wage Premiums
+- URL: https://www.aib.edu.au/blog/news/ai-job-statistics/  (date: 2026-06-04)
+- Verbatim: AIB analysis 'Australia's AI Revolution': AI-exposed Australian roles grew 10% (2019-2024) and 'augmentable' roles 47%; argues AI helps managers convert complex data into decisions.
 
----
+## L4 demand-side corpus (LinkedIn, unofficial scrape)
+- Source: linkedin (unofficial scrape); query: 'Medical and Health Services Managers'; window: 2025-08-01 to 2026-08-27; postings sampled: 10.
+- Top employers (sampled): Sonic HealthPlus, Doctors&Co, Country & Outback Health, Far West Local Health District, Grand Pacific Health, St John of God Health Care, Advara HeartCare, Myhealth
+- Note: demand signal, not a graduate destination. LinkedIn is an unofficial scrape; provenance tagged accordingly. Adzuna/Seek quantitative trend not pulled this pass (see gaps).
 
-### Claim `11-9111-02` (L2 · scholarly)
+## L5 practitioner discourse corpus (last30days)
+- Declared sample: 49 practitioner-discourse items swept across reddit, x, youtube, hackernews, github, grounding (window 180d).
+- Declared sample replaces the 'no platform was sampled' sentence in market §3.
+- Source status: grounding failed; TikTok/Instagram unavailable (has_scrapecreators:false). Recorded as coverage gaps, not as quiet.
 
-> "Automation of routine transactional and analytical tasks in Medical and Health Services Managers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Medical and Health Services Managers roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Medical and Health Services Managers](https://www.jobsandskills.gov.au/research/11-9111) — *What it measured:* Labour market analysis of automation resilience across Medical and Health Services Managers in Australia
-
----
+## Coverage gaps (this pass)
+- L3 Factiva: OpenAthens session expired (authenticated:false on 2026-08-27); trade-press lane not run this pass.
+- L4 Adzuna/Seek: Adzuna AU API returned nginx 400/503 on 2026-08-27; Seek trend pages not fetched (no script). LinkedIn L4 corpus sampled instead.
+- L5 grounding source: last30days 'grounding' source failed across all subqueries on 2026-08-27; recorded as coverage gap, not as quiet.
+- L5 TikTok/Instagram: last30days has_scrapecreators:false (unavailable); not a finding of quiet.

@@ -271,11 +271,11 @@
     "11-9032": "done",
     "11-9033": "done",
     "11-9041": "done",
-    "11-9111": "pending",
-    "11-9121": "pending",
-    "11-9141": "pending",
+    "11-9111": "done",
+    "11-9121": "done",
+    "11-9141": "done",
     "11-9151": "done",
-    "11-9199": "pending",
+    "11-9199": "done",
     "13-1041": "pending",
     "13-1051": "pending",
     "13-1071": "pending",
@@ -522,7 +522,11 @@
     "15-1121": 1,
     "15-1122": 1,
     "15-1132": 1,
-    "15-1133": 1
+    "15-1133": 1,
+    "11-9111": 1,
+    "11-9121": 1,
+    "11-9141": 1,
+    "11-9199": 1
   },
   "leases": {},
   "runs": [
@@ -621,6 +625,30 @@
       "soc": "15-1133",
       "status": "done",
       "note": "empirical-five-lane-v1: L1-L5, Factiva gap logged"
+    },
+    {
+      "at": "2026-08-26T23:33:44.786140+00:00",
+      "soc": "11-9111",
+      "status": "done",
+      "note": "empirical five-lane batch: L1/L2 web + L4 LinkedIn + L5 last30days; L3 Factiva expired"
+    },
+    {
+      "at": "2026-08-26T23:33:44.857208+00:00",
+      "soc": "11-9121",
+      "status": "done",
+      "note": "empirical five-lane batch: L1/L2 web + L4 LinkedIn + L5 last30days; L3 Factiva expired"
+    },
+    {
+      "at": "2026-08-26T23:33:44.918948+00:00",
+      "soc": "11-9141",
+      "status": "done",
+      "note": "empirical five-lane batch: L1/L2 web + L4 LinkedIn + L5 last30days; L3 Factiva expired"
+    },
+    {
+      "at": "2026-08-26T23:33:44.982797+00:00",
+      "soc": "11-9199",
+      "status": "done",
+      "note": "empirical five-lane batch: L1/L2 web + L4 LinkedIn + L5 last30days; L3 Factiva expired"
     }
   ],
   "claims": [

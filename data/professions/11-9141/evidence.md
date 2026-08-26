@@ -1,29 +1,52 @@
-# Deep Research Evidence Log: Property, Real Estate, and Community Association Managers (11-9141)
+# Evidence log — Property, Real Estate, and Community Association Managers (11-9141)
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+- researchMethod: empirical-five-lane-v1
+- window: 2025-08-01 to 2026-08-27
+- generated: 2026-08-27  expires: 2027-02-23
+- confidence: high
 
-## Admitted Claims and Verified Citations
+## L1 / L2 sourced claims (verbatim where available)
 
-### Claim `11-9141-01` (L1 · regulatory)
+### [L1] 11-9141-l1a
+- Claim: In Australia, property and real estate managers must hold a licence or certificate of registration issued by a state regulator to lease or manage property on behalf of a client (e.g., Consumer Protection WA, NSW Fair Trading, REIQ in Queensland).
+- Scope: Australian property/real estate managers; state-based statutory licensing. Community-association/strata managers covered by the same state regimes.
+- Source: Consumer Protection WA (Department of Mines, Industry Regulation and Safety) — Real estate licensing and registration
+- URL: https://www.consumerprotection.wa.gov.au/real-estate-licensing-and-registration  (date: 2026-08-27)
+- Verbatim: "You must have a licence to sell, lease or manage a property on behalf of a client in WA." (Last updated 01 January 2026.)
 
-> "National peak professional bodies and statutory regulators governing Property, Real Estate, and Community Association Managers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### [L1] 11-9141-l1b
+- Claim: The Real Estate Institute of Australia (REIA) is the peak industry body; state institutes (e.g., REIQ) administer the training/registration requirements tied to state fair-trading regimes.
+- Scope: Queensland property managers; indicative of state-based regimes nationally.
+- Source: Real Estate Institute of Queensland — Fair trading real estate requirements
+- URL: https://www.reiq.com/articles/training/fair-trading-requirements  (date: 2026-08-27)
+- Verbatim: "In order to legally perform the duties of a real estate agent, auctioneer, resident letting agent, salesperson, or property manager ... individuals must meet the fair trading real estate requirements and hold a registration certificate or real estate licence."
 
-- **Scope:** Australian practitioners in Property, Real Estate, and Community Association Managers across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Property, Real Estate, and Community Association Managers** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Property, Real Estate, and Community Association Managers](https://www.psc.gov.au/standards/11-9141) — *What it measured:* National competency and ethics framework for Property, Real Estate, and Community Association Managers
+### [L2] 11-9141-l2a
+- Claim: Australian Parliamentary Library analysis finds managers among the occupational groups most exposed to AI; net employment effect uncertain.
+- Scope: Australian workforce; managers broadly.
+- Source: Australian Parliament Library — Potential impact of Artificial Intelligence (AI) on the Australian workforce
+- URL: https://www.aph.gov.au/About_Parliament/Parliamentary_departments/Parliamentary_Library/Research/Issues_and_Insights/48th_Parliament/potentialimpactofArtificialIntelligence  (date: 2026-08-27)
+- Verbatim: "While higher educated professionals and managers are most likely to be exposed to AI, the overall impact of such exposure on employment and wages remains uncertain." (Published May 2025.)
 
----
+### [L2] 11-9141-l2b
+- Claim: A Morgan Stanley analysis of 162 US REITs (525,000 employees) estimates 37% of real-estate tasks can be automated, with management among the most exposed functions; findings are US-centric.
+- Scope: US REIT sector (525k employees); not Australia. Indicates direction of travel for property-management tasks, not a local measure.
+- Source: Morgan Stanley Research — How AI Is Reshaping Real Estate
+- URL: https://www.morganstanley.com/insights/articles/ai-in-real-estate-2025  (date: 2025)
+- Verbatim: "AI can automate 37% of tasks in real estate, representing $34 billion in operating efficiencies." Areas most likely to benefit include management. (US REIT sector; Jul 2 2025.)
 
-### Claim `11-9141-02` (L2 · scholarly)
+## L4 demand-side corpus (LinkedIn, unofficial scrape)
+- Source: linkedin (unofficial scrape); query: 'Property, Real Estate, and Community Association Managers'; window: 2025-08-01 to 2026-08-27; postings sampled: 10.
+- Top employers (sampled): NSW Department of Planning, Housing and Infrastructure, CBRE, NewU Recruitment, City of Perth, Perigon Group, Capstone Recruitment, Sentinel Property Group, Ray White Keevers Group
+- Note: demand signal, not a graduate destination. LinkedIn is an unofficial scrape; provenance tagged accordingly. Adzuna/Seek quantitative trend not pulled this pass (see gaps).
 
-> "Automation of routine transactional and analytical tasks in Property, Real Estate, and Community Association Managers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
+## L5 practitioner discourse corpus (last30days)
+- Declared sample: 72 practitioner-discourse items swept across reddit, x, youtube, hackernews, github, grounding (window 180d).
+- Declared sample replaces the 'no platform was sampled' sentence in market §3.
+- Source status: grounding failed; TikTok/Instagram unavailable (has_scrapecreators:false). Recorded as coverage gaps, not as quiet.
 
-- **Scope:** Entry-level and senior Property, Real Estate, and Community Association Managers roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Property, Real Estate, and Community Association Managers](https://www.jobsandskills.gov.au/research/11-9141) — *What it measured:* Labour market analysis of automation resilience across Property, Real Estate, and Community Association Managers in Australia
-
----
+## Coverage gaps (this pass)
+- L3 Factiva: OpenAthens session expired (authenticated:false on 2026-08-27); trade-press lane not run this pass.
+- L4 Adzuna/Seek: Adzuna AU API returned nginx 400/503 on 2026-08-27; Seek trend pages not fetched (no script). LinkedIn L4 corpus sampled instead.
+- L5 grounding source: last30days 'grounding' source failed across all subqueries on 2026-08-27; recorded as coverage gap, not as quiet.
+- L5 TikTok/Instagram: last30days has_scrapecreators:false (unavailable); not a finding of quiet.
