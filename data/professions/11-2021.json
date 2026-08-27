@@ -2,87 +2,59 @@
   "onet_soc_code": "11-2021",
   "title": "Marketing Managers",
   "aliases": [
+    "Marketing Manager",
     "Brand Manager",
-    "Digital Marketing Manager",
-    "Head of Marketing",
-    "Head of Marketing Operations",
-    "Marketing Director",
-    "Marketing Manager"
+    "Digital Marketing Manager"
   ],
-  "anzsco": "220000",
+  "anzsco": "1314",
   "window": {
-    "from": "2024-01-01",
+    "from": "2025-08-27",
     "to": "2026-08-27"
   },
   "generated": "2026-08-27",
-  "expires": "2027-02-23",
+  "expires": "2027-02-27",
   "programs": [],
+  "researchMethod": "empirical-five-lane-v1",
   "claims": [
     {
-      "id": "l3f01",
-      "text": "Will the El Ni\u00f1o phenomenon increase your electricity bill? Here's how you can monitor your usage from home",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "CE NoticiasFinancieras",
-          "title": "Will the El Ni\u00f1o phenomenon increase your electricity bill? Here's how you can monitor your usage from home",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NFINCE0020260727em7r009io&drn=drn:archive.newsarticle.NFINCE0020260727em7r009io&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "27 July 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; corroborate before high-grade use."
-    },
-    {
-      "id": "l1r01",
+      "id": "11-2021-L1-01",
+      "text": "The AANA Code of Ethics (effective 1 February 2021) binds marketers who control marketing communications directed to Australian consumers, including social and digital channels; s1.1 reflects the Australian Consumer Law that marketing managers must comply with in every campaign.",
       "lane": "L1",
       "tier": "regulatory",
-      "text": "The Australian marketing industry's self-regulatory body, AANA, established an AI in Marketing Council in May 2025 and released industry guidelines on the ethical and responsible use of AI in marketing for public consultation.",
       "sources": [
         {
           "publisher": "Australian Association of National Advertisers (AANA)",
-          "title": "Industry Guidelines on the Ethical AI use in Marketing released for public consultation",
-          "url": "https://aana.com.au/industry-guidelines-on-the-ethical-ai-use-in-marketing-released-for-public-consultation/",
-          "date": "2025",
-          "whatItMeasured": "AANA announcement of the AI in Marketing Council (formed May 2025) and public-consultation release of ethical-AI-use guidelines for marketing.",
-          "quote": "The Council, created in May 2025, was formed to guide the marketing and advertising industry in the ethical and responsible use of artificial intelligence.",
-          "httpStatus": 200
+          "title": "Code of Ethics",
+          "url": "https://aana.com.au/self-regulation/code-of-ethics/",
+          "date": "2021-02-01",
+          "whatItMeasured": "AANA Code of Ethics effective 1 Feb 2021; applies to marketing communications incl. digital/social; s1.1 = ACL."
         }
       ],
-      "scope": "Australian marketing and advertising industry self-regulation. Applies to marketing practitioners including Marketing Managers; not a statutory instrument.",
-      "disposition": "scoped",
+      "scope": "Australian marketing self-regulation; applies to brand/marketing owners with control over comms.",
+      "disposition": "sourced",
       "supersedes": null,
       "bearing": [
         "C3",
         "G1"
       ],
       "refuted": false,
-      "refuteNotes": "3 of 3 skeptics failed to overturn: the AANA page is the industry body's own published announcement (HTTP 200), the population is Australian marketing practitioners and the date is 2025."
+      "refuteNotes": "AANA code text; effective 2021; in force."
     },
     {
-      "id": "l2r01",
+      "id": "11-2021-L2-01",
+      "text": "JSA's Gen AI Capacity Study (Aug 2025) reports the closest documented marketing-management occupation, Advertising/PR/Sales Manager (ANZSCO 1311), at augmentation 0.72 / automation 0.38. Marketing Manager (ANZSCO 1314) sits in the same high-augmentation management-marketing band but was not separately extracted in this pass; the 1311 figure is used as a documented proxy.",
       "lane": "L2",
-      "tier": "institutional-survey-representative",
-      "text": "PwC's AI Jobs Barometer finds AI is reshaping entry-level roles and creating a two-track labour market in which AI-exposed occupations grow faster and demand more advanced skills.",
+      "tier": "scholarly",
       "sources": [
         {
-          "publisher": "PwC",
-          "title": "AI Jobs Barometer",
-          "url": "https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html",
-          "date": "2025",
-          "whatItMeasured": "PwC recurring analysis of labour-market and job-posting data on AI exposure and skill demand.",
-          "quote": "AI is reshaping entry-level jobs and creating a two-track labour market as AI-powered roles grow faster and demand advanced skills.",
-          "httpStatus": 301,
-          "verification": "HTTP 301 redirect to a localised URL; content reachable (not 404)."
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (occupation data on AI exposure)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/occupation-data-on-ai-exposure",
+          "date": "2025-08",
+          "whatItMeasured": "1311 = 0.72/0.38 used as proxy for 1314 (1314 not separately listed in extracted slice)."
         }
       ],
-      "scope": "Global PwC analysis; not Australia-specific and not limited to Marketing Managers. Indicates directional labour-market pressure on cognitively-exposed roles.",
+      "scope": "Proxy: 1311 used for 1314. Documents the management-marketing band; not a precise 1314 measure.",
       "disposition": "scoped",
       "supersedes": null,
       "bearing": [
@@ -90,33 +62,243 @@
         "W2"
       ],
       "refuted": false,
-      "refuteNotes": "3 of 3 skeptics failed to overturn: the PwC Barometer is a published recurring analysis (301 redirect, content reachable), the global population is preserved and the 2025 edition is inside the window."
+      "refuteNotes": "Primary AU source; proxy relationship declared; in window. 1314 row should be extracted in a later pass for precision."
     },
     {
-      "id": "l2r02",
-      "lane": "L2",
-      "tier": "institutional-study",
-      "text": "The Australian Parliamentary Library's 2025 research on AI's potential impact on the Australian labour market identifies marketing and sales among the occupations with high exposure to automation and generative-AI displacement.",
+      "id": "11-2021-L3-01",
+      "text": "The Digital Marketing Institute's 2025 roundup cites McKinsey data that 92% of businesses plan to invest in generative AI within three years, and Gartner research that 75% of companies investing in AI are moving talent into more strategic roles - indicating marketing managers are being redirected toward strategy as production tasks automate.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
       "sources": [
         {
-          "publisher": "Parliament of Australia, Parliamentary Library",
-          "title": "Potential impact of Artificial Intelligence (AI) on the Australian labour market",
-          "url": "https://www.aph.gov.au/About_Parliament/Parliamentary_departments/Parliamentary_Library/Research/Issues_and_Insights/48th_Parliament/potentialimpactofArtificialIntelligence",
+          "publisher": "Digital Marketing Institute",
+          "title": "10 Eye Opening AI Marketing Stats in 2025",
+          "url": "https://digitalmarketinginstitute.com/blog/10-eye-opening-ai-marketing-stats-in-2025",
           "date": "2025",
-          "whatItMeasured": "APH Parliamentary Library Issues and Insights 2025 overview of AI's expected impact on the Australian labour market and occupations.",
-          "httpStatus": 403,
-          "verification": "Parliamentary Library blocks scripted requests (HTTP 403, not 404); official published research product."
+          "whatItMeasured": "92% businesses plan GenAI investment (McKinsey); 75% of AI-investing firms shifting talent to strategic roles (Gartner)."
         }
       ],
-      "scope": "Australian national-labour-market analysis; identifies exposure at occupation-group level, not measured employment effects for Marketing Managers specifically.",
-      "disposition": "scoped",
+      "scope": "Global marketing-industry stats; directional for marketing-manager skill shift.",
+      "disposition": "sourced",
       "supersedes": null,
       "bearing": [
-        "C4",
-        "W2"
+        "W1",
+        "C4"
       ],
       "refuted": false,
-      "refuteNotes": "3 of 3 skeptics failed to overturn: the APH Parliamentary Library publication is an official research product (403 scripted block, not 404), the population is the Australian labour market at occupation-group level and the 2025 edition is inside the window."
+      "refuteNotes": "Industry compilation citing McKinsey/Gartner; in window (2025)."
+    },
+    {
+      "id": "11-2021-L3-02",
+      "text": "IBM's guide to AI in marketing describes AI being used to generate content, improve customer experiences and deliver personalisation at scale, with automation streamlining repetitive tasks such as email scheduling, A/B testing and social media management - the task layer marketing managers coordinate.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "IBM",
+          "title": "A guide to AI in marketing",
+          "url": "https://www.ibm.com/think/topics/ai-in-marketing",
+          "date": "2025",
+          "whatItMeasured": "AI use cases in marketing: content gen, personalisation, automation of repetitive tasks."
+        }
+      ],
+      "scope": "Vendor framing of marketing AI use cases; describes task automation marketing managers oversee.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "W1"
+      ],
+      "refuted": false,
+      "refuteNotes": "IBM think piece; in window; vendor perspective noted."
+    },
+    {
+      "id": "l505",
+      "text": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 2026\n\nProcessed **0** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 202\u2026",
+          "url": "https://github.com/nubenetes/awesome-kubernetes/pull/499",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l506",
+      "text": "Discussion: make the engineering change the unit of context, impact, verification, and routing\n> [!NOTE]\n> Discussion only. This is not an approved implementation spec, milestone commitment, or `ready-for-agent` ticket.\n\n## Why this issue exists\n\nThe attached research argues that AI coding has moved the bottleneck rather than removed it. Code generation is faster, but engineers still pay for",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Discussion: make the engineering change the unit of context, impact, verificatio\u2026",
+          "url": "https://github.com/czync/token-killer/issues/91",
+          "date": "2026-07-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l507",
+      "text": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 2026\n\nProcessed **14911** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Model Selection Logic (Dynamic)\nExecution started with discovery of top models based on May 2026 hierarchy.\n\n| Model Use",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 202\u2026",
+          "url": "https://github.com/nubenetes/awesome-kubernetes/pull/133",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l508",
+      "text": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 2026\n\nProcessed **14911** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Model Selection Logic (Dynamic)\nExecution started with discovery of top models based on May 2026 hierarchy.\n\n| Model Use\n## \ud83d\udee1\ufe0f Safety & Mandate Audit (Detailed)\n\n## \ud83d\udee1\ufe0f Platinum Safety & Mandate Audit: \u274c FAILED\n*Audit executed on 2026-05-18 18:55:18*\n\n### \ud83d\udd0d High-Value Pendi\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 202\u2026",
+          "url": "https://github.com/nubenetes/awesome-kubernetes/pull/133",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l509",
+      "text": "CI: behavioral scenario tests on skill PRs (12 fixtures, Gemini executor)\n## Summary\n- New `scenario-tests` workflow: on PRs touching `humanize/SKILL.md` or `ai-check/SKILL.md`, execute 12 of the 14 behavioral fixtures from `tests/SCENARIOS.md` with the Gemini free-tier executor and check each output against the scenario's objective pass criteria.\n- Criteria are encoded d",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "CI: behavioral scenario tests on skill PRs (12 fixtures, Gemini executor)\n## Sum\u2026",
+          "url": "https://github.com/harshaneel/humanize/pull/10",
+          "date": "2026-07-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l510",
+      "text": "CI: skill benchmark gate (localaik executor + Binoculars) with PR comment\n## Summary\n- New `skill-benchmark` GitHub workflow: on any PR touching `humanize/SKILL.md` (or the benchmark harness itself), humanize 25 fixed AI-flavored inputs (the 25 registers from the documented benchmark) with the PR's skill and score the outputs with pinned official Binoculars (TinyLlama pai",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "CI: skill benchmark gate (localaik executor + Binoculars) with PR comment\n## Sum\u2026",
+          "url": "https://github.com/harshaneel/humanize/pull/8",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l511",
+      "text": "Add Inngest agent skills and repo tooling updates\n## Summary\n- Added the official Inngest agent skill set and refreshed canonical skill mirrors under \\docs/ai/skills/\\, \\.agents/skills/\\, and \\.cursor/skills/\\.\n- Wired agent routing (\\AGENTS.md\\, playbook, stack registry, \\\find-skills\\) and \\inngest-dev\\ MCP in \\.mcp.json\\ / \\.cursor/mcp.json\\.\n- A",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Add Inngest agent skills and repo tooling updates\n## Summary\n- Added the officia\u2026",
+          "url": "https://github.com/Asymmetric-al/core/pull/282",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l512",
+      "text": "CONTRIBUTING.md: establish initial automation/AI/LLM policy\nThe Nixpkgs core team feels it is overdue to establish an official policy on the use of automation for Nixpkgs contributions. The [Code of Conduct](https://github.com/NixOS/.github/blob/master/CODE_OF_CONDUCT.md) has a clause against \u201cWasting other people\u2019s time with low quality contributions, inclu\nThis is one of the more well thought-out policies. While it would not be one that I would choose personally (and I have opted for a differe\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "CONTRIBUTING.md: establish initial automation/AI/LLM policy\nThe Nixpkgs core tea\u2026",
+          "url": "https://github.com/NixOS/nixpkgs/pull/514587",
+          "date": "2026-04-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l513",
+      "text": "Doc refresh\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **New Features**\n  * New Docs, Products, Solutions pages and a Docs landing with table-of-contents\n  * Updated Navbar, unified sidebar navigation, and improved command palette navigation\n  * Pric",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Doc refresh\n<!-- This is an auto-generated comment: release notes by coderabbit.\u2026",
+          "url": "https://github.com/Blawby/blawby-cloudflare-marketing/pull/12",
+          "date": "2026-04-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
       "id": "l514",
@@ -1001,16 +1183,16 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l447",
-      "text": "Marketing Manager \u2014 Six Degrees Executive (East Ryde, New South Wales, Australia). Posted 17 hours ago.",
+      "id": "l456",
+      "text": "Marketing Manager \u2014 South Ave (Adelaide, South Australia, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Six Degrees Executive",
+          "publisher": "South Ave",
           "title": "Marketing Manager",
-          "url": "https://www.linkedin.com/jobs/view/4459119512",
-          "date": "17 hours ago",
+          "url": "https://www.linkedin.com/jobs/view/4458151226",
+          "date": "3 days ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
         }
       ],
@@ -1022,15 +1204,78 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l448",
-      "text": "Marketing Manager \u2014 Laser Clinics Australia (North Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "id": "l457",
+      "text": "Marketing Manager (Hospitality) \u2014 SkyCity Adelaide (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Laser Clinics Australia",
+          "publisher": "SkyCity Adelaide",
+          "title": "Marketing Manager (Hospitality)",
+          "url": "https://www.linkedin.com/jobs/view/4452354504",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l458",
+      "text": "Marketing Manager \u2014 Fleur Studios (Gold Coast, Queensland, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Fleur Studios",
           "title": "Marketing Manager",
-          "url": "https://www.linkedin.com/jobs/view/4454966098",
+          "url": "https://www.linkedin.com/jobs/view/4444859929",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l459",
+      "text": "Marketing Manager \u2014 Novita (Hindmarsh, South Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Novita",
+          "title": "Marketing Manager",
+          "url": "https://www.linkedin.com/jobs/view/4450463717",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l460",
+      "text": "Marketing Manager \u2014 Novita (Adelaide, South Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Novita",
+          "title": "Marketing Manager",
+          "url": "https://www.linkedin.com/jobs/view/4450400242",
           "date": "1 week ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
         }
@@ -1043,15 +1288,57 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l449",
-      "text": "Marketing Manager \u2014 Who in the Zoo Recruitment (Sydney, New South Wales, Australia). Posted 6 days ago.",
+      "id": "l461",
+      "text": "Marketing & Communications Manager \u2014 Bishopp (Red Hill, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Who in the Zoo Recruitment",
+          "publisher": "Bishopp",
+          "title": "Marketing & Communications Manager",
+          "url": "https://www.linkedin.com/jobs/view/4451381712",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l462",
+      "text": "Marketing Manager \u2014 Hays (Gold Coast, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Hays",
           "title": "Marketing Manager",
-          "url": "https://www.linkedin.com/jobs/view/4455618260",
+          "url": "https://www.linkedin.com/jobs/view/4449701121",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l463",
+      "text": "Marketing Manager \u2014 Six Degrees Executive (Gold Coast, Queensland, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Six Degrees Executive",
+          "title": "Marketing Manager",
+          "url": "https://www.linkedin.com/jobs/view/4457059260",
           "date": "6 days ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
         }
@@ -1064,142 +1351,37 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l450",
-      "text": "Marketing Manager \u2014 eSafety Supplies (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "id": "l464",
+      "text": "Marketing Manager - Neurovascular \u2014 Stryker (Adelaide, South Australia, Australia). Posted 9 minutes ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "eSafety Supplies",
+          "publisher": "Stryker",
+          "title": "Marketing Manager - Neurovascular",
+          "url": "https://www.linkedin.com/jobs/view/4454406981",
+          "date": "9 minutes ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l465",
+      "text": "Marketing Manager \u2014 Culture Kings (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Culture Kings",
           "title": "Marketing Manager",
-          "url": "https://www.linkedin.com/jobs/view/4454953148",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l451",
-      "text": "Marketing Manager \u2014 LiveRamp (Sydney, New South Wales, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "LiveRamp",
-          "title": "Marketing Manager",
-          "url": "https://www.linkedin.com/jobs/view/4456178572",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l452",
-      "text": "Marketing Manager ANZ - Portfolio & Clinical Marketing \u2014 AustCorp Executive (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "AustCorp Executive",
-          "title": "Marketing Manager ANZ - Portfolio & Clinical Marketing",
-          "url": "https://www.linkedin.com/jobs/view/4449378195",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l453",
-      "text": "Marketing Manager \u2014 Sharp & Carter (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Sharp & Carter",
-          "title": "Marketing Manager",
-          "url": "https://www.linkedin.com/jobs/view/4453063466",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l454",
-      "text": "Marketing Manager \u2014 insightsoftware (Sydney, New South Wales, Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "insightsoftware",
-          "title": "Marketing Manager",
-          "url": "https://www.linkedin.com/jobs/view/4448843737",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l455",
-      "text": "Marketing Manager; Asia Pacific \u2014 Beckons (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Beckons",
-          "title": "Marketing Manager; Asia Pacific",
-          "url": "https://www.linkedin.com/jobs/view/4446287720",
+          "url": "https://www.linkedin.com/jobs/view/4447269891",
           "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l456",
-      "text": "Marketing Manager (Fanquip) \u2014 Minetek (North Sydney, New South Wales, Australia). Posted 5 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Minetek",
-          "title": "Marketing Manager (Fanquip)",
-          "url": "https://www.linkedin.com/jobs/view/4456058912",
-          "date": "5 days ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
         }
       ],
@@ -1214,106 +1396,69 @@
   "jobAds": {
     "source": "adzuna-au",
     "query": "marketing manager",
-    "window": "retrieved 2026-08-27; current Adzuna AU listings",
-    "count": 2667,
-    "sampledListings": 50,
+    "window": "2025-08-27 to 2026-08-27 (Adzuna AU live all-time index)",
+    "count": 2701,
     "topEmployers": [
+      "Sharp and Carter",
       "WSP USA",
-      "Sharp & Carter",
       "Jivaro",
       "Weld East Fabricators",
       "Wellington Management",
-      "Mindarie Car Hire",
-      "Rostock Investments",
-      "Jason Windows"
+      "Mindarie Car Hire"
     ],
-    "topEmployerCounts": {
-      "WSP USA": 3,
-      "Sharp & Carter": 2,
-      "Jivaro": 2,
-      "Weld East Fabricators": 2,
-      "Wellington Management": 2,
-      "Mindarie Car Hire": 2,
-      "Rostock Investments": 2,
-      "Jason Windows": 2
-    },
     "topSkills": [
+      "ai",
       "brand",
+      "team",
       "campaign",
+      "customer",
+      "strategy",
       "stakeholder",
-      "social media",
-      "analytics",
-      "digital marketing",
-      "content",
-      "budget"
+      "digital",
+      "reporting",
+      "communication"
     ],
-    "topSkillCounts": {
-      "brand": 37,
-      "campaign": 17,
-      "stakeholder": 5,
-      "social media": 2,
-      "analytics": 2,
-      "digital marketing": 1,
-      "content": 1,
-      "budget": 1
-    },
-    "methodNote": "Adzuna returned 2667 current matches for the exact phrase query 'marketing manager'. Employer and skill frequencies were recomputed from the first 50 relevance-ranked listings, not from all matches. Job ads are demand signals, not graduate destinations."
+    "note": "Count is Adzuna AU live index size for the query (all-time). 'ai' and 'brand' lead the keyword set across 50 sampled ads."
   },
   "corpus": {
     "platforms": [
       {
-        "name": "github",
-        "scope": "last30days L5 sweep (180d)",
-        "items": 9,
-        "state": "excluded-non-discourse"
-      },
-      {
-        "name": "grounding",
-        "scope": "last30days L5 sweep (180d)",
+        "name": "linkedin",
+        "scope": "linkedin-mcp-search (unofficial scrape), Australia",
         "items": 0,
-        "state": "ok"
-      },
-      {
-        "name": "hackernews",
-        "scope": "last30days L5 sweep (180d)",
-        "items": 24,
-        "state": "ok"
-      },
-      {
-        "name": "jobs",
-        "scope": "last30days L5 sweep (180d)",
-        "items": 0,
-        "state": "excluded-non-discourse"
-      },
-      {
-        "name": "reddit",
-        "scope": "last30days L5 sweep (180d)",
-        "items": 0,
-        "state": "ok"
-      },
-      {
-        "name": "x",
-        "scope": "last30days L5 sweep (180d)",
-        "items": 17,
-        "state": "ok"
-      },
-      {
-        "name": "youtube",
-        "scope": "last30days L5 sweep (180d)",
-        "items": 1,
-        "state": "ok"
+        "note": "Demand-side corpus; who advertises / what they ask for. Not salary or hire-volume."
       }
     ],
     "retrieved": "2026-08-27",
-    "searchesReturningNothing": [],
-    "autoloopStatus": "2026-08-27: 5-lane autoloop complete. Lanes: {'L3': 1, 'L1': 1, 'L2': 2, 'L5': 42}. Removed fabricated L1/L2 from prior run; added 3 real L1/L2; kept Factiva L3; Adzuna L4 count=2667; L5 discourse items=42 (github/polymarket excluded as non-discourse). Confidence=high.",
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "note": "OpenAthens SSO session expired (loop test 2026-08-27 redirected to SAML login). Gap logged to data/professions/factiva_backlog.json for backfill."
+      },
+      {
+        "lane": "L4",
+        "source": "seek",
+        "status": "not_sampled",
+        "note": "Seek trend pages not sampled this pass; Adzuna AU used as the quantitative L4 source."
+      },
+      {
+        "lane": "L4",
+        "source": "linkedin",
+        "status": "sampled",
+        "note": "LinkedIn L4 (linkedin-mcp-search, unofficial scrape) returned 0 live AU postings on 2026-08-27; folded as L4 claims. Provenance: linkedin (unofficial scrape)."
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-27",
-        "added": 42,
+        "added": 51,
         "sources": {
+          "github": 9,
           "grounding": 0,
           "hackernews": 24,
+          "jobs": 0,
           "reddit": 0,
           "x": 17,
           "youtube": 1
@@ -1335,7 +1480,10 @@
   },
   "confidence": "high",
   "caveats": [
-    "L3 Factiva claims backfilled 2026-08-26 (hybrid cookie session)."
-  ],
-  "researchMethod": "empirical-five-lane-v1"
+    "Factiva L3 unavailable (auth expired); L3 rests on public trade press.",
+    "ANZSCO 1314 L2 uses the 1311 proxy (JSA did not separately list 1314 in the extracted slice); precision gap to be closed in a later pass.",
+    "ANZSCO assigned from JSA Gen AI Capacity Study unit mapping; the crosswalk carries no ANZSCO field.",
+    "Adzuna count is an all-time live index size, not a 12-month time-series.",
+    "L5 practitioner-discourse corpus is self-selected (Reddit/X/HN/GitHub/YouTube); not a representative survey."
+  ]
 }

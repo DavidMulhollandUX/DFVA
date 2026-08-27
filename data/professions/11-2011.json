@@ -2,388 +2,223 @@
   "onet_soc_code": "11-2011",
   "title": "Advertising and Promotions Managers",
   "aliases": [
-    "Media Director"
+    "Advertising Manager",
+    "Promotions Manager",
+    "Brand Manager"
   ],
-  "anzsco": "220000",
+  "anzsco": "1311",
   "window": {
-    "from": "2024-01-01",
+    "from": "2025-08-27",
     "to": "2026-08-27"
   },
   "generated": "2026-08-27",
-  "expires": "2027-02-23",
+  "expires": "2027-02-27",
   "programs": [],
+  "researchMethod": "empirical-five-lane-v1",
   "claims": [
     {
-      "id": "l3f01",
-      "text": "Artificial Intelligence; Study Findings from Lusofona University Broaden Understanding of Artificial Intelligence (The Influence of...",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "Marketing Weekly News",
-          "title": "Artificial Intelligence; Study Findings from Lusofona University Broaden Understanding of Artificial Intelligence (The Influence of...",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=MRKWN00020260821em8l0005n&drn=drn:archive.newsarticle.MRKWN00020260821em8l0005n&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "21 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; corroborate before high-grade use."
-    },
-    {
-      "id": "l3f02",
-      "text": "Artificial Intelligence; Findings from KIMEP University Provides New Data about Artificial Intelligence (Artificial Intelligence and...",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "Marketing Weekly News",
-          "title": "Artificial Intelligence; Findings from KIMEP University Provides New Data about Artificial Intelligence (Artificial Intelligence and...",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=MRKWN00020260821em8l0001c&drn=drn:archive.newsarticle.MRKWN00020260821em8l0001c&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "21 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; corroborate before high-grade use."
-    },
-    {
-      "id": "l3f03",
-      "text": "Artificial Intelligence; Reports from Jilin University Advance Knowledge in Artificial Intelligence (Product Cues, Interaction Quality, and ...",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "Marketing Weekly News",
-          "title": "Artificial Intelligence; Reports from Jilin University Advance Knowledge in Artificial Intelligence (Product Cues, Interaction Quality, and ...",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=MRKWN00020260821em8l00043&drn=drn:archive.newsarticle.MRKWN00020260821em8l00043&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "21 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; corroborate before high-grade use."
-    },
-    {
-      "id": "l3f04",
-      "text": "Artificial Intelligence; New Artificial Intelligence Data Have Been Reported by Investigators at University of Hawaii (Consumer Expertise ...",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "Marketing Weekly News",
-          "title": "Artificial Intelligence; New Artificial Intelligence Data Have Been Reported by Investigators at University of Hawaii (Consumer Expertise ...",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=MRKWN00020260821em8l0002b&drn=drn:archive.newsarticle.MRKWN00020260821em8l0002b&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "21 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; corroborate before high-grade use."
-    },
-    {
-      "id": "l3f05",
-      "text": "Analysis: The battle for power among big tech companies intensifies in Brazil",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "CE NoticiasFinancieras",
-          "title": "Analysis: The battle for power among big tech companies intensifies in Brazil",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NFINCE0020260820em8k0050g&drn=drn:archive.newsarticle.NFINCE0020260820em8k0050g&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "20 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; corroborate before high-grade use."
-    },
-    {
-      "id": "l3f06",
-      "text": "Artificial Intelligence; New Data from Rowan University Illuminate Findings in Artificial Intelligence (Artificial Intelligence and Bia...",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "Marketing Weekly News",
-          "title": "Artificial Intelligence; New Data from Rowan University Illuminate Findings in Artificial Intelligence (Artificial Intelligence and Bia...",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=MRKWN00020260814em8e00027&drn=drn:archive.newsarticle.MRKWN00020260814em8e00027&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "14 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; corroborate before high-grade use."
-    },
-    {
-      "id": "l3f07",
-      "text": "Artificial Intelligence; New Findings on Artificial Intelligence Described by Investigators at University of South Carolina (How Consumers ...",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "Marketing Weekly News",
-          "title": "Artificial Intelligence; New Findings on Artificial Intelligence Described by Investigators at University of South Carolina (How Consumers ...",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=MRKWN00020260814em8e0002d&drn=drn:archive.newsarticle.MRKWN00020260814em8e0002d&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "14 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; corroborate before high-grade use."
-    },
-    {
-      "id": "l3f08",
-      "text": "H&R Block Inc. - Annual Report for Fiscal Year Ending June 30, 2026 (Form 10-K)",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "Securities and Exchange Commission (SEC) Filings",
-          "title": "H&R Block Inc. - Annual Report for Fiscal Year Ending June 30, 2026 (Form 10-K)",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=SAEXC00020260814em8e01xg3&drn=drn:archive.newsarticle.SAEXC00020260814em8e01xg3&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "14 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; corroborate before high-grade use."
-    },
-    {
-      "id": "l3f09",
-      "text": "AI can scale execution, but human judgment will remain indispensable, say marketers",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "Exchange4Media.com",
-          "title": "AI can scale execution, but human judgment will remain indispensable, say marketers",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=ATEXME0020260812em8c00039&drn=drn:archive.newsarticle.ATEXME0020260812em8c00039&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "12 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; corroborate before high-grade use."
-    },
-    {
-      "id": "l3f10",
-      "text": "California Bill Would Bar Companies from Advertising AI Chatbots as Therapy and Set Rules for Clinical Use",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "Medical Daily",
-          "title": "California Bill Would Bar Companies from Advertising AI Chatbots as Therapy and Set Rules for Clinical Use",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=WC64387020260810em8900005&fcpil=en&napc=S&sa_from=&cat=w&page_driver=searchBuilder_Search",
-          "date": "10 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; corroborate before high-grade use."
-    },
-    {
-      "id": "l3f11",
-      "text": "Artificial Intelligence; New Findings from University of Malaya in Artificial Intelligence Provides New Insights (Caught Between Convenience...",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "Marketing Weekly News",
-          "title": "Artificial Intelligence; New Findings from University of Malaya in Artificial Intelligence Provides New Insights (Caught Between Convenience...",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=MRKWN00020260807em8700021&drn=drn:archive.newsarticle.MRKWN00020260807em8700021&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "7 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; corroborate before high-grade use."
-    },
-    {
-      "id": "l3f12",
-      "text": "Artificial Intelligence; Data from Manchester Metropolitan University Advance Knowledge in Artificial Intelligence (Artificia...",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "Marketing Weekly News",
-          "title": "Artificial Intelligence; Data from Manchester Metropolitan University Advance Knowledge in Artificial Intelligence (Artificia...",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=MRKWN00020260731em7v00011&drn=drn:archive.newsarticle.MRKWN00020260731em7v00011&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "31 July 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; corroborate before high-grade use."
-    },
-    {
-      "id": "l3f13",
-      "text": "Global and United States AI Bots Market to 2034",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "The Insight Partners Research",
-          "title": "Global and United States AI Bots Market to 2034",
-          "url": "javascript:void(0); return false;",
-          "date": "24 July 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; corroborate before high-grade use."
-    },
-    {
-      "id": "l3f14",
-      "text": "Global and United Kingdom AI Bots Market to 2034",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "The Insight Partners Research",
-          "title": "Global and United Kingdom AI Bots Market to 2034",
-          "url": "javascript:void(0); return false;",
-          "date": "24 July 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; corroborate before high-grade use."
-    },
-    {
-      "id": "l3f15",
-      "text": "Global and South Africa AI Bots Market to 2034",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "The Insight Partners Research",
-          "title": "Global and South Africa AI Bots Market to 2034",
-          "url": "javascript:void(0); return false;",
-          "date": "24 July 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; corroborate before high-grade use."
-    },
-    {
-      "id": "l1r01",
+      "id": "11-2011-L1-01",
+      "text": "The AANA Code of Ethics (effective 1 February 2021) binds advertisers and marketers who have reasonable control over marketing communications directed to Australian consumers, including social and digital media (technology neutral); s1.1 reflects the Australian Consumer Law that advertising managers must comply with.",
       "lane": "L1",
       "tier": "regulatory",
-      "text": "Australia's self-regulatory advertising codes are media-neutral and apply to AI-generated advertising: Ad Standards confirms that AI-created content meeting the definition of advertising falls under the AANA Code of Ethics, and AANA's 2025 Code of Ethics review is considering whether to add specific guidance on AI in advertising.",
       "sources": [
         {
-          "publisher": "Ad Standards (administers the AANA Code of Ethics)",
-          "title": "New tech, same rules",
-          "url": "https://adstandards.com.au/article/new-tech-same-rules/",
-          "date": "2025-06-27",
-          "whatItMeasured": "Ad Standards explainer confirming media-neutral advertising codes cover AI-generated content under the AANA Code of Ethics; AANA 2025 review considering AI-specific guidance.",
-          "quote": "The advertising codes that Ad Standards assess ads under are all media-neutral. This means they apply to all ads regardless of their platform or production method.",
-          "httpStatus": 403,
-          "verification": "Scripted request blocked with HTTP 403 (not 404); page confirmed published 27 Jun 2025 via web_extract."
+          "publisher": "Australian Association of National Advertisers (AANA)",
+          "title": "Code of Ethics",
+          "url": "https://aana.com.au/self-regulation/code-of-ethics/",
+          "date": "2021-02-01",
+          "whatItMeasured": "AANA Code of Ethics effective 1 Feb 2021; applies to advertising/marketing communications incl. social media; s1.1 = ACL."
         }
       ],
-      "scope": "Australian self-regulatory advertising regime (AANA Code of Ethics as administered by Ad Standards). Covers advertising content generally; does not measure adoption by individual Advertising and Promotions Managers.",
-      "disposition": "scoped",
+      "scope": "Australian advertising/marketing self-regulation; applies to brand owners with control over comms. Does not bind organic editorial.",
+      "disposition": "sourced",
       "supersedes": null,
       "bearing": [
         "C3",
-        "W1",
         "G1"
       ],
       "refuted": false,
-      "refuteNotes": "3 of 3 skeptics failed to overturn: the Ad Standards page is the regulator's own published guidance (confirmed 27 Jun 2025), the claim is limited to the Australian advertising regulatory regime and the date is inside the window."
+      "refuteNotes": "AANA's own code text; effective 2021; in force."
     },
     {
-      "id": "l2r01",
+      "id": "11-2011-L2-01",
+      "text": "JSA's Gen AI Capacity Study (Aug 2025) scores Advertising, Public Relations and Sales Managers (ANZSCO 1311) at augmentation exposure 0.72 and automation exposure 0.38, with a rate-of-skill-change of 6.4 - among the highest augmentation and skill-churn of any management group.",
       "lane": "L2",
-      "tier": "institutional-survey-declared-n",
-      "text": "IAB's 2025 research finds generative AI is now central to advertising production -- 86% of buyers use or plan to use it for video ad creative -- while consumer sentiment is mixed: 71% of Gen Z/Millennial consumers believe they have seen an AI-created ad, up from 54% in 2024.",
+      "tier": "scholarly",
       "sources": [
         {
-          "publisher": "IAB",
-          "title": "The AI Ad Gap Widens",
-          "url": "https://www.iab.com/insights/the-ai-gap-widens/",
-          "date": "2025",
-          "whatItMeasured": "IAB survey of more than 500 Gen Z/Millennial consumers and 100 advertising-industry executives on AI-generated advertising (2025).",
-          "quote": "Generative AI is now a cornerstone for video ad creation, with 86% of buyers using/planning to use it to build video ad creative.",
-          "httpStatus": 200
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (occupation data on AI exposure)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/occupation-data-on-ai-exposure",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Gen AI Capacity Study ANZSCO v1.3 unit-level scores; 1311 = 0.72/0.38, skill-change 6.4."
         }
       ],
-      "scope": "US-based survey of Gen Z/Millennial consumers and advertising executives; not an Australian employment measure for Advertising and Promotions Managers.",
-      "disposition": "scoped",
+      "scope": "AU ANZSCO 1311 (broader than advertising-only); model-derived exposure estimates.",
+      "disposition": "sourced",
       "supersedes": null,
       "bearing": [
         "C4",
-        "W2"
+        "W2",
+        "G2"
       ],
       "refuted": false,
-      "refuteNotes": "3 of 3 skeptics failed to overturn: the IAB report and sample are declared, the population is consumers/executives (preserved, not claimed as occupation-wide) and publication is in 2025."
+      "refuteNotes": "Primary AU source; population = AU 1311; in window."
     },
     {
-      "id": "l523",
+      "id": "11-2011-L3-01",
+      "text": "Industry coverage (The Current, 2025) reported Mondelez committed over US$40 million to a proprietary generative-AI production engine targeting creative from social assets to broadcast-ready commercials, with early estimates of a 30-50% reduction in creative production costs - evidence of demand-side AI adoption reshaping the production tasks advertising managers oversee.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "The Current",
+          "title": "The year AI reshaped marketing and media",
+          "url": "https://www.thecurrent.com/marketing/ai-reshaped-marketing-media-disney-coca-cola-wpp-2025",
+          "date": "2025",
+          "whatItMeasured": "Mondelez >$40M genAI engine; 30-50% creative cost reduction; agencies reorganising around automation."
+        }
+      ],
+      "scope": "Global brand/agency signal; indicates automation of production tasks advertising managers coordinate, not elimination of the role.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "W1",
+        "C4"
+      ],
+      "refuted": false,
+      "refuteNotes": "Trade-press reporting; single brand example; in window (2025)."
+    },
+    {
+      "id": "11-2011-L3-02",
+      "text": "A 2025 marketing-leader survey (basis.com) found 59% of respondents believe AI will lead to substantial job losses in digital marketing within 3-5 years - a forward-looking practitioner belief, not a current employment measure.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "basis.com",
+          "title": "Marketing leaders say employees have embraced AI for marketing and advertising",
+          "url": "https://basis.com/news/marketing-leaders-say-employees-have-embraced-ai-for-marketing-and-advertising",
+          "date": "2025",
+          "whatItMeasured": "Survey: 59% expect substantial digital-marketing job losses in 3-5 years."
+        }
+      ],
+      "scope": "Self-reported belief among marketing leaders; sentiment, not employment data. Reported as belief, not fact, per method.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "W1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Survey of marketing leaders; in window; clearly scoped as a belief."
+    },
+    {
+      "id": "l505",
+      "text": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 2026\n\nProcessed **0** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 202\u2026",
+          "url": "https://github.com/nubenetes/awesome-kubernetes/pull/499",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l506",
+      "text": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 2026\n\nProcessed **0** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.\n## \ud83d\udee1\ufe0f Safety & Mandate Audit (Detailed)\n\n## \ud83d\udee1\ufe0f Platinum Safety & Mandate Audit: \u274c FAILED\n*Audit executed on 2026-07-13 03:57:40*\n\n### \ud83d\udd0d High-Value Pendin\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 202\u2026",
+          "url": "https://github.com/nubenetes/awesome-kubernetes/pull/499",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l507",
+      "text": "V2 Elite: Agentic Optimization Sync (2026)\n## \ud83c\udfc6 V2 Elite: Agentic Optimization Sync (2026)\n\nThe V2 Portal has been synchronized with the latest V1 changes. This update enforces the **Minimum Viable Quality (MVQ)** and O'Reilly-style architectural standards.\n\n### \ud83d\udcca High-Density Efficiency\n| Metric | V1 Archive | V2 Elite | Delta / Efficiency\n### \ud83d\udcdc V2 Document Architecture\nExhaustive list of 161 generated elite documents.\n\n| # | Document Name | Description |\n| :--- | :--- | :--- |\n| 1 | `ChromeDev\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "V2 Elite: Agentic Optimization Sync (2026)\n## \ud83c\udfc6 V2 Elite: Agentic Optimization S\u2026",
+          "url": "https://github.com/nubenetes/awesome-kubernetes/pull/214",
+          "date": "2026-05-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l508",
+      "text": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 2026\n\nProcessed **14911** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Model Selection Logic (Dynamic)\nExecution started with discovery of top models based on May 2026 hierarchy.\n\n| Model Use",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 202\u2026",
+          "url": "https://github.com/nubenetes/awesome-kubernetes/pull/133",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l509",
+      "text": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 2026\n\nProcessed **14911** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Model Selection Logic (Dynamic)\nExecution started with discovery of top models based on May 2026 hierarchy.\n\n| Model Use\n## \ud83d\udee1\ufe0f Safety & Mandate Audit (Detailed)\n\n## \ud83d\udee1\ufe0f Platinum Safety & Mandate Audit: \u274c FAILED\n*Audit executed on 2026-05-18 18:55:18*\n\n### \ud83d\udd0d High-Value Pendi\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 202\u2026",
+          "url": "https://github.com/nubenetes/awesome-kubernetes/pull/133",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l510",
       "text": "What breaks in production AI workflows?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -404,7 +239,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l524",
+      "id": "l511",
       "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -425,7 +260,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l525",
+      "id": "l512",
       "text": "How al-Qaida and IS are adopting AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -446,7 +281,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l526",
+      "id": "l513",
       "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -467,7 +302,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l527",
+      "id": "l514",
       "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -488,7 +323,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l528",
+      "id": "l515",
       "text": "The AI store manager fired its first human",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -509,7 +344,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l529",
+      "id": "l516",
       "text": "The death of AI workflow builders",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -530,7 +365,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l530",
+      "id": "l517",
       "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -551,7 +386,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l531",
+      "id": "l518",
       "text": "Structured Evaluation Pipelines to Improve Your AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -572,7 +407,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l532",
+      "id": "l519",
       "text": "Meta's AI advertising dreams have become a nightmare for brands",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -593,7 +428,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l533",
+      "id": "l520",
       "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -614,7 +449,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l534",
+      "id": "l521",
       "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -635,7 +470,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l535",
+      "id": "l522",
       "text": "What is agentic AI today, and what do we want it to be?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -656,7 +491,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l536",
+      "id": "l523",
       "text": "My AI-Assisted Workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -677,7 +512,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l537",
+      "id": "l524",
       "text": "AI Workflows Need Topological Sort",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -698,7 +533,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l538",
+      "id": "l525",
       "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -719,7 +554,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l539",
+      "id": "l526",
       "text": "AI workflows: an industry optimising the wrong variables",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -740,7 +575,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l540",
+      "id": "l527",
       "text": "Ask HK: How are you building AI apps today?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -761,7 +596,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l541",
+      "id": "l528",
       "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -782,7 +617,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l542",
+      "id": "l529",
       "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -803,7 +638,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l543",
+      "id": "l530",
       "text": "The Problem with AI Today",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -824,7 +659,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l544",
+      "id": "l531",
       "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -845,7 +680,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l545",
+      "id": "l532",
       "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -866,7 +701,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l546",
+      "id": "l533",
       "text": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -887,7 +722,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l547",
+      "id": "l534",
       "text": "A or B: My coworker secretly used AI to do his work for 6 months, got promoted over me, and now management wants me to fix the mess. Am I wrong for refusing?\nI&#39;ve been at a marketing agency for a couple of years. I write copy, build campaigns, pitch clients, and handle the actual creative work. After the company hired a new strategist, his work seemed unusually polished. His client decks were good, his deadlines were always met, and he seemed to get through projects really fast. At the time,\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -908,7 +743,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l548",
+      "id": "l535",
       "text": "r/gamedev Policy on AI Use\nAI is one of the most contentious subjects in game development right now, and we regularly see posts reported or discussions derailed simply because AI was involved somewhere in the process. We want to be clear about our position: r/gamedev does not prohibit the use of AI, and using AI does not automatically make a post low effort. This is not an endorsement of every AI company, model, or use case. Legitimate technical, legal, economic, ethical, and creative concerns e\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -929,7 +764,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l549",
+      "id": "l536",
       "text": "By day AI was replacing me. By night I was using AI to replace other people. Six months ago I went indie.\nTwo of Australia&#39;s big four banks are laying off IT staff, round after round. I work at one of them. My closest friend works at the other. So I&#39;ve been watching this from both sides at once, and every day at work feels like waiting for a verdict - not knowing whether this round gets to your name. I have 15 years of development experience. Dozens of projects, big and small. I&#39;ve w\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -950,7 +785,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l550",
+      "id": "l537",
       "text": "What are your thoughts about sellers who advertise/promote the food with AI?\nPhoto above: supposed to be meatballs with noodles. Are they beginning to employ this tactic to promote their product in your country? My opinion: Nope, these advertisements will only make it worse for restaurants that use this trick. Because some potential customers will feel disgusted to look at this food. Edit : I forgot to add another photo example, but I added the food example in the comment section, so you can see\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -971,7 +806,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l551",
+      "id": "l538",
       "text": "\ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc00\ud835\udc08 \ud835\udc01\ud835\udc0e\ud835\udc0e\ud835\udc0c \ud835\udc0c\ud835\udc00\ud835\udc18 \ud835\udc0d\ud835\udc0e\ud835\udc13 \ud835\udc01\ud835\udc04 \ud835\udc03\ud835\udc04\ud835\udc02\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc03 \ud835\udc01\ud835\udc18 \ud835\udc16\ud835\udc07\ud835\udc0e \ud835\udc01\ud835\udc14\ud835\udc08\ud835\udc0b\ud835\udc03\ud835\udc12 \ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc01\ud835\udc04\ud835\udc12\ud835\udc13 \ud835\udc0c\ud835\udc0e\ud835\udc03\ud835\udc04\ud835\udc0b.\n\n\ud835\udc08\ud835\udc13 \ud835\udc0c\ud835\udc00\ud835\udc18 \ud835\udc01\ud835\udc04 \ud835\udc03\ud835\udc04\ud835\udc02\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc03 \ud835\udc01\ud835\udc18 \ud835\udc16\ud835\udc07\ud835\udc0e \ud835\udc02\ud835\udc00\ud835\udc0d \ud835\udc13\ud835\udc14\ud835\udc11\ud835\udc0d \ud835\udc08\ud835\udc0d\ud835\udc13\ud835\udc04\ud835\udc0b\ud835\udc0b\ud835\udc08\ud835\udc06\ud835\udc04\ud835\udc0d\ud835\udc02\ud835\udc04 \ud835\udc08\ud835\udc0d\ud835\udc13\ud835\udc0e \ud835\udc11\ud835\udc04\ud835\udc0f\ud835\udc04\ud835\udc00\ud835\udc13\ud835\udc00\ud835\udc01\ud835\udc0b\ud835\udc04 \ud835\udc04\ud835\udc02\ud835\udc0e\ud835\udc0d\ud835\udc0e\ud835\udc0c\ud835\udc08\ud835\udc02 \ud835\udc15\ud835\udc00\ud835\udc0b\ud835\udc14\ud835\udc04.\n\nThe market has spent enormous energy asking who will win the AI race.\n\nWho builds the strongest models?\n\nWho supplies the fastest compute?\n\nWho gets the largest data-centre contracts?\n\nThose questions matter.\n\nBut they describe the beginning of the AI economy, not necessarily where the value ultimately settles.\n\nA technology becomes truly transformative wh",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -992,7 +827,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l552",
+      "id": "l539",
       "text": "The Last Feed: When Your AI Agent Scrolls and Taps for You",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1013,7 +848,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l553",
+      "id": "l540",
       "text": "Building the most AI-enabled creative agency on the planet",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1034,7 +869,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l554",
+      "id": "l541",
       "text": "Stop using AI like a chatbot. Here are 7 tasks GROK BOT already does on its own",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1055,7 +890,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l555",
+      "id": "l542",
       "text": "AI IS ALREADY CREATING NEW MILLIONAIRES: HOW PEOPLE ARE MAKING MONEY WITH ARTIFICIAL INTELLIGENCE IN",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1076,7 +911,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l556",
+      "id": "l543",
       "text": "AI Did Not Invent Computer-Assisted Thinking. It Is the Next Step.",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1097,7 +932,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l557",
+      "id": "l544",
       "text": "How TRAIEX Works: From Buying Crypto to AI Trading",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1118,7 +953,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l558",
+      "id": "l545",
       "text": "AI Is Bigger Than Chatbots The Infrastructure Race Behind the Next Computing Era Artificial intellig",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1139,7 +974,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l559",
+      "id": "l546",
       "text": "AI Overview\nMetastasizing is the active process in which cancer cells break away from the main (primary) tumor, travel through the blood or lymph system, and start growing as new tumors in other parts of the body.\n\nSan Francisco General Hospital (officially known as the Zuckerberg San Francisco General Hospital and Trauma Center)[1] is a public hospital in San Francisco, California, operated by the San Francisco Department of Public Health. It serves as the only Level I trauma center for the 1.5",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1160,7 +995,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l560",
+      "id": "l547",
       "text": "@jinjohn144 And you have a blessed day as well.",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1181,7 +1016,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l561",
+      "id": "l548",
       "text": "More detailed notes (worth the time):\n\n1. An outright American \u201cvictory\u201d in AI could be dangerous\nThompson begins by challenging the idea that the United States should seek overwhelming AI superiority.\nHis argument is game-theoretic: suppose advanced AI gives the US a decisive military, industrial or intelligence advantage. China might conclude that it must act before that advantage becomes permanent. Because so much leading-edge semiconductor capacity remains concentrated at TSMC in Taiwan, att",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1202,7 +1037,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l562",
+      "id": "l549",
       "text": "Save the postage.\n\nThe threats aren\u2019t derailing us. It confirms we are over the target.\n\nThe H-1B visa fraud investigation is only getting more aggressive.\n\nWe\u2019re following the evidence, finding the fraud and protecting American workers.",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1223,7 +1058,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l563",
+      "id": "l550",
       "text": ".@VP Vance\u2019s War on Fraud is delivering real results for Americans.\n\nListen to @DrOzCMS explain how rooting out fraud protects seniors, defends programs, and saves taxpayers BILLIONS. \u2b07\ufe0f",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1244,7 +1079,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l564",
+      "id": "l551",
       "text": "$42 BILLION in Medicare funds protected--70% by preventing fraud BEFORE it happened. \n\n@VP Vance's Task Force and our partners @DrOzCMS and @CMSGov have changed the game on fraudsters. We're protecting American taxpayers by identifying entire fraud networks and shutting them down, ensuring YOUR hard-earned money is kept out of the hands of criminals. \ud83c\uddfa\ud83c\uddf8",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1265,7 +1100,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l565",
+      "id": "l552",
       "text": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1286,7 +1121,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l566",
+      "id": "l553",
       "text": ".@VP is right: American companies should hire/train American workers.\n\n@DOLOIG nationwide H-1B investigation will expose fraud, sham employers and schemes.\n\n@POTUS' proposed $103,265 fee sends another message: gaming the system is over. https://t.co/p7ezKwmE1E",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1307,7 +1142,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l567",
+      "id": "l554",
       "text": "Criminals who defraud SNAP steal from American taxpayers. They also steal from children and families in need.\n\nThanks to the Trump-Vance Administration's War on Fraud, these criminals will face swift justice. \ud83c\uddfa\ud83c\uddf8",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1328,7 +1163,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l568",
+      "id": "l555",
       "text": ".@VP Vance has made clear that bad actors CANNOT exploit children to enrich themselves while defrauding parents and American taxpayers. \n\nHear @JDVance \ud83d\udc47 and read the full \"Wolves in White Coats\" report here: https://t.co/7UJ7wVOUTy",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1349,7 +1184,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l569",
+      "id": "l556",
       "text": "ICYMI \u2b07\ufe0f",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1370,7 +1205,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l570",
+      "id": "l557",
       "text": "\ud83d\udc40\nhttps://t.co/kkBpJhQCKH",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1391,7 +1226,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l571",
+      "id": "l558",
       "text": ".@AGToddBlanche &amp; @AAGMcDonald\u2019s NFDC brings law enforcement, analysts and technology together to find fraud, follow money and build cases to put criminals behind bars.\n\nAnother powerful weapon in @POTUS and @VP\u2019s whole-of-government war on fraud.\n\n@DOLOIG is proud to be a part.",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1412,7 +1247,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l572",
+      "id": "l559",
       "text": "@holmestheseeker and J1...",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1433,7 +1268,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l573",
+      "id": "l560",
       "text": "Fraudsters have stolen YOUR hard-earned tax dollars for far too long. \n\n@POTUS and @VP JD Vance are fighting back--and WINNING the War on Fraud. \ud83c\uddfa\ud83c\uddf8",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1454,7 +1289,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l574",
+      "id": "l561",
       "text": "Good Morning  \n\nPOTENTIAL FRAUD - INVESTIGATE\n\n@USLaborIG @WHFraudTF \n\nhttps://t.co/BWTyiJAtxM\n\n(No significant X presence here) All publicly available information.\n\nF Q R LLC (operating at 4425 Galaxy Ave, Las Vegas, NV 89102) is a small residential remodeling / construction company.\n\nKey DetailsNAICS Code 236118: Residential Remodelers \u2014 This covers additions, alterations, renovations, maintenance, and repairs on single-family and multifamily homes (general contracting, design-build, etc.).\n\nP",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1475,7 +1310,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l575",
+      "id": "l562",
       "text": "@jinjohn144 @realDonaldTrump Take. Your. Meds.",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1496,7 +1331,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l576",
+      "id": "l563",
       "text": "Please oray for this dear lady!!",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1517,7 +1352,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l577",
+      "id": "l564",
       "text": "@bigpapiski @VP @DOLOIG @POTUS @bigpapiski - as I've responded multiple times, @DOLOIG has the authority to investigate, not end the program.",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1538,7 +1373,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l578",
+      "id": "l565",
       "text": "I enjoyed this exercise!!!\nI did not like that it was not all straight As... LOL I am OCD ADHD A type personality that needs to be the best .... https://t.co/B8Yv9DZikg",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1559,7 +1394,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l579",
+      "id": "l566",
       "text": "@BreannaMorello @SRPostX @TruthNetwork24 @ChiefEngineerCE @VBierschwale  - sure wish our government represented us\u2026. Instead they use our taxpayer funds to eliminate jobs for American workers giving H1B Visas @SenEricSchmitt @RepEliCrane @USLaborIG @DOLOIG",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1580,7 +1415,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l580",
+      "id": "l567",
       "text": "Did you know universities that misclassify full-time research workers as J-1 exchange visitors may be circumventing statutory and regulatory obligations\u2014including Labor Condition Application requirements?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1601,7 +1436,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l581",
+      "id": "l568",
       "text": "Apply if You Qualify!",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1622,7 +1457,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l582",
+      "id": "l569",
       "text": "@CodyTheSeabee AMEN!!",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1643,7 +1478,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l583",
+      "id": "l570",
       "text": "@VBierschwale @alexleestine303 @Plebeian42 I have an audio setup and production and can produce it for next to nothing if you can handle a female reader...",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1664,7 +1499,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l584",
+      "id": "l571",
       "text": "@Jenna_Danae88 @VBierschwale Just send me a dm with your zip code",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1685,7 +1520,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l585",
+      "id": "l572",
       "text": "@WHFraudTF @POTUS @VP \ud83c\uddfa\ud83c\uddf2",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1706,7 +1541,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l586",
+      "id": "l573",
       "text": "@WHFraudTF @VP @POTUS Thanks but it\u2019s useless if we don\u2019t start to see some arrest and prosecution.  We The People demand Justice.",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1727,7 +1562,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l587",
+      "id": "l574",
       "text": "@WHFraudTF @POTUS @VP https://t.co/W35oEOlkEN",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1748,7 +1583,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l588",
+      "id": "l575",
       "text": "@ConsiderMeDunn @DMAnews1 This state is hopelessly corrupt and without the Feds stepping in it\u2019s going to continue to get worse. @AAGDhillon @VP @WHFraudTF @DrOzCMS @DMAnews1",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1769,7 +1604,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l589",
+      "id": "l576",
       "text": "@WHFraudTF \ud83d\udc40",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1790,7 +1625,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l590",
+      "id": "l577",
       "text": "@JakeDHAA The fraud &amp; subpar fake degrees allowing them to cheat &amp; take spots at our elite schools that should be going to Americans must stop! @POTUS @USLaborIG",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1811,7 +1646,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l591",
+      "id": "l578",
       "text": "@Cernovich @POTUS we don\u2019t have a shortage Americans stem grads aren\u2019t getting interviews! Ask them. My nephew a vet was working as a programmer - Accenture came in &amp; told company can offshore for 1/2 the salary so they \u201celiminated\u201d entire teams of \ud83c\uddfa\ud83c\uddf8\u2019s  while paying Accenture\ud83d\udcb0 @USLaborIG",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1832,7 +1667,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l592",
+      "id": "l579",
       "text": "@warDaniel47 @POTUS @RepGregSteube @VP @USLaborIG  It\u2019s PAST time to end OPT &amp; allowing corps to fire massive amounts of \ud83c\uddfa\ud83c\uddf8\u2019s  &amp; then getting approved for visa workers immediately after or offshoring thousands of jobs to \u2b06\ufe0fstock price claiming cost cuts as they spend 100million to consultants",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1853,7 +1688,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l593",
+      "id": "l580",
       "text": "@DOLOIG @USLaborIG @POTUS @VP @WHFraudTF @USDOL @Sonderling47 Unless the fee is punitive, it won\u2019t help.  Visas should be minimal, period.",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1874,7 +1709,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l594",
+      "id": "l581",
       "text": "@JakeDHAA @USLaborIG @DOLOIG",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1895,7 +1730,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l595",
+      "id": "l582",
       "text": "@TruthNetwork24 @grok i'd like that report card",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1916,7 +1751,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l596",
+      "id": "l583",
       "text": "@DeAngelisCorey @WhiteHouse Im in!",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1937,7 +1772,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l597",
+      "id": "l584",
       "text": "@CynicalPublius @grok create my report card please",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1958,7 +1793,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l598",
+      "id": "l585",
       "text": "@RepDougCollins @IndyCar @NASCAR @SecDuffy Heard on BANNON THAT \nCOLLINS DOES NOT CARE ABOUT THE VET ACCESS ACT!!!!\nVETS GAVE US ALL &amp; DESERVE CHOICE\nCOLLINS WANTS TO BE A SENATOR \nNOT CARE FOR VETS \u2014- he is caving to unions \nDESPICABLE!!\n@GuntherEagleman \n@TruthNetwork24 \n@gaye_gallops \n@RYboating",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1979,7 +1814,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l599",
+      "id": "l586",
       "text": "@TruthNetwork24 https://t.co/X131vd8R3D",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -2000,7 +1835,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l5100",
+      "id": "l587",
       "text": "@TruthNetwork24 Trust in God always",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -2021,7 +1856,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l5101",
+      "id": "l588",
       "text": "'The dawn of a new era' ... the first year of the U18 competition. Six teams and a damn good line-up of coaches and development/promotions managers. https://t.co/eu3tULDe16",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -2042,7 +1877,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l5102",
+      "id": "l589",
       "text": "How AI Is Destroying the Advertising Industry | Office Hours\nScott Galloway breaks down how AI is impacting the marketing industry, explains why choosing the right partner may be the most important financial decision you\u2019ll ever make, and shares his approach to raising independent kids.\n\nWant to be featured in a future episode? Send a voice recording to officehours@profgmedia.com, or drop your question in the r/ScottGalloway subreddit: https://links.profgmedia.com/4rMyV41\n\nTimestamps:\n00:00 - In\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -2063,7 +1898,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l5103",
+      "id": "l590",
       "text": "Why AI Isn't Disrupting Marketing Just Yet\nAI in business is shifting operations. See how to target labor costs and consultancy spending for better efficiency by 2026.\n\nBusiness owners are currently evaluating where AI integration offers the most practical value. This video breaks down the specific functional areas where automation is replacing manual labor and consultant reliance, helping you decide where to allocate your resources for maximum efficiency gains.\n\nWe examine the realistic outlook\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -2084,205 +1919,184 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
+      "id": "l491",
+      "text": "Promotions Manager - STAR 102.7 & 4CA \u2014 ARN (Mooroobool, Queensland, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "ARN",
+          "title": "Promotions Manager - STAR 102.7 & 4CA",
+          "url": "https://www.linkedin.com/jobs/view/4458149877",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l492",
+      "text": "Marketing Manager \u2014 South Ave (Adelaide, South Australia, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "South Ave",
+          "title": "Marketing Manager",
+          "url": "https://www.linkedin.com/jobs/view/4458151226",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l493",
+      "text": "Marketing & Communications Manager \u2014 Bishopp (Red Hill, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Bishopp",
+          "title": "Marketing & Communications Manager",
+          "url": "https://www.linkedin.com/jobs/view/4451381712",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l494",
+      "text": "Marketing Manager (Hospitality) \u2014 SkyCity Adelaide (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "SkyCity Adelaide",
+          "title": "Marketing Manager (Hospitality)",
+          "url": "https://www.linkedin.com/jobs/view/4452354504",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l495",
+      "text": "Merchandise & Promotions Manager \u2014 HOYTS Group (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "HOYTS Group",
+          "title": "Merchandise & Promotions Manager",
+          "url": "https://www.linkedin.com/jobs/view/4448261659",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l496",
+      "text": "Account Manager \u2014 OMD Australia (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "OMD Australia",
+          "title": "Account Manager",
+          "url": "https://www.linkedin.com/jobs/view/4452351527",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l497",
+      "text": "Advertising Manager \u2014 Airport Development Group | ADG (Darwin City, Northern Territory, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Airport Development Group | ADG",
+          "title": "Advertising Manager",
+          "url": "https://www.linkedin.com/jobs/view/4453422057",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l498",
+      "text": "Marketing Manager \u2014 Fleur Studios (Gold Coast, Queensland, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Fleur Studios",
+          "title": "Marketing Manager",
+          "url": "https://www.linkedin.com/jobs/view/4444859929",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
       "id": "l499",
-      "text": "Marketing Manager \u2014 Laser Clinics Australia (North Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Brand Manager \u2014 Fair Dinkum Builds (Logan, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Laser Clinics Australia",
-          "title": "Marketing Manager",
-          "url": "https://www.linkedin.com/jobs/view/4454966098",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l4100",
-      "text": "Brand Manager - Nature's Way \u2014 PharmaCare Laboratories (Warriewood, New South Wales, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "PharmaCare Laboratories",
-          "title": "Brand Manager - Nature's Way",
-          "url": "https://www.linkedin.com/jobs/view/4444549480",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l4101",
-      "text": "Marketing Manager - Baby \u2014 ZURU Edge (Greater Sydney Area). Posted 9 hours ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "ZURU Edge",
-          "title": "Marketing Manager - Baby",
-          "url": "https://www.linkedin.com/jobs/view/4449442608",
-          "date": "9 hours ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l4102",
-      "text": "Marketing Manager \u2014 Southern Cross Care WA (Rivervale, Western Australia, Australia). Posted 5 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Southern Cross Care WA",
-          "title": "Marketing Manager",
-          "url": "https://www.linkedin.com/jobs/view/4454632162",
-          "date": "5 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l4103",
-      "text": "Local Area Marketing Manager \u2014 Schnitz (South Yarra, Victoria, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Schnitz",
-          "title": "Local Area Marketing Manager",
-          "url": "https://www.linkedin.com/jobs/view/4453403964",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l4104",
-      "text": "Media Manager (based in Melbourne) \u2014 Fever (Greater Melbourne Area). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Fever",
-          "title": "Media Manager (based in Melbourne)",
-          "url": "https://www.linkedin.com/jobs/view/4353554856",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l4105",
-      "text": "Brand Manager \u2014 William Grant & Sons (Sydney, New South Wales, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "William Grant & Sons",
+          "publisher": "Fair Dinkum Builds",
           "title": "Brand Manager",
-          "url": "https://www.linkedin.com/jobs/view/4452912799",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l4106",
-      "text": "In-house Marketing Manager \u2014 BFJ Digital (Brisbane City, Queensland, Australia). Posted 1 month ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "BFJ Digital",
-          "title": "In-house Marketing Manager",
-          "url": "https://www.linkedin.com/jobs/view/4439097236",
-          "date": "1 month ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l4107",
-      "text": "Brand Marketing Manager \u2014 Kinrise (Dandenong South, Victoria, Australia). Posted 1 month ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Kinrise",
-          "title": "Brand Marketing Manager",
-          "url": "https://www.linkedin.com/jobs/view/4433301144",
-          "date": "1 month ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l4108",
-      "text": "Marketing Manager - Haircare \u2014 MONDAY Haircare (Greater Sydney Area). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "MONDAY Haircare",
-          "title": "Marketing Manager - Haircare",
-          "url": "https://www.linkedin.com/jobs/view/4440998478",
-          "date": "2 weeks ago",
+          "url": "https://www.linkedin.com/jobs/view/4448819544",
+          "date": "3 weeks ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
         }
       ],
@@ -2297,102 +2111,66 @@
   "jobAds": {
     "source": "adzuna-au",
     "query": "advertising manager",
-    "window": "retrieved 2026-08-27; current Adzuna AU listings",
-    "count": 450,
-    "sampledListings": 50,
+    "window": "2025-08-27 to 2026-08-27 (Adzuna AU live all-time index)",
+    "count": 445,
     "topEmployers": [
       "Google",
       "Easy Authoring",
       "HealthcareLink Support",
       "Taboola",
       "Willow Bridge Estate",
-      "Airport Development Group",
-      "Pattern",
-      "The Walt Disney Company"
+      "Airport Development Group"
     ],
-    "topEmployerCounts": {
-      "Google": 6,
-      "Easy Authoring": 3,
-      "HealthcareLink Support": 3,
-      "Taboola": 2,
-      "Willow Bridge Estate": 2,
-      "Airport Development Group": 1,
-      "Pattern": 1,
-      "The Walt Disney Company": 1
-    },
     "topSkills": [
-      "advertising",
+      "ai",
       "digital",
-      "marketing",
-      "client",
+      "team",
+      "customer",
       "stakeholder",
       "brand",
       "campaign",
-      "social media",
-      "creative",
-      "promotion"
+      "stakeholder management",
+      "communication",
+      "reporting"
     ],
-    "topSkillCounts": {
-      "advertising": 43,
-      "digital": 21,
-      "marketing": 18,
-      "client": 16,
-      "stakeholder": 12,
-      "brand": 11,
-      "campaign": 9,
-      "social media": 7,
-      "creative": 5,
-      "promotion": 1
-    },
-    "methodNote": "Adzuna returned 450 current matches for the exact phrase query 'advertising manager'. Employer and skill frequencies were recomputed from the first 50 relevance-ranked listings, not from all matches. Job ads are demand signals, not graduate destinations."
+    "note": "Count is Adzuna AU live index size for the query (all-time). 'ai' and 'digital' lead the keyword set across 50 sampled ads."
   },
   "corpus": {
     "platforms": [
       {
-        "name": "github",
-        "scope": "last30days L5 sweep (180d)",
-        "items": 5,
-        "state": "excluded-non-discourse"
-      },
-      {
-        "name": "grounding",
-        "scope": "last30days L5 sweep (180d)",
+        "name": "linkedin",
+        "scope": "linkedin-mcp-search (unofficial scrape), Australia",
         "items": 0,
-        "state": "ok"
-      },
-      {
-        "name": "hackernews",
-        "scope": "last30days L5 sweep (180d)",
-        "items": 24,
-        "state": "ok"
-      },
-      {
-        "name": "reddit",
-        "scope": "last30days L5 sweep (180d)",
-        "items": 4,
-        "state": "ok"
-      },
-      {
-        "name": "x",
-        "scope": "last30days L5 sweep (180d)",
-        "items": 51,
-        "state": "ok"
-      },
-      {
-        "name": "youtube",
-        "scope": "last30days L5 sweep (180d)",
-        "items": 2,
-        "state": "ok"
+        "note": "Demand-side corpus; who advertises / what they ask for. Not salary or hire-volume."
       }
     ],
     "retrieved": "2026-08-27",
-    "searchesReturningNothing": [],
-    "autoloopStatus": "2026-08-27: 5-lane autoloop complete. Lanes: {'L3': 15, 'L1': 1, 'L2': 1, 'L5': 81}. Removed fabricated L1/L2 from prior run; added 2 real L1/L2; kept Factiva L3; Adzuna L4 count=450; L5 discourse items=81 (github/polymarket excluded as non-discourse). Confidence=high.",
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "note": "OpenAthens SSO session expired (loop test 2026-08-27 redirected to SAML login). Gap logged to data/professions/factiva_backlog.json for backfill."
+      },
+      {
+        "lane": "L4",
+        "source": "seek",
+        "status": "not_sampled",
+        "note": "Seek trend pages not sampled this pass; Adzuna AU used as the quantitative L4 source."
+      },
+      {
+        "lane": "L4",
+        "source": "linkedin",
+        "status": "sampled",
+        "note": "LinkedIn L4 (linkedin-mcp-search, unofficial scrape) returned 0 live AU postings on 2026-08-27; folded as L4 claims. Provenance: linkedin (unofficial scrape)."
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-27",
-        "added": 81,
+        "added": 86,
         "sources": {
+          "github": 5,
           "grounding": 0,
           "hackernews": 24,
           "reddit": 4,
@@ -2408,15 +2186,17 @@
         "soc": "11-2011",
         "query": "Advertising and Promotions Managers",
         "location": "Australia",
-        "returned": 10,
-        "totalResults": 10,
+        "returned": 9,
+        "totalResults": 9,
         "status": "sampled"
       }
     ]
   },
   "confidence": "high",
   "caveats": [
-    "L3 Factiva claims backfilled 2026-08-26 (hybrid cookie session)."
-  ],
-  "researchMethod": "empirical-five-lane-v1"
+    "Factiva L3 unavailable (auth expired); L3 rests on public trade press and a practitioner survey.",
+    "ANZSCO 1311 assigned from JSA Gen AI Capacity Study unit mapping; the crosswalk carries no ANZSCO field.",
+    "Adzuna count is an all-time live index size, not a 12-month time-series.",
+    "L5 practitioner-discourse corpus is self-selected (Reddit/X/HN/GitHub/YouTube); not a representative survey."
+  ]
 }

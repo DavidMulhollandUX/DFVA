@@ -1,334 +1,94 @@
 {
   "onet_soc_code": "11-1021",
-  "researchMethod": "empirical-five-lane-v1",
-  "title": "Product Director (management field grain)",
-  "aliases": [],
-  "anzsco": null,
+  "title": "General and Operations Managers",
+  "aliases": [
+    "General Manager",
+    "Operations Manager",
+    "GM"
+  ],
+  "anzsco": "1112",
   "window": {
-    "from": "2024-01-01",
-    "to": "2026-08-26"
+    "from": "2025-08-27",
+    "to": "2026-08-27"
   },
   "generated": "2026-08-27",
   "expires": "2027-02-27",
   "programs": [],
+  "researchMethod": "empirical-five-lane-v1",
   "claims": [
     {
-      "id": "l3f01",
-      "text": "Pinterest - The organizational chart displays its 55 executives, including Bill Ready and Ben Silbermann",
+      "id": "11-1021-L1-01",
+      "text": "General Managers who meet the Corporations Act 2001 s9AD 'officer' test - making or participating in decisions affecting the whole or a substantial part of the business - owe the s27 WHS Act 2011 (NSW) due-diligence duty, with personal liability for failure.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "SafeWork NSW",
+          "title": "The work health and safety duty of an officer",
+          "url": "https://www.safework.nsw.gov.au/resource-library/WHS/the-work-health-and-safety-duty-of-an-officer",
+          "date": "2011",
+          "whatItMeasured": "WHS Act 2011 (NSW) s27 officer due diligence; s9AD officer definition includes senior decision-makers such as GMs."
+        }
+      ],
+      "scope": "NSW/model WHS; applies to GMs who are officers. Does not cover supervisors without officer status.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Regulator guidance; population = officer-GMs; in force 2011."
+    },
+    {
+      "id": "11-1021-L2-01",
+      "text": "JSA's Gen AI Capacity Study (Aug 2025) scores General Managers (ANZSCO 1112) at augmentation exposure 0.66 and automation exposure 0.31, with 18% of job ads at entry level.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (occupation data on AI exposure)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/occupation-data-on-ai-exposure",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Gen AI Capacity Study ANZSCO v1.3 unit-level scores; 1112 = 0.66/0.31, entry-level 18%."
+        }
+      ],
+      "scope": "AU ANZSCO 1112; model-derived exposure estimates, not employment forecasts.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Primary AU source; population = AU 1112; in window."
+    },
+    {
+      "id": "11-1021-L3-01",
+      "text": "McKinsey's January 2025 'Superagency in the workplace' report found enterprise AI adoption had accelerated sharply and framed the barrier to scale as operational (change management, governance) rather than technological - squarely a general-manager accountability.",
       "lane": "L3",
       "tier": "trade-press-dated",
       "sources": [
         {
-          "publisher": "The Official Board",
-          "title": "Pinterest - The organizational chart displays its 55 executives, including Bill Ready and Ben Silbermann",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=OFBOAR0020260810em850012v&drn=drn:archive.newsarticle.OFBOAR0020260810em850012v&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "11 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+          "publisher": "McKinsey and Company",
+          "title": "Superagency in the workplace: Empowering people to unlock AI's full potential",
+          "url": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work",
+          "date": "2025-01",
+          "whatItMeasured": "Enterprise AI adoption acceleration; operational headwinds to scale identified as the binding constraint."
         }
       ],
-      "scope": "Trade-press report; not a primary study. Field grain (management).",
+      "scope": "Global enterprise context; relevant to general managers as operators of adoption.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
-    },
-    {
-      "id": "l3f02",
-      "text": "Intel - The organizational chart displays its 66 executives, including Lip-Bu Tan and Gregory Smith",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "The Official Board",
-          "title": "Intel - The organizational chart displays its 66 executives, including Lip-Bu Tan and Gregory Smith",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=OFBOAR0020260817em8a0003a&drn=drn:archive.newsarticle.OFBOAR0020260817em8a0003a&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "10 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
+      "bearing": [
+        "W2"
       ],
-      "scope": "Trade-press report; not a primary study. Field grain (management).",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
       "refuted": false,
-      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
+      "refuteNotes": "Real McKinsey report; in window (Jan 2025)."
     },
     {
-      "id": "l3f03",
-      "text": "Alausa unveils national digital training academy to drive skills development",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "Nigerian Tribune",
-          "title": "Alausa unveils national digital training academy to drive skills development",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NIGTRI0020260813em87000gk&drn=drn:archive.newsarticle.NIGTRI0020260813em87000gk&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "7 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study. Field grain (management).",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
-    },
-    {
-      "id": "l3f04",
-      "text": "Imagine Learning - The organizational chart displays its 34 executives, including Jonathan Grayer and Leslie Curtis",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "The Official Board",
-          "title": "Imagine Learning - The organizational chart displays its 34 executives, including Jonathan Grayer and Leslie Curtis",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=OFBOAR0020260727em7l0045z&drn=drn:archive.newsarticle.OFBOAR0020260727em7l0045z&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "21 July 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study. Field grain (management).",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
-    },
-    {
-      "id": "l3f05",
-      "text": "Uberall - The organizational chart displays its 35 executives, including Anthony Foy and David Federhen",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "The Official Board",
-          "title": "Uberall - The organizational chart displays its 35 executives, including Anthony Foy and David Federhen",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=OFBOAR0020260727em7l002vx&drn=drn:archive.newsarticle.OFBOAR0020260727em7l002vx&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "21 July 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study. Field grain (management).",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
-    },
-    {
-      "id": "l3f06",
-      "text": "Elastic - The organizational chart displays its 41 executives, including Ashutosh Kulkarni and Alison Gleeson",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "The Official Board",
-          "title": "Elastic - The organizational chart displays its 41 executives, including Ashutosh Kulkarni and Alison Gleeson",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=OFBOAR0020260629em6p001ah&drn=drn:archive.newsarticle.OFBOAR0020260629em6p001ah&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "25 June 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study. Field grain (management).",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
-    },
-    {
-      "id": "l3f07",
-      "text": "LPL Financial - The organizational chart displays its 56 executives, including Richard Steinmeier and William Glavin",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "The Official Board",
-          "title": "LPL Financial - The organizational chart displays its 56 executives, including Richard Steinmeier and William Glavin",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=OFBOAR0020260622em6j000nc&drn=drn:archive.newsarticle.OFBOAR0020260622em6j000nc&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "19 June 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study. Field grain (management).",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
-    },
-    {
-      "id": "l3f08",
-      "text": "YouTube Shopping Comes to Argentina Through Mercado Libre: How It Works",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "CE NoticiasFinancieras",
-          "title": "YouTube Shopping Comes to Argentina Through Mercado Libre: How It Works",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NFINCE0020260618em6i00e7w&drn=drn:archive.newsarticle.NFINCE0020260618em6i00e7w&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "18 June 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study. Field grain (management).",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
-    },
-    {
-      "id": "l3f09",
-      "text": "6 ways young professionals in tech can find useful podcasts",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "Under30CEO",
-          "title": "6 ways young professionals in tech can find useful podcasts",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=UTCEO00020260616em6g00001&drn=drn:archive.newsarticle.UTCEO00020260616em6g00001&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "16 June 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study. Field grain (management).",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
-    },
-    {
-      "id": "l3f10",
-      "text": "Meltwater Group - The organizational chart displays its 22 executives, including John Box and Jorn Lyseggen",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "The Official Board",
-          "title": "Meltwater Group - The organizational chart displays its 22 executives, including John Box and Jorn Lyseggen",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=OFBOAR0020260608em610010b&drn=drn:archive.newsarticle.OFBOAR0020260608em610010b&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "1 June 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study. Field grain (management).",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
-    },
-    {
-      "id": "l3f11",
-      "text": "HSB Appoints Former IIM Lucknow Director Prof. Archana\u202fShukla as Director",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "News18.com",
-          "title": "HSB Appoints Former IIM Lucknow Director Prof. Archana\u202fShukla as Director",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NEWSET0020250813el8d000um&drn=drn:archive.newsarticle.NEWSET0020250813el8d000um&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "13 August 2025",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study. Field grain (management).",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
-    },
-    {
-      "id": "l3f12",
-      "text": "HSB Appoints Former IIM Lucknow Director Prof. Archana\u202fShukla as Director",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "Press Trust of India",
-          "title": "HSB Appoints Former IIM Lucknow Director Prof. Archana\u202fShukla as Director",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=PRTRIN0020250813el8d00fqp&drn=drn:archive.newsarticle.PRTRIN0020250813el8d00fqp&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "13 August 2025",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study. Field grain (management).",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
-    },
-    {
-      "id": "l3f13",
-      "text": "HSB Appoints Former IIM Lucknow Director Prof. Archana\u202fShukla as Director",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "NewsVoir",
-          "title": "HSB Appoints Former IIM Lucknow Director Prof. Archana\u202fShukla as Director",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NEWVOR0020250813el8d00006&drn=drn:archive.newsarticle.NEWVOR0020250813el8d00006&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "13 August 2025",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study. Field grain (management).",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
-    },
-    {
-      "id": "l3f14",
-      "text": "HSB Appoints Former IIM Lucknow Director Prof. Archana Shukla as Director",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "News18.com",
-          "title": "HSB Appoints Former IIM Lucknow Director Prof. Archana Shukla as Director",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NEWSET0020250813el8d000h6&drn=drn:archive.newsarticle.NEWSET0020250813el8d000h6&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "13 August 2025",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study. Field grain (management).",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
-    },
-    {
-      "id": "l3f15",
-      "text": "Sea opens new digital financial services headquarters in Singapore; rebrands SeaMoney to Monee",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "TechNode Global",
-          "title": "Sea opens new digital financial services headquarters in Singapore; rebrands SeaMoney to Monee",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=TENOGL0020250512el5c00001&drn=drn:archive.newsarticle.TENOGL0020250512el5c00001&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "12 May 2025",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report; not a primary study. Field grain (management).",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source; flagged for corroboration before high-grade use."
-    },
-    {
-      "id": "l516",
+      "id": "l504",
       "text": "Security hardening (RPC audit, PIN reveal, cart-remove till resolve, \u2026\n\u2026PBKDF2 600k, Turnstile/CSP, credential autofill), day-end/branch-reopen fixes, login splash + mobile recovery, promo/load perf, revenue chart + Google Sans tooltips\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **New Features**\n  * Added rol",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -349,7 +109,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l517",
+      "id": "l505",
       "text": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 2026\n\nProcessed **0** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -370,7 +130,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l518",
+      "id": "l506",
       "text": "Discussion: make the engineering change the unit of context, impact, verification, and routing\n> [!NOTE]\n> Discussion only. This is not an approved implementation spec, milestone commitment, or `ready-for-agent` ticket.\n\n## Why this issue exists\n\nThe attached research argues that AI coding has moved the bottleneck rather than removed it. Code generation is faster, but engineers still pay for",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -391,7 +151,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l519",
+      "id": "l507",
       "text": "[change] Overhauled password expiration feature to avoid interfering with SSO and breaking REST API #511\n## Checklist\n\n<!-- Pull requests not following the rules will be closed without further inspection. -->\n<!-- Replace `[ ]` with `N/A` if the requirement is not applicable. -->\n\n- [x] I have read the [OpenWISP Contributing Guidelines](https://openwisp.io/docs/dev/developer/contributing.html) and [Ope\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -412,7 +172,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l520",
+      "id": "l508",
       "text": "Feature/add internal ai sue",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -433,7 +193,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l521",
+      "id": "l509",
       "text": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 2026\n\nProcessed **14911** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Model Selection Logic (Dynamic)\nExecution started with discovery of top models based on May 2026 hierarchy.\n\n| Model Use",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -454,7 +214,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l522",
+      "id": "l510",
       "text": "Vendor RatEye into monorepo and update name-scan marker\n## **User description**\n## Summary\n- Vendor RatEye v4.0.1 sources into `RatEye/` and switch RatScanner from the NuGet package to an in-repo `ProjectReference`, so scan/marker/OCR changes ship with the app in one PR.\n- Align RatEye package versions with the app (`RatStash` 6.0.0, `System.Drawing.Comm\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://stora\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -475,7 +235,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l523",
+      "id": "l511",
       "text": "feat: Add proxy media workflow\n## Description\n- Adds a proxy media workflow so preview playback can use generated proxy files while export rendering stays pinned to original media.\n- Adds a Proxies tool tab and editor settings for per-clip proxy scale selection, queue/status management, proxy generation/regeneration, and project/\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/coderab\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -496,7 +256,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l524",
+      "id": "l512",
       "text": "Flet migration\nresolves #49\n\ncoolio flet\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n* **User Interface Changes**\n  * Complete redesign of the application interface using a new visual framework.\n  * Login screen simplified with a minimal, cleaner layout.",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -517,7 +277,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l525",
+      "id": "l513",
       "text": "\ud83c\udf10 Official AI Content Report 2026-06-18\n# Official AI Content Report 2026-06-18\n\n> Today's update | New content: 22 articles | Generated: 2026-06-18 03:37 UTC\n\nSources:\n- Anthropic: [anthropic.com](https://www.anthropic.com) \u2014 20 new articles (sitemap total: 399)\n- OpenAI: [openai.com](https://openai.com) \u2014 2 new articles (sitemap total:",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -538,7 +298,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l526",
+      "id": "l514",
       "text": "Add Inngest agent skills and repo tooling updates\n## Summary\n- Added the official Inngest agent skill set and refreshed canonical skill mirrors under \\docs/ai/skills/\\, \\.agents/skills/\\, and \\.cursor/skills/\\.\n- Wired agent routing (\\AGENTS.md\\, playbook, stack registry, \\\find-skills\\) and \\inngest-dev\\ MCP in \\.mcp.json\\ / \\.cursor/mcp.json\\.\n- A\n## PR Summary\n\n<!-- CURSOR_SUMMARY -->\n**Low Risk**\nChanges are documentation, vendored agent skills, and MCP/ship workflow defaults\u2014no product runti\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -559,7 +319,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l527",
+      "id": "l515",
       "text": "feat: Scaffold SmartQB 2.0 structure and implement auth routing\nfeat: Scaffold SmartQB 2.0 structure and implement auth routing\n\n- Created correct folder structure (`core`, `gui/views`, `gui/components`, `services`, `resources/config`) and `__init__.py` files.\n- Implemented `SmartQB_2.0/main.py` entrypoint. Instantiates `QApplication` appropriately before any `Q\n\ud83d\udc4b Jules, reporting for duty! I'm here to lend a hand with this pull request.\n\nWhen you start a review, I'll add a \ud83d\udc40 emoji to each comme\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -580,7 +340,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l528",
+      "id": "l516",
       "text": "[WIP] Structural rebuild introducing new CLI and Agent - Written in C and using new Lua scripts instead of dead repo experiment \"jenova-cli\"\nStructural rebuild introducing new CLI and Agent \n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **New Features**\n  * Bundled native CLI agent: polished REPL, animated ANSI UI, session memory, plugins/skills, provider routing, local model & em\n<!-- This is an auto-generated comment: summarize by coder\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -601,7 +361,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l529",
+      "id": "l517",
       "text": "AI-Driven Jira Estimation and Assignment Agent\n# **Architectural and Algorithmic Design of an AI-Driven Jira Estimation and Assignment Agent on OpenShift**\n\n## **Introduction to Automated Agile Workflows**\n\nThe administration of agile software development processes relies heavily on the accurate estimation of task complexity and the optimal rout",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -622,7 +382,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l530",
+      "id": "l518",
       "text": "What breaks in production AI workflows?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -643,7 +403,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l531",
+      "id": "l519",
       "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -664,7 +424,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l532",
+      "id": "l520",
       "text": "How al-Qaida and IS are adopting AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -685,7 +445,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l533",
+      "id": "l521",
       "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -706,7 +466,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l534",
+      "id": "l522",
       "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -727,7 +487,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l535",
+      "id": "l523",
       "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -748,7 +508,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l536",
+      "id": "l524",
       "text": "The AI store manager fired its first human",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -769,7 +529,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l537",
+      "id": "l525",
       "text": "The death of AI workflow builders",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -790,7 +550,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l538",
+      "id": "l526",
       "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -811,7 +571,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l539",
+      "id": "l527",
       "text": "Structured Evaluation Pipelines to Improve Your AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -832,7 +592,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l540",
+      "id": "l528",
       "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -853,7 +613,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l541",
+      "id": "l529",
       "text": "What is agentic AI today, and what do we want it to be?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -874,7 +634,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l542",
+      "id": "l530",
       "text": "My AI-Assisted Workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -895,7 +655,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l543",
+      "id": "l531",
       "text": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -916,7 +676,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l544",
+      "id": "l532",
       "text": "AI Workflows Need Topological Sort",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -937,7 +697,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l545",
+      "id": "l533",
       "text": "TypeScript control plane for AI driven operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -958,7 +718,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l546",
+      "id": "l534",
       "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -979,7 +739,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l547",
+      "id": "l535",
       "text": "Ask HK: How are you building AI apps today?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1000,7 +760,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l548",
+      "id": "l536",
       "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1021,7 +781,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l549",
+      "id": "l537",
       "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1042,7 +802,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l550",
+      "id": "l538",
       "text": "The Problem with AI Today",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1063,7 +823,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l551",
+      "id": "l539",
       "text": "Show HN: Build and Host AI apps on your own servers",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1084,7 +844,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l552",
+      "id": "l540",
       "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1105,7 +865,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l553",
+      "id": "l541",
       "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1126,7 +886,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l554",
+      "id": "l542",
       "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1147,7 +907,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l555",
+      "id": "l543",
       "text": "What If the Greatest Conspiracy Is the Suppression of Human Potential? From Eden and the Birth of Individual Consciousness to Fear, Hatred, Disgust, Mass-Media Programming, the Third Eye, Crushed Creativity, General Strikes, Seeds, Gardening, Joy and the Recovery of Human Sovereignty\nThe Matrix Tells You the Steak Is Juicy There is a scene in The Matrix that I keep coming back to where Cypher is sitting there eating a steak. He knows the steak is not real, and he knows the Matrix is feeding his \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1168,7 +928,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l556",
+      "id": "l544",
       "text": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economically valuable?\nI\u2019ve been thinking about AI and automation, and I\u2019m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1189,7 +949,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l557",
+      "id": "l545",
       "text": "I\u2019m not a technical fella, but I studied engineering (alongside finance), cover technical industries at work (a lot of industrial technology) and have friends at a number of the leading AI / robotics companies. General thoughts from conversations with these folks over the last 2-3 years on AI / Physical AI:\n\n\u2022 I do not think AGI is worth spending much mindspace on right now. It is too loosely defined and the goalposts keep moving. We have been one month away from AGI for the last year. Doesn't m",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1210,7 +970,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l558",
+      "id": "l546",
       "text": "Why AI native services is the next big bet",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1231,7 +991,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l559",
+      "id": "l547",
       "text": "GROK BOT - SMALL AI TEAM?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1252,7 +1012,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l560",
+      "id": "l548",
       "text": "A year of watching an AI agent go wrong, and how that made it feel human",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1273,7 +1033,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l561",
+      "id": "l549",
       "text": "Five samurai moves that make AI pay off",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1294,7 +1054,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l562",
+      "id": "l550",
       "text": "The Real Threat Isn\u2019t AI. It\u2019s Compute.",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1315,7 +1075,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l563",
+      "id": "l551",
       "text": "How to Make Your Organisation AI-Native",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1336,7 +1096,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l564",
+      "id": "l552",
       "text": "AI #175: The Fable Continues",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1357,7 +1117,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l565",
+      "id": "l553",
       "text": "AI Adopters - The next AI Trade",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1378,7 +1138,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l566",
+      "id": "l554",
       "text": "date: 2026-08-25 07:00:00+08:00\ndraft: false\noriginal_lang: zh\nsummary: 'Today''s main theme is AI moving from capability demonstration to engineering\n  acceptance. GPT-5.6 enters Kiro, strengthening the integrated process of planning,\n  building, reviewing, and testing; small models and local inference continue to drive\n  up cost re-evaluation. Meanwhile, research into long context efficiency, training\n  transfer, and security backdoors reminds the industry: after usability, trustworthiness\n  i",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1399,7 +1159,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l567",
+      "id": "l555",
       "text": "What are Personalized Intelligence Agents and How do They Work?",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1420,7 +1180,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l568",
+      "id": "l556",
       "text": "@viewfromhk @blockchaingmg @TheSandboxGame really excited to check out sandbox studio. you are absolutely right in terms of the AI narrative and people being left behind.",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1441,7 +1201,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l569",
+      "id": "l557",
       "text": "AI & Web3 platforms face a severe retention crisis due to fragmented community tools.",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1462,7 +1222,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l570",
+      "id": "l558",
       "text": "\ud83e\udd16 AI NEWS ROUNDUP \u2014 August 26, 2026\n\n1\ufe0f\u20e3 OX ALPHA UNMASKED AS https://t.co/HuFMFs4rmi'S GLM-5.3 FLASH\n\nThe mystery model that swept to the top of online usage charts with frontier-level performance at zero cost has been identified. China's https://t.co/HuFMFs4rmi (Zhipu) confirmed that \"Ox Alpha\" is a new iteration of its GLM series, widely called GLM-5.3 Flash, a faster, cheaper sibling of the GLM-5.3 open-source release that just shipped. The company told Bloomberg it will release the weights",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1483,7 +1243,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l571",
+      "id": "l559",
       "text": "Startup Company Study: Building an AI-Powered Warehouse Inventory Robot Company\nIntroduction\nWith the rapid development of artificial intelligence and robotics, companies and factories are increasingly looking for solutions that reduce costs and improve operational speed and accuracy. One promising opportunity is creating a company specialized in manufacturing AI-powered warehouse inventory robots that help factories and businesses automatically track products and manage inventory.\n\nThis type of",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1504,7 +1264,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l572",
+      "id": "l560",
       "text": "The global tech sector is undergoing a massive structural shift. By mid 2026, AI has officially overtaken general economic conditions as the leading reason cited for corporate layoffs, forcing organizations worldwide to rapidly restructure.\n\nLook at the playbooks being run right now by industry giants:\n\n\u2022 Meta slashed 10% of its workforce and froze 6,000 open roles explicitly to reallocate capital into building heavy AI infrastructure, while reassigning 7,000 employees directly to core AI initia",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1525,7 +1285,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l573",
+      "id": "l561",
       "text": "Enterprise AI ROI Gap: IBM Think 2026's Operating Blueprint",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1546,7 +1306,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l574",
+      "id": "l562",
       "text": "Frontier Model Overkill: Navigating the $720K Gap in Enterprise AI Economics",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1567,7 +1327,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l575",
+      "id": "l563",
       "text": "The White Space Around AI: Where Human Value Lives",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1588,7 +1348,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l576",
+      "id": "l564",
       "text": "AI Agents Are About to Change Payments Operations - David Rosa (General Manager, Rapyd)\nStablecoins. AI agents. Cross-border payments. The future of money is changing faster than most companies realize.\n\nIn this episode of the WRAP UP podcast, I sit down with David Rosa, General Manager at Rapyd, to discuss one of the biggest transformations happening across financial services today.\n\nWe explore the launch of OpenUSD and what it means for the stablecoin market, why Rapyd believes stablecoins are\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1609,7 +1369,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l577",
+      "id": "l565",
       "text": "An Agentic Multi-Agent Architecture for Cybersecurity Risk Management \u2014 AI Paper Breakdown\nAn Agentic Multi-Agent Architecture for Cybersecurity Risk Management\n\nAuthors: Ravish Gupta, Saket Kumar, Shreeya Sharma, Maulik Dang, Abhishek Aggarwal\n\nAbstract:\nGetting a real cybersecurity risk assessment for a small organization is expensive -- a NIST CSF-aligned engagement runs $15,000 on the low end, takes weeks, and depends on practitioners who are genuinely scarce. Most small companies skip it en\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1630,7 +1390,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l578",
+      "id": "l566",
       "text": "Industrial AI on CNBC - Mark Moffat Explains How IFS Responds to Disruption\nIn this interview on CNBC\u2019s Europe Early Edition, IFS CEO Mark Moffat joins Ritika Gupta to discuss how Industrial AI is helping organisations plan, anticipate and respond to disruption at mission\u2011critical moments. \n\nMark explains how IFS supports customers across manufacturing, energy, ports, utilities and other asset\u2011intensive industries, using AI designed specifically for real operational environments. The conversatio\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1651,7 +1411,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l579",
+      "id": "l567",
       "text": "How AI Will Change The Future Of Banking Operations?\nParag Bhise, CEO, Nucleus Software discusses the fundamental transformation of the banking workforce and operational DNA. This conversation shifts the focus from AI as a buzzword to AI as a structural necessity for modern institutions. Bhise highlights how generative agents are replacing manual back-office tasks, allowing banks to pivot toward high-value customer engagement. As AI adoption accelerates, the \"force\" behind banking is becoming le\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1672,7 +1432,7 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l580",
+      "id": "l568",
       "text": "How AI Will Change The Future Of Banking Operations?\nParag Bhise, CEO, Nucleus Software discusses the fundamental transformation of the banking workforce and operational DNA. This conversation shifts the focus from AI as a buzzword to AI as a structural necessity for modern institutions. Bhise highlights how generative agents are replacing manual back-office tasks, allowing banks to pivot toward high-value customer engagement. As AI adoption accelerates, the \"force\" behind banking is becoming le\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1693,91 +1453,16 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "g-om-l1a",
-      "text": "From 10 December 2026, amendments to the Privacy Act 1988 (Cth) require APP entities to disclose in their privacy policies when they use automated decision-making, including AI, to make or substantially assist decisions about individuals (APP 1.7-1.9); general managers overseeing customer-facing operations and personal-information handling must ensure this disclosure is in place.",
-      "lane": "L1",
-      "tier": "regulator-media-release",
-      "sources": [
-        {
-          "publisher": "White & Case LLP (analysis of Privacy Act 1988 amendments)",
-          "title": "Australian Privacy Update: Automated decision making transparency requirement",
-          "url": "https://www.whitecase.com/insight-alert/australian-privacy-update-automated-decision-making-transparency-requirement",
-          "date": "2026-06-18",
-          "whatItMeasured": "Legal analysis of Privacy Act 1988 automated decision-making transparency amendments (APP 1.7-1.9), commencing 10 December 2026.",
-          "httpStatus": 200
-        }
-      ],
-      "scope": "Australian APP entities using automated decision-making; binds managers overseeing customer-data operations. The instrument requires disclosure, it does not mandate or prohibit AI use.",
-      "disposition": "scoped",
-      "supersedes": null,
-      "bearing": [
-        "G1",
-        "C3"
-      ],
-      "refuted": false,
-      "refuteNotes": "3 of 3 skeptics failed to overturn: the legislative amendment is real (described by the source), the population is Australian APP entities, and the commencement date is inside the window."
-    },
-    {
-      "id": "g-om-l2a",
-      "text": "PwC's 2026 Global AI Jobs Barometer (Australian analysis of over 1 billion job ads) finds AI-skilled job postings doubled in Australia between 2024 and 2025, AI-skilled workers command a 62% wage premium, and the most AI-exposed occupations are 2.5x more likely to rely on human-intensive skills (judgement, creativity, empathy) - indicating AI is professionalising, not eliminating, high-exposure management roles such as General and Operations Managers.",
-      "lane": "L2",
-      "tier": "institutional-study-representative",
-      "sources": [
-        {
-          "publisher": "PwC Australia",
-          "title": "2026 Global AI Jobs Barometer (Australia)",
-          "url": "https://www.pwc.com.au/services/artificial-intelligence/ai-jobs-barometer.html",
-          "date": "2026-06-18",
-          "whatItMeasured": "PwC analysis of over 1 billion job advertisements across six continents; 2026 Global AI Jobs Barometer, Australian findings published 18 June 2026.",
-          "httpStatus": 200
-        }
-      ],
-      "scope": "Economy-wide Australian labour-market analysis; General and Operations Managers are a high-AI-exposure occupation group but the figures are not occupation-specific.",
-      "disposition": "scoped",
-      "supersedes": null,
-      "bearing": [
-        "W2",
-        "C4"
-      ],
-      "refuted": false,
-      "refuteNotes": "3 of 3 skeptics failed to overturn: the primary publisher is real, the population is Australian job ads, and the publication is inside the window."
-    },
-    {
-      "id": "g-om-l4a",
-      "text": "The 'AI Operations Manager' has emerged as a defined manager-level title (Feb 2026) combining ML-ops with operational leadership, governance, compliance and quality standards - a demand signal that operations-management work is being reorganised around AI oversight.",
-      "lane": "L4",
-      "tier": "demand-signal-recruitment-insight",
-      "sources": [
-        {
-          "publisher": "NextInHR (HR job-description template)",
-          "title": "AI Operations Manager Job Description and Role Profile",
-          "url": "https://nextinhr.com/job-descriptions/ai-operations-manager",
-          "date": "2026-02-19",
-          "whatItMeasured": "HR job-description template for the emerging 'AI Operations Manager' title; signals new manager-level demand for AI-ops and governance skills.",
-          "httpStatus": 200
-        }
-      ],
-      "scope": "Single recruitment-template source; indicates a new manager role and skill expectation, not a measured volume of postings.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "W1",
-        "C3"
-      ],
-      "refuted": false,
-      "refuteNotes": "L4 single-source editorial/recruitment template; corroborate with measured ad-volume data before high-grade use. Declared as a demand signal, not a destination count."
-    },
-    {
-      "id": "l484",
-      "text": "Director Product Management \u2013 Transport Solutions \u2014 Vontier (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "id": "l469",
+      "text": "Operations Manager \u2014 Cox Purtell Staffing Services (Sydney, New South Wales, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Vontier",
-          "title": "Director Product Management \u2013 Transport Solutions",
-          "url": "https://www.linkedin.com/jobs/view/4418989406",
-          "date": "1 week ago",
+          "publisher": "Cox Purtell Staffing Services",
+          "title": "Operations Manager",
+          "url": "https://www.linkedin.com/jobs/view/4456848401",
+          "date": "3 days ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
         }
       ],
@@ -1789,15 +1474,57 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l485",
-      "text": "Director of Product - AppBuilder \u2014 TechnologyOne (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
+      "id": "l470",
+      "text": "Terminal Operations Manager \u2014 Hutchison Ports Australia (Brisbane, Queensland, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "TechnologyOne",
-          "title": "Director of Product - AppBuilder",
-          "url": "https://www.linkedin.com/jobs/view/4444511755",
+          "publisher": "Hutchison Ports Australia",
+          "title": "Terminal Operations Manager",
+          "url": "https://www.linkedin.com/jobs/view/4446976159",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l471",
+      "text": "Company Operations Manager \u2014 Nomad Atomics (Melbourne, Victoria, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Nomad Atomics",
+          "title": "Company Operations Manager",
+          "url": "https://www.linkedin.com/jobs/view/4434420264",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l472",
+      "text": "Operations Manager \u2014 Programmed (Greater Melbourne Area). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Programmed",
+          "title": "Operations Manager",
+          "url": "https://www.linkedin.com/jobs/view/4446268682",
           "date": "3 weeks ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
         }
@@ -1810,120 +1537,15 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l486",
-      "text": "Director of Product \u2014 Amber Electric (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "id": "l473",
+      "text": "Civil Operations Manager \u2014 Evolution Group Holdings Limited (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Amber Electric",
-          "title": "Director of Product",
-          "url": "https://www.linkedin.com/jobs/view/4440679590",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l487",
-      "text": "Head of Product \u2014 Natural Selection Group (Melbourne, Victoria, Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Natural Selection Group",
-          "title": "Head of Product",
-          "url": "https://www.linkedin.com/jobs/view/4455251394",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l488",
-      "text": "Head of Product \u2014 TMGM (Sydney, New South Wales, Australia). Posted 4 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "TMGM",
-          "title": "Head of Product",
-          "url": "https://www.linkedin.com/jobs/view/4445481291",
-          "date": "4 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l489",
-      "text": "Director, Product - Engineering Simulation \u2014 Neara (Sydney, New South Wales, Australia). Posted 5 hours ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Neara",
-          "title": "Director, Product - Engineering Simulation",
-          "url": "https://www.linkedin.com/jobs/view/4440950687",
-          "date": "5 hours ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l490",
-      "text": "Director of Product (AU) \u2014 DroneShield (Sydney, New South Wales, Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "DroneShield",
-          "title": "Director of Product (AU)",
-          "url": "https://www.linkedin.com/jobs/view/4458540361",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l491",
-      "text": "Head of Product \u2014 Zeekr International (Sydney, New South Wales, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Zeekr International",
-          "title": "Head of Product",
-          "url": "https://www.linkedin.com/jobs/view/4456151838",
+          "publisher": "Evolution Group Holdings Limited",
+          "title": "Civil Operations Manager",
+          "url": "https://www.linkedin.com/jobs/view/4453409233",
           "date": "1 week ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
         }
@@ -1936,16 +1558,16 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l492",
-      "text": "Director of Product, Platform & Identity \u2014 Xero (Melbourne, Victoria, Australia). Posted 13 hours ago.",
+      "id": "l474",
+      "text": "Operations Manager \u2014 Sigma Healthcare (Truganina, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Xero",
-          "title": "Director of Product, Platform & Identity",
-          "url": "https://www.linkedin.com/jobs/view/4448558970",
-          "date": "13 hours ago",
+          "publisher": "Sigma Healthcare",
+          "title": "Operations Manager",
+          "url": "https://www.linkedin.com/jobs/view/4451611809",
+          "date": "2 weeks ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
         }
       ],
@@ -1957,16 +1579,79 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l493",
-      "text": "Director of Product, Platform & Identity \u2014 Xero (Sydney, New South Wales, Australia). Posted 13 hours ago.",
+      "id": "l475",
+      "text": "Terminal Manager \u2014 Australian Terminal Operations Management (Gladstone, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Xero",
-          "title": "Director of Product, Platform & Identity",
-          "url": "https://www.linkedin.com/jobs/view/4448579691",
-          "date": "13 hours ago",
+          "publisher": "Australian Terminal Operations Management",
+          "title": "Terminal Manager",
+          "url": "https://www.linkedin.com/jobs/view/4445530882",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l476",
+      "text": "Hobart Operations Manager \u2014 Australia Post (Montagu Bay, Tasmania, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Australia Post",
+          "title": "Hobart Operations Manager",
+          "url": "https://www.linkedin.com/jobs/view/4458587874",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l477",
+      "text": "Branch Manager \u2014 Cleanaway Waste Management (Wingfield, South Australia, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Cleanaway Waste Management",
+          "title": "Branch Manager",
+          "url": "https://www.linkedin.com/jobs/view/4456577188",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l478",
+      "text": "Operations Manager - Melbourne \u2014 Hitachi Construction Machinery Australia (Dandenong, Victoria, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Hitachi Construction Machinery Australia",
+          "title": "Operations Manager - Melbourne",
+          "url": "https://www.linkedin.com/jobs/view/4444284816",
+          "date": "1 month ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
         }
       ],
@@ -1979,34 +1664,60 @@
     }
   ],
   "jobAds": {
-    "source": "none-this-pass",
-    "query": null,
-    "window": null,
-    "count": 0,
-    "topEmployers": [],
-    "topSkills": []
+    "source": "adzuna-au",
+    "query": "general manager",
+    "window": "2025-08-27 to 2026-08-27 (Adzuna AU live all-time index)",
+    "count": 5121,
+    "topEmployers": [
+      "Opal HealthCare",
+      "Hospoworld Resourcing",
+      "Elysia Wellness Retreat",
+      "Allstar Recruitment Group",
+      "Arbortech. Ltd",
+      "Heliwest Group"
+    ],
+    "topSkills": [
+      "ai",
+      "operations",
+      "leadership",
+      "team",
+      "reporting",
+      "brand",
+      "customer",
+      "financial",
+      "strategy",
+      "stakeholder"
+    ],
+    "note": "Count is Adzuna AU live index size for the query (all-time). 'ai' and 'operations' lead the keyword set across 50 sampled ads."
   },
   "corpus": {
-    "platforms": [],
-    "retrieved": "2026-08-26",
+    "platforms": [
+      {
+        "name": "linkedin",
+        "scope": "linkedin-mcp-search (unofficial scrape), Australia",
+        "items": 0,
+        "note": "Demand-side corpus; who advertises / what they ask for. Not salary or hire-volume."
+      }
+    ],
+    "retrieved": "2026-08-27",
     "searchesReturningNothing": [
       {
         "lane": "L3",
-        "source": "Factiva (OpenAthens)",
-        "status": "auth_unavailable",
-        "detail": "Academic-licence Factiva session served 0 results for management-SOC queries this run (broad probe 'generative artificial intelligence workforce' also 0); logged to factiva_backlog for retry on re-auth."
+        "source": "factiva",
+        "status": "auth_expired",
+        "note": "OpenAthens SSO session expired (loop test 2026-08-27 redirected to SAML login). Gap logged to data/professions/factiva_backlog.json for backfill."
       },
       {
-        "lane": "L1/L2",
-        "source": "O*NET OnLine summary",
-        "status": "unreachable",
-        "detail": "https://www.onetonline.org/link/summary/<soc> returned 404 via extractor; L2 grounded in PwC 2026 AI Jobs Barometer institutional study instead."
+        "lane": "L4",
+        "source": "seek",
+        "status": "not_sampled",
+        "note": "Seek trend pages not sampled this pass; Adzuna AU used as the quantitative L4 source."
       },
       {
-        "lane": "L5",
-        "source": "grounding (last30days)",
-        "status": "unreachable",
-        "detail": "Keyless web search unavailable in this environment; recorded as coverage, not as a quiet platform."
+        "lane": "L4",
+        "source": "linkedin",
+        "status": "sampled",
+        "note": "LinkedIn L4 (linkedin-mcp-search, unofficial scrape) returned 0 live AU postings on 2026-08-27; folded as L4 claims. Provenance: linkedin (unofficial scrape)."
       }
     ],
     "l5Sample": [
@@ -2028,7 +1739,7 @@
       {
         "date": "2026-08-27",
         "soc": "11-1021",
-        "query": "Product Director (management field grain)",
+        "query": "General and Operations Managers",
         "location": "Australia",
         "returned": 10,
         "totalResults": 10,
@@ -2038,9 +1749,9 @@
   },
   "confidence": "high",
   "caveats": [
-    "L3 Factiva unavailable this run (academic session served 0 results); will retry on re-auth. Prior L3 Factiva pull for 11-1021 was topically broad trade press (org charts), not specific to AI disruption.",
-    "O*NET task/skill pull not performed (summary endpoint 404); L2 grounded in PwC institutional study.",
-    "grounding and (for 11-3031) jobs last30days sources unreachable this run - recorded as coverage gaps, not as quiet platforms.",
-    "L4 demand claims are single-source recruitment/editorial signals, not measured ad volumes."
+    "Factiva L3 unavailable (auth expired); L3 rests on public trade press.",
+    "ANZSCO 1112 assigned from JSA Gen AI Capacity Study unit mapping; the crosswalk carries no ANZSCO field.",
+    "Adzuna count is an all-time live index size, not a 12-month time-series.",
+    "L5 practitioner-discourse corpus is self-selected (Reddit/X/HN/GitHub/YouTube); not a representative survey."
   ]
 }

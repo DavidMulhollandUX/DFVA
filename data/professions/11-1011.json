@@ -1,92 +1,61 @@
 {
   "onet_soc_code": "11-1011",
-  "researchMethod": "empirical-five-lane-v1",
   "title": "Chief Executives",
   "aliases": [
-    "Chief Executive or Managing Director",
-    "Chief Financial Officer",
-    "Chief Product Officer"
+    "Chief Executive Officer",
+    "Managing Director",
+    "Chief Executive"
   ],
-  "anzsco": "220000",
+  "anzsco": "1111",
   "window": {
-    "from": "2024-01-01",
-    "to": "2026-08-26"
+    "from": "2025-08-27",
+    "to": "2026-08-27"
   },
-  "generated": "2026-08-26",
-  "expires": "2027-02-22",
+  "generated": "2026-08-27",
+  "expires": "2027-02-27",
   "programs": [],
+  "researchMethod": "empirical-five-lane-v1",
   "claims": [
     {
-      "id": "ce-01",
-      "text": "APRA's 2026 supervisory review found AI use accelerating across banks, insurers and superannuation trustees while governance and assurance lagged, and expected entities to close those gaps under existing prudential standards.",
+      "id": "11-1011-L1-01",
+      "text": "Under the Work Health and Safety Act 2011 (NSW) s27, a positive personal duty of due diligence is imposed on 'officers' of a person conducting a business or undertaking. The Act defines officer by reference to s9AD of the Corporations Act 2001 (Cth), capturing chief executives and others who make or participate in decisions affecting the whole or a substantial part of the business.",
       "lane": "L1",
-      "tier": "regulator-supervisory-review",
+      "tier": "regulatory",
       "sources": [
         {
-          "publisher": "Australian Prudential Regulation Authority",
-          "title": "APRA calls for a step-change in AI-related risk management and governance",
-          "url": "https://www.apra.gov.au/news-and-publications/apra-calls-step-change-ai-related-risk-management-and-governance",
-          "date": "2026-04-30",
-          "whatItMeasured": "Findings and expectations from APRA's targeted supervisory review of AI deployment and governance across banks, insurers and superannuation trustees",
-          "quote": "governance, risk management, assurance and operational resilience practices are not keeping pace with the scale, speed, and complexity of AI adoption.",
-          "httpStatus": 200
+          "publisher": "SafeWork NSW",
+          "title": "The work health and safety duty of an officer",
+          "url": "https://www.safework.nsw.gov.au/resource-library/WHS/the-work-health-and-safety-duty-of-an-officer",
+          "date": "2011",
+          "whatItMeasured": "WHS Act 2011 (NSW) s27 officer due-diligence duty; Corporations Act 2001 s9AD officer definition includes senior decision-makers."
         }
       ],
-      "scope": "APRA-regulated financial entities only. The letter explicitly creates no additional requirements and does not measure chief executives across other sectors.",
-      "disposition": "scoped",
+      "scope": "NSW WHS regime (model WHS mirrored in most jurisdictions); applies to CEOs classified as officers. Does not cover non-officer managers or employees.",
+      "disposition": "sourced",
       "supersedes": null,
       "bearing": [
         "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "3 of 3 skeptics failed to overturn: the primary regulator source is real, the claim is restricted to the regulated population and the publication is inside the window."
-    },
-    {
-      "id": "ce-02",
-      "text": "A four-country survey of nearly 6,000 senior business executives, including 602 Australian firms, found 69% of firms used AI, more than two-thirds of executives used it for about 1.5 hours a week on average, and 59% of Australian firms reported current use.",
-      "lane": "L2",
-      "tier": "institutional-working-paper-representative-surveys",
-      "sources": [
-        {
-          "publisher": "National Bureau of Economic Research (Yotzov et al.)",
-          "title": "Firm Data on AI",
-          "url": "https://www.nber.org/papers/w34836",
-          "date": "2026-03",
-          "whatItMeasured": "Parallel surveys of nearly 6,000 senior executives at firms in the US, UK, Germany and Australia, including 602 Australian firms, covering firm adoption, executives' personal use and expected firm effects",
-          "quote": "We survey nearly 6,000 senior business executives at US, UK, German, and Australian firms to develop new evidence on AI adoption and its effects on jobs, productivity, and output.",
-          "httpStatus": 200
-        }
-      ],
-      "scope": "Mostly CEOs, CFOs and senior finance managers, not CEOs alone. The personal-use averages are four-country results; only the 59% firm-adoption figure is Australia-specific.",
-      "disposition": "scoped",
-      "supersedes": null,
-      "bearing": [
-        "C4",
         "W2"
       ],
       "refuted": false,
-      "refuteNotes": "3 of 3 skeptics failed to overturn: the working paper and methods resolve, the mixed senior-executive population is preserved and the March 2026 revision is inside the window."
+      "refuteNotes": "NSW regulator guidance; population = corporate officers incl. CEOs; in force since 2011."
     },
     {
-      "id": "ce-03",
-      "text": "In EY-Parthenon's survey of 60 Australian CEOs, 44% ranked large-scale reskilling among their top two workforce priorities, 41% prioritised redesigning roles around human-AI work and 20% prioritised reduced hiring in selected roles.",
+      "id": "11-1011-L2-01",
+      "text": "Jobs and Skills Australia's Gen AI Capacity Study (August 2025) scores Chief Executives and Managing Directors (ANZSCO 1111) at augmentation exposure 0.67 and automation exposure 0.26, with 13% of job ads at entry level - a high-augmentation, low-automation management profile.",
       "lane": "L2",
-      "tier": "institutional-survey-declared-n",
+      "tier": "scholarly",
       "sources": [
         {
-          "publisher": "EY-Parthenon / FT Longitude",
-          "title": "Australian CEOs prioritise reskilling over job cuts as AI adoption accelerates",
-          "url": "https://www.ey.com/en_au/newsroom/2026/05/australian-ceos-prioritise-reskilling-over-job-cuts-as-ai-adoption-accelerates",
-          "date": "2026-05-14",
-          "whatItMeasured": "Anonymous online survey of 60 Australian CEOs in March and April 2026 on AI investment, workforce priorities, enterprise impacts and regulatory clarity",
-          "quote": "44 per cent of Australian CEOs rank large-scale reskilling and upskilling as a first or second workforce priority over the next three years and a further 41 per cent prioritise redesigning roles to combine human and AI capabilities.",
-          "httpStatus": 200
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (occupation data on AI exposure)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/occupation-data-on-ai-exposure",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Gen AI Capacity Study ANZSCO v1.3 unit-level augmentation/automation exposure scores; 1111 = 0.67/0.26, entry-level 13%."
         }
       ],
-      "scope": "A small, large-company, vendor-commissioned survey of stated priorities. It does not measure implemented workforce changes or economy-wide employment effects.",
-      "disposition": "scoped",
+      "scope": "Australian ANZSCO 1111 unit group; scores are model-derived task-level estimates, not employment-change forecasts.",
+      "disposition": "sourced",
       "supersedes": null,
       "bearing": [
         "C4",
@@ -94,164 +63,1200 @@
         "G2"
       ],
       "refuted": false,
-      "refuteNotes": "3 of 3 skeptics failed to overturn: the primary release identifies the fieldwork and sample, Australian CEOs directly match the occupation and both fieldwork and publication fall inside the window."
+      "refuteNotes": "Primary Australian government source; population = AU 1111; in window (Aug 2025)."
     },
     {
-      "id": "ce-04",
-      "text": "Gartner's survey of 469 CEOs and senior business executives found 80% expected AI to force medium-to-high operational-capability change; 32% expected adaptable AI to assist human decisions and 27% expected operations primarily without human intervention by the end of 2028.",
-      "lane": "L2",
-      "tier": "institutional-survey-declared-n",
-      "sources": [
-        {
-          "publisher": "Gartner",
-          "title": "Gartner Survey Reveals 80% of CEOs Say AI Will Force Operational Capability Overhauls",
-          "url": "https://www.gartner.com/en/newsroom/press-releases/2026-04-23-gartner-survey-reveals-80-percent-of-ceos-say-artificial-intelligence-will-force-operational-capability-overhauls",
-          "date": "2026-04-23",
-          "whatItMeasured": "Survey expectations from 469 CEOs and other senior business executives worldwide, conducted across three quarters ending in Q4 2025, about operational change and autonomous capabilities",
-          "quote": "The survey found that 54% of CEOs said their automation was limited to specific tasks; by the end of 2028, only 13% expect to remain at this level.",
-          "httpStatus": 403,
-          "verification": "Browser-rendered page captured successfully; scripted request blocked with HTTP 403, not 404."
-        }
-      ],
-      "scope": "Worldwide mixed CEO and senior-executive expectations collected through Q4 2025. These are forecasts, not observed adoption, and are not Australia-specific.",
-      "disposition": "scoped",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W3",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "3 of 3 skeptics failed to overturn: the primary release and sample details were captured, chief executives are directly included with the mixed population retained and the publication is inside the window."
-    },
-    {
-      "id": "ce-05",
-      "text": "Commonwealth Bank chief executive Matt Comyn publicly warned that AI would produce job losses across the economy while arguing that Australia need not trade away copyright protections to attract AI investment.",
+      "id": "11-1011-L3-01",
+      "text": "Russell Reynolds' 2025 leader survey found generative-AI adoption 'more than doubled' year-on-year, with only 8% of leaders reporting full implementation a year earlier - indicating executives are now directing rather than merely piloting AI transformation.",
       "lane": "L3",
-      "tier": "trade-press-dated-named-commentator",
+      "tier": "trade-press-dated",
       "sources": [
         {
-          "publisher": "Australian Financial Review (James Eyers)",
-          "title": "CBA boss warns of job losses from AI, argues to protect copyright",
-          "url": "https://www.afr.com/companies/financial-services/cba-boss-warns-of-job-losses-from-ai-argues-to-protect-copyright-20260525-p6008o",
-          "date": "2026-05-26",
-          "whatItMeasured": "A named Australian bank chief executive's public forecast and policy position as reported by the AFR",
-          "quote": "Commonwealth Bank chief executive Matt Comyn says the Albanese government does not need to choose between copyright protections for creative industries and artificial intelligence investment in Australia, and warns that there will be job losses across the economy from the emerging technology.",
-          "httpStatus": 200
+          "publisher": "Russell Reynolds Associates",
+          "title": "Optimistic, with Exceptions: Leaders' Views on Generative AI in 2025",
+          "url": "https://www.russellreynolds.com/en/insights/articles/leaders-views-on-generative-ai-in-2025",
+          "date": "2025",
+          "whatItMeasured": "Survey of senior leaders on GenAI adoption; adoption more than doubled YoY."
         }
       ],
-      "scope": "One CEO's forecast reported in trade press. It is not a measured employment effect, a consensus of CEOs or evidence about CBA's own staffing plan.",
-      "disposition": "scoped",
+      "scope": "Global sample of senior leaders; directional, not Australia-specific.",
+      "disposition": "sourced",
       "supersedes": null,
       "bearing": [
-        "C4",
-        "W2"
-      ],
-      "refuted": false,
-      "refuteNotes": "3 of 3 skeptics failed to overturn: the article and statement resolve, the claim is limited to one named Australian CEO and it was published inside the window."
-    },
-    {
-      "id": "ce-06",
-      "text": "In the declared r/ceo sample, a moderator banned AI-generated posts and comments as spam and a security risk to members' businesses; the archived thread had a score of 41 and 13 comments.",
-      "lane": "L5",
-      "tier": "forum-discourse-declared",
-      "sources": [
-        {
-          "publisher": "r/ceo (Reddit), verified through arctic-shift",
-          "title": "Remember: AI is banned here.",
-          "url": "https://www.reddit.com/r/ceo/comments/1u27znq/remember_ai_is_banned_here/",
-          "date": "2026-06-10",
-          "whatItMeasured": "One moderation thread in r/ceo, archived with score 41, 13 comments and 18,126 subreddit subscribers at capture",
-          "quote": "Our community is anti-advertising and anti-AI because these are security risks to our businesses, take that crap somewhere else.",
-          "httpStatus": 403,
-          "verificationUrl": "https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1u27znq",
-          "verificationHttpStatus": 200
-        }
-      ],
-      "scope": "Community moderation and provenance concerns only. User identities were not verified as chief executives; this does not establish profession-wide sentiment or workplace AI use.",
-      "disposition": "scoped",
-      "supersedes": null,
-      "bearing": [
-        "C3",
         "W1"
       ],
       "refuted": false,
-      "refuteNotes": "2 of 3 skeptics failed to overturn: the archived source and date are verified. The population skeptic overturned because user identities are unverified, so the claim is restricted to community moderation rather than the profession."
+      "refuteNotes": "Real publisher survey; population = senior leaders globally; in window (2025)."
     },
     {
-      "id": "l3f01",
-      "text": "German Robotics Firm Neura Secures $1.4B Investment from Tether, Nvidia, and Amazon",
+      "id": "11-1011-L3-02",
+      "text": "The Australian Government's APS AI Plan requires agencies to appoint an existing senior leader as Chief AI Officer (CIAO) by July 2026, formalising an AI-governance accountability role within executive teams.",
       "lane": "L3",
       "tier": "trade-press-dated",
       "sources": [
         {
-          "publisher": "Blockonomi",
-          "title": "German Robotics Firm Neura Secures $1.4B Investment from Tether, Nvidia, and Amazon",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=BLOKN00020260611em6b00002&drn=drn:archive.newsarticle.BLOKN00020260611em6b00002&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "11 June 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+          "publisher": "Department of Finance (Australia)",
+          "title": "Establishing Chief AI Officers for the APS",
+          "url": "https://www.finance.gov.au/about-us/news/2025/establishing-chief-ai-officers-aps",
+          "date": "2025",
+          "whatItMeasured": "APS AI Plan requirement to appoint CIAO by July 2026."
         }
       ],
-      "scope": "Trade-press report; not a primary study.",
+      "scope": "Australian Public Service only; signals a new executive accountability function for AI.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": [],
+      "bearing": [
+        "G1",
+        "C3"
+      ],
       "refuted": false,
-      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+      "refuteNotes": "Government news release; AU public sector; in window (2025)."
     },
     {
-      "id": "l3f02",
-      "text": "Market Watch: Employment Data, Corporate Earnings, and Investment Trends This Week",
-      "lane": "L3",
-      "tier": "trade-press-dated",
+      "id": "l505",
+      "text": "Add proposed CAIO executive certification syllabus\nAdds a new `Professional-Certifications/CAIO-Executive-Certification/` section containing the proposed vendor-agnostic Chief AI Officer (CAIO) Executive Certification syllabus.\n\nKey elements:\n- 200 academic hours\n- Target audience: executives and senior professionals with 10+ years of experience\n- V",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "parameter.io",
-          "title": "Market Watch: Employment Data, Corporate Earnings, and Investment Trends This Week",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=PARMET0020260531em5v00003&drn=drn:archive.newsarticle.PARMET0020260531em5v00003&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "31 May 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+          "publisher": "github",
+          "title": "Add proposed CAIO executive certification syllabus\nAdds a new `Professional-Cert\u2026",
+          "url": "https://github.com/yuval14/Artificial-Intelligence-Cyber-Shield/pull/7",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
         }
       ],
-      "scope": "Trade-press report; not a primary study.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l3f03",
-      "text": "How a small hardware store nailed AI and pushed sales to the next level",
-      "lane": "L3",
-      "tier": "trade-press-dated",
+      "id": "l506",
+      "text": "Outreach run 2026-06-26: Bead AI / Alexey Zanin \u2014 marketing-OS 7/10\n## Prospect\n**Alexey Zanin**, CEO & Co-founder, **Bead AI** (a16z Speedrun Cohort 005, London + SF). Bead builds AI agents for internal audit / SOX 404 testing, selling to Fortune-500 Chief Audit Executives.\n\n- **Capability:** `marketing-media-automation` \u2014 Phase 4 score **7/10**\n- **Subject:** `the",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Irish Independent",
-          "title": "How a small hardware store nailed AI and pushed sales to the next level",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=IINM000020250626el6q00035&drn=drn:archive.newsarticle.IINM000020250626el6q00035&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "26 June 2025",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+          "publisher": "github",
+          "title": "Outreach run 2026-06-26: Bead AI / Alexey Zanin \u2014 marketing-OS 7/10\n## Prospect\n\u2026",
+          "url": "https://github.com/Talonsturgill/outreach-engine/pull/39",
+          "date": "2026-06-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
         }
       ],
-      "scope": "Trade-press report; not a primary study.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l410",
-      "text": "Chief Executive Officer \u2014 One Executive (Baulkham Hills, New South Wales, Australia). Posted 5 days ago.",
+      "id": "l507",
+      "text": "\ud83d\udcf0 AI News Digest \u2014 2026-08-06\n# AI News Digest \u2014 August 05, 2026\n\n**25 article(s)** across 8 outlet(s).\n\n\n## The Guardian\n_Tracked journalists: Dan Milmo \u00b7 Alex Hern_\n\n### [Big shake-up in Google\u2019s AI team as DeepMind chief executive steps down](https://www.theguardian.com/technology/2026/aug/05/big-shake-up-in-googles-ai-team-a",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udcf0 AI News Digest \u2014 2026-08-06\n# AI News Digest \u2014 August 05, 2026\n\n**25 article(s\u2026",
+          "url": "https://github.com/isabella665/News/issues/60",
+          "date": "2026-08-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l508",
+      "text": "Building Executive Strategies for Securing Agentic AI\nAgentic AI is redefining enterprise innovation by enabling intelligent systems to reason, make decisions, execute multi-step workflows, and interact autonomously with business applications. Unlike traditional AI tools that simply respond to prompts or generate recommendations, Agentic AI can indepen",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Building Executive Strategies for Securing Agentic AI\nAgentic AI is redefining e\u2026",
+          "url": "https://github.com/shivammenghani/cybertech/issues/80",
+          "date": "2026-08-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l509",
+      "text": "REVENUE PIPELINE (ENRICHED): Top 13 Texas Prospects \u2014 Corrected Contacts & Personas\n# Enriched Lead Pipeline \u2014 Updated 2026-07-26 02:53 CDT\n\nPublic-source enrichment only. No scraped personal emails/phones.\n\n---\n\n## 01 \u2014 Circe Energy (Score 95) \u2705 ENRICHED\n**Project:** West Texas AI Infrastructure Campus \u2014 1,950-acre Permian platform, ~2 GW Cummins natgas, first energization 2027, 5\nOperational data \u2014 not a code defect. Moving to CRM.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "REVENUE PIPELINE (ENRICHED): Top 13 Texas Prospects \u2014 Corrected Contacts & Perso\u2026",
+          "url": "https://github.com/Garrettc123/garcar-autonomous-wealth-system/issues/6",
+          "date": "2026-07-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l510",
+      "text": "\ud83d\udcf0 AI News Digest \u2014 2026-07-22\n# AI News Digest \u2014 July 21, 2026\n\n**25 article(s)** across 5 outlet(s).\n\n\n## The Guardian\n_Tracked journalists: Dan Milmo \u00b7 Alex Hern_\n\n### [Tell us your experiences of living near AI datacentres in the UK](https://www.theguardian.com/technology/2026/jul/21/tell-us-your-experiences-living-near-ai-da",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udcf0 AI News Digest \u2014 2026-07-22\n# AI News Digest \u2014 July 21, 2026\n\n**25 article(s)*\u2026",
+          "url": "https://github.com/isabella665/News/issues/45",
+          "date": "2026-07-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l511",
+      "text": "UX: Fresh Eyes Reset \u2014 New Convergence Button\n## Source\nCrucible debate: 'Can executives trust the Data Minister' (transcript analysis)\n\n## The Problem: Sycophancy Via Accumulated Context\n\n> 'If the chief signals a mental commitment in turn two \u2014 telling the AI I really want to launch this product, give me the final details \u2014 a standard LLM wil",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "UX: Fresh Eyes Reset \u2014 New Convergence Button\n## Source\nCrucible debate: 'Can ex\u2026",
+          "url": "https://github.com/growthpigs/thinking-foundry/issues/89",
+          "date": "2026-04-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l512",
+      "text": "\ud83d\udcf0 AI News Digest \u2014 2026-07-04\n# AI News Digest \u2014 July 03, 2026\n\n**20 article(s)** across 6 outlet(s).\n\n\n## The Guardian\n_Tracked journalists: Dan Milmo \u00b7 Alex Hern_\n\n### [AI prey: why watchdogs are telling parents to protect children from nudification apps](https://www.theguardian.com/society/2026/jul/03/ai-prey-watchdogs-tellin",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udcf0 AI News Digest \u2014 2026-07-04\n# AI News Digest \u2014 July 03, 2026\n\n**20 article(s)*\u2026",
+          "url": "https://github.com/isabella665/News/issues/27",
+          "date": "2026-07-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l513",
+      "text": "idx=9: freeze (20 records) \u2014 CSW Industrials Performance Share Award Agreement (no parser changes)\n## **User description**\n## Summary\n\nTenth stacked PR. Adds **idx=9** (Performance Share Award Agreement, CSW Industrials, Inc. Exhibit 10.9) as the tenth verified frozen baseline on top of idx=8 (PR #81).\n\n**No parser changes needed.** The current parser handles idx=9 cleanly. This PR is freeze-only\nMention Blocks like a regular teammate with your question or request:\n\n@blocks review this pull requ\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "idx=9: freeze (20 records) \u2014 CSW Industrials Performance Share Award Agreement (\u2026",
+          "url": "https://github.com/arthrod/clause-extract/pull/82",
+          "date": "2026-05-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l514",
+      "text": "AI Daily Digest \u2014 2026-06-16\n# AI Daily Digest \u2014 June 16, 2026\n\n**Executive Summary:** Anthropic's senior staff begin in-person White House meetings this week to resolve the Mythos/Fable export ban, with Commerce Secretary Lutnick and National Cyber Director Cairncross at the table \u2014 while the June 22 deadline for free Fable 5",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "AI Daily Digest \u2014 2026-06-16\n# AI Daily Digest \u2014 June 16, 2026\n\n**Executive Summ\u2026",
+          "url": "https://github.com/diclogic/ai-daily-digest/issues/63",
+          "date": "2026-06-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l515",
+      "text": "\ud83d\udcf0 AI News Digest \u2014 2026-06-13\n# AI News Digest \u2014 June 12, 2026\n\n**18 article(s)** across 4 outlet(s).\n\n\n## The Guardian\n_Tracked journalists: Dan Milmo \u00b7 Alex Hern_\n\n### [SpaceX to list on US stock market at historic $1.77tn valuation](https://www.theguardian.com/science/2026/jun/12/spacex-stock-price-ipo-spcx)\n> Initial public",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udcf0 AI News Digest \u2014 2026-06-13\n# AI News Digest \u2014 June 12, 2026\n\n**18 article(s)*\u2026",
+          "url": "https://github.com/isabella665/News/issues/6",
+          "date": "2026-06-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l516",
+      "text": "Main\n## **CodeAnt-AI Description**\n**Improve parser instructions, add reconstruction warnings, and fix a few parsing edge cases**\n\n### What Changed\n- The parser guidance now tells the agent to keep parsing autonomously, avoid asking questions, and handle truncated source text by freezing the best availab\nMention Blocks like a regular teammate with your question or request:\n\n@blocks review this pull request\n@blocks make the following changes ...\n@blocks create an issue from what was mentioned in \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Main\n## **CodeAnt-AI Description**\n**Improve parser instructions, add reconstruc\u2026",
+          "url": "https://github.com/arthrod/clause-extract/pull/71",
+          "date": "2026-05-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l517",
+      "text": "\ud83e\udded Daily content opportunities\n### 2026-07-14 \u2014 content opportunities\n\n#### Bizzal Games \u2014 YouTube + Instagram\n- **The One-Page Lazy Prep Trick That Kills 90% of Session Prep** \u2014 Sly Flourish's fresh 'Lazy Campaigns' piece is prime raw material for a rules-ruling short that either validates or pushes back on his method.\n  - 60-se\n### 2026-07-14 \u2014 content opportunities\n\n#### \ud83d\udd17 Cross-channel plays\n- **Bonzo Lend loses $9M to an oracle-manipulation exploit on Hedera, reigniting debate over DeFi pric\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83e\udded Daily content opportunities\n### 2026-07-14 \u2014 content opportunities\n\n#### Bizza\u2026",
+          "url": "https://github.com/bizzal70/Audit_User_Agent/issues/2",
+          "date": "2026-07-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l518",
+      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n\u00b7 I.G. Farben's post-w\n\ud83e\udd3f\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL\u2026",
+          "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/3",
+          "date": "2026-04-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l519",
+      "text": "What breaks in production AI workflows?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l520",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l521",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l522",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l523",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l524",
+      "text": "The death of AI workflow builders",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l525",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l526",
+      "text": "What is agentic AI today, and what do we want it to be?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l527",
+      "text": "My AI-Assisted Workflow",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l528",
+      "text": "Meta AI chief says their coming LLM has caught up with OpenAI's flagship model",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Meta AI chief says their coming LLM has caught up with OpenAI's flagship model",
+          "url": "https://www.businessinsider.com/meta-ai-model-catches-up-openai-gpt-5-says-2026-7",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l529",
+      "text": "Show HN: Myna \u2013 a local AI Chief of Staff that remembers your work",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Myna \u2013 a local AI Chief of Staff that remembers your work",
+          "url": "https://github.com/agentflock/myna",
+          "date": "2026-06-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l530",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l531",
+      "text": "AI workflows: an industry optimising the wrong variables",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI workflows: an industry optimising the wrong variables",
+          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
+          "date": "2026-05-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l532",
+      "text": "Ask HK: How are you building AI apps today?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l533",
+      "text": "Show HN: AI Workflow Builder App Template for React",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: AI Workflow Builder App Template for React",
+          "url": "https://www.jointjs.com/demos/ai-workflow-builder",
+          "date": "2026-07-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l534",
+      "text": "Microsoft's AI chief says superintelligence is near, but won't take your job",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Microsoft's AI chief says superintelligence is near, but won't take your job",
+          "url": "https://www.theverge.com/podcast/944138/microsoft-ai-ceo-mustafa-suleyman-superintelligence-agi-openai-automation",
+          "date": "2026-06-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l535",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l536",
+      "text": "Meta is set to pay its top AI executives almost a billion each in bonuses",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Meta is set to pay its top AI executives almost a billion each in bonuses",
+          "url": "https://www.msn.com/en-my/news/other/meta-is-set-to-pay-its-top-ai-executives-almost-a-billion-each-in-bonuses-if-they-hit-their-targets/ar-AA1ZszqA",
+          "date": "2026-04-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l537",
+      "text": "Microsoft AI chief gives 18 months for whitecollar work to be automated by AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Microsoft AI chief gives 18 months for whitecollar work to be automated by AI",
+          "url": "https://fortune.com/article/why-microsoft-ai-chief-mustafa-suleyman-predicts-ai-automation-18-months/",
+          "date": "2026-05-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l538",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l539",
+      "text": "The Problem with AI Today",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l540",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l541",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l542",
+      "text": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+          "url": "https://www.getcore.me/",
+          "date": "2026-04-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l543",
+      "text": "Taiwan says it was targeted last month in AI-driven hacking campaign\n13 August 2026 News Taiwan&#39;s Ministry of Digital Affairs detected an overseas AI-assisted cyberattack targeting government agencies in July, which was successfully contained following warning alerts. The multi-agent hacking campaign breached Taiwan&#39;s justice ministry and nuclear safety agency using tools like Open Claw to extract credentials and scan for vulnerabilities. Cybersecurity experts note that while AI models l\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Taiwan says it was targeted last month in AI-driven hacking campaign\n13 August 2\u2026",
+          "url": "https://www.reddit.com/r/GeopoliticsMicroscope/comments/1vn0v01/taiwan_says_it_was_targeted_last_month_in/",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l544",
+      "text": "How to Rebuild a Company around AI\n@Alehandromz (Alejandro Maza), Chief Product & AI Officer, Kavak, interviewed by @astrange (Angela Strange) and @gabe_NM (Gabriel Vasquez) (@a16z Podcast)\n\nSummary: Kavak, the Latin American used-car marketplace, now runs 96% of customer interactions and 95% of transactions through AI agents, and spawns between 100,000 and 200,000 of them every day. Alejandro Maza rebuilt the APIs, the teams, the metrics and the customer journey around agents. Most companies ha",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "How to Rebuild a Company around AI\n@Alehandromz (Alejandro Maza), Chief Product \u2026",
+          "url": "https://x.com/gokulr/status/2091932375429370061",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l545",
+      "text": "Deep Cogito\n\nCompanies need AI models that understand how their teams make decisions. A general-purpose model starts with broad knowledge. Companies still have to teach it their products, customers, code, security policies, and internal standards.\n\nRAG can retrieve a relevant document at inference time. Specialized work requires the model to learn from a company\u2019s examples and outcomes.\n\n@DeepCogito is solving this through post-training, using reinforcement learning to train open-weight models o",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Deep Cogito\n\nCompanies need AI models that understand how their teams make decis\u2026",
+          "url": "https://x.com/gokulr/status/2092684984138272947",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l546",
+      "text": "Salesforce Will Not Hire More Software Engineers Next Year As Claude Code Compresses Migrations | Richard L. Wells, Techtimes\n\nSalesforce does not plan to add software engineers next year, and the company is pointing to AI coding tools as the reason. Chief executive Marc Benioff said the firm is not adding more software engineers in the coming year because AI has already lifted engineering productivity by more than 30%. The remark, from the leader of one of the largest enterprise-software compan",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Salesforce Will Not Hire More Software Engineers Next Year As Claude Code Compre\u2026",
+          "url": "https://x.com/OwenGregorian/status/2063605807514526047",
+          "date": "2026-06-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l547",
+      "text": "Building a Business with AI Agents",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Building a Business with AI Agents",
+          "url": "https://x.com/John_Dietrich1/status/2092722489692721320",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "text": "AI WEEKLY UPDATE \u2014 Saturday, 22 August 2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI WEEKLY UPDATE \u2014 Saturday, 22 August 2026",
+          "url": "https://x.com/MansaTesla/status/2091213068931928111",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l549",
+      "text": "Quant AI in 2026: The Contest Has Moved From Models to Research Process",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Quant AI in 2026: The Contest Has Moved From Models to Research Process",
+          "url": "https://x.com/NOX_Ventures/status/2091814557719380274",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l550",
+      "text": "I genuinely don't understand why more people aren't using Grok Bot like this yet.\n\nMost people are still treating AI like a smarter search box: type a prompt, wait for the answer, copy it somewhere else, then open another chat and repeat the whole process. Grok Bot changes that model completely because instead of one chatbot waiting for instructions, you can run a fleet of specialized agents inside one persistent environment where they share context, files, tools, sessions, and handoffs.\n\nThat m",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I genuinely don't understand why more people aren't using Grok Bot like this yet\u2026",
+          "url": "https://x.com/Demkinn/status/2091190659214463081",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l551",
+      "text": "AI Overview\nMetastasizing is the active process in which cancer cells break away from the main (primary) tumor, travel through the blood or lymph system, and start growing as new tumors in other parts of the body.\n\nSan Francisco General Hospital (officially known as the Zuckerberg San Francisco General Hospital and Trauma Center)[1] is a public hospital in San Francisco, California, operated by the San Francisco Department of Public Health. It serves as the only Level I trauma center for the 1.5",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI Overview\nMetastasizing is the active process in which cancer cells break away\u2026",
+          "url": "https://x.com/DunnBilly87734/status/2091848709533569181",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l552",
+      "text": "Rising AI Adoption Spurs Workforce Changes | Inc & Andy Kemp, Gallup\n\nEmployees report productivity gains with AI but not fundamental shifts in how work gets done.\n\nFor the first time in Gallup\u2019s measurement, half of employed American adults say they use AI in their role at least a few times a year, up from 46% last quarter. Frequent AI use is also increasing, with 13% of employees now saying they use AI daily and 28% reporting they use it a few times a week or more.\n\nOrganizational AI adoption",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Rising AI Adoption Spurs Workforce Changes | Inc & Andy Kemp, Gallup\n\nEmployees \u2026",
+          "url": "https://x.com/OwenGregorian/status/2044018480391786653",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l553",
+      "text": "Dylan Patel \u2013 Two labs will soon control most of the world's workforce\nHad a lot of fun chatting again with my twin brother Dylan Patel.\n\nWe went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world\u2019s usable FLOPs within the next few years (because they can monetize compute better and thus outbid everyone).\n\nAnd then we discuss whether the $10T+ of total AI capex we\u2019ll see by\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Dylan Patel \u2013 Two labs will soon control most of the world's workforce\nHad a lot\u2026",
+          "url": "https://www.youtube.com/watch?v=aV26V1UvkJw",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "Modernizing Our Oldest, Scariest Code with AI - Edith Harbaugh & Zach Davis, LaunchDarkly\nEdith Harbaugh, Co-Founder and Executive Chair at LaunchDarkly, and Zach Davis, Principal Engineer at LaunchDarkly, deliver a hot-off-the-presses experience report on using AI to rewrite the company's oldest, most feared frontend codebase \u2014 a 66,000-line React targeting system carrying twelve-plus years of accumulated technical debt. Working within a six-week timeline, a $10,000 inference budget, and a stri\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Modernizing Our Oldest, Scariest Code with AI - Edith Harbaugh & Zach Davis, Lau\u2026",
+          "url": "https://www.youtube.com/watch?v=2Mn4kQkjGIM",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "\u201cRebuild Or Get Replaced\u201d - Mark Cuban WARNS CEOs About AI Disruption\nMark Cuban warns CEOs they face a brutal AI dilemma as startups use AI to disrupt entire industries. The panel breaks down how companies risk collapse if they fail to adapt, with AI empowering smaller teams to outperform massive corporations.\n------\n\u25b6\ufe0f WATCH FULL EPISODE: https://www.youtube.com/live/ceVl4hRhILg\n\n\u24c2\ufe0f CONNECT ON MINNECT: \u2060\u2060https://bit.ly/4kSVkso \n\n\u24c2\ufe0f PBD PODCAST CIRCLES: https://bit.ly/4mAWQAP\n\n\ud83d\udc54 BET-DAVID CONSU\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "\u201cRebuild Or Get Replaced\u201d - Mark Cuban WARNS CEOs About AI Disruption\nMark Cuban\u2026",
+          "url": "https://www.youtube.com/watch?v=YRHDzXYKCjU",
+          "date": "2026-04-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har\u2026",
+          "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "The AI Delusion: Why CEOs Still Don\u2019t Get It\nWhat if the biggest threat from AI isn\u2019t artificial intelligence\u2026 but the economic system controlling it?\n\nAuthor and creator of the Lean Startup methodology, Eric Ries says many of the biggest fears around AI are actually fears about capitalism.\n\nIn this episode, Eric joins us to talk about why great companies lose their value over time, how shareholder prioritization reshaped modern business, and why AI could either amplify human creativity or becom\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The AI Delusion: Why CEOs Still Don\u2019t Get It\nWhat if the biggest threat from AI \u2026",
+          "url": "https://www.youtube.com/watch?v=-ggxydGbG_Y",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "Software sector sees C-suite shake-ups amid AI disruption fears\nCNBC's Seema Mody delivers the latest news surrounding software.\nAdobe's the latest software company to reshuffle leadership as these fears of AI disruption hammer that sector. Our Seema Mody's back from DC with more on today's Tech Check. Hey Seema. &gt;&gt; Well, Carl and Sarah, it's clear that AI is prompting some major leadership changes. The latest is Adobe CEO Shantanu Narayen who announced last night he is transitioning out o\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Software sector sees C-suite shake-ups amid AI disruption fears\nCNBC's Seema Mod\u2026",
+          "url": "https://www.youtube.com/watch?v=lfqa1XsIEso",
+          "date": "2026-03-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l459",
+      "text": "Chief Executive Officer \u2014 Dambimangari Aboriginal Corporation (Derby-West Kimberley, Western Australia, Australia). Posted 23 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "One Executive",
+          "publisher": "Dambimangari Aboriginal Corporation",
           "title": "Chief Executive Officer",
-          "url": "https://www.linkedin.com/jobs/view/4452315272",
-          "date": "5 days ago",
+          "url": "https://www.linkedin.com/jobs/view/4459099896",
+          "date": "23 hours ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
         }
       ],
@@ -263,7 +1268,7 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l411",
+      "id": "l460",
       "text": "Chief Executive Officer \u2014 Lester Blades - Executive Search & Board Advisory (Perth, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
@@ -284,28 +1289,7 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l412",
-      "text": "Chief executive officer \u2013 APONT \u2014 Beilby Downing Teal Pty Ltd (Darwin, Northern Territory, Australia). Posted 5 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Beilby Downing Teal Pty Ltd",
-          "title": "Chief executive officer \u2013 APONT",
-          "url": "https://www.linkedin.com/jobs/view/4456064922",
-          "date": "5 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l413",
+      "id": "l461",
       "text": "Chief Executive Officer \u2014 Cara (Adelaide, South Australia, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
@@ -326,16 +1310,16 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l414",
-      "text": "Chief Executive Officer \u2014 Queensland Government (South Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "id": "l462",
+      "text": "Chief Executive Officer \u2014 Amrop Carmichael Fisher (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Queensland Government",
+          "publisher": "Amrop Carmichael Fisher",
           "title": "Chief Executive Officer",
-          "url": "https://www.linkedin.com/jobs/view/4455268395",
-          "date": "1 week ago",
+          "url": "https://www.linkedin.com/jobs/view/4450983782",
+          "date": "2 weeks ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
         }
       ],
@@ -347,57 +1331,15 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l415",
-      "text": "Founder & CEO - Industrial Shield \u2014 Founders Factory (Perth, Western Australia, Australia). Posted 1 month ago.",
+      "id": "l463",
+      "text": "Chief Executive Officer \u2014 The Baird Institute (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Founders Factory",
-          "title": "Founder & CEO - Industrial Shield",
-          "url": "https://www.linkedin.com/jobs/view/4441662242",
-          "date": "1 month ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l416",
-      "text": "Chief Executive Officer \u2014 Brooker Consulting (Victoria, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Brooker Consulting",
+          "publisher": "The Baird Institute",
           "title": "Chief Executive Officer",
-          "url": "https://www.linkedin.com/jobs/view/4453529674",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l417",
-      "text": "Chief Executive Officer \u2014 Brooker Consulting (Echuca, Victoria, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Brooker Consulting",
-          "title": "Chief Executive Officer",
-          "url": "https://www.linkedin.com/jobs/view/4446454290",
+          "url": "https://www.linkedin.com/jobs/view/4446196474",
           "date": "3 weeks ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
         }
@@ -410,16 +1352,16 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l418",
-      "text": "Chief Executive Officer \u2014 Talent Nation (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "id": "l464",
+      "text": "Chief Executive Officer \u2014 Derwent (Sydney, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Talent Nation",
+          "publisher": "Derwent",
           "title": "Chief Executive Officer",
-          "url": "https://www.linkedin.com/jobs/view/4453525053",
-          "date": "1 week ago",
+          "url": "https://www.linkedin.com/jobs/view/4457433103",
+          "date": "1 day ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
         }
       ],
@@ -431,16 +1373,79 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l419",
-      "text": "Chief Executive Officer \u2014 Culture is Life (Australia). Posted 1 week ago.",
+      "id": "l465",
+      "text": "Chief Executive Officer \u2014 Market Forces (Melbourne, Victoria, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Culture is Life",
+          "publisher": "Market Forces",
           "title": "Chief Executive Officer",
-          "url": "https://www.linkedin.com/jobs/view/4456115897",
-          "date": "1 week ago",
+          "url": "https://www.linkedin.com/jobs/view/4456818968",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l466",
+      "text": "Chief Executive Officer - BackTrack (Armidale, NSW) \u2014 BackTrack Youth Works (Armidale, New South Wales, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "BackTrack Youth Works",
+          "title": "Chief Executive Officer - BackTrack (Armidale, NSW)",
+          "url": "https://www.linkedin.com/jobs/view/4457445073",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l467",
+      "text": "Chief Executive Officer \u2014 NAISDA (Kariong, New South Wales, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NAISDA",
+          "title": "Chief Executive Officer",
+          "url": "https://www.linkedin.com/jobs/view/4439997188",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l468",
+      "text": "Chief Executive Officer - Victorian Local Governance Association (VLGA) \u2014 W&Co Search (Carlton, Victoria, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "W&Co Search",
+          "title": "Chief Executive Officer - Victorian Local Governance Association (VLGA)",
+          "url": "https://www.linkedin.com/jobs/view/4456847266",
+          "date": "3 days ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
         }
       ],
@@ -455,82 +1460,75 @@
   "jobAds": {
     "source": "adzuna-au",
     "query": "chief executive",
-    "window": "retrieved 2026-08-25; current Adzuna AU listings",
-    "count": 643,
-    "sampledListings": 250,
+    "window": "2025-08-27 to 2026-08-27 (Adzuna AU live all-time index)",
+    "count": 791,
     "topEmployers": [
-      "Harbison",
-      "City of Joondalup",
       "Scout Talent",
-      "SA Health",
-      "Estee Lauder"
+      "Cummeragunja Health and Development Aboriginal Corporation",
+      "Perm Recruitment RF/BDT",
+      "SHE HR Consulting",
+      "SHK",
+      "ExecThread"
     ],
-    "topEmployerCounts": {
-      "Harbison": 7,
-      "City of Joondalup": 7,
-      "Scout Talent": 5,
-      "SA Health": 5,
-      "Estee Lauder": 4
-    },
     "topSkills": [
-      "Governance",
-      "Operations",
-      "Strategic Leadership",
-      "Communication",
-      "Business Development"
+      "ai",
+      "leadership",
+      "financial",
+      "stakeholder",
+      "analytics",
+      "customer",
+      "governance",
+      "reporting",
+      "strategy",
+      "communication"
     ],
-    "topSkillCounts": {
-      "Governance": 23,
-      "Operations": 19,
-      "Strategic Leadership": 4,
-      "Communication": 4,
-      "Business Development": 3
-    },
-    "methodNote": "Adzuna returned 643 current matches for the exact phrase query. Employer and skill frequencies were recomputed from the first 250 relevance-ranked listings, not from all 643 matches. Job ads are demand signals, not graduate destinations."
+    "note": "Count is Adzuna AU live index size for the query (all-time). 'ai' appears as a top keyword across the 50 sampled ads, indicating AI is now a recurring requirement in executive role descriptions."
   },
   "corpus": {
     "platforms": [
       {
-        "name": "reddit",
-        "scope": "r/ceo, r/Entrepreneur, r/smallbusiness and r/startups via last30days",
-        "items": 5,
-        "uniqueItems": 4,
-        "state": "ok"
-      },
-      {
-        "name": "hackernews",
-        "scope": "last30days sweep",
-        "items": 20,
-        "state": "ok"
-      },
-      {
-        "name": "youtube",
-        "scope": "last30days sweep",
-        "items": 4,
-        "state": "ok"
-      },
-      {
-        "name": "github",
-        "scope": "last30days sweep",
-        "items": 27,
-        "state": "ok"
-      },
-      {
-        "name": "polymarket",
-        "scope": "last30days sweep",
+        "name": "linkedin",
+        "scope": "linkedin-mcp-search (unofficial scrape), Australia",
         "items": 0,
-        "state": "no-results"
+        "note": "Demand-side corpus; who advertises / what they ask for. Not salary or hire-volume."
       }
     ],
-    "retrieved": "2026-08-25",
+    "retrieved": "2026-08-27",
     "searchesReturningNothing": [
-      "Factiva omitted: unattended run",
-      "grounding: unreachable (keyless web search unavailable), not recorded as silence",
-      "polymarket: no-results",
-      "x: unauthenticated (bird_authenticated false), coverage degraded and not recorded as silence",
-      "tiktok/instagram: skipped-unconfigured (no ScrapeCreators key)",
-      "hackernews, youtube and github: results returned but no additional occupation-fit practitioner claim survived",
-      "L1: no occupation-wide chief-executive regulator exists; the admitted APRA finding is sector-limited"
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "note": "OpenAthens SSO session expired (loop test 2026-08-27 redirected to SAML login). Gap logged to data/professions/factiva_backlog.json for backfill."
+      },
+      {
+        "lane": "L4",
+        "source": "seek",
+        "status": "not_sampled",
+        "note": "Seek trend pages not sampled this pass; Adzuna AU used as the quantitative L4 source."
+      },
+      {
+        "lane": "L4",
+        "source": "linkedin",
+        "status": "sampled",
+        "note": "LinkedIn L4 (linkedin-mcp-search, unofficial scrape) returned 0 live AU postings on 2026-08-27; folded as L4 claims. Provenance: linkedin (unofficial scrape)."
+      }
+    ],
+    "l5Sample": [
+      {
+        "date": "2026-08-27",
+        "added": 54,
+        "sources": {
+          "github": 14,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 1,
+          "x": 9,
+          "youtube": 6
+        },
+        "status": "sampled"
+      }
     ],
     "linkedin": [
       {
@@ -546,11 +1544,9 @@
   },
   "confidence": "high",
   "caveats": [
-    "High confidence follows the rule: one L1 claim, three L2 claims and a declared L5 corpus. It does not mean every source generalises to all chief executives.",
-    "The strongest Australian occupation-specific survey has 60 respondents and covers large companies.",
-    "The NBER and Gartner findings mix CEOs with other senior executives; only claims that preserve that population were admitted.",
-    "The r/ceo item records moderation practice in a self-selected forum whose user identities were not verified.",
-    "Adzuna employer and skill rankings use a 250-listing relevance sample from 643 current matches.",
-    "L3 Factiva claims backfilled 2026-08-26 (hybrid cookie session)."
+    "Factiva L3 unavailable (auth expired); L3 rests on public trade press and practitioner surveys.",
+    "ANZSCO 1111 assigned from JSA Gen AI Capacity Study unit mapping for L2 traceability; the O*NET->ANZSCO crosswalk carries no ANZSCO field.",
+    "Adzuna count is an all-time live index size, not a 12-month time-series; treat as demand presence, not volume trend.",
+    "L5 practitioner-discourse corpus is self-selected (Reddit/X/HN/GitHub/YouTube); not a representative survey."
   ]
 }
