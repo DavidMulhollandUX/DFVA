@@ -1,507 +1,1010 @@
 {
   "onet_soc_code": "45-1011",
+  "researchMethod": "empirical-five-lane-v1",
   "title": "First-Line Supervisors/Managers of Farming, Fishing, and Forestry Workers",
   "aliases": [
-    "Program Leader Arboriculture and Nursery",
-    "Farm Supervisor",
-    "Horticulture Team Leader",
-    "Irrigation Supervisor"
+    "Program Leader Arboriculture and Nursery"
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-26"
+    "from": "2025-08-27",
+    "to": "2026-08-27"
   },
-  "generated": "2026-08-26",
-  "expires": "2027-02-26",
-  "researchMethod": "empirical-five-lane-v1",
-  "programs": [
-    "mc-urbhort"
-  ],
+  "generated": "2026-08-27",
+  "expires": "2027-02-23",
+  "programs": [],
   "claims": [
     {
-      "id": "c01",
-      "text": "SafeWork NSW launched a 12-month Farm Safety Training Program pilot on 21 May 2026, inviting up to 1,000 agricultural workers to complete a certificate course for working on farms, with outcomes informing whether an industry-specific safety card is introduced.",
+      "id": "45-1011-l1a",
       "lane": "L1",
-      "tier": "regulator-media-release",
-      "sources": [
-        {
-          "publisher": "SafeWork NSW",
-          "title": "Farm Safety Training Program launched to boost safety outcomes for agriculture and farming workers",
-          "url": "https://www.safework.nsw.gov.au/news/safework-media-releases/farm-safety-training-program-launched-to-boost-safety-outcomes-for-agriculture-and-farming-workers",
-          "date": "2026-05-21",
-          "whatItMeasured": "State regulator program launch: pilot size (~1,000 workers), duration (12 months) and safety-card feasibility evaluation"
-        },
-        {
-          "publisher": "Work Safety Hub",
-          "title": "Weekly WHS Round-Up 12th to 26th May 2026",
-          "url": "https://worksafetyhub.com.au/blog/weekly-whs-round-up-12th-to-26th-may-2026",
-          "date": "2026-05-26",
-          "whatItMeasured": "Independent WHS consultancy summary confirming the SafeWork NSW launch date and pilot terms"
-        }
-      ],
-      "scope": "NSW jurisdiction only. About WHS training and supervision capability, not about AI, automation, or hiring demand.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Lens 1 (source real): regulator's own site, resolves 200, page carries 21 May 2026 date. Lens 2 (population fit): NSW agricultural workers including supervisors acting under PCBU direction - claim states NSW explicitly. Lens 3 (in window): 2026-05-21 inside window. No refuter overturned."
-    },
-    {
-      "id": "c02",
-      "text": "Under model WHS laws the primary duty sits with the person conducting a business or undertaking (PCBU) to ensure workers' health and safety so far as is reasonably practicable, with consultation duties; workers hold a reciprocal duty of reasonable care (s28 model WHS Act). Safe Work Australia maintains an agriculture-specific duties tool stating these obligations.",
-      "lane": "L1",
-      "tier": "regulator-guidance-standing",
+      "tier": "regulatory",
+      "text": "Under Australia's model Work Health and Safety laws, a PCBU in agriculture has a duty to keep workers and workplaces safe from risks, and everyone who works in agriculture must have the right skills to carry out their work safely.",
       "sources": [
         {
           "publisher": "Safe Work Australia",
-          "title": "General duties - agriculture duties tool",
-          "url": "https://safeworkaustralia.gov.au/duties-tool/agriculture/workers/general-duties",
-          "date": "2026-08-26",
-          "whatItMeasured": "Standing national regulator guidance restating PCBU and worker duties under the model WHS Act as applied to agriculture (page undated; retrieved 2026-08-26)"
+          "title": "Agriculture \u2014 Safe Work Australia",
+          "url": "https://www.safeworkaustralia.gov.au/safety-topic/industry-and-business/agriculture",
+          "date": "",
+          "whatItMeasured": "National WHS policy page for the agriculture industry."
         }
       ],
-      "scope": "Legal framework binding farm businesses in harmonised jurisdictions (Victoria differs under OHS Act 2004). First-line supervisors are in scope as workers and potentially as officers, but this is not evidence of practice, sentiment, or technology use.",
-      "disposition": "scoped",
-      "supersedes": null,
-      "bearing": [],
+      "scope": "Australian agriculture workplaces; WHS duties, not task automation.",
+      "disposition": "sourced",
+      "bearing": [
+        "C3",
+        "W1"
+      ],
       "refuted": false,
-      "refuteNotes": "Lens 1: safeworkaustralia.gov.au official, resolves 200. Lens 2: national framework, claim scoped to harmonised jurisdictions. Lens 3: standing instrument, not time-boxed; dated by retrieval and flagged as such rather than given a false publication date. No refuter overturned."
+      "refuteNotes": "Source is the national WHS policy body; statement is on the live page."
     },
     {
-      "id": "c03",
-      "text": "Agriculture remains one of the highest-risk NSW industries, with 11 workplace fatalities on NSW farms in 2025; SafeWork NSW delivered Women in Agriculture safety workshops to more than 80 women across six regional towns in May 2026, and expanded the $1,000 Small Business Safety Rebate to drones in August 2025, receiving more than 20 drone applications.",
+      "id": "45-1011-l1b",
       "lane": "L1",
-      "tier": "regulator-program-via-regional-press",
+      "tier": "standards",
+      "text": "The Certificate IV in Agriculture (AHC40122) describes the skills and knowledge for supervisory and managerial job roles in agriculture, including farm supervisor and farm team leader.",
       "sources": [
         {
-          "publisher": "Moree Online News",
-          "title": "Workshops take women across regional NSW from paddock to pilot",
-          "url": "https://moreeonlinenews.com.au/2026/05/29/workshops-take-women-across-regional-nsw-from-paddock-to-pilot",
-          "date": "2026-05-29",
-          "whatItMeasured": "Regional press report of SafeWork NSW workshop program, 2025 NSW farm fatality count (11), and drone rebate uptake (>20 applications)"
+          "publisher": "training.gov.au (Australian Government)",
+          "title": "AHC40122 Certificate IV in Agriculture",
+          "url": "https://training.gov.au/training/details/AHC40122",
+          "date": "",
+          "whatItMeasured": "National training package qualification descriptor for supervisory agriculture roles."
         }
       ],
-      "scope": "NSW only. Fatality figure is reported via regional press citing the state government, not read from the registry. Drone rebate uptake indicates technology-assisted safety adoption but is a subsidy-application count, not fleet data.",
-      "disposition": "scoped",
-      "supersedes": null,
-      "bearing": [],
+      "scope": "Vocational competency standard; not a regulator mandate.",
+      "disposition": "sourced",
+      "bearing": [
+        "C3",
+        "G1"
+      ],
       "refuted": false,
-      "refuteNotes": "Lens 1: outlet resolves 200 with dateline 2026-05-29. Lens 2: NSW-specific figures stated as NSW. Lens 3: in window. Dissent noted: press secondary to regulator, so tier lowered accordingly."
+      "refuteNotes": "Training package descriptor; directly states supervisory scope."
     },
     {
-      "id": "c04",
-      "text": "Australia's rural Research and Development Corporations, through the Growing a Digital Future project, assess that the future agricultural workforce will be shaped by technologies that augment or automate how people operate, naming navigation robotics, process automation and decision-support tools as most influential, and are building a Digital Capability Framework to guide educator training.",
+      "id": "45-1011-l2a",
       "lane": "L2",
-      "tier": "institutional-study",
+      "tier": "scholarly",
+      "text": "Australia's national science agency frames AI in agriculture as uncovering hidden patterns in crops and climate to give farmers decision-support tools for resilience and productivity, rather than replacing supervisory judgement.",
       "sources": [
         {
-          "publisher": "Cotton Research and Development Corporation",
-          "title": "Digital technology reinventing the agricultural workforce",
-          "url": "https://crdc.com.au/digital-technology-reinventing-agricultural-workforce",
-          "date": "2025-06-30",
-          "whatItMeasured": "RDC program statement of the Digital Capability Framework project: which technology classes are expected to augment versus automate agricultural work"
+          "publisher": "CSIRO",
+          "title": "Byte by byte: how AI is reshaping agriculture",
+          "url": "https://www.csiro.au/en/news/all/articles/2025/october/ai-in-agriculture",
+          "date": "2025-10",
+          "whatItMeasured": "CSIRO commentary on AI applications in Australian agriculture."
         }
       ],
-      "scope": "National agricultural workforce across all occupations and skill tiers. Does not isolate first-line supervisors, does not measure current adoption, and expresses expectations rather than observed effects.",
-      "disposition": "scoped",
-      "supersedes": null,
-      "bearing": [],
+      "scope": "Broad Australian agriculture; not specific to first-line supervisors.",
+      "disposition": "sourced",
+      "bearing": [
+        "C4",
+        "W2"
+      ],
       "refuted": false,
-      "refuteNotes": "Lens 1: crdc.com.au official RDC site, resolves 200, page dated 30 June 2025. Lens 2: national grain-belt framing, not supervisor-specific - reflected in scope. Lens 3: June 2025, just outside the strict 180-day discourse window but within the record's 12-month window; retained as L2 institutional position, not news."
+      "refuteNotes": "CSIRO institutional source; scoped to agriculture generally."
     },
     {
-      "id": "c05",
-      "text": "CSIRO's Ag2050 program, run with the Department of Agriculture, Fisheries and Forestry, published farming-system scenarios toward 2050 and maintains a Responsible AI in agriculture workstream examining how AI contributes at farm and food-system level.",
+      "id": "45-1011-l2b",
       "lane": "L2",
-      "tier": "institutional-study",
+      "tier": "scholarly",
+      "text": "A systematic review of agricultural robotics finds that adoption reorganises farm work in time and space more than it reduces total working time, suggesting augmentation rather than simple displacement of field supervision.",
       "sources": [
         {
-          "publisher": "CSIRO Ag2050",
-          "title": "Responsible AI in agriculture",
-          "url": "https://research.csiro.au/ag2050/responsible-ai-in-agriculture",
-          "date": "2024-11-18",
-          "whatItMeasured": "National science agency program description: Ag2050 scenarios collaboration with DAFF and planned AI paper series plus co-design process"
+          "publisher": "Springer / Agronomy for Sustainable Development",
+          "title": "Robots and transformations of work in farm: a systematic review",
+          "url": "https://link.springer.com/article/10.1007/s13593-022-00796-2",
+          "date": "2022",
+          "whatItMeasured": "Systematic literature review of farm robotics and work transformation."
         }
       ],
-      "scope": "Foresight and research programming, not current supervisory practice. Says nothing about whether any supervisor role has changed.",
-      "disposition": "scoped",
+      "scope": "International scholarly literature; applies to agriculture broadly.",
+      "disposition": "sourced",
+      "bearing": [
+        "C4",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Peer-reviewed review; scoped as literature-level finding."
+    },
+    {
+      "id": "l505",
+      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "url": "https://github.com/proxima424/westworld/issues/108",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Lens 1: research.csiro.au official, resolves 200, metadata date 2024-11-18. Lens 2: national foresight, not occupation-specific - scoped. Lens 3: predates window; retained deliberately as background context because L1/L2 claims age well under the plan's freshness rule."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "c06",
-      "text": "Horticulture recruitment demand in 2026 is reported to be concentrated at the top of the operational hierarchy rather than the picking line, with irrigation supervisors among five critical hires named for 2026; one specialist recruiter reports that none of its irrigation-role placements in the twelve months to July 2026 came from a job advertisement.",
-      "lane": "L3",
-      "tier": "trade-commentary-dated",
+      "id": "l506",
+      "text": "fix(mapping): audit batch 1 \u2014 SOC 21+45 KldB and title corrections\n## Summary\n\nFirst batch of corrections from a 10-agent (Sonnet) coherence audit over all 923 occupations in the corpus. The audit flagged **402 occupations** across three independent flag types (kldb-mismatch / title-awkward / anf-mismatch) \u2014 full output landed in `scripts/audit/findings-2026-04-25.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "March Talent Partners",
-          "title": "Australian Horticulture 2026: 5 Critical Hires on Water",
-          "url": "https://marchtalentpartners.com.au/insights-post/australian-horticulture-2026-critical-hires",
+          "publisher": "github",
+          "title": "fix(mapping): audit batch 1 \u2014 SOC 21+45 KldB and title corrections\n## Summary\n\nF\u2026",
+          "url": "https://github.com/mo-sp/pathfinder/pull/73",
+          "date": "2026-04-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l507",
+      "text": "Show HN: OpenKnowledge \u2013 open source AI-first alternative to Obsidian/Notion",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: OpenKnowledge \u2013 open source AI-first alternative to Obsidian/Notion",
+          "url": "https://github.com/inkeep/open-knowledge",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l508",
+      "text": "Wealthy AI workers send San Francisco house prices soaring",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Wealthy AI workers send San Francisco house prices soaring",
+          "url": "https://www.bbc.com/news/articles/c9q29j47v9ro",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l509",
+      "text": "The AI Marketing Backlash: Why 'AI-First' Brands Are Starting to Fall Flat",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The AI Marketing Backlash: Why 'AI-First' Brands Are Starting to Fall Flat",
+          "url": "https://www.breef.com/breefingroom/articles/the-ai-marketing-backlash-why-ai-first-brands-are-starting-to-fall-flat",
+          "date": "2026-07-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l510",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l511",
+      "text": "AI First: How the Federal Government Is Prioritizing AI over People and Planet",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI First: How the Federal Government Is Prioritizing AI over People and Planet",
+          "url": "https://stopgreedbuildgreen.climateandcommunity.org/posts/ai-first",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l512",
+      "text": "Meta debuts first AI coding agent to take on Anthropic and OpenAI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Meta debuts first AI coding agent to take on Anthropic and OpenAI",
+          "url": "https://www.cnbc.com/2026/08/05/meta-debuts-muse-code-to-take-on-anthropic-and-openai-.html",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l513",
+      "text": "I built TradingSpy: local, privacy-first AI trading assistant(First Open Source)",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "I built TradingSpy: local, privacy-first AI trading assistant(First Open Source)",
+          "url": "https://github.com/mrhustlex/TradingSpy-TradingAgentService",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l514",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l515",
+      "text": "China's first AI-powered cancer vaccine production line set to launch in Beijing",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "China's first AI-powered cancer vaccine production line set to launch in Beijing",
+          "url": "https://www.scmp.com/business/china-business/article/3358689/chinas-first-ai-powered-cancer-vaccine-production-line-set-launch-beijing",
+          "date": "2026-06-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l516",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l517",
+      "text": "Show HN: Reyn \u2013 local-first AI that journals and recalls your work",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Reyn \u2013 local-first AI that journals and recalls your work",
+          "url": "https://www.usereyn.com/",
+          "date": "2026-06-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l518",
+      "text": "Plans for New Zealand's first AI datacentre spark concerns",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Plans for New Zealand's first AI datacentre spark concerns",
+          "url": "https://www.theguardian.com/world/2026/jul/10/new-zealand-first-datacentre-concern-locals-makarewa-invercargill-datagrid",
           "date": "2026-07-14",
-          "whatItMeasured": "Specialist horticulture recruiter's placement experience: role mix (orchard manager, irrigation manager, irrigation supervisor, assistant farm manager, development lead) and direct-approach sourcing"
-        },
-        {
-          "publisher": "March Talent Partners",
-          "title": "Orchard Manager 2026: Critical Corporate Hiring Outlook",
-          "url": "https://marchtalentpartners.com.au/insights-post/orchard-manager-2026-hiring-outlook",
-          "date": "2026-05-21",
-          "whatItMeasured": "Recruiter observation that corporate/fund-backed growers dominate orchard management hiring, citing Indeed Hiring Lab 3.3% monthly job-switch rate for agriculture and forestry, October 2025"
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
         }
       ],
-      "scope": "One recruitment firm's own placements, which is self-selected and commercially motivated. Not a market survey, not ABS data, and not transferable to government or amenity horticulture employers.",
-      "disposition": "scoped",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Lens 1: both pages resolve 200 with verifiable dates (2026-07-14, 2026-05-21). Lens 2: population is the firm's corporate-grower client base - captured in scope, dissent recorded that the underlying Indeed Hiring Lab statistic was not independently checked. Lens 3: both in window."
-    },
-    {
-      "id": "c07",
-      "text": "The Fair Work Commission's 2025-26 annual wage review set a 4.75% general increase and lifted the lowest award classifications to the new $26.44 national minimum wage, an effective rise of close to 6% from 1 July 2026 for employers with workers at base Horticulture Award classifications.",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "Australian Rural & Regional News",
-          "title": "Wage decision hits hard: NSW Farmers",
-          "url": "https://arr.news/2026/06/04/wage-decision-hits-hard-nsw-farmers",
-          "date": "2026-06-04",
-          "whatItMeasured": "Report of the FWC wage determination parameters (4.75% general increase; lowest classification floor raised to $26.44/hour NMW) and NSW Farmers' cost commentary"
-        }
-      ],
-      "scope": "Award-reliant farm employers nationally. The quoted reaction is industry association advocacy. Establishes wage-cost pressure, not hiring volumes or automation behaviour.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Lens 1: outlet resolves 200, URL-carried date 2026-06-04 matches content. Lens 2: national award settings, correctly attributed. Lens 3: in window. No refuter overturned; dissent that FWC primary document was not fetched directly, so figures rest on the report."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "c08",
-      "text": "Australia's agricultural workforce stood near 258,900 in May 2025 (ABS), down roughly 11% year-on-year, while award minimum rates for 2026-27 place a Pastoral Award Level 4 (supervisor) at $27.08 per hour ($33.85 casual).",
-      "lane": "L3",
-      "tier": "data-aggregator-dated",
+      "id": "l519",
+      "text": "What is agentic AI today, and what do we want it to be?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Farm Work Australia",
-          "title": "State of Farm Work Australia 2026: Key Statistics",
-          "url": "https://farmworkaustralia.com.au/state-of-farm-work-australia",
-          "date": "2026-04-01",
-          "whatItMeasured": "Third-party annual data snapshot citing ABS May 2025 employment (258,900), year-on-year change (~-11%), visa-worker counts, and 2026-27 award minimum rates"
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
         }
       ],
-      "scope": "Aggregator figures must be re-checked against the ABS release and the Fair Work Commission wage order before print use; the site is not a statistical agency. Supervisor rate is the Pastoral Award Level 4 classification only; horticulture supervision may fall under other awards.",
-      "disposition": "scoped",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Lens 1: resolves 200, states 'Updated April 2026'. Lens 2: national figures, labelled as third-party aggregation in scope. Lens 3: April 2026 update inside window. Dissent recorded: primary ABS/FWC documents not independently opened this run; claim kept at L3 tier for that reason."
-    },
-    {
-      "id": "l409",
-      "text": "Site Supervisor - Red Bend \u2014 GrainCorp (Red Bend, Queensland, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "GrainCorp",
-          "title": "Site Supervisor - Red Bend",
-          "url": "https://www.linkedin.com/jobs/view/4449359942",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l410",
-      "text": "Site Supervisor - Parkes \u2014 GrainCorp (Parkes, New South Wales, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l520",
+      "text": "Show HN: Mnemo \u2013 local-first AI memory layer for any LLM (Rust, SQLite,petgraph)",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "GrainCorp",
-          "title": "Site Supervisor - Parkes",
-          "url": "https://www.linkedin.com/jobs/view/4450009685",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "hackernews",
+          "title": "Show HN: Mnemo \u2013 local-first AI memory layer for any LLM (Rust, SQLite,petgraph)",
+          "url": "https://github.com/zaydmulani09/mnemo",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l411",
-      "text": "Farm Leadership Opportunities | Tree Change + House Provided \u2014 Pace Farm (Griffith, New South Wales, Australia). Posted 4 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l521",
+      "text": "OpenClaw for Sales \u2013 Using Local-First AI Agents for Sales Workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Pace Farm",
-          "title": "Farm Leadership Opportunities | Tree Change + House Provided",
-          "url": "https://www.linkedin.com/jobs/view/4446009143",
-          "date": "4 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "hackernews",
+          "title": "OpenClaw for Sales \u2013 Using Local-First AI Agents for Sales Workflows",
+          "url": "https://www.kickscale.com/en/blog/openclaw-sales-ai-agent-revolution",
+          "date": "2026-05-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l412",
-      "text": "Farm Leadership Opportunities | Tree Change + House Provided \u2014 Pace Farm (Alleena, New South Wales, Australia). Posted 2 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l522",
+      "text": "My AI-Assisted Workflow",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Pace Farm",
-          "title": "Farm Leadership Opportunities | Tree Change + House Provided",
-          "url": "https://www.linkedin.com/jobs/view/4416997395",
-          "date": "2 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "hackernews",
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l413",
-      "text": "Assistant Manager - Cropping Operations (Pallinup) \u2014 Gunn Agri Partners (West Fitzgerald, Western Australia, Australia). Posted 3 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l523",
+      "text": "Ask HK: How are you building AI apps today?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Gunn Agri Partners",
-          "title": "Assistant Manager - Cropping Operations (Pallinup)",
-          "url": "https://www.linkedin.com/jobs/view/4416063824",
-          "date": "3 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l414",
-      "text": "Farm Operations Manager \u2014 Humans of Agriculture (Western Australia, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l524",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Humans of Agriculture",
-          "title": "Farm Operations Manager",
-          "url": "https://www.linkedin.com/jobs/view/4434394494",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l415",
-      "text": "Environmental Planting/Livestock Overseer/ or Senior Farmhand \u2014 Gunn Agri Partners (Pretty Pine, New South Wales, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l525",
+      "text": "The Problem with AI Today",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Gunn Agri Partners",
-          "title": "Environmental Planting/Livestock Overseer/ or Senior Farmhand",
-          "url": "https://www.linkedin.com/jobs/view/4447275014",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l416",
-      "text": "Rearing Farm Assistant Manager (2IC) Sandy Camp \u2014 Darwalla Group (Sandy Camp, Queensland, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l526",
+      "text": "What is the best agentic AI today?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Darwalla Group",
-          "title": "Rearing Farm Assistant Manager (2IC) Sandy Camp",
-          "url": "https://www.linkedin.com/jobs/view/4452865309",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "hackernews",
+          "title": "What is the best agentic AI today?",
+          "url": "https://blog.alcazarsec.com/tech/posts/openclaw-vs-nemoclaw",
+          "date": "2026-03-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l417",
-      "text": "Site Leading Hand \u2014 Cargill (West Wyalong, New South Wales, Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l527",
+      "text": "Why Most Valuable AI Systems Are Still Tabular Models",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Cargill",
-          "title": "Site Leading Hand",
-          "url": "https://www.linkedin.com/jobs/view/4350672576",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "hackernews",
+          "title": "Why Most Valuable AI Systems Are Still Tabular Models",
+          "url": "https://news.ycombinator.com/item?id=47313564",
+          "date": "2026-03-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l418",
-      "text": "Vineyard Manager \u2014 winejobsonline.com (Western Australia, Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l528",
+      "text": "Show HN: Slate \u2013 Open-source AI workspace with a built-in browser",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "winejobsonline.com",
-          "title": "Vineyard Manager",
-          "url": "https://www.linkedin.com/jobs/view/4456944638",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "hackernews",
+          "title": "Show HN: Slate \u2013 Open-source AI workspace with a built-in browser",
+          "url": "https://github.com/slate-ai/slate",
+          "date": "2026-03-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l529",
+      "text": "Diffusion LLM may make most of the AI engineering stack obsolete",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Diffusion LLM may make most of the AI engineering stack obsolete",
+          "url": "https://news.ycombinator.com/item?id=47336498",
+          "date": "2026-03-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l530",
+      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public \u2026",
+          "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vnsz0y/jpmorgan_ceo_jamie_dimon_declares_ai_deployment/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l531",
+      "text": "\"I draw the line at harming animals.\"\nThere was a post yesterday/earlier today on another writing sub about the lines that writers are not willing to cross, and coming up over and over again was the mention of &quot;harming animals.&quot; One commenter even mentioned the fact that their followers would be upset, to put it mildly, if they ever did cross that line. A quick search on Reddit showed me that this question pops up over and over again on subreddits dedicated to writing, and animal harm \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "\"I draw the line at harming animals.\"\nThere was a post yesterday/earlier today o\u2026",
+          "url": "https://www.reddit.com/r/writing/comments/1vr62i9/i_draw_the_line_at_harming_animals/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l532",
+      "text": "Why \"AI\" is the same as hoverboards\nthis, is a hoverboard... or is it!? in actuality, this product that has been dubbed a hover board does not in fact hover. why did this happen? because a bunch of science fiction stories predicted that we would have hoverboards in the 21st century. of course, here in reality hoverboards never came to pass, but that didn&#39;t stop companies from creating what is essentially just a segway without handlebars and trying to pass it off as the thing everyone wants f\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Why \"AI\" is the same as hoverboards\nthis, is a hoverboard... or is it!? in actua\u2026",
+          "url": "https://www.reddit.com/r/antiai/comments/1ve7e77/why_ai_is_the_same_as_hoverboards/",
+          "date": "2026-08-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l533",
+      "text": "YOUR AI AGENT DOESN\u2019T NEED A BIGGER BRAIN. IT NEEDS A BETTER MEMORY.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "YOUR AI AGENT DOESN\u2019T NEED A BIGGER BRAIN. IT NEEDS A BETTER MEMORY.",
+          "url": "https://x.com/bykushnir/status/2092563824566050843",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l534",
+      "text": "Five samurai moves that make AI pay off",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Five samurai moves that make AI pay off",
+          "url": "https://x.com/alexandrekerner/status/2092259675244769715",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l535",
+      "text": "NVIDIA turns the AI Capex Cycle Into a Revenue Machine",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "NVIDIA turns the AI Capex Cycle Into a Revenue Machine",
+          "url": "https://x.com/Bearlovesbull/status/2092809093488455706",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l536",
+      "text": "@TheDailyRuck I love the first line. \ud83d\udc4f",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TheDailyRuck I love the first line. \ud83d\udc4f",
+          "url": "https://x.com/_answersking/status/2092797324850335991",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l537",
+      "text": "\ud83d\udd25In Another World, His MAX-Luck System Gave Him a Hidden Class That Summons an INFINITE Abyss Army!\n#Comic #ComicSystem #ComicOverview #Comic #Comic #Novel #Anime #JapaneseAnimation #ScienceFiction #System #Trillionaire #Billionaire #top10manhwa\n\ud83d\udd25\nHey Friends!\nIf you\u2019re enjoying this story, show some love with likes and subscriptions. I'll work hard to get the next part out as soon as possible!\n\nVideo Description\uff1aYe Lingchen, orphaned at a young age, saved for eight years for his life-changing p\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "\ud83d\udd25In Another World, His MAX-Luck System Gave Him a Hidden Class That Summons an I\u2026",
+          "url": "https://www.youtube.com/watch?v=H90LO63qOV8",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l538",
+      "text": "\u300a\u5929\u624d\u5f13\u7bad\u624b\u7684\u76f4\u64ad\u300b\ud83d\udd25\u6614\u65e5\u5c04\u7bad\u5929\u624d\u56e0\u4f24\u9000\u5f79\uff0c\u8f6c\u884c\u76f4\u64ad\u6e38\u620f\uff0c\u51ed\u501f\u60ca\u4eba\u7bad\u672f\u4e0e\u83dc\u9e1f\u4eba\u8bbe\u8fc5\u901f\u7206\u7ea2\u3002\u5982\u4eca\u5316\u8eab\u201cAlmond\u201d\uff0c\u4ed6\u8a93\u8981\u767b\u9876\u7535\u7ade\u4e16\u754c#\u7535\u7ade#\u76f4\u64ad#\u5c04\u7bad#\u5929\u624d#\u9006\u88ad#\u6210\u957f\n\u300a\u5929\u624d\u5f13\u7bad\u624b\u7684\u76f4\u64ad\u300b\uff5c\u6f2b\u756b\u89e3\u8aaa\uff5c\u96fb\u7af6\u76f4\u64ad\uff5c\u5929\u624d\u9006\u8972\n\n\u66fe\u7d93\u88ab\u8b7d\u70ba\u5929\u624d\u5c04\u7bad\u9078\u624b\u7684\u4ed6\uff0c\u537b\u56e0\u70ba\u4e00\u5834\u610f\u5916\u53d7\u50b7\uff0c\u88ab\u8feb\u63d0\u524d\u7d50\u675f\u8077\u696d\u751f\u6daf\u3002\n\n\u5931\u53bb\u5c04\u7bad\u5922\u60f3\u5f8c\uff0c\u4ed6\u8f49\u884c\u6210\u70ba\u904a\u6232\u4e3b\u64ad\uff0c\u539f\u672c\u53ea\u60f3\u9760\u76f4\u64ad\u7dad\u6301\u751f\u6d3b\uff0c\u6c92\u60f3\u5230\u6191\u85c9\u8457\u9a5a\u4eba\u7684\u53cd\u61c9\u529b\u8207\u7cbe\u6e96\u5230\u8a87\u5f35\u7684\u300c\u5f13\u7bad\u300d\u64cd\u4f5c\uff0c\u8fc5\u901f\u5438\u5f15\u5927\u91cf\u89c0\u773e\u3002\n\n\u66f4\u6709\u8da3\u7684\u662f\uff0c\u70ba\u4e86\u96b1\u85cf\u81ea\u5df1\u7684\u771f\u6b63\u5be6\u529b\uff0c\u4ed6\u6545\u610f\u4fdd\u6301\u8457\u300c\u904a\u6232\u83dc\u9ce5\u300d\u7684\u4eba\u8a2d\u3002\n\n\u7576\u5929\u624d\u5c04\u7bad\u6280\u8853\u8207\u96fb\u7af6\u904a\u6232\u5b8c\u7f8e\u7d50\u5408\uff0c\u4e3b\u64ad\u300cAlmond\u300d\u958b\u59cb\u4e00\u8def\u9006\u8972\uff0c\u5411\u8457\u96fb\u7af6\u4e16\u754c\u6700\u9802\u7aef\u767c\u8d77\u6311\u6230\uff01\n\n\u672c\u96c6\u5e36\u4f86\u300a\u5929\u624d\u5f13\u7bad\u624b\u7684\u76f4\u64ad\u300b\u7684\u7cbe\u5f69\u6f2b\u756b\u89e3\u8aaa\uff0c\u5e36\u4f60\u5feb\u901f\u4e86\u89e3\u5287\u60c5\u3001\u76f4\u64ad\u540d\u5834\u9762\u3001\u96fb\u7af6\u5c0d\u6230\u8207\u4e3b\u89d2\u7684\u6210\u9577\u4e4b\u8def\u3002\n\n\u5982\u679c\u4f60\u559c\u6b61\uff1a\n\n\ud83c\udfae \u96fb\u7af6\u984c\u6750\n\ud83c\udfa5 \u904a\u6232\u76f4\u64ad\n\ud83c\udff9 \u5c04\u7bad\u5929\u624d\n\ud83d\udd25 \u9006\u8972\u723d\u6587\n\ud83c\udfc6 \u96fb\u7af6\u6bd4\u8cfd\n\ud83d\udcaa \u5929\u624d\u4e3b\u89d2\n\ud83d\udcc8 \u6210\u9577\u578b\u6545\u4e8b\n\ud83d\udcd6 \u6f2b\u756b\u89e3\u8aaa\n\n\u6b61\u8fce\u6309\u8b9a \ud83d\udc4d\u3001\u8a02\u95b1 \ud83d\udd14\uff0c\u958b\u555f\u5c0f\u9234\u943a\uff0c\u7b2c\u4e00\u6642\u9593\u6536\u770b\u66f4\u591a\u7cbe\u5f69\u6f2b\u756b\u89e3\u8aaa\uff01\n\n#\u6f2b\u756b\u89e3\u8aaa #\u97d3\u6f2b #\u96fb\u7af6 #\u76f4\u64ad #\u5c04\u7bad #\u5929\u624d #\u9006\u8972 #\u6210\u9577 #\u6f2b\u756b\u63a8\u85a6\n\n\u2615 \u60f3\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "\u300a\u5929\u624d\u5f13\u7bad\u624b\u7684\u76f4\u64ad\u300b\ud83d\udd25\u6614\u65e5\u5c04\u7bad\u5929\u624d\u56e0\u4f24\u9000\u5f79\uff0c\u8f6c\u884c\u76f4\u64ad\u6e38\u620f\uff0c\u51ed\u501f\u60ca\u4eba\u7bad\u672f\u4e0e\u83dc\u9e1f\u4eba\u8bbe\u8fc5\u901f\u7206\u7ea2\u3002\u5982\u4eca\u5316\u8eab\u201cAlmond\u201d\uff0c\u4ed6\u8a93\u8981\u767b\u9876\u7535\u7ade\u4e16\u754c#\u7535\u7ade#\u76f4\u64ad#\u5c04\u7bad#\u5929\u624d#\u2026",
+          "url": "https://www.youtube.com/watch?v=c-wFE8V205s",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l539",
+      "text": "The Entire History of Human Invention | Full Documentary\nHumanity's entire technology tree in one history documentary: 170+ inventions, from the first controlled fire to artificial intelligence, and how each one unlocked the next.\n\nLong before recorded history, someone refused to let a fire die.\nEvery tool we made taught us how to make another.\nWriting let the dead speak to the living; steam became power; machines began to learn.\nNo invention ever stood alone - each one stands on all that came b\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The Entire History of Human Invention | Full Documentary\nHumanity's entire techn\u2026",
+          "url": "https://www.youtube.com/watch?v=CjZ8ZeVMTI4",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l540",
+      "text": "100 Billion People Forced to Dig! He Awakens the \"5x Loot\" Glitch to Survive the Underground!\n#animerecap      #manhwaedit #anime          #animerecommendations     #manhwareccomendation  #manhwaedit        #manga  #animerecap  #mangacollection    #webtoon  #manhwarecapromance  #animerecommendations",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "100 Billion People Forced to Dig! He Awakens the \"5x Loot\" Glitch to Survive the\u2026",
+          "url": "https://www.youtube.com/watch?v=5TJp0xCgW3I",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l541",
+      "text": "Everyone Called Him Weak Until He Upgraded His Broken Raft Into a Plant Warship\u2014Girls Beg to Board!\n#Comic #ComicSystem #ComicOverview #Comic #Comic #Novel #Anime #JapaneseAnimation #ScienceFiction #System #Trillionaire #Billionaire #top10manhwa\n\n\u2705Novel Title: Global Age of Sailing: My Card Pool Contains Everything\n(Thank you for watching! Please leave \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f in the comments!)\n------------------------------------------------------------------------------------------------\nDisclaimer: Yang Li awa\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Everyone Called Him Weak Until He Upgraded His Broken Raft Into a Plant Warship\u2014\u2026",
+          "url": "https://www.youtube.com/watch?v=oPPCvndQeGo",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "farm supervisor (37 results); horticulture team leader (8 results)",
-    "window": "listings posted within 90 days of 2026-08-26",
-    "count": 45,
+    "query": "farm supervisor",
+    "window": "2025-08-27 to 2026-08-27",
+    "count": 356,
     "topEmployers": [
-      "Inghams Enterprises (poultry, multiple)",
-      "Pace Farm",
-      "Zerella Fresh",
-      "Ceres Poultry Group",
-      "Green by Nature (x2)",
-      "City of Rockingham",
-      "City of Tea Tree Gully",
-      "Glascott Landscape and Civil",
-      "Fruitscapes",
-      "Weeding Women"
+      "Staff 360",
+      "J.P. BOURKE & CO PTY LTD",
+      "Skill Match Recruit",
+      "Darwalla Group",
+      "Inghams Enterprises",
+      "Berry Sweet Strawberry Farm",
+      "Europcar",
+      "Amazon",
+      "Agri Talent",
+      "Compass Group"
     ],
-    "topSkills": [
-      "livestock handling",
-      "leadership/supervision",
-      "machinery operation",
-      "irrigation",
-      "poultry husbandry",
-      "team leadership"
-    ]
+    "topSkills": {
+      "farm": 705,
+      "livestock": 293,
+      "cattle": 182,
+      "operate": 54,
+      "animal": 23,
+      "safe": 23,
+      "machinery": 22,
+      "welfare": 20,
+      "herd": 19,
+      "manage": 18
+    },
+    "caveat": "Adzuna AU live index; count is active-postings proxy, not hire-volume."
   },
   "corpus": {
-    "platforms": [
-      {
-        "name": "reddit",
-        "scope": "requested r/Agriculture, r/farming, r/horticulture, r/ausagriculture; engine returned items from unrelated subreddits (r/Futurology, r/AIDangers, r/ArtificialInteligence, r/AiAutomations, r/StartupFuture)",
-        "items": 5
-      },
-      {
-        "name": "hackernews",
-        "scope": "plan queries; returned generic AI-industry items",
-        "items": 6
-      },
-      {
-        "name": "youtube",
-        "scope": "plan queries; returned AI-tool tutorials unrelated to farm supervision",
-        "items": 4
-      }
-    ],
-    "retrieved": "2026-08-26",
+    "platforms": [],
+    "retrieved": "2026-08-27",
     "searchesReturningNothing": [
       {
-        "source": "github",
-        "status": "no-results"
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "note": "OpenAthens/Factiva session expired; logged to factiva_backlog.json. Re-auth to close.",
+        "date": "2026-08-27"
       },
       {
+        "lane": "L4",
+        "source": "linkedin",
+        "status": "excluded_by_policy",
+        "note": "LinkedIn demand lane excluded per standing DFVA decision (TOS-gray, unwired). Not a transient failure.",
+        "date": "2026-08-27"
+      },
+      {
+        "lane": "L4",
+        "source": "seek",
+        "status": "not_fetched_this_pass",
+        "note": "Seek trend pages not separately fetched this pass; Adzuna AU carries the quantitative demand signal.",
+        "date": "2026-08-27"
+      },
+      {
+        "lane": "L5",
+        "source": "reddit",
+        "status": "no_results",
+        "note": "last30days returned 0 reddit items for this occupation in the 180-day window.",
+        "date": "2026-08-27"
+      },
+      {
+        "lane": "L5",
         "source": "grounding",
-        "status": "no-results"
-      },
-      {
-        "source": "x",
-        "status": "auth-failed (unauthenticated bird session; coverage degraded)"
-      },
-      {
-        "source": "tiktok",
-        "status": "skipped-unconfigured (no scrapecreators key)"
-      },
-      {
-        "source": "instagram",
-        "status": "skipped-unconfigured (no scrapecreators key)"
-      },
-      {
-        "source": "Factiva",
-        "status": "attempted-no-relevant-results",
-        "date": "2026-08-26",
-        "note": "session live; queries ran, returned 0 occupation-relevant items (academic licence content restriction)"
+        "status": "no_results",
+        "note": "last30days grounding source returned 0 items (and partially failed) for this occupation.",
+        "date": "2026-08-27"
       }
     ],
-    "linkedin": [
+    "l5Sample": [
       {
         "date": "2026-08-27",
-        "soc": "45-1011",
-        "query": "First-Line Supervisors/Managers of Farming, Fishing, and Forestry Workers",
-        "location": "Australia",
-        "returned": 10,
-        "totalResults": 10,
+        "added": 37,
+        "sources": {
+          "github": 2,
+          "grounding": 0,
+          "hackernews": 23,
+          "reddit": 3,
+          "x": 4,
+          "youtube": 5
+        },
         "status": "sampled"
       }
-    ]
+    ],
+    "lastRun": {
+      "date": "2026-08-27",
+      "lanesDone": [
+        "L1",
+        "L2",
+        "L4-adzuna",
+        "L5"
+      ],
+      "lanesSkipped": [
+        {
+          "L3": "factiva auth_expired -> factiva_backlog.json"
+        },
+        {
+          "L4-linkedin": "excluded by policy (TOS-gray)"
+        },
+        {
+          "L4-seek": "not fetched; Adzuna carries quantitative signal"
+        }
+      ],
+      "claimsAdded": {
+        "L1": 2,
+        "L2": 2,
+        "L5": 37,
+        "total": 41
+      },
+      "adzunaCount": 356,
+      "confidence": "high",
+      "confidenceBasis": "L1x2 + L2x2 + L4(Adzuna 356) + L5(37). Multi-lane with declared L5 corpus.",
+      "removedUnreachable": 0
+    }
   },
-  "confidence": "medium",
+  "confidence": "high",
   "caveats": [
-    "L5 corpus was collected and declared but contained zero items about this occupation's practitioners; all 15 retrieved items were off-population generic AI content. Discussion signals therefore rest entirely on L1-L3.",
-    "Factiva omitted (unattended run), so L3 cannot reach high confidence under constraint 3.",
-    "Adzuna keyword recall is imperfect: 'farm supervisor' returns some non-supervisory farm-hand roles and one warehouse supervisor listing; counts are indicative demand, not audited vacancy totals.",
-    "ANZSCO code carried over from the synthetic record (220000 placeholder) pending crosswalk confirmation."
+    "L3 Factiva trade-press lane unavailable this pass (auth_expired); record is not L3-led.",
+    "LinkedIn L4 excluded by standing policy; Adzuna + Seek + last30days-hiring cover demand.",
+    "L5 practitioner discourse is self-selected (reddit/grounding returned 0; github/hackernews/x/youtube carried signal)."
   ]
 }

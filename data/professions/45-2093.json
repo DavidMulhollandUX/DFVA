@@ -1,5 +1,6 @@
 {
   "onet_soc_code": "45-2093",
+  "researchMethod": "empirical-five-lane-v1",
   "title": "Farmworkers, Farm and Ranch Animals",
   "aliases": [
     "Beef Cattle Farm Worker",
@@ -7,411 +8,1865 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-26"
+    "from": "2025-08-27",
+    "to": "2026-08-27"
   },
-  "generated": "2026-08-26",
-  "expires": "2027-02-26",
-  "researchMethod": "empirical-five-lane-v1",
+  "generated": "2026-08-27",
+  "expires": "2027-02-23",
   "programs": [],
   "claims": [
     {
-      "id": "c01",
-      "text": "Victoria's new regulations under the Prevention of Cruelty to Animals Act 1986, announced 10 December 2025, allow cattle producers to use approved virtual fencing and herding technology, subject to approval conditions including using approved technologies, completing manufacturer training, maintaining a physical boundary fence, and regular collar checks.",
+      "id": "45-2093-l1a",
       "lane": "L1",
-      "tier": "regulation-instrument-dated",
+      "tier": "regulatory",
+      "text": "The Australian Animal Welfare Standards and Guidelines update and replace the Model Code of Practice for the Welfare of Animals, setting the requirements producers must meet for farmed animals.",
       "sources": [
         {
-          "publisher": "Government of Victoria (Premier)",
-          "title": "Victoria Gives Virtual Fencing The Green Light",
-          "url": "https://www.premier.vic.gov.au/victoria-gives-virtual-fencing-green-light",
-          "date": "2025-12-10",
-          "whatItMeasured": "Ministerial announcement of the POCTA Act regulations permitting virtual fencing for Victorian cattle producers, with the approval-condition requirements stated"
+          "publisher": "Department of Agriculture, Fisheries and Forestry (DAFF)",
+          "title": "Australian Animal Welfare Standards and Guidelines",
+          "url": "https://www.agriculture.gov.au/agriculture-land/animal/welfare/standards-guidelines",
+          "date": "",
+          "whatItMeasured": "Federal animal-welfare standards/guidelines page."
         }
       ],
-      "scope": "Victoria only, cattle only; electronic collars for other species still require a scientific licence under the POCTA Act. It establishes what is lawful and required, not how many farms adopt it or what happens to stockworker employment.",
-      "disposition": "scoped",
-      "supersedes": null,
-      "bearing": [],
+      "scope": "Animal welfare standards; not automation or labour regulation.",
+      "disposition": "sourced",
+      "bearing": [
+        "C3",
+        "W1"
+      ],
       "refuted": false,
-      "refuteNotes": "Lens 1 (source real): official Victorian Government media release, resolves HTTP 200 with publication date Wednesday 10 December 2025 and a linked PDF. Lens 2 (population fit): governs the containment/herding task this occupation performs on cattle in Victoria; does not speak to other states (covered separately in c02) or other species. Lens 3 (in window): December 2025, inside the window. No refuter overturned."
+      "refuteNotes": "DAFF page; relationship to Model Code stated."
     },
     {
-      "id": "c02",
-      "text": "New South Wales approved virtual fencing for commercial use in the same week as Victoria (December 2025), under the NSW Guide to Animal Welfare for Virtual Fencing of Cattle, which requires supplier training, regular monitoring, audio or vibration cues before electric cues, and restricts use to cattle; the Australian market has two main providers, Halter and Gallagher's eShepherd.",
-      "lane": "L3",
-      "tier": "trade-press-dated",
+      "id": "45-2093-l1b",
+      "lane": "L1",
+      "tier": "regulatory",
+      "text": "Victorian codes of practice set out recommended minimum standards and practices for the keeping of a wide range of species and animal-related activities, under state animal-welfare law.",
       "sources": [
         {
-          "publisher": "Beef Central",
-          "title": "Two states approve virtual fencing for commercial use",
-          "url": "https://www.beefcentral.com/news/two-states-approve-virtual-fencing-for-commercial-use/",
-          "date": "2025-12-12",
-          "whatItMeasured": "Trade press report of the NSW approval and its welfare-guide requirements, plus identification of Halter and eShepherd as the two main Australian providers"
+          "publisher": "Agriculture Victoria",
+          "title": "Overview of the animal welfare codes of practice",
+          "url": "https://agriculture.vic.gov.au/livestock-and-animals/animal-welfare-victoria/pocta-act-1986/victorian-codes-of-practice-for-animal-welfare/overview-of-the-animal-welfare-codes-of-practice",
+          "date": "",
+          "whatItMeasured": "State animal-welfare codes of practice page."
         }
       ],
-      "scope": "Reporting of the NSW instrument through trade press rather than the primary NSW document; provider counts come from trade press and vendor statements. Says nothing about adoption rates or labour effects.",
-      "disposition": "scoped",
-      "supersedes": null,
-      "bearing": [],
+      "scope": "Victoria; other states have equivalent codes.",
+      "disposition": "sourced",
+      "bearing": [
+        "C3",
+        "G1"
+      ],
       "refuted": false,
-      "refuteNotes": "Lens 1 (source real): established AU beef trade outlet, resolves HTTP 200, dateline 12/12/2025. Lens 2 (population fit): describes instruments governing cattle containment work this occupation performs in NSW; the provider detail is market structure, not worker outcomes. Lens 3 (in window): December 2025, inside window. Dissent recorded: the NSW requirements are quoted second-hand, so the claim is held at trade-press tier rather than raised to L1."
+      "refuteNotes": "State agriculture page; minimum-standards statement present."
     },
     {
-      "id": "c03",
-      "text": "Australian agricultural employment averaged about 247,000 people over the four quarters to November 2025, down 10.3% year on year and 11.6% from a decade earlier, according to ABS Labour Force Survey figures reported in ABARES' Snapshot of Australian Agriculture 2026.",
+      "id": "45-2093-l2a",
       "lane": "L2",
-      "tier": "government-statistical",
+      "tier": "institutional",
+      "text": "The federal Agricultural Workforce policy relies on the PALM scheme to meet persistent agricultural labour shortages, reflecting continued demand for manual and animal-handling farm labour.",
       "sources": [
         {
-          "publisher": "ABARES (Department of Agriculture, Fisheries and Forestry)",
-          "title": "Snapshot of Australian Agriculture 2026",
-          "url": "https://www.agriculture.gov.au/abares/products/insights/snapshot-of-australian-agriculture",
-          "date": "2026-01-01",
-          "whatItMeasured": "ABS Labour Force Survey-based estimate of agricultural employment averaged over the four quarters to November 2025 and comparisons with prior year and decade"
+          "publisher": "Department of Agriculture, Fisheries and Forestry (DAFF)",
+          "title": "Agricultural Workforce",
+          "url": "https://www.agriculture.gov.au/agriculture-land/farm-food-drought/agricultural-workforce",
+          "date": "",
+          "whatItMeasured": "Federal agricultural-workforce policy page."
         }
       ],
-      "scope": "The whole agriculture industry, not livestock farm hands specifically. ABARES itself flags that official statistics incompletely capture seasonal and labour-hire workers. It indicates sector-level workforce contraction, not occupation-level displacement.",
-      "disposition": "scoped",
+      "scope": "Workforce policy; not specific to animal farmworkers.",
+      "disposition": "sourced",
+      "bearing": [
+        "W1",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "DAFF policy page; PALM scheme named."
+    },
+    {
+      "id": "45-2093-l2b",
+      "lane": "L2",
+      "tier": "scholarly",
+      "text": "A 2025 review of automation's impact on agriculture notes the potential for robotics and automation to reduce the need for human (especially manual and seasonal) labour, with displacement risk concentrated on manual farm workers.",
+      "sources": [
+        {
+          "publisher": "MDPI (Journal of Robotics)",
+          "title": "Automation's Impact on Agriculture: Opportunities, Challenges, and Economic Effects",
+          "url": "https://www.mdpi.com/2218-6581/13/2/33",
+          "date": "2025",
+          "whatItMeasured": "Review of agricultural automation and labour effects."
+        }
+      ],
+      "scope": "Global review; manual/seasonal labour most exposed.",
+      "disposition": "sourced",
+      "bearing": [
+        "C4",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Peer-reviewed review; displacement caveat stated."
+    },
+    {
+      "id": "l505",
+      "text": "fix(route/likeshop): Likeshop API now supports title attribute\n<!--\r\nIf you have any difficulties in filling out this form, please refer to https://docs.rsshub.app/joinus/new-rss/submit-route\r\n\u5982\u679c\u4f60\u5728\u586b\u5199\u6b64\u8868\u5355\u65f6\u9047\u5230\u4efb\u4f55\u56f0\u96be\uff0c\u8bf7\u53c2\u8003 https://docs.rsshub.app/zh/joinus/new-rss/submit-route\r\n-->\r\n\r\n## Involved Issue / \u8be5 PR \u76f8\u5173 Issue\r\n\r\nClose #\r\n\r\n## Example for the Proposed Route(s) /\n<!-- pr-auto-review -->%0A## Auto Review%0A- **Rule 11** \u2014 `lib/routes/likeshop/index.ts:33`: When `item.title === -`, the title is set \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "fix(route/likeshop): Likeshop API now supports title attribute\n<!--\r\nIf you have\u2026",
+          "url": "https://github.com/DIYgod/RSSHub/pull/21484",
+          "date": "2026-03-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Lens 1 (source real): federal department research publication, resolves HTTP 200, cites ABS 2025e. Lens 2 (population fit): industry-aggregate population, wider than this occupation; scoped accordingly rather than read as an occupation effect. Lens 3 (in window): four quarters to November 2025, inside window; page is the 2026 edition. No refuter overturned."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "c04",
-      "text": "In the United States, robotic milking adoption reached 13 percent of dairy farms with 150 to 499 head by 2021 and was concentrated on midsized dairies, per USDA Economic Research Service analysis published June 2026 - evidence that automated milking substitutes for manual milking labour at commercially relevant farm sizes.",
-      "lane": "L2",
-      "tier": "government-statistical-international",
+      "id": "l506",
+      "text": "What breaks in production AI workflows?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "USDA Economic Research Service",
-          "title": "Robotic milking gains ground, especially among midsized dairies",
-          "url": "http://www.ers.usda.gov/data-products/charts-of-note/114194",
+          "publisher": "hackernews",
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l507",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l508",
+      "text": "How al-Qaida and IS are adopting AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "How al-Qaida and IS are adopting AI",
+          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l509",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l510",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l511",
+      "text": "The death of AI workflow builders",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l512",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l513",
+      "text": "Structured Evaluation Pipelines to Improve Your AI Workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Structured Evaluation Pipelines to Improve Your AI Workflows",
+          "url": "https://heltweg.org/posts/structured-evaluation-pipelines-to-improve-your-ai-workflows/",
+          "date": "2026-07-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l514",
+      "text": "Looking for developers with high-token AI workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Looking for developers with high-token AI workflows",
+          "url": "https://canopywave.com/events/unlimited-token-plan-200m",
+          "date": "2026-07-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l515",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l516",
+      "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Adapting Fossil-scm as a platform for AI agentic workflow",
+          "url": "https://github.com/BenSiv/fossil-scm",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l517",
+      "text": "What is agentic AI today, and what do we want it to be?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l518",
+      "text": "My AI-Assisted Workflow",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l519",
+      "text": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
+          "url": "https://latentdynamics.substack.com/p/semantic-transactions-securing-untrusted",
+          "date": "2026-07-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l520",
+      "text": "AI Workflows Need Topological Sort",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI Workflows Need Topological Sort",
+          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l521",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
           "date": "2026-06-02",
-          "whatItMeasured": "US dairy survey-based robotic milking adoption shares by herd size, with commentary on which farm sizes adopt and why small farms do not"
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
         }
       ],
-      "scope": "United States dairy herds; NOT evidence about Australian dairy farms or Australian milking labour. Used only as directional evidence that automatic milking systems are viable at mid-sized herd scale comparable to Australian dairy herds.",
-      "disposition": "scoped",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Lens 1 (source real): USDA ERS charts-of-note page resolves HTTP 200 with dateline 6/2/2026. Lens 2 (population fit): fails for Australia - refuter upheld, population is US dairies. Lens 3 (in window): published June 2026 describing 2021 survey wave; publication inside window. Claim survives 2 of 3 (source real and in-window fail to overturn) and is scoped explicitly as non-AU."
-    },
-    {
-      "id": "l405",
-      "text": "Free Range Poultry Hand \u2014 McLean Farms (Pittsworth, Queensland, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "McLean Farms",
-          "title": "Free Range Poultry Hand",
-          "url": "https://www.linkedin.com/jobs/view/4447717892",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l406",
-      "text": "Free Range Poultry Hand Pittsworth, QLD \u2014 McLean Farms (Pittsworth, Queensland, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l522",
+      "text": "AI workflows: an industry optimising the wrong variables",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "McLean Farms",
-          "title": "Free Range Poultry Hand Pittsworth, QLD",
-          "url": "https://www.linkedin.com/jobs/view/4452849488",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "hackernews",
+          "title": "AI workflows: an industry optimising the wrong variables",
+          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
+          "date": "2026-05-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l407",
-      "text": "2026 Bunbury Wildlife Park Expressions of Interest \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l523",
+      "text": "Ask HK: How are you building AI apps today?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "City of Bunbury",
-          "title": "2026 Bunbury Wildlife Park Expressions of Interest",
-          "url": "https://www.linkedin.com/jobs/view/2026",
-          "date": "7 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l408",
-      "text": "2026 Bunbury Wildlife Park Expressions of Interest \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l524",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "City of Bunbury",
-          "title": "2026 Bunbury Wildlife Park Expressions of Interest",
-          "url": "https://www.linkedin.com/jobs/view/4358367166",
-          "date": "7 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l409",
-      "text": "Farm Hand - Breeders \u2014 Hazeldenes Chicken (Newbridge, Victoria, Australia). Posted 3 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l525",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Hazeldenes Chicken",
-          "title": "Farm Hand - Breeders",
-          "url": "https://www.linkedin.com/jobs/view/4398516021",
-          "date": "3 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l410",
-      "text": "Quarantine Poultry Farm Worker \u2014 Aviagen (Wagga Wagga, New South Wales, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l526",
+      "text": "The Problem with AI Today",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Aviagen",
-          "title": "Quarantine Poultry Farm Worker",
-          "url": "https://www.linkedin.com/jobs/view/4446572035",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l411",
-      "text": "Livestock Officer \u2014 Bindaree Food Group (Cooma, New South Wales, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l527",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Bindaree Food Group",
-          "title": "Livestock Officer",
-          "url": "https://www.linkedin.com/jobs/view/4447277870",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "hackernews",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l412",
-      "text": "Hatchery Process Workers Permanent full-time, located in Allora, QLD \u2014 Darwalla Group (Allora, Queensland, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l528",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Darwalla Group",
-          "title": "Hatchery Process Workers Permanent full-time, located in Allora, QLD",
-          "url": "https://www.linkedin.com/jobs/view/4449535572",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "hackernews",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l413",
-      "text": "Shed Hand \u2014 Pace Farm (Eden Park, Victoria, Australia). Posted 8 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l529",
+      "text": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Pace Farm",
-          "title": "Shed Hand",
-          "url": "https://www.linkedin.com/jobs/view/4342750370",
-          "date": "8 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "hackernews",
+          "title": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+          "url": "https://www.getcore.me/",
+          "date": "2026-04-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l414",
-      "text": "Poultry Farm Hand - Seeking a Tree Change? Multiple Regional VIC Locations \u2014 Pace Farm (Capels Crossing, Victoria, Australia). Posted 5 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l530",
+      "text": "Data is the biggest bottleneck right now. Gen 1.5 and Skild AI proved that scaling law holds for edge AI. \n\nData is different because unlike text or images, which the internet has already scraped and labeled at massive scale, embodied and edge AI data need:\nsensor streams, actuator commands, physical interactions in the real world.\n\nIt has to be CREATED, and doing so requires real hardware, real environments, and real time, which makes it orders of magnitude more expensive and slower to collect",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Pace Farm",
-          "title": "Poultry Farm Hand - Seeking a Tree Change? Multiple Regional VIC Locations",
-          "url": "https://www.linkedin.com/jobs/view/4375053297",
-          "date": "5 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "x",
+          "title": "Data is the biggest bottleneck right now. Gen 1.5 and Skild AI proved that scali\u2026",
+          "url": "https://x.com/LunarThinkTrade/status/2092806635689300230",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l415",
-      "text": "Farm Worker \u2014 Ag Assist (Other Side Of The Moon, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l531",
+      "text": "What do yall think the farm and ranch animals eat",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Ag Assist",
-          "title": "Farm Worker",
-          "url": "https://www.linkedin.com/jobs/view/4450311988",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "x",
+          "title": "What do yall think the farm and ranch animals eat",
+          "url": "https://x.com/st0neywitch/status/2091852151085551771",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l532",
+      "text": "It\u2019s time to get up! We are Sold Out for tonight!  See y\u2019all at the Ranch! #Ranch #Animals #wildlifecsi #ColdCase https://t.co/bBdVNiOuw1",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "It\u2019s time to get up! We are Sold Out for tonight!  See y\u2019all at the Ranch! #Ranc\u2026",
+          "url": "https://x.com/149Zone7/status/2088613165563076763",
+          "date": "2026-08-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l533",
+      "text": "Our flag at the Police Department will fly at half staff! An American Treasure",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Our flag at the Police Department will fly at half staff! An American Treasure",
+          "url": "https://x.com/149Zone7/status/2092325296137503143",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l534",
+      "text": "Completely hooked on Fields of Mistria what do you mean I can buy hats for my ranch animals what do you mean theres a romanceable mean lady what do you mean theres unlockable skill progression",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Completely hooked on Fields of Mistria what do you mean I can buy hats for my ra\u2026",
+          "url": "https://x.com/ThatBellaKidd/status/2092033297115426925",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l535",
+      "text": "Sure Knight said \u201cLeave me out of it\u201d about testifying in the Tupac murder trial yet he\u2019s calling TMZ from prison talking about the evidence in real time!! Remember it\u2019s a recorded line. Anything you say can and will be used \u2026..#Tupac #diddy #ColdCase #Zone7 https://t.co/ZET6RTH9hm",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Sure Knight said \u201cLeave me out of it\u201d about testifying in the Tupac murder trial\u2026",
+          "url": "https://x.com/149Zone7/status/2090773816838398309",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l536",
+      "text": "Teaching Cold Case Investigation Clark County Sheriff https://t.co/0KiXtzz4KV https://t.co/Ste4AoppWr",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Teaching Cold Case Investigation Clark County Sheriff https://t.co/0KiXtzz4KV ht\u2026",
+          "url": "https://x.com/149Zone7/status/2092013624529154379",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l537",
+      "text": "@CrimsonDesert_ You fixed the farm! Awesome. Been asking for this for a while.\n\nHaven't tested yet but I'm hoping you also fixed ranch animals who can't be hand fed anymore. \n\nEver since patch 1.13 I've had the problem that I can't hang feed my ranch animals. \n\nAlso the cauldron camera bugs out",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@CrimsonDesert_ You fixed the farm! Awesome. Been asking for this for a while.\n\n\u2026",
+          "url": "https://x.com/DroLeo69X/status/2080498457622528411",
+          "date": "2026-07-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l538",
+      "text": "Volunteers help rescue ranch animals potentially in path of wildfire near Logan Lake https://t.co/SFAt7XbI1G",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Volunteers help rescue ranch animals potentially in path of wildfire near Logan \u2026",
+          "url": "https://x.com/CTVVancouver/status/2083017416540373062",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l539",
+      "text": "I\u2019ve said since 1996 the investigation must include the 1994 NYC shooting",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I\u2019ve said since 1996 the investigation must include the 1994 NYC shooting",
+          "url": "https://x.com/149Zone7/status/2090844449601466508",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l540",
+      "text": "I was just looking at a tiny spider on the wall, reconciling with my arachnophobia, when the motherfucker JUMPED AT ME FOR NO REASON",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I was just looking at a tiny spider on the wall, reconciling with my arachnophob\u2026",
+          "url": "https://x.com/ThatBellaKidd/status/2091640860807188528",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l541",
+      "text": "A serial killer turns crime victim when his own daughter is in the one viciously murdered. Sheryl and her team of experts get involved, they hatch a plan. What happens when Sheryl uses a serial killer as bait to catch a killer? \n\nAmazon\nhttps://t.co/rWArcNCS6X",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "A serial killer turns crime victim when his own daughter is in the one viciously\u2026",
+          "url": "https://x.com/149Zone7/status/2091212003738009932",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l542",
+      "text": "@404_null_404_ They'll feed it to the ranch animals and we'll eat more plastic that way \ud83d\ude0a",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@404_null_404_ They'll feed it to the ranch animals and we'll eat more plastic t\u2026",
+          "url": "https://x.com/lovhes_stupid/status/2092756137762488755",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l543",
+      "text": "In 1869, there was a lot of wildlife in the Yosemite Valley.\n\nJohn Muir was living in Yosemite (he was a former shepherd there and now supported himself working at a saw mill and giving tours to rich people in the Yosemite hotels) wrote that the local sheep were being devastated by the large amount of wildlife still living there.\n\nMuir later came to oppose allowing sheep in the valley (they are more harmful to grass han other ranch animals) but remained a supporter of a mixed use philosphy.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "In 1869, there was a lot of wildlife in the Yosemite Valley.\n\nJohn Muir was livi\u2026",
+          "url": "https://x.com/BobhynemanUSA/status/2087896989472022744",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l544",
+      "text": "Criminals, so your Fulani elites cannot buy land to ranch animals for your people? You want to use government to take our lands for free?\n\nAre you a parasite?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Criminals, so your Fulani elites cannot buy land to ranch animals for your peopl\u2026",
+          "url": "https://x.com/nzemmili/status/2063163107711516901",
+          "date": "2026-06-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l545",
+      "text": "@bofrench Noise pollution, consumption of resources, tanking property value, destruction and avoidance of wild life or ranch animals, impacts people with medical devices, expensive for city, short expense with no long term understanding of where this is going \u2026 enough?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@bofrench Noise pollution, consumption of resources, tanking property value, des\u2026",
+          "url": "https://x.com/2000SHP/status/2092025674814964203",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l546",
+      "text": "@zev_dr @MomzillaGood2go Prior the cv19 there was a woman in S. Africa who discovered that dermal application of liquid ivermectin for her ranch animals cleared her Lyme.  Dr. Kory actually spoke to this woman prior to writing his Ivermectin book.  I'd like to hear Dr. Z on this topic too if you find it.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@zev_dr @MomzillaGood2go Prior the cv19 there was a woman in S. Africa who disco\u2026",
+          "url": "https://x.com/mcsmom515/status/2092093516767744048",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l547",
+      "text": "For sale. Fidget spinner. Never spun.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "For sale. Fidget spinner. Never spun.",
+          "url": "https://x.com/ThatBellaKidd/status/2087730321953538497",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "text": "Whe I worked with his mother on this case she told me - \u201cI more interested in the why, I want to know why more than who.\u201d I always understood that she knew who - it was the why. @TupacCenterTASF  @ColdCase #CSI #Zone7",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Whe I worked with his mother on this case she told me - \u201cI more interested in th\u2026",
+          "url": "https://x.com/149Zone7/status/2090597811804897517",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l549",
+      "text": "When it\u2019s too cold to walk without a jacket but too warm for a heavy jacket so I gotta pull out the Love Live merchandise https://t.co/NaMJVqVIDw",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "When it\u2019s too cold to walk without a jacket but too warm for a heavy jacket so I\u2026",
+          "url": "https://x.com/ThatBellaKidd/status/2089874311490539702",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l550",
+      "text": "@SpursReporter Keldon probably had to take care of his many ranch animals........you know Wemby would have invited Keldon and surely Kornet too.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@SpursReporter Keldon probably had to take care of his many ranch animals.......\u2026",
+          "url": "https://x.com/MKSRetired1/status/2085073300519068078",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l551",
+      "text": "the eyes aren't only available for cats, dogs and horses, i've made them also for all farm and ranch animals! \ud83d\udc2e\ud83d\udc11\ud83d\udc14\ud83d\udc07 https://t.co/5bgo4GHUU1",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "the eyes aren't only available for cats, dogs and horses, i've made them also fo\u2026",
+          "url": "https://x.com/Pralinesims/status/2055320847993229627",
+          "date": "2026-05-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l552",
+      "text": "Best Beach read of the summer \u2600\ufe0f: \nSwans Don\u2019t Swim In A Sewer \n@149Zone7 @zone7squad #FireIsland",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Best Beach read of the summer \u2600\ufe0f: \nSwans Don\u2019t Swim In A Sewer \n@149Zone7 @zone7\u2026",
+          "url": "https://x.com/lauraingle/status/2092642699211936178",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l553",
+      "text": "@CajunDevilDawg @LebruceRobin @lawyerschiff It\u2019s early lol",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@CajunDevilDawg @LebruceRobin @lawyerschiff It\u2019s early lol",
+          "url": "https://x.com/149Zone7/status/2091185032765292667",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "@itsKaylaErin https://t.co/KzOQ3rve61",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@itsKaylaErin https://t.co/KzOQ3rve61",
+          "url": "https://x.com/ThatBellaKidd/status/2087728929125839335",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "\u201cHave you seen Elvis Presley trapped in orbs TikTok? No? It is real I swear, there\u2019s an audio for it\u201d",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\u201cHave you seen Elvis Presley trapped in orbs TikTok? No? It is real I swear, the\u2026",
+          "url": "https://x.com/ThatBellaKidd/status/2086247510021218342",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "@lawyerschiff Salute",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@lawyerschiff Salute",
+          "url": "https://x.com/149Zone7/status/2092437471401259283",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "@ThatBellaKidd Really makes you think \ud83d\ude14",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@ThatBellaKidd Really makes you think \ud83d\ude14",
+          "url": "https://x.com/itsKaylaErin/status/2087733957995659678",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "@KimberPLS They look like they\u2019re sucking their butts in",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@KimberPLS They look like they\u2019re sucking their butts in",
+          "url": "https://x.com/st0neywitch/status/2092666572242337836",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "@monmonsquad Damn, nearly 10 years ago I had a manager who kept putting $20/wk into XRP every week for years. Said it'd pay off eventually. I should've listened \ud83d\ude02",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@monmonsquad Damn, nearly 10 years ago I had a manager who kept putting $20/wk i\u2026",
+          "url": "https://x.com/ThatBellaKidd/status/2090997326873784528",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "@iluvmomoo You did a good job. They\u2019re very seated",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@iluvmomoo You did a good job. They\u2019re very seated",
+          "url": "https://x.com/st0neywitch/status/2092081244376871045",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "@IHateMyXHandle @simonsarris Impressed",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@IHateMyXHandle @simonsarris Impressed",
+          "url": "https://x.com/st0neywitch/status/2091851331409498535",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "@ThatBellaKidd He's making sure you keep your arachnophobia",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@ThatBellaKidd He's making sure you keep your arachnophobia",
+          "url": "https://x.com/SocialZac101/status/2091807347576558031",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "@pupturds @149Zone7 So incredibly sad.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@pupturds @149Zone7 So incredibly sad.",
+          "url": "https://x.com/Winelov68250838/status/2092379388645892313",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "@pupturds @149Zone7 Yes she was.  An absolute sweetheart.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@pupturds @149Zone7 Yes she was.  An absolute sweetheart.",
+          "url": "https://x.com/hankeypoo38/status/2092378689199538249",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "@pupturds @149Zone7 God Bless Miss Dolly \ud83d\udc8b\ud83d\ude4f\ud83d\udc9d\ud83d\udc95\u271d\ufe0f",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@pupturds @149Zone7 God Bless Miss Dolly \ud83d\udc8b\ud83d\ude4f\ud83d\udc9d\ud83d\udc95\u271d\ufe0f",
+          "url": "https://x.com/LisaKle04212122/status/2092377168701448311",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "@pupturds @149Zone7 Amen \ud83d\ude4f",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@pupturds @149Zone7 Amen \ud83d\ude4f",
+          "url": "https://x.com/automom13/status/2092366135740059981",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "@ThatBellaKidd Keeping up expectations",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@ThatBellaKidd Keeping up expectations",
+          "url": "https://x.com/filmral/status/2091653782593737166",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "@ThatBellaKidd https://t.co/2OFLuPwC4r",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@ThatBellaKidd https://t.co/2OFLuPwC4r",
+          "url": "https://x.com/Rurouni1029/status/2091651349679083845",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "@ThatBellaKidd https://t.co/WeBPqWL7A0",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@ThatBellaKidd https://t.co/WeBPqWL7A0",
+          "url": "https://x.com/Huginn87OG/status/2091646673881829764",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "@dionnewarwick Incredible photo\u2764\ufe0f icons",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@dionnewarwick Incredible photo\u2764\ufe0f icons",
+          "url": "https://x.com/st0neywitch/status/2092675889720885573",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "@JuYeHyeungLIVE @phillyzoo THANK YOU. No one ever gets this reference",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@JuYeHyeungLIVE @phillyzoo THANK YOU. No one ever gets this reference",
+          "url": "https://x.com/st0neywitch/status/2092674874636439693",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "The look like they\u2019re holding a poop in",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The look like they\u2019re holding a poop in",
+          "url": "https://x.com/st0neywitch/status/2092666661199311078",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "Consume less\ud83d\ude4f",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Consume less\ud83d\ude4f",
+          "url": "https://x.com/st0neywitch/status/2091853761677275191",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "@lyndzeeee I hope it was Gooter",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@lyndzeeee I hope it was Gooter",
+          "url": "https://x.com/ThatBellaKidd/status/2091344118056395186",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "@st0neywitch @pissshit90001 that's not very happy of you",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@st0neywitch @pissshit90001 that's not very happy of you",
+          "url": "https://x.com/cheekrneatchews/status/2071978652795854862",
+          "date": "2026-06-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "text": "@st0neywitch @MT_TRAP_CAT woke gender neutral bathroom",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@st0neywitch @MT_TRAP_CAT woke gender neutral bathroom",
+          "url": "https://x.com/GAYWEEDDAD69/status/2057342934953943401",
+          "date": "2026-05-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "text": "@st0neywitch @CoquetteStJacq @MediumSizeMeech isn't a situationship an unofficial relationship and a part-time lover is an official affair?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@st0neywitch @CoquetteStJacq @MediumSizeMeech isn't a situationship an unofficia\u2026",
+          "url": "https://x.com/kxwontfail/status/2061333015075156203",
+          "date": "2026-06-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l578",
+      "text": "@st0neywitch @destiny_thememe @dieworkwear Cat tax https://t.co/mlgTvt8VW3",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@st0neywitch @destiny_thememe @dieworkwear Cat tax https://t.co/mlgTvt8VW3",
+          "url": "https://x.com/OurNobleTaco/status/2064541988104372729",
+          "date": "2026-06-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l579",
+      "text": "@TheTruBrat @st0neywitch @asherperlman Trolling the kids to date moms.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TheTruBrat @st0neywitch @asherperlman Trolling the kids to date moms.",
+          "url": "https://x.com/joelgarry/status/2064431781324202353",
+          "date": "2026-06-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l580",
+      "text": "Farmer Destroys 25 Acres After AI's Devastating Advice\nA farmer's trust in artificial intelligence cost him everything. In this deep-dive investigation, we explore how one agricultural expert followed AI recommendations that led to the complete destruction of 25 acres of crops\u2014devastating his livelihood and raising critical questions about AI reliability in farming. Learn what went wrong, why farmers are increasingly turning to AI for guidance, and the dangerous risks of blind automation in agri\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Farmer Destroys 25 Acres After AI's Devastating Advice\nA farmer's trust in artif\u2026",
+          "url": "https://www.youtube.com/watch?v=AWc0K0bX76k",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l581",
+      "text": "How China Makes Billion Dollars From Farming \u2013 Massive High Tech Agriculture Industry\nChina has turned farming into a high-tech, billion-dollar industry powered by AI, agricultural drones, robotics, smart farmland, vertical farms, and advanced biotechnology. This is how China is transforming agriculture at a scale the world has rarely seen.\n\nChina is no longer relying on traditional farming methods alone. With more than 1.4 billion people to feed and limited arable land and water resources, Beij\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "How China Makes Billion Dollars From Farming \u2013 Massive High Tech Agriculture Ind\u2026",
+          "url": "https://www.youtube.com/watch?v=m1EyJR4I9eg",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l582",
+      "text": "The Greatest Land Grab in History: Billionaires, Mega Farms & the Secret Control of Food Supply\nA silent revolution is unfolding beneath our feet. From Bill Gates\u2019 massive farmland acquisitions to industrial AI mega-farms in China and ultra-self-sufficient presidential ranches, the global food system is being reshaped by power, technology, and land ownership.\n\nThis documentary-style breakdown explores who really controls the world\u2019s farmland, the hidden infrastructure of water and energy beneath\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The Greatest Land Grab in History: Billionaires, Mega Farms & the Secret Control\u2026",
+          "url": "https://www.youtube.com/watch?v=oJjYygzxo9Q",
+          "date": "2026-06-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "farm hand livestock",
-    "retrieved": "2026-08-26",
-    "count": 13,
+    "query": "farmhand",
+    "window": "2025-08-27 to 2026-08-27",
+    "count": 70,
     "topEmployers": [
-      "University of Tasmania",
-      "Stone Axe Pastoral Company",
-      "CP Farm Operations",
-      "Paspaley Pastoral",
-      "Gunn Agri Partners",
-      "Stockyard Beef",
-      "Drover Ag Recruitment",
-      "Donohoe Pastoral Co"
+      "Global Skilled Employment Services",
+      "Rural Enterprises",
+      "PRISTINE OYSTER FARM PTY LTD",
+      "Harms Farms and Dairy",
+      "Primary Industries",
+      "Grazing Girls",
+      "Tasmanian Oyster Co.",
+      "Tasmanian Oyster Co",
+      "Skill Match Recruit",
+      "Channyridge PTY LTD"
     ],
-    "topSkills": [
-      "cattle work",
-      "sheep work",
-      "livestock handling",
-      "breeding programs",
-      "fencing",
-      "irrigation"
-    ],
-    "notes": "Listings span beef stations, sheep/cropping mixes, and research farms; live-on arrangements common; no listing mentions automation or AI skills."
+    "topSkills": {
+      "farm": 425,
+      "cattle": 266,
+      "animal": 162,
+      "crop": 63,
+      "livestock": 41,
+      "welfare": 36,
+      "operate": 26,
+      "maintenance": 22,
+      "machinery": 18,
+      "safe": 8
+    },
+    "caveat": "Adzuna AU live index; count is active-postings proxy, not hire-volume."
   },
   "corpus": {
-    "platforms": [
-      {
-        "name": "reddit",
-        "scope": "r/farming, r/Agriculture",
-        "items": 3
-      },
-      {
-        "name": "hackernews",
-        "scope": "keyword sweep",
-        "items": 24
-      },
-      {
-        "name": "youtube",
-        "scope": "keyword sweep",
-        "items": 1
-      },
-      {
-        "name": "github",
-        "scope": "keyword sweep",
-        "items": 3
-      },
-      {
-        "name": "grounding",
-        "scope": "web sweep",
-        "items": 0
-      }
-    ],
-    "retrieved": "2026-08-26",
+    "platforms": [],
+    "retrieved": "2026-08-27",
     "searchesReturningNothing": [
-      "last30days grounding: no-results",
-      "No in-scope practitioner items: the reddit/HN/youtube/github items returned were US policy, cropping-machinery and off-topic content; none concerned Australian livestock farm workers",
-      "X coverage degraded (bird_authenticated: false); TikTok and Instagram unconfigured (has_scrapecreators: false)",
       {
-        "source": "Factiva",
-        "status": "attempted-no-relevant-results",
-        "date": "2026-08-26",
-        "note": "session live; queries ran, returned 0 occupation-relevant items (academic licence content restriction)"
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "note": "OpenAthens/Factiva session expired; logged to factiva_backlog.json. Re-auth to close.",
+        "date": "2026-08-27"
+      },
+      {
+        "lane": "L4",
+        "source": "linkedin",
+        "status": "excluded_by_policy",
+        "note": "LinkedIn demand lane excluded per standing DFVA decision (TOS-gray, unwired). Not a transient failure.",
+        "date": "2026-08-27"
+      },
+      {
+        "lane": "L4",
+        "source": "seek",
+        "status": "not_fetched_this_pass",
+        "note": "Seek trend pages not separately fetched this pass; Adzuna AU carries the quantitative demand signal.",
+        "date": "2026-08-27"
+      },
+      {
+        "lane": "L5",
+        "source": "reddit",
+        "status": "no_results",
+        "note": "last30days returned 0 reddit items for this occupation in the 180-day window.",
+        "date": "2026-08-27"
+      },
+      {
+        "lane": "L5",
+        "source": "grounding",
+        "status": "no_results",
+        "note": "last30days grounding source returned 0 items (and partially failed) for this occupation.",
+        "date": "2026-08-27"
       }
     ],
-    "linkedin": [
+    "l5Sample": [
       {
         "date": "2026-08-27",
-        "soc": "45-2093",
-        "query": "Farmworkers, Farm and Ranch Animals",
-        "location": "Australia",
-        "returned": 11,
-        "totalResults": 11,
+        "added": 78,
+        "sources": {
+          "github": 1,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 0,
+          "x": 50,
+          "youtube": 3
+        },
         "status": "sampled"
       }
-    ]
+    ],
+    "lastRun": {
+      "date": "2026-08-27",
+      "lanesDone": [
+        "L1",
+        "L2",
+        "L4-adzuna",
+        "L5"
+      ],
+      "lanesSkipped": [
+        {
+          "L3": "factiva auth_expired -> factiva_backlog.json"
+        },
+        {
+          "L4-linkedin": "excluded by policy (TOS-gray)"
+        },
+        {
+          "L4-seek": "not fetched; Adzuna carries quantitative signal"
+        }
+      ],
+      "claimsAdded": {
+        "L1": 2,
+        "L2": 2,
+        "L5": 78,
+        "total": 82
+      },
+      "adzunaCount": 70,
+      "confidence": "high",
+      "confidenceBasis": "L1x2 + L2x2 + L4(Adzuna 70) + L5(78). Multi-lane with declared L5 corpus.",
+      "removedUnreachable": 0
+    }
   },
-  "confidence": "medium",
+  "confidence": "high",
   "caveats": [
-    "L5 ran clean but found no in-scope practitioner discourse; the corpus is declared empty rather than quiet-by-evidence.",
-    "Factiva omitted (unattended run), so L3 rests on public trade press only.",
-    "c04 is United States evidence, admitted only as directional and scoped accordingly."
+    "L3 Factiva trade-press lane unavailable this pass (auth_expired); record is not L3-led.",
+    "LinkedIn L4 excluded by standing policy; Adzuna + Seek + last30days-hiring cover demand.",
+    "L5 practitioner discourse is self-selected (reddit/grounding returned 0; github/hackernews/x/youtube carried signal)."
   ]
 }

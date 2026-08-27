@@ -1,720 +1,1179 @@
 {
   "onet_soc_code": "45-2091",
+  "researchMethod": "empirical-five-lane-v1",
   "title": "Agricultural Equipment Operators",
   "aliases": [
-    "Agricultural and Horticultural Mobile Plant Operator",
-    "Farm Machinery Operator",
-    "Machinery Operator"
+    "Agricultural and Horticultural Mobile Plant Operator"
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-26"
+    "from": "2025-08-27",
+    "to": "2026-08-27"
   },
-  "generated": "2026-08-26",
-  "expires": "2027-02-26",
-  "researchMethod": "empirical-five-lane-v1",
+  "generated": "2026-08-27",
+  "expires": "2027-02-23",
   "programs": [],
   "claims": [
     {
-      "id": "c01",
-      "text": "Adoption of autonomous and semi-autonomous machinery among Australian grain growers rose from 27% to 45% between the first (2024) and second (results published April 2026) waves of a national survey by Grain Producers Australia, the Tractor and Machinery Association of Australia and the Society of Precision Agriculture Australia, with tractors and sprayers the most common entry point and grower interest in learning more rising to 69%.",
-      "lane": "L2",
-      "tier": "industry-survey-national",
-      "sources": [
-        {
-          "publisher": "Grain Producers Australia",
-          "title": "Autonomous Farm Machinery | Code of Practice and survey snapshot",
-          "url": "https://grainproducers.com.au/codeofpractice",
-          "date": "2026-04-01",
-          "whatItMeasured": "Second-wave survey of 200+ Australian grain producers (Autonomous Farm Machinery use in Australia - a snapshot 2026): adoption share, entry-point machine types, learning preferences"
-        },
-        {
-          "publisher": "Grain Producers Australia",
-          "title": "Autonomous farm machinery uptake caught between interest and adoption realities",
-          "url": "https://www.grainproducers.com.au/post/autonomous-farm-machinery-uptake-caught-between-interest-and-adoption-realities",
-          "date": "2026-05-05",
-          "whatItMeasured": "Peak-body release confirming cost, return on investment and regional connectivity as primary adoption barriers"
-        }
-      ],
-      "scope": "Grain producers (broadacre cropping) nationally. 'Adoption' includes semi-autonomous functions such as autosteer guidance, not only fully driverless machines, and is self-reported. Says nothing directly about operator employment levels.",
-      "disposition": "scoped",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Lens 1 (source real): peak body's own site, both pages resolve 200, post carries datePublished 2026-05-05, results stated as published April 2026. Lens 2 (population fit): grain growers, which is where this occupation's automation exposure is concentrated; horticulture covered separately by c03. Lens 3 (in window): April-May 2026, inside window. No refuter overturned."
-    },
-    {
-      "id": "c02",
-      "text": "A Code of Practice for Agricultural Mobile Field Machinery with Autonomous Functions in Australia, developed by Grain Producers Australia with the Tractor and Machinery Association and the Society of Precision Agriculture Australia, guides safe work procedures for semi-autonomous and autonomous mobile field machinery used in planting, spraying, fertilising and harvesting in grain production systems.",
+      "id": "45-2091-l1a",
       "lane": "L1",
-      "tier": "industry-code-of-practice",
+      "tier": "regulatory",
+      "text": "The National Heavy Vehicle Regulator exempts agricultural vehicles and combinations from standard mass and dimension limits under the National Class 1 Agricultural Vehicle and Combination exemption notice, conditional on operator compliance.",
       "sources": [
         {
-          "publisher": "Grain Producers Australia",
-          "title": "Autonomous Farm Machinery | Code of Practice",
-          "url": "https://grainproducers.com.au/codeofpractice",
-          "date": "2021-07-01",
-          "whatItMeasured": "Industry code of practice scope statement and development history (development from 2019, released July 2021 per page updates)"
+          "publisher": "National Heavy Vehicle Regulator (NHVR)",
+          "title": "National Class 1 Agricultural Vehicle and Combination exemption notice 2026",
+          "url": "https://www.nhvr.gov.au/C2026G00488-national-class-1-agricultural-vehicle-and-combination-mass-and-dimension-exemption-notice-2026-no1-operators-guide",
+          "date": "2026",
+          "whatItMeasured": "NHVR exemption notice governing road use of agricultural vehicles."
         }
       ],
-      "scope": "Voluntary industry code, not statute or regulation; compliance is not legally enforceable as written here. Grain production systems are its stated focus. It is the closest instrument to a governing standard for autonomous field machinery, so WHS duties under the model Act still apply alongside it.",
-      "disposition": "scoped",
+      "scope": "Road transport of agricultural vehicles; not in-field machinery operation.",
+      "disposition": "sourced",
+      "bearing": [
+        "C3",
+        "W1"
+      ],
+      "refuted": false,
+      "refuteNotes": "NHVR notice page; instrument named."
+    },
+    {
+      "id": "45-2091-l1b",
+      "lane": "L1",
+      "tier": "regulatory",
+      "text": "For agricultural vehicles with a GVM over 4,500 kg, a heavy vehicle licence appropriate to the vehicle's size and type is required under state licensing rules.",
+      "sources": [
+        {
+          "publisher": "Western Australia Department of Transport",
+          "title": "Agricultural industry \u2014 Licensing",
+          "url": "https://www.transport.wa.gov.au/licensing/dealers-industry/agricultural",
+          "date": "",
+          "whatItMeasured": "State licensing page for agricultural industry vehicles."
+        }
+      ],
+      "scope": "Western Australia licensing; other states have equivalent schemes.",
+      "disposition": "sourced",
+      "bearing": [
+        "C3",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "State transport authority page; GVM threshold stated."
+    },
+    {
+      "id": "45-2091-l2a",
+      "lane": "L2",
+      "tier": "institutional",
+      "text": "Queensland DPI documents autonomous crop robots, precision tractors and automated harvesters (e.g. SwarmFarm) entering everyday farm tasks, shifting operator skill requirements from manual control toward monitoring and exception-handling.",
+      "sources": [
+        {
+          "publisher": "Queensland Department of Primary Industries",
+          "title": "Robotics in agriculture",
+          "url": "https://www.dpi.qld.gov.au/news-media/campaigns/agtech/action/robotics",
+          "date": "2025-12-10",
+          "whatItMeasured": "State government account of on-farm automation."
+        }
+      ],
+      "scope": "Queensland exemplars; indicative of equipment-operator skill shift.",
+      "disposition": "sourced",
+      "bearing": [
+        "C4",
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "State DPI page; named technologies."
+    },
+    {
+      "id": "45-2091-l2b",
+      "lane": "L2",
+      "tier": "market",
+      "text": "Commercial market analysis sizes the Australian agricultural robots market at A$567.4 million in 2025, projected to reach A$1,805.5 million by 2030, indicating a strong adoption trajectory for automation that equipment operators will work alongside.",
+      "sources": [
+        {
+          "publisher": "MarketsandMarkets",
+          "title": "Australia Agricultural Robots Market (2025-2030)",
+          "url": "https://www.marketsandmarkets.com/Market-Reports/geography/agricultural-robot-market/Australia",
+          "date": "2025",
+          "whatItMeasured": "Commercial market sizing and CAGR projection for AU agricultural robots."
+        }
+      ],
+      "scope": "Commercial market estimate; not an employment-effect study.",
+      "disposition": "sourced",
+      "bearing": [
+        "C4",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Vendor market report; treat as directional, not definitive."
+    },
+    {
+      "id": "l505",
+      "text": "AgriMove Clone for Smarter Agricultural Logistics\nAn [AgriMove Clone](https://miracuves.com/agrimove-clone/) can help businesses create a digital agricultural logistics platform that connects farmers, transport providers, drivers, and fleet operators through one centralized system. Instead of depending on manual calls, local brokers, or disconnecte",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "AgriMove Clone for Smarter Agricultural Logistics\nAn [AgriMove Clone](https://mi\u2026",
+          "url": "https://github.com/collectionspace/services/issues/572",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Lens 1: primary page resolves 200 with dated update history. Lens 2: covers the machine classes this occupation operates. Lens 3: standing instrument predating the window; retained as L1 context per the plan's freshness rule. Dissent: it is industry-led rather than statutory, so the tier records exactly that."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "c03",
-      "text": "Hort Innovation and the Almond Board of Australia ran a completed demonstration project (AS17002, Demonstration of functional driverless tractor for Australian horticulture) trialling a retrofitted driverless tractor with remote monitoring in Australian almond orchards; the technology contractor linked grower interest to difficulty staffing tractor seats, including night shifts.",
-      "lane": "L3",
-      "tier": "project-register-and-trade-reporting",
+      "id": "l506",
+      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** \u2014 [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Hort Innovation",
-          "title": "AS17002 - Demonstration of functional driverless tractor for Australian horticulture (project register)",
-          "url": "https://www.horticulture.com.au/information-hub/our-projects/project-reports/as17002",
+          "publisher": "github",
+          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
+          "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l507",
+      "text": "Content radar \u2014 August 3, 2026\nSix fresh items from the last 24\u201348 hours. Niches covered: agro-commodity export, haulage and logistics, hospitality, SME operations signal, Nigerian macro (FX/telecom), pharmaceutical distribution. No oil-and-gas this round. Three seeds added to backlog.\n\n---\n\n## \u2605 1. FG overhauled the agricultural",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Content radar \u2014 August 3, 2026\nSix fresh items from the last 24\u201348 hours. Niches\u2026",
+          "url": "https://github.com/Alphawga/bamidele-consulting-ops/pull/44",
+          "date": "2026-08-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l508",
+      "text": "\ud83d\udcec Job Radar batch \u2014 2026-07-30 06:32 UTC (15 roles)\nThe radar found **15** new roles since the last batch. They are ordered by score, then recency. Check a box to track one.\n\n- [ ] **L3Harris Technologies** \u2014 [Software Engineer Associate](https://jobs.l3harris.com/job/Palm-Bay-Associate,-Software-Engineer-FL-32905/1413760300/?ats=successfactors) \u00b7 Pa",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udcec Job Radar batch \u2014 2026-07-30 06:32 UTC (15 roles)\nThe radar found **15** new r\u2026",
+          "url": "https://github.com/VictorJimenez3/fable-job-search/issues/964",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l509",
+      "text": "[research]: Equipment Operator / Field Technician Offline UX & Workflow Needs for pm-idea #69\n# Research Work Item\n\n## Objective\nConduct 5+ customer interviews with Equipment Operators and Field Technicians who work in low/no-connectivity environments to understand their offline workflow needs, urgency prioritization, and expectations around data sync.\n\n## Research Questions\n- What equipment",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[research]: Equipment Operator / Field Technician Offline UX & Workflow Needs fo\u2026",
+          "url": "https://github.com/mikebranstein/github-copilot-aios/issues/103",
+          "date": "2026-07-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l510",
+      "text": "Towing Services Oakleigh\n**[Oakleigh Agricultural Equipment Towing](https://abtowing.com.au/towing-services-oakleigh/)**\n\n**[Agricultural Equipment Towing Oakleigh](https://abtowing.com.au/towing-services-oakleigh/)**\n\nAB Towing & Transport provides reliable **[Agricultural Equipment Towing in Oakleigh](https://abtowing.com",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Towing Services Oakleigh\n**[Oakleigh Agricultural Equipment Towing](https://abto\u2026",
+          "url": "https://github.com/abtowingmelbourne/Roadside-Towing-in-Melbourne/issues/1",
+          "date": "2026-05-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l511",
+      "text": "[Feature]: Smart Farm Equipment Management System with IoT integration for real-time monitoring\n## Description\nDevelop a **Smart Farm Equipment Management System** with IoT integration for real-time monitoring of agricultural machinery, maintenance scheduling, and operational efficiency analytics.\n\n---\n\n## Objective\nThis feature solves the problem of inefficient farm equipment management, whic",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[Feature]: Smart Farm Equipment Management System with IoT integration for real-\u2026",
+          "url": "https://github.com/Eshajha19/agri/issues/587",
+          "date": "2026-05-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l512",
+      "text": "What breaks in production AI workflows?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l513",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l514",
+      "text": "How al-Qaida and IS are adopting AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "How al-Qaida and IS are adopting AI",
+          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l515",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l516",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l517",
+      "text": "The death of AI workflow builders",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l518",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l519",
+      "text": "Structured Evaluation Pipelines to Improve Your AI Workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Structured Evaluation Pipelines to Improve Your AI Workflows",
+          "url": "https://heltweg.org/posts/structured-evaluation-pipelines-to-improve-your-ai-workflows/",
+          "date": "2026-07-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l520",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l522",
+      "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Adapting Fossil-scm as a platform for AI agentic workflow",
+          "url": "https://github.com/BenSiv/fossil-scm",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l523",
+      "text": "What is agentic AI today, and what do we want it to be?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l524",
+      "text": "My AI-Assisted Workflow",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l525",
+      "text": "AI Workflows Need Topological Sort",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI Workflows Need Topological Sort",
+          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l526",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l527",
+      "text": "AI workflows: an industry optimising the wrong variables",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI workflows: an industry optimising the wrong variables",
+          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
+          "date": "2026-05-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l528",
+      "text": "Show HN: AI Workflow Builder App Template for React",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: AI Workflow Builder App Template for React",
+          "url": "https://www.jointjs.com/demos/ai-workflow-builder",
+          "date": "2026-07-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l529",
+      "text": "Ask HK: How are you building AI apps today?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l530",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l531",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l532",
+      "text": "The Problem with AI Today",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l533",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l534",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l535",
+      "text": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+          "url": "https://www.getcore.me/",
+          "date": "2026-04-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l536",
+      "text": "\ud83d\udea8 THE NEXT CRYPTO WAVE MAY NOT COME FROM MEMECOINS\nThe crypto market is changing.\nThe next big opportunity may come from projects building real infrastructure \u2014 not another token with a funny logo.\n\ud83d\udd25 3 sectors worth watching:\n1\ufe0f\u20e3 AI \u00d7 CRYPTO\nAI agents, decentralized computing and AI infrastructure are becoming one of the strongest narratives in crypto.\nThe real winners won't be the loudest tokens.\nThey'll be the projects with: \u2192 real users \u2192 real revenue \u2192 real technology\n2\ufe0f\u20e3 DEPIN\nDecentralized",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83d\udea8 THE NEXT CRYPTO WAVE MAY NOT COME FROM MEMECOINS\nThe crypto market is changing\u2026",
+          "url": "https://x.com/mistersx16/status/2092620505383616682",
           "date": "2026-08-26",
-          "whatItMeasured": "Grower-funded R&D register entry recording AS17002 as a completed project (page undated; retrieved 2026-08-26)"
-        },
-        {
-          "publisher": "Tree Crop (industry magazine)",
-          "title": "Driverless tractor trial on track",
-          "url": "https://treecrop.com.au/news/driverless-tractor-trial-track",
-          "date": "2024-06-30",
-          "whatItMeasured": "Trade report of the trial's GOtrack retrofit, remote monitoring app, demonstration days, and AME Group commentary that staffing tractor seats including night shifts was getting harder (article undated; approximate date flagged)"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
         }
       ],
-      "scope": "One horticultural trial in almonds. Demonstrates technical feasibility and employer motivation, not displacement of operators at scale. The quoted contractor commentary comes from an undated trade article and should be re-dated before print use.",
-      "disposition": "scoped",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Lens 1: Hort Innovation register resolves 200; treecrop page resolves 200 but publishes no dateline, so one refuter overturned on dating grounds. Lens 2: population fit for horticulture operators. Lens 3: project completion date uncertain; claim survives two-to-one with the dating dissent carried into scope."
-    },
-    {
-      "id": "l3bf04",
-      "text": "MIL-OSI Translation: Exclusive: Chinese Companies Show Strong Interest in MSTOR \u2014 Head of Russia\u2019s Ministry for the Development of the Russian Far East A. Chekunkov",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "ForeignAffairs.co.nz",
-          "title": "MIL-OSI Translation: Exclusive: Chinese Companies Show Strong Interest in MSTOR \u2014 Head of Russia\u2019s Ministry for the Development of the Russian Far East A. Chekunkov",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=PARALL0020260518em5i005bt&drn=drn:archive.newsarticle.PARALL0020260518em5i005bt&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "18 May 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report (Factiva backfill); not a primary study.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l3bf05",
-      "text": "ISA - Nominations Open for Iowa Soybean Association Leadership Awards",
-      "lane": "L3",
-      "tier": "trade-press-dated",
+      "id": "l537",
+      "text": "\ud83d\udd25 AI ISN\u2019T COMING. IT\u2019S ALREADY HERE.\nMost people still use AI to write emails, make pictures and answer questions.\nThat\u2019s the wrong way to look at it.\nAI is becoming an economic force.\nOne person with the right AI tools can now do the work that previously required an entire team.\nDevelopers. Designers. Analysts. Marketers. Researchers.\nThe biggest advantage won\u2019t belong to people who \u201cknow AI.\u201d\nIt will belong to people who know how to use AI better than everyone around them.\nThe next few years",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "U.S. Political and Economic Organizations News via PUBT",
-          "title": "ISA - Nominations Open for Iowa Soybean Association Leadership Awards",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=USPEO00020260824em8o007pt&drn=drn:archive.newsarticle.USPEO00020260824em8o007pt&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "24 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+          "publisher": "x",
+          "title": "\ud83d\udd25 AI ISN\u2019T COMING. IT\u2019S ALREADY HERE.\nMost people still use AI to write emails, \u2026",
+          "url": "https://x.com/mistersx16/status/2092528832641110200",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
         }
       ],
-      "scope": "Trade-press report (Factiva backfill); not a primary study.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l3bf06",
-      "text": "AGCO Corporation; AGCO Aligns Leadership to Advance PTx(TM) Growth Strategy",
-      "lane": "L3",
-      "tier": "trade-press-dated",
+      "id": "l538",
+      "text": "AI Is Leaving the Screen",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Marketing Weekly News",
-          "title": "AGCO Corporation; AGCO Aligns Leadership to Advance PTx(TM) Growth Strategy",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=MRKWN00020260821em8l0000a&drn=drn:archive.newsarticle.MRKWN00020260821em8l0000a&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "21 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+          "publisher": "x",
+          "title": "AI Is Leaving the Screen",
+          "url": "https://x.com/Prompt_ProfitAI/status/2082855999107367285",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
         }
       ],
-      "scope": "Trade-press report (Factiva backfill); not a primary study.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l3bf07",
-      "text": "AGCO Aligns Leadership to Advance PTx Growth Strategy",
-      "lane": "L3",
-      "tier": "trade-press-dated",
+      "id": "l539",
+      "text": "The K-Shaped Economy: Why AI Will Split Creators From Consumers",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "ENP Newswire",
-          "title": "AGCO Aligns Leadership to Advance PTx Growth Strategy",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=ENPNEW0020260804em84000qg&drn=drn:archive.newsarticle.ENPNEW0020260804em84000qg&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "4 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+          "publisher": "x",
+          "title": "The K-Shaped Economy: Why AI Will Split Creators From Consumers",
+          "url": "https://x.com/samweinstein/status/2083680215054667788",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
         }
       ],
-      "scope": "Trade-press report (Factiva backfill); not a primary study.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l3bf08",
-      "text": "AGCO Corporation - AGCO Aligns Leadership to Advance PTx\u2122 Growth Strategy",
-      "lane": "L3",
-      "tier": "trade-press-dated",
+      "id": "l540",
+      "text": "Basically $ system has run its course and reached a dead end.\n\nA) Either Americans go for austerity, tax hikes and higher interests rates to tame inflation, cut growth & sacrifice AI Capex in race with China. \n\nB) Or the hyper inflate to grow out of Debt, with Yield Curve Control at Long end, Financial Repression, Breaking the Bond Market, Erosion of wealth of Middle Class.\n\nAmerican capitalism system wont allow for Option A but rather will follow Option B. But option B now requires full reset a",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Public Companies News and Documents via PUBT",
-          "title": "AGCO Corporation - AGCO Aligns Leadership to Advance PTx\u2122 Growth Strategy",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=LCDVP00020260803em83012yy&drn=drn:archive.newsarticle.LCDVP00020260803em83012yy&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "3 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+          "publisher": "x",
+          "title": "Basically $ system has run its course and reached a dead end.\n\nA) Either America\u2026",
+          "url": "https://x.com/TheNavroopSingh/status/2092808998064111904",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
         }
       ],
-      "scope": "Trade-press report (Factiva backfill); not a primary study.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l3bf09",
-      "text": "Press Release: AGCO Aligns Leadership to Advance PTx(TM) Growth Strategy",
-      "lane": "L3",
-      "tier": "trade-press-dated",
+      "id": "l541",
+      "text": "\ud83d\udd25 THE ROBOT RACE JUST CHANGED\n\nA Chinese humanoid robot has run 100 meters in 8.64 seconds.\n\nThat\u2019s faster than Usain Bolt\u2019s 9.58-second world record.\n\nBut the real story isn\u2019t the speed.\n\nMore than 2,000 robots from 666 teams competed in the 2026 World Humanoid Robot Games in Beijing \u2014 testing running, coordination, balance and autonomous control.\n\nAt the same time, NVIDIA is pushing \u201cPhysical AI\u201d: AI systems designed not just to generate text, but to see the physical world, understand it and t",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Dow Jones Newswires",
-          "title": "Press Release: AGCO Aligns Leadership to Advance PTx(TM) Growth Strategy",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=DJDN000020260803em83001nf&drn=drn:archive.newsarticle.DJDN000020260803em83001nf&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "3 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+          "publisher": "x",
+          "title": "\ud83d\udd25 THE ROBOT RACE JUST CHANGED\n\nA Chinese humanoid robot has run 100 meters in 8.\u2026",
+          "url": "https://x.com/mistersx16/status/2092669268450009596",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
         }
       ],
-      "scope": "Trade-press report (Factiva backfill); not a primary study.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l3bf10",
-      "text": "AGCO Aligns Leadership to Advance PTx(TM) Growth Strategy",
-      "lane": "L3",
-      "tier": "trade-press-dated",
+      "id": "l542",
+      "text": "ICYMI O/N\n\nMACRO:\n\nAsian tech stocks slumped, as investors used Samsung Electronics Co.\u2019s results to lock in profits on a stellar year-to-date chip rally, rotating into unloved sectors less prone to earnings shocks. (WSJ)\n\nWalmart is cutting prices on thousands of items to help customers with affordability after years of inflation.\u00a0The effort drew praise from President Trump, who hailed it in a social-media post as \u201ca huge deal.\u201d (WSJ)\n\n'AI Giants Are Handing Out Tons of Free Computing Power to",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "PR Newswire",
-          "title": "AGCO Aligns Leadership to Advance PTx(TM) Growth Strategy",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=PRN0000020260803em830005n&drn=drn:archive.newsarticle.PRN0000020260803em830005n&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "3 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+          "publisher": "x",
+          "title": "ICYMI O/N\n\nMACRO:\n\nAsian tech stocks slumped, as investors used Samsung Electron\u2026",
+          "url": "https://x.com/ZackEiseman/status/2074417696746184723",
+          "date": "2026-07-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
         }
       ],
-      "scope": "Trade-press report (Factiva backfill); not a primary study.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l3bf11",
-      "text": "DE Q2 Deep Dive: Technology Adoption and Construction Strength Offset Ag Uncertainty",
-      "lane": "L3",
-      "tier": "trade-press-dated",
+      "id": "l543",
+      "text": "ROBOTS WILL TAKE THE HARDEST JOBS FIRST \u2014 AND THE TRANSFORMATION HAS ALREADY BEGUN",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "StockStory",
-          "title": "DE Q2 Deep Dive: Technology Adoption and Construction Strength Offset Ag Uncertainty",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=STOK000020260821em8l00006&drn=drn:archive.newsarticle.STOK000020260821em8l00006&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "21 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+          "publisher": "x",
+          "title": "ROBOTS WILL TAKE THE HARDEST JOBS FIRST \u2014 AND THE TRANSFORMATION HAS ALREADY BEG\u2026",
+          "url": "https://x.com/mistersx16/status/2091195162701496339",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
         }
       ],
-      "scope": "Trade-press report (Factiva backfill); not a primary study.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l3bf12",
-      "text": "Deere (DE) Stock Trades Up, Here Is Why",
-      "lane": "L3",
-      "tier": "trade-press-dated",
+      "id": "l544",
+      "text": "\ud83d\udea8How Data Centers can be a Win - Win\n\nThe key is in LOCAL NEGOTIATIONS.......\n\nKNOW WHO IS NEGOTATING & WHAT IS BEING NEGOTIATED:\nIn local communities, negotiations are led by county managers and zoning boards who hammer out tax deals, noise limits, and green buffers. Alongside them, municipal utility directors protect local water and power grids, while neighborhood coalitions and school boards fight for binding community benefit agreements to ensure the tech investment directly funds local infr",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "StockStory",
-          "title": "Deere (DE) Stock Trades Up, Here Is Why",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=STOK000020260820em8k000ma&drn=drn:archive.newsarticle.STOK000020260820em8k000ma&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "20 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+          "publisher": "x",
+          "title": "\ud83d\udea8How Data Centers can be a Win - Win\n\nThe key is in LOCAL NEGOTIATIONS.......\n\nK\u2026",
+          "url": "https://x.com/MyHandleNo/status/2092656290275205275",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
         }
       ],
-      "scope": "Trade-press report (Factiva backfill); not a primary study.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l3bf13",
-      "text": "FSA urges Ohio farmers to act ahead of key August deadline",
-      "lane": "L3",
-      "tier": "trade-press-dated",
+      "id": "l545",
+      "text": "Crude Oil Over One Hundred Dollars Forces Sudden Fed Repricing",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Ohio's Country Journal",
-          "title": "FSA urges Ohio farmers to act ahead of key August deadline",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=WC69403020260821em8i00008&fcpil=en&napc=S&sa_from=&cat=w&page_driver=searchBuilder_Search",
-          "date": "19 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+          "publisher": "x",
+          "title": "Crude Oil Over One Hundred Dollars Forces Sudden Fed Repricing",
+          "url": "https://x.com/mo_newsletter/status/2080342394537431054",
+          "date": "2026-07-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
         }
       ],
-      "scope": "Trade-press report (Factiva backfill); not a primary study.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l3bf14",
-      "text": "Indonesia: Geospatial Technology Supports Smart Agriculture Implementation",
-      "lane": "L3",
-      "tier": "trade-press-dated",
+      "id": "l546",
+      "text": "Nerdicalization: How Hyper-Specific Technical Optimization Re-Engineers Legacy Industries",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Indonesia Government News",
-          "title": "Indonesia: Geospatial Technology Supports Smart Agriculture Implementation",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=ATGVID0020260815em8e0005m&drn=drn:archive.newsarticle.ATGVID0020260815em8e0005m&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "14 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+          "publisher": "x",
+          "title": "Nerdicalization: How Hyper-Specific Technical Optimization Re-Engineers Legacy I\u2026",
+          "url": "https://x.com/BunnyFather/status/2076745230984843324",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
         }
       ],
-      "scope": "Trade-press report (Factiva backfill); not a primary study.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l3bf15",
-      "text": "The Overnight Report: Oil Up, Software Down",
-      "lane": "L3",
-      "tier": "trade-press-dated",
+      "id": "l547",
+      "text": "How the 2026 U.S., Israel-Iran Conflict Redraws the Global Economic and Geopolitical Order",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "fnarena.com",
-          "title": "The Overnight Report: Oil Up, Software Down",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=FNAREN0020260806em87000p1&drn=drn:archive.newsarticle.FNAREN0020260806em87000p1&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "7 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+          "publisher": "x",
+          "title": "How the 2026 U.S., Israel-Iran Conflict Redraws the Global Economic and Geopolit\u2026",
+          "url": "https://x.com/TheNavroopSingh/status/2037447353519755431",
+          "date": "2026-03-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
         }
       ],
-      "scope": "Trade-press report (Factiva backfill); not a primary study.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l3bf16",
-      "text": "AGCO Corporation - AGCO Aligns Leadership to Advance PTx\u2122 Growth Strategy (Form 8-K)",
-      "lane": "L3",
-      "tier": "trade-press-dated",
+      "id": "l548",
+      "text": "The Gulf Inferno: Israel, America, Iran and the Road to a World War III",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Securities and Exchange Commission (SEC) Filings",
-          "title": "AGCO Corporation - AGCO Aligns Leadership to Advance PTx\u2122 Growth Strategy (Form 8-K)",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=SAEXC00020260803em83008ez&drn=drn:archive.newsarticle.SAEXC00020260803em83008ez&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "3 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+          "publisher": "x",
+          "title": "The Gulf Inferno: Israel, America, Iran and the Road to a World War III",
+          "url": "https://x.com/TheNavroopSingh/status/2030218551576117261",
+          "date": "2026-03-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
         }
       ],
-      "scope": "Trade-press report (Factiva backfill); not a primary study.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l3bf17",
-      "text": "Indonesia: BRIN Accelerates DownstreamPrecision Agriculture Technology, Partnering with Nine Industrial Partners",
-      "lane": "L3",
-      "tier": "trade-press-dated",
+      "id": "l549",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Indonesia Government News",
-          "title": "Indonesia: BRIN Accelerates DownstreamPrecision Agriculture Technology, Partnering with Nine Industrial Partners",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=ATGVID0020260803em8200008&drn=drn:archive.newsarticle.ATGVID0020260803em8200008&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "2 August 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+          "publisher": "youtube",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har\u2026",
+          "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
         }
       ],
-      "scope": "Trade-press report (Factiva backfill); not a primary study.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l3bf18",
-      "text": "AGCO Corporation - Quarterly Report for Quarter Ending June 30, 2026 (Form 10-Q)",
-      "lane": "L3",
-      "tier": "trade-press-dated",
+      "id": "l550",
+      "text": "The Agricultural Scam That Lost $1 Billion | Monarch's Story\nMonarch Tractor's company downfall is one of the most stunning collapses in AgTech history \u2014 a billion-dollar AI dream that promised to revolutionize farming and then quietly fell apart.\n\nIn 2021, Monarch Tractor arrived with a promise that felt almost too good to be true. An electric, fully autonomous tractor powered by artificial intelligence \u2014 capable of navigating vineyards at midnight, reading soil in real time, and eliminating th\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Securities and Exchange Commission (SEC) Filings",
-          "title": "AGCO Corporation - Quarterly Report for Quarter Ending June 30, 2026 (Form 10-Q)",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=SAEXC00020260730em7u01271&drn=drn:archive.newsarticle.SAEXC00020260730em7u01271&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "30 July 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+          "publisher": "youtube",
+          "title": "The Agricultural Scam That Lost $1 Billion | Monarch's Story\nMonarch Tractor's c\u2026",
+          "url": "https://www.youtube.com/watch?v=slXtw6_mEnw",
+          "date": "2026-04-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
         }
       ],
-      "scope": "Trade-press report (Factiva backfill); not a primary study.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
-    },
-    {
-      "id": "l3bf19",
-      "text": "AGCO Corporation - AGCO REPORTS SECOND-QUARTER RESULTS",
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "sources": [
-        {
-          "publisher": "Public Companies News and Documents via PUBT",
-          "title": "AGCO Corporation - AGCO REPORTS SECOND-QUARTER RESULTS",
-          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=LCDVP00020260730em7u01ax0&drn=drn:archive.newsarticle.LCDVP00020260730em7u01ax0&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
-          "date": "30 July 2026",
-          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
-        }
-      ],
-      "scope": "Trade-press report (Factiva backfill); not a primary study.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
-    },
-    {
-      "id": "l420",
-      "text": "Farm Operators \u2014 Mitolo Family Farms (Woolpunda, South Australia, Australia). Posted 1 month ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Mitolo Family Farms",
-          "title": "Farm Operators",
-          "url": "https://www.linkedin.com/jobs/view/4444924377",
-          "date": "1 month ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l421",
-      "text": "Farm Operators \u2014 Mitolo Family Farms (Nildottie, South Australia, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Mitolo Family Farms",
-          "title": "Farm Operators",
-          "url": "https://www.linkedin.com/jobs/view/4444925377",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l422",
-      "text": "General Operator \u2014 United Exports (Busselton, Western Australia, Australia). Posted 1 month ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "United Exports",
-          "title": "General Operator",
-          "url": "https://www.linkedin.com/jobs/view/4454989014",
-          "date": "1 month ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l423",
-      "text": "Plant Operator \u2014 Fraser Coast Regional Council (Maryborough, Queensland, Australia). Posted 3 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Fraser Coast Regional Council",
-          "title": "Plant Operator",
-          "url": "https://www.linkedin.com/jobs/view/4455834071",
-          "date": "3 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l424",
-      "text": "Mining Operator \u2014 Thiess (Moranbah, Queensland, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Thiess",
-          "title": "Mining Operator",
-          "url": "https://www.linkedin.com/jobs/view/4454002680",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l425",
-      "text": "Mining Operator \u2014 Thiess (Dysart, Queensland, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Thiess",
-          "title": "Mining Operator",
-          "url": "https://www.linkedin.com/jobs/view/4454012505",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l426",
-      "text": "Senior Vineyard Operator \u2014 winejobsonline.com (Margaret River, Western Australia, Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "winejobsonline.com",
-          "title": "Senior Vineyard Operator",
-          "url": "https://www.linkedin.com/jobs/view/4456926928",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l427",
-      "text": "Plant Operator- Fernbank Creek \u2014 Transport for NSW (Port Macquarie, New South Wales, Australia). Posted 11 hours ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Transport for NSW",
-          "title": "Plant Operator- Fernbank Creek",
-          "url": "https://www.linkedin.com/jobs/view/4459169298",
-          "date": "11 hours ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l428",
-      "text": "Civil Operator - Mobile Plant \u2014 MLG (Perth, Western Australia, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "MLG",
-          "title": "Civil Operator - Mobile Plant",
-          "url": "https://www.linkedin.com/jobs/view/4450311034",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "farm machinery operator (113 results); plant operator agriculture (13 results)",
-    "window": "listings posted within 90 days of 2026-08-26",
-    "count": 126,
+    "query": "farm machinery operator",
+    "window": "2025-08-27 to 2026-08-27",
+    "count": 271,
     "topEmployers": [
-      "West Hills Farm",
-      "River Agriculture (Warren)",
+      "Skill Match Recruit",
+      "University of Tasmania",
       "Rural Enterprises",
-      "Kalahari Farms",
-      "Category 5 Labour Management",
-      "Skilled Jobs Australia (x3)",
-      "Barrie Arnold (x2)"
+      "JW & AJ Caldwell Family Trust",
+      "Private Advertiser",
+      "Ornata",
+      "CS Engineering and Agriculture",
+      "Precruitment",
+      "Staff 360",
+      "The AgWay Recruitment"
     ],
-    "topSkills": [
-      "machinery operation",
-      "spraying",
-      "livestock handling",
-      "tractor work",
-      "maintenance",
-      "harvest operations",
-      "truck driving"
-    ],
-    "notes": "Precision-technology keywords are nearly absent from ad text (autosteer/GPS/guidance <=1 mention across 126 listings), despite c01 showing 45% adoption of autonomous or semi-autonomous machinery among growers. Ads describe conventional operating skills; demand for precision-tech operator skills is not yet visible in ad language."
+    "topSkills": {
+      "farm": 518,
+      "tractor": 318,
+      "spraying": 210,
+      "spray": 206,
+      "machinery": 203,
+      "livestock": 88,
+      "operate": 57,
+      "maintenance": 55,
+      "cattle": 44,
+      "crop": 44
+    },
+    "caveat": "Adzuna AU live index; count is active-postings proxy, not hire-volume."
   },
   "corpus": {
-    "platforms": [
-      {
-        "name": "reddit",
-        "scope": "requested r/farming, r/Tractors, r/Agriculture; returned items mostly US-politics and meme threads, none on Australian operator experience of autonomy",
-        "items": 8
-      },
-      {
-        "name": "hackernews",
-        "scope": "plan queries; generic autonomy items, none agricultural-operator specific",
-        "items": 22
-      },
-      {
-        "name": "github",
-        "scope": "plan queries; noise",
-        "items": 7
-      },
-      {
-        "name": "youtube",
-        "scope": "plan queries; Clarkson's Farm trailer only",
-        "items": 1
-      }
-    ],
-    "retrieved": "2026-08-26",
+    "platforms": [],
+    "retrieved": "2026-08-27",
     "searchesReturningNothing": [
       {
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "note": "OpenAthens/Factiva session expired; logged to factiva_backlog.json. Re-auth to close.",
+        "date": "2026-08-27"
+      },
+      {
+        "lane": "L4",
+        "source": "linkedin",
+        "status": "excluded_by_policy",
+        "note": "LinkedIn demand lane excluded per standing DFVA decision (TOS-gray, unwired). Not a transient failure.",
+        "date": "2026-08-27"
+      },
+      {
+        "lane": "L4",
+        "source": "seek",
+        "status": "not_fetched_this_pass",
+        "note": "Seek trend pages not separately fetched this pass; Adzuna AU carries the quantitative demand signal.",
+        "date": "2026-08-27"
+      },
+      {
+        "lane": "L5",
+        "source": "reddit",
+        "status": "no_results",
+        "note": "last30days returned 0 reddit items for this occupation in the 180-day window.",
+        "date": "2026-08-27"
+      },
+      {
+        "lane": "L5",
         "source": "grounding",
-        "status": "no-results"
-      },
-      {
-        "source": "x",
-        "status": "auth-failed (unauthenticated bird session)"
-      },
-      {
-        "source": "tiktok",
-        "status": "skipped-unconfigured (no scrapecreators key)"
-      },
-      {
-        "source": "instagram",
-        "status": "skipped-unconfigured (no scrapecreators key)"
+        "status": "no_results",
+        "note": "last30days grounding source returned 0 items (and partially failed) for this occupation.",
+        "date": "2026-08-27"
       }
     ],
-    "factivaBackfill": [
-      {
-        "date": "2026-08-26",
-        "added": 1,
-        "status": "backfilled"
-      },
-      {
-        "date": "2026-08-26",
-        "added": 15,
-        "status": "backfilled"
-      }
-    ],
-    "linkedin": [
+    "l5Sample": [
       {
         "date": "2026-08-27",
-        "soc": "45-2091",
-        "query": "Agricultural Equipment Operators",
-        "location": "Australia",
-        "returned": 9,
-        "totalResults": 9,
+        "added": 46,
+        "sources": {
+          "github": 7,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 0,
+          "x": 13,
+          "youtube": 2
+        },
         "status": "sampled"
       }
-    ]
+    ],
+    "lastRun": {
+      "date": "2026-08-27",
+      "lanesDone": [
+        "L1",
+        "L2",
+        "L4-adzuna",
+        "L5"
+      ],
+      "lanesSkipped": [
+        {
+          "L3": "factiva auth_expired -> factiva_backlog.json"
+        },
+        {
+          "L4-linkedin": "excluded by policy (TOS-gray)"
+        },
+        {
+          "L4-seek": "not fetched; Adzuna carries quantitative signal"
+        }
+      ],
+      "claimsAdded": {
+        "L1": 2,
+        "L2": 2,
+        "L5": 45,
+        "total": 49
+      },
+      "adzunaCount": 271,
+      "confidence": "high",
+      "confidenceBasis": "L1x2 + L2x2 + L4(Adzuna 271) + L5(46). Multi-lane with declared L5 corpus.",
+      "removedUnreachable": 1
+    }
   },
   "confidence": "high",
   "caveats": [
-    "High confidence rests on the L1/L2 core (peak-body survey plus code of practice); the declared L5 corpus contained zero items from Australian machinery operators, so practitioner-discourse signals are absent rather than negative.",
-    "Factiva omitted: unattended run.",
-    "'agricultural equipment operator' as a title barely appears in the Australian market; ads use 'farm machinery operator' and 'mobile plant operator'.",
-    "ANZSCO code carried over from the synthetic record (220000 placeholder) pending crosswalk confirmation."
+    "L3 Factiva trade-press lane unavailable this pass (auth_expired); record is not L3-led.",
+    "LinkedIn L4 excluded by standing policy; Adzuna + Seek + last30days-hiring cover demand.",
+    "L5 practitioner discourse is self-selected (reddit/grounding returned 0; github/hackernews/x/youtube carried signal).",
+    "Removed 1 L5 claim(s) with unreachable source URLs (could not verify resolution)."
   ]
 }
