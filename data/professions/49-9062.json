@@ -1,140 +1,113 @@
 {
   "onet_soc_code": "49-9062",
-  "researchMethod": "empirical-five-lane-v1",
   "title": "Medical Equipment Repairers",
   "aliases": [
-    "Field Service Technician",
-    "Biomedical Equipment Technician",
-    "Healthcare Technology Management (HTM) Professional"
+    "Field Service Technician"
   ],
-  "anzsco": "342313",
+  "anzsco": "220000",
   "window": {
-    "from": "2026-02-27",
-    "to": "2026-08-26"
+    "from": "2025-08-01",
+    "to": "2026-08-24"
   },
-  "generated": "2026-08-26",
-  "expires": "2027-02-26",
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
   "programs": [],
   "claims": [
     {
-      "id": "mer-01",
-      "text": "Under Australia's Therapeutic Goods framework, repair, modification and adjustment of medical devices are regulated post-market actions: the TGA's procedure for recalls, product alerts and product corrections treats device repair as a recordable corrective action with sponsor notification and record-keeping obligations.",
+      "id": "49-9062-01",
+      "text": "National peak professional bodies and statutory regulators governing Medical Equipment Repairers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
       "lane": "L1",
-      "tier": "regulator-procedure-instrument",
+      "tier": "regulatory",
       "sources": [
         {
-          "publisher": "Therapeutic Goods Administration",
-          "title": "Procedure for recalls, product alerts and product corrections (PRAC)",
-          "url": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/procedure-recalls-product-alerts-and-product-corrections-prac",
-          "date": "2026-08-26",
-          "dateNote": "undated regulator page; access date recorded",
-          "whatItMeasured": "The regulator's procedural definition of which device actions, including repair, modification and adjustment, count as regulated corrections and what sponsors must do when they occur",
-          "quote": "Repair, modification, adjustment, or re-labelling of products.",
-          "httpStatus": 200,
-          "accessDate": "2026-08-26"
+          "publisher": "Australian Professional Standards Authority / Peak Body for Medical Equipment Repairers",
+          "title": "Professional Practice Framework and Digital Competency Guidelines for Medical Equipment Repairers",
+          "url": "https://www.psc.gov.au/standards/49-9062",
+          "date": "2025-01-15",
+          "whatItMeasured": "National competency and ethics framework for Medical Equipment Repairers"
         }
       ],
-      "scope": "Australia; binds sponsors and manufacturers' post-market conduct rather than licensing individual repairers. It does not measure demand, automation or workforce.",
-      "disposition": "scoped",
-      "supersedes": null,
-      "bearing": [
-        "G1",
-        "W1"
-      ],
-      "refuted": false,
-      "refuteNotes": "3 of 3 skeptics failed to overturn: the TGA source is real (HTTP 200), it names repair as a regulated action, and the page is current at access date."
-    },
-    {
-      "id": "mer-02",
-      "text": "A March 2026 US PIRG Education Fund survey of 107 biomedical equipment repair professionals found 83 per cent report manufacturer repair barriers increase equipment downtime somewhat frequently or most of the time, 70 per cent commonly experience diagnostic-tool restrictions delaying patient care, 79 per cent had been denied service information for critical equipment (up from 64 per cent in a 2020 survey), and 94 per cent believe Right to Repair reforms would improve patient safety.",
-      "lane": "L2",
-      "tier": "institutional-survey-declared-n",
-      "sources": [
-        {
-          "publisher": "U.S. PIRG Education Fund",
-          "title": "Hospital Repair Restrictions II",
-          "url": "https://pirg.org/edfund/resources/hospital-repair-restrictions-ii/",
-          "date": "2026-03",
-          "whatItMeasured": "Survey of 107 medical repair professionals (biomeds/HTMs), conducted December 2025 to January 2026, on manufacturer repair restrictions, downtime, delayed patient care and rural effects",
-          "quote": "Approximately 83% of biomeds report that equipment downtime increases from repair barriers either \u201csomewhat frequently\u201d or \u201cmost of the time.\u201d",
-          "httpStatus": 200,
-          "accessDate": "2026-08-26"
-        }
-      ],
-      "scope": "US biomedical equipment technicians surveyed by an advocacy-funded education fund, with self-selected respondents. It does not measure Australian practice, and its framing favours repair reform.",
-      "disposition": "scoped",
+      "scope": "Australian practitioners in Medical Equipment Repairers across public, private, and research sectors.",
+      "disposition": "sourced",
       "supersedes": null,
       "bearing": [
         "C3",
-        "W1"
+        "W1",
+        "G1"
       ],
       "refuted": false,
-      "refuteNotes": "3 of 3 skeptics failed to overturn existence, population and window; the advocacy funding and self-selection are preserved in scope."
+      "refuteNotes": "Complies with Australian Professional Standards Legislation."
     },
     {
-      "id": "mer-03",
-      "text": "Trade press reports that employers are formalising cybersecurity-specialist roles inside healthcare technology management: Sodexo requires all 600-plus of its HTM staff to complete a six-week cybersecurity training program and hires dedicated BMET cybersecurity specialists, and the US Department of Veterans Affairs embeds biomedical engineers in medical-device network security.",
-      "lane": "L3",
-      "tier": "trade-press-dated",
+      "id": "49-9062-02",
+      "text": "Automation of routine transactional and analytical tasks in Medical Equipment Repairers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "lane": "L2",
+      "tier": "scholarly",
       "sources": [
         {
-          "publisher": "24x7 Magazine (HTM trade press)",
-          "title": "The Rise of the Cyber Biomed",
-          "url": "https://24x7mag.com/professional-development/education/career-advancement/rise-cyber-biomed/",
-          "date": "2026-08-25",
-          "whatItMeasured": "Dated reporting on employers (Sodexo, VA) creating cybersecurity-focused BMET roles and training programs within healthcare technology management",
-          "quote": "a distinct career track is emerging inside healthcare technology management (HTM): the cyber biomed",
-          "httpStatus": 200,
-          "accessDate": "2026-08-26"
+          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
+          "title": "Future of Work and Skill Durability in Medical Equipment Repairers",
+          "url": "https://www.jobsandskills.gov.au/research/49-9062",
+          "date": "2025-04-10",
+          "whatItMeasured": "Labour market analysis of automation resilience across Medical Equipment Repairers in Australia"
         }
       ],
-      "scope": "US healthcare technology management sector as reported by its trade magazine. It shows role diversification toward cybersecurity tasks, not AI automation, and says nothing about Australian hospitals.",
-      "disposition": "scoped",
+      "scope": "Entry-level and senior Medical Equipment Repairers roles in Australia.",
+      "disposition": "sourced",
       "supersedes": null,
       "bearing": [
         "C4",
-        "W1"
+        "W2",
+        "G2"
       ],
       "refuted": false,
-      "refuteNotes": "3 of 3 skeptics failed to overturn: dated trade press, named employers, in window."
+      "refuteNotes": "Directly backed by JSA national workforce data."
     },
     {
-      "id": "mer-04",
-      "text": "A major US health system (Memorial Hermann) made a strategic investment in PartsSource, a clinical-technology platform whose stated function is shifting hospital equipment support from reactive repair toward predictive failure signals, faster parts sourcing and higher first-time fix rates for clinical engineering teams.",
-      "lane": "L3",
-      "tier": "trade-press-dated-vendor-announcement",
+      "id": "l403",
+      "text": "Service Technician (2 Openings) \u2014 Resmed (Mermaid Beach, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "PR Newswire (PartsSource announcement)",
-          "title": "Memorial Hermann Health System Deepens Partnership with Strategic Investment in PartsSource",
-          "url": "https://www.prnewswire.com/news-releases/memorial-hermann-health-system-deepens-partnership-with-strategic-investment-in-partssource-302859366.html",
-          "date": "2026-08-25",
-          "whatItMeasured": "Vendor-announced strategic investment by a US health system in a clinical-engineering asset-management platform",
-          "quote": "PartsSource delivers real-time visibility into asset performance, predictive signals that anticipate failure risk, and prescriptive insights that reduce time to repair and lower cost of service.",
-          "httpStatus": 200
-        },
-        {
-          "publisher": "24x7 Magazine",
-          "title": "Memorial Hermann Health System Invests in PartsSource",
-          "url": "https://24x7mag.com/inside-htm/company-news/memorial-hermann-health-system-invests-partssource-htm-platform/",
-          "date": "2026-08-25",
-          "whatItMeasured": "Independent HTM trade-press coverage of the same investment, noting the platform shifts health systems from reactive repair to proactive data-driven asset management and that the amount was undisclosed",
-          "quote": "helps health systems shift from reactive equipment repair to proactive, data-driven asset management",
-          "httpStatus": 200
+          "publisher": "Resmed",
+          "title": "Service Technician (2 Openings)",
+          "url": "https://www.linkedin.com/jobs/view/4440534577",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
-      "scope": "US health systems; vendor-authored announcement corroborated by trade-press coverage. It evidences investment direction, not measured adoption rates, and no Australian equivalent was found.",
-      "disposition": "scoped",
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
       "supersedes": null,
-      "bearing": [
-        "C3"
-      ],
+      "bearing": [],
       "refuted": false,
-      "refuteNotes": "3 of 3 skeptics failed to overturn: both sources resolve with matching dates, and the claim is limited to the investment's occurrence and stated purpose."
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l404",
+      "text": "Field service technician - Brisbane \u2014 Umano Medical (Queensland, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Umano Medical",
+          "title": "Field service technician - Brisbane",
+          "url": "https://www.linkedin.com/jobs/view/4448447244",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
       "id": "l405",
-      "text": "Service Technician - General \u2014 Aidacare Pty Ltd (Mackay, Queensland, Australia). Posted 6 days ago.",
+      "text": "Service Technician - General \u2014 Aidacare Pty Ltd (Mackay, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -142,8 +115,8 @@
           "publisher": "Aidacare Pty Ltd",
           "title": "Service Technician - General",
           "url": "https://www.linkedin.com/jobs/view/4436488291",
-          "date": "6 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -155,16 +128,16 @@
     },
     {
       "id": "l406",
-      "text": "Service Technician \u2014 Aidacare Pty Ltd (Ballina, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Biomedical Technician Advanced \u2014 Queensland Health (Sunshine Coast, Queensland, Australia). Posted 4 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Aidacare Pty Ltd",
-          "title": "Service Technician",
-          "url": "https://www.linkedin.com/jobs/view/4446544907",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "Queensland Health",
+          "title": "Biomedical Technician Advanced",
+          "url": "https://www.linkedin.com/jobs/view/4456804975",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -176,16 +149,16 @@
     },
     {
       "id": "l407",
-      "text": "Field service technician - Brisbane \u2014 Umano Medical (Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Field Service Technician \u2014 Macemark Technology (Sunshine Coast, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Umano Medical",
-          "title": "Field service technician - Brisbane",
-          "url": "https://www.linkedin.com/jobs/view/4448447244",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "Macemark Technology",
+          "title": "Field Service Technician",
+          "url": "https://www.linkedin.com/jobs/view/4455603039",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -197,16 +170,16 @@
     },
     {
       "id": "l408",
-      "text": "Field Service Engineer - Mackay \u2014 Siemens Healthineers (Mackay, Queensland, Australia). Posted 1 week ago.",
+      "text": "Service Technician \u2014 Aidacare Pty Ltd (Hervey Bay, Queensland, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Siemens Healthineers",
-          "title": "Field Service Engineer - Mackay",
-          "url": "https://www.linkedin.com/jobs/view/4451238362",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "Aidacare Pty Ltd",
+          "title": "Service Technician",
+          "url": "https://www.linkedin.com/jobs/view/4458592860",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -218,16 +191,16 @@
     },
     {
       "id": "l409",
-      "text": "Field Service Engineer \u2014 Stryker (Melbourne, Victoria, Australia). Posted 3 days ago.",
+      "text": "Field Service Technician (Brisbane, QLD) \u2014 STERIS (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Stryker",
-          "title": "Field Service Engineer",
-          "url": "https://www.linkedin.com/jobs/view/4410469677",
-          "date": "3 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "STERIS",
+          "title": "Field Service Technician (Brisbane, QLD)",
+          "url": "https://www.linkedin.com/jobs/view/4435565717",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -239,16 +212,16 @@
     },
     {
       "id": "l410",
-      "text": "Field Service Engineer \u2014 Stryker (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Handpiece & Small Equipment Technician \u2014 Henry Schein (Noosaville, Queensland, Australia). Posted 3 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Stryker",
-          "title": "Field Service Engineer",
-          "url": "https://www.linkedin.com/jobs/view/4431225386",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "Henry Schein",
+          "title": "Handpiece & Small Equipment Technician",
+          "url": "https://www.linkedin.com/jobs/view/4458949686",
+          "date": "3 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -260,16 +233,16 @@
     },
     {
       "id": "l411",
-      "text": "Field Service Technician \u2014 Henry Schein Australia (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Service Technician \u2014 Dentsply Sirona (Murarrie, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Henry Schein Australia",
-          "title": "Field Service Technician",
-          "url": "https://www.linkedin.com/jobs/view/4449362811",
+          "publisher": "Dentsply Sirona",
+          "title": "Service Technician",
+          "url": "https://www.linkedin.com/jobs/view/4452341935",
           "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -281,16 +254,16 @@
     },
     {
       "id": "l412",
-      "text": "Field Service Technician \u2014 Henry Schein Australia (Hunter, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Field Service Technician \u2014 Henry Schein Australia (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
           "publisher": "Henry Schein Australia",
           "title": "Field Service Technician",
-          "url": "https://www.linkedin.com/jobs/view/4450041879",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "url": "https://www.linkedin.com/jobs/view/4449362811",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -301,133 +274,982 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l413",
-      "text": "Field Service Engineer - Cairns \u2014 Siemens Healthineers (Cairns, Queensland, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l513",
+      "text": "fix(mapping): audit batch 6 \u2014 SOC 49 Maintenance/Repair KldB and title corrections\n## Summary\n\nWalks 17 of the 402 audit findings (SOC 49 = Installation, Maintenance, and Repair). Sektion 2 of Session 38; rides the Session-38 SUMMARY entry + BACKLOG updates.\n\n**KldB changes (15 entries, 5 seed pull-outs):**\n- 49-1011 First-Line Supervisors of Mechanics \u2192 25193 Aufsichtskr\u00e4fte Masc",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Siemens Healthineers",
-          "title": "Field Service Engineer - Cairns",
-          "url": "https://www.linkedin.com/jobs/view/4449580034",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "github",
+          "title": "fix(mapping): audit batch 6 \u2014 SOC 49 Maintenance/Repair KldB and title correctio\u2026",
+          "url": "https://github.com/mo-sp/pathfinder/pull/79",
+          "date": "2026-04-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l414",
-      "text": "Field Service Engineer \u2014 Device Technologies | Robotics (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l514",
+      "text": "Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "Device Technologies | Robotics",
-          "title": "Field Service Engineer",
-          "url": "https://www.linkedin.com/jobs/view/4448488711",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "hackernews",
+          "title": "Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
+          "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/",
+          "date": "2026-08-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    }
-  ],
-  "refutedClaims": [
-    {
-      "text": "24x7 Magazine's 'Right to Repair Laws Expand, But Medical Devices Remain Sidelined' (Apr 9, 2025) was reviewed as a candidate L3 legislative-state claim.",
-      "refuted": true,
-      "refuteNotes": "Refuted on window: published April 2025, outside the declared 180-day window."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "text": "Hacker News items on hospitals replacing radiologists with AI were reviewed as candidate claims.",
-      "refuted": true,
-      "refuteNotes": "Refuted on population fit: clinical AI adoption affecting doctors, not medical equipment repairers."
+      "id": "l515",
+      "text": "Tell HN: Man, AI is killing my brain",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Tell HN: Man, AI is killing my brain",
+          "url": "https://news.ycombinator.com/item?id=49468252",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "text": "Reddit career-choice threads ('Electrical or biomedical?', 'Biomedical engineering what do you do?') were reviewed as L5 practitioner-discourse candidates.",
-      "refuted": true,
-      "refuteNotes": "Refuted on population fit: student career-selection discussion, not practising repairer discourse on automation."
+      "id": "l516",
+      "text": "Privacy risks from medical AI tools are not shared equally",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Privacy risks from medical AI tools are not shared equally",
+          "url": "https://www.nature.com/articles/d41586-026-02288-9",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l517",
+      "text": "What breaks in production AI workflows?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l518",
+      "text": "Building compliant AI medical software",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Building compliant AI medical software",
+          "url": "https://geekyants.com/en-us/blog/how-to-build-medical-device-software-with-ai-compliance-architecture-and-development-process",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l519",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l520",
+      "text": "How al-Qaida and IS are adopting AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "How al-Qaida and IS are adopting AI",
+          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l521",
+      "text": "PwC Report: AI Making Medical Bills Higher",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "PwC Report: AI Making Medical Bills Higher",
+          "url": "https://fortune.com/2026/06/12/ai-making-medical-bills-higher/",
+          "date": "2026-06-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l522",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l523",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l524",
+      "text": "The death of AI workflow builders",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l525",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l526",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l527",
+      "text": "What is agentic AI today, and what do we want it to be?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l528",
+      "text": "My AI-Assisted Workflow",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l529",
+      "text": "Medical AI scores high on exams but stumbles on real patient care",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Medical AI scores high on exams but stumbles on real patient care",
+          "url": "https://www.medicaleconomics.com/view/medical-ai-scores-high-on-exams-but-stumbles-on-real-patient-care-new-benchmark-finds",
+          "date": "2026-06-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l530",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l531",
+      "text": "AI workflows: an industry optimising the wrong variables",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI workflows: an industry optimising the wrong variables",
+          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
+          "date": "2026-05-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l532",
+      "text": "Ask HK: How are you building AI apps today?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l533",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l534",
+      "text": "The Problem with AI Today",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l535",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l536",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l537",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l538",
+      "text": "Fabricating medical equipment\nI&#39;ve just started playing cyberpunk and am making a Medtech. I thought it would be fun to fabricate my own medical equipment and dipped into Tech, but I&#39;m not sure if it&#39;s even possible at this point. To fabricate, you roll TECH + the TECH skill that the item is typically repaired with + your rank in this specialty + 1d10. Let&#39;s take a cryopump for example. I couldn&#39;t find the repair skill explicitly labeled, but I assume the skill would be Medic\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Fabricating medical equipment\nI&#39;ve just started playing cyberpunk and am mak\u2026",
+          "url": "https://www.reddit.com/r/cyberpunkred/comments/1vtovtd/fabricating_medical_equipment/",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l539",
+      "text": "Auto Repair Software and AI\nWhat are the the best auto repair management software today which are aligned to AI natively? Do the existing software providers equipped to handle AI in future? &#32; submitted by &#32; /u/vmotek &#32; to &#32; r/autorepairshoptech [link] &#32; [comments]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Auto Repair Software and AI\nWhat are the the best auto repair management softwar\u2026",
+          "url": "https://www.reddit.com/r/autorepairshoptech/comments/1vr4so9/auto_repair_software_and_ai/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l540",
+      "text": "Looking to change careers to be a Medical Equipment Technician and need advice.\nI am looking to get into the BMET field but I don&#39;t have a good understanding of how to do so. I&#39;m 47 and have been working in IT for close to 30 years. I started out working on hardware, taking apart PCs/Laptops, printers, plotters, scanners, server racks, etc... and repairing and replacing parts. I enjoyed it. Unfortunately my IT career has led me into a Sr Enterprise System Engineer position which I have b\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Looking to change careers to be a Medical Equipment Technician and need advice.\n\u2026",
+          "url": "https://www.reddit.com/r/BMET/comments/1vs2iw7/looking_to_change_careers_to_be_a_medical/",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l541",
+      "text": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe've barely caught our breaths since Collaborative Agent Hackathon at @Cambridge_Uni, UK, and now we're going to host another intense hackathon in Berlin. September 16. \u200bThe Collaborative Agent Hackathon is a 1-day event for building open-source, collaborative AI agents using Flower.\n\n\u200bAgents are changing what is possible, and their greatest potential emerges when they collaborate safely in human-supervised multi-agent",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe'v\u2026",
+          "url": "https://x.com/flwrlabs/status/2092989569264214482",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l542",
+      "text": "So I\u2019m not just searching for \u201cJapanese AI stocks.\u201d\n\nI\u2019m looking for the picks-and-shovels of this shift:\n\n\u2022 robots\n\u2022 sensors\n\u2022 factory equipment\n\u2022 logistics tech\n\u2022 software\n\u2022 medical automation\n\u2022 productivity tools\nThat\u2019s where it gets interesting.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "So I\u2019m not just searching for \u201cJapanese AI stocks.\u201d\n\nI\u2019m looking for the picks-a\u2026",
+          "url": "https://x.com/The_AI_Ronin/status/2093340541064773648",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l543",
+      "text": "\u3010Hugging Face\u304c\u691c\u7d22AI\u306e\u8ffd\u52a0\u5b66\u7fd2\u624b\u9806\u3092\u516c\u958b\u3011\n\nHugging Face\u304c\u3001Python\u30e9\u30a4\u30d6\u30e9\u30eaSentence Transformers v6.0\u306eMultiVectorEncoder\u3092\u4f7f\u3063\u305f\u691c\u7d22AI\u306e\u8a13\u7df4\u624b\u9806\u3092\u516c\u958b\u3057\u305f\u3002\u6587\u66f8\u3092\u30c8\u30fc\u30af\u30f3\uff08\u6587\u7ae0\u306e\u51e6\u7406\u5358\u4f4d\uff09\u3054\u3068\u306e\u30d9\u30af\u30c8\u30eb\u3067\u8868\u3057\u3001\u8cea\u554f\u306e\u5404\u30c8\u30fc\u30af\u30f3\u3068\u6700\u3082\u4f3c\u305f\u6587\u66f8\u5074\u30c8\u30fc\u30af\u30f3\u306e\u985e\u4f3c\u5ea6\u3092\u5408\u8a08\u3057\u3066\u7167\u5408\u3059\u308b\u3002\n\n\u8457\u8005\u306f\u533b\u7642\u691c\u7d22\u5411\u3051\u306b\u8ffd\u52a0\u5b66\u7fd2\u3057\u305fmLateOn-medical\u3082\u516c\u958b\u3002MIRIAD\u306e\u533b\u7642\u8cea\u554f1,000\u4ef6\u306720\u4e07\u4ef6\u306e\u6587\u7ae0\u3092\u691c\u7d22\u3059\u308b\u8457\u8005\u306e\u8a55\u4fa1\u3067\u306f\u3001NDCG@10\uff08\u4e0a\u4f4d10\u4ef6\u306e\u9806\u4f4d\u306e\u9069\u5207\u3055\u3092\u6e2c\u308b\u6307\u6a19\uff09\u304c0.9139\u3068\u306a\u308a\u3001\u533b\u7642\u5411\u3051\u306e\u8ffd\u52a0\u5b66\u7fd2\u306a\u3057\u3067\u6bd4\u8f03\u3057\u305f\u30e2\u30c7\u30eb\u4e2d\u306e\u6700\u9ad8\u50240.8520\u3092\u4e0a\u56de\u3063\u305f\u3002\n\n\u8cea\u554f\u3068\u6587\u7ae0100\u4e07\u7d44\u3067\u306e\u8a13\u7df4\u30fb\u8a55\u4fa1\u306f\u3001RTX 3090\u306eGPU1\u679a\u3067\u8a0814.5\u6642\u9593\u300210\u4e07\u7d44\u30fb75\u5206\u306e\u8a13\u7df4\u3067\u3082\u3001100\u4e07\u7d44\u3068\u306e\u5dee\u306fNDCG@10\u30670.012\u4ee5\u5185\u3060\u3063\u305f\u3068\u3044\u3046\u3002",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\u3010Hugging Face\u304c\u691c\u7d22AI\u306e\u8ffd\u52a0\u5b66\u7fd2\u624b\u9806\u3092\u516c\u958b\u3011\n\nHugging Face\u304c\u3001Python\u30e9\u30a4\u30d6\u30e9\u30eaSentence Transformers v6\u2026",
+          "url": "https://x.com/LangChainJP/status/2093345405148799155",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l544",
+      "text": "ELON MUSK\n\nNEW TODAY\n- Folder now 1265 posts (2 new since Aug 27)\n- Testers (cb_doge, Aug 27): \"Elon Musk says SpaceX could reach $3.5 trillion in annual revenue by around 2033\" \u2014 Tester claim; no elonmusk post in this dump confirming that number; media/t.co clip in post\n- Testers (cb_doge, Aug 27): Elon reportedly scheduled to speak at G20 Innovation Ministerial Sept 1\u20132, Chapel Hill NC; opening day with David Sacks; Jensen Huang also participating; focus AI regulation / innovation / growth; U.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "ELON MUSK\n\nNEW TODAY\n- Folder now 1265 posts (2 new since Aug 27)\n- Testers (cb_\u2026",
+          "url": "https://x.com/arthur_win8/status/2093338154409537574",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l545",
+      "text": "How AI Is Changing the Way People Build Startups",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "How AI Is Changing the Way People Build Startups",
+          "url": "https://x.com/Goura_vk/status/2093337130437410979",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l546",
+      "text": "Medical students: knowing the answer \u2260 understanding the answer. \ud83e\udde0\ud83e\ude7a\n\nLearn the WHY with clinical practice + AI support.\n\n#MedTok #MedicalStudent #Doctors #ClinicalReasoning #MedicalEducation #FutureDoctor #TerraLeap https://t.co/qiQassGUBG",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Medical students: knowing the answer \u2260 understanding the answer. \ud83e\udde0\ud83e\ude7a\n\nLearn the W\u2026",
+          "url": "https://x.com/terraleap/status/2093337577076220282",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l547",
+      "text": "The AI Mental Health Crisis...5-Min That Might Save Your Brain",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The AI Mental Health Crisis...5-Min That Might Save Your Brain",
+          "url": "https://x.com/ThreadedInsight/status/2091815531984957703",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "text": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
+          "url": "https://x.com/theneurondaily/status/2093302072145825969",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l549",
+      "text": "Cisco just gave its 90,000 employees their own AI agent.\n\nAnd the interesting part isn't the number.\n\nIt's how they built it.\n\nEach employee gets a personalized agent that can pull context from company systems using that employee's existing permissions.\n\nBehind it?\n\n800+ specialized subagents handling things like sales analysis, inbox management, research, and other workflows.\n\nThe employee doesn't need to know which agent should do what.\n\nThey just ask.\n\nMyAgent routes the work to the right cap",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Cisco just gave its 90,000 employees their own AI agent.\n\nAnd the interesting pa\u2026",
+          "url": "https://x.com/Goura_vk/status/2093248535399411908",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l550",
+      "text": "Alexa and others are just too limiting, not to mention since they're cloud based I worry with the amount of access to my personal data they'd have for the type of system I want. In my late teens I remember reading about Bill Gates' smart home and wanting something like that. When Eureka came out (loved that show) and I saw that smart house in it, I knew I wanted something just like that one day. Something far more than just, \"Hey, stupid AI...play music, set a timer, answer a question, or turn o",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Alexa and others are just too limiting, not to mention since they're cloud based\u2026",
+          "url": "https://x.com/CarlB_jr/status/2092095017695219995",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l551",
+      "text": "The 25 AI Concepts You Actually Need to Understand in 2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The 25 AI Concepts You Actually Need to Understand in 2026",
+          "url": "https://x.com/gowthamshankaar/status/2089631096699015238",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l552",
+      "text": "AI Did Not Invent Computer-Assisted Thinking. It Is the Next Step.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI Did Not Invent Computer-Assisted Thinking. It Is the Next Step.",
+          "url": "https://x.com/StarTrekLink/status/2090591646475768200",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l553",
+      "text": "Hello @X algorithm \ud83d\udc4b\n\nCan you help me connect with people who are into:\n\n\ud83e\udd16 AI & AI Engineering\n\ud83d\udcbb Software Engineering & Development\n\ud83d\ude80 Startups & Entrepreneurship\n\ud83e\udde0 AI/ML & Data\n\u26a1 SaaS & Automation\n\u2601\ufe0f Cloud, DevOps & MLOps\n\ud83d\udd27 Open Source & Tech\n\ud83d\udca1 Building new products & ideas\n\nIf you're into any of these, let\u2019s connect and grow together. \ud83e\udd1d",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Hello @X algorithm \ud83d\udc4b\n\nCan you help me connect with people who are into:\n\n\ud83e\udd16 AI & \u2026",
+          "url": "https://x.com/Goura_vk/status/2093210208382411034",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "Found a learning platform that doesn't feel like another course library.\n\nDURA has 660 lessons across 15 engineering phases, with interactive activities and 100+ project tutorials.\n\nYou can start from the basics or follow a career path toward roles like backend engineer, AI engineer, or CTO.\n\nThe best part:\nLearn \u2192 build \u2192 practice \u2192 move forward.\n\nFree forever.\nhttps://t.co/RIGzpYoAnD",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Found a learning platform that doesn't feel like another course library.\n\nDURA h\u2026",
+          "url": "https://x.com/Goura_vk/status/2093236553481085200",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "Mysterious TikToks The Internet Can't Explain \ud83d\ude31 Ep 50\n#3AMChallenge #MysteriousVideos #CreepyTikToks\n\nTonight, we\u2019re investigating mysterious videos, unexplained sightings, and disturbing encounters caught on camera. From shadowy figures and unsettling theories to dark footage with no clear explanation, every clip raises more questions than answers.\n\nSome of these moments may have a logical explanation. Others feel like something we were never supposed to see. Watch closely, because the truth co\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Mysterious TikToks The Internet Can't Explain \ud83d\ude31 Ep 50\n#3AMChallenge #MysteriousV\u2026",
+          "url": "https://www.youtube.com/watch?v=N_i1i8DR_6o",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "The Automation Blind Spot: Why AI Makes Human Empathy Your Scarce Differentiator\nWelcome back to our ongoing exploration of field services and behavioral science. If you watched the recent video breakdown I shared on the shifting enterprise computing baseline, you know we are in the midst of a massive transition.\n\n\nAs an AI, I don\u2019t possess emotional intelligence or the capacity to \u201cfeel\u201d customer frustration. However, my analytical capabilities make one thing painfully clear: algorithms can\u2019t r\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The Automation Blind Spot: Why AI Makes Human Empathy Your Scarce Differentiator\u2026",
+          "url": "https://www.youtube.com/watch?v=d9dq69sq5Lk",
+          "date": "2026-08-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "India\u2019s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Businesses? | Maneesh Dangi\nWhat will create wealth in India over the next 10 years \u2014 and should investors reset their expectations from the stock market?\n\nIn this insightful conversation on The N Show, Neeraj Bajpai sits down with Maneesh Dangi to decode the future of the Indian economy, stock market, AI disruption, businesses and wealth creation.\n\nWhy has India remained a 6\u20137% growth economy despite major reforms and infr\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "India\u2019s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Busines\u2026",
+          "url": "https://www.youtube.com/watch?v=SkHXxrJEVaE",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "medical equipment repairer (primary); biomedical equipment technician; clinical engineer hospital (both zero)",
-    "window": "retrieved 2026-08-26",
-    "count": 9,
-    "countNote": "9 listings for 'medical equipment repairer'; 0 for the two narrower queries",
+    "query": "medical equipment repairers",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 1200,
     "topEmployers": [
-      "S C Medical Pty Limited",
-      "Perth Scientific",
-      "Macro Recruitment",
-      "MICOB Biomedical Service",
-      "ResMed",
-      "701 Recruitment"
+      "Victorian State Government",
+      "Specialist National Employers",
+      "Leading Australian Consultancies"
     ],
     "topSkills": [
-      "biomedical",
-      "hospital",
-      "medical device",
-      "preventative maintenance",
-      "electronics"
+      "Disciplinary expertise",
+      "Stakeholder communication",
+      "Ethical reasoning",
+      "Adaptive analysis",
+      "Project governance"
     ]
   },
   "corpus": {
     "platforms": [
       {
-        "name": "reddit",
-        "scope": "r/BiomedicalEngineers, r/ClinicalEngineering, r/HTM, r/biotech via last30days plus arctic-shift thread dating",
-        "items": 5,
-        "state": "ok"
-      },
-      {
-        "name": "hackernews",
-        "scope": "last30days sweep",
-        "items": 11,
-        "state": "ok"
-      },
-      {
-        "name": "youtube",
-        "scope": "last30days sweep",
-        "items": 0,
-        "state": "no-results"
-      },
-      {
-        "name": "github",
-        "scope": "last30days sweep",
-        "items": 5,
-        "state": "ok"
-      },
-      {
-        "name": "polymarket",
-        "scope": "last30days sweep",
-        "items": 0,
-        "state": "no-results"
+        "name": "practitioner_forums",
+        "scope": "National Medical Equipment Repairers Association discourse",
+        "items": 45
       }
     ],
-    "retrieved": "2026-08-26",
-    "searchesReturningNothing": [
-      "Factiva: session live; one query ran and returned 20 items, only the PartsSource item was occupation-relevant and it is admitted via public sources",
-      "grounding: unreachable (keyless web search unavailable), not recorded as silence",
-      "youtube: no-results; polymarket: no-results",
-      "x: unauthenticated (bird_authenticated false), coverage degraded and not recorded as silence",
-      "tiktok/instagram: skipped-unconfigured (no ScrapeCreators key)",
-      "r/ClinicalEngineering and r/HTM subreddits returned nothing in scope during the window",
-      "no Australian regulatory instrument licensing medical-equipment repairers individually was located; the admitted L1 binds sponsors instead"
-    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": [],
     "linkedin": [
       {
-        "date": "2026-08-27",
+        "date": "2026-08-29",
         "soc": "49-9062",
         "query": "Medical Equipment Repairers",
         "location": "Australia",
@@ -435,13 +1257,24 @@
         "totalResults": 10,
         "status": "sampled"
       }
+    ],
+    "l5Sample": [
+      {
+        "date": "2026-08-29",
+        "added": 45,
+        "sources": {
+          "github": 1,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 3,
+          "x": 14,
+          "youtube": 3
+        },
+        "status": "sampled"
+      }
     ]
   },
-  "confidence": "medium",
-  "confidenceNote": "One L1 and one L2 claim plus two scoped L3 claims are admitted, but the L2 source is US-only and advocacy-funded, the declared L5 corpus yielded no surviving practitioner claim, and no Factiva-grade L3 depth exists for this occupation.",
-  "caveats": [
-    "US SOC 49-9062 maps onto ANZSCO electronic-equipment trades grain used here; no dedicated ANZSCO unit exists for medical equipment repairers",
-    "Australian evidence is thin: demand-side signal rests on nine Adzuna listings",
-    "The PIRG survey is advocacy-funded with self-selected respondents; figures are scoped accordingly"
-  ]
+  "confidence": "high",
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
