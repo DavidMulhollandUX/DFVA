@@ -1,12 +1,12 @@
 {
-  "updated": "2026-08-26T18:03:26Z",
+  "updated": "2026-08-28T14:14:47Z",
   "loops": {
     "spec_loop": {
       "last_run": "2026-08-22",
       "features_generated": 22
     },
     "dev_loop": {
-      "last_run": "2026-08-26T18:03:26Z",
+      "last_run": "2026-08-28T14:14:47Z",
       "features_built": 16
     },
     "research_loop": {
