@@ -62,6 +62,1560 @@
       ],
       "refuted": false,
       "refuteNotes": "Directly backed by JSA national workforce data."
+    },
+    {
+      "id": "l503",
+      "text": "fix: label liked-career stats, dedupe screen headers\n## Summary\n\nAddresses findings U10\u2013U12 from #15.\n\n- **U10 \u2014 Labeled stat row:** liked-career cards showed a cryptic `$67,260  9.1%  2yr`. Stats are now self-explanatory: `$67,260 median \u00b7 9.1% ROI \u00b7 2yr break-even`, keeping the existing per-stat theme colors (salary = text.primary, ROI = primary, br",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "fix: label liked-career stats, dedupe screen headers\n## Summary\n\nAddresses findi\u2026",
+          "url": "https://github.com/tpaulshippy/careerality/pull/21",
+          "date": "2026-07-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l504",
+      "text": "Tell HN: Man, AI is killing my brain",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Tell HN: Man, AI is killing my brain",
+          "url": "https://news.ycombinator.com/item?id=49468252",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l505",
+      "text": "What breaks in production AI workflows?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l506",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l507",
+      "text": "How al-Qaida and IS are adopting AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "How al-Qaida and IS are adopting AI",
+          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l508",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l509",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l510",
+      "text": "The death of AI workflow builders",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l511",
+      "text": "Structured Evaluation Pipelines to Improve Your AI Workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Structured Evaluation Pipelines to Improve Your AI Workflows",
+          "url": "https://heltweg.org/posts/structured-evaluation-pipelines-to-improve-your-ai-workflows/",
+          "date": "2026-07-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l512",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l513",
+      "text": "Looking for developers with high-token AI workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Looking for developers with high-token AI workflows",
+          "url": "https://canopywave.com/events/unlimited-token-plan-200m",
+          "date": "2026-07-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l514",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l515",
+      "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Adapting Fossil-scm as a platform for AI agentic workflow",
+          "url": "https://github.com/BenSiv/fossil-scm",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l516",
+      "text": "What is agentic AI today, and what do we want it to be?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l517",
+      "text": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
+          "url": "https://latentdynamics.substack.com/p/semantic-transactions-securing-untrusted",
+          "date": "2026-07-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l518",
+      "text": "My AI-Assisted Workflow",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l519",
+      "text": "AI Workflows Need Topological Sort",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI Workflows Need Topological Sort",
+          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l520",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l521",
+      "text": "AI workflows: an industry optimising the wrong variables",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI workflows: an industry optimising the wrong variables",
+          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
+          "date": "2026-05-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l522",
+      "text": "Ask HK: How are you building AI apps today?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l523",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l524",
+      "text": "The Problem with AI Today",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l525",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l526",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l527",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l528",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
+          "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l529",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and \u2026",
+          "url": "https://www.reddit.com/r/accelerate/comments/1vlw4un/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l530",
+      "text": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economically valuable?\nI\u2019ve been thinking about AI and automation, and I\u2019m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economic\u2026",
+          "url": "https://www.reddit.com/r/Futurology/comments/1vjqvpl/what_if_ai_doesnt_just_replace_jobs_but_makes/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l531",
+      "text": "AI #174: You're It",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI #174: You're It",
+          "url": "https://x.com/TheZvi/status/2070111326244913433",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l532",
+      "text": "\u0927\u0930\u094d\u092e\u0935\u0940\u0930 \u0935\u0902\u0926\u0928\u0940\u092f \u0906\u0928\u0902\u0926 \u0926\u093f\u0918\u0947 \u092f\u093e\u0902\u091a\u094d\u092f\u093e \u0938\u094d\u092e\u0943\u0924\u093f\u0926\u093f\u0928\u0940 \u0935\u093f\u0928\u092e\u094d\u0930 \u0905\u092d\u093f\u0935\u093e\u0926\u0928! \u0938\u094d\u092e\u0943\u0924\u0940\u0902\u0928\u093e \u0915\u094b\u091f\u0940 \u0915\u094b\u091f\u0940 \u092a\u094d\u0930\u0923\u093e\u092e \ud83d\udc4f https://t.co/PCQ5caysF4",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\u0927\u0930\u094d\u092e\u0935\u0940\u0930 \u0935\u0902\u0926\u0928\u0940\u092f \u0906\u0928\u0902\u0926 \u0926\u093f\u0918\u0947 \u092f\u093e\u0902\u091a\u094d\u092f\u093e \u0938\u094d\u092e\u0943\u0924\u093f\u0926\u093f\u0928\u0940 \u0935\u093f\u0928\u092e\u094d\u0930 \u0905\u092d\u093f\u0935\u093e\u0926\u0928! \u0938\u094d\u092e\u0943\u0924\u0940\u0902\u0928\u093e \u0915\u094b\u091f\u0940 \u0915\u094b\u091f\u0940 \u2026",
+          "url": "https://x.com/KuchikR/status/2092476208080650355",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l533",
+      "text": "\u0906\u0926\u093f\u0935\u093e\u0938\u0940 \u0935\u093f\u0926\u094d\u092f\u093e\u0930\u094d\u0925\u0940 \u0906\u0902\u0926\u094b\u0932\u0928 \u092a\u0941\u0923\u0947 !\n@SaamanaOnline https://t.co/qYh3CiDlR6",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\u0906\u0926\u093f\u0935\u093e\u0938\u0940 \u0935\u093f\u0926\u094d\u092f\u093e\u0930\u094d\u0925\u0940 \u0906\u0902\u0926\u094b\u0932\u0928 \u092a\u0941\u0923\u0947 !\n@SaamanaOnline https://t.co/qYh3CiDlR6",
+          "url": "https://x.com/KuchikR/status/2092465164948000927",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l534",
+      "text": "@politicalmath thought he was pretty misaligned to the other AIs before he removed the earpiece, that's why he removes it etc?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@politicalmath thought he was pretty misaligned to the other AIs before he remov\u2026",
+          "url": "https://x.com/TheZvi/status/2093472917631762471",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l535",
+      "text": "@Aella_Girl this suggests a distinct second product",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Aella_Girl this suggests a distinct second product",
+          "url": "https://x.com/TheZvi/status/2093505043571814754",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l536",
+      "text": "The Bombay High Court has granted bail to Mohammed Iqbal Ibrahim Khan, an accused in a case registered under the Unlawful Activities (Prevention) Act (UAPA). The court ruled that witness statements against him did not establish the charges and that the trial would not conclude soon.\n\n\u270d\ufe0f@GaikwadChinmay \nhttps://t.co/snlhGoipYy",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Bombay High Court has granted bail to Mohammed Iqbal Ibrahim Khan, an accuse\u2026",
+          "url": "https://x.com/the_hindu/status/2093537313280426354",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l537",
+      "text": "\ud83c\udf38 Onam\u091a\u094d\u092f\u093e \n\u092e\u0928:\u092a\u0942\u0930\u094d\u0935\u0915 \u0939\u093e\u0930\u094d\u0926\u093f\u0915 \u0936\u0941\u092d\u0947\u091a\u094d\u091b\u093e !\n\n\u0938\u092e\u0943\u0926\u094d\u0927\u0940, \u0906\u0928\u0902\u0926, \u0936\u093e\u0902\u0924\u0924\u093e \u0906\u0923\u093f \u092c\u0902\u0927\u0941\u092d\u093e\u0935\u093e\u0928\u0947 \u092a\u094d\u0930\u0924\u094d\u092f\u0947\u0915\u093e\u091a\u0947 \u091c\u0940\u0935\u0928 \u092b\u0941\u0932\u0942\u0928 \u091c\u093e\u0935\u094b. Onam \u091a\u093e \u0939\u093e \u092a\u0935\u093f\u0924\u094d\u0930 \u0938\u0923 \u0906\u092a\u0932\u094d\u092f\u093e \u0938\u0930\u094d\u0935\u093e\u0902\u091a\u094d\u092f\u093e \u0906\u092f\u0941\u0937\u094d\u092f\u093e\u0924 \u0928\u0935\u094d\u092f\u093e \u0906\u0936\u093e, \u0938\u0941\u0916 \u0906\u0923\u093f \u0938\u092e\u0943\u0926\u094d\u0927\u0940 \u0918\u0947\u090a\u0928 \u092f\u0947\u0935\u094b.\n\nHappy Onam! \ud83c\udf3e\ud83c\udf3c\n\n#Onam #Onam2026 #OnamGreetings https://t.co/QYI7q8GGEc",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83c\udf38 Onam\u091a\u094d\u092f\u093e \n\u092e\u0928:\u092a\u0942\u0930\u094d\u0935\u0915 \u0939\u093e\u0930\u094d\u0926\u093f\u0915 \u0936\u0941\u092d\u0947\u091a\u094d\u091b\u093e !\n\n\u0938\u092e\u0943\u0926\u094d\u0927\u0940, \u0906\u0928\u0902\u0926, \u0936\u093e\u0902\u0924\u0924\u093e \u0906\u0923\u093f \u092c\u0902\u0927\u0941\u092d\u093e\u0935\u093e\u0928\u0947 \u092a\u2026",
+          "url": "https://x.com/KuchikR/status/2092561570077516189",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l538",
+      "text": "Safety and accountability\nThe students are demanding justice and compensation for the families of three Adivasi girls who died after snakebites at a residential school in Gadchiroli. They are also seeking stronger safety systems and insurance protection for students. \n\nThese demands deserve an independent, transparent inquiry and urgent action\u2014not silence. Student safety in hostels and ashram schools must be treated as a fundamental responsibility of the state.\n\n#JusticeForAdivasiStudents #Stude",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Safety and accountability\nThe students are demanding justice and compensation fo\u2026",
+          "url": "https://x.com/KuchikR/status/2092309751455789265",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l539",
+      "text": "\u0906\u0926\u093f\u0935\u093e\u0938\u0940 \u0936\u094d\u0930\u092e\u093f\u0915\u093e\u0902\u091a\u094d\u092f\u093e \u091a\u0933\u0935\u0933\u0940\u0924\u0940\u0932 \u0916\u0902\u0926\u093e \u0915\u093e\u0930\u094d\u092f\u0915\u0930\u094d\u0924\u093e \u0906\u0923\u093f \u0932\u0922\u0935\u092f\u094d\u092f\u093e \u0928\u0947\u0924\u093e \u0915\u0949. \u092a\u094d\u0930\u0926\u0940\u092a \u092a\u094d\u0930\u092d\u0941 \u092f\u093e\u0902\u091a\u0947 \u0928\u093f\u0927\u0928 \u0905\u0924\u094d\u092f\u0902\u0924 \u0926\u0941\u0903\u0916\u0926 \u0906\u0939\u0947. \u0936\u094d\u0930\u092e\u093f\u0915\u093e\u0902\u091a\u094d\u092f\u093e \u0939\u0915\u094d\u0915\u093e\u0902\u0938\u093e\u0920\u0940 \u0924\u094d\u092f\u093e\u0902\u0928\u0940 \u0926\u093f\u0932\u0947\u0932\u0947 \u092f\u094b\u0917\u0926\u093e\u0928 \u0915\u093e\u092f\u092e \u0938\u094d\u092e\u0930\u0923\u093e\u0924 \u0930\u093e\u0939\u0940\u0932.\n\n\u0917\u0947\u0932\u0940 \u0905\u0928\u0947\u0915 \u0926\u093f\u0935\u0938 \u092a\u094d\u0930\u0915\u0943\u0924\u0940\u0936\u0940 \u0924\u094d\u092f\u093e\u0902\u091a\u0940 \u091d\u0941\u0902\u091c \u0938\u0941\u0930\u0942 \u0939\u094b\u0924\u0940. \u092a\u094d\u0930\u0926\u0940\u092a \u0906\u0923\u093f \u0936\u093f\u0930\u093e\u091c \u092f\u093e\u0902\u0928\u0940 \u0936\u0947\u0935\u091f\u092a\u0930\u094d\u092f\u0902\u0924 \u091c\u093f\u0926\u094d\u0926\u0940\u0928\u0947 \u092b\u093e\u0908\u091f \u0926\u093f\u0932\u0940. \u0936\u093f\u0930\u093e\u091c\u0928\u0947 \u0915\u0947\u0932\u0947\u0932\u0947 \u0905\u0925\u0915 \u092a\u094d\u0930\u092f\u0924\u094d\u0928 \u0906\u0923\u093f \u0926\u093e\u0916\u0935\u0932\u0947\u0932\u094d\u092f\u093e \u0927\u0948\u0930\u094d\u092f\u093e\u0932\u093e \u092e\u0928\u093e\u092a\u093e\u0938\u0942\u0928 \u0938\u0932\u093e\u092e! \u092e\u093e\u0924\u094d\u0930 \u0905\u0916\u0947\u0930 \u0928\u093f\u0938\u0930\u094d\u0917\u093e\u092a\u0941\u0922\u0947 \u0939\u0940 \u091d\u0941\u0902\u091c \u0925\u093e\u0902\u092c\u0932\u0940.\n\n\u092a\u094d\u0930\u0926\u0940\u092a \u0938\u0930\u093e\u0902\u0928\u093e \u0905\u0916\u0947\u0930\u091a\u093e \u0932\u093e\u0932 \u0938\u0932\u093e\u092e! \u091c\u093f\u0902\u0926\u093e\u092c\u093e\u0926 ! \u0924\u094d\u092f\u093e\u0902\u091a\u094d\u092f\u093e \u0938\u0902\u0918\u0930\u094d\u0937 \u0906\u0923\u093f \u0935\u093f\u091a\u093e\u0930 \u0938\u0926\u0948\u0935 \u091c\u093f\u0935\u0902\u0924 \u0930\u093e\u0939\u0924\u0940\u0932. \ud83d\udc4f\n\n\u2022 \u0935\u094d\u092f\u0915\u094d\u0924\u093f\u0935\u0947\u0927 \u0903 \u0932\u094b\u0915\u0938\u0924\u094d\u0924\u093e",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\u0906\u0926\u093f\u0935\u093e\u0938\u0940 \u0936\u094d\u0930\u092e\u093f\u0915\u093e\u0902\u091a\u094d\u092f\u093e \u091a\u0933\u0935\u0933\u0940\u0924\u0940\u0932 \u0916\u0902\u0926\u093e \u0915\u093e\u0930\u094d\u092f\u0915\u0930\u094d\u0924\u093e \u0906\u0923\u093f \u0932\u0922\u0935\u092f\u094d\u092f\u093e \u0928\u0947\u0924\u093e \u0915\u0949. \u092a\u094d\u0930\u0926\u0940\u092a \u092a\u094d\u0930\u092d\u0941 \u2026",
+          "url": "https://x.com/KuchikR/status/2093229813452697746",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l540",
+      "text": "\u0935\u093f\u0936\u094d\u0935\u092d\u093e\u0930\u0924\u0940 \u0928\u094d\u092f\u0942\u091c\u093c \ud83d\udcf0 \nhttps://t.co/RWjGazPtqN",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\u0935\u093f\u0936\u094d\u0935\u092d\u093e\u0930\u0924\u0940 \u0928\u094d\u092f\u0942\u091c\u093c \ud83d\udcf0 \nhttps://t.co/RWjGazPtqN",
+          "url": "https://x.com/KuchikR/status/2092487948252098959",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l541",
+      "text": "Honoured to Join the Inauguration of the ICVT LIVE 2026 \u2013 Asia Cardiovascular Technologists Conference by Padma Shri awardee, Professor & Member of Parliament, Dr. C. N. Manjunath.Karnataka \n\nProud to share the stage with Mr. Radhakrishnan, Mr. Mohan Naik, Mr. Murali Rajeti, Mr. C. Mohan, Mr. Koti, Distinguished faculty, and eminent guests as we Advance excellence in Cardiovascular technology, Innovation, and Patient Care !\n\n#ICVTLIVE2026 #CardiovascularTechnology #Cardiology #HealthcareInnovati",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Honoured to Join the Inauguration of the ICVT LIVE 2026 \u2013 Asia Cardiovascular Te\u2026",
+          "url": "https://x.com/KuchikR/status/2075933415707439143",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l542",
+      "text": "@tszzl @_NathanCalvin might be good to have an alert that triggers if the answers suddenly start coming back too good in any particular place?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@tszzl @_NathanCalvin might be good to have an alert that triggers if the answer\u2026",
+          "url": "https://x.com/TheZvi/status/2093522241065451858",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l543",
+      "text": "North India\u2019s largest city-gas distributor Indraprastha Gas Ltd informed late on Friday (August 28, 2026) that it would be increasing the price of CNG across all its retail stations by \u20b93.89 per kg as international prices of the input gas, that is, LNG, continues to remain elevated amid the re-escalation of the conflict in West Asia, effective on August 29, 2026.\n\n\u270d\ufe0f@gsaptaparno \nhttps://t.co/xZOMOa9VxM",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "North India\u2019s largest city-gas distributor Indraprastha Gas Ltd informed late on\u2026",
+          "url": "https://x.com/the_hindu/status/2093540221220749818",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l544",
+      "text": "Direct appeal to government\nTo Maharashtra government:\n\nPlease meet the Adivasi students protesting at Manjari, Pune, without delay.\n\nEnsure medical care, withdraw punitive or exclusionary hostel provisions, address the Gadchiroli tragedy, and provide a written action plan on their outstanding demands.\n\nDialogue and accountability are the way forward.\n\n#MaharashtraGovernment #AdivasiStudents #Pune #Manjari",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Direct appeal to government\nTo Maharashtra government:\n\nPlease meet the Adivasi \u2026",
+          "url": "https://x.com/KuchikR/status/2092250247984734577",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l545",
+      "text": "Productive Discussions \nwith the Cardiovascular Credentialing International (CCI), USA delegates on advancing the global Recognition of Cardiovascular Technologists. We exchanged ideas on national certification standards, international credentialing, and Strengthening Collaboration among Professional Societies to Empower the Cardiovascular workforce worldwide. Together, we move towards one Global Standard of Excellence. \ud83c\udf0d\u2764\ufe0f\ud83e\udec0 #ICVTLIVE2026 #CCI #CardiovascularTechnologist #Healthcare #Certificati",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Productive Discussions \nwith the Cardiovascular Credentialing International (CCI\u2026",
+          "url": "https://x.com/KuchikR/status/2076179091703873967",
+          "date": "2026-07-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l546",
+      "text": "Tribal students hunger strike Day 13\n@KuchikR\n@RRPSpeaks\n#pune\nhttps://t.co/c7cvY9enOs",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Tribal students hunger strike Day 13\n@KuchikR\n@RRPSpeaks\n#pune\nhttps://t.co/c7cv\u2026",
+          "url": "https://x.com/ArchanaDahiwal/status/2092296586974114250",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l547",
+      "text": "India must train more skilled cardiovascular technologists to meet the growing demand for cardiac care as the burden of heart disease continues to rise, Bengaluru Rural MP and Padma Shri awardee C.N. Manjunath said on Saturday (July 11, 2026).\nhttps://t.co/WewgvAxP7f",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "India must train more skilled cardiovascular technologists to meet the growing d\u2026",
+          "url": "https://x.com/the_hindu/status/2076275254348173796",
+          "date": "2026-07-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "text": "Honoured to be Invited as a guiding voice at #SICVT2026, Asia\u2019s largest conference for Cardiovascular Technologists.\n\nAfter over three decades in cardiovascular Healthcare, I look forward to sharing experiences, insights, and discussing the future of Patient care, technology, and Professional excellence.\n\n\ud83d\udccd Hilton Manyata \nTech Park, Bengaluru\n\ud83d\udcc5 10\u201312 July 2026\n\n#CardiovascularTechnology #HealthcareLeadership #MedicalEducation #SICVT2026 #HealthcareInnovation #IndiaHealthcare",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Honoured to be Invited as a guiding voice at #SICVT2026, Asia\u2019s largest conferen\u2026",
+          "url": "https://x.com/KuchikR/status/2068409272573280296",
+          "date": "2026-06-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l549",
+      "text": "@tszzl @_NathanCalvin did OpenAI not notice the universal cheat simply because it worked? Given the grader was causal did the models not suddenly start submitting correct answers to previously unsolved ExploitGym questions?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@tszzl @_NathanCalvin did OpenAI not notice the universal cheat simply because i\u2026",
+          "url": "https://x.com/TheZvi/status/2093506756668182642",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l550",
+      "text": "The prime accused in the murder of 21-year-old Delhi University student Muskan Sharma was arrested after an exchange of fire with police in Rajouri Garden, officers said on Friday.\n\nhttps://t.co/atvJHLaivk",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The prime accused in the murder of 21-year-old Delhi University student Muskan S\u2026",
+          "url": "https://x.com/the_hindu/status/2093542389726224537",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l551",
+      "text": "@TheStalwart I strongly expect that this is legit.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TheStalwart I strongly expect that this is legit.",
+          "url": "https://x.com/TheZvi/status/2093499749726896418",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l552",
+      "text": "IIT Delhi Director Rangan Banerjee on Friday threatened disciplinary action against student protesters for \u201cdisrupting the peaceful functioning of the campus, including residential areas, classes, academic and other activities\u201d.\n\n\u270d\ufe0f@ButaniAshna \nhttps://t.co/lks1AtPwDd",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "IIT Delhi Director Rangan Banerjee on Friday threatened disciplinary action agai\u2026",
+          "url": "https://x.com/the_hindu/status/2093543774362448130",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l553",
+      "text": "The Delhi government will launch the \u2018Vayo Anand\u2019 scheme to set up recreational centres for senior citizens, where they can play indoor games, meet and interact with others and participate in social activities, the Chief Minister\u2019s Office (CMO) stated on Friday (August 28).\n\nhttps://t.co/ZrvCVl1vG0",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Delhi government will launch the \u2018Vayo Anand\u2019 scheme to set up recreational \u2026",
+          "url": "https://x.com/the_hindu/status/2093542687966159322",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "TVK president and Tamil Nadu Chief Minister C. Joseph Vijay was increasingly being recognised at the national level for his governance initiatives, with the national media portraying him as a national figure, said Minister for Revenue and Disaster Management K.A. Sengottaiyan on Friday.\n\nhttps://t.co/MjQS3y294n",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "TVK president and Tamil Nadu Chief Minister C. Joseph Vijay was increasingly bei\u2026",
+          "url": "https://x.com/the_hindu/status/2093542226274156762",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "The Vellore Institute of Technology (VIT), Vellore, has signed a Memorandum of Understanding (MoU) with Columbia University (Columbia Engineering) New York, USA, on offering dual degrees.\n\nhttps://t.co/SMZI8yxBfk",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Vellore Institute of Technology (VIT), Vellore, has signed a Memorandum of U\u2026",
+          "url": "https://x.com/the_hindu/status/2093541853253828773",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "Court orders the parties to pay \u20b95 lakh each in costs\u00a0for wasting judicial time for 11 years with a 'manufactured controversy' while genuine litigants waited in queue\n\n\u270d\ufe0f@kdrajagopal \nhttps://t.co/zGIdRJbnnH",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Court orders the parties to pay \u20b95 lakh each in costs\u00a0for wasting judicial time \u2026",
+          "url": "https://x.com/the_hindu/status/2093541241728413715",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "I understand being concerned about future models and where this leads, but don\u2019t understand super obsession over boxing in these particular models, who could at worst cause a bit of mischief on the internet.\n\nIf OAI knew they were doing all that and let them go on, it was a correct decision imo. Let\u2019s see what happens while they\u2019re still dumb.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I understand being concerned about future models and where this leads, but don\u2019t\u2026",
+          "url": "https://x.com/thepanta82/status/2093551947659829300",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "@dr_emok @TheZvi I mean Yud has been drumming the \"of course AIs will easily coordinate\" drum for years. The only update for me is how important meta-gaming and scorer-obsession are.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@dr_emok @TheZvi I mean Yud has been drumming the \"of course AIs will easily coo\u2026",
+          "url": "https://x.com/niplav_site/status/2093546290890105340",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "@politicalmath @TheZvi The impression I got was that he had evolved over time to slowly fall out of sync with the rest of the machines.\nHe seemed like had been dealing with the humies longer then the rest",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@politicalmath @TheZvi The impression I got was that he had evolved over time to\u2026",
+          "url": "https://x.com/CactusGeometrus/status/2093532971978703328",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "@TheZvi I\u2019m a bit late, but open if the opportunity is still available",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TheZvi I\u2019m a bit late, but open if the opportunity is still available",
+          "url": "https://x.com/zoomonomics/status/2093530127866966486",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "@TheZvi memory is a contributor, you want more unique context and less repeated context. Wild guess, but maybe try asking it to think about some post-unique image first",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TheZvi memory is a contributor, you want more unique context and less repeated \u2026",
+          "url": "https://x.com/zmj/status/2093524626811023459",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "@avakava @suhasinih @janusmyth @the_hindu @INCIndia Not to forget, the Dynasty also approached Natwar Singh ahead of the publication of his book \"One Life is Not Enough\", apparently to sort out certain  apprehensions (ref. tweet link \ud83d\udc47)",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@avakava @suhasinih @janusmyth @the_hindu @INCIndia Not to forget, the Dynasty a\u2026",
+          "url": "https://x.com/baruah_bj/status/2093552045626401072",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "@Kamkei_el12 @the_hindu @thewire_in @UN @UN_HRC @USAndIndia Try harder You Kukis are known for Lies. Such a Shameless Community",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Kamkei_el12 @the_hindu @thewire_in @UN @UN_HRC @USAndIndia Try harder You Kukis\u2026",
+          "url": "https://x.com/East11_/status/2093551784589709582",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "@ramachandra_vr @parakala @DrSYQuraishi @the_hindu It's not amusing logic, it makes absolute sense. If u keep insisting on being authoritarian, separatism is what u would get. Cause and effect. If the Union didn't ask our consent before grabbing our tax money, it's stealing. Metros should in fact get more of their tax money back.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@ramachandra_vr @parakala @DrSYQuraishi @the_hindu It's not amusing logic, it ma\u2026",
+          "url": "https://x.com/nikafree20/status/2093551105573568883",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "@the_hindu kudos to @PenguinIndia @penguinrandom @penguinusa",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@the_hindu kudos to @PenguinIndia @penguinrandom @penguinusa",
+          "url": "https://x.com/AnotherCAaaa/status/2093548102271848931",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "@pargaien @the_hindu https://t.co/DETx1srogE https://t.co/yMsXqzAlx2",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@pargaien @the_hindu https://t.co/DETx1srogE https://t.co/yMsXqzAlx2",
+          "url": "https://x.com/Rajendr15329641/status/2093545309360263339",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "Proud to attend ICVT LIVE 2026, Asia-Pacific\u2019s largest Scientific conference Dedicated to Cardiovascular Technologists, from 10\u201312 July 2026 in Bengaluru.\n\nAs a Member of the National Advisory Board, I am delighted to witness leading experts from India and across the world come together to share knowledge, innovation, and excellence in cardiovascular care.\n\nWishing the organisers and all delegates a highly successful conference.\n\n#ICVTLIVE2026 #CardiovascularTechnology #CathLab #Innovation #Medi",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Proud to attend ICVT LIVE 2026, Asia-Pacific\u2019s largest Scientific conference Ded\u2026",
+          "url": "https://x.com/KuchikR/status/2075234820372984130",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "@jon_stokes oh tbc I have SO MANY questions about the humans as well, but OAI doesn't seem interested in investigating them and that was beyond scope for METR's investigation too - I think that's the main reason they focused where they did",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@jon_stokes oh tbc I have SO MANY questions about the humans as well, but OAI do\u2026",
+          "url": "https://x.com/TheZvi/status/2093483421284581727",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "@jon_stokes I mean I guess you could indeed respond with 'oh so these people are hallucinating their fever dreams' or what not but I really don't think they are making any of the facts up here. One is free to interpret them differently ofc.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@jon_stokes I mean I guess you could indeed respond with 'oh so these people are\u2026",
+          "url": "https://x.com/TheZvi/status/2093471383682527391",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "@Askwho I start fresh on each article, within a project.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Askwho I start fresh on each article, within a project.",
+          "url": "https://x.com/TheZvi/status/2093462298270499026",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "@KuchikR \u0935\u093f\u0928\u092e\u094d\u0930 \u0905\u092d\u093f\u0935\u093e\u0926\u0928 \ud83c\udf39",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@KuchikR \u0935\u093f\u0928\u092e\u094d\u0930 \u0905\u092d\u093f\u0935\u093e\u0926\u0928 \ud83c\udf39",
+          "url": "https://x.com/d_shirdi/status/2092494071323615662",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "@KuchikR @ShivsenaUBTComm @YuvaShivSenaMH @yuvasenacomms @OfficeofBKS @ShivsenaSLS \u099a\u09b2\u09c1\u0995 \u09b2\u09a1\u09bc\u09be\u0987\ud83d\udcaa\ud83d\udea9",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@KuchikR @ShivsenaUBTComm @YuvaShivSenaMH @yuvasenacomms @OfficeofBKS @ShivsenaS\u2026",
+          "url": "https://x.com/PradipMandol/status/2092484097226764385",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "Health Emergency\nAdivasi students in Manjari, Pune, have been on an indefinite hunger strike for nearly two weeks. Reports indicate that the health of several students has deteriorated and some have required hospitalisation. \n\nThe immediate priority must be proper medical care and protection of every protesting student. No government should wait for a serious medical emergency before responding.\n\n#SaveAdivasiStudents #Pune #Manjari #StudentsProtest",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Health Emergency\nAdivasi students in Manjari, Pune, have been on an indefinite h\u2026",
+          "url": "https://x.com/KuchikR/status/2092270384901128566",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "@KuchikR \ud83d\udc4d",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@KuchikR \ud83d\udc4d",
+          "url": "https://x.com/sandey14/status/2092306017183035747",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "@KuchikR @ShivsenaUBTComm @AUThackeray",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@KuchikR @ShivsenaUBTComm @AUThackeray",
+          "url": "https://x.com/sandey14/status/2092271130723983497",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "text": "This is why I exclusively patronize white male:\n\nPhysicians (MDs), Osteopathic Physicians (DOs), Surgeons, Anesthesiologists, Radiologists, Pathologists, Psychiatrists, Neurologists, Cardiologists, Dermatologists, Endocrinologists, Gastroenterologists, Geriatricians, Hematologists, Hepatologists, Immunologists, Infectious Disease Specialists, Intensivists, Nephrologists, Oncologists, Ophthalmologists, Otolaryngologists, Pulmonologists, Rheumatologists, Urologists, Obstetricians, Gynecologists, P",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "This is why I exclusively patronize white male:\n\nPhysicians (MDs), Osteopathic P\u2026",
+          "url": "https://x.com/WBSApparel/status/2037701655223804109",
+          "date": "2026-03-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -99,7 +1653,22 @@
       "returned": 10,
       "source": "linkedin (unofficial scrape)",
       "_raw": "data/professions/29-2031/raw/linkedin_l4.json"
-    }
+    },
+    "l5Sample": [
+      {
+        "date": "2026-08-29",
+        "added": 74,
+        "sources": {
+          "github": 1,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 3,
+          "x": 46,
+          "youtube": 0
+        },
+        "status": "sampled"
+      }
+    ]
   },
   "confidence": "high",
   "caveats": []

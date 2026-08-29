@@ -63,6 +63,678 @@
       ],
       "refuted": false,
       "refuteNotes": "Directly backed by JSA national workforce data."
+    },
+    {
+      "id": "l503",
+      "text": "Administrative Structure Integration \u2014 Organization, Employees, Settings, Profile & Virtual Office\n# Administrative Structure Integration Audit\n\nParent roadmap: #306\nFull system audit: #307\nRelated security PR: #304\n\n## Purpose\n\nEnsure the administrative structure is not an isolated page. It must become the operational backbone for every organization/company inside Blumark24 OS.\n\nThis includes:",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Administrative Structure Integration \u2014 Organization, Employees, Settings, Profil\u2026",
+          "url": "https://github.com/blumark24/Blumark24-OS/issues/308",
+          "date": "2026-06-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l504",
+      "text": "Beyond Compliance: Why Behavioral Health Documentation Is Becoming the Foundation of Value-Based Care\nBehavioral health organizations are entering a period where behavioural health documentation is no longer treated as a back-office administrative requirement. It is becoming the operational backbone of value-based care performance, reimbursement integrity, risk management, and long-term sustainabili",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Beyond Compliance: Why Behavioral Health Documentation Is Becoming the Foundatio\u2026",
+          "url": "https://github.com/digitalhealthservices/behavioral-health-ehr-software/issues/4",
+          "date": "2026-05-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l505",
+      "text": "Majority of U.S..Majority of U.S. workers support an AI wealth fund",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Majority of U.S..Majority of U.S. workers support an AI wealth fund",
+          "url": "https://www.cnbc.com/2026/07/12/majority-of-us-workers-support-ai-fund-amid-tech-layoffs-survey.html",
+          "date": "2026-07-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l506",
+      "text": "I'm Tired of Talking to AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "I'm Tired of Talking to AI",
+          "url": "https://orchidfiles.com/im-tired-of-ai-generated-answers/",
+          "date": "2026-05-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l507",
+      "text": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
+          "url": "https://github.com/iOfficeAI/OfficeCLI",
+          "date": "2026-07-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l508",
+      "text": "Mark Zuckerberg Wanted AI to Replace Meta Workers- Plan Collapsed Within Months",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Mark Zuckerberg Wanted AI to Replace Meta Workers- Plan Collapsed Within Months",
+          "url": "https://www.ibtimes.com/mark-zuckerberg-reportedly-wanted-ai-replace-meta-workers-plan-collapsed-within-months-3806823",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l509",
+      "text": "Open source AI must win",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Open source AI must win",
+          "url": "https://opensourceaimustwin.com/?share=v2",
+          "date": "2026-06-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l510",
+      "text": "AI-proof? Younger workers desert the digital world for traditional crafts",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI-proof? Younger workers desert the digital world for traditional crafts",
+          "url": "https://www.theguardian.com/money/2026/aug/27/ai-proof-jobs-traditional-crafts",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l511",
+      "text": "Local AI needs to be the norm",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Local AI needs to be the norm",
+          "url": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
+          "date": "2026-05-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l512",
+      "text": "Amazon workers under pressure to up their AI usage are making up tasks",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Amazon workers under pressure to up their AI usage are making up tasks",
+          "url": "https://www.fastcompany.com/91541586/amazon-workers-pressured-to-up-ai-use-extraneous-tasks",
+          "date": "2026-05-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l513",
+      "text": "More than 6 out of 10 people turn to AI for psychological support",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "More than 6 out of 10 people turn to AI for psychological support",
+          "url": "https://www.axa.com/en/press/press-releases/2026-mind-health-report",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l514",
+      "text": "Big Tech Has Suddenly Flipped on the AI Jobs Wipeout Scenario",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Big Tech Has Suddenly Flipped on the AI Jobs Wipeout Scenario",
+          "url": "https://www.wsj.com/tech/ai/ai-workers-tech-ceos-job-losses-afc71e15",
+          "date": "2026-07-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l515",
+      "text": "Samsung chip workers will get an average $340k bonus as AI profits soar",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Samsung chip workers will get an average $340k bonus as AI profits soar",
+          "url": "https://qz.com/samsung-chip-workers-bonus-ai-profits-052126",
+          "date": "2026-05-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l516",
+      "text": "I believe there are entire companies right now under AI psychosis",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "I believe there are entire companies right now under AI psychosis",
+          "url": "https://twitter.com/mitchellh/status/2055380239711457578",
+          "date": "2026-05-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l517",
+      "text": "\ud83c\udf0d \u4e4c\u5179\u522b\u514b\u65af\u5766\u4e24\u5934\u4e0b\u6ce8\u7684AI\u7ad9\u961f\u5b66\n\u26a1 \u5357\u534e\u65e9\u62a58\u670828\u65e5\u62a5\u9053\uff0c\u4e4c\u5179\u522b\u514b\u65af\u5766\u5df2\u5411\u7f8e\u56fd\u6b63\u5f0f\u9012\u4ea4\u5916\u4ea4\u7167\u4f1a\uff0c\u7533\u8bf7\u52a0\u5165\u7f8e\u56fd\u4e3b\u5bfc\u7684AI\u4f9b\u5e94\u94fe\u8054\u76dfPax Silica\u3002\u8fd9\u4efd\u7167\u4f1a\u4e8e\u4e0a\u5468\u9012\u4ea4\uff0c\u800c\u5c31\u5728\u4e00\u4e2a\u6708\u524d\uff0c\u5854\u4ec0\u5e72\u521a\u521a\u52a0\u5165\u4e2d\u56fd\u53d1\u8d77\u7684\u4e16\u754c\u4eba\u5de5\u667a\u80fd\u5408\u4f5c\u7ec4\u7ec7Waico\u3002\u9a7b\u7f8e\u5927\u4f7fSidikov\u5728\u534e\u76db\u987f\u8868\u6001\uff1a\u73b0\u5728\u8f6e\u5230\u7f8e\u56fd\u786e\u8ba4\u4e86\uff0c\u6211\u4eec\u968f\u65f6\u53ef\u4ee5\u7b7e\u3002\n\n\ud83d\udcb0 \u4e2d\u4e9a\u56fd\u5bb6\u7684\u5904\u5883\u5f88\u76f4\u63a5\uff1aAI\u7b97\u529b\u3001\u82af\u7247\u3001\u6807\u51c6\u4e09\u6837\u90fd\u4e0d\u5728\u81ea\u5df1\u624b\u91cc\uff0c\u534e\u76db\u987f\u548c\u5317\u4eac\u90fd\u5728\u63a8\u5404\u81ea\u7684\u9635\u8425\u65b9\u6848\uff0c\u9009\u8fb9\u610f\u5473\u7740\u62ff\u5230\u8d44\u6e90\u4e5f\u610f\u5473\u7740\u6811\u654c\u3002\u4e4c\u5179\u522b\u514b\u65af\u5766\u7684\u6253\u6cd5\u662f\u628a\u4e24\u8fb9\u95e8\u90fd\u6572\u5f00\uff0c\u7528\u52a0\u5165\u6743\u6362\u53d6\u8bae\u4ef7\u7a7a\u95f4\u3002Sidikov\u7684\u8bf4\u6cd5\u662f\uff1a\u5404\u56fd\u5e94\u5f53\u6709\u673a\u4f1a\u53c2\u4e0e\u4efb\u4f55\u5f62\u5f0f\u7684\u56fd\u9645\u5408\u4f5c\uff0c\u7ed9\u53c2\u4e0e\u5212\u7ea2\u7ebf\u53ea\u4f1a\u9002\u5f97\u5176\u53cd\u3002\n\n\ud83e\uddd0 \u771f\u6b63\u7684\u770b\u70b9\u5728\u534e\u76db\u987f\u600e\u4e48\u63a5\u3002Pax Silica\u662f\u7f8e\u56fdAI\u4f9b\u5e94\u94fe\u7684\u65d7\u8230\u5021\u8bae\uff0c\u4e00\u4e2a\u521a\u52a0\u5165\u4e2d\u56fd\u9635\u8425\u7684\u56fd\u5bb6\u7533\u8bf7\u8fdb\u95e8\uff0c\u63a5\u53d7\u5b83\u7b49\u4e8e\u627f\u8ba4\u9635\u8425\u8fb9\u754c\u53ef\u4ee5\u6e17\u900f\uff0c\u62d2\u7edd\u5b83\u5219\u5750\u5b9e\u4e86\u9635\u8425\u94c1\u5e55\u3002\u4e00\u4e2a\u6708\u524dWaico\u5148\u6536\u4e0b\u4e86\u5854\u4ec0\u5e72\uff0c\u7403\u73b0\u5728\u5728\u7f8e\u56fd\u56fd\u52a1\u9662\u624b\u91cc\u3002\n\n\ud83d\udd2e \u5c0f\u56fd\u4e24\u5934\u4e0b\u6ce8\u4e0d\u65b0\u9c9c\uff0c\u65b0\u9c9c\u7684\u662fAI\u65f6\u4ee3\u8fd9\u79cd\u4e0b\u6ce8\u7b2c\u4e00\u6b21\u6709\u4e86\u5236\u5ea6\u5316\u7684\u8f7d\u4f53\uff1aWaico\u548cPax Silica\u4e24\u4e2a\u540d\u5b57\u3001\u4e24\u5957\u6807\u51c6\u3001\u4e24\u4e2a\u4f9b\u5e94\u94fe\u5708\u3002\u4e2d\u4e9a\u4e94\u56fd\u63a5\u4e0b\u6765\u9010\u4e2a\u8868\u6001\u7684",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83c\udf0d \u4e4c\u5179\u522b\u514b\u65af\u5766\u4e24\u5934\u4e0b\u6ce8\u7684AI\u7ad9\u961f\u5b66\n\u26a1 \u5357\u534e\u65e9\u62a58\u670828\u65e5\u62a5\u9053\uff0c\u4e4c\u5179\u522b\u514b\u65af\u5766\u5df2\u5411\u7f8e\u56fd\u6b63\u5f0f\u9012\u4ea4\u5916\u4ea4\u7167\u4f1a\uff0c\u7533\u8bf7\u52a0\u5165\u7f8e\u56fd\u4e3b\u5bfc\u7684AI\u4f9b\u5e94\u94fe\u8054\u76dfPax Silica\u3002\u8fd9\u2026",
+          "url": "https://x.com/BirdTechVision/status/2093570636215967855",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l518",
+      "text": "@BirdTechVision \u4f3c\u4e4e\u9019\u662fAI agent\u53ef\u4ee5\u505a\u7684\u4e8b\u60c5\u5462",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@BirdTechVision \u4f3c\u4e4e\u9019\u662fAI agent\u53ef\u4ee5\u505a\u7684\u4e8b\u60c5\u5462",
+          "url": "https://x.com/AtomLuiz75101/status/2093563972196958514",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l519",
+      "text": "@BirdTechVision \u4e4c\u5179\u522b\u514b\u65af\u5766\u5728\u7f8e\u4e2d\u4e4b\u95f4\u6447\u6446\uff0c\u4f46\u52a0\u5165Pax AI\u4f9b\u5e94\u94fe\u662f\u5355\u5411\u7684\u8d4c\u6ce8 ... , \u4e00\u65e6\u7ed1\u5b9a\u7f8e\u56fd\u6280\u672f\u6808\uff0c\u5f88\u96be\u518d\u5207\u6362\u3002",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@BirdTechVision \u4e4c\u5179\u522b\u514b\u65af\u5766\u5728\u7f8e\u4e2d\u4e4b\u95f4\u6447\u6446\uff0c\u4f46\u52a0\u5165Pax AI\u4f9b\u5e94\u94fe\u662f\u5355\u5411\u7684\u8d4c\u6ce8 ... , \u4e00\u65e6\u7ed1\u5b9a\u7f8e\u56fd\u6280\u672f\u6808\uff0c\u5f88\u96be\u518d\u5207\u6362\u3002",
+          "url": "https://x.com/jaimesolis/status/2093577192470900827",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l520",
+      "text": "EP02. From Steam Engines to AI: Why Technology Keeps Redistributing Wealth",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "EP02. From Steam Engines to AI: Why Technology Keeps Redistributing Wealth",
+          "url": "https://x.com/BirdTechVision/status/2080268518634004746",
+          "date": "2026-07-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l521",
+      "text": "@Jackleecong \u5b89\u6392\u7684\u660e\u660e\u767d\u767d\ud83d\ude02",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Jackleecong \u5b89\u6392\u7684\u660e\u660e\u767d\u767d\ud83d\ude02",
+          "url": "https://x.com/BirdTechVision/status/2093581682326606072",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l522",
+      "text": "@BirdTechVision \u662f\u7684\uff0c\u5f88\u591a\u65f6\u5019\uff0c\u6211\u90fd\u4e0d\u4f1a\u4e89\u8bba\u5c31\u662f\u8fd9\u4e2a\u539f\u56e0\u3002\u8981\u4e0d\u76f4\u63a5\u4e3e\u62a5\uff0c\u8981\u4e0d\u76f4\u63a5\u7ebf\u4e0b\u5e72\u67b6\u3002\u8ba8\u8bba\u53ea\u6709\u5927\u5bb6\u540c\u9891\u7684\u624d\u6709\u610f\u4e49\uff0c\u7279\u522b\u662f\u9488\u5bf9\u8111\u5b50\u4e0d\u6e05\u723d\u7684\u3002\u68cd\u5b50\u66f4\u6709\u6548\u3002",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@BirdTechVision \u662f\u7684\uff0c\u5f88\u591a\u65f6\u5019\uff0c\u6211\u90fd\u4e0d\u4f1a\u4e89\u8bba\u5c31\u662f\u8fd9\u4e2a\u539f\u56e0\u3002\u8981\u4e0d\u76f4\u63a5\u4e3e\u62a5\uff0c\u8981\u4e0d\u76f4\u63a5\u7ebf\u4e0b\u5e72\u67b6\u3002\u8ba8\u8bba\u53ea\u6709\u5927\u5bb6\u540c\u9891\u7684\u624d\u6709\u610f\u4e49\uff0c\u7279\u522b\u662f\u9488\u5bf9\u8111\u5b50\u4e0d\u6e05\u723d\u7684\u3002\u68cd\u2026",
+          "url": "https://x.com/gpsma2025/status/2093571459562066341",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l523",
+      "text": "@BirdTechVision \u65e9\u5416\u2728",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@BirdTechVision \u65e9\u5416\u2728",
+          "url": "https://x.com/MeeMicro/status/2093570931201389037",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l524",
+      "text": "@BirdTechVision \u4e16\u4e0a\u53ea\u6709\u5927\u82f1\u6295\u964d\u4eea\u5f0f\u6bd4\u56fd\u5e86\u8fd8\u9686\u91cd  \u5317\u975e\u548c\u9999\u6e2f  \u4ed6\u4eec\u90fd\u5f53\u56fd\u5e86\u641e",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@BirdTechVision \u4e16\u4e0a\u53ea\u6709\u5927\u82f1\u6295\u964d\u4eea\u5f0f\u6bd4\u56fd\u5e86\u8fd8\u9686\u91cd  \u5317\u975e\u548c\u9999\u6e2f  \u4ed6\u4eec\u90fd\u5f53\u56fd\u5e86\u641e",
+          "url": "https://x.com/fatparrotdaily/status/2093570520801485149",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l525",
+      "text": "@Jackleecong \ud83e\udd23 \u5c31\u5f53\u662f\u5427",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Jackleecong \ud83e\udd23 \u5c31\u5f53\u662f\u5427",
+          "url": "https://x.com/BirdTechVision/status/2093583375944572935",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l526",
+      "text": "@X_X_MAN_ \u4e0d\u9519\u4e0d\u9519\ud83d\udc4d\ud83d\udc4d\ud83d\udc4d",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@X_X_MAN_ \u4e0d\u9519\u4e0d\u9519\ud83d\udc4d\ud83d\udc4d\ud83d\udc4d",
+          "url": "https://x.com/BirdTechVision/status/2093579395302597031",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l527",
+      "text": "@jaimesolis \u4e24\u5f3a\u4e4b\u95f4\u96be\u4e3a\u5c0f\u3002\ud83e\udd23",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@jaimesolis \u4e24\u5f3a\u4e4b\u95f4\u96be\u4e3a\u5c0f\u3002\ud83e\udd23",
+          "url": "https://x.com/BirdTechVision/status/2093578539912008141",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l528",
+      "text": "@gpsma2025 \u8fd9\u4e2a\u4e16\u754c\u5f52\u6839\u7ed3\u5e95\u662f\u7269\u7406\u7684\uff0c\u6279\u5224\u7684\u6b66\u5668\u4e0d\u80fd\u4ee3\u66ff\u6b66\u5668\u7684\u6279\u5224\u3002\ud83d\ude02",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@gpsma2025 \u8fd9\u4e2a\u4e16\u754c\u5f52\u6839\u7ed3\u5e95\u662f\u7269\u7406\u7684\uff0c\u6279\u5224\u7684\u6b66\u5668\u4e0d\u80fd\u4ee3\u66ff\u6b66\u5668\u7684\u6279\u5224\u3002\ud83d\ude02",
+          "url": "https://x.com/BirdTechVision/status/2093570904282341710",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l529",
+      "text": "@LP001001001 \u8e52\u8dda\u8d77\u6b65\u9636\u6bb5",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@LP001001001 \u8e52\u8dda\u8d77\u6b65\u9636\u6bb5",
+          "url": "https://x.com/BirdTechVision/status/2093570513264066818",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l530",
+      "text": "@fatparrotdaily \u662f\u7684\u3002BBC\u8fd9\u4e9b\u82cd\u8747\u53ea\u662f\u76ef\u7740\u4eba\u8840\u9992\u5934\u3002",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@fatparrotdaily \u662f\u7684\u3002BBC\u8fd9\u4e9b\u82cd\u8747\u53ea\u662f\u76ef\u7740\u4eba\u8840\u9992\u5934\u3002",
+          "url": "https://x.com/BirdTechVision/status/2093570166147760298",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l531",
+      "text": "AI Disruption In Entry-Level Hiring: Why Job Openings Are Shrinking And How Workers Can Stay...\nArtificial Intelligence is rapidly transforming the workforce, and entry-level hiring is among the biggest areas being impacted.\n\nIn this episode of WORKERS.COM Staffing Pulse: Insights From The Frontline, we examine how AI is changing hiring practices, reducing entry-level job openings, and reshaping the future of work.\n\nAcross industries such as Manufacturing, Logistics, Administrative Support, Cust\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Disruption In Entry-Level Hiring: Why Job Openings Are Shrinking And How Work\u2026",
+          "url": "https://www.youtube.com/watch?v=xT1eIyK3jUI",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l532",
+      "text": "Why AI Might Not Replace Your Job After All\nSince ChatGPT\u2019s debut, AI has been framed as everything from a world-changing breakthrough to an existential threat. Companies are pouring hundreds of billions into the space as commentators debate potentially utopian and dystopian futures. But researchers like Princeton\u2019s Arvind Narayanan argue the reality may be more incremental \u2013 a powerful technology that will reshape work and productivity over time, without overturning the basic limits of economic\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Why AI Might Not Replace Your Job After All\nSince ChatGPT\u2019s debut, AI has been f\u2026",
+          "url": "https://www.youtube.com/watch?v=EGskcTRnLJ0",
+          "date": "2026-03-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l533",
+      "text": "Legal Support in the Age of AI Disruption - In Conversation\nThe legal industry is undergoing significant change. AI adoption is accelerating, client expectations are rising, and law firms are facing growing challenges around support staff retention, retirement risk, service delivery, and operational efficiency.\n\nIn this fireside chat, BigHand experts Eric Wangler, Duska Frink and Ben Jennings discuss key findings from the latest legal industry research report, including:\n\n- 95% of firms reportin\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Legal Support in the Age of AI Disruption - In Conversation\nThe legal industry i\u2026",
+          "url": "https://www.youtube.com/watch?v=7TuBHFWSwOY",
+          "date": "2026-07-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l534",
+      "text": "AI Isn\u2019t Taking Every Job Yet \u2014 The Hidden Opportunity Gap\nAI is not replacing most workers all at once. The real story is the widening gap between what AI can already do and what businesses are actually willing or able to deploy.\n\nIn this video, George Goldman Human Author breaks down the difference between theoretical AI capability and observed real-world adoption, showing why the largest disruption may first appear in knowledge work rather than in traditional assumptions about automation.\n\nYo\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Isn\u2019t Taking Every Job Yet \u2014 The Hidden Opportunity Gap\nAI is not replacing m\u2026",
+          "url": "https://www.youtube.com/watch?v=KZZWqsHjaY4",
+          "date": "2026-04-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -100,7 +772,22 @@
       "returned": 10,
       "source": "linkedin (unofficial scrape)",
       "_raw": "data/professions/43-1011/raw/linkedin_l4.json"
-    }
+    },
+    "l5Sample": [
+      {
+        "date": "2026-08-29",
+        "added": 32,
+        "sources": {
+          "github": 2,
+          "grounding": 0,
+          "hackernews": 12,
+          "reddit": 0,
+          "x": 14,
+          "youtube": 4
+        },
+        "status": "sampled"
+      }
+    ]
   },
   "confidence": "high",
   "caveats": []

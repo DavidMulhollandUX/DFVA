@@ -1368,6 +1368,132 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "Design arch-skills, civilization stages, and believable learning groups\n## What changes\n\nDefine and consolidate the Glantri Skill-system product/rule architecture: conceptual/navigation domains, concrete learnable skills and specializations, civilization-relative availability, access, explicit skill relationships, believable shared-training histories, and the qualitativ\n## Decision-ready design evidence (read-only wave, baseline `b519ef0aca66aae5b110f9a37c91e6eefff08c6f`)\n\n### Recommendation in \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Design arch-skills, civilization stages, and believable learning groups\n## What \u2026",
+          "url": "https://github.com/vidarhald-cpu/glantri-app/issues/258",
+          "date": "2026-08-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "Add teacher training, and fix the degrees it exposed\nNjia held **zero** teacher training colleges against roughly 35 nationally, while teaching is one of the largest destinations for a C-grade learner. The gap was real. So is the reason to be careful filling it.\n\n## The numbers that had to come with it\n\n| | |\n|---|---|\n| Teachers TSC employs | **431,8\n### <span aria-hidden=\"true\">\u2705</span> Deploy Preview for *njiacareerpathways* ready!\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Add teacher training, and fix the degrees it exposed\nNjia held **zero** teacher \u2026",
+          "url": "https://github.com/PapaDanico/Njia/pull/46",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please describe.**  \nQualCoder's AI integration could be expanded to include the GWDG SAIA API. Currently, accessing these models (like Gemma 4 31B Instruct) requires manual `config.ini` edits.\n\n**Describe the solution you'd like**  \nWould it be possib\nInteresting. I'm planning a project together with the GWDG that also involves QualCoder, so it's good to see that integrating this service already works. \nCould you investigate \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please des\u2026",
+          "url": "https://github.com/ccbogel/QualCoder/issues/1351",
+          "date": "2026-06-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "Beyond tired of Ai\nIs anyone else having this experience while in nursing school? How are you coping? My classmates are addicted to Ai and use it for all their assignments. We get assigned a few care plans each semester, which we fill out on paper at home. They are our big project for the semester. I work rly hard at my care plans so i can improve my skills. My classmates will come into class the day it\u2019s due and say stuff like \u201cbro i just had chat gpt do it for me, im not gonna spend hours doin\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Beyond tired of Ai\nIs anyone else having this experience while in nursing school\u2026",
+          "url": "https://www.reddit.com/r/StudentNurse/comments/1vyp9na/beyond_tired_of_ai/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "being part of the first class that had ai through all of high school and then college hit different\ni saw something recently about how kids starting college now are basically the first group that went through their entire four years of high school alongside ai tools and wow did that hit home. i started 9th grade right around when chatgpt exploded. by sophomore year using it to brainstorm topics or break down confusing readings was totally normal. teachers knew about it, half of them were experim\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "being part of the first class that had ai through all of high school and then co\u2026",
+          "url": "https://www.reddit.com/r/CheckTurnitin/comments/1vw0njm/being_part_of_the_first_class_that_had_ai_through/",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "Platform AI Scans Private Snapchat Message Containing \u201cShoot\u201d Language, Auto-Reports to FBI, Leading to School Arrest of Student Teacher\nOn January 29, 2025, Kristen Volpe, a 22-year-old student teacher at John L. Hensey Elementary School in Washington, Illinois, became frustrated when a student closed her laptop mid-lesson, disrupting the prepared lesson plan. She sent a private Snapchat communication limited to three recipients (reported as boyfriend and roommates) that included language askin\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Platform AI Scans Private Snapchat Message Containing \u201cShoot\u201d Language, Auto-Rep\u2026",
+          "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vbwmvk/platform_ai_scans_private_snapchat_message/",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1421,6 +1547,19 @@
       {
         "date": "2026-08-29",
         "added": 52,
+        "sources": {
+          "github": 5,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 3,
+          "x": 20,
+          "youtube": 0
+        },
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 6,
         "sources": {
           "github": 5,
           "grounding": 0,

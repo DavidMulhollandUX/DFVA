@@ -62,6 +62,1749 @@
       ],
       "refuted": false,
       "refuteNotes": "Directly backed by JSA national workforce data."
+    },
+    {
+      "id": "l503",
+      "text": "JOSS paper preparation\n### Manuscript draft\r\n\r\nThis PR is intended for revisions and improvements to the manuscript draft being prepared for submission to the Journal of Open Source Software (JOSS).\r\n\r\n**Paper format:** The manuscript is prepared as a Markdown (`paper.md`) file with references in a `paper.bib` file, follo\n[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/earthaccess-dev/earthaccess/16fb7b994dd344815f30690ceb87da084be9bc1d) :point_left: Launch a binder n\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "JOSS paper preparation\n### Manuscript draft\r\n\r\nThis PR is intended for revisions\u2026",
+          "url": "https://github.com/earthaccess-dev/earthaccess/pull/1249",
+          "date": "2026-03-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l504",
+      "text": "Tell HN: Man, AI is killing my brain",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Tell HN: Man, AI is killing my brain",
+          "url": "https://news.ycombinator.com/item?id=49468252",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l505",
+      "text": "Everybody's Weirded Out by AI\u2013Except the People Who Foist It on Us",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Everybody's Weirded Out by AI\u2013Except the People Who Foist It on Us",
+          "url": "https://newrepublic.com/article/213004/everybody-weirded-ai-except-people-foist-us",
+          "date": "2026-07-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l506",
+      "text": "Everyone Is Wrong About AI Except Me",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Everyone Is Wrong About AI Except Me",
+          "url": "https://jasonpargin.substack.com/p/everyone-is-wrong-about-ai-except",
+          "date": "2026-06-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l507",
+      "text": "What breaks in production AI workflows?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l508",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l509",
+      "text": "How al-Qaida and IS are adopting AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "How al-Qaida and IS are adopting AI",
+          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l510",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l511",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l512",
+      "text": "Swiss public broadcaster to block AI scrapers \u2013 except Swiss model Apertus",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Swiss public broadcaster to block AI scrapers \u2013 except Swiss model Apertus",
+          "url": "https://www.nzz.ch/feuilleton/wir-muessen-uns-verteidigen-warum-susanne-wille-sich-gerade-mit-der-eth-verbuendet-ld.10018097",
+          "date": "2026-08-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l513",
+      "text": "GCC to Decline Any Significant Contributions Made via AI/LLMs \u2013 Except for Tests",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "GCC to Decline Any Significant Contributions Made via AI/LLMs \u2013 Except for Tests",
+          "url": "https://www.phoronix.com/news/GCC-Declining-AI-Contributions",
+          "date": "2026-07-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l514",
+      "text": "The death of AI workflow builders",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l515",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l516",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l517",
+      "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Adapting Fossil-scm as a platform for AI agentic workflow",
+          "url": "https://github.com/BenSiv/fossil-scm",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l518",
+      "text": "What is agentic AI today, and what do we want it to be?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l519",
+      "text": "My AI-Assisted Workflow",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l520",
+      "text": "AI Workflows Need Topological Sort",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI Workflows Need Topological Sort",
+          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l521",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l522",
+      "text": "Ask HK: How are you building AI apps today?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l523",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l524",
+      "text": "The Problem with AI Today",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l525",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l526",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l527",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l528",
+      "text": "To understand gleason 5 - some thoughts\nPressed the AI. And it seems that the gleason 5 - cells (as in gleason 4+5, 5+5 or 5+4) is a hard nut to crack as we already know but this spells it out. From the AI: The size (stage) has no significance for Lv+It is easy to believe that a cancer must grow large and strong like a fist before it can begin to spread cells. But this is only true for indolent (milder) cancer forms. The difference: An extraprostatic extension (EPE/T3 stage) requires a large tum\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "To understand gleason 5 - some thoughts\nPressed the AI. And it seems that the gl\u2026",
+          "url": "https://www.reddit.com/r/ProstateCancer/comments/1vihan2/to_understand_gleason_5_some_thoughts/",
+          "date": "2026-08-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l529",
+      "text": "Feb 2027 is arrival date if it's even going to come, however we'll see really bad earth changes in the preceding months prior to it, so you wont have to hold me to the fact I am giving a future date.\nHistorical Astronomical Observation DISCLAIMER: This entire post is a conjecture of my research, I dont have access to controlled information or anything of that nature. And don&#39;t send me weird DMs. The reason I am interested in the 2027 date is because I&#39;ve known about it being an special y\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Feb 2027 is arrival date if it's even going to come, however we'll see really ba\u2026",
+          "url": "https://www.reddit.com/r/aliens/comments/1vfs9u8/feb_2027_is_arrival_date_if_its_even_going_to/",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l530",
+      "text": "4 days of outages in a row. Zero communication from Anthropic\n4 days of outages in a row. What is even worse \u2014 zero communication from Anthropic: no usage resets, no posts in X. Nothing except a claude status updates. &#32; submitted by &#32; /u/jazzy8alex &#32; to &#32; r/ClaudeCode [link] &#32; [comments]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "4 days of outages in a row. Zero communication from Anthropic\n4 days of outages \u2026",
+          "url": "https://www.reddit.com/r/ClaudeCode/comments/1vry6tg/4_days_of_outages_in_a_row_zero_communication/",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l531",
+      "text": "Wharton Graduate AMA - Full Application Profile (Resume, Recommendations, Essays)\nHello all, this sub was a tremendous help when I was applying to bschool and I wanted to give back as the R1 deadline approaches. I&#39;m posting a roughly anonymized and summarized version of my application to give candidates an idea of what their own apps could look like. I applied to M7 and was rejected all without interview except for Wharton, where I received $$$ to attend. I&#39;m now happily working on the w\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Wharton Graduate AMA - Full Application Profile (Resume, Recommendations, Essays\u2026",
+          "url": "https://www.reddit.com/r/MBA/comments/1vy61al/wharton_graduate_ama_full_application_profile/",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l532",
+      "text": "[New Update]: AITAH for letting my fianc\u00e9 and his son move in rather than moving to them so his mom can co-parent?\nI am not OOP. OOP is u/Far-Championship202 Originally posted to r/AITAH and their own page Previous BoRUs: #1 [New Update]: AITAH for letting my fianc\u00e9 and his son move in rather than moving to them so his mom can co-parent? NEW UPDATE MARKED WITH ---- Editor\u2019s note: made small edits for ease of readability Trigger Warnings: emotional abuse and manipulation, harassment / stalking, m\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "[New Update]: AITAH for letting my fianc\u00e9 and his son move in rather than moving\u2026",
+          "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1vv1xr2/new_update_aitah_for_letting_my_fianc\u00e9_and_his/",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l533",
+      "text": "I think India needs a population-control policy \u2014 even if it\u2019s only for 5\u20137 years\nI know population control is one of those topics that immediately becomes political, but I genuinely think India needs to have an uncomfortable conversation about this. I\u2019m increasingly convinced that India should consider a time-bound one-child policy for at least 5\u20137 years , with the goal being to slow population growth and give the country some breathing room to catch up on housing, education, healthcare, employ\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I think India needs a population-control policy \u2014 even if it\u2019s only for 5\u20137 year\u2026",
+          "url": "https://www.reddit.com/r/overpopulation/comments/1vyoa23/i_think_india_needs_a_populationcontrol_policy/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l534",
+      "text": "The Eternal \"Internet Archive is Down\" Post\nTL;DR: If the archive.org website is so far down you see no connection, no message, no header indicating you connected, just absolutely nothing at all, then things are dire indeed. That&#39;s some serious mojo. Or your cable modem is broken. If the archive.org site shows what&#39;s called the &quot;Sorry&quot; page, a page that indicates something is wrong and to check social media for updates, you&#39;re connected to a simple server pumping out a gene\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The Eternal \"Internet Archive is Down\" Post\nTL;DR: If the archive.org website is\u2026",
+          "url": "https://www.reddit.com/r/theinternetarchive/comments/1vzaqz6/the_eternal_internet_archive_is_down_post/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l535",
+      "text": "Revenue crushed expectations, margins expanded, guidance was strong....so why is RDDT down?\u201d\nI see a lot of posts and comments talking about the numbers, how great they are, and don&#39;t understand why &quot;others&quot; fail to see the risk &amp; reward with RDDT (implying big ups). That is the wrong question. Reddit is not literally a SaaS company; it remains overwhelmingly an advertising business. But it has been valued like a premium, high-duration growth asset because it combines software-\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Revenue crushed expectations, margins expanded, guidance was strong....so why is\u2026",
+          "url": "https://www.reddit.com/r/redditstock/comments/1vc8gzg/revenue_crushed_expectations_margins_expanded/",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l536",
+      "text": "Level 6 Arcane Spells Memorization Tier List (Vanilla, Core Rules)\nOne of the most competitive levels in the game. Not only is there a wide array of powerful and useful spells, but some of the best spells are also things you\u2019re going to want multiple instances of; level 6 has a bunch of spells that are serviceable but may not see use anyway just because there\u2019s so much goodness that you really want to stock up on. That being said, level 6 is also the first time in BG2 that scrolls aren\u2019t always \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Level 6 Arcane Spells Memorization Tier List (Vanilla, Core Rules)\nOne of the mo\u2026",
+          "url": "https://www.reddit.com/r/baldursgate/comments/1vud3rv/level_6_arcane_spells_memorization_tier_list/",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l537",
+      "text": "Democrats Are Failing the Waymo Test\nThe driverless future is here\u2014but, to borrow from William Gibson, it\u2019s not evenly distributed. Waymo\u2019s self-driving robotaxis are available in cities in California, Arizona, Florida, Georgia, Tennessee, and Texas. Aside from California, where the technology originated, those are all red or purple states. In every other blue state, meanwhile, driverless taxis are still not allowed to operate. If you live in Miami or Dallas, you can summon a Waymo to get where \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Democrats Are Failing the Waymo Test\nThe driverless future is here\u2014but, to borro\u2026",
+          "url": "https://www.reddit.com/r/neoliberal/comments/1vt3zax/democrats_are_failing_the_waymo_test/",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l538",
+      "text": "THE REEDUCATION OF WEEDSHREK: EPISODE 23\nhttps://preview.redd.it/d6s0wp7thkkh1.png?width=937&amp;format=png&amp;auto=webp&amp;s=f495d59d04b271a3dff4d095cafa6893097bb95c episode 22 today i am that spongebob meme of squidward looking out his window, where i&#39;m squidward and spongebob and patrick are all the royale recappers pain. this is episode 23: between a rock and a hell place, published 9.3.20 which i could have sworn he&#39;s done a rock and a hard place riff for a title before this but i\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "THE REEDUCATION OF WEEDSHREK: EPISODE 23\nhttps://preview.redd.it/d6s0wp7thkkh1.p\u2026",
+          "url": "https://www.reddit.com/r/TAZCirclejerk/comments/1vtrjpx/the_reeducation_of_weedshrek_episode_23/",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l539",
+      "text": "I built Curfew, a Mac bedtime locker, because I kept \"working\" until 4 AM instead of going to sleep\nHey everyone, My name is Chris Nagy, I&#39;m the founder and solo dev behind Curfew*.* It&#39;s my first time releasing an app I made into the world! TLDR; Curfew locks your Mac at night so you go to sleep instead of staying up late. You set a time when it should lock (eg. midnight) and it then covers your whole screen automatically. If you need to finish up something, you can snooze for 5 minutes\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I built Curfew, a Mac bedtime locker, because I kept \"working\" until 4 AM instea\u2026",
+          "url": "https://www.reddit.com/r/macapps/comments/1vswwgn/i_built_curfew_a_mac_bedtime_locker_because_i/",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l540",
+      "text": "First of all, I\u2019d like to offer my heartfelt congratulations on the release of Geolibre V2.7.0. The AI assistant feature truly represents a major step forward, and in the future, generating geodata processing workflows through natural language will certainly be a major trend. However, I noticed in your previous post that you mentioned the need to rely on a $20 ChatGPT or Claude subscription.\n\nI have some thoughts on this: Given the high level of data privacy required by geoscientists and the fac",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "First of all, I\u2019d like to offer my heartfelt congratulations on the release of G\u2026",
+          "url": "https://x.com/GeoMatrix_Dev/status/2091173211484704915",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l541",
+      "text": "@SlicePlatinum @AndrewCurtice @crulge @BluesPolitics pretty much or if doesn\u2019t kill them just makes day to day infinitely worse. So many struggles/issues in jobs are simply cause the company is cheaping out",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@SlicePlatinum @AndrewCurtice @crulge @BluesPolitics pretty much or if doesn\u2019t k\u2026",
+          "url": "https://x.com/ohhnostorm/status/2093540441807294734",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l542",
+      "text": "@AndrewCurtice @crulge @BluesPolitics Unregulated capitalism is just CEOs pressing the \"make $1 million but a random person you don't know dies\" button for 8 hours a day",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@AndrewCurtice @crulge @BluesPolitics Unregulated capitalism is just CEOs pressi\u2026",
+          "url": "https://x.com/SlicePlatinum/status/2093503313064931597",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l543",
+      "text": "We just released scientific-agents. 503 expert-thinking profiles that turn AI coding agents into domain-aware scientific collaborators.\n\nNot \u201cbe rigorous\u201d prompts. Actual AGENTS.md files for biologists, physicists, engineers, clinicians, chemists, geoscientists, and more. \ud83e\uddf5",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "We just released scientific-agents. 503 expert-thinking profiles that turn AI co\u2026",
+          "url": "https://x.com/k_dense_ai/status/2062004308460105853",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l544",
+      "text": "@jatsho_wangchuk @Bobo_The_Imp @J_Donduan @Himalayan59 @luxarbo Practically nobody is eating bone-in fried chicken and ribs everyday. You do not know what we eat day to day if that is what you honestly think.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@jatsho_wangchuk @Bobo_The_Imp @J_Donduan @Himalayan59 @luxarbo Practically nobo\u2026",
+          "url": "https://x.com/LiquidusMex/status/2093534964319179157",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l545",
+      "text": "@leo_thirteen13 @RDog861 I do NOT know her day to day occurrences! I don\u2019t know the facts in her particular case!  I do know that mental illness is a problem in our society and our system is Flawed!  The jury will decide her fate!  Not you or me\ud83e\udd37\ud83c\udffb\u200d\u2640\ufe0f",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@leo_thirteen13 @RDog861 I do NOT know her day to day occurrences! I don\u2019t know \u2026",
+          "url": "https://x.com/Free_Con101/status/2093534156198125901",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l546",
+      "text": "\ud83d\udcac Use AI most days?\n\nEarn $100 for a 60-minute online study about your workflows.\n\nQuick sign-up: https://t.co/TPmvYs97Vg\n\nSpots can go fast. Not everyone will qualify.\n\n#PaidStudy #AI #UserResearch",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83d\udcac Use AI most days?\n\nEarn $100 for a 60-minute online study about your workflows\u2026",
+          "url": "https://x.com/TheFocusGroups/status/2093541076275548423",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l547",
+      "text": "So if civilians can film you on GTA6 I eonder how body armour is going to work.\nHeavy for a bank heist but will there be a concealed version fir day to day stuff.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "So if civilians can film you on GTA6 I eonder how body armour is going to work.\n\u2026",
+          "url": "https://x.com/PussFace25/status/2093542194602758159",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "text": "AI is reshaping how geoscientists work, and Gen AI and LLMs for Geoscientists and Energy Professionals is designed to help you keep pace.\n\nLed by Malleswar Yenugu, CEO of Drake AI USA, this one-day virtual course introduces practical applications of generative AI and large language models across exploration, development, and production workflows. No AI background required.\n\nWhat you'll leave with: \n\n\u2714\ufe0f A foundational understanding of LLMs and their limitations \n\n\u2714\ufe0f Practical GenAI applications f",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI is reshaping how geoscientists work, and Gen AI and LLMs for Geoscientists an\u2026",
+          "url": "https://x.com/SEG_org/status/2059301817050144992",
+          "date": "2026-05-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l549",
+      "text": "\ud83d\udcbc $29 for a 22-minute online study about your day-to-day work.\n\nIf you qualify and finish by Sept 3, 2026, you\u2019ll get paid.\n\nSign up: https://t.co/S7MfxSEmFa\n\n#PaidStudy #OnlineResearch #WorkLife",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83d\udcbc $29 for a 22-minute online study about your day-to-day work.\n\nIf you qualify a\u2026",
+          "url": "https://x.com/TheFocusGroups/status/2093540875829748128",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l550",
+      "text": "\ud83d\udcbc $34 for a 41\u2011min online study on work experiences.\n\nShare how your day-to-day shapes your career. Complete by Sept 2, 2026 if you qualify.\n\nSign up: https://t.co/tDr5jb4hwB\n\n#WorkStudy #PaidResearch #OnlineStudy",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83d\udcbc $34 for a 41\u2011min online study on work experiences.\n\nShare how your day-to-day \u2026",
+          "url": "https://x.com/TheFocusGroups/status/2093539540908544272",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l551",
+      "text": "11/ The Scope Clarification\n\nSituation: Job description lists 15 required frameworks\u2014looks like a trap.\n\nSystem: Ask recruiter: \"Actual day-to-day ratio of feature dev vs legacy maintenance?\"\n\nWhy it works: Cuts through HR wishlists to reveal the real work.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "11/ The Scope Clarification\n\nSituation: Job description lists 15 required framew\u2026",
+          "url": "https://x.com/sadhna6389/status/2093536034365825409",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l552",
+      "text": "Being an 18 y/r old as of now and having 4 y/r's in the service industry I have learned a lot...\n\nAnd the hardest part of scaling a landscaping business from $500 to $64,000 in the matter of 3 months was:\n\n-Tracing every single receipt\n\n-Tracking transactions  \n\n-Creating and sending invoices\n\n-Generating accurate quotes for projects\n\n-And overall tax management\n\nTo combat the issue that I myself experienced first hand along side a lot of individuals in the space, I built an app which would be t",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Being an 18 y/r old as of now and having 4 y/r's in the service industry I have \u2026",
+          "url": "https://x.com/adduthegreat/status/2093536623971729717",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l553",
+      "text": "@CrocodileDungri @minamortem Had to be the inspiration for this",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@CrocodileDungri @minamortem Had to be the inspiration for this",
+          "url": "https://x.com/SlicePlatinum/status/2088313194288693451",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "@alorbuck @DailyLoud The stores get targeted because they hire 2 people to work the whole store so the creeps take advantage of hella blind spots. Been going on long enough that the company has to know it's happening and should dissuade it",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@alorbuck @DailyLoud The stores get targeted because they hire 2 people to work \u2026",
+          "url": "https://x.com/SlicePlatinum/status/2088421189538468275",
+          "date": "2026-08-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "@SN_Server @TheNCSmaster Either way this take ain't really hot. It's common sense to everyone who doesn't make money from selling video games",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@SN_Server @TheNCSmaster Either way this take ain't really hot. It's common sens\u2026",
+          "url": "https://x.com/SlicePlatinum/status/2091684405257314749",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "@taelorjae @genphlegm @MedianSky101 @lwaaziiii Well he was a professional snowboarder comes with the territory no? Not trying to be insensitive god rest his soul but ok",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@taelorjae @genphlegm @MedianSky101 @lwaaziiii Well he was a professional snowbo\u2026",
+          "url": "https://x.com/ohhnostorm/status/2093387687226953902",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "My sun and moon fighting each other on a day to day basis \ud83e\udd23",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "My sun and moon fighting each other on a day to day basis \ud83e\udd23",
+          "url": "https://x.com/sel_sess222/status/2093540314191675641",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "\u201cAja Wilson day to day\u201d proceeds to have 20 pts at halftime \ud83d\ude44",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\u201cAja Wilson day to day\u201d proceeds to have 20 pts at halftime \ud83d\ude44",
+          "url": "https://x.com/BloodMoneyx5/status/2093536702132617407",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "@jpatel02 @Haurmeya Feels like it should be punch or something. Kick. Fighting games + old school arcade beat em ups.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@jpatel02 @Haurmeya Feels like it should be punch or something. Kick. Fighting g\u2026",
+          "url": "https://x.com/SlicePlatinum/status/2093163654250168739",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "@Hunter_Eagleman @GavinNewsom No this guys just head grifter. His \u201cstaff\u201d runs the day to day mismanagement of whatever the hell is going on in that state.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Hunter_Eagleman @GavinNewsom No this guys just head grifter. His \u201cstaff\u201d runs t\u2026",
+          "url": "https://x.com/charliehummer4/status/2093545082746261611",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "Urghhjhghfjcsyyf I heard a pop in my inner thigh My fragile old man body isn't suited for day-to-day living",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Urghhjhghfjcsyyf I heard a pop in my inner thigh My fragile old man body isn't s\u2026",
+          "url": "https://x.com/heartxparfait/status/2093541892751253552",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "@grok @foraevum @KevinDFrye @AltExecution @GSCollins99 @Polymarket That doesn\u2019t change his point. Bullets are 20 dollars shoot him and call it",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@grok @foraevum @KevinDFrye @AltExecution @GSCollins99 @Polymarket That doesn\u2019t \u2026",
+          "url": "https://x.com/ohhnostorm/status/2093261619870552444",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "@CatotheE @YourDailyKayli @Keeiirafm4ii31 @nevakissedatory @I_amMukhtar yeah that\u2019s not happening tbf nothing wrong w that money is everything but the semantics and gimmicks ppl play on here all day is hilarious",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@CatotheE @YourDailyKayli @Keeiirafm4ii31 @nevakissedatory @I_amMukhtar yeah tha\u2026",
+          "url": "https://x.com/ohhnostorm/status/2093456223714640219",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "@ohhnostorm @BoldfaceJames @slitherwinglove Yeahhh this guys right, the only big game past 5 years Xbox has had is E Day and that\u2019s not out for another 1.5 months lol. \n\nGuess you could say Halo Infinite\u2026 \ud83e\udd22",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@ohhnostorm @BoldfaceJames @slitherwinglove Yeahhh this guys right, the only big\u2026",
+          "url": "https://x.com/ItsLudd_/status/2092999545663672742",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "@benni0___0 @Shelovesdicker @Willie_Beamerr @TevRebranded pretty gay comment Man U want bra to b tall and cute for u? \ud83d\ude2d yall niggas kill me both bitches",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@benni0___0 @Shelovesdicker @Willie_Beamerr @TevRebranded pretty gay comment Man\u2026",
+          "url": "https://x.com/ohhnostorm/status/2093260815063224372",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "\ud83d\udd2c $150 for scientists and researchers!\n\nShare how you use digital tools in a 45-minute online study. Payment if qualified and completed by Sept 16.\n\nApply here: https://t.co/75CtPKbOE7\n\n#Science #Research #DigitalTools #PaidStudy",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83d\udd2c $150 for scientists and researchers!\n\nShare how you use digital tools in a 45-\u2026",
+          "url": "https://x.com/TheFocusGroups/status/2093541184593371345",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "\ud83d\udcac $40 for a 42\u2011min online task.\n\nShare honest feedback about your favorite brands in a simple unmoderated study. Must qualify.\n\nSign up here: https://t.co/aKlj3dspiN\n\n#PaidStudy #OnlineResearch #BrandExperience",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83d\udcac $40 for a 42\u2011min online task.\n\nShare honest feedback about your favorite brand\u2026",
+          "url": "https://x.com/TheFocusGroups/status/2093541158785843503",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "\ud83c\udfa8 $50 for creative pros!\n\n60-minute online focus group on how you organize projects and use digital tools. For independent creatives.\n\nComplete by Sept 4 to get paid. Apply here: https://t.co/7lefKMk29v\n\n#CreativePros #PaidStudy #OnlineFocusGroup",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83c\udfa8 $50 for creative pros!\n\n60-minute online focus group on how you organize proje\u2026",
+          "url": "https://x.com/TheFocusGroups/status/2093541113743266157",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "\ud83e\uddfe $60 for senior living billing pros!\n\n1-hour online study on billing reports and dashboard widgets. Complete by Sep 4 to earn.\n\nQuick sign-up: https://t.co/rJQi3WeykP\n\n#SeniorLiving #Billing #PaidStudy #HealthcareAdmin",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83e\uddfe $60 for senior living billing pros!\n\n1-hour online study on billing reports an\u2026",
+          "url": "https://x.com/TheFocusGroups/status/2093541037029351472",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "\ud83d\udce7 $50 for email/SMS marketers.\n\n60-minute online study about your campaign workflow. Finish by Sept 2 to get paid.\n\nApply here: https://t.co/fhQlB4C20c\n\n#EmailMarketing #SMSMarketing #PaidStudy",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83d\udce7 $50 for email/SMS marketers.\n\n60-minute online study about your campaign workf\u2026",
+          "url": "https://x.com/TheFocusGroups/status/2093540998827712517",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "\ud83d\udcbb $65 for a 45\u2011min online study on software onboarding.\n\nShare your experience with fleet management software.\n\nComplete by Sept 4.\n\nApply here: https://t.co/QdWu8hTm1n\n\n#PaidResearch #UXStudy #Software",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83d\udcbb $65 for a 45\u2011min online study on software onboarding.\n\nShare your experience w\u2026",
+          "url": "https://x.com/TheFocusGroups/status/2093540958998581360",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "\ud83d\udcbb Earn $250 for a 75-minute online interview on education technology.\n\nShare how tech impacts learning and teaching.\n\nApply here: https://t.co/AuXhgEpThH\n\nNot everyone will qualify.\n\n#EdTech #PaidResearch #OnlineInterview",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83d\udcbb Earn $250 for a 75-minute online interview on education technology.\n\nShare how\u2026",
+          "url": "https://x.com/TheFocusGroups/status/2093540918250868899",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "@FriendOfAstraea Things ain't changed that much sadly. People just wait for them to make an OF on their 18th birthday",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@FriendOfAstraea Things ain't changed that much sadly. People just wait for them\u2026",
+          "url": "https://x.com/SlicePlatinum/status/2091500032381845638",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "@Heftssc @frenchsoupy @wockramune @BallsackSports u don\u2019t think there\u2019s a single difference between the two?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Heftssc @frenchsoupy @wockramune @BallsackSports u don\u2019t think there\u2019s a single\u2026",
+          "url": "https://x.com/ohhnostorm/status/2093460280936153343",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "@CatotheE @treason76038 @Creambastard @krallek @nevakissedatory @I_amMukhtar in one ear out the other that guy is a piece of shit dirty weirdo but calling him ugly is pointless. Dude needs a entire revamp",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@CatotheE @treason76038 @Creambastard @krallek @nevakissedatory @I_amMukhtar in \u2026",
+          "url": "https://x.com/ohhnostorm/status/2093457317450678346",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "text": "@LiiTwin_ @benni0___0 @Shelovesdicker @Willie_Beamerr @TevRebranded u think I check in w Lil twin before I post man Yall worried abt niggas height sound like a bitch ima call it",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@LiiTwin_ @benni0___0 @Shelovesdicker @Willie_Beamerr @TevRebranded u think I ch\u2026",
+          "url": "https://x.com/ohhnostorm/status/2093377515154719059",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "text": "@ohhnostorm @grok @foraevum @KevinDFrye @AltExecution @GSCollins99 @Polymarket Wish it was east",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@ohhnostorm @grok @foraevum @KevinDFrye @AltExecution @GSCollins99 @Polymarket W\u2026",
+          "url": "https://x.com/Michael25644639/status/2093404638049419309",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l578",
+      "text": "It was interesting to learn at Devex about how #geoscientists are using #AI. This is partly to handle the big data problem. There is more data in the #energy industry than almost any other industry. Which ones do you think are comparable?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "It was interesting to learn at Devex about how #geoscientists are using #AI. Thi\u2026",
+          "url": "https://x.com/Naturevolve/status/2049503735752097793",
+          "date": "2026-04-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l579",
+      "text": "@ohhnostorm @KeystoneDrone @Gladd Yeah, that's the reason it failed... \n\nDumb ass...",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@ohhnostorm @KeystoneDrone @Gladd Yeah, that's the reason it failed... \n\nDumb as\u2026",
+          "url": "https://x.com/BriggsBoom/status/2093052740322676953",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l580",
+      "text": "@ohhnostorm @thisaspambro @SonnyFnEvans Bro DEADASS\n\nThe only fun part is FREE MODE\n\nEverything else is driving from one end of the map to the other while auto-aiming NPCs try to kill you. THATS IT. THEY CANT COME UP WITH ANY OTHER TYPE OF MISSION ITS ALL DRIVING",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@ohhnostorm @thisaspambro @SonnyFnEvans Bro DEADASS\n\nThe only fun part is FREE M\u2026",
+          "url": "https://x.com/hollywouldtweet/status/2093009324985536820",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l581",
+      "text": "@ohhnostorm @Flippinmations @SonnyFnEvans Promise you they do that shit in free roam too. Last time i played the game like a year ago i got pit maneuvered by a damn minivan",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@ohhnostorm @Flippinmations @SonnyFnEvans Promise you they do that shit in free \u2026",
+          "url": "https://x.com/PubertPubertsn/status/2093007036770299915",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l582",
+      "text": "Let 35-45 year old Black folks have fun dawg. They in the club so life obviously ain't gone well for them",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Let 35-45 year old Black folks have fun dawg. They in the club so life obviously\u2026",
+          "url": "https://x.com/SlicePlatinum/status/2091500811989692503",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l583",
+      "text": "A dude at my job was walking on crutches and told me he tore it \"playing ball\". It took another coworker to tell me it was pickleball \ud83d\ude02 \ud83d\ude02 \ud83d\ude02",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "A dude at my job was walking on crutches and told me he tore it \"playing ball\". \u2026",
+          "url": "https://x.com/SlicePlatinum/status/2091276137074774450",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l584",
+      "text": "News - TOCVAN PARTNERS WITH VRIFY TO ACCELERATE EXPLORATION AND ENHANCE DISCOVERY POTENTIAL WITH AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "News - TOCVAN PARTNERS WITH VRIFY TO ACCELERATE EXPLORATION AND ENHANCE DISCOVER\u2026",
+          "url": "https://x.com/TOCVANVentures/status/2032539102600638918",
+          "date": "2026-03-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l585",
+      "text": "Geology \u2014 8 Hours of Facts to Fall Asleep To \u2014 No Adverts\n\u2615 Support the channel \u2192 https://buymeacoffee.com/sleepysciencechannel\n\nFall asleep while learning one hundred dreamy facts about Geology. From drifting continents and rising mountain ranges to glowing magma chambers far below the crust, this soft and soothing Earth science documentary will guide you through deep time, shifting plates, ancient oceans, hidden fossils, and more. All told in a calm bedtime voice designed for listening in the \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Geology \u2014 8 Hours of Facts to Fall Asleep To \u2014 No Adverts\n\u2615 Support the channel \u2026",
+          "url": "https://www.youtube.com/watch?v=bHqwLUsZjOE",
+          "date": "2026-03-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -99,7 +1842,22 @@
       "returned": 10,
       "source": "linkedin (unofficial scrape)",
       "_raw": "data/professions/19-2042/raw/linkedin_l4.json"
-    }
+    },
+    "l5Sample": [
+      {
+        "date": "2026-08-29",
+        "added": 83,
+        "sources": {
+          "github": 1,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 12,
+          "x": 45,
+          "youtube": 1
+        },
+        "status": "sampled"
+      }
+    ]
   },
   "confidence": "high",
   "caveats": []

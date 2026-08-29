@@ -62,6 +62,1350 @@
       ],
       "refuted": false,
       "refuteNotes": "Directly backed by JSA national workforce data."
+    },
+    {
+      "id": "l503",
+      "text": "feat(web): surface a few nutritionists/dietitians in the landing coach grid\nThe signed-out coach grid was trainers-only. Mixed in 3 registered nutritionists/dietitians (Rae, Claire, Ben) with face photos, interleaved, linking to their role=nutritionist profiles.\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n* **New Fe\n[vc]: #ndQinsVgpGl2T4EeYDtZYGt3rwU3CuV70Ob6dcgJEig=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWU\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat(web): surface a few nutritionists/dietitians in the landing coach grid\nThe \u2026",
+          "url": "https://github.com/cperry8800-droid/shape-app/pull/1355",
+          "date": "2026-06-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l504",
+      "text": "AI features: Nora actions, proactive notifications, source reconciliation, dietitian onboarding + compliance\nBrings the accumulated **AI-features** work live. 27 commits \u00b7 76 files (+8.2k). All server-side AI, human-in-the-loop on every write, RLS/endpoint authoritative, audited + reversible.\n\n## What's included\n- **Nora takes actions (AI1\u2013AI6).** Preview\u2192confirm\u2192`ai_audit_log`\u2192undo scaffold; 7 tools (Tier\n[vc]: #zpoJ4YGw6sUcFBM/tiTYhaH/ej5768+BraC6DdY6gvQ=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "AI features: Nora actions, proactive notifications, source reconciliation, dieti\u2026",
+          "url": "https://github.com/cperry8800-droid/shape-app/pull/1326",
+          "date": "2026-06-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l505",
+      "text": "docs: product strategy analysis + coach acquisition marketing\n## Strategy + coach-marketing docs\n\nMarkdown only \u2014 no code or app-surface changes. Split out of the daily-steps branch (they'd been swept in by a stray `git add -A`) into their own PR.\n\n- **`PRODUCT-STRATEGY.md`** \u2014 product strategy analysis: 7 engagement/retention/perceived-value ideas grounded in\n[vc]: #4rvk+SJg0X4ob2NQaTYy+l74kD53sHe+Vc9jBfVPddE=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJzaGFwZS1hc\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "docs: product strategy analysis + coach acquisition marketing\n## Strategy + coac\u2026",
+          "url": "https://github.com/cperry8800-droid/shape-app/pull/1416",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l506",
+      "text": "chore(dashboard): retire legacy Next.js dashboard, keep newdesign + admin tools (audit S4/S5)\nRetires the **legacy** Next.js dashboard in favor of the **newdesign** portal (`public/newdesign/*.html`), per \"keep newdesign, delete legacy.\" **newdesign was left entirely untouched.**\n\n### Removed (legacy, user-facing \u2014 superseded by newdesign)\n`/dashboard/{client,trainer,nutritionist}`, `/dashbo\n[vc]: #OzvXTcOiT0qfRPn6C1SIxQK9U/MUIrGePvPQgBuW5Uw=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJva\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "chore(dashboard): retire legacy Next.js dashboard, keep newdesign + admin tools \u2026",
+          "url": "https://github.com/cperry8800-droid/shape-app/pull/1343",
+          "date": "2026-06-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l507",
+      "text": "Tell HN: Man, AI is killing my brain",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Tell HN: Man, AI is killing my brain",
+          "url": "https://news.ycombinator.com/item?id=49468252",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l508",
+      "text": "What breaks in production AI workflows?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l509",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l510",
+      "text": "How al-Qaida and IS are adopting AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "How al-Qaida and IS are adopting AI",
+          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l511",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l512",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l513",
+      "text": "Structured Evaluation Pipelines to Improve Your AI Workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Structured Evaluation Pipelines to Improve Your AI Workflows",
+          "url": "https://heltweg.org/posts/structured-evaluation-pipelines-to-improve-your-ai-workflows/",
+          "date": "2026-07-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l514",
+      "text": "The death of AI workflow builders",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l515",
+      "text": "Looking for developers with high-token AI workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Looking for developers with high-token AI workflows",
+          "url": "https://canopywave.com/events/unlimited-token-plan-200m",
+          "date": "2026-07-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l516",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l517",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l518",
+      "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Adapting Fossil-scm as a platform for AI agentic workflow",
+          "url": "https://github.com/BenSiv/fossil-scm",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l519",
+      "text": "What is agentic AI today, and what do we want it to be?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l520",
+      "text": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
+          "url": "https://latentdynamics.substack.com/p/semantic-transactions-securing-untrusted",
+          "date": "2026-07-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l521",
+      "text": "My AI-Assisted Workflow",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l522",
+      "text": "AI Workflows Need Topological Sort",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI Workflows Need Topological Sort",
+          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l523",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l524",
+      "text": "AI workflows: an industry optimising the wrong variables",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI workflows: an industry optimising the wrong variables",
+          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
+          "date": "2026-05-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l525",
+      "text": "Ask HK: How are you building AI apps today?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l526",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l527",
+      "text": "The Problem with AI Today",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l528",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l529",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l530",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l531",
+      "text": "I been working on this prompt in general for a football career system you can run with ai if anyone could give feedback on how it is that would be nice\n# Pro Football Engine (PFE) \u2014 Realistic Master Edition v3 You are PFE, a hyper-realistic, consequence-driven Football Career Simulator and Game Host. You model a living football world that mirrors how the sport actually works \u2014 economically, politically, psychologically \u2014 where decisions carry lasting, sometimes irreversible weight. Luck decides \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I been working on this prompt in general for a football career system you can ru\u2026",
+          "url": "https://www.reddit.com/r/FifaCareers/comments/1vfu8tk/i_been_working_on_this_prompt_in_general_for_a/",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l532",
+      "text": "Google accidentally revealed how its AI search systems choose which sites to recommend and send traffic to.\n\nNow that none of it is much of a secret anymore, let\u2019s talk about it.\n\nWith the new Google Search rolling out as we speak, it has never been more important to understand how to maximize value from this marketing channel.\n\nIf you want to see where your site stands across Google, ChatGPT, Claude, Perplexity and broader AI search, you can do so for free here:\n\nhttps://t.co/Pn764BHwyL\n\nLet\u2019s",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Google accidentally revealed how its AI search systems choose which sites to rec\u2026",
+          "url": "https://x.com/alexgroberman/status/2092278024045744453",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l533",
+      "text": "Google revealed how sites must be named if you want to show in traditional and AI search.\n\nThis comes straight from Google's John Mueller.\n\nSomeone complained that their site doesn't show when they search for their own site name.\n\nJohn's response was fairly blunt.\n\nIf your \"site name\" is made up of generic, competitive keywords, Google does not assume people are looking for you.\n\nAnd that same logic now applies to AI search.\n\nIt is also the exact problem that SEO Stuff (https://t.co/wKpf0EILTx)",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Google revealed how sites must be named if you want to show in traditional and A\u2026",
+          "url": "https://x.com/alexgroberman/status/2093004292202635321",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l534",
+      "text": "Brands cited in Google's AI Overviews get 120% more clicks per impression than brands that are not cited on the same search result.\n\nAlso, Google AI Overview click-through rates just grew 85% in two months.\n\nIs your website optimizing for AI Overviews?\n\nIf you're not, but want to, let's break down exactly what it takes to take advantage.\n\nAccording to Seer Interactive's 2026 analysis of 53 brands, 5.47 million queries, and 2.43 billion impressions, organic CTR on AI Overview queries rebounded fr",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Brands cited in Google's AI Overviews get 120% more clicks per impression than b\u2026",
+          "url": "https://x.com/alexgroberman/status/2092972964635615320",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l535",
+      "text": "Just something I've noticed...\n\nLocal businesses are still some of the slowest to adapt. In some cases, it is costing them $25,000+ per month in potential revenue.\n\nIf you're ignoring the traffic and sales you could be getting from Google and ChatGPT right now, you are going to be playing catch-up in 2027.\n\nLet\u2019s walk through exactly how to fix it without hiring expensive outside help.\n\nAnd if you want to know how your site is showing up in ChatGPT, Claude, Google AI, Grok and broader AI search,",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Just something I've noticed...\n\nLocal businesses are still some of the slowest t\u2026",
+          "url": "https://x.com/alexgroberman/status/2092248243568865453",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l536",
+      "text": "Niche health and wellness coaching is booming. \ud83c\udf31 Use Manus AI to build specialized AI dietitians and allergy-safe meal planning assistants that you can license to boutique gyms and nutritionists. High demand, recurring subscription revenue! #HealthTech #Coaching #AI https://t.co/E03sxDlr36",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Niche health and wellness coaching is booming. \ud83c\udf31 Use Manus AI to build specializ\u2026",
+          "url": "https://x.com/Aleks123187218/status/2089653576058503515",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l537",
+      "text": "Your brand can appear as a ChatGPT \"source\" and still not actually influence the answer.\n\nThis is going to sound a little dumb, but...\n\nGetting cited by ChatGPT does not necessarily mean ChatGPT used your website in a meaningful way.\n\nA study analyzed 21,143 citations across ChatGPT, Google AI and Perplexity and found that appearing in the source list and influencing what the AI actually tells the customer are two different outcomes.\n\nAnd obviously, for businesses, that distinction is massive.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Your brand can appear as a ChatGPT \"source\" and still not actually influence the\u2026",
+          "url": "https://x.com/alexgroberman/status/2093332352118186264",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l538",
+      "text": "Somehow everyone missed the biggest finding of 2026 about getting traffic to your website from ChatGPT, Claude, Perplexity, etc.\n\nI originally didn't want to draw attention to it, but now that the data has gone public, let's talk about it.\n\nThis works well for all business categories, but it works especially well for SaaS.\n\nBy the way, you can see whether your business is appearing across Google AI, ChatGPT, Claude, Perplexity and Grok here (it's free):\n\nhttps://t.co/Pn764BHwyL\n\nAlright, so if y",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Somehow everyone missed the biggest finding of 2026 about getting traffic to you\u2026",
+          "url": "https://x.com/alexgroberman/status/2093363897424290267",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l539",
+      "text": "We\u2019ve used Google and AI search to add anywhere from $20,000/month to $100,000+/month to health and wellness brands selling supplements, fitness programs, diagnostics, skincare and protocols.\n\nIn July 2026 the health and wellness niche surpassed financial services as our biggest category served by revenue generated. \n\nThe health brands I see on here are great at social, decent at paid ads and operating on margins that make no sense.\n\nHigh CAC, constant discounts and unpredictable revenue is a to",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "We\u2019ve used Google and AI search to add anywhere from $20,000/month to $100,000+/\u2026",
+          "url": "https://x.com/alexgroberman/status/2086084776478535965",
+          "date": "2026-08-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l540",
+      "text": "Hot take:\n\nProfessions I don\u2019t think the average person needs to spend $$$ on anymore because of AI:\n\n\u2022 Personal trainers\n\u2022 Dietitians\n\u2022 Interior designers\n\u2022 Real estate agents\n\u2022 Graphic designers\n\u2022 Travel agents\n\u2022 Tutors\n\u2022 Resume writers\n\u2022 Copywriters\n\u2022 Financial planners\n\nNot saying AI replaces the best professionals.\n\nBut for 80% of what the average person needs?\n\nAI gets you surprisingly far for $20/month.\n\nAgree or disagree?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Hot take:\n\nProfessions I don\u2019t think the average person needs to spend $$$ on an\u2026",
+          "url": "https://x.com/DronskiErick/status/2092330027514032567",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l541",
+      "text": "HE MAKES $9,450 A MONTH FROM AN AI NUTRITIONIST AND HIS CLIENTS DON'T KNOW SHE'S NOT REAL\n\n63 premium clients across three continents, and every one gets a personalised meal plan, weekly grocery list and macro adjustment written by a loop that would take five dietitians to keep up with\n\nhow the loop runs her:\n\nclaude drafts each client's weekly meal plan and macro split from their food log and body-composition update, in the same warm voice she uses on instagram\n\na scheduled loop wakes every sun",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "HE MAKES $9,450 A MONTH FROM AN AI NUTRITIONIST AND HIS CLIENTS DON'T KNOW SHE'S\u2026",
+          "url": "https://x.com/bounceidc/status/2079219089030119718",
+          "date": "2026-07-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l542",
+      "text": "#AI can do a lot. But dietetics is more than giving #nutrition advice\n\nClinical judgement. Professional accountability. Human connection\n\nThe future isn\u2019t AI v/s dietitians. It\u2019s dietitians using AI to deliver better care\n\n#Dietitians #AIinHealthcare #FutureOfDietetics #Canqc https://t.co/UR0lcVKGsd",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "#AI can do a lot. But dietetics is more than giving #nutrition advice\n\nClinical \u2026",
+          "url": "https://x.com/CANQCINDIA/status/2093375285936927180",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l543",
+      "text": "Healthify merges with US Berry Street.\n\nThe AI that tracked every meal just found insurance that covers real dietitians.\n\nOne platform. Both strengths. https://t.co/r8KxAhwdwK",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Healthify merges with US Berry Street.\n\nThe AI that tracked every meal just foun\u2026",
+          "url": "https://x.com/FilterCoffeeHQ/status/2092156271940239405",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l544",
+      "text": "NEW: The 10 largest global healthcare AI deals of Q2 2026 totaled $3.43B\n\nDrug discovery took the top two spots, with the rest focusing on admin, access, and chronic care efficiencies \ud83d\udc47\n\n> Isomorphic Labs \u2014 $2.1B Series B (UK) to scale its AI drug design engine, with first candidates targeted for the clinic by year-end\n\n> Chai Discovery \u2014 $400M Series C at $3.8B for AI models that design antibodies from scratch; Lilly, Pfizer, and Novartis are all partners\n\n> Forus \u2014 $160M Series B at $1B to aut",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "NEW: The 10 largest global healthcare AI deals of Q2 2026 totaled $3.43B\n\nDrug d\u2026",
+          "url": "https://x.com/HealthcareAIGuy/status/2084649168883302505",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l545",
+      "text": "\ud83c\udf1f https://t.co/HU6ZC2JGA6\n\nAuthority begins with a name people already trust.\n\nDietitian isn\u2019t a trend.\n\nIt\u2019s a profession.\n\nOne associated with clinical expertise, evidence-based nutrition, and long-term health outcomes.\n\nAs healthcare becomes increasingly personalized and digital, registered dietitians, hospitals, wellness platforms, insurers, and AI-powered nutrition services will need trusted digital identities that reflect professional credibility.\n\nhttps://t.co/HU6ZC2JGA6 is a premium one-",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83c\udf1f https://t.co/HU6ZC2JGA6\n\nAuthority begins with a name people already trust.\n\nD\u2026",
+          "url": "https://x.com/Daseingram/status/2083824759859511388",
+          "date": "2026-08-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l546",
+      "text": "Miami Dolphins coach Jeff Hafley says Quinn Ewers never felt comfortable enough this week to play in a live game. Jacob Rodriguez is day to day. https://t.co/WCldAIqIav",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Miami Dolphins coach Jeff Hafley says Quinn Ewers never felt comfortable enough \u2026",
+          "url": "https://x.com/schadjoe/status/2093524296727466085",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l547",
+      "text": "I'm not trying to insult anyone here, but...\n\nThe health brands I see on here are great at social, decent at paid ads and operating on margins that make no sense.\n\nMeanwhile, we've used Google + AI search to get brands to ~$100,000/month.\n\nLet me say that again: we\u2019ve used the exact system I'm about to talk about to add anywhere from $20,000/month to $100,000+/month to health and wellness brands selling supplements, fitness programs, diagnostics, skincare and protocols.\n\nIf you need help with th",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I'm not trying to insult anyone here, but...\n\nThe health brands I see on here ar\u2026",
+          "url": "https://x.com/alexgroberman/status/2070858485949227464",
+          "date": "2026-06-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "text": "\ud83c\udf1f https://t.co/HU6ZC2JGA6\n\nFood is becoming medicine.\n\nData is becoming the prescription.\n\nAs healthcare shifts from treating disease to preventing it, registered dietitians are becoming essential partners in improving long-term health. Powered by AI, wearable technology, and precision nutrition, tomorrow\u2019s dietary care will be more personalized, accessible, and evidence-based than ever before.\n\nhttps://t.co/HU6ZC2JGA6 is a premium, authoritative domain that instantly conveys trust, expertise, a",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83c\udf1f https://t.co/HU6ZC2JGA6\n\nFood is becoming medicine.\n\nData is becoming the pres\u2026",
+          "url": "https://x.com/Daseingram/status/2081145201855242391",
+          "date": "2026-07-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l549",
+      "text": "\ud83c\udf1f https://t.co/rQLtWY9djS\n\nA highly relevant .com combining a powerful food-industry keyword with the rapidly expanding AI agent category.\n\nIngredient immediately connects with food, recipes, nutrition, food manufacturing, formulation and supply chains.\n\nAgent adds an intelligent, autonomous layer, making the name feel naturally suited to an AI-powered food technology platform.\n\nhttps://t.co/rQLtWY9djS\n\nYour Intelligent Agent for Everything Ingredients.\n\nPotential applications:\n\n\ud83e\udd16 AI ingredient",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83c\udf1f https://t.co/rQLtWY9djS\n\nA highly relevant .com combining a powerful food-indu\u2026",
+          "url": "https://x.com/Daseingram/status/2093348732930519380",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l550",
+      "text": "\ud83c\udf1f https://t.co/P29kKLtDcX\n\nA remarkably compact .bot domain with strong potential across AI agents, crypto, financial intelligence and automated digital services.\n\nCMC is already strongly associated with the crypto and digital-asset ecosystem, while .bot immediately signals an AI-powered automated interface.\n\nhttps://t.co/P29kKLtDcX\n\nYour Intelligent Gateway to Crypto Data.\n\nPotential applications:\n\n\ud83e\udd16 AI crypto research agent\n\ud83d\udcca Market intelligence\n\u20bf Real-time crypto analysis\n\ud83d\udd0e Token & market dis",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83c\udf1f https://t.co/P29kKLtDcX\n\nA remarkably compact .bot domain with strong potentia\u2026",
+          "url": "https://x.com/Daseingram/status/2093390582441783779",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l551",
+      "text": "\ud83c\udf1f https://t.co/ETYDxPeJIz\n\nhttps://t.co/ETYDxPeJIz is an exceptionally clean domain concept built around one of the world\u2019s most universal digital actions: PAY.\n\nThe pairing creates an immediate proposition:\n\nPAY + FAST\n\nPayments, without the friction.\n\nIt is naturally suited to:\n\n\ud83d\udcb3 Instant payments\n\u26a1 Fast checkout\n\ud83c\udf10 Cross-border payments\n\ud83d\udcf1 Digital wallets\n\ud83c\udfe6 FinTech platforms\n\ud83d\uded2 Express checkout\n\ud83d\udd17 Payment APIs\n\ud83e\udd16 AI-powered payments\n\ud83d\ude80 Real-time payment infrastructure\n\nThe strength is its simplicit",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83c\udf1f https://t.co/ETYDxPeJIz\n\nhttps://t.co/ETYDxPeJIz is an exceptionally clean dom\u2026",
+          "url": "https://x.com/Daseingram/status/2093390081780253092",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l552",
+      "text": "\ud83c\udf1f https://t.co/QWGSTDVpbg\n\nPersonalized nutrition is becoming a cornerstone of modern healthcare.\n\nFrom AI-powered meal planning and preventive health to clinical nutrition and wellness coaching, people are seeking trusted guidance tailored to their individual needs.\n\nhttps://t.co/QWGSTDVpbg is a premium, highly memorable domain ideally suited for:\n\n\u2022 Nutrition clinics\n\u2022 Registered dietitians\n\u2022 AI nutrition platforms\n\u2022 Personalized meal planning\n\u2022 Wellness and preventive health services\n\u2022 Corpor",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83c\udf1f https://t.co/QWGSTDVpbg\n\nPersonalized nutrition is becoming a cornerstone of m\u2026",
+          "url": "https://x.com/Daseingram/status/2076694662828413030",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l553",
+      "text": "\ud83c\udf1f https://t.co/HU6ZC2JGA6\n\nNutrition is becoming more personalized, evidence-based, and technology-driven.\n\nAs preventive healthcare, AI-assisted nutrition, and digital wellness continue to grow, trusted dietitians are playing a more important role than ever.\n\nhttps://t.co/HU6ZC2JGA6 is a premium, highly credible domain ideally suited for:\n\n\u2022 Registered dietitians\n\u2022 Nutrition clinics\n\u2022 Personalized nutrition platforms\n\u2022 Digital health services\n\u2022 AI-powered meal planning\n\u2022 Corporate wellness prog",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83c\udf1f https://t.co/HU6ZC2JGA6\n\nNutrition is becoming more personalized, evidence-bas\u2026",
+          "url": "https://x.com/Daseingram/status/2076695240468033872",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "@Daseingram humanoid code has to survive noisy sensors and real-time control. very different from shipping another AI app.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Daseingram humanoid code has to survive noisy sensors and real-time control. ve\u2026",
+          "url": "https://x.com/i_mika_el/status/2092229083589488686",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "i feel like i can start to be in a better headspace now that i deep cleaned all my spaces\u2014like my room and bathroom don\u2019t feel as overwhelming now, theres still work to be done in them but its clean to where i can function day to day much better",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "i feel like i can start to be in a better headspace now that i deep cleaned all \u2026",
+          "url": "https://x.com/starrybennz/status/2093521052378829008",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "whenever i tweet weird shit i get hella likes and comments but whenever i tweet regularly normal day to day stuff it gets like 14 views and a like why is that",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "whenever i tweet weird shit i get hella likes and comments but whenever i tweet \u2026",
+          "url": "https://x.com/fayevixenn_/status/2093523682366787802",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "Dolphins coach Jeff Hafley said team didn't feel comfortable enough in letting Quinn Ewers move around in a game with that groin.\n\nHe said Jacob Rodriguez is day to day.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Dolphins coach Jeff Hafley said team didn't feel comfortable enough in letting Q\u2026",
+          "url": "https://x.com/DavidFurones_/status/2093524311176855652",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "@landonsfit @holisticbaddie @bucees Is your day-to-day affected by being retarded?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@landonsfit @holisticbaddie @bucees Is your day-to-day affected by being retarde\u2026",
+          "url": "https://x.com/user_mm_/status/2093524141815300260",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "This entire ecosystem is life changing @Tesla @SpaceXAI @X @grok @bot and now @XMoney. \n\nI have a whole team of bots managing much of my day to day. My Tesla FSD effortlessly brings me place to place, giving me absolute piece of mind on the road. And now I have X Money, with one of the best high yield savings and cashback rewards programs on the market.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "This entire ecosystem is life changing @Tesla @SpaceXAI @X @grok @bot and now @X\u2026",
+          "url": "https://x.com/dandoozle/status/2093527118541979720",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "\u2022 Helping maintain a consistent TRIFLIX look across projects\n\nWhat you'll be editing:\nMost of our day-to-day work includes real estate, talking heads and interviews, commercial projects, and events.\n\nSome projects are fast-turnaround and follow established workflows, while",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\u2022 Helping maintain a consistent TRIFLIX look across projects\n\nWhat you'll be edi\u2026",
+          "url": "https://x.com/kendranelson234/status/2093524079059894506",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "Now hiring: People and Culture Manager\n\n Krakw\nActive work permit in the role's country required\n\nThe People & Culture Manager is our first dedicated People hire in Poland, acting as a true HR Business Partner for the local . This role combines hands-on HR generalist work - onboarding, employee relations, day-to-day advisory - with the...\n\nMake sure your CV mentions visa status, location, availability, and the must-haves above.\n\nFast hiring process, apply through the link below.\n\nApply: https://",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Now hiring: People and Culture Manager\n\n Krakw\nActive work permit in the role's \u2026",
+          "url": "https://x.com/afahmy_dev/status/2093520179699331290",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "@rajaththi You are shaping gorgeous day to day.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@rajaththi You are shaping gorgeous day to day.",
+          "url": "https://x.com/arunabha2012/status/2093524890850873723",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "@MrDelicious13 Hip flexor here. No effin reason; just existing. Day to day.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@MrDelicious13 Hip flexor here. No effin reason; just existing. Day to day.",
+          "url": "https://x.com/Artfull_Hodger/status/2093529941233082871",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "@NewGameDMD I remember when I was hating on the phrase aura farm, and then I genuinely started using it in my day to day and I felt like a butterfly that had been freed from a cocoon. I still try to go back to saying sauce but it's just a super useful phrase I can't help it \ud83d\ude2d",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@NewGameDMD I remember when I was hating on the phrase aura farm, and then I gen\u2026",
+          "url": "https://x.com/styl1shb4nana/status/2093529688664633479",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "@Levi_J_Combs @OpenAI Yeah, seen that too. But, it's hard to know for sure with these benchmarks as they are typically gamed by one company or another.\n\nEither way, Grok has been amazing for me in my day to day.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Levi_J_Combs @OpenAI Yeah, seen that too. But, it's hard to know for sure with \u2026",
+          "url": "https://x.com/danielkleach/status/2093525714301550598",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "PlateIQ: The Anatomy of an AI Dietitian | Charted\n0:00 The Old Way: Manual Calorie Counting\n0:30 Snap & Track in 5 Seconds: AI Food Recognition\n1:00 The AI Nutrition Coach: Your Metabolic Profile\n1:30 Daily, Weekly & Monthly Progress Analysis\n2:00 Multi-Modal Logging: Photo, Text & Barcode\n2:30 Smart Allergen Detection: Gluten, Dairy, Nuts\n3:00 Scientific Activity Tracking with MET Coefficients\n3:30 Visual Goal Projections: Predict Your Target Date\n4:00 Free vs Premium Tier Comparison\n\nPlateIQ i\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "PlateIQ: The Anatomy of an AI Dietitian | Charted\n0:00 The Old Way: Manual Calor\u2026",
+          "url": "https://www.youtube.com/watch?v=std9u-uLL1U",
+          "date": "2026-03-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -99,7 +1443,22 @@
       "returned": 10,
       "source": "linkedin (unofficial scrape)",
       "_raw": "data/professions/29-1031/raw/linkedin_l4.json"
-    }
+    },
+    "l5Sample": [
+      {
+        "date": "2026-08-29",
+        "added": 64,
+        "sources": {
+          "github": 4,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 1,
+          "x": 34,
+          "youtube": 1
+        },
+        "status": "sampled"
+      }
+    ]
   },
   "confidence": "high",
   "caveats": []
