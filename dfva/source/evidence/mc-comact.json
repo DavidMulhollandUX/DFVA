@@ -1,0 +1,121 @@
+{
+  "code": "mc-comact",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Anchor level 1: 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it.' Collaborative learning and team work recur as generic-skills/graduate-attribute claims across the program, but no assessment description in any core subject names a group project, client/stakeholder work, or interprofessional activity — every assessed task (reports, written assignments, presentations, exams) is described as an individual deliverable. No human-plus-tool coordination is documented anywhere, so level 3 does not apply.",
+      "evidenceLines": [
+        "Demonstrate a capacity to successfully engage in collaborative activities such as group-based work and activities; and",
+        "Collaborative learning and team work;",
+        "Collaborative learning; problem solving; team work"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "ACCT90039 ('Critically evaluate accounting research employing experiments and other methods of behavioural research') and ACCT90044/ACCT90045 ('Critically assess research design choices...') carry assessed written work (written assignment 35%; research proposal 50%) that operationalises critique of published research design — plausibly level 2's 'structured critique.' The extract never documents the marking criteria or rubric structure behind that critique. Ambiguous between level 1 ('appears in outcomes... but no core unit assesses it against criteria') and level 2 ('criterion-referenced appraisal'); per the ambiguity rule, scored at the lower level and recorded in ambiguities. No reliance-decision or AI-judgement evidence exists for level 3.",
+      "evidenceLines": [
+        "Critically evaluate accounting research employing experiments and other methods of behavioural research.",
+        "Critically assess research design choices in the context of specific research questions in the chosen area of accounting research."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "'Using computer software' (ACCT90011), 'Application of Windows software' and 'Using and designing computer programs' (ECOM90013) are the only digital-tool content in the extract, appearing as generic-skills lines on core (non-elective) subjects — squarely level 1's 'tool operation/training.' No line addresses AI capabilities, limitations, ethics, governance, or use-with-limits, so level 2 and above are not reached.",
+      "evidenceLines": [
+        "Using computer software",
+        "Application of Windows software",
+        "Using and designing computer programs"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Demoted from level 3 on review: one of the three cited evidence lines ('Independently research the project topic, using a wide range of source material; and') is drawn from ACCT90003's Intended Learning Outcomes section, not its Assessment page — outcome-statement evidence that cannot establish an assessed level-3 claim. The remaining two lines (the two 5000-word report assessment descriptions) confirm only that a substantial, individually-supervised report is graded; they say nothing about the student choosing the topic, which is what the self-scoped claim requires. The Overview-page language that would actually establish self-scoping (Director approval of topic; 'collect data to test their theoretical framework and prepare a manuscript...') was never quoted in evidenceLines. As cited, the evidence clears level 2 ('application to novel or unfamiliar problems') — a compulsory, individually-supervised, 100%-weighted (80%-hurdle on ACCT90043) empirical research report — but not level 3.",
+      "evidenceLines": [
+        "Independently research the project topic, using a wide range of source material; and",
+        "A 5000 (+/- 10%) word report, with the word limit to be agreed upon in consultation with the supervisor",
+        "A 5000 (+/-10%) word report, with the word limit to be agreed upon in consultation with the supervisor"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "ACCT90003/ACCT90043 require students to 'collect data to test their theoretical framework' — primary evidence generation, required (not elective) and assessed (100% weight report, 80% hurdle on ACCT90043). Level 3 additionally requires the methodology to be 'defended under scrutiny (viva, defence, or staged supervised review).' The extract shows supervisor assignment, Director approval of topic, and a manuscript that is 'workshopped' before submission, which could constitute staged supervised review, but no line uses viva/defence/examination language for the methodology itself. Ambiguous between level 2 and level 3; scored at the lower level and recorded in ambiguities.",
+      "evidenceLines": [
+        "The subject will also require students to collect data to test their theoretical framework and prepare a manuscript that can be workshopped and submitted for publication in a leading accounting research journal.",
+        "The Director of the Doctoral Program in Accounting or their nominee must approve the topic and, in discussion with the student, assign a supervisor.",
+        "Hurdle requirement: 80%"
+      ]
+    },
+    "adaptiveness": 7,
+    "W1": {
+      "score": 1,
+      "rationale": "'Clearly communicate, both orally and in written form, their research ideas' is a course-level outcome. Core assessment adds presentation to peers/staff — seminar presentations (ACCT90019, ACCT90020, ACCT90039) and a Formal Presentation 'in the final workshop' (ACCT90044/45) — but every documented audience is the subject's own workshop/seminar (supervisors, academic staff, cohort peers). No line documents a recognised professional genre (client brief, consultancy/policy advice, pitch) or an audience beyond the teaching team, so level 2 is not reached.",
+      "evidenceLines": [
+        "Clearly communicate, both orally and in written form, their research ideas and their evaluation of the research ideas and procedures from the accounting research literature.",
+        "Seminar presentations and class participation",
+        "In the final workshop held in the second last week of Semester 2"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "ACCT90003/ACCT90043 require students to identify a research question, collect data, and produce a manuscript intended 'for publication in a leading accounting research journal' — a real research task producing the artefact a professional researcher would produce, judged via supervisor and Director involvement: level 2. Level 3 requires this to be the assessment spine AND carry a genuine constraint of practice. The Year 2 core (ACCT90003, ACCT90043, ACCT90044, ACCT90045) forms a plausible scaffolded spine toward the manuscript, but the extract does not document a genuine practice constraint (external audience, real resource/time limits, or the profession's own stated performance standard) for the assessed deliverable. Ambiguous between level 2 and level 3; scored at the lower level and recorded in ambiguities.",
+      "evidenceLines": [
+        "The subject will also require students to collect data to test their theoretical framework and prepare a manuscript that can be workshopped and submitted for publication in a leading accounting research journal.",
+        "The Director of the Doctoral Program in Accounting or their nominee must approve the topic and, in discussion with the student, assign a supervisor.",
+        "A 5000 (+/- 10%) word report, with the word limit to be agreed upon in consultation with the supervisor"
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "No line in the extract mentions a placement, practicum, internship, client project, or community-based project anywhere in the course structure. The subject-level 'supervisor' relationships in ACCT90003/ACCT90043/ACCT90044/ACCT90045 are academic research supervision, not placement in a workplace or professional-community setting with practitioner supervision. Matches level 0.",
+      "evidenceLines": [
+        "Students in the Master of Commerce (Accounting) will need to complete 16 subjects, comprising ten compulsory accounting subjects, one economics subject, one econometric subject and four electives."
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Ten compulsory accounting subjects plus a compulsory economics subject and a compulsory econometrics subject form a specialist core with progressive depth: Year 1 methods/foundational research subjects (Financial Accounting Research, Management Accounting Research, Research Methods, Behavioural Research in Accounting, Special Topics in Accounting) gate into Year 2 advanced/thesis-style subjects (Accounting Research Report 1 & 2, Advanced Accounting 1 & 2), with an explicit progression requirement.",
+        "evidenceLines": [
+          "Students in the Master of Commerce (Accounting) will need to complete 16 subjects, comprising ten compulsory accounting subjects, one economics subject, one econometric subject and four electives.",
+          "An average of no less than 80% in all compulsory subjects in Year 1; and"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "ACCT90003/ACCT90043 require students to independently formulate a research design, 'collect data to test their theoretical framework,' and defend the resulting research-design choices (ACCT90044/45: 'Critically assess research design choices in the context of specific research questions'), assessed via a research proposal and formal presentation — a live research project carrying real methodological uncertainty and accountability, not recall or scripted response.",
+        "evidenceLines": [
+          "The subject will also require students to collect data to test their theoretical framework and prepare a manuscript that can be workshopped and submitted for publication in a leading accounting research journal.",
+          "Critically assess research design choices in the context of specific research questions in the chosen area of accounting research."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2: ACCT90039, ACCT90044 and ACCT90045 assess 'critically evaluate'/'critically assess research design choices' as ILOs via written assignments and a research proposal, which could read as criterion-referenced structured critique (level 2), but the extract documents no explicit marking criteria/rubric structure, so scored at the lower level 1.",
+      "C4: On review, one of the three evidenceLines cited for level 3 came from an Intended Learning Outcomes section rather than an Assessment page, and no genuine assessment-page evidence establishes that the student chooses the research topic (the Director approves it). Demoted to level 2 — a compulsory, individually-supervised, 100%-weighted empirical research report. A fresh capture that quotes the Overview-page self-scoping language (Director approval process, primary-data collection, workshop/publication track) directly from an Assessment-linked source could support re-scoring to level 3.",
+      "C5: ACCT90003/ACCT90043 are required, primary-data research projects with supervisor assignment, Director approval of topic, and manuscripts 'workshopped' before submission — this could satisfy level 3's 'staged supervised review' of methodology, but the extract never uses viva/defence/examination language for the methodology itself, so scored at the lower level 2.",
+      "W2: The Year 2 core sequence (ACCT90003, ACCT90043, ACCT90044, ACCT90045) forms a scaffolded progression toward a publication-track research manuscript, which could satisfy level 3's assessment-spine criterion, but no line in the extract documents a genuine constraint of practice (external audience, real resource/time limits, or the profession's stated performance standard), so scored at the lower level 2."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-30"
+      },
+      "mechanical": true,
+      "date": "2026-08-29"
+    }
+  }
+}
