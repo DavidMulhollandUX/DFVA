@@ -1,29 +1,34 @@
-# Deep Research Evidence Log: Internists, General (29-1063)
+# Evidence log: Internists, General (29-1063)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `29-1063-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Internists, General] Professional Practice Framework and Digital Competency Guidelines for Internists, General — https://www.psc.gov.au/standards/29-1063 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Internists, General enforce non-delegable ethical accountability and human verification ove..."
 
-> "National peak professional bodies and statutory regulators governing Internists, General enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Internists, General — https://www.jobsandskills.gov.au/research/29-1063 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Internists, General heightens the demand for adaptive problem solving, interdisciplinary stakeholder..."
 
-- **Scope:** Australian practitioners in Internists, General across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Internists, General** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Internists, General](https://www.psc.gov.au/standards/29-1063) — *What it measured:* National competency and ethics framework for Internists, General
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (72 claims)
+- last30days declared sample: 72 items across github=3, grounding=0, hackernews=24, jobs=0, reddit=1, x=37, youtube=2.
+- Representative practitioner quotes:
+  - [github] feat: World EHR (IPS + passport), dispensing, clinical catalogs, HCC v28 + eCW, RVU productivity, SMS engagement
+Seven i...
+  - [github] [WR] Lead Generation Engine Based on Compilation of Sources and Queries
+### Output Type (required)
 
-### Claim `29-1063-02` (L2 · scholarly)
+production-app
 
-> "Automation of routine transactional and analytical tasks in Internists, General heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Internists, General roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Internists, General](https://www.jobsandskills.gov.au/research/29-1063) — *What it measured:* Labour market analysis of automation resilience across Internists, General in Australia
-
----
+### ...
+  - [github] feat: life insurance lead engine
+This PR implements the requested `production-app` for a Life Insurance Lead Generation ...
+  - [hackernews] Tell HN: Man, AI is killing my brain...
+  - [hackernews] What breaks in production AI workflows?...

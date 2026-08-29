@@ -1,29 +1,38 @@
-# Deep Research Evidence Log: Dentists, General (29-1021)
+# Evidence log: Dentists, General (29-1021)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `29-1021-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Dentists, General] Professional Practice Framework and Digital Competency Guidelines for Dentists, General — https://www.psc.gov.au/standards/29-1021 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Dentists, General enforce non-delegable ethical accountability and human verification over ..."
 
-> "National peak professional bodies and statutory regulators governing Dentists, General enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Dentists, General — https://www.jobsandskills.gov.au/research/29-1021 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Dentists, General heightens the demand for adaptive problem solving, interdisciplinary stakeholder c..."
 
-- **Scope:** Australian practitioners in Dentists, General across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Dentists, General** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Dentists, General](https://www.psc.gov.au/standards/29-1021) — *What it measured:* National competency and ethics framework for Dentists, General
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (8 claims)
+- LinkedIn (unofficial scrape): 8 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (65 claims)
+- last30days declared sample: 65 items across github=11, grounding=0, hackernews=24, jobs=0, reddit=2, x=21, youtube=2.
+- Representative practitioner quotes:
+  - [github] 📬 Job Radar batch — 2026-07-26 06:40 UTC (15 roles)
+The radar found **15** new roles since the last batch. They are orde...
+  - [github] Provider layer categories + remove map record caps
+Implements the requested provider-layer cleanup and the previously id...
+  - [github] Market & Tech Review - 2026-08-03
+## English
 
-### Claim `29-1021-02` (L2 · scholarly)
+### 1. Research: 5 Fast-Emerging Technologies (last 1-3 months)
 
-> "Automation of routine transactional and analytical tasks in Dentists, General heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
+**1. Agen...
+  - [github] Give each vertical a silo top at /&lt;vertical&gt;/
+## The problem
 
-- **Scope:** Entry-level and senior Dentists, General roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Dentists, General](https://www.jobsandskills.gov.au/research/29-1021) — *What it measured:* Labour market analysis of automation resilience across Dentists, General in Australia
-
----
+The AI tracking pages were the only page a vertical ...
+  - [github] Publish: Reviews and AEO: what actually moves citation share
+# Ready to publish: Reviews and AEO: what actually moves ci...
