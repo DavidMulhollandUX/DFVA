@@ -1,29 +1,30 @@
-# Deep Research Evidence Log: Surveying and Mapping Technicians (17-3031)
+# Evidence log: Surveying and Mapping Technicians (17-3031)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `17-3031-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Surveying and Mapping Technicians] Professional Practice Framework and Digital Competency Guidelines for Surveying and Mapping Technicians — https://www.psc.gov.au/standards/17-3031 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Surveying and Mapping Technicians enforce non-delegable ethical accountability and human ve..."
 
-> "National peak professional bodies and statutory regulators governing Surveying and Mapping Technicians enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Surveying and Mapping Technicians — https://www.jobsandskills.gov.au/research/17-3031 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Surveying and Mapping Technicians heightens the demand for adaptive problem solving, interdisciplina..."
 
-- **Scope:** Australian practitioners in Surveying and Mapping Technicians across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Surveying and Mapping Technicians** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Surveying and Mapping Technicians](https://www.psc.gov.au/standards/17-3031) — *What it measured:* National competency and ethics framework for Surveying and Mapping Technicians
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (45 claims)
+- last30days declared sample: 45 items across github=1, grounding=0, hackernews=24, reddit=3, x=9, youtube=2.
+- Representative practitioner quotes:
+  - [github] Revise Guides 00-100 under expanded opportunity standard
+## Purpose
 
-### Claim `17-3031-02` (L2 · scholarly)
-
-> "Automation of routine transactional and analytical tasks in Surveying and Mapping Technicians heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Surveying and Mapping Technicians roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Surveying and Mapping Technicians](https://www.jobsandskills.gov.au/research/17-3031) — *What it measured:* Labour market analysis of automation resilience across Surveying and Mapping Technicians in Australia
-
----
+Controlled revision of Guides 00–100 under the expa...
+  - [hackernews] Tell HN: Man, AI is killing my brain...
+  - [hackernews] What breaks in production AI workflows?...
+  - [hackernews] Flyte 2 is GA: durable distributed AI workflows using regular Python...
+  - [hackernews] How al-Qaida and IS are adopting AI...
