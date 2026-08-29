@@ -1,0 +1,123 @@
+{
+  "code": "mc-advnpph",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2, not 3: NURS90069 (core in all four pathways) assesses group projects with individual accountability ('Group Project Part A/B' plus 'Individual Clinical Leadership Project' parts). No evidence of assessed human-plus-tool/AI coordination anywhere in the extract, so Level 3 is not met.",
+      "evidenceLines": [
+        "Individual Clinical Leadership Project (Part A): Clinical Leadership Project Plan",
+        "Group Project Part A: Interactive Oral Presentation",
+        "Group Project Part B: Peer Feedback (Invigilated & Synchronous)",
+        "Individual Clinical Leadership Project (Part B): Clinical Leadership Project Report"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2: NURS90069's graded 'Group Project Part B: Peer Feedback' and NURS90120's assessed critical appraisal 'using relevant appraisal frameworks' match the Level 2 anchor's peer review / marking-against-exemplars examples. No core assessment documents a justified reliance/override decision on a tool, source or collaborator, so Level 3 is not met.",
+      "evidenceLines": [
+        "Group Project Part B: Peer Feedback (Invigilated & Synchronous)",
+        "Demonstrating knowledge and skills in critically appraising research using relevant appraisal frameworks"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1: the only digital-technology content in the extract is 'ISYS90069 Digital Transformation of Health', listed in the 'MC-ANP electives' table, not in any core unit or program-level outcome -- matching Level 1's 'AI or digital tools appear only as electives'.",
+      "evidenceLines": [
+        "MC-ANP electives",
+        "ISYS90069\tDigital Transformation of Health"
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Demoted from Level 2 to Level 1 on verification: the Level 2 evidence line is drawn from POPH90274's course Overview ('students will have the opportunity to apply the skills learnt to public health scenarios drawn from Australian and international case-studies'), not from its Assessment section, and is not tied to the actual assessed 'Health program proposal document' item. No assessed feature in the extract documents case variation, unseen datasets, or cross-context application. Per R4 (score only documented task features, never marketing/overview language) and the rubric's ambiguity-resolves-downward rule, this defaults to Level 1 ('Transfer is claimed in outcomes... but not assessed'). No other core-across-all-pathways unit (POPH90013, POPH90014, POPH90217, POPH90231, NURS90069/86/120) supplies alternative Level-2 evidence. Level 3's self-scoped research capstone exists only on the Research pathway, not program-wide, so it does not raise the score either.",
+      "evidenceLines": [
+        "Within this subject, students will have the opportunity to apply the skills learnt to public health scenarios drawn from Australian and international case-studies.",
+        "Health program proposal document"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Level 1: compulsory research-methods units (NURS90059, POPH90302, POPH90231) all assess a written proposal/protocol/design rather than conducted research with data collection, matching 'introductory methods unit; literature-review assessment'. The Research pathway's own Independent Study Project would satisfy Level 2, but is one of four pathway options, and Level 3's anchor explicitly excludes evidence that is 'one route among several'.",
+      "evidenceLines": [
+        "Formulate a qualitative research design to answer a public health question, including; selecting the population and sample, recruitment methods, data collection tools and approach to analyses.",
+        "A research proposal"
+      ]
+    },
+    "adaptiveness": 7,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1: communication is a program-level Generic Skill and core units add presentations to the teaching team (NURS90069), but no professional genre or external audience is documented program-wide. Professional/CGL-only POPH90218's 'Policy Advocacy Pitch' would satisfy Level 2, but is not core outside those pathways.",
+      "evidenceLines": [
+        "Communicate effectively in written, oral and visual formats to a range of audiences.",
+        "Group Project Part A: Interactive Oral Presentation"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1: POPH90274's scenario-framed 'Health program proposal document' is contextualised against real case studies, but the extract never confirms marking criteria drawn from practice, so Level 2 is not confirmed program-wide.",
+      "evidenceLines": [
+        "Within this subject, students will have the opportunity to apply the skills learnt to public health scenarios drawn from Australian and international case-studies.",
+        "Health program proposal document"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1: work-situated learning exists only within two of four elective pathways (Professional's year-long placement; CGL's two-week fieldwork) -- absent entirely from the Research and Coursework pathway capstones -- so a student can complete the degree with none, matching Level 1's 'exists only as an elective... activity' despite the Professional pathway alone reading as Level 3.",
+      "evidenceLines": [
+        "The Professional pathway involves undertaking a professional placement with a recognised agency, institution, or community organisation, creating an invaluable work-integrated learning experience to enhance students’ employability.",
+        "The Collaborative Global Leadership pathway offers students the opportunity to develop their collaboration and leadership skills, relevant to an international context and incorporates a two-week fieldwork integrated learning experience."
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "A staged prerequisite chain (NURS90070 builds on NURS90120) plus a compulsory, discipline-specific core spanning advanced nursing practice and public health methodology (POPH90013 'compulsory for students enrolled in the Master of Public Health') demonstrates coherent disciplinary depth, not generic content.",
+        "evidenceLines": [
+          "This subject is designed to build on students’ knowledge and critical appraisal skills gained in the pre-requisite subject, Evidence in Practice (NURS90120), to implement the best available evidence into clinicians’ practice.",
+          "This subject is compulsory for students enrolled in the Master of Public Health, Master of Epidemiology and the Master of Science (Epidemiology)."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "NURS90086's 'Written assignment & oral defence' assessment and POPH90274's requirement to 'Prioritise and select strategies and interventions to address health needs' both meet the defended-trade-off-decision criterion within the compulsory core.",
+        "evidenceLines": [
+          "Written assignment (2500 words) & oral defence (500 words equivalent)",
+          "Prioritise and select strategies and interventions to address health needs"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C4 and C5: the Research pathway's NURS90164/NURS90165 Independent Study Project satisfies C4's Level 3 ('self-scoped capstone or research project') and C5's Level 2 ('design and conduct... with data collection'), but is required only on the Research pathway, one of the program's four elective pathways -- not documented as true of the program as a whole, so the lower, universally-guaranteed level was taken for both items; C5's own Level 3 anchor additionally disqualifies this route by name ('REQUIRED, not one route among several').",
+      "W1, W2 and W3 could each score higher under the Professional pathway (POPH90286/POPH90287 Professional Practice: an extended supervised, assessed placement with 'Workplace supervisor assessment of the student's completion of the project' as a hurdle) and the Collaborative Global Leadership pathway's 'two-week fieldwork integrated learning experience'; W1 and W2 also higher under the Professional/CGL-only POPH90218 Public Health Leadership and Policy ('Policy Advocacy Pitch + Campaign Materials'; 'Systems Mapping'). None of these units are core to the Research or Coursework pathways, so the lower level guaranteed program-wide was taken for all three items.",
+      "W2: Applied Program Development's 'Health program proposal document', set against 'public health scenarios drawn from Australian and international case-studies', is realistic enough to arguably satisfy Level 2 ('reproduces a professional task end to end'), but the extract never states that its marking criteria are drawn from practice, so Level 1 was taken.",
+      "C5: the compulsory core-selective and core research-methods units (NURS90059, POPH90302, POPH90231) all assess a written proposal/protocol/design rather than actually conducting research and collecting data, which is Level 1 by the anchor's own wording ('introductory methods unit; literature-review assessment').",
+      "C4 (verify pass): demoted from Level 2 to Level 1 -- the sole Level-2 evidence line came from a course Overview sentence, not from an assessed task, and no other core-across-all-pathways unit supplied qualifying assessed evidence."
+    ],
+    "notScoreable": [
+      "The Collaborative Global Leadership pathway's two capstone subjects ('Collaborative Global Leadership Part 1' and 'Collaborative Global Leadership Part 2') have no subject page, learning outcomes, or assessment breakdown in the extract beyond the one-sentence course-overview description of a 'two-week fieldwork integrated learning experience' -- their detailed assessment design could not be scored.",
+      "The subject page fetched at the POPH90239 ('Professional Practice - S') URL returns content for an unrelated subject, Economics of Financial Markets (ECON30024), so POPH90239's own content and assessment (referenced as a discontinued alternative in the Professional pathway's capstone table, marked 'No longer available') could not be verified from this extract.",
+      "NURS90072 Advanced Nursing Practice in Context documents a learning contract, self-directed scope-of-practice project and practice portfolio directly relevant to C4 and W2, but the subject is marked 'Not available in 2026', so it could not be used as current core/elective evidence."
+    ],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-29"
+      },
+      "mechanical": true,
+      "date": "2026-08-29"
+    }
+  }
+}

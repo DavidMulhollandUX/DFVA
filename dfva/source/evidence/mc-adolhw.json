@@ -1,0 +1,127 @@
+{
+  "code": "mc-adolhw",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Collaboration and multi-disciplinary/interprofessional working appear repeatedly as learning outcomes and generic skills (Young People in Context, Professional Practice in Context), and PAED90007 devotes a whole module to 'Working with other professionals'. But no core-subject assessment table (POPH90167, PAED90007, POPH90172, POPH90173, POPH90231, POPH90268, POPH90311) contains a group-graded, stakeholder, or interprofessional assessment task, and no core evidence coordinates work across people AND tools/AI systems (no AI/tool content appears anywhere in the extract). This matches Level 1 exactly: collaboration named in outcomes, not assessed in any core unit.",
+      "evidenceLines": [
+        "further develop collaborative ways of working and learning aimed at building partnerships in a multi-disciplinary environment.",
+        "develop collaborative ways of working across different disciplines and sectors",
+        "Working with other professionals"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "PAED90007 assesses '5x pieces of reflective writing' (10% of the subject) inside a 'Reflective practice' module, and lists reflecting on one's own professional experience as a generic skill. This is reflection that IS assessed, but the extract shows no criterion-referenced appraisal of quality (no peer review, no structured critique, no marking-against-exemplars rubric, no reliance-decision task) anywhere in a core unit -- it is reflection on experience, not evaluative judgement of a piece of work per the anchor's construct. Per R2/R4 a reflective-writing task cannot be read up into a quality-appraisal level without a documented rubric, so this sits at Level 1 (reflection appears/assessed, no criterion-referenced quality appraisal) rather than 2.",
+      "evidenceLines": [
+        "5x pieces of reflective writing (Max: 400 words each)",
+        "develop your capacity to reflect on your professional experiences to enhance your practice"
+      ]
+    },
+    "C3": {
+      "score": 0,
+      "rationale": "No AI content, and no digital-tool operation/training content, appears in any core-subject overview, learning outcomes, or assessment table anywhere in the extract. The only IT-related mention in the whole document is the course-level generic-skills bullet 'Skills in information technology', which is a bare attribute claim with no associated content, elective, or assessed task -- it does not even clear the Level 1 bar ('AI or digital tools appear only as electives or as tool operation/training'), since nothing is actually taught or assessed. Per R2 a stated generic skill is not curriculum evidence, so this scores 0.",
+      "evidenceLines": [
+        "Skills in information technology"
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Demoted from 3 to 2 on review. The Level-3 anchor ('structured progression toward independent learning: a self-scoped capstone or research project') is documented only for the Research-specialisation core (POPH90268), not confirmed for the Leadership-specialisation core, whose parallel subject WELF90013 has no subject or assessment page anywhere in the extract. Per the instrument's scoring-direction rule ('when the evidence is ambiguous between two levels, take the LOWER level ... Never resolve ambiguity upward'), this is the same Research-only-versus-unconfirmed-Leadership-branch ambiguity that correctly capped C5 at Level 2, and it applies here regardless of whether C4's own anchor text repeats the 'not one route among several' clause. On the confirmed Research-branch evidence alone, POPH90268 supports applying methodology to a self-chosen, unfamiliar problem (Level 2), not a confirmed program-wide self-scoped capstone (Level 3).",
+      "evidenceLines": [
+        "There is no prepared content in this unit. It is a research unit in which students, in consultation with an appointed supervisor, carry out research tasks to develop new knowledge (content) themselves. From time to time, supervisors will provide students with appropriate readings to support their research. Supervisors are appointed by the co-ordinator in consultation with the student.",
+        "Minor research thesis on a topic relevant to the field of adolescent health",
+        "Hurdle requirement: Students must achieve at least 50% in the minor thesis in order to pass this subject"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "POPH90268 (Research-specialisation core) requires students to design and conduct primary research -- 'Selected an appropriate research design' and 'Justified appropriate methods for data analysis' as learning outcomes, assessed via a 12,000-word thesis (80%) -- and POPH90231 (Qualitative Research in Public Health, Research-specialisation core) explicitly teaches students to 'design, plan and evaluate qualitative research', assessed via 'A research proposal' (60%). This satisfies Level 2 (methodology selection and data collection, assessed). Level 3 is explicitly barred by its own anchor text ('REQUIRED, not one route among several'): the Leadership specialisation's core (POPH90311, plus the uncaptured WELF90013) does not document an equivalent required primary-evidence-generating project, so the primary-research route is one of two specialisation paths, not a universal requirement. Scored down per the anchor's own exclusion clause.",
+      "evidenceLines": [
+        "Selected an appropriate research design;",
+        "Justified appropriate methods for data analysis;",
+        "This subject will introduce students to qualitative research in public health - both the principles underlying design and the strengths and weaknesses of different qualitative methodologies. It will cover a range of methods, such as individual interviews, group interviews, visual and participatory methods. Each element of research design will be covered, from recognising research paradigms and sampling strategies through to the different types of analysis. Students will learn how to design, plan and evaluate qualitative research as sources of evidence in public health.",
+        "A research proposal"
+      ]
+    },
+    "adaptiveness": 6,
+    "W1": {
+      "score": 1,
+      "rationale": "Oral and written communication is a stated course-level generic skill, and the Leadership-specialisation core unit POPH90311 assesses an 'Individual Oral Presentation (7 minutes)' (15%) and a 'Final Oral Presentation (7 minutes)' (15%). This matches Level 1 precisely: communication named in outcomes, and core assessment adds presentation, but the extract documents no recognised professional genre (client brief, policy advice, clinical handover, pitch) and no audience beyond the teaching team -- the presentations are not described as delivered to or judged by an external practitioner/client/panel. Per R2, the generic-skills claims of 'communicate effectively with... agencies, and other professionals' (Young People in Context) do not count as assessment evidence on their own.",
+      "evidenceLines": [
+        "Oral and written communication skills",
+        "Individual Oral Presentation (7 minutes)",
+        "Final Oral Presentation (7 minutes)"
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "PAED90007 (common core) assesses a 'Case Study including psychosocial assessment' (40%) -- a psychosocial assessment is a named practice artefact, not merely an academic essay -- and POPH90173 (common core) assesses a 'Project Proposal: Development of a strategic Health Promotion project proposal' (60%), a document a health-promotion practitioner would genuinely produce. Both reproduce a realistic professional task end-to-end and are judged as deliverables rather than exam answers, meeting Level 2. Level 3 is not reached: the extract documents no genuine constraint of practice (ambiguous/externally supplied problem, real resource/time limits, a consequential external audience, or the profession's own performance standards) attached to either task, and while these authentic-style tasks recur across several core subjects, no capstone-plus-scaffolding 'assessment spine' with such a constraint is described. Per R4, the mere framing (case study, project proposal) is not scored up without documented fidelity features beyond task type.",
+      "evidenceLines": [
+        "Case Study including psychosocial assessment",
+        "Assessment Task 2: Project Proposal Development of a strategic Health Promotion project proposal"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "The extract shows no placement, practicum, or supervised community-based project in any common or specialisation core unit. The one subject that fits the W3 construct -- POPH90170 Adolescent Health Project, an own-practice project ('develop and review a critical inquiry project relevant to their professional practice workplace / setting that influences outcomes for young people'), assessed via a project report -- is listed only under 'Electives Group 1' in both the Research and Leadership specialisations, never as core. This is the Level 1 anchor exactly: work-situated learning exists only as an elective. Ambiguity: POPH90311 (Leadership core) references students' 'own understanding of workplace situations' and 'the realities of their own position', which brushes the W3 own-practice-route language, but the extract documents no assessed activity there with real recipients and a documented outcome measure (its assessment is a Report and a Reflective Practice Paper on advocacy/evidence use, not own-practice service delivery), so it was not counted toward W3, per the one-construct-one-home rule and R4.",
+      "evidenceLines": [
+        "In this subject, participants will draw on ideas from research, along with theoretical frameworks and strategies explored during the course to develop and review a critical inquiry project relevant to their professional practice workplace / setting that influences outcomes for young people.",
+        "POPH90170\tAdolescent Health Project"
+      ]
+    },
+    "workplace": 4,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The course structure documents an all-compulsory specialist core for each specialisation ('Six core subjects' for both Research and Leadership specialisations), every one of which is adolescent-health-specific in name and content (Young People in Context, Professional Practice in Context, SocioEnvironmentalContext of Adolescents, Health Promotion and Young People, plus a specialisation-specific research or leadership sequence). This is a coherent, compulsory, discipline-specific core, satisfying G1's PASS condition.",
+        "evidenceLines": [
+          "RESEARCH SPECIALISATION: Six core subjects and eight electives from lists below. Students have the option of exiting at a Graduate Certificate or Graduate Diploma level.",
+          "LEADERSHIP SPECIALISATION: Six core subjects and nine electives from the lists below. Students have the option of exiting at a Graduate Certificate or Graduate Diploma level."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "POPH90268 (Research-specialisation core) requires students to independently justify and defend methodological choices ('Justified appropriate methods for data analysis') in a hurdled, supervised research proposal before proceeding to the thesis, with real (not scripted) uncertainty about outcome. POPH90311 (Leadership-specialisation core) requires students to 'Plan, implement and evaluate a stakeholder engagement strategy on a chosen topic of concern or interest' -- an open-ended, live, accountability-bearing task rather than recall or scripted response. Both specialisation cores document defended trade-off decisions or live-project uncertainty, satisfying G2's PASS condition.",
+        "evidenceLines": [
+          "Justified appropriate methods for data analysis;",
+          "Hurdle requirement: Students must submit the research proposal in order to pass this subject",
+          "Plan, implement and evaluate a stakeholder engagement strategy on a chosen topic of concern or interest."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1: elective POPH90169 (Adolescent Sexuality and Sexual Health) has genuine group-assessed work ('Group written assignment... Students will be assessed as a group'), but as an elective it does not count toward a core-unit-only construct; C1 is scored from core evidence alone at Level 1.",
+      "C2: PAED90007's 5x reflective-writing pieces are assessed (10%), which could be read as self-assessment 'assessed against criteria', but no criterion-referenced rubric for appraising quality of work is documented in the extract, so the lower Level 1 was taken rather than Level 2.",
+      "C3: the course-level generic-skills bullet 'Skills in information technology' is the only IT-adjacent mention anywhere in the extract; it does not describe assessed content, an elective, or tool-operation training, so the lower Level 0 was taken rather than Level 1.",
+      "C4: demoted on review from 3 to 2. The self-scoped-capstone evidence (POPH90268 Minor Thesis) is documented for the Research-specialisation core only; the Leadership-specialisation core substitutes WELF90013 (subject page not captured in this extract) and POPH90311, so it is unconfirmed whether an equivalent self-scoped/knowledge-gap route exists on that branch. Per the instrument's global ambiguity rule (resolve ambiguity to the lower level, regardless of whether an individual anchor restates it), this now matches C5's treatment of the identical Research-only-versus-unconfirmed-Leadership ambiguity.",
+      "C5: POPH90268 in isolation would support Level 3 (substantial required primary-evidence project, methodology defended in a supervised proposal), but per the anchor's own text ('REQUIRED, not one route among several'), because the Leadership specialisation does not document an equivalent required primary-research project, the item was capped at Level 2.",
+      "W2: whether PAED90007's 'Case Study including psychosocial assessment' and POPH90173's health-promotion 'Project Proposal' constitute the literal end-to-end artefact a practitioner would produce, versus an academic write-up framed around one, is not fully explicit in the extract; the lower reading (Level 2, not 3) was taken, and no genuine constraint of practice was found to support Level 3 regardless.",
+      "W3: POPH90311 (Leadership core) references the student's 'own understanding of workplace situations' and 'the realities of their own position', approaching the v4.2 own-practice route, but its assessment (Report, Reflective Practice Paper, oral presentations on stakeholder advocacy) is not documented as activity in the student's own practice with real recipients and a documented outcome measure, so it was not counted, and W3 remains at Level 1 on the strength of the elective-only POPH90170."
+    ],
+    "notScoreable": [
+      "WELF90013 'Leadership in Adolescent Health' (25 credit points, Year Long, the Leadership specialisation's largest core subject besides the shared four) has no captured subject overview or assessment page in this extract (no '===== SOURCE: .../subjects/welf90013 =====' section appears). All scores above rely only on the four common core subjects plus POPH90268/POPH90231 (Research core) and POPH90311 (Leadership core); WELF90013's content could shift C1, C4, W1 or W3 if it contains group, placement, or leadership-practicum assessment not visible here.",
+      "POPH90014 (Epidemiology 1) and POPH90058 (Health Program Evaluation 1), listed as Electives Group 2 options, also have no captured subject page in the extract, but since both are elective-only they were not needed for any core-unit-based score."
+    ],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-29"
+      },
+      "mechanical": true,
+      "date": "2026-08-29"
+    }
+  }
+}

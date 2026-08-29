@@ -1,0 +1,126 @@
+{
+  "code": "mc-actscex",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Collaboration/teamwork is named in core-subject generic skills (MAST20004, MAST20005) and in the program's graduate attributes, matching Level 1's 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it.' The only assessed team-based task in the extract, ACCT90042's group project, sits in an ELECTIVE subject, not a CORE unit, so Level 2's 'at least one core unit assesses collaborative practice' is not met on the evidence given.",
+      "evidenceLines": [
+        "collaborative skills: the ability to work in a team;",
+        "Collaborative skills: the ability to work in a team;",
+        "Able to collaborate and be effective in team work.",
+        "Group project (4000 words equivalent, in groups of 3-4 students)"
+      ]
+    },
+    "C2": {
+      "score": 0,
+      "rationale": "No core-subject assessment in the extract involves criterion-referenced peer review, structured critique, portfolio-with-standards, or marking against exemplars, and none requires documenting or defending a reliance decision. Every core subject's assessment is limited to individual/mid-semester assignments and end-of-semester exams, matching Level 0's 'No assessment requires students to appraise the quality of work.'",
+      "evidenceLines": [
+        "Individual Assignment 1",
+        "Mid-semester exam (Week 7‐8)",
+        "End-of-semester exam"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "ACTL90007 (a CORE subject) introduces 'elementary principles of machine learning' applied to a mortality dataset, so AI content is present in the core — but only at the operational/technique level, with no discussion of limitations, ethics, bias, accountability or governance anywhere in the extract. This matches Level 1's 'AI or digital tools appear ... as tool operation/training — the operational level TEQSA identifies as non-durable,' not Level 2's requirement that limitations/ethics be addressed.",
+      "evidenceLines": [
+        "Building on this, models used for mortality projections and forecasting, and elementary principles of machine learning are provided.",
+        "Explain and apply elementary principles of machine learning."
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Transfer to unfamiliar problems is claimed in MAST20004's and MAST20005's generic-skills lists ('the ability to engage with unfamiliar problems and identify relevant solution strategies') and the course-level outcome 'Execute a project requiring research or a real-world application,' but no assessment description in the extract ties these claims to a specific novel-problem or self-scoped task. This matches Level 1's 'Transfer is claimed in outcomes ... but not assessed,' not Level 2's requirement for an assessed application to novel/unfamiliar problems.",
+      "evidenceLines": [
+        "problem-solving skills: the ability to engage with unfamiliar problems and identify relevant solution strategies;",
+        "Problem-solving skills: the ability to engage with unfamiliar problems and identify relevant solution strategies;",
+        "Execute a project requiring research or a real-world application."
+      ]
+    },
+    "C5": {
+      "score": 0,
+      "rationale": "MAST20005 Statistics and ACTL90001 teach introductory data-analysis and estimation/hypothesis-testing methodology ('the basic elements of statistical modelling, computation and data analysis'; 'the aims and conducting of data analysis'), but the extract shows no core assessment in which students design and conduct their own inquiry with methodology selection and data collection, and no required primary-evidence project with defended methodology. This is closest to Level 0's 'Secondary synthesis only; no research-methods training,' taken as the lower level given the statistics units arguably brush against Level 1's 'introductory methods unit.'",
+      "evidenceLines": [
+        "This subject introduces the basic elements of statistical modelling, computation and data analysis.",
+        "Demonstrate an understanding of the basic ideas of estimation and hypothesis testing;",
+        "Describe sources of data, the aims and conducting of data analysis, and the principles of actuarial modelling in the solution of a range of practical problems;"
+      ]
+    },
+    "adaptiveness": 3,
+    "W1": {
+      "score": 0,
+      "rationale": "The course-level generic skill 'Written and oral communication of actuarial ideas, theories and solutions to peers and the wider community' names communication as an outcome, but every core-subject assessment described in the extract is an academic-genre task (assignment, mid-semester test, end-of-semester exam) with no presentation component, professional genre, or audience beyond the teaching team documented. This matches Level 0's 'All core assessment is in academic genres addressed to the marker ... no professional-genre or spoken communication is assessed,' rather than Level 1, which additionally requires 'core assessment adds presentation to peers/staff.'",
+      "evidenceLines": [
+        "Written and oral communication of actuarial ideas, theories and solutions to peers and the wider community;",
+        "Written communication"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Core and capstone subjects apply actuarial technique to realistic insurance and financial contexts — e.g. Life Contingencies' 'Project expected future cashflows and perform profit testing for various insurance policies' and the course-level outcomes 'Calculate quantities such as premiums, reserves and superannuation contribution rates' and 'Analyse real and hypothetical problems in insurance and superannuation' — which goes beyond Level 0's 'entirely decontextualised' problem sets. But no assessment description specifies that the artefact produced is the form a practitioner would produce or that it is judged against practice-drawn criteria, so Level 2's 'reproduces a professional task end to end' is not clearly evidenced. Scored at Level 1, 'Contextualised or scenario-framed tasks appear ... but the artefact produced and the criteria applied remain academic.'",
+      "evidenceLines": [
+        "Calculate quantities such as premiums, reserves and superannuation contribution rates using actuarial techniques;",
+        "Analyse real and hypothetical problems in insurance and superannuation;",
+        "Project expected future cashflows and perform profit testing for various insurance policies."
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "No placement, practicum, internship, work-integrated-learning unit, or own-practice assessed activity is named anywhere in the extract; the course structure enumerates only 'Eight core actuarial subjects (100 points)', 'Two capstone subjects (25 points)' and 'Six elective subjects (75 points).' This matches Level 0's 'No work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure.'",
+      "evidenceLines": [
+        "Eight core actuarial subjects (100 points)",
+        "Two capstone subjects (25 points)",
+        "Six elective subjects (75 points)"
+      ]
+    },
+    "workplace": 1,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The course structure documents an all-compulsory, progressively sequenced actuarial core — Mathematics of Finance I, II and III; Life Insurance Models I and 2 feeding into the Life Contingencies capstone; General Insurance Modelling as a second capstone — and the program carries professional accreditation from the Actuaries Institute Australia (AIA). This matches the PASS condition: 'an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain.'",
+        "evidenceLines": [
+          "Professional accreditation",
+          "Actuaries Institute Australia (AIA)",
+          "Eight core actuarial subjects (100 points)",
+          "Mathematics of Finance I",
+          "Mathematics of Finance II",
+          "Mathematics of Finance III",
+          "Life Insurance Models I",
+          "Life Insurance Models 2",
+          "Life Contingencies"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Core and capstone content requires modelling and quantifying genuine actuarial uncertainty — General Insurance Modelling's loss-distribution and extreme-value-theory content, Mathematics of Finance III's option pricing, arbitrage/hedging and credit-risk models, and Life Contingencies' reserving and profit-testing work — matching the PASS condition: 'simulations/capstones/live projects with real uncertainty and accountability.'",
+        "evidenceLines": [
+          "Topics include loss distribution with and without risk sharing; collective risk model, calculation of moments and moment generating function of aggregate claims, recursion formulae, effect of reinsurance; individual risk model, recursion formulae and approximations; copulas; extreme value theorems; time series.",
+          "Establish non-unit reserves to eliminate (“zeroise”) future negative cashflows for unit-linked contracts."
+        ]
+      }
+    },
+    "ambiguities": [
+      "verdict.demotions listed C5 with \"to\":1, but C5's scored value was already 0 — that is an increase, not a demotion (the demotion's own rationale even says it would raise adaptiveness from 3 to 4). Task instruction (3) explicitly forbids raising any score above its scored-block value and says an increase needs a fresh capture/scoring pass, not this reconciliation step. Treated as not applicable and left C5 at 0 rather than silently raising it; flagging for a human/fresh-pass decision instead."
+    ],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-29"
+      },
+      "mechanical": true,
+      "date": "2026-08-29"
+    }
+  }
+}
