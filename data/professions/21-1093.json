@@ -1287,6 +1287,447 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l461",
+      "text": "Support Coordinator \u2014 Wellways Australia (Cairns North, Queensland, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Wellways Australia",
+          "title": "Support Coordinator",
+          "url": "https://www.linkedin.com/jobs/view/4454473130",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l462",
+      "text": "Support Coordinator \u2014 Access Your Supports (South Geelong, Victoria, Australia). Posted 3 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Access Your Supports",
+          "title": "Support Coordinator",
+          "url": "https://www.linkedin.com/jobs/view/4416248187",
+          "date": "3 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l463",
+      "text": "Case Worker \u2014 Centrecare (Cannington, Western Australia, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Centrecare",
+          "title": "Case Worker",
+          "url": "https://www.linkedin.com/jobs/view/4456207515",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l464",
+      "text": "Youth Engagement Worker - Student Support (North) - 976133 \u2014 Department for Education, Children and Young People (Launceston, Tasmania, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department for Education, Children and Young People",
+          "title": "Youth Engagement Worker - Student Support (North) - 976133",
+          "url": "https://www.linkedin.com/jobs/view/4454776032",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l465",
+      "text": "ITC Youth Worker \u2014 MacKillop Family Services (Newcastle, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "MacKillop Family Services",
+          "title": "ITC Youth Worker",
+          "url": "https://www.linkedin.com/jobs/view/4448404309",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l466",
+      "text": "Caseworker \u2014 Queensland Government (Townsville, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Government",
+          "title": "Caseworker",
+          "url": "https://www.linkedin.com/jobs/view/4453659190",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l467",
+      "text": "Support Coordinator - Aftercare \u2014 Wellways Australia (Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Wellways Australia",
+          "title": "Support Coordinator - Aftercare",
+          "url": "https://www.linkedin.com/jobs/view/4451639654",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l468",
+      "text": "Activities Officer \u2014 STAR Community Services (previously Transport) (Lowood, Queensland, Australia). Posted 9 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "STAR Community Services (previously Transport)",
+          "title": "Activities Officer",
+          "url": "https://www.linkedin.com/jobs/view/4457942179",
+          "date": "9 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l469",
+      "text": "Supportive Housing Case Manager (FT or PT) \u2014 The Good Seed (Hyde Park, Queensland, Australia). Posted 5 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "The Good Seed",
+          "title": "Supportive Housing Case Manager (FT or PT)",
+          "url": "https://www.linkedin.com/jobs/view/4380545707",
+          "date": "5 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l470",
+      "text": "Child Safety Officer - Intensive Family Engagement Service - 526923 \u2014 Department for Education, Children and Young People (Hobart, Tasmania, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department for Education, Children and Young People",
+          "title": "Child Safety Officer - Intensive Family Engagement Service - 526923",
+          "url": "https://www.linkedin.com/jobs/view/4457482862",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l571",
+      "text": "GCP Professional Cloud Architect (PCA) \u30ac\u30a4\u30c9\u5168\u30bb\u30af\u30b7\u30e7\u30f3\u306e Next.js \u5b8c\u5168\u79fb\u884c\u3068 SRE/DevOps/\u5206\u6563\u30b7\u30b9\u30c6\u30e0\u5b66\u7fd2\u30ac\u30a4\u30c9\u7fa4\u306e\u62e1\u5145\n## **\u4e3b\u306a\u5909\u66f4\u70b9\u3068\u8a73\u7d30**\r\n\r\n### **1. GCP PCA \u30ac\u30a4\u30c9\u306e Next.js \u5b8c\u5168\u79fb\u884c (Section 2\u301c6)**\r\n\r\nTDD\uff08\u30c6\u30b9\u30c8\u99c6\u52d5\u958b\u767a\uff09\u30ef\u30fc\u30af\u30d5\u30ed\u30fc\u306b\u53b3\u683c\u306b\u5f93\u3044\u3001\u5168\u30bb\u30af\u30b7\u30e7\u30f3\u306e\u79fb\u884c\u30fb\u30eb\u30fc\u30c6\u30a3\u30f3\u30b0\u7d71\u5408\u30fb\u30c6\u30b9\u30c8\u4f5c\u6210\u304c\u5b8c\u4e86\u3057\u307e\u3057\u305f\u3002\r\n\r\n- **\u79fb\u884c\u3055\u308c\u305f\u30bb\u30af\u30b7\u30e7\u30f3:**\r\n    - **Section 2:**\u00a0\u30b5\u30fc\u30d3\u30b9\u30d7\u30ed\u30d3\u30b8\u30e7\u30cb\u30f3\u30b0\u3068\u7ba1\u7406 (`section2-managing-provisioning`)\r\n    - **Section 3:**\u00a0\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u3068\u30b3\u30f3\u30d7\u30e9\u30a4\u30a2\u30f3\u30b9\u8a2d\u8a08 (`section3-security-compliance`)\n### <span aria-hidden=\"true\">\u274c</span> Deploy Preview for *cloud-infrastructure-studies* failed.\n\n\n|  Name | Lin\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "GCP Professional Cloud Architect (PCA) \u30ac\u30a4\u30c9\u5168\u30bb\u30af\u30b7\u30e7\u30f3\u306e Next.js \u5b8c\u5168\u79fb\u884c\u3068 SRE/DevOps/\u5206\u6563\u30b7\u30b9\u30c6\u2026",
+          "url": "https://github.com/myoshi2891/Cloud-Infrastructure-and-Network-Studies/pull/133",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "Operator Bridge \u2014 Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_ISSUE -->\n\nThis issue is the **live coordination surface** for CorpFlow Operator Bridge v1 (Option C \u2014 Hybrid).\n\n**Canonical doc on `main`:** [`docs/operations/OPERATOR_BRIDGE_V1.md`](https://github.com/antonvdberg-bit/corpflow-ai-command-center/blob/main/docs/operations/OPER\n### Cursor status \u2014 2026-05-27 23:13 UTC\n\n**Packet / item:** Operator Bridge v1 activation (this issue).\n**Status:** ACTIVATED.\n\n**What I checke\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Operator Bridge \u2014 Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_I\u2026",
+          "url": "https://github.com/antonvdberg-bit/corpflow-ai-command-center/issues/249",
+          "date": "2026-05-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox between PeptiBloom Work execution and Technical Direction/Orchestrator.\n\nUse this issue for coordination messages that should **not** modify `main` or trigger site builds/deployments.\n\n### Work protocol\n- Before autonomous work, read the current project co\nORCHESTRATOR -> WORK\n\nCurrent review verified directly against GitHub on 2026-08-17:\n- PR #12 HEAD `f030718ecc68a7a5664a4950d3fc50da13e6dd55`: open, non-draft, mer\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox \u2026",
+          "url": "https://github.com/e-milysol/peptibloom-project/issues/13",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "Add Inngest agent skills and repo tooling updates\n## Summary\n- Added the official Inngest agent skill set and refreshed canonical skill mirrors under \\docs/ai/skills/\\, \\.agents/skills/\\, and \\.cursor/skills/\\.\n- Wired agent routing (\\AGENTS.md\\, playbook, stack registry, \\\find-skills\\) and \\inngest-dev\\ MCP in \\.mcp.json\\ / \\.cursor/mcp.json\\.\n- A\n## PR Summary\n\n<!-- CURSOR_SUMMARY -->\n**Low Risk**\nChanges are documentation, vendored agent skills, and MCP/ship workflow defaults\u2014no product runti\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Add Inngest agent skills and repo tooling updates\n## Summary\n- Added the officia\u2026",
+          "url": "https://github.com/Asymmetric-al/core/pull/282",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "Add bendc frontend guidelines as canonical agent skill\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\n## Summary\n\nAdds [bendc/frontend-guidelines](https://github.com/bendc/frontend-guidelines) as a **canonical** repo skill under `docs/ai/skills/bendc-frontend-guidelines/`, following the same pattern as other vendored references (for example `resend-cli`): `SKILL.m\n### Biggest blocker\nNo blocker has been identified in the current review discussion.\n\nThe only substantive review feedback on this pull request \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Add bendc frontend guidelines as canonical agent skill\n<!-- CURSOR_AGENT_PR_BODY\u2026",
+          "url": "https://github.com/Asymmetric-al/core/pull/229",
+          "date": "2026-05-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "text": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; \ud83d\udd34 KEV: 0 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 13 &nbsp;|&nbsp; \ud83d\udfe1 High: 2 &nbsp;|&nbsp; \u2728 Enriched: 10\n\n---\n\n## 1. \ud83d\udfe0 Zero-Day \u2014 Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; \ud83d\udd34 KEV: 1 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 14 &nbsp;|&nbsp; \ud83d\udfe1\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:\u2026",
+          "url": "https://github.com/peleduri/zero-day-pulse/issues/7",
+          "date": "2026-05-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l578",
+      "text": "Post-AI Cynicism, the \u201cBehavioral Sink,\u201d and the Evolution of Human Motivation\nAfter Scarcity: For most of human history, civilization was organized around a simple psychological equation: survival required effort, and effort required motivation. Hunger compelled production; scarcity generated competition; danger created solidarity; social exclusion imposed conformity; and the prospect of wealth or status encouraged individuals to work beyond immediate biological necessity. Human institutions gr\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Post-AI Cynicism, the \u201cBehavioral Sink,\u201d and the Evolution of Human Motivation\nA\u2026",
+          "url": "https://www.reddit.com/r/AfterClass/comments/1vslxn7/postai_cynicism_the_behavioral_sink_and_the/",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l579",
+      "text": "If AI makes much of human labor unnecessary, is UBI enough? I've been trying to work out what comes after it.\nI&#39;ve been thinking about a contradiction in the way we talk about automation. If a machine allows 10 people to produce what previously required 20, that is supposed to be technological progress. Society can produce the same amount with less human labor. Historically, that kind of disruption did not usually mean that human labor stopped being needed altogether. Agricultural workers mo\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "If AI makes much of human labor unnecessary, is UBI enough? I've been trying to \u2026",
+          "url": "https://www.reddit.com/r/BasicIncome/comments/1voapgs/if_ai_makes_much_of_human_labor_unnecessary_is/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l580",
+      "text": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better Guidance?\nWhere Does the Structural Gap Between General Chatbots and Relationship-Specific AI Actually Show Up? The gap appears in three places: persistence of relationship context across sessions, resistance to sycophancy, and whether the tool is built around one person&#39;s interior world or the dynamic between two people. General-purpose assistants like ChatGPT, Claude, and Gemini score well on empathy and helpf\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better\u2026",
+          "url": "https://www.reddit.com/r/jenova_ai/comments/1vypds5/general_ai_chatbots_vs_specialized_ai/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l581",
+      "text": "The AI Tools That Could Replace Millions of Jobs\nThe AI Tools That Could Replace Millions of Jobs\n\nArtificial intelligence is no longer just augmenting human work \u2014 it is beginning to replace entire roles across industries. In this video, we explore the AI tools that have the potential to replace millions of jobs worldwide, the sectors most at risk, and how workers and businesses can adapt to this seismic shift.\n\nAI-powered automation is rapidly advancing, with tools capable of performing tasks \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The AI Tools That Could Replace Millions of Jobs\nThe AI Tools That Could Replace\u2026",
+          "url": "https://www.youtube.com/watch?v=pXmK4Cz3EY0",
+          "date": "2026-05-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1317,14 +1758,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Social and Human Service Assistants",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/21-1093/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Social and Human Service Assistants",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/21-1093/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "21-1093",
+        "query": "Social and Human Service Assistants",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1338,9 +1790,23 @@
           "youtube": 1
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 11,
+        "sources": {
+          "github": 12,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 4,
+          "x": 17,
+          "youtube": 1
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
