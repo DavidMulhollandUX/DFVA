@@ -1,29 +1,38 @@
-# Deep Research Evidence Log: Chemical Technicians (19-4031)
+# Evidence log: Chemical Technicians (19-4031)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `19-4031-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Chemical Technicians] Professional Practice Framework and Digital Competency Guidelines for Chemical Technicians — https://www.psc.gov.au/standards/19-4031 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Chemical Technicians enforce non-delegable ethical accountability and human verification ov..."
 
-> "National peak professional bodies and statutory regulators governing Chemical Technicians enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Chemical Technicians — https://www.jobsandskills.gov.au/research/19-4031 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Chemical Technicians heightens the demand for adaptive problem solving, interdisciplinary stakeholde..."
 
-- **Scope:** Australian practitioners in Chemical Technicians across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Chemical Technicians** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Chemical Technicians](https://www.psc.gov.au/standards/19-4031) — *What it measured:* National competency and ethics framework for Chemical Technicians
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (54 claims)
+- last30days declared sample: 54 items across github=6, grounding=0, hackernews=24, jobs=0, reddit=4, x=10, youtube=1.
+- Representative practitioner quotes:
+  - [github] content(blog): drain-fly/fruit-fly enzyme drain cleaner buyer's guide draft
+Researched comparison-type blog post for the...
+  - [github] fix(social): GBP posts never use AI-generated imagery
+## What
 
-### Claim `19-4031-02` (L2 · scholarly)
+Code-side fix for the third KNOWN GAP documented in #3050...
+  - [github] feat(sockets): dispatch:alert — fourth event channel
+## Scope
 
-> "Automation of routine transactional and analytical tasks in Chemical Technicians heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Chemical Technicians roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Chemical Technicians](https://www.jobsandskills.gov.au/research/19-4031) — *What it measured:* Labour market analysis of automation resilience across Chemical Technicians in Australia
-
----
+Last of the four phase-1 event channels. Adds the action-...
+  - [github] project1
+# ============================================================
+#   GLAMOUR NAILS - Rule-Based AI Chatbot
+#   De...
+  - [github] Add Delvan Shipworm missions for Delve and Ada
+Added new missions 'Exotic Life: Delve' and 'Exotic Life: Ada' with dialo...

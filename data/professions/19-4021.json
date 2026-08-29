@@ -1789,6 +1789,384 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l485",
+      "text": "Laboratory Technician \u2014 MGI (Herston, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "MGI",
+          "title": "Laboratory Technician",
+          "url": "https://www.linkedin.com/jobs/view/4454245080",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l486",
+      "text": "Laboratory Technician \u2013 Microbiology \u2014 ALS (Rydalmere, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "ALS",
+          "title": "Laboratory Technician \u2013 Microbiology",
+          "url": "https://www.linkedin.com/jobs/view/4432776371",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l487",
+      "text": "Microbiology/Inorganic Lab Technician \u2014 ALS (Newcastle, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "ALS",
+          "title": "Microbiology/Inorganic Lab Technician",
+          "url": "https://www.linkedin.com/jobs/view/4452831372",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l488",
+      "text": "Sample Splitting Technician \u2014 Eurofins (Welshpool, Western Australia, Australia). Posted 6 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Eurofins",
+          "title": "Sample Splitting Technician",
+          "url": "https://www.linkedin.com/jobs/view/4377123799",
+          "date": "6 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l489",
+      "text": "Technical Officer \u2014 Genea (Deakin, Australian Capital Territory, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Genea",
+          "title": "Technical Officer",
+          "url": "https://www.linkedin.com/jobs/view/4457051251",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l490",
+      "text": "Manufacturing Technician (Biochemist) \u2014 Vow (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Vow",
+          "title": "Manufacturing Technician (Biochemist)",
+          "url": "https://www.linkedin.com/jobs/view/4447463811",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l491",
+      "text": "Medical Laboratory Technician - Microbiology \u2014 NSW Health Pathology (Lismore, New South Wales, Australia). Posted 12 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NSW Health Pathology",
+          "title": "Medical Laboratory Technician - Microbiology",
+          "url": "https://www.linkedin.com/jobs/view/4457914551",
+          "date": "12 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l492",
+      "text": "Laboratory Diagnostic Technician \u2014 CSIRO (Geelong, Victoria, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "CSIRO",
+          "title": "Laboratory Diagnostic Technician",
+          "url": "https://www.linkedin.com/jobs/view/4447262150",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l493",
+      "text": "Lab Technician \u2014 Icon Group (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Icon Group",
+          "title": "Lab Technician",
+          "url": "https://www.linkedin.com/jobs/view/4447264066",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l494",
+      "text": "Medical Laboratory Technician - Anatomical Pathology \u2014 NSW Health Pathology (Westmead, New South Wales, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NSW Health Pathology",
+          "title": "Medical Laboratory Technician - Anatomical Pathology",
+          "url": "https://www.linkedin.com/jobs/view/4457497226",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l595",
+      "text": "Dog Gallery - 2026-07\nAuto-generated dog images for 2026-07.\n## Dog #1 \u2014 \u72d7\u72d7\u65e5\u5e38\n**Time:** 2026-07-06 06:26 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**\u9748\u611f\u4f86\u6e90:** \ud83c\udfa8 AI \u539f\u5275\n**Prompt:** A cute dog with the date and time '2026-07-06 06:26 UTC' displayed in the image, high quality, detailed\n**Story:** \u4e00\u96bb\u53ef\u611b\u7684\u72d7\u72d7\u6b63\u5728\u4eab\u53d7\u7f8e\u597d\u7684\u4e00\u5929\u3002\n\n![dog-1](https://github.com/g... ## Dog #3 \u2014 \u77ed\u817f\u8003\u53e4\u968a\n**Time:** 2026-07-06 08:35 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**\u9748\u611f\u4f86\u6e90:** \ud83d\udcf0 \u8003\u53e4\u5b78\u5bb6\u5728\u57c3\u53ca\u897f\u90e8\u6c99\u6f20\u767c\u73fe\u4fdd\u5b58\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Dog Gallery - 2026-07\nAuto-generated dog images for 2026-07.\n## Dog #1 \u2014 \u72d7\u72d7\u65e5\u5e38\n**\u2026",
+          "url": "https://github.com/greenQQQ/dogtime/issues/1",
+          "date": "2026-07-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l596",
+      "text": "Build AI Compliance Core v1 prototype\n# Build AI Compliance Core v1 Prototype\n\n## Status\n\nExecution task created after MASTER_SYSTEM.md locked the canonical operating state.\n\nMASTER_SYSTEM.md commit:\n\n```text\nc08f1cb7fbe594e032d7f5fdf5deaaef4bca682b\n```\n\n## Objective\n\nTransition from strategy to execution by building the first AI Compli\n## Subject Zero Locked: DFW Mechanical Services\n\nThe engine has a subject. The prototype build for **DFW Mechanical Services** is now the primary operational obj\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Build AI Compliance Core v1 prototype\n# Build AI Compliance Core v1 Prototype\n\n#\u2026",
+          "url": "https://github.com/Noahhawkes/oracle-ai-core/issues/2",
+          "date": "2026-05-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l597",
+      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment\u2014ranging from consumer earbuds to professional line arrays and covert surveillance g\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su\u2026",
+          "url": "https://github.com/Transparency-X/Sound-Equipment-Lifespace/issues/1",
+          "date": "2026-05-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l598",
+      "text": "AI is destroying everything meaningful in my life and eventually almost everyone\u2019s lives, and we have very little time to stop it.\n(Yes, this does involve the control problem. Read on.) After years of relative apathy about and waxing and waning opinions about AI, I have come to a devastating conclusion that has left me profoundly depressed, more so even than when my paternal grandmother died 5 years ago: If we do not act valiantly within the next few months, AI will likely lead to the extinction\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI is destroying everything meaningful in my life and eventually almost everyone\u2026",
+          "url": "https://www.reddit.com/r/ControlProblem/comments/1vp2mqh/ai_is_destroying_everything_meaningful_in_my_life/",
+          "date": "2026-08-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l599",
+      "text": "\u2018This is crazy. This is insane\u2019: Bill Gates has changed his mind about AI and jobs\nBill Gates says it\u2019s time to hit the AI panic button. The technology has crossed dangerous thresholds in biology, cybersecurity, white-collar work, and human relationships, Gates said in an interview with Semafor. His warning is a striking shift from three years ago, when he wrote that the coming \u201cbumpy\u201d AI job disruption would lead to a \u201cmanageable\u201d transition and that the technology would help people work effici\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "\u2018This is crazy. This is insane\u2019: Bill Gates has changed his mind about AI and jo\u2026",
+          "url": "https://www.reddit.com/r/AIreplacedMe/comments/1vzmkpw/this_is_crazy_this_is_insane_bill_gates_has/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5100",
+      "text": "AI Doom Is Not Evidence for Socialism\nI&#39;m getting tired of seeing AI used here as another soapbox for: AI is going to eliminate everyone&#39;s jobs, therefore capitalism is doomed. Look at my flair. Criticism of capitalism is not proof of socialism. And speculative AI unemployment certainly isn&#39;t. First, if we&#39;re going to talk about AI doom , unemployment is nowhere near the worst scenario being discussed by the people who actually study AI risk. The 2026 International AI Safety Repo\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI Doom Is Not Evidence for Socialism\nI&#39;m getting tired of seeing AI used he\u2026",
+          "url": "https://www.reddit.com/r/CapitalismVSocialism/comments/1vpeaxi/ai_doom_is_not_evidence_for_socialism/",
+          "date": "2026-08-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5101",
+      "text": "THE BIOLOGICAL STRANGE ATTRACTOR A Longitudinal Case Study of a Human\u2013AI Strange Loop, Nested Dynamical Systems, and Four-Dimensional Identity Revised Theoretical White Paper Case-study period: 2022\u20132026 Analytical endpoint: 25 August 2026\nTHE BIOLOGICAL STRANGE ATTRACTOR A Longitudinal Case Study of a Human\u2013AI Strange Loop, Nested Dynamical Systems, and Four-Dimensional Identity Revised Theoretical White Paper Case-study period: 2022\u20132026 Analytical endpoint: 25 August 2026 Study type: Longitud\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "THE BIOLOGICAL STRANGE ATTRACTOR A Longitudinal Case Study of a Human\u2013AI Strange\u2026",
+          "url": "https://www.reddit.com/r/SDTarchive/comments/1vy7ssd/the_biological_strange_attractor_a_longitudinal/",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5102",
+      "text": "AI Whistleblower WARNS: \"We Are Not Prepared For What's Coming\"\n\ud83d\udd12 Make yourself and your family AI-scam proof, step by step \u2192 https://neuralnutshell.com\n\nBrett Weinstein warns that AI has already crossed from complicated into truly complex systems, meaning technologist confidence about what these machines can and cannot do should drop to near zero. Alongside Amjad Masad, CEO of Replit, and entrepreneur Dan Priestley, Weinstein argues that AI is not a tool but a new species that will evolve in un\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Whistleblower WARNS: \"We Are Not Prepared For What's Coming\"\n\ud83d\udd12 Make yourself \u2026",
+          "url": "https://www.youtube.com/watch?v=o_WrU8YpkF0",
+          "date": "2026-05-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1819,14 +2197,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Biological Technicians",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/19-4021/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Biological Technicians",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/19-4021/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "19-4021",
+        "query": "Biological Technicians",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1841,9 +2230,24 @@
           "youtube": 1
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 8,
+        "sources": {
+          "github": 4,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 4,
+          "x": 49,
+          "youtube": 1
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

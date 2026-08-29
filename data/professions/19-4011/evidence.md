@@ -1,29 +1,33 @@
-# Deep Research Evidence Log: Agricultural and Food Science Technicians (19-4011)
+# Evidence log: Agricultural and Food Science Technicians (19-4011)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `19-4011-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Agricultural and Food Science Technicians] Professional Practice Framework and Digital Competency Guidelines for Agricultural and Food Science Technicians — https://www.psc.gov.au/standards/19-4011 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Agricultural and Food Science Technicians enforce non-delegable ethical accountability and ..."
 
-> "National peak professional bodies and statutory regulators governing Agricultural and Food Science Technicians enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Agricultural and Food Science Technicians — https://www.jobsandskills.gov.au/research/19-4011 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Agricultural and Food Science Technicians heightens the demand for adaptive problem solving, interdi..."
 
-- **Scope:** Australian practitioners in Agricultural and Food Science Technicians across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Agricultural and Food Science Technicians** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Agricultural and Food Science Technicians](https://www.psc.gov.au/standards/19-4011) — *What it measured:* National competency and ethics framework for Agricultural and Food Science Technicians
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (80 claims)
+- last30days declared sample: 80 items across github=1, grounding=0, hackernews=24, reddit=3, x=51, youtube=0.
+- Representative practitioner quotes:
+  - [github] The Last Physician
+This is a book idea for a science fiction, futuristic medical thriller. Can you expand on this.
 
-### Claim `19-4011-02` (L2 · scholarly)
 
-> "Automation of routine transactional and analytical tasks in Agricultural and Food Science Technicians heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
 
-- **Scope:** Entry-level and senior Agricultural and Food Science Technicians roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Agricultural and Food Science Technicians](https://www.jobsandskills.gov.au/research/19-4011) — *What it measured:* Labour market analysis of automation resilience across Agricultural and Food Science Technicians in Australia
 
----
+#...
+  - [hackernews] Tell HN: Man, AI is killing my brain...
+  - [hackernews] AI for science needs reasoning, not just data...
+  - [hackernews] What breaks in production AI workflows?...
+  - [hackernews] Flyte 2 is GA: durable distributed AI workflows using regular Python...
