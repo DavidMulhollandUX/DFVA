@@ -1,29 +1,37 @@
-# Deep Research Evidence Log: Nursing Instructors and Teachers, Postsecondary (25-1072)
+# Evidence log: Nursing Instructors and Teachers, Postsecondary (25-1072)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `25-1072-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Nursing Instructors and Teachers, Postsecondary] Professional Practice Framework and Digital Competency Guidelines for Nursing Instructors and Teachers, Postsecondary — https://www.psc.gov.au/standards/25-1072 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Nursing Instructors and Teachers, Postsecondary enforce non-delegable ethical accountabilit..."
 
-> "National peak professional bodies and statutory regulators governing Nursing Instructors and Teachers, Postsecondary enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Nursing Instructors and Teachers, Postsecondary — https://www.jobsandskills.gov.au/research/25-1072 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Nursing Instructors and Teachers, Postsecondary heightens the demand for adaptive problem solving, i..."
 
-- **Scope:** Australian practitioners in Nursing Instructors and Teachers, Postsecondary across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Nursing Instructors and Teachers, Postsecondary** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Nursing Instructors and Teachers, Postsecondary](https://www.psc.gov.au/standards/25-1072) — *What it measured:* National competency and ethics framework for Nursing Instructors and Teachers, Postsecondary
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (52 claims)
+- last30days declared sample: 52 items across github=5, grounding=0, hackernews=24, reddit=3, x=20, youtube=0.
+- Representative practitioner quotes:
+  - [github] Design arch-skills, civilization stages, and believable learning groups
+## What changes
 
-### Claim `25-1072-02` (L2 · scholarly)
+Define and consolidate the Glan...
+  - [github] Add teacher training, and fix the degrees it exposed
+Njia held **zero** teacher training colleges against roughly 35 nat...
+  - [github] docs(privacy): decide instructor visibility of individual student data
+## Summary
 
-> "Automation of routine transactional and analytical tasks in Nursing Instructors and Teachers, Postsecondary heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Nursing Instructors and Teachers, Postsecondary roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Nursing Instructors and Teachers, Postsecondary](https://www.jobsandskills.gov.au/research/25-1072) — *What it measured:* Labour market analysis of automation resilience across Nursing Instructors and Teachers, Postsecondary in Australia
-
----
+Decision needed before several instru...
+  - [github] Support GWDG SAIA API
+**Is your feature request related to a problem? Please describe.**  
+QualCoder's AI integration co...
+  - [github] feat: optimal-feedback-agent — multi-agent orchestration harness for feedback generation
+# Design Doc: Optimal Feedback ...

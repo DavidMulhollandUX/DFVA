@@ -1,29 +1,40 @@
-# Deep Research Evidence Log: Education Teachers, Postsecondary (25-1081)
+# Evidence log: Education Teachers, Postsecondary (25-1081)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `25-1081-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Education Teachers, Postsecondary] Professional Practice Framework and Digital Competency Guidelines for Education Teachers, Postsecondary — https://www.psc.gov.au/standards/25-1081 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Education Teachers, Postsecondary enforce non-delegable ethical accountability and human ve..."
 
-> "National peak professional bodies and statutory regulators governing Education Teachers, Postsecondary enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Education Teachers, Postsecondary — https://www.jobsandskills.gov.au/research/25-1081 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Education Teachers, Postsecondary heightens the demand for adaptive problem solving, interdisciplina..."
 
-- **Scope:** Australian practitioners in Education Teachers, Postsecondary across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Education Teachers, Postsecondary** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Education Teachers, Postsecondary](https://www.psc.gov.au/standards/25-1081) — *What it measured:* National competency and ethics framework for Education Teachers, Postsecondary
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (50 claims)
+- last30days declared sample: 50 items across github=3, grounding=0, hackernews=24, reddit=11, x=10, youtube=2.
+- Representative practitioner quotes:
+  - [github] role: add architecture-teacher-postsecondary
+**Rubric score: 17/18**
 
-### Claim `25-1081-02` (L2 · scholarly)
+**Resolution rationale:**
 
-> "Automation of routine transactional and analytical tasks in Education Teachers, Postsecondary heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
+Architecture Teachers, ...
+  - [github] role: add business-teacher-postsecondary
+Rubric score: 18/18
 
-- **Scope:** Entry-level and senior Education Teachers, Postsecondary roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Education Teachers, Postsecondary](https://www.jobsandskills.gov.au/research/25-1081) — *What it measured:* Labour market analysis of automation resilience across Education Teachers, Postsecondary in Australia
+## Resolution rationale
 
----
+Business Teachers, Postsecondary ...
+  - [github] fix(mapping): audit batch 5 — SOC 25 Education KldB and title corrections
+## Summary
+
+Walks 16 of the 402 audit findings...
+  - [hackernews] Tell HN: Man, AI is killing my brain...
+  - [hackernews] What breaks in production AI workflows?...
