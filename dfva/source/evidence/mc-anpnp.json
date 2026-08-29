@@ -1,0 +1,133 @@
+{
+  "code": "mc-anpnp",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 met: NURS90069 assesses 'Group Project Part A: Interactive Oral Presentation' (35%) alongside an individually-accountable Clinical Leadership Project (50% combined), and NURS90071 assesses 'Case study (2 group work medication case studies)' (20%) — core-unit-assessed collaborative practice, recurring across two core subjects. Level 3 additionally requires an assessment where coordination of work across people AND tools/AI systems is itself assessed; the extract shows only generic technology-use skill statements, never an assessed people-plus-tool coordination task, so the score does not advance to 3.",
+      "evidenceLines": [
+        "Group Project Part A: Interactive Oral Presentation",
+        "Individual Clinical Leadership Project (Part B): Clinical Leadership Project Report",
+        "Case study (2 group work medication case studies)"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Level 2 met: NURS90069's 'Group Project Part B: Peer Feedback (Invigilated & Synchronous)' (15%) is criterion-referenced peer review, and multiple core subjects grade an IPP portfolio against 'objectives review and clinical performance appraisal (CPA)' — a portfolio judged against standards. Level 3 requires assessment that has students document and justify reliance decisions or evidence strategy adjustment over time; NURS90002's learning-contract-then-outcome-assessment structure gestures at this but the extract never asks students to justify overriding or relying on a tool, source or collaborator, so per the lower-level rule the score stays at 2.",
+      "evidenceLines": [
+        "Group Project Part B: Peer Feedback (Invigilated & Synchronous)",
+        "Integrated professional practice (IPP) portfolio: 1. IPP objectives and plan 2. IPP log (of 75 hours work integrated learning), objectives review and clinical performance appraisal (CPA)."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Digital/technology content appears only as generic-skill statements — technology and online resources, information technology skills/software systems, health informatics — tool-operation-level mentions in learning-outcome lists across several subjects, never elevated to core content addressing AI capabilities AND limitations/ethics (level 2), and never independently assessed. This matches level 1's 'tool operation/training' anchor rather than level 0 (digital content is present) or level 2 (no assessed capabilities-and-limitations content found).",
+      "evidenceLines": [
+        "Capacity to use technology and online resources to support learning and innovation",
+        "Demonstrate the application of information technology skills, including software systems",
+        "Appraise the role that health informatics have on the availability and integration of health care data, and the provision of decision support and consumer safety"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "NURS90002 Health Innovation & Improvement Project is a required core subject (no electives) built around a negotiated learning contract/project plan on a topic of the student's choice that is 'not taught in other subjects', with an outcome to 'Identify learning needs and develop a plan to address their own learning needs'. This is assessed directly via the graded 'Learning contract and project plan' (10%) and 'Learning contract and outcome assessment' (20%) items — a documented, assessed, self-scoped structured-progression project matching level 3 exactly.",
+      "evidenceLines": [
+        "This subject involves a learning contract/project plan to be negotiated between the student and the subject coordinator and completion of a substantive piece of work based on the contract/plan.",
+        "extend knowledge in an area of their choice that supplements their learning but is not taught in other subjects",
+        "Identify learning needs and develop a plan to address their own learning needs",
+        "Learning contract and project plan",
+        "Learning contract and outcome assessment"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "NURS90002 is required and substantial ('Project Report', 3750 words, 70%), with outcomes to 'Use an evidence-based approach to explore a topic of enquiry' and 'Formulate outcome criteria to measure achievement of learning objectives and achievement of project goal' — methodology selection and outcome measurement matching level 2. Level 3 additionally requires the methodology be defended under scrutiny (viva, defence, staged supervised review); the extract records no such component for NURS90002 specifically, so per the lower-level rule the score stays at 2.",
+      "evidenceLines": [
+        "The focus of the work is an innovative project aimed at improving health outcomes.",
+        "Use an evidence-based approach to explore a topic of enquiry",
+        "Formulate outcome criteria to measure achievement of learning objectives and achievement of project goal",
+        "Project Report"
+      ]
+    },
+    "adaptiveness": 10,
+    "W1": {
+      "score": 2,
+      "rationale": "NURS90132's 'Workplace-based assessments (Viva Voce - oral case presentation to clinical team)' (40%, an ANMAC hurdle requirement) is a recognised professional genre delivered to an audience beyond the teaching team, judged against ANMAC/professional criteria — level 2 is met. Level 3 additionally requires professional communication to be assessed repeatedly and progressively across the program with professional conduct explicit among the assessed criteria; the extract yields only this single clearly W1-scoped instance (other workplace-based clinical tasks are scored under W2/W3 per the one-construct-one-home rule), so recurrence is not established and the score stays at 2.",
+      "evidenceLines": [
+        "Workplace-based assessments (Viva Voce - oral case presentation to clinical team)",
+        "Hurdle requirement: The Viva Voce is an ANMAC requirement. As such students must pass this hurdle requirement to pass the subject"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Real-patient, workplace-based tasks — prescribing assessments (NURS90071, 40%), patient assessments (NURS90134, 60%), mini-CEX (NURS90163, 60%) — reproduce the professional task end to end (real patients, the artefact a nurse practitioner would produce, judged against practice/registration criteria), recurring across both years (at least one per stage), satisfying level 3's assessment-spine clause. NURS90071's outcome to prescribe 'in accordance with State and Federal regulation, ethical principles, professional standards and competence', assessed via real prescribing to real patients, supplies the genuine constraint of practice level 3 requires.",
+      "evidenceLines": [
+        "Workplace-based assessments (two prescribing assessments)",
+        "Demonstrate ability to prescribe medications in accordance with State and Federal regulation, ethical principles, professional standards and competence.",
+        "Patient assessments (4 in total - equivalent to 500 words each)",
+        "Workplace-based assessment (4 mini-CEX patient/consumer assessment)"
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Integrated Professional Practice (IPP) hours (75 per subject) recur as a hurdle-assessed requirement across four core subjects (NURS90134, NURS90163, NURS90071, NURS90132) spanning both years, each requiring an IPP log, objectives review and performance/clinical performance appraisal, with hurdle requirements explicitly tied to registration. Given the cohort is registered nurses undertaking an NMBA-endorsement program, this is a required sequence of assessed, supervised own-practice/placement activity with structured review and documented accountability, matching level 3.",
+      "evidenceLines": [
+        "This subject includes practical application of this knowledge in class and clinical practice and includes Integrated Professional Practice (IPP) hours.",
+        "Integrated professional practice portfolio: 1. IPP plan and objectives 2. IPP log (of 75 hours), objectives review and performance appraisal",
+        "Hurdle requirement: Completion of IPP is a requirement of registration.",
+        "Hurdle requirement: Students complete the IPP objectives and clinical appraisals as part of the 75 IPP hours required for the subject. Students must pass hurdle requirements to pass the subject",
+        "Integrated professional practice (IPP) portfolio: 1. IPP objectives and plan 2. IPP log (of 75 hours work integrated learning), objectives review and clinical performance appraisal (CPA).",
+        "Hurdle requirement: Sudents complete the IPP objectives, log and CPA as part of the 75 IPP hours required for the subject. Students must pass hurdle requirements to pass the subject."
+      ]
+    },
+    "workplace": 8,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The course has 8 core subjects and no electives (100 credit points), a curriculum accredited by ANMAC, with documented staged progression: NURS90163 explicitly builds on NURS90134 and prepares students for autonomous nurse practitioner practice. All-compulsory, accredited, staged specialist core.",
+        "evidenceLines": [
+          "There are 8 core subjects, no electives.",
+          "To be approved by the NMBA the curriculum must be accredited by the Australian Nursing and Midwifery Accreditation Council (ANMAC).",
+          "This subject builds on the content covered in NURS90134 Introducing Advanced Practice Nursing and has been designed to help prepare students for autonomous nurse practitioner practice."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Core assessment requires real prescribing and diagnostic decisions for real patients with real accountability (prescribing assessments; diagnostic-reasoning outcomes tied to workplace-based assessment) — defended trade-off decisions under real clinical uncertainty, not recall or scripted responses.",
+        "evidenceLines": [
+          "Workplace-based assessments (two prescribing assessments)",
+          "Monitor the impact of therapeutic plans on the agreed health outcomes of the individual and adjust plans accordingly and their impact on population outcomes.",
+          "Demonstrate judicious use of diagnostic investigations to supplement the health assessment and inform clinical decisions within the speciality area of practice"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1: assessed collaborative practice recurs (NURS90069, NURS90071), satisfying level 3's recurrence clause, but no assessment in the extract requires coordinating work across people AND tools/AI systems, so the score is held at 2 rather than 3.",
+      "C2: NURS90002's 'Learning contract and project plan' (10%) followed by 'Learning contract and outcome assessment' (20%) could be read as process-focused, strategy-adjustment-over-time evidence for level 3, but the extract never asks students to document or justify reliance on a tool, source or collaborator; resolved to 2.",
+      "C3: generic-skill statements about 'technology', 'software systems' and 'health informatics' establish that digital content exists (ruling out level 0) but never rise to assessed AI-capabilities-and-limitations content (level 2); resolved to level 1 as tool-operation content.",
+      "C5: NURS90002 is a required, substantial, evidence-based project that could be read toward level 3, but the extract records no viva, defence or staged supervised review of its methodology specifically; resolved to level 2.",
+      "W1: only one clearly W1-scoped instance was found (NURS90132's ANMAC-hurdle Viva Voce); the other 'workplace-based' clinical tasks were assigned to W2/W3 instead, per the one-construct-one-home rule, so W1's level-3 recurrence requirement is not established and the score is held at 2.",
+      "W1/W2/W3 construct overlap: patient assessments, mini-CEX and prescribing assessments could plausibly support W1 (communication to a real recipient), W2 (authentic task design) or W3 (work-situated learning). They were scored in W2 as the graded task-fidelity evidence; the separately-tracked, hurdle-only IPP portfolio/log/hours were scored in W3 as the work-situated-learning structure; only the Viva Voce (an explicit oral-case-presentation-to-an-audience genre) was scored in W1."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-29"
+      },
+      "mechanical": true,
+      "date": "2026-08-29"
+    }
+  }
+}
