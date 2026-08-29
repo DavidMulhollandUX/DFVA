@@ -1,29 +1,16 @@
-# Deep Research Evidence Log: Operations Research Analysts (15-2031)
+# Evidence log — 15-2031 Operations Research Analysts
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Generated 2026-08-29. Empirical five-lane run (L1-L2, L4, L5; L3 Factiva degraded: auth expired).
+Confidence: high. Claims admitted: 81 (dropped 2 fabricated-template claims).
 
-## Admitted Claims and Verified Citations
+- **ASOR** — https://www.asor.org.au/
+  > ASOR serves the professional needs of OR analysts, managers, students and educators.
+- **INFORMS (2025)** — https://pubsonline.informs.org/doi/10.1287/ijds.2025.0076
+  > Operations research (OR) and machine learning (ML) both employ predictive models, have broad applicability, and deliver significant economic value.
+- **OR Society (2023)** — https://www.theorsociety.com/ORS/ORS/Publications/Magazines/IOR/September-2023/The-transformative-role-of-AI-in-operational-research--shaping-the-future-of-decision-making.aspx
+  > AI excels in optimisation tasks, enabling... real-time decision-making.
+- **Adzuna AU (operations analyst)** — https://www.adzuna.com.au/jobs?q=operations+analyst&location=Australia
+  > 261 live vacancies for 'operations analyst' in Australia.
 
-### Claim `15-2031-01` (L1 · regulatory)
-
-> "National peak professional bodies and statutory regulators governing Operations Research Analysts enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
-
-- **Scope:** Australian practitioners in Operations Research Analysts across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Operations Research Analysts** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Operations Research Analysts](https://www.psc.gov.au/standards/15-2031) — *What it measured:* National competency and ethics framework for Operations Research Analysts
-
----
-
-### Claim `15-2031-02` (L2 · scholarly)
-
-> "Automation of routine transactional and analytical tasks in Operations Research Analysts heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Operations Research Analysts roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Operations Research Analysts](https://www.jobsandskills.gov.au/research/15-2031) — *What it measured:* Labour market analysis of automation resilience across Operations Research Analysts in Australia
-
----
+L5 practitioner-discourse corpus: last30days sweep (reddit, x, youtube, hackernews, github, grounding) over 180 days — see corpus.l5Sample.
+L4 LinkedIn corpus: linkedin-mcp-search unofficial scrape — see corpus.linkedin.

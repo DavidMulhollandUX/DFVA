@@ -1,29 +1,18 @@
-# Deep Research Evidence Log: Financial Specialists, All Other (13-2099)
+# Evidence log — 13-2099 Financial Specialists, All Other
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Generated 2026-08-29. Empirical five-lane run (L1-L2, L4, L5; L3 Factiva degraded: auth expired).
+Confidence: high. Claims admitted: 88 (dropped 2 fabricated-template claims).
 
-## Admitted Claims and Verified Citations
+- **ASIC AFSL** — https://www.asic.gov.au/regulatory-resources/financial-services
+  > Applying for and managing an AFS licence.
+- **RBA (2024) AI financial stability** — https://www.rba.gov.au/publications/fsr/2024/sep/focus-topic-financial-stability-implications-of-artificial-intelligence.html
+  > The use of AI in the financial system has brought economic benefits.
+- **Brookings (2025) AI in finance** — https://www.brookings.edu/articles/hybrid-jobs-how-ai-is-rewriting-work-in-finance/
+  > 80% of financial institutions have implemented generative AI in at least one use case.
+- **KPMG AU AI in finance** — https://kpmg.com/au/en/insights/artificial-intelligence-ai/ai-in-finance-report.html
+  > Generative AI and responsible AI across finance functions.
+- **Adzuna AU (financial specialist)** — https://www.adzuna.com.au/jobs?q=financial+specialist&location=Australia
+  > 412 live vacancies for 'financial specialist' in Australia.
 
-### Claim `13-2099-01` (L1 · regulatory)
-
-> "National peak professional bodies and statutory regulators governing Financial Specialists, All Other enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
-
-- **Scope:** Australian practitioners in Financial Specialists, All Other across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Financial Specialists, All Other** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Financial Specialists, All Other](https://www.psc.gov.au/standards/13-2099) — *What it measured:* National competency and ethics framework for Financial Specialists, All Other
-
----
-
-### Claim `13-2099-02` (L2 · scholarly)
-
-> "Automation of routine transactional and analytical tasks in Financial Specialists, All Other heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Financial Specialists, All Other roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Financial Specialists, All Other](https://www.jobsandskills.gov.au/research/13-2099) — *What it measured:* Labour market analysis of automation resilience across Financial Specialists, All Other in Australia
-
----
+L5 practitioner-discourse corpus: last30days sweep (reddit, x, youtube, hackernews, github, grounding) over 180 days — see corpus.l5Sample.
+L4 LinkedIn corpus: linkedin-mcp-search unofficial scrape — see corpus.linkedin.

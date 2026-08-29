@@ -292,8 +292,8 @@
     "13-2052": "done",
     "13-2061": "done",
     "13-2072": "done",
-    "13-2081": "pending",
-    "13-2099": "pending",
+    "13-2081": "done",
+    "13-2099": "done",
     "15-1121": "done",
     "15-1122": "done",
     "15-1132": "done",
@@ -306,8 +306,8 @@
     "15-1199": "done",
     "15-2011": "done",
     "15-2021": "done",
-    "15-2031": "pending",
-    "15-2041": "pending",
+    "15-2031": "done",
+    "15-2041": "done",
     "17-1011": "done",
     "17-1012": "done",
     "17-1022": "done",
@@ -320,8 +320,8 @@
     "17-2081": "done",
     "17-2111": "done",
     "17-2112": "done",
-    "17-2141": "pending",
-    "17-2151": "pending",
+    "17-2141": "done",
+    "17-2151": "done",
     "17-2171": "pending",
     "17-2199": "pending",
     "17-3011": "pending",
@@ -537,7 +537,11 @@
     "15-1134": 1,
     "15-1142": 1,
     "15-1143": 1,
-    "15-1151": 1
+    "15-1151": 1,
+    "13-2081": 1,
+    "13-2099": 1,
+    "15-2031": 1,
+    "15-2041": 1
   },
   "leases": {},
   "runs": [
@@ -756,6 +760,30 @@
       "soc": "11-9021",
       "status": "done",
       "note": "L5 refreshed + completion marker stamped; all 5 lanes present, confidence high"
+    },
+    {
+      "at": "2026-08-29T05:59:57.171826+00:00",
+      "soc": "13-2081",
+      "status": "done",
+      "note": "cron batch: L1/L2/L4(Adzuna+Seek+LinkedIn)/L5 empirical; L3 Factiva auth_expired (degraded)"
+    },
+    {
+      "at": "2026-08-29T05:59:57.260894+00:00",
+      "soc": "13-2099",
+      "status": "done",
+      "note": "cron batch: L1/L2/L4(Adzuna+Seek+LinkedIn)/L5 empirical; L3 Factiva auth_expired (degraded)"
+    },
+    {
+      "at": "2026-08-29T05:59:57.343464+00:00",
+      "soc": "15-2031",
+      "status": "done",
+      "note": "cron batch: L1/L2/L4(Adzuna+Seek+LinkedIn)/L5 empirical; L3 Factiva auth_expired (degraded)"
+    },
+    {
+      "at": "2026-08-29T05:59:57.427150+00:00",
+      "soc": "15-2041",
+      "status": "done",
+      "note": "cron batch: L1/L2/L4(Adzuna+Seek+LinkedIn)/L5 empirical; L3 Factiva auth_expired (degraded)"
     }
   ],
   "claims": [

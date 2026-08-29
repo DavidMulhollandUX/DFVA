@@ -1,29 +1,20 @@
-# Deep Research Evidence Log: Tax Examiners, Collectors, and Revenue Agents (13-2081)
+# Evidence log — 13-2081 Tax Examiners, Collectors, and Revenue Agents
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Generated 2026-08-29. Empirical five-lane run (L1-L2, L4, L5; L3 Factiva degraded: auth expired).
+Confidence: high. Claims admitted: 72 (dropped 2 fabricated-template claims).
 
-## Admitted Claims and Verified Citations
+- **TPB Code of Professional Conduct** — https://www.tpb.gov.au/code-professional-conduct
+  > Section 30-10 of the TASA contains the Code, comprising 17 items which regulate the personal and professional conduct of all registered tax practitioners.
+- **ATO AI transparency statement** — https://www.ato.gov.au/about-ato/commitments-and-reporting/information-and-privacy/ato-ai-transparency-statement
+  > We have developed AI models to help reduce taxpayer compliance costs and improve the efficiency of the tax system.
+- **Nature (2025) AI in tax administration** — https://www.nature.com/articles/s41599-025-06099-7
+  > processing approximately 36 million documents to identify entities of interest (ATO 2024b).
+- **OECD (2025) AI in tax administration** — https://www.oecd.org/en/publications/2025/06/governing-with-artificial-intelligence_398fa287/full-report/ai-in-tax-administration_30724e43.html
+  > The ATO uses real-time prompts during the submission process to address potential anomalies.
+- **ANAO (2025) AI at the ATO** — https://www.anao.gov.au/work/performance-audit/governance-of-artificial-intelligence-the-australian-taxation-office
+  > The ATO is adapting its current arrangements and introducing new arrangements to support its adoption of AI.
+- **Adzuna AU (tax officer)** — https://www.adzuna.com.au/jobs?q=tax+officer&location=Australia
+  > 83 live vacancies for 'tax officer' in Australia (fetched 2026-08-29).
 
-### Claim `13-2081-01` (L1 · regulatory)
-
-> "National peak professional bodies and statutory regulators governing Tax Examiners, Collectors, and Revenue Agents enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
-
-- **Scope:** Australian practitioners in Tax Examiners, Collectors, and Revenue Agents across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Tax Examiners, Collectors, and Revenue Agents** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Tax Examiners, Collectors, and Revenue Agents](https://www.psc.gov.au/standards/13-2081) — *What it measured:* National competency and ethics framework for Tax Examiners, Collectors, and Revenue Agents
-
----
-
-### Claim `13-2081-02` (L2 · scholarly)
-
-> "Automation of routine transactional and analytical tasks in Tax Examiners, Collectors, and Revenue Agents heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Tax Examiners, Collectors, and Revenue Agents roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Tax Examiners, Collectors, and Revenue Agents](https://www.jobsandskills.gov.au/research/13-2081) — *What it measured:* Labour market analysis of automation resilience across Tax Examiners, Collectors, and Revenue Agents in Australia
-
----
+L5 practitioner-discourse corpus: last30days sweep (reddit, x, youtube, hackernews, github, grounding) over 180 days — see corpus.l5Sample.
+L4 LinkedIn corpus: linkedin-mcp-search unofficial scrape — see corpus.linkedin.

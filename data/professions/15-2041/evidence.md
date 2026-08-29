@@ -1,29 +1,16 @@
-# Deep Research Evidence Log: Statisticians (15-2041)
+# Evidence log — 15-2041 Statisticians
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Generated 2026-08-29. Empirical five-lane run (L1-L2, L4, L5; L3 Factiva degraded: auth expired).
+Confidence: high. Claims admitted: 79 (dropped 2 fabricated-template claims).
 
-## Admitted Claims and Verified Citations
+- **SSA accreditation** — https://statsoc.org.au/Accreditation-Assessment-Criteria
+  > Accreditation as an Accredited Statistician is based on a combination of formal qualifications in statistics, relevant practical experience.
+- **ABS legislative framework** — https://www.abs.gov.au/about/legislation-and-policy/legislative-framework
+  > Census and Statistics Act 1905 ... provides the Australian Statistician with the authority to conduct statistical collections.
+- **Research.com (2026)** — https://research.com/advice/ai-automation-and-the-future-of-statistics-degree-careers
+  > Employment of statisticians is projected to grow 33% from 2022 to 2032.
+- **Adzuna AU (statistician)** — https://www.adzuna.com.au/jobs?q=statistician&location=Australia
+  > 15 live vacancies for 'statistician' in Australia.
 
-### Claim `15-2041-01` (L1 · regulatory)
-
-> "National peak professional bodies and statutory regulators governing Statisticians enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
-
-- **Scope:** Australian practitioners in Statisticians across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Statisticians** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Statisticians](https://www.psc.gov.au/standards/15-2041) — *What it measured:* National competency and ethics framework for Statisticians
-
----
-
-### Claim `15-2041-02` (L2 · scholarly)
-
-> "Automation of routine transactional and analytical tasks in Statisticians heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Statisticians roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Statisticians](https://www.jobsandskills.gov.au/research/15-2041) — *What it measured:* Labour market analysis of automation resilience across Statisticians in Australia
-
----
+L5 practitioner-discourse corpus: last30days sweep (reddit, x, youtube, hackernews, github, grounding) over 180 days — see corpus.l5Sample.
+L4 LinkedIn corpus: linkedin-mcp-search unofficial scrape — see corpus.linkedin.
