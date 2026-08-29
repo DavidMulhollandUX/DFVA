@@ -1,0 +1,142 @@
+{
+  "code": "mc-humrlaw",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Teamwork is named as a graduate attribute but only described in terms of class format, not assessment (anchor level 1: 'appears in learning outcomes, but no core unit assesses it'). The one collaborative assessment task found, a Group in-class presentation in AI and Justice, sits in an elective from the prescribed list, not the program's sole compulsory subject (International Human Rights Law) -- per the LOWER-level rule this cannot support level 2 ('at least one core unit assesses collaborative practice').",
+      "evidenceLines": [
+        "Capacity to value and participate in teamwork",
+        "Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork.",
+        "Group in-class presentation",
+        "10 minutes",
+        "15%",
+        "All students must complete the subject International Human Rights Law."
+      ]
+    },
+    "C2": {
+      "score": 0,
+      "rationale": "No assessment table in the extract requires appraisal of the quality of one's own, a peer's, or a tool's work against criteria; assessment throughout is take-home exams, approved-topic research papers, presentations and participation (anchor level 0). The nearest candidate, a Reflective Analysis in the elective Disability Human Rights Law, is not documented as criterion-referenced (no exemplars, standards or peer-review structure named) and sits outside the compulsory core.",
+      "evidenceLines": [
+        "Reflective Analysis",
+        "2000 words",
+        "1 Weeks after the end of teaching\t20%",
+        "Research paper on a topic approved by the subject coordinator",
+        "Presentation and supporting resource"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "AI content is documented only in one elective subject, AI and Justice, and its content and assessment match anchor level 1 exactly ('AI or digital tools appear only as electives'). No AI or digital-literacy content appears anywhere in the program's compulsory element or in any subject the course structure marks as required for all students.",
+      "evidenceLines": [
+        "Algorithms are used by public and private bodies to make decisions that govern our lives in significant ways: our healthcare and social welfare entitlements; our educational achievements, jobs, and pay; whether we are subjected to increased police scrutiny, or sent to prison (and for how long).",
+        "This subject considers what’s at stake for individuals when we are subjected to automated decisions, and the role that the law plays or can play in helping to ensure that algorithms are not used to create or perpetuate injustices.",
+        "Research essay on a topic approved by the subject coordinator",
+        "4000 words",
+        "10 June 2026\t70%",
+        "All students must complete the subject International Human Rights Law."
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Transfer is claimed at outcome level but no assessment task in the extract is framed around case variation, unseen data, or cross-context application, matching anchor level 1 ('Transfer is claimed in outcomes... but not assessed'). The LLM's self-scoped independent-project route, the Minor Thesis, is explicitly excluded from this course's subject choices, ruling out level 3.",
+      "evidenceLines": [
+        "Have the cognitive and technical skills to independently examine and critically evaluate current issues by reference to international and domestic human rights standards",
+        "may choose the remaining 12.5 credit points from the subjects available in the Master of Laws (excluding Fundamentals of the Common Law and the Minor Thesis)."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Nearly every subject in the extract is assessed chiefly through a research paper on an approved topic -- secondary, literature/doctrinal analysis rather than primary-evidence generation -- matching anchor level 1 ('literature-review assessment'). No subject documents methodology selection, data collection, or a defended methodology (viva/staged review). The Minor Thesis, the LLM's substantial primary-research route, is explicitly excluded from this course's subject list, ruling out levels 2-3.",
+      "evidenceLines": [
+        "Research paper on a topic approved by the subject coordinator",
+        "3500 words",
+        "16 December 2026\t70%",
+        "may choose the remaining 12.5 credit points from the subjects available in the Master of Laws (excluding Fundamentals of the Common Law and the Minor Thesis)."
+      ]
+    },
+    "adaptiveness": 4,
+    "W1": {
+      "score": 1,
+      "rationale": "Communication is named as a graduate attribute and multiple elective subjects assess short in-class presentations to the teaching team, matching anchor level 1. No assessment task in the extract is documented as a recognised professional genre or judged by an audience beyond the teaching team.",
+      "evidenceLines": [
+        "Capacity to effectively communicate complex legal ideas and theories, orally and in writing, to a variety of audiences",
+        "Presentation and supporting resource",
+        "5 minutes",
+        "During the teaching period\t30%",
+        "Piece of legal writing on a topic and in a format approved by the subject coordinator"
+      ]
+    },
+    "W2": {
+      "score": 0,
+      "rationale": "Assessment across the extract is uniformly exam/research-paper/presentation format, matching anchor level 0 ('exams, problem sets and essays with no situational framing'). No assessment task is documented as reproducing a real or realistic professional task with an artefact and criteria drawn from practice.",
+      "evidenceLines": [
+        "Option 1: Take-home examination",
+        "Option 2: Research paper on a topic approved by the subject coordinator",
+        "4000-5000 words",
+        "17 - 20 January 2020\t80%"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "An International Legal Internship appears in the course structure's subject list, offered across five teaching periods, matching anchor level 1 exactly ('Work-situated learning exists only as an elective, an optional internship'). It is one of roughly thirty optional subjects filling 87.5 of 100 credit points, not a compulsory placement in the core.",
+      "evidenceLines": [
+        "LAWS70067\tInternational Legal Internship",
+        "January (On Campus - Parkville)",
+        "Semester 1 (On Campus - Parkville)",
+        "12.5",
+        "Students with a law degree from a common law jurisdiction must complete at least 87.5 credit points from the prescribed human rights law subjects and may choose the remaining 12.5 credit points from the subjects available in the Master of Laws (excluding Fundamentals of the Common Law and the Minor Thesis)."
+      ]
+    },
+    "workplace": 2,
+    "gates": {
+      "G1": {
+        "result": "FAIL",
+        "rationale": "PASS is not supported by the extract. The anchor's PASS form requires one of: an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain. The program documents only ONE compulsory subject (International Human Rights Law, 12.5/100 credit points) plus a free-choice basket of ~30 electives for the remaining 87.5 points -- and 12.5 of those points can come from ANY Master of Laws subject, not necessarily human-rights content (line 195: 'may choose the remaining 12.5 credit points from the subjects available in the Master of Laws'). No accreditation and no staged/prerequisite sequence is documented anywhere in the 2,210-line extract. The original scoring did not cleanly match any of the anchor's three named PASS forms, then defaulted to PASS 'because the explicit FAIL condition plainly does not apply' -- this inverts the instrument's own scoring-direction rule (take the LOWER level / resolve ambiguity downward, never upward), which the same submission applies correctly elsewhere (C1, C2, C4). Absent documented evidence matching any PASS form, the defensible call is FAIL. Demoted on verification review; this is gate-level and flags the program regardless of C1-C5.",
+        "evidenceLines": [
+          "The specialisation in human rights law offers the widest range of human rights subjects in Australia.",
+          "All students must complete the subject International Human Rights Law.",
+          "Students with a law degree from a common law jurisdiction must complete at least 87.5 credit points from the prescribed human rights law subjects and may choose the remaining 12.5 credit points from the subjects available in the Master of Laws"
+        ]
+      },
+      "G2": {
+        "result": "FAIL",
+        "rationale": "No assessment task in the extract is a simulation, capstone, or live project with real uncertainty and accountability; every captured subject is assessed through take-home examinations, approved-topic research papers, short presentations, and participation -- conventional academic formats without documented defended trade-off decisions.",
+        "evidenceLines": [
+          "Option 1: Take-home examination",
+          "Option 2: Research paper on a topic approved by the subject coordinator",
+          "Class participation",
+          "Individual class presentation on an allocated topic"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1: AI and Justice assesses a Group in-class presentation (collaborative practice), but this is an elective from the prescribed list, not the program's sole compulsory subject -- held at level 1 rather than 2 per the LOWER-level rule.",
+      "C2: Disability Human Rights Law's Reflective Analysis (20%, elective) could suggest self-appraisal, but is not documented as criterion-referenced appraisal against standards or exemplars -- held at level 0.",
+      "C4: AI and Justice and Hot Topics in Public Law address emergent/cutting-edge legal problems that could read as application to novel or unfamiliar contexts (level 2), but no assessment task is explicitly framed as case-variation or unseen-data design -- held at level 1.",
+      "W1: Human Rights Advocacy's 'Piece of legal writing... in a format approved by the subject coordinator' could be a professional genre (e.g. an advocacy report), but the specific format is not documented -- held at level 1.",
+      "Structural: the extract does not include a subject or assessment page for LAWS70264 International Human Rights Law, the program's only universally compulsory subject. All 'core unit' scoring above therefore rests on the pattern across the extensive prescribed elective list (~30 subjects, 87.5 of 100 credit points) rather than confirmed compulsory-subject assessment, and is held at the lower end wherever the compulsory-vs-elective distinction was decisive (C1, W1, W3).",
+      "G1: demoted from PASS to FAIL on verification review -- the extract does not document any of the anchor's three named PASS forms (all-compulsory specialist core, accredited sequence, staged prerequisite chain); see G1 rationale."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-30"
+      },
+      "mechanical": true,
+      "date": "2026-08-29"
+    }
+  }
+}
