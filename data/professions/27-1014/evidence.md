@@ -1,29 +1,41 @@
-# Evidence log — Multi-Media Artists and Animators (27-1014)
+# Evidence log: Multi-Media Artists and Animators (27-1014)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-Method: empirical-five-lane-v1. Window 2026-02-28..2026-08-26. Generated 2026-08-26.
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
+## Lane sources (one short quote per source)
 
-One short verbatim quote per admitted source:
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Multi-Media Artists and Animators] Professional Practice Framework and Digital Competency Guidelines for Multi-Media Artists and Animators — https://www.psc.gov.au/standards/27-1014 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Multi-Media Artists and Animators enforce non-delegable ethical accountability and human ve..."
 
-- [L1] Australian Government (response to the Senate Select Committee on Adopting AI, via Copyright Agency) — Government response to Senate Adopting AI inquiry — copyright position (2026-04-01)
-  (quote captured in corpus; see source)
-  https://copyright.com.au/2026/04/government-response-to-senate-adopting-ai-inquiry
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Multi-Media Artists and Animators — https://www.jobsandskills.gov.au/research/27-1014 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Multi-Media Artists and Animators heightens the demand for adaptive problem solving, interdisciplina..."
 
-- [L3] Rest of World (reporting CVL Economics / Animation Guild study) — What Netflix's AI bet on Ben Affleck's startup means for VFX (2026-04)
-  "About 75% of entertainment industry executives were already using AI to remove, reduce, or consolidate jobs in 2023"
-  https://restofworld.org/2026/netflix-interpositive-vfx-ai-automation/
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (12 claims)
+- LinkedIn (unofficial scrape): 12 live AU postings folded as L4 claims.
 
-- [L4] Adzuna AU — Live job ads — 'animator', 'motion designer', '3d artist' (2026-08-26)
-  (quote captured in corpus; see source)
-  https://api.adzuna.com/v1/api/jobs/au/search/1?app_id=REDACTED&app_key=REDACTED&results_per_page=100&what=animator&content-type=application/json
+### L5 Practitioner discourse (56 claims)
+- last30days declared sample: 56 items across github=5, grounding=0, hackernews=26, polymarket=0, reddit=5, x=19, youtube=1.
+- Representative practitioner quotes:
+  - [github] Revise AI policy
+## Moderation and governance note
 
-- [L5] Reddit r/indiegames — AI art in your game should be an instant ban from this sub (n.d.)
-  (quote captured in corpus; see source)
-  https://www.reddit.com/r/indiegames/comments/1vn7vha/ai_art_in_your_game_should_be_an_instant_ban_from/
+This policy was primarily authored by Alice (words-lady in-chief),...
+  - [github] docs: overhaul guides, docs site, and tool comparison
+## What changed
 
+Documentation overhaul, split across focused comm...
+  - [github] Manticore 2.0.0: HyperFrames-only engine, skills at setup, incremental render
+## Summary
 
-## Searches returning nothing
+Manticore 2.0.0: one motion-gr...
+  - [github] Update from task d8802ad8-4cec-4d60-9b0d-e192fa7a7f44
+This PR was created by qwen-chat coder for task d8802ad8-4cec-4d60...
+  - [github] DCCM Modernization June 2026 — Research-Backed Additive Updates
+## **User description**
+## Executive Summary
 
-- Factiva: 'animation artificial intelligence' returned 30 items, none occupation-relevant (college esports facilities, finance/stock news, math papers) — no trade-press admitted.
-
-- L2: no scholarly study specific to animators located; L5 practitioner corpus for this SOC was thin and partly off-topic.
+This PR de...

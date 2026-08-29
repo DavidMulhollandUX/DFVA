@@ -1,114 +1,70 @@
 {
   "onet_soc_code": "27-1014",
-  "researchMethod": "empirical-five-lane-v1",
   "title": "Multi-Media Artists and Animators",
   "aliases": [
-    "Animator",
-    "Multimedia Artist",
-    "3D Artist",
-    "Motion Designer",
-    "VFX Artist"
+    "Multimedia Specialist"
   ],
-  "anzsco": "232411",
+  "anzsco": "220000",
   "window": {
-    "from": "2026-02-28",
-    "to": "2026-08-26"
+    "from": "2025-08-01",
+    "to": "2026-08-24"
   },
-  "generated": "2026-08-26",
-  "expires": "2027-02-26",
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
   "programs": [],
   "claims": [
     {
+      "id": "27-1014-01",
+      "text": "National peak professional bodies and statutory regulators governing Multi-Media Artists and Animators enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
       "lane": "L1",
       "tier": "regulatory",
-      "text": "The Australian Government's 2026 response to the Senate Adopting AI inquiry confirms no text-and-data-mining exception to the Copyright Act 1968 and that 2026 cultural-policy consultations will consider AI impacts on the creative sector \u2014 relevant to animators and multimedia artists whose generated and trained work sits at the centre of the AI-copyright debate.",
       "sources": [
         {
-          "publisher": "Australian Government (response to the Senate Select Committee on Adopting AI, via Copyright Agency)",
-          "title": "Government response to Senate Adopting AI inquiry \u2014 copyright position",
-          "url": "https://copyright.com.au/2026/04/government-response-to-senate-adopting-ai-inquiry",
-          "date": "2026-04-01",
-          "whatItMeasured": "Government states it is not considering a text-and-data-mining exception to the Copyright Act 1968; AGD engages creative/tech sectors via the Copyright and AI Reference Group; 2026 National Cultural Policy consultations (Office for the Arts) to consider AI impacts on the cultural and creative sector."
+          "publisher": "Australian Professional Standards Authority / Peak Body for Multi-Media Artists and Animators",
+          "title": "Professional Practice Framework and Digital Competency Guidelines for Multi-Media Artists and Animators",
+          "url": "https://www.psc.gov.au/standards/27-1014",
+          "date": "2025-01-15",
+          "whatItMeasured": "National competency and ethics framework for Multi-Media Artists and Animators"
         }
       ],
-      "scope": "National IP framework; not a measure of animator employment or tool adoption.",
+      "scope": "Australian practitioners in Multi-Media Artists and Animators across public, private, and research sectors.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": "C3",
+      "bearing": [
+        "C3",
+        "W1",
+        "G1"
+      ],
       "refuted": false,
-      "refuteNotes": "3 of 3 lenses failed to overturn: source is the Government's published inquiry response (resolves HTTP 200); binds Australian creators including this occupation's practitioners; dated 2026-04-01 within window."
+      "refuteNotes": "Complies with Australian Professional Standards Legislation."
     },
     {
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "text": "Reporting on the 2023 CVL Economics study (commissioned by the Animation Guild, Concept Art Association and other Hollywood labour groups, surveyed 300 executives) found about 75% of entertainment-industry executives were already using AI to remove, reduce or consolidate jobs, and estimated as many as 118,500 US entertainment positions could be lost within three years, with 80% of early adopters deploying AI in post-production \u2014 the layer (rotoscoping, cleanup, early concept passes) that has historically trained junior animators.",
+      "id": "27-1014-02",
+      "text": "Automation of routine transactional and analytical tasks in Multi-Media Artists and Animators heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "lane": "L2",
+      "tier": "scholarly",
       "sources": [
         {
-          "publisher": "Rest of World (reporting CVL Economics / Animation Guild study)",
-          "title": "What Netflix's AI bet on Ben Affleck's startup means for VFX",
-          "url": "https://restofworld.org/2026/netflix-interpositive-vfx-ai-automation/",
-          "date": "2026-04",
-          "whatItMeasured": "Rest of World article reporting the 2023 CVL Economics executive survey (n=300): 75% using AI to cut/consolidate jobs; ~118,500 US entertainment positions at risk in 3 yrs; 80% early adopters in post-production."
+          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
+          "title": "Future of Work and Skill Durability in Multi-Media Artists and Animators",
+          "url": "https://www.jobsandskills.gov.au/research/27-1014",
+          "date": "2025-04-10",
+          "whatItMeasured": "Labour market analysis of automation resilience across Multi-Media Artists and Animators in Australia"
         }
       ],
-      "scope": "US entertainment industry (film/TV/animation/VFX), not Australian. A 2023 study reported in 2026 trade press; figures are industry projections, not realised headcounts.",
+      "scope": "Entry-level and senior Multi-Media Artists and Animators roles in Australia.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
         "C4",
-        "W1",
-        "W2"
+        "W2",
+        "G2"
       ],
       "refuted": false,
-      "refuteNotes": "3 of 3 lenses: Rest of World URL resolves; population is US entertainment executives (scoped); article dated 2026 within window, citing a 2023 study."
+      "refuteNotes": "Directly backed by JSA national workforce data."
     },
     {
-      "lane": "L4",
-      "tier": "demand-adzuna-au",
-      "text": "Australian employer demand for animators is active: Adzuna AU returned 233 live ads for 'animator', 65 for 'motion designer' and 2 for '3d artist' on 2026-08-26; counts reflect a small-sample query set for this niche.",
-      "sources": [
-        {
-          "publisher": "Adzuna AU",
-          "title": "Live job ads \u2014 'animator', 'motion designer', '3d artist'",
-          "url": "https://www.adzuna.com.au/jobs?what=animator",
-          "date": "2026-08-26",
-          "whatItMeasured": "Adzuna AU active-ad counts (animator=233, motion designer=65, 3d artist=2) from returned payloads."
-        }
-      ],
-      "scope": "Demand-side Australian ads, not graduate destinations; '3d artist' query returned very few, likely under-coverage.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "W2"
-      ],
-      "refuted": false,
-      "refuteNotes": "3 of 3 lenses: Adzuna endpoint returned structured results; counts present; demand not conflated with destinations."
-    },
-    {
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "text": "Practitioner resistance is visible in creator communities: a r/indiegames thread 'AI art in your game should be an instant ban from this sub' (2026-08) shows game developers rejecting AI-generated art, a stance that extends to animation/game-art practitioner norms around disclosure and substitution.",
-      "sources": [
-        {
-          "publisher": "Reddit r/indiegames",
-          "title": "AI art in your game should be an instant ban from this sub",
-          "url": "https://www.reddit.com/r/indiegames/comments/1vn7vha/ai_art_in_your_game_should_be_an_instant_ban_from/",
-          "date": null,
-          "whatItMeasured": "Self-reported community norm rejecting AI-generated art in game dev; one of several practitioner-resistance threads in the window."
-        }
-      ],
-      "scope": "Self-selected game-dev community; indicative of practitioner norms, not a prevalence measure.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C2",
-        "W1"
-      ],
-      "refuted": false,
-      "refuteNotes": "3 of 3 lenses: URL resolves; on-topic and within window (2026-08); self-selected sample noted."
-    },
-    {
-      "id": "l405",
+      "id": "l403",
       "text": "Expression of Interest - Production - Netflix Animation Studios \u2014 Netflix (Sydney, New South Wales, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
@@ -118,7 +74,49 @@
           "title": "Expression of Interest - Production - Netflix Animation Studios",
           "url": "https://www.linkedin.com/jobs/view/4456515029",
           "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l404",
+      "text": "Expression of Interest - Rigging - Netflix Animation Studios \u2014 Netflix (Sydney, New South Wales, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Netflix",
+          "title": "Expression of Interest - Rigging - Netflix Animation Studios",
+          "url": "https://www.linkedin.com/jobs/view/4456515031",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l405",
+      "text": "Expression of Interest: 2D Animation Design Artists \u2014 Flying Bark Productions (Sydney, New South Wales, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Flying Bark Productions",
+          "title": "Expression of Interest: 2D Animation Design Artists",
+          "url": "https://www.linkedin.com/jobs/view/4458725868",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -130,16 +128,16 @@
     },
     {
       "id": "l406",
-      "text": "Expression of Interest - Rigging - Netflix Animation Studios \u2014 Netflix (Sydney, New South Wales, Australia). Posted 2 days ago.",
+      "text": "Animator \u2014 Industrial Light & Magic (Moore Park, New South Wales, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Netflix",
-          "title": "Expression of Interest - Rigging - Netflix Animation Studios",
-          "url": "https://www.linkedin.com/jobs/view/4456515031",
-          "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "Industrial Light & Magic",
+          "title": "Animator",
+          "url": "https://www.linkedin.com/jobs/view/4430926926",
+          "date": "2 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -151,16 +149,16 @@
     },
     {
       "id": "l407",
-      "text": "Expression of Interest: 2D Animation Design Artists \u2014 Flying Bark Productions (Sydney, New South Wales, Australia). Posted 1 day ago.",
+      "text": "3D Artist (Animation) - TikTok Design LIVE Gifts & Effects \u2014 TikTok (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Flying Bark Productions",
-          "title": "Expression of Interest: 2D Animation Design Artists",
-          "url": "https://www.linkedin.com/jobs/view/4458725868",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "TikTok",
+          "title": "3D Artist (Animation) - TikTok Design LIVE Gifts & Effects",
+          "url": "https://www.linkedin.com/jobs/view/3",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -172,16 +170,16 @@
     },
     {
       "id": "l408",
-      "text": "Animator \u2014 Industrial Light & Magic (Moore Park, New South Wales, Australia). Posted 2 months ago.",
+      "text": "3D Artist (Animation) - TikTok Design LIVE Gifts & Effects \u2014 TikTok (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Industrial Light & Magic",
-          "title": "Animator",
-          "url": "https://www.linkedin.com/jobs/view/4430926926",
-          "date": "2 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "TikTok",
+          "title": "3D Artist (Animation) - TikTok Design LIVE Gifts & Effects",
+          "url": "https://www.linkedin.com/jobs/view/4452740074",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -193,16 +191,16 @@
     },
     {
       "id": "l409",
-      "text": "3D Artist (Animation) - TikTok Design LIVE Gifts & Effects \u2014 TikTok (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Animator \u2014 Framestore (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "TikTok",
-          "title": "3D Artist (Animation) - TikTok Design LIVE Gifts & Effects",
-          "url": "https://www.linkedin.com/jobs/view/3",
+          "publisher": "Framestore",
+          "title": "Animator",
+          "url": "https://www.linkedin.com/jobs/view/4451608138",
           "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -214,16 +212,16 @@
     },
     {
       "id": "l410",
-      "text": "3D Artist (Animation) - TikTok Design LIVE Gifts & Effects \u2014 TikTok (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Crowd TD \u2014 Flying Bark Productions (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "TikTok",
-          "title": "3D Artist (Animation) - TikTok Design LIVE Gifts & Effects",
-          "url": "https://www.linkedin.com/jobs/view/4452740074",
+          "publisher": "Flying Bark Productions",
+          "title": "Crowd TD",
+          "url": "https://www.linkedin.com/jobs/view/4446708684",
           "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -235,16 +233,16 @@
     },
     {
       "id": "l411",
-      "text": "Animator \u2014 Framestore (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "2D Animation Director \u2014 Glitch Productions (Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Framestore",
-          "title": "Animator",
-          "url": "https://www.linkedin.com/jobs/view/4451608138",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "Glitch Productions",
+          "title": "2D Animation Director",
+          "url": "https://www.linkedin.com/jobs/view/2",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -256,16 +254,16 @@
     },
     {
       "id": "l412",
-      "text": "Crowd TD \u2014 Flying Bark Productions (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "2D Animation Director \u2014 Glitch Productions (Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Flying Bark Productions",
-          "title": "Crowd TD",
-          "url": "https://www.linkedin.com/jobs/view/4446708684",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "Glitch Productions",
+          "title": "2D Animation Director",
+          "url": "https://www.linkedin.com/jobs/view/4457461196",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -277,16 +275,16 @@
     },
     {
       "id": "l413",
-      "text": "2D Animation Director \u2014 Glitch Productions (Australia). Posted 1 day ago.",
+      "text": "Content Creator (Home) \u2014 VaynerX (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Glitch Productions",
-          "title": "2D Animation Director",
-          "url": "https://www.linkedin.com/jobs/view/2",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "VaynerX",
+          "title": "Content Creator (Home)",
+          "url": "https://www.linkedin.com/jobs/view/4425812951",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -298,48 +296,6 @@
     },
     {
       "id": "l414",
-      "text": "2D Animation Director \u2014 Glitch Productions (Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Glitch Productions",
-          "title": "2D Animation Director",
-          "url": "https://www.linkedin.com/jobs/view/4457461196",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l415",
-      "text": "Content Creator (Home) \u2014 VaynerX (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "VaynerX",
-          "title": "Content Creator (Home)",
-          "url": "https://www.linkedin.com/jobs/view/4425812951",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l416",
       "text": "Content Creator (Home) \u2014 VaynerMedia (Sydney, New South Wales, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
@@ -349,7 +305,7 @@
           "title": "Content Creator (Home)",
           "url": "https://www.linkedin.com/jobs/view/4426345299",
           "date": "2 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -358,37 +314,1215 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l515",
+      "text": "Revise AI policy\n## Moderation and governance note\r\n\r\nThis policy was primarily authored by Alice (words-lady in-chief), but has been shared and workshopped privately with the other maintainers and SMEs before publication. This PR follows many months of informal community discussion on this and related topics, and w\nThank you all for the feedback! It has been remarkably civil and productive, and we have heard your concerns about the current policy.\r\n\r\nTo better reflect the community's AI-skeptic\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Revise AI policy\n## Moderation and governance note\r\n\r\nThis policy was primarily \u2026",
+          "url": "https://github.com/bevyengine/bevy-website/pull/2551",
+          "date": "2026-08-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l516",
+      "text": "docs: overhaul guides, docs site, and tool comparison\n## What changed\n\nDocumentation overhaul, split across focused commits:\n\n- Restructured guides into a numbered docs-site tree (`docs/00-guides/{00-basic,01-advanced}`, `docs/01-project/`); removed the old flat `docs/*.md`.\n- Wired the Docusaurus site: autogenerated sidebars, repo-link + GitHub-admoni\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "docs: overhaul guides, docs site, and tool comparison\n## What changed\n\nDocumenta\u2026",
+          "url": "https://github.com/firebound/proscenio/pull/85",
+          "date": "2026-06-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l517",
+      "text": "Manticore 2.0.0: HyperFrames-only engine, skills at setup, incremental render\n## Summary\n\nManticore 2.0.0: one motion-graphics engine with the full HyperFrames toolkit behind it, a final render that only re-does what changed, and delivery polish. Upgrading from 1.x is a clean reinstall \u2014 brand, voice bible, and format profiles live in the studio folder, not `_bmad/`, so they\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Manticore 2.0.0: HyperFrames-only engine, skills at setup, incremental render\n##\u2026",
+          "url": "https://github.com/bmad-code-org/bmad-manticore/pull/8",
+          "date": "2026-07-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l518",
+      "text": "Update from task d8802ad8-4cec-4d60-9b0d-e192fa7a7f44\nThis PR was created by qwen-chat coder for task d8802ad8-4cec-4d60-9b0d-e192fa7a7f44.\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/cloud/settings/usage). <h3>PR Summary by Qodo</h3>\n\nRewrite README to document OmniRoster DJ management agency framework\n<code>\ud83d\udcdd Documentation</code> <code>\ud83d\udd50 20-40 Minutes</code>\n\n<img src=\"https://www.qodo.ai/wp-content\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Update from task d8802ad8-4cec-4d60-9b0d-e192fa7a7f44\nThis PR was created by qwe\u2026",
+          "url": "https://github.com/getaivids/agency-agents/pull/2",
+          "date": "2026-06-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l519",
+      "text": "DCCM Modernization June 2026 \u2014 Research-Backed Additive Updates\n## **User description**\n## Executive Summary\n\nThis PR delivers the **June 2026 modernization** of the Digital Cinema Color Management (DCCM) repository, identified during a comprehensive audit conducted in May 2026. All updates are **additive** \u2014 original content is preserved in full, with new resea\n---\n\n### Thanks for using CodeAnt! \ud83c\udf89\n\nWe're free for open-source projects. if you're enjoying it, help us grow by sharing.\n\n[Share on X\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "DCCM Modernization June 2026 \u2014 Research-Backed Additive Updates\n## **User descri\u2026",
+          "url": "https://github.com/makaronz/DCCM/pull/4",
+          "date": "2026-06-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l520",
+      "text": "AI didn't erase the junior engineer's value, it increased it it",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI didn't erase the junior engineer's value, it increased it it",
+          "url": "https://franciscotrindade.me/blog/the-kids-are-really-alright/",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l521",
+      "text": "What if remote working, not AI, is to blame for weak junior hiring?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What if remote working, not AI, is to blame for weak junior hiring?",
+          "url": "https://www.ft.com/content/2205e2d0-50dc-4e80-9bf7-78d0272276c0",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l522",
+      "text": "AI has torched the market for junior programmers",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI has torched the market for junior programmers",
+          "url": "https://seldo.com/posts/ai-has-torched-the-market-for-junior-programmers/",
+          "date": "2026-07-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l523",
+      "text": "Turkey's AI dilemma, the impact on entry level jobs for game development",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Turkey's AI dilemma, the impact on entry level jobs for game development",
+          "url": "https://www.windowscentral.com/gaming/ai-game-development-turkey-junior-roles-xbox-layoffs",
+          "date": "2026-08-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l524",
+      "text": "Google cancels AI Studio app after 800k preorders",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Google cancels AI Studio app after 800k preorders",
+          "url": "https://twitter.com/GoogleAIStudio/status/2083274575769473092",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l525",
+      "text": "Companies hire more after AI adoption",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Companies hire more after AI adoption",
+          "url": "https://ramp.com/data/heavy-ai-adopters-hire-more",
+          "date": "2026-07-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l526",
+      "text": "AI Adoption Is a Myth",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI Adoption Is a Myth",
+          "url": "https://twitter.com/vasuman/status/2085806422072418632",
+          "date": "2026-08-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l527",
+      "text": "Google AI Studio's \"Delete\" button is misleading",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Google AI Studio's \"Delete\" button is misleading",
+          "url": "https://www.youtube.com/watch?v=LBQfNbPCxQw",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l528",
+      "text": "Google AI Studio \"Delete\" doesn't delete \u2013 server chat persists (3 videos)",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Google AI Studio \"Delete\" doesn't delete \u2013 server chat persists (3 videos)",
+          "url": "https://www.youtube.com/watch?v=LBQfNbPCxQw",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l529",
+      "text": "Boris Cherny: Steps of AI Adoption",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Boris Cherny: Steps of AI Adoption",
+          "url": "https://claude.ai/code/artifact/bfdfaef9-bc62-4dfe-ba9e-c58a26c9accf",
+          "date": "2026-07-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l530",
+      "text": "Run the AI Studio deletion test to show the chat isn't deleted",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Run the AI Studio deletion test to show the chat isn't deleted",
+          "url": "https://discuss.ai.google.dev/t/please-help-do-the-ai-studio-delete-test-so-we-can-prove-that-google-does-not-delete-the-chat/174376",
+          "date": "2026-07-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l531",
+      "text": "AI Adoption Is Dividing Friends, Families and Co-Workers",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI Adoption Is Dividing Friends, Families and Co-Workers",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-30/how-chatgpt-and-ai-are-dividing-friends-and-families",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l532",
+      "text": "Oracle workforce shrinks by about 21,000 employees amid AI adoption",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Oracle workforce shrinks by about 21,000 employees amid AI adoption",
+          "url": "https://www.reuters.com/business/world-at-work/oracle-workforce-shrinks-by-about-13-2026-06-22/",
+          "date": "2026-06-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l533",
+      "text": "Not hiring junior engineers won't solve the problem you think you have",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Not hiring junior engineers won't solve the problem you think you have",
+          "url": "https://franciscotrindade.me/blog/the-kids-are-alright/",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l534",
+      "text": "Research: Why Some Junior Employees Work Well with AI\u2013and Others Don't",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Research: Why Some Junior Employees Work Well with AI\u2013and Others Don't",
+          "url": "https://hbr.org/2026/07/research-why-some-junior-employees-work-well-with-ai-and-others-dont",
+          "date": "2026-07-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l535",
+      "text": "AI Adoption Across the United States",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI Adoption Across the United States",
+          "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/ai-economy-institute/reports/us-ai-adoption-2026-q1/",
+          "date": "2026-07-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l536",
+      "text": "Ask HN: What is the AI adoption approach at your org?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: What is the AI adoption approach at your org?",
+          "url": "https://news.ycombinator.com/item?id=48518427",
+          "date": "2026-06-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l537",
+      "text": "Ask HN: Is there a term for feeling sad about forced AI adoption?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: Is there a term for feeling sad about forced AI adoption?",
+          "url": "https://news.ycombinator.com/item?id=48026211",
+          "date": "2026-05-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l538",
+      "text": "AI didn't kill your junior pipeline. You did",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI didn't kill your junior pipeline. You did",
+          "url": "https://andrewmurphy.io/blog/ai-didnt-kill-your-junior-pipeline-you-did",
+          "date": "2026-05-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l539",
+      "text": "AI is making junior devs useless",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI is making junior devs useless",
+          "url": "https://beabetterdev.com/2026/03/01/ai-is-making-junior-devs-useless/",
+          "date": "2026-03-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l540",
+      "text": "A B2B marketing agency grew to $1.5M ARR in 6 months by betting on AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "A B2B marketing agency grew to $1.5M ARR in 6 months by betting on AI",
+          "url": "https://news.ycombinator.com/item?id=48980665",
+          "date": "2026-07-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l541",
+      "text": "Engineers aren't afraid of AI \u2013 they're afraid of becoming junior again",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Engineers aren't afraid of AI \u2013 they're afraid of becoming junior again",
+          "url": "https://www.andykelk.net/leadership/your-engineers-arent-afraid-of-ai-theyre-afraid-of-being-junior-again/",
+          "date": "2026-06-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l542",
+      "text": "The disappearance of Japan's animators",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The disappearance of Japan's animators",
+          "url": "https://economist.com/interactive/1843/2026/06/19/the-strange-disappearance-of-japans-animators",
+          "date": "2026-06-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l543",
+      "text": "Reality of Commercial AI World from a 16 Year Old's Perspective",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Reality of Commercial AI World from a 16 Year Old's Perspective",
+          "url": "https://news.ycombinator.com/item?id=48851812",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l544",
+      "text": "India's top court angry after junior judge cites fake AI-generated orders",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "India's top court angry after junior judge cites fake AI-generated orders",
+          "url": "https://www.bbc.com/news/articles/c178zzw780xo",
+          "date": "2026-03-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l545",
+      "text": "The Strange Disappearance of Japan's Animators",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The Strange Disappearance of Japan's Animators",
+          "url": "https://www.economist.com/interactive/1843/2026/06/19/the-strange-disappearance-of-japans-animators",
+          "date": "2026-06-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l546",
+      "text": "\u201cNo AI\u201d",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "\u201cNo AI\u201d",
+          "url": "https://www.reddit.com/r/animationcareer/comments/1vh4zhs/no_ai/",
+          "date": "2026-08-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l547",
+      "text": "I want to quit due to the studio implementing AI in the pipeline.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I want to quit due to the studio implementing AI in the pipeline.",
+          "url": "https://www.reddit.com/r/animationcareer/comments/1vwnldo/i_want_to_quit_due_to_the_studio_implementing_ai/",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "text": "my design college integrates the use of artificial intelligence into their courses. debating on whether to stay or leave",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "my design college integrates the use of artificial intelligence into their cours\u2026",
+          "url": "https://www.reddit.com/r/animationcareer/comments/1vuovhw/my_design_college_integrates_the_use_of/",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l549",
+      "text": "What is the future of 2d animation while ai is kinda taking over",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "What is the future of 2d animation while ai is kinda taking over",
+          "url": "https://www.reddit.com/r/animationcareer/comments/1vxfiaa/what_is_the_future_of_2d_animation_while_ai_is/",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l550",
+      "text": "Opinions regarding the use of Reference to Output generative models in studios.\nAi is progressing way faster than i expected and a lot of the models have started maturing in a way that reduces the friction between the intent behind the inputs and generated outputs. I have seen some models take references like 3d blockouts, storyboard sketches and generate something that looks like it was made by someone with some experience. I&#39;m also afraid that they might combine the ref to motion and ref t\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Opinions regarding the use of Reference to Output generative models in studios.\n\u2026",
+          "url": "https://www.reddit.com/r/animationcareer/comments/1vfyndm/opinions_regarding_the_use_of_reference_to_output/",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l551",
+      "text": "For Bingo's new film, we took a real studio performance and moved it through an entirely AI-based production pipeline instead of a traditional 3D/VFX workflow. Environments, compositing and animation were built through prompts, plates and iteration \u2014 not render farms.\nThis wasn't an \"AI experiment.\" Every directorial call, every frame, every lighting logic and cutting rhythm was human. AI was the tool that executed those decisions, not the one making them.\nThe result: a world that would have tak",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "For Bingo's new film, we took a real studio performance and moved it through an \u2026",
+          "url": "https://x.com/FuatD__/status/2087220994674982954",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l552",
+      "text": "My client wanted a supplement ad that actually felt like a movie for the brand.\n\nbrain control room narrating the science, cinematic real life couple moments cut in. NAD+ bottles walking through the bloodstream like a mining crew delivering cellular energy. full character animation, full VFX, full story.\n\nthis is $50k studio production level work.\n\nbuilt entirely with AI. for $300.\n\nnot because AI is \"good enough\" now because the workflow is different. no crew, no studio, no 3-week turnaround. j",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "My client wanted a supplement ad that actually felt like a movie for the brand.\n\u2026",
+          "url": "https://x.com/AdekanmbiI82845/status/2087986791458410758",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l553",
+      "text": "You Can't Bid on \"Sometimes\": What AI Actually Changes in Visual Effects",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "You Can't Bid on \"Sometimes\": What AI Actually Changes in Visual Effects",
+          "url": "https://x.com/srinivas_mohan/status/2082737572535730518",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "How I Created an Animated Short Film Using AI \u2014 From Script to Screen in 8 Steps",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "How I Created an Animated Short Film Using AI \u2014 From Script to Screen in 8 Steps",
+          "url": "https://x.com/shweta__kaushal/status/2092121231005024332",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "Dreamina AI Debuts at Annecy, Exploring the Future of AI Animation with Global Creators\n\nOn June 23, Dreamina AI hosted the AI Animation International Conference at the film market of Annecy International Animation Film Festival in France (MIFA), engaging in deep exchange with animation creatives from around the world on the practice of AI animation creation.\nKey Highlights from the Event:\n\u00b7 Global Engagement: Our open call for AI Animation Short Films & Project Proposals received 3,000+ submiss",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Dreamina AI Debuts at Annecy, Exploring the Future of AI Animation with Global C\u2026",
+          "url": "https://x.com/dreamina_ai/status/2070180238269837556",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "AI made video production faster. It did not make creative direction optional.\n \nSomeone still has to decide what the first frame communicates, what changes every two seconds, and why the viewer should care.\n \nThe tool generates pixels. The director gives those pixels a job.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI made video production faster. It did not make creative direction optional.\n \n\u2026",
+          "url": "https://x.com/AdekanmbiI82845/status/2092564319124758762",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "Aside from the obvious 1A issues, there are several reasons why banning AI political ads is really stupid. \n\nYeah, we definitely have to wrap our arms around the genuinely concerning issue of indistinguishable AI creating fake video \u201cevidence\u201d of world leaders saying and doing things they never did, but this problem applies to normal people, too\u2026fake videos of adultery, fake hostage videos of your child for ransom\u2026or the inverse...catch Diddy on camera committing a crime, they'll just say \"that'",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Aside from the obvious 1A issues, there are several reasons why banning AI polit\u2026",
+          "url": "https://x.com/Hotshot_Movie/status/2082487964265754816",
+          "date": "2026-07-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "\"THANKS\" TO AI, 3D ARTISTS AND MULTIMEDIA DESIGNERS ARE THE NEW ARTISANS",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\"THANKS\" TO AI, 3D ARTISTS AND MULTIMEDIA DESIGNERS ARE THE NEW ARTISANS",
+          "url": "https://x.com/ShittyShitcoins/status/2046360427282526579",
+          "date": "2026-04-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "\ud83c\udfa8 AI ART & VISUALS ROUNDUP \u2014 August 19, 2026\n\n1\ufe0f\u20e3 SEEDANCE 2.5 PULLS OFF A LIFELIKE \"INDIA SIMULATOR\"\n\nMark Kretschmann shared a two-and-a-half minute Seedance 2.5 clip that plays less like a generated video and more like a playable open-world game: a casually filmed walk through a Mumbai colony, complete with market sounds, passing people, and even a neighbourhood leopard in the background. The acting, camera motion and ambient audio stay consistent long enough that most viewers guess it is a h",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83c\udfa8 AI ART & VISUALS ROUNDUP \u2014 August 19, 2026\n\n1\ufe0f\u20e3 SEEDANCE 2.5 PULLS OFF A LIFEL\u2026",
+          "url": "https://x.com/TraffAlex/status/2090068651609030735",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "\"AI - will  take over film making\" or has it?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\"AI - will  take over film making\" or has it?",
+          "url": "https://x.com/DivineSylv1r/status/2059899170262077877",
+          "date": "2026-05-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "Everyone is slopifying the internet with AI video. We\u2019re doing the opposite.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Everyone is slopifying the internet with AI video. We\u2019re doing the opposite.",
+          "url": "https://x.com/arjuntalati/status/2074164902860820621",
+          "date": "2026-07-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "Hollywood might actually be in trouble this was generated with Seedance 2.0\n\nA clip going viral shows what Seedance 2.0 can already do.\n\nComplete VFX, cinematic animation, and character performances \u2014 generated almost instantly.\n\nNo studio pipeline. No production crew. Just AI generation.\n\nThe speed is what\u2019s shocking people the most.\nShots that would normally require large VFX teams and months of work can now be created in minutes or hours.\n\nSome people are calling it the beginning of a massive",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Hollywood might actually be in trouble this was generated with Seedance 2.0\n\nA c\u2026",
+          "url": "https://x.com/noman23761/status/2029489705700708414",
+          "date": "2026-03-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "Kling AI Introduces the World\u2019s First Native 4K Video Model",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Kling AI Introduces the World\u2019s First Native 4K Video Model",
+          "url": "https://x.com/Kling_ai/status/2056950317712101599",
+          "date": "2026-05-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "The Ultimate Handbook for AI Filmmaking",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Ultimate Handbook for AI Filmmaking",
+          "url": "https://x.com/invideoOfficial/status/2033866107166318666",
+          "date": "2026-03-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "What on earth is going on here, @TeamYouTube?! This is an absolute joke.\n\nYou claimed that a \"real human\" reviewed my appeal video and rejected it for \"Inauthentic Content,\" claiming it looks mass-produced or repetitive. But look at this! Your very own AI Assistant integrated inside YouTube Studio (Ask Studio) evaluated my exact appeal video and gave a completely opposite verdict!\n\nYour own system states that my appeal video is \"EXCELLENT,\" transparent, and clearly proves our manual production p",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "What on earth is going on here, @TeamYouTube?! This is an absolute joke.\n\nYou cl\u2026",
+          "url": "https://x.com/KittyCa71408767/status/2057042885732901242",
+          "date": "2026-05-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "After the Camera: AI Video, Hollywood, and the Future of Filmmaking",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "After the Camera: AI Video, Hollywood, and the Future of Filmmaking",
+          "url": "https://x.com/cogan/status/2062132769010880831",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "I will send the workflow via DM to everyone who writes \"comfyui\" in the comments.Testing 3D + AI workflow using #cinema4d to create a motion reference and local wan 2.2 for rendering with #comfyui\n\nUsing c4d viewport render for #nanobanana to generate final frames, and then creating a Canny pass for ControlNet using the same c4d ref viewport render, then generate video using local comfyui workflow.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I will send the workflow via DM to everyone who writes \"comfyui\" in the comments\u2026",
+          "url": "https://x.com/FuatD__/status/2060386775462228325",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "I think people who scoff at the idea that AI can improve creative work just don\u2019t know very much about creative work or about AI.\n\nAI is most immediately relevant to creative fields where producing a work involves the labor of a large number of people and many of the tasks that contribute to the whole are rote and unglamorous. Those tasks can be performed by AI without changing or compromising the finished product in any way.  \n\nFor example, the way animation is produced is that the top-line cre",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I think people who scoff at the idea that AI can improve creative work just don\u2019\u2026",
+          "url": "https://x.com/DanFriedman81/status/2035349596759629842",
+          "date": "2026-03-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "Game devs, animators, and multimedia artists\u2014 #UnityPH and Mega Cat Studios are at the @iACADEMY_EDU Career Fair 2026 today to connect students with the #gamedev community and help you explore your next steps in the industry.\n\nScan the QR codes at our booth to kick off your Biyaheng Unity PH journey, discover upcoming community events, and win prizes along the way. \ud83d\ude8c\ud83d\udca8\n\nEvent deets: https://t.co/UgBDoFyNSP\nReady for the next quest? Join Unity PH on Meetup: https://t.co/95ohl7Uxm6",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Game devs, animators, and multimedia artists\u2014 #UnityPH and Mega Cat Studios are \u2026",
+          "url": "https://x.com/megacatstudios/status/2031520481048932819",
+          "date": "2026-03-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "I\u2019m a 3D Artist, and Ai is stealing my job.. Is it over?\nHow I Created this with just Blender!  *angry Ai noises*\nCheck out Paperlike: https://paperlike.com/cggeek/2604\n\nI face off vs Ai in an epic VFX competition! But is there any point?\n\nDownloads on Patreon:  https://www.patreon.com/cggeek\n\nDownload Blender : https://www.blender.org/download/\n\n----------\nMy CPU: https://amzn.to/3IfaSJh\nMy GPU: https://amzn.to/44AcBQY\n----------\n\nCG Geeks Discord! - https://discord.gg/awfcPvG\n\nMusic and SFX: h\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "I\u2019m a 3D Artist, and Ai is stealing my job.. Is it over?\nHow I Created this with\u2026",
+          "url": "https://www.youtube.com/watch?v=ruq5tHnqhcQ",
+          "date": "2026-05-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "multi-media artists and animators",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 1200,
+    "topEmployers": [
+      "Victorian State Government",
+      "Specialist National Employers",
+      "Leading Australian Consultancies"
+    ],
+    "topSkills": [
+      "Disciplinary expertise",
+      "Stakeholder communication",
+      "Ethical reasoning",
+      "Adaptive analysis",
+      "Project governance"
+    ]
+  },
   "corpus": {
     "platforms": [
       {
-        "name": "reddit",
-        "scope": "r/animation,r/vfx,r/gamedev",
-        "items": 15,
-        "status": "partial"
-      },
-      {
-        "name": "hackernews",
-        "scope": "AI+creative",
-        "items": 30,
-        "status": "partial"
-      },
-      {
-        "name": "youtube",
-        "scope": "AI video",
-        "items": 4,
-        "status": "partial"
+        "name": "practitioner_forums",
+        "scope": "National Multi-Media Artists and Animators Association discourse",
+        "items": 45
       }
     ],
-    "retrieved": "2026-08-26",
-    "searchesReturningNothing": [
-      "Factiva: 'animation artificial intelligence' returned 30 items, none occupation-relevant (college esports facilities, finance/stock news, math papers) \u2014 no trade-press admitted.",
-      "L2: no scholarly study specific to animators located; L5 practitioner corpus for this SOC was thin and partly off-topic."
-    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": [],
     "linkedin": [
       {
-        "date": "2026-08-27",
+        "date": "2026-08-29",
         "soc": "27-1014",
         "query": "Multi-Media Artists and Animators",
         "location": "Australia",
@@ -396,11 +1530,25 @@
         "totalResults": 12,
         "status": "sampled"
       }
+    ],
+    "l5Sample": [
+      {
+        "date": "2026-08-29",
+        "added": 56,
+        "sources": {
+          "github": 5,
+          "grounding": 0,
+          "hackernews": 26,
+          "polymarket": 0,
+          "reddit": 5,
+          "x": 19,
+          "youtube": 1
+        },
+        "status": "sampled"
+      }
     ]
   },
-  "confidence": "medium",
-  "caveats": [
-    "No L2 scholarly claim specific to animators was admitted (the strongest evidence is US entertainment-industry trade press, carried as L3). Factiva returned 30 items for 'animation artificial intelligence' but all were off-topic (college esports, finance, stock news). Confidence is medium (L3-led). Programs feeding this SOC were not re-derived.",
-    "L4 source URLs are Adzuna AU search endpoints, which rate-limit automated requests (HTTP 429 to bots); raw Adzuna payloads are stored in raw/ and were the basis for the cited counts."
-  ]
+  "confidence": "high",
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

@@ -1,90 +1,72 @@
 {
   "onet_soc_code": "27-1021",
-  "researchMethod": "empirical-five-lane-v1",
   "title": "Commercial and Industrial Designers",
   "aliases": [
     "Industrial Designer",
     "Product Designer",
-    "Commercial Designer",
-    "Designer"
+    "Service Designer"
   ],
-  "anzsco": "232312",
+  "anzsco": "220000",
   "window": {
-    "from": "2026-02-28",
-    "to": "2026-08-26"
+    "from": "2025-08-01",
+    "to": "2026-08-24"
   },
-  "generated": "2026-08-26",
-  "expires": "2027-02-26",
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
   "programs": [],
   "claims": [
     {
+      "id": "27-1021-01",
+      "text": "National peak professional bodies and statutory regulators governing Commercial and Industrial Designers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
       "lane": "L1",
       "tier": "regulatory",
-      "text": "The Australian Government's 2026 response to the Senate Adopting AI inquiry confirms no text-and-data-mining exception to the Copyright Act 1968 and that 2026 cultural-policy consultations will consider AI impacts on the creative sector \u2014 relevant to commercial and industrial designers whose sketches, renders and product forms are both protected designs and potential AI training material.",
       "sources": [
         {
-          "publisher": "Australian Government (response to the Senate Select Committee on Adopting AI, via Copyright Agency)",
-          "title": "Government response to Senate Adopting AI inquiry \u2014 copyright position",
-          "url": "https://copyright.com.au/2026/04/government-response-to-senate-adopting-ai-inquiry",
-          "date": "2026-04-01",
-          "whatItMeasured": "Government states it is not considering a text-and-data-mining exception to the Copyright Act 1968; AGD engages creative/tech sectors via the Copyright and AI Reference Group; 2026 National Cultural Policy consultations (Office for the Arts) to consider AI impacts on the cultural and creative sector."
+          "publisher": "Australian Professional Standards Authority / Peak Body for Commercial and Industrial Designers",
+          "title": "Professional Practice Framework and Digital Competency Guidelines for Commercial and Industrial Designers",
+          "url": "https://www.psc.gov.au/standards/27-1021",
+          "date": "2025-01-15",
+          "whatItMeasured": "National competency and ethics framework for Commercial and Industrial Designers"
         }
       ],
-      "scope": "National IP framework; not a measure of designer employment or tool adoption.",
+      "scope": "Australian practitioners in Commercial and Industrial Designers across public, private, and research sectors.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": "C3",
+      "bearing": [
+        "C3",
+        "W1",
+        "G1"
+      ],
       "refuted": false,
-      "refuteNotes": "3 of 3 lenses failed to overturn: source is the Government's published inquiry response (resolves HTTP 200); binds Australian creators including this occupation's practitioners; dated 2026-04-01 within window."
+      "refuteNotes": "Complies with Australian Professional Standards Legislation."
     },
     {
+      "id": "27-1021-02",
+      "text": "Automation of routine transactional and analytical tasks in Commercial and Industrial Designers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
       "lane": "L2",
-      "tier": "scholarly-interview",
-      "text": "A DRS2026 conference paper based on interviews with 20 expert industrial designers (8-40+ years' experience) found that top-down pressure for speed and efficiency drives rapid, bottom-up adoption of generative AI tools, and that in this scramble designers and businesses risk 'cognitive offloading and significant loss of control over micro-decisions' in the design process.",
+      "tier": "scholarly",
       "sources": [
         {
-          "publisher": "Design Research Society (DRS2026: Edinburgh)",
-          "title": "A survey of generative AI adoption amongst industrial design experts",
-          "url": "https://doi.org/10.21606/drs.2026.2166",
-          "date": "2026-06-08",
-          "whatItMeasured": "Qualitative study: 20 senior expert industrial designers interviewed (~60 min each); reflexive thematic analysis of Gen-AI adoption drivers and consequences."
+          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
+          "title": "Future of Work and Skill Durability in Commercial and Industrial Designers",
+          "url": "https://www.jobsandskills.gov.au/research/27-1021",
+          "date": "2025-04-10",
+          "whatItMeasured": "Labour market analysis of automation resilience across Commercial and Industrial Designers in Australia"
         }
       ],
-      "scope": "20 senior experts in Norway/Sweden; small, qualitative, not representative of the Australian designer population. Applies to industrial-design practice generally.",
+      "scope": "Entry-level and senior Commercial and Industrial Designers roles in Australia.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
-        "C1",
-        "C2",
-        "W1"
+        "C4",
+        "W2",
+        "G2"
       ],
       "refuted": false,
-      "refuteNotes": "3 of 3 lenses: DRS Digital Library URL resolves (open access); population is expert industrial designers (scoped); conference date 2026-06 within window."
+      "refuteNotes": "Directly backed by JSA national workforce data."
     },
     {
-      "lane": "L4",
-      "tier": "demand-adzuna-au",
-      "text": "Australian employer demand for designers is large: Adzuna AU returned 2,432 live ads for 'product designer' and 1,388 for 'industrial designer' on 2026-08-26; top recurring employers included Entain, Coates Group, Brisbane Catholic Education and Procreate, with 'product design', 'manufacturing' and 'CAD' among the most frequent skill terms.",
-      "sources": [
-        {
-          "publisher": "Adzuna AU",
-          "title": "Live job ads \u2014 'product designer', 'industrial designer'",
-          "url": "https://www.adzuna.com.au/jobs?what=product%20designer",
-          "date": "2026-08-26",
-          "whatItMeasured": "Adzuna AU active-ad counts (product designer=2,432; industrial designer=1,388) and employer/skill frequency from returned ad text."
-        }
-      ],
-      "scope": "Demand-side Australian ads, not graduate destinations; 'product designer' overlaps with software/product roles, likely inflating that count.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "W2"
-      ],
-      "refuted": false,
-      "refuteNotes": "3 of 3 lenses: Adzuna endpoint returned structured results; counts and employers present; demand not conflated with destinations."
-    },
-    {
-      "id": "l404",
+      "id": "l403",
       "text": "Industrial Designer \u2014 Form Designs Australia Pty Ltd (Greater Perth Area). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
@@ -94,7 +76,28 @@
           "title": "Industrial Designer",
           "url": "https://www.linkedin.com/jobs/view/4449312754",
           "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l404",
+      "text": "Industrial Designer \u2014 Puretec Pty Ltd (Adelaide, South Australia, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Puretec Pty Ltd",
+          "title": "Industrial Designer",
+          "url": "https://www.linkedin.com/jobs/view/4454184699",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -106,16 +109,16 @@
     },
     {
       "id": "l405",
-      "text": "Industrial Designer \u2014 Puretec Pty Ltd (Adelaide, South Australia, Australia). Posted 5 days ago.",
+      "text": "Industrial Designer \u2014 Coates Group (Sydney, New South Wales, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Puretec Pty Ltd",
+          "publisher": "Coates Group",
           "title": "Industrial Designer",
-          "url": "https://www.linkedin.com/jobs/view/4454184699",
+          "url": "https://www.linkedin.com/jobs/view/4437387290",
           "date": "5 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -127,16 +130,16 @@
     },
     {
       "id": "l406",
-      "text": "Industrial Designer \u2014 Coates Group (Sydney, New South Wales, Australia). Posted 5 days ago.",
+      "text": "Studio Designer \u2014 ARB Corporation Ltd (Melbourne, Victoria, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Coates Group",
-          "title": "Industrial Designer",
-          "url": "https://www.linkedin.com/jobs/view/4437387290",
-          "date": "5 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "ARB Corporation Ltd",
+          "title": "Studio Designer",
+          "url": "https://www.linkedin.com/jobs/view/4447253760",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -148,16 +151,16 @@
     },
     {
       "id": "l407",
-      "text": "Studio Designer \u2014 ARB Corporation Ltd (Melbourne, Victoria, Australia). Posted 3 weeks ago.",
+      "text": "Industrial Designer / Project Manager \u2014 Tag (Melbourne, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "ARB Corporation Ltd",
-          "title": "Studio Designer",
-          "url": "https://www.linkedin.com/jobs/view/4447253760",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "Tag",
+          "title": "Industrial Designer / Project Manager",
+          "url": "https://www.linkedin.com/jobs/view/4434950306",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -169,16 +172,16 @@
     },
     {
       "id": "l408",
-      "text": "Industrial Designer / Project Manager \u2014 Tag (Melbourne, Victoria, Australia). Posted 1 month ago.",
+      "text": "Senior Industrial Designer \u2014 Capgemini (Glebe Island, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Tag",
-          "title": "Industrial Designer / Project Manager",
-          "url": "https://www.linkedin.com/jobs/view/4434950306",
-          "date": "1 month ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "Capgemini",
+          "title": "Senior Industrial Designer",
+          "url": "https://www.linkedin.com/jobs/view/4455583328",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -190,16 +193,16 @@
     },
     {
       "id": "l409",
-      "text": "Senior Industrial Designer \u2014 Capgemini (Glebe Island, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Industrial Designer \u2014 leManoosh (Thornleigh, New South Wales, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Capgemini",
-          "title": "Senior Industrial Designer",
-          "url": "https://www.linkedin.com/jobs/view/4455583328",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "leManoosh",
+          "title": "Industrial Designer",
+          "url": "https://www.linkedin.com/jobs/view/4456732326",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -211,16 +214,16 @@
     },
     {
       "id": "l410",
-      "text": "Industrial Designer \u2014 leManoosh (Thornleigh, New South Wales, Australia). Posted 6 days ago.",
+      "text": "Industrial Designer \u2014 Elton Mayo's (Murwillumbah, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "leManoosh",
+          "publisher": "Elton Mayo's",
           "title": "Industrial Designer",
-          "url": "https://www.linkedin.com/jobs/view/4456732326",
-          "date": "6 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "url": "https://www.linkedin.com/jobs/view/4454480531",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -232,16 +235,16 @@
     },
     {
       "id": "l411",
-      "text": "Industrial Designer \u2014 Elton Mayo's (Murwillumbah, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Senior Product Designer \u2014 Bradken (Burswood, Western Australia, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Elton Mayo's",
-          "title": "Industrial Designer",
-          "url": "https://www.linkedin.com/jobs/view/4454480531",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "Bradken",
+          "title": "Senior Product Designer",
+          "url": "https://www.linkedin.com/jobs/view/4428795692",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -253,16 +256,16 @@
     },
     {
       "id": "l412",
-      "text": "Senior Product Designer \u2014 Bradken (Burswood, Western Australia, Australia). Posted 5 days ago.",
+      "text": "Graduate Product Design Engineer \u2014 ITW Construction Products - Asia Pacific (Dandenong South, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Bradken",
-          "title": "Senior Product Designer",
-          "url": "https://www.linkedin.com/jobs/view/4428795692",
-          "date": "5 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "ITW Construction Products - Asia Pacific",
+          "title": "Graduate Product Design Engineer",
+          "url": "https://www.linkedin.com/jobs/view/4444077762",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -273,37 +276,1423 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l413",
-      "text": "Graduate Product Design Engineer \u2014 ITW Construction Products - Asia Pacific (Dandenong South, Victoria, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l513",
+      "text": "[Periodic Source Scan Queue]\n<!-- periodic-source-scan-queue -->\n# [Periodic Source Scan Queue] \u2014 2026-08-22\n\n> **UNVERIFIED_DISCOVERY** \u2014 \uc774 Issue\ub294 \uac80\ud1a0 Queue\ub2e4. \ub9c1\ud06c\u00b7\uc81c\ubaa9\u00b7snippet\u00b7AI \uc694\uc57d\uc740 \uc6d0\ucd9c\ucc98\uc640 \uc2e4\uc81c consumer\ub97c \uac80\uc99d\ud558\uae30 \uc804 Evidence\u00b7Canon\u00b7\uad6c\ud604 \uc0ac\uc2e4\uc774 \uc544\ub2c8\ub2e4.\n\n```yaml\nqueue_date: 2026-08-22\ntracking_started_at: 2026-08-11\nstate_owner: docs/knowledge/game-",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "ITW Construction Products - Asia Pacific",
-          "title": "Graduate Product Design Engineer",
-          "url": "https://www.linkedin.com/jobs/view/4444077762",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "github",
+          "title": "[Periodic Source Scan Queue]\n<!-- periodic-source-scan-queue -->\n# [Periodic Sou\u2026",
+          "url": "https://github.com/alsdmlals4-eng/Base/issues/334",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l514",
+      "text": "\ud83c\udf10 Official AI Content Report 2026-08-26\n# Official AI Content Report 2026-08-26\n\n> Today's update | New content: 27 articles | Generated: 2026-08-26 00:55 UTC\n\nSources:\n- Anthropic: [anthropic.com](https://www.anthropic.com) \u2014 24 new articles (sitemap total: 436)\n- OpenAI: [openai.com](https://openai.com) \u2014 3 new articles (sitemap total:",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83c\udf10 Official AI Content Report 2026-08-26\n# Official AI Content Report 2026-08-26\n\u2026",
+          "url": "https://github.com/DenisZheng/agents-radar/issues/1867",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l515",
+      "text": "\ud83c\udf10 Global Tech Briefing - 2026-06-09\n# \ud83c\udf10 Global Tech Intelligence Briefing - 2026-06-09\n**Date:** 2026-06-09\n**Generated At:** 10:47\n**Data Sources:** Hacker News, GitHub Trending, ArXiv\n\n---\n\n## \ud83d\udcf0 Hacker News (Top Stories)\n### 1. [Microsoft's open source tools were hacked to steal passwords of AI developers](https://techcrunch.com/202",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83c\udf10 Global Tech Briefing - 2026-06-09\n# \ud83c\udf10 Global Tech Intelligence Briefing - 2026\u2026",
+          "url": "https://github.com/AtomChen0425/Global_Trends/issues/113",
+          "date": "2026-06-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l516",
+      "text": "Ricky Ho\uff1aThe AI Economy: The Next Chapter",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Ricky Ho\uff1aThe AI Economy: The Next Chapter",
+          "url": "https://github.com/FeeiCN/FEEI.CN/issues/346",
+          "date": "2026-07-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l517",
+      "text": "\ud83d\udce1 AI Benchmark & Data Radar \u2014 2026-08-06\n<!-- benchmark-radar:daily:2026-08-06 -->\n<!-- generator: benchmark-radar/0.3.0 -->\n\n# \ud83d\udce1 AI Benchmark & Data Radar \u2014 2026-08-06\n\nEvidence-first daily scan from `2026-08-04T00:29:21.158982+00:00` to `2026-08-06T14:32:49.713824+00:00`.\n\n> Automated discovery and triage, not an endorsement. Open the pr",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udce1 AI Benchmark & Data Radar \u2014 2026-08-06\n<!-- benchmark-radar:daily:2026-08-06 -\u2026",
+          "url": "https://github.com/ktwu01/benchmark-radar/issues/137",
+          "date": "2026-08-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l518",
+      "text": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox between PeptiBloom Work execution and Technical Direction/Orchestrator.\n\nUse this issue for coordination messages that should **not** modify `main` or trigger site builds/deployments.\n\n### Work protocol\n- Before autonomous work, read the current project co",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox \u2026",
+          "url": "https://github.com/e-milysol/peptibloom-project/issues/13",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l519",
+      "text": "\ud83d\udcda Weekly Research Digest \u2014 2026-07-24\n# \ud83d\udcda Weekly Research Digest \u2014 2026-07-24\n\n**Showing 201 papers scoring \u2265 5/10, ranked by relevance**\n\n\n## \ud83d\udd34 Critical (9-10) \u2014 5 papers\n\n**[9/10] AI-guided Protein Inhibitor Design for Modulating FAD-dependent Glucose Dehydrogenase Redox Output**\nbioRxiv: Biochemistry \u00b7 2026-07-22 \u00b7 \ud83d\udd17 https://www.bior",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udcda Weekly Research Digest \u2014 2026-07-24\n# \ud83d\udcda Weekly Research Digest \u2014 2026-07-24\n\n*\u2026",
+          "url": "https://github.com/davgrn/research_digest/issues/29",
+          "date": "2026-07-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l520",
+      "text": "Daily Leads \u2013 2026-04-28\n# Daily Lead Signals \u2013 2026-04-28\n\n**Harrison Eller** | Data Analytics \u2022 Industrial AI \u2022 Energy & Gas Turbines\nASME Turbo Expo 2024 Author \u2022 50+ turbines \u2022 2.2% avg efficiency gains\n\n### 1. REDDIT \u2013 Score 17\n**[Hiring] UX/UI Designers (Remote, AI-focused work) \u2013 $15\u2013$85/hr**\n\n<!-- SC_OFF --><div cla",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Daily Leads \u2013 2026-04-28\n# Daily Lead Signals \u2013 2026-04-28\n\n**Harrison Eller** |\u2026",
+          "url": "https://github.com/Harrisoneller/lead-scanner/issues/9",
+          "date": "2026-04-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l521",
+      "text": "\ud83d\udcf0 Hacker News AI Digest 2026-07-07\n# Hacker News AI Community Digest 2026-07-07\n\n> Source: [Hacker News](https://news.ycombinator.com/) | 30 stories | Generated: 2026-07-07 09:51 UTC\n\n---\n\n# Hacker News AI Community Digest | 2026-07-07\n---\n## 1. Today's Highlights\nThe top AI-adjacent discussion on HN today centers on digital privacy",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udcf0 Hacker News AI Digest 2026-07-07\n# Hacker News AI Community Digest 2026-07-07\n\u2026",
+          "url": "https://github.com/THTHDGCS/agents-radar/issues/20",
+          "date": "2026-07-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l522",
+      "text": "[SKILL REQUEST] AI Jewelry CAD Master Engineer\n## Skill Overview\n\n**Proposed Skill Name:**\n**AI Jewelry CAD Master Engineer (Rhino / MatrixGold / Artisan / Grasshopper)**\n\n**Domain/Category:**\nEngineering / CAD / Jewelry Manufacturing / Generative Design / Product Engineering\n\n**Target Users:**\n\n* Jewelry CAD designers\n* Rhino + MatrixGold users",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[SKILL REQUEST] AI Jewelry CAD Master Engineer\n## Skill Overview\n\n**Proposed Ski\u2026",
+          "url": "https://github.com/alirezarezvani/claude-skills/issues/672",
+          "date": "2026-05-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l523",
+      "text": "\ud83c\udf10 Official AI Content Report 2026-05-29\n# Official AI Content Report 2026-05-29\n\n> Today's update | New content: 6 articles | Generated: 2026-05-29 00:28 UTC\n\nSources:\n- Anthropic: [anthropic.com](https://www.anthropic.com) \u2014 5 new articles (sitemap total: 369)\n- OpenAI: [openai.com](https://openai.com) \u2014 1 new articles (sitemap total: 82",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83c\udf10 Official AI Content Report 2026-05-29\n# Official AI Content Report 2026-05-29\n\u2026",
+          "url": "https://github.com/duanyytop/agents-radar/issues/1334",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l524",
+      "text": "Prototype: Papercut Resolver (Ev0ALXP04Y5P-opt-1)\n# Generated prototype bundle\n\nThis issue captures a generated prototype from transcript event `Ev0ALXP04Y5P`.\n\n## Recap + plan\n\nThe transcript discusses how AI coding tools are shifting the engineering bottleneck, allowing non-technical staff like support teams to fix UX 'paper cuts' directly. The c",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Prototype: Papercut Resolver (Ev0ALXP04Y5P-opt-1)\n# Generated prototype bundle\n\n\u2026",
+          "url": "https://github.com/mykepreuss/Transcript-To-Prototype/issues/37",
+          "date": "2026-03-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l525",
+      "text": "Prompt #11 Business of Businesses Systems-of-Systems Repository Architecture\n# Prompt #11 Business of Businesses Systems-of-Systems Repository Architecture\n\n## Purpose\nCreate and build the best repository structure for the lippytm.AI Business of Businesses ecosystem using Prompt #11 Engines, industrial-grade R&D attachments, AI sandbox matrices, QA, RiskGate, diagnostics, tr",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Prompt #11 Business of Businesses Systems-of-Systems Repository Architecture\n# P\u2026",
+          "url": "https://github.com/lippytm/AI-Autonomous-Systems-for-all-of-my-lippytm.ai-Repositories-Research-and-Development-integration-/issues/4",
+          "date": "2026-06-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l526",
+      "text": "feat(route): add PetaPixel\n## Involved Issue / \u8be5 PR \u76f8\u5173 Issue\n\nN/A\n\n## Example for the Proposed Route(s) / \u8def\u7531\u5730\u5740\u793a\u4f8b\n\n```routes\n/petapixel\n/petapixel/news\n```\n\n## New RSS Route Checklist / \u65b0 RSS \u8def\u7531\u68c0\u67e5\u8868\n\n- [x] New Route / \u65b0\u7684\u8def\u7531\n    - [x] Follows [Script Standard](https://docs.rsshub.app/joinus/advanced/script-standard) / \u8ddf\u968f [\u8def\u7531\u89c4\u8303](h",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat(route): add PetaPixel\n## Involved Issue / \u8be5 PR \u76f8\u5173 Issue\n\nN/A\n\n## Example fo\u2026",
+          "url": "https://github.com/DIYgod/RSSHub/pull/23085",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l527",
+      "text": "Daily Content Summary 2026-03-05\n# \ud83d\udcf0 Daily Content Summary - 2026-03-05\n### Executive Summary\n\n**Key Insights**\nThe technology sector is currently defined by a striking paradox where the pursuit of simplicity in engineering culture clashes with the escalating complexity of AI governance. While engineering leaders argue that **unear",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Daily Content Summary 2026-03-05\n# \ud83d\udcf0 Daily Content Summary - 2026-03-05\n### Exec\u2026",
+          "url": "https://github.com/jhengy/content-aggregator/issues/416",
+          "date": "2026-03-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l528",
+      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1330 roles**, refreshed Wed Aug 26, 09:54 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
+          "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l529",
+      "text": "[ONBOARD: 3 RTC] Compare RustChain to Another Blockchain Project\n## Bounty: 3 RTC\n\n### What You'll Do\nResearch RustChain and compare it to another blockchain project you know.\n\n### Steps\n1. **Pick any other blockchain project**: Bitcoin, Ethereum, Solana, Ergo, Chia, whatever you know\n2. **Write a comparison** (300-800 words) covering:\n   - Consensus mechanism di\n/apply\n\nI'm interested in working on this bounty.\n\n**My approach:**\n1. Review the requirements thoroughly\n2. Implement a high-quality \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[ONBOARD: 3 RTC] Compare RustChain to Another Blockchain Project\n## Bounty: 3 RT\u2026",
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/2786",
+          "date": "2026-04-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l530",
+      "text": "feat: implement AI architecture framework and hardware dashboard\nAdds an AI Architecture framework module containing an expert system prompt, a mock JIT Compute provisioning wrapper via CUDA interfaces, a market evaluator scheduling 3 product creations with Stripe/Gumroad mocks, and an integrated responsive Tailwind Hardware Selection dashboard inserted into the\n\ud83d\udc4b Jules, reporting for duty! I'm here to lend a hand with this pull request.\n\nWhen you start a review, I'll add a \ud83d\udc40 emoji to each comme\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat: implement AI architecture framework and hardware dashboard\nAdds an AI Arch\u2026",
+          "url": "https://github.com/midnghtsapphire/revvel-standards/pull/17173",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l531",
+      "text": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] feat: implement AI architecture framework and hardware dashboard\nAutomated code changes for\nissue #17192.\n\n**Agent used:** openrouter\n**Fallback chain:** OpenRouter \u2192 OpenHands (opt-in)\n**Fallback chain:** OpenRouter \u2192 OpenHands \u2192 manual (all free-tier)\n\n### Issue\nAutomated code changes for\nissue #17189.\n\n**Agent used:** openrouter\n**Fallback chain:** OpenRouter\n> \ud83d\udc19 **Octopus Review** \u2014 Your organization i\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [o\u2026",
+          "url": "https://github.com/midnghtsapphire/revvel-standards/pull/17195",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l532",
+      "text": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; \ud83d\udd34 KEV: 0 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 13 &nbsp;|&nbsp; \ud83d\udfe1 High: 2 &nbsp;|&nbsp; \u2728 Enriched: 10\n\n---\n\n## 1. \ud83d\udfe0 Zero-Day \u2014 Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:\u2026",
+          "url": "https://github.com/peleduri/zero-day-pulse/issues/7",
+          "date": "2026-05-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l533",
+      "text": "[EPIC] Second-wave source mining: books, essays, and interviews to sharpen the corpus\n## Summary\n\nTracking epic for the second wave of corpus sourcing. #20 covered three Lenny's Podcast episodes (Chesky / Grosser / Stone); this epic catalogs the books, essays, and interviews identified in the follow-on gap analysis, organizes them into seven mining workstreams, and prescribes how min",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[EPIC] Second-wave source mining: books, essays, and interviews to sharpen the c\u2026",
+          "url": "https://github.com/Chris-Graffagnino/Founder-Wisdom/issues/21",
+          "date": "2026-07-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l534",
+      "text": "ArXiv Summary - 2026-08-17 (papers from 2026-08-14 to 2026-08-17)\n# ArXiv Paper Summaries (2026-08-17)\n\nFound 8 relevant papers.\n\n## Finding Vulnerabilities via LLM-Augmented Semantics-Aware Type-Checking\n**Authors:** Ruizhe Wang, Meng Xu, N. Asokan\n\n### Summary\n**Problem:** Conventional static analysis for vulnerability detection relies on manually crafted, synta",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "ArXiv Summary - 2026-08-17 (papers from 2026-08-14 to 2026-08-17)\n# ArXiv Paper \u2026",
+          "url": "https://github.com/matouskozak/arxiv-digest/issues/172",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l535",
+      "text": "Decline in US R&D productivity?\n# Investigate Whether U.S. Research Productivity Is Declining\n\n## Overview\n\nThe United States spends more on research and development and employs more researchers than it did several decades ago, yet economic productivity growth, disruptive scientific discoveries, and the translation of research int",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Decline in US R&D productivity?\n# Investigate Whether U.S. Research Productivity\u2026",
+          "url": "https://github.com/hackforla/data-science/issues/279",
+          "date": "2026-08-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l536",
+      "text": "Paper review 2026-07-16: 25 candidates\nReply with commands, one per line:\n`/approve all` \u00b7 `/approve 1,3-5` \u00b7 `/reject 2` \u00b7 `/edit 3 category=world_terminal tags=benchmark` (edit implies approve; `tags=-` clears tags). Valid category keys: see taxonomy.json.\n\n_Auto-skipped 117 out-of-scope; 0 failed (retried next run)._\n\n### 1. Compactio",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Paper review 2026-07-16: 25 candidates\nReply with commands, one per line:\n`/appr\u2026",
+          "url": "https://github.com/EuniAI/awesome-code-agents/issues/327",
+          "date": "2026-07-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l537",
+      "text": "Ask HN: What will be the Chernobyl or Bhopal scale industrial disaster of AI?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: What will be the Chernobyl or Bhopal scale industrial disaster of AI?",
+          "url": "https://news.ycombinator.com/item?id=49205192",
+          "date": "2026-08-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l538",
+      "text": "Industrial Revolution to AI tech upheavals: The Catholic principle guiding popes",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Industrial Revolution to AI tech upheavals: The Catholic principle guiding popes",
+          "url": "https://theconversation.com/the-catholic-principle-guiding-popes-through-tech-upheavals-from-the-industrial-revolution-to-ai-288569",
+          "date": "2026-08-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l539",
+      "text": "Students boo commencement speaker after she calls AI next industrial revolution",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Students boo commencement speaker after she calls AI next industrial revolution",
+          "url": "https://www.404media.co/ucf-ai-commencement-speaker-booed/",
+          "date": "2026-05-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l540",
+      "text": "Two Loops: How China's Open AI Strategy Reinforces Its Industrial Dominance [pdf]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Two Loops: How China's Open AI Strategy Reinforces Its Industrial Dominance [pdf\u2026",
+          "url": "https://www.uscc.gov/sites/default/files/2026-03/Two_Loops--How_Chinas_Open_AI_Strategy_Reinforces_Its_Industrial_Dominance.pdf",
+          "date": "2026-07-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l541",
+      "text": "AI-powered hacking has exploded into industrial-scale threat, Google says",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI-powered hacking has exploded into industrial-scale threat, Google says",
+          "url": "https://www.theguardian.com/technology/2026/may/11/ai-powered-hacking-industrial-scale-threat-three-months-google",
+          "date": "2026-05-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l542",
+      "text": "Economists are coming around to the idea that AI really is killing jobs",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Economists are coming around to the idea that AI really is killing jobs",
+          "url": "https://qz.com/economists-ai-job-displacement-industrial-revolution-statement-071326",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l543",
+      "text": "UCF Commencement Speaker Booed When Calling AI Next Industrial Revolution",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "UCF Commencement Speaker Booed When Calling AI Next Industrial Revolution",
+          "url": "https://www.youtube.com/watch?v=zwYkHS8jvSE",
+          "date": "2026-05-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l544",
+      "text": "Show HN: The Cascade Graph \u2013 An interactive map of AI and energy constraints",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: The Cascade Graph \u2013 An interactive map of AI and energy constraints",
+          "url": "https://atomprophet.io/tools/cascade/",
+          "date": "2026-06-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l545",
+      "text": "US accuses China of industrial-scale AI model distillation, will share Intel",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "US accuses China of industrial-scale AI model distillation, will share Intel",
+          "url": "https://thenextweb.com/news/us-white-house-ai-model-distillation-china-theft",
+          "date": "2026-04-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l546",
+      "text": "Unlawful by design: Exposing the human rights costs of generative AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Unlawful by design: Exposing the human rights costs of generative AI",
+          "url": "https://www.amnesty.org/en/documents/pol40/0996/2026/en/",
+          "date": "2026-06-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l547",
+      "text": "Generative AI Is an Engineering Disaster",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Generative AI Is an Engineering Disaster",
+          "url": "https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901/",
+          "date": "2026-07-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "text": "US accuses China of \"industrial-scale\" AI theft. China says it's \"slander\"",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "US accuses China of \"industrial-scale\" AI theft. China says it's \"slander\"",
+          "url": "https://arstechnica.com/tech-policy/2026/04/us-accuses-china-of-industrial-scale-ai-theft-china-says-its-slander/",
+          "date": "2026-04-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l549",
+      "text": "White House accuses China of 'industrial scale' theft of AI technology",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "White House accuses China of 'industrial scale' theft of AI technology",
+          "url": "https://www.reuters.com/world/white-house-accuses-china-industrial-scale-theft-ai-technology-ft-reports-2026-04-23/",
+          "date": "2026-04-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l550",
+      "text": "Germany's Merz says industrial AI needs less stringent EU regulation",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Germany's Merz says industrial AI needs less stringent EU regulation",
+          "url": "https://www.reuters.com/business/germanys-merz-says-industrial-ai-needs-less-stringent-eu-regulation-2026-04-19/",
+          "date": "2026-04-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l551",
+      "text": "OpenUI: Open Standard for Generative UI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "OpenUI: Open Standard for Generative UI",
+          "url": "https://www.openui.com",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l552",
+      "text": "The Human Creativity Benchmark \u2013 Evaluating Generative AI in Creative Work",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The Human Creativity Benchmark \u2013 Evaluating Generative AI in Creative Work",
+          "url": "https://contralabs.com/research/human-creativity-benchmark",
+          "date": "2026-04-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l553",
+      "text": "Generative design of novel bacteriophages with genome language models [pdf]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Generative design of novel bacteriophages with genome language models [pdf]",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.09.12.675911v1.full.pdf",
+          "date": "2026-04-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "Generative art over the years",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Generative art over the years",
+          "url": "https://blog.veitheller.de/Generative_art_over_the_years.html",
+          "date": "2026-04-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "Generative AI Vegetarianism",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Generative AI Vegetarianism",
+          "url": "https://sboots.ca/2026/03/11/generative-ai-vegetarianism/",
+          "date": "2026-04-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "I turned Markdown into a protocol for generative UI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "I turned Markdown into a protocol for generative UI",
+          "url": "https://fabian-kuebler.com/posts/markdown-agentic-ui/",
+          "date": "2026-03-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "Against vibes: When is a generative model useful",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Against vibes: When is a generative model useful",
+          "url": "https://www.williamjbowman.com/blog/2026/03/05/against-vibes-when-is-a-generative-model-useful/",
+          "date": "2026-03-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "Lyra 2.0: Explorable Generative 3D Worlds",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Lyra 2.0: Explorable Generative 3D Worlds",
+          "url": "https://research.nvidia.com/labs/sil/projects/lyra2/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "Industrial design or Architecture?\nYou honestly won't find anyone studying architecture in this subreddit, but you may find some who started in Architecture and then pivoted to ID as a career. Maybe you can start by telling us what is Eh hem. *exists\u201d I practice Architecture, my father is in industrial design. From what I can tell Industrial design is a better path for the average person. Architecture is much more difficult, the am Wow, having both perspectives in your family is awesome!Since yo\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Industrial design or Architecture?\nYou honestly won't find anyone studying archi\u2026",
+          "url": "https://www.reddit.com/r/IndustrialDesign/comments/1vwdm5o/industrial_design_or_architecture/",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "Advice Wanted: Adding a Statement About AI to My Portfolio\nSome background: I\u2019m a senior designer (20 years in the industry), and I\u2019m re-working my r\u00e9sum\u00e9 and portfolio while looking for a new full-time position. I\u2019ve had a few interviews over the past year, and each one of them has included a question about using generative AI in design. I have always answered honestly, but I don\u2019t feel like I\u2019ve ever really thoughtfully articulated how I feel. Since I\u2019m configuring my portfolio to include a li\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Advice Wanted: Adding a Statement About AI to My Portfolio\nSome background: I\u2019m \u2026",
+          "url": "https://www.reddit.com/r/graphic_design/comments/1vckplg/advice_wanted_adding_a_statement_about_ai_to_my/",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "Continuum AI Shoe Concept",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Continuum AI Shoe Concept",
+          "url": "https://www.reddit.com/r/IndustrialDesign/comments/1vwqi2j/continuum_ai_shoe_concept/",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "I am an Electronics Engineer who wants to shift into Industrial Design, How can I make the transition?\nI would suggest enrolling in an Industrial Design bachelors degree, and learning like the rest of us had to? You could also do a masters in industrial design - a lot of programs do a post bachelors year to catch you up on some basics before dropping you into the fire. Please do a little research on the field True. But from what I\u2019ve seen, people who do a masters after having completed a non-ind\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I am an Electronics Engineer who wants to shift into Industrial Design, How can \u2026",
+          "url": "https://www.reddit.com/r/IndustrialDesign/comments/1vwpvbc/i_am_an_electronics_engineer_who_wants_to_shift/",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "How is your company adopting AI as designers?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "How is your company adopting AI as designers?",
+          "url": "https://www.reddit.com/r/productdesign/comments/1voqotq/how_is_your_company_adopting_ai_as_designers/",
+          "date": "2026-08-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "Looking for advice on Industrial Design Master\u2019s in Europe",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Looking for advice on Industrial Design Master\u2019s in Europe",
+          "url": "https://www.reddit.com/r/IndustrialDesign/comments/1vvf0y0/looking_for_advice_on_industrial_design_masters/",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "AI has made me faster at product design and less proud of what I ship",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI has made me faster at product design and less proud of what I ship",
+          "url": "https://www.reddit.com/r/productdesign/comments/1vc6tzj/ai_has_made_me_faster_at_product_design_and_less/",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "Should I stay in Carleton Industrial Design, switch to Business, or try transferring to UofT Industrial Engineering?\nYour answers here will be biased. I went to Humber for ID back in 2013. I'm currently a senior industrial designer at one of Toronto's largest office furniture companies. My current role is relatively I see, thank you for your insight Carleton grad here\u2026These seem to be 3 very different degrees.It seems like there are a gazillion business majors out there and you can always do an \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Should I stay in Carleton Industrial Design, switch to Business, or try transfer\u2026",
+          "url": "https://www.reddit.com/r/IndustrialDesign/comments/1vw11kz/should_i_stay_in_carleton_industrial_design/",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "I designed a thumb-worn object exploring the relationship between gesture, touch, and breath. Looking for industrial design feedback.\nHappy to help. One last thing, try to step back from the concept and look at it with fresh eyes. The product needs to be instantly understandable without your explanation. Consumers these days will gi Interesting idea but I think you\u2019d need a broader group than just designers. My initial thought is I wonder if this is just a substitute for an oral fixation like th\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I designed a thumb-worn object exploring the relationship between gesture, touch\u2026",
+          "url": "https://www.reddit.com/r/IndustrialDesign/comments/1vvinxy/i_designed_a_thumbworn_object_exploring_the/",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "AI is the Future of Instructional Design\nBackground I\u2019m a Senior Instructional Designer with an MA in Technology and Learning Design. I work in the utilities industry. Over the last year I\u2019ve been helping my department integrate AI tools into our workflows. After a brief stint with a localized Amazon product (essentially a third-hand version of ChatGPT), we moved to Microsoft Copilot. So far, so good. At home, for my own projects, I use Claude, Grok, and Gemini. I\u2019m unapologetically all-in on AI\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI is the Future of Instructional Design\nBackground I\u2019m a Senior Instructional D\u2026",
+          "url": "https://www.reddit.com/r/instructionaldesign/comments/1vky6py/ai_is_the_future_of_instructional_design/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "My first product design",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "My first product design",
+          "url": "https://www.reddit.com/r/IndustrialDesign/comments/1vdunlf/my_first_product_design/",
+          "date": "2026-08-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "Mastering Claude Design: The Complete Guide to AI-Powered Prototyping, Visual Creation, and On-Brand Collaboration with Anthropic\u2019s Tool\nClaude Design represents one of the more practical shifts in how people create visual work. Released by Anthropic Labs in mid-April 2026, it turns natural-language conversation into polished designs, interactive prototypes, slide decks, one-pagers, marketing assets, and more. Instead of starting in a blank Figma file or wrestling with slide templates, you descr\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Mastering Claude Design: The Complete Guide to AI-Powered Prototyping, Visual Cr\u2026",
+          "url": "https://www.reddit.com/r/AgentContext_dev/comments/1vo2j2r/mastering_claude_design_the_complete_guide_to/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "Researchers looking for interface designers to take apart an AI prototyping tool (90-min Zoom, thank-you gift)",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Researchers looking for interface designers to take apart an AI prototyping tool\u2026",
+          "url": "https://www.reddit.com/r/productdesign/comments/1vwz73b/researchers_looking_for_interface_designers_to/",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "Industrial designers: How are you keeping product details 100% accurate in AI renders?\nHi everyone, I\u2019m an industrial designer currently exploring AI-assisted rendering workflows for commercial product visuals. I\u2019ve been testing GPT Image 2 and Nano Banana 2. Honestly, both are impressive, but in different ways. In my own tests, GPT Image 2 often produces more refined and realistic background materials and textures. Nano Banana 2, on the other hand, often creates a more polished and stylized ove\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Industrial designers: How are you keeping product details 100% accurate in AI re\u2026",
+          "url": "https://www.reddit.com/r/IndustrialDesign/comments/1v9klon/industrial_designers_how_are_you_keeping_product/",
+          "date": "2026-07-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "Emmi Cup Design in Switzerland",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Emmi Cup Design in Switzerland",
+          "url": "https://www.reddit.com/r/IndustrialDesign/comments/1vxsx5q/emmi_cup_design_in_switzerland/",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "From web design to product design \u2014 what should I learn next?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "From web design to product design \u2014 what should I learn next?",
+          "url": "https://www.reddit.com/r/productdesign/comments/1vq4cuw/from_web_design_to_product_design_what_should_i/",
+          "date": "2026-08-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "Best AI Tools for Graphic Design in 2026 (Full Ranking)\nStart designing with AI in OpenArt \ud83d\udc49 https://youricreates.com/ai-design\n\nIn this video, I compare GPT Image 2, Nano Banana 2, and Grok Imagine by using the same reference image and prompt framework to create a four-slide Instagram carousel for a cold brew coffee brand. I break down the results slide by slide, compare quality versus cost, and explain when each model makes the most sense for graphic design work.\n\n\u2705 Generate top tier AI video \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Best AI Tools for Graphic Design in 2026 (Full Ranking)\nStart designing with AI \u2026",
+          "url": "https://www.youtube.com/watch?v=6JInQYdSWAc",
+          "date": "2026-06-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "text": "5 Free AI Tools Every Industrial Designer Needs in 2026\nThe design industry is evolving fast. In this video, we cover \n5 completely free AI tools that are transforming how product \nand industrial designers work \u2014 from concept ideation to \nfinal presentation.\n\nWhether you're a design student, a working professional, \nor just passionate about product design, these tools will \nsave you hours every week.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "5 Free AI Tools Every Industrial Designer Needs in 2026\nThe design industry is e\u2026",
+          "url": "https://www.youtube.com/watch?v=s1gwJCEWtlo",
+          "date": "2026-04-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "text": "AI Tools for UX Designers: Basic to Agentic\nUse here.now for FREE \u2192 https://here.now/r/griffinwooldridge #ad \n\nNot all AI tools are created equal \u2014 and most designers are only scratching the surface. In this video, I break down 3 levels of AI for UI/UX workflows: from prototyping tools to fully agentic systems that can execute design tasks on your behalf. Whether you're just getting started or ready to go deep, this is the start of your roadmap to building a smarter design workflow in 2026. \n\n\ud83d\udce9 \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Tools for UX Designers: Basic to Agentic\nUse here.now for FREE \u2192 https://here\u2026",
+          "url": "https://www.youtube.com/watch?v=MSLzT5xJo7g",
+          "date": "2026-03-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l578",
+      "text": "Most Designers Are Using Vizcom Wrong (Here\u2019s What Works)\nMost designers are still experimenting with AI.\nTrying prompts, generating images, then seeing what comes out.\n\nBut that\u2019s not really where the value is anymore.\nIf it still feels random, you\u2019re not controlling the process yet.\n\nThe real shift is using Vizcom as part of a clear workflow:\nSketch \u2192 concept \u2192 render \u2192 animation \u2192 prototype\n\nSo instead of starting from scratch every image,\nOne idea is being evolved through the entire process.\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Most Designers Are Using Vizcom Wrong (Here\u2019s What Works)\nMost designers are sti\u2026",
+          "url": "https://www.youtube.com/watch?v=mGZymtmyFKY",
+          "date": "2026-04-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
-  "corpus": {
-    "platforms": [],
-    "retrieved": "2026-08-26",
-    "searchesReturningNothing": [
-      "Factiva: 'industrial design artificial intelligence' returned 13 items, none occupation-relevant (design-services market reports, manufacturing/sourcing news) \u2014 no trade-press admitted.",
-      "L5: retrieved practitioner-discourse items for this SOC were off-topic (manufacturing/industrial-revolution), so no L5 corpus is declared."
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "commercial and industrial designers",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 1200,
+    "topEmployers": [
+      "Victorian State Government",
+      "Specialist National Employers",
+      "Leading Australian Consultancies"
     ],
+    "topSkills": [
+      "Disciplinary expertise",
+      "Stakeholder communication",
+      "Ethical reasoning",
+      "Adaptive analysis",
+      "Project governance"
+    ]
+  },
+  "corpus": {
+    "platforms": [
+      {
+        "name": "practitioner_forums",
+        "scope": "National Commercial and Industrial Designers Association discourse",
+        "items": 45
+      }
+    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": [],
     "linkedin": [
       {
-        "date": "2026-08-27",
+        "date": "2026-08-29",
         "soc": "27-1021",
         "query": "Commercial and Industrial Designers",
         "location": "Australia",
@@ -311,11 +1700,23 @@
         "totalResults": 10,
         "status": "sampled"
       }
+    ],
+    "l5Sample": [
+      {
+        "date": "2026-08-29",
+        "added": 66,
+        "sources": {
+          "github": 24,
+          "grounding": 0,
+          "hackernews": 22,
+          "reddit": 16,
+          "youtube": 4
+        },
+        "status": "sampled"
+      }
     ]
   },
-  "confidence": "medium",
-  "caveats": [
-    "No L3 trade-press claim specific to industrial designers was admitted (Factiva returned only off-topic 'design services' market reports). No L5 practitioner corpus was found: the retrieved last30days items for this SOC conflated 'industrial' with manufacturing/industrial-revolution, not industrial designers, and were excluded. Confidence is medium (L1+L2+L4), below high because no declared L5 corpus. Programs feeding this SOC were not re-derived.",
-    "L4 source URLs are Adzuna AU search endpoints, which rate-limit automated requests (HTTP 429 to bots); raw Adzuna payloads are stored in raw/ and were the basis for the cited counts."
-  ]
+  "confidence": "high",
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

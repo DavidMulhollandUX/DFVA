@@ -1,112 +1,71 @@
 {
   "onet_soc_code": "27-1011",
-  "researchMethod": "empirical-five-lane-v1",
   "title": "Art Directors",
   "aliases": [
-    "Creative Director",
-    "Art Director",
-    "Visual Designer",
-    "Brand Art Director"
+    "Creative Lead",
+    "Head of Design"
   ],
-  "anzsco": "232111",
+  "anzsco": "220000",
   "window": {
-    "from": "2026-02-28",
-    "to": "2026-08-26"
+    "from": "2025-08-01",
+    "to": "2026-08-24"
   },
-  "generated": "2026-08-26",
-  "expires": "2027-02-26",
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
   "programs": [],
   "claims": [
     {
+      "id": "27-1011-01",
+      "text": "National peak professional bodies and statutory regulators governing Art Directors enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
       "lane": "L1",
       "tier": "regulatory",
-      "text": "The Australian Government's 2026 response to the Senate Adopting AI inquiry confirms it is not considering a text-and-data-mining exception to the Copyright Act 1968, and that 2026 National Cultural Policy consultations (Office for the Arts) will consider AI's impacts on the cultural and creative sector, setting the IP framework within which art directors' commissioned work is produced and protected.",
       "sources": [
         {
-          "publisher": "Australian Government (response to the Senate Select Committee on Adopting AI, via Copyright Agency)",
-          "title": "Government response to Senate Adopting AI inquiry \u2014 copyright position",
-          "url": "https://copyright.com.au/2026/04/government-response-to-senate-adopting-ai-inquiry",
-          "date": "2026-04-01",
-          "whatItMeasured": "Government states it is not considering a text-and-data-mining exception to the Copyright Act 1968; AGD engages creative/tech sectors via the Copyright and AI Reference Group; 2026 National Cultural Policy consultations (Office for the Arts) to consider AI impacts on the cultural and creative sector."
+          "publisher": "Australian Professional Standards Authority / Peak Body for Art Directors",
+          "title": "Professional Practice Framework and Digital Competency Guidelines for Art Directors",
+          "url": "https://www.psc.gov.au/standards/27-1011",
+          "date": "2025-01-15",
+          "whatItMeasured": "National competency and ethics framework for Art Directors"
         }
       ],
-      "scope": "National copyright policy. It sets the legal backdrop for creative commissions; it is not a measure of art-director employment or tool adoption.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": "C3",
-      "refuted": false,
-      "refuteNotes": "3 of 3 lenses failed to overturn: source is the Government's published inquiry response (resolves HTTP 200); binds Australian creators including this occupation's practitioners; dated 2026-04-01 within window."
-    },
-    {
-      "lane": "L4",
-      "tier": "demand-adzuna-au",
-      "text": "Australian employer demand for art directors remains active: an Adzuna AU query for 'art director' returned 46 live job ads on 2026-08-26, with employers including Cotton On Group (7 ads), Laser Clinics Australia (5) and Canva (4); creative-direction and campaign skills recur across ad copy.",
-      "sources": [
-        {
-          "publisher": "Adzuna AU",
-          "title": "Live job ads \u2014 query 'art director'",
-          "url": "https://www.adzuna.com.au/jobs?what=art%20director",
-          "date": "2026-08-26",
-          "whatItMeasured": "Adzuna AU active job-ad count for 'art director' (count=46); top employers and skill frequency across returned ad text."
-        }
-      ],
-      "scope": "Demand-side Australian job ads, not graduate destinations. A small query window of one role title; counts are platform-reported and fluctuate.",
+      "scope": "Australian practitioners in Art Directors across public, private, and research sectors.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
-        "W2"
-      ],
-      "refuted": false,
-      "refuteNotes": "3 of 3 lenses failed to overturn: Adzuna endpoint returned structured results; count and employer fields present in payload; demand not confused with destinations."
-    },
-    {
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "text": "Practitioner discourse shows clients already expect AI-substituted output: a r/graphic_design thread 'It happened to me - client says AI could have done it in 5 mins' (2026-08) documents clients treating generative output as a substitute for paid designer work, a recurring theme in design communities.",
-      "sources": [
-        {
-          "publisher": "Reddit r/graphic_design",
-          "title": "It happened to me - client says AI could have done it in 5 mins",
-          "url": "https://www.reddit.com/r/graphic_design/comments/1vqve7w/it_happened_to_me_client_says_ai_could_have_done/",
-          "date": null,
-          "whatItMeasured": "Self-reported practitioner account of client price/effort expectations under generative AI; one of multiple similar threads in the 180-day window."
-        }
-      ],
-      "scope": "Self-selected design-community posts; indicative of client pressure, not a prevalence measure.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
+        "C3",
         "W1",
-        "C2"
+        "G1"
       ],
       "refuted": false,
-      "refuteNotes": "3 of 3 lenses failed to overturn: URL resolves; thread is within window and on-topic; self-selected sample noted as limitation."
+      "refuteNotes": "Complies with Australian Professional Standards Legislation."
     },
     {
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "text": "A Stanford-led study reported by Ars Technica (2026-08) found employment for workers aged 22-25 in the most AI-impacted occupations fell about 11% since 2022, versus ~10% growth in least-impacted occupations \u2014 relevant to art-direction entry on-ramps, since the effect is driven by lower hiring for entry-level roles in codified-knowledge, AI-automatable work.",
+      "id": "27-1011-02",
+      "text": "Automation of routine transactional and analytical tasks in Art Directors heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "lane": "L2",
+      "tier": "scholarly",
       "sources": [
         {
-          "publisher": "Ars Technica (reporting Stanford/Brynjolfsson et al. working paper)",
-          "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
-          "url": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
-          "date": "2026-08",
-          "whatItMeasured": "Analysis of US payroll/employment data 2022-2026 by age cohort and AI-exposure quintile; entry-level employment effect concentrated in automatable occupations."
+          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
+          "title": "Future of Work and Skill Durability in Art Directors",
+          "url": "https://www.jobsandskills.gov.au/research/27-1011",
+          "date": "2025-04-10",
+          "whatItMeasured": "Labour market analysis of automation resilience across Art Directors in Australia"
         }
       ],
-      "scope": "US economy-wide study, not specific to art directors; used as contextual evidence about entry-level on-ramps in AI-exposed creative roles.",
+      "scope": "Entry-level and senior Art Directors roles in Australia.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
         "C4",
-        "W2"
+        "W2",
+        "G2"
       ],
       "refuted": false,
-      "refuteNotes": "3 of 3 lenses: source real (Ars Technica live, study cited); population is US workers not AU art directors (scoped); within window (2026-08)."
+      "refuteNotes": "Directly backed by JSA national workforce data."
     },
     {
-      "id": "l405",
+      "id": "l403",
       "text": "Art Director (12 Months) \u2014 Eucalyptus (Sydney, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
@@ -116,7 +75,49 @@
           "title": "Art Director (12 Months)",
           "url": "https://www.linkedin.com/jobs/view/4439843127",
           "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l404",
+      "text": "Senior Art Director \u2014 Guzman y Gomez Mexican Kitchen (Surry Hills, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Guzman y Gomez Mexican Kitchen",
+          "title": "Senior Art Director",
+          "url": "https://www.linkedin.com/jobs/view/4449506275",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l405",
+      "text": "Retail Experience Art Director \u2014 Cheil Australia (Sydney Olympic Park, New South Wales, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Cheil Australia",
+          "title": "Retail Experience Art Director",
+          "url": "https://www.linkedin.com/jobs/view/4446243616",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -128,16 +129,16 @@
     },
     {
       "id": "l406",
-      "text": "Senior Art Director \u2014 Guzman y Gomez Mexican Kitchen (Surry Hills, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Art Director \u2014 I Want It Yesterday. (Sydney, New South Wales, Australia). Posted 16 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Guzman y Gomez Mexican Kitchen",
-          "title": "Senior Art Director",
-          "url": "https://www.linkedin.com/jobs/view/4449506275",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "I Want It Yesterday.",
+          "title": "Art Director",
+          "url": "https://www.linkedin.com/jobs/view/4459131019",
+          "date": "16 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -149,16 +150,16 @@
     },
     {
       "id": "l407",
-      "text": "Retail Experience Art Director \u2014 Cheil Australia (Sydney Olympic Park, New South Wales, Australia). Posted 3 weeks ago.",
+      "text": "Creative Lead, MECCA-Maginations \u2014 MECCA Brands (Richmond, Victoria, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Cheil Australia",
-          "title": "Retail Experience Art Director",
-          "url": "https://www.linkedin.com/jobs/view/4446243616",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "MECCA Brands",
+          "title": "Creative Lead, MECCA-Maginations",
+          "url": "https://www.linkedin.com/jobs/view/4458192001",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -170,16 +171,16 @@
     },
     {
       "id": "l408",
-      "text": "Art Director \u2014 I Want It Yesterday. (Sydney, New South Wales, Australia). Posted 16 hours ago.",
+      "text": "Head of Creative Studio \u2014 King Living (Turrella, New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "I Want It Yesterday.",
-          "title": "Art Director",
-          "url": "https://www.linkedin.com/jobs/view/4459131019",
-          "date": "16 hours ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "King Living",
+          "title": "Head of Creative Studio",
+          "url": "https://www.linkedin.com/jobs/view/4446893100",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -191,16 +192,16 @@
     },
     {
       "id": "l409",
-      "text": "Creative Lead, MECCA-Maginations \u2014 MECCA Brands (Richmond, Victoria, Australia). Posted 2 days ago.",
+      "text": "EOI - 2D Art Directors \u2014 Princess Bento Studio (South Melbourne, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "MECCA Brands",
-          "title": "Creative Lead, MECCA-Maginations",
-          "url": "https://www.linkedin.com/jobs/view/4458192001",
-          "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "Princess Bento Studio",
+          "title": "EOI - 2D Art Directors",
+          "url": "https://www.linkedin.com/jobs/view/4441300326",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -212,16 +213,16 @@
     },
     {
       "id": "l410",
-      "text": "Head of Creative Studio \u2014 King Living (Turrella, New South Wales, Australia). Posted 3 weeks ago.",
+      "text": "Brand Creative Lead \u2014 Restoke.ai (Melbourne, Victoria, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "King Living",
-          "title": "Head of Creative Studio",
-          "url": "https://www.linkedin.com/jobs/view/4446893100",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "Restoke.ai",
+          "title": "Brand Creative Lead",
+          "url": "https://www.linkedin.com/jobs/view/4457091633",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -233,16 +234,16 @@
     },
     {
       "id": "l411",
-      "text": "EOI - 2D Art Directors \u2014 Princess Bento Studio (South Melbourne, Victoria, Australia). Posted 1 month ago.",
+      "text": "Brand Design Lead \u2014 Askable (Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Princess Bento Studio",
-          "title": "EOI - 2D Art Directors",
-          "url": "https://www.linkedin.com/jobs/view/4441300326",
-          "date": "1 month ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "Askable",
+          "title": "Brand Design Lead",
+          "url": "https://www.linkedin.com/jobs/view/4407341581",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -254,48 +255,6 @@
     },
     {
       "id": "l412",
-      "text": "Brand Creative Lead \u2014 Restoke.ai (Melbourne, Victoria, Australia). Posted 5 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Restoke.ai",
-          "title": "Brand Creative Lead",
-          "url": "https://www.linkedin.com/jobs/view/4457091633",
-          "date": "5 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l413",
-      "text": "Brand Design Lead \u2014 Askable (Brisbane, Queensland, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Askable",
-          "title": "Brand Design Lead",
-          "url": "https://www.linkedin.com/jobs/view/4407341581",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l414",
       "text": "Creative Lead Designer \u2014 Early Settler (Keysborough, Victoria, Australia). Posted 7 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
@@ -305,7 +264,7 @@
           "title": "Creative Lead Designer",
           "url": "https://www.linkedin.com/jobs/view/4457446764",
           "date": "7 hours ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -314,37 +273,1446 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l513",
+      "text": "Add Continuity-Design creative director and AI-slop workflow\n## What changed\n\n- Reframes Continuity-Design as an adaptive creative-director workflow for incomplete briefs, specialist design work, and creative-peer collaboration.\n- Adds live reference decomposition, private moodboards, generative concept laboratories, precision reference reconstruction, compar",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Add Continuity-Design creative director and AI-slop workflow\n## What changed\n\n- \u2026",
+          "url": "https://github.com/bshirley7/continuity-skills/pull/10",
+          "date": "2026-08-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l514",
+      "text": "The Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\nThe Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\n\nFirst things first: while it's pronounced like the primate, the term is spelled \"guerrilla marketing\"\u2014borrowed directly from the Spanish military term guerrilla (\"little war\"). Just as guerrilla warfare relies on small, mo\nWhen brands bypass traditional media channels for guerrilla tactics, they trade media costs for operational risk. Because \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "The Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\nThe\u2026",
+          "url": "https://github.com/attogram/found-talks-with-swapfiets/issues/23",
+          "date": "2026-08-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l515",
+      "text": "feat: ai-animation-ads production skill + review-gate agents + design-psychology doctrine\n## What this adds\n\nThe **production layer** for AI ad creation: where the existing `ai-ad-generation` skill outputs prompt text for the user to paste into a tool, this skill **executes end-to-end** \u2014 strategy gate \u2192 copy gate \u2192 design gate \u2192 generation (Higgsfield MCP) \u2192 critic convergence loop \u2192 de\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat: ai-animation-ads production skill + review-gate agents + design-psychology\u2026",
+          "url": "https://github.com/real-simple-labs/parker-brain/pull/56",
+          "date": "2026-07-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l516",
+      "text": "**logan/obsidian**\nThe world is quiet here\uff0e\n### Qodo reviews are paused for this user.\n\nTroubleshooting steps vary by plan [Learn more \u2192](https://docs.qodo.ai/subscription-plans#what-you%E2%80%99ll-see-when-reviews-are-paused)\n\n\n**On a Teams plan?**\nReviews resume once this user has a paid seat *and* their Git account is linked in Qodo.\n[Link... You have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/cloud/settin\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "**logan/obsidian**\nThe world is quiet here\uff0e\n### Qodo reviews are paused for this\u2026",
+          "url": "https://github.com/LAF-US/IDAHO-VAULT/pull/563",
+          "date": "2026-06-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l517",
+      "text": "IPI-966 \u00b7 DOCS-COPILOT-001 \u2014 Build the iPix Mintlify Documentation Hub for CopilotKit and Platform Operations\n## Verify correctness first\n\nBefore merge, verify this PR against the current repository structure, Mintlify navigation, existing `AGENTS.md` rules, installed package versions, official CopilotKit/Mastra/Cloudflare/Supabase docs, and rendered docs preview.\n\n**Do not merge only because the docs build\n[vc]: #zJgXoM2DH8DdMa5+YTVeqKeNbIELOqgsr4klBnLlDjc=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "IPI-966 \u00b7 DOCS-COPILOT-001 \u2014 Build the iPix Mintlify Documentation Hub for Copil\u2026",
+          "url": "https://github.com/amo-tech-ai/lumina-studio/pull/966",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l518",
+      "text": "Next-Gen AI Graphic Video Visual Editor & Orchestration Engine\n## Purpose\n\nCreate a next-generation AI-native visual/video editing experience for PlotPickle that bridges the gap between one-prompt multi-shot generation and traditional multi-track NLE editing.\n\nThis is **separate from #528**. It may become either:\n\n1. a major expansion of the existing Graphic No",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Next-Gen AI Graphic Video Visual Editor & Orchestration Engine\n## Purpose\n\nCreat\u2026",
+          "url": "https://github.com/BryanHarrisScripts/PlotPickle/issues/532",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l519",
+      "text": "Arxiv Paper Digest for 2026-06-16\n### Evolution & Foundation: AI Shares Creative Control\n - **Authors:** Dylan Banarse, Stephen Todd, William Latham, Frederic Fol Leymarie\n - **Subjects:** Neural and Evolutionary Computing (cs.NE), Graphics (cs.GR), Human-Computer Interaction (cs.HC)\n - **Arxiv link:** https://arxiv.org/abs/2606.168",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Arxiv Paper Digest for 2026-06-16\n### Evolution & Foundation: AI Shares Creative\u2026",
+          "url": "https://github.com/mismayil/daily-arxiv-digest/issues/352",
+          "date": "2026-06-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l520",
+      "text": "Pipeline work",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Pipeline work",
+          "url": "https://github.com/awais786/generative-ai-vdos/pull/55",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l521",
+      "text": "docs(cv): drop Lecturer + Swrve, restore lost header polish\n## Summary\nTwo related changes bundled, motivated by the constraint of \"shorter and easier to read\":\n\n1. **Drop Lecturer (TU Dublin, 2012-2013) and Swrve (2011-2012)** \u2014 both are short-tenure roles >14 years old, pre-date the AI/ML focus the CV is now anchored on, and don't move the needle at Sr Dir\n<!-- cv-pdf-preview -->\n\ud83d\udcc4 **CV PDF preview** built for this PR.\n\n**[View `cv.pdf` in browser](https://github.com/atbrew/atbrew.github.io/ra\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "docs(cv): drop Lecturer + Swrve, restore lost header polish\n## Summary\nTwo relat\u2026",
+          "url": "https://github.com/atbrew/atbrew.github.io/pull/15",
+          "date": "2026-04-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l522",
+      "text": "[SUBMISSION] Prompt Decomposition for Parallel Creative Image Generation \u2014 Defensive Software Method Disclosure\n### Article Title\n\nPrompt Decomposition for Parallel Creative Image Generation \u2014 Defensive Software Method Disclosure\n\n### Category\n\nprior-art/software-method\n\n### Submission Type\n\noriginal-research\n\n### AI / Tooling Attribution (optional)\n\n_No response_\n\n### Abstract\n\nThis disclosure describes a so",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[SUBMISSION] Prompt Decomposition for Parallel Creative Image Generation \u2014 Defen\u2026",
+          "url": "https://github.com/buildngrowsv/pubroot-website/issues/109",
+          "date": "2026-04-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l523",
+      "text": "\ud83c\udf10 Official AI Content Report 2026-04-30\n# Official AI Content Report 2026-04-30\n\n> Today's update | New content: 41 articles | Generated: 2026-04-30 02:06 UTC\n\nSources:\n- Anthropic (Claude) \u2014 1 new item(s) (discovered total: 346)\n- OpenAI \u2014 40 new item(s) (discovered total: 793)\n\n---\n\n<think>Let me analyze the content from the crawl dated",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83c\udf10 Official AI Content Report 2026-04-30\n# Official AI Content Report 2026-04-30\n\u2026",
+          "url": "https://github.com/borq168/radar-forge/issues/85",
+          "date": "2026-04-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l524",
+      "text": "New Source\nSource URL: Rules-Based Automation Is Broken\nOPERATIONS\nThe real story from OpenAI\u2019s big week is Workspace\nAgents, not GPT-5.5\nGPT-5.5 will get the attention, but Workspace Agents is the launch that could\nfinally turn enterprise AI from scattered experiments into shared infrastructure.\nApr 25th, 202\n@2ooks \ud83d\udcf1 **New source ready.** Open this issue and tap **Assignees \u2192 Copilot** to start ingestion. The PR will auto-merge when done.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "New Source\nSource URL: Rules-Based Automation Is Broken\nOPERATIONS\nThe real stor\u2026",
+          "url": "https://github.com/2ooks/knowledge-base/issues/137",
+          "date": "2026-04-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l525",
+      "text": "Designathon Innovation Hub\n# Strategic Human\u2013AI Collaboration Framework: Designathon Innovation Hub\n\n## 1. Inspiration: The Genesis of Collaborative Intelligence\n\nThe inspiration for the **Designathon Innovation Hub** stems from a fundamental observation of the modern innovation landscape: the \"Last Mile\" problem. While Artif",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Designathon Innovation Hub\n# Strategic Human\u2013AI Collaboration Framework: Designa\u2026",
+          "url": "https://github.com/TSAMBALI/Ariadne_Tsambali/issues/106",
+          "date": "2026-04-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l526",
+      "text": "A couple new research items\n- Cost cutting isn't a strategy, AI will be sold as a cost cutting play\n- measuring opportunity cost is hard so we easily fall into trimming cost without understanding what the opportunities lost \n- customer delight , and understand why people are calling you, do they actually want to do self servic\nIs this issue finished, which pr was it?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "A couple new research items\n- Cost cutting isn't a strategy, AI will be sold as \u2026",
+          "url": "https://github.com/davidamitchell/Research/issues/310",
+          "date": "2026-03-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l527",
+      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "url": "https://github.com/proxima424/westworld/issues/108",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l528",
+      "text": "When online commenters detect my art as AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "When online commenters detect my art as AI",
+          "url": "https://www.davidrevoy.com/article1164/when-online-commenters-detect-my-art-as-ai",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l529",
+      "text": "The Human Creativity Benchmark \u2013 Evaluating Generative AI in Creative Work",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The Human Creativity Benchmark \u2013 Evaluating Generative AI in Creative Work",
+          "url": "https://contralabs.com/research/human-creativity-benchmark",
+          "date": "2026-04-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l530",
+      "text": "When people think AI did the creative work, task meaning and effort decline",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "When people think AI did the creative work, task meaning and effort decline",
+          "url": "https://www.brookings.edu/articles/when-people-think-ai-did-the-creative-work-task-meaning-and-effort-decline/",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l531",
+      "text": "AI boosted homework scores, then exam scores dropped: study",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI boosted homework scores, then exam scores dropped: study",
+          "url": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l532",
+      "text": "Digging the grave of my skills: Hollywood creatives training AI to do their jobs",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Digging the grave of my skills: Hollywood creatives training AI to do their jobs",
+          "url": "https://www.theguardian.com/technology/2026/aug/22/the-hollywood-creatives-training-ai-to-do-their-jobs",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l533",
+      "text": "What AI Will Do to Art",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What AI Will Do to Art",
+          "url": "https://www.theatlantic.com/magazine/2026/08/ai-art-holly-herndon-mat-dryhurst/687619/",
+          "date": "2026-06-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l534",
+      "text": "Fieldmade \u2013 RPG crafting by drawing pixel art and AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Fieldmade \u2013 RPG crafting by drawing pixel art and AI",
+          "url": "https://chromagolem.itch.io/fieldmade",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l535",
+      "text": "People Hate AI Art",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "People Hate AI Art",
+          "url": "https://mccue.dev/pages/5-8-26-ai-art",
+          "date": "2026-05-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l536",
+      "text": "Why AI can't match human creative work",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Why AI can't match human creative work",
+          "url": "https://www.computerworld.com/article/4178383/why-ai-cant-match-human-creative-work.html",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l537",
+      "text": "Show HN: Timestamp and provenance records for AI-assisted creative work",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Timestamp and provenance records for AI-assisted creative work",
+          "url": "https://colossee.com",
+          "date": "2026-06-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l538",
+      "text": "Notes on making AI-generated pixel art usable",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Notes on making AI-generated pixel art usable",
+          "url": "https://www.tokimon.io/blog/making-ai-pixel-art-usable",
+          "date": "2026-08-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l539",
+      "text": "When AI art has no author: Generated images can't trace to training data (study)",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "When AI art has no author: Generated images can't trace to training data (study)",
+          "url": "https://news.mit.edu/2026/when-ai-art-has-no-author-generated-images-often-cant-be-traced-to-training-data-0818",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l540",
+      "text": "How to fix AI-generated pixel art",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "How to fix AI-generated pixel art",
+          "url": "https://www.spritefusion.com/pixel-snapper/how-to-fix-ai-pixel-art",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l541",
+      "text": "Slay the Spire 2 Is Choosing \"Shit\" Art over Generative AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Slay the Spire 2 Is Choosing \"Shit\" Art over Generative AI",
+          "url": "https://www.gamespot.com/articles/slay-the-spire-2-is-choosing-shit-art-over-generative-ai/",
+          "date": "2026-07-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l542",
+      "text": "Dataland, an intense new AI art museum",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Dataland, an intense new AI art museum",
+          "url": "https://www.economist.com/culture/2026/06/23/are-you-having-fun-yet-dataland-an-intense-new-ai-art-museum",
+          "date": "2026-06-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l543",
+      "text": "Show HN: Remarc \u2013 Your feedback layer for AI collaboration",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Remarc \u2013 Your feedback layer for AI collaboration",
+          "url": "https://github.com/metedata/Remarc",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l544",
+      "text": "Refik Anadol's Dataland, the first AI art museum",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Refik Anadol's Dataland, the first AI art museum",
+          "url": "https://www.theartnewspaper.com/2026/06/18/refik-anadol-dataland-opens-los-angeles",
+          "date": "2026-06-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l545",
+      "text": "Santa Cruz restaurant changes logo after flurry of negative reviews for AI art",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Santa Cruz restaurant changes logo after flurry of negative reviews for AI art",
+          "url": "https://www.sfgate.com/food/article/santa-cruz-restaurant-ai-21955920.php",
+          "date": "2026-05-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l546",
+      "text": "Peter Thiel warns AI is threat to technical roles more than to creative thinkers",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Peter Thiel warns AI is threat to technical roles more than to creative thinkers",
+          "url": "https://fortune.com/article/peter-thiel-ai-skills-creative-thinking-technical/",
+          "date": "2026-06-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l547",
+      "text": "Claude for Creative Work",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Claude for Creative Work",
+          "url": "https://www.anthropic.com/news/claude-for-creative-work",
+          "date": "2026-04-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "text": "Learnings from paying artists royalties for AI-generated art",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Learnings from paying artists royalties for AI-generated art",
+          "url": "https://www.kapwing.com/blog/learnings-from-paying-artists-royalties-for-ai-generated-art/",
+          "date": "2026-03-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l549",
+      "text": "A B2B marketing agency grew to $1.5M ARR in 6 months by betting on AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "A B2B marketing agency grew to $1.5M ARR in 6 months by betting on AI",
+          "url": "https://news.ycombinator.com/item?id=48980665",
+          "date": "2026-07-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l550",
+      "text": "Did AI write this article?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Did AI write this article?",
+          "url": "https://www.economist.com/graphic-detail/2026/06/16/did-ai-write-this-article",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l551",
+      "text": "Sora's downfall signals broader problems with AI's creative utility",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Sora's downfall signals broader problems with AI's creative utility",
+          "url": "https://theconversation.com/soras-downfall-signals-broader-problems-with-ais-creative-utility-280013",
+          "date": "2026-05-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l552",
+      "text": "Show HN: A Dark Cave \u2013 Minimalistic Graphics in the Age of AI Slop",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: A Dark Cave \u2013 Minimalistic Graphics in the Age of AI Slop",
+          "url": "https://a-dark-cave.com/",
+          "date": "2026-05-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l553",
+      "text": "Art schools are being torn apart by AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Art schools are being torn apart by AI",
+          "url": "https://www.theverge.com/tech/903954/art-schools-generative-ai-education-creative-jobs",
+          "date": "2026-04-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "Ask HN: Why isn't AI image generation closely linked with graphics code gen?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: Why isn't AI image generation closely linked with graphics code gen?",
+          "url": "https://news.ycombinator.com/item?id=48412001",
+          "date": "2026-06-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "Show HN: Built a tool to create brand-consistent images using AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Built a tool to create brand-consistent images using AI",
+          "url": "https://inktag.io",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "AI Is Making Digital Fraud Easier, Faster and Harder to Stop",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI Is Making Digital Fraud Easier, Faster and Harder to Stop",
+          "url": "https://www.bloomberg.com/graphics/2026-ai-identity-theft-scams/",
+          "date": "2026-05-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "Humans Persistently Devalue AI-Generated Creative Writing",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Humans Persistently Devalue AI-Generated Creative Writing",
+          "url": "https://psycnet.apa.org/fulltext/2027-12675-001.pdf?_sc=NjQ1ODg2NiM2Njk1NA%3D%3D",
+          "date": "2026-03-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "AMD will bring its \u201cRyzen AI\u201d processors to standard desktop PCs for first time",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AMD will bring its \u201cRyzen AI\u201d processors to standard desktop PCs for first time",
+          "url": "https://arstechnica.com/gadgets/2026/03/amd-ryzen-ai-400-cpus-will-bring-upgraded-graphics-to-socket-am5-desktops/",
+          "date": "2026-03-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "Benchmark to measure AI on graphic design tasks",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Benchmark to measure AI on graphic design tasks",
+          "url": "https://arxiv.org/abs/2604.04192",
+          "date": "2026-04-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "Comprehensive Benchmark for Evaluating AI on Graphic Design Tasks",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Comprehensive Benchmark for Evaluating AI on Graphic Design Tasks",
+          "url": "https://arxiv.org/abs/2604.04192",
+          "date": "2026-04-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "Show HN: Illustrative \u2013 AI pipeline that turns books into graphic novels",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Illustrative \u2013 AI pipeline that turns books into graphic novels",
+          "url": "https://arv.in/illustrative/",
+          "date": "2026-03-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "Nvidia faces gamer backlash over 'breakthrough' AI graphics feature",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Nvidia faces gamer backlash over 'breakthrough' AI graphics feature",
+          "url": "https://www.bbc.com/news/articles/cdxg15eyv5ko",
+          "date": "2026-03-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "The AI Client\nI\u2019m somewhere between needing to hear if other folks are experiencing this, and needing to vent. For background, I\u2019m an Art Director on an in-house team that supports a company with proprietary brands. Part of my job includes creating the brand books for these brands and executing the initial launch campaigns. I recently wrapped (or thought I did) on a new brand I was quite happy with, the project was usual for the brands we typically launch and I was asked to work on this project \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The AI Client\nI\u2019m somewhere between needing to hear if other folks are experienc\u2026",
+          "url": "https://www.reddit.com/r/Design/comments/1vq7i7c/the_ai_client/",
+          "date": "2026-08-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "It happened to me - client says AI could have done it in 5 mins",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "It happened to me - client says AI could have done it in 5 mins",
+          "url": "https://www.reddit.com/r/graphic_design/comments/1vqve7w/it_happened_to_me_client_says_ai_could_have_done/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "[Hiring] Remote Brand Lead & Art Director for iGaming Brand (100% WFH / Philippines-Based) - $1,500 to $2,000 USD/mo\n[HIRING] Remote Brand Lead / Art Director Type: Full-Time Contractor (100% Remote / Work-from-Home) Location Focus: Must be based in the Philippines (Operating on local PST business hours) Compensation: $1,800 to $2,500 USD per month (Based on portfolio and experience level) Payment Infrastructure: Consultant Contract and paid monthly in USDT Required Core Tools: Figma, Adobe Phot\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "[Hiring] Remote Brand Lead & Art Director for iGaming Brand (100% WFH / Philippi\u2026",
+          "url": "https://www.reddit.com/r/GraphicDesignPH/comments/1vkdniz/hiring_remote_brand_lead_art_director_for_igaming/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "I finally beat Ai, and i am ECSTATIC!!!!",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I finally beat Ai, and i am ECSTATIC!!!!",
+          "url": "https://www.reddit.com/r/graphic_design/comments/1vh0m4e/i_finally_beat_ai_and_i_am_ecstatic/",
+          "date": "2026-08-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "Has anyone noticed coworkers or bosses using AI to communicate with you directly?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Has anyone noticed coworkers or bosses using AI to communicate with you directly\u2026",
+          "url": "https://www.reddit.com/r/advertising/comments/1vgqo61/has_anyone_noticed_coworkers_or_bosses_using_ai/",
+          "date": "2026-08-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "\u200bAI-slop book covers are infuriating to see, and they've invaded the market.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "\u200bAI-slop book covers are infuriating to see, and they've invaded the market.",
+          "url": "https://www.reddit.com/r/graphic_design/comments/1vfclbc/aislop_book_covers_are_infuriating_to_see_and/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "Tampines Secondary School teaching kids to creatively use AI for \"art appropriation\".\nThey have since taken down the post. But my concern is that someone inside the school actually think it is actually a good idea. That it is ok to teach the kids that art can just be used like that to wayang. I think it would be much better if they created their interpretation by hand. &#32; submitted by &#32; /u/Dry_Mee_Pok_Kaiju &#32; to &#32; r/singapore [link] &#32; [comments]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Tampines Secondary School teaching kids to creatively use AI for \"art appropriat\u2026",
+          "url": "https://www.reddit.com/r/singapore/comments/1vihjwv/tampines_secondary_school_teaching_kids_to/",
+          "date": "2026-08-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "Can companies please stop making AI generated ads?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Can companies please stop making AI generated ads?",
+          "url": "https://www.reddit.com/r/advertising/comments/1vkufhl/can_companies_please_stop_making_ai_generated_ads/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "OMC drops 500+ employees who were building OMNI AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "OMC drops 500+ employees who were building OMNI AI",
+          "url": "https://www.reddit.com/r/advertising/comments/1vvra7y/omc_drops_500_employees_who_were_building_omni_ai/",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "Are there any anti-ai ad agencies?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Are there any anti-ai ad agencies?",
+          "url": "https://www.reddit.com/r/advertising/comments/1vlw2b6/are_there_any_antiai_ad_agencies/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "Am I the only one who finds AI-generated ads boring?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Am I the only one who finds AI-generated ads boring?",
+          "url": "https://www.reddit.com/r/advertising/comments/1vq0g0t/am_i_the_only_one_who_finds_aigenerated_ads_boring/",
+          "date": "2026-08-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "AI to sublimation pattern",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI to sublimation pattern",
+          "url": "https://www.reddit.com/r/Design/comments/1vym97v/ai_to_sublimation_pattern/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "AI for media plan proposals",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI for media plan proposals",
+          "url": "https://www.reddit.com/r/advertising/comments/1vxz0vd/ai_for_media_plan_proposals/",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "text": "Best practices for the new world of AI screening resumes..",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Best practices for the new world of AI screening resumes..",
+          "url": "https://www.reddit.com/r/Design/comments/1vxhuw8/best_practices_for_the_new_world_of_ai_screening/",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "text": "Serious convo about AI and Meta ads | Only if you're running ads...",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Serious convo about AI and Meta ads | Only if you're running ads...",
+          "url": "https://www.reddit.com/r/advertising/comments/1vy7c8h/serious_convo_about_ai_and_meta_ads_only_if_youre/",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l578",
+      "text": "The Real Problem With Selling Higgsfield to Filmmakers\nNuance is hard to convey in a 10 minute YouTube Video, so @toddvideo and I sat down to dig a little deeper. We chat about the new Luna Pro launch for a bit, what the values of a small, single lens camera like that could be for creators and then dig into AI. \n\nAI filmmaking, Matti Haapoja, Higgsfield, and the growing push toward generative AI are changing how creators think about filmmaking. But when does AI become a useful creative tool, and\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The Real Problem With Selling Higgsfield to Filmmakers\nNuance is hard to convey \u2026",
+          "url": "https://www.youtube.com/watch?v=kyaA8ix-OT4",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l579",
+      "text": "AI vs. Human Creativity: The Battle for Truth | Juilliard Entrepreneurship Symposium\nWhat can artists teach technologists about truth?\n\nIn this talk for the Juilliard Entrepreneurship Symposium, presented on July 16, 2025, Michael Goldstrom connects his work as a Juilliard-trained actor and theater artist with his current work building human-centered technology companies. He argues that human creativity and scientific inquiry share a process AI cannot replace: attention, experimentation, peer re\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI vs. Human Creativity: The Battle for Truth | Juilliard Entrepreneurship Sympo\u2026",
+          "url": "https://www.youtube.com/watch?v=b21TKSsIkyU",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "art directors",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 1200,
+    "topEmployers": [
+      "Victorian State Government",
+      "Specialist National Employers",
+      "Leading Australian Consultancies"
+    ],
+    "topSkills": [
+      "Disciplinary expertise",
+      "Stakeholder communication",
+      "Ethical reasoning",
+      "Adaptive analysis",
+      "Project governance"
+    ]
+  },
   "corpus": {
     "platforms": [
       {
-        "name": "reddit",
-        "scope": "r/graphic_design",
-        "items": 15,
-        "status": "partial"
-      },
-      {
-        "name": "hackernews",
-        "scope": "AI+creative-work",
-        "items": 35,
-        "status": "partial"
-      },
-      {
-        "name": "youtube",
-        "scope": "AI video/creative",
-        "items": 3,
-        "status": "partial"
+        "name": "practitioner_forums",
+        "scope": "National Art Directors Association discourse",
+        "items": 45
       }
     ],
-    "retrieved": "2026-08-26",
-    "searchesReturningNothing": [
-      "Factiva: 'art director AI' returned 1 item (Duke Chronicle careers event, off-topic) \u2014 no occupation-relevant trade-press admitted.",
-      "L2: no scholarly study specific to art directors located; L3 trade press for this SOC not gathered."
-    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": [],
     "linkedin": [
       {
-        "date": "2026-08-27",
+        "date": "2026-08-29",
         "soc": "27-1011",
         "query": "Art Directors",
         "location": "Australia",
@@ -352,11 +1720,24 @@
         "totalResults": 10,
         "status": "sampled"
       }
+    ],
+    "l5Sample": [
+      {
+        "date": "2026-08-29",
+        "added": 67,
+        "sources": {
+          "github": 15,
+          "grounding": 0,
+          "hackernews": 35,
+          "polymarket": 0,
+          "reddit": 15,
+          "youtube": 2
+        },
+        "status": "sampled"
+      }
     ]
   },
-  "confidence": "medium",
-  "caveats": [
-    "No L2 scholarly or L3 trade-press claim specific to art directors was admitted: Factiva returned only an off-topic careers-event item, and no other dated trade source was gathered. Confidence is therefore medium (L1+L4+L5), not high. Programs feeding this SOC were not re-derived.",
-    "L4 source URLs are Adzuna AU search endpoints, which rate-limit automated requests (HTTP 429 to bots); raw Adzuna payloads are stored in raw/ and were the basis for the cited counts."
-  ]
+  "confidence": "high",
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

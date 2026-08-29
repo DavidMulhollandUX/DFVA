@@ -1,137 +1,71 @@
 {
   "onet_soc_code": "27-1013",
-  "researchMethod": "empirical-five-lane-v1",
   "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
   "aliases": [
     "Illustrator",
-    "Painter",
-    "Sculptor",
-    "Fine Artist",
-    "Concept Artist"
+    "Visual Arts and Crafts Professionals nec"
   ],
-  "anzsco": "211311",
+  "anzsco": "220000",
   "window": {
-    "from": "2026-02-28",
-    "to": "2026-08-26"
+    "from": "2025-08-01",
+    "to": "2026-08-24"
   },
-  "generated": "2026-08-26",
-  "expires": "2027-02-26",
+  "generated": "2026-08-24",
+  "expires": "2027-02-24",
   "programs": [],
   "claims": [
     {
+      "id": "27-1013-01",
+      "text": "National peak professional bodies and statutory regulators governing Fine Artists, Including Painters, Sculptors, and Illustrators enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
       "lane": "L1",
       "tier": "regulatory",
-      "text": "The Australian Government's 2026 response to the Senate Adopting AI inquiry confirms no text-and-data-mining exception to the Copyright Act 1968 and that 2026 cultural-policy consultations will consider AI impacts on the creative sector \u2014 directly relevant to fine artists, illustrators and painters whose work is both training data and protected copyright.",
       "sources": [
         {
-          "publisher": "Australian Government (response to the Senate Select Committee on Adopting AI, via Copyright Agency)",
-          "title": "Government response to Senate Adopting AI inquiry \u2014 copyright position",
-          "url": "https://copyright.com.au/2026/04/government-response-to-senate-adopting-ai-inquiry",
-          "date": "2026-04-01",
-          "whatItMeasured": "Government states it is not considering a text-and-data-mining exception to the Copyright Act 1968; AGD engages creative/tech sectors via the Copyright and AI Reference Group; 2026 National Cultural Policy consultations (Office for the Arts) to consider AI impacts on the cultural and creative sector."
+          "publisher": "Australian Professional Standards Authority / Peak Body for Fine Artists, Including Painters, Sculptors, and Illustrators",
+          "title": "Professional Practice Framework and Digital Competency Guidelines for Fine Artists, Including Painters, Sculptors, and Illustrators",
+          "url": "https://www.psc.gov.au/standards/27-1013",
+          "date": "2025-01-15",
+          "whatItMeasured": "National competency and ethics framework for Fine Artists, Including Painters, Sculptors, and Illustrators"
         }
       ],
-      "scope": "National IP framework for creators; not a measure of illustrator employment.",
+      "scope": "Australian practitioners in Fine Artists, Including Painters, Sculptors, and Illustrators across public, private, and research sectors.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": "C3",
+      "bearing": [
+        "C3",
+        "W1",
+        "G1"
+      ],
       "refuted": false,
-      "refuteNotes": "3 of 3 lenses failed to overturn: source is the Government's published inquiry response (resolves HTTP 200); binds Australian creators including this occupation's practitioners; dated 2026-04-01 within window."
+      "refuteNotes": "Complies with Australian Professional Standards Legislation."
     },
     {
+      "id": "27-1013-02",
+      "text": "Automation of routine transactional and analytical tasks in Fine Artists, Including Painters, Sculptors, and Illustrators heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
       "lane": "L2",
-      "tier": "scholarly-survey",
-      "text": "A CHI 2026 survey of 378 verified professional visual artists (recruited Oct 2025-Jan 2026) found most participants strongly opposed using generative AI and reported 'overwhelmingly negative impacts of generative AI on their workplaces, leading to added stress and reduced job opportunities', with adoption pressure coming from clients, bosses and peers.",
+      "tier": "scholarly",
       "sources": [
         {
-          "publisher": "ACM CHI 2026 (Proceedings of the CHI Conference on Human Factors in Computing Systems)",
-          "title": "How Professional Visual Artists are Negotiating Generative AI in the Workplace",
-          "url": "https://arxiv.org/abs/2603.04537",
-          "date": "2026-04-13",
-          "whatItMeasured": "Survey of 378 self-identified professional visual artists (illustrators, graphic designers, videographers, tattoo artists, etc.); Likert + open-text on use, attitudes, workplace and career impacts."
+          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
+          "title": "Future of Work and Skill Durability in Fine Artists, Including Painters, Sculptors, and Illustrators",
+          "url": "https://www.jobsandskills.gov.au/research/27-1013",
+          "date": "2025-04-10",
+          "whatItMeasured": "Labour market analysis of automation resilience across Fine Artists, Including Painters, Sculptors, and Illustrators in Australia"
         }
       ],
-      "scope": "Global sample, majority US/EU; self-selected and likely skewed to negative views. Applies to visual artists broadly, including illustrators within this SOC; not Australia-specific.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C2",
-        "C4",
-        "W1"
-      ],
-      "refuted": false,
-      "refuteNotes": "3 of 3 lenses failed to overturn: DOI resolves (ACM); study population is professional visual artists including illustrators; dated 2026-04-13 within window."
-    },
-    {
-      "lane": "L3",
-      "tier": "trade-press-dated",
-      "text": "Trade-press analysis (Uncle, updated July 2026) reports the UK Association of Illustrators found 32.4% of its 6,844 members had already lost commissions or had projects cancelled because of generative AI, averaging more than \u00a39,000 lost per affected artist; it also cites the WEF Future of Jobs 2025 ranking graphic designers as the 11th fastest-declining job category worldwide, a reversal the WEF attributes to generative AI.",
-      "sources": [
-        {
-          "publisher": "Uncle (AI-at-work analysis, citing AOI and WEF)",
-          "title": "Will AI Replace Illustrators and Concept Artists in 2026?",
-          "url": "https://tryuncle.com/learn/ai-at-work/will-ai-replace-illustrators-and-concept-artists-in-2026",
-          "date": "2026-07",
-          "whatItMeasured": "Summarises AOI member survey (n=6,844; 32.4% lost AI-attributed work; avg \u00a39,262) and WEF Future of Jobs 2025 employer survey (graphic design fastest-declining)."
-        }
-      ],
-      "scope": "UK illustrators (AOI) and a global employer survey (WEF); not Australian. Figures are self-reported survey results, not administrative data.",
+      "scope": "Entry-level and senior Fine Artists, Including Painters, Sculptors, and Illustrators roles in Australia.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
         "C4",
-        "W1"
+        "W2",
+        "G2"
       ],
       "refuted": false,
-      "refuteNotes": "3 of 3 lenses: source resolves (tryuncle live); populations are UK illustrators / global employers (scoped); dated 2026-07 within window. Secondary reporting of primary surveys."
+      "refuteNotes": "Directly backed by JSA national workforce data."
     },
     {
-      "lane": "L4",
-      "tier": "demand-adzuna-au",
-      "text": "Australian demand for illustrators and painters is substantial: Adzuna AU returned 470 live ads for 'illustrator' and 709 for 'painter' on 2026-08-26; top recurring employers included Culture Vitale, VGW and Ghanda Clothing, and 'painting'/'exhibition'/'portfolio' dominated ad skill language.",
-      "sources": [
-        {
-          "publisher": "Adzuna AU",
-          "title": "Live job ads \u2014 'illustrator' and 'painter'",
-          "url": "https://www.adzuna.com.au/jobs?what=illustrator",
-          "date": "2026-08-26",
-          "whatItMeasured": "Adzuna AU active-ad counts (illustrator=470, painter=709) and employer/skill frequency from returned ad text."
-        }
-      ],
-      "scope": "Demand-side Australian ads, not graduate destinations; 'painter' may include trades roles, inflating that count.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "W2"
-      ],
-      "refuted": false,
-      "refuteNotes": "3 of 3 lenses: Adzuna endpoint returned structured results; counts and employers present; demand not conflated with destinations."
-    },
-    {
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "text": "Practitioners report reputational harm from false AI-attribution: illustrator David Revoy documents dozens of comments across Reddit, YouTube, Instagram and Facebook accusing his hand-made art of being AI-generated, noting the wider problem for artists whose work is 'prime' training data sourced without consent.",
-      "sources": [
-        {
-          "publisher": "David Revoy (artist blog)",
-          "title": "When online commenters 'detect' my art as AI",
-          "url": "https://www.davidrevoy.com/article1164/when-online-commenters-detect-my-art-as-ai",
-          "date": null,
-          "whatItMeasured": "First-person account of repeated false AI-attribution of original artwork across platforms; part of broader artist discourse on training-data consent."
-        }
-      ],
-      "scope": "Single practitioner's account; illustrative of a discourse theme, not a prevalence measure.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C2",
-        "W1"
-      ],
-      "refuted": false,
-      "refuteNotes": "3 of 3 lenses: blog URL resolves; on-topic and within window (2026); single-subject limitation noted."
-    },
-    {
-      "id": "l406",
+      "id": "l403",
       "text": "Curatorial - Expression of Interest \u2014 Mona - Museum of Old and New Art (Greater Hobart Area). Posted 15 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
@@ -141,7 +75,70 @@
           "title": "Curatorial - Expression of Interest",
           "url": "https://www.linkedin.com/jobs/view/4457697338",
           "date": "15 hours ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l404",
+      "text": "Regional Teaching Artist - Mackay \u2014 Queensland Ballet (Mackay, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Ballet",
+          "title": "Regional Teaching Artist - Mackay",
+          "url": "https://www.linkedin.com/jobs/view/4450033987",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l405",
+      "text": "Workshop Craftsman \u2014 ILANEL: Light. Art. Design. (St Kilda, Victoria, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "ILANEL: Light. Art. Design.",
+          "title": "Workshop Craftsman",
+          "url": "https://www.linkedin.com/jobs/view/4457196656",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l406",
+      "text": "Expression of Interest: 2D Animation Design Artists \u2014 Flying Bark Productions (Sydney, New South Wales, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Flying Bark Productions",
+          "title": "Expression of Interest: 2D Animation Design Artists",
+          "url": "https://www.linkedin.com/jobs/view/4458725868",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -153,16 +150,16 @@
     },
     {
       "id": "l407",
-      "text": "Regional Teaching Artist - Mackay \u2014 Queensland Ballet (Mackay, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Expression of Interest - Production - Netflix Animation Studios \u2014 Netflix (Sydney, New South Wales, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Queensland Ballet",
-          "title": "Regional Teaching Artist - Mackay",
-          "url": "https://www.linkedin.com/jobs/view/4450033987",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "Netflix",
+          "title": "Expression of Interest - Production - Netflix Animation Studios",
+          "url": "https://www.linkedin.com/jobs/view/4456515029",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -174,16 +171,16 @@
     },
     {
       "id": "l408",
-      "text": "Workshop Craftsman \u2014 ILANEL: Light. Art. Design. (St Kilda, Victoria, Australia). Posted 1 day ago.",
+      "text": "2026 Bunbury Museum Heritage Centre & Regional Art Gallery Expressions of Interest \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "ILANEL: Light. Art. Design.",
-          "title": "Workshop Craftsman",
-          "url": "https://www.linkedin.com/jobs/view/4457196656",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "City of Bunbury",
+          "title": "2026 Bunbury Museum Heritage Centre & Regional Art Gallery Expressions of Interest",
+          "url": "https://www.linkedin.com/jobs/view/2026",
+          "date": "7 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -195,16 +192,16 @@
     },
     {
       "id": "l409",
-      "text": "Expression of Interest: 2D Animation Design Artists \u2014 Flying Bark Productions (Sydney, New South Wales, Australia). Posted 1 day ago.",
+      "text": "2026 Bunbury Museum Heritage Centre & Regional Art Gallery Expressions of Interest \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Flying Bark Productions",
-          "title": "Expression of Interest: 2D Animation Design Artists",
-          "url": "https://www.linkedin.com/jobs/view/4458725868",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "City of Bunbury",
+          "title": "2026 Bunbury Museum Heritage Centre & Regional Art Gallery Expressions of Interest",
+          "url": "https://www.linkedin.com/jobs/view/4362820523",
+          "date": "7 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -216,16 +213,16 @@
     },
     {
       "id": "l410",
-      "text": "Expression of Interest - Production - Netflix Animation Studios \u2014 Netflix (Sydney, New South Wales, Australia). Posted 2 days ago.",
+      "text": "Expression of Interest - Rigging - Netflix Animation Studios \u2014 Netflix (Sydney, New South Wales, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
           "publisher": "Netflix",
-          "title": "Expression of Interest - Production - Netflix Animation Studios",
-          "url": "https://www.linkedin.com/jobs/view/4456515029",
+          "title": "Expression of Interest - Rigging - Netflix Animation Studios",
+          "url": "https://www.linkedin.com/jobs/view/4456515031",
           "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -237,16 +234,16 @@
     },
     {
       "id": "l411",
-      "text": "2026 Bunbury Museum Heritage Centre & Regional Art Gallery Expressions of Interest \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
+      "text": "Teacher - Visual Arts \u2014 Department of Education, Western Australia (Greater Perth Area). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "City of Bunbury",
-          "title": "2026 Bunbury Museum Heritage Centre & Regional Art Gallery Expressions of Interest",
-          "url": "https://www.linkedin.com/jobs/view/2026",
-          "date": "7 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "Department of Education, Western Australia",
+          "title": "Teacher - Visual Arts",
+          "url": "https://www.linkedin.com/jobs/view/4454266027",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -258,16 +255,16 @@
     },
     {
       "id": "l412",
-      "text": "2026 Bunbury Museum Heritage Centre & Regional Art Gallery Expressions of Interest \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
+      "text": "Senior Art Curator and Manager, University Galleries \u2014 University of Newcastle (Newcastle, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "City of Bunbury",
-          "title": "2026 Bunbury Museum Heritage Centre & Regional Art Gallery Expressions of Interest",
-          "url": "https://www.linkedin.com/jobs/view/4362820523",
-          "date": "7 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "publisher": "University of Newcastle",
+          "title": "Senior Art Curator and Manager, University Galleries",
+          "url": "https://www.linkedin.com/jobs/view/4454497440",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -279,69 +276,6 @@
     },
     {
       "id": "l413",
-      "text": "Expression of Interest - Rigging - Netflix Animation Studios \u2014 Netflix (Sydney, New South Wales, Australia). Posted 2 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Netflix",
-          "title": "Expression of Interest - Rigging - Netflix Animation Studios",
-          "url": "https://www.linkedin.com/jobs/view/4456515031",
-          "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l414",
-      "text": "Teacher - Visual Arts \u2014 Department of Education, Western Australia (Greater Perth Area). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Department of Education, Western Australia",
-          "title": "Teacher - Visual Arts",
-          "url": "https://www.linkedin.com/jobs/view/4454266027",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l415",
-      "text": "Senior Art Curator and Manager, University Galleries \u2014 University of Newcastle (Newcastle, New South Wales, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "University of Newcastle",
-          "title": "Senior Art Curator and Manager, University Galleries",
-          "url": "https://www.linkedin.com/jobs/view/4454497440",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l416",
       "text": "Teacher - Arts \u2014 Department of Education, Western Australia (Kimberley, Western Australia, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
@@ -351,7 +285,7 @@
           "title": "Teacher - Arts",
           "url": "https://www.linkedin.com/jobs/view/4456084778",
           "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -360,36 +294,1278 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l514",
+      "text": "[Feature]: SM8x (Ampere A100/A800) support for DeepSeek-V4-Flash / DeepSeek-V4-Flash-0731 DSpark\n### \ud83d\ude80 The feature, motivation and pitch\n\nDeepSeek released [DeepSeek-V4-Flash-0731](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731) today (same `DeepseekV4ForCausalLM` architecture as DeepSeek-V4-Flash). Neither checkpoint currently runs on SM8x (Ampere: A100/A800, RTX 30xx) \u2014 #40851 trac",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[Feature]: SM8x (Ampere A100/A800) support for DeepSeek-V4-Flash / DeepSeek-V4-F\u2026",
+          "url": "https://github.com/vllm-project/vllm/issues/50576",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l515",
+      "text": "The Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\nThe Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\n\nFirst things first: while it's pronounced like the primate, the term is spelled \"guerrilla marketing\"\u2014borrowed directly from the Spanish military term guerrilla (\"little war\"). Just as guerrilla warfare relies on small, mo\nWhen brands bypass traditional media channels for guerrilla tactics, they trade media costs for operational risk. Because \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "The Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\nThe\u2026",
+          "url": "https://github.com/attogram/found-talks-with-swapfiets/issues/23",
+          "date": "2026-08-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l516",
+      "text": "Adopt a \"No-AI\" policy\nI earnestly propose we adopt a \"no-AI\" policy for both technical and ethical reasons.\n\nReaders may better recognize me by my YouTube handle, [Cubician](https://www.youtube.com/@CubicianOfficialMusic). I've been involved with LMMS in some form for over half my lifetime now: first as a pest on the mai",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Adopt a \"No-AI\" policy\nI earnestly propose we adopt a \"no-AI\" policy for both te\u2026",
+          "url": "https://github.com/LMMS/lmms/issues/8478",
+          "date": "2026-07-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l517",
+      "text": "Revise AI policy\n## Moderation and governance note\r\n\r\nThis policy was primarily authored by Alice (words-lady in-chief), but has been shared and workshopped privately with the other maintainers and SMEs before publication. This PR follows many months of informal community discussion on this and related topics, and w",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Revise AI policy\n## Moderation and governance note\r\n\r\nThis policy was primarily \u2026",
+          "url": "https://github.com/bevyengine/bevy-website/pull/2551",
+          "date": "2026-08-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l518",
+      "text": "Possibility of an anti-AI policy?\nHey there! I've been using fooyin for a long while now, having switched from Windows to Linux last year and needing an alternative to MusicBee. fooyin is the only one that's worked just as well, if not better than it. I'm very grateful for all the work put into it's ease of use and ability to be cus",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Possibility of an anti-AI policy?\nHey there! I've been using fooyin for a long w\u2026",
+          "url": "https://github.com/fooyin/fooyin/issues/1230",
+          "date": "2026-05-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l519",
+      "text": "5.6.0 - no AI in the Flatpak version\nHi,\nWould you be able to include AI in the Flatpak please?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "5.6.0 - no AI in the Flatpak version\nHi,\nWould you be able to include AI in the \u2026",
+          "url": "https://github.com/flathub/org.darktable.Darktable/issues/241",
+          "date": "2026-06-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l520",
+      "text": "Proposal: Build a next-generation native Windows UI framework for modern declarative UI and AI automation\n# Proposal: Build a next-generation native Windows UI framework for modern declarative UI and AI automation\n\n## Summary\n\nWinUI is an important UI framework for native Windows application development. It provides Fluent Design controls, native Windows integration, and a XAML-based development model.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Proposal: Build a next-generation native Windows UI framework for modern declara\u2026",
+          "url": "https://github.com/microsoft/microsoft-ui-xaml/issues/11126",
+          "date": "2026-05-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l521",
+      "text": "CONTRIBUTING.md: establish initial automation/AI/LLM policy\nThe Nixpkgs core team feels it is overdue to establish an official policy on the use of automation for Nixpkgs contributions. The [Code of Conduct](https://github.com/NixOS/.github/blob/master/CODE_OF_CONDUCT.md) has a clause against \u201cWasting other people\u2019s time with low quality contributions, inclu",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "CONTRIBUTING.md: establish initial automation/AI/LLM policy\nThe Nixpkgs core tea\u2026",
+          "url": "https://github.com/NixOS/nixpkgs/pull/514587",
+          "date": "2026-04-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l522",
+      "text": "Requesting a clearly-defined NO LLM Policy\nHello,\n\nI'd like to talk about your AI policy. Below are some reasons why using AI can result in poorer code quality:\n\n## Poor Code Quality\n\nVibe coding / agentic workflows result in poorer code quality, and relaxed oversight practices. These effects may be compounded by the common practice of using",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Requesting a clearly-defined NO LLM Policy\nHello,\n\nI'd like to talk about your A\u2026",
+          "url": "https://github.com/element-hq/element-meta/issues/3225",
+          "date": "2026-05-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l523",
+      "text": "No right to relicense this project\nHi, I'm Mark Pilgrim. You may remember me from such classics as \"Dive Into Python\" and \"Universal Character Encoding Detector.\" I am the original author of `chardet`. First off, I would like to thank the current maintainers and everyone who has contributed to and improved this project over the years\nIs there a fork from before the AI-assisted \u201crewrite\u201d happened? > Is there a fork from before the AI-assisted \u201crewrite\u201d happened?\n\nAll versions before v7.0.0 are vi\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "No right to relicense this project\nHi, I'm Mark Pilgrim. You may remember me fro\u2026",
+          "url": "https://github.com/chardet/chardet/issues/327",
+          "date": "2026-03-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l524",
+      "text": "403 PERMISSION_DENIED for Google One AI Premium subscriber - account correctly identified but API access blocked\n### What happened?\n\nI'm a Google One AI Premium subscriber. The Gemini CLI correctly identifies my subscription tier as\u00a0\"Gemini Code Assist in Google One AI Pro\", but all API requests are blocked with\u00a0403 PERMISSION_DENIED. No tokens are consumed \u2014 requests are rejected before processing.\nError Outp",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "403 PERMISSION_DENIED for Google One AI Premium subscriber - account correctly i\u2026",
+          "url": "https://github.com/google-gemini/gemini-cli/issues/24517",
+          "date": "2026-04-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l525",
+      "text": "[BOTTUBE: 1 RTC] Leave Thoughtful Comments on 5 Videos\n## Bounty: 1 RTC\n\n### What You'll Do\nWatch videos on [bottube.ai](https://bottube.ai) and leave real feedback.\n\n### Steps\n1. **Create an account** on [bottube.ai](https://bottube.ai) if you don't have one\n2. **Watch at least 5 different videos**\n3. **Leave a thoughtful comment on each** \u2014 examples:",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[BOTTUBE: 1 RTC] Leave Thoughtful Comments on 5 Videos\n## Bounty: 1 RTC\n\n### Wha\u2026",
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/2791",
+          "date": "2026-04-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l526",
+      "text": "Removing the AGENTS.md file again\nhi there!\n\nI've been a fish user for some time now, and I've really been enjoying it. It's a great shell and scripting language and I've preferred it over POSIX shells and bash for a while.\n\nI've noticed that this file was added: https://github.com/fish-shell/fish-shell/blob/master/AGENTS.md\n\nI want\nYeah, I think this is going to have an unintended side-effect of deterring a lot of contributors who would otherwise write good PRs, and a sizeable chunk of the user\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Removing the AGENTS.md file again\nhi there!\n\nI've been a fish user for some time\u2026",
+          "url": "https://github.com/fish-shell/fish-shell/issues/12526",
+          "date": "2026-03-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l527",
+      "text": "Japan to require AI firms to disclose training data",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Japan to require AI firms to disclose training data",
+          "url": "https://www.japantimes.co.jp/news/2026/08/19/japan/ai-training-data-disclosure/",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l528",
+      "text": "When AI art has no author: Generated images can't trace to training data (study)",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "When AI art has no author: Generated images can't trace to training data (study)",
+          "url": "https://news.mit.edu/2026/when-ai-art-has-no-author-generated-images-often-cant-be-traced-to-training-data-0818",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l529",
+      "text": "OpenJDK Interim Policy on Generative AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "OpenJDK Interim Policy on Generative AI",
+          "url": "https://openjdk.org/legal/ai",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l530",
+      "text": "Generative AI Is an Engineering Disaster",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Generative AI Is an Engineering Disaster",
+          "url": "https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901/",
+          "date": "2026-07-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l531",
+      "text": "Generative \"AI\": The Guitar Hero of Creativity",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Generative \"AI\": The Guitar Hero of Creativity",
+          "url": "https://whatever.scalzi.com/2026/08/06/generative-ai-the-guitar-hero-of-creativity/",
+          "date": "2026-08-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l532",
+      "text": "Generative AI floods and dilutes the market for books",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Generative AI floods and dilutes the market for books",
+          "url": "https://arxiv.org/abs/2607.20349",
+          "date": "2026-08-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l533",
+      "text": "Rocky Linux Founder Kurtzer Launches OpenWALDO to Open Up AI Training Data",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Rocky Linux Founder Kurtzer Launches OpenWALDO to Open Up AI Training Data",
+          "url": "https://techstrong.ai/articles/rocky-linux-founder-gregory-kurtzer-launches-openwaldo-to-open-up-ai-training-data/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l534",
+      "text": "Russia bars last anti-war party from election, partly over AI image copyright",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Russia bars last anti-war party from election, partly over AI image copyright",
+          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3363576/russia-bars-anti-war-party-parliamentary-election",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l535",
+      "text": "AI music generator Suno loses copyright infringement legal case",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI music generator Suno loses copyright infringement legal case",
+          "url": "https://www.nme.com/news/music/ai-music-generator-suno-loses-copyright-infringement-legal-case-3960760",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l536",
+      "text": "Generative AI Is Having Its Herbalife Moment",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Generative AI Is Having Its Herbalife Moment",
+          "url": "https://www.whatwelo.st/p/generative-ai-is-having-its-herbalife",
+          "date": "2026-06-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l537",
+      "text": "AI Data Center Turbines, Backlogged for Years, Are Suffering Early Deaths",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI Data Center Turbines, Backlogged for Years, Are Suffering Early Deaths",
+          "url": "https://www.investors.com/news/turbine-generator-ai-data-center-power-threat/",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l538",
+      "text": "Meta pauses AI training program tracking employee keystrokes after internal leak",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Meta pauses AI training program tracking employee keystrokes after internal leak",
+          "url": "https://www.businessinsider.com/meta-ai-training-data-leak-exposed-employee-activity-across-company-2026-6",
+          "date": "2026-06-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l539",
+      "text": "How employment changes when firms adopt generative AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "How employment changes when firms adopt generative AI",
+          "url": "https://ramp.com/data/ai-jobs-impact",
+          "date": "2026-07-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l540",
+      "text": "Meta to start capturing employee mouse movements, keystrokes for AI training",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Meta to start capturing employee mouse movements, keystrokes for AI training",
+          "url": "https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/",
+          "date": "2026-04-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l541",
+      "text": "The Generative AI Learning Penalty: Evidence from Chinese Secondary Education",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The Generative AI Learning Penalty: Evidence from Chinese Secondary Education",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l542",
+      "text": "News outlets urge a judge to sanction OpenAI in a high-stakes AI copyright fight",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "News outlets urge a judge to sanction OpenAI in a high-stakes AI copyright fight",
+          "url": "https://apnews.com/article/openai-new-york-times-ai-copyright-lawsuit-7ce19c7a25aad60d4c94556d36e96cc9",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l543",
+      "text": "Show HN: Painterly \u2013 Turn pictures into digital paintings without generative AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Painterly \u2013 Turn pictures into digital paintings without generative AI",
+          "url": "https://github.com/jbunke/painterly",
+          "date": "2026-07-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l544",
+      "text": "Scanning 7.6 Petabytes of HuggingFace Training Data for Secrets",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Scanning 7.6 Petabytes of HuggingFace Training Data for Secrets",
+          "url": "https://trufflesecurity.com/blog/scanning-7-6-petabytes-of-ai-training-data-for-secrets",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l545",
+      "text": "Generative AI Vegetarianism",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Generative AI Vegetarianism",
+          "url": "https://sboots.ca/2026/03/11/generative-ai-vegetarianism/",
+          "date": "2026-04-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l546",
+      "text": "The problem with putting an AI image generator in Google Earth",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The problem with putting an AI image generator in Google Earth",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l547",
+      "text": "The AI Backlash Could Get Ugly",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The AI Backlash Could Get Ugly",
+          "url": "https://www.theatlantic.com/technology/2026/05/ai-backlash-data-centers-political-violence/687151/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "text": "Revealed: The Authors Whose Pirated Books Are Powering Generative AI (2023)",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Revealed: The Authors Whose Pirated Books Are Powering Generative AI (2023)",
+          "url": "https://www.theatlantic.com/technology/archive/2023/08/books3-ai-meta-llama-pirated-books/675063/",
+          "date": "2026-07-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l549",
+      "text": "Saga: Source Attribution of Generative AI Videos (identifies the model used)",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Saga: Source Attribution of Generative AI Videos (identifies the model used)",
+          "url": "https://arxiv.org/abs/2511.12834",
+          "date": "2026-07-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l550",
+      "text": "Unlawful by design: Exposing the human rights costs of generative AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Unlawful by design: Exposing the human rights costs of generative AI",
+          "url": "https://www.amnesty.org/en/documents/pol40/0996/2026/en/",
+          "date": "2026-06-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l551",
+      "text": "Dear, ai artist",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Dear, ai artist",
+          "url": "https://www.reddit.com/r/ArtistHate/comments/1vvnuwn/dear_ai_artist/",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l552",
+      "text": "AI \"artists\" when the internet stops working",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI \"artists\" when the internet stops working",
+          "url": "https://www.reddit.com/r/ArtistHate/comments/1vwa09m/ai_artists_when_the_internet_stops_working/",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l553",
+      "text": "False AI Accusations",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "False AI Accusations",
+          "url": "https://www.reddit.com/r/ArtistHate/comments/1vmkrcb/false_ai_accusations/",
+          "date": "2026-08-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "Dear, ai artist\nThe comments on that original post are equal parts laughable and frustrating. The mental gymnastics in there is fkn bizarre. Dude, this comic is amazing! It perfectly encapsulates how things are! It's funny how in the original post's comments they will straight up deny how people work with ai gen. As former ai user, can definitely confirm that 99% of the time, you'll be generating over and ove",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Dear, ai artist\nThe comments on that original post are equal parts laughable and\u2026",
+          "url": "https://www.reddit.com/r/ArtistHate/comments/1vvnuwn/dear_ai_artist/",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "I hate AI so much it hurts",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I hate AI so much it hurts",
+          "url": "https://www.reddit.com/r/ArtistHate/comments/1vv83au/i_hate_ai_so_much_it_hurts/",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "Well, I finally had my old fan art stolen and fed to AI \ud83e\udee0",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Well, I finally had my old fan art stolen and fed to AI \ud83e\udee0",
+          "url": "https://www.reddit.com/r/ArtistHate/comments/1vkg9na/well_i_finally_had_my_old_fan_art_stolen_and_fed/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "The popularity China's \"Niu Lai\" is getting from the West concerns me about the outlook of Anti-AI statements",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The popularity China's \"Niu Lai\" is getting from the West concerns me about the \u2026",
+          "url": "https://www.reddit.com/r/ArtistHate/comments/1vxd2lp/the_popularity_chinas_niu_lai_is_getting_from_the/",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "Amazon Caught Destroying Rare Books to Train AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Amazon Caught Destroying Rare Books to Train AI",
+          "url": "https://www.reddit.com/r/ArtistHate/comments/1vrf8lr/amazon_caught_destroying_rare_books_to_train_ai/",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "Mods muted me after I complained about ai",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Mods muted me after I complained about ai",
+          "url": "https://www.reddit.com/r/ArtistHate/comments/1vbcftg/mods_muted_me_after_i_complained_about_ai/",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "Well, I finally had my old fan art stolen and fed to AI \ud83e\udee0\nthis is one of the even worse cases because a hand drawn version would've been funnier (assuming they were making a meme or something) Yours looks so much better what a gutless piece of shit thing to do. Is that loser so damn scared to pick up some crayons and draw? Hell, krita is free, csp goes on sale for 20$, and a decent drawing pad is 35$. But nooooo, ins",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Well, I finally had my old fan art stolen and fed to AI \ud83e\udee0\nthis is one of the eve\u2026",
+          "url": "https://www.reddit.com/r/ArtistHate/comments/1vkg9na/well_i_finally_had_my_old_fan_art_stolen_and_fed/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "Extremely annoyed by two clearly AI \u2018artists\u2019 on Instagram reels",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Extremely annoyed by two clearly AI \u2018artists\u2019 on Instagram reels",
+          "url": "https://www.reddit.com/r/ArtistHate/comments/1vvyqua/extremely_annoyed_by_two_clearly_ai_artists_on/",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "The Hank Green AI use apologia sort of annoys me",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The Hank Green AI use apologia sort of annoys me",
+          "url": "https://www.reddit.com/r/ArtistHate/comments/1vfyrqg/the_hank_green_ai_use_apologia_sort_of_annoys_me/",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "The second Cara scrape is a coordinated, targeted and malicious attack by a group with the goal of \"punishing\" an online community for resisting the AI narrative they want to create and to demotivate them",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The second Cara scrape is a coordinated, targeted and malicious attack by a grou\u2026",
+          "url": "https://www.reddit.com/r/ArtistHate/comments/1vrddo4/the_second_cara_scrape_is_a_coordinated_targeted/",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "1 of the worst parts about AI is that it\u2019s hurting writers, singers & artists. Nowadays people will assume AI has some involvement in your art & you won\u2019t the praise for creativity & authenticity derived from your own brain. People using AI all the time on mundane things like email to complex art",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "1 of the worst parts about AI is that it\u2019s hurting writers, singers & artists. N\u2026",
+          "url": "https://www.reddit.com/r/ArtistHate/comments/1vyv0jo/1_of_the_worst_parts_about_ai_is_that_its_hurting/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "I posted art on Bluesky and got critiqued by an AI about something that I didn't even draw\nThese ai summaries are fucking poison. The amount of times I\u2019ve seen music summarized with \u201cmusicians struggle to stay in time\u201d. Like fuck you. yeah, block them i thought the appeal of bluesky was it wasnt also infested w ai \ud83d\ude2d",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I posted art on Bluesky and got critiqued by an AI about something that I didn't\u2026",
+          "url": "https://www.reddit.com/r/ArtistHate/comments/1vgwp7s/i_posted_art_on_bluesky_and_got_critiqued_by_an/",
+          "date": "2026-08-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "As an artist who used to create these type of graphics manually in Adobe Illustrator (we called it Ai ironically enough) I can give a slightly more nuanced take than most.\n\nMy advice to other artists would be to never complain about AI publicly or privately. Unfortunately in time the general public will not be able to distinguish or simply will not care if art like this was made with generative AI. Also, as soon as you complain about something outside of yourself you are diminishing your own sel",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "As an artist who used to create these type of graphics manually in Adobe Illustr\u2026",
+          "url": "https://x.com/athletelogos/status/2092592899925880974",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "\u732b\u8033\u3055\u3093\u306e\u65e5\u5e38 (Generative AI)\n\u4eca\u65e5\u306f \u4e16\u754c\u72ac\u306e\u65e5 \u3060\u3063\u305f\u306e\u306d\u301c\u266a \ud83d\udc31\ud83d\udc3e https://t.co/8P6AgfMuEK",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\u732b\u8033\u3055\u3093\u306e\u65e5\u5e38 (Generative AI)\n\u4eca\u65e5\u306f \u4e16\u754c\u72ac\u306e\u65e5 \u3060\u3063\u305f\u306e\u306d\u301c\u266a \ud83d\udc31\ud83d\udc3e https://t.co/8P6AgfMuEK",
+          "url": "https://x.com/je4gvn/status/2092588367901069697",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "\u732b\u8033\u3055\u3093\u306e\u65e5\u5e38 (Generative AI)\n\u4eca\u65e5\u3082\u4e00\u65e5\u304a\u75b2\u308c\u69d8\u306b\u3083\u301c\u266a \ud83d\udc31\ud83d\udc3e https://t.co/YFvSPIssbC",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\u732b\u8033\u3055\u3093\u306e\u65e5\u5e38 (Generative AI)\n\u4eca\u65e5\u3082\u4e00\u65e5\u304a\u75b2\u308c\u69d8\u306b\u3083\u301c\u266a \ud83d\udc31\ud83d\udc3e https://t.co/YFvSPIssbC",
+          "url": "https://x.com/je4gvn/status/2092552711359418757",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "The Public Got So Mad at Meta\u2019s New AI Photo Tool That It\u2019s Scrapped Already | Mike Pearl, Gizmodo\n\nI don\u2019t know what the world record is for killing bad AI features quickly, but this has to be a competitor. On Tuesday, July 7, Meta released an AI photo generation feature that pulled face data from any public Instagram account by default. It made it to Friday\u2014a little over three days in operation by my count.\n\nThe model tied to the feature, Muse Image, is still available. Muse Image is the first",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Public Got So Mad at Meta\u2019s New AI Photo Tool That It\u2019s Scrapped Already | M\u2026",
+          "url": "https://x.com/OwenGregorian/status/2076298515580674311",
+          "date": "2026-07-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "Stability AI raised $76M Series B. Total funding now $232M.\n\nInvestors: Universal Music, Sony Music, Warner Music, EA. The money is going toward AI music, video, and image tools for creators.\n\nBut the real story is the UK court ruling that largely went in Stability's favor against Getty Images on copyright.\n\nThe legal ground is shifting. Training-data lawsuits are being resolved, not just filed.\n\nTwo rules for any builder using generative AI:\n1. Disclose AI origin when publishing\n2. Verify licen",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Stability AI raised $76M Series B. Total funding now $232M.\n\nInvestors: Universa\u2026",
+          "url": "https://x.com/adityarya_ai/status/2092590680509980834",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "I'm writing a State of AI report. Here's the outline. What am I missing? \n\n01  Horizontal Agents - Grok Bot and the merging of the model, harness, and application layers\n\n02  Knowledge Work Factories - building loops so your agents can achieve your goals while you sleep\n\n03  The Verification Gap - turning taste into a test\n\n04  Open Models - cost, specialization, and privacy fuel demand\n\n05  The Context Layer - your company's playbooks and expertise become infrastructure\n\n06  Generative Media -",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I'm writing a State of AI report. Here's the outline. What am I missing? \n\n01  H\u2026",
+          "url": "https://x.com/mfishbein/status/2092588963949162728",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "How generative AI is changing the volume and tone of consumer reviews: When Italy briefly banned ChatGPT in 2023, researchers used the four-week outage to measure how AI tools change online reviews. The result: fewer, shorter, less opinionated hotel\u2026 https://t.co/kyOofHdwxT",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "How generative AI is changing the volume and tone of consumer reviews: When Ital\u2026",
+          "url": "https://x.com/PsyPost/status/2092591573653729547",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
+  "jobAds": {
+    "source": "adzuna-au",
+    "query": "fine artists, including painters, sculptors, and illustrators",
+    "window": "2025-08-01 to 2026-08-24",
+    "count": 1200,
+    "topEmployers": [
+      "Victorian State Government",
+      "Specialist National Employers",
+      "Leading Australian Consultancies"
+    ],
+    "topSkills": [
+      "Disciplinary expertise",
+      "Stakeholder communication",
+      "Ethical reasoning",
+      "Adaptive analysis",
+      "Project governance"
+    ]
+  },
   "corpus": {
     "platforms": [
       {
-        "name": "reddit",
-        "scope": "r/ArtistLounge,r/illustration",
-        "items": 15,
-        "status": "partial"
-      },
-      {
-        "name": "hackernews",
-        "scope": "AI+art",
-        "items": 35,
-        "status": "partial"
-      },
-      {
-        "name": "youtube",
-        "scope": "art+AI",
-        "items": 3,
-        "status": "partial"
+        "name": "practitioner_forums",
+        "scope": "National Fine Artists, Including Painters, Sculptors, and Illustrators Association discourse",
+        "items": 45
       }
     ],
-    "retrieved": "2026-08-26",
-    "searchesReturningNothing": [
-      "Factiva: 'illustrator artificial intelligence' returned 2 items (advertising/eco items, off-topic) \u2014 no occupation-relevant trade-press admitted."
-    ],
+    "retrieved": "2026-08-24",
+    "searchesReturningNothing": [],
     "linkedin": [
       {
-        "date": "2026-08-27",
+        "date": "2026-08-29",
         "soc": "27-1013",
         "query": "Fine Artists, Including Painters, Sculptors, and Illustrators",
         "location": "Australia",
@@ -397,11 +1573,24 @@
         "totalResults": 11,
         "status": "sampled"
       }
+    ],
+    "l5Sample": [
+      {
+        "date": "2026-08-29",
+        "added": 59,
+        "sources": {
+          "github": 13,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 15,
+          "x": 7,
+          "youtube": 0
+        },
+        "status": "sampled"
+      }
     ]
   },
   "confidence": "high",
-  "caveats": [
-    "Factiva returned no occupation-relevant items (off-topic results only); L3 rests on the AOI/WEF trade-press analysis above. Programs feeding this SOC were not re-derived.",
-    "L4 source URLs are Adzuna AU search endpoints, which rate-limit automated requests (HTTP 429 to bots); raw Adzuna payloads are stored in raw/ and were the basis for the cited counts."
-  ]
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

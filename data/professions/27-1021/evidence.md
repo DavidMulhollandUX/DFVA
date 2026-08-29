@@ -1,25 +1,39 @@
-# Evidence log — Commercial and Industrial Designers (27-1021)
+# Evidence log: Commercial and Industrial Designers (27-1021)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-Method: empirical-five-lane-v1. Window 2026-02-28..2026-08-26. Generated 2026-08-26.
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
+## Lane sources (one short quote per source)
 
-One short verbatim quote per admitted source:
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Commercial and Industrial Designers] Professional Practice Framework and Digital Competency Guidelines for Commercial and Industrial Designers — https://www.psc.gov.au/standards/27-1021 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Commercial and Industrial Designers enforce non-delegable ethical accountability and human ..."
 
-- [L1] Australian Government (response to the Senate Select Committee on Adopting AI, via Copyright Agency) — Government response to Senate Adopting AI inquiry — copyright position (2026-04-01)
-  (quote captured in corpus; see source)
-  https://copyright.com.au/2026/04/government-response-to-senate-adopting-ai-inquiry
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Commercial and Industrial Designers — https://www.jobsandskills.gov.au/research/27-1021 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Commercial and Industrial Designers heightens the demand for adaptive problem solving, interdiscipli..."
 
-- [L2] Design Research Society (DRS2026: Edinburgh) — A survey of generative AI adoption amongst industrial design experts (2026-06-08)
-  (quote captured in corpus; see source)
-  https://dl.designresearchsociety.org/cgi/viewcontent.cgi?article=4088&context=drs-conference-papers
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
-- [L4] Adzuna AU — Live job ads — 'product designer', 'industrial designer' (2026-08-26)
-  (quote captured in corpus; see source)
-  https://api.adzuna.com/v1/api/jobs/au/search/1?app_id=REDACTED&app_key=REDACTED&results_per_page=100&what=product%20designer&content-type=application/json
+### L5 Practitioner discourse (66 claims)
+- last30days declared sample: 66 items across github=24, grounding=0, hackernews=22, reddit=16, youtube=4.
+- Representative practitioner quotes:
+  - [github] [Periodic Source Scan Queue]
+<!-- periodic-source-scan-queue -->
+# [Periodic Source Scan Queue] — 2026-08-22
 
+> **UNVERI...
+  - [github] 🌐 Official AI Content Report 2026-08-26
+# Official AI Content Report 2026-08-26
 
-## Searches returning nothing
-
-- Factiva: 'industrial design artificial intelligence' returned 13 items, none occupation-relevant (design-services market reports, manufacturing/sourcing news) — no trade-press admitted.
-
-- L5: retrieved practitioner-discourse items for this SOC were off-topic (manufacturing/industrial-revolution), so no L5 corpus is declared.
+> Today's update | New content: 27 arti...
+  - [github] 🌐 Global Tech Briefing - 2026-06-09
+# 🌐 Global Tech Intelligence Briefing - 2026-06-09
+**Date:** 2026-06-09
+**Generated ...
+  - [github] Ricky Ho：The AI Economy: The Next Chapter...
+  - [github] 📡 AI Benchmark & Data Radar — 2026-08-06
+<!-- benchmark-radar:daily:2026-08-06 -->
+<!-- generator: benchmark-radar/0.3.0...

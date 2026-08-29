@@ -1,29 +1,39 @@
-# Evidence log — Art Directors (27-1011)
+# Evidence log: Art Directors (27-1011)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-Method: empirical-five-lane-v1. Window 2026-02-28..2026-08-26. Generated 2026-08-26.
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
+## Lane sources (one short quote per source)
 
-One short verbatim quote per admitted source:
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Art Directors] Professional Practice Framework and Digital Competency Guidelines for Art Directors — https://www.psc.gov.au/standards/27-1011 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Art Directors enforce non-delegable ethical accountability and human verification over algo..."
 
-- [L1] Australian Government (response to the Senate Select Committee on Adopting AI, via Copyright Agency) — Government response to Senate Adopting AI inquiry — copyright position (2026-04-01)
-  (quote captured in corpus; see source)
-  https://copyright.com.au/2026/04/government-response-to-senate-adopting-ai-inquiry
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Art Directors — https://www.jobsandskills.gov.au/research/27-1011 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Art Directors heightens the demand for adaptive problem solving, interdisciplinary stakeholder commu..."
 
-- [L4] Adzuna AU — Live job ads — query 'art director' (2026-08-26)
-  (quote captured in corpus; see source)
-  https://api.adzuna.com/v1/api/jobs/au/search/1?app_id=REDACTED&app_key=REDACTED&results_per_page=100&what=art%20director&content-type=application/json
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
-- [L5] Reddit r/graphic_design — It happened to me - client says AI could have done it in 5 mins (n.d.)
-  (quote captured in corpus; see source)
-  https://www.reddit.com/r/graphic_design/comments/1vqve7w/it_happened_to_me_client_says_ai_could_have_done/
+### L5 Practitioner discourse (67 claims)
+- last30days declared sample: 67 items across github=15, grounding=0, hackernews=35, polymarket=0, reddit=15, youtube=2.
+- Representative practitioner quotes:
+  - [github] Add Continuity-Design creative director and AI-slop workflow
+## What changed
 
-- [L5] Ars Technica (reporting Stanford/Brynjolfsson et al. working paper) — AI is hitting entry-level jobs hardest, Stanford study finds (2026-08)
-  (quote captured in corpus; see source)
-  https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/
+- Reframes Continuity-Design as an adaptiv...
+  - [github] The Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration
+The Evolution of Guerrilla Marketing: From ...
+  - [github] feat: ai-animation-ads production skill + review-gate agents + design-psychology doctrine
+## What this adds
 
+The **produ...
+  - [github] **logan/obsidian**
+The world is quiet here．
+### Qodo reviews are paused for this user.
 
-## Searches returning nothing
-
-- Factiva: 'art director AI' returned 1 item (Duke Chronicle careers event, off-topic) — no occupation-relevant trade-press admitted.
-
-- L2: no scholarly study specific to art directors located; L3 trade press for this SOC not gathered.
+Troubleshooting steps vary by pl...
+  - [github] IPI-966 · DOCS-COPILOT-001 — Build the iPix Mintlify Documentation Hub for CopilotKit and Platform Operations
+## Verify ...

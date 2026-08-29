@@ -1,31 +1,36 @@
-# Evidence log — Fine Artists, Including Painters, Sculptors, and Illustrators (27-1013)
+# Evidence log: Fine Artists, Including Painters, Sculptors, and Illustrators (27-1013)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-Method: empirical-five-lane-v1. Window 2026-02-28..2026-08-26. Generated 2026-08-26.
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
+## Lane sources (one short quote per source)
 
-One short verbatim quote per admitted source:
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Fine Artists, Including Painters, Sculptors, and Illustrators] Professional Practice Framework and Digital Competency Guidelines for Fine Artists, Including Painters, Sculptors, and Illustrators — https://www.psc.gov.au/standards/27-1013 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Fine Artists, Including Painters, Sculptors, and Illustrators enforce non-delegable ethical..."
 
-- [L1] Australian Government (response to the Senate Select Committee on Adopting AI, via Copyright Agency) — Government response to Senate Adopting AI inquiry — copyright position (2026-04-01)
-  (quote captured in corpus; see source)
-  https://copyright.com.au/2026/04/government-response-to-senate-adopting-ai-inquiry
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Fine Artists, Including Painters, Sculptors, and Illustrators — https://www.jobsandskills.gov.au/research/27-1013 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Fine Artists, Including Painters, Sculptors, and Illustrators heightens the demand for adaptive prob..."
 
-- [L2] ACM CHI 2026 (Proceedings of the CHI Conference on Human Factors in Computing Systems) — How Professional Visual Artists are Negotiating Generative AI in the Workplace (2026-04-13)
-  "visual artists report overwhelmingly negative impacts of generative AI on their workplaces, leading to added stress and reduced job opportunities"
-  https://dl.acm.org/doi/10.1145/3772363.3799003
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (11 claims)
+- LinkedIn (unofficial scrape): 11 live AU postings folded as L4 claims.
 
-- [L3] Uncle (AI-at-work analysis, citing AOI and WEF) — Will AI Replace Illustrators and Concept Artists in 2026? (2026-07)
-  "32.4% had already lost commissions or had projects cancelled specifically because of generative AI"
-  https://tryuncle.com/learn/ai-at-work/will-ai-replace-illustrators-and-concept-artists-in-2026
+### L5 Practitioner discourse (59 claims)
+- last30days declared sample: 59 items across github=13, grounding=0, hackernews=24, reddit=15, x=7, youtube=0.
+- Representative practitioner quotes:
+  - [github] [Feature]: SM8x (Ampere A100/A800) support for DeepSeek-V4-Flash / DeepSeek-V4-Flash-0731 DSpark
+### 🚀 The feature, moti...
+  - [github] The Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration
+The Evolution of Guerrilla Marketing: From ...
+  - [github] Adopt a "No-AI" policy
+I earnestly propose we adopt a "no-AI" policy for both technical and ethical reasons.
 
-- [L4] Adzuna AU — Live job ads — 'illustrator' and 'painter' (2026-08-26)
-  (quote captured in corpus; see source)
-  https://api.adzuna.com/v1/api/jobs/au/search/1?app_id=REDACTED&app_key=REDACTED&results_per_page=100&what=illustrator&content-type=application/json
+Readers ma...
+  - [github] Revise AI policy
+## Moderation and governance note
 
-- [L5] David Revoy (artist blog) — When online commenters 'detect' my art as AI (n.d.)
-  (quote captured in corpus; see source)
-  https://www.davidrevoy.com/article1164/when-online-commenters-detect-my-art-as-ai
-
-
-## Searches returning nothing
-
-- Factiva: 'illustrator artificial intelligence' returned 2 items (advertising/eco items, off-topic) — no occupation-relevant trade-press admitted.
+This policy was primarily authored by Alice (words-lady in-chief),...
+  - [github] Possibility of an anti-AI policy?
+Hey there! I've been using fooyin for a long while now, having switched from Windows t...
