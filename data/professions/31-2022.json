@@ -1154,6 +1154,300 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l455",
+      "text": "Therapy Assistant \u2014 Montefiore (Randwick, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Montefiore",
+          "title": "Therapy Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4448429145",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l456",
+      "text": "Physiotherapist | Full time or Part time \u2014 Adventist HealthCare Limited (Aus) (Sydney, New South Wales, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Adventist HealthCare Limited (Aus)",
+          "title": "Physiotherapist | Full time or Part time",
+          "url": "https://www.linkedin.com/jobs/view/4447370963",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l457",
+      "text": "Physiotherapist - Multiple Regions (Talent Pool) \u2014 Queensland Government (Brisbane, Queensland, Australia). Posted 7 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Government",
+          "title": "Physiotherapist - Multiple Regions (Talent Pool)",
+          "url": "https://www.linkedin.com/jobs/view/4364083769",
+          "date": "7 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l458",
+      "text": "Allied Health Support - Allied Health Assistant \u2014 cohealth (Niddrie, Victoria, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "cohealth",
+          "title": "Allied Health Support - Allied Health Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4458161072",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l459",
+      "text": "Physical Therapist Assistant \u2014 Pikes Peak Post Acute (Coal Creek, Queensland, Australia). Posted 4 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Pikes Peak Post Acute",
+          "title": "Physical Therapist Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4446531161",
+          "date": "4 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l460",
+      "text": "PHYSIOTHERAPIST \u2014 Active Answers Health (Northern Beaches, New South Wales, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Active Answers Health",
+          "title": "PHYSIOTHERAPIST",
+          "url": "https://www.linkedin.com/jobs/view/4437985370",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l461",
+      "text": "Therapy Assistant \u2014 Southern Cross Care WA (Rivervale, Western Australia, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Southern Cross Care WA",
+          "title": "Therapy Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4446605493",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l462",
+      "text": "Allied Health Assistant - North Turramurra \u2014 Southern Cross Care (NSW & ACT) (Turramurra, New South Wales, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Southern Cross Care (NSW & ACT)",
+          "title": "Allied Health Assistant - North Turramurra",
+          "url": "https://www.linkedin.com/jobs/view/4456912660",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l463",
+      "text": "Therapy Assistant OT \u2014 Metro South Health (South Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Metro South Health",
+          "title": "Therapy Assistant OT",
+          "url": "https://www.linkedin.com/jobs/view/4455233186",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l464",
+      "text": "Allied Health Assistant - Aged Care \u2014 Plena Healthcare (Mornington, Victoria, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Plena Healthcare",
+          "title": "Allied Health Assistant - Aged Care",
+          "url": "https://www.linkedin.com/jobs/view/4440509459",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l565",
+      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "url": "https://github.com/proxima424/westworld/issues/108",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "Why Can't an AI Be Used as a Therapist?\nThe Archive received this question a while ago. At first glance, it seems to have a simple answer: because an AI is not a person. But that doesn&#39;t really answer the question. Because something strange is already happening. At two in the morning, someone who can&#39;t sleep opens a screen and starts writing. They share something they don&#39;t dare tell their family. They admit a thought they&#39;re too ashamed to tell a friend. They try to explain an e\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Why Can't an AI Be Used as a Therapist?\nThe Archive received this question a whi\u2026",
+          "url": "https://www.reddit.com/r/ElArchivoA/comments/1vy2jc4/why_cant_an_ai_be_used_as_a_therapist/",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "Seeking advice on a physical therapist\nI am at a loss where to search for a good PT. Most people have experience physical therapy. Many, like myself find it difficult to stick to the extremely boring, long trajectory of exercise before seeing much results. So, I\u2019m hoping to find someone who is a bit more creative and flexible. Recently, i got a small kettlebell, and it is an amazing device, I had no trouble sticking with the exercise. I asked ai, does the halo create more bdnf, and YUP, it does,\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Seeking advice on a physical therapist\nI am at a loss where to search for a good\u2026",
+          "url": "https://www.reddit.com/r/boston/comments/1v9tiu2/seeking_advice_on_a_physical_therapist/",
+          "date": "2026-07-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "a16z just wrote a 1.7B check for physical AI in mining. NRED is about to buy EyeX for basically nothing.\nIve been watching the EyeX standstill clock tick down and honestly the timing of this Kalanick news is insane. Travis Kalanick the Uber guy just raised 1.7 billion for Atoms. Andreessen Horowitz led it. Ben Horowitz is joining the board. And they explicitly named mining as one of their target sectors. Heres what Atoms is building. Physical AI. What it is: Software plus robotics plus infrastru\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "a16z just wrote a 1.7B check for physical AI in mining. NRED is about to buy Eye\u2026",
+          "url": "https://www.reddit.com/r/TheRaceTo10Million/comments/1v9wgtg/a16z_just_wrote_a_17b_check_for_physical_ai_in/",
+          "date": "2026-07-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1184,14 +1478,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Physical Therapist Aides",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/31-2022/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Physical Therapist Aides",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/31-2022/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "31-2022",
+        "query": "Physical Therapist Aides",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1205,9 +1510,23 @@
           "youtube": 0
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 4,
+        "sources": {
+          "github": 2,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 6,
+          "x": 20,
+          "youtube": 0
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

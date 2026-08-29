@@ -1,29 +1,37 @@
-# Deep Research Evidence Log: Physical Therapist Aides (31-2022)
+# Evidence log: Physical Therapist Aides (31-2022)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `31-2022-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Physical Therapist Aides] Professional Practice Framework and Digital Competency Guidelines for Physical Therapist Aides — https://www.psc.gov.au/standards/31-2022 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Physical Therapist Aides enforce non-delegable ethical accountability and human verificatio..."
 
-> "National peak professional bodies and statutory regulators governing Physical Therapist Aides enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Physical Therapist Aides — https://www.jobsandskills.gov.au/research/31-2022 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Physical Therapist Aides heightens the demand for adaptive problem solving, interdisciplinary stakeh..."
 
-- **Scope:** Australian practitioners in Physical Therapist Aides across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Physical Therapist Aides** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Physical Therapist Aides](https://www.psc.gov.au/standards/31-2022) — *What it measured:* National competency and ethics framework for Physical Therapist Aides
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
+### L5 Practitioner discourse (56 claims)
+- last30days declared sample: 56 items across github=2, grounding=0, hackernews=24, reddit=6, x=20, youtube=0.
+- Representative practitioner quotes:
+  - [github] [script] the endless screenplay — opens with: Act 1 — first contact
 ---
+persona: thabo-mokoena
+hosted_by: proxima424
+---...
+  - [github] index.html
+<!DOCTYPE html>
 
-### Claim `31-2022-02` (L2 · scholarly)
-
-> "Automation of routine transactional and analytical tasks in Physical Therapist Aides heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Physical Therapist Aides roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Physical Therapist Aides](https://www.jobsandskills.gov.au/research/31-2022) — *What it measured:* Labour market analysis of automation resilience across Physical Therapist Aides in Australia
-
----
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-w...
+  - [hackernews] Tell HN: Man, AI is killing my brain...
+  - [hackernews] GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs best?...
+  - [hackernews] What breaks in production AI workflows?...

@@ -1281,6 +1281,426 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l461",
+      "text": "Medical Assistant (68626) \u2014 United Digestive (Rockdale, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "United Digestive",
+          "title": "Medical Assistant (68626)",
+          "url": "https://www.linkedin.com/jobs/view/4450779274",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l462",
+      "text": "Locum Clinic Assistant (PMC) \u2014 Worq AI (Woodleigh, Queensland, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Worq AI",
+          "title": "Locum Clinic Assistant (PMC)",
+          "url": "https://www.linkedin.com/jobs/view/4448931567",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l463",
+      "text": "Medical Technician / Administration FT, PT Casual Melbourne SE \u2014 Scope Healthcare (Dandenong, Victoria, Australia). Posted 2 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Scope Healthcare",
+          "title": "Medical Technician / Administration FT, PT Casual Melbourne SE",
+          "url": "https://www.linkedin.com/jobs/view/4422190887",
+          "date": "2 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l464",
+      "text": "Medical Technician / Administration FT, PT Casual Melbourne SE \u2014 Scope Healthcare (Wheelers Hill, Victoria, Australia). Posted 2 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Scope Healthcare",
+          "title": "Medical Technician / Administration FT, PT Casual Melbourne SE",
+          "url": "https://www.linkedin.com/jobs/view/4422308009",
+          "date": "2 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l465",
+      "text": "Clinic Administration Officer/Medical Screener \u2014 Sonic HealthPlus (Mackay, Queensland, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Sonic HealthPlus",
+          "title": "Clinic Administration Officer/Medical Screener",
+          "url": "https://www.linkedin.com/jobs/view/4454198895",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l466",
+      "text": "Practice Nurse \u2014 ForHealth Group (Beacon Hill, New South Wales, Australia). Posted 1 year ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "ForHealth Group",
+          "title": "Practice Nurse",
+          "url": "https://www.linkedin.com/jobs/view/4285531725",
+          "date": "1 year ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l467",
+      "text": "Clinical Assistant \u2014 Qscan Group (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Qscan Group",
+          "title": "Clinical Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4448828049",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l468",
+      "text": "Clinic Administration Officer/Medical Screener \u2014 Sonic HealthPlus (Brisbane Airport, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Sonic HealthPlus",
+          "title": "Clinic Administration Officer/Medical Screener",
+          "url": "https://www.linkedin.com/jobs/view/4445080089",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l469",
+      "text": "Medical Imaging Assistant \u2014 I-MED Radiology Network (Heidelberg, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "I-MED Radiology Network",
+          "title": "Medical Imaging Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4444109225",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l470",
+      "text": "Medical Imaging Assistant \u2014 Queensland X-Ray (Cairns, Queensland, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland X-Ray",
+          "title": "Medical Imaging Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4456853211",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l571",
+      "text": "Operator Bridge \u2014 Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_ISSUE -->\n\nThis issue is the **live coordination surface** for CorpFlow Operator Bridge v1 (Option C \u2014 Hybrid).\n\n**Canonical doc on `main`:** [`docs/operations/OPERATOR_BRIDGE_V1.md`](https://github.com/antonvdberg-bit/corpflow-ai-command-center/blob/main/docs/operations/OPER\n### Cursor status \u2014 2026-05-27 23:13 UTC\n\n**Packet / item:** Operator Bridge v1 activation (this issue).\n**Status:** ACTIVATED.\n\n**What I checke\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Operator Bridge \u2014 Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_I\u2026",
+          "url": "https://github.com/antonvdberg-bit/corpflow-ai-command-center/issues/249",
+          "date": "2026-05-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "Implement MCP server for OMEdit interaction with chatbots\nWe're excited to share that the upcoming release will ship with a built-in MCP (Model Context Protocol) server integrated into the OMEdit GUI.\n\nThis lets AI assistants \u2014 anything that speaks MCP, your own local agents or cloud services \u2014 work directly inside your modeling session: reading the active\nThis sounds awesome! I remember someone posted an issue about automatically infering a modelica model from real electrical schematics (which \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Implement MCP server for OMEdit interaction with chatbots\nWe're excited to share\u2026",
+          "url": "https://github.com/OpenModelica/OpenModelica/issues/15385",
+          "date": "2026-04-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "The Place where it Chilled\n## Short description\r\nThe WinterDrobe now has access to the other generic colored winter coats instead of just the gray one. (It also has the gray one that actually has a hood now.)\r\n\r\nThe beanie now has 10% cold armor.\r\n\r\nAssistants can now spawn with yellow mittens.\r\n\r\nReplaced fingerless insuls i\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/coderabbit_\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "The Place where it Chilled\n## Short description\r\nThe WinterDrobe now has access \u2026",
+          "url": "https://github.com/ss14Starlight/space-station-14/pull/4618",
+          "date": "2026-06-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "[Feature] Bitrunning\n<!-- \u0422\u0435\u043a\u0441\u0442 \u043c\u0435\u0436\u0434\u0443 \u0441\u0442\u0440\u0435\u043b\u043a\u0430\u043c\u0438 - \u044d\u0442\u043e \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 - \u043e\u043d\u0438 \u043d\u0435 \u0431\u0443\u0434\u0443\u0442 \u0432\u0438\u0434\u043d\u044b \u0432 \u0432\u0430\u0448\u0435\u043c PR. -->\r\n\r\n# \u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 PR\r\n<!-- \u041e\u043f\u0438\u0448\u0438\u0442\u0435 \u0437\u0434\u0435\u0441\u044c \u0432\u0430\u0448 Pull Request (PR). \u0427\u0442\u043e \u043e\u043d \u0438\u0437\u043c\u0435\u043d\u044f\u0435\u0442? \u041d\u0430 \u0447\u0442\u043e \u0435\u0449\u0435 \u044d\u0442\u043e \u043c\u043e\u0436\u0435\u0442 \u043f\u043e\u0432\u043b\u0438\u044f\u0442\u044c? -->\r\n\r\n\u0411\u0438\u0442\u0440\u0430\u043d\u043d\u0438\u043d\u0433 - \u043f\u043e \u0441\u0432\u043e\u0435\u0439 \u0437\u0430\u0434\u0443\u043c\u043a\u0435 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f _\u043f\u043e\u043b\u043d\u043e\u0446\u0435\u043d\u043d\u044b\u043c_ \u0430\u043d\u0430\u043b\u043e\u0433\u043e\u043c \u0448\u0430\u0445\u0442\u044b \u0438 \u043a\u043e\u0441\u043c\u043e\u0441\u0430, \u043d\u043e \u043f\u043e \u0444\u0430\u043a\u0442\u0443, \u043f\u0440\u043e\u0441\u0442\u043e \u0437\u0430\u043f\u043e\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: review paused by coderabbit.ai -->\n\n> [!NOTE]\n> ## Reviews paused\n>\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[Feature] Bitrunning\n<!-- \u0422\u0435\u043a\u0441\u0442 \u043c\u0435\u0436\u0434\u0443 \u0441\u0442\u0440\u0435\u043b\u043a\u0430\u043c\u0438 - \u044d\u0442\u043e \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 - \u043e\u043d\u0438 \u043d\u0435 \u0431\u0443\u0434\u0443\u0442\u2026",
+          "url": "https://github.com/AtaraxiaSpaceFoundation/Orion-Station-14/pull/390",
+          "date": "2026-04-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Traini\u2026",
+          "url": "https://www.reddit.com/r/ClinicalLegalField/comments/1vkdimx/thinking_about_becoming_a_legal_nurse_consultant/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "text": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better Guidance?\nWhere Does the Structural Gap Between General Chatbots and Relationship-Specific AI Actually Show Up? The gap appears in three places: persistence of relationship context across sessions, resistance to sycophancy, and whether the tool is built around one person&#39;s interior world or the dynamic between two people. General-purpose assistants like ChatGPT, Claude, and Gemini score well on empathy and helpf\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better\u2026",
+          "url": "https://www.reddit.com/r/jenova_ai/comments/1vypds5/general_ai_chatbots_vs_specialized_ai/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "text": "7 Ways I Use AI to Run My Medical Practice (SOPs, Reviews, Billing & More)\nAI is changing the way we practice medicine \u2014 here's exactly how I'm using it to run and scale my private practice.\n\nIn this video I break down 7 real, practical ways I use Claude (and a few other AI tools) day-to-day as a physician and practice owner:\n\n1\ufe0f\u20e3 Building SOPs from scratch \u2014 check-in algorithms, patient workflows, and more\n2\ufe0f\u20e3 Removing emotion from tough patient communications (1-star reviews, difficult message\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "7 Ways I Use AI to Run My Medical Practice (SOPs, Reviews, Billing & More)\nAI is\u2026",
+          "url": "https://www.youtube.com/watch?v=9gYxRPzow1c",
+          "date": "2026-07-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l578",
+      "text": "From Augmentation to Reconstruction: Steering the AI Disruption Toward Positive Change. Adnan Hadid\n#VirtualNICU\n\nIn this video, Adnan Hadid explores the transformative journey of integrating AI into healthcare. Instead of merely speeding up old, inefficient workflows, Hadid argues for a fundamental reimagining of medical practice, breaking down the future of AI in medicine into three distinct evolutionary stages.\n\nLearn how we can move past legacy systems to build an AI-native healthcare future\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "From Augmentation to Reconstruction: Steering the AI Disruption Toward Positive \u2026",
+          "url": "https://www.youtube.com/watch?v=6VIQVUuiec8",
+          "date": "2026-05-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l579",
+      "text": "How AI Will Change Medicine by 2030: A Complete Breakdown of the Future of Health\nThe healthcare industry is hitting an inflection point. By 2030, medicine will look completely different. \n\nIn this episode, we bypass the sci-fi hype and analyze the technical architecture of the AI medical revolution. Artificial intelligence is moving rapidly from simple administrative automation to advanced cognitive diagnostics, genomics-driven personalized care, and real-time surgical assistance.\n\nIn this tech\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "How AI Will Change Medicine by 2030: A Complete Breakdown of the Future of Healt\u2026",
+          "url": "https://www.youtube.com/watch?v=Iw-m0LUqw1g",
+          "date": "2026-05-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l580",
+      "text": "AI is winning in healthcare!\ud83d\ude33 Harvard Study SHOCKS Healthcare\nThis might be one of the biggest AI healthcare breakthroughs yet\u2026\n\nA new Harvard study published in Science tested OpenAI\u2019s o1-preview AI model against real emergency room physicians using seventy-six actual ER patient cases \u2014 and the results were honestly shocking.\n\nThe AI outperformed BOTH attending doctors during emergency diagnosis testing.\n\n\ud83e\udd2f Here\u2019s what happened:\n\ud83e\ude7a OpenAI\u2019s o1-preview was tested across real ER patient scenarios\n\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI is winning in healthcare!\ud83d\ude33 Harvard Study SHOCKS Healthcare\nThis might be one \u2026",
+          "url": "https://www.youtube.com/watch?v=AduugMyrYfs",
+          "date": "2026-05-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1311,14 +1731,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Medical Assistants",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/31-9092/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Medical Assistants",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/31-9092/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "31-9092",
+        "query": "Medical Assistants",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1333,9 +1764,24 @@
           "youtube": 5
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 10,
+        "sources": {
+          "github": 14,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 2,
+          "x": 13,
+          "youtube": 5
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

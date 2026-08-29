@@ -986,6 +986,342 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l447",
+      "text": "Pharmacy Assistant \u2014 Ramsay Health Care (Greenslopes, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Ramsay Health Care",
+          "title": "Pharmacy Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4453410549",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l448",
+      "text": "Pharmacy Assistant \u2014 West Moreton Hospital and Health Service (West Ipswich, Queensland, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "West Moreton Hospital and Health Service",
+          "title": "Pharmacy Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4410514997",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l449",
+      "text": "Pharmacy Assistant \u2014 Darling Downs Hospital and Health Service (Toowoomba, Queensland, Australia). Posted 3 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Darling Downs Hospital and Health Service",
+          "title": "Pharmacy Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4457989576",
+          "date": "3 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l450",
+      "text": "Pharmacy Assistant \u2014 Ramsay Health Care (Miami, Queensland, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Ramsay Health Care",
+          "title": "Pharmacy Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4455498261",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l451",
+      "text": "Pharmacy Technician \u2014 Mercy Health Australia (Melbourne, Victoria, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Mercy Health Australia",
+          "title": "Pharmacy Technician",
+          "url": "https://www.linkedin.com/jobs/view/4457448269",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l452",
+      "text": "Retail Pharmacy Assistant - Mater Hospital North Sydney \u2014 Icon Group (Sydney, New South Wales, Australia). Posted 17 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Icon Group",
+          "title": "Retail Pharmacy Assistant - Mater Hospital North Sydney",
+          "url": "https://www.linkedin.com/jobs/view/4459106946",
+          "date": "17 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l453",
+      "text": "Pharmacy Dispense Technician \u2014 Power FM Bega Bay (Broulee, New South Wales, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Power FM Bega Bay",
+          "title": "Pharmacy Dispense Technician",
+          "url": "https://www.linkedin.com/jobs/view/4456598227",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l454",
+      "text": "Process Worker (Compounding Assistant) \u2014 Baxter International Inc. (Coorparoo, Queensland, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Baxter International Inc.",
+          "title": "Process Worker (Compounding Assistant)",
+          "url": "https://www.linkedin.com/jobs/view/4446249406",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l455",
+      "text": "Pharmacy Assistant/Technician Grade 1/2 - PFT - Malabar \u2014 NSW Justice Health & Forensic Mental Health Network (Sydney, New South Wales, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NSW Justice Health & Forensic Mental Health Network",
+          "title": "Pharmacy Assistant/Technician Grade 1/2 - PFT - Malabar",
+          "url": "https://www.linkedin.com/jobs/view/4458599877",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l556",
+      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "url": "https://github.com/proxima424/westworld/issues/108",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "Problem: Running out of prescription medication because renewal fell through the gap\n**JTBD:** When I manage multiple daily medications prescribed by different specialists, I want to know which prescriptions are running low and need renewal before I run out, so I don't experience a gap in adherence because one doctor's office is hard to reach or has a long callback queue.\n\n---\n\n**Co\n<!-- rw:orchestration-run:rw:muaddibco:RealWorldProblems:issue:1736 -->\nOrchestrator claimed issue for stage `norm\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Problem: Running out of prescription medication because renewal fell through the\u2026",
+          "url": "https://github.com/muaddibco/RealWorldProblems/issues/1736",
+          "date": "2026-05-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "Problem: Last-minute caregiver cancellation leaves family scrambling to cover elder care\n**JTBD:** When my parent's regular paid caregiver calls in sick with no notice, I want to quickly coordinate who among family members can cover each specific care task that day, so my parent doesn't miss their afternoon medication, noon meal, or mobility assistance while I'm at work.\n\n---\n\n**Context\n<!-- rw:orchestration-run:rw:muaddibco:RealWorldProblems:issue:1759 -->\nOrchestrator claimed issue for stage `\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Problem: Last-minute caregiver cancellation leaves family scrambling to cover el\u2026",
+          "url": "https://github.com/muaddibco/RealWorldProblems/issues/1759",
+          "date": "2026-05-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "BREAKING: The U.S State Department Displays An AI-Generated Map That Mislabels Every African Country, Placing Nigeria In The Sahara, Relocating Mozambique To The Horn of Africa, And Moving C\u00f4te d\u2019Ivoire To The Opposite Side Of The Continent, At The Global AIDS 2026 Conference In Rio \ud83e\udd16\nA US State Department presentation at the AIDS 2026 conference in Rio de Janeiro featured a map of Africa that mislabeled every country, sparking widespread attention after attendees took screenshots and shared the\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "BREAKING: The U.S State Department Displays An AI-Generated Map That Mislabels E\u2026",
+          "url": "https://www.reddit.com/r/InterstellarKinetics/comments/1vbob7h/breaking_the_us_state_department_displays_an/",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "Doctor Explains How to Dose Retatrutide to MAXIMIZE Fat Loss (not what you think)\nBook your free discovery call *HERE:* https://drjonesdc.com/yt1d \n\nRetatrutide dosing needs to be built around response, not trial titration schedules. I walk through why chasing higher doses can create more fatigue, appetite suppression, training disruption, and cardiovascular stress without meaningfully improving fat loss. The goal is finding the lowest effective dose that controls hunger while still allowing eno\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Doctor Explains How to Dose Retatrutide to MAXIMIZE Fat Loss (not what you think\u2026",
+          "url": "https://www.youtube.com/watch?v=nYUMLbjE2wA",
+          "date": "2026-06-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "Pharmacy Automation Stocks: 2026 Breakdown\nAutomated dispensing machine market analysis is critical for investors tracking the future of hospital efficiency and pharmacy technology in 2026. This video provides a comprehensive breakdown of the sector\u2019s growth outlook, focusing on how key players like Omnicell (OMCL) and Becton, Dickinson and Company (BDX) are leading the digital transformation of healthcare.\n\nWe examine the rising demand for AI-enabled medication management, the competitive lands\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Pharmacy Automation Stocks: 2026 Breakdown\nAutomated dispensing machine market a\u2026",
+          "url": "https://www.youtube.com/watch?v=yquIh2QfVzQ",
+          "date": "2026-06-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "How AI Is Changing Pharmacy Operations with Harry Travis\nMost pharmacy leaders know AI is coming - but very few understand what it actually takes to apply it in real operations without getting lost in hype, complexity, or vendor noise.\n\n\n\nIn this episode of the *Pharmacy Operators Podcast*, Eesha Sharma sits down with Harry Travis - former executive at Aetna, CVS Caremark, and Accredo, and a 40-year veteran of pharmacy operations.\n\n\n\nHarry has seen every major shift in pharmacy - from IV automat\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "How AI Is Changing Pharmacy Operations with Harry Travis\nMost pharmacy leaders k\u2026",
+          "url": "https://www.youtube.com/watch?v=Vj0fncs3cfM",
+          "date": "2026-03-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1016,14 +1352,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Pharmacy Aides",
-      "location": "Australia",
-      "returned": 9,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/31-9095/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Pharmacy Aides",
+        "location": "Australia",
+        "returned": 9,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/31-9095/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "31-9095",
+        "query": "Pharmacy Aides",
+        "location": "Australia",
+        "returned": 9,
+        "totalResults": 9,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1038,9 +1385,24 @@
           "youtube": 4
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 7,
+        "sources": {
+          "github": 3,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 1,
+          "x": 12,
+          "youtube": 4
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
