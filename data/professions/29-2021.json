@@ -1224,6 +1224,384 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l458",
+      "text": "Hygienist \u2014 National Dental Care (Kirwan, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "National Dental Care",
+          "title": "Hygienist",
+          "url": "https://www.linkedin.com/jobs/view/4450108697",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l459",
+      "text": "Dental Hygienist | Karratha, WA \u2014 Bupa Australia (Karratha, Western Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Bupa Australia",
+          "title": "Dental Hygienist | Karratha, WA",
+          "url": "https://www.linkedin.com/jobs/view/4454945011",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l460",
+      "text": "Oral Health Therapist / Hygienist \u2014 National Dental Care (Kirwan, Queensland, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "National Dental Care",
+          "title": "Oral Health Therapist / Hygienist",
+          "url": "https://www.linkedin.com/jobs/view/4455820269",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l461",
+      "text": "Dental Hygienist | Hobart, TAS \u2014 Bupa Australia (Hobart, Tasmania, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Bupa Australia",
+          "title": "Dental Hygienist | Hobart, TAS",
+          "url": "https://www.linkedin.com/jobs/view/4457199774",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l462",
+      "text": "Oral Health Therapist/Hygienist \u2014 Incredible Smiles (Adelaide, South Australia, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Incredible Smiles",
+          "title": "Oral Health Therapist/Hygienist",
+          "url": "https://www.linkedin.com/jobs/view/4453283614",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l463",
+      "text": "Oral Health Therapist \u2014 North West Hospital and Health Service (Mount Isa, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "North West Hospital and Health Service",
+          "title": "Oral Health Therapist",
+          "url": "https://www.linkedin.com/jobs/view/4454505828",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l464",
+      "text": "Dental Prosthetist - Senior (Hervey Bay) \u2014 Wide Bay Hospital and Health Service (Hervey Bay, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Wide Bay Hospital and Health Service",
+          "title": "Dental Prosthetist - Senior (Hervey Bay)",
+          "url": "https://www.linkedin.com/jobs/view/4450994861",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l465",
+      "text": "Oral Health Therapist | Maven Dental Port Lincoln \u2014 Abano Healthcare Group (Port Lincoln, South Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Abano Healthcare Group",
+          "title": "Oral Health Therapist | Maven Dental Port Lincoln",
+          "url": "https://www.linkedin.com/jobs/view/4437135580",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l466",
+      "text": "Oral Health Therapist | Channon Lawrence Dental \u2014 Abano Healthcare Group (Gympie, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Abano Healthcare Group",
+          "title": "Oral Health Therapist | Channon Lawrence Dental",
+          "url": "https://www.linkedin.com/jobs/view/4437146169",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l467",
+      "text": "Oral Health Therapist / Dental Therapist (Emerald) \u2014 Central Queensland Hospital and Health Service (Emerald, Queensland, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Central Queensland Hospital and Health Service",
+          "title": "Oral Health Therapist / Dental Therapist (Emerald)",
+          "url": "https://www.linkedin.com/jobs/view/4458188568",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l568",
+      "text": "Research: market UX + mock stakeholder panels for office appeal\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\n## Summary\n\nDeep market research + **four mock agentic stakeholder panels** on what would make Smile Notes more appealing to dental offices \u2014 while staying a serious clinical instrument (not purple AI SaaS theater).\n\nFull digest: `knowledge/sources/market-ux-stake\n[vc]: #/009WmGqBh4CV+RI7DkSSkIap+20zt0SEMHue1dpmw8=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJzbWlsZS1\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Research: market UX + mock stakeholder panels for office appeal\n<!-- CURSOR_AGEN\u2026",
+          "url": "https://github.com/CatCorner22/dental/pull/108",
+          "date": "2026-08-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "Ai has to get better, right?\nThis is the common sentiment that I see for those who claim ai will take jobs in X amount of years. Or even those who are more reasonable and claim it will eventually take over white collar work. The biggest claim is that it WILL get better. Why? It&#39;s an easy response that&#39;s hard to disprove, but they haven&#39;t exactly proved it. How do we know there isn&#39;t a ceiling that is rapidly approaching. Moores law, for example, is essentially proven false and is\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Ai has to get better, right?\nThis is the common sentiment that I see for those w\u2026",
+          "url": "https://www.reddit.com/r/cscareerquestions/comments/1vdqkx3/ai_has_to_get_better_right/",
+          "date": "2026-08-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Traini\u2026",
+          "url": "https://www.reddit.com/r/ClinicalLegalField/comments/1vkdimx/thinking_about_becoming_a_legal_nurse_consultant/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "Dental CEO Podcast #75 - AI Is Becoming the Operating System of Your Practice\nIn the last 4 years, dental claim denials have risen to about 20% \u2014 and a large portion of those denied claims are never won. That's not a billing problem. That's a revenue leak built into how most practices operate today. In this episode, Dr. Scott Leune sits down with Ophir Tanz, CEO and founder of Pearl, to break down exactly what AI is doing right now to fix it \u2014 and what the AI operating system of dentistry actual\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Dental CEO Podcast #75 - AI Is Becoming the Operating System of Your Practice\nIn\u2026",
+          "url": "https://www.youtube.com/watch?v=ponQ3EY4IXs",
+          "date": "2026-08-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "Dental Management: AI in the Real World | May 14, 2026\nFor more info and CDE credit on Catapult Education, go to: https://www.catapulteducation.com/course/smarter-dental-ai\n\nFor more info and CDE credit on Thrive Education, go to: https://thriveeducation.henryschein.com/course/smarter-dental-ai \n\nCourse Description\nArtificial intelligence is no longer a future concept in dentistry. It is already helping clinicians and practices improve diagnostic confidence, streamline workflows, and strengthen \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Dental Management: AI in the Real World | May 14, 2026\nFor more info and CDE cre\u2026",
+          "url": "https://www.youtube.com/watch?v=VNRl4JrQF3A",
+          "date": "2026-05-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "Effortless AI in Pediatric Dentistry: Smoother Visits, Clearer Conversations, and Stronger Trust\nInternationally recognized pediatric dentist and educator Dr. Josh Solomon shares how artificial intelligence can be seamlessly integrated into pediatric workflows to create a more natural, efficient, and engaging patient experience. Drawing on over two decades of clinical expertise, Dr. Solomon demonstrates how AI enhances diagnostics, simplifies communication, and supports stronger case acceptance\u2014\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Effortless AI in Pediatric Dentistry: Smoother Visits, Clearer Conversations, an\u2026",
+          "url": "https://www.youtube.com/watch?v=pVypbjEoTu4",
+          "date": "2026-06-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "Dental Management: Embedded AI in Clinical Dentistry | Mar 26, 2026\nFor more info, or to earn CDE credit, go to: https://www.catapulteducation.com/course/dental-ai\n\nCourse Description\nThe most powerful dental AI doesn\u2019t interrupt care, it quietly enhances it.\n\nThis CE course explores how AI-powered imaging and ambient clinical intelligence, embedded directly within the Practice Management System, support better diagnosis, clearer documentation, and smoother clinical workflows - without adding cl\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Dental Management: Embedded AI in Clinical Dentistry | Mar 26, 2026\nFor more inf\u2026",
+          "url": "https://www.youtube.com/watch?v=onSyTHXFymw",
+          "date": "2026-04-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "\ud835\udde3\ud835\uddd8\ud835\uddd4\ud835\udde5\ud835\udddf \ud835\uddd4\ud835\udddc \ud835\uddd9\ud835\uddd7\ud835\uddd4 \ud835\uddd6\ud835\udddf\ud835\uddd8\ud835\uddd4\ud835\udde5\ud835\uddd4\ud835\udde1\ud835\uddd6\ud835\uddd8: \ud835\udddb\ud835\udde2\ud835\uddea \ud835\uddd4\ud835\udddc \ud835\udddc\ud835\udde6 \ud835\udde5\ud835\uddd8\ud835\udde9\ud835\udde2\ud835\udddf\ud835\udde8\ud835\udde7\ud835\udddc\ud835\udde2\ud835\udde1\ud835\udddc\ud835\uddd7\ud835\udde6\ud835\uddd8 \ud835\uddd7\ud835\uddd8\ud835\udde1\ud835\udde7\ud835\uddd4\ud835\udddf \ud835\uddd7\ud835\udddc\ud835\uddd4\ud835\uddda\ud835\udde1\ud835\udde2\ud835\udde6\ud835\udde7\ud835\udddc\ud835\uddd6\ud835\udde6\nDiscover how Pearl is transforming dental care with its AI-powered Second Opinion platform. In this video, we break down Pearl\u2019s latest FDA clearance for panoramic X-ray analysis, what it means for dentists, patients, and the global dental AI market. From clinical benefits to practice efficiency, market potential, and competitive landscape, we cover everything you need to know.\n\nThis video is formatted uniquely for visual learne\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "\ud835\udde3\ud835\uddd8\ud835\uddd4\ud835\udde5\ud835\udddf \ud835\uddd4\ud835\udddc \ud835\uddd9\ud835\uddd7\ud835\uddd4 \ud835\uddd6\ud835\udddf\ud835\uddd8\ud835\uddd4\ud835\udde5\ud835\uddd4\ud835\udde1\ud835\uddd6\ud835\uddd8: \ud835\udddb\ud835\udde2\ud835\uddea \ud835\uddd4\ud835\udddc \ud835\udddc\ud835\udde6 \ud835\udde5\ud835\uddd8\ud835\udde9\ud835\udde2\ud835\udddf\ud835\udde8\ud835\udde7\ud835\udddc\ud835\udde2\ud835\udde1\ud835\udddc\ud835\uddd7\ud835\udde6\ud835\uddd8 \ud835\uddd7\ud835\uddd8\ud835\udde1\ud835\udde7\ud835\uddd4\ud835\udddf \ud835\uddd7\ud835\udddc\ud835\uddd4\ud835\uddda\ud835\udde1\ud835\udde2\ud835\udde6\ud835\udde7\ud835\udddc\ud835\uddd6\ud835\udde6\nDiscover how\u2026",
+          "url": "https://www.youtube.com/watch?v=7OeiO04rOV8",
+          "date": "2026-03-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1254,14 +1632,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Dental Hygienists",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/29-2021/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Dental Hygienists",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/29-2021/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "29-2021",
+        "query": "Dental Hygienists",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1276,9 +1665,24 @@
           "youtube": 5
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 8,
+        "sources": {
+          "github": 6,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 2,
+          "x": 18,
+          "youtube": 5
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

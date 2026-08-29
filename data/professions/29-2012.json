@@ -1050,6 +1050,384 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l450",
+      "text": "Medical Laboratory Technician - Anatomical Pathology \u2014 NSW Health Pathology (Westmead, New South Wales, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NSW Health Pathology",
+          "title": "Medical Laboratory Technician - Anatomical Pathology",
+          "url": "https://www.linkedin.com/jobs/view/4457497226",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l451",
+      "text": "Medical Laboratory Technician - Microbiology \u2014 NSW Health Pathology (Lismore, New South Wales, Australia). Posted 12 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NSW Health Pathology",
+          "title": "Medical Laboratory Technician - Microbiology",
+          "url": "https://www.linkedin.com/jobs/view/4457914551",
+          "date": "12 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l452",
+      "text": "Technical Officer \u2014 Genea (Deakin, Australian Capital Territory, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Genea",
+          "title": "Technical Officer",
+          "url": "https://www.linkedin.com/jobs/view/4457051251",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l453",
+      "text": "Laboratory Technician \u2014 MGI (Herston, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "MGI",
+          "title": "Laboratory Technician",
+          "url": "https://www.linkedin.com/jobs/view/4454245080",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l454",
+      "text": "Scientist \u2014 Dorevitch Pathology (Warrnambool, Victoria, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Dorevitch Pathology",
+          "title": "Scientist",
+          "url": "https://www.linkedin.com/jobs/view/4456597271",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l455",
+      "text": "Laboratory Diagnostic Technician \u2014 CSIRO (Geelong, Victoria, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "CSIRO",
+          "title": "Laboratory Diagnostic Technician",
+          "url": "https://www.linkedin.com/jobs/view/4447262150",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l456",
+      "text": "Sample Splitting Technician \u2014 Eurofins (Welshpool, Western Australia, Australia). Posted 6 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Eurofins",
+          "title": "Sample Splitting Technician",
+          "url": "https://www.linkedin.com/jobs/view/4377123799",
+          "date": "6 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l457",
+      "text": "NSW Biochemical Genetics Service - Hospital Scientific Officer \u2014 Sydney Children's Hospitals Network (Westmead, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Sydney Children's Hospitals Network",
+          "title": "NSW Biochemical Genetics Service - Hospital Scientific Officer",
+          "url": "https://www.linkedin.com/jobs/view/4456163672",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l458",
+      "text": "Histology Technical Officer \u2014 Monash University (Melbourne, Victoria, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Monash University",
+          "title": "Histology Technical Officer",
+          "url": "https://www.linkedin.com/jobs/view/4446295405",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l459",
+      "text": "Microbiology/Inorganic Lab Technician \u2014 ALS (Newcastle, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "ALS",
+          "title": "Microbiology/Inorganic Lab Technician",
+          "url": "https://www.linkedin.com/jobs/view/4452831372",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l560",
+      "text": "feat(skills): add clinical-case-report skill\n## What\r\n\r\nAdds `clinical-case-report` \u2014 a new healthcare skill that generates structured medical case presentations for clinical rounds, conferences, and ward documentation.\r\n\r\n## Why\r\n\r\nThe current skill catalog has 31 skills covering SaaS, marketing, and operations \u2014 zero healthcare coverage. Hea\nHi @syedali254! \ud83c\udf89\n\nThanks for the contribution \u2014 adding healthcare coverage to the skill catalog is a great direction.\n\nI will run a deep review and get b\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat(skills): add clinical-case-report skill\n## What\r\n\r\nAdds `clinical-case-repo\u2026",
+          "url": "https://github.com/nexu-io/open-design/pull/581",
+          "date": "2026-05-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical thriller. Can you expand on this.\n\n\n\n\n# THE LAST PHYSICIAN\n\nIn the year 2115, humanity has achieved what previous generations believed impossible.\n\nDisease has been conquered. Cancer, dementia, heart failure, sepsis, and countless other k\nAbsolutely\u2014this has the bones of a very strong near-future thriller. The concept already feels cinematic, high-stakes, and thematically rich. What it needs is a bit more structure \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical\u2026",
+          "url": "https://github.com/badbeaver88/game/issues/19",
+          "date": "2026-06-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "I am currently applying for research roles (technician/assistant) in the UK. I have a pharm.d and MSc in Nanomedicine from a prestigious UK university, including demonstrable experience. Have good interests in Bio-imaging, compatible to work in clinical environments and laboratory research.\nI have been applying for 11 months now without landing a single interview. Now, I can&#39;t even get myself up for another application. I work shifts for a small business, doing great with that and developed \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I am currently applying for research roles (technician/assistant) in the UK. I h\u2026",
+          "url": "https://www.reddit.com/r/UKJobMarket/comments/1vlde3z/i_am_currently_applying_for_research_roles/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "Can AI Replace Legal Nurse Consultants? How Artificial Intelligence Is Changing Medical-Record Analysis and Clinical-Legal Work\nArtificial intelligence can read thousands of pages of medical records faster than any human. It can extract dates. Identify medications. Summarize physician notes. Organize laboratory results. Generate preliminary medical chronologies. Search massive records in seconds. So an uncomfortable question deserves a serious answer: Can AI replace the Legal Nurse Consultant? T\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Can AI Replace Legal Nurse Consultants? How Artificial Intelligence Is Changing \u2026",
+          "url": "https://www.reddit.com/r/ClinicalLegalField/comments/1vkdfl3/can_ai_replace_legal_nurse_consultants_how/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "How do I report my doctor for using AI to diagnose my nerve pain?\nAs the title says. I\u2019m new around this community but I\u2019ve had joint and nerve pain since I was a kid. I\u2019d been told it was growing pains, that I was exaggerating, the whole run of the mill docs use to not have to investigate pain. But this time around nothing usual helped, and I was losing sensation in my pinky/ring fingers, so I went to my usual doctor in hopes they could refer me to someone who specializes in rheumatology\u2026 But w\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "How do I report my doctor for using AI to diagnose my nerve pain?\nAs the title s\u2026",
+          "url": "https://www.reddit.com/r/ChronicPain/comments/1vg5l5a/how_do_i_report_my_doctor_for_using_ai_to/",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "From Lab to Clinic: Build Clinical AI Infrastructure, Not More Demos | DLD Health (Lisa Adams)\nIn this DLD Health talk, Prof. Lisa Adams \u2013 radiologist and Deputy Director at the Institute of Diagnostic and Interventional Radiology at TUM University Hospital Munich \u2013 argues that healthcare needs to move beyond impressive AI demos and build real clinical AI infrastructure inside hospitals.\n\nHer key message: useful AI will only become part of everyday care if hospitals own enough local AI capacity \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "From Lab to Clinic: Build Clinical AI Infrastructure, Not More Demos | DLD Healt\u2026",
+          "url": "https://www.youtube.com/watch?v=kVMnoeSK8Z8",
+          "date": "2026-06-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "AI in the Life Science Sector | DLD Health\nTechnology journalist Janne Kn\u00f6dler moderates a dynamic DLD Health panel on how AI is transforming medicine. One key message: the biggest AI breakthroughs in healthcare may not be about flashy headlines, but the everyday automation that frees doctors, improves access, and strengthens health systems worldwide.\n\nKonstantin Hemker, Scientific Lead for Life Sciences at OpenAI, stresses that AI\u2011enabled drug development won\u2019t have a single \u201cAI\u2011designed drug\u201d \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI in the Life Science Sector | DLD Health\nTechnology journalist Janne Kn\u00f6dler m\u2026",
+          "url": "https://www.youtube.com/watch?v=K6OTAG_MSC4",
+          "date": "2026-06-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "How AI Found 1,700 Patients for a Trial That Could Only Find 6 | Julio Martinez-Clark\nAnastassia and Julio unpack the evolving role of AI in healthcare, with a focus on clinical trials, patient identification, and medical education.\n\nJulio G. Martinez-Clark is an entrepreneur and clinical research strategist recognized for transforming global clinical trial operations across MedTech, biopharma, and radiopharmaceutical sectors. He is the CEO of bioaccess\u00ae, where he champions quality and efficienc\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "How AI Found 1,700 Patients for a Trial That Could Only Find 6 | Julio Martinez-\u2026",
+          "url": "https://www.youtube.com/watch?v=aJv5hVBlhl4",
+          "date": "2026-04-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1080,14 +1458,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Medical and Clinical Laboratory Technicians",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/29-2012/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Medical and Clinical Laboratory Technicians",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/29-2012/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "29-2012",
+        "query": "Medical and Clinical Laboratory Technicians",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1101,9 +1490,23 @@
           "youtube": 3
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 8,
+        "sources": {
+          "github": 4,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 3,
+          "x": 13,
+          "youtube": 3
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

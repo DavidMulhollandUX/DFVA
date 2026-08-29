@@ -1,29 +1,41 @@
-# Deep Research Evidence Log: Dental Hygienists (29-2021)
+# Evidence log: Dental Hygienists (29-2021)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `29-2021-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Dental Hygienists] Professional Practice Framework and Digital Competency Guidelines for Dental Hygienists — https://www.psc.gov.au/standards/29-2021 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Dental Hygienists enforce non-delegable ethical accountability and human verification over ..."
 
-> "National peak professional bodies and statutory regulators governing Dental Hygienists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Dental Hygienists — https://www.jobsandskills.gov.au/research/29-2021 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Dental Hygienists heightens the demand for adaptive problem solving, interdisciplinary stakeholder c..."
 
-- **Scope:** Australian practitioners in Dental Hygienists across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Dental Hygienists** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Dental Hygienists](https://www.psc.gov.au/standards/29-2021) — *What it measured:* National competency and ethics framework for Dental Hygienists
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (63 claims)
+- last30days declared sample: 63 items across github=6, grounding=0, hackernews=24, jobs=0, reddit=2, x=18, youtube=5.
+- Representative practitioner quotes:
+  - [github] Research: market UX + mock stakeholder panels for office appeal
+<!-- CURSOR_AGENT_PR_BODY_BEGIN -->
+## Summary
 
-### Claim `29-2021-02` (L2 · scholarly)
+Deep mar...
+  - [github] denti.ai (Allow)
+### Confirmation
 
-> "Automation of routine transactional and analytical tasks in Dental Hygienists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
+- [x] I understand that issues lacking actionable details may be closed.
+- [x] I conf...
+  - [github] Update hero headline and copy for clarity
+- Remove "For Dental Hygienists & Dentists" badge from hero
+- Change headline...
+  - [github] Feature/frontend user/about
+<!-- This is an auto-generated comment: release notes by coderabbit.ai -->
 
-- **Scope:** Entry-level and senior Dental Hygienists roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Dental Hygienists](https://www.jobsandskills.gov.au/research/29-2021) — *What it measured:* Labour market analysis of automation resilience across Dental Hygienists in Australia
-
----
+## Summary by Co...
+  - [github] Indirect AI Exposure
+A lovely, random discovery on a Saturday night. I welcome someone with a high profile putting this ...
