@@ -9,18 +9,18 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-29",
+    "to": "2026-08-29"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-29",
+  "expires": "2027-02-25",
   "programs": [
     "mc-gmcom"
   ],
   "claims": [
     {
       "id": "l403",
-      "text": "Media and Communications Manager — Queensland Airports Limited (Gold Coast, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Media and Communications Manager \u2014 Queensland Airports Limited (Gold Coast, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -41,7 +41,7 @@
     },
     {
       "id": "l404",
-      "text": "Media and Communications Manager — Northern Land Council (Greater Darwin Area). Posted 2 hours ago.",
+      "text": "Media and Communications Manager \u2014 Northern Land Council (Greater Darwin Area). Posted 2 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -62,7 +62,7 @@
     },
     {
       "id": "l405",
-      "text": "Public Relations Manager — Publicis Groupe ANZ (Melbourne, Victoria, Australia). Posted 1 day ago.",
+      "text": "Public Relations Manager \u2014 Publicis Groupe ANZ (Melbourne, Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -83,7 +83,7 @@
     },
     {
       "id": "l406",
-      "text": "Manager Communications & Stakeholder Engagement — NSW Department of Planning, Housing and Infrastructure (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Manager Communications & Stakeholder Engagement \u2014 NSW Department of Planning, Housing and Infrastructure (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -104,7 +104,7 @@
     },
     {
       "id": "l407",
-      "text": "Corporate Communications and Partnership Manager — Swisse Wellness (part of H&H Group) (Collingwood, Victoria, Australia). Posted 1 week ago.",
+      "text": "Corporate Communications and Partnership Manager \u2014 Swisse Wellness (part of H&H Group) (Collingwood, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -125,7 +125,7 @@
     },
     {
       "id": "l408",
-      "text": "Manager Corporate Communications — McArthur (New South Wales, Australia). Posted 3 weeks ago.",
+      "text": "Manager Corporate Communications \u2014 McArthur (New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -146,7 +146,7 @@
     },
     {
       "id": "l409",
-      "text": "Manager Communications & Engagement — Public Sector People (Central Highlands, Queensland, Australia). Posted 1 week ago.",
+      "text": "Manager Communications & Engagement \u2014 Public Sector People (Central Highlands, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -167,7 +167,7 @@
     },
     {
       "id": "l410",
-      "text": "Manager Advocacy, Engagement & Communications — Hobsons Bay City Council (Altona, Victoria, Australia). Posted 1 day ago.",
+      "text": "Manager Advocacy, Engagement & Communications \u2014 Hobsons Bay City Council (Altona, Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -188,7 +188,7 @@
     },
     {
       "id": "l411",
-      "text": "Public Relations Lead, Asia Pacific — Stantec (South Brisbane, Queensland, Australia). Posted 12 hours ago.",
+      "text": "Public Relations Lead, Asia Pacific \u2014 Stantec (South Brisbane, Queensland, Australia). Posted 12 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -209,7 +209,7 @@
     },
     {
       "id": "l412",
-      "text": "Talent and PR Manager — News Corp Australia (Surry Hills, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Talent and PR Manager \u2014 News Corp Australia (Surry Hills, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -230,13 +230,13 @@
     },
     {
       "id": "l513",
-      "text": "[change] Overhauled password expiration feature to avoid interfering with SSO and breaking REST API #511\n## Checklist\n\n<!-- Pull requests not following the rules will be closed without further inspection. -->\n<!-- Replace `[ ]` with `N/A` if the requirement is not applicable. -->\n\n- [x] I have read the [OpenWISP Contributing Guidelines](https://openwisp.io/docs/dev/developer/contributing.html) and [Ope\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry…",
+      "text": "[change] Overhauled password expiration feature to avoid interfering with SSO and breaking REST API #511\n## Checklist\n\n<!-- Pull requests not following the rules will be closed without further inspection. -->\n<!-- Replace `[ ]` with `N/A` if the requirement is not applicable. -->\n\n- [x] I have read the [OpenWISP Contributing Guidelines](https://openwisp.io/docs/dev/developer/contributing.html) and [Ope\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[change] Overhauled password expiration feature to avoid interfering with SSO an…",
+          "title": "[change] Overhauled password expiration feature to avoid interfering with SSO an\u2026",
           "url": "https://github.com/openwisp/openwisp-users/pull/544",
           "date": "2026-07-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -251,13 +251,13 @@
     },
     {
       "id": "l514",
-      "text": "Feature/add internal ai sue\n## Unit Test Results\n347 tests  +72   347 ✅ +72   49s ⏱️ +7s\n 83 suites +18     0 💤 ± 0 \n 83 files   +18     0 ❌ ± 0 \n\nResults for commit 9c74e2ed. ± Comparison against base commit 5b07136e.\n\n[test-results]:data:application/gzip;base64,H4sIADryjmoC/13Myw6DIBCF4VcxrLuoguj0ZRo6DMmkKg3CyvTdi/aCdvn9JzmL... ## 🤖 Agent Code Review\n\n### 📄 `app/src/main/java/com/devsusana/hometutorpro/HiltApplication.kt`\n| Sev | Categoría | Hallazgo | Sugerencia |\n|-----|-----------|---------…",
+      "text": "Feature/add internal ai sue\n## Unit Test Results\n347 tests\u2002 +72\u2002\u2003\u2003347 \u2705 +72\u2002\u2003\u200349s \u23f1\ufe0f +7s\n\u200783 suites +18\u2002\u2003\u2003\u2007\u20070 \ud83d\udca4 \u00b1\u20070\u2002\n\u200783 files\u2004\u2002 +18\u2002\u2003\u2003\u2007\u20070 \u274c \u00b1\u20070\u2002\n\nResults for commit 9c74e2ed.\u2003\u00b1 Comparison against base commit 5b07136e.\n\n[test-results]:data:application/gzip;base64,H4sIADryjmoC/13Myw6DIBCF4VcxrLuoguj0ZRo6DMmkKg3CyvTdi/aCdvn9JzmL... ## \ud83e\udd16 Agent Code Review\n\n### \ud83d\udcc4 `app/src/main/java/com/devsusana/hometutorpro/HiltApplication.kt`\n| Sev | Categor\u00eda | Hallazgo | Sugerencia |\n|-----|-----------|---------\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature/add internal ai sue\n## Unit Test Results\n347 tests  +72   347 ✅ +72   49…",
+          "title": "Feature/add internal ai sue\n## Unit Test Results\n347 tests\u2002 +72\u2002\u2003\u2003347 \u2705 +72\u2002\u2003\u200349\u2026",
           "url": "https://github.com/DEVSusana/HomeTutorPro/pull/27",
           "date": "2026-05-20",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -419,13 +419,13 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -461,13 +461,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -608,13 +608,13 @@
     },
     {
       "id": "l531",
-      "text": "Show HN: Videopython – local-first video processing, editing and AI workflows",
+      "text": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Videopython – local-first video processing, editing and AI workflows",
+          "title": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
           "url": "https://github.com/bartwojtowicz/videopython",
           "date": "2026-06-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -650,13 +650,13 @@
     },
     {
       "id": "l533",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -671,13 +671,13 @@
     },
     {
       "id": "l534",
-      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -734,13 +734,13 @@
     },
     {
       "id": "l537",
-      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -755,13 +755,13 @@
     },
     {
       "id": "l538",
-      "text": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Should Be Commonly Owned and Controlled — and How Such Cooperation Could Be Organized Artificial intelligence may become one of humanity’s most important productive, scientific, political, and administrative capacities. If that is the case, the central question is not only what AI will be able to do, but who will own it, who will control its development and use, and who will benefit from the value it creates. There are…",
+      "text": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Should Be Commonly Owned and Controlled \u2014 and How Such Cooperation Could Be Organized Artificial intelligence may become one of humanity\u2019s most important productive, scientific, political, and administrative capacities. If that is the case, the central question is not only what AI will be able to do, but who will own it, who will control its development and use, and who will benefit from the value it creates. There are\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Sh…",
+          "title": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Sh\u2026",
           "url": "https://www.reddit.com/r/LeftistsForAI/comments/1vcmh7k/the_case_for_common_ownership_and_international/",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -776,13 +776,13 @@
     },
     {
       "id": "l539",
-      "text": "The real issues with AI data centres\nThe push to scale AI infrastructure has shifted the conversation around data centers from standard IT real estate into a complex, high-stakes collision of thermodynamics, grid economics, local ecology, and supply chain logistics. Unlike traditional cloud facilities that scale linearly with user traffic, AI training clusters operate at extreme density. Below are the most critical, multi-layered concerns divided into key domains. Grid &amp; Physical Infrastruct…",
+      "text": "The real issues with AI data centres\nThe push to scale AI infrastructure has shifted the conversation around data centers from standard IT real estate into a complex, high-stakes collision of thermodynamics, grid economics, local ecology, and supply chain logistics. Unlike traditional cloud facilities that scale linearly with user traffic, AI training clusters operate at extreme density. Below are the most critical, multi-layered concerns divided into key domains. Grid &amp; Physical Infrastruct\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The real issues with AI data centres\nThe push to scale AI infrastructure has shi…",
+          "title": "The real issues with AI data centres\nThe push to scale AI infrastructure has shi\u2026",
           "url": "https://www.reddit.com/r/aiwars/comments/1viyd11/the_real_issues_with_ai_data_centres/",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -797,13 +797,13 @@
     },
     {
       "id": "l540",
-      "text": "By day AI was replacing me. By night I was using AI to replace other people. Six months ago I went indie.\nTwo of Australia&#39;s big four banks are laying off IT staff, round after round. I work at one of them. My closest friend works at the other. So I&#39;ve been watching this from both sides at once, and every day at work feels like waiting for a verdict - not knowing whether this round gets to your name. I have 15 years of development experience. Dozens of projects, big and small. I&#39;ve w…",
+      "text": "By day AI was replacing me. By night I was using AI to replace other people. Six months ago I went indie.\nTwo of Australia&#39;s big four banks are laying off IT staff, round after round. I work at one of them. My closest friend works at the other. So I&#39;ve been watching this from both sides at once, and every day at work feels like waiting for a verdict - not knowing whether this round gets to your name. I have 15 years of development experience. Dozens of projects, big and small. I&#39;ve w\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "By day AI was replacing me. By night I was using AI to replace other people. Six…",
+          "title": "By day AI was replacing me. By night I was using AI to replace other people. Six\u2026",
           "url": "https://www.reddit.com/r/SideProject/comments/1ve9l4o/by_day_ai_was_replacing_me_by_night_i_was_using/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -818,13 +818,13 @@
     },
     {
       "id": "l541",
-      "text": "I Built a 100-Point Framework to Find Better Stocks: NAIL 2.0 (Use this with only Pro AI Models)\nInspired by William Green’s book Richer, Wiser, Happier and the investment principles of exceptional long-term stock pickers including Nick Sleep, Warren Buffett, Charlie Munger, Sir John Templeton and Mohnish Pabrai. USE CASE ㅤ Most stock screens tell you P/E, profit growth, ROIC and free cash flow. ㅤ But they don’t answer the harder questions: ㅤ Is the cash flow real? Is ROIC sustainable? Can the c…",
+      "text": "I Built a 100-Point Framework to Find Better Stocks: NAIL 2.0 (Use this with only Pro AI Models)\nInspired by William Green\u2019s book Richer, Wiser, Happier and the investment principles of exceptional long-term stock pickers including Nick Sleep, Warren Buffett, Charlie Munger, Sir John Templeton and Mohnish Pabrai. USE CASE \u3164 Most stock screens tell you P/E, profit growth, ROIC and free cash flow. \u3164 But they don\u2019t answer the harder questions: \u3164 Is the cash flow real? Is ROIC sustainable? Can the c\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I Built a 100-Point Framework to Find Better Stocks: NAIL 2.0 (Use this with onl…",
+          "title": "I Built a 100-Point Framework to Find Better Stocks: NAIL 2.0 (Use this with onl\u2026",
           "url": "https://www.reddit.com/r/IndiaGrowthStocks/comments/1vokpl8/i_built_a_100point_framework_to_find_better/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -860,13 +860,13 @@
     },
     {
       "id": "l543",
-      "text": "The Real Threat Isn’t AI. It’s Compute.",
+      "text": "The Real Threat Isn\u2019t AI. It\u2019s Compute.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Real Threat Isn’t AI. It’s Compute.",
+          "title": "The Real Threat Isn\u2019t AI. It\u2019s Compute.",
           "url": "https://x.com/Bradleyxf0/status/2092430372617282006",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -887,7 +887,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Its a grind. Personally, I've been building a dApp for a year+. Self-funded with…",
+          "title": "Its a grind. Personally, I've been building a dApp for a year+. Self-funded with\u2026",
           "url": "https://x.com/mrwagmibtc/status/2085225874496877020",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -902,13 +902,13 @@
     },
     {
       "id": "l545",
-      "text": "AI surged, but blockchain developers didn’t simply disappear.\n\nGitHub data tells a messier story than the familiar “developers left crypto for AI” narrative. We looked at both trends to understand what actually changed. https://t.co/ggOjs71qky",
+      "text": "AI surged, but blockchain developers didn\u2019t simply disappear.\n\nGitHub data tells a messier story than the familiar \u201cdevelopers left crypto for AI\u201d narrative. We looked at both trends to understand what actually changed. https://t.co/ggOjs71qky",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI surged, but blockchain developers didn’t simply disappear.\n\nGitHub data tells…",
+          "title": "AI surged, but blockchain developers didn\u2019t simply disappear.\n\nGitHub data tells\u2026",
           "url": "https://x.com/node_101/status/2092596217586806906",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -944,13 +944,13 @@
     },
     {
       "id": "l547",
-      "text": "🤖 AI NEWS ROUNDUP — August 26, 2026\n\n1️⃣ OX ALPHA UNMASKED AS https://t.co/HuFMFs4rmi'S GLM-5.3 FLASH\n\nThe mystery model that swept to the top of online usage charts with frontier-level performance at zero cost has been identified. China's https://t.co/HuFMFs4rmi (Zhipu) confirmed that \"Ox Alpha\" is a new iteration of its GLM series, widely called GLM-5.3 Flash, a faster, cheaper sibling of the GLM-5.3 open-source release that just shipped. The company told Bloomberg it will release the weights",
+      "text": "\ud83e\udd16 AI NEWS ROUNDUP \u2014 August 26, 2026\n\n1\ufe0f\u20e3 OX ALPHA UNMASKED AS https://t.co/HuFMFs4rmi'S GLM-5.3 FLASH\n\nThe mystery model that swept to the top of online usage charts with frontier-level performance at zero cost has been identified. China's https://t.co/HuFMFs4rmi (Zhipu) confirmed that \"Ox Alpha\" is a new iteration of its GLM series, widely called GLM-5.3 Flash, a faster, cheaper sibling of the GLM-5.3 open-source release that just shipped. The company told Bloomberg it will release the weights",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "🤖 AI NEWS ROUNDUP — August 26, 2026\n\n1️⃣ OX ALPHA UNMASKED AS https://t.co/HuFMF…",
+          "title": "\ud83e\udd16 AI NEWS ROUNDUP \u2014 August 26, 2026\n\n1\ufe0f\u20e3 OX ALPHA UNMASKED AS https://t.co/HuFMF\u2026",
           "url": "https://x.com/TraffAlex/status/2092598948133318934",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -986,13 +986,13 @@
     },
     {
       "id": "l549",
-      "text": "AI Can’t Build Relationships: Rethinking Analyst Relations Amid Market Disruption\nAnalyst Relations has always been a relationship business; it’s not all about dot placement. \n\n\nIn this episode, Rob sits down with Alyssa Stone to unpack what actually makes AR effective in 2026: earning analyst trust, building real executive relationships, and knowing which individual analysts truly influence buyers and sales cycles.\n\n\nThey explore how AI is reshaping AR workflows (from research to briefing prep)…",
+      "text": "AI Can\u2019t Build Relationships: Rethinking Analyst Relations Amid Market Disruption\nAnalyst Relations has always been a relationship business; it\u2019s not all about dot placement. \n\n\nIn this episode, Rob sits down with Alyssa Stone to unpack what actually makes AR effective in 2026: earning analyst trust, building real executive relationships, and knowing which individual analysts truly influence buyers and sales cycles.\n\n\nThey explore how AI is reshaping AR workflows (from research to briefing prep)\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Can’t Build Relationships: Rethinking Analyst Relations Amid Market Disruptio…",
+          "title": "AI Can\u2019t Build Relationships: Rethinking Analyst Relations Amid Market Disruptio\u2026",
           "url": "https://www.youtube.com/watch?v=d5kr9CNPK0k",
           "date": "2026-07-24",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1007,13 +1007,13 @@
     },
     {
       "id": "l550",
-      "text": "Why Quality and Relationships Won't Save You From AI Disruption\nThe 3 economic forces driving every business down the AI disruption curve. Brett Thomas breaks down expertise collapse, value chain compression, and the reset of customer expectations—and why the diagnostic question \"are you adding irreplaceable value, or just connecting points an algorithm can connect faster?\" matters more than ever.\n\n📖 Get the book, Revenue and AI: https://a.co/d/0iMeOxbA\n🤖 Talk to my AI agents free: https://integ…",
+      "text": "Why Quality and Relationships Won't Save You From AI Disruption\nThe 3 economic forces driving every business down the AI disruption curve. Brett Thomas breaks down expertise collapse, value chain compression, and the reset of customer expectations\u2014and why the diagnostic question \"are you adding irreplaceable value, or just connecting points an algorithm can connect faster?\" matters more than ever.\n\n\ud83d\udcd6 Get the book, Revenue and AI: https://a.co/d/0iMeOxbA\n\ud83e\udd16 Talk to my AI agents free: https://integ\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Why Quality and Relationships Won't Save You From AI Disruption\nThe 3 economic f…",
+          "title": "Why Quality and Relationships Won't Save You From AI Disruption\nThe 3 economic f\u2026",
           "url": "https://www.youtube.com/watch?v=1OlfwScEt94",
           "date": "2026-07-17",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1028,13 +1028,13 @@
     },
     {
       "id": "l551",
-      "text": "AI Disruption IS HERE! Are You Ready?\nThe AI disruption curve isn't coming, it's here. Learn why businesses with strong products and client relationships are failing. Discover the critical distinction that separates winners from losers in the AI era. \n\n📖 Revenue and AI:   https://a.co/d/0iMeOxbA\n\n📖 Disruption and AI: https://a.co/d/09RvF1OE\n\n📖 ROI and AI: https://a.co/d/0idygDu1\n\n#AIDisruption #BusinessStrategy #Leadership #AIImplementation #FutureOfWork\nWelcome to this episode of our leadership…",
+      "text": "AI Disruption IS HERE! Are You Ready?\nThe AI disruption curve isn't coming, it's here. Learn why businesses with strong products and client relationships are failing. Discover the critical distinction that separates winners from losers in the AI era. \n\n\ud83d\udcd6 Revenue and AI:   https://a.co/d/0iMeOxbA\n\n\ud83d\udcd6 Disruption and AI: https://a.co/d/09RvF1OE\n\n\ud83d\udcd6 ROI and AI: https://a.co/d/0idygDu1\n\n#AIDisruption #BusinessStrategy #Leadership #AIImplementation #FutureOfWork\nWelcome to this episode of our leadership\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Disruption IS HERE! Are You Ready?\nThe AI disruption curve isn't coming, it's…",
+          "title": "AI Disruption IS HERE! Are You Ready?\nThe AI disruption curve isn't coming, it's\u2026",
           "url": "https://www.youtube.com/watch?v=jmnwkUOuH7A",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1049,13 +1049,13 @@
     },
     {
       "id": "l552",
-      "text": "Salesforce's Lukewarm Outlook Fuels AI Disruption Fear\nSalesforce gave a revenue outlook for the current period that fell just short of analysts’ estimates. Revenue will be about $11.3 billion in the fiscal second quarter, which ends in July, Salesforce said Wednesday. The leading maker of customer management software is under pressure to show it can thrive in the AI era. Bloomberg's Neil Campling reports.\r\n--------\r\nMore on Bloomberg Television and Markets\r\n \r\nLike this video? Subscribe and tur…",
+      "text": "Salesforce's Lukewarm Outlook Fuels AI Disruption Fear\nSalesforce gave a revenue outlook for the current period that fell just short of analysts\u2019 estimates. Revenue will be about $11.3 billion in the fiscal second quarter, which ends in July, Salesforce said Wednesday. The leading maker of customer management software is under pressure to show it can thrive in the AI era. Bloomberg's Neil Campling reports.\r\n--------\r\nMore on Bloomberg Television and Markets\r\n \r\nLike this video? Subscribe and tur\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Salesforce's Lukewarm Outlook Fuels AI Disruption Fear\nSalesforce gave a revenue…",
+          "title": "Salesforce's Lukewarm Outlook Fuels AI Disruption Fear\nSalesforce gave a revenue\u2026",
           "url": "https://www.youtube.com/watch?v=n8iFewpFLBA",
           "date": "2026-05-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1067,24 +1067,147 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l451",
+      "text": "Content & PR Manager \u2014 Six Degrees Executive (Brisbane, Queensland, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Six Degrees Executive",
+          "title": "Content & PR Manager",
+          "url": "https://www.linkedin.com/jobs/view/4458522140",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l452",
+      "text": "Senior Communications Manager \u2014 DiDi (Melbourne, Victoria, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "DiDi",
+          "title": "Senior Communications Manager",
+          "url": "https://www.linkedin.com/jobs/view/4416293485",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "11-2031-L1-01",
+      "lane": "L1",
+      "tier": "regulatory",
+      "text": "The Communications Public Relations Australia (CPRA, formerly PRIA) Code of Ethics requires public relations practitioners to act honestly and fairly, avoid false or misleading claims, disclose the source of funding for any public communication they initiate, and be accountable for their actions.",
+      "sources": [
+        {
+          "publisher": "Communications Public Relations Australia (CPRA)",
+          "title": "Code of Ethics",
+          "url": "https://cpra.org.au/about-pria/code-of-ethics-privacy/code-of-ethics",
+          "date": "2009 (amended)",
+          "whatItMeasured": "CPRA/PRIA Code of Ethics: member obligations for honest, fair PR practice and funding-source disclosure."
+        }
+      ],
+      "scope": "Binds CPRA/PRIA members; the profession's own ethical standard, not statute. Non-members and in-house practitioners are not directly bound by it.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (CPRA site, retrieved 2026-08-29); population = AU PR practitioners (members); in force. Profession self-regulation, not statutory."
+    },
+    {
+      "id": "11-2031-L2-01",
+      "lane": "L2",
+      "tier": "scholarly",
+      "text": "Jobs and Skills Australia's Gen AI Capacity Study (August 2025) finds generative AI more likely to augment than replace Australian managers: professionals and managers (ANZSCO skill levels 1-2) show the highest augmentation exposure, with 79% of workers in low or very-low automation-risk roles economy-wide and full automation projected at about 13% of jobs by 2050.",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Gen AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level augmentability/automatability across 358 ANZSCO occupations; managers highest augmentation."
+        }
+      ],
+      "scope": "Australian labour market, all occupations; the manager finding applies to ANZSCO skill-level 1-2 occupations including PR managers. Model-derived exposure, not an employment-change forecast.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Primary AU government source; population = AU workforce; in window (Aug 2025). Economy-wide/manager-band, not a 1311-specific score."
+    },
+    {
+      "id": "11-2031-L2-02",
+      "lane": "L2",
+      "tier": "scholarly",
+      "text": "JSA Labour Market Insights records ANZSCO 1311 (Advertising, Public Relations and Sales Manager) at 167,100 employed with median weekly earnings of $2,677; the role plans, organises, directs, controls and coordinates advertising, public relations, sales and marketing activities.",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia (Labour Market Insights)",
+          "title": "Advertising, Public Relations and Sales Manager (ANZSCO 1311)",
+          "url": "https://jobsandskills.gov.au/data/labour-market-insights/occupations/1311-advertising-public-relations-and-sales-manager",
+          "date": "2026-02",
+          "whatItMeasured": "JSA LMI ANZSCO 1311: employment 167,100, median weekly earnings $2,677, role definition."
+        }
+      ],
+      "scope": "Australian ANZSCO 1311 unit group; labour-market size and earnings context, not an AI-exposure measure.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Primary AU government source; population = AU 1311; current (Feb 2026 LFS)."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "public relations managers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "public relations manager",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-29)",
+    "count": 105,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Marriott",
+      "Agency Iceberg",
+      "Tiffany & Co",
+      "Pacific Energy",
+      "Victorian Government",
+      "Quality People",
+      "New Point Recruitment",
+      "Flinders University"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "stakeholder",
+      "content",
+      "brand",
+      "strategic communication",
+      "social media",
+      "media relations",
+      "issues management",
+      "campaign"
     ]
   },
   "corpus": {
@@ -1096,12 +1219,29 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "date": "2026-08-29",
+        "detail": "Factiva/OpenAthens session expired; L3 trade-press lane omitted this pass. Backfill after re-auth."
+      }
+    ],
     "linkedin": [
       {
         "date": "2026-08-29",
         "soc": "11-2031",
         "query": "Public Relations Managers",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "11-2031",
+        "query": "Public Relations Manager",
         "location": "Australia",
         "returned": 10,
         "totalResults": 10,
@@ -1121,9 +1261,38 @@
           "youtube": 4
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 10,
+        "sources": {
+          "github": 2,
+          "grounding": 0,
+          "hackernews": 23,
+          "reddit": 4,
+          "x": 7,
+          "youtube": 4
+        },
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 10,
+        "sources": {
+          "github": 2,
+          "grounding": 0,
+          "hackernews": 23,
+          "reddit": 4,
+          "x": 7,
+          "youtube": 4
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 (Factiva trade-press) omitted this pass: OpenAthens session expired 2026-08-29; backfill pending re-auth (see data/professions/factiva_backlog.json)."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

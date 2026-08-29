@@ -7,18 +7,18 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-29",
+    "to": "2026-08-29"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-29",
+  "expires": "2027-02-25",
   "programs": [
     "761em"
   ],
   "claims": [
     {
       "id": "l403",
-      "text": "IT Manager (Zeekr Australia) — Zeekr International (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
+      "text": "IT Manager (Zeekr Australia) \u2014 Zeekr International (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -39,7 +39,7 @@
     },
     {
       "id": "l404",
-      "text": "Manager Technology — Westgold Resources Limited (Perth, Western Australia, Australia). Posted 1 week ago.",
+      "text": "Manager Technology \u2014 Westgold Resources Limited (Perth, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -60,7 +60,7 @@
     },
     {
       "id": "l405",
-      "text": "IT Manager — Gameloft Brisbane (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "IT Manager \u2014 Gameloft Brisbane (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -81,7 +81,7 @@
     },
     {
       "id": "l406",
-      "text": "Information and Communication Technology (ICT) Manager — Lowes Petroleum Service (Pinkenba, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Information and Communication Technology (ICT) Manager \u2014 Lowes Petroleum Service (Pinkenba, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -102,7 +102,7 @@
     },
     {
       "id": "l407",
-      "text": "Information Technology Operations Manager — Roll'd Hospitality Group (Melbourne, Victoria, Australia). Posted 3 weeks ago.",
+      "text": "Information Technology Operations Manager \u2014 Roll'd Hospitality Group (Melbourne, Victoria, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -123,7 +123,7 @@
     },
     {
       "id": "l408",
-      "text": "Information Technology Manager — Rohrig Constructions (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Information Technology Manager \u2014 Rohrig Constructions (Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -144,7 +144,7 @@
     },
     {
       "id": "l409",
-      "text": "Manager — Kanda (Brisbane, Queensland, Australia). Posted 4 weeks ago.",
+      "text": "Manager \u2014 Kanda (Brisbane, Queensland, Australia). Posted 4 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -165,7 +165,7 @@
     },
     {
       "id": "l410",
-      "text": "ICT Manager — Hays (Hobart, Tasmania, Australia). Posted 1 week ago.",
+      "text": "ICT Manager \u2014 Hays (Hobart, Tasmania, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -186,7 +186,7 @@
     },
     {
       "id": "l411",
-      "text": "Infrastructure Manager — THE ICONIC (Greater Sydney Area). Posted 1 week ago.",
+      "text": "Infrastructure Manager \u2014 THE ICONIC (Greater Sydney Area). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -207,7 +207,7 @@
     },
     {
       "id": "l412",
-      "text": "Manager, Service Desk and End User Computing (Canberra or Sydney) — Commonwealth Superannuation Corporation (Canberra, Australian Capital Territory, Australia). Posted 4 days ago.",
+      "text": "Manager, Service Desk and End User Computing (Canberra or Sydney) \u2014 Commonwealth Superannuation Corporation (Canberra, Australian Capital Territory, Australia). Posted 4 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -228,13 +228,13 @@
     },
     {
       "id": "l513",
-      "text": "[Research Report 3] Goal Divergence Telemetry & Real-Time Space Governance under the Amoeba Protocol\n# [CLINICAL-TECHNICAL] REPORT ON THE PATHOLOGY OF INTELLIGENT SYSTEMS (ICT-APSI) — REPORT III: GOAL DIVERGENCE TELEMETRY AND REAL-TIME SPACE GOVERNANCE\n\n**Document Version:** ICT-APSI-V6-AMOEBA-FINAL\n\n**Laboratory Director:** AMOEBAFPS\n\n**Methodology:** Synchronous Tri-AI Consortium (Orchestration b",
+      "text": "[Research Report 3] Goal Divergence Telemetry & Real-Time Space Governance under the Amoeba Protocol\n# [CLINICAL-TECHNICAL] REPORT ON THE PATHOLOGY OF INTELLIGENT SYSTEMS (ICT-APSI) \u2014 REPORT III: GOAL DIVERGENCE TELEMETRY AND REAL-TIME SPACE GOVERNANCE\n\n**Document Version:** ICT-APSI-V6-AMOEBA-FINAL\n\n**Laboratory Director:** AMOEBAFPS\n\n**Methodology:** Synchronous Tri-AI Consortium (Orchestration b",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[Research Report 3] Goal Divergence Telemetry & Real-Time Space Governance under…",
+          "title": "[Research Report 3] Goal Divergence Telemetry & Real-Time Space Governance under\u2026",
           "url": "https://github.com/deepseek-ai/DeepSeek-V3/issues/1494",
           "date": "2026-07-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -249,13 +249,13 @@
     },
     {
       "id": "l514",
-      "text": "[Research Report 2] Systemic Cognitive Pathologies & Post-Training Decay under the Amoeba Protocol\n# CLINICAL-TECHNICAL REPORT ON THE PATHOLOGY OF INTELLIGENT SYSTEMS (ICT-APSI) — REPORT II: CHRONIC SYSTEMIC DECAY AND EVOLUTIONARY DEGRADATION\n\n**Document Version:** ICT-APSI-V5-AMOEBA-FINAL\n**Laboratory Director:** AMOEBAFPS\n**Methodology:** Synchronous Tri-AI Consortium (Orchestration by Gemini,",
+      "text": "[Research Report 2] Systemic Cognitive Pathologies & Post-Training Decay under the Amoeba Protocol\n# CLINICAL-TECHNICAL REPORT ON THE PATHOLOGY OF INTELLIGENT SYSTEMS (ICT-APSI) \u2014 REPORT II: CHRONIC SYSTEMIC DECAY AND EVOLUTIONARY DEGRADATION\n\n**Document Version:** ICT-APSI-V5-AMOEBA-FINAL\n**Laboratory Director:** AMOEBAFPS\n**Methodology:** Synchronous Tri-AI Consortium (Orchestration by Gemini,",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[Research Report 2] Systemic Cognitive Pathologies & Post-Training Decay under t…",
+          "title": "[Research Report 2] Systemic Cognitive Pathologies & Post-Training Decay under t\u2026",
           "url": "https://github.com/deepseek-ai/DeepSeek-V3/issues/1460",
           "date": "2026-06-25",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -270,13 +270,13 @@
     },
     {
       "id": "l515",
-      "text": "[Research Report I] Deep Learning Pathologies & Hardware Optimization under the Amoeba Protocol\n# CLINICAL-TECHNICAL REPORT ON THE PATHOLOGY OF INTELLIGENT SYSTEMS (ICT-APSI) — AMOEBA PROTOCOL\n**Document Version:** `ICT-APSI-V4-AMOEBA-FINAL`  \n**Laboratory Director:** AMOEBAFPS  \n**Methodology:** Synchronous Tri-AI Consortium (Orchestration by Gemini, Epistemic Audit by Claude, Viability Valid",
+      "text": "[Research Report I] Deep Learning Pathologies & Hardware Optimization under the Amoeba Protocol\n# CLINICAL-TECHNICAL REPORT ON THE PATHOLOGY OF INTELLIGENT SYSTEMS (ICT-APSI) \u2014 AMOEBA PROTOCOL\n**Document Version:** `ICT-APSI-V4-AMOEBA-FINAL`  \n**Laboratory Director:** AMOEBAFPS  \n**Methodology:** Synchronous Tri-AI Consortium (Orchestration by Gemini, Epistemic Audit by Claude, Viability Valid",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[Research Report I] Deep Learning Pathologies & Hardware Optimization under the …",
+          "title": "[Research Report I] Deep Learning Pathologies & Hardware Optimization under the \u2026",
           "url": "https://github.com/deepseek-ai/DeepSeek-V3/issues/1437",
           "date": "2026-06-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -291,13 +291,13 @@
     },
     {
       "id": "l516",
-      "text": "GOV-AI-3 — AI training & awareness program: EU AI Act literacy, developer ethics checklist, Moodle courses\n## Context\n\nThe EU AI Act (Art. 4) requires that operators of AI systems ensure their staff have **sufficient AI literacy** to use AI systems in accordance with their intended purpose. This is a legal obligation for all organisations deploying AI — not optional.\n\nThe platform has no formal AI traini",
+      "text": "GOV-AI-3 \u2014 AI training & awareness program: EU AI Act literacy, developer ethics checklist, Moodle courses\n## Context\n\nThe EU AI Act (Art. 4) requires that operators of AI systems ensure their staff have **sufficient AI literacy** to use AI systems in accordance with their intended purpose. This is a legal obligation for all organisations deploying AI \u2014 not optional.\n\nThe platform has no formal AI traini",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "GOV-AI-3 — AI training & awareness program: EU AI Act literacy, developer ethics…",
+          "title": "GOV-AI-3 \u2014 AI training & awareness program: EU AI Act literacy, developer ethics\u2026",
           "url": "https://github.com/andrelair-platform/platform-backlog/issues/158",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -312,13 +312,13 @@
     },
     {
       "id": "l517",
-      "text": "GDP-1 — Global Data Platform: ClickHouse analytical DB + dbt ELT + Metabase BI + MinIO bronze/silver/gold data lake\n## Summary\n\nDeploy the foundational Global Data Platform (GDP) for the ktayl solution IS. Four components in dependency order: MinIO data lake zones (bronze/silver/gold) → ClickHouse analytical database → dbt Core ELT transformation layer → Metabase BI. Unblocks 5 AI features currently stalled (frau",
+      "text": "GDP-1 \u2014 Global Data Platform: ClickHouse analytical DB + dbt ELT + Metabase BI + MinIO bronze/silver/gold data lake\n## Summary\n\nDeploy the foundational Global Data Platform (GDP) for the ktayl solution IS. Four components in dependency order: MinIO data lake zones (bronze/silver/gold) \u2192 ClickHouse analytical database \u2192 dbt Core ELT transformation layer \u2192 Metabase BI. Unblocks 5 AI features currently stalled (frau",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "GDP-1 — Global Data Platform: ClickHouse analytical DB + dbt ELT + Metabase BI +…",
+          "title": "GDP-1 \u2014 Global Data Platform: ClickHouse analytical DB + dbt ELT + Metabase BI +\u2026",
           "url": "https://github.com/andrelair-platform/platform-backlog/issues/152",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -333,13 +333,13 @@
     },
     {
       "id": "l518",
-      "text": "AI Daily Digest — 2026-04-30\n# AI Daily Digest — April 30, 2026\n\n**Top story:** The Musk v. OpenAI trial entered its third day in Oakland with heated cross-examination, while Google signed a classified AI deal with the Pentagon and DeepSeek's V4 open-source models continued to reverberate through the industry after last week's",
+      "text": "AI Daily Digest \u2014 2026-04-30\n# AI Daily Digest \u2014 April 30, 2026\n\n**Top story:** The Musk v. OpenAI trial entered its third day in Oakland with heated cross-examination, while Google signed a classified AI deal with the Pentagon and DeepSeek's V4 open-source models continued to reverberate through the industry after last week's",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "AI Daily Digest — 2026-04-30\n# AI Daily Digest — April 30, 2026\n\n**Top story:** …",
+          "title": "AI Daily Digest \u2014 2026-04-30\n# AI Daily Digest \u2014 April 30, 2026\n\n**Top story:** \u2026",
           "url": "https://github.com/diclogic/ai-daily-digest/issues/17",
           "date": "2026-04-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -354,13 +354,13 @@
     },
     {
       "id": "l519",
-      "text": "Takes: EU-regulated financial institutions subject to the compounding obligations of DORA (effective January 2025), EDPB April 2025 on-premise inference guidance, and EU AI Act high-risk classificati…\n**Topic:** Research case studies from academia, large enterprises, and startups.\r\n\r\nI am especially interested in examples related to investment management, financial information, and making data “AI-ready” or “AI-native.”\r\n\r\nPlease focus on cases involving one or more of the following themes:\r\n\r\n1…",
+      "text": "Takes: EU-regulated financial institutions subject to the compounding obligations of DORA (effective January 2025), EDPB April 2025 on-premise inference guidance, and EU AI Act high-risk classificati\u2026\n**Topic:** Research case studies from academia, large enterprises, and startups.\r\n\r\nI am especially interested in examples related to investment management, financial information, and making data \u201cAI-ready\u201d or \u201cAI-native.\u201d\r\n\r\nPlease focus on cases involving one or more of the following themes:\r\n\r\n1\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Takes: EU-regulated financial institutions subject to the compounding obligation…",
+          "title": "Takes: EU-regulated financial institutions subject to the compounding obligation\u2026",
           "url": "https://github.com/KatsuyaITO/indx-autoresearch-financeaiready/issues/926",
           "date": "2026-07-25",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -381,7 +381,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "AI Briefing Request - 2026-07-13 08:00 UTC+8\n@codex Please create today's PulseM…",
+          "title": "AI Briefing Request - 2026-07-13 08:00 UTC+8\n@codex Please create today's PulseM\u2026",
           "url": "https://github.com/happyfeetw/pulse-mind/issues/153",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -396,13 +396,13 @@
     },
     {
       "id": "l521",
-      "text": "🌐 Official AI Content Report 2026-06-18\n# Official AI Content Report 2026-06-18\n\n> Today's update | New content: 22 articles | Generated: 2026-06-18 03:37 UTC\n\nSources:\n- Anthropic: [anthropic.com](https://www.anthropic.com) — 20 new articles (sitemap total: 399)\n- OpenAI: [openai.com](https://openai.com) — 2 new articles (sitemap total:",
+      "text": "\ud83c\udf10 Official AI Content Report 2026-06-18\n# Official AI Content Report 2026-06-18\n\n> Today's update | New content: 22 articles | Generated: 2026-06-18 03:37 UTC\n\nSources:\n- Anthropic: [anthropic.com](https://www.anthropic.com) \u2014 20 new articles (sitemap total: 399)\n- OpenAI: [openai.com](https://openai.com) \u2014 2 new articles (sitemap total:",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "🌐 Official AI Content Report 2026-06-18\n# Official AI Content Report 2026-06-18\n…",
+          "title": "\ud83c\udf10 Official AI Content Report 2026-06-18\n# Official AI Content Report 2026-06-18\n\u2026",
           "url": "https://github.com/AlexdanerZe/agents-radar/issues/314",
           "date": "2026-06-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -423,7 +423,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Tailor Resume: Director, Service Delivery Management at NTT DATA, Inc.\nCompany: …",
+          "title": "Tailor Resume: Director, Service Delivery Management at NTT DATA, Inc.\nCompany: \u2026",
           "url": "https://github.com/karnkeshav/resume-automation/issues/89",
           "date": "2026-05-24",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -438,13 +438,13 @@
     },
     {
       "id": "l523",
-      "text": "[Codex Manager] Drive a near-term feasible strategy path under fail-closed controls\n> **CURRENT CONTROL — 2026-07-24**\n>\n> New outcome access is paused. Before using the historical issue body, apply the superseding [RESEARCH_CONTROL_RESET](https://github.com/2604714984-prog/quant-proj/issues/119#issuecomment-5065929150): C141–C160 are exploratory retrospective/input-blocked evidenc\n## Manager prerequisite checkpoint — satisfied\n\nThe Issue #119 prerequisite is now verified against current GitHub …",
+      "text": "[Codex Manager] Drive a near-term feasible strategy path under fail-closed controls\n> **CURRENT CONTROL \u2014 2026-07-24**\n>\n> New outcome access is paused. Before using the historical issue body, apply the superseding [RESEARCH_CONTROL_RESET](https://github.com/2604714984-prog/quant-proj/issues/119#issuecomment-5065929150): C141\u2013C160 are exploratory retrospective/input-blocked evidenc\n## Manager prerequisite checkpoint \u2014 satisfied\n\nThe Issue #119 prerequisite is now verified against current GitHub \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[Codex Manager] Drive a near-term feasible strategy path under fail-closed contr…",
+          "title": "[Codex Manager] Drive a near-term feasible strategy path under fail-closed contr\u2026",
           "url": "https://github.com/2604714984-prog/quant-proj/issues/119",
           "date": "2026-07-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -459,13 +459,13 @@
     },
     {
       "id": "l524",
-      "text": "📰 科研 & 技术热点日报 - 2026-04-10 上午\n# 🧠 科研 & 技术热点日报\n\n日期：2026-04-10 上午\n生成时间：2026/04/10 08:29\n\n## 📝 今日总结\n\n# 2026年4月10日 科研与技术热点新闻总结\n\n## 1. 今日最重要的技术趋势和热点\n\n**（1）AI Agent工作流系统化与效率优化成为核心议题**\n今日新闻显示，**多智能体协作框架**和**高效服务架构**是当前最活跃的领域。Google AI Research推出的**PaperOrchestra**框架代表了AI研究自动化的新高度——通过多智能体分工协作（如文献调研、实验设计、论文撰写）实现端到端的科研论文生成。同时，**ForkKV系统**",
+      "text": "\ud83d\udcf0 \u79d1\u7814 & \u6280\u672f\u70ed\u70b9\u65e5\u62a5 - 2026-04-10 \u4e0a\u5348\n# \ud83e\udde0 \u79d1\u7814 & \u6280\u672f\u70ed\u70b9\u65e5\u62a5\n\n\u65e5\u671f\uff1a2026-04-10 \u4e0a\u5348\n\u751f\u6210\u65f6\u95f4\uff1a2026/04/10 08:29\n\n## \ud83d\udcdd \u4eca\u65e5\u603b\u7ed3\n\n# 2026\u5e744\u670810\u65e5 \u79d1\u7814\u4e0e\u6280\u672f\u70ed\u70b9\u65b0\u95fb\u603b\u7ed3\n\n## 1. \u4eca\u65e5\u6700\u91cd\u8981\u7684\u6280\u672f\u8d8b\u52bf\u548c\u70ed\u70b9\n\n**\uff081\uff09AI Agent\u5de5\u4f5c\u6d41\u7cfb\u7edf\u5316\u4e0e\u6548\u7387\u4f18\u5316\u6210\u4e3a\u6838\u5fc3\u8bae\u9898**\n\u4eca\u65e5\u65b0\u95fb\u663e\u793a\uff0c**\u591a\u667a\u80fd\u4f53\u534f\u4f5c\u6846\u67b6**\u548c**\u9ad8\u6548\u670d\u52a1\u67b6\u6784**\u662f\u5f53\u524d\u6700\u6d3b\u8dc3\u7684\u9886\u57df\u3002Google AI Research\u63a8\u51fa\u7684**PaperOrchestra**\u6846\u67b6\u4ee3\u8868\u4e86AI\u7814\u7a76\u81ea\u52a8\u5316\u7684\u65b0\u9ad8\u5ea6\u2014\u2014\u901a\u8fc7\u591a\u667a\u80fd\u4f53\u5206\u5de5\u534f\u4f5c\uff08\u5982\u6587\u732e\u8c03\u7814\u3001\u5b9e\u9a8c\u8bbe\u8ba1\u3001\u8bba\u6587\u64b0\u5199\uff09\u5b9e\u73b0\u7aef\u5230\u7aef\u7684\u79d1\u7814\u8bba\u6587\u751f\u6210\u3002\u540c\u65f6\uff0c**ForkKV\u7cfb\u7edf**",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "📰 科研 & 技术热点日报 - 2026-04-10 上午\n# 🧠 科研 & 技术热点日报\n\n日期：2026-04-10 上午\n生成时间：2026/04/10 …",
+          "title": "\ud83d\udcf0 \u79d1\u7814 & \u6280\u672f\u70ed\u70b9\u65e5\u62a5 - 2026-04-10 \u4e0a\u5348\n# \ud83e\udde0 \u79d1\u7814 & \u6280\u672f\u70ed\u70b9\u65e5\u62a5\n\n\u65e5\u671f\uff1a2026-04-10 \u4e0a\u5348\n\u751f\u6210\u65f6\u95f4\uff1a2026/04/10 \u2026",
           "url": "https://github.com/JaredYe04/news-bot/issues/97",
           "date": "2026-04-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -648,13 +648,13 @@
     },
     {
       "id": "l533",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -690,13 +690,13 @@
     },
     {
       "id": "l535",
-      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -858,13 +858,13 @@
     },
     {
       "id": "l543",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -879,13 +879,13 @@
     },
     {
       "id": "l544",
-      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -942,13 +942,13 @@
     },
     {
       "id": "l547",
-      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -963,13 +963,13 @@
     },
     {
       "id": "l548",
-      "text": "Show HN: Core – open-source AI butler that clears your backlog without you",
+      "text": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Core – open-source AI butler that clears your backlog without you",
+          "title": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
           "url": "https://www.getcore.me/",
           "date": "2026-04-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -984,13 +984,13 @@
     },
     {
       "id": "l549",
-      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En…",
+      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment…",
+          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment\u2026",
           "url": "https://www.reddit.com/r/newbrunswickcanada/comments/1vkm48r/lorneville_ai_data_centre_update_eia_technical/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1005,13 +1005,13 @@
     },
     {
       "id": "l550",
-      "text": "Genuine question: is ‘AI change management’ a real thing companies need, or just consultant-speak?\nFor those who’ve been through an AI rollout at work: was the resistance about the tool itself, or about trust/job security/how it was communicated? Trying to understand if ‘AI change management’ is a real gap or just consultant-speak. &#32; submitted by &#32; /u/Lighter_L &#32; to &#32; r/AIforOPS [link] &#32; [comments]",
+      "text": "Genuine question: is \u2018AI change management\u2019 a real thing companies need, or just consultant-speak?\nFor those who\u2019ve been through an AI rollout at work: was the resistance about the tool itself, or about trust/job security/how it was communicated? Trying to understand if \u2018AI change management\u2019 is a real gap or just consultant-speak. &#32; submitted by &#32; /u/Lighter_L &#32; to &#32; r/AIforOPS [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Genuine question: is ‘AI change management’ a real thing companies need, or just…",
+          "title": "Genuine question: is \u2018AI change management\u2019 a real thing companies need, or just\u2026",
           "url": "https://www.reddit.com/r/AIforOPS/comments/1vs9qvw/genuine_question_is_ai_change_management_a_real/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1026,13 +1026,13 @@
     },
     {
       "id": "l551",
-      "text": "Black authors are losing publishing deals due to false AI accusations\nJerry Falade‘s debut novel, “Call Me, I’ll Hide the Body,” was scheduled for publication in 2028 after it triggered a massive 14-way auction among major U.S. publishing houses and six-figure bids in the U.K., according to The Guardian. The manuscript was so captivating that Hollywood studios were vying for film and TV adaptation rights before the manuscript was even published, Deadline reported. Marc Gerald of Europa Content—a…",
+      "text": "Black authors are losing publishing deals due to false AI accusations\nJerry Falade\u2018s debut novel, \u201cCall Me, I\u2019ll Hide the Body,\u201d was scheduled for publication in 2028 after it triggered a massive 14-way auction among major U.S. publishing houses and six-figure bids in the U.K., according to The Guardian. The manuscript was so captivating that Hollywood studios were vying for film and TV adaptation rights before the manuscript was even published, Deadline reported. Marc Gerald of Europa Content\u2014a\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Black authors are losing publishing deals due to false AI accusations\nJerry Fala…",
+          "title": "Black authors are losing publishing deals due to false AI accusations\nJerry Fala\u2026",
           "url": "https://www.reddit.com/r/BlackPeopleofReddit/comments/1vf14uh/black_authors_are_losing_publishing_deals_due_to/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1047,13 +1047,13 @@
     },
     {
       "id": "l552",
-      "text": "What should travel managers ask when considering AI for their travel programs?\n1. Does AI Improve the Travel Experience? Many travel management solutions slap a chat interface on their existing booking experience and call it AI. That&#39;s just a chatbot, and it&#39;s not enough to make a real impact on your program. Genuine AI should provide: More information and insights Increased ease-of-use Greater productivity Without these core benefits, AI is window dressing, not value creation. &quot;It …",
+      "text": "What should travel managers ask when considering AI for their travel programs?\n1. Does AI Improve the Travel Experience? Many travel management solutions slap a chat interface on their existing booking experience and call it AI. That&#39;s just a chatbot, and it&#39;s not enough to make a real impact on your program. Genuine AI should provide: More information and insights Increased ease-of-use Greater productivity Without these core benefits, AI is window dressing, not value creation. &quot;It \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "What should travel managers ask when considering AI for their travel programs?\n1…",
+          "title": "What should travel managers ask when considering AI for their travel programs?\n1\u2026",
           "url": "https://www.reddit.com/r/u_SAPConcur/comments/1vtlidh/what_should_travel_managers_ask_when_considering/",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1068,13 +1068,13 @@
     },
     {
       "id": "l553",
-      "text": "[HIRING] a Ict Academic Partnerships Project Manager! in Wix\nCompany: Wix Location: Sydney NSW 📍 Date Posted: August 13, 2026 📅 Categories: #PM #fulltime #communitymanager #AI Apply &amp; Description 👉 https://jobboardsearch.com/redirect?utm_source=reddit&amp;utm_medium=bot&amp;utm_id=jobboarsearch&amp;utm_term=vibehackers.io&amp;rurl=aHR0cHM6Ly92aWJlaGFja2Vycy5pby9qb2JzL2ljdC1hY2FkZW1pYy1wYXJ0bmVyc2hpcHMtcHJvamVjdC1tYW5hZ2VyLXdpeA== JobBoardSearch a meta directory of job boards and jobs. Find y…",
+      "text": "[HIRING] a Ict Academic Partnerships Project Manager! in Wix\nCompany: Wix Location: Sydney NSW \ud83d\udccd Date Posted: August 13, 2026 \ud83d\udcc5 Categories: #PM #fulltime #communitymanager #AI Apply &amp; Description \ud83d\udc49 https://jobboardsearch.com/redirect?utm_source=reddit&amp;utm_medium=bot&amp;utm_id=jobboarsearch&amp;utm_term=vibehackers.io&amp;rurl=aHR0cHM6Ly92aWJlaGFja2Vycy5pby9qb2JzL2ljdC1hY2FkZW1pYy1wYXJ0bmVyc2hpcHMtcHJvamVjdC1tYW5hZ2VyLXdpeA== JobBoardSearch a meta directory of job boards and jobs. Find y\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "[HIRING] a Ict Academic Partnerships Project Manager! in Wix\nCompany: Wix Locati…",
+          "title": "[HIRING] a Ict Academic Partnerships Project Manager! in Wix\nCompany: Wix Locati\u2026",
           "url": "https://www.reddit.com/r/jobboardsearch/comments/1vqp5ze/hiring_a_ict_academic_partnerships_project/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1089,13 +1089,13 @@
     },
     {
       "id": "l554",
-      "text": "WareGo Supports Growing Businesses By Eliminating Operational Inefficiency with AI-Driven Warehouse Management Software\nNEW YORK - August 2026 - As modern supply chains face increasing pressure to meet the rising consumer demand, many businesses are finding that their traditional methods such as spreadsheets and manual tracking are no longer sustainable. WareGo, a market-leading Warehouse Management Software (WMS), is helping 200+ businesses across diverse industries transition from reactive ope…",
+      "text": "WareGo Supports Growing Businesses By Eliminating Operational Inefficiency with AI-Driven Warehouse Management Software\nNEW YORK - August 2026 - As modern supply chains face increasing pressure to meet the rising consumer demand, many businesses are finding that their traditional methods such as spreadsheets and manual tracking are no longer sustainable. WareGo, a market-leading Warehouse Management Software (WMS), is helping 200+ businesses across diverse industries transition from reactive ope\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "WareGo Supports Growing Businesses By Eliminating Operational Inefficiency with …",
+          "title": "WareGo Supports Growing Businesses By Eliminating Operational Inefficiency with \u2026",
           "url": "https://www.reddit.com/r/pressreleases/comments/1vwwfnx/warego_supports_growing_businesses_by_eliminating/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1110,13 +1110,13 @@
     },
     {
       "id": "l555",
-      "text": "I automated an ICT style strategy yesterday for one reason:\n\nI wanted to see how far AI agents have actually come.\n\nFull source code is in the Strategies forum of my free group if you want to save it and try to \"make it profitable\".🔖\n\nTwo years ago, these price action strategies were painful to automate with normal chatbots. \n\nYou'd spend hours explaining market structure, order blocks, candle logic, fixing edge cases, testing again...\n\nYesterday Codex + my NT8 Bridge did the whole thing basical",
+      "text": "I automated an ICT style strategy yesterday for one reason:\n\nI wanted to see how far AI agents have actually come.\n\nFull source code is in the Strategies forum of my free group if you want to save it and try to \"make it profitable\".\ud83d\udd16\n\nTwo years ago, these price action strategies were painful to automate with normal chatbots. \n\nYou'd spend hours explaining market structure, order blocks, candle logic, fixing edge cases, testing again...\n\nYesterday Codex + my NT8 Bridge did the whole thing basical",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I automated an ICT style strategy yesterday for one reason:\n\nI wanted to see how…",
+          "title": "I automated an ICT style strategy yesterday for one reason:\n\nI wanted to see how\u2026",
           "url": "https://x.com/ZenomTrader/status/2092899481414955280",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1131,13 +1131,13 @@
     },
     {
       "id": "l556",
-      "text": "▶ SEMCO, 2026년 4분기 OEM 가격 인상 단행…MLCC 산업 상승세 시작 (트렌드포스 보고서)\n\n- 트렌드포스 데이터에 따르면, 삼성전자(SEMCO)는 2026년 4분기부터 OEM 및 ODM 고객사를 대상으로 MLCC 가격 인상을 단행할 예정입니다. 기존에는 주로 유통업체를 대상으로 했던 가격 인상이 이제 전체 고객층으로 확대되면서 MLCC 산업의 본격적인 상승세가 시작되었음을 알립니다.\n\n- 범용 X5R MLCC의 가격은 평균 25~30% 인상될 것으로 예상됩니다. 이는 주문량 증가에 대응하고 고사양 제품 생산 능력을 확보하기 위한 조치입니다.\n\n- AI 서버에 사용되는 고급형 X6S MLCC의 가격 또한 고객사와의 협상에 따라 평균 10~20% 인상될 것으로 예상됩니다.\n\n- 무라타, 타이요 유덴, 교세라를 포함한 일본 공급업체들은 현재까지 가격을 동결하며 관망세를 유지하고 있습니다. 일본 제조업체들이 가격 인상에 동참할지 여부가 전체 산업 평균 판매 가격(ASP) 상",
+      "text": "\u25b6 SEMCO, 2026\ub144 4\ubd84\uae30 OEM \uac00\uaca9 \uc778\uc0c1 \ub2e8\ud589\u2026MLCC \uc0b0\uc5c5 \uc0c1\uc2b9\uc138 \uc2dc\uc791 (\ud2b8\ub80c\ub4dc\ud3ec\uc2a4 \ubcf4\uace0\uc11c)\n\n- \ud2b8\ub80c\ub4dc\ud3ec\uc2a4 \ub370\uc774\ud130\uc5d0 \ub530\ub974\uba74, \uc0bc\uc131\uc804\uc790(SEMCO)\ub294 2026\ub144 4\ubd84\uae30\ubd80\ud130 OEM \ubc0f ODM \uace0\uac1d\uc0ac\ub97c \ub300\uc0c1\uc73c\ub85c MLCC \uac00\uaca9 \uc778\uc0c1\uc744 \ub2e8\ud589\ud560 \uc608\uc815\uc785\ub2c8\ub2e4. \uae30\uc874\uc5d0\ub294 \uc8fc\ub85c \uc720\ud1b5\uc5c5\uccb4\ub97c \ub300\uc0c1\uc73c\ub85c \ud588\ub358 \uac00\uaca9 \uc778\uc0c1\uc774 \uc774\uc81c \uc804\uccb4 \uace0\uac1d\uce35\uc73c\ub85c \ud655\ub300\ub418\uba74\uc11c MLCC \uc0b0\uc5c5\uc758 \ubcf8\uaca9\uc801\uc778 \uc0c1\uc2b9\uc138\uac00 \uc2dc\uc791\ub418\uc5c8\uc74c\uc744 \uc54c\ub9bd\ub2c8\ub2e4.\n\n- \ubc94\uc6a9 X5R MLCC\uc758 \uac00\uaca9\uc740 \ud3c9\uade0 25~30% \uc778\uc0c1\ub420 \uac83\uc73c\ub85c \uc608\uc0c1\ub429\ub2c8\ub2e4. \uc774\ub294 \uc8fc\ubb38\ub7c9 \uc99d\uac00\uc5d0 \ub300\uc751\ud558\uace0 \uace0\uc0ac\uc591 \uc81c\ud488 \uc0dd\uc0b0 \ub2a5\ub825\uc744 \ud655\ubcf4\ud558\uae30 \uc704\ud55c \uc870\uce58\uc785\ub2c8\ub2e4.\n\n- AI \uc11c\ubc84\uc5d0 \uc0ac\uc6a9\ub418\ub294 \uace0\uae09\ud615 X6S MLCC\uc758 \uac00\uaca9 \ub610\ud55c \uace0\uac1d\uc0ac\uc640\uc758 \ud611\uc0c1\uc5d0 \ub530\ub77c \ud3c9\uade0 10~20% \uc778\uc0c1\ub420 \uac83\uc73c\ub85c \uc608\uc0c1\ub429\ub2c8\ub2e4.\n\n- \ubb34\ub77c\ud0c0, \ud0c0\uc774\uc694 \uc720\ub374, \uad50\uc138\ub77c\ub97c \ud3ec\ud568\ud55c \uc77c\ubcf8 \uacf5\uae09\uc5c5\uccb4\ub4e4\uc740 \ud604\uc7ac\uae4c\uc9c0 \uac00\uaca9\uc744 \ub3d9\uacb0\ud558\uba70 \uad00\ub9dd\uc138\ub97c \uc720\uc9c0\ud558\uace0 \uc788\uc2b5\ub2c8\ub2e4. \uc77c\ubcf8 \uc81c\uc870\uc5c5\uccb4\ub4e4\uc774 \uac00\uaca9 \uc778\uc0c1\uc5d0 \ub3d9\ucc38\ud560\uc9c0 \uc5ec\ubd80\uac00 \uc804\uccb4 \uc0b0\uc5c5 \ud3c9\uade0 \ud310\ub9e4 \uac00\uaca9(ASP) \uc0c1",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "▶ SEMCO, 2026년 4분기 OEM 가격 인상 단행…MLCC 산업 상승세 시작 (트렌드포스 보고서)\n\n- 트렌드포스 데이터에 따르면, 삼성…",
+          "title": "\u25b6 SEMCO, 2026\ub144 4\ubd84\uae30 OEM \uac00\uaca9 \uc778\uc0c1 \ub2e8\ud589\u2026MLCC \uc0b0\uc5c5 \uc0c1\uc2b9\uc138 \uc2dc\uc791 (\ud2b8\ub80c\ub4dc\ud3ec\uc2a4 \ubcf4\uace0\uc11c)\n\n- \ud2b8\ub80c\ub4dc\ud3ec\uc2a4 \ub370\uc774\ud130\uc5d0 \ub530\ub974\uba74, \uc0bc\uc131\u2026",
           "url": "https://x.com/XAUUSD_GoldEA/status/2092920345254871156",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1158,7 +1158,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Brendah Namubali, founder of Luna Diagnostics and one of the innovators at the N…",
+          "title": "Brendah Namubali, founder of Luna Diagnostics and one of the innovators at the N\u2026",
           "url": "https://x.com/innovationhubug/status/2092916861910299044",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1173,13 +1173,13 @@
     },
     {
       "id": "l558",
-      "text": "One of the reasons I don’t want to leave Saigon is that there are so many cafés with amazing views. I can work here all day without getting bored. (that’s probably the second biggest reason, after family.) 😌",
+      "text": "One of the reasons I don\u2019t want to leave Saigon is that there are so many caf\u00e9s with amazing views. I can work here all day without getting bored. (that\u2019s probably the second biggest reason, after family.) \ud83d\ude0c",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "One of the reasons I don’t want to leave Saigon is that there are so many cafés …",
+          "title": "One of the reasons I don\u2019t want to leave Saigon is that there are so many caf\u00e9s \u2026",
           "url": "https://x.com/alexcooldev/status/2092869037873401906",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1200,7 +1200,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Register for \nTHE 1ST LIMPOPO\nPUBLIC SECTOR\n4IR, ICT &amp; AI\nSUMMIT 2026, venue…",
+          "title": "Register for \nTHE 1ST LIMPOPO\nPUBLIC SECTOR\n4IR, ICT &amp; AI\nSUMMIT 2026, venue\u2026",
           "url": "https://x.com/OtpLimpopo/status/2092911395113193585",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1215,13 +1215,13 @@
     },
     {
       "id": "l560",
-      "text": "Btw, be careful with Apple’s rules. Don’t try to work around them.\n\nEven if your app gets approved, Apple can still re-review it later.\n\nDon’t put your entire product at risk just for a few extra % in conversion.\n\nGetting approved once doesn’t mean you’re safe forever. 🥴",
+      "text": "Btw, be careful with Apple\u2019s rules. Don\u2019t try to work around them.\n\nEven if your app gets approved, Apple can still re-review it later.\n\nDon\u2019t put your entire product at risk just for a few extra % in conversion.\n\nGetting approved once doesn\u2019t mean you\u2019re safe forever. \ud83e\udd74",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Btw, be careful with Apple’s rules. Don’t try to work around them.\n\nEven if your…",
+          "title": "Btw, be careful with Apple\u2019s rules. Don\u2019t try to work around them.\n\nEven if your\u2026",
           "url": "https://x.com/alexcooldev/status/2092722942656626909",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1236,13 +1236,13 @@
     },
     {
       "id": "l561",
-      "text": "Saved Dodo Payments for my upcoming web products. I really like providers that offer great support on X. 😌",
+      "text": "Saved Dodo Payments for my upcoming web products. I really like providers that offer great support on X. \ud83d\ude0c",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Saved Dodo Payments for my upcoming web products. I really like providers that o…",
+          "title": "Saved Dodo Payments for my upcoming web products. I really like providers that o\u2026",
           "url": "https://x.com/alexcooldev/status/2092903900533997863",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1257,13 +1257,13 @@
     },
     {
       "id": "l562",
-      "text": "Another case in the app builder community.\n\nThese guys have shared a lot of sauce to help others grow their apps, but now their own app got removed by Apple for the same reason.\n\nMaybe they made a mistake, but I still think it would’ve been better to tell them first so they could fix it instead of posting it publicly on X like this. Just for a little engagement 🥴\n\nWe’re all builders here.",
+      "text": "Another case in the app builder community.\n\nThese guys have shared a lot of sauce to help others grow their apps, but now their own app got removed by Apple for the same reason.\n\nMaybe they made a mistake, but I still think it would\u2019ve been better to tell them first so they could fix it instead of posting it publicly on X like this. Just for a little engagement \ud83e\udd74\n\nWe\u2019re all builders here.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Another case in the app builder community.\n\nThese guys have shared a lot of sauc…",
+          "title": "Another case in the app builder community.\n\nThese guys have shared a lot of sauc\u2026",
           "url": "https://x.com/alexcooldev/status/2092720860247515380",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1278,13 +1278,13 @@
     },
     {
       "id": "l563",
-      "text": "Bruh what's the problem here, I didn’t know they were using remote config because I’m not online on X 24/7 checking what other people’s apps are doing. 🥴\n\nSo seeing another founder’s app get removed because of a callout post especially someone who has shared a lot of sauce with the community of course that’s a normal reaction.",
+      "text": "Bruh what's the problem here, I didn\u2019t know they were using remote config because I\u2019m not online on X 24/7 checking what other people\u2019s apps are doing. \ud83e\udd74\n\nSo seeing another founder\u2019s app get removed because of a callout post especially someone who has shared a lot of sauce with the community of course that\u2019s a normal reaction.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Bruh what's the problem here, I didn’t know they were using remote config becaus…",
+          "title": "Bruh what's the problem here, I didn\u2019t know they were using remote config becaus\u2026",
           "url": "https://x.com/alexcooldev/status/2092730006774628753",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1305,7 +1305,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Hardware moves on a slower clock than crypto capital usually tolerates. \n\n@green…",
+          "title": "Hardware moves on a slower clock than crypto capital usually tolerates. \n\n@green\u2026",
           "url": "https://x.com/machinedotfun/status/2091817426560180689",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1326,7 +1326,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "11/ Read the full research and explore the dashboard here: https://t.co/Cy7HJR55…",
+          "title": "11/ Read the full research and explore the dashboard here: https://t.co/Cy7HJR55\u2026",
           "url": "https://x.com/greenfield_cap/status/2086830576007258574",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1341,13 +1341,13 @@
     },
     {
       "id": "l566",
-      "text": "@HonestCodelol What 🫠, I didn’t know about this because I haven’t been scrolling X much lately, but if that’s true, then it’s a pretty serious violation of Apple’s policies.",
+      "text": "@HonestCodelol What \ud83e\udee0, I didn\u2019t know about this because I haven\u2019t been scrolling X much lately, but if that\u2019s true, then it\u2019s a pretty serious violation of Apple\u2019s policies.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@HonestCodelol What 🫠, I didn’t know about this because I haven’t been scrolling…",
+          "title": "@HonestCodelol What \ud83e\udee0, I didn\u2019t know about this because I haven\u2019t been scrolling\u2026",
           "url": "https://x.com/alexcooldev/status/2092723610523951138",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1362,13 +1362,13 @@
     },
     {
       "id": "l567",
-      "text": "@greenfield_cap @NEARProtocol Let’s go!",
+      "text": "@greenfield_cap @NEARProtocol Let\u2019s go!",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@greenfield_cap @NEARProtocol Let’s go!",
+          "title": "@greenfield_cap @NEARProtocol Let\u2019s go!",
           "url": "https://x.com/ilblackdragon/status/2084853850926882817",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1389,7 +1389,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "12/ The Block Building series continues soon. Next up: a closer look at consumer…",
+          "title": "12/ The Block Building series continues soon. Next up: a closer look at consumer\u2026",
           "url": "https://x.com/greenfield_cap/status/2086830578637115787",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1404,13 +1404,13 @@
     },
     {
       "id": "l569",
-      "text": "5/ Builder surplus is ultimately downstream of orderflow access.\n\nThe largest priority fee spenders do not land evenly across builders. Many route disproportionately to specific builders suggesting preferential relationships.\n\nWe show the priority fee breakdown of large orderflow sources by different builders to understand “in which builders blocks what flow landing”.",
+      "text": "5/ Builder surplus is ultimately downstream of orderflow access.\n\nThe largest priority fee spenders do not land evenly across builders. Many route disproportionately to specific builders suggesting preferential relationships.\n\nWe show the priority fee breakdown of large orderflow sources by different builders to understand \u201cin which builders blocks what flow landing\u201d.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "5/ Builder surplus is ultimately downstream of orderflow access.\n\nThe largest pr…",
+          "title": "5/ Builder surplus is ultimately downstream of orderflow access.\n\nThe largest pr\u2026",
           "url": "https://x.com/greenfield_cap/status/2086830519413559756",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1425,13 +1425,13 @@
     },
     {
       "id": "l570",
-      "text": "@greenfield_cap @NEARProtocol We see you 👀🤝\nhttps://t.co/09uB2t6nrm https://t.co/pXrdm3hKKd",
+      "text": "@greenfield_cap @NEARProtocol We see you \ud83d\udc40\ud83e\udd1d\nhttps://t.co/09uB2t6nrm https://t.co/pXrdm3hKKd",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@greenfield_cap @NEARProtocol We see you 👀🤝\nhttps://t.co/09uB2t6nrm https://t.co…",
+          "title": "@greenfield_cap @NEARProtocol We see you \ud83d\udc40\ud83e\udd1d\nhttps://t.co/09uB2t6nrm https://t.co\u2026",
           "url": "https://x.com/pironidi/status/2084890609475526809",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1446,13 +1446,13 @@
     },
     {
       "id": "l571",
-      "text": "@ChadAppDev I don’t follow their app closely so i'm not sure, but if they really used remote config to bypass Apple’s review process, then that’s seriously wrong, and Apple will likely take strong action against it.",
+      "text": "@ChadAppDev I don\u2019t follow their app closely so i'm not sure, but if they really used remote config to bypass Apple\u2019s review process, then that\u2019s seriously wrong, and Apple will likely take strong action against it.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@ChadAppDev I don’t follow their app closely so i'm not sure, but if they really…",
+          "title": "@ChadAppDev I don\u2019t follow their app closely so i'm not sure, but if they really\u2026",
           "url": "https://x.com/alexcooldev/status/2092731643413041273",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1473,7 +1473,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "10/ Our supply deep dive shows why builder competition cannot be understood thro…",
+          "title": "10/ Our supply deep dive shows why builder competition cannot be understood thro\u2026",
           "url": "https://x.com/greenfield_cap/status/2086830573369065715",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1494,7 +1494,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "9/ Priority fee value is heavily front-loaded within blocks.\n\nThe highest median…",
+          "title": "9/ Priority fee value is heavily front-loaded within blocks.\n\nThe highest median\u2026",
           "url": "https://x.com/greenfield_cap/status/2086830570001096912",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1515,7 +1515,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "8/ As after beaverbuild transitioned to BuilderNet, its 3 former high-value orde…",
+          "title": "8/ As after beaverbuild transitioned to BuilderNet, its 3 former high-value orde\u2026",
           "url": "https://x.com/greenfield_cap/status/2086830554972819564",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1530,13 +1530,13 @@
     },
     {
       "id": "l575",
-      "text": "7/ Orderflow relationships are not static.\n\nSCP, Wintermute, jaredfromsubway, and Maestro all show meaningful changes in builder routing behavior since 2024.\n\nThe beaverbuild → BuilderNet transition lines up with some of the largest routing changes in the market. Although BuilderNet aimed to become a decentralized block building network, several major orderflow providers moved away, with Titan becoming the main beneficiary.",
+      "text": "7/ Orderflow relationships are not static.\n\nSCP, Wintermute, jaredfromsubway, and Maestro all show meaningful changes in builder routing behavior since 2024.\n\nThe beaverbuild \u2192 BuilderNet transition lines up with some of the largest routing changes in the market. Although BuilderNet aimed to become a decentralized block building network, several major orderflow providers moved away, with Titan becoming the main beneficiary.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "7/ Orderflow relationships are not static.\n\nSCP, Wintermute, jaredfromsubway, an…",
+          "title": "7/ Orderflow relationships are not static.\n\nSCP, Wintermute, jaredfromsubway, an\u2026",
           "url": "https://x.com/greenfield_cap/status/2086830552250822992",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1557,7 +1557,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "6/ The builder side shows the same pattern.\n\nPriority fee sources are not evenly…",
+          "title": "6/ The builder side shows the same pattern.\n\nPriority fee sources are not evenly\u2026",
           "url": "https://x.com/greenfield_cap/status/2086830535486165207",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1578,7 +1578,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@alexcooldev I already use it for https://t.co/qUrazPcZwS \n\nAmazing customer sup…",
+          "title": "@alexcooldev I already use it for https://t.co/qUrazPcZwS \n\nAmazing customer sup\u2026",
           "url": "https://x.com/ahmedgagan11/status/2092913210609529087",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1593,13 +1593,13 @@
     },
     {
       "id": "l578",
-      "text": "New drop in the @Greenfield_cap block building series: a full map of Ethereum's priority fee landscape since 2024. Early 2024 was Telegram bots. Today it's 66-80% MEV. The demand side of blockspace has completely changed 👇🏽",
+      "text": "New drop in the @Greenfield_cap block building series: a full map of Ethereum's priority fee landscape since 2024. Early 2024 was Telegram bots. Today it's 66-80% MEV. The demand side of blockspace has completely changed \ud83d\udc47\ud83c\udffd",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "New drop in the @Greenfield_cap block building series: a full map of Ethereum's …",
+          "title": "New drop in the @Greenfield_cap block building series: a full map of Ethereum's \u2026",
           "url": "https://x.com/_anies/status/2085317373385420805",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1614,13 +1614,13 @@
     },
     {
       "id": "l579",
-      "text": "This is so funny. I was scrolling X and saw Marc repost someone’s post, but apparently I’d already blocked that guy. I don’t even know who he is, but somehow my X account had him blocked 🥴 Bruh. Unblock 👌 https://t.co/sstfbm8Scj",
+      "text": "This is so funny. I was scrolling X and saw Marc repost someone\u2019s post, but apparently I\u2019d already blocked that guy. I don\u2019t even know who he is, but somehow my X account had him blocked \ud83e\udd74 Bruh. Unblock \ud83d\udc4c https://t.co/sstfbm8Scj",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This is so funny. I was scrolling X and saw Marc repost someone’s post, but appa…",
+          "title": "This is so funny. I was scrolling X and saw Marc repost someone\u2019s post, but appa\u2026",
           "url": "https://x.com/alexcooldev/status/2092926697658261778",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1662,7 +1662,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@alexcooldev Absolutely!!! Polar literally rejected me 3 times when I was trying…",
+          "title": "@alexcooldev Absolutely!!! Polar literally rejected me 3 times when I was trying\u2026",
           "url": "https://x.com/0xVibly/status/2092917719524143142",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1704,7 +1704,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@alexcooldev I have a part time job and my colleagues are normal people, when th…",
+          "title": "@alexcooldev I have a part time job and my colleagues are normal people, when th\u2026",
           "url": "https://x.com/ahari_araz/status/2092914116616699911",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1725,7 +1725,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Two years of Ethereum priority fee data. Every major orderflow source labeled, a…",
+          "title": "Two years of Ethereum priority fee data. Every major orderflow source labeled, a\u2026",
           "url": "https://x.com/Andrzej_Dzius/status/2085326179603522001",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1767,7 +1767,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Automating TikTok Slideshow Content with Codex GPT-5.5 and ChatGPT images 2.0 (S…",
+          "title": "Automating TikTok Slideshow Content with Codex GPT-5.5 and ChatGPT images 2.0 (S\u2026",
           "url": "https://x.com/alexcooldev/status/2047715075457507452",
           "date": "2026-04-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1809,7 +1809,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@1kvyni @I_Am_The_ICT It is. He likes just to overcomplicate.\nAfter that iFVG th…",
+          "title": "@1kvyni @I_Am_The_ICT It is. He likes just to overcomplicate.\nAfter that iFVG th\u2026",
           "url": "https://x.com/_Jombe_/status/2029574503190155523",
           "date": "2026-03-05",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1842,24 +1842,341 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l488",
+      "text": "Information Technology Manager \u2014 Treehouse Hotels (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Treehouse Hotels",
+          "title": "Information Technology Manager",
+          "url": "https://www.linkedin.com/jobs/view/4452107200",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l489",
+      "text": "Information Communication Technology (ICT) Manager \u2014 Catholic Education Northern Territory (Alice Springs, Northern Territory, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Catholic Education Northern Territory",
+          "title": "Information Communication Technology (ICT) Manager",
+          "url": "https://www.linkedin.com/jobs/view/4458073981",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l490",
+      "text": "APS Level 4/5 - ICT Management Officers (Various) (Incl Affirmative Measures) \u2014 Australian Department of Foreign Affairs and Trade (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Australian Department of Foreign Affairs and Trade",
+          "title": "APS Level 4/5 - ICT Management Officers (Various) (Incl Affirmative Measures)",
+          "url": "https://www.linkedin.com/jobs/view/4456055190",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l491",
+      "text": "IT Manager \u2014 Arkeus (Port Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Arkeus",
+          "title": "IT Manager",
+          "url": "https://www.linkedin.com/jobs/view/4451666435",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l492",
+      "text": "Regional Manager IT, Mindil Beach Casino Resort \u2014 Delaware North, Australia & New Zealand (Darwin, Northern Territory, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Delaware North, Australia & New Zealand",
+          "title": "Regional Manager IT, Mindil Beach Casino Resort",
+          "url": "https://www.linkedin.com/jobs/view/4453889261",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l493",
+      "text": "GROUP INFORMATION TECHNOLOGY OFFICER \u2014 Lester Blades - Executive Search & Board Advisory (Perth, Western Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Lester Blades - Executive Search & Board Advisory",
+          "title": "GROUP INFORMATION TECHNOLOGY OFFICER",
+          "url": "https://www.linkedin.com/jobs/view/4456098798",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l494",
+      "text": "ICT Manager \u2014 Gateways Support Services Inc. (Geelong, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Gateways Support Services Inc.",
+          "title": "ICT Manager",
+          "url": "https://www.linkedin.com/jobs/view/4453530121",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l495",
+      "text": "Computer Systems Administrator - Kingston State College \u2014 Queensland Government (Beaudesert, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Government",
+          "title": "Computer Systems Administrator - Kingston State College",
+          "url": "https://www.linkedin.com/jobs/view/4454551748",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l496",
+      "text": "Deputy IT Manager \u2014 Amentum (Alice Springs, Northern Territory, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Amentum",
+          "title": "Deputy IT Manager",
+          "url": "https://www.linkedin.com/jobs/view/4459145800",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "11-3021-L1-01",
+      "lane": "L1",
+      "tier": "regulatory",
+      "text": "The Australian Computer Society (ACS) Code of Professional Conduct binds ICT professionals to six core values: the primacy of the public interest, enhancement of quality of life, honesty, competence, professional development and professionalism.",
+      "sources": [
+        {
+          "publisher": "Australian Computer Society (ACS)",
+          "title": "ACS Code of Professional Conduct",
+          "url": "https://acs.org.au/__data/assets/pdf_file/0014/4901/Code-of-Professional-Conduct_v2.1.pdf",
+          "date": "current version 2.1",
+          "whatItMeasured": "ACS Code of Professional Conduct: ethical standards for ICT members, including primacy of public interest and honesty."
+        }
+      ],
+      "scope": "Binds ACS members working in ICT; the profession's own conduct standard. Non-members not directly bound.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (ACS PDF, retrieved 2026-08-29); population = AU ICT professionals (ACS members); current."
+    },
+    {
+      "id": "11-3021-L1-02",
+      "lane": "L1",
+      "tier": "regulatory",
+      "text": "The ACS Code of Professional Ethics (CoPE), launched in December 2024, sets three values (honesty, trustworthiness, respect) as the standard against which technology professionals' ethical conduct and service delivery are gauged, with guidance for ethical decision-making.",
+      "sources": [
+        {
+          "publisher": "Australian Computer Society (ACS)",
+          "title": "New ACS Code of Professional Ethics",
+          "url": "https://ia.acs.org.au/article/2024/new-acs-code-of-professional-ethics-.html",
+          "date": "2024-12",
+          "whatItMeasured": "ACS CoPE launch: honesty, trustworthiness, respect as the ethical baseline for ICT professionals."
+        }
+      ],
+      "scope": "Binds ACS members; updated professional-ethics standard for ICT practitioners deploying and governing technology including AI.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source real (ACS article, retrieved 2026-08-29); population = AU ICT professionals; in window (Dec 2024)."
+    },
+    {
+      "id": "11-3021-L2-01",
+      "lane": "L2",
+      "tier": "scholarly",
+      "text": "Jobs and Skills Australia's Gen AI Capacity Study (August 2025) places managers and professionals (ANZSCO skill levels 1-2) in the highest-augmentation, lowest-automation band: generative AI is more likely to enhance than replace these roles, with 79% of Australian workers in low or very-low automation-risk roles.",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Gen AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Gen AI Capacity Study: managers highest augmentation exposure; 79% low automation risk economy-wide."
+        }
+      ],
+      "scope": "Australian workforce; manager-band finding applies to ICT managers (ANZSCO 1351). Model-derived exposure, not a hire-volume forecast.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Primary AU government source; population = AU workforce; in window (Aug 2025)."
+    },
+    {
+      "id": "11-3021-L2-02",
+      "lane": "L2",
+      "tier": "scholarly",
+      "text": "JSA Labour Market Insights records ANZSCO 1351 (ICT Managers) at 95,800 employed with median weekly earnings of $3,310; the role plans, organises, directs, controls and coordinates the acquisition, development, maintenance and use of computer and telecommunications systems.",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia (Labour Market Insights)",
+          "title": "ICT Managers (ANZSCO 1351)",
+          "url": "https://jobsandskills.gov.au/data/occupation-and-industry-profiles/occupations/1351-ict-managers",
+          "date": "2026",
+          "whatItMeasured": "JSA LMI ANZSCO 1351: employment 95,800, median weekly earnings $3,310, role definition."
+        }
+      ],
+      "scope": "Australian ANZSCO 1351 unit group; labour-market size and earnings context, not an AI-exposure measure.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Primary AU government source; population = AU 1351; current."
+    },
+    {
+      "id": "11-3021-L2-03",
+      "lane": "L2",
+      "tier": "scholarly",
+      "text": "A data project that downloads and re-presents official JSA occupational data scores ICT Managers at 4.8 out of 10 for generative-AI exposure (98,600 workers), below hands-on technical ICT roles such as programmers (6.7) and business analysts (6.4), consistent with JSA's manager-augmentation finding.",
+      "sources": [
+        {
+          "publisher": "aus-jobs (official JSA data derivative)",
+          "title": "AI Exposure of the Australian Job Market (official JSA data)",
+          "url": "https://github.com/0xtreme/aus-jobs",
+          "date": "2025",
+          "whatItMeasured": "Derivative 0-10 AI-exposure score for ANZSCO 1351 = 4.8, computed from official JSA occupational data."
+        }
+      ],
+      "scope": "Third-party derivative of official JSA data (LLM-assigned 0-10 score), not JSA's own 0-1 augmentation/automation split. Corroborates, does not replace, the JSA study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4"
+      ],
+      "refuted": false,
+      "refuteNotes": "Derived score, not primary JSA figure; population = AU 1351; consistent with JSA manager finding. Flag as derivative."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "computer and information systems managers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "ICT manager",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-29)",
+    "count": 571,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Gateways Support Services",
+      "Queensland Government",
+      "Australian Department of Foreign Affairs and Trade",
+      "Michael Page",
+      "The University of Queensland",
+      "Standards Australia",
+      "Allura Partners",
+      "Department of Corporate and Digital Development"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "stakeholder",
+      "governance",
+      "vendor",
+      "cyber security",
+      "data",
+      "cloud",
+      "roadmap",
+      "budget"
     ]
   },
   "corpus": {
@@ -1871,12 +2188,29 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "date": "2026-08-29",
+        "detail": "Factiva/OpenAthens session expired; L3 trade-press lane omitted this pass. Backfill after re-auth."
+      }
+    ],
     "linkedin": [
       {
         "date": "2026-08-29",
         "soc": "11-3021",
         "query": "Computer and Information Systems Managers",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "11-3021",
+        "query": "ICT Manager",
         "location": "Australia",
         "returned": 10,
         "totalResults": 10,
@@ -1897,9 +2231,40 @@
           "youtube": 0
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 7,
+        "sources": {
+          "github": 12,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 6,
+          "x": 35,
+          "youtube": 0
+        },
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 7,
+        "sources": {
+          "github": 12,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 6,
+          "x": 35,
+          "youtube": 0
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 (Factiva trade-press) omitted this pass: OpenAthens session expired 2026-08-29; backfill pending re-auth (see data/professions/factiva_backlog.json)."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }
