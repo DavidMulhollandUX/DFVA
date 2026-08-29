@@ -1091,6 +1091,426 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l452",
+      "text": "Principal Polymer Scientist \u2014 BlueScope (Port Kembla, New South Wales, Australia). Posted 19 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "BlueScope",
+          "title": "Principal Polymer Scientist",
+          "url": "https://www.linkedin.com/jobs/view/4457689245",
+          "date": "19 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l453",
+      "text": "Scientist or Engineer, Ceramics \u2014 Weir (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Weir",
+          "title": "Scientist or Engineer, Ceramics",
+          "url": "https://www.linkedin.com/jobs/view/4454296233",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l454",
+      "text": "Senior Painted Product Specialist \u2014 BlueScope (Port Kembla, New South Wales, Australia). Posted 20 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "BlueScope",
+          "title": "Senior Painted Product Specialist",
+          "url": "https://www.linkedin.com/jobs/view/4457681286",
+          "date": "20 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l455",
+      "text": "Technical Specialist \u2014 Boral (Townsville, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Boral",
+          "title": "Technical Specialist",
+          "url": "https://www.linkedin.com/jobs/view/4455257726",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l456",
+      "text": "R&D Senior Scientist \u2014 DuluxGroup (Clayton, Victoria, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "DuluxGroup",
+          "title": "R&D Senior Scientist",
+          "url": "https://www.linkedin.com/jobs/view/4458575738",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l457",
+      "text": "Defence PhD Scholarship in Ultra-High Temperature Ceramic Coating \u2014 Swinburne University of Technology (Melbourne, Victoria, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Swinburne University of Technology",
+          "title": "Defence PhD Scholarship in Ultra-High Temperature Ceramic Coating",
+          "url": "https://www.linkedin.com/jobs/view/4458565198",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l458",
+      "text": "Senior Product Development Chemist \u2014 Master Builders Solutions (Seven Hills, New South Wales, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Master Builders Solutions",
+          "title": "Senior Product Development Chemist",
+          "url": "https://www.linkedin.com/jobs/view/4446719120",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l459",
+      "text": "Materials Engineer \u2014 SYSTRA ANZ (Perth, Western Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "SYSTRA ANZ",
+          "title": "Materials Engineer",
+          "url": "https://www.linkedin.com/jobs/view/4448725079",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l460",
+      "text": "Senior Technical Officer (Chemistry) \u2014 ANSTO (Lucas Heights, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "ANSTO",
+          "title": "Senior Technical Officer (Chemistry)",
+          "url": "https://www.linkedin.com/jobs/view/4452755964",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l461",
+      "text": "Postdoctoral Researcher in Perovskite Solar Cell Research \u2014 Emerging Scholars Council (Greater Sydney Area). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Emerging Scholars Council",
+          "title": "Postdoctoral Researcher in Perovskite Solar Cell Research",
+          "url": "https://www.linkedin.com/jobs/view/4448941615",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l562",
+      "text": "\ud83d\udc8e Knowledge Update & Optimization: 12 Jul 2026\n## \ud83d\udc8e Knowledge Update: 12 Jul 2026\n\nProcessed **0** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.\n## \ud83d\udee1\ufe0f Safety & Mandate Audit (Detailed)\n\n## \ud83d\udee1\ufe0f Platinum Safety & Mandate Audit: \u274c FAILED\n*Audit executed on 2026-07-12 22:58:48*\n\n### \ud83d\udd0d High-Value Pendin\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udc8e Knowledge Update & Optimization: 12 Jul 2026\n## \ud83d\udc8e Knowledge Update: 12 Jul 202\u2026",
+          "url": "https://github.com/nubenetes/awesome-kubernetes/pull/498",
+          "date": "2026-07-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** \u2014 [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
+          "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 2026\n\nProcessed **14911** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Model Selection Logic (Dynamic)\nExecution started with discovery of top models based on May 2026 hierarchy.\n\n| Model Use\n## \ud83d\udee1\ufe0f Safety & Mandate Audit (Detailed)\n\n## \ud83d\udee1\ufe0f Platinum Safety & Mandate Audit: \u274c FAILED\n*Audit executed on 2026-05-18 18:55:18*\n\n### \ud83d\udd0d High-Value Pendi\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 202\u2026",
+          "url": "https://github.com/nubenetes/awesome-kubernetes/pull/133",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
+          "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and \u2026",
+          "url": "https://www.reddit.com/r/accelerate/comments/1vlw4un/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "Framework for if ai does become sentient/concious\n\u26a0\ufe0fthis paper was generated with the assistance of an AI. but the core concepts, framework design, logic, and original ideas are entirely my own. This was generated after discussing every one of my ideas and having them combine them into one giant text\u26a0\ufe0f Current AI alignment paradigms focus heavily on containment, RLHF (Reinforcement Learning from Human Feedback), or total termination capabilities. This paper proposes an alternative framework: The\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Framework for if ai does become sentient/concious\n\u26a0\ufe0fthis paper was generated wit\u2026",
+          "url": "https://www.reddit.com/r/PhilosophyofMind/comments/1valnc4/framework_for_if_ai_does_become_sentientconcious/",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "Beyond LLMs: Carmine Villani on AI for Materials Science and Industrial Innovation | Davos 2026\nIs your AI solving real-world physics? In this quick session from Sandbox at Davos 2026, senior advisor Carmine Villani explains why the \"New Economy\" depends on moving beyond language models and into the world of atoms.\n\nVillani shares how disruptive quantitative models like SandboxAQ's LQMs are already accelerating industries like hydrocarbons and materials science: turning refinery waste into high-\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Beyond LLMs: Carmine Villani on AI for Materials Science and Industrial Innovati\u2026",
+          "url": "https://www.youtube.com/watch?v=gMS6XaG0Rr0",
+          "date": "2026-04-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a Myth? - Steven Pinker\nProfessor Steven Pinker, one of the world\u2019s most influential cognitive psychologists and public intellectuals, joins the podcast for a profound conversation about artificial intelligence, human consciousness, and the enduring power of Enlightenment values.\n\nFilmed at Harvard \n\nIn an era dominated by apocalyptic headlines, rapid technological disruption, and rising tribalism, Pinker dismantles mode\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a My\u2026",
+          "url": "https://www.youtube.com/watch?v=eWC47agaKpk",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "AI Found Materials Physics Says Are Impossible\nSee how crystal structure analysis works in a modern lab. This walkthrough explains the workflow from raw data to computational modeling.\n\nThis video demonstrates the practical application of molecular modeling within a research environment. We examine the connection between abstract visual data and the actual software tools used to interpret complex structures. If you are interested in how researchers bridge the gap between physical lab experiments\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Found Materials Physics Says Are Impossible\nSee how crystal structure analysi\u2026",
+          "url": "https://www.youtube.com/watch?v=dkQR_zAjDw4",
+          "date": "2026-08-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: https://synthflow.ai/?via=intellagents\n\nIn this Synthflow AI review, I delve into building and testing six voice AI agents using the platform. We put Synthflow through its paces with seven rigorous tests, examining everything from voice clarity and interruption handling to human handoff and data extraction. Discover how Synthflow stacks up against other leading voice AI tools, and uncover a key \"dealbreaker\" that coul\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: h\u2026",
+          "url": "https://www.youtube.com/watch?v=w6eUBmVwNMY",
+          "date": "2026-03-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1121,14 +1541,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Materials Scientists",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/19-2032/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Materials Scientists",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/19-2032/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "19-2032",
+        "query": "Materials Scientists",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1143,9 +1574,24 @@
           "youtube": 4
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 10,
+        "sources": {
+          "github": 5,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 3,
+          "x": 13,
+          "youtube": 4
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

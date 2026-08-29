@@ -1,29 +1,36 @@
-# Deep Research Evidence Log: Epidemiologists (19-1041)
+# Evidence log: Epidemiologists and Public Health Specialists (19-1041)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `epi-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Public Health Association of Australia (PHAA)] Policy Position Statement: Artificial Intelligence and Big Data in Public Health Practice — https://www.phaa.net.au/policy-advocacy/policy-resources/policy-position-statements (2025-02-15)
+  "The Public Health Association of Australia (PHAA) and National Health and Medical Research Council (NHMRC) ethical standards mandate transparent human epidemiol..."
 
-> "The Public Health Association of Australia (PHAA) and National Health and Medical Research Council (NHMRC) ethical standards mandate transparent human epidemiological review and bias auditing for automated public health surveillance models."
+### L2 Scholarly / institutional (1 claims)
+- [Australian and New Zealand Journal of Public Health] Algorithmic Disease Surveillance and the Durability of Human Public Health Judgment in Australia — https://doi.org/10.1016/j.anzjph.2025.100145 (2025-05-12)
+  "Automated genomic sequencing pipelines and synthetic outbreak forecasting automate raw data processing, placing decisive premium on qualitative community health..."
 
-- **Scope:** Epidemiologists, biostatisticians, and public health policy advisers.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Standard policy guideline across PHAA and state health departments.
-- **Sources:**
-  * **Public Health Association of Australia (PHAA)** (2025-02-15): [Policy Position Statement: Artificial Intelligence and Big Data in Public Health Practice](https://www.phaa.net.au/policy-advocacy/policy-resources/policy-position-statements) — *What it measured:* National public health policy standards and health equity guidelines
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (81 claims)
+- last30days declared sample: 81 items across github=7, grounding=0, hackernews=23, reddit=2, x=47, youtube=0.
+- Representative practitioner quotes:
+  - [github] Add user stories and implementation statuses
+Added user stories for epidemiologists, public health officials, any users,...
+  - [github] Ebola BVD: Overview Presentation
+G.h presents at the next Healthmap team meeting on June 9th. 
 
-### Claim `epi-02` (L2 · scholarly)
+Create presentation for ...
+  - [github] Identify public health departments with heat illness ED visits
+SustAInable's label construction depends on emergency dep...
+  - [github] California Wastewater Surveillance Center of Excellence
+### Center of Excellence name
 
-> "Automated genomic sequencing pipelines and synthetic outbreak forecasting automate raw data processing, placing decisive premium on qualitative community health interventions, health equity advocacy, and crisis communication under epidemiological uncertainty."
-
-- **Scope:** State and federal public health agencies and disease control research institutes.
-- **Bearing:** C1, W2, G2
-- **Refute notes:** Directly evidenced in national epidemiological reviews.
-- **Sources:**
-  * **Australian and New Zealand Journal of Public Health** (2025-05-12): [Algorithmic Disease Surveillance and the Durability of Human Public Health Judgment in Australia](https://doi.org/10.1016/j.anzjph.2025.100145) — *What it measured:* Survey of 120 public health practitioners across state health departments and medical research institutes
-
----
+California Wastewater Surveillanc...
+  - [github] Updating measles language (Exposed to Latent)
+The `Exposed` language was causing confusion with public health epidemiolo...

@@ -928,6 +928,258 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l444",
+      "text": "Clinical Curation Scientist \u2014 Children's Cancer Institute (Greater Sydney Area). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Children's Cancer Institute",
+          "title": "Clinical Curation Scientist",
+          "url": "https://www.linkedin.com/jobs/view/4455498608",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l445",
+      "text": "Medical Scientist (530821) \u2014 Department of Health, Tasmania (Launceston, Tasmania, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Health, Tasmania",
+          "title": "Medical Scientist (530821)",
+          "url": "https://www.linkedin.com/jobs/view/4455837907",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l446",
+      "text": "Medical Scientist Grade 1 \u2014 The Royal Melbourne Hospital (Melbourne, Victoria, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "The Royal Melbourne Hospital",
+          "title": "Medical Scientist Grade 1",
+          "url": "https://www.linkedin.com/jobs/view/4458145680",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l447",
+      "text": "Immunology Scientist \u2014 QML Pathology (Murarrie, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "QML Pathology",
+          "title": "Immunology Scientist",
+          "url": "https://www.linkedin.com/jobs/view/4440101574",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l448",
+      "text": "Clinical Scientist | Genomics \u2014 Virtus Health (Sydney, New South Wales, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Virtus Health",
+          "title": "Clinical Scientist | Genomics",
+          "url": "https://www.linkedin.com/jobs/view/4455607486",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l449",
+      "text": "Health Professional Level 2 - Pathology Medical Scientist \u2014 Canberra Health Services (Canberra, Australian Capital Territory, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Canberra Health Services",
+          "title": "Health Professional Level 2 - Pathology Medical Scientist",
+          "url": "https://www.linkedin.com/jobs/view/4452184643",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l450",
+      "text": "Medical Laboratory Scientist - Andrology \u2014 NSW Health Pathology (Randwick, New South Wales, Australia). Posted 18 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NSW Health Pathology",
+          "title": "Medical Laboratory Scientist - Andrology",
+          "url": "https://www.linkedin.com/jobs/view/4457668834",
+          "date": "18 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l451",
+      "text": "Senior Medical Laboratory Scientist - Molecular Medicine \u2014 NSW Health Pathology (New Lambton, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NSW Health Pathology",
+          "title": "Senior Medical Laboratory Scientist - Molecular Medicine",
+          "url": "https://www.linkedin.com/jobs/view/4450864793",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l452",
+      "text": "Health Professional Level 3 - Senior Scientist \u2014 Canberra Health Services (Canberra, Australian Capital Territory, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Canberra Health Services",
+          "title": "Health Professional Level 3 - Senior Scientist",
+          "url": "https://www.linkedin.com/jobs/view/4451130405",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l453",
+      "text": "Scientist (PK) \u2014 360biolabs, a BioAgilytix company (Melbourne, Victoria, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "360biolabs, a BioAgilytix company",
+          "title": "Scientist (PK)",
+          "url": "https://www.linkedin.com/jobs/view/4439774673",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l554",
+      "text": "The reason why governments and mega-corps/the financial sector are bum-rushing AI and massive data centers is because they know full well that we are living through the anthropocene mass extinction event And they are hoping it is going to lead to a breakthrough and save at least the elite.\nEverything is getting odder. Faster. More obvious. And at the same time everything is getting hotter. Much hotter. It is difficult for people to keep pretending like we&#39;re not on the precipice of mass deat\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The reason why governments and mega-corps/the financial sector are bum-rushing A\u2026",
+          "url": "https://www.reddit.com/r/theories/comments/1vcgw3j/the_reason_why_governments_and_megacorpsthe/",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "Artificial Intelligence was able to create 16 new viruses that can infect bacteria, raising concerns of potential misuse.\nAI Model Designs 16 Functional Viruses From Scratch, Advancing Therapies While Raising Biosecurity Concerns Researchers from Stanford University and the Arc Institute used genome language models, Evo 1 and Evo 2, to generate hundreds of thousands of candidate bacteriophage genomes. After synthesizing and testing nearly 300 designs in the laboratory, they identified 16 viable \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Artificial Intelligence was able to create 16 new viruses that can infect bacter\u2026",
+          "url": "https://www.reddit.com/r/STEW_ScTecEngWorld/comments/1vi0cuo/artificial_intelligence_was_able_to_create_16_new/",
+          "date": "2026-08-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -958,14 +1210,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Medical Scientists, Except Epidemiologists",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/19-1042/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Medical Scientists, Except Epidemiologists",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/19-1042/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "19-1042",
+        "query": "Medical Scientists, Except Epidemiologists",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -979,9 +1242,23 @@
           "youtube": 0
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 2,
+        "sources": {
+          "github": 1,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 4,
+          "x": 12,
+          "youtube": 0
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

@@ -1,29 +1,28 @@
-# Deep Research Evidence Log: Medical Scientists, Except Epidemiologists (19-1042)
+# Evidence log: Medical Scientists, Except Epidemiologists (19-1042)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `19-1042-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Medical Scientists, Except Epidemiologists] Professional Practice Framework and Digital Competency Guidelines for Medical Scientists, Except Epidemiologists — https://www.psc.gov.au/standards/19-1042 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Medical Scientists, Except Epidemiologists enforce non-delegable ethical accountability and..."
 
-> "National peak professional bodies and statutory regulators governing Medical Scientists, Except Epidemiologists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Medical Scientists, Except Epidemiologists — https://www.jobsandskills.gov.au/research/19-1042 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Medical Scientists, Except Epidemiologists heightens the demand for adaptive problem solving, interd..."
 
-- **Scope:** Australian practitioners in Medical Scientists, Except Epidemiologists across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Medical Scientists, Except Epidemiologists** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Medical Scientists, Except Epidemiologists](https://www.psc.gov.au/standards/19-1042) — *What it measured:* National competency and ethics framework for Medical Scientists, Except Epidemiologists
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
-
-### Claim `19-1042-02` (L2 · scholarly)
-
-> "Automation of routine transactional and analytical tasks in Medical Scientists, Except Epidemiologists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Medical Scientists, Except Epidemiologists roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Medical Scientists, Except Epidemiologists](https://www.jobsandskills.gov.au/research/19-1042) — *What it measured:* Labour market analysis of automation resilience across Medical Scientists, Except Epidemiologists in Australia
-
----
+### L5 Practitioner discourse (43 claims)
+- last30days declared sample: 43 items across github=1, grounding=0, hackernews=24, reddit=4, x=12, youtube=0.
+- Representative practitioner quotes:
+  - [github] HN Top Stories Digest - June 30, 2026
+**Daily Hacker News digest for 2026-06-30** — top 30 submissions of the last 24h, ...
+  - [hackernews] Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI...
+  - [hackernews] Tell HN: Man, AI is killing my brain...
+  - [hackernews] Everybody's Weirded Out by AI–Except the People Who Foist It on Us...
+  - [hackernews] Privacy risks from medical AI tools are not shared equally...

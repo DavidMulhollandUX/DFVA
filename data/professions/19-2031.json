@@ -1113,6 +1113,384 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l453",
+      "text": "Laboratory Technician Chemist \u2014 Wood (Longford, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Wood",
+          "title": "Laboratory Technician Chemist",
+          "url": "https://www.linkedin.com/jobs/view/4443082833",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l454",
+      "text": "Chemist \u2014 BCI Minerals (Mardie, Western Australia, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "BCI Minerals",
+          "title": "Chemist",
+          "url": "https://www.linkedin.com/jobs/view/4455489721",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l455",
+      "text": "Laboratory Technician \u2014 Mackay Regional Council (Mackay, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Mackay Regional Council",
+          "title": "Laboratory Technician",
+          "url": "https://www.linkedin.com/jobs/view/4453417539",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l456",
+      "text": "Quality Control Analyst (Chemist) \u2014 Arna Pharma (Frenchs Forest, New South Wales, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Arna Pharma",
+          "title": "Quality Control Analyst (Chemist)",
+          "url": "https://www.linkedin.com/jobs/view/4442952389",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l457",
+      "text": "Chemist Team Lead \u2014 Santos Ltd (Brisbane, Queensland, Australia). Posted 21 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Santos Ltd",
+          "title": "Chemist Team Lead",
+          "url": "https://www.linkedin.com/jobs/view/4457655866",
+          "date": "21 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l458",
+      "text": "Industrial Chemist \u2014 Veolia | Australia & New Zealand (Oxley Park, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Veolia | Australia & New Zealand",
+          "title": "Industrial Chemist",
+          "url": "https://www.linkedin.com/jobs/view/4448748880",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l459",
+      "text": "Research & Development Chemist \u2014 DuluxGroup (Allenby Gardens, South Australia, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "DuluxGroup",
+          "title": "Research & Development Chemist",
+          "url": "https://www.linkedin.com/jobs/view/4458731452",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l460",
+      "text": "Laboratory Technician \u2014 Haymes Paint (Lucas, Victoria, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Haymes Paint",
+          "title": "Laboratory Technician",
+          "url": "https://www.linkedin.com/jobs/view/4445875670",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l461",
+      "text": "Dangerous Goods Chemist \u2014 Blackbook Recruitment (Ingleburn, New South Wales, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Blackbook Recruitment",
+          "title": "Dangerous Goods Chemist",
+          "url": "https://www.linkedin.com/jobs/view/4447376130",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l462",
+      "text": "QC Scientist - QC Physiochemistry & Raw Material \u2014 Thermo Fisher Scientific (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Thermo Fisher Scientific",
+          "title": "QC Scientist - QC Physiochemistry & Raw Material",
+          "url": "https://www.linkedin.com/jobs/view/4453505934",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l563",
+      "text": "\ud83c\udf10 Official AI Content Report 2026-06-06\n# Official AI Content Report 2026-06-06\n\n> Today's update | New content: 39 articles | Generated: 2026-06-06 14:32 UTC\n\nSources:\n- Anthropic: [anthropic.com](https://www.anthropic.com) \u2014 25 new articles (sitemap total: 374)\n- OpenAI: [openai.com](https://openai.com) \u2014 14 new articles (sitemap total:\nThe pattern that usually hurts here is not the first failure. It's the quiet retry loop after the first failure, when the system still can't prove anything cha\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83c\udf10 Official AI Content Report 2026-06-06\n# Official AI Content Report 2026-06-06\n\u2026",
+          "url": "https://github.com/leisure3318/agents-radar/issues/18",
+          "date": "2026-06-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A\u2026",
+          "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history\n&#32; submitted by &#32; /u/xuvayerpro101 &#32; to &#32; r/aiecosystem [link] &#32; [comments]\nWhy are we okay with this? Why are any of us okay with this? Hey Siri make me a picture of my cat riding a dolphin into the sunset. People out here still believin\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "url": "https://www.reddit.com/r/aiecosystem/comments/1w00i5d/bill_gates_warns_ai_will_soon_achieve_human/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/chillinewman &#32; to &#32; r/ControlProblem [link] &#32; [comments]\nTech billionaires: Why do people not like data centers? Also tech billionaires: Best case scenario you are all unemployed in a permanent underclass, worst case\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "url": "https://www.reddit.com/r/ControlProblem/comments/1vzy4do/bill_gates_warns_ai_will_soon_achieve_human/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]\nHow so? Are you talking about LLM hype? Or what is the revolution part? That it's not real business model? (if you have time to spend che\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks \u2026",
+          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_\u00e0_special/",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a Myth? - Steven Pinker\nProfessor Steven Pinker, one of the world\u2019s most influential cognitive psychologists and public intellectuals, joins the podcast for a profound conversation about artificial intelligence, human consciousness, and the enduring power of Enlightenment values.\n\nFilmed at Harvard \n\nIn an era dominated by apocalyptic headlines, rapid technological disruption, and rising tribalism, Pinker dismantles mode\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a My\u2026",
+          "url": "https://www.youtube.com/watch?v=eWC47agaKpk",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "Transcribed: Jacob Berlin on why chemistry is the last frontier for AI drug discovery\nJacob Berlin spent years perfecting a microarray chip the size of a fingernail before he thought about starting a company. Now, as cofounder and CEO of Terray Therapeutics, he's using that hardware to generate chemistry data at a scale the industry has never seen, and arguing that models without proprietary data aren't a moat at all.\n\nJacob joined Benchling CEO Sajith Wickramasekara to talk about why small mole\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Transcribed: Jacob Berlin on why chemistry is the last frontier for AI drug disc\u2026",
+          "url": "https://www.youtube.com/watch?v=KqvjK1p8e8M",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1143,14 +1521,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Chemists",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/19-2031/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Chemists",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/19-2031/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "19-2031",
+        "query": "Chemists",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1165,9 +1554,24 @@
           "youtube": 2
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 8,
+        "sources": {
+          "github": 3,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 11,
+          "x": 10,
+          "youtube": 2
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
