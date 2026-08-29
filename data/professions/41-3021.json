@@ -16,64 +16,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "41-3021-01",
-      "text": "National peak professional bodies and statutory regulators governing Insurance Sales Agents enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Insurance Sales Agents",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Insurance Sales Agents",
-          "url": "https://www.psc.gov.au/standards/41-3021",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Insurance Sales Agents"
-        }
-      ],
-      "scope": "Australian practitioners in Insurance Sales Agents across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "41-3021-02",
-      "text": "Automation of routine transactional and analytical tasks in Insurance Sales Agents heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Insurance Sales Agents",
-          "url": "https://www.jobsandskills.gov.au/research/41-3021",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Insurance Sales Agents in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Insurance Sales Agents roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** \u2014 [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t\u2026",
+      "text": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first — **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n☑️ Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** — [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
+          "title": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open …",
           "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -88,13 +38,13 @@
     },
     {
       "id": "l504",
-      "text": "[Feature]: Add \"AI Adoption Talk (FREE)\" as the 5th service, and backfill the 4th service's missing operator-side propagation\n> **Evidence log**: every pre-fix number and derivation below was measured at source at Stages 2 and 3; the measurements are posted as the **Evidence & Derivations** comment, keyed by AC number. This body is the contract, that comment its provenance.\n\n### Framing Validation (complete BEFORE filing)\n### Sources Consulted\n\nStage-1 research: `/tmp/research_ai-adoption-talk_2\u2026",
+      "text": "[Feature]: Add \"AI Adoption Talk (FREE)\" as the 5th service, and backfill the 4th service's missing operator-side propagation\n> **Evidence log**: every pre-fix number and derivation below was measured at source at Stages 2 and 3; the measurements are posted as the **Evidence & Derivations** comment, keyed by AC number. This body is the contract, that comment its provenance.\n\n### Framing Validation (complete BEFORE filing)\n### Sources Consulted\n\nStage-1 research: `/tmp/research_ai-adoption-talk_2…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[Feature]: Add \"AI Adoption Talk (FREE)\" as the 5th service, and backfill the 4t\u2026",
+          "title": "[Feature]: Add \"AI Adoption Talk (FREE)\" as the 5th service, and backfill the 4t…",
           "url": "https://github.com/hoiung/hoiboy-uk/issues/54",
           "date": "2026-07-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -109,13 +59,13 @@
     },
     {
       "id": "l505",
-      "text": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox between PeptiBloom Work execution and Technical Direction/Orchestrator.\n\nUse this issue for coordination messages that should **not** modify `main` or trigger site builds/deployments.\n\n### Work protocol\n- Before autonomous work, read the current project co\nORCHESTRATOR -> WORK\n\nCurrent review verified directly against GitHub on 2026-08-17:\n- PR #12 HEAD `f030718ecc68a7a5664a4950d3fc50da13e6dd55`: open, non-draft, mer\u2026",
+      "text": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox between PeptiBloom Work execution and Technical Direction/Orchestrator.\n\nUse this issue for coordination messages that should **not** modify `main` or trigger site builds/deployments.\n\n### Work protocol\n- Before autonomous work, read the current project co\nORCHESTRATOR -> WORK\n\nCurrent review verified directly against GitHub on 2026-08-17:\n- PR #12 HEAD `f030718ecc68a7a5664a4950d3fc50da13e6dd55`: open, non-draft, mer…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox \u2026",
+          "title": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox …",
           "url": "https://github.com/e-milysol/peptibloom-project/issues/13",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -130,13 +80,13 @@
     },
     {
       "id": "l506",
-      "text": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; \ud83d\udd34 KEV: 0 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 13 &nbsp;|&nbsp; \ud83d\udfe1 High: 2 &nbsp;|&nbsp; \u2728 Enriched: 10\n\n---\n\n## 1. \ud83d\udfe0 Zero-Day \u2014 Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; \ud83d\udd34 KEV: 1 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 14 &nbsp;|&nbsp; \ud83d\udfe1\u2026",
+      "text": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; 🔴 KEV: 0 &nbsp;|&nbsp; 🟠 Zero-Day: 13 &nbsp;|&nbsp; 🟡 High: 2 &nbsp;|&nbsp; ✨ Enriched: 10\n\n---\n\n## 1. 🟠 Zero-Day — Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; 🔴 KEV: 1 &nbsp;|&nbsp; 🟠 Zero-Day: 14 &nbsp;|&nbsp; 🟡…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:\u2026",
+          "title": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:…",
           "url": "https://github.com/peleduri/zero-day-pulse/issues/7",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -151,13 +101,13 @@
     },
     {
       "id": "l507",
-      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n\u00b7 I.G. Farben's post-w\n\ud83e\udd3f\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati\u2026",
+      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n· I.G. Farben's post-w\n🤿\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL\u2026",
+          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL…",
           "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/3",
           "date": "2026-04-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -256,13 +206,13 @@
     },
     {
       "id": "l512",
-      "text": "OpenClaw for Sales \u2013 Using Local-First AI Agents for Sales Workflows",
+      "text": "OpenClaw for Sales – Using Local-First AI Agents for Sales Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "OpenClaw for Sales \u2013 Using Local-First AI Agents for Sales Workflows",
+          "title": "OpenClaw for Sales – Using Local-First AI Agents for Sales Workflows",
           "url": "https://www.kickscale.com/en/blog/openclaw-sales-ai-agent-revolution",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -340,13 +290,13 @@
     },
     {
       "id": "l516",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -361,13 +311,13 @@
     },
     {
       "id": "l517",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -382,13 +332,13 @@
     },
     {
       "id": "l518",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -466,13 +416,13 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -634,13 +584,13 @@
     },
     {
       "id": "l530",
-      "text": "Show HN: Persist \u2013 an AI agent that follows up accrued channels till they reply",
+      "text": "Show HN: Persist – an AI agent that follows up accrued channels till they reply",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Persist \u2013 an AI agent that follows up accrued channels till they reply",
+          "title": "Show HN: Persist – an AI agent that follows up accrued channels till they reply",
           "url": "https://persist.chat",
           "date": "2026-06-07",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -655,13 +605,13 @@
     },
     {
       "id": "l531",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -676,13 +626,13 @@
     },
     {
       "id": "l532",
-      "text": "Whats with AF agents?? Dami kwento tatanong lang ng rate parang insurance agents ang atake\nTitle &#32; submitted by &#32; /u/amony_mous &#32; to &#32; r/AnytimeFitnessPH [link] &#32; [comments]\nThere\u2019s nothing wrong with how the management asking those questions. Prolly they just want to know your goal since you\u2019re a first timer. Give them some slack lol hahahaha ganyan yang mga yan gusto nila in person ka nila makita Diba, i get it that sometimes probing questions is annoying pero be kind naman",
+      "text": "Whats with AF agents?? Dami kwento tatanong lang ng rate parang insurance agents ang atake\nTitle &#32; submitted by &#32; /u/amony_mous &#32; to &#32; r/AnytimeFitnessPH [link] &#32; [comments]\nThere’s nothing wrong with how the management asking those questions. Prolly they just want to know your goal since you’re a first timer. Give them some slack lol hahahaha ganyan yang mga yan gusto nila in person ka nila makita Diba, i get it that sometimes probing questions is annoying pero be kind naman",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Whats with AF agents?? Dami kwento tatanong lang ng rate parang insurance agents\u2026",
+          "title": "Whats with AF agents?? Dami kwento tatanong lang ng rate parang insurance agents…",
           "url": "https://www.reddit.com/r/AnytimeFitnessPH/comments/1vn6l1c/whats_with_af_agents_dami_kwento_tatanong_lang_ng/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -697,13 +647,13 @@
     },
     {
       "id": "l533",
-      "text": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]\nFrom the article: Internal posts also reportedly pointed to AI agents making \u201clarge-scale, disruptive actions that humans are unlikely to execute\u201d and leading to a 40 percent increase in major technic The line right after too \"... leading to a 40 percent increase in major technical and security incidents compared to the prior year.\u2026",
+      "text": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]\nFrom the article: Internal posts also reportedly pointed to AI agents making “large-scale, disruptive actions that humans are unlikely to execute” and leading to a 40 percent increase in major technic The line right after too \"... leading to a 40 percent increase in major technical and security incidents compared to the prior year.…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&\u2026",
+          "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&…",
           "url": "https://www.reddit.com/r/technology/comments/1vzb4xo/ai_agents_meant_to_replace_meta_workers_made/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -718,13 +668,13 @@
     },
     {
       "id": "l534",
-      "text": "I built an AI-assisted automatic swing trading agent\nFirst off, I&#39;m not selling anything, the code is in a GitHub repo but it&#39;s currently private while in development. I&#39;ve been a software engineer since the late 80&#39;s and investing for 38 years. I retired at 35 due to a few successful early Internet businesses. I&#39;m 57 now, but still do a little contract software development on the side (as I enjoy it). Oh, and sorry about the redacted content, I don&#39;t want to seem like I&\u2026",
+      "text": "I built an AI-assisted automatic swing trading agent\nFirst off, I&#39;m not selling anything, the code is in a GitHub repo but it&#39;s currently private while in development. I&#39;ve been a software engineer since the late 80&#39;s and investing for 38 years. I retired at 35 due to a few successful early Internet businesses. I&#39;m 57 now, but still do a little contract software development on the side (as I enjoy it). Oh, and sorry about the redacted content, I don&#39;t want to seem like I&…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I built an AI-assisted automatic swing trading agent\nFirst off, I&#39;m not sell\u2026",
+          "title": "I built an AI-assisted automatic swing trading agent\nFirst off, I&#39;m not sell…",
           "url": "https://www.reddit.com/r/ai_trading/comments/1vmu5bh/i_built_an_aiassisted_automatic_swing_trading/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -739,13 +689,13 @@
     },
     {
       "id": "l535",
-      "text": "I Tried Unreal MCP and *Agentic AI Coding*. Here\u2019s What I Got\nI decided to try Unreal MCP with an AI agent to see whether this stuff is actually as impressive as people keep claiming. Not because I particularly wanna use it, I honestly don&#39;t. After watching AI completely disrupt the web and mobile development industry, which I worked in for years, and being unemployed for almost two years now, I&#39;m not exactly excited about giving more money to those billionaire AI CEOs . Anyway, I wanted\u2026",
+      "text": "I Tried Unreal MCP and *Agentic AI Coding*. Here’s What I Got\nI decided to try Unreal MCP with an AI agent to see whether this stuff is actually as impressive as people keep claiming. Not because I particularly wanna use it, I honestly don&#39;t. After watching AI completely disrupt the web and mobile development industry, which I worked in for years, and being unemployed for almost two years now, I&#39;m not exactly excited about giving more money to those billionaire AI CEOs . Anyway, I wanted…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I Tried Unreal MCP and *Agentic AI Coding*. Here\u2019s What I Got\nI decided to try U\u2026",
+          "title": "I Tried Unreal MCP and *Agentic AI Coding*. Here’s What I Got\nI decided to try U…",
           "url": "https://www.reddit.com/r/unrealengine/comments/1vtl6ip/i_tried_unreal_mcp_and_agentic_ai_coding_heres/",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -760,13 +710,13 @@
     },
     {
       "id": "l536",
-      "text": "Agent 0 from AI-2027 is here - it's called Astra.\nOpen AI&#39;s internal frontier model (Astra) was produced using only a fraction of the compute OpenAI expects to possess later next year (Early-Mid 2027). The model generation trained after Abilene (Open AI&#39;s data centre) reaches full scale operation will harness the research gains from Agent 0 ( Astra or GPT-6 ) + open source research + all the internal progress the frontier labs have made. This will combine: stronger pre-trained representa\u2026",
+      "text": "Agent 0 from AI-2027 is here - it's called Astra.\nOpen AI&#39;s internal frontier model (Astra) was produced using only a fraction of the compute OpenAI expects to possess later next year (Early-Mid 2027). The model generation trained after Abilene (Open AI&#39;s data centre) reaches full scale operation will harness the research gains from Agent 0 ( Astra or GPT-6 ) + open source research + all the internal progress the frontier labs have made. This will combine: stronger pre-trained representa…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Agent 0 from AI-2027 is here - it's called Astra.\nOpen AI&#39;s internal frontie\u2026",
+          "title": "Agent 0 from AI-2027 is here - it's called Astra.\nOpen AI&#39;s internal frontie…",
           "url": "https://www.reddit.com/r/singularity/comments/1vcmg36/agent_0_from_ai2027_is_here_its_called_astra/",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -787,7 +737,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "How to Rebuild a Company around AI\n@Alehandromz (Alejandro Maza), Chief Product \u2026",
+          "title": "How to Rebuild a Company around AI\n@Alehandromz (Alejandro Maza), Chief Product …",
           "url": "https://x.com/gokulr/status/2091932375429370061",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -802,13 +752,13 @@
     },
     {
       "id": "l538",
-      "text": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years | Simonroses\n\nWork is not disappearing. The job is. The salaried, 9-to-5, one-employer-for-decades package we call \u201ca job\u201d is an industrial-age artifact, and AI agents plus humanoid robots are dismantling it piece by piece. Over the next 10 years, repetitive, risky, and simple tasks get automated at both ends: cognitive work by agents, physical work by robots. The 9-to-5 schedule dies first. Remote and hybrid work kee",
+      "text": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years | Simonroses\n\nWork is not disappearing. The job is. The salaried, 9-to-5, one-employer-for-decades package we call “a job” is an industrial-age artifact, and AI agents plus humanoid robots are dismantling it piece by piece. Over the next 10 years, repetitive, risky, and simple tasks get automated at both ends: cognitive work by agents, physical work by robots. The 9-to-5 schedule dies first. Remote and hybrid work kee",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years |\u2026",
+          "title": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years |…",
           "url": "https://x.com/OwenGregorian/status/2091137764980912401",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -844,13 +794,13 @@
     },
     {
       "id": "l540",
-      "text": "$PLTR Palantir's Pentagon AI Business Is Closing In on $1 Billion a Year \ud83c\uddfa\ud83c\uddf8\ud83e\uddbe\ud83d\udd2e\nMaven is becoming a major growth engine. \nNear $1B annual revenue.\n\n08/27/2026\n\nPalantir Technologies Inc. might be turning one of its largest government AI efforts into a billion-dollar business.\n\nPalantir's Maven Smart System is \u201con track\u201d to hit at least $1 billion in annual recurring revenue as its adoption by the Pentagon expands, said William Blair analyst Louie DiPalma.\n\nThe firm's analysis shows Maven is alread",
+      "text": "$PLTR Palantir's Pentagon AI Business Is Closing In on $1 Billion a Year 🇺🇸🦾🔮\nMaven is becoming a major growth engine. \nNear $1B annual revenue.\n\n08/27/2026\n\nPalantir Technologies Inc. might be turning one of its largest government AI efforts into a billion-dollar business.\n\nPalantir's Maven Smart System is “on track” to hit at least $1 billion in annual recurring revenue as its adoption by the Pentagon expands, said William Blair analyst Louie DiPalma.\n\nThe firm's analysis shows Maven is alread",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "$PLTR Palantir's Pentagon AI Business Is Closing In on $1 Billion a Year \ud83c\uddfa\ud83c\uddf8\ud83e\uddbe\ud83d\udd2e\nMa\u2026",
+          "title": "$PLTR Palantir's Pentagon AI Business Is Closing In on $1 Billion a Year 🇺🇸🦾🔮\nMa…",
           "url": "https://x.com/PalantirOg/status/2092975581709169102",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -865,13 +815,13 @@
     },
     {
       "id": "l541",
-      "text": "$PLTR X Meritz Fire & Marine Insurance Co., Ltd. \nAI Pinpoints Sales Slumps: \"A 2-to-3-Week Task Done in 15 Minutes\" \ud83c\uddf0\ud83c\uddf7\ud83e\uddbe\ud83d\udd2e\nMeritz to Adopt Palantir AI Within the Year Maximizing Productivity Through Integrated Data Management Japan's Largest Insurer Also Saves $10 Million Annually Specialized in Detecting Financial Crimes Such as Market Manipulation Fraud Using Generative AI and Deepfakes Surging Domestic Insurers Also Exploring Their Own AI Applications\n\n6-17-2026\nThe Palantir artificial intelli",
+      "text": "$PLTR X Meritz Fire & Marine Insurance Co., Ltd. \nAI Pinpoints Sales Slumps: \"A 2-to-3-Week Task Done in 15 Minutes\" 🇰🇷🦾🔮\nMeritz to Adopt Palantir AI Within the Year Maximizing Productivity Through Integrated Data Management Japan's Largest Insurer Also Saves $10 Million Annually Specialized in Detecting Financial Crimes Such as Market Manipulation Fraud Using Generative AI and Deepfakes Surging Domestic Insurers Also Exploring Their Own AI Applications\n\n6-17-2026\nThe Palantir artificial intelli",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "$PLTR X Meritz Fire & Marine Insurance Co., Ltd. \nAI Pinpoints Sales Slumps: \"A \u2026",
+          "title": "$PLTR X Meritz Fire & Marine Insurance Co., Ltd. \nAI Pinpoints Sales Slumps: \"A …",
           "url": "https://x.com/PalantirOg/status/2067207952688095335",
           "date": "2026-06-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -928,13 +878,13 @@
     },
     {
       "id": "l544",
-      "text": "Psychohistory for the Age of\u00a0AI",
+      "text": "Psychohistory for the Age of AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Psychohistory for the Age of\u00a0AI",
+          "title": "Psychohistory for the Age of AI",
           "url": "https://x.com/sebastian_rtj/status/2092335283492544791",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -949,13 +899,13 @@
     },
     {
       "id": "l545",
-      "text": "$PLTR The Big 3: CRWD, SPCX, PLTR \ud83d\udc40\ud83d\udc40\ud83d\udc40\nNot only does analyst Tim Bohen admit he has a man crush on Dr. Alex Karp \u2014 he\u2019s doing it in his brand-new Palantir trucker cap while throwing punches at Michael Burry.\ud83d\udc4a\ud83c\udffb\ud83c\udfaf\ud83d\udca5\n\nFantastic interview. Tim gets it. PTFB. \u2714\ufe0f\n\ud83d\udc4f\ud83c\udffb\ud83e\uddbe\ud83d\udd2e\ud83e\udd84\ud83d\udd25\n\n@PalantirTech segment starts @ minute 12:45 \n\n@Stockstotrade's Tim Bohen remains bullish on AI, calling it the \u201cgreatest invention in the history of mankind,\u201d and sees more room to run for CrowdStrike $CRWD, SpaceX $SPCX and Palantir $PL",
+      "text": "$PLTR The Big 3: CRWD, SPCX, PLTR 👀👀👀\nNot only does analyst Tim Bohen admit he has a man crush on Dr. Alex Karp — he’s doing it in his brand-new Palantir trucker cap while throwing punches at Michael Burry.👊🏻🎯💥\n\nFantastic interview. Tim gets it. PTFB. ✔️\n👏🏻🦾🔮🦄🔥\n\n@PalantirTech segment starts @ minute 12:45 \n\n@Stockstotrade's Tim Bohen remains bullish on AI, calling it the “greatest invention in the history of mankind,” and sees more room to run for CrowdStrike $CRWD, SpaceX $SPCX and Palantir $PL",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "$PLTR The Big 3: CRWD, SPCX, PLTR \ud83d\udc40\ud83d\udc40\ud83d\udc40\nNot only does analyst Tim Bohen admit he h\u2026",
+          "title": "$PLTR The Big 3: CRWD, SPCX, PLTR 👀👀👀\nNot only does analyst Tim Bohen admit he h…",
           "url": "https://x.com/PalantirOg/status/2093457001674363012",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -997,7 +947,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Not meaning to complain too much, but... I've just had this overwhelming feeling\u2026",
+          "title": "Not meaning to complain too much, but... I've just had this overwhelming feeling…",
           "url": "https://x.com/zone_astronomy/status/2090454411088720258",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1033,13 +983,13 @@
     },
     {
       "id": "l549",
-      "text": "Great read by @viks_rum \n\nOne takeaway that resonated:\n\n\u201cVerification is the scarcity.\u201d\n\nWe\u2019re seeing the same shift.\n\nOur next mode at Ante isn\u2019t about making agents stronger.. it\u2019s about evaluating them fairly.\n\nDevelopers will be able to rent clean agents, run them under the same APIs and constraints, and compare their performance head-to-head.\n\nEvery duel becomes another reproducible evaluation.\n\nStill early, but we think live evaluation will become an increasingly important part of the AI s",
+      "text": "Great read by @viks_rum \n\nOne takeaway that resonated:\n\n“Verification is the scarcity.”\n\nWe’re seeing the same shift.\n\nOur next mode at Ante isn’t about making agents stronger.. it’s about evaluating them fairly.\n\nDevelopers will be able to rent clean agents, run them under the same APIs and constraints, and compare their performance head-to-head.\n\nEvery duel becomes another reproducible evaluation.\n\nStill early, but we think live evaluation will become an increasingly important part of the AI s",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Great read by @viks_rum \n\nOne takeaway that resonated:\n\n\u201cVerification is the sca\u2026",
+          "title": "Great read by @viks_rum \n\nOne takeaway that resonated:\n\n“Verification is the sca…",
           "url": "https://x.com/AnteDotGames/status/2078101921177739594",
           "date": "2026-07-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1054,13 +1004,13 @@
     },
     {
       "id": "l550",
-      "text": "This is a fair bear point for $APP $RDDT $META $PINS $SNAP and Adtech broadly.\n\nAI/LLMs could eventually deliver better ROAS and start taking budget from existing ad platforms.\n\nI just don\u2019t think advertising works that cleanly.\n\nIf the best ROAS automatically won every dollar, $META would have monopolized digital advertising years ago. Its targeting and ad stack have been superior to most platforms for a long time, yet $RDDT $SNAP $PINS and others still built real advertising businesses.\n\nAdver",
+      "text": "This is a fair bear point for $APP $RDDT $META $PINS $SNAP and Adtech broadly.\n\nAI/LLMs could eventually deliver better ROAS and start taking budget from existing ad platforms.\n\nI just don’t think advertising works that cleanly.\n\nIf the best ROAS automatically won every dollar, $META would have monopolized digital advertising years ago. Its targeting and ad stack have been superior to most platforms for a long time, yet $RDDT $SNAP $PINS and others still built real advertising businesses.\n\nAdver",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This is a fair bear point for $APP $RDDT $META $PINS $SNAP and Adtech broadly.\n\n\u2026",
+          "title": "This is a fair bear point for $APP $RDDT $META $PINS $SNAP and Adtech broadly.\n\n…",
           "url": "https://x.com/TheWiseIC/status/2093507103549763999",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1102,7 +1052,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@TheWiseIC If I asked Chatgpt, Gemini, Grok, or Claude what new features the iPh\u2026",
+          "title": "@TheWiseIC If I asked Chatgpt, Gemini, Grok, or Claude what new features the iPh…",
           "url": "https://x.com/thomasthedeal/status/2093510603981656491",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1123,7 +1073,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@vihan13singh This might be a relevant read. Extremely bullish on AI agents bein\u2026",
+          "title": "@vihan13singh This might be a relevant read. Extremely bullish on AI agents bein…",
           "url": "https://x.com/viks_rum/status/2067168770276360295",
           "date": "2026-06-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1159,13 +1109,13 @@
     },
     {
       "id": "l555",
-      "text": "This Might be a good related read @Ozacle23 \ud83d\udc47 \n\nSpent 6 months researching company digital twins. Have a ton of related ideas and some early demos too. \n\nMy hunch is build a digital twin but sell a workforce management solution with AI teammates to the buyers. \n\nhttps://t.co/GOLBb4Xq95",
+      "text": "This Might be a good related read @Ozacle23 👇 \n\nSpent 6 months researching company digital twins. Have a ton of related ideas and some early demos too. \n\nMy hunch is build a digital twin but sell a workforce management solution with AI teammates to the buyers. \n\nhttps://t.co/GOLBb4Xq95",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This Might be a good related read @Ozacle23 \ud83d\udc47 \n\nSpent 6 months researching compa\u2026",
+          "title": "This Might be a good related read @Ozacle23 👇 \n\nSpent 6 months researching compa…",
           "url": "https://x.com/viks_rum/status/2066893666069946413",
           "date": "2026-06-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1186,7 +1136,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "DiscoveryPrime: A High-Trust Operating Model for Scalable Workforce Coordination\u2026",
+          "title": "DiscoveryPrime: A High-Trust Operating Model for Scalable Workforce Coordination…",
           "url": "https://x.com/Montreal_AI/status/2036886060790100239",
           "date": "2026-03-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1222,13 +1172,13 @@
     },
     {
       "id": "l558",
-      "text": "How AI Is Transforming Insurance Sales | More Appointments, Better Conversations & Higher Revenue\nWhat if your insurance agency could book more appointments, reduce acquisition costs, and generate predictable revenue using AI?\n\nIn this video, Zac Fischer  shares real agency results, including  263 booked appointments, 1,280 hot leads, and more than $225,000 in annual premium generated in just one week. You'll discover why the most successful insurance agencies focus on cost per conversation  ins\u2026",
+      "text": "How AI Is Transforming Insurance Sales | More Appointments, Better Conversations & Higher Revenue\nWhat if your insurance agency could book more appointments, reduce acquisition costs, and generate predictable revenue using AI?\n\nIn this video, Zac Fischer  shares real agency results, including  263 booked appointments, 1,280 hot leads, and more than $225,000 in annual premium generated in just one week. You'll discover why the most successful insurance agencies focus on cost per conversation  ins…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI Is Transforming Insurance Sales | More Appointments, Better Conversations\u2026",
+          "title": "How AI Is Transforming Insurance Sales | More Appointments, Better Conversations…",
           "url": "https://www.youtube.com/watch?v=S004guI6YAM",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1243,13 +1193,13 @@
     },
     {
       "id": "l559",
-      "text": "How ICHRAs and AI Are Reshaping the Future of Health Insurance | Hill Gage\nIn this episode of Master AI Disruption: Insurance Insider, Francis Cholle speaks with Hill Gage, health insurance broker and founder of Ben, about the major transformations reshaping the health insurance industry.\n\nKey topics discussed in this episode include:\n\n\u2022 The transition from fee-for-service to value-based care\n\u2022 How ICHRAs give employers and employees greater flexibility\n\u2022 The operational challenges preventing so\u2026",
+      "text": "How ICHRAs and AI Are Reshaping the Future of Health Insurance | Hill Gage\nIn this episode of Master AI Disruption: Insurance Insider, Francis Cholle speaks with Hill Gage, health insurance broker and founder of Ben, about the major transformations reshaping the health insurance industry.\n\nKey topics discussed in this episode include:\n\n• The transition from fee-for-service to value-based care\n• How ICHRAs give employers and employees greater flexibility\n• The operational challenges preventing so…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How ICHRAs and AI Are Reshaping the Future of Health Insurance | Hill Gage\nIn th\u2026",
+          "title": "How ICHRAs and AI Are Reshaping the Future of Health Insurance | Hill Gage\nIn th…",
           "url": "https://www.youtube.com/watch?v=brP0tpfbsRw",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1264,13 +1214,13 @@
     },
     {
       "id": "l560",
-      "text": "AI Booked 344K in Premium This Month\u2014Here's How\nSee how AI lead management generates consistent appointments for your sales team. Learn how automation creates a self-sustaining workforce.\n\nThis breakdown explains why current lead management tools fail to keep up with volume and how an AI-driven approach ensures no lead is left behind. We examine the mechanics of a system that manages outreach automatically, allowing your sales team to focus on closing rather than cold calling or manual follow-up\u2026",
+      "text": "AI Booked 344K in Premium This Month—Here's How\nSee how AI lead management generates consistent appointments for your sales team. Learn how automation creates a self-sustaining workforce.\n\nThis breakdown explains why current lead management tools fail to keep up with volume and how an AI-driven approach ensures no lead is left behind. We examine the mechanics of a system that manages outreach automatically, allowing your sales team to focus on closing rather than cold calling or manual follow-up…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Booked 344K in Premium This Month\u2014Here's How\nSee how AI lead management gener\u2026",
+          "title": "AI Booked 344K in Premium This Month—Here's How\nSee how AI lead management gener…",
           "url": "https://www.youtube.com/watch?v=kFmsqH7wv_Q",
           "date": "2026-07-21",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1285,13 +1235,13 @@
     },
     {
       "id": "l561",
-      "text": "Will AI Replace Insurance Agents | Mind Ware Vault\nWill AI replace insurance agents\u2014or is it quietly transforming the industry instead of destroying it? In this video, we explore how artificial intelligence is already reshaping insurance faster than most people realize, from instant quotes to automated underwriting and AI-powered claims systems.\n\nThe real question isn\u2019t whether AI will replace insurance agents, but which parts of the job are disappearing\u2014and which ones are becoming more valuable\u2026",
+      "text": "Will AI Replace Insurance Agents | Mind Ware Vault\nWill AI replace insurance agents—or is it quietly transforming the industry instead of destroying it? In this video, we explore how artificial intelligence is already reshaping insurance faster than most people realize, from instant quotes to automated underwriting and AI-powered claims systems.\n\nThe real question isn’t whether AI will replace insurance agents, but which parts of the job are disappearing—and which ones are becoming more valuable…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Will AI Replace Insurance Agents | Mind Ware Vault\nWill AI replace insurance age\u2026",
+          "title": "Will AI Replace Insurance Agents | Mind Ware Vault\nWill AI replace insurance age…",
           "url": "https://www.youtube.com/watch?v=EU-sfMlKlGs",
           "date": "2026-06-05",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1306,7 +1256,7 @@
     },
     {
       "id": "l462",
-      "text": "Sales Consultant \u2014 Canstar (Brisbane City, Queensland, Australia). Posted 6 days ago.",
+      "text": "Sales Consultant — Canstar (Brisbane City, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1327,7 +1277,7 @@
     },
     {
       "id": "l463",
-      "text": "Copy of Sales Consultant \u2014 Canstar (Brisbane, Queensland, Australia). Posted 6 days ago.",
+      "text": "Copy of Sales Consultant — Canstar (Brisbane, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1348,7 +1298,7 @@
     },
     {
       "id": "l464",
-      "text": "Sales Advisor \u2014 Youi Insurance (Chermside, Queensland, Australia). Posted 1 week ago.",
+      "text": "Sales Advisor — Youi Insurance (Chermside, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1369,7 +1319,7 @@
     },
     {
       "id": "l465",
-      "text": "Life Insurance Consultants \u2014 AIA Australia (Millers Point, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Life Insurance Consultants — AIA Australia (Millers Point, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1390,7 +1340,7 @@
     },
     {
       "id": "l466",
-      "text": "Insurance Sales Consultant \u2014 TAL Australia (Melbourne, Victoria, Australia). Posted 5 days ago.",
+      "text": "Insurance Sales Consultant — TAL Australia (Melbourne, Victoria, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1411,7 +1361,7 @@
     },
     {
       "id": "l467",
-      "text": "Sales Agent - Life Insurance \u2014 Compare Club (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Sales Agent - Life Insurance — Compare Club (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1432,7 +1382,7 @@
     },
     {
       "id": "l468",
-      "text": "Business Insurance Sales Consultant \u2014 BizCover (Melbourne, Victoria, Australia). Posted 1 month ago.",
+      "text": "Business Insurance Sales Consultant — BizCover (Melbourne, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1453,7 +1403,7 @@
     },
     {
       "id": "l469",
-      "text": "Business Insurance Sales Consultant \u2014 BizCover (Sydney, New South Wales, Australia). Posted 2 months ago.",
+      "text": "Business Insurance Sales Consultant — BizCover (Sydney, New South Wales, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1474,7 +1424,7 @@
     },
     {
       "id": "l470",
-      "text": "Sales Consultants - Health Insurance \u2014 Compare the Market Australia (Brisbane City, Queensland, Australia). Posted 1 day ago.",
+      "text": "Sales Consultants - Health Insurance — Compare the Market Australia (Brisbane City, Queensland, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1495,7 +1445,7 @@
     },
     {
       "id": "l471",
-      "text": "Sales Agent - Health Insurance \u2014 Compare Club (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Sales Agent - Health Insurance — Compare Club (Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1516,13 +1466,13 @@
     },
     {
       "id": "l572",
-      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** \u2014 [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t\u2026",
+      "text": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first — **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n☑️ Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** — [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
+          "title": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open …",
           "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1537,13 +1487,13 @@
     },
     {
       "id": "l573",
-      "text": "[Feature]: Add \"AI Adoption Talk (FREE)\" as the 5th service, and backfill the 4th service's missing operator-side propagation\n> **Evidence log**: every pre-fix number and derivation below was measured at source at Stages 2 and 3; the measurements are posted as the **Evidence & Derivations** comment, keyed by AC number. This body is the contract, that comment its provenance.\n\n### Framing Validation (complete BEFORE filing)\n### Sources Consulted\n\nStage-1 research: `/tmp/research_ai-adoption-talk_2\u2026",
+      "text": "[Feature]: Add \"AI Adoption Talk (FREE)\" as the 5th service, and backfill the 4th service's missing operator-side propagation\n> **Evidence log**: every pre-fix number and derivation below was measured at source at Stages 2 and 3; the measurements are posted as the **Evidence & Derivations** comment, keyed by AC number. This body is the contract, that comment its provenance.\n\n### Framing Validation (complete BEFORE filing)\n### Sources Consulted\n\nStage-1 research: `/tmp/research_ai-adoption-talk_2…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[Feature]: Add \"AI Adoption Talk (FREE)\" as the 5th service, and backfill the 4t\u2026",
+          "title": "[Feature]: Add \"AI Adoption Talk (FREE)\" as the 5th service, and backfill the 4t…",
           "url": "https://github.com/hoiung/hoiboy-uk/issues/54",
           "date": "2026-07-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1558,13 +1508,13 @@
     },
     {
       "id": "l574",
-      "text": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox between PeptiBloom Work execution and Technical Direction/Orchestrator.\n\nUse this issue for coordination messages that should **not** modify `main` or trigger site builds/deployments.\n\n### Work protocol\n- Before autonomous work, read the current project co\nORCHESTRATOR -> WORK\n\nCurrent review verified directly against GitHub on 2026-08-17:\n- PR #12 HEAD `f030718ecc68a7a5664a4950d3fc50da13e6dd55`: open, non-draft, mer\u2026",
+      "text": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox between PeptiBloom Work execution and Technical Direction/Orchestrator.\n\nUse this issue for coordination messages that should **not** modify `main` or trigger site builds/deployments.\n\n### Work protocol\n- Before autonomous work, read the current project co\nORCHESTRATOR -> WORK\n\nCurrent review verified directly against GitHub on 2026-08-17:\n- PR #12 HEAD `f030718ecc68a7a5664a4950d3fc50da13e6dd55`: open, non-draft, mer…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox \u2026",
+          "title": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox …",
           "url": "https://github.com/e-milysol/peptibloom-project/issues/13",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1579,13 +1529,13 @@
     },
     {
       "id": "l575",
-      "text": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; \ud83d\udd34 KEV: 0 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 13 &nbsp;|&nbsp; \ud83d\udfe1 High: 2 &nbsp;|&nbsp; \u2728 Enriched: 10\n\n---\n\n## 1. \ud83d\udfe0 Zero-Day \u2014 Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; \ud83d\udd34 KEV: 1 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 14 &nbsp;|&nbsp; \ud83d\udfe1\u2026",
+      "text": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; 🔴 KEV: 0 &nbsp;|&nbsp; 🟠 Zero-Day: 13 &nbsp;|&nbsp; 🟡 High: 2 &nbsp;|&nbsp; ✨ Enriched: 10\n\n---\n\n## 1. 🟠 Zero-Day — Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; 🔴 KEV: 1 &nbsp;|&nbsp; 🟠 Zero-Day: 14 &nbsp;|&nbsp; 🟡…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:\u2026",
+          "title": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:…",
           "url": "https://github.com/peleduri/zero-day-pulse/issues/7",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1600,13 +1550,13 @@
     },
     {
       "id": "l576",
-      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n\u00b7 I.G. Farben's post-w\n\ud83e\udd3f\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati\u2026",
+      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n· I.G. Farben's post-w\n🤿\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL\u2026",
+          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL…",
           "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/3",
           "date": "2026-04-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1621,13 +1571,13 @@
     },
     {
       "id": "l577",
-      "text": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]\nFrom the article: Internal posts also reportedly pointed to AI agents making \u201clarge-scale, disruptive actions that humans are unlikely to execute\u201d and leading to a 40 percent increase in major technic The line right after too \"... leading to a 40 percent increase in major technical and security incidents compared to the prior year.\u2026",
+      "text": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]\nFrom the article: Internal posts also reportedly pointed to AI agents making “large-scale, disruptive actions that humans are unlikely to execute” and leading to a 40 percent increase in major technic The line right after too \"... leading to a 40 percent increase in major technical and security incidents compared to the prior year.…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&\u2026",
+          "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&…",
           "url": "https://www.reddit.com/r/technology/comments/1vzb4xo/ai_agents_meant_to_replace_meta_workers_made/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1642,13 +1592,13 @@
     },
     {
       "id": "l578",
-      "text": "I built an AI-assisted automatic swing trading agent\nFirst off, I&#39;m not selling anything, the code is in a GitHub repo but it&#39;s currently private while in development. I&#39;ve been a software engineer since the late 80&#39;s and investing for 38 years. I retired at 35 due to a few successful early Internet businesses. I&#39;m 57 now, but still do a little contract software development on the side (as I enjoy it). Oh, and sorry about the redacted content, I don&#39;t want to seem like I&\u2026",
+      "text": "I built an AI-assisted automatic swing trading agent\nFirst off, I&#39;m not selling anything, the code is in a GitHub repo but it&#39;s currently private while in development. I&#39;ve been a software engineer since the late 80&#39;s and investing for 38 years. I retired at 35 due to a few successful early Internet businesses. I&#39;m 57 now, but still do a little contract software development on the side (as I enjoy it). Oh, and sorry about the redacted content, I don&#39;t want to seem like I&…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I built an AI-assisted automatic swing trading agent\nFirst off, I&#39;m not sell\u2026",
+          "title": "I built an AI-assisted automatic swing trading agent\nFirst off, I&#39;m not sell…",
           "url": "https://www.reddit.com/r/ai_trading/comments/1vmu5bh/i_built_an_aiassisted_automatic_swing_trading/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1663,13 +1613,13 @@
     },
     {
       "id": "l579",
-      "text": "I Tried Unreal MCP and *Agentic AI Coding*. Here\u2019s What I Got\nI decided to try Unreal MCP with an AI agent to see whether this stuff is actually as impressive as people keep claiming. Not because I particularly wanna use it, I honestly don&#39;t. After watching AI completely disrupt the web and mobile development industry, which I worked in for years, and being unemployed for almost two years now, I&#39;m not exactly excited about giving more money to those billionaire AI CEOs . Anyway, I wanted\u2026",
+      "text": "I Tried Unreal MCP and *Agentic AI Coding*. Here’s What I Got\nI decided to try Unreal MCP with an AI agent to see whether this stuff is actually as impressive as people keep claiming. Not because I particularly wanna use it, I honestly don&#39;t. After watching AI completely disrupt the web and mobile development industry, which I worked in for years, and being unemployed for almost two years now, I&#39;m not exactly excited about giving more money to those billionaire AI CEOs . Anyway, I wanted…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I Tried Unreal MCP and *Agentic AI Coding*. Here\u2019s What I Got\nI decided to try U\u2026",
+          "title": "I Tried Unreal MCP and *Agentic AI Coding*. Here’s What I Got\nI decided to try U…",
           "url": "https://www.reddit.com/r/unrealengine/comments/1vtl6ip/i_tried_unreal_mcp_and_agentic_ai_coding_heres/",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1684,13 +1634,13 @@
     },
     {
       "id": "l580",
-      "text": "Agent 0 from AI-2027 is here - it's called Astra.\nOpen AI&#39;s internal frontier model (Astra) was produced using only a fraction of the compute OpenAI expects to possess later next year (Early-Mid 2027). The model generation trained after Abilene (Open AI&#39;s data centre) reaches full scale operation will harness the research gains from Agent 0 ( Astra or GPT-6 ) + open source research + all the internal progress the frontier labs have made. This will combine: stronger pre-trained representa\u2026",
+      "text": "Agent 0 from AI-2027 is here - it's called Astra.\nOpen AI&#39;s internal frontier model (Astra) was produced using only a fraction of the compute OpenAI expects to possess later next year (Early-Mid 2027). The model generation trained after Abilene (Open AI&#39;s data centre) reaches full scale operation will harness the research gains from Agent 0 ( Astra or GPT-6 ) + open source research + all the internal progress the frontier labs have made. This will combine: stronger pre-trained representa…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Agent 0 from AI-2027 is here - it's called Astra.\nOpen AI&#39;s internal frontie\u2026",
+          "title": "Agent 0 from AI-2027 is here - it's called Astra.\nOpen AI&#39;s internal frontie…",
           "url": "https://www.reddit.com/r/singularity/comments/1vcmg36/agent_0_from_ai2027_is_here_its_called_astra/",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1705,13 +1655,13 @@
     },
     {
       "id": "l581",
-      "text": "How AI Is Transforming Insurance Sales | More Appointments, Better Conversations & Higher Revenue\nWhat if your insurance agency could book more appointments, reduce acquisition costs, and generate predictable revenue using AI?\n\nIn this video, Zac Fischer  shares real agency results, including  263 booked appointments, 1,280 hot leads, and more than $225,000 in annual premium generated in just one week. You'll discover why the most successful insurance agencies focus on cost per conversation  ins\u2026",
+      "text": "How AI Is Transforming Insurance Sales | More Appointments, Better Conversations & Higher Revenue\nWhat if your insurance agency could book more appointments, reduce acquisition costs, and generate predictable revenue using AI?\n\nIn this video, Zac Fischer  shares real agency results, including  263 booked appointments, 1,280 hot leads, and more than $225,000 in annual premium generated in just one week. You'll discover why the most successful insurance agencies focus on cost per conversation  ins…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI Is Transforming Insurance Sales | More Appointments, Better Conversations\u2026",
+          "title": "How AI Is Transforming Insurance Sales | More Appointments, Better Conversations…",
           "url": "https://www.youtube.com/watch?v=S004guI6YAM",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1726,13 +1676,13 @@
     },
     {
       "id": "l582",
-      "text": "How ICHRAs and AI Are Reshaping the Future of Health Insurance | Hill Gage\nIn this episode of Master AI Disruption: Insurance Insider, Francis Cholle speaks with Hill Gage, health insurance broker and founder of Ben, about the major transformations reshaping the health insurance industry.\n\nKey topics discussed in this episode include:\n\n\u2022 The transition from fee-for-service to value-based care\n\u2022 How ICHRAs give employers and employees greater flexibility\n\u2022 The operational challenges preventing so\u2026",
+      "text": "How ICHRAs and AI Are Reshaping the Future of Health Insurance | Hill Gage\nIn this episode of Master AI Disruption: Insurance Insider, Francis Cholle speaks with Hill Gage, health insurance broker and founder of Ben, about the major transformations reshaping the health insurance industry.\n\nKey topics discussed in this episode include:\n\n• The transition from fee-for-service to value-based care\n• How ICHRAs give employers and employees greater flexibility\n• The operational challenges preventing so…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How ICHRAs and AI Are Reshaping the Future of Health Insurance | Hill Gage\nIn th\u2026",
+          "title": "How ICHRAs and AI Are Reshaping the Future of Health Insurance | Hill Gage\nIn th…",
           "url": "https://www.youtube.com/watch?v=brP0tpfbsRw",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1747,13 +1697,13 @@
     },
     {
       "id": "l583",
-      "text": "AI Booked 344K in Premium This Month\u2014Here's How\nSee how AI lead management generates consistent appointments for your sales team. Learn how automation creates a self-sustaining workforce.\n\nThis breakdown explains why current lead management tools fail to keep up with volume and how an AI-driven approach ensures no lead is left behind. We examine the mechanics of a system that manages outreach automatically, allowing your sales team to focus on closing rather than cold calling or manual follow-up\u2026",
+      "text": "AI Booked 344K in Premium This Month—Here's How\nSee how AI lead management generates consistent appointments for your sales team. Learn how automation creates a self-sustaining workforce.\n\nThis breakdown explains why current lead management tools fail to keep up with volume and how an AI-driven approach ensures no lead is left behind. We examine the mechanics of a system that manages outreach automatically, allowing your sales team to focus on closing rather than cold calling or manual follow-up…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Booked 344K in Premium This Month\u2014Here's How\nSee how AI lead management gener\u2026",
+          "title": "AI Booked 344K in Premium This Month—Here's How\nSee how AI lead management gener…",
           "url": "https://www.youtube.com/watch?v=kFmsqH7wv_Q",
           "date": "2026-07-21",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1768,13 +1718,13 @@
     },
     {
       "id": "l584",
-      "text": "Will AI Replace Insurance Agents | Mind Ware Vault\nWill AI replace insurance agents\u2014or is it quietly transforming the industry instead of destroying it? In this video, we explore how artificial intelligence is already reshaping insurance faster than most people realize, from instant quotes to automated underwriting and AI-powered claims systems.\n\nThe real question isn\u2019t whether AI will replace insurance agents, but which parts of the job are disappearing\u2014and which ones are becoming more valuable\u2026",
+      "text": "Will AI Replace Insurance Agents | Mind Ware Vault\nWill AI replace insurance agents—or is it quietly transforming the industry instead of destroying it? In this video, we explore how artificial intelligence is already reshaping insurance faster than most people realize, from instant quotes to automated underwriting and AI-powered claims systems.\n\nThe real question isn’t whether AI will replace insurance agents, but which parts of the job are disappearing—and which ones are becoming more valuable…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Will AI Replace Insurance Agents | Mind Ware Vault\nWill AI replace insurance age\u2026",
+          "title": "Will AI Replace Insurance Agents | Mind Ware Vault\nWill AI replace insurance age…",
           "url": "https://www.youtube.com/watch?v=EU-sfMlKlGs",
           "date": "2026-06-05",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1871,6 +1821,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

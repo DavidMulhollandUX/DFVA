@@ -16,58 +16,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "27-1021-01",
-      "text": "National peak professional bodies and statutory regulators governing Commercial and Industrial Designers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Commercial and Industrial Designers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Commercial and Industrial Designers",
-          "url": "https://www.psc.gov.au/standards/27-1021",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Commercial and Industrial Designers"
-        }
-      ],
-      "scope": "Australian practitioners in Commercial and Industrial Designers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "27-1021-02",
-      "text": "Automation of routine transactional and analytical tasks in Commercial and Industrial Designers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Commercial and Industrial Designers",
-          "url": "https://www.jobsandskills.gov.au/research/27-1021",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Commercial and Industrial Designers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Commercial and Industrial Designers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Industrial Designer \u2014 Form Designs Australia Pty Ltd (Greater Perth Area). Posted 2 days ago.",
+      "text": "Industrial Designer — Form Designs Australia Pty Ltd (Greater Perth Area). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -88,7 +38,7 @@
     },
     {
       "id": "l404",
-      "text": "Industrial Designer \u2014 Puretec Pty Ltd (Adelaide, South Australia, Australia). Posted 5 days ago.",
+      "text": "Industrial Designer — Puretec Pty Ltd (Adelaide, South Australia, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -109,7 +59,7 @@
     },
     {
       "id": "l405",
-      "text": "Industrial Designer \u2014 Coates Group (Sydney, New South Wales, Australia). Posted 5 days ago.",
+      "text": "Industrial Designer — Coates Group (Sydney, New South Wales, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -130,7 +80,7 @@
     },
     {
       "id": "l406",
-      "text": "Studio Designer \u2014 ARB Corporation Ltd (Melbourne, Victoria, Australia). Posted 3 weeks ago.",
+      "text": "Studio Designer — ARB Corporation Ltd (Melbourne, Victoria, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -151,7 +101,7 @@
     },
     {
       "id": "l407",
-      "text": "Industrial Designer / Project Manager \u2014 Tag (Melbourne, Victoria, Australia). Posted 1 month ago.",
+      "text": "Industrial Designer / Project Manager — Tag (Melbourne, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -172,7 +122,7 @@
     },
     {
       "id": "l408",
-      "text": "Senior Industrial Designer \u2014 Capgemini (Glebe Island, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Senior Industrial Designer — Capgemini (Glebe Island, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -193,7 +143,7 @@
     },
     {
       "id": "l409",
-      "text": "Industrial Designer \u2014 leManoosh (Thornleigh, New South Wales, Australia). Posted 6 days ago.",
+      "text": "Industrial Designer — leManoosh (Thornleigh, New South Wales, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -214,7 +164,7 @@
     },
     {
       "id": "l410",
-      "text": "Industrial Designer \u2014 Elton Mayo's (Murwillumbah, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Industrial Designer — Elton Mayo's (Murwillumbah, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -235,7 +185,7 @@
     },
     {
       "id": "l411",
-      "text": "Senior Product Designer \u2014 Bradken (Burswood, Western Australia, Australia). Posted 5 days ago.",
+      "text": "Senior Product Designer — Bradken (Burswood, Western Australia, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -256,7 +206,7 @@
     },
     {
       "id": "l412",
-      "text": "Graduate Product Design Engineer \u2014 ITW Construction Products - Asia Pacific (Dandenong South, Victoria, Australia). Posted 1 week ago.",
+      "text": "Graduate Product Design Engineer — ITW Construction Products - Asia Pacific (Dandenong South, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -277,13 +227,13 @@
     },
     {
       "id": "l513",
-      "text": "[Periodic Source Scan Queue]\n<!-- periodic-source-scan-queue -->\n# [Periodic Source Scan Queue] \u2014 2026-08-22\n\n> **UNVERIFIED_DISCOVERY** \u2014 \uc774 Issue\ub294 \uac80\ud1a0 Queue\ub2e4. \ub9c1\ud06c\u00b7\uc81c\ubaa9\u00b7snippet\u00b7AI \uc694\uc57d\uc740 \uc6d0\ucd9c\ucc98\uc640 \uc2e4\uc81c consumer\ub97c \uac80\uc99d\ud558\uae30 \uc804 Evidence\u00b7Canon\u00b7\uad6c\ud604 \uc0ac\uc2e4\uc774 \uc544\ub2c8\ub2e4.\n\n```yaml\nqueue_date: 2026-08-22\ntracking_started_at: 2026-08-11\nstate_owner: docs/knowledge/game-",
+      "text": "[Periodic Source Scan Queue]\n<!-- periodic-source-scan-queue -->\n# [Periodic Source Scan Queue] — 2026-08-22\n\n> **UNVERIFIED_DISCOVERY** — 이 Issue는 검토 Queue다. 링크·제목·snippet·AI 요약은 원출처와 실제 consumer를 검증하기 전 Evidence·Canon·구현 사실이 아니다.\n\n```yaml\nqueue_date: 2026-08-22\ntracking_started_at: 2026-08-11\nstate_owner: docs/knowledge/game-",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[Periodic Source Scan Queue]\n<!-- periodic-source-scan-queue -->\n# [Periodic Sou\u2026",
+          "title": "[Periodic Source Scan Queue]\n<!-- periodic-source-scan-queue -->\n# [Periodic Sou…",
           "url": "https://github.com/alsdmlals4-eng/Base/issues/334",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -298,13 +248,13 @@
     },
     {
       "id": "l514",
-      "text": "\ud83c\udf10 Official AI Content Report 2026-08-26\n# Official AI Content Report 2026-08-26\n\n> Today's update | New content: 27 articles | Generated: 2026-08-26 00:55 UTC\n\nSources:\n- Anthropic: [anthropic.com](https://www.anthropic.com) \u2014 24 new articles (sitemap total: 436)\n- OpenAI: [openai.com](https://openai.com) \u2014 3 new articles (sitemap total:",
+      "text": "🌐 Official AI Content Report 2026-08-26\n# Official AI Content Report 2026-08-26\n\n> Today's update | New content: 27 articles | Generated: 2026-08-26 00:55 UTC\n\nSources:\n- Anthropic: [anthropic.com](https://www.anthropic.com) — 24 new articles (sitemap total: 436)\n- OpenAI: [openai.com](https://openai.com) — 3 new articles (sitemap total:",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83c\udf10 Official AI Content Report 2026-08-26\n# Official AI Content Report 2026-08-26\n\u2026",
+          "title": "🌐 Official AI Content Report 2026-08-26\n# Official AI Content Report 2026-08-26\n…",
           "url": "https://github.com/DenisZheng/agents-radar/issues/1867",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -319,13 +269,13 @@
     },
     {
       "id": "l515",
-      "text": "\ud83c\udf10 Global Tech Briefing - 2026-06-09\n# \ud83c\udf10 Global Tech Intelligence Briefing - 2026-06-09\n**Date:** 2026-06-09\n**Generated At:** 10:47\n**Data Sources:** Hacker News, GitHub Trending, ArXiv\n\n---\n\n## \ud83d\udcf0 Hacker News (Top Stories)\n### 1. [Microsoft's open source tools were hacked to steal passwords of AI developers](https://techcrunch.com/202",
+      "text": "🌐 Global Tech Briefing - 2026-06-09\n# 🌐 Global Tech Intelligence Briefing - 2026-06-09\n**Date:** 2026-06-09\n**Generated At:** 10:47\n**Data Sources:** Hacker News, GitHub Trending, ArXiv\n\n---\n\n## 📰 Hacker News (Top Stories)\n### 1. [Microsoft's open source tools were hacked to steal passwords of AI developers](https://techcrunch.com/202",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83c\udf10 Global Tech Briefing - 2026-06-09\n# \ud83c\udf10 Global Tech Intelligence Briefing - 2026\u2026",
+          "title": "🌐 Global Tech Briefing - 2026-06-09\n# 🌐 Global Tech Intelligence Briefing - 2026…",
           "url": "https://github.com/AtomChen0425/Global_Trends/issues/113",
           "date": "2026-06-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -340,13 +290,13 @@
     },
     {
       "id": "l516",
-      "text": "Ricky Ho\uff1aThe AI Economy: The Next Chapter",
+      "text": "Ricky Ho：The AI Economy: The Next Chapter",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Ricky Ho\uff1aThe AI Economy: The Next Chapter",
+          "title": "Ricky Ho：The AI Economy: The Next Chapter",
           "url": "https://github.com/FeeiCN/FEEI.CN/issues/346",
           "date": "2026-07-01",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -361,13 +311,13 @@
     },
     {
       "id": "l517",
-      "text": "\ud83d\udce1 AI Benchmark & Data Radar \u2014 2026-08-06\n<!-- benchmark-radar:daily:2026-08-06 -->\n<!-- generator: benchmark-radar/0.3.0 -->\n\n# \ud83d\udce1 AI Benchmark & Data Radar \u2014 2026-08-06\n\nEvidence-first daily scan from `2026-08-04T00:29:21.158982+00:00` to `2026-08-06T14:32:49.713824+00:00`.\n\n> Automated discovery and triage, not an endorsement. Open the pr",
+      "text": "📡 AI Benchmark & Data Radar — 2026-08-06\n<!-- benchmark-radar:daily:2026-08-06 -->\n<!-- generator: benchmark-radar/0.3.0 -->\n\n# 📡 AI Benchmark & Data Radar — 2026-08-06\n\nEvidence-first daily scan from `2026-08-04T00:29:21.158982+00:00` to `2026-08-06T14:32:49.713824+00:00`.\n\n> Automated discovery and triage, not an endorsement. Open the pr",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udce1 AI Benchmark & Data Radar \u2014 2026-08-06\n<!-- benchmark-radar:daily:2026-08-06 -\u2026",
+          "title": "📡 AI Benchmark & Data Radar — 2026-08-06\n<!-- benchmark-radar:daily:2026-08-06 -…",
           "url": "https://github.com/ktwu01/benchmark-radar/issues/137",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -388,7 +338,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox \u2026",
+          "title": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox …",
           "url": "https://github.com/e-milysol/peptibloom-project/issues/13",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -403,13 +353,13 @@
     },
     {
       "id": "l519",
-      "text": "\ud83d\udcda Weekly Research Digest \u2014 2026-07-24\n# \ud83d\udcda Weekly Research Digest \u2014 2026-07-24\n\n**Showing 201 papers scoring \u2265 5/10, ranked by relevance**\n\n\n## \ud83d\udd34 Critical (9-10) \u2014 5 papers\n\n**[9/10] AI-guided Protein Inhibitor Design for Modulating FAD-dependent Glucose Dehydrogenase Redox Output**\nbioRxiv: Biochemistry \u00b7 2026-07-22 \u00b7 \ud83d\udd17 https://www.bior",
+      "text": "📚 Weekly Research Digest — 2026-07-24\n# 📚 Weekly Research Digest — 2026-07-24\n\n**Showing 201 papers scoring ≥ 5/10, ranked by relevance**\n\n\n## 🔴 Critical (9-10) — 5 papers\n\n**[9/10] AI-guided Protein Inhibitor Design for Modulating FAD-dependent Glucose Dehydrogenase Redox Output**\nbioRxiv: Biochemistry · 2026-07-22 · 🔗 https://www.bior",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udcda Weekly Research Digest \u2014 2026-07-24\n# \ud83d\udcda Weekly Research Digest \u2014 2026-07-24\n\n*\u2026",
+          "title": "📚 Weekly Research Digest — 2026-07-24\n# 📚 Weekly Research Digest — 2026-07-24\n\n*…",
           "url": "https://github.com/davgrn/research_digest/issues/29",
           "date": "2026-07-24",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -424,13 +374,13 @@
     },
     {
       "id": "l520",
-      "text": "Daily Leads \u2013 2026-04-28\n# Daily Lead Signals \u2013 2026-04-28\n\n**Harrison Eller** | Data Analytics \u2022 Industrial AI \u2022 Energy & Gas Turbines\nASME Turbo Expo 2024 Author \u2022 50+ turbines \u2022 2.2% avg efficiency gains\n\n### 1. REDDIT \u2013 Score 17\n**[Hiring] UX/UI Designers (Remote, AI-focused work) \u2013 $15\u2013$85/hr**\n\n<!-- SC_OFF --><div cla",
+      "text": "Daily Leads – 2026-04-28\n# Daily Lead Signals – 2026-04-28\n\n**Harrison Eller** | Data Analytics • Industrial AI • Energy & Gas Turbines\nASME Turbo Expo 2024 Author • 50+ turbines • 2.2% avg efficiency gains\n\n### 1. REDDIT – Score 17\n**[Hiring] UX/UI Designers (Remote, AI-focused work) – $15–$85/hr**\n\n<!-- SC_OFF --><div cla",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Daily Leads \u2013 2026-04-28\n# Daily Lead Signals \u2013 2026-04-28\n\n**Harrison Eller** |\u2026",
+          "title": "Daily Leads – 2026-04-28\n# Daily Lead Signals – 2026-04-28\n\n**Harrison Eller** |…",
           "url": "https://github.com/Harrisoneller/lead-scanner/issues/9",
           "date": "2026-04-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -445,13 +395,13 @@
     },
     {
       "id": "l521",
-      "text": "\ud83d\udcf0 Hacker News AI Digest 2026-07-07\n# Hacker News AI Community Digest 2026-07-07\n\n> Source: [Hacker News](https://news.ycombinator.com/) | 30 stories | Generated: 2026-07-07 09:51 UTC\n\n---\n\n# Hacker News AI Community Digest | 2026-07-07\n---\n## 1. Today's Highlights\nThe top AI-adjacent discussion on HN today centers on digital privacy",
+      "text": "📰 Hacker News AI Digest 2026-07-07\n# Hacker News AI Community Digest 2026-07-07\n\n> Source: [Hacker News](https://news.ycombinator.com/) | 30 stories | Generated: 2026-07-07 09:51 UTC\n\n---\n\n# Hacker News AI Community Digest | 2026-07-07\n---\n## 1. Today's Highlights\nThe top AI-adjacent discussion on HN today centers on digital privacy",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udcf0 Hacker News AI Digest 2026-07-07\n# Hacker News AI Community Digest 2026-07-07\n\u2026",
+          "title": "📰 Hacker News AI Digest 2026-07-07\n# Hacker News AI Community Digest 2026-07-07\n…",
           "url": "https://github.com/THTHDGCS/agents-radar/issues/20",
           "date": "2026-07-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -472,7 +422,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "[SKILL REQUEST] AI Jewelry CAD Master Engineer\n## Skill Overview\n\n**Proposed Ski\u2026",
+          "title": "[SKILL REQUEST] AI Jewelry CAD Master Engineer\n## Skill Overview\n\n**Proposed Ski…",
           "url": "https://github.com/alirezarezvani/claude-skills/issues/672",
           "date": "2026-05-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -487,13 +437,13 @@
     },
     {
       "id": "l523",
-      "text": "\ud83c\udf10 Official AI Content Report 2026-05-29\n# Official AI Content Report 2026-05-29\n\n> Today's update | New content: 6 articles | Generated: 2026-05-29 00:28 UTC\n\nSources:\n- Anthropic: [anthropic.com](https://www.anthropic.com) \u2014 5 new articles (sitemap total: 369)\n- OpenAI: [openai.com](https://openai.com) \u2014 1 new articles (sitemap total: 82",
+      "text": "🌐 Official AI Content Report 2026-05-29\n# Official AI Content Report 2026-05-29\n\n> Today's update | New content: 6 articles | Generated: 2026-05-29 00:28 UTC\n\nSources:\n- Anthropic: [anthropic.com](https://www.anthropic.com) — 5 new articles (sitemap total: 369)\n- OpenAI: [openai.com](https://openai.com) — 1 new articles (sitemap total: 82",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83c\udf10 Official AI Content Report 2026-05-29\n# Official AI Content Report 2026-05-29\n\u2026",
+          "title": "🌐 Official AI Content Report 2026-05-29\n# Official AI Content Report 2026-05-29\n…",
           "url": "https://github.com/duanyytop/agents-radar/issues/1334",
           "date": "2026-05-29",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -514,7 +464,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Prototype: Papercut Resolver (Ev0ALXP04Y5P-opt-1)\n# Generated prototype bundle\n\n\u2026",
+          "title": "Prototype: Papercut Resolver (Ev0ALXP04Y5P-opt-1)\n# Generated prototype bundle\n\n…",
           "url": "https://github.com/mykepreuss/Transcript-To-Prototype/issues/37",
           "date": "2026-03-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -535,7 +485,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Prompt #11 Business of Businesses Systems-of-Systems Repository Architecture\n# P\u2026",
+          "title": "Prompt #11 Business of Businesses Systems-of-Systems Repository Architecture\n# P…",
           "url": "https://github.com/lippytm/AI-Autonomous-Systems-for-all-of-my-lippytm.ai-Repositories-Research-and-Development-integration-/issues/4",
           "date": "2026-06-23",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -550,13 +500,13 @@
     },
     {
       "id": "l526",
-      "text": "feat(route): add PetaPixel\n## Involved Issue / \u8be5 PR \u76f8\u5173 Issue\n\nN/A\n\n## Example for the Proposed Route(s) / \u8def\u7531\u5730\u5740\u793a\u4f8b\n\n```routes\n/petapixel\n/petapixel/news\n```\n\n## New RSS Route Checklist / \u65b0 RSS \u8def\u7531\u68c0\u67e5\u8868\n\n- [x] New Route / \u65b0\u7684\u8def\u7531\n    - [x] Follows [Script Standard](https://docs.rsshub.app/joinus/advanced/script-standard) / \u8ddf\u968f [\u8def\u7531\u89c4\u8303](h",
+      "text": "feat(route): add PetaPixel\n## Involved Issue / 该 PR 相关 Issue\n\nN/A\n\n## Example for the Proposed Route(s) / 路由地址示例\n\n```routes\n/petapixel\n/petapixel/news\n```\n\n## New RSS Route Checklist / 新 RSS 路由检查表\n\n- [x] New Route / 新的路由\n    - [x] Follows [Script Standard](https://docs.rsshub.app/joinus/advanced/script-standard) / 跟随 [路由规范](h",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(route): add PetaPixel\n## Involved Issue / \u8be5 PR \u76f8\u5173 Issue\n\nN/A\n\n## Example fo\u2026",
+          "title": "feat(route): add PetaPixel\n## Involved Issue / 该 PR 相关 Issue\n\nN/A\n\n## Example fo…",
           "url": "https://github.com/DIYgod/RSSHub/pull/23085",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -571,13 +521,13 @@
     },
     {
       "id": "l527",
-      "text": "Daily Content Summary 2026-03-05\n# \ud83d\udcf0 Daily Content Summary - 2026-03-05\n### Executive Summary\n\n**Key Insights**\nThe technology sector is currently defined by a striking paradox where the pursuit of simplicity in engineering culture clashes with the escalating complexity of AI governance. While engineering leaders argue that **unear",
+      "text": "Daily Content Summary 2026-03-05\n# 📰 Daily Content Summary - 2026-03-05\n### Executive Summary\n\n**Key Insights**\nThe technology sector is currently defined by a striking paradox where the pursuit of simplicity in engineering culture clashes with the escalating complexity of AI governance. While engineering leaders argue that **unear",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Daily Content Summary 2026-03-05\n# \ud83d\udcf0 Daily Content Summary - 2026-03-05\n### Exec\u2026",
+          "title": "Daily Content Summary 2026-03-05\n# 📰 Daily Content Summary - 2026-03-05\n### Exec…",
           "url": "https://github.com/jhengy/content-aggregator/issues/416",
           "date": "2026-03-05",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -592,13 +542,13 @@
     },
     {
       "id": "l528",
-      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1330 roles**, refreshed Wed Aug 26, 09:54 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl",
+      "text": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first — **1330 roles**, refreshed Wed Aug 26, 09:54 UTC. Extra pages live in the comments below.\n\n☑️ Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
+          "title": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open …",
           "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -613,13 +563,13 @@
     },
     {
       "id": "l529",
-      "text": "[ONBOARD: 3 RTC] Compare RustChain to Another Blockchain Project\n## Bounty: 3 RTC\n\n### What You'll Do\nResearch RustChain and compare it to another blockchain project you know.\n\n### Steps\n1. **Pick any other blockchain project**: Bitcoin, Ethereum, Solana, Ergo, Chia, whatever you know\n2. **Write a comparison** (300-800 words) covering:\n   - Consensus mechanism di\n/apply\n\nI'm interested in working on this bounty.\n\n**My approach:**\n1. Review the requirements thoroughly\n2. Implement a high-quality \u2026",
+      "text": "[ONBOARD: 3 RTC] Compare RustChain to Another Blockchain Project\n## Bounty: 3 RTC\n\n### What You'll Do\nResearch RustChain and compare it to another blockchain project you know.\n\n### Steps\n1. **Pick any other blockchain project**: Bitcoin, Ethereum, Solana, Ergo, Chia, whatever you know\n2. **Write a comparison** (300-800 words) covering:\n   - Consensus mechanism di\n/apply\n\nI'm interested in working on this bounty.\n\n**My approach:**\n1. Review the requirements thoroughly\n2. Implement a high-quality …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[ONBOARD: 3 RTC] Compare RustChain to Another Blockchain Project\n## Bounty: 3 RT\u2026",
+          "title": "[ONBOARD: 3 RTC] Compare RustChain to Another Blockchain Project\n## Bounty: 3 RT…",
           "url": "https://github.com/Scottcjn/rustchain-bounties/issues/2786",
           "date": "2026-04-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -634,13 +584,13 @@
     },
     {
       "id": "l530",
-      "text": "feat: implement AI architecture framework and hardware dashboard\nAdds an AI Architecture framework module containing an expert system prompt, a mock JIT Compute provisioning wrapper via CUDA interfaces, a market evaluator scheduling 3 product creations with Stripe/Gumroad mocks, and an integrated responsive Tailwind Hardware Selection dashboard inserted into the\n\ud83d\udc4b Jules, reporting for duty! I'm here to lend a hand with this pull request.\n\nWhen you start a review, I'll add a \ud83d\udc40 emoji to each comme\u2026",
+      "text": "feat: implement AI architecture framework and hardware dashboard\nAdds an AI Architecture framework module containing an expert system prompt, a mock JIT Compute provisioning wrapper via CUDA interfaces, a market evaluator scheduling 3 product creations with Stripe/Gumroad mocks, and an integrated responsive Tailwind Hardware Selection dashboard inserted into the\n👋 Jules, reporting for duty! I'm here to lend a hand with this pull request.\n\nWhen you start a review, I'll add a 👀 emoji to each comme…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: implement AI architecture framework and hardware dashboard\nAdds an AI Arch\u2026",
+          "title": "feat: implement AI architecture framework and hardware dashboard\nAdds an AI Arch…",
           "url": "https://github.com/midnghtsapphire/revvel-standards/pull/17173",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -655,13 +605,13 @@
     },
     {
       "id": "l531",
-      "text": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] feat: implement AI architecture framework and hardware dashboard\nAutomated code changes for\nissue #17192.\n\n**Agent used:** openrouter\n**Fallback chain:** OpenRouter \u2192 OpenHands (opt-in)\n**Fallback chain:** OpenRouter \u2192 OpenHands \u2192 manual (all free-tier)\n\n### Issue\nAutomated code changes for\nissue #17189.\n\n**Agent used:** openrouter\n**Fallback chain:** OpenRouter\n> \ud83d\udc19 **Octopus Review** \u2014 Your organization i\u2026",
+      "text": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] feat: implement AI architecture framework and hardware dashboard\nAutomated code changes for\nissue #17192.\n\n**Agent used:** openrouter\n**Fallback chain:** OpenRouter → OpenHands (opt-in)\n**Fallback chain:** OpenRouter → OpenHands → manual (all free-tier)\n\n### Issue\nAutomated code changes for\nissue #17189.\n\n**Agent used:** openrouter\n**Fallback chain:** OpenRouter\n> 🐙 **Octopus Review** — Your organization i…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [o\u2026",
+          "title": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [o…",
           "url": "https://github.com/midnghtsapphire/revvel-standards/pull/17195",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -676,13 +626,13 @@
     },
     {
       "id": "l532",
-      "text": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; \ud83d\udd34 KEV: 0 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 13 &nbsp;|&nbsp; \ud83d\udfe1 High: 2 &nbsp;|&nbsp; \u2728 Enriched: 10\n\n---\n\n## 1. \ud83d\udfe0 Zero-Day \u2014 Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com",
+      "text": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; 🔴 KEV: 0 &nbsp;|&nbsp; 🟠 Zero-Day: 13 &nbsp;|&nbsp; 🟡 High: 2 &nbsp;|&nbsp; ✨ Enriched: 10\n\n---\n\n## 1. 🟠 Zero-Day — Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:\u2026",
+          "title": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:…",
           "url": "https://github.com/peleduri/zero-day-pulse/issues/7",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -703,7 +653,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "[EPIC] Second-wave source mining: books, essays, and interviews to sharpen the c\u2026",
+          "title": "[EPIC] Second-wave source mining: books, essays, and interviews to sharpen the c…",
           "url": "https://github.com/Chris-Graffagnino/Founder-Wisdom/issues/21",
           "date": "2026-07-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -724,7 +674,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "ArXiv Summary - 2026-08-17 (papers from 2026-08-14 to 2026-08-17)\n# ArXiv Paper \u2026",
+          "title": "ArXiv Summary - 2026-08-17 (papers from 2026-08-14 to 2026-08-17)\n# ArXiv Paper …",
           "url": "https://github.com/matouskozak/arxiv-digest/issues/172",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -745,7 +695,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Decline in US R&D productivity?\n# Investigate Whether U.S. Research Productivity\u2026",
+          "title": "Decline in US R&D productivity?\n# Investigate Whether U.S. Research Productivity…",
           "url": "https://github.com/hackforla/data-science/issues/279",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -760,13 +710,13 @@
     },
     {
       "id": "l536",
-      "text": "Paper review 2026-07-16: 25 candidates\nReply with commands, one per line:\n`/approve all` \u00b7 `/approve 1,3-5` \u00b7 `/reject 2` \u00b7 `/edit 3 category=world_terminal tags=benchmark` (edit implies approve; `tags=-` clears tags). Valid category keys: see taxonomy.json.\n\n_Auto-skipped 117 out-of-scope; 0 failed (retried next run)._\n\n### 1. Compactio",
+      "text": "Paper review 2026-07-16: 25 candidates\nReply with commands, one per line:\n`/approve all` · `/approve 1,3-5` · `/reject 2` · `/edit 3 category=world_terminal tags=benchmark` (edit implies approve; `tags=-` clears tags). Valid category keys: see taxonomy.json.\n\n_Auto-skipped 117 out-of-scope; 0 failed (retried next run)._\n\n### 1. Compactio",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Paper review 2026-07-16: 25 candidates\nReply with commands, one per line:\n`/appr\u2026",
+          "title": "Paper review 2026-07-16: 25 candidates\nReply with commands, one per line:\n`/appr…",
           "url": "https://github.com/EuniAI/awesome-code-agents/issues/327",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -850,7 +800,7 @@
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Two Loops: How China's Open AI Strategy Reinforces Its Industrial Dominance [pdf\u2026",
+          "title": "Two Loops: How China's Open AI Strategy Reinforces Its Industrial Dominance [pdf…",
           "url": "https://www.uscc.gov/sites/default/files/2026-03/Two_Loops--How_Chinas_Open_AI_Strategy_Reinforces_Its_Industrial_Dominance.pdf",
           "date": "2026-07-19",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -928,13 +878,13 @@
     },
     {
       "id": "l544",
-      "text": "Show HN: The Cascade Graph \u2013 An interactive map of AI and energy constraints",
+      "text": "Show HN: The Cascade Graph – An interactive map of AI and energy constraints",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: The Cascade Graph \u2013 An interactive map of AI and energy constraints",
+          "title": "Show HN: The Cascade Graph – An interactive map of AI and energy constraints",
           "url": "https://atomprophet.io/tools/cascade/",
           "date": "2026-06-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1096,13 +1046,13 @@
     },
     {
       "id": "l552",
-      "text": "The Human Creativity Benchmark \u2013 Evaluating Generative AI in Creative Work",
+      "text": "The Human Creativity Benchmark – Evaluating Generative AI in Creative Work",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "The Human Creativity Benchmark \u2013 Evaluating Generative AI in Creative Work",
+          "title": "The Human Creativity Benchmark – Evaluating Generative AI in Creative Work",
           "url": "https://contralabs.com/research/human-creativity-benchmark",
           "date": "2026-04-30",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1243,13 +1193,13 @@
     },
     {
       "id": "l559",
-      "text": "Industrial design or Architecture?\nYou honestly won't find anyone studying architecture in this subreddit, but you may find some who started in Architecture and then pivoted to ID as a career. Maybe you can start by telling us what is Eh hem. *exists\u201d I practice Architecture, my father is in industrial design. From what I can tell Industrial design is a better path for the average person. Architecture is much more difficult, the am Wow, having both perspectives in your family is awesome!Since yo\u2026",
+      "text": "Industrial design or Architecture?\nYou honestly won't find anyone studying architecture in this subreddit, but you may find some who started in Architecture and then pivoted to ID as a career. Maybe you can start by telling us what is Eh hem. *exists” I practice Architecture, my father is in industrial design. From what I can tell Industrial design is a better path for the average person. Architecture is much more difficult, the am Wow, having both perspectives in your family is awesome!Since yo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Industrial design or Architecture?\nYou honestly won't find anyone studying archi\u2026",
+          "title": "Industrial design or Architecture?\nYou honestly won't find anyone studying archi…",
           "url": "https://www.reddit.com/r/IndustrialDesign/comments/1vwdm5o/industrial_design_or_architecture/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1264,13 +1214,13 @@
     },
     {
       "id": "l560",
-      "text": "Advice Wanted: Adding a Statement About AI to My Portfolio\nSome background: I\u2019m a senior designer (20 years in the industry), and I\u2019m re-working my r\u00e9sum\u00e9 and portfolio while looking for a new full-time position. I\u2019ve had a few interviews over the past year, and each one of them has included a question about using generative AI in design. I have always answered honestly, but I don\u2019t feel like I\u2019ve ever really thoughtfully articulated how I feel. Since I\u2019m configuring my portfolio to include a li\u2026",
+      "text": "Advice Wanted: Adding a Statement About AI to My Portfolio\nSome background: I’m a senior designer (20 years in the industry), and I’m re-working my résumé and portfolio while looking for a new full-time position. I’ve had a few interviews over the past year, and each one of them has included a question about using generative AI in design. I have always answered honestly, but I don’t feel like I’ve ever really thoughtfully articulated how I feel. Since I’m configuring my portfolio to include a li…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Advice Wanted: Adding a Statement About AI to My Portfolio\nSome background: I\u2019m \u2026",
+          "title": "Advice Wanted: Adding a Statement About AI to My Portfolio\nSome background: I’m …",
           "url": "https://www.reddit.com/r/graphic_design/comments/1vckplg/advice_wanted_adding_a_statement_about_ai_to_my/",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1306,13 +1256,13 @@
     },
     {
       "id": "l562",
-      "text": "I am an Electronics Engineer who wants to shift into Industrial Design, How can I make the transition?\nI would suggest enrolling in an Industrial Design bachelors degree, and learning like the rest of us had to? You could also do a masters in industrial design - a lot of programs do a post bachelors year to catch you up on some basics before dropping you into the fire. Please do a little research on the field True. But from what I\u2019ve seen, people who do a masters after having completed a non-ind\u2026",
+      "text": "I am an Electronics Engineer who wants to shift into Industrial Design, How can I make the transition?\nI would suggest enrolling in an Industrial Design bachelors degree, and learning like the rest of us had to? You could also do a masters in industrial design - a lot of programs do a post bachelors year to catch you up on some basics before dropping you into the fire. Please do a little research on the field True. But from what I’ve seen, people who do a masters after having completed a non-ind…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I am an Electronics Engineer who wants to shift into Industrial Design, How can \u2026",
+          "title": "I am an Electronics Engineer who wants to shift into Industrial Design, How can …",
           "url": "https://www.reddit.com/r/IndustrialDesign/comments/1vwpvbc/i_am_an_electronics_engineer_who_wants_to_shift/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1348,13 +1298,13 @@
     },
     {
       "id": "l564",
-      "text": "Looking for advice on Industrial Design Master\u2019s in Europe",
+      "text": "Looking for advice on Industrial Design Master’s in Europe",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Looking for advice on Industrial Design Master\u2019s in Europe",
+          "title": "Looking for advice on Industrial Design Master’s in Europe",
           "url": "https://www.reddit.com/r/IndustrialDesign/comments/1vvf0y0/looking_for_advice_on_industrial_design_masters/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1390,13 +1340,13 @@
     },
     {
       "id": "l566",
-      "text": "Should I stay in Carleton Industrial Design, switch to Business, or try transferring to UofT Industrial Engineering?\nYour answers here will be biased. I went to Humber for ID back in 2013. I'm currently a senior industrial designer at one of Toronto's largest office furniture companies. My current role is relatively I see, thank you for your insight Carleton grad here\u2026These seem to be 3 very different degrees.It seems like there are a gazillion business majors out there and you can always do an \u2026",
+      "text": "Should I stay in Carleton Industrial Design, switch to Business, or try transferring to UofT Industrial Engineering?\nYour answers here will be biased. I went to Humber for ID back in 2013. I'm currently a senior industrial designer at one of Toronto's largest office furniture companies. My current role is relatively I see, thank you for your insight Carleton grad here…These seem to be 3 very different degrees.It seems like there are a gazillion business majors out there and you can always do an …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Should I stay in Carleton Industrial Design, switch to Business, or try transfer\u2026",
+          "title": "Should I stay in Carleton Industrial Design, switch to Business, or try transfer…",
           "url": "https://www.reddit.com/r/IndustrialDesign/comments/1vw11kz/should_i_stay_in_carleton_industrial_design/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1411,13 +1361,13 @@
     },
     {
       "id": "l567",
-      "text": "I designed a thumb-worn object exploring the relationship between gesture, touch, and breath. Looking for industrial design feedback.\nHappy to help. One last thing, try to step back from the concept and look at it with fresh eyes. The product needs to be instantly understandable without your explanation. Consumers these days will gi Interesting idea but I think you\u2019d need a broader group than just designers. My initial thought is I wonder if this is just a substitute for an oral fixation like th\u2026",
+      "text": "I designed a thumb-worn object exploring the relationship between gesture, touch, and breath. Looking for industrial design feedback.\nHappy to help. One last thing, try to step back from the concept and look at it with fresh eyes. The product needs to be instantly understandable without your explanation. Consumers these days will gi Interesting idea but I think you’d need a broader group than just designers. My initial thought is I wonder if this is just a substitute for an oral fixation like th…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I designed a thumb-worn object exploring the relationship between gesture, touch\u2026",
+          "title": "I designed a thumb-worn object exploring the relationship between gesture, touch…",
           "url": "https://www.reddit.com/r/IndustrialDesign/comments/1vvinxy/i_designed_a_thumbworn_object_exploring_the/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1432,13 +1382,13 @@
     },
     {
       "id": "l568",
-      "text": "AI is the Future of Instructional Design\nBackground I\u2019m a Senior Instructional Designer with an MA in Technology and Learning Design. I work in the utilities industry. Over the last year I\u2019ve been helping my department integrate AI tools into our workflows. After a brief stint with a localized Amazon product (essentially a third-hand version of ChatGPT), we moved to Microsoft Copilot. So far, so good. At home, for my own projects, I use Claude, Grok, and Gemini. I\u2019m unapologetically all-in on AI\u2026",
+      "text": "AI is the Future of Instructional Design\nBackground I’m a Senior Instructional Designer with an MA in Technology and Learning Design. I work in the utilities industry. Over the last year I’ve been helping my department integrate AI tools into our workflows. After a brief stint with a localized Amazon product (essentially a third-hand version of ChatGPT), we moved to Microsoft Copilot. So far, so good. At home, for my own projects, I use Claude, Grok, and Gemini. I’m unapologetically all-in on AI…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI is the Future of Instructional Design\nBackground I\u2019m a Senior Instructional D\u2026",
+          "title": "AI is the Future of Instructional Design\nBackground I’m a Senior Instructional D…",
           "url": "https://www.reddit.com/r/instructionaldesign/comments/1vky6py/ai_is_the_future_of_instructional_design/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1474,13 +1424,13 @@
     },
     {
       "id": "l570",
-      "text": "Mastering Claude Design: The Complete Guide to AI-Powered Prototyping, Visual Creation, and On-Brand Collaboration with Anthropic\u2019s Tool\nClaude Design represents one of the more practical shifts in how people create visual work. Released by Anthropic Labs in mid-April 2026, it turns natural-language conversation into polished designs, interactive prototypes, slide decks, one-pagers, marketing assets, and more. Instead of starting in a blank Figma file or wrestling with slide templates, you descr\u2026",
+      "text": "Mastering Claude Design: The Complete Guide to AI-Powered Prototyping, Visual Creation, and On-Brand Collaboration with Anthropic’s Tool\nClaude Design represents one of the more practical shifts in how people create visual work. Released by Anthropic Labs in mid-April 2026, it turns natural-language conversation into polished designs, interactive prototypes, slide decks, one-pagers, marketing assets, and more. Instead of starting in a blank Figma file or wrestling with slide templates, you descr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Mastering Claude Design: The Complete Guide to AI-Powered Prototyping, Visual Cr\u2026",
+          "title": "Mastering Claude Design: The Complete Guide to AI-Powered Prototyping, Visual Cr…",
           "url": "https://www.reddit.com/r/AgentContext_dev/comments/1vo2j2r/mastering_claude_design_the_complete_guide_to/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1501,7 +1451,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Researchers looking for interface designers to take apart an AI prototyping tool\u2026",
+          "title": "Researchers looking for interface designers to take apart an AI prototyping tool…",
           "url": "https://www.reddit.com/r/productdesign/comments/1vwz73b/researchers_looking_for_interface_designers_to/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1516,13 +1466,13 @@
     },
     {
       "id": "l572",
-      "text": "Industrial designers: How are you keeping product details 100% accurate in AI renders?\nHi everyone, I\u2019m an industrial designer currently exploring AI-assisted rendering workflows for commercial product visuals. I\u2019ve been testing GPT Image 2 and Nano Banana 2. Honestly, both are impressive, but in different ways. In my own tests, GPT Image 2 often produces more refined and realistic background materials and textures. Nano Banana 2, on the other hand, often creates a more polished and stylized ove\u2026",
+      "text": "Industrial designers: How are you keeping product details 100% accurate in AI renders?\nHi everyone, I’m an industrial designer currently exploring AI-assisted rendering workflows for commercial product visuals. I’ve been testing GPT Image 2 and Nano Banana 2. Honestly, both are impressive, but in different ways. In my own tests, GPT Image 2 often produces more refined and realistic background materials and textures. Nano Banana 2, on the other hand, often creates a more polished and stylized ove…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Industrial designers: How are you keeping product details 100% accurate in AI re\u2026",
+          "title": "Industrial designers: How are you keeping product details 100% accurate in AI re…",
           "url": "https://www.reddit.com/r/IndustrialDesign/comments/1v9klon/industrial_designers_how_are_you_keeping_product/",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1558,13 +1508,13 @@
     },
     {
       "id": "l574",
-      "text": "From web design to product design \u2014 what should I learn next?",
+      "text": "From web design to product design — what should I learn next?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "From web design to product design \u2014 what should I learn next?",
+          "title": "From web design to product design — what should I learn next?",
           "url": "https://www.reddit.com/r/productdesign/comments/1vq4cuw/from_web_design_to_product_design_what_should_i/",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1579,13 +1529,13 @@
     },
     {
       "id": "l575",
-      "text": "Best AI Tools for Graphic Design in 2026 (Full Ranking)\nStart designing with AI in OpenArt \ud83d\udc49 https://youricreates.com/ai-design\n\nIn this video, I compare GPT Image 2, Nano Banana 2, and Grok Imagine by using the same reference image and prompt framework to create a four-slide Instagram carousel for a cold brew coffee brand. I break down the results slide by slide, compare quality versus cost, and explain when each model makes the most sense for graphic design work.\n\n\u2705 Generate top tier AI video \u2026",
+      "text": "Best AI Tools for Graphic Design in 2026 (Full Ranking)\nStart designing with AI in OpenArt 👉 https://youricreates.com/ai-design\n\nIn this video, I compare GPT Image 2, Nano Banana 2, and Grok Imagine by using the same reference image and prompt framework to create a four-slide Instagram carousel for a cold brew coffee brand. I break down the results slide by slide, compare quality versus cost, and explain when each model makes the most sense for graphic design work.\n\n✅ Generate top tier AI video …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Best AI Tools for Graphic Design in 2026 (Full Ranking)\nStart designing with AI \u2026",
+          "title": "Best AI Tools for Graphic Design in 2026 (Full Ranking)\nStart designing with AI …",
           "url": "https://www.youtube.com/watch?v=6JInQYdSWAc",
           "date": "2026-06-06",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1600,13 +1550,13 @@
     },
     {
       "id": "l576",
-      "text": "5 Free AI Tools Every Industrial Designer Needs in 2026\nThe design industry is evolving fast. In this video, we cover \n5 completely free AI tools that are transforming how product \nand industrial designers work \u2014 from concept ideation to \nfinal presentation.\n\nWhether you're a design student, a working professional, \nor just passionate about product design, these tools will \nsave you hours every week.",
+      "text": "5 Free AI Tools Every Industrial Designer Needs in 2026\nThe design industry is evolving fast. In this video, we cover \n5 completely free AI tools that are transforming how product \nand industrial designers work — from concept ideation to \nfinal presentation.\n\nWhether you're a design student, a working professional, \nor just passionate about product design, these tools will \nsave you hours every week.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "5 Free AI Tools Every Industrial Designer Needs in 2026\nThe design industry is e\u2026",
+          "title": "5 Free AI Tools Every Industrial Designer Needs in 2026\nThe design industry is e…",
           "url": "https://www.youtube.com/watch?v=s1gwJCEWtlo",
           "date": "2026-04-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1621,13 +1571,13 @@
     },
     {
       "id": "l577",
-      "text": "AI Tools for UX Designers: Basic to Agentic\nUse here.now for FREE \u2192 https://here.now/r/griffinwooldridge #ad \n\nNot all AI tools are created equal \u2014 and most designers are only scratching the surface. In this video, I break down 3 levels of AI for UI/UX workflows: from prototyping tools to fully agentic systems that can execute design tasks on your behalf. Whether you're just getting started or ready to go deep, this is the start of your roadmap to building a smarter design workflow in 2026. \n\n\ud83d\udce9 \u2026",
+      "text": "AI Tools for UX Designers: Basic to Agentic\nUse here.now for FREE → https://here.now/r/griffinwooldridge #ad \n\nNot all AI tools are created equal — and most designers are only scratching the surface. In this video, I break down 3 levels of AI for UI/UX workflows: from prototyping tools to fully agentic systems that can execute design tasks on your behalf. Whether you're just getting started or ready to go deep, this is the start of your roadmap to building a smarter design workflow in 2026. \n\n📩 …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Tools for UX Designers: Basic to Agentic\nUse here.now for FREE \u2192 https://here\u2026",
+          "title": "AI Tools for UX Designers: Basic to Agentic\nUse here.now for FREE → https://here…",
           "url": "https://www.youtube.com/watch?v=MSLzT5xJo7g",
           "date": "2026-03-21",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1642,13 +1592,13 @@
     },
     {
       "id": "l578",
-      "text": "Most Designers Are Using Vizcom Wrong (Here\u2019s What Works)\nMost designers are still experimenting with AI.\nTrying prompts, generating images, then seeing what comes out.\n\nBut that\u2019s not really where the value is anymore.\nIf it still feels random, you\u2019re not controlling the process yet.\n\nThe real shift is using Vizcom as part of a clear workflow:\nSketch \u2192 concept \u2192 render \u2192 animation \u2192 prototype\n\nSo instead of starting from scratch every image,\nOne idea is being evolved through the entire process.\u2026",
+      "text": "Most Designers Are Using Vizcom Wrong (Here’s What Works)\nMost designers are still experimenting with AI.\nTrying prompts, generating images, then seeing what comes out.\n\nBut that’s not really where the value is anymore.\nIf it still feels random, you’re not controlling the process yet.\n\nThe real shift is using Vizcom as part of a clear workflow:\nSketch → concept → render → animation → prototype\n\nSo instead of starting from scratch every image,\nOne idea is being evolved through the entire process.…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Most Designers Are Using Vizcom Wrong (Here\u2019s What Works)\nMost designers are sti\u2026",
+          "title": "Most Designers Are Using Vizcom Wrong (Here’s What Works)\nMost designers are sti…",
           "url": "https://www.youtube.com/watch?v=mGZymtmyFKY",
           "date": "2026-04-01",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1717,6 +1667,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

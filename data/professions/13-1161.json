@@ -24,56 +24,6 @@
   ],
   "claims": [
     {
-      "id": "13-1161-01",
-      "text": "National peak professional bodies and statutory regulators governing Market Research Analysts and Marketing Specialists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Market Research Analysts and Marketing Specialists",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Market Research Analysts and Marketing Specialists",
-          "url": "https://www.psc.gov.au/standards/13-1161",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Market Research Analysts and Marketing Specialists"
-        }
-      ],
-      "scope": "Australian practitioners in Market Research Analysts and Marketing Specialists across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "13-1161-02",
-      "text": "Automation of routine transactional and analytical tasks in Market Research Analysts and Marketing Specialists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Market Research Analysts and Marketing Specialists",
-          "url": "https://www.jobsandskills.gov.au/research/13-1161",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Market Research Analysts and Marketing Specialists in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Market Research Analysts and Marketing Specialists roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
       "text": "feat(govspend): add govspend\n## govspend\n\nAdds `govspend`, a read-only public-sector spending and opportunity research CLI for issue #1193.\n\n`govspend-pp-cli` helps engineers, analysts, consultants, and agents answer practical federal-market questions without memorizing separate USAspending, Grants.gov, and SAM.gov API shapes.",
       "lane": "L5",
@@ -81,7 +31,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(govspend): add govspend\n## govspend\n\nAdds `govspend`, a read-only public-se\u2026",
+          "title": "feat(govspend): add govspend\n## govspend\n\nAdds `govspend`, a read-only public-se…",
           "url": "https://github.com/mvanhorn/printing-press-library/pull/1359",
           "date": "2026-06-25",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -96,13 +46,13 @@
     },
     {
       "id": "l504",
-      "text": "docs: The Third Eye business plan \u2014 unit economics, market, competitors, projection\nProduced by a multi-agent research pass you approved (\"go big\"): **8 independent analysts in parallel** \u2014 India market, international market, intl competitors, India competitors, unit economics, pricing, GTM/growth, risks/moat \u2014 then a **separate synthesis agent** (one task per agent, molecular divi",
+      "text": "docs: The Third Eye business plan — unit economics, market, competitors, projection\nProduced by a multi-agent research pass you approved (\"go big\"): **8 independent analysts in parallel** — India market, international market, intl competitors, India competitors, unit economics, pricing, GTM/growth, risks/moat — then a **separate synthesis agent** (one task per agent, molecular divi",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "docs: The Third Eye business plan \u2014 unit economics, market, competitors, project\u2026",
+          "title": "docs: The Third Eye business plan — unit economics, market, competitors, project…",
           "url": "https://github.com/Anchit-AI-Hustle/The-Third-Eye/pull/144",
           "date": "2026-07-24",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -117,13 +67,13 @@
     },
     {
       "id": "l505",
-      "text": "Phases 3-8: research pipeline, daily screen, and first frontend\n## Summary\n\nThis PR advances the project from the deployed Next.js/Postgres skeleton through the research and screening backend, then adds the first server-rendered daily-idea frontend.\n\n### Market data and provenance\n- Adds a Zod-validated Finnhub client covering quote, profile, metrics, peers, new\n<!-- kilo-billing-notice -->\n**Kilo Code Review could not run \u2014 your account is out of credits.**\n\n[Add credits](https://app.kilo.ai/) \u2026",
+      "text": "Phases 3-8: research pipeline, daily screen, and first frontend\n## Summary\n\nThis PR advances the project from the deployed Next.js/Postgres skeleton through the research and screening backend, then adds the first server-rendered daily-idea frontend.\n\n### Market data and provenance\n- Adds a Zod-validated Finnhub client covering quote, profile, metrics, peers, new\n<!-- kilo-billing-notice -->\n**Kilo Code Review could not run — your account is out of credits.**\n\n[Add credits](https://app.kilo.ai/) …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Phases 3-8: research pipeline, daily screen, and first frontend\n## Summary\n\nThis\u2026",
+          "title": "Phases 3-8: research pipeline, daily screen, and first frontend\n## Summary\n\nThis…",
           "url": "https://github.com/Festo-Wampamba/analysts/pull/2",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -144,7 +94,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(orchestration): introduce 4 new analysts, social/alt dataflows, tool recove\u2026",
+          "title": "feat(orchestration): introduce 4 new analysts, social/alt dataflows, tool recove…",
           "url": "https://github.com/TauricResearch/TradingAgents/pull/1093",
           "date": "2026-06-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -165,7 +115,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Transform TradingAgents into IndiaMarketAgents research copilot foundation\n# PR \u2026",
+          "title": "Transform TradingAgents into IndiaMarketAgents research copilot foundation\n# PR …",
           "url": "https://github.com/TauricResearch/TradingAgents/pull/1002",
           "date": "2026-06-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -186,7 +136,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "[codex] Refactor market intelligence website\n## Summary\n\n- Repositions the homep\u2026",
+          "title": "[codex] Refactor market intelligence website\n## Summary\n\n- Repositions the homep…",
           "url": "https://github.com/Kusarok/kafenet/pull/13",
           "date": "2026-06-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -201,13 +151,13 @@
     },
     {
       "id": "l509",
-      "text": "Spend limits and scope enforcement for trading agents \u2014 delegation chains with audit trail\nA trading agent that can place unlimited orders with no scope constraints is a single prompt injection away from draining an account. The current architecture trusts the LLM's judgment as the only gate between \"analyze AAPL\" and \"market sell entire portfolio.\"\n\nThree failure modes that delegation sc\nGreat to see more PII tools being integrated. However, for enterprise-grade compliance (especially under EU \u2026",
+      "text": "Spend limits and scope enforcement for trading agents — delegation chains with audit trail\nA trading agent that can place unlimited orders with no scope constraints is a single prompt injection away from draining an account. The current architecture trusts the LLM's judgment as the only gate between \"analyze AAPL\" and \"market sell entire portfolio.\"\n\nThree failure modes that delegation sc\nGreat to see more PII tools being integrated. However, for enterprise-grade compliance (especially under EU …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Spend limits and scope enforcement for trading agents \u2014 delegation chains with a\u2026",
+          "title": "Spend limits and scope enforcement for trading agents — delegation chains with a…",
           "url": "https://github.com/TauricResearch/TradingAgents/issues/524",
           "date": "2026-04-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -228,7 +178,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: write run_config.md alongside each analysis (#752)\nCloses #752.\n\nEach save\u2026",
+          "title": "feat: write run_config.md alongside each analysis (#752)\nCloses #752.\n\nEach save…",
           "url": "https://github.com/TauricResearch/TradingAgents/pull/790",
           "date": "2026-05-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -243,13 +193,13 @@
     },
     {
       "id": "l511",
-      "text": "feat: restructure to swing trading pipeline with auto stock screening\n- Remove debate/risk management stages (bull/bear researchers, research manager, risk debate)\r\n- Simplify flow: Screening \u2192 Analysts (market, news, fundamentals) \u2192 Trader\r\n- Add screening pipeline: universe builder \u2192 technical screen \u2192 fundamental screen \u2192 LLM ranking\r\n- Add Korean market support (K",
+      "text": "feat: restructure to swing trading pipeline with auto stock screening\n- Remove debate/risk management stages (bull/bear researchers, research manager, risk debate)\r\n- Simplify flow: Screening → Analysts (market, news, fundamentals) → Trader\r\n- Add screening pipeline: universe builder → technical screen → fundamental screen → LLM ranking\r\n- Add Korean market support (K",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: restructure to swing trading pipeline with auto stock screening\n- Remove d\u2026",
+          "title": "feat: restructure to swing trading pipeline with auto stock screening\n- Remove d…",
           "url": "https://github.com/TauricResearch/TradingAgents/pull/372",
           "date": "2026-03-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -264,13 +214,13 @@
     },
     {
       "id": "l512",
-      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       \u2026",
+      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe \u2026",
+          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe …",
           "url": "https://github.com/rakib06/mini-github/issues/14",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -291,7 +241,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: add Polymarket prediction market analysis module\n## Summary\n\n- Add `tradin\u2026",
+          "title": "feat: add Polymarket prediction market analysis module\n## Summary\n\n- Add `tradin…",
           "url": "https://github.com/TauricResearch/TradingAgents/pull/432",
           "date": "2026-03-23",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -306,13 +256,13 @@
     },
     {
       "id": "l514",
-      "text": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an exceptionally well-structured, comprehensive, and ambitious project plan. Tackling acoustic violence and harassment requires a multidisciplinary approach, and AVHERI successfully bridges the gap between technology, sociology, legal advocacy, and survivor support. \n... gemini-3.1-pro-preview\n\nHere is the fully updated, comprehensive **V2.0 Project Plan for AVHERI**. This version directly integrates the strategic analysis, \u2026",
+      "text": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an exceptionally well-structured, comprehensive, and ambitious project plan. Tackling acoustic violence and harassment requires a multidisciplinary approach, and AVHERI successfully bridges the gap between technology, sociology, legal advocacy, and survivor support. \n... gemini-3.1-pro-preview\n\nHere is the fully updated, comprehensive **V2.0 Project Plan for AVHERI**. This version directly integrates the strategic analysis, …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an excep\u2026",
+          "title": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an excep…",
           "url": "https://github.com/Transparency-X/AVHERI/issues/2",
           "date": "2026-04-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -558,13 +508,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -579,13 +529,13 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -747,13 +697,13 @@
     },
     {
       "id": "l535",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -789,13 +739,13 @@
     },
     {
       "id": "l537",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -810,13 +760,13 @@
     },
     {
       "id": "l538",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -831,13 +781,13 @@
     },
     {
       "id": "l539",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -852,13 +802,13 @@
     },
     {
       "id": "l540",
-      "text": "AI's real threat to the job market: lower paychecks, new research says\n&#32; submitted by &#32; /u/Gari_305 &#32; to &#32; r/Futurology [link] &#32; [comments]\nPretty simple. What happens 10 years from now when taxis and long haul trucks and many other industries are automated? Displacement of 30 million skilled workers in the states, who flood job markets a This comes at the same time that social security erodes away and deficits are so high we can\u2019t possibly help the masses. The deficiencies o\u2026",
+      "text": "AI's real threat to the job market: lower paychecks, new research says\n&#32; submitted by &#32; /u/Gari_305 &#32; to &#32; r/Futurology [link] &#32; [comments]\nPretty simple. What happens 10 years from now when taxis and long haul trucks and many other industries are automated? Displacement of 30 million skilled workers in the states, who flood job markets a This comes at the same time that social security erodes away and deficits are so high we can’t possibly help the masses. The deficiencies o…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI's real threat to the job market: lower paychecks, new research says\n&#32; sub\u2026",
+          "title": "AI's real threat to the job market: lower paychecks, new research says\n&#32; sub…",
           "url": "https://www.reddit.com/r/Futurology/comments/1vcxt2l/ais_real_threat_to_the_job_market_lower_paychecks/",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -873,13 +823,13 @@
     },
     {
       "id": "l541",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history\n&#32; submitted by &#32; /u/xuvayerpro101 &#32; to &#32; r/aiecosystem [link] &#32; [comments]\nWhy are we okay with this? Why are any of us okay with this? Hey Siri make me a picture of my cat riding a dolphin into the sunset. People out here still believin\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history\n&#32; submitted by &#32; /u/xuvayerpro101 &#32; to &#32; r/aiecosystem [link] &#32; [comments]\nWhy are we okay with this? Why are any of us okay with this? Hey Siri make me a picture of my cat riding a dolphin into the sunset. People out here still believin…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/aiecosystem/comments/1w00i5d/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -894,13 +844,13 @@
     },
     {
       "id": "l542",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/chillinewman &#32; to &#32; r/ControlProblem [link] &#32; [comments]\nTech billionaires: Why do people not like data centers? Also tech billionaires: Best case scenario you are all unemployed in a permanent underclass, worst case\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/chillinewman &#32; to &#32; r/ControlProblem [link] &#32; [comments]\nTech billionaires: Why do people not like data centers? Also tech billionaires: Best case scenario you are all unemployed in a permanent underclass, worst case…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/ControlProblem/comments/1vzy4do/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -915,13 +865,13 @@
     },
     {
       "id": "l543",
-      "text": "My sister bought this at a flee market. I think its odd and probably AI. She swears its not. Why are some fruits twice? Middle mango is just wrong. She is covinced these are just \u201dartist mistakes\u201d\n&#32; submitted by &#32; /u/TheyAreAllGoodBois &#32; to &#32; r/isthisAI [link] &#32; [comments]",
+      "text": "My sister bought this at a flee market. I think its odd and probably AI. She swears its not. Why are some fruits twice? Middle mango is just wrong. She is covinced these are just ”artist mistakes”\n&#32; submitted by &#32; /u/TheyAreAllGoodBois &#32; to &#32; r/isthisAI [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "My sister bought this at a flee market. I think its odd and probably AI. She swe\u2026",
+          "title": "My sister bought this at a flee market. I think its odd and probably AI. She swe…",
           "url": "https://www.reddit.com/r/isthisAI/comments/1vwx3ql/my_sister_bought_this_at_a_flee_market_i_think/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -942,7 +892,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI market correction is coming, European Central Bank blog predicts - A market c\u2026",
+          "title": "AI market correction is coming, European Central Bank blog predicts - A market c…",
           "url": "https://www.reddit.com/r/technology/comments/1vqnijj/ai_market_correction_is_coming_european_central/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -957,13 +907,13 @@
     },
     {
       "id": "l545",
-      "text": "To whomever is running WMATA\u2019s \u201cCustomer Research Team\u201d: Your AI Slop marketing is disgusting\nReceived a survey from WMATA where they were asking for feedback on a few proposed ad campaigns. All the images in the survey were AI Slop. This one is particularly egregious. What is that system map??? And that bench orientation? Disgusting. Do better. Edit: If you all want to see the survey yourselves and let WMATA know how you feel, here is the link: https://wmata.questionpro.com/a/TakeSurvey?tt=cOd4\u2026",
+      "text": "To whomever is running WMATA’s “Customer Research Team”: Your AI Slop marketing is disgusting\nReceived a survey from WMATA where they were asking for feedback on a few proposed ad campaigns. All the images in the survey were AI Slop. This one is particularly egregious. What is that system map??? And that bench orientation? Disgusting. Do better. Edit: If you all want to see the survey yourselves and let WMATA know how you feel, here is the link: https://wmata.questionpro.com/a/TakeSurvey?tt=cOd4…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "To whomever is running WMATA\u2019s \u201cCustomer Research Team\u201d: Your AI Slop marketing \u2026",
+          "title": "To whomever is running WMATA’s “Customer Research Team”: Your AI Slop marketing …",
           "url": "https://www.reddit.com/r/WMATA/comments/1vnnklo/to_whomever_is_running_wmatas_customer_research/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -978,13 +928,13 @@
     },
     {
       "id": "l546",
-      "text": "AI bubble in a nutshell\nThe AI bubble isn\u2019t bursting. You idiots ARE the demand. Everyone compares AI to the dot-com bubble while using AI every fucking day. We ask it stupid questions, write emails and texts, summarize shit we don\u2019t want to read, code, research, study, make spreadsheets, plan trips\u2014the list keeps growing. And that\u2019s just us degenerates. Enterprises are plugging AI into customer service, coding, cybersecurity, data analysis, sales, marketing, and basically every workflow where h\u2026",
+      "text": "AI bubble in a nutshell\nThe AI bubble isn’t bursting. You idiots ARE the demand. Everyone compares AI to the dot-com bubble while using AI every fucking day. We ask it stupid questions, write emails and texts, summarize shit we don’t want to read, code, research, study, make spreadsheets, plan trips—the list keeps growing. And that’s just us degenerates. Enterprises are plugging AI into customer service, coding, cybersecurity, data analysis, sales, marketing, and basically every workflow where h…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI bubble in a nutshell\nThe AI bubble isn\u2019t bursting. You idiots ARE the demand.\u2026",
+          "title": "AI bubble in a nutshell\nThe AI bubble isn’t bursting. You idiots ARE the demand.…",
           "url": "https://www.reddit.com/r/wallstreetbets/comments/1vknzog/ai_bubble_in_a_nutshell/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -999,13 +949,13 @@
     },
     {
       "id": "l547",
-      "text": "\u200bAI-slop book covers are infuriating to see, and they've invaded the market.\n\u200b\u200b I mean Books are the epitome of creativity. As an industry leader, how difficult is it for publishers to just pay artists who create beautiful book covers from their heart? &#32; submitted by &#32; /u/shubhamxtreme &#32; to &#32; r/graphic_design [link] &#32; [comments]",
+      "text": "​AI-slop book covers are infuriating to see, and they've invaded the market.\n​​ I mean Books are the epitome of creativity. As an industry leader, how difficult is it for publishers to just pay artists who create beautiful book covers from their heart? &#32; submitted by &#32; /u/shubhamxtreme &#32; to &#32; r/graphic_design [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\u200bAI-slop book covers are infuriating to see, and they've invaded the market.\n\u200b\u200b \u2026",
+          "title": "​AI-slop book covers are infuriating to see, and they've invaded the market.\n​​ …",
           "url": "https://www.reddit.com/r/graphic_design/comments/1vfclbc/aislop_book_covers_are_infuriating_to_see_and/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1020,13 +970,13 @@
     },
     {
       "id": "l548",
-      "text": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let\u2019s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
+      "text": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let’s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market \u2026",
+          "title": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market …",
           "url": "https://www.reddit.com/r/Superstonk/comments/1vaxmve/for_my_dorito_loversyen_intervention_with_a/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1047,7 +997,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "this might be one of the best examples of where AI is heading\n\nbecause the inter\u2026",
+          "title": "this might be one of the best examples of where AI is heading\n\nbecause the inter…",
           "url": "https://x.com/leopardracer/status/2093361010144936111",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1062,13 +1012,13 @@
     },
     {
       "id": "l550",
-      "text": "F**KING INSANE, THIS IS WHAT AI LOOKS LIKE WHEN YOU STOP TREATING IT LIKE A CHATBOT AND START TREATING IT LIKE A TEAM\n\ninstead of waiting for you to send the next prompt, the agents can keep working on different parts of the same job while one system keeps track of what happens next\n\nresearch \u2192 parallel work \u2192 analysis \u2192 quality check \u2192 final result\n\nand the important part is that you don't need every agent running at the same time. the right ones stay active, the rest can step back, and anythin",
+      "text": "F**KING INSANE, THIS IS WHAT AI LOOKS LIKE WHEN YOU STOP TREATING IT LIKE A CHATBOT AND START TREATING IT LIKE A TEAM\n\ninstead of waiting for you to send the next prompt, the agents can keep working on different parts of the same job while one system keeps track of what happens next\n\nresearch → parallel work → analysis → quality check → final result\n\nand the important part is that you don't need every agent running at the same time. the right ones stay active, the rest can step back, and anythin",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "F**KING INSANE, THIS IS WHAT AI LOOKS LIKE WHEN YOU STOP TREATING IT LIKE A CHAT\u2026",
+          "title": "F**KING INSANE, THIS IS WHAT AI LOOKS LIKE WHEN YOU STOP TREATING IT LIKE A CHAT…",
           "url": "https://x.com/leopardracer/status/2093450885854830618",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1089,7 +1039,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Grok Bot + Kimi K3: How to Build an AI System That Stops Waiting for Your Next P\u2026",
+          "title": "Grok Bot + Kimi K3: How to Build an AI System That Stops Waiting for Your Next P…",
           "url": "https://x.com/leopardracer/status/2093282462491091301",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1152,7 +1102,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Michael Truell and three MIT friends thought AI coding was too crowded. In Augus\u2026",
+          "title": "Michael Truell and three MIT friends thought AI coding was too crowded. In Augus…",
           "url": "https://x.com/T0vi7/status/2093439838615957560",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1215,7 +1165,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The best SEO tools for Perplexity don't come from one product category. Perplexi\u2026",
+          "title": "The best SEO tools for Perplexity don't come from one product category. Perplexi…",
           "url": "https://x.com/veeeeking/status/2091889366411178065",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1257,7 +1207,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "This may be one of the most important charts for understanding where enterprise \u2026",
+          "title": "This may be one of the most important charts for understanding where enterprise …",
           "url": "https://x.com/rickyho_1989/status/2091690491461132689",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1377,13 +1327,13 @@
     },
     {
       "id": "l565",
-      "text": "How AI Is Disrupting Today\u2019s Marketing Landscape - with Marketing Science Professional Ankur Jalan\nMost companies are struggling to measure and optimize their ad spend across a fragmented digital ecosystem\u2014 Ankur Jalan uncovers the hidden hurdles marketers face today and how AI is reshaping the game.\n\nIn this episode of After the Download, we explore the evolution of marketing science over the last decade, from primitive metrics to complex, multi-platform measurement challenges compounded by ris\u2026",
+      "text": "How AI Is Disrupting Today’s Marketing Landscape - with Marketing Science Professional Ankur Jalan\nMost companies are struggling to measure and optimize their ad spend across a fragmented digital ecosystem— Ankur Jalan uncovers the hidden hurdles marketers face today and how AI is reshaping the game.\n\nIn this episode of After the Download, we explore the evolution of marketing science over the last decade, from primitive metrics to complex, multi-platform measurement challenges compounded by ris…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI Is Disrupting Today\u2019s Marketing Landscape - with Marketing Science Profes\u2026",
+          "title": "How AI Is Disrupting Today’s Marketing Landscape - with Marketing Science Profes…",
           "url": "https://www.youtube.com/watch?v=GuP914kHStg",
           "date": "2026-05-05",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1398,7 +1348,7 @@
     },
     {
       "id": "l466",
-      "text": "Analyst \u2014 Circana (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Analyst — Circana (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1419,7 +1369,7 @@
     },
     {
       "id": "l467",
-      "text": "Product Marketing Specialist \u2014 LEAP Legal Software (Sydney, New South Wales, Australia). Posted 4 days ago.",
+      "text": "Product Marketing Specialist — LEAP Legal Software (Sydney, New South Wales, Australia). Posted 4 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1440,7 +1390,7 @@
     },
     {
       "id": "l468",
-      "text": "Analyst or Senior Analyst - Marketing Sciences \u2014 Resources Group (Sydney, New South Wales, Australia). Posted 4 weeks ago.",
+      "text": "Analyst or Senior Analyst - Marketing Sciences — Resources Group (Sydney, New South Wales, Australia). Posted 4 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1461,7 +1411,7 @@
     },
     {
       "id": "l469",
-      "text": "Product Growth Specialist \u2014 Zeller (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "text": "Product Growth Specialist — Zeller (Melbourne, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1482,7 +1432,7 @@
     },
     {
       "id": "l470",
-      "text": "Senior Consumer & Category Analyst \u2014 BE Campbell Group (Greater Sydney Area). Posted 6 days ago.",
+      "text": "Senior Consumer & Category Analyst — BE Campbell Group (Greater Sydney Area). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1503,7 +1453,7 @@
     },
     {
       "id": "l471",
-      "text": "Marketing Science Analyst \u2014 Analytic Partners (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "text": "Marketing Science Analyst — Analytic Partners (Melbourne, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1524,7 +1474,7 @@
     },
     {
       "id": "l472",
-      "text": "Consultant \u2014 Mintel (Sydney, New South Wales, Australia). Posted 1 day ago.",
+      "text": "Consultant — Mintel (Sydney, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1545,7 +1495,7 @@
     },
     {
       "id": "l473",
-      "text": "Marketing Specialist \u2014 Job4online (Tempe, New South Wales, Australia). Posted 20 hours ago.",
+      "text": "Marketing Specialist — Job4online (Tempe, New South Wales, Australia). Posted 20 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1566,7 +1516,7 @@
     },
     {
       "id": "l474",
-      "text": "Senior Marketing Analyst, Marketing Analytics - APAC (Sydney) \u2014 Electronic Arts (EA) (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Senior Marketing Analyst, Marketing Analytics - APAC (Sydney) — Electronic Arts (EA) (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1587,7 +1537,7 @@
     },
     {
       "id": "l475",
-      "text": "Senior Marketing Associate - Acute Care - ANZ \u2014 Stryker (Sydney, New South Wales, Australia). Posted 1 day ago.",
+      "text": "Senior Marketing Associate - Acute Care - ANZ — Stryker (Sydney, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1608,13 +1558,13 @@
     },
     {
       "id": "l576",
-      "text": "Phases 3-8: research pipeline, daily screen, and first frontend\n## Summary\n\nThis PR advances the project from the deployed Next.js/Postgres skeleton through the research and screening backend, then adds the first server-rendered daily-idea frontend.\n\n### Market data and provenance\n- Adds a Zod-validated Finnhub client covering quote, profile, metrics, peers, new\n<!-- kilo-billing-notice -->\n**Kilo Code Review could not run \u2014 your account is out of credits.**\n\n[Add credits](https://app.kilo.ai/) \u2026",
+      "text": "Phases 3-8: research pipeline, daily screen, and first frontend\n## Summary\n\nThis PR advances the project from the deployed Next.js/Postgres skeleton through the research and screening backend, then adds the first server-rendered daily-idea frontend.\n\n### Market data and provenance\n- Adds a Zod-validated Finnhub client covering quote, profile, metrics, peers, new\n<!-- kilo-billing-notice -->\n**Kilo Code Review could not run — your account is out of credits.**\n\n[Add credits](https://app.kilo.ai/) …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Phases 3-8: research pipeline, daily screen, and first frontend\n## Summary\n\nThis\u2026",
+          "title": "Phases 3-8: research pipeline, daily screen, and first frontend\n## Summary\n\nThis…",
           "url": "https://github.com/Festo-Wampamba/analysts/pull/2",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1629,13 +1579,13 @@
     },
     {
       "id": "l577",
-      "text": "Spend limits and scope enforcement for trading agents \u2014 delegation chains with audit trail\nA trading agent that can place unlimited orders with no scope constraints is a single prompt injection away from draining an account. The current architecture trusts the LLM's judgment as the only gate between \"analyze AAPL\" and \"market sell entire portfolio.\"\n\nThree failure modes that delegation sc\nGreat to see more PII tools being integrated. However, for enterprise-grade compliance (especially under EU \u2026",
+      "text": "Spend limits and scope enforcement for trading agents — delegation chains with audit trail\nA trading agent that can place unlimited orders with no scope constraints is a single prompt injection away from draining an account. The current architecture trusts the LLM's judgment as the only gate between \"analyze AAPL\" and \"market sell entire portfolio.\"\n\nThree failure modes that delegation sc\nGreat to see more PII tools being integrated. However, for enterprise-grade compliance (especially under EU …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Spend limits and scope enforcement for trading agents \u2014 delegation chains with a\u2026",
+          "title": "Spend limits and scope enforcement for trading agents — delegation chains with a…",
           "url": "https://github.com/TauricResearch/TradingAgents/issues/524",
           "date": "2026-04-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1650,13 +1600,13 @@
     },
     {
       "id": "l578",
-      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       \u2026",
+      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe \u2026",
+          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe …",
           "url": "https://github.com/rakib06/mini-github/issues/14",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1671,13 +1621,13 @@
     },
     {
       "id": "l579",
-      "text": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an exceptionally well-structured, comprehensive, and ambitious project plan. Tackling acoustic violence and harassment requires a multidisciplinary approach, and AVHERI successfully bridges the gap between technology, sociology, legal advocacy, and survivor support. \n... gemini-3.1-pro-preview\n\nHere is the fully updated, comprehensive **V2.0 Project Plan for AVHERI**. This version directly integrates the strategic analysis, \u2026",
+      "text": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an exceptionally well-structured, comprehensive, and ambitious project plan. Tackling acoustic violence and harassment requires a multidisciplinary approach, and AVHERI successfully bridges the gap between technology, sociology, legal advocacy, and survivor support. \n... gemini-3.1-pro-preview\n\nHere is the fully updated, comprehensive **V2.0 Project Plan for AVHERI**. This version directly integrates the strategic analysis, …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an excep\u2026",
+          "title": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an excep…",
           "url": "https://github.com/Transparency-X/AVHERI/issues/2",
           "date": "2026-04-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1692,13 +1642,13 @@
     },
     {
       "id": "l580",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1713,13 +1663,13 @@
     },
     {
       "id": "l581",
-      "text": "AI's real threat to the job market: lower paychecks, new research says\n&#32; submitted by &#32; /u/Gari_305 &#32; to &#32; r/Futurology [link] &#32; [comments]\nPretty simple. What happens 10 years from now when taxis and long haul trucks and many other industries are automated? Displacement of 30 million skilled workers in the states, who flood job markets a This comes at the same time that social security erodes away and deficits are so high we can\u2019t possibly help the masses. The deficiencies o\u2026",
+      "text": "AI's real threat to the job market: lower paychecks, new research says\n&#32; submitted by &#32; /u/Gari_305 &#32; to &#32; r/Futurology [link] &#32; [comments]\nPretty simple. What happens 10 years from now when taxis and long haul trucks and many other industries are automated? Displacement of 30 million skilled workers in the states, who flood job markets a This comes at the same time that social security erodes away and deficits are so high we can’t possibly help the masses. The deficiencies o…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI's real threat to the job market: lower paychecks, new research says\n&#32; sub\u2026",
+          "title": "AI's real threat to the job market: lower paychecks, new research says\n&#32; sub…",
           "url": "https://www.reddit.com/r/Futurology/comments/1vcxt2l/ais_real_threat_to_the_job_market_lower_paychecks/",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1734,13 +1684,13 @@
     },
     {
       "id": "l582",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history\n&#32; submitted by &#32; /u/xuvayerpro101 &#32; to &#32; r/aiecosystem [link] &#32; [comments]\nWhy are we okay with this? Why are any of us okay with this? Hey Siri make me a picture of my cat riding a dolphin into the sunset. People out here still believin\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history\n&#32; submitted by &#32; /u/xuvayerpro101 &#32; to &#32; r/aiecosystem [link] &#32; [comments]\nWhy are we okay with this? Why are any of us okay with this? Hey Siri make me a picture of my cat riding a dolphin into the sunset. People out here still believin…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/aiecosystem/comments/1w00i5d/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1755,13 +1705,13 @@
     },
     {
       "id": "l583",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/chillinewman &#32; to &#32; r/ControlProblem [link] &#32; [comments]\nTech billionaires: Why do people not like data centers? Also tech billionaires: Best case scenario you are all unemployed in a permanent underclass, worst case\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/chillinewman &#32; to &#32; r/ControlProblem [link] &#32; [comments]\nTech billionaires: Why do people not like data centers? Also tech billionaires: Best case scenario you are all unemployed in a permanent underclass, worst case…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/ControlProblem/comments/1vzy4do/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1776,13 +1726,13 @@
     },
     {
       "id": "l584",
-      "text": "To whomever is running WMATA\u2019s \u201cCustomer Research Team\u201d: Your AI Slop marketing is disgusting\nReceived a survey from WMATA where they were asking for feedback on a few proposed ad campaigns. All the images in the survey were AI Slop. This one is particularly egregious. What is that system map??? And that bench orientation? Disgusting. Do better. Edit: If you all want to see the survey yourselves and let WMATA know how you feel, here is the link: https://wmata.questionpro.com/a/TakeSurvey?tt=cOd4\u2026",
+      "text": "To whomever is running WMATA’s “Customer Research Team”: Your AI Slop marketing is disgusting\nReceived a survey from WMATA where they were asking for feedback on a few proposed ad campaigns. All the images in the survey were AI Slop. This one is particularly egregious. What is that system map??? And that bench orientation? Disgusting. Do better. Edit: If you all want to see the survey yourselves and let WMATA know how you feel, here is the link: https://wmata.questionpro.com/a/TakeSurvey?tt=cOd4…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "To whomever is running WMATA\u2019s \u201cCustomer Research Team\u201d: Your AI Slop marketing \u2026",
+          "title": "To whomever is running WMATA’s “Customer Research Team”: Your AI Slop marketing …",
           "url": "https://www.reddit.com/r/WMATA/comments/1vnnklo/to_whomever_is_running_wmatas_customer_research/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1797,13 +1747,13 @@
     },
     {
       "id": "l585",
-      "text": "AI bubble in a nutshell\nThe AI bubble isn\u2019t bursting. You idiots ARE the demand. Everyone compares AI to the dot-com bubble while using AI every fucking day. We ask it stupid questions, write emails and texts, summarize shit we don\u2019t want to read, code, research, study, make spreadsheets, plan trips\u2014the list keeps growing. And that\u2019s just us degenerates. Enterprises are plugging AI into customer service, coding, cybersecurity, data analysis, sales, marketing, and basically every workflow where h\u2026",
+      "text": "AI bubble in a nutshell\nThe AI bubble isn’t bursting. You idiots ARE the demand. Everyone compares AI to the dot-com bubble while using AI every fucking day. We ask it stupid questions, write emails and texts, summarize shit we don’t want to read, code, research, study, make spreadsheets, plan trips—the list keeps growing. And that’s just us degenerates. Enterprises are plugging AI into customer service, coding, cybersecurity, data analysis, sales, marketing, and basically every workflow where h…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI bubble in a nutshell\nThe AI bubble isn\u2019t bursting. You idiots ARE the demand.\u2026",
+          "title": "AI bubble in a nutshell\nThe AI bubble isn’t bursting. You idiots ARE the demand.…",
           "url": "https://www.reddit.com/r/wallstreetbets/comments/1vknzog/ai_bubble_in_a_nutshell/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1818,13 +1768,13 @@
     },
     {
       "id": "l586",
-      "text": "How AI Is Disrupting Today\u2019s Marketing Landscape - with Marketing Science Professional Ankur Jalan\nMost companies are struggling to measure and optimize their ad spend across a fragmented digital ecosystem\u2014 Ankur Jalan uncovers the hidden hurdles marketers face today and how AI is reshaping the game.\n\nIn this episode of After the Download, we explore the evolution of marketing science over the last decade, from primitive metrics to complex, multi-platform measurement challenges compounded by ris\u2026",
+      "text": "How AI Is Disrupting Today’s Marketing Landscape - with Marketing Science Professional Ankur Jalan\nMost companies are struggling to measure and optimize their ad spend across a fragmented digital ecosystem— Ankur Jalan uncovers the hidden hurdles marketers face today and how AI is reshaping the game.\n\nIn this episode of After the Download, we explore the evolution of marketing science over the last decade, from primitive metrics to complex, multi-platform measurement challenges compounded by ris…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI Is Disrupting Today\u2019s Marketing Landscape - with Marketing Science Profes\u2026",
+          "title": "How AI Is Disrupting Today’s Marketing Landscape - with Marketing Science Profes…",
           "url": "https://www.youtube.com/watch?v=GuP914kHStg",
           "date": "2026-05-05",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1915,6 +1865,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

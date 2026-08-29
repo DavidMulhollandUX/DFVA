@@ -15,64 +15,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "29-2099-01",
-      "text": "National peak professional bodies and statutory regulators governing Health Technologists and Technicians, All Other enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Health Technologists and Technicians, All Other",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Health Technologists and Technicians, All Other",
-          "url": "https://www.psc.gov.au/standards/29-2099",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Health Technologists and Technicians, All Other"
-        }
-      ],
-      "scope": "Australian practitioners in Health Technologists and Technicians, All Other across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "29-2099-02",
-      "text": "Automation of routine transactional and analytical tasks in Health Technologists and Technicians, All Other heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Health Technologists and Technicians, All Other",
-          "url": "https://www.jobsandskills.gov.au/research/29-2099",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Health Technologists and Technicians, All Other in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Health Technologists and Technicians, All Other roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "Add UK Environment occupation cohort\nAdds the seventh United Kingdom occupation publication cohort for the eight canonical Environment careers, stacked on the UK Education branch.\n\nScope:\n- Environmental Scientist \u2014 SOC 2152/04 Environmental scientists\n- Agronomist \u2014 SOC 2112/01 Agricultural scientists\n- Farm Manager \u2014 SOC 1211 Manager\nDeployment failed for project [campcareer](https://vercel.com/camp-career-s-projects/campcareer) with the following error:\n~~~\nResource is limited - try again in \u2026",
+      "text": "Add UK Environment occupation cohort\nAdds the seventh United Kingdom occupation publication cohort for the eight canonical Environment careers, stacked on the UK Education branch.\n\nScope:\n- Environmental Scientist — SOC 2152/04 Environmental scientists\n- Agronomist — SOC 2112/01 Agricultural scientists\n- Farm Manager — SOC 1211 Manager\nDeployment failed for project [campcareer](https://vercel.com/camp-career-s-projects/campcareer) with the following error:\n~~~\nResource is limited - try again in …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add UK Environment occupation cohort\nAdds the seventh United Kingdom occupation \u2026",
+          "title": "Add UK Environment occupation cohort\nAdds the seventh United Kingdom occupation …",
           "url": "https://github.com/CampCareer/campcareer/pull/194",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -93,7 +43,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Infographic: what two years of community college actually buys\nRanked bars of th\u2026",
+          "title": "Infographic: what two years of community college actually buys\nRanked bars of th…",
           "url": "https://github.com/OneVVish/StudentLoanROI/pull/137",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -114,7 +64,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "PR-D8c: D8 selected display asset import\n## What Changed\n- Expanded `career:impo\u2026",
+          "title": "PR-D8c: D8 selected display asset import\n## What Changed\n- Expanded `career:impo…",
           "url": "https://github.com/fermatmind/fap-api/pull/1132",
           "date": "2026-05-04",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -135,7 +85,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "PR-D8b: D8 authority occupation and crosswalk alignment\n## What changed\n- Remove\u2026",
+          "title": "PR-D8b: D8 authority occupation and crosswalk alignment\n## What changed\n- Remove…",
           "url": "https://github.com/fermatmind/fap-api/pull/1130",
           "date": "2026-05-04",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -339,13 +289,13 @@
     },
     {
       "id": "l516",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -423,13 +373,13 @@
     },
     {
       "id": "l520",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -570,13 +520,13 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -612,13 +562,13 @@
     },
     {
       "id": "l529",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -633,13 +583,13 @@
     },
     {
       "id": "l530",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -654,13 +604,13 @@
     },
     {
       "id": "l531",
-      "text": "Black authors are losing publishing deals due to false AI accusations\nJerry Falade\u2018s debut novel, \u201cCall Me, I\u2019ll Hide the Body,\u201d was scheduled for publication in 2028 after it triggered a massive 14-way auction among major U.S. publishing houses and six-figure bids in the U.K., according to The Guardian. The manuscript was so captivating that Hollywood studios were vying for film and TV adaptation rights before the manuscript was even published, Deadline reported. Marc Gerald of Europa Content\u2014a\u2026",
+      "text": "Black authors are losing publishing deals due to false AI accusations\nJerry Falade‘s debut novel, “Call Me, I’ll Hide the Body,” was scheduled for publication in 2028 after it triggered a massive 14-way auction among major U.S. publishing houses and six-figure bids in the U.K., according to The Guardian. The manuscript was so captivating that Hollywood studios were vying for film and TV adaptation rights before the manuscript was even published, Deadline reported. Marc Gerald of Europa Content—a…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Black authors are losing publishing deals due to false AI accusations\nJerry Fala\u2026",
+          "title": "Black authors are losing publishing deals due to false AI accusations\nJerry Fala…",
           "url": "https://www.reddit.com/r/BlackPeopleofReddit/comments/1vf14uh/black_authors_are_losing_publishing_deals_due_to/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -675,13 +625,13 @@
     },
     {
       "id": "l532",
-      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En\u2026",
+      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment\u2026",
+          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment…",
           "url": "https://www.reddit.com/r/newbrunswickcanada/comments/1vkm48r/lorneville_ai_data_centre_update_eia_technical/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -717,13 +667,13 @@
     },
     {
       "id": "l534",
-      "text": "TL;DR; AI skills beat years of experience. Learn them for free: https://t.co/2uAymo6n6A\n\nSince leaving ALX, I\u2019ve been working intensively, mostly alone, on a stealth project. It\u2019s working. Really well actually (even though I got rejected - again - from YC :)). It\u2019s starting to generate good revenue, and I\u2019m having a ton of fun building again.\n\nBut after a few months, I realized something. I miss the impact and the meaning of helping others. At Holberton, and later at ALX, we had the opportunity",
+      "text": "TL;DR; AI skills beat years of experience. Learn them for free: https://t.co/2uAymo6n6A\n\nSince leaving ALX, I’ve been working intensively, mostly alone, on a stealth project. It’s working. Really well actually (even though I got rejected - again - from YC :)). It’s starting to generate good revenue, and I’m having a ton of fun building again.\n\nBut after a few months, I realized something. I miss the impact and the meaning of helping others. At Holberton, and later at ALX, we had the opportunity",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "TL;DR; AI skills beat years of experience. Learn them for free: https://t.co/2uA\u2026",
+          "title": "TL;DR; AI skills beat years of experience. Learn them for free: https://t.co/2uA…",
           "url": "https://x.com/jbarbier/status/2092924625499869436",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -780,13 +730,13 @@
     },
     {
       "id": "l537",
-      "text": "Psychohistory for the Age of\u00a0AI",
+      "text": "Psychohistory for the Age of AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Psychohistory for the Age of\u00a0AI",
+          "title": "Psychohistory for the Age of AI",
           "url": "https://x.com/sebastian_rtj/status/2092335283492544791",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -843,13 +793,13 @@
     },
     {
       "id": "l540",
-      "text": "About the job\nAnduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century\u2019s most innovative companies to the defense industry, Anduril is changing how military systems are designed, built and sold. Anduril\u2019s family of systems is powered by Lattice OS, an AI-powered operating system that turns thousands of data streams into a realtime, 3D",
+      "text": "About the job\nAnduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how military systems are designed, built and sold. Anduril’s family of systems is powered by Lattice OS, an AI-powered operating system that turns thousands of data streams into a realtime, 3D",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "About the job\nAnduril Industries is a defense technology company with a mission \u2026",
+          "title": "About the job\nAnduril Industries is a defense technology company with a mission …",
           "url": "https://x.com/sumbios/status/2092161057217265948",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -891,7 +841,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Alexa and others are just too limiting, not to mention since they're cloud based\u2026",
+          "title": "Alexa and others are just too limiting, not to mention since they're cloud based…",
           "url": "https://x.com/CarlB_jr/status/2092095017695219995",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -954,7 +904,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "how to create new AI UGC formats for yourself...\n\nevery format is basically 3 de\u2026",
+          "title": "how to create new AI UGC formats for yourself...\n\nevery format is basically 3 de…",
           "url": "https://x.com/CEO_Vlad/status/2092944971062227050",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -975,7 +925,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "i make $1.5M/week with my ecom brand running the \"street interview\" AI UGC forma\u2026",
+          "title": "i make $1.5M/week with my ecom brand running the \"street interview\" AI UGC forma…",
           "url": "https://x.com/CEO_Vlad/status/2092679477549801584",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -996,7 +946,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "date: 2026-08-25 07:00:00+08:00\ndraft: false\noriginal_lang: zh\nsummary: 'Today''\u2026",
+          "title": "date: 2026-08-25 07:00:00+08:00\ndraft: false\noriginal_lang: zh\nsummary: 'Today''…",
           "url": "https://x.com/paramiao/status/2092037987983106403",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1017,7 +967,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "how to print MILLIONS of $ a year selling ai ugc to ecom brands...\n\n(i actively \u2026",
+          "title": "how to print MILLIONS of $ a year selling ai ugc to ecom brands...\n\n(i actively …",
           "url": "https://x.com/CEO_Vlad/status/2093485567497703864",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1032,13 +982,13 @@
     },
     {
       "id": "l549",
-      "text": "@jbarbier @YoussefCharifH2 yes, probably if i expand the scop than just the first step he will register for me and confirm, i thought it will be just just email waitlist, btw i was sleep, i hear the ai agent speak in the speaker \"wake up, julien email\" \ud83d\ude02 was so funny, they see me runing to my laptop",
+      "text": "@jbarbier @YoussefCharifH2 yes, probably if i expand the scop than just the first step he will register for me and confirm, i thought it will be just just email waitlist, btw i was sleep, i hear the ai agent speak in the speaker \"wake up, julien email\" 😂 was so funny, they see me runing to my laptop",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@jbarbier @YoussefCharifH2 yes, probably if i expand the scop than just the firs\u2026",
+          "title": "@jbarbier @YoussefCharifH2 yes, probably if i expand the scop than just the firs…",
           "url": "https://x.com/nuux_tv/status/2092964975799156848",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1053,13 +1003,13 @@
     },
     {
       "id": "l550",
-      "text": "THE ARTICLE THEY DON\u2019T WANT YOU TO READ.",
+      "text": "THE ARTICLE THEY DON’T WANT YOU TO READ.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "THE ARTICLE THEY DON\u2019T WANT YOU TO READ.",
+          "title": "THE ARTICLE THEY DON’T WANT YOU TO READ.",
           "url": "https://x.com/italianvillain_/status/2083906194972762524",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1074,13 +1024,13 @@
     },
     {
       "id": "l551",
-      "text": "How a $20 AI is Replacing $235,000 Lawyers\nLawyers were supposed to be one of the professions AI couldn\u2019t replace. But the legal industry is discovering that many of its most profitable tasks can now be completed by machines in a fraction of the time, and at a fraction of the cost.\n\nThis video explores how artificial intelligence is dismantling the traditional law firm pyramid. Junior associates once spent thousands of billable hours reviewing contracts, researching cases, and drafting documents\u2026",
+      "text": "How a $20 AI is Replacing $235,000 Lawyers\nLawyers were supposed to be one of the professions AI couldn’t replace. But the legal industry is discovering that many of its most profitable tasks can now be completed by machines in a fraction of the time, and at a fraction of the cost.\n\nThis video explores how artificial intelligence is dismantling the traditional law firm pyramid. Junior associates once spent thousands of billable hours reviewing contracts, researching cases, and drafting documents…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How a $20 AI is Replacing $235,000 Lawyers\nLawyers were supposed to be one of th\u2026",
+          "title": "How a $20 AI is Replacing $235,000 Lawyers\nLawyers were supposed to be one of th…",
           "url": "https://www.youtube.com/watch?v=haZ5gddlQ4g",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1095,13 +1045,13 @@
     },
     {
       "id": "l552",
-      "text": "Are graduates prepared for the AI era? | FT Working It\nHow are global education institutions helping graduates in the race to find rewarding first jobs? Working It editor Isabel Berwick finds a selection of tools and skills that students need to drive successful job searches.\n\n\u25ba Enjoying FT content? Get a daily slice of the very best FT journalism with FT Edit. Free for 30 days then just \u00a34.99 a month\n\nSee if you get the FT for free as a student (http://ft.com/schoolsarefree) or start a \u00a31 trial\u2026",
+      "text": "Are graduates prepared for the AI era? | FT Working It\nHow are global education institutions helping graduates in the race to find rewarding first jobs? Working It editor Isabel Berwick finds a selection of tools and skills that students need to drive successful job searches.\n\n► Enjoying FT content? Get a daily slice of the very best FT journalism with FT Edit. Free for 30 days then just £4.99 a month\n\nSee if you get the FT for free as a student (http://ft.com/schoolsarefree) or start a £1 trial…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Are graduates prepared for the AI era? | FT Working It\nHow are global education \u2026",
+          "title": "Are graduates prepared for the AI era? | FT Working It\nHow are global education …",
           "url": "https://www.youtube.com/watch?v=EsdqCEuoI8M",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1116,13 +1066,13 @@
     },
     {
       "id": "l553",
-      "text": "AI Threatens Medical Billing: Choose THIS Instead!\nMedical billing and coding face significant AI disruption risks. Explore safer alternatives for stable careers.\n\nPharmacy tech and phlebotomy offer clear growth paths and demand. These fields provide tangible skills and direct patient interaction, offering a secure future against automation. Choose a career with staying power and genuine opportunity. #MedicalBilling #AICareer #PharmacyTech\nHow about medical billing and coding or pharmacy tech? O\u2026",
+      "text": "AI Threatens Medical Billing: Choose THIS Instead!\nMedical billing and coding face significant AI disruption risks. Explore safer alternatives for stable careers.\n\nPharmacy tech and phlebotomy offer clear growth paths and demand. These fields provide tangible skills and direct patient interaction, offering a secure future against automation. Choose a career with staying power and genuine opportunity. #MedicalBilling #AICareer #PharmacyTech\nHow about medical billing and coding or pharmacy tech? O…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Threatens Medical Billing: Choose THIS Instead!\nMedical billing and coding fa\u2026",
+          "title": "AI Threatens Medical Billing: Choose THIS Instead!\nMedical billing and coding fa…",
           "url": "https://www.youtube.com/watch?v=xl8siK1oV3U",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1137,7 +1087,7 @@
     },
     {
       "id": "l454",
-      "text": "Graduate Nuclear Medicine Technologist \u2014 Integral Diagnostics (IDX) (Sunshine Coast, Queensland, Australia). Posted 2 months ago.",
+      "text": "Graduate Nuclear Medicine Technologist — Integral Diagnostics (IDX) (Sunshine Coast, Queensland, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1158,7 +1108,7 @@
     },
     {
       "id": "l455",
-      "text": "Nuclear Medicine Technologist \u2014 Northern Territory Government (Darwin, Northern Territory, Australia). Posted 3 weeks ago.",
+      "text": "Nuclear Medicine Technologist — Northern Territory Government (Darwin, Northern Territory, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1179,7 +1129,7 @@
     },
     {
       "id": "l456",
-      "text": "Nuclear Medicine Technologist \u2014 Integral Diagnostics (IDX) (Bunbury, Western Australia, Australia). Posted 2 months ago.",
+      "text": "Nuclear Medicine Technologist — Integral Diagnostics (IDX) (Bunbury, Western Australia, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1200,7 +1150,7 @@
     },
     {
       "id": "l457",
-      "text": "Neurosurgery Technician \u2014 St John of God Health Care (Subiaco, Western Australia, Australia). Posted 2 days ago.",
+      "text": "Neurosurgery Technician — St John of God Health Care (Subiaco, Western Australia, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1221,7 +1171,7 @@
     },
     {
       "id": "l458",
-      "text": "Nuclear Medicine Technologist \u2014 Qscan Group (Gold Coast, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Nuclear Medicine Technologist — Qscan Group (Gold Coast, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1242,7 +1192,7 @@
     },
     {
       "id": "l459",
-      "text": "Nuclear Medicine Technologist \u2014 Queensland X-Ray (Brisbane, Queensland, Australia). Posted 1 day ago.",
+      "text": "Nuclear Medicine Technologist — Queensland X-Ray (Brisbane, Queensland, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1263,7 +1213,7 @@
     },
     {
       "id": "l460",
-      "text": "Technical Officer \u2014 Genea (Deakin, Australian Capital Territory, Australia). Posted 5 days ago.",
+      "text": "Technical Officer — Genea (Deakin, Australian Capital Territory, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1284,7 +1234,7 @@
     },
     {
       "id": "l461",
-      "text": "Senior MRI Technician - Moruya (Full Time) \u2014 Qscan Group (Moruya, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Senior MRI Technician - Moruya (Full Time) — Qscan Group (Moruya, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1305,7 +1255,7 @@
     },
     {
       "id": "l462",
-      "text": "Medical Imaging Technologist \u2014 Lake Imaging (Geelong, Victoria, Australia). Posted 1 month ago.",
+      "text": "Medical Imaging Technologist — Lake Imaging (Geelong, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1326,7 +1276,7 @@
     },
     {
       "id": "l463",
-      "text": "Nuclear Medicine Technologist \u2014 Lake Imaging (Geelong, Victoria, Australia). Posted 4 weeks ago.",
+      "text": "Nuclear Medicine Technologist — Lake Imaging (Geelong, Victoria, Australia). Posted 4 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1347,13 +1297,13 @@
     },
     {
       "id": "l564",
-      "text": "Add UK Environment occupation cohort\nAdds the seventh United Kingdom occupation publication cohort for the eight canonical Environment careers, stacked on the UK Education branch.\n\nScope:\n- Environmental Scientist \u2014 SOC 2152/04 Environmental scientists\n- Agronomist \u2014 SOC 2112/01 Agricultural scientists\n- Farm Manager \u2014 SOC 1211 Manager\nDeployment failed for project [campcareer](https://vercel.com/camp-career-s-projects/campcareer) with the following error:\n~~~\nResource is limited - try again in \u2026",
+      "text": "Add UK Environment occupation cohort\nAdds the seventh United Kingdom occupation publication cohort for the eight canonical Environment careers, stacked on the UK Education branch.\n\nScope:\n- Environmental Scientist — SOC 2152/04 Environmental scientists\n- Agronomist — SOC 2112/01 Agricultural scientists\n- Farm Manager — SOC 1211 Manager\nDeployment failed for project [campcareer](https://vercel.com/camp-career-s-projects/campcareer) with the following error:\n~~~\nResource is limited - try again in …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add UK Environment occupation cohort\nAdds the seventh United Kingdom occupation \u2026",
+          "title": "Add UK Environment occupation cohort\nAdds the seventh United Kingdom occupation …",
           "url": "https://github.com/CampCareer/campcareer/pull/194",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1368,13 +1318,13 @@
     },
     {
       "id": "l565",
-      "text": "Black authors are losing publishing deals due to false AI accusations\nJerry Falade\u2018s debut novel, \u201cCall Me, I\u2019ll Hide the Body,\u201d was scheduled for publication in 2028 after it triggered a massive 14-way auction among major U.S. publishing houses and six-figure bids in the U.K., according to The Guardian. The manuscript was so captivating that Hollywood studios were vying for film and TV adaptation rights before the manuscript was even published, Deadline reported. Marc Gerald of Europa Content\u2014a\u2026",
+      "text": "Black authors are losing publishing deals due to false AI accusations\nJerry Falade‘s debut novel, “Call Me, I’ll Hide the Body,” was scheduled for publication in 2028 after it triggered a massive 14-way auction among major U.S. publishing houses and six-figure bids in the U.K., according to The Guardian. The manuscript was so captivating that Hollywood studios were vying for film and TV adaptation rights before the manuscript was even published, Deadline reported. Marc Gerald of Europa Content—a…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Black authors are losing publishing deals due to false AI accusations\nJerry Fala\u2026",
+          "title": "Black authors are losing publishing deals due to false AI accusations\nJerry Fala…",
           "url": "https://www.reddit.com/r/BlackPeopleofReddit/comments/1vf14uh/black_authors_are_losing_publishing_deals_due_to/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1389,13 +1339,13 @@
     },
     {
       "id": "l566",
-      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En\u2026",
+      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment\u2026",
+          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment…",
           "url": "https://www.reddit.com/r/newbrunswickcanada/comments/1vkm48r/lorneville_ai_data_centre_update_eia_technical/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1410,13 +1360,13 @@
     },
     {
       "id": "l567",
-      "text": "How a $20 AI is Replacing $235,000 Lawyers\nLawyers were supposed to be one of the professions AI couldn\u2019t replace. But the legal industry is discovering that many of its most profitable tasks can now be completed by machines in a fraction of the time, and at a fraction of the cost.\n\nThis video explores how artificial intelligence is dismantling the traditional law firm pyramid. Junior associates once spent thousands of billable hours reviewing contracts, researching cases, and drafting documents\u2026",
+      "text": "How a $20 AI is Replacing $235,000 Lawyers\nLawyers were supposed to be one of the professions AI couldn’t replace. But the legal industry is discovering that many of its most profitable tasks can now be completed by machines in a fraction of the time, and at a fraction of the cost.\n\nThis video explores how artificial intelligence is dismantling the traditional law firm pyramid. Junior associates once spent thousands of billable hours reviewing contracts, researching cases, and drafting documents…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How a $20 AI is Replacing $235,000 Lawyers\nLawyers were supposed to be one of th\u2026",
+          "title": "How a $20 AI is Replacing $235,000 Lawyers\nLawyers were supposed to be one of th…",
           "url": "https://www.youtube.com/watch?v=haZ5gddlQ4g",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1431,13 +1381,13 @@
     },
     {
       "id": "l568",
-      "text": "Are graduates prepared for the AI era? | FT Working It\nHow are global education institutions helping graduates in the race to find rewarding first jobs? Working It editor Isabel Berwick finds a selection of tools and skills that students need to drive successful job searches.\n\n\u25ba Enjoying FT content? Get a daily slice of the very best FT journalism with FT Edit. Free for 30 days then just \u00a34.99 a month\n\nSee if you get the FT for free as a student (http://ft.com/schoolsarefree) or start a \u00a31 trial\u2026",
+      "text": "Are graduates prepared for the AI era? | FT Working It\nHow are global education institutions helping graduates in the race to find rewarding first jobs? Working It editor Isabel Berwick finds a selection of tools and skills that students need to drive successful job searches.\n\n► Enjoying FT content? Get a daily slice of the very best FT journalism with FT Edit. Free for 30 days then just £4.99 a month\n\nSee if you get the FT for free as a student (http://ft.com/schoolsarefree) or start a £1 trial…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Are graduates prepared for the AI era? | FT Working It\nHow are global education \u2026",
+          "title": "Are graduates prepared for the AI era? | FT Working It\nHow are global education …",
           "url": "https://www.youtube.com/watch?v=EsdqCEuoI8M",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1452,13 +1402,13 @@
     },
     {
       "id": "l569",
-      "text": "AI Threatens Medical Billing: Choose THIS Instead!\nMedical billing and coding face significant AI disruption risks. Explore safer alternatives for stable careers.\n\nPharmacy tech and phlebotomy offer clear growth paths and demand. These fields provide tangible skills and direct patient interaction, offering a secure future against automation. Choose a career with staying power and genuine opportunity. #MedicalBilling #AICareer #PharmacyTech\nHow about medical billing and coding or pharmacy tech? O\u2026",
+      "text": "AI Threatens Medical Billing: Choose THIS Instead!\nMedical billing and coding face significant AI disruption risks. Explore safer alternatives for stable careers.\n\nPharmacy tech and phlebotomy offer clear growth paths and demand. These fields provide tangible skills and direct patient interaction, offering a secure future against automation. Choose a career with staying power and genuine opportunity. #MedicalBilling #AICareer #PharmacyTech\nHow about medical billing and coding or pharmacy tech? O…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Threatens Medical Billing: Choose THIS Instead!\nMedical billing and coding fa\u2026",
+          "title": "AI Threatens Medical Billing: Choose THIS Instead!\nMedical billing and coding fa…",
           "url": "https://www.youtube.com/watch?v=xl8siK1oV3U",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1549,6 +1499,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

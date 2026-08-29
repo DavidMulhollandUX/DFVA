@@ -15,64 +15,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "43-9061-01",
-      "text": "National peak professional bodies and statutory regulators governing Office Clerks, General enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Office Clerks, General",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Office Clerks, General",
-          "url": "https://www.psc.gov.au/standards/43-9061",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Office Clerks, General"
-        }
-      ],
-      "scope": "Australian practitioners in Office Clerks, General across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "43-9061-02",
-      "text": "Automation of routine transactional and analytical tasks in Office Clerks, General heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Office Clerks, General",
-          "url": "https://www.jobsandskills.gov.au/research/43-9061",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Office Clerks, General in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Office Clerks, General roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "AK: results_url not set \u2014 Clarity adapter assumption unverified\n## Summary\nFollowing the CT dual-ID fix (#170) and its live verification, tried to run the same \"Race Creation: Untested \u2192 Verified\" check against AK and WY (both flagged `\u26a0\ufe0f Untested` in `docs/state-research/00-MASTER-INDEX.md`, tier \"Results Coverage Only\").\n\nBoth currently use `ClarityAdapter` (`\n<html><head></head><body><p>I reviewed issue #178, the current Wyoming research file, and the available first-party Wyoming election sy\u2026",
+      "text": "AK: results_url not set — Clarity adapter assumption unverified\n## Summary\nFollowing the CT dual-ID fix (#170) and its live verification, tried to run the same \"Race Creation: Untested → Verified\" check against AK and WY (both flagged `⚠️ Untested` in `docs/state-research/00-MASTER-INDEX.md`, tier \"Results Coverage Only\").\n\nBoth currently use `ClarityAdapter` (`\n<html><head></head><body><p>I reviewed issue #178, the current Wyoming research file, and the available first-party Wyoming election sy…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "AK: results_url not set \u2014 Clarity adapter assumption unverified\n## Summary\nFollo\u2026",
+          "title": "AK: results_url not set — Clarity adapter assumption unverified\n## Summary\nFollo…",
           "url": "https://github.com/CivicMirror/CivicMirror-API/issues/178",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -93,7 +43,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Show Marshall's Wenona council, on the clerk's stated provenance\nWenona straddle\u2026",
+          "title": "Show Marshall's Wenona council, on the clerk's stated provenance\nWenona straddle…",
           "url": "https://github.com/ThursdaysFamous/districtry/pull/287",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -108,13 +58,13 @@
     },
     {
       "id": "l505",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -129,13 +79,13 @@
     },
     {
       "id": "l506",
-      "text": "feat(offices): local office catalog batch \u2014 matcher key fixes, migration 184, NULL-office repair wrapper\n## Summary\n\nRound-24 office-catalog batch: clears every future NULL-office election shell on the manual-research database (358 shells, 600 stranded candidate links \u2014 office_id = NULL hard-blocks the candidate-records stage for all of them) and makes the same title forms match on future injections.\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_s\u2026",
+      "text": "feat(offices): local office catalog batch — matcher key fixes, migration 184, NULL-office repair wrapper\n## Summary\n\nRound-24 office-catalog batch: clears every future NULL-office election shell on the manual-research database (358 shells, 600 stranded candidate links — office_id = NULL hard-blocks the candidate-records stage for all of them) and makes the same title forms match on future injections.\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_s…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(offices): local office catalog batch \u2014 matcher key fixes, migration 184, NU\u2026",
+          "title": "feat(offices): local office catalog batch — matcher key fixes, migration 184, NU…",
           "url": "https://github.com/shu1513/voteapp/pull/287",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -150,13 +100,13 @@
     },
     {
       "id": "l507",
-      "text": "Normalize the footer sigil to one canonical form\n# AGENT PR TEMPLATE\n\n**Agent:** Claude (session `01Fipj4vEJ5ADPuunn9ed5Hd`)\n**Date:** 2026-08-03\n**Branch:** `claude/shall-rome-lyrics-ok9049`\n\n---\n\n## Changes Made\n\n- **The footer sigil now has exactly one spelling: `The world is quiet here\uff0eEsto Perpetua!`** \u2014 U+FF0E FULLWIDTH FULL STOP, plain text",
+      "text": "Normalize the footer sigil to one canonical form\n# AGENT PR TEMPLATE\n\n**Agent:** Claude (session `01Fipj4vEJ5ADPuunn9ed5Hd`)\n**Date:** 2026-08-03\n**Branch:** `claude/shall-rome-lyrics-ok9049`\n\n---\n\n## Changes Made\n\n- **The footer sigil now has exactly one spelling: `The world is quiet here．Esto Perpetua!`** — U+FF0E FULLWIDTH FULL STOP, plain text",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Normalize the footer sigil to one canonical form\n# AGENT PR TEMPLATE\n\n**Agent:**\u2026",
+          "title": "Normalize the footer sigil to one canonical form\n# AGENT PR TEMPLATE\n\n**Agent:**…",
           "url": "https://github.com/LAF-US/IDAHO-VAULT/pull/892",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -171,13 +121,13 @@
     },
     {
       "id": "l508",
-      "text": "docs(research): state ballot-order batch 4 \u2014 IA NV AR KS MS NM NE ID WV HI\nBatch 4 of the 50-state ballot contest-order research campaign (plan #720; batches 1-3 = #721/#722/#725). Docs-only \u2014 no code changes.\n\n## Final grades (post-adversarial-verification)\n\n| Grade | States |\n|---|---|\n| A | IA, NV, NM, MS |\n| A (scoped) | HI, KS, NE, WV |\n| B | ID |\n| C | AR |\n\nRunning",
+      "text": "docs(research): state ballot-order batch 4 — IA NV AR KS MS NM NE ID WV HI\nBatch 4 of the 50-state ballot contest-order research campaign (plan #720; batches 1-3 = #721/#722/#725). Docs-only — no code changes.\n\n## Final grades (post-adversarial-verification)\n\n| Grade | States |\n|---|---|\n| A | IA, NV, NM, MS |\n| A (scoped) | HI, KS, NE, WV |\n| B | ID |\n| C | AR |\n\nRunning",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "docs(research): state ballot-order batch 4 \u2014 IA NV AR KS MS NM NE ID WV HI\nBatch\u2026",
+          "title": "docs(research): state ballot-order batch 4 — IA NV AR KS MS NM NE ID WV HI\nBatch…",
           "url": "https://github.com/shu1513/voteapp/pull/726",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -192,13 +142,13 @@
     },
     {
       "id": "l509",
-      "text": "docs(research): regrade sweep \u2014 TN to A, GA to scoped A, NY to B (A-class now 46)\n## What\n\nRegrade sweep of the 7 jurisdictions that finished the 50-state ballot-order campaign below grade A (PA, GA, TN, ID, NY, MO, AR). Dual-track per request: Codex subagents (`gpt-5.6-sol`, effort high) ran one sweep per state, and every load-bearing claim was then re-researched/verified indepe",
+      "text": "docs(research): regrade sweep — TN to A, GA to scoped A, NY to B (A-class now 46)\n## What\n\nRegrade sweep of the 7 jurisdictions that finished the 50-state ballot-order campaign below grade A (PA, GA, TN, ID, NY, MO, AR). Dual-track per request: Codex subagents (`gpt-5.6-sol`, effort high) ran one sweep per state, and every load-bearing claim was then re-researched/verified indepe",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "docs(research): regrade sweep \u2014 TN to A, GA to scoped A, NY to B (A-class now 46\u2026",
+          "title": "docs(research): regrade sweep — TN to A, GA to scoped A, NY to B (A-class now 46…",
           "url": "https://github.com/shu1513/voteapp/pull/732",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -213,13 +163,13 @@
     },
     {
       "id": "l510",
-      "text": "docs(research): state ballot-order batch 2 (NJ VA WA AZ TN MA IN MO MD WI)\nBatch 2 of the 50-state ballot contest-order research campaign (plan #720, batch 1 #721). Docs-only \u2014 no code changes.\n\n## What's in it\n\n10 jurisdictions researched with the plan's 7-question schema (1 research agent per state), then an **adversarial verification pass** (3 verifiers told to refute,",
+      "text": "docs(research): state ballot-order batch 2 (NJ VA WA AZ TN MA IN MO MD WI)\nBatch 2 of the 50-state ballot contest-order research campaign (plan #720, batch 1 #721). Docs-only — no code changes.\n\n## What's in it\n\n10 jurisdictions researched with the plan's 7-question schema (1 research agent per state), then an **adversarial verification pass** (3 verifiers told to refute,",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "docs(research): state ballot-order batch 2 (NJ VA WA AZ TN MA IN MO MD WI)\nBatch\u2026",
+          "title": "docs(research): state ballot-order batch 2 (NJ VA WA AZ TN MA IN MO MD WI)\nBatch…",
           "url": "https://github.com/shu1513/voteapp/pull/722",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -234,13 +184,13 @@
     },
     {
       "id": "l511",
-      "text": "feat(allotment): add admission seat allotment with quota-aware ranking and a waitlist cascade (fixes #338)\nCloses #338.\n\n`Application` takes an admission enquiry and stores it. Everything that happens next \u2014 the merit list, the reserved seats, the confirmation deadline, the waitlist \u2014 happens in a spreadsheet, and every one of those is arithmetic a person is doing by hand, under time pressure, about chil",
+      "text": "feat(allotment): add admission seat allotment with quota-aware ranking and a waitlist cascade (fixes #338)\nCloses #338.\n\n`Application` takes an admission enquiry and stores it. Everything that happens next — the merit list, the reserved seats, the confirmation deadline, the waitlist — happens in a spreadsheet, and every one of those is arithmetic a person is doing by hand, under time pressure, about chil",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(allotment): add admission seat allotment with quota-aware ranking and a wai\u2026",
+          "title": "feat(allotment): add admission seat allotment with quota-aware ranking and a wai…",
           "url": "https://github.com/Sitaram8472/School_Website/pull/343",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -261,7 +211,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(unions): add the missing US and UK union emblems\nNine seeded unions were fa\u2026",
+          "title": "feat(unions): add the missing US and UK union emblems\nNine seeded unions were fa…",
           "url": "https://github.com/Egg3901/AHDGame/pull/393",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -282,7 +232,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Vault-wide markdownlint fix at pure defaults; remove MD025 config hack; fix pros\u2026",
+          "title": "Vault-wide markdownlint fix at pure defaults; remove MD025 config hack; fix pros…",
           "url": "https://github.com/LAF-US/IDAHO-VAULT/pull/871",
           "date": "2026-07-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -297,13 +247,13 @@
     },
     {
       "id": "l514",
-      "text": "Stop classifying prosecutors as judicial offices\n## Problem\n\n`isJudicialOfficeTitle()` matches the bare word `judicial`. Every Georgia district attorney's official ballot title is `District Attorney - <X> Judicial Circuit` \u2014 O.C.G.A. 15-6-1 names all 50+ Georgia circuits \"<X> Judicial Circuit\". So a GA DA contest was classified as judicial, GA is",
+      "text": "Stop classifying prosecutors as judicial offices\n## Problem\n\n`isJudicialOfficeTitle()` matches the bare word `judicial`. Every Georgia district attorney's official ballot title is `District Attorney - <X> Judicial Circuit` — O.C.G.A. 15-6-1 names all 50+ Georgia circuits \"<X> Judicial Circuit\". So a GA DA contest was classified as judicial, GA is",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Stop classifying prosecutors as judicial offices\n## Problem\n\n`isJudicialOfficeTi\u2026",
+          "title": "Stop classifying prosecutors as judicial offices\n## Problem\n\n`isJudicialOfficeTi…",
           "url": "https://github.com/shu1513/voteapp/pull/610",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -318,13 +268,13 @@
     },
     {
       "id": "l515",
-      "text": "Optimize catalogue generator vendor and WhatsApp Access Hub link retrieval\n## Objective\nImprove retrieval speed on the Create Catalogue page. The page currently shows empty entitlement rows, no vendor rows, and slow/empty WhatsApp Access Hub link loading. Vendors and WhatsApp links should load quickly using staged reads, summaries, caching, and indexed queries.\n\n## Require\nRuntime error from local console after catalogue retrieval optimization:\n\n```text\nReferenceError: detailedVendors is not def\u2026",
+      "text": "Optimize catalogue generator vendor and WhatsApp Access Hub link retrieval\n## Objective\nImprove retrieval speed on the Create Catalogue page. The page currently shows empty entitlement rows, no vendor rows, and slow/empty WhatsApp Access Hub link loading. Vendors and WhatsApp links should load quickly using staged reads, summaries, caching, and indexed queries.\n\n## Require\nRuntime error from local console after catalogue retrieval optimization:\n\n```text\nReferenceError: detailedVendors is not def…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Optimize catalogue generator vendor and WhatsApp Access Hub link retrieval\n## Ob\u2026",
+          "title": "Optimize catalogue generator vendor and WhatsApp Access Hub link retrieval\n## Ob…",
           "url": "https://github.com/seigendc-cmyk/itred/issues/10",
           "date": "2026-05-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -528,13 +478,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -549,13 +499,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -570,13 +520,13 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: Sharper \u2013 an AI office agent grounded in your knowledge, with citations",
+      "text": "Show HN: Sharper – an AI office agent grounded in your knowledge, with citations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Sharper \u2013 an AI office agent grounded in your knowledge, with citations",
+          "title": "Show HN: Sharper – an AI office agent grounded in your knowledge, with citations",
           "url": "https://sharper-ai.co",
           "date": "2026-07-20",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -738,13 +688,13 @@
     },
     {
       "id": "l535",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -780,13 +730,13 @@
     },
     {
       "id": "l537",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -822,13 +772,13 @@
     },
     {
       "id": "l539",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -843,13 +793,13 @@
     },
     {
       "id": "l540",
-      "text": "Formal Notice of Statutory Non-Compliance filed with City Clerk's Office 8-5-26\n\u00a711-33-107 If a public recreation board or commission shall be established, it shall discharge its functions through a public recreation department, as provided in Section 33-106 of this title, shall make annual reports, shall adopt rules and regulations and establish general policies for the conduct of its business and for the operation of public recreational activities and services. &#32; submitted by &#32; /u/Prot\u2026",
+      "text": "Formal Notice of Statutory Non-Compliance filed with City Clerk's Office 8-5-26\n§11-33-107 If a public recreation board or commission shall be established, it shall discharge its functions through a public recreation department, as provided in Section 33-106 of this title, shall make annual reports, shall adopt rules and regulations and establish general policies for the conduct of its business and for the operation of public recreational activities and services. &#32; submitted by &#32; /u/Prot…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Formal Notice of Statutory Non-Compliance filed with City Clerk's Office 8-5-26\n\u2026",
+          "title": "Formal Notice of Statutory Non-Compliance filed with City Clerk's Office 8-5-26\n…",
           "url": "https://www.reddit.com/r/tulsa/comments/1vuf8wo/formal_notice_of_statutory_noncompliance_filed/",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -864,13 +814,13 @@
     },
     {
       "id": "l541",
-      "text": "AI slop is swamping a House office that drafts US laws: The Office of Legislative Counsel is facing a barrage of new AI-generated bills, many of which are riddled with errors.\nCongressional lawyers are struggling to manage a flood of legislative proposals generated using artificial intelligence tools, many of them riddled with errors and shoddy language. The strain on the House Office of Legislative Counsel is increasing as more congressional offices and outside groups rely on generative AI to d\u2026",
+      "text": "AI slop is swamping a House office that drafts US laws: The Office of Legislative Counsel is facing a barrage of new AI-generated bills, many of which are riddled with errors.\nCongressional lawyers are struggling to manage a flood of legislative proposals generated using artificial intelligence tools, many of them riddled with errors and shoddy language. The strain on the House Office of Legislative Counsel is increasing as more congressional offices and outside groups rely on generative AI to d…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI slop is swamping a House office that drafts US laws: The Office of Legislativ\u2026",
+          "title": "AI slop is swamping a House office that drafts US laws: The Office of Legislativ…",
           "url": "https://www.reddit.com/r/law/comments/1vqqv7m/ai_slop_is_swamping_a_house_office_that_drafts_us/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -891,7 +841,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "> Job uncertainty.\n> Layoffs.\n> Constant upskilling.\n> Long screen time.\n> Work \u2026",
+          "title": "> Job uncertainty.\n> Layoffs.\n> Constant upskilling.\n> Long screen time.\n> Work …",
           "url": "https://x.com/chanduuu_cs/status/2092799123330388096",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -990,13 +940,13 @@
     },
     {
       "id": "l547",
-      "text": "YOUR AI AGENT DOESN\u2019T NEED A BIGGER BRAIN. IT NEEDS A BETTER MEMORY.",
+      "text": "YOUR AI AGENT DOESN’T NEED A BIGGER BRAIN. IT NEEDS A BETTER MEMORY.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "YOUR AI AGENT DOESN\u2019T NEED A BIGGER BRAIN. IT NEEDS A BETTER MEMORY.",
+          "title": "YOUR AI AGENT DOESN’T NEED A BIGGER BRAIN. IT NEEDS A BETTER MEMORY.",
           "url": "https://x.com/bykushnir/status/2092563824566050843",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1011,13 +961,13 @@
     },
     {
       "id": "l548",
-      "text": "TERAFAB\n\nNEW TODAY\n- Folder now 174 posts (9 new since Aug 24)\n- Testers (cb_doge): fully signed 34-page tax agreement among the Governor\u2019s Office, Anderson-Shiro CISD, and TeraFab AI published; construction Dec 1, 2026\u2013Dec 31, 2028; 10-year school M&O incentive 2029\u20132038 (qualifying value $0 during construction, 50% of market during the incentive window); $12.98M performance bond. Dump-only; not Official Tesla/SpaceX.\n- Testers (cb_doge / tslaming / muskonomy): Phases 2 and 3 Texas Comptroller",
+      "text": "TERAFAB\n\nNEW TODAY\n- Folder now 174 posts (9 new since Aug 24)\n- Testers (cb_doge): fully signed 34-page tax agreement among the Governor’s Office, Anderson-Shiro CISD, and TeraFab AI published; construction Dec 1, 2026–Dec 31, 2028; 10-year school M&O incentive 2029–2038 (qualifying value $0 during construction, 50% of market during the incentive window); $12.98M performance bond. Dump-only; not Official Tesla/SpaceX.\n- Testers (cb_doge / tslaming / muskonomy): Phases 2 and 3 Texas Comptroller",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "TERAFAB\n\nNEW TODAY\n- Folder now 174 posts (9 new since Aug 24)\n- Testers (cb_dog\u2026",
+          "title": "TERAFAB\n\nNEW TODAY\n- Folder now 174 posts (9 new since Aug 24)\n- Testers (cb_dog…",
           "url": "https://x.com/arthur_win8/status/2092615188591849981",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1053,13 +1003,13 @@
     },
     {
       "id": "l550",
-      "text": "AI Made Simple \u2014 August 27, 2026",
+      "text": "AI Made Simple — August 27, 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Made Simple \u2014 August 27, 2026",
+          "title": "AI Made Simple — August 27, 2026",
           "url": "https://x.com/eltintero/status/2093012556243710067",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1074,13 +1024,13 @@
     },
     {
       "id": "l551",
-      "text": "@Meta is now testing robots inside its own data centers \u2014 plugging cables, resetting servers, moving equipment.\n\nThis is the physical AI transition people are underestimating.",
+      "text": "@Meta is now testing robots inside its own data centers — plugging cables, resetting servers, moving equipment.\n\nThis is the physical AI transition people are underestimating.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Meta is now testing robots inside its own data centers \u2014 plugging cables, reset\u2026",
+          "title": "@Meta is now testing robots inside its own data centers — plugging cables, reset…",
           "url": "https://x.com/vigneshwer_ram/status/2093574078712135723",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1122,7 +1072,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@nathanmhansen If there's ever been a better legal mind running for that office,\u2026",
+          "title": "@nathanmhansen If there's ever been a better legal mind running for that office,…",
           "url": "https://x.com/Wikitube911/status/2093520988797305307",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1164,7 +1114,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "That's because no one has talked about the Lawsuit Against Minnesota's Affirmati\u2026",
+          "title": "That's because no one has talked about the Lawsuit Against Minnesota's Affirmati…",
           "url": "https://x.com/Wikitube911/status/2093533517275656619",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1185,7 +1135,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@PamAltendorf @mnstatefair Guess who has two thumbs and told Arne Carlson this w\u2026",
+          "title": "@PamAltendorf @mnstatefair Guess who has two thumbs and told Arne Carlson this w…",
           "url": "https://x.com/Wikitube911/status/2093537829682835952",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1200,13 +1150,13 @@
     },
     {
       "id": "l557",
-      "text": "@Wikitube911 \ud83d\udcaf",
+      "text": "@Wikitube911 💯",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Wikitube911 \ud83d\udcaf",
+          "title": "@Wikitube911 💯",
           "url": "https://x.com/DermerDavid/status/2093534464190111877",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1221,13 +1171,13 @@
     },
     {
       "id": "l558",
-      "text": "@vigneshwer_ram Yeah, but it\u2019s not the only part of the technique, at least not how people would imagine an output from a sound. \n\nthe speaker emits a ~20 kHz tone \u2192 the hand reflects or alters the sound \u2192 the microphone listens to the returning signal \u2192 the software analyzes the change.",
+      "text": "@vigneshwer_ram Yeah, but it’s not the only part of the technique, at least not how people would imagine an output from a sound. \n\nthe speaker emits a ~20 kHz tone → the hand reflects or alters the sound → the microphone listens to the returning signal → the software analyzes the change.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@vigneshwer_ram Yeah, but it\u2019s not the only part of the technique, at least not \u2026",
+          "title": "@vigneshwer_ram Yeah, but it’s not the only part of the technique, at least not …",
           "url": "https://x.com/ty_kra_lab/status/2093286508744606148",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1242,13 +1192,13 @@
     },
     {
       "id": "l559",
-      "text": "@perceptroninc just released Isaac 0.5, a 36B open-weight model that combines vision, reasoning AND robot control.\n\nThe crazy bit: scaling general video training from 1,000 \u2192 1M hours reportedly cut the teleop data needed for the same action loss from ~5,900 hours to 28.\n\nIf this scaling holds, robotics may have its \u201cinternet-scale pretraining\u201d moment much sooner than people think.",
+      "text": "@perceptroninc just released Isaac 0.5, a 36B open-weight model that combines vision, reasoning AND robot control.\n\nThe crazy bit: scaling general video training from 1,000 → 1M hours reportedly cut the teleop data needed for the same action loss from ~5,900 hours to 28.\n\nIf this scaling holds, robotics may have its “internet-scale pretraining” moment much sooner than people think.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@perceptroninc just released Isaac 0.5, a 36B open-weight model that combines vi\u2026",
+          "title": "@perceptroninc just released Isaac 0.5, a 36B open-weight model that combines vi…",
           "url": "https://x.com/vigneshwer_ram/status/2093588763834470418",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1284,13 +1234,13 @@
     },
     {
       "id": "l561",
-      "text": "@dufaultformn \ud83d\udcaf Here's the twin mechanism in statute. \n\nOne, specifially 43a.191, is challenged in @TheJusticeDept @CivilRights  US v MN Lawsuit Against Minnesota's Affirmative Action Regime.\n\nThere are more but these two are the functional circuit blown open with 2020's racism public health crisis declaration.",
+      "text": "@dufaultformn 💯 Here's the twin mechanism in statute. \n\nOne, specifially 43a.191, is challenged in @TheJusticeDept @CivilRights  US v MN Lawsuit Against Minnesota's Affirmative Action Regime.\n\nThere are more but these two are the functional circuit blown open with 2020's racism public health crisis declaration.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@dufaultformn \ud83d\udcaf Here's the twin mechanism in statute. \n\nOne, specifially 43a.191\u2026",
+          "title": "@dufaultformn 💯 Here's the twin mechanism in statute. \n\nOne, specifially 43a.191…",
           "url": "https://x.com/Wikitube911/status/2093536864267329882",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1305,13 +1255,13 @@
     },
     {
       "id": "l562",
-      "text": "@gxjo_dev Hahahahah congratulations \ud83d\udc4f",
+      "text": "@gxjo_dev Hahahahah congratulations 👏",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@gxjo_dev Hahahahah congratulations \ud83d\udc4f",
+          "title": "@gxjo_dev Hahahahah congratulations 👏",
           "url": "https://x.com/chanduuu_cs/status/2093578653208912278",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1347,13 +1297,13 @@
     },
     {
       "id": "l564",
-      "text": "@devemin And some PLA\ud83d\ude10",
+      "text": "@devemin And some PLA😐",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@devemin And some PLA\ud83d\ude10",
+          "title": "@devemin And some PLA😐",
           "url": "https://x.com/vigneshwer_ram/status/2093591132584436109",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1374,7 +1324,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@DermerDavid @dufaultformn @TheJusticeDept @CivilRights I've strip mined the rec\u2026",
+          "title": "@DermerDavid @dufaultformn @TheJusticeDept @CivilRights I've strip mined the rec…",
           "url": "https://x.com/Wikitube911/status/2093539920304304435",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1416,7 +1366,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@vigneshwer_ram @hthieblot @_raghuvamsi @Mankaran32 @antoinepirrone @tnkrdotai 1\u2026",
+          "title": "@vigneshwer_ram @hthieblot @_raghuvamsi @Mankaran32 @antoinepirrone @tnkrdotai 1…",
           "url": "https://x.com/NeuralYogi/status/2093121243272696235",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1431,13 +1381,13 @@
     },
     {
       "id": "l568",
-      "text": "@mntruell It\u2019s not it would matter now that Elon took control and probably gonna just push Grok Models to run on cursor?",
+      "text": "@mntruell It’s not it would matter now that Elon took control and probably gonna just push Grok Models to run on cursor?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@mntruell It\u2019s not it would matter now that Elon took control and probably gonna\u2026",
+          "title": "@mntruell It’s not it would matter now that Elon took control and probably gonna…",
           "url": "https://x.com/vigneshwer_ram/status/2093590900949893501",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1494,13 +1444,13 @@
     },
     {
       "id": "l571",
-      "text": "At some point there\u2019s going to be so billions if not trillions of apps with less than 3 users!",
+      "text": "At some point there’s going to be so billions if not trillions of apps with less than 3 users!",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "At some point there\u2019s going to be so billions if not trillions of apps with less\u2026",
+          "title": "At some point there’s going to be so billions if not trillions of apps with less…",
           "url": "https://x.com/vigneshwer_ram/status/2093562925529419838",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1515,13 +1465,13 @@
     },
     {
       "id": "l572",
-      "text": "@RenesasGlobal says it can already cover ~30% of a humanoid robot\u2019s BOM \u2014 and sees a path to 70%.\n\nThat\u2019s kinda insane.\n\nSemiconductor companies aren\u2019t just supplying the robotics boom anymore. They\u2019re positioning themselves to own huge chunks of the robotics stack.",
+      "text": "@RenesasGlobal says it can already cover ~30% of a humanoid robot’s BOM — and sees a path to 70%.\n\nThat’s kinda insane.\n\nSemiconductor companies aren’t just supplying the robotics boom anymore. They’re positioning themselves to own huge chunks of the robotics stack.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@RenesasGlobal says it can already cover ~30% of a humanoid robot\u2019s BOM \u2014 and se\u2026",
+          "title": "@RenesasGlobal says it can already cover ~30% of a humanoid robot’s BOM — and se…",
           "url": "https://x.com/vigneshwer_ram/status/2093561404125290558",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1557,13 +1507,13 @@
     },
     {
       "id": "l574",
-      "text": "@athrix_codes Happiest birthday \ud83c\udf82",
+      "text": "@athrix_codes Happiest birthday 🎂",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@athrix_codes Happiest birthday \ud83c\udf82",
+          "title": "@athrix_codes Happiest birthday 🎂",
           "url": "https://x.com/chanduuu_cs/status/2093578911477334268",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1599,13 +1549,13 @@
     },
     {
       "id": "l576",
-      "text": "@launch_llama Congratulations mann \ud83d\udc4f",
+      "text": "@launch_llama Congratulations mann 👏",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@launch_llama Congratulations mann \ud83d\udc4f",
+          "title": "@launch_llama Congratulations mann 👏",
           "url": "https://x.com/chanduuu_cs/status/2093578761249997188",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1662,13 +1612,13 @@
     },
     {
       "id": "l579",
-      "text": "@jehangeer_hasan Great keep going \ud83d\udcaa",
+      "text": "@jehangeer_hasan Great keep going 💪",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@jehangeer_hasan Great keep going \ud83d\udcaa",
+          "title": "@jehangeer_hasan Great keep going 💪",
           "url": "https://x.com/chanduuu_cs/status/2093578458752594077",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1689,7 +1639,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Wikitube911 You said not since 1973. For presidents, after Eisenhower, there wa\u2026",
+          "title": "@Wikitube911 You said not since 1973. For presidents, after Eisenhower, there wa…",
           "url": "https://x.com/NancyReynolds89/status/2093571402821402945",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1704,13 +1654,13 @@
     },
     {
       "id": "l581",
-      "text": "@Wikitube911 100%\nI'm on team @jbeam123  \ud83d\ude04",
+      "text": "@Wikitube911 100%\nI'm on team @jbeam123  😄",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Wikitube911 100%\nI'm on team @jbeam123  \ud83d\ude04",
+          "title": "@Wikitube911 100%\nI'm on team @jbeam123  😄",
           "url": "https://x.com/srwDoc/status/2093570124565336298",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1752,7 +1702,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Wikitube911 @dufaultformn @TheJusticeDept @CivilRights Filed under Minnesota Fr\u2026",
+          "title": "@Wikitube911 @dufaultformn @TheJusticeDept @CivilRights Filed under Minnesota Fr…",
           "url": "https://x.com/DermerDavid/status/2093538630048321899",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1851,13 +1801,13 @@
     },
     {
       "id": "l588",
-      "text": "@chanduuu_cs Actually \ud83d\udcaf",
+      "text": "@chanduuu_cs Actually 💯",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@chanduuu_cs Actually \ud83d\udcaf",
+          "title": "@chanduuu_cs Actually 💯",
           "url": "https://x.com/YashHustle_22/status/2093588911469498517",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1893,13 +1843,13 @@
     },
     {
       "id": "l590",
-      "text": "@vigneshwer_ram Same \ud83d\udc40 The speed makes a huge difference, especially when you\u2019re iterating quickly.\n\nFast responses almost make you want to throw more ideas at it \ud83d\ude02",
+      "text": "@vigneshwer_ram Same 👀 The speed makes a huge difference, especially when you’re iterating quickly.\n\nFast responses almost make you want to throw more ideas at it 😂",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@vigneshwer_ram Same \ud83d\udc40 The speed makes a huge difference, especially when you\u2019re\u2026",
+          "title": "@vigneshwer_ram Same 👀 The speed makes a huge difference, especially when you’re…",
           "url": "https://x.com/t0midee/status/2093253076035481601",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1935,13 +1885,13 @@
     },
     {
       "id": "l592",
-      "text": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California lawmakers debate AI regulation and voters prepare to weigh a proposed 5% one-time billionaire tax, labor leaders are pushing back against what they see as growing threats to workers.\n\nPolitical Breakdown host Marisa Lagos sits down with Lorena Gonzalez, president of the California Federation of Labor Unions, to discuss AI in the workplace, worker surveillance and human oversight. They also discuss California\u2019s proposed \u2026",
+      "text": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California lawmakers debate AI regulation and voters prepare to weigh a proposed 5% one-time billionaire tax, labor leaders are pushing back against what they see as growing threats to workers.\n\nPolitical Breakdown host Marisa Lagos sits down with Lorena Gonzalez, president of the California Federation of Labor Unions, to discuss AI in the workplace, worker surveillance and human oversight. They also discuss California’s proposed …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California law\u2026",
+          "title": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California law…",
           "url": "https://www.youtube.com/watch?v=WLbvdWXuR3Y",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1956,13 +1906,13 @@
     },
     {
       "id": "l593",
-      "text": "The Death Of White-Collar Jobs Has Already Started (AI Is Replacing Knowledge Work)\nArtificial Intelligence is no longer just assisting office workers\u2014it's beginning to replace them.\n\nAcross software engineering, finance, law, marketing, consulting, customer service, accounting, and other knowledge-based professions, AI is taking over tasks that once required years of education and experience. Companies are deploying AI copilots and autonomous AI agents to write code, analyse data, create report\u2026",
+      "text": "The Death Of White-Collar Jobs Has Already Started (AI Is Replacing Knowledge Work)\nArtificial Intelligence is no longer just assisting office workers—it's beginning to replace them.\n\nAcross software engineering, finance, law, marketing, consulting, customer service, accounting, and other knowledge-based professions, AI is taking over tasks that once required years of education and experience. Companies are deploying AI copilots and autonomous AI agents to write code, analyse data, create report…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Death Of White-Collar Jobs Has Already Started (AI Is Replacing Knowledge Wo\u2026",
+          "title": "The Death Of White-Collar Jobs Has Already Started (AI Is Replacing Knowledge Wo…",
           "url": "https://www.youtube.com/watch?v=CkWSDmLVwKE",
           "date": "2026-07-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1977,13 +1927,13 @@
     },
     {
       "id": "l594",
-      "text": "Why I Switched From ChatGPT to Claude (without losing anything)\n\u2705 Get your FREE AI Prompt Cheatsheet here: https://go.danmartell.com/484Q7tK\n\n\ud83d\udc65 Are you building an AI software company? Partner with me: https://go.danmartell.com/3NSVsO2\n\nSomething massive is happening in the AI world right now, and most people are on the wrong side of it. ChatGPT uninstalls are spiking, OpenAI is burning cash at an alarming rate, and Claude just took the #1 spot on the App Store.\n\nIn this video, I break down what\u2026",
+      "text": "Why I Switched From ChatGPT to Claude (without losing anything)\n✅ Get your FREE AI Prompt Cheatsheet here: https://go.danmartell.com/484Q7tK\n\n👥 Are you building an AI software company? Partner with me: https://go.danmartell.com/3NSVsO2\n\nSomething massive is happening in the AI world right now, and most people are on the wrong side of it. ChatGPT uninstalls are spiking, OpenAI is burning cash at an alarming rate, and Claude just took the #1 spot on the App Store.\n\nIn this video, I break down what…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Why I Switched From ChatGPT to Claude (without losing anything)\n\u2705 Get your FREE \u2026",
+          "title": "Why I Switched From ChatGPT to Claude (without losing anything)\n✅ Get your FREE …",
           "url": "https://www.youtube.com/watch?v=XRU-CjzYt_o",
           "date": "2026-04-02",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1998,13 +1948,13 @@
     },
     {
       "id": "l595",
-      "text": "Why AI Might Not Replace Your Job After All\nSince ChatGPT\u2019s debut, AI has been framed as everything from a world-changing breakthrough to an existential threat. Companies are pouring hundreds of billions into the space as commentators debate potentially utopian and dystopian futures. But researchers like Princeton\u2019s Arvind Narayanan argue the reality may be more incremental \u2013 a powerful technology that will reshape work and productivity over time, without overturning the basic limits of economic\u2026",
+      "text": "Why AI Might Not Replace Your Job After All\nSince ChatGPT’s debut, AI has been framed as everything from a world-changing breakthrough to an existential threat. Companies are pouring hundreds of billions into the space as commentators debate potentially utopian and dystopian futures. But researchers like Princeton’s Arvind Narayanan argue the reality may be more incremental – a powerful technology that will reshape work and productivity over time, without overturning the basic limits of economic…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Why AI Might Not Replace Your Job After All\nSince ChatGPT\u2019s debut, AI has been f\u2026",
+          "title": "Why AI Might Not Replace Your Job After All\nSince ChatGPT’s debut, AI has been f…",
           "url": "https://www.youtube.com/watch?v=EGskcTRnLJ0",
           "date": "2026-03-21",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2019,13 +1969,13 @@
     },
     {
       "id": "l596",
-      "text": "Andrew Yang WARNS of 'Riots In The Streets' as AI DESTROYS Millions of Jobs!\nAndrew Yang just dropped one of the most alarming AI predictions yet, claiming that up to 50% of entry-level white-collar jobs could disappear in the coming years. From software developers and call center workers to truck drivers and office employees, Yang argues that artificial intelligence is about to reshape the American workforce faster than most people realize.\n\nBut is this a realistic warning or another exaggerate\u2026",
+      "text": "Andrew Yang WARNS of 'Riots In The Streets' as AI DESTROYS Millions of Jobs!\nAndrew Yang just dropped one of the most alarming AI predictions yet, claiming that up to 50% of entry-level white-collar jobs could disappear in the coming years. From software developers and call center workers to truck drivers and office employees, Yang argues that artificial intelligence is about to reshape the American workforce faster than most people realize.\n\nBut is this a realistic warning or another exaggerate…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Andrew Yang WARNS of 'Riots In The Streets' as AI DESTROYS Millions of Jobs!\nAnd\u2026",
+          "title": "Andrew Yang WARNS of 'Riots In The Streets' as AI DESTROYS Millions of Jobs!\nAnd…",
           "url": "https://www.youtube.com/watch?v=77ZiuT46xm4",
           "date": "2026-06-11",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2040,13 +1990,13 @@
     },
     {
       "id": "l597",
-      "text": "The AI Disruption: Is Your Job Safe from the New Industrial Revolution?\nAre we on the brink of the greatest labor market disruption in human history? The rise of Artificial Intelligence, specifically Generative AI, is fundamentally shifting the global economy, and the transition is happening right now. Most Americans believe generative AI will have a major, mostly negative impact on jobs over the next two decades, and the data suggests this anxiety is entirely well-founded. According to the Inte\u2026",
+      "text": "The AI Disruption: Is Your Job Safe from the New Industrial Revolution?\nAre we on the brink of the greatest labor market disruption in human history? The rise of Artificial Intelligence, specifically Generative AI, is fundamentally shifting the global economy, and the transition is happening right now. Most Americans believe generative AI will have a major, mostly negative impact on jobs over the next two decades, and the data suggests this anxiety is entirely well-founded. According to the Inte…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The AI Disruption: Is Your Job Safe from the New Industrial Revolution?\nAre we o\u2026",
+          "title": "The AI Disruption: Is Your Job Safe from the New Industrial Revolution?\nAre we o…",
           "url": "https://www.youtube.com/watch?v=tiWRq9dw8Ik",
           "date": "2026-03-17",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2061,7 +2011,7 @@
     },
     {
       "id": "l498",
-      "text": "Brokerage House Clerk \u2014 UPS (Botany, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Brokerage House Clerk — UPS (Botany, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2082,7 +2032,7 @@
     },
     {
       "id": "l499",
-      "text": "Brokerage House Clerk \u2014 UPS (Botany, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Brokerage House Clerk — UPS (Botany, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2103,7 +2053,7 @@
     },
     {
       "id": "l4100",
-      "text": "CLERK 11M-SCHOOL OFFICE \u2014 Brevard Public Schools (Melbourne, Victoria, Australia). Posted 1 day ago.",
+      "text": "CLERK 11M-SCHOOL OFFICE — Brevard Public Schools (Melbourne, Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2124,7 +2074,7 @@
     },
     {
       "id": "l4101",
-      "text": "Armed Forces Post Office (APO) Clerk \u2014 Amentum (Alice Springs, Northern Territory, Australia). Posted 2 weeks ago.",
+      "text": "Armed Forces Post Office (APO) Clerk — Amentum (Alice Springs, Northern Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2145,7 +2095,7 @@
     },
     {
       "id": "l4102",
-      "text": "2026 Administration Expression of Interest Pool \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 6 months ago.",
+      "text": "2026 Administration Expression of Interest Pool — City of Bunbury (Bunbury, Western Australia, Australia). Posted 6 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2166,7 +2116,7 @@
     },
     {
       "id": "l4103",
-      "text": "2026 Administration Expression of Interest Pool \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 6 months ago.",
+      "text": "2026 Administration Expression of Interest Pool — City of Bunbury (Bunbury, Western Australia, Australia). Posted 6 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2187,7 +2137,7 @@
     },
     {
       "id": "l4104",
-      "text": "Administration Officer \u2014 Queensland Corrective Services (Townsville, Queensland, Australia). Posted 6 days ago.",
+      "text": "Administration Officer — Queensland Corrective Services (Townsville, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2208,7 +2158,7 @@
     },
     {
       "id": "l4105",
-      "text": "Health Information Clerk \u2014 Ramsay Health Care (Nedlands, Western Australia, Australia). Posted 4 days ago.",
+      "text": "Health Information Clerk — Ramsay Health Care (Nedlands, Western Australia, Australia). Posted 4 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2229,7 +2179,7 @@
     },
     {
       "id": "l4106",
-      "text": "2026 South West Sport Centre Expression of Interest - Customer Service, Administration & Cafe \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
+      "text": "2026 South West Sport Centre Expression of Interest - Customer Service, Administration & Cafe — City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2250,7 +2200,7 @@
     },
     {
       "id": "l4107",
-      "text": "Administrative Officer - Expression of Interest \u2014 Queensland Corrective Services (Townsville, Queensland, Australia). Posted 11 months ago.",
+      "text": "Administrative Officer - Expression of Interest — Queensland Corrective Services (Townsville, Queensland, Australia). Posted 11 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2271,7 +2221,7 @@
     },
     {
       "id": "l4108",
-      "text": "Admissions Assistant \u2014 Townsville Grammar School (Townsville, Queensland, Australia). Posted 6 days ago.",
+      "text": "Admissions Assistant — Townsville Grammar School (Townsville, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2292,13 +2242,13 @@
     },
     {
       "id": "l5109",
-      "text": "AK: results_url not set \u2014 Clarity adapter assumption unverified\n## Summary\nFollowing the CT dual-ID fix (#170) and its live verification, tried to run the same \"Race Creation: Untested \u2192 Verified\" check against AK and WY (both flagged `\u26a0\ufe0f Untested` in `docs/state-research/00-MASTER-INDEX.md`, tier \"Results Coverage Only\").\n\nBoth currently use `ClarityAdapter` (`\n<html><head></head><body><p>I reviewed issue #178, the current Wyoming research file, and the available first-party Wyoming election sy\u2026",
+      "text": "AK: results_url not set — Clarity adapter assumption unverified\n## Summary\nFollowing the CT dual-ID fix (#170) and its live verification, tried to run the same \"Race Creation: Untested → Verified\" check against AK and WY (both flagged `⚠️ Untested` in `docs/state-research/00-MASTER-INDEX.md`, tier \"Results Coverage Only\").\n\nBoth currently use `ClarityAdapter` (`\n<html><head></head><body><p>I reviewed issue #178, the current Wyoming research file, and the available first-party Wyoming election sy…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "AK: results_url not set \u2014 Clarity adapter assumption unverified\n## Summary\nFollo\u2026",
+          "title": "AK: results_url not set — Clarity adapter assumption unverified\n## Summary\nFollo…",
           "url": "https://github.com/CivicMirror/CivicMirror-API/issues/178",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -2313,13 +2263,13 @@
     },
     {
       "id": "l5110",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -2334,13 +2284,13 @@
     },
     {
       "id": "l5111",
-      "text": "feat(offices): local office catalog batch \u2014 matcher key fixes, migration 184, NULL-office repair wrapper\n## Summary\n\nRound-24 office-catalog batch: clears every future NULL-office election shell on the manual-research database (358 shells, 600 stranded candidate links \u2014 office_id = NULL hard-blocks the candidate-records stage for all of them) and makes the same title forms match on future injections.\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_s\u2026",
+      "text": "feat(offices): local office catalog batch — matcher key fixes, migration 184, NULL-office repair wrapper\n## Summary\n\nRound-24 office-catalog batch: clears every future NULL-office election shell on the manual-research database (358 shells, 600 stranded candidate links — office_id = NULL hard-blocks the candidate-records stage for all of them) and makes the same title forms match on future injections.\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_s…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(offices): local office catalog batch \u2014 matcher key fixes, migration 184, NU\u2026",
+          "title": "feat(offices): local office catalog batch — matcher key fixes, migration 184, NU…",
           "url": "https://github.com/shu1513/voteapp/pull/287",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -2355,13 +2305,13 @@
     },
     {
       "id": "l5112",
-      "text": "Optimize catalogue generator vendor and WhatsApp Access Hub link retrieval\n## Objective\nImprove retrieval speed on the Create Catalogue page. The page currently shows empty entitlement rows, no vendor rows, and slow/empty WhatsApp Access Hub link loading. Vendors and WhatsApp links should load quickly using staged reads, summaries, caching, and indexed queries.\n\n## Require\nRuntime error from local console after catalogue retrieval optimization:\n\n```text\nReferenceError: detailedVendors is not def\u2026",
+      "text": "Optimize catalogue generator vendor and WhatsApp Access Hub link retrieval\n## Objective\nImprove retrieval speed on the Create Catalogue page. The page currently shows empty entitlement rows, no vendor rows, and slow/empty WhatsApp Access Hub link loading. Vendors and WhatsApp links should load quickly using staged reads, summaries, caching, and indexed queries.\n\n## Require\nRuntime error from local console after catalogue retrieval optimization:\n\n```text\nReferenceError: detailedVendors is not def…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Optimize catalogue generator vendor and WhatsApp Access Hub link retrieval\n## Ob\u2026",
+          "title": "Optimize catalogue generator vendor and WhatsApp Access Hub link retrieval\n## Ob…",
           "url": "https://github.com/seigendc-cmyk/itred/issues/10",
           "date": "2026-05-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -2376,13 +2326,13 @@
     },
     {
       "id": "l5113",
-      "text": "Formal Notice of Statutory Non-Compliance filed with City Clerk's Office 8-5-26\n\u00a711-33-107 If a public recreation board or commission shall be established, it shall discharge its functions through a public recreation department, as provided in Section 33-106 of this title, shall make annual reports, shall adopt rules and regulations and establish general policies for the conduct of its business and for the operation of public recreational activities and services. &#32; submitted by &#32; /u/Prot\u2026",
+      "text": "Formal Notice of Statutory Non-Compliance filed with City Clerk's Office 8-5-26\n§11-33-107 If a public recreation board or commission shall be established, it shall discharge its functions through a public recreation department, as provided in Section 33-106 of this title, shall make annual reports, shall adopt rules and regulations and establish general policies for the conduct of its business and for the operation of public recreational activities and services. &#32; submitted by &#32; /u/Prot…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Formal Notice of Statutory Non-Compliance filed with City Clerk's Office 8-5-26\n\u2026",
+          "title": "Formal Notice of Statutory Non-Compliance filed with City Clerk's Office 8-5-26\n…",
           "url": "https://www.reddit.com/r/tulsa/comments/1vuf8wo/formal_notice_of_statutory_noncompliance_filed/",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2397,13 +2347,13 @@
     },
     {
       "id": "l5114",
-      "text": "AI slop is swamping a House office that drafts US laws: The Office of Legislative Counsel is facing a barrage of new AI-generated bills, many of which are riddled with errors.\nCongressional lawyers are struggling to manage a flood of legislative proposals generated using artificial intelligence tools, many of them riddled with errors and shoddy language. The strain on the House Office of Legislative Counsel is increasing as more congressional offices and outside groups rely on generative AI to d\u2026",
+      "text": "AI slop is swamping a House office that drafts US laws: The Office of Legislative Counsel is facing a barrage of new AI-generated bills, many of which are riddled with errors.\nCongressional lawyers are struggling to manage a flood of legislative proposals generated using artificial intelligence tools, many of them riddled with errors and shoddy language. The strain on the House Office of Legislative Counsel is increasing as more congressional offices and outside groups rely on generative AI to d…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI slop is swamping a House office that drafts US laws: The Office of Legislativ\u2026",
+          "title": "AI slop is swamping a House office that drafts US laws: The Office of Legislativ…",
           "url": "https://www.reddit.com/r/law/comments/1vqqv7m/ai_slop_is_swamping_a_house_office_that_drafts_us/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2418,13 +2368,13 @@
     },
     {
       "id": "l5115",
-      "text": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California lawmakers debate AI regulation and voters prepare to weigh a proposed 5% one-time billionaire tax, labor leaders are pushing back against what they see as growing threats to workers.\n\nPolitical Breakdown host Marisa Lagos sits down with Lorena Gonzalez, president of the California Federation of Labor Unions, to discuss AI in the workplace, worker surveillance and human oversight. They also discuss California\u2019s proposed \u2026",
+      "text": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California lawmakers debate AI regulation and voters prepare to weigh a proposed 5% one-time billionaire tax, labor leaders are pushing back against what they see as growing threats to workers.\n\nPolitical Breakdown host Marisa Lagos sits down with Lorena Gonzalez, president of the California Federation of Labor Unions, to discuss AI in the workplace, worker surveillance and human oversight. They also discuss California’s proposed …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California law\u2026",
+          "title": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California law…",
           "url": "https://www.youtube.com/watch?v=WLbvdWXuR3Y",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2439,13 +2389,13 @@
     },
     {
       "id": "l5116",
-      "text": "The Death Of White-Collar Jobs Has Already Started (AI Is Replacing Knowledge Work)\nArtificial Intelligence is no longer just assisting office workers\u2014it's beginning to replace them.\n\nAcross software engineering, finance, law, marketing, consulting, customer service, accounting, and other knowledge-based professions, AI is taking over tasks that once required years of education and experience. Companies are deploying AI copilots and autonomous AI agents to write code, analyse data, create report\u2026",
+      "text": "The Death Of White-Collar Jobs Has Already Started (AI Is Replacing Knowledge Work)\nArtificial Intelligence is no longer just assisting office workers—it's beginning to replace them.\n\nAcross software engineering, finance, law, marketing, consulting, customer service, accounting, and other knowledge-based professions, AI is taking over tasks that once required years of education and experience. Companies are deploying AI copilots and autonomous AI agents to write code, analyse data, create report…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Death Of White-Collar Jobs Has Already Started (AI Is Replacing Knowledge Wo\u2026",
+          "title": "The Death Of White-Collar Jobs Has Already Started (AI Is Replacing Knowledge Wo…",
           "url": "https://www.youtube.com/watch?v=CkWSDmLVwKE",
           "date": "2026-07-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2460,13 +2410,13 @@
     },
     {
       "id": "l5117",
-      "text": "Why I Switched From ChatGPT to Claude (without losing anything)\n\u2705 Get your FREE AI Prompt Cheatsheet here: https://go.danmartell.com/484Q7tK\n\n\ud83d\udc65 Are you building an AI software company? Partner with me: https://go.danmartell.com/3NSVsO2\n\nSomething massive is happening in the AI world right now, and most people are on the wrong side of it. ChatGPT uninstalls are spiking, OpenAI is burning cash at an alarming rate, and Claude just took the #1 spot on the App Store.\n\nIn this video, I break down what\u2026",
+      "text": "Why I Switched From ChatGPT to Claude (without losing anything)\n✅ Get your FREE AI Prompt Cheatsheet here: https://go.danmartell.com/484Q7tK\n\n👥 Are you building an AI software company? Partner with me: https://go.danmartell.com/3NSVsO2\n\nSomething massive is happening in the AI world right now, and most people are on the wrong side of it. ChatGPT uninstalls are spiking, OpenAI is burning cash at an alarming rate, and Claude just took the #1 spot on the App Store.\n\nIn this video, I break down what…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Why I Switched From ChatGPT to Claude (without losing anything)\n\u2705 Get your FREE \u2026",
+          "title": "Why I Switched From ChatGPT to Claude (without losing anything)\n✅ Get your FREE …",
           "url": "https://www.youtube.com/watch?v=XRU-CjzYt_o",
           "date": "2026-04-02",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2481,13 +2431,13 @@
     },
     {
       "id": "l5118",
-      "text": "Why AI Might Not Replace Your Job After All\nSince ChatGPT\u2019s debut, AI has been framed as everything from a world-changing breakthrough to an existential threat. Companies are pouring hundreds of billions into the space as commentators debate potentially utopian and dystopian futures. But researchers like Princeton\u2019s Arvind Narayanan argue the reality may be more incremental \u2013 a powerful technology that will reshape work and productivity over time, without overturning the basic limits of economic\u2026",
+      "text": "Why AI Might Not Replace Your Job After All\nSince ChatGPT’s debut, AI has been framed as everything from a world-changing breakthrough to an existential threat. Companies are pouring hundreds of billions into the space as commentators debate potentially utopian and dystopian futures. But researchers like Princeton’s Arvind Narayanan argue the reality may be more incremental – a powerful technology that will reshape work and productivity over time, without overturning the basic limits of economic…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Why AI Might Not Replace Your Job After All\nSince ChatGPT\u2019s debut, AI has been f\u2026",
+          "title": "Why AI Might Not Replace Your Job After All\nSince ChatGPT’s debut, AI has been f…",
           "url": "https://www.youtube.com/watch?v=EGskcTRnLJ0",
           "date": "2026-03-21",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2502,13 +2452,13 @@
     },
     {
       "id": "l5119",
-      "text": "Andrew Yang WARNS of 'Riots In The Streets' as AI DESTROYS Millions of Jobs!\nAndrew Yang just dropped one of the most alarming AI predictions yet, claiming that up to 50% of entry-level white-collar jobs could disappear in the coming years. From software developers and call center workers to truck drivers and office employees, Yang argues that artificial intelligence is about to reshape the American workforce faster than most people realize.\n\nBut is this a realistic warning or another exaggerate\u2026",
+      "text": "Andrew Yang WARNS of 'Riots In The Streets' as AI DESTROYS Millions of Jobs!\nAndrew Yang just dropped one of the most alarming AI predictions yet, claiming that up to 50% of entry-level white-collar jobs could disappear in the coming years. From software developers and call center workers to truck drivers and office employees, Yang argues that artificial intelligence is about to reshape the American workforce faster than most people realize.\n\nBut is this a realistic warning or another exaggerate…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Andrew Yang WARNS of 'Riots In The Streets' as AI DESTROYS Millions of Jobs!\nAnd\u2026",
+          "title": "Andrew Yang WARNS of 'Riots In The Streets' as AI DESTROYS Millions of Jobs!\nAnd…",
           "url": "https://www.youtube.com/watch?v=77ZiuT46xm4",
           "date": "2026-06-11",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2523,13 +2473,13 @@
     },
     {
       "id": "l5120",
-      "text": "The AI Disruption: Is Your Job Safe from the New Industrial Revolution?\nAre we on the brink of the greatest labor market disruption in human history? The rise of Artificial Intelligence, specifically Generative AI, is fundamentally shifting the global economy, and the transition is happening right now. Most Americans believe generative AI will have a major, mostly negative impact on jobs over the next two decades, and the data suggests this anxiety is entirely well-founded. According to the Inte\u2026",
+      "text": "The AI Disruption: Is Your Job Safe from the New Industrial Revolution?\nAre we on the brink of the greatest labor market disruption in human history? The rise of Artificial Intelligence, specifically Generative AI, is fundamentally shifting the global economy, and the transition is happening right now. Most Americans believe generative AI will have a major, mostly negative impact on jobs over the next two decades, and the data suggests this anxiety is entirely well-founded. According to the Inte…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The AI Disruption: Is Your Job Safe from the New Industrial Revolution?\nAre we o\u2026",
+          "title": "The AI Disruption: Is Your Job Safe from the New Industrial Revolution?\nAre we o…",
           "url": "https://www.youtube.com/watch?v=tiWRq9dw8Ik",
           "date": "2026-03-17",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2620,6 +2570,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

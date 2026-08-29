@@ -14,56 +14,6 @@
   "programs": [],
   "claims": [
     {
-      "id": "35-3022-01",
-      "text": "National peak professional bodies and statutory regulators governing Counter Attendants, Cafeteria, Food Concession, and Coffee Shop enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Counter Attendants, Cafeteria, Food Concession, and Coffee Shop",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Counter Attendants, Cafeteria, Food Concession, and Coffee Shop",
-          "url": "https://www.psc.gov.au/standards/35-3022",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Counter Attendants, Cafeteria, Food Concession, and Coffee Shop"
-        }
-      ],
-      "scope": "Australian practitioners in Counter Attendants, Cafeteria, Food Concession, and Coffee Shop across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "35-3022-02",
-      "text": "Automation of routine transactional and analytical tasks in Counter Attendants, Cafeteria, Food Concession, and Coffee Shop heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Counter Attendants, Cafeteria, Food Concession, and Coffee Shop",
-          "url": "https://www.jobsandskills.gov.au/research/35-3022",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Counter Attendants, Cafeteria, Food Concession, and Coffee Shop in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Counter Attendants, Cafeteria, Food Concession, and Coffee Shop roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
       "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
@@ -233,13 +183,13 @@
     },
     {
       "id": "l511",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -401,13 +351,13 @@
     },
     {
       "id": "l519",
-      "text": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+      "text": "Show HN: Videopython – local-first video processing, editing and AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+          "title": "Show HN: Videopython – local-first video processing, editing and AI workflows",
           "url": "https://github.com/bartwojtowicz/videopython",
           "date": "2026-06-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -422,13 +372,13 @@
     },
     {
       "id": "l520",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -527,13 +477,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Slate \u2013 Open-source AI workspace with a built-in browser",
+      "text": "Show HN: Slate – Open-source AI workspace with a built-in browser",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Slate \u2013 Open-source AI workspace with a built-in browser",
+          "title": "Show HN: Slate – Open-source AI workspace with a built-in browser",
           "url": "https://github.com/slate-ai/slate",
           "date": "2026-03-11",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -575,7 +525,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "A coffee shop is using AI to track every barista and customer in real time. Thro\u2026",
+          "title": "A coffee shop is using AI to track every barista and customer in real time. Thro…",
           "url": "https://www.reddit.com/r/AIMain/comments/1voft7q/a_coffee_shop_is_using_ai_to_track_every_barista/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Home Depot should have a coffee shop or cafeteria attached to it.\nBuilders need a place to review their plans. Contractors need a place to make adjustments while replenishing their energy. Coffee and food would accomplish this. Either this or a roofed area for food trucks. &#32; submitted by &#32; /u/moises8war &#32; to &#32; r/unpopularopinion [link] &#32; [comments]\nNot an unpopular opinion, my old one had a hotdog cart out front and that dude made some serious cash I\u2019ll do you one better. IKE\u2026",
+      "text": "Home Depot should have a coffee shop or cafeteria attached to it.\nBuilders need a place to review their plans. Contractors need a place to make adjustments while replenishing their energy. Coffee and food would accomplish this. Either this or a roofed area for food trucks. &#32; submitted by &#32; /u/moises8war &#32; to &#32; r/unpopularopinion [link] &#32; [comments]\nNot an unpopular opinion, my old one had a hotdog cart out front and that dude made some serious cash I’ll do you one better. IKE…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Home Depot should have a coffee shop or cafeteria attached to it.\nBuilders need \u2026",
+          "title": "Home Depot should have a coffee shop or cafeteria attached to it.\nBuilders need …",
           "url": "https://www.reddit.com/r/unpopularopinion/comments/1vd5q74/home_depot_should_have_a_coffee_shop_or_cafeteria/",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "Planning to go to a coffee shop but its have AI poster so i have to cancel\ud83d\udc94",
+      "text": "Planning to go to a coffee shop but its have AI poster so i have to cancel💔",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Planning to go to a coffee shop but its have AI poster so i have to cancel\ud83d\udc94",
+          "title": "Planning to go to a coffee shop but its have AI poster so i have to cancel💔",
           "url": "https://x.com/Shrimpthateat/status/2093532986864284116",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "Day 93 \u2014 Becoming AI Engineer\n\nToday I built a complete end-to-end browser-based pricing extraction workflow for my computer-use browser agent.\n\nThe biggest lesson from this project was understanding that a reliable agent should not be a single LLM doing everything.\n\nInstead, I separated the system into multiple layers:\n\nGoal \u2192 Planner \u2192 PlanRunner \u2192 BrowserAgent \u2192 Playwright \u2192 Observations \u2192 Extraction \u2192 Structured Data\n\nAt the top, I built a PricingWorkflow that accepts a high-level goal such",
+      "text": "Day 93 — Becoming AI Engineer\n\nToday I built a complete end-to-end browser-based pricing extraction workflow for my computer-use browser agent.\n\nThe biggest lesson from this project was understanding that a reliable agent should not be a single LLM doing everything.\n\nInstead, I separated the system into multiple layers:\n\nGoal → Planner → PlanRunner → BrowserAgent → Playwright → Observations → Extraction → Structured Data\n\nAt the top, I built a PricingWorkflow that accepts a high-level goal such",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Day 93 \u2014 Becoming AI Engineer\n\nToday I built a complete end-to-end browser-based\u2026",
+          "title": "Day 93 — Becoming AI Engineer\n\nToday I built a complete end-to-end browser-based…",
           "url": "https://x.com/shivam74689/status/2093377156483264543",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "Day 87 \u2014 Becoming AI Engineer\n\nToday I focused on turning my distributed AI system from something that can be observed into something that can be continuously verified.\n\nI worked across three major areas: behavioral regression testing, metrics observability with Prometheus + Grafana, and production release engineering.\n\nThe biggest lesson today was understanding the difference between operational health and behavioral correctness.\n\nA system can be completely healthy from an infrastructure perspe",
+      "text": "Day 87 — Becoming AI Engineer\n\nToday I focused on turning my distributed AI system from something that can be observed into something that can be continuously verified.\n\nI worked across three major areas: behavioral regression testing, metrics observability with Prometheus + Grafana, and production release engineering.\n\nThe biggest lesson today was understanding the difference between operational health and behavioral correctness.\n\nA system can be completely healthy from an infrastructure perspe",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Day 87 \u2014 Becoming AI Engineer\n\nToday I focused on turning my distributed AI syst\u2026",
+          "title": "Day 87 — Becoming AI Engineer\n\nToday I focused on turning my distributed AI syst…",
           "url": "https://x.com/shivam74689/status/2091198439992483908",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -674,13 +624,13 @@
     },
     {
       "id": "l532",
-      "text": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to feel less like generating clips\u2014and more like directing scenes.\n\n30 seconds. Native audio. One generation.\nNo more choosing between text-to-video and image-to-video.\n\nPrompt:\n\nHandheld digital camcorder aesthetic, landscape framing.\nA gorgeous young barista films herself by hand in selfie-cam and first-person style during a quiet early-morning shift at a small independent coffee shop.\n\nKeep realistic hand shake, slight",
+      "text": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to feel less like generating clips—and more like directing scenes.\n\n30 seconds. Native audio. One generation.\nNo more choosing between text-to-video and image-to-video.\n\nPrompt:\n\nHandheld digital camcorder aesthetic, landscape framing.\nA gorgeous young barista films herself by hand in selfie-cam and first-person style during a quiet early-morning shift at a small independent coffee shop.\n\nKeep realistic hand shake, slight",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to fe\u2026",
+          "title": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to fe…",
           "url": "https://x.com/Rooko_ai/status/2092930729164632138",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "Most AI video tools make clips.\nRooko makes sales.\n\nThe setup:\n\u2192 Drop in a product image or URL\n\u2192 It pulls the customer profile + selling angles automatically\n\u2192 60 seconds later: a TikTok-ready video that converts\n\nNo shoot. No editor. No $2K/month freelancer.\n\nBut here's the real unlock:\n\u2714\ufe0fRooko watches TikTok Shop in real time.\n\u2714\ufe0fSees what's going viral.\n\u2714\ufe0fReverse-engineers why it sells.\n\u2714\ufe0fThen hands you the template to copy it.\n\nEven better: it has an AI Agent.\n\nBrief it in one line \u2014 \"find t",
+      "text": "Most AI video tools make clips.\nRooko makes sales.\n\nThe setup:\n→ Drop in a product image or URL\n→ It pulls the customer profile + selling angles automatically\n→ 60 seconds later: a TikTok-ready video that converts\n\nNo shoot. No editor. No $2K/month freelancer.\n\nBut here's the real unlock:\n✔️Rooko watches TikTok Shop in real time.\n✔️Sees what's going viral.\n✔️Reverse-engineers why it sells.\n✔️Then hands you the template to copy it.\n\nEven better: it has an AI Agent.\n\nBrief it in one line — \"find t",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Most AI video tools make clips.\nRooko makes sales.\n\nThe setup:\n\u2192 Drop in a produ\u2026",
+          "title": "Most AI video tools make clips.\nRooko makes sales.\n\nThe setup:\n→ Drop in a produ…",
           "url": "https://x.com/Rooko_ai/status/2092864476676857960",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "AI WEEKLY UPDATE \u2014 Saturday, 22 August 2026",
+      "text": "AI WEEKLY UPDATE — Saturday, 22 August 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI WEEKLY UPDATE \u2014 Saturday, 22 August 2026",
+          "title": "AI WEEKLY UPDATE — Saturday, 22 August 2026",
           "url": "https://x.com/MansaTesla/status/2091213068931928111",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "Road to Success | COMEDY | Full Movie in English\nAn all-star cast rides the wave of success with comedian Carrot Top in this wacky comedy about a gadget inventor who inherits a Fortune 500 corporation.\n\n\ud83d\udc9b  Snapchat  \u27a4 https://www.snapchat.com/p/1666878578246587\n\ud83d\ude04 The Best Comedies are Here \u27a4 https://www.youtube.com/playlist?list=PLq5EXI6hXbNGm5Kmow0m8QFn18Z8uaJ4-\n\nGenre : full length movie in english, comedy\n\u00a9  All Rights Reserved\n#FullMovieCOMEDY #FullMovie\n[music] That's it. You're doing fine.\u2026",
+      "text": "Road to Success | COMEDY | Full Movie in English\nAn all-star cast rides the wave of success with comedian Carrot Top in this wacky comedy about a gadget inventor who inherits a Fortune 500 corporation.\n\n💛  Snapchat  ➤ https://www.snapchat.com/p/1666878578246587\n😄 The Best Comedies are Here ➤ https://www.youtube.com/playlist?list=PLq5EXI6hXbNGm5Kmow0m8QFn18Z8uaJ4-\n\nGenre : full length movie in english, comedy\n©  All Rights Reserved\n#FullMovieCOMEDY #FullMovie\n[music] That's it. You're doing fine.…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Road to Success | COMEDY | Full Movie in English\nAn all-star cast rides the wave\u2026",
+          "title": "Road to Success | COMEDY | Full Movie in English\nAn all-star cast rides the wave…",
           "url": "https://www.youtube.com/watch?v=e-jgHmJf0aE",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "\uc544\ub0b4\ub294 \uac00\ub09c\ud55c \uccad\ub144\uc744 \uc5c5\uc2e0\uc5ec\uae30\uace0 \uc774\ud63c\ud588\uc9c0\ub9cc, \uadf8\uac00 \ub9e4\uc77c \ub3c8\uc744 \ubc1b\ub294 \uc2dc\uc2a4\ud15c\uc744 \uac01\uc131\ud558\uace0 \uace7 \uccab\uc0ac\ub791\uacfc \uacb0\ud63c\ud588\ub2e4\n\uc774 \uc2a4\ud06c\ub9bd\ud2b8 \ucc44\ub110\uc740 \ud5c8\uac00\ub97c \ubc1b\uc558\uc2b5\ub2c8\ub2e4. \ubb34\ub2e8 \uc0ac\uc6a9\uc740 \uc5c4\uaca9\ud788 \uae08\uc9c0\ub418\uc5b4 \uc788\uc73c\uba70, \ubb34\ub2e8 \uc0ac\uc6a9 \uc2dc \ubc1c\uc0dd\ud558\ub294 \ubaa8\ub4e0 \uacb0\uacfc\uc5d0 \ub300\ud55c \ucc45\uc784\uc740 \uc0ac\uc6a9\uc790\uc5d0\uac8c \uc788\uc2b5\ub2c8\ub2e4.\n\n\ub354\uc6b1 \ud765\ubbf8\ub85c\uc6b4 \uc2dc\ub9ac\uc988\ub97c \ubcf4\uc2dc\ub824\uba74 @\ud558\uc740-SHORT \ucc44\ub110\uc744 \uad6c\ub3c5\ud574\uc8fc\uc138\uc694.\n\n#\uc911\uad6d\uc601\ud654 #\ud558\uc740-SHORT \uc2dc\ub9ac\uc988 #\ud6cc\ub96d\ud55c\uc911\uad6d\uc601\ud654 #\uc88b\uc740\uc911\uad6d\uc601\ud654 #\ub2ec\ucf64\ud55c\ub85c\ub9e8\uc2a4\uc601\ud654 #\uc911\uad6d\ubcf8\ud1a0\uac10\ub3d9\ub4dc\ub77c\ub9c8 #\uc0ac\ub791 #\uc724\ub9ac #\ub2ec\ucf64\ud55c\ub85c\ub9e8\uc2a4\ub4dc\ub77c\ub9c8 #\ub3c5\uc7ac\uc801\uc778\ud68c\uc7a5 #\ub2e8\ud3b8\ub4dc\ub77c\ub9c8 #\ub4dc\ub77c\ub9c8\ub2e8\ud3b8 #\ub2e8\ud3b8\uc601\ud654 #\ubbf8\ub2c8\ub4dc\ub77c\ub9c8 #\ub3c5\uc7ac\uc801\uc778\ud68c\uc7a5 #\ub2ec\ucf64\ud55c\ub85c\ub9e8\uc2a4 #\uadc0\uc5ec\uc6b4\uc544\uae30 #\ubcf5\uc218 #richceotwinssub #\ubea8\ub9de\uae30 #\ubc18\uaca9 #\ud559\ub300\uc801\uc778\uc0ac\ub791 #\uc911\uad6d\ub4dc\ub77c\ub9c8\uc601\uc5b4\uc790\ub9c9 #\uc2dc\uc2a4\ud15c #\uc0ac\ub791\ud6c4\uc911\uacb0\ud63c #\uc544\ub0b4\ucad3\uae30 #\ubcf5\uc218\ub4dc\ub77c\ub9c8 #\uc778\uae30\ub2e8\ud3b8\ub4dc\ub77c\ub9c8 #\uc778\uae30\uc911\uad6d\ub2e8\ud3b8\ub4dc\ub77c\ub9c8 #\uc804\uc7c1\uc758\uc2e0 #\ucd5c\uace0\ub2e8\ud3b8\uc601\ud654 #\ub2e8\ud3b8\uc601\ud654 #\uc644\uc804\ud310\uceec\ub809\uc158 #\uc778\uae30\ub2e8\ud3b8\ub4dc\ub77c\ub9c8 #\uc2e0\uc791\ub4dc\ub77c\ub9c8\ucd5c\ucd08\uacf5\uac1c\nThe granddaughter period has ended. Are\u2026",
+      "text": "아내는 가난한 청년을 업신여기고 이혼했지만, 그가 매일 돈을 받는 시스템을 각성하고 곧 첫사랑과 결혼했다\n이 스크립트 채널은 허가를 받았습니다. 무단 사용은 엄격히 금지되어 있으며, 무단 사용 시 발생하는 모든 결과에 대한 책임은 사용자에게 있습니다.\n\n더욱 흥미로운 시리즈를 보시려면 @하은-SHORT 채널을 구독해주세요.\n\n#중국영화 #하은-SHORT 시리즈 #훌륭한중국영화 #좋은중국영화 #달콤한로맨스영화 #중국본토감동드라마 #사랑 #윤리 #달콤한로맨스드라마 #독재적인회장 #단편드라마 #드라마단편 #단편영화 #미니드라마 #독재적인회장 #달콤한로맨스 #귀여운아기 #복수 #richceotwinssub #뺨맞기 #반격 #학대적인사랑 #중국드라마영어자막 #시스템 #사랑후중결혼 #아내쫓기 #복수드라마 #인기단편드라마 #인기중국단편드라마 #전쟁의신 #최고단편영화 #단편영화 #완전판컬렉션 #인기단편드라마 #신작드라마최초공개\nThe granddaughter period has ended. Are…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "\uc544\ub0b4\ub294 \uac00\ub09c\ud55c \uccad\ub144\uc744 \uc5c5\uc2e0\uc5ec\uae30\uace0 \uc774\ud63c\ud588\uc9c0\ub9cc, \uadf8\uac00 \ub9e4\uc77c \ub3c8\uc744 \ubc1b\ub294 \uc2dc\uc2a4\ud15c\uc744 \uac01\uc131\ud558\uace0 \uace7 \uccab\uc0ac\ub791\uacfc \uacb0\ud63c\ud588\ub2e4\n\uc774 \uc2a4\ud06c\ub9bd\ud2b8 \ucc44\ub110\uc740 \ud5c8\uac00\ub97c \ubc1b\uc558\uc2b5\ub2c8\ub2e4.\u2026",
+          "title": "아내는 가난한 청년을 업신여기고 이혼했지만, 그가 매일 돈을 받는 시스템을 각성하고 곧 첫사랑과 결혼했다\n이 스크립트 채널은 허가를 받았습니다.…",
           "url": "https://www.youtube.com/watch?v=F1gHXCT0zbQ",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -821,7 +771,7 @@
     },
     {
       "id": "l439",
-      "text": "Front of House Team Member - Barista experience essential \u2014 Dome Cafe Group (Nedlands, Western Australia, Australia). Posted 1 month ago.",
+      "text": "Front of House Team Member - Barista experience essential — Dome Cafe Group (Nedlands, Western Australia, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -842,7 +792,7 @@
     },
     {
       "id": "l440",
-      "text": "Front of House Team Member/Barista - Busselton \u2014 Dome Cafe Group (Busselton, Western Australia, Australia). Posted 1 month ago.",
+      "text": "Front of House Team Member/Barista - Busselton — Dome Cafe Group (Busselton, Western Australia, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -863,7 +813,7 @@
     },
     {
       "id": "l441",
-      "text": "Barista \u2014 International Convention Centre Sydney (ICC Sydney) (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Barista — International Convention Centre Sydney (ICC Sydney) (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -884,7 +834,7 @@
     },
     {
       "id": "l442",
-      "text": "Kiosk Attendant \u2014 Belgravia Leisure (Dickson, Australian Capital Territory, Australia). Posted 4 weeks ago.",
+      "text": "Kiosk Attendant — Belgravia Leisure (Dickson, Australian Capital Territory, Australia). Posted 4 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -905,7 +855,7 @@
     },
     {
       "id": "l443",
-      "text": "Kiosk Attendant - Immediate start \u2014 Belgravia Leisure (Sydney, New South Wales, Australia). Posted 5 days ago.",
+      "text": "Kiosk Attendant - Immediate start — Belgravia Leisure (Sydney, New South Wales, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -926,7 +876,7 @@
     },
     {
       "id": "l444",
-      "text": "Customer Service Representative \u2014 Bowser Bean Cafe (Kyneton, Victoria, Australia). Posted 6 months ago.",
+      "text": "Customer Service Representative — Bowser Bean Cafe (Kyneton, Victoria, Australia). Posted 6 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -947,7 +897,7 @@
     },
     {
       "id": "l445",
-      "text": "Hospitality Assistant (Cafe) \u2014 Infinite Aged Care (Arundel, Queensland, Australia). Posted 6 days ago.",
+      "text": "Hospitality Assistant (Cafe) — Infinite Aged Care (Arundel, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -968,7 +918,7 @@
     },
     {
       "id": "l446",
-      "text": "Cafe and Functions Assistant - Expression of Interest - Eastern Suburbs \u2014 Anglicare Sydney (Castle Hill, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Cafe and Functions Assistant - Expression of Interest - Eastern Suburbs — Anglicare Sydney (Castle Hill, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -989,7 +939,7 @@
     },
     {
       "id": "l447",
-      "text": "Full-Time Barista / Cafe All-Rounder - The Links, Shell Cove \u2014 Shellharbour City Council (Shellharbour, New South Wales, Australia). Posted 5 days ago.",
+      "text": "Full-Time Barista / Cafe All-Rounder - The Links, Shell Cove — Shellharbour City Council (Shellharbour, New South Wales, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1010,7 +960,7 @@
     },
     {
       "id": "l448",
-      "text": "Customer Service Representative \u2014 Bowser Bean Cafe (Boort, Victoria, Australia). Posted 6 months ago.",
+      "text": "Customer Service Representative — Bowser Bean Cafe (Boort, Victoria, Australia). Posted 6 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1031,13 +981,13 @@
     },
     {
       "id": "l549",
-      "text": "Home Depot should have a coffee shop or cafeteria attached to it.\nBuilders need a place to review their plans. Contractors need a place to make adjustments while replenishing their energy. Coffee and food would accomplish this. Either this or a roofed area for food trucks. &#32; submitted by &#32; /u/moises8war &#32; to &#32; r/unpopularopinion [link] &#32; [comments]\nNot an unpopular opinion, my old one had a hotdog cart out front and that dude made some serious cash I\u2019ll do you one better. IKE\u2026",
+      "text": "Home Depot should have a coffee shop or cafeteria attached to it.\nBuilders need a place to review their plans. Contractors need a place to make adjustments while replenishing their energy. Coffee and food would accomplish this. Either this or a roofed area for food trucks. &#32; submitted by &#32; /u/moises8war &#32; to &#32; r/unpopularopinion [link] &#32; [comments]\nNot an unpopular opinion, my old one had a hotdog cart out front and that dude made some serious cash I’ll do you one better. IKE…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Home Depot should have a coffee shop or cafeteria attached to it.\nBuilders need \u2026",
+          "title": "Home Depot should have a coffee shop or cafeteria attached to it.\nBuilders need …",
           "url": "https://www.reddit.com/r/unpopularopinion/comments/1vd5q74/home_depot_should_have_a_coffee_shop_or_cafeteria/",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1052,13 +1002,13 @@
     },
     {
       "id": "l550",
-      "text": "Road to Success | COMEDY | Full Movie in English\nAn all-star cast rides the wave of success with comedian Carrot Top in this wacky comedy about a gadget inventor who inherits a Fortune 500 corporation.\n\n\ud83d\udc9b  Snapchat  \u27a4 https://www.snapchat.com/p/1666878578246587\n\ud83d\ude04 The Best Comedies are Here \u27a4 https://www.youtube.com/playlist?list=PLq5EXI6hXbNGm5Kmow0m8QFn18Z8uaJ4-\n\nGenre : full length movie in english, comedy\n\u00a9  All Rights Reserved\n#FullMovieCOMEDY #FullMovie\n[music] That's it. You're doing fine.\u2026",
+      "text": "Road to Success | COMEDY | Full Movie in English\nAn all-star cast rides the wave of success with comedian Carrot Top in this wacky comedy about a gadget inventor who inherits a Fortune 500 corporation.\n\n💛  Snapchat  ➤ https://www.snapchat.com/p/1666878578246587\n😄 The Best Comedies are Here ➤ https://www.youtube.com/playlist?list=PLq5EXI6hXbNGm5Kmow0m8QFn18Z8uaJ4-\n\nGenre : full length movie in english, comedy\n©  All Rights Reserved\n#FullMovieCOMEDY #FullMovie\n[music] That's it. You're doing fine.…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Road to Success | COMEDY | Full Movie in English\nAn all-star cast rides the wave\u2026",
+          "title": "Road to Success | COMEDY | Full Movie in English\nAn all-star cast rides the wave…",
           "url": "https://www.youtube.com/watch?v=e-jgHmJf0aE",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1073,13 +1023,13 @@
     },
     {
       "id": "l551",
-      "text": "\uc544\ub0b4\ub294 \uac00\ub09c\ud55c \uccad\ub144\uc744 \uc5c5\uc2e0\uc5ec\uae30\uace0 \uc774\ud63c\ud588\uc9c0\ub9cc, \uadf8\uac00 \ub9e4\uc77c \ub3c8\uc744 \ubc1b\ub294 \uc2dc\uc2a4\ud15c\uc744 \uac01\uc131\ud558\uace0 \uace7 \uccab\uc0ac\ub791\uacfc \uacb0\ud63c\ud588\ub2e4\n\uc774 \uc2a4\ud06c\ub9bd\ud2b8 \ucc44\ub110\uc740 \ud5c8\uac00\ub97c \ubc1b\uc558\uc2b5\ub2c8\ub2e4. \ubb34\ub2e8 \uc0ac\uc6a9\uc740 \uc5c4\uaca9\ud788 \uae08\uc9c0\ub418\uc5b4 \uc788\uc73c\uba70, \ubb34\ub2e8 \uc0ac\uc6a9 \uc2dc \ubc1c\uc0dd\ud558\ub294 \ubaa8\ub4e0 \uacb0\uacfc\uc5d0 \ub300\ud55c \ucc45\uc784\uc740 \uc0ac\uc6a9\uc790\uc5d0\uac8c \uc788\uc2b5\ub2c8\ub2e4.\n\n\ub354\uc6b1 \ud765\ubbf8\ub85c\uc6b4 \uc2dc\ub9ac\uc988\ub97c \ubcf4\uc2dc\ub824\uba74 @\ud558\uc740-SHORT \ucc44\ub110\uc744 \uad6c\ub3c5\ud574\uc8fc\uc138\uc694.\n\n#\uc911\uad6d\uc601\ud654 #\ud558\uc740-SHORT \uc2dc\ub9ac\uc988 #\ud6cc\ub96d\ud55c\uc911\uad6d\uc601\ud654 #\uc88b\uc740\uc911\uad6d\uc601\ud654 #\ub2ec\ucf64\ud55c\ub85c\ub9e8\uc2a4\uc601\ud654 #\uc911\uad6d\ubcf8\ud1a0\uac10\ub3d9\ub4dc\ub77c\ub9c8 #\uc0ac\ub791 #\uc724\ub9ac #\ub2ec\ucf64\ud55c\ub85c\ub9e8\uc2a4\ub4dc\ub77c\ub9c8 #\ub3c5\uc7ac\uc801\uc778\ud68c\uc7a5 #\ub2e8\ud3b8\ub4dc\ub77c\ub9c8 #\ub4dc\ub77c\ub9c8\ub2e8\ud3b8 #\ub2e8\ud3b8\uc601\ud654 #\ubbf8\ub2c8\ub4dc\ub77c\ub9c8 #\ub3c5\uc7ac\uc801\uc778\ud68c\uc7a5 #\ub2ec\ucf64\ud55c\ub85c\ub9e8\uc2a4 #\uadc0\uc5ec\uc6b4\uc544\uae30 #\ubcf5\uc218 #richceotwinssub #\ubea8\ub9de\uae30 #\ubc18\uaca9 #\ud559\ub300\uc801\uc778\uc0ac\ub791 #\uc911\uad6d\ub4dc\ub77c\ub9c8\uc601\uc5b4\uc790\ub9c9 #\uc2dc\uc2a4\ud15c #\uc0ac\ub791\ud6c4\uc911\uacb0\ud63c #\uc544\ub0b4\ucad3\uae30 #\ubcf5\uc218\ub4dc\ub77c\ub9c8 #\uc778\uae30\ub2e8\ud3b8\ub4dc\ub77c\ub9c8 #\uc778\uae30\uc911\uad6d\ub2e8\ud3b8\ub4dc\ub77c\ub9c8 #\uc804\uc7c1\uc758\uc2e0 #\ucd5c\uace0\ub2e8\ud3b8\uc601\ud654 #\ub2e8\ud3b8\uc601\ud654 #\uc644\uc804\ud310\uceec\ub809\uc158 #\uc778\uae30\ub2e8\ud3b8\ub4dc\ub77c\ub9c8 #\uc2e0\uc791\ub4dc\ub77c\ub9c8\ucd5c\ucd08\uacf5\uac1c\nThe granddaughter period has ended. Are\u2026",
+      "text": "아내는 가난한 청년을 업신여기고 이혼했지만, 그가 매일 돈을 받는 시스템을 각성하고 곧 첫사랑과 결혼했다\n이 스크립트 채널은 허가를 받았습니다. 무단 사용은 엄격히 금지되어 있으며, 무단 사용 시 발생하는 모든 결과에 대한 책임은 사용자에게 있습니다.\n\n더욱 흥미로운 시리즈를 보시려면 @하은-SHORT 채널을 구독해주세요.\n\n#중국영화 #하은-SHORT 시리즈 #훌륭한중국영화 #좋은중국영화 #달콤한로맨스영화 #중국본토감동드라마 #사랑 #윤리 #달콤한로맨스드라마 #독재적인회장 #단편드라마 #드라마단편 #단편영화 #미니드라마 #독재적인회장 #달콤한로맨스 #귀여운아기 #복수 #richceotwinssub #뺨맞기 #반격 #학대적인사랑 #중국드라마영어자막 #시스템 #사랑후중결혼 #아내쫓기 #복수드라마 #인기단편드라마 #인기중국단편드라마 #전쟁의신 #최고단편영화 #단편영화 #완전판컬렉션 #인기단편드라마 #신작드라마최초공개\nThe granddaughter period has ended. Are…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "\uc544\ub0b4\ub294 \uac00\ub09c\ud55c \uccad\ub144\uc744 \uc5c5\uc2e0\uc5ec\uae30\uace0 \uc774\ud63c\ud588\uc9c0\ub9cc, \uadf8\uac00 \ub9e4\uc77c \ub3c8\uc744 \ubc1b\ub294 \uc2dc\uc2a4\ud15c\uc744 \uac01\uc131\ud558\uace0 \uace7 \uccab\uc0ac\ub791\uacfc \uacb0\ud63c\ud588\ub2e4\n\uc774 \uc2a4\ud06c\ub9bd\ud2b8 \ucc44\ub110\uc740 \ud5c8\uac00\ub97c \ubc1b\uc558\uc2b5\ub2c8\ub2e4.\u2026",
+          "title": "아내는 가난한 청년을 업신여기고 이혼했지만, 그가 매일 돈을 받는 시스템을 각성하고 곧 첫사랑과 결혼했다\n이 스크립트 채널은 허가를 받았습니다.…",
           "url": "https://www.youtube.com/watch?v=F1gHXCT0zbQ",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1170,6 +1120,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

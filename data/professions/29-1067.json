@@ -16,64 +16,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "29-1067-01",
-      "text": "National peak professional bodies and statutory regulators governing Surgeons enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Surgeons",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Surgeons",
-          "url": "https://www.psc.gov.au/standards/29-1067",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Surgeons"
-        }
-      ],
-      "scope": "Australian practitioners in Surgeons across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "29-1067-02",
-      "text": "Automation of routine transactional and analytical tasks in Surgeons heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Surgeons",
-          "url": "https://www.jobsandskills.gov.au/research/29-1067",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Surgeons in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Surgeons roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "\u6bcf\u65e5\u4e2d\u56fd\u79d1\u6280\u6d77\u5916\u8d44\u8baf\u626b\u63cf \u2014 2026\u5e7408\u670801\u65e5\n# \ud83c\udf0d \u6bcf\u65e5\u4e2d\u56fd\u79d1\u6280\u6d77\u5916\u8d44\u8baf\u626b\u63cf \u2014 2026\u5e7408\u670801\u65e5\n\n> \ud83e\udd16 \u7531 GitHub Actions + Anthropic API \u81ea\u52a8\u751f\u6210 | 2026\u5e7408\u670801\u65e5 21:03 \u5317\u4eac\u65f6\u95f4\n> \u641c\u7d22\u7b56\u7565\uff1a3 \u8f6e 10 \u4e2a\u82f1\u6587\u67e5\u8be2 \u2192 \u53bb\u91cd \u2192 Claude Sonnet \u5408\u6210\n\n(AI \u54cd\u5e94\u4e3a\u7a7a\uff0c\u53ef\u80fd\u4e3a DeepSeek thinking \u6a21\u5f0f\u5f02\u5e38)\n\n\n---\n\n> \ud83e\udd16 \u81ea\u52a8\u751f\u6210 | 2026\u5e7408\u670801\u65e5 \u5317\u4eac\u65f6\u95f4 | 4 \u4e2a\u9891\u9053 19 \u6761\u66f4\u65b0\n\n## \ud83d\udcfa YouTube \u8ba2\u9605\u66f4\u65b0\n\n> 2026\u5e7408\u670801\u65e5 | 19 \u6761\u66f4\u65b0 | \u8f7b\u91cf\u6a21\u5f0f\n\n### jpmorgan\n\n- **",
+      "text": "每日中国科技海外资讯扫描 — 2026年08月01日\n# 🌍 每日中国科技海外资讯扫描 — 2026年08月01日\n\n> 🤖 由 GitHub Actions + Anthropic API 自动生成 | 2026年08月01日 21:03 北京时间\n> 搜索策略：3 轮 10 个英文查询 → 去重 → Claude Sonnet 合成\n\n(AI 响应为空，可能为 DeepSeek thinking 模式异常)\n\n\n---\n\n> 🤖 自动生成 | 2026年08月01日 北京时间 | 4 个频道 19 条更新\n\n## 📺 YouTube 订阅更新\n\n> 2026年08月01日 | 19 条更新 | 轻量模式\n\n### jpmorgan\n\n- **",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\u6bcf\u65e5\u4e2d\u56fd\u79d1\u6280\u6d77\u5916\u8d44\u8baf\u626b\u63cf \u2014 2026\u5e7408\u670801\u65e5\n# \ud83c\udf0d \u6bcf\u65e5\u4e2d\u56fd\u79d1\u6280\u6d77\u5916\u8d44\u8baf\u626b\u63cf \u2014 2026\u5e7408\u670801\u65e5\n\n> \ud83e\udd16 \u7531 GitHub Actions \u2026",
+          "title": "每日中国科技海外资讯扫描 — 2026年08月01日\n# 🌍 每日中国科技海外资讯扫描 — 2026年08月01日\n\n> 🤖 由 GitHub Actions …",
           "url": "https://github.com/Jealouszj/daily-china-tech-scan/issues/50",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -88,13 +38,13 @@
     },
     {
       "id": "l504",
-      "text": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sections 1\u20133 (Purpose & Scope; Domain Matrix; Evidence Bands)**  \nDecember 02, 2025  \n\n---\n\n## 1. Purpose & Scope\n\nThis section aligns the project\u2019s TXT and PDF corpus around one structural pattern:\n\n> **Systems that secure compliance and e\nHere is the forensic debrief of the current operational reality, synthesized from your diagnosis.\n\ud83d\udccb CLINICAL DIAGNOSIS: The Parasitic Extraction Engine\nSubject: Global Socio-Economic\u2026",
+      "text": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sections 1–3 (Purpose & Scope; Domain Matrix; Evidence Bands)**  \nDecember 02, 2025  \n\n---\n\n## 1. Purpose & Scope\n\nThis section aligns the project’s TXT and PDF corpus around one structural pattern:\n\n> **Systems that secure compliance and e\nHere is the forensic debrief of the current operational reality, synthesized from your diagnosis.\n📋 CLINICAL DIAGNOSIS: The Parasitic Extraction Engine\nSubject: Global Socio-Economic…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sec\u2026",
+          "title": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sec…",
           "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/2",
           "date": "2026-04-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -298,13 +248,13 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -340,13 +290,13 @@
     },
     {
       "id": "l516",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -508,13 +458,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -550,13 +500,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -592,13 +542,13 @@
     },
     {
       "id": "l528",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -613,13 +563,13 @@
     },
     {
       "id": "l529",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -634,13 +584,13 @@
     },
     {
       "id": "l530",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history\n&#32; submitted by &#32; /u/xuvayerpro101 &#32; to &#32; r/aiecosystem [link] &#32; [comments]\nWhy are we okay with this? Why are any of us okay with this? Hey Siri make me a picture of my cat riding a dolphin into the sunset. People out here still believin\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history\n&#32; submitted by &#32; /u/xuvayerpro101 &#32; to &#32; r/aiecosystem [link] &#32; [comments]\nWhy are we okay with this? Why are any of us okay with this? Hey Siri make me a picture of my cat riding a dolphin into the sunset. People out here still believin…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/aiecosystem/comments/1w00i5d/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -655,13 +605,13 @@
     },
     {
       "id": "l531",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/chillinewman &#32; to &#32; r/ControlProblem [link] &#32; [comments]\nTech billionaires: Why do people not like data centers? Also tech billionaires: Best case scenario you are all unemployed in a permanent underclass, worst case\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/chillinewman &#32; to &#32; r/ControlProblem [link] &#32; [comments]\nTech billionaires: Why do people not like data centers? Also tech billionaires: Best case scenario you are all unemployed in a permanent underclass, worst case…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/ControlProblem/comments/1vzy4do/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -676,13 +626,13 @@
     },
     {
       "id": "l532",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the ram for a motherboard upgrade or a cor\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the ram for a motherboard upgrade or a cor…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcmasterrace/comments/1vfe28b/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -697,13 +647,13 @@
     },
     {
       "id": "l533",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcgaming/comments/1vfe3ru/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -718,13 +668,13 @@
     },
     {
       "id": "l534",
-      "text": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let\u2019s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
+      "text": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let’s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market \u2026",
+          "title": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market …",
           "url": "https://www.reddit.com/r/Superstonk/comments/1vaxmve/for_my_dorito_loversyen_intervention_with_a/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -760,13 +710,13 @@
     },
     {
       "id": "l536",
-      "text": "The Feed 8/28/26\n\n- AI labs warn of a \u201climited window\u201d before AI cyberattacks \n- Uranium for data centers\n- Surgeons remove brain tumor using AI guidance\n- Starship 40 update off Christmas Island \u2014 a skyscraper in the ocean headed back to Texas and Elon Musk predicts $3.5T SpaceX revenue by 2033\n- Crypto: Solana token median hold time: ~42 seconds and Official Pok\u00e9mon X account hacked, shilled a scam coin\n- X Safety: ~200k China-linked farm, 200 accounts running anti AI narrative\n- Twitter 2 lau",
+      "text": "The Feed 8/28/26\n\n- AI labs warn of a “limited window” before AI cyberattacks \n- Uranium for data centers\n- Surgeons remove brain tumor using AI guidance\n- Starship 40 update off Christmas Island — a skyscraper in the ocean headed back to Texas and Elon Musk predicts $3.5T SpaceX revenue by 2033\n- Crypto: Solana token median hold time: ~42 seconds and Official Pokémon X account hacked, shilled a scam coin\n- X Safety: ~200k China-linked farm, 200 accounts running anti AI narrative\n- Twitter 2 lau",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Feed 8/28/26\n\n- AI labs warn of a \u201climited window\u201d before AI cyberattacks \n-\u2026",
+          "title": "The Feed 8/28/26\n\n- AI labs warn of a “limited window” before AI cyberattacks \n-…",
           "url": "https://x.com/dogeofficialceo/status/2093375050913095897",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -781,13 +731,13 @@
     },
     {
       "id": "l537",
-      "text": "AI is literally saving lives! In this case during surgery for brain tumors. \n\nFastGlioma, an AI-powered tool developed at the University of Michigan, analyzes SRH images to identify and quantify brain cancer tissue during surgery.\n\n \u201cIt\u2019s not just about the ability to detect tumor tissue, it\u2019s about prolonging survival and hopefully preventing recurrence. FastGlioma is giving us a preview of a world where AI advances in optics and computations help surgeons make better decisions in the operating",
+      "text": "AI is literally saving lives! In this case during surgery for brain tumors. \n\nFastGlioma, an AI-powered tool developed at the University of Michigan, analyzes SRH images to identify and quantify brain cancer tissue during surgery.\n\n “It’s not just about the ability to detect tumor tissue, it’s about prolonging survival and hopefully preventing recurrence. FastGlioma is giving us a preview of a world where AI advances in optics and computations help surgeons make better decisions in the operating",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI is literally saving lives! In this case during surgery for brain tumors. \n\nFa\u2026",
+          "title": "AI is literally saving lives! In this case during surgery for brain tumors. \n\nFa…",
           "url": "https://x.com/DeryaTR_/status/2093385588783116459",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -802,13 +752,13 @@
     },
     {
       "id": "l538",
-      "text": "\u201cAI will replace surgeons in the OR\u201d\nSir John Charnley is about to rise from his grave after seeing this video:\n#orthtwitter https://t.co/8JT8N7fQbK",
+      "text": "“AI will replace surgeons in the OR”\nSir John Charnley is about to rise from his grave after seeing this video:\n#orthtwitter https://t.co/8JT8N7fQbK",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u201cAI will replace surgeons in the OR\u201d\nSir John Charnley is about to rise from his\u2026",
+          "title": "“AI will replace surgeons in the OR”\nSir John Charnley is about to rise from his…",
           "url": "https://x.com/ojedathies/status/2093318066260058142",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -829,7 +779,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Surgeons in London have reportedly made history by performing the world's first \u2026",
+          "title": "Surgeons in London have reportedly made history by performing the world's first …",
           "url": "https://x.com/thedailymemes_/status/2093373543039857050",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -844,13 +794,13 @@
     },
     {
       "id": "l540",
-      "text": "\ud835\udc00\ud835\udc08 \ud835\udc22\ud835\udc2c \ud835\udc27\ud835\udc28\ud835\udc30 \ud835\udc22\ud835\udc27 \ud835\udc2d\ud835\udc21\ud835\udc1e \ud835\udc0e\ud835\udc11 ... \ud835\udc1d\ud835\udc28\ud835\udc22\ud835\udc27\ud835\udc20 \ud835\udc1b\ud835\udc2b\ud835\udc1a\ud835\udc22\ud835\udc27 \ud835\udc2c\ud835\udc2e\ud835\udc2b\ud835\udc20\ud835\udc1e\ud835\udc2b\ud835\udc32. \ud83e\udde0\n\nThis is a world first ... \u2935\ufe0f\n\n- AI reads real-time video during brain surgery.\n- Guides surgeons to avoid microscopic blood vessels and nerves.\n- Non-cancerous brain tumour removed.\n- Patient's sight saved, eventual blindness avoided.\n\n- - - - -\n\"Going a millimetre wrong can make a critical difference and lead to death, blindness or stroke. The AI supported the surgical team helping identify risky areas to avoid while removing as much tumour as saf",
+      "text": "𝐀𝐈 𝐢𝐬 𝐧𝐨𝐰 𝐢𝐧 𝐭𝐡𝐞 𝐎𝐑 ... 𝐝𝐨𝐢𝐧𝐠 𝐛𝐫𝐚𝐢𝐧 𝐬𝐮𝐫𝐠𝐞𝐫𝐲. 🧠\n\nThis is a world first ... ⤵️\n\n- AI reads real-time video during brain surgery.\n- Guides surgeons to avoid microscopic blood vessels and nerves.\n- Non-cancerous brain tumour removed.\n- Patient's sight saved, eventual blindness avoided.\n\n- - - - -\n\"Going a millimetre wrong can make a critical difference and lead to death, blindness or stroke. The AI supported the surgical team helping identify risky areas to avoid while removing as much tumour as saf",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud835\udc00\ud835\udc08 \ud835\udc22\ud835\udc2c \ud835\udc27\ud835\udc28\ud835\udc30 \ud835\udc22\ud835\udc27 \ud835\udc2d\ud835\udc21\ud835\udc1e \ud835\udc0e\ud835\udc11 ... \ud835\udc1d\ud835\udc28\ud835\udc22\ud835\udc27\ud835\udc20 \ud835\udc1b\ud835\udc2b\ud835\udc1a\ud835\udc22\ud835\udc27 \ud835\udc2c\ud835\udc2e\ud835\udc2b\ud835\udc20\ud835\udc1e\ud835\udc2b\ud835\udc32. \ud83e\udde0\n\nThis is a world first ... \u2935\ufe0f\n\n- \u2026",
+          "title": "𝐀𝐈 𝐢𝐬 𝐧𝐨𝐰 𝐢𝐧 𝐭𝐡𝐞 𝐎𝐑 ... 𝐝𝐨𝐢𝐧𝐠 𝐛𝐫𝐚𝐢𝐧 𝐬𝐮𝐫𝐠𝐞𝐫𝐲. 🧠\n\nThis is a world first ... ⤵️\n\n- …",
           "url": "https://x.com/AI_4_Healthcare/status/2093315170579653099",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -865,13 +815,13 @@
     },
     {
       "id": "l541",
-      "text": "\ud83d\udea8 Surgeons at London's NHNN performed the world\u2019s first AI-assisted pituitary tumour removal on 48-year-old Rhys Hibbert. The real-time, colour-coded AI guidance protected vital brain structures, saving his vision. https://t.co/BHrzmeHkTI",
+      "text": "🚨 Surgeons at London's NHNN performed the world’s first AI-assisted pituitary tumour removal on 48-year-old Rhys Hibbert. The real-time, colour-coded AI guidance protected vital brain structures, saving his vision. https://t.co/BHrzmeHkTI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8 Surgeons at London's NHNN performed the world\u2019s first AI-assisted pituitary tu\u2026",
+          "title": "🚨 Surgeons at London's NHNN performed the world’s first AI-assisted pituitary tu…",
           "url": "https://x.com/conect_insights/status/2093373779586199808",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -886,13 +836,13 @@
     },
     {
       "id": "l542",
-      "text": "\ud83d\udea8\u27a1\ufe0fThe AI system used in this pituitary tumor surgery works by analyzing the live endoscopic camera feed in real time and overlaying color-coded maps of critical anatomy onto a second screen. It does not control instruments or make surgical decisions. Surgeons stay fully in charge. \n\nhttps://t.co/TijM4DnB70\n\nTraining the model\nResearchers at UCL\u2019s Hawkes Institute collected hundreds of videos from previous endoscopic pituitary operations. Expert neurosurgeons annotated thousands of frames, drawi",
+      "text": "🚨➡️The AI system used in this pituitary tumor surgery works by analyzing the live endoscopic camera feed in real time and overlaying color-coded maps of critical anatomy onto a second screen. It does not control instruments or make surgical decisions. Surgeons stay fully in charge. \n\nhttps://t.co/TijM4DnB70\n\nTraining the model\nResearchers at UCL’s Hawkes Institute collected hundreds of videos from previous endoscopic pituitary operations. Expert neurosurgeons annotated thousands of frames, drawi",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8\u27a1\ufe0fThe AI system used in this pituitary tumor surgery works by analyzing the liv\u2026",
+          "title": "🚨➡️The AI system used in this pituitary tumor surgery works by analyzing the liv…",
           "url": "https://x.com/Logosintell/status/2093519291140452851",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -934,7 +884,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@0xAutobunnyhop The most fascinating part isn't that AI is performing the surger\u2026",
+          "title": "@0xAutobunnyhop The most fascinating part isn't that AI is performing the surger…",
           "url": "https://x.com/0xGoddesss/status/2093317402607997385",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -955,7 +905,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI guides surgeons through world-first live brain tumour operation\n\nhttps://t.co\u2026",
+          "title": "AI guides surgeons through world-first live brain tumour operation\n\nhttps://t.co…",
           "url": "https://x.com/urumurum/status/2093522017345782017",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -976,7 +926,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "First patient to have brain surgery with real-time #AI assistance: AI tool analy\u2026",
+          "title": "First patient to have brain surgery with real-time #AI assistance: AI tool analy…",
           "url": "https://x.com/Sid_Healthcare/status/2093420353053753418",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -997,7 +947,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "London Surgeons Perform World's First AI-Guided Brain Tumor Removal\n\nhttps://t.c\u2026",
+          "title": "London Surgeons Perform World's First AI-Guided Brain Tumor Removal\n\nhttps://t.c…",
           "url": "https://x.com/skent001/status/2093401283835109861",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1039,7 +989,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "14 billion FSD miles by the end of August (Monday)\n\nThe miles are ready adding u\u2026",
+          "title": "14 billion FSD miles by the end of August (Monday)\n\nThe miles are ready adding u…",
           "url": "https://x.com/CernBasher/status/2093536232567390301",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1060,7 +1010,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "$BABA is one of my latest buys. I went bottom fishing at the end of June and hav\u2026",
+          "title": "$BABA is one of my latest buys. I went bottom fishing at the end of June and hav…",
           "url": "https://x.com/TacticzH/status/2092592342918140307",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1102,7 +1052,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "When the bottleneck isn't really a bottleneck, but instead a wide open gap with \u2026",
+          "title": "When the bottleneck isn't really a bottleneck, but instead a wide open gap with …",
           "url": "https://x.com/TacticzH/status/2093291545248006240",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1207,7 +1157,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@CernBasher We used it to drive from from Boston to Ohio and back. \n\nKudos to th\u2026",
+          "title": "@CernBasher We used it to drive from from Boston to Ohio and back. \n\nKudos to th…",
           "url": "https://x.com/pauljoy1/status/2093538813092016503",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1249,7 +1199,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "What proof do you need?\n\nToday we have millions of workers doing dirty, dull and\u2026",
+          "title": "What proof do you need?\n\nToday we have millions of workers doing dirty, dull and…",
           "url": "https://x.com/CernBasher/status/2093376428058317259",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1270,7 +1220,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@JessieChimni Every billion miles will generate some very useful edge cases and \u2026",
+          "title": "@JessieChimni Every billion miles will generate some very useful edge cases and …",
           "url": "https://x.com/CernBasher/status/2093539305566204346",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1285,13 +1235,13 @@
     },
     {
       "id": "l561",
-      "text": "@CernBasher It wasn\u2019t even that long ago that we hit 10billion which was considered the magic number for unsupervised to become real.\n\nWe\u2019ve blown past that so quickly and will keep growing at an even faster rate given the growth in FSD adoption.",
+      "text": "@CernBasher It wasn’t even that long ago that we hit 10billion which was considered the magic number for unsupervised to become real.\n\nWe’ve blown past that so quickly and will keep growing at an even faster rate given the growth in FSD adoption.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@CernBasher It wasn\u2019t even that long ago that we hit 10billion which was conside\u2026",
+          "title": "@CernBasher It wasn’t even that long ago that we hit 10billion which was conside…",
           "url": "https://x.com/FutureThesisX/status/2093539419710222762",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1312,7 +1262,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The key mental map is simple:\n\nAnterior vestibular artery equals utricle plus an\u2026",
+          "title": "The key mental map is simple:\n\nAnterior vestibular artery equals utricle plus an…",
           "url": "https://x.com/drpiyushENT/status/2093418661210169702",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1348,13 +1298,13 @@
     },
     {
       "id": "l564",
-      "text": "@drpiyushENT Great Piyush Sir \ud83d\udd25\ud83d\udc97\nLong way to go.",
+      "text": "@drpiyushENT Great Piyush Sir 🔥💗\nLong way to go.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@drpiyushENT Great Piyush Sir \ud83d\udd25\ud83d\udc97\nLong way to go.",
+          "title": "@drpiyushENT Great Piyush Sir 🔥💗\nLong way to go.",
           "url": "https://x.com/iamdranh/status/2092901289193779507",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1390,13 +1340,13 @@
     },
     {
       "id": "l566",
-      "text": "@CernBasher My \u201826 MS is showing 85% via FSD .  My wife\u2019s \u201825 Y is @ 87% \ud83d\ude0e",
+      "text": "@CernBasher My ‘26 MS is showing 85% via FSD .  My wife’s ‘25 Y is @ 87% 😎",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@CernBasher My \u201826 MS is showing 85% via FSD .  My wife\u2019s \u201825 Y is @ 87% \ud83d\ude0e",
+          "title": "@CernBasher My ‘26 MS is showing 85% via FSD .  My wife’s ‘25 Y is @ 87% 😎",
           "url": "https://x.com/GridRunnr/status/2093544502099415248",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1417,7 +1367,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Because it's a computer. Humans needed tens of thousands of generations of evolv\u2026",
+          "title": "Because it's a computer. Humans needed tens of thousands of generations of evolv…",
           "url": "https://x.com/FutureAZA/status/2093543225969852420",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1432,13 +1382,13 @@
     },
     {
       "id": "l568",
-      "text": "@CernBasher The question is how many additional edge cases be identified in those additional miles and how quickly can they be incorporated. What does each billion mile mean to the march of \u201c9s\u201d Additionally, is there a way to get to a path where \u201cat fault\u201d accidents are zero or near zero ?",
+      "text": "@CernBasher The question is how many additional edge cases be identified in those additional miles and how quickly can they be incorporated. What does each billion mile mean to the march of “9s” Additionally, is there a way to get to a path where “at fault” accidents are zero or near zero ?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@CernBasher The question is how many additional edge cases be identified in thos\u2026",
+          "title": "@CernBasher The question is how many additional edge cases be identified in thos…",
           "url": "https://x.com/JessieChimni/status/2093538795891368230",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1459,7 +1409,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "after years spent training to become a surgeon, there is something powerful abou\u2026",
+          "title": "after years spent training to become a surgeon, there is something powerful abou…",
           "url": "https://x.com/drpiyushENT/status/2093423250504298738",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1516,13 +1466,13 @@
     },
     {
       "id": "l572",
-      "text": "INNER-EAR BLOOD SUPPLY \u2014 SURGEON-GRADE MASTER NOTE \ud83e\ude78\ud83d\udc42",
+      "text": "INNER-EAR BLOOD SUPPLY — SURGEON-GRADE MASTER NOTE 🩸👂",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "INNER-EAR BLOOD SUPPLY \u2014 SURGEON-GRADE MASTER NOTE \ud83e\ude78\ud83d\udc42",
+          "title": "INNER-EAR BLOOD SUPPLY — SURGEON-GRADE MASTER NOTE 🩸👂",
           "url": "https://x.com/drpiyushENT/status/2093417827533574610",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1600,13 +1550,13 @@
     },
     {
       "id": "l576",
-      "text": "From Grok... \n\nGolf courses use far more water than data centers in the US, not the other way around. On a direct (on-site) basis, US golf courses use roughly 30 times as much water as all US data centers combined.\n\nThe numbers\n\nGolf courses (2024): About 1.63 million acre-feet, or ~531 billion gallons per year. This comes from the Golf Course Superintendents Association of America\u2019s latest national survey. Usage has fallen about 31% since 2005 due to efficiency gains and some course closures.",
+      "text": "From Grok... \n\nGolf courses use far more water than data centers in the US, not the other way around. On a direct (on-site) basis, US golf courses use roughly 30 times as much water as all US data centers combined.\n\nThe numbers\n\nGolf courses (2024): About 1.63 million acre-feet, or ~531 billion gallons per year. This comes from the Golf Course Superintendents Association of America’s latest national survey. Usage has fallen about 31% since 2005 due to efficiency gains and some course closures.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "From Grok... \n\nGolf courses use far more water than data centers in the US, not \u2026",
+          "title": "From Grok... \n\nGolf courses use far more water than data centers in the US, not …",
           "url": "https://x.com/CernBasher/status/2093366502221066325",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1621,13 +1571,13 @@
     },
     {
       "id": "l577",
-      "text": "@TacticzH What\u2019s your background?  Are you an engineer with optics experience?  Why don\u2019t you expand on your logic for your 39k followers/sheep that are eating up your fancy chart?",
+      "text": "@TacticzH What’s your background?  Are you an engineer with optics experience?  Why don’t you expand on your logic for your 39k followers/sheep that are eating up your fancy chart?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@TacticzH What\u2019s your background?  Are you an engineer with optics experience?  \u2026",
+          "title": "@TacticzH What’s your background?  Are you an engineer with optics experience?  …",
           "url": "https://x.com/astorer5/status/2093402362753003728",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1642,13 +1592,13 @@
     },
     {
       "id": "l578",
-      "text": "@TacticzH lol.  Your profile says Long Term Investor but your comment is extremely timely given the price reaction.  \n\nSo you\u2019re saying it\u2019s not a bottleneck but that InP Lasers and photonics are a fantasy?  Is that correct?",
+      "text": "@TacticzH lol.  Your profile says Long Term Investor but your comment is extremely timely given the price reaction.  \n\nSo you’re saying it’s not a bottleneck but that InP Lasers and photonics are a fantasy?  Is that correct?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@TacticzH lol.  Your profile says Long Term Investor but your comment is extreme\u2026",
+          "title": "@TacticzH lol.  Your profile says Long Term Investor but your comment is extreme…",
           "url": "https://x.com/astorer5/status/2093401922686644414",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1663,13 +1613,13 @@
     },
     {
       "id": "l579",
-      "text": "@TacticzH Thanks to @aleabitoreddit \ud83e\udd23\ud83e\udd23",
+      "text": "@TacticzH Thanks to @aleabitoreddit 🤣🤣",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@TacticzH Thanks to @aleabitoreddit \ud83e\udd23\ud83e\udd23",
+          "title": "@TacticzH Thanks to @aleabitoreddit 🤣🤣",
           "url": "https://x.com/ChingGwee/status/2093378361821196317",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1684,13 +1634,13 @@
     },
     {
       "id": "l580",
-      "text": "@TacticzH \u201cWhen the bottleneck isn't really a bottleneck \u2026\u201d\n\n\ud83d\udc40",
+      "text": "@TacticzH “When the bottleneck isn't really a bottleneck …”\n\n👀",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@TacticzH \u201cWhen the bottleneck isn't really a bottleneck \u2026\u201d\n\n\ud83d\udc40",
+          "title": "@TacticzH “When the bottleneck isn't really a bottleneck …”\n\n👀",
           "url": "https://x.com/jtreble_deriv/status/2093306734513136049",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1711,7 +1661,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@TacticzH I see a lot of GenZ wiped out on this stock. Some idiots even buying b\u2026",
+          "title": "@TacticzH I see a lot of GenZ wiped out on this stock. Some idiots even buying b…",
           "url": "https://x.com/fomo_investor81/status/2093300302145368378",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1726,13 +1676,13 @@
     },
     {
       "id": "l582",
-      "text": "@HatedMoats Now do a 1 year chart \ud83d\ude1c",
+      "text": "@HatedMoats Now do a 1 year chart 😜",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@HatedMoats Now do a 1 year chart \ud83d\ude1c",
+          "title": "@HatedMoats Now do a 1 year chart 😜",
           "url": "https://x.com/TacticzH/status/2092881692461584768",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1753,7 +1703,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@babyfolio SaaS also showed some great numbers with $CRM ans $CRWD. \n\nI think th\u2026",
+          "title": "@babyfolio SaaS also showed some great numbers with $CRM ans $CRWD. \n\nI think th…",
           "url": "https://x.com/TacticzH/status/2092878831505830243",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1789,13 +1739,13 @@
     },
     {
       "id": "l585",
-      "text": "@drpiyushENT Where is attic ? Sorry I am bugging you . Have some very cloudy memory of these concepts from Bhargava and Dhingra . \ud83d\ude05",
+      "text": "@drpiyushENT Where is attic ? Sorry I am bugging you . Have some very cloudy memory of these concepts from Bhargava and Dhingra . 😅",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@drpiyushENT Where is attic ? Sorry I am bugging you . Have some very cloudy mem\u2026",
+          "title": "@drpiyushENT Where is attic ? Sorry I am bugging you . Have some very cloudy mem…",
           "url": "https://x.com/vmanjunath/status/2092923369843040292",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1816,7 +1766,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@drpiyushENT There was a reason why the postero superior area forms a retraction\u2026",
+          "title": "@drpiyushENT There was a reason why the postero superior area forms a retraction…",
           "url": "https://x.com/vmanjunath/status/2092917442247065742",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1831,13 +1781,13 @@
     },
     {
       "id": "l587",
-      "text": "@drpiyushENT \ud83e\udee1",
+      "text": "@drpiyushENT 🫡",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@drpiyushENT \ud83e\udee1",
+          "title": "@drpiyushENT 🫡",
           "url": "https://x.com/Bssgompa/status/2092892873201197283",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1873,13 +1823,13 @@
     },
     {
       "id": "l589",
-      "text": "@LogicalThesis Lets start with not giving this dude the platform he so clearly wants \ud83d\ude0a",
+      "text": "@LogicalThesis Lets start with not giving this dude the platform he so clearly wants 😊",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@LogicalThesis Lets start with not giving this dude the platform he so clearly w\u2026",
+          "title": "@LogicalThesis Lets start with not giving this dude the platform he so clearly w…",
           "url": "https://x.com/TacticzH/status/2092310086043734437",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1915,13 +1865,13 @@
     },
     {
       "id": "l591",
-      "text": "Can AI Ever Replace a Surgeon? This Doctor Says No | Dr. Brad Feltis\nDr. Brad Feltis has spent his career looking patients in the eye right before the moment everything could go wrong.\n\nIn this episode, the pediatric surgeon behind one of the only advanced fetal surgery programs in North America explains why no algorithm can replicate that split-second of human connection. He also opens up about what it took to build that program from scratch with zero hospital support, recruiting elite surgeons\u2026",
+      "text": "Can AI Ever Replace a Surgeon? This Doctor Says No | Dr. Brad Feltis\nDr. Brad Feltis has spent his career looking patients in the eye right before the moment everything could go wrong.\n\nIn this episode, the pediatric surgeon behind one of the only advanced fetal surgery programs in North America explains why no algorithm can replicate that split-second of human connection. He also opens up about what it took to build that program from scratch with zero hospital support, recruiting elite surgeons…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Can AI Ever Replace a Surgeon? This Doctor Says No | Dr. Brad Feltis\nDr. Brad Fe\u2026",
+          "title": "Can AI Ever Replace a Surgeon? This Doctor Says No | Dr. Brad Feltis\nDr. Brad Fe…",
           "url": "https://www.youtube.com/watch?v=psKZlrp_gcg",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1936,13 +1886,13 @@
     },
     {
       "id": "l592",
-      "text": "ZETA AI Review: How to Create Story Plots in Zeta AI (Step-by-Step Character & Plot Guide)\nHow to Build Custom Plots and Story Twists from Scratch in zeta AI - Chat, Story, Play\nStuck with predictable AI roleplays that keep looping the same responses? In this step-by-step tutorial, learn how to take total control of your Zeta AI experience, direct multi-character storylines, and engineer dramatic plot twists that keep your characters locked into the story arc.\n\nWe walk through prompt setups, sma\u2026",
+      "text": "ZETA AI Review: How to Create Story Plots in Zeta AI (Step-by-Step Character & Plot Guide)\nHow to Build Custom Plots and Story Twists from Scratch in zeta AI - Chat, Story, Play\nStuck with predictable AI roleplays that keep looping the same responses? In this step-by-step tutorial, learn how to take total control of your Zeta AI experience, direct multi-character storylines, and engineer dramatic plot twists that keep your characters locked into the story arc.\n\nWe walk through prompt setups, sma…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "ZETA AI Review: How to Create Story Plots in Zeta AI (Step-by-Step Character & P\u2026",
+          "title": "ZETA AI Review: How to Create Story Plots in Zeta AI (Step-by-Step Character & P…",
           "url": "https://www.youtube.com/watch?v=vwcJh4YvyTo",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1957,13 +1907,13 @@
     },
     {
       "id": "l593",
-      "text": "When AI Enters the Operating Room\nA Reuters report on botched surgeries involving AI-assisted medical devices is making the rounds, and it raises some genuinely uncomfortable questions.\n\nNuria and Morgan dig into the details: an AI navigation tool used in sinus surgery that allegedly failed to identify a patient's carotid artery, leading to a stroke, and an FDA report on AI software for prenatal ultrasounds wrongly labelling fetal structures. \n\nMorgan brings her experience consulting for intraop\u2026",
+      "text": "When AI Enters the Operating Room\nA Reuters report on botched surgeries involving AI-assisted medical devices is making the rounds, and it raises some genuinely uncomfortable questions.\n\nNuria and Morgan dig into the details: an AI navigation tool used in sinus surgery that allegedly failed to identify a patient's carotid artery, leading to a stroke, and an FDA report on AI software for prenatal ultrasounds wrongly labelling fetal structures. \n\nMorgan brings her experience consulting for intraop…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "When AI Enters the Operating Room\nA Reuters report on botched surgeries involvin\u2026",
+          "title": "When AI Enters the Operating Room\nA Reuters report on botched surgeries involvin…",
           "url": "https://www.youtube.com/watch?v=fv4RAj7l05Y",
           "date": "2026-04-09",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1978,13 +1928,13 @@
     },
     {
       "id": "l594",
-      "text": "CERN Just Shut Down the Large Hadron Collider Until 2030... There's More to This Story\n\ud83d\udcda FEEL ALIVE II \u2014 UNLOCK YOUR INFINITE POWER (NEW BOOK)  https://ralphsmart.com/thebook/\nStep into your next level. This isn\u2019t just a book\u2026 it\u2019s a transformation.\n\ud83d\udd25 Exclusive Content (Patreon)\nGo deeper. Unlock powerful insights you won\u2019t find anywhere else:\nhttps://patreon.com/ralphsmart\n\ud83d\udc55 OFFICIAL INFINITE WATERS MERCH\nWear the message. Live the energy.\nhttp://www.ralphsmart.com/clothing\n\ud83e\udde0 1\u20131 CONSULTATIONS \u2026",
+      "text": "CERN Just Shut Down the Large Hadron Collider Until 2030... There's More to This Story\n📚 FEEL ALIVE II — UNLOCK YOUR INFINITE POWER (NEW BOOK)  https://ralphsmart.com/thebook/\nStep into your next level. This isn’t just a book… it’s a transformation.\n🔥 Exclusive Content (Patreon)\nGo deeper. Unlock powerful insights you won’t find anywhere else:\nhttps://patreon.com/ralphsmart\n👕 OFFICIAL INFINITE WATERS MERCH\nWear the message. Live the energy.\nhttp://www.ralphsmart.com/clothing\n🧠 1–1 CONSULTATIONS …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "CERN Just Shut Down the Large Hadron Collider Until 2030... There's More to This\u2026",
+          "title": "CERN Just Shut Down the Large Hadron Collider Until 2030... There's More to This…",
           "url": "https://www.youtube.com/watch?v=TBECVlFNcKM",
           "date": "2026-07-02",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1999,13 +1949,13 @@
     },
     {
       "id": "l595",
-      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell\u2026",
+      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth!\u2026",
+          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth!…",
           "url": "https://www.youtube.com/watch?v=Cn8HBj8QAbk",
           "date": "2026-03-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2020,13 +1970,13 @@
     },
     {
       "id": "l596",
-      "text": "AI Gives Wrong Medical Advice \u2014 Doctors Still Take the Legal Hit | Dr. John Ferguson\nAI gives wrong medical advice. AI adds a disclaimer. The doctor gets sued. The patient pays the price.\n\nThat's the current legal arrangement \u2014 and Dr. John Ferguson argues this accountability gap isn't accidental. Until AI carries real liability, there's no financial incentive to get it right.\n\nDr. Ferguson is a quintuple board-certified surgeon with decades of surgical experience and one of medicine's leading v\u2026",
+      "text": "AI Gives Wrong Medical Advice — Doctors Still Take the Legal Hit | Dr. John Ferguson\nAI gives wrong medical advice. AI adds a disclaimer. The doctor gets sued. The patient pays the price.\n\nThat's the current legal arrangement — and Dr. John Ferguson argues this accountability gap isn't accidental. Until AI carries real liability, there's no financial incentive to get it right.\n\nDr. Ferguson is a quintuple board-certified surgeon with decades of surgical experience and one of medicine's leading v…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Gives Wrong Medical Advice \u2014 Doctors Still Take the Legal Hit | Dr. John Ferg\u2026",
+          "title": "AI Gives Wrong Medical Advice — Doctors Still Take the Legal Hit | Dr. John Ferg…",
           "url": "https://www.youtube.com/watch?v=XHNYXvs3q-A",
           "date": "2026-07-08",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2041,7 +1991,7 @@
     },
     {
       "id": "l497",
-      "text": "EXPRESSION OF INTEREST - ENT SURGEON, ALBURY-WODONGA \u2014 ASOHNS - Australian Society of Otolaryngology Head and Neck Surgery (Wodonga, Victoria, Australia). Posted 1 month ago.",
+      "text": "EXPRESSION OF INTEREST - ENT SURGEON, ALBURY-WODONGA — ASOHNS - Australian Society of Otolaryngology Head and Neck Surgery (Wodonga, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2062,12 +2012,12 @@
     },
     {
       "id": "l498",
-      "text": "Orthopaedic Surgeon - Staff Specialist \u2014 Sant\u00e9 Recruitment (Rockhampton, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Orthopaedic Surgeon - Staff Specialist — Santé Recruitment (Rockhampton, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Sant\u00e9 Recruitment",
+          "publisher": "Santé Recruitment",
           "title": "Orthopaedic Surgeon - Staff Specialist",
           "url": "https://www.linkedin.com/jobs/view/4453042608",
           "date": "2 weeks ago",
@@ -2083,12 +2033,12 @@
     },
     {
       "id": "l499",
-      "text": "Specialist - Orthopaedic Surgeon \u2014 Sant\u00e9 Recruitment (Shepparton, Victoria, Australia). Posted 1 month ago.",
+      "text": "Specialist - Orthopaedic Surgeon — Santé Recruitment (Shepparton, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Sant\u00e9 Recruitment",
+          "publisher": "Santé Recruitment",
           "title": "Specialist - Orthopaedic Surgeon",
           "url": "https://www.linkedin.com/jobs/view/4437722481",
           "date": "1 month ago",
@@ -2104,7 +2054,7 @@
     },
     {
       "id": "l4100",
-      "text": "SENIOR MEDICAL OFFICER (GP ENT) - ROCKHAMPTON, QUEENSLAND \u2014 ASOHNS - Australian Society of Otolaryngology Head and Neck Surgery (Rockhampton Area). Posted 1 month ago.",
+      "text": "SENIOR MEDICAL OFFICER (GP ENT) - ROCKHAMPTON, QUEENSLAND — ASOHNS - Australian Society of Otolaryngology Head and Neck Surgery (Rockhampton Area). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2125,7 +2075,7 @@
     },
     {
       "id": "l4101",
-      "text": "Senior Staff Specialist/Staff Specialist - General Surgery (Interest in Colorectal Surgery) \u2014 Central Queensland Hospital and Health Service (Rockhampton, Queensland, Australia). Posted 1 week ago.",
+      "text": "Senior Staff Specialist/Staff Specialist - General Surgery (Interest in Colorectal Surgery) — Central Queensland Hospital and Health Service (Rockhampton, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2146,7 +2096,7 @@
     },
     {
       "id": "l4102",
-      "text": "Cardiac Surgery Fellow \u2014 The Royal Children's Hospital (Melbourne, Victoria, Australia). Posted 1 day ago.",
+      "text": "Cardiac Surgery Fellow — The Royal Children's Hospital (Melbourne, Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2167,7 +2117,7 @@
     },
     {
       "id": "l4103",
-      "text": "Surgery Specialist - VRH Dandenong \u2014 Veterinary Referral Hospital (Dandenong, Victoria, Australia). Posted 1 day ago.",
+      "text": "Surgery Specialist - VRH Dandenong — Veterinary Referral Hospital (Dandenong, Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2188,7 +2138,7 @@
     },
     {
       "id": "l4104",
-      "text": "Orthopaedic Surgeon | Regional WA \u2014 Mediix (Perth, Western Australia, Australia). Posted 4 months ago.",
+      "text": "Orthopaedic Surgeon | Regional WA — Mediix (Perth, Western Australia, Australia). Posted 4 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2209,7 +2159,7 @@
     },
     {
       "id": "l4105",
-      "text": "Veterinary Surgeon \u2014 SASH - the Small Animal Specialist Hospital (Gold Coast, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Veterinary Surgeon — SASH - the Small Animal Specialist Hospital (Gold Coast, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2230,7 +2180,7 @@
     },
     {
       "id": "l4106",
-      "text": "Surgery Specialist - VRH Dandenong \u2014 Greencross Vet Hospital (Dandenong, Victoria, Australia). Posted 1 day ago.",
+      "text": "Surgery Specialist - VRH Dandenong — Greencross Vet Hospital (Dandenong, Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2251,13 +2201,13 @@
     },
     {
       "id": "l5107",
-      "text": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sections 1\u20133 (Purpose & Scope; Domain Matrix; Evidence Bands)**  \nDecember 02, 2025  \n\n---\n\n## 1. Purpose & Scope\n\nThis section aligns the project\u2019s TXT and PDF corpus around one structural pattern:\n\n> **Systems that secure compliance and e\nHere is the forensic debrief of the current operational reality, synthesized from your diagnosis.\n\ud83d\udccb CLINICAL DIAGNOSIS: The Parasitic Extraction Engine\nSubject: Global Socio-Economic\u2026",
+      "text": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sections 1–3 (Purpose & Scope; Domain Matrix; Evidence Bands)**  \nDecember 02, 2025  \n\n---\n\n## 1. Purpose & Scope\n\nThis section aligns the project’s TXT and PDF corpus around one structural pattern:\n\n> **Systems that secure compliance and e\nHere is the forensic debrief of the current operational reality, synthesized from your diagnosis.\n📋 CLINICAL DIAGNOSIS: The Parasitic Extraction Engine\nSubject: Global Socio-Economic…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sec\u2026",
+          "title": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sec…",
           "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/2",
           "date": "2026-04-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -2272,13 +2222,13 @@
     },
     {
       "id": "l5108",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2293,13 +2243,13 @@
     },
     {
       "id": "l5109",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history\n&#32; submitted by &#32; /u/xuvayerpro101 &#32; to &#32; r/aiecosystem [link] &#32; [comments]\nWhy are we okay with this? Why are any of us okay with this? Hey Siri make me a picture of my cat riding a dolphin into the sunset. People out here still believin\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history\n&#32; submitted by &#32; /u/xuvayerpro101 &#32; to &#32; r/aiecosystem [link] &#32; [comments]\nWhy are we okay with this? Why are any of us okay with this? Hey Siri make me a picture of my cat riding a dolphin into the sunset. People out here still believin…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/aiecosystem/comments/1w00i5d/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2314,13 +2264,13 @@
     },
     {
       "id": "l5110",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/chillinewman &#32; to &#32; r/ControlProblem [link] &#32; [comments]\nTech billionaires: Why do people not like data centers? Also tech billionaires: Best case scenario you are all unemployed in a permanent underclass, worst case\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/chillinewman &#32; to &#32; r/ControlProblem [link] &#32; [comments]\nTech billionaires: Why do people not like data centers? Also tech billionaires: Best case scenario you are all unemployed in a permanent underclass, worst case…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/ControlProblem/comments/1vzy4do/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2335,13 +2285,13 @@
     },
     {
       "id": "l5111",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the ram for a motherboard upgrade or a cor\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the ram for a motherboard upgrade or a cor…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcmasterrace/comments/1vfe28b/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2356,13 +2306,13 @@
     },
     {
       "id": "l5112",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcgaming/comments/1vfe3ru/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2377,13 +2327,13 @@
     },
     {
       "id": "l5113",
-      "text": "Can AI Ever Replace a Surgeon? This Doctor Says No | Dr. Brad Feltis\nDr. Brad Feltis has spent his career looking patients in the eye right before the moment everything could go wrong.\n\nIn this episode, the pediatric surgeon behind one of the only advanced fetal surgery programs in North America explains why no algorithm can replicate that split-second of human connection. He also opens up about what it took to build that program from scratch with zero hospital support, recruiting elite surgeons\u2026",
+      "text": "Can AI Ever Replace a Surgeon? This Doctor Says No | Dr. Brad Feltis\nDr. Brad Feltis has spent his career looking patients in the eye right before the moment everything could go wrong.\n\nIn this episode, the pediatric surgeon behind one of the only advanced fetal surgery programs in North America explains why no algorithm can replicate that split-second of human connection. He also opens up about what it took to build that program from scratch with zero hospital support, recruiting elite surgeons…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Can AI Ever Replace a Surgeon? This Doctor Says No | Dr. Brad Feltis\nDr. Brad Fe\u2026",
+          "title": "Can AI Ever Replace a Surgeon? This Doctor Says No | Dr. Brad Feltis\nDr. Brad Fe…",
           "url": "https://www.youtube.com/watch?v=psKZlrp_gcg",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2398,13 +2348,13 @@
     },
     {
       "id": "l5114",
-      "text": "ZETA AI Review: How to Create Story Plots in Zeta AI (Step-by-Step Character & Plot Guide)\nHow to Build Custom Plots and Story Twists from Scratch in zeta AI - Chat, Story, Play\nStuck with predictable AI roleplays that keep looping the same responses? In this step-by-step tutorial, learn how to take total control of your Zeta AI experience, direct multi-character storylines, and engineer dramatic plot twists that keep your characters locked into the story arc.\n\nWe walk through prompt setups, sma\u2026",
+      "text": "ZETA AI Review: How to Create Story Plots in Zeta AI (Step-by-Step Character & Plot Guide)\nHow to Build Custom Plots and Story Twists from Scratch in zeta AI - Chat, Story, Play\nStuck with predictable AI roleplays that keep looping the same responses? In this step-by-step tutorial, learn how to take total control of your Zeta AI experience, direct multi-character storylines, and engineer dramatic plot twists that keep your characters locked into the story arc.\n\nWe walk through prompt setups, sma…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "ZETA AI Review: How to Create Story Plots in Zeta AI (Step-by-Step Character & P\u2026",
+          "title": "ZETA AI Review: How to Create Story Plots in Zeta AI (Step-by-Step Character & P…",
           "url": "https://www.youtube.com/watch?v=vwcJh4YvyTo",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2419,13 +2369,13 @@
     },
     {
       "id": "l5115",
-      "text": "When AI Enters the Operating Room\nA Reuters report on botched surgeries involving AI-assisted medical devices is making the rounds, and it raises some genuinely uncomfortable questions.\n\nNuria and Morgan dig into the details: an AI navigation tool used in sinus surgery that allegedly failed to identify a patient's carotid artery, leading to a stroke, and an FDA report on AI software for prenatal ultrasounds wrongly labelling fetal structures. \n\nMorgan brings her experience consulting for intraop\u2026",
+      "text": "When AI Enters the Operating Room\nA Reuters report on botched surgeries involving AI-assisted medical devices is making the rounds, and it raises some genuinely uncomfortable questions.\n\nNuria and Morgan dig into the details: an AI navigation tool used in sinus surgery that allegedly failed to identify a patient's carotid artery, leading to a stroke, and an FDA report on AI software for prenatal ultrasounds wrongly labelling fetal structures. \n\nMorgan brings her experience consulting for intraop…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "When AI Enters the Operating Room\nA Reuters report on botched surgeries involvin\u2026",
+          "title": "When AI Enters the Operating Room\nA Reuters report on botched surgeries involvin…",
           "url": "https://www.youtube.com/watch?v=fv4RAj7l05Y",
           "date": "2026-04-09",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2440,13 +2390,13 @@
     },
     {
       "id": "l5116",
-      "text": "CERN Just Shut Down the Large Hadron Collider Until 2030... There's More to This Story\n\ud83d\udcda FEEL ALIVE II \u2014 UNLOCK YOUR INFINITE POWER (NEW BOOK)  https://ralphsmart.com/thebook/\nStep into your next level. This isn\u2019t just a book\u2026 it\u2019s a transformation.\n\ud83d\udd25 Exclusive Content (Patreon)\nGo deeper. Unlock powerful insights you won\u2019t find anywhere else:\nhttps://patreon.com/ralphsmart\n\ud83d\udc55 OFFICIAL INFINITE WATERS MERCH\nWear the message. Live the energy.\nhttp://www.ralphsmart.com/clothing\n\ud83e\udde0 1\u20131 CONSULTATIONS \u2026",
+      "text": "CERN Just Shut Down the Large Hadron Collider Until 2030... There's More to This Story\n📚 FEEL ALIVE II — UNLOCK YOUR INFINITE POWER (NEW BOOK)  https://ralphsmart.com/thebook/\nStep into your next level. This isn’t just a book… it’s a transformation.\n🔥 Exclusive Content (Patreon)\nGo deeper. Unlock powerful insights you won’t find anywhere else:\nhttps://patreon.com/ralphsmart\n👕 OFFICIAL INFINITE WATERS MERCH\nWear the message. Live the energy.\nhttp://www.ralphsmart.com/clothing\n🧠 1–1 CONSULTATIONS …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "CERN Just Shut Down the Large Hadron Collider Until 2030... There's More to This\u2026",
+          "title": "CERN Just Shut Down the Large Hadron Collider Until 2030... There's More to This…",
           "url": "https://www.youtube.com/watch?v=TBECVlFNcKM",
           "date": "2026-07-02",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2461,13 +2411,13 @@
     },
     {
       "id": "l5117",
-      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell\u2026",
+      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth!\u2026",
+          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth!…",
           "url": "https://www.youtube.com/watch?v=Cn8HBj8QAbk",
           "date": "2026-03-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2482,13 +2432,13 @@
     },
     {
       "id": "l5118",
-      "text": "AI Gives Wrong Medical Advice \u2014 Doctors Still Take the Legal Hit | Dr. John Ferguson\nAI gives wrong medical advice. AI adds a disclaimer. The doctor gets sued. The patient pays the price.\n\nThat's the current legal arrangement \u2014 and Dr. John Ferguson argues this accountability gap isn't accidental. Until AI carries real liability, there's no financial incentive to get it right.\n\nDr. Ferguson is a quintuple board-certified surgeon with decades of surgical experience and one of medicine's leading v\u2026",
+      "text": "AI Gives Wrong Medical Advice — Doctors Still Take the Legal Hit | Dr. John Ferguson\nAI gives wrong medical advice. AI adds a disclaimer. The doctor gets sued. The patient pays the price.\n\nThat's the current legal arrangement — and Dr. John Ferguson argues this accountability gap isn't accidental. Until AI carries real liability, there's no financial incentive to get it right.\n\nDr. Ferguson is a quintuple board-certified surgeon with decades of surgical experience and one of medicine's leading v…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Gives Wrong Medical Advice \u2014 Doctors Still Take the Legal Hit | Dr. John Ferg\u2026",
+          "title": "AI Gives Wrong Medical Advice — Doctors Still Take the Legal Hit | Dr. John Ferg…",
           "url": "https://www.youtube.com/watch?v=XHNYXvs3q-A",
           "date": "2026-07-08",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2581,6 +2531,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

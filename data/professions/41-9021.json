@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "41-9021-01",
-      "text": "National peak professional bodies and statutory regulators governing Real Estate Brokers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Real Estate Brokers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Real Estate Brokers",
-          "url": "https://www.psc.gov.au/standards/41-9021",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Real Estate Brokers"
-        }
-      ],
-      "scope": "Australian practitioners in Real Estate Brokers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "41-9021-02",
-      "text": "Automation of routine transactional and analytical tasks in Real Estate Brokers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Real Estate Brokers",
-          "url": "https://www.jobsandskills.gov.au/research/41-9021",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Real Estate Brokers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Real Estate Brokers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "Launch Spanish (es) site-wide\n## Summary\n- Resumes the paused multilingual initiative: all 61 pages now have QA-verified Spanish translations (`public/es/*.html`)\n- Flips `es.launched: true` in `build/languages.json`, activating the language switcher, hreflang tags, and localized-language banner site-wide\n- Fixes two real, pre-e\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/coderabb\u2026",
+      "text": "Launch Spanish (es) site-wide\n## Summary\n- Resumes the paused multilingual initiative: all 61 pages now have QA-verified Spanish translations (`public/es/*.html`)\n- Flips `es.launched: true` in `build/languages.json`, activating the language switcher, hreflang tags, and localized-language banner site-wide\n- Fixes two real, pre-e\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/coderabb…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Launch Spanish (es) site-wide\n## Summary\n- Resumes the paused multilingual initi\u2026",
+          "title": "Launch Spanish (es) site-wide\n## Summary\n- Resumes the paused multilingual initi…",
           "url": "https://github.com/Aetheria-Systems/mediprimer/pull/26",
           "date": "2026-07-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -92,7 +42,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Add LeadRE MVP scaffold: onboarding, agent, dashboard & funnel pages\n## Summary\n\u2026",
+          "title": "Add LeadRE MVP scaffold: onboarding, agent, dashboard & funnel pages\n## Summary\n…",
           "url": "https://github.com/leadre-lan/whab2/pull/2",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -113,7 +63,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Why the Best Real Estate Channel Partners in Pune Are Changing the Game for Brok\u2026",
+          "title": "Why the Best Real Estate Channel Partners in Pune Are Changing the Game for Brok…",
           "url": "https://github.com/propenginepvtltd/channel-partners-/issues/4",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -134,7 +84,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Trusted Real Estate Website Development Company for Builders, Brokers & Realtors\u2026",
+          "title": "Trusted Real Estate Website Development Company for Builders, Brokers & Realtors…",
           "url": "https://github.com/PitchPineMedia25/Website-Development-Company/issues/6",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -155,7 +105,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Digital Marketing Services for Real Estate in Pune\nDigital Marketing Services fo\u2026",
+          "title": "Digital Marketing Services for Real Estate in Pune\nDigital Marketing Services fo…",
           "url": "https://github.com/anubhutigupta062-cyber/ANUU/issues/120",
           "date": "2026-07-24",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -170,13 +120,13 @@
     },
     {
       "id": "l508",
-      "text": "7 Best Real Estate App Development Companies in Nigeria\nNigeria\u2019s real estate industry is increasingly embracing mobile and web technologies to simplify property discovery, rentals, sales, property management, and customer engagement. Real estate apps can bring buyers, sellers, landlords, tenants, agents, and property managers together through a single d",
+      "text": "7 Best Real Estate App Development Companies in Nigeria\nNigeria’s real estate industry is increasingly embracing mobile and web technologies to simplify property discovery, rentals, sales, property management, and customer engagement. Real estate apps can bring buyers, sellers, landlords, tenants, agents, and property managers together through a single d",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "7 Best Real Estate App Development Companies in Nigeria\nNigeria\u2019s real estate in\u2026",
+          "title": "7 Best Real Estate App Development Companies in Nigeria\nNigeria’s real estate in…",
           "url": "https://github.com/1743294154/software/issues/55",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -197,7 +147,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Powerful Digital Tactics for Modern Real Estate Companies\n<img width=\"1280\" heig\u2026",
+          "title": "Powerful Digital Tactics for Modern Real Estate Companies\n<img width=\"1280\" heig…",
           "url": "https://github.com/PitchPineMedia25/Real-Estate-Digital-Marketing-Agency-in-India/issues/2",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -218,7 +168,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Real Estate Digital Marketing Agency in India for Online Growth\n<img width=\"1280\u2026",
+          "title": "Real Estate Digital Marketing Agency in India for Online Growth\n<img width=\"1280…",
           "url": "https://github.com/PitchPineMedia25/Real-Estate-Digital-Marketing-Agency-in-India/issues/1",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -239,7 +189,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "How to Choose a Trusted Real Estate Company in Gurgaon\nBuying a home in Gurgaon \u2026",
+          "title": "How to Choose a Trusted Real Estate Company in Gurgaon\nBuying a home in Gurgaon …",
           "url": "https://github.com/drishaestate/Landmark-One-Sector-67-Gurgaon/issues/5",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -254,13 +204,13 @@
     },
     {
       "id": "l512",
-      "text": "Custom remote MCP connector: tools never surfaced to the model in claude.ai web, while the broker completes the full OAuth + MCP handshake server-side (same server works in ChatGPT + Claude Code)\n## Summary\n\nA Connected **custom** remote MCP connector (FastMCP, OAuth, Streamable HTTP, `stateless_http=True` + `json_response=True`) shows as Connected with all its tools listed in claude.ai **web** Settings, but its tools are **never handed to the model** in conversations \u2014 the model only sees f\nRel\u2026",
+      "text": "Custom remote MCP connector: tools never surfaced to the model in claude.ai web, while the broker completes the full OAuth + MCP handshake server-side (same server works in ChatGPT + Claude Code)\n## Summary\n\nA Connected **custom** remote MCP connector (FastMCP, OAuth, Streamable HTTP, `stateless_http=True` + `json_response=True`) shows as Connected with all its tools listed in claude.ai **web** Settings, but its tools are **never handed to the model** in conversations — the model only sees f\nRel…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Custom remote MCP connector: tools never surfaced to the model in claude.ai web,\u2026",
+          "title": "Custom remote MCP connector: tools never surfaced to the model in claude.ai web,…",
           "url": "https://github.com/anthropics/claude-ai-mcp/issues/476",
           "date": "2026-06-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -281,7 +231,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Why Are Real Estate Consultants Is Your Smartest Property Move?\nBuying a propert\u2026",
+          "title": "Why Are Real Estate Consultants Is Your Smartest Property Move?\nBuying a propert…",
           "url": "https://github.com/brickstaatconsultant/blogs/issues/2",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -302,7 +252,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Add commercial real estate AI broker console\n### Motivation\n\n- Provide a lightwe\u2026",
+          "title": "Add commercial real estate AI broker console\n### Motivation\n\n- Provide a lightwe…",
           "url": "https://github.com/lichaohua888666-hue/hotel-business-data/pull/12",
           "date": "2026-06-05",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -323,7 +273,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Professional Real Estate Website Development Company\n<img width=\"1280\" height=\"7\u2026",
+          "title": "Professional Real Estate Website Development Company\n<img width=\"1280\" height=\"7…",
           "url": "https://github.com/PitchPineMedia25/Website-Development-Company/issues/4",
           "date": "2026-07-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -527,13 +477,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "AI Realtor photos need to be banned\nI&#39;ve seen plenty of discussions about AI-enhanced real estate photos, but it&#39;s really getting out of control. My husband and I have been house hunting for over a year in New Jersey, where the market is incredibly competitive. When a listing looks promising, you have to act fast. The problem is that more and more listings are filled with AI-generated or heavily altered photos that make the property look nothing like it actually does. It&#39;s such a was\u2026",
+      "text": "AI Realtor photos need to be banned\nI&#39;ve seen plenty of discussions about AI-enhanced real estate photos, but it&#39;s really getting out of control. My husband and I have been house hunting for over a year in New Jersey, where the market is incredibly competitive. When a listing looks promising, you have to act fast. The problem is that more and more listings are filled with AI-generated or heavily altered photos that make the property look nothing like it actually does. It&#39;s such a was…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI Realtor photos need to be banned\nI&#39;ve seen plenty of discussions about AI\u2026",
+          "title": "AI Realtor photos need to be banned\nI&#39;ve seen plenty of discussions about AI…",
           "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1vdo0dm/ai_realtor_photos_need_to_be_banned/",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -863,13 +813,13 @@
     },
     {
       "id": "l541",
-      "text": "AI in real estate should be illegal\nBeen looking at houses recently and the amount of AI photos used in listings is insane, half the time they&#39;re posted as if they&#39;re before-and-after pictures &#32; submitted by &#32; /u/jarrbear2319 &#32; to &#32; r/mildlyinfuriating [link] &#32; [comments]\nI agree. When we were on our house hunt literally every house except one had ai pictures. Didn\u2019t catch on until after the 2nd home. We went with the one house that didn\u2019t have ai pictures Here it mus\u2026",
+      "text": "AI in real estate should be illegal\nBeen looking at houses recently and the amount of AI photos used in listings is insane, half the time they&#39;re posted as if they&#39;re before-and-after pictures &#32; submitted by &#32; /u/jarrbear2319 &#32; to &#32; r/mildlyinfuriating [link] &#32; [comments]\nI agree. When we were on our house hunt literally every house except one had ai pictures. Didn’t catch on until after the 2nd home. We went with the one house that didn’t have ai pictures Here it mus…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI in real estate should be illegal\nBeen looking at houses recently and the amou\u2026",
+          "title": "AI in real estate should be illegal\nBeen looking at houses recently and the amou…",
           "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1vskbde/ai_in_real_estate_should_be_illegal/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -890,7 +840,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I had a dream where Donald Trump's Real Estate Tycoon was published to Steam, bu\u2026",
+          "title": "I had a dream where Donald Trump's Real Estate Tycoon was published to Steam, bu…",
           "url": "https://www.reddit.com/r/thomastheplankengine/comments/1voba0z/i_had_a_dream_where_donald_trumps_real_estate/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "Why are fake AI pictures allowed in selling real estate?\nHow is it reasonable that professional real estate sales are conducted knowing misleading buyers with fake images of the property? AI images are not real images. Using AI without disclosure is deceptive. This would not be accepted in selling a car or anything else. Why is there no standard for this? &#32; submitted by &#32; /u/Sufficient-Eagle3318 &#32; to &#32; r/RealEstateCanada [link] &#32; [comments]\nMy next door neighbour just listed \u2026",
+      "text": "Why are fake AI pictures allowed in selling real estate?\nHow is it reasonable that professional real estate sales are conducted knowing misleading buyers with fake images of the property? AI images are not real images. Using AI without disclosure is deceptive. This would not be accepted in selling a car or anything else. Why is there no standard for this? &#32; submitted by &#32; /u/Sufficient-Eagle3318 &#32; to &#32; r/RealEstateCanada [link] &#32; [comments]\nMy next door neighbour just listed …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why are fake AI pictures allowed in selling real estate?\nHow is it reasonable th\u2026",
+          "title": "Why are fake AI pictures allowed in selling real estate?\nHow is it reasonable th…",
           "url": "https://www.reddit.com/r/RealEstateCanada/comments/1vcrr88/why_are_fake_ai_pictures_allowed_in_selling_real/",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -926,13 +876,13 @@
     },
     {
       "id": "l544",
-      "text": "Real estate agents using AI.\nHow do people feel about real estate agents using AI to generate/alter images? I just looked at a listing and couldn&#39;t believe what I saw. How is this meant to trust what they&#39;re showing or get a realistic idea of the house listed? This is the listing: 932 Toorak Road, Camberwell https://www.domain.com.au/932-toorak-road-camberwell-vic-3124-2021106186?utm\\_source=Android%20app&amp;utm\\_medium=sharelisting &#32; submitted by &#32; /u/AnigozanthosFlavidus &#32;\u2026",
+      "text": "Real estate agents using AI.\nHow do people feel about real estate agents using AI to generate/alter images? I just looked at a listing and couldn&#39;t believe what I saw. How is this meant to trust what they&#39;re showing or get a realistic idea of the house listed? This is the listing: 932 Toorak Road, Camberwell https://www.domain.com.au/932-toorak-road-camberwell-vic-3124-2021106186?utm\\_source=Android%20app&amp;utm\\_medium=sharelisting &#32; submitted by &#32; /u/AnigozanthosFlavidus &#32;…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Real estate agents using AI.\nHow do people feel about real estate agents using A\u2026",
+          "title": "Real estate agents using AI.\nHow do people feel about real estate agents using A…",
           "url": "https://www.reddit.com/r/melbourne/comments/1vzm2ze/real_estate_agents_using_ai/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "Real Estate AI Misrepresentations\nI was walking by 228 Jefferson St NW yesterday. It is a particularly ugly style of home that has the sloping roof as the focal point of the house. I checked what it was listed at and it is listed for $500k, which seems appropriate given the house&#39;s condition. I also noticed that the photos on the MLS show it as a ranch! AI in real estate listings is getting out of hand. See attached for the real picture and the AI image on the MLS. https://www.redfin.com/DC/\u2026",
+      "text": "Real Estate AI Misrepresentations\nI was walking by 228 Jefferson St NW yesterday. It is a particularly ugly style of home that has the sloping roof as the focal point of the house. I checked what it was listed at and it is listed for $500k, which seems appropriate given the house&#39;s condition. I also noticed that the photos on the MLS show it as a ranch! AI in real estate listings is getting out of hand. See attached for the real picture and the AI image on the MLS. https://www.redfin.com/DC/…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Real Estate AI Misrepresentations\nI was walking by 228 Jefferson St NW yesterday\u2026",
+          "title": "Real Estate AI Misrepresentations\nI was walking by 228 Jefferson St NW yesterday…",
           "url": "https://www.reddit.com/r/washingtondc/comments/1vqw2h6/real_estate_ai_misrepresentations/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "Real disruptive CRM\nI am looking for a real disruptive CRM that mainly rely on AI. I am real estate broker, and most of my teams are not using correctly the CRM, I can not blame them, they are on the road, visits and phone all day long so they don&#39;t spend time on CRM. I am sure we could produce more if CRM is correctly field and used. Not asking them to use super advanced features, just fill the CRM and don&#39;t miss a prospect because it has been lost on CRM. So we are looking for a super \u2026",
+      "text": "Real disruptive CRM\nI am looking for a real disruptive CRM that mainly rely on AI. I am real estate broker, and most of my teams are not using correctly the CRM, I can not blame them, they are on the road, visits and phone all day long so they don&#39;t spend time on CRM. I am sure we could produce more if CRM is correctly field and used. Not asking them to use super advanced features, just fill the CRM and don&#39;t miss a prospect because it has been lost on CRM. So we are looking for a super …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Real disruptive CRM\nI am looking for a real disruptive CRM that mainly rely on A\u2026",
+          "title": "Real disruptive CRM\nI am looking for a real disruptive CRM that mainly rely on A…",
           "url": "https://www.reddit.com/r/CRMSoftware/comments/1vg2fyu/real_disruptive_crm/",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "Most teams already have access to AI. Using it more isn't the same as changing how work gets done.\n\nThat's the shift ODSC AI NYC: AI for Work Summit is built around \u2014 two days in New York City this December on moving from AI assistance to AI delegation.\n\nAcross 30+ sessions and hands-on workshops:\n- You build \u2192 Ship reliable agents, evals, and RAG in production\n- You apply \u2192 Delegate a real task from your backlog \u2014 no code required \u2014 and leave with a working automation\n- You lead \u2192 Build the gov",
+      "text": "Most teams already have access to AI. Using it more isn't the same as changing how work gets done.\n\nThat's the shift ODSC AI NYC: AI for Work Summit is built around — two days in New York City this December on moving from AI assistance to AI delegation.\n\nAcross 30+ sessions and hands-on workshops:\n- You build → Ship reliable agents, evals, and RAG in production\n- You apply → Delegate a real task from your backlog — no code required — and leave with a working automation\n- You lead → Build the gov",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Most teams already have access to AI. Using it more isn't the same as changing h\u2026",
+          "title": "Most teams already have access to AI. Using it more isn't the same as changing h…",
           "url": "https://x.com/_odsc/status/2093429414952366481",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1010,13 +960,13 @@
     },
     {
       "id": "l548",
-      "text": "BAI_AGI framed the shift cleanly: AI is changing how we build, and the stack should live in one place.\n\nCode, creative work, frontier models, and production APIs only compound when the path from prompt to shipment is short. \n\nhttps://t.co/vl0CaU8bMl\u2019s pitch is that gateway\u2014wallet-native access, model choice, and interfaces meant for agents that call tools all day. \n\nFaster building is the claim. Reliable inference plus settlement is the test.\nThat is where TRON belongs in the picture. \n\nAgents n",
+      "text": "BAI_AGI framed the shift cleanly: AI is changing how we build, and the stack should live in one place.\n\nCode, creative work, frontier models, and production APIs only compound when the path from prompt to shipment is short. \n\nhttps://t.co/vl0CaU8bMl’s pitch is that gateway—wallet-native access, model choice, and interfaces meant for agents that call tools all day. \n\nFaster building is the claim. Reliable inference plus settlement is the test.\nThat is where TRON belongs in the picture. \n\nAgents n",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "BAI_AGI framed the shift cleanly: AI is changing how we build, and the stack sho\u2026",
+          "title": "BAI_AGI framed the shift cleanly: AI is changing how we build, and the stack sho…",
           "url": "https://x.com/francis_cgl/status/2093421071185973478",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1031,13 +981,13 @@
     },
     {
       "id": "l549",
-      "text": "This is a fair bear point for $APP $RDDT $META $PINS $SNAP and Adtech broadly.\n\nAI/LLMs could eventually deliver better ROAS and start taking budget from existing ad platforms.\n\nI just don\u2019t think advertising works that cleanly.\n\nIf the best ROAS automatically won every dollar, $META would have monopolized digital advertising years ago. Its targeting and ad stack have been superior to most platforms for a long time, yet $RDDT $SNAP $PINS and others still built real advertising businesses.\n\nAdver",
+      "text": "This is a fair bear point for $APP $RDDT $META $PINS $SNAP and Adtech broadly.\n\nAI/LLMs could eventually deliver better ROAS and start taking budget from existing ad platforms.\n\nI just don’t think advertising works that cleanly.\n\nIf the best ROAS automatically won every dollar, $META would have monopolized digital advertising years ago. Its targeting and ad stack have been superior to most platforms for a long time, yet $RDDT $SNAP $PINS and others still built real advertising businesses.\n\nAdver",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This is a fair bear point for $APP $RDDT $META $PINS $SNAP and Adtech broadly.\n\n\u2026",
+          "title": "This is a fair bear point for $APP $RDDT $META $PINS $SNAP and Adtech broadly.\n\n…",
           "url": "https://x.com/TheWiseIC/status/2093507103549763999",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1052,13 +1002,13 @@
     },
     {
       "id": "l550",
-      "text": "Most AI benchmarks test whether a model can answer.\nCommerceAgentBench asks a harder question:\n\nCan an AI agent actually complete the job?\n\nCommerceAgentBench is an e-commerce benchmark from Accio built around 107 real-world business tasks. The tasks are executed across realistic replicas of business systems \u2014 email, browsers, calendars, supplier platforms, logistics tools and more.\nAnd the evaluation focuses on something important:\n\nWhat the agent actually does, not what it says it did.\n\nInstea",
+      "text": "Most AI benchmarks test whether a model can answer.\nCommerceAgentBench asks a harder question:\n\nCan an AI agent actually complete the job?\n\nCommerceAgentBench is an e-commerce benchmark from Accio built around 107 real-world business tasks. The tasks are executed across realistic replicas of business systems — email, browsers, calendars, supplier platforms, logistics tools and more.\nAnd the evaluation focuses on something important:\n\nWhat the agent actually does, not what it says it did.\n\nInstea",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Most AI benchmarks test whether a model can answer.\nCommerceAgentBench asks a ha\u2026",
+          "title": "Most AI benchmarks test whether a model can answer.\nCommerceAgentBench asks a ha…",
           "url": "https://x.com/Krishnasagrawal/status/2093336445234937996",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1073,13 +1023,13 @@
     },
     {
       "id": "l551",
-      "text": "Strategic Predictive Analysis :::\nPi Network\u2019s Next Evolution: From Blockchain Nodes to a Distributed AI and Work Execution Infrastructure\n( https://t.co/690gQVtYyU )\n\n[[[ This article includes Predictive & Technical Analysis  and may differ from actual outcomes ]]]\n[[[ \u201cWhy OpenClaw and the Atlassian MCP Server Matter \u2014 Pi Desktop Is No Longer Just a Node Application\u201d ]]]\n[[[ \u201cTurning 420,000+ Pioneer Nodes from Blockchain Validators into a Global Distributed Production Infrastructure\u201d ]]]\n[[[",
+      "text": "Strategic Predictive Analysis :::\nPi Network’s Next Evolution: From Blockchain Nodes to a Distributed AI and Work Execution Infrastructure\n( https://t.co/690gQVtYyU )\n\n[[[ This article includes Predictive & Technical Analysis  and may differ from actual outcomes ]]]\n[[[ “Why OpenClaw and the Atlassian MCP Server Matter — Pi Desktop Is No Longer Just a Node Application” ]]]\n[[[ “Turning 420,000+ Pioneer Nodes from Blockchain Validators into a Global Distributed Production Infrastructure” ]]]\n[[[",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Strategic Predictive Analysis :::\nPi Network\u2019s Next Evolution: From Blockchain N\u2026",
+          "title": "Strategic Predictive Analysis :::\nPi Network’s Next Evolution: From Blockchain N…",
           "url": "https://x.com/applekhankorea/status/2093366647587565778",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1100,7 +1050,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "If we do achieve AGI, AI won't tell us, but there will be signs! https://t.co/TX\u2026",
+          "title": "If we do achieve AGI, AI won't tell us, but there will be signs! https://t.co/TX…",
           "url": "https://x.com/theonejvo/status/2093379689436082289",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1226,7 +1176,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Just a reminder that I offer complimentary discovery calls to talk about how you\u2026",
+          "title": "Just a reminder that I offer complimentary discovery calls to talk about how you…",
           "url": "https://x.com/Kevinkrone/status/2093444304530440573",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1247,7 +1197,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Complimentary 30 minute chat about how your firm uses AI or could be using it.\n\n\u2026",
+          "title": "Complimentary 30 minute chat about how your firm uses AI or could be using it.\n\n…",
           "url": "https://x.com/Kevinkrone/status/2093444725651243271",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1268,7 +1218,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Leaving an industry is not the same as starting over.\n\nHypothetical: a process e\u2026",
+          "title": "Leaving an industry is not the same as starting over.\n\nHypothetical: a process e…",
           "url": "https://x.com/offladder/status/2093528981824053495",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1289,7 +1239,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "And check out a product made by @_cat_turner . An AI tool for logistics and manu\u2026",
+          "title": "And check out a product made by @_cat_turner . An AI tool for logistics and manu…",
           "url": "https://x.com/Kevinkrone/status/2093445470307921923",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1304,13 +1254,13 @@
     },
     {
       "id": "l562",
-      "text": "ALLOW ME TO REINTRODUCE MYSELF.\n\nIn 2022 I completed an independent study program at The University Of Texas during my MBA, in partnership with a leading private equity and brokerage firm.\n\nFrom there I launched my next venture, Real Estate AI Studio.\n\nHere\u2019s the part I think brokers, team leaders, and agents should actually care about.\n\nThe real estate industry absolutely should be adopting AI, but the market serving it still makes almost no sense.\n\nYou\u2019ve got people charging $10k to $100k + fo",
+      "text": "ALLOW ME TO REINTRODUCE MYSELF.\n\nIn 2022 I completed an independent study program at The University Of Texas during my MBA, in partnership with a leading private equity and brokerage firm.\n\nFrom there I launched my next venture, Real Estate AI Studio.\n\nHere’s the part I think brokers, team leaders, and agents should actually care about.\n\nThe real estate industry absolutely should be adopting AI, but the market serving it still makes almost no sense.\n\nYou’ve got people charging $10k to $100k + fo",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "ALLOW ME TO REINTRODUCE MYSELF.\n\nIn 2022 I completed an independent study progra\u2026",
+          "title": "ALLOW ME TO REINTRODUCE MYSELF.\n\nIn 2022 I completed an independent study progra…",
           "url": "https://x.com/Kevinkrone/status/2046289000600891583",
           "date": "2026-04-20",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1331,7 +1281,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@TheWiseIC If I asked Chatgpt, Gemini, Grok, or Claude what new features the iPh\u2026",
+          "title": "@TheWiseIC If I asked Chatgpt, Gemini, Grok, or Claude what new features the iPh…",
           "url": "https://x.com/thomasthedeal/status/2093510603981656491",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1367,13 +1317,13 @@
     },
     {
       "id": "l565",
-      "text": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+      "text": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+          "title": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
           "url": "https://x.com/BestBlogsDev/status/2093500753738645591",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1430,13 +1380,13 @@
     },
     {
       "id": "l568",
-      "text": "Is Trade War Uncertainty Crushing Canada's Real Estate Market?\nThe US\u2013Canada trade war will likely end in a relatively tame outcome but is still creating major uncertainty that delays home-buying decisions, with key deadlines around Sept. 8 for a response to Canada\u2019s counter-tariffs and potential new US tariffs starting Jan. 1. \n\nThey review which Canadian cities and provinces are most tariff-exposed (e.g., Saint John, Calgary, Windsor and the Ontario\u2013Montreal corridor), and explain how job loss\u2026",
+      "text": "Is Trade War Uncertainty Crushing Canada's Real Estate Market?\nThe US–Canada trade war will likely end in a relatively tame outcome but is still creating major uncertainty that delays home-buying decisions, with key deadlines around Sept. 8 for a response to Canada’s counter-tariffs and potential new US tariffs starting Jan. 1. \n\nThey review which Canadian cities and provinces are most tariff-exposed (e.g., Saint John, Calgary, Windsor and the Ontario–Montreal corridor), and explain how job loss…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Is Trade War Uncertainty Crushing Canada's Real Estate Market?\nThe US\u2013Canada tra\u2026",
+          "title": "Is Trade War Uncertainty Crushing Canada's Real Estate Market?\nThe US–Canada tra…",
           "url": "https://www.youtube.com/watch?v=xCL42Q-Qiio",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1451,13 +1401,13 @@
     },
     {
       "id": "l569",
-      "text": "Dylan Patel \u2013 Two labs will soon control most of the world's workforce\nHad a lot of fun chatting again with my twin brother Dylan Patel.\n\nWe went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world\u2019s usable FLOPs within the next few years (because they can monetize compute better and thus outbid everyone).\n\nAnd then we discuss whether the $10T+ of total AI capex we\u2019ll see by\u2026",
+      "text": "Dylan Patel – Two labs will soon control most of the world's workforce\nHad a lot of fun chatting again with my twin brother Dylan Patel.\n\nWe went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world’s usable FLOPs within the next few years (because they can monetize compute better and thus outbid everyone).\n\nAnd then we discuss whether the $10T+ of total AI capex we’ll see by…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Dylan Patel \u2013 Two labs will soon control most of the world's workforce\nHad a lot\u2026",
+          "title": "Dylan Patel – Two labs will soon control most of the world's workforce\nHad a lot…",
           "url": "https://www.youtube.com/watch?v=aV26V1UvkJw",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1472,13 +1422,13 @@
     },
     {
       "id": "l570",
-      "text": "Could AI Replace Your Realtor? Buying a House Without Commission Fees\nA massive technological shift is hitting the real estate market as more homebuyers turn to artificial intelligence to navigate the process without relying as heavily on traditional agents.\n\nIn this edition of The Factor Learning Hub, tech expert Patrick Jones and realtor Tiffany Ryland break down how new AI platforms are changing the way people search for homes, schedule property tours, compare listings, review paperwork and p\u2026",
+      "text": "Could AI Replace Your Realtor? Buying a House Without Commission Fees\nA massive technological shift is hitting the real estate market as more homebuyers turn to artificial intelligence to navigate the process without relying as heavily on traditional agents.\n\nIn this edition of The Factor Learning Hub, tech expert Patrick Jones and realtor Tiffany Ryland break down how new AI platforms are changing the way people search for homes, schedule property tours, compare listings, review paperwork and p…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Could AI Replace Your Realtor? Buying a House Without Commission Fees\nA massive \u2026",
+          "title": "Could AI Replace Your Realtor? Buying a House Without Commission Fees\nA massive …",
           "url": "https://www.youtube.com/watch?v=l820sBcovxQ",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1493,13 +1443,13 @@
     },
     {
       "id": "l571",
-      "text": "Built on Sand? The AI Blindspot Threatening Your Real Estate Business\n\ud83c\udf99\ufe0f Episode Title: Built on Sand? The AI Blindspot Threatening Your Real Estate Business\n\n\ud83d\udca1 This Episode's Winning Factor: True business longevity isn't built on the fastest tech tool; it's anchored in secure, controlled systems and the irreplaceable foundation of human trust.\n\n\u25b6\ufe0f Episode Summary:\n\nWhen China abruptly blocked a $2 billion Meta deal, the AI platform Manus went \"poof,\" instantly wiping out a beautiful, custom bac\u2026",
+      "text": "Built on Sand? The AI Blindspot Threatening Your Real Estate Business\n🎙️ Episode Title: Built on Sand? The AI Blindspot Threatening Your Real Estate Business\n\n💡 This Episode's Winning Factor: True business longevity isn't built on the fastest tech tool; it's anchored in secure, controlled systems and the irreplaceable foundation of human trust.\n\n▶️ Episode Summary:\n\nWhen China abruptly blocked a $2 billion Meta deal, the AI platform Manus went \"poof,\" instantly wiping out a beautiful, custom bac…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Built on Sand? The AI Blindspot Threatening Your Real Estate Business\n\ud83c\udf99\ufe0f Episode\u2026",
+          "title": "Built on Sand? The AI Blindspot Threatening Your Real Estate Business\n🎙️ Episode…",
           "url": "https://www.youtube.com/watch?v=qd0k8iZiAuc",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1514,13 +1464,13 @@
     },
     {
       "id": "l572",
-      "text": "How AI is Disrupting Real Estate (And What Agents Must Do NOW)\nArtificial Intelligence is no longer something that's coming to real estate someday it's already here, and it's changing the way buyers, sellers, and agents interact with the market right now.\n\nIn this video, we're breaking down how AI is disrupting the real estate industry, what these changes mean for agents, and why the role of the real estate professional is evolving faster than most people realize. \n\nWhether you're a new agent, a\u2026",
+      "text": "How AI is Disrupting Real Estate (And What Agents Must Do NOW)\nArtificial Intelligence is no longer something that's coming to real estate someday it's already here, and it's changing the way buyers, sellers, and agents interact with the market right now.\n\nIn this video, we're breaking down how AI is disrupting the real estate industry, what these changes mean for agents, and why the role of the real estate professional is evolving faster than most people realize. \n\nWhether you're a new agent, a…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI is Disrupting Real Estate (And What Agents Must Do NOW)\nArtificial Intell\u2026",
+          "title": "How AI is Disrupting Real Estate (And What Agents Must Do NOW)\nArtificial Intell…",
           "url": "https://www.youtube.com/watch?v=54lvosJ-yaE",
           "date": "2026-06-11",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1535,13 +1485,13 @@
     },
     {
       "id": "l573",
-      "text": "What Real Estate Agents Get Wrong About AI in 2026\nAI for real estate agents is everywhere in 2026, but most of it does not get you a single lead. \n\nThis is an honest breakdown of what agents get wrong about AI, why most real estate AI tools fall short, and the right way to actually use AI in your business.\n\nWHO THIS IS FOR\nReal estate agents and realtors who feel behind on AI, are tired of the hype, and want a clear read on what actually works in 2026.\n\nTHE PROBLEM\nBrokerages keep bolting AI on\u2026",
+      "text": "What Real Estate Agents Get Wrong About AI in 2026\nAI for real estate agents is everywhere in 2026, but most of it does not get you a single lead. \n\nThis is an honest breakdown of what agents get wrong about AI, why most real estate AI tools fall short, and the right way to actually use AI in your business.\n\nWHO THIS IS FOR\nReal estate agents and realtors who feel behind on AI, are tired of the hype, and want a clear read on what actually works in 2026.\n\nTHE PROBLEM\nBrokerages keep bolting AI on…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "What Real Estate Agents Get Wrong About AI in 2026\nAI for real estate agents is \u2026",
+          "title": "What Real Estate Agents Get Wrong About AI in 2026\nAI for real estate agents is …",
           "url": "https://www.youtube.com/watch?v=xuAP6JhLWfg",
           "date": "2026-07-01",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1556,13 +1506,13 @@
     },
     {
       "id": "l574",
-      "text": "We\u2019ve Generated 5 Million Leads Now AI Found Something 3x Better Than Google\nThe AI Sales Rep That Sets Appointments 24/7: https://objectionproofselling.com/ai-sales-agent-yt\n\nMaximize Your Tax Returns And\nGet Clarity On Your Financials With Our Tax Guys\nhttps://beccfo.com/\n\nBuild Real AI Tools For Your Business In One Day At REI Tech Unlocked: https://reitechunlocked.com/\n\nCarrot\nhttps://carrot.com/\n\nBONUS\nGET 10% OFF ON INVESTORLIFT\nUse promo code DISRUPTORS.\nhttps://get.investorlift.com/disru\u2026",
+      "text": "We’ve Generated 5 Million Leads Now AI Found Something 3x Better Than Google\nThe AI Sales Rep That Sets Appointments 24/7: https://objectionproofselling.com/ai-sales-agent-yt\n\nMaximize Your Tax Returns And\nGet Clarity On Your Financials With Our Tax Guys\nhttps://beccfo.com/\n\nBuild Real AI Tools For Your Business In One Day At REI Tech Unlocked: https://reitechunlocked.com/\n\nCarrot\nhttps://carrot.com/\n\nBONUS\nGET 10% OFF ON INVESTORLIFT\nUse promo code DISRUPTORS.\nhttps://get.investorlift.com/disru…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "We\u2019ve Generated 5 Million Leads Now AI Found Something 3x Better Than Google\nThe\u2026",
+          "title": "We’ve Generated 5 Million Leads Now AI Found Something 3x Better Than Google\nThe…",
           "url": "https://www.youtube.com/watch?v=4nYm_HcKruQ",
           "date": "2026-04-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1577,7 +1527,7 @@
     },
     {
       "id": "l475",
-      "text": "Business Broker \u2014 GSE Hospitality Brokers (Parramatta, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Business Broker — GSE Hospitality Brokers (Parramatta, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1598,7 +1548,7 @@
     },
     {
       "id": "l476",
-      "text": "Property Consultant to Marco Wenzel \u2014 Harris Real Estate Pty Ltd (Glenelg North, South Australia, Australia). Posted 2 weeks ago.",
+      "text": "Property Consultant to Marco Wenzel — Harris Real Estate Pty Ltd (Glenelg North, South Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1619,7 +1569,7 @@
     },
     {
       "id": "l477",
-      "text": "Co-Agent to Scott Moon \u2014 Harris Real Estate Pty Ltd (Norwood, South Australia, Australia). Posted 2 weeks ago.",
+      "text": "Co-Agent to Scott Moon — Harris Real Estate Pty Ltd (Norwood, South Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1640,7 +1590,7 @@
     },
     {
       "id": "l478",
-      "text": "Commercial Real Estate Agent \u2014 First National Commercial (Castle Hill, New South Wales, Australia). Posted 4 days ago.",
+      "text": "Commercial Real Estate Agent — First National Commercial (Castle Hill, New South Wales, Australia). Posted 4 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1661,7 +1611,7 @@
     },
     {
       "id": "l479",
-      "text": "Buyer's Agent - Sydney \u2014 Aussie (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Buyer's Agent - Sydney — Aussie (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1682,7 +1632,7 @@
     },
     {
       "id": "l480",
-      "text": "Real Estate Sales Agent \u2014 United Realty NT (Greater Darwin Area). Posted 15 hours ago.",
+      "text": "Real Estate Sales Agent — United Realty NT (Greater Darwin Area). Posted 15 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1703,7 +1653,7 @@
     },
     {
       "id": "l481",
-      "text": "Office Leasing Executive \u2014 CBRE Asia Pacific (Brisbane, Queensland, Australia). Posted 4 months ago.",
+      "text": "Office Leasing Executive — CBRE Asia Pacific (Brisbane, Queensland, Australia). Posted 4 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1724,7 +1674,7 @@
     },
     {
       "id": "l482",
-      "text": "Commercial Property Sales Executive \u2014 CBRE Asia Pacific (Sydney, New South Wales, Australia). Posted 4 months ago.",
+      "text": "Commercial Property Sales Executive — CBRE Asia Pacific (Sydney, New South Wales, Australia). Posted 4 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1745,7 +1695,7 @@
     },
     {
       "id": "l483",
-      "text": "PROJECT SALES AGENT \u2014 Boston PR (Zetland, New South Wales, Australia). Posted 1 month ago.",
+      "text": "PROJECT SALES AGENT — Boston PR (Zetland, New South Wales, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1766,7 +1716,7 @@
     },
     {
       "id": "l484",
-      "text": "Tenant Representative - Office \u2014 CBRE (Adelaide, South Australia, Australia). Posted 1 week ago.",
+      "text": "Tenant Representative - Office — CBRE (Adelaide, South Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1787,13 +1737,13 @@
     },
     {
       "id": "l585",
-      "text": "Launch Spanish (es) site-wide\n## Summary\n- Resumes the paused multilingual initiative: all 61 pages now have QA-verified Spanish translations (`public/es/*.html`)\n- Flips `es.launched: true` in `build/languages.json`, activating the language switcher, hreflang tags, and localized-language banner site-wide\n- Fixes two real, pre-e\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/coderabb\u2026",
+      "text": "Launch Spanish (es) site-wide\n## Summary\n- Resumes the paused multilingual initiative: all 61 pages now have QA-verified Spanish translations (`public/es/*.html`)\n- Flips `es.launched: true` in `build/languages.json`, activating the language switcher, hreflang tags, and localized-language banner site-wide\n- Fixes two real, pre-e\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/coderabb…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Launch Spanish (es) site-wide\n## Summary\n- Resumes the paused multilingual initi\u2026",
+          "title": "Launch Spanish (es) site-wide\n## Summary\n- Resumes the paused multilingual initi…",
           "url": "https://github.com/Aetheria-Systems/mediprimer/pull/26",
           "date": "2026-07-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1808,13 +1758,13 @@
     },
     {
       "id": "l586",
-      "text": "Custom remote MCP connector: tools never surfaced to the model in claude.ai web, while the broker completes the full OAuth + MCP handshake server-side (same server works in ChatGPT + Claude Code)\n## Summary\n\nA Connected **custom** remote MCP connector (FastMCP, OAuth, Streamable HTTP, `stateless_http=True` + `json_response=True`) shows as Connected with all its tools listed in claude.ai **web** Settings, but its tools are **never handed to the model** in conversations \u2014 the model only sees f\nRel\u2026",
+      "text": "Custom remote MCP connector: tools never surfaced to the model in claude.ai web, while the broker completes the full OAuth + MCP handshake server-side (same server works in ChatGPT + Claude Code)\n## Summary\n\nA Connected **custom** remote MCP connector (FastMCP, OAuth, Streamable HTTP, `stateless_http=True` + `json_response=True`) shows as Connected with all its tools listed in claude.ai **web** Settings, but its tools are **never handed to the model** in conversations — the model only sees f\nRel…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Custom remote MCP connector: tools never surfaced to the model in claude.ai web,\u2026",
+          "title": "Custom remote MCP connector: tools never surfaced to the model in claude.ai web,…",
           "url": "https://github.com/anthropics/claude-ai-mcp/issues/476",
           "date": "2026-06-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1829,13 +1779,13 @@
     },
     {
       "id": "l587",
-      "text": "AI Realtor photos need to be banned\nI&#39;ve seen plenty of discussions about AI-enhanced real estate photos, but it&#39;s really getting out of control. My husband and I have been house hunting for over a year in New Jersey, where the market is incredibly competitive. When a listing looks promising, you have to act fast. The problem is that more and more listings are filled with AI-generated or heavily altered photos that make the property look nothing like it actually does. It&#39;s such a was\u2026",
+      "text": "AI Realtor photos need to be banned\nI&#39;ve seen plenty of discussions about AI-enhanced real estate photos, but it&#39;s really getting out of control. My husband and I have been house hunting for over a year in New Jersey, where the market is incredibly competitive. When a listing looks promising, you have to act fast. The problem is that more and more listings are filled with AI-generated or heavily altered photos that make the property look nothing like it actually does. It&#39;s such a was…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI Realtor photos need to be banned\nI&#39;ve seen plenty of discussions about AI\u2026",
+          "title": "AI Realtor photos need to be banned\nI&#39;ve seen plenty of discussions about AI…",
           "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1vdo0dm/ai_realtor_photos_need_to_be_banned/",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1850,13 +1800,13 @@
     },
     {
       "id": "l588",
-      "text": "AI in real estate should be illegal\nBeen looking at houses recently and the amount of AI photos used in listings is insane, half the time they&#39;re posted as if they&#39;re before-and-after pictures &#32; submitted by &#32; /u/jarrbear2319 &#32; to &#32; r/mildlyinfuriating [link] &#32; [comments]\nI agree. When we were on our house hunt literally every house except one had ai pictures. Didn\u2019t catch on until after the 2nd home. We went with the one house that didn\u2019t have ai pictures Here it mus\u2026",
+      "text": "AI in real estate should be illegal\nBeen looking at houses recently and the amount of AI photos used in listings is insane, half the time they&#39;re posted as if they&#39;re before-and-after pictures &#32; submitted by &#32; /u/jarrbear2319 &#32; to &#32; r/mildlyinfuriating [link] &#32; [comments]\nI agree. When we were on our house hunt literally every house except one had ai pictures. Didn’t catch on until after the 2nd home. We went with the one house that didn’t have ai pictures Here it mus…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI in real estate should be illegal\nBeen looking at houses recently and the amou\u2026",
+          "title": "AI in real estate should be illegal\nBeen looking at houses recently and the amou…",
           "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1vskbde/ai_in_real_estate_should_be_illegal/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1871,13 +1821,13 @@
     },
     {
       "id": "l589",
-      "text": "Why are fake AI pictures allowed in selling real estate?\nHow is it reasonable that professional real estate sales are conducted knowing misleading buyers with fake images of the property? AI images are not real images. Using AI without disclosure is deceptive. This would not be accepted in selling a car or anything else. Why is there no standard for this? &#32; submitted by &#32; /u/Sufficient-Eagle3318 &#32; to &#32; r/RealEstateCanada [link] &#32; [comments]\nMy next door neighbour just listed \u2026",
+      "text": "Why are fake AI pictures allowed in selling real estate?\nHow is it reasonable that professional real estate sales are conducted knowing misleading buyers with fake images of the property? AI images are not real images. Using AI without disclosure is deceptive. This would not be accepted in selling a car or anything else. Why is there no standard for this? &#32; submitted by &#32; /u/Sufficient-Eagle3318 &#32; to &#32; r/RealEstateCanada [link] &#32; [comments]\nMy next door neighbour just listed …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why are fake AI pictures allowed in selling real estate?\nHow is it reasonable th\u2026",
+          "title": "Why are fake AI pictures allowed in selling real estate?\nHow is it reasonable th…",
           "url": "https://www.reddit.com/r/RealEstateCanada/comments/1vcrr88/why_are_fake_ai_pictures_allowed_in_selling_real/",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1892,13 +1842,13 @@
     },
     {
       "id": "l590",
-      "text": "Real estate agents using AI.\nHow do people feel about real estate agents using AI to generate/alter images? I just looked at a listing and couldn&#39;t believe what I saw. How is this meant to trust what they&#39;re showing or get a realistic idea of the house listed? This is the listing: 932 Toorak Road, Camberwell https://www.domain.com.au/932-toorak-road-camberwell-vic-3124-2021106186?utm\\_source=Android%20app&amp;utm\\_medium=sharelisting &#32; submitted by &#32; /u/AnigozanthosFlavidus &#32;\u2026",
+      "text": "Real estate agents using AI.\nHow do people feel about real estate agents using AI to generate/alter images? I just looked at a listing and couldn&#39;t believe what I saw. How is this meant to trust what they&#39;re showing or get a realistic idea of the house listed? This is the listing: 932 Toorak Road, Camberwell https://www.domain.com.au/932-toorak-road-camberwell-vic-3124-2021106186?utm\\_source=Android%20app&amp;utm\\_medium=sharelisting &#32; submitted by &#32; /u/AnigozanthosFlavidus &#32;…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Real estate agents using AI.\nHow do people feel about real estate agents using A\u2026",
+          "title": "Real estate agents using AI.\nHow do people feel about real estate agents using A…",
           "url": "https://www.reddit.com/r/melbourne/comments/1vzm2ze/real_estate_agents_using_ai/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1913,13 +1863,13 @@
     },
     {
       "id": "l591",
-      "text": "Real Estate AI Misrepresentations\nI was walking by 228 Jefferson St NW yesterday. It is a particularly ugly style of home that has the sloping roof as the focal point of the house. I checked what it was listed at and it is listed for $500k, which seems appropriate given the house&#39;s condition. I also noticed that the photos on the MLS show it as a ranch! AI in real estate listings is getting out of hand. See attached for the real picture and the AI image on the MLS. https://www.redfin.com/DC/\u2026",
+      "text": "Real Estate AI Misrepresentations\nI was walking by 228 Jefferson St NW yesterday. It is a particularly ugly style of home that has the sloping roof as the focal point of the house. I checked what it was listed at and it is listed for $500k, which seems appropriate given the house&#39;s condition. I also noticed that the photos on the MLS show it as a ranch! AI in real estate listings is getting out of hand. See attached for the real picture and the AI image on the MLS. https://www.redfin.com/DC/…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Real Estate AI Misrepresentations\nI was walking by 228 Jefferson St NW yesterday\u2026",
+          "title": "Real Estate AI Misrepresentations\nI was walking by 228 Jefferson St NW yesterday…",
           "url": "https://www.reddit.com/r/washingtondc/comments/1vqw2h6/real_estate_ai_misrepresentations/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1934,13 +1884,13 @@
     },
     {
       "id": "l592",
-      "text": "Real disruptive CRM\nI am looking for a real disruptive CRM that mainly rely on AI. I am real estate broker, and most of my teams are not using correctly the CRM, I can not blame them, they are on the road, visits and phone all day long so they don&#39;t spend time on CRM. I am sure we could produce more if CRM is correctly field and used. Not asking them to use super advanced features, just fill the CRM and don&#39;t miss a prospect because it has been lost on CRM. So we are looking for a super \u2026",
+      "text": "Real disruptive CRM\nI am looking for a real disruptive CRM that mainly rely on AI. I am real estate broker, and most of my teams are not using correctly the CRM, I can not blame them, they are on the road, visits and phone all day long so they don&#39;t spend time on CRM. I am sure we could produce more if CRM is correctly field and used. Not asking them to use super advanced features, just fill the CRM and don&#39;t miss a prospect because it has been lost on CRM. So we are looking for a super …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Real disruptive CRM\nI am looking for a real disruptive CRM that mainly rely on A\u2026",
+          "title": "Real disruptive CRM\nI am looking for a real disruptive CRM that mainly rely on A…",
           "url": "https://www.reddit.com/r/CRMSoftware/comments/1vg2fyu/real_disruptive_crm/",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1955,13 +1905,13 @@
     },
     {
       "id": "l593",
-      "text": "Is Trade War Uncertainty Crushing Canada's Real Estate Market?\nThe US\u2013Canada trade war will likely end in a relatively tame outcome but is still creating major uncertainty that delays home-buying decisions, with key deadlines around Sept. 8 for a response to Canada\u2019s counter-tariffs and potential new US tariffs starting Jan. 1. \n\nThey review which Canadian cities and provinces are most tariff-exposed (e.g., Saint John, Calgary, Windsor and the Ontario\u2013Montreal corridor), and explain how job loss\u2026",
+      "text": "Is Trade War Uncertainty Crushing Canada's Real Estate Market?\nThe US–Canada trade war will likely end in a relatively tame outcome but is still creating major uncertainty that delays home-buying decisions, with key deadlines around Sept. 8 for a response to Canada’s counter-tariffs and potential new US tariffs starting Jan. 1. \n\nThey review which Canadian cities and provinces are most tariff-exposed (e.g., Saint John, Calgary, Windsor and the Ontario–Montreal corridor), and explain how job loss…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Is Trade War Uncertainty Crushing Canada's Real Estate Market?\nThe US\u2013Canada tra\u2026",
+          "title": "Is Trade War Uncertainty Crushing Canada's Real Estate Market?\nThe US–Canada tra…",
           "url": "https://www.youtube.com/watch?v=xCL42Q-Qiio",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1976,13 +1926,13 @@
     },
     {
       "id": "l594",
-      "text": "Dylan Patel \u2013 Two labs will soon control most of the world's workforce\nHad a lot of fun chatting again with my twin brother Dylan Patel.\n\nWe went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world\u2019s usable FLOPs within the next few years (because they can monetize compute better and thus outbid everyone).\n\nAnd then we discuss whether the $10T+ of total AI capex we\u2019ll see by\u2026",
+      "text": "Dylan Patel – Two labs will soon control most of the world's workforce\nHad a lot of fun chatting again with my twin brother Dylan Patel.\n\nWe went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world’s usable FLOPs within the next few years (because they can monetize compute better and thus outbid everyone).\n\nAnd then we discuss whether the $10T+ of total AI capex we’ll see by…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Dylan Patel \u2013 Two labs will soon control most of the world's workforce\nHad a lot\u2026",
+          "title": "Dylan Patel – Two labs will soon control most of the world's workforce\nHad a lot…",
           "url": "https://www.youtube.com/watch?v=aV26V1UvkJw",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1997,13 +1947,13 @@
     },
     {
       "id": "l595",
-      "text": "Could AI Replace Your Realtor? Buying a House Without Commission Fees\nA massive technological shift is hitting the real estate market as more homebuyers turn to artificial intelligence to navigate the process without relying as heavily on traditional agents.\n\nIn this edition of The Factor Learning Hub, tech expert Patrick Jones and realtor Tiffany Ryland break down how new AI platforms are changing the way people search for homes, schedule property tours, compare listings, review paperwork and p\u2026",
+      "text": "Could AI Replace Your Realtor? Buying a House Without Commission Fees\nA massive technological shift is hitting the real estate market as more homebuyers turn to artificial intelligence to navigate the process without relying as heavily on traditional agents.\n\nIn this edition of The Factor Learning Hub, tech expert Patrick Jones and realtor Tiffany Ryland break down how new AI platforms are changing the way people search for homes, schedule property tours, compare listings, review paperwork and p…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Could AI Replace Your Realtor? Buying a House Without Commission Fees\nA massive \u2026",
+          "title": "Could AI Replace Your Realtor? Buying a House Without Commission Fees\nA massive …",
           "url": "https://www.youtube.com/watch?v=l820sBcovxQ",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2018,13 +1968,13 @@
     },
     {
       "id": "l596",
-      "text": "Built on Sand? The AI Blindspot Threatening Your Real Estate Business\n\ud83c\udf99\ufe0f Episode Title: Built on Sand? The AI Blindspot Threatening Your Real Estate Business\n\n\ud83d\udca1 This Episode's Winning Factor: True business longevity isn't built on the fastest tech tool; it's anchored in secure, controlled systems and the irreplaceable foundation of human trust.\n\n\u25b6\ufe0f Episode Summary:\n\nWhen China abruptly blocked a $2 billion Meta deal, the AI platform Manus went \"poof,\" instantly wiping out a beautiful, custom bac\u2026",
+      "text": "Built on Sand? The AI Blindspot Threatening Your Real Estate Business\n🎙️ Episode Title: Built on Sand? The AI Blindspot Threatening Your Real Estate Business\n\n💡 This Episode's Winning Factor: True business longevity isn't built on the fastest tech tool; it's anchored in secure, controlled systems and the irreplaceable foundation of human trust.\n\n▶️ Episode Summary:\n\nWhen China abruptly blocked a $2 billion Meta deal, the AI platform Manus went \"poof,\" instantly wiping out a beautiful, custom bac…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Built on Sand? The AI Blindspot Threatening Your Real Estate Business\n\ud83c\udf99\ufe0f Episode\u2026",
+          "title": "Built on Sand? The AI Blindspot Threatening Your Real Estate Business\n🎙️ Episode…",
           "url": "https://www.youtube.com/watch?v=qd0k8iZiAuc",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2039,13 +1989,13 @@
     },
     {
       "id": "l597",
-      "text": "How AI is Disrupting Real Estate (And What Agents Must Do NOW)\nArtificial Intelligence is no longer something that's coming to real estate someday it's already here, and it's changing the way buyers, sellers, and agents interact with the market right now.\n\nIn this video, we're breaking down how AI is disrupting the real estate industry, what these changes mean for agents, and why the role of the real estate professional is evolving faster than most people realize. \n\nWhether you're a new agent, a\u2026",
+      "text": "How AI is Disrupting Real Estate (And What Agents Must Do NOW)\nArtificial Intelligence is no longer something that's coming to real estate someday it's already here, and it's changing the way buyers, sellers, and agents interact with the market right now.\n\nIn this video, we're breaking down how AI is disrupting the real estate industry, what these changes mean for agents, and why the role of the real estate professional is evolving faster than most people realize. \n\nWhether you're a new agent, a…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI is Disrupting Real Estate (And What Agents Must Do NOW)\nArtificial Intell\u2026",
+          "title": "How AI is Disrupting Real Estate (And What Agents Must Do NOW)\nArtificial Intell…",
           "url": "https://www.youtube.com/watch?v=54lvosJ-yaE",
           "date": "2026-06-11",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2060,13 +2010,13 @@
     },
     {
       "id": "l598",
-      "text": "What Real Estate Agents Get Wrong About AI in 2026\nAI for real estate agents is everywhere in 2026, but most of it does not get you a single lead. \n\nThis is an honest breakdown of what agents get wrong about AI, why most real estate AI tools fall short, and the right way to actually use AI in your business.\n\nWHO THIS IS FOR\nReal estate agents and realtors who feel behind on AI, are tired of the hype, and want a clear read on what actually works in 2026.\n\nTHE PROBLEM\nBrokerages keep bolting AI on\u2026",
+      "text": "What Real Estate Agents Get Wrong About AI in 2026\nAI for real estate agents is everywhere in 2026, but most of it does not get you a single lead. \n\nThis is an honest breakdown of what agents get wrong about AI, why most real estate AI tools fall short, and the right way to actually use AI in your business.\n\nWHO THIS IS FOR\nReal estate agents and realtors who feel behind on AI, are tired of the hype, and want a clear read on what actually works in 2026.\n\nTHE PROBLEM\nBrokerages keep bolting AI on…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "What Real Estate Agents Get Wrong About AI in 2026\nAI for real estate agents is \u2026",
+          "title": "What Real Estate Agents Get Wrong About AI in 2026\nAI for real estate agents is …",
           "url": "https://www.youtube.com/watch?v=xuAP6JhLWfg",
           "date": "2026-07-01",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2081,13 +2031,13 @@
     },
     {
       "id": "l599",
-      "text": "We\u2019ve Generated 5 Million Leads Now AI Found Something 3x Better Than Google\nThe AI Sales Rep That Sets Appointments 24/7: https://objectionproofselling.com/ai-sales-agent-yt\n\nMaximize Your Tax Returns And\nGet Clarity On Your Financials With Our Tax Guys\nhttps://beccfo.com/\n\nBuild Real AI Tools For Your Business In One Day At REI Tech Unlocked: https://reitechunlocked.com/\n\nCarrot\nhttps://carrot.com/\n\nBONUS\nGET 10% OFF ON INVESTORLIFT\nUse promo code DISRUPTORS.\nhttps://get.investorlift.com/disru\u2026",
+      "text": "We’ve Generated 5 Million Leads Now AI Found Something 3x Better Than Google\nThe AI Sales Rep That Sets Appointments 24/7: https://objectionproofselling.com/ai-sales-agent-yt\n\nMaximize Your Tax Returns And\nGet Clarity On Your Financials With Our Tax Guys\nhttps://beccfo.com/\n\nBuild Real AI Tools For Your Business In One Day At REI Tech Unlocked: https://reitechunlocked.com/\n\nCarrot\nhttps://carrot.com/\n\nBONUS\nGET 10% OFF ON INVESTORLIFT\nUse promo code DISRUPTORS.\nhttps://get.investorlift.com/disru…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "We\u2019ve Generated 5 Million Leads Now AI Found Something 3x Better Than Google\nThe\u2026",
+          "title": "We’ve Generated 5 Million Leads Now AI Found Something 3x Better Than Google\nThe…",
           "url": "https://www.youtube.com/watch?v=4nYm_HcKruQ",
           "date": "2026-04-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2178,6 +2128,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

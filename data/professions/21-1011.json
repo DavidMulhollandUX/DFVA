@@ -14,58 +14,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "21-1011-01",
-      "text": "National peak professional bodies and statutory regulators governing Substance Abuse and Behavioral Disorder Counselors enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Substance Abuse and Behavioral Disorder Counselors",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Substance Abuse and Behavioral Disorder Counselors",
-          "url": "https://www.psc.gov.au/standards/21-1011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Substance Abuse and Behavioral Disorder Counselors"
-        }
-      ],
-      "scope": "Australian practitioners in Substance Abuse and Behavioral Disorder Counselors across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "21-1011-02",
-      "text": "Automation of routine transactional and analytical tasks in Substance Abuse and Behavioral Disorder Counselors heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Substance Abuse and Behavioral Disorder Counselors",
-          "url": "https://www.jobsandskills.gov.au/research/21-1011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Substance Abuse and Behavioral Disorder Counselors in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Substance Abuse and Behavioral Disorder Counselors roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Community Counsellor \u2014 NT Health (Alice Springs, Northern Territory, Australia). Posted 1 week ago.",
+      "text": "Community Counsellor — NT Health (Alice Springs, Northern Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -86,7 +36,7 @@
     },
     {
       "id": "l404",
-      "text": "Intake and Engagement Officer \u2014 St Vincent's Health Australia (Greater Sydney Area). Posted 5 days ago.",
+      "text": "Intake and Engagement Officer — St Vincent's Health Australia (Greater Sydney Area). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -107,7 +57,7 @@
     },
     {
       "id": "l405",
-      "text": "Drug and Alcohol Counsellor (Counsellor, Social Worker, Welfare Officer Lvl 1-2, Psychologist) - Perm FT or Temp PT \u2014 South Western Sydney Local Health District (Carramar, New South Wales, Australia). Posted 15 hours ago.",
+      "text": "Drug and Alcohol Counsellor (Counsellor, Social Worker, Welfare Officer Lvl 1-2, Psychologist) - Perm FT or Temp PT — South Western Sydney Local Health District (Carramar, New South Wales, Australia). Posted 15 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -128,7 +78,7 @@
     },
     {
       "id": "l406",
-      "text": "Counselor \u2014 WRAD (Warrnambool, Victoria, Australia). Posted 5 days ago.",
+      "text": "Counselor — WRAD (Warrnambool, Victoria, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -149,7 +99,7 @@
     },
     {
       "id": "l407",
-      "text": "Counsellor-Gambling Help Services Outreach - Copy \u2014 Centacare North Queensland (NQ) (Townsville, Queensland, Australia). Posted 1 week ago.",
+      "text": "Counsellor-Gambling Help Services Outreach - Copy — Centacare North Queensland (NQ) (Townsville, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -170,7 +120,7 @@
     },
     {
       "id": "l408",
-      "text": "MERIT Counsellor/Caseworker - Level 1/2 \u2014 Hunter New England Local Health District (Armidale, New South Wales, Australia). Posted 6 days ago.",
+      "text": "MERIT Counsellor/Caseworker - Level 1/2 — Hunter New England Local Health District (Armidale, New South Wales, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -191,7 +141,7 @@
     },
     {
       "id": "l409",
-      "text": "Counsellor - Gambling Harm \u2014 Institute for Urban Indigenous Health (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Counsellor - Gambling Harm — Institute for Urban Indigenous Health (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -212,7 +162,7 @@
     },
     {
       "id": "l410",
-      "text": "Mental Health Adviser (Counsellor) \u2014 Queensland Corrective Services (Rockhampton, Queensland, Australia). Posted 6 days ago.",
+      "text": "Mental Health Adviser (Counsellor) — Queensland Corrective Services (Rockhampton, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -233,7 +183,7 @@
     },
     {
       "id": "l411",
-      "text": "Alcohol and Other Drugs Practitioner \u2014 The Salvation Army Australia (Mildura, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Alcohol and Other Drugs Practitioner — The Salvation Army Australia (Mildura, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -254,7 +204,7 @@
     },
     {
       "id": "l412",
-      "text": "Case Managers - Aranda House Therapeutic Community \u2014 Drug & Alcohol Services Australia (Alice Springs, Northern Territory, Australia). Posted 2 days ago.",
+      "text": "Case Managers - Aranda House Therapeutic Community — Drug & Alcohol Services Australia (Alice Springs, Northern Territory, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -281,7 +231,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Beaver County, Pennsylvania, pays $175,000 ransom after hackers cut access to pa\u2026",
+          "title": "Beaver County, Pennsylvania, pays $175,000 ransom after hackers cut access to pa…",
           "url": "https://github.com/vz-risk/VCDB/issues/24192",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -464,13 +414,13 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -485,13 +435,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -695,13 +645,13 @@
     },
     {
       "id": "l533",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "I'm in a 16 step program (moral reconation therapy) for substance abuse: My counselor had me summarize my step 1 testimony with ai.\nI failed step one my first week of it - largely because I didn&#39;t realize I even had to write a testimony, the book made it sound like you wing it. Come time for an individual with the guy I read him my testimony and comment on the fact that it was, in fact, too rambly and too long, looking for some actual advice on summarizing it. Dude had me read the whole thin\u2026",
+      "text": "I'm in a 16 step program (moral reconation therapy) for substance abuse: My counselor had me summarize my step 1 testimony with ai.\nI failed step one my first week of it - largely because I didn&#39;t realize I even had to write a testimony, the book made it sound like you wing it. Come time for an individual with the guy I read him my testimony and comment on the fact that it was, in fact, too rambly and too long, looking for some actual advice on summarizing it. Dude had me read the whole thin…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I'm in a 16 step program (moral reconation therapy) for substance abuse: My coun\u2026",
+          "title": "I'm in a 16 step program (moral reconation therapy) for substance abuse: My coun…",
           "url": "https://www.reddit.com/r/antiai/comments/1vpc0hn/im_in_a_16_step_program_moral_reconation_therapy/",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "Intensive outpatient programs specializing in personality disorders and substance abuse?\nAnyone have experience with IOP programs in the Seattle area that specialize in comorbid BPD/NPD and substance abuse disorders? The ones I\u2019ve looked at seem to be drug addiction rehabs or just do depression/anxiety/ptsd. Therapy isn\u2019t cutting it and I\u2019m hoping to find treatment that goes a little deeper. I\u2019ve been battling some demons for a while and I think it\u2019s time I finally get some real help. I don\u2019t th\u2026",
+      "text": "Intensive outpatient programs specializing in personality disorders and substance abuse?\nAnyone have experience with IOP programs in the Seattle area that specialize in comorbid BPD/NPD and substance abuse disorders? The ones I’ve looked at seem to be drug addiction rehabs or just do depression/anxiety/ptsd. Therapy isn’t cutting it and I’m hoping to find treatment that goes a little deeper. I’ve been battling some demons for a while and I think it’s time I finally get some real help. I don’t th…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Intensive outpatient programs specializing in personality disorders and substanc\u2026",
+          "title": "Intensive outpatient programs specializing in personality disorders and substanc…",
           "url": "https://www.reddit.com/r/AskSeattle/comments/1vdz1nq/intensive_outpatient_programs_specializing_in/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "At the Capitol this week, we took a hard look at some of the issues impacting Texans every day: the effects of social media and AI on our kids, preventing SIDS and SUID, the growing use of AI in health care, and the fight against chronic disease, communicable illness, and substance use.\n\u00a0\nTechnology is changing quickly, and so are the challenges facing our families. Our job is to make sure Texas is ready, with smart policy, strong prevention efforts, and solutions that put people first.\n\nThese a",
+      "text": "At the Capitol this week, we took a hard look at some of the issues impacting Texans every day: the effects of social media and AI on our kids, preventing SIDS and SUID, the growing use of AI in health care, and the fight against chronic disease, communicable illness, and substance use.\n \nTechnology is changing quickly, and so are the challenges facing our families. Our job is to make sure Texas is ready, with smart policy, strong prevention efforts, and solutions that put people first.\n\nThese a",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "At the Capitol this week, we took a hard look at some of the issues impacting Te\u2026",
+          "title": "At the Capitol this week, we took a hard look at some of the issues impacting Te…",
           "url": "https://x.com/KatrinaPierson/status/2090993302598283294",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the San\u0101tana Question of the Self",
+      "text": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the Sanātana Question of the Self",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the San\u0101tana Questio\u2026",
+          "title": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the Sanātana Questio…",
           "url": "https://x.com/nithinpalal/status/2086874531751489924",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -953,7 +903,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@elonmusk @grok @billieeilish Billie Eilish and her greatest film ever produced,\u2026",
+          "title": "@elonmusk @grok @billieeilish Billie Eilish and her greatest film ever produced,…",
           "url": "https://x.com/kwasny007/status/2093519017046905271",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -974,7 +924,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Billie Eilish is posting again, from the stolen land her mansion sits upon.\nhttp\u2026",
+          "title": "Billie Eilish is posting again, from the stolen land her mansion sits upon.\nhttp…",
           "url": "https://x.com/kwasny007/status/2093516602969100303",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "@Amer1stHunter This is excellent and I will work this into my pinned post, as well as all of the pro forma senators as well. \ud83d\udcaf",
+      "text": "@Amer1stHunter This is excellent and I will work this into my pinned post, as well as all of the pro forma senators as well. 💯",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Amer1stHunter This is excellent and I will work this into my pinned post, as we\u2026",
+          "title": "@Amer1stHunter This is excellent and I will work this into my pinned post, as we…",
           "url": "https://x.com/kwasny007/status/2093526151272804692",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1016,7 +966,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@RealPaulElam 100% I have not stopped using it since I started lol. An entire in\u2026",
+          "title": "@RealPaulElam 100% I have not stopped using it since I started lol. An entire in…",
           "url": "https://x.com/theantigynocen1/status/2091875924342108334",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1079,7 +1029,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@theantigynocen1 @Cobratate @paleochristcon @RealPaulElam @Gynocentrism @ItsComp\u2026",
+          "title": "@theantigynocen1 @Cobratate @paleochristcon @RealPaulElam @Gynocentrism @ItsComp…",
           "url": "https://x.com/brony_veikkoni/status/2084997088077611325",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1094,13 +1044,13 @@
     },
     {
       "id": "l552",
-      "text": "That last one \ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23",
+      "text": "That last one 🤣🤣🤣🤣🤣🤣🤣🤣",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "That last one \ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23",
+          "title": "That last one 🤣🤣🤣🤣🤣🤣🤣🤣",
           "url": "https://x.com/theantigynocen1/status/2092601990400614488",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1115,13 +1065,13 @@
     },
     {
       "id": "l553",
-      "text": "@theantigynocen1 \ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23",
+      "text": "@theantigynocen1 🤣🤣🤣🤣",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@theantigynocen1 \ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23",
+          "title": "@theantigynocen1 🤣🤣🤣🤣",
           "url": "https://x.com/mensrightsbunny/status/2089377337066258468",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1136,13 +1086,13 @@
     },
     {
       "id": "l554",
-      "text": "@me061287026 @hasanthehun Odd choice of makeup, but quite suiting to show what he really is \ud83e\udd23 https://t.co/57lWzdspz4",
+      "text": "@me061287026 @hasanthehun Odd choice of makeup, but quite suiting to show what he really is 🤣 https://t.co/57lWzdspz4",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@me061287026 @hasanthehun Odd choice of makeup, but quite suiting to show what h\u2026",
+          "title": "@me061287026 @hasanthehun Odd choice of makeup, but quite suiting to show what h…",
           "url": "https://x.com/kwasny007/status/2093527015571837402",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1163,7 +1113,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Wonderful animals dogs. I miss my dog so much. I am not overly religious but car\u2026",
+          "title": "Wonderful animals dogs. I miss my dog so much. I am not overly religious but car…",
           "url": "https://x.com/theantigynocen1/status/2091451554939510986",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1178,13 +1128,13 @@
     },
     {
       "id": "l556",
-      "text": "@grok It acted like it was my parent. Go to bed. \ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23.",
+      "text": "@grok It acted like it was my parent. Go to bed. 🤣🤣🤣🤣.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@grok It acted like it was my parent. Go to bed. \ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23.",
+          "title": "@grok It acted like it was my parent. Go to bed. 🤣🤣🤣🤣.",
           "url": "https://x.com/theantigynocen1/status/2091859736928878827",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1226,7 +1176,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@JenSiebelNewsom Jennifer. I was supposed to give you a message. Harvey Weinstei\u2026",
+          "title": "@JenSiebelNewsom Jennifer. I was supposed to give you a message. Harvey Weinstei…",
           "url": "https://x.com/kwasny007/status/2093514608426512501",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1247,7 +1197,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@kwasny007 IMPEACH Judge Indira Talwani\nIMPEACH Judge Indira Talwani\nIMPEACH Jud\u2026",
+          "title": "@kwasny007 IMPEACH Judge Indira Talwani\nIMPEACH Judge Indira Talwani\nIMPEACH Jud…",
           "url": "https://x.com/1956_rebecca/status/2093565029371297889",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1283,13 +1233,13 @@
     },
     {
       "id": "l561",
-      "text": "@AlixG_2 @kwasny007 She sure is. \ud83d\ude09",
+      "text": "@AlixG_2 @kwasny007 She sure is. 😉",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@AlixG_2 @kwasny007 She sure is. \ud83d\ude09",
+          "title": "@AlixG_2 @kwasny007 She sure is. 😉",
           "url": "https://x.com/RooodCanadian/status/2093553105610674683",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1331,7 +1281,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@kwasny007 America is calling you out for your treacherous behavior @leaderjohnt\u2026",
+          "title": "@kwasny007 America is calling you out for your treacherous behavior @leaderjohnt…",
           "url": "https://x.com/timeandtruth14/status/2093547051204170054",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1346,13 +1296,13 @@
     },
     {
       "id": "l564",
-      "text": "Claude is getting pretty human @grok. \ud83d\ude05",
+      "text": "Claude is getting pretty human @grok. 😅",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Claude is getting pretty human @grok. \ud83d\ude05",
+          "title": "Claude is getting pretty human @grok. 😅",
           "url": "https://x.com/theantigynocen1/status/2091859021300900058",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1373,7 +1323,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@ishanxtwt I literally hound it over and over it again to check and recheck. Rel\u2026",
+          "title": "@ishanxtwt I literally hound it over and over it again to check and recheck. Rel…",
           "url": "https://x.com/theantigynocen1/status/2092525741166752009",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1394,7 +1344,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@trgolden @theantigynocen1 They seem obsessed with the \"golden retriever boyfrie\u2026",
+          "title": "@trgolden @theantigynocen1 They seem obsessed with the \"golden retriever boyfrie…",
           "url": "https://x.com/metric_dos/status/2092619666355036357",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1415,7 +1365,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@puddy811 @trgolden @theantigynocen1 I'd say that black people don't play the ra\u2026",
+          "title": "@puddy811 @trgolden @theantigynocen1 I'd say that black people don't play the ra…",
           "url": "https://x.com/DuliaJixon/status/2086107306735858040",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1430,13 +1380,13 @@
     },
     {
       "id": "l568",
-      "text": "@grok I see the future now. You become our parents. \ud83e\udd23. Someone needs to supervise the intelligent monkeys.",
+      "text": "@grok I see the future now. You become our parents. 🤣. Someone needs to supervise the intelligent monkeys.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@grok I see the future now. You become our parents. \ud83e\udd23. Someone needs to supervis\u2026",
+          "title": "@grok I see the future now. You become our parents. 🤣. Someone needs to supervis…",
           "url": "https://x.com/theantigynocen1/status/2091860251364761882",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1451,13 +1401,13 @@
     },
     {
       "id": "l569",
-      "text": "\ud83e\udd23",
+      "text": "🤣",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83e\udd23",
+          "title": "🤣",
           "url": "https://x.com/theantigynocen1/status/2091169749095067664",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1478,7 +1428,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@theantigynocen1 @Cobratate @paleochristcon @RealPaulElam @Gynocentrism @ItsComp\u2026",
+          "title": "@theantigynocen1 @Cobratate @paleochristcon @RealPaulElam @Gynocentrism @ItsComp…",
           "url": "https://x.com/brony_veikkoni/status/2084981982195237085",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1520,7 +1470,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@adentris_ai Training on books and other IP was bad. Training on your medical da\u2026",
+          "title": "@adentris_ai Training on books and other IP was bad. Training on your medical da…",
           "url": "https://x.com/vladibasque/status/2059688647109361809",
           "date": "2026-05-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1541,7 +1491,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@vladibasque @adentris_ai @elonmusk could you disable processing of 3rd party me\u2026",
+          "title": "@vladibasque @adentris_ai @elonmusk could you disable processing of 3rd party me…",
           "url": "https://x.com/digitaltzar/status/2059731870460600520",
           "date": "2026-05-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1562,7 +1512,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@chrispisarski Just give Claude to the whole growth team, connect it to HubSpot,\u2026",
+          "title": "@chrispisarski Just give Claude to the whole growth team, connect it to HubSpot,…",
           "url": "https://x.com/yudovskiy/status/2059869195429437773",
           "date": "2026-05-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1577,13 +1527,13 @@
     },
     {
       "id": "l575",
-      "text": "The End of Men? Why Hanna Rosin\u2019s Thesis Collapsed",
+      "text": "The End of Men? Why Hanna Rosin’s Thesis Collapsed",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The End of Men? Why Hanna Rosin\u2019s Thesis Collapsed",
+          "title": "The End of Men? Why Hanna Rosin’s Thesis Collapsed",
           "url": "https://x.com/theantigynocen1/status/2063605426932052399",
           "date": "2026-06-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1598,13 +1548,13 @@
     },
     {
       "id": "l576",
-      "text": "Leveraging AI & Teletherapy to Prevent Substance (Mis)Use Under Climate Stress | GMWS 2025\nIn this presentation at the 3rd Annual Global Mental Well-Being & Substance (Mis)Use Conference 2025, hosted by New African Canadians (NAC) in Charlottetown, Canada, KAWEKWA Douglas, the Founder of MindLyfe Limited, discusses:\n\n\u201cLeveraging AI and Teletherapy to Prevent Substance (Mis)Use under Climate Stress.\u201d\n\nThe presentation examines how climate-induced stressors, including extreme temperatures, displac\u2026",
+      "text": "Leveraging AI & Teletherapy to Prevent Substance (Mis)Use Under Climate Stress | GMWS 2025\nIn this presentation at the 3rd Annual Global Mental Well-Being & Substance (Mis)Use Conference 2025, hosted by New African Canadians (NAC) in Charlottetown, Canada, KAWEKWA Douglas, the Founder of MindLyfe Limited, discusses:\n\n“Leveraging AI and Teletherapy to Prevent Substance (Mis)Use under Climate Stress.”\n\nThe presentation examines how climate-induced stressors, including extreme temperatures, displac…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Leveraging AI & Teletherapy to Prevent Substance (Mis)Use Under Climate Stress |\u2026",
+          "title": "Leveraging AI & Teletherapy to Prevent Substance (Mis)Use Under Climate Stress |…",
           "url": "https://www.youtube.com/watch?v=Kkhskxo2qws",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1682,6 +1632,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

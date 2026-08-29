@@ -18,58 +18,8 @@
   ],
   "claims": [
     {
-      "id": "25-1072-01",
-      "text": "National peak professional bodies and statutory regulators governing Nursing Instructors and Teachers, Postsecondary enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Nursing Instructors and Teachers, Postsecondary",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Nursing Instructors and Teachers, Postsecondary",
-          "url": "https://www.psc.gov.au/standards/25-1072",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Nursing Instructors and Teachers, Postsecondary"
-        }
-      ],
-      "scope": "Australian practitioners in Nursing Instructors and Teachers, Postsecondary across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "25-1072-02",
-      "text": "Automation of routine transactional and analytical tasks in Nursing Instructors and Teachers, Postsecondary heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Nursing Instructors and Teachers, Postsecondary",
-          "url": "https://www.jobsandskills.gov.au/research/25-1072",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Nursing Instructors and Teachers, Postsecondary in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Nursing Instructors and Teachers, Postsecondary roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Lecturer in Remote Health (Nursing) \u2014 Flinders University (Alice Springs, Northern Territory, Australia). Posted 3 weeks ago.",
+      "text": "Lecturer in Remote Health (Nursing) — Flinders University (Alice Springs, Northern Territory, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -90,7 +40,7 @@
     },
     {
       "id": "l404",
-      "text": "Lecturer (Nursing) \u2014 Australian Catholic University (Brisbane, Queensland, Australia). Posted 2 days ago.",
+      "text": "Lecturer (Nursing) — Australian Catholic University (Brisbane, Queensland, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -111,7 +61,7 @@
     },
     {
       "id": "l405",
-      "text": "Teacher - Nursing (Talent Pool) \u2014 Queensland Government (Townsville, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Teacher - Nursing (Talent Pool) — Queensland Government (Townsville, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -132,7 +82,7 @@
     },
     {
       "id": "l406",
-      "text": "Lecturer (Nursing) \u2014 Australian Catholic University (Blacktown, New South Wales, Australia). Posted 9 hours ago.",
+      "text": "Lecturer (Nursing) — Australian Catholic University (Blacktown, New South Wales, Australia). Posted 9 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -153,7 +103,7 @@
     },
     {
       "id": "l407",
-      "text": "Clinical Nurse Educator- Student Programs \u2014 The Royal Children's Hospital (Melbourne, Victoria, Australia). Posted 3 weeks ago.",
+      "text": "Clinical Nurse Educator- Student Programs — The Royal Children's Hospital (Melbourne, Victoria, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -174,7 +124,7 @@
     },
     {
       "id": "l408",
-      "text": "Teacher, Nursing - Talent Pool \u2014 Queensland Government (Sunshine Coast, Queensland, Australia). Posted 1 month ago.",
+      "text": "Teacher, Nursing - Talent Pool — Queensland Government (Sunshine Coast, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -195,7 +145,7 @@
     },
     {
       "id": "l409",
-      "text": "Lecturer, Nursing & Midwifery \u2014 Monash University (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Lecturer, Nursing & Midwifery — Monash University (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -216,7 +166,7 @@
     },
     {
       "id": "l410",
-      "text": "Teacher - Nursing \u2014 Holmesglen (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "text": "Teacher - Nursing — Holmesglen (Melbourne, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -237,7 +187,7 @@
     },
     {
       "id": "l411",
-      "text": "Trainer and Assessor, (Nursing) \u2014 The University of Notre Dame Australia (Broome, Western Australia, Australia). Posted 2 weeks ago.",
+      "text": "Trainer and Assessor, (Nursing) — The University of Notre Dame Australia (Broome, Western Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -258,7 +208,7 @@
     },
     {
       "id": "l412",
-      "text": "Clinical Nurse Educator \u2014 St Vincent's Health Australia (Greater Sydney Area). Posted 2 days ago.",
+      "text": "Clinical Nurse Educator — St Vincent's Health Australia (Greater Sydney Area). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -279,13 +229,13 @@
     },
     {
       "id": "l513",
-      "text": "Design arch-skills, civilization stages, and believable learning groups\n## What changes\n\nDefine and consolidate the Glantri Skill-system product/rule architecture: conceptual/navigation domains, concrete learnable skills and specializations, civilization-relative availability, access, explicit skill relationships, believable shared-training histories, and the qualitativ\n## Decision-ready design evidence (read-only wave, baseline `b519ef0aca66aae5b110f9a37c91e6eefff08c6f`)\n\n### Recommendation in \u2026",
+      "text": "Design arch-skills, civilization stages, and believable learning groups\n## What changes\n\nDefine and consolidate the Glantri Skill-system product/rule architecture: conceptual/navigation domains, concrete learnable skills and specializations, civilization-relative availability, access, explicit skill relationships, believable shared-training histories, and the qualitativ\n## Decision-ready design evidence (read-only wave, baseline `b519ef0aca66aae5b110f9a37c91e6eefff08c6f`)\n\n### Recommendation in …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Design arch-skills, civilization stages, and believable learning groups\n## What \u2026",
+          "title": "Design arch-skills, civilization stages, and believable learning groups\n## What …",
           "url": "https://github.com/vidarhald-cpu/glantri-app/issues/258",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -300,13 +250,13 @@
     },
     {
       "id": "l514",
-      "text": "Add teacher training, and fix the degrees it exposed\nNjia held **zero** teacher training colleges against roughly 35 nationally, while teaching is one of the largest destinations for a C-grade learner. The gap was real. So is the reason to be careful filling it.\n\n## The numbers that had to come with it\n\n| | |\n|---|---|\n| Teachers TSC employs | **431,8\n### <span aria-hidden=\"true\">\u2705</span> Deploy Preview for *njiacareerpathways* ready!\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria\u2026",
+      "text": "Add teacher training, and fix the degrees it exposed\nNjia held **zero** teacher training colleges against roughly 35 nationally, while teaching is one of the largest destinations for a C-grade learner. The gap was real. So is the reason to be careful filling it.\n\n## The numbers that had to come with it\n\n| | |\n|---|---|\n| Teachers TSC employs | **431,8\n### <span aria-hidden=\"true\">✅</span> Deploy Preview for *njiacareerpathways* ready!\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add teacher training, and fix the degrees it exposed\nNjia held **zero** teacher \u2026",
+          "title": "Add teacher training, and fix the degrees it exposed\nNjia held **zero** teacher …",
           "url": "https://github.com/PapaDanico/Njia/pull/46",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -327,7 +277,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "docs(privacy): decide instructor visibility of individual student data\n## Summar\u2026",
+          "title": "docs(privacy): decide instructor visibility of individual student data\n## Summar…",
           "url": "https://github.com/uw-ssec/llteacher/issues/78",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -342,13 +292,13 @@
     },
     {
       "id": "l516",
-      "text": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please describe.**  \nQualCoder's AI integration could be expanded to include the GWDG SAIA API. Currently, accessing these models (like Gemma 4 31B Instruct) requires manual `config.ini` edits.\n\n**Describe the solution you'd like**  \nWould it be possib\nInteresting. I'm planning a project together with the GWDG that also involves QualCoder, so it's good to see that integrating this service already works. \nCould you investigate \u2026",
+      "text": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please describe.**  \nQualCoder's AI integration could be expanded to include the GWDG SAIA API. Currently, accessing these models (like Gemma 4 31B Instruct) requires manual `config.ini` edits.\n\n**Describe the solution you'd like**  \nWould it be possib\nInteresting. I'm planning a project together with the GWDG that also involves QualCoder, so it's good to see that integrating this service already works. \nCould you investigate …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please des\u2026",
+          "title": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please des…",
           "url": "https://github.com/ccbogel/QualCoder/issues/1351",
           "date": "2026-06-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -363,13 +313,13 @@
     },
     {
       "id": "l517",
-      "text": "feat: optimal-feedback-agent \u2014 multi-agent orchestration harness for feedback generation\n# Design Doc: Optimal Feedback Agent \u2014 Multi-Agent Orchestration Layer\n\n**Status:** Draft\n**Author:** Claude\n**Created:** 2026-05-19\n**Last Updated:** 2026-05-19\n\n---\n\n## 1. Overview\n\nTransform the current `feedback-generator` skill from a passive, single-agent silent observer into an **active multi",
+      "text": "feat: optimal-feedback-agent — multi-agent orchestration harness for feedback generation\n# Design Doc: Optimal Feedback Agent — Multi-Agent Orchestration Layer\n\n**Status:** Draft\n**Author:** Claude\n**Created:** 2026-05-19\n**Last Updated:** 2026-05-19\n\n---\n\n## 1. Overview\n\nTransform the current `feedback-generator` skill from a passive, single-agent silent observer into an **active multi",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: optimal-feedback-agent \u2014 multi-agent orchestration harness for feedback ge\u2026",
+          "title": "feat: optimal-feedback-agent — multi-agent orchestration harness for feedback ge…",
           "url": "https://github.com/cerredz/Vidbyte-Skills/pull/68",
           "date": "2026-05-19",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -552,13 +502,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -594,13 +544,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -783,13 +733,13 @@
     },
     {
       "id": "l537",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -825,13 +775,13 @@
     },
     {
       "id": "l539",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -867,13 +817,13 @@
     },
     {
       "id": "l541",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -888,13 +838,13 @@
     },
     {
       "id": "l542",
-      "text": "Beyond tired of Ai\nIs anyone else having this experience while in nursing school? How are you coping? My classmates are addicted to Ai and use it for all their assignments. We get assigned a few care plans each semester, which we fill out on paper at home. They are our big project for the semester. I work rly hard at my care plans so i can improve my skills. My classmates will come into class the day it\u2019s due and say stuff like \u201cbro i just had chat gpt do it for me, im not gonna spend hours doin\u2026",
+      "text": "Beyond tired of Ai\nIs anyone else having this experience while in nursing school? How are you coping? My classmates are addicted to Ai and use it for all their assignments. We get assigned a few care plans each semester, which we fill out on paper at home. They are our big project for the semester. I work rly hard at my care plans so i can improve my skills. My classmates will come into class the day it’s due and say stuff like “bro i just had chat gpt do it for me, im not gonna spend hours doin…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Beyond tired of Ai\nIs anyone else having this experience while in nursing school\u2026",
+          "title": "Beyond tired of Ai\nIs anyone else having this experience while in nursing school…",
           "url": "https://www.reddit.com/r/StudentNurse/comments/1vyp9na/beyond_tired_of_ai/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -909,13 +859,13 @@
     },
     {
       "id": "l543",
-      "text": "being part of the first class that had ai through all of high school and then college hit different\ni saw something recently about how kids starting college now are basically the first group that went through their entire four years of high school alongside ai tools and wow did that hit home. i started 9th grade right around when chatgpt exploded. by sophomore year using it to brainstorm topics or break down confusing readings was totally normal. teachers knew about it, half of them were experim\u2026",
+      "text": "being part of the first class that had ai through all of high school and then college hit different\ni saw something recently about how kids starting college now are basically the first group that went through their entire four years of high school alongside ai tools and wow did that hit home. i started 9th grade right around when chatgpt exploded. by sophomore year using it to brainstorm topics or break down confusing readings was totally normal. teachers knew about it, half of them were experim…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "being part of the first class that had ai through all of high school and then co\u2026",
+          "title": "being part of the first class that had ai through all of high school and then co…",
           "url": "https://www.reddit.com/r/CheckTurnitin/comments/1vw0njm/being_part_of_the_first_class_that_had_ai_through/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -930,13 +880,13 @@
     },
     {
       "id": "l544",
-      "text": "Platform AI Scans Private Snapchat Message Containing \u201cShoot\u201d Language, Auto-Reports to FBI, Leading to School Arrest of Student Teacher\nOn January 29, 2025, Kristen Volpe, a 22-year-old student teacher at John L. Hensey Elementary School in Washington, Illinois, became frustrated when a student closed her laptop mid-lesson, disrupting the prepared lesson plan. She sent a private Snapchat communication limited to three recipients (reported as boyfriend and roommates) that included language askin\u2026",
+      "text": "Platform AI Scans Private Snapchat Message Containing “Shoot” Language, Auto-Reports to FBI, Leading to School Arrest of Student Teacher\nOn January 29, 2025, Kristen Volpe, a 22-year-old student teacher at John L. Hensey Elementary School in Washington, Illinois, became frustrated when a student closed her laptop mid-lesson, disrupting the prepared lesson plan. She sent a private Snapchat communication limited to three recipients (reported as boyfriend and roommates) that included language askin…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Platform AI Scans Private Snapchat Message Containing \u201cShoot\u201d Language, Auto-Rep\u2026",
+          "title": "Platform AI Scans Private Snapchat Message Containing “Shoot” Language, Auto-Rep…",
           "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vbwmvk/platform_ai_scans_private_snapchat_message/",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -951,13 +901,13 @@
     },
     {
       "id": "l545",
-      "text": "AI JUST TOOK OVER THE KITCHEN. THE KITCHEN DID NOT SURVIVE \ud83e\udd16\ud83c\udf5c\n\nThe humanoid tries to cook noodles.\n\nFirst, the noodles hit the floor.\n\nThen the sauce goes everywhere.\n\nThe owner walks in to see the disaster\u2026 and somehow ends up with noodles hanging off him too \ud83d\ude02\n\nThe robot looks at the crime scene, grabs the spatula and runs out of the kitchen while he chases it \ud83d\udc80\n\nHumanoid robotics is advancing fast.\n\nCooking skills are still in beta.\n\nWould you let this robot make your dinner?",
+      "text": "AI JUST TOOK OVER THE KITCHEN. THE KITCHEN DID NOT SURVIVE 🤖🍜\n\nThe humanoid tries to cook noodles.\n\nFirst, the noodles hit the floor.\n\nThen the sauce goes everywhere.\n\nThe owner walks in to see the disaster… and somehow ends up with noodles hanging off him too 😂\n\nThe robot looks at the crime scene, grabs the spatula and runs out of the kitchen while he chases it 💀\n\nHumanoid robotics is advancing fast.\n\nCooking skills are still in beta.\n\nWould you let this robot make your dinner?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI JUST TOOK OVER THE KITCHEN. THE KITCHEN DID NOT SURVIVE \ud83e\udd16\ud83c\udf5c\n\nThe humanoid trie\u2026",
+          "title": "AI JUST TOOK OVER THE KITCHEN. THE KITCHEN DID NOT SURVIVE 🤖🍜\n\nThe humanoid trie…",
           "url": "https://x.com/TheFutureIRL/status/2089847055930085845",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -972,13 +922,13 @@
     },
     {
       "id": "l546",
-      "text": "A COWBOY ROBOT JUST SERVED A DRINK LIKE THIS IS COMPLETELY NORMAL\u2049\ufe0f\u2049\ufe0f\u2049\ufe0f\n\nIt gestures to the customer, grabs the cup, works the tap, pours the drink \u2014 then hands it over across the bar.\n\nThe cowboy hat somehow makes the whole thing even more surreal.\n\nThis is what makes physical AI interesting: not robots doing backflips in a lab, but machines starting to perform small, ordinary human interactions in public.\n\nBartender today.\n\nWaiter tomorrow.\n\nHow long before seeing a robot behind the bar stops",
+      "text": "A COWBOY ROBOT JUST SERVED A DRINK LIKE THIS IS COMPLETELY NORMAL⁉️⁉️⁉️\n\nIt gestures to the customer, grabs the cup, works the tap, pours the drink — then hands it over across the bar.\n\nThe cowboy hat somehow makes the whole thing even more surreal.\n\nThis is what makes physical AI interesting: not robots doing backflips in a lab, but machines starting to perform small, ordinary human interactions in public.\n\nBartender today.\n\nWaiter tomorrow.\n\nHow long before seeing a robot behind the bar stops",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A COWBOY ROBOT JUST SERVED A DRINK LIKE THIS IS COMPLETELY NORMAL\u2049\ufe0f\u2049\ufe0f\u2049\ufe0f\n\nIt gest\u2026",
+          "title": "A COWBOY ROBOT JUST SERVED A DRINK LIKE THIS IS COMPLETELY NORMAL⁉️⁉️⁉️\n\nIt gest…",
           "url": "https://x.com/TheFutureIRL/status/2089376707010585028",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -993,13 +943,13 @@
     },
     {
       "id": "l547",
-      "text": "Dear nursing instructors, please spend a little more time on cardiac rhythms.\n\nCoworker: Your pt has a funny looking heart rhythm\n\nMe: It\u2019s called normal sinus rhythm.\n\nRecently\nMe: The ER pt\u2019s that just got here is in Afib .\n\nCoworker (different one): I don\u2019t know, it looks to irregular for Afib.\n\nMe: It\u2019s rate controlled Afib\n\nAny guesses what the EKG read?\n\nKids this is why I drink.",
+      "text": "Dear nursing instructors, please spend a little more time on cardiac rhythms.\n\nCoworker: Your pt has a funny looking heart rhythm\n\nMe: It’s called normal sinus rhythm.\n\nRecently\nMe: The ER pt’s that just got here is in Afib .\n\nCoworker (different one): I don’t know, it looks to irregular for Afib.\n\nMe: It’s rate controlled Afib\n\nAny guesses what the EKG read?\n\nKids this is why I drink.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Dear nursing instructors, please spend a little more time on cardiac rhythms.\n\nC\u2026",
+          "title": "Dear nursing instructors, please spend a little more time on cardiac rhythms.\n\nC…",
           "url": "https://x.com/mybuddyBuck/status/2090398887286591658",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1014,13 +964,13 @@
     },
     {
       "id": "l548",
-      "text": "ELON MUSK: \u201cAI AND ROBOTS WILL REPLACE ALL JOBS\u201d",
+      "text": "ELON MUSK: “AI AND ROBOTS WILL REPLACE ALL JOBS”",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "ELON MUSK: \u201cAI AND ROBOTS WILL REPLACE ALL JOBS\u201d",
+          "title": "ELON MUSK: “AI AND ROBOTS WILL REPLACE ALL JOBS”",
           "url": "https://x.com/TheFutureIRL/status/2087493362928484354",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1062,7 +1012,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The future of tokenization is here, build your agent on $VIRTUAL.\n\n@virtuals_io \u2026",
+          "title": "The future of tokenization is here, build your agent on $VIRTUAL.\n\n@virtuals_io …",
           "url": "https://x.com/cryptolart/status/2093331640755863995",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1077,13 +1027,13 @@
     },
     {
       "id": "l551",
-      "text": "Nursing instructors be like \u201cwe know how hard it is\u2026.. but we still don\u2019t care \ud83d\ude4f\u201d",
+      "text": "Nursing instructors be like “we know how hard it is….. but we still don’t care 🙏”",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Nursing instructors be like \u201cwe know how hard it is\u2026.. but we still don\u2019t care \ud83d\ude4f\u2026",
+          "title": "Nursing instructors be like “we know how hard it is….. but we still don’t care 🙏…",
           "url": "https://x.com/rosysuit/status/2087666941053857887",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1104,7 +1054,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@EricSpracklen 26 years ago, when I graduated nursing school, professionalism wa\u2026",
+          "title": "@EricSpracklen 26 years ago, when I graduated nursing school, professionalism wa…",
           "url": "https://x.com/americanrnangel/status/2091909094047187137",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1167,7 +1117,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@btcave1 Knew a guy that went from being a plumber too an RN at age 30. He caugh\u2026",
+          "title": "@btcave1 Knew a guy that went from being a plumber too an RN at age 30. He caugh…",
           "url": "https://x.com/itself85309/status/2085935065905721630",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1209,7 +1159,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@StartWhere_U_R @PattyMurray @grok So there will be fewer nursing instructors av\u2026",
+          "title": "@StartWhere_U_R @PattyMurray @grok So there will be fewer nursing instructors av…",
           "url": "https://x.com/shaec88553935/status/2069984885167505869",
           "date": "2026-06-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1230,7 +1180,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@yancebedo @applesdunorange Majority of my nursing instructors in the US are pur\u2026",
+          "title": "@yancebedo @applesdunorange Majority of my nursing instructors in the US are pur…",
           "url": "https://x.com/ju_w1a/status/2059268162160599302",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1245,13 +1195,13 @@
     },
     {
       "id": "l559",
-      "text": "@Tyroneshelton @NathanielSami Shortages were around before Covid.  There has to be more nursing instructors in order to accept more nursing students until they start paying instructors, what they\u2019re worth they\u2019ll still be a shortage. Been there done that. Would love to be teaching again even at 74.",
+      "text": "@Tyroneshelton @NathanielSami Shortages were around before Covid.  There has to be more nursing instructors in order to accept more nursing students until they start paying instructors, what they’re worth they’ll still be a shortage. Been there done that. Would love to be teaching again even at 74.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Tyroneshelton @NathanielSami Shortages were around before Covid.  There has to \u2026",
+          "title": "@Tyroneshelton @NathanielSami Shortages were around before Covid.  There has to …",
           "url": "https://x.com/kid2178/status/2056013276077584847",
           "date": "2026-05-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1266,13 +1216,13 @@
     },
     {
       "id": "l560",
-      "text": "@NathanielSami Nurse here. They don\u2019t have enough applicants because of nursing instructors having to keep up with credentials to actually practice and to also teach. Then, on the job, there is limited numbers of nurses and PCTs/CNAs because of the patient/resident/client census, so they leave.",
+      "text": "@NathanielSami Nurse here. They don’t have enough applicants because of nursing instructors having to keep up with credentials to actually practice and to also teach. Then, on the job, there is limited numbers of nurses and PCTs/CNAs because of the patient/resident/client census, so they leave.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@NathanielSami Nurse here. They don\u2019t have enough applicants because of nursing \u2026",
+          "title": "@NathanielSami Nurse here. They don’t have enough applicants because of nursing …",
           "url": "https://x.com/Summer_Reignzz/status/2056102372393324817",
           "date": "2026-05-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1293,7 +1243,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@0_Finity @Tablesalt13 The average IQ in India is around 76.  Even in Canada nur\u2026",
+          "title": "@0_Finity @Tablesalt13 The average IQ in India is around 76.  Even in Canada nur…",
           "url": "https://x.com/eggs_4_breaky/status/2049870072655863942",
           "date": "2026-04-30",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1314,7 +1264,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Tell me you were not a science major without telling me you were not a science m\u2026",
+          "title": "Tell me you were not a science major without telling me you were not a science m…",
           "url": "https://x.com/FirstSpeaker59/status/2043522114972778620",
           "date": "2026-04-13",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1335,7 +1285,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@HeartlandSignal Here's hoping Sean Tarwater ends up in a hospital soon. However\u2026",
+          "title": "@HeartlandSignal Here's hoping Sean Tarwater ends up in a hospital soon. However…",
           "url": "https://x.com/HagmanDr/status/2035153128077820192",
           "date": "2026-03-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1356,7 +1306,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@ShirleyJwriter One of my nursing instructors said Australian aborigines were de\u2026",
+          "title": "@ShirleyJwriter One of my nursing instructors said Australian aborigines were de…",
           "url": "https://x.com/Maxi63145/status/2032639822490141123",
           "date": "2026-03-14",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1371,13 +1321,13 @@
     },
     {
       "id": "l565",
-      "text": "Design arch-skills, civilization stages, and believable learning groups\n## What changes\n\nDefine and consolidate the Glantri Skill-system product/rule architecture: conceptual/navigation domains, concrete learnable skills and specializations, civilization-relative availability, access, explicit skill relationships, believable shared-training histories, and the qualitativ\n## Decision-ready design evidence (read-only wave, baseline `b519ef0aca66aae5b110f9a37c91e6eefff08c6f`)\n\n### Recommendation in \u2026",
+      "text": "Design arch-skills, civilization stages, and believable learning groups\n## What changes\n\nDefine and consolidate the Glantri Skill-system product/rule architecture: conceptual/navigation domains, concrete learnable skills and specializations, civilization-relative availability, access, explicit skill relationships, believable shared-training histories, and the qualitativ\n## Decision-ready design evidence (read-only wave, baseline `b519ef0aca66aae5b110f9a37c91e6eefff08c6f`)\n\n### Recommendation in …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Design arch-skills, civilization stages, and believable learning groups\n## What \u2026",
+          "title": "Design arch-skills, civilization stages, and believable learning groups\n## What …",
           "url": "https://github.com/vidarhald-cpu/glantri-app/issues/258",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1392,13 +1342,13 @@
     },
     {
       "id": "l566",
-      "text": "Add teacher training, and fix the degrees it exposed\nNjia held **zero** teacher training colleges against roughly 35 nationally, while teaching is one of the largest destinations for a C-grade learner. The gap was real. So is the reason to be careful filling it.\n\n## The numbers that had to come with it\n\n| | |\n|---|---|\n| Teachers TSC employs | **431,8\n### <span aria-hidden=\"true\">\u2705</span> Deploy Preview for *njiacareerpathways* ready!\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria\u2026",
+      "text": "Add teacher training, and fix the degrees it exposed\nNjia held **zero** teacher training colleges against roughly 35 nationally, while teaching is one of the largest destinations for a C-grade learner. The gap was real. So is the reason to be careful filling it.\n\n## The numbers that had to come with it\n\n| | |\n|---|---|\n| Teachers TSC employs | **431,8\n### <span aria-hidden=\"true\">✅</span> Deploy Preview for *njiacareerpathways* ready!\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add teacher training, and fix the degrees it exposed\nNjia held **zero** teacher \u2026",
+          "title": "Add teacher training, and fix the degrees it exposed\nNjia held **zero** teacher …",
           "url": "https://github.com/PapaDanico/Njia/pull/46",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1413,13 +1363,13 @@
     },
     {
       "id": "l567",
-      "text": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please describe.**  \nQualCoder's AI integration could be expanded to include the GWDG SAIA API. Currently, accessing these models (like Gemma 4 31B Instruct) requires manual `config.ini` edits.\n\n**Describe the solution you'd like**  \nWould it be possib\nInteresting. I'm planning a project together with the GWDG that also involves QualCoder, so it's good to see that integrating this service already works. \nCould you investigate \u2026",
+      "text": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please describe.**  \nQualCoder's AI integration could be expanded to include the GWDG SAIA API. Currently, accessing these models (like Gemma 4 31B Instruct) requires manual `config.ini` edits.\n\n**Describe the solution you'd like**  \nWould it be possib\nInteresting. I'm planning a project together with the GWDG that also involves QualCoder, so it's good to see that integrating this service already works. \nCould you investigate …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please des\u2026",
+          "title": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please des…",
           "url": "https://github.com/ccbogel/QualCoder/issues/1351",
           "date": "2026-06-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1434,13 +1384,13 @@
     },
     {
       "id": "l568",
-      "text": "Beyond tired of Ai\nIs anyone else having this experience while in nursing school? How are you coping? My classmates are addicted to Ai and use it for all their assignments. We get assigned a few care plans each semester, which we fill out on paper at home. They are our big project for the semester. I work rly hard at my care plans so i can improve my skills. My classmates will come into class the day it\u2019s due and say stuff like \u201cbro i just had chat gpt do it for me, im not gonna spend hours doin\u2026",
+      "text": "Beyond tired of Ai\nIs anyone else having this experience while in nursing school? How are you coping? My classmates are addicted to Ai and use it for all their assignments. We get assigned a few care plans each semester, which we fill out on paper at home. They are our big project for the semester. I work rly hard at my care plans so i can improve my skills. My classmates will come into class the day it’s due and say stuff like “bro i just had chat gpt do it for me, im not gonna spend hours doin…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Beyond tired of Ai\nIs anyone else having this experience while in nursing school\u2026",
+          "title": "Beyond tired of Ai\nIs anyone else having this experience while in nursing school…",
           "url": "https://www.reddit.com/r/StudentNurse/comments/1vyp9na/beyond_tired_of_ai/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1455,13 +1405,13 @@
     },
     {
       "id": "l569",
-      "text": "being part of the first class that had ai through all of high school and then college hit different\ni saw something recently about how kids starting college now are basically the first group that went through their entire four years of high school alongside ai tools and wow did that hit home. i started 9th grade right around when chatgpt exploded. by sophomore year using it to brainstorm topics or break down confusing readings was totally normal. teachers knew about it, half of them were experim\u2026",
+      "text": "being part of the first class that had ai through all of high school and then college hit different\ni saw something recently about how kids starting college now are basically the first group that went through their entire four years of high school alongside ai tools and wow did that hit home. i started 9th grade right around when chatgpt exploded. by sophomore year using it to brainstorm topics or break down confusing readings was totally normal. teachers knew about it, half of them were experim…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "being part of the first class that had ai through all of high school and then co\u2026",
+          "title": "being part of the first class that had ai through all of high school and then co…",
           "url": "https://www.reddit.com/r/CheckTurnitin/comments/1vw0njm/being_part_of_the_first_class_that_had_ai_through/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1476,13 +1426,13 @@
     },
     {
       "id": "l570",
-      "text": "Platform AI Scans Private Snapchat Message Containing \u201cShoot\u201d Language, Auto-Reports to FBI, Leading to School Arrest of Student Teacher\nOn January 29, 2025, Kristen Volpe, a 22-year-old student teacher at John L. Hensey Elementary School in Washington, Illinois, became frustrated when a student closed her laptop mid-lesson, disrupting the prepared lesson plan. She sent a private Snapchat communication limited to three recipients (reported as boyfriend and roommates) that included language askin\u2026",
+      "text": "Platform AI Scans Private Snapchat Message Containing “Shoot” Language, Auto-Reports to FBI, Leading to School Arrest of Student Teacher\nOn January 29, 2025, Kristen Volpe, a 22-year-old student teacher at John L. Hensey Elementary School in Washington, Illinois, became frustrated when a student closed her laptop mid-lesson, disrupting the prepared lesson plan. She sent a private Snapchat communication limited to three recipients (reported as boyfriend and roommates) that included language askin…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Platform AI Scans Private Snapchat Message Containing \u201cShoot\u201d Language, Auto-Rep\u2026",
+          "title": "Platform AI Scans Private Snapchat Message Containing “Shoot” Language, Auto-Rep…",
           "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vbwmvk/platform_ai_scans_private_snapchat_message/",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1573,6 +1523,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

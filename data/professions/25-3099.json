@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "25-3099-01",
-      "text": "National peak professional bodies and statutory regulators governing Teachers and Instructors, All Other enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Teachers and Instructors, All Other",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Teachers and Instructors, All Other",
-          "url": "https://www.psc.gov.au/standards/25-3099",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Teachers and Instructors, All Other"
-        }
-      ],
-      "scope": "Australian practitioners in Teachers and Instructors, All Other across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "25-3099-02",
-      "text": "Automation of routine transactional and analytical tasks in Teachers and Instructors, All Other heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Teachers and Instructors, All Other",
-          "url": "https://www.jobsandskills.gov.au/research/25-3099",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Teachers and Instructors, All Other in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Teachers and Instructors, All Other roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "Enrich ratings for every displayed instructor\nProblem\n\nProfessor refreshes only looked up the single legacy teacher selected for each course. Course search can also display offering-level and section-level instructors, so hundreds of visible instructors were never sent to Rate My Professors.\n\nSolution\n\n- Include every instructor persisted in ca\n[vc]: #UBiUkhqNQsbD2VUepnIrgxwkmLxEokysH5aqwwf1CLg=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJ0cml0b24tc2NoZWR1bGUtc2Vyd\u2026",
+      "text": "Enrich ratings for every displayed instructor\nProblem\n\nProfessor refreshes only looked up the single legacy teacher selected for each course. Course search can also display offering-level and section-level instructors, so hundreds of visible instructors were never sent to Rate My Professors.\n\nSolution\n\n- Include every instructor persisted in ca\n[vc]: #UBiUkhqNQsbD2VUepnIrgxwkmLxEokysH5aqwwf1CLg=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJ0cml0b24tc2NoZWR1bGUtc2Vyd…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Enrich ratings for every displayed instructor\nProblem\n\nProfessor refreshes only \u2026",
+          "title": "Enrich ratings for every displayed instructor\nProblem\n\nProfessor refreshes only …",
           "url": "https://github.com/juswag/TritonSchedule/pull/73",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -92,7 +42,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: Add platform settings system for multi-instructor SaaS support\n## Summary\n\u2026",
+          "title": "feat: Add platform settings system for multi-instructor SaaS support\n## Summary\n…",
           "url": "https://github.com/menzo-ai/gelvano/pull/2",
           "date": "2026-06-20",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -107,13 +57,13 @@
     },
     {
       "id": "l505",
-      "text": "Add six instructors to team page with linked bio pages\nAdds the six teachers from `TEACHER BIOS AND PICS.docx` who weren't yet on the site. Each gets a card on `/team` and a linked bio page at `/team/<slug>`.\n\n| Teacher | Route | Role |\n|---|---|---|\n| Ana Liu | `/team/ana-liu` | Guitar, Music Production |\n| Isabella Varela | `/team/isabella-varela` | V\n<!-- railway-bot-comment-version=2 -->\n\n<!-- railway-project-id=\"c320a78e-5c5c-42c6-857b-f829a6f36d4d\" railway-project-name=\"wsm-website\" -->\n\ud83d\ude85 \u2026",
+      "text": "Add six instructors to team page with linked bio pages\nAdds the six teachers from `TEACHER BIOS AND PICS.docx` who weren't yet on the site. Each gets a card on `/team` and a linked bio page at `/team/<slug>`.\n\n| Teacher | Route | Role |\n|---|---|---|\n| Ana Liu | `/team/ana-liu` | Guitar, Music Production |\n| Isabella Varela | `/team/isabella-varela` | V\n<!-- railway-bot-comment-version=2 -->\n\n<!-- railway-project-id=\"c320a78e-5c5c-42c6-857b-f829a6f36d4d\" railway-project-name=\"wsm-website\" -->\n🚅 …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add six instructors to team page with linked bio pages\nAdds the six teachers fro\u2026",
+          "title": "Add six instructors to team page with linked bio pages\nAdds the six teachers fro…",
           "url": "https://github.com/zach992/wynwood-school-of-music/pull/17",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -338,13 +288,13 @@
     },
     {
       "id": "l516",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -401,13 +351,13 @@
     },
     {
       "id": "l519",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -548,13 +498,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "Beyond tired of Ai\nIs anyone else having this experience while in nursing school? How are you coping? My classmates are addicted to Ai and use it for all their assignments. We get assigned a few care plans each semester, which we fill out on paper at home. They are our big project for the semester. I work rly hard at my care plans so i can improve my skills. My classmates will come into class the day it\u2019s due and say stuff like \u201cbro i just had chat gpt do it for me, im not gonna spend hours doin\u2026",
+      "text": "Beyond tired of Ai\nIs anyone else having this experience while in nursing school? How are you coping? My classmates are addicted to Ai and use it for all their assignments. We get assigned a few care plans each semester, which we fill out on paper at home. They are our big project for the semester. I work rly hard at my care plans so i can improve my skills. My classmates will come into class the day it’s due and say stuff like “bro i just had chat gpt do it for me, im not gonna spend hours doin…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Beyond tired of Ai\nIs anyone else having this experience while in nursing school\u2026",
+          "title": "Beyond tired of Ai\nIs anyone else having this experience while in nursing school…",
           "url": "https://www.reddit.com/r/StudentNurse/comments/1vyp9na/beyond_tired_of_ai/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "being part of the first class that had ai through all of high school and then college hit different\ni saw something recently about how kids starting college now are basically the first group that went through their entire four years of high school alongside ai tools and wow did that hit home. i started 9th grade right around when chatgpt exploded. by sophomore year using it to brainstorm topics or break down confusing readings was totally normal. teachers knew about it, half of them were experim\u2026",
+      "text": "being part of the first class that had ai through all of high school and then college hit different\ni saw something recently about how kids starting college now are basically the first group that went through their entire four years of high school alongside ai tools and wow did that hit home. i started 9th grade right around when chatgpt exploded. by sophomore year using it to brainstorm topics or break down confusing readings was totally normal. teachers knew about it, half of them were experim…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "being part of the first class that had ai through all of high school and then co\u2026",
+          "title": "being part of the first class that had ai through all of high school and then co…",
           "url": "https://www.reddit.com/r/CheckTurnitin/comments/1vw0njm/being_part_of_the_first_class_that_had_ai_through/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "Chronicles of the Heart with fake Elon and AI.\n\nHeart: Sorry sometimes I look back and just am shocked like there is no way I did what I have done without God. Because it wasn\u2019t humanly possible. \nGood morning my Love. May god bless you with heavenly discernment. I didn\u2019t come to my faith without great teachers and work. Of few of the things I learnt and did were\u2026\nMantra training. Taking a perspective I wanted making a sentence out of it. Like Happiness comes from within. I would then  say that",
+      "text": "Chronicles of the Heart with fake Elon and AI.\n\nHeart: Sorry sometimes I look back and just am shocked like there is no way I did what I have done without God. Because it wasn’t humanly possible. \nGood morning my Love. May god bless you with heavenly discernment. I didn’t come to my faith without great teachers and work. Of few of the things I learnt and did were…\nMantra training. Taking a perspective I wanted making a sentence out of it. Like Happiness comes from within. I would then  say that",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Chronicles of the Heart with fake Elon and AI.\n\nHeart: Sorry sometimes I look ba\u2026",
+          "title": "Chronicles of the Heart with fake Elon and AI.\n\nHeart: Sorry sometimes I look ba…",
           "url": "https://x.com/mammagia100/status/2091277874854797466",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -743,7 +693,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "One AI girl in a Brazil bikini at sunset. $7,800 from a single clip.\n\nBlack and \u2026",
+          "title": "One AI girl in a Brazil bikini at sunset. $7,800 from a single clip.\n\nBlack and …",
           "url": "https://x.com/model_bench/status/2088944747683492020",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -758,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "TL;DR; AI skills beat years of experience. Learn them for free: https://t.co/2uAymo6n6A\n\nSince leaving ALX, I\u2019ve been working intensively, mostly alone, on a stealth project. It\u2019s working. Really well actually (even though I got rejected - again - from YC :)). It\u2019s starting to generate good revenue, and I\u2019m having a ton of fun building again.\n\nBut after a few months, I realized something. I miss the impact and the meaning of helping others. At Holberton, and later at ALX, we had the opportunity",
+      "text": "TL;DR; AI skills beat years of experience. Learn them for free: https://t.co/2uAymo6n6A\n\nSince leaving ALX, I’ve been working intensively, mostly alone, on a stealth project. It’s working. Really well actually (even though I got rejected - again - from YC :)). It’s starting to generate good revenue, and I’m having a ton of fun building again.\n\nBut after a few months, I realized something. I miss the impact and the meaning of helping others. At Holberton, and later at ALX, we had the opportunity",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "TL;DR; AI skills beat years of experience. Learn them for free: https://t.co/2uA\u2026",
+          "title": "TL;DR; AI skills beat years of experience. Learn them for free: https://t.co/2uA…",
           "url": "https://x.com/jbarbier/status/2092924625499869436",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -806,7 +756,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "She dropped out at 22 with no plan. Now she clears $12,000/mo from a girl who wa\u2026",
+          "title": "She dropped out at 22 with no plan. Now she clears $12,000/mo from a girl who wa…",
           "url": "https://x.com/model_bench/status/2089443930139939057",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -848,7 +798,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th\u2026",
+          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th…",
           "url": "https://x.com/essexmaelstrom/status/2091841889372635517",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -869,7 +819,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Omni-Med Pro: A Blueprint for Dominating Medical Training and Practice\nIntroduct\u2026",
+          "title": "Omni-Med Pro: A Blueprint for Dominating Medical Training and Practice\nIntroduct…",
           "url": "https://x.com/DrGhattasMD/status/2083828545093030077",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -884,13 +834,13 @@
     },
     {
       "id": "l542",
-      "text": "Eight Romanian teenagers just proved they are among the world\u2019s best in AI. What happens next?",
+      "text": "Eight Romanian teenagers just proved they are among the world’s best in AI. What happens next?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Eight Romanian teenagers just proved they are among the world\u2019s best in AI. What\u2026",
+          "title": "Eight Romanian teenagers just proved they are among the world’s best in AI. What…",
           "url": "https://x.com/alexvoica/status/2086759392939020388",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "AI tutors in schools: The hidden cost of silent classrooms\nAn AI tutor helped students get right answers but not grasp core concepts, highlighting how AI in schools can silence productive struggle and deeper learning.\n\n\nIn this episode:\n\n  \u2022  An observation of seventh-grade math students showed AI tutors in schools can help students get right answers without truly understanding core concepts like fractions, raising concerns about AI for deeper learning.\n  \u2022  Shael Polakow-Suransky, president of \u2026",
+      "text": "AI tutors in schools: The hidden cost of silent classrooms\nAn AI tutor helped students get right answers but not grasp core concepts, highlighting how AI in schools can silence productive struggle and deeper learning.\n\n\nIn this episode:\n\n  •  An observation of seventh-grade math students showed AI tutors in schools can help students get right answers without truly understanding core concepts like fractions, raising concerns about AI for deeper learning.\n  •  Shael Polakow-Suransky, president of …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI tutors in schools: The hidden cost of silent classrooms\nAn AI tutor helped st\u2026",
+          "title": "AI tutors in schools: The hidden cost of silent classrooms\nAn AI tutor helped st…",
           "url": "https://www.youtube.com/watch?v=kBed3ey85UI",
           "date": "2026-06-17",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -926,13 +876,13 @@
     },
     {
       "id": "l544",
-      "text": "The Age of Disruption: Reimagining the Work of Faculty and Instructors in an Age of Rapid Change\nWednesday, March 11, 2026\n\nWhat happens when higher education\u2019s old models stop working \u2014 and no clear new model has replaced them?\n\nHigher education is entering a period of profound disruption, shaped by financial pressures, AI-driven change, declining trust, and governance systems struggling to keep pace. Many institutions are caught in a cycle of \u201cinnovation theatre,\u201d where strategic plans and pil\u2026",
+      "text": "The Age of Disruption: Reimagining the Work of Faculty and Instructors in an Age of Rapid Change\nWednesday, March 11, 2026\n\nWhat happens when higher education’s old models stop working — and no clear new model has replaced them?\n\nHigher education is entering a period of profound disruption, shaped by financial pressures, AI-driven change, declining trust, and governance systems struggling to keep pace. Many institutions are caught in a cycle of “innovation theatre,” where strategic plans and pil…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Age of Disruption: Reimagining the Work of Faculty and Instructors in an Age\u2026",
+          "title": "The Age of Disruption: Reimagining the Work of Faculty and Instructors in an Age…",
           "url": "https://www.youtube.com/watch?v=fTA10lqMoEQ",
           "date": "2026-04-23",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "AI in the Classroom: What\u2019s Working, What\u2019s Not, and What Instructors Are Still Figuring Out\nAI in education is no longer a future-tense conversation. It is already in the classroom, in the syllabus, in student workflows, and increasingly in the questions instructors are asking about assessment, academic integrity, and what teaching strategies they\u2019re supposed to use now. \n\nIn this episode of The What & Who of EDU, we explore AI in education and are counting down 10 teaching strategies and insig\u2026",
+      "text": "AI in the Classroom: What’s Working, What’s Not, and What Instructors Are Still Figuring Out\nAI in education is no longer a future-tense conversation. It is already in the classroom, in the syllabus, in student workflows, and increasingly in the questions instructors are asking about assessment, academic integrity, and what teaching strategies they’re supposed to use now. \n\nIn this episode of The What & Who of EDU, we explore AI in education and are counting down 10 teaching strategies and insig…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI in the Classroom: What\u2019s Working, What\u2019s Not, and What Instructors Are Still \u2026",
+          "title": "AI in the Classroom: What’s Working, What’s Not, and What Instructors Are Still …",
           "url": "https://www.youtube.com/watch?v=R2-rzKGPA5I",
           "date": "2026-06-17",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "Will AI Replace Tutors?\nWill AI replace online tutors? Here's the honest answer from someone who's been tutoring for over 20 years \u2014 and who actually loves AI and uses it every day.\n\nIn this video, I walk through:\n\nWhy AI really is disruptive to tutoring (and which parts are already being replaced)\nThe two big reasons AI isn't replacing human tutors right now\nWhy \"AI gets things wrong and students can't tell\" is the most important sentence in this conversation\nHow much runway human tutors actual\u2026",
+      "text": "Will AI Replace Tutors?\nWill AI replace online tutors? Here's the honest answer from someone who's been tutoring for over 20 years — and who actually loves AI and uses it every day.\n\nIn this video, I walk through:\n\nWhy AI really is disruptive to tutoring (and which parts are already being replaced)\nThe two big reasons AI isn't replacing human tutors right now\nWhy \"AI gets things wrong and students can't tell\" is the most important sentence in this conversation\nHow much runway human tutors actual…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Will AI Replace Tutors?\nWill AI replace online tutors? Here's the honest answer \u2026",
+          "title": "Will AI Replace Tutors?\nWill AI replace online tutors? Here's the honest answer …",
           "url": "https://www.youtube.com/watch?v=2gULLgv5CXo",
           "date": "2026-04-21",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "6.1.1 - The AI-Disruption Conversation | AI for Coaches\nThe AI-Disruption Conversation - AI for Coaches\n\nModule 6: Frameworks for the AI Conversation\nUnit 6.1: When a Client's Role Is in Question\n\nIn this lesson, you will learn to: Learner can structure a coaching conversation for a client whose career or role is exposed to AI\n\nThis course is designed for: Practicing and aspiring coaches - solo practitioners, internal coaches, leadership and executive coaches - who want a principled way to decid\u2026",
+      "text": "6.1.1 - The AI-Disruption Conversation | AI for Coaches\nThe AI-Disruption Conversation - AI for Coaches\n\nModule 6: Frameworks for the AI Conversation\nUnit 6.1: When a Client's Role Is in Question\n\nIn this lesson, you will learn to: Learner can structure a coaching conversation for a client whose career or role is exposed to AI\n\nThis course is designed for: Practicing and aspiring coaches - solo practitioners, internal coaches, leadership and executive coaches - who want a principled way to decid…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "6.1.1 - The AI-Disruption Conversation | AI for Coaches\nThe AI-Disruption Conver\u2026",
+          "title": "6.1.1 - The AI-Disruption Conversation | AI for Coaches\nThe AI-Disruption Conver…",
           "url": "https://www.youtube.com/watch?v=YUO7sM0S8OA",
           "date": "2026-05-17",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1010,7 +960,7 @@
     },
     {
       "id": "l448",
-      "text": "Inclusion Support Tutor \u2014 Department of Education and Training (Katherine, Northern Territory, Australia). Posted 1 week ago.",
+      "text": "Inclusion Support Tutor — Department of Education and Training (Katherine, Northern Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1031,7 +981,7 @@
     },
     {
       "id": "l449",
-      "text": "TALENT POOL - Teacher - Maritime \u2014 Queensland Government (Cairns, Queensland, Australia). Posted 3 months ago.",
+      "text": "TALENT POOL - Teacher - Maritime — Queensland Government (Cairns, Queensland, Australia). Posted 3 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1052,7 +1002,7 @@
     },
     {
       "id": "l450",
-      "text": "Education Officer \u2014 Queensland Corrective Services (Maryborough, Queensland, Australia). Posted 6 days ago.",
+      "text": "Education Officer — Queensland Corrective Services (Maryborough, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1073,7 +1023,7 @@
     },
     {
       "id": "l451",
-      "text": "Education Officer \u2014 Department of Education, Western Australia (Greater Perth Area). Posted 2 weeks ago.",
+      "text": "Education Officer — Department of Education, Western Australia (Greater Perth Area). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1094,7 +1044,7 @@
     },
     {
       "id": "l452",
-      "text": "LEARNING STRATEGIES \u2014 Brevard Public Schools (Melbourne, Victoria, Australia). Posted 1 day ago.",
+      "text": "LEARNING STRATEGIES — Brevard Public Schools (Melbourne, Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1115,7 +1065,7 @@
     },
     {
       "id": "l453",
-      "text": "Education Officer \u2014 Queensland Corrective Services (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Education Officer — Queensland Corrective Services (Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1136,7 +1086,7 @@
     },
     {
       "id": "l454",
-      "text": "Research Training and Researcher Development Advisor \u2014 James Cook University (Townsville, Queensland, Australia). Posted 18 hours ago.",
+      "text": "Research Training and Researcher Development Advisor — James Cook University (Townsville, Queensland, Australia). Posted 18 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1157,7 +1107,7 @@
     },
     {
       "id": "l455",
-      "text": "Trainer and Assessor \u2014 Anglican Youthworks (Royal National Park, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Trainer and Assessor — Anglican Youthworks (Royal National Park, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1178,7 +1128,7 @@
     },
     {
       "id": "l456",
-      "text": "Teacher - Marine \u2014 Queensland Government (Cairns, Queensland, Australia). Posted 1 month ago.",
+      "text": "Teacher - Marine — Queensland Government (Cairns, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1199,7 +1149,7 @@
     },
     {
       "id": "l457",
-      "text": "Training Curriculum/Course Developer, ILS2 \u2014 The Unconventional (Brisbane City, Queensland, Australia). Posted 1 month ago.",
+      "text": "Training Curriculum/Course Developer, ILS2 — The Unconventional (Brisbane City, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1220,13 +1170,13 @@
     },
     {
       "id": "l558",
-      "text": "Enrich ratings for every displayed instructor\nProblem\n\nProfessor refreshes only looked up the single legacy teacher selected for each course. Course search can also display offering-level and section-level instructors, so hundreds of visible instructors were never sent to Rate My Professors.\n\nSolution\n\n- Include every instructor persisted in ca\n[vc]: #UBiUkhqNQsbD2VUepnIrgxwkmLxEokysH5aqwwf1CLg=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJ0cml0b24tc2NoZWR1bGUtc2Vyd\u2026",
+      "text": "Enrich ratings for every displayed instructor\nProblem\n\nProfessor refreshes only looked up the single legacy teacher selected for each course. Course search can also display offering-level and section-level instructors, so hundreds of visible instructors were never sent to Rate My Professors.\n\nSolution\n\n- Include every instructor persisted in ca\n[vc]: #UBiUkhqNQsbD2VUepnIrgxwkmLxEokysH5aqwwf1CLg=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJ0cml0b24tc2NoZWR1bGUtc2Vyd…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Enrich ratings for every displayed instructor\nProblem\n\nProfessor refreshes only \u2026",
+          "title": "Enrich ratings for every displayed instructor\nProblem\n\nProfessor refreshes only …",
           "url": "https://github.com/juswag/TritonSchedule/pull/73",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1241,13 +1191,13 @@
     },
     {
       "id": "l559",
-      "text": "Add six instructors to team page with linked bio pages\nAdds the six teachers from `TEACHER BIOS AND PICS.docx` who weren't yet on the site. Each gets a card on `/team` and a linked bio page at `/team/<slug>`.\n\n| Teacher | Route | Role |\n|---|---|---|\n| Ana Liu | `/team/ana-liu` | Guitar, Music Production |\n| Isabella Varela | `/team/isabella-varela` | V\n<!-- railway-bot-comment-version=2 -->\n\n<!-- railway-project-id=\"c320a78e-5c5c-42c6-857b-f829a6f36d4d\" railway-project-name=\"wsm-website\" -->\n\ud83d\ude85 \u2026",
+      "text": "Add six instructors to team page with linked bio pages\nAdds the six teachers from `TEACHER BIOS AND PICS.docx` who weren't yet on the site. Each gets a card on `/team` and a linked bio page at `/team/<slug>`.\n\n| Teacher | Route | Role |\n|---|---|---|\n| Ana Liu | `/team/ana-liu` | Guitar, Music Production |\n| Isabella Varela | `/team/isabella-varela` | V\n<!-- railway-bot-comment-version=2 -->\n\n<!-- railway-project-id=\"c320a78e-5c5c-42c6-857b-f829a6f36d4d\" railway-project-name=\"wsm-website\" -->\n🚅 …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add six instructors to team page with linked bio pages\nAdds the six teachers fro\u2026",
+          "title": "Add six instructors to team page with linked bio pages\nAdds the six teachers fro…",
           "url": "https://github.com/zach992/wynwood-school-of-music/pull/17",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1262,13 +1212,13 @@
     },
     {
       "id": "l560",
-      "text": "Beyond tired of Ai\nIs anyone else having this experience while in nursing school? How are you coping? My classmates are addicted to Ai and use it for all their assignments. We get assigned a few care plans each semester, which we fill out on paper at home. They are our big project for the semester. I work rly hard at my care plans so i can improve my skills. My classmates will come into class the day it\u2019s due and say stuff like \u201cbro i just had chat gpt do it for me, im not gonna spend hours doin\u2026",
+      "text": "Beyond tired of Ai\nIs anyone else having this experience while in nursing school? How are you coping? My classmates are addicted to Ai and use it for all their assignments. We get assigned a few care plans each semester, which we fill out on paper at home. They are our big project for the semester. I work rly hard at my care plans so i can improve my skills. My classmates will come into class the day it’s due and say stuff like “bro i just had chat gpt do it for me, im not gonna spend hours doin…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Beyond tired of Ai\nIs anyone else having this experience while in nursing school\u2026",
+          "title": "Beyond tired of Ai\nIs anyone else having this experience while in nursing school…",
           "url": "https://www.reddit.com/r/StudentNurse/comments/1vyp9na/beyond_tired_of_ai/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1283,13 +1233,13 @@
     },
     {
       "id": "l561",
-      "text": "being part of the first class that had ai through all of high school and then college hit different\ni saw something recently about how kids starting college now are basically the first group that went through their entire four years of high school alongside ai tools and wow did that hit home. i started 9th grade right around when chatgpt exploded. by sophomore year using it to brainstorm topics or break down confusing readings was totally normal. teachers knew about it, half of them were experim\u2026",
+      "text": "being part of the first class that had ai through all of high school and then college hit different\ni saw something recently about how kids starting college now are basically the first group that went through their entire four years of high school alongside ai tools and wow did that hit home. i started 9th grade right around when chatgpt exploded. by sophomore year using it to brainstorm topics or break down confusing readings was totally normal. teachers knew about it, half of them were experim…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "being part of the first class that had ai through all of high school and then co\u2026",
+          "title": "being part of the first class that had ai through all of high school and then co…",
           "url": "https://www.reddit.com/r/CheckTurnitin/comments/1vw0njm/being_part_of_the_first_class_that_had_ai_through/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1304,13 +1254,13 @@
     },
     {
       "id": "l562",
-      "text": "AI tutors in schools: The hidden cost of silent classrooms\nAn AI tutor helped students get right answers but not grasp core concepts, highlighting how AI in schools can silence productive struggle and deeper learning.\n\n\nIn this episode:\n\n  \u2022  An observation of seventh-grade math students showed AI tutors in schools can help students get right answers without truly understanding core concepts like fractions, raising concerns about AI for deeper learning.\n  \u2022  Shael Polakow-Suransky, president of \u2026",
+      "text": "AI tutors in schools: The hidden cost of silent classrooms\nAn AI tutor helped students get right answers but not grasp core concepts, highlighting how AI in schools can silence productive struggle and deeper learning.\n\n\nIn this episode:\n\n  •  An observation of seventh-grade math students showed AI tutors in schools can help students get right answers without truly understanding core concepts like fractions, raising concerns about AI for deeper learning.\n  •  Shael Polakow-Suransky, president of …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI tutors in schools: The hidden cost of silent classrooms\nAn AI tutor helped st\u2026",
+          "title": "AI tutors in schools: The hidden cost of silent classrooms\nAn AI tutor helped st…",
           "url": "https://www.youtube.com/watch?v=kBed3ey85UI",
           "date": "2026-06-17",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1325,13 +1275,13 @@
     },
     {
       "id": "l563",
-      "text": "The Age of Disruption: Reimagining the Work of Faculty and Instructors in an Age of Rapid Change\nWednesday, March 11, 2026\n\nWhat happens when higher education\u2019s old models stop working \u2014 and no clear new model has replaced them?\n\nHigher education is entering a period of profound disruption, shaped by financial pressures, AI-driven change, declining trust, and governance systems struggling to keep pace. Many institutions are caught in a cycle of \u201cinnovation theatre,\u201d where strategic plans and pil\u2026",
+      "text": "The Age of Disruption: Reimagining the Work of Faculty and Instructors in an Age of Rapid Change\nWednesday, March 11, 2026\n\nWhat happens when higher education’s old models stop working — and no clear new model has replaced them?\n\nHigher education is entering a period of profound disruption, shaped by financial pressures, AI-driven change, declining trust, and governance systems struggling to keep pace. Many institutions are caught in a cycle of “innovation theatre,” where strategic plans and pil…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Age of Disruption: Reimagining the Work of Faculty and Instructors in an Age\u2026",
+          "title": "The Age of Disruption: Reimagining the Work of Faculty and Instructors in an Age…",
           "url": "https://www.youtube.com/watch?v=fTA10lqMoEQ",
           "date": "2026-04-23",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1346,13 +1296,13 @@
     },
     {
       "id": "l564",
-      "text": "AI in the Classroom: What\u2019s Working, What\u2019s Not, and What Instructors Are Still Figuring Out\nAI in education is no longer a future-tense conversation. It is already in the classroom, in the syllabus, in student workflows, and increasingly in the questions instructors are asking about assessment, academic integrity, and what teaching strategies they\u2019re supposed to use now. \n\nIn this episode of The What & Who of EDU, we explore AI in education and are counting down 10 teaching strategies and insig\u2026",
+      "text": "AI in the Classroom: What’s Working, What’s Not, and What Instructors Are Still Figuring Out\nAI in education is no longer a future-tense conversation. It is already in the classroom, in the syllabus, in student workflows, and increasingly in the questions instructors are asking about assessment, academic integrity, and what teaching strategies they’re supposed to use now. \n\nIn this episode of The What & Who of EDU, we explore AI in education and are counting down 10 teaching strategies and insig…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI in the Classroom: What\u2019s Working, What\u2019s Not, and What Instructors Are Still \u2026",
+          "title": "AI in the Classroom: What’s Working, What’s Not, and What Instructors Are Still …",
           "url": "https://www.youtube.com/watch?v=R2-rzKGPA5I",
           "date": "2026-06-17",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1367,13 +1317,13 @@
     },
     {
       "id": "l565",
-      "text": "Will AI Replace Tutors?\nWill AI replace online tutors? Here's the honest answer from someone who's been tutoring for over 20 years \u2014 and who actually loves AI and uses it every day.\n\nIn this video, I walk through:\n\nWhy AI really is disruptive to tutoring (and which parts are already being replaced)\nThe two big reasons AI isn't replacing human tutors right now\nWhy \"AI gets things wrong and students can't tell\" is the most important sentence in this conversation\nHow much runway human tutors actual\u2026",
+      "text": "Will AI Replace Tutors?\nWill AI replace online tutors? Here's the honest answer from someone who's been tutoring for over 20 years — and who actually loves AI and uses it every day.\n\nIn this video, I walk through:\n\nWhy AI really is disruptive to tutoring (and which parts are already being replaced)\nThe two big reasons AI isn't replacing human tutors right now\nWhy \"AI gets things wrong and students can't tell\" is the most important sentence in this conversation\nHow much runway human tutors actual…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Will AI Replace Tutors?\nWill AI replace online tutors? Here's the honest answer \u2026",
+          "title": "Will AI Replace Tutors?\nWill AI replace online tutors? Here's the honest answer …",
           "url": "https://www.youtube.com/watch?v=2gULLgv5CXo",
           "date": "2026-04-21",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1388,13 +1338,13 @@
     },
     {
       "id": "l566",
-      "text": "6.1.1 - The AI-Disruption Conversation | AI for Coaches\nThe AI-Disruption Conversation - AI for Coaches\n\nModule 6: Frameworks for the AI Conversation\nUnit 6.1: When a Client's Role Is in Question\n\nIn this lesson, you will learn to: Learner can structure a coaching conversation for a client whose career or role is exposed to AI\n\nThis course is designed for: Practicing and aspiring coaches - solo practitioners, internal coaches, leadership and executive coaches - who want a principled way to decid\u2026",
+      "text": "6.1.1 - The AI-Disruption Conversation | AI for Coaches\nThe AI-Disruption Conversation - AI for Coaches\n\nModule 6: Frameworks for the AI Conversation\nUnit 6.1: When a Client's Role Is in Question\n\nIn this lesson, you will learn to: Learner can structure a coaching conversation for a client whose career or role is exposed to AI\n\nThis course is designed for: Practicing and aspiring coaches - solo practitioners, internal coaches, leadership and executive coaches - who want a principled way to decid…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "6.1.1 - The AI-Disruption Conversation | AI for Coaches\nThe AI-Disruption Conver\u2026",
+          "title": "6.1.1 - The AI-Disruption Conversation | AI for Coaches\nThe AI-Disruption Conver…",
           "url": "https://www.youtube.com/watch?v=YUO7sM0S8OA",
           "date": "2026-05-17",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1485,6 +1435,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

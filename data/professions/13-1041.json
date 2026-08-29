@@ -22,58 +22,8 @@
   ],
   "claims": [
     {
-      "id": "13-1041-01",
-      "text": "National peak professional bodies and statutory regulators governing Compliance Officers, Except Agriculture, Construction, Health and Safety, and Transportation enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Compliance Officers, Except Agriculture, Construction, Health and Safety, and Transportation",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Compliance Officers, Except Agriculture, Construction, Health and Safety, and Transportation",
-          "url": "https://www.psc.gov.au/standards/13-1041",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Compliance Officers, Except Agriculture, Construction, Health and Safety, and Transportation"
-        }
-      ],
-      "scope": "Australian practitioners in Compliance Officers, Except Agriculture, Construction, Health and Safety, and Transportation across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "13-1041-02",
-      "text": "Automation of routine transactional and analytical tasks in Compliance Officers, Except Agriculture, Construction, Health and Safety, and Transportation heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Compliance Officers, Except Agriculture, Construction, Health and Safety, and Transportation",
-          "url": "https://www.jobsandskills.gov.au/research/13-1041",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Compliance Officers, Except Agriculture, Construction, Health and Safety, and Transportation in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Compliance Officers, Except Agriculture, Construction, Health and Safety, and Transportation roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Senior Compliance and Investigation Officer \u2014 Department of Education, Western Australia (Greater Perth Area). Posted 1 week ago.",
+      "text": "Senior Compliance and Investigation Officer — Department of Education, Western Australia (Greater Perth Area). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -94,7 +44,7 @@
     },
     {
       "id": "l404",
-      "text": "Risk & Compliance Specialist \u2014 Craig Mostyn Group (Fremantle, Western Australia, Australia). Posted 3 weeks ago.",
+      "text": "Risk & Compliance Specialist — Craig Mostyn Group (Fremantle, Western Australia, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -115,7 +65,7 @@
     },
     {
       "id": "l405",
-      "text": "Compliance Officer \u2014 City of Gosnells (Gosnells, Western Australia, Australia). Posted 6 days ago.",
+      "text": "Compliance Officer — City of Gosnells (Gosnells, Western Australia, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -136,7 +86,7 @@
     },
     {
       "id": "l406",
-      "text": "Senior Investigator \u2014 National Heavy Vehicle Regulator (Sydney, New South Wales, Australia). Posted 19 hours ago.",
+      "text": "Senior Investigator — National Heavy Vehicle Regulator (Sydney, New South Wales, Australia). Posted 19 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -157,7 +107,7 @@
     },
     {
       "id": "l407",
-      "text": "HVNL Compliance Officer \u2014 John Holland (Adelaide, South Australia, Australia). Posted 17 hours ago.",
+      "text": "HVNL Compliance Officer — John Holland (Adelaide, South Australia, Australia). Posted 17 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -178,7 +128,7 @@
     },
     {
       "id": "l408",
-      "text": "Governance Officer \u2014 Northern Land Council (Darwin, Northern Territory, Australia). Posted 1 week ago.",
+      "text": "Governance Officer — Northern Land Council (Darwin, Northern Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -199,7 +149,7 @@
     },
     {
       "id": "l409",
-      "text": "Compliance Response Officer \u2014 Redland City Council (Greater Brisbane Area). Posted 2 weeks ago.",
+      "text": "Compliance Response Officer — Redland City Council (Greater Brisbane Area). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -220,7 +170,7 @@
     },
     {
       "id": "l410",
-      "text": "Governance Officer \u2014 Supply Nation (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Governance Officer — Supply Nation (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -241,7 +191,7 @@
     },
     {
       "id": "l411",
-      "text": "Advisor - Compliance and Integrity \u2014 Pilbara Ports (Greater Perth Area). Posted 1 week ago.",
+      "text": "Advisor - Compliance and Integrity — Pilbara Ports (Greater Perth Area). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -262,7 +212,7 @@
     },
     {
       "id": "l412",
-      "text": "RISK & COMPLIANCE OFFICER \u2014 Vivid Teachers (Perth, Western Australia, Australia). Posted 3 days ago.",
+      "text": "RISK & COMPLIANCE OFFICER — Vivid Teachers (Perth, Western Australia, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -283,13 +233,13 @@
     },
     {
       "id": "l513",
-      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** \u2014 [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t\u2026",
+      "text": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first — **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n☑️ Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** — [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
+          "title": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open …",
           "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -304,13 +254,13 @@
     },
     {
       "id": "l514",
-      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment\u2014ranging from consumer earbuds to professional line arrays and covert surveillance g\u2026",
+      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment—ranging from consumer earbuds to professional line arrays and covert surveillance g…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su\u2026",
+          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su…",
           "url": "https://github.com/Transparency-X/Sound-Equipment-Lifespace/issues/1",
           "date": "2026-05-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -325,13 +275,13 @@
     },
     {
       "id": "l515",
-      "text": "Expand brokerage platform with financial dashboards and AI automation\n### Financial & Performance Dashboards\n- Added a comprehensive suite of dashboards including Agent Earnings, Team Revenue Rollup, Brokerage P&L, and Recruiting ROI.\n- Implemented a Lifetime Customer portal view and a Usage Metering dashboard with role-based access control (RBAC).\n- Created a Team He\n[vc]: #g1vCL5RxDM0CYLY8nmsgBtnBbvMo3bBqpCSp/4TeI0o=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJ2M\u2026",
+      "text": "Expand brokerage platform with financial dashboards and AI automation\n### Financial & Performance Dashboards\n- Added a comprehensive suite of dashboards including Agent Earnings, Team Revenue Rollup, Brokerage P&L, and Recruiting ROI.\n- Implemented a Lifetime Customer portal view and a Usage Metering dashboard with role-based access control (RBAC).\n- Created a Team He\n[vc]: #g1vCL5RxDM0CYLY8nmsgBtnBbvMo3bBqpCSp/4TeI0o=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJ2M…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Expand brokerage platform with financial dashboards and AI automation\n### Financ\u2026",
+          "title": "Expand brokerage platform with financial dashboards and AI automation\n### Financ…",
           "url": "https://github.com/YHSG-Kling/v0-Vip-Re-OS-V1/pull/5",
           "date": "2026-03-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -346,13 +296,13 @@
     },
     {
       "id": "l516",
-      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n\u00b7 I.G. Farben's post-w\n\ud83e\udd3f\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati\u2026",
+      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n· I.G. Farben's post-w\n🤿\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL\u2026",
+          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL…",
           "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/3",
           "date": "2026-04-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -535,13 +485,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: OpenComplAI \u2013 open-source EU AI Act compliance checks in CI/CD",
+      "text": "Show HN: OpenComplAI – open-source EU AI Act compliance checks in CI/CD",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: OpenComplAI \u2013 open-source EU AI Act compliance checks in CI/CD",
+          "title": "Show HN: OpenComplAI – open-source EU AI Act compliance checks in CI/CD",
           "url": "https://github.com/opencomplai/opencomplai",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -598,13 +548,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -619,13 +569,13 @@
     },
     {
       "id": "l529",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -766,13 +716,13 @@
     },
     {
       "id": "l536",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -808,13 +758,13 @@
     },
     {
       "id": "l538",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -850,13 +800,13 @@
     },
     {
       "id": "l540",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -871,13 +821,13 @@
     },
     {
       "id": "l541",
-      "text": "Is anyone else's legal team misreading the EU AI Act 'delay'? High-risk moved to Dec 2027, but enforcement powers are live NOW \u2014 breakdown inside\nThe trap most engineering teams haven&#39;t mapped: if you fine-tune a third-party model on your own data, or white-label an AI system under your own brand, the Act can requalify you from deployer (light duties) to provider (full regime: conformity assessment, technical documentation, EU database registration). This happens quietly \u2014 a bank fine-tuning\u2026",
+      "text": "Is anyone else's legal team misreading the EU AI Act 'delay'? High-risk moved to Dec 2027, but enforcement powers are live NOW — breakdown inside\nThe trap most engineering teams haven&#39;t mapped: if you fine-tune a third-party model on your own data, or white-label an AI system under your own brand, the Act can requalify you from deployer (light duties) to provider (full regime: conformity assessment, technical documentation, EU database registration). This happens quietly — a bank fine-tuning…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Is anyone else's legal team misreading the EU AI Act 'delay'? High-risk moved to\u2026",
+          "title": "Is anyone else's legal team misreading the EU AI Act 'delay'? High-risk moved to…",
           "url": "https://www.reddit.com/r/regolo_ai/comments/1vqo2qt/is_anyone_elses_legal_team_misreading_the_eu_ai/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -892,13 +842,13 @@
     },
     {
       "id": "l542",
-      "text": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe've barely caught our breaths since Collaborative Agent Hackathon at @Cambridge_Uni, UK, and now we're going to host another intense hackathon in Berlin. September 16. \u200bThe Collaborative Agent Hackathon is a 1-day event for building open-source, collaborative AI agents using Flower.\n\n\u200bAgents are changing what is possible, and their greatest potential emerges when they collaborate safely in human-supervised multi-agent",
+      "text": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe've barely caught our breaths since Collaborative Agent Hackathon at @Cambridge_Uni, UK, and now we're going to host another intense hackathon in Berlin. September 16. ​The Collaborative Agent Hackathon is a 1-day event for building open-source, collaborative AI agents using Flower.\n\n​Agents are changing what is possible, and their greatest potential emerges when they collaborate safely in human-supervised multi-agent",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe'v\u2026",
+          "title": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe'v…",
           "url": "https://x.com/flwrlabs/status/2092989569264214482",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -934,13 +884,13 @@
     },
     {
       "id": "l544",
-      "text": "Anthropic estimates that AI models can address more than US$30 trillion of work annually. The SUCCESSOR \u03a9 addresses the larger mission economy in which every model, human, tool and institution must be composed, independently proven, governed, authorized, remembered and renewed. Its strategic mission-work envelope exceeds US$60 trillion annually.\n\n#MontrealAI #SUCCESSOR",
+      "text": "Anthropic estimates that AI models can address more than US$30 trillion of work annually. The SUCCESSOR Ω addresses the larger mission economy in which every model, human, tool and institution must be composed, independently proven, governed, authorized, remembered and renewed. Its strategic mission-work envelope exceeds US$60 trillion annually.\n\n#MontrealAI #SUCCESSOR",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Anthropic estimates that AI models can address more than US$30 trillion of work \u2026",
+          "title": "Anthropic estimates that AI models can address more than US$30 trillion of work …",
           "url": "https://x.com/Montreal_AI/status/2093085385299820910",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1024,7 +974,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The Coordination Tax: A Better Way for Banks to Decide Between One AI Agent and \u2026",
+          "title": "The Coordination Tax: A Better Way for Banks to Decide Between One AI Agent and …",
           "url": "https://x.com/vivsur/status/2093048599814844878",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1045,7 +995,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "date: 2026-08-25 07:00:00+08:00\ndraft: false\noriginal_lang: zh\nsummary: 'Today''\u2026",
+          "title": "date: 2026-08-25 07:00:00+08:00\ndraft: false\noriginal_lang: zh\nsummary: 'Today''…",
           "url": "https://x.com/paramiao/status/2092037987983106403",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1060,13 +1010,13 @@
     },
     {
       "id": "l550",
-      "text": "Different domains, different reasoning depths. Corporate models flatten everything to same safe answer. \u1f00\u03bb\u03ae\u03b8\u03b5\u03b9\u03b1 requires distinction, not uniformity. #AI #Philosophy #ArtificialIntelligence https://t.co/B70K1X387F",
+      "text": "Different domains, different reasoning depths. Corporate models flatten everything to same safe answer. ἀλήθεια requires distinction, not uniformity. #AI #Philosophy #ArtificialIntelligence https://t.co/B70K1X387F",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Different domains, different reasoning depths. Corporate models flatten everythi\u2026",
+          "title": "Different domains, different reasoning depths. Corporate models flatten everythi…",
           "url": "https://x.com/VasilisStergiou/status/2093473909920387462",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1108,7 +1058,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "DiscoveryPrime: A High-Trust Operating Model for Scalable Workforce Coordination\u2026",
+          "title": "DiscoveryPrime: A High-Trust Operating Model for Scalable Workforce Coordination…",
           "url": "https://x.com/Montreal_AI/status/2036886060790100239",
           "date": "2026-03-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1123,13 +1073,13 @@
     },
     {
       "id": "l553",
-      "text": "How AI Is Disrupting U.S. Customs Compliance | Greenwich Mercantile x LANT\nIn this episode of the LANT Podcast, host Deniz \u00c7elikkaya sits down with Cameron Bell (CEO) and Ihsan Ufuk Dede (CTO) of Greenwich Mercantile, a tech-enabled U.S. customs brokerage that is using AI to help importers reduce tariffs, stay compliant, and navigate one of the most turbulent trade environments in decades.\n\nFrom supply chain design to country of origin misdeclaration, from the USMCA 2026 review to the future of \u2026",
+      "text": "How AI Is Disrupting U.S. Customs Compliance | Greenwich Mercantile x LANT\nIn this episode of the LANT Podcast, host Deniz Çelikkaya sits down with Cameron Bell (CEO) and Ihsan Ufuk Dede (CTO) of Greenwich Mercantile, a tech-enabled U.S. customs brokerage that is using AI to help importers reduce tariffs, stay compliant, and navigate one of the most turbulent trade environments in decades.\n\nFrom supply chain design to country of origin misdeclaration, from the USMCA 2026 review to the future of …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI Is Disrupting U.S. Customs Compliance | Greenwich Mercantile x LANT\nIn th\u2026",
+          "title": "How AI Is Disrupting U.S. Customs Compliance | Greenwich Mercantile x LANT\nIn th…",
           "url": "https://www.youtube.com/watch?v=stsAJnWVM80",
           "date": "2026-06-02",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1144,13 +1094,13 @@
     },
     {
       "id": "l554",
-      "text": "Managing AI Risk Across Global Quality Systems\nHow do you manage AI risk across global quality systems while the tools change every week? Julio Salwen, SVP and Chief Quality Officer at MiniMed, brings 35 years in pharma, devices, and diagnostics to a conversation about governance, risk tolerance, and what quality leaders need to learn right now.\n\nJulio and Nick get into why building for the auditor is the wrong instinct, how to introduce AI where the risk is genuinely low, why one overreaction m\u2026",
+      "text": "Managing AI Risk Across Global Quality Systems\nHow do you manage AI risk across global quality systems while the tools change every week? Julio Salwen, SVP and Chief Quality Officer at MiniMed, brings 35 years in pharma, devices, and diagnostics to a conversation about governance, risk tolerance, and what quality leaders need to learn right now.\n\nJulio and Nick get into why building for the auditor is the wrong instinct, how to introduce AI where the risk is genuinely low, why one overreaction m…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Managing AI Risk Across Global Quality Systems\nHow do you manage AI risk across \u2026",
+          "title": "Managing AI Risk Across Global Quality Systems\nHow do you manage AI risk across …",
           "url": "https://www.youtube.com/watch?v=asKyHnuLbuw",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1165,13 +1115,13 @@
     },
     {
       "id": "l555",
-      "text": "Audit Trails and AI Transparency - Regulatory Compliance under the EU AI Act\nThis video provides an in-depth academic analysis of the research paper by Mara Grivokostopoulou, Athanasios Davalas, and Maria Tsiogka. The study explores the critical role of audit trails in ensuring transparency, traceability, and accountability for high-risk artificial intelligence systems under the European Union AI Act,. It is highly relevant for researchers, legal scholars, compliance officers, and IT professiona\u2026",
+      "text": "Audit Trails and AI Transparency - Regulatory Compliance under the EU AI Act\nThis video provides an in-depth academic analysis of the research paper by Mara Grivokostopoulou, Athanasios Davalas, and Maria Tsiogka. The study explores the critical role of audit trails in ensuring transparency, traceability, and accountability for high-risk artificial intelligence systems under the European Union AI Act,. It is highly relevant for researchers, legal scholars, compliance officers, and IT professiona…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Audit Trails and AI Transparency - Regulatory Compliance under the EU AI Act\nThi\u2026",
+          "title": "Audit Trails and AI Transparency - Regulatory Compliance under the EU AI Act\nThi…",
           "url": "https://www.youtube.com/watch?v=tiDTHaytcRQ",
           "date": "2026-03-22",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1186,13 +1136,13 @@
     },
     {
       "id": "l556",
-      "text": "The AI Farm: AI Tools That Actually Work\nAI is already reshaping agriculture \u2014 and the farms pulling ahead aren't waiting to figure it out.\n\nIn this live session, Dan Aberhart sits down with three of the heaviest AI power users in Canadian agriculture to break down exactly how they're using artificial intelligence right now, on the farm, in the office, and across their operations.\n\nFrom perplexity as your first AI tool, to building a fully integrated farm dashboard in under 15 minutes using Clau\u2026",
+      "text": "The AI Farm: AI Tools That Actually Work\nAI is already reshaping agriculture — and the farms pulling ahead aren't waiting to figure it out.\n\nIn this live session, Dan Aberhart sits down with three of the heaviest AI power users in Canadian agriculture to break down exactly how they're using artificial intelligence right now, on the farm, in the office, and across their operations.\n\nFrom perplexity as your first AI tool, to building a fully integrated farm dashboard in under 15 minutes using Clau…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The AI Farm: AI Tools That Actually Work\nAI is already reshaping agriculture \u2014 a\u2026",
+          "title": "The AI Farm: AI Tools That Actually Work\nAI is already reshaping agriculture — a…",
           "url": "https://www.youtube.com/watch?v=OT3lrW2NHYY",
           "date": "2026-04-08",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1207,13 +1157,13 @@
     },
     {
       "id": "l557",
-      "text": "Stopping AI Diversion Through Shell Companies\nAre your trade compliance screening protocols built to detect hidden corporate layers?\n\nIn this session, we break down how adversaries leverage complex corporate networks, opaque ownership tiers, and shell companies to illegally bypass strict export controls on advanced artificial intelligence. Specifically, we unpack the Bureau of Industry and Security\u2019s (BIS) expanded end-user controls\u2014popularly known as the BIS 50% Affiliates Rule\u2014which completely\u2026",
+      "text": "Stopping AI Diversion Through Shell Companies\nAre your trade compliance screening protocols built to detect hidden corporate layers?\n\nIn this session, we break down how adversaries leverage complex corporate networks, opaque ownership tiers, and shell companies to illegally bypass strict export controls on advanced artificial intelligence. Specifically, we unpack the Bureau of Industry and Security’s (BIS) expanded end-user controls—popularly known as the BIS 50% Affiliates Rule—which completely…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Stopping AI Diversion Through Shell Companies\nAre your trade compliance screenin\u2026",
+          "title": "Stopping AI Diversion Through Shell Companies\nAre your trade compliance screenin…",
           "url": "https://www.youtube.com/watch?v=PxIbsJObwaI",
           "date": "2026-06-16",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1284,6 +1234,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

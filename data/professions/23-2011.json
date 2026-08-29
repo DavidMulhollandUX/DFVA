@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "23-2011-01",
-      "text": "National peak professional bodies and statutory regulators governing Paralegals and Legal Assistants enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Paralegals and Legal Assistants",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Paralegals and Legal Assistants",
-          "url": "https://www.psc.gov.au/standards/23-2011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Paralegals and Legal Assistants"
-        }
-      ],
-      "scope": "Australian practitioners in Paralegals and Legal Assistants across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "23-2011-02",
-      "text": "Automation of routine transactional and analytical tasks in Paralegals and Legal Assistants heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Paralegals and Legal Assistants",
-          "url": "https://www.jobsandskills.gov.au/research/23-2011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Paralegals and Legal Assistants in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Paralegals and Legal Assistants roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "[FEATURE] Vorlagenplatzhalter f\u00fcr Stammdaten des Aktenanwalts\n# Vorlagenplatzhalter f\u00fcr Stammdaten des Aktenanwalts\n\n## Ausgangslage\n\nIn Dokumentvorlagen stehen derzeit f\u00fcr den verantwortlichen Anwalt der Akte u.a. folgende Platzhalter zur Verf\u00fcgung:\n\n- `{{AKTE_ANWALT}}`\n- `{{AKTE_ANWALT_AN}}`\n- `{{AKTE_ANWALT_KRZ}}`\n\nF\u00fcr den angemeldeten Nutzer gibt es zus\u00e4tz\nL\u00f6st denn nicht {{AKTE_ANWALT}} genau das? Den Platzhalter haben wir in den Schrifts\u00e4tzen und das funktioniert tadellos in Kombination mi\u2026",
+      "text": "[FEATURE] Vorlagenplatzhalter für Stammdaten des Aktenanwalts\n# Vorlagenplatzhalter für Stammdaten des Aktenanwalts\n\n## Ausgangslage\n\nIn Dokumentvorlagen stehen derzeit für den verantwortlichen Anwalt der Akte u.a. folgende Platzhalter zur Verfügung:\n\n- `{{AKTE_ANWALT}}`\n- `{{AKTE_ANWALT_AN}}`\n- `{{AKTE_ANWALT_KRZ}}`\n\nFür den angemeldeten Nutzer gibt es zusätz\nLöst denn nicht {{AKTE_ANWALT}} genau das? Den Platzhalter haben wir in den Schriftsätzen und das funktioniert tadellos in Kombination mi…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[FEATURE] Vorlagenplatzhalter f\u00fcr Stammdaten des Aktenanwalts\n# Vorlagenplatzhal\u2026",
+          "title": "[FEATURE] Vorlagenplatzhalter für Stammdaten des Aktenanwalts\n# Vorlagenplatzhal…",
           "url": "https://github.com/jlawyerorg/j-lawyer-org/issues/3405",
           "date": "2026-05-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -86,13 +36,13 @@
     },
     {
       "id": "l504",
-      "text": "Me4g3 cook book\nFits. Here's the read:\r\n\r\nThis is a Claude Code plugin \u2014 CLAUDE.md is the behavior contract that tells Claude Code when to run tests, what the project structure is, and how to handle edge cases automatically. It's not a general-purpose tool, it's a session-start intelligence layer.\r\n\r\nFor SOL\u2122, this\nCheck out this pull request on&nbsp; <a href=\"https://app.reviewnb.com/google-gemini/cookbook/pull/1191\"><img align=\"absmiddle\"  alt=\"ReviewNB\" height=\"30\" class=\"BotMessageButtonImag\u2026",
+      "text": "Me4g3 cook book\nFits. Here's the read:\r\n\r\nThis is a Claude Code plugin — CLAUDE.md is the behavior contract that tells Claude Code when to run tests, what the project structure is, and how to handle edge cases automatically. It's not a general-purpose tool, it's a session-start intelligence layer.\r\n\r\nFor SOL™, this\nCheck out this pull request on&nbsp; <a href=\"https://app.reviewnb.com/google-gemini/cookbook/pull/1191\"><img align=\"absmiddle\"  alt=\"ReviewNB\" height=\"30\" class=\"BotMessageButtonImag…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Me4g3 cook book\nFits. Here's the read:\r\n\r\nThis is a Claude Code plugin \u2014 CLAUDE.\u2026",
+          "title": "Me4g3 cook book\nFits. Here's the read:\r\n\r\nThis is a Claude Code plugin — CLAUDE.…",
           "url": "https://github.com/google-gemini/cookbook/pull/1191",
           "date": "2026-04-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -317,13 +267,13 @@
     },
     {
       "id": "l515",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -401,13 +351,13 @@
     },
     {
       "id": "l519",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -422,13 +372,13 @@
     },
     {
       "id": "l520",
-      "text": "Launch HN: Traceforce (YC S26) \u2013 Company-wide security monitoring for AI apps",
+      "text": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Launch HN: Traceforce (YC S26) \u2013 Company-wide security monitoring for AI apps",
+          "title": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
           "url": "https://news.ycombinator.com/item?id=48937020",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -506,13 +456,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -548,13 +498,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "DoorDash AI refused to refund my misdelivered Taco Bell, but wrote a sad poem, drafted a legal complaint against itself, and told me to visit a food bank.\ndelivery driver dropped my food at a random house that was not my address. Door dash support denied my refund and dumped me on the AI. The Doordash AI chat bot didn&#39;t help me with my undelivered order, instead it Admitted dropping food at the wrong house is NOT a delivery Wrote a 4-line poem about my cold burrito offered to write me a movi\u2026",
+      "text": "DoorDash AI refused to refund my misdelivered Taco Bell, but wrote a sad poem, drafted a legal complaint against itself, and told me to visit a food bank.\ndelivery driver dropped my food at a random house that was not my address. Door dash support denied my refund and dumped me on the AI. The Doordash AI chat bot didn&#39;t help me with my undelivered order, instead it Admitted dropping food at the wrong house is NOT a delivery Wrote a 4-line poem about my cold burrito offered to write me a movi…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "DoorDash AI refused to refund my misdelivered Taco Bell, but wrote a sad poem, d\u2026",
+          "title": "DoorDash AI refused to refund my misdelivered Taco Bell, but wrote a sad poem, d…",
           "url": "https://www.reddit.com/r/doordash/comments/1vhv0dk/doordash_ai_refused_to_refund_my_misdelivered/",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "what should an ai legal assistant include for deposition outline?\n2nd yr associate at a small litigation shop, about eight attorneys. My outlines have always just been a running list of questions loosely grouped by topic. I\u2019ve noticed a couple of partners here structure theirs pretty differently, more around what they need to establish with each witness rather than following a strict order. What\u2019s really in yours? &#32; submitted by &#32; /u/Fickle_Decision_3994 &#32; to &#32; r/LAW_abidingcitiz\u2026",
+      "text": "what should an ai legal assistant include for deposition outline?\n2nd yr associate at a small litigation shop, about eight attorneys. My outlines have always just been a running list of questions loosely grouped by topic. I’ve noticed a couple of partners here structure theirs pretty differently, more around what they need to establish with each witness rather than following a strict order. What’s really in yours? &#32; submitted by &#32; /u/Fickle_Decision_3994 &#32; to &#32; r/LAW_abidingcitiz…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "what should an ai legal assistant include for deposition outline?\n2nd yr associa\u2026",
+          "title": "what should an ai legal assistant include for deposition outline?\n2nd yr associa…",
           "url": "https://www.reddit.com/r/LAW_abidingcitizens/comments/1vsftgx/what_should_an_ai_legal_assistant_include_for/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "For legal reasons, my meetings can't use cloud APIs, so I built a self-hosted Otter.ai alternative... and it got a little out of hand (open source, GPU, offline, speaker-labeled minutes)\nThe problem: meeting recordings that are not allowed anywhere near a cloud service. The market&#39;s answer is basically &quot;have you tried trusting us?&quot; So I started building TranscrIA, a web portal where you drop a meeting recording and get back speaker-labeled transcripts, a summary, and actual Word mi\u2026",
+      "text": "For legal reasons, my meetings can't use cloud APIs, so I built a self-hosted Otter.ai alternative... and it got a little out of hand (open source, GPU, offline, speaker-labeled minutes)\nThe problem: meeting recordings that are not allowed anywhere near a cloud service. The market&#39;s answer is basically &quot;have you tried trusting us?&quot; So I started building TranscrIA, a web portal where you drop a meeting recording and get back speaker-labeled transcripts, a summary, and actual Word mi…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "For legal reasons, my meetings can't use cloud APIs, so I built a self-hosted Ot\u2026",
+          "title": "For legal reasons, my meetings can't use cloud APIs, so I built a self-hosted Ot…",
           "url": "https://www.reddit.com/r/selfhosted/comments/1vp1t09/for_legal_reasons_my_meetings_cant_use_cloud_apis/",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -674,13 +624,13 @@
     },
     {
       "id": "l532",
-      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif\u2026",
+      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Traini\u2026",
+          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Traini…",
           "url": "https://www.reddit.com/r/ClinicalLegalField/comments/1vkdimx/thinking_about_becoming_a_legal_nurse_consultant/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -695,13 +645,13 @@
     },
     {
       "id": "l533",
-      "text": "Is an ai legal assistant worth it for deposition prep at small firms?\nThree attorneys, mostly PI. were at the volume now where manual outline building is genuinely slowing cases down, which is new for us. looked at a couple AI deposition prep tools but im hesitant about subscription pricing for something we&#39;d use unevenly month to month. some months weve got four depositions, some months none. anyone running one of these at a firm our size, and did the pricing actually make sense for you? &#\u2026",
+      "text": "Is an ai legal assistant worth it for deposition prep at small firms?\nThree attorneys, mostly PI. were at the volume now where manual outline building is genuinely slowing cases down, which is new for us. looked at a couple AI deposition prep tools but im hesitant about subscription pricing for something we&#39;d use unevenly month to month. some months weve got four depositions, some months none. anyone running one of these at a firm our size, and did the pricing actually make sense for you? &#…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Is an ai legal assistant worth it for deposition prep at small firms?\nThree atto\u2026",
+          "title": "Is an ai legal assistant worth it for deposition prep at small firms?\nThree atto…",
           "url": "https://www.reddit.com/r/LAW_abidingcitizens/comments/1vzwgdn/is_an_ai_legal_assistant_worth_it_for_deposition/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "How friendly are you with opposing counsel\u2019s paralegals/legal assistants?\nFor context, I live in the Southern United States, and those of you who also live here probably understand why that feels relevant, lol. Lately, I\u2019ve had several cases requiring a lot of communication with opposing counsel\u2019s support staff. One case involving multiple parties and attorneys has really shown me how differently paralegals and legal assistants treat each other. I understand keeping things strictly professional,\u2026",
+      "text": "How friendly are you with opposing counsel’s paralegals/legal assistants?\nFor context, I live in the Southern United States, and those of you who also live here probably understand why that feels relevant, lol. Lately, I’ve had several cases requiring a lot of communication with opposing counsel’s support staff. One case involving multiple parties and attorneys has really shown me how differently paralegals and legal assistants treat each other. I understand keeping things strictly professional,…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "How friendly are you with opposing counsel\u2019s paralegals/legal assistants?\nFor co\u2026",
+          "title": "How friendly are you with opposing counsel’s paralegals/legal assistants?\nFor co…",
           "url": "https://www.reddit.com/r/paralegal/comments/1vfnril/how_friendly_are_you_with_opposing_counsels/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -743,7 +693,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@JakobSpeeder Feels like handreg is underestimated. \n\nI like this domain and am \u2026",
+          "title": "@JakobSpeeder Feels like handreg is underestimated. \n\nI like this domain and am …",
           "url": "https://x.com/domainoor/status/2092141726404133028",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -758,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "\ud83d\udcbc Work\n\nJobs are disappearing faster than it seems, especially for young people.\n\nThe essay cites specific research showing that employment fell by 16% among 22\u201325-year-olds in professions affected by AI.\n\nDevelopers, legal assistants, hospitality workers, and even construction workers are at risk. Gates predicts that the automation of physical labor could begin by the end of this decade.\n\nAnd it is already happening. There are so many robot cleaners and delivery robots taking over jobs that it",
+      "text": "💼 Work\n\nJobs are disappearing faster than it seems, especially for young people.\n\nThe essay cites specific research showing that employment fell by 16% among 22–25-year-olds in professions affected by AI.\n\nDevelopers, legal assistants, hospitality workers, and even construction workers are at risk. Gates predicts that the automation of physical labor could begin by the end of this decade.\n\nAnd it is already happening. There are so many robot cleaners and delivery robots taking over jobs that it",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udcbc Work\n\nJobs are disappearing faster than it seems, especially for young people.\u2026",
+          "title": "💼 Work\n\nJobs are disappearing faster than it seems, especially for young people.…",
           "url": "https://x.com/metter00/status/2093468618969194623",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -785,7 +735,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI agents can function as research analysts, financial advisors, software develo\u2026",
+          "title": "AI agents can function as research analysts, financial advisors, software develo…",
           "url": "https://x.com/mikeike99/status/2092769813181378575",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "In the latest episode of Axios\u2019 Behind the Curtain, Nvidia CEO Jensen Huang sat down with Axios co-founder Mike Allen to discuss the direction of the AI revolution \ud83d\udd25\n\nThe conversation matters because Nvidia sits at the center of AI\u2019s computing ecosystem, giving Huang unusual insight into its technical progress and economic demands. His message cuts sharply against conventional wisdom: AI will create jobs, Chinese open models should be embraced, and the massive infrastructure buildout has barely",
+      "text": "In the latest episode of Axios’ Behind the Curtain, Nvidia CEO Jensen Huang sat down with Axios co-founder Mike Allen to discuss the direction of the AI revolution 🔥\n\nThe conversation matters because Nvidia sits at the center of AI’s computing ecosystem, giving Huang unusual insight into its technical progress and economic demands. His message cuts sharply against conventional wisdom: AI will create jobs, Chinese open models should be embraced, and the massive infrastructure buildout has barely",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "In the latest episode of Axios\u2019 Behind the Curtain, Nvidia CEO Jensen Huang sat \u2026",
+          "title": "In the latest episode of Axios’ Behind the Curtain, Nvidia CEO Jensen Huang sat …",
           "url": "https://x.com/tslaming/status/2080458508538204320",
           "date": "2026-07-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "I\u2019ll never forget when, at the very last minute, my professor at @nyuniversity  changed our written final into an oral exam.\n\nIt looked like a small change. But to me, it represented something much bigger: a genuinely AI-native shift in how we evaluate human.\n\nA few days ago, we, @EmergencesLabs, hosted a 100+ people event with @Valley101en. I joined a fireside chat with @BharatKChandar & Paul Marca, and we found ourselves discussing the same question, except this time, beyond the classroom.\n\nWh",
+      "text": "I’ll never forget when, at the very last minute, my professor at @nyuniversity  changed our written final into an oral exam.\n\nIt looked like a small change. But to me, it represented something much bigger: a genuinely AI-native shift in how we evaluate human.\n\nA few days ago, we, @EmergencesLabs, hosted a 100+ people event with @Valley101en. I joined a fireside chat with @BharatKChandar & Paul Marca, and we found ourselves discussing the same question, except this time, beyond the classroom.\n\nWh",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I\u2019ll never forget when, at the very last minute, my professor at @nyuniversity  \u2026",
+          "title": "I’ll never forget when, at the very last minute, my professor at @nyuniversity  …",
           "url": "https://x.com/KolentoH/status/2092447506798108846",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "\u274c Everyone says AI will make us all generalists. I actually think the opposite is happening. AI commoditizes breadth.\n\nLast week, we hosted a private discussion on AI-Native Talent Playbook together with @FoothillVenture  and @sequoiaTPI, bringing together executives, HR leaders and Chief People Officers to discuss how AI is reshaping occupations, tasks, and skills.\n\nWhat becomes scarce instead is the combination of deep domain expertise and the judgment to direct AI well.\n\n\u2705 In other words, the",
+      "text": "❌ Everyone says AI will make us all generalists. I actually think the opposite is happening. AI commoditizes breadth.\n\nLast week, we hosted a private discussion on AI-Native Talent Playbook together with @FoothillVenture  and @sequoiaTPI, bringing together executives, HR leaders and Chief People Officers to discuss how AI is reshaping occupations, tasks, and skills.\n\nWhat becomes scarce instead is the combination of deep domain expertise and the judgment to direct AI well.\n\n✅ In other words, the",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u274c Everyone says AI will make us all generalists. I actually think the opposite i\u2026",
+          "title": "❌ Everyone says AI will make us all generalists. I actually think the opposite i…",
           "url": "https://x.com/KolentoH/status/2083777565765062702",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -890,7 +840,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "As AI takes over an increasing share of material production, human life may grad\u2026",
+          "title": "As AI takes over an increasing share of material production, human life may grad…",
           "url": "https://x.com/KolentoH/status/2078415396689052030",
           "date": "2026-07-18",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "\ud83d\udea8 Bill Gates published a new essay on AI today \u2014 the first in a series. And his warning is much darker than the usual Silicon Valley optimism.\n\nGates says AI could become either the greatest equalizer in human history or one of the greatest engines of inequality. Even under the best circumstances, the transition could be one of the most turbulent periods humanity has ever experienced. And we are not prepared.\n\nPeople underestimate AI because today's models still make mistakes and because we keep",
+      "text": "🚨 Bill Gates published a new essay on AI today — the first in a series. And his warning is much darker than the usual Silicon Valley optimism.\n\nGates says AI could become either the greatest equalizer in human history or one of the greatest engines of inequality. Even under the best circumstances, the transition could be one of the most turbulent periods humanity has ever experienced. And we are not prepared.\n\nPeople underestimate AI because today's models still make mistakes and because we keep",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8 Bill Gates published a new essay on AI today \u2014 the first in a series. And his \u2026",
+          "title": "🚨 Bill Gates published a new essay on AI today — the first in a series. And his …",
           "url": "https://x.com/Oct7NeverForget/status/2092557755248751026",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -932,7 +882,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@MsKrispanis @AliveandEnabled Customer Service Supervisors (without hiring/firin\u2026",
+          "title": "@MsKrispanis @AliveandEnabled Customer Service Supervisors (without hiring/firin…",
           "url": "https://x.com/1StarAtaTyme/status/2092748681761992980",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "\ud83d\udea8 New Endgame episode!\n\nDespite Chinese AI models going mainstream, @diogomonica explains why he thinks America's taking the right approach to technology \ud83c\uddfa\ud83c\uddf8 https://t.co/PFFYQ4O3aV",
+      "text": "🚨 New Endgame episode!\n\nDespite Chinese AI models going mainstream, @diogomonica explains why he thinks America's taking the right approach to technology 🇺🇸 https://t.co/PFFYQ4O3aV",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8 New Endgame episode!\n\nDespite Chinese AI models going mainstream, @diogomonica\u2026",
+          "title": "🚨 New Endgame episode!\n\nDespite Chinese AI models going mainstream, @diogomonica…",
           "url": "https://x.com/serotonin_hq/status/2079996816423276928",
           "date": "2026-07-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -995,7 +945,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Thanks to @ARTIFACTfutures for the invitation, and to @LDNTechWeek  and @ElevenL\u2026",
+          "title": "Thanks to @ARTIFACTfutures for the invitation, and to @LDNTechWeek  and @ElevenL…",
           "url": "https://x.com/KolentoH/status/2071007684049191166",
           "date": "2026-06-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1058,7 +1008,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The Ouroboros of Legal Practice & AI: Why Better Law Firms Should Cost Less, Not\u2026",
+          "title": "The Ouroboros of Legal Practice & AI: Why Better Law Firms Should Cost Less, Not…",
           "url": "https://x.com/ImmutableLawyer/status/2028980979528818821",
           "date": "2026-03-03",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1073,13 +1023,13 @@
     },
     {
       "id": "l551",
-      "text": "How AI is Replacing Attorney Jobs\nAI is replacing legal jobs at a breakneck pace. \n\nGet updated:  https://www.aiupdate.ai\n\nSweden\u2019s Legora just raised $550M at a $5.5B valuation to supercharge legal automation, and junior attorneys, paralegals, and even law students are directly in the crosshairs.\n\nToday i will expose how AI tools like Legora are automating everything from contract analysis and legal research to drafting memos and litigation support. \n\nI will break down why expensive degrees and\u2026",
+      "text": "How AI is Replacing Attorney Jobs\nAI is replacing legal jobs at a breakneck pace. \n\nGet updated:  https://www.aiupdate.ai\n\nSweden’s Legora just raised $550M at a $5.5B valuation to supercharge legal automation, and junior attorneys, paralegals, and even law students are directly in the crosshairs.\n\nToday i will expose how AI tools like Legora are automating everything from contract analysis and legal research to drafting memos and litigation support. \n\nI will break down why expensive degrees and…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI is Replacing Attorney Jobs\nAI is replacing legal jobs at a breakneck pace\u2026",
+          "title": "How AI is Replacing Attorney Jobs\nAI is replacing legal jobs at a breakneck pace…",
           "url": "https://www.youtube.com/watch?v=z7fC2z02d4c",
           "date": "2026-03-10",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1094,13 +1044,13 @@
     },
     {
       "id": "l552",
-      "text": "Why AI Innovation Doesn\u2019t Work: And How Solo and Small Law Firms Will Succeed [Webinar]\nA decade ago, Klaus Schwab, executive director of the World Economic Forum, predicted that the pace of change would be our greatest innovation challenge. Safe to say he was right. While AI labs probably won\u2019t be slowing down any time soon, you can and should avoid self-inflicted problems.\n\nJoin us to discover:\n\n- What it means to innovate\n- What today\u2019s AI is and does\n- Why AI innovation doesn\u2019t work\n- How so\u2026",
+      "text": "Why AI Innovation Doesn’t Work: And How Solo and Small Law Firms Will Succeed [Webinar]\nA decade ago, Klaus Schwab, executive director of the World Economic Forum, predicted that the pace of change would be our greatest innovation challenge. Safe to say he was right. While AI labs probably won’t be slowing down any time soon, you can and should avoid self-inflicted problems.\n\nJoin us to discover:\n\n- What it means to innovate\n- What today’s AI is and does\n- Why AI innovation doesn’t work\n- How so…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Why AI Innovation Doesn\u2019t Work: And How Solo and Small Law Firms Will Succeed [W\u2026",
+          "title": "Why AI Innovation Doesn’t Work: And How Solo and Small Law Firms Will Succeed [W…",
           "url": "https://www.youtube.com/watch?v=_jFitvAKSNo",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1115,13 +1065,13 @@
     },
     {
       "id": "l453",
-      "text": "Paralegal/Legal Assistant Roles \u2013 Expression of Interest \u2014 QLD Estate Lawyers (Brisbane, Queensland, Australia). Posted 1 month ago.",
+      "text": "Paralegal/Legal Assistant Roles – Expression of Interest — QLD Estate Lawyers (Brisbane, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
           "publisher": "QLD Estate Lawyers",
-          "title": "Paralegal/Legal Assistant Roles \u2013 Expression of Interest",
+          "title": "Paralegal/Legal Assistant Roles – Expression of Interest",
           "url": "https://www.linkedin.com/jobs/view/4443523719",
           "date": "1 month ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
@@ -1136,7 +1086,7 @@
     },
     {
       "id": "l454",
-      "text": "Paralegal \u2014 Gatehouse Legal Recruitment (Greater Melbourne Area). Posted 2 days ago.",
+      "text": "Paralegal — Gatehouse Legal Recruitment (Greater Melbourne Area). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1157,7 +1107,7 @@
     },
     {
       "id": "l455",
-      "text": "Senior Paralegal \u2014 Cox Purtell Staffing Services (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Senior Paralegal — Cox Purtell Staffing Services (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1178,7 +1128,7 @@
     },
     {
       "id": "l456",
-      "text": "Paralegal \u2014 Hicksons Lawyers (Barangaroo, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Paralegal — Hicksons Lawyers (Barangaroo, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1199,7 +1149,7 @@
     },
     {
       "id": "l457",
-      "text": "Paralegal / Legal Assistant (Personal Injury) - Join a Leading National Law Firm \u2014 Longton Blackwell (Sydney, New South Wales, Australia). Posted 6 months ago.",
+      "text": "Paralegal / Legal Assistant (Personal Injury) - Join a Leading National Law Firm — Longton Blackwell (Sydney, New South Wales, Australia). Posted 6 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1220,7 +1170,7 @@
     },
     {
       "id": "l458",
-      "text": "Estates Paralegal Role \u2014 QLD Estate Lawyers (Brisbane, Queensland, Australia). Posted 1 month ago.",
+      "text": "Estates Paralegal Role — QLD Estate Lawyers (Brisbane, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1241,7 +1191,7 @@
     },
     {
       "id": "l459",
-      "text": "Paralegal \u2014 Tanner Menzies (Mascot, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Paralegal — Tanner Menzies (Mascot, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1262,7 +1212,7 @@
     },
     {
       "id": "l460",
-      "text": "Real Estate Paralegal \u2014 MJD Recruitment (Greater Brisbane Area). Posted 1 week ago.",
+      "text": "Real Estate Paralegal — MJD Recruitment (Greater Brisbane Area). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1283,7 +1233,7 @@
     },
     {
       "id": "l461",
-      "text": "Legal Assistant Paralegal \u2014 MJD Recruitment (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
+      "text": "Legal Assistant Paralegal — MJD Recruitment (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1304,7 +1254,7 @@
     },
     {
       "id": "l462",
-      "text": "Legal Assistant / Senior Legal Assistant (Asbestos & Dust Diseases QLD) \u2014 Maurice Blackburn Lawyers (Brisbane, Queensland, Australia). Posted 6 days ago.",
+      "text": "Legal Assistant / Senior Legal Assistant (Asbestos & Dust Diseases QLD) — Maurice Blackburn Lawyers (Brisbane, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1325,13 +1275,13 @@
     },
     {
       "id": "l563",
-      "text": "[FEATURE] Vorlagenplatzhalter f\u00fcr Stammdaten des Aktenanwalts\n# Vorlagenplatzhalter f\u00fcr Stammdaten des Aktenanwalts\n\n## Ausgangslage\n\nIn Dokumentvorlagen stehen derzeit f\u00fcr den verantwortlichen Anwalt der Akte u.a. folgende Platzhalter zur Verf\u00fcgung:\n\n- `{{AKTE_ANWALT}}`\n- `{{AKTE_ANWALT_AN}}`\n- `{{AKTE_ANWALT_KRZ}}`\n\nF\u00fcr den angemeldeten Nutzer gibt es zus\u00e4tz\nL\u00f6st denn nicht {{AKTE_ANWALT}} genau das? Den Platzhalter haben wir in den Schrifts\u00e4tzen und das funktioniert tadellos in Kombination mi\u2026",
+      "text": "[FEATURE] Vorlagenplatzhalter für Stammdaten des Aktenanwalts\n# Vorlagenplatzhalter für Stammdaten des Aktenanwalts\n\n## Ausgangslage\n\nIn Dokumentvorlagen stehen derzeit für den verantwortlichen Anwalt der Akte u.a. folgende Platzhalter zur Verfügung:\n\n- `{{AKTE_ANWALT}}`\n- `{{AKTE_ANWALT_AN}}`\n- `{{AKTE_ANWALT_KRZ}}`\n\nFür den angemeldeten Nutzer gibt es zusätz\nLöst denn nicht {{AKTE_ANWALT}} genau das? Den Platzhalter haben wir in den Schriftsätzen und das funktioniert tadellos in Kombination mi…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[FEATURE] Vorlagenplatzhalter f\u00fcr Stammdaten des Aktenanwalts\n# Vorlagenplatzhal\u2026",
+          "title": "[FEATURE] Vorlagenplatzhalter für Stammdaten des Aktenanwalts\n# Vorlagenplatzhal…",
           "url": "https://github.com/jlawyerorg/j-lawyer-org/issues/3405",
           "date": "2026-05-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1346,13 +1296,13 @@
     },
     {
       "id": "l564",
-      "text": "Me4g3 cook book\nFits. Here's the read:\r\n\r\nThis is a Claude Code plugin \u2014 CLAUDE.md is the behavior contract that tells Claude Code when to run tests, what the project structure is, and how to handle edge cases automatically. It's not a general-purpose tool, it's a session-start intelligence layer.\r\n\r\nFor SOL\u2122, this\nCheck out this pull request on&nbsp; <a href=\"https://app.reviewnb.com/google-gemini/cookbook/pull/1191\"><img align=\"absmiddle\"  alt=\"ReviewNB\" height=\"30\" class=\"BotMessageButtonImag\u2026",
+      "text": "Me4g3 cook book\nFits. Here's the read:\r\n\r\nThis is a Claude Code plugin — CLAUDE.md is the behavior contract that tells Claude Code when to run tests, what the project structure is, and how to handle edge cases automatically. It's not a general-purpose tool, it's a session-start intelligence layer.\r\n\r\nFor SOL™, this\nCheck out this pull request on&nbsp; <a href=\"https://app.reviewnb.com/google-gemini/cookbook/pull/1191\"><img align=\"absmiddle\"  alt=\"ReviewNB\" height=\"30\" class=\"BotMessageButtonImag…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Me4g3 cook book\nFits. Here's the read:\r\n\r\nThis is a Claude Code plugin \u2014 CLAUDE.\u2026",
+          "title": "Me4g3 cook book\nFits. Here's the read:\r\n\r\nThis is a Claude Code plugin — CLAUDE.…",
           "url": "https://github.com/google-gemini/cookbook/pull/1191",
           "date": "2026-04-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1367,13 +1317,13 @@
     },
     {
       "id": "l565",
-      "text": "DoorDash AI refused to refund my misdelivered Taco Bell, but wrote a sad poem, drafted a legal complaint against itself, and told me to visit a food bank.\ndelivery driver dropped my food at a random house that was not my address. Door dash support denied my refund and dumped me on the AI. The Doordash AI chat bot didn&#39;t help me with my undelivered order, instead it Admitted dropping food at the wrong house is NOT a delivery Wrote a 4-line poem about my cold burrito offered to write me a movi\u2026",
+      "text": "DoorDash AI refused to refund my misdelivered Taco Bell, but wrote a sad poem, drafted a legal complaint against itself, and told me to visit a food bank.\ndelivery driver dropped my food at a random house that was not my address. Door dash support denied my refund and dumped me on the AI. The Doordash AI chat bot didn&#39;t help me with my undelivered order, instead it Admitted dropping food at the wrong house is NOT a delivery Wrote a 4-line poem about my cold burrito offered to write me a movi…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "DoorDash AI refused to refund my misdelivered Taco Bell, but wrote a sad poem, d\u2026",
+          "title": "DoorDash AI refused to refund my misdelivered Taco Bell, but wrote a sad poem, d…",
           "url": "https://www.reddit.com/r/doordash/comments/1vhv0dk/doordash_ai_refused_to_refund_my_misdelivered/",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1388,13 +1338,13 @@
     },
     {
       "id": "l566",
-      "text": "what should an ai legal assistant include for deposition outline?\n2nd yr associate at a small litigation shop, about eight attorneys. My outlines have always just been a running list of questions loosely grouped by topic. I\u2019ve noticed a couple of partners here structure theirs pretty differently, more around what they need to establish with each witness rather than following a strict order. What\u2019s really in yours? &#32; submitted by &#32; /u/Fickle_Decision_3994 &#32; to &#32; r/LAW_abidingcitiz\u2026",
+      "text": "what should an ai legal assistant include for deposition outline?\n2nd yr associate at a small litigation shop, about eight attorneys. My outlines have always just been a running list of questions loosely grouped by topic. I’ve noticed a couple of partners here structure theirs pretty differently, more around what they need to establish with each witness rather than following a strict order. What’s really in yours? &#32; submitted by &#32; /u/Fickle_Decision_3994 &#32; to &#32; r/LAW_abidingcitiz…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "what should an ai legal assistant include for deposition outline?\n2nd yr associa\u2026",
+          "title": "what should an ai legal assistant include for deposition outline?\n2nd yr associa…",
           "url": "https://www.reddit.com/r/LAW_abidingcitizens/comments/1vsftgx/what_should_an_ai_legal_assistant_include_for/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1409,13 +1359,13 @@
     },
     {
       "id": "l567",
-      "text": "For legal reasons, my meetings can't use cloud APIs, so I built a self-hosted Otter.ai alternative... and it got a little out of hand (open source, GPU, offline, speaker-labeled minutes)\nThe problem: meeting recordings that are not allowed anywhere near a cloud service. The market&#39;s answer is basically &quot;have you tried trusting us?&quot; So I started building TranscrIA, a web portal where you drop a meeting recording and get back speaker-labeled transcripts, a summary, and actual Word mi\u2026",
+      "text": "For legal reasons, my meetings can't use cloud APIs, so I built a self-hosted Otter.ai alternative... and it got a little out of hand (open source, GPU, offline, speaker-labeled minutes)\nThe problem: meeting recordings that are not allowed anywhere near a cloud service. The market&#39;s answer is basically &quot;have you tried trusting us?&quot; So I started building TranscrIA, a web portal where you drop a meeting recording and get back speaker-labeled transcripts, a summary, and actual Word mi…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "For legal reasons, my meetings can't use cloud APIs, so I built a self-hosted Ot\u2026",
+          "title": "For legal reasons, my meetings can't use cloud APIs, so I built a self-hosted Ot…",
           "url": "https://www.reddit.com/r/selfhosted/comments/1vp1t09/for_legal_reasons_my_meetings_cant_use_cloud_apis/",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1430,13 +1380,13 @@
     },
     {
       "id": "l568",
-      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif\u2026",
+      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Traini\u2026",
+          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Traini…",
           "url": "https://www.reddit.com/r/ClinicalLegalField/comments/1vkdimx/thinking_about_becoming_a_legal_nurse_consultant/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1451,13 +1401,13 @@
     },
     {
       "id": "l569",
-      "text": "Is an ai legal assistant worth it for deposition prep at small firms?\nThree attorneys, mostly PI. were at the volume now where manual outline building is genuinely slowing cases down, which is new for us. looked at a couple AI deposition prep tools but im hesitant about subscription pricing for something we&#39;d use unevenly month to month. some months weve got four depositions, some months none. anyone running one of these at a firm our size, and did the pricing actually make sense for you? &#\u2026",
+      "text": "Is an ai legal assistant worth it for deposition prep at small firms?\nThree attorneys, mostly PI. were at the volume now where manual outline building is genuinely slowing cases down, which is new for us. looked at a couple AI deposition prep tools but im hesitant about subscription pricing for something we&#39;d use unevenly month to month. some months weve got four depositions, some months none. anyone running one of these at a firm our size, and did the pricing actually make sense for you? &#…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Is an ai legal assistant worth it for deposition prep at small firms?\nThree atto\u2026",
+          "title": "Is an ai legal assistant worth it for deposition prep at small firms?\nThree atto…",
           "url": "https://www.reddit.com/r/LAW_abidingcitizens/comments/1vzwgdn/is_an_ai_legal_assistant_worth_it_for_deposition/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1472,13 +1422,13 @@
     },
     {
       "id": "l570",
-      "text": "How friendly are you with opposing counsel\u2019s paralegals/legal assistants?\nFor context, I live in the Southern United States, and those of you who also live here probably understand why that feels relevant, lol. Lately, I\u2019ve had several cases requiring a lot of communication with opposing counsel\u2019s support staff. One case involving multiple parties and attorneys has really shown me how differently paralegals and legal assistants treat each other. I understand keeping things strictly professional,\u2026",
+      "text": "How friendly are you with opposing counsel’s paralegals/legal assistants?\nFor context, I live in the Southern United States, and those of you who also live here probably understand why that feels relevant, lol. Lately, I’ve had several cases requiring a lot of communication with opposing counsel’s support staff. One case involving multiple parties and attorneys has really shown me how differently paralegals and legal assistants treat each other. I understand keeping things strictly professional,…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "How friendly are you with opposing counsel\u2019s paralegals/legal assistants?\nFor co\u2026",
+          "title": "How friendly are you with opposing counsel’s paralegals/legal assistants?\nFor co…",
           "url": "https://www.reddit.com/r/paralegal/comments/1vfnril/how_friendly_are_you_with_opposing_counsels/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1493,13 +1443,13 @@
     },
     {
       "id": "l571",
-      "text": "How AI is Replacing Attorney Jobs\nAI is replacing legal jobs at a breakneck pace. \n\nGet updated:  https://www.aiupdate.ai\n\nSweden\u2019s Legora just raised $550M at a $5.5B valuation to supercharge legal automation, and junior attorneys, paralegals, and even law students are directly in the crosshairs.\n\nToday i will expose how AI tools like Legora are automating everything from contract analysis and legal research to drafting memos and litigation support. \n\nI will break down why expensive degrees and\u2026",
+      "text": "How AI is Replacing Attorney Jobs\nAI is replacing legal jobs at a breakneck pace. \n\nGet updated:  https://www.aiupdate.ai\n\nSweden’s Legora just raised $550M at a $5.5B valuation to supercharge legal automation, and junior attorneys, paralegals, and even law students are directly in the crosshairs.\n\nToday i will expose how AI tools like Legora are automating everything from contract analysis and legal research to drafting memos and litigation support. \n\nI will break down why expensive degrees and…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI is Replacing Attorney Jobs\nAI is replacing legal jobs at a breakneck pace\u2026",
+          "title": "How AI is Replacing Attorney Jobs\nAI is replacing legal jobs at a breakneck pace…",
           "url": "https://www.youtube.com/watch?v=z7fC2z02d4c",
           "date": "2026-03-10",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1514,13 +1464,13 @@
     },
     {
       "id": "l572",
-      "text": "Why AI Innovation Doesn\u2019t Work: And How Solo and Small Law Firms Will Succeed [Webinar]\nA decade ago, Klaus Schwab, executive director of the World Economic Forum, predicted that the pace of change would be our greatest innovation challenge. Safe to say he was right. While AI labs probably won\u2019t be slowing down any time soon, you can and should avoid self-inflicted problems.\n\nJoin us to discover:\n\n- What it means to innovate\n- What today\u2019s AI is and does\n- Why AI innovation doesn\u2019t work\n- How so\u2026",
+      "text": "Why AI Innovation Doesn’t Work: And How Solo and Small Law Firms Will Succeed [Webinar]\nA decade ago, Klaus Schwab, executive director of the World Economic Forum, predicted that the pace of change would be our greatest innovation challenge. Safe to say he was right. While AI labs probably won’t be slowing down any time soon, you can and should avoid self-inflicted problems.\n\nJoin us to discover:\n\n- What it means to innovate\n- What today’s AI is and does\n- Why AI innovation doesn’t work\n- How so…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Why AI Innovation Doesn\u2019t Work: And How Solo and Small Law Firms Will Succeed [W\u2026",
+          "title": "Why AI Innovation Doesn’t Work: And How Solo and Small Law Firms Will Succeed [W…",
           "url": "https://www.youtube.com/watch?v=_jFitvAKSNo",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1611,6 +1561,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

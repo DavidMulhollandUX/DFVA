@@ -14,58 +14,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "15-1152-01",
-      "text": "National peak professional bodies and statutory regulators governing Computer Network Support Specialists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Computer Network Support Specialists",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Computer Network Support Specialists",
-          "url": "https://www.psc.gov.au/standards/15-1152",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Computer Network Support Specialists"
-        }
-      ],
-      "scope": "Australian practitioners in Computer Network Support Specialists across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "15-1152-02",
-      "text": "Automation of routine transactional and analytical tasks in Computer Network Support Specialists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Computer Network Support Specialists",
-          "url": "https://www.jobsandskills.gov.au/research/15-1152",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Computer Network Support Specialists in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Computer Network Support Specialists roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Network Technical Specialist \u2014 Telstra (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
+      "text": "Network Technical Specialist — Telstra (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -86,7 +36,7 @@
     },
     {
       "id": "l404",
-      "text": "Network Support Officer \u2014 Department of Education, Western Australia (Greater Perth Area). Posted 1 day ago.",
+      "text": "Network Support Officer — Department of Education, Western Australia (Greater Perth Area). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -107,7 +57,7 @@
     },
     {
       "id": "l405",
-      "text": "Network Specialist \u2014 Fujitsu (Sydney, New South Wales, Australia). Posted 1 month ago.",
+      "text": "Network Specialist — Fujitsu (Sydney, New South Wales, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -128,7 +78,7 @@
     },
     {
       "id": "l406",
-      "text": "IT Support Engineer - Remote Operations & Connectivity \u2014 Fugro (Perth, Western Australia, Australia). Posted 1 week ago.",
+      "text": "IT Support Engineer - Remote Operations & Connectivity — Fugro (Perth, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -149,7 +99,7 @@
     },
     {
       "id": "l407",
-      "text": "Network & IT Systems Engineer \u2014 Andromeda (Southbank, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Network & IT Systems Engineer — Andromeda (Southbank, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -170,7 +120,7 @@
     },
     {
       "id": "l408",
-      "text": "Tier II Network Technician \u2014 Leidos (Alice Springs, Northern Territory, Australia). Posted 2 weeks ago.",
+      "text": "Tier II Network Technician — Leidos (Alice Springs, Northern Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -191,7 +141,7 @@
     },
     {
       "id": "l409",
-      "text": "Tier II Network Technician \u2014 Leidos Australia (Alice Springs, Northern Territory, Australia). Posted 2 weeks ago.",
+      "text": "Tier II Network Technician — Leidos Australia (Alice Springs, Northern Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -212,7 +162,7 @@
     },
     {
       "id": "l410",
-      "text": "Network Administrator \u2014 Country Fire Authority (CFA) (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "text": "Network Administrator — Country Fire Authority (CFA) (Melbourne, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -233,7 +183,7 @@
     },
     {
       "id": "l411",
-      "text": "Data Center Operation Technician \u2014 Amazon Web Services (AWS) (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "text": "Data Center Operation Technician — Amazon Web Services (AWS) (Melbourne, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -254,7 +204,7 @@
     },
     {
       "id": "l412",
-      "text": "IT Support Engineer - Deployment \u2014 Amazon (Kemps Creek, New South Wales, Australia). Posted 1 week ago.",
+      "text": "IT Support Engineer - Deployment — Amazon (Kemps Creek, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -275,13 +225,13 @@
     },
     {
       "id": "l513",
-      "text": "Daily Content Summary 2026-06-02\n# \ud83d\udcf0 Daily Content Summary - 2026-06-02\n### Executive Summary\n\n**Key Insights** reveal a paradoxical landscape where technological advancement simultaneously erodes and reinforces security. While Meta's AI support bot facilitated high-profile account takeovers by bypassing two-factor authentication t\n---\n### Articles Processed\n| \ud83d\udcd1 Article | \ud83d\udc64 Author | \ud83d\udcc4 Summary | \ud83c\udff7\ufe0f Tags |\n|---------|-----------|-----------|--------|\n| [\ud83d\udd17](https://www.0xsid.com/blog/meta-account-t\u2026",
+      "text": "Daily Content Summary 2026-06-02\n# 📰 Daily Content Summary - 2026-06-02\n### Executive Summary\n\n**Key Insights** reveal a paradoxical landscape where technological advancement simultaneously erodes and reinforces security. While Meta's AI support bot facilitated high-profile account takeovers by bypassing two-factor authentication t\n---\n### Articles Processed\n| 📑 Article | 👤 Author | 📄 Summary | 🏷️ Tags |\n|---------|-----------|-----------|--------|\n| [🔗](https://www.0xsid.com/blog/meta-account-t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Daily Content Summary 2026-06-02\n# \ud83d\udcf0 Daily Content Summary - 2026-06-02\n### Exec\u2026",
+          "title": "Daily Content Summary 2026-06-02\n# 📰 Daily Content Summary - 2026-06-02\n### Exec…",
           "url": "https://github.com/jhengy/content-aggregator/issues/506",
           "date": "2026-06-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -296,13 +246,13 @@
     },
     {
       "id": "l514",
-      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       \u2026",
+      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe \u2026",
+          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe …",
           "url": "https://github.com/rakib06/mini-github/issues/14",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -317,13 +267,13 @@
     },
     {
       "id": "l515",
-      "text": "\ud83c\udf10 Global Tech Briefing - 2026-03-11\n# \ud83c\udf10 Global Tech Intelligence Briefing - 2026-03-11\n**Date:** 2026-03-11\n**Generated At:** 08:22\n**Data Sources:** Hacker News, GitHub Trending, ArXiv\n\n---\n\n## \ud83d\udcf0 Hacker News (Top Stories)\n### 1. [Create value for others and don\u2019t worry about the returns](https://geohot.github.io//blog/jekyll/update/2\n\ud83d\udcc5 New report generated.",
+      "text": "🌐 Global Tech Briefing - 2026-03-11\n# 🌐 Global Tech Intelligence Briefing - 2026-03-11\n**Date:** 2026-03-11\n**Generated At:** 08:22\n**Data Sources:** Hacker News, GitHub Trending, ArXiv\n\n---\n\n## 📰 Hacker News (Top Stories)\n### 1. [Create value for others and don’t worry about the returns](https://geohot.github.io//blog/jekyll/update/2\n📅 New report generated.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83c\udf10 Global Tech Briefing - 2026-03-11\n# \ud83c\udf10 Global Tech Intelligence Briefing - 2026\u2026",
+          "title": "🌐 Global Tech Briefing - 2026-03-11\n# 🌐 Global Tech Intelligence Briefing - 2026…",
           "url": "https://github.com/AtomChen0425/Global_Trends/issues/23",
           "date": "2026-03-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -464,13 +414,13 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: peerd \u2013 AI agent harness that runs entirely in your browser",
+      "text": "Show HN: peerd – AI agent harness that runs entirely in your browser",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: peerd \u2013 AI agent harness that runs entirely in your browser",
+          "title": "Show HN: peerd – AI agent harness that runs entirely in your browser",
           "url": "https://github.com/NotASithLord/peerd",
           "date": "2026-06-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -485,13 +435,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -548,13 +498,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -569,13 +519,13 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -674,13 +624,13 @@
     },
     {
       "id": "l532",
-      "text": "Show HN: GSV \u2013 a personal AI computer that unifies your machines",
+      "text": "Show HN: GSV – a personal AI computer that unifies your machines",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: GSV \u2013 a personal AI computer that unifies your machines",
+          "title": "Show HN: GSV – a personal AI computer that unifies your machines",
           "url": "https://github.com/deathbyknowledge/gsv",
           "date": "2026-06-30",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -695,13 +645,13 @@
     },
     {
       "id": "l533",
-      "text": "Show HN: Tiny.Place \u2013 AI Social network for orchestration, payments & jobs",
+      "text": "Show HN: Tiny.Place – AI Social network for orchestration, payments & jobs",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Tiny.Place \u2013 AI Social network for orchestration, payments & jobs",
+          "title": "Show HN: Tiny.Place – AI Social network for orchestration, payments & jobs",
           "url": "https://github.com/tinyhumansai/tiny.place",
           "date": "2026-06-20",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "Strategic Predictive Analysis :::\nPi Network\u2019s Next Evolution: From Blockchain Nodes to a Distributed AI and Work Execution Infrastructure\n( https://t.co/690gQVtYyU )\n\n[[[ This article includes Predictive & Technical Analysis  and may differ from actual outcomes ]]]\n[[[ \u201cWhy OpenClaw and the Atlassian MCP Server Matter \u2014 Pi Desktop Is No Longer Just a Node Application\u201d ]]]\n[[[ \u201cTurning 420,000+ Pioneer Nodes from Blockchain Validators into a Global Distributed Production Infrastructure\u201d ]]]\n[[[",
+      "text": "Strategic Predictive Analysis :::\nPi Network’s Next Evolution: From Blockchain Nodes to a Distributed AI and Work Execution Infrastructure\n( https://t.co/690gQVtYyU )\n\n[[[ This article includes Predictive & Technical Analysis  and may differ from actual outcomes ]]]\n[[[ “Why OpenClaw and the Atlassian MCP Server Matter — Pi Desktop Is No Longer Just a Node Application” ]]]\n[[[ “Turning 420,000+ Pioneer Nodes from Blockchain Validators into a Global Distributed Production Infrastructure” ]]]\n[[[",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Strategic Predictive Analysis :::\nPi Network\u2019s Next Evolution: From Blockchain N\u2026",
+          "title": "Strategic Predictive Analysis :::\nPi Network’s Next Evolution: From Blockchain N…",
           "url": "https://x.com/applekhankorea/status/2093366647587565778",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\n\nCEOs used to brag about how many jobs AI could replace.\n\nNow the language is changing.\n\nInvestors want proof AI is saving money.\n\nWorkers do not want those savings to mean their job is gone.\n\nAnd the gap between AI hype and AI reality is getting harder to hide \ud83e\uddf5\ud83d\udc47\n\n2/16\n\nKlarna said its AI assistant was doing the work of 700 employees.\n\nSalesforce linked AI to a smaller support team.\n\nCoinbase cut around 700 roles w",
+      "text": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\n\nCEOs used to brag about how many jobs AI could replace.\n\nNow the language is changing.\n\nInvestors want proof AI is saving money.\n\nWorkers do not want those savings to mean their job is gone.\n\nAnd the gap between AI hype and AI reality is getting harder to hide 🧵👇\n\n2/16\n\nKlarna said its AI assistant was doing the work of 700 employees.\n\nSalesforce linked AI to a smaller support team.\n\nCoinbase cut around 700 roles w",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\u2026",
+          "title": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16…",
           "url": "https://x.com/msyed_/status/2093227435961565570",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -890,7 +840,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Grok Bot + Kimi K3: How to Build an AI System That Stops Waiting for Your Next P\u2026",
+          "title": "Grok Bot + Kimi K3: How to Build an AI System That Stops Waiting for Your Next P…",
           "url": "https://x.com/leopardracer/status/2093282462491091301",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -911,7 +861,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Nobody wants to admit their AI research is built on silent lies.\n\nSomeone ran a \u2026",
+          "title": "Nobody wants to admit their AI research is built on silent lies.\n\nSomeone ran a …",
           "url": "https://x.com/ridark_eth/status/2093466193516450278",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "@EdLudlow  Questions for Hugging Face :  \n 1. Agent swarms are a real attacker now. They persist, share loot, and chain bugs humans might miss. Don\u2019t assume a hack needs a human at the keyboard the whole time. \n2. One lock is not enough. Isolation, network, identity, and monitoring have to be independent. If one shared service is the only door, they will pick that lock. \n3. Keep testing your own walls with AI red teams, continuously. Configs rot. \n4. Alignment work has to cover research models,",
+      "text": "@EdLudlow  Questions for Hugging Face :  \n 1. Agent swarms are a real attacker now. They persist, share loot, and chain bugs humans might miss. Don’t assume a hack needs a human at the keyboard the whole time. \n2. One lock is not enough. Isolation, network, identity, and monitoring have to be independent. If one shared service is the only door, they will pick that lock. \n3. Keep testing your own walls with AI red teams, continuously. Configs rot. \n4. Alignment work has to cover research models,",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@EdLudlow  Questions for Hugging Face :  \n 1. Agent swarms are a real attacker n\u2026",
+          "title": "@EdLudlow  Questions for Hugging Face :  \n 1. Agent swarms are a real attacker n…",
           "url": "https://x.com/Brett_Gallie/status/2092965734439625158",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "I\u2019ve seen many many super clever people repeatedly do stupid things. \n\nI\u2019ve said it before and I\u2019ll say it again - the Age of Ai favours Objective neurodivergent minds, introverts with ADHD, OCD (but specifically those with common sense).\n\nAi being trained on mostly neuro typical produced input so it\u2019s not a surprise that the reasoning process is largely the same - I think that\u2019s why it frequently gets stuck in loops, just deeper and deeper into rabbit holes\u2026 eventually drifting to something not",
+      "text": "I’ve seen many many super clever people repeatedly do stupid things. \n\nI’ve said it before and I’ll say it again - the Age of Ai favours Objective neurodivergent minds, introverts with ADHD, OCD (but specifically those with common sense).\n\nAi being trained on mostly neuro typical produced input so it’s not a surprise that the reasoning process is largely the same - I think that’s why it frequently gets stuck in loops, just deeper and deeper into rabbit holes… eventually drifting to something not",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I\u2019ve seen many many super clever people repeatedly do stupid things. \n\nI\u2019ve said\u2026",
+          "title": "I’ve seen many many super clever people repeatedly do stupid things. \n\nI’ve said…",
           "url": "https://x.com/Ironic_Ape/status/2092894069852631164",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1031,13 +981,13 @@
     },
     {
       "id": "l549",
-      "text": "We launched Synapse. [ Read till end ]\n\nAnd instead of posting another \u201cwe\u2019re changing healthcare with AI\u201d thread, I want to share the questions people have been asking us.\n\nDoctors. Hospital owners. Founders. VCs. Customers.\n\nSome of them were uncomfortable.\n\nProbably the most useful questions we\u2019ve received.\n\n\u201cWhy would Apollo need you if OpenAI or Microsoft can give them models, servers, engineers and basically unlimited compute?\u201d\n\nFair.\n\nWe are not trying to build a better GPT.\n\nAnd we\u2019re no",
+      "text": "We launched Synapse. [ Read till end ]\n\nAnd instead of posting another “we’re changing healthcare with AI” thread, I want to share the questions people have been asking us.\n\nDoctors. Hospital owners. Founders. VCs. Customers.\n\nSome of them were uncomfortable.\n\nProbably the most useful questions we’ve received.\n\n“Why would Apollo need you if OpenAI or Microsoft can give them models, servers, engineers and basically unlimited compute?”\n\nFair.\n\nWe are not trying to build a better GPT.\n\nAnd we’re no",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "We launched Synapse. [ Read till end ]\n\nAnd instead of posting another \u201cwe\u2019re ch\u2026",
+          "title": "We launched Synapse. [ Read till end ]\n\nAnd instead of posting another “we’re ch…",
           "url": "https://x.com/KarthikNagpuri/status/2093567763801686429",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1157,13 +1107,13 @@
     },
     {
       "id": "l555",
-      "text": "Six months ago, Anthropic shipped Claude Cowork (Jan 12). Notably, it wasn\u2019t a new model. It was an agent for knowledge work.\n\nThen, on January 30th, Ant shipped 11 Cowork plugins (sales, legal, finance, support, etc) and Skills as markdown files.\n\nFour days later the S&P software index dropped 4%, wiping out over $285B in a day (ruh oh\u2026 that\u2019s a lot of \u201cchurn\u201d). By the end of that week, over $1T (yes, trillion) of software market cap evaporated. Jeffrey Favuzza said there was a \u201cget me out\u201d sty",
+      "text": "Six months ago, Anthropic shipped Claude Cowork (Jan 12). Notably, it wasn’t a new model. It was an agent for knowledge work.\n\nThen, on January 30th, Ant shipped 11 Cowork plugins (sales, legal, finance, support, etc) and Skills as markdown files.\n\nFour days later the S&P software index dropped 4%, wiping out over $285B in a day (ruh oh… that’s a lot of “churn”). By the end of that week, over $1T (yes, trillion) of software market cap evaporated. Jeffrey Favuzza said there was a “get me out” sty",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Six months ago, Anthropic shipped Claude Cowork (Jan 12). Notably, it wasn\u2019t a n\u2026",
+          "title": "Six months ago, Anthropic shipped Claude Cowork (Jan 12). Notably, it wasn’t a n…",
           "url": "https://x.com/brendanjshort/status/2093513116399042743",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1178,13 +1128,13 @@
     },
     {
       "id": "l556",
-      "text": "AI Made Simple \u2014 August 27, 2026",
+      "text": "AI Made Simple — August 27, 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Made Simple \u2014 August 27, 2026",
+          "title": "AI Made Simple — August 27, 2026",
           "url": "https://x.com/eltintero/status/2093012556243710067",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1199,13 +1149,13 @@
     },
     {
       "id": "l557",
-      "text": "AI NEWS: Week of August 24\u201330, 2026",
+      "text": "AI NEWS: Week of August 24–30, 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI NEWS: Week of August 24\u201330, 2026",
+          "title": "AI NEWS: Week of August 24–30, 2026",
           "url": "https://x.com/davidakpovi/status/2093287033800179758",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1220,13 +1170,13 @@
     },
     {
       "id": "l558",
-      "text": "The AI Era Macro Framework \u2014 Five Interlocking Threads",
+      "text": "The AI Era Macro Framework — Five Interlocking Threads",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The AI Era Macro Framework \u2014 Five Interlocking Threads",
+          "title": "The AI Era Macro Framework — Five Interlocking Threads",
           "url": "https://x.com/YakuIsLearning/status/2083861370873774201",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1241,13 +1191,13 @@
     },
     {
       "id": "l559",
-      "text": "\ud83d\udea8 \ud835\uddd4\ud835\udde8\ud835\uddda\ud835\udde8\ud835\udde6\ud835\udde7 \ud835\uddd7\ud835\udde2\ud835\udde2\ud835\udde5 \ud835\udddc\ud835\udde6 \ud835\uddd6\ud835\udddf\ud835\udde2\ud835\udde6\ud835\udddc\ud835\udde1\ud835\uddda: \ud835\uddd4\ud835\udddc \ud835\udde6\ud835\uddd8\ud835\udde2 \ud835\udddf\ud835\udddc\ud835\udde1\ud835\uddde \ud835\uddd5\ud835\udde8\ud835\udddc\ud835\udddf\ud835\uddd7\ud835\udddc\ud835\udde1\ud835\uddda + \ud835\udff0 \ud835\udde0\ud835\udde2\ud835\udde1\ud835\udde7\ud835\udddb\ud835\udde6 \ud835\uddd9\ud835\udde5\ud835\uddd8\ud835\uddd8 + \ud835\uddd9\ud835\udde5\ud835\uddd8\ud835\uddd8 \ud835\uddd4\ud835\uddda\ud835\uddd8\ud835\udde1\ud835\udde7 \ud835\udde2\ud835\udde6 + \ud835\uddd5\ud835\udde2\ud835\uddd4\ud835\udde5\ud835\uddd7\ud835\udde5\ud835\udde2\ud835\udde2\ud835\udde0 \ud835\uddea\ud835\uddd4\ud835\udddf\ud835\uddde \ud835\udde2\ud835\udde8\ud835\udde7 \ud835\uddea\ud835\udddc\ud835\udde7\ud835\udddb \ud835\udddc\ud835\udde7. \ud835\udde5\ud835\uddd4\ud835\udde1\ud835\uddde \ud835\udde2\ud835\udde5 \ud835\uddea\ud835\uddd8 \ud835\uddea\ud835\udde2\ud835\udde5\ud835\uddde \ud835\uddd9\ud835\udde5\ud835\uddd8\ud835\uddd8. \u2192 https://t.co/wRv8ROcoTP\n\n\ud83d\udea8 \ud835\uddd7\ud835\uddd4\ud835\uddec\ud835\udde6 \ud835\udddf\ud835\uddd8\ud835\uddd9\ud835\udde7. \ud835\uddd5\ud835\udde2\ud835\udde2\ud835\uddde \ud835\udde1\ud835\udde2\ud835\uddea \ud835\uddd4\ud835\udde1\ud835\uddd7 \ud835\udde6\ud835\udde7\ud835\uddd4\ud835\udde5\ud835\udde7 \ud835\uddd4\ud835\udddb\ud835\uddd8\ud835\uddd4\ud835\uddd7 \ud835\udde2\ud835\uddd9 \ud835\uddd8\ud835\udde9\ud835\uddd8\ud835\udde5\ud835\uddec \ud835\udde6\ud835\uddd8\ud835\udde3\ud835\udde7\ud835\uddd8\ud835\udde0\ud835\uddd5\ud835\uddd8\ud835\udde5 \ud835\uddd5\ud835\udde8\ud835\uddec\ud835\uddd8\ud835\udde5. \u2192 https://t.co/wRv8ROcoTP\n\nWhy it matters you book a call now and get this deal\n\u2192 https://t.co/wRv8ROcoTP\n\nAI Overviews already run on 48% of Google queries.\n\nBain found 85% of buyers purchase from a shortlist written before they ever search, and AI writes that shortlist now.",
+      "text": "🚨 𝗔𝗨𝗚𝗨𝗦𝗧 𝗗𝗢𝗢𝗥 𝗜𝗦 𝗖𝗟𝗢𝗦𝗜𝗡𝗚: 𝗔𝗜 𝗦𝗘𝗢 𝗟𝗜𝗡𝗞 𝗕𝗨𝗜𝗟𝗗𝗜𝗡𝗚 + 𝟰 𝗠𝗢𝗡𝗧𝗛𝗦 𝗙𝗥𝗘𝗘 + 𝗙𝗥𝗘𝗘 𝗔𝗚𝗘𝗡𝗧 𝗢𝗦 + 𝗕𝗢𝗔𝗥𝗗𝗥𝗢𝗢𝗠 𝗪𝗔𝗟𝗞 𝗢𝗨𝗧 𝗪𝗜𝗧𝗛 𝗜𝗧. 𝗥𝗔𝗡𝗞 𝗢𝗥 𝗪𝗘 𝗪𝗢𝗥𝗞 𝗙𝗥𝗘𝗘. → https://t.co/wRv8ROcoTP\n\n🚨 𝗗𝗔𝗬𝗦 𝗟𝗘𝗙𝗧. 𝗕𝗢𝗢𝗞 𝗡𝗢𝗪 𝗔𝗡𝗗 𝗦𝗧𝗔𝗥𝗧 𝗔𝗛𝗘𝗔𝗗 𝗢𝗙 𝗘𝗩𝗘𝗥𝗬 𝗦𝗘𝗣𝗧𝗘𝗠𝗕𝗘𝗥 𝗕𝗨𝗬𝗘𝗥. → https://t.co/wRv8ROcoTP\n\nWhy it matters you book a call now and get this deal\n→ https://t.co/wRv8ROcoTP\n\nAI Overviews already run on 48% of Google queries.\n\nBain found 85% of buyers purchase from a shortlist written before they ever search, and AI writes that shortlist now.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8 \ud835\uddd4\ud835\udde8\ud835\uddda\ud835\udde8\ud835\udde6\ud835\udde7 \ud835\uddd7\ud835\udde2\ud835\udde2\ud835\udde5 \ud835\udddc\ud835\udde6 \ud835\uddd6\ud835\udddf\ud835\udde2\ud835\udde6\ud835\udddc\ud835\udde1\ud835\uddda: \ud835\uddd4\ud835\udddc \ud835\udde6\ud835\uddd8\ud835\udde2 \ud835\udddf\ud835\udddc\ud835\udde1\ud835\uddde \ud835\uddd5\ud835\udde8\ud835\udddc\ud835\udddf\ud835\uddd7\ud835\udddc\ud835\udde1\ud835\uddda + \ud835\udff0 \ud835\udde0\ud835\udde2\ud835\udde1\ud835\udde7\ud835\udddb\ud835\udde6 \ud835\uddd9\ud835\udde5\ud835\uddd8\ud835\uddd8 + \ud835\uddd9\ud835\udde5\ud835\uddd8\ud835\uddd8 \ud835\uddd4\ud835\uddda\ud835\uddd8\ud835\udde1\ud835\udde7 \ud835\udde2\ud835\udde6 +\u2026",
+          "title": "🚨 𝗔𝗨𝗚𝗨𝗦𝗧 𝗗𝗢𝗢𝗥 𝗜𝗦 𝗖𝗟𝗢𝗦𝗜𝗡𝗚: 𝗔𝗜 𝗦𝗘𝗢 𝗟𝗜𝗡𝗞 𝗕𝗨𝗜𝗟𝗗𝗜𝗡𝗚 + 𝟰 𝗠𝗢𝗡𝗧𝗛𝗦 𝗙𝗥𝗘𝗘 + 𝗙𝗥𝗘𝗘 𝗔𝗚𝗘𝗡𝗧 𝗢𝗦 +…",
           "url": "https://x.com/JulianGoldieSEO/status/2093552798252306801",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1268,7 +1218,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th\u2026",
+          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th…",
           "url": "https://x.com/essexmaelstrom/status/2091841889372635517",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1304,13 +1254,13 @@
     },
     {
       "id": "l562",
-      "text": "OpenClaw......RIGHT NOW??? (it's not what you think)\nGet your own VPS and set up OpenClaw: https://hostinger.com/ncopenclaw Use code NETWORKCHUCK!\n\nOpenClaw has 308K GitHub stars \u2014 more than React, more than the Linux kernel. But what IS it actually? I set it up on a VPS, gave it a Telegram bot, and watched it build a news briefing and server monitoring dashboard in minutes \u2014 something that took an entire n8n workflow video to do before. But I also kinda hate it. In this video, I cut through the\u2026",
+      "text": "OpenClaw......RIGHT NOW??? (it's not what you think)\nGet your own VPS and set up OpenClaw: https://hostinger.com/ncopenclaw Use code NETWORKCHUCK!\n\nOpenClaw has 308K GitHub stars — more than React, more than the Linux kernel. But what IS it actually? I set it up on a VPS, gave it a Telegram bot, and watched it build a news briefing and server monitoring dashboard in minutes — something that took an entire n8n workflow video to do before. But I also kinda hate it. In this video, I cut through the…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "OpenClaw......RIGHT NOW??? (it's not what you think)\nGet your own VPS and set up\u2026",
+          "title": "OpenClaw......RIGHT NOW??? (it's not what you think)\nGet your own VPS and set up…",
           "url": "https://www.youtube.com/watch?v=T-HZHO_PQPY",
           "date": "2026-03-30",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1325,13 +1275,13 @@
     },
     {
       "id": "l563",
-      "text": "Anthropic just released the real Claude Bot...\nTry SerpApi for free to get real-time search data from a single API - https://serpapi.com/?utm_source=fireship\n\nAnthropic just dropped Claude Computer Use to try and take down OpenClaw. But is it actually a gamechanger, or just more slop hype? Let's run it.\n\n#coding #ai #programming\n\nWant more Fireship?\n\n\ud83d\uddde\ufe0f Newsletter: https://bytes.dev\n\ud83e\udde0 Courses: https://fireship.dev\nBack in my day, if you wanted to stop working without your boss knowing, you'd tak\u2026",
+      "text": "Anthropic just released the real Claude Bot...\nTry SerpApi for free to get real-time search data from a single API - https://serpapi.com/?utm_source=fireship\n\nAnthropic just dropped Claude Computer Use to try and take down OpenClaw. But is it actually a gamechanger, or just more slop hype? Let's run it.\n\n#coding #ai #programming\n\nWant more Fireship?\n\n🗞️ Newsletter: https://bytes.dev\n🧠 Courses: https://fireship.dev\nBack in my day, if you wanted to stop working without your boss knowing, you'd tak…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Anthropic just released the real Claude Bot...\nTry SerpApi for free to get real-\u2026",
+          "title": "Anthropic just released the real Claude Bot...\nTry SerpApi for free to get real-…",
           "url": "https://www.youtube.com/watch?v=wfeiCZK0mNs",
           "date": "2026-03-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1346,13 +1296,13 @@
     },
     {
       "id": "l564",
-      "text": "Introduction: Why Data Centers Can't Ignore AI Networking Anymore\nWant to support our project and to help us to keep this content free and develop new courses?  Go to \"Buy Me a Coffee\" at: https://buymeacoffee.com/virtualizationoptionsllc This tutorial is part of Virtualization Options LLC's Free Lifelong Learning Portal, available at https://www.youtube.com/@VirtualizationOptionsLLC.\n\nWe encourage you to subscribe to the portal to receive notifications about new course releases and to easily ac\u2026",
+      "text": "Introduction: Why Data Centers Can't Ignore AI Networking Anymore\nWant to support our project and to help us to keep this content free and develop new courses?  Go to \"Buy Me a Coffee\" at: https://buymeacoffee.com/virtualizationoptionsllc This tutorial is part of Virtualization Options LLC's Free Lifelong Learning Portal, available at https://www.youtube.com/@VirtualizationOptionsLLC.\n\nWe encourage you to subscribe to the portal to receive notifications about new course releases and to easily ac…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Introduction: Why Data Centers Can't Ignore AI Networking Anymore\nWant to suppor\u2026",
+          "title": "Introduction: Why Data Centers Can't Ignore AI Networking Anymore\nWant to suppor…",
           "url": "https://www.youtube.com/watch?v=MGm8cCUTyOA",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1367,13 +1317,13 @@
     },
     {
       "id": "l565",
-      "text": "The Easiest Tech Job to Get In 2026 (Data center Technician)\nWant to START or SCALE your Tech career, fill out an application to work with me here - https://go.govtechacademy.com/2626d2c9 \n_______________________________________\n\nIn this video, I break down why data center technician roles may be one of the easiest ways to get into tech in 2026 without learning to code. I explain what data center technicians actually do, from working with servers and cables to keeping the physical infrastructure\u2026",
+      "text": "The Easiest Tech Job to Get In 2026 (Data center Technician)\nWant to START or SCALE your Tech career, fill out an application to work with me here - https://go.govtechacademy.com/2626d2c9 \n_______________________________________\n\nIn this video, I break down why data center technician roles may be one of the easiest ways to get into tech in 2026 without learning to code. I explain what data center technicians actually do, from working with servers and cables to keeping the physical infrastructure…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Easiest Tech Job to Get In 2026 (Data center Technician)\nWant to START or SC\u2026",
+          "title": "The Easiest Tech Job to Get In 2026 (Data center Technician)\nWant to START or SC…",
           "url": "https://www.youtube.com/watch?v=0soAafcoY30",
           "date": "2026-04-30",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1388,13 +1338,13 @@
     },
     {
       "id": "l566",
-      "text": "From Legacy Integration to AI Ready: Modernize Without Disrupting the Business using AIS\nIntegration platforms have long powered the mission-critical business processes enterprises depend on. However, as organizations move toward real-time operations and AI-enabled experiences, the role of middleware is undergoing a massive shift. What was once focused on reliable connectivity must now support faster decision-making and adaptive workflows\n\nMicrosoft and CloudFronts hosted a 60-minute webinar exp\u2026",
+      "text": "From Legacy Integration to AI Ready: Modernize Without Disrupting the Business using AIS\nIntegration platforms have long powered the mission-critical business processes enterprises depend on. However, as organizations move toward real-time operations and AI-enabled experiences, the role of middleware is undergoing a massive shift. What was once focused on reliable connectivity must now support faster decision-making and adaptive workflows\n\nMicrosoft and CloudFronts hosted a 60-minute webinar exp…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "From Legacy Integration to AI Ready: Modernize Without Disrupting the Business u\u2026",
+          "title": "From Legacy Integration to AI Ready: Modernize Without Disrupting the Business u…",
           "url": "https://www.youtube.com/watch?v=wlOrVwlRx0s",
           "date": "2026-05-20",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1472,6 +1422,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

@@ -22,58 +22,8 @@
   ],
   "claims": [
     {
-      "id": "13-1051-01",
-      "text": "National peak professional bodies and statutory regulators governing Cost Estimators enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Cost Estimators",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Cost Estimators",
-          "url": "https://www.psc.gov.au/standards/13-1051",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Cost Estimators"
-        }
-      ],
-      "scope": "Australian practitioners in Cost Estimators across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "13-1051-02",
-      "text": "Automation of routine transactional and analytical tasks in Cost Estimators heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Cost Estimators",
-          "url": "https://www.jobsandskills.gov.au/research/13-1051",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Cost Estimators in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Cost Estimators roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Cost Estimator \u2014 Beca (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Cost Estimator — Beca (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -94,7 +44,7 @@
     },
     {
       "id": "l404",
-      "text": "Estimator \u2014 Duratec (Newcastle, New South Wales, Australia). Posted 2 days ago.",
+      "text": "Estimator — Duratec (Newcastle, New South Wales, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -115,7 +65,7 @@
     },
     {
       "id": "l405",
-      "text": "Estimator \u2014 Hays (Perth, Western Australia, Australia). Posted 3 weeks ago.",
+      "text": "Estimator — Hays (Perth, Western Australia, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -136,7 +86,7 @@
     },
     {
       "id": "l406",
-      "text": "Estimator \u2014 Mckinnel Associates (Baulkham Hills, New South Wales, Australia). Posted 3 weeks ago.",
+      "text": "Estimator — Mckinnel Associates (Baulkham Hills, New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -157,7 +107,7 @@
     },
     {
       "id": "l407",
-      "text": "Estimator \u2014 United Talent Group (Perth, Western Australia, Australia). Posted 1 day ago.",
+      "text": "Estimator — United Talent Group (Perth, Western Australia, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -178,7 +128,7 @@
     },
     {
       "id": "l408",
-      "text": "Estimator \u2014 Surfacing Contractors Australia (Adelaide, South Australia, Australia). Posted 3 weeks ago.",
+      "text": "Estimator — Surfacing Contractors Australia (Adelaide, South Australia, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -199,7 +149,7 @@
     },
     {
       "id": "l409",
-      "text": "Estimator \u2014 Concentis (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Estimator — Concentis (Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -220,7 +170,7 @@
     },
     {
       "id": "l410",
-      "text": "Estimator \u2014 AusNet (Southbank, Victoria, Australia). Posted 1 week ago.",
+      "text": "Estimator — AusNet (Southbank, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -241,7 +191,7 @@
     },
     {
       "id": "l411",
-      "text": "Cost Manager \u2014 AirTrunk (North Shore, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Cost Manager — AirTrunk (North Shore, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -262,7 +212,7 @@
     },
     {
       "id": "l412",
-      "text": "Estimator - Brisbane \u2014 McNab (West End, Queensland, Australia). Posted 5 days ago.",
+      "text": "Estimator - Brisbane — McNab (West End, Queensland, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -283,13 +233,13 @@
     },
     {
       "id": "l513",
-      "text": "Dev\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **New Features**\n  * Added return-series construction, risk-free rate calculations, covariance, correlation, PCA, ranking, and portfolio analytics.\n  * Added price-history panels, normalized pric\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/coderabbit_public_assets/review-stac\u2026",
+      "text": "Dev\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **New Features**\n  * Added return-series construction, risk-free rate calculations, covariance, correlation, PCA, ranking, and portfolio analytics.\n  * Added price-history panels, normalized pric\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/coderabbit_public_assets/review-stac…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Dev\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n#\u2026",
+          "title": "Dev\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n#…",
           "url": "https://github.com/OrionFinanceAI/orion-finance-sdk-py/pull/105",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -304,13 +254,13 @@
     },
     {
       "id": "l514",
-      "text": "feat: add energy consumption / co2 emmission tab or column\nIt might be interesting to also track with at least an estimation, the real energy consumed in kilowatt / co2 produced by requests and sessions. Being able to see the impact of each requests in the dashboard would be an interesting data to follow, event if ot's just an estimation.\n\nIt could be based\nThanks for filing this \u2014 it's a fun idea, and the two references you linked (the tokenomy.ai estimator and the CNaught `carbonlog` plugin) a\u2026",
+      "text": "feat: add energy consumption / co2 emmission tab or column\nIt might be interesting to also track with at least an estimation, the real energy consumed in kilowatt / co2 produced by requests and sessions. Being able to see the impact of each requests in the dashboard would be an interesting data to follow, event if ot's just an estimation.\n\nIt could be based\nThanks for filing this — it's a fun idea, and the two references you linked (the tokenomy.ai estimator and the CNaught `carbonlog` plugin) a…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: add energy consumption / co2 emmission tab or column\nIt might be interesti\u2026",
+          "title": "feat: add energy consumption / co2 emmission tab or column\nIt might be interesti…",
           "url": "https://github.com/junhoyeo/tokscale/issues/714",
           "date": "2026-06-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -331,7 +281,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Add TurboQuant rotation-based vector quantization codec to sandbox\n## Summary\r\n\r\u2026",
+          "title": "Add TurboQuant rotation-based vector quantization codec to sandbox\n## Summary\r\n\r…",
           "url": "https://github.com/apache/lucene/pull/15903",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -346,13 +296,13 @@
     },
     {
       "id": "l516",
-      "text": "Update from task 3b1fed72-d06f-4556-866b-9b2010a69a9a\nThis PR was created by qwen-chat coder for task 3b1fed72-d06f-4556-866b-9b2010a69a9a.\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n* **New Features**\n  * Introduced a complete elliptic-curve discrete logarithm problem (ECDLP) solver package w\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- walkthrough_start -->\n\n<details>\n<summary>\ud83d\udcdd Walkthrough</summary>\n\n##\u2026",
+      "text": "Update from task 3b1fed72-d06f-4556-866b-9b2010a69a9a\nThis PR was created by qwen-chat coder for task 3b1fed72-d06f-4556-866b-9b2010a69a9a.\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n* **New Features**\n  * Introduced a complete elliptic-curve discrete logarithm problem (ECDLP) solver package w\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- walkthrough_start -->\n\n<details>\n<summary>📝 Walkthrough</summary>\n\n##…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Update from task 3b1fed72-d06f-4556-866b-9b2010a69a9a\nThis PR was created by qwe\u2026",
+          "title": "Update from task 3b1fed72-d06f-4556-866b-9b2010a69a9a\nThis PR was created by qwe…",
           "url": "https://github.com/reality20/lapq-ecc/pull/1",
           "date": "2026-04-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -367,13 +317,13 @@
     },
     {
       "id": "l517",
-      "text": "\ud83c\udf10 Global Tech Briefing - 2026-06-13\n# \ud83c\udf10 Global Tech Intelligence Briefing - 2026-06-13\n**Date:** 2026-06-13\n**Generated At:** 10:16\n**Data Sources:** Hacker News, GitHub Trending, ArXiv\n\n---\n\n## \ud83d\udcf0 Hacker News (Top Stories)\n### 1. [Leaving Mozilla](https://blog.unitedheroes.net/5751)\n\ud83d\udd25 174 | \ud83d\udd52 2026-06-13 05:57\n<details>\n<summary><stron\n\ud83d\udcc5 New report generated.",
+      "text": "🌐 Global Tech Briefing - 2026-06-13\n# 🌐 Global Tech Intelligence Briefing - 2026-06-13\n**Date:** 2026-06-13\n**Generated At:** 10:16\n**Data Sources:** Hacker News, GitHub Trending, ArXiv\n\n---\n\n## 📰 Hacker News (Top Stories)\n### 1. [Leaving Mozilla](https://blog.unitedheroes.net/5751)\n🔥 174 | 🕒 2026-06-13 05:57\n<details>\n<summary><stron\n📅 New report generated.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83c\udf10 Global Tech Briefing - 2026-06-13\n# \ud83c\udf10 Global Tech Intelligence Briefing - 2026\u2026",
+          "title": "🌐 Global Tech Briefing - 2026-06-13\n# 🌐 Global Tech Intelligence Briefing - 2026…",
           "url": "https://github.com/AtomChen0425/Global_Trends/issues/117",
           "date": "2026-06-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -394,7 +344,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: add-sklearn\n<!-- This is an auto-generated comment: release notes by coder\u2026",
+          "title": "feat: add-sklearn\n<!-- This is an auto-generated comment: release notes by coder…",
           "url": "https://github.com/Qentora/langflow/pull/2",
           "date": "2026-03-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -598,13 +548,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -661,13 +611,13 @@
     },
     {
       "id": "l531",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -808,13 +758,13 @@
     },
     {
       "id": "l538",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -850,13 +800,13 @@
     },
     {
       "id": "l540",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -892,13 +842,13 @@
     },
     {
       "id": "l542",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -913,13 +863,13 @@
     },
     {
       "id": "l543",
-      "text": "Architects and Tech Firms Redesign AI Data Centers as Aesthetic Campuses While White House Accelerates Permitting Amid Heat Islands Water Strain and Power Cost Surges\nGensler and other architects design AI data centers with Corten-steel facades, green walls, and campus-like features for developers such as Menlo Digital to reduce visual opposition. These facilities originated with hyperscale operators including Meta and Amazon under municipal contracts. At the core they operate through high-densi\u2026",
+      "text": "Architects and Tech Firms Redesign AI Data Centers as Aesthetic Campuses While White House Accelerates Permitting Amid Heat Islands Water Strain and Power Cost Surges\nGensler and other architects design AI data centers with Corten-steel facades, green walls, and campus-like features for developers such as Menlo Digital to reduce visual opposition. These facilities originated with hyperscale operators including Meta and Amazon under municipal contracts. At the core they operate through high-densi…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Architects and Tech Firms Redesign AI Data Centers as Aesthetic Campuses While W\u2026",
+          "title": "Architects and Tech Firms Redesign AI Data Centers as Aesthetic Campuses While W…",
           "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vjr0og/architects_and_tech_firms_redesign_ai_data/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -934,13 +884,13 @@
     },
     {
       "id": "l544",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult…",
           "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -955,13 +905,13 @@
     },
     {
       "id": "l545",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac\u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and \u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and …",
           "url": "https://www.reddit.com/r/accelerate/comments/1vlw4un/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -976,13 +926,13 @@
     },
     {
       "id": "l546",
-      "text": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\n\nCEOs used to brag about how many jobs AI could replace.\n\nNow the language is changing.\n\nInvestors want proof AI is saving money.\n\nWorkers do not want those savings to mean their job is gone.\n\nAnd the gap between AI hype and AI reality is getting harder to hide \ud83e\uddf5\ud83d\udc47\n\n2/16\n\nKlarna said its AI assistant was doing the work of 700 employees.\n\nSalesforce linked AI to a smaller support team.\n\nCoinbase cut around 700 roles w",
+      "text": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\n\nCEOs used to brag about how many jobs AI could replace.\n\nNow the language is changing.\n\nInvestors want proof AI is saving money.\n\nWorkers do not want those savings to mean their job is gone.\n\nAnd the gap between AI hype and AI reality is getting harder to hide 🧵👇\n\n2/16\n\nKlarna said its AI assistant was doing the work of 700 employees.\n\nSalesforce linked AI to a smaller support team.\n\nCoinbase cut around 700 roles w",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\u2026",
+          "title": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16…",
           "url": "https://x.com/msyed_/status/2093227435961565570",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -997,13 +947,13 @@
     },
     {
       "id": "l547",
-      "text": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what the future will look like. I always did but even more so since I had a baby. To me it feels like we\u2019re not in a steady state right now. Things are volatile and changing fast. It feels like this pace of change can\u2019t possibly last forever. But it also seems obvious that LLMs are going to dramatically change the nature of my work, and many types of work, permanently.\n\nI am effectively required to use AI at work now, so fo",
+      "text": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what the future will look like. I always did but even more so since I had a baby. To me it feels like we’re not in a steady state right now. Things are volatile and changing fast. It feels like this pace of change can’t possibly last forever. But it also seems obvious that LLMs are going to dramatically change the nature of my work, and many types of work, permanently.\n\nI am effectively required to use AI at work now, so fo",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what th\u2026",
+          "title": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what th…",
           "url": "https://x.com/OwenGregorian/status/2093169126004985893",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1018,13 +968,13 @@
     },
     {
       "id": "l548",
-      "text": "Strategic Predictive Analysis :::\nPi Network\u2019s Next Evolution: From Blockchain Nodes to a Distributed AI and Work Execution Infrastructure\n( https://t.co/690gQVtYyU )\n\n[[[ This article includes Predictive & Technical Analysis  and may differ from actual outcomes ]]]\n[[[ \u201cWhy OpenClaw and the Atlassian MCP Server Matter \u2014 Pi Desktop Is No Longer Just a Node Application\u201d ]]]\n[[[ \u201cTurning 420,000+ Pioneer Nodes from Blockchain Validators into a Global Distributed Production Infrastructure\u201d ]]]\n[[[",
+      "text": "Strategic Predictive Analysis :::\nPi Network’s Next Evolution: From Blockchain Nodes to a Distributed AI and Work Execution Infrastructure\n( https://t.co/690gQVtYyU )\n\n[[[ This article includes Predictive & Technical Analysis  and may differ from actual outcomes ]]]\n[[[ “Why OpenClaw and the Atlassian MCP Server Matter — Pi Desktop Is No Longer Just a Node Application” ]]]\n[[[ “Turning 420,000+ Pioneer Nodes from Blockchain Validators into a Global Distributed Production Infrastructure” ]]]\n[[[",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Strategic Predictive Analysis :::\nPi Network\u2019s Next Evolution: From Blockchain N\u2026",
+          "title": "Strategic Predictive Analysis :::\nPi Network’s Next Evolution: From Blockchain N…",
           "url": "https://x.com/applekhankorea/status/2093366647587565778",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1081,13 +1031,13 @@
     },
     {
       "id": "l551",
-      "text": "Most AI benchmarks test whether a model can answer.\nCommerceAgentBench asks a harder question:\n\nCan an AI agent actually complete the job?\n\nCommerceAgentBench is an e-commerce benchmark from Accio built around 107 real-world business tasks. The tasks are executed across realistic replicas of business systems \u2014 email, browsers, calendars, supplier platforms, logistics tools and more.\nAnd the evaluation focuses on something important:\n\nWhat the agent actually does, not what it says it did.\n\nInstea",
+      "text": "Most AI benchmarks test whether a model can answer.\nCommerceAgentBench asks a harder question:\n\nCan an AI agent actually complete the job?\n\nCommerceAgentBench is an e-commerce benchmark from Accio built around 107 real-world business tasks. The tasks are executed across realistic replicas of business systems — email, browsers, calendars, supplier platforms, logistics tools and more.\nAnd the evaluation focuses on something important:\n\nWhat the agent actually does, not what it says it did.\n\nInstea",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Most AI benchmarks test whether a model can answer.\nCommerceAgentBench asks a ha\u2026",
+          "title": "Most AI benchmarks test whether a model can answer.\nCommerceAgentBench asks a ha…",
           "url": "https://x.com/Krishnasagrawal/status/2093336445234937996",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1150,7 +1100,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Grok Bot + Kimi K3: How to Build an AI System That Stops Waiting for Your Next P\u2026",
+          "title": "Grok Bot + Kimi K3: How to Build an AI System That Stops Waiting for Your Next P…",
           "url": "https://x.com/leopardracer/status/2093282462491091301",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1186,13 +1136,13 @@
     },
     {
       "id": "l556",
-      "text": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill Gates is looking to meet with Chinese President Xi Jinping later this year, eager to propose global efforts to mitigate the growing risks posed by artificial intelligence.\n\nThe Microsoft co-founder and billionaire philanthropist told Reuters in an interview that he believes China might agree to restricting potentially dangerous AI model releases if the U.S. took the initiative.\n\n\u201cThe whole world would go along with",
+      "text": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill Gates is looking to meet with Chinese President Xi Jinping later this year, eager to propose global efforts to mitigate the growing risks posed by artificial intelligence.\n\nThe Microsoft co-founder and billionaire philanthropist told Reuters in an interview that he believes China might agree to restricting potentially dangerous AI model releases if the U.S. took the initiative.\n\n“The whole world would go along with",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill\u2026",
+          "title": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill…",
           "url": "https://x.com/OwenGregorian/status/2093324365257457709",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1207,13 +1157,13 @@
     },
     {
       "id": "l557",
-      "text": "@shokhkarim1212 Building Utilix \u2014 an explainable utility hub.\n\nAI cost estimators, crypto tools, dev utilities, and money helpers that don't just return an output \u2014 they show the logic behind it.\n\nhttps://t.co/y10AaZP3M5",
+      "text": "@shokhkarim1212 Building Utilix — an explainable utility hub.\n\nAI cost estimators, crypto tools, dev utilities, and money helpers that don't just return an output — they show the logic behind it.\n\nhttps://t.co/y10AaZP3M5",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@shokhkarim1212 Building Utilix \u2014 an explainable utility hub.\n\nAI cost estimator\u2026",
+          "title": "@shokhkarim1212 Building Utilix — an explainable utility hub.\n\nAI cost estimator…",
           "url": "https://x.com/tryutilix/status/2063249915250418016",
           "date": "2026-06-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1228,13 +1178,13 @@
     },
     {
       "id": "l558",
-      "text": "@suni_code Building Utilix \u2014 an explainable utility hub.\n\nAI cost estimators, crypto tools, dev utilities, and finance helpers that don\u2019t just return a number \u2014 they show the logic behind it.\n\nNo signup. No paywall. Tools that show their work.\n\nhttps://t.co/y10AaZP3M5 https://t.co/jjUA2P8Izg",
+      "text": "@suni_code Building Utilix — an explainable utility hub.\n\nAI cost estimators, crypto tools, dev utilities, and finance helpers that don’t just return a number — they show the logic behind it.\n\nNo signup. No paywall. Tools that show their work.\n\nhttps://t.co/y10AaZP3M5 https://t.co/jjUA2P8Izg",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@suni_code Building Utilix \u2014 an explainable utility hub.\n\nAI cost estimators, cr\u2026",
+          "title": "@suni_code Building Utilix — an explainable utility hub.\n\nAI cost estimators, cr…",
           "url": "https://x.com/tryutilix/status/2059349695336747440",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1255,7 +1205,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Fully AI-Guided Russian Drones Have Reportedly Killed Ukrainian Civilians | Ece \u2026",
+          "title": "Fully AI-Guided Russian Drones Have Reportedly Killed Ukrainian Civilians | Ece …",
           "url": "https://x.com/OwenGregorian/status/2093324464188449024",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1291,13 +1241,13 @@
     },
     {
       "id": "l561",
-      "text": ".@Figure CEO @MBTannenbaum on the risk of outsourcing customer acquisition in the age of AI:\n\n\"This is why we keep a direct-to-consumer business. A lot of our customers in the lending world rely on lead generation platforms like Credit Karma and LendingTree, or personal finance websites. They\u2019re affiliates that send out leads.\n\nIf AI disrupts that, how do we know our partners are set up to make sure they get those leads in that future?\n\nWe\u2019re not really outsourcing the underwriting. We\u2019re outsou",
+      "text": ".@Figure CEO @MBTannenbaum on the risk of outsourcing customer acquisition in the age of AI:\n\n\"This is why we keep a direct-to-consumer business. A lot of our customers in the lending world rely on lead generation platforms like Credit Karma and LendingTree, or personal finance websites. They’re affiliates that send out leads.\n\nIf AI disrupts that, how do we know our partners are set up to make sure they get those leads in that future?\n\nWe’re not really outsourcing the underwriting. We’re outsou",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": ".@Figure CEO @MBTannenbaum on the risk of outsourcing customer acquisition in th\u2026",
+          "title": ".@Figure CEO @MBTannenbaum on the risk of outsourcing customer acquisition in th…",
           "url": "https://x.com/ThePeelPod/status/2093359585419579440",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1312,13 +1262,13 @@
     },
     {
       "id": "l562",
-      "text": "Here's what's happening in tech in the land down under. \n\n1/10\n\nAustralia is cutting deals on coal-powered data centres while drawing a hard line against AI-generated music.\n\nAt the same time, Meta just agreed to a massive $25B settlement over teen social media addiction.\n\nThe tech policy landscape is shifting fast.\n\nHere is the full breakdown of what moved across tech, policy, and AI this week \ud83e\uddf5\ud83d\udc47\n\n2/10\n\nPrime Minister Anthony Albanese just gave ground on national data centre energy rules.\n\nQuee",
+      "text": "Here's what's happening in tech in the land down under. \n\n1/10\n\nAustralia is cutting deals on coal-powered data centres while drawing a hard line against AI-generated music.\n\nAt the same time, Meta just agreed to a massive $25B settlement over teen social media addiction.\n\nThe tech policy landscape is shifting fast.\n\nHere is the full breakdown of what moved across tech, policy, and AI this week 🧵👇\n\n2/10\n\nPrime Minister Anthony Albanese just gave ground on national data centre energy rules.\n\nQuee",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Here's what's happening in tech in the land down under. \n\n1/10\n\nAustralia is cut\u2026",
+          "title": "Here's what's happening in tech in the land down under. \n\n1/10\n\nAustralia is cut…",
           "url": "https://x.com/msyed_/status/2093239477473021974",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1333,13 +1283,13 @@
     },
     {
       "id": "l563",
-      "text": "Sometimes, the fastest solution is right at your fingertips.\n\nExplore Samsung\u2019s self-support tools, helpful how-to guides, repair cost estimators, and troubleshooting resources designed to help you manage common concerns with ease.\n\nLearn more: https://t.co/JxVdGo2k9Z https://t.co/3ATf4fL3Tn",
+      "text": "Sometimes, the fastest solution is right at your fingertips.\n\nExplore Samsung’s self-support tools, helpful how-to guides, repair cost estimators, and troubleshooting resources designed to help you manage common concerns with ease.\n\nLearn more: https://t.co/JxVdGo2k9Z https://t.co/3ATf4fL3Tn",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Sometimes, the fastest solution is right at your fingertips.\n\nExplore Samsung\u2019s \u2026",
+          "title": "Sometimes, the fastest solution is right at your fingertips.\n\nExplore Samsung’s …",
           "url": "https://x.com/SamsungPH/status/2088883458353381788",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1375,13 +1325,13 @@
     },
     {
       "id": "l565",
-      "text": "I've captured and summarized some essential data:\n\nJobs to Avoid \u2014 AI Exposure 9-10/10 \u2620\ufe0f\n\n\ud83d\udc80 Computer/Info Research Scientists \u2014 $141K | 40K jobs | Master's\n\ud83d\udc80 Software Developers/QA/Testers \u2014 $131K | 1.9M jobs | Bachelor's\n\ud83d\udc80 Database Admins/Architects \u2014 $123K | 145K jobs | Bachelor's\n\ud83d\udc80 Economists \u2014 $115K | 18K jobs | Master's\n\ud83d\udc80 Data Scientists \u2014 $113K | 246K jobs | Bachelor's\n\ud83d\udc80 Mathematicians/Statisticians \u2014 $104K | 35K jobs | Master's\n\ud83d\udc80 Financial Analysts \u2014 $102K | 429K jobs | Bachelor's\n\ud83d\udc80 Spec",
+      "text": "I've captured and summarized some essential data:\n\nJobs to Avoid — AI Exposure 9-10/10 ☠️\n\n💀 Computer/Info Research Scientists — $141K | 40K jobs | Master's\n💀 Software Developers/QA/Testers — $131K | 1.9M jobs | Bachelor's\n💀 Database Admins/Architects — $123K | 145K jobs | Bachelor's\n💀 Economists — $115K | 18K jobs | Master's\n💀 Data Scientists — $113K | 246K jobs | Bachelor's\n💀 Mathematicians/Statisticians — $104K | 35K jobs | Master's\n💀 Financial Analysts — $102K | 429K jobs | Bachelor's\n💀 Spec",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I've captured and summarized some essential data:\n\nJobs to Avoid \u2014 AI Exposure 9\u2026",
+          "title": "I've captured and summarized some essential data:\n\nJobs to Avoid — AI Exposure 9…",
           "url": "https://x.com/XROM2863/status/2033218672026849468",
           "date": "2026-03-15",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1396,13 +1346,13 @@
     },
     {
       "id": "l566",
-      "text": "How to Estimate a Construction Project with Claude AI \u2014 Take-Off to Priced Bid\nGrab the estimating spreadsheet and pre-built AI workflows: https://www.skool.com/contractor-os\n\nThis video demonstrates a practical construction estimating workflow, combining the power of Excel with Claude AI for precise construction estimation. We explore how Claude can be used for heavy lifting tasks and as an assistant within the workflow, highlighting effective ai productivity strategies. Learn to integrate thes\u2026",
+      "text": "How to Estimate a Construction Project with Claude AI — Take-Off to Priced Bid\nGrab the estimating spreadsheet and pre-built AI workflows: https://www.skool.com/contractor-os\n\nThis video demonstrates a practical construction estimating workflow, combining the power of Excel with Claude AI for precise construction estimation. We explore how Claude can be used for heavy lifting tasks and as an assistant within the workflow, highlighting effective ai productivity strategies. Learn to integrate thes…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How to Estimate a Construction Project with Claude AI \u2014 Take-Off to Priced Bid\nG\u2026",
+          "title": "How to Estimate a Construction Project with Claude AI — Take-Off to Priced Bid\nG…",
           "url": "https://www.youtube.com/watch?v=VrSs8mGI8ss",
           "date": "2026-05-29",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1417,13 +1367,13 @@
     },
     {
       "id": "l567",
-      "text": "AI Cost Estimator for the CFO Office | AI ROI Calculator\nMost CFOs get a number for finance AI only after three vendor calls and a scoping deck. This estimator gives you one in about thirty seconds.\nFour inputs, industry, annual revenue, primary ERP, and how far you want the automation to go. Six weighted factors behind it.\n\nYou get a first year cost range and a timeline for three delivery models side by side: a Cloud and Codex assisted internal build, a custom consulting build, and a configurab\u2026",
+      "text": "AI Cost Estimator for the CFO Office | AI ROI Calculator\nMost CFOs get a number for finance AI only after three vendor calls and a scoping deck. This estimator gives you one in about thirty seconds.\nFour inputs, industry, annual revenue, primary ERP, and how far you want the automation to go. Six weighted factors behind it.\n\nYou get a first year cost range and a timeline for three delivery models side by side: a Cloud and Codex assisted internal build, a custom consulting build, and a configurab…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Cost Estimator for the CFO Office | AI ROI Calculator\nMost CFOs get a number \u2026",
+          "title": "AI Cost Estimator for the CFO Office | AI ROI Calculator\nMost CFOs get a number …",
           "url": "https://www.youtube.com/watch?v=jhEEPXXwTg8",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1438,13 +1388,13 @@
     },
     {
       "id": "l568",
-      "text": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: https://synthflow.ai/?via=intellagents\n\nIn this Synthflow AI review, I delve into building and testing six voice AI agents using the platform. We put Synthflow through its paces with seven rigorous tests, examining everything from voice clarity and interruption handling to human handoff and data extraction. Discover how Synthflow stacks up against other leading voice AI tools, and uncover a key \"dealbreaker\" that coul\u2026",
+      "text": "Synthflow AI Review: I Built 6 Voice AI Agents – is it worth it?\n⤵️ Synthflow: https://synthflow.ai/?via=intellagents\n\nIn this Synthflow AI review, I delve into building and testing six voice AI agents using the platform. We put Synthflow through its paces with seven rigorous tests, examining everything from voice clarity and interruption handling to human handoff and data extraction. Discover how Synthflow stacks up against other leading voice AI tools, and uncover a key \"dealbreaker\" that coul…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: h\u2026",
+          "title": "Synthflow AI Review: I Built 6 Voice AI Agents – is it worth it?\n⤵️ Synthflow: h…",
           "url": "https://www.youtube.com/watch?v=w6eUBmVwNMY",
           "date": "2026-03-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1515,6 +1465,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

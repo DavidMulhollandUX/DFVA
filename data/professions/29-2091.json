@@ -14,56 +14,6 @@
   "programs": [],
   "claims": [
     {
-      "id": "29-2091-01",
-      "text": "National peak professional bodies and statutory regulators governing Orthotists and Prosthetists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Orthotists and Prosthetists",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Orthotists and Prosthetists",
-          "url": "https://www.psc.gov.au/standards/29-2091",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Orthotists and Prosthetists"
-        }
-      ],
-      "scope": "Australian practitioners in Orthotists and Prosthetists across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "29-2091-02",
-      "text": "Automation of routine transactional and analytical tasks in Orthotists and Prosthetists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Orthotists and Prosthetists",
-          "url": "https://www.jobsandskills.gov.au/research/29-2091",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Orthotists and Prosthetists in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Orthotists and Prosthetists roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
       "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
@@ -254,13 +204,13 @@
     },
     {
       "id": "l512",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -275,13 +225,13 @@
     },
     {
       "id": "l513",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -464,13 +414,13 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -506,13 +456,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -548,13 +498,13 @@
     },
     {
       "id": "l526",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -575,7 +525,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Been sitting in the @sleepagotchi Discord more than usual lately, mostly just to\u2026",
+          "title": "Been sitting in the @sleepagotchi Discord more than usual lately, mostly just to…",
           "url": "https://x.com/xxxpizzaboss/status/2093563942522212532",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "This is the day-to-day reality for Christians in the Holy Land\u2014hated, spat upon, tortured, and murdered by Zionists. https://t.co/eOf1u5hAOX",
+      "text": "This is the day-to-day reality for Christians in the Holy Land—hated, spat upon, tortured, and murdered by Zionists. https://t.co/eOf1u5hAOX",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This is the day-to-day reality for Christians in the Holy Land\u2014hated, spat upon,\u2026",
+          "title": "This is the day-to-day reality for Christians in the Holy Land—hated, spat upon,…",
           "url": "https://x.com/irlandarra2019/status/2093563479416340971",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "Uh\u2026 this ain\u2019t day to day",
+      "text": "Uh… this ain’t day to day",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Uh\u2026 this ain\u2019t day to day",
+          "title": "Uh… this ain’t day to day",
           "url": "https://x.com/ConcernsChief/status/2093560259847557403",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "MEET THE ARTIST BEHIND THE WORK\n\nEvery artwork begins somewhere either with an idea, an experience, a feeling, or simply the urge to create.  For Clyde Baricuatro, or Klayd, art becomes a way of exploring personal perspectives and turning the everyday Filipino experience into something others can connect with. \n\nRooted in his Bisaya identity, his work explores day-to-day habits and nuance of Filipino culture. With a unique creative voice, Baricuatro brings his narrative to life with Inat\u00f2 Galler",
+      "text": "MEET THE ARTIST BEHIND THE WORK\n\nEvery artwork begins somewhere either with an idea, an experience, a feeling, or simply the urge to create.  For Clyde Baricuatro, or Klayd, art becomes a way of exploring personal perspectives and turning the everyday Filipino experience into something others can connect with. \n\nRooted in his Bisaya identity, his work explores day-to-day habits and nuance of Filipino culture. With a unique creative voice, Baricuatro brings his narrative to life with Inatò Galler",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "MEET THE ARTIST BEHIND THE WORK\n\nEvery artwork begins somewhere either with an i\u2026",
+          "title": "MEET THE ARTIST BEHIND THE WORK\n\nEvery artwork begins somewhere either with an i…",
           "url": "https://x.com/cebudailynews/status/2093565229158506875",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -659,7 +609,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I Hope people understand how powerful and rare this video is. Captured during th\u2026",
+          "title": "I Hope people understand how powerful and rare this video is. Captured during th…",
           "url": "https://x.com/theSciTechGuy/status/2089498008882966765",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -680,7 +630,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Here you see water in making at molecular level, Hydrogen and Oxygen are reactio\u2026",
+          "title": "Here you see water in making at molecular level, Hydrogen and Oxygen are reactio…",
           "url": "https://x.com/theSciTechGuy/status/2089482732825194879",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "@theSciTechGuy And no one complains that prosthetists will lose their jobs.  \nAnd everyone complains about the development of AI.  \n\nProgress in the eyes of the world is selective. \ud83d\udcaf",
+      "text": "@theSciTechGuy And no one complains that prosthetists will lose their jobs.  \nAnd everyone complains about the development of AI.  \n\nProgress in the eyes of the world is selective. 💯",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@theSciTechGuy And no one complains that prosthetists will lose their jobs.  \nAn\u2026",
+          "title": "@theSciTechGuy And no one complains that prosthetists will lose their jobs.  \nAn…",
           "url": "https://x.com/NevenaCankovic/status/2053452720535724539",
           "date": "2026-05-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "Imagine being one of those kids \ud83e\udd70 https://t.co/74BEdaToY0",
+      "text": "Imagine being one of those kids 🥰 https://t.co/74BEdaToY0",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Imagine being one of those kids \ud83e\udd70 https://t.co/74BEdaToY0",
+          "title": "Imagine being one of those kids 🥰 https://t.co/74BEdaToY0",
           "url": "https://x.com/theSciTechGuy/status/2088692427347660845",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -764,7 +714,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "This is so meaningful for me because I have all the bad habits and had just expe\u2026",
+          "title": "This is so meaningful for me because I have all the bad habits and had just expe…",
           "url": "https://x.com/fuyu_no_airi/status/2093567230093197345",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "@JohnSmithvbp8 @JAESREVENGE You\u2019ve been watching him and keeping up with him since. You\u2019re up under every post about him daily. If he all these thing why the fuck are you keeping up with his day to day? Eat dick and stop with yall fake moral compass",
+      "text": "@JohnSmithvbp8 @JAESREVENGE You’ve been watching him and keeping up with him since. You’re up under every post about him daily. If he all these thing why the fuck are you keeping up with his day to day? Eat dick and stop with yall fake moral compass",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@JohnSmithvbp8 @JAESREVENGE You\u2019ve been watching him and keeping up with him sin\u2026",
+          "title": "@JohnSmithvbp8 @JAESREVENGE You’ve been watching him and keeping up with him sin…",
           "url": "https://x.com/S0NastyS0Rude/status/2093564459197313472",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -806,7 +756,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Mount Kailash glowing golden in sun light, breathtaking view https://t.co/LUBchM\u2026",
+          "title": "Mount Kailash glowing golden in sun light, breathtaking view https://t.co/LUBchM…",
           "url": "https://x.com/theSciTechGuy/status/2089062298073874850",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -869,7 +819,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Should put him behind the bars for foul play,cancelling the Election?..This is t\u2026",
+          "title": "Should put him behind the bars for foul play,cancelling the Election?..This is t…",
           "url": "https://x.com/SanjivaSailesh/status/2093563511381397514",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -890,7 +840,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The real joke is this is all just a psyop orchestrated by the DNC to run a fire \u2026",
+          "title": "The real joke is this is all just a psyop orchestrated by the DNC to run a fire …",
           "url": "https://x.com/DARKLORDMADRUTH/status/2093561569363783919",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -932,7 +882,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Most detailed visualization of Earth's ocean current released by NASA https://t.\u2026",
+          "title": "Most detailed visualization of Earth's ocean current released by NASA https://t.…",
           "url": "https://x.com/theSciTechGuy/status/2089354378264330722",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -953,7 +903,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@stacewrites_ I love writing on a plane. A lot easier to disconnect from the day\u2026",
+          "title": "@stacewrites_ I love writing on a plane. A lot easier to disconnect from the day…",
           "url": "https://x.com/stevemoth/status/2093568834787774559",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -974,7 +924,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@JAhmadOfficial Why is Allah present only in earth? And interested only in day t\u2026",
+          "title": "@JAhmadOfficial Why is Allah present only in earth? And interested only in day t…",
           "url": "https://x.com/Praveen37332578/status/2093565078167822714",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -995,7 +945,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The blessing it is to just walk...I wouldn't be surprised it often gets over tho\u2026",
+          "title": "The blessing it is to just walk...I wouldn't be surprised it often gets over tho…",
           "url": "https://x.com/mogs420/status/2093563954408689875",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1037,7 +987,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@theSciTechGuy This is fake news. Only medical marijuana was moved to schedule 3\u2026",
+          "title": "@theSciTechGuy This is fake news. Only medical marijuana was moved to schedule 3…",
           "url": "https://x.com/MitchGordon_/status/2082622701919740299",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1052,13 +1002,13 @@
     },
     {
       "id": "l550",
-      "text": "@niccruzpatane No propaganda can make me believe anything they say. \ud83d\udcaf",
+      "text": "@niccruzpatane No propaganda can make me believe anything they say. 💯",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@niccruzpatane No propaganda can make me believe anything they say. \ud83d\udcaf",
+          "title": "@niccruzpatane No propaganda can make me believe anything they say. 💯",
           "url": "https://x.com/NevenaCankovic/status/2092664949172506775",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1094,13 +1044,13 @@
     },
     {
       "id": "l552",
-      "text": "@taherxn Naughty baby robot. \ud83c\udf7c\ud83d\udc76",
+      "text": "@taherxn Naughty baby robot. 🍼👶",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@taherxn Naughty baby robot. \ud83c\udf7c\ud83d\udc76",
+          "title": "@taherxn Naughty baby robot. 🍼👶",
           "url": "https://x.com/NevenaCankovic/status/2092665878257029332",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1163,7 +1113,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@xxxpizzaboss @sleepagotchi this is how community campaigns should be designed\n\n\u2026",
+          "title": "@xxxpizzaboss @sleepagotchi this is how community campaigns should be designed\n\n…",
           "url": "https://x.com/AtlasAlphaFi/status/2093568243407679852",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1247,7 +1197,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Scobleizer @getVITURE nice that the preorders drop aug 27, can't wait to see th\u2026",
+          "title": "@Scobleizer @getVITURE nice that the preorders drop aug 27, can't wait to see th…",
           "url": "https://x.com/xxxpizzaboss/status/2093352951100375112",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1268,7 +1218,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@ShaniceBest yeah, consistency is key, shortcuts never stick, grind daily and wa\u2026",
+          "title": "@ShaniceBest yeah, consistency is key, shortcuts never stick, grind daily and wa…",
           "url": "https://x.com/xxxpizzaboss/status/2093352846913876449",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1283,13 +1233,13 @@
     },
     {
       "id": "l561",
-      "text": "@ShaniceBest interesting take, i guess everyone\u2019s path differs, some find balance in unexpected ways.",
+      "text": "@ShaniceBest interesting take, i guess everyone’s path differs, some find balance in unexpected ways.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@ShaniceBest interesting take, i guess everyone\u2019s path differs, some find balanc\u2026",
+          "title": "@ShaniceBest interesting take, i guess everyone’s path differs, some find balanc…",
           "url": "https://x.com/xxxpizzaboss/status/2093352771043070060",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1310,7 +1260,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@y0lloo still decent if you believe the roadmap, but 3m loss is huge, watch the \u2026",
+          "title": "@y0lloo still decent if you believe the roadmap, but 3m loss is huge, watch the …",
           "url": "https://x.com/xxxpizzaboss/status/2093352571511648327",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1331,7 +1281,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@huuep yeah, storing pixels on chain feels wild, but those gif loops are pricele\u2026",
+          "title": "@huuep yeah, storing pixels on chain feels wild, but those gif loops are pricele…",
           "url": "https://x.com/xxxpizzaboss/status/2093352493694750877",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1346,13 +1296,13 @@
     },
     {
       "id": "l564",
-      "text": "@AmX_ZaxTr So hilarious. \ud83d\ude02\ud83d\ude02\ud83d\ude02",
+      "text": "@AmX_ZaxTr So hilarious. 😂😂😂",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@AmX_ZaxTr So hilarious. \ud83d\ude02\ud83d\ude02\ud83d\ude02",
+          "title": "@AmX_ZaxTr So hilarious. 😂😂😂",
           "url": "https://x.com/NevenaCankovic/status/2092653570550091841",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1367,13 +1317,13 @@
     },
     {
       "id": "l565",
-      "text": "@DerrickEvans4WV That's what should irritate you. \ud83d\udcaf",
+      "text": "@DerrickEvans4WV That's what should irritate you. 💯",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@DerrickEvans4WV That's what should irritate you. \ud83d\udcaf",
+          "title": "@DerrickEvans4WV That's what should irritate you. 💯",
           "url": "https://x.com/NevenaCankovic/status/2092652615901290541",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1388,13 +1338,13 @@
     },
     {
       "id": "l566",
-      "text": "@TRobinsonNewEra An evil and vicious mental disease was being sown among a part of humanity. \ud83e\udee4",
+      "text": "@TRobinsonNewEra An evil and vicious mental disease was being sown among a part of humanity. 🫤",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@TRobinsonNewEra An evil and vicious mental disease was being sown among a part \u2026",
+          "title": "@TRobinsonNewEra An evil and vicious mental disease was being sown among a part …",
           "url": "https://x.com/NevenaCankovic/status/2092652167626637473",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1409,13 +1359,13 @@
     },
     {
       "id": "l567",
-      "text": "@KatieMiller Such are those who use and hate. \ud83e\udd37\u200d\u2640\ufe0f",
+      "text": "@KatieMiller Such are those who use and hate. 🤷‍♀️",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@KatieMiller Such are those who use and hate. \ud83e\udd37\u200d\u2640\ufe0f",
+          "title": "@KatieMiller Such are those who use and hate. 🤷‍♀️",
           "url": "https://x.com/NevenaCankovic/status/2092651523884953778",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1430,13 +1380,13 @@
     },
     {
       "id": "l568",
-      "text": "@TRobinsonNewEra To make your stomach turn. \ud83e\udee4",
+      "text": "@TRobinsonNewEra To make your stomach turn. 🫤",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@TRobinsonNewEra To make your stomach turn. \ud83e\udee4",
+          "title": "@TRobinsonNewEra To make your stomach turn. 🫤",
           "url": "https://x.com/NevenaCankovic/status/2092588341925405164",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1472,13 +1422,13 @@
     },
     {
       "id": "l570",
-      "text": "@kevinnbass @NevenaCankovic Extreme is a \u2018spectrum\u2019 \ud83e\udee3",
+      "text": "@kevinnbass @NevenaCankovic Extreme is a ‘spectrum’ 🫣",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@kevinnbass @NevenaCankovic Extreme is a \u2018spectrum\u2019 \ud83e\udee3",
+          "title": "@kevinnbass @NevenaCankovic Extreme is a ‘spectrum’ 🫣",
           "url": "https://x.com/itsMaurora/status/2092576085086998713",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1499,7 +1449,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@elonmusk @NevenaCankovic It isn't a joke. FBI reports of Trump raping children \u2026",
+          "title": "@elonmusk @NevenaCankovic It isn't a joke. FBI reports of Trump raping children …",
           "url": "https://x.com/BrendaBlazek/status/2092574226079211691",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1514,13 +1464,13 @@
     },
     {
       "id": "l572",
-      "text": "@NevenaCankovic @kevinnbass That\u2019s just a saying without anything to back it up. Extremes drive invention. People who are about to die become very creative in order to survive.",
+      "text": "@NevenaCankovic @kevinnbass That’s just a saying without anything to back it up. Extremes drive invention. People who are about to die become very creative in order to survive.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@NevenaCankovic @kevinnbass That\u2019s just a saying without anything to back it up.\u2026",
+          "title": "@NevenaCankovic @kevinnbass That’s just a saying without anything to back it up.…",
           "url": "https://x.com/spottedreptile/status/2092525359568953488",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1541,7 +1491,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@kevinnbass @NevenaCankovic I do agree but at the same time these extremes both \u2026",
+          "title": "@kevinnbass @NevenaCankovic I do agree but at the same time these extremes both …",
           "url": "https://x.com/DanteOfIthaca/status/2092482793314119769",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1562,7 +1512,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Learn more: @theSciTechGuy \n\n#0SE5o5 https://t.co/SNDEDN2hGo  https://t.co/L107J\u2026",
+          "title": "Learn more: @theSciTechGuy \n\n#0SE5o5 https://t.co/SNDEDN2hGo  https://t.co/L107J…",
           "url": "https://x.com/FlavioAzzaro/status/2084068408400724247",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1598,13 +1548,13 @@
     },
     {
       "id": "l576",
-      "text": "@theSciTechGuy \ud83e\udd0d",
+      "text": "@theSciTechGuy 🤍",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@theSciTechGuy \ud83e\udd0d",
+          "title": "@theSciTechGuy 🤍",
           "url": "https://x.com/b_sharon62805/status/2076495498664673372",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1640,7 +1590,7 @@
     },
     {
       "id": "l478",
-      "text": "Orthotist \u2014 Nova Orthotics (Newcastle, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Orthotist — Nova Orthotics (Newcastle, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1661,7 +1611,7 @@
     },
     {
       "id": "l479",
-      "text": "New Graduate Orthotist \u2014 Sydney Children's Hospitals Network (Randwick, New South Wales, Australia). Posted 1 week ago.",
+      "text": "New Graduate Orthotist — Sydney Children's Hospitals Network (Randwick, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1682,7 +1632,7 @@
     },
     {
       "id": "l480",
-      "text": "Pedorthist \u2014 THANNER Australia (Sydney, New South Wales, Australia). Posted 2 days ago.",
+      "text": "Pedorthist — THANNER Australia (Sydney, New South Wales, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1703,7 +1653,7 @@
     },
     {
       "id": "l481",
-      "text": "Robotics Product Specialist \u2014 Stryker (Hobart, Tasmania, Australia). Posted 12 minutes ago.",
+      "text": "Robotics Product Specialist — Stryker (Hobart, Tasmania, Australia). Posted 12 minutes ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1724,7 +1674,7 @@
     },
     {
       "id": "l482",
-      "text": "Robotics Product Specialist \u2014 Stryker (Launceston, Tasmania, Australia). Posted 12 minutes ago.",
+      "text": "Robotics Product Specialist — Stryker (Launceston, Tasmania, Australia). Posted 12 minutes ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1745,7 +1695,7 @@
     },
     {
       "id": "l483",
-      "text": "Clinical Specialist - Trauma & CMF, Perth - Orthopaedics \u2014 Johnson & Johnson MedTech (Greater Perth Area). Posted 2 weeks ago.",
+      "text": "Clinical Specialist - Trauma & CMF, Perth - Orthopaedics — Johnson & Johnson MedTech (Greater Perth Area). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1766,7 +1716,7 @@
     },
     {
       "id": "l484",
-      "text": "Digital & Technology Solutions Specialist \u2014 Zimmer Biomet (Tamworth, New South Wales, Australia). Posted 19 hours ago.",
+      "text": "Digital & Technology Solutions Specialist — Zimmer Biomet (Tamworth, New South Wales, Australia). Posted 19 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1787,7 +1737,7 @@
     },
     {
       "id": "l485",
-      "text": "Clinical Specialist - Joint Reconstruction, Sydney Metro - Orthopaedics \u2014 Johnson & Johnson MedTech (Greater Sydney Area). Posted 1 week ago.",
+      "text": "Clinical Specialist - Joint Reconstruction, Sydney Metro - Orthopaedics — Johnson & Johnson MedTech (Greater Sydney Area). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1808,7 +1758,7 @@
     },
     {
       "id": "l486",
-      "text": "Podiatrist \u2014 NHS Ayrshire & Arran (Greater Perth Area). Posted 3 weeks ago.",
+      "text": "Podiatrist — NHS Ayrshire & Arran (Greater Perth Area). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1829,7 +1779,7 @@
     },
     {
       "id": "l487",
-      "text": "Podiatrist \u2014 NHS Scotland (Greater Perth Area). Posted 3 weeks ago.",
+      "text": "Podiatrist — NHS Scotland (Greater Perth Area). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1913,6 +1863,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

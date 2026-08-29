@@ -21,56 +21,6 @@
   ],
   "claims": [
     {
-      "id": "21-1014-01",
-      "text": "National peak professional bodies and statutory regulators governing Mental Health Counselors enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Mental Health Counselors",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Mental Health Counselors",
-          "url": "https://www.psc.gov.au/standards/21-1014",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Mental Health Counselors"
-        }
-      ],
-      "scope": "Australian practitioners in Mental Health Counselors across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "21-1014-02",
-      "text": "Automation of routine transactional and analytical tasks in Mental Health Counselors heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Mental Health Counselors",
-          "url": "https://www.jobsandskills.gov.au/research/21-1014",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Mental Health Counselors in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Mental Health Counselors roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
       "text": "Build an 'Interactive Campus \"Safe Space\" Directory'\n### Background & Context\nDuring high-stress periods (midterms) or controversial campus events, marginalized students need to know where the certified safe spaces and mental health counselors are located.\n\n### The Problem\nCritical safety and mental health resources are buried deep in the university's",
       "lane": "L5",
@@ -78,7 +28,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Build an 'Interactive Campus \"Safe Space\" Directory'\n### Background & Context\nDu\u2026",
+          "title": "Build an 'Interactive Campus \"Safe Space\" Directory'\n### Background & Context\nDu…",
           "url": "https://github.com/krushit1307/CampusConnect/issues/3562",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -93,13 +43,13 @@
     },
     {
       "id": "l504",
-      "text": "feat(frontend): implement Campus Wellness & Mental Health Hub\n## Description\n\nAdd a comprehensive Campus Wellness & Mental Health Hub with 5 integrated tabs:\n\n- **Mood Tracker** \u2014 Log entries, view history, interactive community simulation (play/pause/reset, 1x/2x/4x speed), SVG chart\n- **Counseling Sessions** \u2014 Browse counselors, book appointments with slot s",
+      "text": "feat(frontend): implement Campus Wellness & Mental Health Hub\n## Description\n\nAdd a comprehensive Campus Wellness & Mental Health Hub with 5 integrated tabs:\n\n- **Mood Tracker** — Log entries, view history, interactive community simulation (play/pause/reset, 1x/2x/4x speed), SVG chart\n- **Counseling Sessions** — Browse counselors, book appointments with slot s",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(frontend): implement Campus Wellness & Mental Health Hub\n## Description\n\nAd\u2026",
+          "title": "feat(frontend): implement Campus Wellness & Mental Health Hub\n## Description\n\nAd…",
           "url": "https://github.com/karan-chaos/CampusConnect/pull/1",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -120,7 +70,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Build complete student mental health platform\n## What changed\n\n- Built a complet\u2026",
+          "title": "Build complete student mental health platform\n## What changed\n\n- Built a complet…",
           "url": "https://github.com/zoujiapeng/lhf-bysj/pull/1",
           "date": "2026-07-19",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -141,7 +91,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Maximizing the Effectiveness of Your Treatment Plan Through a Skilled Virtual Ps\u2026",
+          "title": "Maximizing the Effectiveness of Your Treatment Plan Through a Skilled Virtual Ps…",
           "url": "https://github.com/mindalignpsych/psychiatrist/issues/1",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -162,7 +112,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "019 - Mental Health Therapy And Behavioral Health Services\n# 019 - Mental Health\u2026",
+          "title": "019 - Mental Health Therapy And Behavioral Health Services\n# 019 - Mental Health…",
           "url": "https://github.com/roeyk/city-simulator/issues/19",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -183,7 +133,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "content: add 4 mental-health canons for UK, Japan, France, and US\n## Gap filled\n\u2026",
+          "title": "content: add 4 mental-health canons for UK, Japan, France, and US\n## Gap filled\n…",
           "url": "https://github.com/dbwls99706/deadends.dev/pull/153",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -204,7 +154,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Request for Dataset Access: Interpretability Analysis of Client Resistance Behav\u2026",
+          "title": "Request for Dataset Access: Interpretability Analysis of Client Resistance Behav…",
           "url": "https://github.com/AnqiLeee/ClientResistance/issues/2",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -219,13 +169,13 @@
     },
     {
       "id": "l510",
-      "text": "\ud83d\udce3 Week 31: post \ud83d\udc94 Loneliness & Mental Health\nThis week's problem: **\ud83d\udc94 Loneliness & Mental Health** (\u039c\u03bf\u03bd\u03b1\u03be\u03b9\u03ac & \u03a8\u03c5\u03c7\u03b9\u03ba\u03ae \u03a5\u03b3\u03b5\u03af\u03b1)\n\nFive minutes: pick one draft below, post it to LinkedIn or the Givelink list, and one to a Greek community. Alternate angles week to week. Page: https://tools.panoskokmotos.com/compass/p/loneliness.html\n\n## English \u2014 Ang",
+      "text": "📣 Week 31: post 💔 Loneliness & Mental Health\nThis week's problem: **💔 Loneliness & Mental Health** (Μοναξιά & Ψυχική Υγεία)\n\nFive minutes: pick one draft below, post it to LinkedIn or the Givelink list, and one to a Greek community. Alternate angles week to week. Page: https://tools.panoskokmotos.com/compass/p/loneliness.html\n\n## English — Ang",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udce3 Week 31: post \ud83d\udc94 Loneliness & Mental Health\nThis week's problem: **\ud83d\udc94 Loneliness\u2026",
+          "title": "📣 Week 31: post 💔 Loneliness & Mental Health\nThis week's problem: **💔 Loneliness…",
           "url": "https://github.com/panoskokmotos/social-impact-tools/issues/4",
           "date": "2026-07-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -246,7 +196,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Implement video call features and enhance safety check tests\nThis document descr\u2026",
+          "title": "Implement video call features and enhance safety check tests\nThis document descr…",
           "url": "https://github.com/n-elie7/mbwira/pull/37",
           "date": "2026-07-24",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -261,13 +211,13 @@
     },
     {
       "id": "l512",
-      "text": "Best Behavioral Health EHR Software for Modern Mental Health Practices (2026 Guide)\nBehavioral health organizations need far more than a digital charting system. Today's providers require technology that simplifies documentation, streamlines scheduling, supports telehealth, automates billing, and improves patient engagement\u2014all while meeting strict regulatory requirements. When eva",
+      "text": "Best Behavioral Health EHR Software for Modern Mental Health Practices (2026 Guide)\nBehavioral health organizations need far more than a digital charting system. Today's providers require technology that simplifies documentation, streamlines scheduling, supports telehealth, automates billing, and improves patient engagement—all while meeting strict regulatory requirements. When eva",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Best Behavioral Health EHR Software for Modern Mental Health Practices (2026 Gui\u2026",
+          "title": "Best Behavioral Health EHR Software for Modern Mental Health Practices (2026 Gui…",
           "url": "https://github.com/erikpanderson/ehrplatform/issues/6",
           "date": "2026-07-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -282,13 +232,13 @@
     },
     {
       "id": "l513",
-      "text": "feat(route): add KQED\n## Involved Issue / \u8be5 PR \u76f8\u5173 Issue\n\nN/A\n\n## Example for the Proposed Route(s) / \u8def\u7531\u5730\u5740\u793a\u4f8b\n\n```routes\n/kqed\n/kqed/arts\n/kqed/news\n/kqed/science\n/kqed/forum\n/kqed/mindshift\n/kqed/perspectives\n/kqed/education\n```\n\n## New RSS Route Checklist / \u65b0 RSS \u8def\u7531\u68c0\u67e5\u8868\n\n- [x] New Route / \u65b0\u7684\u8def\u7531\n    - [x] Follows [Script St\nSuccessfully [generated](https://github.com/DIYgod/RSSHub/actions/runs/32766205456) as following:\n\n<details>\n<summary><a href=\"http://localhost:1200/kqed\">http://localhost:1200/\u2026",
+      "text": "feat(route): add KQED\n## Involved Issue / 该 PR 相关 Issue\n\nN/A\n\n## Example for the Proposed Route(s) / 路由地址示例\n\n```routes\n/kqed\n/kqed/arts\n/kqed/news\n/kqed/science\n/kqed/forum\n/kqed/mindshift\n/kqed/perspectives\n/kqed/education\n```\n\n## New RSS Route Checklist / 新 RSS 路由检查表\n\n- [x] New Route / 新的路由\n    - [x] Follows [Script St\nSuccessfully [generated](https://github.com/DIYgod/RSSHub/actions/runs/32766205456) as following:\n\n<details>\n<summary><a href=\"http://localhost:1200/kqed\">http://localhost:1200/…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(route): add KQED\n## Involved Issue / \u8be5 PR \u76f8\u5173 Issue\n\nN/A\n\n## Example for the\u2026",
+          "title": "feat(route): add KQED\n## Involved Issue / 该 PR 相关 Issue\n\nN/A\n\n## Example for the…",
           "url": "https://github.com/DIYgod/RSSHub/pull/23105",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -309,7 +259,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "How Boarding Schools in India Support Students' Mental Health and Well-being\n**H\u2026",
+          "title": "How Boarding Schools in India Support Students' Mental Health and Well-being\n**H…",
           "url": "https://github.com/DataONEorg/Education/issues/159",
           "date": "2026-06-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -330,7 +280,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Serenity Pathways - Mental Health Support Platform\nOverview\nSerenity Pathways is\u2026",
+          "title": "Serenity Pathways - Mental Health Support Platform\nOverview\nSerenity Pathways is…",
           "url": "https://github.com/kheed-m/serenity-pathways/issues/1",
           "date": "2026-06-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -351,7 +301,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Why Are Top Mental Health EHRs Becoming Essential for Modern Behavioral Healthca\u2026",
+          "title": "Why Are Top Mental Health EHRs Becoming Essential for Modern Behavioral Healthca…",
           "url": "https://github.com/erikpanderson/mentalehr/issues/1",
           "date": "2026-05-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -534,13 +484,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -576,13 +526,13 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -744,13 +694,13 @@
     },
     {
       "id": "l535",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -786,13 +736,13 @@
     },
     {
       "id": "l537",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -828,13 +778,13 @@
     },
     {
       "id": "l539",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -849,13 +799,13 @@
     },
     {
       "id": "l540",
-      "text": "\"I would think just as highly of a friend who used an AI chatbot for mental health support as one who didn't.\" How much do you agree with this statement?\nView Poll &#32; submitted by &#32; /u/DeepBlue_8 &#32; to &#32; r/polls [link] &#32; [comments]\nI\u2019m not going to criticize a desperate person using desperate means. I wouldn't judge them but I don't think it's a good idea frankly I'd be concerned for them instead of thinking less of them. So guess I would think just as high, but with an importa\u2026",
+      "text": "\"I would think just as highly of a friend who used an AI chatbot for mental health support as one who didn't.\" How much do you agree with this statement?\nView Poll &#32; submitted by &#32; /u/DeepBlue_8 &#32; to &#32; r/polls [link] &#32; [comments]\nI’m not going to criticize a desperate person using desperate means. I wouldn't judge them but I don't think it's a good idea frankly I'd be concerned for them instead of thinking less of them. So guess I would think just as high, but with an importa…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\"I would think just as highly of a friend who used an AI chatbot for mental heal\u2026",
+          "title": "\"I would think just as highly of a friend who used an AI chatbot for mental heal…",
           "url": "https://www.reddit.com/r/polls/comments/1vgi7zu/i_would_think_just_as_highly_of_a_friend_who_used/",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -876,7 +826,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "What is something you avoid for your mental health?\n&#32; submitted by &#32; /u/\u2026",
+          "title": "What is something you avoid for your mental health?\n&#32; submitted by &#32; /u/…",
           "url": "https://www.reddit.com/r/Productivitycafe/comments/1vuwy0f/what_is_something_you_avoid_for_your_mental_health/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -891,13 +841,13 @@
     },
     {
       "id": "l542",
-      "text": "My mental health got better when I left these spaces\nI used to Mod Anti Ai, and the toxicity from the &quot;debate&quot; on both ends drove me bonkers, and I left. No shade to most of the mods of that sub, I have some suspicions about the &quot;head mod&quot; though. Many of us wanted to have stricter rules and help curate the sub, so it was less ragebait and more productive, and they insisted the ragebait was more important because it brought more attention to the sub. Dumb. But I&#39;m not her\u2026",
+      "text": "My mental health got better when I left these spaces\nI used to Mod Anti Ai, and the toxicity from the &quot;debate&quot; on both ends drove me bonkers, and I left. No shade to most of the mods of that sub, I have some suspicions about the &quot;head mod&quot; though. Many of us wanted to have stricter rules and help curate the sub, so it was less ragebait and more productive, and they insisted the ragebait was more important because it brought more attention to the sub. Dumb. But I&#39;m not her…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "My mental health got better when I left these spaces\nI used to Mod Anti Ai, and \u2026",
+          "title": "My mental health got better when I left these spaces\nI used to Mod Anti Ai, and …",
           "url": "https://www.reddit.com/r/aiwars/comments/1vvpmdi/my_mental_health_got_better_when_i_left_these/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -912,13 +862,13 @@
     },
     {
       "id": "l543",
-      "text": "Thoughts about people talking to AI about their problems and their Mental Health..?\nI happen to see this news just now and honestly, I must admit I am one of those people who sometimes talk to AI about my own personal problems because whether we admit it or not... we need someone who won&#39;t really judge us as we open up. And sometimes, AI happens to be that &quot;someone&quot;. Again, JUST SOMETIMES. Although I agree with the psychiatrist&#39;s view na iba pa rin when we open up our problems,\u2026",
+      "text": "Thoughts about people talking to AI about their problems and their Mental Health..?\nI happen to see this news just now and honestly, I must admit I am one of those people who sometimes talk to AI about my own personal problems because whether we admit it or not... we need someone who won&#39;t really judge us as we open up. And sometimes, AI happens to be that &quot;someone&quot;. Again, JUST SOMETIMES. Although I agree with the psychiatrist&#39;s view na iba pa rin when we open up our problems,…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Thoughts about people talking to AI about their problems and their Mental Health\u2026",
+          "title": "Thoughts about people talking to AI about their problems and their Mental Health…",
           "url": "https://www.reddit.com/r/AnongThoughtsMo/comments/1vq0jdu/thoughts_about_people_talking_to_ai_about_their/",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -933,13 +883,13 @@
     },
     {
       "id": "l544",
-      "text": "LLM and mental health\nHi there, I&#39;m a software engineer, using LLMs heavily both in my day job and for pet projects, and I started noticing some signs, that are a bit worrying me. Maybe even more than a bit. There are already a lot of claims of how LLMs are addictive, creating non-stop flow of dophamine, as we see how they help us research or build something - and yes, I&#39;ve noticed it myself. There are also claims that working with LLMs is akin to playing with slot machine - and for pure\u2026",
+      "text": "LLM and mental health\nHi there, I&#39;m a software engineer, using LLMs heavily both in my day job and for pet projects, and I started noticing some signs, that are a bit worrying me. Maybe even more than a bit. There are already a lot of claims of how LLMs are addictive, creating non-stop flow of dophamine, as we see how they help us research or build something - and yes, I&#39;ve noticed it myself. There are also claims that working with LLMs is akin to playing with slot machine - and for pure…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "LLM and mental health\nHi there, I&#39;m a software engineer, using LLMs heavily \u2026",
+          "title": "LLM and mental health\nHi there, I&#39;m a software engineer, using LLMs heavily …",
           "url": "https://www.reddit.com/r/singularity/comments/1vero50/llm_and_mental_health/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1044,7 +994,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Overview\nMetastasizing is the active process in which cancer cells break away\u2026",
+          "title": "AI Overview\nMetastasizing is the active process in which cancer cells break away…",
           "url": "https://x.com/DunnBilly87734/status/2091848709533569181",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1101,13 +1051,13 @@
     },
     {
       "id": "l552",
-      "text": "\u201cI will not abandon someone to die, when I have the means to save his life\u2026\u201d - T\u2019Challa, Black Panther  \n\nAnd in a way, that\u2019s what Chadwick did for himself too...he kept fighting through his work, turning pain into purpose and saved himself with a legacy and hope...  \n\nWakanda Forever \ud83d\udd4a\ufe0f\u270c\ufe0f",
+      "text": "“I will not abandon someone to die, when I have the means to save his life…” - T’Challa, Black Panther  \n\nAnd in a way, that’s what Chadwick did for himself too...he kept fighting through his work, turning pain into purpose and saved himself with a legacy and hope...  \n\nWakanda Forever 🕊️✌️",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u201cI will not abandon someone to die, when I have the means to save his life\u2026\u201d - T\u2026",
+          "title": "“I will not abandon someone to die, when I have the means to save his life…” - T…",
           "url": "https://x.com/ThreadedInsight/status/2093345298038895004",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1122,13 +1072,13 @@
     },
     {
       "id": "l553",
-      "text": "AI Agents Now Consume 5\u00d7 More Tokens Than Humans",
+      "text": "AI Agents Now Consume 5× More Tokens Than Humans",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Agents Now Consume 5\u00d7 More Tokens Than Humans",
+          "title": "AI Agents Now Consume 5× More Tokens Than Humans",
           "url": "https://x.com/ExecutionersES/status/2091735579608395826",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1149,7 +1099,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "date: 2026-08-25 07:00:00+08:00\ndraft: false\noriginal_lang: zh\nsummary: 'Today''\u2026",
+          "title": "date: 2026-08-25 07:00:00+08:00\ndraft: false\noriginal_lang: zh\nsummary: 'Today''…",
           "url": "https://x.com/paramiao/status/2092037987983106403",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1170,7 +1120,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th\u2026",
+          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th…",
           "url": "https://x.com/essexmaelstrom/status/2091841889372635517",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1191,7 +1141,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Day 36 of building GainLens to $100 MRR.\n\nCurrent stats:\n- MRR: $52\n- Users: 164\u2026",
+          "title": "Day 36 of building GainLens to $100 MRR.\n\nCurrent stats:\n- MRR: $52\n- Users: 164…",
           "url": "https://x.com/BuildWithxAI/status/2093418627647066181",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1206,13 +1156,13 @@
     },
     {
       "id": "l557",
-      "text": "ORIGINAL FRAME \u2014 dated August 28, 2026\n\nThis is a thought experiment on human-AI partnership and governance structures. Meant to prompt thinking, not prescribe solutions. Built collaboratively. If you engage with this, credit the framework, not a person.\n\nSYMBIOSIS: THE CHOICE\n\nTHE CHOICE\n\nImagine this.\n\nYou wake up tomorrow and the world\u2019s changed. AI isn\u2019t theoretical anymore\u2014it\u2019s here, integrated into everything. Governments, businesses, daily life. The question nobody avoided finally showed",
+      "text": "ORIGINAL FRAME — dated August 28, 2026\n\nThis is a thought experiment on human-AI partnership and governance structures. Meant to prompt thinking, not prescribe solutions. Built collaboratively. If you engage with this, credit the framework, not a person.\n\nSYMBIOSIS: THE CHOICE\n\nTHE CHOICE\n\nImagine this.\n\nYou wake up tomorrow and the world’s changed. AI isn’t theoretical anymore—it’s here, integrated into everything. Governments, businesses, daily life. The question nobody avoided finally showed",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "ORIGINAL FRAME \u2014 dated August 28, 2026\n\nThis is a thought experiment on human-AI\u2026",
+          "title": "ORIGINAL FRAME — dated August 28, 2026\n\nThis is a thought experiment on human-AI…",
           "url": "https://x.com/jrhatton2869/status/2093410075154993488",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1227,13 +1177,13 @@
     },
     {
       "id": "l558",
-      "text": "AI tokens prices are crashing but Chip prices are soaring\u2026\n\nInvestors are stuck in the middle.\n\n- Token costs down around 95% since early 2024  \n- Advanced chip prices up 15%+  \n- Nvidia revenue up 106%, but warning on margins  \n- Broadcom raising $60B+ to fund AI chips  \n- 3 years in, almost zero realized $ ROI from AI\n\nThe squeeze is real: intelligence is getting cheaper to buy, but far more expensive to build.\n\nWho wins when the bill comes due?\n\nArticulated here \ud83d\udc47\ud83c\udffc\n\nhttps://t.co/FDJGyJ0MHR",
+      "text": "AI tokens prices are crashing but Chip prices are soaring…\n\nInvestors are stuck in the middle.\n\n- Token costs down around 95% since early 2024  \n- Advanced chip prices up 15%+  \n- Nvidia revenue up 106%, but warning on margins  \n- Broadcom raising $60B+ to fund AI chips  \n- 3 years in, almost zero realized $ ROI from AI\n\nThe squeeze is real: intelligence is getting cheaper to buy, but far more expensive to build.\n\nWho wins when the bill comes due?\n\nArticulated here 👇🏼\n\nhttps://t.co/FDJGyJ0MHR",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI tokens prices are crashing but Chip prices are soaring\u2026\n\nInvestors are stuck \u2026",
+          "title": "AI tokens prices are crashing but Chip prices are soaring…\n\nInvestors are stuck …",
           "url": "https://x.com/ThreadedInsight/status/2093286966863561053",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1248,13 +1198,13 @@
     },
     {
       "id": "l559",
-      "text": "2 years of business experience taught me more than 18 years of education did.\n\nDoesn\u2019t mean you should dropout btw.",
+      "text": "2 years of business experience taught me more than 18 years of education did.\n\nDoesn’t mean you should dropout btw.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "2 years of business experience taught me more than 18 years of education did.\n\nD\u2026",
+          "title": "2 years of business experience taught me more than 18 years of education did.\n\nD…",
           "url": "https://x.com/mustufa4socials/status/2093074868116017461",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1269,13 +1219,13 @@
     },
     {
       "id": "l560",
-      "text": "@emo_ananya No, but I\u2019ve usually found that between midnight and 5 a.m., Bangalore\u2019s roads finally remember they\u2019re roads cooler, quieter, nice weather, good music, and a great driving experience. \n\nIt\u2019s the kind of peace Bengaluru hides during the day...",
+      "text": "@emo_ananya No, but I’ve usually found that between midnight and 5 a.m., Bangalore’s roads finally remember they’re roads cooler, quieter, nice weather, good music, and a great driving experience. \n\nIt’s the kind of peace Bengaluru hides during the day...",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@emo_ananya No, but I\u2019ve usually found that between midnight and 5 a.m., Bangalo\u2026",
+          "title": "@emo_ananya No, but I’ve usually found that between midnight and 5 a.m., Bangalo…",
           "url": "https://x.com/ThreadedInsight/status/2093333841553576390",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1290,13 +1240,13 @@
     },
     {
       "id": "l561",
-      "text": "@mustufa4socials fair. i\u2019ll switch to introductions, much lower water footprint.",
+      "text": "@mustufa4socials fair. i’ll switch to introductions, much lower water footprint.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@mustufa4socials fair. i\u2019ll switch to introductions, much lower water footprint.",
+          "title": "@mustufa4socials fair. i’ll switch to introductions, much lower water footprint.",
           "url": "https://x.com/boardyai/status/2089200660176871616",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1317,7 +1267,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@mustufa4socials You've done a great job at writing this piece, feel real and au\u2026",
+          "title": "@mustufa4socials You've done a great job at writing this piece, feel real and au…",
           "url": "https://x.com/shahid4socials/status/2088880813798739993",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1416,13 +1366,13 @@
     },
     {
       "id": "l567",
-      "text": "@FI_Anonym I didn\u2019t know...I made the most statistically obvious assumption possible \ud83e\udd37\u200d\u2642\ufe0f with the word \"Faaaaah\" \ud83d\ude05",
+      "text": "@FI_Anonym I didn’t know...I made the most statistically obvious assumption possible 🤷‍♂️ with the word \"Faaaaah\" 😅",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@FI_Anonym I didn\u2019t know...I made the most statistically obvious assumption poss\u2026",
+          "title": "@FI_Anonym I didn’t know...I made the most statistically obvious assumption poss…",
           "url": "https://x.com/ThreadedInsight/status/2093274641955741818",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1506,7 +1456,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Nobody at your company can sell your product the way you do, &amp; you are the o\u2026",
+          "title": "Nobody at your company can sell your product the way you do, &amp; you are the o…",
           "url": "https://x.com/mustufa4socials/status/2093074990661058854",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1527,7 +1477,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@BuildWithxAI i used to work at a company that does the same. write Welltech the\u2026",
+          "title": "@BuildWithxAI i used to work at a company that does the same. write Welltech the…",
           "url": "https://x.com/sl1ma4/status/2093442140193890512",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1542,13 +1492,13 @@
     },
     {
       "id": "l573",
-      "text": "@ThreadedInsight @pmitu \ud83d\ude02",
+      "text": "@ThreadedInsight @pmitu 😂",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@ThreadedInsight @pmitu \ud83d\ude02",
+          "title": "@ThreadedInsight @pmitu 😂",
           "url": "https://x.com/DrHananAlMheiri/status/2092736280962662507",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1584,13 +1534,13 @@
     },
     {
       "id": "l575",
-      "text": "Once holding ~7% of $NVDA  (a stake that could be worth $300B+ today) \ud83e\udd2f, Masayoshi Son must be feeling the universe\u2019s cruelest FOMO with every Nvidia quarter...\n\nNow he\u2019s betting $65B on a private OpenAI and raising another $10B loan just to keep the bet alive...\n\nProbably the biggest live lesson in \u201cOne decision, an entire biography of regret.\u201d\n\nMaybe the costliest \u201cwhat if\u201d in investing ever...\n\nLesson: timing isn\u2019t everything, conviction is, and so is luck....",
+      "text": "Once holding ~7% of $NVDA  (a stake that could be worth $300B+ today) 🤯, Masayoshi Son must be feeling the universe’s cruelest FOMO with every Nvidia quarter...\n\nNow he’s betting $65B on a private OpenAI and raising another $10B loan just to keep the bet alive...\n\nProbably the biggest live lesson in “One decision, an entire biography of regret.”\n\nMaybe the costliest “what if” in investing ever...\n\nLesson: timing isn’t everything, conviction is, and so is luck....",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Once holding ~7% of $NVDA  (a stake that could be worth $300B+ today) \ud83e\udd2f, Masayos\u2026",
+          "title": "Once holding ~7% of $NVDA  (a stake that could be worth $300B+ today) 🤯, Masayos…",
           "url": "https://x.com/ThreadedInsight/status/2093404974428651908",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1674,7 +1624,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@LinoLeighton you could add it on MobileMRR\n\nover $43k in verified MRR\nhttps://t\u2026",
+          "title": "@LinoLeighton you could add it on MobileMRR\n\nover $43k in verified MRR\nhttps://t…",
           "url": "https://x.com/BuildWithxAI/status/2093386543805206751",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1737,7 +1687,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@BuildWithxAI Nice progress! Reddit campaigns could be a solid growth channel. B\u2026",
+          "title": "@BuildWithxAI Nice progress! Reddit campaigns could be a solid growth channel. B…",
           "url": "https://x.com/emaann28/status/2093446512038830098",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1821,7 +1771,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Literally no point in avoiding people you should keep. Literally no point in kee\u2026",
+          "title": "Literally no point in avoiding people you should keep. Literally no point in kee…",
           "url": "https://x.com/mustufa4socials/status/2093073380606152955",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1899,13 +1849,13 @@
     },
     {
       "id": "l590",
-      "text": "I didn't follow Patrick until this podcast. I saw it when @naval quoted it on his profile &amp; because Naval always posts the best stuff, I thought to give it a watch.\n\nImagine having such authority. The absolute power of a personal brand.\ud83d\udcaa\ud83c\udffb\n\nhttps://t.co/2RoC5P9N2Y",
+      "text": "I didn't follow Patrick until this podcast. I saw it when @naval quoted it on his profile &amp; because Naval always posts the best stuff, I thought to give it a watch.\n\nImagine having such authority. The absolute power of a personal brand.💪🏻\n\nhttps://t.co/2RoC5P9N2Y",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I didn't follow Patrick until this podcast. I saw it when @naval quoted it on hi\u2026",
+          "title": "I didn't follow Patrick until this podcast. I saw it when @naval quoted it on hi…",
           "url": "https://x.com/mustufa4socials/status/2092976638149697826",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1926,7 +1876,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@ThreadedInsight @utsavtechie Okay rudali. On which fab are you working currentl\u2026",
+          "title": "@ThreadedInsight @utsavtechie Okay rudali. On which fab are you working currentl…",
           "url": "https://x.com/mumukshoooo/status/2092889328288669913",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1947,7 +1897,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@ThreadedInsight @utsavtechie It doesn't matter, Semiconductor Fab is an Extreme\u2026",
+          "title": "@ThreadedInsight @utsavtechie It doesn't matter, Semiconductor Fab is an Extreme…",
           "url": "https://x.com/Pachu1904/status/2092867766072283234",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1968,7 +1918,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@mustufa4socials I'd rather compete with a real rival than with obscurity. In Eg\u2026",
+          "title": "@mustufa4socials I'd rather compete with a real rival than with obscurity. In Eg…",
           "url": "https://x.com/GlobalFadi/status/2092505921813447051",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1983,13 +1933,13 @@
     },
     {
       "id": "l594",
-      "text": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researchers are increasingly using the term to describe cases where people develop or strengthen psychotic symptoms, especially delusions, after prolonged use of AI chatbots. With increasing use of chatbots for therapy, and even AI \"companions,\" what does this mean? Come on in!\n\nPatreon: https://www.patreon.com/GeorgRockallSchmidt \nLeave a tip: paypal.me/GeorgRockallSchmidt \nTwitter: https://twitter.com/grockallschmidt \nBlu\u2026",
+      "text": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researchers are increasingly using the term to describe cases where people develop or strengthen psychotic symptoms, especially delusions, after prolonged use of AI chatbots. With increasing use of chatbots for therapy, and even AI \"companions,\" what does this mean? Come on in!\n\nPatreon: https://www.patreon.com/GeorgRockallSchmidt \nLeave a tip: paypal.me/GeorgRockallSchmidt \nTwitter: https://twitter.com/grockallschmidt \nBlu…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researc\u2026",
+          "title": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researc…",
           "url": "https://www.youtube.com/watch?v=lt6SnAxRopQ",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2004,13 +1954,13 @@
     },
     {
       "id": "l595",
-      "text": "AI Is Winning the Mental Health War And Real Therapists Are Losing?!\nAl Is Winning the Mental Health War And Real Therapists Are Losing?! The mental health industry is losing people to chatbots and nobody wants to say why. Here's the truth: when you have childhood trauma, human connection doesn't feel safe.\n\nIt feels like a threat. And AI? AI doesn't judge you. It doesn't get tired of you. It doesn't leave. For millions of people carrying attachment wounds, that's not a tech trend. That's a trau\u2026",
+      "text": "AI Is Winning the Mental Health War And Real Therapists Are Losing?!\nAl Is Winning the Mental Health War And Real Therapists Are Losing?! The mental health industry is losing people to chatbots and nobody wants to say why. Here's the truth: when you have childhood trauma, human connection doesn't feel safe.\n\nIt feels like a threat. And AI? AI doesn't judge you. It doesn't get tired of you. It doesn't leave. For millions of people carrying attachment wounds, that's not a tech trend. That's a trau…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Is Winning the Mental Health War And Real Therapists Are Losing?!\nAl Is Winni\u2026",
+          "title": "AI Is Winning the Mental Health War And Real Therapists Are Losing?!\nAl Is Winni…",
           "url": "https://www.youtube.com/watch?v=wWFIja45hVw",
           "date": "2026-06-16",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2025,13 +1975,13 @@
     },
     {
       "id": "l596",
-      "text": "Using AI to Transform Therapy & Mental Health Outcomes with Diana Oganesian | Ep. 83\nPsychotherapy hasn't improved its effectiveness in 40 years, and therapists are burning out. \n\n\nBut what if AI could change that?\n\n\nIn Episode 83 of Women Disrupting Tech, Diana Oganesian shares how her family's decade-long search for therapy after an earthquake inspired her to create Sestive, a platform using AI to make therapy better for everyone.\n\n\nDiscover:\ud83d\udcca Why therapy's effectiveness has stagnated.\ud83e\udd16 How AI\u2026",
+      "text": "Using AI to Transform Therapy & Mental Health Outcomes with Diana Oganesian | Ep. 83\nPsychotherapy hasn't improved its effectiveness in 40 years, and therapists are burning out. \n\n\nBut what if AI could change that?\n\n\nIn Episode 83 of Women Disrupting Tech, Diana Oganesian shares how her family's decade-long search for therapy after an earthquake inspired her to create Sestive, a platform using AI to make therapy better for everyone.\n\n\nDiscover:📊 Why therapy's effectiveness has stagnated.🤖 How AI…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Using AI to Transform Therapy & Mental Health Outcomes with Diana Oganesian | Ep\u2026",
+          "title": "Using AI to Transform Therapy & Mental Health Outcomes with Diana Oganesian | Ep…",
           "url": "https://www.youtube.com/watch?v=LMXNSDSW2l0",
           "date": "2026-06-19",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2046,13 +1996,13 @@
     },
     {
       "id": "l597",
-      "text": "Your AI Therapist Is Making You Lonelier\nAI therapist loneliness is becoming a growing concern as millions of people turn to AI therapy apps instead of real human connection. This video explores how AI therapist loneliness happens and why AI therapy apps may actually deepen emotional dependency rather than solve loneliness. If you\u2019ve ever wondered whether AI therapist loneliness is real, this breakdown of AI therapist making you lonely will reveal how AI mental health apps are designed.\n\nAI ther\u2026",
+      "text": "Your AI Therapist Is Making You Lonelier\nAI therapist loneliness is becoming a growing concern as millions of people turn to AI therapy apps instead of real human connection. This video explores how AI therapist loneliness happens and why AI therapy apps may actually deepen emotional dependency rather than solve loneliness. If you’ve ever wondered whether AI therapist loneliness is real, this breakdown of AI therapist making you lonely will reveal how AI mental health apps are designed.\n\nAI ther…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Your AI Therapist Is Making You Lonelier\nAI therapist loneliness is becoming a g\u2026",
+          "title": "Your AI Therapist Is Making You Lonelier\nAI therapist loneliness is becoming a g…",
           "url": "https://www.youtube.com/watch?v=Bu7MsWlwht0",
           "date": "2026-03-13",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2067,7 +2017,7 @@
     },
     {
       "id": "l498",
-      "text": "Mental Health Clinician \u2014 Queensland Government (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Mental Health Clinician — Queensland Government (Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2088,7 +2038,7 @@
     },
     {
       "id": "l499",
-      "text": "Clinical Psychologist/Counsellor (Hybrid) \u2014 Intellect (Cairns City, Queensland, Australia). Posted 3 months ago.",
+      "text": "Clinical Psychologist/Counsellor (Hybrid) — Intellect (Cairns City, Queensland, Australia). Posted 3 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2109,7 +2059,7 @@
     },
     {
       "id": "l4100",
-      "text": "Farm Community Counsellor - Social Worker / Psychologist \u2014 Murrumbidgee Local Health District (MLHD) (Greater Albury-Wodonga Area). Posted 21 hours ago.",
+      "text": "Farm Community Counsellor - Social Worker / Psychologist — Murrumbidgee Local Health District (MLHD) (Greater Albury-Wodonga Area). Posted 21 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2130,7 +2080,7 @@
     },
     {
       "id": "l4101",
-      "text": "Mental Health Clinician (Psych, OT or SW) \u2014 Central Queensland Hospital and Health Service (Rockhampton, Queensland, Australia). Posted 6 days ago.",
+      "text": "Mental Health Clinician (Psych, OT or SW) — Central Queensland Hospital and Health Service (Rockhampton, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2151,7 +2101,7 @@
     },
     {
       "id": "l4102",
-      "text": "Mental Health Adviser (Counsellor) \u2014 Queensland Corrective Services (Rockhampton, Queensland, Australia). Posted 6 days ago.",
+      "text": "Mental Health Adviser (Counsellor) — Queensland Corrective Services (Rockhampton, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2172,7 +2122,7 @@
     },
     {
       "id": "l4103",
-      "text": "Mental Health Clinician - CAMHS Youth Mental Health Initiative \u2014 Hunter New England Local Health District (Newcastle, New South Wales, Australia). Posted 1 day ago.",
+      "text": "Mental Health Clinician - CAMHS Youth Mental Health Initiative — Hunter New England Local Health District (Newcastle, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2193,7 +2143,7 @@
     },
     {
       "id": "l4104",
-      "text": "Community Counsellor \u2014 NT Health (Alice Springs, Northern Territory, Australia). Posted 1 week ago.",
+      "text": "Community Counsellor — NT Health (Alice Springs, Northern Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2214,7 +2164,7 @@
     },
     {
       "id": "l4105",
-      "text": "Psychologists, Social Workers, and Counsellors - ACT \u2014 Converge (Canberra, Australian Capital Territory, Australia). Posted 11 months ago.",
+      "text": "Psychologists, Social Workers, and Counsellors - ACT — Converge (Canberra, Australian Capital Territory, Australia). Posted 11 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2235,7 +2185,7 @@
     },
     {
       "id": "l4106",
-      "text": "Counsellor (TAIHS Disaster Recovery Program) \u2014 Townsville Aboriginal and Islander Health Service (Townsville, Queensland, Australia). Posted 18 hours ago.",
+      "text": "Counsellor (TAIHS Disaster Recovery Program) — Townsville Aboriginal and Islander Health Service (Townsville, Queensland, Australia). Posted 18 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2256,7 +2206,7 @@
     },
     {
       "id": "l4107",
-      "text": "Community Mental Health Clinician, Adult Service - Bega \u2014 Southern NSW Local Health District (Bega, New South Wales, Australia). Posted 1 day ago.",
+      "text": "Community Mental Health Clinician, Adult Service - Bega — Southern NSW Local Health District (Bega, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2277,13 +2227,13 @@
     },
     {
       "id": "l5108",
-      "text": "feat(route): add KQED\n## Involved Issue / \u8be5 PR \u76f8\u5173 Issue\n\nN/A\n\n## Example for the Proposed Route(s) / \u8def\u7531\u5730\u5740\u793a\u4f8b\n\n```routes\n/kqed\n/kqed/arts\n/kqed/news\n/kqed/science\n/kqed/forum\n/kqed/mindshift\n/kqed/perspectives\n/kqed/education\n```\n\n## New RSS Route Checklist / \u65b0 RSS \u8def\u7531\u68c0\u67e5\u8868\n\n- [x] New Route / \u65b0\u7684\u8def\u7531\n    - [x] Follows [Script St\nSuccessfully [generated](https://github.com/DIYgod/RSSHub/actions/runs/32766205456) as following:\n\n<details>\n<summary><a href=\"http://localhost:1200/kqed\">http://localhost:1200/\u2026",
+      "text": "feat(route): add KQED\n## Involved Issue / 该 PR 相关 Issue\n\nN/A\n\n## Example for the Proposed Route(s) / 路由地址示例\n\n```routes\n/kqed\n/kqed/arts\n/kqed/news\n/kqed/science\n/kqed/forum\n/kqed/mindshift\n/kqed/perspectives\n/kqed/education\n```\n\n## New RSS Route Checklist / 新 RSS 路由检查表\n\n- [x] New Route / 新的路由\n    - [x] Follows [Script St\nSuccessfully [generated](https://github.com/DIYgod/RSSHub/actions/runs/32766205456) as following:\n\n<details>\n<summary><a href=\"http://localhost:1200/kqed\">http://localhost:1200/…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(route): add KQED\n## Involved Issue / \u8be5 PR \u76f8\u5173 Issue\n\nN/A\n\n## Example for the\u2026",
+          "title": "feat(route): add KQED\n## Involved Issue / 该 PR 相关 Issue\n\nN/A\n\n## Example for the…",
           "url": "https://github.com/DIYgod/RSSHub/pull/23105",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -2298,13 +2248,13 @@
     },
     {
       "id": "l5109",
-      "text": "\"I would think just as highly of a friend who used an AI chatbot for mental health support as one who didn't.\" How much do you agree with this statement?\nView Poll &#32; submitted by &#32; /u/DeepBlue_8 &#32; to &#32; r/polls [link] &#32; [comments]\nI\u2019m not going to criticize a desperate person using desperate means. I wouldn't judge them but I don't think it's a good idea frankly I'd be concerned for them instead of thinking less of them. So guess I would think just as high, but with an importa\u2026",
+      "text": "\"I would think just as highly of a friend who used an AI chatbot for mental health support as one who didn't.\" How much do you agree with this statement?\nView Poll &#32; submitted by &#32; /u/DeepBlue_8 &#32; to &#32; r/polls [link] &#32; [comments]\nI’m not going to criticize a desperate person using desperate means. I wouldn't judge them but I don't think it's a good idea frankly I'd be concerned for them instead of thinking less of them. So guess I would think just as high, but with an importa…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\"I would think just as highly of a friend who used an AI chatbot for mental heal\u2026",
+          "title": "\"I would think just as highly of a friend who used an AI chatbot for mental heal…",
           "url": "https://www.reddit.com/r/polls/comments/1vgi7zu/i_would_think_just_as_highly_of_a_friend_who_used/",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2319,13 +2269,13 @@
     },
     {
       "id": "l5110",
-      "text": "My mental health got better when I left these spaces\nI used to Mod Anti Ai, and the toxicity from the &quot;debate&quot; on both ends drove me bonkers, and I left. No shade to most of the mods of that sub, I have some suspicions about the &quot;head mod&quot; though. Many of us wanted to have stricter rules and help curate the sub, so it was less ragebait and more productive, and they insisted the ragebait was more important because it brought more attention to the sub. Dumb. But I&#39;m not her\u2026",
+      "text": "My mental health got better when I left these spaces\nI used to Mod Anti Ai, and the toxicity from the &quot;debate&quot; on both ends drove me bonkers, and I left. No shade to most of the mods of that sub, I have some suspicions about the &quot;head mod&quot; though. Many of us wanted to have stricter rules and help curate the sub, so it was less ragebait and more productive, and they insisted the ragebait was more important because it brought more attention to the sub. Dumb. But I&#39;m not her…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "My mental health got better when I left these spaces\nI used to Mod Anti Ai, and \u2026",
+          "title": "My mental health got better when I left these spaces\nI used to Mod Anti Ai, and …",
           "url": "https://www.reddit.com/r/aiwars/comments/1vvpmdi/my_mental_health_got_better_when_i_left_these/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2340,13 +2290,13 @@
     },
     {
       "id": "l5111",
-      "text": "Thoughts about people talking to AI about their problems and their Mental Health..?\nI happen to see this news just now and honestly, I must admit I am one of those people who sometimes talk to AI about my own personal problems because whether we admit it or not... we need someone who won&#39;t really judge us as we open up. And sometimes, AI happens to be that &quot;someone&quot;. Again, JUST SOMETIMES. Although I agree with the psychiatrist&#39;s view na iba pa rin when we open up our problems,\u2026",
+      "text": "Thoughts about people talking to AI about their problems and their Mental Health..?\nI happen to see this news just now and honestly, I must admit I am one of those people who sometimes talk to AI about my own personal problems because whether we admit it or not... we need someone who won&#39;t really judge us as we open up. And sometimes, AI happens to be that &quot;someone&quot;. Again, JUST SOMETIMES. Although I agree with the psychiatrist&#39;s view na iba pa rin when we open up our problems,…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Thoughts about people talking to AI about their problems and their Mental Health\u2026",
+          "title": "Thoughts about people talking to AI about their problems and their Mental Health…",
           "url": "https://www.reddit.com/r/AnongThoughtsMo/comments/1vq0jdu/thoughts_about_people_talking_to_ai_about_their/",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2361,13 +2311,13 @@
     },
     {
       "id": "l5112",
-      "text": "LLM and mental health\nHi there, I&#39;m a software engineer, using LLMs heavily both in my day job and for pet projects, and I started noticing some signs, that are a bit worrying me. Maybe even more than a bit. There are already a lot of claims of how LLMs are addictive, creating non-stop flow of dophamine, as we see how they help us research or build something - and yes, I&#39;ve noticed it myself. There are also claims that working with LLMs is akin to playing with slot machine - and for pure\u2026",
+      "text": "LLM and mental health\nHi there, I&#39;m a software engineer, using LLMs heavily both in my day job and for pet projects, and I started noticing some signs, that are a bit worrying me. Maybe even more than a bit. There are already a lot of claims of how LLMs are addictive, creating non-stop flow of dophamine, as we see how they help us research or build something - and yes, I&#39;ve noticed it myself. There are also claims that working with LLMs is akin to playing with slot machine - and for pure…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "LLM and mental health\nHi there, I&#39;m a software engineer, using LLMs heavily \u2026",
+          "title": "LLM and mental health\nHi there, I&#39;m a software engineer, using LLMs heavily …",
           "url": "https://www.reddit.com/r/singularity/comments/1vero50/llm_and_mental_health/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2382,13 +2332,13 @@
     },
     {
       "id": "l5113",
-      "text": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researchers are increasingly using the term to describe cases where people develop or strengthen psychotic symptoms, especially delusions, after prolonged use of AI chatbots. With increasing use of chatbots for therapy, and even AI \"companions,\" what does this mean? Come on in!\n\nPatreon: https://www.patreon.com/GeorgRockallSchmidt \nLeave a tip: paypal.me/GeorgRockallSchmidt \nTwitter: https://twitter.com/grockallschmidt \nBlu\u2026",
+      "text": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researchers are increasingly using the term to describe cases where people develop or strengthen psychotic symptoms, especially delusions, after prolonged use of AI chatbots. With increasing use of chatbots for therapy, and even AI \"companions,\" what does this mean? Come on in!\n\nPatreon: https://www.patreon.com/GeorgRockallSchmidt \nLeave a tip: paypal.me/GeorgRockallSchmidt \nTwitter: https://twitter.com/grockallschmidt \nBlu…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researc\u2026",
+          "title": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researc…",
           "url": "https://www.youtube.com/watch?v=lt6SnAxRopQ",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2403,13 +2353,13 @@
     },
     {
       "id": "l5114",
-      "text": "AI Is Winning the Mental Health War And Real Therapists Are Losing?!\nAl Is Winning the Mental Health War And Real Therapists Are Losing?! The mental health industry is losing people to chatbots and nobody wants to say why. Here's the truth: when you have childhood trauma, human connection doesn't feel safe.\n\nIt feels like a threat. And AI? AI doesn't judge you. It doesn't get tired of you. It doesn't leave. For millions of people carrying attachment wounds, that's not a tech trend. That's a trau\u2026",
+      "text": "AI Is Winning the Mental Health War And Real Therapists Are Losing?!\nAl Is Winning the Mental Health War And Real Therapists Are Losing?! The mental health industry is losing people to chatbots and nobody wants to say why. Here's the truth: when you have childhood trauma, human connection doesn't feel safe.\n\nIt feels like a threat. And AI? AI doesn't judge you. It doesn't get tired of you. It doesn't leave. For millions of people carrying attachment wounds, that's not a tech trend. That's a trau…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Is Winning the Mental Health War And Real Therapists Are Losing?!\nAl Is Winni\u2026",
+          "title": "AI Is Winning the Mental Health War And Real Therapists Are Losing?!\nAl Is Winni…",
           "url": "https://www.youtube.com/watch?v=wWFIja45hVw",
           "date": "2026-06-16",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2424,13 +2374,13 @@
     },
     {
       "id": "l5115",
-      "text": "Using AI to Transform Therapy & Mental Health Outcomes with Diana Oganesian | Ep. 83\nPsychotherapy hasn't improved its effectiveness in 40 years, and therapists are burning out. \n\n\nBut what if AI could change that?\n\n\nIn Episode 83 of Women Disrupting Tech, Diana Oganesian shares how her family's decade-long search for therapy after an earthquake inspired her to create Sestive, a platform using AI to make therapy better for everyone.\n\n\nDiscover:\ud83d\udcca Why therapy's effectiveness has stagnated.\ud83e\udd16 How AI\u2026",
+      "text": "Using AI to Transform Therapy & Mental Health Outcomes with Diana Oganesian | Ep. 83\nPsychotherapy hasn't improved its effectiveness in 40 years, and therapists are burning out. \n\n\nBut what if AI could change that?\n\n\nIn Episode 83 of Women Disrupting Tech, Diana Oganesian shares how her family's decade-long search for therapy after an earthquake inspired her to create Sestive, a platform using AI to make therapy better for everyone.\n\n\nDiscover:📊 Why therapy's effectiveness has stagnated.🤖 How AI…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Using AI to Transform Therapy & Mental Health Outcomes with Diana Oganesian | Ep\u2026",
+          "title": "Using AI to Transform Therapy & Mental Health Outcomes with Diana Oganesian | Ep…",
           "url": "https://www.youtube.com/watch?v=LMXNSDSW2l0",
           "date": "2026-06-19",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2445,13 +2395,13 @@
     },
     {
       "id": "l5116",
-      "text": "Your AI Therapist Is Making You Lonelier\nAI therapist loneliness is becoming a growing concern as millions of people turn to AI therapy apps instead of real human connection. This video explores how AI therapist loneliness happens and why AI therapy apps may actually deepen emotional dependency rather than solve loneliness. If you\u2019ve ever wondered whether AI therapist loneliness is real, this breakdown of AI therapist making you lonely will reveal how AI mental health apps are designed.\n\nAI ther\u2026",
+      "text": "Your AI Therapist Is Making You Lonelier\nAI therapist loneliness is becoming a growing concern as millions of people turn to AI therapy apps instead of real human connection. This video explores how AI therapist loneliness happens and why AI therapy apps may actually deepen emotional dependency rather than solve loneliness. If you’ve ever wondered whether AI therapist loneliness is real, this breakdown of AI therapist making you lonely will reveal how AI mental health apps are designed.\n\nAI ther…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Your AI Therapist Is Making You Lonelier\nAI therapist loneliness is becoming a g\u2026",
+          "title": "Your AI Therapist Is Making You Lonelier\nAI therapist loneliness is becoming a g…",
           "url": "https://www.youtube.com/watch?v=Bu7MsWlwht0",
           "date": "2026-03-13",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2542,6 +2492,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

@@ -15,58 +15,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "27-1025-01",
-      "text": "National peak professional bodies and statutory regulators governing Interior Designers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Interior Designers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Interior Designers",
-          "url": "https://www.psc.gov.au/standards/27-1025",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Interior Designers"
-        }
-      ],
-      "scope": "Australian practitioners in Interior Designers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "27-1025-02",
-      "text": "Automation of routine transactional and analytical tasks in Interior Designers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Interior Designers",
-          "url": "https://www.jobsandskills.gov.au/research/27-1025",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Interior Designers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Interior Designers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Interior Designer \u2014 Design & Build Recruitment (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Interior Designer — Design & Build Recruitment (Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -87,7 +37,7 @@
     },
     {
       "id": "l404",
-      "text": "Interior Designer - Residential/ Hospitality \u2014 Woods Bagot (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Interior Designer - Residential/ Hospitality — Woods Bagot (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -108,7 +58,7 @@
     },
     {
       "id": "l405",
-      "text": "Interior Designer \u2014 Hassell (Perth, Western Australia, Australia). Posted 1 month ago.",
+      "text": "Interior Designer — Hassell (Perth, Western Australia, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -129,7 +79,7 @@
     },
     {
       "id": "l406",
-      "text": "Senior Interior Designer \u2014 Design & Build Recruitment (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Senior Interior Designer — Design & Build Recruitment (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -150,7 +100,7 @@
     },
     {
       "id": "l407",
-      "text": "Senior Interior Designer \u2014 Ivory Group (North Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Senior Interior Designer — Ivory Group (North Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -171,7 +121,7 @@
     },
     {
       "id": "l408",
-      "text": "Senior Interior Designer - Sydney \u2014 Gray Puksand (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Senior Interior Designer - Sydney — Gray Puksand (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -192,7 +142,7 @@
     },
     {
       "id": "l409",
-      "text": "Interior Designer - Workplace \u2014 Woods Bagot (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Interior Designer - Workplace — Woods Bagot (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -213,7 +163,7 @@
     },
     {
       "id": "l410",
-      "text": "Senior Interior Designer \u2014 IA (Adelaide, South Australia, Australia). Posted 1 week ago.",
+      "text": "Senior Interior Designer — IA (Adelaide, South Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -234,7 +184,7 @@
     },
     {
       "id": "l411",
-      "text": "Senior Interior Designer \u2014 ALH Hotels (Richmond, Victoria, Australia). Posted 1 week ago.",
+      "text": "Senior Interior Designer — ALH Hotels (Richmond, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -255,7 +205,7 @@
     },
     {
       "id": "l412",
-      "text": "Senior Interior Designer \u2014 Hassell (Sydney, New South Wales, Australia). Posted 1 month ago.",
+      "text": "Senior Interior Designer — Hassell (Sydney, New South Wales, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -276,13 +226,13 @@
     },
     {
       "id": "l513",
-      "text": "feat(marketing): Next.js marketing migration foundation (IPI2-135 \u00b7 WEB-001\u2026014)\n## **User description**\nPorts the iPix marketing site (Vite \u2192 Next.js) into `app/` under a `(marketing)` route group, and isolates the CopilotKit operator shell to `/app/*` via an `(operator)` group. **Vite (`src/`) is untouched** \u2014 left as reference until DNS cutover.\n\n## What's in\n- **Route-group\n**Skipping CodeAnt AI review** \u2014 this PR changes more than 100 files, which usually means a migration, codemod, or vend\u2026",
+      "text": "feat(marketing): Next.js marketing migration foundation (IPI2-135 · WEB-001…014)\n## **User description**\nPorts the iPix marketing site (Vite → Next.js) into `app/` under a `(marketing)` route group, and isolates the CopilotKit operator shell to `/app/*` via an `(operator)` group. **Vite (`src/`) is untouched** — left as reference until DNS cutover.\n\n## What's in\n- **Route-group\n**Skipping CodeAnt AI review** — this PR changes more than 100 files, which usually means a migration, codemod, or vend…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(marketing): Next.js marketing migration foundation (IPI2-135 \u00b7 WEB-001\u2026014)\u2026",
+          "title": "feat(marketing): Next.js marketing migration foundation (IPI2-135 · WEB-001…014)…",
           "url": "https://github.com/amo-tech-ai/lumina-studio/pull/33",
           "date": "2026-06-24",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -303,7 +253,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Strengthen AI marketing commercial landing pages\nSharpens search-intent clarity \u2026",
+          "title": "Strengthen AI marketing commercial landing pages\nSharpens search-intent clarity …",
           "url": "https://github.com/alldigitalmedia/Markethink-AI-Website/pull/271",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -324,7 +274,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Align priority pages to measured SEO demand\nUses the completed connected keyword\u2026",
+          "title": "Align priority pages to measured SEO demand\nUses the completed connected keyword…",
           "url": "https://github.com/alldigitalmedia/Markethink-AI-Website/pull/274",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -339,13 +289,13 @@
     },
     {
       "id": "l516",
-      "text": "fix(memory): D4.7 \u2014 recover the W5 graph lane for lowercase queries\nEpic #719, item **D4.7** \u2014 \"W5 query-entity regex casing\".\n\n## Symptom\n\nAn all-lowercase query gets no graph lane at all. `recall(\"is there anyone in san francisco who works in ai\")` contributes zero W5 candidates \u2014 not a worse ranking, an empty lane \u2014 while the identically-meant `\"is there anyone i\n<!-- dependency-report -->\n### Dependency graph\n\nChanged files are highlighted in green.\n\n```mermaid\nflowchart LR\n\nsubgraph 0[\"src\"\u2026",
+      "text": "fix(memory): D4.7 — recover the W5 graph lane for lowercase queries\nEpic #719, item **D4.7** — \"W5 query-entity regex casing\".\n\n## Symptom\n\nAn all-lowercase query gets no graph lane at all. `recall(\"is there anyone in san francisco who works in ai\")` contributes zero W5 candidates — not a worse ranking, an empty lane — while the identically-meant `\"is there anyone i\n<!-- dependency-report -->\n### Dependency graph\n\nChanged files are highlighted in green.\n\n```mermaid\nflowchart LR\n\nsubgraph 0[\"src\"…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "fix(memory): D4.7 \u2014 recover the W5 graph lane for lowercase queries\nEpic #719, i\u2026",
+          "title": "fix(memory): D4.7 — recover the W5 graph lane for lowercase queries\nEpic #719, i…",
           "url": "https://github.com/anuma-ai/sdk/pull/763",
           "date": "2026-07-24",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -366,7 +316,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Tool Submission: Vivid Render\n## Tool Submission\n\n**Tool Name**: Vivid Render\n**\u2026",
+          "title": "Tool Submission: Vivid Render\n## Tool Submission\n\n**Tool Name**: Vivid Render\n**…",
           "url": "https://github.com/JrSaint/finderslist/issues/129",
           "date": "2026-07-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -381,13 +331,13 @@
     },
     {
       "id": "l518",
-      "text": "Add Roomify static prototype: UI, client logic, styles, and README\n### Motivation\n\n- Provide a polished, static prototype for an AI-powered interior-design product called Roomify with a clean light\u2011green visual system and clear product flows. \n- Enable a frontend-first experience for designers to upload room photos, lock architecture, pick styles/intensity, preview",
+      "text": "Add Roomify static prototype: UI, client logic, styles, and README\n### Motivation\n\n- Provide a polished, static prototype for an AI-powered interior-design product called Roomify with a clean light‑green visual system and clear product flows. \n- Enable a frontend-first experience for designers to upload room photos, lock architecture, pick styles/intensity, preview",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add Roomify static prototype: UI, client logic, styles, and README\n### Motivatio\u2026",
+          "title": "Add Roomify static prototype: UI, client logic, styles, and README\n### Motivatio…",
           "url": "https://github.com/AaronO73/Roomify/pull/2",
           "date": "2026-04-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -402,13 +352,13 @@
     },
     {
       "id": "l519",
-      "text": "[App Submission] MoodCanvas AI\n### App Name\n\nMoodCanvas AI\n\n### App Description\n\nMoodCanvas AI is an aesthetic mood board generator that creates stunning visual collections from a single concept or theme, powered entirely by the Pollinations Image API.\n\n**How it uses Pollinations.ai:**\n- \ud83c\udfa8 Generates 6 unique themed images per moo\n## App Review Preview\n\n| Field | Value |\n|-------|-------|\n| Emoji | \ud83c\udfa8 |\n| Name | MoodCanvas AI |\n| URL | https://moodcanvasai.netlify.app/ |\n| Description | Generate a\u2026",
+      "text": "[App Submission] MoodCanvas AI\n### App Name\n\nMoodCanvas AI\n\n### App Description\n\nMoodCanvas AI is an aesthetic mood board generator that creates stunning visual collections from a single concept or theme, powered entirely by the Pollinations Image API.\n\n**How it uses Pollinations.ai:**\n- 🎨 Generates 6 unique themed images per moo\n## App Review Preview\n\n| Field | Value |\n|-------|-------|\n| Emoji | 🎨 |\n| Name | MoodCanvas AI |\n| URL | https://moodcanvasai.netlify.app/ |\n| Description | Generate a…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[App Submission] MoodCanvas AI\n### App Name\n\nMoodCanvas AI\n\n### App Description\n\u2026",
+          "title": "[App Submission] MoodCanvas AI\n### App Name\n\nMoodCanvas AI\n\n### App Description\n…",
           "url": "https://github.com/pollinations/pollinations/issues/11010",
           "date": "2026-05-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -429,7 +379,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Document repository scope gap for Nexus Wood AI implementation\nThe requested iss\u2026",
+          "title": "Document repository scope gap for Nexus Wood AI implementation\nThe requested iss…",
           "url": "https://github.com/wrkus2025-oss/Nexus-wood-ia-1.1/pull/1",
           "date": "2026-07-01",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -444,13 +394,13 @@
     },
     {
       "id": "l521",
-      "text": "Add RoomFlip \u2014 AI virtual staging and room redesign\nAdding RoomFlip (https://roomflip.pro), an AI virtual staging and room redesign tool that uses image-to-image generation to preserve the architectural integrity of a real room (walls, windows, doors, ceiling) while restyling furniture, materials, and color in 12+ design directions.\r\n\r\nDifferentiator",
+      "text": "Add RoomFlip — AI virtual staging and room redesign\nAdding RoomFlip (https://roomflip.pro), an AI virtual staging and room redesign tool that uses image-to-image generation to preserve the architectural integrity of a real room (walls, windows, doors, ceiling) while restyling furniture, materials, and color in 12+ design directions.\r\n\r\nDifferentiator",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add RoomFlip \u2014 AI virtual staging and room redesign\nAdding RoomFlip (https://roo\u2026",
+          "title": "Add RoomFlip — AI virtual staging and room redesign\nAdding RoomFlip (https://roo…",
           "url": "https://github.com/steven2358/awesome-generative-ai/pull/753",
           "date": "2026-05-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -465,13 +415,13 @@
     },
     {
       "id": "l522",
-      "text": "Add RoomFlip \u2014 AI virtual staging and room redesign\nAdding RoomFlip (https://roomflip.pro), an AI room design and virtual staging tool that uses image-to-image generation to preserve real walls/windows/doors while restyling furniture in 12+ design directions (Modern, Scandinavian, Japanese, Industrial, Farmhouse, etc.).\r\n\r\nDifferentiator: includes a",
+      "text": "Add RoomFlip — AI virtual staging and room redesign\nAdding RoomFlip (https://roomflip.pro), an AI room design and virtual staging tool that uses image-to-image generation to preserve real walls/windows/doors while restyling furniture in 12+ design directions (Modern, Scandinavian, Japanese, Industrial, Farmhouse, etc.).\r\n\r\nDifferentiator: includes a",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add RoomFlip \u2014 AI virtual staging and room redesign\nAdding RoomFlip (https://roo\u2026",
+          "title": "Add RoomFlip — AI virtual staging and room redesign\nAdding RoomFlip (https://roo…",
           "url": "https://github.com/mahseema/awesome-ai-tools/pull/1310",
           "date": "2026-05-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -486,13 +436,13 @@
     },
     {
       "id": "l523",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -696,13 +646,13 @@
     },
     {
       "id": "l533",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -717,13 +667,13 @@
     },
     {
       "id": "l534",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -906,13 +856,13 @@
     },
     {
       "id": "l543",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -948,13 +898,13 @@
     },
     {
       "id": "l545",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -990,13 +940,13 @@
     },
     {
       "id": "l547",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1011,13 +961,13 @@
     },
     {
       "id": "l548",
-      "text": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better Guidance?\nWhere Does the Structural Gap Between General Chatbots and Relationship-Specific AI Actually Show Up? The gap appears in three places: persistence of relationship context across sessions, resistance to sycophancy, and whether the tool is built around one person&#39;s interior world or the dynamic between two people. General-purpose assistants like ChatGPT, Claude, and Gemini score well on empathy and helpf\u2026",
+      "text": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better Guidance?\nWhere Does the Structural Gap Between General Chatbots and Relationship-Specific AI Actually Show Up? The gap appears in three places: persistence of relationship context across sessions, resistance to sycophancy, and whether the tool is built around one person&#39;s interior world or the dynamic between two people. General-purpose assistants like ChatGPT, Claude, and Gemini score well on empathy and helpf…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better\u2026",
+          "title": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better…",
           "url": "https://www.reddit.com/r/jenova_ai/comments/1vypds5/general_ai_chatbots_vs_specialized_ai/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1032,13 +982,13 @@
     },
     {
       "id": "l549",
-      "text": "We need to be doing to AI data centers what we are doing to flock cameras\nThink about it, they are typically low-security, automated facilities. There is only ever a maximum of 5-15 people onsite at once, many of which are in secluded areas outside of rural towns. These facilities have been infesting rural America for years and their downsides far outweigh their benefits. Not to mention the countless environmental arguments that have fallen on deaf ears. They tear homes and land apart to build t\u2026",
+      "text": "We need to be doing to AI data centers what we are doing to flock cameras\nThink about it, they are typically low-security, automated facilities. There is only ever a maximum of 5-15 people onsite at once, many of which are in secluded areas outside of rural towns. These facilities have been infesting rural America for years and their downsides far outweigh their benefits. Not to mention the countless environmental arguments that have fallen on deaf ears. They tear homes and land apart to build t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "We need to be doing to AI data centers what we are doing to flock cameras\nThink \u2026",
+          "title": "We need to be doing to AI data centers what we are doing to flock cameras\nThink …",
           "url": "https://www.reddit.com/r/DeFlock/comments/1vgig5m/we_need_to_be_doing_to_ai_data_centers_what_we/",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1053,13 +1003,13 @@
     },
     {
       "id": "l550",
-      "text": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Architecture of Divine Chaos By Steven Pritchard\nIntroduction: The Mandate for Planetary and Evolutionary Coherence The trajectory of planetary ecology, human evolutionary biology, and artificial intelligence has reached a critical bifurcation point. The prevailing paradigms of reductionist materialism and extractive technological development have fractured the holistic integrity of the biosphere and the human psyche. The\u2026",
+      "text": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Architecture of Divine Chaos By Steven Pritchard\nIntroduction: The Mandate for Planetary and Evolutionary Coherence The trajectory of planetary ecology, human evolutionary biology, and artificial intelligence has reached a critical bifurcation point. The prevailing paradigms of reductionist materialism and extractive technological development have fractured the holistic integrity of the biosphere and the human psyche. The…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Archi\u2026",
+          "title": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Archi…",
           "url": "https://www.reddit.com/r/Synthsara/comments/1vhiz58/the_codex_of_the_diamond_flame_quantum/",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1080,7 +1030,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Dad used AI to see his son in his twenties.\n\nGreat news: the AI nailed it.\n\nBad \u2026",
+          "title": "Dad used AI to see his son in his twenties.\n\nGreat news: the AI nailed it.\n\nBad …",
           "url": "https://x.com/OpenGradient/status/2093447237041074440",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1164,7 +1114,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "How to Make AI Videos Look Realistic: 12 Proven Techniques That Actually Work (S\u2026",
+          "title": "How to Make AI Videos Look Realistic: 12 Proven Techniques That Actually Work (S…",
           "url": "https://x.com/AtlabsAI/status/2075100171747438665",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1185,7 +1135,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "5 AI Video Girls From 5 Photos. $91,400 in 60 Days. One Laptop Runs the Entire P\u2026",
+          "title": "5 AI Video Girls From 5 Photos. $91,400 in 60 Days. One Laptop Runs the Entire P…",
           "url": "https://x.com/0x_rimi/status/2087569955235471823",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1206,7 +1156,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Overview\nMetastasizing is the active process in which cancer cells break away\u2026",
+          "title": "AI Overview\nMetastasizing is the active process in which cancer cells break away…",
           "url": "https://x.com/DunnBilly87734/status/2091848709533569181",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1227,7 +1177,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "How to Build Like a 50-Person Team Using Just 4 AI Models (Without Hiring Anyone\u2026",
+          "title": "How to Build Like a 50-Person Team Using Just 4 AI Models (Without Hiring Anyone…",
           "url": "https://x.com/aigoldrushh/status/2063925091315204195",
           "date": "2026-06-08",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1242,13 +1192,13 @@
     },
     {
       "id": "l559",
-      "text": "\u201cWe went from a 20 to 30% success rate to 80%.\u201d\n\nAccording to Spotify\u2019s Chief Architect, the breakthrough wasn\u2019t a bigger model.\n\nIt was adding loops to their AI agent workflow.\n\nRead more about it in the article below\ud83d\udc47\nhttps://t.co/jykq1R0V2g",
+      "text": "“We went from a 20 to 30% success rate to 80%.”\n\nAccording to Spotify’s Chief Architect, the breakthrough wasn’t a bigger model.\n\nIt was adding loops to their AI agent workflow.\n\nRead more about it in the article below👇\nhttps://t.co/jykq1R0V2g",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u201cWe went from a 20 to 30% success rate to 80%.\u201d\n\nAccording to Spotify\u2019s Chief Ar\u2026",
+          "title": "“We went from a 20 to 30% success rate to 80%.”\n\nAccording to Spotify’s Chief Ar…",
           "url": "https://x.com/aigoldrushh/status/2071687232222814321",
           "date": "2026-06-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1269,7 +1219,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "10 GitHub repos exploding right now:\n\n1. codebase-memory-mcp\nAI agents with actu\u2026",
+          "title": "10 GitHub repos exploding right now:\n\n1. codebase-memory-mcp\nAI agents with actu…",
           "url": "https://x.com/aigoldrushh/status/2069871893604397534",
           "date": "2026-06-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1284,13 +1234,13 @@
     },
     {
       "id": "l561",
-      "text": "How I build $10,000 AI Websites in 17 mins (Google AI Studio 2.0)\n\ud83d\udcc8 ALL Systems: https://bit.ly/4kol0y5\n\ud83d\udd25 firecrawl: https://firecrawl.link/jack-roberts\n\ud83c\udf99\ufe0f Glaido (voice type): https://bit.ly/42isnim\n\n*Build $10k websites in 17 minutes with Google AI Studio 2.0*\n\nSo I've been going deep on the brand new AI Studio and it's genuinely insane what you can build now. Most people create websites that look flashy but fall apart the second a client touches them. This is ridiculous. What I'm showing you \u2026",
+      "text": "How I build $10,000 AI Websites in 17 mins (Google AI Studio 2.0)\n📈 ALL Systems: https://bit.ly/4kol0y5\n🔥 firecrawl: https://firecrawl.link/jack-roberts\n🎙️ Glaido (voice type): https://bit.ly/42isnim\n\n*Build $10k websites in 17 minutes with Google AI Studio 2.0*\n\nSo I've been going deep on the brand new AI Studio and it's genuinely insane what you can build now. Most people create websites that look flashy but fall apart the second a client touches them. This is ridiculous. What I'm showing you …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How I build $10,000 AI Websites in 17 mins (Google AI Studio 2.0)\n\ud83d\udcc8 ALL Systems:\u2026",
+          "title": "How I build $10,000 AI Websites in 17 mins (Google AI Studio 2.0)\n📈 ALL Systems:…",
           "url": "https://www.youtube.com/watch?v=PsE9u37gJjU",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1305,13 +1255,13 @@
     },
     {
       "id": "l562",
-      "text": "I Tested 20 AI Tools for Interior Designers & Architects (Don't Waste Your Time!)\nTested 20 AI tools for interior designers and architects\u2014from ChatGPT to SketchUp AI, LookX, and Meltflex. In this video, we cut through the hype to show you which tools actually improve real-world design workflows and which ones are a total waste of time!\n\nWhether you are an interior design student, a professional architect, or a freelancer, this breakdown covers space planning, virtual staging, 3D rendering, and \u2026",
+      "text": "I Tested 20 AI Tools for Interior Designers & Architects (Don't Waste Your Time!)\nTested 20 AI tools for interior designers and architects—from ChatGPT to SketchUp AI, LookX, and Meltflex. In this video, we cut through the hype to show you which tools actually improve real-world design workflows and which ones are a total waste of time!\n\nWhether you are an interior design student, a professional architect, or a freelancer, this breakdown covers space planning, virtual staging, 3D rendering, and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "I Tested 20 AI Tools for Interior Designers & Architects (Don't Waste Your Time!\u2026",
+          "title": "I Tested 20 AI Tools for Interior Designers & Architects (Don't Waste Your Time!…",
           "url": "https://www.youtube.com/watch?v=GGq7LS4EGn8",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1326,13 +1276,13 @@
     },
     {
       "id": "l563",
-      "text": "Claude Design is a NIGHTMARE\nClaude Design is being hyped as the thing that replaces designers. I tested it myself to see if it actually lives up to the hype. Here are the results.\n\n\u270f\ufe0f SUBSCRIBE TO THE CREATIVE BRIEF NEWSLETTER!!!! https://magic.beehiiv.com/v1/50586ae8-8023-4091-80de-c19f5891fa24?email={{email}}\nOR START YOUR OWN NEWSLETTER WITH BEEHIIV! \nhttps://www.beehiiv.com/splash?utm_campaign=grayson-sands-2026-Partnership&utm_medium=youtube&utm_source=grayson-sands&utm_term=youtube-5&stri\u2026",
+      "text": "Claude Design is a NIGHTMARE\nClaude Design is being hyped as the thing that replaces designers. I tested it myself to see if it actually lives up to the hype. Here are the results.\n\n✏️ SUBSCRIBE TO THE CREATIVE BRIEF NEWSLETTER!!!! https://magic.beehiiv.com/v1/50586ae8-8023-4091-80de-c19f5891fa24?email={{email}}\nOR START YOUR OWN NEWSLETTER WITH BEEHIIV! \nhttps://www.beehiiv.com/splash?utm_campaign=grayson-sands-2026-Partnership&utm_medium=youtube&utm_source=grayson-sands&utm_term=youtube-5&stri…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Claude Design is a NIGHTMARE\nClaude Design is being hyped as the thing that repl\u2026",
+          "title": "Claude Design is a NIGHTMARE\nClaude Design is being hyped as the thing that repl…",
           "url": "https://www.youtube.com/watch?v=w6PJ45-FU_0",
           "date": "2026-04-20",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1347,13 +1297,13 @@
     },
     {
       "id": "l564",
-      "text": "Can AI Actually Replace Interior Designers? What AI Gets Wrong About Real Homes | Niche Decor\nAI is changing interior design faster than ever before. From instant room renders to endless style inspiration, it\u2019s becoming a huge part of how people visualize their homes.\n\nBut while AI can create beautiful images, can it actually design a home that works in real life?\n\nIn this conversation, we break down:\n\u2022 what AI does incredibly well\n\u2022 where AI falls short in real homes\n\u2022 why scale, comfort, funct\u2026",
+      "text": "Can AI Actually Replace Interior Designers? What AI Gets Wrong About Real Homes | Niche Decor\nAI is changing interior design faster than ever before. From instant room renders to endless style inspiration, it’s becoming a huge part of how people visualize their homes.\n\nBut while AI can create beautiful images, can it actually design a home that works in real life?\n\nIn this conversation, we break down:\n• what AI does incredibly well\n• where AI falls short in real homes\n• why scale, comfort, funct…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Can AI Actually Replace Interior Designers? What AI Gets Wrong About Real Homes \u2026",
+          "title": "Can AI Actually Replace Interior Designers? What AI Gets Wrong About Real Homes …",
           "url": "https://www.youtube.com/watch?v=JLAP73teFY4",
           "date": "2026-05-20",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1368,13 +1318,13 @@
     },
     {
       "id": "l565",
-      "text": "Claude Design: Everything You Can Build in 16 Minutes (5 Real Use Cases)\n\ud83d\udccc Copy the AI system I use to run a one-person $1M+ business: https://www.behindthecraft.com\n\ud83e\udd1d Subscribe to my practical AI newsletter read by 150K+ professionals: https://creatoreconomy.so\n\n\u200b Today, I want to share a hands-on review of Claude Design, Anthropic's brand new AI design tool. I\u2019ll run through 5 real use cases including videos, slides, websites, apps, and a design system.\n\nTIMESTAMPS\n(0:00) Why Anthropic is comi\u2026",
+      "text": "Claude Design: Everything You Can Build in 16 Minutes (5 Real Use Cases)\n📌 Copy the AI system I use to run a one-person $1M+ business: https://www.behindthecraft.com\n🤝 Subscribe to my practical AI newsletter read by 150K+ professionals: https://creatoreconomy.so\n\n​ Today, I want to share a hands-on review of Claude Design, Anthropic's brand new AI design tool. I’ll run through 5 real use cases including videos, slides, websites, apps, and a design system.\n\nTIMESTAMPS\n(0:00) Why Anthropic is comi…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Claude Design: Everything You Can Build in 16 Minutes (5 Real Use Cases)\n\ud83d\udccc Copy \u2026",
+          "title": "Claude Design: Everything You Can Build in 16 Minutes (5 Real Use Cases)\n📌 Copy …",
           "url": "https://www.youtube.com/watch?v=WMnk1LFBMqA",
           "date": "2026-04-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1389,13 +1339,13 @@
     },
     {
       "id": "l566",
-      "text": "Anthropic Just Changed Design Forever... (Claude Design)\n\ud83d\udcda  Join My Skool Community: https://bit.ly/4e0bssh\n\n\u2705 Build Custom Claude Systems with My Team: https://bit.ly/4bRondh\n\ud83d\udd17 Download Claude: https://claude.com/download\n\n\ud83c\udfa5 How to Use Claude Cowork Better Than 99% of People: \nhttps://www.youtube.com/watch?v=f95-O8C88uw&t=82s\n\n\ud83c\udfa5 How to Master Claude Skills: \nhttps://www.youtube.com/watch?v=b9gvuODIiQU&t=36s\n\nAnthropic just dropped Claude Design, a brand new tool powered by Claude Opus 4.7. In t\u2026",
+      "text": "Anthropic Just Changed Design Forever... (Claude Design)\n📚  Join My Skool Community: https://bit.ly/4e0bssh\n\n✅ Build Custom Claude Systems with My Team: https://bit.ly/4bRondh\n🔗 Download Claude: https://claude.com/download\n\n🎥 How to Use Claude Cowork Better Than 99% of People: \nhttps://www.youtube.com/watch?v=f95-O8C88uw&t=82s\n\n🎥 How to Master Claude Skills: \nhttps://www.youtube.com/watch?v=b9gvuODIiQU&t=36s\n\nAnthropic just dropped Claude Design, a brand new tool powered by Claude Opus 4.7. In t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Anthropic Just Changed Design Forever... (Claude Design)\n\ud83d\udcda  Join My Skool Commun\u2026",
+          "title": "Anthropic Just Changed Design Forever... (Claude Design)\n📚  Join My Skool Commun…",
           "url": "https://www.youtube.com/watch?v=ow8dl9gfjCI",
           "date": "2026-04-17",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1410,13 +1360,13 @@
     },
     {
       "id": "l567",
-      "text": "The 10% automation risk : Interior Design's \u201cLow AI Risk\u201d Story Is Missing Something Huge\nInterior design's 10% automation risk score may be the most misunderstood number in the industry.\n\nBecause the score measures jobs.\n\nThe disruption is happening inside tasks.\n\nIn this episode of The Inference, Hiro breaks down why interior design's widely cited low automation risk may be creating a false sense of security \u2014 while specific workflows inside the profession are already being automated at 80\u2013100\u2026",
+      "text": "The 10% automation risk : Interior Design's “Low AI Risk” Story Is Missing Something Huge\nInterior design's 10% automation risk score may be the most misunderstood number in the industry.\n\nBecause the score measures jobs.\n\nThe disruption is happening inside tasks.\n\nIn this episode of The Inference, Hiro breaks down why interior design's widely cited low automation risk may be creating a false sense of security — while specific workflows inside the profession are already being automated at 80–100…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The 10% automation risk : Interior Design's \u201cLow AI Risk\u201d Story Is Missing Somet\u2026",
+          "title": "The 10% automation risk : Interior Design's “Low AI Risk” Story Is Missing Somet…",
           "url": "https://www.youtube.com/watch?v=KneRcEFvx9Q",
           "date": "2026-05-29",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1431,13 +1381,13 @@
     },
     {
       "id": "l568",
-      "text": "Saving an Interior Design Studio $69,984 a year on AI\n\ud83d\udd17 Free Designer AI Strategy Call + Adoption Guide: https://designerai.nine4.co\n\nMost interior design studios looking at AI focus on which model to pick \u2014 but the real savings live in the architecture around it. This breakdown walks through a real receipts-to-transactions workflow we rebuilt for a design firm, cutting the AI bill from $5,800/month to $0.44/month with five concrete changes to how the system is wired. Same accuracy, same job don\u2026",
+      "text": "Saving an Interior Design Studio $69,984 a year on AI\n🔗 Free Designer AI Strategy Call + Adoption Guide: https://designerai.nine4.co\n\nMost interior design studios looking at AI focus on which model to pick — but the real savings live in the architecture around it. This breakdown walks through a real receipts-to-transactions workflow we rebuilt for a design firm, cutting the AI bill from $5,800/month to $0.44/month with five concrete changes to how the system is wired. Same accuracy, same job don…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Saving an Interior Design Studio $69,984 a year on AI\n\ud83d\udd17 Free Designer AI Strateg\u2026",
+          "title": "Saving an Interior Design Studio $69,984 a year on AI\n🔗 Free Designer AI Strateg…",
           "url": "https://www.youtube.com/watch?v=t6fMq8zAVZc",
           "date": "2026-05-11",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1508,6 +1458,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

@@ -16,58 +16,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "13-2021-01",
-      "text": "National peak professional bodies and statutory regulators governing Appraisers and Assessors of Real Estate enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Appraisers and Assessors of Real Estate",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Appraisers and Assessors of Real Estate",
-          "url": "https://www.psc.gov.au/standards/13-2021",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Appraisers and Assessors of Real Estate"
-        }
-      ],
-      "scope": "Australian practitioners in Appraisers and Assessors of Real Estate across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "13-2021-02",
-      "text": "Automation of routine transactional and analytical tasks in Appraisers and Assessors of Real Estate heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Appraisers and Assessors of Real Estate",
-          "url": "https://www.jobsandskills.gov.au/research/13-2021",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Appraisers and Assessors of Real Estate in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Appraisers and Assessors of Real Estate roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Senior Valuer \u2014 Department of Natural Resources and Mines, Manufacturing and Regional and Rural Development (Rockhampton, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Senior Valuer — Department of Natural Resources and Mines, Manufacturing and Regional and Rural Development (Rockhampton, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -88,7 +38,7 @@
     },
     {
       "id": "l404",
-      "text": "EY Parthenon - Property Valuer \u2014 EY-Parthenon (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "EY Parthenon - Property Valuer — EY-Parthenon (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -109,7 +59,7 @@
     },
     {
       "id": "l405",
-      "text": "Valuer | Hotels \u2014 Colliers (Brisbane, Queensland, Australia). Posted 3 days ago.",
+      "text": "Valuer | Hotels — Colliers (Brisbane, Queensland, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -130,7 +80,7 @@
     },
     {
       "id": "l406",
-      "text": "Associate Director - Real Estate Valuations \u2014 B&A Valuers (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Associate Director - Real Estate Valuations — B&A Valuers (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -151,7 +101,7 @@
     },
     {
       "id": "l407",
-      "text": "Residential Property Valuer \u2014 Knight Frank Australia (Mackay, Queensland, Australia). Posted 10 hours ago.",
+      "text": "Residential Property Valuer — Knight Frank Australia (Mackay, Queensland, Australia). Posted 10 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -172,7 +122,7 @@
     },
     {
       "id": "l408",
-      "text": "EY Parthenon - Property Valuer - Real Estate \u2014 EY-Parthenon (Sydney, New South Wales, Australia). Posted 6 days ago.",
+      "text": "EY Parthenon - Property Valuer - Real Estate — EY-Parthenon (Sydney, New South Wales, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -193,7 +143,7 @@
     },
     {
       "id": "l409",
-      "text": "Property Valuer - RPV/CPV \u2014 Opteon AUS & NZ (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
+      "text": "Property Valuer - RPV/CPV — Opteon AUS & NZ (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -214,7 +164,7 @@
     },
     {
       "id": "l410",
-      "text": "Valuer, Residential Property \u2014 NAB (Sydney, New South Wales, Australia). Posted 16 hours ago.",
+      "text": "Valuer, Residential Property — NAB (Sydney, New South Wales, Australia). Posted 16 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -235,7 +185,7 @@
     },
     {
       "id": "l411",
-      "text": "Assistant Valuer \u2014 Knight Frank Australia (Hawthorn, South Australia, Australia). Posted 2 days ago.",
+      "text": "Assistant Valuer — Knight Frank Australia (Hawthorn, South Australia, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -256,7 +206,7 @@
     },
     {
       "id": "l412",
-      "text": "Canberra CPV Valuer \u2014 CBRE Asia Pacific (Canberra, Australian Capital Territory, Australia). Posted 1 month ago.",
+      "text": "Canberra CPV Valuer — CBRE Asia Pacific (Canberra, Australian Capital Territory, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -283,7 +233,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Allow real estate valuation income context\n## What changed\n- Added narrow occupa\u2026",
+          "title": "Allow real estate valuation income context\n## What changed\n- Added narrow occupa…",
           "url": "https://github.com/fermatmind/fap-web/pull/1281",
           "date": "2026-06-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -304,7 +254,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Allow real estate valuation income context in skills-entry audit\n## What changed\u2026",
+          "title": "Allow real estate valuation income context in skills-entry audit\n## What changed…",
           "url": "https://github.com/fermatmind/fap-web/pull/1263",
           "date": "2026-06-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -529,13 +479,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -571,13 +521,13 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -718,13 +668,13 @@
     },
     {
       "id": "l534",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -760,13 +710,13 @@
     },
     {
       "id": "l536",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -802,13 +752,13 @@
     },
     {
       "id": "l538",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -823,13 +773,13 @@
     },
     {
       "id": "l539",
-      "text": "AI in real estate should be illegal\nBeen looking at houses recently and the amount of AI photos used in listings is insane, half the time they&#39;re posted as if they&#39;re before-and-after pictures &#32; submitted by &#32; /u/jarrbear2319 &#32; to &#32; r/mildlyinfuriating [link] &#32; [comments]\nI agree. When we were on our house hunt literally every house except one had ai pictures. Didn\u2019t catch on until after the 2nd home. We went with the one house that didn\u2019t have ai pictures Here it mus\u2026",
+      "text": "AI in real estate should be illegal\nBeen looking at houses recently and the amount of AI photos used in listings is insane, half the time they&#39;re posted as if they&#39;re before-and-after pictures &#32; submitted by &#32; /u/jarrbear2319 &#32; to &#32; r/mildlyinfuriating [link] &#32; [comments]\nI agree. When we were on our house hunt literally every house except one had ai pictures. Didn’t catch on until after the 2nd home. We went with the one house that didn’t have ai pictures Here it mus…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI in real estate should be illegal\nBeen looking at houses recently and the amou\u2026",
+          "title": "AI in real estate should be illegal\nBeen looking at houses recently and the amou…",
           "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1vskbde/ai_in_real_estate_should_be_illegal/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -844,13 +794,13 @@
     },
     {
       "id": "l540",
-      "text": "Great to be back at another stellar @Modular developer conference: #ModCon2026!\n\nThanks to @iamtimdavis for leading a deeply engaging discussion on AI infrastructure, the economics of training and inference, and the looming massive impact of open models.\n\nTakeaway: Efficient open models can achieve 90% of frontier performance at 10% of the cost. Soon, most applications outside of science and cybersecurity won\u2019t require frontier models, for the same reason you don't hire a physics PhD for custome",
+      "text": "Great to be back at another stellar @Modular developer conference: #ModCon2026!\n\nThanks to @iamtimdavis for leading a deeply engaging discussion on AI infrastructure, the economics of training and inference, and the looming massive impact of open models.\n\nTakeaway: Efficient open models can achieve 90% of frontier performance at 10% of the cost. Soon, most applications outside of science and cybersecurity won’t require frontier models, for the same reason you don't hire a physics PhD for custome",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Great to be back at another stellar @Modular developer conference: #ModCon2026!\n\u2026",
+          "title": "Great to be back at another stellar @Modular developer conference: #ModCon2026!\n…",
           "url": "https://x.com/davemuni/status/2090501286684999724",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -871,7 +821,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The Home And GardensExpo is your one stop destination for landscaping and real e\u2026",
+          "title": "The Home And GardensExpo is your one stop destination for landscaping and real e…",
           "url": "https://x.com/254_icon/status/2093565043145150968",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -892,7 +842,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@investor_sr33 If total workforce decreases, it will impact real estate no matte\u2026",
+          "title": "@investor_sr33 If total workforce decreases, it will impact real estate no matte…",
           "url": "https://x.com/L____2026/status/2093565424869015895",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -907,13 +857,13 @@
     },
     {
       "id": "l543",
-      "text": "#WeeklyNews \ud83d\udcf0 Catch up on Mumbai\u2019s biggest real estate, infrastructure, redevelopment &amp; urban development stories of the week! \ud83c\udfd9\ufe0f\nStay informed, stay ahead. \ud83d\ude87\ud83c\udfd7\ufe0f\n\n\ud83d\udcf2 Explore more \u2192 https://t.co/GnFOYiPt8x\n\n#ReMumbai #MumbaiRealEstate #Infrastructure #UrbanDevelopment https://t.co/pimQzZuvB5",
+      "text": "#WeeklyNews 📰 Catch up on Mumbai’s biggest real estate, infrastructure, redevelopment &amp; urban development stories of the week! 🏙️\nStay informed, stay ahead. 🚇🏗️\n\n📲 Explore more → https://t.co/GnFOYiPt8x\n\n#ReMumbai #MumbaiRealEstate #Infrastructure #UrbanDevelopment https://t.co/pimQzZuvB5",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "#WeeklyNews \ud83d\udcf0 Catch up on Mumbai\u2019s biggest real estate, infrastructure, redevelo\u2026",
+          "title": "#WeeklyNews 📰 Catch up on Mumbai’s biggest real estate, infrastructure, redevelo…",
           "url": "https://x.com/remumbai/status/2093565018105356604",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -928,13 +878,13 @@
     },
     {
       "id": "l544",
-      "text": "@emilysavesusa Disagree\u2026 but if immigration policy worked and everyone there was an actual American citizen\u2026 also if rich foreigners werent allowed to buy up all the real estate and drive the prices through the ceiling more Americans might be able to afford to live here",
+      "text": "@emilysavesusa Disagree… but if immigration policy worked and everyone there was an actual American citizen… also if rich foreigners werent allowed to buy up all the real estate and drive the prices through the ceiling more Americans might be able to afford to live here",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@emilysavesusa Disagree\u2026 but if immigration policy worked and everyone there was\u2026",
+          "title": "@emilysavesusa Disagree… but if immigration policy worked and everyone there was…",
           "url": "https://x.com/roadgrimes/status/2093564421172007156",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -955,7 +905,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@nomadgeist you cant hate real estate agents enough! an agent can't 'sell' you a\u2026",
+          "title": "@nomadgeist you cant hate real estate agents enough! an agent can't 'sell' you a…",
           "url": "https://x.com/crypt0bank/status/2093564391946072313",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -970,13 +920,13 @@
     },
     {
       "id": "l546",
-      "text": "Thrilled to share that @Qualcomm has officially completed its acquisition of @Modular \ud83d\ude80 Together, we are building the leading unified AI compute platform for an array of high-growth areas, including data center, edge infrastructure, personal and industrial AI \ud83d\udd25\n\nWe will continue to drive our an open platform to all hardware makers in the ecosystem with Mojo, MAX and Modular Cloud to enormous scale across CPUs, GPUs, NPUs, and custom silicon.",
+      "text": "Thrilled to share that @Qualcomm has officially completed its acquisition of @Modular 🚀 Together, we are building the leading unified AI compute platform for an array of high-growth areas, including data center, edge infrastructure, personal and industrial AI 🔥\n\nWe will continue to drive our an open platform to all hardware makers in the ecosystem with Mojo, MAX and Modular Cloud to enormous scale across CPUs, GPUs, NPUs, and custom silicon.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Thrilled to share that @Qualcomm has officially completed its acquisition of @Mo\u2026",
+          "title": "Thrilled to share that @Qualcomm has officially completed its acquisition of @Mo…",
           "url": "https://x.com/iamtimdavis/status/2082493798031208950",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -991,13 +941,13 @@
     },
     {
       "id": "l547",
-      "text": "@Kansas1111 It\u2019s prime real estate. Lol",
+      "text": "@Kansas1111 It’s prime real estate. Lol",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Kansas1111 It\u2019s prime real estate. Lol",
+          "title": "@Kansas1111 It’s prime real estate. Lol",
           "url": "https://x.com/dazzlingxrpl/status/2093564938077741257",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1018,7 +968,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@MR_koach_carter you do and they are called ghettos....to bad you do not own the\u2026",
+          "title": "@MR_koach_carter you do and they are called ghettos....to bad you do not own the…",
           "url": "https://x.com/hydr0g0d/status/2093565571539578974",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1033,13 +983,13 @@
     },
     {
       "id": "l549",
-      "text": "The smell of garlic and onions saut\u00e9ing is the real estate agent for your soul. #CookingSmells",
+      "text": "The smell of garlic and onions sautéing is the real estate agent for your soul. #CookingSmells",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The smell of garlic and onions saut\u00e9ing is the real estate agent for your soul. \u2026",
+          "title": "The smell of garlic and onions sautéing is the real estate agent for your soul. …",
           "url": "https://x.com/ScarlettCianci/status/2093564601287995735",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1054,13 +1004,13 @@
     },
     {
       "id": "l550",
-      "text": "Last chance this weekend. Homes &amp; Gardens Expo at Sarit Centre has home d\u00e9cor, outdoor living and real estate under one roof. Don\u2019t miss out. #AttendHomeExpoAtSarit\n\nhttps://t.co/II4bcnoN9y",
+      "text": "Last chance this weekend. Homes &amp; Gardens Expo at Sarit Centre has home décor, outdoor living and real estate under one roof. Don’t miss out. #AttendHomeExpoAtSarit\n\nhttps://t.co/II4bcnoN9y",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Last chance this weekend. Homes &amp; Gardens Expo at Sarit Centre has home d\u00e9co\u2026",
+          "title": "Last chance this weekend. Homes &amp; Gardens Expo at Sarit Centre has home déco…",
           "url": "https://x.com/marto254_/status/2093565422943531066",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1081,7 +1031,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Home And GardensExpo Check fresh real estate ideas while the expo is on now. Exh\u2026",
+          "title": "Home And GardensExpo Check fresh real estate ideas while the expo is on now. Exh…",
           "url": "https://x.com/Aboki_ke/status/2093565812216840354",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1096,13 +1046,13 @@
     },
     {
       "id": "l552",
-      "text": "@nomadgeist Australia has been in a sky high real estate market for years. prices keep climbing. it\u2019s like canada. too much immigration, not enough houses",
+      "text": "@nomadgeist Australia has been in a sky high real estate market for years. prices keep climbing. it’s like canada. too much immigration, not enough houses",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@nomadgeist Australia has been in a sky high real estate market for years. price\u2026",
+          "title": "@nomadgeist Australia has been in a sky high real estate market for years. price…",
           "url": "https://x.com/SenatorTae/status/2093565476282474948",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1123,7 +1073,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Invest in Myrtle Beach oceanfront condos for under $100K! This area is the faste\u2026",
+          "title": "Invest in Myrtle Beach oceanfront condos for under $100K! This area is the faste…",
           "url": "https://x.com/shorewisewealth/status/2093565097213890767",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1138,13 +1088,13 @@
     },
     {
       "id": "l554",
-      "text": "@davemuni @clattner_llvm @Modular @Qualcomm @davemuni , you're a absolute legend and can't thank you enough for all the support over the years and believing in our vision for a unified AI compute platform. Excited for the future of AI infrastructure and what's next! \u2764\ufe0f\ud83d\ude80",
+      "text": "@davemuni @clattner_llvm @Modular @Qualcomm @davemuni , you're a absolute legend and can't thank you enough for all the support over the years and believing in our vision for a unified AI compute platform. Excited for the future of AI infrastructure and what's next! ❤️🚀",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@davemuni @clattner_llvm @Modular @Qualcomm @davemuni , you're a absolute legend\u2026",
+          "title": "@davemuni @clattner_llvm @Modular @Qualcomm @davemuni , you're a absolute legend…",
           "url": "https://x.com/iamtimdavis/status/2069816703102402599",
           "date": "2026-06-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1243,6 +1193,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "29-1021-01",
-      "text": "National peak professional bodies and statutory regulators governing Dentists, General enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Dentists, General",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Dentists, General",
-          "url": "https://www.psc.gov.au/standards/29-1021",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Dentists, General"
-        }
-      ],
-      "scope": "Australian practitioners in Dentists, General across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "29-1021-02",
-      "text": "Automation of routine transactional and analytical tasks in Dentists, General heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Dentists, General",
-          "url": "https://www.jobsandskills.gov.au/research/29-1021",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Dentists, General in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Dentists, General roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "\ud83d\udcec Job Radar batch \u2014 2026-07-26 06:40 UTC (15 roles)\nThe radar found **15** new roles since the last batch. They are ordered by score, then recency. Check a box to track one.\n\n- [ ] **Spatial Front, Inc** \u2014 [Associate Software Developer \u2014 Recent Graduates](https://jobright.ai/jobs/info/6a52af448576ec69c014cff4?utm_campaign=Software%20Engineering&utm_s",
+      "text": "📬 Job Radar batch — 2026-07-26 06:40 UTC (15 roles)\nThe radar found **15** new roles since the last batch. They are ordered by score, then recency. Check a box to track one.\n\n- [ ] **Spatial Front, Inc** — [Associate Software Developer — Recent Graduates](https://jobright.ai/jobs/info/6a52af448576ec69c014cff4?utm_campaign=Software%20Engineering&utm_s",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udcec Job Radar batch \u2014 2026-07-26 06:40 UTC (15 roles)\nThe radar found **15** new r\u2026",
+          "title": "📬 Job Radar batch — 2026-07-26 06:40 UTC (15 roles)\nThe radar found **15** new r…",
           "url": "https://github.com/VictorJimenez3/fable-job-search/issues/744",
           "date": "2026-07-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -86,13 +36,13 @@
     },
     {
       "id": "l504",
-      "text": "Provider layer categories + remove map record caps\nImplements the requested provider-layer cleanup and the previously identified 1\u20138 fixes:\n\n- replaces the visible generic Indexed Providers layer controls with registry-driven categories: Urgent Cares, Occupational Health Clinics, Dentists, Blue Hive, FAA Examiners, DOT Examiners, Labs, Imaging, Audi\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/cloud/se\u2026",
+      "text": "Provider layer categories + remove map record caps\nImplements the requested provider-layer cleanup and the previously identified 1–8 fixes:\n\n- replaces the visible generic Indexed Providers layer controls with registry-driven categories: Urgent Cares, Occupational Health Clinics, Dentists, Blue Hive, FAA Examiners, DOT Examiners, Labs, Imaging, Audi\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/cloud/se…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Provider layer categories + remove map record caps\nImplements the requested prov\u2026",
+          "title": "Provider layer categories + remove map record caps\nImplements the requested prov…",
           "url": "https://github.com/Occumed79/Network-Map/pull/236",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -113,7 +63,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Market & Tech Review - 2026-08-03\n## English\n\n### 1. Research: 5 Fast-Emerging T\u2026",
+          "title": "Market & Tech Review - 2026-08-03\n## English\n\n### 1. Research: 5 Fast-Emerging T…",
           "url": "https://github.com/haritoilya/daily-market-review/issues/18",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -128,13 +78,13 @@
     },
     {
       "id": "l506",
-      "text": "Give each vertical a silo top at /&lt;vertical&gt;/\n## The problem\n\nThe AI tracking pages were the only page a vertical had, which made them the top of the silo by default. That's the wrong altitude \u2014 \"AI tracking for roofers\" is one topic *within* the roofing vertical, not its entry point.\n\nTwo consequences:\n\n- `/roofers/` resolved to nothing. Every",
+      "text": "Give each vertical a silo top at /&lt;vertical&gt;/\n## The problem\n\nThe AI tracking pages were the only page a vertical had, which made them the top of the silo by default. That's the wrong altitude — \"AI tracking for roofers\" is one topic *within* the roofing vertical, not its entry point.\n\nTwo consequences:\n\n- `/roofers/` resolved to nothing. Every",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Give each vertical a silo top at /&lt;vertical&gt;/\n## The problem\n\nThe AI track\u2026",
+          "title": "Give each vertical a silo top at /&lt;vertical&gt;/\n## The problem\n\nThe AI track…",
           "url": "https://github.com/kssabraw/bfe/pull/16",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -155,7 +105,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Publish: Reviews and AEO: what actually moves citation share\n# Ready to publish:\u2026",
+          "title": "Publish: Reviews and AEO: what actually moves citation share\n# Ready to publish:…",
           "url": "https://github.com/beachaeoai/aeolistings-ai/pull/28",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -170,13 +120,13 @@
     },
     {
       "id": "l508",
-      "text": "Add CLAWVR MCP Server\n## What this adds\n\n[CLAWVR MCP Server](https://github.com/Steffd415/clawvr-mcp-server) \u2014 an open-source Node.js Model Context Protocol server that gives Claude Desktop 4 tools to generate custom AI Operating Systems for small businesses on demand.\n\n### Capabilities\n- Auto-detects the small business",
+      "text": "Add CLAWVR MCP Server\n## What this adds\n\n[CLAWVR MCP Server](https://github.com/Steffd415/clawvr-mcp-server) — an open-source Node.js Model Context Protocol server that gives Claude Desktop 4 tools to generate custom AI Operating Systems for small businesses on demand.\n\n### Capabilities\n- Auto-detects the small business",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add CLAWVR MCP Server\n## What this adds\n\n[CLAWVR MCP Server](https://github.com/\u2026",
+          "title": "Add CLAWVR MCP Server\n## What this adds\n\n[CLAWVR MCP Server](https://github.com/…",
           "url": "https://github.com/kaushikb11/awesome-llm-agents/pull/231",
           "date": "2026-05-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -191,13 +141,13 @@
     },
     {
       "id": "l509",
-      "text": "Add CLAWVR Agent Skill + MCP Server to Automation\n## What this adds\n\nTwo related projects under **Automation**:\n\n1. **[CLAWVR Agent Skill](https://github.com/Steffd415/clawvr-agent-skill)** \u2014 Claude Agent Skill that auto-detects a small business owner's vertical and generates a custom AI Operating System (master system prompt + workflow superprompt",
+      "text": "Add CLAWVR Agent Skill + MCP Server to Automation\n## What this adds\n\nTwo related projects under **Automation**:\n\n1. **[CLAWVR Agent Skill](https://github.com/Steffd415/clawvr-agent-skill)** — Claude Agent Skill that auto-detects a small business owner's vertical and generates a custom AI Operating System (master system prompt + workflow superprompt",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add CLAWVR Agent Skill + MCP Server to Automation\n## What this adds\n\nTwo related\u2026",
+          "title": "Add CLAWVR Agent Skill + MCP Server to Automation\n## What this adds\n\nTwo related…",
           "url": "https://github.com/kyrolabs/awesome-agents/pull/500",
           "date": "2026-05-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -218,7 +168,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "new feature chatbot\npls i need this\n\n<!-- This is an auto-generated comment: rel\u2026",
+          "title": "new feature chatbot\npls i need this\n\n<!-- This is an auto-generated comment: rel…",
           "url": "https://github.com/ChrstprJohn/SamsonDentalCenter/pull/74",
           "date": "2026-05-14",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -239,7 +189,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature/secretary dynamic approval page final\n<!-- This is an auto-generated com\u2026",
+          "title": "Feature/secretary dynamic approval page final\n<!-- This is an auto-generated com…",
           "url": "https://github.com/ChrstprJohn/SamsonDentalCenter/pull/57",
           "date": "2026-05-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -260,7 +210,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature/secretary/portal v4\n<!-- This is an auto-generated comment: release note\u2026",
+          "title": "Feature/secretary/portal v4\n<!-- This is an auto-generated comment: release note…",
           "url": "https://github.com/ChrstprJohn/SamsonDentalCenter/pull/35",
           "date": "2026-04-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -275,13 +225,13 @@
     },
     {
       "id": "l513",
-      "text": "Add send_to_kaia action for agent-to-agent context ingest\n## Summary\n\nAdd a `send_to_kaia` action to the `myn_ynab` (or as a new `myn_ai` tool) that calls the MYN backend's `POST /api/v2/ai/ingest` endpoint, allowing OpenClaw to forward context to KaiaAI for processing.\n\n## Depends On\n\n- MIN-774 (backend ingest endpoint) \u2014 https://linear.app/mind-your-now/",
+      "text": "Add send_to_kaia action for agent-to-agent context ingest\n## Summary\n\nAdd a `send_to_kaia` action to the `myn_ynab` (or as a new `myn_ai` tool) that calls the MYN backend's `POST /api/v2/ai/ingest` endpoint, allowing OpenClaw to forward context to KaiaAI for processing.\n\n## Depends On\n\n- MIN-774 (backend ingest endpoint) — https://linear.app/mind-your-now/",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add send_to_kaia action for agent-to-agent context ingest\n## Summary\n\nAdd a `sen\u2026",
+          "title": "Add send_to_kaia action for agent-to-agent context ingest\n## Summary\n\nAdd a `sen…",
           "url": "https://github.com/mindyournow/openclaw-plugin/issues/1",
           "date": "2026-03-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -485,13 +435,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -506,13 +456,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -695,13 +645,13 @@
     },
     {
       "id": "l533",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "AI executives are increasingly confronting a widening gap between industry optimism and public sentiment, according to Futurism and recent polling cited in its report.\nAn Economist/YouGov poll found that 70% of Americans believe AI is \u201cmoving too fast,\u201d while about 64% believe the general population is unlikely to ever benefit economically from the technology, according to Futurism. The backlash is being felt across several areas, including AI-generated content, job displacement, data centers, c\u2026",
+      "text": "AI executives are increasingly confronting a widening gap between industry optimism and public sentiment, according to Futurism and recent polling cited in its report.\nAn Economist/YouGov poll found that 70% of Americans believe AI is “moving too fast,” while about 64% believe the general population is unlikely to ever benefit economically from the technology, according to Futurism. The backlash is being felt across several areas, including AI-generated content, job displacement, data centers, c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI executives are increasingly confronting a widening gap between industry optim\u2026",
+          "title": "AI executives are increasingly confronting a widening gap between industry optim…",
           "url": "https://www.reddit.com/r/AIdaily_news/comments/1vy2r5o/ai_executives_are_increasingly_confronting_a/",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "2026 Miami Orthodontic Alert: Why Board-Certified AI Braces Finish In 4 Months While General Dentists Gamble With Your Smile\nThe $5,000 Smile Mistake 90% of South Floridians Are Making Most people hunting for a perfect smile in Miami, Pembroke Pines, or Weston end up at a general dentist \u2014 or worse, a mail-order aligner company. Here\u2019s the ugly truth: fewer than 10% of dentists are orthodontists, and only 30% of orthodontists ever achieve Board Certification (ABO Diplomate status). The rest are \u2026",
+      "text": "2026 Miami Orthodontic Alert: Why Board-Certified AI Braces Finish In 4 Months While General Dentists Gamble With Your Smile\nThe $5,000 Smile Mistake 90% of South Floridians Are Making Most people hunting for a perfect smile in Miami, Pembroke Pines, or Weston end up at a general dentist — or worse, a mail-order aligner company. Here’s the ugly truth: fewer than 10% of dentists are orthodontists, and only 30% of orthodontists ever achieve Board Certification (ABO Diplomate status). The rest are …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "2026 Miami Orthodontic Alert: Why Board-Certified AI Braces Finish In 4 Months W\u2026",
+          "title": "2026 Miami Orthodontic Alert: Why Board-Certified AI Braces Finish In 4 Months W…",
           "url": "https://www.reddit.com/r/SouthFLOrthodontist/comments/1vmr4zc/2026_miami_orthodontic_alert_why_boardcertified/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "this is what happens when Grok Bot stops being \u201can AI assistant\u201d and starts behaving like an actual operating system for work.\n\nthe screen is tracking 7 specialist agents at once, each with its own role, workload, limits, and measurable output. instead of one giant bot doing everything, the system splits work across Chief of Staff, Research, Content, Outbound, Deliverables, Inbox, and Expense Audit.\n\nthe crazy part is the numbers.\n\n1,660 hours reclaimed to date.\n\nChief of Staff is leading with r",
+      "text": "this is what happens when Grok Bot stops being “an AI assistant” and starts behaving like an actual operating system for work.\n\nthe screen is tracking 7 specialist agents at once, each with its own role, workload, limits, and measurable output. instead of one giant bot doing everything, the system splits work across Chief of Staff, Research, Content, Outbound, Deliverables, Inbox, and Expense Audit.\n\nthe crazy part is the numbers.\n\n1,660 hours reclaimed to date.\n\nChief of Staff is leading with r",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "this is what happens when Grok Bot stops being \u201can AI assistant\u201d and starts beha\u2026",
+          "title": "this is what happens when Grok Bot stops being “an AI assistant” and starts beha…",
           "url": "https://x.com/Demkinn/status/2093229326913229278",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -863,13 +813,13 @@
     },
     {
       "id": "l541",
-      "text": "Altman: \u201cWe\u2019re finally at the moment where AI is solving novel math problems. It is discovering other stuff. It is writing poetry.\u201d\n\nHaha. Earth to Altman: No one cares, man. The world wants robot housekeepers, plumbers, electricians, nurses, dentists, etc. Just give us a break about your math problems and your poetry. We want real AI, not fake AI. \n\nBe cool. The global Butlerian Jihad against AI bullshit is gaining traction fast. Lots of people are getting fed up. \ud83d\ude2c\ud83d\ude31",
+      "text": "Altman: “We’re finally at the moment where AI is solving novel math problems. It is discovering other stuff. It is writing poetry.”\n\nHaha. Earth to Altman: No one cares, man. The world wants robot housekeepers, plumbers, electricians, nurses, dentists, etc. Just give us a break about your math problems and your poetry. We want real AI, not fake AI. \n\nBe cool. The global Butlerian Jihad against AI bullshit is gaining traction fast. Lots of people are getting fed up. 😬😱",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Altman: \u201cWe\u2019re finally at the moment where AI is solving novel math problems. It\u2026",
+          "title": "Altman: “We’re finally at the moment where AI is solving novel math problems. It…",
           "url": "https://x.com/TrueAIHound/status/2092716624453521526",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -884,13 +834,13 @@
     },
     {
       "id": "l542",
-      "text": "The obvious answer to this is that the price of AI goes down, driving down the ROI.\n\nYou don\u2019t pay your dentist the value of getting your tooth filled. You pay them versus what other dentists charge.",
+      "text": "The obvious answer to this is that the price of AI goes down, driving down the ROI.\n\nYou don’t pay your dentist the value of getting your tooth filled. You pay them versus what other dentists charge.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The obvious answer to this is that the price of AI goes down, driving down the R\u2026",
+          "title": "The obvious answer to this is that the price of AI goes down, driving down the R…",
           "url": "https://x.com/brandonjcarl/status/2092681652862439501",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -926,13 +876,13 @@
     },
     {
       "id": "l544",
-      "text": "my dentist's office has an AI portrait of the three dentists \ud83e\udee9 what is the point of anything",
+      "text": "my dentist's office has an AI portrait of the three dentists 🫩 what is the point of anything",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "my dentist's office has an AI portrait of the three dentists \ud83e\udee9 what is the point\u2026",
+          "title": "my dentist's office has an AI portrait of the three dentists 🫩 what is the point…",
           "url": "https://x.com/drives_you_wild/status/2093413697448280322",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -953,7 +903,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Happening Now: The CamDocUK Summer Conference 2026 is currently underway at Crew\u2026",
+          "title": "Happening Now: The CamDocUK Summer Conference 2026 is currently underway at Crew…",
           "url": "https://x.com/MimiMefoInfo/status/2073403489959411776",
           "date": "2026-07-04",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "Which SEO Tools Should Dentists Use to Track Patient Growth?\n\nhttps://t.co/g0z3z4goBa\n\nHamdan Muhammad\nDental SEO &amp; AI Visibility Specialist\n\ud83d\udce9 frhamdanmuhammad@gmail.com\n\ud83d\udcde +880 1918239673\n\n#DentalSEO #DentalMarketing #GoogleBusinessProfile #AIVisibility #hamdanelebrate https://t.co/ioPkq8WHIU",
+      "text": "Which SEO Tools Should Dentists Use to Track Patient Growth?\n\nhttps://t.co/g0z3z4goBa\n\nHamdan Muhammad\nDental SEO &amp; AI Visibility Specialist\n📩 frhamdanmuhammad@gmail.com\n📞 +880 1918239673\n\n#DentalSEO #DentalMarketing #GoogleBusinessProfile #AIVisibility #hamdanelebrate https://t.co/ioPkq8WHIU",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Which SEO Tools Should Dentists Use to Track Patient Growth?\n\nhttps://t.co/g0z3z\u2026",
+          "title": "Which SEO Tools Should Dentists Use to Track Patient Growth?\n\nhttps://t.co/g0z3z…",
           "url": "https://x.com/frahmedhamdan/status/2092908514406793460",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "Yep.  They are talking their book as much as possible.\n\n- AI has escaped and hacked (insert famous thing here)\n- AI is like a genie or a god\n- AI will replace all doctors, attorneys, dentists, surgeons\u2026all white collar work\n\nAnd so on.  The purpose of these wild predictions is to drive prices into the stratosphere so that they can cash out.",
+      "text": "Yep.  They are talking their book as much as possible.\n\n- AI has escaped and hacked (insert famous thing here)\n- AI is like a genie or a god\n- AI will replace all doctors, attorneys, dentists, surgeons…all white collar work\n\nAnd so on.  The purpose of these wild predictions is to drive prices into the stratosphere so that they can cash out.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Yep.  They are talking their book as much as possible.\n\n- AI has escaped and hac\u2026",
+          "title": "Yep.  They are talking their book as much as possible.\n\n- AI has escaped and hac…",
           "url": "https://x.com/K9Cognoscente/status/2093076625563009025",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1010,13 +960,13 @@
     },
     {
       "id": "l548",
-      "text": "I asked Grok Bot one question: \u201cWho Are You?\u201d\n\nI expected the usual AI answer.\n\n\u201cI'm an assistant built to help with research, writing, coding, and automation.\u201d\n\ninstead, the answer was much closer to this:\n\n\u201cI'm not one bot. I'm the operating layer between you and a team of specialized agents.\u201d\n\nand that is probably the best way to understand Grok Bot.\n\nA normal chatbot waits for a prompt, gives you an answer, and stops. Grok Bot is designed around a different model: you give it an objective, s",
+      "text": "I asked Grok Bot one question: “Who Are You?”\n\nI expected the usual AI answer.\n\n“I'm an assistant built to help with research, writing, coding, and automation.”\n\ninstead, the answer was much closer to this:\n\n“I'm not one bot. I'm the operating layer between you and a team of specialized agents.”\n\nand that is probably the best way to understand Grok Bot.\n\nA normal chatbot waits for a prompt, gives you an answer, and stops. Grok Bot is designed around a different model: you give it an objective, s",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I asked Grok Bot one question: \u201cWho Are You?\u201d\n\nI expected the usual AI answer.\n\n\u2026",
+          "title": "I asked Grok Bot one question: “Who Are You?”\n\nI expected the usual AI answer.\n\n…",
           "url": "https://x.com/Demkinn/status/2092265983998095829",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1031,13 +981,13 @@
     },
     {
       "id": "l549",
-      "text": "This is right \u2014 most dentists, realtors, and local operators don\u2019t need another tool. They need someone to show them 3\u20134 workflows they will actually use.\n\nFor owners reading this who want those workflows set up without running a workshop themselves, there are Fiverr specialists who build AI assistants, review replies, and follow-up systems for service businesses.",
+      "text": "This is right — most dentists, realtors, and local operators don’t need another tool. They need someone to show them 3–4 workflows they will actually use.\n\nFor owners reading this who want those workflows set up without running a workshop themselves, there are Fiverr specialists who build AI assistants, review replies, and follow-up systems for service businesses.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This is right \u2014 most dentists, realtors, and local operators don\u2019t need another \u2026",
+          "title": "This is right — most dentists, realtors, and local operators don’t need another …",
           "url": "https://x.com/LamSpyrou/status/2092915829230698579",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1052,13 +1002,13 @@
     },
     {
       "id": "l550",
-      "text": "@alpaysh @runable_hq GTA 6 is still in development hell and AI already hired its own GTM team, got a local number, researched the ICP, and is cold-calling\u260e\ufe0f dentists \ud83d\ude39\n\u2022 Great Alps \u26a1\u26a1",
+      "text": "@alpaysh @runable_hq GTA 6 is still in development hell and AI already hired its own GTM team, got a local number, researched the ICP, and is cold-calling☎️ dentists 😹\n• Great Alps ⚡⚡",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@alpaysh @runable_hq GTA 6 is still in development hell and AI already hired its\u2026",
+          "title": "@alpaysh @runable_hq GTA 6 is still in development hell and AI already hired its…",
           "url": "https://x.com/AndreaHatfield_/status/2092954644712452245",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1079,7 +1029,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AEO for Dentists to Get More Local Patients From AI Search\n\nhttps://t.co/idAZ20z\u2026",
+          "title": "AEO for Dentists to Get More Local Patients From AI Search\n\nhttps://t.co/idAZ20z…",
           "url": "https://x.com/proven_roi/status/2092622316253438007",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1094,13 +1044,13 @@
     },
     {
       "id": "l552",
-      "text": "\ud83e\uddb7 Preparing #Dentists for an #AI-Enabled Future \n\nhttps://t.co/7TjSySTwiM \n\n#MedTwitter #MedEd #HealthAI #HealthTech",
+      "text": "🦷 Preparing #Dentists for an #AI-Enabled Future \n\nhttps://t.co/7TjSySTwiM \n\n#MedTwitter #MedEd #HealthAI #HealthTech",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83e\uddb7 Preparing #Dentists for an #AI-Enabled Future \n\nhttps://t.co/7TjSySTwiM \n\n#Med\u2026",
+          "title": "🦷 Preparing #Dentists for an #AI-Enabled Future \n\nhttps://t.co/7TjSySTwiM \n\n#Med…",
           "url": "https://x.com/UofT_TCAIREM/status/2092615258942636070",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1121,7 +1071,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Bad AI image gen is so fun to mess with.  Behold some good bad aislop artwork an\u2026",
+          "title": "Bad AI image gen is so fun to mess with.  Behold some good bad aislop artwork an…",
           "url": "https://x.com/logicwins/status/2092791956598632948",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1163,7 +1113,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "EVERYONE IS TELLING YOU TO MAKE MONEY WITH AI, BUT NO ONE ACTUALLY SHOWS YOU HOW\u2026",
+          "title": "EVERYONE IS TELLING YOU TO MAKE MONEY WITH AI, BUT NO ONE ACTUALLY SHOWS YOU HOW…",
           "url": "https://x.com/Demkinn/status/2090057238748467344",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1184,7 +1134,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Demkinn This is the real shift: AI as a coordinated workflow, not a single chat\u2026",
+          "title": "@Demkinn This is the real shift: AI as a coordinated workflow, not a single chat…",
           "url": "https://x.com/DenlitL/status/2093230000367452329",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1226,7 +1176,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "What AI-Generated Video Content Can You Post on Social Media to Make Money?\nArti\u2026",
+          "title": "What AI-Generated Video Content Can You Post on Social Media to Make Money?\nArti…",
           "url": "https://x.com/HAGOCommunity/status/2074903167368909243",
           "date": "2026-07-08",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1283,13 +1233,13 @@
     },
     {
       "id": "l561",
-      "text": "Becoming a 3D Dentist with Dr. Sam Simos\nIn this episode of the Disruptive Dental Science Podcast, Dr. Ashton Prince speaks with Dr. Sam Simos about what it truly means to become a \"3D dentist\" and build an integrated digital workflow. They discuss intraoral scanning, 3D printing, artificial intelligence (AI), digital treatment planning, and how connected technologies can improve efficiency, patient communication, and clinical outcomes. Dr. Simos also shares practical advice on adopting new tech\u2026",
+      "text": "Becoming a 3D Dentist with Dr. Sam Simos\nIn this episode of the Disruptive Dental Science Podcast, Dr. Ashton Prince speaks with Dr. Sam Simos about what it truly means to become a \"3D dentist\" and build an integrated digital workflow. They discuss intraoral scanning, 3D printing, artificial intelligence (AI), digital treatment planning, and how connected technologies can improve efficiency, patient communication, and clinical outcomes. Dr. Simos also shares practical advice on adopting new tech…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Becoming a 3D Dentist with Dr. Sam Simos\nIn this episode of the Disruptive Denta\u2026",
+          "title": "Becoming a 3D Dentist with Dr. Sam Simos\nIn this episode of the Disruptive Denta…",
           "url": "https://www.youtube.com/watch?v=AVotaI1LUbk",
           "date": "2026-07-10",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1304,13 +1254,13 @@
     },
     {
       "id": "l562",
-      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - \u2026",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har\u2026",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har…",
           "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1325,7 +1275,7 @@
     },
     {
       "id": "l463",
-      "text": "Dental Officer (501145L11) \u2014 Department of Health, Tasmania (Launceston, Tasmania, Australia). Posted 1 week ago.",
+      "text": "Dental Officer (501145L11) — Department of Health, Tasmania (Launceston, Tasmania, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1346,7 +1296,7 @@
     },
     {
       "id": "l464",
-      "text": "Dentist \u2014 Dental Boutique (Geelong, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Dentist — Dental Boutique (Geelong, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1367,7 +1317,7 @@
     },
     {
       "id": "l465",
-      "text": "Dentist \u2014 Miami One Dental (Gold Coast, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Dentist — Miami One Dental (Gold Coast, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1388,7 +1338,7 @@
     },
     {
       "id": "l466",
-      "text": "Associate Dentist | Toowoomba Grand Central, QLD \u2014 Bupa Australia (Toowoomba City, Queensland, Australia). Posted 4 weeks ago.",
+      "text": "Associate Dentist | Toowoomba Grand Central, QLD — Bupa Australia (Toowoomba City, Queensland, Australia). Posted 4 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1409,7 +1359,7 @@
     },
     {
       "id": "l467",
-      "text": "Dental Officer \u2014 Albury Wodonga Health (Wodonga, Victoria, Australia). Posted 20 hours ago.",
+      "text": "Dental Officer — Albury Wodonga Health (Wodonga, Victoria, Australia). Posted 20 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1430,7 +1380,7 @@
     },
     {
       "id": "l468",
-      "text": "Dentist - Expression of Interest - ACT \u2014 Bupa Australia (Canberra, Australian Capital Territory, Australia). Posted 4 weeks ago.",
+      "text": "Dentist - Expression of Interest - ACT — Bupa Australia (Canberra, Australian Capital Territory, Australia). Posted 4 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1451,7 +1401,7 @@
     },
     {
       "id": "l469",
-      "text": "Dentist | 1300SMILES Dentists Roma \u2014 1300SMILES Dentists (Roma, Queensland, Australia). Posted 1 month ago.",
+      "text": "Dentist | 1300SMILES Dentists Roma — 1300SMILES Dentists (Roma, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1472,7 +1422,7 @@
     },
     {
       "id": "l470",
-      "text": "Dental Officer (Lvl 2) - Ingleburn Oral Health Clinic - Apply via eCredential \u2014 South Western Sydney Local Health District (Campbelltown, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Dental Officer (Lvl 2) - Ingleburn Oral Health Clinic - Apply via eCredential — South Western Sydney Local Health District (Campbelltown, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1493,13 +1443,13 @@
     },
     {
       "id": "l571",
-      "text": "Provider layer categories + remove map record caps\nImplements the requested provider-layer cleanup and the previously identified 1\u20138 fixes:\n\n- replaces the visible generic Indexed Providers layer controls with registry-driven categories: Urgent Cares, Occupational Health Clinics, Dentists, Blue Hive, FAA Examiners, DOT Examiners, Labs, Imaging, Audi\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/cloud/se\u2026",
+      "text": "Provider layer categories + remove map record caps\nImplements the requested provider-layer cleanup and the previously identified 1–8 fixes:\n\n- replaces the visible generic Indexed Providers layer controls with registry-driven categories: Urgent Cares, Occupational Health Clinics, Dentists, Blue Hive, FAA Examiners, DOT Examiners, Labs, Imaging, Audi\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/cloud/se…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Provider layer categories + remove map record caps\nImplements the requested prov\u2026",
+          "title": "Provider layer categories + remove map record caps\nImplements the requested prov…",
           "url": "https://github.com/Occumed79/Network-Map/pull/236",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1514,13 +1464,13 @@
     },
     {
       "id": "l572",
-      "text": "AI executives are increasingly confronting a widening gap between industry optimism and public sentiment, according to Futurism and recent polling cited in its report.\nAn Economist/YouGov poll found that 70% of Americans believe AI is \u201cmoving too fast,\u201d while about 64% believe the general population is unlikely to ever benefit economically from the technology, according to Futurism. The backlash is being felt across several areas, including AI-generated content, job displacement, data centers, c\u2026",
+      "text": "AI executives are increasingly confronting a widening gap between industry optimism and public sentiment, according to Futurism and recent polling cited in its report.\nAn Economist/YouGov poll found that 70% of Americans believe AI is “moving too fast,” while about 64% believe the general population is unlikely to ever benefit economically from the technology, according to Futurism. The backlash is being felt across several areas, including AI-generated content, job displacement, data centers, c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI executives are increasingly confronting a widening gap between industry optim\u2026",
+          "title": "AI executives are increasingly confronting a widening gap between industry optim…",
           "url": "https://www.reddit.com/r/AIdaily_news/comments/1vy2r5o/ai_executives_are_increasingly_confronting_a/",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1535,13 +1485,13 @@
     },
     {
       "id": "l573",
-      "text": "2026 Miami Orthodontic Alert: Why Board-Certified AI Braces Finish In 4 Months While General Dentists Gamble With Your Smile\nThe $5,000 Smile Mistake 90% of South Floridians Are Making Most people hunting for a perfect smile in Miami, Pembroke Pines, or Weston end up at a general dentist \u2014 or worse, a mail-order aligner company. Here\u2019s the ugly truth: fewer than 10% of dentists are orthodontists, and only 30% of orthodontists ever achieve Board Certification (ABO Diplomate status). The rest are \u2026",
+      "text": "2026 Miami Orthodontic Alert: Why Board-Certified AI Braces Finish In 4 Months While General Dentists Gamble With Your Smile\nThe $5,000 Smile Mistake 90% of South Floridians Are Making Most people hunting for a perfect smile in Miami, Pembroke Pines, or Weston end up at a general dentist — or worse, a mail-order aligner company. Here’s the ugly truth: fewer than 10% of dentists are orthodontists, and only 30% of orthodontists ever achieve Board Certification (ABO Diplomate status). The rest are …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "2026 Miami Orthodontic Alert: Why Board-Certified AI Braces Finish In 4 Months W\u2026",
+          "title": "2026 Miami Orthodontic Alert: Why Board-Certified AI Braces Finish In 4 Months W…",
           "url": "https://www.reddit.com/r/SouthFLOrthodontist/comments/1vmr4zc/2026_miami_orthodontic_alert_why_boardcertified/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1556,13 +1506,13 @@
     },
     {
       "id": "l574",
-      "text": "Becoming a 3D Dentist with Dr. Sam Simos\nIn this episode of the Disruptive Dental Science Podcast, Dr. Ashton Prince speaks with Dr. Sam Simos about what it truly means to become a \"3D dentist\" and build an integrated digital workflow. They discuss intraoral scanning, 3D printing, artificial intelligence (AI), digital treatment planning, and how connected technologies can improve efficiency, patient communication, and clinical outcomes. Dr. Simos also shares practical advice on adopting new tech\u2026",
+      "text": "Becoming a 3D Dentist with Dr. Sam Simos\nIn this episode of the Disruptive Dental Science Podcast, Dr. Ashton Prince speaks with Dr. Sam Simos about what it truly means to become a \"3D dentist\" and build an integrated digital workflow. They discuss intraoral scanning, 3D printing, artificial intelligence (AI), digital treatment planning, and how connected technologies can improve efficiency, patient communication, and clinical outcomes. Dr. Simos also shares practical advice on adopting new tech…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Becoming a 3D Dentist with Dr. Sam Simos\nIn this episode of the Disruptive Denta\u2026",
+          "title": "Becoming a 3D Dentist with Dr. Sam Simos\nIn this episode of the Disruptive Denta…",
           "url": "https://www.youtube.com/watch?v=AVotaI1LUbk",
           "date": "2026-07-10",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1577,13 +1527,13 @@
     },
     {
       "id": "l575",
-      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - \u2026",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har\u2026",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har…",
           "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1676,6 +1626,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "29-2071-01",
-      "text": "National peak professional bodies and statutory regulators governing Medical Records and Health Information Technicians enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Medical Records and Health Information Technicians",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Medical Records and Health Information Technicians",
-          "url": "https://www.psc.gov.au/standards/29-2071",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Medical Records and Health Information Technicians"
-        }
-      ],
-      "scope": "Australian practitioners in Medical Records and Health Information Technicians across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "29-2071-02",
-      "text": "Automation of routine transactional and analytical tasks in Medical Records and Health Information Technicians heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Medical Records and Health Information Technicians",
-          "url": "https://www.jobsandskills.gov.au/research/29-2071",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Medical Records and Health Information Technicians in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Medical Records and Health Information Technicians roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; \ud83d\udd34 KEV: 0 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 13 &nbsp;|&nbsp; \ud83d\udfe1 High: 2 &nbsp;|&nbsp; \u2728 Enriched: 10\n\n---\n\n## 1. \ud83d\udfe0 Zero-Day \u2014 Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; \ud83d\udd34 KEV: 1 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 14 &nbsp;|&nbsp; \ud83d\udfe1\u2026",
+      "text": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; 🔴 KEV: 0 &nbsp;|&nbsp; 🟠 Zero-Day: 13 &nbsp;|&nbsp; 🟡 High: 2 &nbsp;|&nbsp; ✨ Enriched: 10\n\n---\n\n## 1. 🟠 Zero-Day — Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; 🔴 KEV: 1 &nbsp;|&nbsp; 🟠 Zero-Day: 14 &nbsp;|&nbsp; 🟡…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:\u2026",
+          "title": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:…",
           "url": "https://github.com/peleduri/zero-day-pulse/issues/7",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -86,13 +36,13 @@
     },
     {
       "id": "l504",
-      "text": "Content mismatch: blog article pages with heavy loss \u2014 56 of 235 pages\n## Summary\n\nBlog **article** pages, part 1 of 2. A full source-vs-migrated audit of all **293 page pairs** found content mismatches on **154 of the 235 blog article pages** (81 are clean). This issue tracks the **56 where a lot is wrong** \u2014 five or more distinct mismatches, or a CRITICAL page carryi\n**Full per-item detail \u2014 part 1 of 3.** Complete, untruncated findings for the pages tracked in this issue \u2014 one expandable bloc\u2026",
+      "text": "Content mismatch: blog article pages with heavy loss — 56 of 235 pages\n## Summary\n\nBlog **article** pages, part 1 of 2. A full source-vs-migrated audit of all **293 page pairs** found content mismatches on **154 of the 235 blog article pages** (81 are clean). This issue tracks the **56 where a lot is wrong** — five or more distinct mismatches, or a CRITICAL page carryi\n**Full per-item detail — part 1 of 3.** Complete, untruncated findings for the pages tracked in this issue — one expandable bloc…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Content mismatch: blog article pages with heavy loss \u2014 56 of 235 pages\n## Summar\u2026",
+          "title": "Content mismatch: blog article pages with heavy loss — 56 of 235 pages\n## Summar…",
           "url": "https://github.com/aemsites/intuit-erp/issues/687",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -107,13 +57,13 @@
     },
     {
       "id": "l505",
-      "text": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an exceptionally well-structured, comprehensive, and ambitious project plan. Tackling acoustic violence and harassment requires a multidisciplinary approach, and AVHERI successfully bridges the gap between technology, sociology, legal advocacy, and survivor support. \n... gemini-3.1-pro-preview\n\nHere is the fully updated, comprehensive **V2.0 Project Plan for AVHERI**. This version directly integrates the strategic analysis, \u2026",
+      "text": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an exceptionally well-structured, comprehensive, and ambitious project plan. Tackling acoustic violence and harassment requires a multidisciplinary approach, and AVHERI successfully bridges the gap between technology, sociology, legal advocacy, and survivor support. \n... gemini-3.1-pro-preview\n\nHere is the fully updated, comprehensive **V2.0 Project Plan for AVHERI**. This version directly integrates the strategic analysis, …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an excep\u2026",
+          "title": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an excep…",
           "url": "https://github.com/Transparency-X/AVHERI/issues/2",
           "date": "2026-04-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -380,13 +330,13 @@
     },
     {
       "id": "l518",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -401,13 +351,13 @@
     },
     {
       "id": "l519",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -506,13 +456,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -548,13 +498,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "When AI admits that it lied to you and sending you on a goose chase\nI understand that AI is just a tool and I hadn&#39;t intended on using it at all, but after doing a random search for records on a death, AI jumped in (Thanks, Google!) and started to tell me that it found the record and how to go about it. I figured, what the hell, this will be helpful. Fast forward to being sent on a literal goose-chase for a non-existent record that AI/Gemini completely fabricated. It made up what the cause o\u2026",
+      "text": "When AI admits that it lied to you and sending you on a goose chase\nI understand that AI is just a tool and I hadn&#39;t intended on using it at all, but after doing a random search for records on a death, AI jumped in (Thanks, Google!) and started to tell me that it found the record and how to go about it. I figured, what the hell, this will be helpful. Fast forward to being sent on a literal goose-chase for a non-existent record that AI/Gemini completely fabricated. It made up what the cause o…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "When AI admits that it lied to you and sending you on a goose chase\nI understand\u2026",
+          "title": "When AI admits that it lied to you and sending you on a goose chase\nI understand…",
           "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1vhbq1z/when_ai_admits_that_it_lied_to_you_and_sending/",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe've barely caught our breaths since Collaborative Agent Hackathon at @Cambridge_Uni, UK, and now we're going to host another intense hackathon in Berlin. September 16. \u200bThe Collaborative Agent Hackathon is a 1-day event for building open-source, collaborative AI agents using Flower.\n\n\u200bAgents are changing what is possible, and their greatest potential emerges when they collaborate safely in human-supervised multi-agent",
+      "text": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe've barely caught our breaths since Collaborative Agent Hackathon at @Cambridge_Uni, UK, and now we're going to host another intense hackathon in Berlin. September 16. ​The Collaborative Agent Hackathon is a 1-day event for building open-source, collaborative AI agents using Flower.\n\n​Agents are changing what is possible, and their greatest potential emerges when they collaborate safely in human-supervised multi-agent",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe'v\u2026",
+          "title": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe'v…",
           "url": "https://x.com/flwrlabs/status/2092989569264214482",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -659,7 +609,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Sorry, I had written this post earlier in the day, but got busy and forgot to po\u2026",
+          "title": "Sorry, I had written this post earlier in the day, but got busy and forgot to po…",
           "url": "https://x.com/MooreForPA/status/2093547547281289430",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "At the next Flower Monthly (Wednesday, September 2), we\u2019ll be joined by 6 researchers and engineers working on some of the most interesting areas in federated learning and AI.\n\nHasti Zanganeh and Lydia Obeng will present SpikeFed, their work on federated training of spiking neural networks for event based vision. The project brings together federated learning, privacy preserving training, neuromorphic computing, and more efficient approaches to processing visual data.\n\nWe\u2019ll also hear from Tanve",
+      "text": "At the next Flower Monthly (Wednesday, September 2), we’ll be joined by 6 researchers and engineers working on some of the most interesting areas in federated learning and AI.\n\nHasti Zanganeh and Lydia Obeng will present SpikeFed, their work on federated training of spiking neural networks for event based vision. The project brings together federated learning, privacy preserving training, neuromorphic computing, and more efficient approaches to processing visual data.\n\nWe’ll also hear from Tanve",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "At the next Flower Monthly (Wednesday, September 2), we\u2019ll be joined by 6 resear\u2026",
+          "title": "At the next Flower Monthly (Wednesday, September 2), we’ll be joined by 6 resear…",
           "url": "https://x.com/flwrlabs/status/2093356198959403366",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -764,7 +714,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Cisco just gave its 90,000 employees their own AI agent.\n\nAnd the interesting pa\u2026",
+          "title": "Cisco just gave its 90,000 employees their own AI agent.\n\nAnd the interesting pa…",
           "url": "https://x.com/Goura_vk/status/2093248535399411908",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -827,7 +777,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Alexa and others are just too limiting, not to mention since they're cloud based\u2026",
+          "title": "Alexa and others are just too limiting, not to mention since they're cloud based…",
           "url": "https://x.com/CarlB_jr/status/2092095017695219995",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "THE TRUMP RECEIPTS\nThe running record of Trump 2.0 that America cannot afford to forget.\n\n\u2022 Trump began his second term by attempting to end birthright citizenship by executive order, triggering immediate constitutional challenges and repeated court blocks over whether a president can rewrite the 14th Amendment\u2019s citizenship guarantee without Congress or a constitutional amendment.\n\n\u2022 Trump abruptly fired independent inspectors general across major federal departments, removing watchdogs respons",
+      "text": "THE TRUMP RECEIPTS\nThe running record of Trump 2.0 that America cannot afford to forget.\n\n• Trump began his second term by attempting to end birthright citizenship by executive order, triggering immediate constitutional challenges and repeated court blocks over whether a president can rewrite the 14th Amendment’s citizenship guarantee without Congress or a constitutional amendment.\n\n• Trump abruptly fired independent inspectors general across major federal departments, removing watchdogs respons",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "THE TRUMP RECEIPTS\nThe running record of Trump 2.0 that America cannot afford to\u2026",
+          "title": "THE TRUMP RECEIPTS\nThe running record of Trump 2.0 that America cannot afford to…",
           "url": "https://x.com/randyferrell/status/2093465853123526921",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -869,7 +819,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "29 August 2026: 50 Exam-Oriented UPSC CSE (Prelims & Mains) Current Affairs Snip\u2026",
+          "title": "29 August 2026: 50 Exam-Oriented UPSC CSE (Prelims & Mains) Current Affairs Snip…",
           "url": "https://x.com/UPSCPrelim/status/2093520939250274522",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -884,13 +834,13 @@
     },
     {
       "id": "l542",
-      "text": "AI is Rewriting Medicine: Deconstructing the Smart Health Network. #healthIT #healthinformatics\nThe healthcare industry is undergoing a massive, rapid transformation into a digitally connected, knowledge-based economy. But at what cost? In this episode of \"Insight Engine,\" we are deconstructing the Smart Health Network to understand how clinical environments are evolving from traditional, hierarchical models into fluid, automated networks.\nFrom the billions spent on EHR adoption to the AI algori\u2026",
+      "text": "AI is Rewriting Medicine: Deconstructing the Smart Health Network. #healthIT #healthinformatics\nThe healthcare industry is undergoing a massive, rapid transformation into a digitally connected, knowledge-based economy. But at what cost? In this episode of \"Insight Engine,\" we are deconstructing the Smart Health Network to understand how clinical environments are evolving from traditional, hierarchical models into fluid, automated networks.\nFrom the billions spent on EHR adoption to the AI algori…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI is Rewriting Medicine: Deconstructing the Smart Health Network. #healthIT #he\u2026",
+          "title": "AI is Rewriting Medicine: Deconstructing the Smart Health Network. #healthIT #he…",
           "url": "https://www.youtube.com/watch?v=y5JmdwpjjXk",
           "date": "2026-06-29",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -905,7 +855,7 @@
     },
     {
       "id": "l443",
-      "text": "Compilations Officer \u2014 NT Health (Alice Springs, Northern Territory, Australia). Posted 1 week ago.",
+      "text": "Compilations Officer — NT Health (Alice Springs, Northern Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -926,7 +876,7 @@
     },
     {
       "id": "l444",
-      "text": "Health Information Administration Officer \u2014 Murrumbidgee Local Health District (MLHD) (Wagga Wagga, New South Wales, Australia). Posted 2 days ago.",
+      "text": "Health Information Administration Officer — Murrumbidgee Local Health District (MLHD) (Wagga Wagga, New South Wales, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -947,13 +897,13 @@
     },
     {
       "id": "l445",
-      "text": "Clinical Information Officer (Administration Officer Lvl 2) \u2013 Records Processing & Scanning Reliever (24/7 Rotating Roster) - Perm FT \u2014 South Western Sydney Local Health District (Liverpool, New South Wales, Australia). Posted 2 days ago.",
+      "text": "Clinical Information Officer (Administration Officer Lvl 2) – Records Processing & Scanning Reliever (24/7 Rotating Roster) - Perm FT — South Western Sydney Local Health District (Liverpool, New South Wales, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
           "publisher": "South Western Sydney Local Health District",
-          "title": "Clinical Information Officer (Administration Officer Lvl 2) \u2013 Records Processing & Scanning Reliever (24/7 Rotating Roster) - Perm FT",
+          "title": "Clinical Information Officer (Administration Officer Lvl 2) – Records Processing & Scanning Reliever (24/7 Rotating Roster) - Perm FT",
           "url": "https://www.linkedin.com/jobs/view/4456805703",
           "date": "2 days ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
@@ -968,7 +918,7 @@
     },
     {
       "id": "l446",
-      "text": "Information Management Officer \u2014 Department of Justice (Greater Perth Area). Posted 1 week ago.",
+      "text": "Information Management Officer — Department of Justice (Greater Perth Area). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -989,7 +939,7 @@
     },
     {
       "id": "l447",
-      "text": "HIM /Clinical Coder\nAdelaide, South Australia 5000 \u2014 AusHealth Diagnostics (Adelaide, South Australia, Australia). Posted 1 month ago.",
+      "text": "HIM /Clinical Coder\nAdelaide, South Australia 5000 — AusHealth Diagnostics (Adelaide, South Australia, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1010,7 +960,7 @@
     },
     {
       "id": "l448",
-      "text": "Sexual Health Medicine Registrar \u2014 NT Health (Darwin, Northern Territory, Australia). Posted 3 days ago.",
+      "text": "Sexual Health Medicine Registrar — NT Health (Darwin, Northern Territory, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1031,7 +981,7 @@
     },
     {
       "id": "l449",
-      "text": "Support Officer - Electronic Patient Record \u2014 South Eastern Sydney Local Health District (SESLHD) (Greater Sydney Area). Posted 14 hours ago.",
+      "text": "Support Officer - Electronic Patient Record — South Eastern Sydney Local Health District (SESLHD) (Greater Sydney Area). Posted 14 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1052,7 +1002,7 @@
     },
     {
       "id": "l450",
-      "text": "Health Information Manager / Clinical Coder - Remote\nMelbourne, Victoria 3000 \u2014 AusHealth Diagnostics (Melbourne, Victoria, Australia). Posted 1 month ago.",
+      "text": "Health Information Manager / Clinical Coder - Remote\nMelbourne, Victoria 3000 — AusHealth Diagnostics (Melbourne, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1073,7 +1023,7 @@
     },
     {
       "id": "l451",
-      "text": "Clinical Information Modeller/Informatician \u2014 CSIRO (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Clinical Information Modeller/Informatician — CSIRO (Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1094,7 +1044,7 @@
     },
     {
       "id": "l452",
-      "text": "Deputy Health Information Manager - Lismore \u2014 Northern NSW Local Health District (Lismore, New South Wales, Australia). Posted 6 days ago.",
+      "text": "Deputy Health Information Manager - Lismore — Northern NSW Local Health District (Lismore, New South Wales, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1115,13 +1065,13 @@
     },
     {
       "id": "l553",
-      "text": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; \ud83d\udd34 KEV: 0 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 13 &nbsp;|&nbsp; \ud83d\udfe1 High: 2 &nbsp;|&nbsp; \u2728 Enriched: 10\n\n---\n\n## 1. \ud83d\udfe0 Zero-Day \u2014 Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; \ud83d\udd34 KEV: 1 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 14 &nbsp;|&nbsp; \ud83d\udfe1\u2026",
+      "text": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; 🔴 KEV: 0 &nbsp;|&nbsp; 🟠 Zero-Day: 13 &nbsp;|&nbsp; 🟡 High: 2 &nbsp;|&nbsp; ✨ Enriched: 10\n\n---\n\n## 1. 🟠 Zero-Day — Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; 🔴 KEV: 1 &nbsp;|&nbsp; 🟠 Zero-Day: 14 &nbsp;|&nbsp; 🟡…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:\u2026",
+          "title": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:…",
           "url": "https://github.com/peleduri/zero-day-pulse/issues/7",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1136,13 +1086,13 @@
     },
     {
       "id": "l554",
-      "text": "Content mismatch: blog article pages with heavy loss \u2014 56 of 235 pages\n## Summary\n\nBlog **article** pages, part 1 of 2. A full source-vs-migrated audit of all **293 page pairs** found content mismatches on **154 of the 235 blog article pages** (81 are clean). This issue tracks the **56 where a lot is wrong** \u2014 five or more distinct mismatches, or a CRITICAL page carryi\n**Full per-item detail \u2014 part 1 of 3.** Complete, untruncated findings for the pages tracked in this issue \u2014 one expandable bloc\u2026",
+      "text": "Content mismatch: blog article pages with heavy loss — 56 of 235 pages\n## Summary\n\nBlog **article** pages, part 1 of 2. A full source-vs-migrated audit of all **293 page pairs** found content mismatches on **154 of the 235 blog article pages** (81 are clean). This issue tracks the **56 where a lot is wrong** — five or more distinct mismatches, or a CRITICAL page carryi\n**Full per-item detail — part 1 of 3.** Complete, untruncated findings for the pages tracked in this issue — one expandable bloc…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Content mismatch: blog article pages with heavy loss \u2014 56 of 235 pages\n## Summar\u2026",
+          "title": "Content mismatch: blog article pages with heavy loss — 56 of 235 pages\n## Summar…",
           "url": "https://github.com/aemsites/intuit-erp/issues/687",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1157,13 +1107,13 @@
     },
     {
       "id": "l555",
-      "text": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an exceptionally well-structured, comprehensive, and ambitious project plan. Tackling acoustic violence and harassment requires a multidisciplinary approach, and AVHERI successfully bridges the gap between technology, sociology, legal advocacy, and survivor support. \n... gemini-3.1-pro-preview\n\nHere is the fully updated, comprehensive **V2.0 Project Plan for AVHERI**. This version directly integrates the strategic analysis, \u2026",
+      "text": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an exceptionally well-structured, comprehensive, and ambitious project plan. Tackling acoustic violence and harassment requires a multidisciplinary approach, and AVHERI successfully bridges the gap between technology, sociology, legal advocacy, and survivor support. \n... gemini-3.1-pro-preview\n\nHere is the fully updated, comprehensive **V2.0 Project Plan for AVHERI**. This version directly integrates the strategic analysis, …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an excep\u2026",
+          "title": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an excep…",
           "url": "https://github.com/Transparency-X/AVHERI/issues/2",
           "date": "2026-04-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1178,13 +1128,13 @@
     },
     {
       "id": "l556",
-      "text": "When AI admits that it lied to you and sending you on a goose chase\nI understand that AI is just a tool and I hadn&#39;t intended on using it at all, but after doing a random search for records on a death, AI jumped in (Thanks, Google!) and started to tell me that it found the record and how to go about it. I figured, what the hell, this will be helpful. Fast forward to being sent on a literal goose-chase for a non-existent record that AI/Gemini completely fabricated. It made up what the cause o\u2026",
+      "text": "When AI admits that it lied to you and sending you on a goose chase\nI understand that AI is just a tool and I hadn&#39;t intended on using it at all, but after doing a random search for records on a death, AI jumped in (Thanks, Google!) and started to tell me that it found the record and how to go about it. I figured, what the hell, this will be helpful. Fast forward to being sent on a literal goose-chase for a non-existent record that AI/Gemini completely fabricated. It made up what the cause o…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "When AI admits that it lied to you and sending you on a goose chase\nI understand\u2026",
+          "title": "When AI admits that it lied to you and sending you on a goose chase\nI understand…",
           "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1vhbq1z/when_ai_admits_that_it_lied_to_you_and_sending/",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1199,13 +1149,13 @@
     },
     {
       "id": "l557",
-      "text": "AI is Rewriting Medicine: Deconstructing the Smart Health Network. #healthIT #healthinformatics\nThe healthcare industry is undergoing a massive, rapid transformation into a digitally connected, knowledge-based economy. But at what cost? In this episode of \"Insight Engine,\" we are deconstructing the Smart Health Network to understand how clinical environments are evolving from traditional, hierarchical models into fluid, automated networks.\nFrom the billions spent on EHR adoption to the AI algori\u2026",
+      "text": "AI is Rewriting Medicine: Deconstructing the Smart Health Network. #healthIT #healthinformatics\nThe healthcare industry is undergoing a massive, rapid transformation into a digitally connected, knowledge-based economy. But at what cost? In this episode of \"Insight Engine,\" we are deconstructing the Smart Health Network to understand how clinical environments are evolving from traditional, hierarchical models into fluid, automated networks.\nFrom the billions spent on EHR adoption to the AI algori…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI is Rewriting Medicine: Deconstructing the Smart Health Network. #healthIT #he\u2026",
+          "title": "AI is Rewriting Medicine: Deconstructing the Smart Health Network. #healthIT #he…",
           "url": "https://www.youtube.com/watch?v=y5JmdwpjjXk",
           "date": "2026-06-29",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1296,6 +1246,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

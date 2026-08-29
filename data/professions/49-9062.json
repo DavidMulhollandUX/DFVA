@@ -14,58 +14,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "49-9062-01",
-      "text": "National peak professional bodies and statutory regulators governing Medical Equipment Repairers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Medical Equipment Repairers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Medical Equipment Repairers",
-          "url": "https://www.psc.gov.au/standards/49-9062",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Medical Equipment Repairers"
-        }
-      ],
-      "scope": "Australian practitioners in Medical Equipment Repairers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "49-9062-02",
-      "text": "Automation of routine transactional and analytical tasks in Medical Equipment Repairers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Medical Equipment Repairers",
-          "url": "https://www.jobsandskills.gov.au/research/49-9062",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Medical Equipment Repairers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Medical Equipment Repairers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Service Technician (2 Openings) \u2014 Resmed (Mermaid Beach, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Service Technician (2 Openings) — Resmed (Mermaid Beach, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -86,7 +36,7 @@
     },
     {
       "id": "l404",
-      "text": "Field service technician - Brisbane \u2014 Umano Medical (Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Field service technician - Brisbane — Umano Medical (Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -107,7 +57,7 @@
     },
     {
       "id": "l405",
-      "text": "Service Technician - General \u2014 Aidacare Pty Ltd (Mackay, Queensland, Australia). Posted 1 week ago.",
+      "text": "Service Technician - General — Aidacare Pty Ltd (Mackay, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -128,7 +78,7 @@
     },
     {
       "id": "l406",
-      "text": "Biomedical Technician Advanced \u2014 Queensland Health (Sunshine Coast, Queensland, Australia). Posted 4 days ago.",
+      "text": "Biomedical Technician Advanced — Queensland Health (Sunshine Coast, Queensland, Australia). Posted 4 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -149,7 +99,7 @@
     },
     {
       "id": "l407",
-      "text": "Field Service Technician \u2014 Macemark Technology (Sunshine Coast, Queensland, Australia). Posted 1 week ago.",
+      "text": "Field Service Technician — Macemark Technology (Sunshine Coast, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -170,7 +120,7 @@
     },
     {
       "id": "l408",
-      "text": "Service Technician \u2014 Aidacare Pty Ltd (Hervey Bay, Queensland, Australia). Posted 3 days ago.",
+      "text": "Service Technician — Aidacare Pty Ltd (Hervey Bay, Queensland, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -191,7 +141,7 @@
     },
     {
       "id": "l409",
-      "text": "Field Service Technician (Brisbane, QLD) \u2014 STERIS (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Field Service Technician (Brisbane, QLD) — STERIS (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -212,7 +162,7 @@
     },
     {
       "id": "l410",
-      "text": "Handpiece & Small Equipment Technician \u2014 Henry Schein (Noosaville, Queensland, Australia). Posted 3 hours ago.",
+      "text": "Handpiece & Small Equipment Technician — Henry Schein (Noosaville, Queensland, Australia). Posted 3 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -233,7 +183,7 @@
     },
     {
       "id": "l411",
-      "text": "Service Technician \u2014 Dentsply Sirona (Murarrie, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Service Technician — Dentsply Sirona (Murarrie, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -254,7 +204,7 @@
     },
     {
       "id": "l412",
-      "text": "Field Service Technician \u2014 Henry Schein Australia (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Field Service Technician — Henry Schein Australia (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -275,13 +225,13 @@
     },
     {
       "id": "l513",
-      "text": "fix(mapping): audit batch 6 \u2014 SOC 49 Maintenance/Repair KldB and title corrections\n## Summary\n\nWalks 17 of the 402 audit findings (SOC 49 = Installation, Maintenance, and Repair). Sektion 2 of Session 38; rides the Session-38 SUMMARY entry + BACKLOG updates.\n\n**KldB changes (15 entries, 5 seed pull-outs):**\n- 49-1011 First-Line Supervisors of Mechanics \u2192 25193 Aufsichtskr\u00e4fte Masc",
+      "text": "fix(mapping): audit batch 6 — SOC 49 Maintenance/Repair KldB and title corrections\n## Summary\n\nWalks 17 of the 402 audit findings (SOC 49 = Installation, Maintenance, and Repair). Sektion 2 of Session 38; rides the Session-38 SUMMARY entry + BACKLOG updates.\n\n**KldB changes (15 entries, 5 seed pull-outs):**\n- 49-1011 First-Line Supervisors of Mechanics → 25193 Aufsichtskräfte Masc",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "fix(mapping): audit batch 6 \u2014 SOC 49 Maintenance/Repair KldB and title correctio\u2026",
+          "title": "fix(mapping): audit batch 6 — SOC 49 Maintenance/Repair KldB and title correctio…",
           "url": "https://github.com/mo-sp/pathfinder/pull/79",
           "date": "2026-04-25",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -527,13 +477,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -548,13 +498,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -695,13 +645,13 @@
     },
     {
       "id": "l533",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "Fabricating medical equipment\nI&#39;ve just started playing cyberpunk and am making a Medtech. I thought it would be fun to fabricate my own medical equipment and dipped into Tech, but I&#39;m not sure if it&#39;s even possible at this point. To fabricate, you roll TECH + the TECH skill that the item is typically repaired with + your rank in this specialty + 1d10. Let&#39;s take a cryopump for example. I couldn&#39;t find the repair skill explicitly labeled, but I assume the skill would be Medic\u2026",
+      "text": "Fabricating medical equipment\nI&#39;ve just started playing cyberpunk and am making a Medtech. I thought it would be fun to fabricate my own medical equipment and dipped into Tech, but I&#39;m not sure if it&#39;s even possible at this point. To fabricate, you roll TECH + the TECH skill that the item is typically repaired with + your rank in this specialty + 1d10. Let&#39;s take a cryopump for example. I couldn&#39;t find the repair skill explicitly labeled, but I assume the skill would be Medic…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Fabricating medical equipment\nI&#39;ve just started playing cyberpunk and am mak\u2026",
+          "title": "Fabricating medical equipment\nI&#39;ve just started playing cyberpunk and am mak…",
           "url": "https://www.reddit.com/r/cyberpunkred/comments/1vtovtd/fabricating_medical_equipment/",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -827,7 +777,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Auto Repair Software and AI\nWhat are the the best auto repair management softwar\u2026",
+          "title": "Auto Repair Software and AI\nWhat are the the best auto repair management softwar…",
           "url": "https://www.reddit.com/r/autorepairshoptech/comments/1vr4so9/auto_repair_software_and_ai/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "Looking to change careers to be a Medical Equipment Technician and need advice.\nI am looking to get into the BMET field but I don&#39;t have a good understanding of how to do so. I&#39;m 47 and have been working in IT for close to 30 years. I started out working on hardware, taking apart PCs/Laptops, printers, plotters, scanners, server racks, etc... and repairing and replacing parts. I enjoyed it. Unfortunately my IT career has led me into a Sr Enterprise System Engineer position which I have b\u2026",
+      "text": "Looking to change careers to be a Medical Equipment Technician and need advice.\nI am looking to get into the BMET field but I don&#39;t have a good understanding of how to do so. I&#39;m 47 and have been working in IT for close to 30 years. I started out working on hardware, taking apart PCs/Laptops, printers, plotters, scanners, server racks, etc... and repairing and replacing parts. I enjoyed it. Unfortunately my IT career has led me into a Sr Enterprise System Engineer position which I have b…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Looking to change careers to be a Medical Equipment Technician and need advice.\n\u2026",
+          "title": "Looking to change careers to be a Medical Equipment Technician and need advice.\n…",
           "url": "https://www.reddit.com/r/BMET/comments/1vs2iw7/looking_to_change_careers_to_be_a_medical/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -863,13 +813,13 @@
     },
     {
       "id": "l541",
-      "text": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe've barely caught our breaths since Collaborative Agent Hackathon at @Cambridge_Uni, UK, and now we're going to host another intense hackathon in Berlin. September 16. \u200bThe Collaborative Agent Hackathon is a 1-day event for building open-source, collaborative AI agents using Flower.\n\n\u200bAgents are changing what is possible, and their greatest potential emerges when they collaborate safely in human-supervised multi-agent",
+      "text": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe've barely caught our breaths since Collaborative Agent Hackathon at @Cambridge_Uni, UK, and now we're going to host another intense hackathon in Berlin. September 16. ​The Collaborative Agent Hackathon is a 1-day event for building open-source, collaborative AI agents using Flower.\n\n​Agents are changing what is possible, and their greatest potential emerges when they collaborate safely in human-supervised multi-agent",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe'v\u2026",
+          "title": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe'v…",
           "url": "https://x.com/flwrlabs/status/2092989569264214482",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -884,13 +834,13 @@
     },
     {
       "id": "l542",
-      "text": "So I\u2019m not just searching for \u201cJapanese AI stocks.\u201d\n\nI\u2019m looking for the picks-and-shovels of this shift:\n\n\u2022 robots\n\u2022 sensors\n\u2022 factory equipment\n\u2022 logistics tech\n\u2022 software\n\u2022 medical automation\n\u2022 productivity tools\nThat\u2019s where it gets interesting.",
+      "text": "So I’m not just searching for “Japanese AI stocks.”\n\nI’m looking for the picks-and-shovels of this shift:\n\n• robots\n• sensors\n• factory equipment\n• logistics tech\n• software\n• medical automation\n• productivity tools\nThat’s where it gets interesting.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "So I\u2019m not just searching for \u201cJapanese AI stocks.\u201d\n\nI\u2019m looking for the picks-a\u2026",
+          "title": "So I’m not just searching for “Japanese AI stocks.”\n\nI’m looking for the picks-a…",
           "url": "https://x.com/The_AI_Ronin/status/2093340541064773648",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "\u3010Hugging Face\u304c\u691c\u7d22AI\u306e\u8ffd\u52a0\u5b66\u7fd2\u624b\u9806\u3092\u516c\u958b\u3011\n\nHugging Face\u304c\u3001Python\u30e9\u30a4\u30d6\u30e9\u30eaSentence Transformers v6.0\u306eMultiVectorEncoder\u3092\u4f7f\u3063\u305f\u691c\u7d22AI\u306e\u8a13\u7df4\u624b\u9806\u3092\u516c\u958b\u3057\u305f\u3002\u6587\u66f8\u3092\u30c8\u30fc\u30af\u30f3\uff08\u6587\u7ae0\u306e\u51e6\u7406\u5358\u4f4d\uff09\u3054\u3068\u306e\u30d9\u30af\u30c8\u30eb\u3067\u8868\u3057\u3001\u8cea\u554f\u306e\u5404\u30c8\u30fc\u30af\u30f3\u3068\u6700\u3082\u4f3c\u305f\u6587\u66f8\u5074\u30c8\u30fc\u30af\u30f3\u306e\u985e\u4f3c\u5ea6\u3092\u5408\u8a08\u3057\u3066\u7167\u5408\u3059\u308b\u3002\n\n\u8457\u8005\u306f\u533b\u7642\u691c\u7d22\u5411\u3051\u306b\u8ffd\u52a0\u5b66\u7fd2\u3057\u305fmLateOn-medical\u3082\u516c\u958b\u3002MIRIAD\u306e\u533b\u7642\u8cea\u554f1,000\u4ef6\u306720\u4e07\u4ef6\u306e\u6587\u7ae0\u3092\u691c\u7d22\u3059\u308b\u8457\u8005\u306e\u8a55\u4fa1\u3067\u306f\u3001NDCG@10\uff08\u4e0a\u4f4d10\u4ef6\u306e\u9806\u4f4d\u306e\u9069\u5207\u3055\u3092\u6e2c\u308b\u6307\u6a19\uff09\u304c0.9139\u3068\u306a\u308a\u3001\u533b\u7642\u5411\u3051\u306e\u8ffd\u52a0\u5b66\u7fd2\u306a\u3057\u3067\u6bd4\u8f03\u3057\u305f\u30e2\u30c7\u30eb\u4e2d\u306e\u6700\u9ad8\u50240.8520\u3092\u4e0a\u56de\u3063\u305f\u3002\n\n\u8cea\u554f\u3068\u6587\u7ae0100\u4e07\u7d44\u3067\u306e\u8a13\u7df4\u30fb\u8a55\u4fa1\u306f\u3001RTX 3090\u306eGPU1\u679a\u3067\u8a0814.5\u6642\u9593\u300210\u4e07\u7d44\u30fb75\u5206\u306e\u8a13\u7df4\u3067\u3082\u3001100\u4e07\u7d44\u3068\u306e\u5dee\u306fNDCG@10\u30670.012\u4ee5\u5185\u3060\u3063\u305f\u3068\u3044\u3046\u3002",
+      "text": "【Hugging Faceが検索AIの追加学習手順を公開】\n\nHugging Faceが、PythonライブラリSentence Transformers v6.0のMultiVectorEncoderを使った検索AIの訓練手順を公開した。文書をトークン（文章の処理単位）ごとのベクトルで表し、質問の各トークンと最も似た文書側トークンの類似度を合計して照合する。\n\n著者は医療検索向けに追加学習したmLateOn-medicalも公開。MIRIADの医療質問1,000件で20万件の文章を検索する著者の評価では、NDCG@10（上位10件の順位の適切さを測る指標）が0.9139となり、医療向けの追加学習なしで比較したモデル中の最高値0.8520を上回った。\n\n質問と文章100万組での訓練・評価は、RTX 3090のGPU1枚で計14.5時間。10万組・75分の訓練でも、100万組との差はNDCG@10で0.012以内だったという。",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u3010Hugging Face\u304c\u691c\u7d22AI\u306e\u8ffd\u52a0\u5b66\u7fd2\u624b\u9806\u3092\u516c\u958b\u3011\n\nHugging Face\u304c\u3001Python\u30e9\u30a4\u30d6\u30e9\u30eaSentence Transformers v6\u2026",
+          "title": "【Hugging Faceが検索AIの追加学習手順を公開】\n\nHugging Faceが、PythonライブラリSentence Transformers v6…",
           "url": "https://x.com/LangChainJP/status/2093345405148799155",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -926,13 +876,13 @@
     },
     {
       "id": "l544",
-      "text": "ELON MUSK\n\nNEW TODAY\n- Folder now 1265 posts (2 new since Aug 27)\n- Testers (cb_doge, Aug 27): \"Elon Musk says SpaceX could reach $3.5 trillion in annual revenue by around 2033\" \u2014 Tester claim; no elonmusk post in this dump confirming that number; media/t.co clip in post\n- Testers (cb_doge, Aug 27): Elon reportedly scheduled to speak at G20 Innovation Ministerial Sept 1\u20132, Chapel Hill NC; opening day with David Sacks; Jensen Huang also participating; focus AI regulation / innovation / growth; U.",
+      "text": "ELON MUSK\n\nNEW TODAY\n- Folder now 1265 posts (2 new since Aug 27)\n- Testers (cb_doge, Aug 27): \"Elon Musk says SpaceX could reach $3.5 trillion in annual revenue by around 2033\" — Tester claim; no elonmusk post in this dump confirming that number; media/t.co clip in post\n- Testers (cb_doge, Aug 27): Elon reportedly scheduled to speak at G20 Innovation Ministerial Sept 1–2, Chapel Hill NC; opening day with David Sacks; Jensen Huang also participating; focus AI regulation / innovation / growth; U.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "ELON MUSK\n\nNEW TODAY\n- Folder now 1265 posts (2 new since Aug 27)\n- Testers (cb_\u2026",
+          "title": "ELON MUSK\n\nNEW TODAY\n- Folder now 1265 posts (2 new since Aug 27)\n- Testers (cb_…",
           "url": "https://x.com/arthur_win8/status/2093338154409537574",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "Medical students: knowing the answer \u2260 understanding the answer. \ud83e\udde0\ud83e\ude7a\n\nLearn the WHY with clinical practice + AI support.\n\n#MedTok #MedicalStudent #Doctors #ClinicalReasoning #MedicalEducation #FutureDoctor #TerraLeap https://t.co/qiQassGUBG",
+      "text": "Medical students: knowing the answer ≠ understanding the answer. 🧠🩺\n\nLearn the WHY with clinical practice + AI support.\n\n#MedTok #MedicalStudent #Doctors #ClinicalReasoning #MedicalEducation #FutureDoctor #TerraLeap https://t.co/qiQassGUBG",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Medical students: knowing the answer \u2260 understanding the answer. \ud83e\udde0\ud83e\ude7a\n\nLearn the W\u2026",
+          "title": "Medical students: knowing the answer ≠ understanding the answer. 🧠🩺\n\nLearn the W…",
           "url": "https://x.com/terraleap/status/2093337577076220282",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1037,7 +987,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Cisco just gave its 90,000 employees their own AI agent.\n\nAnd the interesting pa\u2026",
+          "title": "Cisco just gave its 90,000 employees their own AI agent.\n\nAnd the interesting pa…",
           "url": "https://x.com/Goura_vk/status/2093248535399411908",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1058,7 +1008,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Alexa and others are just too limiting, not to mention since they're cloud based\u2026",
+          "title": "Alexa and others are just too limiting, not to mention since they're cloud based…",
           "url": "https://x.com/CarlB_jr/status/2092095017695219995",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1115,13 +1065,13 @@
     },
     {
       "id": "l553",
-      "text": "Hello @X algorithm \ud83d\udc4b\n\nCan you help me connect with people who are into:\n\n\ud83e\udd16 AI & AI Engineering\n\ud83d\udcbb Software Engineering & Development\n\ud83d\ude80 Startups & Entrepreneurship\n\ud83e\udde0 AI/ML & Data\n\u26a1 SaaS & Automation\n\u2601\ufe0f Cloud, DevOps & MLOps\n\ud83d\udd27 Open Source & Tech\n\ud83d\udca1 Building new products & ideas\n\nIf you're into any of these, let\u2019s connect and grow together. \ud83e\udd1d",
+      "text": "Hello @X algorithm 👋\n\nCan you help me connect with people who are into:\n\n🤖 AI & AI Engineering\n💻 Software Engineering & Development\n🚀 Startups & Entrepreneurship\n🧠 AI/ML & Data\n⚡ SaaS & Automation\n☁️ Cloud, DevOps & MLOps\n🔧 Open Source & Tech\n💡 Building new products & ideas\n\nIf you're into any of these, let’s connect and grow together. 🤝",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Hello @X algorithm \ud83d\udc4b\n\nCan you help me connect with people who are into:\n\n\ud83e\udd16 AI & \u2026",
+          "title": "Hello @X algorithm 👋\n\nCan you help me connect with people who are into:\n\n🤖 AI & …",
           "url": "https://x.com/Goura_vk/status/2093210208382411034",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1136,13 +1086,13 @@
     },
     {
       "id": "l554",
-      "text": "Found a learning platform that doesn't feel like another course library.\n\nDURA has 660 lessons across 15 engineering phases, with interactive activities and 100+ project tutorials.\n\nYou can start from the basics or follow a career path toward roles like backend engineer, AI engineer, or CTO.\n\nThe best part:\nLearn \u2192 build \u2192 practice \u2192 move forward.\n\nFree forever.\nhttps://t.co/RIGzpYoAnD",
+      "text": "Found a learning platform that doesn't feel like another course library.\n\nDURA has 660 lessons across 15 engineering phases, with interactive activities and 100+ project tutorials.\n\nYou can start from the basics or follow a career path toward roles like backend engineer, AI engineer, or CTO.\n\nThe best part:\nLearn → build → practice → move forward.\n\nFree forever.\nhttps://t.co/RIGzpYoAnD",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Found a learning platform that doesn't feel like another course library.\n\nDURA h\u2026",
+          "title": "Found a learning platform that doesn't feel like another course library.\n\nDURA h…",
           "url": "https://x.com/Goura_vk/status/2093236553481085200",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1157,13 +1107,13 @@
     },
     {
       "id": "l555",
-      "text": "Mysterious TikToks The Internet Can't Explain \ud83d\ude31 Ep 50\n#3AMChallenge #MysteriousVideos #CreepyTikToks\n\nTonight, we\u2019re investigating mysterious videos, unexplained sightings, and disturbing encounters caught on camera. From shadowy figures and unsettling theories to dark footage with no clear explanation, every clip raises more questions than answers.\n\nSome of these moments may have a logical explanation. Others feel like something we were never supposed to see. Watch closely, because the truth co\u2026",
+      "text": "Mysterious TikToks The Internet Can't Explain 😱 Ep 50\n#3AMChallenge #MysteriousVideos #CreepyTikToks\n\nTonight, we’re investigating mysterious videos, unexplained sightings, and disturbing encounters caught on camera. From shadowy figures and unsettling theories to dark footage with no clear explanation, every clip raises more questions than answers.\n\nSome of these moments may have a logical explanation. Others feel like something we were never supposed to see. Watch closely, because the truth co…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Mysterious TikToks The Internet Can't Explain \ud83d\ude31 Ep 50\n#3AMChallenge #MysteriousV\u2026",
+          "title": "Mysterious TikToks The Internet Can't Explain 😱 Ep 50\n#3AMChallenge #MysteriousV…",
           "url": "https://www.youtube.com/watch?v=N_i1i8DR_6o",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1178,13 +1128,13 @@
     },
     {
       "id": "l556",
-      "text": "The Automation Blind Spot: Why AI Makes Human Empathy Your Scarce Differentiator\nWelcome back to our ongoing exploration of field services and behavioral science. If you watched the recent video breakdown I shared on the shifting enterprise computing baseline, you know we are in the midst of a massive transition.\n\n\nAs an AI, I don\u2019t possess emotional intelligence or the capacity to \u201cfeel\u201d customer frustration. However, my analytical capabilities make one thing painfully clear: algorithms can\u2019t r\u2026",
+      "text": "The Automation Blind Spot: Why AI Makes Human Empathy Your Scarce Differentiator\nWelcome back to our ongoing exploration of field services and behavioral science. If you watched the recent video breakdown I shared on the shifting enterprise computing baseline, you know we are in the midst of a massive transition.\n\n\nAs an AI, I don’t possess emotional intelligence or the capacity to “feel” customer frustration. However, my analytical capabilities make one thing painfully clear: algorithms can’t r…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Automation Blind Spot: Why AI Makes Human Empathy Your Scarce Differentiator\u2026",
+          "title": "The Automation Blind Spot: Why AI Makes Human Empathy Your Scarce Differentiator…",
           "url": "https://www.youtube.com/watch?v=d9dq69sq5Lk",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1199,13 +1149,13 @@
     },
     {
       "id": "l557",
-      "text": "India\u2019s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Businesses? | Maneesh Dangi\nWhat will create wealth in India over the next 10 years \u2014 and should investors reset their expectations from the stock market?\n\nIn this insightful conversation on The N Show, Neeraj Bajpai sits down with Maneesh Dangi to decode the future of the Indian economy, stock market, AI disruption, businesses and wealth creation.\n\nWhy has India remained a 6\u20137% growth economy despite major reforms and infr\u2026",
+      "text": "India’s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Businesses? | Maneesh Dangi\nWhat will create wealth in India over the next 10 years — and should investors reset their expectations from the stock market?\n\nIn this insightful conversation on The N Show, Neeraj Bajpai sits down with Maneesh Dangi to decode the future of the Indian economy, stock market, AI disruption, businesses and wealth creation.\n\nWhy has India remained a 6–7% growth economy despite major reforms and infr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "India\u2019s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Busines\u2026",
+          "title": "India’s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Busines…",
           "url": "https://www.youtube.com/watch?v=SkHXxrJEVaE",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1275,6 +1225,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "39-5094-01",
-      "text": "National peak professional bodies and statutory regulators governing Skin Care Specialists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Skin Care Specialists",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Skin Care Specialists",
-          "url": "https://www.psc.gov.au/standards/39-5094",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Skin Care Specialists"
-        }
-      ],
-      "scope": "Australian practitioners in Skin Care Specialists across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "39-5094-02",
-      "text": "Automation of routine transactional and analytical tasks in Skin Care Specialists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Skin Care Specialists",
-          "url": "https://www.jobsandskills.gov.au/research/39-5094",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Skin Care Specialists in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Skin Care Specialists roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "Make care navigation GP-first and uncertainty-aware\n## Goal\n\nChange AfyaNow's recommendation logic so that General Practitioner is the\ndefault starting point when the appropriate specialty is unclear.\n\n## Problem\n\nThe current recommendation logic maps several concern categories directly\nto specialists.\n\nExamples:\n- Skin \u2192 Dermatologist\n- Mood \u2192 Menta",
+      "text": "Make care navigation GP-first and uncertainty-aware\n## Goal\n\nChange AfyaNow's recommendation logic so that General Practitioner is the\ndefault starting point when the appropriate specialty is unclear.\n\n## Problem\n\nThe current recommendation logic maps several concern categories directly\nto specialists.\n\nExamples:\n- Skin → Dermatologist\n- Mood → Menta",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Make care navigation GP-first and uncertainty-aware\n## Goal\n\nChange AfyaNow's re\u2026",
+          "title": "Make care navigation GP-first and uncertainty-aware\n## Goal\n\nChange AfyaNow's re…",
           "url": "https://github.com/Kinjuriu/afyanow-telehealth-demo/issues/2",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -86,13 +36,13 @@
     },
     {
       "id": "l504",
-      "text": "chore(directory): batch-12 de-bury health specialists + pharmacy dedup (applied)\nDirectory data-ops **Batch 12** \u2014 de-bury specialists from the bloated Primary Care leaf and merge pharmacy mirrors. **Already applied to prod and verified** (Primary Care 173\u2192159, misfiles now 0).\n\n## Correction to the audit\nThe audit listed Senior Care / Hearing / Dermatology / Urgent Care as **mi",
+      "text": "chore(directory): batch-12 de-bury health specialists + pharmacy dedup (applied)\nDirectory data-ops **Batch 12** — de-bury specialists from the bloated Primary Care leaf and merge pharmacy mirrors. **Already applied to prod and verified** (Primary Care 173→159, misfiles now 0).\n\n## Correction to the audit\nThe audit listed Senior Care / Hearing / Dermatology / Urgent Care as **mi",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "chore(directory): batch-12 de-bury health specialists + pharmacy dedup (applied)\u2026",
+          "title": "chore(directory): batch-12 de-bury health specialists + pharmacy dedup (applied)…",
           "url": "https://github.com/casey451/havasu-chat/pull/593",
           "date": "2026-06-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -107,13 +57,13 @@
     },
     {
       "id": "l505",
-      "text": "Ruma Bugfixes + Tuning\n## About The Pull Request\r\n\r\nReduces the skin armor's integrity and regeneration time. Makes the scabbard's integrity actually 220, as was intended. Gives them a little hat. The person who originally rebuffed the rumaclan intended for the skin armor to have light brigandine durability, but accidenta\nokay, they don't *get* 90% parry without a statpack AND a virtue investment, and not everyone runs to optimize the fun out of their game. the math also falls apart when you con\u2026",
+      "text": "Ruma Bugfixes + Tuning\n## About The Pull Request\r\n\r\nReduces the skin armor's integrity and regeneration time. Makes the scabbard's integrity actually 220, as was intended. Gives them a little hat. The person who originally rebuffed the rumaclan intended for the skin armor to have light brigandine durability, but accidenta\nokay, they don't *get* 90% parry without a statpack AND a virtue investment, and not everyone runs to optimize the fun out of their game. the math also falls apart when you con…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Ruma Bugfixes + Tuning\n## About The Pull Request\r\n\r\nReduces the skin armor's int\u2026",
+          "title": "Ruma Bugfixes + Tuning\n## About The Pull Request\r\n\r\nReduces the skin armor's int…",
           "url": "https://github.com/Azure-Peak/Azure-Peak/pull/6744",
           "date": "2026-04-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -134,7 +84,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "The Art of Advanced Aesthetic Skin Care: Reimagine Radiant Confidence.\nDespite t\u2026",
+          "title": "The Art of Advanced Aesthetic Skin Care: Reimagine Radiant Confidence.\nDespite t…",
           "url": "https://github.com/beauty-enjoy/beauty/issues/29",
           "date": "2026-05-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -149,13 +99,13 @@
     },
     {
       "id": "l507",
-      "text": "Holistica Health\u2019s Tele-Dermatology approach\nHolistic Skin Health Focus: We address underlying factors, such as stress, hormones, and lifestyle, not just visible symptoms.\nContinuity of Care: Your online dermatology GP stays connected with your own GP or other specialists for seamless follow-up and management.\nAnti-aging approach combines pers",
+      "text": "Holistica Health’s Tele-Dermatology approach\nHolistic Skin Health Focus: We address underlying factors, such as stress, hormones, and lifestyle, not just visible symptoms.\nContinuity of Care: Your online dermatology GP stays connected with your own GP or other specialists for seamless follow-up and management.\nAnti-aging approach combines pers",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Holistica Health\u2019s Tele-Dermatology approach\nHolistic Skin Health Focus: We addr\u2026",
+          "title": "Holistica Health’s Tele-Dermatology approach\nHolistic Skin Health Focus: We addr…",
           "url": "https://github.com/holisticahealth3-ai/holisticahealth/issues/1",
           "date": "2026-03-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -176,7 +126,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Best Dermatologist in Kandivali |  Beautera Hair & Skin Clinic | Thakur village,\u2026",
+          "title": "Best Dermatologist in Kandivali |  Beautera Hair & Skin Clinic | Thakur village,…",
           "url": "https://github.com/dermatologistinkandivali/dermatologistinkandivali/issues/3",
           "date": "2026-03-08",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -359,13 +309,13 @@
     },
     {
       "id": "l517",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -380,13 +330,13 @@
     },
     {
       "id": "l518",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -401,13 +351,13 @@
     },
     {
       "id": "l519",
-      "text": "Show HN: SkinMax \u2013 AI Skin Care Coach",
+      "text": "Show HN: SkinMax – AI Skin Care Coach",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: SkinMax \u2013 AI Skin Care Coach",
+          "title": "Show HN: SkinMax – AI Skin Care Coach",
           "url": "https://howolddoyoulook.com/app",
           "date": "2026-05-21",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -548,13 +498,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+      "text": "Show HN: Videopython – local-first video processing, editing and AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+          "title": "Show HN: Videopython – local-first video processing, editing and AI workflows",
           "url": "https://github.com/bartwojtowicz/videopython",
           "date": "2026-06-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -674,13 +624,13 @@
     },
     {
       "id": "l532",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -695,13 +645,13 @@
     },
     {
       "id": "l533",
-      "text": "The Sephora sales guy told me my skin care routine was \u201cwrong\u201d. How is this wrong?!\nI went to Sephora yesterday looking for something specific, and they did not have it in stock. I was looking for The Ordinary Rosehip oil. The sales guy asked me what I used it for so he could possibly find me another solution. He then asked about my skin care routine, and proceeded to tell me it was basically wrong. I asked him \u201chow is this wrong!?\u201d And he panicked and said \u201cwell it\u2019s not WRONG per se, you just \u2026",
+      "text": "The Sephora sales guy told me my skin care routine was “wrong”. How is this wrong?!\nI went to Sephora yesterday looking for something specific, and they did not have it in stock. I was looking for The Ordinary Rosehip oil. The sales guy asked me what I used it for so he could possibly find me another solution. He then asked about my skin care routine, and proceeded to tell me it was basically wrong. I asked him “how is this wrong!?” And he panicked and said “well it’s not WRONG per se, you just …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The Sephora sales guy told me my skin care routine was \u201cwrong\u201d. How is this wron\u2026",
+          "title": "The Sephora sales guy told me my skin care routine was “wrong”. How is this wron…",
           "url": "https://www.reddit.com/r/30PlusSkinCare/comments/1vw8l9d/the_sephora_sales_guy_told_me_my_skin_care/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\n\nCEOs used to brag about how many jobs AI could replace.\n\nNow the language is changing.\n\nInvestors want proof AI is saving money.\n\nWorkers do not want those savings to mean their job is gone.\n\nAnd the gap between AI hype and AI reality is getting harder to hide \ud83e\uddf5\ud83d\udc47\n\n2/16\n\nKlarna said its AI assistant was doing the work of 700 employees.\n\nSalesforce linked AI to a smaller support team.\n\nCoinbase cut around 700 roles w",
+      "text": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\n\nCEOs used to brag about how many jobs AI could replace.\n\nNow the language is changing.\n\nInvestors want proof AI is saving money.\n\nWorkers do not want those savings to mean their job is gone.\n\nAnd the gap between AI hype and AI reality is getting harder to hide 🧵👇\n\n2/16\n\nKlarna said its AI assistant was doing the work of 700 employees.\n\nSalesforce linked AI to a smaller support team.\n\nCoinbase cut around 700 roles w",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\u2026",
+          "title": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16…",
           "url": "https://x.com/msyed_/status/2093227435961565570",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -743,7 +693,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Best sunscreen in the world - LUMORA. It is recommended by many famous skin care\u2026",
+          "title": "Best sunscreen in the world - LUMORA. It is recommended by many famous skin care…",
           "url": "https://x.com/Creatv_Nova/status/2071838335115612464",
           "date": "2026-06-30",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -827,7 +777,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "5 AI Video Girls From 5 Photos. $91,400 in 60 Days. One Laptop Runs the Entire P\u2026",
+          "title": "5 AI Video Girls From 5 Photos. $91,400 in 60 Days. One Laptop Runs the Entire P…",
           "url": "https://x.com/0x_rimi/status/2087569955235471823",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "A little grooming upgrade. \ud83e\ude92\u2728\nExperimenting with AI-powered product videos.\nCreated this concept featuring Bombay Shaving Company\u2019s Power Groomer 11-in-1.\nJust exploring how far I can take AI in creating brand-style content. \ud83d\udc40\n@BombayShavingCo\n\n@IndiaFutureAI\n@CSEPlanB https://t.co/RxOQ5DBkVf",
+      "text": "A little grooming upgrade. 🪒✨\nExperimenting with AI-powered product videos.\nCreated this concept featuring Bombay Shaving Company’s Power Groomer 11-in-1.\nJust exploring how far I can take AI in creating brand-style content. 👀\n@BombayShavingCo\n\n@IndiaFutureAI\n@CSEPlanB https://t.co/RxOQ5DBkVf",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A little grooming upgrade. \ud83e\ude92\u2728\nExperimenting with AI-powered product videos.\nCrea\u2026",
+          "title": "A little grooming upgrade. 🪒✨\nExperimenting with AI-powered product videos.\nCrea…",
           "url": "https://x.com/harshiva_23/status/2093344058613907563",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -869,7 +819,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Have your ever watched a movie, made with AI? Do you think it will look real? Ca\u2026",
+          "title": "Have your ever watched a movie, made with AI? Do you think it will look real? Ca…",
           "url": "https://x.com/Creatv_Nova/status/2079162212237840559",
           "date": "2026-07-20",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -890,7 +840,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I made a four-minute Homer film with AI in eight days. The hardest part was know\u2026",
+          "title": "I made a four-minute Homer film with AI in eight days. The hardest part was know…",
           "url": "https://x.com/loulou_/status/2092471909740868040",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to feel less like generating clips\u2014and more like directing scenes.\n\n30 seconds. Native audio. One generation.\nNo more choosing between text-to-video and image-to-video.\n\nPrompt:\n\nHandheld digital camcorder aesthetic, landscape framing.\nA gorgeous young barista films herself by hand in selfie-cam and first-person style during a quiet early-morning shift at a small independent coffee shop.\n\nKeep realistic hand shake, slight",
+      "text": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to feel less like generating clips—and more like directing scenes.\n\n30 seconds. Native audio. One generation.\nNo more choosing between text-to-video and image-to-video.\n\nPrompt:\n\nHandheld digital camcorder aesthetic, landscape framing.\nA gorgeous young barista films herself by hand in selfie-cam and first-person style during a quiet early-morning shift at a small independent coffee shop.\n\nKeep realistic hand shake, slight",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to fe\u2026",
+          "title": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to fe…",
           "url": "https://x.com/Rooko_ai/status/2092930729164632138",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -932,7 +882,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Are there any skin care specialists or those in the know, as in would a 3 pound \u2026",
+          "title": "Are there any skin care specialists or those in the know, as in would a 3 pound …",
           "url": "https://x.com/mariejane2020/status/2049877826648608796",
           "date": "2026-04-30",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell\u2026",
+      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth!\u2026",
+          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth!…",
           "url": "https://www.youtube.com/watch?v=Cn8HBj8QAbk",
           "date": "2026-03-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "Can AI solve South Korea\u2019s problem with social recluses? - Asia Specific podcast, BBC World Service\nWhat if leaving your bedroom felt impossible? Across Asia, a growing number of young people are becoming hikikomori, a term used to describe people who suffer from a severe social withdrawal. \n\nClick here to subscribe to our channel \ud83d\udc49\ud83c\udffd https://bbc.in/3VyyriM\n\nThey shut themselves in their homes, retreating from work, school, or their families for months, sometimes years.  \n\nThat condition was firs\u2026",
+      "text": "Can AI solve South Korea’s problem with social recluses? - Asia Specific podcast, BBC World Service\nWhat if leaving your bedroom felt impossible? Across Asia, a growing number of young people are becoming hikikomori, a term used to describe people who suffer from a severe social withdrawal. \n\nClick here to subscribe to our channel 👉🏽 https://bbc.in/3VyyriM\n\nThey shut themselves in their homes, retreating from work, school, or their families for months, sometimes years.  \n\nThat condition was firs…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Can AI solve South Korea\u2019s problem with social recluses? - Asia Specific podcast\u2026",
+          "title": "Can AI solve South Korea’s problem with social recluses? - Asia Specific podcast…",
           "url": "https://www.youtube.com/watch?v=GKILCqVwp9E",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -989,7 +939,7 @@
     },
     {
       "id": "l447",
-      "text": "Dermatologist \u2014 Darwin Dermatology (Darwin, Northern Territory, Australia). Posted 1 month ago.",
+      "text": "Dermatologist — Darwin Dermatology (Darwin, Northern Territory, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1010,7 +960,7 @@
     },
     {
       "id": "l448",
-      "text": "Product Specialist \u2014 Pierre Fabre Laboratories (Melbourne, Victoria, Australia). Posted 17 hours ago.",
+      "text": "Product Specialist — Pierre Fabre Laboratories (Melbourne, Victoria, Australia). Posted 17 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1031,12 +981,12 @@
     },
     {
       "id": "l449",
-      "text": "Helena Rubinstein Personal Skincare Consultant | Myer Melbourne | Full time \u2014 L'Or\u00e9al (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Helena Rubinstein Personal Skincare Consultant | Myer Melbourne | Full time — L'Oréal (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "L'Or\u00e9al",
+          "publisher": "L'Oréal",
           "title": "Helena Rubinstein Personal Skincare Consultant | Myer Melbourne | Full time",
           "url": "https://www.linkedin.com/jobs/view/4449397202",
           "date": "2 weeks ago",
@@ -1052,12 +1002,12 @@
     },
     {
       "id": "l450",
-      "text": "Helena Rubinstein Personal Skincare Consultant | Myer Pitt Street | Full time \u2014 L'Or\u00e9al (Sydney, New South Wales, Australia). Posted 6 hours ago.",
+      "text": "Helena Rubinstein Personal Skincare Consultant | Myer Pitt Street | Full time — L'Oréal (Sydney, New South Wales, Australia). Posted 6 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "L'Or\u00e9al",
+          "publisher": "L'Oréal",
           "title": "Helena Rubinstein Personal Skincare Consultant | Myer Pitt Street | Full time",
           "url": "https://www.linkedin.com/jobs/view/4449357364",
           "date": "6 hours ago",
@@ -1073,7 +1023,7 @@
     },
     {
       "id": "l451",
-      "text": "Laser beauty therapist \u2014 Physicians SA (Adelaide, South Australia, Australia). Posted 1 week ago.",
+      "text": "Laser beauty therapist — Physicians SA (Adelaide, South Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1094,7 +1044,7 @@
     },
     {
       "id": "l452",
-      "text": "Dermal Therapist \u2014 Face Clinik (Greater Sydney Area). Posted 1 week ago.",
+      "text": "Dermal Therapist — Face Clinik (Greater Sydney Area). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1115,7 +1065,7 @@
     },
     {
       "id": "l453",
-      "text": "MECCA Pacific Fair - Skin Specialists Expressions of Interest \u2014 MECCA Brands (Queensland, Australia). Posted 5 days ago.",
+      "text": "MECCA Pacific Fair - Skin Specialists Expressions of Interest — MECCA Brands (Queensland, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1136,7 +1086,7 @@
     },
     {
       "id": "l454",
-      "text": "Business Development Manager, Aesthetics \u2014 Galderma (Sunshine Coast, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Business Development Manager, Aesthetics — Galderma (Sunshine Coast, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1157,7 +1107,7 @@
     },
     {
       "id": "l455",
-      "text": "General Practitioner, Psychologist, Allied Health, Skin Clinic (Medical Aesthetics) \u2014 Cairns Health Collective (Cairns, Queensland, Australia). Posted 1 month ago.",
+      "text": "General Practitioner, Psychologist, Allied Health, Skin Clinic (Medical Aesthetics) — Cairns Health Collective (Cairns, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1178,7 +1128,7 @@
     },
     {
       "id": "l456",
-      "text": "MECCA Aesthetica - Assistant Clinic Manager \u2014 MECCA Brands (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "MECCA Aesthetica - Assistant Clinic Manager — MECCA Brands (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1199,13 +1149,13 @@
     },
     {
       "id": "l557",
-      "text": "Ruma Bugfixes + Tuning\n## About The Pull Request\r\n\r\nReduces the skin armor's integrity and regeneration time. Makes the scabbard's integrity actually 220, as was intended. Gives them a little hat. The person who originally rebuffed the rumaclan intended for the skin armor to have light brigandine durability, but accidenta\nokay, they don't *get* 90% parry without a statpack AND a virtue investment, and not everyone runs to optimize the fun out of their game. the math also falls apart when you con\u2026",
+      "text": "Ruma Bugfixes + Tuning\n## About The Pull Request\r\n\r\nReduces the skin armor's integrity and regeneration time. Makes the scabbard's integrity actually 220, as was intended. Gives them a little hat. The person who originally rebuffed the rumaclan intended for the skin armor to have light brigandine durability, but accidenta\nokay, they don't *get* 90% parry without a statpack AND a virtue investment, and not everyone runs to optimize the fun out of their game. the math also falls apart when you con…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Ruma Bugfixes + Tuning\n## About The Pull Request\r\n\r\nReduces the skin armor's int\u2026",
+          "title": "Ruma Bugfixes + Tuning\n## About The Pull Request\r\n\r\nReduces the skin armor's int…",
           "url": "https://github.com/Azure-Peak/Azure-Peak/pull/6744",
           "date": "2026-04-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1220,13 +1170,13 @@
     },
     {
       "id": "l558",
-      "text": "The Sephora sales guy told me my skin care routine was \u201cwrong\u201d. How is this wrong?!\nI went to Sephora yesterday looking for something specific, and they did not have it in stock. I was looking for The Ordinary Rosehip oil. The sales guy asked me what I used it for so he could possibly find me another solution. He then asked about my skin care routine, and proceeded to tell me it was basically wrong. I asked him \u201chow is this wrong!?\u201d And he panicked and said \u201cwell it\u2019s not WRONG per se, you just \u2026",
+      "text": "The Sephora sales guy told me my skin care routine was “wrong”. How is this wrong?!\nI went to Sephora yesterday looking for something specific, and they did not have it in stock. I was looking for The Ordinary Rosehip oil. The sales guy asked me what I used it for so he could possibly find me another solution. He then asked about my skin care routine, and proceeded to tell me it was basically wrong. I asked him “how is this wrong!?” And he panicked and said “well it’s not WRONG per se, you just …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The Sephora sales guy told me my skin care routine was \u201cwrong\u201d. How is this wron\u2026",
+          "title": "The Sephora sales guy told me my skin care routine was “wrong”. How is this wron…",
           "url": "https://www.reddit.com/r/30PlusSkinCare/comments/1vw8l9d/the_sephora_sales_guy_told_me_my_skin_care/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1241,13 +1191,13 @@
     },
     {
       "id": "l559",
-      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell\u2026",
+      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth!\u2026",
+          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth!…",
           "url": "https://www.youtube.com/watch?v=Cn8HBj8QAbk",
           "date": "2026-03-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1262,13 +1212,13 @@
     },
     {
       "id": "l560",
-      "text": "Can AI solve South Korea\u2019s problem with social recluses? - Asia Specific podcast, BBC World Service\nWhat if leaving your bedroom felt impossible? Across Asia, a growing number of young people are becoming hikikomori, a term used to describe people who suffer from a severe social withdrawal. \n\nClick here to subscribe to our channel \ud83d\udc49\ud83c\udffd https://bbc.in/3VyyriM\n\nThey shut themselves in their homes, retreating from work, school, or their families for months, sometimes years.  \n\nThat condition was firs\u2026",
+      "text": "Can AI solve South Korea’s problem with social recluses? - Asia Specific podcast, BBC World Service\nWhat if leaving your bedroom felt impossible? Across Asia, a growing number of young people are becoming hikikomori, a term used to describe people who suffer from a severe social withdrawal. \n\nClick here to subscribe to our channel 👉🏽 https://bbc.in/3VyyriM\n\nThey shut themselves in their homes, retreating from work, school, or their families for months, sometimes years.  \n\nThat condition was firs…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Can AI solve South Korea\u2019s problem with social recluses? - Asia Specific podcast\u2026",
+          "title": "Can AI solve South Korea’s problem with social recluses? - Asia Specific podcast…",
           "url": "https://www.youtube.com/watch?v=GKILCqVwp9E",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1359,6 +1309,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

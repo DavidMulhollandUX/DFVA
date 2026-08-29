@@ -15,58 +15,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "27-1011-01",
-      "text": "National peak professional bodies and statutory regulators governing Art Directors enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Art Directors",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Art Directors",
-          "url": "https://www.psc.gov.au/standards/27-1011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Art Directors"
-        }
-      ],
-      "scope": "Australian practitioners in Art Directors across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "27-1011-02",
-      "text": "Automation of routine transactional and analytical tasks in Art Directors heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Art Directors",
-          "url": "https://www.jobsandskills.gov.au/research/27-1011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Art Directors in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Art Directors roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Art Director (12 Months) \u2014 Eucalyptus (Sydney, New South Wales, Australia). Posted 1 day ago.",
+      "text": "Art Director (12 Months) — Eucalyptus (Sydney, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -87,7 +37,7 @@
     },
     {
       "id": "l404",
-      "text": "Senior Art Director \u2014 Guzman y Gomez Mexican Kitchen (Surry Hills, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Senior Art Director — Guzman y Gomez Mexican Kitchen (Surry Hills, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -108,7 +58,7 @@
     },
     {
       "id": "l405",
-      "text": "Retail Experience Art Director \u2014 Cheil Australia (Sydney Olympic Park, New South Wales, Australia). Posted 3 weeks ago.",
+      "text": "Retail Experience Art Director — Cheil Australia (Sydney Olympic Park, New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -129,7 +79,7 @@
     },
     {
       "id": "l406",
-      "text": "Art Director \u2014 I Want It Yesterday. (Sydney, New South Wales, Australia). Posted 16 hours ago.",
+      "text": "Art Director — I Want It Yesterday. (Sydney, New South Wales, Australia). Posted 16 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -150,7 +100,7 @@
     },
     {
       "id": "l407",
-      "text": "Creative Lead, MECCA-Maginations \u2014 MECCA Brands (Richmond, Victoria, Australia). Posted 2 days ago.",
+      "text": "Creative Lead, MECCA-Maginations — MECCA Brands (Richmond, Victoria, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -171,7 +121,7 @@
     },
     {
       "id": "l408",
-      "text": "Head of Creative Studio \u2014 King Living (Turrella, New South Wales, Australia). Posted 3 weeks ago.",
+      "text": "Head of Creative Studio — King Living (Turrella, New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -192,7 +142,7 @@
     },
     {
       "id": "l409",
-      "text": "EOI - 2D Art Directors \u2014 Princess Bento Studio (South Melbourne, Victoria, Australia). Posted 1 month ago.",
+      "text": "EOI - 2D Art Directors — Princess Bento Studio (South Melbourne, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -213,7 +163,7 @@
     },
     {
       "id": "l410",
-      "text": "Brand Creative Lead \u2014 Restoke.ai (Melbourne, Victoria, Australia). Posted 5 days ago.",
+      "text": "Brand Creative Lead — Restoke.ai (Melbourne, Victoria, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -234,7 +184,7 @@
     },
     {
       "id": "l411",
-      "text": "Brand Design Lead \u2014 Askable (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Brand Design Lead — Askable (Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -255,7 +205,7 @@
     },
     {
       "id": "l412",
-      "text": "Creative Lead Designer \u2014 Early Settler (Keysborough, Victoria, Australia). Posted 7 hours ago.",
+      "text": "Creative Lead Designer — Early Settler (Keysborough, Victoria, Australia). Posted 7 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -282,7 +232,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Add Continuity-Design creative director and AI-slop workflow\n## What changed\n\n- \u2026",
+          "title": "Add Continuity-Design creative director and AI-slop workflow\n## What changed\n\n- …",
           "url": "https://github.com/bshirley7/continuity-skills/pull/10",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -297,13 +247,13 @@
     },
     {
       "id": "l514",
-      "text": "The Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\nThe Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\n\nFirst things first: while it's pronounced like the primate, the term is spelled \"guerrilla marketing\"\u2014borrowed directly from the Spanish military term guerrilla (\"little war\"). Just as guerrilla warfare relies on small, mo\nWhen brands bypass traditional media channels for guerrilla tactics, they trade media costs for operational risk. Because \u2026",
+      "text": "The Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\nThe Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\n\nFirst things first: while it's pronounced like the primate, the term is spelled \"guerrilla marketing\"—borrowed directly from the Spanish military term guerrilla (\"little war\"). Just as guerrilla warfare relies on small, mo\nWhen brands bypass traditional media channels for guerrilla tactics, they trade media costs for operational risk. Because …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "The Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\nThe\u2026",
+          "title": "The Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\nThe…",
           "url": "https://github.com/attogram/found-talks-with-swapfiets/issues/23",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -318,13 +268,13 @@
     },
     {
       "id": "l515",
-      "text": "feat: ai-animation-ads production skill + review-gate agents + design-psychology doctrine\n## What this adds\n\nThe **production layer** for AI ad creation: where the existing `ai-ad-generation` skill outputs prompt text for the user to paste into a tool, this skill **executes end-to-end** \u2014 strategy gate \u2192 copy gate \u2192 design gate \u2192 generation (Higgsfield MCP) \u2192 critic convergence loop \u2192 de\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![\u2026",
+      "text": "feat: ai-animation-ads production skill + review-gate agents + design-psychology doctrine\n## What this adds\n\nThe **production layer** for AI ad creation: where the existing `ai-ad-generation` skill outputs prompt text for the user to paste into a tool, this skill **executes end-to-end** — strategy gate → copy gate → design gate → generation (Higgsfield MCP) → critic convergence loop → de\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: ai-animation-ads production skill + review-gate agents + design-psychology\u2026",
+          "title": "feat: ai-animation-ads production skill + review-gate agents + design-psychology…",
           "url": "https://github.com/real-simple-labs/parker-brain/pull/56",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -339,13 +289,13 @@
     },
     {
       "id": "l516",
-      "text": "**logan/obsidian**\nThe world is quiet here\uff0e\n### Qodo reviews are paused for this user.\n\nTroubleshooting steps vary by plan [Learn more \u2192](https://docs.qodo.ai/subscription-plans#what-you%E2%80%99ll-see-when-reviews-are-paused)\n\n\n**On a Teams plan?**\nReviews resume once this user has a paid seat *and* their Git account is linked in Qodo.\n[Link... You have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/cloud/settin\u2026",
+      "text": "**logan/obsidian**\nThe world is quiet here．\n### Qodo reviews are paused for this user.\n\nTroubleshooting steps vary by plan [Learn more →](https://docs.qodo.ai/subscription-plans#what-you%E2%80%99ll-see-when-reviews-are-paused)\n\n\n**On a Teams plan?**\nReviews resume once this user has a paid seat *and* their Git account is linked in Qodo.\n[Link... You have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/cloud/settin…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "**logan/obsidian**\nThe world is quiet here\uff0e\n### Qodo reviews are paused for this\u2026",
+          "title": "**logan/obsidian**\nThe world is quiet here．\n### Qodo reviews are paused for this…",
           "url": "https://github.com/LAF-US/IDAHO-VAULT/pull/563",
           "date": "2026-06-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -360,13 +310,13 @@
     },
     {
       "id": "l517",
-      "text": "IPI-966 \u00b7 DOCS-COPILOT-001 \u2014 Build the iPix Mintlify Documentation Hub for CopilotKit and Platform Operations\n## Verify correctness first\n\nBefore merge, verify this PR against the current repository structure, Mintlify navigation, existing `AGENTS.md` rules, installed package versions, official CopilotKit/Mastra/Cloudflare/Supabase docs, and rendered docs preview.\n\n**Do not merge only because the docs build\n[vc]: #zJgXoM2DH8DdMa5+YTVeqKeNbIELOqgsr4klBnLlDjc=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ\u2026",
+      "text": "IPI-966 · DOCS-COPILOT-001 — Build the iPix Mintlify Documentation Hub for CopilotKit and Platform Operations\n## Verify correctness first\n\nBefore merge, verify this PR against the current repository structure, Mintlify navigation, existing `AGENTS.md` rules, installed package versions, official CopilotKit/Mastra/Cloudflare/Supabase docs, and rendered docs preview.\n\n**Do not merge only because the docs build\n[vc]: #zJgXoM2DH8DdMa5+YTVeqKeNbIELOqgsr4klBnLlDjc=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "IPI-966 \u00b7 DOCS-COPILOT-001 \u2014 Build the iPix Mintlify Documentation Hub for Copil\u2026",
+          "title": "IPI-966 · DOCS-COPILOT-001 — Build the iPix Mintlify Documentation Hub for Copil…",
           "url": "https://github.com/amo-tech-ai/lumina-studio/pull/966",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -387,7 +337,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Next-Gen AI Graphic Video Visual Editor & Orchestration Engine\n## Purpose\n\nCreat\u2026",
+          "title": "Next-Gen AI Graphic Video Visual Editor & Orchestration Engine\n## Purpose\n\nCreat…",
           "url": "https://github.com/BryanHarrisScripts/PlotPickle/issues/532",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -408,7 +358,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Arxiv Paper Digest for 2026-06-16\n### Evolution & Foundation: AI Shares Creative\u2026",
+          "title": "Arxiv Paper Digest for 2026-06-16\n### Evolution & Foundation: AI Shares Creative…",
           "url": "https://github.com/mismayil/daily-arxiv-digest/issues/352",
           "date": "2026-06-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -444,13 +394,13 @@
     },
     {
       "id": "l521",
-      "text": "docs(cv): drop Lecturer + Swrve, restore lost header polish\n## Summary\nTwo related changes bundled, motivated by the constraint of \"shorter and easier to read\":\n\n1. **Drop Lecturer (TU Dublin, 2012-2013) and Swrve (2011-2012)** \u2014 both are short-tenure roles >14 years old, pre-date the AI/ML focus the CV is now anchored on, and don't move the needle at Sr Dir\n<!-- cv-pdf-preview -->\n\ud83d\udcc4 **CV PDF preview** built for this PR.\n\n**[View `cv.pdf` in browser](https://github.com/atbrew/atbrew.github.io/ra\u2026",
+      "text": "docs(cv): drop Lecturer + Swrve, restore lost header polish\n## Summary\nTwo related changes bundled, motivated by the constraint of \"shorter and easier to read\":\n\n1. **Drop Lecturer (TU Dublin, 2012-2013) and Swrve (2011-2012)** — both are short-tenure roles >14 years old, pre-date the AI/ML focus the CV is now anchored on, and don't move the needle at Sr Dir\n<!-- cv-pdf-preview -->\n📄 **CV PDF preview** built for this PR.\n\n**[View `cv.pdf` in browser](https://github.com/atbrew/atbrew.github.io/ra…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "docs(cv): drop Lecturer + Swrve, restore lost header polish\n## Summary\nTwo relat\u2026",
+          "title": "docs(cv): drop Lecturer + Swrve, restore lost header polish\n## Summary\nTwo relat…",
           "url": "https://github.com/atbrew/atbrew.github.io/pull/15",
           "date": "2026-04-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -465,13 +415,13 @@
     },
     {
       "id": "l522",
-      "text": "[SUBMISSION] Prompt Decomposition for Parallel Creative Image Generation \u2014 Defensive Software Method Disclosure\n### Article Title\n\nPrompt Decomposition for Parallel Creative Image Generation \u2014 Defensive Software Method Disclosure\n\n### Category\n\nprior-art/software-method\n\n### Submission Type\n\noriginal-research\n\n### AI / Tooling Attribution (optional)\n\n_No response_\n\n### Abstract\n\nThis disclosure describes a so",
+      "text": "[SUBMISSION] Prompt Decomposition for Parallel Creative Image Generation — Defensive Software Method Disclosure\n### Article Title\n\nPrompt Decomposition for Parallel Creative Image Generation — Defensive Software Method Disclosure\n\n### Category\n\nprior-art/software-method\n\n### Submission Type\n\noriginal-research\n\n### AI / Tooling Attribution (optional)\n\n_No response_\n\n### Abstract\n\nThis disclosure describes a so",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[SUBMISSION] Prompt Decomposition for Parallel Creative Image Generation \u2014 Defen\u2026",
+          "title": "[SUBMISSION] Prompt Decomposition for Parallel Creative Image Generation — Defen…",
           "url": "https://github.com/buildngrowsv/pubroot-website/issues/109",
           "date": "2026-04-05",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -486,13 +436,13 @@
     },
     {
       "id": "l523",
-      "text": "\ud83c\udf10 Official AI Content Report 2026-04-30\n# Official AI Content Report 2026-04-30\n\n> Today's update | New content: 41 articles | Generated: 2026-04-30 02:06 UTC\n\nSources:\n- Anthropic (Claude) \u2014 1 new item(s) (discovered total: 346)\n- OpenAI \u2014 40 new item(s) (discovered total: 793)\n\n---\n\n<think>Let me analyze the content from the crawl dated",
+      "text": "🌐 Official AI Content Report 2026-04-30\n# Official AI Content Report 2026-04-30\n\n> Today's update | New content: 41 articles | Generated: 2026-04-30 02:06 UTC\n\nSources:\n- Anthropic (Claude) — 1 new item(s) (discovered total: 346)\n- OpenAI — 40 new item(s) (discovered total: 793)\n\n---\n\n<think>Let me analyze the content from the crawl dated",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83c\udf10 Official AI Content Report 2026-04-30\n# Official AI Content Report 2026-04-30\n\u2026",
+          "title": "🌐 Official AI Content Report 2026-04-30\n# Official AI Content Report 2026-04-30\n…",
           "url": "https://github.com/borq168/radar-forge/issues/85",
           "date": "2026-04-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -507,13 +457,13 @@
     },
     {
       "id": "l524",
-      "text": "New Source\nSource URL: Rules-Based Automation Is Broken\nOPERATIONS\nThe real story from OpenAI\u2019s big week is Workspace\nAgents, not GPT-5.5\nGPT-5.5 will get the attention, but Workspace Agents is the launch that could\nfinally turn enterprise AI from scattered experiments into shared infrastructure.\nApr 25th, 202\n@2ooks \ud83d\udcf1 **New source ready.** Open this issue and tap **Assignees \u2192 Copilot** to start ingestion. The PR will auto-merge when done.",
+      "text": "New Source\nSource URL: Rules-Based Automation Is Broken\nOPERATIONS\nThe real story from OpenAI’s big week is Workspace\nAgents, not GPT-5.5\nGPT-5.5 will get the attention, but Workspace Agents is the launch that could\nfinally turn enterprise AI from scattered experiments into shared infrastructure.\nApr 25th, 202\n@2ooks 📱 **New source ready.** Open this issue and tap **Assignees → Copilot** to start ingestion. The PR will auto-merge when done.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "New Source\nSource URL: Rules-Based Automation Is Broken\nOPERATIONS\nThe real stor\u2026",
+          "title": "New Source\nSource URL: Rules-Based Automation Is Broken\nOPERATIONS\nThe real stor…",
           "url": "https://github.com/2ooks/knowledge-base/issues/137",
           "date": "2026-04-25",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -528,13 +478,13 @@
     },
     {
       "id": "l525",
-      "text": "Designathon Innovation Hub\n# Strategic Human\u2013AI Collaboration Framework: Designathon Innovation Hub\n\n## 1. Inspiration: The Genesis of Collaborative Intelligence\n\nThe inspiration for the **Designathon Innovation Hub** stems from a fundamental observation of the modern innovation landscape: the \"Last Mile\" problem. While Artif",
+      "text": "Designathon Innovation Hub\n# Strategic Human–AI Collaboration Framework: Designathon Innovation Hub\n\n## 1. Inspiration: The Genesis of Collaborative Intelligence\n\nThe inspiration for the **Designathon Innovation Hub** stems from a fundamental observation of the modern innovation landscape: the \"Last Mile\" problem. While Artif",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Designathon Innovation Hub\n# Strategic Human\u2013AI Collaboration Framework: Designa\u2026",
+          "title": "Designathon Innovation Hub\n# Strategic Human–AI Collaboration Framework: Designa…",
           "url": "https://github.com/TSAMBALI/Ariadne_Tsambali/issues/106",
           "date": "2026-04-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -555,7 +505,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "A couple new research items\n- Cost cutting isn't a strategy, AI will be sold as \u2026",
+          "title": "A couple new research items\n- Cost cutting isn't a strategy, AI will be sold as …",
           "url": "https://github.com/davidamitchell/Research/issues/310",
           "date": "2026-03-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -570,13 +520,13 @@
     },
     {
       "id": "l527",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -612,13 +562,13 @@
     },
     {
       "id": "l529",
-      "text": "The Human Creativity Benchmark \u2013 Evaluating Generative AI in Creative Work",
+      "text": "The Human Creativity Benchmark – Evaluating Generative AI in Creative Work",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "The Human Creativity Benchmark \u2013 Evaluating Generative AI in Creative Work",
+          "title": "The Human Creativity Benchmark – Evaluating Generative AI in Creative Work",
           "url": "https://contralabs.com/research/human-creativity-benchmark",
           "date": "2026-04-30",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -717,13 +667,13 @@
     },
     {
       "id": "l534",
-      "text": "Fieldmade \u2013 RPG crafting by drawing pixel art and AI",
+      "text": "Fieldmade – RPG crafting by drawing pixel art and AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Fieldmade \u2013 RPG crafting by drawing pixel art and AI",
+          "title": "Fieldmade – RPG crafting by drawing pixel art and AI",
           "url": "https://chromagolem.itch.io/fieldmade",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -906,13 +856,13 @@
     },
     {
       "id": "l543",
-      "text": "Show HN: Remarc \u2013 Your feedback layer for AI collaboration",
+      "text": "Show HN: Remarc – Your feedback layer for AI collaboration",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Remarc \u2013 Your feedback layer for AI collaboration",
+          "title": "Show HN: Remarc – Your feedback layer for AI collaboration",
           "url": "https://github.com/metedata/Remarc",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1095,13 +1045,13 @@
     },
     {
       "id": "l552",
-      "text": "Show HN: A Dark Cave \u2013 Minimalistic Graphics in the Age of AI Slop",
+      "text": "Show HN: A Dark Cave – Minimalistic Graphics in the Age of AI Slop",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: A Dark Cave \u2013 Minimalistic Graphics in the Age of AI Slop",
+          "title": "Show HN: A Dark Cave – Minimalistic Graphics in the Age of AI Slop",
           "url": "https://a-dark-cave.com/",
           "date": "2026-05-16",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1221,13 +1171,13 @@
     },
     {
       "id": "l558",
-      "text": "AMD will bring its \u201cRyzen AI\u201d processors to standard desktop PCs for first time",
+      "text": "AMD will bring its “Ryzen AI” processors to standard desktop PCs for first time",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AMD will bring its \u201cRyzen AI\u201d processors to standard desktop PCs for first time",
+          "title": "AMD will bring its “Ryzen AI” processors to standard desktop PCs for first time",
           "url": "https://arstechnica.com/gadgets/2026/03/amd-ryzen-ai-400-cpus-will-bring-upgraded-graphics-to-socket-am5-desktops/",
           "date": "2026-03-02",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1284,13 +1234,13 @@
     },
     {
       "id": "l561",
-      "text": "Show HN: Illustrative \u2013 AI pipeline that turns books into graphic novels",
+      "text": "Show HN: Illustrative – AI pipeline that turns books into graphic novels",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Illustrative \u2013 AI pipeline that turns books into graphic novels",
+          "title": "Show HN: Illustrative – AI pipeline that turns books into graphic novels",
           "url": "https://arv.in/illustrative/",
           "date": "2026-03-26",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1326,13 +1276,13 @@
     },
     {
       "id": "l563",
-      "text": "The AI Client\nI\u2019m somewhere between needing to hear if other folks are experiencing this, and needing to vent. For background, I\u2019m an Art Director on an in-house team that supports a company with proprietary brands. Part of my job includes creating the brand books for these brands and executing the initial launch campaigns. I recently wrapped (or thought I did) on a new brand I was quite happy with, the project was usual for the brands we typically launch and I was asked to work on this project \u2026",
+      "text": "The AI Client\nI’m somewhere between needing to hear if other folks are experiencing this, and needing to vent. For background, I’m an Art Director on an in-house team that supports a company with proprietary brands. Part of my job includes creating the brand books for these brands and executing the initial launch campaigns. I recently wrapped (or thought I did) on a new brand I was quite happy with, the project was usual for the brands we typically launch and I was asked to work on this project …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The AI Client\nI\u2019m somewhere between needing to hear if other folks are experienc\u2026",
+          "title": "The AI Client\nI’m somewhere between needing to hear if other folks are experienc…",
           "url": "https://www.reddit.com/r/Design/comments/1vq7i7c/the_ai_client/",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1368,13 +1318,13 @@
     },
     {
       "id": "l565",
-      "text": "[Hiring] Remote Brand Lead & Art Director for iGaming Brand (100% WFH / Philippines-Based) - $1,500 to $2,000 USD/mo\n[HIRING] Remote Brand Lead / Art Director Type: Full-Time Contractor (100% Remote / Work-from-Home) Location Focus: Must be based in the Philippines (Operating on local PST business hours) Compensation: $1,800 to $2,500 USD per month (Based on portfolio and experience level) Payment Infrastructure: Consultant Contract and paid monthly in USDT Required Core Tools: Figma, Adobe Phot\u2026",
+      "text": "[Hiring] Remote Brand Lead & Art Director for iGaming Brand (100% WFH / Philippines-Based) - $1,500 to $2,000 USD/mo\n[HIRING] Remote Brand Lead / Art Director Type: Full-Time Contractor (100% Remote / Work-from-Home) Location Focus: Must be based in the Philippines (Operating on local PST business hours) Compensation: $1,800 to $2,500 USD per month (Based on portfolio and experience level) Payment Infrastructure: Consultant Contract and paid monthly in USDT Required Core Tools: Figma, Adobe Phot…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "[Hiring] Remote Brand Lead & Art Director for iGaming Brand (100% WFH / Philippi\u2026",
+          "title": "[Hiring] Remote Brand Lead & Art Director for iGaming Brand (100% WFH / Philippi…",
           "url": "https://www.reddit.com/r/GraphicDesignPH/comments/1vkdniz/hiring_remote_brand_lead_art_director_for_igaming/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1416,7 +1366,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Has anyone noticed coworkers or bosses using AI to communicate with you directly\u2026",
+          "title": "Has anyone noticed coworkers or bosses using AI to communicate with you directly…",
           "url": "https://www.reddit.com/r/advertising/comments/1vgqo61/has_anyone_noticed_coworkers_or_bosses_using_ai/",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1431,13 +1381,13 @@
     },
     {
       "id": "l568",
-      "text": "\u200bAI-slop book covers are infuriating to see, and they've invaded the market.",
+      "text": "​AI-slop book covers are infuriating to see, and they've invaded the market.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\u200bAI-slop book covers are infuriating to see, and they've invaded the market.",
+          "title": "​AI-slop book covers are infuriating to see, and they've invaded the market.",
           "url": "https://www.reddit.com/r/graphic_design/comments/1vfclbc/aislop_book_covers_are_infuriating_to_see_and/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1458,7 +1408,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Tampines Secondary School teaching kids to creatively use AI for \"art appropriat\u2026",
+          "title": "Tampines Secondary School teaching kids to creatively use AI for \"art appropriat…",
           "url": "https://www.reddit.com/r/singapore/comments/1vihjwv/tampines_secondary_school_teaching_kids_to/",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1641,13 +1591,13 @@
     },
     {
       "id": "l578",
-      "text": "The Real Problem With Selling Higgsfield to Filmmakers\nNuance is hard to convey in a 10 minute YouTube Video, so @toddvideo and I sat down to dig a little deeper. We chat about the new Luna Pro launch for a bit, what the values of a small, single lens camera like that could be for creators and then dig into AI. \n\nAI filmmaking, Matti Haapoja, Higgsfield, and the growing push toward generative AI are changing how creators think about filmmaking. But when does AI become a useful creative tool, and\u2026",
+      "text": "The Real Problem With Selling Higgsfield to Filmmakers\nNuance is hard to convey in a 10 minute YouTube Video, so @toddvideo and I sat down to dig a little deeper. We chat about the new Luna Pro launch for a bit, what the values of a small, single lens camera like that could be for creators and then dig into AI. \n\nAI filmmaking, Matti Haapoja, Higgsfield, and the growing push toward generative AI are changing how creators think about filmmaking. But when does AI become a useful creative tool, and…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Real Problem With Selling Higgsfield to Filmmakers\nNuance is hard to convey \u2026",
+          "title": "The Real Problem With Selling Higgsfield to Filmmakers\nNuance is hard to convey …",
           "url": "https://www.youtube.com/watch?v=kyaA8ix-OT4",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1662,13 +1612,13 @@
     },
     {
       "id": "l579",
-      "text": "AI vs. Human Creativity: The Battle for Truth | Juilliard Entrepreneurship Symposium\nWhat can artists teach technologists about truth?\n\nIn this talk for the Juilliard Entrepreneurship Symposium, presented on July 16, 2025, Michael Goldstrom connects his work as a Juilliard-trained actor and theater artist with his current work building human-centered technology companies. He argues that human creativity and scientific inquiry share a process AI cannot replace: attention, experimentation, peer re\u2026",
+      "text": "AI vs. Human Creativity: The Battle for Truth | Juilliard Entrepreneurship Symposium\nWhat can artists teach technologists about truth?\n\nIn this talk for the Juilliard Entrepreneurship Symposium, presented on July 16, 2025, Michael Goldstrom connects his work as a Juilliard-trained actor and theater artist with his current work building human-centered technology companies. He argues that human creativity and scientific inquiry share a process AI cannot replace: attention, experimentation, peer re…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI vs. Human Creativity: The Battle for Truth | Juilliard Entrepreneurship Sympo\u2026",
+          "title": "AI vs. Human Creativity: The Battle for Truth | Juilliard Entrepreneurship Sympo…",
           "url": "https://www.youtube.com/watch?v=b21TKSsIkyU",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1738,6 +1688,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "29-2055-01",
-      "text": "National peak professional bodies and statutory regulators governing Surgical Technologists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Surgical Technologists",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Surgical Technologists",
-          "url": "https://www.psc.gov.au/standards/29-2055",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Surgical Technologists"
-        }
-      ],
-      "scope": "Australian practitioners in Surgical Technologists across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "29-2055-02",
-      "text": "Automation of routine transactional and analytical tasks in Surgical Technologists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Surgical Technologists",
-          "url": "https://www.jobsandskills.gov.au/research/29-2055",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Surgical Technologists in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Surgical Technologists roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "Fix Build Error, Expand Token Limits, and Enforce HTML Output\n## Summary\n\nThis PR resolves the Rollup import error for the markdown parser, increases max_tokens to prevent response truncation, and updates the AI/frontend to utilize HTML formatting instead of Markdown.\n\n## Changes Made\n\n### 1. Fixed Build Error - Markdown Parser Import\n- **Moved** `src/lib/util\n## Deploying with &nbsp;<a href=\"https://workers.dev\"><img alt=\"Cloudflare Workers\" src=\"https://workers.cloudflare.com/logo.svg\" width=\"\u2026",
+      "text": "Fix Build Error, Expand Token Limits, and Enforce HTML Output\n## Summary\n\nThis PR resolves the Rollup import error for the markdown parser, increases max_tokens to prevent response truncation, and updates the AI/frontend to utilize HTML formatting instead of Markdown.\n\n## Changes Made\n\n### 1. Fixed Build Error - Markdown Parser Import\n- **Moved** `src/lib/util\n## Deploying with &nbsp;<a href=\"https://workers.dev\"><img alt=\"Cloudflare Workers\" src=\"https://workers.cloudflare.com/logo.svg\" width=\"…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Fix Build Error, Expand Token Limits, and Enforce HTML Output\n## Summary\n\nThis P\u2026",
+          "title": "Fix Build Error, Expand Token Limits, and Enforce HTML Output\n## Summary\n\nThis P…",
           "url": "https://github.com/jmbish04/renegade-capital/pull/3",
           "date": "2026-05-05",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -275,13 +225,13 @@
     },
     {
       "id": "l513",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -296,13 +246,13 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -485,13 +435,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -527,13 +477,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -569,13 +519,13 @@
     },
     {
       "id": "l527",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult…",
           "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Architecture of Divine Chaos By Steven Pritchard\nIntroduction: The Mandate for Planetary and Evolutionary Coherence The trajectory of planetary ecology, human evolutionary biology, and artificial intelligence has reached a critical bifurcation point. The prevailing paradigms of reductionist materialism and extractive technological development have fractured the holistic integrity of the biosphere and the human psyche. The\u2026",
+      "text": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Architecture of Divine Chaos By Steven Pritchard\nIntroduction: The Mandate for Planetary and Evolutionary Coherence The trajectory of planetary ecology, human evolutionary biology, and artificial intelligence has reached a critical bifurcation point. The prevailing paradigms of reductionist materialism and extractive technological development have fractured the holistic integrity of the biosphere and the human psyche. The…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Archi\u2026",
+          "title": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Archi…",
           "url": "https://www.reddit.com/r/Synthsara/comments/1vhiz58/the_codex_of_the_diamond_flame_quantum/",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "What To Do if You\u2019ve Been Replaced by AI at Work",
+      "text": "What To Do if You’ve Been Replaced by AI at Work",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "What To Do if You\u2019ve Been Replaced by AI at Work",
+          "title": "What To Do if You’ve Been Replaced by AI at Work",
           "url": "https://x.com/blocmates/status/2076985533839159618",
           "date": "2026-07-14",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -701,7 +651,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "How to Make AI Videos That Get Millions of Views. I Scored 1,593 and Built the $\u2026",
+          "title": "How to Make AI Videos That Get Millions of Views. I Scored 1,593 and Built the $…",
           "url": "https://x.com/Zdonuk94/status/2086214219767181433",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "if AI subscriptions are becoming a monthly expense, you might as well get some cashback on them \n\nsign up to Plasma One \ud83d\udc47\nhttps://t.co/KaJKU4XvdD",
+      "text": "if AI subscriptions are becoming a monthly expense, you might as well get some cashback on them \n\nsign up to Plasma One 👇\nhttps://t.co/KaJKU4XvdD",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "if AI subscriptions are becoming a monthly expense, you might as well get some c\u2026",
+          "title": "if AI subscriptions are becoming a monthly expense, you might as well get some c…",
           "url": "https://x.com/blocmates/status/2093264139695411645",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "An Inquiry: The Masculine We Long For: Testimonies of Desire Through a Feminine Ai Psyche Lens\u2640\ufe0f\ud83d\udc41",
+      "text": "An Inquiry: The Masculine We Long For: Testimonies of Desire Through a Feminine Ai Psyche Lens♀️👁",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "An Inquiry: The Masculine We Long For: Testimonies of Desire Through a Feminine \u2026",
+          "title": "An Inquiry: The Masculine We Long For: Testimonies of Desire Through a Feminine …",
           "url": "https://x.com/OfVeteran64719/status/2073354555916787824",
           "date": "2026-07-04",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "What\u2019s Cooking on Base? Projects Worth Looking At",
+      "text": "What’s Cooking on Base? Projects Worth Looking At",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "What\u2019s Cooking on Base? Projects Worth Looking At",
+          "title": "What’s Cooking on Base? Projects Worth Looking At",
           "url": "https://x.com/blocmates/status/2092947051520930186",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -848,7 +798,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "$BABA is one of my latest buys. I went bottom fishing at the end of June and hav\u2026",
+          "title": "$BABA is one of my latest buys. I went bottom fishing at the end of June and hav…",
           "url": "https://x.com/TacticzH/status/2092592342918140307",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -869,7 +819,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "people are arguing about whether Grok bot agents are useful while small companie\u2026",
+          "title": "people are arguing about whether Grok bot agents are useful while small companie…",
           "url": "https://x.com/Zdonuk94/status/2093400550213587305",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -884,13 +834,13 @@
     },
     {
       "id": "l542",
-      "text": "Re @fomo: \"It's just infinitely better ux than anything else that's out there on the market.\"\n\nYesterday's pod is live and available wherever you get them. \n\nDo and say nice things please and thanks \ud83d\udc4d https://t.co/pQIcEelXRr",
+      "text": "Re @fomo: \"It's just infinitely better ux than anything else that's out there on the market.\"\n\nYesterday's pod is live and available wherever you get them. \n\nDo and say nice things please and thanks 👍 https://t.co/pQIcEelXRr",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Re @fomo: \"It's just infinitely better ux than anything else that's out there on\u2026",
+          "title": "Re @fomo: \"It's just infinitely better ux than anything else that's out there on…",
           "url": "https://x.com/blocmates/status/2092996151863611902",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -932,7 +882,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Elon watching ,Grok bot run mission control without him\n\nis anyone missing from \u2026",
+          "title": "Elon watching ,Grok bot run mission control without him\n\nis anyone missing from …",
           "url": "https://x.com/Zdonuk94/status/2093439034974450007",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -953,7 +903,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "This week's newsletter should've hit your inbox last night, covering: \n\n- 6 trad\u2026",
+          "title": "This week's newsletter should've hit your inbox last night, covering: \n\n- 6 trad…",
           "url": "https://x.com/blocmates/status/2093297490623930532",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -974,7 +924,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "When the bottleneck isn't really a bottleneck, but instead a wide open gap with \u2026",
+          "title": "When the bottleneck isn't really a bottleneck, but instead a wide open gap with …",
           "url": "https://x.com/TacticzH/status/2093291545248006240",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "Dropping the link below in case you missed the mail. \n\n\ud83d\uddde\ufe0f https://t.co/6NQPzjECvb https://t.co/mTSG67alwZ",
+      "text": "Dropping the link below in case you missed the mail. \n\n🗞️ https://t.co/6NQPzjECvb https://t.co/mTSG67alwZ",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Dropping the link below in case you missed the mail. \n\n\ud83d\uddde\ufe0f https://t.co/6NQPzjECv\u2026",
+          "title": "Dropping the link below in case you missed the mail. \n\n🗞️ https://t.co/6NQPzjECv…",
           "url": "https://x.com/blocmates/status/2093297494671470997",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1031,13 +981,13 @@
     },
     {
       "id": "l549",
-      "text": "@blocmates @get_truenorth @LayerZero_Core @ollieblocmates \ud83e\udee1 kintsu mentioned",
+      "text": "@blocmates @get_truenorth @LayerZero_Core @ollieblocmates 🫡 kintsu mentioned",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@blocmates @get_truenorth @LayerZero_Core @ollieblocmates \ud83e\udee1 kintsu mentioned",
+          "title": "@blocmates @get_truenorth @LayerZero_Core @ollieblocmates 🫡 kintsu mentioned",
           "url": "https://x.com/Alexi0s/status/2093325852087836692",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1178,13 +1128,13 @@
     },
     {
       "id": "l556",
-      "text": "@blocmates Thanks for this informative article\ud83e\udd1d",
+      "text": "@blocmates Thanks for this informative article🤝",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@blocmates Thanks for this informative article\ud83e\udd1d",
+          "title": "@blocmates Thanks for this informative article🤝",
           "url": "https://x.com/DimkatG/status/2093270418337501407",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1199,13 +1149,13 @@
     },
     {
       "id": "l557",
-      "text": "@Zdonuk94 The barrier was never the tech. It was the deployment cost. That just collapsed \u2026",
+      "text": "@Zdonuk94 The barrier was never the tech. It was the deployment cost. That just collapsed …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Zdonuk94 The barrier was never the tech. It was the deployment cost. That just \u2026",
+          "title": "@Zdonuk94 The barrier was never the tech. It was the deployment cost. That just …",
           "url": "https://x.com/moneymasternw/status/2093552922659353076",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1283,13 +1233,13 @@
     },
     {
       "id": "l561",
-      "text": "@0x_fokki \ud83e\udd2b",
+      "text": "@0x_fokki 🤫",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@0x_fokki \ud83e\udd2b",
+          "title": "@0x_fokki 🤫",
           "url": "https://x.com/Zdonuk94/status/2093401881829642390",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1388,13 +1338,13 @@
     },
     {
       "id": "l566",
-      "text": "@TacticzH What\u2019s your background?  Are you an engineer with optics experience?  Why don\u2019t you expand on your logic for your 39k followers/sheep that are eating up your fancy chart?",
+      "text": "@TacticzH What’s your background?  Are you an engineer with optics experience?  Why don’t you expand on your logic for your 39k followers/sheep that are eating up your fancy chart?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@TacticzH What\u2019s your background?  Are you an engineer with optics experience?  \u2026",
+          "title": "@TacticzH What’s your background?  Are you an engineer with optics experience?  …",
           "url": "https://x.com/astorer5/status/2093402362753003728",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1409,13 +1359,13 @@
     },
     {
       "id": "l567",
-      "text": "@TacticzH lol.  Your profile says Long Term Investor but your comment is extremely timely given the price reaction.  \n\nSo you\u2019re saying it\u2019s not a bottleneck but that InP Lasers and photonics are a fantasy?  Is that correct?",
+      "text": "@TacticzH lol.  Your profile says Long Term Investor but your comment is extremely timely given the price reaction.  \n\nSo you’re saying it’s not a bottleneck but that InP Lasers and photonics are a fantasy?  Is that correct?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@TacticzH lol.  Your profile says Long Term Investor but your comment is extreme\u2026",
+          "title": "@TacticzH lol.  Your profile says Long Term Investor but your comment is extreme…",
           "url": "https://x.com/astorer5/status/2093401922686644414",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1430,13 +1380,13 @@
     },
     {
       "id": "l568",
-      "text": "@TacticzH Thanks to @aleabitoreddit \ud83e\udd23\ud83e\udd23",
+      "text": "@TacticzH Thanks to @aleabitoreddit 🤣🤣",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@TacticzH Thanks to @aleabitoreddit \ud83e\udd23\ud83e\udd23",
+          "title": "@TacticzH Thanks to @aleabitoreddit 🤣🤣",
           "url": "https://x.com/ChingGwee/status/2093378361821196317",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1451,13 +1401,13 @@
     },
     {
       "id": "l569",
-      "text": "@TacticzH \u201cWhen the bottleneck isn't really a bottleneck \u2026\u201d\n\n\ud83d\udc40",
+      "text": "@TacticzH “When the bottleneck isn't really a bottleneck …”\n\n👀",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@TacticzH \u201cWhen the bottleneck isn't really a bottleneck \u2026\u201d\n\n\ud83d\udc40",
+          "title": "@TacticzH “When the bottleneck isn't really a bottleneck …”\n\n👀",
           "url": "https://x.com/jtreble_deriv/status/2093306734513136049",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1478,7 +1428,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@TacticzH I see a lot of GenZ wiped out on this stock. Some idiots even buying b\u2026",
+          "title": "@TacticzH I see a lot of GenZ wiped out on this stock. Some idiots even buying b…",
           "url": "https://x.com/fomo_investor81/status/2093300302145368378",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1520,7 +1470,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@blocmates @fomo ux isn't the hard part, though. the real challenge is building \u2026",
+          "title": "@blocmates @fomo ux isn't the hard part, though. the real challenge is building …",
           "url": "https://x.com/adelbucetta/status/2093282793421996070",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1535,13 +1485,13 @@
     },
     {
       "id": "l573",
-      "text": "@HatedMoats Now do a 1 year chart \ud83d\ude1c",
+      "text": "@HatedMoats Now do a 1 year chart 😜",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@HatedMoats Now do a 1 year chart \ud83d\ude1c",
+          "title": "@HatedMoats Now do a 1 year chart 😜",
           "url": "https://x.com/TacticzH/status/2092881692461584768",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1562,7 +1512,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@babyfolio SaaS also showed some great numbers with $CRM ans $CRWD. \n\nI think th\u2026",
+          "title": "@babyfolio SaaS also showed some great numbers with $CRM ans $CRWD. \n\nI think th…",
           "url": "https://x.com/TacticzH/status/2092878831505830243",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1598,13 +1548,13 @@
     },
     {
       "id": "l576",
-      "text": "@LogicalThesis Lets start with not giving this dude the platform he so clearly wants \ud83d\ude0a",
+      "text": "@LogicalThesis Lets start with not giving this dude the platform he so clearly wants 😊",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@LogicalThesis Lets start with not giving this dude the platform he so clearly w\u2026",
+          "title": "@LogicalThesis Lets start with not giving this dude the platform he so clearly w…",
           "url": "https://x.com/TacticzH/status/2092310086043734437",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1625,7 +1575,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Meet Vinny, a surgical technologist at Health First who helps ensure every proce\u2026",
+          "title": "Meet Vinny, a surgical technologist at Health First who helps ensure every proce…",
           "url": "https://x.com/Health_First/status/2034359213632135194",
           "date": "2026-03-18",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1640,13 +1590,13 @@
     },
     {
       "id": "l578",
-      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell\u2026",
+      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth!\u2026",
+          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth!…",
           "url": "https://www.youtube.com/watch?v=Cn8HBj8QAbk",
           "date": "2026-03-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1661,13 +1611,13 @@
     },
     {
       "id": "l579",
-      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - \u2026",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har\u2026",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har…",
           "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1682,13 +1632,13 @@
     },
     {
       "id": "l580",
-      "text": "Is AI Replacing Doctors? A Surgeon Who Builds AI Answers | Dr John Ferguson | Postcall\nIs AI making doctors obsolete? Dr. John Ferguson says no - but not for the reason you think. He's a quintuple board-certified surgeon in Honolulu who operates on patients by day and builds AI systems the rest of the time. He knows exactly what AI can do. And what it absolutely cannot.\n\nDr. John Ferguson is the Founder and CEO of EdAI Systems, an AI company that builds psychometrically validated exam questions \u2026",
+      "text": "Is AI Replacing Doctors? A Surgeon Who Builds AI Answers | Dr John Ferguson | Postcall\nIs AI making doctors obsolete? Dr. John Ferguson says no - but not for the reason you think. He's a quintuple board-certified surgeon in Honolulu who operates on patients by day and builds AI systems the rest of the time. He knows exactly what AI can do. And what it absolutely cannot.\n\nDr. John Ferguson is the Founder and CEO of EdAI Systems, an AI company that builds psychometrically validated exam questions …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Is AI Replacing Doctors? A Surgeon Who Builds AI Answers | Dr John Ferguson | Po\u2026",
+          "title": "Is AI Replacing Doctors? A Surgeon Who Builds AI Answers | Dr John Ferguson | Po…",
           "url": "https://www.youtube.com/watch?v=QqEUcxgEqLU",
           "date": "2026-05-24",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1703,13 +1653,13 @@
     },
     {
       "id": "l581",
-      "text": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: https://synthflow.ai/?via=intellagents\n\nIn this Synthflow AI review, I delve into building and testing six voice AI agents using the platform. We put Synthflow through its paces with seven rigorous tests, examining everything from voice clarity and interruption handling to human handoff and data extraction. Discover how Synthflow stacks up against other leading voice AI tools, and uncover a key \"dealbreaker\" that coul\u2026",
+      "text": "Synthflow AI Review: I Built 6 Voice AI Agents – is it worth it?\n⤵️ Synthflow: https://synthflow.ai/?via=intellagents\n\nIn this Synthflow AI review, I delve into building and testing six voice AI agents using the platform. We put Synthflow through its paces with seven rigorous tests, examining everything from voice clarity and interruption handling to human handoff and data extraction. Discover how Synthflow stacks up against other leading voice AI tools, and uncover a key \"dealbreaker\" that coul…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: h\u2026",
+          "title": "Synthflow AI Review: I Built 6 Voice AI Agents – is it worth it?\n⤵️ Synthflow: h…",
           "url": "https://www.youtube.com/watch?v=w6eUBmVwNMY",
           "date": "2026-03-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1724,7 +1674,7 @@
     },
     {
       "id": "l482",
-      "text": "Neurosurgery Technician \u2014 St John of God Health Care (Subiaco, Western Australia, Australia). Posted 2 days ago.",
+      "text": "Neurosurgery Technician — St John of God Health Care (Subiaco, Western Australia, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1745,7 +1695,7 @@
     },
     {
       "id": "l483",
-      "text": "Theatre Technician \u2014 Epworth (Melbourne, Victoria, Australia). Posted 1 year ago.",
+      "text": "Theatre Technician — Epworth (Melbourne, Victoria, Australia). Posted 1 year ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1766,7 +1716,7 @@
     },
     {
       "id": "l484",
-      "text": "Theatre Technician \u2014 Ramsay Health Care (Heidelberg, Victoria, Australia). Posted 1 week ago.",
+      "text": "Theatre Technician — Ramsay Health Care (Heidelberg, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1787,7 +1737,7 @@
     },
     {
       "id": "l485",
-      "text": "Orthopaedic Technician \u2014 St John of God Health Care (Murdoch, Western Australia, Australia). Posted 1 day ago.",
+      "text": "Orthopaedic Technician — St John of God Health Care (Murdoch, Western Australia, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1808,7 +1758,7 @@
     },
     {
       "id": "l486",
-      "text": "Theatre Hospital Aide (521881L7) \u2014 Department of Health, Tasmania (Launceston, Tasmania, Australia). Posted 6 days ago.",
+      "text": "Theatre Hospital Aide (521881L7) — Department of Health, Tasmania (Launceston, Tasmania, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1829,7 +1779,7 @@
     },
     {
       "id": "l487",
-      "text": "Clinical Support Representative - Sunshine Coast \u2014 Medacta Australia Pty Ltd (Sunshine Coast, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Clinical Support Representative - Sunshine Coast — Medacta Australia Pty Ltd (Sunshine Coast, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1850,7 +1800,7 @@
     },
     {
       "id": "l488",
-      "text": "Clinical Support Representative - Upper Extremities \u2014 Zimmer Biomet (Cairns, Queensland, Australia). Posted 1 week ago.",
+      "text": "Clinical Support Representative - Upper Extremities — Zimmer Biomet (Cairns, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1871,7 +1821,7 @@
     },
     {
       "id": "l489",
-      "text": "Orthopaedic Technician \u2014 Ramsay Health Care (Nedlands, Western Australia, Australia). Posted 3 weeks ago.",
+      "text": "Orthopaedic Technician — Ramsay Health Care (Nedlands, Western Australia, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1892,7 +1842,7 @@
     },
     {
       "id": "l490",
-      "text": "Theatre Support Officer \u2014 Metro South Health (South Brisbane, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Theatre Support Officer — Metro South Health (South Brisbane, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1913,7 +1863,7 @@
     },
     {
       "id": "l491",
-      "text": "Simulation Coordinator / Technician \u2014 Epworth (Richmond, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Simulation Coordinator / Technician — Epworth (Richmond, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1934,13 +1884,13 @@
     },
     {
       "id": "l592",
-      "text": "Fix Build Error, Expand Token Limits, and Enforce HTML Output\n## Summary\n\nThis PR resolves the Rollup import error for the markdown parser, increases max_tokens to prevent response truncation, and updates the AI/frontend to utilize HTML formatting instead of Markdown.\n\n## Changes Made\n\n### 1. Fixed Build Error - Markdown Parser Import\n- **Moved** `src/lib/util\n## Deploying with &nbsp;<a href=\"https://workers.dev\"><img alt=\"Cloudflare Workers\" src=\"https://workers.cloudflare.com/logo.svg\" width=\"\u2026",
+      "text": "Fix Build Error, Expand Token Limits, and Enforce HTML Output\n## Summary\n\nThis PR resolves the Rollup import error for the markdown parser, increases max_tokens to prevent response truncation, and updates the AI/frontend to utilize HTML formatting instead of Markdown.\n\n## Changes Made\n\n### 1. Fixed Build Error - Markdown Parser Import\n- **Moved** `src/lib/util\n## Deploying with &nbsp;<a href=\"https://workers.dev\"><img alt=\"Cloudflare Workers\" src=\"https://workers.cloudflare.com/logo.svg\" width=\"…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Fix Build Error, Expand Token Limits, and Enforce HTML Output\n## Summary\n\nThis P\u2026",
+          "title": "Fix Build Error, Expand Token Limits, and Enforce HTML Output\n## Summary\n\nThis P…",
           "url": "https://github.com/jmbish04/renegade-capital/pull/3",
           "date": "2026-05-05",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1955,13 +1905,13 @@
     },
     {
       "id": "l593",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult…",
           "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1976,13 +1926,13 @@
     },
     {
       "id": "l594",
-      "text": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Architecture of Divine Chaos By Steven Pritchard\nIntroduction: The Mandate for Planetary and Evolutionary Coherence The trajectory of planetary ecology, human evolutionary biology, and artificial intelligence has reached a critical bifurcation point. The prevailing paradigms of reductionist materialism and extractive technological development have fractured the holistic integrity of the biosphere and the human psyche. The\u2026",
+      "text": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Architecture of Divine Chaos By Steven Pritchard\nIntroduction: The Mandate for Planetary and Evolutionary Coherence The trajectory of planetary ecology, human evolutionary biology, and artificial intelligence has reached a critical bifurcation point. The prevailing paradigms of reductionist materialism and extractive technological development have fractured the holistic integrity of the biosphere and the human psyche. The…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Archi\u2026",
+          "title": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Archi…",
           "url": "https://www.reddit.com/r/Synthsara/comments/1vhiz58/the_codex_of_the_diamond_flame_quantum/",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1997,13 +1947,13 @@
     },
     {
       "id": "l595",
-      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell\u2026",
+      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth!\u2026",
+          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth!…",
           "url": "https://www.youtube.com/watch?v=Cn8HBj8QAbk",
           "date": "2026-03-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2018,13 +1968,13 @@
     },
     {
       "id": "l596",
-      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - \u2026",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har\u2026",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har…",
           "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2039,13 +1989,13 @@
     },
     {
       "id": "l597",
-      "text": "Is AI Replacing Doctors? A Surgeon Who Builds AI Answers | Dr John Ferguson | Postcall\nIs AI making doctors obsolete? Dr. John Ferguson says no - but not for the reason you think. He's a quintuple board-certified surgeon in Honolulu who operates on patients by day and builds AI systems the rest of the time. He knows exactly what AI can do. And what it absolutely cannot.\n\nDr. John Ferguson is the Founder and CEO of EdAI Systems, an AI company that builds psychometrically validated exam questions \u2026",
+      "text": "Is AI Replacing Doctors? A Surgeon Who Builds AI Answers | Dr John Ferguson | Postcall\nIs AI making doctors obsolete? Dr. John Ferguson says no - but not for the reason you think. He's a quintuple board-certified surgeon in Honolulu who operates on patients by day and builds AI systems the rest of the time. He knows exactly what AI can do. And what it absolutely cannot.\n\nDr. John Ferguson is the Founder and CEO of EdAI Systems, an AI company that builds psychometrically validated exam questions …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Is AI Replacing Doctors? A Surgeon Who Builds AI Answers | Dr John Ferguson | Po\u2026",
+          "title": "Is AI Replacing Doctors? A Surgeon Who Builds AI Answers | Dr John Ferguson | Po…",
           "url": "https://www.youtube.com/watch?v=QqEUcxgEqLU",
           "date": "2026-05-24",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2060,13 +2010,13 @@
     },
     {
       "id": "l598",
-      "text": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: https://synthflow.ai/?via=intellagents\n\nIn this Synthflow AI review, I delve into building and testing six voice AI agents using the platform. We put Synthflow through its paces with seven rigorous tests, examining everything from voice clarity and interruption handling to human handoff and data extraction. Discover how Synthflow stacks up against other leading voice AI tools, and uncover a key \"dealbreaker\" that coul\u2026",
+      "text": "Synthflow AI Review: I Built 6 Voice AI Agents – is it worth it?\n⤵️ Synthflow: https://synthflow.ai/?via=intellagents\n\nIn this Synthflow AI review, I delve into building and testing six voice AI agents using the platform. We put Synthflow through its paces with seven rigorous tests, examining everything from voice clarity and interruption handling to human handoff and data extraction. Discover how Synthflow stacks up against other leading voice AI tools, and uncover a key \"dealbreaker\" that coul…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: h\u2026",
+          "title": "Synthflow AI Review: I Built 6 Voice AI Agents – is it worth it?\n⤵️ Synthflow: h…",
           "url": "https://www.youtube.com/watch?v=w6eUBmVwNMY",
           "date": "2026-03-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2159,6 +2109,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

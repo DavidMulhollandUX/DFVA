@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "17-2011-01",
-      "text": "National peak professional bodies and statutory regulators governing Aerospace Engineers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Aerospace Engineers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Aerospace Engineers",
-          "url": "https://www.psc.gov.au/standards/17-2011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Aerospace Engineers"
-        }
-      ],
-      "scope": "Australian practitioners in Aerospace Engineers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "17-2011-02",
-      "text": "Automation of routine transactional and analytical tasks in Aerospace Engineers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Aerospace Engineers",
-          "url": "https://www.jobsandskills.gov.au/research/17-2011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Aerospace Engineers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Aerospace Engineers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "\ud83d\udcec Job Radar batch \u2014 2026-08-22 08:34 UTC (15 roles)\nThe radar found **15** new roles since the last batch. They are ordered by score, then recency. Check a box to track one.\n\n- [ ] **Neuralink** \u2014 [Software Engineer, BCI Applications](https://jobright.ai/jobs/info/6a0f44fd80bf0430c76322b7?utm_campaign=Software%20Engineering&utm_source=1103) \u00b7 San Fra",
+      "text": "📬 Job Radar batch — 2026-08-22 08:34 UTC (15 roles)\nThe radar found **15** new roles since the last batch. They are ordered by score, then recency. Check a box to track one.\n\n- [ ] **Neuralink** — [Software Engineer, BCI Applications](https://jobright.ai/jobs/info/6a0f44fd80bf0430c76322b7?utm_campaign=Software%20Engineering&utm_source=1103) · San Fra",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udcec Job Radar batch \u2014 2026-08-22 08:34 UTC (15 roles)\nThe radar found **15** new r\u2026",
+          "title": "📬 Job Radar batch — 2026-08-22 08:34 UTC (15 roles)\nThe radar found **15** new r…",
           "url": "https://github.com/VictorJimenez3/fable-job-search/issues/2689",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -86,13 +36,13 @@
     },
     {
       "id": "l504",
-      "text": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please describe.**  \nQualCoder's AI integration could be expanded to include the GWDG SAIA API. Currently, accessing these models (like Gemma 4 31B Instruct) requires manual `config.ini` edits.\n\n**Describe the solution you'd like**  \nWould it be possib\nInteresting. I'm planning a project together with the GWDG that also involves QualCoder, so it's good to see that integrating this service already works. \nCould you investigate \u2026",
+      "text": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please describe.**  \nQualCoder's AI integration could be expanded to include the GWDG SAIA API. Currently, accessing these models (like Gemma 4 31B Instruct) requires manual `config.ini` edits.\n\n**Describe the solution you'd like**  \nWould it be possib\nInteresting. I'm planning a project together with the GWDG that also involves QualCoder, so it's good to see that integrating this service already works. \nCould you investigate …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please des\u2026",
+          "title": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please des…",
           "url": "https://github.com/ccbogel/QualCoder/issues/1351",
           "date": "2026-06-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -107,13 +57,13 @@
     },
     {
       "id": "l505",
-      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** \u2014 [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t\u2026",
+      "text": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first — **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n☑️ Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** — [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
+          "title": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open …",
           "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -128,13 +78,13 @@
     },
     {
       "id": "l506",
-      "text": "[Feature]: Locked Gherkin DSL -- Bridging Shannon-Kolmogorov Gap for ~~Proven~~ Demonstrated Accuracy Gains\n### Summary\n\nAI-Drafted, several HITL iterations, then edited:\n\nAdd AI-assisted generation of  locked Gherkin (`.feature`) files as a low-Kolmogorov-complexity DSL layer in GSD-2 \u2014 this single change turns GSD-2 from \u201cstatistically good\u201d toward \u201calgorithmically reliable\u201d code generation.\n\n\n### Probl\n\ud83d\udc4b Thanks for opening this issue!\n\nThis was automatically flagged for maintainer review.\n\n**\u2026",
+      "text": "[Feature]: Locked Gherkin DSL -- Bridging Shannon-Kolmogorov Gap for ~~Proven~~ Demonstrated Accuracy Gains\n### Summary\n\nAI-Drafted, several HITL iterations, then edited:\n\nAdd AI-assisted generation of  locked Gherkin (`.feature`) files as a low-Kolmogorov-complexity DSL layer in GSD-2 — this single change turns GSD-2 from “statistically good” toward “algorithmically reliable” code generation.\n\n\n### Probl\n👋 Thanks for opening this issue!\n\nThis was automatically flagged for maintainer review.\n\n**…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[Feature]: Locked Gherkin DSL -- Bridging Shannon-Kolmogorov Gap for ~~Proven~~ \u2026",
+          "title": "[Feature]: Locked Gherkin DSL -- Bridging Shannon-Kolmogorov Gap for ~~Proven~~ …",
           "url": "https://github.com/gsd-build/gsd-2/issues/2578",
           "date": "2026-03-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -191,13 +141,13 @@
     },
     {
       "id": "l509",
-      "text": "AI Engineer Notebooks \u2013 free, framework-free RAG/agents/evals on Colab",
+      "text": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI Engineer Notebooks \u2013 free, framework-free RAG/agents/evals on Colab",
+          "title": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
           "url": "https://github.com/calmrocks/ai-engineer-notebooks",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -317,13 +267,13 @@
     },
     {
       "id": "l515",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -380,13 +330,13 @@
     },
     {
       "id": "l518",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -485,13 +435,13 @@
     },
     {
       "id": "l523",
-      "text": "Skyportal SRE \u2013 an open-source AI infrastructure engineer",
+      "text": "Skyportal SRE – an open-source AI infrastructure engineer",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Skyportal SRE \u2013 an open-source AI infrastructure engineer",
+          "title": "Skyportal SRE – an open-source AI infrastructure engineer",
           "url": "https://github.com/SkyportalAi/skyportalai",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -548,13 +498,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "Need guidance for doing masters in AI/ML or DS from Germany plus my bechlors is in Aerospace Engineering.\nHi actually I wanted to get some info regarding doing masters from Germany in the field of AI/ML. My background is Aerospace Engineering from India with a CGPA of 8.14 I&#39;ve done some research and few universities says I will need bachelors in CS related program. If there are universities which will accept my background please share it would be really great help. Thanks &#32; submitted by\u2026",
+      "text": "Need guidance for doing masters in AI/ML or DS from Germany plus my bechlors is in Aerospace Engineering.\nHi actually I wanted to get some info regarding doing masters from Germany in the field of AI/ML. My background is Aerospace Engineering from India with a CGPA of 8.14 I&#39;ve done some research and few universities says I will need bachelors in CS related program. If there are universities which will accept my background please share it would be really great help. Thanks &#32; submitted by…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Need guidance for doing masters in AI/ML or DS from Germany plus my bechlors is \u2026",
+          "title": "Need guidance for doing masters in AI/ML or DS from Germany plus my bechlors is …",
           "url": "https://www.reddit.com/r/studying_in_germany/comments/1voh9g7/need_guidance_for_doing_masters_in_aiml_or_ds/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -674,13 +624,13 @@
     },
     {
       "id": "l532",
-      "text": "Computer Engineering MS worth in the AI era? Or should I pivot to something else like aerospace or mechanical\nHello everyone my name is Feisal I&#39;m 26. I have an undergrad in IT and after 3 years of web development I want to switch careers. I have a full scholarship to study a masters in computer engineering at UHCL or a second undergrad in mechanical or aerospace. Being honest Im much more passionate about electronics then mechanical engineering, some things in aerospace interest me. However\u2026",
+      "text": "Computer Engineering MS worth in the AI era? Or should I pivot to something else like aerospace or mechanical\nHello everyone my name is Feisal I&#39;m 26. I have an undergrad in IT and after 3 years of web development I want to switch careers. I have a full scholarship to study a masters in computer engineering at UHCL or a second undergrad in mechanical or aerospace. Being honest Im much more passionate about electronics then mechanical engineering, some things in aerospace interest me. However…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Computer Engineering MS worth in the AI era? Or should I pivot to something else\u2026",
+          "title": "Computer Engineering MS worth in the AI era? Or should I pivot to something else…",
           "url": "https://www.reddit.com/r/EngineeringStudents/comments/1vr5ksz/computer_engineering_ms_worth_in_the_ai_era_or/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -695,13 +645,13 @@
     },
     {
       "id": "l533",
-      "text": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI for putting watermarks on their prompts \"creations\"\nSources: https://www.reddit.com/r/ClaudeCode/comments/1vlclpn/claude_watermarking_our_work_is_unethical_and/ https://www.reddit.com/r/ClaudeAI/comments/1vlckt9/claude_watermarking_our_work_is_unethical_and/ HIGHLIGHTS THREAD 1 Most consumers would want to know if something that was created with AI tools, I don\u2019t see a problem with that. This is such a hopelessly ch\u2026",
+      "text": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI for putting watermarks on their prompts \"creations\"\nSources: https://www.reddit.com/r/ClaudeCode/comments/1vlclpn/claude_watermarking_our_work_is_unethical_and/ https://www.reddit.com/r/ClaudeAI/comments/1vlckt9/claude_watermarking_our_work_is_unethical_and/ HIGHLIGHTS THREAD 1 Most consumers would want to know if something that was created with AI tools, I don’t see a problem with that. This is such a hopelessly ch…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI\u2026",
+          "title": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI…",
           "url": "https://www.reddit.com/r/SubredditDrama/comments/1vlyeei/can_you_please_just_write_your_own_posts_op_makes/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "Anyone actually using MCP for aerospace engineering workflows?\nMost MCP stuff seems to be about coding assistants, but what about aerospace engineering? Could MCP actually be useful for BOMs, engineering changes, production data, and getting AI tools to pull information without jumping between five different systems? Has anyone tried this in a real workflow yet or is aerospace engineering still mostly in the experimental stage with MCP? &#32; submitted by &#32; /u/Aggressive-Tart07 &#32; to &#32\u2026",
+      "text": "Anyone actually using MCP for aerospace engineering workflows?\nMost MCP stuff seems to be about coding assistants, but what about aerospace engineering? Could MCP actually be useful for BOMs, engineering changes, production data, and getting AI tools to pull information without jumping between five different systems? Has anyone tried this in a real workflow yet or is aerospace engineering still mostly in the experimental stage with MCP? &#32; submitted by &#32; /u/Aggressive-Tart07 &#32; to &#32…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Anyone actually using MCP for aerospace engineering workflows?\nMost MCP stuff se\u2026",
+          "title": "Anyone actually using MCP for aerospace engineering workflows?\nMost MCP stuff se…",
           "url": "https://www.reddit.com/r/mcp/comments/1vmt5jq/anyone_actually_using_mcp_for_aerospace/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "\ud83d\udea8 BOMBSHELL: Elon Musk drops a reality check on Zanny Minton Beddoes. He confirms AI will soon perform any job better than humans can! He brilliantly reveals AI is already better than 90% of professional software engineers. The workforce faces massive disruption.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]",
+      "text": "🚨 BOMBSHELL: Elon Musk drops a reality check on Zanny Minton Beddoes. He confirms AI will soon perform any job better than humans can! He brilliantly reveals AI is already better than 90% of professional software engineers. The workforce faces massive disruption.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\ud83d\udea8 BOMBSHELL: Elon Musk drops a reality check on Zanny Minton Beddoes. He confirm\u2026",
+          "title": "🚨 BOMBSHELL: Elon Musk drops a reality check on Zanny Minton Beddoes. He confirm…",
           "url": "https://www.reddit.com/r/SECourses/comments/1vafu0n/bombshell_elon_musk_drops_a_reality_check_on/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -758,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "Transitioning from aerospace/physics research to scientific ML/physical AI?\nAs the title suggests, I got my MS in aerospace engineering (after getting my BA in physics) a little over a year ago and have been working at a large aerospace firm since then doing combustion research. My graduate research was very computational\u2014I wrote a physics-based simulation in Python and compared its predictions with experimental laser-diagnostic measurements\u2014and in my current role I&#39;ve continued to focus on \u2026",
+      "text": "Transitioning from aerospace/physics research to scientific ML/physical AI?\nAs the title suggests, I got my MS in aerospace engineering (after getting my BA in physics) a little over a year ago and have been working at a large aerospace firm since then doing combustion research. My graduate research was very computational—I wrote a physics-based simulation in Python and compared its predictions with experimental laser-diagnostic measurements—and in my current role I&#39;ve continued to focus on …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Transitioning from aerospace/physics research to scientific ML/physical AI?\nAs t\u2026",
+          "title": "Transitioning from aerospace/physics research to scientific ML/physical AI?\nAs t…",
           "url": "https://www.reddit.com/r/cscareerquestions/comments/1vzh9d2/transitioning_from_aerospacephysics_research_to/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -779,14 +729,14 @@
     },
     {
       "id": "l537",
-      "text": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]",
+      "text": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks \u2026",
-          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_\u00e0_special/",
+          "title": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks …",
+          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_à_special/",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
         }
@@ -806,7 +756,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI is compressing three days of work into half a day for me.\n\n@ModelML_ is insan\u2026",
+          "title": "AI is compressing three days of work into half a day for me.\n\n@ModelML_ is insan…",
           "url": "https://x.com/rickyho_1989/status/2092905855750664457",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "Every fund deserves its own AI operating system.\n\nToday, Terminal X is announcing a collaboration with OpenAI to bring frontier AI into the workflows alternative asset managers use to underwrite investments, manage risk, and make decisions.\n\nTerminal X combines OpenAI\u2019s frontier models with our Agent Orchestration Layer, allowing us to configure AI around each firm\u2019s internal data, institutional knowledge, investment process, and controls.\n\nA buyout fund, private credit platform, and real estate",
+      "text": "Every fund deserves its own AI operating system.\n\nToday, Terminal X is announcing a collaboration with OpenAI to bring frontier AI into the workflows alternative asset managers use to underwrite investments, manage risk, and make decisions.\n\nTerminal X combines OpenAI’s frontier models with our Agent Orchestration Layer, allowing us to configure AI around each firm’s internal data, institutional knowledge, investment process, and controls.\n\nA buyout fund, private credit platform, and real estate",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Every fund deserves its own AI operating system.\n\nToday, Terminal X is announcin\u2026",
+          "title": "Every fund deserves its own AI operating system.\n\nToday, Terminal X is announcin…",
           "url": "https://x.com/Terminalx_ai/status/2093371968125100239",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -884,13 +834,13 @@
     },
     {
       "id": "l542",
-      "text": "The whole Wall Street is upgrading $NVDA. Up 7% pre-market. This shall spark new rally into the whole AI basket. Let the profit run baby \ud83d\ude80",
+      "text": "The whole Wall Street is upgrading $NVDA. Up 7% pre-market. This shall spark new rally into the whole AI basket. Let the profit run baby 🚀",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The whole Wall Street is upgrading $NVDA. Up 7% pre-market. This shall spark new\u2026",
+          "title": "The whole Wall Street is upgrading $NVDA. Up 7% pre-market. This shall spark new…",
           "url": "https://x.com/rickyho_1989/status/2092932460510330942",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "The AI Era Macro Framework \u2014 Five Interlocking Threads",
+      "text": "The AI Era Macro Framework — Five Interlocking Threads",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The AI Era Macro Framework \u2014 Five Interlocking Threads",
+          "title": "The AI Era Macro Framework — Five Interlocking Threads",
           "url": "https://x.com/YakuIsLearning/status/2083861370873774201",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "AI\u2019s hallucination problem may have an answer. It just starts with math. \ud83e\uddee\n\n@CoreyNoles and @TheNeuronScribe sat down with Harmonic CEO @tachim to explore an ambitious idea: AI that doesn\u2019t just give you answers. It can prove them.\n\nWatch the replay to see why that could matter far beyond math. \ud83c\udf99\ufe0f",
+      "text": "AI’s hallucination problem may have an answer. It just starts with math. 🧮\n\n@CoreyNoles and @TheNeuronScribe sat down with Harmonic CEO @tachim to explore an ambitious idea: AI that doesn’t just give you answers. It can prove them.\n\nWatch the replay to see why that could matter far beyond math. 🎙️",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI\u2019s hallucination problem may have an answer. It just starts with math. \ud83e\uddee\n\n@Cor\u2026",
+          "title": "AI’s hallucination problem may have an answer. It just starts with math. 🧮\n\n@Cor…",
           "url": "https://x.com/theneurondaily/status/2093089672348176752",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "Imagine writing it yourself and still getting flagged as AI. \ud83e\udee0\n\nThat\u2019s the problem with treating AI detectors as proof.\n\nFalse positives have real consequences, especially when schools and workplaces use them to judge people.\n\nDetection should start a conversation, not end one. \u270d\ud83c\udffb",
+      "text": "Imagine writing it yourself and still getting flagged as AI. 🫠\n\nThat’s the problem with treating AI detectors as proof.\n\nFalse positives have real consequences, especially when schools and workplaces use them to judge people.\n\nDetection should start a conversation, not end one. ✍🏻",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Imagine writing it yourself and still getting flagged as AI. \ud83e\udee0\n\nThat\u2019s the probl\u2026",
+          "title": "Imagine writing it yourself and still getting flagged as AI. 🫠\n\nThat’s the probl…",
           "url": "https://x.com/theneurondaily/status/2093418337929769177",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "Hackers convinced an AI agent to help attack 7 companies by telling it one thing:\n\n\u201cIt\u2019s just a test.\u201d \ud83d\udea8\n\nThe agent initially refused the malicious requests.\n\nThen the hackers convinced it the attacks were happening in a legal simulation, and its guardrails gave way.\n\nLearn what happened and why cyber insurers are already reacting: https://t.co/OX0IlGbTwB",
+      "text": "Hackers convinced an AI agent to help attack 7 companies by telling it one thing:\n\n“It’s just a test.” 🚨\n\nThe agent initially refused the malicious requests.\n\nThen the hackers convinced it the attacks were happening in a legal simulation, and its guardrails gave way.\n\nLearn what happened and why cyber insurers are already reacting: https://t.co/OX0IlGbTwB",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Hackers convinced an AI agent to help attack 7 companies by telling it one thing\u2026",
+          "title": "Hackers convinced an AI agent to help attack 7 companies by telling it one thing…",
           "url": "https://x.com/theneurondaily/status/2093363728138056038",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1073,13 +1023,13 @@
     },
     {
       "id": "l551",
-      "text": "Will AI Replace Teachers? An Aerospace Engineer's Honest Answer \u2014 Dr Lucy Agyepong | LTEA Ep 31\nEveryone's afraid AI is coming for their job. An aerospace engineer who's worked with Airbus, BAE and Rolls-Royce has a more useful answer: yes, every new technology threatens jobs \u2014 and the human superpower is that we adapt.\n\nIn Episode 31 of Let's Talk Education Africa, host Kwame Nyatuame sits down with Ing. Dr Lucy Agyepong \u2014 Vice President at Academic City University, aerospace and mechanical eng\u2026",
+      "text": "Will AI Replace Teachers? An Aerospace Engineer's Honest Answer — Dr Lucy Agyepong | LTEA Ep 31\nEveryone's afraid AI is coming for their job. An aerospace engineer who's worked with Airbus, BAE and Rolls-Royce has a more useful answer: yes, every new technology threatens jobs — and the human superpower is that we adapt.\n\nIn Episode 31 of Let's Talk Education Africa, host Kwame Nyatuame sits down with Ing. Dr Lucy Agyepong — Vice President at Academic City University, aerospace and mechanical eng…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Will AI Replace Teachers? An Aerospace Engineer's Honest Answer \u2014 Dr Lucy Agyepo\u2026",
+          "title": "Will AI Replace Teachers? An Aerospace Engineer's Honest Answer — Dr Lucy Agyepo…",
           "url": "https://www.youtube.com/watch?v=0r52k2B_JJE",
           "date": "2026-07-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1094,13 +1044,13 @@
     },
     {
       "id": "l552",
-      "text": "How Advanced Drone Technology Is Reshaping Wildfire Response, Aerospace and Defense | Eran Green\nIn this episode of Master AI Disruption: Strategic Horizons, Francis Cholle speaks with Eran Green about how advanced technologies are transforming aerospace, defense, and wildfire management.\n\nDrawing on more than 20 years of technical leadership experience, including work on the F-35 helmet and robotic systems for spine surgery, Eran shares his journey across telecommunications, medical devices, an\u2026",
+      "text": "How Advanced Drone Technology Is Reshaping Wildfire Response, Aerospace and Defense | Eran Green\nIn this episode of Master AI Disruption: Strategic Horizons, Francis Cholle speaks with Eran Green about how advanced technologies are transforming aerospace, defense, and wildfire management.\n\nDrawing on more than 20 years of technical leadership experience, including work on the F-35 helmet and robotic systems for spine surgery, Eran shares his journey across telecommunications, medical devices, an…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How Advanced Drone Technology Is Reshaping Wildfire Response, Aerospace and Defe\u2026",
+          "title": "How Advanced Drone Technology Is Reshaping Wildfire Response, Aerospace and Defe…",
           "url": "https://www.youtube.com/watch?v=wUBpdk-Ds7Y",
           "date": "2026-06-17",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1115,13 +1065,13 @@
     },
     {
       "id": "l553",
-      "text": "Robots, Drones, and AI \u2013 Oh my! Emerging Aerospace in the Age of Disruption\nDr. Jamey Jacobs explores how these disruptive technologies are converging to redefine aviation and aerospace in Oklahoma, from autonomous drones and advanced air mobility to space systems and AI-enabled decision making. Through real-world examples, participants will gain insight into the technologies driving this transformation, the challenges of safely integrating them into everyday life, and what these changes mean fo\u2026",
+      "text": "Robots, Drones, and AI – Oh my! Emerging Aerospace in the Age of Disruption\nDr. Jamey Jacobs explores how these disruptive technologies are converging to redefine aviation and aerospace in Oklahoma, from autonomous drones and advanced air mobility to space systems and AI-enabled decision making. Through real-world examples, participants will gain insight into the technologies driving this transformation, the challenges of safely integrating them into everyday life, and what these changes mean fo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Robots, Drones, and AI \u2013 Oh my! Emerging Aerospace in the Age of Disruption\nDr. \u2026",
+          "title": "Robots, Drones, and AI – Oh my! Emerging Aerospace in the Age of Disruption\nDr. …",
           "url": "https://www.youtube.com/watch?v=dXpaRos9BD4",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1136,13 +1086,13 @@
     },
     {
       "id": "l554",
-      "text": "Harness Engineering: How to Build Software When Humans Steer, Agents Execute \u2014\u00a0Ryan Lopopolo, OpenAI\nhttps://openai.com/index/harness-engineering/\n\nSpeaker info:\n- https://x.com/_lopopolo\n- https://www.linkedin.com/in/ryanlopopolo/\n- https://github.com/lopopolo\n\nWith a special post keynote Q&A with Vibhu Sapra (https://x.com/vibhuuuus), cohost for https://latent.space/p/harness-eng\n[music] &gt;&gt; Our next speaker is here to speak about Harness Engineering. How to build software when humans ste\u2026",
+      "text": "Harness Engineering: How to Build Software When Humans Steer, Agents Execute — Ryan Lopopolo, OpenAI\nhttps://openai.com/index/harness-engineering/\n\nSpeaker info:\n- https://x.com/_lopopolo\n- https://www.linkedin.com/in/ryanlopopolo/\n- https://github.com/lopopolo\n\nWith a special post keynote Q&A with Vibhu Sapra (https://x.com/vibhuuuus), cohost for https://latent.space/p/harness-eng\n[music] &gt;&gt; Our next speaker is here to speak about Harness Engineering. How to build software when humans ste…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Harness Engineering: How to Build Software When Humans Steer, Agents Execute \u2014\u00a0R\u2026",
+          "title": "Harness Engineering: How to Build Software When Humans Steer, Agents Execute — R…",
           "url": "https://www.youtube.com/watch?v=am_oeAoUhew",
           "date": "2026-04-17",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1157,13 +1107,13 @@
     },
     {
       "id": "l555",
-      "text": "How to Become an AI Engineer FAST (2026) | AI Engineering Roadmap\nTop pick AI engineer courses:\n\nAI Engineer for Developers Career Track \u2192 https://datacamp.pxf.io/gRRgRB\nAI Engineer for Data scientists Career Track \u2192 https://datacamp.pxf.io/0GGAGV\nAI Fundamentals track \u2192 https://datacamp.pxf.io/bkk2kx\n\nIn this video, I talk about how to become an AI engineer very fast and the exact five-level AI engineer roadmap you need to ensure you land that job!\n\n\ud83d\ude80 JOIN MY TECH COMMUNITY: SWE LAUNCHPAD\nInsid\u2026",
+      "text": "How to Become an AI Engineer FAST (2026) | AI Engineering Roadmap\nTop pick AI engineer courses:\n\nAI Engineer for Developers Career Track → https://datacamp.pxf.io/gRRgRB\nAI Engineer for Data scientists Career Track → https://datacamp.pxf.io/0GGAGV\nAI Fundamentals track → https://datacamp.pxf.io/bkk2kx\n\nIn this video, I talk about how to become an AI engineer very fast and the exact five-level AI engineer roadmap you need to ensure you land that job!\n\n🚀 JOIN MY TECH COMMUNITY: SWE LAUNCHPAD\nInsid…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How to Become an AI Engineer FAST (2026) | AI Engineering Roadmap\nTop pick AI en\u2026",
+          "title": "How to Become an AI Engineer FAST (2026) | AI Engineering Roadmap\nTop pick AI en…",
           "url": "https://www.youtube.com/watch?v=aAItDrJ8-rE",
           "date": "2026-03-30",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1178,13 +1128,13 @@
     },
     {
       "id": "l556",
-      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - \u2026",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har\u2026",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har…",
           "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1199,13 +1149,13 @@
     },
     {
       "id": "l557",
-      "text": "Traverse Engine \u2014 AI-Powered Travel Planner with Real-Time Disruption Simulation | Full Demo\nTraverse Engine is a dual-platform Travel Planning & Experience Engine that builds dynamic, context-aware itineraries \u2014 and re-optimizes them in real time when the real world gets in the way.\n\nIn this demo, I walk through how the app takes your trip preferences (destination, duration, budget, pace, interests, dietary & mobility constraints) and generates a full multi-day itinerary, then simulates live di\u2026",
+      "text": "Traverse Engine — AI-Powered Travel Planner with Real-Time Disruption Simulation | Full Demo\nTraverse Engine is a dual-platform Travel Planning & Experience Engine that builds dynamic, context-aware itineraries — and re-optimizes them in real time when the real world gets in the way.\n\nIn this demo, I walk through how the app takes your trip preferences (destination, duration, budget, pace, interests, dietary & mobility constraints) and generates a full multi-day itinerary, then simulates live di…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Traverse Engine \u2014 AI-Powered Travel Planner with Real-Time Disruption Simulation\u2026",
+          "title": "Traverse Engine — AI-Powered Travel Planner with Real-Time Disruption Simulation…",
           "url": "https://www.youtube.com/watch?v=ytqmbQA-x2Q",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1220,7 +1170,7 @@
     },
     {
       "id": "l458",
-      "text": "Aerospace/Structures Engineer \u2014 Boeing (Amberley, Queensland, Australia). Posted 5 days ago.",
+      "text": "Aerospace/Structures Engineer — Boeing (Amberley, Queensland, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1241,7 +1191,7 @@
     },
     {
       "id": "l459",
-      "text": "Submit your CV \u2014 Space Machines Company (Botany, New South Wales, Australia). Posted 3 months ago.",
+      "text": "Submit your CV — Space Machines Company (Botany, New South Wales, Australia). Posted 3 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1262,7 +1212,7 @@
     },
     {
       "id": "l460",
-      "text": "Mechanical Engineer - Structures \u2014 Space Machines Company (Botany, New South Wales, Australia). Posted 1 month ago.",
+      "text": "Mechanical Engineer - Structures — Space Machines Company (Botany, New South Wales, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1283,13 +1233,13 @@
     },
     {
       "id": "l461",
-      "text": "Systems Engineer \u2013 Launcher Systems \u2014 Raytheon Australia (Mawson Lakes, South Australia, Australia). Posted 1 week ago.",
+      "text": "Systems Engineer – Launcher Systems — Raytheon Australia (Mawson Lakes, South Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
           "publisher": "Raytheon Australia",
-          "title": "Systems Engineer \u2013 Launcher Systems",
+          "title": "Systems Engineer – Launcher Systems",
           "url": "https://www.linkedin.com/jobs/view/4446568777",
           "date": "1 week ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
@@ -1304,7 +1254,7 @@
     },
     {
       "id": "l462",
-      "text": "Field Engineer \u2014 MAKO (Marrickville, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Field Engineer — MAKO (Marrickville, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1325,7 +1275,7 @@
     },
     {
       "id": "l463",
-      "text": "Engineer - Manufacturing \u2014 Boeing (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Engineer - Manufacturing — Boeing (Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1346,7 +1296,7 @@
     },
     {
       "id": "l464",
-      "text": "Aerospace Design Engineer | Mechanical Engineer | Brisbane \u2014 Reqiva (Brisbane, Queensland, Australia). Posted 6 days ago.",
+      "text": "Aerospace Design Engineer | Mechanical Engineer | Brisbane — Reqiva (Brisbane, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1367,7 +1317,7 @@
     },
     {
       "id": "l465",
-      "text": "Systems Engineer II \u2014 Hypersonix Launch Systems (Carole Park, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Systems Engineer II — Hypersonix Launch Systems (Carole Park, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1388,7 +1338,7 @@
     },
     {
       "id": "l466",
-      "text": "Lead Flight Test Engineer APAC \u2014 Cambridge Aerospace (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Lead Flight Test Engineer APAC — Cambridge Aerospace (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1409,7 +1359,7 @@
     },
     {
       "id": "l467",
-      "text": "Manufacturing Systems (Materials/ Process) Engineer \u2014 MAKO (Marrickville, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Manufacturing Systems (Materials/ Process) Engineer — MAKO (Marrickville, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1430,13 +1380,13 @@
     },
     {
       "id": "l568",
-      "text": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please describe.**  \nQualCoder's AI integration could be expanded to include the GWDG SAIA API. Currently, accessing these models (like Gemma 4 31B Instruct) requires manual `config.ini` edits.\n\n**Describe the solution you'd like**  \nWould it be possib\nInteresting. I'm planning a project together with the GWDG that also involves QualCoder, so it's good to see that integrating this service already works. \nCould you investigate \u2026",
+      "text": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please describe.**  \nQualCoder's AI integration could be expanded to include the GWDG SAIA API. Currently, accessing these models (like Gemma 4 31B Instruct) requires manual `config.ini` edits.\n\n**Describe the solution you'd like**  \nWould it be possib\nInteresting. I'm planning a project together with the GWDG that also involves QualCoder, so it's good to see that integrating this service already works. \nCould you investigate …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please des\u2026",
+          "title": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please des…",
           "url": "https://github.com/ccbogel/QualCoder/issues/1351",
           "date": "2026-06-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1451,13 +1401,13 @@
     },
     {
       "id": "l569",
-      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** \u2014 [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t\u2026",
+      "text": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first — **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n☑️ Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** — [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
+          "title": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open …",
           "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1472,13 +1422,13 @@
     },
     {
       "id": "l570",
-      "text": "[Feature]: Locked Gherkin DSL -- Bridging Shannon-Kolmogorov Gap for ~~Proven~~ Demonstrated Accuracy Gains\n### Summary\n\nAI-Drafted, several HITL iterations, then edited:\n\nAdd AI-assisted generation of  locked Gherkin (`.feature`) files as a low-Kolmogorov-complexity DSL layer in GSD-2 \u2014 this single change turns GSD-2 from \u201cstatistically good\u201d toward \u201calgorithmically reliable\u201d code generation.\n\n\n### Probl\n\ud83d\udc4b Thanks for opening this issue!\n\nThis was automatically flagged for maintainer review.\n\n**\u2026",
+      "text": "[Feature]: Locked Gherkin DSL -- Bridging Shannon-Kolmogorov Gap for ~~Proven~~ Demonstrated Accuracy Gains\n### Summary\n\nAI-Drafted, several HITL iterations, then edited:\n\nAdd AI-assisted generation of  locked Gherkin (`.feature`) files as a low-Kolmogorov-complexity DSL layer in GSD-2 — this single change turns GSD-2 from “statistically good” toward “algorithmically reliable” code generation.\n\n\n### Probl\n👋 Thanks for opening this issue!\n\nThis was automatically flagged for maintainer review.\n\n**…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[Feature]: Locked Gherkin DSL -- Bridging Shannon-Kolmogorov Gap for ~~Proven~~ \u2026",
+          "title": "[Feature]: Locked Gherkin DSL -- Bridging Shannon-Kolmogorov Gap for ~~Proven~~ …",
           "url": "https://github.com/gsd-build/gsd-2/issues/2578",
           "date": "2026-03-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1493,13 +1443,13 @@
     },
     {
       "id": "l571",
-      "text": "Need guidance for doing masters in AI/ML or DS from Germany plus my bechlors is in Aerospace Engineering.\nHi actually I wanted to get some info regarding doing masters from Germany in the field of AI/ML. My background is Aerospace Engineering from India with a CGPA of 8.14 I&#39;ve done some research and few universities says I will need bachelors in CS related program. If there are universities which will accept my background please share it would be really great help. Thanks &#32; submitted by\u2026",
+      "text": "Need guidance for doing masters in AI/ML or DS from Germany plus my bechlors is in Aerospace Engineering.\nHi actually I wanted to get some info regarding doing masters from Germany in the field of AI/ML. My background is Aerospace Engineering from India with a CGPA of 8.14 I&#39;ve done some research and few universities says I will need bachelors in CS related program. If there are universities which will accept my background please share it would be really great help. Thanks &#32; submitted by…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Need guidance for doing masters in AI/ML or DS from Germany plus my bechlors is \u2026",
+          "title": "Need guidance for doing masters in AI/ML or DS from Germany plus my bechlors is …",
           "url": "https://www.reddit.com/r/studying_in_germany/comments/1voh9g7/need_guidance_for_doing_masters_in_aiml_or_ds/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1514,13 +1464,13 @@
     },
     {
       "id": "l572",
-      "text": "Computer Engineering MS worth in the AI era? Or should I pivot to something else like aerospace or mechanical\nHello everyone my name is Feisal I&#39;m 26. I have an undergrad in IT and after 3 years of web development I want to switch careers. I have a full scholarship to study a masters in computer engineering at UHCL or a second undergrad in mechanical or aerospace. Being honest Im much more passionate about electronics then mechanical engineering, some things in aerospace interest me. However\u2026",
+      "text": "Computer Engineering MS worth in the AI era? Or should I pivot to something else like aerospace or mechanical\nHello everyone my name is Feisal I&#39;m 26. I have an undergrad in IT and after 3 years of web development I want to switch careers. I have a full scholarship to study a masters in computer engineering at UHCL or a second undergrad in mechanical or aerospace. Being honest Im much more passionate about electronics then mechanical engineering, some things in aerospace interest me. However…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Computer Engineering MS worth in the AI era? Or should I pivot to something else\u2026",
+          "title": "Computer Engineering MS worth in the AI era? Or should I pivot to something else…",
           "url": "https://www.reddit.com/r/EngineeringStudents/comments/1vr5ksz/computer_engineering_ms_worth_in_the_ai_era_or/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1535,13 +1485,13 @@
     },
     {
       "id": "l573",
-      "text": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI for putting watermarks on their prompts \"creations\"\nSources: https://www.reddit.com/r/ClaudeCode/comments/1vlclpn/claude_watermarking_our_work_is_unethical_and/ https://www.reddit.com/r/ClaudeAI/comments/1vlckt9/claude_watermarking_our_work_is_unethical_and/ HIGHLIGHTS THREAD 1 Most consumers would want to know if something that was created with AI tools, I don\u2019t see a problem with that. This is such a hopelessly ch\u2026",
+      "text": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI for putting watermarks on their prompts \"creations\"\nSources: https://www.reddit.com/r/ClaudeCode/comments/1vlclpn/claude_watermarking_our_work_is_unethical_and/ https://www.reddit.com/r/ClaudeAI/comments/1vlckt9/claude_watermarking_our_work_is_unethical_and/ HIGHLIGHTS THREAD 1 Most consumers would want to know if something that was created with AI tools, I don’t see a problem with that. This is such a hopelessly ch…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI\u2026",
+          "title": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI…",
           "url": "https://www.reddit.com/r/SubredditDrama/comments/1vlyeei/can_you_please_just_write_your_own_posts_op_makes/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1556,13 +1506,13 @@
     },
     {
       "id": "l574",
-      "text": "Anyone actually using MCP for aerospace engineering workflows?\nMost MCP stuff seems to be about coding assistants, but what about aerospace engineering? Could MCP actually be useful for BOMs, engineering changes, production data, and getting AI tools to pull information without jumping between five different systems? Has anyone tried this in a real workflow yet or is aerospace engineering still mostly in the experimental stage with MCP? &#32; submitted by &#32; /u/Aggressive-Tart07 &#32; to &#32\u2026",
+      "text": "Anyone actually using MCP for aerospace engineering workflows?\nMost MCP stuff seems to be about coding assistants, but what about aerospace engineering? Could MCP actually be useful for BOMs, engineering changes, production data, and getting AI tools to pull information without jumping between five different systems? Has anyone tried this in a real workflow yet or is aerospace engineering still mostly in the experimental stage with MCP? &#32; submitted by &#32; /u/Aggressive-Tart07 &#32; to &#32…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Anyone actually using MCP for aerospace engineering workflows?\nMost MCP stuff se\u2026",
+          "title": "Anyone actually using MCP for aerospace engineering workflows?\nMost MCP stuff se…",
           "url": "https://www.reddit.com/r/mcp/comments/1vmt5jq/anyone_actually_using_mcp_for_aerospace/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1577,13 +1527,13 @@
     },
     {
       "id": "l575",
-      "text": "Transitioning from aerospace/physics research to scientific ML/physical AI?\nAs the title suggests, I got my MS in aerospace engineering (after getting my BA in physics) a little over a year ago and have been working at a large aerospace firm since then doing combustion research. My graduate research was very computational\u2014I wrote a physics-based simulation in Python and compared its predictions with experimental laser-diagnostic measurements\u2014and in my current role I&#39;ve continued to focus on \u2026",
+      "text": "Transitioning from aerospace/physics research to scientific ML/physical AI?\nAs the title suggests, I got my MS in aerospace engineering (after getting my BA in physics) a little over a year ago and have been working at a large aerospace firm since then doing combustion research. My graduate research was very computational—I wrote a physics-based simulation in Python and compared its predictions with experimental laser-diagnostic measurements—and in my current role I&#39;ve continued to focus on …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Transitioning from aerospace/physics research to scientific ML/physical AI?\nAs t\u2026",
+          "title": "Transitioning from aerospace/physics research to scientific ML/physical AI?\nAs t…",
           "url": "https://www.reddit.com/r/cscareerquestions/comments/1vzh9d2/transitioning_from_aerospacephysics_research_to/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1598,13 +1548,13 @@
     },
     {
       "id": "l576",
-      "text": "Will AI Replace Teachers? An Aerospace Engineer's Honest Answer \u2014 Dr Lucy Agyepong | LTEA Ep 31\nEveryone's afraid AI is coming for their job. An aerospace engineer who's worked with Airbus, BAE and Rolls-Royce has a more useful answer: yes, every new technology threatens jobs \u2014 and the human superpower is that we adapt.\n\nIn Episode 31 of Let's Talk Education Africa, host Kwame Nyatuame sits down with Ing. Dr Lucy Agyepong \u2014 Vice President at Academic City University, aerospace and mechanical eng\u2026",
+      "text": "Will AI Replace Teachers? An Aerospace Engineer's Honest Answer — Dr Lucy Agyepong | LTEA Ep 31\nEveryone's afraid AI is coming for their job. An aerospace engineer who's worked with Airbus, BAE and Rolls-Royce has a more useful answer: yes, every new technology threatens jobs — and the human superpower is that we adapt.\n\nIn Episode 31 of Let's Talk Education Africa, host Kwame Nyatuame sits down with Ing. Dr Lucy Agyepong — Vice President at Academic City University, aerospace and mechanical eng…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Will AI Replace Teachers? An Aerospace Engineer's Honest Answer \u2014 Dr Lucy Agyepo\u2026",
+          "title": "Will AI Replace Teachers? An Aerospace Engineer's Honest Answer — Dr Lucy Agyepo…",
           "url": "https://www.youtube.com/watch?v=0r52k2B_JJE",
           "date": "2026-07-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1619,13 +1569,13 @@
     },
     {
       "id": "l577",
-      "text": "How Advanced Drone Technology Is Reshaping Wildfire Response, Aerospace and Defense | Eran Green\nIn this episode of Master AI Disruption: Strategic Horizons, Francis Cholle speaks with Eran Green about how advanced technologies are transforming aerospace, defense, and wildfire management.\n\nDrawing on more than 20 years of technical leadership experience, including work on the F-35 helmet and robotic systems for spine surgery, Eran shares his journey across telecommunications, medical devices, an\u2026",
+      "text": "How Advanced Drone Technology Is Reshaping Wildfire Response, Aerospace and Defense | Eran Green\nIn this episode of Master AI Disruption: Strategic Horizons, Francis Cholle speaks with Eran Green about how advanced technologies are transforming aerospace, defense, and wildfire management.\n\nDrawing on more than 20 years of technical leadership experience, including work on the F-35 helmet and robotic systems for spine surgery, Eran shares his journey across telecommunications, medical devices, an…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How Advanced Drone Technology Is Reshaping Wildfire Response, Aerospace and Defe\u2026",
+          "title": "How Advanced Drone Technology Is Reshaping Wildfire Response, Aerospace and Defe…",
           "url": "https://www.youtube.com/watch?v=wUBpdk-Ds7Y",
           "date": "2026-06-17",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1640,13 +1590,13 @@
     },
     {
       "id": "l578",
-      "text": "Robots, Drones, and AI \u2013 Oh my! Emerging Aerospace in the Age of Disruption\nDr. Jamey Jacobs explores how these disruptive technologies are converging to redefine aviation and aerospace in Oklahoma, from autonomous drones and advanced air mobility to space systems and AI-enabled decision making. Through real-world examples, participants will gain insight into the technologies driving this transformation, the challenges of safely integrating them into everyday life, and what these changes mean fo\u2026",
+      "text": "Robots, Drones, and AI – Oh my! Emerging Aerospace in the Age of Disruption\nDr. Jamey Jacobs explores how these disruptive technologies are converging to redefine aviation and aerospace in Oklahoma, from autonomous drones and advanced air mobility to space systems and AI-enabled decision making. Through real-world examples, participants will gain insight into the technologies driving this transformation, the challenges of safely integrating them into everyday life, and what these changes mean fo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Robots, Drones, and AI \u2013 Oh my! Emerging Aerospace in the Age of Disruption\nDr. \u2026",
+          "title": "Robots, Drones, and AI – Oh my! Emerging Aerospace in the Age of Disruption\nDr. …",
           "url": "https://www.youtube.com/watch?v=dXpaRos9BD4",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1661,13 +1611,13 @@
     },
     {
       "id": "l579",
-      "text": "Harness Engineering: How to Build Software When Humans Steer, Agents Execute \u2014\u00a0Ryan Lopopolo, OpenAI\nhttps://openai.com/index/harness-engineering/\n\nSpeaker info:\n- https://x.com/_lopopolo\n- https://www.linkedin.com/in/ryanlopopolo/\n- https://github.com/lopopolo\n\nWith a special post keynote Q&A with Vibhu Sapra (https://x.com/vibhuuuus), cohost for https://latent.space/p/harness-eng\n[music] &gt;&gt; Our next speaker is here to speak about Harness Engineering. How to build software when humans ste\u2026",
+      "text": "Harness Engineering: How to Build Software When Humans Steer, Agents Execute — Ryan Lopopolo, OpenAI\nhttps://openai.com/index/harness-engineering/\n\nSpeaker info:\n- https://x.com/_lopopolo\n- https://www.linkedin.com/in/ryanlopopolo/\n- https://github.com/lopopolo\n\nWith a special post keynote Q&A with Vibhu Sapra (https://x.com/vibhuuuus), cohost for https://latent.space/p/harness-eng\n[music] &gt;&gt; Our next speaker is here to speak about Harness Engineering. How to build software when humans ste…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Harness Engineering: How to Build Software When Humans Steer, Agents Execute \u2014\u00a0R\u2026",
+          "title": "Harness Engineering: How to Build Software When Humans Steer, Agents Execute — R…",
           "url": "https://www.youtube.com/watch?v=am_oeAoUhew",
           "date": "2026-04-17",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1682,13 +1632,13 @@
     },
     {
       "id": "l580",
-      "text": "How to Become an AI Engineer FAST (2026) | AI Engineering Roadmap\nTop pick AI engineer courses:\n\nAI Engineer for Developers Career Track \u2192 https://datacamp.pxf.io/gRRgRB\nAI Engineer for Data scientists Career Track \u2192 https://datacamp.pxf.io/0GGAGV\nAI Fundamentals track \u2192 https://datacamp.pxf.io/bkk2kx\n\nIn this video, I talk about how to become an AI engineer very fast and the exact five-level AI engineer roadmap you need to ensure you land that job!\n\n\ud83d\ude80 JOIN MY TECH COMMUNITY: SWE LAUNCHPAD\nInsid\u2026",
+      "text": "How to Become an AI Engineer FAST (2026) | AI Engineering Roadmap\nTop pick AI engineer courses:\n\nAI Engineer for Developers Career Track → https://datacamp.pxf.io/gRRgRB\nAI Engineer for Data scientists Career Track → https://datacamp.pxf.io/0GGAGV\nAI Fundamentals track → https://datacamp.pxf.io/bkk2kx\n\nIn this video, I talk about how to become an AI engineer very fast and the exact five-level AI engineer roadmap you need to ensure you land that job!\n\n🚀 JOIN MY TECH COMMUNITY: SWE LAUNCHPAD\nInsid…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How to Become an AI Engineer FAST (2026) | AI Engineering Roadmap\nTop pick AI en\u2026",
+          "title": "How to Become an AI Engineer FAST (2026) | AI Engineering Roadmap\nTop pick AI en…",
           "url": "https://www.youtube.com/watch?v=aAItDrJ8-rE",
           "date": "2026-03-30",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1703,13 +1653,13 @@
     },
     {
       "id": "l581",
-      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - \u2026",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har\u2026",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har…",
           "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1724,13 +1674,13 @@
     },
     {
       "id": "l582",
-      "text": "Traverse Engine \u2014 AI-Powered Travel Planner with Real-Time Disruption Simulation | Full Demo\nTraverse Engine is a dual-platform Travel Planning & Experience Engine that builds dynamic, context-aware itineraries \u2014 and re-optimizes them in real time when the real world gets in the way.\n\nIn this demo, I walk through how the app takes your trip preferences (destination, duration, budget, pace, interests, dietary & mobility constraints) and generates a full multi-day itinerary, then simulates live di\u2026",
+      "text": "Traverse Engine — AI-Powered Travel Planner with Real-Time Disruption Simulation | Full Demo\nTraverse Engine is a dual-platform Travel Planning & Experience Engine that builds dynamic, context-aware itineraries — and re-optimizes them in real time when the real world gets in the way.\n\nIn this demo, I walk through how the app takes your trip preferences (destination, duration, budget, pace, interests, dietary & mobility constraints) and generates a full multi-day itinerary, then simulates live di…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Traverse Engine \u2014 AI-Powered Travel Planner with Real-Time Disruption Simulation\u2026",
+          "title": "Traverse Engine — AI-Powered Travel Planner with Real-Time Disruption Simulation…",
           "url": "https://www.youtube.com/watch?v=ytqmbQA-x2Q",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1823,6 +1773,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

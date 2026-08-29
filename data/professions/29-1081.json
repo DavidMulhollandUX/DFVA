@@ -14,56 +14,6 @@
   "programs": [],
   "claims": [
     {
-      "id": "29-1081-01",
-      "text": "National peak professional bodies and statutory regulators governing Podiatrists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Podiatrists",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Podiatrists",
-          "url": "https://www.psc.gov.au/standards/29-1081",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Podiatrists"
-        }
-      ],
-      "scope": "Australian practitioners in Podiatrists across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "29-1081-02",
-      "text": "Automation of routine transactional and analytical tasks in Podiatrists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Podiatrists",
-          "url": "https://www.jobsandskills.gov.au/research/29-1081",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Podiatrists in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Podiatrists roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
       "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
@@ -254,13 +204,13 @@
     },
     {
       "id": "l512",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -296,13 +246,13 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -464,13 +414,13 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -506,13 +456,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -548,13 +498,13 @@
     },
     {
       "id": "l526",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -569,13 +519,13 @@
     },
     {
       "id": "l527",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k\u2026",
+      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A\u2026",
+          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A…",
           "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the ram for a motherboard upgrade or a cor\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the ram for a motherboard upgrade or a cor…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcmasterrace/comments/1vfe28b/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcgaming/comments/1vfe3ru/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -659,7 +609,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecas\u2026",
+          "title": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecas…",
           "url": "https://www.reddit.com/r/SEO/comments/1vxkjla/sam_altman_concedes_he_overestimated_ai/",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -680,7 +630,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI job disruption priced into man's compensation payout in first known case\n&#32\u2026",
+          "title": "AI job disruption priced into man's compensation payout in first known case\n&#32…",
           "url": "https://www.reddit.com/r/australia/comments/1vv43m6/ai_job_disruption_priced_into_mans_compensation/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -695,13 +645,13 @@
     },
     {
       "id": "l533",
-      "text": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let\u2019s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
+      "text": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let’s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market \u2026",
+          "title": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market …",
           "url": "https://www.reddit.com/r/Superstonk/comments/1vaxmve/for_my_dorito_loversyen_intervention_with_a/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c\u2026",
+      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public \u2026",
+          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public …",
           "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vnsz0y/jpmorgan_ceo_jamie_dimon_declares_ai_deployment/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]",
+      "text": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&\u2026",
+          "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&…",
           "url": "https://www.reddit.com/r/technology/comments/1vzb4xo/ai_agents_meant_to_replace_meta_workers_made/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -758,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "How are people buying homes and getting married in this age of AI disruption ?\nJob security across most white collar jobs has tanked and as AI gets integrated there will likely be a need for less people to do the same jobs. Yes if demand increases for tech (and other white collar services) then the same number of people can be employed but if that doesn&#39;t happen I see unemployment increasing over the next 5-7 years. In such an uncertain environment how are people trying to achieve big goals \u2026",
+      "text": "How are people buying homes and getting married in this age of AI disruption ?\nJob security across most white collar jobs has tanked and as AI gets integrated there will likely be a need for less people to do the same jobs. Yes if demand increases for tech (and other white collar services) then the same number of people can be employed but if that doesn&#39;t happen I see unemployment increasing over the next 5-7 years. In such an uncertain environment how are people trying to achieve big goals …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "How are people buying homes and getting married in this age of AI disruption ?\nJ\u2026",
+          "title": "How are people buying homes and getting married in this age of AI disruption ?\nJ…",
           "url": "https://www.reddit.com/r/cscareerquestions/comments/1vqe677/how_are_people_buying_homes_and_getting_married/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -779,14 +729,14 @@
     },
     {
       "id": "l537",
-      "text": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]",
+      "text": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks \u2026",
-          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_\u00e0_special/",
+          "title": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks …",
+          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_à_special/",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
         }
@@ -806,7 +756,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/aiecosystem/comments/1w00i5d/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "This is the day-to-day reality for Christians in the Holy Land\u2014hated, spat upon, tortured, and murdered by Zionists. https://t.co/eOf1u5hAOX",
+      "text": "This is the day-to-day reality for Christians in the Holy Land—hated, spat upon, tortured, and murdered by Zionists. https://t.co/eOf1u5hAOX",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This is the day-to-day reality for Christians in the Holy Land\u2014hated, spat upon,\u2026",
+          "title": "This is the day-to-day reality for Christians in the Holy Land—hated, spat upon,…",
           "url": "https://x.com/irlandarra2019/status/2093563479416340971",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -848,7 +798,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Been sitting in the @sleepagotchi Discord more than usual lately, mostly just to\u2026",
+          "title": "Been sitting in the @sleepagotchi Discord more than usual lately, mostly just to…",
           "url": "https://x.com/xxxpizzaboss/status/2093563942522212532",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -869,7 +819,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@parkersity_9 I dont understand this. That looks like a nice neighbourhood. Big \u2026",
+          "title": "@parkersity_9 I dont understand this. That looks like a nice neighbourhood. Big …",
           "url": "https://x.com/Magrai161/status/2093294850607071487",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -890,7 +840,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Magrai161 @_serfie @smoothiechewer I rather listen to podiatrists than random A\u2026",
+          "title": "@Magrai161 @_serfie @smoothiechewer I rather listen to podiatrists than random A…",
           "url": "https://x.com/greenapple937/status/2051986645243637820",
           "date": "2026-05-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "MEET THE ARTIST BEHIND THE WORK\n\nEvery artwork begins somewhere either with an idea, an experience, a feeling, or simply the urge to create.  For Clyde Baricuatro, or Klayd, art becomes a way of exploring personal perspectives and turning the everyday Filipino experience into something others can connect with. \n\nRooted in his Bisaya identity, his work explores day-to-day habits and nuance of Filipino culture. With a unique creative voice, Baricuatro brings his narrative to life with Inat\u00f2 Galler",
+      "text": "MEET THE ARTIST BEHIND THE WORK\n\nEvery artwork begins somewhere either with an idea, an experience, a feeling, or simply the urge to create.  For Clyde Baricuatro, or Klayd, art becomes a way of exploring personal perspectives and turning the everyday Filipino experience into something others can connect with. \n\nRooted in his Bisaya identity, his work explores day-to-day habits and nuance of Filipino culture. With a unique creative voice, Baricuatro brings his narrative to life with Inatò Galler",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "MEET THE ARTIST BEHIND THE WORK\n\nEvery artwork begins somewhere either with an i\u2026",
+          "title": "MEET THE ARTIST BEHIND THE WORK\n\nEvery artwork begins somewhere either with an i…",
           "url": "https://x.com/cebudailynews/status/2093565229158506875",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -932,7 +882,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Alex_Fairfax06 This narrative has to die. It makes us look retarded.\n\nIf you cl\u2026",
+          "title": "@Alex_Fairfax06 This narrative has to die. It makes us look retarded.\n\nIf you cl…",
           "url": "https://x.com/Magrai161/status/2093243745281966171",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -953,7 +903,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "This is so meaningful for me because I have all the bad habits and had just expe\u2026",
+          "title": "This is so meaningful for me because I have all the bad habits and had just expe…",
           "url": "https://x.com/fuyu_no_airi/status/2093567230093197345",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "@Magrai161 Will just pretend I\u2019ve not read this",
+      "text": "@Magrai161 Will just pretend I’ve not read this",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Magrai161 Will just pretend I\u2019ve not read this",
+          "title": "@Magrai161 Will just pretend I’ve not read this",
           "url": "https://x.com/Alex_Fairfax06/status/2093263493499654509",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "@_serfie @m0mimpregnant if you think it\u2019s up to the artist to handhold their fans through their art direction, then i genuinely hope you grow up a little soon! cheers! lol",
+      "text": "@_serfie @m0mimpregnant if you think it’s up to the artist to handhold their fans through their art direction, then i genuinely hope you grow up a little soon! cheers! lol",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@_serfie @m0mimpregnant if you think it\u2019s up to the artist to handhold their fan\u2026",
+          "title": "@_serfie @m0mimpregnant if you think it’s up to the artist to handhold their fan…",
           "url": "https://x.com/sweetsugarbuddy/status/2091346144068546599",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1010,13 +960,13 @@
     },
     {
       "id": "l548",
-      "text": "@JohnSmithvbp8 @JAESREVENGE You\u2019ve been watching him and keeping up with him since. You\u2019re up under every post about him daily. If he all these thing why the fuck are you keeping up with his day to day? Eat dick and stop with yall fake moral compass",
+      "text": "@JohnSmithvbp8 @JAESREVENGE You’ve been watching him and keeping up with him since. You’re up under every post about him daily. If he all these thing why the fuck are you keeping up with his day to day? Eat dick and stop with yall fake moral compass",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@JohnSmithvbp8 @JAESREVENGE You\u2019ve been watching him and keeping up with him sin\u2026",
+          "title": "@JohnSmithvbp8 @JAESREVENGE You’ve been watching him and keeping up with him sin…",
           "url": "https://x.com/S0NastyS0Rude/status/2093564459197313472",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1079,7 +1029,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Should put him behind the bars for foul play,cancelling the Election?..This is t\u2026",
+          "title": "Should put him behind the bars for foul play,cancelling the Election?..This is t…",
           "url": "https://x.com/SanjivaSailesh/status/2093563511381397514",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1100,7 +1050,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The real joke is this is all just a psyop orchestrated by the DNC to run a fire \u2026",
+          "title": "The real joke is this is all just a psyop orchestrated by the DNC to run a fire …",
           "url": "https://x.com/DARKLORDMADRUTH/status/2093561569363783919",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1121,7 +1071,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "vaguely. I have focus swings from day to day. it manifests in mood https://t.co/\u2026",
+          "title": "vaguely. I have focus swings from day to day. it manifests in mood https://t.co/…",
           "url": "https://x.com/ZanksZee/status/2093569250221043766",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1142,7 +1092,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@stacewrites_ I love writing on a plane. A lot easier to disconnect from the day\u2026",
+          "title": "@stacewrites_ I love writing on a plane. A lot easier to disconnect from the day…",
           "url": "https://x.com/stevemoth/status/2093568834787774559",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1163,7 +1113,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Cocoaaa64 \"but im just saying a woman would not wear that day to day\"\ni'm a wom\u2026",
+          "title": "@Cocoaaa64 \"but im just saying a woman would not wear that day to day\"\ni'm a wom…",
           "url": "https://x.com/snowmint0/status/2093568471787257910",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1184,7 +1134,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@LordOBI_SWC @BeldexCoin small UX improvements like this often make the biggest \u2026",
+          "title": "@LordOBI_SWC @BeldexCoin small UX improvements like this often make the biggest …",
           "url": "https://x.com/ibmcrypt_sol/status/2093567231846134153",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1226,7 +1176,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@stefisgirlnow @fakedansavage You are creating a link to have a reason to be mad\u2026",
+          "title": "@stefisgirlnow @fakedansavage You are creating a link to have a reason to be mad…",
           "url": "https://x.com/greenapple937/status/2093063634851111170",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1241,13 +1191,13 @@
     },
     {
       "id": "l559",
-      "text": "@Calmheadteacher @Magrai161 @georgeeaton @davidarcherNI @BBC @bbcc It is an indefensible gateway tax to watching live television. I am against that on principle. Don\u2019t like Pret  sandwiches, probably full of ultra processed ingredients to boot, so I don\u2019t buy them . But I have others to choose from ( sourdough best as often non ultra processed.)",
+      "text": "@Calmheadteacher @Magrai161 @georgeeaton @davidarcherNI @BBC @bbcc It is an indefensible gateway tax to watching live television. I am against that on principle. Don’t like Pret  sandwiches, probably full of ultra processed ingredients to boot, so I don’t buy them . But I have others to choose from ( sourdough best as often non ultra processed.)",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Calmheadteacher @Magrai161 @georgeeaton @davidarcherNI @BBC @bbcc It is an inde\u2026",
+          "title": "@Calmheadteacher @Magrai161 @georgeeaton @davidarcherNI @BBC @bbcc It is an inde…",
           "url": "https://x.com/Wiltsman6060842/status/2092741406901064112",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1262,13 +1212,13 @@
     },
     {
       "id": "l560",
-      "text": "@Calmheadteacher @Magrai161 @georgeeaton @davidarcherNI @BBC I don\u2019t watch or listen to the BBC any more ( or only very occasional news items or radio ) because of their tendency to tell people what to think . This a straightforward position .",
+      "text": "@Calmheadteacher @Magrai161 @georgeeaton @davidarcherNI @BBC I don’t watch or listen to the BBC any more ( or only very occasional news items or radio ) because of their tendency to tell people what to think . This a straightforward position .",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Calmheadteacher @Magrai161 @georgeeaton @davidarcherNI @BBC I don\u2019t watch or li\u2026",
+          "title": "@Calmheadteacher @Magrai161 @georgeeaton @davidarcherNI @BBC I don’t watch or li…",
           "url": "https://x.com/Wiltsman6060842/status/2092737863876063689",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1346,13 +1296,13 @@
     },
     {
       "id": "l564",
-      "text": "@Suplift Because ST healing sucks and it struggles hard in keys. \ud83e\udd37",
+      "text": "@Suplift Because ST healing sucks and it struggles hard in keys. 🤷",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Suplift Because ST healing sucks and it struggles hard in keys. \ud83e\udd37",
+          "title": "@Suplift Because ST healing sucks and it struggles hard in keys. 🤷",
           "url": "https://x.com/greenapple937/status/2093378948847522174",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1373,7 +1323,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@FelrynX MW was never this broken though? \nI didn't check every past raid meta, \u2026",
+          "title": "@FelrynX MW was never this broken though? \nI didn't check every past raid meta, …",
           "url": "https://x.com/greenapple937/status/2093366191242772548",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1457,7 +1407,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@_aur0x @Schillwing Aren't the first ones \"on top\" and the ones responsible for \u2026",
+          "title": "@_aur0x @Schillwing Aren't the first ones \"on top\" and the ones responsible for …",
           "url": "https://x.com/greenapple937/status/2093064726414577892",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1478,7 +1428,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@PriyamvadaGopal So then we can dissolve the Race Relations Act? After all race \u2026",
+          "title": "@PriyamvadaGopal So then we can dissolve the Race Relations Act? After all race …",
           "url": "https://x.com/Magrai161/status/2093401831967703247",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1499,7 +1449,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@kelsie_batten17 The \"well done\" is for the teachers who managed to make him for\u2026",
+          "title": "@kelsie_batten17 The \"well done\" is for the teachers who managed to make him for…",
           "url": "https://x.com/Magrai161/status/2093286610397794787",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1520,7 +1470,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@anon_opin As a handsome retard, I can confirm. Pretty much coasted through life\u2026",
+          "title": "@anon_opin As a handsome retard, I can confirm. Pretty much coasted through life…",
           "url": "https://x.com/Magrai161/status/2093245691468378312",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1541,7 +1491,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@JasonWright1912 @Telegraph That title belongs to Benjamin Netanyahu and its not\u2026",
+          "title": "@JasonWright1912 @Telegraph That title belongs to Benjamin Netanyahu and its not…",
           "url": "https://x.com/Magrai161/status/2093242105216860277",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1562,7 +1512,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@truckertim1980 @PhilipTaborek Because that where the ground is flat enough to b\u2026",
+          "title": "@truckertim1980 @PhilipTaborek Because that where the ground is flat enough to b…",
           "url": "https://x.com/Magrai161/status/2093236765964267643",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1604,7 +1554,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@stefisgirlnow @fakedansavage So this keeps being about bad and outdated positio\u2026",
+          "title": "@stefisgirlnow @fakedansavage So this keeps being about bad and outdated positio…",
           "url": "https://x.com/greenapple937/status/2093206486587502888",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1646,7 +1596,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@JaniseeAileen shes so tea but i need her to take the hand piercings OUT mama PL\u2026",
+          "title": "@JaniseeAileen shes so tea but i need her to take the hand piercings OUT mama PL…",
           "url": "https://x.com/_serfie/status/2092684632063902013",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1667,7 +1617,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@unholyflowers @_aur0x @Schillwing From what I remember, the first ones also out\u2026",
+          "title": "@unholyflowers @_aur0x @Schillwing From what I remember, the first ones also out…",
           "url": "https://x.com/greenapple937/status/2093089629733794027",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1688,7 +1638,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@justbesmer @nobccash @Mvqdh Mathematically, if you are able to clear all releva\u2026",
+          "title": "@justbesmer @nobccash @Mvqdh Mathematically, if you are able to clear all releva…",
           "url": "https://x.com/greenapple937/status/2093071337023492337",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1709,7 +1659,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@stefisgirlnow @fakedansavage Just because he enjoys it, doesn't mean it is the \u2026",
+          "title": "@stefisgirlnow @fakedansavage Just because he enjoys it, doesn't mean it is the …",
           "url": "https://x.com/greenapple937/status/2093063983477542940",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1724,13 +1674,13 @@
     },
     {
       "id": "l582",
-      "text": "@Calmheadteacher @Magrai161 @georgeeaton @davidarcherNI @BBC Gotta love compulsion eh?  It certainly isn\u2019t my BBC. I tend to prefer not to be told what to think .",
+      "text": "@Calmheadteacher @Magrai161 @georgeeaton @davidarcherNI @BBC Gotta love compulsion eh?  It certainly isn’t my BBC. I tend to prefer not to be told what to think .",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Calmheadteacher @Magrai161 @georgeeaton @davidarcherNI @BBC Gotta love compulsi\u2026",
+          "title": "@Calmheadteacher @Magrai161 @georgeeaton @davidarcherNI @BBC Gotta love compulsi…",
           "url": "https://x.com/Wiltsman6060842/status/2092734977066627419",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1751,7 +1701,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@greenapple937 @_aur0x @Schillwing The Shadowlands, idk but the First Ones are k\u2026",
+          "title": "@greenapple937 @_aur0x @Schillwing The Shadowlands, idk but the First Ones are k…",
           "url": "https://x.com/Choasi17/status/2093104966432964736",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1766,13 +1716,13 @@
     },
     {
       "id": "l584",
-      "text": "@greenapple937 @_aur0x @Schillwing no, i mean the titans being the ones who made the shadowlands. It\u2018s a theory since the shadowlands appear to be too \u201cordered\u201c for the realm of death.",
+      "text": "@greenapple937 @_aur0x @Schillwing no, i mean the titans being the ones who made the shadowlands. It‘s a theory since the shadowlands appear to be too “ordered“ for the realm of death.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@greenapple937 @_aur0x @Schillwing no, i mean the titans being the ones who made\u2026",
+          "title": "@greenapple937 @_aur0x @Schillwing no, i mean the titans being the ones who made…",
           "url": "https://x.com/unholyflowers/status/2093095166412243324",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1787,13 +1737,13 @@
     },
     {
       "id": "l585",
-      "text": "@greenapple937 @Schillwing Yeah true can\u2019t forgot that random Deus Ex Machina\u2026",
+      "text": "@greenapple937 @Schillwing Yeah true can’t forgot that random Deus Ex Machina…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@greenapple937 @Schillwing Yeah true can\u2019t forgot that random Deus Ex Machina\u2026",
+          "title": "@greenapple937 @Schillwing Yeah true can’t forgot that random Deus Ex Machina…",
           "url": "https://x.com/_aur0x/status/2093091994058854719",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1835,7 +1785,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@_serfie @m0mimpregnant accusing someone of glorifying the sexualization of mino\u2026",
+          "title": "@_serfie @m0mimpregnant accusing someone of glorifying the sexualization of mino…",
           "url": "https://x.com/sweetsugarbuddy/status/2091500266088489035",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1871,13 +1821,13 @@
     },
     {
       "id": "l589",
-      "text": "@_serfie top 500 trust \ud83e\udd1e\ud83c\udffb",
+      "text": "@_serfie top 500 trust 🤞🏻",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@_serfie top 500 trust \ud83e\udd1e\ud83c\udffb",
+          "title": "@_serfie top 500 trust 🤞🏻",
           "url": "https://x.com/bunniidollie/status/2092055260755886388",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1892,13 +1842,13 @@
     },
     {
       "id": "l590",
-      "text": "@_serfie @m0mimpregnant btw she\u2019s said she has never directly or purposefully referenced lolita (because this braindead outrage came up a year ago) and her juno reference is a cheeky way to say \u201cget me pregnant\u201d inferring the teenage aspect of a pop culture hit was the main takeaway is a massive reach.",
+      "text": "@_serfie @m0mimpregnant btw she’s said she has never directly or purposefully referenced lolita (because this braindead outrage came up a year ago) and her juno reference is a cheeky way to say “get me pregnant” inferring the teenage aspect of a pop culture hit was the main takeaway is a massive reach.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@_serfie @m0mimpregnant btw she\u2019s said she has never directly or purposefully re\u2026",
+          "title": "@_serfie @m0mimpregnant btw she’s said she has never directly or purposefully re…",
           "url": "https://x.com/sweetsugarbuddy/status/2091500924048925118",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1913,13 +1863,13 @@
     },
     {
       "id": "l591",
-      "text": "Top Comfortable Workboot Features Explained by a Podiatrist #ComfortableBoots #WorkwearEssentials\nDiscover the Ultimate Workboot Features According to a Podiatrist! \ud83d\udc62\ud83d\udc68\u200d\u2695\ufe0f Are your feet feeling the strain after a long day at work? Finding the right pair of workboots can make all the difference in your comfort and productivity. We've teamed up with a professional podiatrist to reveal what you should look for when choosing workboots that keep your feet happy and healthy. From superior arch support \u2026",
+      "text": "Top Comfortable Workboot Features Explained by a Podiatrist #ComfortableBoots #WorkwearEssentials\nDiscover the Ultimate Workboot Features According to a Podiatrist! 👢👨‍⚕️ Are your feet feeling the strain after a long day at work? Finding the right pair of workboots can make all the difference in your comfort and productivity. We've teamed up with a professional podiatrist to reveal what you should look for when choosing workboots that keep your feet happy and healthy. From superior arch support …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Top Comfortable Workboot Features Explained by a Podiatrist #ComfortableBoots #W\u2026",
+          "title": "Top Comfortable Workboot Features Explained by a Podiatrist #ComfortableBoots #W…",
           "url": "https://www.youtube.com/watch?v=QAM9elURDt0",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1934,13 +1884,13 @@
     },
     {
       "id": "l592",
-      "text": "FDA Patient-Focused Drug Development Meeting for Nonhealing Chronic Wounds\nOn August 25, 2026, FDA hosted a hybrid public meeting on Patient-Focused Drug Development for Nonhealing Chronic Wounds. This meeting provided FDA and other key stakeholders, including medical product developers, health care providers, and academic researchers, the opportunity to hear directly from patients, patient representatives, and care partners about their experiences with nonhealing chronic wounds, including how t\u2026",
+      "text": "FDA Patient-Focused Drug Development Meeting for Nonhealing Chronic Wounds\nOn August 25, 2026, FDA hosted a hybrid public meeting on Patient-Focused Drug Development for Nonhealing Chronic Wounds. This meeting provided FDA and other key stakeholders, including medical product developers, health care providers, and academic researchers, the opportunity to hear directly from patients, patient representatives, and care partners about their experiences with nonhealing chronic wounds, including how t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "FDA Patient-Focused Drug Development Meeting for Nonhealing Chronic Wounds\nOn Au\u2026",
+          "title": "FDA Patient-Focused Drug Development Meeting for Nonhealing Chronic Wounds\nOn Au…",
           "url": "https://www.youtube.com/watch?v=n6oboWBI_Ec",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1955,13 +1905,13 @@
     },
     {
       "id": "l593",
-      "text": "Boiling Your Heels to 'Fix' Them? A Podiatrist's Warning + Real Night-Out Tips\nA viral Instagram \"hack\" is telling women to boil their high heels in water to melt and mold the plastic around their toes for a \"custom fit.\" As a Sydney podiatrist, I had to jump in \u2014 this is a genuinely dangerous idea and I'm breaking down exactly why, plus what you should actually do if your high heels are hurting your feet.In this video I cover:\n\n\u2705 Why boiling high heels is a burn and material-breakdown risk\n\n\u2705 W\u2026",
+      "text": "Boiling Your Heels to 'Fix' Them? A Podiatrist's Warning + Real Night-Out Tips\nA viral Instagram \"hack\" is telling women to boil their high heels in water to melt and mold the plastic around their toes for a \"custom fit.\" As a Sydney podiatrist, I had to jump in — this is a genuinely dangerous idea and I'm breaking down exactly why, plus what you should actually do if your high heels are hurting your feet.In this video I cover:\n\n✅ Why boiling high heels is a burn and material-breakdown risk\n\n✅ W…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Boiling Your Heels to 'Fix' Them? A Podiatrist's Warning + Real Night-Out Tips\nA\u2026",
+          "title": "Boiling Your Heels to 'Fix' Them? A Podiatrist's Warning + Real Night-Out Tips\nA…",
           "url": "https://www.youtube.com/watch?v=cDlBIGiDshY",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1976,7 +1926,7 @@
     },
     {
       "id": "l494",
-      "text": "Podiatrist \u2014 Peninsula Foot Clinic (Mornington Peninsula, Victoria, Australia). Posted 3 days ago.",
+      "text": "Podiatrist — Peninsula Foot Clinic (Mornington Peninsula, Victoria, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1997,7 +1947,7 @@
     },
     {
       "id": "l495",
-      "text": "Podiatrist \u2014 The Foot Hub (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Podiatrist — The Foot Hub (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2018,7 +1968,7 @@
     },
     {
       "id": "l496",
-      "text": "Podiatrist \u2014 Mediix (Mandurah, Western Australia, Australia). Posted 2 weeks ago.",
+      "text": "Podiatrist — Mediix (Mandurah, Western Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2039,7 +1989,7 @@
     },
     {
       "id": "l497",
-      "text": "Podiatrist \u2014 Mediix (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
+      "text": "Podiatrist — Mediix (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2060,7 +2010,7 @@
     },
     {
       "id": "l498",
-      "text": "Podiatrist \u2014 Juniper Aged Care (St James, Western Australia, Australia). Posted 8 months ago.",
+      "text": "Podiatrist — Juniper Aged Care (St James, Western Australia, Australia). Posted 8 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2081,7 +2031,7 @@
     },
     {
       "id": "l499",
-      "text": "Podiatrist \u2014 Dan Everson Podiatry (Sunshine Coast, Queensland, Australia). Posted 1 month ago.",
+      "text": "Podiatrist — Dan Everson Podiatry (Sunshine Coast, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2102,7 +2052,7 @@
     },
     {
       "id": "l4100",
-      "text": "Podiatrist - Community \u2014 Juniper Aged Care (Innaloo, Western Australia, Australia). Posted 6 months ago.",
+      "text": "Podiatrist - Community — Juniper Aged Care (Innaloo, Western Australia, Australia). Posted 6 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2123,7 +2073,7 @@
     },
     {
       "id": "l4101",
-      "text": "Podiatrist \u2014 UnitingCare Queensland (Rockhampton, Queensland, Australia). Posted 2 days ago.",
+      "text": "Podiatrist — UnitingCare Queensland (Rockhampton, Queensland, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2144,7 +2094,7 @@
     },
     {
       "id": "l4102",
-      "text": "Experienced Podiatrist Position \u2014 Whittlesea Foot & Ankle Clinic (Whittlesea, Victoria, Australia). Posted 1 month ago.",
+      "text": "Experienced Podiatrist Position — Whittlesea Foot & Ankle Clinic (Whittlesea, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2165,13 +2115,13 @@
     },
     {
       "id": "l5103",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2186,13 +2136,13 @@
     },
     {
       "id": "l5104",
-      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k\u2026",
+      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A\u2026",
+          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A…",
           "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2207,13 +2157,13 @@
     },
     {
       "id": "l5105",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the ram for a motherboard upgrade or a cor\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the ram for a motherboard upgrade or a cor…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcmasterrace/comments/1vfe28b/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2228,13 +2178,13 @@
     },
     {
       "id": "l5106",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcgaming/comments/1vfe3ru/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2249,13 +2199,13 @@
     },
     {
       "id": "l5107",
-      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c\u2026",
+      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public \u2026",
+          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public …",
           "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vnsz0y/jpmorgan_ceo_jamie_dimon_declares_ai_deployment/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2270,13 +2220,13 @@
     },
     {
       "id": "l5108",
-      "text": "How are people buying homes and getting married in this age of AI disruption ?\nJob security across most white collar jobs has tanked and as AI gets integrated there will likely be a need for less people to do the same jobs. Yes if demand increases for tech (and other white collar services) then the same number of people can be employed but if that doesn&#39;t happen I see unemployment increasing over the next 5-7 years. In such an uncertain environment how are people trying to achieve big goals \u2026",
+      "text": "How are people buying homes and getting married in this age of AI disruption ?\nJob security across most white collar jobs has tanked and as AI gets integrated there will likely be a need for less people to do the same jobs. Yes if demand increases for tech (and other white collar services) then the same number of people can be employed but if that doesn&#39;t happen I see unemployment increasing over the next 5-7 years. In such an uncertain environment how are people trying to achieve big goals …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "How are people buying homes and getting married in this age of AI disruption ?\nJ\u2026",
+          "title": "How are people buying homes and getting married in this age of AI disruption ?\nJ…",
           "url": "https://www.reddit.com/r/cscareerquestions/comments/1vqe677/how_are_people_buying_homes_and_getting_married/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2291,13 +2241,13 @@
     },
     {
       "id": "l5109",
-      "text": "Top Comfortable Workboot Features Explained by a Podiatrist #ComfortableBoots #WorkwearEssentials\nDiscover the Ultimate Workboot Features According to a Podiatrist! \ud83d\udc62\ud83d\udc68\u200d\u2695\ufe0f Are your feet feeling the strain after a long day at work? Finding the right pair of workboots can make all the difference in your comfort and productivity. We've teamed up with a professional podiatrist to reveal what you should look for when choosing workboots that keep your feet happy and healthy. From superior arch support \u2026",
+      "text": "Top Comfortable Workboot Features Explained by a Podiatrist #ComfortableBoots #WorkwearEssentials\nDiscover the Ultimate Workboot Features According to a Podiatrist! 👢👨‍⚕️ Are your feet feeling the strain after a long day at work? Finding the right pair of workboots can make all the difference in your comfort and productivity. We've teamed up with a professional podiatrist to reveal what you should look for when choosing workboots that keep your feet happy and healthy. From superior arch support …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Top Comfortable Workboot Features Explained by a Podiatrist #ComfortableBoots #W\u2026",
+          "title": "Top Comfortable Workboot Features Explained by a Podiatrist #ComfortableBoots #W…",
           "url": "https://www.youtube.com/watch?v=QAM9elURDt0",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2312,13 +2262,13 @@
     },
     {
       "id": "l5110",
-      "text": "FDA Patient-Focused Drug Development Meeting for Nonhealing Chronic Wounds\nOn August 25, 2026, FDA hosted a hybrid public meeting on Patient-Focused Drug Development for Nonhealing Chronic Wounds. This meeting provided FDA and other key stakeholders, including medical product developers, health care providers, and academic researchers, the opportunity to hear directly from patients, patient representatives, and care partners about their experiences with nonhealing chronic wounds, including how t\u2026",
+      "text": "FDA Patient-Focused Drug Development Meeting for Nonhealing Chronic Wounds\nOn August 25, 2026, FDA hosted a hybrid public meeting on Patient-Focused Drug Development for Nonhealing Chronic Wounds. This meeting provided FDA and other key stakeholders, including medical product developers, health care providers, and academic researchers, the opportunity to hear directly from patients, patient representatives, and care partners about their experiences with nonhealing chronic wounds, including how t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "FDA Patient-Focused Drug Development Meeting for Nonhealing Chronic Wounds\nOn Au\u2026",
+          "title": "FDA Patient-Focused Drug Development Meeting for Nonhealing Chronic Wounds\nOn Au…",
           "url": "https://www.youtube.com/watch?v=n6oboWBI_Ec",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2333,13 +2283,13 @@
     },
     {
       "id": "l5111",
-      "text": "Boiling Your Heels to 'Fix' Them? A Podiatrist's Warning + Real Night-Out Tips\nA viral Instagram \"hack\" is telling women to boil their high heels in water to melt and mold the plastic around their toes for a \"custom fit.\" As a Sydney podiatrist, I had to jump in \u2014 this is a genuinely dangerous idea and I'm breaking down exactly why, plus what you should actually do if your high heels are hurting your feet.In this video I cover:\n\n\u2705 Why boiling high heels is a burn and material-breakdown risk\n\n\u2705 W\u2026",
+      "text": "Boiling Your Heels to 'Fix' Them? A Podiatrist's Warning + Real Night-Out Tips\nA viral Instagram \"hack\" is telling women to boil their high heels in water to melt and mold the plastic around their toes for a \"custom fit.\" As a Sydney podiatrist, I had to jump in — this is a genuinely dangerous idea and I'm breaking down exactly why, plus what you should actually do if your high heels are hurting your feet.In this video I cover:\n\n✅ Why boiling high heels is a burn and material-breakdown risk\n\n✅ W…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Boiling Your Heels to 'Fix' Them? A Podiatrist's Warning + Real Night-Out Tips\nA\u2026",
+          "title": "Boiling Your Heels to 'Fix' Them? A Podiatrist's Warning + Real Night-Out Tips\nA…",
           "url": "https://www.youtube.com/watch?v=cDlBIGiDshY",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2432,6 +2382,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

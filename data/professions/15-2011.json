@@ -21,58 +21,8 @@
   ],
   "claims": [
     {
-      "id": "15-2011-01",
-      "text": "National peak professional bodies and statutory regulators governing Actuaries enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Actuaries",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Actuaries",
-          "url": "https://www.psc.gov.au/standards/15-2011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Actuaries"
-        }
-      ],
-      "scope": "Australian practitioners in Actuaries across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "15-2011-02",
-      "text": "Automation of routine transactional and analytical tasks in Actuaries heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Actuaries",
-          "url": "https://www.jobsandskills.gov.au/research/15-2011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Actuaries in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Actuaries roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Actuarial Analyst \u2014 Zurich Australia (North Sydney, New South Wales, Australia). Posted 2 days ago.",
+      "text": "Actuarial Analyst — Zurich Australia (North Sydney, New South Wales, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -93,7 +43,7 @@
     },
     {
       "id": "l404",
-      "text": "Actuarial Analyst \u2014 Allianz Australia (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Actuarial Analyst — Allianz Australia (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -114,7 +64,7 @@
     },
     {
       "id": "l405",
-      "text": "Pricing Specialist \u2014 IAG (Sydney, New South Wales, Australia). Posted 6 days ago.",
+      "text": "Pricing Specialist — IAG (Sydney, New South Wales, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -135,7 +85,7 @@
     },
     {
       "id": "l406",
-      "text": "Pricing Specialist \u2014 IAG (Melbourne, Victoria, Australia). Posted 6 days ago.",
+      "text": "Pricing Specialist — IAG (Melbourne, Victoria, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -156,7 +106,7 @@
     },
     {
       "id": "l407",
-      "text": "Retirement Modelling Specialist \u2014 Colonial First State (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Retirement Modelling Specialist — Colonial First State (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -177,7 +127,7 @@
     },
     {
       "id": "l408",
-      "text": "Quantitative Analyst \u2014 Milliman Australia (Sydney, New South Wales, Australia). Posted 5 days ago.",
+      "text": "Quantitative Analyst — Milliman Australia (Sydney, New South Wales, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -198,7 +148,7 @@
     },
     {
       "id": "l409",
-      "text": "Actuarial Analyst \u2014 NEOS (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
+      "text": "Actuarial Analyst — NEOS (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -219,7 +169,7 @@
     },
     {
       "id": "l410",
-      "text": "Actuarial Manager - Research & Analytics \u2014 Zurich Australia (North Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Actuarial Manager - Research & Analytics — Zurich Australia (North Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -240,7 +190,7 @@
     },
     {
       "id": "l411",
-      "text": "Actuarial consultants \u2014 SKL Actuarial (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Actuarial consultants — SKL Actuarial (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -261,7 +211,7 @@
     },
     {
       "id": "l412",
-      "text": "Actuarial Senior Consultant \u2014 Deloitte (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Actuarial Senior Consultant — Deloitte (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -282,13 +232,13 @@
     },
     {
       "id": "l513",
-      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** \u2014 [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t\u2026",
+      "text": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first — **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n☑️ Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** — [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
+          "title": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open …",
           "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -492,13 +442,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -534,13 +484,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -702,13 +652,13 @@
     },
     {
       "id": "l533",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -744,13 +694,13 @@
     },
     {
       "id": "l535",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -786,13 +736,13 @@
     },
     {
       "id": "l537",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -807,13 +757,13 @@
     },
     {
       "id": "l538",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -828,13 +778,13 @@
     },
     {
       "id": "l539",
-      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k\u2026",
+      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A\u2026",
+          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A…",
           "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -849,13 +799,13 @@
     },
     {
       "id": "l540",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history\n&#32; submitted by &#32; /u/xuvayerpro101 &#32; to &#32; r/aiecosystem [link] &#32; [comments]\nWhy are we okay with this? Why are any of us okay with this? Hey Siri make me a picture of my cat riding a dolphin into the sunset. People out here still believin\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history\n&#32; submitted by &#32; /u/xuvayerpro101 &#32; to &#32; r/aiecosystem [link] &#32; [comments]\nWhy are we okay with this? Why are any of us okay with this? Hey Siri make me a picture of my cat riding a dolphin into the sunset. People out here still believin…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/aiecosystem/comments/1w00i5d/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -870,13 +820,13 @@
     },
     {
       "id": "l541",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/chillinewman &#32; to &#32; r/ControlProblem [link] &#32; [comments]\nTech billionaires: Why do people not like data centers? Also tech billionaires: Best case scenario you are all unemployed in a permanent underclass, worst case\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/chillinewman &#32; to &#32; r/ControlProblem [link] &#32; [comments]\nTech billionaires: Why do people not like data centers? Also tech billionaires: Best case scenario you are all unemployed in a permanent underclass, worst case…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/ControlProblem/comments/1vzy4do/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -891,14 +841,14 @@
     },
     {
       "id": "l542",
-      "text": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]\nHow so? Are you talking about LLM hype? Or what is the revolution part? That it's not real business model? (if you have time to spend che\u2026",
+      "text": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]\nHow so? Are you talking about LLM hype? Or what is the revolution part? That it's not real business model? (if you have time to spend che…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks \u2026",
-          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_\u00e0_special/",
+          "title": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks …",
+          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_à_special/",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
         }
@@ -912,13 +862,13 @@
     },
     {
       "id": "l543",
-      "text": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]",
+      "text": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&\u2026",
+          "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&…",
           "url": "https://www.reddit.com/r/technology/comments/1vzb4xo/ai_agents_meant_to_replace_meta_workers_made/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -939,7 +889,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecas\u2026",
+          "title": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecas…",
           "url": "https://www.reddit.com/r/SEO/comments/1vxkjla/sam_altman_concedes_he_overestimated_ai/",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -960,7 +910,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI job disruption priced into man's compensation payout in first known case\n&#32\u2026",
+          "title": "AI job disruption priced into man's compensation payout in first known case\n&#32…",
           "url": "https://www.reddit.com/r/australia/comments/1vv43m6/ai_job_disruption_priced_into_mans_compensation/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -981,7 +931,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32\u2026",
+          "title": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32…",
           "url": "https://www.reddit.com/r/technology/comments/1voms55/onlyfans_investor_says_ai_cant_disrupt_adult/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1002,7 +952,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcgaming/comments/1vfe3ru/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1017,13 +967,13 @@
     },
     {
       "id": "l548",
-      "text": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let\u2019s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
+      "text": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let’s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market \u2026",
+          "title": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market …",
           "url": "https://www.reddit.com/r/Superstonk/comments/1vaxmve/for_my_dorito_loversyen_intervention_with_a/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1038,13 +988,13 @@
     },
     {
       "id": "l549",
-      "text": "Hello everyone! \ud83c\udf1f \n\nToday, we introduce \u201cD&I Workshop: Shaping the Future of the Actuarial Profession Together\u201d on Sun, Nov 8 . \n\n\ud83d\udd39Workshop overview \nThe IAA D&I Task Force will host an interactive workshop featuring a panel discussion with international member associations and insights on AI and bias (ethical technology development and governance of actuarial models)\u2014covering themes that relate to actuaries\u2019 work and the future of the profession. \n\n Participants identify key challenges through",
+      "text": "Hello everyone! 🌟 \n\nToday, we introduce “D&I Workshop: Shaping the Future of the Actuarial Profession Together” on Sun, Nov 8 . \n\n🔹Workshop overview \nThe IAA D&I Task Force will host an interactive workshop featuring a panel discussion with international member associations and insights on AI and bias (ethical technology development and governance of actuarial models)—covering themes that relate to actuaries’ work and the future of the profession. \n\n Participants identify key challenges through",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Hello everyone! \ud83c\udf1f \n\nToday, we introduce \u201cD&I Workshop: Shaping the Future of the\u2026",
+          "title": "Hello everyone! 🌟 \n\nToday, we introduce “D&I Workshop: Shaping the Future of the…",
           "url": "https://x.com/ICA2026/status/2082647369368416683",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1065,7 +1015,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The $7 trillion global insurance industry has hit a complete wall, and the thing\u2026",
+          "title": "The $7 trillion global insurance industry has hit a complete wall, and the thing…",
           "url": "https://x.com/0xndra/status/2075386504462118999",
           "date": "2026-07-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1086,7 +1036,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The latest in AI developments by TheSequence: Stripe Wants to Own the Token Econ\u2026",
+          "title": "The latest in AI developments by TheSequence: Stripe Wants to Own the Token Econ…",
           "url": "https://x.com/jrdothoughts/status/2091844286899703880",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1107,7 +1057,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "You know who knows the climate crisis is real & deadly? The Insurance sector. Yo\u2026",
+          "title": "You know who knows the climate crisis is real & deadly? The Insurance sector. Yo…",
           "url": "https://x.com/pmagn/status/2090972674197745872",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1149,7 +1099,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@MUGGER2023 @EminaMelonic This is right. AI has been used for consumer credit an\u2026",
+          "title": "@MUGGER2023 @EminaMelonic This is right. AI has been used for consumer credit an…",
           "url": "https://x.com/MichaelMaiello/status/2092011679101882768",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1170,7 +1120,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I am proud to launch ReserveAI, a fully featured reserving platform for AI-drive\u2026",
+          "title": "I am proud to launch ReserveAI, a fully featured reserving platform for AI-drive…",
           "url": "https://x.com/RichmanRonald/status/2084545365974327341",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1191,7 +1141,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The Society of Actuaries (SOA) has officially expanded its educational curriculu\u2026",
+          "title": "The Society of Actuaries (SOA) has officially expanded its educational curriculu…",
           "url": "https://x.com/sudo1sc/status/2093212973854605633",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1212,7 +1162,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@princess_worms @ApriiSR Just like the \"actuaries properly pricing risk,\" safegu\u2026",
+          "title": "@princess_worms @ApriiSR Just like the \"actuaries properly pricing risk,\" safegu…",
           "url": "https://x.com/speedprior/status/2092916632876109959",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1233,7 +1183,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Down 6.25% today on a stock I'm up 44% on. Fine. I've had worse days doing less \u2026",
+          "title": "Down 6.25% today on a stock I'm up 44% on. Fine. I've had worse days doing less …",
           "url": "https://x.com/InvestorFreddy1/status/2079966315540865345",
           "date": "2026-07-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1254,7 +1204,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@TheTNHoller Dismal job prospects:\nWind turbine technicians\nSolar photovoltaic i\u2026",
+          "title": "@TheTNHoller Dismal job prospects:\nWind turbine technicians\nSolar photovoltaic i…",
           "url": "https://x.com/SueRomulus/status/2085833678983225724",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1275,7 +1225,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@carlyb_ Have her switch to Actuarial science. AI assists but actuaries can use \u2026",
+          "title": "@carlyb_ Have her switch to Actuarial science. AI assists but actuaries can use …",
           "url": "https://x.com/HumbardMichell8/status/2091573343279349988",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1290,13 +1240,13 @@
     },
     {
       "id": "l561",
-      "text": "I just published a new essay in The Sequence on a topic I am spending more and more time: https://t.co/elj7Ed76e2\n\nThe core thesis: AI has a sixth layer: finance.\n\nJensen Huang\u2019s five-layer cake describes the AI stack as:\n\nEnergy \u2192 Chips \u2192 Infrastructure \u2192 Models \u2192 Applications\n\nBut there is another layer underneath the entire system: capital.\n\nEvery token begins as an electron. But before that electron moves, someone has to finance the power plant, the data center, the networking, the GPUs, and",
+      "text": "I just published a new essay in The Sequence on a topic I am spending more and more time: https://t.co/elj7Ed76e2\n\nThe core thesis: AI has a sixth layer: finance.\n\nJensen Huang’s five-layer cake describes the AI stack as:\n\nEnergy → Chips → Infrastructure → Models → Applications\n\nBut there is another layer underneath the entire system: capital.\n\nEvery token begins as an electron. But before that electron moves, someone has to finance the power plant, the data center, the networking, the GPUs, and",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I just published a new essay in The Sequence on a topic I am spending more and m\u2026",
+          "title": "I just published a new essay in The Sequence on a topic I am spending more and m…",
           "url": "https://x.com/jrdothoughts/status/2092980335772361017",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1311,13 +1261,13 @@
     },
     {
       "id": "l562",
-      "text": "I just published a new essay for The Sequence on three AI developments from last week that, together, say something bigger about where the stack is heading: https://t.co/Gww6zgEGKy\n\nFirst, @deepseek_ai  new model pushes multimodal reasoning forward by making visual intelligence cheaper and more efficient. The interesting question is no longer just whether models can \u201csee,\u201d but how economically they can turn perception into useful reasoning.\n\nSecond, @GoogleAI  EnvHarness tackles a different bott",
+      "text": "I just published a new essay for The Sequence on three AI developments from last week that, together, say something bigger about where the stack is heading: https://t.co/Gww6zgEGKy\n\nFirst, @deepseek_ai  new model pushes multimodal reasoning forward by making visual intelligence cheaper and more efficient. The interesting question is no longer just whether models can “see,” but how economically they can turn perception into useful reasoning.\n\nSecond, @GoogleAI  EnvHarness tackles a different bott",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I just published a new essay for The Sequence on three AI developments from last\u2026",
+          "title": "I just published a new essay for The Sequence on three AI developments from last…",
           "url": "https://x.com/jrdothoughts/status/2092601775186489663",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1338,7 +1288,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Very excited to share @effectiveailabs' first industry research report. It shows\u2026",
+          "title": "Very excited to share @effectiveailabs' first industry research report. It shows…",
           "url": "https://x.com/knsn94/status/2082956812115136687",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1353,13 +1303,13 @@
     },
     {
       "id": "l564",
-      "text": "New York Yankees vs. Baltimore Orioles \u2014 MLB, August 20, 2026\n\nA DriftGuard Quantitative Field Test in Process of Elimination\n\nFIFTEEN INQUIRIES. ONE BASEBALL GAME. NO BET.\n\nTonight we put DriftGuard through one of the more revealing experiments we've done with it.And the ending wasn't a winning bet.There was no bet at all.That's what made the experiment interesting.This wasn't AI being asked to pick a baseball game. It was an unknown analytical system being exposed to a live, data-rich environm",
+      "text": "New York Yankees vs. Baltimore Orioles — MLB, August 20, 2026\n\nA DriftGuard Quantitative Field Test in Process of Elimination\n\nFIFTEEN INQUIRIES. ONE BASEBALL GAME. NO BET.\n\nTonight we put DriftGuard through one of the more revealing experiments we've done with it.And the ending wasn't a winning bet.There was no bet at all.That's what made the experiment interesting.This wasn't AI being asked to pick a baseball game. It was an unknown analytical system being exposed to a live, data-rich environm",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "New York Yankees vs. Baltimore Orioles \u2014 MLB, August 20, 2026\n\nA DriftGuard Quan\u2026",
+          "title": "New York Yankees vs. Baltimore Orioles — MLB, August 20, 2026\n\nA DriftGuard Quan…",
           "url": "https://x.com/BaronDupont/status/2090578842977030531",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1401,7 +1351,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Statement of Intent\n\nThis paper introduces DriftGuard, a framework for evaluatin\u2026",
+          "title": "Statement of Intent\n\nThis paper introduces DriftGuard, a framework for evaluatin…",
           "url": "https://x.com/BaronDupont/status/2082294596617302483",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1437,13 +1387,13 @@
     },
     {
       "id": "l568",
-      "text": "ZETA AI Review: How to Create Story Plots in Zeta AI (Step-by-Step Character & Plot Guide)\nHow to Build Custom Plots and Story Twists from Scratch in zeta AI - Chat, Story, Play\nStuck with predictable AI roleplays that keep looping the same responses? In this step-by-step tutorial, learn how to take total control of your Zeta AI experience, direct multi-character storylines, and engineer dramatic plot twists that keep your characters locked into the story arc.\n\nWe walk through prompt setups, sma\u2026",
+      "text": "ZETA AI Review: How to Create Story Plots in Zeta AI (Step-by-Step Character & Plot Guide)\nHow to Build Custom Plots and Story Twists from Scratch in zeta AI - Chat, Story, Play\nStuck with predictable AI roleplays that keep looping the same responses? In this step-by-step tutorial, learn how to take total control of your Zeta AI experience, direct multi-character storylines, and engineer dramatic plot twists that keep your characters locked into the story arc.\n\nWe walk through prompt setups, sma…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "ZETA AI Review: How to Create Story Plots in Zeta AI (Step-by-Step Character & P\u2026",
+          "title": "ZETA AI Review: How to Create Story Plots in Zeta AI (Step-by-Step Character & P…",
           "url": "https://www.youtube.com/watch?v=vwcJh4YvyTo",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1458,13 +1408,13 @@
     },
     {
       "id": "l569",
-      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - \u2026",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har\u2026",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har…",
           "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1479,13 +1429,13 @@
     },
     {
       "id": "l570",
-      "text": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: https://synthflow.ai/?via=intellagents\n\nIn this Synthflow AI review, I delve into building and testing six voice AI agents using the platform. We put Synthflow through its paces with seven rigorous tests, examining everything from voice clarity and interruption handling to human handoff and data extraction. Discover how Synthflow stacks up against other leading voice AI tools, and uncover a key \"dealbreaker\" that coul\u2026",
+      "text": "Synthflow AI Review: I Built 6 Voice AI Agents – is it worth it?\n⤵️ Synthflow: https://synthflow.ai/?via=intellagents\n\nIn this Synthflow AI review, I delve into building and testing six voice AI agents using the platform. We put Synthflow through its paces with seven rigorous tests, examining everything from voice clarity and interruption handling to human handoff and data extraction. Discover how Synthflow stacks up against other leading voice AI tools, and uncover a key \"dealbreaker\" that coul…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: h\u2026",
+          "title": "Synthflow AI Review: I Built 6 Voice AI Agents – is it worth it?\n⤵️ Synthflow: h…",
           "url": "https://www.youtube.com/watch?v=w6eUBmVwNMY",
           "date": "2026-03-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1500,13 +1450,13 @@
     },
     {
       "id": "l571",
-      "text": "Risk, Narrative, and the Future of AI: A Conversation with Mark Griffin\nFrom Actuary to Author: Risk, AI, and The Mortality Thief | Mark Griffin\n\nIn this conversation, Mark Griffin, former actuary and senior risk executive turned author, discusses the professional experiences and ideas that shaped his financial thriller The Mortality Thief.\n\nHosted by Federica Gazzelloni for the Rome R Users Group, the discussion explores how actuarial thinking, risk management, and emerging technologies interse\u2026",
+      "text": "Risk, Narrative, and the Future of AI: A Conversation with Mark Griffin\nFrom Actuary to Author: Risk, AI, and The Mortality Thief | Mark Griffin\n\nIn this conversation, Mark Griffin, former actuary and senior risk executive turned author, discusses the professional experiences and ideas that shaped his financial thriller The Mortality Thief.\n\nHosted by Federica Gazzelloni for the Rome R Users Group, the discussion explores how actuarial thinking, risk management, and emerging technologies interse…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Risk, Narrative, and the Future of AI: A Conversation with Mark Griffin\nFrom Act\u2026",
+          "title": "Risk, Narrative, and the Future of AI: A Conversation with Mark Griffin\nFrom Act…",
           "url": "https://www.youtube.com/watch?v=DP59p4WTfnQ",
           "date": "2026-03-12",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1585,6 +1535,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

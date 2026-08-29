@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "29-1161-01",
-      "text": "National peak professional bodies and statutory regulators governing Nurse Midwives enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Nurse Midwives",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Nurse Midwives",
-          "url": "https://www.psc.gov.au/standards/29-1161",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Nurse Midwives"
-        }
-      ],
-      "scope": "Australian practitioners in Nurse Midwives across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "29-1161-02",
-      "text": "Automation of routine transactional and analytical tasks in Nurse Midwives heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Nurse Midwives",
-          "url": "https://www.jobsandskills.gov.au/research/29-1161",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Nurse Midwives in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Nurse Midwives roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "Weekly monitor (2026-07-12) \u2014 review needed (2 PR(s))\n# Weekly source monitor \u2014 2026-07-12\n\n**5 source change(s), 35 relevant feed item(s), 0 error(s).**\n\n## Executive summary\n\n**Proposed edits:** none this run.\n\n**Source content changed (5):** `chai-assurance`, `ama-ai-principles`, `anthropic-trust`, `google-cloud-hipaa`, `anthropic-news-page`.\n**Rele",
+      "text": "Weekly monitor (2026-07-12) — review needed (2 PR(s))\n# Weekly source monitor — 2026-07-12\n\n**5 source change(s), 35 relevant feed item(s), 0 error(s).**\n\n## Executive summary\n\n**Proposed edits:** none this run.\n\n**Source content changed (5):** `chai-assurance`, `ama-ai-principles`, `anthropic-trust`, `google-cloud-hipaa`, `anthropic-news-page`.\n**Rele",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Weekly monitor (2026-07-12) \u2014 review needed (2 PR(s))\n# Weekly source monitor \u2014 \u2026",
+          "title": "Weekly monitor (2026-07-12) — review needed (2 PR(s))\n# Weekly source monitor — …",
           "url": "https://github.com/david-j-cox/ai-ethics-governance-and-guardrails/issues/70",
           "date": "2026-07-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -86,13 +36,13 @@
     },
     {
       "id": "l504",
-      "text": "Weekly monitor (2026-07-05) \u2014 review needed (2 PR(s))\n# Weekly source monitor \u2014 2026-07-05\n\n**2 source change(s), 32 relevant feed item(s), 2 error(s).**\n\n## Executive summary\n\n**Proposed edits:** none this run.\n\n**Needs your attention:**\n- fetch error \u2014 watch `bhcoe`: trafilatura returned no content\n- fetch error \u2014 watch `casp-ai-practice-parameters`:",
+      "text": "Weekly monitor (2026-07-05) — review needed (2 PR(s))\n# Weekly source monitor — 2026-07-05\n\n**2 source change(s), 32 relevant feed item(s), 2 error(s).**\n\n## Executive summary\n\n**Proposed edits:** none this run.\n\n**Needs your attention:**\n- fetch error — watch `bhcoe`: trafilatura returned no content\n- fetch error — watch `casp-ai-practice-parameters`:",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Weekly monitor (2026-07-05) \u2014 review needed (2 PR(s))\n# Weekly source monitor \u2014 \u2026",
+          "title": "Weekly monitor (2026-07-05) — review needed (2 PR(s))\n# Weekly source monitor — …",
           "url": "https://github.com/david-j-cox/ai-ethics-governance-and-guardrails/issues/67",
           "date": "2026-07-05",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -107,13 +57,13 @@
     },
     {
       "id": "l505",
-      "text": "[radar] FemTech Radar \u2013 2026-W27\n**Editor Note:**\n\nThis week, the FemTech landscape highlights renewed advocacy for women's health research funding, the importance of community-driven clinical trials, and the ongoing need for workplace accommodations. Advances in maternal health AI and open benchmarks are pushing the boundaries of",
+      "text": "[radar] FemTech Radar – 2026-W27\n**Editor Note:**\n\nThis week, the FemTech landscape highlights renewed advocacy for women's health research funding, the importance of community-driven clinical trials, and the ongoing need for workplace accommodations. Advances in maternal health AI and open benchmarks are pushing the boundaries of",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[radar] FemTech Radar \u2013 2026-W27\n**Editor Note:**\n\nThis week, the FemTech landsc\u2026",
+          "title": "[radar] FemTech Radar – 2026-W27\n**Editor Note:**\n\nThis week, the FemTech landsc…",
           "url": "https://github.com/ChanMeng666/femtech-radar/issues/18",
           "date": "2026-07-01",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -128,13 +78,13 @@
     },
     {
       "id": "l506",
-      "text": "[radar] FemTech Radar \u2013 2026-W27\n### Editor Note\n\nThis week, the FemTech landscape highlights regulatory shifts, expanded access, and new research tools. Industry news covers FDA headlines, access challenges, and community-driven health initiatives. Research advances include open benchmarks for maternal health AI and robust, on-dev",
+      "text": "[radar] FemTech Radar – 2026-W27\n### Editor Note\n\nThis week, the FemTech landscape highlights regulatory shifts, expanded access, and new research tools. Industry news covers FDA headlines, access challenges, and community-driven health initiatives. Research advances include open benchmarks for maternal health AI and robust, on-dev",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[radar] FemTech Radar \u2013 2026-W27\n### Editor Note\n\nThis week, the FemTech landsca\u2026",
+          "title": "[radar] FemTech Radar – 2026-W27\n### Editor Note\n\nThis week, the FemTech landsca…",
           "url": "https://github.com/ChanMeng666/femtech-radar/issues/5",
           "date": "2026-06-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -149,13 +99,13 @@
     },
     {
       "id": "l507",
-      "text": "[radar] FemTech Radar \u2013 2026-W27\n**Editor\u2019s Note:**\nThis week highlights the ongoing advocacy for women\u2019s health research funding, the importance of community clinical trials, and the emergence of new AI tools for maternal and neonatal care. Opportunities in women\u2019s health remain strong, though there were no notable public discussi",
+      "text": "[radar] FemTech Radar – 2026-W27\n**Editor’s Note:**\nThis week highlights the ongoing advocacy for women’s health research funding, the importance of community clinical trials, and the emergence of new AI tools for maternal and neonatal care. Opportunities in women’s health remain strong, though there were no notable public discussi",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[radar] FemTech Radar \u2013 2026-W27\n**Editor\u2019s Note:**\nThis week highlights the ong\u2026",
+          "title": "[radar] FemTech Radar – 2026-W27\n**Editor’s Note:**\nThis week highlights the ong…",
           "url": "https://github.com/ChanMeng666/femtech-radar/issues/15",
           "date": "2026-06-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -176,7 +126,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Web demo: Hugging Face Space for researcher self-serve access\n## Proposal\n\nStand\u2026",
+          "title": "Web demo: Hugging Face Space for researcher self-serve access\n## Proposal\n\nStand…",
           "url": "https://github.com/nmrenyi/mamai/issues/63",
           "date": "2026-06-03",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -197,7 +147,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Track GPU fallback on target devices\nWhen `use_gpu_for_llm: true` and a device d\u2026",
+          "title": "Track GPU fallback on target devices\nWhen `use_gpu_for_llm: true` and a device d…",
           "url": "https://github.com/nmrenyi/mamai/issues/51",
           "date": "2026-04-19",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -212,13 +162,13 @@
     },
     {
       "id": "l510",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -422,13 +372,13 @@
     },
     {
       "id": "l520",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -443,13 +393,13 @@
     },
     {
       "id": "l521",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -674,13 +624,13 @@
     },
     {
       "id": "l532",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -743,7 +693,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "What jobs are unlikely to be replaced by AI for at least the next 50 years?\n&#32\u2026",
+          "title": "What jobs are unlikely to be replaced by AI for at least the next 50 years?\n&#32…",
           "url": "https://www.reddit.com/r/AskReddit/comments/1vmf5ko/what_jobs_are_unlikely_to_be_replaced_by_ai_for/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -758,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "AI is coming for our livelihood\nI work as a doctor in one of the premier hospitals in Pakistan. We have quarterly benchmarks that need to be met. As our system is all EHR related, we have gazillions of data points. So in one of the areas we werent doing well so i wanted to find out some metrics. Our compliance department was just tracking one thing from a data set. So, having no knowledge in python or stats, I had claude custom tailor a python script, which measures like so many things, all kids\u2026",
+      "text": "AI is coming for our livelihood\nI work as a doctor in one of the premier hospitals in Pakistan. We have quarterly benchmarks that need to be met. As our system is all EHR related, we have gazillions of data points. So in one of the areas we werent doing well so i wanted to find out some metrics. Our compliance department was just tracking one thing from a data set. So, having no knowledge in python or stats, I had claude custom tailor a python script, which measures like so many things, all kids…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI is coming for our livelihood\nI work as a doctor in one of the premier hospita\u2026",
+          "title": "AI is coming for our livelihood\nI work as a doctor in one of the premier hospita…",
           "url": "https://www.reddit.com/r/PakistaniTech/comments/1vv4y96/ai_is_coming_for_our_livelihood/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif\u2026",
+      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Traini\u2026",
+          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Traini…",
           "url": "https://www.reddit.com/r/ClinicalLegalField/comments/1vkdimx/thinking_about_becoming_a_legal_nurse_consultant/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "What\u2019s a job you think AI will never replace and why?\n&#32; submitted by &#32; /u/Inevitablebabe &#32; to &#32; r/askteddit [link] &#32; [comments]",
+      "text": "What’s a job you think AI will never replace and why?\n&#32; submitted by &#32; /u/Inevitablebabe &#32; to &#32; r/askteddit [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "What\u2019s a job you think AI will never replace and why?\n&#32; submitted by &#32; /\u2026",
+          "title": "What’s a job you think AI will never replace and why?\n&#32; submitted by &#32; /…",
           "url": "https://www.reddit.com/r/askteddit/comments/1vprqaj/whats_a_job_you_think_ai_will_never_replace_and/",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "Have nursing students or other students in college majors aiming at \"AI Proof\" jobs seen this video? Your future salary may depend on AI-built algorithms to reduce your paychecks.\nI don&#39;t mean to alarm people but forewarned is forearmed. Join unions or only work for organizations that have a contract-mandated pay scale, where everyone at the same license-level is paid the same wage per hour. And if you&#39;re already on these apps, don&#39;t bid lower just to get the shift. That&#39;s a race\u2026",
+      "text": "Have nursing students or other students in college majors aiming at \"AI Proof\" jobs seen this video? Your future salary may depend on AI-built algorithms to reduce your paychecks.\nI don&#39;t mean to alarm people but forewarned is forearmed. Join unions or only work for organizations that have a contract-mandated pay scale, where everyone at the same license-level is paid the same wage per hour. And if you&#39;re already on these apps, don&#39;t bid lower just to get the shift. That&#39;s a race…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Have nursing students or other students in college majors aiming at \"AI Proof\" j\u2026",
+          "title": "Have nursing students or other students in college majors aiming at \"AI Proof\" j…",
           "url": "https://www.reddit.com/r/WGU/comments/1vvlriy/have_nursing_students_or_other_students_in/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -863,13 +813,13 @@
     },
     {
       "id": "l541",
-      "text": "I\u2019M HIRING AI UGC AFFILIATES\n\none of my AI affiliate creators made $10K in profit month 1 \n\n - no human creator \n- no wasting samples \n- no lost time\n - no crazy health claims \n\nInstead: \n\n- Making videos below $3 per video \n- Making six figures on this one account alone\n - Helping the brand reach over $2m in lifetime sales relatively passively\n\nIf you are a UGC AI affiliate creator and you want to get trained and paid to do this \n\nI am hiring AI UGC affiliates at 150%-220% commission\n\nif you ha",
+      "text": "I’M HIRING AI UGC AFFILIATES\n\none of my AI affiliate creators made $10K in profit month 1 \n\n - no human creator \n- no wasting samples \n- no lost time\n - no crazy health claims \n\nInstead: \n\n- Making videos below $3 per video \n- Making six figures on this one account alone\n - Helping the brand reach over $2m in lifetime sales relatively passively\n\nIf you are a UGC AI affiliate creator and you want to get trained and paid to do this \n\nI am hiring AI UGC affiliates at 150%-220% commission\n\nif you ha",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I\u2019M HIRING AI UGC AFFILIATES\n\none of my AI affiliate creators made $10K in profi\u2026",
+          "title": "I’M HIRING AI UGC AFFILIATES\n\none of my AI affiliate creators made $10K in profi…",
           "url": "https://x.com/maverickecom/status/2093389576257581438",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -884,13 +834,13 @@
     },
     {
       "id": "l542",
-      "text": "GPT Image 2.0 + Seedance = a full public interview Reel, 100% AI.\n\nTwo AI people. A street interview about hair growth. Every cut, every mic pass, exactly as drawn in the storyboard.\n\nAI video still can't handle two characters interacting.\n\nMics teleport between hands, faces swap mid-cut, the crowd behind them resets every shot.\n\nFor an interview format, that's instant death. The whole format IS the interaction.\n\nSo I stopped prompting and started storyboarding:\n\n\u2192 Claude choreographs a timecode",
+      "text": "GPT Image 2.0 + Seedance = a full public interview Reel, 100% AI.\n\nTwo AI people. A street interview about hair growth. Every cut, every mic pass, exactly as drawn in the storyboard.\n\nAI video still can't handle two characters interacting.\n\nMics teleport between hands, faces swap mid-cut, the crowd behind them resets every shot.\n\nFor an interview format, that's instant death. The whole format IS the interaction.\n\nSo I stopped prompting and started storyboarding:\n\n→ Claude choreographs a timecode",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "GPT Image 2.0 + Seedance = a full public interview Reel, 100% AI.\n\nTwo AI people\u2026",
+          "title": "GPT Image 2.0 + Seedance = a full public interview Reel, 100% AI.\n\nTwo AI people…",
           "url": "https://x.com/maverickecom/status/2093388358940541281",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "The $1m ai Amazon overview\n\nIt\u2019s like tiktok shop, but on STEROIDS https://t.co/0j9GkrC35V",
+      "text": "The $1m ai Amazon overview\n\nIt’s like tiktok shop, but on STEROIDS https://t.co/0j9GkrC35V",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The $1m ai Amazon overview\n\nIt\u2019s like tiktok shop, but on STEROIDS https://t.co/\u2026",
+          "title": "The $1m ai Amazon overview\n\nIt’s like tiktok shop, but on STEROIDS https://t.co/…",
           "url": "https://x.com/maverickecom/status/2093431129428709688",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -926,13 +876,13 @@
     },
     {
       "id": "l544",
-      "text": "Claude + Arcads = ai viral content factory \n\nFully-realistic UGC ads \u2014 cinematic lighting, human motion, perfect pacing \u2014 all done by AI agents.\n\nProduction time: 10 minutes \nScale: instant\n\nOne AI engine that creates, tests, and scales short-form ads automatically \u2014 nonstop.\n\nIt\u2019s live. Campaigns are scaling now.\n\nI am hiring AI UGC affiliates at 150%-220% commission\n\nif you have past experience making over $10,000 per month for brands \n\nI can match you with a brand offering 150%+ commissions,",
+      "text": "Claude + Arcads = ai viral content factory \n\nFully-realistic UGC ads — cinematic lighting, human motion, perfect pacing — all done by AI agents.\n\nProduction time: 10 minutes \nScale: instant\n\nOne AI engine that creates, tests, and scales short-form ads automatically — nonstop.\n\nIt’s live. Campaigns are scaling now.\n\nI am hiring AI UGC affiliates at 150%-220% commission\n\nif you have past experience making over $10,000 per month for brands \n\nI can match you with a brand offering 150%+ commissions,",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Claude + Arcads = ai viral content factory \n\nFully-realistic UGC ads \u2014 cinematic\u2026",
+          "title": "Claude + Arcads = ai viral content factory \n\nFully-realistic UGC ads — cinematic…",
           "url": "https://x.com/maverickecom/status/2093390625714417798",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "Twin \ud83d\ude18 \nYour able Nurse Midwives.\n#AlwaysAtYourCervix \u270c\ud83c\udffb https://t.co/HP5zhawbdz",
+      "text": "Twin 😘 \nYour able Nurse Midwives.\n#AlwaysAtYourCervix ✌🏻 https://t.co/HP5zhawbdz",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Twin \ud83d\ude18 \nYour able Nurse Midwives.\n#AlwaysAtYourCervix \u270c\ud83c\udffb https://t.co/HP5zhawbdz",
+          "title": "Twin 😘 \nYour able Nurse Midwives.\n#AlwaysAtYourCervix ✌🏻 https://t.co/HP5zhawbdz",
           "url": "https://x.com/Diana97197052/status/2085646566392471767",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1016,7 +966,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I made a four-minute Homer film with AI in eight days. The hardest part was know\u2026",
+          "title": "I made a four-minute Homer film with AI in eight days. The hardest part was know…",
           "url": "https://x.com/loulou_/status/2092471909740868040",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1031,13 +981,13 @@
     },
     {
       "id": "l549",
-      "text": "A courageous nurse from the Frontier Nursing Service (FNS) in Kentucky, who traveled on horseback to provide healthcare to remote communities. Founded by Mary Breckinridge in the 1920s, the FNS introduced nurse-midwives to the United States. The nurses often traveled through challenging terrain to reach families in Eastern Kentucky... \n\nMary Breckinridge was born into a world where almost every door was already open to her. Wealth, social status, international travel\u2014she could have spent her lif",
+      "text": "A courageous nurse from the Frontier Nursing Service (FNS) in Kentucky, who traveled on horseback to provide healthcare to remote communities. Founded by Mary Breckinridge in the 1920s, the FNS introduced nurse-midwives to the United States. The nurses often traveled through challenging terrain to reach families in Eastern Kentucky... \n\nMary Breckinridge was born into a world where almost every door was already open to her. Wealth, social status, international travel—she could have spent her lif",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A courageous nurse from the Frontier Nursing Service (FNS) in Kentucky, who trav\u2026",
+          "title": "A courageous nurse from the Frontier Nursing Service (FNS) in Kentucky, who trav…",
           "url": "https://x.com/archeohistories/status/2077803929107304808",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1079,7 +1029,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Satya Nadella says NHS England is rolling out Microsoft 365 Copilot to more than\u2026",
+          "title": "Satya Nadella says NHS England is rolling out Microsoft 365 Copilot to more than…",
           "url": "https://x.com/martinvars/status/2063702587229003799",
           "date": "2026-06-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1100,7 +1050,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "We have a case challenging Nebraska's ban on certified nurse midwives attending \u2026",
+          "title": "We have a case challenging Nebraska's ban on certified nurse midwives attending …",
           "url": "https://x.com/Anastasia_esq/status/2088324160439419128",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1115,13 +1065,13 @@
     },
     {
       "id": "l553",
-      "text": "San Antonio Zoo and Methodist Healthcare are celebrating a special new arrival! Finni and Tobai, our resident Matschie\u2019s tree kangaroos, have welcomed a new joey, and this month the little one has been spotted poking its head out of Finni\u2019s pouch more and more as it continues to grow. The arrival is especially meaningful for this Endangered species, with fewer than 2,500 adults estimated to remain in the wild.\n\nTo celebrate Finni\u2019s new joey, San Antonio Zoo and Methodist Healthcare are highlight",
+      "text": "San Antonio Zoo and Methodist Healthcare are celebrating a special new arrival! Finni and Tobai, our resident Matschie’s tree kangaroos, have welcomed a new joey, and this month the little one has been spotted poking its head out of Finni’s pouch more and more as it continues to grow. The arrival is especially meaningful for this Endangered species, with fewer than 2,500 adults estimated to remain in the wild.\n\nTo celebrate Finni’s new joey, San Antonio Zoo and Methodist Healthcare are highlight",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "San Antonio Zoo and Methodist Healthcare are celebrating a special new arrival! \u2026",
+          "title": "San Antonio Zoo and Methodist Healthcare are celebrating a special new arrival! …",
           "url": "https://x.com/SanAntonioZoo/status/2092595718682788163",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1142,7 +1092,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "This piece from @ShaunLintern is horrifying -unbelievably non-nurse midwives som\u2026",
+          "title": "This piece from @ShaunLintern is horrifying -unbelievably non-nurse midwives som…",
           "url": "https://x.com/MrsNickyClark/status/2071140857533587853",
           "date": "2026-06-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1163,7 +1113,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "UP : Lakhimpur Kheri steps up healthcare preparedness for pregnant women in floo\u2026",
+          "title": "UP : Lakhimpur Kheri steps up healthcare preparedness for pregnant women in floo…",
           "url": "https://x.com/NewsArenaIndia/status/2091419425073512805",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1184,7 +1134,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": ".@UOPacific is launching a graduate program in #midwifery to address significant\u2026",
+          "title": ".@UOPacific is launching a graduate program in #midwifery to address significant…",
           "url": "https://x.com/PacificPres/status/2092246130948296717",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1199,13 +1149,13 @@
     },
     {
       "id": "l557",
-      "text": "#Karnataka, #Tamil Nadu and #Kerala have emerged as #India's nursing hubs, accounting for the country's largest pool of registered #nurses and #midwives, while Kerala continues to lead in nurses migrating overseas. However, the number of nurses leaving Kerala for #overseas jobs has #declined sharply over the past three years\u2014from 9,980 in 2023 to 6,393 in 2025, according to data tabled in #Parliament. State-wise figures released by the Union health ministry show Karnataka has the highest number",
+      "text": "#Karnataka, #Tamil Nadu and #Kerala have emerged as #India's nursing hubs, accounting for the country's largest pool of registered #nurses and #midwives, while Kerala continues to lead in nurses migrating overseas. However, the number of nurses leaving Kerala for #overseas jobs has #declined sharply over the past three years—from 9,980 in 2023 to 6,393 in 2025, according to data tabled in #Parliament. State-wise figures released by the Union health ministry show Karnataka has the highest number",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "#Karnataka, #Tamil Nadu and #Kerala have emerged as #India's nursing hubs, accou\u2026",
+          "title": "#Karnataka, #Tamil Nadu and #Kerala have emerged as #India's nursing hubs, accou…",
           "url": "https://x.com/AnujaJaiswalTOI/status/2080114464247124331",
           "date": "2026-07-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1226,7 +1176,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The Arizona State Board of Nursing has temporarily barred two nurse midwives fro\u2026",
+          "title": "The Arizona State Board of Nursing has temporarily barred two nurse midwives fro…",
           "url": "https://x.com/abc15/status/2087048870521938315",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1241,13 +1191,13 @@
     },
     {
       "id": "l559",
-      "text": "Overview of My Orientation last week, CTECH PORT-HARCOURT. \n\nA week ago, if you had asked me\nwhat excited me most about this opportunity, I would've said the \u20a6100,000 monthly stipend.\n\nToday, I honestly think that's the least interesting part.\nI spent the last week in an AI-native engineering orientation, and somewhere between conversations on ethics, discipline, consistency, engineering thinking, problem-solving and Python, my perspective quietly changed.\n\nThe first thing they taught us wasn't",
+      "text": "Overview of My Orientation last week, CTECH PORT-HARCOURT. \n\nA week ago, if you had asked me\nwhat excited me most about this opportunity, I would've said the ₦100,000 monthly stipend.\n\nToday, I honestly think that's the least interesting part.\nI spent the last week in an AI-native engineering orientation, and somewhere between conversations on ethics, discipline, consistency, engineering thinking, problem-solving and Python, my perspective quietly changed.\n\nThe first thing they taught us wasn't",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Overview of My Orientation last week, CTECH PORT-HARCOURT. \n\nA week ago, if you \u2026",
+          "title": "Overview of My Orientation last week, CTECH PORT-HARCOURT. \n\nA week ago, if you …",
           "url": "https://x.com/Pre_Morningstar/status/2076412218543931403",
           "date": "2026-07-12",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1262,13 +1212,13 @@
     },
     {
       "id": "l560",
-      "text": "@Here_s_Hoping I wouldn\u2019t either (because of my medical history), but I think a lot of nurse midwives and birth centers are affiliated with hospitals these days??",
+      "text": "@Here_s_Hoping I wouldn’t either (because of my medical history), but I think a lot of nurse midwives and birth centers are affiliated with hospitals these days??",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Here_s_Hoping I wouldn\u2019t either (because of my medical history), but I think a \u2026",
+          "title": "@Here_s_Hoping I wouldn’t either (because of my medical history), but I think a …",
           "url": "https://x.com/beclundwll/status/2092054821041999952",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1304,13 +1254,13 @@
     },
     {
       "id": "l562",
-      "text": "@TXtater95 The whole country has a lot of work to do. Thankfully there are good examples of the midwifery model of care, but many states don\u2019t license non nurse midwives. They could be jailed for practicing. It\u2019s reminiscent of the Flexner Report and the Sheppard-Towner Act.",
+      "text": "@TXtater95 The whole country has a lot of work to do. Thankfully there are good examples of the midwifery model of care, but many states don’t license non nurse midwives. They could be jailed for practicing. It’s reminiscent of the Flexner Report and the Sheppard-Towner Act.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@TXtater95 The whole country has a lot of work to do. Thankfully there are good \u2026",
+          "title": "@TXtater95 The whole country has a lot of work to do. Thankfully there are good …",
           "url": "https://x.com/BasedZillenial/status/2092456155515642045",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1325,13 +1275,13 @@
     },
     {
       "id": "l563",
-      "text": "Goodmorning to Nurse Midwives \ud83c\udf1a\ud83d\ude0c https://t.co/tXyUGBQkRr",
+      "text": "Goodmorning to Nurse Midwives 🌚😌 https://t.co/tXyUGBQkRr",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Goodmorning to Nurse Midwives \ud83c\udf1a\ud83d\ude0c https://t.co/tXyUGBQkRr",
+          "title": "Goodmorning to Nurse Midwives 🌚😌 https://t.co/tXyUGBQkRr",
           "url": "https://x.com/the_real_ebby/status/2075829806965391536",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1367,13 +1317,13 @@
     },
     {
       "id": "l565",
-      "text": "Registered Nurse Salary Breakdown + AI Threat Assessment\nMedian RN pay is $86,070 and the top 10% clear $132,680+, but travel spikes and specialties change the game.\nWill AI replace nurses or finally kill the paperwork load? The answer may surprise you.\n\nWhat you will learn:\n- \u2705 Real RN pay: national median, top 10%, and hourly rates from BLS\n- \u2705 Top-paying states vs. lowest, and how big the geography gap really is\n- \u2705 Entry-level offers for new grads and how differentials stack up nights/weeken\u2026",
+      "text": "Registered Nurse Salary Breakdown + AI Threat Assessment\nMedian RN pay is $86,070 and the top 10% clear $132,680+, but travel spikes and specialties change the game.\nWill AI replace nurses or finally kill the paperwork load? The answer may surprise you.\n\nWhat you will learn:\n- ✅ Real RN pay: national median, top 10%, and hourly rates from BLS\n- ✅ Top-paying states vs. lowest, and how big the geography gap really is\n- ✅ Entry-level offers for new grads and how differentials stack up nights/weeken…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Registered Nurse Salary Breakdown + AI Threat Assessment\nMedian RN pay is $86,07\u2026",
+          "title": "Registered Nurse Salary Breakdown + AI Threat Assessment\nMedian RN pay is $86,07…",
           "url": "https://www.youtube.com/watch?v=t1q_FNOubTw",
           "date": "2026-06-08",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1388,7 +1338,7 @@
     },
     {
       "id": "l466",
-      "text": "Registered Midwife (Incentives Offered) \u2014 Murrumbidgee Local Health District (MLHD) (Wagga Wagga, New South Wales, Australia). Posted 2 days ago.",
+      "text": "Registered Midwife (Incentives Offered) — Murrumbidgee Local Health District (MLHD) (Wagga Wagga, New South Wales, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1409,7 +1359,7 @@
     },
     {
       "id": "l467",
-      "text": "Registered Midwife (Caseload) \u2014 Central Queensland Hospital and Health Service (Gladstone, Queensland, Australia). Posted 1 week ago.",
+      "text": "Registered Midwife (Caseload) — Central Queensland Hospital and Health Service (Gladstone, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1430,7 +1380,7 @@
     },
     {
       "id": "l468",
-      "text": "Registered Midwife - Queanbeyan Hospital \u2014 Southern NSW Local Health District (Queanbeyan, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Registered Midwife - Queanbeyan Hospital — Southern NSW Local Health District (Queanbeyan, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1451,7 +1401,7 @@
     },
     {
       "id": "l469",
-      "text": "Registered Midwife \u2014 Central Queensland Hospital and Health Service (Rockhampton, Queensland, Australia). Posted 8 hours ago.",
+      "text": "Registered Midwife — Central Queensland Hospital and Health Service (Rockhampton, Queensland, Australia). Posted 8 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1472,7 +1422,7 @@
     },
     {
       "id": "l470",
-      "text": "Registered Midwife Maternity \u2014 Northern Sydney Local Health District (St Leonards, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Registered Midwife Maternity — Northern Sydney Local Health District (St Leonards, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1493,7 +1443,7 @@
     },
     {
       "id": "l471",
-      "text": "Registered Midwife Maternity Inpatients \u2014 Northern Sydney Local Health District (Hornsby, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Registered Midwife Maternity Inpatients — Northern Sydney Local Health District (Hornsby, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1514,7 +1464,7 @@
     },
     {
       "id": "l472",
-      "text": "Registered Midwife - Antenatal Ward - 5 East 1 \u2014 Sydney Local Health District (Sydney, New South Wales, Australia). Posted 1 day ago.",
+      "text": "Registered Midwife - Antenatal Ward - 5 East 1 — Sydney Local Health District (Sydney, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1535,7 +1485,7 @@
     },
     {
       "id": "l473",
-      "text": "Registered Midwife - Aboriginal Midwifery Group Practice (MGP) (Identified Position) \u2014 Sydney Local Health District (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Registered Midwife - Aboriginal Midwifery Group Practice (MGP) (Identified Position) — Sydney Local Health District (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1556,7 +1506,7 @@
     },
     {
       "id": "l474",
-      "text": "Clinical Midwife - Maternity Unit \u2014 North West Hospital and Health Service (Mount Isa, Queensland, Australia). Posted 1 week ago.",
+      "text": "Clinical Midwife - Maternity Unit — North West Hospital and Health Service (Mount Isa, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1577,7 +1527,7 @@
     },
     {
       "id": "l475",
-      "text": "Registered Midwife (Incentives Offered) \u2014 Murrumbidgee Local Health District (MLHD) (Cootamundra, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Registered Midwife (Incentives Offered) — Murrumbidgee Local Health District (MLHD) (Cootamundra, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1598,13 +1548,13 @@
     },
     {
       "id": "l576",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1619,13 +1569,13 @@
     },
     {
       "id": "l577",
-      "text": "AI is coming for our livelihood\nI work as a doctor in one of the premier hospitals in Pakistan. We have quarterly benchmarks that need to be met. As our system is all EHR related, we have gazillions of data points. So in one of the areas we werent doing well so i wanted to find out some metrics. Our compliance department was just tracking one thing from a data set. So, having no knowledge in python or stats, I had claude custom tailor a python script, which measures like so many things, all kids\u2026",
+      "text": "AI is coming for our livelihood\nI work as a doctor in one of the premier hospitals in Pakistan. We have quarterly benchmarks that need to be met. As our system is all EHR related, we have gazillions of data points. So in one of the areas we werent doing well so i wanted to find out some metrics. Our compliance department was just tracking one thing from a data set. So, having no knowledge in python or stats, I had claude custom tailor a python script, which measures like so many things, all kids…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI is coming for our livelihood\nI work as a doctor in one of the premier hospita\u2026",
+          "title": "AI is coming for our livelihood\nI work as a doctor in one of the premier hospita…",
           "url": "https://www.reddit.com/r/PakistaniTech/comments/1vv4y96/ai_is_coming_for_our_livelihood/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1640,13 +1590,13 @@
     },
     {
       "id": "l578",
-      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif\u2026",
+      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Traini\u2026",
+          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Traini…",
           "url": "https://www.reddit.com/r/ClinicalLegalField/comments/1vkdimx/thinking_about_becoming_a_legal_nurse_consultant/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1661,13 +1611,13 @@
     },
     {
       "id": "l579",
-      "text": "Have nursing students or other students in college majors aiming at \"AI Proof\" jobs seen this video? Your future salary may depend on AI-built algorithms to reduce your paychecks.\nI don&#39;t mean to alarm people but forewarned is forearmed. Join unions or only work for organizations that have a contract-mandated pay scale, where everyone at the same license-level is paid the same wage per hour. And if you&#39;re already on these apps, don&#39;t bid lower just to get the shift. That&#39;s a race\u2026",
+      "text": "Have nursing students or other students in college majors aiming at \"AI Proof\" jobs seen this video? Your future salary may depend on AI-built algorithms to reduce your paychecks.\nI don&#39;t mean to alarm people but forewarned is forearmed. Join unions or only work for organizations that have a contract-mandated pay scale, where everyone at the same license-level is paid the same wage per hour. And if you&#39;re already on these apps, don&#39;t bid lower just to get the shift. That&#39;s a race…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Have nursing students or other students in college majors aiming at \"AI Proof\" j\u2026",
+          "title": "Have nursing students or other students in college majors aiming at \"AI Proof\" j…",
           "url": "https://www.reddit.com/r/WGU/comments/1vvlriy/have_nursing_students_or_other_students_in/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1682,13 +1632,13 @@
     },
     {
       "id": "l580",
-      "text": "Registered Nurse Salary Breakdown + AI Threat Assessment\nMedian RN pay is $86,070 and the top 10% clear $132,680+, but travel spikes and specialties change the game.\nWill AI replace nurses or finally kill the paperwork load? The answer may surprise you.\n\nWhat you will learn:\n- \u2705 Real RN pay: national median, top 10%, and hourly rates from BLS\n- \u2705 Top-paying states vs. lowest, and how big the geography gap really is\n- \u2705 Entry-level offers for new grads and how differentials stack up nights/weeken\u2026",
+      "text": "Registered Nurse Salary Breakdown + AI Threat Assessment\nMedian RN pay is $86,070 and the top 10% clear $132,680+, but travel spikes and specialties change the game.\nWill AI replace nurses or finally kill the paperwork load? The answer may surprise you.\n\nWhat you will learn:\n- ✅ Real RN pay: national median, top 10%, and hourly rates from BLS\n- ✅ Top-paying states vs. lowest, and how big the geography gap really is\n- ✅ Entry-level offers for new grads and how differentials stack up nights/weeken…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Registered Nurse Salary Breakdown + AI Threat Assessment\nMedian RN pay is $86,07\u2026",
+          "title": "Registered Nurse Salary Breakdown + AI Threat Assessment\nMedian RN pay is $86,07…",
           "url": "https://www.youtube.com/watch?v=t1q_FNOubTw",
           "date": "2026-06-08",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1781,6 +1731,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

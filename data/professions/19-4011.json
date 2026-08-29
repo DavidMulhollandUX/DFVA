@@ -17,64 +17,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "19-4011-01",
-      "text": "National peak professional bodies and statutory regulators governing Agricultural and Food Science Technicians enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Agricultural and Food Science Technicians",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Agricultural and Food Science Technicians",
-          "url": "https://www.psc.gov.au/standards/19-4011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Agricultural and Food Science Technicians"
-        }
-      ],
-      "scope": "Australian practitioners in Agricultural and Food Science Technicians across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "19-4011-02",
-      "text": "Automation of routine transactional and analytical tasks in Agricultural and Food Science Technicians heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Agricultural and Food Science Technicians",
-          "url": "https://www.jobsandskills.gov.au/research/19-4011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Agricultural and Food Science Technicians in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Agricultural and Food Science Technicians roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical thriller. Can you expand on this.\n\n\n\n\n# THE LAST PHYSICIAN\n\nIn the year 2115, humanity has achieved what previous generations believed impossible.\n\nDisease has been conquered. Cancer, dementia, heart failure, sepsis, and countless other k\nAbsolutely\u2014this has the bones of a very strong near-future thriller. The concept already feels cinematic, high-stakes, and thematically rich. What it needs is a bit more structure \u2026",
+      "text": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical thriller. Can you expand on this.\n\n\n\n\n# THE LAST PHYSICIAN\n\nIn the year 2115, humanity has achieved what previous generations believed impossible.\n\nDisease has been conquered. Cancer, dementia, heart failure, sepsis, and countless other k\nAbsolutely—this has the bones of a very strong near-future thriller. The concept already feels cinematic, high-stakes, and thematically rich. What it needs is a bit more structure …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical\u2026",
+          "title": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical…",
           "url": "https://github.com/badbeaver88/game/issues/19",
           "date": "2026-06-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -257,13 +207,13 @@
     },
     {
       "id": "l512",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -278,13 +228,13 @@
     },
     {
       "id": "l513",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -446,13 +396,13 @@
     },
     {
       "id": "l521",
-      "text": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+      "text": "Show HN: Videopython – local-first video processing, editing and AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+          "title": "Show HN: Videopython – local-first video processing, editing and AI workflows",
           "url": "https://github.com/bartwojtowicz/videopython",
           "date": "2026-06-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -488,13 +438,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -530,13 +480,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -572,13 +522,13 @@
     },
     {
       "id": "l527",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -593,13 +543,13 @@
     },
     {
       "id": "l528",
-      "text": "As a UF Student and NVIDIA Intern, I\u2019m Using Agricultural AI to Help Transform Global Food Production\n&#32; submitted by &#32; /u/EarthEmail &#32; to &#32; r/EnvironmentalNews [link] &#32; [comments]",
+      "text": "As a UF Student and NVIDIA Intern, I’m Using Agricultural AI to Help Transform Global Food Production\n&#32; submitted by &#32; /u/EarthEmail &#32; to &#32; r/EnvironmentalNews [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "As a UF Student and NVIDIA Intern, I\u2019m Using Agricultural AI to Help Transform G\u2026",
+          "title": "As a UF Student and NVIDIA Intern, I’m Using Agricultural AI to Help Transform G…",
           "url": "https://www.reddit.com/r/EnvironmentalNews/comments/1vttu94/as_a_uf_student_and_nvidia_intern_im_using/",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -614,13 +564,13 @@
     },
     {
       "id": "l529",
-      "text": "Can anyone tell me the scope of Bsc in sericulture/community science/ food nutrition and dietetics under Assam Agricultural University? Also what are the job propsects in the respective fields and higher studies?\nAlso if anyone is from aau or overall know anything about aau fields can anyone help? &#32; submitted by &#32; /u/TheLimitlessVOID2 &#32; to &#32; r/assam [link] &#32; [comments]\nPlease hohai koribo parile \ud83d\ude4f",
+      "text": "Can anyone tell me the scope of Bsc in sericulture/community science/ food nutrition and dietetics under Assam Agricultural University? Also what are the job propsects in the respective fields and higher studies?\nAlso if anyone is from aau or overall know anything about aau fields can anyone help? &#32; submitted by &#32; /u/TheLimitlessVOID2 &#32; to &#32; r/assam [link] &#32; [comments]\nPlease hohai koribo parile 🙏",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Can anyone tell me the scope of Bsc in sericulture/community science/ food nutri\u2026",
+          "title": "Can anyone tell me the scope of Bsc in sericulture/community science/ food nutri…",
           "url": "https://www.reddit.com/r/assam/comments/1vh8ca4/can_anyone_tell_me_the_scope_of_bsc_in/",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -641,7 +591,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI in Agricultural and Life Sciences URGENT QUESTION\nhas anyone taken this class\u2026",
+          "title": "AI in Agricultural and Life Sciences URGENT QUESTION\nhas anyone taken this class…",
           "url": "https://www.reddit.com/r/ufl/comments/1vzg7br/ai_in_agricultural_and_life_sciences_urgent/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -704,7 +654,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Over the past few days, during the ongoing Assembly session, both #TVKVijay and \u2026",
+          "title": "Over the past few days, during the ongoing Assembly session, both #TVKVijay and …",
           "url": "https://x.com/chnmharish/status/2093345046246592976",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -719,13 +669,13 @@
     },
     {
       "id": "l534",
-      "text": "Every video emerging from Nepal is somehow even scarier than the last. A peaceful valley under a bright, completely normal sky \u2014 then a wall of water, mud and ice just erases everything in its path.\n\nThis is exactly why we urgently need purpose-built AI models for the Himalayas: ones that continuously fuse satellite imagery, InSAR, seismic signals, glacier thickness, permafrost thaw and river gauges to detect collapse precursors and give communities even 20\u201340 minutes of warning. These events ar",
+      "text": "Every video emerging from Nepal is somehow even scarier than the last. A peaceful valley under a bright, completely normal sky — then a wall of water, mud and ice just erases everything in its path.\n\nThis is exactly why we urgently need purpose-built AI models for the Himalayas: ones that continuously fuse satellite imagery, InSAR, seismic signals, glacier thickness, permafrost thaw and river gauges to detect collapse precursors and give communities even 20–40 minutes of warning. These events ar",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Every video emerging from Nepal is somehow even scarier than the last. A peacefu\u2026",
+          "title": "Every video emerging from Nepal is somehow even scarier than the last. A peacefu…",
           "url": "https://x.com/nithinpalal/status/2093374571173056730",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -740,13 +690,13 @@
     },
     {
       "id": "l535",
-      "text": "Philosophy sets the destination. Enforcement is the road, the budget, and the people who actually have to drive it.\n\nUAE treated AI ethics as infrastructure, not a conference talking point. Egypt is still fighting over the basics of R&D funding. That\u2019s not a philosophy problem. That\u2019s a capacity and priority problem.\n\nPanels are cheap. Building the institutions that can actually say no to an algorithm is expensive.",
+      "text": "Philosophy sets the destination. Enforcement is the road, the budget, and the people who actually have to drive it.\n\nUAE treated AI ethics as infrastructure, not a conference talking point. Egypt is still fighting over the basics of R&D funding. That’s not a philosophy problem. That’s a capacity and priority problem.\n\nPanels are cheap. Building the institutions that can actually say no to an algorithm is expensive.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Philosophy sets the destination. Enforcement is the road, the budget, and the pe\u2026",
+          "title": "Philosophy sets the destination. Enforcement is the road, the budget, and the pe…",
           "url": "https://x.com/nithinpalal/status/2092899545399324997",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -767,7 +717,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@nithinpalal Philosophy's easy. Enforcement is hard. UAE tied AI ethics to actua\u2026",
+          "title": "@nithinpalal Philosophy's easy. Enforcement is hard. UAE tied AI ethics to actua…",
           "url": "https://x.com/Rami_Bball_Fan/status/2092897992416149875",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -782,13 +732,13 @@
     },
     {
       "id": "l537",
-      "text": "Not Dolly! \ud83d\ude2d",
+      "text": "Not Dolly! 😭",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Not Dolly! \ud83d\ude2d",
+          "title": "Not Dolly! 😭",
           "url": "https://x.com/theashrb/status/2093011578664718628",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -803,13 +753,13 @@
     },
     {
       "id": "l538",
-      "text": "ICYMI O/N\n\nMACRO:\n\nAsian tech stocks slumped, as investors used Samsung Electronics Co.\u2019s results to lock in profits on a stellar year-to-date chip rally, rotating into unloved sectors less prone to earnings shocks. (WSJ)\n\nWalmart is cutting prices on thousands of items to help customers with affordability after years of inflation.\u00a0The effort drew praise from President Trump, who hailed it in a social-media post as \u201ca huge deal.\u201d (WSJ)\n\n'AI Giants Are Handing Out Tons of Free Computing Power to",
+      "text": "ICYMI O/N\n\nMACRO:\n\nAsian tech stocks slumped, as investors used Samsung Electronics Co.’s results to lock in profits on a stellar year-to-date chip rally, rotating into unloved sectors less prone to earnings shocks. (WSJ)\n\nWalmart is cutting prices on thousands of items to help customers with affordability after years of inflation. The effort drew praise from President Trump, who hailed it in a social-media post as “a huge deal.” (WSJ)\n\n'AI Giants Are Handing Out Tons of Free Computing Power to",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "ICYMI O/N\n\nMACRO:\n\nAsian tech stocks slumped, as investors used Samsung Electron\u2026",
+          "title": "ICYMI O/N\n\nMACRO:\n\nAsian tech stocks slumped, as investors used Samsung Electron…",
           "url": "https://x.com/ZackEiseman/status/2074417696746184723",
           "date": "2026-07-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -830,7 +780,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The Cockroach Janta Party is gearing up for its next course of action by raising\u2026",
+          "title": "The Cockroach Janta Party is gearing up for its next course of action by raising…",
           "url": "https://x.com/chnmharish/status/2093372039444984160",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -866,13 +816,13 @@
     },
     {
       "id": "l541",
-      "text": "@nithinpalal @anilkantony @BJP4India @NitinNabin @narendramodi @mansukhmandviya @rajnathsingh @smritiirani @Stanford @StanfordAILab I\u2019m trying my best and they leave no choice with decisions being made so superficial that instead of strengthening end up exposing intelligence that is artificial and thereby consequences we will have to bear if not addressed immediately",
+      "text": "@nithinpalal @anilkantony @BJP4India @NitinNabin @narendramodi @mansukhmandviya @rajnathsingh @smritiirani @Stanford @StanfordAILab I’m trying my best and they leave no choice with decisions being made so superficial that instead of strengthening end up exposing intelligence that is artificial and thereby consequences we will have to bear if not addressed immediately",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@nithinpalal @anilkantony @BJP4India @NitinNabin @narendramodi @mansukhmandviya \u2026",
+          "title": "@nithinpalal @anilkantony @BJP4India @NitinNabin @narendramodi @mansukhmandviya …",
           "url": "https://x.com/mbajaj20/status/2091760055599374755",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -887,13 +837,13 @@
     },
     {
       "id": "l542",
-      "text": "I just had THE best Pastei de Nata in Madrid omds\u2026 that was truly an out of body experience.",
+      "text": "I just had THE best Pastei de Nata in Madrid omds… that was truly an out of body experience.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I just had THE best Pastei de Nata in Madrid omds\u2026 that was truly an out of body\u2026",
+          "title": "I just had THE best Pastei de Nata in Madrid omds… that was truly an out of body…",
           "url": "https://x.com/theashrb/status/2093300688126202054",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -908,13 +858,13 @@
     },
     {
       "id": "l543",
-      "text": "Freedom is not the right to flatten every space into one. It is the intelligence to know which room you have entered.\n\nA beach has a grammar. An office has another. Eid, in this video, has one so non-negotiable that the question itself is treated as a threat. Hindu festivals and temples, meanwhile, are expected to absorb every experiment, every neckline, every branding exercise \u2014 and then apologise for having a memory.\n\nSanatana never said the body is sin. It said every space has dharma. What is",
+      "text": "Freedom is not the right to flatten every space into one. It is the intelligence to know which room you have entered.\n\nA beach has a grammar. An office has another. Eid, in this video, has one so non-negotiable that the question itself is treated as a threat. Hindu festivals and temples, meanwhile, are expected to absorb every experiment, every neckline, every branding exercise — and then apologise for having a memory.\n\nSanatana never said the body is sin. It said every space has dharma. What is",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Freedom is not the right to flatten every space into one. It is the intelligence\u2026",
+          "title": "Freedom is not the right to flatten every space into one. It is the intelligence…",
           "url": "https://x.com/nithinpalal/status/2093370433634787475",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -929,13 +879,13 @@
     },
     {
       "id": "l544",
-      "text": "Washing down a calorific meal with (pretty much) even more calories than you just ate \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d",
+      "text": "Washing down a calorific meal with (pretty much) even more calories than you just ate 😭😭😭",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Washing down a calorific meal with (pretty much) even more calories than you jus\u2026",
+          "title": "Washing down a calorific meal with (pretty much) even more calories than you jus…",
           "url": "https://x.com/theashrb/status/2093453693748187446",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -950,13 +900,13 @@
     },
     {
       "id": "l545",
-      "text": "Alcohol, stress, backed up digestive systems, the list goes on \ud83d\ude02",
+      "text": "Alcohol, stress, backed up digestive systems, the list goes on 😂",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Alcohol, stress, backed up digestive systems, the list goes on \ud83d\ude02",
+          "title": "Alcohol, stress, backed up digestive systems, the list goes on 😂",
           "url": "https://x.com/theashrb/status/2093460755156709718",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -992,13 +942,13 @@
     },
     {
       "id": "l547",
-      "text": "Remembering the Dalit leader of modern Keralam, Mahatma Ayyankali on his 163rd birth anniversary \u2764\ufe0f #Ayyankali #Dalits https://t.co/P8ElTZG3Nz",
+      "text": "Remembering the Dalit leader of modern Keralam, Mahatma Ayyankali on his 163rd birth anniversary ❤️ #Ayyankali #Dalits https://t.co/P8ElTZG3Nz",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Remembering the Dalit leader of modern Keralam, Mahatma Ayyankali on his 163rd b\u2026",
+          "title": "Remembering the Dalit leader of modern Keralam, Mahatma Ayyankali on his 163rd b…",
           "url": "https://x.com/chnmharish/status/2093217772797116807",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1019,7 +969,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@RmvBalaji It's there. The color has changed slightly because some work was done\u2026",
+          "title": "@RmvBalaji It's there. The color has changed slightly because some work was done…",
           "url": "https://x.com/chnmharish/status/2093085523745423751",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1040,7 +990,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "That's a good article by @YashaviniE. #Uvakai has stated that Tamil Nadu can pur\u2026",
+          "title": "That's a good article by @YashaviniE. #Uvakai has stated that Tamil Nadu can pur…",
           "url": "https://x.com/chnmharish/status/2093409353869230567",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1061,7 +1011,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The Discipline of Power: Economics, Resilience, Optionality, and the Civilisatio\u2026",
+          "title": "The Discipline of Power: Economics, Resilience, Optionality, and the Civilisatio…",
           "url": "https://x.com/nithinpalal/status/2088144717708136625",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1082,7 +1032,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The argument treats intelligence as an unlimited good whose only constraint is e\u2026",
+          "title": "The argument treats intelligence as an unlimited good whose only constraint is e…",
           "url": "https://x.com/nithinpalal/status/2093005138151809358",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1118,13 +1068,13 @@
     },
     {
       "id": "l553",
-      "text": "\ud83d\ude0d\ud83d\ude0d\ud83d\ude0d\ud83d\ude0d",
+      "text": "😍😍😍😍",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\ude0d\ud83d\ude0d\ud83d\ude0d\ud83d\ude0d",
+          "title": "😍😍😍😍",
           "url": "https://x.com/theashrb/status/2093148203948408895",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1145,7 +1095,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@chnmharish Shows how inclined and biased you've changed nowadays \n1. EPS\n2. EV \u2026",
+          "title": "@chnmharish Shows how inclined and biased you've changed nowadays \n1. EPS\n2. EV …",
           "url": "https://x.com/draju_tarun/status/2093395204128821361",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1187,7 +1137,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@nithinpalal @RahulGandhi With 2 terms of BJP and third in progress should you n\u2026",
+          "title": "@nithinpalal @RahulGandhi With 2 terms of BJP and third in progress should you n…",
           "url": "https://x.com/Bsrikschennai/status/2090428173381189729",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1223,13 +1173,13 @@
     },
     {
       "id": "l558",
-      "text": "@rravik \u0b8e\u0ba9\u0bcd\u0ba9\u0bc1\u0b9f\u0bc8\u0baf \u0b8e\u0ba4\u0bbf\u0bb0\u0bcd\u0baa\u0bcd\u0baa\u0bc1 \u0b8e\u0b9f\u0baa\u0bcd\u0baa\u0bbe\u0b9f\u0bbf\u0baf\u0bbe\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b8e\u0ba4\u0bbf\u0bb0\u0bbe\u0ba9\u0ba4\u0bc1 \u0b87\u0bb2\u0bcd\u0bb2\u0bc8, \u0b85\u0bb5\u0bb0\u0ba4\u0bc1 \u0b85\u0bae\u0bc8\u0ba4\u0bbf\u0b95\u0bcd\u0b95\u0bc1 \u0b8e\u0ba4\u0bbf\u0bb0\u0bbe\u0ba9\u0ba4\u0bc1. \u0b8e\u0ba4\u0bbf\u0bb0\u0bcd\u0baa\u0bcd\u0baa\u0bc1 \u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1\u0bae\u0bcd \u0baf\u0bbe\u0bb0\u0bc1\u0bae\u0bcd, \u0b9f\u0bbe\u0baa\u0bcd 5\u0bb2\u0bcd \u0b8e\u0ba4\u0bbf\u0bb0\u0bcd\u0baa\u0bcd\u0baa\u0bb5\u0bb0\u0bc8 \u0b95\u0bca\u0ba3\u0bcd\u0b9f\u0bc1\u0bb5\u0ba8\u0bcd\u0ba4\u0bc1 \u0ba8\u0bbf\u0bb1\u0bc1\u0ba4\u0bcd\u0ba4\u0bae\u0bbe\u0b9f\u0bcd\u0b9f\u0bbe\u0bb0\u0bcd\u0b95\u0bb3\u0bcd.",
+      "text": "@rravik என்னுடைய எதிர்ப்பு எடப்பாடியாருக்கு எதிரானது இல்லை, அவரது அமைதிக்கு எதிரானது. எதிர்ப்பு காட்டும் யாரும், டாப் 5ல் எதிர்ப்பவரை கொண்டுவந்து நிறுத்தமாட்டார்கள்.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@rravik \u0b8e\u0ba9\u0bcd\u0ba9\u0bc1\u0b9f\u0bc8\u0baf \u0b8e\u0ba4\u0bbf\u0bb0\u0bcd\u0baa\u0bcd\u0baa\u0bc1 \u0b8e\u0b9f\u0baa\u0bcd\u0baa\u0bbe\u0b9f\u0bbf\u0baf\u0bbe\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b8e\u0ba4\u0bbf\u0bb0\u0bbe\u0ba9\u0ba4\u0bc1 \u0b87\u0bb2\u0bcd\u0bb2\u0bc8, \u0b85\u0bb5\u0bb0\u0ba4\u0bc1 \u0b85\u0bae\u0bc8\u0ba4\u0bbf\u0b95\u0bcd\u0b95\u0bc1 \u0b8e\u0ba4\u0bbf\u0bb0\u2026",
+          "title": "@rravik என்னுடைய எதிர்ப்பு எடப்பாடியாருக்கு எதிரானது இல்லை, அவரது அமைதிக்கு எதிர…",
           "url": "https://x.com/chnmharish/status/2093349194119757841",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1244,13 +1194,13 @@
     },
     {
       "id": "l559",
-      "text": "@i_mika_el This is the part most people skip. Values that live only in the founder\u2019s head or the early team\u2019s Slack disappear the moment those people leave or get outvoted. The system has to make the shortcut expensive even when no one who originally cared is still in the room.",
+      "text": "@i_mika_el This is the part most people skip. Values that live only in the founder’s head or the early team’s Slack disappear the moment those people leave or get outvoted. The system has to make the shortcut expensive even when no one who originally cared is still in the room.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@i_mika_el This is the part most people skip. Values that live only in the found\u2026",
+          "title": "@i_mika_el This is the part most people skip. Values that live only in the found…",
           "url": "https://x.com/nithinpalal/status/2092900041078059142",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1265,13 +1215,13 @@
     },
     {
       "id": "l560",
-      "text": "@SundaramMa16369 \u0baa\u0bc2\u0ba3\u0bc2\u0bb2\u0bc8 \u0b85\u0ba3\u0bbf\u0baf\u0bc1\u0bae\u0bcd \u0baa\u0bcb\u0ba4\u0bc1, \u0b85\u0ba4\u0ba9\u0bcd \u0baa\u0bbf\u0bb0\u0bae\u0bcd\u0bae \u0bae\u0bc1\u0b9f\u0bbf\u0b9a\u0bcd\u0b9a\u0bc1 \u0bae\u0bc7\u0bb2\u0bcd\u0ba8\u0bcb\u0b95\u0bcd\u0b95\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bbe\u0bb1\u0bc1 \u0bb5\u0bb2\u0ba4\u0bc1 \u0b95\u0bc8\u0baf\u0bbf\u0bb2\u0bcd \u0baa\u0bbf\u0b9f\u0bbf\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0ba3\u0bcd\u0b9f\u0bc1, \u0b85\u0ba4\u0ba9\u0bcd \u0b95\u0bc0\u0bb4\u0bcd\u0baa\u0bcd\u0baa\u0b95\u0bc1\u0ba4\u0bbf\u0baf\u0bc8 \u0b87\u0b9f\u0ba4\u0bc1 \u0b95\u0bc8\u0baf\u0bbf\u0bb2\u0bcd, \u0baa\u0b9e\u0bcd\u0b9a\u0baa\u0bbe\u0ba4\u0bcd\u0ba4\u0bbf\u0bb0\u0ba4\u0bcd\u0ba4\u0bbf\u0ba9\u0bcd \u0bae\u0bc0\u0ba4\u0bc1 \u0bb5\u0bc8\u0ba4\u0bcd\u0ba4\u0bc1 \u0baa\u0bbf\u0b9f\u0bbf\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bca\u0ba3\u0bcd\u0b9f\u0bc1, \u0baf\u0b95\u0bcd\u0b9e\u0bcb\u0baa\u0bb5\u0bc0\u0ba4\u0bae\u0bcd \u0baa\u0bb0\u0bae\u0bae\u0bcd \u0baa\u0bb5\u0bbf\u0ba4\u0bcd\u0bb0\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0b95\u0bbf\u0bb1 \u0bae\u0ba8\u0bcd\u0ba4\u0bbf\u0bb0\u0ba4\u0bcd\u0ba4\u0bc8 \u0b89\u0b9a\u0bcd\u0b9a\u0bb0\u0bbf\u0ba4\u0bcd\u0ba4\u0baa\u0b9f\u0bbf, \u0b87\u0b9f\u0ba4\u0bc1 \u0ba4\u0bcb\u0bb3\u0bcd \u0bb5\u0bb4\u0bbf\u0baf\u0bbe\u0b95 \u0baa\u0bc2\u0ba3\u0bc2\u0bb2\u0bc8 \u0b85\u0ba3\u0bbf\u0baf \u0bb5\u0bc7\u0ba3\u0bcd\u0b9f\u0bc1\u0bae\u0bcd.",
+      "text": "@SundaramMa16369 பூணூலை அணியும் போது, அதன் பிரம்ம முடிச்சு மேல்நோக்கி இருக்குமாறு வலது கையில் பிடித்துக்கொண்டு, அதன் கீழ்ப்பகுதியை இடது கையில், பஞ்சபாத்திரத்தின் மீது வைத்து பிடித்துக்கொண்டு, யக்ஞோபவீதம் பரமம் பவித்ரம் என்கிற மந்திரத்தை உச்சரித்தபடி, இடது தோள் வழியாக பூணூலை அணிய வேண்டும்.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@SundaramMa16369 \u0baa\u0bc2\u0ba3\u0bc2\u0bb2\u0bc8 \u0b85\u0ba3\u0bbf\u0baf\u0bc1\u0bae\u0bcd \u0baa\u0bcb\u0ba4\u0bc1, \u0b85\u0ba4\u0ba9\u0bcd \u0baa\u0bbf\u0bb0\u0bae\u0bcd\u0bae \u0bae\u0bc1\u0b9f\u0bbf\u0b9a\u0bcd\u0b9a\u0bc1 \u0bae\u0bc7\u0bb2\u0bcd\u0ba8\u0bcb\u0b95\u0bcd\u0b95\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bbe\u0bb1\u2026",
+          "title": "@SundaramMa16369 பூணூலை அணியும் போது, அதன் பிரம்ம முடிச்சு மேல்நோக்கி இருக்குமாற…",
           "url": "https://x.com/chnmharish/status/2093084227998978081",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1286,13 +1236,13 @@
     },
     {
       "id": "l561",
-      "text": "DIM\u0100G\u012a SAN\u0100TAN\u012a: The Architecture of Durability",
+      "text": "DIMĀGĪ SANĀTANĪ: The Architecture of Durability",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "DIM\u0100G\u012a SAN\u0100TAN\u012a: The Architecture of Durability",
+          "title": "DIMĀGĪ SANĀTANĪ: The Architecture of Durability",
           "url": "https://x.com/nithinpalal/status/2093194914167480510",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1307,13 +1257,13 @@
     },
     {
       "id": "l562",
-      "text": "Madrid is always a good time \ud83d\ude0d",
+      "text": "Madrid is always a good time 😍",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Madrid is always a good time \ud83d\ude0d",
+          "title": "Madrid is always a good time 😍",
           "url": "https://x.com/theashrb/status/2093269323653558570",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1328,13 +1278,13 @@
     },
     {
       "id": "l563",
-      "text": "@chnmharish \u0b87\u0b99\u0bcd\u0b95 \u0bb5\u0ba8\u0bcd\u0ba4\u0bbe \u0bb5\u0bc6\u0b9a\u0bcd\u0b9a\u0bbf \u0b9a\u0bc6\u0b9e\u0bcd\u0b9a\u0bbf \u0bb5\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd. Gen Z \u0baa\u0bc2\u0bb0\u0bbe \u0bb5\u0bbf\u0b9c\u0baf\u0bcd\u0b95\u0bcd\u0b95\u0bbe\u0b95 \u0b8e\u0ba8\u0bcd\u0ba4 extreme \u0bb5\u0bc7\u0ba3\u0bbe \u0baa\u0bcb\u0b95\u0b95\u0bcd \u0b95\u0bc2\u0b9f\u0bbf\u0baf\u0bb5\u0bb0\u0bcd\u0b95\u0bb3\u0bcd.",
+      "text": "@chnmharish இங்க வந்தா வெச்சி செஞ்சி விடலாம். Gen Z பூரா விஜய்க்காக எந்த extreme வேணா போகக் கூடியவர்கள்.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@chnmharish \u0b87\u0b99\u0bcd\u0b95 \u0bb5\u0ba8\u0bcd\u0ba4\u0bbe \u0bb5\u0bc6\u0b9a\u0bcd\u0b9a\u0bbf \u0b9a\u0bc6\u0b9e\u0bcd\u0b9a\u0bbf \u0bb5\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd. Gen Z \u0baa\u0bc2\u0bb0\u0bbe \u0bb5\u0bbf\u0b9c\u0baf\u0bcd\u0b95\u0bcd\u0b95\u0bbe\u0b95 \u0b8e\u0ba8\u0bcd\u0ba4 extreme\u2026",
+          "title": "@chnmharish இங்க வந்தா வெச்சி செஞ்சி விடலாம். Gen Z பூரா விஜய்க்காக எந்த extreme…",
           "url": "https://x.com/Deva_Party/status/2093406077203444095",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1349,13 +1299,13 @@
     },
     {
       "id": "l564",
-      "text": "THE ARTICLE THEY DON\u2019T WANT YOU TO READ.",
+      "text": "THE ARTICLE THEY DON’T WANT YOU TO READ.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "THE ARTICLE THEY DON\u2019T WANT YOU TO READ.",
+          "title": "THE ARTICLE THEY DON’T WANT YOU TO READ.",
           "url": "https://x.com/italianvillain_/status/2083906194972762524",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1370,13 +1320,13 @@
     },
     {
       "id": "l565",
-      "text": "DIM\u0100G\u012a SAN\u0100TAN\u012a: The Architecture of Belonging",
+      "text": "DIMĀGĪ SANĀTANĪ: The Architecture of Belonging",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "DIM\u0100G\u012a SAN\u0100TAN\u012a: The Architecture of Belonging",
+          "title": "DIMĀGĪ SANĀTANĪ: The Architecture of Belonging",
           "url": "https://x.com/nithinpalal/status/2092957860225577436",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1412,13 +1362,13 @@
     },
     {
       "id": "l567",
-      "text": "@ChelskiBoy11 @CarefulTweeter @theashrb Well that\u2019s good to hear",
+      "text": "@ChelskiBoy11 @CarefulTweeter @theashrb Well that’s good to hear",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@ChelskiBoy11 @CarefulTweeter @theashrb Well that\u2019s good to hear",
+          "title": "@ChelskiBoy11 @CarefulTweeter @theashrb Well that’s good to hear",
           "url": "https://x.com/iamsoulthepoet/status/2093491699330785421",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1460,7 +1410,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@chnmharish Looks like some think tanks has planned well to counter tvk.. dmm du\u2026",
+          "title": "@chnmharish Looks like some think tanks has planned well to counter tvk.. dmm du…",
           "url": "https://x.com/jagtce/status/2093402894443946337",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1475,13 +1425,13 @@
     },
     {
       "id": "l570",
-      "text": "@theashrb So nobody\u2019s posted the link? \ud83d\udc40",
+      "text": "@theashrb So nobody’s posted the link? 👀",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@theashrb So nobody\u2019s posted the link? \ud83d\udc40",
+          "title": "@theashrb So nobody’s posted the link? 👀",
           "url": "https://x.com/SALICYLICS/status/2093468391063331311",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1517,13 +1467,13 @@
     },
     {
       "id": "l572",
-      "text": "@GregJacksonII @theashrb I do know that. I\u2019m not a Chelsea fan. I remember them in the 80s. They still have many awful NF/EDL fans. But it\u2019s undeniable that in the last 20 years, they\u2019ve also gained a large black/mixed fanbase. Many of them will like this.",
+      "text": "@GregJacksonII @theashrb I do know that. I’m not a Chelsea fan. I remember them in the 80s. They still have many awful NF/EDL fans. But it’s undeniable that in the last 20 years, they’ve also gained a large black/mixed fanbase. Many of them will like this.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@GregJacksonII @theashrb I do know that. I\u2019m not a Chelsea fan. I remember them \u2026",
+          "title": "@GregJacksonII @theashrb I do know that. I’m not a Chelsea fan. I remember them …",
           "url": "https://x.com/mufcsince83/status/2093361773898273108",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1538,13 +1488,13 @@
     },
     {
       "id": "l573",
-      "text": "THE ROBOT REVOLUTION IS ALREADY HERE \u2014 AND MOST PEOPLE AREN\u2019T READY",
+      "text": "THE ROBOT REVOLUTION IS ALREADY HERE — AND MOST PEOPLE AREN’T READY",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "THE ROBOT REVOLUTION IS ALREADY HERE \u2014 AND MOST PEOPLE AREN\u2019T READY",
+          "title": "THE ROBOT REVOLUTION IS ALREADY HERE — AND MOST PEOPLE AREN’T READY",
           "url": "https://x.com/baseonbots/status/2092988879103988124",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1559,13 +1509,13 @@
     },
     {
       "id": "l574",
-      "text": "Owner + expiry is the only thing that keeps an exception from becoming folklore. Countries do this constantly. Emergency measures, wartime rules, and \u201cjust this once\u201d statutes stay on the books long after everyone who understood why they existed is gone. The next generation just inherits them as the new default.",
+      "text": "Owner + expiry is the only thing that keeps an exception from becoming folklore. Countries do this constantly. Emergency measures, wartime rules, and “just this once” statutes stay on the books long after everyone who understood why they existed is gone. The next generation just inherits them as the new default.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Owner + expiry is the only thing that keeps an exception from becoming folklore.\u2026",
+          "title": "Owner + expiry is the only thing that keeps an exception from becoming folklore.…",
           "url": "https://x.com/nithinpalal/status/2092941821605466507",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1586,7 +1536,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@chembashankar It's because of the sitting position, sir. That's why it looks li\u2026",
+          "title": "@chembashankar It's because of the sitting position, sir. That's why it looks li…",
           "url": "https://x.com/chnmharish/status/2093085160954880212",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1607,7 +1557,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@nithinpalal Then every exception needs an owner and an expiry date. Otherwise t\u2026",
+          "title": "@nithinpalal Then every exception needs an owner and an expiry date. Otherwise t…",
           "url": "https://x.com/i_mika_el/status/2092922708715577716",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1628,7 +1578,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@nithinpalal Dharma needs to be encoded into incentives and enforcement. Otherwi\u2026",
+          "title": "@nithinpalal Dharma needs to be encoded into incentives and enforcement. Otherwi…",
           "url": "https://x.com/i_mika_el/status/2092898074033103174",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1649,7 +1599,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "2045 - Western Iberian Peninsula: Infrastructure and Resource Inventory Assessme\u2026",
+          "title": "2045 - Western Iberian Peninsula: Infrastructure and Resource Inventory Assessme…",
           "url": "https://x.com/thePM_001/status/2080824060385067258",
           "date": "2026-07-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1664,13 +1614,13 @@
     },
     {
       "id": "l579",
-      "text": "The End of Men? Why Hanna Rosin\u2019s Thesis Collapsed",
+      "text": "The End of Men? Why Hanna Rosin’s Thesis Collapsed",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The End of Men? Why Hanna Rosin\u2019s Thesis Collapsed",
+          "title": "The End of Men? Why Hanna Rosin’s Thesis Collapsed",
           "url": "https://x.com/theantigynocen1/status/2063605426932052399",
           "date": "2026-06-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1691,7 +1641,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Western development ain't no flex. It's an illusion.\n\nMost Genocidal Empires in \u2026",
+          "title": "Western development ain't no flex. It's an illusion.\n\nMost Genocidal Empires in …",
           "url": "https://x.com/DjehutySpeaks/status/2053222807149179265",
           "date": "2026-05-09",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1727,7 +1677,7 @@
     },
     {
       "id": "l482",
-      "text": "Laboratory Technician \u2014 Bulla Dairy Foods (Colac, Victoria, Australia). Posted 3 weeks ago.",
+      "text": "Laboratory Technician — Bulla Dairy Foods (Colac, Victoria, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1748,7 +1698,7 @@
     },
     {
       "id": "l483",
-      "text": "Laboratory Technician (East Brisbane) \u2014 SGS (East Brisbane, Queensland, Australia). Posted 1 month ago.",
+      "text": "Laboratory Technician (East Brisbane) — SGS (East Brisbane, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1769,7 +1719,7 @@
     },
     {
       "id": "l484",
-      "text": "Laboratory Technician - Food Chemistry \u2014 ALS (Scoresby, Victoria, Australia). Posted 1 week ago.",
+      "text": "Laboratory Technician - Food Chemistry — ALS (Scoresby, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1790,7 +1740,7 @@
     },
     {
       "id": "l485",
-      "text": "Laboratory Technician & Product Technologist \u2014 Hatch (Sydney, New South Wales, Australia). Posted 1 month ago.",
+      "text": "Laboratory Technician & Product Technologist — Hatch (Sydney, New South Wales, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1811,7 +1761,7 @@
     },
     {
       "id": "l486",
-      "text": "Manufacturing Technician (Biochemist) \u2014 Vow (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
+      "text": "Manufacturing Technician (Biochemist) — Vow (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1832,7 +1782,7 @@
     },
     {
       "id": "l487",
-      "text": "Experienced Hatchery Technician \u2014 Tasmanian Oyster Company Limited (Greater Hobart Area). Posted 1 week ago.",
+      "text": "Experienced Hatchery Technician — Tasmanian Oyster Company Limited (Greater Hobart Area). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1853,7 +1803,7 @@
     },
     {
       "id": "l488",
-      "text": "Animal Health Technician - Animal Health Team \u2014 Tassal Group (Margate, Tasmania, Australia). Posted 5 days ago.",
+      "text": "Animal Health Technician - Animal Health Team — Tassal Group (Margate, Tasmania, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1874,7 +1824,7 @@
     },
     {
       "id": "l489",
-      "text": "Feed Technician \u2014 Tassal Group (Hobart, Tasmania, Australia). Posted 1 day ago.",
+      "text": "Feed Technician — Tassal Group (Hobart, Tasmania, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1895,7 +1845,7 @@
     },
     {
       "id": "l490",
-      "text": "Aquaculture Technician \u2014 CSIRO (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
+      "text": "Aquaculture Technician — CSIRO (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1916,7 +1866,7 @@
     },
     {
       "id": "l491",
-      "text": "Laboratory Technician & Product Technologist @ Suntory Oceania \u2014 Hatch (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
+      "text": "Laboratory Technician & Product Technologist @ Suntory Oceania — Hatch (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1937,13 +1887,13 @@
     },
     {
       "id": "l592",
-      "text": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical thriller. Can you expand on this.\n\n\n\n\n# THE LAST PHYSICIAN\n\nIn the year 2115, humanity has achieved what previous generations believed impossible.\n\nDisease has been conquered. Cancer, dementia, heart failure, sepsis, and countless other k\nAbsolutely\u2014this has the bones of a very strong near-future thriller. The concept already feels cinematic, high-stakes, and thematically rich. What it needs is a bit more structure \u2026",
+      "text": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical thriller. Can you expand on this.\n\n\n\n\n# THE LAST PHYSICIAN\n\nIn the year 2115, humanity has achieved what previous generations believed impossible.\n\nDisease has been conquered. Cancer, dementia, heart failure, sepsis, and countless other k\nAbsolutely—this has the bones of a very strong near-future thriller. The concept already feels cinematic, high-stakes, and thematically rich. What it needs is a bit more structure …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical\u2026",
+          "title": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical…",
           "url": "https://github.com/badbeaver88/game/issues/19",
           "date": "2026-06-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -2034,6 +1984,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

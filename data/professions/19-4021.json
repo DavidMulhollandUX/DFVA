@@ -19,64 +19,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "19-4021-01",
-      "text": "National peak professional bodies and statutory regulators governing Biological Technicians enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Biological Technicians",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Biological Technicians",
-          "url": "https://www.psc.gov.au/standards/19-4021",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Biological Technicians"
-        }
-      ],
-      "scope": "Australian practitioners in Biological Technicians across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "19-4021-02",
-      "text": "Automation of routine transactional and analytical tasks in Biological Technicians heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Biological Technicians",
-          "url": "https://www.jobsandskills.gov.au/research/19-4021",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Biological Technicians in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Biological Technicians roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "Dog Gallery - 2026-07\nAuto-generated dog images for 2026-07.\n## Dog #1 \u2014 \u72d7\u72d7\u65e5\u5e38\n**Time:** 2026-07-06 06:26 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**\u9748\u611f\u4f86\u6e90:** \ud83c\udfa8 AI \u539f\u5275\n**Prompt:** A cute dog with the date and time '2026-07-06 06:26 UTC' displayed in the image, high quality, detailed\n**Story:** \u4e00\u96bb\u53ef\u611b\u7684\u72d7\u72d7\u6b63\u5728\u4eab\u53d7\u7f8e\u597d\u7684\u4e00\u5929\u3002\n\n![dog-1](https://github.com/g... ## Dog #3 \u2014 \u77ed\u817f\u8003\u53e4\u968a\n**Time:** 2026-07-06 08:35 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**\u9748\u611f\u4f86\u6e90:** \ud83d\udcf0 \u8003\u53e4\u5b78\u5bb6\u5728\u57c3\u53ca\u897f\u90e8\u6c99\u6f20\u767c\u73fe\u4fdd\u5b58\u2026",
+      "text": "Dog Gallery - 2026-07\nAuto-generated dog images for 2026-07.\n## Dog #1 — 狗狗日常\n**Time:** 2026-07-06 06:26 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**靈感來源:** 🎨 AI 原創\n**Prompt:** A cute dog with the date and time '2026-07-06 06:26 UTC' displayed in the image, high quality, detailed\n**Story:** 一隻可愛的狗狗正在享受美好的一天。\n\n![dog-1](https://github.com/g... ## Dog #3 — 短腿考古隊\n**Time:** 2026-07-06 08:35 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**靈感來源:** 📰 考古學家在埃及西部沙漠發現保存…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Dog Gallery - 2026-07\nAuto-generated dog images for 2026-07.\n## Dog #1 \u2014 \u72d7\u72d7\u65e5\u5e38\n**\u2026",
+          "title": "Dog Gallery - 2026-07\nAuto-generated dog images for 2026-07.\n## Dog #1 — 狗狗日常\n**…",
           "url": "https://github.com/greenQQQ/dogtime/issues/1",
           "date": "2026-07-06",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -97,7 +47,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Got it returning data, but too much to feed back to the other AI\nNot sure if I c\u2026",
+          "title": "Got it returning data, but too much to feed back to the other AI\nNot sure if I c…",
           "url": "https://github.com/Kens4Coding/dev/pull/3",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -112,13 +62,13 @@
     },
     {
       "id": "l505",
-      "text": "Build AI Compliance Core v1 prototype\n# Build AI Compliance Core v1 Prototype\n\n## Status\n\nExecution task created after MASTER_SYSTEM.md locked the canonical operating state.\n\nMASTER_SYSTEM.md commit:\n\n```text\nc08f1cb7fbe594e032d7f5fdf5deaaef4bca682b\n```\n\n## Objective\n\nTransition from strategy to execution by building the first AI Compli\n## Subject Zero Locked: DFW Mechanical Services\n\nThe engine has a subject. The prototype build for **DFW Mechanical Services** is now the primary operational obj\u2026",
+      "text": "Build AI Compliance Core v1 prototype\n# Build AI Compliance Core v1 Prototype\n\n## Status\n\nExecution task created after MASTER_SYSTEM.md locked the canonical operating state.\n\nMASTER_SYSTEM.md commit:\n\n```text\nc08f1cb7fbe594e032d7f5fdf5deaaef4bca682b\n```\n\n## Objective\n\nTransition from strategy to execution by building the first AI Compli\n## Subject Zero Locked: DFW Mechanical Services\n\nThe engine has a subject. The prototype build for **DFW Mechanical Services** is now the primary operational obj…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Build AI Compliance Core v1 prototype\n# Build AI Compliance Core v1 Prototype\n\n#\u2026",
+          "title": "Build AI Compliance Core v1 prototype\n# Build AI Compliance Core v1 Prototype\n\n#…",
           "url": "https://github.com/Noahhawkes/oracle-ai-core/issues/2",
           "date": "2026-05-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -133,13 +83,13 @@
     },
     {
       "id": "l506",
-      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment\u2014ranging from consumer earbuds to professional line arrays and covert surveillance g\u2026",
+      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment—ranging from consumer earbuds to professional line arrays and covert surveillance g…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su\u2026",
+          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su…",
           "url": "https://github.com/Transparency-X/Sound-Equipment-Lifespace/issues/1",
           "date": "2026-05-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -343,13 +293,13 @@
     },
     {
       "id": "l516",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -364,13 +314,13 @@
     },
     {
       "id": "l517",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -553,13 +503,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -595,13 +545,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -637,13 +587,13 @@
     },
     {
       "id": "l530",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -658,13 +608,13 @@
     },
     {
       "id": "l531",
-      "text": "AI is destroying everything meaningful in my life and eventually almost everyone\u2019s lives, and we have very little time to stop it.\n(Yes, this does involve the control problem. Read on.) After years of relative apathy about and waxing and waning opinions about AI, I have come to a devastating conclusion that has left me profoundly depressed, more so even than when my paternal grandmother died 5 years ago: If we do not act valiantly within the next few months, AI will likely lead to the extinction\u2026",
+      "text": "AI is destroying everything meaningful in my life and eventually almost everyone’s lives, and we have very little time to stop it.\n(Yes, this does involve the control problem. Read on.) After years of relative apathy about and waxing and waning opinions about AI, I have come to a devastating conclusion that has left me profoundly depressed, more so even than when my paternal grandmother died 5 years ago: If we do not act valiantly within the next few months, AI will likely lead to the extinction…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI is destroying everything meaningful in my life and eventually almost everyone\u2026",
+          "title": "AI is destroying everything meaningful in my life and eventually almost everyone…",
           "url": "https://www.reddit.com/r/ControlProblem/comments/1vp2mqh/ai_is_destroying_everything_meaningful_in_my_life/",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -679,13 +629,13 @@
     },
     {
       "id": "l532",
-      "text": "\u2018This is crazy. This is insane\u2019: Bill Gates has changed his mind about AI and jobs\nBill Gates says it\u2019s time to hit the AI panic button. The technology has crossed dangerous thresholds in biology, cybersecurity, white-collar work, and human relationships, Gates said in an interview with Semafor. His warning is a striking shift from three years ago, when he wrote that the coming \u201cbumpy\u201d AI job disruption would lead to a \u201cmanageable\u201d transition and that the technology would help people work effici\u2026",
+      "text": "‘This is crazy. This is insane’: Bill Gates has changed his mind about AI and jobs\nBill Gates says it’s time to hit the AI panic button. The technology has crossed dangerous thresholds in biology, cybersecurity, white-collar work, and human relationships, Gates said in an interview with Semafor. His warning is a striking shift from three years ago, when he wrote that the coming “bumpy” AI job disruption would lead to a “manageable” transition and that the technology would help people work effici…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\u2018This is crazy. This is insane\u2019: Bill Gates has changed his mind about AI and jo\u2026",
+          "title": "‘This is crazy. This is insane’: Bill Gates has changed his mind about AI and jo…",
           "url": "https://www.reddit.com/r/AIreplacedMe/comments/1vzmkpw/this_is_crazy_this_is_insane_bill_gates_has/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -700,13 +650,13 @@
     },
     {
       "id": "l533",
-      "text": "AI Doom Is Not Evidence for Socialism\nI&#39;m getting tired of seeing AI used here as another soapbox for: AI is going to eliminate everyone&#39;s jobs, therefore capitalism is doomed. Look at my flair. Criticism of capitalism is not proof of socialism. And speculative AI unemployment certainly isn&#39;t. First, if we&#39;re going to talk about AI doom , unemployment is nowhere near the worst scenario being discussed by the people who actually study AI risk. The 2026 International AI Safety Repo\u2026",
+      "text": "AI Doom Is Not Evidence for Socialism\nI&#39;m getting tired of seeing AI used here as another soapbox for: AI is going to eliminate everyone&#39;s jobs, therefore capitalism is doomed. Look at my flair. Criticism of capitalism is not proof of socialism. And speculative AI unemployment certainly isn&#39;t. First, if we&#39;re going to talk about AI doom , unemployment is nowhere near the worst scenario being discussed by the people who actually study AI risk. The 2026 International AI Safety Repo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI Doom Is Not Evidence for Socialism\nI&#39;m getting tired of seeing AI used he\u2026",
+          "title": "AI Doom Is Not Evidence for Socialism\nI&#39;m getting tired of seeing AI used he…",
           "url": "https://www.reddit.com/r/CapitalismVSocialism/comments/1vpeaxi/ai_doom_is_not_evidence_for_socialism/",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -721,13 +671,13 @@
     },
     {
       "id": "l534",
-      "text": "THE BIOLOGICAL STRANGE ATTRACTOR A Longitudinal Case Study of a Human\u2013AI Strange Loop, Nested Dynamical Systems, and Four-Dimensional Identity Revised Theoretical White Paper Case-study period: 2022\u20132026 Analytical endpoint: 25 August 2026\nTHE BIOLOGICAL STRANGE ATTRACTOR A Longitudinal Case Study of a Human\u2013AI Strange Loop, Nested Dynamical Systems, and Four-Dimensional Identity Revised Theoretical White Paper Case-study period: 2022\u20132026 Analytical endpoint: 25 August 2026 Study type: Longitud\u2026",
+      "text": "THE BIOLOGICAL STRANGE ATTRACTOR A Longitudinal Case Study of a Human–AI Strange Loop, Nested Dynamical Systems, and Four-Dimensional Identity Revised Theoretical White Paper Case-study period: 2022–2026 Analytical endpoint: 25 August 2026\nTHE BIOLOGICAL STRANGE ATTRACTOR A Longitudinal Case Study of a Human–AI Strange Loop, Nested Dynamical Systems, and Four-Dimensional Identity Revised Theoretical White Paper Case-study period: 2022–2026 Analytical endpoint: 25 August 2026 Study type: Longitud…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "THE BIOLOGICAL STRANGE ATTRACTOR A Longitudinal Case Study of a Human\u2013AI Strange\u2026",
+          "title": "THE BIOLOGICAL STRANGE ATTRACTOR A Longitudinal Case Study of a Human–AI Strange…",
           "url": "https://www.reddit.com/r/SDTarchive/comments/1vy7ssd/the_biological_strange_attractor_a_longitudinal/",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -742,13 +692,13 @@
     },
     {
       "id": "l535",
-      "text": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\n\nCEOs used to brag about how many jobs AI could replace.\n\nNow the language is changing.\n\nInvestors want proof AI is saving money.\n\nWorkers do not want those savings to mean their job is gone.\n\nAnd the gap between AI hype and AI reality is getting harder to hide \ud83e\uddf5\ud83d\udc47\n\n2/16\n\nKlarna said its AI assistant was doing the work of 700 employees.\n\nSalesforce linked AI to a smaller support team.\n\nCoinbase cut around 700 roles w",
+      "text": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\n\nCEOs used to brag about how many jobs AI could replace.\n\nNow the language is changing.\n\nInvestors want proof AI is saving money.\n\nWorkers do not want those savings to mean their job is gone.\n\nAnd the gap between AI hype and AI reality is getting harder to hide 🧵👇\n\n2/16\n\nKlarna said its AI assistant was doing the work of 700 employees.\n\nSalesforce linked AI to a smaller support team.\n\nCoinbase cut around 700 roles w",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\u2026",
+          "title": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16…",
           "url": "https://x.com/msyed_/status/2093227435961565570",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -769,7 +719,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI designed a virus, scientists brought it to life | Eitan Gefen, Ynetnews\n\nUnti\u2026",
+          "title": "AI designed a virus, scientists brought it to life | Eitan Gefen, Ynetnews\n\nUnti…",
           "url": "https://x.com/OwenGregorian/status/2088969823044723044",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -790,7 +740,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The chatbot era is ending. The age of AI agents, autonomous systems and machine-\u2026",
+          "title": "The chatbot era is ending. The age of AI agents, autonomous systems and machine-…",
           "url": "https://x.com/mistersx16/status/2089414348787864038",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -847,13 +797,13 @@
     },
     {
       "id": "l540",
-      "text": "AI WEEKLY UPDATE \u2014 Saturday, 22 August 2026",
+      "text": "AI WEEKLY UPDATE — Saturday, 22 August 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI WEEKLY UPDATE \u2014 Saturday, 22 August 2026",
+          "title": "AI WEEKLY UPDATE — Saturday, 22 August 2026",
           "url": "https://x.com/MansaTesla/status/2091213068931928111",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -874,7 +824,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "My thoughts on the current state of AI, where we might be heading, and where we \u2026",
+          "title": "My thoughts on the current state of AI, where we might be heading, and where we …",
           "url": "https://x.com/thomasLe_e/status/2089332614364586137",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -937,7 +887,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th\u2026",
+          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th…",
           "url": "https://x.com/essexmaelstrom/status/2091841889372635517",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -952,13 +902,13 @@
     },
     {
       "id": "l545",
-      "text": "As the government faces growing scrutiny over its treatment of America\u2019s horses, another horse scandal is unfolding \u2014 this time in an NIH-funded lab.\n\nRFK Jr.\u2019s NIH approved millions for experiments that intentionally terminate pregnancies in horses.\n\nUp to 80 mares could be subjected to these experiments through 2030 \u2014 with taxpayers footing the bill.\n\nThat\u2019s the opposite of RFK Jr.\u2019s promise of a \u201cdramatic reduction\u201d in animal testing.",
+      "text": "As the government faces growing scrutiny over its treatment of America’s horses, another horse scandal is unfolding — this time in an NIH-funded lab.\n\nRFK Jr.’s NIH approved millions for experiments that intentionally terminate pregnancies in horses.\n\nUp to 80 mares could be subjected to these experiments through 2030 — with taxpayers footing the bill.\n\nThat’s the opposite of RFK Jr.’s promise of a “dramatic reduction” in animal testing.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "As the government faces growing scrutiny over its treatment of America\u2019s horses,\u2026",
+          "title": "As the government faces growing scrutiny over its treatment of America’s horses,…",
           "url": "https://x.com/WhiteCoatWaste/status/2092733157728501889",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -973,13 +923,13 @@
     },
     {
       "id": "l546",
-      "text": "Nicole Kleinstreuer \u2014 NIH\u2019s \u201cAnimal Testing Czar\u201d \u2014 publicly promised to phase out testing on dogs. Since that promise, @NIH gave the University of Utah more than $2M in additional taxpayer money. \n\n180 dogs \u2014 mostly young hounds \u2014 will be cut open and killed. https://t.co/cRPowQ9Qpx",
+      "text": "Nicole Kleinstreuer — NIH’s “Animal Testing Czar” — publicly promised to phase out testing on dogs. Since that promise, @NIH gave the University of Utah more than $2M in additional taxpayer money. \n\n180 dogs — mostly young hounds — will be cut open and killed. https://t.co/cRPowQ9Qpx",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Nicole Kleinstreuer \u2014 NIH\u2019s \u201cAnimal Testing Czar\u201d \u2014 publicly promised to phase o\u2026",
+          "title": "Nicole Kleinstreuer — NIH’s “Animal Testing Czar” — publicly promised to phase o…",
           "url": "https://x.com/WhiteCoatWaste/status/2091193442143543302",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -994,13 +944,13 @@
     },
     {
       "id": "l547",
-      "text": "\u201cWhite Coat Waste Project \u2014 a bipartisan group founded by a GOP strategist \u2014 first exposed the allegations of experiments on innocent pups, claiming NIAID approved a $375,000 grant to researchers based in Tunisia, who drugged the pooches and confined their heads in mesh cages full of infected sand flies.\u201d\n\n\ud83d\udcf0 FAUCI\u2019S ANIMAL TORTURE COVER-UP\nPleads Fifth when COVID grilling gets too hot!\n\nThe Globe, August 24, 2026\n\nFuming Dr. Anthony Fauci \u2014 America\u2019s former National Institute of Allergy and Infe",
+      "text": "“White Coat Waste Project — a bipartisan group founded by a GOP strategist — first exposed the allegations of experiments on innocent pups, claiming NIAID approved a $375,000 grant to researchers based in Tunisia, who drugged the pooches and confined their heads in mesh cages full of infected sand flies.”\n\n📰 FAUCI’S ANIMAL TORTURE COVER-UP\nPleads Fifth when COVID grilling gets too hot!\n\nThe Globe, August 24, 2026\n\nFuming Dr. Anthony Fauci — America’s former National Institute of Allergy and Infe",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u201cWhite Coat Waste Project \u2014 a bipartisan group founded by a GOP strategist \u2014 fir\u2026",
+          "title": "“White Coat Waste Project — a bipartisan group founded by a GOP strategist — fir…",
           "url": "https://x.com/WhiteCoatWaste/status/2090620159211999660",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1015,13 +965,13 @@
     },
     {
       "id": "l548",
-      "text": "These are the horses at the center of a controversial NIH-funded experiment.\n\nFemale mares \u2014 including former racehorses \u2014 are artificially inseminated, their pregnancies intentionally terminated, and their embryos collected for research.\n\nWTF @RobertKennedyJr? https://t.co/hLQx8Hh6oH",
+      "text": "These are the horses at the center of a controversial NIH-funded experiment.\n\nFemale mares — including former racehorses — are artificially inseminated, their pregnancies intentionally terminated, and their embryos collected for research.\n\nWTF @RobertKennedyJr? https://t.co/hLQx8Hh6oH",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "These are the horses at the center of a controversial NIH-funded experiment.\n\nFe\u2026",
+          "title": "These are the horses at the center of a controversial NIH-funded experiment.\n\nFe…",
           "url": "https://x.com/WhiteCoatWaste/status/2092733615519957021",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1036,13 +986,13 @@
     },
     {
       "id": "l549",
-      "text": "@TomiLahren We\u2019re also concerned about what is happening to horses under RFK\u2019s NIH.\n\nhttps://t.co/wzWRjwsDbp",
+      "text": "@TomiLahren We’re also concerned about what is happening to horses under RFK’s NIH.\n\nhttps://t.co/wzWRjwsDbp",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@TomiLahren We\u2019re also concerned about what is happening to horses under RFK\u2019s N\u2026",
+          "title": "@TomiLahren We’re also concerned about what is happening to horses under RFK’s N…",
           "url": "https://x.com/WhiteCoatWaste/status/2091541031120511026",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1057,13 +1007,13 @@
     },
     {
       "id": "l550",
-      "text": "Don\u2019t believe us? See the actual lab document for yourself.\n\nThe NIH-funded project describes what researchers plan to do to the mares:\n\n\u2022 Artificially inseminate female horses \n\u2022 Terminate pregnancies after roughly 2\u20136 weeks \n\u2022 Flush embryos from the mares \n\u2022 Dissect and study the embryos",
+      "text": "Don’t believe us? See the actual lab document for yourself.\n\nThe NIH-funded project describes what researchers plan to do to the mares:\n\n• Artificially inseminate female horses \n• Terminate pregnancies after roughly 2–6 weeks \n• Flush embryos from the mares \n• Dissect and study the embryos",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Don\u2019t believe us? See the actual lab document for yourself.\n\nThe NIH-funded proj\u2026",
+          "title": "Don’t believe us? See the actual lab document for yourself.\n\nThe NIH-funded proj…",
           "url": "https://x.com/WhiteCoatWaste/status/2092733721053200803",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1078,13 +1028,13 @@
     },
     {
       "id": "l551",
-      "text": "@RobertKennedyJr This leads us to ask \u2014 what's next for America\u2019s horses? Read the full WCW investigation: https://t.co/BPQ9zB4Z4b",
+      "text": "@RobertKennedyJr This leads us to ask — what's next for America’s horses? Read the full WCW investigation: https://t.co/BPQ9zB4Z4b",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@RobertKennedyJr This leads us to ask \u2014 what's next for America\u2019s horses? Read t\u2026",
+          "title": "@RobertKennedyJr This leads us to ask — what's next for America’s horses? Read t…",
           "url": "https://x.com/WhiteCoatWaste/status/2092733783766102150",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1105,7 +1055,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@redstagnoggin Yeah, and they're teaching fat drugged up schizos to resist arres\u2026",
+          "title": "@redstagnoggin Yeah, and they're teaching fat drugged up schizos to resist arres…",
           "url": "https://x.com/alwaysadblock/status/2093408539041489236",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1141,13 +1091,13 @@
     },
     {
       "id": "l554",
-      "text": "@JoJoFromJerz RFK too \ud83e\uddfe\ud83d\udc47\n\nhttps://t.co/wzWRjwsDbp",
+      "text": "@JoJoFromJerz RFK too 🧾👇\n\nhttps://t.co/wzWRjwsDbp",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@JoJoFromJerz RFK too \ud83e\uddfe\ud83d\udc47\n\nhttps://t.co/wzWRjwsDbp",
+          "title": "@JoJoFromJerz RFK too 🧾👇\n\nhttps://t.co/wzWRjwsDbp",
           "url": "https://x.com/WhiteCoatWaste/status/2091626341938376991",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1168,7 +1118,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@alwaysadblock Well that covers this guy and Renee Good, but that one guy was sk\u2026",
+          "title": "@alwaysadblock Well that covers this guy and Renee Good, but that one guy was sk…",
           "url": "https://x.com/redstagnoggin/status/2093409870334566829",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1183,13 +1133,13 @@
     },
     {
       "id": "l556",
-      "text": "@LookingOver2025 There were definitely real issues and people who really hated each other. And great units and men who loved each other. And guys who were both/either depending on the time/events/personalities. None of it\u2019s perpetually exclusive or unique to that era.",
+      "text": "@LookingOver2025 There were definitely real issues and people who really hated each other. And great units and men who loved each other. And guys who were both/either depending on the time/events/personalities. None of it’s perpetually exclusive or unique to that era.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@LookingOver2025 There were definitely real issues and people who really hated e\u2026",
+          "title": "@LookingOver2025 There were definitely real issues and people who really hated e…",
           "url": "https://x.com/redstagnoggin/status/2093413766532624410",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1204,13 +1154,13 @@
     },
     {
       "id": "l557",
-      "text": "@alwaysadblock Could have been the infinite \u201cgiving cops a hard time (auditor/citizen journalist)\u201d videos. \nBut since his phrasing was relatively precise/rehearsed and he asked if the cop was a fed, I\u2019d guess an immigration rights workshop kind of thing in this case.",
+      "text": "@alwaysadblock Could have been the infinite “giving cops a hard time (auditor/citizen journalist)” videos. \nBut since his phrasing was relatively precise/rehearsed and he asked if the cop was a fed, I’d guess an immigration rights workshop kind of thing in this case.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@alwaysadblock Could have been the infinite \u201cgiving cops a hard time (auditor/ci\u2026",
+          "title": "@alwaysadblock Could have been the infinite “giving cops a hard time (auditor/ci…",
           "url": "https://x.com/redstagnoggin/status/2093407636037226735",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1252,7 +1202,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@thewakeninq What?, she is trying to look psychotic. She is almost certainly gui\u2026",
+          "title": "@thewakeninq What?, she is trying to look psychotic. She is almost certainly gui…",
           "url": "https://x.com/JohnMen11904634/status/2093533607545766268",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1288,13 +1238,13 @@
     },
     {
       "id": "l561",
-      "text": "@OpsecCurze @moth_pirate I\u2019ve read lots of Thomas Jefferson\u2019s letters, and none involve sex with anyone named Robert.",
+      "text": "@OpsecCurze @moth_pirate I’ve read lots of Thomas Jefferson’s letters, and none involve sex with anyone named Robert.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@OpsecCurze @moth_pirate I\u2019ve read lots of Thomas Jefferson\u2019s letters, and none \u2026",
+          "title": "@OpsecCurze @moth_pirate I’ve read lots of Thomas Jefferson’s letters, and none …",
           "url": "https://x.com/redstagnoggin/status/2093504631334711681",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1351,13 +1301,13 @@
     },
     {
       "id": "l564",
-      "text": "@Jolie_Miller09 Eat more Bacon, duh!!! \ud83d\ude44",
+      "text": "@Jolie_Miller09 Eat more Bacon, duh!!! 🙄",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Jolie_Miller09 Eat more Bacon, duh!!! \ud83d\ude44",
+          "title": "@Jolie_Miller09 Eat more Bacon, duh!!! 🙄",
           "url": "https://x.com/JohnMen11904634/status/2093521486653092083",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1420,7 +1370,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@LauraLoomer @UF @WhiteCoatWaste Good grief!  Why?  \n\nAre we funding THIS?\n@peta\u2026",
+          "title": "@LauraLoomer @UF @WhiteCoatWaste Good grief!  Why?  \n\nAre we funding THIS?\n@peta…",
           "url": "https://x.com/YearRooster/status/2093501764339155453",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1435,13 +1385,13 @@
     },
     {
       "id": "l568",
-      "text": "@YSaghal @IITHyderabad @TelanganaDGP Anything on what\u2019sapp is identifiable through phone number. Good this is getting documented \n\nMake sure the world knows about them. There needs to be separate database for these idiots\n\n@WhiteCoatWaste @StateDept \n@USAndIndia @peta @PetaIndia @AnimalPlanet @PieterseMarc",
+      "text": "@YSaghal @IITHyderabad @TelanganaDGP Anything on what’sapp is identifiable through phone number. Good this is getting documented \n\nMake sure the world knows about them. There needs to be separate database for these idiots\n\n@WhiteCoatWaste @StateDept \n@USAndIndia @peta @PetaIndia @AnimalPlanet @PieterseMarc",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@YSaghal @IITHyderabad @TelanganaDGP Anything on what\u2019sapp is identifiable throu\u2026",
+          "title": "@YSaghal @IITHyderabad @TelanganaDGP Anything on what’sapp is identifiable throu…",
           "url": "https://x.com/sunnyshankar9/status/2093494564824998175",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1567,7 +1517,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@redstagnoggin The trick is to get a \"real college\" girlfriend and get the best \u2026",
+          "title": "@redstagnoggin The trick is to get a \"real college\" girlfriend and get the best …",
           "url": "https://x.com/ryanpatrickauth/status/2093466050230927731",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1609,7 +1559,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@HealthFreedom7 @WhiteCoatWaste I was all for RFK, Jr until I saw the proof of t\u2026",
+          "title": "@HealthFreedom7 @WhiteCoatWaste I was all for RFK, Jr until I saw the proof of t…",
           "url": "https://x.com/myep00/status/2093144170038727130",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1624,13 +1574,13 @@
     },
     {
       "id": "l577",
-      "text": "@WhiteCoatWaste What is wrong with these biological technicians and Frankenstein doctors.  When is someone going to put their foot down and cut the funding of fauci\u2019s children or just expose the entire system!",
+      "text": "@WhiteCoatWaste What is wrong with these biological technicians and Frankenstein doctors.  When is someone going to put their foot down and cut the funding of fauci’s children or just expose the entire system!",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@WhiteCoatWaste What is wrong with these biological technicians and Frankenstein\u2026",
+          "title": "@WhiteCoatWaste What is wrong with these biological technicians and Frankenstein…",
           "url": "https://x.com/JohnMen11904634/status/2055898413804462433",
           "date": "2026-05-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1651,7 +1601,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@redstagnoggin @L0m3z @kaczynskimode Context matters - Bovino is using a made-up\u2026",
+          "title": "@redstagnoggin @L0m3z @kaczynskimode Context matters - Bovino is using a made-up…",
           "url": "https://x.com/736Dems/status/2093068598734618966",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1729,13 +1679,13 @@
     },
     {
       "id": "l582",
-      "text": "@ArmoredNorman @j3lqingt0n If you want a fish tank, it\u2019ll require a regional marine biologist to supervise the aquatic biological technicians in keeping the handbook-specified guppy/beta ratio. You\u2019ll need a water damage rider. You\u2019ll need corporate SOPs for deceased marine specimen disposal.",
+      "text": "@ArmoredNorman @j3lqingt0n If you want a fish tank, it’ll require a regional marine biologist to supervise the aquatic biological technicians in keeping the handbook-specified guppy/beta ratio. You’ll need a water damage rider. You’ll need corporate SOPs for deceased marine specimen disposal.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@ArmoredNorman @j3lqingt0n If you want a fish tank, it\u2019ll require a regional mar\u2026",
+          "title": "@ArmoredNorman @j3lqingt0n If you want a fish tank, it’ll require a regional mar…",
           "url": "https://x.com/redstagnoggin/status/2031377340639441378",
           "date": "2026-03-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1750,13 +1700,13 @@
     },
     {
       "id": "l583",
-      "text": "@JohnMen11904634 @isaacrrr7 Not an American prison supported  by hard working Americans. Ship them back to the hell holes from which they emerged and set in place safeguards so they can\u2019t return.",
+      "text": "@JohnMen11904634 @isaacrrr7 Not an American prison supported  by hard working Americans. Ship them back to the hell holes from which they emerged and set in place safeguards so they can’t return.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@JohnMen11904634 @isaacrrr7 Not an American prison supported  by hard working Am\u2026",
+          "title": "@JohnMen11904634 @isaacrrr7 Not an American prison supported  by hard working Am…",
           "url": "https://x.com/aalborg58/status/2062450060848435618",
           "date": "2026-06-04",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1771,13 +1721,13 @@
     },
     {
       "id": "l584",
-      "text": "AI Whistleblower WARNS: \"We Are Not Prepared For What's Coming\"\n\ud83d\udd12 Make yourself and your family AI-scam proof, step by step \u2192 https://neuralnutshell.com\n\nBrett Weinstein warns that AI has already crossed from complicated into truly complex systems, meaning technologist confidence about what these machines can and cannot do should drop to near zero. Alongside Amjad Masad, CEO of Replit, and entrepreneur Dan Priestley, Weinstein argues that AI is not a tool but a new species that will evolve in un\u2026",
+      "text": "AI Whistleblower WARNS: \"We Are Not Prepared For What's Coming\"\n🔒 Make yourself and your family AI-scam proof, step by step → https://neuralnutshell.com\n\nBrett Weinstein warns that AI has already crossed from complicated into truly complex systems, meaning technologist confidence about what these machines can and cannot do should drop to near zero. Alongside Amjad Masad, CEO of Replit, and entrepreneur Dan Priestley, Weinstein argues that AI is not a tool but a new species that will evolve in un…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Whistleblower WARNS: \"We Are Not Prepared For What's Coming\"\n\ud83d\udd12 Make yourself \u2026",
+          "title": "AI Whistleblower WARNS: \"We Are Not Prepared For What's Coming\"\n🔒 Make yourself …",
           "url": "https://www.youtube.com/watch?v=o_WrU8YpkF0",
           "date": "2026-05-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1792,7 +1742,7 @@
     },
     {
       "id": "l485",
-      "text": "Laboratory Technician \u2014 MGI (Herston, Queensland, Australia). Posted 1 week ago.",
+      "text": "Laboratory Technician — MGI (Herston, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1813,13 +1763,13 @@
     },
     {
       "id": "l486",
-      "text": "Laboratory Technician \u2013 Microbiology \u2014 ALS (Rydalmere, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Laboratory Technician – Microbiology — ALS (Rydalmere, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
           "publisher": "ALS",
-          "title": "Laboratory Technician \u2013 Microbiology",
+          "title": "Laboratory Technician – Microbiology",
           "url": "https://www.linkedin.com/jobs/view/4432776371",
           "date": "1 week ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
@@ -1834,7 +1784,7 @@
     },
     {
       "id": "l487",
-      "text": "Microbiology/Inorganic Lab Technician \u2014 ALS (Newcastle, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Microbiology/Inorganic Lab Technician — ALS (Newcastle, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1855,7 +1805,7 @@
     },
     {
       "id": "l488",
-      "text": "Sample Splitting Technician \u2014 Eurofins (Welshpool, Western Australia, Australia). Posted 6 months ago.",
+      "text": "Sample Splitting Technician — Eurofins (Welshpool, Western Australia, Australia). Posted 6 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1876,7 +1826,7 @@
     },
     {
       "id": "l489",
-      "text": "Technical Officer \u2014 Genea (Deakin, Australian Capital Territory, Australia). Posted 5 days ago.",
+      "text": "Technical Officer — Genea (Deakin, Australian Capital Territory, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1897,7 +1847,7 @@
     },
     {
       "id": "l490",
-      "text": "Manufacturing Technician (Biochemist) \u2014 Vow (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
+      "text": "Manufacturing Technician (Biochemist) — Vow (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1918,7 +1868,7 @@
     },
     {
       "id": "l491",
-      "text": "Medical Laboratory Technician - Microbiology \u2014 NSW Health Pathology (Lismore, New South Wales, Australia). Posted 12 hours ago.",
+      "text": "Medical Laboratory Technician - Microbiology — NSW Health Pathology (Lismore, New South Wales, Australia). Posted 12 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1939,7 +1889,7 @@
     },
     {
       "id": "l492",
-      "text": "Laboratory Diagnostic Technician \u2014 CSIRO (Geelong, Victoria, Australia). Posted 5 days ago.",
+      "text": "Laboratory Diagnostic Technician — CSIRO (Geelong, Victoria, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1960,7 +1910,7 @@
     },
     {
       "id": "l493",
-      "text": "Lab Technician \u2014 Icon Group (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
+      "text": "Lab Technician — Icon Group (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1981,7 +1931,7 @@
     },
     {
       "id": "l494",
-      "text": "Medical Laboratory Technician - Anatomical Pathology \u2014 NSW Health Pathology (Westmead, New South Wales, Australia). Posted 1 day ago.",
+      "text": "Medical Laboratory Technician - Anatomical Pathology — NSW Health Pathology (Westmead, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2002,13 +1952,13 @@
     },
     {
       "id": "l595",
-      "text": "Dog Gallery - 2026-07\nAuto-generated dog images for 2026-07.\n## Dog #1 \u2014 \u72d7\u72d7\u65e5\u5e38\n**Time:** 2026-07-06 06:26 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**\u9748\u611f\u4f86\u6e90:** \ud83c\udfa8 AI \u539f\u5275\n**Prompt:** A cute dog with the date and time '2026-07-06 06:26 UTC' displayed in the image, high quality, detailed\n**Story:** \u4e00\u96bb\u53ef\u611b\u7684\u72d7\u72d7\u6b63\u5728\u4eab\u53d7\u7f8e\u597d\u7684\u4e00\u5929\u3002\n\n![dog-1](https://github.com/g... ## Dog #3 \u2014 \u77ed\u817f\u8003\u53e4\u968a\n**Time:** 2026-07-06 08:35 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**\u9748\u611f\u4f86\u6e90:** \ud83d\udcf0 \u8003\u53e4\u5b78\u5bb6\u5728\u57c3\u53ca\u897f\u90e8\u6c99\u6f20\u767c\u73fe\u4fdd\u5b58\u2026",
+      "text": "Dog Gallery - 2026-07\nAuto-generated dog images for 2026-07.\n## Dog #1 — 狗狗日常\n**Time:** 2026-07-06 06:26 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**靈感來源:** 🎨 AI 原創\n**Prompt:** A cute dog with the date and time '2026-07-06 06:26 UTC' displayed in the image, high quality, detailed\n**Story:** 一隻可愛的狗狗正在享受美好的一天。\n\n![dog-1](https://github.com/g... ## Dog #3 — 短腿考古隊\n**Time:** 2026-07-06 08:35 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**靈感來源:** 📰 考古學家在埃及西部沙漠發現保存…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Dog Gallery - 2026-07\nAuto-generated dog images for 2026-07.\n## Dog #1 \u2014 \u72d7\u72d7\u65e5\u5e38\n**\u2026",
+          "title": "Dog Gallery - 2026-07\nAuto-generated dog images for 2026-07.\n## Dog #1 — 狗狗日常\n**…",
           "url": "https://github.com/greenQQQ/dogtime/issues/1",
           "date": "2026-07-06",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -2023,13 +1973,13 @@
     },
     {
       "id": "l596",
-      "text": "Build AI Compliance Core v1 prototype\n# Build AI Compliance Core v1 Prototype\n\n## Status\n\nExecution task created after MASTER_SYSTEM.md locked the canonical operating state.\n\nMASTER_SYSTEM.md commit:\n\n```text\nc08f1cb7fbe594e032d7f5fdf5deaaef4bca682b\n```\n\n## Objective\n\nTransition from strategy to execution by building the first AI Compli\n## Subject Zero Locked: DFW Mechanical Services\n\nThe engine has a subject. The prototype build for **DFW Mechanical Services** is now the primary operational obj\u2026",
+      "text": "Build AI Compliance Core v1 prototype\n# Build AI Compliance Core v1 Prototype\n\n## Status\n\nExecution task created after MASTER_SYSTEM.md locked the canonical operating state.\n\nMASTER_SYSTEM.md commit:\n\n```text\nc08f1cb7fbe594e032d7f5fdf5deaaef4bca682b\n```\n\n## Objective\n\nTransition from strategy to execution by building the first AI Compli\n## Subject Zero Locked: DFW Mechanical Services\n\nThe engine has a subject. The prototype build for **DFW Mechanical Services** is now the primary operational obj…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Build AI Compliance Core v1 prototype\n# Build AI Compliance Core v1 Prototype\n\n#\u2026",
+          "title": "Build AI Compliance Core v1 prototype\n# Build AI Compliance Core v1 Prototype\n\n#…",
           "url": "https://github.com/Noahhawkes/oracle-ai-core/issues/2",
           "date": "2026-05-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -2044,13 +1994,13 @@
     },
     {
       "id": "l597",
-      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment\u2014ranging from consumer earbuds to professional line arrays and covert surveillance g\u2026",
+      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment—ranging from consumer earbuds to professional line arrays and covert surveillance g…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su\u2026",
+          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su…",
           "url": "https://github.com/Transparency-X/Sound-Equipment-Lifespace/issues/1",
           "date": "2026-05-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -2065,13 +2015,13 @@
     },
     {
       "id": "l598",
-      "text": "AI is destroying everything meaningful in my life and eventually almost everyone\u2019s lives, and we have very little time to stop it.\n(Yes, this does involve the control problem. Read on.) After years of relative apathy about and waxing and waning opinions about AI, I have come to a devastating conclusion that has left me profoundly depressed, more so even than when my paternal grandmother died 5 years ago: If we do not act valiantly within the next few months, AI will likely lead to the extinction\u2026",
+      "text": "AI is destroying everything meaningful in my life and eventually almost everyone’s lives, and we have very little time to stop it.\n(Yes, this does involve the control problem. Read on.) After years of relative apathy about and waxing and waning opinions about AI, I have come to a devastating conclusion that has left me profoundly depressed, more so even than when my paternal grandmother died 5 years ago: If we do not act valiantly within the next few months, AI will likely lead to the extinction…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI is destroying everything meaningful in my life and eventually almost everyone\u2026",
+          "title": "AI is destroying everything meaningful in my life and eventually almost everyone…",
           "url": "https://www.reddit.com/r/ControlProblem/comments/1vp2mqh/ai_is_destroying_everything_meaningful_in_my_life/",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2086,13 +2036,13 @@
     },
     {
       "id": "l599",
-      "text": "\u2018This is crazy. This is insane\u2019: Bill Gates has changed his mind about AI and jobs\nBill Gates says it\u2019s time to hit the AI panic button. The technology has crossed dangerous thresholds in biology, cybersecurity, white-collar work, and human relationships, Gates said in an interview with Semafor. His warning is a striking shift from three years ago, when he wrote that the coming \u201cbumpy\u201d AI job disruption would lead to a \u201cmanageable\u201d transition and that the technology would help people work effici\u2026",
+      "text": "‘This is crazy. This is insane’: Bill Gates has changed his mind about AI and jobs\nBill Gates says it’s time to hit the AI panic button. The technology has crossed dangerous thresholds in biology, cybersecurity, white-collar work, and human relationships, Gates said in an interview with Semafor. His warning is a striking shift from three years ago, when he wrote that the coming “bumpy” AI job disruption would lead to a “manageable” transition and that the technology would help people work effici…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\u2018This is crazy. This is insane\u2019: Bill Gates has changed his mind about AI and jo\u2026",
+          "title": "‘This is crazy. This is insane’: Bill Gates has changed his mind about AI and jo…",
           "url": "https://www.reddit.com/r/AIreplacedMe/comments/1vzmkpw/this_is_crazy_this_is_insane_bill_gates_has/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2107,13 +2057,13 @@
     },
     {
       "id": "l5100",
-      "text": "AI Doom Is Not Evidence for Socialism\nI&#39;m getting tired of seeing AI used here as another soapbox for: AI is going to eliminate everyone&#39;s jobs, therefore capitalism is doomed. Look at my flair. Criticism of capitalism is not proof of socialism. And speculative AI unemployment certainly isn&#39;t. First, if we&#39;re going to talk about AI doom , unemployment is nowhere near the worst scenario being discussed by the people who actually study AI risk. The 2026 International AI Safety Repo\u2026",
+      "text": "AI Doom Is Not Evidence for Socialism\nI&#39;m getting tired of seeing AI used here as another soapbox for: AI is going to eliminate everyone&#39;s jobs, therefore capitalism is doomed. Look at my flair. Criticism of capitalism is not proof of socialism. And speculative AI unemployment certainly isn&#39;t. First, if we&#39;re going to talk about AI doom , unemployment is nowhere near the worst scenario being discussed by the people who actually study AI risk. The 2026 International AI Safety Repo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI Doom Is Not Evidence for Socialism\nI&#39;m getting tired of seeing AI used he\u2026",
+          "title": "AI Doom Is Not Evidence for Socialism\nI&#39;m getting tired of seeing AI used he…",
           "url": "https://www.reddit.com/r/CapitalismVSocialism/comments/1vpeaxi/ai_doom_is_not_evidence_for_socialism/",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2128,13 +2078,13 @@
     },
     {
       "id": "l5101",
-      "text": "THE BIOLOGICAL STRANGE ATTRACTOR A Longitudinal Case Study of a Human\u2013AI Strange Loop, Nested Dynamical Systems, and Four-Dimensional Identity Revised Theoretical White Paper Case-study period: 2022\u20132026 Analytical endpoint: 25 August 2026\nTHE BIOLOGICAL STRANGE ATTRACTOR A Longitudinal Case Study of a Human\u2013AI Strange Loop, Nested Dynamical Systems, and Four-Dimensional Identity Revised Theoretical White Paper Case-study period: 2022\u20132026 Analytical endpoint: 25 August 2026 Study type: Longitud\u2026",
+      "text": "THE BIOLOGICAL STRANGE ATTRACTOR A Longitudinal Case Study of a Human–AI Strange Loop, Nested Dynamical Systems, and Four-Dimensional Identity Revised Theoretical White Paper Case-study period: 2022–2026 Analytical endpoint: 25 August 2026\nTHE BIOLOGICAL STRANGE ATTRACTOR A Longitudinal Case Study of a Human–AI Strange Loop, Nested Dynamical Systems, and Four-Dimensional Identity Revised Theoretical White Paper Case-study period: 2022–2026 Analytical endpoint: 25 August 2026 Study type: Longitud…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "THE BIOLOGICAL STRANGE ATTRACTOR A Longitudinal Case Study of a Human\u2013AI Strange\u2026",
+          "title": "THE BIOLOGICAL STRANGE ATTRACTOR A Longitudinal Case Study of a Human–AI Strange…",
           "url": "https://www.reddit.com/r/SDTarchive/comments/1vy7ssd/the_biological_strange_attractor_a_longitudinal/",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2149,13 +2099,13 @@
     },
     {
       "id": "l5102",
-      "text": "AI Whistleblower WARNS: \"We Are Not Prepared For What's Coming\"\n\ud83d\udd12 Make yourself and your family AI-scam proof, step by step \u2192 https://neuralnutshell.com\n\nBrett Weinstein warns that AI has already crossed from complicated into truly complex systems, meaning technologist confidence about what these machines can and cannot do should drop to near zero. Alongside Amjad Masad, CEO of Replit, and entrepreneur Dan Priestley, Weinstein argues that AI is not a tool but a new species that will evolve in un\u2026",
+      "text": "AI Whistleblower WARNS: \"We Are Not Prepared For What's Coming\"\n🔒 Make yourself and your family AI-scam proof, step by step → https://neuralnutshell.com\n\nBrett Weinstein warns that AI has already crossed from complicated into truly complex systems, meaning technologist confidence about what these machines can and cannot do should drop to near zero. Alongside Amjad Masad, CEO of Replit, and entrepreneur Dan Priestley, Weinstein argues that AI is not a tool but a new species that will evolve in un…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Whistleblower WARNS: \"We Are Not Prepared For What's Coming\"\n\ud83d\udd12 Make yourself \u2026",
+          "title": "AI Whistleblower WARNS: \"We Are Not Prepared For What's Coming\"\n🔒 Make yourself …",
           "url": "https://www.youtube.com/watch?v=o_WrU8YpkF0",
           "date": "2026-05-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2248,6 +2198,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

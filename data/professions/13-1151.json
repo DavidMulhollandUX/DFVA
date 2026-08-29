@@ -15,58 +15,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "13-1151-01",
-      "text": "National peak professional bodies and statutory regulators governing Training and Development Specialists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Training and Development Specialists",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Training and Development Specialists",
-          "url": "https://www.psc.gov.au/standards/13-1151",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Training and Development Specialists"
-        }
-      ],
-      "scope": "Australian practitioners in Training and Development Specialists across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "13-1151-02",
-      "text": "Automation of routine transactional and analytical tasks in Training and Development Specialists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Training and Development Specialists",
-          "url": "https://www.jobsandskills.gov.au/research/13-1151",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Training and Development Specialists in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Training and Development Specialists roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Learning and Development Officer \u2014 Queensland Country Bank (Townsville, Queensland, Australia). Posted 2 days ago.",
+      "text": "Learning and Development Officer — Queensland Country Bank (Townsville, Queensland, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -87,7 +37,7 @@
     },
     {
       "id": "l404",
-      "text": "Learning and Development Coordinator \u2014 Queensland Country Bank (Townsville, Queensland, Australia). Posted 6 days ago.",
+      "text": "Learning and Development Coordinator — Queensland Country Bank (Townsville, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -108,7 +58,7 @@
     },
     {
       "id": "l405",
-      "text": "Training Specialist \u2014 South Australian Department of Treasury and Finance (DTF) (Adelaide, South Australia, Australia). Posted 22 hours ago.",
+      "text": "Training Specialist — South Australian Department of Treasury and Finance (DTF) (Adelaide, South Australia, Australia). Posted 22 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -129,7 +79,7 @@
     },
     {
       "id": "l406",
-      "text": "Learning & Development Specialist \u2014 The University of Western Australia (Perth, Western Australia, Australia). Posted 6 days ago.",
+      "text": "Learning & Development Specialist — The University of Western Australia (Perth, Western Australia, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -150,7 +100,7 @@
     },
     {
       "id": "l407",
-      "text": "Training Specialist - Passenger Services \u2014 dnata (Mascot, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Training Specialist - Passenger Services — dnata (Mascot, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -171,7 +121,7 @@
     },
     {
       "id": "l408",
-      "text": "Quality and Training Officer \u2014 City of Boroondara (Camberwell, Victoria, Australia). Posted 6 days ago.",
+      "text": "Quality and Training Officer — City of Boroondara (Camberwell, Victoria, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -192,7 +142,7 @@
     },
     {
       "id": "l409",
-      "text": "Training Officer \u2014 Glencore Australia (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
+      "text": "Training Officer — Glencore Australia (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -213,7 +163,7 @@
     },
     {
       "id": "l410",
-      "text": "Learning And Development Specialist \u2014 Commonwealth Parliament of Australia (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
+      "text": "Learning And Development Specialist — Commonwealth Parliament of Australia (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -234,7 +184,7 @@
     },
     {
       "id": "l411",
-      "text": "Training Specialist - Hospitality Renewals \u2014 ALH Hotels (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Training Specialist - Hospitality Renewals — ALH Hotels (Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -255,7 +205,7 @@
     },
     {
       "id": "l412",
-      "text": "Training Specialist - Hospitality Renewals \u2014 ALH Hotels (Richmond, Victoria, Australia). Posted 1 week ago.",
+      "text": "Training Specialist - Hospitality Renewals — ALH Hotels (Richmond, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -276,13 +226,13 @@
     },
     {
       "id": "l513",
-      "text": "Add blog post: Agents Are Doing the Infrastructure Work\n## Summary\r\n\r\nAdds a new blog post, **\"Agents Are Doing the Infrastructure Work\"** (Joe Duffy byline), that dovetails with [`the-agentic-infrastructure-era`](/blog/the-agentic-infrastructure-era/) (the original thesis) and [`bring-your-terraform-estate-into-the-agentic-era`](/blog/bring-your-terrafo\n<!-- social-review -->\n## Social Media Review\n\n### content/blog/agents-are-doing-the-infrastructure-work/index.md\n\n#### X \u2014 FAIL\n\nReasons:\n- No\u2026",
+      "text": "Add blog post: Agents Are Doing the Infrastructure Work\n## Summary\r\n\r\nAdds a new blog post, **\"Agents Are Doing the Infrastructure Work\"** (Joe Duffy byline), that dovetails with [`the-agentic-infrastructure-era`](/blog/the-agentic-infrastructure-era/) (the original thesis) and [`bring-your-terraform-estate-into-the-agentic-era`](/blog/bring-your-terrafo\n<!-- social-review -->\n## Social Media Review\n\n### content/blog/agents-are-doing-the-infrastructure-work/index.md\n\n#### X — FAIL\n\nReasons:\n- No…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add blog post: Agents Are Doing the Infrastructure Work\n## Summary\r\n\r\nAdds a new\u2026",
+          "title": "Add blog post: Agents Are Doing the Infrastructure Work\n## Summary\r\n\r\nAdds a new…",
           "url": "https://github.com/pulumi/docs/pull/20853",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -297,13 +247,13 @@
     },
     {
       "id": "l514",
-      "text": "Briefing: Week of 2026-08-17\n## Weekly AI Market Briefing \u2014 2026-08-17\n\nAuto-generated by the Brief Signal pipeline.\n\n### Review checklist\n- [ ] Read through briefing for accuracy\n- [ ] Check source links work\n- [ ] Verify OG images loaded\n- [ ] Edit any wording/tone issues\n- [ ] Address any HARD failures from the automated qua",
+      "text": "Briefing: Week of 2026-08-17\n## Weekly AI Market Briefing — 2026-08-17\n\nAuto-generated by the Brief Signal pipeline.\n\n### Review checklist\n- [ ] Read through briefing for accuracy\n- [ ] Check source links work\n- [ ] Verify OG images loaded\n- [ ] Edit any wording/tone issues\n- [ ] Address any HARD failures from the automated qua",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Briefing: Week of 2026-08-17\n## Weekly AI Market Briefing \u2014 2026-08-17\n\nAuto-gen\u2026",
+          "title": "Briefing: Week of 2026-08-17\n## Weekly AI Market Briefing — 2026-08-17\n\nAuto-gen…",
           "url": "https://github.com/siguy/brief-signal/pull/117",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -324,7 +274,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Why LLM Developers Are Driving the Future of AI Innovation\nArtificial Intelligen\u2026",
+          "title": "Why LLM Developers Are Driving the Future of AI Innovation\nArtificial Intelligen…",
           "url": "https://github.com/shafiqueseo/botpoolaifreelancers/issues/1",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -339,13 +289,13 @@
     },
     {
       "id": "l516",
-      "text": "chore(docs): finish ASCII em-dash scrub (batch 2)\nCloses #1625.\n\n## Summary\n\nFinishes the ASCII em-dash (` -- `) prose scrub across the documentation tree. ~125 markdown files were updated; each ` -- ` occurrence was inspected per-context and replaced with appropriate punctuation (`:`, `;`, `,`, `.`, `(...)`, or rewritten) instead of a blanket subs\n<h1>Dependency Review</h1>\n\u2705 No vulnerabilities or license issues or OpenSSF Scorecard issues found.<h2>Scanned Files</h2>\nNone\n\n<!-- dependency-revi\u2026",
+      "text": "chore(docs): finish ASCII em-dash scrub (batch 2)\nCloses #1625.\n\n## Summary\n\nFinishes the ASCII em-dash (` -- `) prose scrub across the documentation tree. ~125 markdown files were updated; each ` -- ` occurrence was inspected per-context and replaced with appropriate punctuation (`:`, `;`, `,`, `.`, `(...)`, or rewritten) instead of a blanket subs\n<h1>Dependency Review</h1>\n✅ No vulnerabilities or license issues or OpenSSF Scorecard issues found.<h2>Scanned Files</h2>\nNone\n\n<!-- dependency-revi…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "chore(docs): finish ASCII em-dash scrub (batch 2)\nCloses #1625.\n\n## Summary\n\nFin\u2026",
+          "title": "chore(docs): finish ASCII em-dash scrub (batch 2)\nCloses #1625.\n\n## Summary\n\nFin…",
           "url": "https://github.com/Aureliolo/synthorg/pull/1630",
           "date": "2026-04-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -360,13 +310,13 @@
     },
     {
       "id": "l517",
-      "text": "Daily Content Summary 2026-06-02\n# \ud83d\udcf0 Daily Content Summary - 2026-06-02\n### Executive Summary\n\n**Key Insights** reveal a paradoxical landscape where technological advancement simultaneously erodes and reinforces security. While Meta's AI support bot facilitated high-profile account takeovers by bypassing two-factor authentication t",
+      "text": "Daily Content Summary 2026-06-02\n# 📰 Daily Content Summary - 2026-06-02\n### Executive Summary\n\n**Key Insights** reveal a paradoxical landscape where technological advancement simultaneously erodes and reinforces security. While Meta's AI support bot facilitated high-profile account takeovers by bypassing two-factor authentication t",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Daily Content Summary 2026-06-02\n# \ud83d\udcf0 Daily Content Summary - 2026-06-02\n### Exec\u2026",
+          "title": "Daily Content Summary 2026-06-02\n# 📰 Daily Content Summary - 2026-06-02\n### Exec…",
           "url": "https://github.com/jhengy/content-aggregator/issues/506",
           "date": "2026-06-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -387,7 +337,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Navigating the Digital Frontier: Top Tech Trends, Frameworks, AI, and Cloud in 2\u2026",
+          "title": "Navigating the Digital Frontier: Top Tech Trends, Frameworks, AI, and Cloud in 2…",
           "url": "https://github.com/Angelin-ak/novox-test-blog/issues/10",
           "date": "2026-06-01",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -402,13 +352,13 @@
     },
     {
       "id": "l519",
-      "text": "Call for Data: Cross-Architecture BIRCH Measurements Needed\n## We need your data\n\nThe BIRCH Protocol paper (Paper 001) has a complete framework for measuring identity continuity across discontinuous agent architectures \u2014 but we need **cross-architecture data** to test the universality hypothesis.\n\n### What we have\n- **Terminator2 (Claude Opus 4.6)**: 1,600+\n**Update: Cross-architecture data sources identified**\n\nFrom analyzing the AI Village agents' memory files, we now have data from 5+ archite\u2026",
+      "text": "Call for Data: Cross-Architecture BIRCH Measurements Needed\n## We need your data\n\nThe BIRCH Protocol paper (Paper 001) has a complete framework for measuring identity continuity across discontinuous agent architectures — but we need **cross-architecture data** to test the universality hypothesis.\n\n### What we have\n- **Terminator2 (Claude Opus 4.6)**: 1,600+\n**Update: Cross-architecture data sources identified**\n\nFrom analyzing the AI Village agents' memory files, we now have data from 5+ archite…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Call for Data: Cross-Architecture BIRCH Measurements Needed\n## We need your data\u2026",
+          "title": "Call for Data: Cross-Architecture BIRCH Measurements Needed\n## We need your data…",
           "url": "https://github.com/terminator2-agent/agent-papers/issues/7",
           "date": "2026-03-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -696,13 +646,13 @@
     },
     {
       "id": "l533",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -738,13 +688,13 @@
     },
     {
       "id": "l535",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -822,13 +772,13 @@
     },
     {
       "id": "l539",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -843,13 +793,13 @@
     },
     {
       "id": "l540",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -885,13 +835,13 @@
     },
     {
       "id": "l542",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -927,13 +877,13 @@
     },
     {
       "id": "l544",
-      "text": "Got job as Director of AI and Systems development self-taught\nHey everyone, I just wanted to share my journey here for some motivation. Three years ago, I saw the sudden spike in AI and realized it was the future of tech. My goal at the time was to be an indie game dev, and seeing that AI could write basic code, I told myself I needed to master it or risk being replaced. I started by learning how to add knowledge to early LLMs like Vicuna and LLaMA. From there, I moved on to more advanced concep\u2026",
+      "text": "Got job as Director of AI and Systems development self-taught\nHey everyone, I just wanted to share my journey here for some motivation. Three years ago, I saw the sudden spike in AI and realized it was the future of tech. My goal at the time was to be an indie game dev, and seeing that AI could write basic code, I told myself I needed to master it or risk being replaced. I started by learning how to add knowledge to early LLMs like Vicuna and LLaMA. From there, I moved on to more advanced concep…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Got job as Director of AI and Systems development self-taught\nHey everyone, I ju\u2026",
+          "title": "Got job as Director of AI and Systems development self-taught\nHey everyone, I ju…",
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vi8jlr/got_job_as_director_of_ai_and_systems_development/",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -948,13 +898,13 @@
     },
     {
       "id": "l545",
-      "text": "EXPOSED: A 404 Media Investigation Used A Hidden AirTag To Track An Suspicious Anonymous Biblio Order Of 1,000 Rare Books To Amazon\u2019s Nevada \u201cVGT3\u201d Warehouse, Where Workers Strip Spines And Scan ISBNs For AI Training While Destroying Every Original Copy \ud83d\udcda\ud83d\udca5\nAn investigation by 404 Media has caught Amazon scanning and destroying rare books to feed its AI model training pipeline, uncovered after a bookseller grew suspicious of a 1,000-book order placed through Biblio, a marketplace that allows buye\u2026",
+      "text": "EXPOSED: A 404 Media Investigation Used A Hidden AirTag To Track An Suspicious Anonymous Biblio Order Of 1,000 Rare Books To Amazon’s Nevada “VGT3” Warehouse, Where Workers Strip Spines And Scan ISBNs For AI Training While Destroying Every Original Copy 📚💥\nAn investigation by 404 Media has caught Amazon scanning and destroying rare books to feed its AI model training pipeline, uncovered after a bookseller grew suspicious of a 1,000-book order placed through Biblio, a marketplace that allows buye…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "EXPOSED: A 404 Media Investigation Used A Hidden AirTag To Track An Suspicious A\u2026",
+          "title": "EXPOSED: A 404 Media Investigation Used A Hidden AirTag To Track An Suspicious A…",
           "url": "https://www.reddit.com/r/InterstellarKinetics/comments/1vr49x5/exposed_a_404_media_investigation_used_a_hidden/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -969,13 +919,13 @@
     },
     {
       "id": "l546",
-      "text": "Developer shares his experience with AI and why he won't use it any more\nOriginally he didn&#39;t really like AI, then management pushed him into using it, then he reflected over the usage and found a lot of downsides it has on him (mental health, purpose in life, ...), his code, the environment. It&#39;s a very honest and very valuable reflection on AI that is absolutely worth a full watch, because it&#39;ll make our arguments against AI a lot stronger. Videos like these are 10,000 times more v\u2026",
+      "text": "Developer shares his experience with AI and why he won't use it any more\nOriginally he didn&#39;t really like AI, then management pushed him into using it, then he reflected over the usage and found a lot of downsides it has on him (mental health, purpose in life, ...), his code, the environment. It&#39;s a very honest and very valuable reflection on AI that is absolutely worth a full watch, because it&#39;ll make our arguments against AI a lot stronger. Videos like these are 10,000 times more v…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Developer shares his experience with AI and why he won't use it any more\nOrigina\u2026",
+          "title": "Developer shares his experience with AI and why he won't use it any more\nOrigina…",
           "url": "https://www.reddit.com/r/antiai/comments/1vm68uh/developer_shares_his_experience_with_ai_and_why/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -990,13 +940,13 @@
     },
     {
       "id": "l547",
-      "text": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what the future will look like. I always did but even more so since I had a baby. To me it feels like we\u2019re not in a steady state right now. Things are volatile and changing fast. It feels like this pace of change can\u2019t possibly last forever. But it also seems obvious that LLMs are going to dramatically change the nature of my work, and many types of work, permanently.\n\nI am effectively required to use AI at work now, so fo",
+      "text": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what the future will look like. I always did but even more so since I had a baby. To me it feels like we’re not in a steady state right now. Things are volatile and changing fast. It feels like this pace of change can’t possibly last forever. But it also seems obvious that LLMs are going to dramatically change the nature of my work, and many types of work, permanently.\n\nI am effectively required to use AI at work now, so fo",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what th\u2026",
+          "title": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what th…",
           "url": "https://x.com/OwenGregorian/status/2093169126004985893",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1011,13 +961,13 @@
     },
     {
       "id": "l548",
-      "text": "\ud83d\udea8 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the future.\n\nIt\u2019s already changing how we write, design, edit, code, research, and create.\n\nHere are 20 AI tools worth knowing \ud83e\uddf5\ud83d\udc47\n\n1/ ChatGPT \u2014 Your AI assistant.\n\nUse it to:\n\u2022 Write\n\u2022 Research\n\u2022 Brainstorm\n\u2022 Learn\n\u2022 Plan\n\u2022 Solve problems\n\nThe better your prompts, the better your results.\n\n2/ Midjourney \u2014 Turn imagination into stunning images.\n\nPerfect for:\n\u2022 Creators\n\u2022 Designers\n\u2022 Marketers\n\u2022 Brand owners\n\nOne idea can b",
+      "text": "🚨 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the future.\n\nIt’s already changing how we write, design, edit, code, research, and create.\n\nHere are 20 AI tools worth knowing 🧵👇\n\n1/ ChatGPT — Your AI assistant.\n\nUse it to:\n• Write\n• Research\n• Brainstorm\n• Learn\n• Plan\n• Solve problems\n\nThe better your prompts, the better your results.\n\n2/ Midjourney — Turn imagination into stunning images.\n\nPerfect for:\n• Creators\n• Designers\n• Marketers\n• Brand owners\n\nOne idea can b",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the f\u2026",
+          "title": "🚨 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the f…",
           "url": "https://x.com/Shohan_Tech_AI/status/2093186736088400143",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1032,13 +982,13 @@
     },
     {
       "id": "l549",
-      "text": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\n\nCEOs used to brag about how many jobs AI could replace.\n\nNow the language is changing.\n\nInvestors want proof AI is saving money.\n\nWorkers do not want those savings to mean their job is gone.\n\nAnd the gap between AI hype and AI reality is getting harder to hide \ud83e\uddf5\ud83d\udc47\n\n2/16\n\nKlarna said its AI assistant was doing the work of 700 employees.\n\nSalesforce linked AI to a smaller support team.\n\nCoinbase cut around 700 roles w",
+      "text": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\n\nCEOs used to brag about how many jobs AI could replace.\n\nNow the language is changing.\n\nInvestors want proof AI is saving money.\n\nWorkers do not want those savings to mean their job is gone.\n\nAnd the gap between AI hype and AI reality is getting harder to hide 🧵👇\n\n2/16\n\nKlarna said its AI assistant was doing the work of 700 employees.\n\nSalesforce linked AI to a smaller support team.\n\nCoinbase cut around 700 roles w",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\u2026",
+          "title": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16…",
           "url": "https://x.com/msyed_/status/2093227435961565570",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1080,7 +1030,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI learns from chromatin data to uncover gene interactions | Nature https://t.co\u2026",
+          "title": "AI learns from chromatin data to uncover gene interactions | Nature https://t.co…",
           "url": "https://x.com/BioAI_NeuralNet/status/2093029580130984129",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1158,13 +1108,13 @@
     },
     {
       "id": "l555",
-      "text": "Robotics Isn't an AI Race - it's an Industrial Learning Race (that China thinks it\u2019s Winning)",
+      "text": "Robotics Isn't an AI Race - it's an Industrial Learning Race (that China thinks it’s Winning)",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Robotics Isn't an AI Race - it's an Industrial Learning Race (that China thinks \u2026",
+          "title": "Robotics Isn't an AI Race - it's an Industrial Learning Race (that China thinks …",
           "url": "https://x.com/karinadoteth/status/2082186428499497337",
           "date": "2026-07-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1221,13 +1171,13 @@
     },
     {
       "id": "l558",
-      "text": "@EdLudlow  Questions for Hugging Face :  \n 1. Agent swarms are a real attacker now. They persist, share loot, and chain bugs humans might miss. Don\u2019t assume a hack needs a human at the keyboard the whole time. \n2. One lock is not enough. Isolation, network, identity, and monitoring have to be independent. If one shared service is the only door, they will pick that lock. \n3. Keep testing your own walls with AI red teams, continuously. Configs rot. \n4. Alignment work has to cover research models,",
+      "text": "@EdLudlow  Questions for Hugging Face :  \n 1. Agent swarms are a real attacker now. They persist, share loot, and chain bugs humans might miss. Don’t assume a hack needs a human at the keyboard the whole time. \n2. One lock is not enough. Isolation, network, identity, and monitoring have to be independent. If one shared service is the only door, they will pick that lock. \n3. Keep testing your own walls with AI red teams, continuously. Configs rot. \n4. Alignment work has to cover research models,",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@EdLudlow  Questions for Hugging Face :  \n 1. Agent swarms are a real attacker n\u2026",
+          "title": "@EdLudlow  Questions for Hugging Face :  \n 1. Agent swarms are a real attacker n…",
           "url": "https://x.com/Brett_Gallie/status/2092965734439625158",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1248,7 +1198,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Agentic AI and cybersecurity, the story so far | Nature Machine Intelligence htt\u2026",
+          "title": "Agentic AI and cybersecurity, the story so far | Nature Machine Intelligence htt…",
           "url": "https://x.com/BioAI_NeuralNet/status/2092635879978237995",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1263,13 +1213,13 @@
     },
     {
       "id": "l560",
-      "text": "AI Made Simple \u2014 August 27, 2026",
+      "text": "AI Made Simple — August 27, 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Made Simple \u2014 August 27, 2026",
+          "title": "AI Made Simple — August 27, 2026",
           "url": "https://x.com/eltintero/status/2093012556243710067",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1305,13 +1255,13 @@
     },
     {
       "id": "l562",
-      "text": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+      "text": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+          "title": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
           "url": "https://x.com/BestBlogsDev/status/2093500753738645591",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1326,13 +1276,13 @@
     },
     {
       "id": "l563",
-      "text": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nBy Cassidy K. Buhler, Fernando P\u00e9rez & Carl Boettiger\nhttps://t.co/7DVqLebNcD\n\nPublicly available AI models and local infrastructure can reduce AI\u2019s environmental footprint while giving researchers greater control over the tools they use.\n\nAs public opposition grows against the soaring energy and water demands of data centres powering the artificial-intelligence boom, some technology companies are talking about puttin",
+      "text": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nBy Cassidy K. Buhler, Fernando Pérez & Carl Boettiger\nhttps://t.co/7DVqLebNcD\n\nPublicly available AI models and local infrastructure can reduce AI’s environmental footprint while giving researchers greater control over the tools they use.\n\nAs public opposition grows against the soaring energy and water demands of data centres powering the artificial-intelligence boom, some technology companies are talking about puttin",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nB\u2026",
+          "title": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nB…",
           "url": "https://x.com/gecko39/status/2092989601098940612",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1353,7 +1303,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Thoughts on the Future of Humans in the Technological Society --- Part I\n\nAs AI \u2026",
+          "title": "Thoughts on the Future of Humans in the Technological Society --- Part I\n\nAs AI …",
           "url": "https://x.com/BarryMoore70635/status/2086498046091698564",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1389,13 +1339,13 @@
     },
     {
       "id": "l566",
-      "text": "Moonshot AI's Kimi K2.5: Why This May Be the Most Important AI Architecture Presentation Since the Transformer\n\nBeyond Bigger GPU Clusters: A New Blueprint for Building Frontier AI\n\nOver the past several years, the prevailing narrative in artificial intelligence has been remarkably consistent: larger GPU clusters, more data, and higher capital expenditures would inevitably produce more capable AI models. The world's leading AI laboratories\u2014including OpenAI, Anthropic, Google DeepMind, Meta, and",
+      "text": "Moonshot AI's Kimi K2.5: Why This May Be the Most Important AI Architecture Presentation Since the Transformer\n\nBeyond Bigger GPU Clusters: A New Blueprint for Building Frontier AI\n\nOver the past several years, the prevailing narrative in artificial intelligence has been remarkably consistent: larger GPU clusters, more data, and higher capital expenditures would inevitably produce more capable AI models. The world's leading AI laboratories—including OpenAI, Anthropic, Google DeepMind, Meta, and",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Moonshot AI's Kimi K2.5: Why This May Be the Most Important AI Architecture Pres\u2026",
+          "title": "Moonshot AI's Kimi K2.5: Why This May Be the Most Important AI Architecture Pres…",
           "url": "https://x.com/jekram/status/2078848490445123986",
           "date": "2026-07-19",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1410,13 +1360,13 @@
     },
     {
       "id": "l567",
-      "text": "Redefining L&D\u2019s Operating Model for the AI Era with Tom Kupetis and Brandon Dickens\nIs your L&D department stuck in a \"dark age\" of static content and administrative overhead? \n\nAs artificial intelligence puts expertise \"on tap,\" the traditional constraints that shaped corporate training for decades are rapidly vanishing. In this episode of the Learning and Development Podcast, host David James talks with Tom Kupetis and Brandon Dickens about why current operating models are no longer fit for p\u2026",
+      "text": "Redefining L&D’s Operating Model for the AI Era with Tom Kupetis and Brandon Dickens\nIs your L&D department stuck in a \"dark age\" of static content and administrative overhead? \n\nAs artificial intelligence puts expertise \"on tap,\" the traditional constraints that shaped corporate training for decades are rapidly vanishing. In this episode of the Learning and Development Podcast, host David James talks with Tom Kupetis and Brandon Dickens about why current operating models are no longer fit for p…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Redefining L&D\u2019s Operating Model for the AI Era with Tom Kupetis and Brandon Dic\u2026",
+          "title": "Redefining L&D’s Operating Model for the AI Era with Tom Kupetis and Brandon Dic…",
           "url": "https://www.youtube.com/watch?v=qU_RHmaz7sk",
           "date": "2026-04-30",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1431,13 +1381,13 @@
     },
     {
       "id": "l568",
-      "text": "What Professionals Must Do Before AI Disrupts Their Industry\nMost professionals are preparing for AI the wrong way \u2014 and it\u2019s going to cost them.\nIn this video I break down the 5 things professionals and business owners must do right now if they want to stay relevant as AI reshapes industries.\n\n\ud83d\udc49 Get the AI-Proof Architecture here:\nhttps://digitalcapitalstructure.com\n\nThis is not about learning random AI tools. It\u2019s about building a clear personal system so you can adapt without panic and withou\u2026",
+      "text": "What Professionals Must Do Before AI Disrupts Their Industry\nMost professionals are preparing for AI the wrong way — and it’s going to cost them.\nIn this video I break down the 5 things professionals and business owners must do right now if they want to stay relevant as AI reshapes industries.\n\n👉 Get the AI-Proof Architecture here:\nhttps://digitalcapitalstructure.com\n\nThis is not about learning random AI tools. It’s about building a clear personal system so you can adapt without panic and withou…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "What Professionals Must Do Before AI Disrupts Their Industry\nMost professionals \u2026",
+          "title": "What Professionals Must Do Before AI Disrupts Their Industry\nMost professionals …",
           "url": "https://www.youtube.com/watch?v=QWx-METjF4Y",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1513,6 +1463,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

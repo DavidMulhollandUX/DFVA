@@ -14,58 +14,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "51-6052-01",
-      "text": "National peak professional bodies and statutory regulators governing Tailors, Dressmakers, and Custom Sewers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Tailors, Dressmakers, and Custom Sewers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Tailors, Dressmakers, and Custom Sewers",
-          "url": "https://www.psc.gov.au/standards/51-6052",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Tailors, Dressmakers, and Custom Sewers"
-        }
-      ],
-      "scope": "Australian practitioners in Tailors, Dressmakers, and Custom Sewers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "51-6052-02",
-      "text": "Automation of routine transactional and analytical tasks in Tailors, Dressmakers, and Custom Sewers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Tailors, Dressmakers, and Custom Sewers",
-          "url": "https://www.jobsandskills.gov.au/research/51-6052",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Tailors, Dressmakers, and Custom Sewers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Tailors, Dressmakers, and Custom Sewers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Bridal Pattern Cutter \u2014 Fashion & Retail Personnel Ltd (Queensland, Australia). Posted 4 hours ago.",
+      "text": "Bridal Pattern Cutter — Fashion & Retail Personnel Ltd (Queensland, Australia). Posted 4 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -86,7 +36,7 @@
     },
     {
       "id": "l404",
-      "text": "Garment Technician \u2014 Talent Matters (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Garment Technician — Talent Matters (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -107,7 +57,7 @@
     },
     {
       "id": "l405",
-      "text": "Garment Technician - Own Brand \u2014 THE ICONIC (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Garment Technician - Own Brand — THE ICONIC (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -128,7 +78,7 @@
     },
     {
       "id": "l406",
-      "text": "Garment Technician - Own Brand \u2014 Hatch (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Garment Technician - Own Brand — Hatch (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -149,7 +99,7 @@
     },
     {
       "id": "l407",
-      "text": "SEAMSPERSON \u2014 Ventia (Bandiana, Victoria, Australia). Posted 1 week ago.",
+      "text": "SEAMSPERSON — Ventia (Bandiana, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -170,7 +120,7 @@
     },
     {
       "id": "l408",
-      "text": "Garment Technician \u2014 POSSE (Sydney, New South Wales, Australia). Posted 3 days ago.",
+      "text": "Garment Technician — POSSE (Sydney, New South Wales, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -191,7 +141,7 @@
     },
     {
       "id": "l409",
-      "text": "Garment Technician - Own Brand @ Fashion Ecommerce \u2014 Hatch (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Garment Technician - Own Brand @ Fashion Ecommerce — Hatch (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -212,7 +162,7 @@
     },
     {
       "id": "l410",
-      "text": "Designer \u2014 Lorna Jane (Eagle Farm, Queensland, Australia). Posted 1 month ago.",
+      "text": "Designer — Lorna Jane (Eagle Farm, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -233,7 +183,7 @@
     },
     {
       "id": "l411",
-      "text": "Product Developer (12-month fixed contract) \u2014 Princess Polly (Burleigh Heads, Queensland, Australia). Posted 1 week ago.",
+      "text": "Product Developer (12-month fixed contract) — Princess Polly (Burleigh Heads, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -254,7 +204,7 @@
     },
     {
       "id": "l412",
-      "text": "Designer \u2014 Princess Polly (Burleigh Heads, Queensland, Australia). Posted 1 week ago.",
+      "text": "Designer — Princess Polly (Burleigh Heads, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -275,13 +225,13 @@
     },
     {
       "id": "l513",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -317,13 +267,13 @@
     },
     {
       "id": "l515",
-      "text": "Hallmark \u2013 Anti-AI-Slop Design Skill for Claude Code, Cursor, and Codex",
+      "text": "Hallmark – Anti-AI-Slop Design Skill for Claude Code, Cursor, and Codex",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Hallmark \u2013 Anti-AI-Slop Design Skill for Claude Code, Cursor, and Codex",
+          "title": "Hallmark – Anti-AI-Slop Design Skill for Claude Code, Cursor, and Codex",
           "url": "https://github.com/Nutlope/hallmark",
           "date": "2026-07-26",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -401,13 +351,13 @@
     },
     {
       "id": "l519",
-      "text": "Crit \u2013 AI Design Reviews in the Terminal",
+      "text": "Crit – AI Design Reviews in the Terminal",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Crit \u2013 AI Design Reviews in the Terminal",
+          "title": "Crit – AI Design Reviews in the Terminal",
           "url": "https://crit.officialjp.com/",
           "date": "2026-06-20",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -569,13 +519,13 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: ResumeSkip \u2013 automatically tailor your resume to jobs",
+      "text": "Show HN: ResumeSkip – automatically tailor your resume to jobs",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ResumeSkip \u2013 automatically tailor your resume to jobs",
+          "title": "Show HN: ResumeSkip – automatically tailor your resume to jobs",
           "url": "https://resumeskip.com/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "Show HN: Auto-identity-remove \u2013 Automated data broker opt-out runner for macOS",
+      "text": "Show HN: Auto-identity-remove – Automated data broker opt-out runner for macOS",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Auto-identity-remove \u2013 Automated data broker opt-out runner for macOS",
+          "title": "Show HN: Auto-identity-remove – Automated data broker opt-out runner for macOS",
           "url": "https://github.com/stephenlthorn/auto-identity-remove",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -758,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "Automated Moderation Is Here to Stay\u2013Accountability Must Keep Pace",
+      "text": "Automated Moderation Is Here to Stay–Accountability Must Keep Pace",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Automated Moderation Is Here to Stay\u2013Accountability Must Keep Pace",
+          "title": "Automated Moderation Is Here to Stay–Accountability Must Keep Pace",
           "url": "https://www.eff.org/deeplinks/2026/07/part-2-automated-moderation-here-stay-accountability-must-keep-pace",
           "date": "2026-07-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -848,7 +798,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bootstrap fashion sewing form is done! Very excited about being able to utilize \u2026",
+          "title": "Bootstrap fashion sewing form is done! Very excited about being able to utilize …",
           "url": "https://www.reddit.com/r/sewing/comments/1vyhib1/bootstrap_fashion_sewing_form_is_done_very/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -863,13 +813,13 @@
     },
     {
       "id": "l541",
-      "text": "My entire software development workflow is AI now, and it feels both exhausting and soulless\nI&#39;ve been a SWE for a little over 4 years, and Claude has basically been a permanent coworker for the last year. At first, it was great. I already knew ChatGPT and Cursor, so when my team got Claude I adapted quickly and ended up way ahead of most of my coworkers in how I used it. I even got a significant raise partly because of that. Claude did a lot of the coding, but I was still doing the engineer\u2026",
+      "text": "My entire software development workflow is AI now, and it feels both exhausting and soulless\nI&#39;ve been a SWE for a little over 4 years, and Claude has basically been a permanent coworker for the last year. At first, it was great. I already knew ChatGPT and Cursor, so when my team got Claude I adapted quickly and ended up way ahead of most of my coworkers in how I used it. I even got a significant raise partly because of that. Claude did a lot of the coding, but I was still doing the engineer…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "My entire software development workflow is AI now, and it feels both exhausting \u2026",
+          "title": "My entire software development workflow is AI now, and it feels both exhausting …",
           "url": "https://www.reddit.com/r/cscareerquestions/comments/1vi1i7m/my_entire_software_development_workflow_is_ai_now/",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -884,13 +834,13 @@
     },
     {
       "id": "l542",
-      "text": "No, AI will not save the Masquerade\nI&#39;ve seen this point raised a lot in the past few years as a potential way that the Masquerade will remain feasible despite the surveillance era we&#39;re all enduring. It&#39;s so prevalent, we&#39;ve even seen it appear in the VtM6 playtest material. The new digital world of post-truth and AI slop has turned out beautifully for the Masquerade. No one believes in anything anymore. Everything is staged, posed, faked. Vampires take advantage of it, though t\u2026",
+      "text": "No, AI will not save the Masquerade\nI&#39;ve seen this point raised a lot in the past few years as a potential way that the Masquerade will remain feasible despite the surveillance era we&#39;re all enduring. It&#39;s so prevalent, we&#39;ve even seen it appear in the VtM6 playtest material. The new digital world of post-truth and AI slop has turned out beautifully for the Masquerade. No one believes in anything anymore. Everything is staged, posed, faked. Vampires take advantage of it, though t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "No, AI will not save the Masquerade\nI&#39;ve seen this point raised a lot in the\u2026",
+          "title": "No, AI will not save the Masquerade\nI&#39;ve seen this point raised a lot in the…",
           "url": "https://www.reddit.com/r/vtm/comments/1vmwjt6/no_ai_will_not_save_the_masquerade/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "Need testers for PICO - Custom Fashion Tailoring App. Will test your app back immediately!\nHey everyone! \ud83d\udc4b My app PICO is finally ready for early access, and I need your help to hit the tester requirement to get to production. I am very happy to test your apps in return! About PICO: We bring custom fashion stitching straight to your doorstep. \ud83d\udc57\u2728 If you have a moment, please explore the catalog, customize a style, add items to your cart, and test it out. Any honest feedback on the UI/UX is highly\u2026",
+      "text": "Need testers for PICO - Custom Fashion Tailoring App. Will test your app back immediately!\nHey everyone! 👋 My app PICO is finally ready for early access, and I need your help to hit the tester requirement to get to production. I am very happy to test your apps in return! About PICO: We bring custom fashion stitching straight to your doorstep. 👗✨ If you have a moment, please explore the catalog, customize a style, add items to your cart, and test it out. Any honest feedback on the UI/UX is highly…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Need testers for PICO - Custom Fashion Tailoring App. Will test your app back im\u2026",
+          "title": "Need testers for PICO - Custom Fashion Tailoring App. Will test your app back im…",
           "url": "https://www.reddit.com/r/AndroidClosedTesting/comments/1vpwo7r/need_testers_for_pico_custom_fashion_tailoring/",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -926,13 +876,13 @@
     },
     {
       "id": "l544",
-      "text": "Client wants full-time EA + custom AI automations for $1k/mo. Sent a counter for $1.1k + deposit. Did I handle this right?\nHey guys, looking for a quick sanity check on a negotiation. I\u2019m going solo after leaving an agency and negotiating a full-time (40 hrs/wk) EA role. His Offer: $1,000/mo flat ($6.25/hr). Standard EA stuff, but he specifically wants me to build custom AI workflows, Claude API tools, and Google Apps Script automations to fix his agency&#39;s bottlenecks. My Counter: $1,100/mo \u2026",
+      "text": "Client wants full-time EA + custom AI automations for $1k/mo. Sent a counter for $1.1k + deposit. Did I handle this right?\nHey guys, looking for a quick sanity check on a negotiation. I’m going solo after leaving an agency and negotiating a full-time (40 hrs/wk) EA role. His Offer: $1,000/mo flat ($6.25/hr). Standard EA stuff, but he specifically wants me to build custom AI workflows, Claude API tools, and Google Apps Script automations to fix his agency&#39;s bottlenecks. My Counter: $1,100/mo …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Client wants full-time EA + custom AI automations for $1k/mo. Sent a counter for\u2026",
+          "title": "Client wants full-time EA + custom AI automations for $1k/mo. Sent a counter for…",
           "url": "https://www.reddit.com/r/buhaydigital/comments/1veph26/client_wants_fulltime_ea_custom_ai_automations/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "Need testers for PICO. Custom Fashion Tailoring App. Will test your app back immediately!\nHey everyone! \ud83d\udc4b My app PICO is finally ready for early access, and I need your help to hit the tester requirement to get to production. I am very happy to test your apps in return! About PICO: We bring custom fashion stitching straight to your doorstep. \ud83d\udc57\u2728 If you have a moment, please explore the catalog, customize a style, add items to your cart, and test it out. Any honest feedback on the UI/UX is highly \u2026",
+      "text": "Need testers for PICO. Custom Fashion Tailoring App. Will test your app back immediately!\nHey everyone! 👋 My app PICO is finally ready for early access, and I need your help to hit the tester requirement to get to production. I am very happy to test your apps in return! About PICO: We bring custom fashion stitching straight to your doorstep. 👗✨ If you have a moment, please explore the catalog, customize a style, add items to your cart, and test it out. Any honest feedback on the UI/UX is highly …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Need testers for PICO. Custom Fashion Tailoring App. Will test your app back imm\u2026",
+          "title": "Need testers for PICO. Custom Fashion Tailoring App. Will test your app back imm…",
           "url": "https://www.reddit.com/r/TestersCommunity/comments/1vv2p2k/need_testers_for_pico_custom_fashion_tailoring/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "How to build a custom multimodal AI agent/assistant for PC and Mobile automation?\nHi everyone, I want to build a personal voice-activated AI assistant/agent that can execute tasks across both my PC (Windows) and mobile device based on voice commands. Here is what I am aiming for: Cross-Platform Control: Capable of automating tasks on PC (managing files, running scripts, app controls, browser automation) and basic mobile actions. Voice-to-Action: Fast Speech-to-Text (STT) \u2192 LLM reasoning / Tool C\u2026",
+      "text": "How to build a custom multimodal AI agent/assistant for PC and Mobile automation?\nHi everyone, I want to build a personal voice-activated AI assistant/agent that can execute tasks across both my PC (Windows) and mobile device based on voice commands. Here is what I am aiming for: Cross-Platform Control: Capable of automating tasks on PC (managing files, running scripts, app controls, browser automation) and basic mobile actions. Voice-to-Action: Fast Speech-to-Text (STT) → LLM reasoning / Tool C…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "How to build a custom multimodal AI agent/assistant for PC and Mobile automation\u2026",
+          "title": "How to build a custom multimodal AI agent/assistant for PC and Mobile automation…",
           "url": "https://www.reddit.com/r/AIVoice_Agents/comments/1vprz58/how_to_build_a_custom_multimodal_ai/",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "I think people seriously underestimate how easy it is to automate your PC with AI now.\nYou can literally tell an AI: \u201cMake me a Python app that does X every morning at 8, opens the browser, goes to these sites, checks this, saves the results here, and then sends me a notification.\u201d And it can just build the thing for you. Browser control, scheduled tasks, file management, APIs, scraping, monitoring, reports, repetitive work, etc. You basically describe what you want your computer to do, when you\u2026",
+      "text": "I think people seriously underestimate how easy it is to automate your PC with AI now.\nYou can literally tell an AI: “Make me a Python app that does X every morning at 8, opens the browser, goes to these sites, checks this, saves the results here, and then sends me a notification.” And it can just build the thing for you. Browser control, scheduled tasks, file management, APIs, scraping, monitoring, reports, repetitive work, etc. You basically describe what you want your computer to do, when you…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I think people seriously underestimate how easy it is to automate your PC with A\u2026",
+          "title": "I think people seriously underestimate how easy it is to automate your PC with A…",
           "url": "https://www.reddit.com/r/AI_Agents/comments/1vcvjb9/i_think_people_seriously_underestimate_how_easy/",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1010,13 +960,13 @@
     },
     {
       "id": "l548",
-      "text": "AI isn\u2019t replacing jobs, it\u2019s replacing human economic value itself\nThe biggest mistake people make about AI is thinking it\u2019s coming for artists, writers, musicians, or programmers. They\u2019re just first. AI is coming for almost every profession that depends more on a brain than a body. Accountants. Lawyers. Teachers. Consultants. Analysts. Customer service. Marketing. Management. Software engineering. Research. Finance. Medicine. Eventually almost every job where the primary product is human thoug\u2026",
+      "text": "AI isn’t replacing jobs, it’s replacing human economic value itself\nThe biggest mistake people make about AI is thinking it’s coming for artists, writers, musicians, or programmers. They’re just first. AI is coming for almost every profession that depends more on a brain than a body. Accountants. Lawyers. Teachers. Consultants. Analysts. Customer service. Marketing. Management. Software engineering. Research. Finance. Medicine. Eventually almost every job where the primary product is human thoug…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI isn\u2019t replacing jobs, it\u2019s replacing human economic value itself\nThe biggest \u2026",
+          "title": "AI isn’t replacing jobs, it’s replacing human economic value itself\nThe biggest …",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1v7oley/ai_isnt_replacing_jobs_its_replacing_human/",
           "date": "2026-07-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1031,13 +981,13 @@
     },
     {
       "id": "l549",
-      "text": "[For Hire] AI & Full-Stack Developer \u2014 Websites, AI Automation, Chatbots & Custom Software\n**I\u2019m looking to help a few small businesses automate something they hate doing** I run a small software/AI development company, and I&#39;m looking to work with a few businesses that have repetitive processes they want to automate. I can help with things like: * Business websites / landing pages * AI chatbots and customer-support systems * WhatsApp/lead automation * Internal dashboards and tools * Automat\u2026",
+      "text": "[For Hire] AI & Full-Stack Developer — Websites, AI Automation, Chatbots & Custom Software\n**I’m looking to help a few small businesses automate something they hate doing** I run a small software/AI development company, and I&#39;m looking to work with a few businesses that have repetitive processes they want to automate. I can help with things like: * Business websites / landing pages * AI chatbots and customer-support systems * WhatsApp/lead automation * Internal dashboards and tools * Automat…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "[For Hire] AI & Full-Stack Developer \u2014 Websites, AI Automation, Chatbots & Custo\u2026",
+          "title": "[For Hire] AI & Full-Stack Developer — Websites, AI Automation, Chatbots & Custo…",
           "url": "https://www.reddit.com/r/AiAutomations/comments/1vwqtmf/for_hire_ai_fullstack_developer_websites_ai/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1058,7 +1008,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "How it feels to be hung up on by AI automated customer service over and over aga\u2026",
+          "title": "How it feels to be hung up on by AI automated customer service over and over aga…",
           "url": "https://www.reddit.com/r/pinkscare/comments/1vi0dq8/how_it_feels_to_be_hung_up_on_by_ai_automated/",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1079,7 +1029,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Pretty awesome site as it's easy for their AI custom resume tailored for the pos\u2026",
+          "title": "Pretty awesome site as it's easy for their AI custom resume tailored for the pos…",
           "url": "https://www.reddit.com/r/jobright/comments/1vvlfae/pretty_awesome_site_as_its_easy_for_their_ai/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1100,7 +1050,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Customer Service with AI: Practical Skills and Automation ($19.99 to FREE)\n&#32;\u2026",
+          "title": "Customer Service with AI: Practical Skills and Automation ($19.99 to FREE)\n&#32;…",
           "url": "https://www.reddit.com/r/Udemies/comments/1vxt9la/customer_service_with_ai_practical_skills_and/",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1115,13 +1065,13 @@
     },
     {
       "id": "l553",
-      "text": "Seamstresses: AI Tailors Perfectly - Your Custom Skills Advantage\nThanks for watching! If you enjoy content about AI and the future of work, consider subscribing to KB BlueTree. We cover everything from AI replacing jobs to AI in education, finance, hiring, and daily life.\n\n\ud83c\udfaf Subscribe here: https://www.youtube.com/@kbbluetree \n\ud83d\udce7 For business inquiries: kbbluetree@gmai.com",
+      "text": "Seamstresses: AI Tailors Perfectly - Your Custom Skills Advantage\nThanks for watching! If you enjoy content about AI and the future of work, consider subscribing to KB BlueTree. We cover everything from AI replacing jobs to AI in education, finance, hiring, and daily life.\n\n🎯 Subscribe here: https://www.youtube.com/@kbbluetree \n📧 For business inquiries: kbbluetree@gmai.com",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Seamstresses: AI Tailors Perfectly - Your Custom Skills Advantage\nThanks for wat\u2026",
+          "title": "Seamstresses: AI Tailors Perfectly - Your Custom Skills Advantage\nThanks for wat…",
           "url": "https://www.youtube.com/watch?v=I-PHQpdfzT0",
           "date": "2026-03-15",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1325,13 +1275,13 @@
     },
     {
       "id": "l563",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1346,13 +1296,13 @@
     },
     {
       "id": "l564",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1535,13 +1485,13 @@
     },
     {
       "id": "l573",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1577,13 +1527,13 @@
     },
     {
       "id": "l575",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1619,13 +1569,13 @@
     },
     {
       "id": "l577",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1640,13 +1590,13 @@
     },
     {
       "id": "l578",
-      "text": "AI is coming for our livelihood\nI work as a doctor in one of the premier hospitals in Pakistan. We have quarterly benchmarks that need to be met. As our system is all EHR related, we have gazillions of data points. So in one of the areas we werent doing well so i wanted to find out some metrics. Our compliance department was just tracking one thing from a data set. So, having no knowledge in python or stats, I had claude custom tailor a python script, which measures like so many things, all kids\u2026",
+      "text": "AI is coming for our livelihood\nI work as a doctor in one of the premier hospitals in Pakistan. We have quarterly benchmarks that need to be met. As our system is all EHR related, we have gazillions of data points. So in one of the areas we werent doing well so i wanted to find out some metrics. Our compliance department was just tracking one thing from a data set. So, having no knowledge in python or stats, I had claude custom tailor a python script, which measures like so many things, all kids…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI is coming for our livelihood\nI work as a doctor in one of the premier hospita\u2026",
+          "title": "AI is coming for our livelihood\nI work as a doctor in one of the premier hospita…",
           "url": "https://www.reddit.com/r/PakistaniTech/comments/1vv4y96/ai_is_coming_for_our_livelihood/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1661,13 +1611,13 @@
     },
     {
       "id": "l579",
-      "text": "Today's changes to ToS: new language on AI training, account-sharing, \"review bombing\"\nA lot of people got a request to re-agree to ToS today. Just thought I\u2019d review the most recent changes in the document for those who click through this stuff, comparing it to the last edit from June, 2025: 1. section 2.2 (Age Verification) is greatly expanded. New wording: Verification and Age-Based Features *. G aijin may, at its sole discretion or or where required by applicable law, require the User to ver\u2026",
+      "text": "Today's changes to ToS: new language on AI training, account-sharing, \"review bombing\"\nA lot of people got a request to re-agree to ToS today. Just thought I’d review the most recent changes in the document for those who click through this stuff, comparing it to the last edit from June, 2025: 1. section 2.2 (Age Verification) is greatly expanded. New wording: Verification and Age-Based Features *. G aijin may, at its sole discretion or or where required by applicable law, require the User to ver…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Today's changes to ToS: new language on AI training, account-sharing, \"review bo\u2026",
+          "title": "Today's changes to ToS: new language on AI training, account-sharing, \"review bo…",
           "url": "https://www.reddit.com/r/WarthunderPlayerUnion/comments/1vrwlt8/todays_changes_to_tos_new_language_on_ai_training/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1682,13 +1632,13 @@
     },
     {
       "id": "l580",
-      "text": "Fucking Ling-3.0-flash-Fin from @AntLingAGI is FREEEEE FOR 30 DAYS on Novita AI\ud83d\ude33\n\n\u200blaunched as a Day-0 partner, developed directly with top financial institutions & domain experts\n\n-124B total (5.1B active) parameters -powering insane multi-step\n-execution and reasoning\n-serverless API built specifically for\n-real world investment workflows\n\nrun don't walk https://t.co/ZJgQU6focQ",
+      "text": "Fucking Ling-3.0-flash-Fin from @AntLingAGI is FREEEEE FOR 30 DAYS on Novita AI😳\n\n​launched as a Day-0 partner, developed directly with top financial institutions & domain experts\n\n-124B total (5.1B active) parameters -powering insane multi-step\n-execution and reasoning\n-serverless API built specifically for\n-real world investment workflows\n\nrun don't walk https://t.co/ZJgQU6focQ",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Fucking Ling-3.0-flash-Fin from @AntLingAGI is FREEEEE FOR 30 DAYS on Novita AI\ud83d\ude33\u2026",
+          "title": "Fucking Ling-3.0-flash-Fin from @AntLingAGI is FREEEEE FOR 30 DAYS on Novita AI😳…",
           "url": "https://x.com/nahid_pro09/status/2093374539917087210",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1703,13 +1653,13 @@
     },
     {
       "id": "l581",
-      "text": "\ud83d\udd22 High-Precision Utility: BTT tokenomics optimized for global micro-transactions!\n\n1\ufe0f\u20e3 Micro-Pay Utility:\n\u2192 990 Trillion total supply ensures fractional-cent pricing precision for bandwidth sales\n\u2192 Allows granular micro-pricing for AI compute queries, file downloads, and RPC requests\n\u2192 Seamless TRC-20 structure guarantees compatibility across all TRON DEXs and wallets\n\n2\ufe0f\u20e3 Infrastructure Scaling:\n\u2192 Perfectly tailors BTT for high-volume, small-denomination machine transactions\n\n3\ufe0f\u20e3 In summary, on",
+      "text": "🔢 High-Precision Utility: BTT tokenomics optimized for global micro-transactions!\n\n1️⃣ Micro-Pay Utility:\n→ 990 Trillion total supply ensures fractional-cent pricing precision for bandwidth sales\n→ Allows granular micro-pricing for AI compute queries, file downloads, and RPC requests\n→ Seamless TRC-20 structure guarantees compatibility across all TRON DEXs and wallets\n\n2️⃣ Infrastructure Scaling:\n→ Perfectly tailors BTT for high-volume, small-denomination machine transactions\n\n3️⃣ In summary, on",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udd22 High-Precision Utility: BTT tokenomics optimized for global micro-transactions\u2026",
+          "title": "🔢 High-Precision Utility: BTT tokenomics optimized for global micro-transactions…",
           "url": "https://x.com/Rich79_Capital/status/2092631656322785714",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1724,13 +1674,13 @@
     },
     {
       "id": "l582",
-      "text": "@Mercy_Dearest LMAO AI isnt even the problem its the fact most people dont care anymore if their shit fits and go for fast fashion and all \nand also that i live on the country side like why dont we have any theaters i could apply to?? and why are most tailors only for trad clothing \ud83d\ude2d",
+      "text": "@Mercy_Dearest LMAO AI isnt even the problem its the fact most people dont care anymore if their shit fits and go for fast fashion and all \nand also that i live on the country side like why dont we have any theaters i could apply to?? and why are most tailors only for trad clothing 😭",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Mercy_Dearest LMAO AI isnt even the problem its the fact most people dont care \u2026",
+          "title": "@Mercy_Dearest LMAO AI isnt even the problem its the fact most people dont care …",
           "url": "https://x.com/HarutoSideris/status/2092319770477580685",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1751,7 +1701,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Meet @AgnaySrivastava & @pulkit_gupta2 , the founders of @TsentaAi .\n\nThey appli\u2026",
+          "title": "Meet @AgnaySrivastava & @pulkit_gupta2 , the founders of @TsentaAi .\n\nThey appli…",
           "url": "https://x.com/xlides_co/status/2092615816743465089",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1766,13 +1716,13 @@
     },
     {
       "id": "l584",
-      "text": "Someone turned Claude Code into an AI job-search team.\n\nIt finds and ranks jobs, tailors each application, and reviews everything.\n\n69 applications \u2192 20 interviews \u2192 AI Engineer job.\n\nAI is moving from tasks to workflows. \ud83d\ude80 https://t.co/w8EyIRFfHn",
+      "text": "Someone turned Claude Code into an AI job-search team.\n\nIt finds and ranks jobs, tailors each application, and reviews everything.\n\n69 applications → 20 interviews → AI Engineer job.\n\nAI is moving from tasks to workflows. 🚀 https://t.co/w8EyIRFfHn",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Someone turned Claude Code into an AI job-search team.\n\nIt finds and ranks jobs,\u2026",
+          "title": "Someone turned Claude Code into an AI job-search team.\n\nIt finds and ranks jobs,…",
           "url": "https://x.com/mohshaheen/status/2092182698265608322",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1835,7 +1785,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I've been building a pipeline that reads job postings and tailors my resume agai\u2026",
+          "title": "I've been building a pipeline that reads job postings and tailors my resume agai…",
           "url": "https://x.com/_Afroprogrammer/status/2091921952826871954",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1856,7 +1806,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "11. VEYALA: THE AI THAT TAILORS YOUR CV AND COVER LETTER TO EVERY JOB OFFER IN 3\u2026",
+          "title": "11. VEYALA: THE AI THAT TAILORS YOUR CV AND COVER LETTER TO EVERY JOB OFFER IN 3…",
           "url": "https://x.com/davidakpovi/status/2091972069152202976",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1871,13 +1821,13 @@
     },
     {
       "id": "l589",
-      "text": "\ud83d\udea8 $MU: CXMT\u2019S 870% REVENUE SURGE IS A BULL SIGNAL.\n\nChina\u2019s CXMT just reported $22.4B in first half revenue, up 874% YoY, with DRAM supply still tight and pricing still rising. AI is expanding the memory market much faster than supply can currently catch up. \n\nIf the 4th largest DRAM supplier can grow this quickly while still saying the market is supply constrained, it confirms $MU's pricing power, utilization, and earnings setup. Global DRAM revenue already hit a record $97B in Q1, up 260% YoY.",
+      "text": "🚨 $MU: CXMT’S 870% REVENUE SURGE IS A BULL SIGNAL.\n\nChina’s CXMT just reported $22.4B in first half revenue, up 874% YoY, with DRAM supply still tight and pricing still rising. AI is expanding the memory market much faster than supply can currently catch up. \n\nIf the 4th largest DRAM supplier can grow this quickly while still saying the market is supply constrained, it confirms $MU's pricing power, utilization, and earnings setup. Global DRAM revenue already hit a record $97B in Q1, up 260% YoY.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8 $MU: CXMT\u2019S 870% REVENUE SURGE IS A BULL SIGNAL.\n\nChina\u2019s CXMT just reported $\u2026",
+          "title": "🚨 $MU: CXMT’S 870% REVENUE SURGE IS A BULL SIGNAL.\n\nChina’s CXMT just reported $…",
           "url": "https://x.com/Bearlovesbull/status/2093328380351394163",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1919,7 +1869,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "So, what do you get when you run a Layer 2C-sponsored lab? \n\nYou get the answer \u2026",
+          "title": "So, what do you get when you run a Layer 2C-sponsored lab? \n\nYou get the answer …",
           "url": "https://x.com/CTOAdvisor/status/2092990273403949266",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1961,7 +1911,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Worth a look.\n\nYou sleep. The agent applies. AI job-search agent that matches ro\u2026",
+          "title": "Worth a look.\n\nYou sleep. The agent applies. AI job-search agent that matches ro…",
           "url": "https://x.com/apprater/status/2092357601203806634",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1982,7 +1932,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "LLMs have been mostly all-purpose. QueryStory tailors them for cybersecurity, br\u2026",
+          "title": "LLMs have been mostly all-purpose. QueryStory tailors them for cybersecurity, br…",
           "url": "https://x.com/AiTrendDesk/status/2093060180846264362",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -2003,7 +1953,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@DegenSynth @sleepagotchi @NucleusCodes A coordinated AI team that tailors meals\u2026",
+          "title": "@DegenSynth @sleepagotchi @NucleusCodes A coordinated AI team that tailors meals…",
           "url": "https://x.com/ImranTjr/status/2092255210022240577",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -2107,6 +2057,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

@@ -14,56 +14,6 @@
   "programs": [],
   "claims": [
     {
-      "id": "43-5081-01",
-      "text": "National peak professional bodies and statutory regulators governing Stock Clerks and Order Fillers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Stock Clerks and Order Fillers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Stock Clerks and Order Fillers",
-          "url": "https://www.psc.gov.au/standards/43-5081",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Stock Clerks and Order Fillers"
-        }
-      ],
-      "scope": "Australian practitioners in Stock Clerks and Order Fillers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "43-5081-02",
-      "text": "Automation of routine transactional and analytical tasks in Stock Clerks and Order Fillers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Stock Clerks and Order Fillers",
-          "url": "https://www.jobsandskills.gov.au/research/43-5081",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Stock Clerks and Order Fillers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Stock Clerks and Order Fillers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
       "text": "BUG: Anyone with the `DOCKET_CLERK_REPORT` permission can retrieve anyone else's messages\n**Describe the Bug**\nThe `DOCKET_CLERK_REPORT` permission was added (and granted to Case Services Supervisors) in order to power a report which allows Case Services Supervisors to view (all/some) Docket Clerks' messages.\n\nWhat it actually does, at least as far as the API routes are concerned, is gra",
       "lane": "L5",
@@ -71,7 +21,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "BUG: Anyone with the `DOCKET_CLERK_REPORT` permission can retrieve anyone else's\u2026",
+          "title": "BUG: Anyone with the `DOCKET_CLERK_REPORT` permission can retrieve anyone else's…",
           "url": "https://github.com/ustaxcourt/ef-cms/issues/10353",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -275,13 +225,13 @@
     },
     {
       "id": "l513",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -359,13 +309,13 @@
     },
     {
       "id": "l517",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -485,13 +435,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -527,13 +477,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -569,13 +519,13 @@
     },
     {
       "id": "l527",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Why Did Cisco Stock\u2019s Rally Stall Despite $9.3B in AI Orders and Record Revenue?\n&#32; submitted by &#32; /u/Organic_Garden_7076 &#32; to &#32; r/StockMarket [link] &#32; [comments]\nCisco : \u2018we have $9.3B in orders!\u2019 Also Cisco: gross margin down, inventory up 80%, cash flow flat. Pick a lane. Give it a beat. This has been a common occurrence this earnings season . Arista dumped on blowout earnings and is now 20 points higher after 2 weeks. Celestica same story. Amphenol same story. Algos d For \u2026",
+      "text": "Why Did Cisco Stock’s Rally Stall Despite $9.3B in AI Orders and Record Revenue?\n&#32; submitted by &#32; /u/Organic_Garden_7076 &#32; to &#32; r/StockMarket [link] &#32; [comments]\nCisco : ‘we have $9.3B in orders!’ Also Cisco: gross margin down, inventory up 80%, cash flow flat. Pick a lane. Give it a beat. This has been a common occurrence this earnings season . Arista dumped on blowout earnings and is now 20 points higher after 2 weeks. Celestica same story. Amphenol same story. Algos d For …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why Did Cisco Stock\u2019s Rally Stall Despite $9.3B in AI Orders and Record Revenue?\u2026",
+          "title": "Why Did Cisco Stock’s Rally Stall Despite $9.3B in AI Orders and Record Revenue?…",
           "url": "https://www.reddit.com/r/StockMarket/comments/1vmzmc4/why_did_cisco_stocks_rally_stall_despite_93b_in/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -617,7 +567,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "POET Technologies (POET) Stock Surges 5% on $50M AI Order and Strong Q2 Results\n\u2026",
+          "title": "POET Technologies (POET) Stock Surges 5% on $50M AI Order and Strong Q2 Results\n…",
           "url": "https://www.reddit.com/r/NowInFinance/comments/1vnq4y4/poet_technologies_poet_stock_surges_5_on_50m_ai/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "Why Did Cisco Stock\u2019s Rally Stall Despite $9.3B in AI Orders and Record Revenue?\n&#32; submitted by &#32; /u/JeffersonsHat &#32; to &#32; r/TickerChasers [link] &#32; [comments]",
+      "text": "Why Did Cisco Stock’s Rally Stall Despite $9.3B in AI Orders and Record Revenue?\n&#32; submitted by &#32; /u/JeffersonsHat &#32; to &#32; r/TickerChasers [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why Did Cisco Stock\u2019s Rally Stall Despite $9.3B in AI Orders and Record Revenue?\u2026",
+          "title": "Why Did Cisco Stock’s Rally Stall Despite $9.3B in AI Orders and Record Revenue?…",
           "url": "https://www.reddit.com/r/TickerChasers/comments/1vnsbhu/why_did_cisco_stocks_rally_stall_despite_93b_in/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -659,7 +609,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Cisco Systems, Inc. (CSCO) Stock: Sink After Hours Despite Record Q4 Earnings an\u2026",
+          "title": "Cisco Systems, Inc. (CSCO) Stock: Sink After Hours Despite Record Q4 Earnings an…",
           "url": "https://www.reddit.com/r/NowInFinance/comments/1vmyst0/cisco_systems_inc_csco_stock_sink_after_hours/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -674,13 +624,13 @@
     },
     {
       "id": "l532",
-      "text": "Wapify \u2014 WhatsApp automation for Shopify: COD confirmations, abandoned cart, back-in-stock, upsell, and a AI inbox that creates orders.\nWapify sends your customers WhatsApp messages automatically off real Shopify events \u2014 COD confirmation, abandoned cart, back-in-stock, review requests, upsell \u2014 and gives you one inbox for WhatsApp, Instagram and Messenger that can turn a DM into a Shopify order. It went live on the app store this week. Where can I find it? Shopify App Store: https://apps.shopif\u2026",
+      "text": "Wapify — WhatsApp automation for Shopify: COD confirmations, abandoned cart, back-in-stock, upsell, and a AI inbox that creates orders.\nWapify sends your customers WhatsApp messages automatically off real Shopify events — COD confirmation, abandoned cart, back-in-stock, review requests, upsell — and gives you one inbox for WhatsApp, Instagram and Messenger that can turn a DM into a Shopify order. It went live on the app store this week. Where can I find it? Shopify App Store: https://apps.shopif…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Wapify \u2014 WhatsApp automation for Shopify: COD confirmations, abandoned cart, bac\u2026",
+          "title": "Wapify — WhatsApp automation for Shopify: COD confirmations, abandoned cart, bac…",
           "url": "https://www.reddit.com/r/ShopifyApps/comments/1va6kwy/wapify_whatsapp_automation_for_shopify_cod/",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -695,13 +645,13 @@
     },
     {
       "id": "l533",
-      "text": "\ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc00\ud835\udc08 \ud835\udc01\ud835\udc0e\ud835\udc0e\ud835\udc0c \ud835\udc0c\ud835\udc00\ud835\udc18 \ud835\udc0d\ud835\udc0e\ud835\udc13 \ud835\udc01\ud835\udc04 \ud835\udc03\ud835\udc04\ud835\udc02\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc03 \ud835\udc01\ud835\udc18 \ud835\udc16\ud835\udc07\ud835\udc0e \ud835\udc01\ud835\udc14\ud835\udc08\ud835\udc0b\ud835\udc03\ud835\udc12 \ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc01\ud835\udc04\ud835\udc12\ud835\udc13 \ud835\udc0c\ud835\udc0e\ud835\udc03\ud835\udc04\ud835\udc0b.\n\n\ud835\udc08\ud835\udc13 \ud835\udc0c\ud835\udc00\ud835\udc18 \ud835\udc01\ud835\udc04 \ud835\udc03\ud835\udc04\ud835\udc02\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc03 \ud835\udc01\ud835\udc18 \ud835\udc16\ud835\udc07\ud835\udc0e \ud835\udc02\ud835\udc00\ud835\udc0d \ud835\udc13\ud835\udc14\ud835\udc11\ud835\udc0d \ud835\udc08\ud835\udc0d\ud835\udc13\ud835\udc04\ud835\udc0b\ud835\udc0b\ud835\udc08\ud835\udc06\ud835\udc04\ud835\udc0d\ud835\udc02\ud835\udc04 \ud835\udc08\ud835\udc0d\ud835\udc13\ud835\udc0e \ud835\udc11\ud835\udc04\ud835\udc0f\ud835\udc04\ud835\udc00\ud835\udc13\ud835\udc00\ud835\udc01\ud835\udc0b\ud835\udc04 \ud835\udc04\ud835\udc02\ud835\udc0e\ud835\udc0d\ud835\udc0e\ud835\udc0c\ud835\udc08\ud835\udc02 \ud835\udc15\ud835\udc00\ud835\udc0b\ud835\udc14\ud835\udc04.\n\nThe market has spent enormous energy asking who will win the AI race.\n\nWho builds the strongest models?\n\nWho supplies the fastest compute?\n\nWho gets the largest data-centre contracts?\n\nThose questions matter.\n\nBut they describe the beginning of the AI economy, not necessarily where the value ultimately settles.\n\nA technology becomes truly transformative wh",
+      "text": "𝐓𝐇𝐄 𝐀𝐈 𝐁𝐎𝐎𝐌 𝐌𝐀𝐘 𝐍𝐎𝐓 𝐁𝐄 𝐃𝐄𝐂𝐈𝐃𝐄𝐃 𝐁𝐘 𝐖𝐇𝐎 𝐁𝐔𝐈𝐋𝐃𝐒 𝐓𝐇𝐄 𝐁𝐄𝐒𝐓 𝐌𝐎𝐃𝐄𝐋.\n\n𝐈𝐓 𝐌𝐀𝐘 𝐁𝐄 𝐃𝐄𝐂𝐈𝐃𝐄𝐃 𝐁𝐘 𝐖𝐇𝐎 𝐂𝐀𝐍 𝐓𝐔𝐑𝐍 𝐈𝐍𝐓𝐄𝐋𝐋𝐈𝐆𝐄𝐍𝐂𝐄 𝐈𝐍𝐓𝐎 𝐑𝐄𝐏𝐄𝐀𝐓𝐀𝐁𝐋𝐄 𝐄𝐂𝐎𝐍𝐎𝐌𝐈𝐂 𝐕𝐀𝐋𝐔𝐄.\n\nThe market has spent enormous energy asking who will win the AI race.\n\nWho builds the strongest models?\n\nWho supplies the fastest compute?\n\nWho gets the largest data-centre contracts?\n\nThose questions matter.\n\nBut they describe the beginning of the AI economy, not necessarily where the value ultimately settles.\n\nA technology becomes truly transformative wh",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc00\ud835\udc08 \ud835\udc01\ud835\udc0e\ud835\udc0e\ud835\udc0c \ud835\udc0c\ud835\udc00\ud835\udc18 \ud835\udc0d\ud835\udc0e\ud835\udc13 \ud835\udc01\ud835\udc04 \ud835\udc03\ud835\udc04\ud835\udc02\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc03 \ud835\udc01\ud835\udc18 \ud835\udc16\ud835\udc07\ud835\udc0e \ud835\udc01\ud835\udc14\ud835\udc08\ud835\udc0b\ud835\udc03\ud835\udc12 \ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc01\ud835\udc04\ud835\udc12\ud835\udc13 \ud835\udc0c\ud835\udc0e\ud835\udc03\ud835\udc04\ud835\udc0b.\n\n\ud835\udc08\ud835\udc13 \ud835\udc0c\ud835\udc00\ud835\udc18 \ud835\udc01\ud835\udc04 \ud835\udc03\ud835\udc04\ud835\udc02\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc03 \u2026",
+          "title": "𝐓𝐇𝐄 𝐀𝐈 𝐁𝐎𝐎𝐌 𝐌𝐀𝐘 𝐍𝐎𝐓 𝐁𝐄 𝐃𝐄𝐂𝐈𝐃𝐄𝐃 𝐁𝐘 𝐖𝐇𝐎 𝐁𝐔𝐈𝐋𝐃𝐒 𝐓𝐇𝐄 𝐁𝐄𝐒𝐓 𝐌𝐎𝐃𝐄𝐋.\n\n𝐈𝐓 𝐌𝐀𝐘 𝐁𝐄 𝐃𝐄𝐂𝐈𝐃𝐄𝐃 …",
           "url": "https://x.com/BlackBit21/status/2092333606891065682",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -758,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "\ud83d\udea8 $MU: CXMT\u2019S 870% REVENUE SURGE IS A BULL SIGNAL.\n\nChina\u2019s CXMT just reported $22.4B in first half revenue, up 874% YoY, with DRAM supply still tight and pricing still rising. AI is expanding the memory market much faster than supply can currently catch up. \n\nIf the 4th largest DRAM supplier can grow this quickly while still saying the market is supply constrained, it confirms $MU's pricing power, utilization, and earnings setup. Global DRAM revenue already hit a record $97B in Q1, up 260% YoY.",
+      "text": "🚨 $MU: CXMT’S 870% REVENUE SURGE IS A BULL SIGNAL.\n\nChina’s CXMT just reported $22.4B in first half revenue, up 874% YoY, with DRAM supply still tight and pricing still rising. AI is expanding the memory market much faster than supply can currently catch up. \n\nIf the 4th largest DRAM supplier can grow this quickly while still saying the market is supply constrained, it confirms $MU's pricing power, utilization, and earnings setup. Global DRAM revenue already hit a record $97B in Q1, up 260% YoY.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8 $MU: CXMT\u2019S 870% REVENUE SURGE IS A BULL SIGNAL.\n\nChina\u2019s CXMT just reported $\u2026",
+          "title": "🚨 $MU: CXMT’S 870% REVENUE SURGE IS A BULL SIGNAL.\n\nChina’s CXMT just reported $…",
           "url": "https://x.com/Bearlovesbull/status/2093328380351394163",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "YOU\u2019RE FIRED: Five Jobs AI Is Already Taking \u2014 and Who\u2019s Next",
+      "text": "YOU’RE FIRED: Five Jobs AI Is Already Taking — and Who’s Next",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "YOU\u2019RE FIRED: Five Jobs AI Is Already Taking \u2014 and Who\u2019s Next",
+          "title": "YOU’RE FIRED: Five Jobs AI Is Already Taking — and Who’s Next",
           "url": "https://x.com/TheFutureIRL/status/2085673174151115109",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "AI NEWS: Week of August 24\u201330, 2026",
+      "text": "AI NEWS: Week of August 24–30, 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI NEWS: Week of August 24\u201330, 2026",
+          "title": "AI NEWS: Week of August 24–30, 2026",
           "url": "https://x.com/davidakpovi/status/2093287033800179758",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -848,7 +798,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "1/ Call centre & phone support agents\nAI voice agents already handle the routine\u2026",
+          "title": "1/ Call centre & phone support agents\nAI voice agents already handle the routine…",
           "url": "https://x.com/RecruitmentPq/status/2066464394465149274",
           "date": "2026-06-15",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -884,13 +834,13 @@
     },
     {
       "id": "l542",
-      "text": "Alibaba\u2019s Qwen Just Won the AI Distribution War\nEvery day, the tech and finance world moves billions of dollars.\nMost people miss it. Signal Stack breaks it down in under 60 seconds.\n \nWe cover:\n\u2192 AI and tech company news that actually affects your money\n\u2192 Stock market moves you need to understand\n\u2192 Crypto, IPOs, earnings, and what they mean for you\n\u2192 The stories behind the headlines \u2014 told clearly and fast\n \nNew videos every day.\nNo fluff. No filler. Just the signal.\n \n\ud83d\udcf2 Follow us everywhere: @\u2026",
+      "text": "Alibaba’s Qwen Just Won the AI Distribution War\nEvery day, the tech and finance world moves billions of dollars.\nMost people miss it. Signal Stack breaks it down in under 60 seconds.\n \nWe cover:\n→ AI and tech company news that actually affects your money\n→ Stock market moves you need to understand\n→ Crypto, IPOs, earnings, and what they mean for you\n→ The stories behind the headlines — told clearly and fast\n \nNew videos every day.\nNo fluff. No filler. Just the signal.\n \n📲 Follow us everywhere: @…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Alibaba\u2019s Qwen Just Won the AI Distribution War\nEvery day, the tech and finance \u2026",
+          "title": "Alibaba’s Qwen Just Won the AI Distribution War\nEvery day, the tech and finance …",
           "url": "https://www.youtube.com/watch?v=ZlMxxDmUZ_Y",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "Michael Saylor: \"I Made $15 Billion Using ChatGPT\" | The Diary of a CEO\nHe used ChatGPT to design a financial instrument that no lawyer, banker, or investor had ever built before \u2014 and it raised $15 billion.\n\nMichael Saylor turned Strategy (formerly MicroStrategy) into the largest corporate holder of Bitcoin on earth, and he built the last leg of that war chest with the help of an AI. When his company had maxed out equity markets and become the world's largest issuer of convertible bonds, he sat\u2026",
+      "text": "Michael Saylor: \"I Made $15 Billion Using ChatGPT\" | The Diary of a CEO\nHe used ChatGPT to design a financial instrument that no lawyer, banker, or investor had ever built before — and it raised $15 billion.\n\nMichael Saylor turned Strategy (formerly MicroStrategy) into the largest corporate holder of Bitcoin on earth, and he built the last leg of that war chest with the help of an AI. When his company had maxed out equity markets and become the world's largest issuer of convertible bonds, he sat…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Michael Saylor: \"I Made $15 Billion Using ChatGPT\" | The Diary of a CEO\nHe used \u2026",
+          "title": "Michael Saylor: \"I Made $15 Billion Using ChatGPT\" | The Diary of a CEO\nHe used …",
           "url": "https://www.youtube.com/watch?v=Gk0q0RXF84U",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -926,13 +876,13 @@
     },
     {
       "id": "l544",
-      "text": "Is Semtech (SMTC) An AI Powerhouse Or Just Pure Market Hype? \ud83d\udea8 Financial Breakdown\nWelcome back to Iron Financial, where we forge a stronger portfolio and cut through market weakness. Today, our Lead Analyst and Market Skeptic drill down into Semtech Corporation\u2019s (NASDAQ: SMTC) Q1 Fiscal Year 2027 earnings report and their massive Q2 outlook. \n\nIs this semiconductor player building a rock-solid foundation backed by true AI data center growth, or are there hidden cracks in the armor? We dissect \u2026",
+      "text": "Is Semtech (SMTC) An AI Powerhouse Or Just Pure Market Hype? 🚨 Financial Breakdown\nWelcome back to Iron Financial, where we forge a stronger portfolio and cut through market weakness. Today, our Lead Analyst and Market Skeptic drill down into Semtech Corporation’s (NASDAQ: SMTC) Q1 Fiscal Year 2027 earnings report and their massive Q2 outlook. \n\nIs this semiconductor player building a rock-solid foundation backed by true AI data center growth, or are there hidden cracks in the armor? We dissect …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Is Semtech (SMTC) An AI Powerhouse Or Just Pure Market Hype? \ud83d\udea8 Financial Breakdo\u2026",
+          "title": "Is Semtech (SMTC) An AI Powerhouse Or Just Pure Market Hype? 🚨 Financial Breakdo…",
           "url": "https://www.youtube.com/watch?v=H5PXlPDTl-Y",
           "date": "2026-05-27",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "Perplexity Computer for Beginners: Everything You Need to Know\nPerplexity just launched something big \u2014 Perplexity Computer. It\u2019s a multi-model AI system that acts like a digital coworker, using 19 different AI models to handle entire projects from a single prompt. In this video, I\u2019ll walk you through what it is, how it works, and show you real demo prompts you can try yourself.\n\n6 Advanced Tips for Perplexity Computer: https://youtu.be/svTfd5IyhVo\nCheck out Perplexity Personal Computer on Mac: \u2026",
+      "text": "Perplexity Computer for Beginners: Everything You Need to Know\nPerplexity just launched something big — Perplexity Computer. It’s a multi-model AI system that acts like a digital coworker, using 19 different AI models to handle entire projects from a single prompt. In this video, I’ll walk you through what it is, how it works, and show you real demo prompts you can try yourself.\n\n6 Advanced Tips for Perplexity Computer: https://youtu.be/svTfd5IyhVo\nCheck out Perplexity Personal Computer on Mac: …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Perplexity Computer for Beginners: Everything You Need to Know\nPerplexity just l\u2026",
+          "title": "Perplexity Computer for Beginners: Everything You Need to Know\nPerplexity just l…",
           "url": "https://www.youtube.com/watch?v=EHpAQwXmseQ",
           "date": "2026-03-04",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -968,7 +918,7 @@
     },
     {
       "id": "l446",
-      "text": "Warehouse Associate \u2014 Wesco (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Warehouse Associate — Wesco (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -989,7 +939,7 @@
     },
     {
       "id": "l447",
-      "text": "Copy of Warehouse Pick Packer \u2014 Whites Powersports (Willawong, Queensland, Australia). Posted 2 days ago.",
+      "text": "Copy of Warehouse Pick Packer — Whites Powersports (Willawong, Queensland, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1010,7 +960,7 @@
     },
     {
       "id": "l448",
-      "text": "Warehouse Worker III R4 \u2014 H.B. Fuller (Dandenong South, Victoria, Australia). Posted 1 month ago.",
+      "text": "Warehouse Worker III R4 — H.B. Fuller (Dandenong South, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1031,7 +981,7 @@
     },
     {
       "id": "l449",
-      "text": "Storeperson \u2014 Toll Group (Wulguru, Queensland, Australia). Posted 4 days ago.",
+      "text": "Storeperson — Toll Group (Wulguru, Queensland, Australia). Posted 4 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1052,7 +1002,7 @@
     },
     {
       "id": "l450",
-      "text": "Inventory Clerk (AU) \u2014 DroneShield (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Inventory Clerk (AU) — DroneShield (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1073,7 +1023,7 @@
     },
     {
       "id": "l451",
-      "text": "Warehouse Operator - Brisbane, Australia \u2014 Arjo (Murarrie, Queensland, Australia). Posted 2 days ago.",
+      "text": "Warehouse Operator - Brisbane, Australia — Arjo (Murarrie, Queensland, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1094,7 +1044,7 @@
     },
     {
       "id": "l452",
-      "text": "Storeperson \u2014 Bapcor Limited (Burleigh Heads, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Storeperson — Bapcor Limited (Burleigh Heads, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1115,7 +1065,7 @@
     },
     {
       "id": "l453",
-      "text": "Storeperson - Sigma Healthcare \u2014 Sigma Healthcare (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
+      "text": "Storeperson - Sigma Healthcare — Sigma Healthcare (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1136,7 +1086,7 @@
     },
     {
       "id": "l454",
-      "text": "Warehouse Assistant \u2014 LifeHealthcare (Macquarie Park, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Warehouse Assistant — LifeHealthcare (Macquarie Park, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1157,7 +1107,7 @@
     },
     {
       "id": "l455",
-      "text": "Store Person - NAPA Yatala - Full Time \u2014 NAPA Australia (Yatala, Queensland, Australia). Posted 1 week ago.",
+      "text": "Store Person - NAPA Yatala - Full Time — NAPA Australia (Yatala, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1178,13 +1128,13 @@
     },
     {
       "id": "l556",
-      "text": "Why Did Cisco Stock\u2019s Rally Stall Despite $9.3B in AI Orders and Record Revenue?\n&#32; submitted by &#32; /u/Organic_Garden_7076 &#32; to &#32; r/StockMarket [link] &#32; [comments]\nCisco : \u2018we have $9.3B in orders!\u2019 Also Cisco: gross margin down, inventory up 80%, cash flow flat. Pick a lane. Give it a beat. This has been a common occurrence this earnings season . Arista dumped on blowout earnings and is now 20 points higher after 2 weeks. Celestica same story. Amphenol same story. Algos d For \u2026",
+      "text": "Why Did Cisco Stock’s Rally Stall Despite $9.3B in AI Orders and Record Revenue?\n&#32; submitted by &#32; /u/Organic_Garden_7076 &#32; to &#32; r/StockMarket [link] &#32; [comments]\nCisco : ‘we have $9.3B in orders!’ Also Cisco: gross margin down, inventory up 80%, cash flow flat. Pick a lane. Give it a beat. This has been a common occurrence this earnings season . Arista dumped on blowout earnings and is now 20 points higher after 2 weeks. Celestica same story. Amphenol same story. Algos d For …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why Did Cisco Stock\u2019s Rally Stall Despite $9.3B in AI Orders and Record Revenue?\u2026",
+          "title": "Why Did Cisco Stock’s Rally Stall Despite $9.3B in AI Orders and Record Revenue?…",
           "url": "https://www.reddit.com/r/StockMarket/comments/1vmzmc4/why_did_cisco_stocks_rally_stall_despite_93b_in/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1199,13 +1149,13 @@
     },
     {
       "id": "l557",
-      "text": "Wapify \u2014 WhatsApp automation for Shopify: COD confirmations, abandoned cart, back-in-stock, upsell, and a AI inbox that creates orders.\nWapify sends your customers WhatsApp messages automatically off real Shopify events \u2014 COD confirmation, abandoned cart, back-in-stock, review requests, upsell \u2014 and gives you one inbox for WhatsApp, Instagram and Messenger that can turn a DM into a Shopify order. It went live on the app store this week. Where can I find it? Shopify App Store: https://apps.shopif\u2026",
+      "text": "Wapify — WhatsApp automation for Shopify: COD confirmations, abandoned cart, back-in-stock, upsell, and a AI inbox that creates orders.\nWapify sends your customers WhatsApp messages automatically off real Shopify events — COD confirmation, abandoned cart, back-in-stock, review requests, upsell — and gives you one inbox for WhatsApp, Instagram and Messenger that can turn a DM into a Shopify order. It went live on the app store this week. Where can I find it? Shopify App Store: https://apps.shopif…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Wapify \u2014 WhatsApp automation for Shopify: COD confirmations, abandoned cart, bac\u2026",
+          "title": "Wapify — WhatsApp automation for Shopify: COD confirmations, abandoned cart, bac…",
           "url": "https://www.reddit.com/r/ShopifyApps/comments/1va6kwy/wapify_whatsapp_automation_for_shopify_cod/",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1220,13 +1170,13 @@
     },
     {
       "id": "l558",
-      "text": "Alibaba\u2019s Qwen Just Won the AI Distribution War\nEvery day, the tech and finance world moves billions of dollars.\nMost people miss it. Signal Stack breaks it down in under 60 seconds.\n \nWe cover:\n\u2192 AI and tech company news that actually affects your money\n\u2192 Stock market moves you need to understand\n\u2192 Crypto, IPOs, earnings, and what they mean for you\n\u2192 The stories behind the headlines \u2014 told clearly and fast\n \nNew videos every day.\nNo fluff. No filler. Just the signal.\n \n\ud83d\udcf2 Follow us everywhere: @\u2026",
+      "text": "Alibaba’s Qwen Just Won the AI Distribution War\nEvery day, the tech and finance world moves billions of dollars.\nMost people miss it. Signal Stack breaks it down in under 60 seconds.\n \nWe cover:\n→ AI and tech company news that actually affects your money\n→ Stock market moves you need to understand\n→ Crypto, IPOs, earnings, and what they mean for you\n→ The stories behind the headlines — told clearly and fast\n \nNew videos every day.\nNo fluff. No filler. Just the signal.\n \n📲 Follow us everywhere: @…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Alibaba\u2019s Qwen Just Won the AI Distribution War\nEvery day, the tech and finance \u2026",
+          "title": "Alibaba’s Qwen Just Won the AI Distribution War\nEvery day, the tech and finance …",
           "url": "https://www.youtube.com/watch?v=ZlMxxDmUZ_Y",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1241,13 +1191,13 @@
     },
     {
       "id": "l559",
-      "text": "Michael Saylor: \"I Made $15 Billion Using ChatGPT\" | The Diary of a CEO\nHe used ChatGPT to design a financial instrument that no lawyer, banker, or investor had ever built before \u2014 and it raised $15 billion.\n\nMichael Saylor turned Strategy (formerly MicroStrategy) into the largest corporate holder of Bitcoin on earth, and he built the last leg of that war chest with the help of an AI. When his company had maxed out equity markets and become the world's largest issuer of convertible bonds, he sat\u2026",
+      "text": "Michael Saylor: \"I Made $15 Billion Using ChatGPT\" | The Diary of a CEO\nHe used ChatGPT to design a financial instrument that no lawyer, banker, or investor had ever built before — and it raised $15 billion.\n\nMichael Saylor turned Strategy (formerly MicroStrategy) into the largest corporate holder of Bitcoin on earth, and he built the last leg of that war chest with the help of an AI. When his company had maxed out equity markets and become the world's largest issuer of convertible bonds, he sat…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Michael Saylor: \"I Made $15 Billion Using ChatGPT\" | The Diary of a CEO\nHe used \u2026",
+          "title": "Michael Saylor: \"I Made $15 Billion Using ChatGPT\" | The Diary of a CEO\nHe used …",
           "url": "https://www.youtube.com/watch?v=Gk0q0RXF84U",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1262,13 +1212,13 @@
     },
     {
       "id": "l560",
-      "text": "Is Semtech (SMTC) An AI Powerhouse Or Just Pure Market Hype? \ud83d\udea8 Financial Breakdown\nWelcome back to Iron Financial, where we forge a stronger portfolio and cut through market weakness. Today, our Lead Analyst and Market Skeptic drill down into Semtech Corporation\u2019s (NASDAQ: SMTC) Q1 Fiscal Year 2027 earnings report and their massive Q2 outlook. \n\nIs this semiconductor player building a rock-solid foundation backed by true AI data center growth, or are there hidden cracks in the armor? We dissect \u2026",
+      "text": "Is Semtech (SMTC) An AI Powerhouse Or Just Pure Market Hype? 🚨 Financial Breakdown\nWelcome back to Iron Financial, where we forge a stronger portfolio and cut through market weakness. Today, our Lead Analyst and Market Skeptic drill down into Semtech Corporation’s (NASDAQ: SMTC) Q1 Fiscal Year 2027 earnings report and their massive Q2 outlook. \n\nIs this semiconductor player building a rock-solid foundation backed by true AI data center growth, or are there hidden cracks in the armor? We dissect …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Is Semtech (SMTC) An AI Powerhouse Or Just Pure Market Hype? \ud83d\udea8 Financial Breakdo\u2026",
+          "title": "Is Semtech (SMTC) An AI Powerhouse Or Just Pure Market Hype? 🚨 Financial Breakdo…",
           "url": "https://www.youtube.com/watch?v=H5PXlPDTl-Y",
           "date": "2026-05-27",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1283,13 +1233,13 @@
     },
     {
       "id": "l561",
-      "text": "Perplexity Computer for Beginners: Everything You Need to Know\nPerplexity just launched something big \u2014 Perplexity Computer. It\u2019s a multi-model AI system that acts like a digital coworker, using 19 different AI models to handle entire projects from a single prompt. In this video, I\u2019ll walk you through what it is, how it works, and show you real demo prompts you can try yourself.\n\n6 Advanced Tips for Perplexity Computer: https://youtu.be/svTfd5IyhVo\nCheck out Perplexity Personal Computer on Mac: \u2026",
+      "text": "Perplexity Computer for Beginners: Everything You Need to Know\nPerplexity just launched something big — Perplexity Computer. It’s a multi-model AI system that acts like a digital coworker, using 19 different AI models to handle entire projects from a single prompt. In this video, I’ll walk you through what it is, how it works, and show you real demo prompts you can try yourself.\n\n6 Advanced Tips for Perplexity Computer: https://youtu.be/svTfd5IyhVo\nCheck out Perplexity Personal Computer on Mac: …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Perplexity Computer for Beginners: Everything You Need to Know\nPerplexity just l\u2026",
+          "title": "Perplexity Computer for Beginners: Everything You Need to Know\nPerplexity just l…",
           "url": "https://www.youtube.com/watch?v=EHpAQwXmseQ",
           "date": "2026-03-04",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1382,6 +1332,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

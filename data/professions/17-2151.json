@@ -14,58 +14,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "17-2151-01",
-      "text": "National peak professional bodies and statutory regulators governing Mining and Geological Engineers, Including Mining Safety Engineers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Mining and Geological Engineers, Including Mining Safety Engineers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Mining and Geological Engineers, Including Mining Safety Engineers",
-          "url": "https://www.psc.gov.au/standards/17-2151",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Mining and Geological Engineers, Including Mining Safety Engineers"
-        }
-      ],
-      "scope": "Australian practitioners in Mining and Geological Engineers, Including Mining Safety Engineers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "17-2151-02",
-      "text": "Automation of routine transactional and analytical tasks in Mining and Geological Engineers, Including Mining Safety Engineers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Mining and Geological Engineers, Including Mining Safety Engineers",
-          "url": "https://www.jobsandskills.gov.au/research/17-2151",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Mining and Geological Engineers, Including Mining Safety Engineers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Mining and Geological Engineers, Including Mining Safety Engineers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Geotechnical Engineer \u2014 Mineral Resources (Perth, Western Australia, Australia). Posted 2 weeks ago.",
+      "text": "Geotechnical Engineer — Mineral Resources (Perth, Western Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -86,7 +36,7 @@
     },
     {
       "id": "l404",
-      "text": "Geotechnical Engineer \u2014 Catalyst Metals (Perth, Western Australia, Australia). Posted 2 weeks ago.",
+      "text": "Geotechnical Engineer — Catalyst Metals (Perth, Western Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -107,7 +57,7 @@
     },
     {
       "id": "l405",
-      "text": "Geotechnical Engineer \u2014 Genesis Minerals Limited (Leonora, Western Australia, Australia). Posted 1 week ago.",
+      "text": "Geotechnical Engineer — Genesis Minerals Limited (Leonora, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -128,7 +78,7 @@
     },
     {
       "id": "l406",
-      "text": "Graduate Mining Engineer \u2014 Aurelia Metals (Hillston, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Graduate Mining Engineer — Aurelia Metals (Hillston, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -149,7 +99,7 @@
     },
     {
       "id": "l407",
-      "text": "Geotechnical Engineer \u2014 Genesis Minerals Limited (Greater Perth Area). Posted 1 week ago.",
+      "text": "Geotechnical Engineer — Genesis Minerals Limited (Greater Perth Area). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -170,7 +120,7 @@
     },
     {
       "id": "l408",
-      "text": "Geotechnical Engineer - Ernest Henry \u2014 Evolution Mining (Cloncurry, Queensland, Australia). Posted 5 days ago.",
+      "text": "Geotechnical Engineer - Ernest Henry — Evolution Mining (Cloncurry, Queensland, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -191,7 +141,7 @@
     },
     {
       "id": "l409",
-      "text": "Underground Mining Engineers \u2014 AMPS - Your Partner in Technical Services (Brisbane City, Queensland, Australia). Posted 1 week ago.",
+      "text": "Underground Mining Engineers — AMPS - Your Partner in Technical Services (Brisbane City, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -212,7 +162,7 @@
     },
     {
       "id": "l410",
-      "text": "Engineer - Mining \u2014 Evolution Mining (West Wyalong, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Engineer - Mining — Evolution Mining (West Wyalong, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -233,7 +183,7 @@
     },
     {
       "id": "l411",
-      "text": "Engineer, Geotechnical, Operations \u2014 Newmont Australia (Boddington, Western Australia, Australia). Posted 6 days ago.",
+      "text": "Engineer, Geotechnical, Operations — Newmont Australia (Boddington, Western Australia, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -254,7 +204,7 @@
     },
     {
       "id": "l412",
-      "text": "Senior Geotechnical Engineer \u2014 Aeris Resources Limited (Nyngan, New South Wales, Australia). Posted 10 hours ago.",
+      "text": "Senior Geotechnical Engineer — Aeris Resources Limited (Nyngan, New South Wales, Australia). Posted 10 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -275,13 +225,13 @@
     },
     {
       "id": "l513",
-      "text": "General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)\n@supervoidcoder @playforge-coding Would it be possible for the Sparkle developers to use Boxy on your infrastructure as a chatbot, but in such a way that it can't open PRs or commit to Sparkle?\n\n@OmniBlocks/boxy Please research how this could be done. Afterwards, please output a list of your current\n<details>\n<summary>\ud83d\udd27 My tool activity log (4 calls)</summary>\n\n**1. `read_memory`**\n\nParams:\n```json\n{\n  \"title\": \"Allowed Reposito\u2026",
+      "text": "General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)\n@supervoidcoder @playforge-coding Would it be possible for the Sparkle developers to use Boxy on your infrastructure as a chatbot, but in such a way that it can't open PRs or commit to Sparkle?\n\n@OmniBlocks/boxy Please research how this could be done. Afterwards, please output a list of your current\n<details>\n<summary>🔧 My tool activity log (4 calls)</summary>\n\n**1. `read_memory`**\n\nParams:\n```json\n{\n  \"title\": \"Allowed Reposito…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)\n@supervoidco\u2026",
+          "title": "General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)\n@supervoidco…",
           "url": "https://github.com/OmniBlocks/Boxy-gh/issues/63",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -296,13 +246,13 @@
     },
     {
       "id": "l514",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -317,13 +267,13 @@
     },
     {
       "id": "l515",
-      "text": "Flet migration\nresolves #49\n\ncoolio flet\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n* **User Interface Changes**\n  * Complete redesign of the application interface using a new visual framework.\n  * Login screen simplified with a minimal, cleaner layout.\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: skip review by coderabbit.ai -->\n\n> [!IMPORTANT]\n> ## Draft PR not reviewed\u2026",
+      "text": "Flet migration\nresolves #49\n\ncoolio flet\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n* **User Interface Changes**\n  * Complete redesign of the application interface using a new visual framework.\n  * Login screen simplified with a minimal, cleaner layout.\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: skip review by coderabbit.ai -->\n\n> [!IMPORTANT]\n> ## Draft PR not reviewed…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Flet migration\nresolves #49\n\ncoolio flet\n\n<!-- This is an auto-generated comment\u2026",
+          "title": "Flet migration\nresolves #49\n\ncoolio flet\n\n<!-- This is an auto-generated comment…",
           "url": "https://github.com/silent-this-sonder/sb3-bulk-downloader/pull/58",
           "date": "2026-04-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -359,13 +309,13 @@
     },
     {
       "id": "l517",
-      "text": "AI Engineer Notebooks \u2013 free, framework-free RAG/agents/evals on Colab",
+      "text": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI Engineer Notebooks \u2013 free, framework-free RAG/agents/evals on Colab",
+          "title": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
           "url": "https://github.com/calmrocks/ai-engineer-notebooks",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -674,13 +624,13 @@
     },
     {
       "id": "l532",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "CTO says AI makes junior and senior engineers the same\nHi everyone, I\u2019m a junior DevOps engineer, and recently our CTO said something that honestly made me question my understanding of software engineering. He has around 30 years of experience, and his statement was basically: With AI tools like Claude Code, there is no real difference anymore between a junior and a senior engineer, or between a mobile developer, backend developer, and infrastructure engineer. If you have access to AI, you shoul\u2026",
+      "text": "CTO says AI makes junior and senior engineers the same\nHi everyone, I’m a junior DevOps engineer, and recently our CTO said something that honestly made me question my understanding of software engineering. He has around 30 years of experience, and his statement was basically: With AI tools like Claude Code, there is no real difference anymore between a junior and a senior engineer, or between a mobile developer, backend developer, and infrastructure engineer. If you have access to AI, you shoul…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "CTO says AI makes junior and senior engineers the same\nHi everyone, I\u2019m a junior\u2026",
+          "title": "CTO says AI makes junior and senior engineers the same\nHi everyone, I’m a junior…",
           "url": "https://www.reddit.com/r/devops/comments/1vjxidv/cto_says_ai_makes_junior_and_senior_engineers_the/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -863,13 +813,13 @@
     },
     {
       "id": "l541",
-      "text": "The engineers who literally helped build Google Search (and most of Google\u2019s core systems) for the last 27 years or so... just left to start their own AI company\n&#32; submitted by &#32; /u/eternviking &#32; to &#32; r/whoathatsinteresting [link] &#32; [comments]\nGreat, another AI company.... Meh, just another company selling your data. The problem with AI is that it has been taken over by billionaires and it's destined to help billionaires be more billionaires. Otherwise it's absolutely fascina\u2026",
+      "text": "The engineers who literally helped build Google Search (and most of Google’s core systems) for the last 27 years or so... just left to start their own AI company\n&#32; submitted by &#32; /u/eternviking &#32; to &#32; r/whoathatsinteresting [link] &#32; [comments]\nGreat, another AI company.... Meh, just another company selling your data. The problem with AI is that it has been taken over by billionaires and it's destined to help billionaires be more billionaires. Otherwise it's absolutely fascina…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The engineers who literally helped build Google Search (and most of Google\u2019s cor\u2026",
+          "title": "The engineers who literally helped build Google Search (and most of Google’s cor…",
           "url": "https://www.reddit.com/r/whoathatsinteresting/comments/1vggl7o/the_engineers_who_literally_helped_build_google/",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -926,13 +876,13 @@
     },
     {
       "id": "l544",
-      "text": "\u2018TikTok for enterprise data\u2019\n\na.k.a., building with AI is pulling a slot machine handle over and over.",
+      "text": "‘TikTok for enterprise data’\n\na.k.a., building with AI is pulling a slot machine handle over and over.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u2018TikTok for enterprise data\u2019\n\na.k.a., building with AI is pulling a slot machine\u2026",
+          "title": "‘TikTok for enterprise data’\n\na.k.a., building with AI is pulling a slot machine…",
           "url": "https://x.com/alexdbauer/status/2075221730839371940",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -974,7 +924,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "2045 - Western Iberian Peninsula: Infrastructure and Resource Inventory Assessme\u2026",
+          "title": "2045 - Western Iberian Peninsula: Infrastructure and Resource Inventory Assessme…",
           "url": "https://x.com/thePM_001/status/2080824060385067258",
           "date": "2026-07-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "Agentic GTM is here. Your data isn\u2019t ready for it.",
+      "text": "Agentic GTM is here. Your data isn’t ready for it.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Agentic GTM is here. Your data isn\u2019t ready for it.",
+          "title": "Agentic GTM is here. Your data isn’t ready for it.",
           "url": "https://x.com/alexdbauer/status/2071986153826435231",
           "date": "2026-06-30",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1073,13 +1023,13 @@
     },
     {
       "id": "l551",
-      "text": "\u76f8\u89aa\u8d70\u932f\u684c\uff0c\u4e0d\u5c0f\u5fc3\u9583\u5a5a\u5168\u57ce\u6700\u51b7\u9177\u7684\u7981\u617e\u7e3d\u88c1\u2026\u672c\u4ee5\u70ba\u662f\u9ad8\u51b7\u7537\u795e\uff0c\u8ab0\u77e5\u5a5a\u5f8c\u4ed6\u7adf\u7136\u6210\u4e86\u9ecf\u4eba\u7cbe\uff01\u5176\u5be6\u4e00\u5207\u90fd\u662f\u70ba\u4e86\u9a19\u8001\u5a46\u56de\u5bb6\uff1a\u6bcf\u5929\u65e9\u4e0a\u5835\u5728\u9580\u53e3\u8a0e\u65e9\u5b89\u543b\uff0c\u7761\u524d\u5fc5\u9808\u88dc\u6eff\u516b\u5341\u500b\u89aa\u89aa\uff01\u3010\u4f5b\u7cfb\u76f8\u4eb2\uff0c\u9047\u4e0a\u8f83\u771f\u642d\u6863\u3011#\u77ed\u5267\n\u6b61\u8fce\u4f86\u5230\u751c\u6a59\u77ed\u5287\u793e\uff01\u6700\u65b0\u71b1\u9580\u77ed\u5287\u770b\u4e0d\u505c\ud83d\udc97\nWelcome to Sweet Orange Drama Club!Watch the latest and hottest short dramas non-stop\ud83c\udf8a\n\n\u5168\u96c61080P\u539f\u7247\u4e00\u6b21\u6027\u653e\u51fa~\n\n\u6b63\u7248\u6388\u6743\uff0c\u4fb5\u6743\u5fc5\u7a76\uff01\nGenuine Authorized Content \u2013 Copyright Infringement Will Be Prosecuted\n\u8ba2\u9605+\u94c3\u94db\ud83d\udd14\u597d\u5267\u62a2\u5148\u770b\uff01\n\n\n\u5973\u4e3b\u89d2/FL\uff1a\u5218\u5955\u5f64/Liu Yitong\n\u7537\u4e3b\u89d2/ML\uff1a\u5f20\u4e91\u94ee/Zhang Yunzheng\n\n\nhttps://www.youtube.com/channel/UCWhQt8nTARzMb1Zagkd-lIQ/\n\n#\u4e00\u53e3\u6c23\u770b\u5b8c #multisub #\u77ed\u5287 #\u8ffd\u59bb\u706b\u846c\u5834 #\u7070\u59d1\u5a18 #\u9738\u9053\u603b\u88c1 #\u751c\u5ba0 #romantic \n#\u8ffd\u59bb\u706b\u846c\u5834 #\u9738\u603b #\u7070\u59d1\u2026",
+      "text": "相親走錯桌，不小心閃婚全城最冷酷的禁慾總裁…本以為是高冷男神，誰知婚後他竟然成了黏人精！其實一切都是為了騙老婆回家：每天早上堵在門口討早安吻，睡前必須補滿八十個親親！【佛系相亲，遇上较真搭档】#短剧\n歡迎來到甜橙短劇社！最新熱門短劇看不停💗\nWelcome to Sweet Orange Drama Club!Watch the latest and hottest short dramas non-stop🎊\n\n全集1080P原片一次性放出~\n\n正版授权，侵权必究！\nGenuine Authorized Content – Copyright Infringement Will Be Prosecuted\n订阅+铃铛🔔好剧抢先看！\n\n\n女主角/FL：刘奕彤/Liu Yitong\n男主角/ML：张云铮/Zhang Yunzheng\n\n\nhttps://www.youtube.com/channel/UCWhQt8nTARzMb1Zagkd-lIQ/\n\n#一口氣看完 #multisub #短劇 #追妻火葬場 #灰姑娘 #霸道总裁 #甜宠 #romantic \n#追妻火葬場 #霸总 #灰姑…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "\u76f8\u89aa\u8d70\u932f\u684c\uff0c\u4e0d\u5c0f\u5fc3\u9583\u5a5a\u5168\u57ce\u6700\u51b7\u9177\u7684\u7981\u617e\u7e3d\u88c1\u2026\u672c\u4ee5\u70ba\u662f\u9ad8\u51b7\u7537\u795e\uff0c\u8ab0\u77e5\u5a5a\u5f8c\u4ed6\u7adf\u7136\u6210\u4e86\u9ecf\u4eba\u7cbe\uff01\u5176\u5be6\u4e00\u5207\u90fd\u662f\u70ba\u4e86\u9a19\u8001\u5a46\u56de\u5bb6\uff1a\u6bcf\u5929\u65e9\u4e0a\u5835\u5728\u9580\u53e3\u8a0e\u65e9\u5b89\u543b\uff0c\u7761\u524d\u5fc5\u9808\u88dc\u6eff\u516b\u5341\u500b\u2026",
+          "title": "相親走錯桌，不小心閃婚全城最冷酷的禁慾總裁…本以為是高冷男神，誰知婚後他竟然成了黏人精！其實一切都是為了騙老婆回家：每天早上堵在門口討早安吻，睡前必須補滿八十個…",
           "url": "https://www.youtube.com/watch?v=eoXd-BauhyA",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1094,13 +1044,13 @@
     },
     {
       "id": "l552",
-      "text": "Mistaken blind date! Cinderella flash\u2011marries a rigid perfectionist CEO.\n#\u77ed\u5287 #\u7070\u59d1\u5a18\u9738\u7e3d #\u8ffd\u59bb\u706b\u846c\u5834 #\u5973\u983b\u723d\u5287 #\u512a\u8cea\u5c0f\u8aaa\u6539\u7de8 #\u5927\u5973\u4e3b\u9006\u8972 #tvseries #ChineseDrama #tvshow #Chineseskits #shortfilms #\u7cbe\u5f69\u77ed\u5287 #\u6700\u65b0\u77ed\u5287\u5168\u96c6 #\u7cbe\u5f69\u77ed\u5287\u63a8\u85a6 #\u77ed\u5287\u5168\u96c6 #\u7cbe\u9078\u77ed\u52872026 #\u77ed\u5287 #\u71b1\u9580\u77ed\u5287 #\u77ed\u5287\u63a8\u85a6 #\u5927\u9678\u77ed\u5287 #\u611b\u60c5 #\u90fd\u5e02 #\u9738\u7e3d #\u91cd\u751f #\u7a7f\u8d8a #\u7db2\u5287 #\u5168\u96c6\u77ed\u5287 #\u77ed\u5287\u5168\u96c6 #\u77ed\u5287 #\u71b1\u9580\u77ed\u5287 #\u77ed\u5287\u63a8\u85a6 #\u5927\u9678\u77ed\u5287 #\u611b\u60c5 #\u90fd\u5e02 #\u9738\u7e3d #loveaftermarriagechinesedrama #newromanticchinesedrama #Chinesedramamisunderstandingscene #cinderellalovestorychinesedrama #ceoandcinderellachinesedram #\u77ed\u5287 #\u723d\u5287 #\u751c\u5287 #\u751c\u5bf5 #\u4e00\u53e3\u6c23 #\u5168\u96c6 #\u597d\u770b #\u72d7\u8840 #\u8650\u6200 #\u9738\u7e3d #CEO #\u2026",
+      "text": "Mistaken blind date! Cinderella flash‑marries a rigid perfectionist CEO.\n#短劇 #灰姑娘霸總 #追妻火葬場 #女頻爽劇 #優質小說改編 #大女主逆襲 #tvseries #ChineseDrama #tvshow #Chineseskits #shortfilms #精彩短劇 #最新短劇全集 #精彩短劇推薦 #短劇全集 #精選短劇2026 #短劇 #熱門短劇 #短劇推薦 #大陸短劇 #愛情 #都市 #霸總 #重生 #穿越 #網劇 #全集短劇 #短劇全集 #短劇 #熱門短劇 #短劇推薦 #大陸短劇 #愛情 #都市 #霸總 #loveaftermarriagechinesedrama #newromanticchinesedrama #Chinesedramamisunderstandingscene #cinderellalovestorychinesedrama #ceoandcinderellachinesedram #短劇 #爽劇 #甜劇 #甜寵 #一口氣 #全集 #好看 #狗血 #虐戀 #霸總 #CEO #…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Mistaken blind date! Cinderella flash\u2011marries a rigid perfectionist CEO.\n#\u77ed\u5287 #\u7070\u59d1\u2026",
+          "title": "Mistaken blind date! Cinderella flash‑marries a rigid perfectionist CEO.\n#短劇 #灰姑…",
           "url": "https://www.youtube.com/watch?v=cRTbEAsNxCo",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1115,13 +1065,13 @@
     },
     {
       "id": "l553",
-      "text": "Everyone Called Him Weak Until He Upgraded His Broken Raft Into a Plant Warship\u2014Girls Beg to Board!\n#Comic #ComicSystem #ComicOverview #Comic #Comic #Novel #Anime #JapaneseAnimation #ScienceFiction #System #Trillionaire #Billionaire #top10manhwa\n\n\u2705Novel Title: Global Age of Sailing: My Card Pool Contains Everything\n(Thank you for watching! Please leave \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f in the comments!)\n------------------------------------------------------------------------------------------------\nDisclaimer: Yang Li awa\u2026",
+      "text": "Everyone Called Him Weak Until He Upgraded His Broken Raft Into a Plant Warship—Girls Beg to Board!\n#Comic #ComicSystem #ComicOverview #Comic #Comic #Novel #Anime #JapaneseAnimation #ScienceFiction #System #Trillionaire #Billionaire #top10manhwa\n\n✅Novel Title: Global Age of Sailing: My Card Pool Contains Everything\n(Thank you for watching! Please leave ❤️❤️❤️ in the comments!)\n------------------------------------------------------------------------------------------------\nDisclaimer: Yang Li awa…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Everyone Called Him Weak Until He Upgraded His Broken Raft Into a Plant Warship\u2014\u2026",
+          "title": "Everyone Called Him Weak Until He Upgraded His Broken Raft Into a Plant Warship—…",
           "url": "https://www.youtube.com/watch?v=oPPCvndQeGo",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1136,13 +1086,13 @@
     },
     {
       "id": "l554",
-      "text": "Geological Disturbances in Coal Seam Explained | (Fault, Dyke, Sill, Fold)\nIn this video, we will learn about Geological Disturbances in Coal Seam, which are very important for mining students and professionals.\n\nWe will cover all major types of disturbances such as:\n \u2022 Faults\n \u2022 Dykes\n \u2022 Sills\n \u2022 Folds\n \u2022 Washouts\n \u2022 Swelling (Swilley)\n\nThese disturbances affect coal mining operations, safety, and production. Understanding them helps in better mine planning and avoiding hazards.\n\nThis video is \u2026",
+      "text": "Geological Disturbances in Coal Seam Explained | (Fault, Dyke, Sill, Fold)\nIn this video, we will learn about Geological Disturbances in Coal Seam, which are very important for mining students and professionals.\n\nWe will cover all major types of disturbances such as:\n • Faults\n • Dykes\n • Sills\n • Folds\n • Washouts\n • Swelling (Swilley)\n\nThese disturbances affect coal mining operations, safety, and production. Understanding them helps in better mine planning and avoiding hazards.\n\nThis video is …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Geological Disturbances in Coal Seam Explained | (Fault, Dyke, Sill, Fold)\nIn th\u2026",
+          "title": "Geological Disturbances in Coal Seam Explained | (Fault, Dyke, Sill, Fold)\nIn th…",
           "url": "https://www.youtube.com/watch?v=CwAmxdOduH0",
           "date": "2026-03-19",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1226,6 +1176,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

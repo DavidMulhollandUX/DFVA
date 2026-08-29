@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "39-9021-01",
-      "text": "National peak professional bodies and statutory regulators governing Personal and Home Care Aides enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Personal and Home Care Aides",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Personal and Home Care Aides",
-          "url": "https://www.psc.gov.au/standards/39-9021",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Personal and Home Care Aides"
-        }
-      ],
-      "scope": "Australian practitioners in Personal and Home Care Aides across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "39-9021-02",
-      "text": "Automation of routine transactional and analytical tasks in Personal and Home Care Aides heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Personal and Home Care Aides",
-          "url": "https://www.jobsandskills.gov.au/research/39-9021",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Personal and Home Care Aides in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Personal and Home Care Aides roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "axios@1.14.1 and axios@0.30.4 are compromised\nmore details: https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan\n\nMost likely, a maintainer's GitHub and npm accounts are compromised as these issues are getting deleted.\n\nI have also reported this as a vulnerability, so that a CVE can be generated\nHmm, I doubt @jasonsaayman is here. He doesn't reply on Slack, but he managed to unpin and probably delete the recent issue. @DigitalBrainJS can you try \u2026",
+      "text": "axios@1.14.1 and axios@0.30.4 are compromised\nmore details: https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan\n\nMost likely, a maintainer's GitHub and npm accounts are compromised as these issues are getting deleted.\n\nI have also reported this as a vulnerability, so that a CVE can be generated\nHmm, I doubt @jasonsaayman is here. He doesn't reply on Slack, but he managed to unpin and probably delete the recent issue. @DigitalBrainJS can you try …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "axios@1.14.1 and axios@0.30.4 are compromised\nmore details: https://www.stepsecu\u2026",
+          "title": "axios@1.14.1 and axios@0.30.4 are compromised\nmore details: https://www.stepsecu…",
           "url": "https://github.com/axios/axios/issues/10604",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -86,13 +36,13 @@
     },
     {
       "id": "l504",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -128,13 +78,13 @@
     },
     {
       "id": "l506",
-      "text": "My personal AI benchmark: \u201cGenerate an SVG of a frog with a Habsburg jaw\u201d",
+      "text": "My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "My personal AI benchmark: \u201cGenerate an SVG of a frog with a Habsburg jaw\u201d",
+          "title": "My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”",
           "url": "https://frogs.vaguespac.es/",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -149,13 +99,13 @@
     },
     {
       "id": "l507",
-      "text": "Show HN: Derive \u2013 An open home for AI artifacts and workflows",
+      "text": "Show HN: Derive – An open home for AI artifacts and workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Derive \u2013 An open home for AI artifacts and workflows",
+          "title": "Show HN: Derive – An open home for AI artifacts and workflows",
           "url": "https://github.com/derive-to/derive",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -401,13 +351,13 @@
     },
     {
       "id": "l519",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -443,13 +393,13 @@
     },
     {
       "id": "l521",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -485,13 +435,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -548,13 +498,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -569,13 +519,13 @@
     },
     {
       "id": "l527",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+      "text": "Show HN: Core – open-source AI butler that clears your backlog without you",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+          "title": "Show HN: Core – open-source AI butler that clears your backlog without you",
           "url": "https://www.getcore.me/",
           "date": "2026-04-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Rank 5 Captain Zhiagii scrabbled against the deck as the ship shook around him. The Good Pheromone had only been commissioned last year. The new ship was state-of-the-art for a light cruiser. Premium shielding modules, revamped power-routing systems, and boosted acceleration profiles were the specs he had picked that set it above the rest. And now, somewhere near the front of the ship, several decks were exposed to spa\u2026",
+      "text": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Rank 5 Captain Zhiagii scrabbled against the deck as the ship shook around him. The Good Pheromone had only been commissioned last year. The new ship was state-of-the-art for a light cruiser. Premium shielding modules, revamped power-routing systems, and boosted acceleration profiles were the specs he had picked that set it above the rest. And now, somewhere near the front of the ship, several decks were exposed to spa…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Ra\u2026",
+          "title": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Ra…",
           "url": "https://www.reddit.com/r/HFY/comments/1vwpkvz/the_human_artificial_hivemind_part_641_a_new_set/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -638,7 +588,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Michael Truell and three MIT friends thought AI coding was too crowded. In Augus\u2026",
+          "title": "Michael Truell and three MIT friends thought AI coding was too crowded. In Augus…",
           "url": "https://x.com/T0vi7/status/2093439838615957560",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "Strategic Predictive Analysis :::\nPi Network\u2019s Next Evolution: From Blockchain Nodes to a Distributed AI and Work Execution Infrastructure\n( https://t.co/690gQVtYyU )\n\n[[[ This article includes Predictive & Technical Analysis  and may differ from actual outcomes ]]]\n[[[ \u201cWhy OpenClaw and the Atlassian MCP Server Matter \u2014 Pi Desktop Is No Longer Just a Node Application\u201d ]]]\n[[[ \u201cTurning 420,000+ Pioneer Nodes from Blockchain Validators into a Global Distributed Production Infrastructure\u201d ]]]\n[[[",
+      "text": "Strategic Predictive Analysis :::\nPi Network’s Next Evolution: From Blockchain Nodes to a Distributed AI and Work Execution Infrastructure\n( https://t.co/690gQVtYyU )\n\n[[[ This article includes Predictive & Technical Analysis  and may differ from actual outcomes ]]]\n[[[ “Why OpenClaw and the Atlassian MCP Server Matter — Pi Desktop Is No Longer Just a Node Application” ]]]\n[[[ “Turning 420,000+ Pioneer Nodes from Blockchain Validators into a Global Distributed Production Infrastructure” ]]]\n[[[",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Strategic Predictive Analysis :::\nPi Network\u2019s Next Evolution: From Blockchain N\u2026",
+          "title": "Strategic Predictive Analysis :::\nPi Network’s Next Evolution: From Blockchain N…",
           "url": "https://x.com/applekhankorea/status/2093366647587565778",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -674,13 +624,13 @@
     },
     {
       "id": "l532",
-      "text": ".@Figure CEO @MBTannenbaum on the risk of outsourcing customer acquisition in the age of AI:\n\n\"This is why we keep a direct-to-consumer business. A lot of our customers in the lending world rely on lead generation platforms like Credit Karma and LendingTree, or personal finance websites. They\u2019re affiliates that send out leads.\n\nIf AI disrupts that, how do we know our partners are set up to make sure they get those leads in that future?\n\nWe\u2019re not really outsourcing the underwriting. We\u2019re outsou",
+      "text": ".@Figure CEO @MBTannenbaum on the risk of outsourcing customer acquisition in the age of AI:\n\n\"This is why we keep a direct-to-consumer business. A lot of our customers in the lending world rely on lead generation platforms like Credit Karma and LendingTree, or personal finance websites. They’re affiliates that send out leads.\n\nIf AI disrupts that, how do we know our partners are set up to make sure they get those leads in that future?\n\nWe’re not really outsourcing the underwriting. We’re outsou",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": ".@Figure CEO @MBTannenbaum on the risk of outsourcing customer acquisition in th\u2026",
+          "title": ".@Figure CEO @MBTannenbaum on the risk of outsourcing customer acquisition in th…",
           "url": "https://x.com/ThePeelPod/status/2093359585419579440",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "EXACTLY.\n\nAnd if they tell you that they need more immigrants for home health care then look carefully at @RepNicole district for fraud because NY has a huge issue with fake and dysfunctional HHC agencies.\n\nThey are filled up with fake home health aides that temp agencies shovel out \u2013 mostly illegals \u2013  that never show up but those agencies bill Medicaid anyway. \n\n*From my own personal experience.\n\nNot to mention it is hell finding a decent job and AI is coopting all the entry level white collar",
+      "text": "EXACTLY.\n\nAnd if they tell you that they need more immigrants for home health care then look carefully at @RepNicole district for fraud because NY has a huge issue with fake and dysfunctional HHC agencies.\n\nThey are filled up with fake home health aides that temp agencies shovel out – mostly illegals –  that never show up but those agencies bill Medicaid anyway. \n\n*From my own personal experience.\n\nNot to mention it is hell finding a decent job and AI is coopting all the entry level white collar",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "EXACTLY.\n\nAnd if they tell you that they need more immigrants for home health ca\u2026",
+          "title": "EXACTLY.\n\nAnd if they tell you that they need more immigrants for home health ca…",
           "url": "https://x.com/Jessanne/status/2044873688294498413",
           "date": "2026-04-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -758,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "Day 4 of my series on AI's impact on the economy.\n\nThe best electricians in America are now clearing $240,000 a year.\n\nThis number will likely continue to climb.\n\nThe AI boom is gated by a shortage of the people who wire it, and no amount of money fixes it fast enough. Here's why and my thoughts on what we need to do \n\ud83d\udc47",
+      "text": "Day 4 of my series on AI's impact on the economy.\n\nThe best electricians in America are now clearing $240,000 a year.\n\nThis number will likely continue to climb.\n\nThe AI boom is gated by a shortage of the people who wire it, and no amount of money fixes it fast enough. Here's why and my thoughts on what we need to do \n👇",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Day 4 of my series on AI's impact on the economy.\n\nThe best electricians in Amer\u2026",
+          "title": "Day 4 of my series on AI's impact on the economy.\n\nThe best electricians in Amer…",
           "url": "https://x.com/beanlawler_/status/2072827239519932877",
           "date": "2026-07-02",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+      "text": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+          "title": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
           "url": "https://x.com/BestBlogsDev/status/2093500753738645591",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nBy Cassidy K. Buhler, Fernando P\u00e9rez & Carl Boettiger\nhttps://t.co/7DVqLebNcD\n\nPublicly available AI models and local infrastructure can reduce AI\u2019s environmental footprint while giving researchers greater control over the tools they use.\n\nAs public opposition grows against the soaring energy and water demands of data centres powering the artificial-intelligence boom, some technology companies are talking about puttin",
+      "text": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nBy Cassidy K. Buhler, Fernando Pérez & Carl Boettiger\nhttps://t.co/7DVqLebNcD\n\nPublicly available AI models and local infrastructure can reduce AI’s environmental footprint while giving researchers greater control over the tools they use.\n\nAs public opposition grows against the soaring energy and water demands of data centres powering the artificial-intelligence boom, some technology companies are talking about puttin",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nB\u2026",
+          "title": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nB…",
           "url": "https://x.com/gecko39/status/2092989596900442316",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "Day 2 of my 30-day series on AI's impact on the economy.\n\nEveryone's fighting about whether AI adds jobs or destroys them.\n\nRight now it's doing neither. \n\nIt's sorting them \u2014 by industry, by company, and by location \u2014 into winners and losers. It's already the biggest economic story of the decade, hiding under a calm jobs number and big tech layoffs in the news.\n\nI ran the numbers across all 3,144 U.S. counties to show you where and what it means for you \ud83d\udc47",
+      "text": "Day 2 of my 30-day series on AI's impact on the economy.\n\nEveryone's fighting about whether AI adds jobs or destroys them.\n\nRight now it's doing neither. \n\nIt's sorting them — by industry, by company, and by location — into winners and losers. It's already the biggest economic story of the decade, hiding under a calm jobs number and big tech layoffs in the news.\n\nI ran the numbers across all 3,144 U.S. counties to show you where and what it means for you 👇",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Day 2 of my 30-day series on AI's impact on the economy.\n\nEveryone's fighting ab\u2026",
+          "title": "Day 2 of my 30-day series on AI's impact on the economy.\n\nEveryone's fighting ab…",
           "url": "https://x.com/beanlawler_/status/2072185695888715982",
           "date": "2026-07-01",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -911,7 +861,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI and Robotics, specifically the Optimus Humanoid Robot will replace 1/2 of the\u2026",
+          "title": "AI and Robotics, specifically the Optimus Humanoid Robot will replace 1/2 of the…",
           "url": "https://x.com/WmBrackbill/status/2042438928951599170",
           "date": "2026-04-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -926,13 +876,13 @@
     },
     {
       "id": "l544",
-      "text": "Ohio Says Safeguards Exist To Stop Medicaid Fraud, But Admits Massive Loophole | Luke Rosiak, The Daily Wire\n\nThis article is on Ohio\u2019s response to \u201cMedicaid Millions,\u201d a Daily Wire series exposing billions of dollars in dubious \u201cpersonal services\u201d payments where people are paid to spend time with their own family.\n\n***\n\nOhio says it has safeguards in place to cut down on fraud and abuse of Medicaid home health care, but one of the biggest tools to verify care is actually taking place has been r",
+      "text": "Ohio Says Safeguards Exist To Stop Medicaid Fraud, But Admits Massive Loophole | Luke Rosiak, The Daily Wire\n\nThis article is on Ohio’s response to “Medicaid Millions,” a Daily Wire series exposing billions of dollars in dubious “personal services” payments where people are paid to spend time with their own family.\n\n***\n\nOhio says it has safeguards in place to cut down on fraud and abuse of Medicaid home health care, but one of the biggest tools to verify care is actually taking place has been r",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Ohio Says Safeguards Exist To Stop Medicaid Fraud, But Admits Massive Loophole |\u2026",
+          "title": "Ohio Says Safeguards Exist To Stop Medicaid Fraud, But Admits Massive Loophole |…",
           "url": "https://x.com/OwenGregorian/status/2054528110045929601",
           "date": "2026-05-13",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -953,7 +903,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@beanlawler_ totally underappreciated. 2 companies in the same industry with the\u2026",
+          "title": "@beanlawler_ totally underappreciated. 2 companies in the same industry with the…",
           "url": "https://x.com/rcwillenbrock/status/2072378833534070896",
           "date": "2026-07-01",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "@beanlawler_ Hell yeah! Love this position and I\u2019m now going to send it to all of my haters who say AI will only do bad things.",
+      "text": "@beanlawler_ Hell yeah! Love this position and I’m now going to send it to all of my haters who say AI will only do bad things.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@beanlawler_ Hell yeah! Love this position and I\u2019m now going to send it to all o\u2026",
+          "title": "@beanlawler_ Hell yeah! Love this position and I’m now going to send it to all o…",
           "url": "https://x.com/JJEnglert/status/2072298316088385823",
           "date": "2026-07-01",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "Will AI Take Your Job? The Honest 2026 Answer \u2014 and How to Find Out in 5 Minutes",
+      "text": "Will AI Take Your Job? The Honest 2026 Answer — and How to Find Out in 5 Minutes",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Will AI Take Your Job? The Honest 2026 Answer \u2014 and How to Find Out in 5 Minutes",
+          "title": "Will AI Take Your Job? The Honest 2026 Answer — and How to Find Out in 5 Minutes",
           "url": "https://x.com/Freistyle_AI/status/2048012100921184598",
           "date": "2026-04-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1010,13 +960,13 @@
     },
     {
       "id": "l548",
-      "text": "How AI Will Run Your Life in 2026\nHow will AI change your life? In this video, we explore the future of AI in everyday life and how emerging technologies are already transforming the way we live, work, and interact. From AI-driven smart homes to personalized health assistants that feel like science fiction, we look at the advancements that will be \"normal\" by 2026.\n\nAs AI Wire Report monitors the intersection of humanity and technology, we\u2019ve identified the specific ways artificial intelligence \u2026",
+      "text": "How AI Will Run Your Life in 2026\nHow will AI change your life? In this video, we explore the future of AI in everyday life and how emerging technologies are already transforming the way we live, work, and interact. From AI-driven smart homes to personalized health assistants that feel like science fiction, we look at the advancements that will be \"normal\" by 2026.\n\nAs AI Wire Report monitors the intersection of humanity and technology, we’ve identified the specific ways artificial intelligence …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI Will Run Your Life in 2026\nHow will AI change your life? In this video, w\u2026",
+          "title": "How AI Will Run Your Life in 2026\nHow will AI change your life? In this video, w…",
           "url": "https://www.youtube.com/watch?v=G1Wb3m_MCz0",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1031,7 +981,7 @@
     },
     {
       "id": "l449",
-      "text": "Home Care Worker \u2014 Silverchain Group (Darlington, South Australia, Australia). Posted 2 weeks ago.",
+      "text": "Home Care Worker — Silverchain Group (Darlington, South Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1052,7 +1002,7 @@
     },
     {
       "id": "l450",
-      "text": "Personal Support Worker \u2014 Health Professionals To You (Greater Adelaide Area). Posted 1 week ago.",
+      "text": "Personal Support Worker — Health Professionals To You (Greater Adelaide Area). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1073,7 +1023,7 @@
     },
     {
       "id": "l451",
-      "text": "Personal Support Worker \u2014 Arcare Aged Care (Helensvale, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Personal Support Worker — Arcare Aged Care (Helensvale, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1094,7 +1044,7 @@
     },
     {
       "id": "l452",
-      "text": "Home Care Worker \u2014 Silverchain Group (Toowoomba, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Home Care Worker — Silverchain Group (Toowoomba, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1115,7 +1065,7 @@
     },
     {
       "id": "l453",
-      "text": "Care Companion | Glen Waverley \u2014 Age Up Health (Glen Waverley, Victoria, Australia). Posted 1 week ago.",
+      "text": "Care Companion | Glen Waverley — Age Up Health (Glen Waverley, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1136,7 +1086,7 @@
     },
     {
       "id": "l454",
-      "text": "Personal Care Worker \u2014 Benetas (Eastern View, Victoria, Australia). Posted 4 weeks ago.",
+      "text": "Personal Care Worker — Benetas (Eastern View, Victoria, Australia). Posted 4 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1157,7 +1107,7 @@
     },
     {
       "id": "l455",
-      "text": "Support Services \u2014 Carinity (Townsville, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Support Services — Carinity (Townsville, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1178,7 +1128,7 @@
     },
     {
       "id": "l456",
-      "text": "Caregiver \u2014 Dovida Australia (Unley, South Australia, Australia). Posted 6 months ago.",
+      "text": "Caregiver — Dovida Australia (Unley, South Australia, Australia). Posted 6 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1199,7 +1149,7 @@
     },
     {
       "id": "l457",
-      "text": "Support Worker | Seaford \u2014 Accept Care (Seaford Heights, South Australia, Australia). Posted 2 weeks ago.",
+      "text": "Support Worker | Seaford — Accept Care (Seaford Heights, South Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1220,7 +1170,7 @@
     },
     {
       "id": "l458",
-      "text": "Home Support Worker (Multiple Locations) - EOI \u2014 Kalyra (Adelaide, South Australia, Australia). Posted 9 months ago.",
+      "text": "Home Support Worker (Multiple Locations) - EOI — Kalyra (Adelaide, South Australia, Australia). Posted 9 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1241,13 +1191,13 @@
     },
     {
       "id": "l559",
-      "text": "axios@1.14.1 and axios@0.30.4 are compromised\nmore details: https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan\n\nMost likely, a maintainer's GitHub and npm accounts are compromised as these issues are getting deleted.\n\nI have also reported this as a vulnerability, so that a CVE can be generated\nHmm, I doubt @jasonsaayman is here. He doesn't reply on Slack, but he managed to unpin and probably delete the recent issue. @DigitalBrainJS can you try \u2026",
+      "text": "axios@1.14.1 and axios@0.30.4 are compromised\nmore details: https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan\n\nMost likely, a maintainer's GitHub and npm accounts are compromised as these issues are getting deleted.\n\nI have also reported this as a vulnerability, so that a CVE can be generated\nHmm, I doubt @jasonsaayman is here. He doesn't reply on Slack, but he managed to unpin and probably delete the recent issue. @DigitalBrainJS can you try …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "axios@1.14.1 and axios@0.30.4 are compromised\nmore details: https://www.stepsecu\u2026",
+          "title": "axios@1.14.1 and axios@0.30.4 are compromised\nmore details: https://www.stepsecu…",
           "url": "https://github.com/axios/axios/issues/10604",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1262,13 +1212,13 @@
     },
     {
       "id": "l560",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1283,13 +1233,13 @@
     },
     {
       "id": "l561",
-      "text": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Rank 5 Captain Zhiagii scrabbled against the deck as the ship shook around him. The Good Pheromone had only been commissioned last year. The new ship was state-of-the-art for a light cruiser. Premium shielding modules, revamped power-routing systems, and boosted acceleration profiles were the specs he had picked that set it above the rest. And now, somewhere near the front of the ship, several decks were exposed to spa\u2026",
+      "text": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Rank 5 Captain Zhiagii scrabbled against the deck as the ship shook around him. The Good Pheromone had only been commissioned last year. The new ship was state-of-the-art for a light cruiser. Premium shielding modules, revamped power-routing systems, and boosted acceleration profiles were the specs he had picked that set it above the rest. And now, somewhere near the front of the ship, several decks were exposed to spa…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Ra\u2026",
+          "title": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Ra…",
           "url": "https://www.reddit.com/r/HFY/comments/1vwpkvz/the_human_artificial_hivemind_part_641_a_new_set/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1304,13 +1254,13 @@
     },
     {
       "id": "l562",
-      "text": "How AI Will Run Your Life in 2026\nHow will AI change your life? In this video, we explore the future of AI in everyday life and how emerging technologies are already transforming the way we live, work, and interact. From AI-driven smart homes to personalized health assistants that feel like science fiction, we look at the advancements that will be \"normal\" by 2026.\n\nAs AI Wire Report monitors the intersection of humanity and technology, we\u2019ve identified the specific ways artificial intelligence \u2026",
+      "text": "How AI Will Run Your Life in 2026\nHow will AI change your life? In this video, we explore the future of AI in everyday life and how emerging technologies are already transforming the way we live, work, and interact. From AI-driven smart homes to personalized health assistants that feel like science fiction, we look at the advancements that will be \"normal\" by 2026.\n\nAs AI Wire Report monitors the intersection of humanity and technology, we’ve identified the specific ways artificial intelligence …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI Will Run Your Life in 2026\nHow will AI change your life? In this video, w\u2026",
+          "title": "How AI Will Run Your Life in 2026\nHow will AI change your life? In this video, w…",
           "url": "https://www.youtube.com/watch?v=G1Wb3m_MCz0",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1401,6 +1351,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

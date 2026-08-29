@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "21-1015-01",
-      "text": "National peak professional bodies and statutory regulators governing Rehabilitation Counselors enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Rehabilitation Counselors",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Rehabilitation Counselors",
-          "url": "https://www.psc.gov.au/standards/21-1015",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Rehabilitation Counselors"
-        }
-      ],
-      "scope": "Australian practitioners in Rehabilitation Counselors across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "21-1015-02",
-      "text": "Automation of routine transactional and analytical tasks in Rehabilitation Counselors heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Rehabilitation Counselors",
-          "url": "https://www.jobsandskills.gov.au/research/21-1015",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Rehabilitation Counselors in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Rehabilitation Counselors roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "[UI/UX]: Add \u201cHealthcare Heroes of India\u201d Honor Page in UltimateHealth\n# GitHub Issue: Add \u201cHealthcare Heroes of India\u201d Honor Page in UltimateHealth\n\n## Overview\n\nCreate a dedicated page inside UltimateHealth to honor notable Indian doctors and healthcare contributors whose work significantly improved healthcare accessibility, research, medical awareness, rural healthc\nThank you for creating this issue! We'll look into it as soon as possible. Your contributions are highly appreciated! \ud83d\ude0a Hey @SB2\u2026",
+      "text": "[UI/UX]: Add “Healthcare Heroes of India” Honor Page in UltimateHealth\n# GitHub Issue: Add “Healthcare Heroes of India” Honor Page in UltimateHealth\n\n## Overview\n\nCreate a dedicated page inside UltimateHealth to honor notable Indian doctors and healthcare contributors whose work significantly improved healthcare accessibility, research, medical awareness, rural healthc\nThank you for creating this issue! We'll look into it as soon as possible. Your contributions are highly appreciated! 😊 Hey @SB2…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[UI/UX]: Add \u201cHealthcare Heroes of India\u201d Honor Page in UltimateHealth\n# GitHub \u2026",
+          "title": "[UI/UX]: Add “Healthcare Heroes of India” Honor Page in UltimateHealth\n# GitHub …",
           "url": "https://github.com/SB2318/UltimateHealth/issues/863",
           "date": "2026-05-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -86,13 +36,13 @@
     },
     {
       "id": "l504",
-      "text": "Global Alcohol Treatment Services Market to Reach USD 8.627 Billion by 2034, Growing at 6.7% CAGR\nGlobal Alcohol Treatment Services Market to Reach USD 8.627 Billion by 2034, Growing at 6.7% CAGR \nAccording to a new report from Intel Market Research, the global Alcohol Treatment Services market was valued at USD 5.511\u202fbillion in\u202f2025 and is projected to reach USD\u202f8.627\u202fbillion by\u202f2034, growing a",
+      "text": "Global Alcohol Treatment Services Market to Reach USD 8.627 Billion by 2034, Growing at 6.7% CAGR\nGlobal Alcohol Treatment Services Market to Reach USD 8.627 Billion by 2034, Growing at 6.7% CAGR \nAccording to a new report from Intel Market Research, the global Alcohol Treatment Services market was valued at USD 5.511 billion in 2025 and is projected to reach USD 8.627 billion by 2034, growing a",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Global Alcohol Treatment Services Market to Reach USD 8.627 Billion by 2034, Gro\u2026",
+          "title": "Global Alcohol Treatment Services Market to Reach USD 8.627 Billion by 2034, Gro…",
           "url": "https://github.com/marketanalysiscorner/Global-Alcohol-Treatment-Services-Market-to-Reach-USD-8.627-Billion-by-2034-Growing-at-6.7-CAGR-/issues/1",
           "date": "2026-07-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -107,13 +57,13 @@
     },
     {
       "id": "l505",
-      "text": "Pathways Pro \u2014 VR dual-mode platform with personality testing\n## Summary\n\nBuilds the **Pathways Pro** vocational rehabilitation app from the Drive folder (\"Pathways Pro \u2014 VR Counselor App\"), wrapping the **Career Compass** personality-and-interest career matcher (built on branch `claude/personality-job-matcher-C2seI`) into one unified dual-mode app.\n\nTwo halve\n[vc]: #M+Lvk6MhCluFQDZiHi/Rm0UlSbwr2C9M3fF3eGdDiis=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJwYXRod2F5c\u2026",
+      "text": "Pathways Pro — VR dual-mode platform with personality testing\n## Summary\n\nBuilds the **Pathways Pro** vocational rehabilitation app from the Drive folder (\"Pathways Pro — VR Counselor App\"), wrapping the **Career Compass** personality-and-interest career matcher (built on branch `claude/personality-job-matcher-C2seI`) into one unified dual-mode app.\n\nTwo halve\n[vc]: #M+Lvk6MhCluFQDZiHi/Rm0UlSbwr2C9M3fF3eGdDiis=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJwYXRod2F5c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Pathways Pro \u2014 VR dual-mode platform with personality testing\n## Summary\n\nBuilds\u2026",
+          "title": "Pathways Pro — VR dual-mode platform with personality testing\n## Summary\n\nBuilds…",
           "url": "https://github.com/Candiorlando/computer-science/pull/7",
           "date": "2026-06-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -317,13 +267,13 @@
     },
     {
       "id": "l515",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -338,13 +288,13 @@
     },
     {
       "id": "l516",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -527,13 +477,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -569,13 +519,13 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "By day AI was replacing me. By night I was using AI to replace other people. Six months ago I went indie.\nTwo of Australia&#39;s big four banks are laying off IT staff, round after round. I work at one of them. My closest friend works at the other. So I&#39;ve been watching this from both sides at once, and every day at work feels like waiting for a verdict - not knowing whether this round gets to your name. I have 15 years of development experience. Dozens of projects, big and small. I&#39;ve w\u2026",
+      "text": "By day AI was replacing me. By night I was using AI to replace other people. Six months ago I went indie.\nTwo of Australia&#39;s big four banks are laying off IT staff, round after round. I work at one of them. My closest friend works at the other. So I&#39;ve been watching this from both sides at once, and every day at work feels like waiting for a verdict - not knowing whether this round gets to your name. I have 15 years of development experience. Dozens of projects, big and small. I&#39;ve w…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "By day AI was replacing me. By night I was using AI to replace other people. Six\u2026",
+          "title": "By day AI was replacing me. By night I was using AI to replace other people. Six…",
           "url": "https://www.reddit.com/r/SideProject/comments/1ve9l4o/by_day_ai_was_replacing_me_by_night_i_was_using/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "VR&E Denial Case Study - Artificial Intelligence, Administrative Apathy, and the Betrayal of the VA\nBy Tyler McKenzie Wade*, Doctoral Candidate of Law* Tyler Wade is a veteran of the Second Cavalry Regiment, a commissioned officer of the New Mexico Military Institute, and graduate of Seattle University School of Law. Given his disability and qualifications, he sought support from the Department of Veterans Affairs to pivot from work environments that triggered his disability into law teaching. U\u2026",
+      "text": "VR&E Denial Case Study - Artificial Intelligence, Administrative Apathy, and the Betrayal of the VA\nBy Tyler McKenzie Wade*, Doctoral Candidate of Law* Tyler Wade is a veteran of the Second Cavalry Regiment, a commissioned officer of the New Mexico Military Institute, and graduate of Seattle University School of Law. Given his disability and qualifications, he sought support from the Department of Veterans Affairs to pivot from work environments that triggered his disability into law teaching. U…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "VR&E Denial Case Study - Artificial Intelligence, Administrative Apathy, and the\u2026",
+          "title": "VR&E Denial Case Study - Artificial Intelligence, Administrative Apathy, and the…",
           "url": "https://www.reddit.com/r/VAClaims/comments/1vp2fcd/vre_denial_case_study_artificial_intelligence/",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -680,7 +630,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "One day. Multiple big MSK conversations. Exceptional value.\n\nThe MACP Study Day \u2026",
+          "title": "One day. Multiple big MSK conversations. Exceptional value.\n\nThe MACP Study Day …",
           "url": "https://x.com/PhysioMACP/status/2053731938981069185",
           "date": "2026-05-11",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -701,7 +651,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I'm beginning to wonder why every single endeavor I take always ends up a comple\u2026",
+          "title": "I'm beginning to wonder why every single endeavor I take always ends up a comple…",
           "url": "https://x.com/11975MHz/status/2093489226402697697",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -722,7 +672,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Vivek, did you concern yourself in the slightest for the millions of Americans t\u2026",
+          "title": "Vivek, did you concern yourself in the slightest for the millions of Americans t…",
           "url": "https://x.com/11975MHz/status/2093527156022239248",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -743,7 +693,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "...does anyone else remember if H-1Bs and those who mass imported these parasite\u2026",
+          "title": "...does anyone else remember if H-1Bs and those who mass imported these parasite…",
           "url": "https://x.com/11975MHz/status/2093526296538026292",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -758,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "DATE UPDATE!!! Our incredible new course on the recognition and referral of Axial and peripheral spondyloarthritis lectured by Consultant Physio Carol McCrum @carol_mccrum is now on Thursday 26th November. It\u2019s a one day online course so book now to secure your place!\n\nhttps://t.co/whh67z9Ayx",
+      "text": "DATE UPDATE!!! Our incredible new course on the recognition and referral of Axial and peripheral spondyloarthritis lectured by Consultant Physio Carol McCrum @carol_mccrum is now on Thursday 26th November. It’s a one day online course so book now to secure your place!\n\nhttps://t.co/whh67z9Ayx",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "DATE UPDATE!!! Our incredible new course on the recognition and referral of Axia\u2026",
+          "title": "DATE UPDATE!!! Our incredible new course on the recognition and referral of Axia…",
           "url": "https://x.com/PhysioMACP/status/2092143554550169666",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -785,7 +735,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The painful thing is everything I've seen so far with VR&E is that the Vocationa\u2026",
+          "title": "The painful thing is everything I've seen so far with VR&E is that the Vocationa…",
           "url": "https://x.com/11975MHz/status/2092684592830414943",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "Our confirmed speaker line-up is here! and what a line up it is!\n\nWhether you have a research idea, want to dip your toe into research, develop a project, or need support writing an article \u2014 come and join MACP & APPN on 25 September for our Nurturing Research Conference. @APPN_physio \n\n\ud83d\udcc5 25 September | \ud83d\udccb Programme below | \ud83c\udf9f\ufe0f Book your place here",
+      "text": "Our confirmed speaker line-up is here! and what a line up it is!\n\nWhether you have a research idea, want to dip your toe into research, develop a project, or need support writing an article — come and join MACP & APPN on 25 September for our Nurturing Research Conference. @APPN_physio \n\n📅 25 September | 📋 Programme below | 🎟️ Book your place here",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Our confirmed speaker line-up is here! and what a line up it is!\n\nWhether you ha\u2026",
+          "title": "Our confirmed speaker line-up is here! and what a line up it is!\n\nWhether you ha…",
           "url": "https://x.com/PhysioMACP/status/2087435860513784082",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "Michigan Rehabilitation Services is hiring! They\u2019re looking for: \n\n\u27a1\ufe0f Pre-Employment Transition Services Coordinator\n\u27a1\ufe0f Rehabilitation Services Coordinator\n\u27a1\ufe0f Vocational Rehabilitation Counselors\n\nDon\u2019t wait \u2013 apply today at https://t.co/20XmWSH8mc. \n#MiGovJobs #Hiring #MRS https://t.co/sM3SKSaoqv",
+      "text": "Michigan Rehabilitation Services is hiring! They’re looking for: \n\n➡️ Pre-Employment Transition Services Coordinator\n➡️ Rehabilitation Services Coordinator\n➡️ Vocational Rehabilitation Counselors\n\nDon’t wait – apply today at https://t.co/20XmWSH8mc. \n#MiGovJobs #Hiring #MRS https://t.co/sM3SKSaoqv",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Michigan Rehabilitation Services is hiring! They\u2019re looking for: \n\n\u27a1\ufe0f Pre-Employ\u2026",
+          "title": "Michigan Rehabilitation Services is hiring! They’re looking for: \n\n➡️ Pre-Employ…",
           "url": "https://x.com/MichiganTalent/status/2092251094864810236",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -863,13 +813,13 @@
     },
     {
       "id": "l541",
-      "text": "Not long to go until our fantastic MACP Nurturing Research Conference, in collaboration with APPN.\nNot sure if it's for you? Listen to Sharon eloquently explain how this unique conference is designed to support every stage of your career through research\u2014from those just starting out to experienced professionals looking to grow.\nDon't miss this one-of-a-kind event. Book your place now and be part of the conversation.  https://t.co/RICtg0i64O @APPN_physio",
+      "text": "Not long to go until our fantastic MACP Nurturing Research Conference, in collaboration with APPN.\nNot sure if it's for you? Listen to Sharon eloquently explain how this unique conference is designed to support every stage of your career through research—from those just starting out to experienced professionals looking to grow.\nDon't miss this one-of-a-kind event. Book your place now and be part of the conversation.  https://t.co/RICtg0i64O @APPN_physio",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Not long to go until our fantastic MACP Nurturing Research Conference, in collab\u2026",
+          "title": "Not long to go until our fantastic MACP Nurturing Research Conference, in collab…",
           "url": "https://x.com/PhysioMACP/status/2092532344460571120",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -890,7 +840,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Integrating Shoulder Imaging into MSK practice is now available to book!! This f\u2026",
+          "title": "Integrating Shoulder Imaging into MSK practice is now available to book!! This f…",
           "url": "https://x.com/PhysioMACP/status/2092570084375933065",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -911,7 +861,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "If you saw how the average black family eats and feeds their children, you'd und\u2026",
+          "title": "If you saw how the average black family eats and feeds their children, you'd und…",
           "url": "https://x.com/11975MHz/status/2093486055596994876",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -926,13 +876,13 @@
     },
     {
       "id": "l544",
-      "text": "Explore new opportunities using Pathfinder! The free online career exploration tool uses current labor market info to help you find in-demand careers \u2013 and creates a roadmap of the steps needed to get there. Get started at https://t.co/zX34vwKeS5.\n\n#PathfinderMI #CareerRoadmap https://t.co/LVI7J3AMVy",
+      "text": "Explore new opportunities using Pathfinder! The free online career exploration tool uses current labor market info to help you find in-demand careers – and creates a roadmap of the steps needed to get there. Get started at https://t.co/zX34vwKeS5.\n\n#PathfinderMI #CareerRoadmap https://t.co/LVI7J3AMVy",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Explore new opportunities using Pathfinder! The free online career exploration t\u2026",
+          "title": "Explore new opportunities using Pathfinder! The free online career exploration t…",
           "url": "https://x.com/MichiganTalent/status/2093307757793247335",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "Explore job opportunities at https://t.co/W5z9V39bpy! Search for remote, in-person and hybrid positions. Plus, you can filter for jobs by your desired pay range! Don\u2019t wait \u2013 head to https://t.co/W5z9V39bpy to get started. \n\n#MiTalent #JobSearch https://t.co/ARpl7I45PD",
+      "text": "Explore job opportunities at https://t.co/W5z9V39bpy! Search for remote, in-person and hybrid positions. Plus, you can filter for jobs by your desired pay range! Don’t wait – head to https://t.co/W5z9V39bpy to get started. \n\n#MiTalent #JobSearch https://t.co/ARpl7I45PD",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Explore job opportunities at https://t.co/W5z9V39bpy! Search for remote, in-pers\u2026",
+          "title": "Explore job opportunities at https://t.co/W5z9V39bpy! Search for remote, in-pers…",
           "url": "https://x.com/MichiganTalent/status/2091948807567155498",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1016,7 +966,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Expanding Deaf Centered Practices for Vocational Rehabilitation Counselors throu\u2026",
+          "title": "Expanding Deaf Centered Practices for Vocational Rehabilitation Counselors throu…",
           "url": "https://x.com/DeafNewsToday/status/2042403480074059972",
           "date": "2026-04-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1058,7 +1008,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@11975MHz Where's that redditor who planned the Invasion of Canada when you need\u2026",
+          "title": "@11975MHz Where's that redditor who planned the Invasion of Canada when you need…",
           "url": "https://x.com/_grathew_/status/2093531505343553666",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1100,7 +1050,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@11975MHz *insert starship troopers it's afraid quote*\nDespite the Chinese being\u2026",
+          "title": "@11975MHz *insert starship troopers it's afraid quote*\nDespite the Chinese being…",
           "url": "https://x.com/HoliestC/status/2093517625150063033",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1121,7 +1071,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "We are currently conducting a research project exploring how strengths-based app\u2026",
+          "title": "We are currently conducting a research project exploring how strengths-based app…",
           "url": "https://x.com/PhysioMACP/status/2093305946676056120",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1136,13 +1086,13 @@
     },
     {
       "id": "l554",
-      "text": "The Purple Heart, one of the military\u2019s oldest decorations, recognizes the men and women who have been wounded or killed while serving in the U.S. armed forces. Today, let us honor the Purple Heart recipients and their loved ones. \n\n#PurpleHeartDay #PurpleHeart https://t.co/zsjHXbTlcz",
+      "text": "The Purple Heart, one of the military’s oldest decorations, recognizes the men and women who have been wounded or killed while serving in the U.S. armed forces. Today, let us honor the Purple Heart recipients and their loved ones. \n\n#PurpleHeartDay #PurpleHeart https://t.co/zsjHXbTlcz",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Purple Heart, one of the military\u2019s oldest decorations, recognizes the men a\u2026",
+          "title": "The Purple Heart, one of the military’s oldest decorations, recognizes the men a…",
           "url": "https://x.com/MichiganTalent/status/2085697659004649806",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1157,13 +1107,13 @@
     },
     {
       "id": "l555",
-      "text": "Farm workers help keep Michigan\u2019s $104.7 billion agricultural industry running. If you\u2019re looking for a job, consider one in this critical industry. Search for opportunities from verified employers at https://t.co/yqdVQ80JEG. \n\n#FarmWorkerAppreciationDay #MiTalent https://t.co/Xf1MhQbak4",
+      "text": "Farm workers help keep Michigan’s $104.7 billion agricultural industry running. If you’re looking for a job, consider one in this critical industry. Search for opportunities from verified employers at https://t.co/yqdVQ80JEG. \n\n#FarmWorkerAppreciationDay #MiTalent https://t.co/Xf1MhQbak4",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Farm workers help keep Michigan\u2019s $104.7 billion agricultural industry running. \u2026",
+          "title": "Farm workers help keep Michigan’s $104.7 billion agricultural industry running. …",
           "url": "https://x.com/MichiganTalent/status/2085335320715833359",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1178,13 +1128,13 @@
     },
     {
       "id": "l556",
-      "text": "@11975MHz Everyone having the same digital tools arguably causes this yeah. I want to say that at least it does lighten their workload, but I'm not even sure on that front \ud83d\ude05.",
+      "text": "@11975MHz Everyone having the same digital tools arguably causes this yeah. I want to say that at least it does lighten their workload, but I'm not even sure on that front 😅.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@11975MHz Everyone having the same digital tools arguably causes this yeah. I wa\u2026",
+          "title": "@11975MHz Everyone having the same digital tools arguably causes this yeah. I wa…",
           "url": "https://x.com/lovhes_stupid/status/2093560520855154856",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1220,13 +1170,13 @@
     },
     {
       "id": "l558",
-      "text": "Struggling to find and keep teachers? A #RegisteredApprenticeship can help! Schools that offer Registered Apprenticeships open the door to new &amp; diverse talent pools, retain staff better &amp; build stronger communities!\n\n\u27a1\ufe0f https://t.co/Y4nCAuvfSp. \n#BackToSchool #Teaching",
+      "text": "Struggling to find and keep teachers? A #RegisteredApprenticeship can help! Schools that offer Registered Apprenticeships open the door to new &amp; diverse talent pools, retain staff better &amp; build stronger communities!\n\n➡️ https://t.co/Y4nCAuvfSp. \n#BackToSchool #Teaching",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Struggling to find and keep teachers? A #RegisteredApprenticeship can help! Scho\u2026",
+          "title": "Struggling to find and keep teachers? A #RegisteredApprenticeship can help! Scho…",
           "url": "https://x.com/MichiganTalent/status/2093343595675922829",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1241,13 +1191,13 @@
     },
     {
       "id": "l559",
-      "text": "Want to know what opportunities will set your kids up for future success? Let Pathfinder, Michigan\u2019s free career exploration tool, help you! Pathfinder can help in exploring career paths &amp; tuition outcomes. Get started at https://t.co/zX34vwKeS5.\n\n#PathfinderMI #CareerRoadmap https://t.co/2dsUgU9W0Y",
+      "text": "Want to know what opportunities will set your kids up for future success? Let Pathfinder, Michigan’s free career exploration tool, help you! Pathfinder can help in exploring career paths &amp; tuition outcomes. Get started at https://t.co/zX34vwKeS5.\n\n#PathfinderMI #CareerRoadmap https://t.co/2dsUgU9W0Y",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Want to know what opportunities will set your kids up for future success? Let Pa\u2026",
+          "title": "Want to know what opportunities will set your kids up for future success? Let Pa…",
           "url": "https://x.com/MichiganTalent/status/2092975703998214150",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1262,13 +1212,13 @@
     },
     {
       "id": "l560",
-      "text": "A high school diploma or equivalency certificate can open many doors \u2013 take advantage of the many free or low-cost services that are available! Learn more at https://t.co/hjZGT1o6J1. \n\n#AdultEducation #BackToSchool #HSE #GED https://t.co/41NWnp0BI4",
+      "text": "A high school diploma or equivalency certificate can open many doors – take advantage of the many free or low-cost services that are available! Learn more at https://t.co/hjZGT1o6J1. \n\n#AdultEducation #BackToSchool #HSE #GED https://t.co/41NWnp0BI4",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A high school diploma or equivalency certificate can open many doors \u2013 take adva\u2026",
+          "title": "A high school diploma or equivalency certificate can open many doors – take adva…",
           "url": "https://x.com/MichiganTalent/status/2092613312940814740",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1289,7 +1239,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Do you overlook the thoracic spine in your Msk practice?\n\nDevelop your clinical \u2026",
+          "title": "Do you overlook the thoracic spine in your Msk practice?\n\nDevelop your clinical …",
           "url": "https://x.com/PhysioMACP/status/2092657584851370439",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1304,13 +1254,13 @@
     },
     {
       "id": "l562",
-      "text": "This interactive online course with national expert @gerardgreenephy teaches everything you need to know about managing pregnancy and pelvic health related problems.\n\nBook your place here \ud83d\udc47\ufe0f \nhttps://t.co/MeQXxXfZnf https://t.co/SKY765i3Zg",
+      "text": "This interactive online course with national expert @gerardgreenephy teaches everything you need to know about managing pregnancy and pelvic health related problems.\n\nBook your place here 👇️ \nhttps://t.co/MeQXxXfZnf https://t.co/SKY765i3Zg",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This interactive online course with national expert @gerardgreenephy teaches eve\u2026",
+          "title": "This interactive online course with national expert @gerardgreenephy teaches eve…",
           "url": "https://x.com/PhysioMACP/status/2092615514673582363",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1331,7 +1281,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Try this if it's viable for you let's collaborate: https://t.co/G00u7ABGWd\n\nIt's\u2026",
+          "title": "Try this if it's viable for you let's collaborate: https://t.co/G00u7ABGWd\n\nIt's…",
           "url": "https://x.com/DoketsApparels/status/2092221489387053116",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1352,7 +1302,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Making the right choice about which college or training program to enroll in can\u2026",
+          "title": "Making the right choice about which college or training program to enroll in can…",
           "url": "https://x.com/OaklandMIWorks/status/2077815531176898643",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1367,13 +1317,13 @@
     },
     {
       "id": "l565",
-      "text": "QUICK FUN QUIZ FOR MSK PHYSIOs\n\nPlease spend 5mins doing this quick quiz to help with my talk tomorrow on \u201cPhysio at the Crossroads\u201d at the @PhysioMACP Study Day :) (no Googling!)\n\nhttps://t.co/dpM3kX32rJ",
+      "text": "QUICK FUN QUIZ FOR MSK PHYSIOs\n\nPlease spend 5mins doing this quick quiz to help with my talk tomorrow on “Physio at the Crossroads” at the @PhysioMACP Study Day :) (no Googling!)\n\nhttps://t.co/dpM3kX32rJ",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "QUICK FUN QUIZ FOR MSK PHYSIOs\n\nPlease spend 5mins doing this quick quiz to help\u2026",
+          "title": "QUICK FUN QUIZ FOR MSK PHYSIOs\n\nPlease spend 5mins doing this quick quiz to help…",
           "url": "https://x.com/RogerKerry1/status/2062839425453662289",
           "date": "2026-06-05",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1394,7 +1344,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Ever had a young adult with hip pain since teens, tried excellent rehab and x-ra\u2026",
+          "title": "Ever had a young adult with hip pain since teens, tried excellent rehab and x-ra…",
           "url": "https://x.com/AmieCoombs2/status/2065740805415862634",
           "date": "2026-06-13",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1415,7 +1365,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": ".@ConsultantsCSP @CSP_YorkHumber @CSPLondonRegion @CSPsouthcentral @thecspstuden\u2026",
+          "title": ".@ConsultantsCSP @CSP_YorkHumber @CSPLondonRegion @CSPsouthcentral @thecspstuden…",
           "url": "https://x.com/RobYeldham/status/2068056343345267055",
           "date": "2026-06-19",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1436,7 +1386,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": ".@ConsultantsCSP .@CSP_YorkHumber .@CSPLondonRegion .@thecspstudents .@CSPsouthc\u2026",
+          "title": ".@ConsultantsCSP .@CSP_YorkHumber .@CSPLondonRegion .@thecspstudents .@CSPsouthc…",
           "url": "https://x.com/RobYeldham/status/2063284531986104723",
           "date": "2026-06-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1457,7 +1407,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Every day, the dedicated @MichiganTalent team helps both Michigan businesses &am\u2026",
+          "title": "Every day, the dedicated @MichiganTalent team helps both Michigan businesses &am…",
           "url": "https://x.com/SLBeckhorn/status/2056387331045626105",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1472,13 +1422,13 @@
     },
     {
       "id": "l570",
-      "text": "Changing lives. Opening Doors. Building Futures. \ud83d\udcbc\n\nWe're celebrating National Rehabilitation Counselors Appreciation Day and the incredible Vocational Rehabilitation Counselors (VRCs) at OOD.\n\nEvery day, VRCs empower Ohioans with disabilities to prepare for, find, and keep meaningful employment, and that impact is life-changing.\n\nIn this video, you'll hear directly from participants across the state sharing their gratitude for the counselors who believed in them, supported them, and helped them",
+      "text": "Changing lives. Opening Doors. Building Futures. 💼\n\nWe're celebrating National Rehabilitation Counselors Appreciation Day and the incredible Vocational Rehabilitation Counselors (VRCs) at OOD.\n\nEvery day, VRCs empower Ohioans with disabilities to prepare for, find, and keep meaningful employment, and that impact is life-changing.\n\nIn this video, you'll hear directly from participants across the state sharing their gratitude for the counselors who believed in them, supported them, and helped them",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Changing lives. Opening Doors. Building Futures. \ud83d\udcbc\n\nWe're celebrating National R\u2026",
+          "title": "Changing lives. Opening Doors. Building Futures. 💼\n\nWe're celebrating National R…",
           "url": "https://x.com/OhioOOD/status/2036141021394796580",
           "date": "2026-03-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1493,13 +1443,13 @@
     },
     {
       "id": "l571",
-      "text": "The VA\u2019s Veteran Readiness &amp; Employment (VR&amp;E) program is hiring 300+ Vocational Rehabilitation Counselors and Specialists nationwide. Help veterans overcome employment barriers and build meaningful careers. Apply by March 15.\n\nLearn More: https://t.co/JDekRAzLTq https://t.co/DrR7FX0bTO",
+      "text": "The VA’s Veteran Readiness &amp; Employment (VR&amp;E) program is hiring 300+ Vocational Rehabilitation Counselors and Specialists nationwide. Help veterans overcome employment barriers and build meaningful careers. Apply by March 15.\n\nLearn More: https://t.co/JDekRAzLTq https://t.co/DrR7FX0bTO",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The VA\u2019s Veteran Readiness &amp; Employment (VR&amp;E) program is hiring 300+ Vo\u2026",
+          "title": "The VA’s Veteran Readiness &amp; Employment (VR&amp;E) program is hiring 300+ Vo…",
           "url": "https://x.com/ausntoday/status/2029687280571666683",
           "date": "2026-03-05",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1514,13 +1464,13 @@
     },
     {
       "id": "l572",
-      "text": "Today, we recognize National Rehabilitation Counselors Appreciation Day to celebrate the dedicated work of Certified Rehabilitation Counselors and the vital role they play for individuals with disabilities. Hear from Ipinder Singh, a Master\u2019s in Rehabilitation Counseling student. https://t.co/dwDritg6hk",
+      "text": "Today, we recognize National Rehabilitation Counselors Appreciation Day to celebrate the dedicated work of Certified Rehabilitation Counselors and the vital role they play for individuals with disabilities. Hear from Ipinder Singh, a Master’s in Rehabilitation Counseling student. https://t.co/dwDritg6hk",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Today, we recognize National Rehabilitation Counselors Appreciation Day to celeb\u2026",
+          "title": "Today, we recognize National Rehabilitation Counselors Appreciation Day to celeb…",
           "url": "https://x.com/gwGSEHD/status/2035799450031976607",
           "date": "2026-03-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1541,7 +1491,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Thank you to all DRS Vocational Rehabilitation counselors! Your hard work, dedic\u2026",
+          "title": "Thank you to all DRS Vocational Rehabilitation counselors! Your hard work, dedic…",
           "url": "https://x.com/OKDRS/status/2035763591085707276",
           "date": "2026-03-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1577,13 +1527,13 @@
     },
     {
       "id": "l575",
-      "text": "AI Gait Analysis in Rehab: The Promise vs. The Reality\nWelcome back to @ThePhysicalTherapyFiles! As physical therapists, we are constantly evaluating our patients' movements, but what happens when we turn our diagnostic skills onto the very technology designed to help us?\nIn this video, we dive deep into the usability of a cutting-edge, AI-based markerless gait analysis system (the MediStep M prototype). While the dream of tracking functional recovery without clunky motion capture labs sounds in\u2026",
+      "text": "AI Gait Analysis in Rehab: The Promise vs. The Reality\nWelcome back to @ThePhysicalTherapyFiles! As physical therapists, we are constantly evaluating our patients' movements, but what happens when we turn our diagnostic skills onto the very technology designed to help us?\nIn this video, we dive deep into the usability of a cutting-edge, AI-based markerless gait analysis system (the MediStep M prototype). While the dream of tracking functional recovery without clunky motion capture labs sounds in…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Gait Analysis in Rehab: The Promise vs. The Reality\nWelcome back to @ThePhysi\u2026",
+          "title": "AI Gait Analysis in Rehab: The Promise vs. The Reality\nWelcome back to @ThePhysi…",
           "url": "https://www.youtube.com/watch?v=mMP8HKZqWpg",
           "date": "2026-07-01",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1598,7 +1548,7 @@
     },
     {
       "id": "l476",
-      "text": "Rehabilitation Consultant - Bunbury \u2014 Procare Group (Bunbury, Western Australia, Australia). Posted 6 days ago.",
+      "text": "Rehabilitation Consultant - Bunbury — Procare Group (Bunbury, Western Australia, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1619,7 +1569,7 @@
     },
     {
       "id": "l477",
-      "text": "Rehabilitation Counsellor \u2014 Humanity Health Group (Brisbane City, Queensland, Australia). Posted 1 week ago.",
+      "text": "Rehabilitation Counsellor — Humanity Health Group (Brisbane City, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1640,7 +1590,7 @@
     },
     {
       "id": "l478",
-      "text": "Rehabilitation Consultant \u2014 APM WorkCare (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
+      "text": "Rehabilitation Consultant — APM WorkCare (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1661,7 +1611,7 @@
     },
     {
       "id": "l479",
-      "text": "Change Facilitator \u2014 Open Minds (Penrith, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Change Facilitator — Open Minds (Penrith, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1682,7 +1632,7 @@
     },
     {
       "id": "l480",
-      "text": "Senior Consultant - Rehabilitation Counsellor \u2014 APM WorkCare (Sydney, New South Wales, Australia). Posted 6 days ago.",
+      "text": "Senior Consultant - Rehabilitation Counsellor — APM WorkCare (Sydney, New South Wales, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1703,7 +1653,7 @@
     },
     {
       "id": "l481",
-      "text": "Rehabilitation Counsellor \u2014 Nabenet (Miranda, New South Wales, Australia). Posted 3 weeks ago.",
+      "text": "Rehabilitation Counsellor — Nabenet (Miranda, New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1724,7 +1674,7 @@
     },
     {
       "id": "l482",
-      "text": "Rehabilitation Consultant \u2014 APM (Adelaide, South Australia, Australia). Posted 21 hours ago.",
+      "text": "Rehabilitation Consultant — APM (Adelaide, South Australia, Australia). Posted 21 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1745,7 +1695,7 @@
     },
     {
       "id": "l483",
-      "text": "Rehabilitation Counsellor \u2014 Humanity Health Group (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Rehabilitation Counsellor — Humanity Health Group (Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1766,7 +1716,7 @@
     },
     {
       "id": "l484",
-      "text": "Rehabilitation Consultant \u2014 Procare Group (Launceston, Tasmania, Australia). Posted 5 days ago.",
+      "text": "Rehabilitation Consultant — Procare Group (Launceston, Tasmania, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1787,7 +1737,7 @@
     },
     {
       "id": "l485",
-      "text": "Psychological Workplace Rehabilitation Consultant \u2014 KINNECT (Toowoomba, Queensland, Australia). Posted 1 week ago.",
+      "text": "Psychological Workplace Rehabilitation Consultant — KINNECT (Toowoomba, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1808,13 +1758,13 @@
     },
     {
       "id": "l586",
-      "text": "[UI/UX]: Add \u201cHealthcare Heroes of India\u201d Honor Page in UltimateHealth\n# GitHub Issue: Add \u201cHealthcare Heroes of India\u201d Honor Page in UltimateHealth\n\n## Overview\n\nCreate a dedicated page inside UltimateHealth to honor notable Indian doctors and healthcare contributors whose work significantly improved healthcare accessibility, research, medical awareness, rural healthc\nThank you for creating this issue! We'll look into it as soon as possible. Your contributions are highly appreciated! \ud83d\ude0a Hey @SB2\u2026",
+      "text": "[UI/UX]: Add “Healthcare Heroes of India” Honor Page in UltimateHealth\n# GitHub Issue: Add “Healthcare Heroes of India” Honor Page in UltimateHealth\n\n## Overview\n\nCreate a dedicated page inside UltimateHealth to honor notable Indian doctors and healthcare contributors whose work significantly improved healthcare accessibility, research, medical awareness, rural healthc\nThank you for creating this issue! We'll look into it as soon as possible. Your contributions are highly appreciated! 😊 Hey @SB2…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[UI/UX]: Add \u201cHealthcare Heroes of India\u201d Honor Page in UltimateHealth\n# GitHub \u2026",
+          "title": "[UI/UX]: Add “Healthcare Heroes of India” Honor Page in UltimateHealth\n# GitHub …",
           "url": "https://github.com/SB2318/UltimateHealth/issues/863",
           "date": "2026-05-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1829,13 +1779,13 @@
     },
     {
       "id": "l587",
-      "text": "Pathways Pro \u2014 VR dual-mode platform with personality testing\n## Summary\n\nBuilds the **Pathways Pro** vocational rehabilitation app from the Drive folder (\"Pathways Pro \u2014 VR Counselor App\"), wrapping the **Career Compass** personality-and-interest career matcher (built on branch `claude/personality-job-matcher-C2seI`) into one unified dual-mode app.\n\nTwo halve\n[vc]: #M+Lvk6MhCluFQDZiHi/Rm0UlSbwr2C9M3fF3eGdDiis=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJwYXRod2F5c\u2026",
+      "text": "Pathways Pro — VR dual-mode platform with personality testing\n## Summary\n\nBuilds the **Pathways Pro** vocational rehabilitation app from the Drive folder (\"Pathways Pro — VR Counselor App\"), wrapping the **Career Compass** personality-and-interest career matcher (built on branch `claude/personality-job-matcher-C2seI`) into one unified dual-mode app.\n\nTwo halve\n[vc]: #M+Lvk6MhCluFQDZiHi/Rm0UlSbwr2C9M3fF3eGdDiis=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJwYXRod2F5c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Pathways Pro \u2014 VR dual-mode platform with personality testing\n## Summary\n\nBuilds\u2026",
+          "title": "Pathways Pro — VR dual-mode platform with personality testing\n## Summary\n\nBuilds…",
           "url": "https://github.com/Candiorlando/computer-science/pull/7",
           "date": "2026-06-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1850,13 +1800,13 @@
     },
     {
       "id": "l588",
-      "text": "By day AI was replacing me. By night I was using AI to replace other people. Six months ago I went indie.\nTwo of Australia&#39;s big four banks are laying off IT staff, round after round. I work at one of them. My closest friend works at the other. So I&#39;ve been watching this from both sides at once, and every day at work feels like waiting for a verdict - not knowing whether this round gets to your name. I have 15 years of development experience. Dozens of projects, big and small. I&#39;ve w\u2026",
+      "text": "By day AI was replacing me. By night I was using AI to replace other people. Six months ago I went indie.\nTwo of Australia&#39;s big four banks are laying off IT staff, round after round. I work at one of them. My closest friend works at the other. So I&#39;ve been watching this from both sides at once, and every day at work feels like waiting for a verdict - not knowing whether this round gets to your name. I have 15 years of development experience. Dozens of projects, big and small. I&#39;ve w…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "By day AI was replacing me. By night I was using AI to replace other people. Six\u2026",
+          "title": "By day AI was replacing me. By night I was using AI to replace other people. Six…",
           "url": "https://www.reddit.com/r/SideProject/comments/1ve9l4o/by_day_ai_was_replacing_me_by_night_i_was_using/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1871,13 +1821,13 @@
     },
     {
       "id": "l589",
-      "text": "VR&E Denial Case Study - Artificial Intelligence, Administrative Apathy, and the Betrayal of the VA\nBy Tyler McKenzie Wade*, Doctoral Candidate of Law* Tyler Wade is a veteran of the Second Cavalry Regiment, a commissioned officer of the New Mexico Military Institute, and graduate of Seattle University School of Law. Given his disability and qualifications, he sought support from the Department of Veterans Affairs to pivot from work environments that triggered his disability into law teaching. U\u2026",
+      "text": "VR&E Denial Case Study - Artificial Intelligence, Administrative Apathy, and the Betrayal of the VA\nBy Tyler McKenzie Wade*, Doctoral Candidate of Law* Tyler Wade is a veteran of the Second Cavalry Regiment, a commissioned officer of the New Mexico Military Institute, and graduate of Seattle University School of Law. Given his disability and qualifications, he sought support from the Department of Veterans Affairs to pivot from work environments that triggered his disability into law teaching. U…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "VR&E Denial Case Study - Artificial Intelligence, Administrative Apathy, and the\u2026",
+          "title": "VR&E Denial Case Study - Artificial Intelligence, Administrative Apathy, and the…",
           "url": "https://www.reddit.com/r/VAClaims/comments/1vp2fcd/vre_denial_case_study_artificial_intelligence/",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1892,13 +1842,13 @@
     },
     {
       "id": "l590",
-      "text": "AI Gait Analysis in Rehab: The Promise vs. The Reality\nWelcome back to @ThePhysicalTherapyFiles! As physical therapists, we are constantly evaluating our patients' movements, but what happens when we turn our diagnostic skills onto the very technology designed to help us?\nIn this video, we dive deep into the usability of a cutting-edge, AI-based markerless gait analysis system (the MediStep M prototype). While the dream of tracking functional recovery without clunky motion capture labs sounds in\u2026",
+      "text": "AI Gait Analysis in Rehab: The Promise vs. The Reality\nWelcome back to @ThePhysicalTherapyFiles! As physical therapists, we are constantly evaluating our patients' movements, but what happens when we turn our diagnostic skills onto the very technology designed to help us?\nIn this video, we dive deep into the usability of a cutting-edge, AI-based markerless gait analysis system (the MediStep M prototype). While the dream of tracking functional recovery without clunky motion capture labs sounds in…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Gait Analysis in Rehab: The Promise vs. The Reality\nWelcome back to @ThePhysi\u2026",
+          "title": "AI Gait Analysis in Rehab: The Promise vs. The Reality\nWelcome back to @ThePhysi…",
           "url": "https://www.youtube.com/watch?v=mMP8HKZqWpg",
           "date": "2026-07-01",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1991,6 +1941,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

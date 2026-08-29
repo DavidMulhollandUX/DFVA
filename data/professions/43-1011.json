@@ -15,64 +15,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "43-1011-01",
-      "text": "National peak professional bodies and statutory regulators governing First-Line Supervisors/Managers of Office and Administrative Support Workers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for First-Line Supervisors/Managers of Office and Administrative Support Workers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for First-Line Supervisors/Managers of Office and Administrative Support Workers",
-          "url": "https://www.psc.gov.au/standards/43-1011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for First-Line Supervisors/Managers of Office and Administrative Support Workers"
-        }
-      ],
-      "scope": "Australian practitioners in First-Line Supervisors/Managers of Office and Administrative Support Workers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "43-1011-02",
-      "text": "Automation of routine transactional and analytical tasks in First-Line Supervisors/Managers of Office and Administrative Support Workers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in First-Line Supervisors/Managers of Office and Administrative Support Workers",
-          "url": "https://www.jobsandskills.gov.au/research/43-1011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across First-Line Supervisors/Managers of Office and Administrative Support Workers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior First-Line Supervisors/Managers of Office and Administrative Support Workers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "Administrative Structure Integration \u2014 Organization, Employees, Settings, Profile & Virtual Office\n# Administrative Structure Integration Audit\n\nParent roadmap: #306\nFull system audit: #307\nRelated security PR: #304\n\n## Purpose\n\nEnsure the administrative structure is not an isolated page. It must become the operational backbone for every organization/company inside Blumark24 OS.\n\nThis includes:",
+      "text": "Administrative Structure Integration — Organization, Employees, Settings, Profile & Virtual Office\n# Administrative Structure Integration Audit\n\nParent roadmap: #306\nFull system audit: #307\nRelated security PR: #304\n\n## Purpose\n\nEnsure the administrative structure is not an isolated page. It must become the operational backbone for every organization/company inside Blumark24 OS.\n\nThis includes:",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Administrative Structure Integration \u2014 Organization, Employees, Settings, Profil\u2026",
+          "title": "Administrative Structure Integration — Organization, Employees, Settings, Profil…",
           "url": "https://github.com/blumark24/Blumark24-OS/issues/308",
           "date": "2026-06-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -93,7 +43,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Beyond Compliance: Why Behavioral Health Documentation Is Becoming the Foundatio\u2026",
+          "title": "Beyond Compliance: Why Behavioral Health Documentation Is Becoming the Foundatio…",
           "url": "https://github.com/digitalhealthservices/behavioral-health-ehr-software/issues/4",
           "date": "2026-05-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -360,13 +310,13 @@
     },
     {
       "id": "l517",
-      "text": "\ud83c\udf0d \u4e4c\u5179\u522b\u514b\u65af\u5766\u4e24\u5934\u4e0b\u6ce8\u7684AI\u7ad9\u961f\u5b66\n\u26a1 \u5357\u534e\u65e9\u62a58\u670828\u65e5\u62a5\u9053\uff0c\u4e4c\u5179\u522b\u514b\u65af\u5766\u5df2\u5411\u7f8e\u56fd\u6b63\u5f0f\u9012\u4ea4\u5916\u4ea4\u7167\u4f1a\uff0c\u7533\u8bf7\u52a0\u5165\u7f8e\u56fd\u4e3b\u5bfc\u7684AI\u4f9b\u5e94\u94fe\u8054\u76dfPax Silica\u3002\u8fd9\u4efd\u7167\u4f1a\u4e8e\u4e0a\u5468\u9012\u4ea4\uff0c\u800c\u5c31\u5728\u4e00\u4e2a\u6708\u524d\uff0c\u5854\u4ec0\u5e72\u521a\u521a\u52a0\u5165\u4e2d\u56fd\u53d1\u8d77\u7684\u4e16\u754c\u4eba\u5de5\u667a\u80fd\u5408\u4f5c\u7ec4\u7ec7Waico\u3002\u9a7b\u7f8e\u5927\u4f7fSidikov\u5728\u534e\u76db\u987f\u8868\u6001\uff1a\u73b0\u5728\u8f6e\u5230\u7f8e\u56fd\u786e\u8ba4\u4e86\uff0c\u6211\u4eec\u968f\u65f6\u53ef\u4ee5\u7b7e\u3002\n\n\ud83d\udcb0 \u4e2d\u4e9a\u56fd\u5bb6\u7684\u5904\u5883\u5f88\u76f4\u63a5\uff1aAI\u7b97\u529b\u3001\u82af\u7247\u3001\u6807\u51c6\u4e09\u6837\u90fd\u4e0d\u5728\u81ea\u5df1\u624b\u91cc\uff0c\u534e\u76db\u987f\u548c\u5317\u4eac\u90fd\u5728\u63a8\u5404\u81ea\u7684\u9635\u8425\u65b9\u6848\uff0c\u9009\u8fb9\u610f\u5473\u7740\u62ff\u5230\u8d44\u6e90\u4e5f\u610f\u5473\u7740\u6811\u654c\u3002\u4e4c\u5179\u522b\u514b\u65af\u5766\u7684\u6253\u6cd5\u662f\u628a\u4e24\u8fb9\u95e8\u90fd\u6572\u5f00\uff0c\u7528\u52a0\u5165\u6743\u6362\u53d6\u8bae\u4ef7\u7a7a\u95f4\u3002Sidikov\u7684\u8bf4\u6cd5\u662f\uff1a\u5404\u56fd\u5e94\u5f53\u6709\u673a\u4f1a\u53c2\u4e0e\u4efb\u4f55\u5f62\u5f0f\u7684\u56fd\u9645\u5408\u4f5c\uff0c\u7ed9\u53c2\u4e0e\u5212\u7ea2\u7ebf\u53ea\u4f1a\u9002\u5f97\u5176\u53cd\u3002\n\n\ud83e\uddd0 \u771f\u6b63\u7684\u770b\u70b9\u5728\u534e\u76db\u987f\u600e\u4e48\u63a5\u3002Pax Silica\u662f\u7f8e\u56fdAI\u4f9b\u5e94\u94fe\u7684\u65d7\u8230\u5021\u8bae\uff0c\u4e00\u4e2a\u521a\u52a0\u5165\u4e2d\u56fd\u9635\u8425\u7684\u56fd\u5bb6\u7533\u8bf7\u8fdb\u95e8\uff0c\u63a5\u53d7\u5b83\u7b49\u4e8e\u627f\u8ba4\u9635\u8425\u8fb9\u754c\u53ef\u4ee5\u6e17\u900f\uff0c\u62d2\u7edd\u5b83\u5219\u5750\u5b9e\u4e86\u9635\u8425\u94c1\u5e55\u3002\u4e00\u4e2a\u6708\u524dWaico\u5148\u6536\u4e0b\u4e86\u5854\u4ec0\u5e72\uff0c\u7403\u73b0\u5728\u5728\u7f8e\u56fd\u56fd\u52a1\u9662\u624b\u91cc\u3002\n\n\ud83d\udd2e \u5c0f\u56fd\u4e24\u5934\u4e0b\u6ce8\u4e0d\u65b0\u9c9c\uff0c\u65b0\u9c9c\u7684\u662fAI\u65f6\u4ee3\u8fd9\u79cd\u4e0b\u6ce8\u7b2c\u4e00\u6b21\u6709\u4e86\u5236\u5ea6\u5316\u7684\u8f7d\u4f53\uff1aWaico\u548cPax Silica\u4e24\u4e2a\u540d\u5b57\u3001\u4e24\u5957\u6807\u51c6\u3001\u4e24\u4e2a\u4f9b\u5e94\u94fe\u5708\u3002\u4e2d\u4e9a\u4e94\u56fd\u63a5\u4e0b\u6765\u9010\u4e2a\u8868\u6001\u7684",
+      "text": "🌍 乌兹别克斯坦两头下注的AI站队学\n⚡ 南华早报8月28日报道，乌兹别克斯坦已向美国正式递交外交照会，申请加入美国主导的AI供应链联盟Pax Silica。这份照会于上周递交，而就在一个月前，塔什干刚刚加入中国发起的世界人工智能合作组织Waico。驻美大使Sidikov在华盛顿表态：现在轮到美国确认了，我们随时可以签。\n\n💰 中亚国家的处境很直接：AI算力、芯片、标准三样都不在自己手里，华盛顿和北京都在推各自的阵营方案，选边意味着拿到资源也意味着树敌。乌兹别克斯坦的打法是把两边门都敲开，用加入权换取议价空间。Sidikov的说法是：各国应当有机会参与任何形式的国际合作，给参与划红线只会适得其反。\n\n🧐 真正的看点在华盛顿怎么接。Pax Silica是美国AI供应链的旗舰倡议，一个刚加入中国阵营的国家申请进门，接受它等于承认阵营边界可以渗透，拒绝它则坐实了阵营铁幕。一个月前Waico先收下了塔什干，球现在在美国国务院手里。\n\n🔮 小国两头下注不新鲜，新鲜的是AI时代这种下注第一次有了制度化的载体：Waico和Pax Silica两个名字、两套标准、两个供应链圈。中亚五国接下来逐个表态的",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83c\udf0d \u4e4c\u5179\u522b\u514b\u65af\u5766\u4e24\u5934\u4e0b\u6ce8\u7684AI\u7ad9\u961f\u5b66\n\u26a1 \u5357\u534e\u65e9\u62a58\u670828\u65e5\u62a5\u9053\uff0c\u4e4c\u5179\u522b\u514b\u65af\u5766\u5df2\u5411\u7f8e\u56fd\u6b63\u5f0f\u9012\u4ea4\u5916\u4ea4\u7167\u4f1a\uff0c\u7533\u8bf7\u52a0\u5165\u7f8e\u56fd\u4e3b\u5bfc\u7684AI\u4f9b\u5e94\u94fe\u8054\u76dfPax Silica\u3002\u8fd9\u2026",
+          "title": "🌍 乌兹别克斯坦两头下注的AI站队学\n⚡ 南华早报8月28日报道，乌兹别克斯坦已向美国正式递交外交照会，申请加入美国主导的AI供应链联盟Pax Silica。这…",
           "url": "https://x.com/BirdTechVision/status/2093570636215967855",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -381,13 +331,13 @@
     },
     {
       "id": "l518",
-      "text": "@BirdTechVision \u4f3c\u4e4e\u9019\u662fAI agent\u53ef\u4ee5\u505a\u7684\u4e8b\u60c5\u5462",
+      "text": "@BirdTechVision 似乎這是AI agent可以做的事情呢",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@BirdTechVision \u4f3c\u4e4e\u9019\u662fAI agent\u53ef\u4ee5\u505a\u7684\u4e8b\u60c5\u5462",
+          "title": "@BirdTechVision 似乎這是AI agent可以做的事情呢",
           "url": "https://x.com/AtomLuiz75101/status/2093563972196958514",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -402,13 +352,13 @@
     },
     {
       "id": "l519",
-      "text": "@BirdTechVision \u4e4c\u5179\u522b\u514b\u65af\u5766\u5728\u7f8e\u4e2d\u4e4b\u95f4\u6447\u6446\uff0c\u4f46\u52a0\u5165Pax AI\u4f9b\u5e94\u94fe\u662f\u5355\u5411\u7684\u8d4c\u6ce8 ... , \u4e00\u65e6\u7ed1\u5b9a\u7f8e\u56fd\u6280\u672f\u6808\uff0c\u5f88\u96be\u518d\u5207\u6362\u3002",
+      "text": "@BirdTechVision 乌兹别克斯坦在美中之间摇摆，但加入Pax AI供应链是单向的赌注 ... , 一旦绑定美国技术栈，很难再切换。",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@BirdTechVision \u4e4c\u5179\u522b\u514b\u65af\u5766\u5728\u7f8e\u4e2d\u4e4b\u95f4\u6447\u6446\uff0c\u4f46\u52a0\u5165Pax AI\u4f9b\u5e94\u94fe\u662f\u5355\u5411\u7684\u8d4c\u6ce8 ... , \u4e00\u65e6\u7ed1\u5b9a\u7f8e\u56fd\u6280\u672f\u6808\uff0c\u5f88\u96be\u518d\u5207\u6362\u3002",
+          "title": "@BirdTechVision 乌兹别克斯坦在美中之间摇摆，但加入Pax AI供应链是单向的赌注 ... , 一旦绑定美国技术栈，很难再切换。",
           "url": "https://x.com/jaimesolis/status/2093577192470900827",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -444,13 +394,13 @@
     },
     {
       "id": "l521",
-      "text": "@Jackleecong \u5b89\u6392\u7684\u660e\u660e\u767d\u767d\ud83d\ude02",
+      "text": "@Jackleecong 安排的明明白白😂",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Jackleecong \u5b89\u6392\u7684\u660e\u660e\u767d\u767d\ud83d\ude02",
+          "title": "@Jackleecong 安排的明明白白😂",
           "url": "https://x.com/BirdTechVision/status/2093581682326606072",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -465,13 +415,13 @@
     },
     {
       "id": "l522",
-      "text": "@BirdTechVision \u662f\u7684\uff0c\u5f88\u591a\u65f6\u5019\uff0c\u6211\u90fd\u4e0d\u4f1a\u4e89\u8bba\u5c31\u662f\u8fd9\u4e2a\u539f\u56e0\u3002\u8981\u4e0d\u76f4\u63a5\u4e3e\u62a5\uff0c\u8981\u4e0d\u76f4\u63a5\u7ebf\u4e0b\u5e72\u67b6\u3002\u8ba8\u8bba\u53ea\u6709\u5927\u5bb6\u540c\u9891\u7684\u624d\u6709\u610f\u4e49\uff0c\u7279\u522b\u662f\u9488\u5bf9\u8111\u5b50\u4e0d\u6e05\u723d\u7684\u3002\u68cd\u5b50\u66f4\u6709\u6548\u3002",
+      "text": "@BirdTechVision 是的，很多时候，我都不会争论就是这个原因。要不直接举报，要不直接线下干架。讨论只有大家同频的才有意义，特别是针对脑子不清爽的。棍子更有效。",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@BirdTechVision \u662f\u7684\uff0c\u5f88\u591a\u65f6\u5019\uff0c\u6211\u90fd\u4e0d\u4f1a\u4e89\u8bba\u5c31\u662f\u8fd9\u4e2a\u539f\u56e0\u3002\u8981\u4e0d\u76f4\u63a5\u4e3e\u62a5\uff0c\u8981\u4e0d\u76f4\u63a5\u7ebf\u4e0b\u5e72\u67b6\u3002\u8ba8\u8bba\u53ea\u6709\u5927\u5bb6\u540c\u9891\u7684\u624d\u6709\u610f\u4e49\uff0c\u7279\u522b\u662f\u9488\u5bf9\u8111\u5b50\u4e0d\u6e05\u723d\u7684\u3002\u68cd\u2026",
+          "title": "@BirdTechVision 是的，很多时候，我都不会争论就是这个原因。要不直接举报，要不直接线下干架。讨论只有大家同频的才有意义，特别是针对脑子不清爽的。棍…",
           "url": "https://x.com/gpsma2025/status/2093571459562066341",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -486,13 +436,13 @@
     },
     {
       "id": "l523",
-      "text": "@BirdTechVision \u65e9\u5416\u2728",
+      "text": "@BirdTechVision 早吖✨",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@BirdTechVision \u65e9\u5416\u2728",
+          "title": "@BirdTechVision 早吖✨",
           "url": "https://x.com/MeeMicro/status/2093570931201389037",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -507,13 +457,13 @@
     },
     {
       "id": "l524",
-      "text": "@BirdTechVision \u4e16\u4e0a\u53ea\u6709\u5927\u82f1\u6295\u964d\u4eea\u5f0f\u6bd4\u56fd\u5e86\u8fd8\u9686\u91cd  \u5317\u975e\u548c\u9999\u6e2f  \u4ed6\u4eec\u90fd\u5f53\u56fd\u5e86\u641e",
+      "text": "@BirdTechVision 世上只有大英投降仪式比国庆还隆重  北非和香港  他们都当国庆搞",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@BirdTechVision \u4e16\u4e0a\u53ea\u6709\u5927\u82f1\u6295\u964d\u4eea\u5f0f\u6bd4\u56fd\u5e86\u8fd8\u9686\u91cd  \u5317\u975e\u548c\u9999\u6e2f  \u4ed6\u4eec\u90fd\u5f53\u56fd\u5e86\u641e",
+          "title": "@BirdTechVision 世上只有大英投降仪式比国庆还隆重  北非和香港  他们都当国庆搞",
           "url": "https://x.com/fatparrotdaily/status/2093570520801485149",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -528,13 +478,13 @@
     },
     {
       "id": "l525",
-      "text": "@Jackleecong \ud83e\udd23 \u5c31\u5f53\u662f\u5427",
+      "text": "@Jackleecong 🤣 就当是吧",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Jackleecong \ud83e\udd23 \u5c31\u5f53\u662f\u5427",
+          "title": "@Jackleecong 🤣 就当是吧",
           "url": "https://x.com/BirdTechVision/status/2093583375944572935",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -549,13 +499,13 @@
     },
     {
       "id": "l526",
-      "text": "@X_X_MAN_ \u4e0d\u9519\u4e0d\u9519\ud83d\udc4d\ud83d\udc4d\ud83d\udc4d",
+      "text": "@X_X_MAN_ 不错不错👍👍👍",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@X_X_MAN_ \u4e0d\u9519\u4e0d\u9519\ud83d\udc4d\ud83d\udc4d\ud83d\udc4d",
+          "title": "@X_X_MAN_ 不错不错👍👍👍",
           "url": "https://x.com/BirdTechVision/status/2093579395302597031",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -570,13 +520,13 @@
     },
     {
       "id": "l527",
-      "text": "@jaimesolis \u4e24\u5f3a\u4e4b\u95f4\u96be\u4e3a\u5c0f\u3002\ud83e\udd23",
+      "text": "@jaimesolis 两强之间难为小。🤣",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@jaimesolis \u4e24\u5f3a\u4e4b\u95f4\u96be\u4e3a\u5c0f\u3002\ud83e\udd23",
+          "title": "@jaimesolis 两强之间难为小。🤣",
           "url": "https://x.com/BirdTechVision/status/2093578539912008141",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -591,13 +541,13 @@
     },
     {
       "id": "l528",
-      "text": "@gpsma2025 \u8fd9\u4e2a\u4e16\u754c\u5f52\u6839\u7ed3\u5e95\u662f\u7269\u7406\u7684\uff0c\u6279\u5224\u7684\u6b66\u5668\u4e0d\u80fd\u4ee3\u66ff\u6b66\u5668\u7684\u6279\u5224\u3002\ud83d\ude02",
+      "text": "@gpsma2025 这个世界归根结底是物理的，批判的武器不能代替武器的批判。😂",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@gpsma2025 \u8fd9\u4e2a\u4e16\u754c\u5f52\u6839\u7ed3\u5e95\u662f\u7269\u7406\u7684\uff0c\u6279\u5224\u7684\u6b66\u5668\u4e0d\u80fd\u4ee3\u66ff\u6b66\u5668\u7684\u6279\u5224\u3002\ud83d\ude02",
+          "title": "@gpsma2025 这个世界归根结底是物理的，批判的武器不能代替武器的批判。😂",
           "url": "https://x.com/BirdTechVision/status/2093570904282341710",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -612,13 +562,13 @@
     },
     {
       "id": "l529",
-      "text": "@LP001001001 \u8e52\u8dda\u8d77\u6b65\u9636\u6bb5",
+      "text": "@LP001001001 蹒跚起步阶段",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@LP001001001 \u8e52\u8dda\u8d77\u6b65\u9636\u6bb5",
+          "title": "@LP001001001 蹒跚起步阶段",
           "url": "https://x.com/BirdTechVision/status/2093570513264066818",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -633,13 +583,13 @@
     },
     {
       "id": "l530",
-      "text": "@fatparrotdaily \u662f\u7684\u3002BBC\u8fd9\u4e9b\u82cd\u8747\u53ea\u662f\u76ef\u7740\u4eba\u8840\u9992\u5934\u3002",
+      "text": "@fatparrotdaily 是的。BBC这些苍蝇只是盯着人血馒头。",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@fatparrotdaily \u662f\u7684\u3002BBC\u8fd9\u4e9b\u82cd\u8747\u53ea\u662f\u76ef\u7740\u4eba\u8840\u9992\u5934\u3002",
+          "title": "@fatparrotdaily 是的。BBC这些苍蝇只是盯着人血馒头。",
           "url": "https://x.com/BirdTechVision/status/2093570166147760298",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -654,13 +604,13 @@
     },
     {
       "id": "l531",
-      "text": "AI Disruption In Entry-Level Hiring: Why Job Openings Are Shrinking And How Workers Can Stay...\nArtificial Intelligence is rapidly transforming the workforce, and entry-level hiring is among the biggest areas being impacted.\n\nIn this episode of WORKERS.COM Staffing Pulse: Insights From The Frontline, we examine how AI is changing hiring practices, reducing entry-level job openings, and reshaping the future of work.\n\nAcross industries such as Manufacturing, Logistics, Administrative Support, Cust\u2026",
+      "text": "AI Disruption In Entry-Level Hiring: Why Job Openings Are Shrinking And How Workers Can Stay...\nArtificial Intelligence is rapidly transforming the workforce, and entry-level hiring is among the biggest areas being impacted.\n\nIn this episode of WORKERS.COM Staffing Pulse: Insights From The Frontline, we examine how AI is changing hiring practices, reducing entry-level job openings, and reshaping the future of work.\n\nAcross industries such as Manufacturing, Logistics, Administrative Support, Cust…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Disruption In Entry-Level Hiring: Why Job Openings Are Shrinking And How Work\u2026",
+          "title": "AI Disruption In Entry-Level Hiring: Why Job Openings Are Shrinking And How Work…",
           "url": "https://www.youtube.com/watch?v=xT1eIyK3jUI",
           "date": "2026-06-25",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -675,13 +625,13 @@
     },
     {
       "id": "l532",
-      "text": "Why AI Might Not Replace Your Job After All\nSince ChatGPT\u2019s debut, AI has been framed as everything from a world-changing breakthrough to an existential threat. Companies are pouring hundreds of billions into the space as commentators debate potentially utopian and dystopian futures. But researchers like Princeton\u2019s Arvind Narayanan argue the reality may be more incremental \u2013 a powerful technology that will reshape work and productivity over time, without overturning the basic limits of economic\u2026",
+      "text": "Why AI Might Not Replace Your Job After All\nSince ChatGPT’s debut, AI has been framed as everything from a world-changing breakthrough to an existential threat. Companies are pouring hundreds of billions into the space as commentators debate potentially utopian and dystopian futures. But researchers like Princeton’s Arvind Narayanan argue the reality may be more incremental – a powerful technology that will reshape work and productivity over time, without overturning the basic limits of economic…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Why AI Might Not Replace Your Job After All\nSince ChatGPT\u2019s debut, AI has been f\u2026",
+          "title": "Why AI Might Not Replace Your Job After All\nSince ChatGPT’s debut, AI has been f…",
           "url": "https://www.youtube.com/watch?v=EGskcTRnLJ0",
           "date": "2026-03-21",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -696,13 +646,13 @@
     },
     {
       "id": "l533",
-      "text": "Legal Support in the Age of AI Disruption - In Conversation\nThe legal industry is undergoing significant change. AI adoption is accelerating, client expectations are rising, and law firms are facing growing challenges around support staff retention, retirement risk, service delivery, and operational efficiency.\n\nIn this fireside chat, BigHand experts Eric Wangler, Duska Frink and Ben Jennings discuss key findings from the latest legal industry research report, including:\n\n- 95% of firms reportin\u2026",
+      "text": "Legal Support in the Age of AI Disruption - In Conversation\nThe legal industry is undergoing significant change. AI adoption is accelerating, client expectations are rising, and law firms are facing growing challenges around support staff retention, retirement risk, service delivery, and operational efficiency.\n\nIn this fireside chat, BigHand experts Eric Wangler, Duska Frink and Ben Jennings discuss key findings from the latest legal industry research report, including:\n\n- 95% of firms reportin…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Legal Support in the Age of AI Disruption - In Conversation\nThe legal industry i\u2026",
+          "title": "Legal Support in the Age of AI Disruption - In Conversation\nThe legal industry i…",
           "url": "https://www.youtube.com/watch?v=7TuBHFWSwOY",
           "date": "2026-07-23",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -717,13 +667,13 @@
     },
     {
       "id": "l534",
-      "text": "AI Isn\u2019t Taking Every Job Yet \u2014 The Hidden Opportunity Gap\nAI is not replacing most workers all at once. The real story is the widening gap between what AI can already do and what businesses are actually willing or able to deploy.\n\nIn this video, George Goldman Human Author breaks down the difference between theoretical AI capability and observed real-world adoption, showing why the largest disruption may first appear in knowledge work rather than in traditional assumptions about automation.\n\nYo\u2026",
+      "text": "AI Isn’t Taking Every Job Yet — The Hidden Opportunity Gap\nAI is not replacing most workers all at once. The real story is the widening gap between what AI can already do and what businesses are actually willing or able to deploy.\n\nIn this video, George Goldman Human Author breaks down the difference between theoretical AI capability and observed real-world adoption, showing why the largest disruption may first appear in knowledge work rather than in traditional assumptions about automation.\n\nYo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Isn\u2019t Taking Every Job Yet \u2014 The Hidden Opportunity Gap\nAI is not replacing m\u2026",
+          "title": "AI Isn’t Taking Every Job Yet — The Hidden Opportunity Gap\nAI is not replacing m…",
           "url": "https://www.youtube.com/watch?v=KZZWqsHjaY4",
           "date": "2026-04-12",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -738,7 +688,7 @@
     },
     {
       "id": "l435",
-      "text": "Administrative Supervisor \u2014 Cummins Asia Pacific (Adelaide, South Australia, Australia). Posted 1 week ago.",
+      "text": "Administrative Supervisor — Cummins Asia Pacific (Adelaide, South Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -759,7 +709,7 @@
     },
     {
       "id": "l436",
-      "text": "Front Office and Data Systems Manager \u2014 Department of Education and Training (Darwin, Northern Territory, Australia). Posted 1 week ago.",
+      "text": "Front Office and Data Systems Manager — Department of Education and Training (Darwin, Northern Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -780,7 +730,7 @@
     },
     {
       "id": "l437",
-      "text": "Administration Lead \u2014 Resthaven Incorporated (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
+      "text": "Administration Lead — Resthaven Incorporated (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -801,7 +751,7 @@
     },
     {
       "id": "l438",
-      "text": "Office Manager \u2014 Team Global Express (Emerald, Queensland, Australia). Posted 1 week ago.",
+      "text": "Office Manager — Team Global Express (Emerald, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -822,7 +772,7 @@
     },
     {
       "id": "l439",
-      "text": "Office Manager \u2014 SYSTRA ANZ (Newcastle, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Office Manager — SYSTRA ANZ (Newcastle, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -843,7 +793,7 @@
     },
     {
       "id": "l440",
-      "text": "Administration Team Leader, BMVS Perth \u2014 Bupa Australia (Perth, Western Australia, Australia). Posted 2 weeks ago.",
+      "text": "Administration Team Leader, BMVS Perth — Bupa Australia (Perth, Western Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -864,7 +814,7 @@
     },
     {
       "id": "l441",
-      "text": "Office Operations Manager & Executive Assistant \u2014 Journey Beyond (Adelaide, South Australia, Australia). Posted 22 hours ago.",
+      "text": "Office Operations Manager & Executive Assistant — Journey Beyond (Adelaide, South Australia, Australia). Posted 22 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -885,7 +835,7 @@
     },
     {
       "id": "l442",
-      "text": "Office Manager \u2014 Hatch (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Office Manager — Hatch (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -906,7 +856,7 @@
     },
     {
       "id": "l443",
-      "text": "Office Manager \u2014 CoStar Group (Cremorne, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Office Manager — CoStar Group (Cremorne, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -927,7 +877,7 @@
     },
     {
       "id": "l444",
-      "text": "Clerical Team Leader \u2014 Eastern Health (Melbourne, Victoria, Australia). Posted 1 day ago.",
+      "text": "Clerical Team Leader — Eastern Health (Melbourne, Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -948,13 +898,13 @@
     },
     {
       "id": "l545",
-      "text": "AI Disruption In Entry-Level Hiring: Why Job Openings Are Shrinking And How Workers Can Stay...\nArtificial Intelligence is rapidly transforming the workforce, and entry-level hiring is among the biggest areas being impacted.\n\nIn this episode of WORKERS.COM Staffing Pulse: Insights From The Frontline, we examine how AI is changing hiring practices, reducing entry-level job openings, and reshaping the future of work.\n\nAcross industries such as Manufacturing, Logistics, Administrative Support, Cust\u2026",
+      "text": "AI Disruption In Entry-Level Hiring: Why Job Openings Are Shrinking And How Workers Can Stay...\nArtificial Intelligence is rapidly transforming the workforce, and entry-level hiring is among the biggest areas being impacted.\n\nIn this episode of WORKERS.COM Staffing Pulse: Insights From The Frontline, we examine how AI is changing hiring practices, reducing entry-level job openings, and reshaping the future of work.\n\nAcross industries such as Manufacturing, Logistics, Administrative Support, Cust…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Disruption In Entry-Level Hiring: Why Job Openings Are Shrinking And How Work\u2026",
+          "title": "AI Disruption In Entry-Level Hiring: Why Job Openings Are Shrinking And How Work…",
           "url": "https://www.youtube.com/watch?v=xT1eIyK3jUI",
           "date": "2026-06-25",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -969,13 +919,13 @@
     },
     {
       "id": "l546",
-      "text": "Why AI Might Not Replace Your Job After All\nSince ChatGPT\u2019s debut, AI has been framed as everything from a world-changing breakthrough to an existential threat. Companies are pouring hundreds of billions into the space as commentators debate potentially utopian and dystopian futures. But researchers like Princeton\u2019s Arvind Narayanan argue the reality may be more incremental \u2013 a powerful technology that will reshape work and productivity over time, without overturning the basic limits of economic\u2026",
+      "text": "Why AI Might Not Replace Your Job After All\nSince ChatGPT’s debut, AI has been framed as everything from a world-changing breakthrough to an existential threat. Companies are pouring hundreds of billions into the space as commentators debate potentially utopian and dystopian futures. But researchers like Princeton’s Arvind Narayanan argue the reality may be more incremental – a powerful technology that will reshape work and productivity over time, without overturning the basic limits of economic…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Why AI Might Not Replace Your Job After All\nSince ChatGPT\u2019s debut, AI has been f\u2026",
+          "title": "Why AI Might Not Replace Your Job After All\nSince ChatGPT’s debut, AI has been f…",
           "url": "https://www.youtube.com/watch?v=EGskcTRnLJ0",
           "date": "2026-03-21",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -990,13 +940,13 @@
     },
     {
       "id": "l547",
-      "text": "Legal Support in the Age of AI Disruption - In Conversation\nThe legal industry is undergoing significant change. AI adoption is accelerating, client expectations are rising, and law firms are facing growing challenges around support staff retention, retirement risk, service delivery, and operational efficiency.\n\nIn this fireside chat, BigHand experts Eric Wangler, Duska Frink and Ben Jennings discuss key findings from the latest legal industry research report, including:\n\n- 95% of firms reportin\u2026",
+      "text": "Legal Support in the Age of AI Disruption - In Conversation\nThe legal industry is undergoing significant change. AI adoption is accelerating, client expectations are rising, and law firms are facing growing challenges around support staff retention, retirement risk, service delivery, and operational efficiency.\n\nIn this fireside chat, BigHand experts Eric Wangler, Duska Frink and Ben Jennings discuss key findings from the latest legal industry research report, including:\n\n- 95% of firms reportin…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Legal Support in the Age of AI Disruption - In Conversation\nThe legal industry i\u2026",
+          "title": "Legal Support in the Age of AI Disruption - In Conversation\nThe legal industry i…",
           "url": "https://www.youtube.com/watch?v=7TuBHFWSwOY",
           "date": "2026-07-23",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1011,13 +961,13 @@
     },
     {
       "id": "l548",
-      "text": "AI Isn\u2019t Taking Every Job Yet \u2014 The Hidden Opportunity Gap\nAI is not replacing most workers all at once. The real story is the widening gap between what AI can already do and what businesses are actually willing or able to deploy.\n\nIn this video, George Goldman Human Author breaks down the difference between theoretical AI capability and observed real-world adoption, showing why the largest disruption may first appear in knowledge work rather than in traditional assumptions about automation.\n\nYo\u2026",
+      "text": "AI Isn’t Taking Every Job Yet — The Hidden Opportunity Gap\nAI is not replacing most workers all at once. The real story is the widening gap between what AI can already do and what businesses are actually willing or able to deploy.\n\nIn this video, George Goldman Human Author breaks down the difference between theoretical AI capability and observed real-world adoption, showing why the largest disruption may first appear in knowledge work rather than in traditional assumptions about automation.\n\nYo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Isn\u2019t Taking Every Job Yet \u2014 The Hidden Opportunity Gap\nAI is not replacing m\u2026",
+          "title": "AI Isn’t Taking Every Job Yet — The Hidden Opportunity Gap\nAI is not replacing m…",
           "url": "https://www.youtube.com/watch?v=KZZWqsHjaY4",
           "date": "2026-04-12",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1108,6 +1058,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

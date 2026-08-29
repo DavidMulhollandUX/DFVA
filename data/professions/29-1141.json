@@ -14,61 +14,60 @@
     "from": "2025-08-01",
     "to": "2026-08-24"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-29",
+  "expires": "2027-02-28",
   "programs": [
     "mc-anp"
   ],
   "claims": [
     {
-      "id": "29-1141-01",
-      "text": "National peak professional bodies and statutory regulators governing Registered Nurses enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "id": "29-1141-L1-01",
+      "text": "Registered nurses must meet the Nursing and Midwifery Board of Australia's (NMBA) mandatory registration standards - continuing professional development, criminal history, English language skills, professional indemnity insurance and recency of practice - under the Health Practitioner Regulation National Law, administered by AHPRA. Use of the protected title 'registered nurse' requires current general registration with the NMBA.",
       "lane": "L1",
       "tier": "regulatory",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Registered Nurses",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Registered Nurses",
-          "url": "https://www.psc.gov.au/standards/29-1141",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Registered Nurses"
+          "publisher": "Nursing and Midwifery Board of Australia",
+          "title": "Registration standards for nurses (NMBA)",
+          "url": "https://www.nursingmidwiferyboard.gov.au/codes-guidelines-statements/faq/registration-nurse-or-midwife.aspx",
+          "date": "2025",
+          "whatItMeasured": "NMBA mandatory registration standards (CPD, criminal history, English, PII, recency of practice) under the Health Practitioner Regulation National Law (AHPRA); protected-title requirement for 'registered nurse'."
         }
       ],
-      "scope": "Australian practitioners in Registered Nurses across public, private, and research sectors.",
+      "scope": "Australia; AHPRA-regulated registered nurses. Does not cover enrolled nurses, non-registered staff, or overseas-only practice.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
+      "bearing": [],
       "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "refuteNotes": "Primary regulator (NMBA/OT Board/Physiotherapy Board) registration-standard guidance under National Law; population = registered practitioners; in force."
     },
     {
-      "id": "29-1141-02",
-      "text": "Automation of routine transactional and analytical tasks in Registered Nurses heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "id": "29-1141-L2-01",
+      "text": "For registered nurses (ANZSCO 2544), JSA's Generative AI Capacity Study shows Jobs and Skills Australia's Generative AI Capacity Study (Our Gen AI Transition: Exposures, Adaptation, Dynamism, August 2025) scores all 358 Australian occupations at task level using ANZSCO v1.3, rating augmentability and automatability (0-1). It finds augmentation potential outweighs automation risk across most occupations; 79% of Australian workers face low or very low automation risk. Healthcare occupations rank among the lowest-exposure groups. JSA-based exposure analyses place registered nurses and physiotherapists at about 4.1/10 AI exposure and occupational therapists below 4.0/10 - a high-augmentation, low-automation profile consistent with AHPRA's requirement that a registered human remain accountable for care decisions.",
       "lane": "L2",
       "tier": "scholarly",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Registered Nurses",
-          "url": "https://www.jobsandskills.gov.au/research/29-1141",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Registered Nurses in Australia"
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism - Occupation data on AI exposure",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/occupation-data-on-ai-exposure",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Generative AI Capacity Study: task-level augmentation/automation exposure across 358 ANZSCO v1.3 occupations; augmentation > automation for most; 79% of workers low/very-low automation risk; healthcare lowest-exposure group."
+        },
+        {
+          "publisher": "Will AI Take My Job (JSA-based analysis)",
+          "title": "How Safe Are Healthcare Jobs From AI in Australia?",
+          "url": "https://willaitakemyjob.com.au/blog/how-safe-are-healthcare-jobs-from-ai-in-australia",
+          "date": "2025",
+          "whatItMeasured": "JSA-based AI exposure scores: registered nurses 4.1/10, physiotherapists 4.1/10, occupational therapists <4.0/10; healthcare augmentation 0.63-0.70 / automation 0.19-0.34."
         }
       ],
-      "scope": "Entry-level and senior Registered Nurses roles in Australia.",
+      "scope": "Australian ANZSCO-based JSA study; scores are model-derived task-level estimates, not employment-change forecasts. Per-occupation scores are from a JSA-based derivative analysis, not JSA's primary explorer.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
+      "bearing": [],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "JSA primary study (Aug 2025) + JSA-based derivative analysis; population = Australian ANZSCO occupations; scores model-derived."
     },
     {
       "id": "l503",
@@ -78,7 +77,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "fix labor hub wage post mappings\n<!-- This is an auto-generated comment: release\u2026",
+          "title": "fix labor hub wage post mappings\n<!-- This is an auto-generated comment: release…",
           "url": "https://github.com/Metaculus/metaculus/pull/4953",
           "date": "2026-06-29",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -93,13 +92,13 @@
     },
     {
       "id": "l504",
-      "text": "feat: make portals.example.yml profession-agnostic\n## What does this PR do?\r\n\r\nDiversifies templates/portals.example.yml so example queries teach the pattern of the tool, not just an AI-engineer search. Previously every example assumed an AI/LLM engineering search (36 mentions of \"AI Engineer\" file-wide), leaving no starting point for other professi\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.go\u2026",
+      "text": "feat: make portals.example.yml profession-agnostic\n## What does this PR do?\r\n\r\nDiversifies templates/portals.example.yml so example queries teach the pattern of the tool, not just an AI-engineer search. Previously every example assumed an AI/LLM engineering search (36 mentions of \"AI Engineer\" file-wide), leaving no starting point for other professi\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.go…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: make portals.example.yml profession-agnostic\n## What does this PR do?\r\n\r\nD\u2026",
+          "title": "feat: make portals.example.yml profession-agnostic\n## What does this PR do?\r\n\r\nD…",
           "url": "https://github.com/santifer/career-ops/pull/3374",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -114,13 +113,13 @@
     },
     {
       "id": "l505",
-      "text": "Add ReplacedByAI to Careers\nOne entry added to **Careers**, alongside 80,000 Hours and WTF Should I Do With My Life:\n\n`https://www.replacedbai.com/` \u2014 free AI replacement risk score (0\u2013100) for 1,016 occupations.\n\n**Duplication check.** Per the contributing guide I searched the README first. ReplacedByAI is not currently liste",
+      "text": "Add ReplacedByAI to Careers\nOne entry added to **Careers**, alongside 80,000 Hours and WTF Should I Do With My Life:\n\n`https://www.replacedbai.com/` — free AI replacement risk score (0–100) for 1,016 occupations.\n\n**Duplication check.** Per the contributing guide I searched the README first. ReplacedByAI is not currently liste",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add ReplacedByAI to Careers\nOne entry added to **Careers**, alongside 80,000 Hou\u2026",
+          "title": "Add ReplacedByAI to Careers\nOne entry added to **Careers**, alongside 80,000 Hou…",
           "url": "https://github.com/atakanaltok/awesome-useful-websites/pull/184",
           "date": "2026-07-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -135,13 +134,13 @@
     },
     {
       "id": "l506",
-      "text": "Add ReplacedByAI to R section\nAdds one entry to the **R** section:\n\n`https://www.replacedbai.com` \u2014 free AI replacement risk score (0\u2013100) for 1,016 occupations.\n\n**Why it fits alongside the existing `willrobotstakemyjob.com` entry rather than duplicating it**\n\nThe W section already lists Will Robots Take My Job?, which surfaces",
+      "text": "Add ReplacedByAI to R section\nAdds one entry to the **R** section:\n\n`https://www.replacedbai.com` — free AI replacement risk score (0–100) for 1,016 occupations.\n\n**Why it fits alongside the existing `willrobotstakemyjob.com` entry rather than duplicating it**\n\nThe W section already lists Will Robots Take My Job?, which surfaces",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add ReplacedByAI to R section\nAdds one entry to the **R** section:\n\n`https://www\u2026",
+          "title": "Add ReplacedByAI to R section\nAdds one entry to the **R** section:\n\n`https://www…",
           "url": "https://github.com/StanForever/awesome-websites/pull/86",
           "date": "2026-07-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -156,13 +155,13 @@
     },
     {
       "id": "l507",
-      "text": "[Fix] Demographic Add files i18n BS validation flatpickr owasp\n<!--\r\n  Thank you for contributing to CARLOS EMR! We appreciate your time and effort.\r\n  Please fill out the sections below to help reviewers understand your changes.\r\n  PRs should target the develop branch.\r\n-->\r\n\r\n## Description\r\n\r\n<!-- What does this PR do and why? Link the motivation, not just t\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: review paused by coderabb\u2026",
+      "text": "[Fix] Demographic Add files i18n BS validation flatpickr owasp\n<!--\r\n  Thank you for contributing to CARLOS EMR! We appreciate your time and effort.\r\n  Please fill out the sections below to help reviewers understand your changes.\r\n  PRs should target the develop branch.\r\n-->\r\n\r\n## Description\r\n\r\n<!-- What does this PR do and why? Link the motivation, not just t\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: review paused by coderabb…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[Fix] Demographic Add files i18n BS validation flatpickr owasp\n<!--\r\n  Thank you\u2026",
+          "title": "[Fix] Demographic Add files i18n BS validation flatpickr owasp\n<!--\r\n  Thank you…",
           "url": "https://github.com/carlos-emr/carlos/pull/1994",
           "date": "2026-04-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -177,13 +176,13 @@
     },
     {
       "id": "l508",
-      "text": "feat(visits): implement manual dispatch with escalation timer for age\u2026\n\u2026ncy visit queue\r\n\r\nAdd manual nurse assignment workflow with 5-minute SLA fallback timer for B2B2C healthcare platform. Includes new VisitQueueView and AvailableNursesView APIs, VisitQueueSerializer, and re_route_visit Celery task for automatic visit re-routing when agencies fail to assign nurses w\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<details>\n<summary>\u2139\ufe0f Recent review info</summary>\n\n<deta\u2026",
+      "text": "feat(visits): implement manual dispatch with escalation timer for age…\n…ncy visit queue\r\n\r\nAdd manual nurse assignment workflow with 5-minute SLA fallback timer for B2B2C healthcare platform. Includes new VisitQueueView and AvailableNursesView APIs, VisitQueueSerializer, and re_route_visit Celery task for automatic visit re-routing when agencies fail to assign nurses w\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<details>\n<summary>ℹ️ Recent review info</summary>\n\n<deta…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(visits): implement manual dispatch with escalation timer for age\u2026\n\u2026ncy visi\u2026",
+          "title": "feat(visits): implement manual dispatch with escalation timer for age…\n…ncy visi…",
           "url": "https://github.com/azmyayman-maker/-Wateen-/pull/84",
           "date": "2026-03-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -198,13 +197,13 @@
     },
     {
       "id": "l509",
-      "text": "feat(college-hub): readable source list (title + domain + spacing)\n## Problem\nA college's **Sources** were a tight stack of bare URLs \u2014 no titles, no spacing.\n\n## Fix\nEach source is now a **spaced, bordered row**: a derived **title** (de-slugged from the URL's last path segment, e.g. `\u2026/registered-nurses.htm` \u2192 \"Registered nurses\"), the **domain** beneath it (host",
+      "text": "feat(college-hub): readable source list (title + domain + spacing)\n## Problem\nA college's **Sources** were a tight stack of bare URLs — no titles, no spacing.\n\n## Fix\nEach source is now a **spaced, bordered row**: a derived **title** (de-slugged from the URL's last path segment, e.g. `…/registered-nurses.htm` → \"Registered nurses\"), the **domain** beneath it (host",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(college-hub): readable source list (title + domain + spacing)\n## Problem\nA \u2026",
+          "title": "feat(college-hub): readable source list (title + domain + spacing)\n## Problem\nA …",
           "url": "https://github.com/grahem-wnu/campuscarousel/pull/60",
           "date": "2026-06-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -219,13 +218,13 @@
     },
     {
       "id": "l510",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -429,13 +428,13 @@
     },
     {
       "id": "l520",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -450,13 +449,13 @@
     },
     {
       "id": "l521",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -639,13 +638,13 @@
     },
     {
       "id": "l530",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -681,13 +680,13 @@
     },
     {
       "id": "l532",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -723,13 +722,13 @@
     },
     {
       "id": "l534",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -750,7 +749,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Registered Nurse Expert at AfterQuery - AI Training Job\nhttps://ift.tt/fRbPIoT &\u2026",
+          "title": "Registered Nurse Expert at AfterQuery - AI Training Job\nhttps://ift.tt/fRbPIoT &…",
           "url": "https://www.reddit.com/r/trainAIjobs/comments/1w1dfps/registered_nurse_expert_at_afterquery_ai_training/",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -771,7 +770,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Registered Nurse - AI ChatBot Reviewer (US, Remote) at Aptura - AI Training Job\n\u2026",
+          "title": "Registered Nurse - AI ChatBot Reviewer (US, Remote) at Aptura - AI Training Job\n…",
           "url": "https://www.reddit.com/r/trainAIjobs/comments/1vocslf/registered_nurse_ai_chatbot_reviewer_us_remote_at/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -792,7 +791,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Registered Nurse - Freelance AI Trainer Project at Invisible Technologies - AI T\u2026",
+          "title": "Registered Nurse - Freelance AI Trainer Project at Invisible Technologies - AI T…",
           "url": "https://www.reddit.com/r/trainAIjobs/comments/1vne5zk/registered_nurse_freelance_ai_trainer_project_at/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -813,7 +812,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Australian Registered Nurse\nIm an Australian Registered Nurse Manager, looking t\u2026",
+          "title": "Australian Registered Nurse\nIm an Australian Registered Nurse Manager, looking t…",
           "url": "https://www.reddit.com/r/AIJobs/comments/1vmwykw/australian_registered_nurse/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -828,13 +827,13 @@
     },
     {
       "id": "l539",
-      "text": "Have nursing students or other students in college majors aiming at \"AI Proof\" jobs seen this video? Your future salary may depend on AI-built algorithms to reduce your paychecks.\nI don&#39;t mean to alarm people but forewarned is forearmed. Join unions or only work for organizations that have a contract-mandated pay scale, where everyone at the same license-level is paid the same wage per hour. And if you&#39;re already on these apps, don&#39;t bid lower just to get the shift. That&#39;s a race\u2026",
+      "text": "Have nursing students or other students in college majors aiming at \"AI Proof\" jobs seen this video? Your future salary may depend on AI-built algorithms to reduce your paychecks.\nI don&#39;t mean to alarm people but forewarned is forearmed. Join unions or only work for organizations that have a contract-mandated pay scale, where everyone at the same license-level is paid the same wage per hour. And if you&#39;re already on these apps, don&#39;t bid lower just to get the shift. That&#39;s a race…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Have nursing students or other students in college majors aiming at \"AI Proof\" j\u2026",
+          "title": "Have nursing students or other students in college majors aiming at \"AI Proof\" j…",
           "url": "https://www.reddit.com/r/WGU/comments/1vvlriy/have_nursing_students_or_other_students_in/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -849,13 +848,13 @@
     },
     {
       "id": "l540",
-      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif\u2026",
+      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Traini\u2026",
+          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Traini…",
           "url": "https://www.reddit.com/r/ClinicalLegalField/comments/1vkdimx/thinking_about_becoming_a_legal_nurse_consultant/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -960,7 +959,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@TangTrades @pangram yup. human + AI process is documented here:\nhttps://t.co/Hr\u2026",
+          "title": "@TangTrades @pangram yup. human + AI process is documented here:\nhttps://t.co/Hr…",
           "url": "https://x.com/andydrewie/status/2090736428263317762",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -996,13 +995,13 @@
     },
     {
       "id": "l547",
-      "text": "@JesseRank And what an amazing world that could be\u2026 we need to have a new mental model around AI",
+      "text": "@JesseRank And what an amazing world that could be… we need to have a new mental model around AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@JesseRank And what an amazing world that could be\u2026 we need to have a new mental\u2026",
+          "title": "@JesseRank And what an amazing world that could be… we need to have a new mental…",
           "url": "https://x.com/SVenkatachalam/status/2079965749121351747",
           "date": "2026-07-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1017,13 +1016,13 @@
     },
     {
       "id": "l548",
-      "text": "How AI could give Nurses their humanity back!\nIs AI going to save healthcare, or turn our best caregivers into data-entry factory workers? In this episode of The Macro Cut, Maeve and Miles dive deep into a hidden crisis catching fire in our medical system: Digital Moral Injury. We break down an incredible, raw perspective sent to us by Sarah, an active trauma center RN, who exposes how legacy software and massive charting compliance are creating a physical and mental wall between nurses and thei\u2026",
+      "text": "How AI could give Nurses their humanity back!\nIs AI going to save healthcare, or turn our best caregivers into data-entry factory workers? In this episode of The Macro Cut, Maeve and Miles dive deep into a hidden crisis catching fire in our medical system: Digital Moral Injury. We break down an incredible, raw perspective sent to us by Sarah, an active trauma center RN, who exposes how legacy software and massive charting compliance are creating a physical and mental wall between nurses and thei…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI could give Nurses their humanity back!\nIs AI going to save healthcare, or\u2026",
+          "title": "How AI could give Nurses their humanity back!\nIs AI going to save healthcare, or…",
           "url": "https://www.youtube.com/watch?v=12ohgYnEmhg",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1038,13 +1037,13 @@
     },
     {
       "id": "l549",
-      "text": "The Job AI Can't Write Out of the Script: Why Nurse Dana Is the Most Valuable Worker in the AI Ec...\nReflect w/ Ed Fassio \u2014 where AI tells the stories that matter.\n\nThe AI wave reshaping finance, law, and media has a question embedded in it that nobody's answering loudly enough: where does everyone go?\n\nFortune magazine and economist Alex Tabarrok just gave us the clearest answer yet \u2014 and it's hiding in a Pittsburgh emergency department. Nurse Dana, from HBO's hit drama The Pitt, turns out to b\u2026",
+      "text": "The Job AI Can't Write Out of the Script: Why Nurse Dana Is the Most Valuable Worker in the AI Ec...\nReflect w/ Ed Fassio — where AI tells the stories that matter.\n\nThe AI wave reshaping finance, law, and media has a question embedded in it that nobody's answering loudly enough: where does everyone go?\n\nFortune magazine and economist Alex Tabarrok just gave us the clearest answer yet — and it's hiding in a Pittsburgh emergency department. Nurse Dana, from HBO's hit drama The Pitt, turns out to b…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Job AI Can't Write Out of the Script: Why Nurse Dana Is the Most Valuable Wo\u2026",
+          "title": "The Job AI Can't Write Out of the Script: Why Nurse Dana Is the Most Valuable Wo…",
           "url": "https://www.youtube.com/watch?v=roSQRNo7N2I",
           "date": "2026-04-19",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1059,7 +1058,7 @@
     },
     {
       "id": "l450",
-      "text": "Registered Nurse (530814) \u2014 Department of Health, Tasmania (Launceston, Tasmania, Australia). Posted 2 days ago.",
+      "text": "Registered Nurse (530814) — Department of Health, Tasmania (Launceston, Tasmania, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1080,7 +1079,7 @@
     },
     {
       "id": "l451",
-      "text": "Registered Nurse \u2014 The Royal Melbourne Hospital (Melbourne, Victoria, Australia). Posted 5 days ago.",
+      "text": "Registered Nurse — The Royal Melbourne Hospital (Melbourne, Victoria, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1101,7 +1100,7 @@
     },
     {
       "id": "l452",
-      "text": "Clinical Nurse \u2014 Department of Justice (Greater Perth Area). Posted 1 day ago.",
+      "text": "Clinical Nurse — Department of Justice (Greater Perth Area). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1122,7 +1121,7 @@
     },
     {
       "id": "l453",
-      "text": "Clinical Nurse \u2014 Department of Justice (Kimberley, Western Australia, Australia). Posted 11 hours ago.",
+      "text": "Clinical Nurse — Department of Justice (Kimberley, Western Australia, Australia). Posted 11 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1143,7 +1142,7 @@
     },
     {
       "id": "l454",
-      "text": "Registered Nurse \u2014 Doctors&Co (Warwick, Queensland, Australia). Posted 5 days ago.",
+      "text": "Registered Nurse — Doctors&Co (Warwick, Queensland, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1164,7 +1163,7 @@
     },
     {
       "id": "l455",
-      "text": "RN Primary Health \u2014 Healthcare Australia (Pinkenba, Queensland, Australia). Posted 6 days ago.",
+      "text": "RN Primary Health — Healthcare Australia (Pinkenba, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1185,7 +1184,7 @@
     },
     {
       "id": "l456",
-      "text": "Community Staff Nurse \u2014 NHS Ayrshire & Arran (Broadford, Victoria, Australia). Posted 6 days ago.",
+      "text": "Community Staff Nurse — NHS Ayrshire & Arran (Broadford, Victoria, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1206,7 +1205,7 @@
     },
     {
       "id": "l457",
-      "text": "Registered Nurse \u2014 St Vincent's Health Australia (Greater Sydney Area). Posted 1 week ago.",
+      "text": "Registered Nurse — St Vincent's Health Australia (Greater Sydney Area). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1227,7 +1226,7 @@
     },
     {
       "id": "l458",
-      "text": "Registered Nurse \u2014 Serco (Holtze, Northern Territory, Australia). Posted 1 week ago.",
+      "text": "Registered Nurse — Serco (Holtze, Northern Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1248,7 +1247,7 @@
     },
     {
       "id": "l459",
-      "text": "Registered Nurse \u2014 Dyvest Health Care (Hurstville, New South Wales, Australia). Posted 2 days ago.",
+      "text": "Registered Nurse — Dyvest Health Care (Hurstville, New South Wales, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1269,13 +1268,13 @@
     },
     {
       "id": "l560",
-      "text": "feat: make portals.example.yml profession-agnostic\n## What does this PR do?\r\n\r\nDiversifies templates/portals.example.yml so example queries teach the pattern of the tool, not just an AI-engineer search. Previously every example assumed an AI/LLM engineering search (36 mentions of \"AI Engineer\" file-wide), leaving no starting point for other professi\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.go\u2026",
+      "text": "feat: make portals.example.yml profession-agnostic\n## What does this PR do?\r\n\r\nDiversifies templates/portals.example.yml so example queries teach the pattern of the tool, not just an AI-engineer search. Previously every example assumed an AI/LLM engineering search (36 mentions of \"AI Engineer\" file-wide), leaving no starting point for other professi\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.go…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: make portals.example.yml profession-agnostic\n## What does this PR do?\r\n\r\nD\u2026",
+          "title": "feat: make portals.example.yml profession-agnostic\n## What does this PR do?\r\n\r\nD…",
           "url": "https://github.com/santifer/career-ops/pull/3374",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1290,13 +1289,13 @@
     },
     {
       "id": "l561",
-      "text": "[Fix] Demographic Add files i18n BS validation flatpickr owasp\n<!--\r\n  Thank you for contributing to CARLOS EMR! We appreciate your time and effort.\r\n  Please fill out the sections below to help reviewers understand your changes.\r\n  PRs should target the develop branch.\r\n-->\r\n\r\n## Description\r\n\r\n<!-- What does this PR do and why? Link the motivation, not just t\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: review paused by coderabb\u2026",
+      "text": "[Fix] Demographic Add files i18n BS validation flatpickr owasp\n<!--\r\n  Thank you for contributing to CARLOS EMR! We appreciate your time and effort.\r\n  Please fill out the sections below to help reviewers understand your changes.\r\n  PRs should target the develop branch.\r\n-->\r\n\r\n## Description\r\n\r\n<!-- What does this PR do and why? Link the motivation, not just t\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: review paused by coderabb…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[Fix] Demographic Add files i18n BS validation flatpickr owasp\n<!--\r\n  Thank you\u2026",
+          "title": "[Fix] Demographic Add files i18n BS validation flatpickr owasp\n<!--\r\n  Thank you…",
           "url": "https://github.com/carlos-emr/carlos/pull/1994",
           "date": "2026-04-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1311,13 +1310,13 @@
     },
     {
       "id": "l562",
-      "text": "feat(visits): implement manual dispatch with escalation timer for age\u2026\n\u2026ncy visit queue\r\n\r\nAdd manual nurse assignment workflow with 5-minute SLA fallback timer for B2B2C healthcare platform. Includes new VisitQueueView and AvailableNursesView APIs, VisitQueueSerializer, and re_route_visit Celery task for automatic visit re-routing when agencies fail to assign nurses w\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<details>\n<summary>\u2139\ufe0f Recent review info</summary>\n\n<deta\u2026",
+      "text": "feat(visits): implement manual dispatch with escalation timer for age…\n…ncy visit queue\r\n\r\nAdd manual nurse assignment workflow with 5-minute SLA fallback timer for B2B2C healthcare platform. Includes new VisitQueueView and AvailableNursesView APIs, VisitQueueSerializer, and re_route_visit Celery task for automatic visit re-routing when agencies fail to assign nurses w\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<details>\n<summary>ℹ️ Recent review info</summary>\n\n<deta…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(visits): implement manual dispatch with escalation timer for age\u2026\n\u2026ncy visi\u2026",
+          "title": "feat(visits): implement manual dispatch with escalation timer for age…\n…ncy visi…",
           "url": "https://github.com/azmyayman-maker/-Wateen-/pull/84",
           "date": "2026-03-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1332,13 +1331,13 @@
     },
     {
       "id": "l563",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1353,13 +1352,13 @@
     },
     {
       "id": "l564",
-      "text": "Have nursing students or other students in college majors aiming at \"AI Proof\" jobs seen this video? Your future salary may depend on AI-built algorithms to reduce your paychecks.\nI don&#39;t mean to alarm people but forewarned is forearmed. Join unions or only work for organizations that have a contract-mandated pay scale, where everyone at the same license-level is paid the same wage per hour. And if you&#39;re already on these apps, don&#39;t bid lower just to get the shift. That&#39;s a race\u2026",
+      "text": "Have nursing students or other students in college majors aiming at \"AI Proof\" jobs seen this video? Your future salary may depend on AI-built algorithms to reduce your paychecks.\nI don&#39;t mean to alarm people but forewarned is forearmed. Join unions or only work for organizations that have a contract-mandated pay scale, where everyone at the same license-level is paid the same wage per hour. And if you&#39;re already on these apps, don&#39;t bid lower just to get the shift. That&#39;s a race…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Have nursing students or other students in college majors aiming at \"AI Proof\" j\u2026",
+          "title": "Have nursing students or other students in college majors aiming at \"AI Proof\" j…",
           "url": "https://www.reddit.com/r/WGU/comments/1vvlriy/have_nursing_students_or_other_students_in/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1374,13 +1373,13 @@
     },
     {
       "id": "l565",
-      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif\u2026",
+      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Traini\u2026",
+          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Traini…",
           "url": "https://www.reddit.com/r/ClinicalLegalField/comments/1vkdimx/thinking_about_becoming_a_legal_nurse_consultant/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1395,13 +1394,13 @@
     },
     {
       "id": "l566",
-      "text": "How AI could give Nurses their humanity back!\nIs AI going to save healthcare, or turn our best caregivers into data-entry factory workers? In this episode of The Macro Cut, Maeve and Miles dive deep into a hidden crisis catching fire in our medical system: Digital Moral Injury. We break down an incredible, raw perspective sent to us by Sarah, an active trauma center RN, who exposes how legacy software and massive charting compliance are creating a physical and mental wall between nurses and thei\u2026",
+      "text": "How AI could give Nurses their humanity back!\nIs AI going to save healthcare, or turn our best caregivers into data-entry factory workers? In this episode of The Macro Cut, Maeve and Miles dive deep into a hidden crisis catching fire in our medical system: Digital Moral Injury. We break down an incredible, raw perspective sent to us by Sarah, an active trauma center RN, who exposes how legacy software and massive charting compliance are creating a physical and mental wall between nurses and thei…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI could give Nurses their humanity back!\nIs AI going to save healthcare, or\u2026",
+          "title": "How AI could give Nurses their humanity back!\nIs AI going to save healthcare, or…",
           "url": "https://www.youtube.com/watch?v=12ohgYnEmhg",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1416,13 +1415,13 @@
     },
     {
       "id": "l567",
-      "text": "The Job AI Can't Write Out of the Script: Why Nurse Dana Is the Most Valuable Worker in the AI Ec...\nReflect w/ Ed Fassio \u2014 where AI tells the stories that matter.\n\nThe AI wave reshaping finance, law, and media has a question embedded in it that nobody's answering loudly enough: where does everyone go?\n\nFortune magazine and economist Alex Tabarrok just gave us the clearest answer yet \u2014 and it's hiding in a Pittsburgh emergency department. Nurse Dana, from HBO's hit drama The Pitt, turns out to b\u2026",
+      "text": "The Job AI Can't Write Out of the Script: Why Nurse Dana Is the Most Valuable Worker in the AI Ec...\nReflect w/ Ed Fassio — where AI tells the stories that matter.\n\nThe AI wave reshaping finance, law, and media has a question embedded in it that nobody's answering loudly enough: where does everyone go?\n\nFortune magazine and economist Alex Tabarrok just gave us the clearest answer yet — and it's hiding in a Pittsburgh emergency department. Nurse Dana, from HBO's hit drama The Pitt, turns out to b…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Job AI Can't Write Out of the Script: Why Nurse Dana Is the Most Valuable Wo\u2026",
+          "title": "The Job AI Can't Write Out of the Script: Why Nurse Dana Is the Most Valuable Wo…",
           "url": "https://www.youtube.com/watch?v=roSQRNo7N2I",
           "date": "2026-04-19",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1516,5 +1515,8 @@
   },
   "confidence": "high",
   "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "researchMethod": "empirical-five-lane-v1",
+  "notes": [
+    "L1/L2 fabricated template claims removed and replaced with genuine regulator/JSA sources on 2026-08-29 (Chief-of-Staff autoloop remediation)."
+  ]
 }

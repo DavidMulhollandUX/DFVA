@@ -14,56 +14,6 @@
   "programs": [],
   "claims": [
     {
-      "id": "41-1011-01",
-      "text": "National peak professional bodies and statutory regulators governing First-Line Supervisors/Managers of Retail Sales Workers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for First-Line Supervisors/Managers of Retail Sales Workers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for First-Line Supervisors/Managers of Retail Sales Workers",
-          "url": "https://www.psc.gov.au/standards/41-1011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for First-Line Supervisors/Managers of Retail Sales Workers"
-        }
-      ],
-      "scope": "Australian practitioners in First-Line Supervisors/Managers of Retail Sales Workers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "41-1011-02",
-      "text": "Automation of routine transactional and analytical tasks in First-Line Supervisors/Managers of Retail Sales Workers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in First-Line Supervisors/Managers of Retail Sales Workers",
-          "url": "https://www.jobsandskills.gov.au/research/41-1011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across First-Line Supervisors/Managers of Retail Sales Workers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior First-Line Supervisors/Managers of Retail Sales Workers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
       "text": "SDA-2_Namya Suneja_Assignment 1\n### Full Name\n\nNamya Suneja\n\n### Student ID / Roll Number\n\n341155\n\n### Industry Selected\n\nOther (describe below)\n\n### Why This Industry?\n\nIn FMCD/Retail, in-store sales and stock levels change by the minute across hundreds of SKUs and outlets, so streaming analytics lets managers catch stockouts, ov",
       "lane": "L5",
@@ -71,7 +21,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "SDA-2_Namya Suneja_Assignment 1\n### Full Name\n\nNamya Suneja\n\n### Student ID / Ro\u2026",
+          "title": "SDA-2_Namya Suneja_Assignment 1\n### Full Name\n\nNamya Suneja\n\n### Student ID / Ro…",
           "url": "https://github.com/aditya-dua/SDA/issues/12",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -86,13 +36,13 @@
     },
     {
       "id": "l504",
-      "text": "Daily sales + sales-per-labor-hour (SPLH)\n## Problem\n\nSales-per-labor-hour (SPLH) is *the* productivity metric in retail and hospitality \u2014 it's how managers decide whether they over- or under-staffed a day. ShiftView knows the labor side (scheduled hours) but has no sales data, so it can't compute SPLH at all.\n\n## Proposal\n\nRecord a daily s",
+      "text": "Daily sales + sales-per-labor-hour (SPLH)\n## Problem\n\nSales-per-labor-hour (SPLH) is *the* productivity metric in retail and hospitality — it's how managers decide whether they over- or under-staffed a day. ShiftView knows the labor side (scheduled hours) but has no sales data, so it can't compute SPLH at all.\n\n## Proposal\n\nRecord a daily s",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Daily sales + sales-per-labor-hour (SPLH)\n## Problem\n\nSales-per-labor-hour (SPLH\u2026",
+          "title": "Daily sales + sales-per-labor-hour (SPLH)\n## Problem\n\nSales-per-labor-hour (SPLH…",
           "url": "https://github.com/samuel-burke/shiftview/issues/70",
           "date": "2026-06-17",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -107,13 +57,13 @@
     },
     {
       "id": "l505",
-      "text": "Add AmpIQ Sales Planning product page\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\n## Summary\nAdds the **AmpIQ Sales Planning** product page to the marketing site, matching the existing design patterns from AgModel, ShopOps, and AmpIQ OS pages.\n\n\u2705 **UPDATED with actual Specs positioning** \u2014 corrected from generic B2B sales ops to retail demand p",
+      "text": "Add AmpIQ Sales Planning product page\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\n## Summary\nAdds the **AmpIQ Sales Planning** product page to the marketing site, matching the existing design patterns from AgModel, ShopOps, and AmpIQ OS pages.\n\n✅ **UPDATED with actual Specs positioning** — corrected from generic B2B sales ops to retail demand p",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add AmpIQ Sales Planning product page\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\n## Sum\u2026",
+          "title": "Add AmpIQ Sales Planning product page\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\n## Sum…",
           "url": "https://github.com/brittfogg1/AmplifiedIQSite/pull/4",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -128,13 +78,13 @@
     },
     {
       "id": "l506",
-      "text": "[A1] <065085_Khushal_Arora> \u2014 Assignment 1\n### Full Name\n\nKhushal Arora\n\n### Student ID / Roll Number\n\n065085\n\n### Industry Selected\n\nE-Commerce / Retail\n\n### Why This Industry?\n\nE-commerce generates continuous customer activity such as product views, cart additions, wishlists, and purchases. Streaming analytics allows managers to monitor th",
+      "text": "[A1] <065085_Khushal_Arora> — Assignment 1\n### Full Name\n\nKhushal Arora\n\n### Student ID / Roll Number\n\n065085\n\n### Industry Selected\n\nE-Commerce / Retail\n\n### Why This Industry?\n\nE-commerce generates continuous customer activity such as product views, cart additions, wishlists, and purchases. Streaming analytics allows managers to monitor th",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[A1] <065085_Khushal_Arora> \u2014 Assignment 1\n### Full Name\n\nKhushal Arora\n\n### Stu\u2026",
+          "title": "[A1] <065085_Khushal_Arora> — Assignment 1\n### Full Name\n\nKhushal Arora\n\n### Stu…",
           "url": "https://github.com/aditya-dua/SDA/issues/96",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -149,13 +99,13 @@
     },
     {
       "id": "l507",
-      "text": "\ud83d\udca1 [for Retail Chains & Store Managers] RetailWise AI - From fragmented operations and inconsistent experiences to unified AI-powered retail management ecosystem\n## \u521b\u610f\u6982\u8ff0\n\u6253\u9020\u9996\u4e2a\u9762\u5411\u96f6\u552e\u8fde\u9501\u4f01\u4e1a\u7684AI\u7edf\u4e00\u8fd0\u8425\u7ba1\u7406\u5e73\u53f0\uff0c\u6574\u5408\u591a\u95e8\u5e97\u5e93\u5b58\u3001\u4eba\u5458\u3001\u9500\u552e\u548c\u5ba2\u6237\u4f53\u9a8c\u6570\u636e\uff0c\u5b9e\u73b0\u667a\u80fd\u5316\u51b3\u7b56\u548c\u81ea\u52a8\u5316\u8fd0\u8425\u3002\n\n## \u6838\u5fc3\u75db\u70b9\n1. **\u6570\u636e\u5b64\u5c9b\u95ee\u9898**: 50%\u96f6\u552e\u4f01\u4e1a\u4f7f\u75285+\u4e0d\u540c\u7cfb\u7edf\uff0c\u6570\u636e\u4e0d\u4e92\u901a\u5bfc\u81f4\u51b3\u7b56\u5ef6\u8fdf\n2. **\u4eba\u5458\u8c03\u5ea6\u6df7\u4e71**: \u5b63\u8282\u6027\u7528\u5de5\u6ce2\u52a8\u5bfc\u81f420-30%\u4eba\u529b\u6210\u672c\u6d6a\u8d39\uff0c\u6392\u73ed\u9519\u8bef\u7387\u9ad8\u8fbe35%\n3. **\u5e93\u5b58\u7ba1\u7406\u5931\u63a7**: 20-30%\u5546\u54c1\u6ede\u9500\uff0c\u7f3a\u8d27\u738715-20%\uff0c\u5e93\u5b58\u5468\u8f6c\u7387\u4e0b\u964d25%\n4. **\u9700\u6c42\u9884\u6d4b\u4e0d\u51c6**: \u4f20\u7edf\u9884\u6d4b\u8bef\u5dee\u738735%\uff0c\u5bfc\u81f4\u4fc3\u9500\u5931\u8d25\u548c\u5e93\u5b58\u79ef\u538b\n5. **\u5ba2\u6237\u4f53\u9a8c\u5272\u88c2**: \u4e0d\u540c\u95e8\u5e97\u670d\u52a1\u6c34\u5e73\u5dee\u5f0240%\uff0c\u5ba2\u6237\u6ee1\u610f\u5ea6\u4e0b\u964d25%\n\n## AI",
+      "text": "💡 [for Retail Chains & Store Managers] RetailWise AI - From fragmented operations and inconsistent experiences to unified AI-powered retail management ecosystem\n## 创意概述\n打造首个面向零售连锁企业的AI统一运营管理平台，整合多门店库存、人员、销售和客户体验数据，实现智能化决策和自动化运营。\n\n## 核心痛点\n1. **数据孤岛问题**: 50%零售企业使用5+不同系统，数据不互通导致决策延迟\n2. **人员调度混乱**: 季节性用工波动导致20-30%人力成本浪费，排班错误率高达35%\n3. **库存管理失控**: 20-30%商品滞销，缺货率15-20%，库存周转率下降25%\n4. **需求预测不准**: 传统预测误差率35%，导致促销失败和库存积压\n5. **客户体验割裂**: 不同门店服务水平差异40%，客户满意度下降25%\n\n## AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udca1 [for Retail Chains & Store Managers] RetailWise AI - From fragmented operation\u2026",
+          "title": "💡 [for Retail Chains & Store Managers] RetailWise AI - From fragmented operation…",
           "url": "https://github.com/ava-agent/awesome-ai-ideas/issues/1301",
           "date": "2026-04-29",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -176,7 +126,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Trendline: Tingkat Pengembalian untuk Peritel\nI have added a new educational pie\u2026",
+          "title": "Trendline: Tingkat Pengembalian untuk Peritel\nI have added a new educational pie…",
           "url": "https://github.com/robimpsi/robimpsi.github.io/pull/89",
           "date": "2026-05-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -197,7 +147,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Add store-action-plan-coach skill for luxury retail management\n## Summary\nIntrod\u2026",
+          "title": "Add store-action-plan-coach skill for luxury retail management\n## Summary\nIntrod…",
           "url": "https://github.com/classicstyle74-sys/claude-code-workspace/pull/2",
           "date": "2026-07-04",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -218,7 +168,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Add Return Rate educational post for retailers\nAs \"Trendline,\" I have created a \u2026",
+          "title": "Add Return Rate educational post for retailers\nAs \"Trendline,\" I have created a …",
           "url": "https://github.com/robimpsi/robimpsi.github.io/pull/107",
           "date": "2026-05-20",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -233,13 +183,13 @@
     },
     {
       "id": "l511",
-      "text": "Retail Database Management\nThis project involves designing and querying a fully normalized relational retail database using MySQL Workbench. The schema covers 8+ tables including products, orders, buyers, stores, payments, and managers \u2014 structured with proper primary keys, foreign keys, and safe-mode constraint handling to e",
+      "text": "Retail Database Management\nThis project involves designing and querying a fully normalized relational retail database using MySQL Workbench. The schema covers 8+ tables including products, orders, buyers, stores, payments, and managers — structured with proper primary keys, foreign keys, and safe-mode constraint handling to e",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Retail Database Management\nThis project involves designing and querying a fully \u2026",
+          "title": "Retail Database Management\nThis project involves designing and querying a fully …",
           "url": "https://github.com/sakshisonawala458-droid/Retail-Database-Management/issues/1",
           "date": "2026-04-06",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -260,7 +210,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Add Return Rate Content for Trendline (Bahasa Indonesia)\nI have created a new ed\u2026",
+          "title": "Add Return Rate Content for Trendline (Bahasa Indonesia)\nI have created a new ed…",
           "url": "https://github.com/robimpsi/robimpsi.github.io/pull/48",
           "date": "2026-03-19",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -527,13 +477,13 @@
     },
     {
       "id": "l525",
-      "text": "|US ECONOMY BRIEFING | 11.08.2026 | 06:09 PM ET |Last 24 Hours | 264,000 Americans quit the job search in July, energy bills keep climbing on Hormuz tensions, and AI is quietly eliminating jobs across the economy |TOP 45 STORIES\nThe July jobs report looks better on paper, but only because 264,000 people stopped searching for work entirely. At the same time, the Hormuz standoff is pushing energy prices higher, raising gas, diesel, and heating costs for American households. And economists warn tha\u2026",
+      "text": "|US ECONOMY BRIEFING | 11.08.2026 | 06:09 PM ET |Last 24 Hours | 264,000 Americans quit the job search in July, energy bills keep climbing on Hormuz tensions, and AI is quietly eliminating jobs across the economy |TOP 45 STORIES\nThe July jobs report looks better on paper, but only because 264,000 people stopped searching for work entirely. At the same time, the Hormuz standoff is pushing energy prices higher, raising gas, diesel, and heating costs for American households. And economists warn tha…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "|US ECONOMY BRIEFING | 11.08.2026 | 06:09 PM ET |Last 24 Hours | 264,000 America\u2026",
+          "title": "|US ECONOMY BRIEFING | 11.08.2026 | 06:09 PM ET |Last 24 Hours | 264,000 America…",
           "url": "https://www.reddit.com/r/TrumpGlobalWar/comments/1vldga3/us_economy_briefing_11082026_0609_pm_et_last_24/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "AI WEEKLY UPDATE \u2014 Saturday, 8 August 2026",
+      "text": "AI WEEKLY UPDATE — Saturday, 8 August 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI WEEKLY UPDATE \u2014 Saturday, 8 August 2026",
+          "title": "AI WEEKLY UPDATE — Saturday, 8 August 2026",
           "url": "https://x.com/MansaTesla/status/2085999186009522429",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -617,7 +567,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "$AUKI | @Auki Robots Will Create More Jobs Than They Replace: Brains, Not Muscle\u2026",
+          "title": "$AUKI | @Auki Robots Will Create More Jobs Than They Replace: Brains, Not Muscle…",
           "url": "https://x.com/CryptoNaija042/status/2075135796462387286",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "The Formation of the \u201cAI Elite\u201d in the Mid-Market Workforce: Closing the Productivity Gap",
+      "text": "The Formation of the “AI Elite” in the Mid-Market Workforce: Closing the Productivity Gap",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Formation of the \u201cAI Elite\u201d in the Mid-Market Workforce: Closing the Product\u2026",
+          "title": "The Formation of the “AI Elite” in the Mid-Market Workforce: Closing the Product…",
           "url": "https://x.com/DinoJVidiliCons/status/2088979378428395545",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -674,13 +624,13 @@
     },
     {
       "id": "l532",
-      "text": "How to Become an AI Product Manager in 2026 | Ex-Google, Microsoft\nIf you want to break into AI product management in 2026- one of the most in-demand, best-compensated roles in tech right now - this video gives you the exact roadmap to do it.\n\nHere's the thing: most people who want to become AI PMs are going about it completely backwards. They're collecting certifications, taking course after course, and building zero real experience. Then they wonder why they're not getting callbacks.\n\nWhat's D\u2026",
+      "text": "How to Become an AI Product Manager in 2026 | Ex-Google, Microsoft\nIf you want to break into AI product management in 2026- one of the most in-demand, best-compensated roles in tech right now - this video gives you the exact roadmap to do it.\n\nHere's the thing: most people who want to become AI PMs are going about it completely backwards. They're collecting certifications, taking course after course, and building zero real experience. Then they wonder why they're not getting callbacks.\n\nWhat's D…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How to Become an AI Product Manager in 2026 | Ex-Google, Microsoft\nIf you want t\u2026",
+          "title": "How to Become an AI Product Manager in 2026 | Ex-Google, Microsoft\nIf you want t…",
           "url": "https://www.youtube.com/watch?v=JKaA6HcxyXU",
           "date": "2026-03-16",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -695,13 +645,13 @@
     },
     {
       "id": "l533",
-      "text": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California lawmakers debate AI regulation and voters prepare to weigh a proposed 5% one-time billionaire tax, labor leaders are pushing back against what they see as growing threats to workers.\n\nPolitical Breakdown host Marisa Lagos sits down with Lorena Gonzalez, president of the California Federation of Labor Unions, to discuss AI in the workplace, worker surveillance and human oversight. They also discuss California\u2019s proposed \u2026",
+      "text": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California lawmakers debate AI regulation and voters prepare to weigh a proposed 5% one-time billionaire tax, labor leaders are pushing back against what they see as growing threats to workers.\n\nPolitical Breakdown host Marisa Lagos sits down with Lorena Gonzalez, president of the California Federation of Labor Unions, to discuss AI in the workplace, worker surveillance and human oversight. They also discuss California’s proposed …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California law\u2026",
+          "title": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California law…",
           "url": "https://www.youtube.com/watch?v=WLbvdWXuR3Y",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "How AI Solves Retail\u2019s 100% Employee Turnover Crisis (Sanish Mondkar Explained)\nHow AI Solves Retail\u2019s 100% Employee Turnover Crisis (Sanish Mondkar Explained)\nRetail faces a shocking 100% employee turnover problem but can AI really fix it? In this video, Sanish Mondkar from Legion Technologies shares how artificial intelligence is transforming hiring, scheduling, and employee retention in the retail industry. Discover how smart workforce solutions are helping businesses reduce turnover and boos\u2026",
+      "text": "How AI Solves Retail’s 100% Employee Turnover Crisis (Sanish Mondkar Explained)\nHow AI Solves Retail’s 100% Employee Turnover Crisis (Sanish Mondkar Explained)\nRetail faces a shocking 100% employee turnover problem but can AI really fix it? In this video, Sanish Mondkar from Legion Technologies shares how artificial intelligence is transforming hiring, scheduling, and employee retention in the retail industry. Discover how smart workforce solutions are helping businesses reduce turnover and boos…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI Solves Retail\u2019s 100% Employee Turnover Crisis (Sanish Mondkar Explained)\n\u2026",
+          "title": "How AI Solves Retail’s 100% Employee Turnover Crisis (Sanish Mondkar Explained)\n…",
           "url": "https://www.youtube.com/watch?v=_KKbanm_Gnw",
           "date": "2026-03-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -737,7 +687,7 @@
     },
     {
       "id": "l435",
-      "text": "Full Time Retail Supervisors - Homebush \u2014 PUMA Group (Homebush, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Full Time Retail Supervisors - Homebush — PUMA Group (Homebush, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -758,7 +708,7 @@
     },
     {
       "id": "l436",
-      "text": "AU-Manager \u2014 Apple (Victoria, Australia). Posted 2 weeks ago.",
+      "text": "AU-Manager — Apple (Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -779,7 +729,7 @@
     },
     {
       "id": "l437",
-      "text": "Platypus Management Opportunities - Canberra \u2014 Platypus Shoes (Canberra, Australian Capital Territory, Australia). Posted 6 days ago.",
+      "text": "Platypus Management Opportunities - Canberra — Platypus Shoes (Canberra, Australian Capital Territory, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -800,7 +750,7 @@
     },
     {
       "id": "l438",
-      "text": "Store Supervisor, FT \u2014 Under Armour (Brit Brit, Victoria, Australia). Posted 1 week ago.",
+      "text": "Store Supervisor, FT — Under Armour (Brit Brit, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -821,7 +771,7 @@
     },
     {
       "id": "l439",
-      "text": "Store Leadership Opportunities (NSW) \u2014 The Good Guys (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Store Leadership Opportunities (NSW) — The Good Guys (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -842,7 +792,7 @@
     },
     {
       "id": "l440",
-      "text": "Retail Concession Supervisor - Parramatta \u2014 Commonry (Parramatta, New South Wales, Australia). Posted 1 day ago.",
+      "text": "Retail Concession Supervisor - Parramatta — Commonry (Parramatta, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -863,7 +813,7 @@
     },
     {
       "id": "l441",
-      "text": "Retail Concession Supervisor - Geelong \u2014 Commonry (Geelong, Victoria, Australia). Posted 1 week ago.",
+      "text": "Retail Concession Supervisor - Geelong — Commonry (Geelong, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -884,7 +834,7 @@
     },
     {
       "id": "l442",
-      "text": "AU-Manager \u2014 Apple (Queensland, Australia). Posted 2 months ago.",
+      "text": "AU-Manager — Apple (Queensland, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -905,7 +855,7 @@
     },
     {
       "id": "l443",
-      "text": "Expressions of Interest - Sydney Management \u2014 SEPHORA (Sydney, New South Wales, Australia). Posted 5 days ago.",
+      "text": "Expressions of Interest - Sydney Management — SEPHORA (Sydney, New South Wales, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -926,7 +876,7 @@
     },
     {
       "id": "l444",
-      "text": "Expressions of Interest - Canberra Management \u2014 SEPHORA (Canberra, Australian Capital Territory, Australia). Posted 2 days ago.",
+      "text": "Expressions of Interest - Canberra Management — SEPHORA (Canberra, Australian Capital Territory, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "|US ECONOMY BRIEFING | 11.08.2026 | 06:09 PM ET |Last 24 Hours | 264,000 Americans quit the job search in July, energy bills keep climbing on Hormuz tensions, and AI is quietly eliminating jobs across the economy |TOP 45 STORIES\nThe July jobs report looks better on paper, but only because 264,000 people stopped searching for work entirely. At the same time, the Hormuz standoff is pushing energy prices higher, raising gas, diesel, and heating costs for American households. And economists warn tha\u2026",
+      "text": "|US ECONOMY BRIEFING | 11.08.2026 | 06:09 PM ET |Last 24 Hours | 264,000 Americans quit the job search in July, energy bills keep climbing on Hormuz tensions, and AI is quietly eliminating jobs across the economy |TOP 45 STORIES\nThe July jobs report looks better on paper, but only because 264,000 people stopped searching for work entirely. At the same time, the Hormuz standoff is pushing energy prices higher, raising gas, diesel, and heating costs for American households. And economists warn tha…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "|US ECONOMY BRIEFING | 11.08.2026 | 06:09 PM ET |Last 24 Hours | 264,000 America\u2026",
+          "title": "|US ECONOMY BRIEFING | 11.08.2026 | 06:09 PM ET |Last 24 Hours | 264,000 America…",
           "url": "https://www.reddit.com/r/TrumpGlobalWar/comments/1vldga3/us_economy_briefing_11082026_0609_pm_et_last_24/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "How to Become an AI Product Manager in 2026 | Ex-Google, Microsoft\nIf you want to break into AI product management in 2026- one of the most in-demand, best-compensated roles in tech right now - this video gives you the exact roadmap to do it.\n\nHere's the thing: most people who want to become AI PMs are going about it completely backwards. They're collecting certifications, taking course after course, and building zero real experience. Then they wonder why they're not getting callbacks.\n\nWhat's D\u2026",
+      "text": "How to Become an AI Product Manager in 2026 | Ex-Google, Microsoft\nIf you want to break into AI product management in 2026- one of the most in-demand, best-compensated roles in tech right now - this video gives you the exact roadmap to do it.\n\nHere's the thing: most people who want to become AI PMs are going about it completely backwards. They're collecting certifications, taking course after course, and building zero real experience. Then they wonder why they're not getting callbacks.\n\nWhat's D…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How to Become an AI Product Manager in 2026 | Ex-Google, Microsoft\nIf you want t\u2026",
+          "title": "How to Become an AI Product Manager in 2026 | Ex-Google, Microsoft\nIf you want t…",
           "url": "https://www.youtube.com/watch?v=JKaA6HcxyXU",
           "date": "2026-03-16",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California lawmakers debate AI regulation and voters prepare to weigh a proposed 5% one-time billionaire tax, labor leaders are pushing back against what they see as growing threats to workers.\n\nPolitical Breakdown host Marisa Lagos sits down with Lorena Gonzalez, president of the California Federation of Labor Unions, to discuss AI in the workplace, worker surveillance and human oversight. They also discuss California\u2019s proposed \u2026",
+      "text": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California lawmakers debate AI regulation and voters prepare to weigh a proposed 5% one-time billionaire tax, labor leaders are pushing back against what they see as growing threats to workers.\n\nPolitical Breakdown host Marisa Lagos sits down with Lorena Gonzalez, president of the California Federation of Labor Unions, to discuss AI in the workplace, worker surveillance and human oversight. They also discuss California’s proposed …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California law\u2026",
+          "title": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California law…",
           "url": "https://www.youtube.com/watch?v=WLbvdWXuR3Y",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1010,13 +960,13 @@
     },
     {
       "id": "l548",
-      "text": "How AI Solves Retail\u2019s 100% Employee Turnover Crisis (Sanish Mondkar Explained)\nHow AI Solves Retail\u2019s 100% Employee Turnover Crisis (Sanish Mondkar Explained)\nRetail faces a shocking 100% employee turnover problem but can AI really fix it? In this video, Sanish Mondkar from Legion Technologies shares how artificial intelligence is transforming hiring, scheduling, and employee retention in the retail industry. Discover how smart workforce solutions are helping businesses reduce turnover and boos\u2026",
+      "text": "How AI Solves Retail’s 100% Employee Turnover Crisis (Sanish Mondkar Explained)\nHow AI Solves Retail’s 100% Employee Turnover Crisis (Sanish Mondkar Explained)\nRetail faces a shocking 100% employee turnover problem but can AI really fix it? In this video, Sanish Mondkar from Legion Technologies shares how artificial intelligence is transforming hiring, scheduling, and employee retention in the retail industry. Discover how smart workforce solutions are helping businesses reduce turnover and boos…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI Solves Retail\u2019s 100% Employee Turnover Crisis (Sanish Mondkar Explained)\n\u2026",
+          "title": "How AI Solves Retail’s 100% Employee Turnover Crisis (Sanish Mondkar Explained)\n…",
           "url": "https://www.youtube.com/watch?v=_KKbanm_Gnw",
           "date": "2026-03-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1107,6 +1057,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

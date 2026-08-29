@@ -14,56 +14,6 @@
   "programs": [],
   "claims": [
     {
-      "id": "33-3012-01",
-      "text": "National peak professional bodies and statutory regulators governing Correctional Officers and Jailers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Correctional Officers and Jailers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Correctional Officers and Jailers",
-          "url": "https://www.psc.gov.au/standards/33-3012",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Correctional Officers and Jailers"
-        }
-      ],
-      "scope": "Australian practitioners in Correctional Officers and Jailers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "33-3012-02",
-      "text": "Automation of routine transactional and analytical tasks in Correctional Officers and Jailers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Correctional Officers and Jailers",
-          "url": "https://www.jobsandskills.gov.au/research/33-3012",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Correctional Officers and Jailers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Correctional Officers and Jailers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
       "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
@@ -233,13 +183,13 @@
     },
     {
       "id": "l511",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -275,13 +225,13 @@
     },
     {
       "id": "l513",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -464,13 +414,13 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -506,13 +456,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -548,13 +498,13 @@
     },
     {
       "id": "l526",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -569,13 +519,13 @@
     },
     {
       "id": "l527",
-      "text": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI for putting watermarks on their prompts \"creations\"\nSources: https://www.reddit.com/r/ClaudeCode/comments/1vlclpn/claude_watermarking_our_work_is_unethical_and/ https://www.reddit.com/r/ClaudeAI/comments/1vlckt9/claude_watermarking_our_work_is_unethical_and/ HIGHLIGHTS THREAD 1 Most consumers would want to know if something that was created with AI tools, I don\u2019t see a problem with that. This is such a hopelessly ch\u2026",
+      "text": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI for putting watermarks on their prompts \"creations\"\nSources: https://www.reddit.com/r/ClaudeCode/comments/1vlclpn/claude_watermarking_our_work_is_unethical_and/ https://www.reddit.com/r/ClaudeAI/comments/1vlckt9/claude_watermarking_our_work_is_unethical_and/ HIGHLIGHTS THREAD 1 Most consumers would want to know if something that was created with AI tools, I don’t see a problem with that. This is such a hopelessly ch…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI\u2026",
+          "title": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI…",
           "url": "https://www.reddit.com/r/SubredditDrama/comments/1vlyeei/can_you_please_just_write_your_own_posts_op_makes/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "OUTRAGE: Farnsley Middle School in Louisville, Kentucky Sent Students Home With AI-Generated First-Day Packets, Including A U.S Map Filled With Misspelled State Names, Misplaced Cities, And Entirely Fabricated Territories, As Officials Order 17 Pages Torn Out Before Redistribution \ud83e\udd16\ud83d\udcda\nFarnsley Middle School in Southwest Louisville sent students home on the first day of the 2026 school year with agenda packets containing wildly inaccurate, AI-generated educational content, including a US map riddl\u2026",
+      "text": "OUTRAGE: Farnsley Middle School in Louisville, Kentucky Sent Students Home With AI-Generated First-Day Packets, Including A U.S Map Filled With Misspelled State Names, Misplaced Cities, And Entirely Fabricated Territories, As Officials Order 17 Pages Torn Out Before Redistribution 🤖📚\nFarnsley Middle School in Southwest Louisville sent students home on the first day of the 2026 school year with agenda packets containing wildly inaccurate, AI-generated educational content, including a US map riddl…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "OUTRAGE: Farnsley Middle School in Louisville, Kentucky Sent Students Home With \u2026",
+          "title": "OUTRAGE: Farnsley Middle School in Louisville, Kentucky Sent Students Home With …",
           "url": "https://www.reddit.com/r/InterstellarKinetics/comments/1vr2klw/outrage_farnsley_middle_school_in_louisville/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Operational Review, Stability Write Up, Benchmarks\nI thought this would be relevant to the homelab subreddit so I&#39;m adding it here, just to put the information out there and discuss if there is any interest. I am an IT infrastructure engineer by profession, so my contribution to the conversation is mainly from a hardware/systems perspective rather than from a Machine Learning researcher standpoint. I got my start wit\u2026",
+      "text": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Operational Review, Stability Write Up, Benchmarks\nI thought this would be relevant to the homelab subreddit so I&#39;m adding it here, just to put the information out there and discuss if there is any interest. I am an IT infrastructure engineer by profession, so my contribution to the conversation is mainly from a hardware/systems perspective rather than from a Machine Learning researcher standpoint. I got my start wit…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Oper\u2026",
+          "title": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Oper…",
           "url": "https://www.reddit.com/r/homelab/comments/1veh5gt/data_center_in_a_box_on_wheels_256gb_vram512gb/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "I contacted Apple, the EU Commission, Swedish authorities and MEPs about Siri AI in the EU. Here is the full status\nI am a Swedish iPhone user and app developer. I want Siri AI to become available on iPhone and iPad in the European Union, with a credible path toward Swedish-language support. I also want this to happen without unnecessarily weakening privacy, security or fair competition. As of 8 August 2026, EU users still have no public release timetable for Siri AI on iPhone or iPad. ## What A\u2026",
+      "text": "I contacted Apple, the EU Commission, Swedish authorities and MEPs about Siri AI in the EU. Here is the full status\nI am a Swedish iPhone user and app developer. I want Siri AI to become available on iPhone and iPad in the European Union, with a credible path toward Swedish-language support. I also want this to happen without unnecessarily weakening privacy, security or fair competition. As of 8 August 2026, EU users still have no public release timetable for Siri AI on iPhone or iPad. ## What A…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I contacted Apple, the EU Commission, Swedish authorities and MEPs about Siri AI\u2026",
+          "title": "I contacted Apple, the EU Commission, Swedish authorities and MEPs about Siri AI…",
           "url": "https://www.reddit.com/r/Applelntelligence/comments/1vj5x75/i_contacted_apple_the_eu_commission_swedish/",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "After George Jackson was murdered by correctional officers at San Quentin, they entered his cell and found his personal library. 99 books. Here\u2019s the list to add to your own collection. https://t.co/kdsP11D104",
+      "text": "After George Jackson was murdered by correctional officers at San Quentin, they entered his cell and found his personal library. 99 books. Here’s the list to add to your own collection. https://t.co/kdsP11D104",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "After George Jackson was murdered by correctional officers at San Quentin, they \u2026",
+          "title": "After George Jackson was murdered by correctional officers at San Quentin, they …",
           "url": "https://x.com/LeftSentThis/status/2092898620412727387",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -680,7 +630,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "That face, that blank expression is the last thing those crying, terrified child\u2026",
+          "title": "That face, that blank expression is the last thing those crying, terrified child…",
           "url": "https://x.com/Oklahoma_Brave/status/2093019993965568154",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -695,13 +645,13 @@
     },
     {
       "id": "l533",
-      "text": "York County Sheriff\u2019s Department has had ANOTHER one of their correctional officers arrested, because he\u2019s an illegal from Angola. \n\nMaine Law Enforcement can\u2019t be trusted. They are not here for your safety or protection anymore. They\u2019ve made their choices.",
+      "text": "York County Sheriff’s Department has had ANOTHER one of their correctional officers arrested, because he’s an illegal from Angola. \n\nMaine Law Enforcement can’t be trusted. They are not here for your safety or protection anymore. They’ve made their choices.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "York County Sheriff\u2019s Department has had ANOTHER one of their correctional offic\u2026",
+          "title": "York County Sheriff’s Department has had ANOTHER one of their correctional offic…",
           "url": "https://x.com/207_Builder/status/2093302426258325684",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "In short, the Liberals think it's a great idea to use a short-staffed federal prison as a collection point for what they have repeatedly described as \u201cweapons of war.\u201d\n\nApparently, these firearms are so dangerous that law-abiding Canadians can't be trusted to own them \u2014 but they're perfectly safe to bring by the hundreds into a federal penitentiary.\n\nSo, to Gary and the Liberals, the safest place in Canada to surrender your firearm is the one place correctional officers spend every day trying to",
+      "text": "In short, the Liberals think it's a great idea to use a short-staffed federal prison as a collection point for what they have repeatedly described as “weapons of war.”\n\nApparently, these firearms are so dangerous that law-abiding Canadians can't be trusted to own them — but they're perfectly safe to bring by the hundreds into a federal penitentiary.\n\nSo, to Gary and the Liberals, the safest place in Canada to surrender your firearm is the one place correctional officers spend every day trying to",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "In short, the Liberals think it's a great idea to use a short-staffed federal pr\u2026",
+          "title": "In short, the Liberals think it's a great idea to use a short-staffed federal pr…",
           "url": "https://x.com/CanadasNFA/status/2093417356219568470",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -743,7 +693,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@BRICSinfo A humanoid robot can be a walking, 3D Mapping LiDAR platform with the\u2026",
+          "title": "@BRICSinfo A humanoid robot can be a walking, 3D Mapping LiDAR platform with the…",
           "url": "https://x.com/thespyanalyst/status/2082482680088981900",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -764,7 +714,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Exclusive - Correctional Officers Question Firearms Buyback Drop Off at Warkwort\u2026",
+          "title": "Exclusive - Correctional Officers Question Firearms Buyback Drop Off at Warkwort…",
           "url": "https://x.com/NT_pfisher/status/2093049958437937250",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -785,7 +735,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@indiemusicfan4 Sorry, try again: less than 1% of the total NY AFL-CIO membershi\u2026",
+          "title": "@indiemusicfan4 Sorry, try again: less than 1% of the total NY AFL-CIO membershi…",
           "url": "https://x.com/Politics1com/status/2093027588813799869",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "WVLT: \u201cUnion County is actively transferring 60 to 70 inmates from their correctional facility to other regional jail facilities after all correctional officers and jail administrator did not show up for their morning shift\u2026\u201d https://t.co/X1584AeBWV https://t.co/SpN5mLaxI2",
+      "text": "WVLT: “Union County is actively transferring 60 to 70 inmates from their correctional facility to other regional jail facilities after all correctional officers and jail administrator did not show up for their morning shift…” https://t.co/X1584AeBWV https://t.co/SpN5mLaxI2",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "WVLT: \u201cUnion County is actively transferring 60 to 70 inmates from their correct\u2026",
+          "title": "WVLT: “Union County is actively transferring 60 to 70 inmates from their correct…",
           "url": "https://x.com/KnoxvilleHoller/status/2092802917623279855",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -827,7 +777,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@viraltrends01 Firing line for all the correctional officers and police officers\u2026",
+          "title": "@viraltrends01 Firing line for all the correctional officers and police officers…",
           "url": "https://x.com/btcdragonlord/status/2093405440663031864",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -848,7 +798,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@mario4thenorth I know correctional officers, lots of them and this has \"health \u2026",
+          "title": "@mario4thenorth I know correctional officers, lots of them and this has \"health …",
           "url": "https://x.com/TruNrthBillsMaf/status/2093338045722296638",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -869,7 +819,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@GovKathyHochul In the mean time your correctional officers are being attacked d\u2026",
+          "title": "@GovKathyHochul In the mean time your correctional officers are being attacked d…",
           "url": "https://x.com/CarolJoyce24/status/2093141121253740763",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -890,7 +840,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Congratulations to Correctional Officers Foy and Bernard (&amp; their entire Cad\u2026",
+          "title": "Congratulations to Correctional Officers Foy and Bernard (&amp; their entire Cad…",
           "url": "https://x.com/sheriffdowney/status/2093425157905826179",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "@PoetOfBronze @yourfriendpiper Anyway being pro prison and \u201canti rape\u201d (which you aren\u2019t) are contradictory since correctional officers frequently rape and sexually assault female inmates and receive no consequences for it",
+      "text": "@PoetOfBronze @yourfriendpiper Anyway being pro prison and “anti rape” (which you aren’t) are contradictory since correctional officers frequently rape and sexually assault female inmates and receive no consequences for it",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@PoetOfBronze @yourfriendpiper Anyway being pro prison and \u201canti rape\u201d (which yo\u2026",
+          "title": "@PoetOfBronze @yourfriendpiper Anyway being pro prison and “anti rape” (which yo…",
           "url": "https://x.com/Spegrogy/status/2093448962258960474",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -926,13 +876,13 @@
     },
     {
       "id": "l544",
-      "text": "EPSTEIN FILES: The Deep State\u2018s Secret War to Engineer Humanity",
+      "text": "EPSTEIN FILES: The Deep State‘s Secret War to Engineer Humanity",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "EPSTEIN FILES: The Deep State\u2018s Secret War to Engineer Humanity",
+          "title": "EPSTEIN FILES: The Deep State‘s Secret War to Engineer Humanity",
           "url": "https://x.com/thespyanalyst/status/2067010416660877755",
           "date": "2026-06-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "Judge SHUTS DOWN Cop Who Pepper Sprayed Handcuffed Woman\nWashtenaw County Sheriff Sergeant Christopher Day faced a preliminary examination in Michigan\u2019s 14A District Court following a controversial incident inside a jail sallyport. Charged with Felonious Assault (MCL \u00a7 750.82) and Misconduct in Office (a common-law felony under MCL \u00a7 750.505), Sergeant Day deployed ASR pepper spray into the face of a handcuffed detainee locked inside a caged patrol vehicle.\n\nIn this breakdown, we analyze the tri\u2026",
+      "text": "Judge SHUTS DOWN Cop Who Pepper Sprayed Handcuffed Woman\nWashtenaw County Sheriff Sergeant Christopher Day faced a preliminary examination in Michigan’s 14A District Court following a controversial incident inside a jail sallyport. Charged with Felonious Assault (MCL § 750.82) and Misconduct in Office (a common-law felony under MCL § 750.505), Sergeant Day deployed ASR pepper spray into the face of a handcuffed detainee locked inside a caged patrol vehicle.\n\nIn this breakdown, we analyze the tri…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Judge SHUTS DOWN Cop Who Pepper Sprayed Handcuffed Woman\nWashtenaw County Sherif\u2026",
+          "title": "Judge SHUTS DOWN Cop Who Pepper Sprayed Handcuffed Woman\nWashtenaw County Sherif…",
           "url": "https://www.youtube.com/watch?v=wk-WmmMioc4",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -968,7 +918,7 @@
     },
     {
       "id": "l446",
-      "text": "Talent Pool - Correctional Officer - Junee Correctional Centre \u2014 NSW Department of Communities and Justice (Wantiool, New South Wales, Australia). Posted 4 weeks ago.",
+      "text": "Talent Pool - Correctional Officer - Junee Correctional Centre — NSW Department of Communities and Justice (Wantiool, New South Wales, Australia). Posted 4 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -989,7 +939,7 @@
     },
     {
       "id": "l447",
-      "text": "Prison Officer \u2014 Department of Justice (Esperance, Western Australia, Australia). Posted 2 weeks ago.",
+      "text": "Prison Officer — Department of Justice (Esperance, Western Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1010,7 +960,7 @@
     },
     {
       "id": "l448",
-      "text": "Prison Officer \u2014 Department of Justice and Community Safety, Victoria (Victoria, Australia). Posted 15 hours ago.",
+      "text": "Prison Officer — Department of Justice and Community Safety, Victoria (Victoria, Australia). Posted 15 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1031,7 +981,7 @@
     },
     {
       "id": "l449",
-      "text": "Correctional Officer February 2027 School \u2014 Department of Justice (Tasmania) (Tasmania, Australia). Posted 1 week ago.",
+      "text": "Correctional Officer February 2027 School — Department of Justice (Tasmania) (Tasmania, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1052,7 +1002,7 @@
     },
     {
       "id": "l450",
-      "text": "Custodial Correctional Officer \u2014 Queensland Corrective Services (Brisbane, Queensland, Australia). Posted 8 months ago.",
+      "text": "Custodial Correctional Officer — Queensland Corrective Services (Brisbane, Queensland, Australia). Posted 8 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1073,7 +1023,7 @@
     },
     {
       "id": "l451",
-      "text": "Talent Pool - Correctional Officer - Macquarie & Wellington Correctional Centre \u2014 NSW Department of Communities and Justice (Arthurville, New South Wales, Australia). Posted 2 months ago.",
+      "text": "Talent Pool - Correctional Officer - Macquarie & Wellington Correctional Centre — NSW Department of Communities and Justice (Arthurville, New South Wales, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1094,7 +1044,7 @@
     },
     {
       "id": "l452",
-      "text": "Custodial Correctional Officer \u2014 Queensland Corrective Services (Cairns, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Custodial Correctional Officer — Queensland Corrective Services (Cairns, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1115,7 +1065,7 @@
     },
     {
       "id": "l453",
-      "text": "Correctional Case Officer \u2014 Serco (Lavadia, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Correctional Case Officer — Serco (Lavadia, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1136,7 +1086,7 @@
     },
     {
       "id": "l454",
-      "text": "Senior Prison Officer - Marngoneet Correctional Centre \u2014 Department of Justice and Community Safety, Victoria (Geelong, Victoria, Australia). Posted 1 day ago.",
+      "text": "Senior Prison Officer - Marngoneet Correctional Centre — Department of Justice and Community Safety, Victoria (Geelong, Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1157,7 +1107,7 @@
     },
     {
       "id": "l455",
-      "text": "Correctional Officers - Full Time \u2014 The GEO Group Australia (Ravenhall, Victoria, Australia). Posted 3 weeks ago.",
+      "text": "Correctional Officers - Full Time — The GEO Group Australia (Ravenhall, Victoria, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1178,13 +1128,13 @@
     },
     {
       "id": "l556",
-      "text": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI for putting watermarks on their prompts \"creations\"\nSources: https://www.reddit.com/r/ClaudeCode/comments/1vlclpn/claude_watermarking_our_work_is_unethical_and/ https://www.reddit.com/r/ClaudeAI/comments/1vlckt9/claude_watermarking_our_work_is_unethical_and/ HIGHLIGHTS THREAD 1 Most consumers would want to know if something that was created with AI tools, I don\u2019t see a problem with that. This is such a hopelessly ch\u2026",
+      "text": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI for putting watermarks on their prompts \"creations\"\nSources: https://www.reddit.com/r/ClaudeCode/comments/1vlclpn/claude_watermarking_our_work_is_unethical_and/ https://www.reddit.com/r/ClaudeAI/comments/1vlckt9/claude_watermarking_our_work_is_unethical_and/ HIGHLIGHTS THREAD 1 Most consumers would want to know if something that was created with AI tools, I don’t see a problem with that. This is such a hopelessly ch…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI\u2026",
+          "title": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI…",
           "url": "https://www.reddit.com/r/SubredditDrama/comments/1vlyeei/can_you_please_just_write_your_own_posts_op_makes/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1199,13 +1149,13 @@
     },
     {
       "id": "l557",
-      "text": "OUTRAGE: Farnsley Middle School in Louisville, Kentucky Sent Students Home With AI-Generated First-Day Packets, Including A U.S Map Filled With Misspelled State Names, Misplaced Cities, And Entirely Fabricated Territories, As Officials Order 17 Pages Torn Out Before Redistribution \ud83e\udd16\ud83d\udcda\nFarnsley Middle School in Southwest Louisville sent students home on the first day of the 2026 school year with agenda packets containing wildly inaccurate, AI-generated educational content, including a US map riddl\u2026",
+      "text": "OUTRAGE: Farnsley Middle School in Louisville, Kentucky Sent Students Home With AI-Generated First-Day Packets, Including A U.S Map Filled With Misspelled State Names, Misplaced Cities, And Entirely Fabricated Territories, As Officials Order 17 Pages Torn Out Before Redistribution 🤖📚\nFarnsley Middle School in Southwest Louisville sent students home on the first day of the 2026 school year with agenda packets containing wildly inaccurate, AI-generated educational content, including a US map riddl…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "OUTRAGE: Farnsley Middle School in Louisville, Kentucky Sent Students Home With \u2026",
+          "title": "OUTRAGE: Farnsley Middle School in Louisville, Kentucky Sent Students Home With …",
           "url": "https://www.reddit.com/r/InterstellarKinetics/comments/1vr2klw/outrage_farnsley_middle_school_in_louisville/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1220,13 +1170,13 @@
     },
     {
       "id": "l558",
-      "text": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Operational Review, Stability Write Up, Benchmarks\nI thought this would be relevant to the homelab subreddit so I&#39;m adding it here, just to put the information out there and discuss if there is any interest. I am an IT infrastructure engineer by profession, so my contribution to the conversation is mainly from a hardware/systems perspective rather than from a Machine Learning researcher standpoint. I got my start wit\u2026",
+      "text": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Operational Review, Stability Write Up, Benchmarks\nI thought this would be relevant to the homelab subreddit so I&#39;m adding it here, just to put the information out there and discuss if there is any interest. I am an IT infrastructure engineer by profession, so my contribution to the conversation is mainly from a hardware/systems perspective rather than from a Machine Learning researcher standpoint. I got my start wit…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Oper\u2026",
+          "title": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Oper…",
           "url": "https://www.reddit.com/r/homelab/comments/1veh5gt/data_center_in_a_box_on_wheels_256gb_vram512gb/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1241,13 +1191,13 @@
     },
     {
       "id": "l559",
-      "text": "I contacted Apple, the EU Commission, Swedish authorities and MEPs about Siri AI in the EU. Here is the full status\nI am a Swedish iPhone user and app developer. I want Siri AI to become available on iPhone and iPad in the European Union, with a credible path toward Swedish-language support. I also want this to happen without unnecessarily weakening privacy, security or fair competition. As of 8 August 2026, EU users still have no public release timetable for Siri AI on iPhone or iPad. ## What A\u2026",
+      "text": "I contacted Apple, the EU Commission, Swedish authorities and MEPs about Siri AI in the EU. Here is the full status\nI am a Swedish iPhone user and app developer. I want Siri AI to become available on iPhone and iPad in the European Union, with a credible path toward Swedish-language support. I also want this to happen without unnecessarily weakening privacy, security or fair competition. As of 8 August 2026, EU users still have no public release timetable for Siri AI on iPhone or iPad. ## What A…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I contacted Apple, the EU Commission, Swedish authorities and MEPs about Siri AI\u2026",
+          "title": "I contacted Apple, the EU Commission, Swedish authorities and MEPs about Siri AI…",
           "url": "https://www.reddit.com/r/Applelntelligence/comments/1vj5x75/i_contacted_apple_the_eu_commission_swedish/",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1262,13 +1212,13 @@
     },
     {
       "id": "l560",
-      "text": "Judge SHUTS DOWN Cop Who Pepper Sprayed Handcuffed Woman\nWashtenaw County Sheriff Sergeant Christopher Day faced a preliminary examination in Michigan\u2019s 14A District Court following a controversial incident inside a jail sallyport. Charged with Felonious Assault (MCL \u00a7 750.82) and Misconduct in Office (a common-law felony under MCL \u00a7 750.505), Sergeant Day deployed ASR pepper spray into the face of a handcuffed detainee locked inside a caged patrol vehicle.\n\nIn this breakdown, we analyze the tri\u2026",
+      "text": "Judge SHUTS DOWN Cop Who Pepper Sprayed Handcuffed Woman\nWashtenaw County Sheriff Sergeant Christopher Day faced a preliminary examination in Michigan’s 14A District Court following a controversial incident inside a jail sallyport. Charged with Felonious Assault (MCL § 750.82) and Misconduct in Office (a common-law felony under MCL § 750.505), Sergeant Day deployed ASR pepper spray into the face of a handcuffed detainee locked inside a caged patrol vehicle.\n\nIn this breakdown, we analyze the tri…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Judge SHUTS DOWN Cop Who Pepper Sprayed Handcuffed Woman\nWashtenaw County Sherif\u2026",
+          "title": "Judge SHUTS DOWN Cop Who Pepper Sprayed Handcuffed Woman\nWashtenaw County Sherif…",
           "url": "https://www.youtube.com/watch?v=wk-WmmMioc4",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1359,6 +1309,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

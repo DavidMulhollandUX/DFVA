@@ -16,64 +16,14 @@
   ],
   "claims": [
     {
-      "id": "41-3011-01",
-      "text": "National peak professional bodies and statutory regulators governing Advertising Sales Agents enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Advertising Sales Agents",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Advertising Sales Agents",
-          "url": "https://www.psc.gov.au/standards/41-3011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Advertising Sales Agents"
-        }
-      ],
-      "scope": "Australian practitioners in Advertising Sales Agents across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "41-3011-02",
-      "text": "Automation of routine transactional and analytical tasks in Advertising Sales Agents heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Advertising Sales Agents",
-          "url": "https://www.jobsandskills.gov.au/research/41-3011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Advertising Sales Agents in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Advertising Sales Agents roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 2026\n\nProcessed **0** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.",
+      "text": "💎 Knowledge Update & Optimization: 13 Jul 2026\n## 💎 Knowledge Update: 13 Jul 2026\n\nProcessed **0** links.\n\n⚠️ **Detailed Safety Audit moved to comments due to scale.**\n\n\n### 🧠 AI Intelligence & Observability Report\n\n#### 🤖 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 202\u2026",
+          "title": "💎 Knowledge Update & Optimization: 13 Jul 2026\n## 💎 Knowledge Update: 13 Jul 202…",
           "url": "https://github.com/nubenetes/awesome-kubernetes/pull/499",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -88,13 +38,13 @@
     },
     {
       "id": "l504",
-      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** \u2014 [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t\u2026",
+      "text": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first — **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n☑️ Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** — [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
+          "title": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open …",
           "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -115,7 +65,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "[Feature]: Add \"AI Adoption Talk (FREE)\" as the 5th service, and backfill the 4t\u2026",
+          "title": "[Feature]: Add \"AI Adoption Talk (FREE)\" as the 5th service, and backfill the 4t…",
           "url": "https://github.com/hoiung/hoiboy-uk/issues/54",
           "date": "2026-07-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -130,13 +80,13 @@
     },
     {
       "id": "l506",
-      "text": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 2026\n\nProcessed **14911** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Model Selection Logic (Dynamic)\nExecution started with discovery of top models based on May 2026 hierarchy.\n\n| Model Use",
+      "text": "💎 Knowledge Update & Optimization: 18 May 2026\n## 💎 Knowledge Update: 18 May 2026\n\nProcessed **14911** links.\n\n⚠️ **Detailed Safety Audit moved to comments due to scale.**\n\n\n### 🧠 AI Intelligence & Observability Report\n\n#### 🤖 Model Selection Logic (Dynamic)\nExecution started with discovery of top models based on May 2026 hierarchy.\n\n| Model Use",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 202\u2026",
+          "title": "💎 Knowledge Update & Optimization: 18 May 2026\n## 💎 Knowledge Update: 18 May 202…",
           "url": "https://github.com/nubenetes/awesome-kubernetes/pull/133",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -214,13 +164,13 @@
     },
     {
       "id": "l510",
-      "text": "OpenClaw for Sales \u2013 Using Local-First AI Agents for Sales Workflows",
+      "text": "OpenClaw for Sales – Using Local-First AI Agents for Sales Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "OpenClaw for Sales \u2013 Using Local-First AI Agents for Sales Workflows",
+          "title": "OpenClaw for Sales – Using Local-First AI Agents for Sales Workflows",
           "url": "https://www.kickscale.com/en/blog/openclaw-sales-ai-agent-revolution",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -298,13 +248,13 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -319,13 +269,13 @@
     },
     {
       "id": "l515",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -340,13 +290,13 @@
     },
     {
       "id": "l516",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -424,13 +374,13 @@
     },
     {
       "id": "l520",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -592,13 +542,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: Persist \u2013 an AI agent that follows up accrued channels till they reply",
+      "text": "Show HN: Persist – an AI agent that follows up accrued channels till they reply",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Persist \u2013 an AI agent that follows up accrued channels till they reply",
+          "title": "Show HN: Persist – an AI agent that follows up accrued channels till they reply",
           "url": "https://persist.chat",
           "date": "2026-06-07",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -634,13 +584,13 @@
     },
     {
       "id": "l530",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -655,13 +605,13 @@
     },
     {
       "id": "l531",
-      "text": "I ran a six-agent AI marketing team for three months. This is what it did.\n\\ I mentioned this case a few times in this sub, and were asked to share more details on it.* For three months, a fintech project ran with a one-person marketing function: me, backed by six AI agents. The agents handled social content, email, advertising monitoring, growth experiments, and outreach. I handled strategy, priorities, approvals, and anything with enough ambiguity or risk to require judgment. Built it from the\u2026",
+      "text": "I ran a six-agent AI marketing team for three months. This is what it did.\n\\ I mentioned this case a few times in this sub, and were asked to share more details on it.* For three months, a fintech project ran with a one-person marketing function: me, backed by six AI agents. The agents handled social content, email, advertising monitoring, growth experiments, and outreach. I handled strategy, priorities, approvals, and anything with enough ambiguity or risk to require judgment. Built it from the…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I ran a six-agent AI marketing team for three months. This is what it did.\n\\ I m\u2026",
+          "title": "I ran a six-agent AI marketing team for three months. This is what it did.\n\\ I m…",
           "url": "https://www.reddit.com/r/AI_Agents/comments/1vyxua5/i_ran_a_sixagent_ai_marketing_team_for_three/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -676,13 +626,13 @@
     },
     {
       "id": "l532",
-      "text": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]",
+      "text": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&\u2026",
+          "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&…",
           "url": "https://www.reddit.com/r/technology/comments/1vzb4xo/ai_agents_meant_to_replace_meta_workers_made/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -697,13 +647,13 @@
     },
     {
       "id": "l533",
-      "text": "CRAZY False Advertising on this zillow listing - using AI generated images to sell a house!\nSharing because this is the first time I&#39;ve seen this on the market and I find it abhorrent. The images are not watermarked as AI generated and after the first 6 fake images you can see what the house actually looks like. WILD behavior from this agent. &#32; submitted by &#32; /u/Objective_Analysis_3 &#32; to &#32; r/vancouverwa [link] &#32; [comments]\nName and shame who this is so they stop. Listed b\u2026",
+      "text": "CRAZY False Advertising on this zillow listing - using AI generated images to sell a house!\nSharing because this is the first time I&#39;ve seen this on the market and I find it abhorrent. The images are not watermarked as AI generated and after the first 6 fake images you can see what the house actually looks like. WILD behavior from this agent. &#32; submitted by &#32; /u/Objective_Analysis_3 &#32; to &#32; r/vancouverwa [link] &#32; [comments]\nName and shame who this is so they stop. Listed b…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "CRAZY False Advertising on this zillow listing - using AI generated images to se\u2026",
+          "title": "CRAZY False Advertising on this zillow listing - using AI generated images to se…",
           "url": "https://www.reddit.com/r/vancouverwa/comments/1vkrd4e/crazy_false_advertising_on_this_zillow_listing/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -718,13 +668,13 @@
     },
     {
       "id": "l534",
-      "text": "Activists just walked straight into OpenAI\u2019s office dressed as AI agents. Cute actually in a funny way.\n&#32; submitted by &#32; /u/Spirited-Gold9629 &#32; to &#32; r/TechGawker [link] &#32; [comments]",
+      "text": "Activists just walked straight into OpenAI’s office dressed as AI agents. Cute actually in a funny way.\n&#32; submitted by &#32; /u/Spirited-Gold9629 &#32; to &#32; r/TechGawker [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Activists just walked straight into OpenAI\u2019s office dressed as AI agents. Cute a\u2026",
+          "title": "Activists just walked straight into OpenAI’s office dressed as AI agents. Cute a…",
           "url": "https://www.reddit.com/r/TechGawker/comments/1vpmyv0/activists_just_walked_straight_into_openais/",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -739,13 +689,13 @@
     },
     {
       "id": "l535",
-      "text": "Are AI agents are going to have an adoption problem before they have a capability problem?\nWe spend a ton of time talking about what an agent can do. Tool use. Memory. Planning. Multi-agent setups. Better models. But in a real company none of that matters if people stop using the thing after two weeks. I work around sales teams where this problem is pretty obvious. You can give a manager AI that analyzes customer conversations and points out where reps lose deals. Sounds useful but if recording \u2026",
+      "text": "Are AI agents are going to have an adoption problem before they have a capability problem?\nWe spend a ton of time talking about what an agent can do. Tool use. Memory. Planning. Multi-agent setups. Better models. But in a real company none of that matters if people stop using the thing after two weeks. I work around sales teams where this problem is pretty obvious. You can give a manager AI that analyzes customer conversations and points out where reps lose deals. Sounds useful but if recording …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Are AI agents are going to have an adoption problem before they have a capabilit\u2026",
+          "title": "Are AI agents are going to have an adoption problem before they have a capabilit…",
           "url": "https://www.reddit.com/r/AI_Agents/comments/1vklcin/are_ai_agents_are_going_to_have_an_adoption/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -760,13 +710,13 @@
     },
     {
       "id": "l536",
-      "text": "Agents using AI\nSaw a house on rightmove, thought it looked nice. Made a booking and then the agent says, just so you know all the pics on the website are AI because the house isn&#39;t in a great state. Why are these agents using AI and not disclosing it on the advertisement? Surely there should be some rule against this? I get they want viewings but I feel like if you turn up and it looks nothing like expected, it will just turn people off. &#32; submitted by &#32; /u/FrivolousManiac &#32; to \u2026",
+      "text": "Agents using AI\nSaw a house on rightmove, thought it looked nice. Made a booking and then the agent says, just so you know all the pics on the website are AI because the house isn&#39;t in a great state. Why are these agents using AI and not disclosing it on the advertisement? Surely there should be some rule against this? I get they want viewings but I feel like if you turn up and it looks nothing like expected, it will just turn people off. &#32; submitted by &#32; /u/FrivolousManiac &#32; to …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Agents using AI\nSaw a house on rightmove, thought it looked nice. Made a booking\u2026",
+          "title": "Agents using AI\nSaw a house on rightmove, thought it looked nice. Made a booking…",
           "url": "https://www.reddit.com/r/HousingUK/comments/1vn7we6/agents_using_ai/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -802,13 +752,13 @@
     },
     {
       "id": "l538",
-      "text": "\ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc00\ud835\udc08 \ud835\udc01\ud835\udc0e\ud835\udc0e\ud835\udc0c \ud835\udc0c\ud835\udc00\ud835\udc18 \ud835\udc0d\ud835\udc0e\ud835\udc13 \ud835\udc01\ud835\udc04 \ud835\udc03\ud835\udc04\ud835\udc02\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc03 \ud835\udc01\ud835\udc18 \ud835\udc16\ud835\udc07\ud835\udc0e \ud835\udc01\ud835\udc14\ud835\udc08\ud835\udc0b\ud835\udc03\ud835\udc12 \ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc01\ud835\udc04\ud835\udc12\ud835\udc13 \ud835\udc0c\ud835\udc0e\ud835\udc03\ud835\udc04\ud835\udc0b.\n\n\ud835\udc08\ud835\udc13 \ud835\udc0c\ud835\udc00\ud835\udc18 \ud835\udc01\ud835\udc04 \ud835\udc03\ud835\udc04\ud835\udc02\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc03 \ud835\udc01\ud835\udc18 \ud835\udc16\ud835\udc07\ud835\udc0e \ud835\udc02\ud835\udc00\ud835\udc0d \ud835\udc13\ud835\udc14\ud835\udc11\ud835\udc0d \ud835\udc08\ud835\udc0d\ud835\udc13\ud835\udc04\ud835\udc0b\ud835\udc0b\ud835\udc08\ud835\udc06\ud835\udc04\ud835\udc0d\ud835\udc02\ud835\udc04 \ud835\udc08\ud835\udc0d\ud835\udc13\ud835\udc0e \ud835\udc11\ud835\udc04\ud835\udc0f\ud835\udc04\ud835\udc00\ud835\udc13\ud835\udc00\ud835\udc01\ud835\udc0b\ud835\udc04 \ud835\udc04\ud835\udc02\ud835\udc0e\ud835\udc0d\ud835\udc0e\ud835\udc0c\ud835\udc08\ud835\udc02 \ud835\udc15\ud835\udc00\ud835\udc0b\ud835\udc14\ud835\udc04.\n\nThe market has spent enormous energy asking who will win the AI race.\n\nWho builds the strongest models?\n\nWho supplies the fastest compute?\n\nWho gets the largest data-centre contracts?\n\nThose questions matter.\n\nBut they describe the beginning of the AI economy, not necessarily where the value ultimately settles.\n\nA technology becomes truly transformative wh",
+      "text": "𝐓𝐇𝐄 𝐀𝐈 𝐁𝐎𝐎𝐌 𝐌𝐀𝐘 𝐍𝐎𝐓 𝐁𝐄 𝐃𝐄𝐂𝐈𝐃𝐄𝐃 𝐁𝐘 𝐖𝐇𝐎 𝐁𝐔𝐈𝐋𝐃𝐒 𝐓𝐇𝐄 𝐁𝐄𝐒𝐓 𝐌𝐎𝐃𝐄𝐋.\n\n𝐈𝐓 𝐌𝐀𝐘 𝐁𝐄 𝐃𝐄𝐂𝐈𝐃𝐄𝐃 𝐁𝐘 𝐖𝐇𝐎 𝐂𝐀𝐍 𝐓𝐔𝐑𝐍 𝐈𝐍𝐓𝐄𝐋𝐋𝐈𝐆𝐄𝐍𝐂𝐄 𝐈𝐍𝐓𝐎 𝐑𝐄𝐏𝐄𝐀𝐓𝐀𝐁𝐋𝐄 𝐄𝐂𝐎𝐍𝐎𝐌𝐈𝐂 𝐕𝐀𝐋𝐔𝐄.\n\nThe market has spent enormous energy asking who will win the AI race.\n\nWho builds the strongest models?\n\nWho supplies the fastest compute?\n\nWho gets the largest data-centre contracts?\n\nThose questions matter.\n\nBut they describe the beginning of the AI economy, not necessarily where the value ultimately settles.\n\nA technology becomes truly transformative wh",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc00\ud835\udc08 \ud835\udc01\ud835\udc0e\ud835\udc0e\ud835\udc0c \ud835\udc0c\ud835\udc00\ud835\udc18 \ud835\udc0d\ud835\udc0e\ud835\udc13 \ud835\udc01\ud835\udc04 \ud835\udc03\ud835\udc04\ud835\udc02\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc03 \ud835\udc01\ud835\udc18 \ud835\udc16\ud835\udc07\ud835\udc0e \ud835\udc01\ud835\udc14\ud835\udc08\ud835\udc0b\ud835\udc03\ud835\udc12 \ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc01\ud835\udc04\ud835\udc12\ud835\udc13 \ud835\udc0c\ud835\udc0e\ud835\udc03\ud835\udc04\ud835\udc0b.\n\n\ud835\udc08\ud835\udc13 \ud835\udc0c\ud835\udc00\ud835\udc18 \ud835\udc01\ud835\udc04 \ud835\udc03\ud835\udc04\ud835\udc02\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc03 \u2026",
+          "title": "𝐓𝐇𝐄 𝐀𝐈 𝐁𝐎𝐎𝐌 𝐌𝐀𝐘 𝐍𝐎𝐓 𝐁𝐄 𝐃𝐄𝐂𝐈𝐃𝐄𝐃 𝐁𝐘 𝐖𝐇𝐎 𝐁𝐔𝐈𝐋𝐃𝐒 𝐓𝐇𝐄 𝐁𝐄𝐒𝐓 𝐌𝐎𝐃𝐄𝐋.\n\n𝐈𝐓 𝐌𝐀𝐘 𝐁𝐄 𝐃𝐄𝐂𝐈𝐃𝐄𝐃 …",
           "url": "https://x.com/BlackBit21/status/2092333606891065682",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -823,13 +773,13 @@
     },
     {
       "id": "l539",
-      "text": "This is a fair bear point for $APP $RDDT $META $PINS $SNAP and Adtech broadly.\n\nAI/LLMs could eventually deliver better ROAS and start taking budget from existing ad platforms.\n\nI just don\u2019t think advertising works that cleanly.\n\nIf the best ROAS automatically won every dollar, $META would have monopolized digital advertising years ago. Its targeting and ad stack have been superior to most platforms for a long time, yet $RDDT $SNAP $PINS and others still built real advertising businesses.\n\nAdver",
+      "text": "This is a fair bear point for $APP $RDDT $META $PINS $SNAP and Adtech broadly.\n\nAI/LLMs could eventually deliver better ROAS and start taking budget from existing ad platforms.\n\nI just don’t think advertising works that cleanly.\n\nIf the best ROAS automatically won every dollar, $META would have monopolized digital advertising years ago. Its targeting and ad stack have been superior to most platforms for a long time, yet $RDDT $SNAP $PINS and others still built real advertising businesses.\n\nAdver",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This is a fair bear point for $APP $RDDT $META $PINS $SNAP and Adtech broadly.\n\n\u2026",
+          "title": "This is a fair bear point for $APP $RDDT $META $PINS $SNAP and Adtech broadly.\n\n…",
           "url": "https://x.com/TheWiseIC/status/2093507103549763999",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -886,13 +836,13 @@
     },
     {
       "id": "l542",
-      "text": "An Investor Discussion with DeepSeek\u2019s Liang Wenfeng: AGI, Open Source, and China's AI Strategy",
+      "text": "An Investor Discussion with DeepSeek’s Liang Wenfeng: AGI, Open Source, and China's AI Strategy",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "An Investor Discussion with DeepSeek\u2019s Liang Wenfeng: AGI, Open Source, and Chin\u2026",
+          "title": "An Investor Discussion with DeepSeek’s Liang Wenfeng: AGI, Open Source, and Chin…",
           "url": "https://x.com/falali2015/status/2080250480421392766",
           "date": "2026-07-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -913,7 +863,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Is your business doing ok? Been worried about your marketing and advertising age\u2026",
+          "title": "Is your business doing ok? Been worried about your marketing and advertising age…",
           "url": "https://x.com/MattWalkerWI/status/2093012956162179541",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -949,13 +899,13 @@
     },
     {
       "id": "l545",
-      "text": "Great read by @viks_rum \n\nOne takeaway that resonated:\n\n\u201cVerification is the scarcity.\u201d\n\nWe\u2019re seeing the same shift.\n\nOur next mode at Ante isn\u2019t about making agents stronger.. it\u2019s about evaluating them fairly.\n\nDevelopers will be able to rent clean agents, run them under the same APIs and constraints, and compare their performance head-to-head.\n\nEvery duel becomes another reproducible evaluation.\n\nStill early, but we think live evaluation will become an increasingly important part of the AI s",
+      "text": "Great read by @viks_rum \n\nOne takeaway that resonated:\n\n“Verification is the scarcity.”\n\nWe’re seeing the same shift.\n\nOur next mode at Ante isn’t about making agents stronger.. it’s about evaluating them fairly.\n\nDevelopers will be able to rent clean agents, run them under the same APIs and constraints, and compare their performance head-to-head.\n\nEvery duel becomes another reproducible evaluation.\n\nStill early, but we think live evaluation will become an increasingly important part of the AI s",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Great read by @viks_rum \n\nOne takeaway that resonated:\n\n\u201cVerification is the sca\u2026",
+          "title": "Great read by @viks_rum \n\nOne takeaway that resonated:\n\n“Verification is the sca…",
           "url": "https://x.com/AnteDotGames/status/2078101921177739594",
           "date": "2026-07-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -976,7 +926,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI IS ALREADY CREATING NEW MILLIONAIRES: HOW PEOPLE ARE MAKING MONEY WITH ARTIFI\u2026",
+          "title": "AI IS ALREADY CREATING NEW MILLIONAIRES: HOW PEOPLE ARE MAKING MONEY WITH ARTIFI…",
           "url": "https://x.com/mistersx16/status/2090891081864851963",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1054,13 +1004,13 @@
     },
     {
       "id": "l550",
-      "text": "$GOOGL KEY READ-THROUGHS FROM ALPHABET Q2 2026 EARNINGS CALL\n\nAlphabet\u2019s Q2 2026 call provides unusually strong evidence that enterprise and consumer AI demand is moving from experimentation into scaled production, but it also confirms that the economic architecture of the technology sector is becoming substantially more capital intensive. The most important market-wide signal is the coexistence of accelerating usage, persistent capacity constraints, sharply higher infrastructure spending, impro",
+      "text": "$GOOGL KEY READ-THROUGHS FROM ALPHABET Q2 2026 EARNINGS CALL\n\nAlphabet’s Q2 2026 call provides unusually strong evidence that enterprise and consumer AI demand is moving from experimentation into scaled production, but it also confirms that the economic architecture of the technology sector is becoming substantially more capital intensive. The most important market-wide signal is the coexistence of accelerating usage, persistent capacity constraints, sharply higher infrastructure spending, impro",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "$GOOGL KEY READ-THROUGHS FROM ALPHABET Q2 2026 EARNINGS CALL\n\nAlphabet\u2019s Q2 2026\u2026",
+          "title": "$GOOGL KEY READ-THROUGHS FROM ALPHABET Q2 2026 EARNINGS CALL\n\nAlphabet’s Q2 2026…",
           "url": "https://x.com/TheValueist/status/2080196146065031396",
           "date": "2026-07-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1081,7 +1031,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@TheWiseIC If I asked Chatgpt, Gemini, Grok, or Claude what new features the iPh\u2026",
+          "title": "@TheWiseIC If I asked Chatgpt, Gemini, Grok, or Claude what new features the iPh…",
           "url": "https://x.com/thomasthedeal/status/2093510603981656491",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1102,7 +1052,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Overview\nMetastasizing is the active process in which cancer cells break away\u2026",
+          "title": "AI Overview\nMetastasizing is the active process in which cancer cells break away…",
           "url": "https://x.com/DunnBilly87734/status/2091848709533569181",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1123,7 +1073,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@vihan13singh This might be a relevant read. Extremely bullish on AI agents bein\u2026",
+          "title": "@vihan13singh This might be a relevant read. Extremely bullish on AI agents bein…",
           "url": "https://x.com/viks_rum/status/2067168770276360295",
           "date": "2026-06-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1138,13 +1088,13 @@
     },
     {
       "id": "l554",
-      "text": "This Might be a good related read @Ozacle23 \ud83d\udc47 \n\nSpent 6 months researching company digital twins. Have a ton of related ideas and some early demos too. \n\nMy hunch is build a digital twin but sell a workforce management solution with AI teammates to the buyers. \n\nhttps://t.co/GOLBb4Xq95",
+      "text": "This Might be a good related read @Ozacle23 👇 \n\nSpent 6 months researching company digital twins. Have a ton of related ideas and some early demos too. \n\nMy hunch is build a digital twin but sell a workforce management solution with AI teammates to the buyers. \n\nhttps://t.co/GOLBb4Xq95",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This Might be a good related read @Ozacle23 \ud83d\udc47 \n\nSpent 6 months researching compa\u2026",
+          "title": "This Might be a good related read @Ozacle23 👇 \n\nSpent 6 months researching compa…",
           "url": "https://x.com/viks_rum/status/2066893666069946413",
           "date": "2026-06-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1159,13 +1109,13 @@
     },
     {
       "id": "l555",
-      "text": "CampaignBuilders Review: AI Builds Marketing Campaigns! \ud83d\udd34 Campaign Builders Review + OTO + BONUS\n\ud83d\udc49 CampaignBuilders Review & Bonuses: https://samuelmarco.us.com/campaignbuilders-review/ \u25c0\u25c0\u25c0\n\ud83d\udc49 CampaignBuilders Frontend: https://samuelmarco.us.com/live/campaignbuilders \u25c0\u25c0\u25c0\n\ud83d\udc49 CampaignBuilders All-Inclusive Bundle: https://samuelmarco.us.com/live/campaignbuilders-bundle \u25c0\u25c0\u25c0\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\ud83c\udfaf In This Video\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\u2705 What is CampaignBuilders?\n\u2705 Full Demo Inside the \u2026",
+      "text": "CampaignBuilders Review: AI Builds Marketing Campaigns! 🔴 Campaign Builders Review + OTO + BONUS\n👉 CampaignBuilders Review & Bonuses: https://samuelmarco.us.com/campaignbuilders-review/ ◀◀◀\n👉 CampaignBuilders Frontend: https://samuelmarco.us.com/live/campaignbuilders ◀◀◀\n👉 CampaignBuilders All-Inclusive Bundle: https://samuelmarco.us.com/live/campaignbuilders-bundle ◀◀◀\n─────────────────────────────\n🎯 In This Video\n─────────────────────────────\n✅ What is CampaignBuilders?\n✅ Full Demo Inside the …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "CampaignBuilders Review: AI Builds Marketing Campaigns! \ud83d\udd34 Campaign Builders Revi\u2026",
+          "title": "CampaignBuilders Review: AI Builds Marketing Campaigns! 🔴 Campaign Builders Revi…",
           "url": "https://www.youtube.com/watch?v=zYJ1e1I7ZPY",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1201,13 +1151,13 @@
     },
     {
       "id": "l557",
-      "text": "The End of Marketing Agencies (Permanent AI Replacement)\nI completely replaced my marketing team with a centralized AI system\u2014here is exactly how solo entrepreneurs are using it to scale revenue without hiring expensive agencies.\n\nIn this video, we break down the technological shift from traditional marketing teams to centralized AI automation. Unlike standard tutorials that push fragmented point-solution software stacks, we reveal the Chief Revenue Officer framework. You will see exactly how to\u2026",
+      "text": "The End of Marketing Agencies (Permanent AI Replacement)\nI completely replaced my marketing team with a centralized AI system—here is exactly how solo entrepreneurs are using it to scale revenue without hiring expensive agencies.\n\nIn this video, we break down the technological shift from traditional marketing teams to centralized AI automation. Unlike standard tutorials that push fragmented point-solution software stacks, we reveal the Chief Revenue Officer framework. You will see exactly how to…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The End of Marketing Agencies (Permanent AI Replacement)\nI completely replaced m\u2026",
+          "title": "The End of Marketing Agencies (Permanent AI Replacement)\nI completely replaced m…",
           "url": "https://www.youtube.com/watch?v=qamrLa4fXvA",
           "date": "2026-03-11",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1222,7 +1172,7 @@
     },
     {
       "id": "l458",
-      "text": "Account Executive \u2014 The Brand Power Company (Sydney, New South Wales, Australia). Posted 6 days ago.",
+      "text": "Account Executive — The Brand Power Company (Sydney, New South Wales, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1243,7 +1193,7 @@
     },
     {
       "id": "l459",
-      "text": "Retail Media Sales Executive \u2014 Kmart Australia Limited (Chadstone, Victoria, Australia). Posted 2 days ago.",
+      "text": "Retail Media Sales Executive — Kmart Australia Limited (Chadstone, Victoria, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1264,7 +1214,7 @@
     },
     {
       "id": "l460",
-      "text": "Advertising Sales Specialist \u2014 carsales (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Advertising Sales Specialist — carsales (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1285,7 +1235,7 @@
     },
     {
       "id": "l461",
-      "text": "Wanted: Fire-Breathing Sales Beast \u2014 KingKong (South Yarra, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Wanted: Fire-Breathing Sales Beast — KingKong (South Yarra, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1306,7 +1256,7 @@
     },
     {
       "id": "l462",
-      "text": "Client Executive \u2014 ARN (North Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Client Executive — ARN (North Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1327,7 +1277,7 @@
     },
     {
       "id": "l463",
-      "text": "Senior Media Sales Executive \u2014 CLICK FRENZY (Melbourne, Victoria, Australia). Posted 1 month ago.",
+      "text": "Senior Media Sales Executive — CLICK FRENZY (Melbourne, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1348,7 +1298,7 @@
     },
     {
       "id": "l464",
-      "text": "Senior Sales Executive - Perth \u2014 Special Broadcasting Service (SBS) Australia (Perth, Western Australia, Australia). Posted 1 week ago.",
+      "text": "Senior Sales Executive - Perth — Special Broadcasting Service (SBS) Australia (Perth, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1369,7 +1319,7 @@
     },
     {
       "id": "l465",
-      "text": "Sales Executive \u2014 Mojo Dojo (South Melbourne, Victoria, Australia). Posted 1 day ago.",
+      "text": "Sales Executive — Mojo Dojo (South Melbourne, Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1390,7 +1340,7 @@
     },
     {
       "id": "l466",
-      "text": "Senior Sales Executive \u2014 Broadsign (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Senior Sales Executive — Broadsign (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1411,7 +1361,7 @@
     },
     {
       "id": "l467",
-      "text": "Multimedia Sales Representative \u2014 Southern Cross Austereo (Toowoomba, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Multimedia Sales Representative — Southern Cross Austereo (Toowoomba, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1432,13 +1382,13 @@
     },
     {
       "id": "l568",
-      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** \u2014 [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t\u2026",
+      "text": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first — **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n☑️ Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** — [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
+          "title": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open …",
           "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1453,13 +1403,13 @@
     },
     {
       "id": "l569",
-      "text": "I ran a six-agent AI marketing team for three months. This is what it did.\n\\ I mentioned this case a few times in this sub, and were asked to share more details on it.* For three months, a fintech project ran with a one-person marketing function: me, backed by six AI agents. The agents handled social content, email, advertising monitoring, growth experiments, and outreach. I handled strategy, priorities, approvals, and anything with enough ambiguity or risk to require judgment. Built it from the\u2026",
+      "text": "I ran a six-agent AI marketing team for three months. This is what it did.\n\\ I mentioned this case a few times in this sub, and were asked to share more details on it.* For three months, a fintech project ran with a one-person marketing function: me, backed by six AI agents. The agents handled social content, email, advertising monitoring, growth experiments, and outreach. I handled strategy, priorities, approvals, and anything with enough ambiguity or risk to require judgment. Built it from the…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I ran a six-agent AI marketing team for three months. This is what it did.\n\\ I m\u2026",
+          "title": "I ran a six-agent AI marketing team for three months. This is what it did.\n\\ I m…",
           "url": "https://www.reddit.com/r/AI_Agents/comments/1vyxua5/i_ran_a_sixagent_ai_marketing_team_for_three/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1474,13 +1424,13 @@
     },
     {
       "id": "l570",
-      "text": "CRAZY False Advertising on this zillow listing - using AI generated images to sell a house!\nSharing because this is the first time I&#39;ve seen this on the market and I find it abhorrent. The images are not watermarked as AI generated and after the first 6 fake images you can see what the house actually looks like. WILD behavior from this agent. &#32; submitted by &#32; /u/Objective_Analysis_3 &#32; to &#32; r/vancouverwa [link] &#32; [comments]\nName and shame who this is so they stop. Listed b\u2026",
+      "text": "CRAZY False Advertising on this zillow listing - using AI generated images to sell a house!\nSharing because this is the first time I&#39;ve seen this on the market and I find it abhorrent. The images are not watermarked as AI generated and after the first 6 fake images you can see what the house actually looks like. WILD behavior from this agent. &#32; submitted by &#32; /u/Objective_Analysis_3 &#32; to &#32; r/vancouverwa [link] &#32; [comments]\nName and shame who this is so they stop. Listed b…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "CRAZY False Advertising on this zillow listing - using AI generated images to se\u2026",
+          "title": "CRAZY False Advertising on this zillow listing - using AI generated images to se…",
           "url": "https://www.reddit.com/r/vancouverwa/comments/1vkrd4e/crazy_false_advertising_on_this_zillow_listing/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1495,13 +1445,13 @@
     },
     {
       "id": "l571",
-      "text": "Are AI agents are going to have an adoption problem before they have a capability problem?\nWe spend a ton of time talking about what an agent can do. Tool use. Memory. Planning. Multi-agent setups. Better models. But in a real company none of that matters if people stop using the thing after two weeks. I work around sales teams where this problem is pretty obvious. You can give a manager AI that analyzes customer conversations and points out where reps lose deals. Sounds useful but if recording \u2026",
+      "text": "Are AI agents are going to have an adoption problem before they have a capability problem?\nWe spend a ton of time talking about what an agent can do. Tool use. Memory. Planning. Multi-agent setups. Better models. But in a real company none of that matters if people stop using the thing after two weeks. I work around sales teams where this problem is pretty obvious. You can give a manager AI that analyzes customer conversations and points out where reps lose deals. Sounds useful but if recording …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Are AI agents are going to have an adoption problem before they have a capabilit\u2026",
+          "title": "Are AI agents are going to have an adoption problem before they have a capabilit…",
           "url": "https://www.reddit.com/r/AI_Agents/comments/1vklcin/are_ai_agents_are_going_to_have_an_adoption/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1516,13 +1466,13 @@
     },
     {
       "id": "l572",
-      "text": "Agents using AI\nSaw a house on rightmove, thought it looked nice. Made a booking and then the agent says, just so you know all the pics on the website are AI because the house isn&#39;t in a great state. Why are these agents using AI and not disclosing it on the advertisement? Surely there should be some rule against this? I get they want viewings but I feel like if you turn up and it looks nothing like expected, it will just turn people off. &#32; submitted by &#32; /u/FrivolousManiac &#32; to \u2026",
+      "text": "Agents using AI\nSaw a house on rightmove, thought it looked nice. Made a booking and then the agent says, just so you know all the pics on the website are AI because the house isn&#39;t in a great state. Why are these agents using AI and not disclosing it on the advertisement? Surely there should be some rule against this? I get they want viewings but I feel like if you turn up and it looks nothing like expected, it will just turn people off. &#32; submitted by &#32; /u/FrivolousManiac &#32; to …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Agents using AI\nSaw a house on rightmove, thought it looked nice. Made a booking\u2026",
+          "title": "Agents using AI\nSaw a house on rightmove, thought it looked nice. Made a booking…",
           "url": "https://www.reddit.com/r/HousingUK/comments/1vn7we6/agents_using_ai/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1537,13 +1487,13 @@
     },
     {
       "id": "l573",
-      "text": "CampaignBuilders Review: AI Builds Marketing Campaigns! \ud83d\udd34 Campaign Builders Review + OTO + BONUS\n\ud83d\udc49 CampaignBuilders Review & Bonuses: https://samuelmarco.us.com/campaignbuilders-review/ \u25c0\u25c0\u25c0\n\ud83d\udc49 CampaignBuilders Frontend: https://samuelmarco.us.com/live/campaignbuilders \u25c0\u25c0\u25c0\n\ud83d\udc49 CampaignBuilders All-Inclusive Bundle: https://samuelmarco.us.com/live/campaignbuilders-bundle \u25c0\u25c0\u25c0\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\ud83c\udfaf In This Video\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\u2705 What is CampaignBuilders?\n\u2705 Full Demo Inside the \u2026",
+      "text": "CampaignBuilders Review: AI Builds Marketing Campaigns! 🔴 Campaign Builders Review + OTO + BONUS\n👉 CampaignBuilders Review & Bonuses: https://samuelmarco.us.com/campaignbuilders-review/ ◀◀◀\n👉 CampaignBuilders Frontend: https://samuelmarco.us.com/live/campaignbuilders ◀◀◀\n👉 CampaignBuilders All-Inclusive Bundle: https://samuelmarco.us.com/live/campaignbuilders-bundle ◀◀◀\n─────────────────────────────\n🎯 In This Video\n─────────────────────────────\n✅ What is CampaignBuilders?\n✅ Full Demo Inside the …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "CampaignBuilders Review: AI Builds Marketing Campaigns! \ud83d\udd34 Campaign Builders Revi\u2026",
+          "title": "CampaignBuilders Review: AI Builds Marketing Campaigns! 🔴 Campaign Builders Revi…",
           "url": "https://www.youtube.com/watch?v=zYJ1e1I7ZPY",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1558,13 +1508,13 @@
     },
     {
       "id": "l574",
-      "text": "The End of Marketing Agencies (Permanent AI Replacement)\nI completely replaced my marketing team with a centralized AI system\u2014here is exactly how solo entrepreneurs are using it to scale revenue without hiring expensive agencies.\n\nIn this video, we break down the technological shift from traditional marketing teams to centralized AI automation. Unlike standard tutorials that push fragmented point-solution software stacks, we reveal the Chief Revenue Officer framework. You will see exactly how to\u2026",
+      "text": "The End of Marketing Agencies (Permanent AI Replacement)\nI completely replaced my marketing team with a centralized AI system—here is exactly how solo entrepreneurs are using it to scale revenue without hiring expensive agencies.\n\nIn this video, we break down the technological shift from traditional marketing teams to centralized AI automation. Unlike standard tutorials that push fragmented point-solution software stacks, we reveal the Chief Revenue Officer framework. You will see exactly how to…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The End of Marketing Agencies (Permanent AI Replacement)\nI completely replaced m\u2026",
+          "title": "The End of Marketing Agencies (Permanent AI Replacement)\nI completely replaced m…",
           "url": "https://www.youtube.com/watch?v=qamrLa4fXvA",
           "date": "2026-03-11",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1655,6 +1605,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

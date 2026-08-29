@@ -19,64 +19,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "19-1042-01",
-      "text": "National peak professional bodies and statutory regulators governing Medical Scientists, Except Epidemiologists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Medical Scientists, Except Epidemiologists",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Medical Scientists, Except Epidemiologists",
-          "url": "https://www.psc.gov.au/standards/19-1042",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Medical Scientists, Except Epidemiologists"
-        }
-      ],
-      "scope": "Australian practitioners in Medical Scientists, Except Epidemiologists across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "19-1042-02",
-      "text": "Automation of routine transactional and analytical tasks in Medical Scientists, Except Epidemiologists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Medical Scientists, Except Epidemiologists",
-          "url": "https://www.jobsandskills.gov.au/research/19-1042",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Medical Scientists, Except Epidemiologists in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Medical Scientists, Except Epidemiologists roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "HN Top Stories Digest - June 30, 2026\n**Daily Hacker News digest for 2026-06-30** \u2014 top 30 submissions of the last 24h, ranked by points. Each entry summarizes the linked article and its HN discussion.\n\n\ud83d\udcc4 Permalink (master): https://github.com/srid/claude-dump/blob/master/hn/2026/06/30.md\n\nFetch notes: 1 article (#16, Maturitas journal)",
+      "text": "HN Top Stories Digest - June 30, 2026\n**Daily Hacker News digest for 2026-06-30** — top 30 submissions of the last 24h, ranked by points. Each entry summarizes the linked article and its HN discussion.\n\n📄 Permalink (master): https://github.com/srid/claude-dump/blob/master/hn/2026/06/30.md\n\nFetch notes: 1 article (#16, Maturitas journal)",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "HN Top Stories Digest - June 30, 2026\n**Daily Hacker News digest for 2026-06-30*\u2026",
+          "title": "HN Top Stories Digest - June 30, 2026\n**Daily Hacker News digest for 2026-06-30*…",
           "url": "https://github.com/srid/claude-dump/pull/61",
           "date": "2026-06-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -133,13 +83,13 @@
     },
     {
       "id": "l506",
-      "text": "Everybody's Weirded Out by AI\u2013Except the People Who Foist It on Us",
+      "text": "Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Everybody's Weirded Out by AI\u2013Except the People Who Foist It on Us",
+          "title": "Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
           "url": "https://newrepublic.com/article/213004/everybody-weirded-ai-except-people-foist-us",
           "date": "2026-07-17",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -322,13 +272,13 @@
     },
     {
       "id": "l515",
-      "text": "Primus \u2013 AI Research Scientist",
+      "text": "Primus – AI Research Scientist",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Primus \u2013 AI Research Scientist",
+          "title": "Primus – AI Research Scientist",
           "url": "https://lab.cloud/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -343,13 +293,13 @@
     },
     {
       "id": "l516",
-      "text": "GCC to Decline Any Significant Contributions Made via AI/LLMs \u2013 Except for Tests",
+      "text": "GCC to Decline Any Significant Contributions Made via AI/LLMs – Except for Tests",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "GCC to Decline Any Significant Contributions Made via AI/LLMs \u2013 Except for Tests",
+          "title": "GCC to Decline Any Significant Contributions Made via AI/LLMs – Except for Tests",
           "url": "https://www.phoronix.com/news/GCC-Declining-AI-Contributions",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -364,13 +314,13 @@
     },
     {
       "id": "l517",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -406,13 +356,13 @@
     },
     {
       "id": "l519",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -490,13 +440,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -532,13 +482,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -574,13 +524,13 @@
     },
     {
       "id": "l527",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -595,13 +545,13 @@
     },
     {
       "id": "l528",
-      "text": "The reason why governments and mega-corps/the financial sector are bum-rushing AI and massive data centers is because they know full well that we are living through the anthropocene mass extinction event And they are hoping it is going to lead to a breakthrough and save at least the elite.\nEverything is getting odder. Faster. More obvious. And at the same time everything is getting hotter. Much hotter. It is difficult for people to keep pretending like we&#39;re not on the precipice of mass deat\u2026",
+      "text": "The reason why governments and mega-corps/the financial sector are bum-rushing AI and massive data centers is because they know full well that we are living through the anthropocene mass extinction event And they are hoping it is going to lead to a breakthrough and save at least the elite.\nEverything is getting odder. Faster. More obvious. And at the same time everything is getting hotter. Much hotter. It is difficult for people to keep pretending like we&#39;re not on the precipice of mass deat…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The reason why governments and mega-corps/the financial sector are bum-rushing A\u2026",
+          "title": "The reason why governments and mega-corps/the financial sector are bum-rushing A…",
           "url": "https://www.reddit.com/r/theories/comments/1vcgw3j/the_reason_why_governments_and_megacorpsthe/",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -622,7 +572,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "No career is safe except medical in this era of AI. What backup options are you \u2026",
+          "title": "No career is safe except medical in this era of AI. What backup options are you …",
           "url": "https://www.reddit.com/r/Btechtards/comments/1vqu34l/no_career_is_safe_except_medical_in_this_era_of/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -643,7 +593,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Medical Laboratory Scientist Expert at AfterQuery - AI Training Job\nhttps://ift.\u2026",
+          "title": "Medical Laboratory Scientist Expert at AfterQuery - AI Training Job\nhttps://ift.…",
           "url": "https://www.reddit.com/r/trainAIjobs/comments/1vzr1w3/medical_laboratory_scientist_expert_at_afterquery/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -658,13 +608,13 @@
     },
     {
       "id": "l531",
-      "text": "Artificial Intelligence was able to create 16 new viruses that can infect bacteria, raising concerns of potential misuse.\nAI Model Designs 16 Functional Viruses From Scratch, Advancing Therapies While Raising Biosecurity Concerns Researchers from Stanford University and the Arc Institute used genome language models, Evo 1 and Evo 2, to generate hundreds of thousands of candidate bacteriophage genomes. After synthesizing and testing nearly 300 designs in the laboratory, they identified 16 viable \u2026",
+      "text": "Artificial Intelligence was able to create 16 new viruses that can infect bacteria, raising concerns of potential misuse.\nAI Model Designs 16 Functional Viruses From Scratch, Advancing Therapies While Raising Biosecurity Concerns Researchers from Stanford University and the Arc Institute used genome language models, Evo 1 and Evo 2, to generate hundreds of thousands of candidate bacteriophage genomes. After synthesizing and testing nearly 300 designs in the laboratory, they identified 16 viable …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Artificial Intelligence was able to create 16 new viruses that can infect bacter\u2026",
+          "title": "Artificial Intelligence was able to create 16 new viruses that can infect bacter…",
           "url": "https://www.reddit.com/r/STEW_ScTecEngWorld/comments/1vi0cuo/artificial_intelligence_was_able_to_create_16_new/",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -679,13 +629,13 @@
     },
     {
       "id": "l532",
-      "text": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe've barely caught our breaths since Collaborative Agent Hackathon at @Cambridge_Uni, UK, and now we're going to host another intense hackathon in Berlin. September 16. \u200bThe Collaborative Agent Hackathon is a 1-day event for building open-source, collaborative AI agents using Flower.\n\n\u200bAgents are changing what is possible, and their greatest potential emerges when they collaborate safely in human-supervised multi-agent",
+      "text": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe've barely caught our breaths since Collaborative Agent Hackathon at @Cambridge_Uni, UK, and now we're going to host another intense hackathon in Berlin. September 16. ​The Collaborative Agent Hackathon is a 1-day event for building open-source, collaborative AI agents using Flower.\n\n​Agents are changing what is possible, and their greatest potential emerges when they collaborate safely in human-supervised multi-agent",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe'v\u2026",
+          "title": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe'v…",
           "url": "https://x.com/flwrlabs/status/2092989569264214482",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -721,13 +671,13 @@
     },
     {
       "id": "l534",
-      "text": "At the next Flower Monthly (Wednesday, September 2), we\u2019ll be joined by 6 researchers and engineers working on some of the most interesting areas in federated learning and AI.\n\nHasti Zanganeh and Lydia Obeng will present SpikeFed, their work on federated training of spiking neural networks for event based vision. The project brings together federated learning, privacy preserving training, neuromorphic computing, and more efficient approaches to processing visual data.\n\nWe\u2019ll also hear from Tanve",
+      "text": "At the next Flower Monthly (Wednesday, September 2), we’ll be joined by 6 researchers and engineers working on some of the most interesting areas in federated learning and AI.\n\nHasti Zanganeh and Lydia Obeng will present SpikeFed, their work on federated training of spiking neural networks for event based vision. The project brings together federated learning, privacy preserving training, neuromorphic computing, and more efficient approaches to processing visual data.\n\nWe’ll also hear from Tanve",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "At the next Flower Monthly (Wednesday, September 2), we\u2019ll be joined by 6 resear\u2026",
+          "title": "At the next Flower Monthly (Wednesday, September 2), we’ll be joined by 6 resear…",
           "url": "https://x.com/flwrlabs/status/2093356198959403366",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -769,7 +719,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Cisco just gave its 90,000 employees their own AI agent.\n\nAnd the interesting pa\u2026",
+          "title": "Cisco just gave its 90,000 employees their own AI agent.\n\nAnd the interesting pa…",
           "url": "https://x.com/Goura_vk/status/2093248535399411908",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -811,7 +761,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Alexa and others are just too limiting, not to mention since they're cloud based\u2026",
+          "title": "Alexa and others are just too limiting, not to mention since they're cloud based…",
           "url": "https://x.com/CarlB_jr/status/2092095017695219995",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -868,13 +818,13 @@
     },
     {
       "id": "l541",
-      "text": "@dubsa98 And medical scientists!!! \ud83e\uddd1\ud83c\udffb\u200d\ud83d\udd2c",
+      "text": "@dubsa98 And medical scientists!!! 🧑🏻‍🔬",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@dubsa98 And medical scientists!!! \ud83e\uddd1\ud83c\udffb\u200d\ud83d\udd2c",
+          "title": "@dubsa98 And medical scientists!!! 🧑🏻‍🔬",
           "url": "https://x.com/Ad4mScott/status/2093115173418471630",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -895,7 +845,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "This week. In-person events are great. \n\n2 Workshop days, From Zero to Hero: Fed\u2026",
+          "title": "This week. In-person events are great. \n\n2 Workshop days, From Zero to Hero: Fed…",
           "url": "https://x.com/flwrlabs/status/2093533957195247990",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -910,13 +860,13 @@
     },
     {
       "id": "l543",
-      "text": "Found a learning platform that doesn't feel like another course library.\n\nDURA has 660 lessons across 15 engineering phases, with interactive activities and 100+ project tutorials.\n\nYou can start from the basics or follow a career path toward roles like backend engineer, AI engineer, or CTO.\n\nThe best part:\nLearn \u2192 build \u2192 practice \u2192 move forward.\n\nFree forever.\nhttps://t.co/RIGzpYoAnD",
+      "text": "Found a learning platform that doesn't feel like another course library.\n\nDURA has 660 lessons across 15 engineering phases, with interactive activities and 100+ project tutorials.\n\nYou can start from the basics or follow a career path toward roles like backend engineer, AI engineer, or CTO.\n\nThe best part:\nLearn → build → practice → move forward.\n\nFree forever.\nhttps://t.co/RIGzpYoAnD",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Found a learning platform that doesn't feel like another course library.\n\nDURA h\u2026",
+          "title": "Found a learning platform that doesn't feel like another course library.\n\nDURA h…",
           "url": "https://x.com/Goura_vk/status/2093236553481085200",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -931,7 +881,7 @@
     },
     {
       "id": "l444",
-      "text": "Clinical Curation Scientist \u2014 Children's Cancer Institute (Greater Sydney Area). Posted 6 days ago.",
+      "text": "Clinical Curation Scientist — Children's Cancer Institute (Greater Sydney Area). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -952,7 +902,7 @@
     },
     {
       "id": "l445",
-      "text": "Medical Scientist (530821) \u2014 Department of Health, Tasmania (Launceston, Tasmania, Australia). Posted 2 days ago.",
+      "text": "Medical Scientist (530821) — Department of Health, Tasmania (Launceston, Tasmania, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -973,7 +923,7 @@
     },
     {
       "id": "l446",
-      "text": "Medical Scientist Grade 1 \u2014 The Royal Melbourne Hospital (Melbourne, Victoria, Australia). Posted 2 days ago.",
+      "text": "Medical Scientist Grade 1 — The Royal Melbourne Hospital (Melbourne, Victoria, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -994,7 +944,7 @@
     },
     {
       "id": "l447",
-      "text": "Immunology Scientist \u2014 QML Pathology (Murarrie, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Immunology Scientist — QML Pathology (Murarrie, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1015,7 +965,7 @@
     },
     {
       "id": "l448",
-      "text": "Clinical Scientist | Genomics \u2014 Virtus Health (Sydney, New South Wales, Australia). Posted 6 days ago.",
+      "text": "Clinical Scientist | Genomics — Virtus Health (Sydney, New South Wales, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1036,7 +986,7 @@
     },
     {
       "id": "l449",
-      "text": "Health Professional Level 2 - Pathology Medical Scientist \u2014 Canberra Health Services (Canberra, Australian Capital Territory, Australia). Posted 2 weeks ago.",
+      "text": "Health Professional Level 2 - Pathology Medical Scientist — Canberra Health Services (Canberra, Australian Capital Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1057,7 +1007,7 @@
     },
     {
       "id": "l450",
-      "text": "Medical Laboratory Scientist - Andrology \u2014 NSW Health Pathology (Randwick, New South Wales, Australia). Posted 18 hours ago.",
+      "text": "Medical Laboratory Scientist - Andrology — NSW Health Pathology (Randwick, New South Wales, Australia). Posted 18 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1078,7 +1028,7 @@
     },
     {
       "id": "l451",
-      "text": "Senior Medical Laboratory Scientist - Molecular Medicine \u2014 NSW Health Pathology (New Lambton, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Senior Medical Laboratory Scientist - Molecular Medicine — NSW Health Pathology (New Lambton, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1099,7 +1049,7 @@
     },
     {
       "id": "l452",
-      "text": "Health Professional Level 3 - Senior Scientist \u2014 Canberra Health Services (Canberra, Australian Capital Territory, Australia). Posted 2 weeks ago.",
+      "text": "Health Professional Level 3 - Senior Scientist — Canberra Health Services (Canberra, Australian Capital Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1120,7 +1070,7 @@
     },
     {
       "id": "l453",
-      "text": "Scientist (PK) \u2014 360biolabs, a BioAgilytix company (Melbourne, Victoria, Australia). Posted 1 day ago.",
+      "text": "Scientist (PK) — 360biolabs, a BioAgilytix company (Melbourne, Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1141,13 +1091,13 @@
     },
     {
       "id": "l554",
-      "text": "The reason why governments and mega-corps/the financial sector are bum-rushing AI and massive data centers is because they know full well that we are living through the anthropocene mass extinction event And they are hoping it is going to lead to a breakthrough and save at least the elite.\nEverything is getting odder. Faster. More obvious. And at the same time everything is getting hotter. Much hotter. It is difficult for people to keep pretending like we&#39;re not on the precipice of mass deat\u2026",
+      "text": "The reason why governments and mega-corps/the financial sector are bum-rushing AI and massive data centers is because they know full well that we are living through the anthropocene mass extinction event And they are hoping it is going to lead to a breakthrough and save at least the elite.\nEverything is getting odder. Faster. More obvious. And at the same time everything is getting hotter. Much hotter. It is difficult for people to keep pretending like we&#39;re not on the precipice of mass deat…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The reason why governments and mega-corps/the financial sector are bum-rushing A\u2026",
+          "title": "The reason why governments and mega-corps/the financial sector are bum-rushing A…",
           "url": "https://www.reddit.com/r/theories/comments/1vcgw3j/the_reason_why_governments_and_megacorpsthe/",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1162,13 +1112,13 @@
     },
     {
       "id": "l555",
-      "text": "Artificial Intelligence was able to create 16 new viruses that can infect bacteria, raising concerns of potential misuse.\nAI Model Designs 16 Functional Viruses From Scratch, Advancing Therapies While Raising Biosecurity Concerns Researchers from Stanford University and the Arc Institute used genome language models, Evo 1 and Evo 2, to generate hundreds of thousands of candidate bacteriophage genomes. After synthesizing and testing nearly 300 designs in the laboratory, they identified 16 viable \u2026",
+      "text": "Artificial Intelligence was able to create 16 new viruses that can infect bacteria, raising concerns of potential misuse.\nAI Model Designs 16 Functional Viruses From Scratch, Advancing Therapies While Raising Biosecurity Concerns Researchers from Stanford University and the Arc Institute used genome language models, Evo 1 and Evo 2, to generate hundreds of thousands of candidate bacteriophage genomes. After synthesizing and testing nearly 300 designs in the laboratory, they identified 16 viable …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Artificial Intelligence was able to create 16 new viruses that can infect bacter\u2026",
+          "title": "Artificial Intelligence was able to create 16 new viruses that can infect bacter…",
           "url": "https://www.reddit.com/r/STEW_ScTecEngWorld/comments/1vi0cuo/artificial_intelligence_was_able_to_create_16_new/",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1259,6 +1209,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

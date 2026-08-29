@@ -18,64 +18,14 @@
   ],
   "claims": [
     {
-      "id": "19-4031-01",
-      "text": "National peak professional bodies and statutory regulators governing Chemical Technicians enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Chemical Technicians",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Chemical Technicians",
-          "url": "https://www.psc.gov.au/standards/19-4031",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Chemical Technicians"
-        }
-      ],
-      "scope": "Australian practitioners in Chemical Technicians across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "19-4031-02",
-      "text": "Automation of routine transactional and analytical tasks in Chemical Technicians heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Chemical Technicians",
-          "url": "https://www.jobsandskills.gov.au/research/19-4031",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Chemical Technicians in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Chemical Technicians roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "content(blog): drain-fly/fruit-fly enzyme drain cleaner buyer's guide draft\nResearched comparison-type blog post for the hub on choosing a drain\ntreatment for fruit flies and drain flies (SWFL angle). Authored to the\nautonomous blog protocol: schema-valid frontmatter, ComparisonTable +\nHonestRejection (comparison post_type), FAQ section (FAQPage schema),\ncategory product co\n<!-- railway-bot-comment-version=2 -->\n\n<!-- railway-project-id=\"5a674c8a-d443-4126-8bfd-3d4775464448\" railway-project-name\u2026",
+      "text": "content(blog): drain-fly/fruit-fly enzyme drain cleaner buyer's guide draft\nResearched comparison-type blog post for the hub on choosing a drain\ntreatment for fruit flies and drain flies (SWFL angle). Authored to the\nautonomous blog protocol: schema-valid frontmatter, ComparisonTable +\nHonestRejection (comparison post_type), FAQ section (FAQPage schema),\ncategory product co\n<!-- railway-bot-comment-version=2 -->\n\n<!-- railway-project-id=\"5a674c8a-d443-4126-8bfd-3d4775464448\" railway-project-name…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "content(blog): drain-fly/fruit-fly enzyme drain cleaner buyer's guide draft\nRese\u2026",
+          "title": "content(blog): drain-fly/fruit-fly enzyme drain cleaner buyer's guide draft\nRese…",
           "url": "https://github.com/wavespestcontrolfl/waves-customer-portal/pull/3239",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -90,13 +40,13 @@
     },
     {
       "id": "l504",
-      "text": "fix(social): GBP posts never use AI-generated imagery\n## What\n\nCode-side fix for the third KNOWN GAP documented in #3050: the owner rule is **no AI-generated imagery on GBP, ever**, but two publish paths still attached AI images.\n\n1. **`publishToAll` (`social-media.js`)** \u2014 in manual (`noAiImage: false`) runs, the GBP post loop fell back to the shared\n@codex <!-- railway-bot-comment-version=2 -->\n\n<!-- railway-project-id=\"5a674c8a-d443-4126-8bfd-3d4775464448\" railway-project-name=\"waves-pest-con\u2026",
+      "text": "fix(social): GBP posts never use AI-generated imagery\n## What\n\nCode-side fix for the third KNOWN GAP documented in #3050: the owner rule is **no AI-generated imagery on GBP, ever**, but two publish paths still attached AI images.\n\n1. **`publishToAll` (`social-media.js`)** — in manual (`noAiImage: false`) runs, the GBP post loop fell back to the shared\n@codex <!-- railway-bot-comment-version=2 -->\n\n<!-- railway-project-id=\"5a674c8a-d443-4126-8bfd-3d4775464448\" railway-project-name=\"waves-pest-con…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "fix(social): GBP posts never use AI-generated imagery\n## What\n\nCode-side fix for\u2026",
+          "title": "fix(social): GBP posts never use AI-generated imagery\n## What\n\nCode-side fix for…",
           "url": "https://github.com/wavespestcontrolfl/waves-customer-portal/pull/3059",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -111,13 +61,13 @@
     },
     {
       "id": "l505",
-      "text": "feat(sockets): dispatch:alert \u2014 fourth event channel\n## Scope\n\nLast of the four phase-1 event channels. Adds the action-queue right-pane data model (`dispatch_alerts` table) + the channel that broadcasts new alerts to `dispatch:admins`.\n\n## What's structurally different about this channel\n\nThe previous three channels relayed external writes:\n- `dispat\n@codex review\n\n---\n_Generated by [Claude Code](https://claude.ai/code)_ Codex Review: Didn't find any major issues. Already looking forward to the\u2026",
+      "text": "feat(sockets): dispatch:alert — fourth event channel\n## Scope\n\nLast of the four phase-1 event channels. Adds the action-queue right-pane data model (`dispatch_alerts` table) + the channel that broadcasts new alerts to `dispatch:admins`.\n\n## What's structurally different about this channel\n\nThe previous three channels relayed external writes:\n- `dispat\n@codex review\n\n---\n_Generated by [Claude Code](https://claude.ai/code)_ Codex Review: Didn't find any major issues. Already looking forward to the…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(sockets): dispatch:alert \u2014 fourth event channel\n## Scope\n\nLast of the four \u2026",
+          "title": "feat(sockets): dispatch:alert — fourth event channel\n## Scope\n\nLast of the four …",
           "url": "https://github.com/wavespestcontrolfl/waves-customer-portal/pull/293",
           "date": "2026-04-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -138,7 +88,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "project1\n# ============================================================\n#   GLAM\u2026",
+          "title": "project1\n# ============================================================\n#   GLAM…",
           "url": "https://github.com/farahkhaledd/project1/issues/1",
           "date": "2026-06-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -159,7 +109,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Add Delvan Shipworm missions for Delve and Ada\nAdded new missions 'Exotic Life: \u2026",
+          "title": "Add Delvan Shipworm missions for Delve and Ada\nAdded new missions 'Exotic Life: …",
           "url": "https://github.com/endless-sky/endless-sky/pull/12376",
           "date": "2026-03-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -174,13 +124,13 @@
     },
     {
       "id": "l508",
-      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment\u2014ranging from consumer earbuds to professional line arrays and covert surveillance g\u2026",
+      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment—ranging from consumer earbuds to professional line arrays and covert surveillance g…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su\u2026",
+          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su…",
           "url": "https://github.com/Transparency-X/Sound-Equipment-Lifespace/issues/1",
           "date": "2026-05-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -384,13 +334,13 @@
     },
     {
       "id": "l518",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -405,13 +355,13 @@
     },
     {
       "id": "l519",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -594,13 +544,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -636,13 +586,13 @@
     },
     {
       "id": "l530",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -678,13 +628,13 @@
     },
     {
       "id": "l532",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -699,13 +649,13 @@
     },
     {
       "id": "l533",
-      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En\u2026",
+      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment\u2026",
+          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment…",
           "url": "https://www.reddit.com/r/newbrunswickcanada/comments/1vkm48r/lorneville_ai_data_centre_update_eia_technical/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -720,13 +670,13 @@
     },
     {
       "id": "l534",
-      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En\u2026",
+      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment\u2026",
+          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment…",
           "url": "https://www.reddit.com/r/SaintJohnNB/comments/1vkm7tq/lorneville_ai_data_centre_update_eia_technical/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -741,13 +691,13 @@
     },
     {
       "id": "l535",
-      "text": "AI Doom Is Not Evidence for Socialism\nI&#39;m getting tired of seeing AI used here as another soapbox for: AI is going to eliminate everyone&#39;s jobs, therefore capitalism is doomed. Look at my flair. Criticism of capitalism is not proof of socialism. And speculative AI unemployment certainly isn&#39;t. First, if we&#39;re going to talk about AI doom , unemployment is nowhere near the worst scenario being discussed by the people who actually study AI risk. The 2026 International AI Safety Repo\u2026",
+      "text": "AI Doom Is Not Evidence for Socialism\nI&#39;m getting tired of seeing AI used here as another soapbox for: AI is going to eliminate everyone&#39;s jobs, therefore capitalism is doomed. Look at my flair. Criticism of capitalism is not proof of socialism. And speculative AI unemployment certainly isn&#39;t. First, if we&#39;re going to talk about AI doom , unemployment is nowhere near the worst scenario being discussed by the people who actually study AI risk. The 2026 International AI Safety Repo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI Doom Is Not Evidence for Socialism\nI&#39;m getting tired of seeing AI used he\u2026",
+          "title": "AI Doom Is Not Evidence for Socialism\nI&#39;m getting tired of seeing AI used he…",
           "url": "https://www.reddit.com/r/CapitalismVSocialism/comments/1vpeaxi/ai_doom_is_not_evidence_for_socialism/",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -762,13 +712,13 @@
     },
     {
       "id": "l536",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac\u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and \u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and …",
           "url": "https://www.reddit.com/r/accelerate/comments/1vlw4un/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -783,13 +733,13 @@
     },
     {
       "id": "l537",
-      "text": "A SMALL STARTUP IS RENTING OUT HUMANOID HOUSE CLEANERS FOR $30 AN HOUR\n\nTau Robotics has started sending robots into San Francisco homes to vacuum floors, wipe surfaces, pick up clutter, and take out the trash\n\nNo $100,000 robot purchase\n\nNo years-long waitlist\n\nYou simply pay for the work by the hour\n\nAnd no\u2014the robot isn't fully autonomous yet\n\nAI handles part of the job, while a remote human operator steps in when needed\n\nThat may sound less impressive\n\nBut it\u2019s actually the smartest part\n\nRo",
+      "text": "A SMALL STARTUP IS RENTING OUT HUMANOID HOUSE CLEANERS FOR $30 AN HOUR\n\nTau Robotics has started sending robots into San Francisco homes to vacuum floors, wipe surfaces, pick up clutter, and take out the trash\n\nNo $100,000 robot purchase\n\nNo years-long waitlist\n\nYou simply pay for the work by the hour\n\nAnd no—the robot isn't fully autonomous yet\n\nAI handles part of the job, while a remote human operator steps in when needed\n\nThat may sound less impressive\n\nBut it’s actually the smartest part\n\nRo",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A SMALL STARTUP IS RENTING OUT HUMANOID HOUSE CLEANERS FOR $30 AN HOUR\n\nTau Robo\u2026",
+          "title": "A SMALL STARTUP IS RENTING OUT HUMANOID HOUSE CLEANERS FOR $30 AN HOUR\n\nTau Robo…",
           "url": "https://x.com/Prompt_ProfitAI/status/2084745440025575439",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -825,13 +775,13 @@
     },
     {
       "id": "l539",
-      "text": "#China\u2019s #Army in 2025: A Mountain of #OpenSource Data\n\nhttps://t.co/AGiEASSIuY\n\nArticle Compilations by Ken Allen \u2014\n\n\u2694\ufe0f   China\u2019s Army in 2025: Sources & Key Issues\n\u2694\ufe0f   Overview File: China\u2019s Army in 2025\n\u2694\ufe0f   English-Language PRC Articles on China\u2019s Army in 2025\n\u2694\ufe0f   Chinese-Language PRC Articles on China\u2019s Army in 2025\n\n[This summary was prepared with AI assistance and vetted by Ken Allen, who contributed key inputs. Unless otherwise specified, \u201cChinese\u201d means \u201cChinese-language.\u201d]\n\nhttps://t",
+      "text": "#China’s #Army in 2025: A Mountain of #OpenSource Data\n\nhttps://t.co/AGiEASSIuY\n\nArticle Compilations by Ken Allen —\n\n⚔️   China’s Army in 2025: Sources & Key Issues\n⚔️   Overview File: China’s Army in 2025\n⚔️   English-Language PRC Articles on China’s Army in 2025\n⚔️   Chinese-Language PRC Articles on China’s Army in 2025\n\n[This summary was prepared with AI assistance and vetted by Ken Allen, who contributed key inputs. Unless otherwise specified, “Chinese” means “Chinese-language.”]\n\nhttps://t",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "#China\u2019s #Army in 2025: A Mountain of #OpenSource Data\n\nhttps://t.co/AGiEASSIuY\n\u2026",
+          "title": "#China’s #Army in 2025: A Mountain of #OpenSource Data\n\nhttps://t.co/AGiEASSIuY\n…",
           "url": "https://x.com/AndrewSErickson/status/2087683384428425517",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -846,13 +796,13 @@
     },
     {
       "id": "l540",
-      "text": "CONNECTICUT\u2019S FIRST AI BARISTA JUST OPENED\n\nTHE COFFEE SHOP IS ALREADY CLOSED\u2014BECAUSE THE ROBOT NEEDS MAINTENANCE\n\nMeet Janice\n\nShe makes lattes, chai, and iced matcha using AI-powered obstacle detection and physical reasoning\n\nThe robot costs $88,000 to buy or starts at $2,500 a month to lease\n\nNo sick days\nNo lunch breaks\nNo salary\nBut there are software fees, repairs, and downtime\nThis is the part of automation nobody puts in the demo:\n\nRobots don\u2019t eliminate operational problems\n\nThey replac",
+      "text": "CONNECTICUT’S FIRST AI BARISTA JUST OPENED\n\nTHE COFFEE SHOP IS ALREADY CLOSED—BECAUSE THE ROBOT NEEDS MAINTENANCE\n\nMeet Janice\n\nShe makes lattes, chai, and iced matcha using AI-powered obstacle detection and physical reasoning\n\nThe robot costs $88,000 to buy or starts at $2,500 a month to lease\n\nNo sick days\nNo lunch breaks\nNo salary\nBut there are software fees, repairs, and downtime\nThis is the part of automation nobody puts in the demo:\n\nRobots don’t eliminate operational problems\n\nThey replac",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "CONNECTICUT\u2019S FIRST AI BARISTA JUST OPENED\n\nTHE COFFEE SHOP IS ALREADY CLOSED\u2014BE\u2026",
+          "title": "CONNECTICUT’S FIRST AI BARISTA JUST OPENED\n\nTHE COFFEE SHOP IS ALREADY CLOSED—BE…",
           "url": "https://x.com/Prompt_ProfitAI/status/2085712526549897616",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -867,13 +817,13 @@
     },
     {
       "id": "l541",
-      "text": "A VIDEO MODEL JUST GOT A BODY\n\nFLUX learned to predict what happens next in a video\n\nMimic Robotics connected it to a robot\n\nNow it\u2019s handling cables, seals, and flexible car parts at Audi\u2014the exact tasks traditional automation struggles with\n\n00:00 \u2014 Multimodal AI enters the physical world\n00:14 \u2014 Audi reveals how it\u2019s testing and deploying FLUX-mimic\n00:25 \u2014 New tasks require just 30 minutes of robot data instead of 30+ hours\n00:40 \u2014 AI models leave the lab and enter the real world\n\nThe next b",
+      "text": "A VIDEO MODEL JUST GOT A BODY\n\nFLUX learned to predict what happens next in a video\n\nMimic Robotics connected it to a robot\n\nNow it’s handling cables, seals, and flexible car parts at Audi—the exact tasks traditional automation struggles with\n\n00:00 — Multimodal AI enters the physical world\n00:14 — Audi reveals how it’s testing and deploying FLUX-mimic\n00:25 — New tasks require just 30 minutes of robot data instead of 30+ hours\n00:40 — AI models leave the lab and enter the real world\n\nThe next b",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A VIDEO MODEL JUST GOT A BODY\n\nFLUX learned to predict what happens next in a vi\u2026",
+          "title": "A VIDEO MODEL JUST GOT A BODY\n\nFLUX learned to predict what happens next in a vi…",
           "url": "https://x.com/Prompt_ProfitAI/status/2085441684523917539",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -888,13 +838,13 @@
     },
     {
       "id": "l542",
-      "text": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the San\u0101tana Question of the Self",
+      "text": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the Sanātana Question of the Self",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the San\u0101tana Questio\u2026",
+          "title": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the Sanātana Questio…",
           "url": "https://x.com/nithinpalal/status/2086874531751489924",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -909,13 +859,13 @@
     },
     {
       "id": "l543",
-      "text": "A FATHER AND SON FROM TEXAS BUILT A DRONE THAT HIT 408 MPH\n\nNo $50M seed round\nNo \u201cAI-powered\u201d landing page\nNo 40-person engineering team\nThey spent two years building four versions of the same idea\u2014each one faster than the last\nTech Twitter talks a lot about moving fast\n\nThese guys took it literally",
+      "text": "A FATHER AND SON FROM TEXAS BUILT A DRONE THAT HIT 408 MPH\n\nNo $50M seed round\nNo “AI-powered” landing page\nNo 40-person engineering team\nThey spent two years building four versions of the same idea—each one faster than the last\nTech Twitter talks a lot about moving fast\n\nThese guys took it literally",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A FATHER AND SON FROM TEXAS BUILT A DRONE THAT HIT 408 MPH\n\nNo $50M seed round\nN\u2026",
+          "title": "A FATHER AND SON FROM TEXAS BUILT A DRONE THAT HIT 408 MPH\n\nNo $50M seed round\nN…",
           "url": "https://x.com/Prompt_ProfitAI/status/2085745879625953781",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -936,7 +886,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "2,000 humanoid robots to be introduced in textile plants for faster, leaner prod\u2026",
+          "title": "2,000 humanoid robots to be introduced in textile plants for faster, leaner prod…",
           "url": "https://x.com/OwenGregorian/status/2082086040689668370",
           "date": "2026-07-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -951,13 +901,13 @@
     },
     {
       "id": "l545",
-      "text": "How AI Is Used in Healthcare: A Simple Guide\n\nArtificial intelligence is already inside your hospital. It is reading your X-rays, transcribing your doctor's notes, predicting your risk of disease, and \u2014 in some cases \u2014 deciding whether your insurance will cover your treatment.\n\nAI in healthcare is not science fiction. It is happening right now, and it affects everyone who ever visits a doctor. In this guide, we will break down how AI is used in medicine today, where it helps, and where it raises",
+      "text": "How AI Is Used in Healthcare: A Simple Guide\n\nArtificial intelligence is already inside your hospital. It is reading your X-rays, transcribing your doctor's notes, predicting your risk of disease, and — in some cases — deciding whether your insurance will cover your treatment.\n\nAI in healthcare is not science fiction. It is happening right now, and it affects everyone who ever visits a doctor. In this guide, we will break down how AI is used in medicine today, where it helps, and where it raises",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "How AI Is Used in Healthcare: A Simple Guide\n\nArtificial intelligence is already\u2026",
+          "title": "How AI Is Used in Healthcare: A Simple Guide\n\nArtificial intelligence is already…",
           "url": "https://x.com/Qubax_Ai/status/2073338738977935741",
           "date": "2026-07-04",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -972,13 +922,13 @@
     },
     {
       "id": "l546",
-      "text": "New evidence details Japanese army's biochemical warfare\n\nThe Exhibition Hall of Evidences of Crime Committed by Unit 731 of the Japanese Imperial Army in Harbin city of northeast China\u2019s Heilongjiang province, has released newly examined evidence documenting atrocities committed during the Chinese People's War of Resistance Against Japanese Aggression (1931-45).\n\nThe evidence consists of registration files for the Imperial Japanese Army's Kwantung Army Chemical Department.\nEstablished in 1939 i",
+      "text": "New evidence details Japanese army's biochemical warfare\n\nThe Exhibition Hall of Evidences of Crime Committed by Unit 731 of the Japanese Imperial Army in Harbin city of northeast China’s Heilongjiang province, has released newly examined evidence documenting atrocities committed during the Chinese People's War of Resistance Against Japanese Aggression (1931-45).\n\nThe evidence consists of registration files for the Imperial Japanese Army's Kwantung Army Chemical Department.\nEstablished in 1939 i",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "New evidence details Japanese army's biochemical warfare\n\nThe Exhibition Hall of\u2026",
+          "title": "New evidence details Japanese army's biochemical warfare\n\nThe Exhibition Hall of…",
           "url": "https://x.com/ChinaMilBugle/status/2074468047344246928",
           "date": "2026-07-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -993,13 +943,13 @@
     },
     {
       "id": "l547",
-      "text": "India\u2019s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Businesses? | Maneesh Dangi\nWhat will create wealth in India over the next 10 years \u2014 and should investors reset their expectations from the stock market?\n\nIn this insightful conversation on The N Show, Neeraj Bajpai sits down with Maneesh Dangi to decode the future of the Indian economy, stock market, AI disruption, businesses and wealth creation.\n\nWhy has India remained a 6\u20137% growth economy despite major reforms and infr\u2026",
+      "text": "India’s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Businesses? | Maneesh Dangi\nWhat will create wealth in India over the next 10 years — and should investors reset their expectations from the stock market?\n\nIn this insightful conversation on The N Show, Neeraj Bajpai sits down with Maneesh Dangi to decode the future of the Indian economy, stock market, AI disruption, businesses and wealth creation.\n\nWhy has India remained a 6–7% growth economy despite major reforms and infr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "India\u2019s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Busines\u2026",
+          "title": "India’s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Busines…",
           "url": "https://www.youtube.com/watch?v=SkHXxrJEVaE",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1014,7 +964,7 @@
     },
     {
       "id": "l448",
-      "text": "Laboratory Technician \u2014 Haymes Paint (Lucas, Victoria, Australia). Posted 3 weeks ago.",
+      "text": "Laboratory Technician — Haymes Paint (Lucas, Victoria, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1035,7 +985,7 @@
     },
     {
       "id": "l449",
-      "text": "HPLC Lab Technician \u2014 ALS (Rydalmere, New South Wales, Australia). Posted 1 week ago.",
+      "text": "HPLC Lab Technician — ALS (Rydalmere, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1056,7 +1006,7 @@
     },
     {
       "id": "l450",
-      "text": "Technician Laboratory (Kwinana) \u2014 Covalent Lithium (Kwinana, Western Australia, Australia). Posted 1 week ago.",
+      "text": "Technician Laboratory (Kwinana) — Covalent Lithium (Kwinana, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1077,7 +1027,7 @@
     },
     {
       "id": "l451",
-      "text": "Laboratory Technician \u2014 ALS (Canning Vale, Western Australia, Australia). Posted 1 week ago.",
+      "text": "Laboratory Technician — ALS (Canning Vale, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1098,7 +1048,7 @@
     },
     {
       "id": "l452",
-      "text": "Laboratory Technician Chemist \u2014 Wood (Longford, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Laboratory Technician Chemist — Wood (Longford, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1119,7 +1069,7 @@
     },
     {
       "id": "l453",
-      "text": "Laboratory Technician \u2014 Veolia | Australia & New Zealand (Kurnell, New South Wales, Australia). Posted 4 weeks ago.",
+      "text": "Laboratory Technician — Veolia | Australia & New Zealand (Kurnell, New South Wales, Australia). Posted 4 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1140,7 +1090,7 @@
     },
     {
       "id": "l454",
-      "text": "Laboratory Technician \u2014 BCI Minerals (Mardie, Western Australia, Australia). Posted 1 week ago.",
+      "text": "Laboratory Technician — BCI Minerals (Mardie, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1161,7 +1111,7 @@
     },
     {
       "id": "l455",
-      "text": "Laboratory Technician \u2014 Mackay Regional Council (Mackay, Queensland, Australia). Posted 1 week ago.",
+      "text": "Laboratory Technician — Mackay Regional Council (Mackay, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1182,7 +1132,7 @@
     },
     {
       "id": "l456",
-      "text": "Laboratory Technician - Wet Chem \u2014 Bureau Veritas (Malaga, Western Australia, Australia). Posted 2 weeks ago.",
+      "text": "Laboratory Technician - Wet Chem — Bureau Veritas (Malaga, Western Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1203,7 +1153,7 @@
     },
     {
       "id": "l457",
-      "text": "Laboratory Technician \u2014 Eurofins (Dandenong South, Victoria, Australia). Posted 1 month ago.",
+      "text": "Laboratory Technician — Eurofins (Dandenong South, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1224,13 +1174,13 @@
     },
     {
       "id": "l558",
-      "text": "content(blog): drain-fly/fruit-fly enzyme drain cleaner buyer's guide draft\nResearched comparison-type blog post for the hub on choosing a drain\ntreatment for fruit flies and drain flies (SWFL angle). Authored to the\nautonomous blog protocol: schema-valid frontmatter, ComparisonTable +\nHonestRejection (comparison post_type), FAQ section (FAQPage schema),\ncategory product co\n<!-- railway-bot-comment-version=2 -->\n\n<!-- railway-project-id=\"5a674c8a-d443-4126-8bfd-3d4775464448\" railway-project-name\u2026",
+      "text": "content(blog): drain-fly/fruit-fly enzyme drain cleaner buyer's guide draft\nResearched comparison-type blog post for the hub on choosing a drain\ntreatment for fruit flies and drain flies (SWFL angle). Authored to the\nautonomous blog protocol: schema-valid frontmatter, ComparisonTable +\nHonestRejection (comparison post_type), FAQ section (FAQPage schema),\ncategory product co\n<!-- railway-bot-comment-version=2 -->\n\n<!-- railway-project-id=\"5a674c8a-d443-4126-8bfd-3d4775464448\" railway-project-name…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "content(blog): drain-fly/fruit-fly enzyme drain cleaner buyer's guide draft\nRese\u2026",
+          "title": "content(blog): drain-fly/fruit-fly enzyme drain cleaner buyer's guide draft\nRese…",
           "url": "https://github.com/wavespestcontrolfl/waves-customer-portal/pull/3239",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1245,13 +1195,13 @@
     },
     {
       "id": "l559",
-      "text": "fix(social): GBP posts never use AI-generated imagery\n## What\n\nCode-side fix for the third KNOWN GAP documented in #3050: the owner rule is **no AI-generated imagery on GBP, ever**, but two publish paths still attached AI images.\n\n1. **`publishToAll` (`social-media.js`)** \u2014 in manual (`noAiImage: false`) runs, the GBP post loop fell back to the shared\n@codex <!-- railway-bot-comment-version=2 -->\n\n<!-- railway-project-id=\"5a674c8a-d443-4126-8bfd-3d4775464448\" railway-project-name=\"waves-pest-con\u2026",
+      "text": "fix(social): GBP posts never use AI-generated imagery\n## What\n\nCode-side fix for the third KNOWN GAP documented in #3050: the owner rule is **no AI-generated imagery on GBP, ever**, but two publish paths still attached AI images.\n\n1. **`publishToAll` (`social-media.js`)** — in manual (`noAiImage: false`) runs, the GBP post loop fell back to the shared\n@codex <!-- railway-bot-comment-version=2 -->\n\n<!-- railway-project-id=\"5a674c8a-d443-4126-8bfd-3d4775464448\" railway-project-name=\"waves-pest-con…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "fix(social): GBP posts never use AI-generated imagery\n## What\n\nCode-side fix for\u2026",
+          "title": "fix(social): GBP posts never use AI-generated imagery\n## What\n\nCode-side fix for…",
           "url": "https://github.com/wavespestcontrolfl/waves-customer-portal/pull/3059",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1266,13 +1216,13 @@
     },
     {
       "id": "l560",
-      "text": "feat(sockets): dispatch:alert \u2014 fourth event channel\n## Scope\n\nLast of the four phase-1 event channels. Adds the action-queue right-pane data model (`dispatch_alerts` table) + the channel that broadcasts new alerts to `dispatch:admins`.\n\n## What's structurally different about this channel\n\nThe previous three channels relayed external writes:\n- `dispat\n@codex review\n\n---\n_Generated by [Claude Code](https://claude.ai/code)_ Codex Review: Didn't find any major issues. Already looking forward to the\u2026",
+      "text": "feat(sockets): dispatch:alert — fourth event channel\n## Scope\n\nLast of the four phase-1 event channels. Adds the action-queue right-pane data model (`dispatch_alerts` table) + the channel that broadcasts new alerts to `dispatch:admins`.\n\n## What's structurally different about this channel\n\nThe previous three channels relayed external writes:\n- `dispat\n@codex review\n\n---\n_Generated by [Claude Code](https://claude.ai/code)_ Codex Review: Didn't find any major issues. Already looking forward to the…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(sockets): dispatch:alert \u2014 fourth event channel\n## Scope\n\nLast of the four \u2026",
+          "title": "feat(sockets): dispatch:alert — fourth event channel\n## Scope\n\nLast of the four …",
           "url": "https://github.com/wavespestcontrolfl/waves-customer-portal/pull/293",
           "date": "2026-04-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1287,13 +1237,13 @@
     },
     {
       "id": "l561",
-      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment\u2014ranging from consumer earbuds to professional line arrays and covert surveillance g\u2026",
+      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment—ranging from consumer earbuds to professional line arrays and covert surveillance g…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su\u2026",
+          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su…",
           "url": "https://github.com/Transparency-X/Sound-Equipment-Lifespace/issues/1",
           "date": "2026-05-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1308,13 +1258,13 @@
     },
     {
       "id": "l562",
-      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En\u2026",
+      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment\u2026",
+          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment…",
           "url": "https://www.reddit.com/r/newbrunswickcanada/comments/1vkm48r/lorneville_ai_data_centre_update_eia_technical/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1329,13 +1279,13 @@
     },
     {
       "id": "l563",
-      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En\u2026",
+      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment\u2026",
+          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment…",
           "url": "https://www.reddit.com/r/SaintJohnNB/comments/1vkm7tq/lorneville_ai_data_centre_update_eia_technical/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1350,13 +1300,13 @@
     },
     {
       "id": "l564",
-      "text": "AI Doom Is Not Evidence for Socialism\nI&#39;m getting tired of seeing AI used here as another soapbox for: AI is going to eliminate everyone&#39;s jobs, therefore capitalism is doomed. Look at my flair. Criticism of capitalism is not proof of socialism. And speculative AI unemployment certainly isn&#39;t. First, if we&#39;re going to talk about AI doom , unemployment is nowhere near the worst scenario being discussed by the people who actually study AI risk. The 2026 International AI Safety Repo\u2026",
+      "text": "AI Doom Is Not Evidence for Socialism\nI&#39;m getting tired of seeing AI used here as another soapbox for: AI is going to eliminate everyone&#39;s jobs, therefore capitalism is doomed. Look at my flair. Criticism of capitalism is not proof of socialism. And speculative AI unemployment certainly isn&#39;t. First, if we&#39;re going to talk about AI doom , unemployment is nowhere near the worst scenario being discussed by the people who actually study AI risk. The 2026 International AI Safety Repo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI Doom Is Not Evidence for Socialism\nI&#39;m getting tired of seeing AI used he\u2026",
+          "title": "AI Doom Is Not Evidence for Socialism\nI&#39;m getting tired of seeing AI used he…",
           "url": "https://www.reddit.com/r/CapitalismVSocialism/comments/1vpeaxi/ai_doom_is_not_evidence_for_socialism/",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1371,13 +1321,13 @@
     },
     {
       "id": "l565",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac\u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and \u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and …",
           "url": "https://www.reddit.com/r/accelerate/comments/1vlw4un/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1392,13 +1342,13 @@
     },
     {
       "id": "l566",
-      "text": "India\u2019s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Businesses? | Maneesh Dangi\nWhat will create wealth in India over the next 10 years \u2014 and should investors reset their expectations from the stock market?\n\nIn this insightful conversation on The N Show, Neeraj Bajpai sits down with Maneesh Dangi to decode the future of the Indian economy, stock market, AI disruption, businesses and wealth creation.\n\nWhy has India remained a 6\u20137% growth economy despite major reforms and infr\u2026",
+      "text": "India’s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Businesses? | Maneesh Dangi\nWhat will create wealth in India over the next 10 years — and should investors reset their expectations from the stock market?\n\nIn this insightful conversation on The N Show, Neeraj Bajpai sits down with Maneesh Dangi to decode the future of the Indian economy, stock market, AI disruption, businesses and wealth creation.\n\nWhy has India remained a 6–7% growth economy despite major reforms and infr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "India\u2019s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Busines\u2026",
+          "title": "India’s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Busines…",
           "url": "https://www.youtube.com/watch?v=SkHXxrJEVaE",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1491,6 +1441,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

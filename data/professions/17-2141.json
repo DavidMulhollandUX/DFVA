@@ -21,64 +21,14 @@
   ],
   "claims": [
     {
-      "id": "17-2141-01",
-      "text": "National peak professional bodies and statutory regulators governing Mechanical Engineers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Mechanical Engineers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Mechanical Engineers",
-          "url": "https://www.psc.gov.au/standards/17-2141",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Mechanical Engineers"
-        }
-      ],
-      "scope": "Australian practitioners in Mechanical Engineers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "17-2141-02",
-      "text": "Automation of routine transactional and analytical tasks in Mechanical Engineers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Mechanical Engineers",
-          "url": "https://www.jobsandskills.gov.au/research/17-2141",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Mechanical Engineers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Mechanical Engineers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "\ud83d\udcca AI CLI Tools Digest 2026-08-23\n# AI CLI Tools Community Digest 2026-08-23\n\n> Generated: 2026-08-22 22:21 UTC | Tools covered: 9\n\n- [Claude Code](https://github\u200b.com/anthropics/claude-code)\n- [OpenAI Codex](https://github\u200b.com/openai/codex)\n- [Gemini CLI](https://github\u200b.com/google-gemini/gemini-cli)\n- [GitHub Copilot CLI](https:/",
+      "text": "📊 AI CLI Tools Digest 2026-08-23\n# AI CLI Tools Community Digest 2026-08-23\n\n> Generated: 2026-08-22 22:21 UTC | Tools covered: 9\n\n- [Claude Code](https://github​.com/anthropics/claude-code)\n- [OpenAI Codex](https://github​.com/openai/codex)\n- [Gemini CLI](https://github​.com/google-gemini/gemini-cli)\n- [GitHub Copilot CLI](https:/",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udcca AI CLI Tools Digest 2026-08-23\n# AI CLI Tools Community Digest 2026-08-23\n\n> G\u2026",
+          "title": "📊 AI CLI Tools Digest 2026-08-23\n# AI CLI Tools Community Digest 2026-08-23\n\n> G…",
           "url": "https://github.com/kakapez/agents-radar/issues/1354",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -99,7 +49,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(governance): the LangWatch AI Governance Platform\n# feat(governance): the L\u2026",
+          "title": "feat(governance): the LangWatch AI Governance Platform\n# feat(governance): the L…",
           "url": "https://github.com/langwatch/langwatch/pull/3524",
           "date": "2026-04-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -114,13 +64,13 @@
     },
     {
       "id": "l505",
-      "text": "[codex] Add Crema wedding trip MVP\n## **User description**\n## Summary\n- Adds a Vite + React MVP for the Crema wedding trip guide.\n- Structures trip content into local data modules for overview, itinerary, food, restaurants, day trips, transport, wedding day, and practical info.\n- Adds localStorage-backed saved state for food checklis\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/cod\u2026",
+      "text": "[codex] Add Crema wedding trip MVP\n## **User description**\n## Summary\n- Adds a Vite + React MVP for the Crema wedding trip guide.\n- Structures trip content into local data modules for overview, itinerary, food, restaurants, day trips, transport, wedding day, and practical info.\n- Adds localStorage-backed saved state for food checklis\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/cod…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[codex] Add Crema wedding trip MVP\n## **User description**\n## Summary\n- Adds a V\u2026",
+          "title": "[codex] Add Crema wedding trip MVP\n## **User description**\n## Summary\n- Adds a V…",
           "url": "https://github.com/timnik82/crema-trip/pull/1",
           "date": "2026-06-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -141,7 +91,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Flet migration\nresolves #49\n\ncoolio flet\n\n<!-- This is an auto-generated comment\u2026",
+          "title": "Flet migration\nresolves #49\n\ncoolio flet\n\n<!-- This is an auto-generated comment…",
           "url": "https://github.com/silent-this-sonder/sb3-bulk-downloader/pull/58",
           "date": "2026-04-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -156,13 +106,13 @@
     },
     {
       "id": "l507",
-      "text": "feat(governance): the LangWatch AI Governance Platform\n# feat(governance): the LangWatch AI Governance Platform\n\n> \"Your engineers are running AI through Workato Genies, Claude for Work, Copilot\n> Studio agents, Cursor, Claude Code, and a dozen homegrown agents. You have no\n> idea who's doing what, what it's costing, or which agent just did 1,000 action\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storag\u2026",
+      "text": "feat(governance): the LangWatch AI Governance Platform\n# feat(governance): the LangWatch AI Governance Platform\n\n> \"Your engineers are running AI through Workato Genies, Claude for Work, Copilot\n> Studio agents, Cursor, Claude Code, and a dozen homegrown agents. You have no\n> idea who's doing what, what it's costing, or which agent just did 1,000 action\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storag…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(governance): the LangWatch AI Governance Platform\n# feat(governance): the L\u2026",
+          "title": "feat(governance): the LangWatch AI Governance Platform\n# feat(governance): the L…",
           "url": "https://github.com/langwatch/langwatch/pull/3524",
           "date": "2026-04-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -183,7 +133,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Merge epic integration into main\n## Summary\n\nThis PR promotes the accumulated `e\u2026",
+          "title": "Merge epic integration into main\n## Summary\n\nThis PR promotes the accumulated `e…",
           "url": "https://github.com/Asymmetric-al/core/pull/223",
           "date": "2026-05-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -204,7 +154,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Add Inngest agent skills and repo tooling updates\n## Summary\n- Added the officia\u2026",
+          "title": "Add Inngest agent skills and repo tooling updates\n## Summary\n- Added the officia…",
           "url": "https://github.com/Asymmetric-al/core/pull/282",
           "date": "2026-06-03",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -219,13 +169,13 @@
     },
     {
       "id": "l510",
-      "text": "Research: Effect-ts deep-modules experiment (lib/business-lookup, lib/fx)\n# Research: Effect-ts deep-modules experiment\n\n## Why\n\nTwo recent observations:\n\n- `lib/business-lookup/` and `lib/fx/` already produce a \"deep-module dividend\" \u2014 adding GEMI in #288 was one new file because `source.ts` absorbed the change; same shape on the FX side in #273.\n- AI-agent friction in P",
+      "text": "Research: Effect-ts deep-modules experiment (lib/business-lookup, lib/fx)\n# Research: Effect-ts deep-modules experiment\n\n## Why\n\nTwo recent observations:\n\n- `lib/business-lookup/` and `lib/fx/` already produce a \"deep-module dividend\" — adding GEMI in #288 was one new file because `source.ts` absorbed the change; same shape on the FX side in #273.\n- AI-agent friction in P",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Research: Effect-ts deep-modules experiment (lib/business-lookup, lib/fx)\n# Rese\u2026",
+          "title": "Research: Effect-ts deep-modules experiment (lib/business-lookup, lib/fx)\n# Rese…",
           "url": "https://github.com/Frontz-Technologies/opentab/issues/290",
           "date": "2026-05-03",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -240,13 +190,13 @@
     },
     {
       "id": "l511",
-      "text": "\ud83c\udf10 Global Tech Briefing - 2026-03-03\n# \ud83c\udf10 Global Tech Intelligence Briefing - 2026-03-03\n**Date:** 2026-03-03\n**Generated At:** 08:22\n**Data Sources:** Hacker News, GitHub Trending, ArXiv\n\n---\n\n## \ud83d\udcf0 Hacker News (Top Stories)\n### 1. [Meta\u2019s AI smart glasses and data privacy concerns](https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and",
+      "text": "🌐 Global Tech Briefing - 2026-03-03\n# 🌐 Global Tech Intelligence Briefing - 2026-03-03\n**Date:** 2026-03-03\n**Generated At:** 08:22\n**Data Sources:** Hacker News, GitHub Trending, ArXiv\n\n---\n\n## 📰 Hacker News (Top Stories)\n### 1. [Meta’s AI smart glasses and data privacy concerns](https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83c\udf10 Global Tech Briefing - 2026-03-03\n# \ud83c\udf10 Global Tech Intelligence Briefing - 2026\u2026",
+          "title": "🌐 Global Tech Briefing - 2026-03-03\n# 🌐 Global Tech Intelligence Briefing - 2026…",
           "url": "https://github.com/AtomChen0425/Global_Trends/issues/15",
           "date": "2026-03-03",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -303,13 +253,13 @@
     },
     {
       "id": "l514",
-      "text": "AI Engineer Notebooks \u2013 free, framework-free RAG/agents/evals on Colab",
+      "text": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI Engineer Notebooks \u2013 free, framework-free RAG/agents/evals on Colab",
+          "title": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
           "url": "https://github.com/calmrocks/ai-engineer-notebooks",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -471,13 +421,13 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -492,13 +442,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -618,13 +568,13 @@
     },
     {
       "id": "l529",
-      "text": "Skyportal SRE \u2013 an open-source AI infrastructure engineer",
+      "text": "Skyportal SRE – an open-source AI infrastructure engineer",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Skyportal SRE \u2013 an open-source AI infrastructure engineer",
+          "title": "Skyportal SRE – an open-source AI infrastructure engineer",
           "url": "https://github.com/SkyportalAi/skyportalai",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -660,13 +610,13 @@
     },
     {
       "id": "l531",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -723,13 +673,13 @@
     },
     {
       "id": "l534",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -744,13 +694,13 @@
     },
     {
       "id": "l535",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -765,13 +715,13 @@
     },
     {
       "id": "l536",
-      "text": "If AI breaks Indian IT, Gujarat is one of the few states that will be least impacted. Sharing my views.\nThe setup Nasscom puts Indian tech revenue at $315 billion for FY26, growing 6.1%, with exports around $246 billion and a workforce touching 6 million. Sounds fine until you look at what is inside that number. Net job addition of about 135,000, against a sector that used to add three or four times that. TCS announced roughly 12,200 cuts this financial year, mostly middle and senior management,\u2026",
+      "text": "If AI breaks Indian IT, Gujarat is one of the few states that will be least impacted. Sharing my views.\nThe setup Nasscom puts Indian tech revenue at $315 billion for FY26, growing 6.1%, with exports around $246 billion and a workforce touching 6 million. Sounds fine until you look at what is inside that number. Net job addition of about 135,000, against a sector that used to add three or four times that. TCS announced roughly 12,200 cuts this financial year, mostly middle and senior management,…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "If AI breaks Indian IT, Gujarat is one of the few states that will be least impa\u2026",
+          "title": "If AI breaks Indian IT, Gujarat is one of the few states that will be least impa…",
           "url": "https://www.reddit.com/r/gujarat/comments/1ve8711/if_ai_breaks_indian_it_gujarat_is_one_of_the_few/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -786,13 +736,13 @@
     },
     {
       "id": "l537",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult…",
           "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -834,7 +784,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Michael Truell and three MIT friends thought AI coding was too crowded. In Augus\u2026",
+          "title": "Michael Truell and three MIT friends thought AI coding was too crowded. In Augus…",
           "url": "https://x.com/T0vi7/status/2093439838615957560",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -855,7 +805,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI is compressing three days of work into half a day for me.\n\n@ModelML_ is insan\u2026",
+          "title": "AI is compressing three days of work into half a day for me.\n\n@ModelML_ is insan…",
           "url": "https://x.com/rickyho_1989/status/2092905855750664457",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -870,13 +820,13 @@
     },
     {
       "id": "l541",
-      "text": "At AI Agent Builders Night in SF last Thursday, our CPO @GaoClark spoke about what AI-First actually means in practice \u2014 and it's not what most companies are doing right now.\n\n\"We shouldn't just add AI tools to our existing workflows but actually rebuild them around the abilities of AI. 99% of our production code is written by AI. We deploy 3 to 8 times a day with a team of 25 people.\"\n\nThere's a reason Forward Deployed Engineers and AI Transformation roles are the hottest positions of 2026. Com",
+      "text": "At AI Agent Builders Night in SF last Thursday, our CPO @GaoClark spoke about what AI-First actually means in practice — and it's not what most companies are doing right now.\n\n\"We shouldn't just add AI tools to our existing workflows but actually rebuild them around the abilities of AI. 99% of our production code is written by AI. We deploy 3 to 8 times a day with a team of 25 people.\"\n\nThere's a reason Forward Deployed Engineers and AI Transformation roles are the hottest positions of 2026. Com",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "At AI Agent Builders Night in SF last Thursday, our CPO @GaoClark spoke about wh\u2026",
+          "title": "At AI Agent Builders Night in SF last Thursday, our CPO @GaoClark spoke about wh…",
           "url": "https://x.com/CreaoAI/status/2055098659197669683",
           "date": "2026-05-15",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -897,7 +847,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "This may be one of the most important charts for understanding where enterprise \u2026",
+          "title": "This may be one of the most important charts for understanding where enterprise …",
           "url": "https://x.com/rickyho_1989/status/2091690491461132689",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -912,13 +862,13 @@
     },
     {
       "id": "l543",
-      "text": "Psychohistory for the Age of\u00a0AI",
+      "text": "Psychohistory for the Age of AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Psychohistory for the Age of\u00a0AI",
+          "title": "Psychohistory for the Age of AI",
           "url": "https://x.com/sebastian_rtj/status/2092335283492544791",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -996,13 +946,13 @@
     },
     {
       "id": "l547",
-      "text": "The whole Wall Street is upgrading $NVDA. Up 7% pre-market. This shall spark new rally into the whole AI basket. Let the profit run baby \ud83d\ude80",
+      "text": "The whole Wall Street is upgrading $NVDA. Up 7% pre-market. This shall spark new rally into the whole AI basket. Let the profit run baby 🚀",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The whole Wall Street is upgrading $NVDA. Up 7% pre-market. This shall spark new\u2026",
+          "title": "The whole Wall Street is upgrading $NVDA. Up 7% pre-market. This shall spark new…",
           "url": "https://x.com/rickyho_1989/status/2092932460510330942",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1017,13 +967,13 @@
     },
     {
       "id": "l548",
-      "text": "French firm\u2019s new industrial humanoid robot learns faster through human demonstrations | Jijo Malayil, Interesting Engineering\n\nThe humanoid combines a soft outer shell with exposed joints, prioritizing function while remaining approachable and distinct.\n\nFrench robotics firm UMA has unveiled the design of its first AI-powered humanoid robot at the Machina Summit in Paris.\n\nThe humanoid features human-scale proportions, a neutral visor instead of a face, and visible mechanical joints. The compan",
+      "text": "French firm’s new industrial humanoid robot learns faster through human demonstrations | Jijo Malayil, Interesting Engineering\n\nThe humanoid combines a soft outer shell with exposed joints, prioritizing function while remaining approachable and distinct.\n\nFrench robotics firm UMA has unveiled the design of its first AI-powered humanoid robot at the Machina Summit in Paris.\n\nThe humanoid features human-scale proportions, a neutral visor instead of a face, and visible mechanical joints. The compan",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "French firm\u2019s new industrial humanoid robot learns faster through human demonstr\u2026",
+          "title": "French firm’s new industrial humanoid robot learns faster through human demonstr…",
           "url": "https://x.com/OwenGregorian/status/2075180657039249488",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1038,13 +988,13 @@
     },
     {
       "id": "l549",
-      "text": "People keep asking me what an \"AI-native company\" actually means.\n\nAt CREAO it's simple: agents run the coordination \u2014 status tracking, scheduling, hand-offs \u2014 so our team spends its time on judgment and design, not busywork.",
+      "text": "People keep asking me what an \"AI-native company\" actually means.\n\nAt CREAO it's simple: agents run the coordination — status tracking, scheduling, hand-offs — so our team spends its time on judgment and design, not busywork.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "People keep asking me what an \"AI-native company\" actually means.\n\nAt CREAO it's\u2026",
+          "title": "People keep asking me what an \"AI-native company\" actually means.\n\nAt CREAO it's…",
           "url": "https://x.com/GaoClark/status/2080563000373875019",
           "date": "2026-07-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1065,7 +1015,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Been running 5 Agents on CREAO for 8 weeks now and Gao's point hits, If you trie\u2026",
+          "title": "Been running 5 Agents on CREAO for 8 weeks now and Gao's point hits, If you trie…",
           "url": "https://x.com/Sonofpeace0001/status/2055103447544803649",
           "date": "2026-05-15",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1101,13 +1051,13 @@
     },
     {
       "id": "l552",
-      "text": "How Anthropic Engineers ACTUALLY Prompt Claude Code\nGet my free 5-day AI playbook (what I used to build a $25M+ startup): https://the-ai-playbook.com/4rules\n\nIn this video, I break down 4 rules I uncovered from studying how Anthropic's own engineers ACTUALLY prompt Claude Code. Almost everyone is doing it wrong, and once you see these rules, you can't unsee them. No technical experience required, and they apply to any project you're working on.\n\nTimestamps:\n(0:00) - How Anthropic Engineers ACTUA\u2026",
+      "text": "How Anthropic Engineers ACTUALLY Prompt Claude Code\nGet my free 5-day AI playbook (what I used to build a $25M+ startup): https://the-ai-playbook.com/4rules\n\nIn this video, I break down 4 rules I uncovered from studying how Anthropic's own engineers ACTUALLY prompt Claude Code. Almost everyone is doing it wrong, and once you see these rules, you can't unsee them. No technical experience required, and they apply to any project you're working on.\n\nTimestamps:\n(0:00) - How Anthropic Engineers ACTUA…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How Anthropic Engineers ACTUALLY Prompt Claude Code\nGet my free 5-day AI playboo\u2026",
+          "title": "How Anthropic Engineers ACTUALLY Prompt Claude Code\nGet my free 5-day AI playboo…",
           "url": "https://www.youtube.com/watch?v=qOvc9IUKEIc",
           "date": "2026-05-15",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1122,13 +1072,13 @@
     },
     {
       "id": "l553",
-      "text": "How to Become an AI Engineer FAST (2026) | AI Engineering Roadmap\nTop pick AI engineer courses:\n\nAI Engineer for Developers Career Track \u2192 https://datacamp.pxf.io/gRRgRB\nAI Engineer for Data scientists Career Track \u2192 https://datacamp.pxf.io/0GGAGV\nAI Fundamentals track \u2192 https://datacamp.pxf.io/bkk2kx\n\nIn this video, I talk about how to become an AI engineer very fast and the exact five-level AI engineer roadmap you need to ensure you land that job!\n\n\ud83d\ude80 JOIN MY TECH COMMUNITY: SWE LAUNCHPAD\nInsid\u2026",
+      "text": "How to Become an AI Engineer FAST (2026) | AI Engineering Roadmap\nTop pick AI engineer courses:\n\nAI Engineer for Developers Career Track → https://datacamp.pxf.io/gRRgRB\nAI Engineer for Data scientists Career Track → https://datacamp.pxf.io/0GGAGV\nAI Fundamentals track → https://datacamp.pxf.io/bkk2kx\n\nIn this video, I talk about how to become an AI engineer very fast and the exact five-level AI engineer roadmap you need to ensure you land that job!\n\n🚀 JOIN MY TECH COMMUNITY: SWE LAUNCHPAD\nInsid…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How to Become an AI Engineer FAST (2026) | AI Engineering Roadmap\nTop pick AI en\u2026",
+          "title": "How to Become an AI Engineer FAST (2026) | AI Engineering Roadmap\nTop pick AI en…",
           "url": "https://www.youtube.com/watch?v=aAItDrJ8-rE",
           "date": "2026-03-30",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1143,13 +1093,13 @@
     },
     {
       "id": "l554",
-      "text": "\"Complete Nonsense\u2026\": NVIDIA's Jensen Huang Explains Why AI Won't Steal Software Engineering Jobs\nNVIDIA CEO Jensen Huang has dismissed fears of AI replacing programmers as \"complete nonsense.\" Speaking on the arrival of \"Agentic AI\"- AI that acts as autonomous assistants. Huang revealed mind-blowing GitHub data from early 2026 showing that software code commits have nearly tripled. He explained that instead of cutting jobs, AI is transforming $3 trillion in developer salaries into an astonishin\u2026",
+      "text": "\"Complete Nonsense…\": NVIDIA's Jensen Huang Explains Why AI Won't Steal Software Engineering Jobs\nNVIDIA CEO Jensen Huang has dismissed fears of AI replacing programmers as \"complete nonsense.\" Speaking on the arrival of \"Agentic AI\"- AI that acts as autonomous assistants. Huang revealed mind-blowing GitHub data from early 2026 showing that software code commits have nearly tripled. He explained that instead of cutting jobs, AI is transforming $3 trillion in developer salaries into an astonishin…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "\"Complete Nonsense\u2026\": NVIDIA's Jensen Huang Explains Why AI Won't Steal Software\u2026",
+          "title": "\"Complete Nonsense…\": NVIDIA's Jensen Huang Explains Why AI Won't Steal Software…",
           "url": "https://www.youtube.com/watch?v=9Gvsk79rHF4",
           "date": "2026-06-01",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1164,13 +1114,13 @@
     },
     {
       "id": "l555",
-      "text": "Claude just got another superpower...\nRun any code on Google\u2019s world-class infrastructure - https://cloud.run. Get 2 million free requests per month\n\nClaude Design could be Anthropic's most disruptive tool since Claude Code. But can their new Opus 4.7 powered platform really turn your half-baked Figma wireframe into a production ready UI? Let's run it.\n\n#coding #programming\n\n\ud83d\udd16 Topics Covered\n- What is Claude Design\n- Claude Design vs Figma vs Adobe\n- Claude Design demo\n\nWant more Fireship?\n\n\ud83d\uddde\ufe0f N\u2026",
+      "text": "Claude just got another superpower...\nRun any code on Google’s world-class infrastructure - https://cloud.run. Get 2 million free requests per month\n\nClaude Design could be Anthropic's most disruptive tool since Claude Code. But can their new Opus 4.7 powered platform really turn your half-baked Figma wireframe into a production ready UI? Let's run it.\n\n#coding #programming\n\n🔖 Topics Covered\n- What is Claude Design\n- Claude Design vs Figma vs Adobe\n- Claude Design demo\n\nWant more Fireship?\n\n🗞️ N…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Claude just got another superpower...\nRun any code on Google\u2019s world-class infra\u2026",
+          "title": "Claude just got another superpower...\nRun any code on Google’s world-class infra…",
           "url": "https://www.youtube.com/watch?v=jeA-KBv0b68",
           "date": "2026-04-21",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1185,13 +1135,13 @@
     },
     {
       "id": "l556",
-      "text": "Will AI Replace Mechanical Engineers?\nWill AI in mechanical engineering actually replace design roles? Learn why AI adoption in physical engineering differs from software.\n\nThis breakdown analyzes the current state of artificial intelligence within the mechanical engineering sector. We compare how AI capabilities function in software engineering versus the physical design space, highlighting why strategic limitations persist in hardware development. Whether you are a student or a professional en\u2026",
+      "text": "Will AI Replace Mechanical Engineers?\nWill AI in mechanical engineering actually replace design roles? Learn why AI adoption in physical engineering differs from software.\n\nThis breakdown analyzes the current state of artificial intelligence within the mechanical engineering sector. We compare how AI capabilities function in software engineering versus the physical design space, highlighting why strategic limitations persist in hardware development. Whether you are a student or a professional en…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Will AI Replace Mechanical Engineers?\nWill AI in mechanical engineering actually\u2026",
+          "title": "Will AI Replace Mechanical Engineers?\nWill AI in mechanical engineering actually…",
           "url": "https://www.youtube.com/watch?v=SM45xLbIneo",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1206,7 +1156,7 @@
     },
     {
       "id": "l457",
-      "text": "Mechanical Engineer \u2014 Amentum (Alice Springs, Northern Territory, Australia). Posted 1 week ago.",
+      "text": "Mechanical Engineer — Amentum (Alice Springs, Northern Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1227,7 +1177,7 @@
     },
     {
       "id": "l458",
-      "text": "Mechanical Engineer \u2014 Sedgman Prudentia (Adelaide, South Australia, Australia). Posted 5 days ago.",
+      "text": "Mechanical Engineer — Sedgman Prudentia (Adelaide, South Australia, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1248,7 +1198,7 @@
     },
     {
       "id": "l459",
-      "text": "Mechanical Engineer \u2014 Dreamworld and SkyPoint (Coomera, Queensland, Australia). Posted 1 week ago.",
+      "text": "Mechanical Engineer — Dreamworld and SkyPoint (Coomera, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1269,7 +1219,7 @@
     },
     {
       "id": "l460",
-      "text": "Mechanical Engineer \u2014 Ceejay Engineering (Welshpool, Western Australia, Australia). Posted 2 months ago.",
+      "text": "Mechanical Engineer — Ceejay Engineering (Welshpool, Western Australia, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1290,7 +1240,7 @@
     },
     {
       "id": "l461",
-      "text": "Mechanical Engineer \u2014 Raytheon Australia (Darwin, Northern Territory, Australia). Posted 1 week ago.",
+      "text": "Mechanical Engineer — Raytheon Australia (Darwin, Northern Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1311,7 +1261,7 @@
     },
     {
       "id": "l462",
-      "text": "Mechanical Engineer \u2014 Lycopodium (Perth, Western Australia, Australia). Posted 1 month ago.",
+      "text": "Mechanical Engineer — Lycopodium (Perth, Western Australia, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1332,7 +1282,7 @@
     },
     {
       "id": "l463",
-      "text": "Production Engineer \u2014 BAE Systems Australia (Osborne, South Australia, Australia). Posted 1 day ago.",
+      "text": "Production Engineer — BAE Systems Australia (Osborne, South Australia, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1353,7 +1303,7 @@
     },
     {
       "id": "l464",
-      "text": "Mechanical Project Engineer \u2014 Firmus Technologies (Launceston, Tasmania, Australia). Posted 5 months ago.",
+      "text": "Mechanical Project Engineer — Firmus Technologies (Launceston, Tasmania, Australia). Posted 5 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1374,7 +1324,7 @@
     },
     {
       "id": "l465",
-      "text": "Mechanical Engineer \u2014 Aurecon (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Mechanical Engineer — Aurecon (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1395,7 +1345,7 @@
     },
     {
       "id": "l466",
-      "text": "Plant And Equipment Mechanical Engineer \u2014 Lincoln Electric (Malaga, Western Australia, Australia). Posted 1 month ago.",
+      "text": "Plant And Equipment Mechanical Engineer — Lincoln Electric (Malaga, Western Australia, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1416,13 +1366,13 @@
     },
     {
       "id": "l567",
-      "text": "[codex] Add Crema wedding trip MVP\n## **User description**\n## Summary\n- Adds a Vite + React MVP for the Crema wedding trip guide.\n- Structures trip content into local data modules for overview, itinerary, food, restaurants, day trips, transport, wedding day, and practical info.\n- Adds localStorage-backed saved state for food checklis\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/cod\u2026",
+      "text": "[codex] Add Crema wedding trip MVP\n## **User description**\n## Summary\n- Adds a Vite + React MVP for the Crema wedding trip guide.\n- Structures trip content into local data modules for overview, itinerary, food, restaurants, day trips, transport, wedding day, and practical info.\n- Adds localStorage-backed saved state for food checklis\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/cod…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[codex] Add Crema wedding trip MVP\n## **User description**\n## Summary\n- Adds a V\u2026",
+          "title": "[codex] Add Crema wedding trip MVP\n## **User description**\n## Summary\n- Adds a V…",
           "url": "https://github.com/timnik82/crema-trip/pull/1",
           "date": "2026-06-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1437,13 +1387,13 @@
     },
     {
       "id": "l568",
-      "text": "feat(governance): the LangWatch AI Governance Platform\n# feat(governance): the LangWatch AI Governance Platform\n\n> \"Your engineers are running AI through Workato Genies, Claude for Work, Copilot\n> Studio agents, Cursor, Claude Code, and a dozen homegrown agents. You have no\n> idea who's doing what, what it's costing, or which agent just did 1,000 action\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storag\u2026",
+      "text": "feat(governance): the LangWatch AI Governance Platform\n# feat(governance): the LangWatch AI Governance Platform\n\n> \"Your engineers are running AI through Workato Genies, Claude for Work, Copilot\n> Studio agents, Cursor, Claude Code, and a dozen homegrown agents. You have no\n> idea who's doing what, what it's costing, or which agent just did 1,000 action\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storag…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(governance): the LangWatch AI Governance Platform\n# feat(governance): the L\u2026",
+          "title": "feat(governance): the LangWatch AI Governance Platform\n# feat(governance): the L…",
           "url": "https://github.com/langwatch/langwatch/pull/3524",
           "date": "2026-04-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1458,13 +1408,13 @@
     },
     {
       "id": "l569",
-      "text": "If AI breaks Indian IT, Gujarat is one of the few states that will be least impacted. Sharing my views.\nThe setup Nasscom puts Indian tech revenue at $315 billion for FY26, growing 6.1%, with exports around $246 billion and a workforce touching 6 million. Sounds fine until you look at what is inside that number. Net job addition of about 135,000, against a sector that used to add three or four times that. TCS announced roughly 12,200 cuts this financial year, mostly middle and senior management,\u2026",
+      "text": "If AI breaks Indian IT, Gujarat is one of the few states that will be least impacted. Sharing my views.\nThe setup Nasscom puts Indian tech revenue at $315 billion for FY26, growing 6.1%, with exports around $246 billion and a workforce touching 6 million. Sounds fine until you look at what is inside that number. Net job addition of about 135,000, against a sector that used to add three or four times that. TCS announced roughly 12,200 cuts this financial year, mostly middle and senior management,…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "If AI breaks Indian IT, Gujarat is one of the few states that will be least impa\u2026",
+          "title": "If AI breaks Indian IT, Gujarat is one of the few states that will be least impa…",
           "url": "https://www.reddit.com/r/gujarat/comments/1ve8711/if_ai_breaks_indian_it_gujarat_is_one_of_the_few/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1479,13 +1429,13 @@
     },
     {
       "id": "l570",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult…",
           "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1500,13 +1450,13 @@
     },
     {
       "id": "l571",
-      "text": "How Anthropic Engineers ACTUALLY Prompt Claude Code\nGet my free 5-day AI playbook (what I used to build a $25M+ startup): https://the-ai-playbook.com/4rules\n\nIn this video, I break down 4 rules I uncovered from studying how Anthropic's own engineers ACTUALLY prompt Claude Code. Almost everyone is doing it wrong, and once you see these rules, you can't unsee them. No technical experience required, and they apply to any project you're working on.\n\nTimestamps:\n(0:00) - How Anthropic Engineers ACTUA\u2026",
+      "text": "How Anthropic Engineers ACTUALLY Prompt Claude Code\nGet my free 5-day AI playbook (what I used to build a $25M+ startup): https://the-ai-playbook.com/4rules\n\nIn this video, I break down 4 rules I uncovered from studying how Anthropic's own engineers ACTUALLY prompt Claude Code. Almost everyone is doing it wrong, and once you see these rules, you can't unsee them. No technical experience required, and they apply to any project you're working on.\n\nTimestamps:\n(0:00) - How Anthropic Engineers ACTUA…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How Anthropic Engineers ACTUALLY Prompt Claude Code\nGet my free 5-day AI playboo\u2026",
+          "title": "How Anthropic Engineers ACTUALLY Prompt Claude Code\nGet my free 5-day AI playboo…",
           "url": "https://www.youtube.com/watch?v=qOvc9IUKEIc",
           "date": "2026-05-15",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1521,13 +1471,13 @@
     },
     {
       "id": "l572",
-      "text": "How to Become an AI Engineer FAST (2026) | AI Engineering Roadmap\nTop pick AI engineer courses:\n\nAI Engineer for Developers Career Track \u2192 https://datacamp.pxf.io/gRRgRB\nAI Engineer for Data scientists Career Track \u2192 https://datacamp.pxf.io/0GGAGV\nAI Fundamentals track \u2192 https://datacamp.pxf.io/bkk2kx\n\nIn this video, I talk about how to become an AI engineer very fast and the exact five-level AI engineer roadmap you need to ensure you land that job!\n\n\ud83d\ude80 JOIN MY TECH COMMUNITY: SWE LAUNCHPAD\nInsid\u2026",
+      "text": "How to Become an AI Engineer FAST (2026) | AI Engineering Roadmap\nTop pick AI engineer courses:\n\nAI Engineer for Developers Career Track → https://datacamp.pxf.io/gRRgRB\nAI Engineer for Data scientists Career Track → https://datacamp.pxf.io/0GGAGV\nAI Fundamentals track → https://datacamp.pxf.io/bkk2kx\n\nIn this video, I talk about how to become an AI engineer very fast and the exact five-level AI engineer roadmap you need to ensure you land that job!\n\n🚀 JOIN MY TECH COMMUNITY: SWE LAUNCHPAD\nInsid…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How to Become an AI Engineer FAST (2026) | AI Engineering Roadmap\nTop pick AI en\u2026",
+          "title": "How to Become an AI Engineer FAST (2026) | AI Engineering Roadmap\nTop pick AI en…",
           "url": "https://www.youtube.com/watch?v=aAItDrJ8-rE",
           "date": "2026-03-30",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1542,13 +1492,13 @@
     },
     {
       "id": "l573",
-      "text": "\"Complete Nonsense\u2026\": NVIDIA's Jensen Huang Explains Why AI Won't Steal Software Engineering Jobs\nNVIDIA CEO Jensen Huang has dismissed fears of AI replacing programmers as \"complete nonsense.\" Speaking on the arrival of \"Agentic AI\"- AI that acts as autonomous assistants. Huang revealed mind-blowing GitHub data from early 2026 showing that software code commits have nearly tripled. He explained that instead of cutting jobs, AI is transforming $3 trillion in developer salaries into an astonishin\u2026",
+      "text": "\"Complete Nonsense…\": NVIDIA's Jensen Huang Explains Why AI Won't Steal Software Engineering Jobs\nNVIDIA CEO Jensen Huang has dismissed fears of AI replacing programmers as \"complete nonsense.\" Speaking on the arrival of \"Agentic AI\"- AI that acts as autonomous assistants. Huang revealed mind-blowing GitHub data from early 2026 showing that software code commits have nearly tripled. He explained that instead of cutting jobs, AI is transforming $3 trillion in developer salaries into an astonishin…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "\"Complete Nonsense\u2026\": NVIDIA's Jensen Huang Explains Why AI Won't Steal Software\u2026",
+          "title": "\"Complete Nonsense…\": NVIDIA's Jensen Huang Explains Why AI Won't Steal Software…",
           "url": "https://www.youtube.com/watch?v=9Gvsk79rHF4",
           "date": "2026-06-01",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1563,13 +1513,13 @@
     },
     {
       "id": "l574",
-      "text": "Claude just got another superpower...\nRun any code on Google\u2019s world-class infrastructure - https://cloud.run. Get 2 million free requests per month\n\nClaude Design could be Anthropic's most disruptive tool since Claude Code. But can their new Opus 4.7 powered platform really turn your half-baked Figma wireframe into a production ready UI? Let's run it.\n\n#coding #programming\n\n\ud83d\udd16 Topics Covered\n- What is Claude Design\n- Claude Design vs Figma vs Adobe\n- Claude Design demo\n\nWant more Fireship?\n\n\ud83d\uddde\ufe0f N\u2026",
+      "text": "Claude just got another superpower...\nRun any code on Google’s world-class infrastructure - https://cloud.run. Get 2 million free requests per month\n\nClaude Design could be Anthropic's most disruptive tool since Claude Code. But can their new Opus 4.7 powered platform really turn your half-baked Figma wireframe into a production ready UI? Let's run it.\n\n#coding #programming\n\n🔖 Topics Covered\n- What is Claude Design\n- Claude Design vs Figma vs Adobe\n- Claude Design demo\n\nWant more Fireship?\n\n🗞️ N…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Claude just got another superpower...\nRun any code on Google\u2019s world-class infra\u2026",
+          "title": "Claude just got another superpower...\nRun any code on Google’s world-class infra…",
           "url": "https://www.youtube.com/watch?v=jeA-KBv0b68",
           "date": "2026-04-21",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1584,13 +1534,13 @@
     },
     {
       "id": "l575",
-      "text": "Will AI Replace Mechanical Engineers?\nWill AI in mechanical engineering actually replace design roles? Learn why AI adoption in physical engineering differs from software.\n\nThis breakdown analyzes the current state of artificial intelligence within the mechanical engineering sector. We compare how AI capabilities function in software engineering versus the physical design space, highlighting why strategic limitations persist in hardware development. Whether you are a student or a professional en\u2026",
+      "text": "Will AI Replace Mechanical Engineers?\nWill AI in mechanical engineering actually replace design roles? Learn why AI adoption in physical engineering differs from software.\n\nThis breakdown analyzes the current state of artificial intelligence within the mechanical engineering sector. We compare how AI capabilities function in software engineering versus the physical design space, highlighting why strategic limitations persist in hardware development. Whether you are a student or a professional en…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Will AI Replace Mechanical Engineers?\nWill AI in mechanical engineering actually\u2026",
+          "title": "Will AI Replace Mechanical Engineers?\nWill AI in mechanical engineering actually…",
           "url": "https://www.youtube.com/watch?v=SM45xLbIneo",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1683,6 +1633,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

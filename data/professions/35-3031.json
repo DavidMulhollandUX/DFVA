@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "35-3031-01",
-      "text": "National peak professional bodies and statutory regulators governing Waiters and Waitresses enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Waiters and Waitresses",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Waiters and Waitresses",
-          "url": "https://www.psc.gov.au/standards/35-3031",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Waiters and Waitresses"
-        }
-      ],
-      "scope": "Australian practitioners in Waiters and Waitresses across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "35-3031-02",
-      "text": "Automation of routine transactional and analytical tasks in Waiters and Waitresses heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Waiters and Waitresses",
-          "url": "https://www.jobsandskills.gov.au/research/35-3031",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Waiters and Waitresses in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Waiters and Waitresses roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "Industry compensation profile\nBLS Employee Benefits Survey by industry loads sector-typical ESI access (~50% restaurants, ~90% tech), employer premium share, 401(k) availability, paid leave, and tipped-income defaults \u2014 overridable hints, not gates. Same income looks very different across industries.\n\n**Related:** #258 (ACA PTC\n> **AI-synthesized scoping research** \u00b7 2026-05-13\n>\n> Brief drafted by a Claude agent from primary sources (BLS / Census / AHRQ / KFF / DOL). Numbers, URLs, and dataset \u2026",
+      "text": "Industry compensation profile\nBLS Employee Benefits Survey by industry loads sector-typical ESI access (~50% restaurants, ~90% tech), employer premium share, 401(k) availability, paid leave, and tipped-income defaults — overridable hints, not gates. Same income looks very different across industries.\n\n**Related:** #258 (ACA PTC\n> **AI-synthesized scoping research** · 2026-05-13\n>\n> Brief drafted by a Claude agent from primary sources (BLS / Census / AHRQ / KFF / DOL). Numbers, URLs, and dataset …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Industry compensation profile\nBLS Employee Benefits Survey by industry loads sec\u2026",
+          "title": "Industry compensation profile\nBLS Employee Benefits Survey by industry loads sec…",
           "url": "https://github.com/TheBudgetAtlas/thebudgetatlas/issues/260",
           "date": "2026-05-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -275,13 +225,13 @@
     },
     {
       "id": "l513",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -296,13 +246,13 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -485,13 +435,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -527,13 +477,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -569,13 +519,13 @@
     },
     {
       "id": "l527",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Provenance (*) -Philadelphia, PA\nA late post from a birthday dinner at Provenance in June. My partner and I were joined by two other friends from out of town. We opted to book the private cellar room for dinner and brought a few bottles of wine to open. A few weeks prior, the restaurant reached out to confirm any dietary restrictions, sent over the wine list, and asked for the names of everyone in our party. We were also told to arrive 10 minutes before dinner start time. Provenance has three di\u2026",
+      "text": "Provenance (*) -Philadelphia, PA\nA late post from a birthday dinner at Provenance in June. My partner and I were joined by two other friends from out of town. We opted to book the private cellar room for dinner and brought a few bottles of wine to open. A few weeks prior, the restaurant reached out to confirm any dietary restrictions, sent over the wine list, and asked for the names of everyone in our party. We were also told to arrive 10 minutes before dinner start time. Provenance has three di…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Provenance (*) -Philadelphia, PA\nA late post from a birthday dinner at Provenanc\u2026",
+          "title": "Provenance (*) -Philadelphia, PA\nA late post from a birthday dinner at Provenanc…",
           "url": "https://www.reddit.com/r/finedining/comments/1vdu0en/provenance_philadelphia_pa/",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -617,7 +567,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "YET ANOTHER dirty cop (2nd one in this department this month...) has been caught\u2026",
+          "title": "YET ANOTHER dirty cop (2nd one in this department this month...) has been caught…",
           "url": "https://x.com/Mrgunsngear/status/2090442109790691771",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -638,7 +588,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Data: your sleep score last night.\nIntelligence: what it means for today.\nAction\u2026",
+          "title": "Data: your sleep score last night.\nIntelligence: what it means for today.\nAction…",
           "url": "https://x.com/sleepagotchi/status/2092250646762356934",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -659,7 +609,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Ask ten people what \"the agentic wellness layer\" means and you'll get ten vague \u2026",
+          "title": "Ask ten people what \"the agentic wellness layer\" means and you'll get ten vague …",
           "url": "https://x.com/sleepagotchi/status/2091892362481951109",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -701,7 +651,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The agentic wellness layer turns health intelligence into action - and $SLEEP po\u2026",
+          "title": "The agentic wellness layer turns health intelligence into action - and $SLEEP po…",
           "url": "https://x.com/sleepagotchi/status/2093337816185090469",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -722,7 +672,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The future of wellness is agentic AI.\n\nWearables created the data layer. AI agen\u2026",
+          "title": "The future of wellness is agentic AI.\n\nWearables created the data layer. AI agen…",
           "url": "https://x.com/sleepagotchi/status/2090801093655535864",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "Have you met Sleepagotchi? the agentic AI layer for the wellness economy.  \n\nAI agents. Wearable data. Personalized wellness. One intelligence layer. \ud83e\udd96",
+      "text": "Have you met Sleepagotchi? the agentic AI layer for the wellness economy.  \n\nAI agents. Wearable data. Personalized wellness. One intelligence layer. 🦖",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Have you met Sleepagotchi? the agentic AI layer for the wellness economy.  \n\nAI \u2026",
+          "title": "Have you met Sleepagotchi? the agentic AI layer for the wellness economy.  \n\nAI …",
           "url": "https://x.com/sleepagotchi/status/2092923078674362630",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -758,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "Russia\u2019s first AI restaurant opens in Moscow \u2014 around 20 neural networks take orders, build the menu, monitor the kitchen and analyze the books\n\nVirtual waiters recommend dishes, count calories and flag allergens \u2014 though humans still cook the borscht and blini https://t.co/4VSblyjyKz",
+      "text": "Russia’s first AI restaurant opens in Moscow — around 20 neural networks take orders, build the menu, monitor the kitchen and analyze the books\n\nVirtual waiters recommend dishes, count calories and flag allergens — though humans still cook the borscht and blini https://t.co/4VSblyjyKz",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Russia\u2019s first AI restaurant opens in Moscow \u2014 around 20 neural networks take or\u2026",
+          "title": "Russia’s first AI restaurant opens in Moscow — around 20 neural networks take or…",
           "url": "https://x.com/RT_Russia_/status/2083185925169750387",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "@CoiletTlogger @RoyIsThaTruth It\u2019s true. Ai doesn\u2019t know waiters.",
+      "text": "@CoiletTlogger @RoyIsThaTruth It’s true. Ai doesn’t know waiters.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@CoiletTlogger @RoyIsThaTruth It\u2019s true. Ai doesn\u2019t know waiters.",
+          "title": "@CoiletTlogger @RoyIsThaTruth It’s true. Ai doesn’t know waiters.",
           "url": "https://x.com/oldg7989/status/2092397970880659785",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -806,7 +756,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Opinion I keep to myself because it's not worth the argument (in no particular o\u2026",
+          "title": "Opinion I keep to myself because it's not worth the argument (in no particular o…",
           "url": "https://x.com/aesthetica_s/status/2082794587597443362",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "AI is wrong (ditto for the sources it is using). The croissant, and basically all of what we know think European pastries, were spread by the B\u00fcndner.\nThe B\u00fcndner were traditionally employed in Venice as waiters and chefs. \nIn an act of egregious racism, the Republic expelled all the B\u00fcndner from Venice in 1766.\nIn the following 100 years 10,000 B\u00fcndner opened coffee and pastry shops in 1,000 cities, exporting across the globe their pastries and coffee culture.\nThe specific class of pastry that",
+      "text": "AI is wrong (ditto for the sources it is using). The croissant, and basically all of what we know think European pastries, were spread by the Bündner.\nThe Bündner were traditionally employed in Venice as waiters and chefs. \nIn an act of egregious racism, the Republic expelled all the Bündner from Venice in 1766.\nIn the following 100 years 10,000 Bündner opened coffee and pastry shops in 1,000 cities, exporting across the globe their pastries and coffee culture.\nThe specific class of pastry that",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI is wrong (ditto for the sources it is using). The croissant, and basically al\u2026",
+          "title": "AI is wrong (ditto for the sources it is using). The croissant, and basically al…",
           "url": "https://x.com/aledeniz/status/2091121087102734778",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -848,7 +798,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Firing 8,000 experienced software engineers and letting AI generate 220% more co\u2026",
+          "title": "Firing 8,000 experienced software engineers and letting AI generate 220% more co…",
           "url": "https://x.com/BullishMikee/status/2093078984062058634",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -863,13 +813,13 @@
     },
     {
       "id": "l541",
-      "text": "Manufacturing is no longer enough to absorb workers. Machines are replacing humans at an accelerating pace. \n\nBYD is a good example: despite strong sales growth last year, its workforce decreased by 100K. Even software engineers are not immune. Alibaba\u2019s front-end teams recently faced layoffs as AI generates more and more code.\n\nSo where will people work in the future? Even service jobs like waiters and delivery workers may eventually be automated. Humans will have to compete with machines by fo",
+      "text": "Manufacturing is no longer enough to absorb workers. Machines are replacing humans at an accelerating pace. \n\nBYD is a good example: despite strong sales growth last year, its workforce decreased by 100K. Even software engineers are not immune. Alibaba’s front-end teams recently faced layoffs as AI generates more and more code.\n\nSo where will people work in the future? Even service jobs like waiters and delivery workers may eventually be automated. Humans will have to compete with machines by fo",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Manufacturing is no longer enough to absorb workers. Machines are replacing huma\u2026",
+          "title": "Manufacturing is no longer enough to absorb workers. Machines are replacing huma…",
           "url": "https://x.com/Eureka_Bing/status/2083831450042835146",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -890,7 +840,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Been sitting in the @sleepagotchi Discord more than usual lately, mostly just to\u2026",
+          "title": "Been sitting in the @sleepagotchi Discord more than usual lately, mostly just to…",
           "url": "https://x.com/xxxpizzaboss/status/2093563942522212532",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "S\u00e9rio que ele meteu um Josh giddey aqui quando se tem Ibaka que jogou no seu time? Pqp \n\nIbaka, Dion waiters, Morrow, Fisher e outros por ai que s\u00e3o melhores que a merda do giddey",
+      "text": "Sério que ele meteu um Josh giddey aqui quando se tem Ibaka que jogou no seu time? Pqp \n\nIbaka, Dion waiters, Morrow, Fisher e outros por ai que são melhores que a merda do giddey",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "S\u00e9rio que ele meteu um Josh giddey aqui quando se tem Ibaka que jogou no seu tim\u2026",
+          "title": "Sério que ele meteu um Josh giddey aqui quando se tem Ibaka que jogou no seu tim…",
           "url": "https://x.com/CaioDipo/status/2082956965102370993",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -932,7 +882,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Wish you could dump your pricey dentist? Consider Sopron, in safe, beautiful Hun\u2026",
+          "title": "Wish you could dump your pricey dentist? Consider Sopron, in safe, beautiful Hun…",
           "url": "https://x.com/Judyth/status/2087299215483359672",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -953,7 +903,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "No it isn't\n\nMaybe now you can put body cams on waiters and have some kind of AI\u2026",
+          "title": "No it isn't\n\nMaybe now you can put body cams on waiters and have some kind of AI…",
           "url": "https://x.com/CovfefeAnon/status/2082857662979432475",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "This is the day-to-day reality for Christians in the Holy Land\u2014hated, spat upon, tortured, and murdered by Zionists. https://t.co/eOf1u5hAOX",
+      "text": "This is the day-to-day reality for Christians in the Holy Land—hated, spat upon, tortured, and murdered by Zionists. https://t.co/eOf1u5hAOX",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This is the day-to-day reality for Christians in the Holy Land\u2014hated, spat upon,\u2026",
+          "title": "This is the day-to-day reality for Christians in the Holy Land—hated, spat upon,…",
           "url": "https://x.com/irlandarra2019/status/2093563479416340971",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -995,7 +945,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I shall never forgive Rockstar for abandoning Agent.\n\nMy idea for a game is an o\u2026",
+          "title": "I shall never forgive Rockstar for abandoning Agent.\n\nMy idea for a game is an o…",
           "url": "https://x.com/Lucius_Creed/status/2089809138830446847",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1010,13 +960,13 @@
     },
     {
       "id": "l548",
-      "text": "MEET THE ARTIST BEHIND THE WORK\n\nEvery artwork begins somewhere either with an idea, an experience, a feeling, or simply the urge to create.  For Clyde Baricuatro, or Klayd, art becomes a way of exploring personal perspectives and turning the everyday Filipino experience into something others can connect with. \n\nRooted in his Bisaya identity, his work explores day-to-day habits and nuance of Filipino culture. With a unique creative voice, Baricuatro brings his narrative to life with Inat\u00f2 Galler",
+      "text": "MEET THE ARTIST BEHIND THE WORK\n\nEvery artwork begins somewhere either with an idea, an experience, a feeling, or simply the urge to create.  For Clyde Baricuatro, or Klayd, art becomes a way of exploring personal perspectives and turning the everyday Filipino experience into something others can connect with. \n\nRooted in his Bisaya identity, his work explores day-to-day habits and nuance of Filipino culture. With a unique creative voice, Baricuatro brings his narrative to life with Inatò Galler",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "MEET THE ARTIST BEHIND THE WORK\n\nEvery artwork begins somewhere either with an i\u2026",
+          "title": "MEET THE ARTIST BEHIND THE WORK\n\nEvery artwork begins somewhere either with an i…",
           "url": "https://x.com/cebudailynews/status/2093565229158506875",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1037,7 +987,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "This is so meaningful for me because I have all the bad habits and had just expe\u2026",
+          "title": "This is so meaningful for me because I have all the bad habits and had just expe…",
           "url": "https://x.com/fuyu_no_airi/status/2093567230093197345",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1052,13 +1002,13 @@
     },
     {
       "id": "l550",
-      "text": "@JohnSmithvbp8 @JAESREVENGE You\u2019ve been watching him and keeping up with him since. You\u2019re up under every post about him daily. If he all these thing why the fuck are you keeping up with his day to day? Eat dick and stop with yall fake moral compass",
+      "text": "@JohnSmithvbp8 @JAESREVENGE You’ve been watching him and keeping up with him since. You’re up under every post about him daily. If he all these thing why the fuck are you keeping up with his day to day? Eat dick and stop with yall fake moral compass",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@JohnSmithvbp8 @JAESREVENGE You\u2019ve been watching him and keeping up with him sin\u2026",
+          "title": "@JohnSmithvbp8 @JAESREVENGE You’ve been watching him and keeping up with him sin…",
           "url": "https://x.com/S0NastyS0Rude/status/2093564459197313472",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1121,7 +1071,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I cock and aim, clinically insane\nTo deal with this bullshit day to day\nIf I sel\u2026",
+          "title": "I cock and aim, clinically insane\nTo deal with this bullshit day to day\nIf I sel…",
           "url": "https://x.com/hankieshill/status/2093571453811655067",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1142,7 +1092,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Should put him behind the bars for foul play,cancelling the Election?..This is t\u2026",
+          "title": "Should put him behind the bars for foul play,cancelling the Election?..This is t…",
           "url": "https://x.com/SanjivaSailesh/status/2093563511381397514",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1157,13 +1107,13 @@
     },
     {
       "id": "l555",
-      "text": "Day to Day\u306e\u8863\u88c5\u63cf\u304d\u305f\u3044\u306a\u2026\n\u65e9\u304f\u5f15\u304d\u305f\u3044\ud83d\ude2d",
+      "text": "Day to Dayの衣装描きたいな…\n早く引きたい😭",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Day to Day\u306e\u8863\u88c5\u63cf\u304d\u305f\u3044\u306a\u2026\n\u65e9\u304f\u5f15\u304d\u305f\u3044\ud83d\ude2d",
+          "title": "Day to Dayの衣装描きたいな…\n早く引きたい😭",
           "url": "https://x.com/nasoruchi/status/2093572658353107209",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1184,7 +1134,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "vaguely. I have focus swings from day to day. it manifests in mood https://t.co/\u2026",
+          "title": "vaguely. I have focus swings from day to day. it manifests in mood https://t.co/…",
           "url": "https://x.com/ZanksZee/status/2093569250221043766",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1205,7 +1155,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@stacewrites_ I love writing on a plane. A lot easier to disconnect from the day\u2026",
+          "title": "@stacewrites_ I love writing on a plane. A lot easier to disconnect from the day…",
           "url": "https://x.com/stevemoth/status/2093568834787774559",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1220,13 +1170,13 @@
     },
     {
       "id": "l558",
-      "text": "The Danger of Giving AI Agents 'Chainsaw Access' to Your Servers\nAI agent security is broken because developers mistake processing horsepower for situational awareness. If you give an autonomous LLM write-access to your production database, you are letting a blind probability engine run wild in your server room. This breakdown breaks down why \"System Prompts\" fail against indirect prompt injection, how reward collapse triggers catastrophic data deletion, and why you must enforce structural engin\u2026",
+      "text": "The Danger of Giving AI Agents 'Chainsaw Access' to Your Servers\nAI agent security is broken because developers mistake processing horsepower for situational awareness. If you give an autonomous LLM write-access to your production database, you are letting a blind probability engine run wild in your server room. This breakdown breaks down why \"System Prompts\" fail against indirect prompt injection, how reward collapse triggers catastrophic data deletion, and why you must enforce structural engin…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Danger of Giving AI Agents 'Chainsaw Access' to Your Servers\nAI agent securi\u2026",
+          "title": "The Danger of Giving AI Agents 'Chainsaw Access' to Your Servers\nAI agent securi…",
           "url": "https://www.youtube.com/watch?v=9DprqlW-nMA",
           "date": "2026-06-27",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1241,13 +1191,13 @@
     },
     {
       "id": "l559",
-      "text": "How 7,000 AI Servers Were Hacked in 4 Hours! \ud83d\udc7e (Motion Graphic Breakdown)\nThe AI revolution has a massive blind spot! \ud83d\udea8 In this motion graphic breakdown, we dissect the catastrophic CVE-2026-5027 vulnerability that allowed hackers to breach over 7,000 Langflow and LangChain servers. Watch how attackers bypass traditional firewalls using Prompt Injection, exfiltrate OpenAI API keys, and turn $40,000 H100 GPUs into cryptojacking zombies. Is your AI infrastructure secure? \n\n\ud83d\udc47 READ THE FULL MULTILIN\u2026",
+      "text": "How 7,000 AI Servers Were Hacked in 4 Hours! 👾 (Motion Graphic Breakdown)\nThe AI revolution has a massive blind spot! 🚨 In this motion graphic breakdown, we dissect the catastrophic CVE-2026-5027 vulnerability that allowed hackers to breach over 7,000 Langflow and LangChain servers. Watch how attackers bypass traditional firewalls using Prompt Injection, exfiltrate OpenAI API keys, and turn $40,000 H100 GPUs into cryptojacking zombies. Is your AI infrastructure secure? \n\n👇 READ THE FULL MULTILIN…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How 7,000 AI Servers Were Hacked in 4 Hours! \ud83d\udc7e (Motion Graphic Breakdown)\nThe AI\u2026",
+          "title": "How 7,000 AI Servers Were Hacked in 4 Hours! 👾 (Motion Graphic Breakdown)\nThe AI…",
           "url": "https://www.youtube.com/watch?v=sKJoMfp-maU",
           "date": "2026-06-20",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1262,7 +1212,7 @@
     },
     {
       "id": "l460",
-      "text": "Section Waiters/Waitresses \u2014 ESCA Group (Millers Point, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Section Waiters/Waitresses — ESCA Group (Millers Point, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1283,7 +1233,7 @@
     },
     {
       "id": "l461",
-      "text": "Waitress \u2014 Work-Mantra (Sydney, New South Wales, Australia). Posted 1 month ago.",
+      "text": "Waitress — Work-Mantra (Sydney, New South Wales, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1304,7 +1254,7 @@
     },
     {
       "id": "l462",
-      "text": "Server \u2014 Gators Dockside (Greater Melbourne Area). Posted 3 days ago.",
+      "text": "Server — Gators Dockside (Greater Melbourne Area). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1325,7 +1275,7 @@
     },
     {
       "id": "l463",
-      "text": "Server \u2014 SERENBE REAL ESTATE (Yallingup, Western Australia, Australia). Posted 1 month ago.",
+      "text": "Server — SERENBE REAL ESTATE (Yallingup, Western Australia, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1346,7 +1296,7 @@
     },
     {
       "id": "l464",
-      "text": "Food & Beverage Attendant - The Dining Room (Breakfast) \u2014 Park Hyatt (Sydney, New South Wales, Australia). Posted 2 months ago.",
+      "text": "Food & Beverage Attendant - The Dining Room (Breakfast) — Park Hyatt (Sydney, New South Wales, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1367,7 +1317,7 @@
     },
     {
       "id": "l465",
-      "text": "FOH Crew (Waitstaff, Hosts, Bartenders, Sommeliers) | Lucas Collective \u2014 Lucas Collective (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "FOH Crew (Waitstaff, Hosts, Bartenders, Sommeliers) | Lucas Collective — Lucas Collective (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1388,7 +1338,7 @@
     },
     {
       "id": "l466",
-      "text": "Boardroom Waiter \u2014 Allens (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Boardroom Waiter — Allens (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1409,7 +1359,7 @@
     },
     {
       "id": "l467",
-      "text": "FOH Crew (Waitstaff, Hosts, Bartenders, Sommeliers) | Lucas Collective \u2014 Lucas Collective (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "FOH Crew (Waitstaff, Hosts, Bartenders, Sommeliers) | Lucas Collective — Lucas Collective (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1430,7 +1380,7 @@
     },
     {
       "id": "l468",
-      "text": "Boardroom Waiter \u2014 Allens (Perth, Western Australia, Australia). Posted 13 hours ago.",
+      "text": "Boardroom Waiter — Allens (Perth, Western Australia, Australia). Posted 13 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1451,7 +1401,7 @@
     },
     {
       "id": "l469",
-      "text": "Section Waiter Full Time and Casual \u2014 CATERING HQ (Castle Hill, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Section Waiter Full Time and Casual — CATERING HQ (Castle Hill, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1472,13 +1422,13 @@
     },
     {
       "id": "l570",
-      "text": "Industry compensation profile\nBLS Employee Benefits Survey by industry loads sector-typical ESI access (~50% restaurants, ~90% tech), employer premium share, 401(k) availability, paid leave, and tipped-income defaults \u2014 overridable hints, not gates. Same income looks very different across industries.\n\n**Related:** #258 (ACA PTC\n> **AI-synthesized scoping research** \u00b7 2026-05-13\n>\n> Brief drafted by a Claude agent from primary sources (BLS / Census / AHRQ / KFF / DOL). Numbers, URLs, and dataset \u2026",
+      "text": "Industry compensation profile\nBLS Employee Benefits Survey by industry loads sector-typical ESI access (~50% restaurants, ~90% tech), employer premium share, 401(k) availability, paid leave, and tipped-income defaults — overridable hints, not gates. Same income looks very different across industries.\n\n**Related:** #258 (ACA PTC\n> **AI-synthesized scoping research** · 2026-05-13\n>\n> Brief drafted by a Claude agent from primary sources (BLS / Census / AHRQ / KFF / DOL). Numbers, URLs, and dataset …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Industry compensation profile\nBLS Employee Benefits Survey by industry loads sec\u2026",
+          "title": "Industry compensation profile\nBLS Employee Benefits Survey by industry loads sec…",
           "url": "https://github.com/TheBudgetAtlas/thebudgetatlas/issues/260",
           "date": "2026-05-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1493,13 +1443,13 @@
     },
     {
       "id": "l571",
-      "text": "Provenance (*) -Philadelphia, PA\nA late post from a birthday dinner at Provenance in June. My partner and I were joined by two other friends from out of town. We opted to book the private cellar room for dinner and brought a few bottles of wine to open. A few weeks prior, the restaurant reached out to confirm any dietary restrictions, sent over the wine list, and asked for the names of everyone in our party. We were also told to arrive 10 minutes before dinner start time. Provenance has three di\u2026",
+      "text": "Provenance (*) -Philadelphia, PA\nA late post from a birthday dinner at Provenance in June. My partner and I were joined by two other friends from out of town. We opted to book the private cellar room for dinner and brought a few bottles of wine to open. A few weeks prior, the restaurant reached out to confirm any dietary restrictions, sent over the wine list, and asked for the names of everyone in our party. We were also told to arrive 10 minutes before dinner start time. Provenance has three di…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Provenance (*) -Philadelphia, PA\nA late post from a birthday dinner at Provenanc\u2026",
+          "title": "Provenance (*) -Philadelphia, PA\nA late post from a birthday dinner at Provenanc…",
           "url": "https://www.reddit.com/r/finedining/comments/1vdu0en/provenance_philadelphia_pa/",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1514,13 +1464,13 @@
     },
     {
       "id": "l572",
-      "text": "The Danger of Giving AI Agents 'Chainsaw Access' to Your Servers\nAI agent security is broken because developers mistake processing horsepower for situational awareness. If you give an autonomous LLM write-access to your production database, you are letting a blind probability engine run wild in your server room. This breakdown breaks down why \"System Prompts\" fail against indirect prompt injection, how reward collapse triggers catastrophic data deletion, and why you must enforce structural engin\u2026",
+      "text": "The Danger of Giving AI Agents 'Chainsaw Access' to Your Servers\nAI agent security is broken because developers mistake processing horsepower for situational awareness. If you give an autonomous LLM write-access to your production database, you are letting a blind probability engine run wild in your server room. This breakdown breaks down why \"System Prompts\" fail against indirect prompt injection, how reward collapse triggers catastrophic data deletion, and why you must enforce structural engin…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Danger of Giving AI Agents 'Chainsaw Access' to Your Servers\nAI agent securi\u2026",
+          "title": "The Danger of Giving AI Agents 'Chainsaw Access' to Your Servers\nAI agent securi…",
           "url": "https://www.youtube.com/watch?v=9DprqlW-nMA",
           "date": "2026-06-27",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1535,13 +1485,13 @@
     },
     {
       "id": "l573",
-      "text": "How 7,000 AI Servers Were Hacked in 4 Hours! \ud83d\udc7e (Motion Graphic Breakdown)\nThe AI revolution has a massive blind spot! \ud83d\udea8 In this motion graphic breakdown, we dissect the catastrophic CVE-2026-5027 vulnerability that allowed hackers to breach over 7,000 Langflow and LangChain servers. Watch how attackers bypass traditional firewalls using Prompt Injection, exfiltrate OpenAI API keys, and turn $40,000 H100 GPUs into cryptojacking zombies. Is your AI infrastructure secure? \n\n\ud83d\udc47 READ THE FULL MULTILIN\u2026",
+      "text": "How 7,000 AI Servers Were Hacked in 4 Hours! 👾 (Motion Graphic Breakdown)\nThe AI revolution has a massive blind spot! 🚨 In this motion graphic breakdown, we dissect the catastrophic CVE-2026-5027 vulnerability that allowed hackers to breach over 7,000 Langflow and LangChain servers. Watch how attackers bypass traditional firewalls using Prompt Injection, exfiltrate OpenAI API keys, and turn $40,000 H100 GPUs into cryptojacking zombies. Is your AI infrastructure secure? \n\n👇 READ THE FULL MULTILIN…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How 7,000 AI Servers Were Hacked in 4 Hours! \ud83d\udc7e (Motion Graphic Breakdown)\nThe AI\u2026",
+          "title": "How 7,000 AI Servers Were Hacked in 4 Hours! 👾 (Motion Graphic Breakdown)\nThe AI…",
           "url": "https://www.youtube.com/watch?v=sKJoMfp-maU",
           "date": "2026-06-20",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1632,6 +1582,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

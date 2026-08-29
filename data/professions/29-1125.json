@@ -21,56 +21,6 @@
   ],
   "claims": [
     {
-      "id": "29-1125-01",
-      "text": "National peak professional bodies and statutory regulators governing Recreational Therapists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Recreational Therapists",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Recreational Therapists",
-          "url": "https://www.psc.gov.au/standards/29-1125",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Recreational Therapists"
-        }
-      ],
-      "scope": "Australian practitioners in Recreational Therapists across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "29-1125-02",
-      "text": "Automation of routine transactional and analytical tasks in Recreational Therapists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Recreational Therapists",
-          "url": "https://www.jobsandskills.gov.au/research/29-1125",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Recreational Therapists in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Recreational Therapists roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
       "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
@@ -261,13 +211,13 @@
     },
     {
       "id": "l512",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -282,13 +232,13 @@
     },
     {
       "id": "l513",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -471,13 +421,13 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -513,13 +463,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -555,13 +505,13 @@
     },
     {
       "id": "l526",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -582,7 +532,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Recreational Therapists at Handshake - AI Training Job\nhttps://ift.tt/MYNyp3w &#\u2026",
+          "title": "Recreational Therapists at Handshake - AI Training Job\nhttps://ift.tt/MYNyp3w &#…",
           "url": "https://www.reddit.com/r/trainAIjobs/comments/1vnf050/recreational_therapists_at_handshake_ai_training/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -597,13 +547,13 @@
     },
     {
       "id": "l528",
-      "text": "Software Development After AI\nI think the software industry is going to face a major disruption in the next few years. We are getting close to a point where you could have one AI agent analyze an existing app, map out its features, understand how it works, and then have another AI agent rebuild it from scratch with a new design, different UI elements, and new branding. The result could be a near identical alternative that offers the same functionality but is released for free or at a much lower \u2026",
+      "text": "Software Development After AI\nI think the software industry is going to face a major disruption in the next few years. We are getting close to a point where you could have one AI agent analyze an existing app, map out its features, understand how it works, and then have another AI agent rebuild it from scratch with a new design, different UI elements, and new branding. The result could be a near identical alternative that offers the same functionality but is released for free or at a much lower …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Software Development After AI\nI think the software industry is going to face a m\u2026",
+          "title": "Software Development After AI\nI think the software industry is going to face a m…",
           "url": "https://www.reddit.com/r/vibecoding/comments/1vbb5bh/software_development_after_ai/",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -618,13 +568,13 @@
     },
     {
       "id": "l529",
-      "text": "ChatGPT is crazy good at turning anti-AI copypastas into infographics. I use them to respond to pro-AI sentiment bc it puts antis on the backfoot trying to defend their cringe and delusional talking points, and the option to straw man isn't available bc it's already been called out in advance\nText versions for everywhere that images aren&#39;t available: Listen dude. I understand this stuff. I did a VBScript assignment in highschool where we had to copy images from a folder and output a collage \u2026",
+      "text": "ChatGPT is crazy good at turning anti-AI copypastas into infographics. I use them to respond to pro-AI sentiment bc it puts antis on the backfoot trying to defend their cringe and delusional talking points, and the option to straw man isn't available bc it's already been called out in advance\nText versions for everywhere that images aren&#39;t available: Listen dude. I understand this stuff. I did a VBScript assignment in highschool where we had to copy images from a folder and output a collage …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "ChatGPT is crazy good at turning anti-AI copypastas into infographics. I use the\u2026",
+          "title": "ChatGPT is crazy good at turning anti-AI copypastas into infographics. I use the…",
           "url": "https://www.reddit.com/r/DefendingAIArt/comments/1vmdp53/chatgpt_is_crazy_good_at_turning_antiai/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -645,7 +595,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@GovernorShapiro @RobertKennedyJr Odd. Look at who sponsors the American Academy\u2026",
+          "title": "@GovernorShapiro @RobertKennedyJr Odd. Look at who sponsors the American Academy…",
           "url": "https://x.com/HenryHonto/status/2092676271771697166",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -666,7 +616,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Karlos May, Ohio State commit and #7 ranked defensive lineman in the country, tu\u2026",
+          "title": "Karlos May, Ohio State commit and #7 ranked defensive lineman in the country, tu…",
           "url": "https://x.com/AmitMomayaMD/status/2092951273343467672",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -681,13 +631,13 @@
     },
     {
       "id": "l532",
-      "text": "\u2728Thank you for celebrating Panda Cares Day \ud83d\udc3c with us! We are grateful to Panda Cares and all the @PandaExpress \ud83e\udd61 associates and guests for their dedication and support of Children's Specialized Hospital, the @CMN_HQ hospital of New Jersey \ud83d\udc99. https://t.co/Gnv2RZ9QzM",
+      "text": "✨Thank you for celebrating Panda Cares Day 🐼 with us! We are grateful to Panda Cares and all the @PandaExpress 🥡 associates and guests for their dedication and support of Children's Specialized Hospital, the @CMN_HQ hospital of New Jersey 💙. https://t.co/Gnv2RZ9QzM",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u2728Thank you for celebrating Panda Cares Day \ud83d\udc3c with us! We are grateful to Panda C\u2026",
+          "title": "✨Thank you for celebrating Panda Cares Day 🐼 with us! We are grateful to Panda C…",
           "url": "https://x.com/ChildrensSpecNJ/status/2087275433695862985",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -702,13 +652,13 @@
     },
     {
       "id": "l533",
-      "text": "Celebrating one year of the UAB Rehabilitation Pavilion! \ud83c\udf89\n\nSince opening its doors, the pavilion has been a place for patients, families, and care teams to celebrate progress and remarkable recoveries. Here\u2019s to many more years of helping patients move forward. \ud83d\udc9a https://t.co/4OUnjYZZaH",
+      "text": "Celebrating one year of the UAB Rehabilitation Pavilion! 🎉\n\nSince opening its doors, the pavilion has been a place for patients, families, and care teams to celebrate progress and remarkable recoveries. Here’s to many more years of helping patients move forward. 💚 https://t.co/4OUnjYZZaH",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Celebrating one year of the UAB Rehabilitation Pavilion! \ud83c\udf89\n\nSince opening its do\u2026",
+          "title": "Celebrating one year of the UAB Rehabilitation Pavilion! 🎉\n\nSince opening its do…",
           "url": "https://x.com/uabmedicine/status/2090533148555657564",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -723,13 +673,13 @@
     },
     {
       "id": "l534",
-      "text": "Surgery has often been known as the \u201cneglected stepchild of global health.\u201d In this segment, Lily Gutnik, M.D., explains the challenges of collecting meaningful data for a field that crosses so many specialties and services.\n\n\ud83c\udfa7 Listen here: https://t.co/Iag5rYJWa2 https://t.co/wInH1tpSBG",
+      "text": "Surgery has often been known as the “neglected stepchild of global health.” In this segment, Lily Gutnik, M.D., explains the challenges of collecting meaningful data for a field that crosses so many specialties and services.\n\n🎧 Listen here: https://t.co/Iag5rYJWa2 https://t.co/wInH1tpSBG",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Surgery has often been known as the \u201cneglected stepchild of global health.\u201d In t\u2026",
+          "title": "Surgery has often been known as the “neglected stepchild of global health.” In t…",
           "url": "https://x.com/uabmedicine/status/2090816403590799457",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -765,13 +715,13 @@
     },
     {
       "id": "l536",
-      "text": "Looking for fun activities led by CSH Recreational Therapists? Register now for fall programs!\ud83d\udc4f\ud83c\udf42\n\nTo learn about our programs and register, please visit us at https://t.co/Qp0BjW2Am8. Fall registration will be open online until 9/5 https://t.co/uMuxndFaS7",
+      "text": "Looking for fun activities led by CSH Recreational Therapists? Register now for fall programs!👏🍂\n\nTo learn about our programs and register, please visit us at https://t.co/Qp0BjW2Am8. Fall registration will be open online until 9/5 https://t.co/uMuxndFaS7",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Looking for fun activities led by CSH Recreational Therapists? Register now for \u2026",
+          "title": "Looking for fun activities led by CSH Recreational Therapists? Register now for …",
           "url": "https://x.com/ChildrensSpecNJ/status/2091163594071101440",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -786,13 +736,13 @@
     },
     {
       "id": "l537",
-      "text": "Follow a day in the life of a fundraiser at Children\u2019s Specialized Hospital Foundation. Happy National Nonprofit Day!\u2728 Learn more about the Foundation at https://t.co/MSJy88mnG0 \ud83d\udc99. https://t.co/Zw3hpeNkWO",
+      "text": "Follow a day in the life of a fundraiser at Children’s Specialized Hospital Foundation. Happy National Nonprofit Day!✨ Learn more about the Foundation at https://t.co/MSJy88mnG0 💙. https://t.co/Zw3hpeNkWO",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Follow a day in the life of a fundraiser at Children\u2019s Specialized Hospital Foun\u2026",
+          "title": "Follow a day in the life of a fundraiser at Children’s Specialized Hospital Foun…",
           "url": "https://x.com/ChildrensSpecNJ/status/2089427060359876893",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -807,13 +757,13 @@
     },
     {
       "id": "l538",
-      "text": "August is #Psoriasis Action Month. \ud83d\udc9a\n\nPsoriasis is a chronic condition caused by an overactive immune system that can affect more than just the skin. This month, we\u2019re raising awareness about the different types of psoriasis and common triggers.\n\n\u27a1\ufe0f https://t.co/Exnpcj5EJs https://t.co/P0Jh7cFdhG",
+      "text": "August is #Psoriasis Action Month. 💚\n\nPsoriasis is a chronic condition caused by an overactive immune system that can affect more than just the skin. This month, we’re raising awareness about the different types of psoriasis and common triggers.\n\n➡️ https://t.co/Exnpcj5EJs https://t.co/P0Jh7cFdhG",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "August is #Psoriasis Action Month. \ud83d\udc9a\n\nPsoriasis is a chronic condition caused by\u2026",
+          "title": "August is #Psoriasis Action Month. 💚\n\nPsoriasis is a chronic condition caused by…",
           "url": "https://x.com/uabmedicine/status/2093006694804525486",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -828,13 +778,13 @@
     },
     {
       "id": "l539",
-      "text": "@ChildrensSpecNJ So grateful to make a difference together. Thank you for celebrating Panda Cares Day with us! \ud83d\udc3c\u2764\ufe0f",
+      "text": "@ChildrensSpecNJ So grateful to make a difference together. Thank you for celebrating Panda Cares Day with us! 🐼❤️",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@ChildrensSpecNJ So grateful to make a difference together. Thank you for celebr\u2026",
+          "title": "@ChildrensSpecNJ So grateful to make a difference together. Thank you for celebr…",
           "url": "https://x.com/PandaExpress/status/2086148820312719474",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -849,13 +799,13 @@
     },
     {
       "id": "l540",
-      "text": "This National Dog Day, we\u2019re celebrating Walk &amp; Roll team Golden Girls co captains, Gallop and Maui! The CSH facility dogs are part of our family. Today, they invite you to join their team and bring your pup to Walk &amp; Roll with them!  Register today at https://t.co/g6i9rFAMCW. https://t.co/4lclbvS3Al",
+      "text": "This National Dog Day, we’re celebrating Walk &amp; Roll team Golden Girls co captains, Gallop and Maui! The CSH facility dogs are part of our family. Today, they invite you to join their team and bring your pup to Walk &amp; Roll with them!  Register today at https://t.co/g6i9rFAMCW. https://t.co/4lclbvS3Al",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This National Dog Day, we\u2019re celebrating Walk &amp; Roll team Golden Girls co ca\u2026",
+          "title": "This National Dog Day, we’re celebrating Walk &amp; Roll team Golden Girls co ca…",
           "url": "https://x.com/ChildrensSpecNJ/status/2092628283124777195",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -870,13 +820,13 @@
     },
     {
       "id": "l541",
-      "text": "August is #Breastfeeding Awareness Month. \ud83d\udc9c\nUAB Women and Infants Services offers expert lactation support before and after birth to help moms feel informed and supported throughout their breastfeeding journey.\n\n\u27a1\ufe0f https://t.co/dXHcyTluqg https://t.co/9KC0NkxiWr",
+      "text": "August is #Breastfeeding Awareness Month. 💜\nUAB Women and Infants Services offers expert lactation support before and after birth to help moms feel informed and supported throughout their breastfeeding journey.\n\n➡️ https://t.co/dXHcyTluqg https://t.co/9KC0NkxiWr",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "August is #Breastfeeding Awareness Month. \ud83d\udc9c\nUAB Women and Infants Services offer\u2026",
+          "title": "August is #Breastfeeding Awareness Month. 💜\nUAB Women and Infants Services offer…",
           "url": "https://x.com/uabmedicine/status/2093413740167246191",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -891,13 +841,13 @@
     },
     {
       "id": "l542",
-      "text": "UAB Medicine #UrgentCare is open seven days a week, providing expert treatment in the heart of downtown Birmingham. If you need to see a doctor today, don\u2019t hesitate. Walk-ins are welcome, and we offer free parking in the deck behind the clinic.\n\ud83d\udd17 https://t.co/7C0e7NrZ7Z https://t.co/bmvUhdBI79",
+      "text": "UAB Medicine #UrgentCare is open seven days a week, providing expert treatment in the heart of downtown Birmingham. If you need to see a doctor today, don’t hesitate. Walk-ins are welcome, and we offer free parking in the deck behind the clinic.\n🔗 https://t.co/7C0e7NrZ7Z https://t.co/bmvUhdBI79",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "UAB Medicine #UrgentCare is open seven days a week, providing expert treatment i\u2026",
+          "title": "UAB Medicine #UrgentCare is open seven days a week, providing expert treatment i…",
           "url": "https://x.com/uabmedicine/status/2089423439761203490",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -912,13 +862,13 @@
     },
     {
       "id": "l543",
-      "text": "Dr. Cassandra Newsom's lab is participating in a clinical trial evaluating an investigational treatment for children ages 3\u201312 with genetically confirmed Phelan-McDermid syndrome (PMS). The 19-week study includes five in-person visits and six phone/video calls.\n\n@UABMedicine https://t.co/lNOS7D72Ku",
+      "text": "Dr. Cassandra Newsom's lab is participating in a clinical trial evaluating an investigational treatment for children ages 3–12 with genetically confirmed Phelan-McDermid syndrome (PMS). The 19-week study includes five in-person visits and six phone/video calls.\n\n@UABMedicine https://t.co/lNOS7D72Ku",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Dr. Cassandra Newsom's lab is participating in a clinical trial evaluating an in\u2026",
+          "title": "Dr. Cassandra Newsom's lab is participating in a clinical trial evaluating an in…",
           "url": "https://x.com/UNeurobiology/status/2093338124067725718",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -939,7 +889,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "CSH Early Intervention Program is a state and federally funded program that prov\u2026",
+          "title": "CSH Early Intervention Program is a state and federally funded program that prov…",
           "url": "https://x.com/ChildrensSpecNJ/status/2092311337976090819",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -954,13 +904,13 @@
     },
     {
       "id": "l545",
-      "text": "Looking for a sign to do good \ud83d\udc40? This is it! Visit https://t.co/TwUInsYFG7 today to make a difference in the lives of children and families at CSH!\ud83d\udc99 https://t.co/sWhOR9dspo",
+      "text": "Looking for a sign to do good 👀? This is it! Visit https://t.co/TwUInsYFG7 today to make a difference in the lives of children and families at CSH!💙 https://t.co/sWhOR9dspo",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Looking for a sign to do good \ud83d\udc40? This is it! Visit https://t.co/TwUInsYFG7 today\u2026",
+          "title": "Looking for a sign to do good 👀? This is it! Visit https://t.co/TwUInsYFG7 today…",
           "url": "https://x.com/ChildrensSpecNJ/status/2090876692818436473",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -975,13 +925,13 @@
     },
     {
       "id": "l546",
-      "text": "It\u2019s National #Breastfeeding Month. \ud83d\udc9c Breastfeeding can come with questions, challenges, and a learning curve for new moms. UAB Medicine offers expert lactation support to help mothers feel informed and confident throughout their journey.\n\n\u27a1\ufe0f https://t.co/T5wN5fXKj6 https://t.co/uFRSAH9Ml1",
+      "text": "It’s National #Breastfeeding Month. 💜 Breastfeeding can come with questions, challenges, and a learning curve for new moms. UAB Medicine offers expert lactation support to help mothers feel informed and confident throughout their journey.\n\n➡️ https://t.co/T5wN5fXKj6 https://t.co/uFRSAH9Ml1",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "It\u2019s National #Breastfeeding Month. \ud83d\udc9c Breastfeeding can come with questions, cha\u2026",
+          "title": "It’s National #Breastfeeding Month. 💜 Breastfeeding can come with questions, cha…",
           "url": "https://x.com/uabmedicine/status/2092282275333329085",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -996,13 +946,13 @@
     },
     {
       "id": "l547",
-      "text": "@HenryHonto @GovernorShapiro @RobertKennedyJr I\u2019m going to personally add the fetus juice just for you",
+      "text": "@HenryHonto @GovernorShapiro @RobertKennedyJr I’m going to personally add the fetus juice just for you",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@HenryHonto @GovernorShapiro @RobertKennedyJr I\u2019m going to personally add the fe\u2026",
+          "title": "@HenryHonto @GovernorShapiro @RobertKennedyJr I’m going to personally add the fe…",
           "url": "https://x.com/Bunch0numb3rz/status/2092700026074194405",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1017,13 +967,13 @@
     },
     {
       "id": "l548",
-      "text": "Now through Nov. 21, @UABOrtho will offer a Saturday Morning Injury Clinic at UAB Hospital-Highlands, providing convenient walk-in care for acute injuries (sports injuries, sprains, strains, possible fractures, etc.).\n\nNo appointment is necessary.\n\n\ud83c\udfe5 https://t.co/QnFX1R2cTr https://t.co/pzhABhBTcd",
+      "text": "Now through Nov. 21, @UABOrtho will offer a Saturday Morning Injury Clinic at UAB Hospital-Highlands, providing convenient walk-in care for acute injuries (sports injuries, sprains, strains, possible fractures, etc.).\n\nNo appointment is necessary.\n\n🏥 https://t.co/QnFX1R2cTr https://t.co/pzhABhBTcd",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Now through Nov. 21, @UABOrtho will offer a Saturday Morning Injury Clinic at UA\u2026",
+          "title": "Now through Nov. 21, @UABOrtho will offer a Saturday Morning Injury Clinic at UA…",
           "url": "https://x.com/uabmedicine/status/2093359415231496509",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1044,7 +994,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Check out our recent blog post on knee braces for offensive linemen.\n\n@uabmedici\u2026",
+          "title": "Check out our recent blog post on knee braces for offensive linemen.\n\n@uabmedici…",
           "url": "https://x.com/AmitMomayaMD/status/2093304526967087286",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1065,7 +1015,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "This National #TherapeuticRecreation Week, we recognize the dedicated recreation\u2026",
+          "title": "This National #TherapeuticRecreation Week, we recognize the dedicated recreation…",
           "url": "https://x.com/uabmedicine/status/2074146459067261292",
           "date": "2026-07-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1080,13 +1030,13 @@
     },
     {
       "id": "l551",
-      "text": "As a leader with @StevensThon \ud83d\udd7a, Pujan knows first-hand the impact that fundraising has on children at CSH. This Marathon Monday, we\u2019re excited that he has joined the CSH Foundation NYC Marathon \ud83d\uddfd team to make an even bigger difference \ud83c\udfc3\ud83d\udc99!  https://t.co/NsF9QYyiTD! https://t.co/CQldcijMN9",
+      "text": "As a leader with @StevensThon 🕺, Pujan knows first-hand the impact that fundraising has on children at CSH. This Marathon Monday, we’re excited that he has joined the CSH Foundation NYC Marathon 🗽 team to make an even bigger difference 🏃💙!  https://t.co/NsF9QYyiTD! https://t.co/CQldcijMN9",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "As a leader with @StevensThon \ud83d\udd7a, Pujan knows first-hand the impact that fundrais\u2026",
+          "title": "As a leader with @StevensThon 🕺, Pujan knows first-hand the impact that fundrais…",
           "url": "https://x.com/ChildrensSpecNJ/status/2091903475395211767",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1101,13 +1051,13 @@
     },
     {
       "id": "l552",
-      "text": "How is progressive pulmonary fibrosis diagnosed\u2014and what treatment options are available? \ud83e\udec1 Teja Kulkarni, M.D., discusses recognizing PPF early, multidisciplinary evaluation, and emerging antifibrotic therapies in the latest MedCast episode. \ud83c\udf99\ufe0f\nhttps://t.co/fNuWa6HSaG https://t.co/WccfGGQJqg",
+      "text": "How is progressive pulmonary fibrosis diagnosed—and what treatment options are available? 🫁 Teja Kulkarni, M.D., discusses recognizing PPF early, multidisciplinary evaluation, and emerging antifibrotic therapies in the latest MedCast episode. 🎙️\nhttps://t.co/fNuWa6HSaG https://t.co/WccfGGQJqg",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "How is progressive pulmonary fibrosis diagnosed\u2014and what treatment options are a\u2026",
+          "title": "How is progressive pulmonary fibrosis diagnosed—and what treatment options are a…",
           "url": "https://x.com/uabmedicine/status/2091918347336040808",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1122,13 +1072,13 @@
     },
     {
       "id": "l553",
-      "text": "Our Toms River Long Term Care staff and residents had a blast during Shark Week! \ud83e\udd88\ud83d\udc99They took a trip to the aquarium, participated in themed activities, and enjoyed a visit from Bruce, the shark. Bruce even stopped by our Toms River outpatient facility \ud83d\udc4b https://t.co/MYEZ7jvr7d https://t.co/W9qtqdDu7P",
+      "text": "Our Toms River Long Term Care staff and residents had a blast during Shark Week! 🦈💙They took a trip to the aquarium, participated in themed activities, and enjoyed a visit from Bruce, the shark. Bruce even stopped by our Toms River outpatient facility 👋 https://t.co/MYEZ7jvr7d https://t.co/W9qtqdDu7P",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Our Toms River Long Term Care staff and residents had a blast during Shark Week!\u2026",
+          "title": "Our Toms River Long Term Care staff and residents had a blast during Shark Week!…",
           "url": "https://x.com/ChildrensSpecNJ/status/2091556144879714685",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1143,13 +1093,13 @@
     },
     {
       "id": "l554",
-      "text": "@ChildrensSpecNJ A BLIZZARD Treat for a great cause? That\u2019s hero behavior!",
+      "text": "@ChildrensSpecNJ A BLIZZARD Treat for a great cause? That’s hero behavior!",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@ChildrensSpecNJ A BLIZZARD Treat for a great cause? That\u2019s hero behavior!",
+          "title": "@ChildrensSpecNJ A BLIZZARD Treat for a great cause? That’s hero behavior!",
           "url": "https://x.com/DairyQueen/status/2082841293583991257",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1170,7 +1120,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Bunch0numb3rz @GovernorShapiro @RobertKennedyJr You really believe they can fil\u2026",
+          "title": "@Bunch0numb3rz @GovernorShapiro @RobertKennedyJr You really believe they can fil…",
           "url": "https://x.com/HenryHonto/status/2092689790705508363",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1191,7 +1141,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@VivekGRamaswamy All of your posts fall flat. Are you even trying? Where was the\u2026",
+          "title": "@VivekGRamaswamy All of your posts fall flat. Are you even trying? Where was the…",
           "url": "https://x.com/HenryHonto/status/2093071936876052913",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1233,7 +1183,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Bunch0numb3rz @GovernorShapiro @RobertKennedyJr Thank you. Going above and beyo\u2026",
+          "title": "@Bunch0numb3rz @GovernorShapiro @RobertKennedyJr Thank you. Going above and beyo…",
           "url": "https://x.com/HenryHonto/status/2092700599829553263",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1254,7 +1204,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Bunch0numb3rz @GovernorShapiro @RobertKennedyJr Ah so vaccines do have fetus ju\u2026",
+          "title": "@Bunch0numb3rz @GovernorShapiro @RobertKennedyJr Ah so vaccines do have fetus ju…",
           "url": "https://x.com/HenryHonto/status/2092699402427122006",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1290,13 +1240,13 @@
     },
     {
       "id": "l561",
-      "text": "\ud83e\udd2e",
+      "text": "🤮",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83e\udd2e",
+          "title": "🤮",
           "url": "https://x.com/HenryHonto/status/2092670473339298069",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1311,13 +1261,13 @@
     },
     {
       "id": "l562",
-      "text": "@UNeurobiology @uabbme @UABPathology @UABPsychiatry @UABHeersink @UABNews @uabmedicine Congratulations \ud83c\udf89",
+      "text": "@UNeurobiology @uabbme @UABPathology @UABPsychiatry @UABHeersink @UABNews @uabmedicine Congratulations 🎉",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@UNeurobiology @uabbme @UABPathology @UABPsychiatry @UABHeersink @UABNews @uabme\u2026",
+          "title": "@UNeurobiology @uabbme @UABPathology @UABPsychiatry @UABHeersink @UABNews @uabme…",
           "url": "https://x.com/NathanASmith1/status/2093097359647383614",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1332,13 +1282,13 @@
     },
     {
       "id": "l563",
-      "text": "PM&amp;R Chair @VNguyenPMR was elected to serve as vice president of ISPRM, a global organization dedicated to advancing rehabilitation medicine, education, research, and advocacy for people with disabilities. \ud83d\udc4f@UABHeersink @uabmedicine \nhttps://t.co/JkX6awR74Q https://t.co/ARcIyQC1hq",
+      "text": "PM&amp;R Chair @VNguyenPMR was elected to serve as vice president of ISPRM, a global organization dedicated to advancing rehabilitation medicine, education, research, and advocacy for people with disabilities. 👏@UABHeersink @uabmedicine \nhttps://t.co/JkX6awR74Q https://t.co/ARcIyQC1hq",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "PM&amp;R Chair @VNguyenPMR was elected to serve as vice president of ISPRM, a gl\u2026",
+          "title": "PM&amp;R Chair @VNguyenPMR was elected to serve as vice president of ISPRM, a gl…",
           "url": "https://x.com/UABrehab/status/2092702225478861301",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1380,7 +1330,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@HenryHonto @VivekGRamaswamy For some reason Vivek refuses to brag about all Tru\u2026",
+          "title": "@HenryHonto @VivekGRamaswamy For some reason Vivek refuses to brag about all Tru…",
           "url": "https://x.com/pbbaer/status/2093081493879066936",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1401,7 +1351,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@HenryHonto @Bunch0numb3rz @GovernorShapiro @RobertKennedyJr Tiny parts of cells\u2026",
+          "title": "@HenryHonto @Bunch0numb3rz @GovernorShapiro @RobertKennedyJr Tiny parts of cells…",
           "url": "https://x.com/Lennert_vd_Boom/status/2093065284965847484",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1422,7 +1372,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@HenryHonto @GovernorShapiro @RobertKennedyJr Because there is no fetal tissue i\u2026",
+          "title": "@HenryHonto @GovernorShapiro @RobertKennedyJr Because there is no fetal tissue i…",
           "url": "https://x.com/Lennert_vd_Boom/status/2093065159644217565",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1437,13 +1387,13 @@
     },
     {
       "id": "l568",
-      "text": "Join us in congratulating to Dr. Kelly Keefe Marcoux, Chief Nursing Officer @ChildrensSpecNJ, on being named a Fellow of the American Academy of Nursing!\ud83d\udc4f\ud83d\udc4f\n\nThis is one of the highest honors in the nursing profession, and we couldn't be prouder to have such an inspiring leader in the RWJBarnabas Health family. Thank you for your dedication to our patients and families!",
+      "text": "Join us in congratulating to Dr. Kelly Keefe Marcoux, Chief Nursing Officer @ChildrensSpecNJ, on being named a Fellow of the American Academy of Nursing!👏👏\n\nThis is one of the highest honors in the nursing profession, and we couldn't be prouder to have such an inspiring leader in the RWJBarnabas Health family. Thank you for your dedication to our patients and families!",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Join us in congratulating to Dr. Kelly Keefe Marcoux, Chief Nursing Officer @Chi\u2026",
+          "title": "Join us in congratulating to Dr. Kelly Keefe Marcoux, Chief Nursing Officer @Chi…",
           "url": "https://x.com/RWJBarnabas/status/2079666793572893010",
           "date": "2026-07-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1458,13 +1408,13 @@
     },
     {
       "id": "l569",
-      "text": "Nick Jonas visited the Children's Specialized Hospital in New Brunswick, surprising patients and families with a special visit. He is so sweet \ud83e\udd79\u2764\ufe0f #NickJonas\n\n\ud83d\udcf8: @ChildrensSpecNJ https://t.co/FZNYYeuQXa",
+      "text": "Nick Jonas visited the Children's Specialized Hospital in New Brunswick, surprising patients and families with a special visit. He is so sweet 🥹❤️ #NickJonas\n\n📸: @ChildrensSpecNJ https://t.co/FZNYYeuQXa",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Nick Jonas visited the Children's Specialized Hospital in New Brunswick, surpris\u2026",
+          "title": "Nick Jonas visited the Children's Specialized Hospital in New Brunswick, surpris…",
           "url": "https://x.com/Bradfordsrookie/status/2073267221594284344",
           "date": "2026-07-04",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1479,13 +1429,13 @@
     },
     {
       "id": "l570",
-      "text": "@RATSFICATION I work in mental health! I\u2019m a recreational therapists with a specialty in therapeutic art!",
+      "text": "@RATSFICATION I work in mental health! I’m a recreational therapists with a specialty in therapeutic art!",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@RATSFICATION I work in mental health! I\u2019m a recreational therapists with a spec\u2026",
+          "title": "@RATSFICATION I work in mental health! I’m a recreational therapists with a spec…",
           "url": "https://x.com/HonestitisAbe/status/2042308285106098180",
           "date": "2026-04-09",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1500,13 +1450,13 @@
     },
     {
       "id": "l571",
-      "text": "Congratulations to Kelly Keefe Marcoux, PhD, Vice President of Patient Care Services and Chief Nursing Officer @ChildrensSpecNJ (part of the Children\u2019s Health network at RWJBarnabas Health), on being named the inaugural recipient of the Society of Pediatric Nurses (SPN) DAISY Award of the Year in Pediatric Nursing! The award was presented to her at the SPN\u2019s 36th Annual Conference recently held in Orlando, Florida.\n\nThe SPN DAISY Award of the Year in Pediatric Nursing recognizes one exceptional",
+      "text": "Congratulations to Kelly Keefe Marcoux, PhD, Vice President of Patient Care Services and Chief Nursing Officer @ChildrensSpecNJ (part of the Children’s Health network at RWJBarnabas Health), on being named the inaugural recipient of the Society of Pediatric Nurses (SPN) DAISY Award of the Year in Pediatric Nursing! The award was presented to her at the SPN’s 36th Annual Conference recently held in Orlando, Florida.\n\nThe SPN DAISY Award of the Year in Pediatric Nursing recognizes one exceptional",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Congratulations to Kelly Keefe Marcoux, PhD, Vice President of Patient Care Serv\u2026",
+          "title": "Congratulations to Kelly Keefe Marcoux, PhD, Vice President of Patient Care Serv…",
           "url": "https://x.com/RWJBarnabas/status/2061878351053078907",
           "date": "2026-06-02",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1521,13 +1471,13 @@
     },
     {
       "id": "l572",
-      "text": "FIU Researcher Dr. Tana Carson created an evidence-based program at FIU that prepares graduate students, future physical, occupational and recreational therapists, to teach swimming and water safety to children with autism, giving them the skills and confidence to thrive in the water.\n\nThis #WorldAutismAwarenessDay, meet the FIU innovators turning passion into real change. \ud83d\udc99 \n\n@FIUCCF \n@FIUNursing \n\nRead more: https://t.co/7He63X4yeH",
+      "text": "FIU Researcher Dr. Tana Carson created an evidence-based program at FIU that prepares graduate students, future physical, occupational and recreational therapists, to teach swimming and water safety to children with autism, giving them the skills and confidence to thrive in the water.\n\nThis #WorldAutismAwarenessDay, meet the FIU innovators turning passion into real change. 💙 \n\n@FIUCCF \n@FIUNursing \n\nRead more: https://t.co/7He63X4yeH",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "FIU Researcher Dr. Tana Carson created an evidence-based program at FIU that pre\u2026",
+          "title": "FIU Researcher Dr. Tana Carson created an evidence-based program at FIU that pre…",
           "url": "https://x.com/FIU/status/2039708452662956513",
           "date": "2026-04-02",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1548,7 +1498,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "This is why I exclusively patronize white male:\n\nPhysicians (MDs), Osteopathic P\u2026",
+          "title": "This is why I exclusively patronize white male:\n\nPhysicians (MDs), Osteopathic P…",
           "url": "https://x.com/WBSApparel/status/2037701655223804109",
           "date": "2026-03-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1569,7 +1519,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Happy Child Life Month! We love our extraordinary Child Life Team consisting of \u2026",
+          "title": "Happy Child Life Month! We love our extraordinary Child Life Team consisting of …",
           "url": "https://x.com/manfamchildrens/status/2038711153497350286",
           "date": "2026-03-30",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1584,13 +1534,13 @@
     },
     {
       "id": "l575",
-      "text": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researchers are increasingly using the term to describe cases where people develop or strengthen psychotic symptoms, especially delusions, after prolonged use of AI chatbots. With increasing use of chatbots for therapy, and even AI \"companions,\" what does this mean? Come on in!\n\nPatreon: https://www.patreon.com/GeorgRockallSchmidt \nLeave a tip: paypal.me/GeorgRockallSchmidt \nTwitter: https://twitter.com/grockallschmidt \nBlu\u2026",
+      "text": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researchers are increasingly using the term to describe cases where people develop or strengthen psychotic symptoms, especially delusions, after prolonged use of AI chatbots. With increasing use of chatbots for therapy, and even AI \"companions,\" what does this mean? Come on in!\n\nPatreon: https://www.patreon.com/GeorgRockallSchmidt \nLeave a tip: paypal.me/GeorgRockallSchmidt \nTwitter: https://twitter.com/grockallschmidt \nBlu…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researc\u2026",
+          "title": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researc…",
           "url": "https://www.youtube.com/watch?v=lt6SnAxRopQ",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1605,7 +1555,7 @@
     },
     {
       "id": "l476",
-      "text": "Diversional Therapy Assistant (531487) \u2014 Department of Health, Tasmania (West Coast, Tasmania, Australia). Posted 1 week ago.",
+      "text": "Diversional Therapy Assistant (531487) — Department of Health, Tasmania (West Coast, Tasmania, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1626,7 +1576,7 @@
     },
     {
       "id": "l477",
-      "text": "Allied Health - Mental Health and Alcohol & Other Drugs Talent Pool - Queensland Health \u2014 Metro South Health (Greater Brisbane Area). Posted 4 months ago.",
+      "text": "Allied Health - Mental Health and Alcohol & Other Drugs Talent Pool - Queensland Health — Metro South Health (Greater Brisbane Area). Posted 4 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1647,7 +1597,7 @@
     },
     {
       "id": "l478",
-      "text": "Case Managers - Aranda House Therapeutic Community \u2014 Drug & Alcohol Services Australia (Alice Springs, Northern Territory, Australia). Posted 2 days ago.",
+      "text": "Case Managers - Aranda House Therapeutic Community — Drug & Alcohol Services Australia (Alice Springs, Northern Territory, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1668,7 +1618,7 @@
     },
     {
       "id": "l479",
-      "text": "Clinician \u2014 Department of Justice and Community Safety, Victoria (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Clinician — Department of Justice and Community Safety, Victoria (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1689,7 +1639,7 @@
     },
     {
       "id": "l480",
-      "text": "Recovery Clinician \u2014 Mercy Health Australia (Footscray, Victoria, Australia). Posted 3 weeks ago.",
+      "text": "Recovery Clinician — Mercy Health Australia (Footscray, Victoria, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1710,13 +1660,13 @@
     },
     {
       "id": "l481",
-      "text": "FT / PT / CASUAL: Senior / Rehabilitation Consultant OT, Psych, Rehab Counsellor \u2013 Townsville \u2014 Strive Occupational Rehabilitation (Townsville, Queensland, Australia). Posted 1 month ago.",
+      "text": "FT / PT / CASUAL: Senior / Rehabilitation Consultant OT, Psych, Rehab Counsellor – Townsville — Strive Occupational Rehabilitation (Townsville, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
           "publisher": "Strive Occupational Rehabilitation",
-          "title": "FT / PT / CASUAL: Senior / Rehabilitation Consultant OT, Psych, Rehab Counsellor \u2013 Townsville",
+          "title": "FT / PT / CASUAL: Senior / Rehabilitation Consultant OT, Psych, Rehab Counsellor – Townsville",
           "url": "https://www.linkedin.com/jobs/view/4443369914",
           "date": "1 month ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
@@ -1731,7 +1681,7 @@
     },
     {
       "id": "l482",
-      "text": "Allied Health - Mental Health and Alcohol & Other Drugs Talent Pool - Queensland Health \u2014 West Moreton Hospital and Health Service (Greater Brisbane Area). Posted 2 weeks ago.",
+      "text": "Allied Health - Mental Health and Alcohol & Other Drugs Talent Pool - Queensland Health — West Moreton Hospital and Health Service (Greater Brisbane Area). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1752,7 +1702,7 @@
     },
     {
       "id": "l483",
-      "text": "Key Worker - Hobart \u2014 Everyday Independence (Hobart, Tasmania, Australia). Posted 2 weeks ago.",
+      "text": "Key Worker - Hobart — Everyday Independence (Hobart, Tasmania, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1773,7 +1723,7 @@
     },
     {
       "id": "l484",
-      "text": "Mental Health Clinician \u2014 Queensland Corrective Services (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Mental Health Clinician — Queensland Corrective Services (Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1794,7 +1744,7 @@
     },
     {
       "id": "l485",
-      "text": "Program Facilitator \u2014 Serco (Wooroloo, Western Australia, Australia). Posted 1 week ago.",
+      "text": "Program Facilitator — Serco (Wooroloo, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1815,13 +1765,13 @@
     },
     {
       "id": "l586",
-      "text": "Software Development After AI\nI think the software industry is going to face a major disruption in the next few years. We are getting close to a point where you could have one AI agent analyze an existing app, map out its features, understand how it works, and then have another AI agent rebuild it from scratch with a new design, different UI elements, and new branding. The result could be a near identical alternative that offers the same functionality but is released for free or at a much lower \u2026",
+      "text": "Software Development After AI\nI think the software industry is going to face a major disruption in the next few years. We are getting close to a point where you could have one AI agent analyze an existing app, map out its features, understand how it works, and then have another AI agent rebuild it from scratch with a new design, different UI elements, and new branding. The result could be a near identical alternative that offers the same functionality but is released for free or at a much lower …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Software Development After AI\nI think the software industry is going to face a m\u2026",
+          "title": "Software Development After AI\nI think the software industry is going to face a m…",
           "url": "https://www.reddit.com/r/vibecoding/comments/1vbb5bh/software_development_after_ai/",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1836,13 +1786,13 @@
     },
     {
       "id": "l587",
-      "text": "ChatGPT is crazy good at turning anti-AI copypastas into infographics. I use them to respond to pro-AI sentiment bc it puts antis on the backfoot trying to defend their cringe and delusional talking points, and the option to straw man isn't available bc it's already been called out in advance\nText versions for everywhere that images aren&#39;t available: Listen dude. I understand this stuff. I did a VBScript assignment in highschool where we had to copy images from a folder and output a collage \u2026",
+      "text": "ChatGPT is crazy good at turning anti-AI copypastas into infographics. I use them to respond to pro-AI sentiment bc it puts antis on the backfoot trying to defend their cringe and delusional talking points, and the option to straw man isn't available bc it's already been called out in advance\nText versions for everywhere that images aren&#39;t available: Listen dude. I understand this stuff. I did a VBScript assignment in highschool where we had to copy images from a folder and output a collage …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "ChatGPT is crazy good at turning anti-AI copypastas into infographics. I use the\u2026",
+          "title": "ChatGPT is crazy good at turning anti-AI copypastas into infographics. I use the…",
           "url": "https://www.reddit.com/r/DefendingAIArt/comments/1vmdp53/chatgpt_is_crazy_good_at_turning_antiai/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1857,13 +1807,13 @@
     },
     {
       "id": "l588",
-      "text": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researchers are increasingly using the term to describe cases where people develop or strengthen psychotic symptoms, especially delusions, after prolonged use of AI chatbots. With increasing use of chatbots for therapy, and even AI \"companions,\" what does this mean? Come on in!\n\nPatreon: https://www.patreon.com/GeorgRockallSchmidt \nLeave a tip: paypal.me/GeorgRockallSchmidt \nTwitter: https://twitter.com/grockallschmidt \nBlu\u2026",
+      "text": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researchers are increasingly using the term to describe cases where people develop or strengthen psychotic symptoms, especially delusions, after prolonged use of AI chatbots. With increasing use of chatbots for therapy, and even AI \"companions,\" what does this mean? Come on in!\n\nPatreon: https://www.patreon.com/GeorgRockallSchmidt \nLeave a tip: paypal.me/GeorgRockallSchmidt \nTwitter: https://twitter.com/grockallschmidt \nBlu…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researc\u2026",
+          "title": "AI Psychosis: Chatbots and Delusion\nWhat is AI psychosis? Clinicians and researc…",
           "url": "https://www.youtube.com/watch?v=lt6SnAxRopQ",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1956,6 +1906,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

@@ -20,64 +20,14 @@
   ],
   "claims": [
     {
-      "id": "21-1023-01",
-      "text": "National peak professional bodies and statutory regulators governing Mental Health and Substance Abuse Social Workers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Mental Health and Substance Abuse Social Workers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Mental Health and Substance Abuse Social Workers",
-          "url": "https://www.psc.gov.au/standards/21-1023",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Mental Health and Substance Abuse Social Workers"
-        }
-      ],
-      "scope": "Australian practitioners in Mental Health and Substance Abuse Social Workers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "21-1023-02",
-      "text": "Automation of routine transactional and analytical tasks in Mental Health and Substance Abuse Social Workers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Mental Health and Substance Abuse Social Workers",
-          "url": "https://www.jobsandskills.gov.au/research/21-1023",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Mental Health and Substance Abuse Social Workers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Mental Health and Substance Abuse Social Workers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "Tuned 60-day autonomous operating loop\n# Mission\n\nRun Tuned as one bounded autonomous commercial bet for 60 days.\n\n**Stretch target:** exceed $1,000,000 in gross cash collected within 60 days. Treat this as pressure and direction, never as evidence or a forecast. Optimize expected revenue and learning velocity without fabricating tractio\n## Executor connected \u2014 bootstrap report (2026-08-06 20:30 Sydney)\n\n**Claude executor is live.** Claude Code Routine `trig_01KQ72C9WYh8LwvFJkXkwnqq`, model Clau\u2026",
+      "text": "Tuned 60-day autonomous operating loop\n# Mission\n\nRun Tuned as one bounded autonomous commercial bet for 60 days.\n\n**Stretch target:** exceed $1,000,000 in gross cash collected within 60 days. Treat this as pressure and direction, never as evidence or a forecast. Optimize expected revenue and learning velocity without fabricating tractio\n## Executor connected — bootstrap report (2026-08-06 20:30 Sydney)\n\n**Claude executor is live.** Claude Code Routine `trig_01KQ72C9WYh8LwvFJkXkwnqq`, model Clau…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Tuned 60-day autonomous operating loop\n# Mission\n\nRun Tuned as one bounded auton\u2026",
+          "title": "Tuned 60-day autonomous operating loop\n# Mission\n\nRun Tuned as one bounded auton…",
           "url": "https://github.com/in-c0/tuned/issues/1",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -92,13 +42,13 @@
     },
     {
       "id": "l504",
-      "text": "Jameson vs. OmniBlocks\nContinuation of the discussion over at #316 about which of Jameson or OmniBlocks is better.\n\n@coderabbitai Please generate a summary of the situation.\n@coderabbitai Please respond to my first message. <!-- This is an auto-generated reply by CodeRabbit -->\n> [!TIP]\n> For best results, initiate chat on the files or code changes.\n\n<details>\n<summary>\ud83e\udde9 Analysis chain</summary>\n\n\ud83c\udfc1 Script executed:\n```\n#!/bin/bash\n# Fetch issue `#335`\ngh issue view 335 --repo OmniBlocks/monorepo\u2026",
+      "text": "Jameson vs. OmniBlocks\nContinuation of the discussion over at #316 about which of Jameson or OmniBlocks is better.\n\n@coderabbitai Please generate a summary of the situation.\n@coderabbitai Please respond to my first message. <!-- This is an auto-generated reply by CodeRabbit -->\n> [!TIP]\n> For best results, initiate chat on the files or code changes.\n\n<details>\n<summary>🧩 Analysis chain</summary>\n\n🏁 Script executed:\n```\n#!/bin/bash\n# Fetch issue `#335`\ngh issue view 335 --repo OmniBlocks/monorepo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Jameson vs. OmniBlocks\nContinuation of the discussion over at #316 about which o\u2026",
+          "title": "Jameson vs. OmniBlocks\nContinuation of the discussion over at #316 about which o…",
           "url": "https://github.com/OmniBlocks/monorepo/issues/335",
           "date": "2026-05-23",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -113,13 +63,13 @@
     },
     {
       "id": "l505",
-      "text": "Self-hosted CMS: editable pages + resource articles (D1-backed)\nAdds a self-hosted CMS so the marketing team can edit the site without touching code. All page copy and resource articles move into Cloudflare D1; the public pages render from the database via SSR, and a calm `/admin` editor drives draft \u2192 publish.\n\n## \u26a0\ufe0f Deploy step \u2014 seed the database (read first)\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https\u2026",
+      "text": "Self-hosted CMS: editable pages + resource articles (D1-backed)\nAdds a self-hosted CMS so the marketing team can edit the site without touching code. All page copy and resource articles move into Cloudflare D1; the public pages render from the database via SSR, and a calm `/admin` editor drives draft → publish.\n\n## ⚠️ Deploy step — seed the database (read first)\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Self-hosted CMS: editable pages + resource articles (D1-backed)\nAdds a self-host\u2026",
+          "title": "Self-hosted CMS: editable pages + resource articles (D1-backed)\nAdds a self-host…",
           "url": "https://github.com/nosliwsirhc/safe_harbours/pull/3",
           "date": "2026-06-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -302,13 +252,13 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -323,13 +273,13 @@
     },
     {
       "id": "l515",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -533,13 +483,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -575,13 +525,13 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -596,13 +546,13 @@
     },
     {
       "id": "l528",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -617,13 +567,13 @@
     },
     {
       "id": "l529",
-      "text": "Show HN: CyberWriter \u2013 a .md editor built on Apple's (barely-used) on-device AI",
+      "text": "Show HN: CyberWriter – a .md editor built on Apple's (barely-used) on-device AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: CyberWriter \u2013 a .md editor built on Apple's (barely-used) on-device AI",
+          "title": "Show HN: CyberWriter – a .md editor built on Apple's (barely-used) on-device AI",
           "url": "https://cyberwriter.app",
           "date": "2026-04-20",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -638,13 +588,13 @@
     },
     {
       "id": "l530",
-      "text": "Social anxiety, not masking, may drive mental health struggles in autistic adults. Hiding or suppressing traits to fit in with social expectations is often linked to higher rates of depression and distress.\n&#32; submitted by &#32; /u/FreeHugs23 &#32; to &#32; r/science [link] &#32; [comments]\n\"Hiding or suppressing traits to fit in with social expectations\" ^ Which is in itself a form of masking . It's literally the 'first' form of masking I think of. What is this garbage? Psy post is a pop sci\u2026",
+      "text": "Social anxiety, not masking, may drive mental health struggles in autistic adults. Hiding or suppressing traits to fit in with social expectations is often linked to higher rates of depression and distress.\n&#32; submitted by &#32; /u/FreeHugs23 &#32; to &#32; r/science [link] &#32; [comments]\n\"Hiding or suppressing traits to fit in with social expectations\" ^ Which is in itself a form of masking . It's literally the 'first' form of masking I think of. What is this garbage? Psy post is a pop sci…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Social anxiety, not masking, may drive mental health struggles in autistic adult\u2026",
+          "title": "Social anxiety, not masking, may drive mental health struggles in autistic adult…",
           "url": "https://www.reddit.com/r/science/comments/1vmcl5t/social_anxiety_not_masking_may_drive_mental/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -659,13 +609,13 @@
     },
     {
       "id": "l531",
-      "text": "Social anxiety, not masking, may drive mental health struggles in autistic adults. Hiding or suppressing traits to fit in with social expectations is often linked to higher rates of depression and distress.\n&#32; submitted by &#32; /u/FreeHugs23 &#32; to &#32; r/psychology [link] &#32; [comments]\nI though hiding or suppressing traits to fit in with social expectations is masking. Did I miss something or read the headline wrong? Anyways, thanks OP for the breakdown in the comments because the a A\u2026",
+      "text": "Social anxiety, not masking, may drive mental health struggles in autistic adults. Hiding or suppressing traits to fit in with social expectations is often linked to higher rates of depression and distress.\n&#32; submitted by &#32; /u/FreeHugs23 &#32; to &#32; r/psychology [link] &#32; [comments]\nI though hiding or suppressing traits to fit in with social expectations is masking. Did I miss something or read the headline wrong? Anyways, thanks OP for the breakdown in the comments because the a A…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Social anxiety, not masking, may drive mental health struggles in autistic adult\u2026",
+          "title": "Social anxiety, not masking, may drive mental health struggles in autistic adult…",
           "url": "https://www.reddit.com/r/psychology/comments/1vmcl7q/social_anxiety_not_masking_may_drive_mental/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -686,7 +636,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "My feed is post after post of the famous/wealthy and their mental health and sub\u2026",
+          "title": "My feed is post after post of the famous/wealthy and their mental health and sub…",
           "url": "https://x.com/Catina1641300/status/2089690988688155092",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -728,7 +678,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Nvidia just bought the entire open-source AI ecosystem.\n\n> Acquired Hugging Face\u2026",
+          "title": "Nvidia just bought the entire open-source AI ecosystem.\n\n> Acquired Hugging Face…",
           "url": "https://x.com/iam_elias1/status/2092923567054970920",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -743,13 +693,13 @@
     },
     {
       "id": "l535",
-      "text": "only videos i\u2019ve ever seen with \u201cmade with ai meta glasses\u201d pop up on my feed have been of people recording vulnerable people with mental health/substance abuse issues, or men sexually harassing women and girls",
+      "text": "only videos i’ve ever seen with “made with ai meta glasses” pop up on my feed have been of people recording vulnerable people with mental health/substance abuse issues, or men sexually harassing women and girls",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "only videos i\u2019ve ever seen with \u201cmade with ai meta glasses\u201d pop up on my feed ha\u2026",
+          "title": "only videos i’ve ever seen with “made with ai meta glasses” pop up on my feed ha…",
           "url": "https://x.com/lrw655321/status/2070134568938512728",
           "date": "2026-06-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -812,7 +762,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Overview\nMetastasizing is the active process in which cancer cells break away\u2026",
+          "title": "AI Overview\nMetastasizing is the active process in which cancer cells break away…",
           "url": "https://x.com/DunnBilly87734/status/2091848709533569181",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -869,13 +819,13 @@
     },
     {
       "id": "l541",
-      "text": "AI Agents Now Consume 5\u00d7 More Tokens Than Humans",
+      "text": "AI Agents Now Consume 5× More Tokens Than Humans",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Agents Now Consume 5\u00d7 More Tokens Than Humans",
+          "title": "AI Agents Now Consume 5× More Tokens Than Humans",
           "url": "https://x.com/ExecutionersES/status/2091735579608395826",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -896,7 +846,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th\u2026",
+          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th…",
           "url": "https://x.com/essexmaelstrom/status/2091841889372635517",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -917,7 +867,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "A public health paper just described how AI-driven unemployment could trigger th\u2026",
+          "title": "A public health paper just described how AI-driven unemployment could trigger th…",
           "url": "https://x.com/iam_elias1/status/2053482016595959973",
           "date": "2026-05-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -938,7 +888,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Catina1641300 maybe but then that means someone thought it would be 'cool' to h\u2026",
+          "title": "@Catina1641300 maybe but then that means someone thought it would be 'cool' to h…",
           "url": "https://x.com/FringeViews/status/2091260344811340218",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -959,7 +909,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "why be angry that your tax money goes towards bombing campaigns that kill kids a\u2026",
+          "title": "why be angry that your tax money goes towards bombing campaigns that kill kids a…",
           "url": "https://x.com/lrw655321/status/2089478931992736114",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -974,13 +924,13 @@
     },
     {
       "id": "l546",
-      "text": "@dan_villafan it\u2019s not about whether you\u2019d personally be swayed to visit rwanda or not? it\u2019s that villa have struck up a deal with and are representing a repressive regime with human rights violations, that not long ago, our country had a cruel deportation scheme with. it\u2019s ugly sportswashing.",
+      "text": "@dan_villafan it’s not about whether you’d personally be swayed to visit rwanda or not? it’s that villa have struck up a deal with and are representing a repressive regime with human rights violations, that not long ago, our country had a cruel deportation scheme with. it’s ugly sportswashing.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@dan_villafan it\u2019s not about whether you\u2019d personally be swayed to visit rwanda \u2026",
+          "title": "@dan_villafan it’s not about whether you’d personally be swayed to visit rwanda …",
           "url": "https://x.com/lrw655321/status/2077050504069226897",
           "date": "2026-07-14",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1016,13 +966,13 @@
     },
     {
       "id": "l548",
-      "text": "I was honoured to attend the Distinguished Gentleman\u2019s Ride in Shillong, an initiative that not only celebrates motorcycle culture but also raises critical awareness on men\u2019s mental health and prostate cancer. Beyond the ride itself, the programme served as an important platform to address deeply concerning issues such as depression, substance abuse, suicide, and the rising HIV/AIDS burden in our state.\n\nMental health and emotional well-being must no longer remain subjects of silence. We need st",
+      "text": "I was honoured to attend the Distinguished Gentleman’s Ride in Shillong, an initiative that not only celebrates motorcycle culture but also raises critical awareness on men’s mental health and prostate cancer. Beyond the ride itself, the programme served as an important platform to address deeply concerning issues such as depression, substance abuse, suicide, and the rising HIV/AIDS burden in our state.\n\nMental health and emotional well-being must no longer remain subjects of silence. We need st",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I was honoured to attend the Distinguished Gentleman\u2019s Ride in Shillong, an init\u2026",
+          "title": "I was honoured to attend the Distinguished Gentleman’s Ride in Shillong, an init…",
           "url": "https://x.com/WailadmikiS/status/2056979522491494634",
           "date": "2026-05-20",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1043,7 +993,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "These scumbags are using AI to monetize sponsorship\n\nDisgusting pathetic grifter\u2026",
+          "title": "These scumbags are using AI to monetize sponsorship\n\nDisgusting pathetic grifter…",
           "url": "https://x.com/alex_behrend/status/2036012782135746883",
           "date": "2026-03-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1058,13 +1008,13 @@
     },
     {
       "id": "l550",
-      "text": "GLM-5.3 just went open-weight.\n\n\u2192 Zhipu's flagship model is now fully open, not the Flash variant, the full GLM-5.3\n\u2192 Weights live on HuggingFace right now\n\u2192 Free to download, fine-tune, self-host, deploy anywhere\n\u2192 1M token context window\n\u2192 Frontier-class reasoning and coding performance\n\u2192 Third major open-weight drop from China this month, after Kimi K3 and Qwen3.8\n\u2192 Zhipu shipped the full-fat version while U.S. labs are still gatekeeping behind APIs\n\u2192 The \"open-weight can't match closed-sourc",
+      "text": "GLM-5.3 just went open-weight.\n\n→ Zhipu's flagship model is now fully open, not the Flash variant, the full GLM-5.3\n→ Weights live on HuggingFace right now\n→ Free to download, fine-tune, self-host, deploy anywhere\n→ 1M token context window\n→ Frontier-class reasoning and coding performance\n→ Third major open-weight drop from China this month, after Kimi K3 and Qwen3.8\n→ Zhipu shipped the full-fat version while U.S. labs are still gatekeeping behind APIs\n→ The \"open-weight can't match closed-sourc",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "GLM-5.3 just went open-weight.\n\n\u2192 Zhipu's flagship model is now fully open, not \u2026",
+          "title": "GLM-5.3 just went open-weight.\n\n→ Zhipu's flagship model is now fully open, not …",
           "url": "https://x.com/iam_elias1/status/2093363783272124808",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1085,7 +1035,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Hy4 has been released.\n\nAnd It seems a good model for it's size. Last time Hy3 w\u2026",
+          "title": "Hy4 has been released.\n\nAnd It seems a good model for it's size. Last time Hy3 w…",
           "url": "https://x.com/iam_elias1/status/2093260780317921648",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1106,7 +1056,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Catina1641300 Oh right I forgot about that. You know who else pushes that and h\u2026",
+          "title": "@Catina1641300 Oh right I forgot about that. You know who else pushes that and h…",
           "url": "https://x.com/FringeViews/status/2090815634439291377",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1142,13 +1092,13 @@
     },
     {
       "id": "l554",
-      "text": "@tomjc09 yeah real. it\u2019s not terrible but their music\u2019s nowhere near as good as it used to be, it\u2019s like it\u2019s been written with festivals/gigs in mind. they\u2019ve never topped a hero\u2019s death, that guitar heavy post punk sound was their best.",
+      "text": "@tomjc09 yeah real. it’s not terrible but their music’s nowhere near as good as it used to be, it’s like it’s been written with festivals/gigs in mind. they’ve never topped a hero’s death, that guitar heavy post punk sound was their best.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@tomjc09 yeah real. it\u2019s not terrible but their music\u2019s nowhere near as good as \u2026",
+          "title": "@tomjc09 yeah real. it’s not terrible but their music’s nowhere near as good as …",
           "url": "https://x.com/lrw655321/status/2089467377993892230",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1169,7 +1119,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "the twisted upper class see vulnerable, working class women and girls as sacrifi\u2026",
+          "title": "the twisted upper class see vulnerable, working class women and girls as sacrifi…",
           "url": "https://x.com/lrw655321/status/2088071394214981695",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1190,7 +1140,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@lrw655321 She was a vile human being, and being murdered doesn't absolve her of\u2026",
+          "title": "@lrw655321 She was a vile human being, and being murdered doesn't absolve her of…",
           "url": "https://x.com/CorinthianJax/status/2075654033461678085",
           "date": "2026-07-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1226,13 +1176,13 @@
     },
     {
       "id": "l558",
-      "text": "@iam_elias1 I'll fetch the original post so the reply matches the discussion and adds one new piece of context.Checking whether this acquisition is real and looking for extra context that isn\u2019t already in the post.they said no to a $7b stake last year then sold the whole thing",
+      "text": "@iam_elias1 I'll fetch the original post so the reply matches the discussion and adds one new piece of context.Checking whether this acquisition is real and looking for extra context that isn’t already in the post.they said no to a $7b stake last year then sold the whole thing",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@iam_elias1 I'll fetch the original post so the reply matches the discussion and\u2026",
+          "title": "@iam_elias1 I'll fetch the original post so the reply matches the discussion and…",
           "url": "https://x.com/RaoulDukeDegen/status/2092934171715150035",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1253,7 +1203,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "trust the process but honestly what the fuck, looking back on the trophy just fe\u2026",
+          "title": "trust the process but honestly what the fuck, looking back on the trophy just fe…",
           "url": "https://x.com/lrw655321/status/2090823177156907321",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1331,13 +1281,13 @@
     },
     {
       "id": "l563",
-      "text": "@Catina1641300 @Trap_12G I believe it has, pre-Hunger games. Time to prepare for survival mode \ud83d\ude09\ud83d\ude13",
+      "text": "@Catina1641300 @Trap_12G I believe it has, pre-Hunger games. Time to prepare for survival mode 😉😓",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Catina1641300 @Trap_12G I believe it has, pre-Hunger games. Time to prepare for\u2026",
+          "title": "@Catina1641300 @Trap_12G I believe it has, pre-Hunger games. Time to prepare for…",
           "url": "https://x.com/nplum24/status/2092326222390858091",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1373,13 +1323,13 @@
     },
     {
       "id": "l565",
-      "text": "god forbid young people are more clued up on corruption &amp; war crimes than people like this that can only criticise her for being \u201cbaby faced\u201d and looking \u201cabout 12\u201d. there is no justification for UoM using their students\u2019 tuition fees to develop weapons for a genocidal state.",
+      "text": "god forbid young people are more clued up on corruption &amp; war crimes than people like this that can only criticise her for being “baby faced” and looking “about 12”. there is no justification for UoM using their students’ tuition fees to develop weapons for a genocidal state.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "god forbid young people are more clued up on corruption &amp; war crimes than pe\u2026",
+          "title": "god forbid young people are more clued up on corruption &amp; war crimes than pe…",
           "url": "https://x.com/lrw655321/status/2078602022832558319",
           "date": "2026-07-18",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1394,13 +1344,13 @@
     },
     {
       "id": "l566",
-      "text": "remember being sat in the stretford end (lol) when united knocked us out the carabou cup few years ago &amp; garnacho was crazy to watch just tore up the wing in the second half &amp; made a muppet out of matty cash, idk i\u2019m excited as long as he stops thinking he\u2019s ronaldo i\u2019m happy",
+      "text": "remember being sat in the stretford end (lol) when united knocked us out the carabou cup few years ago &amp; garnacho was crazy to watch just tore up the wing in the second half &amp; made a muppet out of matty cash, idk i’m excited as long as he stops thinking he’s ronaldo i’m happy",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "remember being sat in the stretford end (lol) when united knocked us out the car\u2026",
+          "title": "remember being sat in the stretford end (lol) when united knocked us out the car…",
           "url": "https://x.com/lrw655321/status/2080334706831200320",
           "date": "2026-07-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1415,13 +1365,13 @@
     },
     {
       "id": "l567",
-      "text": "@FringeViews Just got an ad for the company on X. Never saw it before 10 minutes ago. \ud83e\udee9",
+      "text": "@FringeViews Just got an ad for the company on X. Never saw it before 10 minutes ago. 🫩",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@FringeViews Just got an ad for the company on X. Never saw it before 10 minutes\u2026",
+          "title": "@FringeViews Just got an ad for the company on X. Never saw it before 10 minutes…",
           "url": "https://x.com/Catina1641300/status/2093441108718112784",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1457,13 +1407,13 @@
     },
     {
       "id": "l569",
-      "text": "no champions league, they didn\u2019t even make europa or conference, in his prime, i feel sorry for him, he should be playing in the champions league, or europe at the very least. how the hell can you go from winning the europa league to a club that finished the prem mid table",
+      "text": "no champions league, they didn’t even make europa or conference, in his prime, i feel sorry for him, he should be playing in the champions league, or europe at the very least. how the hell can you go from winning the europa league to a club that finished the prem mid table",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "no champions league, they didn\u2019t even make europa or conference, in his prime, i\u2026",
+          "title": "no champions league, they didn’t even make europa or conference, in his prime, i…",
           "url": "https://x.com/lrw655321/status/2079695303226036619",
           "date": "2026-07-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1484,7 +1434,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@lrw655321 Spend her whole life advocating against feminism to then be killed in\u2026",
+          "title": "@lrw655321 Spend her whole life advocating against feminism to then be killed in…",
           "url": "https://x.com/Teslapunk3327/status/2075673634958369178",
           "date": "2026-07-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1499,13 +1449,13 @@
     },
     {
       "id": "l571",
-      "text": "Maybe this guy is the architect of my algorithm. That would make a lot of sense. \ud83d\ude02",
+      "text": "Maybe this guy is the architect of my algorithm. That would make a lot of sense. 😂",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Maybe this guy is the architect of my algorithm. That would make a lot of sense.\u2026",
+          "title": "Maybe this guy is the architect of my algorithm. That would make a lot of sense.…",
           "url": "https://x.com/Catina1641300/status/2093099893904839126",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1520,13 +1470,13 @@
     },
     {
       "id": "l572",
-      "text": "@FringeViews @pubity Frankenscience is everywhere \ud83e\udd2e",
+      "text": "@FringeViews @pubity Frankenscience is everywhere 🤮",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@FringeViews @pubity Frankenscience is everywhere \ud83e\udd2e",
+          "title": "@FringeViews @pubity Frankenscience is everywhere 🤮",
           "url": "https://x.com/Catina1641300/status/2092766129416528136",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1547,7 +1497,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I think the nostalgia is about sales. It sells better than sex in an oversexed c\u2026",
+          "title": "I think the nostalgia is about sales. It sells better than sex in an oversexed c…",
           "url": "https://x.com/Catina1641300/status/2092614175138693341",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1583,13 +1533,13 @@
     },
     {
       "id": "l575",
-      "text": "@iam_elias1 \u8fd9\u8981\u662f\u771f\u7684\uff0c\u5f00\u6e90\u751f\u6001\u6015\u662f\u8981\u5148\u96c6\u4f53\u5931\u7720\u4e86",
+      "text": "@iam_elias1 这要是真的，开源生态怕是要先集体失眠了",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@iam_elias1 \u8fd9\u8981\u662f\u771f\u7684\uff0c\u5f00\u6e90\u751f\u6001\u6015\u662f\u8981\u5148\u96c6\u4f53\u5931\u7720\u4e86",
+          "title": "@iam_elias1 这要是真的，开源生态怕是要先集体失眠了",
           "url": "https://x.com/ajs6888/status/2092959534717526184",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1610,7 +1560,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "the synthetic face isn't the main problem. it's that 30+ platforms converge on t\u2026",
+          "title": "the synthetic face isn't the main problem. it's that 30+ platforms converge on t…",
           "url": "https://x.com/timopowerz/status/2092745593194004532",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1625,13 +1575,13 @@
     },
     {
       "id": "l577",
-      "text": "@iam_elias1 Zero marketing, maximum impact! We actually traced how this model silently crushed benchmarks https://t.co/BQdBJrzyX9 \u2014 outperforming with no hype is the real story.",
+      "text": "@iam_elias1 Zero marketing, maximum impact! We actually traced how this model silently crushed benchmarks https://t.co/BQdBJrzyX9 — outperforming with no hype is the real story.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@iam_elias1 Zero marketing, maximum impact! We actually traced how this model si\u2026",
+          "title": "@iam_elias1 Zero marketing, maximum impact! We actually traced how this model si…",
           "url": "https://x.com/MichaelWaitze/status/2092608883705758057",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1652,7 +1602,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@iam_elias1 The sameness is the problem; I'd compare those talking-avatar ads wi\u2026",
+          "title": "@iam_elias1 The sameness is the problem; I'd compare those talking-avatar ads wi…",
           "url": "https://x.com/v4vaivideo/status/2092569318965829950",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1715,7 +1665,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Catina1641300 Manipulation works best on the weak minded especially if they wan\u2026",
+          "title": "@Catina1641300 Manipulation works best on the weak minded especially if they wan…",
           "url": "https://x.com/cook11245/status/2091287766822781145",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1772,13 +1722,13 @@
     },
     {
       "id": "l584",
-      "text": "Solutions and Pathways Forward\n\nExperts agree Alaska must shift from reactive removal to prevention and tribal-led solutions. \n\nThe Family First Prevention Services Act (FFPSA) of 2018 now allows Title IV-E funds to pay for evidence-based prevention (e.g., mental health therapy, substance abuse treatment, parenting classes, kinship navigation) at a 50% match. \n\nAlaska\u2019s children\u2019s agencies are working on a federally approved FFPSA plan so that both the State and Tribes can draw these funds for a",
+      "text": "Solutions and Pathways Forward\n\nExperts agree Alaska must shift from reactive removal to prevention and tribal-led solutions. \n\nThe Family First Prevention Services Act (FFPSA) of 2018 now allows Title IV-E funds to pay for evidence-based prevention (e.g., mental health therapy, substance abuse treatment, parenting classes, kinship navigation) at a 50% match. \n\nAlaska’s children’s agencies are working on a federally approved FFPSA plan so that both the State and Tribes can draw these funds for a",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Solutions and Pathways Forward\n\nExperts agree Alaska must shift from reactive re\u2026",
+          "title": "Solutions and Pathways Forward\n\nExperts agree Alaska must shift from reactive re…",
           "url": "https://x.com/VeritasCyborg/status/2029486500799488097",
           "date": "2026-03-05",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1793,13 +1743,13 @@
     },
     {
       "id": "l585",
-      "text": "Can AI solve South Korea\u2019s problem with social recluses? - Asia Specific podcast, BBC World Service\nWhat if leaving your bedroom felt impossible? Across Asia, a growing number of young people are becoming hikikomori, a term used to describe people who suffer from a severe social withdrawal. \n\nClick here to subscribe to our channel \ud83d\udc49\ud83c\udffd https://bbc.in/3VyyriM\n\nThey shut themselves in their homes, retreating from work, school, or their families for months, sometimes years.  \n\nThat condition was firs\u2026",
+      "text": "Can AI solve South Korea’s problem with social recluses? - Asia Specific podcast, BBC World Service\nWhat if leaving your bedroom felt impossible? Across Asia, a growing number of young people are becoming hikikomori, a term used to describe people who suffer from a severe social withdrawal. \n\nClick here to subscribe to our channel 👉🏽 https://bbc.in/3VyyriM\n\nThey shut themselves in their homes, retreating from work, school, or their families for months, sometimes years.  \n\nThat condition was firs…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Can AI solve South Korea\u2019s problem with social recluses? - Asia Specific podcast\u2026",
+          "title": "Can AI solve South Korea’s problem with social recluses? - Asia Specific podcast…",
           "url": "https://www.youtube.com/watch?v=GKILCqVwp9E",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1814,7 +1764,7 @@
     },
     {
       "id": "l486",
-      "text": "Mental Health Clinician (Psych, OT or SW) \u2014 Central Queensland Hospital and Health Service (Rockhampton, Queensland, Australia). Posted 6 days ago.",
+      "text": "Mental Health Clinician (Psych, OT or SW) — Central Queensland Hospital and Health Service (Rockhampton, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1835,7 +1785,7 @@
     },
     {
       "id": "l487",
-      "text": "Social Worker \u2014 Ramsay Health Care (Joondalup, Western Australia, Australia). Posted 1 week ago.",
+      "text": "Social Worker — Ramsay Health Care (Joondalup, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1856,7 +1806,7 @@
     },
     {
       "id": "l488",
-      "text": "Mental Health Clinician (Psych, OT or SW) \u2014 Central Queensland Hospital and Health Service (Yeppoon, Queensland, Australia). Posted 6 days ago.",
+      "text": "Mental Health Clinician (Psych, OT or SW) — Central Queensland Hospital and Health Service (Yeppoon, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1877,7 +1827,7 @@
     },
     {
       "id": "l489",
-      "text": "Social Worker, Occupational Therapist, Psychologist - Senior (Clinical Care Coordinator Mental Health) \u2014 Metro South Health (Brisbane, Queensland, Australia). Posted 1 day ago.",
+      "text": "Social Worker, Occupational Therapist, Psychologist - Senior (Clinical Care Coordinator Mental Health) — Metro South Health (Brisbane, Queensland, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1898,7 +1848,7 @@
     },
     {
       "id": "l490",
-      "text": "Mental Health Clinician (Psychologist Social Worker or Occupational Therapist) \u2014 Queensland Corrective Services (Cairns, Queensland, Australia). Posted 1 week ago.",
+      "text": "Mental Health Clinician (Psychologist Social Worker or Occupational Therapist) — Queensland Corrective Services (Cairns, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1919,7 +1869,7 @@
     },
     {
       "id": "l491",
-      "text": "Mental Health Social Worker \u2014 SSI (Carlton, Victoria, Australia). Posted 3 weeks ago.",
+      "text": "Mental Health Social Worker — SSI (Carlton, Victoria, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1940,7 +1890,7 @@
     },
     {
       "id": "l492",
-      "text": "Social Worker \u2014 Clarity Health Care (Rockhampton Area). Posted 1 day ago.",
+      "text": "Social Worker — Clarity Health Care (Rockhampton Area). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1961,7 +1911,7 @@
     },
     {
       "id": "l493",
-      "text": "Senior Mental Health Clinician \u2014 Queensland Corrective Services (Townsville, Queensland, Australia). Posted 1 week ago.",
+      "text": "Senior Mental Health Clinician — Queensland Corrective Services (Townsville, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1982,7 +1932,7 @@
     },
     {
       "id": "l494",
-      "text": "Allied Health - Mental Health and Alcohol & Other Drugs Talent Pool - Queensland Health \u2014 Metro South Health (Greater Brisbane Area). Posted 4 months ago.",
+      "text": "Allied Health - Mental Health and Alcohol & Other Drugs Talent Pool - Queensland Health — Metro South Health (Greater Brisbane Area). Posted 4 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2003,7 +1953,7 @@
     },
     {
       "id": "l495",
-      "text": "Mental Health Liaison Clinician \u2014 Queensland Government (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Mental Health Liaison Clinician — Queensland Government (Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2024,13 +1974,13 @@
     },
     {
       "id": "l596",
-      "text": "Tuned 60-day autonomous operating loop\n# Mission\n\nRun Tuned as one bounded autonomous commercial bet for 60 days.\n\n**Stretch target:** exceed $1,000,000 in gross cash collected within 60 days. Treat this as pressure and direction, never as evidence or a forecast. Optimize expected revenue and learning velocity without fabricating tractio\n## Executor connected \u2014 bootstrap report (2026-08-06 20:30 Sydney)\n\n**Claude executor is live.** Claude Code Routine `trig_01KQ72C9WYh8LwvFJkXkwnqq`, model Clau\u2026",
+      "text": "Tuned 60-day autonomous operating loop\n# Mission\n\nRun Tuned as one bounded autonomous commercial bet for 60 days.\n\n**Stretch target:** exceed $1,000,000 in gross cash collected within 60 days. Treat this as pressure and direction, never as evidence or a forecast. Optimize expected revenue and learning velocity without fabricating tractio\n## Executor connected — bootstrap report (2026-08-06 20:30 Sydney)\n\n**Claude executor is live.** Claude Code Routine `trig_01KQ72C9WYh8LwvFJkXkwnqq`, model Clau…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Tuned 60-day autonomous operating loop\n# Mission\n\nRun Tuned as one bounded auton\u2026",
+          "title": "Tuned 60-day autonomous operating loop\n# Mission\n\nRun Tuned as one bounded auton…",
           "url": "https://github.com/in-c0/tuned/issues/1",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -2045,13 +1995,13 @@
     },
     {
       "id": "l597",
-      "text": "Jameson vs. OmniBlocks\nContinuation of the discussion over at #316 about which of Jameson or OmniBlocks is better.\n\n@coderabbitai Please generate a summary of the situation.\n@coderabbitai Please respond to my first message. <!-- This is an auto-generated reply by CodeRabbit -->\n> [!TIP]\n> For best results, initiate chat on the files or code changes.\n\n<details>\n<summary>\ud83e\udde9 Analysis chain</summary>\n\n\ud83c\udfc1 Script executed:\n```\n#!/bin/bash\n# Fetch issue `#335`\ngh issue view 335 --repo OmniBlocks/monorepo\u2026",
+      "text": "Jameson vs. OmniBlocks\nContinuation of the discussion over at #316 about which of Jameson or OmniBlocks is better.\n\n@coderabbitai Please generate a summary of the situation.\n@coderabbitai Please respond to my first message. <!-- This is an auto-generated reply by CodeRabbit -->\n> [!TIP]\n> For best results, initiate chat on the files or code changes.\n\n<details>\n<summary>🧩 Analysis chain</summary>\n\n🏁 Script executed:\n```\n#!/bin/bash\n# Fetch issue `#335`\ngh issue view 335 --repo OmniBlocks/monorepo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Jameson vs. OmniBlocks\nContinuation of the discussion over at #316 about which o\u2026",
+          "title": "Jameson vs. OmniBlocks\nContinuation of the discussion over at #316 about which o…",
           "url": "https://github.com/OmniBlocks/monorepo/issues/335",
           "date": "2026-05-23",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -2066,13 +2016,13 @@
     },
     {
       "id": "l598",
-      "text": "Self-hosted CMS: editable pages + resource articles (D1-backed)\nAdds a self-hosted CMS so the marketing team can edit the site without touching code. All page copy and resource articles move into Cloudflare D1; the public pages render from the database via SSR, and a calm `/admin` editor drives draft \u2192 publish.\n\n## \u26a0\ufe0f Deploy step \u2014 seed the database (read first)\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https\u2026",
+      "text": "Self-hosted CMS: editable pages + resource articles (D1-backed)\nAdds a self-hosted CMS so the marketing team can edit the site without touching code. All page copy and resource articles move into Cloudflare D1; the public pages render from the database via SSR, and a calm `/admin` editor drives draft → publish.\n\n## ⚠️ Deploy step — seed the database (read first)\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Self-hosted CMS: editable pages + resource articles (D1-backed)\nAdds a self-host\u2026",
+          "title": "Self-hosted CMS: editable pages + resource articles (D1-backed)\nAdds a self-host…",
           "url": "https://github.com/nosliwsirhc/safe_harbours/pull/3",
           "date": "2026-06-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -2087,13 +2037,13 @@
     },
     {
       "id": "l599",
-      "text": "Social anxiety, not masking, may drive mental health struggles in autistic adults. Hiding or suppressing traits to fit in with social expectations is often linked to higher rates of depression and distress.\n&#32; submitted by &#32; /u/FreeHugs23 &#32; to &#32; r/science [link] &#32; [comments]\n\"Hiding or suppressing traits to fit in with social expectations\" ^ Which is in itself a form of masking . It's literally the 'first' form of masking I think of. What is this garbage? Psy post is a pop sci\u2026",
+      "text": "Social anxiety, not masking, may drive mental health struggles in autistic adults. Hiding or suppressing traits to fit in with social expectations is often linked to higher rates of depression and distress.\n&#32; submitted by &#32; /u/FreeHugs23 &#32; to &#32; r/science [link] &#32; [comments]\n\"Hiding or suppressing traits to fit in with social expectations\" ^ Which is in itself a form of masking . It's literally the 'first' form of masking I think of. What is this garbage? Psy post is a pop sci…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Social anxiety, not masking, may drive mental health struggles in autistic adult\u2026",
+          "title": "Social anxiety, not masking, may drive mental health struggles in autistic adult…",
           "url": "https://www.reddit.com/r/science/comments/1vmcl5t/social_anxiety_not_masking_may_drive_mental/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2108,13 +2058,13 @@
     },
     {
       "id": "l5100",
-      "text": "Social anxiety, not masking, may drive mental health struggles in autistic adults. Hiding or suppressing traits to fit in with social expectations is often linked to higher rates of depression and distress.\n&#32; submitted by &#32; /u/FreeHugs23 &#32; to &#32; r/psychology [link] &#32; [comments]\nI though hiding or suppressing traits to fit in with social expectations is masking. Did I miss something or read the headline wrong? Anyways, thanks OP for the breakdown in the comments because the a A\u2026",
+      "text": "Social anxiety, not masking, may drive mental health struggles in autistic adults. Hiding or suppressing traits to fit in with social expectations is often linked to higher rates of depression and distress.\n&#32; submitted by &#32; /u/FreeHugs23 &#32; to &#32; r/psychology [link] &#32; [comments]\nI though hiding or suppressing traits to fit in with social expectations is masking. Did I miss something or read the headline wrong? Anyways, thanks OP for the breakdown in the comments because the a A…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Social anxiety, not masking, may drive mental health struggles in autistic adult\u2026",
+          "title": "Social anxiety, not masking, may drive mental health struggles in autistic adult…",
           "url": "https://www.reddit.com/r/psychology/comments/1vmcl7q/social_anxiety_not_masking_may_drive_mental/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2129,13 +2079,13 @@
     },
     {
       "id": "l5101",
-      "text": "Can AI solve South Korea\u2019s problem with social recluses? - Asia Specific podcast, BBC World Service\nWhat if leaving your bedroom felt impossible? Across Asia, a growing number of young people are becoming hikikomori, a term used to describe people who suffer from a severe social withdrawal. \n\nClick here to subscribe to our channel \ud83d\udc49\ud83c\udffd https://bbc.in/3VyyriM\n\nThey shut themselves in their homes, retreating from work, school, or their families for months, sometimes years.  \n\nThat condition was firs\u2026",
+      "text": "Can AI solve South Korea’s problem with social recluses? - Asia Specific podcast, BBC World Service\nWhat if leaving your bedroom felt impossible? Across Asia, a growing number of young people are becoming hikikomori, a term used to describe people who suffer from a severe social withdrawal. \n\nClick here to subscribe to our channel 👉🏽 https://bbc.in/3VyyriM\n\nThey shut themselves in their homes, retreating from work, school, or their families for months, sometimes years.  \n\nThat condition was firs…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Can AI solve South Korea\u2019s problem with social recluses? - Asia Specific podcast\u2026",
+          "title": "Can AI solve South Korea’s problem with social recluses? - Asia Specific podcast…",
           "url": "https://www.youtube.com/watch?v=GKILCqVwp9E",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2226,6 +2176,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

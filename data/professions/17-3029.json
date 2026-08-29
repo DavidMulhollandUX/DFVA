@@ -14,56 +14,6 @@
   "programs": [],
   "claims": [
     {
-      "id": "17-3029-01",
-      "text": "National peak professional bodies and statutory regulators governing Engineering Technicians, Except Drafters, All Other enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Engineering Technicians, Except Drafters, All Other",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Engineering Technicians, Except Drafters, All Other",
-          "url": "https://www.psc.gov.au/standards/17-3029",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Engineering Technicians, Except Drafters, All Other"
-        }
-      ],
-      "scope": "Australian practitioners in Engineering Technicians, Except Drafters, All Other across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "17-3029-02",
-      "text": "Automation of routine transactional and analytical tasks in Engineering Technicians, Except Drafters, All Other heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Engineering Technicians, Except Drafters, All Other",
-          "url": "https://www.jobsandskills.gov.au/research/17-3029",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Engineering Technicians, Except Drafters, All Other in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Engineering Technicians, Except Drafters, All Other roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
       "text": "Gooncave eviction part one\n## About the PR\r\nRemoves two of the \"gooncave\" jobs, chemist & atmos tech, and their uses.\r\nMakes the rest of Medical & Engineering (except their interns) always have their respective flags, instead of relying on extended access.\r\n\r\n## Why / Balance\r\nThese 2 jobs are notorious for isolating from _th",
       "lane": "L5",
@@ -71,7 +21,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Gooncave eviction part one\n## About the PR\r\nRemoves two of the \"gooncave\" jobs, \u2026",
+          "title": "Gooncave eviction part one\n## About the PR\r\nRemoves two of the \"gooncave\" jobs, …",
           "url": "https://github.com/pinwheel-sector/pinwheel/pull/22",
           "date": "2026-06-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -86,13 +36,13 @@
     },
     {
       "id": "l504",
-      "text": "[Session] Research software engineering: Between Service Provision and Research\n### Organizers\n\nMarkus Konkol, 52\u00b0North Spatial Information Research GmbH ([@MarkusKonk](https://github.com/MarkusKonk))\n\n### Session Description\n\nResearch Software Engineers (RSEs) are frequently positioned as \"service providers\", i.e., highly skilled technicians who assist domain scientists in rea\nDear @MarkusKonk , we are happy to announce that we would like to host your contributed session at the Collaborations W\u2026",
+      "text": "[Session] Research software engineering: Between Service Provision and Research\n### Organizers\n\nMarkus Konkol, 52°North Spatial Information Research GmbH ([@MarkusKonk](https://github.com/MarkusKonk))\n\n### Session Description\n\nResearch Software Engineers (RSEs) are frequently positioned as \"service providers\", i.e., highly skilled technicians who assist domain scientists in rea\nDear @MarkusKonk , we are happy to announce that we would like to host your contributed session at the Collaborations W…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[Session] Research software engineering: Between Service Provision and Research\n\u2026",
+          "title": "[Session] Research software engineering: Between Service Provision and Research\n…",
           "url": "https://github.com/DE-RSE/2026_collaboration_workshop_de/issues/33",
           "date": "2026-04-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -128,13 +78,13 @@
     },
     {
       "id": "l506",
-      "text": "Everybody's Weirded Out by AI\u2013Except the People Who Foist It on Us",
+      "text": "Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Everybody's Weirded Out by AI\u2013Except the People Who Foist It on Us",
+          "title": "Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
           "url": "https://newrepublic.com/article/213004/everybody-weirded-ai-except-people-foist-us",
           "date": "2026-07-17",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -281,7 +231,7 @@
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding and Linux [vide\u2026",
+          "title": "DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding and Linux [vide…",
           "url": "https://www.youtube.com/watch?v=NYFGCESmikA",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -422,13 +372,13 @@
     },
     {
       "id": "l520",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -443,13 +393,13 @@
     },
     {
       "id": "l521",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -527,13 +477,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -569,13 +519,13 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "Week 3 of making my fishing game entirely with AI\nHello there, This is week 3 of me making a fishing game entirely with AI. If somebody is interested in seeing Claude Artifacts with latest changes here is Artifact 1 and Artifact 2 . There are before and after images of how it&#39;s done. My Workflow - it improved from just typing what I want in Week 1 to basically having a window dedicated for every single thing and using MCPs for Blender and Godot now. Since last time I added a lot of things, d\u2026",
+      "text": "Week 3 of making my fishing game entirely with AI\nHello there, This is week 3 of me making a fishing game entirely with AI. If somebody is interested in seeing Claude Artifacts with latest changes here is Artifact 1 and Artifact 2 . There are before and after images of how it&#39;s done. My Workflow - it improved from just typing what I want in Week 1 to basically having a window dedicated for every single thing and using MCPs for Blender and Godot now. Since last time I added a lot of things, d…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Week 3 of making my fishing game entirely with AI\nHello there, This is week 3 of\u2026",
+          "title": "Week 3 of making my fishing game entirely with AI\nHello there, This is week 3 of…",
           "url": "https://www.reddit.com/r/ClaudeAI/comments/1vrjryf/week_3_of_making_my_fishing_game_entirely_with_ai/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "Week 4 of making my fishing game entirely with AI\nHello there again, Last week I posted here game that I was making fully with AI, It is mostly done by Claude except for image generation which is done by ChatGPT. I included my workflow in previous Week update so I will leave all previous Week updates in the link and give you guys new video and just tell some progress that I made since last week as well as answer questions that people asked the most. Week 1 Progress Week 2 Progress Week 3 Progres\u2026",
+      "text": "Week 4 of making my fishing game entirely with AI\nHello there again, Last week I posted here game that I was making fully with AI, It is mostly done by Claude except for image generation which is done by ChatGPT. I included my workflow in previous Week update so I will leave all previous Week updates in the link and give you guys new video and just tell some progress that I made since last week as well as answer questions that people asked the most. Week 1 Progress Week 2 Progress Week 3 Progres…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Week 4 of making my fishing game entirely with AI\nHello there again, Last week I\u2026",
+          "title": "Week 4 of making my fishing game entirely with AI\nHello there again, Last week I…",
           "url": "https://www.reddit.com/r/ClaudeAI/comments/1vxdnw6/week_4_of_making_my_fishing_game_entirely_with_ai/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI for putting watermarks on their prompts \"creations\"\nSources: https://www.reddit.com/r/ClaudeCode/comments/1vlclpn/claude_watermarking_our_work_is_unethical_and/ https://www.reddit.com/r/ClaudeAI/comments/1vlckt9/claude_watermarking_our_work_is_unethical_and/ HIGHLIGHTS THREAD 1 Most consumers would want to know if something that was created with AI tools, I don\u2019t see a problem with that. This is such a hopelessly ch\u2026",
+      "text": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI for putting watermarks on their prompts \"creations\"\nSources: https://www.reddit.com/r/ClaudeCode/comments/1vlclpn/claude_watermarking_our_work_is_unethical_and/ https://www.reddit.com/r/ClaudeAI/comments/1vlckt9/claude_watermarking_our_work_is_unethical_and/ HIGHLIGHTS THREAD 1 Most consumers would want to know if something that was created with AI tools, I don’t see a problem with that. This is such a hopelessly ch…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI\u2026",
+          "title": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI…",
           "url": "https://www.reddit.com/r/SubredditDrama/comments/1vlyeei/can_you_please_just_write_your_own_posts_op_makes/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -674,13 +624,13 @@
     },
     {
       "id": "l532",
-      "text": "\u201cAI Inspired\u201d or AI Traced? The Tekkusai Pad Controversy Explained\nThis post is not about hating a product. It is not about hating AI. It is not about saying people cannot like the pads. This is about honesty, disclosure, and how a brand can use soft language to make something sound cleaner than it really is. For a long time, Tekkusai has built an image as someone who \u201cknows the scene,\u201d someone who talks with confidence, corrects others, and presents himself as a transparent voice in the glasspa\u2026",
+      "text": "“AI Inspired” or AI Traced? The Tekkusai Pad Controversy Explained\nThis post is not about hating a product. It is not about hating AI. It is not about saying people cannot like the pads. This is about honesty, disclosure, and how a brand can use soft language to make something sound cleaner than it really is. For a long time, Tekkusai has built an image as someone who “knows the scene,” someone who talks with confidence, corrects others, and presents himself as a transparent voice in the glasspa…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\u201cAI Inspired\u201d or AI Traced? The Tekkusai Pad Controversy Explained\nThis post is \u2026",
+          "title": "“AI Inspired” or AI Traced? The Tekkusai Pad Controversy Explained\nThis post is …",
           "url": "https://www.reddit.com/r/MousepadReview/comments/1vv55rw/ai_inspired_or_ai_traced_the_tekkusai_pad/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -695,13 +645,13 @@
     },
     {
       "id": "l533",
-      "text": "\"Comparing being banned from a video game discord with being repeatedly r*ped and burned at the stake for having skin tags or a mole? Go off, king. Say your truth. /s\" Some war criminals on r/rimworld get upset when the official discord server bans AI generated content\nSource: https://www.reddit.com/r/RimWorld/comments/1vpxw0i/official_rimworld_discord_server_bans_all_ai/ HIGHLIGHTS Stupid, atleast for the code part. 90% of devs use it anyway. Lol the fucking cope. Any moron claiming 90% percent\u2026",
+      "text": "\"Comparing being banned from a video game discord with being repeatedly r*ped and burned at the stake for having skin tags or a mole? Go off, king. Say your truth. /s\" Some war criminals on r/rimworld get upset when the official discord server bans AI generated content\nSource: https://www.reddit.com/r/RimWorld/comments/1vpxw0i/official_rimworld_discord_server_bans_all_ai/ HIGHLIGHTS Stupid, atleast for the code part. 90% of devs use it anyway. Lol the fucking cope. Any moron claiming 90% percent…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\"Comparing being banned from a video game discord with being repeatedly r*ped an\u2026",
+          "title": "\"Comparing being banned from a video game discord with being repeatedly r*ped an…",
           "url": "https://www.reddit.com/r/SubredditDrama/comments/1vqd4m9/comparing_being_banned_from_a_video_game_discord/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Operational Review, Stability Write Up, Benchmarks\nI thought this would be relevant to the homelab subreddit so I&#39;m adding it here, just to put the information out there and discuss if there is any interest. I am an IT infrastructure engineer by profession, so my contribution to the conversation is mainly from a hardware/systems perspective rather than from a Machine Learning researcher standpoint. I got my start wit\u2026",
+      "text": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Operational Review, Stability Write Up, Benchmarks\nI thought this would be relevant to the homelab subreddit so I&#39;m adding it here, just to put the information out there and discuss if there is any interest. I am an IT infrastructure engineer by profession, so my contribution to the conversation is mainly from a hardware/systems perspective rather than from a Machine Learning researcher standpoint. I got my start wit…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Oper\u2026",
+          "title": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Oper…",
           "url": "https://www.reddit.com/r/homelab/comments/1veh5gt/data_center_in_a_box_on_wheels_256gb_vram512gb/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\n\nCEOs used to brag about how many jobs AI could replace.\n\nNow the language is changing.\n\nInvestors want proof AI is saving money.\n\nWorkers do not want those savings to mean their job is gone.\n\nAnd the gap between AI hype and AI reality is getting harder to hide \ud83e\uddf5\ud83d\udc47\n\n2/16\n\nKlarna said its AI assistant was doing the work of 700 employees.\n\nSalesforce linked AI to a smaller support team.\n\nCoinbase cut around 700 roles w",
+      "text": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\n\nCEOs used to brag about how many jobs AI could replace.\n\nNow the language is changing.\n\nInvestors want proof AI is saving money.\n\nWorkers do not want those savings to mean their job is gone.\n\nAnd the gap between AI hype and AI reality is getting harder to hide 🧵👇\n\n2/16\n\nKlarna said its AI assistant was doing the work of 700 employees.\n\nSalesforce linked AI to a smaller support team.\n\nCoinbase cut around 700 roles w",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\u2026",
+          "title": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16…",
           "url": "https://x.com/msyed_/status/2093227435961565570",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -758,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what the future will look like. I always did but even more so since I had a baby. To me it feels like we\u2019re not in a steady state right now. Things are volatile and changing fast. It feels like this pace of change can\u2019t possibly last forever. But it also seems obvious that LLMs are going to dramatically change the nature of my work, and many types of work, permanently.\n\nI am effectively required to use AI at work now, so fo",
+      "text": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what the future will look like. I always did but even more so since I had a baby. To me it feels like we’re not in a steady state right now. Things are volatile and changing fast. It feels like this pace of change can’t possibly last forever. But it also seems obvious that LLMs are going to dramatically change the nature of my work, and many types of work, permanently.\n\nI am effectively required to use AI at work now, so fo",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what th\u2026",
+          "title": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what th…",
           "url": "https://x.com/OwenGregorian/status/2093169126004985893",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -806,7 +756,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Grok Bot + Kimi K3: How to Build an AI System That Stops Waiting for Your Next P\u2026",
+          "title": "Grok Bot + Kimi K3: How to Build an AI System That Stops Waiting for Your Next P…",
           "url": "https://x.com/leopardracer/status/2093282462491091301",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+      "text": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+          "title": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
           "url": "https://x.com/BestBlogsDev/status/2093500753738645591",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -863,13 +813,13 @@
     },
     {
       "id": "l541",
-      "text": "I\u2019m on his side. Whether he\u2019s got the level of danger or the biggest priorities correct, I have no idea. I just know we should have our best minds working on this NOW. I would also like to see human jobs salvaged. It\u2019s not a question of whether AI can do the job. It\u2019s whether they SHOULD. We see the sociological changes from work at home. What will be the changes with no work?",
+      "text": "I’m on his side. Whether he’s got the level of danger or the biggest priorities correct, I have no idea. I just know we should have our best minds working on this NOW. I would also like to see human jobs salvaged. It’s not a question of whether AI can do the job. It’s whether they SHOULD. We see the sociological changes from work at home. What will be the changes with no work?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I\u2019m on his side. Whether he\u2019s got the level of danger or the biggest priorities \u2026",
+          "title": "I’m on his side. Whether he’s got the level of danger or the biggest priorities …",
           "url": "https://x.com/ksusze/status/2093554009457967344",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -890,7 +840,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Did you know that trees can live long but it's just bugs, diseases, lumberjacks \u2026",
+          "title": "Did you know that trees can live long but it's just bugs, diseases, lumberjacks …",
           "url": "https://x.com/MWoodstick34231/status/2093569175033929926",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -911,7 +861,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Ishebinn @TheRubric_Medic The first Bangalore-Mangalore train after broad gauge\u2026",
+          "title": "@Ishebinn @TheRubric_Medic The first Bangalore-Mangalore train after broad gauge…",
           "url": "https://x.com/SKKolya/status/2093567410913866173",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "AI Made Simple \u2014 August 27, 2026",
+      "text": "AI Made Simple — August 27, 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Made Simple \u2014 August 27, 2026",
+          "title": "AI Made Simple — August 27, 2026",
           "url": "https://x.com/eltintero/status/2093012556243710067",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -974,7 +924,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The Coordination Tax: A Better Way for Banks to Decide Between One AI Agent and \u2026",
+          "title": "The Coordination Tax: A Better Way for Banks to Decide Between One AI Agent and …",
           "url": "https://x.com/vivsur/status/2093048599814844878",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -995,7 +945,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Jesus died for every man woman and child's sins who shall confess him to be Lord\u2026",
+          "title": "Jesus died for every man woman and child's sins who shall confess him to be Lord…",
           "url": "https://x.com/N0rthBamaGrass/status/2093565242999476373",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1010,13 +960,13 @@
     },
     {
       "id": "l548",
-      "text": "\ud835\udc0f\ud835\udc2e\ud835\udc27\ud835\udc1e \ud835\udc0e\ud835\udc2e\ud835\udc2d\ud835\udc1e\ud835\udc2b \ud835\udc11\ud835\udc22\ud835\udc27\ud835\udc20 \ud835\udc11\ud835\udc28\ud835\udc1a\ud835\udc1d \ud835\udc0f\ud835\udc1a\ud835\udc1c\ud835\udc24\ud835\udc1a\ud835\udc20\ud835\udc1e \ud835\udc16\ud835\udfd1 \ud835\udc2e\ud835\udc29\ud835\udc1d\ud835\udc1a\ud835\udc2d\ud835\udc1e \ud835\udc1f\ud835\udc2b\ud835\udc28\ud835\udc26 \ud835\udc0c\ud835\udc1a\ud835\udc21\ud835\udc1a\ud835\udc2b\ud835\udc1a\ud835\udc2c\ud835\udc21\ud835\udc2d\ud835\udc2b\ud835\udc1a.\n\n\u25aa\ufe0fNavayuga Engineering is working on this package and they are doing a brilliant job. \n\n\u25aa\ufe0fThey have completed GSB laying at multiple locations.\n\n\u25aa\ufe0fThis 14 km package starts at Vardade and ends at Morewadi.\n\n\u25aa\ufe0fNavayuga Engineering is working on Packages W2, W3 & W4 and most likely, these packages would be ready before all other packages of the Pune ORR.\n\nNeed the alignment KML files for Pune Outer Ring Road, Pune Inner Ring Road or Pune HC",
+      "text": "𝐏𝐮𝐧𝐞 𝐎𝐮𝐭𝐞𝐫 𝐑𝐢𝐧𝐠 𝐑𝐨𝐚𝐝 𝐏𝐚𝐜𝐤𝐚𝐠𝐞 𝐖𝟑 𝐮𝐩𝐝𝐚𝐭𝐞 𝐟𝐫𝐨𝐦 𝐌𝐚𝐡𝐚𝐫𝐚𝐬𝐡𝐭𝐫𝐚.\n\n▪️Navayuga Engineering is working on this package and they are doing a brilliant job. \n\n▪️They have completed GSB laying at multiple locations.\n\n▪️This 14 km package starts at Vardade and ends at Morewadi.\n\n▪️Navayuga Engineering is working on Packages W2, W3 & W4 and most likely, these packages would be ready before all other packages of the Pune ORR.\n\nNeed the alignment KML files for Pune Outer Ring Road, Pune Inner Ring Road or Pune HC",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud835\udc0f\ud835\udc2e\ud835\udc27\ud835\udc1e \ud835\udc0e\ud835\udc2e\ud835\udc2d\ud835\udc1e\ud835\udc2b \ud835\udc11\ud835\udc22\ud835\udc27\ud835\udc20 \ud835\udc11\ud835\udc28\ud835\udc1a\ud835\udc1d \ud835\udc0f\ud835\udc1a\ud835\udc1c\ud835\udc24\ud835\udc1a\ud835\udc20\ud835\udc1e \ud835\udc16\ud835\udfd1 \ud835\udc2e\ud835\udc29\ud835\udc1d\ud835\udc1a\ud835\udc2d\ud835\udc1e \ud835\udc1f\ud835\udc2b\ud835\udc28\ud835\udc26 \ud835\udc0c\ud835\udc1a\ud835\udc21\ud835\udc1a\ud835\udc2b\ud835\udc1a\ud835\udc2c\ud835\udc21\ud835\udc2d\ud835\udc2b\ud835\udc1a.\n\n\u25aa\ufe0fNavayuga Engineering\u2026",
+          "title": "𝐏𝐮𝐧𝐞 𝐎𝐮𝐭𝐞𝐫 𝐑𝐢𝐧𝐠 𝐑𝐨𝐚𝐝 𝐏𝐚𝐜𝐤𝐚𝐠𝐞 𝐖𝟑 𝐮𝐩𝐝𝐚𝐭𝐞 𝐟𝐫𝐨𝐦 𝐌𝐚𝐡𝐚𝐫𝐚𝐬𝐡𝐭𝐫𝐚.\n\n▪️Navayuga Engineering…",
           "url": "https://x.com/TheINIofficial/status/2093568044605858202",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1037,7 +987,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@glennbeck @EPAregion6 And @POTUS should mandate that all trucks can't emit more\u2026",
+          "title": "@glennbeck @EPAregion6 And @POTUS should mandate that all trucks can't emit more…",
           "url": "https://x.com/babymealso/status/2093567536927302048",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1058,7 +1008,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Except, he was on his own until the head of legal association found him worthy a\u2026",
+          "title": "Except, he was on his own until the head of legal association found him worthy a…",
           "url": "https://x.com/OLABIM2533691/status/2093564688202170636",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1073,13 +1023,13 @@
     },
     {
       "id": "l551",
-      "text": "@mahdyyyyyyyyyyy So all other Lexas have a push up bra? \ud83e\udd14",
+      "text": "@mahdyyyyyyyyyyy So all other Lexas have a push up bra? 🤔",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@mahdyyyyyyyyyyy So all other Lexas have a push up bra? \ud83e\udd14",
+          "title": "@mahdyyyyyyyyyyy So all other Lexas have a push up bra? 🤔",
           "url": "https://x.com/DequariDekiwi/status/2093568451260600821",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1121,7 +1071,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@2RawTooReal Every 2008 Obama vet knows he got record turnout in TX that year.\n\n\u2026",
+          "title": "@2RawTooReal Every 2008 Obama vet knows he got record turnout in TX that year.\n\n…",
           "url": "https://x.com/LyftLady11/status/2093568419182383465",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1142,7 +1092,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@NiranjanAsti @NYCMayor Mr secular person you will not understand there tactics.\u2026",
+          "title": "@NiranjanAsti @NYCMayor Mr secular person you will not understand there tactics.…",
           "url": "https://x.com/Rakesh30990143/status/2093568390049013871",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1157,13 +1107,13 @@
     },
     {
       "id": "l555",
-      "text": "@CoachChad_1 Yes XRP has Legal Clarity all other Cryptos don't so they need the Clarity Act/Clown Act \ud83e\udd23\ud83e\udd23\ud83d\ude05\ud83d\ude05\ud83d\ude02\ud83d\ude02\ud83e\udd21\ud83e\udd21\ud83e\udd21\ud83c\udfaa\ud83c\udfaa\ud83c\udfaa",
+      "text": "@CoachChad_1 Yes XRP has Legal Clarity all other Cryptos don't so they need the Clarity Act/Clown Act 🤣🤣😅😅😂😂🤡🤡🤡🎪🎪🎪",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@CoachChad_1 Yes XRP has Legal Clarity all other Cryptos don't so they need the \u2026",
+          "title": "@CoachChad_1 Yes XRP has Legal Clarity all other Cryptos don't so they need the …",
           "url": "https://x.com/anthony_ha33053/status/2093568087895257254",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1178,13 +1128,13 @@
     },
     {
       "id": "l556",
-      "text": "@14ChikaWham Why is rape this mythical crime that somehow exceeds all other crimes in terribleness?\nLike we\u2019re talking about a game where you can kill hundreds of regular civilians, but rape is just crossing the line.",
+      "text": "@14ChikaWham Why is rape this mythical crime that somehow exceeds all other crimes in terribleness?\nLike we’re talking about a game where you can kill hundreds of regular civilians, but rape is just crossing the line.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@14ChikaWham Why is rape this mythical crime that somehow exceeds all other crim\u2026",
+          "title": "@14ChikaWham Why is rape this mythical crime that somehow exceeds all other crim…",
           "url": "https://x.com/Cuddly49905741/status/2093567290285408338",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1199,13 +1149,13 @@
     },
     {
       "id": "l557",
-      "text": "How a $20 AI is Replacing $235,000 Lawyers\nLawyers were supposed to be one of the professions AI couldn\u2019t replace. But the legal industry is discovering that many of its most profitable tasks can now be completed by machines in a fraction of the time, and at a fraction of the cost.\n\nThis video explores how artificial intelligence is dismantling the traditional law firm pyramid. Junior associates once spent thousands of billable hours reviewing contracts, researching cases, and drafting documents\u2026",
+      "text": "How a $20 AI is Replacing $235,000 Lawyers\nLawyers were supposed to be one of the professions AI couldn’t replace. But the legal industry is discovering that many of its most profitable tasks can now be completed by machines in a fraction of the time, and at a fraction of the cost.\n\nThis video explores how artificial intelligence is dismantling the traditional law firm pyramid. Junior associates once spent thousands of billable hours reviewing contracts, researching cases, and drafting documents…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How a $20 AI is Replacing $235,000 Lawyers\nLawyers were supposed to be one of th\u2026",
+          "title": "How a $20 AI is Replacing $235,000 Lawyers\nLawyers were supposed to be one of th…",
           "url": "https://www.youtube.com/watch?v=haZ5gddlQ4g",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1220,13 +1170,13 @@
     },
     {
       "id": "l558",
-      "text": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: https://contractoros.build/work-with-us\n\nJoin ContractorOS: https://www.skool.com/contractor-os/about\n\nFollow on LinkedIn: https://www.linkedin.com/in/josh-turner-pmp-10608b1b7/\n\nI use Claude every day to run my AI consulting business for construction. In this video I break down what Claude actually does, how each interface works, and why the system around it (Projects, Skills, Plugins, Memory) makes it genuinely useful \u2026",
+      "text": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: https://contractoros.build/work-with-us\n\nJoin ContractorOS: https://www.skool.com/contractor-os/about\n\nFollow on LinkedIn: https://www.linkedin.com/in/josh-turner-pmp-10608b1b7/\n\nI use Claude every day to run my AI consulting business for construction. In this video I break down what Claude actually does, how each interface works, and why the system around it (Projects, Skills, Plugins, Memory) makes it genuinely useful …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: http\u2026",
+          "title": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: http…",
           "url": "https://www.youtube.com/watch?v=DQwlMX27E6k",
           "date": "2026-03-12",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1241,13 +1191,13 @@
     },
     {
       "id": "l559",
-      "text": "Why I Switched from ChatGPT to Claude(You Should TOO)\nIn this video, I break down 5 reasons why I made the switch from ChatGPT to Claude\n\n1. Claude is the complete ecosystem for everything you want to do. From ideation to design, to code, to marketing, to automations, and sales,  all of the things you can do in one place.\n2. Claude writes better than ChatGPT. Once you start training Claude, it works so much better. You can make your custom projects, and it remembers the context throughout.\n3. Cl\u2026",
+      "text": "Why I Switched from ChatGPT to Claude(You Should TOO)\nIn this video, I break down 5 reasons why I made the switch from ChatGPT to Claude\n\n1. Claude is the complete ecosystem for everything you want to do. From ideation to design, to code, to marketing, to automations, and sales,  all of the things you can do in one place.\n2. Claude writes better than ChatGPT. Once you start training Claude, it works so much better. You can make your custom projects, and it remembers the context throughout.\n3. Cl…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Why I Switched from ChatGPT to Claude(You Should TOO)\nIn this video, I break dow\u2026",
+          "title": "Why I Switched from ChatGPT to Claude(You Should TOO)\nIn this video, I break dow…",
           "url": "https://www.youtube.com/watch?v=Q1KT9ugTL1E",
           "date": "2026-05-30",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1262,7 +1212,7 @@
     },
     {
       "id": "l460",
-      "text": "Engineering Technician - Directed Energy \u2014 Electro Optic Systems (Symonston, Australian Capital Territory, Australia). Posted 1 week ago.",
+      "text": "Engineering Technician - Directed Energy — Electro Optic Systems (Symonston, Australian Capital Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1283,7 +1233,7 @@
     },
     {
       "id": "l461",
-      "text": "Engineering Technician - US Cabler \u2014 Amentum (Alice Springs, Northern Territory, Australia). Posted 1 week ago.",
+      "text": "Engineering Technician - US Cabler — Amentum (Alice Springs, Northern Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1304,7 +1254,7 @@
     },
     {
       "id": "l462",
-      "text": "Electronics Engineering Technician \u2014 Rohde & Schwarz (Brisbane Airport, Queensland, Australia). Posted 4 months ago.",
+      "text": "Electronics Engineering Technician — Rohde & Schwarz (Brisbane Airport, Queensland, Australia). Posted 4 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1325,7 +1275,7 @@
     },
     {
       "id": "l463",
-      "text": "Senior RF Calibration & Lab Technician \u2014 Morse Micro (Surry Hills, New South Wales, Australia). Posted 3 months ago.",
+      "text": "Senior RF Calibration & Lab Technician — Morse Micro (Surry Hills, New South Wales, Australia). Posted 3 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1346,7 +1296,7 @@
     },
     {
       "id": "l464",
-      "text": "Weapons Technician-Typhoon \u2014 Serco (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Weapons Technician-Typhoon — Serco (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1367,7 +1317,7 @@
     },
     {
       "id": "l465",
-      "text": "Signal Technician \u2014 Wabtec Corporation (Eagle Farm, Queensland, Australia). Posted 1 week ago.",
+      "text": "Signal Technician — Wabtec Corporation (Eagle Farm, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1388,7 +1338,7 @@
     },
     {
       "id": "l466",
-      "text": "Senior Laboratory Technician \u2014 COLAS Australia Group (Bibra Lake, Western Australia, Australia). Posted 3 months ago.",
+      "text": "Senior Laboratory Technician — COLAS Australia Group (Bibra Lake, Western Australia, Australia). Posted 3 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1409,7 +1359,7 @@
     },
     {
       "id": "l467",
-      "text": "Workshop Bench Technician \u2014 Arrive (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Workshop Bench Technician — Arrive (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1430,7 +1380,7 @@
     },
     {
       "id": "l468",
-      "text": "Technician Instrumentation \u2014 AngloGold Ashanti (Kalgoorlie, Western Australia, Australia). Posted 1 week ago.",
+      "text": "Technician Instrumentation — AngloGold Ashanti (Kalgoorlie, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1451,12 +1401,12 @@
     },
     {
       "id": "l469",
-      "text": "Electrical Engineering Technician \u2014 ZITR\u00d3N (Perth, Western Australia, Australia). Posted 3 weeks ago.",
+      "text": "Electrical Engineering Technician — ZITRÓN (Perth, Western Australia, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "ZITR\u00d3N",
+          "publisher": "ZITRÓN",
           "title": "Electrical Engineering Technician",
           "url": "https://www.linkedin.com/jobs/view/4446737272",
           "date": "3 weeks ago",
@@ -1472,13 +1422,13 @@
     },
     {
       "id": "l570",
-      "text": "[Session] Research software engineering: Between Service Provision and Research\n### Organizers\n\nMarkus Konkol, 52\u00b0North Spatial Information Research GmbH ([@MarkusKonk](https://github.com/MarkusKonk))\n\n### Session Description\n\nResearch Software Engineers (RSEs) are frequently positioned as \"service providers\", i.e., highly skilled technicians who assist domain scientists in rea\nDear @MarkusKonk , we are happy to announce that we would like to host your contributed session at the Collaborations W\u2026",
+      "text": "[Session] Research software engineering: Between Service Provision and Research\n### Organizers\n\nMarkus Konkol, 52°North Spatial Information Research GmbH ([@MarkusKonk](https://github.com/MarkusKonk))\n\n### Session Description\n\nResearch Software Engineers (RSEs) are frequently positioned as \"service providers\", i.e., highly skilled technicians who assist domain scientists in rea\nDear @MarkusKonk , we are happy to announce that we would like to host your contributed session at the Collaborations W…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[Session] Research software engineering: Between Service Provision and Research\n\u2026",
+          "title": "[Session] Research software engineering: Between Service Provision and Research\n…",
           "url": "https://github.com/DE-RSE/2026_collaboration_workshop_de/issues/33",
           "date": "2026-04-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1493,13 +1443,13 @@
     },
     {
       "id": "l571",
-      "text": "Week 3 of making my fishing game entirely with AI\nHello there, This is week 3 of me making a fishing game entirely with AI. If somebody is interested in seeing Claude Artifacts with latest changes here is Artifact 1 and Artifact 2 . There are before and after images of how it&#39;s done. My Workflow - it improved from just typing what I want in Week 1 to basically having a window dedicated for every single thing and using MCPs for Blender and Godot now. Since last time I added a lot of things, d\u2026",
+      "text": "Week 3 of making my fishing game entirely with AI\nHello there, This is week 3 of me making a fishing game entirely with AI. If somebody is interested in seeing Claude Artifacts with latest changes here is Artifact 1 and Artifact 2 . There are before and after images of how it&#39;s done. My Workflow - it improved from just typing what I want in Week 1 to basically having a window dedicated for every single thing and using MCPs for Blender and Godot now. Since last time I added a lot of things, d…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Week 3 of making my fishing game entirely with AI\nHello there, This is week 3 of\u2026",
+          "title": "Week 3 of making my fishing game entirely with AI\nHello there, This is week 3 of…",
           "url": "https://www.reddit.com/r/ClaudeAI/comments/1vrjryf/week_3_of_making_my_fishing_game_entirely_with_ai/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1514,13 +1464,13 @@
     },
     {
       "id": "l572",
-      "text": "Week 4 of making my fishing game entirely with AI\nHello there again, Last week I posted here game that I was making fully with AI, It is mostly done by Claude except for image generation which is done by ChatGPT. I included my workflow in previous Week update so I will leave all previous Week updates in the link and give you guys new video and just tell some progress that I made since last week as well as answer questions that people asked the most. Week 1 Progress Week 2 Progress Week 3 Progres\u2026",
+      "text": "Week 4 of making my fishing game entirely with AI\nHello there again, Last week I posted here game that I was making fully with AI, It is mostly done by Claude except for image generation which is done by ChatGPT. I included my workflow in previous Week update so I will leave all previous Week updates in the link and give you guys new video and just tell some progress that I made since last week as well as answer questions that people asked the most. Week 1 Progress Week 2 Progress Week 3 Progres…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Week 4 of making my fishing game entirely with AI\nHello there again, Last week I\u2026",
+          "title": "Week 4 of making my fishing game entirely with AI\nHello there again, Last week I…",
           "url": "https://www.reddit.com/r/ClaudeAI/comments/1vxdnw6/week_4_of_making_my_fishing_game_entirely_with_ai/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1535,13 +1485,13 @@
     },
     {
       "id": "l573",
-      "text": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI for putting watermarks on their prompts \"creations\"\nSources: https://www.reddit.com/r/ClaudeCode/comments/1vlclpn/claude_watermarking_our_work_is_unethical_and/ https://www.reddit.com/r/ClaudeAI/comments/1vlckt9/claude_watermarking_our_work_is_unethical_and/ HIGHLIGHTS THREAD 1 Most consumers would want to know if something that was created with AI tools, I don\u2019t see a problem with that. This is such a hopelessly ch\u2026",
+      "text": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI for putting watermarks on their prompts \"creations\"\nSources: https://www.reddit.com/r/ClaudeCode/comments/1vlclpn/claude_watermarking_our_work_is_unethical_and/ https://www.reddit.com/r/ClaudeAI/comments/1vlckt9/claude_watermarking_our_work_is_unethical_and/ HIGHLIGHTS THREAD 1 Most consumers would want to know if something that was created with AI tools, I don’t see a problem with that. This is such a hopelessly ch…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI\u2026",
+          "title": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI…",
           "url": "https://www.reddit.com/r/SubredditDrama/comments/1vlyeei/can_you_please_just_write_your_own_posts_op_makes/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1556,13 +1506,13 @@
     },
     {
       "id": "l574",
-      "text": "\u201cAI Inspired\u201d or AI Traced? The Tekkusai Pad Controversy Explained\nThis post is not about hating a product. It is not about hating AI. It is not about saying people cannot like the pads. This is about honesty, disclosure, and how a brand can use soft language to make something sound cleaner than it really is. For a long time, Tekkusai has built an image as someone who \u201cknows the scene,\u201d someone who talks with confidence, corrects others, and presents himself as a transparent voice in the glasspa\u2026",
+      "text": "“AI Inspired” or AI Traced? The Tekkusai Pad Controversy Explained\nThis post is not about hating a product. It is not about hating AI. It is not about saying people cannot like the pads. This is about honesty, disclosure, and how a brand can use soft language to make something sound cleaner than it really is. For a long time, Tekkusai has built an image as someone who “knows the scene,” someone who talks with confidence, corrects others, and presents himself as a transparent voice in the glasspa…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\u201cAI Inspired\u201d or AI Traced? The Tekkusai Pad Controversy Explained\nThis post is \u2026",
+          "title": "“AI Inspired” or AI Traced? The Tekkusai Pad Controversy Explained\nThis post is …",
           "url": "https://www.reddit.com/r/MousepadReview/comments/1vv55rw/ai_inspired_or_ai_traced_the_tekkusai_pad/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1577,13 +1527,13 @@
     },
     {
       "id": "l575",
-      "text": "\"Comparing being banned from a video game discord with being repeatedly r*ped and burned at the stake for having skin tags or a mole? Go off, king. Say your truth. /s\" Some war criminals on r/rimworld get upset when the official discord server bans AI generated content\nSource: https://www.reddit.com/r/RimWorld/comments/1vpxw0i/official_rimworld_discord_server_bans_all_ai/ HIGHLIGHTS Stupid, atleast for the code part. 90% of devs use it anyway. Lol the fucking cope. Any moron claiming 90% percent\u2026",
+      "text": "\"Comparing being banned from a video game discord with being repeatedly r*ped and burned at the stake for having skin tags or a mole? Go off, king. Say your truth. /s\" Some war criminals on r/rimworld get upset when the official discord server bans AI generated content\nSource: https://www.reddit.com/r/RimWorld/comments/1vpxw0i/official_rimworld_discord_server_bans_all_ai/ HIGHLIGHTS Stupid, atleast for the code part. 90% of devs use it anyway. Lol the fucking cope. Any moron claiming 90% percent…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\"Comparing being banned from a video game discord with being repeatedly r*ped an\u2026",
+          "title": "\"Comparing being banned from a video game discord with being repeatedly r*ped an…",
           "url": "https://www.reddit.com/r/SubredditDrama/comments/1vqd4m9/comparing_being_banned_from_a_video_game_discord/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1598,13 +1548,13 @@
     },
     {
       "id": "l576",
-      "text": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Operational Review, Stability Write Up, Benchmarks\nI thought this would be relevant to the homelab subreddit so I&#39;m adding it here, just to put the information out there and discuss if there is any interest. I am an IT infrastructure engineer by profession, so my contribution to the conversation is mainly from a hardware/systems perspective rather than from a Machine Learning researcher standpoint. I got my start wit\u2026",
+      "text": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Operational Review, Stability Write Up, Benchmarks\nI thought this would be relevant to the homelab subreddit so I&#39;m adding it here, just to put the information out there and discuss if there is any interest. I am an IT infrastructure engineer by profession, so my contribution to the conversation is mainly from a hardware/systems perspective rather than from a Machine Learning researcher standpoint. I got my start wit…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Oper\u2026",
+          "title": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Oper…",
           "url": "https://www.reddit.com/r/homelab/comments/1veh5gt/data_center_in_a_box_on_wheels_256gb_vram512gb/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1619,13 +1569,13 @@
     },
     {
       "id": "l577",
-      "text": "How a $20 AI is Replacing $235,000 Lawyers\nLawyers were supposed to be one of the professions AI couldn\u2019t replace. But the legal industry is discovering that many of its most profitable tasks can now be completed by machines in a fraction of the time, and at a fraction of the cost.\n\nThis video explores how artificial intelligence is dismantling the traditional law firm pyramid. Junior associates once spent thousands of billable hours reviewing contracts, researching cases, and drafting documents\u2026",
+      "text": "How a $20 AI is Replacing $235,000 Lawyers\nLawyers were supposed to be one of the professions AI couldn’t replace. But the legal industry is discovering that many of its most profitable tasks can now be completed by machines in a fraction of the time, and at a fraction of the cost.\n\nThis video explores how artificial intelligence is dismantling the traditional law firm pyramid. Junior associates once spent thousands of billable hours reviewing contracts, researching cases, and drafting documents…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How a $20 AI is Replacing $235,000 Lawyers\nLawyers were supposed to be one of th\u2026",
+          "title": "How a $20 AI is Replacing $235,000 Lawyers\nLawyers were supposed to be one of th…",
           "url": "https://www.youtube.com/watch?v=haZ5gddlQ4g",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1640,13 +1590,13 @@
     },
     {
       "id": "l578",
-      "text": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: https://contractoros.build/work-with-us\n\nJoin ContractorOS: https://www.skool.com/contractor-os/about\n\nFollow on LinkedIn: https://www.linkedin.com/in/josh-turner-pmp-10608b1b7/\n\nI use Claude every day to run my AI consulting business for construction. In this video I break down what Claude actually does, how each interface works, and why the system around it (Projects, Skills, Plugins, Memory) makes it genuinely useful \u2026",
+      "text": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: https://contractoros.build/work-with-us\n\nJoin ContractorOS: https://www.skool.com/contractor-os/about\n\nFollow on LinkedIn: https://www.linkedin.com/in/josh-turner-pmp-10608b1b7/\n\nI use Claude every day to run my AI consulting business for construction. In this video I break down what Claude actually does, how each interface works, and why the system around it (Projects, Skills, Plugins, Memory) makes it genuinely useful …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: http\u2026",
+          "title": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: http…",
           "url": "https://www.youtube.com/watch?v=DQwlMX27E6k",
           "date": "2026-03-12",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1661,13 +1611,13 @@
     },
     {
       "id": "l579",
-      "text": "Why I Switched from ChatGPT to Claude(You Should TOO)\nIn this video, I break down 5 reasons why I made the switch from ChatGPT to Claude\n\n1. Claude is the complete ecosystem for everything you want to do. From ideation to design, to code, to marketing, to automations, and sales,  all of the things you can do in one place.\n2. Claude writes better than ChatGPT. Once you start training Claude, it works so much better. You can make your custom projects, and it remembers the context throughout.\n3. Cl\u2026",
+      "text": "Why I Switched from ChatGPT to Claude(You Should TOO)\nIn this video, I break down 5 reasons why I made the switch from ChatGPT to Claude\n\n1. Claude is the complete ecosystem for everything you want to do. From ideation to design, to code, to marketing, to automations, and sales,  all of the things you can do in one place.\n2. Claude writes better than ChatGPT. Once you start training Claude, it works so much better. You can make your custom projects, and it remembers the context throughout.\n3. Cl…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Why I Switched from ChatGPT to Claude(You Should TOO)\nIn this video, I break dow\u2026",
+          "title": "Why I Switched from ChatGPT to Claude(You Should TOO)\nIn this video, I break dow…",
           "url": "https://www.youtube.com/watch?v=Q1KT9ugTL1E",
           "date": "2026-05-30",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1758,6 +1708,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

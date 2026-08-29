@@ -14,56 +14,6 @@
   "programs": [],
   "claims": [
     {
-      "id": "29-2034-01",
-      "text": "National peak professional bodies and statutory regulators governing Radiologic Technologists and Technicians enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Radiologic Technologists and Technicians",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Radiologic Technologists and Technicians",
-          "url": "https://www.psc.gov.au/standards/29-2034",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Radiologic Technologists and Technicians"
-        }
-      ],
-      "scope": "Australian practitioners in Radiologic Technologists and Technicians across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "29-2034-02",
-      "text": "Automation of routine transactional and analytical tasks in Radiologic Technologists and Technicians heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Radiologic Technologists and Technicians",
-          "url": "https://www.jobsandskills.gov.au/research/29-2034",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Radiologic Technologists and Technicians in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Radiologic Technologists and Technicians roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
       "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
@@ -233,13 +183,13 @@
     },
     {
       "id": "l511",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -275,13 +225,13 @@
     },
     {
       "id": "l513",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -464,13 +414,13 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -506,13 +456,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -548,13 +498,13 @@
     },
     {
       "id": "l526",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -575,7 +525,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Radiologic Technologist Expert at AfterQuery - AI Training Job\nhttps://ift.tt/xl\u2026",
+          "title": "Radiologic Technologist Expert at AfterQuery - AI Training Job\nhttps://ift.tt/xl…",
           "url": "https://www.reddit.com/r/trainAIjobs/comments/1vzr1vs/radiologic_technologist_expert_at_afterquery_ai/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Cartography/Geospatial data science and the impact of AI - what should early career professionals focus on?\nSo with AI disrupting a lot of the workflow all of the main white collar jobs including data science and geospatial science (I guess except for surveying?) The repetitive tasks, some visualizations, coding, some development task etc will eventually be mainly done by AI\u2026 what should we do? What should we focus on? Someone said we should focus on developing a deep understanding of the system\u2026",
+      "text": "Cartography/Geospatial data science and the impact of AI - what should early career professionals focus on?\nSo with AI disrupting a lot of the workflow all of the main white collar jobs including data science and geospatial science (I guess except for surveying?) The repetitive tasks, some visualizations, coding, some development task etc will eventually be mainly done by AI… what should we do? What should we focus on? Someone said we should focus on developing a deep understanding of the system…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Cartography/Geospatial data science and the impact of AI - what should early car\u2026",
+          "title": "Cartography/Geospatial data science and the impact of AI - what should early car…",
           "url": "https://www.reddit.com/r/gis/comments/1vafuex/cartographygeospatial_data_science_and_the_impact/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economically valuable?\nI\u2019ve been thinking about AI and automation, and I\u2019m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man\u2026",
+      "text": "What if AI doesn’t just replace jobs, but makes human labor itself less economically valuable?\nI’ve been thinking about AI and automation, and I’m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economic\u2026",
+          "title": "What if AI doesn’t just replace jobs, but makes human labor itself less economic…",
           "url": "https://www.reddit.com/r/Futurology/comments/1vjqvpl/what_if_ai_doesnt_just_replace_jobs_but_makes/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -638,7 +588,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@spencerpratt They want Medicare for all without the 250,000 extra doctors it wo\u2026",
+          "title": "@spencerpratt They want Medicare for all without the 250,000 extra doctors it wo…",
           "url": "https://x.com/BobaaLush/status/2086470549631545363",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -701,7 +651,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Apollo Research now anticipates that AI will create more jobs rather than fewer,\u2026",
+          "title": "Apollo Research now anticipates that AI will create more jobs rather than fewer,…",
           "url": "https://x.com/JukovCrypto/status/2061443401854177605",
           "date": "2026-06-01",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "Hands-on capacity building on portable X-ray and AI tools for TB screening in Laos \ud83c\uddf1\ud83c\udde6, supported by Stop TB Partnership with National TB Center.\nNTC doctors and radiologic technologists took part in pratical sessions from setup to AI interpretation using Japan\ud83c\uddef\ud83c\uddf5-provided tools. https://t.co/YC7LYHjZbt",
+      "text": "Hands-on capacity building on portable X-ray and AI tools for TB screening in Laos 🇱🇦, supported by Stop TB Partnership with National TB Center.\nNTC doctors and radiologic technologists took part in pratical sessions from setup to AI interpretation using Japan🇯🇵-provided tools. https://t.co/YC7LYHjZbt",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Hands-on capacity building on portable X-ray and AI tools for TB screening in La\u2026",
+          "title": "Hands-on capacity building on portable X-ray and AI tools for TB screening in La…",
           "url": "https://x.com/StopTB/status/2047279588909392173",
           "date": "2026-04-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -743,7 +693,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The field of imaging informatics continues to expand, creating new career opport\u2026",
+          "title": "The field of imaging informatics continues to expand, creating new career opport…",
           "url": "https://x.com/ASRT/status/2080273497993912799",
           "date": "2026-07-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -758,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "Your coding agent will always tell you it\u2019s safe.\n\nDon\u2019t believe it.\n\nThe new bottleneck in agentic engineering is evidence: tests, logs, runtime proof, review notes, and clear \u201cnot claimed\u201d boundaries.\n\nHere\u2019s the Evidence Loop for AI-generated code: https://t.co/OIjbDBKlyj\n\n#AI https://t.co/3jMD1KfglE",
+      "text": "Your coding agent will always tell you it’s safe.\n\nDon’t believe it.\n\nThe new bottleneck in agentic engineering is evidence: tests, logs, runtime proof, review notes, and clear “not claimed” boundaries.\n\nHere’s the Evidence Loop for AI-generated code: https://t.co/OIjbDBKlyj\n\n#AI https://t.co/3jMD1KfglE",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Your coding agent will always tell you it\u2019s safe.\n\nDon\u2019t believe it.\n\nThe new bo\u2026",
+          "title": "Your coding agent will always tell you it’s safe.\n\nDon’t believe it.\n\nThe new bo…",
           "url": "https://x.com/pradeep00271/status/2073263032088629326",
           "date": "2026-07-04",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -785,7 +735,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Coding agents should not only read the repo.\n\nThey should also read the project \u2026",
+          "title": "Coding agents should not only read the repo.\n\nThey should also read the project …",
           "url": "https://x.com/pradeep00271/status/2070748967533469864",
           "date": "2026-06-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -800,7 +750,7 @@
     },
     {
       "id": "l438",
-      "text": "MEDICAL IMAGING TECHNOLOGIST \u2014 Portland District Health (Portland, Victoria, Australia). Posted 2 months ago.",
+      "text": "MEDICAL IMAGING TECHNOLOGIST — Portland District Health (Portland, Victoria, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -821,7 +771,7 @@
     },
     {
       "id": "l439",
-      "text": "Radiographer \u2014 NT Health (Alice Springs, Northern Territory, Australia). Posted 3 weeks ago.",
+      "text": "Radiographer — NT Health (Alice Springs, Northern Territory, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -842,7 +792,7 @@
     },
     {
       "id": "l440",
-      "text": "Radiographer \u2014 Light Radiology (Adelaide, South Australia, Australia). Posted 6 days ago.",
+      "text": "Radiographer — Light Radiology (Adelaide, South Australia, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -863,7 +813,7 @@
     },
     {
       "id": "l441",
-      "text": "Medical Imaging Technologist \u2014 Lake Imaging (Geelong, Victoria, Australia). Posted 1 month ago.",
+      "text": "Medical Imaging Technologist — Lake Imaging (Geelong, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -884,7 +834,7 @@
     },
     {
       "id": "l442",
-      "text": "Medical Imaging Technologist \u2014 I-MED Radiology Network (Albury, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Medical Imaging Technologist — I-MED Radiology Network (Albury, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -905,7 +855,7 @@
     },
     {
       "id": "l443",
-      "text": "Radiographer \u2014 Queensland X-Ray (Townsville, Queensland, Australia). Posted 2 days ago.",
+      "text": "Radiographer — Queensland X-Ray (Townsville, Queensland, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -926,7 +876,7 @@
     },
     {
       "id": "l444",
-      "text": "Medical Imaging Technologist \u2014 Integral Diagnostics (IDX) (Geelong, Victoria, Australia). Posted 1 month ago.",
+      "text": "Medical Imaging Technologist — Integral Diagnostics (IDX) (Geelong, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -947,7 +897,7 @@
     },
     {
       "id": "l445",
-      "text": "Radiographer \u2014 Radiology Tasmania (Launceston, Tasmania, Australia). Posted 6 hours ago.",
+      "text": "Radiographer — Radiology Tasmania (Launceston, Tasmania, Australia). Posted 6 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -968,7 +918,7 @@
     },
     {
       "id": "l446",
-      "text": "Radiographer \u2014 Queensland X-Ray (Brisbane, Queensland, Australia). Posted 2 days ago.",
+      "text": "Radiographer — Queensland X-Ray (Brisbane, Queensland, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -989,7 +939,7 @@
     },
     {
       "id": "l447",
-      "text": "Medical Imaging Technologist \u2014 I-MED Radiology Network (Heidelberg, Victoria, Australia). Posted 1 week ago.",
+      "text": "Medical Imaging Technologist — I-MED Radiology Network (Heidelberg, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1010,13 +960,13 @@
     },
     {
       "id": "l548",
-      "text": "Cartography/Geospatial data science and the impact of AI - what should early career professionals focus on?\nSo with AI disrupting a lot of the workflow all of the main white collar jobs including data science and geospatial science (I guess except for surveying?) The repetitive tasks, some visualizations, coding, some development task etc will eventually be mainly done by AI\u2026 what should we do? What should we focus on? Someone said we should focus on developing a deep understanding of the system\u2026",
+      "text": "Cartography/Geospatial data science and the impact of AI - what should early career professionals focus on?\nSo with AI disrupting a lot of the workflow all of the main white collar jobs including data science and geospatial science (I guess except for surveying?) The repetitive tasks, some visualizations, coding, some development task etc will eventually be mainly done by AI… what should we do? What should we focus on? Someone said we should focus on developing a deep understanding of the system…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Cartography/Geospatial data science and the impact of AI - what should early car\u2026",
+          "title": "Cartography/Geospatial data science and the impact of AI - what should early car…",
           "url": "https://www.reddit.com/r/gis/comments/1vafuex/cartographygeospatial_data_science_and_the_impact/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1031,13 +981,13 @@
     },
     {
       "id": "l549",
-      "text": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economically valuable?\nI\u2019ve been thinking about AI and automation, and I\u2019m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man\u2026",
+      "text": "What if AI doesn’t just replace jobs, but makes human labor itself less economically valuable?\nI’ve been thinking about AI and automation, and I’m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economic\u2026",
+          "title": "What if AI doesn’t just replace jobs, but makes human labor itself less economic…",
           "url": "https://www.reddit.com/r/Futurology/comments/1vjqvpl/what_if_ai_doesnt_just_replace_jobs_but_makes/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1128,6 +1078,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

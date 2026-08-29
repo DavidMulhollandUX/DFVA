@@ -15,64 +15,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "43-4051-01",
-      "text": "National peak professional bodies and statutory regulators governing Customer Service Representatives enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Customer Service Representatives",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Customer Service Representatives",
-          "url": "https://www.psc.gov.au/standards/43-4051",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Customer Service Representatives"
-        }
-      ],
-      "scope": "Australian practitioners in Customer Service Representatives across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "43-4051-02",
-      "text": "Automation of routine transactional and analytical tasks in Customer Service Representatives heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Customer Service Representatives",
-          "url": "https://www.jobsandskills.gov.au/research/43-4051",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Customer Service Representatives in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Customer Service Representatives roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "feat(skills): add agent-benchmark\nFixes #35\n\n## Summary\nAdds `agent-benchmark` for dynamic same-task skill/tool/harness evaluation (tokens, turns, latency, cost, success).\n\n## Scope\n- `SKILL.md` + `REFERENCE.md` (Kun Chen methodology notes)\n- Catalog registration\n\n## Out of scope\n- Merging to `main` is for you after review\n- No remo\n###  \u26a0\ufe0f  No Changeset found\n\nLatest commit: 2c6a35938a329c611f5daff980c464966eafeed6\n\nMerging this PR will not cause a version bump for any packages. If these change\u2026",
+      "text": "feat(skills): add agent-benchmark\nFixes #35\n\n## Summary\nAdds `agent-benchmark` for dynamic same-task skill/tool/harness evaluation (tokens, turns, latency, cost, success).\n\n## Scope\n- `SKILL.md` + `REFERENCE.md` (Kun Chen methodology notes)\n- Catalog registration\n\n## Out of scope\n- Merging to `main` is for you after review\n- No remo\n###  ⚠️  No Changeset found\n\nLatest commit: 2c6a35938a329c611f5daff980c464966eafeed6\n\nMerging this PR will not cause a version bump for any packages. If these change…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(skills): add agent-benchmark\nFixes #35\n\n## Summary\nAdds `agent-benchmark` f\u2026",
+          "title": "feat(skills): add agent-benchmark\nFixes #35\n\n## Summary\nAdds `agent-benchmark` f…",
           "url": "https://github.com/YosefHayim/dufflebag/pull/36",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -87,13 +37,13 @@
     },
     {
       "id": "l504",
-      "text": "Codex Desktop no longer shows visible context/token usage indicator\n### What version of the Codex App are you using (From \u201cAbout Codex\u201d dialog)?\n\n26.519.2081.0\n\n### What subscription do you have?\n\nChatGPT Business\n\n### What platform is your computer?\n\nMicrosoft Windows NT 10.0.26200.0 x64\n\n### What issue are you seeing?\n\nAfter updating Codex Desktop, the app no long\nPotential duplicates detected. Please review them and close your issue if it is a duplicate.\n\n- #23591\n- #22220\n\n*Powered by [Codex\u2026",
+      "text": "Codex Desktop no longer shows visible context/token usage indicator\n### What version of the Codex App are you using (From “About Codex” dialog)?\n\n26.519.2081.0\n\n### What subscription do you have?\n\nChatGPT Business\n\n### What platform is your computer?\n\nMicrosoft Windows NT 10.0.26200.0 x64\n\n### What issue are you seeing?\n\nAfter updating Codex Desktop, the app no long\nPotential duplicates detected. Please review them and close your issue if it is a duplicate.\n\n- #23591\n- #22220\n\n*Powered by [Codex…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Codex Desktop no longer shows visible context/token usage indicator\n### What ver\u2026",
+          "title": "Codex Desktop no longer shows visible context/token usage indicator\n### What ver…",
           "url": "https://github.com/openai/codex/issues/23794",
           "date": "2026-05-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -108,13 +58,13 @@
     },
     {
       "id": "l505",
-      "text": "External-review ideas backlog (v6+) \u2014 un-filed candidates harvested at spec dissolution [umbrella]\n# External-review ideas backlog (v6+)\n\nCandidate ideas surfaced from the external-model reviews and critiques of the v6 plan \u2014 `codex_on_v6_for_llms`, `gemini_on_v6_for_llms`, the `fable_sum_*` analyses, and `megaspec-critique` \u2014 **harvested during the 2026-07-08 spec-directory dissolution**, before\n> **Preserved source review** \u2014 `notes/superpowers/specs/codex_on_v6_for_llms.md` (part 1/3), carrie\u2026",
+      "text": "External-review ideas backlog (v6+) — un-filed candidates harvested at spec dissolution [umbrella]\n# External-review ideas backlog (v6+)\n\nCandidate ideas surfaced from the external-model reviews and critiques of the v6 plan — `codex_on_v6_for_llms`, `gemini_on_v6_for_llms`, the `fable_sum_*` analyses, and `megaspec-critique` — **harvested during the 2026-07-08 spec-directory dissolution**, before\n> **Preserved source review** — `notes/superpowers/specs/codex_on_v6_for_llms.md` (part 1/3), carrie…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "External-review ideas backlog (v6+) \u2014 un-filed candidates harvested at spec diss\u2026",
+          "title": "External-review ideas backlog (v6+) — un-filed candidates harvested at spec diss…",
           "url": "https://github.com/StoneCypher/fsl/issues/1840",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -276,13 +226,13 @@
     },
     {
       "id": "l513",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -297,13 +247,13 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -528,13 +478,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -570,13 +520,13 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -591,13 +541,13 @@
     },
     {
       "id": "l528",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -612,13 +562,13 @@
     },
     {
       "id": "l529",
-      "text": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+      "text": "Show HN: Core – open-source AI butler that clears your backlog without you",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+          "title": "Show HN: Core – open-source AI butler that clears your backlog without you",
           "url": "https://www.getcore.me/",
           "date": "2026-04-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -633,13 +583,13 @@
     },
     {
       "id": "l530",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac\u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and \u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and …",
           "url": "https://www.reddit.com/r/accelerate/comments/1vlw4un/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -696,13 +646,13 @@
     },
     {
       "id": "l533",
-      "text": "This is a fair bear point for $APP $RDDT $META $PINS $SNAP and Adtech broadly.\n\nAI/LLMs could eventually deliver better ROAS and start taking budget from existing ad platforms.\n\nI just don\u2019t think advertising works that cleanly.\n\nIf the best ROAS automatically won every dollar, $META would have monopolized digital advertising years ago. Its targeting and ad stack have been superior to most platforms for a long time, yet $RDDT $SNAP $PINS and others still built real advertising businesses.\n\nAdver",
+      "text": "This is a fair bear point for $APP $RDDT $META $PINS $SNAP and Adtech broadly.\n\nAI/LLMs could eventually deliver better ROAS and start taking budget from existing ad platforms.\n\nI just don’t think advertising works that cleanly.\n\nIf the best ROAS automatically won every dollar, $META would have monopolized digital advertising years ago. Its targeting and ad stack have been superior to most platforms for a long time, yet $RDDT $SNAP $PINS and others still built real advertising businesses.\n\nAdver",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This is a fair bear point for $APP $RDDT $META $PINS $SNAP and Adtech broadly.\n\n\u2026",
+          "title": "This is a fair bear point for $APP $RDDT $META $PINS $SNAP and Adtech broadly.\n\n…",
           "url": "https://x.com/TheWiseIC/status/2093507103549763999",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -717,13 +667,13 @@
     },
     {
       "id": "l534",
-      "text": ".@Figure CEO @MBTannenbaum on the risk of outsourcing customer acquisition in the age of AI:\n\n\"This is why we keep a direct-to-consumer business. A lot of our customers in the lending world rely on lead generation platforms like Credit Karma and LendingTree, or personal finance websites. They\u2019re affiliates that send out leads.\n\nIf AI disrupts that, how do we know our partners are set up to make sure they get those leads in that future?\n\nWe\u2019re not really outsourcing the underwriting. We\u2019re outsou",
+      "text": ".@Figure CEO @MBTannenbaum on the risk of outsourcing customer acquisition in the age of AI:\n\n\"This is why we keep a direct-to-consumer business. A lot of our customers in the lending world rely on lead generation platforms like Credit Karma and LendingTree, or personal finance websites. They’re affiliates that send out leads.\n\nIf AI disrupts that, how do we know our partners are set up to make sure they get those leads in that future?\n\nWe’re not really outsourcing the underwriting. We’re outsou",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": ".@Figure CEO @MBTannenbaum on the risk of outsourcing customer acquisition in th\u2026",
+          "title": ".@Figure CEO @MBTannenbaum on the risk of outsourcing customer acquisition in th…",
           "url": "https://x.com/ThePeelPod/status/2093359585419579440",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -780,13 +730,13 @@
     },
     {
       "id": "l537",
-      "text": "AI Made Simple \u2014 August 27, 2026",
+      "text": "AI Made Simple — August 27, 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Made Simple \u2014 August 27, 2026",
+          "title": "AI Made Simple — August 27, 2026",
           "url": "https://x.com/eltintero/status/2093012556243710067",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -828,7 +778,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@TheWiseIC If I asked Chatgpt, Gemini, Grok, or Claude what new features the iPh\u2026",
+          "title": "@TheWiseIC If I asked Chatgpt, Gemini, Grok, or Claude what new features the iPh…",
           "url": "https://x.com/thomasthedeal/status/2093510603981656491",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -849,7 +799,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The Coordination Tax: A Better Way for Banks to Decide Between One AI Agent and \u2026",
+          "title": "The Coordination Tax: A Better Way for Banks to Decide Between One AI Agent and …",
           "url": "https://x.com/vivsur/status/2093048599814844878",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -864,13 +814,13 @@
     },
     {
       "id": "l541",
-      "text": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+      "text": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+          "title": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
           "url": "https://x.com/BestBlogsDev/status/2093500753738645591",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -891,7 +841,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@w3arew3 building the trust layer that lets AI-powered money move safely at scal\u2026",
+          "title": "@w3arew3 building the trust layer that lets AI-powered money move safely at scal…",
           "url": "https://x.com/Rachdefi/status/2070524068219027502",
           "date": "2026-06-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -912,7 +862,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Thoughts on the Future of Humans in the Technological Society --- Part I\n\nAs AI \u2026",
+          "title": "Thoughts on the Future of Humans in the Technological Society --- Part I\n\nAs AI …",
           "url": "https://x.com/BarryMoore70635/status/2086498046091698564",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -927,13 +877,13 @@
     },
     {
       "id": "l544",
-      "text": "Unlocking the Agent Economy: Twin3.ai\u2019s Partnership Strategy and Enterprise Solutions",
+      "text": "Unlocking the Agent Economy: Twin3.ai’s Partnership Strategy and Enterprise Solutions",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Unlocking the Agent Economy: Twin3.ai\u2019s Partnership Strategy and Enterprise Solu\u2026",
+          "title": "Unlocking the Agent Economy: Twin3.ai’s Partnership Strategy and Enterprise Solu…",
           "url": "https://x.com/Rachdefi/status/2045438933702447186",
           "date": "2026-04-18",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -948,13 +898,13 @@
     },
     {
       "id": "l545",
-      "text": "Steve Hind: How AI Agents Are Disrupting Customer Experience & Brands | The Further, Faster Podcast\nIn this episode of The Further, Faster Podcast, Bede Moore sits down with Steve Hind, Co-founder of Lorikeet. \nThey explore the AI-driven revolution transforming customer relationships. As AI agents increasingly handle interactions on behalf of both companies and consumers, the traditional dynamics of customer service, brand identity, and product delivery are being flipped on their head. \nSteve sh\u2026",
+      "text": "Steve Hind: How AI Agents Are Disrupting Customer Experience & Brands | The Further, Faster Podcast\nIn this episode of The Further, Faster Podcast, Bede Moore sits down with Steve Hind, Co-founder of Lorikeet. \nThey explore the AI-driven revolution transforming customer relationships. As AI agents increasingly handle interactions on behalf of both companies and consumers, the traditional dynamics of customer service, brand identity, and product delivery are being flipped on their head. \nSteve sh…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Steve Hind: How AI Agents Are Disrupting Customer Experience & Brands | The Furt\u2026",
+          "title": "Steve Hind: How AI Agents Are Disrupting Customer Experience & Brands | The Furt…",
           "url": "https://www.youtube.com/watch?v=4L0guOWUUhk",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -969,13 +919,13 @@
     },
     {
       "id": "l546",
-      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - \u2026",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har\u2026",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har…",
           "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -990,13 +940,13 @@
     },
     {
       "id": "l547",
-      "text": "Andrew Yang: AI disruption will be worse than anyone thinks\nThe AI layoffs may be just getting started.\n\nBrian Sozzi sits down with entrepreneur and former presidential candidate Andrew Yang to discuss AI job losses, universal basic income, corporate incentives, and why he believes we're still in the early innings of AI-driven workforce disruption.\n\nThe conversation explores the future of work, AI taxes, corporate decision-making, Elon Musk, wealth inequality, crypto, and what workers should be \u2026",
+      "text": "Andrew Yang: AI disruption will be worse than anyone thinks\nThe AI layoffs may be just getting started.\n\nBrian Sozzi sits down with entrepreneur and former presidential candidate Andrew Yang to discuss AI job losses, universal basic income, corporate incentives, and why he believes we're still in the early innings of AI-driven workforce disruption.\n\nThe conversation explores the future of work, AI taxes, corporate decision-making, Elon Musk, wealth inequality, crypto, and what workers should be …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Andrew Yang: AI disruption will be worse than anyone thinks\nThe AI layoffs may b\u2026",
+          "title": "Andrew Yang: AI disruption will be worse than anyone thinks\nThe AI layoffs may b…",
           "url": "https://www.youtube.com/watch?v=dP0Bey2iATE",
           "date": "2026-06-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1011,7 +961,7 @@
     },
     {
       "id": "l448",
-      "text": "Customer Service Representative \u2014 Cubic Corporation (Silverwater, New South Wales, Australia). Posted 1 day ago.",
+      "text": "Customer Service Representative — Cubic Corporation (Silverwater, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1032,7 +982,7 @@
     },
     {
       "id": "l449",
-      "text": "Customer Service Representative \u2014 Core Talent (Eight Mile Plains, Queensland, Australia). Posted 1 week ago.",
+      "text": "Customer Service Representative — Core Talent (Eight Mile Plains, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1053,7 +1003,7 @@
     },
     {
       "id": "l450",
-      "text": "Customer Service Representative \u2014 Elements Recruitment Australia (Wetherill Park, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Customer Service Representative — Elements Recruitment Australia (Wetherill Park, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1074,7 +1024,7 @@
     },
     {
       "id": "l451",
-      "text": "Customer Service Representative \u2014 Valmont Industries, Inc. (Wetherill Park, New South Wales, Australia). Posted 12 hours ago.",
+      "text": "Customer Service Representative — Valmont Industries, Inc. (Wetherill Park, New South Wales, Australia). Posted 12 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1095,7 +1045,7 @@
     },
     {
       "id": "l452",
-      "text": "Customer Service Representative \u2014 Reckon (Adelaide, South Australia, Australia). Posted 1 week ago.",
+      "text": "Customer Service Representative — Reckon (Adelaide, South Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1116,7 +1066,7 @@
     },
     {
       "id": "l453",
-      "text": "Customer Operations Representative \u2014 Computershare Australia (Maroochydore, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Customer Operations Representative — Computershare Australia (Maroochydore, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1137,7 +1087,7 @@
     },
     {
       "id": "l454",
-      "text": "Customer Service Representative \u2014 Wesco (Loganholme, Queensland, Australia). Posted 1 week ago.",
+      "text": "Customer Service Representative — Wesco (Loganholme, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1158,7 +1108,7 @@
     },
     {
       "id": "l455",
-      "text": "Call Centre Operator \u2014 COS (Lidcombe, New South Wales, Australia). Posted 1 day ago.",
+      "text": "Call Centre Operator — COS (Lidcombe, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1179,7 +1129,7 @@
     },
     {
       "id": "l456",
-      "text": "Customer Service Rep \u2014 UPS (Niddrie, Victoria, Australia). Posted 6 days ago.",
+      "text": "Customer Service Rep — UPS (Niddrie, Victoria, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1200,7 +1150,7 @@
     },
     {
       "id": "l457",
-      "text": "Customer Service Representative \u2014 Thomson Reuters (Pyrmont, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Customer Service Representative — Thomson Reuters (Pyrmont, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1221,13 +1171,13 @@
     },
     {
       "id": "l558",
-      "text": "feat(skills): add agent-benchmark\nFixes #35\n\n## Summary\nAdds `agent-benchmark` for dynamic same-task skill/tool/harness evaluation (tokens, turns, latency, cost, success).\n\n## Scope\n- `SKILL.md` + `REFERENCE.md` (Kun Chen methodology notes)\n- Catalog registration\n\n## Out of scope\n- Merging to `main` is for you after review\n- No remo\n###  \u26a0\ufe0f  No Changeset found\n\nLatest commit: 2c6a35938a329c611f5daff980c464966eafeed6\n\nMerging this PR will not cause a version bump for any packages. If these change\u2026",
+      "text": "feat(skills): add agent-benchmark\nFixes #35\n\n## Summary\nAdds `agent-benchmark` for dynamic same-task skill/tool/harness evaluation (tokens, turns, latency, cost, success).\n\n## Scope\n- `SKILL.md` + `REFERENCE.md` (Kun Chen methodology notes)\n- Catalog registration\n\n## Out of scope\n- Merging to `main` is for you after review\n- No remo\n###  ⚠️  No Changeset found\n\nLatest commit: 2c6a35938a329c611f5daff980c464966eafeed6\n\nMerging this PR will not cause a version bump for any packages. If these change…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(skills): add agent-benchmark\nFixes #35\n\n## Summary\nAdds `agent-benchmark` f\u2026",
+          "title": "feat(skills): add agent-benchmark\nFixes #35\n\n## Summary\nAdds `agent-benchmark` f…",
           "url": "https://github.com/YosefHayim/dufflebag/pull/36",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1242,13 +1192,13 @@
     },
     {
       "id": "l559",
-      "text": "Codex Desktop no longer shows visible context/token usage indicator\n### What version of the Codex App are you using (From \u201cAbout Codex\u201d dialog)?\n\n26.519.2081.0\n\n### What subscription do you have?\n\nChatGPT Business\n\n### What platform is your computer?\n\nMicrosoft Windows NT 10.0.26200.0 x64\n\n### What issue are you seeing?\n\nAfter updating Codex Desktop, the app no long\nPotential duplicates detected. Please review them and close your issue if it is a duplicate.\n\n- #23591\n- #22220\n\n*Powered by [Codex\u2026",
+      "text": "Codex Desktop no longer shows visible context/token usage indicator\n### What version of the Codex App are you using (From “About Codex” dialog)?\n\n26.519.2081.0\n\n### What subscription do you have?\n\nChatGPT Business\n\n### What platform is your computer?\n\nMicrosoft Windows NT 10.0.26200.0 x64\n\n### What issue are you seeing?\n\nAfter updating Codex Desktop, the app no long\nPotential duplicates detected. Please review them and close your issue if it is a duplicate.\n\n- #23591\n- #22220\n\n*Powered by [Codex…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Codex Desktop no longer shows visible context/token usage indicator\n### What ver\u2026",
+          "title": "Codex Desktop no longer shows visible context/token usage indicator\n### What ver…",
           "url": "https://github.com/openai/codex/issues/23794",
           "date": "2026-05-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1263,13 +1213,13 @@
     },
     {
       "id": "l560",
-      "text": "External-review ideas backlog (v6+) \u2014 un-filed candidates harvested at spec dissolution [umbrella]\n# External-review ideas backlog (v6+)\n\nCandidate ideas surfaced from the external-model reviews and critiques of the v6 plan \u2014 `codex_on_v6_for_llms`, `gemini_on_v6_for_llms`, the `fable_sum_*` analyses, and `megaspec-critique` \u2014 **harvested during the 2026-07-08 spec-directory dissolution**, before\n> **Preserved source review** \u2014 `notes/superpowers/specs/codex_on_v6_for_llms.md` (part 1/3), carrie\u2026",
+      "text": "External-review ideas backlog (v6+) — un-filed candidates harvested at spec dissolution [umbrella]\n# External-review ideas backlog (v6+)\n\nCandidate ideas surfaced from the external-model reviews and critiques of the v6 plan — `codex_on_v6_for_llms`, `gemini_on_v6_for_llms`, the `fable_sum_*` analyses, and `megaspec-critique` — **harvested during the 2026-07-08 spec-directory dissolution**, before\n> **Preserved source review** — `notes/superpowers/specs/codex_on_v6_for_llms.md` (part 1/3), carrie…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "External-review ideas backlog (v6+) \u2014 un-filed candidates harvested at spec diss\u2026",
+          "title": "External-review ideas backlog (v6+) — un-filed candidates harvested at spec diss…",
           "url": "https://github.com/StoneCypher/fsl/issues/1840",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1284,13 +1234,13 @@
     },
     {
       "id": "l561",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac\u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and \u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and …",
           "url": "https://www.reddit.com/r/accelerate/comments/1vlw4un/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1305,13 +1255,13 @@
     },
     {
       "id": "l562",
-      "text": "Steve Hind: How AI Agents Are Disrupting Customer Experience & Brands | The Further, Faster Podcast\nIn this episode of The Further, Faster Podcast, Bede Moore sits down with Steve Hind, Co-founder of Lorikeet. \nThey explore the AI-driven revolution transforming customer relationships. As AI agents increasingly handle interactions on behalf of both companies and consumers, the traditional dynamics of customer service, brand identity, and product delivery are being flipped on their head. \nSteve sh\u2026",
+      "text": "Steve Hind: How AI Agents Are Disrupting Customer Experience & Brands | The Further, Faster Podcast\nIn this episode of The Further, Faster Podcast, Bede Moore sits down with Steve Hind, Co-founder of Lorikeet. \nThey explore the AI-driven revolution transforming customer relationships. As AI agents increasingly handle interactions on behalf of both companies and consumers, the traditional dynamics of customer service, brand identity, and product delivery are being flipped on their head. \nSteve sh…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Steve Hind: How AI Agents Are Disrupting Customer Experience & Brands | The Furt\u2026",
+          "title": "Steve Hind: How AI Agents Are Disrupting Customer Experience & Brands | The Furt…",
           "url": "https://www.youtube.com/watch?v=4L0guOWUUhk",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1326,13 +1276,13 @@
     },
     {
       "id": "l563",
-      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - \u2026",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har\u2026",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har…",
           "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1347,13 +1297,13 @@
     },
     {
       "id": "l564",
-      "text": "Andrew Yang: AI disruption will be worse than anyone thinks\nThe AI layoffs may be just getting started.\n\nBrian Sozzi sits down with entrepreneur and former presidential candidate Andrew Yang to discuss AI job losses, universal basic income, corporate incentives, and why he believes we're still in the early innings of AI-driven workforce disruption.\n\nThe conversation explores the future of work, AI taxes, corporate decision-making, Elon Musk, wealth inequality, crypto, and what workers should be \u2026",
+      "text": "Andrew Yang: AI disruption will be worse than anyone thinks\nThe AI layoffs may be just getting started.\n\nBrian Sozzi sits down with entrepreneur and former presidential candidate Andrew Yang to discuss AI job losses, universal basic income, corporate incentives, and why he believes we're still in the early innings of AI-driven workforce disruption.\n\nThe conversation explores the future of work, AI taxes, corporate decision-making, Elon Musk, wealth inequality, crypto, and what workers should be …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Andrew Yang: AI disruption will be worse than anyone thinks\nThe AI layoffs may b\u2026",
+          "title": "Andrew Yang: AI disruption will be worse than anyone thinks\nThe AI layoffs may b…",
           "url": "https://www.youtube.com/watch?v=dP0Bey2iATE",
           "date": "2026-06-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1444,6 +1394,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

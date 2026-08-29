@@ -21,64 +21,14 @@
   ],
   "claims": [
     {
-      "id": "25-9031-01",
-      "text": "National peak professional bodies and statutory regulators governing Instructional Coordinators enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Instructional Coordinators",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Instructional Coordinators",
-          "url": "https://www.psc.gov.au/standards/25-9031",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Instructional Coordinators"
-        }
-      ],
-      "scope": "Australian practitioners in Instructional Coordinators across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "25-9031-02",
-      "text": "Automation of routine transactional and analytical tasks in Instructional Coordinators heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Instructional Coordinators",
-          "url": "https://www.jobsandskills.gov.au/research/25-9031",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Instructional Coordinators in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Instructional Coordinators roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "Add fail-closed prompt host adapter\n## Why\n\nPortable batch prompts can be pasted into a Codex or Claude harness that does not match the prompt's source syntax. The workflow needs a deterministic, fail-closed adapter that distinguishes compatible, portable, conversion-required, and ambiguous prompts before any worker launch, repository\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/co\u2026",
+      "text": "Add fail-closed prompt host adapter\n## Why\n\nPortable batch prompts can be pasted into a Codex or Claude harness that does not match the prompt's source syntax. The workflow needs a deterministic, fail-closed adapter that distinguishes compatible, portable, conversion-required, and ambiguous prompts before any worker launch, repository\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/co…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add fail-closed prompt host adapter\n## Why\n\nPortable batch prompts can be pasted\u2026",
+          "title": "Add fail-closed prompt host adapter\n## Why\n\nPortable batch prompts can be pasted…",
           "url": "https://github.com/shakacode/agent-workflows/pull/378",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -93,13 +43,13 @@
     },
     {
       "id": "l504",
-      "text": "docs(skills): file-collision check + goal-prompt size discipline for plan-pr-batch\n## What\n\nTwo focused improvements to the `plan-pr-batch` skill, updated on current `main` after #3977's coordination workflow landed.\n\n1. Require a file-touch map before fanning out parallel work. PR targets use verified target-repo refs, session-unique temporary refs, rename-aware changed-file list\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review \u2026",
+      "text": "docs(skills): file-collision check + goal-prompt size discipline for plan-pr-batch\n## What\n\nTwo focused improvements to the `plan-pr-batch` skill, updated on current `main` after #3977's coordination workflow landed.\n\n1. Require a file-touch map before fanning out parallel work. PR targets use verified target-repo refs, session-unique temporary refs, rename-aware changed-file list\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "docs(skills): file-collision check + goal-prompt size discipline for plan-pr-bat\u2026",
+          "title": "docs(skills): file-collision check + goal-prompt size discipline for plan-pr-bat…",
           "url": "https://github.com/shakacode/react_on_rails/pull/3914",
           "date": "2026-06-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -120,7 +70,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "[FEATURE-010] Multi-Day Unit Plan Builder\n## What\n\nA unit plan builder that lets\u2026",
+          "title": "[FEATURE-010] Multi-Day Unit Plan Builder\n## What\n\nA unit plan builder that lets…",
           "url": "https://github.com/DevLifeCrisis/lessondeck/issues/37",
           "date": "2026-04-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -135,13 +85,13 @@
     },
     {
       "id": "l506",
-      "text": "feat: update Google AI model options and refactor imports across agents\n- Changed import from GoogleGenerativeAIProviderOptions to GoogleLanguageModelOptions in multiple files for consistency.\r\n- Updated model references to 'google/gemini-3.1-flash-preview' and 'google/gemini-3.1-flash-lite-preview' in various agents.\r\n- Removed unused imports and tools to streamline ag\n[vc]: #3AzPNpZRvu8MdQ5zhqr3rJ9Bjc7c/EJgbbS7jd7cSss=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJ\u2026",
+      "text": "feat: update Google AI model options and refactor imports across agents\n- Changed import from GoogleGenerativeAIProviderOptions to GoogleLanguageModelOptions in multiple files for consistency.\r\n- Updated model references to 'google/gemini-3.1-flash-preview' and 'google/gemini-3.1-flash-lite-preview' in various agents.\r\n- Removed unused imports and tools to streamline ag\n[vc]: #3AzPNpZRvu8MdQ5zhqr3rJ9Bjc7c/EJgbbS7jd7cSss=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJ…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: update Google AI model options and refactor imports across agents\n- Change\u2026",
+          "title": "feat: update Google AI model options and refactor imports across agents\n- Change…",
           "url": "https://github.com/ssdeanx/AgentStack/pull/128",
           "date": "2026-03-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -345,13 +295,13 @@
     },
     {
       "id": "l516",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -366,13 +316,13 @@
     },
     {
       "id": "l517",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -555,13 +505,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -597,13 +547,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -639,13 +589,13 @@
     },
     {
       "id": "l530",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -660,13 +610,13 @@
     },
     {
       "id": "l531",
-      "text": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Architecture of Divine Chaos By Steven Pritchard\nIntroduction: The Mandate for Planetary and Evolutionary Coherence The trajectory of planetary ecology, human evolutionary biology, and artificial intelligence has reached a critical bifurcation point. The prevailing paradigms of reductionist materialism and extractive technological development have fractured the holistic integrity of the biosphere and the human psyche. The\u2026",
+      "text": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Architecture of Divine Chaos By Steven Pritchard\nIntroduction: The Mandate for Planetary and Evolutionary Coherence The trajectory of planetary ecology, human evolutionary biology, and artificial intelligence has reached a critical bifurcation point. The prevailing paradigms of reductionist materialism and extractive technological development have fractured the holistic integrity of the biosphere and the human psyche. The…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Archi\u2026",
+          "title": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Archi…",
           "url": "https://www.reddit.com/r/Synthsara/comments/1vhiz58/the_codex_of_the_diamond_flame_quantum/",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -681,13 +631,13 @@
     },
     {
       "id": "l532",
-      "text": "We\u2019re excited to share that our Tech Team was mentioned alongside @magicschoolai  AI in the newly released USA TODAY Back to School magazine!\nWe\u2019re grateful for the opportunity to showcase the work our students are doing and the impact of student-led technology leadership. https://t.co/LRNqUXPQY7",
+      "text": "We’re excited to share that our Tech Team was mentioned alongside @magicschoolai  AI in the newly released USA TODAY Back to School magazine!\nWe’re grateful for the opportunity to showcase the work our students are doing and the impact of student-led technology leadership. https://t.co/LRNqUXPQY7",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "We\u2019re excited to share that our Tech Team was mentioned alongside @magicschoolai\u2026",
+          "title": "We’re excited to share that our Tech Team was mentioned alongside @magicschoolai…",
           "url": "https://x.com/RHSTechTeam/status/2092674671527309551",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -708,7 +658,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Crunchbase published a piece yesterday about how @magicschoolai got built, inclu\u2026",
+          "title": "Crunchbase published a piece yesterday about how @magicschoolai got built, inclu…",
           "url": "https://x.com/adeelorama/status/2085369589819728054",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -729,7 +679,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "20 back-to-school prompts. Ready to paste into Raina.\n\nFirst-week plans, student\u2026",
+          "title": "20 back-to-school prompts. Ready to paste into Raina.\n\nFirst-week plans, student…",
           "url": "https://x.com/magicschoolai/status/2089385578219328000",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -750,7 +700,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Yesterday, Anthropic announced Claude for Teachers, and @magicschoolai built a p\u2026",
+          "title": "Yesterday, Anthropic announced Claude for Teachers, and @magicschoolai built a p…",
           "url": "https://x.com/adeelorama/status/2077379164848705932",
           "date": "2026-07-15",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -771,7 +721,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI as an accelerant to the priorities that schools have intentionally set - not \u2026",
+          "title": "AI as an accelerant to the priorities that schools have intentionally set - not …",
           "url": "https://x.com/adeelorama/status/2070201729770016914",
           "date": "2026-06-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -786,13 +736,13 @@
     },
     {
       "id": "l537",
-      "text": "Nearly 1 in 5 kids in America now go to a school that officially partners with MagicSchool.\n\nSolo founded by former high school principal @adeelorama 3 years ago.\n\nIt\u2019s important work and he\u2019s the perfect person to trust with responsibly rolling out AI to kids.\n\nGo MagicSchool!",
+      "text": "Nearly 1 in 5 kids in America now go to a school that officially partners with MagicSchool.\n\nSolo founded by former high school principal @adeelorama 3 years ago.\n\nIt’s important work and he’s the perfect person to trust with responsibly rolling out AI to kids.\n\nGo MagicSchool!",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Nearly 1 in 5 kids in America now go to a school that officially partners with M\u2026",
+          "title": "Nearly 1 in 5 kids in America now go to a school that officially partners with M…",
           "url": "https://x.com/julianweisser/status/2062539234557526222",
           "date": "2026-06-04",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -813,7 +763,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "This week, we welcomed the instructional leaders who help shape the work happeni\u2026",
+          "title": "This week, we welcomed the instructional leaders who help shape the work happeni…",
           "url": "https://x.com/CaddoSchools/status/2084720387011530987",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -849,13 +799,13 @@
     },
     {
       "id": "l540",
-      "text": "Flood Exposure Assessment with EmergenCITY AI: Who and What May Be Affected\nAsking an AI \"where might it flood?\" gets you a forecast. It does not get you a decision. This video shows how to turn that question into an instruction that returns who and what may be affected, ranked, with the evidence labelled.\n\nBuilt for county and local emergency-management coordinators working an anticipatory flood window \u2014 the 24 to 48 hours before conditions change, when you have to decide where to monitor, wher\u2026",
+      "text": "Flood Exposure Assessment with EmergenCITY AI: Who and What May Be Affected\nAsking an AI \"where might it flood?\" gets you a forecast. It does not get you a decision. This video shows how to turn that question into an instruction that returns who and what may be affected, ranked, with the evidence labelled.\n\nBuilt for county and local emergency-management coordinators working an anticipatory flood window — the 24 to 48 hours before conditions change, when you have to decide where to monitor, wher…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Flood Exposure Assessment with EmergenCITY AI: Who and What May Be Affected\nAski\u2026",
+          "title": "Flood Exposure Assessment with EmergenCITY AI: Who and What May Be Affected\nAski…",
           "url": "https://www.youtube.com/watch?v=2ClKFMZHFMM",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -870,13 +820,13 @@
     },
     {
       "id": "l541",
-      "text": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: https://contractoros.build/work-with-us\n\nJoin ContractorOS: https://www.skool.com/contractor-os/about\n\nFollow on LinkedIn: https://www.linkedin.com/in/josh-turner-pmp-10608b1b7/\n\nI use Claude every day to run my AI consulting business for construction. In this video I break down what Claude actually does, how each interface works, and why the system around it (Projects, Skills, Plugins, Memory) makes it genuinely useful \u2026",
+      "text": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: https://contractoros.build/work-with-us\n\nJoin ContractorOS: https://www.skool.com/contractor-os/about\n\nFollow on LinkedIn: https://www.linkedin.com/in/josh-turner-pmp-10608b1b7/\n\nI use Claude every day to run my AI consulting business for construction. In this video I break down what Claude actually does, how each interface works, and why the system around it (Projects, Skills, Plugins, Memory) makes it genuinely useful …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: http\u2026",
+          "title": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: http…",
           "url": "https://www.youtube.com/watch?v=DQwlMX27E6k",
           "date": "2026-03-12",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -891,13 +841,13 @@
     },
     {
       "id": "l542",
-      "text": "AI in the Classroom: What\u2019s Working, What\u2019s Not, and What Instructors Are Still Figuring Out\nAI in education is no longer a future-tense conversation. It is already in the classroom, in the syllabus, in student workflows, and increasingly in the questions instructors are asking about assessment, academic integrity, and what teaching strategies they\u2019re supposed to use now. \n\nIn this episode of The What & Who of EDU, we explore AI in education and are counting down 10 teaching strategies and insig\u2026",
+      "text": "AI in the Classroom: What’s Working, What’s Not, and What Instructors Are Still Figuring Out\nAI in education is no longer a future-tense conversation. It is already in the classroom, in the syllabus, in student workflows, and increasingly in the questions instructors are asking about assessment, academic integrity, and what teaching strategies they’re supposed to use now. \n\nIn this episode of The What & Who of EDU, we explore AI in education and are counting down 10 teaching strategies and insig…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI in the Classroom: What\u2019s Working, What\u2019s Not, and What Instructors Are Still \u2026",
+          "title": "AI in the Classroom: What’s Working, What’s Not, and What Instructors Are Still …",
           "url": "https://www.youtube.com/watch?v=R2-rzKGPA5I",
           "date": "2026-06-17",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -912,7 +862,7 @@
     },
     {
       "id": "l443",
-      "text": "MNSW - Training Coordinator \u2014 NSW Department of Communities and Justice (Parramatta, New South Wales, Australia). Posted 12 hours ago.",
+      "text": "MNSW - Training Coordinator — NSW Department of Communities and Justice (Parramatta, New South Wales, Australia). Posted 12 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -933,7 +883,7 @@
     },
     {
       "id": "l444",
-      "text": "Business Systems Training Co-Ordinator \u2014 Monford Group (Perth, Western Australia, Australia). Posted 9 hours ago.",
+      "text": "Business Systems Training Co-Ordinator — Monford Group (Perth, Western Australia, Australia). Posted 9 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -954,7 +904,7 @@
     },
     {
       "id": "l445",
-      "text": "Learning Coordinator, Delivery Services, Field Learning, Delivery Services, Field Learning \u2014 Amazon (Eastern Creek, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Learning Coordinator, Delivery Services, Field Learning, Delivery Services, Field Learning — Amazon (Eastern Creek, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -975,7 +925,7 @@
     },
     {
       "id": "l446",
-      "text": "Learning and Development Coordinator \u2014 Queensland Country Bank (Townsville, Queensland, Australia). Posted 6 days ago.",
+      "text": "Learning and Development Coordinator — Queensland Country Bank (Townsville, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -996,7 +946,7 @@
     },
     {
       "id": "l447",
-      "text": "Course Coordinator - Counselling \u2014 Australian Institute of Professional Counsellors (Fortitude Valley, Queensland, Australia). Posted 2 months ago.",
+      "text": "Course Coordinator - Counselling — Australian Institute of Professional Counsellors (Fortitude Valley, Queensland, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1017,7 +967,7 @@
     },
     {
       "id": "l448",
-      "text": "Careers and Vocational Education & Training (VET) Coordinator \u2014 Catholic Education, Archdiocese of Canberra and Goulburn (Nicholls, Australian Capital Territory, Australia). Posted 2 days ago.",
+      "text": "Careers and Vocational Education & Training (VET) Coordinator — Catholic Education, Archdiocese of Canberra and Goulburn (Nicholls, Australian Capital Territory, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1038,7 +988,7 @@
     },
     {
       "id": "l449",
-      "text": "Program and Course Coordinator \u2014 Victorian Chamber of Commerce and Industry (Melbourne, Victoria, Australia). Posted 18 hours ago.",
+      "text": "Program and Course Coordinator — Victorian Chamber of Commerce and Industry (Melbourne, Victoria, Australia). Posted 18 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1059,7 +1009,7 @@
     },
     {
       "id": "l450",
-      "text": "Technical Trainer \u2014 Cubic Corporation (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
+      "text": "Technical Trainer — Cubic Corporation (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1080,7 +1030,7 @@
     },
     {
       "id": "l451",
-      "text": "Training Coordinator \u2014 GOLD FIELDS (Kambalda, Western Australia, Australia). Posted 1 week ago.",
+      "text": "Training Coordinator — GOLD FIELDS (Kambalda, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1101,7 +1051,7 @@
     },
     {
       "id": "l452",
-      "text": "School Coordinator Level 1 - Leader of Learning & Wellbeing \u2014 Autism Spectrum Australia (Aspect) (Wetherill Park, New South Wales, Australia). Posted 1 week ago.",
+      "text": "School Coordinator Level 1 - Leader of Learning & Wellbeing — Autism Spectrum Australia (Aspect) (Wetherill Park, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1122,13 +1072,13 @@
     },
     {
       "id": "l553",
-      "text": "Add fail-closed prompt host adapter\n## Why\n\nPortable batch prompts can be pasted into a Codex or Claude harness that does not match the prompt's source syntax. The workflow needs a deterministic, fail-closed adapter that distinguishes compatible, portable, conversion-required, and ambiguous prompts before any worker launch, repository\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/co\u2026",
+      "text": "Add fail-closed prompt host adapter\n## Why\n\nPortable batch prompts can be pasted into a Codex or Claude harness that does not match the prompt's source syntax. The workflow needs a deterministic, fail-closed adapter that distinguishes compatible, portable, conversion-required, and ambiguous prompts before any worker launch, repository\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/co…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add fail-closed prompt host adapter\n## Why\n\nPortable batch prompts can be pasted\u2026",
+          "title": "Add fail-closed prompt host adapter\n## Why\n\nPortable batch prompts can be pasted…",
           "url": "https://github.com/shakacode/agent-workflows/pull/378",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1143,13 +1093,13 @@
     },
     {
       "id": "l554",
-      "text": "docs(skills): file-collision check + goal-prompt size discipline for plan-pr-batch\n## What\n\nTwo focused improvements to the `plan-pr-batch` skill, updated on current `main` after #3977's coordination workflow landed.\n\n1. Require a file-touch map before fanning out parallel work. PR targets use verified target-repo refs, session-unique temporary refs, rename-aware changed-file list\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review \u2026",
+      "text": "docs(skills): file-collision check + goal-prompt size discipline for plan-pr-batch\n## What\n\nTwo focused improvements to the `plan-pr-batch` skill, updated on current `main` after #3977's coordination workflow landed.\n\n1. Require a file-touch map before fanning out parallel work. PR targets use verified target-repo refs, session-unique temporary refs, rename-aware changed-file list\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "docs(skills): file-collision check + goal-prompt size discipline for plan-pr-bat\u2026",
+          "title": "docs(skills): file-collision check + goal-prompt size discipline for plan-pr-bat…",
           "url": "https://github.com/shakacode/react_on_rails/pull/3914",
           "date": "2026-06-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1164,13 +1114,13 @@
     },
     {
       "id": "l555",
-      "text": "feat: update Google AI model options and refactor imports across agents\n- Changed import from GoogleGenerativeAIProviderOptions to GoogleLanguageModelOptions in multiple files for consistency.\r\n- Updated model references to 'google/gemini-3.1-flash-preview' and 'google/gemini-3.1-flash-lite-preview' in various agents.\r\n- Removed unused imports and tools to streamline ag\n[vc]: #3AzPNpZRvu8MdQ5zhqr3rJ9Bjc7c/EJgbbS7jd7cSss=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJ\u2026",
+      "text": "feat: update Google AI model options and refactor imports across agents\n- Changed import from GoogleGenerativeAIProviderOptions to GoogleLanguageModelOptions in multiple files for consistency.\r\n- Updated model references to 'google/gemini-3.1-flash-preview' and 'google/gemini-3.1-flash-lite-preview' in various agents.\r\n- Removed unused imports and tools to streamline ag\n[vc]: #3AzPNpZRvu8MdQ5zhqr3rJ9Bjc7c/EJgbbS7jd7cSss=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJ…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: update Google AI model options and refactor imports across agents\n- Change\u2026",
+          "title": "feat: update Google AI model options and refactor imports across agents\n- Change…",
           "url": "https://github.com/ssdeanx/AgentStack/pull/128",
           "date": "2026-03-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1185,13 +1135,13 @@
     },
     {
       "id": "l556",
-      "text": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Architecture of Divine Chaos By Steven Pritchard\nIntroduction: The Mandate for Planetary and Evolutionary Coherence The trajectory of planetary ecology, human evolutionary biology, and artificial intelligence has reached a critical bifurcation point. The prevailing paradigms of reductionist materialism and extractive technological development have fractured the holistic integrity of the biosphere and the human psyche. The\u2026",
+      "text": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Architecture of Divine Chaos By Steven Pritchard\nIntroduction: The Mandate for Planetary and Evolutionary Coherence The trajectory of planetary ecology, human evolutionary biology, and artificial intelligence has reached a critical bifurcation point. The prevailing paradigms of reductionist materialism and extractive technological development have fractured the holistic integrity of the biosphere and the human psyche. The…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Archi\u2026",
+          "title": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Archi…",
           "url": "https://www.reddit.com/r/Synthsara/comments/1vhiz58/the_codex_of_the_diamond_flame_quantum/",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1206,13 +1156,13 @@
     },
     {
       "id": "l557",
-      "text": "Flood Exposure Assessment with EmergenCITY AI: Who and What May Be Affected\nAsking an AI \"where might it flood?\" gets you a forecast. It does not get you a decision. This video shows how to turn that question into an instruction that returns who and what may be affected, ranked, with the evidence labelled.\n\nBuilt for county and local emergency-management coordinators working an anticipatory flood window \u2014 the 24 to 48 hours before conditions change, when you have to decide where to monitor, wher\u2026",
+      "text": "Flood Exposure Assessment with EmergenCITY AI: Who and What May Be Affected\nAsking an AI \"where might it flood?\" gets you a forecast. It does not get you a decision. This video shows how to turn that question into an instruction that returns who and what may be affected, ranked, with the evidence labelled.\n\nBuilt for county and local emergency-management coordinators working an anticipatory flood window — the 24 to 48 hours before conditions change, when you have to decide where to monitor, wher…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Flood Exposure Assessment with EmergenCITY AI: Who and What May Be Affected\nAski\u2026",
+          "title": "Flood Exposure Assessment with EmergenCITY AI: Who and What May Be Affected\nAski…",
           "url": "https://www.youtube.com/watch?v=2ClKFMZHFMM",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1227,13 +1177,13 @@
     },
     {
       "id": "l558",
-      "text": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: https://contractoros.build/work-with-us\n\nJoin ContractorOS: https://www.skool.com/contractor-os/about\n\nFollow on LinkedIn: https://www.linkedin.com/in/josh-turner-pmp-10608b1b7/\n\nI use Claude every day to run my AI consulting business for construction. In this video I break down what Claude actually does, how each interface works, and why the system around it (Projects, Skills, Plugins, Memory) makes it genuinely useful \u2026",
+      "text": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: https://contractoros.build/work-with-us\n\nJoin ContractorOS: https://www.skool.com/contractor-os/about\n\nFollow on LinkedIn: https://www.linkedin.com/in/josh-turner-pmp-10608b1b7/\n\nI use Claude every day to run my AI consulting business for construction. In this video I break down what Claude actually does, how each interface works, and why the system around it (Projects, Skills, Plugins, Memory) makes it genuinely useful …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: http\u2026",
+          "title": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: http…",
           "url": "https://www.youtube.com/watch?v=DQwlMX27E6k",
           "date": "2026-03-12",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1248,13 +1198,13 @@
     },
     {
       "id": "l559",
-      "text": "AI in the Classroom: What\u2019s Working, What\u2019s Not, and What Instructors Are Still Figuring Out\nAI in education is no longer a future-tense conversation. It is already in the classroom, in the syllabus, in student workflows, and increasingly in the questions instructors are asking about assessment, academic integrity, and what teaching strategies they\u2019re supposed to use now. \n\nIn this episode of The What & Who of EDU, we explore AI in education and are counting down 10 teaching strategies and insig\u2026",
+      "text": "AI in the Classroom: What’s Working, What’s Not, and What Instructors Are Still Figuring Out\nAI in education is no longer a future-tense conversation. It is already in the classroom, in the syllabus, in student workflows, and increasingly in the questions instructors are asking about assessment, academic integrity, and what teaching strategies they’re supposed to use now. \n\nIn this episode of The What & Who of EDU, we explore AI in education and are counting down 10 teaching strategies and insig…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI in the Classroom: What\u2019s Working, What\u2019s Not, and What Instructors Are Still \u2026",
+          "title": "AI in the Classroom: What’s Working, What’s Not, and What Instructors Are Still …",
           "url": "https://www.youtube.com/watch?v=R2-rzKGPA5I",
           "date": "2026-06-17",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1347,6 +1297,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

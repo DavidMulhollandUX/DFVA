@@ -15,58 +15,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "27-2011-01",
-      "text": "National peak professional bodies and statutory regulators governing Actors enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Actors",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Actors",
-          "url": "https://www.psc.gov.au/standards/27-2011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Actors"
-        }
-      ],
-      "scope": "Australian practitioners in Actors across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "27-2011-02",
-      "text": "Automation of routine transactional and analytical tasks in Actors heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Actors",
-          "url": "https://www.jobsandskills.gov.au/research/27-2011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Actors in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Actors roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Expression of Interest - Production - Netflix Animation Studios \u2014 Netflix (Sydney, New South Wales, Australia). Posted 2 days ago.",
+      "text": "Expression of Interest - Production - Netflix Animation Studios — Netflix (Sydney, New South Wales, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -87,7 +37,7 @@
     },
     {
       "id": "l404",
-      "text": "Expression of Interest - Rigging - Netflix Animation Studios \u2014 Netflix (Sydney, New South Wales, Australia). Posted 2 days ago.",
+      "text": "Expression of Interest - Rigging - Netflix Animation Studios — Netflix (Sydney, New South Wales, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -108,7 +58,7 @@
     },
     {
       "id": "l405",
-      "text": "Seasonal Performer \u2014 Village Roadshow (Gold Coast). Posted 2 weeks ago.",
+      "text": "Seasonal Performer — Village Roadshow (Gold Coast). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -129,7 +79,7 @@
     },
     {
       "id": "l406",
-      "text": "Live Production and Staging Traineeship \u2014 Mackay Regional Council (Mackay, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Live Production and Staging Traineeship — Mackay Regional Council (Mackay, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -150,7 +100,7 @@
     },
     {
       "id": "l407",
-      "text": "Voice Actor \u2014 Upwork (Australia). Posted 9 hours ago.",
+      "text": "Voice Actor — Upwork (Australia). Posted 9 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -171,7 +121,7 @@
     },
     {
       "id": "l408",
-      "text": "Teacher (Drama, Acting, Singing) \u2014 Stage61 Australia (Perth, Western Australia, Australia). Posted 1 month ago.",
+      "text": "Teacher (Drama, Acting, Singing) — Stage61 Australia (Perth, Western Australia, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -192,7 +142,7 @@
     },
     {
       "id": "l409",
-      "text": "VAURA Pilates - TikTok Content Creator Role \u2014 VAURA Pilates (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "VAURA Pilates - TikTok Content Creator Role — VAURA Pilates (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -213,7 +163,7 @@
     },
     {
       "id": "l410",
-      "text": "Technician - Performing Arts Centre \u2014 Goulburn Mulwaree Council (Goulburn, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Technician - Performing Arts Centre — Goulburn Mulwaree Council (Goulburn, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -234,13 +184,13 @@
     },
     {
       "id": "l411",
-      "text": "Junior DJ \u2014 Paid Training Pathway | Diesel Productions (Perth) \u2014 Diesel Perth (Perth, Western Australia, Australia). Posted 1 week ago.",
+      "text": "Junior DJ — Paid Training Pathway | Diesel Productions (Perth) — Diesel Perth (Perth, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
           "publisher": "Diesel Perth",
-          "title": "Junior DJ \u2014 Paid Training Pathway | Diesel Productions (Perth)",
+          "title": "Junior DJ — Paid Training Pathway | Diesel Productions (Perth)",
           "url": "https://www.linkedin.com/jobs/view/4454705151",
           "date": "1 week ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
@@ -261,7 +211,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Company v1 agent ops loop\n# Company v1 agent ops loop\n\nOperational coordination \u2026",
+          "title": "Company v1 agent ops loop\n# Company v1 agent ops loop\n\nOperational coordination …",
           "url": "https://github.com/zeroslove-ai/company-v1/issues/68",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -276,13 +226,13 @@
     },
     {
       "id": "l513",
-      "text": "\ud83d\udc8e Knowledge Update & Optimization: 12 Jul 2026\n## \ud83d\udc8e Knowledge Update: 12 Jul 2026\n\nProcessed **0** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.",
+      "text": "💎 Knowledge Update & Optimization: 12 Jul 2026\n## 💎 Knowledge Update: 12 Jul 2026\n\nProcessed **0** links.\n\n⚠️ **Detailed Safety Audit moved to comments due to scale.**\n\n\n### 🧠 AI Intelligence & Observability Report\n\n#### 🤖 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udc8e Knowledge Update & Optimization: 12 Jul 2026\n## \ud83d\udc8e Knowledge Update: 12 Jul 202\u2026",
+          "title": "💎 Knowledge Update & Optimization: 12 Jul 2026\n## 💎 Knowledge Update: 12 Jul 202…",
           "url": "https://github.com/nubenetes/awesome-kubernetes/pull/498",
           "date": "2026-07-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -303,7 +253,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Introduce romantic relationships, births, and dependent citizens\n> *This was gen\u2026",
+          "title": "Introduce romantic relationships, births, and dependent citizens\n> *This was gen…",
           "url": "https://github.com/datashaman/morrow/issues/58",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -324,7 +274,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(deepcli): preserve WAF cookie in persistent sessions\nImplements: RL-18\n<!--\u2026",
+          "title": "feat(deepcli): preserve WAF cookie in persistent sessions\nImplements: RL-18\n<!--…",
           "url": "https://github.com/timerloggedout-spec/termux-monorepo/pull/216",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -339,13 +289,13 @@
     },
     {
       "id": "l516",
-      "text": "feat(subscriptions): code-computed timezone-aware AI report window\n## Problem\r\n\r\nAI subscription reports had no reliable notion of *what time range to analyze*, and users had no way to control it:\r\n\r\n- The planner LLM wrote its own date filters (`now() - INTERVAL \u2026`, `today()`), which are UTC-anchored \u2014 a daily sub sent at 4pm in a UTC+ timezone could never get \"to\n<!-- greptile_other_comments_section -->\n\n<sub>Reviews (1): Last reviewed commit: [\"chore: update OpenAPI generated types\"](https://\u2026",
+      "text": "feat(subscriptions): code-computed timezone-aware AI report window\n## Problem\r\n\r\nAI subscription reports had no reliable notion of *what time range to analyze*, and users had no way to control it:\r\n\r\n- The planner LLM wrote its own date filters (`now() - INTERVAL …`, `today()`), which are UTC-anchored — a daily sub sent at 4pm in a UTC+ timezone could never get \"to\n<!-- greptile_other_comments_section -->\n\n<sub>Reviews (1): Last reviewed commit: [\"chore: update OpenAPI generated types\"](https://…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(subscriptions): code-computed timezone-aware AI report window\n## Problem\r\n\r\u2026",
+          "title": "feat(subscriptions): code-computed timezone-aware AI report window\n## Problem\r\n\r…",
           "url": "https://github.com/PostHog/posthog/pull/66804",
           "date": "2026-06-29",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -360,13 +310,13 @@
     },
     {
       "id": "l517",
-      "text": "Matrix Suites 7.2: Observatory suite-event emission\n## Summary\n\nMagna Carta's Matrix Suites framework ([docs/governance/MATRIX-SUITES.md](https://github.com/Trancendos/Magna-Carta/blob/main/docs/governance/MATRIX-SUITES.md) \u00a74) describes four suite-lifecycle events the Observatory should carry but doesn't yet. This lands Stage 7.2: the Tranc3-side in\n> [!CAUTION]\n> The consumer version of Gemini Code Assist on GitHub has been sunset. All code review activity has officially ceased. <!-- Generated\u2026",
+      "text": "Matrix Suites 7.2: Observatory suite-event emission\n## Summary\n\nMagna Carta's Matrix Suites framework ([docs/governance/MATRIX-SUITES.md](https://github.com/Trancendos/Magna-Carta/blob/main/docs/governance/MATRIX-SUITES.md) §4) describes four suite-lifecycle events the Observatory should carry but doesn't yet. This lands Stage 7.2: the Tranc3-side in\n> [!CAUTION]\n> The consumer version of Gemini Code Assist on GitHub has been sunset. All code review activity has officially ceased. <!-- Generated…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Matrix Suites 7.2: Observatory suite-event emission\n## Summary\n\nMagna Carta's Ma\u2026",
+          "title": "Matrix Suites 7.2: Observatory suite-event emission\n## Summary\n\nMagna Carta's Ma…",
           "url": "https://github.com/Trancendos/Tranc3/pull/475",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -381,13 +331,13 @@
     },
     {
       "id": "l518",
-      "text": "docs(scalping): honest Bitget futures readiness verdict + real-money handoff (PR 3/N)\n## Summary\n\nLayer 3 of the futures-scalping readiness PR stack \u2014 the **honest readiness verdict + real-money handoff** for the Bitget futures grid strategy. Stacked on #473 (sizing).\n\n## What's here\n\nExtends `docs/superpowers/specs/2026-07-18-readiness-results.md` with:\n\n- **Iteration 5** \u2014 maker-fi\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Revi\u2026",
+      "text": "docs(scalping): honest Bitget futures readiness verdict + real-money handoff (PR 3/N)\n## Summary\n\nLayer 3 of the futures-scalping readiness PR stack — the **honest readiness verdict + real-money handoff** for the Bitget futures grid strategy. Stacked on #473 (sizing).\n\n## What's here\n\nExtends `docs/superpowers/specs/2026-07-18-readiness-results.md` with:\n\n- **Iteration 5** — maker-fi\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Revi…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "docs(scalping): honest Bitget futures readiness verdict + real-money handoff (PR\u2026",
+          "title": "docs(scalping): honest Bitget futures readiness verdict + real-money handoff (PR…",
           "url": "https://github.com/irfndi/NeuraTrade/pull/474",
           "date": "2026-07-20",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -402,13 +352,13 @@
     },
     {
       "id": "l519",
-      "text": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 2026\n\nProcessed **14911** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Model Selection Logic (Dynamic)\nExecution started with discovery of top models based on May 2026 hierarchy.\n\n| Model Use",
+      "text": "💎 Knowledge Update & Optimization: 18 May 2026\n## 💎 Knowledge Update: 18 May 2026\n\nProcessed **14911** links.\n\n⚠️ **Detailed Safety Audit moved to comments due to scale.**\n\n\n### 🧠 AI Intelligence & Observability Report\n\n#### 🤖 Model Selection Logic (Dynamic)\nExecution started with discovery of top models based on May 2026 hierarchy.\n\n| Model Use",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 202\u2026",
+          "title": "💎 Knowledge Update & Optimization: 18 May 2026\n## 💎 Knowledge Update: 18 May 202…",
           "url": "https://github.com/nubenetes/awesome-kubernetes/pull/133",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -423,13 +373,13 @@
     },
     {
       "id": "l520",
-      "text": "Add Tessera v2 Large student model (128-d) alongside v1.1\nIntroduces a model-version concept so the pipeline can run either the upstream v1.1 encoder (unchanged default) or the v2 Large distilled student (43.8M params, native 128-d Matryoshka output).\n\nInferenceConfig.model_version (\"v1.1\" | \"v2-large\") selects, in one place: architecture (MODEL_ARCHS: lat\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://sto\u2026",
+      "text": "Add Tessera v2 Large student model (128-d) alongside v1.1\nIntroduces a model-version concept so the pipeline can run either the upstream v1.1 encoder (unchanged default) or the v2 Large distilled student (43.8M params, native 128-d Matryoshka output).\n\nInferenceConfig.model_version (\"v1.1\" | \"v2-large\") selects, in one place: architecture (MODEL_ARCHS: lat\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://sto…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add Tessera v2 Large student model (128-d) alongside v1.1\nIntroduces a model-ver\u2026",
+          "title": "Add Tessera v2 Large student model (128-d) alongside v1.1\nIntroduces a model-ver…",
           "url": "https://github.com/dClimate/tessera-embeddings/pull/98",
           "date": "2026-07-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -444,13 +394,13 @@
     },
     {
       "id": "l521",
-      "text": "\ud83d\udcac Tech Community AI Digest 2026-07-29\n# Tech Community AI Digest 2026-07-29\n\n> Sources: [Dev.to](https://dev.to/) (30 articles) + [Lobste.rs](https://lobste.rs/) (8 stories) | Generated: 2026-07-28 22:58 UTC\n\n---\n\n# Tech Community AI Digest | 2026-07-29\n---\n## 1. Today's Highlights\nThe most widely discussed AI topics across developer co",
+      "text": "💬 Tech Community AI Digest 2026-07-29\n# Tech Community AI Digest 2026-07-29\n\n> Sources: [Dev.to](https://dev.to/) (30 articles) + [Lobste.rs](https://lobste.rs/) (8 stories) | Generated: 2026-07-28 22:58 UTC\n\n---\n\n# Tech Community AI Digest | 2026-07-29\n---\n## 1. Today's Highlights\nThe most widely discussed AI topics across developer co",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udcac Tech Community AI Digest 2026-07-29\n# Tech Community AI Digest 2026-07-29\n\n> S\u2026",
+          "title": "💬 Tech Community AI Digest 2026-07-29\n# Tech Community AI Digest 2026-07-29\n\n> S…",
           "url": "https://github.com/kakapez/agents-radar/issues/990",
           "date": "2026-07-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -465,13 +415,13 @@
     },
     {
       "id": "l522",
-      "text": "feat(flows): workflows \u2014 multi-step AI runs with review gates\nInitial draft of Workflows: org-level definitions of linear steps (AI \u2192 review gate \u2192 create document) run against matter documents.\n\n- Schema + migration (`flow*` tables); BullMQ run engine with unit-tested state transitions\n- Triggers: manual, schedule, file upload; automated runs capped per defin",
+      "text": "feat(flows): workflows — multi-step AI runs with review gates\nInitial draft of Workflows: org-level definitions of linear steps (AI → review gate → create document) run against matter documents.\n\n- Schema + migration (`flow*` tables); BullMQ run engine with unit-tested state transitions\n- Triggers: manual, schedule, file upload; automated runs capped per defin",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(flows): workflows \u2014 multi-step AI runs with review gates\nInitial draft of W\u2026",
+          "title": "feat(flows): workflows — multi-step AI runs with review gates\nInitial draft of W…",
           "url": "https://github.com/stella/stella/pull/1033",
           "date": "2026-07-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -492,7 +442,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature/recommendation\n<!-- This is an auto-generated comment: release notes by \u2026",
+          "title": "Feature/recommendation\n<!-- This is an auto-generated comment: release notes by …",
           "url": "https://github.com/JellyPlugins/jellyfin-helper/pull/100",
           "date": "2026-04-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -507,13 +457,13 @@
     },
     {
       "id": "l524",
-      "text": "AI-Driven Jira Estimation and Assignment Agent\n# **Architectural and Algorithmic Design of an AI-Driven Jira Estimation and Assignment Agent on OpenShift**\n\n## **Introduction to Automated Agile Workflows**\n\nThe administration of agile software development processes relies heavily on the accurate estimation of task complexity and the optimal rout\n@coderabbitai evaluate <!-- This is an auto-generated reply by CodeRabbit -->\n<details>\n<summary>\ud83e\udde9 Analysis chain</summary>\n\n\ud83c\udfc1 Script executed:\n```\n#!/b\u2026",
+      "text": "AI-Driven Jira Estimation and Assignment Agent\n# **Architectural and Algorithmic Design of an AI-Driven Jira Estimation and Assignment Agent on OpenShift**\n\n## **Introduction to Automated Agile Workflows**\n\nThe administration of agile software development processes relies heavily on the accurate estimation of task complexity and the optimal rout\n@coderabbitai evaluate <!-- This is an auto-generated reply by CodeRabbit -->\n<details>\n<summary>🧩 Analysis chain</summary>\n\n🏁 Script executed:\n```\n#!/b…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "AI-Driven Jira Estimation and Assignment Agent\n# **Architectural and Algorithmic\u2026",
+          "title": "AI-Driven Jira Estimation and Assignment Agent\n# **Architectural and Algorithmic…",
           "url": "https://github.com/opendatahub-io/notebooks/issues/3172",
           "date": "2026-03-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -528,13 +478,13 @@
     },
     {
       "id": "l525",
-      "text": "\ud83d\udcac Tech Community AI Digest 2026-06-21\n# Tech Community AI Digest 2026-06-21\n\n> Sources: [Dev.to](https://dev.to/) (30 articles) + [Lobste.rs](https://lobste.rs/) (12 stories) | Generated: 2026-06-20 23:09 UTC\n\n---\n\n# 2026-06-21 AI Tech Community Digest\n---\n## 1. Today's Highlights\nAcross both Dev.to and Lobste.rs, developer AI discourse",
+      "text": "💬 Tech Community AI Digest 2026-06-21\n# Tech Community AI Digest 2026-06-21\n\n> Sources: [Dev.to](https://dev.to/) (30 articles) + [Lobste.rs](https://lobste.rs/) (12 stories) | Generated: 2026-06-20 23:09 UTC\n\n---\n\n# 2026-06-21 AI Tech Community Digest\n---\n## 1. Today's Highlights\nAcross both Dev.to and Lobste.rs, developer AI discourse",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udcac Tech Community AI Digest 2026-06-21\n# Tech Community AI Digest 2026-06-21\n\n> S\u2026",
+          "title": "💬 Tech Community AI Digest 2026-06-21\n# Tech Community AI Digest 2026-06-21\n\n> S…",
           "url": "https://github.com/kakapez/agents-radar/issues/432",
           "date": "2026-06-20",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -549,13 +499,13 @@
     },
     {
       "id": "l526",
-      "text": "Implement Arr management, SSH support, and qBittorrent integration\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **New Features**\n  * Deep Arr integration: Sonarr/Radarr/Prowlarr library, details, calendar, activity/health, wanted/missing, releases, blocklist, queue/history, manual import, TMDb trending.\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: rate limited by coderabbit\u2026",
+      "text": "Implement Arr management, SSH support, and qBittorrent integration\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **New Features**\n  * Deep Arr integration: Sonarr/Radarr/Prowlarr library, details, calendar, activity/health, wanted/missing, releases, blocklist, queue/history, manual import, TMDb trending.\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: rate limited by coderabbit…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Implement Arr management, SSH support, and qBittorrent integration\n<!-- This is \u2026",
+          "title": "Implement Arr management, SSH support, and qBittorrent integration\n<!-- This is …",
           "url": "https://github.com/devpoole2907/Trawl/pull/1",
           "date": "2026-04-17",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -576,7 +526,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(governance): the LangWatch AI Governance Platform\n# feat(governance): the L\u2026",
+          "title": "feat(governance): the LangWatch AI Governance Platform\n# feat(governance): the L…",
           "url": "https://github.com/langwatch/langwatch/pull/3524",
           "date": "2026-04-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -759,13 +709,13 @@
     },
     {
       "id": "l536",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -801,13 +751,13 @@
     },
     {
       "id": "l538",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -948,13 +898,13 @@
     },
     {
       "id": "l545",
-      "text": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+      "text": "Show HN: Videopython – local-first video processing, editing and AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+          "title": "Show HN: Videopython – local-first video processing, editing and AI workflows",
           "url": "https://github.com/bartwojtowicz/videopython",
           "date": "2026-06-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -990,13 +940,13 @@
     },
     {
       "id": "l547",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1032,13 +982,13 @@
     },
     {
       "id": "l549",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1074,13 +1024,13 @@
     },
     {
       "id": "l551",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1095,13 +1045,13 @@
     },
     {
       "id": "l552",
-      "text": "The voice of Shinji actor Megumi Ogata in Evangelion says AI voice cloning is 'heartbreaking,' calls for Japanese government to intervene: \"My voice is a part of my identity. Why can\u2019t Japan establish rules for content use or tell the world, \u2018this is our policy,\u2019 or \u2018this is a problem for us?\u2019\"\n&#32; submitted by &#32; /u/ControlCAD &#32; to &#32; r/technology [link] &#32; [comments]\nHow is it not plain old piracy recreating someone's voice through AI in order to make money off it? this should b\u2026",
+      "text": "The voice of Shinji actor Megumi Ogata in Evangelion says AI voice cloning is 'heartbreaking,' calls for Japanese government to intervene: \"My voice is a part of my identity. Why can’t Japan establish rules for content use or tell the world, ‘this is our policy,’ or ‘this is a problem for us?’\"\n&#32; submitted by &#32; /u/ControlCAD &#32; to &#32; r/technology [link] &#32; [comments]\nHow is it not plain old piracy recreating someone's voice through AI in order to make money off it? this should b…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The voice of Shinji actor Megumi Ogata in Evangelion says AI voice cloning is 'h\u2026",
+          "title": "The voice of Shinji actor Megumi Ogata in Evangelion says AI voice cloning is 'h…",
           "url": "https://www.reddit.com/r/technology/comments/1ve360z/the_voice_of_shinji_actor_megumi_ogata_in/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1116,13 +1066,13 @@
     },
     {
       "id": "l553",
-      "text": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Should Be Commonly Owned and Controlled \u2014 and How Such Cooperation Could Be Organized Artificial intelligence may become one of humanity\u2019s most important productive, scientific, political, and administrative capacities. If that is the case, the central question is not only what AI will be able to do, but who will own it, who will control its development and use, and who will benefit from the value it creates. There are\u2026",
+      "text": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Should Be Commonly Owned and Controlled — and How Such Cooperation Could Be Organized Artificial intelligence may become one of humanity’s most important productive, scientific, political, and administrative capacities. If that is the case, the central question is not only what AI will be able to do, but who will own it, who will control its development and use, and who will benefit from the value it creates. There are…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Sh\u2026",
+          "title": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Sh…",
           "url": "https://www.reddit.com/r/LeftistsForAI/comments/1vcmh7k/the_case_for_common_ownership_and_international/",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1137,13 +1087,13 @@
     },
     {
       "id": "l554",
-      "text": "Why are Gamers so incredibly hostile to AI? Is it just a tiny vocal minority that spreads such toxic vitriol online?\nEdit: TL;DR response: Yes***********. ... It&#39;s more accurate to say that many highly engaged online gamers are hostile to AI, not that &quot;gamers&quot; as a whole are. Gaming is a huge community with hundreds of millions of people, and opinions vary widely. Several factors contribute to why AI discussions become especially heated in gaming communities: Fear of job displaceme\u2026",
+      "text": "Why are Gamers so incredibly hostile to AI? Is it just a tiny vocal minority that spreads such toxic vitriol online?\nEdit: TL;DR response: Yes***********. ... It&#39;s more accurate to say that many highly engaged online gamers are hostile to AI, not that &quot;gamers&quot; as a whole are. Gaming is a huge community with hundreds of millions of people, and opinions vary widely. Several factors contribute to why AI discussions become especially heated in gaming communities: Fear of job displaceme…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why are Gamers so incredibly hostile to AI? Is it just a tiny vocal minority tha\u2026",
+          "title": "Why are Gamers so incredibly hostile to AI? Is it just a tiny vocal minority tha…",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vfcgrd/why_are_gamers_so_incredibly_hostile_to_ai_is_it/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1158,13 +1108,13 @@
     },
     {
       "id": "l555",
-      "text": "Nvidia, tech CEOs, and the fight for Open-Source AI: Why the open-weights ecosystem is at a massive turning point right now.\nThis video breaks down the growing battle between open-source and closed-source AI, looking at the industry\u2019s biggest players, the economics behind open weights, and the debates surrounding safety and policy. \u200bKey Takeaways: \u200bThe Push for Open Source: Led by Nvidia CEO Jensen Huang, several tech leaders signed a major letter supporting open-source AI. They argue that open \u2026",
+      "text": "Nvidia, tech CEOs, and the fight for Open-Source AI: Why the open-weights ecosystem is at a massive turning point right now.\nThis video breaks down the growing battle between open-source and closed-source AI, looking at the industry’s biggest players, the economics behind open weights, and the debates surrounding safety and policy. ​Key Takeaways: ​The Push for Open Source: Led by Nvidia CEO Jensen Huang, several tech leaders signed a major letter supporting open-source AI. They argue that open …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Nvidia, tech CEOs, and the fight for Open-Source AI: Why the open-weights ecosys\u2026",
+          "title": "Nvidia, tech CEOs, and the fight for Open-Source AI: Why the open-weights ecosys…",
           "url": "https://www.reddit.com/r/StableDiffusion/comments/1va8d3n/nvidia_tech_ceos_and_the_fight_for_opensource_ai/",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1185,7 +1135,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@suno Suno, please reconsider the new download limits before September 3.\n\nI am \u2026",
+          "title": "@suno Suno, please reconsider the new download limits before September 3.\n\nI am …",
           "url": "https://x.com/nkfu/status/2087527866489520212",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1248,7 +1198,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "If you want to make millions in 2026, let me show you where the biggest AI oppor\u2026",
+          "title": "If you want to make millions in 2026, let me show you where the biggest AI oppor…",
           "url": "https://x.com/fatimazahrah_/status/2086011434693968194",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1263,13 +1213,13 @@
     },
     {
       "id": "l560",
-      "text": "I\u2019ll look up the latest details on Latch\u2019s scoped authority model from official sources.Latch\u2019s scoped authority model developed by Subzero Labs\n\n(the team behind @RialoHQ ) replaces the traditional practice of handing AI agents unrestricted API keys or credentials with a system of programmable limited and verifiable delegation. @itachee_x",
+      "text": "I’ll look up the latest details on Latch’s scoped authority model from official sources.Latch’s scoped authority model developed by Subzero Labs\n\n(the team behind @RialoHQ ) replaces the traditional practice of handing AI agents unrestricted API keys or credentials with a system of programmable limited and verifiable delegation. @itachee_x",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I\u2019ll look up the latest details on Latch\u2019s scoped authority model from official \u2026",
+          "title": "I’ll look up the latest details on Latch’s scoped authority model from official …",
           "url": "https://x.com/0xVBekbek/status/2090855529585541451",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1284,13 +1234,13 @@
     },
     {
       "id": "l561",
-      "text": "https://t.co/BnO457SfSB crosses 1.8M users \u2014 but the real story is the stack behind it\nhttps://t.co/BnO457SfSB just hit 1,800,619 users, marking a clear signal that demand is shifting toward privacy-first, agent-driven AI systems rather than single-model chat tools.\n\nBut the milestone alone isn\u2019t the interesting part \u2014 the architecture underneath it is.\n\n What https://t.co/BnO457SfSB is actually building\nThis isn\u2019t just a chatbot product. It\u2019s positioning itself as an AI execution layer:\nLLM Ser",
+      "text": "https://t.co/BnO457SfSB crosses 1.8M users — but the real story is the stack behind it\nhttps://t.co/BnO457SfSB just hit 1,800,619 users, marking a clear signal that demand is shifting toward privacy-first, agent-driven AI systems rather than single-model chat tools.\n\nBut the milestone alone isn’t the interesting part — the architecture underneath it is.\n\n What https://t.co/BnO457SfSB is actually building\nThis isn’t just a chatbot product. It’s positioning itself as an AI execution layer:\nLLM Ser",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "https://t.co/BnO457SfSB crosses 1.8M users \u2014 but the real story is the stack beh\u2026",
+          "title": "https://t.co/BnO457SfSB crosses 1.8M users — but the real story is the stack beh…",
           "url": "https://x.com/1mikelei/status/2063025259112968604",
           "date": "2026-06-05",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1374,7 +1324,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I Gave an AI Agent My Daily Workflow. Then I Audited What It Could Touch. (Full \u2026",
+          "title": "I Gave an AI Agent My Daily Workflow. Then I Audited What It Could Touch. (Full …",
           "url": "https://x.com/88n77n/status/2087197088614359125",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1395,7 +1345,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I made a four-minute Homer film with AI in eight days. The hardest part was know\u2026",
+          "title": "I made a four-minute Homer film with AI in eight days. The hardest part was know…",
           "url": "https://x.com/loulou_/status/2092471909740868040",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1494,13 +1444,13 @@
     },
     {
       "id": "l571",
-      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - \u2026",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har\u2026",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har…",
           "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1515,13 +1465,13 @@
     },
     {
       "id": "l572",
-      "text": "Disclosure Day is Not an Alien Movie - Ending Explained\nDisclosure Day Ending Explained! Head to https://www.tryfum.com/SCREENCRUSH or scan the QR code and use promo code SCREENCRUSH  to get your free Fum Topper with purchase, and start The Good Habit today!\n\nVisit the ScreenCrush Merch Store to find fan merch that we designed just for you. From T-shirts to unique accessories, find your favorites. For 15% off your first order subscribe here! https://screencrushmerch.com/pages/subscribe \n\nDisclos\u2026",
+      "text": "Disclosure Day is Not an Alien Movie - Ending Explained\nDisclosure Day Ending Explained! Head to https://www.tryfum.com/SCREENCRUSH or scan the QR code and use promo code SCREENCRUSH  to get your free Fum Topper with purchase, and start The Good Habit today!\n\nVisit the ScreenCrush Merch Store to find fan merch that we designed just for you. From T-shirts to unique accessories, find your favorites. For 15% off your first order subscribe here! https://screencrushmerch.com/pages/subscribe \n\nDisclos…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Disclosure Day is Not an Alien Movie - Ending Explained\nDisclosure Day Ending Ex\u2026",
+          "title": "Disclosure Day is Not an Alien Movie - Ending Explained\nDisclosure Day Ending Ex…",
           "url": "https://www.youtube.com/watch?v=UpJgzNeNnU0",
           "date": "2026-06-12",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1592,6 +1542,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

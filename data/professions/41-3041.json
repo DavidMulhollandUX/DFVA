@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "41-3041-01",
-      "text": "National peak professional bodies and statutory regulators governing Travel Agents enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Travel Agents",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Travel Agents",
-          "url": "https://www.psc.gov.au/standards/41-3041",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Travel Agents"
-        }
-      ],
-      "scope": "Australian practitioners in Travel Agents across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "41-3041-02",
-      "text": "Automation of routine transactional and analytical tasks in Travel Agents heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Travel Agents",
-          "url": "https://www.jobsandskills.gov.au/research/41-3041",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Travel Agents in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Travel Agents roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "Phase 4C \u2014 Database Queries + Timeline Hydration + State Management\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n* **New Features**\n  * Added a day-by-day itinerary timeline to trip details, including dates, day markers, and travel items.\n  * Added itinerary item displays for flights, hotels, and activities.",
+      "text": "Phase 4C — Database Queries + Timeline Hydration + State Management\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n* **New Features**\n  * Added a day-by-day itinerary timeline to trip details, including dates, day markers, and travel items.\n  * Added itinerary item displays for flights, hotels, and activities.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Phase 4C \u2014 Database Queries + Timeline Hydration + State Management\n<!-- This is\u2026",
+          "title": "Phase 4C — Database Queries + Timeline Hydration + State Management\n<!-- This is…",
           "url": "https://github.com/Tommi351/wander-ai/pull/7",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -86,13 +36,13 @@
     },
     {
       "id": "l504",
-      "text": "\ud83d\udc8e Knowledge Update & Optimization: 12 Jul 2026\n## \ud83d\udc8e Knowledge Update: 12 Jul 2026\n\nProcessed **0** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.",
+      "text": "💎 Knowledge Update & Optimization: 12 Jul 2026\n## 💎 Knowledge Update: 12 Jul 2026\n\nProcessed **0** links.\n\n⚠️ **Detailed Safety Audit moved to comments due to scale.**\n\n\n### 🧠 AI Intelligence & Observability Report\n\n#### 🤖 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udc8e Knowledge Update & Optimization: 12 Jul 2026\n## \ud83d\udc8e Knowledge Update: 12 Jul 202\u2026",
+          "title": "💎 Knowledge Update & Optimization: 12 Jul 2026\n## 💎 Knowledge Update: 12 Jul 202…",
           "url": "https://github.com/nubenetes/awesome-kubernetes/pull/498",
           "date": "2026-07-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -107,13 +57,13 @@
     },
     {
       "id": "l505",
-      "text": "feat!: define sale-basis steps for quantities\nContext: https://github.com/Universal-Commerce-Protocol/ucp/pull/597. This PR drafts alternate solution shape...\r\n\r\n---\r\n\r\nUCP's integer `quantity` has no denominator. It can represent two bottles, but not 1.50 kg of loose goods while preserving exact fulfillment, adjustment, and return arithmetic.\nThanks for putting this together, @igrigorik! This PR seems **heavily aligned** with one of the design options we discussed in [#597](https://github.com/U\u2026",
+      "text": "feat!: define sale-basis steps for quantities\nContext: https://github.com/Universal-Commerce-Protocol/ucp/pull/597. This PR drafts alternate solution shape...\r\n\r\n---\r\n\r\nUCP's integer `quantity` has no denominator. It can represent two bottles, but not 1.50 kg of loose goods while preserving exact fulfillment, adjustment, and return arithmetic.\nThanks for putting this together, @igrigorik! This PR seems **heavily aligned** with one of the design options we discussed in [#597](https://github.com/U…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat!: define sale-basis steps for quantities\nContext: https://github.com/Univer\u2026",
+          "title": "feat!: define sale-basis steps for quantities\nContext: https://github.com/Univer…",
           "url": "https://github.com/Universal-Commerce-Protocol/ucp/pull/653",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -134,7 +84,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "v3: feature: verdi collab\nNote: I'm @khsrali's AI assistant, I'm posting with hi\u2026",
+          "title": "v3: feature: verdi collab\nNote: I'm @khsrali's AI assistant, I'm posting with hi…",
           "url": "https://github.com/aiidateam/aiida-core/pull/7516",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -149,13 +99,13 @@
     },
     {
       "id": "l507",
-      "text": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 2026\n\nProcessed **14911** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Model Selection Logic (Dynamic)\nExecution started with discovery of top models based on May 2026 hierarchy.\n\n| Model Use",
+      "text": "💎 Knowledge Update & Optimization: 18 May 2026\n## 💎 Knowledge Update: 18 May 2026\n\nProcessed **14911** links.\n\n⚠️ **Detailed Safety Audit moved to comments due to scale.**\n\n\n### 🧠 AI Intelligence & Observability Report\n\n#### 🤖 Model Selection Logic (Dynamic)\nExecution started with discovery of top models based on May 2026 hierarchy.\n\n| Model Use",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 202\u2026",
+          "title": "💎 Knowledge Update & Optimization: 18 May 2026\n## 💎 Knowledge Update: 18 May 202…",
           "url": "https://github.com/nubenetes/awesome-kubernetes/pull/133",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -170,13 +120,13 @@
     },
     {
       "id": "l508",
-      "text": "feat: canonical AI action pipeline (envelope, idempotency, undo, domain pipelines)\nImplements the full Canonical AI Action Pipeline spec (docs/specs/canonical-ai-action-pipeline.md, local \u2014 docs/ is gitignored) as 12 tickets, one commit each. Final state: **209 backend tests green, web + mobile typecheck clean.**\n\n## Landed\n- **T1** `d4e345b` \u2014 action envelope schema (`actionGroup",
+      "text": "feat: canonical AI action pipeline (envelope, idempotency, undo, domain pipelines)\nImplements the full Canonical AI Action Pipeline spec (docs/specs/canonical-ai-action-pipeline.md, local — docs/ is gitignored) as 12 tickets, one commit each. Final state: **209 backend tests green, web + mobile typecheck clean.**\n\n## Landed\n- **T1** `d4e345b` — action envelope schema (`actionGroup",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: canonical AI action pipeline (envelope, idempotency, undo, domain pipeline\u2026",
+          "title": "feat: canonical AI action pipeline (envelope, idempotency, undo, domain pipeline…",
           "url": "https://github.com/Onkarj012/stride/pull/33",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -191,13 +141,13 @@
     },
     {
       "id": "l509",
-      "text": "\ud83d\udcca AI CLI Tools Digest 2026-06-20\n# AI CLI Tools Community Digest 2026-06-20\n\n> Generated: 2026-06-20 00:28 UTC | Tools covered: 9\n\n- [Claude Code](https://github\u200b.com/anthropics/claude-code)\n- [OpenAI Codex](https://github\u200b.com/openai/codex)\n- [Gemini CLI](https://github\u200b.com/google-gemini/gemini-cli)\n- [GitHub Copilot CLI](https:/",
+      "text": "📊 AI CLI Tools Digest 2026-06-20\n# AI CLI Tools Community Digest 2026-06-20\n\n> Generated: 2026-06-20 00:28 UTC | Tools covered: 9\n\n- [Claude Code](https://github​.com/anthropics/claude-code)\n- [OpenAI Codex](https://github​.com/openai/codex)\n- [Gemini CLI](https://github​.com/google-gemini/gemini-cli)\n- [GitHub Copilot CLI](https:/",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udcca AI CLI Tools Digest 2026-06-20\n# AI CLI Tools Community Digest 2026-06-20\n\n> G\u2026",
+          "title": "📊 AI CLI Tools Digest 2026-06-20\n# AI CLI Tools Community Digest 2026-06-20\n\n> G…",
           "url": "https://github.com/duanyytop/agents-radar/issues/1729",
           "date": "2026-06-20",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -212,13 +162,13 @@
     },
     {
       "id": "l510",
-      "text": "Suggested fix for Windows host 1.4.6 breaks text input from iOS and Android (Resulted in modifier keys general fix)\n### Summary\r\nTested virtual keyboards:\r\n- Google Pixel 9 Pro XL, Android 16\r\n- iPad M1, iPadOS 26.3.1 (`23D8133`)\r\n\r\nOn Windows 11 Pro `25H2`, calling `en.key_sequence(..)` no longer results in actual key down / key up behavior for legacy character input coming from iOS/Android virtual keyboards.\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an\u2026",
+      "text": "Suggested fix for Windows host 1.4.6 breaks text input from iOS and Android (Resulted in modifier keys general fix)\n### Summary\r\nTested virtual keyboards:\r\n- Google Pixel 9 Pro XL, Android 16\r\n- iPad M1, iPadOS 26.3.1 (`23D8133`)\r\n\r\nOn Windows 11 Pro `25H2`, calling `en.key_sequence(..)` no longer results in actual key down / key up behavior for legacy character input coming from iOS/Android virtual keyboards.\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Suggested fix for Windows host 1.4.6 breaks text input from iOS and Android (Res\u2026",
+          "title": "Suggested fix for Windows host 1.4.6 breaks text input from iOS and Android (Res…",
           "url": "https://github.com/rustdesk/rustdesk/pull/14709",
           "date": "2026-04-08",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -233,13 +183,13 @@
     },
     {
       "id": "l511",
-      "text": "clippy: 33 deny lints + fix 2735 violations across workspace\nAdds 45 deny-level clippy lints + `dead_code`/`unused_*`/`unreachable_*` to `[workspace.lints]`, a `clippy.toml` routing `std::{fs,sync,collections,process,env}` and `println!`/`eprintln!` through `bun_*` wrappers, and fixes the resulting violations across the workspace. Net **\u22126.2K LOC** of dead co\n<div><sup>Updated 4:59 PM PT - May 20th, 2026</sup></div>\n\n:x: @Jarred-Sumner, your commit 1a9b38ec118127ec130d916b252ea83c211d2f08 has 1 \u2026",
+      "text": "clippy: 33 deny lints + fix 2735 violations across workspace\nAdds 45 deny-level clippy lints + `dead_code`/`unused_*`/`unreachable_*` to `[workspace.lints]`, a `clippy.toml` routing `std::{fs,sync,collections,process,env}` and `println!`/`eprintln!` through `bun_*` wrappers, and fixes the resulting violations across the workspace. Net **−6.2K LOC** of dead co\n<div><sup>Updated 4:59 PM PT - May 20th, 2026</sup></div>\n\n:x: @Jarred-Sumner, your commit 1a9b38ec118127ec130d916b252ea83c211d2f08 has 1 …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "clippy: 33 deny lints + fix 2735 violations across workspace\nAdds 45 deny-level \u2026",
+          "title": "clippy: 33 deny lints + fix 2735 violations across workspace\nAdds 45 deny-level …",
           "url": "https://github.com/oven-sh/bun/pull/31116",
           "date": "2026-05-20",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -254,13 +204,13 @@
     },
     {
       "id": "l512",
-      "text": "[codex] Overhaul cost dashboard analytics and fix exclusion day counts\n## Summary\n- rebuild the cost analytics area into a single `CostSummaryDashboard` operations board\n- fix exclusion-aware daily averages to use canonical trip-window day coverage minus the union of excluded-country itinerary days\n- remove the legacy pie chart and standalone country breakdown surfaces\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: failure by codera\u2026",
+      "text": "[codex] Overhaul cost dashboard analytics and fix exclusion day counts\n## Summary\n- rebuild the cost analytics area into a single `CostSummaryDashboard` operations board\n- fix exclusion-aware daily averages to use canonical trip-window day coverage minus the union of excluded-country itinerary days\n- remove the legacy pie chart and standalone country breakdown surfaces\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: failure by codera…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[codex] Overhaul cost dashboard analytics and fix exclusion day counts\n## Summar\u2026",
+          "title": "[codex] Overhaul cost dashboard analytics and fix exclusion day counts\n## Summar…",
           "url": "https://github.com/bdamokos/travel-tracker/pull/274",
           "date": "2026-04-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -281,7 +231,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Ft/editable\nEditable.\r\nShareable.\n\n<!-- This is an auto-generated comment: relea\u2026",
+          "title": "Ft/editable\nEditable.\r\nShareable.\n\n<!-- This is an auto-generated comment: relea…",
           "url": "https://github.com/Laibah-Shahid/ai-tour-planner/pull/9",
           "date": "2026-05-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -296,13 +246,13 @@
     },
     {
       "id": "l514",
-      "text": "Feature/streak and share\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **New Features**\n  * Daily login streaks with escalating coin rewards and in\u2011shop daily reward collection; share flow that grants coins and a new Free Coins end\u2011game menu item; end\u2011game and shop",
+      "text": "Feature/streak and share\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **New Features**\n  * Daily login streaks with escalating coin rewards and in‑shop daily reward collection; share flow that grants coins and a new Free Coins end‑game menu item; end‑game and shop",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature/streak and share\n<!-- This is an auto-generated comment: release notes b\u2026",
+          "title": "Feature/streak and share\n<!-- This is an auto-generated comment: release notes b…",
           "url": "https://github.com/wojciechkryg/memolki/pull/105",
           "date": "2026-03-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -317,13 +267,13 @@
     },
     {
       "id": "l515",
-      "text": "\ud83c\udf10 Global Tech Briefing - 2026-03-03\n# \ud83c\udf10 Global Tech Intelligence Briefing - 2026-03-03\n**Date:** 2026-03-03\n**Generated At:** 08:22\n**Data Sources:** Hacker News, GitHub Trending, ArXiv\n\n---\n\n## \ud83d\udcf0 Hacker News (Top Stories)\n### 1. [Meta\u2019s AI smart glasses and data privacy concerns](https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and",
+      "text": "🌐 Global Tech Briefing - 2026-03-03\n# 🌐 Global Tech Intelligence Briefing - 2026-03-03\n**Date:** 2026-03-03\n**Generated At:** 08:22\n**Data Sources:** Hacker News, GitHub Trending, ArXiv\n\n---\n\n## 📰 Hacker News (Top Stories)\n### 1. [Meta’s AI smart glasses and data privacy concerns](https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83c\udf10 Global Tech Briefing - 2026-03-03\n# \ud83c\udf10 Global Tech Intelligence Briefing - 2026\u2026",
+          "title": "🌐 Global Tech Briefing - 2026-03-03\n# 🌐 Global Tech Intelligence Briefing - 2026…",
           "url": "https://github.com/AtomChen0425/Global_Trends/issues/15",
           "date": "2026-03-03",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -506,13 +456,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -527,13 +477,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -548,13 +498,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "OpenClaw for Sales \u2013 Using Local-First AI Agents for Sales Workflows",
+      "text": "OpenClaw for Sales – Using Local-First AI Agents for Sales Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "OpenClaw for Sales \u2013 Using Local-First AI Agents for Sales Workflows",
+          "title": "OpenClaw for Sales – Using Local-First AI Agents for Sales Workflows",
           "url": "https://www.kickscale.com/en/blog/openclaw-sales-ai-agent-revolution",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult…",
           "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -863,13 +813,13 @@
     },
     {
       "id": "l541",
-      "text": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economically valuable?\nI\u2019ve been thinking about AI and automation, and I\u2019m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man\u2026",
+      "text": "What if AI doesn’t just replace jobs, but makes human labor itself less economically valuable?\nI’ve been thinking about AI and automation, and I’m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economic\u2026",
+          "title": "What if AI doesn’t just replace jobs, but makes human labor itself less economic…",
           "url": "https://www.reddit.com/r/Futurology/comments/1vjqvpl/what_if_ai_doesnt_just_replace_jobs_but_makes/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -884,13 +834,13 @@
     },
     {
       "id": "l542",
-      "text": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Architecture of Divine Chaos By Steven Pritchard\nIntroduction: The Mandate for Planetary and Evolutionary Coherence The trajectory of planetary ecology, human evolutionary biology, and artificial intelligence has reached a critical bifurcation point. The prevailing paradigms of reductionist materialism and extractive technological development have fractured the holistic integrity of the biosphere and the human psyche. The\u2026",
+      "text": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Architecture of Divine Chaos By Steven Pritchard\nIntroduction: The Mandate for Planetary and Evolutionary Coherence The trajectory of planetary ecology, human evolutionary biology, and artificial intelligence has reached a critical bifurcation point. The prevailing paradigms of reductionist materialism and extractive technological development have fractured the holistic integrity of the biosphere and the human psyche. The…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Archi\u2026",
+          "title": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Archi…",
           "url": "https://www.reddit.com/r/Synthsara/comments/1vhiz58/the_codex_of_the_diamond_flame_quantum/",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -911,7 +861,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I visited Barcelona to have a chat with Gami Orbegoso.\nHe was one of Martini's f\u2026",
+          "title": "I visited Barcelona to have a chat with Gami Orbegoso.\nHe was one of Martini's f…",
           "url": "https://x.com/koh_terai/status/2092665376580473138",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -926,13 +876,13 @@
     },
     {
       "id": "l544",
-      "text": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\n\nCEOs used to brag about how many jobs AI could replace.\n\nNow the language is changing.\n\nInvestors want proof AI is saving money.\n\nWorkers do not want those savings to mean their job is gone.\n\nAnd the gap between AI hype and AI reality is getting harder to hide \ud83e\uddf5\ud83d\udc47\n\n2/16\n\nKlarna said its AI assistant was doing the work of 700 employees.\n\nSalesforce linked AI to a smaller support team.\n\nCoinbase cut around 700 roles w",
+      "text": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\n\nCEOs used to brag about how many jobs AI could replace.\n\nNow the language is changing.\n\nInvestors want proof AI is saving money.\n\nWorkers do not want those savings to mean their job is gone.\n\nAnd the gap between AI hype and AI reality is getting harder to hide 🧵👇\n\n2/16\n\nKlarna said its AI assistant was doing the work of 700 employees.\n\nSalesforce linked AI to a smaller support team.\n\nCoinbase cut around 700 roles w",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\u2026",
+          "title": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16…",
           "url": "https://x.com/msyed_/status/2093227435961565570",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "This is a fair bear point for $APP $RDDT $META $PINS $SNAP and Adtech broadly.\n\nAI/LLMs could eventually deliver better ROAS and start taking budget from existing ad platforms.\n\nI just don\u2019t think advertising works that cleanly.\n\nIf the best ROAS automatically won every dollar, $META would have monopolized digital advertising years ago. Its targeting and ad stack have been superior to most platforms for a long time, yet $RDDT $SNAP $PINS and others still built real advertising businesses.\n\nAdver",
+      "text": "This is a fair bear point for $APP $RDDT $META $PINS $SNAP and Adtech broadly.\n\nAI/LLMs could eventually deliver better ROAS and start taking budget from existing ad platforms.\n\nI just don’t think advertising works that cleanly.\n\nIf the best ROAS automatically won every dollar, $META would have monopolized digital advertising years ago. Its targeting and ad stack have been superior to most platforms for a long time, yet $RDDT $SNAP $PINS and others still built real advertising businesses.\n\nAdver",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This is a fair bear point for $APP $RDDT $META $PINS $SNAP and Adtech broadly.\n\n\u2026",
+          "title": "This is a fair bear point for $APP $RDDT $META $PINS $SNAP and Adtech broadly.\n\n…",
           "url": "https://x.com/TheWiseIC/status/2093507103549763999",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "Most AI benchmarks test whether a model can answer.\nCommerceAgentBench asks a harder question:\n\nCan an AI agent actually complete the job?\n\nCommerceAgentBench is an e-commerce benchmark from Accio built around 107 real-world business tasks. The tasks are executed across realistic replicas of business systems \u2014 email, browsers, calendars, supplier platforms, logistics tools and more.\nAnd the evaluation focuses on something important:\n\nWhat the agent actually does, not what it says it did.\n\nInstea",
+      "text": "Most AI benchmarks test whether a model can answer.\nCommerceAgentBench asks a harder question:\n\nCan an AI agent actually complete the job?\n\nCommerceAgentBench is an e-commerce benchmark from Accio built around 107 real-world business tasks. The tasks are executed across realistic replicas of business systems — email, browsers, calendars, supplier platforms, logistics tools and more.\nAnd the evaluation focuses on something important:\n\nWhat the agent actually does, not what it says it did.\n\nInstea",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Most AI benchmarks test whether a model can answer.\nCommerceAgentBench asks a ha\u2026",
+          "title": "Most AI benchmarks test whether a model can answer.\nCommerceAgentBench asks a ha…",
           "url": "https://x.com/Krishnasagrawal/status/2093336445234937996",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1037,7 +987,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Leaving an industry is not the same as starting over.\n\nHypothetical: a process e\u2026",
+          "title": "Leaving an industry is not the same as starting over.\n\nHypothetical: a process e…",
           "url": "https://x.com/offladder/status/2093528981824053495",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1052,13 +1002,13 @@
     },
     {
       "id": "l550",
-      "text": "Want to make money and save time with AI? Get AI Coaching, Support &amp; Courses\n\ud83d\udc49 https://t.co/pketIk0u0f\n\nGet a FREE AI Course + 1000 NEW AI Agents\n\ud83d\udc49 https://t.co/FjNvKTiTie",
+      "text": "Want to make money and save time with AI? Get AI Coaching, Support &amp; Courses\n👉 https://t.co/pketIk0u0f\n\nGet a FREE AI Course + 1000 NEW AI Agents\n👉 https://t.co/FjNvKTiTie",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Want to make money and save time with AI? Get AI Coaching, Support &amp; Courses\u2026",
+          "title": "Want to make money and save time with AI? Get AI Coaching, Support &amp; Courses…",
           "url": "https://x.com/JulianGoldieSEO/status/2093533585370493035",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1079,7 +1029,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Overview\nMetastasizing is the active process in which cancer cells break away\u2026",
+          "title": "AI Overview\nMetastasizing is the active process in which cancer cells break away…",
           "url": "https://x.com/DunnBilly87734/status/2091848709533569181",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1094,13 +1044,13 @@
     },
     {
       "id": "l552",
-      "text": "About the job\nAnduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century\u2019s most innovative companies to the defense industry, Anduril is changing how military systems are designed, built and sold. Anduril\u2019s family of systems is powered by Lattice OS, an AI-powered operating system that turns thousands of data streams into a realtime, 3D",
+      "text": "About the job\nAnduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how military systems are designed, built and sold. Anduril’s family of systems is powered by Lattice OS, an AI-powered operating system that turns thousands of data streams into a realtime, 3D",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "About the job\nAnduril Industries is a defense technology company with a mission \u2026",
+          "title": "About the job\nAnduril Industries is a defense technology company with a mission …",
           "url": "https://x.com/sumbios/status/2092161057217265948",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1136,13 +1086,13 @@
     },
     {
       "id": "l554",
-      "text": "Instead of pointing Codex at one provider, I route it through OmniRoute.\n\nThat gives it access to:\n\n350+ AI providers\n\n90+ free options\n\nAutomatic fallback when one hits its limit\n\nCodex itself doesn\u2019t need to change. https://t.co/62rqVGaahB",
+      "text": "Instead of pointing Codex at one provider, I route it through OmniRoute.\n\nThat gives it access to:\n\n350+ AI providers\n\n90+ free options\n\nAutomatic fallback when one hits its limit\n\nCodex itself doesn’t need to change. https://t.co/62rqVGaahB",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Instead of pointing Codex at one provider, I route it through OmniRoute.\n\nThat g\u2026",
+          "title": "Instead of pointing Codex at one provider, I route it through OmniRoute.\n\nThat g…",
           "url": "https://x.com/JulianGoldieSEO/status/2093541653180977363",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1157,13 +1107,13 @@
     },
     {
       "id": "l555",
-      "text": "OPENVIKING JUST MADE AI AGENT MEMORY WAY MORE EFFICIENT\n\nInstead of forcing your agent to dig through an entire memory database, it only loads the context it actually needs.\n\nHere\u2019s the clever part:\n\n\u2192 OpenViking stores memory in 3 layers: one-line summary, overview, full content\n\n\u2192 Your agent checks the one-line summary first\n\n\u2192 If that answers the question, it stops there instead of loading everything\n\nThe result:\n\n\u2713 Tests shown dropped context usage from 34 to 9\n\n\u2713 It automatically extracts u",
+      "text": "OPENVIKING JUST MADE AI AGENT MEMORY WAY MORE EFFICIENT\n\nInstead of forcing your agent to dig through an entire memory database, it only loads the context it actually needs.\n\nHere’s the clever part:\n\n→ OpenViking stores memory in 3 layers: one-line summary, overview, full content\n\n→ Your agent checks the one-line summary first\n\n→ If that answers the question, it stops there instead of loading everything\n\nThe result:\n\n✓ Tests shown dropped context usage from 34 to 9\n\n✓ It automatically extracts u",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "OPENVIKING JUST MADE AI AGENT MEMORY WAY MORE EFFICIENT\n\nInstead of forcing your\u2026",
+          "title": "OPENVIKING JUST MADE AI AGENT MEMORY WAY MORE EFFICIENT\n\nInstead of forcing your…",
           "url": "https://x.com/JulianGoldieSEO/status/2093534109851435118",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1184,7 +1134,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@TheWiseIC If I asked Chatgpt, Gemini, Grok, or Claude what new features the iPh\u2026",
+          "title": "@TheWiseIC If I asked Chatgpt, Gemini, Grok, or Claude what new features the iPh…",
           "url": "https://x.com/thomasthedeal/status/2093510603981656491",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1226,7 +1176,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "How novel frontier models has radically changed skills engineering \n\nFor a while\u2026",
+          "title": "How novel frontier models has radically changed skills engineering \n\nFor a while…",
           "url": "https://x.com/robdogeth/status/2082849100299383273",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1310,7 +1260,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th\u2026",
+          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th…",
           "url": "https://x.com/essexmaelstrom/status/2091841889372635517",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1331,7 +1281,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "OpenAI Codex Data Shows Non-Developers Now Driving Enterprise AI Agent Surge | J\u2026",
+          "title": "OpenAI Codex Data Shows Non-Developers Now Driving Enterprise AI Agent Surge | J…",
           "url": "https://x.com/OwenGregorian/status/2070485263952830678",
           "date": "2026-06-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1346,13 +1296,13 @@
     },
     {
       "id": "l564",
-      "text": "Cloudflare and the Agentic Internet: Why the Next AI Bottleneck May Be the Web\u2019s Control Plane",
+      "text": "Cloudflare and the Agentic Internet: Why the Next AI Bottleneck May Be the Web’s Control Plane",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Cloudflare and the Agentic Internet: Why the Next AI Bottleneck May Be the Web\u2019s\u2026",
+          "title": "Cloudflare and the Agentic Internet: Why the Next AI Bottleneck May Be the Web’s…",
           "url": "https://x.com/ChrisDMacro/status/2071710246821867901",
           "date": "2026-06-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1409,13 +1359,13 @@
     },
     {
       "id": "l567",
-      "text": "\ud83e\udd16 AI DAILY BRIEF \u2014 April 10, 2026\n\nTODAY'S VIBE\nAI lagi makin kebagi 2: infra dan agent tooling di satu sisi, backlash soal jobs dan creative labor di sisi lain. Literally the timeline today bilang, AI is getting more useful, more embedded, and also more politically messy.\n\n1) OPENAI LAUNCHES NEW $100 PRO TIER FOR CODEX\nOpenAI announced a new $100/month Pro tier built around heavier Codex usage.\nEngagement: 11,786 likes, 981 reposts, 875 replies\nhttps://t.co/BA1OGoXlZv\nTake: Ini jelas signal kal",
+      "text": "🤖 AI DAILY BRIEF — April 10, 2026\n\nTODAY'S VIBE\nAI lagi makin kebagi 2: infra dan agent tooling di satu sisi, backlash soal jobs dan creative labor di sisi lain. Literally the timeline today bilang, AI is getting more useful, more embedded, and also more politically messy.\n\n1) OPENAI LAUNCHES NEW $100 PRO TIER FOR CODEX\nOpenAI announced a new $100/month Pro tier built around heavier Codex usage.\nEngagement: 11,786 likes, 981 reposts, 875 replies\nhttps://t.co/BA1OGoXlZv\nTake: Ini jelas signal kal",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83e\udd16 AI DAILY BRIEF \u2014 April 10, 2026\n\nTODAY'S VIBE\nAI lagi makin kebagi 2: infra da\u2026",
+          "title": "🤖 AI DAILY BRIEF — April 10, 2026\n\nTODAY'S VIBE\nAI lagi makin kebagi 2: infra da…",
           "url": "https://x.com/ainunnajib/status/2042393557894643728",
           "date": "2026-04-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1451,13 +1401,13 @@
     },
     {
       "id": "l569",
-      "text": "Dylan Patel \u2013 Two labs will soon control most of the world's workforce\nHad a lot of fun chatting again with my twin brother Dylan Patel.\n\nWe went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world\u2019s usable FLOPs within the next few years (because they can monetize compute better and thus outbid everyone).\n\nAnd then we discuss whether the $10T+ of total AI capex we\u2019ll see by\u2026",
+      "text": "Dylan Patel – Two labs will soon control most of the world's workforce\nHad a lot of fun chatting again with my twin brother Dylan Patel.\n\nWe went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world’s usable FLOPs within the next few years (because they can monetize compute better and thus outbid everyone).\n\nAnd then we discuss whether the $10T+ of total AI capex we’ll see by…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Dylan Patel \u2013 Two labs will soon control most of the world's workforce\nHad a lot\u2026",
+          "title": "Dylan Patel – Two labs will soon control most of the world's workforce\nHad a lot…",
           "url": "https://www.youtube.com/watch?v=aV26V1UvkJw",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1472,13 +1422,13 @@
     },
     {
       "id": "l570",
-      "text": "Deploy a 24/7 AI Agent in 10 Minutes (No Code, No Docker)\n\ud83d\udc49 *Try Hostinger:* http://hostinger.com/juliaopenclaw\n\n*Deploy OpenClaw on Hostinger and turn missed messages into a 24/7 AI agent that works while you\u2019re offline.*\n\nSee how one-click deployment puts an always-on AI agent across WhatsApp, Telegram, Slack, and Discord\u2014without laptops, downtime, or manual setup.\n\nInside this breakdown:\n\u2022 OpenClaw on Hostinger setup in under 10 minutes\n\u2022 One-click deployment + isolated container security\n\u2022 W\u2026",
+      "text": "Deploy a 24/7 AI Agent in 10 Minutes (No Code, No Docker)\n👉 *Try Hostinger:* http://hostinger.com/juliaopenclaw\n\n*Deploy OpenClaw on Hostinger and turn missed messages into a 24/7 AI agent that works while you’re offline.*\n\nSee how one-click deployment puts an always-on AI agent across WhatsApp, Telegram, Slack, and Discord—without laptops, downtime, or manual setup.\n\nInside this breakdown:\n• OpenClaw on Hostinger setup in under 10 minutes\n• One-click deployment + isolated container security\n• W…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Deploy a 24/7 AI Agent in 10 Minutes (No Code, No Docker)\n\ud83d\udc49 *Try Hostinger:* htt\u2026",
+          "title": "Deploy a 24/7 AI Agent in 10 Minutes (No Code, No Docker)\n👉 *Try Hostinger:* htt…",
           "url": "https://www.youtube.com/watch?v=O3cg7JN9h6U",
           "date": "2026-05-11",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1493,13 +1443,13 @@
     },
     {
       "id": "l571",
-      "text": "I Tested Claude's New Managed Agents... What You Need To Know\nMy FREE AI OS Course: https://www.skool.com/ai-automation-society/about?el=managed-agents&hcategory=youtube-videos&utm_campaign=free-group\nFull courses + unlimited support: https://www.skool.com/ai-automation-society-plus/about?el=managed-agents&hcategory=youtube-videos&utm_campaign=ais-plus\nApply for my YT podcast: https://podcast.nateherk.com/apply\nWork with me: https://uppitai.com/\n\nMy Tools\ud83d\udcbb\nFREE MONTH voice to text: https://get.g\u2026",
+      "text": "I Tested Claude's New Managed Agents... What You Need To Know\nMy FREE AI OS Course: https://www.skool.com/ai-automation-society/about?el=managed-agents&hcategory=youtube-videos&utm_campaign=free-group\nFull courses + unlimited support: https://www.skool.com/ai-automation-society-plus/about?el=managed-agents&hcategory=youtube-videos&utm_campaign=ais-plus\nApply for my YT podcast: https://podcast.nateherk.com/apply\nWork with me: https://uppitai.com/\n\nMy Tools💻\nFREE MONTH voice to text: https://get.g…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "I Tested Claude's New Managed Agents... What You Need To Know\nMy FREE AI OS Cour\u2026",
+          "title": "I Tested Claude's New Managed Agents... What You Need To Know\nMy FREE AI OS Cour…",
           "url": "https://www.youtube.com/watch?v=27Y44JYXZJ8",
           "date": "2026-04-08",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1514,13 +1464,13 @@
     },
     {
       "id": "l572",
-      "text": "Will AI Travel Agents Replace OTAs?\nWant to stay ahead of AI disruption? Learn how AltexSoft helps businesses build scalable AI solutions and lasting competitive advantage https://www.altexsoft.com/ai-transformation/?utm_source=youtube&utm_medium=video&utm_campaign=alex_ai_replace_ota\n\nAI travel agents promise to transform the way we search, plan, and book trips\u2014but what does that mean for Booking.com, Expedia, Airbnb, and the future of travel distribution?\n\nIn this video, AltexSoft Founder and \u2026",
+      "text": "Will AI Travel Agents Replace OTAs?\nWant to stay ahead of AI disruption? Learn how AltexSoft helps businesses build scalable AI solutions and lasting competitive advantage https://www.altexsoft.com/ai-transformation/?utm_source=youtube&utm_medium=video&utm_campaign=alex_ai_replace_ota\n\nAI travel agents promise to transform the way we search, plan, and book trips—but what does that mean for Booking.com, Expedia, Airbnb, and the future of travel distribution?\n\nIn this video, AltexSoft Founder and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Will AI Travel Agents Replace OTAs?\nWant to stay ahead of AI disruption? Learn h\u2026",
+          "title": "Will AI Travel Agents Replace OTAs?\nWant to stay ahead of AI disruption? Learn h…",
           "url": "https://www.youtube.com/watch?v=KY31Qj-fTyw",
           "date": "2026-05-21",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1535,13 +1485,13 @@
     },
     {
       "id": "l573",
-      "text": "Travel agent quote vs AI: the results shocked me\n\u2708\ufe0f What if your \u00a32,000 holiday is already overpriced\u2026 and you just don\u2019t know it?\n\nMost people don\u2019t overpay for flights.\u274c \n\nThey overpay for:\n\nConvenience\n\u201cSafe\u201d choices\n Tourist shortcuts\nPre-built packages that hide cheaper options\n\n\ud83d\udca1 So I ran a simple test.\n\nSame trip. Same dates. Same city.\n\nOne planned by a travel agent\u2026One built completely using AI.\n\nThe gap wasn\u2019t small. It was nearly \u00a31,000 saved.\n\nThen things got interesting.\n\n\ud83d\udca1 Because \u2026",
+      "text": "Travel agent quote vs AI: the results shocked me\n✈️ What if your £2,000 holiday is already overpriced… and you just don’t know it?\n\nMost people don’t overpay for flights.❌ \n\nThey overpay for:\n\nConvenience\n“Safe” choices\n Tourist shortcuts\nPre-built packages that hide cheaper options\n\n💡 So I ran a simple test.\n\nSame trip. Same dates. Same city.\n\nOne planned by a travel agent…One built completely using AI.\n\nThe gap wasn’t small. It was nearly £1,000 saved.\n\nThen things got interesting.\n\n💡 Because …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Travel agent quote vs AI: the results shocked me\n\u2708\ufe0f What if your \u00a32,000 holiday \u2026",
+          "title": "Travel agent quote vs AI: the results shocked me\n✈️ What if your £2,000 holiday …",
           "url": "https://www.youtube.com/watch?v=W3ZAtrn8BfI",
           "date": "2026-06-30",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1556,13 +1506,13 @@
     },
     {
       "id": "l574",
-      "text": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: https://synthflow.ai/?via=intellagents\n\nIn this Synthflow AI review, I delve into building and testing six voice AI agents using the platform. We put Synthflow through its paces with seven rigorous tests, examining everything from voice clarity and interruption handling to human handoff and data extraction. Discover how Synthflow stacks up against other leading voice AI tools, and uncover a key \"dealbreaker\" that coul\u2026",
+      "text": "Synthflow AI Review: I Built 6 Voice AI Agents – is it worth it?\n⤵️ Synthflow: https://synthflow.ai/?via=intellagents\n\nIn this Synthflow AI review, I delve into building and testing six voice AI agents using the platform. We put Synthflow through its paces with seven rigorous tests, examining everything from voice clarity and interruption handling to human handoff and data extraction. Discover how Synthflow stacks up against other leading voice AI tools, and uncover a key \"dealbreaker\" that coul…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: h\u2026",
+          "title": "Synthflow AI Review: I Built 6 Voice AI Agents – is it worth it?\n⤵️ Synthflow: h…",
           "url": "https://www.youtube.com/watch?v=w6eUBmVwNMY",
           "date": "2026-03-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1577,7 +1527,7 @@
     },
     {
       "id": "l475",
-      "text": "Travel Advisor - Remote Team \u2014 Travel Associates Australia & New Zealand (Victoria Plains, Western Australia, Australia). Posted 2 weeks ago.",
+      "text": "Travel Advisor - Remote Team — Travel Associates Australia & New Zealand (Victoria Plains, Western Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1598,7 +1548,7 @@
     },
     {
       "id": "l476",
-      "text": "Travel Advisor - Remote Team \u2014 Flight Centre Travel Group (Australian Capital Territory, Australia). Posted 1 week ago.",
+      "text": "Travel Advisor - Remote Team — Flight Centre Travel Group (Australian Capital Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1619,7 +1569,7 @@
     },
     {
       "id": "l477",
-      "text": "Travel Advisor - West Lakes, SA \u2014 Travel Associates Australia & New Zealand (South Australia, Australia). Posted 2 weeks ago.",
+      "text": "Travel Advisor - West Lakes, SA — Travel Associates Australia & New Zealand (South Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1640,7 +1590,7 @@
     },
     {
       "id": "l478",
-      "text": "Travel Specialist \u2014 Moore Australia (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
+      "text": "Travel Specialist — Moore Australia (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1661,7 +1611,7 @@
     },
     {
       "id": "l479",
-      "text": "Travel Advisor - West Lakes, SA \u2014 Flight Centre Travel Group (South Australia, Australia). Posted 1 week ago.",
+      "text": "Travel Advisor - West Lakes, SA — Flight Centre Travel Group (South Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1682,7 +1632,7 @@
     },
     {
       "id": "l480",
-      "text": "Travel Consultant \u2014 Travel Trade Recruitment (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
+      "text": "Travel Consultant — Travel Trade Recruitment (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1703,7 +1653,7 @@
     },
     {
       "id": "l481",
-      "text": "Travel Consultant - West Lakes, SA \u2014 Cruiseabout Australia (South Australia, Australia). Posted 1 week ago.",
+      "text": "Travel Consultant - West Lakes, SA — Cruiseabout Australia (South Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1724,7 +1674,7 @@
     },
     {
       "id": "l482",
-      "text": "Travel Sales Consultant \u2014 Journey Beyond (Adelaide, South Australia, Australia). Posted 2 months ago.",
+      "text": "Travel Sales Consultant — Journey Beyond (Adelaide, South Australia, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1745,7 +1695,7 @@
     },
     {
       "id": "l483",
-      "text": "Groups Reservations Agent \u2014 IHG Hotels & Resorts (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
+      "text": "Groups Reservations Agent — IHG Hotels & Resorts (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1766,7 +1716,7 @@
     },
     {
       "id": "l484",
-      "text": "Travel Consultant - Canberra, ACT \u2014 FCM Travel Australia (Australian Capital Territory, Australia). Posted 2 weeks ago.",
+      "text": "Travel Consultant - Canberra, ACT — FCM Travel Australia (Australian Capital Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1787,13 +1737,13 @@
     },
     {
       "id": "l585",
-      "text": "feat!: define sale-basis steps for quantities\nContext: https://github.com/Universal-Commerce-Protocol/ucp/pull/597. This PR drafts alternate solution shape...\r\n\r\n---\r\n\r\nUCP's integer `quantity` has no denominator. It can represent two bottles, but not 1.50 kg of loose goods while preserving exact fulfillment, adjustment, and return arithmetic.\nThanks for putting this together, @igrigorik! This PR seems **heavily aligned** with one of the design options we discussed in [#597](https://github.com/U\u2026",
+      "text": "feat!: define sale-basis steps for quantities\nContext: https://github.com/Universal-Commerce-Protocol/ucp/pull/597. This PR drafts alternate solution shape...\r\n\r\n---\r\n\r\nUCP's integer `quantity` has no denominator. It can represent two bottles, but not 1.50 kg of loose goods while preserving exact fulfillment, adjustment, and return arithmetic.\nThanks for putting this together, @igrigorik! This PR seems **heavily aligned** with one of the design options we discussed in [#597](https://github.com/U…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat!: define sale-basis steps for quantities\nContext: https://github.com/Univer\u2026",
+          "title": "feat!: define sale-basis steps for quantities\nContext: https://github.com/Univer…",
           "url": "https://github.com/Universal-Commerce-Protocol/ucp/pull/653",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1808,13 +1758,13 @@
     },
     {
       "id": "l586",
-      "text": "Suggested fix for Windows host 1.4.6 breaks text input from iOS and Android (Resulted in modifier keys general fix)\n### Summary\r\nTested virtual keyboards:\r\n- Google Pixel 9 Pro XL, Android 16\r\n- iPad M1, iPadOS 26.3.1 (`23D8133`)\r\n\r\nOn Windows 11 Pro `25H2`, calling `en.key_sequence(..)` no longer results in actual key down / key up behavior for legacy character input coming from iOS/Android virtual keyboards.\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an\u2026",
+      "text": "Suggested fix for Windows host 1.4.6 breaks text input from iOS and Android (Resulted in modifier keys general fix)\n### Summary\r\nTested virtual keyboards:\r\n- Google Pixel 9 Pro XL, Android 16\r\n- iPad M1, iPadOS 26.3.1 (`23D8133`)\r\n\r\nOn Windows 11 Pro `25H2`, calling `en.key_sequence(..)` no longer results in actual key down / key up behavior for legacy character input coming from iOS/Android virtual keyboards.\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Suggested fix for Windows host 1.4.6 breaks text input from iOS and Android (Res\u2026",
+          "title": "Suggested fix for Windows host 1.4.6 breaks text input from iOS and Android (Res…",
           "url": "https://github.com/rustdesk/rustdesk/pull/14709",
           "date": "2026-04-08",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1829,13 +1779,13 @@
     },
     {
       "id": "l587",
-      "text": "clippy: 33 deny lints + fix 2735 violations across workspace\nAdds 45 deny-level clippy lints + `dead_code`/`unused_*`/`unreachable_*` to `[workspace.lints]`, a `clippy.toml` routing `std::{fs,sync,collections,process,env}` and `println!`/`eprintln!` through `bun_*` wrappers, and fixes the resulting violations across the workspace. Net **\u22126.2K LOC** of dead co\n<div><sup>Updated 4:59 PM PT - May 20th, 2026</sup></div>\n\n:x: @Jarred-Sumner, your commit 1a9b38ec118127ec130d916b252ea83c211d2f08 has 1 \u2026",
+      "text": "clippy: 33 deny lints + fix 2735 violations across workspace\nAdds 45 deny-level clippy lints + `dead_code`/`unused_*`/`unreachable_*` to `[workspace.lints]`, a `clippy.toml` routing `std::{fs,sync,collections,process,env}` and `println!`/`eprintln!` through `bun_*` wrappers, and fixes the resulting violations across the workspace. Net **−6.2K LOC** of dead co\n<div><sup>Updated 4:59 PM PT - May 20th, 2026</sup></div>\n\n:x: @Jarred-Sumner, your commit 1a9b38ec118127ec130d916b252ea83c211d2f08 has 1 …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "clippy: 33 deny lints + fix 2735 violations across workspace\nAdds 45 deny-level \u2026",
+          "title": "clippy: 33 deny lints + fix 2735 violations across workspace\nAdds 45 deny-level …",
           "url": "https://github.com/oven-sh/bun/pull/31116",
           "date": "2026-05-20",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1850,13 +1800,13 @@
     },
     {
       "id": "l588",
-      "text": "[codex] Overhaul cost dashboard analytics and fix exclusion day counts\n## Summary\n- rebuild the cost analytics area into a single `CostSummaryDashboard` operations board\n- fix exclusion-aware daily averages to use canonical trip-window day coverage minus the union of excluded-country itinerary days\n- remove the legacy pie chart and standalone country breakdown surfaces\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: failure by codera\u2026",
+      "text": "[codex] Overhaul cost dashboard analytics and fix exclusion day counts\n## Summary\n- rebuild the cost analytics area into a single `CostSummaryDashboard` operations board\n- fix exclusion-aware daily averages to use canonical trip-window day coverage minus the union of excluded-country itinerary days\n- remove the legacy pie chart and standalone country breakdown surfaces\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: failure by codera…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[codex] Overhaul cost dashboard analytics and fix exclusion day counts\n## Summar\u2026",
+          "title": "[codex] Overhaul cost dashboard analytics and fix exclusion day counts\n## Summar…",
           "url": "https://github.com/bdamokos/travel-tracker/pull/274",
           "date": "2026-04-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1871,13 +1821,13 @@
     },
     {
       "id": "l589",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult…",
           "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1892,13 +1842,13 @@
     },
     {
       "id": "l590",
-      "text": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economically valuable?\nI\u2019ve been thinking about AI and automation, and I\u2019m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man\u2026",
+      "text": "What if AI doesn’t just replace jobs, but makes human labor itself less economically valuable?\nI’ve been thinking about AI and automation, and I’m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economic\u2026",
+          "title": "What if AI doesn’t just replace jobs, but makes human labor itself less economic…",
           "url": "https://www.reddit.com/r/Futurology/comments/1vjqvpl/what_if_ai_doesnt_just_replace_jobs_but_makes/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1913,13 +1863,13 @@
     },
     {
       "id": "l591",
-      "text": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Architecture of Divine Chaos By Steven Pritchard\nIntroduction: The Mandate for Planetary and Evolutionary Coherence The trajectory of planetary ecology, human evolutionary biology, and artificial intelligence has reached a critical bifurcation point. The prevailing paradigms of reductionist materialism and extractive technological development have fractured the holistic integrity of the biosphere and the human psyche. The\u2026",
+      "text": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Architecture of Divine Chaos By Steven Pritchard\nIntroduction: The Mandate for Planetary and Evolutionary Coherence The trajectory of planetary ecology, human evolutionary biology, and artificial intelligence has reached a critical bifurcation point. The prevailing paradigms of reductionist materialism and extractive technological development have fractured the holistic integrity of the biosphere and the human psyche. The…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Archi\u2026",
+          "title": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Archi…",
           "url": "https://www.reddit.com/r/Synthsara/comments/1vhiz58/the_codex_of_the_diamond_flame_quantum/",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1934,13 +1884,13 @@
     },
     {
       "id": "l592",
-      "text": "Dylan Patel \u2013 Two labs will soon control most of the world's workforce\nHad a lot of fun chatting again with my twin brother Dylan Patel.\n\nWe went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world\u2019s usable FLOPs within the next few years (because they can monetize compute better and thus outbid everyone).\n\nAnd then we discuss whether the $10T+ of total AI capex we\u2019ll see by\u2026",
+      "text": "Dylan Patel – Two labs will soon control most of the world's workforce\nHad a lot of fun chatting again with my twin brother Dylan Patel.\n\nWe went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world’s usable FLOPs within the next few years (because they can monetize compute better and thus outbid everyone).\n\nAnd then we discuss whether the $10T+ of total AI capex we’ll see by…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Dylan Patel \u2013 Two labs will soon control most of the world's workforce\nHad a lot\u2026",
+          "title": "Dylan Patel – Two labs will soon control most of the world's workforce\nHad a lot…",
           "url": "https://www.youtube.com/watch?v=aV26V1UvkJw",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1955,13 +1905,13 @@
     },
     {
       "id": "l593",
-      "text": "Deploy a 24/7 AI Agent in 10 Minutes (No Code, No Docker)\n\ud83d\udc49 *Try Hostinger:* http://hostinger.com/juliaopenclaw\n\n*Deploy OpenClaw on Hostinger and turn missed messages into a 24/7 AI agent that works while you\u2019re offline.*\n\nSee how one-click deployment puts an always-on AI agent across WhatsApp, Telegram, Slack, and Discord\u2014without laptops, downtime, or manual setup.\n\nInside this breakdown:\n\u2022 OpenClaw on Hostinger setup in under 10 minutes\n\u2022 One-click deployment + isolated container security\n\u2022 W\u2026",
+      "text": "Deploy a 24/7 AI Agent in 10 Minutes (No Code, No Docker)\n👉 *Try Hostinger:* http://hostinger.com/juliaopenclaw\n\n*Deploy OpenClaw on Hostinger and turn missed messages into a 24/7 AI agent that works while you’re offline.*\n\nSee how one-click deployment puts an always-on AI agent across WhatsApp, Telegram, Slack, and Discord—without laptops, downtime, or manual setup.\n\nInside this breakdown:\n• OpenClaw on Hostinger setup in under 10 minutes\n• One-click deployment + isolated container security\n• W…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Deploy a 24/7 AI Agent in 10 Minutes (No Code, No Docker)\n\ud83d\udc49 *Try Hostinger:* htt\u2026",
+          "title": "Deploy a 24/7 AI Agent in 10 Minutes (No Code, No Docker)\n👉 *Try Hostinger:* htt…",
           "url": "https://www.youtube.com/watch?v=O3cg7JN9h6U",
           "date": "2026-05-11",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1976,13 +1926,13 @@
     },
     {
       "id": "l594",
-      "text": "I Tested Claude's New Managed Agents... What You Need To Know\nMy FREE AI OS Course: https://www.skool.com/ai-automation-society/about?el=managed-agents&hcategory=youtube-videos&utm_campaign=free-group\nFull courses + unlimited support: https://www.skool.com/ai-automation-society-plus/about?el=managed-agents&hcategory=youtube-videos&utm_campaign=ais-plus\nApply for my YT podcast: https://podcast.nateherk.com/apply\nWork with me: https://uppitai.com/\n\nMy Tools\ud83d\udcbb\nFREE MONTH voice to text: https://get.g\u2026",
+      "text": "I Tested Claude's New Managed Agents... What You Need To Know\nMy FREE AI OS Course: https://www.skool.com/ai-automation-society/about?el=managed-agents&hcategory=youtube-videos&utm_campaign=free-group\nFull courses + unlimited support: https://www.skool.com/ai-automation-society-plus/about?el=managed-agents&hcategory=youtube-videos&utm_campaign=ais-plus\nApply for my YT podcast: https://podcast.nateherk.com/apply\nWork with me: https://uppitai.com/\n\nMy Tools💻\nFREE MONTH voice to text: https://get.g…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "I Tested Claude's New Managed Agents... What You Need To Know\nMy FREE AI OS Cour\u2026",
+          "title": "I Tested Claude's New Managed Agents... What You Need To Know\nMy FREE AI OS Cour…",
           "url": "https://www.youtube.com/watch?v=27Y44JYXZJ8",
           "date": "2026-04-08",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1997,13 +1947,13 @@
     },
     {
       "id": "l595",
-      "text": "Will AI Travel Agents Replace OTAs?\nWant to stay ahead of AI disruption? Learn how AltexSoft helps businesses build scalable AI solutions and lasting competitive advantage https://www.altexsoft.com/ai-transformation/?utm_source=youtube&utm_medium=video&utm_campaign=alex_ai_replace_ota\n\nAI travel agents promise to transform the way we search, plan, and book trips\u2014but what does that mean for Booking.com, Expedia, Airbnb, and the future of travel distribution?\n\nIn this video, AltexSoft Founder and \u2026",
+      "text": "Will AI Travel Agents Replace OTAs?\nWant to stay ahead of AI disruption? Learn how AltexSoft helps businesses build scalable AI solutions and lasting competitive advantage https://www.altexsoft.com/ai-transformation/?utm_source=youtube&utm_medium=video&utm_campaign=alex_ai_replace_ota\n\nAI travel agents promise to transform the way we search, plan, and book trips—but what does that mean for Booking.com, Expedia, Airbnb, and the future of travel distribution?\n\nIn this video, AltexSoft Founder and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Will AI Travel Agents Replace OTAs?\nWant to stay ahead of AI disruption? Learn h\u2026",
+          "title": "Will AI Travel Agents Replace OTAs?\nWant to stay ahead of AI disruption? Learn h…",
           "url": "https://www.youtube.com/watch?v=KY31Qj-fTyw",
           "date": "2026-05-21",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2018,13 +1968,13 @@
     },
     {
       "id": "l596",
-      "text": "Travel agent quote vs AI: the results shocked me\n\u2708\ufe0f What if your \u00a32,000 holiday is already overpriced\u2026 and you just don\u2019t know it?\n\nMost people don\u2019t overpay for flights.\u274c \n\nThey overpay for:\n\nConvenience\n\u201cSafe\u201d choices\n Tourist shortcuts\nPre-built packages that hide cheaper options\n\n\ud83d\udca1 So I ran a simple test.\n\nSame trip. Same dates. Same city.\n\nOne planned by a travel agent\u2026One built completely using AI.\n\nThe gap wasn\u2019t small. It was nearly \u00a31,000 saved.\n\nThen things got interesting.\n\n\ud83d\udca1 Because \u2026",
+      "text": "Travel agent quote vs AI: the results shocked me\n✈️ What if your £2,000 holiday is already overpriced… and you just don’t know it?\n\nMost people don’t overpay for flights.❌ \n\nThey overpay for:\n\nConvenience\n“Safe” choices\n Tourist shortcuts\nPre-built packages that hide cheaper options\n\n💡 So I ran a simple test.\n\nSame trip. Same dates. Same city.\n\nOne planned by a travel agent…One built completely using AI.\n\nThe gap wasn’t small. It was nearly £1,000 saved.\n\nThen things got interesting.\n\n💡 Because …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Travel agent quote vs AI: the results shocked me\n\u2708\ufe0f What if your \u00a32,000 holiday \u2026",
+          "title": "Travel agent quote vs AI: the results shocked me\n✈️ What if your £2,000 holiday …",
           "url": "https://www.youtube.com/watch?v=W3ZAtrn8BfI",
           "date": "2026-06-30",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2039,13 +1989,13 @@
     },
     {
       "id": "l597",
-      "text": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: https://synthflow.ai/?via=intellagents\n\nIn this Synthflow AI review, I delve into building and testing six voice AI agents using the platform. We put Synthflow through its paces with seven rigorous tests, examining everything from voice clarity and interruption handling to human handoff and data extraction. Discover how Synthflow stacks up against other leading voice AI tools, and uncover a key \"dealbreaker\" that coul\u2026",
+      "text": "Synthflow AI Review: I Built 6 Voice AI Agents – is it worth it?\n⤵️ Synthflow: https://synthflow.ai/?via=intellagents\n\nIn this Synthflow AI review, I delve into building and testing six voice AI agents using the platform. We put Synthflow through its paces with seven rigorous tests, examining everything from voice clarity and interruption handling to human handoff and data extraction. Discover how Synthflow stacks up against other leading voice AI tools, and uncover a key \"dealbreaker\" that coul…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: h\u2026",
+          "title": "Synthflow AI Review: I Built 6 Voice AI Agents – is it worth it?\n⤵️ Synthflow: h…",
           "url": "https://www.youtube.com/watch?v=w6eUBmVwNMY",
           "date": "2026-03-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2138,6 +2088,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

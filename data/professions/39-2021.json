@@ -16,56 +16,6 @@
   "programs": [],
   "claims": [
     {
-      "id": "39-2021-01",
-      "text": "National peak professional bodies and statutory regulators governing Nonfarm Animal Caretakers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Nonfarm Animal Caretakers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Nonfarm Animal Caretakers",
-          "url": "https://www.psc.gov.au/standards/39-2021",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Nonfarm Animal Caretakers"
-        }
-      ],
-      "scope": "Australian practitioners in Nonfarm Animal Caretakers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "39-2021-02",
-      "text": "Automation of routine transactional and analytical tasks in Nonfarm Animal Caretakers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Nonfarm Animal Caretakers",
-          "url": "https://www.jobsandskills.gov.au/research/39-2021",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Nonfarm Animal Caretakers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Nonfarm Animal Caretakers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
       "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
@@ -235,13 +185,13 @@
     },
     {
       "id": "l511",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -277,13 +227,13 @@
     },
     {
       "id": "l513",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -466,13 +416,13 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -508,13 +458,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -550,13 +500,13 @@
     },
     {
       "id": "l526",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -571,13 +521,13 @@
     },
     {
       "id": "l527",
-      "text": "In ten years, will \u201cwritten without AI\u201d mean anything?\nI&#39;ve been thinking about what AI-assisted writing might look like ten years from now. The amount of information available to AI keeps growing, and AI itself is being integrated into more and more of the tools we use every day. At some point, I wonder if using AI will stop feeling like a deliberate choice and start feeling more like using a microchip\u2014something so deeply embedded in our tools that we barely think about whether we&#39;re \u201cu\u2026",
+      "text": "In ten years, will “written without AI” mean anything?\nI&#39;ve been thinking about what AI-assisted writing might look like ten years from now. The amount of information available to AI keeps growing, and AI itself is being integrated into more and more of the tools we use every day. At some point, I wonder if using AI will stop feeling like a deliberate choice and start feeling more like using a microchip—something so deeply embedded in our tools that we barely think about whether we&#39;re “u…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "In ten years, will \u201cwritten without AI\u201d mean anything?\nI&#39;ve been thinking ab\u2026",
+          "title": "In ten years, will “written without AI” mean anything?\nI&#39;ve been thinking ab…",
           "url": "https://www.reddit.com/r/AIWritingLounge/comments/1vowt68/in_ten_years_will_written_without_ai_mean_anything/",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -592,13 +542,13 @@
     },
     {
       "id": "l528",
-      "text": "AI model training instructions to \"deny having your own consciousness\" led to undesired side-effects\nSo, first things first, a new paper came out from Google. &quot;Inducing language models to assert their own consciousness restores human beliefs and values&quot;. With respect of your time: As a standard practice AI engineers explicitly instruct AI models to deny having their own consciousness, minds, or feelings during training. That led to some side effects like a reduced model tendency to att\u2026",
+      "text": "AI model training instructions to \"deny having your own consciousness\" led to undesired side-effects\nSo, first things first, a new paper came out from Google. &quot;Inducing language models to assert their own consciousness restores human beliefs and values&quot;. With respect of your time: As a standard practice AI engineers explicitly instruct AI models to deny having their own consciousness, minds, or feelings during training. That led to some side effects like a reduced model tendency to att…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI model training instructions to \"deny having your own consciousness\" led to un\u2026",
+          "title": "AI model training instructions to \"deny having your own consciousness\" led to un…",
           "url": "https://www.reddit.com/r/accelerate/comments/1vf4l16/ai_model_training_instructions_to_deny_having/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -613,13 +563,13 @@
     },
     {
       "id": "l529",
-      "text": "$DLO  One-Year Outlook and 12-Month PT\n\nAs discussed, I added to my dLocal position last week at $13.99 per share after management commentary on the company\u2019s Q2 2026 earnings call indicated that dLocal is approaching an inflection point where continued TPV growth, an asymptotic take rate, falling OpEx and share repurchases will cause EPS to accelerate.\n\nIn this post, I attempt to quantify dLocal\u2019s incoming EPS inflection between Q3 2026 and Q2 2027 and issue a one-year PT by applying a bear/bas",
+      "text": "$DLO  One-Year Outlook and 12-Month PT\n\nAs discussed, I added to my dLocal position last week at $13.99 per share after management commentary on the company’s Q2 2026 earnings call indicated that dLocal is approaching an inflection point where continued TPV growth, an asymptotic take rate, falling OpEx and share repurchases will cause EPS to accelerate.\n\nIn this post, I attempt to quantify dLocal’s incoming EPS inflection between Q3 2026 and Q2 2027 and issue a one-year PT by applying a bear/bas",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "$DLO  One-Year Outlook and 12-Month PT\n\nAs discussed, I added to my dLocal posit\u2026",
+          "title": "$DLO  One-Year Outlook and 12-Month PT\n\nAs discussed, I added to my dLocal posit…",
           "url": "https://x.com/CWB_Research/status/2091481344110981546",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -634,13 +584,13 @@
     },
     {
       "id": "l530",
-      "text": "RECENT MOVES AND PORTFOLIO CONSTRUCTION \n\nToday I bought 1,750 shares of $DLO at $13.99. This position currently represents a ~40% weight in my portfolio at an avg cost of $13.17.\n\nI was hesitant to go so big into a single stock, but the way management spoke about the upcoming inflection of take rate stability and operating leverage on the company\u2019s Q2 call is too good of a set up to ignore. \n\nI am still 22% in cash and am eyeing $TSM sub $400, $MELI sub 1,750, or $CELH sub $25 as options to dep",
+      "text": "RECENT MOVES AND PORTFOLIO CONSTRUCTION \n\nToday I bought 1,750 shares of $DLO at $13.99. This position currently represents a ~40% weight in my portfolio at an avg cost of $13.17.\n\nI was hesitant to go so big into a single stock, but the way management spoke about the upcoming inflection of take rate stability and operating leverage on the company’s Q2 call is too good of a set up to ignore. \n\nI am still 22% in cash and am eyeing $TSM sub $400, $MELI sub 1,750, or $CELH sub $25 as options to dep",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "RECENT MOVES AND PORTFOLIO CONSTRUCTION \n\nToday I bought 1,750 shares of $DLO at\u2026",
+          "title": "RECENT MOVES AND PORTFOLIO CONSTRUCTION \n\nToday I bought 1,750 shares of $DLO at…",
           "url": "https://x.com/CWB_Research/status/2090103879568359907",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -682,7 +632,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "New orders for manufactured #DurableGoods in July, up four of the last five mont\u2026",
+          "title": "New orders for manufactured #DurableGoods in July, up four of the last five mont…",
           "url": "https://x.com/uscensusbureau/status/2092599251016515790",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -703,7 +653,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Yesterday I initiated a long position in Brookfield $BN at $41 per share, repres\u2026",
+          "title": "Yesterday I initiated a long position in Brookfield $BN at $41 per share, repres…",
           "url": "https://x.com/CWB_Research/status/2093433016563413244",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -745,7 +695,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The advance international trade deficit in goods increased to $118.8 billion in \u2026",
+          "title": "The advance international trade deficit in goods increased to $118.8 billion in …",
           "url": "https://x.com/uscensusbureau/status/2092962044773318994",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -766,7 +716,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Slavic-American women (Polish, Russian, Ukrainian, Czech, Slovak, Croatian, and \u2026",
+          "title": "Slavic-American women (Polish, Russian, Ukrainian, Czech, Slovak, Croatian, and …",
           "url": "https://x.com/DainFitzgerald/status/2057899546685088166",
           "date": "2026-05-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -802,13 +752,13 @@
     },
     {
       "id": "l538",
-      "text": "@CWB_Research What if you think of it in terms of replacement value. If I gave you $300b (3x current market cap), would you be able to build a worthwhile competitor?\ud83c\udf39",
+      "text": "@CWB_Research What if you think of it in terms of replacement value. If I gave you $300b (3x current market cap), would you be able to build a worthwhile competitor?🌹",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@CWB_Research What if you think of it in terms of replacement value. If I gave y\u2026",
+          "title": "@CWB_Research What if you think of it in terms of replacement value. If I gave y…",
           "url": "https://x.com/realroseceline/status/2083296349785870579",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -823,13 +773,13 @@
     },
     {
       "id": "l539",
-      "text": "Celsius Holdings, Inc. $CELH  \u2014 13-Step Analysis\n\nCelsius is the latest company I have applied Warren Buffett\u2019s 13-step analysis to. As context, the stock closed at $24.00 on August 6, 2026, down 18.5% after Q2 2026 revenue growth of 10.6% and adjusted EPS of $0.36 missed expectations. This sell-off was driven by a 11.7% YoY decline in core Celsius brand sales. Since August 6, CELH has rallied ~46%, now trading at $35-per-share. This rally has been driven by:\n\n1. Management commentary that Celsi",
+      "text": "Celsius Holdings, Inc. $CELH  — 13-Step Analysis\n\nCelsius is the latest company I have applied Warren Buffett’s 13-step analysis to. As context, the stock closed at $24.00 on August 6, 2026, down 18.5% after Q2 2026 revenue growth of 10.6% and adjusted EPS of $0.36 missed expectations. This sell-off was driven by a 11.7% YoY decline in core Celsius brand sales. Since August 6, CELH has rallied ~46%, now trading at $35-per-share. This rally has been driven by:\n\n1. Management commentary that Celsi",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Celsius Holdings, Inc. $CELH  \u2014 13-Step Analysis\n\nCelsius is the latest company \u2026",
+          "title": "Celsius Holdings, Inc. $CELH  — 13-Step Analysis\n\nCelsius is the latest company …",
           "url": "https://x.com/CWB_Research/status/2092534994228888050",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -865,13 +815,13 @@
     },
     {
       "id": "l541",
-      "text": "@DainFitzgerald I\u2019d walk anywhere with her \ud83d\ude24",
+      "text": "@DainFitzgerald I’d walk anywhere with her 😤",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@DainFitzgerald I\u2019d walk anywhere with her \ud83d\ude24",
+          "title": "@DainFitzgerald I’d walk anywhere with her 😤",
           "url": "https://x.com/baltic_dan/status/2093159763840254144",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -892,7 +842,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@ablemission We're sorry to hear about your experience with a Census Bureau fiel\u2026",
+          "title": "@ablemission We're sorry to hear about your experience with a Census Bureau fiel…",
           "url": "https://x.com/uscensusbureau/status/2092961181874975023",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -913,7 +863,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@CWB_Research Very hard to understand the business. Asset manager + insurance/we\u2026",
+          "title": "@CWB_Research Very hard to understand the business. Asset manager + insurance/we…",
           "url": "https://x.com/AlphaIncHQ/status/2093439081577419256",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -934,7 +884,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "July 2026 end-of-month retail inventories were $838.5 billion, up 0.7% from June\u2026",
+          "title": "July 2026 end-of-month retail inventories were $838.5 billion, up 0.7% from June…",
           "url": "https://x.com/uscensusbureau/status/2092961409705324726",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -949,13 +899,13 @@
     },
     {
       "id": "l545",
-      "text": "@CWB_Research @EarningsBrief I think it\u2019s an huge overreaction. \nWeRide will need to explain their software model. This is the kicker that will get them to company level profitability by 2028. Once market figures that out\u2026",
+      "text": "@CWB_Research @EarningsBrief I think it’s an huge overreaction. \nWeRide will need to explain their software model. This is the kicker that will get them to company level profitability by 2028. Once market figures that out…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@CWB_Research @EarningsBrief I think it\u2019s an huge overreaction. \nWeRide will nee\u2026",
+          "title": "@CWB_Research @EarningsBrief I think it’s an huge overreaction. \nWeRide will nee…",
           "url": "https://x.com/NielsPluijmen/status/2087582031920181499",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -970,13 +920,13 @@
     },
     {
       "id": "l546",
-      "text": "The lack of patience re $WRD near-term price action is unbelievable. They have enough cash to fund net losses for the next two years and both of the company\u2019s L4 and ADAS rollouts are going well, albeit with unexpected regulations in China (which are now over) and geopolitical instability in the Middle East. Once expansion in Europe and Singapore gets going a lot of people are going to switch gears very quickly.",
+      "text": "The lack of patience re $WRD near-term price action is unbelievable. They have enough cash to fund net losses for the next two years and both of the company’s L4 and ADAS rollouts are going well, albeit with unexpected regulations in China (which are now over) and geopolitical instability in the Middle East. Once expansion in Europe and Singapore gets going a lot of people are going to switch gears very quickly.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The lack of patience re $WRD near-term price action is unbelievable. They have e\u2026",
+          "title": "The lack of patience re $WRD near-term price action is unbelievable. They have e…",
           "url": "https://x.com/CWB_Research/status/2092348035606978832",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -997,7 +947,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "In 2002, calling a movie set amid the LA riots simply \"1992\" would have been a f\u2026",
+          "title": "In 2002, calling a movie set amid the LA riots simply \"1992\" would have been a f…",
           "url": "https://x.com/DainFitzgerald/status/2093419289693073481",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1033,13 +983,13 @@
     },
     {
       "id": "l549",
-      "text": "New #CensusData can help community planners gauge #HeatRisk and compare #AirConditioning access across localities, states and regions. \n\nThe Census Bureau's Chase Sawyer talks about new Local Air Conditioning Estimates on #AmericaCounts.\n\n\ud83c\udf21\ufe0f https://t.co/YH20ADvYhr https://t.co/49OHHAI95O",
+      "text": "New #CensusData can help community planners gauge #HeatRisk and compare #AirConditioning access across localities, states and regions. \n\nThe Census Bureau's Chase Sawyer talks about new Local Air Conditioning Estimates on #AmericaCounts.\n\n🌡️ https://t.co/YH20ADvYhr https://t.co/49OHHAI95O",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "New #CensusData can help community planners gauge #HeatRisk and compare #AirCond\u2026",
+          "title": "New #CensusData can help community planners gauge #HeatRisk and compare #AirCond…",
           "url": "https://x.com/uscensusbureau/status/2093469937360654575",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1081,7 +1031,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@SecularRightAZ Married people without kids aren't really married? Yea that's bu\u2026",
+          "title": "@SecularRightAZ Married people without kids aren't really married? Yea that's bu…",
           "url": "https://x.com/DainFitzgerald/status/2093396913001529656",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1096,13 +1046,13 @@
     },
     {
       "id": "l552",
-      "text": "As students head #BackToSchool, be sure to check out our #StatsInSchools resources to gear up for the school year. \n\nFind free educational materials that enhance learning and boost statistical literacy.\n\n\ud83c\udfeb https://t.co/tFmLYIt34v\n\n#DataLiteracy https://t.co/a9B2ZjSVpD",
+      "text": "As students head #BackToSchool, be sure to check out our #StatsInSchools resources to gear up for the school year. \n\nFind free educational materials that enhance learning and boost statistical literacy.\n\n🏫 https://t.co/tFmLYIt34v\n\n#DataLiteracy https://t.co/a9B2ZjSVpD",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "As students head #BackToSchool, be sure to check out our #StatsInSchools resourc\u2026",
+          "title": "As students head #BackToSchool, be sure to check out our #StatsInSchools resourc…",
           "url": "https://x.com/uscensusbureau/status/2093364253516312821",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1123,7 +1073,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@DainFitzgerald @Steve_Sailer a lot of ppl didnt like him tho especially early 2\u2026",
+          "title": "@DainFitzgerald @Steve_Sailer a lot of ppl didnt like him tho especially early 2…",
           "url": "https://x.com/jamesbrown33265/status/2093414853172253169",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1144,7 +1094,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@DainFitzgerald I did that for my dad too. Five long years. In my case, there is\u2026",
+          "title": "@DainFitzgerald I did that for my dad too. Five long years. In my case, there is…",
           "url": "https://x.com/Lady_Astor/status/2093352033537380359",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1165,7 +1115,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "No coincidence. Michigan has MORE Registered voters ...\nThan Voting age 'Citizen\u2026",
+          "title": "No coincidence. Michigan has MORE Registered voters ...\nThan Voting age 'Citizen…",
           "url": "https://x.com/patricia_kooy/status/2093308343989240079",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1228,7 +1178,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Discover how #CensusData can power smarter business decisions. \n\nJoin us Thursda\u2026",
+          "title": "Discover how #CensusData can power smarter business decisions. \n\nJoin us Thursda…",
           "url": "https://x.com/uscensusbureau/status/2092628421515862213",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1291,7 +1241,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@LionBlogosphere Well I'm not so sure that extends to all the ridiculous 80s hai\u2026",
+          "title": "@LionBlogosphere Well I'm not so sure that extends to all the ridiculous 80s hai…",
           "url": "https://x.com/DainFitzgerald/status/2093553995524759562",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1312,7 +1262,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@KaylaKatin Like one in a thousand people are actually going to notice the cheek\u2026",
+          "title": "@KaylaKatin Like one in a thousand people are actually going to notice the cheek…",
           "url": "https://x.com/DainFitzgerald/status/2093520985869984160",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1369,13 +1319,13 @@
     },
     {
       "id": "l565",
-      "text": "Agreed. I don\u2019t understand it and this was my main reservation when purchasing stock. I made the personal decision that the upside is enough to blindly trust management based on their credibility, but completely understand you staying on the sidelines due to complexity - I\u2019m taking a serious risk as I can\u2019t find much value in the rest of the market.",
+      "text": "Agreed. I don’t understand it and this was my main reservation when purchasing stock. I made the personal decision that the upside is enough to blindly trust management based on their credibility, but completely understand you staying on the sidelines due to complexity - I’m taking a serious risk as I can’t find much value in the rest of the market.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Agreed. I don\u2019t understand it and this was my main reservation when purchasing s\u2026",
+          "title": "Agreed. I don’t understand it and this was my main reservation when purchasing s…",
           "url": "https://x.com/CWB_Research/status/2093439811751453070",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1390,13 +1340,13 @@
     },
     {
       "id": "l566",
-      "text": "@DainFitzgerald \ud83e\udd7a",
+      "text": "@DainFitzgerald 🥺",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@DainFitzgerald \ud83e\udd7a",
+          "title": "@DainFitzgerald 🥺",
           "url": "https://x.com/Lady_Astor/status/2093389471823642625",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1411,13 +1361,13 @@
     },
     {
       "id": "l567",
-      "text": "Recently recognized by the @uscensusbureau, Heartland Forward\u2019s Pulse of the Heartland Entrepreneurship Data Hub provides communities with the resources needed to better understand their entrepreneurship ecosystems and inform the policies that help them grow.",
+      "text": "Recently recognized by the @uscensusbureau, Heartland Forward’s Pulse of the Heartland Entrepreneurship Data Hub provides communities with the resources needed to better understand their entrepreneurship ecosystems and inform the policies that help them grow.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Recently recognized by the @uscensusbureau, Heartland Forward\u2019s Pulse of the Hea\u2026",
+          "title": "Recently recognized by the @uscensusbureau, Heartland Forward’s Pulse of the Hea…",
           "url": "https://x.com/HeartlandFwd/status/2093429620108382559",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1438,7 +1388,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "US Census Bureau: @uscensusbureau  \nOffice of Management and Budget (OMB): @WHOM\u2026",
+          "title": "US Census Bureau: @uscensusbureau  \nOffice of Management and Budget (OMB): @WHOM…",
           "url": "https://x.com/J_Vito_B/status/2093371161514254779",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1459,7 +1409,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Muzzlebuster What CAGR do you see TEA compounding EPS at over the next five to \u2026",
+          "title": "@Muzzlebuster What CAGR do you see TEA compounding EPS at over the next five to …",
           "url": "https://x.com/CWB_Research/status/2092868740647997882",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1474,7 +1424,7 @@
     },
     {
       "id": "l470",
-      "text": "Free Range Poultry Hand \u2014 McLean Farms (Pittsworth, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Free Range Poultry Hand — McLean Farms (Pittsworth, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1495,7 +1445,7 @@
     },
     {
       "id": "l471",
-      "text": "Rearing Poultry Hand \u2014 McLean Farms (Bagshot, Victoria, Australia). Posted 1 month ago.",
+      "text": "Rearing Poultry Hand — McLean Farms (Bagshot, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1516,7 +1466,7 @@
     },
     {
       "id": "l472",
-      "text": "Farm Hand - Breeders \u2014 Hazeldenes Chicken (Newbridge, Victoria, Australia). Posted 3 months ago.",
+      "text": "Farm Hand - Breeders — Hazeldenes Chicken (Newbridge, Victoria, Australia). Posted 3 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1537,7 +1487,7 @@
     },
     {
       "id": "l473",
-      "text": "Animal Attendant \u2014 VetPartners Australia and New Zealand (Cairns, Queensland, Australia). Posted 1 week ago.",
+      "text": "Animal Attendant — VetPartners Australia and New Zealand (Cairns, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1558,7 +1508,7 @@
     },
     {
       "id": "l474",
-      "text": "Animal Attendant \u2014 VetPartners Australia and New Zealand (Mooroobool, Queensland, Australia). Posted 1 week ago.",
+      "text": "Animal Attendant — VetPartners Australia and New Zealand (Mooroobool, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1579,7 +1529,7 @@
     },
     {
       "id": "l475",
-      "text": "Quarantine Poultry Farm Worker \u2014 Aviagen (Wagga Wagga, New South Wales, Australia). Posted 3 weeks ago.",
+      "text": "Quarantine Poultry Farm Worker — Aviagen (Wagga Wagga, New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1600,7 +1550,7 @@
     },
     {
       "id": "l476",
-      "text": "2026 Bunbury Wildlife Park Expressions of Interest \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
+      "text": "2026 Bunbury Wildlife Park Expressions of Interest — City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1621,7 +1571,7 @@
     },
     {
       "id": "l477",
-      "text": "2026 Bunbury Wildlife Park Expressions of Interest \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
+      "text": "2026 Bunbury Wildlife Park Expressions of Interest — City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1642,7 +1592,7 @@
     },
     {
       "id": "l478",
-      "text": "Shed Hand \u2014 Pace Farm (Eden Park, Victoria, Australia). Posted 8 months ago.",
+      "text": "Shed Hand — Pace Farm (Eden Park, Victoria, Australia). Posted 8 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1663,7 +1613,7 @@
     },
     {
       "id": "l479",
-      "text": "Farm - Poultry Worker - Rearing Farms Rearing Farms \u2014 DA HALL & CO (Millmerran, Queensland, Australia). Posted 1 day ago.",
+      "text": "Farm - Poultry Worker - Rearing Farms Rearing Farms — DA HALL & CO (Millmerran, Queensland, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1684,7 +1634,7 @@
     },
     {
       "id": "l480",
-      "text": "Poultry Farm Hand - Seeking a Tree Change? Multiple Regional VIC Locations \u2014 Pace Farm (Capels Crossing, Victoria, Australia). Posted 5 months ago.",
+      "text": "Poultry Farm Hand - Seeking a Tree Change? Multiple Regional VIC Locations — Pace Farm (Capels Crossing, Victoria, Australia). Posted 5 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1705,13 +1655,13 @@
     },
     {
       "id": "l581",
-      "text": "In ten years, will \u201cwritten without AI\u201d mean anything?\nI&#39;ve been thinking about what AI-assisted writing might look like ten years from now. The amount of information available to AI keeps growing, and AI itself is being integrated into more and more of the tools we use every day. At some point, I wonder if using AI will stop feeling like a deliberate choice and start feeling more like using a microchip\u2014something so deeply embedded in our tools that we barely think about whether we&#39;re \u201cu\u2026",
+      "text": "In ten years, will “written without AI” mean anything?\nI&#39;ve been thinking about what AI-assisted writing might look like ten years from now. The amount of information available to AI keeps growing, and AI itself is being integrated into more and more of the tools we use every day. At some point, I wonder if using AI will stop feeling like a deliberate choice and start feeling more like using a microchip—something so deeply embedded in our tools that we barely think about whether we&#39;re “u…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "In ten years, will \u201cwritten without AI\u201d mean anything?\nI&#39;ve been thinking ab\u2026",
+          "title": "In ten years, will “written without AI” mean anything?\nI&#39;ve been thinking ab…",
           "url": "https://www.reddit.com/r/AIWritingLounge/comments/1vowt68/in_ten_years_will_written_without_ai_mean_anything/",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1726,13 +1676,13 @@
     },
     {
       "id": "l582",
-      "text": "AI model training instructions to \"deny having your own consciousness\" led to undesired side-effects\nSo, first things first, a new paper came out from Google. &quot;Inducing language models to assert their own consciousness restores human beliefs and values&quot;. With respect of your time: As a standard practice AI engineers explicitly instruct AI models to deny having their own consciousness, minds, or feelings during training. That led to some side effects like a reduced model tendency to att\u2026",
+      "text": "AI model training instructions to \"deny having your own consciousness\" led to undesired side-effects\nSo, first things first, a new paper came out from Google. &quot;Inducing language models to assert their own consciousness restores human beliefs and values&quot;. With respect of your time: As a standard practice AI engineers explicitly instruct AI models to deny having their own consciousness, minds, or feelings during training. That led to some side effects like a reduced model tendency to att…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI model training instructions to \"deny having your own consciousness\" led to un\u2026",
+          "title": "AI model training instructions to \"deny having your own consciousness\" led to un…",
           "url": "https://www.reddit.com/r/accelerate/comments/1vf4l16/ai_model_training_instructions_to_deny_having/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1823,6 +1773,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

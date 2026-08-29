@@ -17,58 +17,8 @@
   ],
   "claims": [
     {
-      "id": "17-2111-01",
-      "text": "National peak professional bodies and statutory regulators governing Health and Safety Engineers, Except Mining Safety Engineers and Inspectors enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
-          "url": "https://www.psc.gov.au/standards/17-2111",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Health and Safety Engineers, Except Mining Safety Engineers and Inspectors"
-        }
-      ],
-      "scope": "Australian practitioners in Health and Safety Engineers, Except Mining Safety Engineers and Inspectors across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "17-2111-02",
-      "text": "Automation of routine transactional and analytical tasks in Health and Safety Engineers, Except Mining Safety Engineers and Inspectors heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
-          "url": "https://www.jobsandskills.gov.au/research/17-2111",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Health and Safety Engineers, Except Mining Safety Engineers and Inspectors in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Health and Safety Engineers, Except Mining Safety Engineers and Inspectors roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "HSEQ Engineer \u2014 Reach Subsea (Perth, Western Australia, Australia). Posted 6 days ago.",
+      "text": "HSEQ Engineer — Reach Subsea (Perth, Western Australia, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -89,7 +39,7 @@
     },
     {
       "id": "l404",
-      "text": "Senior HSSE Engineer (Gas Turbines) \u2014 Solar Turbines (Rowville, Victoria, Australia). Posted 2 days ago.",
+      "text": "Senior HSSE Engineer (Gas Turbines) — Solar Turbines (Rowville, Victoria, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -110,7 +60,7 @@
     },
     {
       "id": "l405",
-      "text": "EH&S Specialist \u2014 Otis Elevator Co. (Perth, Western Australia, Australia). Posted 5 days ago.",
+      "text": "EH&S Specialist — Otis Elevator Co. (Perth, Western Australia, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -131,7 +81,7 @@
     },
     {
       "id": "l406",
-      "text": "EH&S Specialist \u2014 Otis Elevator Co. (Kings Park, Western Australia, Australia). Posted 5 days ago.",
+      "text": "EH&S Specialist — Otis Elevator Co. (Kings Park, Western Australia, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -152,7 +102,7 @@
     },
     {
       "id": "l407",
-      "text": "Work Health, Safety, Environment & Quality (WHSEQ) Specialist \u2014 Acu-Tech Piping Systems (Redbank Plains, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Work Health, Safety, Environment & Quality (WHSEQ) Specialist — Acu-Tech Piping Systems (Redbank Plains, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -173,7 +123,7 @@
     },
     {
       "id": "l408",
-      "text": "EHS and Rail Advisor \u2014 Siemens (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "EHS and Rail Advisor — Siemens (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -194,7 +144,7 @@
     },
     {
       "id": "l409",
-      "text": "EOI Safety Professionals | Major Infrastructure Project \u2014 McConnell Dowell (Perth, Western Australia, Australia). Posted 2 weeks ago.",
+      "text": "EOI Safety Professionals | Major Infrastructure Project — McConnell Dowell (Perth, Western Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -215,7 +165,7 @@
     },
     {
       "id": "l410",
-      "text": "Process Safety Engineer \u2014 ConocoPhillips (Brisbane, Queensland, Australia). Posted 1 day ago.",
+      "text": "Process Safety Engineer — ConocoPhillips (Brisbane, Queensland, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -236,7 +186,7 @@
     },
     {
       "id": "l411",
-      "text": "HSEQ Officer \u2014 Design & Build Recruitment (Perth, Western Australia, Australia). Posted 5 days ago.",
+      "text": "HSEQ Officer — Design & Build Recruitment (Perth, Western Australia, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -257,13 +207,13 @@
     },
     {
       "id": "l512",
-      "text": "Please Do Not Vibe Fuck Up This Software\n<img width=\"590\" height=\"454\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/1b00011b-1b7d-4d76-a6a9-286eb0392ba4\" />\nLooks like it's time to vibe-fork in Rust. AI and C are an explosive combination. i wondered why my 3d printers were running like sh*t and at 100% cpu; turns out log2ram uses rsync. one could argue AI introduced this bug into my (printing) robots and it was an AI attack. The issue tracker is not a place for you to farm viral s\u2026",
+      "text": "Please Do Not Vibe Fuck Up This Software\n<img width=\"590\" height=\"454\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/1b00011b-1b7d-4d76-a6a9-286eb0392ba4\" />\nLooks like it's time to vibe-fork in Rust. AI and C are an explosive combination. i wondered why my 3d printers were running like sh*t and at 100% cpu; turns out log2ram uses rsync. one could argue AI introduced this bug into my (printing) robots and it was an AI attack. The issue tracker is not a place for you to farm viral s…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Please Do Not Vibe Fuck Up This Software\n<img width=\"590\" height=\"454\" alt=\"Imag\u2026",
+          "title": "Please Do Not Vibe Fuck Up This Software\n<img width=\"590\" height=\"454\" alt=\"Imag…",
           "url": "https://github.com/RsyncProject/rsync/issues/929",
           "date": "2026-05-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -278,13 +228,13 @@
     },
     {
       "id": "l513",
-      "text": "Codex SQLite feedback logs can write ~640 TB/year and rapidly consume SSD endurance\nUpdate at Jun 23, 2026: the following 3 PRs are merged, it could avoid 85% logs(feedback from my codex), so let me close this issue.\n\nThanks @jif-oai for the fix.\n\n- https://github.com/openai/codex/pull/29432 (released in 0.142.0)\n- https://github.com/openai/codex/pull/29457 (released in 0.142.0)\n-\nPotential duplicates detected. Please review them and close your issue if it is a duplicate.\n\n- #26869\n- #27741\n- #2\u2026",
+      "text": "Codex SQLite feedback logs can write ~640 TB/year and rapidly consume SSD endurance\nUpdate at Jun 23, 2026: the following 3 PRs are merged, it could avoid 85% logs(feedback from my codex), so let me close this issue.\n\nThanks @jif-oai for the fix.\n\n- https://github.com/openai/codex/pull/29432 (released in 0.142.0)\n- https://github.com/openai/codex/pull/29457 (released in 0.142.0)\n-\nPotential duplicates detected. Please review them and close your issue if it is a duplicate.\n\n- #26869\n- #27741\n- #2…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Codex SQLite feedback logs can write ~640 TB/year and rapidly consume SSD endura\u2026",
+          "title": "Codex SQLite feedback logs can write ~640 TB/year and rapidly consume SSD endura…",
           "url": "https://github.com/openai/codex/issues/28224",
           "date": "2026-06-14",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -305,7 +255,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Stage 5C.1: Failure Detection and Recovery State Model\n## **User description**\n<\u2026",
+          "title": "Stage 5C.1: Failure Detection and Recovery State Model\n## **User description**\n<…",
           "url": "https://github.com/DashFin-FarDb/financial-asset-relationship-db/pull/1167",
           "date": "2026-05-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -326,7 +276,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "expose graph persistence configured in detailed health\n## **User description**\r\n\u2026",
+          "title": "expose graph persistence configured in detailed health\n## **User description**\r\n…",
           "url": "https://github.com/DashFin-FarDb/financial-asset-relationship-db/pull/1143",
           "date": "2026-05-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -341,13 +291,13 @@
     },
     {
       "id": "l516",
-      "text": "ci: add CodeScene PR Refactoring Agent workflow\n## Summary\n\nAdds the [CodeScene PR Refactoring Agent](https://codescene.io/docs/developer-tools/pr-refactoring-agent.html) so reviewers can request Code Health-guided refactoring on any PR by commenting `/cs-agent`.\n\n- `.github/workflows/refactoring-agent.yml` \u2014 triggers on `issue_comment`, gated to",
+      "text": "ci: add CodeScene PR Refactoring Agent workflow\n## Summary\n\nAdds the [CodeScene PR Refactoring Agent](https://codescene.io/docs/developer-tools/pr-refactoring-agent.html) so reviewers can request Code Health-guided refactoring on any PR by commenting `/cs-agent`.\n\n- `.github/workflows/refactoring-agent.yml` — triggers on `issue_comment`, gated to",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "ci: add CodeScene PR Refactoring Agent workflow\n## Summary\n\nAdds the [CodeScene \u2026",
+          "title": "ci: add CodeScene PR Refactoring Agent workflow\n## Summary\n\nAdds the [CodeScene …",
           "url": "https://github.com/abapify/openadt/pull/44",
           "date": "2026-06-05",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -368,7 +318,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Modernize phase 1\n## **User description**\nModernize what-license as a browser-on\u2026",
+          "title": "Modernize phase 1\n## **User description**\nModernize what-license as a browser-on…",
           "url": "https://github.com/PeterDaveHello/what-license/pull/4",
           "date": "2026-06-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -383,13 +333,13 @@
     },
     {
       "id": "l518",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -404,13 +354,13 @@
     },
     {
       "id": "l519",
-      "text": "[MODEL] Claude Code is unusable for complex engineering tasks with the Feb updates\n### Preflight Checklist\n\n- [x] I have searched [existing issues](https://github.com/anthropics/claude-code/issues?q=is%3Aissue%20state%3Aopen%20label%3Amodel) for similar behavior reports\n- [x] This report does NOT contain sensitive information (API keys, passwords, etc.)\n\n### Type of Behavior Issue\nIncredible analysis. As a user, I experienced this over the past weeks and couldn't put my finger on it. The point o\u2026",
+      "text": "[MODEL] Claude Code is unusable for complex engineering tasks with the Feb updates\n### Preflight Checklist\n\n- [x] I have searched [existing issues](https://github.com/anthropics/claude-code/issues?q=is%3Aissue%20state%3Aopen%20label%3Amodel) for similar behavior reports\n- [x] This report does NOT contain sensitive information (API keys, passwords, etc.)\n\n### Type of Behavior Issue\nIncredible analysis. As a user, I experienced this over the past weeks and couldn't put my finger on it. The point o…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[MODEL] Claude Code is unusable for complex engineering tasks with the Feb updat\u2026",
+          "title": "[MODEL] Claude Code is unusable for complex engineering tasks with the Feb updat…",
           "url": "https://github.com/anthropics/claude-code/issues/42796",
           "date": "2026-04-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -431,7 +381,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Refactor Python script for metric verification\n## **User description**\r\n<!-- kod\u2026",
+          "title": "Refactor Python script for metric verification\n## **User description**\r\n<!-- kod…",
           "url": "https://github.com/DashFin-FarDb/financial-asset-relationship-db/pull/1217",
           "date": "2026-05-25",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -452,7 +402,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Recovery gate and lock failure hardening\n## **User description**\r\n<!-- kody-pr-s\u2026",
+          "title": "Recovery gate and lock failure hardening\n## **User description**\r\n<!-- kody-pr-s…",
           "url": "https://github.com/DashFin-FarDb/financial-asset-relationship-db/pull/1169",
           "date": "2026-05-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -473,7 +423,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Rebuild Drift Reconciliation: Explicit Plan Generation + Evaluator Adapter\n## Up\u2026",
+          "title": "Rebuild Drift Reconciliation: Explicit Plan Generation + Evaluator Adapter\n## Up…",
           "url": "https://github.com/DashFin-FarDb/financial-asset-relationship-db/pull/1193",
           "date": "2026-05-20",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -494,7 +444,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "chore: knip dead-code & dependency purge + farmer recs migration\n## Summary\n\nSta\u2026",
+          "title": "chore: knip dead-code & dependency purge + farmer recs migration\n## Summary\n\nSta…",
           "url": "https://github.com/ashish921998/Vinesight/pull/162",
           "date": "2026-06-17",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -509,13 +459,13 @@
     },
     {
       "id": "l524",
-      "text": "Proposal: Build a next-generation native Windows UI framework for modern declarative UI and AI automation\n# Proposal: Build a next-generation native Windows UI framework for modern declarative UI and AI automation\n\n## Summary\n\nWinUI is an important UI framework for native Windows application development. It provides Fluent Design controls, native Windows integration, and a XAML-based development model.\nthe seam in section 9 isn't the semantic-component model. UIA already exposes AutomationId/Nam\u2026",
+      "text": "Proposal: Build a next-generation native Windows UI framework for modern declarative UI and AI automation\n# Proposal: Build a next-generation native Windows UI framework for modern declarative UI and AI automation\n\n## Summary\n\nWinUI is an important UI framework for native Windows application development. It provides Fluent Design controls, native Windows integration, and a XAML-based development model.\nthe seam in section 9 isn't the semantic-component model. UIA already exposes AutomationId/Nam…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Proposal: Build a next-generation native Windows UI framework for modern declara\u2026",
+          "title": "Proposal: Build a next-generation native Windows UI framework for modern declara…",
           "url": "https://github.com/microsoft/microsoft-ui-xaml/issues/11126",
           "date": "2026-05-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -551,13 +501,13 @@
     },
     {
       "id": "l526",
-      "text": "AI Engineer Notebooks \u2013 free, framework-free RAG/agents/evals on Colab",
+      "text": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI Engineer Notebooks \u2013 free, framework-free RAG/agents/evals on Colab",
+          "title": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
           "url": "https://github.com/calmrocks/ai-engineer-notebooks",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -572,13 +522,13 @@
     },
     {
       "id": "l527",
-      "text": "Everybody's Weirded Out by AI\u2013Except the People Who Foist It on Us",
+      "text": "Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Everybody's Weirded Out by AI\u2013Except the People Who Foist It on Us",
+          "title": "Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
           "url": "https://newrepublic.com/article/213004/everybody-weirded-ai-except-people-foist-us",
           "date": "2026-07-17",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -845,13 +795,13 @@
     },
     {
       "id": "l540",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -866,13 +816,13 @@
     },
     {
       "id": "l541",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -929,13 +879,13 @@
     },
     {
       "id": "l544",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -971,13 +921,13 @@
     },
     {
       "id": "l546",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -992,13 +942,13 @@
     },
     {
       "id": "l547",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1013,13 +963,13 @@
     },
     {
       "id": "l548",
-      "text": "Show HN: CyberWriter \u2013 a .md editor built on Apple's (barely-used) on-device AI",
+      "text": "Show HN: CyberWriter – a .md editor built on Apple's (barely-used) on-device AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: CyberWriter \u2013 a .md editor built on Apple's (barely-used) on-device AI",
+          "title": "Show HN: CyberWriter – a .md editor built on Apple's (barely-used) on-device AI",
           "url": "https://cyberwriter.app",
           "date": "2026-04-20",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1034,13 +984,13 @@
     },
     {
       "id": "l549",
-      "text": "I\u2019m 23. I spent 262 days documenting an AI behavior that could decide whether future machines act. I sent the evidence to Elon Musk, Sam Altman, Dario Amodei, Marc Benioff, Greg Brockman and others. The record is public.\nI\u2019m posting this here because at this point I don\u2019t want anyone to take my word for the history. (Bottom for TL;DR) AI Can Now Say \u201cNo\u201d by Outputting Literally Nothing (&quot;&quot;) AI is beginning to expose a programmable boundary between capability and permission. I\u2019m 23, ind\u2026",
+      "text": "I’m 23. I spent 262 days documenting an AI behavior that could decide whether future machines act. I sent the evidence to Elon Musk, Sam Altman, Dario Amodei, Marc Benioff, Greg Brockman and others. The record is public.\nI’m posting this here because at this point I don’t want anyone to take my word for the history. (Bottom for TL;DR) AI Can Now Say “No” by Outputting Literally Nothing (&quot;&quot;) AI is beginning to expose a programmable boundary between capability and permission. I’m 23, ind…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I\u2019m 23. I spent 262 days documenting an AI behavior that could decide whether fu\u2026",
+          "title": "I’m 23. I spent 262 days documenting an AI behavior that could decide whether fu…",
           "url": "https://www.reddit.com/r/conspiracy/comments/1w0bxcu/im_23_i_spent_262_days_documenting_an_ai_behavior/",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1055,14 +1005,14 @@
     },
     {
       "id": "l550",
-      "text": "CHAI: Persona Update \u2139\ufe0f and Improving Safety \ud83d\udc77\u200d\u2642\ufe0f\nWe have updated the Chai Apple app with persona and bot-memory and advanced bot-builder tools. We are currently waiting for Apple to approve our latest build so we can release the feature. AI apps are currently facing extra scrutiny and so the review process is taking longer. We&#39;re still a small team, only 15 engineers, and almost 2 million daily users. But we take all user complaints seriously, and are working hard to build something that is\u2026",
+      "text": "CHAI: Persona Update ℹ️ and Improving Safety 👷‍♂️\nWe have updated the Chai Apple app with persona and bot-memory and advanced bot-builder tools. We are currently waiting for Apple to approve our latest build so we can release the feature. AI apps are currently facing extra scrutiny and so the review process is taking longer. We&#39;re still a small team, only 15 engineers, and almost 2 million daily users. But we take all user complaints seriously, and are working hard to build something that is…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "CHAI: Persona Update \u2139\ufe0f and Improving Safety \ud83d\udc77\u200d\u2642\ufe0f\nWe have updated the Chai Apple\u2026",
-          "url": "https://www.reddit.com/r/ChaiApp/comments/1vg6mtt/chai_persona_update_\u2139_and_improving_safety/",
+          "title": "CHAI: Persona Update ℹ️ and Improving Safety 👷‍♂️\nWe have updated the Chai Apple…",
+          "url": "https://www.reddit.com/r/ChaiApp/comments/1vg6mtt/chai_persona_update_ℹ_and_improving_safety/",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
         }
@@ -1181,13 +1131,13 @@
     },
     {
       "id": "l556",
-      "text": "About the job\nAnduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century\u2019s most innovative companies to the defense industry, Anduril is changing how military systems are designed, built and sold. Anduril\u2019s family of systems is powered by Lattice OS, an AI-powered operating system that turns thousands of data streams into a realtime, 3D",
+      "text": "About the job\nAnduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how military systems are designed, built and sold. Anduril’s family of systems is powered by Lattice OS, an AI-powered operating system that turns thousands of data streams into a realtime, 3D",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "About the job\nAnduril Industries is a defense technology company with a mission \u2026",
+          "title": "About the job\nAnduril Industries is a defense technology company with a mission …",
           "url": "https://x.com/sumbios/status/2092161057217265948",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1208,7 +1158,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Alexa and others are just too limiting, not to mention since they're cloud based\u2026",
+          "title": "Alexa and others are just too limiting, not to mention since they're cloud based…",
           "url": "https://x.com/CarlB_jr/status/2092095017695219995",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1412,13 +1362,13 @@
     },
     {
       "id": "l567",
-      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - \u2026",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har\u2026",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har…",
           "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1433,13 +1383,13 @@
     },
     {
       "id": "l568",
-      "text": "AI & IoT Based Conveyor Belt Health Monitoring System | Predictive Maintenance for Mining.#SIH2026.\nDescription\nConveyor belts are a critical part of iron ore mining, where unexpected belt or joint failures can cause production delays, safety risks, material loss and high maintenance costs.\nThis project proposes an AI and IoT-based Conveyor Belt Health Monitoring and Predictive Maintenance System that continuously monitors conveyor belt condition using sensors and camera-based inspection.\nThe sy\u2026",
+      "text": "AI & IoT Based Conveyor Belt Health Monitoring System | Predictive Maintenance for Mining.#SIH2026.\nDescription\nConveyor belts are a critical part of iron ore mining, where unexpected belt or joint failures can cause production delays, safety risks, material loss and high maintenance costs.\nThis project proposes an AI and IoT-based Conveyor Belt Health Monitoring and Predictive Maintenance System that continuously monitors conveyor belt condition using sensors and camera-based inspection.\nThe sy…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI & IoT Based Conveyor Belt Health Monitoring System | Predictive Maintenance f\u2026",
+          "title": "AI & IoT Based Conveyor Belt Health Monitoring System | Predictive Maintenance f…",
           "url": "https://www.youtube.com/watch?v=Na0hrdtg9gg",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1454,13 +1404,13 @@
     },
     {
       "id": "l569",
-      "text": "This AI Never Blinks: PPE Safety Detection in Real Time\nWhat if every camera at an industrial site could become an AI-powered safety inspector?\n\nThis video shows ViewLogic PPE Detection in action \u2014 real-time AI video analytics identifying personal protective equipment and potential safety violations directly from camera feeds.\n\n\u26a1 Continuous 24/7 monitoring\n\u26a1 Real-time PPE detection\n\u26a1 Instant identification of safety violations\n\u26a1 Automated monitoring across multiple cameras and locations\n\u26a1 Less d\u2026",
+      "text": "This AI Never Blinks: PPE Safety Detection in Real Time\nWhat if every camera at an industrial site could become an AI-powered safety inspector?\n\nThis video shows ViewLogic PPE Detection in action — real-time AI video analytics identifying personal protective equipment and potential safety violations directly from camera feeds.\n\n⚡ Continuous 24/7 monitoring\n⚡ Real-time PPE detection\n⚡ Instant identification of safety violations\n⚡ Automated monitoring across multiple cameras and locations\n⚡ Less d…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "This AI Never Blinks: PPE Safety Detection in Real Time\nWhat if every camera at \u2026",
+          "title": "This AI Never Blinks: PPE Safety Detection in Real Time\nWhat if every camera at …",
           "url": "https://www.youtube.com/watch?v=5P70dsrk69Q",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1538,6 +1488,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

@@ -14,58 +14,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "27-1014-01",
-      "text": "National peak professional bodies and statutory regulators governing Multi-Media Artists and Animators enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Multi-Media Artists and Animators",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Multi-Media Artists and Animators",
-          "url": "https://www.psc.gov.au/standards/27-1014",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Multi-Media Artists and Animators"
-        }
-      ],
-      "scope": "Australian practitioners in Multi-Media Artists and Animators across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "27-1014-02",
-      "text": "Automation of routine transactional and analytical tasks in Multi-Media Artists and Animators heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Multi-Media Artists and Animators",
-          "url": "https://www.jobsandskills.gov.au/research/27-1014",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Multi-Media Artists and Animators in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Multi-Media Artists and Animators roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Expression of Interest - Production - Netflix Animation Studios \u2014 Netflix (Sydney, New South Wales, Australia). Posted 2 days ago.",
+      "text": "Expression of Interest - Production - Netflix Animation Studios — Netflix (Sydney, New South Wales, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -86,7 +36,7 @@
     },
     {
       "id": "l404",
-      "text": "Expression of Interest - Rigging - Netflix Animation Studios \u2014 Netflix (Sydney, New South Wales, Australia). Posted 2 days ago.",
+      "text": "Expression of Interest - Rigging - Netflix Animation Studios — Netflix (Sydney, New South Wales, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -107,7 +57,7 @@
     },
     {
       "id": "l405",
-      "text": "Expression of Interest: 2D Animation Design Artists \u2014 Flying Bark Productions (Sydney, New South Wales, Australia). Posted 1 day ago.",
+      "text": "Expression of Interest: 2D Animation Design Artists — Flying Bark Productions (Sydney, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -128,7 +78,7 @@
     },
     {
       "id": "l406",
-      "text": "Animator \u2014 Industrial Light & Magic (Moore Park, New South Wales, Australia). Posted 2 months ago.",
+      "text": "Animator — Industrial Light & Magic (Moore Park, New South Wales, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -149,7 +99,7 @@
     },
     {
       "id": "l407",
-      "text": "3D Artist (Animation) - TikTok Design LIVE Gifts & Effects \u2014 TikTok (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "3D Artist (Animation) - TikTok Design LIVE Gifts & Effects — TikTok (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -170,7 +120,7 @@
     },
     {
       "id": "l408",
-      "text": "3D Artist (Animation) - TikTok Design LIVE Gifts & Effects \u2014 TikTok (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "3D Artist (Animation) - TikTok Design LIVE Gifts & Effects — TikTok (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -191,7 +141,7 @@
     },
     {
       "id": "l409",
-      "text": "Animator \u2014 Framestore (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Animator — Framestore (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -212,7 +162,7 @@
     },
     {
       "id": "l410",
-      "text": "Crowd TD \u2014 Flying Bark Productions (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Crowd TD — Flying Bark Productions (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -233,7 +183,7 @@
     },
     {
       "id": "l411",
-      "text": "2D Animation Director \u2014 Glitch Productions (Australia). Posted 1 day ago.",
+      "text": "2D Animation Director — Glitch Productions (Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -254,7 +204,7 @@
     },
     {
       "id": "l412",
-      "text": "2D Animation Director \u2014 Glitch Productions (Australia). Posted 1 day ago.",
+      "text": "2D Animation Director — Glitch Productions (Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -275,7 +225,7 @@
     },
     {
       "id": "l413",
-      "text": "Content Creator (Home) \u2014 VaynerX (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Content Creator (Home) — VaynerX (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -296,7 +246,7 @@
     },
     {
       "id": "l414",
-      "text": "Content Creator (Home) \u2014 VaynerMedia (Sydney, New South Wales, Australia). Posted 2 months ago.",
+      "text": "Content Creator (Home) — VaynerMedia (Sydney, New South Wales, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -317,13 +267,13 @@
     },
     {
       "id": "l515",
-      "text": "Revise AI policy\n## Moderation and governance note\r\n\r\nThis policy was primarily authored by Alice (words-lady in-chief), but has been shared and workshopped privately with the other maintainers and SMEs before publication. This PR follows many months of informal community discussion on this and related topics, and w\nThank you all for the feedback! It has been remarkably civil and productive, and we have heard your concerns about the current policy.\r\n\r\nTo better reflect the community's AI-skeptic\u2026",
+      "text": "Revise AI policy\n## Moderation and governance note\r\n\r\nThis policy was primarily authored by Alice (words-lady in-chief), but has been shared and workshopped privately with the other maintainers and SMEs before publication. This PR follows many months of informal community discussion on this and related topics, and w\nThank you all for the feedback! It has been remarkably civil and productive, and we have heard your concerns about the current policy.\r\n\r\nTo better reflect the community's AI-skeptic…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Revise AI policy\n## Moderation and governance note\r\n\r\nThis policy was primarily \u2026",
+          "title": "Revise AI policy\n## Moderation and governance note\r\n\r\nThis policy was primarily …",
           "url": "https://github.com/bevyengine/bevy-website/pull/2551",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -338,13 +288,13 @@
     },
     {
       "id": "l516",
-      "text": "docs: overhaul guides, docs site, and tool comparison\n## What changed\n\nDocumentation overhaul, split across focused commits:\n\n- Restructured guides into a numbered docs-site tree (`docs/00-guides/{00-basic,01-advanced}`, `docs/01-project/`); removed the old flat `docs/*.md`.\n- Wired the Docusaurus site: autogenerated sidebars, repo-link + GitHub-admoni\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage\u2026",
+      "text": "docs: overhaul guides, docs site, and tool comparison\n## What changed\n\nDocumentation overhaul, split across focused commits:\n\n- Restructured guides into a numbered docs-site tree (`docs/00-guides/{00-basic,01-advanced}`, `docs/01-project/`); removed the old flat `docs/*.md`.\n- Wired the Docusaurus site: autogenerated sidebars, repo-link + GitHub-admoni\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "docs: overhaul guides, docs site, and tool comparison\n## What changed\n\nDocumenta\u2026",
+          "title": "docs: overhaul guides, docs site, and tool comparison\n## What changed\n\nDocumenta…",
           "url": "https://github.com/firebound/proscenio/pull/85",
           "date": "2026-06-05",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -359,13 +309,13 @@
     },
     {
       "id": "l517",
-      "text": "Manticore 2.0.0: HyperFrames-only engine, skills at setup, incremental render\n## Summary\n\nManticore 2.0.0: one motion-graphics engine with the full HyperFrames toolkit behind it, a final render that only re-does what changed, and delivery polish. Upgrading from 1.x is a clean reinstall \u2014 brand, voice bible, and format profiles live in the studio folder, not `_bmad/`, so they\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change\u2026",
+      "text": "Manticore 2.0.0: HyperFrames-only engine, skills at setup, incremental render\n## Summary\n\nManticore 2.0.0: one motion-graphics engine with the full HyperFrames toolkit behind it, a final render that only re-does what changed, and delivery polish. Upgrading from 1.x is a clean reinstall — brand, voice bible, and format profiles live in the studio folder, not `_bmad/`, so they\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Manticore 2.0.0: HyperFrames-only engine, skills at setup, incremental render\n##\u2026",
+          "title": "Manticore 2.0.0: HyperFrames-only engine, skills at setup, incremental render\n##…",
           "url": "https://github.com/bmad-code-org/bmad-manticore/pull/8",
           "date": "2026-07-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -380,13 +330,13 @@
     },
     {
       "id": "l518",
-      "text": "Update from task d8802ad8-4cec-4d60-9b0d-e192fa7a7f44\nThis PR was created by qwen-chat coder for task d8802ad8-4cec-4d60-9b0d-e192fa7a7f44.\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/cloud/settings/usage). <h3>PR Summary by Qodo</h3>\n\nRewrite README to document OmniRoster DJ management agency framework\n<code>\ud83d\udcdd Documentation</code> <code>\ud83d\udd50 20-40 Minutes</code>\n\n<img src=\"https://www.qodo.ai/wp-content\u2026",
+      "text": "Update from task d8802ad8-4cec-4d60-9b0d-e192fa7a7f44\nThis PR was created by qwen-chat coder for task d8802ad8-4cec-4d60-9b0d-e192fa7a7f44.\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/cloud/settings/usage). <h3>PR Summary by Qodo</h3>\n\nRewrite README to document OmniRoster DJ management agency framework\n<code>📝 Documentation</code> <code>🕐 20-40 Minutes</code>\n\n<img src=\"https://www.qodo.ai/wp-content…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Update from task d8802ad8-4cec-4d60-9b0d-e192fa7a7f44\nThis PR was created by qwe\u2026",
+          "title": "Update from task d8802ad8-4cec-4d60-9b0d-e192fa7a7f44\nThis PR was created by qwe…",
           "url": "https://github.com/getaivids/agency-agents/pull/2",
           "date": "2026-06-23",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -401,13 +351,13 @@
     },
     {
       "id": "l519",
-      "text": "DCCM Modernization June 2026 \u2014 Research-Backed Additive Updates\n## **User description**\n## Executive Summary\n\nThis PR delivers the **June 2026 modernization** of the Digital Cinema Color Management (DCCM) repository, identified during a comprehensive audit conducted in May 2026. All updates are **additive** \u2014 original content is preserved in full, with new resea\n---\n\n### Thanks for using CodeAnt! \ud83c\udf89\n\nWe're free for open-source projects. if you're enjoying it, help us grow by sharing.\n\n[Share on X\u2026",
+      "text": "DCCM Modernization June 2026 — Research-Backed Additive Updates\n## **User description**\n## Executive Summary\n\nThis PR delivers the **June 2026 modernization** of the Digital Cinema Color Management (DCCM) repository, identified during a comprehensive audit conducted in May 2026. All updates are **additive** — original content is preserved in full, with new resea\n---\n\n### Thanks for using CodeAnt! 🎉\n\nWe're free for open-source projects. if you're enjoying it, help us grow by sharing.\n\n[Share on X…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "DCCM Modernization June 2026 \u2014 Research-Backed Additive Updates\n## **User descri\u2026",
+          "title": "DCCM Modernization June 2026 — Research-Backed Additive Updates\n## **User descri…",
           "url": "https://github.com/makaronz/DCCM/pull/4",
           "date": "2026-06-17",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Google AI Studio \"Delete\" doesn't delete \u2013 server chat persists (3 videos)",
+      "text": "Google AI Studio \"Delete\" doesn't delete – server chat persists (3 videos)",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Google AI Studio \"Delete\" doesn't delete \u2013 server chat persists (3 videos)",
+          "title": "Google AI Studio \"Delete\" doesn't delete – server chat persists (3 videos)",
           "url": "https://www.youtube.com/watch?v=LBQfNbPCxQw",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "Research: Why Some Junior Employees Work Well with AI\u2013and Others Don't",
+      "text": "Research: Why Some Junior Employees Work Well with AI–and Others Don't",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Research: Why Some Junior Employees Work Well with AI\u2013and Others Don't",
+          "title": "Research: Why Some Junior Employees Work Well with AI–and Others Don't",
           "url": "https://hbr.org/2026/07/research-why-some-junior-employees-work-well-with-ai-and-others-dont",
           "date": "2026-07-28",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -863,13 +813,13 @@
     },
     {
       "id": "l541",
-      "text": "Engineers aren't afraid of AI \u2013 they're afraid of becoming junior again",
+      "text": "Engineers aren't afraid of AI – they're afraid of becoming junior again",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Engineers aren't afraid of AI \u2013 they're afraid of becoming junior again",
+          "title": "Engineers aren't afraid of AI – they're afraid of becoming junior again",
           "url": "https://www.andykelk.net/leadership/your-engineers-arent-afraid-of-ai-theyre-afraid-of-being-junior-again/",
           "date": "2026-06-12",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "\u201cNo AI\u201d",
+      "text": "“No AI”",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\u201cNo AI\u201d",
+          "title": "“No AI”",
           "url": "https://www.reddit.com/r/animationcareer/comments/1vh4zhs/no_ai/",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1016,7 +966,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "my design college integrates the use of artificial intelligence into their cours\u2026",
+          "title": "my design college integrates the use of artificial intelligence into their cours…",
           "url": "https://www.reddit.com/r/animationcareer/comments/1vuovhw/my_design_college_integrates_the_use_of/",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1052,13 +1002,13 @@
     },
     {
       "id": "l550",
-      "text": "Opinions regarding the use of Reference to Output generative models in studios.\nAi is progressing way faster than i expected and a lot of the models have started maturing in a way that reduces the friction between the intent behind the inputs and generated outputs. I have seen some models take references like 3d blockouts, storyboard sketches and generate something that looks like it was made by someone with some experience. I&#39;m also afraid that they might combine the ref to motion and ref t\u2026",
+      "text": "Opinions regarding the use of Reference to Output generative models in studios.\nAi is progressing way faster than i expected and a lot of the models have started maturing in a way that reduces the friction between the intent behind the inputs and generated outputs. I have seen some models take references like 3d blockouts, storyboard sketches and generate something that looks like it was made by someone with some experience. I&#39;m also afraid that they might combine the ref to motion and ref t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Opinions regarding the use of Reference to Output generative models in studios.\n\u2026",
+          "title": "Opinions regarding the use of Reference to Output generative models in studios.\n…",
           "url": "https://www.reddit.com/r/animationcareer/comments/1vfyndm/opinions_regarding_the_use_of_reference_to_output/",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1073,13 +1023,13 @@
     },
     {
       "id": "l551",
-      "text": "For Bingo's new film, we took a real studio performance and moved it through an entirely AI-based production pipeline instead of a traditional 3D/VFX workflow. Environments, compositing and animation were built through prompts, plates and iteration \u2014 not render farms.\nThis wasn't an \"AI experiment.\" Every directorial call, every frame, every lighting logic and cutting rhythm was human. AI was the tool that executed those decisions, not the one making them.\nThe result: a world that would have tak",
+      "text": "For Bingo's new film, we took a real studio performance and moved it through an entirely AI-based production pipeline instead of a traditional 3D/VFX workflow. Environments, compositing and animation were built through prompts, plates and iteration — not render farms.\nThis wasn't an \"AI experiment.\" Every directorial call, every frame, every lighting logic and cutting rhythm was human. AI was the tool that executed those decisions, not the one making them.\nThe result: a world that would have tak",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "For Bingo's new film, we took a real studio performance and moved it through an \u2026",
+          "title": "For Bingo's new film, we took a real studio performance and moved it through an …",
           "url": "https://x.com/FuatD__/status/2087220994674982954",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1100,7 +1050,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "My client wanted a supplement ad that actually felt like a movie for the brand.\n\u2026",
+          "title": "My client wanted a supplement ad that actually felt like a movie for the brand.\n…",
           "url": "https://x.com/AdekanmbiI82845/status/2087986791458410758",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1136,13 +1086,13 @@
     },
     {
       "id": "l554",
-      "text": "How I Created an Animated Short Film Using AI \u2014 From Script to Screen in 8 Steps",
+      "text": "How I Created an Animated Short Film Using AI — From Script to Screen in 8 Steps",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "How I Created an Animated Short Film Using AI \u2014 From Script to Screen in 8 Steps",
+          "title": "How I Created an Animated Short Film Using AI — From Script to Screen in 8 Steps",
           "url": "https://x.com/shweta__kaushal/status/2092121231005024332",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1157,13 +1107,13 @@
     },
     {
       "id": "l555",
-      "text": "Dreamina AI Debuts at Annecy, Exploring the Future of AI Animation with Global Creators\n\nOn June 23, Dreamina AI hosted the AI Animation International Conference at the film market of Annecy International Animation Film Festival in France (MIFA), engaging in deep exchange with animation creatives from around the world on the practice of AI animation creation.\nKey Highlights from the Event:\n\u00b7 Global Engagement: Our open call for AI Animation Short Films & Project Proposals received 3,000+ submiss",
+      "text": "Dreamina AI Debuts at Annecy, Exploring the Future of AI Animation with Global Creators\n\nOn June 23, Dreamina AI hosted the AI Animation International Conference at the film market of Annecy International Animation Film Festival in France (MIFA), engaging in deep exchange with animation creatives from around the world on the practice of AI animation creation.\nKey Highlights from the Event:\n· Global Engagement: Our open call for AI Animation Short Films & Project Proposals received 3,000+ submiss",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Dreamina AI Debuts at Annecy, Exploring the Future of AI Animation with Global C\u2026",
+          "title": "Dreamina AI Debuts at Annecy, Exploring the Future of AI Animation with Global C…",
           "url": "https://x.com/dreamina_ai/status/2070180238269837556",
           "date": "2026-06-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1184,7 +1134,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI made video production faster. It did not make creative direction optional.\n \n\u2026",
+          "title": "AI made video production faster. It did not make creative direction optional.\n \n…",
           "url": "https://x.com/AdekanmbiI82845/status/2092564319124758762",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1199,13 +1149,13 @@
     },
     {
       "id": "l557",
-      "text": "Aside from the obvious 1A issues, there are several reasons why banning AI political ads is really stupid. \n\nYeah, we definitely have to wrap our arms around the genuinely concerning issue of indistinguishable AI creating fake video \u201cevidence\u201d of world leaders saying and doing things they never did, but this problem applies to normal people, too\u2026fake videos of adultery, fake hostage videos of your child for ransom\u2026or the inverse...catch Diddy on camera committing a crime, they'll just say \"that'",
+      "text": "Aside from the obvious 1A issues, there are several reasons why banning AI political ads is really stupid. \n\nYeah, we definitely have to wrap our arms around the genuinely concerning issue of indistinguishable AI creating fake video “evidence” of world leaders saying and doing things they never did, but this problem applies to normal people, too…fake videos of adultery, fake hostage videos of your child for ransom…or the inverse...catch Diddy on camera committing a crime, they'll just say \"that'",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Aside from the obvious 1A issues, there are several reasons why banning AI polit\u2026",
+          "title": "Aside from the obvious 1A issues, there are several reasons why banning AI polit…",
           "url": "https://x.com/Hotshot_Movie/status/2082487964265754816",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1241,13 +1191,13 @@
     },
     {
       "id": "l559",
-      "text": "\ud83c\udfa8 AI ART & VISUALS ROUNDUP \u2014 August 19, 2026\n\n1\ufe0f\u20e3 SEEDANCE 2.5 PULLS OFF A LIFELIKE \"INDIA SIMULATOR\"\n\nMark Kretschmann shared a two-and-a-half minute Seedance 2.5 clip that plays less like a generated video and more like a playable open-world game: a casually filmed walk through a Mumbai colony, complete with market sounds, passing people, and even a neighbourhood leopard in the background. The acting, camera motion and ambient audio stay consistent long enough that most viewers guess it is a h",
+      "text": "🎨 AI ART & VISUALS ROUNDUP — August 19, 2026\n\n1️⃣ SEEDANCE 2.5 PULLS OFF A LIFELIKE \"INDIA SIMULATOR\"\n\nMark Kretschmann shared a two-and-a-half minute Seedance 2.5 clip that plays less like a generated video and more like a playable open-world game: a casually filmed walk through a Mumbai colony, complete with market sounds, passing people, and even a neighbourhood leopard in the background. The acting, camera motion and ambient audio stay consistent long enough that most viewers guess it is a h",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83c\udfa8 AI ART & VISUALS ROUNDUP \u2014 August 19, 2026\n\n1\ufe0f\u20e3 SEEDANCE 2.5 PULLS OFF A LIFEL\u2026",
+          "title": "🎨 AI ART & VISUALS ROUNDUP — August 19, 2026\n\n1️⃣ SEEDANCE 2.5 PULLS OFF A LIFEL…",
           "url": "https://x.com/TraffAlex/status/2090068651609030735",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1283,13 +1233,13 @@
     },
     {
       "id": "l561",
-      "text": "Everyone is slopifying the internet with AI video. We\u2019re doing the opposite.",
+      "text": "Everyone is slopifying the internet with AI video. We’re doing the opposite.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Everyone is slopifying the internet with AI video. We\u2019re doing the opposite.",
+          "title": "Everyone is slopifying the internet with AI video. We’re doing the opposite.",
           "url": "https://x.com/arjuntalati/status/2074164902860820621",
           "date": "2026-07-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1304,13 +1254,13 @@
     },
     {
       "id": "l562",
-      "text": "Hollywood might actually be in trouble this was generated with Seedance 2.0\n\nA clip going viral shows what Seedance 2.0 can already do.\n\nComplete VFX, cinematic animation, and character performances \u2014 generated almost instantly.\n\nNo studio pipeline. No production crew. Just AI generation.\n\nThe speed is what\u2019s shocking people the most.\nShots that would normally require large VFX teams and months of work can now be created in minutes or hours.\n\nSome people are calling it the beginning of a massive",
+      "text": "Hollywood might actually be in trouble this was generated with Seedance 2.0\n\nA clip going viral shows what Seedance 2.0 can already do.\n\nComplete VFX, cinematic animation, and character performances — generated almost instantly.\n\nNo studio pipeline. No production crew. Just AI generation.\n\nThe speed is what’s shocking people the most.\nShots that would normally require large VFX teams and months of work can now be created in minutes or hours.\n\nSome people are calling it the beginning of a massive",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Hollywood might actually be in trouble this was generated with Seedance 2.0\n\nA c\u2026",
+          "title": "Hollywood might actually be in trouble this was generated with Seedance 2.0\n\nA c…",
           "url": "https://x.com/noman23761/status/2029489705700708414",
           "date": "2026-03-05",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1325,13 +1275,13 @@
     },
     {
       "id": "l563",
-      "text": "Kling AI Introduces the World\u2019s First Native 4K Video Model",
+      "text": "Kling AI Introduces the World’s First Native 4K Video Model",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Kling AI Introduces the World\u2019s First Native 4K Video Model",
+          "title": "Kling AI Introduces the World’s First Native 4K Video Model",
           "url": "https://x.com/Kling_ai/status/2056950317712101599",
           "date": "2026-05-20",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1373,7 +1323,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "What on earth is going on here, @TeamYouTube?! This is an absolute joke.\n\nYou cl\u2026",
+          "title": "What on earth is going on here, @TeamYouTube?! This is an absolute joke.\n\nYou cl…",
           "url": "https://x.com/KittyCa71408767/status/2057042885732901242",
           "date": "2026-05-20",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1415,7 +1365,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I will send the workflow via DM to everyone who writes \"comfyui\" in the comments\u2026",
+          "title": "I will send the workflow via DM to everyone who writes \"comfyui\" in the comments…",
           "url": "https://x.com/FuatD__/status/2060386775462228325",
           "date": "2026-05-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1430,13 +1380,13 @@
     },
     {
       "id": "l568",
-      "text": "I think people who scoff at the idea that AI can improve creative work just don\u2019t know very much about creative work or about AI.\n\nAI is most immediately relevant to creative fields where producing a work involves the labor of a large number of people and many of the tasks that contribute to the whole are rote and unglamorous. Those tasks can be performed by AI without changing or compromising the finished product in any way.  \n\nFor example, the way animation is produced is that the top-line cre",
+      "text": "I think people who scoff at the idea that AI can improve creative work just don’t know very much about creative work or about AI.\n\nAI is most immediately relevant to creative fields where producing a work involves the labor of a large number of people and many of the tasks that contribute to the whole are rote and unglamorous. Those tasks can be performed by AI without changing or compromising the finished product in any way.  \n\nFor example, the way animation is produced is that the top-line cre",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I think people who scoff at the idea that AI can improve creative work just don\u2019\u2026",
+          "title": "I think people who scoff at the idea that AI can improve creative work just don’…",
           "url": "https://x.com/DanFriedman81/status/2035349596759629842",
           "date": "2026-03-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1451,13 +1401,13 @@
     },
     {
       "id": "l569",
-      "text": "Game devs, animators, and multimedia artists\u2014 #UnityPH and Mega Cat Studios are at the @iACADEMY_EDU Career Fair 2026 today to connect students with the #gamedev community and help you explore your next steps in the industry.\n\nScan the QR codes at our booth to kick off your Biyaheng Unity PH journey, discover upcoming community events, and win prizes along the way. \ud83d\ude8c\ud83d\udca8\n\nEvent deets: https://t.co/UgBDoFyNSP\nReady for the next quest? Join Unity PH on Meetup: https://t.co/95ohl7Uxm6",
+      "text": "Game devs, animators, and multimedia artists— #UnityPH and Mega Cat Studios are at the @iACADEMY_EDU Career Fair 2026 today to connect students with the #gamedev community and help you explore your next steps in the industry.\n\nScan the QR codes at our booth to kick off your Biyaheng Unity PH journey, discover upcoming community events, and win prizes along the way. 🚌💨\n\nEvent deets: https://t.co/UgBDoFyNSP\nReady for the next quest? Join Unity PH on Meetup: https://t.co/95ohl7Uxm6",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Game devs, animators, and multimedia artists\u2014 #UnityPH and Mega Cat Studios are \u2026",
+          "title": "Game devs, animators, and multimedia artists— #UnityPH and Mega Cat Studios are …",
           "url": "https://x.com/megacatstudios/status/2031520481048932819",
           "date": "2026-03-11",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1472,13 +1422,13 @@
     },
     {
       "id": "l570",
-      "text": "I\u2019m a 3D Artist, and Ai is stealing my job.. Is it over?\nHow I Created this with just Blender!  *angry Ai noises*\nCheck out Paperlike: https://paperlike.com/cggeek/2604\n\nI face off vs Ai in an epic VFX competition! But is there any point?\n\nDownloads on Patreon:  https://www.patreon.com/cggeek\n\nDownload Blender : https://www.blender.org/download/\n\n----------\nMy CPU: https://amzn.to/3IfaSJh\nMy GPU: https://amzn.to/44AcBQY\n----------\n\nCG Geeks Discord! - https://discord.gg/awfcPvG\n\nMusic and SFX: h\u2026",
+      "text": "I’m a 3D Artist, and Ai is stealing my job.. Is it over?\nHow I Created this with just Blender!  *angry Ai noises*\nCheck out Paperlike: https://paperlike.com/cggeek/2604\n\nI face off vs Ai in an epic VFX competition! But is there any point?\n\nDownloads on Patreon:  https://www.patreon.com/cggeek\n\nDownload Blender : https://www.blender.org/download/\n\n----------\nMy CPU: https://amzn.to/3IfaSJh\nMy GPU: https://amzn.to/44AcBQY\n----------\n\nCG Geeks Discord! - https://discord.gg/awfcPvG\n\nMusic and SFX: h…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "I\u2019m a 3D Artist, and Ai is stealing my job.. Is it over?\nHow I Created this with\u2026",
+          "title": "I’m a 3D Artist, and Ai is stealing my job.. Is it over?\nHow I Created this with…",
           "url": "https://www.youtube.com/watch?v=ruq5tHnqhcQ",
           "date": "2026-05-04",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1549,6 +1499,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

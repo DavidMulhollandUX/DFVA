@@ -9,71 +9,77 @@
     "from": "2025-08-01",
     "to": "2026-08-24"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-29",
+  "expires": "2027-02-28",
   "programs": [
     "mc-anp"
   ],
   "claims": [
     {
-      "id": "29-1171-01",
-      "text": "National peak professional bodies and statutory regulators governing Nurse Practitioners enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "id": "29-1171-L1-01",
+      "text": "Nurse practitioners hold general nursing registration with an NMBA endorsement as a nurse practitioner, governed by the Nursing and Midwifery Board of Australia's endorsement registration standard and the Health Practitioner Regulation National Law (AHPRA). The endorsement extends scope to include scheduled-medicine prescribing under Board standards, but a registered nurse practitioner remains accountable for care.",
       "lane": "L1",
       "tier": "regulatory",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Nurse Practitioners",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Nurse Practitioners",
-          "url": "https://www.psc.gov.au/standards/29-1171",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Nurse Practitioners"
+          "publisher": "Nursing and Midwifery Board of Australia",
+          "title": "Registration standards for nurses (NMBA)",
+          "url": "https://www.nursingmidwiferyboard.gov.au/codes-guidelines-statements/faq/registration-nurse-or-midwife.aspx",
+          "date": "2025",
+          "whatItMeasured": "NMBA registration and endorsement framework under the Health Practitioner Regulation National Law (AHPRA)."
+        },
+        {
+          "publisher": "Australian Health Practitioner Regulation Agency (AHPRA)",
+          "title": "Guidelines: For nurses applying for endorsement as a nurse practitioner",
+          "url": "https://www.ahpra.gov.au/sitecore/content/Nursing/Codes-Guidelines-Statements/Codes-Guidelines.aspx",
+          "date": "2025",
+          "whatItMeasured": "AHPRA/NMBA guidelines for nurse practitioner endorsement; extended scope including scheduled-medicine prescribing under Board standards."
         }
       ],
-      "scope": "Australian practitioners in Nurse Practitioners across public, private, and research sectors.",
+      "scope": "Australia; AHPRA-registered nurse practitioners (endorsement within ANZSCO 2544). Does not cover medical practitioners or non-endorsed nurses.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
+      "bearing": [],
       "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "refuteNotes": "Primary regulator (NMBA/OT Board/Physiotherapy Board) registration-standard guidance under National Law; population = registered practitioners; in force."
     },
     {
-      "id": "29-1171-02",
-      "text": "Automation of routine transactional and analytical tasks in Nurse Practitioners heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "id": "29-1171-L2-01",
+      "text": "For nurse practitioners (within ANZSCO 2544), JSA's Generative AI Capacity Study shows Jobs and Skills Australia's Generative AI Capacity Study (Our Gen AI Transition: Exposures, Adaptation, Dynamism, August 2025) scores all 358 Australian occupations at task level using ANZSCO v1.3, rating augmentability and automatability (0-1). It finds augmentation potential outweighs automation risk across most occupations; 79% of Australian workers face low or very low automation risk. Healthcare occupations rank among the lowest-exposure groups. JSA-based exposure analyses place registered nurses and physiotherapists at about 4.1/10 AI exposure and occupational therapists below 4.0/10 - a high-augmentation, low-automation profile consistent with AHPRA's requirement that a registered human remain accountable for care decisions.",
       "lane": "L2",
       "tier": "scholarly",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Nurse Practitioners",
-          "url": "https://www.jobsandskills.gov.au/research/29-1171",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Nurse Practitioners in Australia"
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism - Occupation data on AI exposure",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/occupation-data-on-ai-exposure",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Generative AI Capacity Study: task-level augmentation/automation exposure across 358 ANZSCO v1.3 occupations; augmentation > automation for most; 79% of workers low/very-low automation risk; healthcare lowest-exposure group."
+        },
+        {
+          "publisher": "Will AI Take My Job (JSA-based analysis)",
+          "title": "How Safe Are Healthcare Jobs From AI in Australia?",
+          "url": "https://willaitakemyjob.com.au/blog/how-safe-are-healthcare-jobs-from-ai-in-australia",
+          "date": "2025",
+          "whatItMeasured": "JSA-based AI exposure scores: registered nurses 4.1/10, physiotherapists 4.1/10, occupational therapists <4.0/10; healthcare augmentation 0.63-0.70 / automation 0.19-0.34."
         }
       ],
-      "scope": "Entry-level and senior Nurse Practitioners roles in Australia.",
+      "scope": "Australian ANZSCO-based JSA study; scores are model-derived task-level estimates, not employment-change forecasts. Per-occupation scores are from a JSA-based derivative analysis, not JSA's primary explorer.",
       "disposition": "sourced",
       "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
+      "bearing": [],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "JSA primary study (Aug 2025) + JSA-based derivative analysis; population = Australian ANZSCO occupations; scores model-derived."
     },
     {
       "id": "l503",
-      "text": "feat: add governed NP Community Preview funnel\n## Summary\n\n- Add a dedicated `/nurse-practitioner.html` conversion funnel for nurse practitioners who have already experimented with AI but need a safer, repeatable personal working method.\n- Add a browser-local four-control Personal AI Practice Card builder for focus, interaction style, evidence d\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.google\u2026",
+      "text": "feat: add governed NP Community Preview funnel\n## Summary\n\n- Add a dedicated `/nurse-practitioner.html` conversion funnel for nurse practitioners who have already experimented with AI but need a safer, repeatable personal working method.\n- Add a browser-local four-control Personal AI Practice Card builder for focus, interaction style, evidence d\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.google…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: add governed NP Community Preview funnel\n## Summary\n\n- Add a dedicated `/n\u2026",
+          "title": "feat: add governed NP Community Preview funnel\n## Summary\n\n- Add a dedicated `/n…",
           "url": "https://github.com/AI-Nurse-Solutions/ai-operating-system-heart-of-a-nurse/pull/64",
           "date": "2026-07-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -88,13 +94,13 @@
     },
     {
       "id": "l504",
-      "text": "feat(medibot): AI health guide assistant (Gemini) for patients\nAdd \"Medibot\", a patient-only conversational assistant that guides users, maps symptoms to specialties, searches practitioners, books appointments, and handles teleconsultation payment \u2014 all in-chat.\r\n\r\nBackend (Fastify + @google/genai, /api/medibot):\r\n- Gemini client (server-side key only), nurse-p",
+      "text": "feat(medibot): AI health guide assistant (Gemini) for patients\nAdd \"Medibot\", a patient-only conversational assistant that guides users, maps symptoms to specialties, searches practitioners, books appointments, and handles teleconsultation payment — all in-chat.\r\n\r\nBackend (Fastify + @google/genai, /api/medibot):\r\n- Gemini client (server-side key only), nurse-p",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(medibot): AI health guide assistant (Gemini) for patients\nAdd \"Medibot\", a \u2026",
+          "title": "feat(medibot): AI health guide assistant (Gemini) for patients\nAdd \"Medibot\", a …",
           "url": "https://github.com/dilaneeshvaran/pa_2025_4iw/pull/141",
           "date": "2026-07-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -109,13 +115,13 @@
     },
     {
       "id": "l505",
-      "text": "feat: publish WINGS Nurse Practitioner build kit\n## Summary\n\nPublishes Lane 06 Nurse Practitioner WINGS as a governed, USA-only self-install Hermes build kit and synchronizes the branch with current `main`.\n\nExact candidate:\n\n- head: `4cbac7521ea03eb861a58ed7a3f3611a8866ac6e`\n- tree: `c53e53a442ee2754b776fc63c489a5a80ae8b052`\n- PR base / merge bas\n<!-- BUGBOT_FREE_TIER_DISABLED_UPSELL -->\nBugbot is not enabled for your account, so this pull request was not reviewed.\n\nEnable Bugbot in the [Cursor\u2026",
+      "text": "feat: publish WINGS Nurse Practitioner build kit\n## Summary\n\nPublishes Lane 06 Nurse Practitioner WINGS as a governed, USA-only self-install Hermes build kit and synchronizes the branch with current `main`.\n\nExact candidate:\n\n- head: `4cbac7521ea03eb861a58ed7a3f3611a8866ac6e`\n- tree: `c53e53a442ee2754b776fc63c489a5a80ae8b052`\n- PR base / merge bas\n<!-- BUGBOT_FREE_TIER_DISABLED_UPSELL -->\nBugbot is not enabled for your account, so this pull request was not reviewed.\n\nEnable Bugbot in the [Cursor…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: publish WINGS Nurse Practitioner build kit\n## Summary\n\nPublishes Lane 06 N\u2026",
+          "title": "feat: publish WINGS Nurse Practitioner build kit\n## Summary\n\nPublishes Lane 06 N…",
           "url": "https://github.com/AI-Nurse-Solutions/ai-operating-system-heart-of-a-nurse/pull/54",
           "date": "2026-07-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -130,13 +136,13 @@
     },
     {
       "id": "l506",
-      "text": "feat: publish DISCOVER research innovation lane\n## Decision\n\nPublish DISCOVER as a standalone, interdisciplinary Healthcare Research & Innovation Leader Complete AI OS lane within Nurse AI OS.\n\n## What this adds\n\n- `/healthcare-research-innovation-leaders/` public route\n- privacy-enhanced YouTube Short embed (`o6fRkTt12zU`) on the lane and homepa\n<!-- BUGBOT_FREE_TIER_DISABLED_UPSELL -->\nBugbot is not enabled for your account, so this pull request was not reviewed.\n\nEnable Bugbot in the [Cursor \u2026",
+      "text": "feat: publish DISCOVER research innovation lane\n## Decision\n\nPublish DISCOVER as a standalone, interdisciplinary Healthcare Research & Innovation Leader Complete AI OS lane within Nurse AI OS.\n\n## What this adds\n\n- `/healthcare-research-innovation-leaders/` public route\n- privacy-enhanced YouTube Short embed (`o6fRkTt12zU`) on the lane and homepa\n<!-- BUGBOT_FREE_TIER_DISABLED_UPSELL -->\nBugbot is not enabled for your account, so this pull request was not reviewed.\n\nEnable Bugbot in the [Cursor …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: publish DISCOVER research innovation lane\n## Decision\n\nPublish DISCOVER as\u2026",
+          "title": "feat: publish DISCOVER research innovation lane\n## Decision\n\nPublish DISCOVER as…",
           "url": "https://github.com/AI-Nurse-Solutions/ai-operating-system-heart-of-a-nurse/pull/39",
           "date": "2026-07-17",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -151,13 +157,13 @@
     },
     {
       "id": "l507",
-      "text": "feat: add homepage role video series\n## Summary\n- add Nursing Student, Nurse Manager, and Nurse Practitioner videos immediately after the existing homepage Short\n- preserve the original Short at 9:16 and render the three new landscape videos at their native 16:9 ratio\n- display the role videos in one row on desktop and in the requested\n<!-- BUGBOT_FREE_TIER_DISABLED_UPSELL -->\nBugbot is not enabled for your account, so this pull request was not reviewed.\n\nEnable Bugbot in the [Cursor dashboard](\u2026",
+      "text": "feat: add homepage role video series\n## Summary\n- add Nursing Student, Nurse Manager, and Nurse Practitioner videos immediately after the existing homepage Short\n- preserve the original Short at 9:16 and render the three new landscape videos at their native 16:9 ratio\n- display the role videos in one row on desktop and in the requested\n<!-- BUGBOT_FREE_TIER_DISABLED_UPSELL -->\nBugbot is not enabled for your account, so this pull request was not reviewed.\n\nEnable Bugbot in the [Cursor dashboard](…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: add homepage role video series\n## Summary\n- add Nursing Student, Nurse Man\u2026",
+          "title": "feat: add homepage role video series\n## Summary\n- add Nursing Student, Nurse Man…",
           "url": "https://github.com/AI-Nurse-Solutions/ai-operating-system-heart-of-a-nurse/pull/31",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -172,13 +178,13 @@
     },
     {
       "id": "l508",
-      "text": "nb: when-ai-breaks/epic-sepsis-model - Epic's sepsis alarm missed two-thirds of the patients it was built to catch\n```nb-meta\nseries: when-ai-breaks\nslug: epic-sepsis-model\nmode: open\ntemplate: lesson\ndate: '2026-07-29'\ntitle: Epic's sepsis alarm missed two-thirds of the patients it was built to catch\norder: null\n```\n\n## Task\n\n<details><summary>Full artifact</summary>\n\n````text\n# Commission: when-ai-breaks/epic-\n## The editor\n```\nBLOCK: 0\nWARN:  0\nverdict: PUBLISHABLE\nrender probe ok: 390px view\u2026",
+      "text": "nb: when-ai-breaks/epic-sepsis-model - Epic's sepsis alarm missed two-thirds of the patients it was built to catch\n```nb-meta\nseries: when-ai-breaks\nslug: epic-sepsis-model\nmode: open\ntemplate: lesson\ndate: '2026-07-29'\ntitle: Epic's sepsis alarm missed two-thirds of the patients it was built to catch\norder: null\n```\n\n## Task\n\n<details><summary>Full artifact</summary>\n\n````text\n# Commission: when-ai-breaks/epic-\n## The editor\n```\nBLOCK: 0\nWARN:  0\nverdict: PUBLISHABLE\nrender probe ok: 390px view…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "nb: when-ai-breaks/epic-sepsis-model - Epic's sepsis alarm missed two-thirds of \u2026",
+          "title": "nb: when-ai-breaks/epic-sepsis-model - Epic's sepsis alarm missed two-thirds of …",
           "url": "https://github.com/the-nightly-build-example/the-nightly-build/pull/88",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -193,13 +199,13 @@
     },
     {
       "id": "l509",
-      "text": "[radar] FemTech Radar \u2013 2026-W27\n### Editor Note\n\nThis week, the FemTech landscape highlights regulatory shifts, expanded access, and new research tools. Industry news covers FDA headlines, access challenges, and community-driven health initiatives. Research advances include open benchmarks for maternal health AI and robust, on-dev",
+      "text": "[radar] FemTech Radar – 2026-W27\n### Editor Note\n\nThis week, the FemTech landscape highlights regulatory shifts, expanded access, and new research tools. Industry news covers FDA headlines, access challenges, and community-driven health initiatives. Research advances include open benchmarks for maternal health AI and robust, on-dev",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[radar] FemTech Radar \u2013 2026-W27\n### Editor Note\n\nThis week, the FemTech landsca\u2026",
+          "title": "[radar] FemTech Radar – 2026-W27\n### Editor Note\n\nThis week, the FemTech landsca…",
           "url": "https://github.com/ChanMeng666/femtech-radar/issues/5",
           "date": "2026-06-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -220,7 +226,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "PulseCare AI\n# PulseCare AI: The Autonomous Healthcare Orchestration Layer\n\n## 1\u2026",
+          "title": "PulseCare AI\n# PulseCare AI: The Autonomous Healthcare Orchestration Layer\n\n## 1…",
           "url": "https://github.com/TSAMBALI/project/issues/52",
           "date": "2026-04-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -235,13 +241,13 @@
     },
     {
       "id": "l511",
-      "text": "[RegisterSoftware] Sick and wrong: Ontario auditors find doctors' AI note takers routinely blow basic facts\nThe AI systems approved for Ontario healthcare providers routinely missed critical details, inserted incorrect information, and hallucinated content that neither patients nor clinicians mentioned, according to a provincial audit of 20 approved vendors\u2019 systems. The findings come from the Office of",
+      "text": "[RegisterSoftware] Sick and wrong: Ontario auditors find doctors' AI note takers routinely blow basic facts\nThe AI systems approved for Ontario healthcare providers routinely missed critical details, inserted incorrect information, and hallucinated content that neither patients nor clinicians mentioned, according to a provincial audit of 20 approved vendors’ systems. The findings come from the Office of",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[RegisterSoftware] Sick and wrong: Ontario auditors find doctors' AI note takers\u2026",
+          "title": "[RegisterSoftware] Sick and wrong: Ontario auditors find doctors' AI note takers…",
           "url": "https://github.com/SecOpsNews/news/issues/68757",
           "date": "2026-05-14",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -256,13 +262,13 @@
     },
     {
       "id": "l512",
-      "text": "fix: handle same-page sidebar clicks without navigation\n## Proposed Changes\n\n- Prevent sidebar items from re-navigating when the user clicks the link for the page they are already on.\n- Close the mobile sidebar sheet when the selected top-level page is tapped again, matching the expected appointments behavior.\n- Revert the unnecessary selected-link click\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: review paused by coderabbit.ai -\u2026",
+      "text": "fix: handle same-page sidebar clicks without navigation\n## Proposed Changes\n\n- Prevent sidebar items from re-navigating when the user clicks the link for the page they are already on.\n- Close the mobile sidebar sheet when the selected top-level page is tapped again, matching the expected appointments behavior.\n- Revert the unnecessary selected-link click\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: review paused by coderabbit.ai -…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "fix: handle same-page sidebar clicks without navigation\n## Proposed Changes\n\n- P\u2026",
+          "title": "fix: handle same-page sidebar clicks without navigation\n## Proposed Changes\n\n- P…",
           "url": "https://github.com/ohcnetwork/care_fe/pull/16314",
           "date": "2026-04-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -277,13 +283,13 @@
     },
     {
       "id": "l513",
-      "text": "index.html\n<!DOCTYPE html>\n\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>AI Landscape Assessment \u2014 May 2026</title>\n<link href=\"https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=IBM+Plex+Sans:wght@300;400;500;600;700",
+      "text": "index.html\n<!DOCTYPE html>\n\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>AI Landscape Assessment — May 2026</title>\n<link href=\"https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=IBM+Plex+Sans:wght@300;400;500;600;700",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "index.html\n<!DOCTYPE html>\n\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta\u2026",
+          "title": "index.html\n<!DOCTYPE html>\n\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta…",
           "url": "https://github.com/tmin77/May-2026-AI-Landscape-Assessment/issues/1",
           "date": "2026-05-08",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -298,13 +304,13 @@
     },
     {
       "id": "l514",
-      "text": "Aegis Health: Multi-Agent Intelligence\n# Aegis Health: The Strategic Human\u2013AI Healthcare Orchestrator\n\n## 1. Executive Summary & Inspiration\nThe modern healthcare landscape is defined by an information paradox: we have more clinical data than ever, yet the journey from \"data\" to \"actionable roadmap\" remains fraught with friction. **Aegis",
+      "text": "Aegis Health: Multi-Agent Intelligence\n# Aegis Health: The Strategic Human–AI Healthcare Orchestrator\n\n## 1. Executive Summary & Inspiration\nThe modern healthcare landscape is defined by an information paradox: we have more clinical data than ever, yet the journey from \"data\" to \"actionable roadmap\" remains fraught with friction. **Aegis",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Aegis Health: Multi-Agent Intelligence\n# Aegis Health: The Strategic Human\u2013AI He\u2026",
+          "title": "Aegis Health: Multi-Agent Intelligence\n# Aegis Health: The Strategic Human–AI He…",
           "url": "https://github.com/TSAMBALI/project/issues/46",
           "date": "2026-04-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -319,13 +325,13 @@
     },
     {
       "id": "l515",
-      "text": "\ud83d\ude80 Compete Pulse Pulse: 20 New Updates (2026-04-22 to 2026-04-23)\n# \ud83d\ude80 Compete Pulse Field Pulse\n**Pulse Period:** 2026-04-22 to 2026-04-23\n\n**Generated on:** 2026-04-23 17:36:06 PST\n\n---\n\n## \ud83c\udfaf Executive Synthesis\n> The primary competitive shift is from building bigger foundational models to deploying sophisticated AI \"agents\" that automate complex tasks directly w",
+      "text": "🚀 Compete Pulse Pulse: 20 New Updates (2026-04-22 to 2026-04-23)\n# 🚀 Compete Pulse Field Pulse\n**Pulse Period:** 2026-04-22 to 2026-04-23\n\n**Generated on:** 2026-04-23 17:36:06 PST\n\n---\n\n## 🎯 Executive Synthesis\n> The primary competitive shift is from building bigger foundational models to deploying sophisticated AI \"agents\" that automate complex tasks directly w",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\ude80 Compete Pulse Pulse: 20 New Updates (2026-04-22 to 2026-04-23)\n# \ud83d\ude80 Compete Pul\u2026",
+          "title": "🚀 Compete Pulse Pulse: 20 New Updates (2026-04-22 to 2026-04-23)\n# 🚀 Compete Pul…",
           "url": "https://github.com/enriquekalven/compete-pulse/issues/49",
           "date": "2026-04-23",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -529,13 +535,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -550,13 +556,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -739,13 +745,13 @@
     },
     {
       "id": "l535",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -781,13 +787,13 @@
     },
     {
       "id": "l537",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -823,13 +829,13 @@
     },
     {
       "id": "l539",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -844,13 +850,13 @@
     },
     {
       "id": "l540",
-      "text": "What AI tools do nurse practitioners recommend?\nI&#39;m a family nurse practitioner, and I&#39;ve been asking a few physicians I work with if theyhave any recommendations for AI tools they actually use for charting or quick lookups.I&#39;ve gotten a handful of suggestions and have been reading up on them whenever Ihave some downtime between shifts. The thing is, despite the fact that I\u2019ve been seeing a lot about AI assistant tools for themedical field and I think they seem really promising and h\u2026",
+      "text": "What AI tools do nurse practitioners recommend?\nI&#39;m a family nurse practitioner, and I&#39;ve been asking a few physicians I work with if theyhave any recommendations for AI tools they actually use for charting or quick lookups.I&#39;ve gotten a handful of suggestions and have been reading up on them whenever Ihave some downtime between shifts. The thing is, despite the fact that I’ve been seeing a lot about AI assistant tools for themedical field and I think they seem really promising and h…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "What AI tools do nurse practitioners recommend?\nI&#39;m a family nurse practitio\u2026",
+          "title": "What AI tools do nurse practitioners recommend?\nI&#39;m a family nurse practitio…",
           "url": "https://www.reddit.com/r/nursepractitioner/comments/1vhz5jc/what_ai_tools_do_nurse_practitioners_recommend/",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -871,7 +877,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Nurse Practitioners at Mercor - AI Training Job\nhttps://ift.tt/kHxhrnD &#32; sub\u2026",
+          "title": "Nurse Practitioners at Mercor - AI Training Job\nhttps://ift.tt/kHxhrnD &#32; sub…",
           "url": "https://www.reddit.com/r/trainAIjobs/comments/1vu0afa/nurse_practitioners_at_mercor_ai_training_job/",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -892,7 +898,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Nurse Practitioner Expert at AfterQuery - AI Training Job\nhttps://ift.tt/04cdqy9\u2026",
+          "title": "Nurse Practitioner Expert at AfterQuery - AI Training Job\nhttps://ift.tt/04cdqy9…",
           "url": "https://www.reddit.com/r/trainAIjobs/comments/1vzr1vo/nurse_practitioner_expert_at_afterquery_ai/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -928,13 +934,13 @@
     },
     {
       "id": "l544",
-      "text": "I\u2019M HIRING AI UGC AFFILIATES\n\none of my AI affiliate creators made $10K in profit month 1 \n\n - no human creator \n- no wasting samples \n- no lost time\n - no crazy health claims \n\nInstead: \n\n- Making videos below $3 per video \n- Making six figures on this one account alone\n - Helping the brand reach over $2m in lifetime sales relatively passively\n\nIf you are a UGC AI affiliate creator and you want to get trained and paid to do this \n\nI am hiring AI UGC affiliates at 150%-220% commission\n\nif you ha",
+      "text": "I’M HIRING AI UGC AFFILIATES\n\none of my AI affiliate creators made $10K in profit month 1 \n\n - no human creator \n- no wasting samples \n- no lost time\n - no crazy health claims \n\nInstead: \n\n- Making videos below $3 per video \n- Making six figures on this one account alone\n - Helping the brand reach over $2m in lifetime sales relatively passively\n\nIf you are a UGC AI affiliate creator and you want to get trained and paid to do this \n\nI am hiring AI UGC affiliates at 150%-220% commission\n\nif you ha",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I\u2019M HIRING AI UGC AFFILIATES\n\none of my AI affiliate creators made $10K in profi\u2026",
+          "title": "I’M HIRING AI UGC AFFILIATES\n\none of my AI affiliate creators made $10K in profi…",
           "url": "https://x.com/maverickecom/status/2093389576257581438",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -970,13 +976,13 @@
     },
     {
       "id": "l546",
-      "text": "GPT Image 2.0 + Seedance = a full public interview Reel, 100% AI.\n\nTwo AI people. A street interview about hair growth. Every cut, every mic pass, exactly as drawn in the storyboard.\n\nAI video still can't handle two characters interacting.\n\nMics teleport between hands, faces swap mid-cut, the crowd behind them resets every shot.\n\nFor an interview format, that's instant death. The whole format IS the interaction.\n\nSo I stopped prompting and started storyboarding:\n\n\u2192 Claude choreographs a timecode",
+      "text": "GPT Image 2.0 + Seedance = a full public interview Reel, 100% AI.\n\nTwo AI people. A street interview about hair growth. Every cut, every mic pass, exactly as drawn in the storyboard.\n\nAI video still can't handle two characters interacting.\n\nMics teleport between hands, faces swap mid-cut, the crowd behind them resets every shot.\n\nFor an interview format, that's instant death. The whole format IS the interaction.\n\nSo I stopped prompting and started storyboarding:\n\n→ Claude choreographs a timecode",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "GPT Image 2.0 + Seedance = a full public interview Reel, 100% AI.\n\nTwo AI people\u2026",
+          "title": "GPT Image 2.0 + Seedance = a full public interview Reel, 100% AI.\n\nTwo AI people…",
           "url": "https://x.com/maverickecom/status/2093388358940541281",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -991,13 +997,13 @@
     },
     {
       "id": "l547",
-      "text": "The $1m ai Amazon overview\n\nIt\u2019s like tiktok shop, but on STEROIDS https://t.co/0j9GkrC35V",
+      "text": "The $1m ai Amazon overview\n\nIt’s like tiktok shop, but on STEROIDS https://t.co/0j9GkrC35V",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The $1m ai Amazon overview\n\nIt\u2019s like tiktok shop, but on STEROIDS https://t.co/\u2026",
+          "title": "The $1m ai Amazon overview\n\nIt’s like tiktok shop, but on STEROIDS https://t.co/…",
           "url": "https://x.com/maverickecom/status/2093431129428709688",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1012,13 +1018,13 @@
     },
     {
       "id": "l548",
-      "text": "Claude + Arcads = ai viral content factory \n\nFully-realistic UGC ads \u2014 cinematic lighting, human motion, perfect pacing \u2014 all done by AI agents.\n\nProduction time: 10 minutes \nScale: instant\n\nOne AI engine that creates, tests, and scales short-form ads automatically \u2014 nonstop.\n\nIt\u2019s live. Campaigns are scaling now.\n\nI am hiring AI UGC affiliates at 150%-220% commission\n\nif you have past experience making over $10,000 per month for brands \n\nI can match you with a brand offering 150%+ commissions,",
+      "text": "Claude + Arcads = ai viral content factory \n\nFully-realistic UGC ads — cinematic lighting, human motion, perfect pacing — all done by AI agents.\n\nProduction time: 10 minutes \nScale: instant\n\nOne AI engine that creates, tests, and scales short-form ads automatically — nonstop.\n\nIt’s live. Campaigns are scaling now.\n\nI am hiring AI UGC affiliates at 150%-220% commission\n\nif you have past experience making over $10,000 per month for brands \n\nI can match you with a brand offering 150%+ commissions,",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Claude + Arcads = ai viral content factory \n\nFully-realistic UGC ads \u2014 cinematic\u2026",
+          "title": "Claude + Arcads = ai viral content factory \n\nFully-realistic UGC ads — cinematic…",
           "url": "https://x.com/maverickecom/status/2093390625714417798",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1081,7 +1087,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I made a four-minute Homer film with AI in eight days. The hardest part was know\u2026",
+          "title": "I made a four-minute Homer film with AI in eight days. The hardest part was know…",
           "url": "https://x.com/loulou_/status/2092471909740868040",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1102,7 +1108,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Satya Nadella says NHS England is rolling out Microsoft 365 Copilot to more than\u2026",
+          "title": "Satya Nadella says NHS England is rolling out Microsoft 365 Copilot to more than…",
           "url": "https://x.com/martinvars/status/2063702587229003799",
           "date": "2026-06-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1117,13 +1123,13 @@
     },
     {
       "id": "l553",
-      "text": "Overview of My Orientation last week, CTECH PORT-HARCOURT. \n\nA week ago, if you had asked me\nwhat excited me most about this opportunity, I would've said the \u20a6100,000 monthly stipend.\n\nToday, I honestly think that's the least interesting part.\nI spent the last week in an AI-native engineering orientation, and somewhere between conversations on ethics, discipline, consistency, engineering thinking, problem-solving and Python, my perspective quietly changed.\n\nThe first thing they taught us wasn't",
+      "text": "Overview of My Orientation last week, CTECH PORT-HARCOURT. \n\nA week ago, if you had asked me\nwhat excited me most about this opportunity, I would've said the ₦100,000 monthly stipend.\n\nToday, I honestly think that's the least interesting part.\nI spent the last week in an AI-native engineering orientation, and somewhere between conversations on ethics, discipline, consistency, engineering thinking, problem-solving and Python, my perspective quietly changed.\n\nThe first thing they taught us wasn't",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Overview of My Orientation last week, CTECH PORT-HARCOURT. \n\nA week ago, if you \u2026",
+          "title": "Overview of My Orientation last week, CTECH PORT-HARCOURT. \n\nA week ago, if you …",
           "url": "https://x.com/Pre_Morningstar/status/2076412218543931403",
           "date": "2026-07-12",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1186,7 +1192,7 @@
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Nursing boom grows as AI reshapes workforce and healthcare demand rises\nA growin\u2026",
+          "title": "Nursing boom grows as AI reshapes workforce and healthcare demand rises\nA growin…",
           "url": "https://www.youtube.com/watch?v=CdpsctrtD8I",
           "date": "2026-04-22",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1201,7 +1207,7 @@
     },
     {
       "id": "l457",
-      "text": "Nurse Practitioner, Remote Australia \u2014 Eucalyptus (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Nurse Practitioner, Remote Australia — Eucalyptus (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1222,7 +1228,7 @@
     },
     {
       "id": "l458",
-      "text": "Nurse Practitioner \u2014 UnitingCare Queensland (Brisbane, Queensland, Australia). Posted 9 hours ago.",
+      "text": "Nurse Practitioner — UnitingCare Queensland (Brisbane, Queensland, Australia). Posted 9 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1243,7 +1249,7 @@
     },
     {
       "id": "l459",
-      "text": "Nurse Practitioner - Bayside Emergency Department, Mental Health Team \u2014 Metro South Health (South Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Nurse Practitioner - Bayside Emergency Department, Mental Health Team — Metro South Health (South Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1264,7 +1270,7 @@
     },
     {
       "id": "l460",
-      "text": "Delirium Nurse Practitioner \u2014 The Royal Melbourne Hospital (Melbourne, Victoria, Australia). Posted 8 hours ago.",
+      "text": "Delirium Nurse Practitioner — The Royal Melbourne Hospital (Melbourne, Victoria, Australia). Posted 8 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1285,7 +1291,7 @@
     },
     {
       "id": "l461",
-      "text": "Nurse Practitioner (Women's Health) \u2014 Fresh Clinics (Australia). Posted 1 day ago.",
+      "text": "Nurse Practitioner (Women's Health) — Fresh Clinics (Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1306,7 +1312,7 @@
     },
     {
       "id": "l462",
-      "text": "Nurse Practitioner \u2014 Serco (Turner, Australian Capital Territory, Australia). Posted 2 weeks ago.",
+      "text": "Nurse Practitioner — Serco (Turner, Australian Capital Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1327,7 +1333,7 @@
     },
     {
       "id": "l463",
-      "text": "Nurse Practitioner \u2014 Mosh | Moshy (Australia). Posted 3 weeks ago.",
+      "text": "Nurse Practitioner — Mosh | Moshy (Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1348,7 +1354,7 @@
     },
     {
       "id": "l464",
-      "text": "Nurse Practitioner \u2014 Serco (Townsville, Queensland, Australia). Posted 1 week ago.",
+      "text": "Nurse Practitioner — Serco (Townsville, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1369,7 +1375,7 @@
     },
     {
       "id": "l465",
-      "text": "Nurse Practitioner (Orthopaedic) \u2014 Mantraraj Medical Centre (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Nurse Practitioner (Orthopaedic) — Mantraraj Medical Centre (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1390,7 +1396,7 @@
     },
     {
       "id": "l466",
-      "text": "Nurse Practitioner - Nareen Gardens \u2014 Uniting (Manly, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Nurse Practitioner - Nareen Gardens — Uniting (Manly, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1411,13 +1417,13 @@
     },
     {
       "id": "l567",
-      "text": "feat: add governed NP Community Preview funnel\n## Summary\n\n- Add a dedicated `/nurse-practitioner.html` conversion funnel for nurse practitioners who have already experimented with AI but need a safer, repeatable personal working method.\n- Add a browser-local four-control Personal AI Practice Card builder for focus, interaction style, evidence d\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.google\u2026",
+      "text": "feat: add governed NP Community Preview funnel\n## Summary\n\n- Add a dedicated `/nurse-practitioner.html` conversion funnel for nurse practitioners who have already experimented with AI but need a safer, repeatable personal working method.\n- Add a browser-local four-control Personal AI Practice Card builder for focus, interaction style, evidence d\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.google…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: add governed NP Community Preview funnel\n## Summary\n\n- Add a dedicated `/n\u2026",
+          "title": "feat: add governed NP Community Preview funnel\n## Summary\n\n- Add a dedicated `/n…",
           "url": "https://github.com/AI-Nurse-Solutions/ai-operating-system-heart-of-a-nurse/pull/64",
           "date": "2026-07-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1432,13 +1438,13 @@
     },
     {
       "id": "l568",
-      "text": "feat: publish WINGS Nurse Practitioner build kit\n## Summary\n\nPublishes Lane 06 Nurse Practitioner WINGS as a governed, USA-only self-install Hermes build kit and synchronizes the branch with current `main`.\n\nExact candidate:\n\n- head: `4cbac7521ea03eb861a58ed7a3f3611a8866ac6e`\n- tree: `c53e53a442ee2754b776fc63c489a5a80ae8b052`\n- PR base / merge bas\n<!-- BUGBOT_FREE_TIER_DISABLED_UPSELL -->\nBugbot is not enabled for your account, so this pull request was not reviewed.\n\nEnable Bugbot in the [Cursor\u2026",
+      "text": "feat: publish WINGS Nurse Practitioner build kit\n## Summary\n\nPublishes Lane 06 Nurse Practitioner WINGS as a governed, USA-only self-install Hermes build kit and synchronizes the branch with current `main`.\n\nExact candidate:\n\n- head: `4cbac7521ea03eb861a58ed7a3f3611a8866ac6e`\n- tree: `c53e53a442ee2754b776fc63c489a5a80ae8b052`\n- PR base / merge bas\n<!-- BUGBOT_FREE_TIER_DISABLED_UPSELL -->\nBugbot is not enabled for your account, so this pull request was not reviewed.\n\nEnable Bugbot in the [Cursor…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: publish WINGS Nurse Practitioner build kit\n## Summary\n\nPublishes Lane 06 N\u2026",
+          "title": "feat: publish WINGS Nurse Practitioner build kit\n## Summary\n\nPublishes Lane 06 N…",
           "url": "https://github.com/AI-Nurse-Solutions/ai-operating-system-heart-of-a-nurse/pull/54",
           "date": "2026-07-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1453,13 +1459,13 @@
     },
     {
       "id": "l569",
-      "text": "feat: publish DISCOVER research innovation lane\n## Decision\n\nPublish DISCOVER as a standalone, interdisciplinary Healthcare Research & Innovation Leader Complete AI OS lane within Nurse AI OS.\n\n## What this adds\n\n- `/healthcare-research-innovation-leaders/` public route\n- privacy-enhanced YouTube Short embed (`o6fRkTt12zU`) on the lane and homepa\n<!-- BUGBOT_FREE_TIER_DISABLED_UPSELL -->\nBugbot is not enabled for your account, so this pull request was not reviewed.\n\nEnable Bugbot in the [Cursor \u2026",
+      "text": "feat: publish DISCOVER research innovation lane\n## Decision\n\nPublish DISCOVER as a standalone, interdisciplinary Healthcare Research & Innovation Leader Complete AI OS lane within Nurse AI OS.\n\n## What this adds\n\n- `/healthcare-research-innovation-leaders/` public route\n- privacy-enhanced YouTube Short embed (`o6fRkTt12zU`) on the lane and homepa\n<!-- BUGBOT_FREE_TIER_DISABLED_UPSELL -->\nBugbot is not enabled for your account, so this pull request was not reviewed.\n\nEnable Bugbot in the [Cursor …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: publish DISCOVER research innovation lane\n## Decision\n\nPublish DISCOVER as\u2026",
+          "title": "feat: publish DISCOVER research innovation lane\n## Decision\n\nPublish DISCOVER as…",
           "url": "https://github.com/AI-Nurse-Solutions/ai-operating-system-heart-of-a-nurse/pull/39",
           "date": "2026-07-17",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1474,13 +1480,13 @@
     },
     {
       "id": "l570",
-      "text": "feat: add homepage role video series\n## Summary\n- add Nursing Student, Nurse Manager, and Nurse Practitioner videos immediately after the existing homepage Short\n- preserve the original Short at 9:16 and render the three new landscape videos at their native 16:9 ratio\n- display the role videos in one row on desktop and in the requested\n<!-- BUGBOT_FREE_TIER_DISABLED_UPSELL -->\nBugbot is not enabled for your account, so this pull request was not reviewed.\n\nEnable Bugbot in the [Cursor dashboard](\u2026",
+      "text": "feat: add homepage role video series\n## Summary\n- add Nursing Student, Nurse Manager, and Nurse Practitioner videos immediately after the existing homepage Short\n- preserve the original Short at 9:16 and render the three new landscape videos at their native 16:9 ratio\n- display the role videos in one row on desktop and in the requested\n<!-- BUGBOT_FREE_TIER_DISABLED_UPSELL -->\nBugbot is not enabled for your account, so this pull request was not reviewed.\n\nEnable Bugbot in the [Cursor dashboard](…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: add homepage role video series\n## Summary\n- add Nursing Student, Nurse Man\u2026",
+          "title": "feat: add homepage role video series\n## Summary\n- add Nursing Student, Nurse Man…",
           "url": "https://github.com/AI-Nurse-Solutions/ai-operating-system-heart-of-a-nurse/pull/31",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1495,13 +1501,13 @@
     },
     {
       "id": "l571",
-      "text": "nb: when-ai-breaks/epic-sepsis-model - Epic's sepsis alarm missed two-thirds of the patients it was built to catch\n```nb-meta\nseries: when-ai-breaks\nslug: epic-sepsis-model\nmode: open\ntemplate: lesson\ndate: '2026-07-29'\ntitle: Epic's sepsis alarm missed two-thirds of the patients it was built to catch\norder: null\n```\n\n## Task\n\n<details><summary>Full artifact</summary>\n\n````text\n# Commission: when-ai-breaks/epic-\n## The editor\n```\nBLOCK: 0\nWARN:  0\nverdict: PUBLISHABLE\nrender probe ok: 390px view\u2026",
+      "text": "nb: when-ai-breaks/epic-sepsis-model - Epic's sepsis alarm missed two-thirds of the patients it was built to catch\n```nb-meta\nseries: when-ai-breaks\nslug: epic-sepsis-model\nmode: open\ntemplate: lesson\ndate: '2026-07-29'\ntitle: Epic's sepsis alarm missed two-thirds of the patients it was built to catch\norder: null\n```\n\n## Task\n\n<details><summary>Full artifact</summary>\n\n````text\n# Commission: when-ai-breaks/epic-\n## The editor\n```\nBLOCK: 0\nWARN:  0\nverdict: PUBLISHABLE\nrender probe ok: 390px view…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "nb: when-ai-breaks/epic-sepsis-model - Epic's sepsis alarm missed two-thirds of \u2026",
+          "title": "nb: when-ai-breaks/epic-sepsis-model - Epic's sepsis alarm missed two-thirds of …",
           "url": "https://github.com/the-nightly-build-example/the-nightly-build/pull/88",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1516,13 +1522,13 @@
     },
     {
       "id": "l572",
-      "text": "fix: handle same-page sidebar clicks without navigation\n## Proposed Changes\n\n- Prevent sidebar items from re-navigating when the user clicks the link for the page they are already on.\n- Close the mobile sidebar sheet when the selected top-level page is tapped again, matching the expected appointments behavior.\n- Revert the unnecessary selected-link click\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: review paused by coderabbit.ai -\u2026",
+      "text": "fix: handle same-page sidebar clicks without navigation\n## Proposed Changes\n\n- Prevent sidebar items from re-navigating when the user clicks the link for the page they are already on.\n- Close the mobile sidebar sheet when the selected top-level page is tapped again, matching the expected appointments behavior.\n- Revert the unnecessary selected-link click\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: review paused by coderabbit.ai -…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "fix: handle same-page sidebar clicks without navigation\n## Proposed Changes\n\n- P\u2026",
+          "title": "fix: handle same-page sidebar clicks without navigation\n## Proposed Changes\n\n- P…",
           "url": "https://github.com/ohcnetwork/care_fe/pull/16314",
           "date": "2026-04-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1537,13 +1543,13 @@
     },
     {
       "id": "l573",
-      "text": "What AI tools do nurse practitioners recommend?\nI&#39;m a family nurse practitioner, and I&#39;ve been asking a few physicians I work with if theyhave any recommendations for AI tools they actually use for charting or quick lookups.I&#39;ve gotten a handful of suggestions and have been reading up on them whenever Ihave some downtime between shifts. The thing is, despite the fact that I\u2019ve been seeing a lot about AI assistant tools for themedical field and I think they seem really promising and h\u2026",
+      "text": "What AI tools do nurse practitioners recommend?\nI&#39;m a family nurse practitioner, and I&#39;ve been asking a few physicians I work with if theyhave any recommendations for AI tools they actually use for charting or quick lookups.I&#39;ve gotten a handful of suggestions and have been reading up on them whenever Ihave some downtime between shifts. The thing is, despite the fact that I’ve been seeing a lot about AI assistant tools for themedical field and I think they seem really promising and h…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "What AI tools do nurse practitioners recommend?\nI&#39;m a family nurse practitio\u2026",
+          "title": "What AI tools do nurse practitioners recommend?\nI&#39;m a family nurse practitio…",
           "url": "https://www.reddit.com/r/nursepractitioner/comments/1vhz5jc/what_ai_tools_do_nurse_practitioners_recommend/",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1637,5 +1643,8 @@
   },
   "confidence": "high",
   "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "researchMethod": "empirical-five-lane-v1",
+  "notes": [
+    "L1/L2 fabricated template claims removed and replaced with genuine regulator/JSA sources on 2026-08-29 (Chief-of-Staff autoloop remediation)."
+  ]
 }

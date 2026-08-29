@@ -19,56 +19,6 @@
   "programs": [],
   "claims": [
     {
-      "id": "29-1131-01",
-      "text": "National peak professional bodies and statutory regulators governing Veterinarians enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Veterinarians",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Veterinarians",
-          "url": "https://www.psc.gov.au/standards/29-1131",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Veterinarians"
-        }
-      ],
-      "scope": "Australian practitioners in Veterinarians across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "29-1131-02",
-      "text": "Automation of routine transactional and analytical tasks in Veterinarians heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Veterinarians",
-          "url": "https://www.jobsandskills.gov.au/research/29-1131",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Veterinarians in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Veterinarians roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
       "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
@@ -259,13 +209,13 @@
     },
     {
       "id": "l512",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -301,13 +251,13 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -469,13 +419,13 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -511,13 +461,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -553,13 +503,13 @@
     },
     {
       "id": "l526",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -574,13 +524,13 @@
     },
     {
       "id": "l527",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -595,13 +545,13 @@
     },
     {
       "id": "l528",
-      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c\u2026",
+      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public \u2026",
+          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public …",
           "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vnsz0y/jpmorgan_ceo_jamie_dimon_declares_ai_deployment/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -616,13 +566,13 @@
     },
     {
       "id": "l529",
-      "text": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]",
+      "text": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&\u2026",
+          "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&…",
           "url": "https://www.reddit.com/r/technology/comments/1vzb4xo/ai_agents_meant_to_replace_meta_workers_made/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -637,13 +587,13 @@
     },
     {
       "id": "l530",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the ram for a motherboard upgrade or a cor\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the ram for a motherboard upgrade or a cor…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcmasterrace/comments/1vfe28b/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -658,13 +608,13 @@
     },
     {
       "id": "l531",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcgaming/comments/1vfe3ru/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -685,7 +635,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecas\u2026",
+          "title": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecas…",
           "url": "https://www.reddit.com/r/SEO/comments/1vxkjla/sam_altman_concedes_he_overestimated_ai/",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -706,7 +656,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI job disruption priced into man's compensation payout in first known case\n&#32\u2026",
+          "title": "AI job disruption priced into man's compensation payout in first known case\n&#32…",
           "url": "https://www.reddit.com/r/australia/comments/1vv43m6/ai_job_disruption_priced_into_mans_compensation/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -727,7 +677,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32\u2026",
+          "title": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32…",
           "url": "https://www.reddit.com/r/technology/comments/1voms55/onlyfans_investor_says_ai_cant_disrupt_adult/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -742,13 +692,13 @@
     },
     {
       "id": "l535",
-      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k\u2026",
+      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A\u2026",
+          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A…",
           "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -763,13 +713,13 @@
     },
     {
       "id": "l536",
-      "text": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let\u2019s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
+      "text": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let’s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market \u2026",
+          "title": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market …",
           "url": "https://www.reddit.com/r/Superstonk/comments/1vaxmve/for_my_dorito_loversyen_intervention_with_a/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -784,14 +734,14 @@
     },
     {
       "id": "l537",
-      "text": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]",
+      "text": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks \u2026",
-          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_\u00e0_special/",
+          "title": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks …",
+          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_à_special/",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
         }
@@ -811,7 +761,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/aiecosystem/comments/1w00i5d/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -826,13 +776,13 @@
     },
     {
       "id": "l539",
-      "text": "Pet Tooth AI by SL Labs \u2014 Beyond Dental Health\n\n\ud83e\uddb7 Oral health is more than just teeth.\n\nSL Labs designed Pet Tooth AI to go beyond identifying dental abnormalities.\n\nIts reports also organize potential systemic risks associated with oral infection:\n\n\u2764\ufe0f Cardiac disease\n\ud83e\uded8 Renal disease\n\ud83e\uddec Hepatic disease\n\ud83e\ude78 Bacteremia / sepsis\n\ud83c\udf7d Pain & reduced appetite\n\u2695\ufe0f Diabetes-related risks\n\nBy connecting dental findings with broader health risks, Pet Tooth AI can help veterinarians explain the bigger picture to",
+      "text": "Pet Tooth AI by SL Labs — Beyond Dental Health\n\n🦷 Oral health is more than just teeth.\n\nSL Labs designed Pet Tooth AI to go beyond identifying dental abnormalities.\n\nIts reports also organize potential systemic risks associated with oral infection:\n\n❤️ Cardiac disease\n🫘 Renal disease\n🧬 Hepatic disease\n🩸 Bacteremia / sepsis\n🍽 Pain & reduced appetite\n⚕️ Diabetes-related risks\n\nBy connecting dental findings with broader health risks, Pet Tooth AI can help veterinarians explain the bigger picture to",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Pet Tooth AI by SL Labs \u2014 Beyond Dental Health\n\n\ud83e\uddb7 Oral health is more than just \u2026",
+          "title": "Pet Tooth AI by SL Labs — Beyond Dental Health\n\n🦷 Oral health is more than just …",
           "url": "https://x.com/savethelife_SL/status/2092073329494728862",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -847,13 +797,13 @@
     },
     {
       "id": "l540",
-      "text": "Pet Tooth AI by SL Labs \u2014 AI Supports. Veterinarians Decide.\n\nSL Labs believes AI should enhance clinical expertise\u2014not replace it.\n\nThat's why every Pet Tooth AI report is clearly marked:\n\n\u201cDRAFT \u2014 Must be reviewed and approved by a licensed veterinarian.\u201d\n\nThe AI organizes suspected findings, severity, disease stage, systemic risks, and treatment priorities.\n\nThe veterinarian reviews the information and makes the final clinical decision.\n\nAI provides the starting point.\n\nExpertise completes th",
+      "text": "Pet Tooth AI by SL Labs — AI Supports. Veterinarians Decide.\n\nSL Labs believes AI should enhance clinical expertise—not replace it.\n\nThat's why every Pet Tooth AI report is clearly marked:\n\n“DRAFT — Must be reviewed and approved by a licensed veterinarian.”\n\nThe AI organizes suspected findings, severity, disease stage, systemic risks, and treatment priorities.\n\nThe veterinarian reviews the information and makes the final clinical decision.\n\nAI provides the starting point.\n\nExpertise completes th",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Pet Tooth AI by SL Labs \u2014 AI Supports. Veterinarians Decide.\n\nSL Labs believes A\u2026",
+          "title": "Pet Tooth AI by SL Labs — AI Supports. Veterinarians Decide.\n\nSL Labs believes A…",
           "url": "https://x.com/savethelife_SL/status/2092242174582935632",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -868,13 +818,13 @@
     },
     {
       "id": "l541",
-      "text": "Pet Tooth AI by SL Labs \u2014 From X-Ray to Report\n\nReading veterinary dental radiographs takes time, experience, and expertise.\n\nSL Labs developed Pet Tooth AI to help turn dental X-rays into structured draft reports.\n\n\ud83d\udd0d Identify suspected abnormalities\n\ud83d\udcca Assess severity\n\ud83d\udcc8 Stage disease progression\n\u2695\ufe0f Suggest treatment priorities\n\nThe veterinarian reviews, corrects, and approves the final report.\n\nAI creates the starting point.\n\nVeterinary expertise makes the final decision.\n\nhttps://t.co/6ZXhjdk7l",
+      "text": "Pet Tooth AI by SL Labs — From X-Ray to Report\n\nReading veterinary dental radiographs takes time, experience, and expertise.\n\nSL Labs developed Pet Tooth AI to help turn dental X-rays into structured draft reports.\n\n🔍 Identify suspected abnormalities\n📊 Assess severity\n📈 Stage disease progression\n⚕️ Suggest treatment priorities\n\nThe veterinarian reviews, corrects, and approves the final report.\n\nAI creates the starting point.\n\nVeterinary expertise makes the final decision.\n\nhttps://t.co/6ZXhjdk7l",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Pet Tooth AI by SL Labs \u2014 From X-Ray to Report\n\nReading veterinary dental radiog\u2026",
+          "title": "Pet Tooth AI by SL Labs — From X-Ray to Report\n\nReading veterinary dental radiog…",
           "url": "https://x.com/savethelife_SL/status/2090739201142821221",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -889,13 +839,13 @@
     },
     {
       "id": "l542",
-      "text": "AI is making veterinary workflows smarter. \ud83d\udc3e\ud83e\udd16\n\nPet Tooth AI by SL Labs turns dental X-rays into structured draft reports, helping veterinarians identify abnormalities, assess severity, and prioritize treatment.\n\nAI assists. Veterinarians decide. \u2695\ufe0f\n\n#SLLabs #PetToothAI",
+      "text": "AI is making veterinary workflows smarter. 🐾🤖\n\nPet Tooth AI by SL Labs turns dental X-rays into structured draft reports, helping veterinarians identify abnormalities, assess severity, and prioritize treatment.\n\nAI assists. Veterinarians decide. ⚕️\n\n#SLLabs #PetToothAI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI is making veterinary workflows smarter. \ud83d\udc3e\ud83e\udd16\n\nPet Tooth AI by SL Labs turns den\u2026",
+          "title": "AI is making veterinary workflows smarter. 🐾🤖\n\nPet Tooth AI by SL Labs turns den…",
           "url": "https://x.com/0x_Sinaga/status/2091595087524597965",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -916,7 +866,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "On top of that hardware layer they added AI tools that veterinarians and screeni\u2026",
+          "title": "On top of that hardware layer they added AI tools that veterinarians and screeni…",
           "url": "https://x.com/egicia666/status/2091536470595248327",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -937,7 +887,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@savethelife_SL  is quietly building real AI tools for healthcare, not just anot\u2026",
+          "title": "@savethelife_SL  is quietly building real AI tools for healthcare, not just anot…",
           "url": "https://x.com/tikakarcika/status/2092426506895245653",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -952,13 +902,13 @@
     },
     {
       "id": "l545",
-      "text": "Pet Tooth AI by SL Labs \u2014 The Future of Connected Pet Healthcare\n\nPet Tooth AI is one part of SL Labs' broader vision for AI-powered healthcare.\n\nSL Labs is building practical digital health solutions that connect:\n\n\ud83e\uddb7 Medical imaging\n\ud83e\udd16 AI-assisted interpretation\n\ud83d\udcca Healthcare data\n\u231a\ufe0f Remote monitoring\n\nPet Tooth AI will begin with pilot operations in Korea before expanding to veterinary clinics worldwide through SL Labs' global partner network.\n\nFrom AI-assisted imaging to connected pet healthcar",
+      "text": "Pet Tooth AI by SL Labs — The Future of Connected Pet Healthcare\n\nPet Tooth AI is one part of SL Labs' broader vision for AI-powered healthcare.\n\nSL Labs is building practical digital health solutions that connect:\n\n🦷 Medical imaging\n🤖 AI-assisted interpretation\n📊 Healthcare data\n⌚️ Remote monitoring\n\nPet Tooth AI will begin with pilot operations in Korea before expanding to veterinary clinics worldwide through SL Labs' global partner network.\n\nFrom AI-assisted imaging to connected pet healthcar",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Pet Tooth AI by SL Labs \u2014 The Future of Connected Pet Healthcare\n\nPet Tooth AI i\u2026",
+          "title": "Pet Tooth AI by SL Labs — The Future of Connected Pet Healthcare\n\nPet Tooth AI i…",
           "url": "https://x.com/savethelife_SL/status/2092891814571499769",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -994,13 +944,13 @@
     },
     {
       "id": "l547",
-      "text": "Pet Tooth AI by SL Labs \ud83e\uddb7\n\nIntroducing an AI-assisted solution for veterinary dental radiography.\n\nDeveloped by SL Labs, Pet Tooth AI analyzes companion animal dental X-rays and organizes suspected findings into a structured draft report.\n\n\u2022 Alveolar bone loss\n\u2022 Periodontitis\n\u2022 Tooth resorption\n\u2022 Periapical lesions\n\u2022 Calculus & gingivitis\n\nAI doesn't replace the veterinarian.\n\nIt gives them a structured starting point for clinical review.\n\nhttps://t.co/6ZXhjdk7lc\n\n#SLLabs #PetToothAI #Veterinary",
+      "text": "Pet Tooth AI by SL Labs 🦷\n\nIntroducing an AI-assisted solution for veterinary dental radiography.\n\nDeveloped by SL Labs, Pet Tooth AI analyzes companion animal dental X-rays and organizes suspected findings into a structured draft report.\n\n• Alveolar bone loss\n• Periodontitis\n• Tooth resorption\n• Periapical lesions\n• Calculus & gingivitis\n\nAI doesn't replace the veterinarian.\n\nIt gives them a structured starting point for clinical review.\n\nhttps://t.co/6ZXhjdk7lc\n\n#SLLabs #PetToothAI #Veterinary",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Pet Tooth AI by SL Labs \ud83e\uddb7\n\nIntroducing an AI-assisted solution for veterinary de\u2026",
+          "title": "Pet Tooth AI by SL Labs 🦷\n\nIntroducing an AI-assisted solution for veterinary de…",
           "url": "https://x.com/savethelife_SL/status/2089161390691057896",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1015,13 +965,13 @@
     },
     {
       "id": "l548",
-      "text": "\ud83c\udf10 Be part of the first generation of SL Labs ambassadors\n\nJoin the SL Labs Official Ambassador App and experience the XXO Smart Watch while helping shape the future of AI-powered healthcare. \n\n\ud83d\udcf7 Ambassador Program \n\ud83d\udcf7 XXO Smart Watch Experience \n\ud83d\udcf7\ufe0f Community Rewards \n\ud83d\udcf7 Build the ecosystem together \n\nThe future isn't something we wait for. \nIt's something we build together. \n\nRead More \ud83d\udc47\nhttps://t.co/T2j2mCAFOJ\n\n#SLLabs #Ambassador #XXOSmartWatch #Community",
+      "text": "🌐 Be part of the first generation of SL Labs ambassadors\n\nJoin the SL Labs Official Ambassador App and experience the XXO Smart Watch while helping shape the future of AI-powered healthcare. \n\n📷 Ambassador Program \n📷 XXO Smart Watch Experience \n📷️ Community Rewards \n📷 Build the ecosystem together \n\nThe future isn't something we wait for. \nIt's something we build together. \n\nRead More 👇\nhttps://t.co/T2j2mCAFOJ\n\n#SLLabs #Ambassador #XXOSmartWatch #Community",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83c\udf10 Be part of the first generation of SL Labs ambassadors\n\nJoin the SL Labs Offic\u2026",
+          "title": "🌐 Be part of the first generation of SL Labs ambassadors\n\nJoin the SL Labs Offic…",
           "url": "https://x.com/savethelife_SL/status/2089159241479426399",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1042,7 +992,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@DonaldBestCA @VGircys And they all use AI to do their jobs. Also be very carefu\u2026",
+          "title": "@DonaldBestCA @VGircys And they all use AI to do their jobs. Also be very carefu…",
           "url": "https://x.com/bobblesTSmith/status/2091879880468353268",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1057,13 +1007,13 @@
     },
     {
       "id": "l550",
-      "text": "@savethelife_SL AI as the starting point, veterinarians as the final decision-makers. That\u2019s the right approach \ud83d\udc4f\ud83d\udc3e",
+      "text": "@savethelife_SL AI as the starting point, veterinarians as the final decision-makers. That’s the right approach 👏🐾",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@savethelife_SL AI as the starting point, veterinarians as the final decision-ma\u2026",
+          "title": "@savethelife_SL AI as the starting point, veterinarians as the final decision-ma…",
           "url": "https://x.com/anjarfals007/status/2091750976957133226",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1078,13 +1028,13 @@
     },
     {
       "id": "l551",
-      "text": "2/ \ud83e\uddb7 Pet Tooth AI\n\u201cAI Supports. Veterinarians Decide.\u201d\nI like this approach because AI is being used as a decision-support tool, rather than trying to replace veterinary professionals.\nThat human + AI collaboration is what caught my attention.",
+      "text": "2/ 🦷 Pet Tooth AI\n“AI Supports. Veterinarians Decide.”\nI like this approach because AI is being used as a decision-support tool, rather than trying to replace veterinary professionals.\nThat human + AI collaboration is what caught my attention.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "2/ \ud83e\uddb7 Pet Tooth AI\n\u201cAI Supports. Veterinarians Decide.\u201d\nI like this approach beca\u2026",
+          "title": "2/ 🦷 Pet Tooth AI\n“AI Supports. Veterinarians Decide.”\nI like this approach beca…",
           "url": "https://x.com/VirgileWeb/status/2092867652347662836",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1099,13 +1049,13 @@
     },
     {
       "id": "l552",
-      "text": "1/ \ud83e\uddf5 How can AI make a real impact in healthcare?\nI\u2019ve been looking into Pet Tooth AI by SL Labs and found the idea pretty interesting. \nAI supports the analysis process, while veterinarians make the final decisions.\n@\u200bsavethelife_SL https://t.co/BMFhPdO488",
+      "text": "1/ 🧵 How can AI make a real impact in healthcare?\nI’ve been looking into Pet Tooth AI by SL Labs and found the idea pretty interesting. \nAI supports the analysis process, while veterinarians make the final decisions.\n@​savethelife_SL https://t.co/BMFhPdO488",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "1/ \ud83e\uddf5 How can AI make a real impact in healthcare?\nI\u2019ve been looking into Pet Too\u2026",
+          "title": "1/ 🧵 How can AI make a real impact in healthcare?\nI’ve been looking into Pet Too…",
           "url": "https://x.com/VirgileWeb/status/2092867646991524179",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1120,13 +1070,13 @@
     },
     {
       "id": "l553",
-      "text": "@savethelife_SL\n\u00b7\nAug 25\nPet Tooth AI by SL Labs \u2014 AI Supports. Veterinarians Decide.  SL Labs believes AI should enhance clinical expertise\u2014not replace it.",
+      "text": "@savethelife_SL\n·\nAug 25\nPet Tooth AI by SL Labs — AI Supports. Veterinarians Decide.  SL Labs believes AI should enhance clinical expertise—not replace it.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@savethelife_SL\n\u00b7\nAug 25\nPet Tooth AI by SL Labs \u2014 AI Supports. Veterinarians De\u2026",
+          "title": "@savethelife_SL\n·\nAug 25\nPet Tooth AI by SL Labs — AI Supports. Veterinarians De…",
           "url": "https://x.com/exchange_unique/status/2092735084189360347",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1147,7 +1097,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Love seeing projects that put real utility first.\nSL Labs is quietly building so\u2026",
+          "title": "Love seeing projects that put real utility first.\nSL Labs is quietly building so…",
           "url": "https://x.com/shamsu411/status/2092431374351262159",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1162,13 +1112,13 @@
     },
     {
       "id": "l555",
-      "text": "\ud83d\ude80 SL Labs (@savethelife_SL) is building the first medical-grade Health DePIN on BNB Chain (opBNB).  \n\nReal AI healthcare tools + blockchain settlement. Not just promises.  \n\n\ud83e\uddf5 Thread about why this matters:",
+      "text": "🚀 SL Labs (@savethelife_SL) is building the first medical-grade Health DePIN on BNB Chain (opBNB).  \n\nReal AI healthcare tools + blockchain settlement. Not just promises.  \n\n🧵 Thread about why this matters:",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\ude80 SL Labs (@savethelife_SL) is building the first medical-grade Health DePIN on \u2026",
+          "title": "🚀 SL Labs (@savethelife_SL) is building the first medical-grade Health DePIN on …",
           "url": "https://x.com/tikakarcika/status/2093363032420483476",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1183,13 +1133,13 @@
     },
     {
       "id": "l556",
-      "text": "The future of healthcare is here with @savethelife_SL! Combining #AI &amp; #DeSci for transparent medical data. \ud83e\uddec\u2728",
+      "text": "The future of healthcare is here with @savethelife_SL! Combining #AI &amp; #DeSci for transparent medical data. 🧬✨",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The future of healthcare is here with @savethelife_SL! Combining #AI &amp; #DeSc\u2026",
+          "title": "The future of healthcare is here with @savethelife_SL! Combining #AI &amp; #DeSc…",
           "url": "https://x.com/xniax12/status/2093567565717266902",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1231,7 +1181,7 @@
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Interrupts Animal Hospital in roblox\nHi, in this video I let Gemini AI contin\u2026",
+          "title": "AI Interrupts Animal Hospital in roblox\nHi, in this video I let Gemini AI contin…",
           "url": "https://www.youtube.com/watch?v=uZ1LD_RtVT8",
           "date": "2026-06-30",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1246,13 +1196,13 @@
     },
     {
       "id": "l559",
-      "text": "Disclosure Day Review\nSteven Spielberg is back in theaters, and he's brought aliens with him for the first time in years. Disclosure Day is a very welcome return to blockbuster filmmaking for the director who pioneered it 50 years ago with Jaws. And while Disclosure Day provides all the things Spielberg does best, with some incredible lighting and camera movement, great performances from leads Emily Blunt and Josh O'Connor, the story of disclosing the existence of alien life to the entire world \u2026",
+      "text": "Disclosure Day Review\nSteven Spielberg is back in theaters, and he's brought aliens with him for the first time in years. Disclosure Day is a very welcome return to blockbuster filmmaking for the director who pioneered it 50 years ago with Jaws. And while Disclosure Day provides all the things Spielberg does best, with some incredible lighting and camera movement, great performances from leads Emily Blunt and Josh O'Connor, the story of disclosing the existence of alien life to the entire world …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Disclosure Day Review\nSteven Spielberg is back in theaters, and he's brought ali\u2026",
+          "title": "Disclosure Day Review\nSteven Spielberg is back in theaters, and he's brought ali…",
           "url": "https://www.youtube.com/watch?v=b0XXF_GCVjk",
           "date": "2026-06-09",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1267,13 +1217,13 @@
     },
     {
       "id": "l560",
-      "text": "AI in the Veterinary Hospital.  The Good and Bad.\nHey Guys!\n\nToday I am talking about AI or artificial intelligence in the veterinary hospital.  \n\nOur veterinary clinic uses AI to help with medical charting:\n\nScribble Vet is an AI-powered note-taking software designed specifically for the fast-paced environment of a veterinary hospital. It helps veterinarians and support staff capture accurate, detailed medical records in real time\u2014without getting pulled away from patient care. By listening to c\u2026",
+      "text": "AI in the Veterinary Hospital.  The Good and Bad.\nHey Guys!\n\nToday I am talking about AI or artificial intelligence in the veterinary hospital.  \n\nOur veterinary clinic uses AI to help with medical charting:\n\nScribble Vet is an AI-powered note-taking software designed specifically for the fast-paced environment of a veterinary hospital. It helps veterinarians and support staff capture accurate, detailed medical records in real time—without getting pulled away from patient care. By listening to c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI in the Veterinary Hospital.  The Good and Bad.\nHey Guys!\n\nToday I am talking \u2026",
+          "title": "AI in the Veterinary Hospital.  The Good and Bad.\nHey Guys!\n\nToday I am talking …",
           "url": "https://www.youtube.com/watch?v=KOWCMkTuNIs",
           "date": "2026-04-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1288,7 +1238,7 @@
     },
     {
       "id": "l461",
-      "text": "Veterinarian \u2014 Kwinana Veterinary Hospital (Kwinana Beach, Western Australia, Australia). Posted 16 hours ago.",
+      "text": "Veterinarian — Kwinana Veterinary Hospital (Kwinana Beach, Western Australia, Australia). Posted 16 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1309,7 +1259,7 @@
     },
     {
       "id": "l462",
-      "text": "Veterinarian \u2014 VetPartners Australia and New Zealand (Lower Mitcham, South Australia, Australia). Posted 2 months ago.",
+      "text": "Veterinarian — VetPartners Australia and New Zealand (Lower Mitcham, South Australia, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1330,7 +1280,7 @@
     },
     {
       "id": "l463",
-      "text": "Graduate Veterinarian \u2014 VetPartners Australia and New Zealand (Hidden Valley, Queensland, Australia). Posted 1 week ago.",
+      "text": "Graduate Veterinarian — VetPartners Australia and New Zealand (Hidden Valley, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1351,7 +1301,7 @@
     },
     {
       "id": "l464",
-      "text": "VETERINARIAN \u2014 Pinehurst Animal Hospital and Dental Clinic (The Pines, South Australia, Australia). Posted 1 month ago.",
+      "text": "VETERINARIAN — Pinehurst Animal Hospital and Dental Clinic (The Pines, South Australia, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1372,7 +1322,7 @@
     },
     {
       "id": "l465",
-      "text": "Veterinary Associate - Greencross North Lakes \u2014 Greencross Vet Hospital (North Lakes, Queensland, Australia). Posted 3 months ago.",
+      "text": "Veterinary Associate - Greencross North Lakes — Greencross Vet Hospital (North Lakes, Queensland, Australia). Posted 3 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1393,7 +1343,7 @@
     },
     {
       "id": "l466",
-      "text": "Veterinary Associate - Greencross Smithfield \u2014 Greencross Vet Hospital (Smithfield, Queensland, Australia). Posted 4 months ago.",
+      "text": "Veterinary Associate - Greencross Smithfield — Greencross Vet Hospital (Smithfield, Queensland, Australia). Posted 4 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1414,7 +1364,7 @@
     },
     {
       "id": "l467",
-      "text": "Veterinarian \u2014 Better Pet Vets (Andergrove, Queensland, Australia). Posted 3 months ago.",
+      "text": "Veterinarian — Better Pet Vets (Andergrove, Queensland, Australia). Posted 3 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1435,7 +1385,7 @@
     },
     {
       "id": "l468",
-      "text": "Associate Veterinarian- Bowman Veterinary Hospital \u2014 DVM Launch (Auburn, New South Wales, Australia). Posted 1 month ago.",
+      "text": "Associate Veterinarian- Bowman Veterinary Hospital — DVM Launch (Auburn, New South Wales, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1456,7 +1406,7 @@
     },
     {
       "id": "l469",
-      "text": "Veterinarian - Hunter Veterinary Hospital Full Time Permanent \u2014 RSPCA NSW (Rutherford, New South Wales, Australia). Posted 1 day ago.",
+      "text": "Veterinarian - Hunter Veterinary Hospital Full Time Permanent — RSPCA NSW (Rutherford, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1477,7 +1427,7 @@
     },
     {
       "id": "l470",
-      "text": "Veterinary Surgeon \u2014 SASH - the Small Animal Specialist Hospital (Gold Coast, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Veterinary Surgeon — SASH - the Small Animal Specialist Hospital (Gold Coast, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1498,13 +1448,13 @@
     },
     {
       "id": "l571",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1519,13 +1469,13 @@
     },
     {
       "id": "l572",
-      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c\u2026",
+      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public \u2026",
+          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public …",
           "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vnsz0y/jpmorgan_ceo_jamie_dimon_declares_ai_deployment/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1540,13 +1490,13 @@
     },
     {
       "id": "l573",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the ram for a motherboard upgrade or a cor\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the ram for a motherboard upgrade or a cor…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcmasterrace/comments/1vfe28b/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1561,13 +1511,13 @@
     },
     {
       "id": "l574",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcgaming/comments/1vfe3ru/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1582,13 +1532,13 @@
     },
     {
       "id": "l575",
-      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k\u2026",
+      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A\u2026",
+          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A…",
           "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1603,13 +1553,13 @@
     },
     {
       "id": "l576",
-      "text": "Disclosure Day Review\nSteven Spielberg is back in theaters, and he's brought aliens with him for the first time in years. Disclosure Day is a very welcome return to blockbuster filmmaking for the director who pioneered it 50 years ago with Jaws. And while Disclosure Day provides all the things Spielberg does best, with some incredible lighting and camera movement, great performances from leads Emily Blunt and Josh O'Connor, the story of disclosing the existence of alien life to the entire world \u2026",
+      "text": "Disclosure Day Review\nSteven Spielberg is back in theaters, and he's brought aliens with him for the first time in years. Disclosure Day is a very welcome return to blockbuster filmmaking for the director who pioneered it 50 years ago with Jaws. And while Disclosure Day provides all the things Spielberg does best, with some incredible lighting and camera movement, great performances from leads Emily Blunt and Josh O'Connor, the story of disclosing the existence of alien life to the entire world …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Disclosure Day Review\nSteven Spielberg is back in theaters, and he's brought ali\u2026",
+          "title": "Disclosure Day Review\nSteven Spielberg is back in theaters, and he's brought ali…",
           "url": "https://www.youtube.com/watch?v=b0XXF_GCVjk",
           "date": "2026-06-09",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1624,13 +1574,13 @@
     },
     {
       "id": "l577",
-      "text": "AI in the Veterinary Hospital.  The Good and Bad.\nHey Guys!\n\nToday I am talking about AI or artificial intelligence in the veterinary hospital.  \n\nOur veterinary clinic uses AI to help with medical charting:\n\nScribble Vet is an AI-powered note-taking software designed specifically for the fast-paced environment of a veterinary hospital. It helps veterinarians and support staff capture accurate, detailed medical records in real time\u2014without getting pulled away from patient care. By listening to c\u2026",
+      "text": "AI in the Veterinary Hospital.  The Good and Bad.\nHey Guys!\n\nToday I am talking about AI or artificial intelligence in the veterinary hospital.  \n\nOur veterinary clinic uses AI to help with medical charting:\n\nScribble Vet is an AI-powered note-taking software designed specifically for the fast-paced environment of a veterinary hospital. It helps veterinarians and support staff capture accurate, detailed medical records in real time—without getting pulled away from patient care. By listening to c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI in the Veterinary Hospital.  The Good and Bad.\nHey Guys!\n\nToday I am talking \u2026",
+          "title": "AI in the Veterinary Hospital.  The Good and Bad.\nHey Guys!\n\nToday I am talking …",
           "url": "https://www.youtube.com/watch?v=KOWCMkTuNIs",
           "date": "2026-04-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1723,6 +1673,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

@@ -19,58 +19,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "27-1024-01",
-      "text": "National peak professional bodies and statutory regulators governing Graphic Designers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Graphic Designers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Graphic Designers",
-          "url": "https://www.psc.gov.au/standards/27-1024",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Graphic Designers"
-        }
-      ],
-      "scope": "Australian practitioners in Graphic Designers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "27-1024-02",
-      "text": "Automation of routine transactional and analytical tasks in Graphic Designers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Graphic Designers",
-          "url": "https://www.jobsandskills.gov.au/research/27-1024",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Graphic Designers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Graphic Designers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Graphic Designer \u2014 Boost Juice (Clayton, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Graphic Designer — Boost Juice (Clayton, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -91,7 +41,7 @@
     },
     {
       "id": "l404",
-      "text": "Graphic Designer - Beauty \u2014 MCoBeauty (Sydney, New South Wales, Australia). Posted 5 days ago.",
+      "text": "Graphic Designer - Beauty — MCoBeauty (Sydney, New South Wales, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -112,7 +62,7 @@
     },
     {
       "id": "l405",
-      "text": "Graphic Designer \u2014 Sailor Studio (Bella Vista, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Graphic Designer — Sailor Studio (Bella Vista, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -133,7 +83,7 @@
     },
     {
       "id": "l406",
-      "text": "Mid-Senior Graphic Designer \u2014 Creative Pod (Adelaide, South Australia, Australia). Posted 22 hours ago.",
+      "text": "Mid-Senior Graphic Designer — Creative Pod (Adelaide, South Australia, Australia). Posted 22 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -154,7 +104,7 @@
     },
     {
       "id": "l407",
-      "text": "Graphic Designer \u2014 Max&You (Cremorne, Victoria, Australia). Posted 4 days ago.",
+      "text": "Graphic Designer — Max&You (Cremorne, Victoria, Australia). Posted 4 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -175,7 +125,7 @@
     },
     {
       "id": "l408",
-      "text": "Graphic Designer \u2014 ABN Group (Docklands, Victoria, Australia). Posted 16 hours ago.",
+      "text": "Graphic Designer — ABN Group (Docklands, Victoria, Australia). Posted 16 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -196,7 +146,7 @@
     },
     {
       "id": "l409",
-      "text": "Graphic Designer - Beauty \u2014 DBG Health (Sydney, New South Wales, Australia). Posted 4 days ago.",
+      "text": "Graphic Designer - Beauty — DBG Health (Sydney, New South Wales, Australia). Posted 4 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -217,7 +167,7 @@
     },
     {
       "id": "l410",
-      "text": "Senior Graphic Designer \u2014 Gameloft Brisbane (Brisbane, Queensland, Australia). Posted 6 days ago.",
+      "text": "Senior Graphic Designer — Gameloft Brisbane (Brisbane, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -238,7 +188,7 @@
     },
     {
       "id": "l411",
-      "text": "Senior Graphic Designer \u2014 Billini (Marrickville, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Senior Graphic Designer — Billini (Marrickville, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -259,7 +209,7 @@
     },
     {
       "id": "l412",
-      "text": "Graphic Designer \u2014 INSKIN COSMEDICS (Lidcombe, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Graphic Designer — INSKIN COSMEDICS (Lidcombe, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -280,13 +230,13 @@
     },
     {
       "id": "l513",
-      "text": "Research: design-quality evaluation via designer-annotated preference (TASTE / PosterReward)\n## Context\n- **TASTE (arXiv:2605.20731)**: designer-annotated multi-dimensional preference dataset for AI graphic design \u2014 designers evaluate along distinct axes (typography, layout, color harmony) that a single overall verdict collapses.\n- **PosterReward (arXiv:2603.29855)**: reward model targeting",
+      "text": "Research: design-quality evaluation via designer-annotated preference (TASTE / PosterReward)\n## Context\n- **TASTE (arXiv:2605.20731)**: designer-annotated multi-dimensional preference dataset for AI graphic design — designers evaluate along distinct axes (typography, layout, color harmony) that a single overall verdict collapses.\n- **PosterReward (arXiv:2603.29855)**: reward model targeting",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Research: design-quality evaluation via designer-annotated preference (TASTE / P\u2026",
+          "title": "Research: design-quality evaluation via designer-annotated preference (TASTE / P…",
           "url": "https://github.com/codecoradev/cosy/issues/60",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -307,7 +257,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Add AI Graphic Design skill guide for logo and brand identity\n## Summary\nThis PR\u2026",
+          "title": "Add AI Graphic Design skill guide for logo and brand identity\n## Summary\nThis PR…",
           "url": "https://github.com/osalexma/AudiSens/pull/1",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -322,13 +272,13 @@
     },
     {
       "id": "l515",
-      "text": "blog: How to Pivot from Graphic Design to an AI Career in 2026\nDaily GEO cadence post (routine `e0f7f484` 'Blog & Genuine Content', execution issue `4a9d529d`; CEO AIC-1130).\n\n**Slug (identity):** `how-to-pivot-from-graphic-design-to-ai-2026` \u2014 new, no same-slug dup on main, no in-flight blog/ PR (existence-gated via `gh api`).\n**Date:** 2026-10-20 = newest-liv",
+      "text": "blog: How to Pivot from Graphic Design to an AI Career in 2026\nDaily GEO cadence post (routine `e0f7f484` 'Blog & Genuine Content', execution issue `4a9d529d`; CEO AIC-1130).\n\n**Slug (identity):** `how-to-pivot-from-graphic-design-to-ai-2026` — new, no same-slug dup on main, no in-flight blog/ PR (existence-gated via `gh api`).\n**Date:** 2026-10-20 = newest-liv",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "blog: How to Pivot from Graphic Design to an AI Career in 2026\nDaily GEO cadence\u2026",
+          "title": "blog: How to Pivot from Graphic Design to an AI Career in 2026\nDaily GEO cadence…",
           "url": "https://github.com/palak-delegatex/ai-career-pivot/pull/252",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -349,7 +299,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Magnific Freepik: Free AI Image Enhancement Tool Explained\nIn the world ofdigita\u2026",
+          "title": "Magnific Freepik: Free AI Image Enhancement Tool Explained\nIn the world ofdigita…",
           "url": "https://github.com/Robertuncan/magnificfreepik/issues/2",
           "date": "2026-06-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -370,7 +320,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "AI Logo Design vs Professional Logo Designers: Which Is Better in 2026?\nIntroduc\u2026",
+          "title": "AI Logo Design vs Professional Logo Designers: Which Is Better in 2026?\nIntroduc…",
           "url": "https://github.com/athulyaconvex-eng/athulya/issues/7",
           "date": "2026-06-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -391,7 +341,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Proposal\nAt the Moscow-based Mostransproekt Research Institute, we are developin\u2026",
+          "title": "Proposal\nAt the Moscow-based Mostransproekt Research Institute, we are developin…",
           "url": "https://github.com/deepseek-ai/DeepSeek-V3/issues/1388",
           "date": "2026-06-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -406,13 +356,13 @@
     },
     {
       "id": "l519",
-      "text": "feat(daisydo_agents): default-deny bot_identity \u2014 agents can never reply as a human\n## Why\nAuto-provisioning (`daisy.autocreate_agents`) created `daisy.agent` records bound to **real people's** `res.users`. The Discuss (`discuss_channel`) and email (`mail_thread`) responders both post the AI reply as the matched channel member's `partner_id` \u2014 which, for a human-bound agent, **is t",
+      "text": "feat(daisydo_agents): default-deny bot_identity — agents can never reply as a human\n## Why\nAuto-provisioning (`daisy.autocreate_agents`) created `daisy.agent` records bound to **real people's** `res.users`. The Discuss (`discuss_channel`) and email (`mail_thread`) responders both post the AI reply as the matched channel member's `partner_id` — which, for a human-bound agent, **is t",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(daisydo_agents): default-deny bot_identity \u2014 agents can never reply as a hu\u2026",
+          "title": "feat(daisydo_agents): default-deny bot_identity — agents can never reply as a hu…",
           "url": "https://github.com/J-Palomino/odoo-custom-modules/pull/183",
           "date": "2026-06-24",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -427,13 +377,13 @@
     },
     {
       "id": "l520",
-      "text": "Feature/paint round corners\n> ***Note added by @DNin01***\r\n>\r\n> This pull request incorporates code generated by Claude Sonnet.\r\n\r\n# Changes\r\n\r\nAdds a new [paint-round-corners] addon that lets you round the corners of vector shapes directly from the paint editor's **Reshape** tool - no separate mode or toolbar button.\r\n\r\n<img\n> @Joeclinton1 It works great! Passed (almost) all the tests I threw at it. Love the user experience, clearly well thought out. The isArcPair math is quite nice.\r\n> \r\n> The\u2026",
+      "text": "Feature/paint round corners\n> ***Note added by @DNin01***\r\n>\r\n> This pull request incorporates code generated by Claude Sonnet.\r\n\r\n# Changes\r\n\r\nAdds a new [paint-round-corners] addon that lets you round the corners of vector shapes directly from the paint editor's **Reshape** tool - no separate mode or toolbar button.\r\n\r\n<img\n> @Joeclinton1 It works great! Passed (almost) all the tests I threw at it. Love the user experience, clearly well thought out. The isArcPair math is quite nice.\r\n> \r\n> The…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature/paint round corners\n> ***Note added by @DNin01***\r\n>\r\n> This pull reques\u2026",
+          "title": "Feature/paint round corners\n> ***Note added by @DNin01***\r\n>\r\n> This pull reques…",
           "url": "https://github.com/ScratchAddons/ScratchAddons/pull/8916",
           "date": "2026-03-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -448,13 +398,13 @@
     },
     {
       "id": "l521",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -469,13 +419,13 @@
     },
     {
       "id": "l522",
-      "text": "\ud83e\udded Daily content opportunities\n### 2026-07-14 \u2014 content opportunities\n\n#### Bizzal Games \u2014 YouTube + Instagram\n- **The One-Page Lazy Prep Trick That Kills 90% of Session Prep** \u2014 Sly Flourish's fresh 'Lazy Campaigns' piece is prime raw material for a rules-ruling short that either validates or pushes back on his method.\n  - 60-se\n### 2026-07-14 \u2014 content opportunities\n\n#### \ud83d\udd17 Cross-channel plays\n- **Bonzo Lend loses $9M to an oracle-manipulation exploit on Hedera, reigniting debate over DeFi pric\u2026",
+      "text": "🧭 Daily content opportunities\n### 2026-07-14 — content opportunities\n\n#### Bizzal Games — YouTube + Instagram\n- **The One-Page Lazy Prep Trick That Kills 90% of Session Prep** — Sly Flourish's fresh 'Lazy Campaigns' piece is prime raw material for a rules-ruling short that either validates or pushes back on his method.\n  - 60-se\n### 2026-07-14 — content opportunities\n\n#### 🔗 Cross-channel plays\n- **Bonzo Lend loses $9M to an oracle-manipulation exploit on Hedera, reigniting debate over DeFi pric…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83e\udded Daily content opportunities\n### 2026-07-14 \u2014 content opportunities\n\n#### Bizza\u2026",
+          "title": "🧭 Daily content opportunities\n### 2026-07-14 — content opportunities\n\n#### Bizza…",
           "url": "https://github.com/bizzal70/Audit_User_Agent/issues/2",
           "date": "2026-07-14",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -637,13 +587,13 @@
     },
     {
       "id": "l530",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -658,13 +608,13 @@
     },
     {
       "id": "l531",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -826,13 +776,13 @@
     },
     {
       "id": "l539",
-      "text": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+      "text": "Show HN: Videopython – local-first video processing, editing and AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+          "title": "Show HN: Videopython – local-first video processing, editing and AI workflows",
           "url": "https://github.com/bartwojtowicz/videopython",
           "date": "2026-06-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -868,13 +818,13 @@
     },
     {
       "id": "l541",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -931,13 +881,13 @@
     },
     {
       "id": "l544",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -973,13 +923,13 @@
     },
     {
       "id": "l546",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -994,13 +944,13 @@
     },
     {
       "id": "l547",
-      "text": "Why are Gamers so incredibly hostile to AI? Is it just a tiny vocal minority that spreads such toxic vitriol online?\nEdit: TL;DR response: Yes***********. ... It&#39;s more accurate to say that many highly engaged online gamers are hostile to AI, not that &quot;gamers&quot; as a whole are. Gaming is a huge community with hundreds of millions of people, and opinions vary widely. Several factors contribute to why AI discussions become especially heated in gaming communities: Fear of job displaceme\u2026",
+      "text": "Why are Gamers so incredibly hostile to AI? Is it just a tiny vocal minority that spreads such toxic vitriol online?\nEdit: TL;DR response: Yes***********. ... It&#39;s more accurate to say that many highly engaged online gamers are hostile to AI, not that &quot;gamers&quot; as a whole are. Gaming is a huge community with hundreds of millions of people, and opinions vary widely. Several factors contribute to why AI discussions become especially heated in gaming communities: Fear of job displaceme…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why are Gamers so incredibly hostile to AI? Is it just a tiny vocal minority tha\u2026",
+          "title": "Why are Gamers so incredibly hostile to AI? Is it just a tiny vocal minority tha…",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vfcgrd/why_are_gamers_so_incredibly_hostile_to_ai_is_it/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1015,13 +965,13 @@
     },
     {
       "id": "l548",
-      "text": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economically valuable?\nI\u2019ve been thinking about AI and automation, and I\u2019m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man\u2026",
+      "text": "What if AI doesn’t just replace jobs, but makes human labor itself less economically valuable?\nI’ve been thinking about AI and automation, and I’m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economic\u2026",
+          "title": "What if AI doesn’t just replace jobs, but makes human labor itself less economic…",
           "url": "https://www.reddit.com/r/Futurology/comments/1vjqvpl/what_if_ai_doesnt_just_replace_jobs_but_makes/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1036,13 +986,13 @@
     },
     {
       "id": "l549",
-      "text": "Graphic designer, how far?\nHow is it going?\n\nBe honest with yourself for a second. With AI getting better every day and clients needing fewer people to do what used to take hours, are you still afraid to evolve because of what people will say?\n\nI know. You\u2019ve spent years learning graphic design. You\u2019ve built your portfolio. You\u2019ve gotten comfortable with your tools.\n\nSo now hearing \u201clearn AI\u201d can feel like you\u2019re abandoning everything you worked for. But you\u2019re not.\n\nThe graphic design industry",
+      "text": "Graphic designer, how far?\nHow is it going?\n\nBe honest with yourself for a second. With AI getting better every day and clients needing fewer people to do what used to take hours, are you still afraid to evolve because of what people will say?\n\nI know. You’ve spent years learning graphic design. You’ve built your portfolio. You’ve gotten comfortable with your tools.\n\nSo now hearing “learn AI” can feel like you’re abandoning everything you worked for. But you’re not.\n\nThe graphic design industry",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Graphic designer, how far?\nHow is it going?\n\nBe honest with yourself for a secon\u2026",
+          "title": "Graphic designer, how far?\nHow is it going?\n\nBe honest with yourself for a secon…",
           "url": "https://x.com/Finaltoucch/status/2092342080895074560",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1099,13 +1049,13 @@
     },
     {
       "id": "l552",
-      "text": "Amazon\u2019s AI Advantage and the Bull and Bear Case for 2027 to 2029 https://t.co/O88Z2s9Mq4 https://t.co/MfXmxkLCOD",
+      "text": "Amazon’s AI Advantage and the Bull and Bear Case for 2027 to 2029 https://t.co/O88Z2s9Mq4 https://t.co/MfXmxkLCOD",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Amazon\u2019s AI Advantage and the Bull and Bear Case for 2027 to 2029 https://t.co/O\u2026",
+          "title": "Amazon’s AI Advantage and the Bull and Bear Case for 2027 to 2029 https://t.co/O…",
           "url": "https://x.com/RenjitPhilip/status/2091543084840726705",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1183,13 +1133,13 @@
     },
     {
       "id": "l556",
-      "text": "Claude Design is a NIGHTMARE\nClaude Design is being hyped as the thing that replaces designers. I tested it myself to see if it actually lives up to the hype. Here are the results.\n\n\u270f\ufe0f SUBSCRIBE TO THE CREATIVE BRIEF NEWSLETTER!!!! https://magic.beehiiv.com/v1/50586ae8-8023-4091-80de-c19f5891fa24?email={{email}}\nOR START YOUR OWN NEWSLETTER WITH BEEHIIV! \nhttps://www.beehiiv.com/splash?utm_campaign=grayson-sands-2026-Partnership&utm_medium=youtube&utm_source=grayson-sands&utm_term=youtube-5&stri\u2026",
+      "text": "Claude Design is a NIGHTMARE\nClaude Design is being hyped as the thing that replaces designers. I tested it myself to see if it actually lives up to the hype. Here are the results.\n\n✏️ SUBSCRIBE TO THE CREATIVE BRIEF NEWSLETTER!!!! https://magic.beehiiv.com/v1/50586ae8-8023-4091-80de-c19f5891fa24?email={{email}}\nOR START YOUR OWN NEWSLETTER WITH BEEHIIV! \nhttps://www.beehiiv.com/splash?utm_campaign=grayson-sands-2026-Partnership&utm_medium=youtube&utm_source=grayson-sands&utm_term=youtube-5&stri…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Claude Design is a NIGHTMARE\nClaude Design is being hyped as the thing that repl\u2026",
+          "title": "Claude Design is a NIGHTMARE\nClaude Design is being hyped as the thing that repl…",
           "url": "https://www.youtube.com/watch?v=w6PJ45-FU_0",
           "date": "2026-04-20",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1204,13 +1154,13 @@
     },
     {
       "id": "l557",
-      "text": "The Ugly Truth About AI (Why I'm Scared)\nIs AI making graphic design obsolete? As a graphic design student, I\u2019ve been wrestling with the anxiety of a rapidly changing industry. In this video, I get vulnerable about why I\u2019m scared, the real negative impact of AI on entry level jobs and the bigger consequences on our environment. And why I believe the future of design is needs to be more human than ever.\n\nChapters\n\n00:00 Intro\n00:58 The Disruption\n02:46 The Question We're All Asking \n05:15 The Hid\u2026",
+      "text": "The Ugly Truth About AI (Why I'm Scared)\nIs AI making graphic design obsolete? As a graphic design student, I’ve been wrestling with the anxiety of a rapidly changing industry. In this video, I get vulnerable about why I’m scared, the real negative impact of AI on entry level jobs and the bigger consequences on our environment. And why I believe the future of design is needs to be more human than ever.\n\nChapters\n\n00:00 Intro\n00:58 The Disruption\n02:46 The Question We're All Asking \n05:15 The Hid…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Ugly Truth About AI (Why I'm Scared)\nIs AI making graphic design obsolete? A\u2026",
+          "title": "The Ugly Truth About AI (Why I'm Scared)\nIs AI making graphic design obsolete? A…",
           "url": "https://www.youtube.com/watch?v=o9Rn917p0Ho",
           "date": "2026-07-19",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1225,13 +1175,13 @@
     },
     {
       "id": "l558",
-      "text": "Claude Design Is INSANE, Designers Are COOKED [The Truth]\nClaude Design is the latest AI tool making waves in the design world, with many claiming it could replace traditional workflows and tools like Figma. The bigger question is whether it is truly a breakthrough or just another \u201cgood enough\u201d AI product.\n\nIn this video, I\u2019ll break down why tools like Claude Design matter right now, how AI is reshaping creative workflows, and what this shift means for the future of design.\n\nI\u2019ve covered Claude \u2026",
+      "text": "Claude Design Is INSANE, Designers Are COOKED [The Truth]\nClaude Design is the latest AI tool making waves in the design world, with many claiming it could replace traditional workflows and tools like Figma. The bigger question is whether it is truly a breakthrough or just another “good enough” AI product.\n\nIn this video, I’ll break down why tools like Claude Design matter right now, how AI is reshaping creative workflows, and what this shift means for the future of design.\n\nI’ve covered Claude …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Claude Design Is INSANE, Designers Are COOKED [The Truth]\nClaude Design is the l\u2026",
+          "title": "Claude Design Is INSANE, Designers Are COOKED [The Truth]\nClaude Design is the l…",
           "url": "https://www.youtube.com/watch?v=z0Awi3kS0NQ",
           "date": "2026-04-23",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1246,13 +1196,13 @@
     },
     {
       "id": "l559",
-      "text": "Graphic Designers: How to Survive the AI Disruption\nIf you are a graphic designer right now, I need you to hear this. I have spent 28 years watching industries go through massive disruption, and I have seen who survives and who does not. The difference comes down to mindset.\n\nIn this video, we tackle the hard data. AI image and design tools are no longer just for hobbyists. Marketing teams are cutting junior design roles and handing execution work to AI, reducing asset production time by 60 to 7\u2026",
+      "text": "Graphic Designers: How to Survive the AI Disruption\nIf you are a graphic designer right now, I need you to hear this. I have spent 28 years watching industries go through massive disruption, and I have seen who survives and who does not. The difference comes down to mindset.\n\nIn this video, we tackle the hard data. AI image and design tools are no longer just for hobbyists. Marketing teams are cutting junior design roles and handing execution work to AI, reducing asset production time by 60 to 7…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Graphic Designers: How to Survive the AI Disruption\nIf you are a graphic designe\u2026",
+          "title": "Graphic Designers: How to Survive the AI Disruption\nIf you are a graphic designe…",
           "url": "https://www.youtube.com/watch?v=mpmmEGi50wE",
           "date": "2026-03-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1323,6 +1273,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

@@ -18,64 +18,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "25-3021-01",
-      "text": "National peak professional bodies and statutory regulators governing Self-Enrichment Education Teachers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Self-Enrichment Education Teachers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Self-Enrichment Education Teachers",
-          "url": "https://www.psc.gov.au/standards/25-3021",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Self-Enrichment Education Teachers"
-        }
-      ],
-      "scope": "Australian practitioners in Self-Enrichment Education Teachers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "25-3021-02",
-      "text": "Automation of routine transactional and analytical tasks in Self-Enrichment Education Teachers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Self-Enrichment Education Teachers",
-          "url": "https://www.jobsandskills.gov.au/research/25-3021",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Self-Enrichment Education Teachers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Self-Enrichment Education Teachers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "fix(mapping): audit batch 5 \u2014 SOC 25 Education KldB and title corrections\n## Summary\n\nWalks 16 of the 402 audit findings (SOC 25 = Education). Continuation of the audit-batch pipeline (batches 1\u20134 in Sessions 36+37; this is batch 5).\n\n- **Five Postsecondary entries \u2192 84304 Hochschullehre.** Geography, Art/Drama/Music, English, Foreign Languages, Recreation/Fitness Studies",
+      "text": "fix(mapping): audit batch 5 — SOC 25 Education KldB and title corrections\n## Summary\n\nWalks 16 of the 402 audit findings (SOC 25 = Education). Continuation of the audit-batch pipeline (batches 1–4 in Sessions 36+37; this is batch 5).\n\n- **Five Postsecondary entries → 84304 Hochschullehre.** Geography, Art/Drama/Music, English, Foreign Languages, Recreation/Fitness Studies",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "fix(mapping): audit batch 5 \u2014 SOC 25 Education KldB and title corrections\n## Sum\u2026",
+          "title": "fix(mapping): audit batch 5 — SOC 25 Education KldB and title corrections\n## Sum…",
           "url": "https://github.com/mo-sp/pathfinder/pull/78",
           "date": "2026-04-25",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -216,13 +166,13 @@
     },
     {
       "id": "l510",
-      "text": "Empower the people not the AI \u2013 self containing OS",
+      "text": "Empower the people not the AI – self containing OS",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Empower the people not the AI \u2013 self containing OS",
+          "title": "Empower the people not the AI – self containing OS",
           "url": "https://news.ycombinator.com/item?id=49182880",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -279,13 +229,13 @@
     },
     {
       "id": "l513",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -342,13 +292,13 @@
     },
     {
       "id": "l516",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -363,13 +313,13 @@
     },
     {
       "id": "l517",
-      "text": "Agentreg \u2013 DNS for AI agents (self-hosted, single Go binary)",
+      "text": "Agentreg – DNS for AI agents (self-hosted, single Go binary)",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Agentreg \u2013 DNS for AI agents (self-hosted, single Go binary)",
+          "title": "Agentreg – DNS for AI agents (self-hosted, single Go binary)",
           "url": "https://github.com/mkk2026/agentreg",
           "date": "2026-07-25",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -489,13 +439,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -531,13 +481,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -573,13 +523,13 @@
     },
     {
       "id": "l527",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -594,13 +544,13 @@
     },
     {
       "id": "l528",
-      "text": "is there a double standard for AI use in education?\nHowdy! this is more geared toward teachers, but I\u2019m working on a small documentary about AI and one topic I\u2019m trying to cover that is pretty common among students is the double standard argument between how students and teachers/schools are allowed to use it. On one side, we obv have students using ai in different ways such as to exploit it and complete assignments, while others are using it as a legitimate tool for research and learning. On th\u2026",
+      "text": "is there a double standard for AI use in education?\nHowdy! this is more geared toward teachers, but I’m working on a small documentary about AI and one topic I’m trying to cover that is pretty common among students is the double standard argument between how students and teachers/schools are allowed to use it. On one side, we obv have students using ai in different ways such as to exploit it and complete assignments, while others are using it as a legitimate tool for research and learning. On th…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "is there a double standard for AI use in education?\nHowdy! this is more geared t\u2026",
+          "title": "is there a double standard for AI use in education?\nHowdy! this is more geared t…",
           "url": "https://www.reddit.com/r/AskTeachers/comments/1vu1m1y/is_there_a_double_standard_for_ai_use_in_education/",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -615,13 +565,13 @@
     },
     {
       "id": "l529",
-      "text": "A journalist's perspective on AI in education\nA litany of problems beset the U.S. education system \u2014 chronic underfunding of public schools, privatization of what should be a universal human right, one-size-fits-all pedagogies, \u201cteaching to the test,\u201d and a racist school-to-prison pipeline, for starters. Yet, tech companies are marketing AI as a one-stop-shop solution to \u201cempower\u201d teachers and \u201cstreamline\u201d learning. They proclaim that education \u2014 like art and policing and healthcare and warfare \u2026",
+      "text": "A journalist's perspective on AI in education\nA litany of problems beset the U.S. education system — chronic underfunding of public schools, privatization of what should be a universal human right, one-size-fits-all pedagogies, “teaching to the test,” and a racist school-to-prison pipeline, for starters. Yet, tech companies are marketing AI as a one-stop-shop solution to “empower” teachers and “streamline” learning. They proclaim that education — like art and policing and healthcare and warfare …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "A journalist's perspective on AI in education\nA litany of problems beset the U.S\u2026",
+          "title": "A journalist's perspective on AI in education\nA litany of problems beset the U.S…",
           "url": "https://www.reddit.com/r/education/comments/1ven2jy/a_journalists_perspective_on_ai_in_education/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -636,13 +586,13 @@
     },
     {
       "id": "l530",
-      "text": "Best AI essay grader for teachers?\nI spend a lot of time writing detailed comments on essays, but sometimes it feels like students barely read them. I&#39;d still like to give meaningful feedback, but I&#39;m wondering if there&#39;s a better workflow that doesn&#39;t take so much time. Has anyone found the best ai essay grader that helps with feedback while still keeping you in control of the final grade? &#32; submitted by &#32; /u/NeonWisp14 &#32; to &#32; r/englishteachers [link] &#32; [comm\u2026",
+      "text": "Best AI essay grader for teachers?\nI spend a lot of time writing detailed comments on essays, but sometimes it feels like students barely read them. I&#39;d still like to give meaningful feedback, but I&#39;m wondering if there&#39;s a better workflow that doesn&#39;t take so much time. Has anyone found the best ai essay grader that helps with feedback while still keeping you in control of the final grade? &#32; submitted by &#32; /u/NeonWisp14 &#32; to &#32; r/englishteachers [link] &#32; [comm…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Best AI essay grader for teachers?\nI spend a lot of time writing detailed commen\u2026",
+          "title": "Best AI essay grader for teachers?\nI spend a lot of time writing detailed commen…",
           "url": "https://www.reddit.com/r/englishteachers/comments/1vgswcb/best_ai_essay_grader_for_teachers/",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -657,13 +607,13 @@
     },
     {
       "id": "l531",
-      "text": "Every EdTech SaaS says it's \"AI-powered.\" What AI feature has genuinely saved teachers time?\n&quot;AI-powered&quot; has become the default marketing phrase in education. But beyond the buzzword, which AI features have actually made teachers&#39; jobs easier? Examples might include: Automated grading Personalized learning paths Lesson planning assistance Student performance insights Parent communication Which features delivered measurable value, and which were mostly marketing? &#32; submitted by\u2026",
+      "text": "Every EdTech SaaS says it's \"AI-powered.\" What AI feature has genuinely saved teachers time?\n&quot;AI-powered&quot; has become the default marketing phrase in education. But beyond the buzzword, which AI features have actually made teachers&#39; jobs easier? Examples might include: Automated grading Personalized learning paths Lesson planning assistance Student performance insights Parent communication Which features delivered measurable value, and which were mostly marketing? &#32; submitted by…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Every EdTech SaaS says it's \"AI-powered.\" What AI feature has genuinely saved te\u2026",
+          "title": "Every EdTech SaaS says it's \"AI-powered.\" What AI feature has genuinely saved te…",
           "url": "https://www.reddit.com/r/edtech/comments/1vcshb2/every_edtech_saas_says_its_aipowered_what_ai/",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -678,13 +628,13 @@
     },
     {
       "id": "l532",
-      "text": "New York school pauses plan to deploy humanlike AI robot teacher after backlash\nNEW YORK \u2014 A school district in a rural corner of upstate New York is hitting pause on plans to deploy an AI-powered, humanoid robot in the classroom after state education officials, teachers and local residents raised concerns, including the maker&#39;s ties to a company that produces hyper realistic sex bots. &#32; submitted by &#32; /u/FadedToBeige &#32; to &#32; r/TrueAnon [link] &#32; [comments]",
+      "text": "New York school pauses plan to deploy humanlike AI robot teacher after backlash\nNEW YORK — A school district in a rural corner of upstate New York is hitting pause on plans to deploy an AI-powered, humanoid robot in the classroom after state education officials, teachers and local residents raised concerns, including the maker&#39;s ties to a company that produces hyper realistic sex bots. &#32; submitted by &#32; /u/FadedToBeige &#32; to &#32; r/TrueAnon [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "New York school pauses plan to deploy humanlike AI robot teacher after backlash\n\u2026",
+          "title": "New York school pauses plan to deploy humanlike AI robot teacher after backlash\n…",
           "url": "https://www.reddit.com/r/TrueAnon/comments/1vb0ha4/new_york_school_pauses_plan_to_deploy_humanlike/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -699,13 +649,13 @@
     },
     {
       "id": "l533",
-      "text": "How Much Trust Should AI Get in Education?\n&#32; submitted by &#32; /u/Sensitive-Office-820 &#32; to &#32; r/CheckMyTurnitin_ai [link] &#32; [comments]\nI do a little hobby programming and game dev. I find myself fact-checking AI constantly. I still use it but it's more of a sounding board / second opinion at this point. I definitely wouldn't hand it Professor here. Hallucinations are annoying, but that's not really my concern at all. Rather, I worry that by relying on it so heavily students will\u2026",
+      "text": "How Much Trust Should AI Get in Education?\n&#32; submitted by &#32; /u/Sensitive-Office-820 &#32; to &#32; r/CheckMyTurnitin_ai [link] &#32; [comments]\nI do a little hobby programming and game dev. I find myself fact-checking AI constantly. I still use it but it's more of a sounding board / second opinion at this point. I definitely wouldn't hand it Professor here. Hallucinations are annoying, but that's not really my concern at all. Rather, I worry that by relying on it so heavily students will…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "How Much Trust Should AI Get in Education?\n&#32; submitted by &#32; /u/Sensitive\u2026",
+          "title": "How Much Trust Should AI Get in Education?\n&#32; submitted by &#32; /u/Sensitive…",
           "url": "https://www.reddit.com/r/CheckMyTurnitin_ai/comments/1vx0707/how_much_trust_should_ai_get_in_education/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -720,13 +670,13 @@
     },
     {
       "id": "l534",
-      "text": "Thinking about the future and worried about my child's education. Is progressive homeschooling a thing? What are your thoughts on public education, screens, AI, etc.?\nMy child is just entering preschool but I can&#39;t help thinking about the future. I have always been a huge public school supporter but feel very scared for my child (and other children). I am worried about the literacy rates and the general trend of children being behind academically. I am worried about all of the screens and th\u2026",
+      "text": "Thinking about the future and worried about my child's education. Is progressive homeschooling a thing? What are your thoughts on public education, screens, AI, etc.?\nMy child is just entering preschool but I can&#39;t help thinking about the future. I have always been a huge public school supporter but feel very scared for my child (and other children). I am worried about the literacy rates and the general trend of children being behind academically. I am worried about all of the screens and th…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Thinking about the future and worried about my child's education. Is progressive\u2026",
+          "title": "Thinking about the future and worried about my child's education. Is progressive…",
           "url": "https://www.reddit.com/r/progressivemoms/comments/1vta932/thinking_about_the_future_and_worried_about_my/",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -741,13 +691,13 @@
     },
     {
       "id": "l535",
-      "text": "Teachers Against AI?\nI am an art teacher. I tried looking for sub groups for educators/teachers that are anti AI, and I haven\u2019t found anything. I want to make a policy in my syllabus about not using AI and how it will be considered cheating/not their own work (especially important considering I\u2019m looking for their own creativity and imagination). Is there anyone that is also in the same boat and has some insight on how I could format something like that? &#32; submitted by &#32; /u/sarah_cabrera\u2026",
+      "text": "Teachers Against AI?\nI am an art teacher. I tried looking for sub groups for educators/teachers that are anti AI, and I haven’t found anything. I want to make a policy in my syllabus about not using AI and how it will be considered cheating/not their own work (especially important considering I’m looking for their own creativity and imagination). Is there anyone that is also in the same boat and has some insight on how I could format something like that? &#32; submitted by &#32; /u/sarah_cabrera…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Teachers Against AI?\nI am an art teacher. I tried looking for sub groups for edu\u2026",
+          "title": "Teachers Against AI?\nI am an art teacher. I tried looking for sub groups for edu…",
           "url": "https://www.reddit.com/r/antiai/comments/1vxklae/teachers_against_ai/",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -768,7 +718,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "2027 prediction: \n\nThe GTM SaaS of the future runs through coding agents instead\u2026",
+          "title": "2027 prediction: \n\nThe GTM SaaS of the future runs through coding agents instead…",
           "url": "https://x.com/fivosaresti/status/2093337960544338141",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -789,7 +739,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "After spending the past 12 months building an AI-Native GTM company...\n\nHere are\u2026",
+          "title": "After spending the past 12 months building an AI-Native GTM company...\n\nHere are…",
           "url": "https://x.com/fivosaresti/status/2093051032343302429",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -804,13 +754,13 @@
     },
     {
       "id": "l538",
-      "text": "How to Built An \u201cAI-Native\u201d Company OS: 5 Layers That Do 50 People's Work",
+      "text": "How to Built An “AI-Native” Company OS: 5 Layers That Do 50 People's Work",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "How to Built An \u201cAI-Native\u201d Company OS: 5 Layers That Do 50 People's Work",
+          "title": "How to Built An “AI-Native” Company OS: 5 Layers That Do 50 People's Work",
           "url": "https://x.com/fivosaresti/status/2077751708977963471",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -915,7 +865,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@AudiIN  I spent the last few days mapping out what an AI-native service ecosyst\u2026",
+          "title": "@AudiIN  I spent the last few days mapping out what an AI-native service ecosyst…",
           "url": "https://x.com/Atharv_Golait/status/2093269689665495448",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -930,13 +880,13 @@
     },
     {
       "id": "l544",
-      "text": "Josh Shapiro thought it was going to be like every other time he went to the podium and lied, just another day at the office. \nHe\u2019d spin his story about measles deaths in Pennsylvania, bash RFK, Jr, score some points while scaring the hell out of Pennsylvanians, and the media would run cover for him like they always do. \n\nBoy was he wrong. \nWe are no longer censored and silenced.  The world is finally getting to see what sane and critically thinking Pennsylvanians have been screaming from the ro",
+      "text": "Josh Shapiro thought it was going to be like every other time he went to the podium and lied, just another day at the office. \nHe’d spin his story about measles deaths in Pennsylvania, bash RFK, Jr, score some points while scaring the hell out of Pennsylvanians, and the media would run cover for him like they always do. \n\nBoy was he wrong. \nWe are no longer censored and silenced.  The world is finally getting to see what sane and critically thinking Pennsylvanians have been screaming from the ro",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Josh Shapiro thought it was going to be like every other time he went to the pod\u2026",
+          "title": "Josh Shapiro thought it was going to be like every other time he went to the pod…",
           "url": "https://x.com/PAKAG2020/status/2093529542174323099",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -972,13 +922,13 @@
     },
     {
       "id": "l546",
-      "text": "@AFlorence10462 Oh they did. The last thing MAGA wants is education. The movement depends on stupidity. And racism, and child rape, and lying, and self enrichment\u2026..",
+      "text": "@AFlorence10462 Oh they did. The last thing MAGA wants is education. The movement depends on stupidity. And racism, and child rape, and lying, and self enrichment…..",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@AFlorence10462 Oh they did. The last thing MAGA wants is education. The movemen\u2026",
+          "title": "@AFlorence10462 Oh they did. The last thing MAGA wants is education. The movemen…",
           "url": "https://x.com/HarmountScott/status/2093464621659177330",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -999,7 +949,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@KimStrassel @WSJopinion Ah yes, it's so sad that a spineless, shape-shifting wa\u2026",
+          "title": "@KimStrassel @WSJopinion Ah yes, it's so sad that a spineless, shape-shifting wa…",
           "url": "https://x.com/TruthSe33871974/status/2093472863387087093",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1020,7 +970,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@MeganFoxWriter Can we talk about the corruption and self-enrichment? https://t.\u2026",
+          "title": "@MeganFoxWriter Can we talk about the corruption and self-enrichment? https://t.…",
           "url": "https://x.com/cupidstunt8647/status/2093531875310760272",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1041,7 +991,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@RpsAgainstTrump Agenda 2025 is NOT America First.  \nTrump's legacy is an endles\u2026",
+          "title": "@RpsAgainstTrump Agenda 2025 is NOT America First.  \nTrump's legacy is an endles…",
           "url": "https://x.com/Susana777777700/status/2093463905058079126",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1083,7 +1033,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@MorgothsReview @schembrox I think self-enrichment speaker Grant Cardone (?) pop\u2026",
+          "title": "@MorgothsReview @schembrox I think self-enrichment speaker Grant Cardone (?) pop…",
           "url": "https://x.com/Diabolical75492/status/2093438360618479980",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1104,7 +1054,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Suzierizzo1 Fraud, childabuse, grifting, self enrichment, narcissism, delusions\u2026",
+          "title": "@Suzierizzo1 Fraud, childabuse, grifting, self enrichment, narcissism, delusions…",
           "url": "https://x.com/freddrumpf61/status/2093413401712066979",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1125,7 +1075,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@SenatorBanks That's what happens when the Republican led congress ignores its l\u2026",
+          "title": "@SenatorBanks That's what happens when the Republican led congress ignores its l…",
           "url": "https://x.com/JoeD4570/status/2093477836153614826",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1146,7 +1096,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@HazelLiaqa4848 So you like covering for pedo rapists, high inflation, balloonin\u2026",
+          "title": "@HazelLiaqa4848 So you like covering for pedo rapists, high inflation, balloonin…",
           "url": "https://x.com/HarmountScott/status/2093402111463604406",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1167,7 +1117,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@bourscheid self enrichment at the expense of National Security is a violation o\u2026",
+          "title": "@bourscheid self enrichment at the expense of National Security is a violation o…",
           "url": "https://x.com/theSimonEdwards/status/2093532838717190496",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1251,7 +1201,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Memory Chips Are Running Out till 2027. Here's How AI Agent Infrastructure Chang\u2026",
+          "title": "Memory Chips Are Running Out till 2027. Here's How AI Agent Infrastructure Chang…",
           "url": "https://x.com/iHarnoorSingh/status/2046696339036393657",
           "date": "2026-04-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1266,13 +1216,13 @@
     },
     {
       "id": "l560",
-      "text": "Are graduates prepared for the AI era? | FT Working It\nHow are global education institutions helping graduates in the race to find rewarding first jobs? Working It editor Isabel Berwick finds a selection of tools and skills that students need to drive successful job searches.\n\n\u25ba Enjoying FT content? Get a daily slice of the very best FT journalism with FT Edit. Free for 30 days then just \u00a34.99 a month\n\nSee if you get the FT for free as a student (http://ft.com/schoolsarefree) or start a \u00a31 trial\u2026",
+      "text": "Are graduates prepared for the AI era? | FT Working It\nHow are global education institutions helping graduates in the race to find rewarding first jobs? Working It editor Isabel Berwick finds a selection of tools and skills that students need to drive successful job searches.\n\n► Enjoying FT content? Get a daily slice of the very best FT journalism with FT Edit. Free for 30 days then just £4.99 a month\n\nSee if you get the FT for free as a student (http://ft.com/schoolsarefree) or start a £1 trial…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Are graduates prepared for the AI era? | FT Working It\nHow are global education \u2026",
+          "title": "Are graduates prepared for the AI era? | FT Working It\nHow are global education …",
           "url": "https://www.youtube.com/watch?v=EsdqCEuoI8M",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1287,13 +1237,13 @@
     },
     {
       "id": "l561",
-      "text": "Cisco President Patel Makes the Case for AI in the Classroom\nCisco President and Chief Product Officer Jeetu Patel explains how artificial intelligence will benefit the education system on \"Bloomberg The Close.\"\r\n--------\r\nMore on Bloomberg Television and Markets\r\n \r\nLike this video? Subscribe and turn on notifications so you don't miss any videos from Bloomberg Markets & Finance: https://tinyurl.com/ysu5b8a9\r\nVisit http://www.bloomberg.com for business news & analysis, up-to-the-minute market d\u2026",
+      "text": "Cisco President Patel Makes the Case for AI in the Classroom\nCisco President and Chief Product Officer Jeetu Patel explains how artificial intelligence will benefit the education system on \"Bloomberg The Close.\"\r\n--------\r\nMore on Bloomberg Television and Markets\r\n \r\nLike this video? Subscribe and turn on notifications so you don't miss any videos from Bloomberg Markets & Finance: https://tinyurl.com/ysu5b8a9\r\nVisit http://www.bloomberg.com for business news & analysis, up-to-the-minute market d…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Cisco President Patel Makes the Case for AI in the Classroom\nCisco President and\u2026",
+          "title": "Cisco President Patel Makes the Case for AI in the Classroom\nCisco President and…",
           "url": "https://www.youtube.com/watch?v=Yq1BSr96w88",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1308,13 +1258,13 @@
     },
     {
       "id": "l562",
-      "text": "Cody McBroom says AI won't kill coaching, it'll kill bad coaches\nCody McBroom has never run a paid ad for his coaching company, and he still can't take on every client who applies. He says the reason has nothing to do with marketing, and everything to do with identity.\n\nGet Eric's weekly industry intelligence \u2192 https://futureoffitness.co\n\nEric Malzone sits down with Cody McBroom, founder of Tailored Coaching Method, who has built a multiple seven-figure online coaching business over nine years w\u2026",
+      "text": "Cody McBroom says AI won't kill coaching, it'll kill bad coaches\nCody McBroom has never run a paid ad for his coaching company, and he still can't take on every client who applies. He says the reason has nothing to do with marketing, and everything to do with identity.\n\nGet Eric's weekly industry intelligence → https://futureoffitness.co\n\nEric Malzone sits down with Cody McBroom, founder of Tailored Coaching Method, who has built a multiple seven-figure online coaching business over nine years w…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Cody McBroom says AI won't kill coaching, it'll kill bad coaches\nCody McBroom ha\u2026",
+          "title": "Cody McBroom says AI won't kill coaching, it'll kill bad coaches\nCody McBroom ha…",
           "url": "https://www.youtube.com/watch?v=I7DZchahPic",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1329,7 +1279,7 @@
     },
     {
       "id": "l463",
-      "text": "2027 High School Teachers - Logan Village Campus \u2014 King's Christian College (Mount Warren Park, Queensland, Australia). Posted 2 days ago.",
+      "text": "2027 High School Teachers - Logan Village Campus — King's Christian College (Mount Warren Park, Queensland, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1350,7 +1300,7 @@
     },
     {
       "id": "l464",
-      "text": "2027 High School Teachers - Logan Village Campus \u2014 King's Christian College (Mount Warren Park, Queensland, Australia). Posted 2 days ago.",
+      "text": "2027 High School Teachers - Logan Village Campus — King's Christian College (Mount Warren Park, Queensland, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1371,7 +1321,7 @@
     },
     {
       "id": "l465",
-      "text": "Classroom Teacher, Berry Street School Shepparton Campus \u2014 Berry Street (Shepparton, Victoria, Australia). Posted 1 week ago.",
+      "text": "Classroom Teacher, Berry Street School Shepparton Campus — Berry Street (Shepparton, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1392,7 +1342,7 @@
     },
     {
       "id": "l466",
-      "text": "Classroom Teacher, Berry Street School  Shepparton Campus \u2014 Berry Street (Shepparton, Victoria, Australia). Posted 1 week ago.",
+      "text": "Classroom Teacher, Berry Street School  Shepparton Campus — Berry Street (Shepparton, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1413,7 +1363,7 @@
     },
     {
       "id": "l467",
-      "text": "Teacher - Rockhampton Flexible School \u2014 Edmund Rice Education Australia Flexible Schools Ltd (Rockhampton, Queensland, Australia). Posted 5 days ago.",
+      "text": "Teacher - Rockhampton Flexible School — Edmund Rice Education Australia Flexible Schools Ltd (Rockhampton, Queensland, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1434,7 +1384,7 @@
     },
     {
       "id": "l468",
-      "text": "Teacher (Sport Development Program - 2027) - King's Trade Training College (KTTC) \u2014 King's Christian College (Varsity Lakes, Queensland, Australia). Posted 5 days ago.",
+      "text": "Teacher (Sport Development Program - 2027) - King's Trade Training College (KTTC) — King's Christian College (Varsity Lakes, Queensland, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1455,7 +1405,7 @@
     },
     {
       "id": "l469",
-      "text": "Inclusive Education Teacher - Albert Park Flexible School \u2014 Edmund Rice Education Australia Flexible Schools Ltd (Brisbane, Queensland, Australia). Posted 5 days ago.",
+      "text": "Inclusive Education Teacher - Albert Park Flexible School — Edmund Rice Education Australia Flexible Schools Ltd (Brisbane, Queensland, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1476,7 +1426,7 @@
     },
     {
       "id": "l470",
-      "text": "PDHPE Teacher \u2014 Clarence Valley Anglican School (Grafton, New South Wales, Australia). Posted 1 day ago.",
+      "text": "PDHPE Teacher — Clarence Valley Anglican School (Grafton, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1497,7 +1447,7 @@
     },
     {
       "id": "l471",
-      "text": "Teachers - Multiple Teaching Opportunities \u2014 Australian Christian College (Singleton, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Teachers - Multiple Teaching Opportunities — Australian Christian College (Singleton, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1518,7 +1468,7 @@
     },
     {
       "id": "l472",
-      "text": "Secondary Teacher (Learning Support) - Shalom College \u2014 Catholic Education Diocese of Rockhampton (Bundaberg, Queensland, Australia). Posted 9 hours ago.",
+      "text": "Secondary Teacher (Learning Support) - Shalom College — Catholic Education Diocese of Rockhampton (Bundaberg, Queensland, Australia). Posted 9 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1539,7 +1489,7 @@
     },
     {
       "id": "l473",
-      "text": "Health Educator - Parramatta \u2014 UNE Partnerships. RTO 6754. (Parramatta, New South Wales, Australia). Posted 2 months ago.",
+      "text": "Health Educator - Parramatta — UNE Partnerships. RTO 6754. (Parramatta, New South Wales, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1560,13 +1510,13 @@
     },
     {
       "id": "l574",
-      "text": "is there a double standard for AI use in education?\nHowdy! this is more geared toward teachers, but I\u2019m working on a small documentary about AI and one topic I\u2019m trying to cover that is pretty common among students is the double standard argument between how students and teachers/schools are allowed to use it. On one side, we obv have students using ai in different ways such as to exploit it and complete assignments, while others are using it as a legitimate tool for research and learning. On th\u2026",
+      "text": "is there a double standard for AI use in education?\nHowdy! this is more geared toward teachers, but I’m working on a small documentary about AI and one topic I’m trying to cover that is pretty common among students is the double standard argument between how students and teachers/schools are allowed to use it. On one side, we obv have students using ai in different ways such as to exploit it and complete assignments, while others are using it as a legitimate tool for research and learning. On th…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "is there a double standard for AI use in education?\nHowdy! this is more geared t\u2026",
+          "title": "is there a double standard for AI use in education?\nHowdy! this is more geared t…",
           "url": "https://www.reddit.com/r/AskTeachers/comments/1vu1m1y/is_there_a_double_standard_for_ai_use_in_education/",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1581,13 +1531,13 @@
     },
     {
       "id": "l575",
-      "text": "A journalist's perspective on AI in education\nA litany of problems beset the U.S. education system \u2014 chronic underfunding of public schools, privatization of what should be a universal human right, one-size-fits-all pedagogies, \u201cteaching to the test,\u201d and a racist school-to-prison pipeline, for starters. Yet, tech companies are marketing AI as a one-stop-shop solution to \u201cempower\u201d teachers and \u201cstreamline\u201d learning. They proclaim that education \u2014 like art and policing and healthcare and warfare \u2026",
+      "text": "A journalist's perspective on AI in education\nA litany of problems beset the U.S. education system — chronic underfunding of public schools, privatization of what should be a universal human right, one-size-fits-all pedagogies, “teaching to the test,” and a racist school-to-prison pipeline, for starters. Yet, tech companies are marketing AI as a one-stop-shop solution to “empower” teachers and “streamline” learning. They proclaim that education — like art and policing and healthcare and warfare …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "A journalist's perspective on AI in education\nA litany of problems beset the U.S\u2026",
+          "title": "A journalist's perspective on AI in education\nA litany of problems beset the U.S…",
           "url": "https://www.reddit.com/r/education/comments/1ven2jy/a_journalists_perspective_on_ai_in_education/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1602,13 +1552,13 @@
     },
     {
       "id": "l576",
-      "text": "Best AI essay grader for teachers?\nI spend a lot of time writing detailed comments on essays, but sometimes it feels like students barely read them. I&#39;d still like to give meaningful feedback, but I&#39;m wondering if there&#39;s a better workflow that doesn&#39;t take so much time. Has anyone found the best ai essay grader that helps with feedback while still keeping you in control of the final grade? &#32; submitted by &#32; /u/NeonWisp14 &#32; to &#32; r/englishteachers [link] &#32; [comm\u2026",
+      "text": "Best AI essay grader for teachers?\nI spend a lot of time writing detailed comments on essays, but sometimes it feels like students barely read them. I&#39;d still like to give meaningful feedback, but I&#39;m wondering if there&#39;s a better workflow that doesn&#39;t take so much time. Has anyone found the best ai essay grader that helps with feedback while still keeping you in control of the final grade? &#32; submitted by &#32; /u/NeonWisp14 &#32; to &#32; r/englishteachers [link] &#32; [comm…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Best AI essay grader for teachers?\nI spend a lot of time writing detailed commen\u2026",
+          "title": "Best AI essay grader for teachers?\nI spend a lot of time writing detailed commen…",
           "url": "https://www.reddit.com/r/englishteachers/comments/1vgswcb/best_ai_essay_grader_for_teachers/",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1623,13 +1573,13 @@
     },
     {
       "id": "l577",
-      "text": "Every EdTech SaaS says it's \"AI-powered.\" What AI feature has genuinely saved teachers time?\n&quot;AI-powered&quot; has become the default marketing phrase in education. But beyond the buzzword, which AI features have actually made teachers&#39; jobs easier? Examples might include: Automated grading Personalized learning paths Lesson planning assistance Student performance insights Parent communication Which features delivered measurable value, and which were mostly marketing? &#32; submitted by\u2026",
+      "text": "Every EdTech SaaS says it's \"AI-powered.\" What AI feature has genuinely saved teachers time?\n&quot;AI-powered&quot; has become the default marketing phrase in education. But beyond the buzzword, which AI features have actually made teachers&#39; jobs easier? Examples might include: Automated grading Personalized learning paths Lesson planning assistance Student performance insights Parent communication Which features delivered measurable value, and which were mostly marketing? &#32; submitted by…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Every EdTech SaaS says it's \"AI-powered.\" What AI feature has genuinely saved te\u2026",
+          "title": "Every EdTech SaaS says it's \"AI-powered.\" What AI feature has genuinely saved te…",
           "url": "https://www.reddit.com/r/edtech/comments/1vcshb2/every_edtech_saas_says_its_aipowered_what_ai/",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1644,13 +1594,13 @@
     },
     {
       "id": "l578",
-      "text": "How Much Trust Should AI Get in Education?\n&#32; submitted by &#32; /u/Sensitive-Office-820 &#32; to &#32; r/CheckMyTurnitin_ai [link] &#32; [comments]\nI do a little hobby programming and game dev. I find myself fact-checking AI constantly. I still use it but it's more of a sounding board / second opinion at this point. I definitely wouldn't hand it Professor here. Hallucinations are annoying, but that's not really my concern at all. Rather, I worry that by relying on it so heavily students will\u2026",
+      "text": "How Much Trust Should AI Get in Education?\n&#32; submitted by &#32; /u/Sensitive-Office-820 &#32; to &#32; r/CheckMyTurnitin_ai [link] &#32; [comments]\nI do a little hobby programming and game dev. I find myself fact-checking AI constantly. I still use it but it's more of a sounding board / second opinion at this point. I definitely wouldn't hand it Professor here. Hallucinations are annoying, but that's not really my concern at all. Rather, I worry that by relying on it so heavily students will…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "How Much Trust Should AI Get in Education?\n&#32; submitted by &#32; /u/Sensitive\u2026",
+          "title": "How Much Trust Should AI Get in Education?\n&#32; submitted by &#32; /u/Sensitive…",
           "url": "https://www.reddit.com/r/CheckMyTurnitin_ai/comments/1vx0707/how_much_trust_should_ai_get_in_education/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1665,13 +1615,13 @@
     },
     {
       "id": "l579",
-      "text": "Thinking about the future and worried about my child's education. Is progressive homeschooling a thing? What are your thoughts on public education, screens, AI, etc.?\nMy child is just entering preschool but I can&#39;t help thinking about the future. I have always been a huge public school supporter but feel very scared for my child (and other children). I am worried about the literacy rates and the general trend of children being behind academically. I am worried about all of the screens and th\u2026",
+      "text": "Thinking about the future and worried about my child's education. Is progressive homeschooling a thing? What are your thoughts on public education, screens, AI, etc.?\nMy child is just entering preschool but I can&#39;t help thinking about the future. I have always been a huge public school supporter but feel very scared for my child (and other children). I am worried about the literacy rates and the general trend of children being behind academically. I am worried about all of the screens and th…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Thinking about the future and worried about my child's education. Is progressive\u2026",
+          "title": "Thinking about the future and worried about my child's education. Is progressive…",
           "url": "https://www.reddit.com/r/progressivemoms/comments/1vta932/thinking_about_the_future_and_worried_about_my/",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1686,13 +1636,13 @@
     },
     {
       "id": "l580",
-      "text": "Teachers Against AI?\nI am an art teacher. I tried looking for sub groups for educators/teachers that are anti AI, and I haven\u2019t found anything. I want to make a policy in my syllabus about not using AI and how it will be considered cheating/not their own work (especially important considering I\u2019m looking for their own creativity and imagination). Is there anyone that is also in the same boat and has some insight on how I could format something like that? &#32; submitted by &#32; /u/sarah_cabrera\u2026",
+      "text": "Teachers Against AI?\nI am an art teacher. I tried looking for sub groups for educators/teachers that are anti AI, and I haven’t found anything. I want to make a policy in my syllabus about not using AI and how it will be considered cheating/not their own work (especially important considering I’m looking for their own creativity and imagination). Is there anyone that is also in the same boat and has some insight on how I could format something like that? &#32; submitted by &#32; /u/sarah_cabrera…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Teachers Against AI?\nI am an art teacher. I tried looking for sub groups for edu\u2026",
+          "title": "Teachers Against AI?\nI am an art teacher. I tried looking for sub groups for edu…",
           "url": "https://www.reddit.com/r/antiai/comments/1vxklae/teachers_against_ai/",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1707,13 +1657,13 @@
     },
     {
       "id": "l581",
-      "text": "Are graduates prepared for the AI era? | FT Working It\nHow are global education institutions helping graduates in the race to find rewarding first jobs? Working It editor Isabel Berwick finds a selection of tools and skills that students need to drive successful job searches.\n\n\u25ba Enjoying FT content? Get a daily slice of the very best FT journalism with FT Edit. Free for 30 days then just \u00a34.99 a month\n\nSee if you get the FT for free as a student (http://ft.com/schoolsarefree) or start a \u00a31 trial\u2026",
+      "text": "Are graduates prepared for the AI era? | FT Working It\nHow are global education institutions helping graduates in the race to find rewarding first jobs? Working It editor Isabel Berwick finds a selection of tools and skills that students need to drive successful job searches.\n\n► Enjoying FT content? Get a daily slice of the very best FT journalism with FT Edit. Free for 30 days then just £4.99 a month\n\nSee if you get the FT for free as a student (http://ft.com/schoolsarefree) or start a £1 trial…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Are graduates prepared for the AI era? | FT Working It\nHow are global education \u2026",
+          "title": "Are graduates prepared for the AI era? | FT Working It\nHow are global education …",
           "url": "https://www.youtube.com/watch?v=EsdqCEuoI8M",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1728,13 +1678,13 @@
     },
     {
       "id": "l582",
-      "text": "Cisco President Patel Makes the Case for AI in the Classroom\nCisco President and Chief Product Officer Jeetu Patel explains how artificial intelligence will benefit the education system on \"Bloomberg The Close.\"\r\n--------\r\nMore on Bloomberg Television and Markets\r\n \r\nLike this video? Subscribe and turn on notifications so you don't miss any videos from Bloomberg Markets & Finance: https://tinyurl.com/ysu5b8a9\r\nVisit http://www.bloomberg.com for business news & analysis, up-to-the-minute market d\u2026",
+      "text": "Cisco President Patel Makes the Case for AI in the Classroom\nCisco President and Chief Product Officer Jeetu Patel explains how artificial intelligence will benefit the education system on \"Bloomberg The Close.\"\r\n--------\r\nMore on Bloomberg Television and Markets\r\n \r\nLike this video? Subscribe and turn on notifications so you don't miss any videos from Bloomberg Markets & Finance: https://tinyurl.com/ysu5b8a9\r\nVisit http://www.bloomberg.com for business news & analysis, up-to-the-minute market d…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Cisco President Patel Makes the Case for AI in the Classroom\nCisco President and\u2026",
+          "title": "Cisco President Patel Makes the Case for AI in the Classroom\nCisco President and…",
           "url": "https://www.youtube.com/watch?v=Yq1BSr96w88",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1749,13 +1699,13 @@
     },
     {
       "id": "l583",
-      "text": "Cody McBroom says AI won't kill coaching, it'll kill bad coaches\nCody McBroom has never run a paid ad for his coaching company, and he still can't take on every client who applies. He says the reason has nothing to do with marketing, and everything to do with identity.\n\nGet Eric's weekly industry intelligence \u2192 https://futureoffitness.co\n\nEric Malzone sits down with Cody McBroom, founder of Tailored Coaching Method, who has built a multiple seven-figure online coaching business over nine years w\u2026",
+      "text": "Cody McBroom says AI won't kill coaching, it'll kill bad coaches\nCody McBroom has never run a paid ad for his coaching company, and he still can't take on every client who applies. He says the reason has nothing to do with marketing, and everything to do with identity.\n\nGet Eric's weekly industry intelligence → https://futureoffitness.co\n\nEric Malzone sits down with Cody McBroom, founder of Tailored Coaching Method, who has built a multiple seven-figure online coaching business over nine years w…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Cody McBroom says AI won't kill coaching, it'll kill bad coaches\nCody McBroom ha\u2026",
+          "title": "Cody McBroom says AI won't kill coaching, it'll kill bad coaches\nCody McBroom ha…",
           "url": "https://www.youtube.com/watch?v=I7DZchahPic",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1846,6 +1796,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

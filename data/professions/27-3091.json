@@ -15,58 +15,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "27-3091-01",
-      "text": "National peak professional bodies and statutory regulators governing Interpreters and Translators enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Interpreters and Translators",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Interpreters and Translators",
-          "url": "https://www.psc.gov.au/standards/27-3091",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Interpreters and Translators"
-        }
-      ],
-      "scope": "Australian practitioners in Interpreters and Translators across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "27-3091-02",
-      "text": "Automation of routine transactional and analytical tasks in Interpreters and Translators heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Interpreters and Translators",
-          "url": "https://www.jobsandskills.gov.au/research/27-3091",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Interpreters and Translators in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Interpreters and Translators roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Hmong: Interpreter \u2014 One World Global Services LLC (Melbourne, Victoria, Australia). Posted 2 months ago.",
+      "text": "Hmong: Interpreter — One World Global Services LLC (Melbourne, Victoria, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -87,7 +37,7 @@
     },
     {
       "id": "l404",
-      "text": "Marshallese: Interpreter Australia \u2014 One World Global Services LLC (Queensland, Australia). Posted 2 months ago.",
+      "text": "Marshallese: Interpreter Australia — One World Global Services LLC (Queensland, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -108,7 +58,7 @@
     },
     {
       "id": "l405",
-      "text": "Teacher Aide (Educational Interpreter - Auslan) - Statewide Talent Pool \u2014 Queensland Government (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Teacher Aide (Educational Interpreter - Auslan) - Statewide Talent Pool — Queensland Government (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -129,7 +79,7 @@
     },
     {
       "id": "l406",
-      "text": "Karen Interpreter \u2014 Kreato Global | BPO and Language Solutions (Australia). Posted 5 months ago.",
+      "text": "Karen Interpreter — Kreato Global | BPO and Language Solutions (Australia). Posted 5 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -150,7 +100,7 @@
     },
     {
       "id": "l407",
-      "text": "Auslan Video Interpreter \u2014 Concentrix (Australia). Posted 2 days ago.",
+      "text": "Auslan Video Interpreter — Concentrix (Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -171,7 +121,7 @@
     },
     {
       "id": "l408",
-      "text": "Interpreter (NSW Based) \u2014 Oncall (Australia). Posted 6 days ago.",
+      "text": "Interpreter (NSW Based) — Oncall (Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -192,7 +142,7 @@
     },
     {
       "id": "l409",
-      "text": "Parts Interpreter \u2014 Tutt Bryant Group Limited (Brisbane, Queensland, Australia). Posted 1 day ago.",
+      "text": "Parts Interpreter — Tutt Bryant Group Limited (Brisbane, Queensland, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -213,7 +163,7 @@
     },
     {
       "id": "l410",
-      "text": "Intake Officer - Sydney \u2014 Knowmore Legal Service (Sydney, New South Wales, Australia). Posted 1 month ago.",
+      "text": "Intake Officer - Sydney — Knowmore Legal Service (Sydney, New South Wales, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -234,7 +184,7 @@
     },
     {
       "id": "l411",
-      "text": "Parts Interpreter \u2014 Bapcor Limited (Townsville, Queensland, Australia). Posted 4 weeks ago.",
+      "text": "Parts Interpreter — Bapcor Limited (Townsville, Queensland, Australia). Posted 4 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -255,7 +205,7 @@
     },
     {
       "id": "l412",
-      "text": "Teacher Aide (Language Model - Auslan) - Statewide Talent Pool \u2014 Queensland Government (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Teacher Aide (Language Model - Auslan) - Statewide Talent Pool — Queensland Government (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -276,13 +226,13 @@
     },
     {
       "id": "l513",
-      "text": "\ud83c\udf10 Official AI Content Report 2026-08-26\n# Official AI Content Report 2026-08-26\n\n> Today's update | New content: 27 articles | Generated: 2026-08-26 01:44 UTC\n\nSources:\n- Anthropic: [anthropic.com](https://www.anthropic.com) \u2014 24 new articles (sitemap total: 436)\n- OpenAI: [openai.com](https://openai.com) \u2014 3 new articles (sitemap total:",
+      "text": "🌐 Official AI Content Report 2026-08-26\n# Official AI Content Report 2026-08-26\n\n> Today's update | New content: 27 articles | Generated: 2026-08-26 01:44 UTC\n\nSources:\n- Anthropic: [anthropic.com](https://www.anthropic.com) — 24 new articles (sitemap total: 436)\n- OpenAI: [openai.com](https://openai.com) — 3 new articles (sitemap total:",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83c\udf10 Official AI Content Report 2026-08-26\n# Official AI Content Report 2026-08-26\n\u2026",
+          "title": "🌐 Official AI Content Report 2026-08-26\n# Official AI Content Report 2026-08-26\n…",
           "url": "https://github.com/xavier9802/agents-radar/issues/474",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -297,13 +247,13 @@
     },
     {
       "id": "l514",
-      "text": "feat: cmux sudo with TouchID approval\n## Summary\n\nAdds a guarded `cmux sudo -- <command>` flow for agent terminals inside cmux.\n\n- The CLI sends `sudo.request` over the existing cmux Unix socket with the explicit argv, cwd, caller pid, uid, workspace id, and surface id.\n- The app validates that the request came from the same Unix socket\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/cloud/settings/usage)\u2026",
+      "text": "feat: cmux sudo with TouchID approval\n## Summary\n\nAdds a guarded `cmux sudo -- <command>` flow for agent terminals inside cmux.\n\n- The CLI sends `sudo.request` over the existing cmux Unix socket with the explicit argv, cwd, caller pid, uid, workspace id, and surface id.\n- The app validates that the request came from the same Unix socket\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/cloud/settings/usage)…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: cmux sudo with TouchID approval\n## Summary\n\nAdds a guarded `cmux sudo -- <\u2026",
+          "title": "feat: cmux sudo with TouchID approval\n## Summary\n\nAdds a guarded `cmux sudo -- <…",
           "url": "https://github.com/manaflow-ai/cmux/pull/4496",
           "date": "2026-05-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -507,13 +457,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -528,13 +478,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -717,13 +667,13 @@
     },
     {
       "id": "l534",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -759,13 +709,13 @@
     },
     {
       "id": "l536",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -801,13 +751,13 @@
     },
     {
       "id": "l538",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -822,13 +772,13 @@
     },
     {
       "id": "l539",
-      "text": "Where Is the AI Jobs Apocalypse? (Free Press)\nYes, this guy works at Anthropic, but that doesn&#39;t mean his data is therefore false. If he&#39;s misleading with any of it, show that. If there&#39;s evidence he failed to mention, mention it. It&#39;s important to note that this article is really only trying to disprove that a job displacement is currently happening. It&#39;s entirely compatible with the idea that there will be AI-fueled unemployment in the future. This is adapted from an X arti\u2026",
+      "text": "Where Is the AI Jobs Apocalypse? (Free Press)\nYes, this guy works at Anthropic, but that doesn&#39;t mean his data is therefore false. If he&#39;s misleading with any of it, show that. If there&#39;s evidence he failed to mention, mention it. It&#39;s important to note that this article is really only trying to disprove that a job displacement is currently happening. It&#39;s entirely compatible with the idea that there will be AI-fueled unemployment in the future. This is adapted from an X arti…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Where Is the AI Jobs Apocalypse? (Free Press)\nYes, this guy works at Anthropic, \u2026",
+          "title": "Where Is the AI Jobs Apocalypse? (Free Press)\nYes, this guy works at Anthropic, …",
           "url": "https://www.reddit.com/r/DeepStateCentrism/comments/1vtofle/where_is_the_ai_jobs_apocalypse_free_press/",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -843,13 +793,13 @@
     },
     {
       "id": "l540",
-      "text": "|US ECONOMY BRIEFING | 11.08.2026 | 06:09 PM ET |Last 24 Hours | 264,000 Americans quit the job search in July, energy bills keep climbing on Hormuz tensions, and AI is quietly eliminating jobs across the economy |TOP 45 STORIES\nThe July jobs report looks better on paper, but only because 264,000 people stopped searching for work entirely. At the same time, the Hormuz standoff is pushing energy prices higher, raising gas, diesel, and heating costs for American households. And economists warn tha\u2026",
+      "text": "|US ECONOMY BRIEFING | 11.08.2026 | 06:09 PM ET |Last 24 Hours | 264,000 Americans quit the job search in July, energy bills keep climbing on Hormuz tensions, and AI is quietly eliminating jobs across the economy |TOP 45 STORIES\nThe July jobs report looks better on paper, but only because 264,000 people stopped searching for work entirely. At the same time, the Hormuz standoff is pushing energy prices higher, raising gas, diesel, and heating costs for American households. And economists warn tha…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "|US ECONOMY BRIEFING | 11.08.2026 | 06:09 PM ET |Last 24 Hours | 264,000 America\u2026",
+          "title": "|US ECONOMY BRIEFING | 11.08.2026 | 06:09 PM ET |Last 24 Hours | 264,000 America…",
           "url": "https://www.reddit.com/r/TrumpGlobalWar/comments/1vldga3/us_economy_briefing_11082026_0609_pm_et_last_24/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -864,13 +814,13 @@
     },
     {
       "id": "l541",
-      "text": "Claude AI Watermark Means New Claude Models Can Be Tracked\nClaude AI Watermark means newer Claude outputs can carry signals that make AI involvement easier to trace after leaving the original chat. That does not mean Anthropic is secretly following users around the internet, because the system focuses on content provenance, not personal surveillance. The AI Profit Boardroom helps people understand AI updates, improve workflows, and adapt as tools change. Watch the video below: https://www.youtub\u2026",
+      "text": "Claude AI Watermark Means New Claude Models Can Be Tracked\nClaude AI Watermark means newer Claude outputs can carry signals that make AI involvement easier to trace after leaving the original chat. That does not mean Anthropic is secretly following users around the internet, because the system focuses on content provenance, not personal surveillance. The AI Profit Boardroom helps people understand AI updates, improve workflows, and adapt as tools change. Watch the video below: https://www.youtub…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Claude AI Watermark Means New Claude Models Can Be Tracked\nClaude AI Watermark m\u2026",
+          "title": "Claude AI Watermark Means New Claude Models Can Be Tracked\nClaude AI Watermark m…",
           "url": "https://www.reddit.com/r/AISEOInsider/comments/1voizd6/claude_ai_watermark_means_new_claude_models_can/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -885,13 +835,13 @@
     },
     {
       "id": "l542",
-      "text": "The Operational Spine of Agentic AI: Why Omnistudio is Agentforce\u2019s Force Multiplier\nEnterprise AI is facing a silent crisis. We are confronted with a perplexing paradox: investment is skyrocketing, yet 95% of AI proofs of concept fail to scale . The paradox is explained by the industry-wide realization that erecting a natural language interface is merely the tip of the iceberg. The operational challenge lies in achieving enterprise scalability while ensuring adherence to compliance standards, i\u2026",
+      "text": "The Operational Spine of Agentic AI: Why Omnistudio is Agentforce’s Force Multiplier\nEnterprise AI is facing a silent crisis. We are confronted with a perplexing paradox: investment is skyrocketing, yet 95% of AI proofs of concept fail to scale . The paradox is explained by the industry-wide realization that erecting a natural language interface is merely the tip of the iceberg. The operational challenge lies in achieving enterprise scalability while ensuring adherence to compliance standards, i…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The Operational Spine of Agentic AI: Why Omnistudio is Agentforce\u2019s Force Multip\u2026",
+          "title": "The Operational Spine of Agentic AI: Why Omnistudio is Agentforce’s Force Multip…",
           "url": "https://www.reddit.com/r/Omnistudiodiscussions/comments/1vrkzuh/the_operational_spine_of_agentic_ai_why/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -906,13 +856,13 @@
     },
     {
       "id": "l543",
-      "text": "Taiwan says it was targeted last month in AI-driven hacking campaign\n13 August 2026 News Taiwan&#39;s Ministry of Digital Affairs detected an overseas AI-assisted cyberattack targeting government agencies in July, which was successfully contained following warning alerts. The multi-agent hacking campaign breached Taiwan&#39;s justice ministry and nuclear safety agency using tools like Open Claw to extract credentials and scan for vulnerabilities. Cybersecurity experts note that while AI models l\u2026",
+      "text": "Taiwan says it was targeted last month in AI-driven hacking campaign\n13 August 2026 News Taiwan&#39;s Ministry of Digital Affairs detected an overseas AI-assisted cyberattack targeting government agencies in July, which was successfully contained following warning alerts. The multi-agent hacking campaign breached Taiwan&#39;s justice ministry and nuclear safety agency using tools like Open Claw to extract credentials and scan for vulnerabilities. Cybersecurity experts note that while AI models l…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Taiwan says it was targeted last month in AI-driven hacking campaign\n13 August 2\u2026",
+          "title": "Taiwan says it was targeted last month in AI-driven hacking campaign\n13 August 2…",
           "url": "https://www.reddit.com/r/GeopoliticsMicroscope/comments/1vn0v01/taiwan_says_it_was_targeted_last_month_in/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -933,7 +883,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Lost in the Gears: A Translator's Manifesto\nWhat Machine Translation Still Can't\u2026",
+          "title": "Lost in the Gears: A Translator's Manifesto\nWhat Machine Translation Still Can't…",
           "url": "https://x.com/LanguageCrawler/status/2091878761083945167",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -954,7 +904,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "While everyone was watching robots learn to sprint and faceplant at the finish l\u2026",
+          "title": "While everyone was watching robots learn to sprint and faceplant at the finish l…",
           "url": "https://x.com/Vynqorxe/status/2092761951718044138",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -975,7 +925,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Public Service Announcement for all Intelligentsia, Culturati, Literati, Aerial \u2026",
+          "title": "Public Service Announcement for all Intelligentsia, Culturati, Literati, Aerial …",
           "url": "https://x.com/miltonappl3/status/2093162514875928643",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -990,13 +940,13 @@
     },
     {
       "id": "l547",
-      "text": "1. i started pointing out that the use of code interpreters constituted neurosymbolic AI before GPT-5 came\nout.\n\n2. but thank you being literally AFAIk the first person at OpenAI to publicly\nacknowledge the value of neurosymbolic AI, which is of course what I fought for the last 25 years. \ud83d\ude4f",
+      "text": "1. i started pointing out that the use of code interpreters constituted neurosymbolic AI before GPT-5 came\nout.\n\n2. but thank you being literally AFAIk the first person at OpenAI to publicly\nacknowledge the value of neurosymbolic AI, which is of course what I fought for the last 25 years. 🙏",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "1. i started pointing out that the use of code interpreters constituted neurosym\u2026",
+          "title": "1. i started pointing out that the use of code interpreters constituted neurosym…",
           "url": "https://x.com/GaryMarcus/status/2092041591913693620",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1038,7 +988,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@max_spero_ @ryan_huang_1 You are correct! Excellent detective work! Will be int\u2026",
+          "title": "@max_spero_ @ryan_huang_1 You are correct! Excellent detective work! Will be int…",
           "url": "https://x.com/LanguageCrawler/status/2092988444498710741",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1074,13 +1024,13 @@
     },
     {
       "id": "l551",
-      "text": "WE ARE HIRING | Chinese-English Interpreters\n\ud83d\udccd Kebbi State, Nigeria | Multiple Vacancies\n\nAbout Us\nRunlink AI HR is West Africa\u2019s first Chinese-owned AI HR talent platform.\nWe professionally recruit talents on behalf of top Chinese listed enterprises, providing stable, long-term formal job opportunities for local Nigerian professionals.\n\nJob Requirements\n\u2022 Fluent in real-time Chinese-English on-site oral interpretation\n\u2022 HSK4 / HSK5 certified; Hausa language skill is a strong advantage\n\u2022 Relevan",
+      "text": "WE ARE HIRING | Chinese-English Interpreters\n📍 Kebbi State, Nigeria | Multiple Vacancies\n\nAbout Us\nRunlink AI HR is West Africa’s first Chinese-owned AI HR talent platform.\nWe professionally recruit talents on behalf of top Chinese listed enterprises, providing stable, long-term formal job opportunities for local Nigerian professionals.\n\nJob Requirements\n• Fluent in real-time Chinese-English on-site oral interpretation\n• HSK4 / HSK5 certified; Hausa language skill is a strong advantage\n• Relevan",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "WE ARE HIRING | Chinese-English Interpreters\n\ud83d\udccd Kebbi State, Nigeria | Multiple V\u2026",
+          "title": "WE ARE HIRING | Chinese-English Interpreters\n📍 Kebbi State, Nigeria | Multiple V…",
           "url": "https://x.com/alfamohammed141/status/2092329266851500210",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1122,7 +1072,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "On LocToday, Marisa Gillio explains the dual reality of #AI. While it is a fanta\u2026",
+          "title": "On LocToday, Marisa Gillio explains the dual reality of #AI. While it is a fanta…",
           "url": "https://x.com/multilingualmag/status/2092406304866197638",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1143,7 +1093,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "This is where older Bible-believing interpreters are instructive. Decades before\u2026",
+          "title": "This is where older Bible-believing interpreters are instructive. Decades before…",
           "url": "https://x.com/TNTJohn1717/status/2093432784215757091",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1164,7 +1114,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@DavidNachman3 May just give different views. I could imagine a situation like: \u2026",
+          "title": "@DavidNachman3 May just give different views. I could imagine a situation like: …",
           "url": "https://x.com/WillTheNoahide7/status/2092755034643804168",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1179,13 +1129,13 @@
     },
     {
       "id": "l556",
-      "text": "For decades multilingual customer support required interpreters and delays. AI is beginning to change that model entirely. Recently $ONEI introduced real-time interpretation technology for CX environments. Learn more at https://t.co/0AoyTjGdWi\u00a0 $ONEI\u00a0 #AIAgent #LanguageAsAService",
+      "text": "For decades multilingual customer support required interpreters and delays. AI is beginning to change that model entirely. Recently $ONEI introduced real-time interpretation technology for CX environments. Learn more at https://t.co/0AoyTjGdWi  $ONEI  #AIAgent #LanguageAsAService",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "For decades multilingual customer support required interpreters and delays. AI i\u2026",
+          "title": "For decades multilingual customer support required interpreters and delays. AI i…",
           "url": "https://x.com/onemeta_ai/status/2093360615305707672",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1200,13 +1150,13 @@
     },
     {
       "id": "l557",
-      "text": "AI doesn\u2019t need to be worshipped to produce a priesthood. opacity is enough.\nwe already built the temples. \nsome of the interpreters are already here.",
+      "text": "AI doesn’t need to be worshipped to produce a priesthood. opacity is enough.\nwe already built the temples. \nsome of the interpreters are already here.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI doesn\u2019t need to be worshipped to produce a priesthood. opacity is enough.\nwe \u2026",
+          "title": "AI doesn’t need to be worshipped to produce a priesthood. opacity is enough.\nwe …",
           "url": "https://x.com/NeuralOutl70066/status/2092504159379472576",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1221,13 +1171,13 @@
     },
     {
       "id": "l558",
-      "text": "\u201cSIMcard\u201d \u2014 Embedding a publication\u2019s metadata with transparent and standardized, direct-to-machine instructions that explicitly anchor AI interpreters to stick to a study\u2019s direct claims, limitations, context, and appropriate level of inference.\n\n6/x https://t.co/CVjaqW9348",
+      "text": "“SIMcard” — Embedding a publication’s metadata with transparent and standardized, direct-to-machine instructions that explicitly anchor AI interpreters to stick to a study’s direct claims, limitations, context, and appropriate level of inference.\n\n6/x https://t.co/CVjaqW9348",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u201cSIMcard\u201d \u2014 Embedding a publication\u2019s metadata with transparent and standardized\u2026",
+          "title": "“SIMcard” — Embedding a publication’s metadata with transparent and standardized…",
           "url": "https://x.com/TheSGEM/status/2091893687445823549",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1263,13 +1213,13 @@
     },
     {
       "id": "l560",
-      "text": "AI\u2019s hallucination problem may have an answer. It just starts with math. \ud83e\uddee\n\n@CoreyNoles and @TheNeuronScribe sat down with Harmonic CEO @tachim to explore an ambitious idea: AI that doesn\u2019t just give you answers. It can prove them.\n\nWatch the replay to see why that could matter far beyond math. \ud83c\udf99\ufe0f",
+      "text": "AI’s hallucination problem may have an answer. It just starts with math. 🧮\n\n@CoreyNoles and @TheNeuronScribe sat down with Harmonic CEO @tachim to explore an ambitious idea: AI that doesn’t just give you answers. It can prove them.\n\nWatch the replay to see why that could matter far beyond math. 🎙️",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI\u2019s hallucination problem may have an answer. It just starts with math. \ud83e\uddee\n\n@Cor\u2026",
+          "title": "AI’s hallucination problem may have an answer. It just starts with math. 🧮\n\n@Cor…",
           "url": "https://x.com/theneurondaily/status/2093089672348176752",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1284,13 +1234,13 @@
     },
     {
       "id": "l561",
-      "text": "Imagine writing it yourself and still getting flagged as AI. \ud83e\udee0\n\nThat\u2019s the problem with treating AI detectors as proof.\n\nFalse positives have real consequences, especially when schools and workplaces use them to judge people.\n\nDetection should start a conversation, not end one. \u270d\ud83c\udffb",
+      "text": "Imagine writing it yourself and still getting flagged as AI. 🫠\n\nThat’s the problem with treating AI detectors as proof.\n\nFalse positives have real consequences, especially when schools and workplaces use them to judge people.\n\nDetection should start a conversation, not end one. ✍🏻",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Imagine writing it yourself and still getting flagged as AI. \ud83e\udee0\n\nThat\u2019s the probl\u2026",
+          "title": "Imagine writing it yourself and still getting flagged as AI. 🫠\n\nThat’s the probl…",
           "url": "https://x.com/theneurondaily/status/2093418337929769177",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1305,13 +1255,13 @@
     },
     {
       "id": "l562",
-      "text": "Hackers convinced an AI agent to help attack 7 companies by telling it one thing:\n\n\u201cIt\u2019s just a test.\u201d \ud83d\udea8\n\nThe agent initially refused the malicious requests.\n\nThen the hackers convinced it the attacks were happening in a legal simulation, and its guardrails gave way.\n\nLearn what happened and why cyber insurers are already reacting: https://t.co/OX0IlGbTwB",
+      "text": "Hackers convinced an AI agent to help attack 7 companies by telling it one thing:\n\n“It’s just a test.” 🚨\n\nThe agent initially refused the malicious requests.\n\nThen the hackers convinced it the attacks were happening in a legal simulation, and its guardrails gave way.\n\nLearn what happened and why cyber insurers are already reacting: https://t.co/OX0IlGbTwB",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Hackers convinced an AI agent to help attack 7 companies by telling it one thing\u2026",
+          "title": "Hackers convinced an AI agent to help attack 7 companies by telling it one thing…",
           "url": "https://x.com/theneurondaily/status/2093363728138056038",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1332,7 +1282,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "When the World Cup Meets AI Agents: How Wallets Are Evolving into Agentic Wallet\u2026",
+          "title": "When the World Cup Meets AI Agents: How Wallets Are Evolving into Agentic Wallet…",
           "url": "https://x.com/imTokenOfficial/status/2071442493284261957",
           "date": "2026-06-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1402,6 +1352,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

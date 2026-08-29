@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "39-9031-01",
-      "text": "National peak professional bodies and statutory regulators governing Fitness Trainers and Aerobics Instructors enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Fitness Trainers and Aerobics Instructors",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Fitness Trainers and Aerobics Instructors",
-          "url": "https://www.psc.gov.au/standards/39-9031",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Fitness Trainers and Aerobics Instructors"
-        }
-      ],
-      "scope": "Australian practitioners in Fitness Trainers and Aerobics Instructors across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "39-9031-02",
-      "text": "Automation of routine transactional and analytical tasks in Fitness Trainers and Aerobics Instructors heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Fitness Trainers and Aerobics Instructors",
-          "url": "https://www.jobsandskills.gov.au/research/39-9031",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Fitness Trainers and Aerobics Instructors in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Fitness Trainers and Aerobics Instructors roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "Topick 9 dml\nThis pr adds dml queries to [topic-09-dml/dml.sql](https://github.com/db-2026-05/team-6/compare/topick-9-dml?expand=1#diff-5954f29f204703fabccee915cb760ae98946d20f6de244f4af2ae0915ba17f38) file.\n# \ud83d\udd0d \u041e\u0433\u043b\u044f\u0434 Submission \u2014 Topic 09 (SQL DML)\n\n\u0414\u043e\u0431\u0440\u0438\u0439 \u0434\u0435\u043d\u044c! \u042f \u043f\u0435\u0440\u0435\u0432\u0456\u0440\u0438\u0432 \u0432\u0430\u0448 DML \u0441\u043a\u0440\u0438\u043f\u0442. \u0404 **\u043a\u0456\u043b\u044c\u043a\u0430 \u043a\u0440\u0438\u0442\u0438\u0447\u043d\u0438\u0445 \u043f\u0440\u043e\u0431\u043b\u0435\u043c**, \u044f\u043a\u0456 \u043f\u043e\u0442\u0440\u0456\u0431\u043d\u043e \u0432\u0438\u043f\u0440\u0430\u0432\u0438\u0442\u0438 \u043f\u0435\u0440\u0435\u0434 \u0444\u0456\u043d\u0430\u043b\u044c\u043d\u043e\u044e \u0437\u0434\u0430\u0447\u0435\u044e.\n\n---\n\n## \u274c **\u041a\u0440\u0438\u0442\u0438\u0447\u043d\u0456 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0438**\n\n### 1. **\u0414\u0443\u0436\u0435 \u043c\u0430\u043b\u043e \u0442\u0430\u0431\u043b\u0438\u0446\u044c \u043d\u0430\u043f\u043e\u0432\u043d\u0435\u043d\u043e**\n\u0412\u0438 \u0437\u0430\u043f\u043e\u0432\u043d\u0438\u043b\u0438 \u0434\u0430\u043d\u0456 \u0434\u043b\u044f \u043b\u0438\u0448\u0435 **3 \u0442\u0430\u0431\u043b\u0438\u0446\u044c** \u0437 20 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0438\u0445 \u2026",
+      "text": "Topick 9 dml\nThis pr adds dml queries to [topic-09-dml/dml.sql](https://github.com/db-2026-05/team-6/compare/topick-9-dml?expand=1#diff-5954f29f204703fabccee915cb760ae98946d20f6de244f4af2ae0915ba17f38) file.\n# 🔍 Огляд Submission — Topic 09 (SQL DML)\n\nДобрий день! Я перевірив ваш DML скрипт. Є **кілька критичних проблем**, які потрібно виправити перед фінальною здачею.\n\n---\n\n## ❌ **Критичні проблеми**\n\n### 1. **Дуже мало таблиць наповнено**\nВи заповнили дані для лише **3 таблиць** з 20 доступних …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Topick 9 dml\nThis pr adds dml queries to [topic-09-dml/dml.sql](https://github.c\u2026",
+          "title": "Topick 9 dml\nThis pr adds dml queries to [topic-09-dml/dml.sql](https://github.c…",
           "url": "https://github.com/db-2026-05/team-6/pull/3",
           "date": "2026-05-29",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -191,13 +141,13 @@
     },
     {
       "id": "l509",
-      "text": "Show HN: MetrIQ \u2013 An AI fitness coach who supports you",
+      "text": "Show HN: MetrIQ – An AI fitness coach who supports you",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: MetrIQ \u2013 An AI fitness coach who supports you",
+          "title": "Show HN: MetrIQ – An AI fitness coach who supports you",
           "url": "https://metriq.fitness",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -254,13 +204,13 @@
     },
     {
       "id": "l512",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -275,13 +225,13 @@
     },
     {
       "id": "l513",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -338,13 +288,13 @@
     },
     {
       "id": "l516",
-      "text": "Tesla's AI trainers don't trust its self-driving tech \u2013 or its safety stats",
+      "text": "Tesla's AI trainers don't trust its self-driving tech – or its safety stats",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Tesla's AI trainers don't trust its self-driving tech \u2013 or its safety stats",
+          "title": "Tesla's AI trainers don't trust its self-driving tech – or its safety stats",
           "url": "https://www.reuters.com/investigations/why-teslas-ai-trainers-dont-trust-its-self-driving-tech-or-its-safety-stats-2026-05-28/",
           "date": "2026-05-29",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -443,13 +393,13 @@
     },
     {
       "id": "l521",
-      "text": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+      "text": "Show HN: Videopython – local-first video processing, editing and AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+          "title": "Show HN: Videopython – local-first video processing, editing and AI workflows",
           "url": "https://github.com/bartwojtowicz/videopython",
           "date": "2026-06-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -485,13 +435,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -527,13 +477,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -569,13 +519,13 @@
     },
     {
       "id": "l527",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Feature: AI coach that runs 100% on your iPhone. Giving away 1 year of Pro\nI\u2019ve been working on a new feature for Stepzy called AI Coach , and it\u2019s finally ready. The idea is simple: instead of just showing you numbers after a workout, Stepzy actually helps you understand them. AI Coach can: Give you personalized feedback after every workout Explain what stood out in your pace, heart rate, zones, duration, and recent performance Suggest what to focus on next time Coach you based on your entire d\u2026",
+      "text": "Feature: AI coach that runs 100% on your iPhone. Giving away 1 year of Pro\nI’ve been working on a new feature for Stepzy called AI Coach , and it’s finally ready. The idea is simple: instead of just showing you numbers after a workout, Stepzy actually helps you understand them. AI Coach can: Give you personalized feedback after every workout Explain what stood out in your pace, heart rate, zones, duration, and recent performance Suggest what to focus on next time Coach you based on your entire d…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Feature: AI coach that runs 100% on your iPhone. Giving away 1 year of Pro\nI\u2019ve \u2026",
+          "title": "Feature: AI coach that runs 100% on your iPhone. Giving away 1 year of Pro\nI’ve …",
           "url": "https://www.reddit.com/r/StepzyApp/comments/1vrv2zv/feature_ai_coach_that_runs_100_on_your_iphone/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "I hate AI\nEdit to fix formatting and say that I DID NOT WRITE THIS WITH AI. I\u2019m aware few people will likely see this and even fewer actually read to the end, but I feel compelled to write it nevertheless. I saw a post today in a teacher help group I\u2019m a part of on Facebook asking for a good AI program to use for assistance in creating kindergarten materials. (Picture below). I am honestly amazed that things have come this far, and not in a good way. It took that person more time to fight with A\u2026",
+      "text": "I hate AI\nEdit to fix formatting and say that I DID NOT WRITE THIS WITH AI. I’m aware few people will likely see this and even fewer actually read to the end, but I feel compelled to write it nevertheless. I saw a post today in a teacher help group I’m a part of on Facebook asking for a good AI program to use for assistance in creating kindergarten materials. (Picture below). I am honestly amazed that things have come this far, and not in a good way. It took that person more time to fight with A…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I hate AI\nEdit to fix formatting and say that I DID NOT WRITE THIS WITH AI. I\u2019m \u2026",
+          "title": "I hate AI\nEdit to fix formatting and say that I DID NOT WRITE THIS WITH AI. I’m …",
           "url": "https://www.reddit.com/r/HonestHotTakes/comments/1vl4qz8/i_hate_ai/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "Iridium MCP Server \u2013 Connects AI agents to Iridium fitness data to query workout history, nutrition logs, and body measurements. It enables users to track exercise progress, training volume, and personalized trainer analysis through natural language.\n&#32; submitted by &#32; /u/modelcontextprotocol &#32; to &#32; r/mcp [link] &#32; [comments]\nThis server has 19 tools: get_body_measurements \u2013 Retrieve body measurement history (weight, body fat, etc.) over a date range. Supports flexible date inpu\u2026",
+      "text": "Iridium MCP Server – Connects AI agents to Iridium fitness data to query workout history, nutrition logs, and body measurements. It enables users to track exercise progress, training volume, and personalized trainer analysis through natural language.\n&#32; submitted by &#32; /u/modelcontextprotocol &#32; to &#32; r/mcp [link] &#32; [comments]\nThis server has 19 tools: get_body_measurements – Retrieve body measurement history (weight, body fat, etc.) over a date range. Supports flexible date inpu…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Iridium MCP Server \u2013 Connects AI agents to Iridium fitness data to query workout\u2026",
+          "title": "Iridium MCP Server – Connects AI agents to Iridium fitness data to query workout…",
           "url": "https://www.reddit.com/r/mcp/comments/1vvmbai/iridium_mcp_server_connects_ai_agents_to_iridium/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -659,7 +609,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "TWO GENIUSES JUST OPENED EVERYONE'S EYES ON HOW TO MAKE REAL CASH WITH AI\n\none b\u2026",
+          "title": "TWO GENIUSES JUST OPENED EVERYONE'S EYES ON HOW TO MAKE REAL CASH WITH AI\n\none b…",
           "url": "https://x.com/N01ennn/status/2092234929090269402",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -674,13 +624,13 @@
     },
     {
       "id": "l532",
-      "text": "The brewing tension between \u201cBiohackers\u201d / \u201cPeptide Rats\u201d and the old-school AAS Boomer/Gen X crowd\n\nIt\u2019s no secret.\n\nA lot of people are burned out on the term biohacking.\n\nMy handle is BiohackerJake and I\u2019m not changing it at this point, but I get it. People are tired of the AI-generated posts, tired of every single compound being treated like the next massive needle-mover, and tired of watching people stack a million things at once. I\u2019ve been guilty of the last one myself. When X is a big par",
+      "text": "The brewing tension between “Biohackers” / “Peptide Rats” and the old-school AAS Boomer/Gen X crowd\n\nIt’s no secret.\n\nA lot of people are burned out on the term biohacking.\n\nMy handle is BiohackerJake and I’m not changing it at this point, but I get it. People are tired of the AI-generated posts, tired of every single compound being treated like the next massive needle-mover, and tired of watching people stack a million things at once. I’ve been guilty of the last one myself. When X is a big par",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The brewing tension between \u201cBiohackers\u201d / \u201cPeptide Rats\u201d and the old-school AAS\u2026",
+          "title": "The brewing tension between “Biohackers” / “Peptide Rats” and the old-school AAS…",
           "url": "https://x.com/BiohackerJake/status/2091601499562590571",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -743,7 +693,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "DK Suresh should turn pro and not be on the college circuit any more. He can sur\u2026",
+          "title": "DK Suresh should turn pro and not be on the college circuit any more. He can sur…",
           "url": "https://x.com/tirumuru_87/status/2092268540174979209",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "One Character DNA \u2192 7 AI Girls \u2192 $210,000/Month",
+      "text": "One Character DNA → 7 AI Girls → $210,000/Month",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "One Character DNA \u2192 7 AI Girls \u2192 $210,000/Month",
+          "title": "One Character DNA → 7 AI Girls → $210,000/Month",
           "url": "https://x.com/Mavernxbt/status/2087163870523638205",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "@DandaroOnline Fitness trainers\ud83e\udd28",
+      "text": "@DandaroOnline Fitness trainers🤨",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@DandaroOnline Fitness trainers\ud83e\udd28",
+          "title": "@DandaroOnline Fitness trainers🤨",
           "url": "https://x.com/pmakunuraa/status/2092162698356068755",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -848,7 +798,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "5 AI Video Girls From 5 Photos. $91,400 in 60 Days. One Laptop Runs the Entire P\u2026",
+          "title": "5 AI Video Girls From 5 Photos. $91,400 in 60 Days. One Laptop Runs the Entire P…",
           "url": "https://x.com/0x_rimi/status/2087569955235471823",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -869,7 +819,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I've dated women that were fitness trainers and aerobics instructors and always \u2026",
+          "title": "I've dated women that were fitness trainers and aerobics instructors and always …",
           "url": "https://x.com/seedless61/status/2091441744437227881",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -890,7 +840,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The system must come back.\n\nFitness trainers must quickly attend to him\n\nThere i\u2026",
+          "title": "The system must come back.\n\nFitness trainers must quickly attend to him\n\nThere i…",
           "url": "https://x.com/Constitution_94/status/2091210077428445197",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -911,7 +861,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Engineer running six small businesses replaced his entire back office with six a\u2026",
+          "title": "Engineer running six small businesses replaced his entire back office with six a…",
           "url": "https://x.com/N01ennn/status/2093493734620946591",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -926,13 +876,13 @@
     },
     {
       "id": "l544",
-      "text": "if you\u2019re making under 5K MRR with your app...\n\ninstead of trying to go viral for 3 months\n\njust run AI ads bro\n\nhere\u2019s how i did it to scale to $20K/mo two times in a row \ud83d\udc47\n\nhttps://t.co/6hrTT9HNVT https://t.co/EOhm3TF9kr",
+      "text": "if you’re making under 5K MRR with your app...\n\ninstead of trying to go viral for 3 months\n\njust run AI ads bro\n\nhere’s how i did it to scale to $20K/mo two times in a row 👇\n\nhttps://t.co/6hrTT9HNVT https://t.co/EOhm3TF9kr",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "if you\u2019re making under 5K MRR with your app...\n\ninstead of trying to go viral fo\u2026",
+          "title": "if you’re making under 5K MRR with your app...\n\ninstead of trying to go viral fo…",
           "url": "https://x.com/aureliuscajigas/status/2093549205734494459",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "i\u2019ve scaled 2 mobile apps to $20K/mo\n\ni just dropped an article showing you exactly how i did it with AI ads\n\nhttps://t.co/6hrTT9HNVT https://t.co/Uaz57XMg6a",
+      "text": "i’ve scaled 2 mobile apps to $20K/mo\n\ni just dropped an article showing you exactly how i did it with AI ads\n\nhttps://t.co/6hrTT9HNVT https://t.co/Uaz57XMg6a",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "i\u2019ve scaled 2 mobile apps to $20K/mo\n\ni just dropped an article showing you exac\u2026",
+          "title": "i’ve scaled 2 mobile apps to $20K/mo\n\ni just dropped an article showing you exac…",
           "url": "https://x.com/aureliuscajigas/status/2093519003553816805",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -974,7 +924,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "LAST NIGHT MY GROK BOT ABANDONED SIX OF THE NINE TOPICS I CARE ABOUT\n\ni did not \u2026",
+          "title": "LAST NIGHT MY GROK BOT ABANDONED SIX OF THE NINE TOPICS I CARE ABOUT\n\ni did not …",
           "url": "https://x.com/N01ennn/status/2093416170946777468",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -995,7 +945,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "the scariest bot setup i have seen this year was not built by an engineer\n\na guy\u2026",
+          "title": "the scariest bot setup i have seen this year was not built by an engineer\n\na guy…",
           "url": "https://x.com/N01ennn/status/2093448348753936607",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1037,7 +987,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Our Peer Fitness Trainers were back with our newest recruit class today, helping\u2026",
+          "title": "Our Peer Fitness Trainers were back with our newest recruit class today, helping…",
           "url": "https://x.com/hfxfirefighters/status/2092608939271635170",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1079,7 +1029,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@GataDoDiap4 fitness trainers hit different bc they actually know how to manipul\u2026",
+          "title": "@GataDoDiap4 fitness trainers hit different bc they actually know how to manipul…",
           "url": "https://x.com/golfopenger/status/2092547662851473847",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1115,13 +1065,13 @@
     },
     {
       "id": "l553",
-      "text": "korean fitness trainers are genuinely operating on another level\u2026",
+      "text": "korean fitness trainers are genuinely operating on another level…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "korean fitness trainers are genuinely operating on another level\u2026",
+          "title": "korean fitness trainers are genuinely operating on another level…",
           "url": "https://x.com/skinthefool/status/2091884133299454058",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1136,13 +1086,13 @@
     },
     {
       "id": "l554",
-      "text": "@standuponheaven @2fakkedssa38391 @Majioooooo @AMPexclusive ah yes they just had the weights in the room and 2 fitness trainers there to be shirtless and not work out\ud83d\ude2d and kai is just out of breath for nothing clearly they just got done working out lets put our thinking caps on \ud83d\ude2d\ud83d\ude2d",
+      "text": "@standuponheaven @2fakkedssa38391 @Majioooooo @AMPexclusive ah yes they just had the weights in the room and 2 fitness trainers there to be shirtless and not work out😭 and kai is just out of breath for nothing clearly they just got done working out lets put our thinking caps on 😭😭",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@standuponheaven @2fakkedssa38391 @Majioooooo @AMPexclusive ah yes they just had\u2026",
+          "title": "@standuponheaven @2fakkedssa38391 @Majioooooo @AMPexclusive ah yes they just had…",
           "url": "https://x.com/XennyFNBR/status/2093535247317020815",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1157,13 +1107,13 @@
     },
     {
       "id": "l555",
-      "text": "@annamelissa @_killahlipstick Should\u2019ve got one of those those Russian aerobics instructors",
+      "text": "@annamelissa @_killahlipstick Should’ve got one of those those Russian aerobics instructors",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@annamelissa @_killahlipstick Should\u2019ve got one of those those Russian aerobics \u2026",
+          "title": "@annamelissa @_killahlipstick Should’ve got one of those those Russian aerobics …",
           "url": "https://x.com/LowerEastScribe/status/2092808017716670895",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1178,13 +1128,13 @@
     },
     {
       "id": "l556",
-      "text": "Telegram just north of 150 \u2764\ufe0f \ud83d\udcaa.\n\nWill be working on uploading a bunch of additional links to the side channels  tomorrow as long as I don\u2019t keep getting side tracked \ud83d\ude02.",
+      "text": "Telegram just north of 150 ❤️ 💪.\n\nWill be working on uploading a bunch of additional links to the side channels  tomorrow as long as I don’t keep getting side tracked 😂.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Telegram just north of 150 \u2764\ufe0f \ud83d\udcaa.\n\nWill be working on uploading a bunch of additi\u2026",
+          "title": "Telegram just north of 150 ❤️ 💪.\n\nWill be working on uploading a bunch of additi…",
           "url": "https://x.com/BiohackerJake/status/2093520560445632854",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1241,13 +1191,13 @@
     },
     {
       "id": "l559",
-      "text": "Let\u2019s bring her home. @PeptidePlugs https://t.co/tblobXEtbG",
+      "text": "Let’s bring her home. @PeptidePlugs https://t.co/tblobXEtbG",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Let\u2019s bring her home. @PeptidePlugs https://t.co/tblobXEtbG",
+          "title": "Let’s bring her home. @PeptidePlugs https://t.co/tblobXEtbG",
           "url": "https://x.com/BiohackerJake/status/2093511804865445990",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1283,13 +1233,13 @@
     },
     {
       "id": "l561",
-      "text": "@NocturnalNelly I like the phrasing of \u201csuck ass in their own way\u201d, as I know exactly what you're trying to say. A ton of improper use case, mixed in with many of them actually being worthless.",
+      "text": "@NocturnalNelly I like the phrasing of “suck ass in their own way”, as I know exactly what you're trying to say. A ton of improper use case, mixed in with many of them actually being worthless.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@NocturnalNelly I like the phrasing of \u201csuck ass in their own way\u201d, as I know ex\u2026",
+          "title": "@NocturnalNelly I like the phrasing of “suck ass in their own way”, as I know ex…",
           "url": "https://x.com/BiohackerJake/status/2093509610795585584",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1304,13 +1254,13 @@
     },
     {
       "id": "l562",
-      "text": "THIS SHOULD NOT WORK \ud83d\ude2d\n\nthis app made around $200K last month\nby helping people find places to camp\n\nit puts\n\ncampgrounds\nRV parks\nfree camping spots\nand reviews\n\nall in one place\n\nnone of that information is necessarily new\n\nit\u2019s just annoying to find on your own\n\nsometimes the opportunity isn\u2019t creating new information\n\nit\u2019s organizing scattered information better than anyone else",
+      "text": "THIS SHOULD NOT WORK 😭\n\nthis app made around $200K last month\nby helping people find places to camp\n\nit puts\n\ncampgrounds\nRV parks\nfree camping spots\nand reviews\n\nall in one place\n\nnone of that information is necessarily new\n\nit’s just annoying to find on your own\n\nsometimes the opportunity isn’t creating new information\n\nit’s organizing scattered information better than anyone else",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "THIS SHOULD NOT WORK \ud83d\ude2d\n\nthis app made around $200K last month\nby helping people \u2026",
+          "title": "THIS SHOULD NOT WORK 😭\n\nthis app made around $200K last month\nby helping people …",
           "url": "https://x.com/aureliuscajigas/status/2093534110350274704",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1331,7 +1281,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@N01ennn The refusal rules are probably what make this architecture work. Each a\u2026",
+          "title": "@N01ennn The refusal rules are probably what make this architecture work. Each a…",
           "url": "https://x.com/lagerskoy/status/2093513392384582015",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1367,13 +1317,13 @@
     },
     {
       "id": "l565",
-      "text": "HOW IS THIS POSSIBLE \ud83d\udc80\n\nthis app made around $400K last month\nby telling surfers when to go surfing\n\nit tracks\nwaves\nwind\ntides\nand surf conditions\n\nso people know whether going out is actually worth it\n\nyou can get weather data for free almost anywhere\n\nbut surfers need a very specific version of it\n\ntaking something broad\n\nand rebuilding it for one type of person\n\ncan be an entire business",
+      "text": "HOW IS THIS POSSIBLE 💀\n\nthis app made around $400K last month\nby telling surfers when to go surfing\n\nit tracks\nwaves\nwind\ntides\nand surf conditions\n\nso people know whether going out is actually worth it\n\nyou can get weather data for free almost anywhere\n\nbut surfers need a very specific version of it\n\ntaking something broad\n\nand rebuilding it for one type of person\n\ncan be an entire business",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "HOW IS THIS POSSIBLE \ud83d\udc80\n\nthis app made around $400K last month\nby telling surfers\u2026",
+          "title": "HOW IS THIS POSSIBLE 💀\n\nthis app made around $400K last month\nby telling surfers…",
           "url": "https://x.com/aureliuscajigas/status/2093503908429881385",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1415,7 +1365,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@DefianxtPEPs Im pumped for you. Post updates as the months go by. Slow game but\u2026",
+          "title": "@DefianxtPEPs Im pumped for you. Post updates as the months go by. Slow game but…",
           "url": "https://x.com/BiohackerJake/status/2093512076513735155",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1493,13 +1443,13 @@
     },
     {
       "id": "l571",
-      "text": "@aureliuscajigas Great tips. I\u2019ve finally been getting better at higgsfield and its also been getting better too",
+      "text": "@aureliuscajigas Great tips. I’ve finally been getting better at higgsfield and its also been getting better too",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@aureliuscajigas Great tips. I\u2019ve finally been getting better at higgsfield and \u2026",
+          "title": "@aureliuscajigas Great tips. I’ve finally been getting better at higgsfield and …",
           "url": "https://x.com/nattyshaps/status/2093513367327842551",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1514,13 +1464,13 @@
     },
     {
       "id": "l572",
-      "text": "SOMEONE EXPLAIN THIS \ud83d\udc80\n\nthis app made around $80K last month\nby telling people what\u2019s trending on TikTok\n\nit tracks\n\nsounds\nhashtags\nand rising trends\n\nso creators can find them before they blow up\n\nyou could technically find all of this yourself\n\nbut you\u2019d have to spend hours scrolling\n\nthe app basically sells speed\n\nwhen timing matters\n\ngetting information earlier can be worth paying for",
+      "text": "SOMEONE EXPLAIN THIS 💀\n\nthis app made around $80K last month\nby telling people what’s trending on TikTok\n\nit tracks\n\nsounds\nhashtags\nand rising trends\n\nso creators can find them before they blow up\n\nyou could technically find all of this yourself\n\nbut you’d have to spend hours scrolling\n\nthe app basically sells speed\n\nwhen timing matters\n\ngetting information earlier can be worth paying for",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "SOMEONE EXPLAIN THIS \ud83d\udc80\n\nthis app made around $80K last month\nby telling people w\u2026",
+          "title": "SOMEONE EXPLAIN THIS 💀\n\nthis app made around $80K last month\nby telling people w…",
           "url": "https://x.com/aureliuscajigas/status/2093564302380970161",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1541,7 +1491,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@aureliuscajigas What platform do you for attribution tracking? Or do you use Me\u2026",
+          "title": "@aureliuscajigas What platform do you for attribution tracking? Or do you use Me…",
           "url": "https://x.com/GurusCoach/status/2093482037373976991",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1577,13 +1527,13 @@
     },
     {
       "id": "l575",
-      "text": "@0xRicker \ud83d\ude00\ud83e\udd1d",
+      "text": "@0xRicker 😀🤝",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@0xRicker \ud83d\ude00\ud83e\udd1d",
+          "title": "@0xRicker 😀🤝",
           "url": "https://x.com/N01ennn/status/2093379925646414003",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1646,7 +1596,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@aureliuscajigas I just scheduled one tiktok ugc post after reading https://t.co\u2026",
+          "title": "@aureliuscajigas I just scheduled one tiktok ugc post after reading https://t.co…",
           "url": "https://x.com/Bing_Builds/status/2093554642055758161",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1661,13 +1611,13 @@
     },
     {
       "id": "l579",
-      "text": "@aureliuscajigas Some of my apps are useful and they be capping at 7$ MRR let alone 700k \ud83e\udd23\ud83e\udd23\ud83e\udd23",
+      "text": "@aureliuscajigas Some of my apps are useful and they be capping at 7$ MRR let alone 700k 🤣🤣🤣",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@aureliuscajigas Some of my apps are useful and they be capping at 7$ MRR let al\u2026",
+          "title": "@aureliuscajigas Some of my apps are useful and they be capping at 7$ MRR let al…",
           "url": "https://x.com/thatdadjacob/status/2093544473909506113",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1688,7 +1638,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@N01ennn The refusal architecture is the part that matters.\nGiving each agent on\u2026",
+          "title": "@N01ennn The refusal architecture is the part that matters.\nGiving each agent on…",
           "url": "https://x.com/DarkFictionAI/status/2093529623581860227",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1772,7 +1722,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@BiohackerJake FLGR-242 is why muscle preservation matters for aging. This isn't\u2026",
+          "title": "@BiohackerJake FLGR-242 is why muscle preservation matters for aging. This isn't…",
           "url": "https://x.com/EuphrosMD/status/2093554226630713597",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1871,13 +1821,13 @@
     },
     {
       "id": "l589",
-      "text": "@0x_mura It\u2019s a whole story about trading; it\u2019s not just a trading terminal",
+      "text": "@0x_mura It’s a whole story about trading; it’s not just a trading terminal",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@0x_mura It\u2019s a whole story about trading; it\u2019s not just a trading terminal",
+          "title": "@0x_mura It’s a whole story about trading; it’s not just a trading terminal",
           "url": "https://x.com/N01ennn/status/2093374674658824229",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1892,13 +1842,13 @@
     },
     {
       "id": "l590",
-      "text": "A.I. vs Personal Trainer: Which One Actually Gets You to Your Fitness Goals? (Honest Breakdown)\n\ud83d\udcc5 Book your FREE consultation today!\n\n \ud83d\udd17  https://calendly.com/tristanfitnezz/60min\n\nA.I. fitness tools are everywhere right now \u2014 but can they actually replace a personal trainer? \n\nIn this video, we break down the real pros and cons of both, who each one is best for, and what the research says about which approach leads to better long-term results. \n\nNo hype, no sales pitch \u2014 just an honest conversa\u2026",
+      "text": "A.I. vs Personal Trainer: Which One Actually Gets You to Your Fitness Goals? (Honest Breakdown)\n📅 Book your FREE consultation today!\n\n 🔗  https://calendly.com/tristanfitnezz/60min\n\nA.I. fitness tools are everywhere right now — but can they actually replace a personal trainer? \n\nIn this video, we break down the real pros and cons of both, who each one is best for, and what the research says about which approach leads to better long-term results. \n\nNo hype, no sales pitch — just an honest conversa…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "A.I. vs Personal Trainer: Which One Actually Gets You to Your Fitness Goals? (Ho\u2026",
+          "title": "A.I. vs Personal Trainer: Which One Actually Gets You to Your Fitness Goals? (Ho…",
           "url": "https://www.youtube.com/watch?v=LWElVl-mH2k",
           "date": "2026-06-03",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1913,13 +1863,13 @@
     },
     {
       "id": "l591",
-      "text": "Claude Code Built My AI Fitness Trainer (Kettlebell Coach, Full Cost Breakdown)\nThat's not a video I filmed. That's an AI trainer I created using Higgsfield, looping seamlessly, coaching me through a follow-along workout, using an app I built myself with Claude Code in a couple of hours. I'm not going to sell you anything in this video. I just want to show you what's possible with these tools today, and how much it actually costs to create it yourself.\n\nKettlebell Coach: [link \u2014 add once hosted \u2026",
+      "text": "Claude Code Built My AI Fitness Trainer (Kettlebell Coach, Full Cost Breakdown)\nThat's not a video I filmed. That's an AI trainer I created using Higgsfield, looping seamlessly, coaching me through a follow-along workout, using an app I built myself with Claude Code in a couple of hours. I'm not going to sell you anything in this video. I just want to show you what's possible with these tools today, and how much it actually costs to create it yourself.\n\nKettlebell Coach: [link — add once hosted …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Claude Code Built My AI Fitness Trainer (Kettlebell Coach, Full Cost Breakdown)\n\u2026",
+          "title": "Claude Code Built My AI Fitness Trainer (Kettlebell Coach, Full Cost Breakdown)\n…",
           "url": "https://www.youtube.com/watch?v=MaHITJel8ew",
           "date": "2026-07-24",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1934,13 +1884,13 @@
     },
     {
       "id": "l592",
-      "text": "Future vs AI Fitness Apps: Is Human Coaching Still Better?\nIs a real human coach worth $199/month in 2026\u2026 or are AI fitness apps finally good enough?\n\nIn this video, we break down Future Pro, one of the most premium (and expensive) fitness platforms available today. After testing it with real coaching, biometric tracking, and daily accountability, we answer the big question:\n\n\ud83d\udc49 Do you actually get what you pay for?\n\nWhat we cover:\n\nHuman coaching vs AI fitness apps (the real difference)\nPersona\u2026",
+      "text": "Future vs AI Fitness Apps: Is Human Coaching Still Better?\nIs a real human coach worth $199/month in 2026… or are AI fitness apps finally good enough?\n\nIn this video, we break down Future Pro, one of the most premium (and expensive) fitness platforms available today. After testing it with real coaching, biometric tracking, and daily accountability, we answer the big question:\n\n👉 Do you actually get what you pay for?\n\nWhat we cover:\n\nHuman coaching vs AI fitness apps (the real difference)\nPersona…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Future vs AI Fitness Apps: Is Human Coaching Still Better?\nIs a real human coach\u2026",
+          "title": "Future vs AI Fitness Apps: Is Human Coaching Still Better?\nIs a real human coach…",
           "url": "https://www.youtube.com/watch?v=azgmY5VwZvc",
           "date": "2026-05-02",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1955,7 +1905,7 @@
     },
     {
       "id": "l493",
-      "text": "Gym Instructor Expression of Interest - Friends Health & Fitness \u2014 The Friends' School, Hobart, Tasmania (Hobart, Tasmania, Australia). Posted 5 days ago.",
+      "text": "Gym Instructor Expression of Interest - Friends Health & Fitness — The Friends' School, Hobart, Tasmania (Hobart, Tasmania, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1976,7 +1926,7 @@
     },
     {
       "id": "l494",
-      "text": "Group Fitness Instructor \u2014 Belgravia Leisure (Blayney, New South Wales, Australia). Posted 10 months ago.",
+      "text": "Group Fitness Instructor — Belgravia Leisure (Blayney, New South Wales, Australia). Posted 10 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1997,7 +1947,7 @@
     },
     {
       "id": "l495",
-      "text": "Recreation Officer \u2014 Voyages Tourism Australia (Yulara, Northern Territory, Australia). Posted 2 days ago.",
+      "text": "Recreation Officer — Voyages Tourism Australia (Yulara, Northern Territory, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2018,7 +1968,7 @@
     },
     {
       "id": "l496",
-      "text": "Fitness and Lifestyle Specialist | Norths Fitness \u2014 Norths Collective (New South Wales, Australia). Posted 6 days ago.",
+      "text": "Fitness and Lifestyle Specialist | Norths Fitness — Norths Collective (New South Wales, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2039,7 +1989,7 @@
     },
     {
       "id": "l497",
-      "text": "2026 South West Sport Centre Expression of Interest - Health & Fitness \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
+      "text": "2026 South West Sport Centre Expression of Interest - Health & Fitness — City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2060,7 +2010,7 @@
     },
     {
       "id": "l498",
-      "text": "2026 South West Sport Centre Expression of Interest - Health & Fitness \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
+      "text": "2026 South West Sport Centre Expression of Interest - Health & Fitness — City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2081,7 +2031,7 @@
     },
     {
       "id": "l499",
-      "text": "Fitness Instructors \u2014 City of De Soto (Broken Bay National Fitness Camp, New South Wales, Australia). Posted 1 month ago.",
+      "text": "Fitness Instructors — City of De Soto (Broken Bay National Fitness Camp, New South Wales, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2102,7 +2052,7 @@
     },
     {
       "id": "l4100",
-      "text": "Group Fitness Instructor \u2014 Belgravia Leisure (Sydney, New South Wales, Australia). Posted 22 hours ago.",
+      "text": "Group Fitness Instructor — Belgravia Leisure (Sydney, New South Wales, Australia). Posted 22 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2123,7 +2073,7 @@
     },
     {
       "id": "l4101",
-      "text": "Exercise Specialist \u2014 Fairfield City Council (Fairfield, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Exercise Specialist — Fairfield City Council (Fairfield, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2144,7 +2094,7 @@
     },
     {
       "id": "l4102",
-      "text": "Corporate Wellness Coach \u2014 Exos (Sydney, New South Wales, Australia). Posted 5 days ago.",
+      "text": "Corporate Wellness Coach — Exos (Sydney, New South Wales, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2165,7 +2115,7 @@
     },
     {
       "id": "l4103",
-      "text": "UFC GYM Studio Fitness Cycle Instructor \u2014 UFC Gym - Downtown Pittsburgh (Morgan Park, Queensland, Australia). Posted 1 month ago.",
+      "text": "UFC GYM Studio Fitness Cycle Instructor — UFC Gym - Downtown Pittsburgh (Morgan Park, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2186,13 +2136,13 @@
     },
     {
       "id": "l5104",
-      "text": "Topick 9 dml\nThis pr adds dml queries to [topic-09-dml/dml.sql](https://github.com/db-2026-05/team-6/compare/topick-9-dml?expand=1#diff-5954f29f204703fabccee915cb760ae98946d20f6de244f4af2ae0915ba17f38) file.\n# \ud83d\udd0d \u041e\u0433\u043b\u044f\u0434 Submission \u2014 Topic 09 (SQL DML)\n\n\u0414\u043e\u0431\u0440\u0438\u0439 \u0434\u0435\u043d\u044c! \u042f \u043f\u0435\u0440\u0435\u0432\u0456\u0440\u0438\u0432 \u0432\u0430\u0448 DML \u0441\u043a\u0440\u0438\u043f\u0442. \u0404 **\u043a\u0456\u043b\u044c\u043a\u0430 \u043a\u0440\u0438\u0442\u0438\u0447\u043d\u0438\u0445 \u043f\u0440\u043e\u0431\u043b\u0435\u043c**, \u044f\u043a\u0456 \u043f\u043e\u0442\u0440\u0456\u0431\u043d\u043e \u0432\u0438\u043f\u0440\u0430\u0432\u0438\u0442\u0438 \u043f\u0435\u0440\u0435\u0434 \u0444\u0456\u043d\u0430\u043b\u044c\u043d\u043e\u044e \u0437\u0434\u0430\u0447\u0435\u044e.\n\n---\n\n## \u274c **\u041a\u0440\u0438\u0442\u0438\u0447\u043d\u0456 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0438**\n\n### 1. **\u0414\u0443\u0436\u0435 \u043c\u0430\u043b\u043e \u0442\u0430\u0431\u043b\u0438\u0446\u044c \u043d\u0430\u043f\u043e\u0432\u043d\u0435\u043d\u043e**\n\u0412\u0438 \u0437\u0430\u043f\u043e\u0432\u043d\u0438\u043b\u0438 \u0434\u0430\u043d\u0456 \u0434\u043b\u044f \u043b\u0438\u0448\u0435 **3 \u0442\u0430\u0431\u043b\u0438\u0446\u044c** \u0437 20 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0438\u0445 \u2026",
+      "text": "Topick 9 dml\nThis pr adds dml queries to [topic-09-dml/dml.sql](https://github.com/db-2026-05/team-6/compare/topick-9-dml?expand=1#diff-5954f29f204703fabccee915cb760ae98946d20f6de244f4af2ae0915ba17f38) file.\n# 🔍 Огляд Submission — Topic 09 (SQL DML)\n\nДобрий день! Я перевірив ваш DML скрипт. Є **кілька критичних проблем**, які потрібно виправити перед фінальною здачею.\n\n---\n\n## ❌ **Критичні проблеми**\n\n### 1. **Дуже мало таблиць наповнено**\nВи заповнили дані для лише **3 таблиць** з 20 доступних …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Topick 9 dml\nThis pr adds dml queries to [topic-09-dml/dml.sql](https://github.c\u2026",
+          "title": "Topick 9 dml\nThis pr adds dml queries to [topic-09-dml/dml.sql](https://github.c…",
           "url": "https://github.com/db-2026-05/team-6/pull/3",
           "date": "2026-05-29",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -2207,13 +2157,13 @@
     },
     {
       "id": "l5105",
-      "text": "Feature: AI coach that runs 100% on your iPhone. Giving away 1 year of Pro\nI\u2019ve been working on a new feature for Stepzy called AI Coach , and it\u2019s finally ready. The idea is simple: instead of just showing you numbers after a workout, Stepzy actually helps you understand them. AI Coach can: Give you personalized feedback after every workout Explain what stood out in your pace, heart rate, zones, duration, and recent performance Suggest what to focus on next time Coach you based on your entire d\u2026",
+      "text": "Feature: AI coach that runs 100% on your iPhone. Giving away 1 year of Pro\nI’ve been working on a new feature for Stepzy called AI Coach , and it’s finally ready. The idea is simple: instead of just showing you numbers after a workout, Stepzy actually helps you understand them. AI Coach can: Give you personalized feedback after every workout Explain what stood out in your pace, heart rate, zones, duration, and recent performance Suggest what to focus on next time Coach you based on your entire d…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Feature: AI coach that runs 100% on your iPhone. Giving away 1 year of Pro\nI\u2019ve \u2026",
+          "title": "Feature: AI coach that runs 100% on your iPhone. Giving away 1 year of Pro\nI’ve …",
           "url": "https://www.reddit.com/r/StepzyApp/comments/1vrv2zv/feature_ai_coach_that_runs_100_on_your_iphone/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2228,13 +2178,13 @@
     },
     {
       "id": "l5106",
-      "text": "I hate AI\nEdit to fix formatting and say that I DID NOT WRITE THIS WITH AI. I\u2019m aware few people will likely see this and even fewer actually read to the end, but I feel compelled to write it nevertheless. I saw a post today in a teacher help group I\u2019m a part of on Facebook asking for a good AI program to use for assistance in creating kindergarten materials. (Picture below). I am honestly amazed that things have come this far, and not in a good way. It took that person more time to fight with A\u2026",
+      "text": "I hate AI\nEdit to fix formatting and say that I DID NOT WRITE THIS WITH AI. I’m aware few people will likely see this and even fewer actually read to the end, but I feel compelled to write it nevertheless. I saw a post today in a teacher help group I’m a part of on Facebook asking for a good AI program to use for assistance in creating kindergarten materials. (Picture below). I am honestly amazed that things have come this far, and not in a good way. It took that person more time to fight with A…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I hate AI\nEdit to fix formatting and say that I DID NOT WRITE THIS WITH AI. I\u2019m \u2026",
+          "title": "I hate AI\nEdit to fix formatting and say that I DID NOT WRITE THIS WITH AI. I’m …",
           "url": "https://www.reddit.com/r/HonestHotTakes/comments/1vl4qz8/i_hate_ai/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2249,13 +2199,13 @@
     },
     {
       "id": "l5107",
-      "text": "Iridium MCP Server \u2013 Connects AI agents to Iridium fitness data to query workout history, nutrition logs, and body measurements. It enables users to track exercise progress, training volume, and personalized trainer analysis through natural language.\n&#32; submitted by &#32; /u/modelcontextprotocol &#32; to &#32; r/mcp [link] &#32; [comments]\nThis server has 19 tools: get_body_measurements \u2013 Retrieve body measurement history (weight, body fat, etc.) over a date range. Supports flexible date inpu\u2026",
+      "text": "Iridium MCP Server – Connects AI agents to Iridium fitness data to query workout history, nutrition logs, and body measurements. It enables users to track exercise progress, training volume, and personalized trainer analysis through natural language.\n&#32; submitted by &#32; /u/modelcontextprotocol &#32; to &#32; r/mcp [link] &#32; [comments]\nThis server has 19 tools: get_body_measurements – Retrieve body measurement history (weight, body fat, etc.) over a date range. Supports flexible date inpu…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Iridium MCP Server \u2013 Connects AI agents to Iridium fitness data to query workout\u2026",
+          "title": "Iridium MCP Server – Connects AI agents to Iridium fitness data to query workout…",
           "url": "https://www.reddit.com/r/mcp/comments/1vvmbai/iridium_mcp_server_connects_ai_agents_to_iridium/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2270,13 +2220,13 @@
     },
     {
       "id": "l5108",
-      "text": "A.I. vs Personal Trainer: Which One Actually Gets You to Your Fitness Goals? (Honest Breakdown)\n\ud83d\udcc5 Book your FREE consultation today!\n\n \ud83d\udd17  https://calendly.com/tristanfitnezz/60min\n\nA.I. fitness tools are everywhere right now \u2014 but can they actually replace a personal trainer? \n\nIn this video, we break down the real pros and cons of both, who each one is best for, and what the research says about which approach leads to better long-term results. \n\nNo hype, no sales pitch \u2014 just an honest conversa\u2026",
+      "text": "A.I. vs Personal Trainer: Which One Actually Gets You to Your Fitness Goals? (Honest Breakdown)\n📅 Book your FREE consultation today!\n\n 🔗  https://calendly.com/tristanfitnezz/60min\n\nA.I. fitness tools are everywhere right now — but can they actually replace a personal trainer? \n\nIn this video, we break down the real pros and cons of both, who each one is best for, and what the research says about which approach leads to better long-term results. \n\nNo hype, no sales pitch — just an honest conversa…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "A.I. vs Personal Trainer: Which One Actually Gets You to Your Fitness Goals? (Ho\u2026",
+          "title": "A.I. vs Personal Trainer: Which One Actually Gets You to Your Fitness Goals? (Ho…",
           "url": "https://www.youtube.com/watch?v=LWElVl-mH2k",
           "date": "2026-06-03",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2291,13 +2241,13 @@
     },
     {
       "id": "l5109",
-      "text": "Claude Code Built My AI Fitness Trainer (Kettlebell Coach, Full Cost Breakdown)\nThat's not a video I filmed. That's an AI trainer I created using Higgsfield, looping seamlessly, coaching me through a follow-along workout, using an app I built myself with Claude Code in a couple of hours. I'm not going to sell you anything in this video. I just want to show you what's possible with these tools today, and how much it actually costs to create it yourself.\n\nKettlebell Coach: [link \u2014 add once hosted \u2026",
+      "text": "Claude Code Built My AI Fitness Trainer (Kettlebell Coach, Full Cost Breakdown)\nThat's not a video I filmed. That's an AI trainer I created using Higgsfield, looping seamlessly, coaching me through a follow-along workout, using an app I built myself with Claude Code in a couple of hours. I'm not going to sell you anything in this video. I just want to show you what's possible with these tools today, and how much it actually costs to create it yourself.\n\nKettlebell Coach: [link — add once hosted …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Claude Code Built My AI Fitness Trainer (Kettlebell Coach, Full Cost Breakdown)\n\u2026",
+          "title": "Claude Code Built My AI Fitness Trainer (Kettlebell Coach, Full Cost Breakdown)\n…",
           "url": "https://www.youtube.com/watch?v=MaHITJel8ew",
           "date": "2026-07-24",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2312,13 +2262,13 @@
     },
     {
       "id": "l5110",
-      "text": "Future vs AI Fitness Apps: Is Human Coaching Still Better?\nIs a real human coach worth $199/month in 2026\u2026 or are AI fitness apps finally good enough?\n\nIn this video, we break down Future Pro, one of the most premium (and expensive) fitness platforms available today. After testing it with real coaching, biometric tracking, and daily accountability, we answer the big question:\n\n\ud83d\udc49 Do you actually get what you pay for?\n\nWhat we cover:\n\nHuman coaching vs AI fitness apps (the real difference)\nPersona\u2026",
+      "text": "Future vs AI Fitness Apps: Is Human Coaching Still Better?\nIs a real human coach worth $199/month in 2026… or are AI fitness apps finally good enough?\n\nIn this video, we break down Future Pro, one of the most premium (and expensive) fitness platforms available today. After testing it with real coaching, biometric tracking, and daily accountability, we answer the big question:\n\n👉 Do you actually get what you pay for?\n\nWhat we cover:\n\nHuman coaching vs AI fitness apps (the real difference)\nPersona…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Future vs AI Fitness Apps: Is Human Coaching Still Better?\nIs a real human coach\u2026",
+          "title": "Future vs AI Fitness Apps: Is Human Coaching Still Better?\nIs a real human coach…",
           "url": "https://www.youtube.com/watch?v=azgmY5VwZvc",
           "date": "2026-05-02",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2409,6 +2359,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

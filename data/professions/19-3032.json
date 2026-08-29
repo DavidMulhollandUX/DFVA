@@ -14,56 +14,6 @@
   "programs": [],
   "claims": [
     {
-      "id": "19-3032-01",
-      "text": "National peak professional bodies and statutory regulators governing Industrial-Organizational Psychologists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Industrial-Organizational Psychologists",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Industrial-Organizational Psychologists",
-          "url": "https://www.psc.gov.au/standards/19-3032",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Industrial-Organizational Psychologists"
-        }
-      ],
-      "scope": "Australian practitioners in Industrial-Organizational Psychologists across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "19-3032-02",
-      "text": "Automation of routine transactional and analytical tasks in Industrial-Organizational Psychologists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Industrial-Organizational Psychologists",
-          "url": "https://www.jobsandskills.gov.au/research/19-3032",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Industrial-Organizational Psychologists in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Industrial-Organizational Psychologists roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
       "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
@@ -254,13 +204,13 @@
     },
     {
       "id": "l512",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -275,13 +225,13 @@
     },
     {
       "id": "l513",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -464,13 +414,13 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -506,13 +456,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -548,13 +498,13 @@
     },
     {
       "id": "l526",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -569,13 +519,13 @@
     },
     {
       "id": "l527",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult…",
           "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "\ud83e\udd16 AI is already changing our everyday lives. And this isn\u2019t the future \u2014 it\u2019s happening now.\n\nWe use artificial intelligence much more often than we realize.\n\n\ud83d\udcf1 At work:\nAI writes and edits text, analyzes documents, summarizes meetings, finds information, and helps us make decisions.\n\nAccording to Microsoft and LinkedIn, 75% of knowledge workers are already using AI at work. The study surveyed 31,000 people across 31 countries.\n\n\u23f1\ufe0f Saving time:\nAI power users \u2014 people who use AI several times a",
+      "text": "🤖 AI is already changing our everyday lives. And this isn’t the future — it’s happening now.\n\nWe use artificial intelligence much more often than we realize.\n\n📱 At work:\nAI writes and edits text, analyzes documents, summarizes meetings, finds information, and helps us make decisions.\n\nAccording to Microsoft and LinkedIn, 75% of knowledge workers are already using AI at work. The study surveyed 31,000 people across 31 countries.\n\n⏱️ Saving time:\nAI power users — people who use AI several times a",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83e\udd16 AI is already changing our everyday lives. And this isn\u2019t the future \u2014 it\u2019s ha\u2026",
+          "title": "🤖 AI is already changing our everyday lives. And this isn’t the future — it’s ha…",
           "url": "https://x.com/mistersx16/status/2093012376526159914",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "\ud83d\udea8 THE AI REVOLUTION IS CHANGING.\n\nWe are moving beyond AI that simply answers questions.\n\nThe next generation of AI doesn\u2019t just talk.\n\nIt works.\n\nAI agents can already handle complex tasks, work through multiple steps, use tools, analyze information and operate on tasks for extended periods with less constant human input.\n\nThis is the real shift:\n\n\u274c Ask AI a question \u2192 get an answer.\n\n\u2705 Give AI a goal \u2192 let it work toward the result.\n\nImagine telling your AI:\n\n\u201cResearch my competitors.\u201d\n\u201cBuild",
+      "text": "🚨 THE AI REVOLUTION IS CHANGING.\n\nWe are moving beyond AI that simply answers questions.\n\nThe next generation of AI doesn’t just talk.\n\nIt works.\n\nAI agents can already handle complex tasks, work through multiple steps, use tools, analyze information and operate on tasks for extended periods with less constant human input.\n\nThis is the real shift:\n\n❌ Ask AI a question → get an answer.\n\n✅ Give AI a goal → let it work toward the result.\n\nImagine telling your AI:\n\n“Research my competitors.”\n“Build",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8 THE AI REVOLUTION IS CHANGING.\n\nWe are moving beyond AI that simply answers qu\u2026",
+          "title": "🚨 THE AI REVOLUTION IS CHANGING.\n\nWe are moving beyond AI that simply answers qu…",
           "url": "https://x.com/mistersx16/status/2093423853473087865",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "\ud83d\udd25 How Can You Actually Make Money with AI in 2026?\n\nAI doesn\u2019t print money by itself. But it allows one person to do the work of an entire team.\n\nHere are 5 real ways to make money with AI:\n\n\ud83e\udd16 1. Content Creation\nPosts, scripts, articles, videos, and images.\n\n\ud83c\udfa5 2. AI Video Production\nAdvertisements for businesses, Shorts, TikTok content, and presentations.\n\n\ud83d\udcbc 3. Business Automation\nChatbots, automated customer support, and lead processing.\n\n\ud83d\udcc8 4. Marketing\nAI can help analyze audiences, create ad",
+      "text": "🔥 How Can You Actually Make Money with AI in 2026?\n\nAI doesn’t print money by itself. But it allows one person to do the work of an entire team.\n\nHere are 5 real ways to make money with AI:\n\n🤖 1. Content Creation\nPosts, scripts, articles, videos, and images.\n\n🎥 2. AI Video Production\nAdvertisements for businesses, Shorts, TikTok content, and presentations.\n\n💼 3. Business Automation\nChatbots, automated customer support, and lead processing.\n\n📈 4. Marketing\nAI can help analyze audiences, create ad",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udd25 How Can You Actually Make Money with AI in 2026?\n\nAI doesn\u2019t print money by it\u2026",
+          "title": "🔥 How Can You Actually Make Money with AI in 2026?\n\nAI doesn’t print money by it…",
           "url": "https://x.com/mistersx16/status/2093185886221459834",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "AI will create a new class of people.\n\nNot rich.\nNot poor.\n\nPowerful.\n\nThe people who know how to use AI will build faster, learn faster and earn faster.\n\nOne person with AI can already do the work that once required an entire team.\n\nAnd this is only the beginning.\n\nThe biggest mistake in 2026?\n\nThinking you still have plenty of time to learn AI.\n\nYou don\u2019t need to become an AI engineer.\n\nBut you do need to learn how to use AI before the people around you do.\n\nThe future won\u2019t wait. \u26a1\n\nAre you u",
+      "text": "AI will create a new class of people.\n\nNot rich.\nNot poor.\n\nPowerful.\n\nThe people who know how to use AI will build faster, learn faster and earn faster.\n\nOne person with AI can already do the work that once required an entire team.\n\nAnd this is only the beginning.\n\nThe biggest mistake in 2026?\n\nThinking you still have plenty of time to learn AI.\n\nYou don’t need to become an AI engineer.\n\nBut you do need to learn how to use AI before the people around you do.\n\nThe future won’t wait. ⚡\n\nAre you u",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI will create a new class of people.\n\nNot rich.\nNot poor.\n\nPowerful.\n\nThe peopl\u2026",
+          "title": "AI will create a new class of people.\n\nNot rich.\nNot poor.\n\nPowerful.\n\nThe peopl…",
           "url": "https://x.com/mistersx16/status/2092962390803423378",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -695,13 +645,13 @@
     },
     {
       "id": "l533",
-      "text": "\ud83d\udea8 WHAT IF AI COULD SAVE YOUR LIFE BEFORE YOU EVEN KNEW YOU WERE IN DANGER?\n\nA wildfire is approaching.\n\nA river is rising.\n\nA hurricane is changing direction.\n\nAn earthquake is about to strike.\n\nYou might not see the danger yet.\n\nAI could.\n\nBy analyzing satellites, weather patterns, sensors and seismic data, AI can help detect dangerous changes and predict where disaster may strike.\n\n\ud83d\udd25 Fire spreading toward a city?\nAI can help predict its path.\n\n\ud83c\udf0a Flood coming?\nAI can identify areas most at risk",
+      "text": "🚨 WHAT IF AI COULD SAVE YOUR LIFE BEFORE YOU EVEN KNEW YOU WERE IN DANGER?\n\nA wildfire is approaching.\n\nA river is rising.\n\nA hurricane is changing direction.\n\nAn earthquake is about to strike.\n\nYou might not see the danger yet.\n\nAI could.\n\nBy analyzing satellites, weather patterns, sensors and seismic data, AI can help detect dangerous changes and predict where disaster may strike.\n\n🔥 Fire spreading toward a city?\nAI can help predict its path.\n\n🌊 Flood coming?\nAI can identify areas most at risk",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8 WHAT IF AI COULD SAVE YOUR LIFE BEFORE YOU EVEN KNEW YOU WERE IN DANGER?\n\nA wi\u2026",
+          "title": "🚨 WHAT IF AI COULD SAVE YOUR LIFE BEFORE YOU EVEN KNEW YOU WERE IN DANGER?\n\nA wi…",
           "url": "https://x.com/mistersx16/status/2093236609151795674",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -722,7 +672,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The chatbot era is ending. The age of AI agents, autonomous systems and machine-\u2026",
+          "title": "The chatbot era is ending. The age of AI agents, autonomous systems and machine-…",
           "url": "https://x.com/mistersx16/status/2089414348787864038",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "@mistersx16 AI already handles enough daily work to make tomorrow\u2019s surprises feel inevitable.",
+      "text": "@mistersx16 AI already handles enough daily work to make tomorrow’s surprises feel inevitable.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@mistersx16 AI already handles enough daily work to make tomorrow\u2019s surprises fe\u2026",
+          "title": "@mistersx16 AI already handles enough daily work to make tomorrow’s surprises fe…",
           "url": "https://x.com/FReza1984/status/2093015983804018914",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -758,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "SMBs aren\u2019t chasing AI hype. They\u2019re deploying it with a measured, value-first approach.\n\n@GTIAofficial  2026 End-User AI Adoption Report (520 SMB & microbusiness decision-makers at ChannelCon) shows a clear pattern: real operational value over flash. \n\nReport link in comments \ud83d\udc40\n\n#AI #SmallBusinessTips",
+      "text": "SMBs aren’t chasing AI hype. They’re deploying it with a measured, value-first approach.\n\n@GTIAofficial  2026 End-User AI Adoption Report (520 SMB & microbusiness decision-makers at ChannelCon) shows a clear pattern: real operational value over flash. \n\nReport link in comments 👀\n\n#AI #SmallBusinessTips",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "SMBs aren\u2019t chasing AI hype. They\u2019re deploying it with a measured, value-first a\u2026",
+          "title": "SMBs aren’t chasing AI hype. They’re deploying it with a measured, value-first a…",
           "url": "https://x.com/DinoJVidiliCons/status/2093421257337287084",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "Most fractional CFOs hand you prettier spreadsheets. Most #AI consultants hand you a 47-slide deck and disappear. I do neither.\n\nI spent 20+ years inside global companies actually running finance, FP&A, purchasing, and IT. \n\nThen I became the tech founder who had to make AI work on real cash, real inventory, and real deadlines \u2014 not in a lab.\n\nThat\u2019s why DJV Consulting exists. \nWe don\u2019t \u201cexplore AI transformation.\u201d \nWe install it in finance and supply chain so you stop drowning in closes, foreca",
+      "text": "Most fractional CFOs hand you prettier spreadsheets. Most #AI consultants hand you a 47-slide deck and disappear. I do neither.\n\nI spent 20+ years inside global companies actually running finance, FP&A, purchasing, and IT. \n\nThen I became the tech founder who had to make AI work on real cash, real inventory, and real deadlines — not in a lab.\n\nThat’s why DJV Consulting exists. \nWe don’t “explore AI transformation.” \nWe install it in finance and supply chain so you stop drowning in closes, foreca",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Most fractional CFOs hand you prettier spreadsheets. Most #AI consultants hand y\u2026",
+          "title": "Most fractional CFOs hand you prettier spreadsheets. Most #AI consultants hand y…",
           "url": "https://x.com/DinoJVidiliCons/status/2092986801904361801",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "NIST\u2019s AI Risk Management Framework (AI RMF 1.0) remains the leading voluntary U.S. standard",
+      "text": "NIST’s AI Risk Management Framework (AI RMF 1.0) remains the leading voluntary U.S. standard",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "NIST\u2019s AI Risk Management Framework (AI RMF 1.0) remains the leading voluntary U\u2026",
+          "title": "NIST’s AI Risk Management Framework (AI RMF 1.0) remains the leading voluntary U…",
           "url": "https://x.com/DinoJVidiliCons/status/2093346110915907981",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "\ud83d\udd25 THE ROBOT RACE JUST CHANGED\n\nA Chinese humanoid robot has run 100 meters in 8.64 seconds.\n\nThat\u2019s faster than Usain Bolt\u2019s 9.58-second world record.\n\nBut the real story isn\u2019t the speed.\n\nMore than 2,000 robots from 666 teams competed in the 2026 World Humanoid Robot Games in Beijing \u2014 testing running, coordination, balance and autonomous control.\n\nAt the same time, NVIDIA is pushing \u201cPhysical AI\u201d: AI systems designed not just to generate text, but to see the physical world, understand it and t",
+      "text": "🔥 THE ROBOT RACE JUST CHANGED\n\nA Chinese humanoid robot has run 100 meters in 8.64 seconds.\n\nThat’s faster than Usain Bolt’s 9.58-second world record.\n\nBut the real story isn’t the speed.\n\nMore than 2,000 robots from 666 teams competed in the 2026 World Humanoid Robot Games in Beijing — testing running, coordination, balance and autonomous control.\n\nAt the same time, NVIDIA is pushing “Physical AI”: AI systems designed not just to generate text, but to see the physical world, understand it and t",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udd25 THE ROBOT RACE JUST CHANGED\n\nA Chinese humanoid robot has run 100 meters in 8.\u2026",
+          "title": "🔥 THE ROBOT RACE JUST CHANGED\n\nA Chinese humanoid robot has run 100 meters in 8.…",
           "url": "https://x.com/mistersx16/status/2092669268450009596",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -848,7 +798,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The Rise of the AI Generalist: How AI Copilots Are Reshaping the Global Workforc\u2026",
+          "title": "The Rise of the AI Generalist: How AI Copilots Are Reshaping the Global Workforc…",
           "url": "https://x.com/DinoJVidiliCons/status/2089356456587931795",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -890,7 +840,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I liked the 80 percent figure: most employee AI tools running with no IT oversig\u2026",
+          "title": "I liked the 80 percent figure: most employee AI tools running with no IT oversig…",
           "url": "https://x.com/shiftshapr/status/2093361528187551901",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "The Formation of the \u201cAI Elite\u201d in the Mid-Market Workforce: Closing the Productivity Gap",
+      "text": "The Formation of the “AI Elite” in the Mid-Market Workforce: Closing the Productivity Gap",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Formation of the \u201cAI Elite\u201d in the Mid-Market Workforce: Closing the Product\u2026",
+          "title": "The Formation of the “AI Elite” in the Mid-Market Workforce: Closing the Product…",
           "url": "https://x.com/DinoJVidiliCons/status/2088979378428395545",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -974,7 +924,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@DrMcFillin Indeed much of industrial/organizational psychology is grounded in s\u2026",
+          "title": "@DrMcFillin Indeed much of industrial/organizational psychology is grounded in s…",
           "url": "https://x.com/NotATweeter17/status/2092260958462751188",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "I\u2019m an Industrial & Organizational Psychologist at study bro, and I will say, from my findings, that there is this large bureaucratic approach to how organizations are managed in some fields, so yes, there\u2019s definitely a strong force in the workplace that wants to keep it this way\u2026but these corporations (in my opinion) won\u2019t survive. The new talent and experience will lead the way.",
+      "text": "I’m an Industrial & Organizational Psychologist at study bro, and I will say, from my findings, that there is this large bureaucratic approach to how organizations are managed in some fields, so yes, there’s definitely a strong force in the workplace that wants to keep it this way…but these corporations (in my opinion) won’t survive. The new talent and experience will lead the way.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I\u2019m an Industrial & Organizational Psychologist at study bro, and I will say, fr\u2026",
+          "title": "I’m an Industrial & Organizational Psychologist at study bro, and I will say, fr…",
           "url": "https://x.com/thewhitesnake/status/2093547022951350536",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1010,13 +960,13 @@
     },
     {
       "id": "l548",
-      "text": "Kimi K3 Arrives with a Bang: Has the U.S.\u2013China AI Model Race Suddenly Changed?",
+      "text": "Kimi K3 Arrives with a Bang: Has the U.S.–China AI Model Race Suddenly Changed?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Kimi K3 Arrives with a Bang: Has the U.S.\u2013China AI Model Race Suddenly Changed?",
+          "title": "Kimi K3 Arrives with a Bang: Has the U.S.–China AI Model Race Suddenly Changed?",
           "url": "https://x.com/BiteyeHQ/status/2078377272801984888",
           "date": "2026-07-18",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1037,7 +987,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "industrial organizational (I/O) psychology...psych within industry/organizationa\u2026",
+          "title": "industrial organizational (I/O) psychology...psych within industry/organizationa…",
           "url": "https://x.com/DocGrayToo/status/2092658831666880882",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1052,13 +1002,13 @@
     },
     {
       "id": "l550",
-      "text": "i love developmental psychology i love abnornal psychology i love industrial/organizational psychology i love psychological assessment \ud83e\udd70 \n\n(conditioning)\n\ni can do it, i can make it, i will top the board exam, and be the number 1 on september 1, 2026 \ud83e\udd70",
+      "text": "i love developmental psychology i love abnornal psychology i love industrial/organizational psychology i love psychological assessment 🥰 \n\n(conditioning)\n\ni can do it, i can make it, i will top the board exam, and be the number 1 on september 1, 2026 🥰",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "i love developmental psychology i love abnornal psychology i love industrial/org\u2026",
+          "title": "i love developmental psychology i love abnornal psychology i love industrial/org…",
           "url": "https://x.com/orchidokiss/status/2092949702874640691",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1079,7 +1029,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Employees Are Coming: How Businesses Should Prepare for the Next Workforce Re\u2026",
+          "title": "AI Employees Are Coming: How Businesses Should Prepare for the Next Workforce Re…",
           "url": "https://x.com/TRDN_AI/status/2073799234118455743",
           "date": "2026-07-05",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1094,13 +1044,13 @@
     },
     {
       "id": "l552",
-      "text": "\u2014 bibliography IMRaD synthesis narrative report psychology abpsy abnormal psychology cogpsy cognitive psychology socpsy social psychology I/O psych industrial organizational devpsy developmental psychology expepsy experimental psychology psychass psych assessment biopsy",
+      "text": "— bibliography IMRaD synthesis narrative report psychology abpsy abnormal psychology cogpsy cognitive psychology socpsy social psychology I/O psych industrial organizational devpsy developmental psychology expepsy experimental psychology psychass psych assessment biopsy",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u2014 bibliography IMRaD synthesis narrative report psychology abpsy abnormal psycho\u2026",
+          "title": "— bibliography IMRaD synthesis narrative report psychology abpsy abnormal psycho…",
           "url": "https://x.com/acadsbyclover/status/2093517268902936931",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1121,7 +1071,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "abnormal psychology developmental psychology industrial/organizational psycholog\u2026",
+          "title": "abnormal psychology developmental psychology industrial/organizational psycholog…",
           "url": "https://x.com/worksbyalex/status/2092127963680800817",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1136,13 +1086,13 @@
     },
     {
       "id": "l554",
-      "text": "Looking for an IO psychologist or IO grad student! I have a student interested in this career path and would like to talk to someone in the field. Please connect me to any leads and thank you in advance! \ud83d\ude0a\n\nIndustrial organizational psych\nI/O psych",
+      "text": "Looking for an IO psychologist or IO grad student! I have a student interested in this career path and would like to talk to someone in the field. Please connect me to any leads and thank you in advance! 😊\n\nIndustrial organizational psych\nI/O psych",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Looking for an IO psychologist or IO grad student! I have a student interested i\u2026",
+          "title": "Looking for an IO psychologist or IO grad student! I have a student interested i…",
           "url": "https://x.com/adrianacabraIes/status/2093035972321787946",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1163,7 +1113,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@LibertyCappy You barely touched on what Toyota has done. I study quality, manag\u2026",
+          "title": "@LibertyCappy You barely touched on what Toyota has done. I study quality, manag…",
           "url": "https://x.com/HitmanNumber86/status/2092821982232326275",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1178,13 +1128,13 @@
     },
     {
       "id": "l556",
-      "text": "Registration is officially open for CX Conference 2026: Amplifying the Customer's Voice.\nCaley Edgerly, President &amp; CEO, Sonny Merryman\nDr. Anna Kallschmidt, industrial-organizational psychologist\nOctober 20\u201321 ' Charlotte, NC\n\nhttps://t.co/q0Em8GsPQk\n\n #CXConference2026 https://t.co/betWatjwgu",
+      "text": "Registration is officially open for CX Conference 2026: Amplifying the Customer's Voice.\nCaley Edgerly, President &amp; CEO, Sonny Merryman\nDr. Anna Kallschmidt, industrial-organizational psychologist\nOctober 20–21 ' Charlotte, NC\n\nhttps://t.co/q0Em8GsPQk\n\n #CXConference2026 https://t.co/betWatjwgu",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Registration is officially open for CX Conference 2026: Amplifying the Customer'\u2026",
+          "title": "Registration is officially open for CX Conference 2026: Amplifying the Customer'…",
           "url": "https://x.com/customerloyalty/status/2092031709034295787",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1205,7 +1155,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Congratulations to @UCIrvine alumna Madeline Barrientos ('23, BAs psychological \u2026",
+          "title": "Congratulations to @UCIrvine alumna Madeline Barrientos ('23, BAs psychological …",
           "url": "https://x.com/Social_Ecology/status/2091978980962267170",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1226,7 +1176,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The Podcast Authentic Encounters Lena Speaks is looking for #CEOs, executives, f\u2026",
+          "title": "The Podcast Authentic Encounters Lena Speaks is looking for #CEOs, executives, f…",
           "url": "https://x.com/PodcastGuests/status/2091905933873951020",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1241,13 +1191,13 @@
     },
     {
       "id": "l559",
-      "text": "AI is disrupting everything. Here's the human change plan. | Joel Pearson | TEDxSydney\nEvery government and corporation is racing to build out AI safety and governance, and almost none of them are building the only plan that actually matters, says neuroscientist and neuro-futurist Joel Pearson. We have mistaken an intelligence revolution for a technology revolution, and the mislabelling is already triggering an uncertainty pandemic in every human brain. In this clear-eyed look at the everything \u2026",
+      "text": "AI is disrupting everything. Here's the human change plan. | Joel Pearson | TEDxSydney\nEvery government and corporation is racing to build out AI safety and governance, and almost none of them are building the only plan that actually matters, says neuroscientist and neuro-futurist Joel Pearson. We have mistaken an intelligence revolution for a technology revolution, and the mislabelling is already triggering an uncertainty pandemic in every human brain. In this clear-eyed look at the everything …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI is disrupting everything. Here's the human change plan. | Joel Pearson | TEDx\u2026",
+          "title": "AI is disrupting everything. Here's the human change plan. | Joel Pearson | TEDx…",
           "url": "https://www.youtube.com/watch?v=Cj1CacXp3zw",
           "date": "2026-06-16",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1262,13 +1212,13 @@
     },
     {
       "id": "l560",
-      "text": "Academic Anxiety, Legacy Stagecraft & The Fight For AI Identity Rights\nHow do early environmental pressures and structural expectations dictate our performance metrics later in life? Today, Colm Hayes and Justin Caffrey explore Industrial Psychology and Performance Adaptation. Justin provides a striking personal case study on how early exposure to high-pressure work environments influences modern operational resilience and sibling hierarchy dynamics.\n\nThe team also deconstructs The Architecture \u2026",
+      "text": "Academic Anxiety, Legacy Stagecraft & The Fight For AI Identity Rights\nHow do early environmental pressures and structural expectations dictate our performance metrics later in life? Today, Colm Hayes and Justin Caffrey explore Industrial Psychology and Performance Adaptation. Justin provides a striking personal case study on how early exposure to high-pressure work environments influences modern operational resilience and sibling hierarchy dynamics.\n\nThe team also deconstructs The Architecture …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Academic Anxiety, Legacy Stagecraft & The Fight For AI Identity Rights\nHow do ea\u2026",
+          "title": "Academic Anxiety, Legacy Stagecraft & The Fight For AI Identity Rights\nHow do ea…",
           "url": "https://www.youtube.com/watch?v=hYhGjP-gg7g",
           "date": "2026-06-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1283,13 +1233,13 @@
     },
     {
       "id": "l561",
-      "text": "Universal Vulnerability: Why AI Is Reviving Psychological Safety\nAI didn't just change how we work \u2014 it raised everyone's vulnerability at the same time. In this episode, Junior and Dr. Tim Clark introduce \"universal vulnerability\": the reason psychological safety is surging back onto the executive agenda in 2026.\n\nSix years after The 4 Stages of Psychological Safety, organizations are coming back with a different problem statement. AI isn't a niche disruption that hits one industry at a time \u2014 \u2026",
+      "text": "Universal Vulnerability: Why AI Is Reviving Psychological Safety\nAI didn't just change how we work — it raised everyone's vulnerability at the same time. In this episode, Junior and Dr. Tim Clark introduce \"universal vulnerability\": the reason psychological safety is surging back onto the executive agenda in 2026.\n\nSix years after The 4 Stages of Psychological Safety, organizations are coming back with a different problem statement. AI isn't a niche disruption that hits one industry at a time — …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Universal Vulnerability: Why AI Is Reviving Psychological Safety\nAI didn't just \u2026",
+          "title": "Universal Vulnerability: Why AI Is Reviving Psychological Safety\nAI didn't just …",
           "url": "https://www.youtube.com/watch?v=-nprbildQiE",
           "date": "2026-07-07",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1304,7 +1254,7 @@
     },
     {
       "id": "l462",
-      "text": "People Risk Consultant \u2014 Marsh Risk (Leederville, Western Australia, Australia). Posted 11 hours ago.",
+      "text": "People Risk Consultant — Marsh Risk (Leederville, Western Australia, Australia). Posted 11 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1325,7 +1275,7 @@
     },
     {
       "id": "l463",
-      "text": "Principal, Organisational Effectiveness \u2014 IAG (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Principal, Organisational Effectiveness — IAG (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1346,7 +1296,7 @@
     },
     {
       "id": "l464",
-      "text": "Organisational Services Consultant - Organisational Psychologist \u2014 Nabenet (Subiaco, South Australia, Australia). Posted 1 month ago.",
+      "text": "Organisational Services Consultant - Organisational Psychologist — Nabenet (Subiaco, South Australia, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1367,7 +1317,7 @@
     },
     {
       "id": "l465",
-      "text": "People Insights & Engagement Partner \u2014 BaptistCare (Baulkham Hills, New South Wales, Australia). Posted 1 day ago.",
+      "text": "People Insights & Engagement Partner — BaptistCare (Baulkham Hills, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1388,7 +1338,7 @@
     },
     {
       "id": "l466",
-      "text": "Culture and Engagement Partner \u2014 City of Melbourne (Melbourne, Victoria, Australia). Posted 23 hours ago.",
+      "text": "Culture and Engagement Partner — City of Melbourne (Melbourne, Victoria, Australia). Posted 23 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1409,7 +1359,7 @@
     },
     {
       "id": "l467",
-      "text": "Senior Organisational Psychologist \u2014 Altius (Perth, Western Australia, Australia). Posted 4 weeks ago.",
+      "text": "Senior Organisational Psychologist — Altius (Perth, Western Australia, Australia). Posted 4 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1430,7 +1380,7 @@
     },
     {
       "id": "l468",
-      "text": "Consultant | Management Consultant \u2014 Arup (Perth, Western Australia, Australia). Posted 2 weeks ago.",
+      "text": "Consultant | Management Consultant — Arup (Perth, Western Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1451,7 +1401,7 @@
     },
     {
       "id": "l469",
-      "text": "Organisational Development Lead \u2014 Melton City Council (Melton, Victoria, Australia). Posted 3 weeks ago.",
+      "text": "Organisational Development Lead — Melton City Council (Melton, Victoria, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1472,7 +1422,7 @@
     },
     {
       "id": "l470",
-      "text": "People and Capability Advisor \u2014 RED OHMS Group (West Perth, Western Australia, Australia). Posted 2 weeks ago.",
+      "text": "People and Capability Advisor — RED OHMS Group (West Perth, Western Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1493,13 +1443,13 @@
     },
     {
       "id": "l471",
-      "text": "Senior Manager \u2013 Leadership & Culture Consulting \u2014 Accenture Australia (Melbourne, Victoria, Australia). Posted 5 hours ago.",
+      "text": "Senior Manager – Leadership & Culture Consulting — Accenture Australia (Melbourne, Victoria, Australia). Posted 5 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
           "publisher": "Accenture Australia",
-          "title": "Senior Manager \u2013 Leadership & Culture Consulting",
+          "title": "Senior Manager – Leadership & Culture Consulting",
           "url": "https://www.linkedin.com/jobs/view/4457984062",
           "date": "5 hours ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
@@ -1514,13 +1464,13 @@
     },
     {
       "id": "l572",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult…",
           "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1535,13 +1485,13 @@
     },
     {
       "id": "l573",
-      "text": "AI is disrupting everything. Here's the human change plan. | Joel Pearson | TEDxSydney\nEvery government and corporation is racing to build out AI safety and governance, and almost none of them are building the only plan that actually matters, says neuroscientist and neuro-futurist Joel Pearson. We have mistaken an intelligence revolution for a technology revolution, and the mislabelling is already triggering an uncertainty pandemic in every human brain. In this clear-eyed look at the everything \u2026",
+      "text": "AI is disrupting everything. Here's the human change plan. | Joel Pearson | TEDxSydney\nEvery government and corporation is racing to build out AI safety and governance, and almost none of them are building the only plan that actually matters, says neuroscientist and neuro-futurist Joel Pearson. We have mistaken an intelligence revolution for a technology revolution, and the mislabelling is already triggering an uncertainty pandemic in every human brain. In this clear-eyed look at the everything …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI is disrupting everything. Here's the human change plan. | Joel Pearson | TEDx\u2026",
+          "title": "AI is disrupting everything. Here's the human change plan. | Joel Pearson | TEDx…",
           "url": "https://www.youtube.com/watch?v=Cj1CacXp3zw",
           "date": "2026-06-16",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1556,13 +1506,13 @@
     },
     {
       "id": "l574",
-      "text": "Academic Anxiety, Legacy Stagecraft & The Fight For AI Identity Rights\nHow do early environmental pressures and structural expectations dictate our performance metrics later in life? Today, Colm Hayes and Justin Caffrey explore Industrial Psychology and Performance Adaptation. Justin provides a striking personal case study on how early exposure to high-pressure work environments influences modern operational resilience and sibling hierarchy dynamics.\n\nThe team also deconstructs The Architecture \u2026",
+      "text": "Academic Anxiety, Legacy Stagecraft & The Fight For AI Identity Rights\nHow do early environmental pressures and structural expectations dictate our performance metrics later in life? Today, Colm Hayes and Justin Caffrey explore Industrial Psychology and Performance Adaptation. Justin provides a striking personal case study on how early exposure to high-pressure work environments influences modern operational resilience and sibling hierarchy dynamics.\n\nThe team also deconstructs The Architecture …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Academic Anxiety, Legacy Stagecraft & The Fight For AI Identity Rights\nHow do ea\u2026",
+          "title": "Academic Anxiety, Legacy Stagecraft & The Fight For AI Identity Rights\nHow do ea…",
           "url": "https://www.youtube.com/watch?v=hYhGjP-gg7g",
           "date": "2026-06-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1577,13 +1527,13 @@
     },
     {
       "id": "l575",
-      "text": "Universal Vulnerability: Why AI Is Reviving Psychological Safety\nAI didn't just change how we work \u2014 it raised everyone's vulnerability at the same time. In this episode, Junior and Dr. Tim Clark introduce \"universal vulnerability\": the reason psychological safety is surging back onto the executive agenda in 2026.\n\nSix years after The 4 Stages of Psychological Safety, organizations are coming back with a different problem statement. AI isn't a niche disruption that hits one industry at a time \u2014 \u2026",
+      "text": "Universal Vulnerability: Why AI Is Reviving Psychological Safety\nAI didn't just change how we work — it raised everyone's vulnerability at the same time. In this episode, Junior and Dr. Tim Clark introduce \"universal vulnerability\": the reason psychological safety is surging back onto the executive agenda in 2026.\n\nSix years after The 4 Stages of Psychological Safety, organizations are coming back with a different problem statement. AI isn't a niche disruption that hits one industry at a time — …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Universal Vulnerability: Why AI Is Reviving Psychological Safety\nAI didn't just \u2026",
+          "title": "Universal Vulnerability: Why AI Is Reviving Psychological Safety\nAI didn't just …",
           "url": "https://www.youtube.com/watch?v=-nprbildQiE",
           "date": "2026-07-07",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1676,6 +1626,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

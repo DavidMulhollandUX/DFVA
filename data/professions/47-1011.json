@@ -14,58 +14,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "47-1011-01",
-      "text": "National peak professional bodies and statutory regulators governing First-Line Supervisors/Managers of Construction Trades and Extraction Workers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for First-Line Supervisors/Managers of Construction Trades and Extraction Workers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for First-Line Supervisors/Managers of Construction Trades and Extraction Workers",
-          "url": "https://www.psc.gov.au/standards/47-1011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for First-Line Supervisors/Managers of Construction Trades and Extraction Workers"
-        }
-      ],
-      "scope": "Australian practitioners in First-Line Supervisors/Managers of Construction Trades and Extraction Workers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "47-1011-02",
-      "text": "Automation of routine transactional and analytical tasks in First-Line Supervisors/Managers of Construction Trades and Extraction Workers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in First-Line Supervisors/Managers of Construction Trades and Extraction Workers",
-          "url": "https://www.jobsandskills.gov.au/research/47-1011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across First-Line Supervisors/Managers of Construction Trades and Extraction Workers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior First-Line Supervisors/Managers of Construction Trades and Extraction Workers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Civil Supervisor - SA \u2014 BMD Group (Palmer, South Australia, Australia). Posted 2 days ago.",
+      "text": "Civil Supervisor - SA — BMD Group (Palmer, South Australia, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -86,7 +36,7 @@
     },
     {
       "id": "l404",
-      "text": "Building Supervisor \u2014 Hays (Townsville, Queensland, Australia). Posted 1 day ago.",
+      "text": "Building Supervisor — Hays (Townsville, Queensland, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -107,7 +57,7 @@
     },
     {
       "id": "l405",
-      "text": "Construction Supervisor - HAFF \u2014 Plantation Homes (Woodend, Queensland, Australia). Posted 3 months ago.",
+      "text": "Construction Supervisor - HAFF — Plantation Homes (Woodend, Queensland, Australia). Posted 3 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -128,7 +78,7 @@
     },
     {
       "id": "l406",
-      "text": "Site Supervisor \u2014 Built (Perth, Western Australia, Australia). Posted 2 days ago.",
+      "text": "Site Supervisor — Built (Perth, Western Australia, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -149,7 +99,7 @@
     },
     {
       "id": "l407",
-      "text": "Civil Site Supervisor \u2014 W3Global (Mackay, Queensland, Australia). Posted 1 week ago.",
+      "text": "Civil Site Supervisor — W3Global (Mackay, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -170,7 +120,7 @@
     },
     {
       "id": "l408",
-      "text": "Construction Supervisor - Order Homes \u2014 Plantation Homes (Ironbark, Queensland, Australia). Posted 1 month ago.",
+      "text": "Construction Supervisor - Order Homes — Plantation Homes (Ironbark, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -191,7 +141,7 @@
     },
     {
       "id": "l409",
-      "text": "Site Supervisor \u2014 Kapitol (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "text": "Site Supervisor — Kapitol (Melbourne, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -212,7 +162,7 @@
     },
     {
       "id": "l410",
-      "text": "Expressions of Interest - Construction Supervisor \u2014 UGL (Brisbane, Queensland, Australia). Posted 3 days ago.",
+      "text": "Expressions of Interest - Construction Supervisor — UGL (Brisbane, Queensland, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -233,7 +183,7 @@
     },
     {
       "id": "l411",
-      "text": "Construction Supervisor \u2014 Mckinnel Associates (North Sydney, New South Wales, Australia). Posted 1 day ago.",
+      "text": "Construction Supervisor — Mckinnel Associates (North Sydney, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -254,7 +204,7 @@
     },
     {
       "id": "l412",
-      "text": "Civil Supervisor | Perth WA \u2014 CELOTTI WORKFORCE (Perth, Western Australia, Australia). Posted 4 weeks ago.",
+      "text": "Civil Supervisor | Perth WA — CELOTTI WORKFORCE (Perth, Western Australia, Australia). Posted 4 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -275,13 +225,13 @@
     },
     {
       "id": "l513",
-      "text": "Day 7: Task API & User Integration\n## Day 7 \u2014 Task API & User Integration\r\n\r\n### Summary\r\n\r\nThis PR completes the Day 7 backend/frontend integration work for the Task Management Tool.\r\n\r\n### Implemented\r\n\r\n- Added authenticated `GET /api/users` endpoint.\r\n- Added user repository integration for retrieving safe user information.\r\n- Co\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/cod\u2026",
+      "text": "Day 7: Task API & User Integration\n## Day 7 — Task API & User Integration\r\n\r\n### Summary\r\n\r\nThis PR completes the Day 7 backend/frontend integration work for the Task Management Tool.\r\n\r\n### Implemented\r\n\r\n- Added authenticated `GET /api/users` endpoint.\r\n- Added user repository integration for retrieving safe user information.\r\n- Co\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/cod…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Day 7: Task API & User Integration\n## Day 7 \u2014 Task API & User Integration\r\n\r\n###\u2026",
+          "title": "Day 7: Task API & User Integration\n## Day 7 — Task API & User Integration\r\n\r\n###…",
           "url": "https://github.com/izzaeiman/cohort-9-dotnet-10667-izza/pull/13",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -296,13 +246,13 @@
     },
     {
       "id": "l514",
-      "text": "Wire protocol and web dashboard MVP\n## **User description**\n## What & why\n\nThis PR ships the wire protocol and web dashboard MVP described in ADR 0003. The supervisor now exposes `GET /api/state`, `POST /api/hook`, and `WebSocket /ws` on `127.0.0.1:7354`. `packages/client` provides the shared `SupervisorClient` and wire types. `packag\nCodeAnt AI is reviewing your PR. <!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](\u2026",
+      "text": "Wire protocol and web dashboard MVP\n## **User description**\n## What & why\n\nThis PR ships the wire protocol and web dashboard MVP described in ADR 0003. The supervisor now exposes `GET /api/state`, `POST /api/hook`, and `WebSocket /ws` on `127.0.0.1:7354`. `packages/client` provides the shared `SupervisorClient` and wire types. `packag\nCodeAnt AI is reviewing your PR. <!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Wire protocol and web dashboard MVP\n## **User description**\n## What & why\n\nThis \u2026",
+          "title": "Wire protocol and web dashboard MVP\n## **User description**\n## What & why\n\nThis …",
           "url": "https://github.com/hookorama/hookorama/pull/3",
           "date": "2026-07-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -317,13 +267,13 @@
     },
     {
       "id": "l515",
-      "text": "chore(docs): finish ASCII em-dash scrub (batch 2)\nCloses #1625.\n\n## Summary\n\nFinishes the ASCII em-dash (` -- `) prose scrub across the documentation tree. ~125 markdown files were updated; each ` -- ` occurrence was inspected per-context and replaced with appropriate punctuation (`:`, `;`, `,`, `.`, `(...)`, or rewritten) instead of a blanket subs\n<h1>Dependency Review</h1>\n\u2705 No vulnerabilities or license issues or OpenSSF Scorecard issues found.<h2>Scanned Files</h2>\nNone\n\n<!-- dependency-revi\u2026",
+      "text": "chore(docs): finish ASCII em-dash scrub (batch 2)\nCloses #1625.\n\n## Summary\n\nFinishes the ASCII em-dash (` -- `) prose scrub across the documentation tree. ~125 markdown files were updated; each ` -- ` occurrence was inspected per-context and replaced with appropriate punctuation (`:`, `;`, `,`, `.`, `(...)`, or rewritten) instead of a blanket subs\n<h1>Dependency Review</h1>\n✅ No vulnerabilities or license issues or OpenSSF Scorecard issues found.<h2>Scanned Files</h2>\nNone\n\n<!-- dependency-revi…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "chore(docs): finish ASCII em-dash scrub (batch 2)\nCloses #1625.\n\n## Summary\n\nFin\u2026",
+          "title": "chore(docs): finish ASCII em-dash scrub (batch 2)\nCloses #1625.\n\n## Summary\n\nFin…",
           "url": "https://github.com/Aureliolo/synthorg/pull/1630",
           "date": "2026-04-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -344,7 +294,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Vercel deploy\n<!-- This is an auto-generated comment: release notes by coderabbi\u2026",
+          "title": "Vercel deploy\n<!-- This is an auto-generated comment: release notes by coderabbi…",
           "url": "https://github.com/hmbegham-2cc/CRM/pull/1",
           "date": "2026-04-29",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -548,13 +498,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -569,13 +519,13 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -758,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -863,13 +813,13 @@
     },
     {
       "id": "l541",
-      "text": "Stop the AI data centre in Ebbsfleet, Kent\nThe proposed construction of an AI data centre by Clearstone Energy in Ebbsfleet, Kent threatens to disrupts the environment, create noise pollution, droughts and permanently affect our community for the worse. Will appreciate any signatures on our change.org petition here: https://www.change.org/p/stop-the-clearstone-ai-data-centre-in-ebbsfleet-kent or by scanning the QR code. Thanks! &#32; submitted by &#32; /u/Fun-Acanthisitta-838 &#32; to &#32; r/ke\u2026",
+      "text": "Stop the AI data centre in Ebbsfleet, Kent\nThe proposed construction of an AI data centre by Clearstone Energy in Ebbsfleet, Kent threatens to disrupts the environment, create noise pollution, droughts and permanently affect our community for the worse. Will appreciate any signatures on our change.org petition here: https://www.change.org/p/stop-the-clearstone-ai-data-centre-in-ebbsfleet-kent or by scanning the QR code. Thanks! &#32; submitted by &#32; /u/Fun-Acanthisitta-838 &#32; to &#32; r/ke…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Stop the AI data centre in Ebbsfleet, Kent\nThe proposed construction of an AI da\u2026",
+          "title": "Stop the AI data centre in Ebbsfleet, Kent\nThe proposed construction of an AI da…",
           "url": "https://www.reddit.com/r/kentuk/comments/1vdip3y/stop_the_ai_data_centre_in_ebbsfleet_kent/",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -890,7 +840,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of P\u2026",
+          "title": "The Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of P…",
           "url": "https://www.reddit.com/r/PoisonFountain/comments/1vkxkqc/the_tragedy_of_the_cognitive_commons_how_ai_could/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "Bill Gates says artificial intelligence could reshape the labor market far faster than previous technological shifts, with major disruption potentially occurring over the course of a decade rather than several generations, according to CNBC.\nIn a new essay, the Microsoft co-founder argues that AI can substitute for human cognition across a broad range of industries, including law, customer service, medicine, software and manufacturing. He says many jobs could disappear permanently, particularly \u2026",
+      "text": "Bill Gates says artificial intelligence could reshape the labor market far faster than previous technological shifts, with major disruption potentially occurring over the course of a decade rather than several generations, according to CNBC.\nIn a new essay, the Microsoft co-founder argues that AI can substitute for human cognition across a broad range of industries, including law, customer service, medicine, software and manufacturing. He says many jobs could disappear permanently, particularly …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates says artificial intelligence could reshape the labor market far faste\u2026",
+          "title": "Bill Gates says artificial intelligence could reshape the labor market far faste…",
           "url": "https://www.reddit.com/r/AIdaily_news/comments/1vyzcme/bill_gates_says_artificial_intelligence_could/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -926,13 +876,13 @@
     },
     {
       "id": "l544",
-      "text": "Here's a prompt that decodes a brutal supervisor's one-line feedback into things you can actually do, better than any ai writing tool that just rewrites it\nMy supervisor communicates in war crimes. A paragraph I spent a week on comes back with &quot;thin,&quot; &quot;so what?,&quot; and once, memorably, a single question mark next to my main result. This is apparently feedback. Decoding it used to cost me a full day of spiraling before I could do anything with it. Now I make a model do the spira\u2026",
+      "text": "Here's a prompt that decodes a brutal supervisor's one-line feedback into things you can actually do, better than any ai writing tool that just rewrites it\nMy supervisor communicates in war crimes. A paragraph I spent a week on comes back with &quot;thin,&quot; &quot;so what?,&quot; and once, memorably, a single question mark next to my main result. This is apparently feedback. Decoding it used to cost me a full day of spiraling before I could do anything with it. Now I make a model do the spira…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Here's a prompt that decodes a brutal supervisor's one-line feedback into things\u2026",
+          "title": "Here's a prompt that decodes a brutal supervisor's one-line feedback into things…",
           "url": "https://www.reddit.com/r/PromptEngineering/comments/1vlee56/heres_a_prompt_that_decodes_a_brutal_supervisors/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economically valuable?\nI\u2019ve been thinking about AI and automation, and I\u2019m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man\u2026",
+      "text": "What if AI doesn’t just replace jobs, but makes human labor itself less economically valuable?\nI’ve been thinking about AI and automation, and I’m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economic\u2026",
+          "title": "What if AI doesn’t just replace jobs, but makes human labor itself less economic…",
           "url": "https://www.reddit.com/r/Futurology/comments/1vjqvpl/what_if_ai_doesnt_just_replace_jobs_but_makes/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "\ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc00\ud835\udc08 \ud835\udc01\ud835\udc0e\ud835\udc0e\ud835\udc0c \ud835\udc0c\ud835\udc00\ud835\udc18 \ud835\udc0d\ud835\udc0e\ud835\udc13 \ud835\udc01\ud835\udc04 \ud835\udc03\ud835\udc04\ud835\udc02\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc03 \ud835\udc01\ud835\udc18 \ud835\udc16\ud835\udc07\ud835\udc0e \ud835\udc01\ud835\udc14\ud835\udc08\ud835\udc0b\ud835\udc03\ud835\udc12 \ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc01\ud835\udc04\ud835\udc12\ud835\udc13 \ud835\udc0c\ud835\udc0e\ud835\udc03\ud835\udc04\ud835\udc0b.\n\n\ud835\udc08\ud835\udc13 \ud835\udc0c\ud835\udc00\ud835\udc18 \ud835\udc01\ud835\udc04 \ud835\udc03\ud835\udc04\ud835\udc02\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc03 \ud835\udc01\ud835\udc18 \ud835\udc16\ud835\udc07\ud835\udc0e \ud835\udc02\ud835\udc00\ud835\udc0d \ud835\udc13\ud835\udc14\ud835\udc11\ud835\udc0d \ud835\udc08\ud835\udc0d\ud835\udc13\ud835\udc04\ud835\udc0b\ud835\udc0b\ud835\udc08\ud835\udc06\ud835\udc04\ud835\udc0d\ud835\udc02\ud835\udc04 \ud835\udc08\ud835\udc0d\ud835\udc13\ud835\udc0e \ud835\udc11\ud835\udc04\ud835\udc0f\ud835\udc04\ud835\udc00\ud835\udc13\ud835\udc00\ud835\udc01\ud835\udc0b\ud835\udc04 \ud835\udc04\ud835\udc02\ud835\udc0e\ud835\udc0d\ud835\udc0e\ud835\udc0c\ud835\udc08\ud835\udc02 \ud835\udc15\ud835\udc00\ud835\udc0b\ud835\udc14\ud835\udc04.\n\nThe market has spent enormous energy asking who will win the AI race.\n\nWho builds the strongest models?\n\nWho supplies the fastest compute?\n\nWho gets the largest data-centre contracts?\n\nThose questions matter.\n\nBut they describe the beginning of the AI economy, not necessarily where the value ultimately settles.\n\nA technology becomes truly transformative wh",
+      "text": "𝐓𝐇𝐄 𝐀𝐈 𝐁𝐎𝐎𝐌 𝐌𝐀𝐘 𝐍𝐎𝐓 𝐁𝐄 𝐃𝐄𝐂𝐈𝐃𝐄𝐃 𝐁𝐘 𝐖𝐇𝐎 𝐁𝐔𝐈𝐋𝐃𝐒 𝐓𝐇𝐄 𝐁𝐄𝐒𝐓 𝐌𝐎𝐃𝐄𝐋.\n\n𝐈𝐓 𝐌𝐀𝐘 𝐁𝐄 𝐃𝐄𝐂𝐈𝐃𝐄𝐃 𝐁𝐘 𝐖𝐇𝐎 𝐂𝐀𝐍 𝐓𝐔𝐑𝐍 𝐈𝐍𝐓𝐄𝐋𝐋𝐈𝐆𝐄𝐍𝐂𝐄 𝐈𝐍𝐓𝐎 𝐑𝐄𝐏𝐄𝐀𝐓𝐀𝐁𝐋𝐄 𝐄𝐂𝐎𝐍𝐎𝐌𝐈𝐂 𝐕𝐀𝐋𝐔𝐄.\n\nThe market has spent enormous energy asking who will win the AI race.\n\nWho builds the strongest models?\n\nWho supplies the fastest compute?\n\nWho gets the largest data-centre contracts?\n\nThose questions matter.\n\nBut they describe the beginning of the AI economy, not necessarily where the value ultimately settles.\n\nA technology becomes truly transformative wh",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc00\ud835\udc08 \ud835\udc01\ud835\udc0e\ud835\udc0e\ud835\udc0c \ud835\udc0c\ud835\udc00\ud835\udc18 \ud835\udc0d\ud835\udc0e\ud835\udc13 \ud835\udc01\ud835\udc04 \ud835\udc03\ud835\udc04\ud835\udc02\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc03 \ud835\udc01\ud835\udc18 \ud835\udc16\ud835\udc07\ud835\udc0e \ud835\udc01\ud835\udc14\ud835\udc08\ud835\udc0b\ud835\udc03\ud835\udc12 \ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc01\ud835\udc04\ud835\udc12\ud835\udc13 \ud835\udc0c\ud835\udc0e\ud835\udc03\ud835\udc04\ud835\udc0b.\n\n\ud835\udc08\ud835\udc13 \ud835\udc0c\ud835\udc00\ud835\udc18 \ud835\udc01\ud835\udc04 \ud835\udc03\ud835\udc04\ud835\udc02\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc03 \u2026",
+          "title": "𝐓𝐇𝐄 𝐀𝐈 𝐁𝐎𝐎𝐌 𝐌𝐀𝐘 𝐍𝐎𝐓 𝐁𝐄 𝐃𝐄𝐂𝐈𝐃𝐄𝐃 𝐁𝐘 𝐖𝐇𝐎 𝐁𝐔𝐈𝐋𝐃𝐒 𝐓𝐇𝐄 𝐁𝐄𝐒𝐓 𝐌𝐎𝐃𝐄𝐋.\n\n𝐈𝐓 𝐌𝐀𝐘 𝐁𝐄 𝐃𝐄𝐂𝐈𝐃𝐄𝐃 …",
           "url": "https://x.com/BlackBit21/status/2092333606891065682",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1010,13 +960,13 @@
     },
     {
       "id": "l548",
-      "text": "TERAFAB\n\nNEW TODAY\n- Folder now 174 posts (9 new since Aug 24)\n- Testers (cb_doge): fully signed 34-page tax agreement among the Governor\u2019s Office, Anderson-Shiro CISD, and TeraFab AI published; construction Dec 1, 2026\u2013Dec 31, 2028; 10-year school M&O incentive 2029\u20132038 (qualifying value $0 during construction, 50% of market during the incentive window); $12.98M performance bond. Dump-only; not Official Tesla/SpaceX.\n- Testers (cb_doge / tslaming / muskonomy): Phases 2 and 3 Texas Comptroller",
+      "text": "TERAFAB\n\nNEW TODAY\n- Folder now 174 posts (9 new since Aug 24)\n- Testers (cb_doge): fully signed 34-page tax agreement among the Governor’s Office, Anderson-Shiro CISD, and TeraFab AI published; construction Dec 1, 2026–Dec 31, 2028; 10-year school M&O incentive 2029–2038 (qualifying value $0 during construction, 50% of market during the incentive window); $12.98M performance bond. Dump-only; not Official Tesla/SpaceX.\n- Testers (cb_doge / tslaming / muskonomy): Phases 2 and 3 Texas Comptroller",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "TERAFAB\n\nNEW TODAY\n- Folder now 174 posts (9 new since Aug 24)\n- Testers (cb_dog\u2026",
+          "title": "TERAFAB\n\nNEW TODAY\n- Folder now 174 posts (9 new since Aug 24)\n- Testers (cb_dog…",
           "url": "https://x.com/arthur_win8/status/2092615188591849981",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1079,7 +1029,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Is your business doing ok? Been worried about your marketing and advertising age\u2026",
+          "title": "Is your business doing ok? Been worried about your marketing and advertising age…",
           "url": "https://x.com/MattWalkerWI/status/2093012956162179541",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1094,13 +1044,13 @@
     },
     {
       "id": "l552",
-      "text": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nBy Cassidy K. Buhler, Fernando P\u00e9rez & Carl Boettiger\nhttps://t.co/7DVqLebNcD\n\nPublicly available AI models and local infrastructure can reduce AI\u2019s environmental footprint while giving researchers greater control over the tools they use.\n\nAs public opposition grows against the soaring energy and water demands of data centres powering the artificial-intelligence boom, some technology companies are talking about puttin",
+      "text": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nBy Cassidy K. Buhler, Fernando Pérez & Carl Boettiger\nhttps://t.co/7DVqLebNcD\n\nPublicly available AI models and local infrastructure can reduce AI’s environmental footprint while giving researchers greater control over the tools they use.\n\nAs public opposition grows against the soaring energy and water demands of data centres powering the artificial-intelligence boom, some technology companies are talking about puttin",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nB\u2026",
+          "title": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nB…",
           "url": "https://x.com/gecko39/status/2092989596900442316",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1121,7 +1071,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Overview\nMetastasizing is the active process in which cancer cells break away\u2026",
+          "title": "AI Overview\nMetastasizing is the active process in which cancer cells break away…",
           "url": "https://x.com/DunnBilly87734/status/2091848709533569181",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1142,7 +1092,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Nerdicalization: How Hyper-Specific Technical Optimization Re-Engineers Legacy I\u2026",
+          "title": "Nerdicalization: How Hyper-Specific Technical Optimization Re-Engineers Legacy I…",
           "url": "https://x.com/BunnyFather/status/2076745230984843324",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1157,13 +1107,13 @@
     },
     {
       "id": "l555",
-      "text": "I Used Claude for Construction for a Year \u2013 Here's What Actually Works\nPre-built workflows and 1:1 support: https://www.skool.com/contractor-os\n\nMaster Claude AI guide techniques to improve your workflow. Learn when to use Claude chat, co-work, or Claude code effectively.\n\nThis guide breaks down the specific use cases for the Claude AI ecosystem, specifically tailored for those working in construction or document-heavy fields. If you have been struggling to figure out which interface fits your n\u2026",
+      "text": "I Used Claude for Construction for a Year – Here's What Actually Works\nPre-built workflows and 1:1 support: https://www.skool.com/contractor-os\n\nMaster Claude AI guide techniques to improve your workflow. Learn when to use Claude chat, co-work, or Claude code effectively.\n\nThis guide breaks down the specific use cases for the Claude AI ecosystem, specifically tailored for those working in construction or document-heavy fields. If you have been struggling to figure out which interface fits your n…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "I Used Claude for Construction for a Year \u2013 Here's What Actually Works\nPre-built\u2026",
+          "title": "I Used Claude for Construction for a Year – Here's What Actually Works\nPre-built…",
           "url": "https://www.youtube.com/watch?v=F3bLko3t8W4",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1178,13 +1128,13 @@
     },
     {
       "id": "l556",
-      "text": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: https://contractoros.build/work-with-us\n\nJoin ContractorOS: https://www.skool.com/contractor-os/about\n\nFollow on LinkedIn: https://www.linkedin.com/in/josh-turner-pmp-10608b1b7/\n\nI use Claude every day to run my AI consulting business for construction. In this video I break down what Claude actually does, how each interface works, and why the system around it (Projects, Skills, Plugins, Memory) makes it genuinely useful \u2026",
+      "text": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: https://contractoros.build/work-with-us\n\nJoin ContractorOS: https://www.skool.com/contractor-os/about\n\nFollow on LinkedIn: https://www.linkedin.com/in/josh-turner-pmp-10608b1b7/\n\nI use Claude every day to run my AI consulting business for construction. In this video I break down what Claude actually does, how each interface works, and why the system around it (Projects, Skills, Plugins, Memory) makes it genuinely useful …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: http\u2026",
+          "title": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: http…",
           "url": "https://www.youtube.com/watch?v=DQwlMX27E6k",
           "date": "2026-03-12",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1199,13 +1149,13 @@
     },
     {
       "id": "l557",
-      "text": "I Built an AI System to Save Construction Costs\nThis video explains how to use AI for value engineering in construction across design, procurement, and construction methodology. Timothy Fairley shows how project requirements, estimates, procurement packages, and construction programs can help uncover potential savings. FREE Construction Cost Benefit Analysis Template: https://www.mastt.com/resources/cost-benefit-analysis-template\n\n\ud83d\ude80 Get Started with Mastt\nStart for FREE: https://www.mastt.com\nMa\u2026",
+      "text": "I Built an AI System to Save Construction Costs\nThis video explains how to use AI for value engineering in construction across design, procurement, and construction methodology. Timothy Fairley shows how project requirements, estimates, procurement packages, and construction programs can help uncover potential savings. FREE Construction Cost Benefit Analysis Template: https://www.mastt.com/resources/cost-benefit-analysis-template\n\n🚀 Get Started with Mastt\nStart for FREE: https://www.mastt.com\nMa…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "I Built an AI System to Save Construction Costs\nThis video explains how to use A\u2026",
+          "title": "I Built an AI System to Save Construction Costs\nThis video explains how to use A…",
           "url": "https://www.youtube.com/watch?v=mHUXtdkZoDM",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1276,6 +1226,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

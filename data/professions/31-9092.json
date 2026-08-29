@@ -15,64 +15,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "31-9092-01",
-      "text": "National peak professional bodies and statutory regulators governing Medical Assistants enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Medical Assistants",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Medical Assistants",
-          "url": "https://www.psc.gov.au/standards/31-9092",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Medical Assistants"
-        }
-      ],
-      "scope": "Australian practitioners in Medical Assistants across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "31-9092-02",
-      "text": "Automation of routine transactional and analytical tasks in Medical Assistants heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Medical Assistants",
-          "url": "https://www.jobsandskills.gov.au/research/31-9092",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Medical Assistants in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Medical Assistants roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "SAFE Digest 2026-07-31 \u2014 AI & Medical Education\n# SAFE Researcher Digest \u2014 2026-07-31\n\n> Tailored for two workshops: **Faculty Workshop** (AI & the Learner \u2014 ED Retreat) and **Learner Workshop** (AI at the Bedside \u2014 Legacy RCH).\n> **Sources:** PubMed \u00b7 arXiv \u00b7 Semantic Scholar \u00b7 Arise Network &nbsp;|&nbsp; **Period:** last 8 days &nbsp;|&nbsp; **",
+      "text": "SAFE Digest 2026-07-31 — AI & Medical Education\n# SAFE Researcher Digest — 2026-07-31\n\n> Tailored for two workshops: **Faculty Workshop** (AI & the Learner — ED Retreat) and **Learner Workshop** (AI at the Bedside — Legacy RCH).\n> **Sources:** PubMed · arXiv · Semantic Scholar · Arise Network &nbsp;|&nbsp; **Period:** last 8 days &nbsp;|&nbsp; **",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "SAFE Digest 2026-07-31 \u2014 AI & Medical Education\n# SAFE Researcher Digest \u2014 2026-\u2026",
+          "title": "SAFE Digest 2026-07-31 — AI & Medical Education\n# SAFE Researcher Digest — 2026-…",
           "url": "https://github.com/drpickens/SAFE-researcher/issues/24",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -93,7 +43,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "AI agent session chat testing\n### Session: compaction_demo\n\nUser > What is the l\u2026",
+          "title": "AI agent session chat testing\n### Session: compaction_demo\n\nUser > What is the l…",
           "url": "https://github.com/gnishantg/gargnishant.com/issues/18",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -108,13 +58,13 @@
     },
     {
       "id": "l505",
-      "text": "Discovered: nomic-ai/gpt4all\n## nomic-ai/gpt4all\n\n**[\u2b50 View & Star on GitHub](https://github.com/nomic-ai/gpt4all)**\n\n**Description:** GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.\n**Language:** C++ 52%, QML 30%, Python 8%, CMake 5%, JavaScript 3%\n**License:** MIT License\n**Last Updated:**",
+      "text": "Discovered: nomic-ai/gpt4all\n## nomic-ai/gpt4all\n\n**[⭐ View & Star on GitHub](https://github.com/nomic-ai/gpt4all)**\n\n**Description:** GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.\n**Language:** C++ 52%, QML 30%, Python 8%, CMake 5%, JavaScript 3%\n**License:** MIT License\n**Last Updated:**",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Discovered: nomic-ai/gpt4all\n## nomic-ai/gpt4all\n\n**[\u2b50 View & Star on GitHub](ht\u2026",
+          "title": "Discovered: nomic-ai/gpt4all\n## nomic-ai/gpt4all\n\n**[⭐ View & Star on GitHub](ht…",
           "url": "https://github.com/AveryRPeterson/github-star-organizer/issues/128",
           "date": "2026-06-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -129,13 +79,13 @@
     },
     {
       "id": "l506",
-      "text": "I would like to propose adding an `AGENTS.md` file to the root of this repository.\n### \ud83d\udccc Description\nI would like to propose adding an `AGENTS.md` file to the root of this repository. \n\nAs AI coding assistants (like Cursor, Windsurf, Aider, and Gemini CLI) become more common in development workflows, an `AGENTS.md` file serves as a standardized reference for automated agents. It h",
+      "text": "I would like to propose adding an `AGENTS.md` file to the root of this repository.\n### 📌 Description\nI would like to propose adding an `AGENTS.md` file to the root of this repository. \n\nAs AI coding assistants (like Cursor, Windsurf, Aider, and Gemini CLI) become more common in development workflows, an `AGENTS.md` file serves as a standardized reference for automated agents. It h",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "I would like to propose adding an `AGENTS.md` file to the root of this repositor\u2026",
+          "title": "I would like to propose adding an `AGENTS.md` file to the root of this repositor…",
           "url": "https://github.com/SunnyAgrwl05/medagent-ai/issues/26",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -150,13 +100,13 @@
     },
     {
       "id": "l507",
-      "text": "Add CLAUDE.md with codebase guidance for AI assistants\n## What this does\n\nAdds a `CLAUDE.md` at the repo root so AI assistants (and new human collaborators) can work on the Instituto DAO landing page without re-deriving its conventions each time. Documentation only \u2014 `instituto-dao.html` is untouched.\n\nThere was no existing `CLAUDE.md`, so this is a new",
+      "text": "Add CLAUDE.md with codebase guidance for AI assistants\n## What this does\n\nAdds a `CLAUDE.md` at the repo root so AI assistants (and new human collaborators) can work on the Instituto DAO landing page without re-deriving its conventions each time. Documentation only — `instituto-dao.html` is untouched.\n\nThere was no existing `CLAUDE.md`, so this is a new",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add CLAUDE.md with codebase guidance for AI assistants\n## What this does\n\nAdds a\u2026",
+          "title": "Add CLAUDE.md with codebase guidance for AI assistants\n## What this does\n\nAdds a…",
           "url": "https://github.com/fernandaep1/instituto-dao/pull/1",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -171,13 +121,13 @@
     },
     {
       "id": "l508",
-      "text": "Operator Bridge \u2014 Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_ISSUE -->\n\nThis issue is the **live coordination surface** for CorpFlow Operator Bridge v1 (Option C \u2014 Hybrid).\n\n**Canonical doc on `main`:** [`docs/operations/OPERATOR_BRIDGE_V1.md`](https://github.com/antonvdberg-bit/corpflow-ai-command-center/blob/main/docs/operations/OPER\n### Cursor status \u2014 2026-05-27 23:13 UTC\n\n**Packet / item:** Operator Bridge v1 activation (this issue).\n**Status:** ACTIVATED.\n\n**What I checke\u2026",
+      "text": "Operator Bridge — Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_ISSUE -->\n\nThis issue is the **live coordination surface** for CorpFlow Operator Bridge v1 (Option C — Hybrid).\n\n**Canonical doc on `main`:** [`docs/operations/OPERATOR_BRIDGE_V1.md`](https://github.com/antonvdberg-bit/corpflow-ai-command-center/blob/main/docs/operations/OPER\n### Cursor status — 2026-05-27 23:13 UTC\n\n**Packet / item:** Operator Bridge v1 activation (this issue).\n**Status:** ACTIVATED.\n\n**What I checke…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Operator Bridge \u2014 Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_I\u2026",
+          "title": "Operator Bridge — Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_I…",
           "url": "https://github.com/antonvdberg-bit/corpflow-ai-command-center/issues/249",
           "date": "2026-05-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -198,7 +148,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Add: Medical-AI metacognition profile\nAdd an evaluation profile for medical-AI a\u2026",
+          "title": "Add: Medical-AI metacognition profile\nAdd an evaluation profile for medical-AI a…",
           "url": "https://github.com/MukundaKatta/chetana/issues/979",
           "date": "2026-06-01",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -219,7 +169,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Add CLAUDE.md: guidance for Claude working in this repo\n## Summary\n\nAdd `CLAUDE.\u2026",
+          "title": "Add CLAUDE.md: guidance for Claude working in this repo\n## Summary\n\nAdd `CLAUDE.…",
           "url": "https://github.com/medically-modern/josh-tec-requests/pull/6",
           "date": "2026-07-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -234,13 +184,13 @@
     },
     {
       "id": "l511",
-      "text": "Implement MCP server for OMEdit interaction with chatbots\nWe're excited to share that the upcoming release will ship with a built-in MCP (Model Context Protocol) server integrated into the OMEdit GUI.\n\nThis lets AI assistants \u2014 anything that speaks MCP, your own local agents or cloud services \u2014 work directly inside your modeling session: reading the active\nThis sounds awesome! I remember someone posted an issue about automatically infering a modelica model from real electrical schematics (which \u2026",
+      "text": "Implement MCP server for OMEdit interaction with chatbots\nWe're excited to share that the upcoming release will ship with a built-in MCP (Model Context Protocol) server integrated into the OMEdit GUI.\n\nThis lets AI assistants — anything that speaks MCP, your own local agents or cloud services — work directly inside your modeling session: reading the active\nThis sounds awesome! I remember someone posted an issue about automatically infering a modelica model from real electrical schematics (which …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Implement MCP server for OMEdit interaction with chatbots\nWe're excited to share\u2026",
+          "title": "Implement MCP server for OMEdit interaction with chatbots\nWe're excited to share…",
           "url": "https://github.com/OpenModelica/OpenModelica/issues/15385",
           "date": "2026-04-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -261,7 +211,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "[FEAT] Add a healthcare administrative evaluation usecase\n**Feature Description*\u2026",
+          "title": "[FEAT] Add a healthcare administrative evaluation usecase\n**Feature Description*…",
           "url": "https://github.com/truera/trulens/issues/2640",
           "date": "2026-07-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -276,13 +226,13 @@
     },
     {
       "id": "l513",
-      "text": "The Place where it Chilled\n## Short description\r\nThe WinterDrobe now has access to the other generic colored winter coats instead of just the gray one. (It also has the gray one that actually has a hood now.)\r\n\r\nThe beanie now has 10% cold armor.\r\n\r\nAssistants can now spawn with yellow mittens.\r\n\r\nReplaced fingerless insuls i\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/coderabbit_\u2026",
+      "text": "The Place where it Chilled\n## Short description\r\nThe WinterDrobe now has access to the other generic colored winter coats instead of just the gray one. (It also has the gray one that actually has a hood now.)\r\n\r\nThe beanie now has 10% cold armor.\r\n\r\nAssistants can now spawn with yellow mittens.\r\n\r\nReplaced fingerless insuls i\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/coderabbit_…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "The Place where it Chilled\n## Short description\r\nThe WinterDrobe now has access \u2026",
+          "title": "The Place where it Chilled\n## Short description\r\nThe WinterDrobe now has access …",
           "url": "https://github.com/ss14Starlight/space-station-14/pull/4618",
           "date": "2026-06-01",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -303,7 +253,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Add SkinKnowledgeBase MCP\n## Summary\n\nAdds SkinKnowledgeBase as a remote Streama\u2026",
+          "title": "Add SkinKnowledgeBase MCP\n## Summary\n\nAdds SkinKnowledgeBase as a remote Streama…",
           "url": "https://github.com/Kilo-Org/kilo-marketplace/pull/97",
           "date": "2026-06-06",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -318,13 +268,13 @@
     },
     {
       "id": "l515",
-      "text": "[Feature] Bitrunning\n<!-- \u0422\u0435\u043a\u0441\u0442 \u043c\u0435\u0436\u0434\u0443 \u0441\u0442\u0440\u0435\u043b\u043a\u0430\u043c\u0438 - \u044d\u0442\u043e \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 - \u043e\u043d\u0438 \u043d\u0435 \u0431\u0443\u0434\u0443\u0442 \u0432\u0438\u0434\u043d\u044b \u0432 \u0432\u0430\u0448\u0435\u043c PR. -->\r\n\r\n# \u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 PR\r\n<!-- \u041e\u043f\u0438\u0448\u0438\u0442\u0435 \u0437\u0434\u0435\u0441\u044c \u0432\u0430\u0448 Pull Request (PR). \u0427\u0442\u043e \u043e\u043d \u0438\u0437\u043c\u0435\u043d\u044f\u0435\u0442? \u041d\u0430 \u0447\u0442\u043e \u0435\u0449\u0435 \u044d\u0442\u043e \u043c\u043e\u0436\u0435\u0442 \u043f\u043e\u0432\u043b\u0438\u044f\u0442\u044c? -->\r\n\r\n\u0411\u0438\u0442\u0440\u0430\u043d\u043d\u0438\u043d\u0433 - \u043f\u043e \u0441\u0432\u043e\u0435\u0439 \u0437\u0430\u0434\u0443\u043c\u043a\u0435 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f _\u043f\u043e\u043b\u043d\u043e\u0446\u0435\u043d\u043d\u044b\u043c_ \u0430\u043d\u0430\u043b\u043e\u0433\u043e\u043c \u0448\u0430\u0445\u0442\u044b \u0438 \u043a\u043e\u0441\u043c\u043e\u0441\u0430, \u043d\u043e \u043f\u043e \u0444\u0430\u043a\u0442\u0443, \u043f\u0440\u043e\u0441\u0442\u043e \u0437\u0430\u043f\u043e\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: review paused by coderabbit.ai -->\n\n> [!NOTE]\n> ## Reviews paused\n>\u2026",
+      "text": "[Feature] Bitrunning\n<!-- Текст между стрелками - это комментарии - они не будут видны в вашем PR. -->\r\n\r\n# Описание PR\r\n<!-- Опишите здесь ваш Pull Request (PR). Что он изменяет? На что еще это может повлиять? -->\r\n\r\nБитраннинг - по своей задумке является _полноценным_ аналогом шахты и космоса, но по факту, просто запо\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: review paused by coderabbit.ai -->\n\n> [!NOTE]\n> ## Reviews paused\n>…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[Feature] Bitrunning\n<!-- \u0422\u0435\u043a\u0441\u0442 \u043c\u0435\u0436\u0434\u0443 \u0441\u0442\u0440\u0435\u043b\u043a\u0430\u043c\u0438 - \u044d\u0442\u043e \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 - \u043e\u043d\u0438 \u043d\u0435 \u0431\u0443\u0434\u0443\u0442\u2026",
+          "title": "[Feature] Bitrunning\n<!-- Текст между стрелками - это комментарии - они не будут…",
           "url": "https://github.com/AtaraxiaSpaceFoundation/Orion-Station-14/pull/390",
           "date": "2026-04-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -345,7 +295,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Why LLM Developers Are Driving the Future of AI Innovation\nArtificial Intelligen\u2026",
+          "title": "Why LLM Developers Are Driving the Future of AI Innovation\nArtificial Intelligen…",
           "url": "https://github.com/shafiqueseo/botpoolaifreelancers/issues/1",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -570,13 +520,13 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -654,13 +604,13 @@
     },
     {
       "id": "l531",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -675,13 +625,13 @@
     },
     {
       "id": "l532",
-      "text": "Launch HN: Traceforce (YC S26) \u2013 Company-wide security monitoring for AI apps",
+      "text": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Launch HN: Traceforce (YC S26) \u2013 Company-wide security monitoring for AI apps",
+          "title": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
           "url": "https://news.ycombinator.com/item?id=48937020",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -759,13 +709,13 @@
     },
     {
       "id": "l536",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -801,13 +751,13 @@
     },
     {
       "id": "l538",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -843,13 +793,13 @@
     },
     {
       "id": "l540",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -864,13 +814,13 @@
     },
     {
       "id": "l541",
-      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif\u2026",
+      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Traini\u2026",
+          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Traini…",
           "url": "https://www.reddit.com/r/ClinicalLegalField/comments/1vkdimx/thinking_about_becoming_a_legal_nurse_consultant/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -885,13 +835,13 @@
     },
     {
       "id": "l542",
-      "text": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better Guidance?\nWhere Does the Structural Gap Between General Chatbots and Relationship-Specific AI Actually Show Up? The gap appears in three places: persistence of relationship context across sessions, resistance to sycophancy, and whether the tool is built around one person&#39;s interior world or the dynamic between two people. General-purpose assistants like ChatGPT, Claude, and Gemini score well on empathy and helpf\u2026",
+      "text": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better Guidance?\nWhere Does the Structural Gap Between General Chatbots and Relationship-Specific AI Actually Show Up? The gap appears in three places: persistence of relationship context across sessions, resistance to sycophancy, and whether the tool is built around one person&#39;s interior world or the dynamic between two people. General-purpose assistants like ChatGPT, Claude, and Gemini score well on empathy and helpf…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better\u2026",
+          "title": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better…",
           "url": "https://www.reddit.com/r/jenova_ai/comments/1vypds5/general_ai_chatbots_vs_specialized_ai/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -912,7 +862,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Most AI agent skills are written like tutorials. The data says they work better \u2026",
+          "title": "Most AI agent skills are written like tutorials. The data says they work better …",
           "url": "https://x.com/AlphaSignalAI/status/2091929814374789581",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -927,13 +877,13 @@
     },
     {
       "id": "l544",
-      "text": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe've barely caught our breaths since Collaborative Agent Hackathon at @Cambridge_Uni, UK, and now we're going to host another intense hackathon in Berlin. September 16. \u200bThe Collaborative Agent Hackathon is a 1-day event for building open-source, collaborative AI agents using Flower.\n\n\u200bAgents are changing what is possible, and their greatest potential emerges when they collaborate safely in human-supervised multi-agent",
+      "text": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe've barely caught our breaths since Collaborative Agent Hackathon at @Cambridge_Uni, UK, and now we're going to host another intense hackathon in Berlin. September 16. ​The Collaborative Agent Hackathon is a 1-day event for building open-source, collaborative AI agents using Flower.\n\n​Agents are changing what is possible, and their greatest potential emerges when they collaborate safely in human-supervised multi-agent",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe'v\u2026",
+          "title": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe'v…",
           "url": "https://x.com/flwrlabs/status/2092989569264214482",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -975,7 +925,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI labs hide the model's scratchpad (reasoning), then send you an encrypted copy\u2026",
+          "title": "AI labs hide the model's scratchpad (reasoning), then send you an encrypted copy…",
           "url": "https://x.com/AlphaSignalAI/status/2092283443681915230",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -996,7 +946,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The most dangerous part of an AI agent is not what it thinks. It is what the sys\u2026",
+          "title": "The most dangerous part of an AI agent is not what it thinks. It is what the sys…",
           "url": "https://x.com/AlphaSignalAI/status/2089403527626154337",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1038,7 +988,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "85% say the bottleneck is reviewing AI code, not writing it.\n\n@gitlab asked 1,52\u2026",
+          "title": "85% say the bottleneck is reviewing AI code, not writing it.\n\n@gitlab asked 1,52…",
           "url": "https://x.com/AlphaSignalAI/status/2087950846189301842",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1059,7 +1009,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Alexa and others are just too limiting, not to mention since they're cloud based\u2026",
+          "title": "Alexa and others are just too limiting, not to mention since they're cloud based…",
           "url": "https://x.com/CarlB_jr/status/2092095017695219995",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1179,13 +1129,13 @@
     },
     {
       "id": "l556",
-      "text": "7 Ways I Use AI to Run My Medical Practice (SOPs, Reviews, Billing & More)\nAI is changing the way we practice medicine \u2014 here's exactly how I'm using it to run and scale my private practice.\n\nIn this video I break down 7 real, practical ways I use Claude (and a few other AI tools) day-to-day as a physician and practice owner:\n\n1\ufe0f\u20e3 Building SOPs from scratch \u2014 check-in algorithms, patient workflows, and more\n2\ufe0f\u20e3 Removing emotion from tough patient communications (1-star reviews, difficult message\u2026",
+      "text": "7 Ways I Use AI to Run My Medical Practice (SOPs, Reviews, Billing & More)\nAI is changing the way we practice medicine — here's exactly how I'm using it to run and scale my private practice.\n\nIn this video I break down 7 real, practical ways I use Claude (and a few other AI tools) day-to-day as a physician and practice owner:\n\n1️⃣ Building SOPs from scratch — check-in algorithms, patient workflows, and more\n2️⃣ Removing emotion from tough patient communications (1-star reviews, difficult message…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "7 Ways I Use AI to Run My Medical Practice (SOPs, Reviews, Billing & More)\nAI is\u2026",
+          "title": "7 Ways I Use AI to Run My Medical Practice (SOPs, Reviews, Billing & More)\nAI is…",
           "url": "https://www.youtube.com/watch?v=9gYxRPzow1c",
           "date": "2026-07-19",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1206,7 +1156,7 @@
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Threatens Medical Billing: Choose THIS Instead!\nMedical billing and coding fa\u2026",
+          "title": "AI Threatens Medical Billing: Choose THIS Instead!\nMedical billing and coding fa…",
           "url": "https://www.youtube.com/watch?v=xl8siK1oV3U",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1221,13 +1171,13 @@
     },
     {
       "id": "l558",
-      "text": "From Augmentation to Reconstruction: Steering the AI Disruption Toward Positive Change. Adnan Hadid\n#VirtualNICU\n\nIn this video, Adnan Hadid explores the transformative journey of integrating AI into healthcare. Instead of merely speeding up old, inefficient workflows, Hadid argues for a fundamental reimagining of medical practice, breaking down the future of AI in medicine into three distinct evolutionary stages.\n\nLearn how we can move past legacy systems to build an AI-native healthcare future\u2026",
+      "text": "From Augmentation to Reconstruction: Steering the AI Disruption Toward Positive Change. Adnan Hadid\n#VirtualNICU\n\nIn this video, Adnan Hadid explores the transformative journey of integrating AI into healthcare. Instead of merely speeding up old, inefficient workflows, Hadid argues for a fundamental reimagining of medical practice, breaking down the future of AI in medicine into three distinct evolutionary stages.\n\nLearn how we can move past legacy systems to build an AI-native healthcare future…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "From Augmentation to Reconstruction: Steering the AI Disruption Toward Positive \u2026",
+          "title": "From Augmentation to Reconstruction: Steering the AI Disruption Toward Positive …",
           "url": "https://www.youtube.com/watch?v=6VIQVUuiec8",
           "date": "2026-05-31",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1242,13 +1192,13 @@
     },
     {
       "id": "l559",
-      "text": "How AI Will Change Medicine by 2030: A Complete Breakdown of the Future of Health\nThe healthcare industry is hitting an inflection point. By 2030, medicine will look completely different. \n\nIn this episode, we bypass the sci-fi hype and analyze the technical architecture of the AI medical revolution. Artificial intelligence is moving rapidly from simple administrative automation to advanced cognitive diagnostics, genomics-driven personalized care, and real-time surgical assistance.\n\nIn this tech\u2026",
+      "text": "How AI Will Change Medicine by 2030: A Complete Breakdown of the Future of Health\nThe healthcare industry is hitting an inflection point. By 2030, medicine will look completely different. \n\nIn this episode, we bypass the sci-fi hype and analyze the technical architecture of the AI medical revolution. Artificial intelligence is moving rapidly from simple administrative automation to advanced cognitive diagnostics, genomics-driven personalized care, and real-time surgical assistance.\n\nIn this tech…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI Will Change Medicine by 2030: A Complete Breakdown of the Future of Healt\u2026",
+          "title": "How AI Will Change Medicine by 2030: A Complete Breakdown of the Future of Healt…",
           "url": "https://www.youtube.com/watch?v=Iw-m0LUqw1g",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1263,13 +1213,13 @@
     },
     {
       "id": "l560",
-      "text": "AI is winning in healthcare!\ud83d\ude33 Harvard Study SHOCKS Healthcare\nThis might be one of the biggest AI healthcare breakthroughs yet\u2026\n\nA new Harvard study published in Science tested OpenAI\u2019s o1-preview AI model against real emergency room physicians using seventy-six actual ER patient cases \u2014 and the results were honestly shocking.\n\nThe AI outperformed BOTH attending doctors during emergency diagnosis testing.\n\n\ud83e\udd2f Here\u2019s what happened:\n\ud83e\ude7a OpenAI\u2019s o1-preview was tested across real ER patient scenarios\n\u2026",
+      "text": "AI is winning in healthcare!😳 Harvard Study SHOCKS Healthcare\nThis might be one of the biggest AI healthcare breakthroughs yet…\n\nA new Harvard study published in Science tested OpenAI’s o1-preview AI model against real emergency room physicians using seventy-six actual ER patient cases — and the results were honestly shocking.\n\nThe AI outperformed BOTH attending doctors during emergency diagnosis testing.\n\n🤯 Here’s what happened:\n🩺 OpenAI’s o1-preview was tested across real ER patient scenarios\n…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI is winning in healthcare!\ud83d\ude33 Harvard Study SHOCKS Healthcare\nThis might be one \u2026",
+          "title": "AI is winning in healthcare!😳 Harvard Study SHOCKS Healthcare\nThis might be one …",
           "url": "https://www.youtube.com/watch?v=AduugMyrYfs",
           "date": "2026-05-04",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1284,7 +1234,7 @@
     },
     {
       "id": "l461",
-      "text": "Medical Assistant (68626) \u2014 United Digestive (Rockdale, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Medical Assistant (68626) — United Digestive (Rockdale, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1305,7 +1255,7 @@
     },
     {
       "id": "l462",
-      "text": "Locum Clinic Assistant (PMC) \u2014 Worq AI (Woodleigh, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Locum Clinic Assistant (PMC) — Worq AI (Woodleigh, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1326,7 +1276,7 @@
     },
     {
       "id": "l463",
-      "text": "Medical Technician / Administration FT, PT Casual Melbourne SE \u2014 Scope Healthcare (Dandenong, Victoria, Australia). Posted 2 months ago.",
+      "text": "Medical Technician / Administration FT, PT Casual Melbourne SE — Scope Healthcare (Dandenong, Victoria, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1347,7 +1297,7 @@
     },
     {
       "id": "l464",
-      "text": "Medical Technician / Administration FT, PT Casual Melbourne SE \u2014 Scope Healthcare (Wheelers Hill, Victoria, Australia). Posted 2 months ago.",
+      "text": "Medical Technician / Administration FT, PT Casual Melbourne SE — Scope Healthcare (Wheelers Hill, Victoria, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1368,7 +1318,7 @@
     },
     {
       "id": "l465",
-      "text": "Clinic Administration Officer/Medical Screener \u2014 Sonic HealthPlus (Mackay, Queensland, Australia). Posted 5 days ago.",
+      "text": "Clinic Administration Officer/Medical Screener — Sonic HealthPlus (Mackay, Queensland, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1389,7 +1339,7 @@
     },
     {
       "id": "l466",
-      "text": "Practice Nurse \u2014 ForHealth Group (Beacon Hill, New South Wales, Australia). Posted 1 year ago.",
+      "text": "Practice Nurse — ForHealth Group (Beacon Hill, New South Wales, Australia). Posted 1 year ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1410,7 +1360,7 @@
     },
     {
       "id": "l467",
-      "text": "Clinical Assistant \u2014 Qscan Group (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Clinical Assistant — Qscan Group (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1431,7 +1381,7 @@
     },
     {
       "id": "l468",
-      "text": "Clinic Administration Officer/Medical Screener \u2014 Sonic HealthPlus (Brisbane Airport, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Clinic Administration Officer/Medical Screener — Sonic HealthPlus (Brisbane Airport, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1452,7 +1402,7 @@
     },
     {
       "id": "l469",
-      "text": "Medical Imaging Assistant \u2014 I-MED Radiology Network (Heidelberg, Victoria, Australia). Posted 1 week ago.",
+      "text": "Medical Imaging Assistant — I-MED Radiology Network (Heidelberg, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1473,7 +1423,7 @@
     },
     {
       "id": "l470",
-      "text": "Medical Imaging Assistant \u2014 Queensland X-Ray (Cairns, Queensland, Australia). Posted 2 days ago.",
+      "text": "Medical Imaging Assistant — Queensland X-Ray (Cairns, Queensland, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1494,13 +1444,13 @@
     },
     {
       "id": "l571",
-      "text": "Operator Bridge \u2014 Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_ISSUE -->\n\nThis issue is the **live coordination surface** for CorpFlow Operator Bridge v1 (Option C \u2014 Hybrid).\n\n**Canonical doc on `main`:** [`docs/operations/OPERATOR_BRIDGE_V1.md`](https://github.com/antonvdberg-bit/corpflow-ai-command-center/blob/main/docs/operations/OPER\n### Cursor status \u2014 2026-05-27 23:13 UTC\n\n**Packet / item:** Operator Bridge v1 activation (this issue).\n**Status:** ACTIVATED.\n\n**What I checke\u2026",
+      "text": "Operator Bridge — Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_ISSUE -->\n\nThis issue is the **live coordination surface** for CorpFlow Operator Bridge v1 (Option C — Hybrid).\n\n**Canonical doc on `main`:** [`docs/operations/OPERATOR_BRIDGE_V1.md`](https://github.com/antonvdberg-bit/corpflow-ai-command-center/blob/main/docs/operations/OPER\n### Cursor status — 2026-05-27 23:13 UTC\n\n**Packet / item:** Operator Bridge v1 activation (this issue).\n**Status:** ACTIVATED.\n\n**What I checke…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Operator Bridge \u2014 Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_I\u2026",
+          "title": "Operator Bridge — Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_I…",
           "url": "https://github.com/antonvdberg-bit/corpflow-ai-command-center/issues/249",
           "date": "2026-05-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1515,13 +1465,13 @@
     },
     {
       "id": "l572",
-      "text": "Implement MCP server for OMEdit interaction with chatbots\nWe're excited to share that the upcoming release will ship with a built-in MCP (Model Context Protocol) server integrated into the OMEdit GUI.\n\nThis lets AI assistants \u2014 anything that speaks MCP, your own local agents or cloud services \u2014 work directly inside your modeling session: reading the active\nThis sounds awesome! I remember someone posted an issue about automatically infering a modelica model from real electrical schematics (which \u2026",
+      "text": "Implement MCP server for OMEdit interaction with chatbots\nWe're excited to share that the upcoming release will ship with a built-in MCP (Model Context Protocol) server integrated into the OMEdit GUI.\n\nThis lets AI assistants — anything that speaks MCP, your own local agents or cloud services — work directly inside your modeling session: reading the active\nThis sounds awesome! I remember someone posted an issue about automatically infering a modelica model from real electrical schematics (which …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Implement MCP server for OMEdit interaction with chatbots\nWe're excited to share\u2026",
+          "title": "Implement MCP server for OMEdit interaction with chatbots\nWe're excited to share…",
           "url": "https://github.com/OpenModelica/OpenModelica/issues/15385",
           "date": "2026-04-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1536,13 +1486,13 @@
     },
     {
       "id": "l573",
-      "text": "The Place where it Chilled\n## Short description\r\nThe WinterDrobe now has access to the other generic colored winter coats instead of just the gray one. (It also has the gray one that actually has a hood now.)\r\n\r\nThe beanie now has 10% cold armor.\r\n\r\nAssistants can now spawn with yellow mittens.\r\n\r\nReplaced fingerless insuls i\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/coderabbit_\u2026",
+      "text": "The Place where it Chilled\n## Short description\r\nThe WinterDrobe now has access to the other generic colored winter coats instead of just the gray one. (It also has the gray one that actually has a hood now.)\r\n\r\nThe beanie now has 10% cold armor.\r\n\r\nAssistants can now spawn with yellow mittens.\r\n\r\nReplaced fingerless insuls i\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/coderabbit_…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "The Place where it Chilled\n## Short description\r\nThe WinterDrobe now has access \u2026",
+          "title": "The Place where it Chilled\n## Short description\r\nThe WinterDrobe now has access …",
           "url": "https://github.com/ss14Starlight/space-station-14/pull/4618",
           "date": "2026-06-01",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1557,13 +1507,13 @@
     },
     {
       "id": "l574",
-      "text": "[Feature] Bitrunning\n<!-- \u0422\u0435\u043a\u0441\u0442 \u043c\u0435\u0436\u0434\u0443 \u0441\u0442\u0440\u0435\u043b\u043a\u0430\u043c\u0438 - \u044d\u0442\u043e \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 - \u043e\u043d\u0438 \u043d\u0435 \u0431\u0443\u0434\u0443\u0442 \u0432\u0438\u0434\u043d\u044b \u0432 \u0432\u0430\u0448\u0435\u043c PR. -->\r\n\r\n# \u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 PR\r\n<!-- \u041e\u043f\u0438\u0448\u0438\u0442\u0435 \u0437\u0434\u0435\u0441\u044c \u0432\u0430\u0448 Pull Request (PR). \u0427\u0442\u043e \u043e\u043d \u0438\u0437\u043c\u0435\u043d\u044f\u0435\u0442? \u041d\u0430 \u0447\u0442\u043e \u0435\u0449\u0435 \u044d\u0442\u043e \u043c\u043e\u0436\u0435\u0442 \u043f\u043e\u0432\u043b\u0438\u044f\u0442\u044c? -->\r\n\r\n\u0411\u0438\u0442\u0440\u0430\u043d\u043d\u0438\u043d\u0433 - \u043f\u043e \u0441\u0432\u043e\u0435\u0439 \u0437\u0430\u0434\u0443\u043c\u043a\u0435 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f _\u043f\u043e\u043b\u043d\u043e\u0446\u0435\u043d\u043d\u044b\u043c_ \u0430\u043d\u0430\u043b\u043e\u0433\u043e\u043c \u0448\u0430\u0445\u0442\u044b \u0438 \u043a\u043e\u0441\u043c\u043e\u0441\u0430, \u043d\u043e \u043f\u043e \u0444\u0430\u043a\u0442\u0443, \u043f\u0440\u043e\u0441\u0442\u043e \u0437\u0430\u043f\u043e\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: review paused by coderabbit.ai -->\n\n> [!NOTE]\n> ## Reviews paused\n>\u2026",
+      "text": "[Feature] Bitrunning\n<!-- Текст между стрелками - это комментарии - они не будут видны в вашем PR. -->\r\n\r\n# Описание PR\r\n<!-- Опишите здесь ваш Pull Request (PR). Что он изменяет? На что еще это может повлиять? -->\r\n\r\nБитраннинг - по своей задумке является _полноценным_ аналогом шахты и космоса, но по факту, просто запо\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: review paused by coderabbit.ai -->\n\n> [!NOTE]\n> ## Reviews paused\n>…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[Feature] Bitrunning\n<!-- \u0422\u0435\u043a\u0441\u0442 \u043c\u0435\u0436\u0434\u0443 \u0441\u0442\u0440\u0435\u043b\u043a\u0430\u043c\u0438 - \u044d\u0442\u043e \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438 - \u043e\u043d\u0438 \u043d\u0435 \u0431\u0443\u0434\u0443\u0442\u2026",
+          "title": "[Feature] Bitrunning\n<!-- Текст между стрелками - это комментарии - они не будут…",
           "url": "https://github.com/AtaraxiaSpaceFoundation/Orion-Station-14/pull/390",
           "date": "2026-04-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1578,13 +1528,13 @@
     },
     {
       "id": "l575",
-      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif\u2026",
+      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Traini\u2026",
+          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Traini…",
           "url": "https://www.reddit.com/r/ClinicalLegalField/comments/1vkdimx/thinking_about_becoming_a_legal_nurse_consultant/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1599,13 +1549,13 @@
     },
     {
       "id": "l576",
-      "text": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better Guidance?\nWhere Does the Structural Gap Between General Chatbots and Relationship-Specific AI Actually Show Up? The gap appears in three places: persistence of relationship context across sessions, resistance to sycophancy, and whether the tool is built around one person&#39;s interior world or the dynamic between two people. General-purpose assistants like ChatGPT, Claude, and Gemini score well on empathy and helpf\u2026",
+      "text": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better Guidance?\nWhere Does the Structural Gap Between General Chatbots and Relationship-Specific AI Actually Show Up? The gap appears in three places: persistence of relationship context across sessions, resistance to sycophancy, and whether the tool is built around one person&#39;s interior world or the dynamic between two people. General-purpose assistants like ChatGPT, Claude, and Gemini score well on empathy and helpf…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better\u2026",
+          "title": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better…",
           "url": "https://www.reddit.com/r/jenova_ai/comments/1vypds5/general_ai_chatbots_vs_specialized_ai/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1620,13 +1570,13 @@
     },
     {
       "id": "l577",
-      "text": "7 Ways I Use AI to Run My Medical Practice (SOPs, Reviews, Billing & More)\nAI is changing the way we practice medicine \u2014 here's exactly how I'm using it to run and scale my private practice.\n\nIn this video I break down 7 real, practical ways I use Claude (and a few other AI tools) day-to-day as a physician and practice owner:\n\n1\ufe0f\u20e3 Building SOPs from scratch \u2014 check-in algorithms, patient workflows, and more\n2\ufe0f\u20e3 Removing emotion from tough patient communications (1-star reviews, difficult message\u2026",
+      "text": "7 Ways I Use AI to Run My Medical Practice (SOPs, Reviews, Billing & More)\nAI is changing the way we practice medicine — here's exactly how I'm using it to run and scale my private practice.\n\nIn this video I break down 7 real, practical ways I use Claude (and a few other AI tools) day-to-day as a physician and practice owner:\n\n1️⃣ Building SOPs from scratch — check-in algorithms, patient workflows, and more\n2️⃣ Removing emotion from tough patient communications (1-star reviews, difficult message…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "7 Ways I Use AI to Run My Medical Practice (SOPs, Reviews, Billing & More)\nAI is\u2026",
+          "title": "7 Ways I Use AI to Run My Medical Practice (SOPs, Reviews, Billing & More)\nAI is…",
           "url": "https://www.youtube.com/watch?v=9gYxRPzow1c",
           "date": "2026-07-19",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1641,13 +1591,13 @@
     },
     {
       "id": "l578",
-      "text": "From Augmentation to Reconstruction: Steering the AI Disruption Toward Positive Change. Adnan Hadid\n#VirtualNICU\n\nIn this video, Adnan Hadid explores the transformative journey of integrating AI into healthcare. Instead of merely speeding up old, inefficient workflows, Hadid argues for a fundamental reimagining of medical practice, breaking down the future of AI in medicine into three distinct evolutionary stages.\n\nLearn how we can move past legacy systems to build an AI-native healthcare future\u2026",
+      "text": "From Augmentation to Reconstruction: Steering the AI Disruption Toward Positive Change. Adnan Hadid\n#VirtualNICU\n\nIn this video, Adnan Hadid explores the transformative journey of integrating AI into healthcare. Instead of merely speeding up old, inefficient workflows, Hadid argues for a fundamental reimagining of medical practice, breaking down the future of AI in medicine into three distinct evolutionary stages.\n\nLearn how we can move past legacy systems to build an AI-native healthcare future…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "From Augmentation to Reconstruction: Steering the AI Disruption Toward Positive \u2026",
+          "title": "From Augmentation to Reconstruction: Steering the AI Disruption Toward Positive …",
           "url": "https://www.youtube.com/watch?v=6VIQVUuiec8",
           "date": "2026-05-31",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1662,13 +1612,13 @@
     },
     {
       "id": "l579",
-      "text": "How AI Will Change Medicine by 2030: A Complete Breakdown of the Future of Health\nThe healthcare industry is hitting an inflection point. By 2030, medicine will look completely different. \n\nIn this episode, we bypass the sci-fi hype and analyze the technical architecture of the AI medical revolution. Artificial intelligence is moving rapidly from simple administrative automation to advanced cognitive diagnostics, genomics-driven personalized care, and real-time surgical assistance.\n\nIn this tech\u2026",
+      "text": "How AI Will Change Medicine by 2030: A Complete Breakdown of the Future of Health\nThe healthcare industry is hitting an inflection point. By 2030, medicine will look completely different. \n\nIn this episode, we bypass the sci-fi hype and analyze the technical architecture of the AI medical revolution. Artificial intelligence is moving rapidly from simple administrative automation to advanced cognitive diagnostics, genomics-driven personalized care, and real-time surgical assistance.\n\nIn this tech…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI Will Change Medicine by 2030: A Complete Breakdown of the Future of Healt\u2026",
+          "title": "How AI Will Change Medicine by 2030: A Complete Breakdown of the Future of Healt…",
           "url": "https://www.youtube.com/watch?v=Iw-m0LUqw1g",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1683,13 +1633,13 @@
     },
     {
       "id": "l580",
-      "text": "AI is winning in healthcare!\ud83d\ude33 Harvard Study SHOCKS Healthcare\nThis might be one of the biggest AI healthcare breakthroughs yet\u2026\n\nA new Harvard study published in Science tested OpenAI\u2019s o1-preview AI model against real emergency room physicians using seventy-six actual ER patient cases \u2014 and the results were honestly shocking.\n\nThe AI outperformed BOTH attending doctors during emergency diagnosis testing.\n\n\ud83e\udd2f Here\u2019s what happened:\n\ud83e\ude7a OpenAI\u2019s o1-preview was tested across real ER patient scenarios\n\u2026",
+      "text": "AI is winning in healthcare!😳 Harvard Study SHOCKS Healthcare\nThis might be one of the biggest AI healthcare breakthroughs yet…\n\nA new Harvard study published in Science tested OpenAI’s o1-preview AI model against real emergency room physicians using seventy-six actual ER patient cases — and the results were honestly shocking.\n\nThe AI outperformed BOTH attending doctors during emergency diagnosis testing.\n\n🤯 Here’s what happened:\n🩺 OpenAI’s o1-preview was tested across real ER patient scenarios\n…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI is winning in healthcare!\ud83d\ude33 Harvard Study SHOCKS Healthcare\nThis might be one \u2026",
+          "title": "AI is winning in healthcare!😳 Harvard Study SHOCKS Healthcare\nThis might be one …",
           "url": "https://www.youtube.com/watch?v=AduugMyrYfs",
           "date": "2026-05-04",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1782,6 +1732,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

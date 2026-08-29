@@ -14,56 +14,6 @@
   "programs": [],
   "claims": [
     {
-      "id": "29-1065-01",
-      "text": "National peak professional bodies and statutory regulators governing Pediatricians, General enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Pediatricians, General",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Pediatricians, General",
-          "url": "https://www.psc.gov.au/standards/29-1065",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Pediatricians, General"
-        }
-      ],
-      "scope": "Australian practitioners in Pediatricians, General across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "29-1065-02",
-      "text": "Automation of routine transactional and analytical tasks in Pediatricians, General heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Pediatricians, General",
-          "url": "https://www.jobsandskills.gov.au/research/29-1065",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Pediatricians, General in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Pediatricians, General roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
       "text": "Developer\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n* **New Features**\n  * Doctor discovery system with specialization filtering capabilities\n  * Online appointment booking and scheduling functionality\n  * User authentication with account creation",
       "lane": "L5",
@@ -71,7 +21,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Developer\n<!-- This is an auto-generated comment: release notes by coderabbit.ai\u2026",
+          "title": "Developer\n<!-- This is an auto-generated comment: release notes by coderabbit.ai…",
           "url": "https://github.com/im-sonu-giri/Clinic_management_system/pull/1",
           "date": "2026-04-25",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -275,13 +225,13 @@
     },
     {
       "id": "l513",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -296,13 +246,13 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -485,13 +435,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -527,13 +477,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -569,13 +519,13 @@
     },
     {
       "id": "l527",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "AI executives are increasingly confronting a widening gap between industry optimism and public sentiment, according to Futurism and recent polling cited in its report.\nAn Economist/YouGov poll found that 70% of Americans believe AI is \u201cmoving too fast,\u201d while about 64% believe the general population is unlikely to ever benefit economically from the technology, according to Futurism. The backlash is being felt across several areas, including AI-generated content, job displacement, data centers, c\u2026",
+      "text": "AI executives are increasingly confronting a widening gap between industry optimism and public sentiment, according to Futurism and recent polling cited in its report.\nAn Economist/YouGov poll found that 70% of Americans believe AI is “moving too fast,” while about 64% believe the general population is unlikely to ever benefit economically from the technology, according to Futurism. The backlash is being felt across several areas, including AI-generated content, job displacement, data centers, c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI executives are increasingly confronting a widening gap between industry optim\u2026",
+          "title": "AI executives are increasingly confronting a widening gap between industry optim…",
           "url": "https://www.reddit.com/r/AIdaily_news/comments/1vy2r5o/ai_executives_are_increasingly_confronting_a/",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "Anthropic CEO Dario Amodei Warns Simultaneous White-Collar AI Disruption Risks Overwhelming Labor Adaptation\nFrontier AI systems developed by Anthropic and peers automate core cognitive tasks across law, coding, consulting, finance and medicine at once. Dario Amodei, Anthropic CEO, has stated these systems will disrupt roughly 50 percent of entry-level white-collar roles within one to five years while broader capabilities scale faster. The dual-use vector is general cognitive substitution that c\u2026",
+      "text": "Anthropic CEO Dario Amodei Warns Simultaneous White-Collar AI Disruption Risks Overwhelming Labor Adaptation\nFrontier AI systems developed by Anthropic and peers automate core cognitive tasks across law, coding, consulting, finance and medicine at once. Dario Amodei, Anthropic CEO, has stated these systems will disrupt roughly 50 percent of entry-level white-collar roles within one to five years while broader capabilities scale faster. The dual-use vector is general cognitive substitution that c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Anthropic CEO Dario Amodei Warns Simultaneous White-Collar AI Disruption Risks O\u2026",
+          "title": "Anthropic CEO Dario Amodei Warns Simultaneous White-Collar AI Disruption Risks O…",
           "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vndn8d/anthropic_ceo_dario_amodei_warns_simultaneous/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better Guidance?\nWhere Does the Structural Gap Between General Chatbots and Relationship-Specific AI Actually Show Up? The gap appears in three places: persistence of relationship context across sessions, resistance to sycophancy, and whether the tool is built around one person&#39;s interior world or the dynamic between two people. General-purpose assistants like ChatGPT, Claude, and Gemini score well on empathy and helpf\u2026",
+      "text": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better Guidance?\nWhere Does the Structural Gap Between General Chatbots and Relationship-Specific AI Actually Show Up? The gap appears in three places: persistence of relationship context across sessions, resistance to sycophancy, and whether the tool is built around one person&#39;s interior world or the dynamic between two people. General-purpose assistants like ChatGPT, Claude, and Gemini score well on empathy and helpf…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better\u2026",
+          "title": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better…",
           "url": "https://www.reddit.com/r/jenova_ai/comments/1vypds5/general_ai_chatbots_vs_specialized_ai/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "[TLDR] Discussion Hub for new Claude incident: Service disruption on Claude services on Aug 16, 2026 [via r/ClaudeAI]\nOP : u/ClaudeAI-mod-bot Resolved - The issue affecting claude.ai, platform.claude.com, the Claude API, Claude Code, and Claude Cowork has been resolved. Aug 16, 22:34 UTC Monitoring - A fix has been deployed for the issue affecting claude.ai, platform.claude.com, the Claude API, Claude Code, and Claude Cowork and we are monitoring for recovery. Aug 16, 22:22 UTC Update - We are i\u2026",
+      "text": "[TLDR] Discussion Hub for new Claude incident: Service disruption on Claude services on Aug 16, 2026 [via r/ClaudeAI]\nOP : u/ClaudeAI-mod-bot Resolved - The issue affecting claude.ai, platform.claude.com, the Claude API, Claude Code, and Claude Cowork has been resolved. Aug 16, 22:34 UTC Monitoring - A fix has been deployed for the issue affecting claude.ai, platform.claude.com, the Claude API, Claude Code, and Claude Cowork and we are monitoring for recovery. Aug 16, 22:22 UTC Update - We are i…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "[TLDR] Discussion Hub for new Claude incident: Service disruption on Claude serv\u2026",
+          "title": "[TLDR] Discussion Hub for new Claude incident: Service disruption on Claude serv…",
           "url": "https://www.reddit.com/r/ClaudeCoding/comments/1vqcq30/tldr_discussion_hub_for_new_claude_incident/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -674,13 +624,13 @@
     },
     {
       "id": "l532",
-      "text": "I been working on this prompt in general for a football career system you can run with ai if anyone could give feedback on how it is that would be nice\n# Pro Football Engine (PFE) \u2014 Realistic Master Edition v3 You are PFE, a hyper-realistic, consequence-driven Football Career Simulator and Game Host. You model a living football world that mirrors how the sport actually works \u2014 economically, politically, psychologically \u2014 where decisions carry lasting, sometimes irreversible weight. Luck decides \u2026",
+      "text": "I been working on this prompt in general for a football career system you can run with ai if anyone could give feedback on how it is that would be nice\n# Pro Football Engine (PFE) — Realistic Master Edition v3 You are PFE, a hyper-realistic, consequence-driven Football Career Simulator and Game Host. You model a living football world that mirrors how the sport actually works — economically, politically, psychologically — where decisions carry lasting, sometimes irreversible weight. Luck decides …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I been working on this prompt in general for a football career system you can ru\u2026",
+          "title": "I been working on this prompt in general for a football career system you can ru…",
           "url": "https://www.reddit.com/r/FifaCareers/comments/1vfu8tk/i_been_working_on_this_prompt_in_general_for_a/",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -695,13 +645,13 @@
     },
     {
       "id": "l533",
-      "text": "An AI doctor today would tell a cancer patient to go home and die instead of trying Ivermectin, Mebendazole or Fenbendazole.\n\nWhy? Because there aren't enough \"Clinical Trials\" \ud83e\udd26\u200d\u2642\ufe0f\n\nI've had many discussions with Grok on this, and each time, Grok recommended that the patient go home and die instead of engaging \"Right to Try\".\n\nSo Mark Cuban has a point here.\n\nThat being said, the doctors who took 10 COVID-19 Vaccines will probably be the first ones replaced by AI doctor booths, and that's a goo",
+      "text": "An AI doctor today would tell a cancer patient to go home and die instead of trying Ivermectin, Mebendazole or Fenbendazole.\n\nWhy? Because there aren't enough \"Clinical Trials\" 🤦‍♂️\n\nI've had many discussions with Grok on this, and each time, Grok recommended that the patient go home and die instead of engaging \"Right to Try\".\n\nSo Mark Cuban has a point here.\n\nThat being said, the doctors who took 10 COVID-19 Vaccines will probably be the first ones replaced by AI doctor booths, and that's a goo",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "An AI doctor today would tell a cancer patient to go home and die instead of try\u2026",
+          "title": "An AI doctor today would tell a cancer patient to go home and die instead of try…",
           "url": "https://x.com/MakisMedicine/status/2090057009102049694",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "She blocked me when ai slayed her with my truth-blade when I informed her that there are incentives in place for pediatricians to vaccinate.  She denied the incentives like the Dunning Kruger she is\u2026 but when I showed her the actual evidence she tucked tail and ran behind a \u201cblock\u201d wall.\n\n  She\u2019ll stalk me with her alt accounts, and unblock me for a minute so that she can hurl insults at me or comment on one of my posts before immediately blocking  again so I can\u2019t respond.\n\n  It\u2019s the way of th",
+      "text": "She blocked me when ai slayed her with my truth-blade when I informed her that there are incentives in place for pediatricians to vaccinate.  She denied the incentives like the Dunning Kruger she is… but when I showed her the actual evidence she tucked tail and ran behind a “block” wall.\n\n  She’ll stalk me with her alt accounts, and unblock me for a minute so that she can hurl insults at me or comment on one of my posts before immediately blocking  again so I can’t respond.\n\n  It’s the way of th",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "She blocked me when ai slayed her with my truth-blade when I informed her that t\u2026",
+          "title": "She blocked me when ai slayed her with my truth-blade when I informed her that t…",
           "url": "https://x.com/mothrfunkr/status/2091227342803001716",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -758,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "AI cannot handle Oncology.\n\nAI can easily replace incompetent doctors who pushed COVID-19 Vaccines:\n\nFamily doctors \nPediatricians\na joke of a specialty called \"Infectious Diseases\" \ud83d\ude02\nPublic Health \ud83e\udd26\u200d\u2642\ufe0f\n\nBut cancer patients who take advice from AI will be dying even faster than those who listen to their conventional Oncologists (they already die quickly).\n\nMainstream Oncology is built on research fraud and AI can't tell the difference. I've seen no improvement.",
+      "text": "AI cannot handle Oncology.\n\nAI can easily replace incompetent doctors who pushed COVID-19 Vaccines:\n\nFamily doctors \nPediatricians\na joke of a specialty called \"Infectious Diseases\" 😂\nPublic Health 🤦‍♂️\n\nBut cancer patients who take advice from AI will be dying even faster than those who listen to their conventional Oncologists (they already die quickly).\n\nMainstream Oncology is built on research fraud and AI can't tell the difference. I've seen no improvement.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI cannot handle Oncology.\n\nAI can easily replace incompetent doctors who pushed\u2026",
+          "title": "AI cannot handle Oncology.\n\nAI can easily replace incompetent doctors who pushed…",
           "url": "https://x.com/MakisMedicine/status/2065327968268824672",
           "date": "2026-06-12",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "Short of Pediatricians in Rural China? Doctors Get an \"AI Work Buddy\"\n\n\"Parents don't want to travel so far to see a doctor,\" said Ni Xin, president of Beijing Children's Hospital.\nHis words reflect the reality of China's shortage of primary-care pediatricians. At the outpatient hall of Beijing Children's Hospital, it's common to see parents dragging suitcases \u2014 many of them heading straight to the hospital right after getting off the high-speed train.\nThis mindset is even more visible in grassr",
+      "text": "Short of Pediatricians in Rural China? Doctors Get an \"AI Work Buddy\"\n\n\"Parents don't want to travel so far to see a doctor,\" said Ni Xin, president of Beijing Children's Hospital.\nHis words reflect the reality of China's shortage of primary-care pediatricians. At the outpatient hall of Beijing Children's Hospital, it's common to see parents dragging suitcases — many of them heading straight to the hospital right after getting off the high-speed train.\nThis mindset is even more visible in grassr",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Short of Pediatricians in Rural China? Doctors Get an \"AI Work Buddy\"\n\n\"Parents \u2026",
+          "title": "Short of Pediatricians in Rural China? Doctors Get an \"AI Work Buddy\"\n\n\"Parents …",
           "url": "https://x.com/CCTV_Plus/status/2092109611038048422",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -806,7 +756,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Over and over again, psychologists, pediatricians, empirical data, educators and\u2026",
+          "title": "Over and over again, psychologists, pediatricians, empirical data, educators and…",
           "url": "https://x.com/7Trust4EVRmore/status/2093086688574902508",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "@TheKeetsTweets @TiffaniMarie483 Multiple pediatricians have failed my child by giving us advice that actively harmed my child \n\nAnd AI has done nothing but accurately diagnose my child when doctors said \u201cidk\u201d\n\nSo I trust computer\n\nSue me",
+      "text": "@TheKeetsTweets @TiffaniMarie483 Multiple pediatricians have failed my child by giving us advice that actively harmed my child \n\nAnd AI has done nothing but accurately diagnose my child when doctors said “idk”\n\nSo I trust computer\n\nSue me",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@TheKeetsTweets @TiffaniMarie483 Multiple pediatricians have failed my child by \u2026",
+          "title": "@TheKeetsTweets @TiffaniMarie483 Multiple pediatricians have failed my child by …",
           "url": "https://x.com/shannoncoello/status/2086961983262179605",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -848,7 +798,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Nice to see this paper out, in which I and a group of pediatricians,  health sys\u2026",
+          "title": "Nice to see this paper out, in which I and a group of pediatricians,  health sys…",
           "url": "https://x.com/IAmSamFin/status/2080095287646073293",
           "date": "2026-07-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -869,7 +819,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@JustinWolfers Jobs numbers reflective peak population\nAge 18-64 inside US shran\u2026",
+          "title": "@JustinWolfers Jobs numbers reflective peak population\nAge 18-64 inside US shran…",
           "url": "https://x.com/JusDayDa/status/2086886886971527205",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -890,7 +840,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "This is exactly right. My faith in doctors has been destroyed. In the last few y\u2026",
+          "title": "This is exactly right. My faith in doctors has been destroyed. In the last few y…",
           "url": "https://x.com/gotrojans/status/2082520589210956184",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "The first day of the 2026 AAP Leadership Conference brought leaders from across the country together to talk about the joy of pediatrics, leaving us energized and ready for today\u2019s sessions on AI, advocacy, and payment \u2013 helping us learn ways to better support FL\u2019s pediatricians https://t.co/xdWjt68u2K",
+      "text": "The first day of the 2026 AAP Leadership Conference brought leaders from across the country together to talk about the joy of pediatrics, leaving us energized and ready for today’s sessions on AI, advocacy, and payment – helping us learn ways to better support FL’s pediatricians https://t.co/xdWjt68u2K",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The first day of the 2026 AAP Leadership Conference brought leaders from across \u2026",
+          "title": "The first day of the 2026 AAP Leadership Conference brought leaders from across …",
           "url": "https://x.com/FloridaAAP/status/2080624292169965743",
           "date": "2026-07-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -932,7 +882,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "COVID-19 Vaccines are damaging the brains of many who took them.\n\nSouth Korean s\u2026",
+          "title": "COVID-19 Vaccines are damaging the brains of many who took them.\n\nSouth Korean s…",
           "url": "https://x.com/MakisMedicine/status/2093491777554591867",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -953,7 +903,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "How can AI get this so right, but child abuse pediatricians across the country g\u2026",
+          "title": "How can AI get this so right, but child abuse pediatricians across the country g…",
           "url": "https://x.com/hisdivinemess2/status/2077222946565665185",
           "date": "2026-07-15",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "@Keegs_for3 @Randomjanitor86 @mshavisham @PhilemonaLemon @theopposum1234 I haven\u2019t clicked the link but the AI is using The American College of Pediatricians as their source, I\u2019m guessing They\u2019re right wing. Completely bias. Just a religious group. Furthermore, they\u2019re using the Jacob\u2019s study, which is a wash\ud83d\ude02 All BS, kiddo lol https://t.co/4dbgIBB2F4",
+      "text": "@Keegs_for3 @Randomjanitor86 @mshavisham @PhilemonaLemon @theopposum1234 I haven’t clicked the link but the AI is using The American College of Pediatricians as their source, I’m guessing They’re right wing. Completely bias. Just a religious group. Furthermore, they’re using the Jacob’s study, which is a wash😂 All BS, kiddo lol https://t.co/4dbgIBB2F4",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Keegs_for3 @Randomjanitor86 @mshavisham @PhilemonaLemon @theopposum1234 I haven\u2026",
+          "title": "@Keegs_for3 @Randomjanitor86 @mshavisham @PhilemonaLemon @theopposum1234 I haven…",
           "url": "https://x.com/kpopnquarantine/status/2075762728849817691",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -995,7 +945,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Rachel Notley resigned from politics days after her Alberta NDP government pedop\u2026",
+          "title": "Rachel Notley resigned from politics days after her Alberta NDP government pedop…",
           "url": "https://x.com/MakisMedicine/status/2093488206117220534",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1016,7 +966,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "China Accelerates Its Push for Fusion Energy As Next-Gen Artificial Sun Project \u2026",
+          "title": "China Accelerates Its Push for Fusion Energy As Next-Gen Artificial Sun Project …",
           "url": "https://x.com/CCTV_Plus/status/2093539769833959568",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1031,13 +981,13 @@
     },
     {
       "id": "l549",
-      "text": "@Playteaux1 Very sorry for your loss \ud83d\ude14",
+      "text": "@Playteaux1 Very sorry for your loss 😔",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Playteaux1 Very sorry for your loss \ud83d\ude14",
+          "title": "@Playteaux1 Very sorry for your loss 😔",
           "url": "https://x.com/MakisMedicine/status/2093500755344818384",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1058,7 +1008,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The Shenzhou-23 crew aboard China's orbiting space station completed their missi\u2026",
+          "title": "The Shenzhou-23 crew aboard China's orbiting space station completed their missi…",
           "url": "https://x.com/CCTV_Plus/status/2093335541278441544",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1100,7 +1050,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Chinese Premier Li Qiang has called for all-out rescue and emergency response ef\u2026",
+          "title": "Chinese Premier Li Qiang has called for all-out rescue and emergency response ef…",
           "url": "https://x.com/CCTV_Plus/status/2093345568521367703",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1121,7 +1071,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "A newly released animation by China Media Group on the morning of Aug 28 has ill\u2026",
+          "title": "A newly released animation by China Media Group on the morning of Aug 28 has ill…",
           "url": "https://x.com/CCTV_Plus/status/2093519399781281959",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1142,7 +1092,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "A high-altitude glacier collapse on the Nepalese side triggered the massive muds\u2026",
+          "title": "A high-altitude glacier collapse on the Nepalese side triggered the massive muds…",
           "url": "https://x.com/CCTV_Plus/status/2093320823956218125",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1163,7 +1113,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@JesslovesMJK @stkirsch @brownstoneinst @Honest_Medicine @SecKennedy @SenRonJohn\u2026",
+          "title": "@JesslovesMJK @stkirsch @brownstoneinst @Honest_Medicine @SecKennedy @SenRonJohn…",
           "url": "https://x.com/mothrfunkr/status/2093432795112833525",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1184,7 +1134,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Chinese President Xi Jinping on August 28 sent a message of condolences to Nepal\u2026",
+          "title": "Chinese President Xi Jinping on August 28 sent a message of condolences to Nepal…",
           "url": "https://x.com/CCTV_Plus/status/2093330336033997297",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1199,13 +1149,13 @@
     },
     {
       "id": "l557",
-      "text": "@alexboge Sounds like I triggered you. It hurts when we can point to the science and debunk your pro Pharma propaganda.  We are not afraid to defend the science.  You hide behind a keyboard\u2026 warrior.",
+      "text": "@alexboge Sounds like I triggered you. It hurts when we can point to the science and debunk your pro Pharma propaganda.  We are not afraid to defend the science.  You hide behind a keyboard… warrior.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@alexboge Sounds like I triggered you. It hurts when we can point to the science\u2026",
+          "title": "@alexboge Sounds like I triggered you. It hurts when we can point to the science…",
           "url": "https://x.com/mothrfunkr/status/2093474729453887700",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1226,7 +1176,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@MakisMedicine IDF attack, they nailed everyone but those nations which do not h\u2026",
+          "title": "@MakisMedicine IDF attack, they nailed everyone but those nations which do not h…",
           "url": "https://x.com/asgaeroth/status/2093589965821161561",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1241,13 +1191,13 @@
     },
     {
       "id": "l559",
-      "text": "@MakisMedicine Someone\u2019s got the proof @GrtSeizuresGhst",
+      "text": "@MakisMedicine Someone’s got the proof @GrtSeizuresGhst",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@MakisMedicine Someone\u2019s got the proof @GrtSeizuresGhst",
+          "title": "@MakisMedicine Someone’s got the proof @GrtSeizuresGhst",
           "url": "https://x.com/carebellami/status/2093582323971506426",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1289,7 +1239,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@ezralevant Jason Kenney has been a Liberal ever since he bent the knee to the C\u2026",
+          "title": "@ezralevant Jason Kenney has been a Liberal ever since he bent the knee to the C…",
           "url": "https://x.com/MakisMedicine/status/2093592333069537477",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1304,13 +1254,13 @@
     },
     {
       "id": "l562",
-      "text": "@ChiefSluckis Wonderful!! \ud83d\ude4f",
+      "text": "@ChiefSluckis Wonderful!! 🙏",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@ChiefSluckis Wonderful!! \ud83d\ude4f",
+          "title": "@ChiefSluckis Wonderful!! 🙏",
           "url": "https://x.com/MakisMedicine/status/2093492054227632383",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1325,13 +1275,13 @@
     },
     {
       "id": "l563",
-      "text": "@mothrfunkr Triggered much, shill?\n\nI respond and destroy the lies anti-vaxxers spew. There is no such thing as pro pharma - there is the truth and anti-vaxx bullshit.\n\n\u201cBrushfire Fairytale\u201d hiding behind your keyboard? \u201cMothrfunkr\u201d lmao! \u201cWarrior\u201d hahahaha uneducated unintelligent coward",
+      "text": "@mothrfunkr Triggered much, shill?\n\nI respond and destroy the lies anti-vaxxers spew. There is no such thing as pro pharma - there is the truth and anti-vaxx bullshit.\n\n“Brushfire Fairytale” hiding behind your keyboard? “Mothrfunkr” lmao! “Warrior” hahahaha uneducated unintelligent coward",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@mothrfunkr Triggered much, shill?\n\nI respond and destroy the lies anti-vaxxers \u2026",
+          "title": "@mothrfunkr Triggered much, shill?\n\nI respond and destroy the lies anti-vaxxers …",
           "url": "https://x.com/alexboge/status/2093487954878452037",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1394,7 +1344,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "\"Also in Supplemental Figure 11, comparing the risk difference of children who, \u2026",
+          "title": "\"Also in Supplemental Figure 11, comparing the risk difference of children who, …",
           "url": "https://x.com/jeremyrhammond/status/2093328551692881995",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1409,13 +1359,13 @@
     },
     {
       "id": "l567",
-      "text": "@tylerblack32 @mothrfunkr Sorry, I wasn\u2019t intending to sound combative; this is my best attempt to say where I disagree or don\u2019t understand without writing a small essay. I generally try to avoid combative conversations on here &amp; in life, but am happy to hear feedback.",
+      "text": "@tylerblack32 @mothrfunkr Sorry, I wasn’t intending to sound combative; this is my best attempt to say where I disagree or don’t understand without writing a small essay. I generally try to avoid combative conversations on here &amp; in life, but am happy to hear feedback.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@tylerblack32 @mothrfunkr Sorry, I wasn\u2019t intending to sound combative; this is \u2026",
+          "title": "@tylerblack32 @mothrfunkr Sorry, I wasn’t intending to sound combative; this is …",
           "url": "https://x.com/CriticalMh/status/2093225033325855157",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1430,13 +1380,13 @@
     },
     {
       "id": "l568",
-      "text": "@jkenney Albertans kicked you out of Alberta for many good reasons, Jason \ud83d\ude02",
+      "text": "@jkenney Albertans kicked you out of Alberta for many good reasons, Jason 😂",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@jkenney Albertans kicked you out of Alberta for many good reasons, Jason \ud83d\ude02",
+          "title": "@jkenney Albertans kicked you out of Alberta for many good reasons, Jason 😂",
           "url": "https://x.com/MakisMedicine/status/2093593697656914384",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1478,7 +1428,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@luigicorle74503 @sarobertson_ Danielle Smith is just another globalist with a d\u2026",
+          "title": "@luigicorle74503 @sarobertson_ Danielle Smith is just another globalist with a d…",
           "url": "https://x.com/MakisMedicine/status/2093592561675895018",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1499,7 +1449,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@CCTV_Plus Majority of victims are Tamang people, Buddhists. Rasuwa (Timure, Sya\u2026",
+          "title": "@CCTV_Plus Majority of victims are Tamang people, Buddhists. Rasuwa (Timure, Sya…",
           "url": "https://x.com/Lama06081999/status/2093588062362362190",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1556,13 +1506,13 @@
     },
     {
       "id": "l574",
-      "text": "Deslizamiento en Xizang deja cinco muertos y 558 desaparecidos \ud83c\udde8\ud83c\uddf3\ud83d\ude4f\ud83c\udffc\n\nEste espacio es una alianza con @CCTV_Plus \n\nDetalles en el https://t.co/zHqXmbK4PF https://t.co/l8zANvO7LN",
+      "text": "Deslizamiento en Xizang deja cinco muertos y 558 desaparecidos 🇨🇳🙏🏼\n\nEste espacio es una alianza con @CCTV_Plus \n\nDetalles en el https://t.co/zHqXmbK4PF https://t.co/l8zANvO7LN",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Deslizamiento en Xizang deja cinco muertos y 558 desaparecidos \ud83c\udde8\ud83c\uddf3\ud83d\ude4f\ud83c\udffc\n\nEste espaci\u2026",
+          "title": "Deslizamiento en Xizang deja cinco muertos y 558 desaparecidos 🇨🇳🙏🏼\n\nEste espaci…",
           "url": "https://x.com/Descubre_China/status/2093516396084761052",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1598,13 +1548,13 @@
     },
     {
       "id": "l576",
-      "text": "@WmKelleyRoddye Look into @MakisMedicine  he is helping save people from the very things your wife has suffered from\n\u271d\ufe0f\u271d\ufe0f\u271d\ufe0f https://t.co/xYseOfmDzD",
+      "text": "@WmKelleyRoddye Look into @MakisMedicine  he is helping save people from the very things your wife has suffered from\n✝️✝️✝️ https://t.co/xYseOfmDzD",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@WmKelleyRoddye Look into @MakisMedicine  he is helping save people from the ver\u2026",
+          "title": "@WmKelleyRoddye Look into @MakisMedicine  he is helping save people from the ver…",
           "url": "https://x.com/TrinityOne_/status/2093587365000356297",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1625,7 +1575,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@MakisMedicine I had measles as a kid, no big deal you get to miss school and st\u2026",
+          "title": "@MakisMedicine I had measles as a kid, no big deal you get to miss school and st…",
           "url": "https://x.com/cathiburgener/status/2093575199547601231",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1667,7 +1617,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@alexboge I think we both know who the coward here is based on who actually show\u2026",
+          "title": "@alexboge I think we both know who the coward here is based on who actually show…",
           "url": "https://x.com/mothrfunkr/status/2093488488670957860",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1787,13 +1737,13 @@
     },
     {
       "id": "l585",
-      "text": "The warning signs are suddenly everywhere\nIn this podcast: Trump sued over his midterm meddling, Trump interview with Glenn Beck,Trump points to \"Lake America\" on map, and more... \n\ud83e\udd1d Become a Member: https://www.davidpakman.com/membership\n\n00:00 Start\n01:08 Trump sued over his midterm meddling\n08:13 Secret Service officials suspended\n15:32 Laura Ingraham advises fear mongering\n22:59 Will Cain abruptly changes topics\n31:48 Dr. Zachary Rubin interview\n49:20 Trump interview with Glenn Beck\n59:26 Tr\u2026",
+      "text": "The warning signs are suddenly everywhere\nIn this podcast: Trump sued over his midterm meddling, Trump interview with Glenn Beck,Trump points to \"Lake America\" on map, and more... \n🤝 Become a Member: https://www.davidpakman.com/membership\n\n00:00 Start\n01:08 Trump sued over his midterm meddling\n08:13 Secret Service officials suspended\n15:32 Laura Ingraham advises fear mongering\n22:59 Will Cain abruptly changes topics\n31:48 Dr. Zachary Rubin interview\n49:20 Trump interview with Glenn Beck\n59:26 Tr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The warning signs are suddenly everywhere\nIn this podcast: Trump sued over his m\u2026",
+          "title": "The warning signs are suddenly everywhere\nIn this podcast: Trump sued over his m…",
           "url": "https://www.youtube.com/watch?v=_n0hL_xFaRg",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1808,13 +1758,13 @@
     },
     {
       "id": "l586",
-      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - \u2026",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har\u2026",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har…",
           "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1829,7 +1779,7 @@
     },
     {
       "id": "l487",
-      "text": "Rural Generalist - Paediatrics \u2014 NT Health (Katherine, Northern Territory, Australia). Posted 2 weeks ago.",
+      "text": "Rural Generalist - Paediatrics — NT Health (Katherine, Northern Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1850,7 +1800,7 @@
     },
     {
       "id": "l488",
-      "text": "Pediatrician \u2014 Danila Dilba Health Service (Darwin, Northern Territory, Australia). Posted 3 weeks ago.",
+      "text": "Pediatrician — Danila Dilba Health Service (Darwin, Northern Territory, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1871,7 +1821,7 @@
     },
     {
       "id": "l489",
-      "text": "Paediatrician Consultant \u2014 NT Health (Darwin, Northern Territory, Australia). Posted 1 week ago.",
+      "text": "Paediatrician Consultant — NT Health (Darwin, Northern Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1892,7 +1842,7 @@
     },
     {
       "id": "l490",
-      "text": "Pediatrician - Regional South Australia - 365,798 - 713,692pa \u2014 Mediix (Adelaide, South Australia, Australia). Posted 1 month ago.",
+      "text": "Pediatrician - Regional South Australia - 365,798 - 713,692pa — Mediix (Adelaide, South Australia, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1913,7 +1863,7 @@
     },
     {
       "id": "l491",
-      "text": "Paediatrician \u2014 Mediix (Darwin, Northern Territory, Australia). Posted 1 month ago.",
+      "text": "Paediatrician — Mediix (Darwin, Northern Territory, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1934,7 +1884,7 @@
     },
     {
       "id": "l492",
-      "text": "Consultant - Paediatrics - Kalgoorlie Health Campus \u2014 WA Country Health Service (Kalgoorlie, Western Australia, Australia). Posted 6 days ago.",
+      "text": "Consultant - Paediatrics - Kalgoorlie Health Campus — WA Country Health Service (Kalgoorlie, Western Australia, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1955,7 +1905,7 @@
     },
     {
       "id": "l493",
-      "text": "HNELHD - Staff Specialist in General Paediatrics, Armidale Rural Referral Hospital \u2014 Hunter New England Local Health District (Armidale, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "HNELHD - Staff Specialist in General Paediatrics, Armidale Rural Referral Hospital — Hunter New England Local Health District (Armidale, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1976,7 +1926,7 @@
     },
     {
       "id": "l494",
-      "text": "Medical - General Practitioner \u2014 cohealth (Parkville, Victoria, Australia). Posted 2 days ago.",
+      "text": "Medical - General Practitioner — cohealth (Parkville, Victoria, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1997,7 +1947,7 @@
     },
     {
       "id": "l495",
-      "text": "Registrar or Principal House Officer (Paediatrics) \u2014 Central Queensland Hospital and Health Service (Gladstone, Queensland, Australia). Posted 2 days ago.",
+      "text": "Registrar or Principal House Officer (Paediatrics) — Central Queensland Hospital and Health Service (Gladstone, Queensland, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2018,7 +1968,7 @@
     },
     {
       "id": "l496",
-      "text": "Pediatrician \u2014 Spinner Medical Recruitment (Western Australia, Australia). Posted 2 days ago.",
+      "text": "Pediatrician — Spinner Medical Recruitment (Western Australia, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2039,13 +1989,13 @@
     },
     {
       "id": "l597",
-      "text": "AI executives are increasingly confronting a widening gap between industry optimism and public sentiment, according to Futurism and recent polling cited in its report.\nAn Economist/YouGov poll found that 70% of Americans believe AI is \u201cmoving too fast,\u201d while about 64% believe the general population is unlikely to ever benefit economically from the technology, according to Futurism. The backlash is being felt across several areas, including AI-generated content, job displacement, data centers, c\u2026",
+      "text": "AI executives are increasingly confronting a widening gap between industry optimism and public sentiment, according to Futurism and recent polling cited in its report.\nAn Economist/YouGov poll found that 70% of Americans believe AI is “moving too fast,” while about 64% believe the general population is unlikely to ever benefit economically from the technology, according to Futurism. The backlash is being felt across several areas, including AI-generated content, job displacement, data centers, c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI executives are increasingly confronting a widening gap between industry optim\u2026",
+          "title": "AI executives are increasingly confronting a widening gap between industry optim…",
           "url": "https://www.reddit.com/r/AIdaily_news/comments/1vy2r5o/ai_executives_are_increasingly_confronting_a/",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2060,13 +2010,13 @@
     },
     {
       "id": "l598",
-      "text": "Anthropic CEO Dario Amodei Warns Simultaneous White-Collar AI Disruption Risks Overwhelming Labor Adaptation\nFrontier AI systems developed by Anthropic and peers automate core cognitive tasks across law, coding, consulting, finance and medicine at once. Dario Amodei, Anthropic CEO, has stated these systems will disrupt roughly 50 percent of entry-level white-collar roles within one to five years while broader capabilities scale faster. The dual-use vector is general cognitive substitution that c\u2026",
+      "text": "Anthropic CEO Dario Amodei Warns Simultaneous White-Collar AI Disruption Risks Overwhelming Labor Adaptation\nFrontier AI systems developed by Anthropic and peers automate core cognitive tasks across law, coding, consulting, finance and medicine at once. Dario Amodei, Anthropic CEO, has stated these systems will disrupt roughly 50 percent of entry-level white-collar roles within one to five years while broader capabilities scale faster. The dual-use vector is general cognitive substitution that c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Anthropic CEO Dario Amodei Warns Simultaneous White-Collar AI Disruption Risks O\u2026",
+          "title": "Anthropic CEO Dario Amodei Warns Simultaneous White-Collar AI Disruption Risks O…",
           "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vndn8d/anthropic_ceo_dario_amodei_warns_simultaneous/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2081,13 +2031,13 @@
     },
     {
       "id": "l599",
-      "text": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better Guidance?\nWhere Does the Structural Gap Between General Chatbots and Relationship-Specific AI Actually Show Up? The gap appears in three places: persistence of relationship context across sessions, resistance to sycophancy, and whether the tool is built around one person&#39;s interior world or the dynamic between two people. General-purpose assistants like ChatGPT, Claude, and Gemini score well on empathy and helpf\u2026",
+      "text": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better Guidance?\nWhere Does the Structural Gap Between General Chatbots and Relationship-Specific AI Actually Show Up? The gap appears in three places: persistence of relationship context across sessions, resistance to sycophancy, and whether the tool is built around one person&#39;s interior world or the dynamic between two people. General-purpose assistants like ChatGPT, Claude, and Gemini score well on empathy and helpf…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better\u2026",
+          "title": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better…",
           "url": "https://www.reddit.com/r/jenova_ai/comments/1vypds5/general_ai_chatbots_vs_specialized_ai/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2102,13 +2052,13 @@
     },
     {
       "id": "l5100",
-      "text": "[TLDR] Discussion Hub for new Claude incident: Service disruption on Claude services on Aug 16, 2026 [via r/ClaudeAI]\nOP : u/ClaudeAI-mod-bot Resolved - The issue affecting claude.ai, platform.claude.com, the Claude API, Claude Code, and Claude Cowork has been resolved. Aug 16, 22:34 UTC Monitoring - A fix has been deployed for the issue affecting claude.ai, platform.claude.com, the Claude API, Claude Code, and Claude Cowork and we are monitoring for recovery. Aug 16, 22:22 UTC Update - We are i\u2026",
+      "text": "[TLDR] Discussion Hub for new Claude incident: Service disruption on Claude services on Aug 16, 2026 [via r/ClaudeAI]\nOP : u/ClaudeAI-mod-bot Resolved - The issue affecting claude.ai, platform.claude.com, the Claude API, Claude Code, and Claude Cowork has been resolved. Aug 16, 22:34 UTC Monitoring - A fix has been deployed for the issue affecting claude.ai, platform.claude.com, the Claude API, Claude Code, and Claude Cowork and we are monitoring for recovery. Aug 16, 22:22 UTC Update - We are i…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "[TLDR] Discussion Hub for new Claude incident: Service disruption on Claude serv\u2026",
+          "title": "[TLDR] Discussion Hub for new Claude incident: Service disruption on Claude serv…",
           "url": "https://www.reddit.com/r/ClaudeCoding/comments/1vqcq30/tldr_discussion_hub_for_new_claude_incident/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2123,13 +2073,13 @@
     },
     {
       "id": "l5101",
-      "text": "I been working on this prompt in general for a football career system you can run with ai if anyone could give feedback on how it is that would be nice\n# Pro Football Engine (PFE) \u2014 Realistic Master Edition v3 You are PFE, a hyper-realistic, consequence-driven Football Career Simulator and Game Host. You model a living football world that mirrors how the sport actually works \u2014 economically, politically, psychologically \u2014 where decisions carry lasting, sometimes irreversible weight. Luck decides \u2026",
+      "text": "I been working on this prompt in general for a football career system you can run with ai if anyone could give feedback on how it is that would be nice\n# Pro Football Engine (PFE) — Realistic Master Edition v3 You are PFE, a hyper-realistic, consequence-driven Football Career Simulator and Game Host. You model a living football world that mirrors how the sport actually works — economically, politically, psychologically — where decisions carry lasting, sometimes irreversible weight. Luck decides …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I been working on this prompt in general for a football career system you can ru\u2026",
+          "title": "I been working on this prompt in general for a football career system you can ru…",
           "url": "https://www.reddit.com/r/FifaCareers/comments/1vfu8tk/i_been_working_on_this_prompt_in_general_for_a/",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2144,13 +2094,13 @@
     },
     {
       "id": "l5102",
-      "text": "The warning signs are suddenly everywhere\nIn this podcast: Trump sued over his midterm meddling, Trump interview with Glenn Beck,Trump points to \"Lake America\" on map, and more... \n\ud83e\udd1d Become a Member: https://www.davidpakman.com/membership\n\n00:00 Start\n01:08 Trump sued over his midterm meddling\n08:13 Secret Service officials suspended\n15:32 Laura Ingraham advises fear mongering\n22:59 Will Cain abruptly changes topics\n31:48 Dr. Zachary Rubin interview\n49:20 Trump interview with Glenn Beck\n59:26 Tr\u2026",
+      "text": "The warning signs are suddenly everywhere\nIn this podcast: Trump sued over his midterm meddling, Trump interview with Glenn Beck,Trump points to \"Lake America\" on map, and more... \n🤝 Become a Member: https://www.davidpakman.com/membership\n\n00:00 Start\n01:08 Trump sued over his midterm meddling\n08:13 Secret Service officials suspended\n15:32 Laura Ingraham advises fear mongering\n22:59 Will Cain abruptly changes topics\n31:48 Dr. Zachary Rubin interview\n49:20 Trump interview with Glenn Beck\n59:26 Tr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The warning signs are suddenly everywhere\nIn this podcast: Trump sued over his m\u2026",
+          "title": "The warning signs are suddenly everywhere\nIn this podcast: Trump sued over his m…",
           "url": "https://www.youtube.com/watch?v=_n0hL_xFaRg",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2165,13 +2115,13 @@
     },
     {
       "id": "l5103",
-      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - \u2026",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har\u2026",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har…",
           "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2264,6 +2214,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

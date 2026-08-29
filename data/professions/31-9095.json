@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "31-9095-01",
-      "text": "National peak professional bodies and statutory regulators governing Pharmacy Aides enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Pharmacy Aides",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Pharmacy Aides",
-          "url": "https://www.psc.gov.au/standards/31-9095",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Pharmacy Aides"
-        }
-      ],
-      "scope": "Australian practitioners in Pharmacy Aides across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "31-9095-02",
-      "text": "Automation of routine transactional and analytical tasks in Pharmacy Aides heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Pharmacy Aides",
-          "url": "https://www.jobsandskills.gov.au/research/31-9095",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Pharmacy Aides in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Pharmacy Aides roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -86,13 +36,13 @@
     },
     {
       "id": "l504",
-      "text": "Problem: Running out of prescription medication because renewal fell through the gap\n**JTBD:** When I manage multiple daily medications prescribed by different specialists, I want to know which prescriptions are running low and need renewal before I run out, so I don't experience a gap in adherence because one doctor's office is hard to reach or has a long callback queue.\n\n---\n\n**Co\n<!-- rw:orchestration-run:rw:muaddibco:RealWorldProblems:issue:1736 -->\nOrchestrator claimed issue for stage `norm\u2026",
+      "text": "Problem: Running out of prescription medication because renewal fell through the gap\n**JTBD:** When I manage multiple daily medications prescribed by different specialists, I want to know which prescriptions are running low and need renewal before I run out, so I don't experience a gap in adherence because one doctor's office is hard to reach or has a long callback queue.\n\n---\n\n**Co\n<!-- rw:orchestration-run:rw:muaddibco:RealWorldProblems:issue:1736 -->\nOrchestrator claimed issue for stage `norm…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Problem: Running out of prescription medication because renewal fell through the\u2026",
+          "title": "Problem: Running out of prescription medication because renewal fell through the…",
           "url": "https://github.com/muaddibco/RealWorldProblems/issues/1736",
           "date": "2026-05-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -107,13 +57,13 @@
     },
     {
       "id": "l505",
-      "text": "Problem: Last-minute caregiver cancellation leaves family scrambling to cover elder care\n**JTBD:** When my parent's regular paid caregiver calls in sick with no notice, I want to quickly coordinate who among family members can cover each specific care task that day, so my parent doesn't miss their afternoon medication, noon meal, or mobility assistance while I'm at work.\n\n---\n\n**Context\n<!-- rw:orchestration-run:rw:muaddibco:RealWorldProblems:issue:1759 -->\nOrchestrator claimed issue for stage `\u2026",
+      "text": "Problem: Last-minute caregiver cancellation leaves family scrambling to cover elder care\n**JTBD:** When my parent's regular paid caregiver calls in sick with no notice, I want to quickly coordinate who among family members can cover each specific care task that day, so my parent doesn't miss their afternoon medication, noon meal, or mobility assistance while I'm at work.\n\n---\n\n**Context\n<!-- rw:orchestration-run:rw:muaddibco:RealWorldProblems:issue:1759 -->\nOrchestrator claimed issue for stage `…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Problem: Last-minute caregiver cancellation leaves family scrambling to cover el\u2026",
+          "title": "Problem: Last-minute caregiver cancellation leaves family scrambling to cover el…",
           "url": "https://github.com/muaddibco/RealWorldProblems/issues/1759",
           "date": "2026-05-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -317,13 +267,13 @@
     },
     {
       "id": "l515",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -338,13 +288,13 @@
     },
     {
       "id": "l516",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -527,13 +477,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -569,13 +519,13 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "BREAKING: The U.S State Department Displays An AI-Generated Map That Mislabels Every African Country, Placing Nigeria In The Sahara, Relocating Mozambique To The Horn of Africa, And Moving C\u00f4te d\u2019Ivoire To The Opposite Side Of The Continent, At The Global AIDS 2026 Conference In Rio \ud83e\udd16\nA US State Department presentation at the AIDS 2026 conference in Rio de Janeiro featured a map of Africa that mislabeled every country, sparking widespread attention after attendees took screenshots and shared the\u2026",
+      "text": "BREAKING: The U.S State Department Displays An AI-Generated Map That Mislabels Every African Country, Placing Nigeria In The Sahara, Relocating Mozambique To The Horn of Africa, And Moving Côte d’Ivoire To The Opposite Side Of The Continent, At The Global AIDS 2026 Conference In Rio 🤖\nA US State Department presentation at the AIDS 2026 conference in Rio de Janeiro featured a map of Africa that mislabeled every country, sparking widespread attention after attendees took screenshots and shared the…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "BREAKING: The U.S State Department Displays An AI-Generated Map That Mislabels E\u2026",
+          "title": "BREAKING: The U.S State Department Displays An AI-Generated Map That Mislabels E…",
           "url": "https://www.reddit.com/r/InterstellarKinetics/comments/1vbob7h/breaking_the_us_state_department_displays_an/",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "\u201cWhy do you use AI to write.\u201d \n\nNo darling, in my family we speak & write good English. \n\nYou should have met me 5-7 years ago when I was actively practicing pharmacy and writing on WATTPAD\u2014I had a more impeccable vocabulary. Even at my big old age, I learn at least 15-20 new words weekly. \n\nFool!",
+      "text": "“Why do you use AI to write.” \n\nNo darling, in my family we speak & write good English. \n\nYou should have met me 5-7 years ago when I was actively practicing pharmacy and writing on WATTPAD—I had a more impeccable vocabulary. Even at my big old age, I learn at least 15-20 new words weekly. \n\nFool!",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u201cWhy do you use AI to write.\u201d \n\nNo darling, in my family we speak & write good E\u2026",
+          "title": "“Why do you use AI to write.” \n\nNo darling, in my family we speak & write good E…",
           "url": "https://x.com/greyischaos/status/2093256324687573279",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -680,7 +630,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI is driving transparency in pharmacy benefits, delivering real-time analytics \u2026",
+          "title": "AI is driving transparency in pharmacy benefits, delivering real-time analytics …",
           "url": "https://x.com/Drug_Topics/status/2093368002787827749",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -701,7 +651,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Community Pharmacy Freedom, Cash-Based Models &amp; AI-Powered Medication Optimi\u2026",
+          "title": "Community Pharmacy Freedom, Cash-Based Models &amp; AI-Powered Medication Optimi…",
           "url": "https://x.com/PharmacyPodcast/status/2093399105661759506",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -722,7 +672,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "This shows why the media lies about rural care under Trump. Millions going direc\u2026",
+          "title": "This shows why the media lies about rural care under Trump. Millions going direc…",
           "url": "https://x.com/grandauditwin/status/2093025081165291996",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "This Week in Pharmacy \u2014 TWIRx\nCommunity Pharmacy Freedom, Cash-Based Models & AI-Powered Medication Optimization\n\nToday\u2019s episode of This Week in Pharmacy \u2014 TWIRx is sponsored by Value Drug Company and explores two major forces reshaping pharmacy: the evolution of the community pharmacy business model and the expanding role of artificial intelligence in medication optimization and value-based care.\n\nPART ONE: The Expansion of Community Pharmacy\n\nSpecial Guest: Rick Seipp, PharmD\nPresident, Value",
+      "text": "This Week in Pharmacy — TWIRx\nCommunity Pharmacy Freedom, Cash-Based Models & AI-Powered Medication Optimization\n\nToday’s episode of This Week in Pharmacy — TWIRx is sponsored by Value Drug Company and explores two major forces reshaping pharmacy: the evolution of the community pharmacy business model and the expanding role of artificial intelligence in medication optimization and value-based care.\n\nPART ONE: The Expansion of Community Pharmacy\n\nSpecial Guest: Rick Seipp, PharmD\nPresident, Value",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This Week in Pharmacy \u2014 TWIRx\nCommunity Pharmacy Freedom, Cash-Based Models & AI\u2026",
+          "title": "This Week in Pharmacy — TWIRx\nCommunity Pharmacy Freedom, Cash-Based Models & AI…",
           "url": "https://x.com/PharmacyPodcast/status/2093483747987300790",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -764,7 +714,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@LeoNelissen Yes the 2030 target \nWorld domination in Biotechnology and Pharmacy\u2026",
+          "title": "@LeoNelissen Yes the 2030 target \nWorld domination in Biotechnology and Pharmacy…",
           "url": "https://x.com/Tschuochsutaere/status/2093328561683779765",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -785,7 +735,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "How AI is helping keep critical medicines on pharmacy shelves https://t.co/BtD4j\u2026",
+          "title": "How AI is helping keep critical medicines on pharmacy shelves https://t.co/BtD4j…",
           "url": "https://x.com/USATODAYmoney/status/2093413396502708321",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "\u3053\u3061\u3089\u306e\u30bb\u30c3\u30b7\u30e7\u30f3\u3067\u306f\u3001\u85ac\u5c40\u306b\u6a19\u6e96\u5316\u3055\u308c\u305f\u982d\u75db\u8a3a\u7642\u30b5\u30fc\u30d3\u30b9\u3092\u5c0e\u5165\u3059\u308b\u30ce\u30eb\u30a6\u30a7\u30fc\u306e\u8a08\u753b\u3068\u53f0\u6e7e\u306eESG\u306b\u914d\u616e\u3057\u3001AI\u3092\u6d3b\u7528\u3057\u305f\u75c5\u9662\u85ac\u5264\u5e2b\u696d\u52d9\u306b\u3064\u3044\u3066\u306e\u5831\u544a\n\n\u3010#FIP2026\u3011\nMOMO-02 - Sharing ideas of member organisations: Norwegian Pharmacy Association & Taiwan Society of Health-system Pharmacists, China Taiwan\nhttps://t.co/4PkjuBlRQI",
+      "text": "こちらのセッションでは、薬局に標準化された頭痛診療サービスを導入するノルウェーの計画と台湾のESGに配慮し、AIを活用した病院薬剤師業務についての報告\n\n【#FIP2026】\nMOMO-02 - Sharing ideas of member organisations: Norwegian Pharmacy Association & Taiwan Society of Health-system Pharmacists, China Taiwan\nhttps://t.co/4PkjuBlRQI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u3053\u3061\u3089\u306e\u30bb\u30c3\u30b7\u30e7\u30f3\u3067\u306f\u3001\u85ac\u5c40\u306b\u6a19\u6e96\u5316\u3055\u308c\u305f\u982d\u75db\u8a3a\u7642\u30b5\u30fc\u30d3\u30b9\u3092\u5c0e\u5165\u3059\u308b\u30ce\u30eb\u30a6\u30a7\u30fc\u306e\u8a08\u753b\u3068\u53f0\u6e7e\u306eESG\u306b\u914d\u616e\u3057\u3001AI\u3092\u6d3b\u7528\u3057\u305f\u75c5\u9662\u85ac\u5264\u5e2b\u696d\u52d9\u306b\u3064\u3044\u3066\u306e\u5831\u544a\n\n\u3010#F\u2026",
+          "title": "こちらのセッションでは、薬局に標準化された頭痛診療サービスを導入するノルウェーの計画と台湾のESGに配慮し、AIを活用した病院薬剤師業務についての報告\n\n【#F…",
           "url": "https://x.com/kojima_aponet/status/2093514413005566208",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "AI and the Future of Digital Healthcare \u2014 And What It Actually Means for Nigeria",
+      "text": "AI and the Future of Digital Healthcare — And What It Actually Means for Nigeria",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI and the Future of Digital Healthcare \u2014 And What It Actually Means for Nigeria",
+          "title": "AI and the Future of Digital Healthcare — And What It Actually Means for Nigeria",
           "url": "https://x.com/xosmoint/status/2075129321794978165",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "Doctor Explains How to Dose Retatrutide to MAXIMIZE Fat Loss (not what you think)\nBook your free discovery call *HERE:* https://drjonesdc.com/yt1d \n\nRetatrutide dosing needs to be built around response, not trial titration schedules. I walk through why chasing higher doses can create more fatigue, appetite suppression, training disruption, and cardiovascular stress without meaningfully improving fat loss. The goal is finding the lowest effective dose that controls hunger while still allowing eno\u2026",
+      "text": "Doctor Explains How to Dose Retatrutide to MAXIMIZE Fat Loss (not what you think)\nBook your free discovery call *HERE:* https://drjonesdc.com/yt1d \n\nRetatrutide dosing needs to be built around response, not trial titration schedules. I walk through why chasing higher doses can create more fatigue, appetite suppression, training disruption, and cardiovascular stress without meaningfully improving fat loss. The goal is finding the lowest effective dose that controls hunger while still allowing eno…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Doctor Explains How to Dose Retatrutide to MAXIMIZE Fat Loss (not what you think\u2026",
+          "title": "Doctor Explains How to Dose Retatrutide to MAXIMIZE Fat Loss (not what you think…",
           "url": "https://www.youtube.com/watch?v=nYUMLbjE2wA",
           "date": "2026-06-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -932,7 +882,7 @@
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Threatens Medical Billing: Choose THIS Instead!\nMedical billing and coding fa\u2026",
+          "title": "AI Threatens Medical Billing: Choose THIS Instead!\nMedical billing and coding fa…",
           "url": "https://www.youtube.com/watch?v=xl8siK1oV3U",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "Pharmacy Automation Stocks: 2026 Breakdown\nAutomated dispensing machine market analysis is critical for investors tracking the future of hospital efficiency and pharmacy technology in 2026. This video provides a comprehensive breakdown of the sector\u2019s growth outlook, focusing on how key players like Omnicell (OMCL) and Becton, Dickinson and Company (BDX) are leading the digital transformation of healthcare.\n\nWe examine the rising demand for AI-enabled medication management, the competitive lands\u2026",
+      "text": "Pharmacy Automation Stocks: 2026 Breakdown\nAutomated dispensing machine market analysis is critical for investors tracking the future of hospital efficiency and pharmacy technology in 2026. This video provides a comprehensive breakdown of the sector’s growth outlook, focusing on how key players like Omnicell (OMCL) and Becton, Dickinson and Company (BDX) are leading the digital transformation of healthcare.\n\nWe examine the rising demand for AI-enabled medication management, the competitive lands…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Pharmacy Automation Stocks: 2026 Breakdown\nAutomated dispensing machine market a\u2026",
+          "title": "Pharmacy Automation Stocks: 2026 Breakdown\nAutomated dispensing machine market a…",
           "url": "https://www.youtube.com/watch?v=yquIh2QfVzQ",
           "date": "2026-06-08",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "How AI Is Changing Pharmacy Operations with Harry Travis\nMost pharmacy leaders know AI is coming - but very few understand what it actually takes to apply it in real operations without getting lost in hype, complexity, or vendor noise.\n\n\n\nIn this episode of the *Pharmacy Operators Podcast*, Eesha Sharma sits down with Harry Travis - former executive at Aetna, CVS Caremark, and Accredo, and a 40-year veteran of pharmacy operations.\n\n\n\nHarry has seen every major shift in pharmacy - from IV automat\u2026",
+      "text": "How AI Is Changing Pharmacy Operations with Harry Travis\nMost pharmacy leaders know AI is coming - but very few understand what it actually takes to apply it in real operations without getting lost in hype, complexity, or vendor noise.\n\n\n\nIn this episode of the *Pharmacy Operators Podcast*, Eesha Sharma sits down with Harry Travis - former executive at Aetna, CVS Caremark, and Accredo, and a 40-year veteran of pharmacy operations.\n\n\n\nHarry has seen every major shift in pharmacy - from IV automat…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI Is Changing Pharmacy Operations with Harry Travis\nMost pharmacy leaders k\u2026",
+          "title": "How AI Is Changing Pharmacy Operations with Harry Travis\nMost pharmacy leaders k…",
           "url": "https://www.youtube.com/watch?v=Vj0fncs3cfM",
           "date": "2026-03-30",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -989,7 +939,7 @@
     },
     {
       "id": "l447",
-      "text": "Pharmacy Assistant \u2014 Ramsay Health Care (Greenslopes, Queensland, Australia). Posted 1 week ago.",
+      "text": "Pharmacy Assistant — Ramsay Health Care (Greenslopes, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1010,7 +960,7 @@
     },
     {
       "id": "l448",
-      "text": "Pharmacy Assistant \u2014 West Moreton Hospital and Health Service (West Ipswich, Queensland, Australia). Posted 5 days ago.",
+      "text": "Pharmacy Assistant — West Moreton Hospital and Health Service (West Ipswich, Queensland, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1031,7 +981,7 @@
     },
     {
       "id": "l449",
-      "text": "Pharmacy Assistant \u2014 Darling Downs Hospital and Health Service (Toowoomba, Queensland, Australia). Posted 3 hours ago.",
+      "text": "Pharmacy Assistant — Darling Downs Hospital and Health Service (Toowoomba, Queensland, Australia). Posted 3 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1052,7 +1002,7 @@
     },
     {
       "id": "l450",
-      "text": "Pharmacy Assistant \u2014 Ramsay Health Care (Miami, Queensland, Australia). Posted 6 days ago.",
+      "text": "Pharmacy Assistant — Ramsay Health Care (Miami, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1073,7 +1023,7 @@
     },
     {
       "id": "l451",
-      "text": "Pharmacy Technician \u2014 Mercy Health Australia (Melbourne, Victoria, Australia). Posted 1 day ago.",
+      "text": "Pharmacy Technician — Mercy Health Australia (Melbourne, Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1094,7 +1044,7 @@
     },
     {
       "id": "l452",
-      "text": "Retail Pharmacy Assistant - Mater Hospital North Sydney \u2014 Icon Group (Sydney, New South Wales, Australia). Posted 17 hours ago.",
+      "text": "Retail Pharmacy Assistant - Mater Hospital North Sydney — Icon Group (Sydney, New South Wales, Australia). Posted 17 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1115,7 +1065,7 @@
     },
     {
       "id": "l453",
-      "text": "Pharmacy Dispense Technician \u2014 Power FM Bega Bay (Broulee, New South Wales, Australia). Posted 1 day ago.",
+      "text": "Pharmacy Dispense Technician — Power FM Bega Bay (Broulee, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1136,7 +1086,7 @@
     },
     {
       "id": "l454",
-      "text": "Process Worker (Compounding Assistant) \u2014 Baxter International Inc. (Coorparoo, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Process Worker (Compounding Assistant) — Baxter International Inc. (Coorparoo, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1157,7 +1107,7 @@
     },
     {
       "id": "l455",
-      "text": "Pharmacy Assistant/Technician Grade 1/2 - PFT - Malabar \u2014 NSW Justice Health & Forensic Mental Health Network (Sydney, New South Wales, Australia). Posted 1 day ago.",
+      "text": "Pharmacy Assistant/Technician Grade 1/2 - PFT - Malabar — NSW Justice Health & Forensic Mental Health Network (Sydney, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1178,13 +1128,13 @@
     },
     {
       "id": "l556",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1199,13 +1149,13 @@
     },
     {
       "id": "l557",
-      "text": "Problem: Running out of prescription medication because renewal fell through the gap\n**JTBD:** When I manage multiple daily medications prescribed by different specialists, I want to know which prescriptions are running low and need renewal before I run out, so I don't experience a gap in adherence because one doctor's office is hard to reach or has a long callback queue.\n\n---\n\n**Co\n<!-- rw:orchestration-run:rw:muaddibco:RealWorldProblems:issue:1736 -->\nOrchestrator claimed issue for stage `norm\u2026",
+      "text": "Problem: Running out of prescription medication because renewal fell through the gap\n**JTBD:** When I manage multiple daily medications prescribed by different specialists, I want to know which prescriptions are running low and need renewal before I run out, so I don't experience a gap in adherence because one doctor's office is hard to reach or has a long callback queue.\n\n---\n\n**Co\n<!-- rw:orchestration-run:rw:muaddibco:RealWorldProblems:issue:1736 -->\nOrchestrator claimed issue for stage `norm…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Problem: Running out of prescription medication because renewal fell through the\u2026",
+          "title": "Problem: Running out of prescription medication because renewal fell through the…",
           "url": "https://github.com/muaddibco/RealWorldProblems/issues/1736",
           "date": "2026-05-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1220,13 +1170,13 @@
     },
     {
       "id": "l558",
-      "text": "Problem: Last-minute caregiver cancellation leaves family scrambling to cover elder care\n**JTBD:** When my parent's regular paid caregiver calls in sick with no notice, I want to quickly coordinate who among family members can cover each specific care task that day, so my parent doesn't miss their afternoon medication, noon meal, or mobility assistance while I'm at work.\n\n---\n\n**Context\n<!-- rw:orchestration-run:rw:muaddibco:RealWorldProblems:issue:1759 -->\nOrchestrator claimed issue for stage `\u2026",
+      "text": "Problem: Last-minute caregiver cancellation leaves family scrambling to cover elder care\n**JTBD:** When my parent's regular paid caregiver calls in sick with no notice, I want to quickly coordinate who among family members can cover each specific care task that day, so my parent doesn't miss their afternoon medication, noon meal, or mobility assistance while I'm at work.\n\n---\n\n**Context\n<!-- rw:orchestration-run:rw:muaddibco:RealWorldProblems:issue:1759 -->\nOrchestrator claimed issue for stage `…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Problem: Last-minute caregiver cancellation leaves family scrambling to cover el\u2026",
+          "title": "Problem: Last-minute caregiver cancellation leaves family scrambling to cover el…",
           "url": "https://github.com/muaddibco/RealWorldProblems/issues/1759",
           "date": "2026-05-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1241,13 +1191,13 @@
     },
     {
       "id": "l559",
-      "text": "BREAKING: The U.S State Department Displays An AI-Generated Map That Mislabels Every African Country, Placing Nigeria In The Sahara, Relocating Mozambique To The Horn of Africa, And Moving C\u00f4te d\u2019Ivoire To The Opposite Side Of The Continent, At The Global AIDS 2026 Conference In Rio \ud83e\udd16\nA US State Department presentation at the AIDS 2026 conference in Rio de Janeiro featured a map of Africa that mislabeled every country, sparking widespread attention after attendees took screenshots and shared the\u2026",
+      "text": "BREAKING: The U.S State Department Displays An AI-Generated Map That Mislabels Every African Country, Placing Nigeria In The Sahara, Relocating Mozambique To The Horn of Africa, And Moving Côte d’Ivoire To The Opposite Side Of The Continent, At The Global AIDS 2026 Conference In Rio 🤖\nA US State Department presentation at the AIDS 2026 conference in Rio de Janeiro featured a map of Africa that mislabeled every country, sparking widespread attention after attendees took screenshots and shared the…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "BREAKING: The U.S State Department Displays An AI-Generated Map That Mislabels E\u2026",
+          "title": "BREAKING: The U.S State Department Displays An AI-Generated Map That Mislabels E…",
           "url": "https://www.reddit.com/r/InterstellarKinetics/comments/1vbob7h/breaking_the_us_state_department_displays_an/",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1262,13 +1212,13 @@
     },
     {
       "id": "l560",
-      "text": "Doctor Explains How to Dose Retatrutide to MAXIMIZE Fat Loss (not what you think)\nBook your free discovery call *HERE:* https://drjonesdc.com/yt1d \n\nRetatrutide dosing needs to be built around response, not trial titration schedules. I walk through why chasing higher doses can create more fatigue, appetite suppression, training disruption, and cardiovascular stress without meaningfully improving fat loss. The goal is finding the lowest effective dose that controls hunger while still allowing eno\u2026",
+      "text": "Doctor Explains How to Dose Retatrutide to MAXIMIZE Fat Loss (not what you think)\nBook your free discovery call *HERE:* https://drjonesdc.com/yt1d \n\nRetatrutide dosing needs to be built around response, not trial titration schedules. I walk through why chasing higher doses can create more fatigue, appetite suppression, training disruption, and cardiovascular stress without meaningfully improving fat loss. The goal is finding the lowest effective dose that controls hunger while still allowing eno…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Doctor Explains How to Dose Retatrutide to MAXIMIZE Fat Loss (not what you think\u2026",
+          "title": "Doctor Explains How to Dose Retatrutide to MAXIMIZE Fat Loss (not what you think…",
           "url": "https://www.youtube.com/watch?v=nYUMLbjE2wA",
           "date": "2026-06-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1283,13 +1233,13 @@
     },
     {
       "id": "l561",
-      "text": "Pharmacy Automation Stocks: 2026 Breakdown\nAutomated dispensing machine market analysis is critical for investors tracking the future of hospital efficiency and pharmacy technology in 2026. This video provides a comprehensive breakdown of the sector\u2019s growth outlook, focusing on how key players like Omnicell (OMCL) and Becton, Dickinson and Company (BDX) are leading the digital transformation of healthcare.\n\nWe examine the rising demand for AI-enabled medication management, the competitive lands\u2026",
+      "text": "Pharmacy Automation Stocks: 2026 Breakdown\nAutomated dispensing machine market analysis is critical for investors tracking the future of hospital efficiency and pharmacy technology in 2026. This video provides a comprehensive breakdown of the sector’s growth outlook, focusing on how key players like Omnicell (OMCL) and Becton, Dickinson and Company (BDX) are leading the digital transformation of healthcare.\n\nWe examine the rising demand for AI-enabled medication management, the competitive lands…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Pharmacy Automation Stocks: 2026 Breakdown\nAutomated dispensing machine market a\u2026",
+          "title": "Pharmacy Automation Stocks: 2026 Breakdown\nAutomated dispensing machine market a…",
           "url": "https://www.youtube.com/watch?v=yquIh2QfVzQ",
           "date": "2026-06-08",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1304,13 +1254,13 @@
     },
     {
       "id": "l562",
-      "text": "How AI Is Changing Pharmacy Operations with Harry Travis\nMost pharmacy leaders know AI is coming - but very few understand what it actually takes to apply it in real operations without getting lost in hype, complexity, or vendor noise.\n\n\n\nIn this episode of the *Pharmacy Operators Podcast*, Eesha Sharma sits down with Harry Travis - former executive at Aetna, CVS Caremark, and Accredo, and a 40-year veteran of pharmacy operations.\n\n\n\nHarry has seen every major shift in pharmacy - from IV automat\u2026",
+      "text": "How AI Is Changing Pharmacy Operations with Harry Travis\nMost pharmacy leaders know AI is coming - but very few understand what it actually takes to apply it in real operations without getting lost in hype, complexity, or vendor noise.\n\n\n\nIn this episode of the *Pharmacy Operators Podcast*, Eesha Sharma sits down with Harry Travis - former executive at Aetna, CVS Caremark, and Accredo, and a 40-year veteran of pharmacy operations.\n\n\n\nHarry has seen every major shift in pharmacy - from IV automat…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI Is Changing Pharmacy Operations with Harry Travis\nMost pharmacy leaders k\u2026",
+          "title": "How AI Is Changing Pharmacy Operations with Harry Travis\nMost pharmacy leaders k…",
           "url": "https://www.youtube.com/watch?v=Vj0fncs3cfM",
           "date": "2026-03-30",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1403,6 +1353,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

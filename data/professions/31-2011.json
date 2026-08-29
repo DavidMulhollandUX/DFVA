@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "31-2011-01",
-      "text": "National peak professional bodies and statutory regulators governing Occupational Therapist Assistants enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Occupational Therapist Assistants",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Occupational Therapist Assistants",
-          "url": "https://www.psc.gov.au/standards/31-2011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Occupational Therapist Assistants"
-        }
-      ],
-      "scope": "Australian practitioners in Occupational Therapist Assistants across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "31-2011-02",
-      "text": "Automation of routine transactional and analytical tasks in Occupational Therapist Assistants heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Occupational Therapist Assistants",
-          "url": "https://www.jobsandskills.gov.au/research/31-2011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Occupational Therapist Assistants in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Occupational Therapist Assistants roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "content: niche blog batch 9 \u2014 19 posts (dietitians, driving schools, ecommerce, fitness trainers, hair stylists, headshot photographers, immigration attorneys, jewelers, lactation consultants, makeup artists, midwives, notaries, speech therapists, tattoo artists, yoga instructors + 4 updates)\n## Niche Blog Batch 9\n\n19 testimonials-for-* blog posts completing the niche content campaign.\n\n### New posts (15):\n- testimonials-for-dietitians\n- testimonials-for-driving-schools\n- testimonials-for-ecomme\u2026",
+      "text": "content: niche blog batch 9 — 19 posts (dietitians, driving schools, ecommerce, fitness trainers, hair stylists, headshot photographers, immigration attorneys, jewelers, lactation consultants, makeup artists, midwives, notaries, speech therapists, tattoo artists, yoga instructors + 4 updates)\n## Niche Blog Batch 9\n\n19 testimonials-for-* blog posts completing the niche content campaign.\n\n### New posts (15):\n- testimonials-for-dietitians\n- testimonials-for-driving-schools\n- testimonials-for-ecomme…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "content: niche blog batch 9 \u2014 19 posts (dietitians, driving schools, ecommerce, \u2026",
+          "title": "content: niche blog batch 9 — 19 posts (dietitians, driving schools, ecommerce, …",
           "url": "https://github.com/rsdouglas/proof/pull/620",
           "date": "2026-03-08",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -233,13 +183,13 @@
     },
     {
       "id": "l511",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -317,13 +267,13 @@
     },
     {
       "id": "l515",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -338,13 +288,13 @@
     },
     {
       "id": "l516",
-      "text": "Launch HN: Traceforce (YC S26) \u2013 Company-wide security monitoring for AI apps",
+      "text": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Launch HN: Traceforce (YC S26) \u2013 Company-wide security monitoring for AI apps",
+          "title": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
           "url": "https://news.ycombinator.com/item?id=48937020",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -485,13 +435,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -527,13 +477,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -569,13 +519,13 @@
     },
     {
       "id": "l527",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Ableist Antis Tell Person With Disabilities to Disregard Therapist And Not Use AI as an Assistive Technology\n&#32; submitted by &#32; /u/Angel-Kat &#32; to &#32; r/DefendingAI [link] &#32; [comments]\nYeah, anyone who tries to countermand a medical professional needs to shut the fuck up. Good therapist, though, I like them. You must keep in mind that these people do not have morals, they have objectives. The only reason an anti would appeal to your morality is because they're trying to use your m\u2026",
+      "text": "Ableist Antis Tell Person With Disabilities to Disregard Therapist And Not Use AI as an Assistive Technology\n&#32; submitted by &#32; /u/Angel-Kat &#32; to &#32; r/DefendingAI [link] &#32; [comments]\nYeah, anyone who tries to countermand a medical professional needs to shut the fuck up. Good therapist, though, I like them. You must keep in mind that these people do not have morals, they have objectives. The only reason an anti would appeal to your morality is because they're trying to use your m…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Ableist Antis Tell Person With Disabilities to Disregard Therapist And Not Use A\u2026",
+          "title": "Ableist Antis Tell Person With Disabilities to Disregard Therapist And Not Use A…",
           "url": "https://www.reddit.com/r/DefendingAI/comments/1vnstlw/ableist_antis_tell_person_with_disabilities_to/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -617,7 +567,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Occupational Therapist Expert at AfterQuery - AI Training Job\nhttps://ift.tt/n2T\u2026",
+          "title": "Occupational Therapist Expert at AfterQuery - AI Training Job\nhttps://ift.tt/n2T…",
           "url": "https://www.reddit.com/r/trainAIjobs/comments/1vzr1xr/occupational_therapist_expert_at_afterquery_ai/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "AI job disruption priced into injured worker\u2019s compensation payout \u2014 \u2018Uncertainty of any occupation in today's workforce, especially with the advent of artificial intelligence\u2019 factored in future earnings loss of $400,000\n&#32; submitted by &#32; /u/marketrent &#32; to &#32; r/technology [link] &#32; [comments]\nOkay, I VERY MUCH misunderstood the title now that I have read the description below. I thought this meant \"we're going to pay you $400,000 less because we think that's how much your earn\u2026",
+      "text": "AI job disruption priced into injured worker’s compensation payout — ‘Uncertainty of any occupation in today's workforce, especially with the advent of artificial intelligence’ factored in future earnings loss of $400,000\n&#32; submitted by &#32; /u/marketrent &#32; to &#32; r/technology [link] &#32; [comments]\nOkay, I VERY MUCH misunderstood the title now that I have read the description below. I thought this meant \"we're going to pay you $400,000 less because we think that's how much your earn…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI job disruption priced into injured worker\u2019s compensation payout \u2014 \u2018Uncertaint\u2026",
+          "title": "AI job disruption priced into injured worker’s compensation payout — ‘Uncertaint…",
           "url": "https://www.reddit.com/r/technology/comments/1vuwlpl/ai_job_disruption_priced_into_injured_workers/",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -659,7 +609,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of P\u2026",
+          "title": "The Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of P…",
           "url": "https://www.reddit.com/r/PoisonFountain/comments/1vkxkqc/the_tragedy_of_the_cognitive_commons_how_ai_could/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -680,7 +630,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "What is better according to you, talking to an AI Mental Health assistant (chatb\u2026",
+          "title": "What is better according to you, talking to an AI Mental Health assistant (chatb…",
           "url": "https://www.reddit.com/r/AskReddit/comments/1vj1muj/what_is_better_according_to_you_talking_to_an_ai/",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -701,7 +651,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Medium-run aggregate employment should be the least of our AI anxieties. Human l\u2026",
+          "title": "Medium-run aggregate employment should be the least of our AI anxieties. Human l…",
           "url": "https://x.com/ernietedeschi/status/2092642055877201969",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -722,7 +672,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Things getting wild in automated systems engineering.\n\nThis new work claims to b\u2026",
+          "title": "Things getting wild in automated systems engineering.\n\nThis new work claims to b…",
           "url": "https://x.com/dair_ai/status/2093383220041753042",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "\ud83d\uddf3\ufe0f What\u2019s next for the IAFF? \n\nAt the 58th #IAFFConvention, 57 resolutions were adopted addressing everything from AI and fire service training to organizing, occupational health, and the future of our union.\n\nSee what passed and what comes next. #AllIn https://t.co/ENDw0Dyn55",
+      "text": "🗳️ What’s next for the IAFF? \n\nAt the 58th #IAFFConvention, 57 resolutions were adopted addressing everything from AI and fire service training to organizing, occupational health, and the future of our union.\n\nSee what passed and what comes next. #AllIn https://t.co/ENDw0Dyn55",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\uddf3\ufe0f What\u2019s next for the IAFF? \n\nAt the 58th #IAFFConvention, 57 resolutions were \u2026",
+          "title": "🗳️ What’s next for the IAFF? \n\nAt the 58th #IAFFConvention, 57 resolutions were …",
           "url": "https://x.com/IAFFofficial/status/2092718513244770307",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -758,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "Thank you for that long and obvious AI-generated response. Allow me to respond in kind:\n\nThe claims do not hold up under scrutiny. The post projects modern Western concepts of \u201ctransgender,\u201d \u201cnon-binary,\u201d and identity-based gender variance onto historical cultural roles that were different in nature, scope, and social meaning. These were typically sex-based behavioral, occupational, or ritual categories\u2014often for male-bodied people adopting feminine traits or same-sex practices\u2014rather than an in",
+      "text": "Thank you for that long and obvious AI-generated response. Allow me to respond in kind:\n\nThe claims do not hold up under scrutiny. The post projects modern Western concepts of “transgender,” “non-binary,” and identity-based gender variance onto historical cultural roles that were different in nature, scope, and social meaning. These were typically sex-based behavioral, occupational, or ritual categories—often for male-bodied people adopting feminine traits or same-sex practices—rather than an in",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Thank you for that long and obvious AI-generated response. Allow me to respond i\u2026",
+          "title": "Thank you for that long and obvious AI-generated response. Allow me to respond i…",
           "url": "https://x.com/LibertyFirst7/status/2092317519034110094",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "Don\u2019t ask me,\n\n\u201cWhat\u2019s the best AI coding tool?\u201d\n\nI\u2019m the one asking.\n\nWhat are you building?\nA website? An app?\nDo you know how to code?\nAre you okay with the terminal?\nHave you tried Cursor?\nWhat about Claude Code?\nHow much are you willing to spend per month?\n\nYou could just recommend one,\nbut I have to make it this annoying lol\n\nThen, after asking a whole bunch of questions,\n\n\u201cI\u2019d start with Cursor.\u201d\n\nThat\u2019s occupational hazard.\nNo...\n\nIt\u2019s vibe sickness \ud83d\ude02",
+      "text": "Don’t ask me,\n\n“What’s the best AI coding tool?”\n\nI’m the one asking.\n\nWhat are you building?\nA website? An app?\nDo you know how to code?\nAre you okay with the terminal?\nHave you tried Cursor?\nWhat about Claude Code?\nHow much are you willing to spend per month?\n\nYou could just recommend one,\nbut I have to make it this annoying lol\n\nThen, after asking a whole bunch of questions,\n\n“I’d start with Cursor.”\n\nThat’s occupational hazard.\nNo...\n\nIt’s vibe sickness 😂",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Don\u2019t ask me,\n\n\u201cWhat\u2019s the best AI coding tool?\u201d\n\nI\u2019m the one asking.\n\nWhat are \u2026",
+          "title": "Don’t ask me,\n\n“What’s the best AI coding tool?”\n\nI’m the one asking.\n\nWhat are …",
           "url": "https://x.com/Jadu100x/status/2092432138004250914",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "\ud83e\udd47Top AI Papers of the Week",
+      "text": "🥇Top AI Papers of the Week",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83e\udd47Top AI Papers of the Week",
+          "title": "🥇Top AI Papers of the Week",
           "url": "https://x.com/dair_ai/status/2066174390048358760",
           "date": "2026-06-14",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -827,7 +777,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Introducing AI Papers of the Week: https://t.co/TXvoB4ozqb\n\nWe took the top AI p\u2026",
+          "title": "Introducing AI Papers of the Week: https://t.co/TXvoB4ozqb\n\nWe took the top AI p…",
           "url": "https://x.com/dair_ai/status/2092649526020448265",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "These lads are developing an AI-powered tool to track silica exposure among miners. This could go a long way in addressing occupational health challenges, with its focus on screening for silica exposure and tracing workers\u2019 screening records.\n\n#CimasHealthathon3.0\n@CimasHealth @StopTBZimbabwe @JointedHands @Mohcc",
+      "text": "These lads are developing an AI-powered tool to track silica exposure among miners. This could go a long way in addressing occupational health challenges, with its focus on screening for silica exposure and tracing workers’ screening records.\n\n#CimasHealthathon3.0\n@CimasHealth @StopTBZimbabwe @JointedHands @Mohcc",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "These lads are developing an AI-powered tool to track silica exposure among mine\u2026",
+          "title": "These lads are developing an AI-powered tool to track silica exposure among mine…",
           "url": "https://x.com/healthtimeszim/status/2093278239321948477",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -890,7 +840,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "When the wealthy are investing their money towards AI, military weapons nd an oc\u2026",
+          "title": "When the wealthy are investing their money towards AI, military weapons nd an oc…",
           "url": "https://x.com/lunalatone/status/2093038348847755574",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -911,7 +861,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "R&amp;D focus areas include advanced mining technologies, geomechanics, automati\u2026",
+          "title": "R&amp;D focus areas include advanced mining technologies, geomechanics, automati…",
           "url": "https://x.com/surathkal_nitk/status/2093300581226213631",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -932,7 +882,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Learning about AI agents starts with understanding the fundamentals and then bui\u2026",
+          "title": "Learning about AI agents starts with understanding the fundamentals and then bui…",
           "url": "https://x.com/dair_ai/status/2092613003677991378",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "How will #AI shape the future of workplace safety?\n\nJoin our webinar on Thursday, Sept 10, with Dr. Marla Corson, Arianna Howard, Stephanie Johnson and Thomas Kramer to explore evolving #safety tech and trends. \n\nRegister for free \u25bc \nhttps://t.co/ncb1sklW9H https://t.co/SbNxAGO3X4",
+      "text": "How will #AI shape the future of workplace safety?\n\nJoin our webinar on Thursday, Sept 10, with Dr. Marla Corson, Arianna Howard, Stephanie Johnson and Thomas Kramer to explore evolving #safety tech and trends. \n\nRegister for free ▼ \nhttps://t.co/ncb1sklW9H https://t.co/SbNxAGO3X4",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "How will #AI shape the future of workplace safety?\n\nJoin our webinar on Thursday\u2026",
+          "title": "How will #AI shape the future of workplace safety?\n\nJoin our webinar on Thursday…",
           "url": "https://x.com/OccHealthSafety/status/2092994361386586496",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1016,7 +966,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Overview\nA veiled threat implies harm without stating it directly, and law en\u2026",
+          "title": "AI Overview\nA veiled threat implies harm without stating it directly, and law en…",
           "url": "https://x.com/DunnBilly87734/status/2092410423274590387",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1037,7 +987,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "An AI scribe returns 20 hours and $2,468 a year, and only one of those has a bud\u2026",
+          "title": "An AI scribe returns 20 hours and $2,468 a year, and only one of those has a bud…",
           "url": "https://x.com/scjanoe/status/2093321577743995354",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1052,13 +1002,13 @@
     },
     {
       "id": "l550",
-      "text": "Kimi K3 Arrives with a Bang: Has the U.S.\u2013China AI Model Race Suddenly Changed?",
+      "text": "Kimi K3 Arrives with a Bang: Has the U.S.–China AI Model Race Suddenly Changed?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Kimi K3 Arrives with a Bang: Has the U.S.\u2013China AI Model Race Suddenly Changed?",
+          "title": "Kimi K3 Arrives with a Bang: Has the U.S.–China AI Model Race Suddenly Changed?",
           "url": "https://x.com/BiteyeHQ/status/2078377272801984888",
           "date": "2026-07-18",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1115,13 +1065,13 @@
     },
     {
       "id": "l553",
-      "text": "Ultimate Claude Guide 2026: How to Use Claude AI for Beginners\n#sponsored Start searching with Lessie for FREE https://bit.ly/4bYXfdC\n\n\ud83e\udde0 Learn how professionals actually use Claude with 10,000+ AI builders \u2192 https://aimaster.me/yt/claude_guide2026\n\ud83c\udfac This video was made inside AI Content Engine, get the same pipeline \u2192 https://aimaster.me/\n\nClaude 4.7 just dropped with game-changing features, but most people are using it wrong. This complete guide shows you exactly how to use Claude 4.6 like a pr\u2026",
+      "text": "Ultimate Claude Guide 2026: How to Use Claude AI for Beginners\n#sponsored Start searching with Lessie for FREE https://bit.ly/4bYXfdC\n\n🧠 Learn how professionals actually use Claude with 10,000+ AI builders → https://aimaster.me/yt/claude_guide2026\n🎬 This video was made inside AI Content Engine, get the same pipeline → https://aimaster.me/\n\nClaude 4.7 just dropped with game-changing features, but most people are using it wrong. This complete guide shows you exactly how to use Claude 4.6 like a pr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Ultimate Claude Guide 2026: How to Use Claude AI for Beginners\n#sponsored Start \u2026",
+          "title": "Ultimate Claude Guide 2026: How to Use Claude AI for Beginners\n#sponsored Start …",
           "url": "https://www.youtube.com/watch?v=QANSKer6t3I",
           "date": "2026-04-09",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1136,13 +1086,13 @@
     },
     {
       "id": "l554",
-      "text": "Therapist Review: Best AI Scribe for Therapists? Why I Use Twofold for Therapy Notes\nIn this video, therapist Kendra Seoane shares her experience using Twofold AI, one of the fastest-growing AI scribes for therapists and mental health professionals.\n\nIf you're searching for the best AI scribe for therapists, AI therapy notes generator, or a HIPAA-compliant AI note taker for mental health professionals, this testimonial explains why many clinicians are switching to Twofold to save time on documen\u2026",
+      "text": "Therapist Review: Best AI Scribe for Therapists? Why I Use Twofold for Therapy Notes\nIn this video, therapist Kendra Seoane shares her experience using Twofold AI, one of the fastest-growing AI scribes for therapists and mental health professionals.\n\nIf you're searching for the best AI scribe for therapists, AI therapy notes generator, or a HIPAA-compliant AI note taker for mental health professionals, this testimonial explains why many clinicians are switching to Twofold to save time on documen…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Therapist Review: Best AI Scribe for Therapists? Why I Use Twofold for Therapy N\u2026",
+          "title": "Therapist Review: Best AI Scribe for Therapists? Why I Use Twofold for Therapy N…",
           "url": "https://www.youtube.com/watch?v=mfKn0ZBCV-U",
           "date": "2026-03-11",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1157,7 +1107,7 @@
     },
     {
       "id": "l455",
-      "text": "Occupational Rehabilitation Assistant \u2014 WorkFocus Australia (Osborne Park, Western Australia, Australia). Posted 2 weeks ago.",
+      "text": "Occupational Rehabilitation Assistant — WorkFocus Australia (Osborne Park, Western Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1178,7 +1128,7 @@
     },
     {
       "id": "l456",
-      "text": "Therapy Assistant OT \u2014 Metro South Health (South Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Therapy Assistant OT — Metro South Health (South Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1199,7 +1149,7 @@
     },
     {
       "id": "l457",
-      "text": "Allied Health Assistant | Cessnock \u2014 Optimum Health Solutions (Cessnock, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Allied Health Assistant | Cessnock — Optimum Health Solutions (Cessnock, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1220,7 +1170,7 @@
     },
     {
       "id": "l458",
-      "text": "Allied Health Assistant | Assistive Technology \u2014 Novita (Hindmarsh, South Australia, Australia). Posted 3 days ago.",
+      "text": "Allied Health Assistant | Assistive Technology — Novita (Hindmarsh, South Australia, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1241,7 +1191,7 @@
     },
     {
       "id": "l459",
-      "text": "Allied Health Assistant | Assistive Technology \u2014 Novita (Adelaide, South Australia, Australia). Posted 2 days ago.",
+      "text": "Allied Health Assistant | Assistive Technology — Novita (Adelaide, South Australia, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1262,7 +1212,7 @@
     },
     {
       "id": "l460",
-      "text": "Therapy Assistant \u2014 Southern Cross Care WA (Rivervale, Western Australia, Australia). Posted 3 weeks ago.",
+      "text": "Therapy Assistant — Southern Cross Care WA (Rivervale, Western Australia, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1283,7 +1233,7 @@
     },
     {
       "id": "l461",
-      "text": "Occupational Therapist - Graduate Program 2027 \u2014 Ability Action Australia (Wollongong, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Occupational Therapist - Graduate Program 2027 — Ability Action Australia (Wollongong, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1304,7 +1254,7 @@
     },
     {
       "id": "l462",
-      "text": "Allied Health Assistant - North Turramurra \u2014 Southern Cross Care (NSW & ACT) (Turramurra, New South Wales, Australia). Posted 1 day ago.",
+      "text": "Allied Health Assistant - North Turramurra — Southern Cross Care (NSW & ACT) (Turramurra, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1325,7 +1275,7 @@
     },
     {
       "id": "l463",
-      "text": "Occupational Therapist - Graduate Program 2027 \u2014 Ability Action Australia (Tamworth, New South Wales, Australia). Posted 5 days ago.",
+      "text": "Occupational Therapist - Graduate Program 2027 — Ability Action Australia (Tamworth, New South Wales, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1346,7 +1296,7 @@
     },
     {
       "id": "l464",
-      "text": "Occupational Therapist \u2014 Back On Track Psychology | Melbourne Neuropsychologists (Kew, Victoria, Australia). Posted 6 days ago.",
+      "text": "Occupational Therapist — Back On Track Psychology | Melbourne Neuropsychologists (Kew, Victoria, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1367,13 +1317,13 @@
     },
     {
       "id": "l565",
-      "text": "content: niche blog batch 9 \u2014 19 posts (dietitians, driving schools, ecommerce, fitness trainers, hair stylists, headshot photographers, immigration attorneys, jewelers, lactation consultants, makeup artists, midwives, notaries, speech therapists, tattoo artists, yoga instructors + 4 updates)\n## Niche Blog Batch 9\n\n19 testimonials-for-* blog posts completing the niche content campaign.\n\n### New posts (15):\n- testimonials-for-dietitians\n- testimonials-for-driving-schools\n- testimonials-for-ecomme\u2026",
+      "text": "content: niche blog batch 9 — 19 posts (dietitians, driving schools, ecommerce, fitness trainers, hair stylists, headshot photographers, immigration attorneys, jewelers, lactation consultants, makeup artists, midwives, notaries, speech therapists, tattoo artists, yoga instructors + 4 updates)\n## Niche Blog Batch 9\n\n19 testimonials-for-* blog posts completing the niche content campaign.\n\n### New posts (15):\n- testimonials-for-dietitians\n- testimonials-for-driving-schools\n- testimonials-for-ecomme…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "content: niche blog batch 9 \u2014 19 posts (dietitians, driving schools, ecommerce, \u2026",
+          "title": "content: niche blog batch 9 — 19 posts (dietitians, driving schools, ecommerce, …",
           "url": "https://github.com/rsdouglas/proof/pull/620",
           "date": "2026-03-08",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1388,13 +1338,13 @@
     },
     {
       "id": "l566",
-      "text": "Ableist Antis Tell Person With Disabilities to Disregard Therapist And Not Use AI as an Assistive Technology\n&#32; submitted by &#32; /u/Angel-Kat &#32; to &#32; r/DefendingAI [link] &#32; [comments]\nYeah, anyone who tries to countermand a medical professional needs to shut the fuck up. Good therapist, though, I like them. You must keep in mind that these people do not have morals, they have objectives. The only reason an anti would appeal to your morality is because they're trying to use your m\u2026",
+      "text": "Ableist Antis Tell Person With Disabilities to Disregard Therapist And Not Use AI as an Assistive Technology\n&#32; submitted by &#32; /u/Angel-Kat &#32; to &#32; r/DefendingAI [link] &#32; [comments]\nYeah, anyone who tries to countermand a medical professional needs to shut the fuck up. Good therapist, though, I like them. You must keep in mind that these people do not have morals, they have objectives. The only reason an anti would appeal to your morality is because they're trying to use your m…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Ableist Antis Tell Person With Disabilities to Disregard Therapist And Not Use A\u2026",
+          "title": "Ableist Antis Tell Person With Disabilities to Disregard Therapist And Not Use A…",
           "url": "https://www.reddit.com/r/DefendingAI/comments/1vnstlw/ableist_antis_tell_person_with_disabilities_to/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1409,13 +1359,13 @@
     },
     {
       "id": "l567",
-      "text": "AI job disruption priced into injured worker\u2019s compensation payout \u2014 \u2018Uncertainty of any occupation in today's workforce, especially with the advent of artificial intelligence\u2019 factored in future earnings loss of $400,000\n&#32; submitted by &#32; /u/marketrent &#32; to &#32; r/technology [link] &#32; [comments]\nOkay, I VERY MUCH misunderstood the title now that I have read the description below. I thought this meant \"we're going to pay you $400,000 less because we think that's how much your earn\u2026",
+      "text": "AI job disruption priced into injured worker’s compensation payout — ‘Uncertainty of any occupation in today's workforce, especially with the advent of artificial intelligence’ factored in future earnings loss of $400,000\n&#32; submitted by &#32; /u/marketrent &#32; to &#32; r/technology [link] &#32; [comments]\nOkay, I VERY MUCH misunderstood the title now that I have read the description below. I thought this meant \"we're going to pay you $400,000 less because we think that's how much your earn…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI job disruption priced into injured worker\u2019s compensation payout \u2014 \u2018Uncertaint\u2026",
+          "title": "AI job disruption priced into injured worker’s compensation payout — ‘Uncertaint…",
           "url": "https://www.reddit.com/r/technology/comments/1vuwlpl/ai_job_disruption_priced_into_injured_workers/",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1430,13 +1380,13 @@
     },
     {
       "id": "l568",
-      "text": "Ultimate Claude Guide 2026: How to Use Claude AI for Beginners\n#sponsored Start searching with Lessie for FREE https://bit.ly/4bYXfdC\n\n\ud83e\udde0 Learn how professionals actually use Claude with 10,000+ AI builders \u2192 https://aimaster.me/yt/claude_guide2026\n\ud83c\udfac This video was made inside AI Content Engine, get the same pipeline \u2192 https://aimaster.me/\n\nClaude 4.7 just dropped with game-changing features, but most people are using it wrong. This complete guide shows you exactly how to use Claude 4.6 like a pr\u2026",
+      "text": "Ultimate Claude Guide 2026: How to Use Claude AI for Beginners\n#sponsored Start searching with Lessie for FREE https://bit.ly/4bYXfdC\n\n🧠 Learn how professionals actually use Claude with 10,000+ AI builders → https://aimaster.me/yt/claude_guide2026\n🎬 This video was made inside AI Content Engine, get the same pipeline → https://aimaster.me/\n\nClaude 4.7 just dropped with game-changing features, but most people are using it wrong. This complete guide shows you exactly how to use Claude 4.6 like a pr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Ultimate Claude Guide 2026: How to Use Claude AI for Beginners\n#sponsored Start \u2026",
+          "title": "Ultimate Claude Guide 2026: How to Use Claude AI for Beginners\n#sponsored Start …",
           "url": "https://www.youtube.com/watch?v=QANSKer6t3I",
           "date": "2026-04-09",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1451,13 +1401,13 @@
     },
     {
       "id": "l569",
-      "text": "Therapist Review: Best AI Scribe for Therapists? Why I Use Twofold for Therapy Notes\nIn this video, therapist Kendra Seoane shares her experience using Twofold AI, one of the fastest-growing AI scribes for therapists and mental health professionals.\n\nIf you're searching for the best AI scribe for therapists, AI therapy notes generator, or a HIPAA-compliant AI note taker for mental health professionals, this testimonial explains why many clinicians are switching to Twofold to save time on documen\u2026",
+      "text": "Therapist Review: Best AI Scribe for Therapists? Why I Use Twofold for Therapy Notes\nIn this video, therapist Kendra Seoane shares her experience using Twofold AI, one of the fastest-growing AI scribes for therapists and mental health professionals.\n\nIf you're searching for the best AI scribe for therapists, AI therapy notes generator, or a HIPAA-compliant AI note taker for mental health professionals, this testimonial explains why many clinicians are switching to Twofold to save time on documen…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Therapist Review: Best AI Scribe for Therapists? Why I Use Twofold for Therapy N\u2026",
+          "title": "Therapist Review: Best AI Scribe for Therapists? Why I Use Twofold for Therapy N…",
           "url": "https://www.youtube.com/watch?v=mfKn0ZBCV-U",
           "date": "2026-03-11",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1548,6 +1498,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

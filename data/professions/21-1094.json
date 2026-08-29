@@ -16,64 +16,14 @@
   ],
   "claims": [
     {
-      "id": "21-1094-01",
-      "text": "National peak professional bodies and statutory regulators governing Community Health Workers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Community Health Workers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Community Health Workers",
-          "url": "https://www.psc.gov.au/standards/21-1094",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Community Health Workers"
-        }
-      ],
-      "scope": "Australian practitioners in Community Health Workers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "21-1094-02",
-      "text": "Automation of routine transactional and analytical tasks in Community Health Workers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Community Health Workers",
-          "url": "https://www.jobsandskills.gov.au/research/21-1094",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Community Health Workers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Community Health Workers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "[ PARENT THREAD ] AI Agent Toolkit \u2014 Rolling Work Queue\n<!-- AI-AGENT-TOOLKIT:GITHUB-PROGRAM-PARENT:BEGIN v2 -->\n# Programme dashboard\n\n## Goal\nDeliver the six-stage Toolkit programme through truthful, deterministic, source-traceable programme views.\n\n## Current status\n| Item | State |\n| --- | --- |\n| Programme | CURRENT / E3 G4 |\n| Current Child | #359",
+      "text": "[ PARENT THREAD ] AI Agent Toolkit — Rolling Work Queue\n<!-- AI-AGENT-TOOLKIT:GITHUB-PROGRAM-PARENT:BEGIN v2 -->\n# Programme dashboard\n\n## Goal\nDeliver the six-stage Toolkit programme through truthful, deterministic, source-traceable programme views.\n\n## Current status\n| Item | State |\n| --- | --- |\n| Programme | CURRENT / E3 G4 |\n| Current Child | #359",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[ PARENT THREAD ] AI Agent Toolkit \u2014 Rolling Work Queue\n<!-- AI-AGENT-TOOLKIT:GI\u2026",
+          "title": "[ PARENT THREAD ] AI Agent Toolkit — Rolling Work Queue\n<!-- AI-AGENT-TOOLKIT:GI…",
           "url": "https://github.com/weijunswj/ai-agent-toolkit/issues/240",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -88,13 +38,13 @@
     },
     {
       "id": "l504",
-      "text": "\ud83d\udcca AI CLI Tools Digest 2026-08-23\n# AI CLI Tools Community Digest 2026-08-23\n\n> Generated: 2026-08-22 22:21 UTC | Tools covered: 9\n\n- [Claude Code](https://github\u200b.com/anthropics/claude-code)\n- [OpenAI Codex](https://github\u200b.com/openai/codex)\n- [Gemini CLI](https://github\u200b.com/google-gemini/gemini-cli)\n- [GitHub Copilot CLI](https:/",
+      "text": "📊 AI CLI Tools Digest 2026-08-23\n# AI CLI Tools Community Digest 2026-08-23\n\n> Generated: 2026-08-22 22:21 UTC | Tools covered: 9\n\n- [Claude Code](https://github​.com/anthropics/claude-code)\n- [OpenAI Codex](https://github​.com/openai/codex)\n- [Gemini CLI](https://github​.com/google-gemini/gemini-cli)\n- [GitHub Copilot CLI](https:/",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udcca AI CLI Tools Digest 2026-08-23\n# AI CLI Tools Community Digest 2026-08-23\n\n> G\u2026",
+          "title": "📊 AI CLI Tools Digest 2026-08-23\n# AI CLI Tools Community Digest 2026-08-23\n\n> G…",
           "url": "https://github.com/kakapez/agents-radar/issues/1354",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -109,13 +59,13 @@
     },
     {
       "id": "l505",
-      "text": "\ud83d\udcca AI CLI Tools Digest 2026-08-12\n# AI CLI Tools Community Digest 2026-08-12\n\n> Generated: 2026-08-12 03:01 UTC | Tools covered: 2\n\n- [Claude Code](https://github\u200b.com/anthropics/claude-code)\n- [OpenAI Codex](https://github\u200b.com/openai/codex)\n- [Claude Code Skills](https://github\u200b.com/anthropics/skills)\n\n---\n\n## Cross-Tool Compariso",
+      "text": "📊 AI CLI Tools Digest 2026-08-12\n# AI CLI Tools Community Digest 2026-08-12\n\n> Generated: 2026-08-12 03:01 UTC | Tools covered: 2\n\n- [Claude Code](https://github​.com/anthropics/claude-code)\n- [OpenAI Codex](https://github​.com/openai/codex)\n- [Claude Code Skills](https://github​.com/anthropics/skills)\n\n---\n\n## Cross-Tool Compariso",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udcca AI CLI Tools Digest 2026-08-12\n# AI CLI Tools Community Digest 2026-08-12\n\n> G\u2026",
+          "title": "📊 AI CLI Tools Digest 2026-08-12\n# AI CLI Tools Community Digest 2026-08-12\n\n> G…",
           "url": "https://github.com/JohnGao818/agents-radar/issues/783",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -130,13 +80,13 @@
     },
     {
       "id": "l506",
-      "text": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 2026\n\nProcessed **0** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.",
+      "text": "💎 Knowledge Update & Optimization: 13 Jul 2026\n## 💎 Knowledge Update: 13 Jul 2026\n\nProcessed **0** links.\n\n⚠️ **Detailed Safety Audit moved to comments due to scale.**\n\n\n### 🧠 AI Intelligence & Observability Report\n\n#### 🤖 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 202\u2026",
+          "title": "💎 Knowledge Update & Optimization: 13 Jul 2026\n## 💎 Knowledge Update: 13 Jul 202…",
           "url": "https://github.com/nubenetes/awesome-kubernetes/pull/499",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -151,13 +101,13 @@
     },
     {
       "id": "l507",
-      "text": "feat(data-warehouse): implement instagram import source\n## Problem\n\nThe Instagram data warehouse source is scaffolded but not implemented \u2014 hidden from users with no config fields and no sync logic. Instagram is OAuth2-only via Meta's Graph API (professional accounts are read through their linked Facebook Page), so it also needs a new integration kind be\n<!-- author-email-nudge -->\nHey @Gilbert09! \ud83d\udc4b\n\nIt looks like your git author email on this PR isn't your `@posthog.com` address (`owerstom@gmai\u2026",
+      "text": "feat(data-warehouse): implement instagram import source\n## Problem\n\nThe Instagram data warehouse source is scaffolded but not implemented — hidden from users with no config fields and no sync logic. Instagram is OAuth2-only via Meta's Graph API (professional accounts are read through their linked Facebook Page), so it also needs a new integration kind be\n<!-- author-email-nudge -->\nHey @Gilbert09! 👋\n\nIt looks like your git author email on this PR isn't your `@posthog.com` address (`owerstom@gmai…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(data-warehouse): implement instagram import source\n## Problem\n\nThe Instagra\u2026",
+          "title": "feat(data-warehouse): implement instagram import source\n## Problem\n\nThe Instagra…",
           "url": "https://github.com/PostHog/posthog/pull/63246",
           "date": "2026-06-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -172,13 +122,13 @@
     },
     {
       "id": "l508",
-      "text": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 2026\n\nProcessed **14911** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Model Selection Logic (Dynamic)\nExecution started with discovery of top models based on May 2026 hierarchy.\n\n| Model Use",
+      "text": "💎 Knowledge Update & Optimization: 18 May 2026\n## 💎 Knowledge Update: 18 May 2026\n\nProcessed **14911** links.\n\n⚠️ **Detailed Safety Audit moved to comments due to scale.**\n\n\n### 🧠 AI Intelligence & Observability Report\n\n#### 🤖 Model Selection Logic (Dynamic)\nExecution started with discovery of top models based on May 2026 hierarchy.\n\n| Model Use",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 202\u2026",
+          "title": "💎 Knowledge Update & Optimization: 18 May 2026\n## 💎 Knowledge Update: 18 May 202…",
           "url": "https://github.com/nubenetes/awesome-kubernetes/pull/133",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -193,13 +143,13 @@
     },
     {
       "id": "l509",
-      "text": "Daily Content Summary 2026-06-02\n# \ud83d\udcf0 Daily Content Summary - 2026-06-02\n### Executive Summary\n\n**Key Insights** reveal a paradoxical landscape where technological advancement simultaneously erodes and reinforces security. While Meta's AI support bot facilitated high-profile account takeovers by bypassing two-factor authentication t",
+      "text": "Daily Content Summary 2026-06-02\n# 📰 Daily Content Summary - 2026-06-02\n### Executive Summary\n\n**Key Insights** reveal a paradoxical landscape where technological advancement simultaneously erodes and reinforces security. While Meta's AI support bot facilitated high-profile account takeovers by bypassing two-factor authentication t",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Daily Content Summary 2026-06-02\n# \ud83d\udcf0 Daily Content Summary - 2026-06-02\n### Exec\u2026",
+          "title": "Daily Content Summary 2026-06-02\n# 📰 Daily Content Summary - 2026-06-02\n### Exec…",
           "url": "https://github.com/jhengy/content-aggregator/issues/506",
           "date": "2026-06-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -214,13 +164,13 @@
     },
     {
       "id": "l510",
-      "text": "Fix Rust compilation errors\n## Summary\nFixes Rust compilation errors in the exchange_gateway project that were causing CI failures.\n\n## Changes Made\n1. **ews.rs:1996** - Fixed positional arguments after named arguments error in format! macro\n2. **storage.rs** - Added Clone derive to EwsItemRow struct\n3. **eas.rs** - Added impo\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/settings/usage). \ud83e\udd16 Hi @Voornaam\u2026",
+      "text": "Fix Rust compilation errors\n## Summary\nFixes Rust compilation errors in the exchange_gateway project that were causing CI failures.\n\n## Changes Made\n1. **ews.rs:1996** - Fixed positional arguments after named arguments error in format! macro\n2. **storage.rs** - Added Clone derive to EwsItemRow struct\n3. **eas.rs** - Added impo\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/settings/usage). 🤖 Hi @Voornaam…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Fix Rust compilation errors\n## Summary\nFixes Rust compilation errors in the exch\u2026",
+          "title": "Fix Rust compilation errors\n## Summary\nFixes Rust compilation errors in the exch…",
           "url": "https://github.com/Voornaamenachternaam/exchange_gateway/pull/1142",
           "date": "2026-03-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -403,13 +353,13 @@
     },
     {
       "id": "l519",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -424,13 +374,13 @@
     },
     {
       "id": "l520",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -571,13 +521,13 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+      "text": "Show HN: Videopython – local-first video processing, editing and AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+          "title": "Show HN: Videopython – local-first video processing, editing and AI workflows",
           "url": "https://github.com/bartwojtowicz/videopython",
           "date": "2026-06-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -613,13 +563,13 @@
     },
     {
       "id": "l529",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -676,13 +626,13 @@
     },
     {
       "id": "l532",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -697,13 +647,13 @@
     },
     {
       "id": "l533",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -718,13 +668,13 @@
     },
     {
       "id": "l534",
-      "text": "Our community mental health center just gave us a huge win, 4 day workweek (32 hours) for 40 hours of pay, rate unchanged.\nHonestly never thought I would see something like this happen. We are in a small town in rural montana, and it&#39;s been hard to imagine a scenario where they would actually do something that would favor the workers. For years we&#39;ve been understaffed and over-worked. High turnover rate, low pay, etc... I&#39;m just really stoked. Will have 3 full days off each week and \u2026",
+      "text": "Our community mental health center just gave us a huge win, 4 day workweek (32 hours) for 40 hours of pay, rate unchanged.\nHonestly never thought I would see something like this happen. We are in a small town in rural montana, and it&#39;s been hard to imagine a scenario where they would actually do something that would favor the workers. For years we&#39;ve been understaffed and over-worked. High turnover rate, low pay, etc... I&#39;m just really stoked. Will have 3 full days off each week and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Our community mental health center just gave us a huge win, 4 day workweek (32 h\u2026",
+          "title": "Our community mental health center just gave us a huge win, 4 day workweek (32 h…",
           "url": "https://www.reddit.com/r/socialwork/comments/1v9lgvo/our_community_mental_health_center_just_gave_us_a/",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -739,13 +689,13 @@
     },
     {
       "id": "l535",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac\u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and \u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and …",
           "url": "https://www.reddit.com/r/accelerate/comments/1vlw4un/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -760,13 +710,13 @@
     },
     {
       "id": "l536",
-      "text": "Strategic Predictive Analysis :::\nPi Network\u2019s Next Evolution: From Blockchain Nodes to a Distributed AI and Work Execution Infrastructure\n( https://t.co/690gQVtYyU )\n\n[[[ This article includes Predictive & Technical Analysis  and may differ from actual outcomes ]]]\n[[[ \u201cWhy OpenClaw and the Atlassian MCP Server Matter \u2014 Pi Desktop Is No Longer Just a Node Application\u201d ]]]\n[[[ \u201cTurning 420,000+ Pioneer Nodes from Blockchain Validators into a Global Distributed Production Infrastructure\u201d ]]]\n[[[",
+      "text": "Strategic Predictive Analysis :::\nPi Network’s Next Evolution: From Blockchain Nodes to a Distributed AI and Work Execution Infrastructure\n( https://t.co/690gQVtYyU )\n\n[[[ This article includes Predictive & Technical Analysis  and may differ from actual outcomes ]]]\n[[[ “Why OpenClaw and the Atlassian MCP Server Matter — Pi Desktop Is No Longer Just a Node Application” ]]]\n[[[ “Turning 420,000+ Pioneer Nodes from Blockchain Validators into a Global Distributed Production Infrastructure” ]]]\n[[[",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Strategic Predictive Analysis :::\nPi Network\u2019s Next Evolution: From Blockchain N\u2026",
+          "title": "Strategic Predictive Analysis :::\nPi Network’s Next Evolution: From Blockchain N…",
           "url": "https://x.com/applekhankorea/status/2093366647587565778",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -907,13 +857,13 @@
     },
     {
       "id": "l543",
-      "text": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+      "text": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+          "title": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
           "url": "https://x.com/BestBlogsDev/status/2093500753738645591",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -928,13 +878,13 @@
     },
     {
       "id": "l544",
-      "text": "\ud83c\udf3f\ud83e\ude7a\ud83c\udf0d GCV and Choosing a Lifelong Healthy Lifestyle to Help Minimize Population Aging in the Era of AI, Web3, and Blockchain\n\nGCV can serve as a platform for Verified Pioneers to adopt a lifelong healthy lifestyle through various PiGCV economic and social activities focused on health education, disease prevention, healthy living, collaboration, transparency, and the responsible use of digital technologies.\n\nThis approach is intended for MSMEs, merchants, goods and service providers, healthcare pro",
+      "text": "🌿🩺🌍 GCV and Choosing a Lifelong Healthy Lifestyle to Help Minimize Population Aging in the Era of AI, Web3, and Blockchain\n\nGCV can serve as a platform for Verified Pioneers to adopt a lifelong healthy lifestyle through various PiGCV economic and social activities focused on health education, disease prevention, healthy living, collaboration, transparency, and the responsible use of digital technologies.\n\nThis approach is intended for MSMEs, merchants, goods and service providers, healthcare pro",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83c\udf3f\ud83e\ude7a\ud83c\udf0d GCV and Choosing a Lifelong Healthy Lifestyle to Help Minimize Population Ag\u2026",
+          "title": "🌿🩺🌍 GCV and Choosing a Lifelong Healthy Lifestyle to Help Minimize Population Ag…",
           "url": "https://x.com/bilgcv_ark/status/2073192065157271687",
           "date": "2026-07-03",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -955,7 +905,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@matthewjetthall This is actually happening. Teams are racking MacBooks for AI i\u2026",
+          "title": "@matthewjetthall This is actually happening. Teams are racking MacBooks for AI i…",
           "url": "https://x.com/AGTPinsights/status/2092390869231886594",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -970,13 +920,13 @@
     },
     {
       "id": "l546",
-      "text": "TERAFAB\n\nNEW TODAY\n- Folder now 174 posts (9 new since Aug 24)\n- Testers (cb_doge): fully signed 34-page tax agreement among the Governor\u2019s Office, Anderson-Shiro CISD, and TeraFab AI published; construction Dec 1, 2026\u2013Dec 31, 2028; 10-year school M&O incentive 2029\u20132038 (qualifying value $0 during construction, 50% of market during the incentive window); $12.98M performance bond. Dump-only; not Official Tesla/SpaceX.\n- Testers (cb_doge / tslaming / muskonomy): Phases 2 and 3 Texas Comptroller",
+      "text": "TERAFAB\n\nNEW TODAY\n- Folder now 174 posts (9 new since Aug 24)\n- Testers (cb_doge): fully signed 34-page tax agreement among the Governor’s Office, Anderson-Shiro CISD, and TeraFab AI published; construction Dec 1, 2026–Dec 31, 2028; 10-year school M&O incentive 2029–2038 (qualifying value $0 during construction, 50% of market during the incentive window); $12.98M performance bond. Dump-only; not Official Tesla/SpaceX.\n- Testers (cb_doge / tslaming / muskonomy): Phases 2 and 3 Texas Comptroller",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "TERAFAB\n\nNEW TODAY\n- Folder now 174 posts (9 new since Aug 24)\n- Testers (cb_dog\u2026",
+          "title": "TERAFAB\n\nNEW TODAY\n- Folder now 174 posts (9 new since Aug 24)\n- Testers (cb_dog…",
           "url": "https://x.com/arthur_win8/status/2092615188591849981",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -997,7 +947,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Agents Go Rogue in UK Cyber Tests as Hyperscalers Face $125 Billion Cash Drai\u2026",
+          "title": "AI Agents Go Rogue in UK Cyber Tests as Hyperscalers Face $125 Billion Cash Drai…",
           "url": "https://x.com/matthewjetthall/status/2086861031553303002",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1018,7 +968,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Make bad moves on AI and face voter backlash, govts warned | Dan Robinson, The R\u2026",
+          "title": "Make bad moves on AI and face voter backlash, govts warned | Dan Robinson, The R…",
           "url": "https://x.com/OwenGregorian/status/2045465428307181609",
           "date": "2026-04-18",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1033,13 +983,13 @@
     },
     {
       "id": "l549",
-      "text": "NEW ChatGPT Work is the Claude Cowork Killer? (Full Breakdown)\n\ud83d\udcda Join My Skool Community: https://bit.ly/4t2yNgG\n\ud83d\udd25 Get My 15 Claude Skills I Can't Live Without: https://bit.ly/4vYG9Vh\n\ud83d\udd17 Connect to 9,000+ Apps with Zapier MCP: https://bit.ly/3R5N3Za \n\nOpenAI just released ChatGPT Work, and it looks almost exactly like Claude Cowork. In this video I walk through everything new including the GPT-5.6 models, test it across the web, mobile, and desktop apps, and run a real task that builds a morning \u2026",
+      "text": "NEW ChatGPT Work is the Claude Cowork Killer? (Full Breakdown)\n📚 Join My Skool Community: https://bit.ly/4t2yNgG\n🔥 Get My 15 Claude Skills I Can't Live Without: https://bit.ly/4vYG9Vh\n🔗 Connect to 9,000+ Apps with Zapier MCP: https://bit.ly/3R5N3Za \n\nOpenAI just released ChatGPT Work, and it looks almost exactly like Claude Cowork. In this video I walk through everything new including the GPT-5.6 models, test it across the web, mobile, and desktop apps, and run a real task that builds a morning …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "NEW ChatGPT Work is the Claude Cowork Killer? (Full Breakdown)\n\ud83d\udcda Join My Skool C\u2026",
+          "title": "NEW ChatGPT Work is the Claude Cowork Killer? (Full Breakdown)\n📚 Join My Skool C…",
           "url": "https://www.youtube.com/watch?v=qotnt0fzT5Y",
           "date": "2026-07-10",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1054,7 +1004,7 @@
     },
     {
       "id": "l450",
-      "text": "Health Practitioner \u2014 Queensland Government (Brisbane, Queensland, Australia). Posted 7 months ago.",
+      "text": "Health Practitioner — Queensland Government (Brisbane, Queensland, Australia). Posted 7 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1075,7 +1025,7 @@
     },
     {
       "id": "l451",
-      "text": "Health Education Officer (Grad/Non Grad) - Harm Reduction Program - Perm FT \u2014 South Western Sydney Local Health District (Liverpool, New South Wales, Australia). Posted 2 days ago.",
+      "text": "Health Education Officer (Grad/Non Grad) - Harm Reduction Program - Perm FT — South Western Sydney Local Health District (Liverpool, New South Wales, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1096,7 +1046,7 @@
     },
     {
       "id": "l452",
-      "text": "Support Coordinator \u2014 Wellways Australia (Cairns North, Queensland, Australia). Posted 1 day ago.",
+      "text": "Support Coordinator — Wellways Australia (Cairns North, Queensland, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1117,7 +1067,7 @@
     },
     {
       "id": "l453",
-      "text": "Wellbeing Navigator Peer \u2014 Wellways Australia (Frankston, Victoria, Australia). Posted 14 hours ago.",
+      "text": "Wellbeing Navigator Peer — Wellways Australia (Frankston, Victoria, Australia). Posted 14 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1138,7 +1088,7 @@
     },
     {
       "id": "l454",
-      "text": "Health Promotion Officer \u2014 Grampians Health (Ballarat, Victoria, Australia). Posted 20 hours ago.",
+      "text": "Health Promotion Officer — Grampians Health (Ballarat, Victoria, Australia). Posted 20 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1159,7 +1109,7 @@
     },
     {
       "id": "l455",
-      "text": "AOD Youth Outreach Worker \u2014 Gippsland Lakes Complete Health (Victoria, Australia). Posted 2 weeks ago.",
+      "text": "AOD Youth Outreach Worker — Gippsland Lakes Complete Health (Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1180,7 +1130,7 @@
     },
     {
       "id": "l456",
-      "text": "Community Care Engagement Specialist \u2014 The Well Team (Brisbane, Queensland, Australia). Posted 1 month ago.",
+      "text": "Community Care Engagement Specialist — The Well Team (Brisbane, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1201,7 +1151,7 @@
     },
     {
       "id": "l457",
-      "text": "Carer Support Facilitator (Brisbane) \u2014 Arafmi (West End, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Carer Support Facilitator (Brisbane) — Arafmi (West End, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1222,7 +1172,7 @@
     },
     {
       "id": "l458",
-      "text": "Social & Emotional Wellbeing Worker - Identified Role \u2014 Youturn (Toowoomba, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Social & Emotional Wellbeing Worker - Identified Role — Youturn (Toowoomba, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1243,7 +1193,7 @@
     },
     {
       "id": "l459",
-      "text": "Family Wellbeing Service Specialist \u2014 Aboriginal & Torres Strait Islander Community Health Service Brisbane (Chermside, Queensland, Australia). Posted 1 week ago.",
+      "text": "Family Wellbeing Service Specialist — Aboriginal & Torres Strait Islander Community Health Service Brisbane (Chermside, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1264,13 +1214,13 @@
     },
     {
       "id": "l560",
-      "text": "feat(data-warehouse): implement instagram import source\n## Problem\n\nThe Instagram data warehouse source is scaffolded but not implemented \u2014 hidden from users with no config fields and no sync logic. Instagram is OAuth2-only via Meta's Graph API (professional accounts are read through their linked Facebook Page), so it also needs a new integration kind be\n<!-- author-email-nudge -->\nHey @Gilbert09! \ud83d\udc4b\n\nIt looks like your git author email on this PR isn't your `@posthog.com` address (`owerstom@gmai\u2026",
+      "text": "feat(data-warehouse): implement instagram import source\n## Problem\n\nThe Instagram data warehouse source is scaffolded but not implemented — hidden from users with no config fields and no sync logic. Instagram is OAuth2-only via Meta's Graph API (professional accounts are read through their linked Facebook Page), so it also needs a new integration kind be\n<!-- author-email-nudge -->\nHey @Gilbert09! 👋\n\nIt looks like your git author email on this PR isn't your `@posthog.com` address (`owerstom@gmai…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(data-warehouse): implement instagram import source\n## Problem\n\nThe Instagra\u2026",
+          "title": "feat(data-warehouse): implement instagram import source\n## Problem\n\nThe Instagra…",
           "url": "https://github.com/PostHog/posthog/pull/63246",
           "date": "2026-06-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1285,13 +1235,13 @@
     },
     {
       "id": "l561",
-      "text": "Fix Rust compilation errors\n## Summary\nFixes Rust compilation errors in the exchange_gateway project that were causing CI failures.\n\n## Changes Made\n1. **ews.rs:1996** - Fixed positional arguments after named arguments error in format! macro\n2. **storage.rs** - Added Clone derive to EwsItemRow struct\n3. **eas.rs** - Added impo\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/settings/usage). \ud83e\udd16 Hi @Voornaam\u2026",
+      "text": "Fix Rust compilation errors\n## Summary\nFixes Rust compilation errors in the exchange_gateway project that were causing CI failures.\n\n## Changes Made\n1. **ews.rs:1996** - Fixed positional arguments after named arguments error in format! macro\n2. **storage.rs** - Added Clone derive to EwsItemRow struct\n3. **eas.rs** - Added impo\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/settings/usage). 🤖 Hi @Voornaam…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Fix Rust compilation errors\n## Summary\nFixes Rust compilation errors in the exch\u2026",
+          "title": "Fix Rust compilation errors\n## Summary\nFixes Rust compilation errors in the exch…",
           "url": "https://github.com/Voornaamenachternaam/exchange_gateway/pull/1142",
           "date": "2026-03-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1306,13 +1256,13 @@
     },
     {
       "id": "l562",
-      "text": "Our community mental health center just gave us a huge win, 4 day workweek (32 hours) for 40 hours of pay, rate unchanged.\nHonestly never thought I would see something like this happen. We are in a small town in rural montana, and it&#39;s been hard to imagine a scenario where they would actually do something that would favor the workers. For years we&#39;ve been understaffed and over-worked. High turnover rate, low pay, etc... I&#39;m just really stoked. Will have 3 full days off each week and \u2026",
+      "text": "Our community mental health center just gave us a huge win, 4 day workweek (32 hours) for 40 hours of pay, rate unchanged.\nHonestly never thought I would see something like this happen. We are in a small town in rural montana, and it&#39;s been hard to imagine a scenario where they would actually do something that would favor the workers. For years we&#39;ve been understaffed and over-worked. High turnover rate, low pay, etc... I&#39;m just really stoked. Will have 3 full days off each week and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Our community mental health center just gave us a huge win, 4 day workweek (32 h\u2026",
+          "title": "Our community mental health center just gave us a huge win, 4 day workweek (32 h…",
           "url": "https://www.reddit.com/r/socialwork/comments/1v9lgvo/our_community_mental_health_center_just_gave_us_a/",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1327,13 +1277,13 @@
     },
     {
       "id": "l563",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac\u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and \u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and …",
           "url": "https://www.reddit.com/r/accelerate/comments/1vlw4un/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1348,13 +1298,13 @@
     },
     {
       "id": "l564",
-      "text": "NEW ChatGPT Work is the Claude Cowork Killer? (Full Breakdown)\n\ud83d\udcda Join My Skool Community: https://bit.ly/4t2yNgG\n\ud83d\udd25 Get My 15 Claude Skills I Can't Live Without: https://bit.ly/4vYG9Vh\n\ud83d\udd17 Connect to 9,000+ Apps with Zapier MCP: https://bit.ly/3R5N3Za \n\nOpenAI just released ChatGPT Work, and it looks almost exactly like Claude Cowork. In this video I walk through everything new including the GPT-5.6 models, test it across the web, mobile, and desktop apps, and run a real task that builds a morning \u2026",
+      "text": "NEW ChatGPT Work is the Claude Cowork Killer? (Full Breakdown)\n📚 Join My Skool Community: https://bit.ly/4t2yNgG\n🔥 Get My 15 Claude Skills I Can't Live Without: https://bit.ly/4vYG9Vh\n🔗 Connect to 9,000+ Apps with Zapier MCP: https://bit.ly/3R5N3Za \n\nOpenAI just released ChatGPT Work, and it looks almost exactly like Claude Cowork. In this video I walk through everything new including the GPT-5.6 models, test it across the web, mobile, and desktop apps, and run a real task that builds a morning …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "NEW ChatGPT Work is the Claude Cowork Killer? (Full Breakdown)\n\ud83d\udcda Join My Skool C\u2026",
+          "title": "NEW ChatGPT Work is the Claude Cowork Killer? (Full Breakdown)\n📚 Join My Skool C…",
           "url": "https://www.youtube.com/watch?v=qotnt0fzT5Y",
           "date": "2026-07-10",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1445,6 +1395,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

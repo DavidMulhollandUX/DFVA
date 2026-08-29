@@ -19,56 +19,6 @@
   ],
   "claims": [
     {
-      "id": "39-7011-01",
-      "text": "National peak professional bodies and statutory regulators governing Tour Guides and Escorts enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Tour Guides and Escorts",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Tour Guides and Escorts",
-          "url": "https://www.psc.gov.au/standards/39-7011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Tour Guides and Escorts"
-        }
-      ],
-      "scope": "Australian practitioners in Tour Guides and Escorts across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "39-7011-02",
-      "text": "Automation of routine transactional and analytical tasks in Tour Guides and Escorts heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Tour Guides and Escorts",
-          "url": "https://www.jobsandskills.gov.au/research/39-7011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Tour Guides and Escorts in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Tour Guides and Escorts roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
       "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
@@ -238,13 +188,13 @@
     },
     {
       "id": "l511",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -259,13 +209,13 @@
     },
     {
       "id": "l512",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -427,13 +377,13 @@
     },
     {
       "id": "l520",
-      "text": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+      "text": "Show HN: Videopython – local-first video processing, editing and AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+          "title": "Show HN: Videopython – local-first video processing, editing and AI workflows",
           "url": "https://github.com/bartwojtowicz/videopython",
           "date": "2026-06-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -469,13 +419,13 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -511,13 +461,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -553,13 +503,13 @@
     },
     {
       "id": "l526",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -574,13 +524,13 @@
     },
     {
       "id": "l527",
-      "text": "[Guide/Tour] How fast travel & locations work in AI Roommate (Free vs. Plus spots + day/night tips)\nHey everyone! Put together a quick video walkthrough showing how fast-travel works in AI Roommate , how to manage the day/night cycle, and a look inside all the main spots currently on the map. Here is a breakdown of how traveling works and what each location offers: \ud83d\ude97 How Fast Travel Works Head outside the front door of your house to the blue hatchback in the driveway. Interact with the car to br\u2026",
+      "text": "[Guide/Tour] How fast travel & locations work in AI Roommate (Free vs. Plus spots + day/night tips)\nHey everyone! Put together a quick video walkthrough showing how fast-travel works in AI Roommate , how to manage the day/night cycle, and a look inside all the main spots currently on the map. Here is a breakdown of how traveling works and what each location offers: 🚗 How Fast Travel Works Head outside the front door of your house to the blue hatchback in the driveway. Interact with the car to br…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "[Guide/Tour] How fast travel & locations work in AI Roommate (Free vs. Plus spot\u2026",
+          "title": "[Guide/Tour] How fast travel & locations work in AI Roommate (Free vs. Plus spot…",
           "url": "https://www.reddit.com/r/AI_Roommate_VR/comments/1vrakuz/guidetour_how_fast_travel_locations_work_in_ai/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -595,13 +545,13 @@
     },
     {
       "id": "l528",
-      "text": "Daily Music Brief | August 28, 2026 | Federal AI Licensing Framework Enacted, Global Sync Royalty Surge, and Oasis Tour Logistics\n&#x200B; Good morning, music fans. Here&#39;s your Daily Music Brief covering the biggest verified music developments from August 27, 2026. Regulatory authorities have finalized new protections regarding synthetic vocal training models while international catalog rights hit record mid-year valuations. The United States Copyright Office alongside federal digital commer\u2026",
+      "text": "Daily Music Brief | August 28, 2026 | Federal AI Licensing Framework Enacted, Global Sync Royalty Surge, and Oasis Tour Logistics\n&#x200B; Good morning, music fans. Here&#39;s your Daily Music Brief covering the biggest verified music developments from August 27, 2026. Regulatory authorities have finalized new protections regarding synthetic vocal training models while international catalog rights hit record mid-year valuations. The United States Copyright Office alongside federal digital commer…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Daily Music Brief | August 28, 2026 | Federal AI Licensing Framework Enacted, Gl\u2026",
+          "title": "Daily Music Brief | August 28, 2026 | Federal AI Licensing Framework Enacted, Gl…",
           "url": "https://www.reddit.com/r/Music_Playlist_YT/comments/1w0ppgg/daily_music_brief_august_28_2026_federal_ai/",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -616,13 +566,13 @@
     },
     {
       "id": "l529",
-      "text": "I got full Street View running in WebXR on a Quest 1 \u2014 virtual treadmill running with an AI tour guide\nI fetch raw panorama tiles and project them myself \u2014 sphere \u2192 rectilinear / cylindrical / hybrid Panini \u2014 which removes the usual 90\u00b0 FOV cap. Seamless 200\u00b0+ ultra-wide, WebXR stereo on a Quest 1, and a shared-world dissolve between panoramas so walking transitions stay geometrically aligned. Also: voice commands, treadmill-footstep pace detection via microphone, and an AI tour guide that groun\u2026",
+      "text": "I got full Street View running in WebXR on a Quest 1 — virtual treadmill running with an AI tour guide\nI fetch raw panorama tiles and project them myself — sphere → rectilinear / cylindrical / hybrid Panini — which removes the usual 90° FOV cap. Seamless 200°+ ultra-wide, WebXR stereo on a Quest 1, and a shared-world dissolve between panoramas so walking transitions stay geometrically aligned. Also: voice commands, treadmill-footstep pace detection via microphone, and an AI tour guide that groun…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I got full Street View running in WebXR on a Quest 1 \u2014 virtual treadmill running\u2026",
+          "title": "I got full Street View running in WebXR on a Quest 1 — virtual treadmill running…",
           "url": "https://www.reddit.com/r/virtualreality/comments/1vyofij/i_got_full_street_view_running_in_webxr_on_a/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -637,13 +587,13 @@
     },
     {
       "id": "l530",
-      "text": "[Test for Test] Need 20 testers for Wayfare Guide (AI GPS Road Trip & Audio Tour Guide) - I will test your app back immediately!\nHi fellow developers! \ud83d\udc4b I need active testers for **Wayfare Guide** (an AI-powered road trip and walking audio guide that tells stories and landmarks based on your GPS coordinates). I will **test your app back immediately**, leave a 5-star review, and keep it installed on my device for the full 14 days! --- ### \ud83d\ude80 How to Join (Takes 30 seconds): **Join Google Group (Req\u2026",
+      "text": "[Test for Test] Need 20 testers for Wayfare Guide (AI GPS Road Trip & Audio Tour Guide) - I will test your app back immediately!\nHi fellow developers! 👋 I need active testers for **Wayfare Guide** (an AI-powered road trip and walking audio guide that tells stories and landmarks based on your GPS coordinates). I will **test your app back immediately**, leave a 5-star review, and keep it installed on my device for the full 14 days! --- ### 🚀 How to Join (Takes 30 seconds): **Join Google Group (Req…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "[Test for Test] Need 20 testers for Wayfare Guide (AI GPS Road Trip & Audio Tour\u2026",
+          "title": "[Test for Test] Need 20 testers for Wayfare Guide (AI GPS Road Trip & Audio Tour…",
           "url": "https://www.reddit.com/r/AndroidClosedTesting/comments/1vsol4z/test_for_test_need_20_testers_for_wayfare_guide/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -658,13 +608,13 @@
     },
     {
       "id": "l531",
-      "text": "Trying to bring AI into the self guided tour industry, Feedback appreciated!\nI got this idea while in Ireland. A relative of mine purchased a 300 dollar private guided tour. I feel like of all the generative tour apps out there none of them actually feel fully open ended. So i decided to make one myself. Its fully open ended. You could be in the middle of Stillwater Oklahoma and ask for a murder mystery tour and you would get one. I wanna know if people would be interested in something like this\u2026",
+      "text": "Trying to bring AI into the self guided tour industry, Feedback appreciated!\nI got this idea while in Ireland. A relative of mine purchased a 300 dollar private guided tour. I feel like of all the generative tour apps out there none of them actually feel fully open ended. So i decided to make one myself. Its fully open ended. You could be in the middle of Stillwater Oklahoma and ask for a murder mystery tour and you would get one. I wanna know if people would be interested in something like this…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Trying to bring AI into the self guided tour industry, Feedback appreciated!\nI g\u2026",
+          "title": "Trying to bring AI into the self guided tour industry, Feedback appreciated!\nI g…",
           "url": "https://www.reddit.com/r/SaaS/comments/1vzkpyn/trying_to_bring_ai_into_the_self_guided_tour/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -685,7 +635,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "MADHATTER: Gradient-Guided Token Perturbation for Qwen - MadHatter can be used a\u2026",
+          "title": "MADHATTER: Gradient-Guided Token Perturbation for Qwen - MadHatter can be used a…",
           "url": "https://www.reddit.com/r/blueteamsec/comments/1vxqzop/madhatter_gradientguided_token_perturbation_for/",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -700,13 +650,13 @@
     },
     {
       "id": "l533",
-      "text": "THE GEO Guide for B2B CMOs: How to get found, cited, trusted, and chosen in AI Search\nA practical working guide for B2B CMOs who want to build visibility and trust in AI-generated answers. GEO is becoming a practical CMO discipline, not another acronym to admire from a safe distance. This guide explains how B2B brands can become crawlable, citable, credible, and chosen in AI-generated answers, while avoiding overpromises in a fast-changing search landscape where today&#39;s best practices may lo\u2026",
+      "text": "THE GEO Guide for B2B CMOs: How to get found, cited, trusted, and chosen in AI Search\nA practical working guide for B2B CMOs who want to build visibility and trust in AI-generated answers. GEO is becoming a practical CMO discipline, not another acronym to admire from a safe distance. This guide explains how B2B brands can become crawlable, citable, credible, and chosen in AI-generated answers, while avoiding overpromises in a fast-changing search landscape where today&#39;s best practices may lo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "THE GEO Guide for B2B CMOs: How to get found, cited, trusted, and chosen in AI S\u2026",
+          "title": "THE GEO Guide for B2B CMOs: How to get found, cited, trusted, and chosen in AI S…",
           "url": "https://www.reddit.com/r/CMO_Huddles/comments/1vdo4op/the_geo_guide_for_b2b_cmos_how_to_get_found_cited/",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -721,13 +671,13 @@
     },
     {
       "id": "l534",
-      "text": "AI is changing how small businesses get work done\u2014and we're excited to see it in action.\n\nThis August, Grow With Google is taking its hands-on \u2018Make AI Work for You\u2019 workshop on the road with a 5-city Route 66 tour. Learn practical ways to save time, simplify your day, and grow your business with AI.\n\nRegister: https://t.co/EnfUiqjnnM",
+      "text": "AI is changing how small businesses get work done—and we're excited to see it in action.\n\nThis August, Grow With Google is taking its hands-on ‘Make AI Work for You’ workshop on the road with a 5-city Route 66 tour. Learn practical ways to save time, simplify your day, and grow your business with AI.\n\nRegister: https://t.co/EnfUiqjnnM",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI is changing how small businesses get work done\u2014and we're excited to see it in\u2026",
+          "title": "AI is changing how small businesses get work done—and we're excited to see it in…",
           "url": "https://x.com/GoogleWorkspace/status/2084731904075477113",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -742,13 +692,13 @@
     },
     {
       "id": "l535",
-      "text": "Our latest Workspace feature drop is here, and it\u2019s packed with AI-powered features to help you:\n\n\ud83e\udd1d Eliminate the post-meeting chase with Google Meet\n\ud83d\udcc4 Generate quizzes with \u201cHelp me create\u201d in Google Forms\n\ud83d\udcbb Scale custom workflows securely with Workspace Studio\n\nCheck out the full update \u2192 https://t.co/pcJHUSbyjm",
+      "text": "Our latest Workspace feature drop is here, and it’s packed with AI-powered features to help you:\n\n🤝 Eliminate the post-meeting chase with Google Meet\n📄 Generate quizzes with “Help me create” in Google Forms\n💻 Scale custom workflows securely with Workspace Studio\n\nCheck out the full update → https://t.co/pcJHUSbyjm",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Our latest Workspace feature drop is here, and it\u2019s packed with AI-powered featu\u2026",
+          "title": "Our latest Workspace feature drop is here, and it’s packed with AI-powered featu…",
           "url": "https://x.com/GoogleWorkspace/status/2092689286789218712",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -763,13 +713,13 @@
     },
     {
       "id": "l536",
-      "text": "Every enterprise AI rollout faces the same challenge.\n\n\"Can you train everyone on this new platform?\"\n\nWhat if there was nothing new to learn?\n\nOur AI Email Agents work through something every employee already uses every day\u2014email.\n\nUsers simply send an email with their request.\n\nThe AI:\n\u2022 Understands the question\n\u2022 Applies business rules\n\u2022 Uses enterprise knowledge\n\u2022 Invokes AI models\n\u2022 Replies with the answer\n\nNo login.\nNo portal.\nNo new software.\n\nWe recently built an AI Email Agent that anal",
+      "text": "Every enterprise AI rollout faces the same challenge.\n\n\"Can you train everyone on this new platform?\"\n\nWhat if there was nothing new to learn?\n\nOur AI Email Agents work through something every employee already uses every day—email.\n\nUsers simply send an email with their request.\n\nThe AI:\n• Understands the question\n• Applies business rules\n• Uses enterprise knowledge\n• Invokes AI models\n• Replies with the answer\n\nNo login.\nNo portal.\nNo new software.\n\nWe recently built an AI Email Agent that anal",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Every enterprise AI rollout faces the same challenge.\n\n\"Can you train everyone o\u2026",
+          "title": "Every enterprise AI rollout faces the same challenge.\n\n\"Can you train everyone o…",
           "url": "https://x.com/Pradeep891730/status/2093521770296848644",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -784,13 +734,13 @@
     },
     {
       "id": "l537",
-      "text": "Transform training decks into polished videos with Google Vids, complete with AI avatars, voiceovers, music &amp; animations! Update anytime without re-recording.\u2728 Try it on desktop at https://t.co/7bVEcQtw52 https://t.co/aEXkAaJdpN",
+      "text": "Transform training decks into polished videos with Google Vids, complete with AI avatars, voiceovers, music &amp; animations! Update anytime without re-recording.✨ Try it on desktop at https://t.co/7bVEcQtw52 https://t.co/aEXkAaJdpN",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Transform training decks into polished videos with Google Vids, complete with AI\u2026",
+          "title": "Transform training decks into polished videos with Google Vids, complete with AI…",
           "url": "https://x.com/GoogleWorkspace/status/2092326899456377063",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -805,13 +755,13 @@
     },
     {
       "id": "l538",
-      "text": "Why manually review hours of video when AI can spot top-performing segments for you?\n\nIn this Customer AI Boost Bite, Jon Morgenstern, EVP Head of Investment at @VaynerMedia, shares how he uses Gemini to spot top video moments.\n\nLearn more \u2192 https://t.co/glwTwSsjhF https://t.co/vLT2Y8P11H",
+      "text": "Why manually review hours of video when AI can spot top-performing segments for you?\n\nIn this Customer AI Boost Bite, Jon Morgenstern, EVP Head of Investment at @VaynerMedia, shares how he uses Gemini to spot top video moments.\n\nLearn more → https://t.co/glwTwSsjhF https://t.co/vLT2Y8P11H",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Why manually review hours of video when AI can spot top-performing segments for \u2026",
+          "title": "Why manually review hours of video when AI can spot top-performing segments for …",
           "url": "https://x.com/GoogleWorkspace/status/2093338564184404328",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -826,13 +776,13 @@
     },
     {
       "id": "l539",
-      "text": "What happens when AI moves beyond keywords to create truly personalized experiences?\n\nShiyingxue Li, SVP of Engineering at Indeed Recruit Technologies, explains how they\u2019re using Gemini, @Gemini_Notebook, and BigQuery to transform the hiring journey and streamline internal workflows.\n\nWatch how they made it happen \u2192 https://t.co/QGEbKfdORB",
+      "text": "What happens when AI moves beyond keywords to create truly personalized experiences?\n\nShiyingxue Li, SVP of Engineering at Indeed Recruit Technologies, explains how they’re using Gemini, @Gemini_Notebook, and BigQuery to transform the hiring journey and streamline internal workflows.\n\nWatch how they made it happen → https://t.co/QGEbKfdORB",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "What happens when AI moves beyond keywords to create truly personalized experien\u2026",
+          "title": "What happens when AI moves beyond keywords to create truly personalized experien…",
           "url": "https://x.com/GoogleWorkspace/status/2092266561578963241",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -847,13 +797,13 @@
     },
     {
       "id": "l540",
-      "text": "\"We're going to AI our way out of this.\" \ud83d\ude80 See how @turingcom VP of Talent, Taylor Bradley, is using Gemini to automate 60k+ manual HR tickets and build stronger human-to-human connections.\n\nWatch the newest episode of Transformation Architects on our YouTube playlist today: \u23ec https://t.co/JB9MIGQrSm",
+      "text": "\"We're going to AI our way out of this.\" 🚀 See how @turingcom VP of Talent, Taylor Bradley, is using Gemini to automate 60k+ manual HR tickets and build stronger human-to-human connections.\n\nWatch the newest episode of Transformation Architects on our YouTube playlist today: ⏬ https://t.co/JB9MIGQrSm",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\"We're going to AI our way out of this.\" \ud83d\ude80 See how @turingcom VP of Talent, Tayl\u2026",
+          "title": "\"We're going to AI our way out of this.\" 🚀 See how @turingcom VP of Talent, Tayl…",
           "url": "https://x.com/GoogleWorkspace/status/2092643990017298506",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -868,13 +818,13 @@
     },
     {
       "id": "l541",
-      "text": "@turingcom Explore our AI Transformation Hub \ud83d\udc47 https://t.co/mgG04FUhuK",
+      "text": "@turingcom Explore our AI Transformation Hub 👇 https://t.co/mgG04FUhuK",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@turingcom Explore our AI Transformation Hub \ud83d\udc47 https://t.co/mgG04FUhuK",
+          "title": "@turingcom Explore our AI Transformation Hub 👇 https://t.co/mgG04FUhuK",
           "url": "https://x.com/GoogleWorkspace/status/2092643995159498903",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -910,13 +860,13 @@
     },
     {
       "id": "l543",
-      "text": "Not Every Problem Needs AI. Every Problem Needs Better Decisions.\n\nAI is often treated as the solution.\n\nBut AI is only valuable when it improves decisions.\n\nSimulation engines help answer questions such as:\n\n\u2022 What should we prioritize?\n\u2022 Where should we invest?\n\u2022 What are the risks?\n\u2022 What happens if assumptions change?\n\nThe goal isn't more AI.\n\nThe goal is better outcomes.\n\nThat's where simulation becomes valuable.\n\n\ud83d\udce9 DM me\n\n\ud83c\udf10 https://t.co/0rUnKVUi1e\n\n#ArtificialIntelligence #DecisionMaking #",
+      "text": "Not Every Problem Needs AI. Every Problem Needs Better Decisions.\n\nAI is often treated as the solution.\n\nBut AI is only valuable when it improves decisions.\n\nSimulation engines help answer questions such as:\n\n• What should we prioritize?\n• Where should we invest?\n• What are the risks?\n• What happens if assumptions change?\n\nThe goal isn't more AI.\n\nThe goal is better outcomes.\n\nThat's where simulation becomes valuable.\n\n📩 DM me\n\n🌐 https://t.co/0rUnKVUi1e\n\n#ArtificialIntelligence #DecisionMaking #",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Not Every Problem Needs AI. Every Problem Needs Better Decisions.\n\nAI is often t\u2026",
+          "title": "Not Every Problem Needs AI. Every Problem Needs Better Decisions.\n\nAI is often t…",
           "url": "https://x.com/Pradeep891730/status/2093484272497590355",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -931,13 +881,13 @@
     },
     {
       "id": "l544",
-      "text": "What happens when you train an AI model to reason better in one domain \u2014 and then test it in a completely different one?\nWe just ran that experiment.\nWe compared Vanilla Llama 3.1 8B against the same Llama model after our AAII/GDP training, using a frozen 200-task ERP benchmark that neither model had received ERP-specific training on.\nThe results:\nStrict Exact Accuracy\u2028Vanilla Llama: 57.0%\u2028AAII/GDP-Trained Llama: 65.5%\u2028\u27a1\ufe0f +8.5 percentage points\nField-Level Accuracy\u2028Vanilla Llama: 65.26%\u2028AAII/GDP",
+      "text": "What happens when you train an AI model to reason better in one domain — and then test it in a completely different one?\nWe just ran that experiment.\nWe compared Vanilla Llama 3.1 8B against the same Llama model after our AAII/GDP training, using a frozen 200-task ERP benchmark that neither model had received ERP-specific training on.\nThe results:\nStrict Exact Accuracy Vanilla Llama: 57.0% AAII/GDP-Trained Llama: 65.5% ➡️ +8.5 percentage points\nField-Level Accuracy Vanilla Llama: 65.26% AAII/GDP",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "What happens when you train an AI model to reason better in one domain \u2014 and the\u2026",
+          "title": "What happens when you train an AI model to reason better in one domain — and the…",
           "url": "https://x.com/Pradeep891730/status/2093514792308998409",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -952,13 +902,13 @@
     },
     {
       "id": "l545",
-      "text": "Millions of Synthetic Compliance Audit Report Images for AI Training\n\nEvery enterprise undergoes audits.\n\nFinancial audits.\n\nCybersecurity audits.\n\nQuality audits.\n\nEnvironmental audits.\n\nRegulatory audits.\n\nThese reports contain valuable structured and narrative information that AI can use to improve governance and risk management.\n\nAt https://t.co/QzxrXckyNO, we generate millions of synthetic compliance and audit reports for AI training.\n\nDatasets can include:\n\n\u2022 ISO audits\n\u2022 SOC audits\n\u2022 Inte",
+      "text": "Millions of Synthetic Compliance Audit Report Images for AI Training\n\nEvery enterprise undergoes audits.\n\nFinancial audits.\n\nCybersecurity audits.\n\nQuality audits.\n\nEnvironmental audits.\n\nRegulatory audits.\n\nThese reports contain valuable structured and narrative information that AI can use to improve governance and risk management.\n\nAt https://t.co/QzxrXckyNO, we generate millions of synthetic compliance and audit reports for AI training.\n\nDatasets can include:\n\n• ISO audits\n• SOC audits\n• Inte",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Millions of Synthetic Compliance Audit Report Images for AI Training\n\nEvery ente\u2026",
+          "title": "Millions of Synthetic Compliance Audit Report Images for AI Training\n\nEvery ente…",
           "url": "https://x.com/Pradeep891730/status/2093505412104409393",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -979,7 +929,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "VIDEO | Delhi: After receiving the rescued Tamil Nadu pilgrims from Nepal at the\u2026",
+          "title": "VIDEO | Delhi: After receiving the rescued Tamil Nadu pilgrims from Nepal at the…",
           "url": "https://x.com/PTI_News/status/2093349303846879726",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1015,13 +965,13 @@
     },
     {
       "id": "l548",
-      "text": "@rishibagree truly .\n\nthe only structure standing .\n\nbut the people in the first floor also cool cats ( though they didn\u2019t have any option but to stay calm . \n\ntour guides will take tourists to show the famous green house !!",
+      "text": "@rishibagree truly .\n\nthe only structure standing .\n\nbut the people in the first floor also cool cats ( though they didn’t have any option but to stay calm . \n\ntour guides will take tourists to show the famous green house !!",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@rishibagree truly .\n\nthe only structure standing .\n\nbut the people in the first\u2026",
+          "title": "@rishibagree truly .\n\nthe only structure standing .\n\nbut the people in the first…",
           "url": "https://x.com/singlemaltrocks/status/2093356112741613861",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1057,13 +1007,13 @@
     },
     {
       "id": "l550",
-      "text": "\ud83c\uddf7\ud83c\uddfa Friendly tour guides of St Petersburg https://t.co/a0nFyiEuQH",
+      "text": "🇷🇺 Friendly tour guides of St Petersburg https://t.co/a0nFyiEuQH",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83c\uddf7\ud83c\uddfa Friendly tour guides of St Petersburg https://t.co/a0nFyiEuQH",
+          "title": "🇷🇺 Friendly tour guides of St Petersburg https://t.co/a0nFyiEuQH",
           "url": "https://x.com/JohnAlpines/status/2093426157664309280",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1084,7 +1034,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The benefits of hospitality investment extend throughout Kampala's economy. Taxi\u2026",
+          "title": "The benefits of hospitality investment extend throughout Kampala's economy. Taxi…",
           "url": "https://x.com/AyebareAshley/status/2093272734780313878",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1126,7 +1076,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@johnrockshomes Who was firing tear gas? The guides who let you in, the tour gui\u2026",
+          "title": "@johnrockshomes Who was firing tear gas? The guides who let you in, the tour gui…",
           "url": "https://x.com/dwahahn/status/2093504833172959302",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1141,13 +1091,13 @@
     },
     {
       "id": "l554",
-      "text": "Many foreigners incl. hundreds of Indians are believed to be among the missing, along with trekkers, tour guides &amp; pilgrims. The cross-border nature of this terrible tragedy has prompted many international disaster mgmt teams to spring into rescue operations #PrayForNepal \ud83d\ude4f",
+      "text": "Many foreigners incl. hundreds of Indians are believed to be among the missing, along with trekkers, tour guides &amp; pilgrims. The cross-border nature of this terrible tragedy has prompted many international disaster mgmt teams to spring into rescue operations #PrayForNepal 🙏",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Many foreigners incl. hundreds of Indians are believed to be among the missing, \u2026",
+          "title": "Many foreigners incl. hundreds of Indians are believed to be among the missing, …",
           "url": "https://x.com/radhyka/status/2093343574662484166",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1210,7 +1160,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Great watch for buysiders. \nBrett @FundamentEdge and Khe @khemaridh interview Ra\u2026",
+          "title": "Great watch for buysiders. \nBrett @FundamentEdge and Khe @khemaridh interview Ra…",
           "url": "https://x.com/firesidealpha/status/2070999058693681304",
           "date": "2026-06-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1225,13 +1175,13 @@
     },
     {
       "id": "l558",
-      "text": "@says_Sandman @slugmoreslug Guess there were no street performers, Tour guides begging you Togo on a tour, people trying to sell mix tapes either since they aren\u2019t in the picture \ud83e\udd23",
+      "text": "@says_Sandman @slugmoreslug Guess there were no street performers, Tour guides begging you Togo on a tour, people trying to sell mix tapes either since they aren’t in the picture 🤣",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@says_Sandman @slugmoreslug Guess there were no street performers, Tour guides b\u2026",
+          "title": "@says_Sandman @slugmoreslug Guess there were no street performers, Tour guides b…",
           "url": "https://x.com/Sly_Warren/status/2093354263036788769",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1252,7 +1202,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Austinites experiencing homelessness. Every key represents more than a place to \u2026",
+          "title": "Austinites experiencing homelessness. Every key represents more than a place to …",
           "url": "https://x.com/IntegralCareATX/status/2093427423920390504",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1273,7 +1223,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "In Canada, they display their tanks outside of their recruiting offices (this on\u2026",
+          "title": "In Canada, they display their tanks outside of their recruiting offices (this on…",
           "url": "https://x.com/RitaJ2011/status/2093416534311899301",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1288,13 +1238,13 @@
     },
     {
       "id": "l561",
-      "text": "<p class=\"wp-block-paragraph\">Early this year, Jacob Andreou had a crucial goal. The <a href=\"https://t.co/UPXUZtufCv\" target=\"_blank\">Microsoft</a> executive set out to order a McDonald\u2019s cheeseburger to his apartment across from the company\u2019s Silicon Valley campus using a homegrown AI tool. Andreou and his team had worked nonstop to get the tool, named Copilot Tasks, up and running. If the AI agent inside Tasks could autonomously order the burger and get it to Andreou\u2019s home, it would prove th",
+      "text": "<p class=\"wp-block-paragraph\">Early this year, Jacob Andreou had a crucial goal. The <a href=\"https://t.co/UPXUZtufCv\" target=\"_blank\">Microsoft</a> executive set out to order a McDonald’s cheeseburger to his apartment across from the company’s Silicon Valley campus using a homegrown AI tool. Andreou and his team had worked nonstop to get the tool, named Copilot Tasks, up and running. If the AI agent inside Tasks could autonomously order the burger and get it to Andreou’s home, it would prove th",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "<p class=\"wp-block-paragraph\">Early this year, Jacob Andreou had a crucial goal.\u2026",
+          "title": "<p class=\"wp-block-paragraph\">Early this year, Jacob Andreou had a crucial goal.…",
           "url": "https://x.com/arnaudmercier/status/2070976987150139731",
           "date": "2026-06-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1309,7 +1259,7 @@
     },
     {
       "id": "l462",
-      "text": "Travel Consultant \u2014 Travel Trade Recruitment (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
+      "text": "Travel Consultant — Travel Trade Recruitment (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1330,7 +1280,7 @@
     },
     {
       "id": "l463",
-      "text": "Travel Consultant | Luxury \u2014 Travel Trade Recruitment (Melbourne, Victoria, Australia). Posted 3 weeks ago.",
+      "text": "Travel Consultant | Luxury — Travel Trade Recruitment (Melbourne, Victoria, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1351,7 +1301,7 @@
     },
     {
       "id": "l464",
-      "text": "Travel Advisor - Toorak, VIC \u2014 Travel Associates Australia & New Zealand (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Travel Advisor - Toorak, VIC — Travel Associates Australia & New Zealand (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1372,7 +1322,7 @@
     },
     {
       "id": "l465",
-      "text": "Travel Advisor - Travel Associates - NSW \u2014 Travel Associates Australia & New Zealand (New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Travel Advisor - Travel Associates - NSW — Travel Associates Australia & New Zealand (New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1393,7 +1343,7 @@
     },
     {
       "id": "l466",
-      "text": "Travel Advisor - Rouse Hill, NSW \u2014 Flight Centre Travel Group (New South Wales, Australia). Posted 1 week ago.",
+      "text": "Travel Advisor - Rouse Hill, NSW — Flight Centre Travel Group (New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1414,7 +1364,7 @@
     },
     {
       "id": "l467",
-      "text": "Senior Travel Adviser \u2014 Travel Masters & The Travel Studio (Gold Coast, Queensland, Australia). Posted 4 weeks ago.",
+      "text": "Senior Travel Adviser — Travel Masters & The Travel Studio (Gold Coast, Queensland, Australia). Posted 4 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1435,7 +1385,7 @@
     },
     {
       "id": "l468",
-      "text": "Team Leader - Doncaster, VIC \u2014 Cruiseabout Australia (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Team Leader - Doncaster, VIC — Cruiseabout Australia (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1456,7 +1406,7 @@
     },
     {
       "id": "l469",
-      "text": "Travel Consultant \u2014 RAC WA (Perth, Western Australia, Australia). Posted 3 weeks ago.",
+      "text": "Travel Consultant — RAC WA (Perth, Western Australia, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1477,7 +1427,7 @@
     },
     {
       "id": "l470",
-      "text": "Bus Tour Host | Rottnest Express \u2014 Journey Beyond (Fremantle, Western Australia, Australia). Posted 1 month ago.",
+      "text": "Bus Tour Host | Rottnest Express — Journey Beyond (Fremantle, Western Australia, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1498,7 +1448,7 @@
     },
     {
       "id": "l471",
-      "text": "Team Leader ( Cruiseabout)- Brighton, VIC \u2014 Cruiseabout Australia (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Team Leader ( Cruiseabout)- Brighton, VIC — Cruiseabout Australia (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1519,13 +1469,13 @@
     },
     {
       "id": "l572",
-      "text": "[Guide/Tour] How fast travel & locations work in AI Roommate (Free vs. Plus spots + day/night tips)\nHey everyone! Put together a quick video walkthrough showing how fast-travel works in AI Roommate , how to manage the day/night cycle, and a look inside all the main spots currently on the map. Here is a breakdown of how traveling works and what each location offers: \ud83d\ude97 How Fast Travel Works Head outside the front door of your house to the blue hatchback in the driveway. Interact with the car to br\u2026",
+      "text": "[Guide/Tour] How fast travel & locations work in AI Roommate (Free vs. Plus spots + day/night tips)\nHey everyone! Put together a quick video walkthrough showing how fast-travel works in AI Roommate , how to manage the day/night cycle, and a look inside all the main spots currently on the map. Here is a breakdown of how traveling works and what each location offers: 🚗 How Fast Travel Works Head outside the front door of your house to the blue hatchback in the driveway. Interact with the car to br…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "[Guide/Tour] How fast travel & locations work in AI Roommate (Free vs. Plus spot\u2026",
+          "title": "[Guide/Tour] How fast travel & locations work in AI Roommate (Free vs. Plus spot…",
           "url": "https://www.reddit.com/r/AI_Roommate_VR/comments/1vrakuz/guidetour_how_fast_travel_locations_work_in_ai/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1540,13 +1490,13 @@
     },
     {
       "id": "l573",
-      "text": "Daily Music Brief | August 28, 2026 | Federal AI Licensing Framework Enacted, Global Sync Royalty Surge, and Oasis Tour Logistics\n&#x200B; Good morning, music fans. Here&#39;s your Daily Music Brief covering the biggest verified music developments from August 27, 2026. Regulatory authorities have finalized new protections regarding synthetic vocal training models while international catalog rights hit record mid-year valuations. The United States Copyright Office alongside federal digital commer\u2026",
+      "text": "Daily Music Brief | August 28, 2026 | Federal AI Licensing Framework Enacted, Global Sync Royalty Surge, and Oasis Tour Logistics\n&#x200B; Good morning, music fans. Here&#39;s your Daily Music Brief covering the biggest verified music developments from August 27, 2026. Regulatory authorities have finalized new protections regarding synthetic vocal training models while international catalog rights hit record mid-year valuations. The United States Copyright Office alongside federal digital commer…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Daily Music Brief | August 28, 2026 | Federal AI Licensing Framework Enacted, Gl\u2026",
+          "title": "Daily Music Brief | August 28, 2026 | Federal AI Licensing Framework Enacted, Gl…",
           "url": "https://www.reddit.com/r/Music_Playlist_YT/comments/1w0ppgg/daily_music_brief_august_28_2026_federal_ai/",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1561,13 +1511,13 @@
     },
     {
       "id": "l574",
-      "text": "I got full Street View running in WebXR on a Quest 1 \u2014 virtual treadmill running with an AI tour guide\nI fetch raw panorama tiles and project them myself \u2014 sphere \u2192 rectilinear / cylindrical / hybrid Panini \u2014 which removes the usual 90\u00b0 FOV cap. Seamless 200\u00b0+ ultra-wide, WebXR stereo on a Quest 1, and a shared-world dissolve between panoramas so walking transitions stay geometrically aligned. Also: voice commands, treadmill-footstep pace detection via microphone, and an AI tour guide that groun\u2026",
+      "text": "I got full Street View running in WebXR on a Quest 1 — virtual treadmill running with an AI tour guide\nI fetch raw panorama tiles and project them myself — sphere → rectilinear / cylindrical / hybrid Panini — which removes the usual 90° FOV cap. Seamless 200°+ ultra-wide, WebXR stereo on a Quest 1, and a shared-world dissolve between panoramas so walking transitions stay geometrically aligned. Also: voice commands, treadmill-footstep pace detection via microphone, and an AI tour guide that groun…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I got full Street View running in WebXR on a Quest 1 \u2014 virtual treadmill running\u2026",
+          "title": "I got full Street View running in WebXR on a Quest 1 — virtual treadmill running…",
           "url": "https://www.reddit.com/r/virtualreality/comments/1vyofij/i_got_full_street_view_running_in_webxr_on_a/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1582,13 +1532,13 @@
     },
     {
       "id": "l575",
-      "text": "[Test for Test] Need 20 testers for Wayfare Guide (AI GPS Road Trip & Audio Tour Guide) - I will test your app back immediately!\nHi fellow developers! \ud83d\udc4b I need active testers for **Wayfare Guide** (an AI-powered road trip and walking audio guide that tells stories and landmarks based on your GPS coordinates). I will **test your app back immediately**, leave a 5-star review, and keep it installed on my device for the full 14 days! --- ### \ud83d\ude80 How to Join (Takes 30 seconds): **Join Google Group (Req\u2026",
+      "text": "[Test for Test] Need 20 testers for Wayfare Guide (AI GPS Road Trip & Audio Tour Guide) - I will test your app back immediately!\nHi fellow developers! 👋 I need active testers for **Wayfare Guide** (an AI-powered road trip and walking audio guide that tells stories and landmarks based on your GPS coordinates). I will **test your app back immediately**, leave a 5-star review, and keep it installed on my device for the full 14 days! --- ### 🚀 How to Join (Takes 30 seconds): **Join Google Group (Req…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "[Test for Test] Need 20 testers for Wayfare Guide (AI GPS Road Trip & Audio Tour\u2026",
+          "title": "[Test for Test] Need 20 testers for Wayfare Guide (AI GPS Road Trip & Audio Tour…",
           "url": "https://www.reddit.com/r/AndroidClosedTesting/comments/1vsol4z/test_for_test_need_20_testers_for_wayfare_guide/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1603,13 +1553,13 @@
     },
     {
       "id": "l576",
-      "text": "Trying to bring AI into the self guided tour industry, Feedback appreciated!\nI got this idea while in Ireland. A relative of mine purchased a 300 dollar private guided tour. I feel like of all the generative tour apps out there none of them actually feel fully open ended. So i decided to make one myself. Its fully open ended. You could be in the middle of Stillwater Oklahoma and ask for a murder mystery tour and you would get one. I wanna know if people would be interested in something like this\u2026",
+      "text": "Trying to bring AI into the self guided tour industry, Feedback appreciated!\nI got this idea while in Ireland. A relative of mine purchased a 300 dollar private guided tour. I feel like of all the generative tour apps out there none of them actually feel fully open ended. So i decided to make one myself. Its fully open ended. You could be in the middle of Stillwater Oklahoma and ask for a murder mystery tour and you would get one. I wanna know if people would be interested in something like this…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Trying to bring AI into the self guided tour industry, Feedback appreciated!\nI g\u2026",
+          "title": "Trying to bring AI into the self guided tour industry, Feedback appreciated!\nI g…",
           "url": "https://www.reddit.com/r/SaaS/comments/1vzkpyn/trying_to_bring_ai_into_the_self_guided_tour/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1624,13 +1574,13 @@
     },
     {
       "id": "l577",
-      "text": "THE GEO Guide for B2B CMOs: How to get found, cited, trusted, and chosen in AI Search\nA practical working guide for B2B CMOs who want to build visibility and trust in AI-generated answers. GEO is becoming a practical CMO discipline, not another acronym to admire from a safe distance. This guide explains how B2B brands can become crawlable, citable, credible, and chosen in AI-generated answers, while avoiding overpromises in a fast-changing search landscape where today&#39;s best practices may lo\u2026",
+      "text": "THE GEO Guide for B2B CMOs: How to get found, cited, trusted, and chosen in AI Search\nA practical working guide for B2B CMOs who want to build visibility and trust in AI-generated answers. GEO is becoming a practical CMO discipline, not another acronym to admire from a safe distance. This guide explains how B2B brands can become crawlable, citable, credible, and chosen in AI-generated answers, while avoiding overpromises in a fast-changing search landscape where today&#39;s best practices may lo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "THE GEO Guide for B2B CMOs: How to get found, cited, trusted, and chosen in AI S\u2026",
+          "title": "THE GEO Guide for B2B CMOs: How to get found, cited, trusted, and chosen in AI S…",
           "url": "https://www.reddit.com/r/CMO_Huddles/comments/1vdo4op/the_geo_guide_for_b2b_cmos_how_to_get_found_cited/",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1721,6 +1671,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

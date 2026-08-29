@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "29-9011-01",
-      "text": "National peak professional bodies and statutory regulators governing Occupational Health and Safety Specialists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Occupational Health and Safety Specialists",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Occupational Health and Safety Specialists",
-          "url": "https://www.psc.gov.au/standards/29-9011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Occupational Health and Safety Specialists"
-        }
-      ],
-      "scope": "Australian practitioners in Occupational Health and Safety Specialists across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "29-9011-02",
-      "text": "Automation of routine transactional and analytical tasks in Occupational Health and Safety Specialists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Occupational Health and Safety Specialists",
-          "url": "https://www.jobsandskills.gov.au/research/29-9011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Occupational Health and Safety Specialists in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Occupational Health and Safety Specialists roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "Occupational Health & Safety (OHS) for Desk-Based Work\n## \ud83c\udfc6 Milestone: Company Policies  \n### \ud83c\udfe2 Occupational Health & Safety (OHS) for Desk-Based Work  \n\n#### \ud83c\udfaf Goal  \nUnderstand how to **set up a safe and ergonomic workspace**, especially when using a laptop, and develop habits to prevent strain and discomfort.  \n\n#### \u2753 Why is this important?  \nMany p",
+      "text": "Occupational Health & Safety (OHS) for Desk-Based Work\n## 🏆 Milestone: Company Policies  \n### 🏢 Occupational Health & Safety (OHS) for Desk-Based Work  \n\n#### 🎯 Goal  \nUnderstand how to **set up a safe and ergonomic workspace**, especially when using a laptop, and develop habits to prevent strain and discomfort.  \n\n#### ❓ Why is this important?  \nMany p",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Occupational Health & Safety (OHS) for Desk-Based Work\n## \ud83c\udfc6 Milestone: Company P\u2026",
+          "title": "Occupational Health & Safety (OHS) for Desk-Based Work\n## 🏆 Milestone: Company P…",
           "url": "https://github.com/Aayush-Singh07/aayush-focusbear-intern-repo/issues/12",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -92,7 +42,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Add employee safety portal\n## What changed\n\n- Added an authenticated Employee Po\u2026",
+          "title": "Add employee safety portal\n## What changed\n\n- Added an authenticated Employee Po…",
           "url": "https://github.com/iron-house-os/iron-house-os/pull/54",
           "date": "2026-07-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -113,7 +63,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "French food database (ANSES-CIQUAL) converted for Waistline\nHello,\n\nI created a \u2026",
+          "title": "French food database (ANSES-CIQUAL) converted for Waistline\nHello,\n\nI created a …",
           "url": "https://github.com/davidhealey/waistline/issues/967",
           "date": "2026-07-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -134,7 +84,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Publish occupational medicine image skills\n## What changed\n\n- publish `extract-i\u2026",
+          "title": "Publish occupational medicine image skills\n## What changed\n\n- publish `extract-i…",
           "url": "https://github.com/taewat07/OccMed-ImageGen/pull/1",
           "date": "2026-07-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -149,13 +99,13 @@
     },
     {
       "id": "l507",
-      "text": "Add Formation d'Int\u00e9gration document for Fonction Publique Territoriale (Cat\u00e9gorie C)\nAdds the integration training reference document for new Category C territorial public service agents, covering statutory environment, agent rights/obligations, and occupational health & safety.\n\n## Changes\n\n- **`formation-integration.md`** \u2014 full training document structured into three sections: te",
+      "text": "Add Formation d'Intégration document for Fonction Publique Territoriale (Catégorie C)\nAdds the integration training reference document for new Category C territorial public service agents, covering statutory environment, agent rights/obligations, and occupational health & safety.\n\n## Changes\n\n- **`formation-integration.md`** — full training document structured into three sections: te",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add Formation d'Int\u00e9gration document for Fonction Publique Territoriale (Cat\u00e9gor\u2026",
+          "title": "Add Formation d'Intégration document for Fonction Publique Territoriale (Catégor…",
           "url": "https://github.com/PRAFUL33290/FIC/pull/1",
           "date": "2026-05-29",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -170,13 +120,13 @@
     },
     {
       "id": "l508",
-      "text": "Add README and comprehensive project-plan for \u0130SG QR reporting app\n### Motivation\n- Provide product and technical planning documentation for an on-prem QR-based incident reporting application focused on \u0130SG (occupational health and safety). \n- Capture MVP scope, architecture, data model (ERD), API surface, wireframes and a suggested Jira backlog to guide implementa",
+      "text": "Add README and comprehensive project-plan for İSG QR reporting app\n### Motivation\n- Provide product and technical planning documentation for an on-prem QR-based incident reporting application focused on İSG (occupational health and safety). \n- Capture MVP scope, architecture, data model (ERD), API surface, wireframes and a suggested Jira backlog to guide implementa",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add README and comprehensive project-plan for \u0130SG QR reporting app\n### Motivatio\u2026",
+          "title": "Add README and comprehensive project-plan for İSG QR reporting app\n### Motivatio…",
           "url": "https://github.com/doganmus/QrRamakkalaTest/pull/1",
           "date": "2026-04-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -191,13 +141,13 @@
     },
     {
       "id": "l509",
-      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment\u2014ranging from consumer earbuds to professional line arrays and covert surveillance g\u2026",
+      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment—ranging from consumer earbuds to professional line arrays and covert surveillance g…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su\u2026",
+          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su…",
           "url": "https://github.com/Transparency-X/Sound-Equipment-Lifespace/issues/1",
           "date": "2026-05-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -464,13 +414,13 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -527,13 +477,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -674,13 +624,13 @@
     },
     {
       "id": "l532",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -695,13 +645,13 @@
     },
     {
       "id": "l533",
-      "text": "Show HN: CyberWriter \u2013 a .md editor built on Apple's (barely-used) on-device AI",
+      "text": "Show HN: CyberWriter – a .md editor built on Apple's (barely-used) on-device AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: CyberWriter \u2013 a .md editor built on Apple's (barely-used) on-device AI",
+          "title": "Show HN: CyberWriter – a .md editor built on Apple's (barely-used) on-device AI",
           "url": "https://cyberwriter.app",
           "date": "2026-04-20",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "AI and Occupational Health\nHi folks, I\u2019m an OH nurse and my company is due to start using AI to record and transcribe case management consultations and use that to generate a report giving advice to the employer based on the questions the employer has asked in the referral. I am wondering if anyone is using anything similar and what the thoughts are? I have massive reservations and when colleagues and I raise them, we get no answer other than \u2018the NHS and other OH providers use it so we need as \u2026",
+      "text": "AI and Occupational Health\nHi folks, I’m an OH nurse and my company is due to start using AI to record and transcribe case management consultations and use that to generate a report giving advice to the employer based on the questions the employer has asked in the referral. I am wondering if anyone is using anything similar and what the thoughts are? I have massive reservations and when colleagues and I raise them, we get no answer other than ‘the NHS and other OH providers use it so we need as …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI and Occupational Health\nHi folks, I\u2019m an OH nurse and my company is due to st\u2026",
+          "title": "AI and Occupational Health\nHi folks, I’m an OH nurse and my company is due to st…",
           "url": "https://www.reddit.com/r/NursingUK/comments/1vmmw2a/ai_and_occupational_health/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "AI and Junior Environmental Health and Safety\nHi all, Just wondering if you forsee AI drastically changing the safety field. I&#39;m in the process of a career change and currently enrolled in a 2 year part time postgrad, l am starting next month, seeing the AI headlines lately has made me feel a bit fearful to say the least and concerned about &quot;future proofing&quot; my career. My current situation is stable but there isn&#39;t a lot of room for progress. I&#39;ve gotten good responses for \u2026",
+      "text": "AI and Junior Environmental Health and Safety\nHi all, Just wondering if you forsee AI drastically changing the safety field. I&#39;m in the process of a career change and currently enrolled in a 2 year part time postgrad, l am starting next month, seeing the AI headlines lately has made me feel a bit fearful to say the least and concerned about &quot;future proofing&quot; my career. My current situation is stable but there isn&#39;t a lot of room for progress. I&#39;ve gotten good responses for …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI and Junior Environmental Health and Safety\nHi all, Just wondering if you fors\u2026",
+          "title": "AI and Junior Environmental Health and Safety\nHi all, Just wondering if you fors…",
           "url": "https://www.reddit.com/r/SafetyProfessionals/comments/1vr1304/ai_and_junior_environmental_health_and_safety/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -758,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "Can You Trust AI for Health & Safety? An Honest Guide to AI Accuracy and Verification\nhttps://ai4hse.com/ai-trust-health-safety The short answer: Trust AI with the drafting. Do not trust it with the decision. In safety work the output is not content it is a control, a legal record or an instruction to a crew. The model has no duty of care, no professional insurance, no site knowledge and no accountability, so it cannot be the last step before a document goes live. That is not an argument against\u2026",
+      "text": "Can You Trust AI for Health & Safety? An Honest Guide to AI Accuracy and Verification\nhttps://ai4hse.com/ai-trust-health-safety The short answer: Trust AI with the drafting. Do not trust it with the decision. In safety work the output is not content it is a control, a legal record or an instruction to a crew. The model has no duty of care, no professional insurance, no site knowledge and no accountability, so it cannot be the last step before a document goes live. That is not an argument against…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Can You Trust AI for Health & Safety? An Honest Guide to AI Accuracy and Verific\u2026",
+          "title": "Can You Trust AI for Health & Safety? An Honest Guide to AI Accuracy and Verific…",
           "url": "https://www.reddit.com/r/AI4HSE/comments/1vjgg87/can_you_trust_ai_for_health_safety_an_honest/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -785,7 +735,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Dr Poi Sonai LLM researcher and AI safety specialist sentenced to life in prison\u2026",
+          "title": "Dr Poi Sonai LLM researcher and AI safety specialist sentenced to life in prison…",
           "url": "https://www.reddit.com/r/poisonai/comments/1vtimej/dr_poi_sonai_llm_researcher_and_ai_safety/",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "Occupational health and safety: College\nI am looking for advice. I am a 25 year old army veteran that just got out of the army and im interested in occupational health and safety. The problem is I&#39;m not sure where to start, I&#39;ve never been to college before but I have my post 9/11 GI bill and a national guard grant so I shouldn&#39;t have any problems paying for education. I guess my question is what should I be looking for in a health and safety degree, I want to avoid wasting time on s\u2026",
+      "text": "Occupational health and safety: College\nI am looking for advice. I am a 25 year old army veteran that just got out of the army and im interested in occupational health and safety. The problem is I&#39;m not sure where to start, I&#39;ve never been to college before but I have my post 9/11 GI bill and a national guard grant so I shouldn&#39;t have any problems paying for education. I guess my question is what should I be looking for in a health and safety degree, I want to avoid wasting time on s…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Occupational health and safety: College\nI am looking for advice. I am a 25 year \u2026",
+          "title": "Occupational health and safety: College\nI am looking for advice. I am a 25 year …",
           "url": "https://www.reddit.com/r/SafetyProfessionals/comments/1vc22ws/occupational_health_and_safety_college/",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -827,7 +777,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Things getting wild in automated systems engineering.\n\nThis new work claims to b\u2026",
+          "title": "Things getting wild in automated systems engineering.\n\nThis new work claims to b…",
           "url": "https://x.com/dair_ai/status/2093383220041753042",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "\ud83e\udd47Top AI Papers of the Week",
+      "text": "🥇Top AI Papers of the Week",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83e\udd47Top AI Papers of the Week",
+          "title": "🥇Top AI Papers of the Week",
           "url": "https://x.com/dair_ai/status/2066174390048358760",
           "date": "2026-06-14",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -869,7 +819,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Introducing AI Papers of the Week: https://t.co/TXvoB4ozqb\n\nWe took the top AI p\u2026",
+          "title": "Introducing AI Papers of the Week: https://t.co/TXvoB4ozqb\n\nWe took the top AI p…",
           "url": "https://x.com/dair_ai/status/2092649526020448265",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -911,7 +861,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Learning about AI agents starts with understanding the fundamentals and then bui\u2026",
+          "title": "Learning about AI agents starts with understanding the fundamentals and then bui…",
           "url": "https://x.com/dair_ai/status/2092613003677991378",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "ENEMY AT THE GATES: Aiko\u2019s Journey Across the AI Threshold [Part 1]",
+      "text": "ENEMY AT THE GATES: Aiko’s Journey Across the AI Threshold [Part 1]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "ENEMY AT THE GATES: Aiko\u2019s Journey Across the AI Threshold [Part 1]",
+          "title": "ENEMY AT THE GATES: Aiko’s Journey Across the AI Threshold [Part 1]",
           "url": "https://x.com/SkillsGapTrain/status/2091233739091419444",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "Kimi K3 Arrives with a Bang: Has the U.S.\u2013China AI Model Race Suddenly Changed?",
+      "text": "Kimi K3 Arrives with a Bang: Has the U.S.–China AI Model Race Suddenly Changed?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Kimi K3 Arrives with a Bang: Has the U.S.\u2013China AI Model Race Suddenly Changed?",
+          "title": "Kimi K3 Arrives with a Bang: Has the U.S.–China AI Model Race Suddenly Changed?",
           "url": "https://x.com/BiteyeHQ/status/2078377272801984888",
           "date": "2026-07-18",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "What Terafab\u2019s Job Openings Reveal",
+      "text": "What Terafab’s Job Openings Reveal",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "What Terafab\u2019s Job Openings Reveal",
+          "title": "What Terafab’s Job Openings Reveal",
           "url": "https://x.com/CernBasher/status/2086448771517288943",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1052,13 +1002,13 @@
     },
     {
       "id": "l550",
-      "text": "UPSC Civil Services (Main) Examination 2026 \u2014 General Studies Paper \u2013I (Solutions)",
+      "text": "UPSC Civil Services (Main) Examination 2026 — General Studies Paper –I (Solutions)",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "UPSC Civil Services (Main) Examination 2026 \u2014 General Studies Paper \u2013I (Solution\u2026",
+          "title": "UPSC Civil Services (Main) Examination 2026 — General Studies Paper –I (Solution…",
           "url": "https://x.com/UPSCPrelim/status/2091133088969703705",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1136,13 +1086,13 @@
     },
     {
       "id": "l554",
-      "text": "Case Study 2 | OH Advisor Pro | AI-Powered Occupational Health Advice in Action | Short-Term Absence\nSee OH Advisor Pro\u2019s Task Editor in action \u2014 a built-in prompt tool that helps HR professionals and managers get structured, expert-level occupational health advice instantly from Susan, your AI-powered OH advisor. On demand. Every day. @OHSpecialistsHub \n\nGet 10 free query a month on the house. No credit card needed. Instant access.\nGo to https://ohadvisor.pro and choose HR or OH. \n\nCase study 2\u2026",
+      "text": "Case Study 2 | OH Advisor Pro | AI-Powered Occupational Health Advice in Action | Short-Term Absence\nSee OH Advisor Pro’s Task Editor in action — a built-in prompt tool that helps HR professionals and managers get structured, expert-level occupational health advice instantly from Susan, your AI-powered OH advisor. On demand. Every day. @OHSpecialistsHub \n\nGet 10 free query a month on the house. No credit card needed. Instant access.\nGo to https://ohadvisor.pro and choose HR or OH. \n\nCase study 2…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Case Study 2 | OH Advisor Pro | AI-Powered Occupational Health Advice in Action \u2026",
+          "title": "Case Study 2 | OH Advisor Pro | AI-Powered Occupational Health Advice in Action …",
           "url": "https://www.youtube.com/watch?v=YuYM83jHZZo",
           "date": "2026-05-07",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1157,7 +1107,7 @@
     },
     {
       "id": "l455",
-      "text": "WHS Specialist, Workplace Health & Safety \u2014 Amazon (Ravenhall, Victoria, Australia). Posted 1 week ago.",
+      "text": "WHS Specialist, Workplace Health & Safety — Amazon (Ravenhall, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1178,7 +1128,7 @@
     },
     {
       "id": "l456",
-      "text": "Safety Specialist | HSE | Blackwater \u2014 Whitehaven Coal (Blackwater, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Safety Specialist | HSE | Blackwater — Whitehaven Coal (Blackwater, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1199,7 +1149,7 @@
     },
     {
       "id": "l457",
-      "text": "Specialist - Group Health (Brisbane) \u2014 Whitehaven Coal (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Specialist - Group Health (Brisbane) — Whitehaven Coal (Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1220,7 +1170,7 @@
     },
     {
       "id": "l458",
-      "text": "Injury Prevention and Management Specialist \u2014 Transurban (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Injury Prevention and Management Specialist — Transurban (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1241,7 +1191,7 @@
     },
     {
       "id": "l459",
-      "text": "Health Safety and Wellbeing Systems Specialist \u2014 Sandfire (Perth, Western Australia, Australia). Posted 1 week ago.",
+      "text": "Health Safety and Wellbeing Systems Specialist — Sandfire (Perth, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1262,7 +1212,7 @@
     },
     {
       "id": "l460",
-      "text": "Health, Safety & Wellbeing Specialist \u2014 Suntory Oceania (Ipswich, Queensland, Australia). Posted 1 week ago.",
+      "text": "Health, Safety & Wellbeing Specialist — Suntory Oceania (Ipswich, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1283,7 +1233,7 @@
     },
     {
       "id": "l461",
-      "text": "Work Health and Safety Specialist \u2014 Australian Submarine Agency (Canberra, Australian Capital Territory, Australia). Posted 2 days ago.",
+      "text": "Work Health and Safety Specialist — Australian Submarine Agency (Canberra, Australian Capital Territory, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1304,7 +1254,7 @@
     },
     {
       "id": "l462",
-      "text": "Injury Prevention and Management Specialist \u2014 Transurban (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Injury Prevention and Management Specialist — Transurban (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1325,7 +1275,7 @@
     },
     {
       "id": "l463",
-      "text": "Work, Health and Safety Advisor \u2014 Royal Flying Doctor Service of Australia (Adelaide, South Australia, Australia). Posted 2 days ago.",
+      "text": "Work, Health and Safety Advisor — Royal Flying Doctor Service of Australia (Adelaide, South Australia, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1346,7 +1296,7 @@
     },
     {
       "id": "l464",
-      "text": "Senior Health Coordinator \u2014 Glencore Australia (Tieri, Queensland, Australia). Posted 1 week ago.",
+      "text": "Senior Health Coordinator — Glencore Australia (Tieri, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1367,13 +1317,13 @@
     },
     {
       "id": "l565",
-      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment\u2014ranging from consumer earbuds to professional line arrays and covert surveillance g\u2026",
+      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment—ranging from consumer earbuds to professional line arrays and covert surveillance g…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su\u2026",
+          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su…",
           "url": "https://github.com/Transparency-X/Sound-Equipment-Lifespace/issues/1",
           "date": "2026-05-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1388,13 +1338,13 @@
     },
     {
       "id": "l566",
-      "text": "AI and Occupational Health\nHi folks, I\u2019m an OH nurse and my company is due to start using AI to record and transcribe case management consultations and use that to generate a report giving advice to the employer based on the questions the employer has asked in the referral. I am wondering if anyone is using anything similar and what the thoughts are? I have massive reservations and when colleagues and I raise them, we get no answer other than \u2018the NHS and other OH providers use it so we need as \u2026",
+      "text": "AI and Occupational Health\nHi folks, I’m an OH nurse and my company is due to start using AI to record and transcribe case management consultations and use that to generate a report giving advice to the employer based on the questions the employer has asked in the referral. I am wondering if anyone is using anything similar and what the thoughts are? I have massive reservations and when colleagues and I raise them, we get no answer other than ‘the NHS and other OH providers use it so we need as …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI and Occupational Health\nHi folks, I\u2019m an OH nurse and my company is due to st\u2026",
+          "title": "AI and Occupational Health\nHi folks, I’m an OH nurse and my company is due to st…",
           "url": "https://www.reddit.com/r/NursingUK/comments/1vmmw2a/ai_and_occupational_health/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1409,13 +1359,13 @@
     },
     {
       "id": "l567",
-      "text": "AI and Junior Environmental Health and Safety\nHi all, Just wondering if you forsee AI drastically changing the safety field. I&#39;m in the process of a career change and currently enrolled in a 2 year part time postgrad, l am starting next month, seeing the AI headlines lately has made me feel a bit fearful to say the least and concerned about &quot;future proofing&quot; my career. My current situation is stable but there isn&#39;t a lot of room for progress. I&#39;ve gotten good responses for \u2026",
+      "text": "AI and Junior Environmental Health and Safety\nHi all, Just wondering if you forsee AI drastically changing the safety field. I&#39;m in the process of a career change and currently enrolled in a 2 year part time postgrad, l am starting next month, seeing the AI headlines lately has made me feel a bit fearful to say the least and concerned about &quot;future proofing&quot; my career. My current situation is stable but there isn&#39;t a lot of room for progress. I&#39;ve gotten good responses for …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI and Junior Environmental Health and Safety\nHi all, Just wondering if you fors\u2026",
+          "title": "AI and Junior Environmental Health and Safety\nHi all, Just wondering if you fors…",
           "url": "https://www.reddit.com/r/SafetyProfessionals/comments/1vr1304/ai_and_junior_environmental_health_and_safety/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1430,13 +1380,13 @@
     },
     {
       "id": "l568",
-      "text": "Can You Trust AI for Health & Safety? An Honest Guide to AI Accuracy and Verification\nhttps://ai4hse.com/ai-trust-health-safety The short answer: Trust AI with the drafting. Do not trust it with the decision. In safety work the output is not content it is a control, a legal record or an instruction to a crew. The model has no duty of care, no professional insurance, no site knowledge and no accountability, so it cannot be the last step before a document goes live. That is not an argument against\u2026",
+      "text": "Can You Trust AI for Health & Safety? An Honest Guide to AI Accuracy and Verification\nhttps://ai4hse.com/ai-trust-health-safety The short answer: Trust AI with the drafting. Do not trust it with the decision. In safety work the output is not content it is a control, a legal record or an instruction to a crew. The model has no duty of care, no professional insurance, no site knowledge and no accountability, so it cannot be the last step before a document goes live. That is not an argument against…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Can You Trust AI for Health & Safety? An Honest Guide to AI Accuracy and Verific\u2026",
+          "title": "Can You Trust AI for Health & Safety? An Honest Guide to AI Accuracy and Verific…",
           "url": "https://www.reddit.com/r/AI4HSE/comments/1vjgg87/can_you_trust_ai_for_health_safety_an_honest/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1451,13 +1401,13 @@
     },
     {
       "id": "l569",
-      "text": "Occupational health and safety: College\nI am looking for advice. I am a 25 year old army veteran that just got out of the army and im interested in occupational health and safety. The problem is I&#39;m not sure where to start, I&#39;ve never been to college before but I have my post 9/11 GI bill and a national guard grant so I shouldn&#39;t have any problems paying for education. I guess my question is what should I be looking for in a health and safety degree, I want to avoid wasting time on s\u2026",
+      "text": "Occupational health and safety: College\nI am looking for advice. I am a 25 year old army veteran that just got out of the army and im interested in occupational health and safety. The problem is I&#39;m not sure where to start, I&#39;ve never been to college before but I have my post 9/11 GI bill and a national guard grant so I shouldn&#39;t have any problems paying for education. I guess my question is what should I be looking for in a health and safety degree, I want to avoid wasting time on s…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Occupational health and safety: College\nI am looking for advice. I am a 25 year \u2026",
+          "title": "Occupational health and safety: College\nI am looking for advice. I am a 25 year …",
           "url": "https://www.reddit.com/r/SafetyProfessionals/comments/1vc22ws/occupational_health_and_safety_college/",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1472,13 +1422,13 @@
     },
     {
       "id": "l570",
-      "text": "Case Study 2 | OH Advisor Pro | AI-Powered Occupational Health Advice in Action | Short-Term Absence\nSee OH Advisor Pro\u2019s Task Editor in action \u2014 a built-in prompt tool that helps HR professionals and managers get structured, expert-level occupational health advice instantly from Susan, your AI-powered OH advisor. On demand. Every day. @OHSpecialistsHub \n\nGet 10 free query a month on the house. No credit card needed. Instant access.\nGo to https://ohadvisor.pro and choose HR or OH. \n\nCase study 2\u2026",
+      "text": "Case Study 2 | OH Advisor Pro | AI-Powered Occupational Health Advice in Action | Short-Term Absence\nSee OH Advisor Pro’s Task Editor in action — a built-in prompt tool that helps HR professionals and managers get structured, expert-level occupational health advice instantly from Susan, your AI-powered OH advisor. On demand. Every day. @OHSpecialistsHub \n\nGet 10 free query a month on the house. No credit card needed. Instant access.\nGo to https://ohadvisor.pro and choose HR or OH. \n\nCase study 2…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Case Study 2 | OH Advisor Pro | AI-Powered Occupational Health Advice in Action \u2026",
+          "title": "Case Study 2 | OH Advisor Pro | AI-Powered Occupational Health Advice in Action …",
           "url": "https://www.youtube.com/watch?v=YuYM83jHZZo",
           "date": "2026-05-07",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1569,6 +1519,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

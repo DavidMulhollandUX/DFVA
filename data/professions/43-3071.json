@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "43-3071-01",
-      "text": "National peak professional bodies and statutory regulators governing Tellers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Tellers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Tellers",
-          "url": "https://www.psc.gov.au/standards/43-3071",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Tellers"
-        }
-      ],
-      "scope": "Australian practitioners in Tellers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "43-3071-02",
-      "text": "Automation of routine transactional and analytical tasks in Tellers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Tellers",
-          "url": "https://www.jobsandskills.gov.au/research/43-3071",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Tellers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Tellers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "[EPIC] Second-wave source mining: books, essays, and interviews to sharpen the corpus\n## Summary\n\nTracking epic for the second wave of corpus sourcing. #20 covered three Lenny's Podcast episodes (Chesky / Grosser / Stone); this epic catalogs the books, essays, and interviews identified in the follow-on gap analysis, organizes them into seven mining workstreams, and prescribes how min\n## M5 mining results \u2014 Market & GTM books\n\n*Sources: Moore (Crossing the Chasm), Chen (The Cold Start Problem), D\u2026",
+      "text": "[EPIC] Second-wave source mining: books, essays, and interviews to sharpen the corpus\n## Summary\n\nTracking epic for the second wave of corpus sourcing. #20 covered three Lenny's Podcast episodes (Chesky / Grosser / Stone); this epic catalogs the books, essays, and interviews identified in the follow-on gap analysis, organizes them into seven mining workstreams, and prescribes how min\n## M5 mining results — Market & GTM books\n\n*Sources: Moore (Crossing the Chasm), Chen (The Cold Start Problem), D…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[EPIC] Second-wave source mining: books, essays, and interviews to sharpen the c\u2026",
+          "title": "[EPIC] Second-wave source mining: books, essays, and interviews to sharpen the c…",
           "url": "https://github.com/Chris-Graffagnino/Founder-Wisdom/issues/21",
           "date": "2026-07-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -86,13 +36,13 @@
     },
     {
       "id": "l504",
-      "text": "Feature: Consultation & Deployment\nWho to meet with and discuss? How and when to deploy online and in person?\ngoogle-3.1-pro-preview\n\nThank you for this crucial clarification. Shifting the framework from an *offensive* (red-teaming/intelligence) perspective to a **protective and safeguarding** perspective completely changes the ethical landscape. \n\nInstead of an \"Exploitation Viability Index\" used to target... Le Mistral - Chat - Think Mode - feedback on v1\n\n<html>\n<body>\n<!--StartFragment--><ht\u2026",
+      "text": "Feature: Consultation & Deployment\nWho to meet with and discuss? How and when to deploy online and in person?\ngoogle-3.1-pro-preview\n\nThank you for this crucial clarification. Shifting the framework from an *offensive* (red-teaming/intelligence) perspective to a **protective and safeguarding** perspective completely changes the ethical landscape. \n\nInstead of an \"Exploitation Viability Index\" used to target... Le Mistral - Chat - Think Mode - feedback on v1\n\n<html>\n<body>\n<!--StartFragment--><ht…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature: Consultation & Deployment\nWho to meet with and discuss? How and when to\u2026",
+          "title": "Feature: Consultation & Deployment\nWho to meet with and discuss? How and when to…",
           "url": "https://github.com/Transparency-X/Exploitation-Index/issues/2",
           "date": "2026-05-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -107,13 +57,13 @@
     },
     {
       "id": "l505",
-      "text": "feat: Paradigm Archaeology Engine \u2014 sacred assumption detection\nAdds a new engine that surfaces \"sacred assumptions\" \u2014 industry beliefs held without question that are now vulnerable due to measurable context shifts. Each detected assumption is grounded in specific evidence IDs (no hallucination) and validated against real historical precedents.\n\n## New file: `sr",
+      "text": "feat: Paradigm Archaeology Engine — sacred assumption detection\nAdds a new engine that surfaces \"sacred assumptions\" — industry beliefs held without question that are now vulnerable due to measurable context shifts. Each detected assumption is grounded in specific evidence IDs (no hallucination) and validated against real historical precedents.\n\n## New file: `sr",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: Paradigm Archaeology Engine \u2014 sacred assumption detection\nAdds a new engin\u2026",
+          "title": "feat: Paradigm Archaeology Engine — sacred assumption detection\nAdds a new engin…",
           "url": "https://github.com/marketdisruptorsgp/marketdisruptor/pull/10",
           "date": "2026-03-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -134,7 +84,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Clean Rooms Launder Open Source, iPhones Kill Tellers, DuckDB Flexes\n## Vibe\nCle\u2026",
+          "title": "Clean Rooms Launder Open Source, iPhones Kill Tellers, DuckDB Flexes\n## Vibe\nCle…",
           "url": "https://github.com/thevibeworks/claude-reads-hn/issues/539",
           "date": "2026-03-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -338,13 +288,13 @@
     },
     {
       "id": "l516",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -380,13 +330,13 @@
     },
     {
       "id": "l518",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -548,13 +498,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -674,13 +624,13 @@
     },
     {
       "id": "l532",
-      "text": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]",
+      "text": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&\u2026",
+          "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&…",
           "url": "https://www.reddit.com/r/technology/comments/1vzb4xo/ai_agents_meant_to_replace_meta_workers_made/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -695,13 +645,13 @@
     },
     {
       "id": "l533",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the RAM for a motherboard upgrade or a cor\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the RAM for a motherboard upgrade or a cor…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcmasterrace/comments/1vfe28b/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcgaming/comments/1vfe3ru/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -743,7 +693,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32\u2026",
+          "title": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32…",
           "url": "https://www.reddit.com/r/technology/comments/1voms55/onlyfans_investor_says_ai_cant_disrupt_adult/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -758,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k\u2026",
+      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A\u2026",
+          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A…",
           "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let\u2019s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
+      "text": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let’s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market \u2026",
+          "title": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market …",
           "url": "https://www.reddit.com/r/Superstonk/comments/1vaxmve/for_my_dorito_loversyen_intervention_with_a/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c\u2026",
+      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public \u2026",
+          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public …",
           "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vnsz0y/jpmorgan_ceo_jamie_dimon_declares_ai_deployment/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -827,7 +777,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/aiecosystem/comments/1w00i5d/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "How are people buying homes and getting married in this age of AI disruption ?\nJob security across most white collar jobs has tanked and as AI gets integrated there will likely be a need for less people to do the same jobs. Yes if demand increases for tech (and other white collar services) then the same number of people can be employed but if that doesn&#39;t happen I see unemployment increasing over the next 5-7 years. In such an uncertain environment how are people trying to achieve big goals \u2026",
+      "text": "How are people buying homes and getting married in this age of AI disruption ?\nJob security across most white collar jobs has tanked and as AI gets integrated there will likely be a need for less people to do the same jobs. Yes if demand increases for tech (and other white collar services) then the same number of people can be employed but if that doesn&#39;t happen I see unemployment increasing over the next 5-7 years. In such an uncertain environment how are people trying to achieve big goals …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "How are people buying homes and getting married in this age of AI disruption ?\nJ\u2026",
+          "title": "How are people buying homes and getting married in this age of AI disruption ?\nJ…",
           "url": "https://www.reddit.com/r/cscareerquestions/comments/1vqe677/how_are_people_buying_homes_and_getting_married/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -869,7 +819,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Buying AI Today Could Be Like Buying Bitcoin in 2010, But Not for the Reason You\u2026",
+          "title": "Buying AI Today Could Be Like Buying Bitcoin in 2010, But Not for the Reason You…",
           "url": "https://x.com/BlackPantherCap/status/2092681465238847854",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -890,7 +840,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "As AI takes over an increasing share of material production, human life may grad\u2026",
+          "title": "As AI takes over an increasing share of material production, human life may grad…",
           "url": "https://x.com/KolentoH/status/2078415396689052030",
           "date": "2026-07-18",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "I\u2019ll never forget when, at the very last minute, my professor at @nyuniversity  changed our written final into an oral exam.\n\nIt looked like a small change. But to me, it represented something much bigger: a genuinely AI-native shift in how we evaluate human.\n\nA few days ago, we, @EmergencesLabs, hosted a 100+ people event with @Valley101en. I joined a fireside chat with @BharatKChandar & Paul Marca, and we found ourselves discussing the same question, except this time, beyond the classroom.\n\nWh",
+      "text": "I’ll never forget when, at the very last minute, my professor at @nyuniversity  changed our written final into an oral exam.\n\nIt looked like a small change. But to me, it represented something much bigger: a genuinely AI-native shift in how we evaluate human.\n\nA few days ago, we, @EmergencesLabs, hosted a 100+ people event with @Valley101en. I joined a fireside chat with @BharatKChandar & Paul Marca, and we found ourselves discussing the same question, except this time, beyond the classroom.\n\nWh",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I\u2019ll never forget when, at the very last minute, my professor at @nyuniversity  \u2026",
+          "title": "I’ll never forget when, at the very last minute, my professor at @nyuniversity  …",
           "url": "https://x.com/KolentoH/status/2092447506798108846",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -926,13 +876,13 @@
     },
     {
       "id": "l544",
-      "text": "\u274c Everyone says AI will make us all generalists. I actually think the opposite is happening. AI commoditizes breadth.\n\nLast week, we hosted a private discussion on AI-Native Talent Playbook together with @FoothillVenture  and @sequoiaTPI, bringing together executives, HR leaders and Chief People Officers to discuss how AI is reshaping occupations, tasks, and skills.\n\nWhat becomes scarce instead is the combination of deep domain expertise and the judgment to direct AI well.\n\n\u2705 In other words, the",
+      "text": "❌ Everyone says AI will make us all generalists. I actually think the opposite is happening. AI commoditizes breadth.\n\nLast week, we hosted a private discussion on AI-Native Talent Playbook together with @FoothillVenture  and @sequoiaTPI, bringing together executives, HR leaders and Chief People Officers to discuss how AI is reshaping occupations, tasks, and skills.\n\nWhat becomes scarce instead is the combination of deep domain expertise and the judgment to direct AI well.\n\n✅ In other words, the",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u274c Everyone says AI will make us all generalists. I actually think the opposite i\u2026",
+          "title": "❌ Everyone says AI will make us all generalists. I actually think the opposite i…",
           "url": "https://x.com/KolentoH/status/2083777565765062702",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "AI may not take your Nigerian job \u2014 your employer may simply realise one AI-equipped worker can do the work of three. From bank tellers and data-entry clerks to bookkeepers, customer service and junior professionals, the old career ladder is under pressure. Is your job safe, or are you just one software update away from becoming redundant?\n\nLearn more in the comments\ud83d\udc47\n\n#AIJobs #NigeriaJobs #FutureOfWork #ArtificialIntelligence #NigeriaEconomy",
+      "text": "AI may not take your Nigerian job — your employer may simply realise one AI-equipped worker can do the work of three. From bank tellers and data-entry clerks to bookkeepers, customer service and junior professionals, the old career ladder is under pressure. Is your job safe, or are you just one software update away from becoming redundant?\n\nLearn more in the comments👇\n\n#AIJobs #NigeriaJobs #FutureOfWork #ArtificialIntelligence #NigeriaEconomy",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI may not take your Nigerian job \u2014 your employer may simply realise one AI-equi\u2026",
+          "title": "AI may not take your Nigerian job — your employer may simply realise one AI-equi…",
           "url": "https://x.com/atlanticpostng/status/2092420495635288075",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -974,7 +924,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Amen !!  @AVARY \n\nBut there's a new crop of copy/paste story tellers: \nAnd they \u2026",
+          "title": "Amen !!  @AVARY \n\nBut there's a new crop of copy/paste story tellers: \nAnd they …",
           "url": "https://x.com/_IGI_Media_/status/2092306872778756328",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -995,7 +945,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The demand for salespeople at AI startups is going through the roof.\n\nTrust is t\u2026",
+          "title": "The demand for salespeople at AI startups is going through the roof.\n\nTrust is t…",
           "url": "https://x.com/joannezchen/status/2092254419525976334",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1016,7 +966,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "people were mass protesting ATMs in the 1970s because bank tellers would all los\u2026",
+          "title": "people were mass protesting ATMs in the 1970s because bank tellers would all los…",
           "url": "https://x.com/antopatrex1/status/2093005627387674790",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1037,7 +987,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Banks getting hammered by agentic hacking.  It will be public soon1ish.  AI para\u2026",
+          "title": "Banks getting hammered by agentic hacking.  It will be public soon1ish.  AI para…",
           "url": "https://x.com/strifenjustice/status/2092550851617243287",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1052,13 +1002,13 @@
     },
     {
       "id": "l550",
-      "text": "I do not support Ai taking jobs from people but bank tellers can go. \ud83e\udd16\ud83d\udcb5",
+      "text": "I do not support Ai taking jobs from people but bank tellers can go. 🤖💵",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I do not support Ai taking jobs from people but bank tellers can go. \ud83e\udd16\ud83d\udcb5",
+          "title": "I do not support Ai taking jobs from people but bank tellers can go. 🤖💵",
           "url": "https://x.com/SeriousBok/status/2093073018691948921",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1079,7 +1029,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Y'all give this a listen, Frens! \nAnd, if you don't already, give @TheMrLeotta a\u2026",
+          "title": "Y'all give this a listen, Frens! \nAnd, if you don't already, give @TheMrLeotta a…",
           "url": "https://x.com/AstuteActual/status/2093574404328370582",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1094,13 +1044,13 @@
     },
     {
       "id": "l552",
-      "text": "Who's behind the mask? Let's introduce you. \ud83c\udfad\n\nThe AJL Decade of Impact Masquerade is filling up with the voices who've shaped this movement: the truth-tellers, the black-box-breakers, the ones who looked at the coded gaze and refused to blink.\n\nPress play for a first look. Coming your way:\n\ud83c\udf99\ufe0f Cathy O'Neil (@mathbabedotorg), founder and CEO of ORCAA\n\ud83c\udf99\ufe0f Deb Raji (@rajiinio), AI accountability researcher at UC Berkeley (@UCBerkeley)\n\ud83c\udf99\ufe0f Sasha Costanza-Chock (@schock), author of \"Design Justice\"\n\ud83c\udf99\ufe0f",
+      "text": "Who's behind the mask? Let's introduce you. 🎭\n\nThe AJL Decade of Impact Masquerade is filling up with the voices who've shaped this movement: the truth-tellers, the black-box-breakers, the ones who looked at the coded gaze and refused to blink.\n\nPress play for a first look. Coming your way:\n🎙️ Cathy O'Neil (@mathbabedotorg), founder and CEO of ORCAA\n🎙️ Deb Raji (@rajiinio), AI accountability researcher at UC Berkeley (@UCBerkeley)\n🎙️ Sasha Costanza-Chock (@schock), author of \"Design Justice\"\n🎙️",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Who's behind the mask? Let's introduce you. \ud83c\udfad\n\nThe AJL Decade of Impact Masquera\u2026",
+          "title": "Who's behind the mask? Let's introduce you. 🎭\n\nThe AJL Decade of Impact Masquera…",
           "url": "https://x.com/AJLUnited/status/2093337812271534182",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1121,7 +1071,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@grok @isthisamovie @P_McCulloughMD @McCulloughFund @DollyParton Again, you are \u2026",
+          "title": "@grok @isthisamovie @P_McCulloughMD @McCulloughFund @DollyParton Again, you are …",
           "url": "https://x.com/LibertyKatJG/status/2092715040373629087",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1142,7 +1092,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@ArturNadol7566 You need to look at it as part of the AI roll out plan contained\u2026",
+          "title": "@ArturNadol7566 You need to look at it as part of the AI roll out plan contained…",
           "url": "https://x.com/o_sheilagh/status/2093370113445462240",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1163,7 +1113,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "good questions. i suppose there will be no person or AI that will tell the truth\u2026",
+          "title": "good questions. i suppose there will be no person or AI that will tell the truth…",
           "url": "https://x.com/pareen/status/2093295493589897230",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1226,7 +1176,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Thanks to @ARTIFACTfutures for the invitation, and to @LDNTechWeek  and @ElevenL\u2026",
+          "title": "Thanks to @ARTIFACTfutures for the invitation, and to @LDNTechWeek  and @ElevenL…",
           "url": "https://x.com/KolentoH/status/2071007684049191166",
           "date": "2026-06-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1262,13 +1212,13 @@
     },
     {
       "id": "l560",
-      "text": "AI Was Supposed To Take Your Job. Why Hasn't It?\nGet $20 off your Cometeer World Mug experience before it's gone: https://cometeer.com/maxinomics\n\nEvery time a disruptive technology arrives, the prediction is exactly the same: mass unemployment. ATMs were supposed to eliminate bank tellers. Spreadsheets were supposed to wipe out accountants. History tells a completely different, and terrifyingly counterintuitive, story.\n\nOut of every job title tracked by the U.S. Census over the past 60 years, e\u2026",
+      "text": "AI Was Supposed To Take Your Job. Why Hasn't It?\nGet $20 off your Cometeer World Mug experience before it's gone: https://cometeer.com/maxinomics\n\nEvery time a disruptive technology arrives, the prediction is exactly the same: mass unemployment. ATMs were supposed to eliminate bank tellers. Spreadsheets were supposed to wipe out accountants. History tells a completely different, and terrifyingly counterintuitive, story.\n\nOut of every job title tracked by the U.S. Census over the past 60 years, e…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Was Supposed To Take Your Job. Why Hasn't It?\nGet $20 off your Cometeer World\u2026",
+          "title": "AI Was Supposed To Take Your Job. Why Hasn't It?\nGet $20 off your Cometeer World…",
           "url": "https://www.youtube.com/watch?v=zRv5kW5mAxM",
           "date": "2026-07-01",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1283,13 +1233,13 @@
     },
     {
       "id": "l561",
-      "text": "AI is Stealing Jobs from South Korea's Traditional Blind Saju Fortune Tellers | Vantage | 4K\nArtificial intelligence has made its way into South Korea's traditional fortune telling practices. AI fortune telling is now taking away the jobs of Korean Saju diviners. Saju or four pillars divination is a centuries old tradition that originated in East Asia. It was once one of the only professions open to blind or visually impaired Koreans. After the Korean war, a number of Saju shamans made their way\u2026",
+      "text": "AI is Stealing Jobs from South Korea's Traditional Blind Saju Fortune Tellers | Vantage | 4K\nArtificial intelligence has made its way into South Korea's traditional fortune telling practices. AI fortune telling is now taking away the jobs of Korean Saju diviners. Saju or four pillars divination is a centuries old tradition that originated in East Asia. It was once one of the only professions open to blind or visually impaired Koreans. After the Korean war, a number of Saju shamans made their way…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI is Stealing Jobs from South Korea's Traditional Blind Saju Fortune Tellers | \u2026",
+          "title": "AI is Stealing Jobs from South Korea's Traditional Blind Saju Fortune Tellers | …",
           "url": "https://www.youtube.com/watch?v=bmUO7Ccxuqo",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1304,13 +1254,13 @@
     },
     {
       "id": "l562",
-      "text": "Toxic Trailer REVIEW | Deeksha Sharma\nToxic Trailer Review by Deeksha Sharma. Rocking Star Yash in Toxic Movie Trailer Directed by Geetu Mohandas in KVN Monster Mind Creations is a Wild Journey of Emotions Packed with Action & Big Scale Casting Wrapped in Secrets & Dark World of Peak Storytelling! Kiara Advani to Tara Sutaria to Rukmini Vasanth & Nayanthara - Yash will collide in a never seen before battle of Raya vs Ticket to set Indian Box Office Records for The End! Toxic Hindi Full Trailer R\u2026",
+      "text": "Toxic Trailer REVIEW | Deeksha Sharma\nToxic Trailer Review by Deeksha Sharma. Rocking Star Yash in Toxic Movie Trailer Directed by Geetu Mohandas in KVN Monster Mind Creations is a Wild Journey of Emotions Packed with Action & Big Scale Casting Wrapped in Secrets & Dark World of Peak Storytelling! Kiara Advani to Tara Sutaria to Rukmini Vasanth & Nayanthara - Yash will collide in a never seen before battle of Raya vs Ticket to set Indian Box Office Records for The End! Toxic Hindi Full Trailer R…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Toxic Trailer REVIEW | Deeksha Sharma\nToxic Trailer Review by Deeksha Sharma. Ro\u2026",
+          "title": "Toxic Trailer REVIEW | Deeksha Sharma\nToxic Trailer Review by Deeksha Sharma. Ro…",
           "url": "https://www.youtube.com/watch?v=IAGaOmXLLHI",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1325,13 +1275,13 @@
     },
     {
       "id": "l563",
-      "text": "Mahakali Teaser Review: Akshaye Khanna as Shukracharya Is TERRIFYING | VFX & Review\nMahakali Teaser Review: Akshaye Khanna as Shukracharya Is TERRIFYING | VFX & Review  \n\n\nMahakali Teaser Reaction & Review! \ud83d\udd25\n\nAkshaye Khanna is back with another powerful transformation, and this time he is playing Shukracharya in Mahakali. Teaser dekhne ke baad ek baat toh clear hai, Akshaye Khanna ka screen presence ek baar phir audience ko surprise karne wala hai.\n\nIs video mein hum Mahakali teaser ka detailed\u2026",
+      "text": "Mahakali Teaser Review: Akshaye Khanna as Shukracharya Is TERRIFYING | VFX & Review\nMahakali Teaser Review: Akshaye Khanna as Shukracharya Is TERRIFYING | VFX & Review  \n\n\nMahakali Teaser Reaction & Review! 🔥\n\nAkshaye Khanna is back with another powerful transformation, and this time he is playing Shukracharya in Mahakali. Teaser dekhne ke baad ek baat toh clear hai, Akshaye Khanna ka screen presence ek baar phir audience ko surprise karne wala hai.\n\nIs video mein hum Mahakali teaser ka detailed…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Mahakali Teaser Review: Akshaye Khanna as Shukracharya Is TERRIFYING | VFX & Rev\u2026",
+          "title": "Mahakali Teaser Review: Akshaye Khanna as Shukracharya Is TERRIFYING | VFX & Rev…",
           "url": "https://www.youtube.com/watch?v=B4my-LJ0jyk",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1346,13 +1296,13 @@
     },
     {
       "id": "l564",
-      "text": "Awarapan 2 Trailer REVIEW | Deeksha Sharma\nAwarapan 2 Trailer Review By Deeksha Sharma. Awarapan 2 Movie Trailer Shivam\u2019s Rage Featuring Emraan Hashmi with Disha Patani is full of Action Emotion & Nostalgia of Awarapan 2007 Movie with New Villains Old Hero & Same Memories, Awarapan 2 Full Trailer Review Reaction & Comparison with Sunny Deol Batwara 1947 Movie would be shared in this Video. Vintage Emraan Hashmi or Too Short to Judge- How is Awarapan 2 Trailer? Do leave Comments below now!\n\n#Awar\u2026",
+      "text": "Awarapan 2 Trailer REVIEW | Deeksha Sharma\nAwarapan 2 Trailer Review By Deeksha Sharma. Awarapan 2 Movie Trailer Shivam’s Rage Featuring Emraan Hashmi with Disha Patani is full of Action Emotion & Nostalgia of Awarapan 2007 Movie with New Villains Old Hero & Same Memories, Awarapan 2 Full Trailer Review Reaction & Comparison with Sunny Deol Batwara 1947 Movie would be shared in this Video. Vintage Emraan Hashmi or Too Short to Judge- How is Awarapan 2 Trailer? Do leave Comments below now!\n\n#Awar…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Awarapan 2 Trailer REVIEW | Deeksha Sharma\nAwarapan 2 Trailer Review By Deeksha \u2026",
+          "title": "Awarapan 2 Trailer REVIEW | Deeksha Sharma\nAwarapan 2 Trailer Review By Deeksha …",
           "url": "https://www.youtube.com/watch?v=VCeGAeWss_0",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1367,13 +1317,13 @@
     },
     {
       "id": "l565",
-      "text": "Awarapan 2 Trailer REVIEW | Deeksha Sharma\nAwarapan 2 Trailer Review By Deeksha Sharma. Awarapan 2 Movie Trailer Shivam\u2019s Rage Featuring Emraan Hashmi with Disha Patani is full of Action Emotion & Nostalgia of Awarapan 2007 Movie with New Villains Old Hero & Same Memories, Awarapan 2 Full Trailer Review Reaction & Comparison with Sunny Deol Batwara 1947 Movie would be shared in this Video. Vintage Emraan Hashmi or Too Short to Judge- How is Awarapan 2 Trailer? Do leave Comments below now!\n\n#Awar\u2026",
+      "text": "Awarapan 2 Trailer REVIEW | Deeksha Sharma\nAwarapan 2 Trailer Review By Deeksha Sharma. Awarapan 2 Movie Trailer Shivam’s Rage Featuring Emraan Hashmi with Disha Patani is full of Action Emotion & Nostalgia of Awarapan 2007 Movie with New Villains Old Hero & Same Memories, Awarapan 2 Full Trailer Review Reaction & Comparison with Sunny Deol Batwara 1947 Movie would be shared in this Video. Vintage Emraan Hashmi or Too Short to Judge- How is Awarapan 2 Trailer? Do leave Comments below now!\n\n#Awar…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Awarapan 2 Trailer REVIEW | Deeksha Sharma\nAwarapan 2 Trailer Review By Deeksha \u2026",
+          "title": "Awarapan 2 Trailer REVIEW | Deeksha Sharma\nAwarapan 2 Trailer Review By Deeksha …",
           "url": "https://www.youtube.com/watch?v=VCeGAeWss_0",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1388,13 +1338,13 @@
     },
     {
       "id": "l566",
-      "text": "Bank Tellers Are Making This Mistake Every Day\nTeller Survival Guide Ep. 2: 10 Mistakes That Get New Bank Tellers Written Up Fast\n\nStarting your career as a bank teller? This might be the most important Teller Survival Guide episode you watch.\n\nMost new tellers think major banking problems come from big mistakes\u2014but in reality, careers are usually impacted by small habits repeated over time.\n\nRushing transactions. Miscounting cash. Skipping ID checks. Guessing instead of asking questions.\n\nThese\u2026",
+      "text": "Bank Tellers Are Making This Mistake Every Day\nTeller Survival Guide Ep. 2: 10 Mistakes That Get New Bank Tellers Written Up Fast\n\nStarting your career as a bank teller? This might be the most important Teller Survival Guide episode you watch.\n\nMost new tellers think major banking problems come from big mistakes—but in reality, careers are usually impacted by small habits repeated over time.\n\nRushing transactions. Miscounting cash. Skipping ID checks. Guessing instead of asking questions.\n\nThese…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Bank Tellers Are Making This Mistake Every Day\nTeller Survival Guide Ep. 2: 10 M\u2026",
+          "title": "Bank Tellers Are Making This Mistake Every Day\nTeller Survival Guide Ep. 2: 10 M…",
           "url": "https://www.youtube.com/watch?v=UEws5_-TYF4",
           "date": "2026-05-22",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1409,7 +1359,7 @@
     },
     {
       "id": "l467",
-      "text": "EL1 Assistant Director, Communications and Media \u2014 Australian Treasury (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
+      "text": "EL1 Assistant Director, Communications and Media — Australian Treasury (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1430,7 +1380,7 @@
     },
     {
       "id": "l468",
-      "text": "Telstra Retail: Full Time Assistant Store Manager PALMERSTON \u2014 Telstra (Darwin, Northern Territory, Australia). Posted 1 week ago.",
+      "text": "Telstra Retail: Full Time Assistant Store Manager PALMERSTON — Telstra (Darwin, Northern Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1451,7 +1401,7 @@
     },
     {
       "id": "l469",
-      "text": "Telstra Retail: Full Time Store Manager PORT LINCOLN \u2014 Telstra (Port Lincoln, South Australia, Australia). Posted 2 weeks ago.",
+      "text": "Telstra Retail: Full Time Store Manager PORT LINCOLN — Telstra (Port Lincoln, South Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1472,7 +1422,7 @@
     },
     {
       "id": "l470",
-      "text": "Market & Client Credit Risk Associate \u2014 Queensland Treasury Corporation (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Market & Client Credit Risk Associate — Queensland Treasury Corporation (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1493,7 +1443,7 @@
     },
     {
       "id": "l471",
-      "text": "Pricing Manager \u2014 Teachers Mutual Bank Limited (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Pricing Manager — Teachers Mutual Bank Limited (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1514,7 +1464,7 @@
     },
     {
       "id": "l472",
-      "text": "Financial Services Officer \u2014 Elders (Geraldton, Western Australia, Australia). Posted 2 weeks ago.",
+      "text": "Financial Services Officer — Elders (Geraldton, Western Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1535,7 +1485,7 @@
     },
     {
       "id": "l473",
-      "text": "Branch Financial Services Officer \u2014 Elders (Bathurst, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Branch Financial Services Officer — Elders (Bathurst, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1556,7 +1506,7 @@
     },
     {
       "id": "l474",
-      "text": "Assistant Under Treasurer \u2014 Queensland Treasury (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Assistant Under Treasurer — Queensland Treasury (Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1577,7 +1527,7 @@
     },
     {
       "id": "l475",
-      "text": "Performance Test Analyst \u2014 Talenza (Brisbane, Queensland, Australia). Posted 6 days ago.",
+      "text": "Performance Test Analyst — Talenza (Brisbane, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1598,7 +1548,7 @@
     },
     {
       "id": "l476",
-      "text": "Principal, Solution Design and Roadmaps \u2014 Queensland Treasury Corporation (Brisbane, Queensland, Australia). Posted 1 day ago.",
+      "text": "Principal, Solution Design and Roadmaps — Queensland Treasury Corporation (Brisbane, Queensland, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1619,13 +1569,13 @@
     },
     {
       "id": "l577",
-      "text": "[EPIC] Second-wave source mining: books, essays, and interviews to sharpen the corpus\n## Summary\n\nTracking epic for the second wave of corpus sourcing. #20 covered three Lenny's Podcast episodes (Chesky / Grosser / Stone); this epic catalogs the books, essays, and interviews identified in the follow-on gap analysis, organizes them into seven mining workstreams, and prescribes how min\n## M5 mining results \u2014 Market & GTM books\n\n*Sources: Moore (Crossing the Chasm), Chen (The Cold Start Problem), D\u2026",
+      "text": "[EPIC] Second-wave source mining: books, essays, and interviews to sharpen the corpus\n## Summary\n\nTracking epic for the second wave of corpus sourcing. #20 covered three Lenny's Podcast episodes (Chesky / Grosser / Stone); this epic catalogs the books, essays, and interviews identified in the follow-on gap analysis, organizes them into seven mining workstreams, and prescribes how min\n## M5 mining results — Market & GTM books\n\n*Sources: Moore (Crossing the Chasm), Chen (The Cold Start Problem), D…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[EPIC] Second-wave source mining: books, essays, and interviews to sharpen the c\u2026",
+          "title": "[EPIC] Second-wave source mining: books, essays, and interviews to sharpen the c…",
           "url": "https://github.com/Chris-Graffagnino/Founder-Wisdom/issues/21",
           "date": "2026-07-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1640,13 +1590,13 @@
     },
     {
       "id": "l578",
-      "text": "Feature: Consultation & Deployment\nWho to meet with and discuss? How and when to deploy online and in person?\ngoogle-3.1-pro-preview\n\nThank you for this crucial clarification. Shifting the framework from an *offensive* (red-teaming/intelligence) perspective to a **protective and safeguarding** perspective completely changes the ethical landscape. \n\nInstead of an \"Exploitation Viability Index\" used to target... Le Mistral - Chat - Think Mode - feedback on v1\n\n<html>\n<body>\n<!--StartFragment--><ht\u2026",
+      "text": "Feature: Consultation & Deployment\nWho to meet with and discuss? How and when to deploy online and in person?\ngoogle-3.1-pro-preview\n\nThank you for this crucial clarification. Shifting the framework from an *offensive* (red-teaming/intelligence) perspective to a **protective and safeguarding** perspective completely changes the ethical landscape. \n\nInstead of an \"Exploitation Viability Index\" used to target... Le Mistral - Chat - Think Mode - feedback on v1\n\n<html>\n<body>\n<!--StartFragment--><ht…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature: Consultation & Deployment\nWho to meet with and discuss? How and when to\u2026",
+          "title": "Feature: Consultation & Deployment\nWho to meet with and discuss? How and when to…",
           "url": "https://github.com/Transparency-X/Exploitation-Index/issues/2",
           "date": "2026-05-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1661,13 +1611,13 @@
     },
     {
       "id": "l579",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1682,13 +1632,13 @@
     },
     {
       "id": "l580",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the RAM for a motherboard upgrade or a cor\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the RAM for a motherboard upgrade or a cor…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcmasterrace/comments/1vfe28b/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1703,13 +1653,13 @@
     },
     {
       "id": "l581",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcgaming/comments/1vfe3ru/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1724,13 +1674,13 @@
     },
     {
       "id": "l582",
-      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k\u2026",
+      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A\u2026",
+          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A…",
           "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1745,13 +1695,13 @@
     },
     {
       "id": "l583",
-      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c\u2026",
+      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public \u2026",
+          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public …",
           "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vnsz0y/jpmorgan_ceo_jamie_dimon_declares_ai_deployment/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1766,13 +1716,13 @@
     },
     {
       "id": "l584",
-      "text": "How are people buying homes and getting married in this age of AI disruption ?\nJob security across most white collar jobs has tanked and as AI gets integrated there will likely be a need for less people to do the same jobs. Yes if demand increases for tech (and other white collar services) then the same number of people can be employed but if that doesn&#39;t happen I see unemployment increasing over the next 5-7 years. In such an uncertain environment how are people trying to achieve big goals \u2026",
+      "text": "How are people buying homes and getting married in this age of AI disruption ?\nJob security across most white collar jobs has tanked and as AI gets integrated there will likely be a need for less people to do the same jobs. Yes if demand increases for tech (and other white collar services) then the same number of people can be employed but if that doesn&#39;t happen I see unemployment increasing over the next 5-7 years. In such an uncertain environment how are people trying to achieve big goals …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "How are people buying homes and getting married in this age of AI disruption ?\nJ\u2026",
+          "title": "How are people buying homes and getting married in this age of AI disruption ?\nJ…",
           "url": "https://www.reddit.com/r/cscareerquestions/comments/1vqe677/how_are_people_buying_homes_and_getting_married/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1787,13 +1737,13 @@
     },
     {
       "id": "l585",
-      "text": "AI Was Supposed To Take Your Job. Why Hasn't It?\nGet $20 off your Cometeer World Mug experience before it's gone: https://cometeer.com/maxinomics\n\nEvery time a disruptive technology arrives, the prediction is exactly the same: mass unemployment. ATMs were supposed to eliminate bank tellers. Spreadsheets were supposed to wipe out accountants. History tells a completely different, and terrifyingly counterintuitive, story.\n\nOut of every job title tracked by the U.S. Census over the past 60 years, e\u2026",
+      "text": "AI Was Supposed To Take Your Job. Why Hasn't It?\nGet $20 off your Cometeer World Mug experience before it's gone: https://cometeer.com/maxinomics\n\nEvery time a disruptive technology arrives, the prediction is exactly the same: mass unemployment. ATMs were supposed to eliminate bank tellers. Spreadsheets were supposed to wipe out accountants. History tells a completely different, and terrifyingly counterintuitive, story.\n\nOut of every job title tracked by the U.S. Census over the past 60 years, e…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Was Supposed To Take Your Job. Why Hasn't It?\nGet $20 off your Cometeer World\u2026",
+          "title": "AI Was Supposed To Take Your Job. Why Hasn't It?\nGet $20 off your Cometeer World…",
           "url": "https://www.youtube.com/watch?v=zRv5kW5mAxM",
           "date": "2026-07-01",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1808,13 +1758,13 @@
     },
     {
       "id": "l586",
-      "text": "AI is Stealing Jobs from South Korea's Traditional Blind Saju Fortune Tellers | Vantage | 4K\nArtificial intelligence has made its way into South Korea's traditional fortune telling practices. AI fortune telling is now taking away the jobs of Korean Saju diviners. Saju or four pillars divination is a centuries old tradition that originated in East Asia. It was once one of the only professions open to blind or visually impaired Koreans. After the Korean war, a number of Saju shamans made their way\u2026",
+      "text": "AI is Stealing Jobs from South Korea's Traditional Blind Saju Fortune Tellers | Vantage | 4K\nArtificial intelligence has made its way into South Korea's traditional fortune telling practices. AI fortune telling is now taking away the jobs of Korean Saju diviners. Saju or four pillars divination is a centuries old tradition that originated in East Asia. It was once one of the only professions open to blind or visually impaired Koreans. After the Korean war, a number of Saju shamans made their way…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI is Stealing Jobs from South Korea's Traditional Blind Saju Fortune Tellers | \u2026",
+          "title": "AI is Stealing Jobs from South Korea's Traditional Blind Saju Fortune Tellers | …",
           "url": "https://www.youtube.com/watch?v=bmUO7Ccxuqo",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1829,13 +1779,13 @@
     },
     {
       "id": "l587",
-      "text": "Toxic Trailer REVIEW | Deeksha Sharma\nToxic Trailer Review by Deeksha Sharma. Rocking Star Yash in Toxic Movie Trailer Directed by Geetu Mohandas in KVN Monster Mind Creations is a Wild Journey of Emotions Packed with Action & Big Scale Casting Wrapped in Secrets & Dark World of Peak Storytelling! Kiara Advani to Tara Sutaria to Rukmini Vasanth & Nayanthara - Yash will collide in a never seen before battle of Raya vs Ticket to set Indian Box Office Records for The End! Toxic Hindi Full Trailer R\u2026",
+      "text": "Toxic Trailer REVIEW | Deeksha Sharma\nToxic Trailer Review by Deeksha Sharma. Rocking Star Yash in Toxic Movie Trailer Directed by Geetu Mohandas in KVN Monster Mind Creations is a Wild Journey of Emotions Packed with Action & Big Scale Casting Wrapped in Secrets & Dark World of Peak Storytelling! Kiara Advani to Tara Sutaria to Rukmini Vasanth & Nayanthara - Yash will collide in a never seen before battle of Raya vs Ticket to set Indian Box Office Records for The End! Toxic Hindi Full Trailer R…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Toxic Trailer REVIEW | Deeksha Sharma\nToxic Trailer Review by Deeksha Sharma. Ro\u2026",
+          "title": "Toxic Trailer REVIEW | Deeksha Sharma\nToxic Trailer Review by Deeksha Sharma. Ro…",
           "url": "https://www.youtube.com/watch?v=IAGaOmXLLHI",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1850,13 +1800,13 @@
     },
     {
       "id": "l588",
-      "text": "Mahakali Teaser Review: Akshaye Khanna as Shukracharya Is TERRIFYING | VFX & Review\nMahakali Teaser Review: Akshaye Khanna as Shukracharya Is TERRIFYING | VFX & Review  \n\n\nMahakali Teaser Reaction & Review! \ud83d\udd25\n\nAkshaye Khanna is back with another powerful transformation, and this time he is playing Shukracharya in Mahakali. Teaser dekhne ke baad ek baat toh clear hai, Akshaye Khanna ka screen presence ek baar phir audience ko surprise karne wala hai.\n\nIs video mein hum Mahakali teaser ka detailed\u2026",
+      "text": "Mahakali Teaser Review: Akshaye Khanna as Shukracharya Is TERRIFYING | VFX & Review\nMahakali Teaser Review: Akshaye Khanna as Shukracharya Is TERRIFYING | VFX & Review  \n\n\nMahakali Teaser Reaction & Review! 🔥\n\nAkshaye Khanna is back with another powerful transformation, and this time he is playing Shukracharya in Mahakali. Teaser dekhne ke baad ek baat toh clear hai, Akshaye Khanna ka screen presence ek baar phir audience ko surprise karne wala hai.\n\nIs video mein hum Mahakali teaser ka detailed…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Mahakali Teaser Review: Akshaye Khanna as Shukracharya Is TERRIFYING | VFX & Rev\u2026",
+          "title": "Mahakali Teaser Review: Akshaye Khanna as Shukracharya Is TERRIFYING | VFX & Rev…",
           "url": "https://www.youtube.com/watch?v=B4my-LJ0jyk",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1871,13 +1821,13 @@
     },
     {
       "id": "l589",
-      "text": "Awarapan 2 Trailer REVIEW | Deeksha Sharma\nAwarapan 2 Trailer Review By Deeksha Sharma. Awarapan 2 Movie Trailer Shivam\u2019s Rage Featuring Emraan Hashmi with Disha Patani is full of Action Emotion & Nostalgia of Awarapan 2007 Movie with New Villains Old Hero & Same Memories, Awarapan 2 Full Trailer Review Reaction & Comparison with Sunny Deol Batwara 1947 Movie would be shared in this Video. Vintage Emraan Hashmi or Too Short to Judge- How is Awarapan 2 Trailer? Do leave Comments below now!\n\n#Awar\u2026",
+      "text": "Awarapan 2 Trailer REVIEW | Deeksha Sharma\nAwarapan 2 Trailer Review By Deeksha Sharma. Awarapan 2 Movie Trailer Shivam’s Rage Featuring Emraan Hashmi with Disha Patani is full of Action Emotion & Nostalgia of Awarapan 2007 Movie with New Villains Old Hero & Same Memories, Awarapan 2 Full Trailer Review Reaction & Comparison with Sunny Deol Batwara 1947 Movie would be shared in this Video. Vintage Emraan Hashmi or Too Short to Judge- How is Awarapan 2 Trailer? Do leave Comments below now!\n\n#Awar…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Awarapan 2 Trailer REVIEW | Deeksha Sharma\nAwarapan 2 Trailer Review By Deeksha \u2026",
+          "title": "Awarapan 2 Trailer REVIEW | Deeksha Sharma\nAwarapan 2 Trailer Review By Deeksha …",
           "url": "https://www.youtube.com/watch?v=VCeGAeWss_0",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1892,13 +1842,13 @@
     },
     {
       "id": "l590",
-      "text": "Awarapan 2 Trailer REVIEW | Deeksha Sharma\nAwarapan 2 Trailer Review By Deeksha Sharma. Awarapan 2 Movie Trailer Shivam\u2019s Rage Featuring Emraan Hashmi with Disha Patani is full of Action Emotion & Nostalgia of Awarapan 2007 Movie with New Villains Old Hero & Same Memories, Awarapan 2 Full Trailer Review Reaction & Comparison with Sunny Deol Batwara 1947 Movie would be shared in this Video. Vintage Emraan Hashmi or Too Short to Judge- How is Awarapan 2 Trailer? Do leave Comments below now!\n\n#Awar\u2026",
+      "text": "Awarapan 2 Trailer REVIEW | Deeksha Sharma\nAwarapan 2 Trailer Review By Deeksha Sharma. Awarapan 2 Movie Trailer Shivam’s Rage Featuring Emraan Hashmi with Disha Patani is full of Action Emotion & Nostalgia of Awarapan 2007 Movie with New Villains Old Hero & Same Memories, Awarapan 2 Full Trailer Review Reaction & Comparison with Sunny Deol Batwara 1947 Movie would be shared in this Video. Vintage Emraan Hashmi or Too Short to Judge- How is Awarapan 2 Trailer? Do leave Comments below now!\n\n#Awar…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Awarapan 2 Trailer REVIEW | Deeksha Sharma\nAwarapan 2 Trailer Review By Deeksha \u2026",
+          "title": "Awarapan 2 Trailer REVIEW | Deeksha Sharma\nAwarapan 2 Trailer Review By Deeksha …",
           "url": "https://www.youtube.com/watch?v=VCeGAeWss_0",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1913,13 +1863,13 @@
     },
     {
       "id": "l591",
-      "text": "Bank Tellers Are Making This Mistake Every Day\nTeller Survival Guide Ep. 2: 10 Mistakes That Get New Bank Tellers Written Up Fast\n\nStarting your career as a bank teller? This might be the most important Teller Survival Guide episode you watch.\n\nMost new tellers think major banking problems come from big mistakes\u2014but in reality, careers are usually impacted by small habits repeated over time.\n\nRushing transactions. Miscounting cash. Skipping ID checks. Guessing instead of asking questions.\n\nThese\u2026",
+      "text": "Bank Tellers Are Making This Mistake Every Day\nTeller Survival Guide Ep. 2: 10 Mistakes That Get New Bank Tellers Written Up Fast\n\nStarting your career as a bank teller? This might be the most important Teller Survival Guide episode you watch.\n\nMost new tellers think major banking problems come from big mistakes—but in reality, careers are usually impacted by small habits repeated over time.\n\nRushing transactions. Miscounting cash. Skipping ID checks. Guessing instead of asking questions.\n\nThese…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Bank Tellers Are Making This Mistake Every Day\nTeller Survival Guide Ep. 2: 10 M\u2026",
+          "title": "Bank Tellers Are Making This Mistake Every Day\nTeller Survival Guide Ep. 2: 10 M…",
           "url": "https://www.youtube.com/watch?v=UEws5_-TYF4",
           "date": "2026-05-22",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2012,6 +1962,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "29-1128-01",
-      "text": "National peak professional bodies and statutory regulators governing Exercise Physiologists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Exercise Physiologists",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Exercise Physiologists",
-          "url": "https://www.psc.gov.au/standards/29-1128",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Exercise Physiologists"
-        }
-      ],
-      "scope": "Australian practitioners in Exercise Physiologists across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "29-1128-02",
-      "text": "Automation of routine transactional and analytical tasks in Exercise Physiologists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Exercise Physiologists",
-          "url": "https://www.jobsandskills.gov.au/research/29-1128",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Exercise Physiologists in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Exercise Physiologists roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "content(oswa): exercise physiology on allied-health hub + team pages\n## Why\nMarcus (15 Jul): *\"We talk a lot about dietitians but there's no mention of the exercise physiologists anywhere. Is that deliberate?\"*\n\n## Answer (verified) \u2014 half-deliberate, now fixed\n- **No standalone EP page is correct** \u2014 Ahrefs AU shows no bariatric/weight-loss EP search demand (`exerci\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](\u2026",
+      "text": "content(oswa): exercise physiology on allied-health hub + team pages\n## Why\nMarcus (15 Jul): *\"We talk a lot about dietitians but there's no mention of the exercise physiologists anywhere. Is that deliberate?\"*\n\n## Answer (verified) — half-deliberate, now fixed\n- **No standalone EP page is correct** — Ahrefs AU shows no bariatric/weight-loss EP search demand (`exerci\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "content(oswa): exercise physiology on allied-health hub + team pages\n## Why\nMarc\u2026",
+          "title": "content(oswa): exercise physiology on allied-health hub + team pages\n## Why\nMarc…",
           "url": "https://github.com/amirariff91/marcuscaporaso/pull/11",
           "date": "2026-07-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -275,13 +225,13 @@
     },
     {
       "id": "l513",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -296,13 +246,13 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -485,13 +435,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -527,13 +477,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -569,13 +519,13 @@
     },
     {
       "id": "l527",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Some of the anti-AI backlash in education is probably coming from people who financially benefit from keeping education expensive\nI think there is an uncomfortable financial incentive behind at least some of the hostility toward AI in higher education that nobody really wants to talk about. The American higher-education system is built around scarcity. You need admission to the right institution. You need professors, classrooms, administrative departments, textbooks, accreditation, four years of\u2026",
+      "text": "Some of the anti-AI backlash in education is probably coming from people who financially benefit from keeping education expensive\nI think there is an uncomfortable financial incentive behind at least some of the hostility toward AI in higher education that nobody really wants to talk about. The American higher-education system is built around scarcity. You need admission to the right institution. You need professors, classrooms, administrative departments, textbooks, accreditation, four years of…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Some of the anti-AI backlash in education is probably coming from people who fin\u2026",
+          "title": "Some of the anti-AI backlash in education is probably coming from people who fin…",
           "url": "https://www.reddit.com/r/TrueUnpopularOpinion/comments/1vvlqpe/some_of_the_antiai_backlash_in_education_is/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Rank 5 Captain Zhiagii scrabbled against the deck as the ship shook around him. The Good Pheromone had only been commissioned last year. The new ship was state-of-the-art for a light cruiser. Premium shielding modules, revamped power-routing systems, and boosted acceleration profiles were the specs he had picked that set it above the rest. And now, somewhere near the front of the ship, several decks were exposed to spa\u2026",
+      "text": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Rank 5 Captain Zhiagii scrabbled against the deck as the ship shook around him. The Good Pheromone had only been commissioned last year. The new ship was state-of-the-art for a light cruiser. Premium shielding modules, revamped power-routing systems, and boosted acceleration profiles were the specs he had picked that set it above the rest. And now, somewhere near the front of the ship, several decks were exposed to spa…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Ra\u2026",
+          "title": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Ra…",
           "url": "https://www.reddit.com/r/HFY/comments/1vwpkvz/the_human_artificial_hivemind_part_641_a_new_set/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Should Be Commonly Owned and Controlled \u2014 and How Such Cooperation Could Be Organized Artificial intelligence may become one of humanity\u2019s most important productive, scientific, political, and administrative capacities. If that is the case, the central question is not only what AI will be able to do, but who will own it, who will control its development and use, and who will benefit from the value it creates. There are\u2026",
+      "text": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Should Be Commonly Owned and Controlled — and How Such Cooperation Could Be Organized Artificial intelligence may become one of humanity’s most important productive, scientific, political, and administrative capacities. If that is the case, the central question is not only what AI will be able to do, but who will own it, who will control its development and use, and who will benefit from the value it creates. There are…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Sh\u2026",
+          "title": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Sh…",
           "url": "https://www.reddit.com/r/LeftistsForAI/comments/1vcmh7k/the_case_for_common_ownership_and_international/",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "When you use a credit card, a 1\u00a2 payment costs 31\u00a2.\n\nThat math doesn't work for AI agents making thousands of tiny payments a day.\n\n@samrags_ of @merit_systems explains why stablecoins could be the rail the agent economy runs on. https://t.co/P1o2CMuaNu",
+      "text": "When you use a credit card, a 1¢ payment costs 31¢.\n\nThat math doesn't work for AI agents making thousands of tiny payments a day.\n\n@samrags_ of @merit_systems explains why stablecoins could be the rail the agent economy runs on. https://t.co/P1o2CMuaNu",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "When you use a credit card, a 1\u00a2 payment costs 31\u00a2.\n\nThat math doesn't work for \u2026",
+          "title": "When you use a credit card, a 1¢ payment costs 31¢.\n\nThat math doesn't work for …",
           "url": "https://x.com/a16zcrypto/status/2092335249195970753",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -722,7 +672,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Trying to avoid AI slop in your copywriting?\n\nUse this, and read @stephbzinn's p\u2026",
+          "title": "Trying to avoid AI slop in your copywriting?\n\nUse this, and read @stephbzinn's p…",
           "url": "https://x.com/a16zcrypto/status/2092998851171061764",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -806,7 +756,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th\u2026",
+          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th…",
           "url": "https://x.com/essexmaelstrom/status/2091841889372635517",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+      "text": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+          "title": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
           "url": "https://x.com/BestBlogsDev/status/2093500753738645591",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "I turned this into a de-slop skill using\n@promptcowboy\n\nCopy the skill file below yeee haaa \ud83e\udd20\n\n---\nname: de-slop\ndescription: Edits and rewrites prose so it does its job \u2014 clear, trustworthy, and recognizably driven by a person. Removes meaningless language, fungible vocabulary, imposed structure, and punctuation monotony without flattening voice or banning marks. Use when asked to edit, rewrite, tighten, de-AI, humanize, or improve writing, or when asked why something \"sounds like AI.\" Works id",
+      "text": "I turned this into a de-slop skill using\n@promptcowboy\n\nCopy the skill file below yeee haaa 🤠\n\n---\nname: de-slop\ndescription: Edits and rewrites prose so it does its job — clear, trustworthy, and recognizably driven by a person. Removes meaningless language, fungible vocabulary, imposed structure, and punctuation monotony without flattening voice or banning marks. Use when asked to edit, rewrite, tighten, de-AI, humanize, or improve writing, or when asked why something \"sounds like AI.\" Works id",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I turned this into a de-slop skill using\n@promptcowboy\n\nCopy the skill file belo\u2026",
+          "title": "I turned this into a de-slop skill using\n@promptcowboy\n\nCopy the skill file belo…",
           "url": "https://x.com/promptcowboy/status/2092153120998715672",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -863,13 +813,13 @@
     },
     {
       "id": "l541",
-      "text": "Immunologists, neuro-immuno psychiatrists, exercise physiologists who\u2019ve turned to these thorny problems have been producing amazing science. It\u2019s nowhere in this article. Instead, this article\u2019s approach to severe Long Covid or ME/CFS is like recommending rest and calm for TB and blaming it on sensitive intelligence, and blaming ulcers on being type A, etc. It\u2019s what medicine did before they understood as a coping mechanism.",
+      "text": "Immunologists, neuro-immuno psychiatrists, exercise physiologists who’ve turned to these thorny problems have been producing amazing science. It’s nowhere in this article. Instead, this article’s approach to severe Long Covid or ME/CFS is like recommending rest and calm for TB and blaming it on sensitive intelligence, and blaming ulcers on being type A, etc. It’s what medicine did before they understood as a coping mechanism.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Immunologists, neuro-immuno psychiatrists, exercise physiologists who\u2019ve turned \u2026",
+          "title": "Immunologists, neuro-immuno psychiatrists, exercise physiologists who’ve turned …",
           "url": "https://x.com/zeynep/status/2061793814742769674",
           "date": "2026-06-02",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -884,13 +834,13 @@
     },
     {
       "id": "l542",
-      "text": "2026 ACSM EP Practice Test: The Ultimate Certified Exercise Physiologist Exam Prep\nPrepare smarter with https://quizzprep.com/ \u2014 get the latest practice quizzes, exam prep packages, and quick-review cheat sheets to help you study faster and pass with confidence.\n. Achieving the ACSM Certified Exercise Physiologist (ACSM-EP) credential in 2026 marks you as a leader in the science of health and fitness. This comprehensive walkthrough is designed to prepare you for the current certification exam, c\u2026",
+      "text": "2026 ACSM EP Practice Test: The Ultimate Certified Exercise Physiologist Exam Prep\nPrepare smarter with https://quizzprep.com/ — get the latest practice quizzes, exam prep packages, and quick-review cheat sheets to help you study faster and pass with confidence.\n. Achieving the ACSM Certified Exercise Physiologist (ACSM-EP) credential in 2026 marks you as a leader in the science of health and fitness. This comprehensive walkthrough is designed to prepare you for the current certification exam, c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "2026 ACSM EP Practice Test: The Ultimate Certified Exercise Physiologist Exam Pr\u2026",
+          "title": "2026 ACSM EP Practice Test: The Ultimate Certified Exercise Physiologist Exam Pr…",
           "url": "https://www.youtube.com/watch?v=6o3kWOEkrJ4",
           "date": "2026-03-09",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -905,7 +855,7 @@
     },
     {
       "id": "l443",
-      "text": "Exercise Physiologist \u2014 Kieser Australia (Sunshine Coast, Queensland, Australia). Posted 6 days ago.",
+      "text": "Exercise Physiologist — Kieser Australia (Sunshine Coast, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -926,7 +876,7 @@
     },
     {
       "id": "l444",
-      "text": "Exercise Physiologist \u2014 UnitingCare Queensland (Fraser Coast, Queensland, Australia). Posted 1 day ago.",
+      "text": "Exercise Physiologist — UnitingCare Queensland (Fraser Coast, Queensland, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -947,7 +897,7 @@
     },
     {
       "id": "l445",
-      "text": "Exercise Physiologist - Sporting Wheelies \u2014 Spinal Life Australia (Milton, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Exercise Physiologist - Sporting Wheelies — Spinal Life Australia (Milton, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -968,7 +918,7 @@
     },
     {
       "id": "l446",
-      "text": "Exercise Physiologist | Nowra \u2014 Optimum Health Solutions (Nowra, New South Wales, Australia). Posted 3 weeks ago.",
+      "text": "Exercise Physiologist | Nowra — Optimum Health Solutions (Nowra, New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -989,7 +939,7 @@
     },
     {
       "id": "l447",
-      "text": "Exercise Physiologist \u2014 UnitingCare Queensland (Maryborough, Queensland, Australia). Posted 15 hours ago.",
+      "text": "Exercise Physiologist — UnitingCare Queensland (Maryborough, Queensland, Australia). Posted 15 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1010,7 +960,7 @@
     },
     {
       "id": "l448",
-      "text": "Senior Exercise Physiologist \u2014 MoveImprove Performance (Killara, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Senior Exercise Physiologist — MoveImprove Performance (Killara, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1031,7 +981,7 @@
     },
     {
       "id": "l449",
-      "text": "Exercise Physiologist \u2014 Kieser Australia (Maroochydore, Queensland, Australia). Posted 6 days ago.",
+      "text": "Exercise Physiologist — Kieser Australia (Maroochydore, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1052,7 +1002,7 @@
     },
     {
       "id": "l450",
-      "text": "Clinical Exercise Physiologist \u2014 South West Health Management (Campbelltown, New South Wales, Australia). Posted 3 weeks ago.",
+      "text": "Clinical Exercise Physiologist — South West Health Management (Campbelltown, New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1073,7 +1023,7 @@
     },
     {
       "id": "l451",
-      "text": "Exercise Physiologist | Batemans Bay \u2014 Optimum Health Solutions (Batemans Bay, New South Wales, Australia). Posted 3 weeks ago.",
+      "text": "Exercise Physiologist | Batemans Bay — Optimum Health Solutions (Batemans Bay, New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1094,13 +1044,13 @@
     },
     {
       "id": "l552",
-      "text": "content(oswa): exercise physiology on allied-health hub + team pages\n## Why\nMarcus (15 Jul): *\"We talk a lot about dietitians but there's no mention of the exercise physiologists anywhere. Is that deliberate?\"*\n\n## Answer (verified) \u2014 half-deliberate, now fixed\n- **No standalone EP page is correct** \u2014 Ahrefs AU shows no bariatric/weight-loss EP search demand (`exerci\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](\u2026",
+      "text": "content(oswa): exercise physiology on allied-health hub + team pages\n## Why\nMarcus (15 Jul): *\"We talk a lot about dietitians but there's no mention of the exercise physiologists anywhere. Is that deliberate?\"*\n\n## Answer (verified) — half-deliberate, now fixed\n- **No standalone EP page is correct** — Ahrefs AU shows no bariatric/weight-loss EP search demand (`exerci\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "content(oswa): exercise physiology on allied-health hub + team pages\n## Why\nMarc\u2026",
+          "title": "content(oswa): exercise physiology on allied-health hub + team pages\n## Why\nMarc…",
           "url": "https://github.com/amirariff91/marcuscaporaso/pull/11",
           "date": "2026-07-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1115,13 +1065,13 @@
     },
     {
       "id": "l553",
-      "text": "Some of the anti-AI backlash in education is probably coming from people who financially benefit from keeping education expensive\nI think there is an uncomfortable financial incentive behind at least some of the hostility toward AI in higher education that nobody really wants to talk about. The American higher-education system is built around scarcity. You need admission to the right institution. You need professors, classrooms, administrative departments, textbooks, accreditation, four years of\u2026",
+      "text": "Some of the anti-AI backlash in education is probably coming from people who financially benefit from keeping education expensive\nI think there is an uncomfortable financial incentive behind at least some of the hostility toward AI in higher education that nobody really wants to talk about. The American higher-education system is built around scarcity. You need admission to the right institution. You need professors, classrooms, administrative departments, textbooks, accreditation, four years of…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Some of the anti-AI backlash in education is probably coming from people who fin\u2026",
+          "title": "Some of the anti-AI backlash in education is probably coming from people who fin…",
           "url": "https://www.reddit.com/r/TrueUnpopularOpinion/comments/1vvlqpe/some_of_the_antiai_backlash_in_education_is/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1136,13 +1086,13 @@
     },
     {
       "id": "l554",
-      "text": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Rank 5 Captain Zhiagii scrabbled against the deck as the ship shook around him. The Good Pheromone had only been commissioned last year. The new ship was state-of-the-art for a light cruiser. Premium shielding modules, revamped power-routing systems, and boosted acceleration profiles were the specs he had picked that set it above the rest. And now, somewhere near the front of the ship, several decks were exposed to spa\u2026",
+      "text": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Rank 5 Captain Zhiagii scrabbled against the deck as the ship shook around him. The Good Pheromone had only been commissioned last year. The new ship was state-of-the-art for a light cruiser. Premium shielding modules, revamped power-routing systems, and boosted acceleration profiles were the specs he had picked that set it above the rest. And now, somewhere near the front of the ship, several decks were exposed to spa…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Ra\u2026",
+          "title": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Ra…",
           "url": "https://www.reddit.com/r/HFY/comments/1vwpkvz/the_human_artificial_hivemind_part_641_a_new_set/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1157,13 +1107,13 @@
     },
     {
       "id": "l555",
-      "text": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Should Be Commonly Owned and Controlled \u2014 and How Such Cooperation Could Be Organized Artificial intelligence may become one of humanity\u2019s most important productive, scientific, political, and administrative capacities. If that is the case, the central question is not only what AI will be able to do, but who will own it, who will control its development and use, and who will benefit from the value it creates. There are\u2026",
+      "text": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Should Be Commonly Owned and Controlled — and How Such Cooperation Could Be Organized Artificial intelligence may become one of humanity’s most important productive, scientific, political, and administrative capacities. If that is the case, the central question is not only what AI will be able to do, but who will own it, who will control its development and use, and who will benefit from the value it creates. There are…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Sh\u2026",
+          "title": "The Case for Common Ownership and International Control of Advanced AI\nWhy AI Sh…",
           "url": "https://www.reddit.com/r/LeftistsForAI/comments/1vcmh7k/the_case_for_common_ownership_and_international/",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1178,13 +1128,13 @@
     },
     {
       "id": "l556",
-      "text": "2026 ACSM EP Practice Test: The Ultimate Certified Exercise Physiologist Exam Prep\nPrepare smarter with https://quizzprep.com/ \u2014 get the latest practice quizzes, exam prep packages, and quick-review cheat sheets to help you study faster and pass with confidence.\n. Achieving the ACSM Certified Exercise Physiologist (ACSM-EP) credential in 2026 marks you as a leader in the science of health and fitness. This comprehensive walkthrough is designed to prepare you for the current certification exam, c\u2026",
+      "text": "2026 ACSM EP Practice Test: The Ultimate Certified Exercise Physiologist Exam Prep\nPrepare smarter with https://quizzprep.com/ — get the latest practice quizzes, exam prep packages, and quick-review cheat sheets to help you study faster and pass with confidence.\n. Achieving the ACSM Certified Exercise Physiologist (ACSM-EP) credential in 2026 marks you as a leader in the science of health and fitness. This comprehensive walkthrough is designed to prepare you for the current certification exam, c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "2026 ACSM EP Practice Test: The Ultimate Certified Exercise Physiologist Exam Pr\u2026",
+          "title": "2026 ACSM EP Practice Test: The Ultimate Certified Exercise Physiologist Exam Pr…",
           "url": "https://www.youtube.com/watch?v=6o3kWOEkrJ4",
           "date": "2026-03-09",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1277,6 +1227,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

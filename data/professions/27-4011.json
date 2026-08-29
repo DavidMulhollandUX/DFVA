@@ -14,58 +14,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "27-4011-01",
-      "text": "National peak professional bodies and statutory regulators governing Audio and Video Equipment Technicians enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Audio and Video Equipment Technicians",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Audio and Video Equipment Technicians",
-          "url": "https://www.psc.gov.au/standards/27-4011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Audio and Video Equipment Technicians"
-        }
-      ],
-      "scope": "Australian practitioners in Audio and Video Equipment Technicians across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "27-4011-02",
-      "text": "Automation of routine transactional and analytical tasks in Audio and Video Equipment Technicians heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Audio and Video Equipment Technicians",
-          "url": "https://www.jobsandskills.gov.au/research/27-4011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Audio and Video Equipment Technicians in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Audio and Video Equipment Technicians roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Senior AV Technician \u2014 Encore (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
+      "text": "Senior AV Technician — Encore (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -86,7 +36,7 @@
     },
     {
       "id": "l404",
-      "text": "Service Manager \u2014 AVP AV Solutions (Brisbane, Queensland, Australia). Posted 2 days ago.",
+      "text": "Service Manager — AVP AV Solutions (Brisbane, Queensland, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -107,7 +57,7 @@
     },
     {
       "id": "l405",
-      "text": "Senior Technician \u2014 Encore APAC (Adelaide, South Australia, Australia). Posted 1 week ago.",
+      "text": "Senior Technician — Encore APAC (Adelaide, South Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -128,7 +78,7 @@
     },
     {
       "id": "l406",
-      "text": "Senior Technician \u2014 Encore (Adelaide, South Australia, Australia). Posted 3 days ago.",
+      "text": "Senior Technician — Encore (Adelaide, South Australia, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -149,7 +99,7 @@
     },
     {
       "id": "l407",
-      "text": "Senior Technician \u2014 Encore APAC (Melbourne, Victoria, Australia). Posted 3 weeks ago.",
+      "text": "Senior Technician — Encore APAC (Melbourne, Victoria, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -170,7 +120,7 @@
     },
     {
       "id": "l408",
-      "text": "Service Technician \u2014 EQUANS ANZ (Mount Waverley, Victoria, Australia). Posted 2 days ago.",
+      "text": "Service Technician — EQUANS ANZ (Mount Waverley, Victoria, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -191,7 +141,7 @@
     },
     {
       "id": "l409",
-      "text": "Lead Audio Visual Technician \u2014 Star Group of Companies Australia (Sydney, New South Wales, Australia). Posted 14 hours ago.",
+      "text": "Lead Audio Visual Technician — Star Group of Companies Australia (Sydney, New South Wales, Australia). Posted 14 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -212,7 +162,7 @@
     },
     {
       "id": "l410",
-      "text": "Audio Visual - Onsite Support Technician - Tier 1 Bank \u2014 Round Table Recruitment (Brisbane, Queensland, Australia). Posted 1 day ago.",
+      "text": "Audio Visual - Onsite Support Technician - Tier 1 Bank — Round Table Recruitment (Brisbane, Queensland, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -233,7 +183,7 @@
     },
     {
       "id": "l411",
-      "text": "Audio Visual Technician \u2014 University of Technology Sydney (Greater Sydney Area). Posted 19 hours ago.",
+      "text": "Audio Visual Technician — University of Technology Sydney (Greater Sydney Area). Posted 19 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -254,13 +204,13 @@
     },
     {
       "id": "l512",
-      "text": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; \ud83d\udd34 KEV: 0 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 13 &nbsp;|&nbsp; \ud83d\udfe1 High: 2 &nbsp;|&nbsp; \u2728 Enriched: 10\n\n---\n\n## 1. \ud83d\udfe0 Zero-Day \u2014 Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; \ud83d\udd34 KEV: 1 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 14 &nbsp;|&nbsp; \ud83d\udfe1\u2026",
+      "text": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; 🔴 KEV: 0 &nbsp;|&nbsp; 🟠 Zero-Day: 13 &nbsp;|&nbsp; 🟡 High: 2 &nbsp;|&nbsp; ✨ Enriched: 10\n\n---\n\n## 1. 🟠 Zero-Day — Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; 🔴 KEV: 1 &nbsp;|&nbsp; 🟠 Zero-Day: 14 &nbsp;|&nbsp; 🟡…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:\u2026",
+          "title": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:…",
           "url": "https://github.com/peleduri/zero-day-pulse/issues/7",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -275,13 +225,13 @@
     },
     {
       "id": "l513",
-      "text": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an exceptionally well-structured, comprehensive, and ambitious project plan. Tackling acoustic violence and harassment requires a multidisciplinary approach, and AVHERI successfully bridges the gap between technology, sociology, legal advocacy, and survivor support. \n... gemini-3.1-pro-preview\n\nHere is the fully updated, comprehensive **V2.0 Project Plan for AVHERI**. This version directly integrates the strategic analysis, \u2026",
+      "text": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an exceptionally well-structured, comprehensive, and ambitious project plan. Tackling acoustic violence and harassment requires a multidisciplinary approach, and AVHERI successfully bridges the gap between technology, sociology, legal advocacy, and survivor support. \n... gemini-3.1-pro-preview\n\nHere is the fully updated, comprehensive **V2.0 Project Plan for AVHERI**. This version directly integrates the strategic analysis, …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an excep\u2026",
+          "title": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an excep…",
           "url": "https://github.com/Transparency-X/AVHERI/issues/2",
           "date": "2026-04-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -506,13 +456,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -548,13 +498,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: RunAPI \u2013 one API for AI video, image, music, audio, and LLMs",
+      "text": "Show HN: RunAPI – one API for AI video, image, music, audio, and LLMs",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: RunAPI \u2013 one API for AI video, image, music, audio, and LLMs",
+          "title": "Show HN: RunAPI – one API for AI video, image, music, audio, and LLMs",
           "url": "https://runapi.ai/",
           "date": "2026-06-08",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "Everything I Learned Training Frontier Small Models \u2013 Maxime Labonne, Liquid AI [video]",
+      "text": "Everything I Learned Training Frontier Small Models – Maxime Labonne, Liquid AI [video]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Everything I Learned Training Frontier Small Models \u2013 Maxime Labonne, Liquid AI \u2026",
+          "title": "Everything I Learned Training Frontier Small Models – Maxime Labonne, Liquid AI …",
           "url": "https://www.youtube.com/watch?v=fLUtUkqYHnQ",
           "date": "2026-06-17",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -695,13 +645,13 @@
     },
     {
       "id": "l533",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "EU AI Act takes effect tomorrow, August 2, 2026. \ud83e\udd21\nBasically you now have to mark all AI generated images, audio, video and text as AI generated. :P &#32; submitted by &#32; /u/xoxaxo &#32; to &#32; r/LocalLLaMA [link] &#32; [comments]\nnow have to mark all AI generated images, audio, video and text as AI generated. Sounds good to me. \u201cThe rules will not apply to users\u2019 personal content and there is an exemption for \u201cevidently artistic \u201d, satirical and fictional works.\u201dhttps://www.theguardian.com\u2026",
+      "text": "EU AI Act takes effect tomorrow, August 2, 2026. 🤡\nBasically you now have to mark all AI generated images, audio, video and text as AI generated. :P &#32; submitted by &#32; /u/xoxaxo &#32; to &#32; r/LocalLLaMA [link] &#32; [comments]\nnow have to mark all AI generated images, audio, video and text as AI generated. Sounds good to me. “The rules will not apply to users’ personal content and there is an exemption for “evidently artistic ”, satirical and fictional works.”https://www.theguardian.com…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "EU AI Act takes effect tomorrow, August 2, 2026. \ud83e\udd21\nBasically you now have to mar\u2026",
+          "title": "EU AI Act takes effect tomorrow, August 2, 2026. 🤡\nBasically you now have to mar…",
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vcqpn4/eu_ai_act_takes_effect_tomorrow_august_2_2026/",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "[1.49] - New algorithm & Insights, AI equipment and exercise imports, offline video downloads\nHey everyone! 1.49 is out for both iOS and Android. This is the release with the algorithm changes from our last post , plus a bunch of highly requested stuff. New algorithm The progressive overload update is now live for everyone. Recommendations should be noticeably more accurate, especially around the edge cases we talked about (exercises with contributions from related movements, and coming back aft\u2026",
+      "text": "[1.49] - New algorithm & Insights, AI equipment and exercise imports, offline video downloads\nHey everyone! 1.49 is out for both iOS and Android. This is the release with the algorithm changes from our last post , plus a bunch of highly requested stuff. New algorithm The progressive overload update is now live for everyone. Recommendations should be noticeably more accurate, especially around the edge cases we talked about (exercises with contributions from related movements, and coming back aft…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "[1.49] - New algorithm & Insights, AI equipment and exercise imports, offline vi\u2026",
+          "title": "[1.49] - New algorithm & Insights, AI equipment and exercise imports, offline vi…",
           "url": "https://www.reddit.com/r/Gravl/comments/1va2axn/149_new_algorithm_insights_ai_equipment_and/",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "[Law Proposal] Forbid the use of machine-learning tools (see: AI) for the purposes of monitoring surveillance data. Surveillance data, including audio, video, and biometrics may not be sorted or highlighted for review by machine-learning tech..\nThis post contains content not supported on old Reddit. Click here to view the full post &#32; submitted by &#32; /u/GorumGamer &#32; to &#32; r/CriticalState [link] &#32; [comments]\nPope Leo agrees, this is contrary to human dignity. I voted Yea \u2705 \ud83d\udc41\ufe0f Sur\u2026",
+      "text": "[Law Proposal] Forbid the use of machine-learning tools (see: AI) for the purposes of monitoring surveillance data. Surveillance data, including audio, video, and biometrics may not be sorted or highlighted for review by machine-learning tech..\nThis post contains content not supported on old Reddit. Click here to view the full post &#32; submitted by &#32; /u/GorumGamer &#32; to &#32; r/CriticalState [link] &#32; [comments]\nPope Leo agrees, this is contrary to human dignity. I voted Yea ✅ 👁️ Sur…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "[Law Proposal] Forbid the use of machine-learning tools (see: AI) for the purpos\u2026",
+          "title": "[Law Proposal] Forbid the use of machine-learning tools (see: AI) for the purpos…",
           "url": "https://www.reddit.com/r/CriticalState/comments/1vycnxy/law_proposal_forbid_the_use_of_machinelearning/",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -863,13 +813,13 @@
     },
     {
       "id": "l541",
-      "text": "Remote AI opportunity for Audio &amp; Video Technicians\n\n\ud83d\udcb0 $35\u2013$75/hour \ud83c\udf0d Remote\n\nIf you have experience with audio, video production, broadcasting, camera operation, lighting, live streaming, or AV equipment, this one is worth checking out.\n\nLink in the comments. https://t.co/9076VOoyoH",
+      "text": "Remote AI opportunity for Audio &amp; Video Technicians\n\n💰 $35–$75/hour 🌍 Remote\n\nIf you have experience with audio, video production, broadcasting, camera operation, lighting, live streaming, or AV equipment, this one is worth checking out.\n\nLink in the comments. https://t.co/9076VOoyoH",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Remote AI opportunity for Audio &amp; Video Technicians\n\n\ud83d\udcb0 $35\u2013$75/hour \ud83c\udf0d Remote\u2026",
+          "title": "Remote AI opportunity for Audio &amp; Video Technicians\n\n💰 $35–$75/hour 🌍 Remote…",
           "url": "https://x.com/OlatunjiAyokan2/status/2074112138671481262",
           "date": "2026-07-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -884,13 +834,13 @@
     },
     {
       "id": "l542",
-      "text": "\ud83d\udea8 Want to earn $20\u2013$30/hr training AI?\n\nmicro1 has 20 openings for English Speaking Generalists.\n\nEhat will you do?\nCreate prompts, test ChatGPT & Claude, compare their answers, and give feedback.\n\n\ud83c\udf0d Remote | No AI experience required\n\ud83c\udf99\ufe0f Screen & microphone recording required\n\nLink in the comments.",
+      "text": "🚨 Want to earn $20–$30/hr training AI?\n\nmicro1 has 20 openings for English Speaking Generalists.\n\nEhat will you do?\nCreate prompts, test ChatGPT & Claude, compare their answers, and give feedback.\n\n🌍 Remote | No AI experience required\n🎙️ Screen & microphone recording required\n\nLink in the comments.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8 Want to earn $20\u2013$30/hr training AI?\n\nmicro1 has 20 openings for English Speak\u2026",
+          "title": "🚨 Want to earn $20–$30/hr training AI?\n\nmicro1 has 20 openings for English Speak…",
           "url": "https://x.com/OlatunjiAyokan2/status/2093398809464263164",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\n\nCEOs used to brag about how many jobs AI could replace.\n\nNow the language is changing.\n\nInvestors want proof AI is saving money.\n\nWorkers do not want those savings to mean their job is gone.\n\nAnd the gap between AI hype and AI reality is getting harder to hide \ud83e\uddf5\ud83d\udc47\n\n2/16\n\nKlarna said its AI assistant was doing the work of 700 employees.\n\nSalesforce linked AI to a smaller support team.\n\nCoinbase cut around 700 roles w",
+      "text": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\n\nCEOs used to brag about how many jobs AI could replace.\n\nNow the language is changing.\n\nInvestors want proof AI is saving money.\n\nWorkers do not want those savings to mean their job is gone.\n\nAnd the gap between AI hype and AI reality is getting harder to hide 🧵👇\n\n2/16\n\nKlarna said its AI assistant was doing the work of 700 employees.\n\nSalesforce linked AI to a smaller support team.\n\nCoinbase cut around 700 roles w",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\u2026",
+          "title": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16…",
           "url": "https://x.com/msyed_/status/2093227435961565570",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -932,7 +882,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "this is our ENTIRE AI instagram carousel workflow:\n\nfirst, we pull yesterday's s\u2026",
+          "title": "this is our ENTIRE AI instagram carousel workflow:\n\nfirst, we pull yesterday's s…",
           "url": "https://x.com/adriansolarzz/status/2092219041880371551",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "\ud83d\udea8 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the future.\n\nIt\u2019s already changing how we write, design, edit, code, research, and create.\n\nHere are 20 AI tools worth knowing \ud83e\uddf5\ud83d\udc47\n\n1/ ChatGPT \u2014 Your AI assistant.\n\nUse it to:\n\u2022 Write\n\u2022 Research\n\u2022 Brainstorm\n\u2022 Learn\n\u2022 Plan\n\u2022 Solve problems\n\nThe better your prompts, the better your results.\n\n2/ Midjourney \u2014 Turn imagination into stunning images.\n\nPerfect for:\n\u2022 Creators\n\u2022 Designers\n\u2022 Marketers\n\u2022 Brand owners\n\nOne idea can b",
+      "text": "🚨 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the future.\n\nIt’s already changing how we write, design, edit, code, research, and create.\n\nHere are 20 AI tools worth knowing 🧵👇\n\n1/ ChatGPT — Your AI assistant.\n\nUse it to:\n• Write\n• Research\n• Brainstorm\n• Learn\n• Plan\n• Solve problems\n\nThe better your prompts, the better your results.\n\n2/ Midjourney — Turn imagination into stunning images.\n\nPerfect for:\n• Creators\n• Designers\n• Marketers\n• Brand owners\n\nOne idea can b",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the f\u2026",
+          "title": "🚨 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the f…",
           "url": "https://x.com/Shohan_Tech_AI/status/2093186736088400143",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "\ud83d\udea8Most people will scroll past this...\n\n\ud83d\udc49Then complain there are no remote jobs. \ud83d\udc40\n\n\ud83d\udc49An AI company is hiring Remote Audio & Video Technicians and paying $35\u2013$75/hour.\n\nIf you have experience with any of these, you're already ahead of most applicants:\n\n\ud83c\udfa5 Video Production\n\ud83c\udf99\ufe0f Audio Engineering\n\ud83d\udcf9 Camera Operation\n\ud83d\udca1 Lighting\n\ud83d\udce1 Live Streaming\n\ud83c\udfac Broadcasting\n\ud83d\udd0c AV Equipment\n\n\ud83c\udf0d Work from anywhere\n\ud83d\udcb0 $35\u2013$75/hour\n\nYou don't need to be a software engineer to benefit from the AI boom.\n\nI'll drop the applicati",
+      "text": "🚨Most people will scroll past this...\n\n👉Then complain there are no remote jobs. 👀\n\n👉An AI company is hiring Remote Audio & Video Technicians and paying $35–$75/hour.\n\nIf you have experience with any of these, you're already ahead of most applicants:\n\n🎥 Video Production\n🎙️ Audio Engineering\n📹 Camera Operation\n💡 Lighting\n📡 Live Streaming\n🎬 Broadcasting\n🔌 AV Equipment\n\n🌍 Work from anywhere\n💰 $35–$75/hour\n\nYou don't need to be a software engineer to benefit from the AI boom.\n\nI'll drop the applicati",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8Most people will scroll past this...\n\n\ud83d\udc49Then complain there are no remote jobs. \u2026",
+          "title": "🚨Most people will scroll past this...\n\n👉Then complain there are no remote jobs. …",
           "url": "https://x.com/RemoteJobWithK/status/2074248491589931122",
           "date": "2026-07-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to feel less like generating clips\u2014and more like directing scenes.\n\n30 seconds. Native audio. One generation.\nNo more choosing between text-to-video and image-to-video.\n\nPrompt:\n\nHandheld digital camcorder aesthetic, landscape framing.\nA gorgeous young barista films herself by hand in selfie-cam and first-person style during a quiet early-morning shift at a small independent coffee shop.\n\nKeep realistic hand shake, slight",
+      "text": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to feel less like generating clips—and more like directing scenes.\n\n30 seconds. Native audio. One generation.\nNo more choosing between text-to-video and image-to-video.\n\nPrompt:\n\nHandheld digital camcorder aesthetic, landscape framing.\nA gorgeous young barista films herself by hand in selfie-cam and first-person style during a quiet early-morning shift at a small independent coffee shop.\n\nKeep realistic hand shake, slight",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to fe\u2026",
+          "title": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to fe…",
           "url": "https://x.com/Rooko_ai/status/2092930729164632138",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1220,13 +1170,13 @@
     },
     {
       "id": "l558",
-      "text": "What Happens If You Start an AI Data Center Maintenance Company\nAn AI data center maintenance company looks simple from the outside, but behind every GPU cluster, cooling loop, power cabinet, network rack, and emergency repair exists a system built across electrical engineering, thermal management, spare parts, cybersecurity, safety, monitoring, and service-level agreements.\n\nWhat Happens If You Start an AI Data Center Maintenance Company follows how a small technical service can evolve from rou\u2026",
+      "text": "What Happens If You Start an AI Data Center Maintenance Company\nAn AI data center maintenance company looks simple from the outside, but behind every GPU cluster, cooling loop, power cabinet, network rack, and emergency repair exists a system built across electrical engineering, thermal management, spare parts, cybersecurity, safety, monitoring, and service-level agreements.\n\nWhat Happens If You Start an AI Data Center Maintenance Company follows how a small technical service can evolve from rou…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "What Happens If You Start an AI Data Center Maintenance Company\nAn AI data cente\u2026",
+          "title": "What Happens If You Start an AI Data Center Maintenance Company\nAn AI data cente…",
           "url": "https://www.youtube.com/watch?v=GaIWAl0CqGo",
           "date": "2026-07-23",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1241,13 +1191,13 @@
     },
     {
       "id": "l559",
-      "text": "Why Tech Companies Are Quietly Cancelling AI Data Centers\nWhy Tech Companies Are Quietly Cancelling AI Data Centers\n\nSince the release of ChatGPT in 2022, tech companies have invested hundreds of billions of dollars in AI infrastructure, especially data centers and GPUs. However, many projects are now being delayed or canceled due to electrical grid limitations, rising energy costs, and shortages of key electrical components. \n\nExperts also believe Nvidia has overestimated future demand for AI c\u2026",
+      "text": "Why Tech Companies Are Quietly Cancelling AI Data Centers\nWhy Tech Companies Are Quietly Cancelling AI Data Centers\n\nSince the release of ChatGPT in 2022, tech companies have invested hundreds of billions of dollars in AI infrastructure, especially data centers and GPUs. However, many projects are now being delayed or canceled due to electrical grid limitations, rising energy costs, and shortages of key electrical components. \n\nExperts also believe Nvidia has overestimated future demand for AI c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Why Tech Companies Are Quietly Cancelling AI Data Centers\nWhy Tech Companies Are\u2026",
+          "title": "Why Tech Companies Are Quietly Cancelling AI Data Centers\nWhy Tech Companies Are…",
           "url": "https://www.youtube.com/watch?v=e0Dlr07jfjA",
           "date": "2026-05-22",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1262,13 +1212,13 @@
     },
     {
       "id": "l560",
-      "text": "Can AI Replace a Service Technician? What Actually Happened at One Shop\nHe replaced his top 2 techs with AI. Revenue went up 31%. The techs got the biggest bonuses of their careers.\n\nHere's the catch: AI didn't replace the wrench work. It replaced the 20+ \"quick\nquestion\u201d calls per day his top guys were getting from the rest of the crew. The phone-a-friend culture every trades company runs on.\n\nIn this video, T breaks down what we found at a 12-truck plumbing company, 147 interruption calls in O\u2026",
+      "text": "Can AI Replace a Service Technician? What Actually Happened at One Shop\nHe replaced his top 2 techs with AI. Revenue went up 31%. The techs got the biggest bonuses of their careers.\n\nHere's the catch: AI didn't replace the wrench work. It replaced the 20+ \"quick\nquestion” calls per day his top guys were getting from the rest of the crew. The phone-a-friend culture every trades company runs on.\n\nIn this video, T breaks down what we found at a 12-truck plumbing company, 147 interruption calls in O…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Can AI Replace a Service Technician? What Actually Happened at One Shop\nHe repla\u2026",
+          "title": "Can AI Replace a Service Technician? What Actually Happened at One Shop\nHe repla…",
           "url": "https://www.youtube.com/watch?v=rQYfeYrFrJ4",
           "date": "2026-05-12",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1338,6 +1288,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

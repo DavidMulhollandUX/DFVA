@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "33-3051-01",
-      "text": "National peak professional bodies and statutory regulators governing Police and Sheriff's Patrol Officers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Police and Sheriff's Patrol Officers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Police and Sheriff's Patrol Officers",
-          "url": "https://www.psc.gov.au/standards/33-3051",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Police and Sheriff's Patrol Officers"
-        }
-      ],
-      "scope": "Australian practitioners in Police and Sheriff's Patrol Officers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "33-3051-02",
-      "text": "Automation of routine transactional and analytical tasks in Police and Sheriff's Patrol Officers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Police and Sheriff's Patrol Officers",
-          "url": "https://www.jobsandskills.gov.au/research/33-3051",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Police and Sheriff's Patrol Officers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Police and Sheriff's Patrol Officers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "287(g) update 2026-08-14\nAutomated update: changes detected in 287(g) agreement files.\n\n**4 file(s) added:**\n- agreements/agreements_20260814_014525/ALABAMA/Foley_Police_Department/FoleyPoliceDeptAL_TFM_MOA_03252026.pdf\n- agreements/agreements_20260814_014525/download_path_log.csv\n- sheets/sheets_20260814_014525/download_pa\n<!-- pr-diff-bot -->\n## `all_agreements_sf.parquet` diff vs `main`\n\n- **Added:** 274 agreement row(s)\n- **Removed:** 19 agreement row(s)\n- **Modified:** 19 cell change(s) acr\u2026",
+      "text": "287(g) update 2026-08-14\nAutomated update: changes detected in 287(g) agreement files.\n\n**4 file(s) added:**\n- agreements/agreements_20260814_014525/ALABAMA/Foley_Police_Department/FoleyPoliceDeptAL_TFM_MOA_03252026.pdf\n- agreements/agreements_20260814_014525/download_path_log.csv\n- sheets/sheets_20260814_014525/download_pa\n<!-- pr-diff-bot -->\n## `all_agreements_sf.parquet` diff vs `main`\n\n- **Added:** 274 agreement row(s)\n- **Removed:** 19 agreement row(s)\n- **Modified:** 19 cell change(s) acr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "287(g) update 2026-08-14\nAutomated update: changes detected in 287(g) agreement \u2026",
+          "title": "287(g) update 2026-08-14\nAutomated update: changes detected in 287(g) agreement …",
           "url": "https://github.com/deportationdata/ice-287g/pull/40",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -86,13 +36,13 @@
     },
     {
       "id": "l504",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -107,13 +57,13 @@
     },
     {
       "id": "l505",
-      "text": "chore: article registry updates\nAutomated rolling article crawl + curation + RSS discovery.\n\nEach cron tick fetches a few queued URLs, runs the injection \nscanner, renders a Playwright PDF, submits a Wayback save, and \nbuilds a registry entry. With `ANTHROPIC_API_KEY` set, eligible \narticles also get Phase-2 semantic enrichment.\n<!-- page-preview -->\n## Page Preview\n\n### index\n![index](https://raw.githubusercontent.com/none-below/sm-alpr/233a9289f2ed50744e5fc82d6fd27dd725c05c94/index.png)\n\n### s\u2026",
+      "text": "chore: article registry updates\nAutomated rolling article crawl + curation + RSS discovery.\n\nEach cron tick fetches a few queued URLs, runs the injection \nscanner, renders a Playwright PDF, submits a Wayback save, and \nbuilds a registry entry. With `ANTHROPIC_API_KEY` set, eligible \narticles also get Phase-2 semantic enrichment.\n<!-- page-preview -->\n## Page Preview\n\n### index\n![index](https://raw.githubusercontent.com/none-below/sm-alpr/233a9289f2ed50744e5fc82d6fd27dd725c05c94/index.png)\n\n### s…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "chore: article registry updates\nAutomated rolling article crawl + curation + RSS\u2026",
+          "title": "chore: article registry updates\nAutomated rolling article crawl + curation + RSS…",
           "url": "https://github.com/none-below/sm-alpr/pull/387",
           "date": "2026-05-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -296,13 +246,13 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -317,13 +267,13 @@
     },
     {
       "id": "l515",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -527,13 +477,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -569,13 +519,13 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "A Police Officer Killed This Man's 18Y Son | So Then He Killed a Police Officer | He Holds His Head High While Walking Past 30 Officers in Court\nThe rest of Reddit could&#39;t handle this post \u2014 I was first silenced, then banned, but only after I complained of prolific racism and hate brigading. And only after that sub enjoyed the traffic of 5+ Million Views. This post is about the Reality of Society and Times today. Regardless of how one feels about this story, it is REALITY, and it is part of \u2026",
+      "text": "A Police Officer Killed This Man's 18Y Son | So Then He Killed a Police Officer | He Holds His Head High While Walking Past 30 Officers in Court\nThe rest of Reddit could&#39;t handle this post — I was first silenced, then banned, but only after I complained of prolific racism and hate brigading. And only after that sub enjoyed the traffic of 5+ Million Views. This post is about the Reality of Society and Times today. Regardless of how one feels about this story, it is REALITY, and it is part of …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "A Police Officer Killed This Man's 18Y Son | So Then He Killed a Police Officer \u2026",
+          "title": "A Police Officer Killed This Man's 18Y Son | So Then He Killed a Police Officer …",
           "url": "https://www.reddit.com/r/BlackPeopleofReddit/comments/1vt3elk/a_police_officer_killed_this_mans_18y_son_so_then/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "Why are the sheriff's police doing fare enforcement?\nThey were on the westbound 20. Three officers. Saying things like &quot;have your full fare ready&quot; when people were boarding. And &quot;no free rides&quot; when folks didn&#39;t have fare. Don&#39;t do sh*t when cars are parked in bus only lanes but don&#39;t worry... They stopped a 14-year-old from taking the bus. I feel soooooooo much safer \ud83d\ude44 EDIT: I&#39;m leaving the original text for context. But as folks pointed out I was way off. Th\u2026",
+      "text": "Why are the sheriff's police doing fare enforcement?\nThey were on the westbound 20. Three officers. Saying things like &quot;have your full fare ready&quot; when people were boarding. And &quot;no free rides&quot; when folks didn&#39;t have fare. Don&#39;t do sh*t when cars are parked in bus only lanes but don&#39;t worry... They stopped a 14-year-old from taking the bus. I feel soooooooo much safer 🙄 EDIT: I&#39;m leaving the original text for context. But as folks pointed out I was way off. Th…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why are the sheriff's police doing fare enforcement?\nThey were on the westbound \u2026",
+          "title": "Why are the sheriff's police doing fare enforcement?\nThey were on the westbound …",
           "url": "https://www.reddit.com/r/cta/comments/1vxc129/why_are_the_sheriffs_police_doing_fare_enforcement/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -674,13 +624,13 @@
     },
     {
       "id": "l532",
-      "text": "In Police Simulator: Patrol Officers, if you go around killing people at random, your career will end and you will lose the game. That is because games are meant to be challenging, and do not necessarily reflect what would actually happen in reality\n&#32; submitted by &#32; /u/Xetetic &#32; to &#32; r/Gamingcirclejerk [link] &#32; [comments]\nYou need to unlock the skill \"plant meth on the corpse\" to continue. Its on the skill tree past \"park in fire zones to get your coffee\". Hope this helps! Po\u2026",
+      "text": "In Police Simulator: Patrol Officers, if you go around killing people at random, your career will end and you will lose the game. That is because games are meant to be challenging, and do not necessarily reflect what would actually happen in reality\n&#32; submitted by &#32; /u/Xetetic &#32; to &#32; r/Gamingcirclejerk [link] &#32; [comments]\nYou need to unlock the skill \"plant meth on the corpse\" to continue. Its on the skill tree past \"park in fire zones to get your coffee\". Hope this helps! Po…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "In Police Simulator: Patrol Officers, if you go around killing people at random,\u2026",
+          "title": "In Police Simulator: Patrol Officers, if you go around killing people at random,…",
           "url": "https://www.reddit.com/r/Gamingcirclejerk/comments/1vb40q2/in_police_simulator_patrol_officers_if_you_go/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -695,13 +645,13 @@
     },
     {
       "id": "l533",
-      "text": "Cities Are Ditching Flock, Immediately Replacing It With Axon License Plate Readers | About the author, 404 Media\n\nA handful of cities across the U.S. have ditched Flock\u2019s automatic license plate reader (ALPR) cameras and immediately replaced them with equivalent systems from law enforcement contracting giant Axon, according to local media reports and government documents from around the country. Axon, for example, advertises AI-powered cameras that attach to an existing streetlamp and are desig",
+      "text": "Cities Are Ditching Flock, Immediately Replacing It With Axon License Plate Readers | About the author, 404 Media\n\nA handful of cities across the U.S. have ditched Flock’s automatic license plate reader (ALPR) cameras and immediately replaced them with equivalent systems from law enforcement contracting giant Axon, according to local media reports and government documents from around the country. Axon, for example, advertises AI-powered cameras that attach to an existing streetlamp and are desig",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Cities Are Ditching Flock, Immediately Replacing It With Axon License Plate Read\u2026",
+          "title": "Cities Are Ditching Flock, Immediately Replacing It With Axon License Plate Read…",
           "url": "https://x.com/OwenGregorian/status/2085707584044929459",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "Yesterday was Day 10. Today is Day 11.\n\nTinder is gay, retarded, and evil. It is AI, the reign of algorithm. Every girl is catfishing, and I\u2019m catfishing too. The pictures we choose are too perfect, too selective, not representative or raw or real. But there\u2019s one girl on here who is so ridiculously hot that I keep checking this evil app just to see if she will respond today. On my laptop -- I don\u2019t have the app on my phone.\n\nHere\u2019s my first message:\n\n\u201ctinder is too low effort. too slow. Not int",
+      "text": "Yesterday was Day 10. Today is Day 11.\n\nTinder is gay, retarded, and evil. It is AI, the reign of algorithm. Every girl is catfishing, and I’m catfishing too. The pictures we choose are too perfect, too selective, not representative or raw or real. But there’s one girl on here who is so ridiculously hot that I keep checking this evil app just to see if she will respond today. On my laptop -- I don’t have the app on my phone.\n\nHere’s my first message:\n\n“tinder is too low effort. too slow. Not int",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Yesterday was Day 10. Today is Day 11.\n\nTinder is gay, retarded, and evil. It is\u2026",
+          "title": "Yesterday was Day 10. Today is Day 11.\n\nTinder is gay, retarded, and evil. It is…",
           "url": "https://x.com/Dljokl/status/2084241162181779935",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "I\u2019m on his side. Whether he\u2019s got the level of danger or the biggest priorities correct, I have no idea. I just know we should have our best minds working on this NOW. I would also like to see human jobs salvaged. It\u2019s not a question of whether AI can do the job. It\u2019s whether they SHOULD. We see the sociological changes from work at home. What will be the changes with no work?",
+      "text": "I’m on his side. Whether he’s got the level of danger or the biggest priorities correct, I have no idea. I just know we should have our best minds working on this NOW. I would also like to see human jobs salvaged. It’s not a question of whether AI can do the job. It’s whether they SHOULD. We see the sociological changes from work at home. What will be the changes with no work?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I\u2019m on his side. Whether he\u2019s got the level of danger or the biggest priorities \u2026",
+          "title": "I’m on his side. Whether he’s got the level of danger or the biggest priorities …",
           "url": "https://x.com/ksusze/status/2093554009457967344",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill Gates is looking to meet with Chinese President Xi Jinping later this year, eager to propose global efforts to mitigate the growing risks posed by artificial intelligence.\n\nThe Microsoft co-founder and billionaire philanthropist told Reuters in an interview that he believes China might agree to restricting potentially dangerous AI model releases if the U.S. took the initiative.\n\n\u201cThe whole world would go along with",
+      "text": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill Gates is looking to meet with Chinese President Xi Jinping later this year, eager to propose global efforts to mitigate the growing risks posed by artificial intelligence.\n\nThe Microsoft co-founder and billionaire philanthropist told Reuters in an interview that he believes China might agree to restricting potentially dangerous AI model releases if the U.S. took the initiative.\n\n“The whole world would go along with",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill\u2026",
+          "title": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill…",
           "url": "https://x.com/OwenGregorian/status/2093324365257457709",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -806,7 +756,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I Think The Hardest Part Of AI In Healthcare Isn't Building The Agent. It's Expl\u2026",
+          "title": "I Think The Hardest Part Of AI In Healthcare Isn't Building The Agent. It's Expl…",
           "url": "https://x.com/Pawan2001564157/status/2085933317803872500",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -827,7 +777,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Fully AI-Guided Russian Drones Have Reportedly Killed Ukrainian Civilians | Ece \u2026",
+          "title": "Fully AI-Guided Russian Drones Have Reportedly Killed Ukrainian Civilians | Ece …",
           "url": "https://x.com/OwenGregorian/status/2093324464188449024",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "How I look at $IREN long term:\nI\u2019m not underwriting last quarter. The print was messy on purpose. They\u2019re ripping out Bitcoin machines, taking impairments, hiring ahead of revenue, and the GAAP numbers still look like a miner in transition. That\u2019s noise.\nThe question I care about is whether IREN becomes a real AI infrastructure compounder\u2014or another overfunded buildout that never earns its cost of capital.\nThe bet is simple: Tokens can scale overnight. Power, land, substations and liquid-cooled",
+      "text": "How I look at $IREN long term:\nI’m not underwriting last quarter. The print was messy on purpose. They’re ripping out Bitcoin machines, taking impairments, hiring ahead of revenue, and the GAAP numbers still look like a miner in transition. That’s noise.\nThe question I care about is whether IREN becomes a real AI infrastructure compounder—or another overfunded buildout that never earns its cost of capital.\nThe bet is simple: Tokens can scale overnight. Power, land, substations and liquid-cooled",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "How I look at $IREN long term:\nI\u2019m not underwriting last quarter. The print was \u2026",
+          "title": "How I look at $IREN long term:\nI’m not underwriting last quarter. The print was …",
           "url": "https://x.com/gulVasikova/status/2093242076326678922",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -884,13 +834,13 @@
     },
     {
       "id": "l542",
-      "text": "But if we get another quarter where most of the story is still \u201ccoming soon,\u201d investors may start questioning whether the valuation has moved too far ahead of the actual execution.\n\nThat\u2019s the risk.\n\nPersonally, I see $IREN as a high-risk, high-upside AI infrastructure bet. The opportunity is enormous, but so is the execution risk.\n\nCoreWeave and Nebius are already showing investors what strong AI compute demand and pricing can look like.\n\nNow IREN has to prove it can do the same.\n\nFor me, tonig",
+      "text": "But if we get another quarter where most of the story is still “coming soon,” investors may start questioning whether the valuation has moved too far ahead of the actual execution.\n\nThat’s the risk.\n\nPersonally, I see $IREN as a high-risk, high-upside AI infrastructure bet. The opportunity is enormous, but so is the execution risk.\n\nCoreWeave and Nebius are already showing investors what strong AI compute demand and pricing can look like.\n\nNow IREN has to prove it can do the same.\n\nFor me, tonig",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "But if we get another quarter where most of the story is still \u201ccoming soon,\u201d in\u2026",
+          "title": "But if we get another quarter where most of the story is still “coming soon,” in…",
           "url": "https://x.com/gulVasikova/status/2093054476802498633",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "$CBRS One thing I\u2019m paying close attention to in AI right now is the shift from \u201csoftware eating the world\u201d to infrastructure becoming the real bottleneck.\n\nAndreessen Horowitz just raised $1.1B for a dedicated hardware-infrastructure fund focused on AI chips, memory, networking, storage and robotics.\n\nTo me, that says a lot.\n\nAI demand is still growing, but the limiting factor is increasingly how much physical infrastructure we can build \u2014 GPUs, power, data centers, networking and advanced chip",
+      "text": "$CBRS One thing I’m paying close attention to in AI right now is the shift from “software eating the world” to infrastructure becoming the real bottleneck.\n\nAndreessen Horowitz just raised $1.1B for a dedicated hardware-infrastructure fund focused on AI chips, memory, networking, storage and robotics.\n\nTo me, that says a lot.\n\nAI demand is still growing, but the limiting factor is increasingly how much physical infrastructure we can build — GPUs, power, data centers, networking and advanced chip",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "$CBRS One thing I\u2019m paying close attention to in AI right now is the shift from \u2026",
+          "title": "$CBRS One thing I’m paying close attention to in AI right now is the shift from …",
           "url": "https://x.com/gulVasikova/status/2093337813844689112",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -926,13 +876,13 @@
     },
     {
       "id": "l544",
-      "text": "Beyond the Prompt: 5 Surprising Lessons from the Opus 5 Revolution - Unlocking the Frontier of Agentic Engineering with Boris Cherny\n\nThe release of Opus 5 has fundamentally shattered the \"micro-management\" paradigm of AI engineering. For years, we operated under the assumption that model performance was a function of increasingly complex prompts and exhaustive hand-holding. We were wrong.\n\nWith Opus 5, we\u2019ve seen the Arc AGI 3 benchmark leap from the low teens to 30%\u2014a massive jump in reasoning",
+      "text": "Beyond the Prompt: 5 Surprising Lessons from the Opus 5 Revolution - Unlocking the Frontier of Agentic Engineering with Boris Cherny\n\nThe release of Opus 5 has fundamentally shattered the \"micro-management\" paradigm of AI engineering. For years, we operated under the assumption that model performance was a function of increasingly complex prompts and exhaustive hand-holding. We were wrong.\n\nWith Opus 5, we’ve seen the Arc AGI 3 benchmark leap from the low teens to 30%—a massive jump in reasoning",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Beyond the Prompt: 5 Surprising Lessons from the Opus 5 Revolution - Unlocking t\u2026",
+          "title": "Beyond the Prompt: 5 Surprising Lessons from the Opus 5 Revolution - Unlocking t…",
           "url": "https://x.com/SungJinIn2/status/2082589319127302318",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "Flock Safety\u2019s Billion-Dollar Surveillance Machine Caught Sharing Your Data With The Feds | Jenn Baker, The Gateway Pundit\n\nThe Orange traffic barrel on the side of Arizona State Route 60 looked like any other piece of construction equipment. It had the same yellow-and-white striping, the same tapered shape.\n\nIt also had a camera lens carved into both sides, a solar panel, and a cellular transmitter feeding data to a private company\u2019s servers.\n\nLicense plate readers disguised as traffic barrels.",
+      "text": "Flock Safety’s Billion-Dollar Surveillance Machine Caught Sharing Your Data With The Feds | Jenn Baker, The Gateway Pundit\n\nThe Orange traffic barrel on the side of Arizona State Route 60 looked like any other piece of construction equipment. It had the same yellow-and-white striping, the same tapered shape.\n\nIt also had a camera lens carved into both sides, a solar panel, and a cellular transmitter feeding data to a private company’s servers.\n\nLicense plate readers disguised as traffic barrels.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Flock Safety\u2019s Billion-Dollar Surveillance Machine Caught Sharing Your Data With\u2026",
+          "title": "Flock Safety’s Billion-Dollar Surveillance Machine Caught Sharing Your Data With…",
           "url": "https://x.com/OwenGregorian/status/2079553336714383694",
           "date": "2026-07-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "$VERI Veritone is quietly becoming the AI operating system for public safety\u2014not just another AI software company.\n\nOver the past week, Veritone has announced a series of developments that all point toward one strategy: becoming the AI infrastructure that government agencies rely on every day.\n\nOn June 24, Veritone announced its Innovation Showcase, signaling that the company is preparing to demonstrate its next generation of AI products and long-term roadmap.\n\nOn June 25, it launched Veritone A",
+      "text": "$VERI Veritone is quietly becoming the AI operating system for public safety—not just another AI software company.\n\nOver the past week, Veritone has announced a series of developments that all point toward one strategy: becoming the AI infrastructure that government agencies rely on every day.\n\nOn June 24, Veritone announced its Innovation Showcase, signaling that the company is preparing to demonstrate its next generation of AI products and long-term roadmap.\n\nOn June 25, it launched Veritone A",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "$VERI Veritone is quietly becoming the AI operating system for public safety\u2014not\u2026",
+          "title": "$VERI Veritone is quietly becoming the AI operating system for public safety—not…",
           "url": "https://x.com/gulVasikova/status/2071997600975507684",
           "date": "2026-06-30",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1016,7 +966,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "RahuLiar: The Chief Strategy Officer of Flock - His Public Statements Against th\u2026",
+          "title": "RahuLiar: The Chief Strategy Officer of Flock - His Public Statements Against th…",
           "url": "https://x.com/Tyrantwatcher87/status/2093386867718963687",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1058,7 +1008,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Skydio Is America's Drone Prime: A Conversation with CEO Adam Bry & CMO Macario \u2026",
+          "title": "Skydio Is America's Drone Prime: A Conversation with CEO Adam Bry & CMO Macario …",
           "url": "https://x.com/Shriftman/status/2051756226841895288",
           "date": "2026-05-05",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1073,13 +1023,13 @@
     },
     {
       "id": "l551",
-      "text": "Teacher ARRESTED After Snapchat's AI Reported Her to the FBI | Bodycam\nOn January 29th, 2025, 22-year-old student teacher Kristen Volpe was pulled out of John L. Hensey Elementary School in Washington, Illinois after law enforcement received a tip about a concerning Snapchat message she had sent earlier that day. What makes this case unlike most is the tip didn't come from a student, a parent, or a coworker. It came from Snapchat's own AI, which automatically detected the message, flagged it, an\u2026",
+      "text": "Teacher ARRESTED After Snapchat's AI Reported Her to the FBI | Bodycam\nOn January 29th, 2025, 22-year-old student teacher Kristen Volpe was pulled out of John L. Hensey Elementary School in Washington, Illinois after law enforcement received a tip about a concerning Snapchat message she had sent earlier that day. What makes this case unlike most is the tip didn't come from a student, a parent, or a coworker. It came from Snapchat's own AI, which automatically detected the message, flagged it, an…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Teacher ARRESTED After Snapchat's AI Reported Her to the FBI | Bodycam\nOn Januar\u2026",
+          "title": "Teacher ARRESTED After Snapchat's AI Reported Her to the FBI | Bodycam\nOn Januar…",
           "url": "https://www.youtube.com/watch?v=e0kpWBYXQbk",
           "date": "2026-03-09",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1094,13 +1044,13 @@
     },
     {
       "id": "l552",
-      "text": "How an AI Mistranslated a Teacher\u2019s Private Joke into a Federal Threat\n\u200bA private joke to three friends became a federal case in under an hour.\n\n\u200bIn this raw police bodycam footage, 22-year-old student teacher Kristen Vulp learns a terrifying lesson about digital privacy. After a frustrating classroom incident where a student closed her laptop and deleted her lesson plan, Vulp sent an exasperated message to her inner circle.\n\n\u200bShe thought it was a harmless, dark-humor vent. Instead, Snapchat\u2019s a\u2026",
+      "text": "How an AI Mistranslated a Teacher’s Private Joke into a Federal Threat\n​A private joke to three friends became a federal case in under an hour.\n\n​In this raw police bodycam footage, 22-year-old student teacher Kristen Vulp learns a terrifying lesson about digital privacy. After a frustrating classroom incident where a student closed her laptop and deleted her lesson plan, Vulp sent an exasperated message to her inner circle.\n\n​She thought it was a harmless, dark-humor vent. Instead, Snapchat’s a…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How an AI Mistranslated a Teacher\u2019s Private Joke into a Federal Threat\n\u200bA privat\u2026",
+          "title": "How an AI Mistranslated a Teacher’s Private Joke into a Federal Threat\n​A privat…",
           "url": "https://www.youtube.com/watch?v=EbnEvPe0VjM",
           "date": "2026-06-07",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1115,7 +1065,7 @@
     },
     {
       "id": "l453",
-      "text": "Police Cadet \u2014 South Australia Police (South Australia, Australia). Posted 3 weeks ago.",
+      "text": "Police Cadet — South Australia Police (South Australia, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1136,7 +1086,7 @@
     },
     {
       "id": "l454",
-      "text": "Expression of Interest - Sheriff's Officer \u2014 Department of Justice and Community Safety, Victoria (Victoria, Australia). Posted 2 months ago.",
+      "text": "Expression of Interest - Sheriff's Officer — Department of Justice and Community Safety, Victoria (Victoria, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1157,7 +1107,7 @@
     },
     {
       "id": "l455",
-      "text": "Community Constable \u2014 South Australia Police (South Australia, Australia). Posted 6 days ago.",
+      "text": "Community Constable — South Australia Police (South Australia, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1178,7 +1128,7 @@
     },
     {
       "id": "l456",
-      "text": "Entry Level Recruit Program \u2014 ACT Policing (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
+      "text": "Entry Level Recruit Program — ACT Policing (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1199,7 +1149,7 @@
     },
     {
       "id": "l457",
-      "text": "Officer Local Laws - Fixed Term (up to 18 months) \u2014 Gympie Regional Council (Gympie, Queensland, Australia). Posted 1 week ago.",
+      "text": "Officer Local Laws - Fixed Term (up to 18 months) — Gympie Regional Council (Gympie, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1220,7 +1170,7 @@
     },
     {
       "id": "l458",
-      "text": "Senior Protective Services Officer (First Nations) \u2014 Queensland Police Service (Cooktown, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Senior Protective Services Officer (First Nations) — Queensland Police Service (Cooktown, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1241,7 +1191,7 @@
     },
     {
       "id": "l459",
-      "text": "Assistant Watchhouse Officer \u2014 Queensland Police Service (Mackay, Queensland, Australia). Posted 18 hours ago.",
+      "text": "Assistant Watchhouse Officer — Queensland Police Service (Mackay, Queensland, Australia). Posted 18 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1262,7 +1212,7 @@
     },
     {
       "id": "l460",
-      "text": "Local Laws Officer \u2014 City of Port Phillip (Melbourne, Victoria, Australia). Posted 5 days ago.",
+      "text": "Local Laws Officer — City of Port Phillip (Melbourne, Victoria, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1283,7 +1233,7 @@
     },
     {
       "id": "l461",
-      "text": "Police Security Officer \u2014 HOBAN Recruitment (South Australia, Australia). Posted 3 weeks ago.",
+      "text": "Police Security Officer — HOBAN Recruitment (South Australia, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1304,7 +1254,7 @@
     },
     {
       "id": "l462",
-      "text": "General Duties Ranger \u2014 Port Stephens Council (Raymond Terrace, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "General Duties Ranger — Port Stephens Council (Raymond Terrace, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1325,13 +1275,13 @@
     },
     {
       "id": "l563",
-      "text": "287(g) update 2026-08-14\nAutomated update: changes detected in 287(g) agreement files.\n\n**4 file(s) added:**\n- agreements/agreements_20260814_014525/ALABAMA/Foley_Police_Department/FoleyPoliceDeptAL_TFM_MOA_03252026.pdf\n- agreements/agreements_20260814_014525/download_path_log.csv\n- sheets/sheets_20260814_014525/download_pa\n<!-- pr-diff-bot -->\n## `all_agreements_sf.parquet` diff vs `main`\n\n- **Added:** 274 agreement row(s)\n- **Removed:** 19 agreement row(s)\n- **Modified:** 19 cell change(s) acr\u2026",
+      "text": "287(g) update 2026-08-14\nAutomated update: changes detected in 287(g) agreement files.\n\n**4 file(s) added:**\n- agreements/agreements_20260814_014525/ALABAMA/Foley_Police_Department/FoleyPoliceDeptAL_TFM_MOA_03252026.pdf\n- agreements/agreements_20260814_014525/download_path_log.csv\n- sheets/sheets_20260814_014525/download_pa\n<!-- pr-diff-bot -->\n## `all_agreements_sf.parquet` diff vs `main`\n\n- **Added:** 274 agreement row(s)\n- **Removed:** 19 agreement row(s)\n- **Modified:** 19 cell change(s) acr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "287(g) update 2026-08-14\nAutomated update: changes detected in 287(g) agreement \u2026",
+          "title": "287(g) update 2026-08-14\nAutomated update: changes detected in 287(g) agreement …",
           "url": "https://github.com/deportationdata/ice-287g/pull/40",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1346,13 +1296,13 @@
     },
     {
       "id": "l564",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1367,13 +1317,13 @@
     },
     {
       "id": "l565",
-      "text": "chore: article registry updates\nAutomated rolling article crawl + curation + RSS discovery.\n\nEach cron tick fetches a few queued URLs, runs the injection \nscanner, renders a Playwright PDF, submits a Wayback save, and \nbuilds a registry entry. With `ANTHROPIC_API_KEY` set, eligible \narticles also get Phase-2 semantic enrichment.\n<!-- page-preview -->\n## Page Preview\n\n### index\n![index](https://raw.githubusercontent.com/none-below/sm-alpr/233a9289f2ed50744e5fc82d6fd27dd725c05c94/index.png)\n\n### s\u2026",
+      "text": "chore: article registry updates\nAutomated rolling article crawl + curation + RSS discovery.\n\nEach cron tick fetches a few queued URLs, runs the injection \nscanner, renders a Playwright PDF, submits a Wayback save, and \nbuilds a registry entry. With `ANTHROPIC_API_KEY` set, eligible \narticles also get Phase-2 semantic enrichment.\n<!-- page-preview -->\n## Page Preview\n\n### index\n![index](https://raw.githubusercontent.com/none-below/sm-alpr/233a9289f2ed50744e5fc82d6fd27dd725c05c94/index.png)\n\n### s…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "chore: article registry updates\nAutomated rolling article crawl + curation + RSS\u2026",
+          "title": "chore: article registry updates\nAutomated rolling article crawl + curation + RSS…",
           "url": "https://github.com/none-below/sm-alpr/pull/387",
           "date": "2026-05-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1388,13 +1338,13 @@
     },
     {
       "id": "l566",
-      "text": "A Police Officer Killed This Man's 18Y Son | So Then He Killed a Police Officer | He Holds His Head High While Walking Past 30 Officers in Court\nThe rest of Reddit could&#39;t handle this post \u2014 I was first silenced, then banned, but only after I complained of prolific racism and hate brigading. And only after that sub enjoyed the traffic of 5+ Million Views. This post is about the Reality of Society and Times today. Regardless of how one feels about this story, it is REALITY, and it is part of \u2026",
+      "text": "A Police Officer Killed This Man's 18Y Son | So Then He Killed a Police Officer | He Holds His Head High While Walking Past 30 Officers in Court\nThe rest of Reddit could&#39;t handle this post — I was first silenced, then banned, but only after I complained of prolific racism and hate brigading. And only after that sub enjoyed the traffic of 5+ Million Views. This post is about the Reality of Society and Times today. Regardless of how one feels about this story, it is REALITY, and it is part of …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "A Police Officer Killed This Man's 18Y Son | So Then He Killed a Police Officer \u2026",
+          "title": "A Police Officer Killed This Man's 18Y Son | So Then He Killed a Police Officer …",
           "url": "https://www.reddit.com/r/BlackPeopleofReddit/comments/1vt3elk/a_police_officer_killed_this_mans_18y_son_so_then/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1409,13 +1359,13 @@
     },
     {
       "id": "l567",
-      "text": "Why are the sheriff's police doing fare enforcement?\nThey were on the westbound 20. Three officers. Saying things like &quot;have your full fare ready&quot; when people were boarding. And &quot;no free rides&quot; when folks didn&#39;t have fare. Don&#39;t do sh*t when cars are parked in bus only lanes but don&#39;t worry... They stopped a 14-year-old from taking the bus. I feel soooooooo much safer \ud83d\ude44 EDIT: I&#39;m leaving the original text for context. But as folks pointed out I was way off. Th\u2026",
+      "text": "Why are the sheriff's police doing fare enforcement?\nThey were on the westbound 20. Three officers. Saying things like &quot;have your full fare ready&quot; when people were boarding. And &quot;no free rides&quot; when folks didn&#39;t have fare. Don&#39;t do sh*t when cars are parked in bus only lanes but don&#39;t worry... They stopped a 14-year-old from taking the bus. I feel soooooooo much safer 🙄 EDIT: I&#39;m leaving the original text for context. But as folks pointed out I was way off. Th…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why are the sheriff's police doing fare enforcement?\nThey were on the westbound \u2026",
+          "title": "Why are the sheriff's police doing fare enforcement?\nThey were on the westbound …",
           "url": "https://www.reddit.com/r/cta/comments/1vxc129/why_are_the_sheriffs_police_doing_fare_enforcement/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1430,13 +1380,13 @@
     },
     {
       "id": "l568",
-      "text": "In Police Simulator: Patrol Officers, if you go around killing people at random, your career will end and you will lose the game. That is because games are meant to be challenging, and do not necessarily reflect what would actually happen in reality\n&#32; submitted by &#32; /u/Xetetic &#32; to &#32; r/Gamingcirclejerk [link] &#32; [comments]\nYou need to unlock the skill \"plant meth on the corpse\" to continue. Its on the skill tree past \"park in fire zones to get your coffee\". Hope this helps! Po\u2026",
+      "text": "In Police Simulator: Patrol Officers, if you go around killing people at random, your career will end and you will lose the game. That is because games are meant to be challenging, and do not necessarily reflect what would actually happen in reality\n&#32; submitted by &#32; /u/Xetetic &#32; to &#32; r/Gamingcirclejerk [link] &#32; [comments]\nYou need to unlock the skill \"plant meth on the corpse\" to continue. Its on the skill tree past \"park in fire zones to get your coffee\". Hope this helps! Po…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "In Police Simulator: Patrol Officers, if you go around killing people at random,\u2026",
+          "title": "In Police Simulator: Patrol Officers, if you go around killing people at random,…",
           "url": "https://www.reddit.com/r/Gamingcirclejerk/comments/1vb40q2/in_police_simulator_patrol_officers_if_you_go/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1451,13 +1401,13 @@
     },
     {
       "id": "l569",
-      "text": "Teacher ARRESTED After Snapchat's AI Reported Her to the FBI | Bodycam\nOn January 29th, 2025, 22-year-old student teacher Kristen Volpe was pulled out of John L. Hensey Elementary School in Washington, Illinois after law enforcement received a tip about a concerning Snapchat message she had sent earlier that day. What makes this case unlike most is the tip didn't come from a student, a parent, or a coworker. It came from Snapchat's own AI, which automatically detected the message, flagged it, an\u2026",
+      "text": "Teacher ARRESTED After Snapchat's AI Reported Her to the FBI | Bodycam\nOn January 29th, 2025, 22-year-old student teacher Kristen Volpe was pulled out of John L. Hensey Elementary School in Washington, Illinois after law enforcement received a tip about a concerning Snapchat message she had sent earlier that day. What makes this case unlike most is the tip didn't come from a student, a parent, or a coworker. It came from Snapchat's own AI, which automatically detected the message, flagged it, an…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Teacher ARRESTED After Snapchat's AI Reported Her to the FBI | Bodycam\nOn Januar\u2026",
+          "title": "Teacher ARRESTED After Snapchat's AI Reported Her to the FBI | Bodycam\nOn Januar…",
           "url": "https://www.youtube.com/watch?v=e0kpWBYXQbk",
           "date": "2026-03-09",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1472,13 +1422,13 @@
     },
     {
       "id": "l570",
-      "text": "How an AI Mistranslated a Teacher\u2019s Private Joke into a Federal Threat\n\u200bA private joke to three friends became a federal case in under an hour.\n\n\u200bIn this raw police bodycam footage, 22-year-old student teacher Kristen Vulp learns a terrifying lesson about digital privacy. After a frustrating classroom incident where a student closed her laptop and deleted her lesson plan, Vulp sent an exasperated message to her inner circle.\n\n\u200bShe thought it was a harmless, dark-humor vent. Instead, Snapchat\u2019s a\u2026",
+      "text": "How an AI Mistranslated a Teacher’s Private Joke into a Federal Threat\n​A private joke to three friends became a federal case in under an hour.\n\n​In this raw police bodycam footage, 22-year-old student teacher Kristen Vulp learns a terrifying lesson about digital privacy. After a frustrating classroom incident where a student closed her laptop and deleted her lesson plan, Vulp sent an exasperated message to her inner circle.\n\n​She thought it was a harmless, dark-humor vent. Instead, Snapchat’s a…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How an AI Mistranslated a Teacher\u2019s Private Joke into a Federal Threat\n\u200bA privat\u2026",
+          "title": "How an AI Mistranslated a Teacher’s Private Joke into a Federal Threat\n​A privat…",
           "url": "https://www.youtube.com/watch?v=EbnEvPe0VjM",
           "date": "2026-06-07",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1569,6 +1519,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

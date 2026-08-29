@@ -21,56 +21,6 @@
   ],
   "claims": [
     {
-      "id": "29-1181-01",
-      "text": "National peak professional bodies and statutory regulators governing Audiologists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Audiologists",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Audiologists",
-          "url": "https://www.psc.gov.au/standards/29-1181",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Audiologists"
-        }
-      ],
-      "scope": "Australian practitioners in Audiologists across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "29-1181-02",
-      "text": "Automation of routine transactional and analytical tasks in Audiologists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Audiologists",
-          "url": "https://www.jobsandskills.gov.au/research/29-1181",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Audiologists in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Audiologists roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
       "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
@@ -261,13 +211,13 @@
     },
     {
       "id": "l512",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -303,13 +253,13 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -471,13 +421,13 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -513,13 +463,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -555,13 +505,13 @@
     },
     {
       "id": "l526",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -576,13 +526,13 @@
     },
     {
       "id": "l527",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -597,13 +547,13 @@
     },
     {
       "id": "l528",
-      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c\u2026",
+      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public \u2026",
+          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public …",
           "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vnsz0y/jpmorgan_ceo_jamie_dimon_declares_ai_deployment/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -618,13 +568,13 @@
     },
     {
       "id": "l529",
-      "text": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]",
+      "text": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&\u2026",
+          "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&…",
           "url": "https://www.reddit.com/r/technology/comments/1vzb4xo/ai_agents_meant_to_replace_meta_workers_made/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -639,13 +589,13 @@
     },
     {
       "id": "l530",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the ram for a motherboard upgrade or a cor\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the ram for a motherboard upgrade or a cor…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcmasterrace/comments/1vfe28b/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -660,13 +610,13 @@
     },
     {
       "id": "l531",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards . For all I know everything else could become ten times as expensive and it wouldn't change anything because without those component Don't forget ssds and hard drives. Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed.\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards . For all I know everything else could become ten times as expensive and it wouldn't change anything because without those component Don't forget ssds and hard drives. Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed.…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcgaming/comments/1vfe3ru/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -687,7 +637,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecas\u2026",
+          "title": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecas…",
           "url": "https://www.reddit.com/r/SEO/comments/1vxkjla/sam_altman_concedes_he_overestimated_ai/",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -708,7 +658,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI job disruption priced into man's compensation payout in first known case\n&#32\u2026",
+          "title": "AI job disruption priced into man's compensation payout in first known case\n&#32…",
           "url": "https://www.reddit.com/r/australia/comments/1vv43m6/ai_job_disruption_priced_into_mans_compensation/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -729,7 +679,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32\u2026",
+          "title": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32…",
           "url": "https://www.reddit.com/r/technology/comments/1voms55/onlyfans_investor_says_ai_cant_disrupt_adult/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -744,13 +694,13 @@
     },
     {
       "id": "l535",
-      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k\u2026",
+      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A\u2026",
+          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A…",
           "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -765,13 +715,13 @@
     },
     {
       "id": "l536",
-      "text": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let\u2019s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
+      "text": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let’s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market \u2026",
+          "title": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market …",
           "url": "https://www.reddit.com/r/Superstonk/comments/1vaxmve/for_my_dorito_loversyen_intervention_with_a/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -786,14 +736,14 @@
     },
     {
       "id": "l537",
-      "text": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]",
+      "text": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks \u2026",
-          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_\u00e0_special/",
+          "title": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks …",
+          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_à_special/",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
         }
@@ -813,7 +763,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/aiecosystem/comments/1w00i5d/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -828,13 +778,13 @@
     },
     {
       "id": "l539",
-      "text": "Today Fortell releases AI 2.0, a major improvement to the AI running in every @fortellresearch hearing aid.\n\nLegacy hearing aid manufacturers release \u201cnew products\u201d every year but the dirty little secret is they\u2019re typically just last year\u2019s hardware with a new name, a new price, and tweaked firmware. Audiologists get shiny new brochures and call their patients to encourage an expensive upgrade.\n\nWe think patients deserve better! So AI 2.0 is a zero-cost over the air update. Enjoy!\n\nhttps://t.co",
+      "text": "Today Fortell releases AI 2.0, a major improvement to the AI running in every @fortellresearch hearing aid.\n\nLegacy hearing aid manufacturers release “new products” every year but the dirty little secret is they’re typically just last year’s hardware with a new name, a new price, and tweaked firmware. Audiologists get shiny new brochures and call their patients to encourage an expensive upgrade.\n\nWe think patients deserve better! So AI 2.0 is a zero-cost over the air update. Enjoy!\n\nhttps://t.co",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Today Fortell releases AI 2.0, a major improvement to the AI running in every @f\u2026",
+          "title": "Today Fortell releases AI 2.0, a major improvement to the AI running in every @f…",
           "url": "https://x.com/MattHdeJonge/status/2092633704447271290",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -855,7 +805,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "June 5. Jon Gray runs Blackstone day to day, 1.3 trillion dollars of it. He told\u2026",
+          "title": "June 5. Jon Gray runs Blackstone day to day, 1.3 trillion dollars of it. He told…",
           "url": "https://x.com/CEOinterview/status/2093534135054922142",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -870,13 +820,13 @@
     },
     {
       "id": "l541",
-      "text": "AI 2.0 reviews are coming in unsolicited and it\u2019s awesome. https://t.co/JQJ0KtWKZi",
+      "text": "AI 2.0 reviews are coming in unsolicited and it’s awesome. https://t.co/JQJ0KtWKZi",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI 2.0 reviews are coming in unsolicited and it\u2019s awesome. https://t.co/JQJ0KtWK\u2026",
+          "title": "AI 2.0 reviews are coming in unsolicited and it’s awesome. https://t.co/JQJ0KtWK…",
           "url": "https://x.com/MattHdeJonge/status/2093326821672575286",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -891,13 +841,13 @@
     },
     {
       "id": "l542",
-      "text": "\"we have squeezed a very large AI into a very small package, and we have trained it to operate fast enough that your perceptual system does not notice the delay.\u201d -@MattHdeJonge https://t.co/kWJpAOfcFa",
+      "text": "\"we have squeezed a very large AI into a very small package, and we have trained it to operate fast enough that your perceptual system does not notice the delay.” -@MattHdeJonge https://t.co/kWJpAOfcFa",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\"we have squeezed a very large AI into a very small package, and we have trained\u2026",
+          "title": "\"we have squeezed a very large AI into a very small package, and we have trained…",
           "url": "https://x.com/Sachin_and_Adam/status/2092235551047119289",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -912,13 +862,13 @@
     },
     {
       "id": "l543",
-      "text": "The future of hearing healthcare starts here. \ud83c\udf93 #StarkeyUniversity equips the next generation of audiologists with hands-on experience, AI innovation, and insights from industry experts. Learn today. Shape tomorrow. https://t.co/xhqjNRljzX",
+      "text": "The future of hearing healthcare starts here. 🎓 #StarkeyUniversity equips the next generation of audiologists with hands-on experience, AI innovation, and insights from industry experts. Learn today. Shape tomorrow. https://t.co/xhqjNRljzX",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The future of hearing healthcare starts here. \ud83c\udf93 #StarkeyUniversity equips the ne\u2026",
+          "title": "The future of hearing healthcare starts here. 🎓 #StarkeyUniversity equips the ne…",
           "url": "https://x.com/starkeyhearing/status/2078193535132606611",
           "date": "2026-07-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -933,13 +883,13 @@
     },
     {
       "id": "l544",
-      "text": "In the noisiest multi-talker environments, AI 2.0 is 4.1 dB better than AI 1.0. That\u2019s like pulling your chair 35% closer to the person you're trying to hear. https://t.co/vFljTaSFQi",
+      "text": "In the noisiest multi-talker environments, AI 2.0 is 4.1 dB better than AI 1.0. That’s like pulling your chair 35% closer to the person you're trying to hear. https://t.co/vFljTaSFQi",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "In the noisiest multi-talker environments, AI 2.0 is 4.1 dB better than AI 1.0. \u2026",
+          "title": "In the noisiest multi-talker environments, AI 2.0 is 4.1 dB better than AI 1.0. …",
           "url": "https://x.com/fortellresearch/status/2092975610310107143",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -960,7 +910,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@patrick_oshag @patrick_oshag  - it's been an honor working with you to help peo\u2026",
+          "title": "@patrick_oshag @patrick_oshag  - it's been an honor working with you to help peo…",
           "url": "https://x.com/MattHdeJonge/status/2090067063851323581",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -981,7 +931,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The hard part to scale at @fortellresearch isn't the AI, Cole Morris says, it's \u2026",
+          "title": "The hard part to scale at @fortellresearch isn't the AI, Cole Morris says, it's …",
           "url": "https://x.com/Sachin_and_Adam/status/2091571169820315850",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1002,7 +952,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI is coming for most jobs.\nbut these are probably the hardest to automate (for \u2026",
+          "title": "AI is coming for most jobs.\nbut these are probably the hardest to automate (for …",
           "url": "https://x.com/tulipxbt/status/2030334767263326376",
           "date": "2026-03-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1023,7 +973,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "While AI may create efficiencies and better personalization, \"leaders also expre\u2026",
+          "title": "While AI may create efficiencies and better personalization, \"leaders also expre…",
           "url": "https://x.com/HearingHealthFn/status/2055000730486927709",
           "date": "2026-05-14",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1038,13 +988,13 @@
     },
     {
       "id": "l549",
-      "text": "May is Better Hearing and Speech Month! For fun, we asked AI for some images on the theme--and the AI had some fun! \ud83d\ude02Here's to all the speech-language pathologists, audiologists, ENTs, hearing aid providers, and other professionals improving communication success! \ud83d\ude0d https://t.co/3ndRnFrEdj",
+      "text": "May is Better Hearing and Speech Month! For fun, we asked AI for some images on the theme--and the AI had some fun! 😂Here's to all the speech-language pathologists, audiologists, ENTs, hearing aid providers, and other professionals improving communication success! 😍 https://t.co/3ndRnFrEdj",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "May is Better Hearing and Speech Month! For fun, we asked AI for some images on \u2026",
+          "title": "May is Better Hearing and Speech Month! For fun, we asked AI for some images on …",
           "url": "https://x.com/HearingHealthFn/status/2050185638503125372",
           "date": "2026-05-01",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1065,7 +1015,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I see AI replacing audiologists soon.\n- No reason you can't do a hearing test on\u2026",
+          "title": "I see AI replacing audiologists soon.\n- No reason you can't do a hearing test on…",
           "url": "https://x.com/LivingForever8/status/2054159530259317067",
           "date": "2026-05-12",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1080,13 +1030,13 @@
     },
     {
       "id": "l551",
-      "text": "Phonak Launch Aud\u00e9o Eon Sphere: Is It Better Than Infinio Ultra Sphere?\nPhonak Aud\u00e9o Eon is the latest generation of Phonak\u2019s AI-powered hearing aid technology \u2014 with a 25% smaller design, the new Hypersonic processor, Spheric Speech Clarity 3.0, AutoSense OS AI 8.0, WindBlock 2.0 and finally Auracast. But is Aud\u00e9o Eon actually better than Phonak Infinio Ultra Sphere?\n\nOur coverage: https://www.hearingtracker.com/news/phonak-eon-debuts-smaller-sphere-auracast-and-windblock\n\nIn this video, I brea\u2026",
+      "text": "Phonak Launch Audéo Eon Sphere: Is It Better Than Infinio Ultra Sphere?\nPhonak Audéo Eon is the latest generation of Phonak’s AI-powered hearing aid technology — with a 25% smaller design, the new Hypersonic processor, Spheric Speech Clarity 3.0, AutoSense OS AI 8.0, WindBlock 2.0 and finally Auracast. But is Audéo Eon actually better than Phonak Infinio Ultra Sphere?\n\nOur coverage: https://www.hearingtracker.com/news/phonak-eon-debuts-smaller-sphere-auracast-and-windblock\n\nIn this video, I brea…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Phonak Launch Aud\u00e9o Eon Sphere: Is It Better Than Infinio Ultra Sphere?\nPhonak A\u2026",
+          "title": "Phonak Launch Audéo Eon Sphere: Is It Better Than Infinio Ultra Sphere?\nPhonak A…",
           "url": "https://www.youtube.com/watch?v=shJqytzMB9I",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1101,13 +1051,13 @@
     },
     {
       "id": "l552",
-      "text": "BEST Hearing Aids of 2026 | Doctor Cliff Show\nIf you're searching for the best hearing aids of 2026, this episode of the Dr. Cliff Show gives you a real-world, no-nonsense breakdown of the top devices available today.\n\nI\u2019m joined by Dr. Kelsey Beck and audiology extern Jena Wingett as we walk through the hearing aids we trust most in our clinic\u2014the same devices we fit on patients every single day. We\u2019re not just talking about specs\u2026 we\u2019re talking about actual performance where it matters most: h\u2026",
+      "text": "BEST Hearing Aids of 2026 | Doctor Cliff Show\nIf you're searching for the best hearing aids of 2026, this episode of the Dr. Cliff Show gives you a real-world, no-nonsense breakdown of the top devices available today.\n\nI’m joined by Dr. Kelsey Beck and audiology extern Jena Wingett as we walk through the hearing aids we trust most in our clinic—the same devices we fit on patients every single day. We’re not just talking about specs… we’re talking about actual performance where it matters most: h…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "BEST Hearing Aids of 2026 | Doctor Cliff Show\nIf you're searching for the best h\u2026",
+          "title": "BEST Hearing Aids of 2026 | Doctor Cliff Show\nIf you're searching for the best h…",
           "url": "https://www.youtube.com/watch?v=5aI7eZPFlLo",
           "date": "2026-03-21",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1122,13 +1072,13 @@
     },
     {
       "id": "l553",
-      "text": "I Tested the Starkey Omega AI: BEST Hearing Aid in 2026?\n\u27a1\ufe0f Unlock Lasting Relief From Tinnitus! Schedule a FREE Consultation with Treble Health Today: https://treble.health/schedule274\n\nDr. Cory reviews the Starkey Omega AI hearing aid, covering sound quality, AI features, Bluetooth connectivity, battery life, and health tracking tools. He explains DNN 360 processing, Edge Mode, and built-in tinnitus sound therapy options for better hearing and daily performance. If you are considering advanced\u2026",
+      "text": "I Tested the Starkey Omega AI: BEST Hearing Aid in 2026?\n➡️ Unlock Lasting Relief From Tinnitus! Schedule a FREE Consultation with Treble Health Today: https://treble.health/schedule274\n\nDr. Cory reviews the Starkey Omega AI hearing aid, covering sound quality, AI features, Bluetooth connectivity, battery life, and health tracking tools. He explains DNN 360 processing, Edge Mode, and built-in tinnitus sound therapy options for better hearing and daily performance. If you are considering advanced…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "I Tested the Starkey Omega AI: BEST Hearing Aid in 2026?\n\u27a1\ufe0f Unlock Lasting Relie\u2026",
+          "title": "I Tested the Starkey Omega AI: BEST Hearing Aid in 2026?\n➡️ Unlock Lasting Relie…",
           "url": "https://www.youtube.com/watch?v=-m08YK9jt6c",
           "date": "2026-04-25",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1143,7 +1093,7 @@
     },
     {
       "id": "l454",
-      "text": "Up to $145,000 Package! Audiologist/Audiometrist - Cairns Earlville & Smithfield, QLD \u2014 Specsavers (Cairns, Queensland, Australia). Posted 2 days ago.",
+      "text": "Up to $145,000 Package! Audiologist/Audiometrist - Cairns Earlville & Smithfield, QLD — Specsavers (Cairns, Queensland, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1164,7 +1114,7 @@
     },
     {
       "id": "l455",
-      "text": "Audiologist \u2014 Australian Audiology Hearing Specialists (Gold Coast, Queensland, Australia). Posted 5 days ago.",
+      "text": "Audiologist — Australian Audiology Hearing Specialists (Gold Coast, Queensland, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1185,7 +1135,7 @@
     },
     {
       "id": "l456",
-      "text": "Audiologist \u2014 SMAART Recruitment (Brisbane, Queensland, Australia). Posted 2 days ago.",
+      "text": "Audiologist — SMAART Recruitment (Brisbane, Queensland, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1206,7 +1156,7 @@
     },
     {
       "id": "l457",
-      "text": "Audiologist/Audiometrist | Future Opportunities (Australia) \u2014 Connect Hearing Australia (Australia). Posted 1 week ago.",
+      "text": "Audiologist/Audiometrist | Future Opportunities (Australia) — Connect Hearing Australia (Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1227,7 +1177,7 @@
     },
     {
       "id": "l458",
-      "text": "Clinician, Edgewater \u2014 Audika Australia (Edgewater, Western Australia, Australia). Posted 1 week ago.",
+      "text": "Clinician, Edgewater — Audika Australia (Edgewater, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1248,7 +1198,7 @@
     },
     {
       "id": "l459",
-      "text": "Clinicians - Audika's Talent pool \u2014 Audika Australia (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Clinicians - Audika's Talent pool — Audika Australia (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1269,7 +1219,7 @@
     },
     {
       "id": "l460",
-      "text": "QP Audiologist - Gold Coast \u2014 Neurosensory (Benowa, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "QP Audiologist - Gold Coast — Neurosensory (Benowa, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1290,7 +1240,7 @@
     },
     {
       "id": "l461",
-      "text": "Audiologist - Attune Canberra \u2014 Attune Hearing (Canberra, Australian Capital Territory, Australia). Posted 1 day ago.",
+      "text": "Audiologist - Attune Canberra — Attune Hearing (Canberra, Australian Capital Territory, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1311,13 +1261,13 @@
     },
     {
       "id": "l462",
-      "text": "Audiologist/Audiometrist Opportunity \u2013 Specsavers Partnership | Winthrop & Fremantle, WA \u2014 Specsavers (Fremantle, Western Australia, Australia). Posted 1 month ago.",
+      "text": "Audiologist/Audiometrist Opportunity – Specsavers Partnership | Winthrop & Fremantle, WA — Specsavers (Fremantle, Western Australia, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
           "publisher": "Specsavers",
-          "title": "Audiologist/Audiometrist Opportunity \u2013 Specsavers Partnership | Winthrop & Fremantle, WA",
+          "title": "Audiologist/Audiometrist Opportunity – Specsavers Partnership | Winthrop & Fremantle, WA",
           "url": "https://www.linkedin.com/jobs/view/4427215718",
           "date": "1 month ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
@@ -1332,7 +1282,7 @@
     },
     {
       "id": "l463",
-      "text": "Audiologist - Cairns \u2014 OPSM (Cairns, Queensland, Australia). Posted 2 months ago.",
+      "text": "Audiologist - Cairns — OPSM (Cairns, Queensland, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1353,13 +1303,13 @@
     },
     {
       "id": "l564",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1374,13 +1324,13 @@
     },
     {
       "id": "l565",
-      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c\u2026",
+      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public \u2026",
+          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public …",
           "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vnsz0y/jpmorgan_ceo_jamie_dimon_declares_ai_deployment/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1395,13 +1345,13 @@
     },
     {
       "id": "l566",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the ram for a motherboard upgrade or a cor\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the ram for a motherboard upgrade or a cor…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcmasterrace/comments/1vfe28b/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1416,13 +1366,13 @@
     },
     {
       "id": "l567",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards . For all I know everything else could become ten times as expensive and it wouldn't change anything because without those component Don't forget ssds and hard drives. Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed.\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards . For all I know everything else could become ten times as expensive and it wouldn't change anything because without those component Don't forget ssds and hard drives. Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed.…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcgaming/comments/1vfe3ru/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1437,13 +1387,13 @@
     },
     {
       "id": "l568",
-      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k\u2026",
+      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A\u2026",
+          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A…",
           "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1458,13 +1408,13 @@
     },
     {
       "id": "l569",
-      "text": "Phonak Launch Aud\u00e9o Eon Sphere: Is It Better Than Infinio Ultra Sphere?\nPhonak Aud\u00e9o Eon is the latest generation of Phonak\u2019s AI-powered hearing aid technology \u2014 with a 25% smaller design, the new Hypersonic processor, Spheric Speech Clarity 3.0, AutoSense OS AI 8.0, WindBlock 2.0 and finally Auracast. But is Aud\u00e9o Eon actually better than Phonak Infinio Ultra Sphere?\n\nOur coverage: https://www.hearingtracker.com/news/phonak-eon-debuts-smaller-sphere-auracast-and-windblock\n\nIn this video, I brea\u2026",
+      "text": "Phonak Launch Audéo Eon Sphere: Is It Better Than Infinio Ultra Sphere?\nPhonak Audéo Eon is the latest generation of Phonak’s AI-powered hearing aid technology — with a 25% smaller design, the new Hypersonic processor, Spheric Speech Clarity 3.0, AutoSense OS AI 8.0, WindBlock 2.0 and finally Auracast. But is Audéo Eon actually better than Phonak Infinio Ultra Sphere?\n\nOur coverage: https://www.hearingtracker.com/news/phonak-eon-debuts-smaller-sphere-auracast-and-windblock\n\nIn this video, I brea…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Phonak Launch Aud\u00e9o Eon Sphere: Is It Better Than Infinio Ultra Sphere?\nPhonak A\u2026",
+          "title": "Phonak Launch Audéo Eon Sphere: Is It Better Than Infinio Ultra Sphere?\nPhonak A…",
           "url": "https://www.youtube.com/watch?v=shJqytzMB9I",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1479,13 +1429,13 @@
     },
     {
       "id": "l570",
-      "text": "BEST Hearing Aids of 2026 | Doctor Cliff Show\nIf you're searching for the best hearing aids of 2026, this episode of the Dr. Cliff Show gives you a real-world, no-nonsense breakdown of the top devices available today.\n\nI\u2019m joined by Dr. Kelsey Beck and audiology extern Jena Wingett as we walk through the hearing aids we trust most in our clinic\u2014the same devices we fit on patients every single day. We\u2019re not just talking about specs\u2026 we\u2019re talking about actual performance where it matters most: h\u2026",
+      "text": "BEST Hearing Aids of 2026 | Doctor Cliff Show\nIf you're searching for the best hearing aids of 2026, this episode of the Dr. Cliff Show gives you a real-world, no-nonsense breakdown of the top devices available today.\n\nI’m joined by Dr. Kelsey Beck and audiology extern Jena Wingett as we walk through the hearing aids we trust most in our clinic—the same devices we fit on patients every single day. We’re not just talking about specs… we’re talking about actual performance where it matters most: h…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "BEST Hearing Aids of 2026 | Doctor Cliff Show\nIf you're searching for the best h\u2026",
+          "title": "BEST Hearing Aids of 2026 | Doctor Cliff Show\nIf you're searching for the best h…",
           "url": "https://www.youtube.com/watch?v=5aI7eZPFlLo",
           "date": "2026-03-21",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1500,13 +1450,13 @@
     },
     {
       "id": "l571",
-      "text": "I Tested the Starkey Omega AI: BEST Hearing Aid in 2026?\n\u27a1\ufe0f Unlock Lasting Relief From Tinnitus! Schedule a FREE Consultation with Treble Health Today: https://treble.health/schedule274\n\nDr. Cory reviews the Starkey Omega AI hearing aid, covering sound quality, AI features, Bluetooth connectivity, battery life, and health tracking tools. He explains DNN 360 processing, Edge Mode, and built-in tinnitus sound therapy options for better hearing and daily performance. If you are considering advanced\u2026",
+      "text": "I Tested the Starkey Omega AI: BEST Hearing Aid in 2026?\n➡️ Unlock Lasting Relief From Tinnitus! Schedule a FREE Consultation with Treble Health Today: https://treble.health/schedule274\n\nDr. Cory reviews the Starkey Omega AI hearing aid, covering sound quality, AI features, Bluetooth connectivity, battery life, and health tracking tools. He explains DNN 360 processing, Edge Mode, and built-in tinnitus sound therapy options for better hearing and daily performance. If you are considering advanced…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "I Tested the Starkey Omega AI: BEST Hearing Aid in 2026?\n\u27a1\ufe0f Unlock Lasting Relie\u2026",
+          "title": "I Tested the Starkey Omega AI: BEST Hearing Aid in 2026?\n➡️ Unlock Lasting Relie…",
           "url": "https://www.youtube.com/watch?v=-m08YK9jt6c",
           "date": "2026-04-25",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1599,6 +1549,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

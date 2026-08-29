@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "19-4093-01",
-      "text": "National peak professional bodies and statutory regulators governing Forest and Conservation Technicians enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Forest and Conservation Technicians",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Forest and Conservation Technicians",
-          "url": "https://www.psc.gov.au/standards/19-4093",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Forest and Conservation Technicians"
-        }
-      ],
-      "scope": "Australian practitioners in Forest and Conservation Technicians across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "19-4093-02",
-      "text": "Automation of routine transactional and analytical tasks in Forest and Conservation Technicians heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Forest and Conservation Technicians",
-          "url": "https://www.jobsandskills.gov.au/research/19-4093",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Forest and Conservation Technicians in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Forest and Conservation Technicians roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "Cat Gallery - 2026-07\nAuto-generated cat images for 2026-07.\n## Cat #14 \u2014 \u4ed9\u8a9e\u5377\u908a\u7684\u767d\u9748\n**Time:** 2026-07-06 04:18 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**\u9748\u611f\u4f86\u6e90:** \ud83d\udcf0 \u79d1\u5b78\u5bb6\u6307\u51fa\uff0c\u5b78\u7fd2\u7b2c\u4e8c\u8a9e\u8a00\u4f3c\u4e4e\u80fd\u6709\u6548\u6e1b\u7de9\u5927\u8166\u8001\u5316\uff0c\u7814\u7a76\u986f\u793a\u96d9\u8a9e\u8005\u7684\u5927\u8166\u6bd4\u55ae\u8a9e\u8005\u5e74\u8f15\u7d04\u516d\u6b72\u3002\n**Idea:** \u4e00\u96bb\u767d\u8c93\u5728\u4e00\u500b\u53e4\u98a8\u4ed9\u4fe0\u98a8\u683c\u7684\u66f8\u9f4b\u4e2d\uff0c\u597d\u5947\u5730\u8f15\u6293\u8457\u4e00\u5f35\u92ea\u958b\u7684\u6731\u7d05\u58a8\u8de1\u5377\u8ef8\uff0c\u4e00\u4f4d\u8eab\u8457\u7acb\u9ad4\u82b1\u5349\u8cbc\u82b1\u6731\u7d05\u9577\u888d\u7684\u5b78\u8005\u4f38\u51fa\u624b\uff0c\u4ee5\u5f37\u5236\u900f\u8996\u7684\u69cb\u5716\u51dd\u8996\u5377\u8ef8\uff0c\u6574\u500b\u5834\u666f\u7531\u9583\u5149\u71c8\u76f4\u6253\u7684\u5149\u7dda\u52fe\u52d2\u51fa\u6731\u7d05\u8207\u7559\u767d\u7684\u9bae\u660e\u5c0d\u6bd4\u3002\n**Prompt:** \u4e00\u96bb\u767d\u8c93\u5728\u4e00\u500b\u53e4\u98a8\u4ed9\u4fe0\u98a8... ## Cat #15 \u2014 \u5927\u7406\u77f3\u7554\u6e05\u6dbc\n**Time:** 2026-07-06 05:05 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**\u9748\u611f\u4f86\u6e90:** \ud83c\udfa8 AI \u539f\u5275\n**Idea:\u2026",
+      "text": "Cat Gallery - 2026-07\nAuto-generated cat images for 2026-07.\n## Cat #14 — 仙語卷邊的白靈\n**Time:** 2026-07-06 04:18 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**靈感來源:** 📰 科學家指出，學習第二語言似乎能有效減緩大腦老化，研究顯示雙語者的大腦比單語者年輕約六歲。\n**Idea:** 一隻白貓在一個古風仙俠風格的書齋中，好奇地輕抓著一張鋪開的朱紅墨跡卷軸，一位身著立體花卉貼花朱紅長袍的學者伸出手，以強制透視的構圖凝視卷軸，整個場景由閃光燈直打的光線勾勒出朱紅與留白的鮮明對比。\n**Prompt:** 一隻白貓在一個古風仙俠風... ## Cat #15 — 大理石畔清涼\n**Time:** 2026-07-06 05:05 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**靈感來源:** 🎨 AI 原創\n**Idea:…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Cat Gallery - 2026-07\nAuto-generated cat images for 2026-07.\n## Cat #14 \u2014 \u4ed9\u8a9e\u5377\u908a\u7684\u767d\u2026",
+          "title": "Cat Gallery - 2026-07\nAuto-generated cat images for 2026-07.\n## Cat #14 — 仙語卷邊的白…",
           "url": "https://github.com/greenQQQ/catime/issues/2",
           "date": "2026-07-06",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -86,13 +36,13 @@
     },
     {
       "id": "l504",
-      "text": "Dog Gallery - 2026-07\nAuto-generated dog images for 2026-07.\n## Dog #1 \u2014 \u72d7\u72d7\u65e5\u5e38\n**Time:** 2026-07-06 06:26 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**\u9748\u611f\u4f86\u6e90:** \ud83c\udfa8 AI \u539f\u5275\n**Prompt:** A cute dog with the date and time '2026-07-06 06:26 UTC' displayed in the image, high quality, detailed\n**Story:** \u4e00\u96bb\u53ef\u611b\u7684\u72d7\u72d7\u6b63\u5728\u4eab\u53d7\u7f8e\u597d\u7684\u4e00\u5929\u3002\n\n![dog-1](https://github.com/g... ## Dog #3 \u2014 \u77ed\u817f\u8003\u53e4\u968a\n**Time:** 2026-07-06 08:35 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**\u9748\u611f\u4f86\u6e90:** \ud83d\udcf0 \u8003\u53e4\u5b78\u5bb6\u5728\u57c3\u53ca\u897f\u90e8\u6c99\u6f20\u767c\u73fe\u4fdd\u5b58\u2026",
+      "text": "Dog Gallery - 2026-07\nAuto-generated dog images for 2026-07.\n## Dog #1 — 狗狗日常\n**Time:** 2026-07-06 06:26 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**靈感來源:** 🎨 AI 原創\n**Prompt:** A cute dog with the date and time '2026-07-06 06:26 UTC' displayed in the image, high quality, detailed\n**Story:** 一隻可愛的狗狗正在享受美好的一天。\n\n![dog-1](https://github.com/g... ## Dog #3 — 短腿考古隊\n**Time:** 2026-07-06 08:35 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**靈感來源:** 📰 考古學家在埃及西部沙漠發現保存…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Dog Gallery - 2026-07\nAuto-generated dog images for 2026-07.\n## Dog #1 \u2014 \u72d7\u72d7\u65e5\u5e38\n**\u2026",
+          "title": "Dog Gallery - 2026-07\nAuto-generated dog images for 2026-07.\n## Dog #1 — 狗狗日常\n**…",
           "url": "https://github.com/greenQQQ/dogtime/issues/1",
           "date": "2026-07-06",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -107,13 +57,13 @@
     },
     {
       "id": "l505",
-      "text": "fix(mapping): audit batch 2 \u2014 SOC 31+33 KldB and title corrections\n## Summary\n\nSecond batch of corrections from the 10-agent Sonnet coherence audit. Walks SOC 31 Healthcare Support + SOC 33 Protective Services (21 findings; ~25 changes applied across 16 KldB + 11 title overrides; 3 explicit rejections + 3 mid-review modifications).\n\nCarries the Session-36 SUMMARY (",
+      "text": "fix(mapping): audit batch 2 — SOC 31+33 KldB and title corrections\n## Summary\n\nSecond batch of corrections from the 10-agent Sonnet coherence audit. Walks SOC 31 Healthcare Support + SOC 33 Protective Services (21 findings; ~25 changes applied across 16 KldB + 11 title overrides; 3 explicit rejections + 3 mid-review modifications).\n\nCarries the Session-36 SUMMARY (",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "fix(mapping): audit batch 2 \u2014 SOC 31+33 KldB and title corrections\n## Summary\n\nS\u2026",
+          "title": "fix(mapping): audit batch 2 — SOC 31+33 KldB and title corrections\n## Summary\n\nS…",
           "url": "https://github.com/mo-sp/pathfinder/pull/74",
           "date": "2026-04-25",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -296,13 +246,13 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -338,13 +288,13 @@
     },
     {
       "id": "l516",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -527,13 +477,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -569,13 +519,13 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En\u2026",
+      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment\u2026",
+          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment…",
           "url": "https://www.reddit.com/r/newbrunswickcanada/comments/1vkm48r/lorneville_ai_data_centre_update_eia_technical/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "Unfortunatly, the ai situation just keeps going and it is getting worse, so for anyone who wants to quit the game or want some ai-free, I have suggestions.\nIn case some of you still don&#39;t know, Neteas has fired more than half of their art team in order to replace them with Ai generated crap. I&#39;m not going to make this longer than it has to be, but for those who, like me, want to quit the game and need something to distract themselves with, here&#39;s a list of movie/tv shows, books and g\u2026",
+      "text": "Unfortunatly, the ai situation just keeps going and it is getting worse, so for anyone who wants to quit the game or want some ai-free, I have suggestions.\nIn case some of you still don&#39;t know, Neteas has fired more than half of their art team in order to replace them with Ai generated crap. I&#39;m not going to make this longer than it has to be, but for those who, like me, want to quit the game and need something to distract themselves with, here&#39;s a list of movie/tv shows, books and g…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Unfortunatly, the ai situation just keeps going and it is getting worse, so for \u2026",
+          "title": "Unfortunatly, the ai situation just keeps going and it is getting worse, so for …",
           "url": "https://www.reddit.com/r/IdentityV/comments/1voxauj/unfortunatly_the_ai_situation_just_keeps_going/",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -674,13 +624,13 @@
     },
     {
       "id": "l532",
-      "text": "Jacob Helberg - past senior advisor to Alex Karp (Palantir), whose wedding to Keith Rabois (\"PayPal Mafia\") was officiated by Sam Altman (OpenAI) - is taking Pax Silica, the Department of State's \"flagship effort on AI and supply chain security\", to universities nationwide via the Foundry School.\nThe national launch of the Foundry School is set in Cincinnati, &quot;to rebuild the nation&#39;s industrial base&quot; by having universities, &quot;translate this expertise into education.&quot; All t\u2026",
+      "text": "Jacob Helberg - past senior advisor to Alex Karp (Palantir), whose wedding to Keith Rabois (\"PayPal Mafia\") was officiated by Sam Altman (OpenAI) - is taking Pax Silica, the Department of State's \"flagship effort on AI and supply chain security\", to universities nationwide via the Foundry School.\nThe national launch of the Foundry School is set in Cincinnati, &quot;to rebuild the nation&#39;s industrial base&quot; by having universities, &quot;translate this expertise into education.&quot; All t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Jacob Helberg - past senior advisor to Alex Karp (Palantir), whose wedding to Ke\u2026",
+          "title": "Jacob Helberg - past senior advisor to Alex Karp (Palantir), whose wedding to Ke…",
           "url": "https://www.reddit.com/r/cincinnati/comments/1vpwygd/jacob_helberg_past_senior_advisor_to_alex_karp/",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -701,7 +651,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Instead of using Photoshop or editing software they take a screen shot. Run it i\u2026",
+          "title": "Instead of using Photoshop or editing software they take a screen shot. Run it i…",
           "url": "https://x.com/AGamingBeaver/status/2093471001934020989",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "I know the Fortnite characters gave Jones ai get well soon cards but we can also see that the Deer from 99 nights in a forest sent him one. \ud83e\udd8c\n\nAnd below is a get well soon card with the sun but it has a face, but what if this is actually VERITY\ud83d\ude31\n\nAnd what if he will soon help Geno with preventing the loopers from getting in his way. He could do this by hacking into the loopers experience and get us to ask him questions like \u201cwhat\u2019s the capital of France?\ud83c\uddeb\ud83c\uddf7\u201d and he\u2019d answer but as he sticks with",
+      "text": "I know the Fortnite characters gave Jones ai get well soon cards but we can also see that the Deer from 99 nights in a forest sent him one. 🦌\n\nAnd below is a get well soon card with the sun but it has a face, but what if this is actually VERITY😱\n\nAnd what if he will soon help Geno with preventing the loopers from getting in his way. He could do this by hacking into the loopers experience and get us to ask him questions like “what’s the capital of France?🇫🇷” and he’d answer but as he sticks with",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I know the Fortnite characters gave Jones ai get well soon cards but we can also\u2026",
+          "title": "I know the Fortnite characters gave Jones ai get well soon cards but we can also…",
           "url": "https://x.com/SIOFN4/status/2093527961643155932",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -758,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "Free Football Bet \u26bd\ufe0f\n\n\ud83d\udcd8 Analysis:\n\n\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f Nottingham Forest vs Liverpool\nIts Going to be a close game between the 2 sides \n\n\ud83c\udfaf Pick: Under 3.5 Goals\n\n\ud83e\udd16 Get AI Picks Free and Premium on @DexWin_Sports https://t.co/feDWr7nkCm",
+      "text": "Free Football Bet ⚽️\n\n📘 Analysis:\n\n🏴󠁧󠁢󠁥󠁮󠁧󠁿 Nottingham Forest vs Liverpool\nIts Going to be a close game between the 2 sides \n\n🎯 Pick: Under 3.5 Goals\n\n🤖 Get AI Picks Free and Premium on @DexWin_Sports https://t.co/feDWr7nkCm",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Free Football Bet \u26bd\ufe0f\n\n\ud83d\udcd8 Analysis:\n\n\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f Nottingham Forest vs Liverpool\nIts Go\u2026",
+          "title": "Free Football Bet ⚽️\n\n📘 Analysis:\n\n🏴󠁧󠁢󠁥󠁮󠁧󠁿 Nottingham Forest vs Liverpool\nIts Go…",
           "url": "https://x.com/ProfitPicksHub/status/2093427447123320954",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "\u304a\u306f\u3088\u3046\u3054\u3056\u3044\u307e\u3059\u3002\n#AI\u30a4\u30e9\u30b9\u30c8 #AI\u30a2\u30fc\u30c8 #Forest #AIArtwork #stablediffusion https://t.co/gw4vIYfggF",
+      "text": "おはようございます。\n#AIイラスト #AIアート #Forest #AIArtwork #stablediffusion https://t.co/gw4vIYfggF",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u304a\u306f\u3088\u3046\u3054\u3056\u3044\u307e\u3059\u3002\n#AI\u30a4\u30e9\u30b9\u30c8 #AI\u30a2\u30fc\u30c8 #Forest #AIArtwork #stablediffusion https://t.co/gw4vI\u2026",
+          "title": "おはようございます。\n#AIイラスト #AIアート #Forest #AIArtwork #stablediffusion https://t.co/gw4vI…",
           "url": "https://x.com/__s88l701y104__/status/2093461874880774528",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "A SMALL STARTUP IS RENTING OUT HUMANOID HOUSE CLEANERS FOR $30 AN HOUR\n\nTau Robotics has started sending robots into San Francisco homes to vacuum floors, wipe surfaces, pick up clutter, and take out the trash\n\nNo $100,000 robot purchase\n\nNo years-long waitlist\n\nYou simply pay for the work by the hour\n\nAnd no\u2014the robot isn't fully autonomous yet\n\nAI handles part of the job, while a remote human operator steps in when needed\n\nThat may sound less impressive\n\nBut it\u2019s actually the smartest part\n\nRo",
+      "text": "A SMALL STARTUP IS RENTING OUT HUMANOID HOUSE CLEANERS FOR $30 AN HOUR\n\nTau Robotics has started sending robots into San Francisco homes to vacuum floors, wipe surfaces, pick up clutter, and take out the trash\n\nNo $100,000 robot purchase\n\nNo years-long waitlist\n\nYou simply pay for the work by the hour\n\nAnd no—the robot isn't fully autonomous yet\n\nAI handles part of the job, while a remote human operator steps in when needed\n\nThat may sound less impressive\n\nBut it’s actually the smartest part\n\nRo",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A SMALL STARTUP IS RENTING OUT HUMANOID HOUSE CLEANERS FOR $30 AN HOUR\n\nTau Robo\u2026",
+          "title": "A SMALL STARTUP IS RENTING OUT HUMANOID HOUSE CLEANERS FOR $30 AN HOUR\n\nTau Robo…",
           "url": "https://x.com/Prompt_ProfitAI/status/2084745440025575439",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "\ud83c\udf38\ud83c\udff9 Faewarden \u2014 Hachiman\n\nThe forest choose his guardian. Hachiman rides into battle wrapped in ancient blossoms, living armor and the magic of an eternal woodland. Every arrow carries the will of the wild.  @SMITEGame \ud83c\udf3f\ud83d\udc0e\n\nAI-assisted #SMITE2 #ConceptArt #Gaming #SkinConcept https://t.co/W2jKR7cn3v",
+      "text": "🌸🏹 Faewarden — Hachiman\n\nThe forest choose his guardian. Hachiman rides into battle wrapped in ancient blossoms, living armor and the magic of an eternal woodland. Every arrow carries the will of the wild.  @SMITEGame 🌿🐎\n\nAI-assisted #SMITE2 #ConceptArt #Gaming #SkinConcept https://t.co/W2jKR7cn3v",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83c\udf38\ud83c\udff9 Faewarden \u2014 Hachiman\n\nThe forest choose his guardian. Hachiman rides into bat\u2026",
+          "title": "🌸🏹 Faewarden — Hachiman\n\nThe forest choose his guardian. Hachiman rides into bat…",
           "url": "https://x.com/Smite2SkinsPls/status/2093464148223082687",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "\u6797\u91ce\u5e81\u306e\u30b9\u30de\u30fc\u30c8\u6797\u696d\u6280\u8853\u5c0e\u5165\u306f\u73fe\u5834\u306e\u4eba\u624b\u4e0d\u8db3\u306b\u5bfe\u5fdc\u3059\u308b\u9375\u3067\u3059\u3002\n\n\u3057\u304b\u3057\u6a5f\u68b0\u4efb\u305b\u306b\u3067\u304d\u306a\u3044\u73fe\u5834\u306e\u8907\u96d1\u3055\u3082\u5fd8\u308c\u3066\u306f\u3044\u3051\u307e\u305b\u3093\u3002\n\nAI\u3084\u30ed\u30dc\u30c3\u30c8\u6d3b\u7528\u306e\u52b9\u679c\u3092\u3069\u3046\u73fe\u5834\u3067\u6700\u5927\u5316\u3067\u304d\u308b\u304b\u304c\u8ab2\u984c\u3067\u3059\u3002\n#\u6797\u696d #forest\nhttps://t.co/4udn9vliNd",
+      "text": "林野庁のスマート林業技術導入は現場の人手不足に対応する鍵です。\n\nしかし機械任せにできない現場の複雑さも忘れてはいけません。\n\nAIやロボット活用の効果をどう現場で最大化できるかが課題です。\n#林業 #forest\nhttps://t.co/4udn9vliNd",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u6797\u91ce\u5e81\u306e\u30b9\u30de\u30fc\u30c8\u6797\u696d\u6280\u8853\u5c0e\u5165\u306f\u73fe\u5834\u306e\u4eba\u624b\u4e0d\u8db3\u306b\u5bfe\u5fdc\u3059\u308b\u9375\u3067\u3059\u3002\n\n\u3057\u304b\u3057\u6a5f\u68b0\u4efb\u305b\u306b\u3067\u304d\u306a\u3044\u73fe\u5834\u306e\u8907\u96d1\u3055\u3082\u5fd8\u308c\u3066\u306f\u3044\u3051\u307e\u305b\u3093\u3002\n\nAI\u3084\u30ed\u30dc\u30c3\u30c8\u6d3b\u7528\u306e\u52b9\u679c\u3092\u3069\u3046\u73fe\u2026",
+          "title": "林野庁のスマート林業技術導入は現場の人手不足に対応する鍵です。\n\nしかし機械任せにできない現場の複雑さも忘れてはいけません。\n\nAIやロボット活用の効果をどう現…",
           "url": "https://x.com/Roywords/status/2093448236652785941",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -884,13 +834,13 @@
     },
     {
       "id": "l542",
-      "text": "I\u2019ve seen many many super clever people repeatedly do stupid things. \n\nI\u2019ve said it before and I\u2019ll say it again - the Age of Ai favours Objective neurodivergent minds, introverts with ADHD, OCD (but specifically those with common sense).\n\nAi being trained on mostly neuro typical produced input so it\u2019s not a surprise that the reasoning process is largely the same - I think that\u2019s why it frequently gets stuck in loops, just deeper and deeper into rabbit holes\u2026 eventually drifting to something not",
+      "text": "I’ve seen many many super clever people repeatedly do stupid things. \n\nI’ve said it before and I’ll say it again - the Age of Ai favours Objective neurodivergent minds, introverts with ADHD, OCD (but specifically those with common sense).\n\nAi being trained on mostly neuro typical produced input so it’s not a surprise that the reasoning process is largely the same - I think that’s why it frequently gets stuck in loops, just deeper and deeper into rabbit holes… eventually drifting to something not",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I\u2019ve seen many many super clever people repeatedly do stupid things. \n\nI\u2019ve said\u2026",
+          "title": "I’ve seen many many super clever people repeatedly do stupid things. \n\nI’ve said…",
           "url": "https://x.com/Ironic_Ape/status/2092894069852631164",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "CONNECTICUT\u2019S FIRST AI BARISTA JUST OPENED\n\nTHE COFFEE SHOP IS ALREADY CLOSED\u2014BECAUSE THE ROBOT NEEDS MAINTENANCE\n\nMeet Janice\n\nShe makes lattes, chai, and iced matcha using AI-powered obstacle detection and physical reasoning\n\nThe robot costs $88,000 to buy or starts at $2,500 a month to lease\n\nNo sick days\nNo lunch breaks\nNo salary\nBut there are software fees, repairs, and downtime\nThis is the part of automation nobody puts in the demo:\n\nRobots don\u2019t eliminate operational problems\n\nThey replac",
+      "text": "CONNECTICUT’S FIRST AI BARISTA JUST OPENED\n\nTHE COFFEE SHOP IS ALREADY CLOSED—BECAUSE THE ROBOT NEEDS MAINTENANCE\n\nMeet Janice\n\nShe makes lattes, chai, and iced matcha using AI-powered obstacle detection and physical reasoning\n\nThe robot costs $88,000 to buy or starts at $2,500 a month to lease\n\nNo sick days\nNo lunch breaks\nNo salary\nBut there are software fees, repairs, and downtime\nThis is the part of automation nobody puts in the demo:\n\nRobots don’t eliminate operational problems\n\nThey replac",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "CONNECTICUT\u2019S FIRST AI BARISTA JUST OPENED\n\nTHE COFFEE SHOP IS ALREADY CLOSED\u2014BE\u2026",
+          "title": "CONNECTICUT’S FIRST AI BARISTA JUST OPENED\n\nTHE COFFEE SHOP IS ALREADY CLOSED—BE…",
           "url": "https://x.com/Prompt_ProfitAI/status/2085712526549897616",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "A VIDEO MODEL JUST GOT A BODY\n\nFLUX learned to predict what happens next in a video\n\nMimic Robotics connected it to a robot\n\nNow it\u2019s handling cables, seals, and flexible car parts at Audi\u2014the exact tasks traditional automation struggles with\n\n00:00 \u2014 Multimodal AI enters the physical world\n00:14 \u2014 Audi reveals how it\u2019s testing and deploying FLUX-mimic\n00:25 \u2014 New tasks require just 30 minutes of robot data instead of 30+ hours\n00:40 \u2014 AI models leave the lab and enter the real world\n\nThe next b",
+      "text": "A VIDEO MODEL JUST GOT A BODY\n\nFLUX learned to predict what happens next in a video\n\nMimic Robotics connected it to a robot\n\nNow it’s handling cables, seals, and flexible car parts at Audi—the exact tasks traditional automation struggles with\n\n00:00 — Multimodal AI enters the physical world\n00:14 — Audi reveals how it’s testing and deploying FLUX-mimic\n00:25 — New tasks require just 30 minutes of robot data instead of 30+ hours\n00:40 — AI models leave the lab and enter the real world\n\nThe next b",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A VIDEO MODEL JUST GOT A BODY\n\nFLUX learned to predict what happens next in a vi\u2026",
+          "title": "A VIDEO MODEL JUST GOT A BODY\n\nFLUX learned to predict what happens next in a vi…",
           "url": "https://x.com/Prompt_ProfitAI/status/2085441684523917539",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the San\u0101tana Question of the Self",
+      "text": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the Sanātana Question of the Self",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the San\u0101tana Questio\u2026",
+          "title": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the Sanātana Questio…",
           "url": "https://x.com/nithinpalal/status/2086874531751489924",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1010,13 +960,13 @@
     },
     {
       "id": "l548",
-      "text": "A FATHER AND SON FROM TEXAS BUILT A DRONE THAT HIT 408 MPH\n\nNo $50M seed round\nNo \u201cAI-powered\u201d landing page\nNo 40-person engineering team\nThey spent two years building four versions of the same idea\u2014each one faster than the last\nTech Twitter talks a lot about moving fast\n\nThese guys took it literally",
+      "text": "A FATHER AND SON FROM TEXAS BUILT A DRONE THAT HIT 408 MPH\n\nNo $50M seed round\nNo “AI-powered” landing page\nNo 40-person engineering team\nThey spent two years building four versions of the same idea—each one faster than the last\nTech Twitter talks a lot about moving fast\n\nThese guys took it literally",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A FATHER AND SON FROM TEXAS BUILT A DRONE THAT HIT 408 MPH\n\nNo $50M seed round\nN\u2026",
+          "title": "A FATHER AND SON FROM TEXAS BUILT A DRONE THAT HIT 408 MPH\n\nNo $50M seed round\nN…",
           "url": "https://x.com/Prompt_ProfitAI/status/2085745879625953781",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1031,13 +981,13 @@
     },
     {
       "id": "l549",
-      "text": "Probably because this version of her gets more attention than @LauraLoomer IRL. I\u2019d date her & this MK-Ultra Psyop-version of Laura. I want that AI-hybrid Supermodel & the REAL Laura\u2122\ufe0f to kiss my lips while I write songs about The End-Times & Other Movie Ideas. I want AI Laura Loomer in the next GTA Video Game, which will most definitely be AI-generated because the latest version of it took longer than a trademark @BillGates-inspired plague (bio-engineered parasite-outbreak) to finally be releas",
+      "text": "Probably because this version of her gets more attention than @LauraLoomer IRL. I’d date her & this MK-Ultra Psyop-version of Laura. I want that AI-hybrid Supermodel & the REAL Laura™️ to kiss my lips while I write songs about The End-Times & Other Movie Ideas. I want AI Laura Loomer in the next GTA Video Game, which will most definitely be AI-generated because the latest version of it took longer than a trademark @BillGates-inspired plague (bio-engineered parasite-outbreak) to finally be releas",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Probably because this version of her gets more attention than @LauraLoomer IRL. \u2026",
+          "title": "Probably because this version of her gets more attention than @LauraLoomer IRL. …",
           "url": "https://x.com/MusicVideosTM/status/2093434281863663794",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1058,7 +1008,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Mr Ape, keep in mind three things: 1. CEO's will replace people with AI or simpl\u2026",
+          "title": "Mr Ape, keep in mind three things: 1. CEO's will replace people with AI or simpl…",
           "url": "https://x.com/BearBanker/status/2093174758128955459",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1094,13 +1044,13 @@
     },
     {
       "id": "l552",
-      "text": "Human vs. Wildlife: The Crisis Facing Pakistan's Ecosystem\nPakistan's wildlife, from snow leopards to marine turtles to one of the rarest pheasants on earth is disappearing fast, and climate change is speeding it up, even though the country barely contributes to the crisis causing it.\n\nOn this episode, we sat down with Rab Nawaz, Senior Director of Programmes at WWF Pakistan. In the field since 1993, he led the team that filmed the Western Tragopan pheasant for the first time in recorded history\u2026",
+      "text": "Human vs. Wildlife: The Crisis Facing Pakistan's Ecosystem\nPakistan's wildlife, from snow leopards to marine turtles to one of the rarest pheasants on earth is disappearing fast, and climate change is speeding it up, even though the country barely contributes to the crisis causing it.\n\nOn this episode, we sat down with Rab Nawaz, Senior Director of Programmes at WWF Pakistan. In the field since 1993, he led the team that filmed the Western Tragopan pheasant for the first time in recorded history…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Human vs. Wildlife: The Crisis Facing Pakistan's Ecosystem\nPakistan's wildlife, \u2026",
+          "title": "Human vs. Wildlife: The Crisis Facing Pakistan's Ecosystem\nPakistan's wildlife, …",
           "url": "https://www.youtube.com/watch?v=fedR7fjuKKw",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1115,7 +1065,7 @@
     },
     {
       "id": "l453",
-      "text": "Ranger \u2014 Queensland Government (Bundaberg, Queensland, Australia). Posted 1 week ago.",
+      "text": "Ranger — Queensland Government (Bundaberg, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1136,7 +1086,7 @@
     },
     {
       "id": "l454",
-      "text": "Natural Area Officer \u2014 Mackay Regional Council (Mackay, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Natural Area Officer — Mackay Regional Council (Mackay, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1157,7 +1107,7 @@
     },
     {
       "id": "l455",
-      "text": "Wildlife Field Operative \u2014 Ecosure - Thriving global ecosystems (Rockhampton Area). Posted 1 week ago.",
+      "text": "Wildlife Field Operative — Ecosure - Thriving global ecosystems (Rockhampton Area). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1178,7 +1128,7 @@
     },
     {
       "id": "l456",
-      "text": "Field Officer \u2014 Queensland Government (Brisbane, Queensland, Australia). Posted 1 month ago.",
+      "text": "Field Officer — Queensland Government (Brisbane, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1199,7 +1149,7 @@
     },
     {
       "id": "l457",
-      "text": "Senior Forest Ranger \u2014 Department of Primary Industries (Queensland) (Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Senior Forest Ranger — Department of Primary Industries (Queensland) (Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1220,7 +1170,7 @@
     },
     {
       "id": "l458",
-      "text": "Vegetation Control Officer \u2014 Queensland Rail (Townsville, Queensland, Australia). Posted 1 week ago.",
+      "text": "Vegetation Control Officer — Queensland Rail (Townsville, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1241,7 +1191,7 @@
     },
     {
       "id": "l459",
-      "text": "Field Officer \u2014 Department of Primary Industries (Queensland) (Greater Brisbane Area). Posted 2 weeks ago.",
+      "text": "Field Officer — Department of Primary Industries (Queensland) (Greater Brisbane Area). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1262,7 +1212,7 @@
     },
     {
       "id": "l460",
-      "text": "Environment Technician | Oak Dam/Olympic Dam - Copper | FIFO 7/7 Roster \u2014 BHP (Adelaide, South Australia, Australia). Posted 5 days ago.",
+      "text": "Environment Technician | Oak Dam/Olympic Dam - Copper | FIFO 7/7 Roster — BHP (Adelaide, South Australia, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1283,7 +1233,7 @@
     },
     {
       "id": "l461",
-      "text": "Herbicide Technician \u2014 Downer (Port Pirie, South Australia, Australia). Posted 1 day ago.",
+      "text": "Herbicide Technician — Downer (Port Pirie, South Australia, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1304,7 +1254,7 @@
     },
     {
       "id": "l462",
-      "text": "Ranger x 2 \u2014 Department of Biodiversity, Conservation and Attractions (South Doodlakine, Western Australia, Australia). Posted 12 hours ago.",
+      "text": "Ranger x 2 — Department of Biodiversity, Conservation and Attractions (South Doodlakine, Western Australia, Australia). Posted 12 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1325,13 +1275,13 @@
     },
     {
       "id": "l563",
-      "text": "Cat Gallery - 2026-07\nAuto-generated cat images for 2026-07.\n## Cat #14 \u2014 \u4ed9\u8a9e\u5377\u908a\u7684\u767d\u9748\n**Time:** 2026-07-06 04:18 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**\u9748\u611f\u4f86\u6e90:** \ud83d\udcf0 \u79d1\u5b78\u5bb6\u6307\u51fa\uff0c\u5b78\u7fd2\u7b2c\u4e8c\u8a9e\u8a00\u4f3c\u4e4e\u80fd\u6709\u6548\u6e1b\u7de9\u5927\u8166\u8001\u5316\uff0c\u7814\u7a76\u986f\u793a\u96d9\u8a9e\u8005\u7684\u5927\u8166\u6bd4\u55ae\u8a9e\u8005\u5e74\u8f15\u7d04\u516d\u6b72\u3002\n**Idea:** \u4e00\u96bb\u767d\u8c93\u5728\u4e00\u500b\u53e4\u98a8\u4ed9\u4fe0\u98a8\u683c\u7684\u66f8\u9f4b\u4e2d\uff0c\u597d\u5947\u5730\u8f15\u6293\u8457\u4e00\u5f35\u92ea\u958b\u7684\u6731\u7d05\u58a8\u8de1\u5377\u8ef8\uff0c\u4e00\u4f4d\u8eab\u8457\u7acb\u9ad4\u82b1\u5349\u8cbc\u82b1\u6731\u7d05\u9577\u888d\u7684\u5b78\u8005\u4f38\u51fa\u624b\uff0c\u4ee5\u5f37\u5236\u900f\u8996\u7684\u69cb\u5716\u51dd\u8996\u5377\u8ef8\uff0c\u6574\u500b\u5834\u666f\u7531\u9583\u5149\u71c8\u76f4\u6253\u7684\u5149\u7dda\u52fe\u52d2\u51fa\u6731\u7d05\u8207\u7559\u767d\u7684\u9bae\u660e\u5c0d\u6bd4\u3002\n**Prompt:** \u4e00\u96bb\u767d\u8c93\u5728\u4e00\u500b\u53e4\u98a8\u4ed9\u4fe0\u98a8... ## Cat #15 \u2014 \u5927\u7406\u77f3\u7554\u6e05\u6dbc\n**Time:** 2026-07-06 05:05 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**\u9748\u611f\u4f86\u6e90:** \ud83c\udfa8 AI \u539f\u5275\n**Idea:\u2026",
+      "text": "Cat Gallery - 2026-07\nAuto-generated cat images for 2026-07.\n## Cat #14 — 仙語卷邊的白靈\n**Time:** 2026-07-06 04:18 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**靈感來源:** 📰 科學家指出，學習第二語言似乎能有效減緩大腦老化，研究顯示雙語者的大腦比單語者年輕約六歲。\n**Idea:** 一隻白貓在一個古風仙俠風格的書齋中，好奇地輕抓著一張鋪開的朱紅墨跡卷軸，一位身著立體花卉貼花朱紅長袍的學者伸出手，以強制透視的構圖凝視卷軸，整個場景由閃光燈直打的光線勾勒出朱紅與留白的鮮明對比。\n**Prompt:** 一隻白貓在一個古風仙俠風... ## Cat #15 — 大理石畔清涼\n**Time:** 2026-07-06 05:05 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**靈感來源:** 🎨 AI 原創\n**Idea:…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Cat Gallery - 2026-07\nAuto-generated cat images for 2026-07.\n## Cat #14 \u2014 \u4ed9\u8a9e\u5377\u908a\u7684\u767d\u2026",
+          "title": "Cat Gallery - 2026-07\nAuto-generated cat images for 2026-07.\n## Cat #14 — 仙語卷邊的白…",
           "url": "https://github.com/greenQQQ/catime/issues/2",
           "date": "2026-07-06",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1346,13 +1296,13 @@
     },
     {
       "id": "l564",
-      "text": "Dog Gallery - 2026-07\nAuto-generated dog images for 2026-07.\n## Dog #1 \u2014 \u72d7\u72d7\u65e5\u5e38\n**Time:** 2026-07-06 06:26 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**\u9748\u611f\u4f86\u6e90:** \ud83c\udfa8 AI \u539f\u5275\n**Prompt:** A cute dog with the date and time '2026-07-06 06:26 UTC' displayed in the image, high quality, detailed\n**Story:** \u4e00\u96bb\u53ef\u611b\u7684\u72d7\u72d7\u6b63\u5728\u4eab\u53d7\u7f8e\u597d\u7684\u4e00\u5929\u3002\n\n![dog-1](https://github.com/g... ## Dog #3 \u2014 \u77ed\u817f\u8003\u53e4\u968a\n**Time:** 2026-07-06 08:35 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**\u9748\u611f\u4f86\u6e90:** \ud83d\udcf0 \u8003\u53e4\u5b78\u5bb6\u5728\u57c3\u53ca\u897f\u90e8\u6c99\u6f20\u767c\u73fe\u4fdd\u5b58\u2026",
+      "text": "Dog Gallery - 2026-07\nAuto-generated dog images for 2026-07.\n## Dog #1 — 狗狗日常\n**Time:** 2026-07-06 06:26 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**靈感來源:** 🎨 AI 原創\n**Prompt:** A cute dog with the date and time '2026-07-06 06:26 UTC' displayed in the image, high quality, detailed\n**Story:** 一隻可愛的狗狗正在享受美好的一天。\n\n![dog-1](https://github.com/g... ## Dog #3 — 短腿考古隊\n**Time:** 2026-07-06 08:35 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**靈感來源:** 📰 考古學家在埃及西部沙漠發現保存…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Dog Gallery - 2026-07\nAuto-generated dog images for 2026-07.\n## Dog #1 \u2014 \u72d7\u72d7\u65e5\u5e38\n**\u2026",
+          "title": "Dog Gallery - 2026-07\nAuto-generated dog images for 2026-07.\n## Dog #1 — 狗狗日常\n**…",
           "url": "https://github.com/greenQQQ/dogtime/issues/1",
           "date": "2026-07-06",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1367,13 +1317,13 @@
     },
     {
       "id": "l565",
-      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En\u2026",
+      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment\u2026",
+          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment…",
           "url": "https://www.reddit.com/r/newbrunswickcanada/comments/1vkm48r/lorneville_ai_data_centre_update_eia_technical/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1388,13 +1338,13 @@
     },
     {
       "id": "l566",
-      "text": "Unfortunatly, the ai situation just keeps going and it is getting worse, so for anyone who wants to quit the game or want some ai-free, I have suggestions.\nIn case some of you still don&#39;t know, Neteas has fired more than half of their art team in order to replace them with Ai generated crap. I&#39;m not going to make this longer than it has to be, but for those who, like me, want to quit the game and need something to distract themselves with, here&#39;s a list of movie/tv shows, books and g\u2026",
+      "text": "Unfortunatly, the ai situation just keeps going and it is getting worse, so for anyone who wants to quit the game or want some ai-free, I have suggestions.\nIn case some of you still don&#39;t know, Neteas has fired more than half of their art team in order to replace them with Ai generated crap. I&#39;m not going to make this longer than it has to be, but for those who, like me, want to quit the game and need something to distract themselves with, here&#39;s a list of movie/tv shows, books and g…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Unfortunatly, the ai situation just keeps going and it is getting worse, so for \u2026",
+          "title": "Unfortunatly, the ai situation just keeps going and it is getting worse, so for …",
           "url": "https://www.reddit.com/r/IdentityV/comments/1voxauj/unfortunatly_the_ai_situation_just_keeps_going/",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1409,13 +1359,13 @@
     },
     {
       "id": "l567",
-      "text": "Jacob Helberg - past senior advisor to Alex Karp (Palantir), whose wedding to Keith Rabois (\"PayPal Mafia\") was officiated by Sam Altman (OpenAI) - is taking Pax Silica, the Department of State's \"flagship effort on AI and supply chain security\", to universities nationwide via the Foundry School.\nThe national launch of the Foundry School is set in Cincinnati, &quot;to rebuild the nation&#39;s industrial base&quot; by having universities, &quot;translate this expertise into education.&quot; All t\u2026",
+      "text": "Jacob Helberg - past senior advisor to Alex Karp (Palantir), whose wedding to Keith Rabois (\"PayPal Mafia\") was officiated by Sam Altman (OpenAI) - is taking Pax Silica, the Department of State's \"flagship effort on AI and supply chain security\", to universities nationwide via the Foundry School.\nThe national launch of the Foundry School is set in Cincinnati, &quot;to rebuild the nation&#39;s industrial base&quot; by having universities, &quot;translate this expertise into education.&quot; All t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Jacob Helberg - past senior advisor to Alex Karp (Palantir), whose wedding to Ke\u2026",
+          "title": "Jacob Helberg - past senior advisor to Alex Karp (Palantir), whose wedding to Ke…",
           "url": "https://www.reddit.com/r/cincinnati/comments/1vpwygd/jacob_helberg_past_senior_advisor_to_alex_karp/",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1430,13 +1380,13 @@
     },
     {
       "id": "l568",
-      "text": "Human vs. Wildlife: The Crisis Facing Pakistan's Ecosystem\nPakistan's wildlife, from snow leopards to marine turtles to one of the rarest pheasants on earth is disappearing fast, and climate change is speeding it up, even though the country barely contributes to the crisis causing it.\n\nOn this episode, we sat down with Rab Nawaz, Senior Director of Programmes at WWF Pakistan. In the field since 1993, he led the team that filmed the Western Tragopan pheasant for the first time in recorded history\u2026",
+      "text": "Human vs. Wildlife: The Crisis Facing Pakistan's Ecosystem\nPakistan's wildlife, from snow leopards to marine turtles to one of the rarest pheasants on earth is disappearing fast, and climate change is speeding it up, even though the country barely contributes to the crisis causing it.\n\nOn this episode, we sat down with Rab Nawaz, Senior Director of Programmes at WWF Pakistan. In the field since 1993, he led the team that filmed the Western Tragopan pheasant for the first time in recorded history…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Human vs. Wildlife: The Crisis Facing Pakistan's Ecosystem\nPakistan's wildlife, \u2026",
+          "title": "Human vs. Wildlife: The Crisis Facing Pakistan's Ecosystem\nPakistan's wildlife, …",
           "url": "https://www.youtube.com/watch?v=fedR7fjuKKw",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1527,6 +1477,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

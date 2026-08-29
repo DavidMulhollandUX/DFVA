@@ -14,58 +14,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "25-4021-01",
-      "text": "National peak professional bodies and statutory regulators governing Librarians enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Librarians",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Librarians",
-          "url": "https://www.psc.gov.au/standards/25-4021",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Librarians"
-        }
-      ],
-      "scope": "Australian practitioners in Librarians across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "25-4021-02",
-      "text": "Automation of routine transactional and analytical tasks in Librarians heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Librarians",
-          "url": "https://www.jobsandskills.gov.au/research/25-4021",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Librarians in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Librarians roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Collection Development Librarian \u2014 James Cook University (Idalia, Queensland, Australia). Posted 1 week ago.",
+      "text": "Collection Development Librarian — James Cook University (Idalia, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -86,7 +36,7 @@
     },
     {
       "id": "l404",
-      "text": "Discipline Librarian, Researcher Services \u2014 Griffith University (Nathan, Queensland, Australia). Posted 1 week ago.",
+      "text": "Discipline Librarian, Researcher Services — Griffith University (Nathan, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -107,7 +57,7 @@
     },
     {
       "id": "l405",
-      "text": "Academic Engagement Librarian \u2014 Australian Catholic University (North Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Academic Engagement Librarian — Australian Catholic University (North Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -128,7 +78,7 @@
     },
     {
       "id": "l406",
-      "text": "Learning Hub Senior Librarian \u2014 Western Sydney University (Parramatta, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Learning Hub Senior Librarian — Western Sydney University (Parramatta, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -149,7 +99,7 @@
     },
     {
       "id": "l407",
-      "text": "Teacher Librarian - St Joseph's Regional College, Port Macquarie \u2014 Diocese of Lismore Catholic Schools (Port Macquarie, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Teacher Librarian - St Joseph's Regional College, Port Macquarie — Diocese of Lismore Catholic Schools (Port Macquarie, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -170,7 +120,7 @@
     },
     {
       "id": "l408",
-      "text": "Research & Online Experience Librarian \u2014 Australian Film Television and Radio School (Sydney, New South Wales, Australia). Posted 2 days ago.",
+      "text": "Research & Online Experience Librarian — Australian Film Television and Radio School (Sydney, New South Wales, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -191,7 +141,7 @@
     },
     {
       "id": "l409",
-      "text": "Teacher Librarian - St John Paul College, Coffs Harbour \u2014 Diocese of Lismore Catholic Schools (Coffs Harbour, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Teacher Librarian - St John Paul College, Coffs Harbour — Diocese of Lismore Catholic Schools (Coffs Harbour, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -212,7 +162,7 @@
     },
     {
       "id": "l410",
-      "text": "Graduate Librarian, Client Services and Access \u2014 University of Technology Sydney (Sydney, New South Wales, Australia). Posted 2 days ago.",
+      "text": "Graduate Librarian, Client Services and Access — University of Technology Sydney (Sydney, New South Wales, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -233,7 +183,7 @@
     },
     {
       "id": "l411",
-      "text": "Senior Librarian, Education and Research Services \u2014 University of Technology Sydney (Sydney, New South Wales, Australia). Posted 1 day ago.",
+      "text": "Senior Librarian, Education and Research Services — University of Technology Sydney (Sydney, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -254,7 +204,7 @@
     },
     {
       "id": "l412",
-      "text": "Learning Leader - Library \u2014 Melbourne Archdiocese Catholic Schools (Donvale, Victoria, Australia). Posted 9 hours ago.",
+      "text": "Learning Leader - Library — Melbourne Archdiocese Catholic Schools (Donvale, Victoria, Australia). Posted 9 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -275,13 +225,13 @@
     },
     {
       "id": "l513",
-      "text": "Requests to Wikidata get rate limited because of insufficient User-Agent\n### To Reproduce\nPerform an operation that will generate a large amount of requests to the Wikidata API (or another Wikimedia project). \n\n### Current Results\nRequests get blocked with status 429 after a while\n\n### Expected Behavior\nThousands of requests per hour can be made without being blocked, ev\nThe OpenRefine User-Agent headers were fixed 6 months ago in the last Wikidata created fire drill. #7383  https://github.com/W\u2026",
+      "text": "Requests to Wikidata get rate limited because of insufficient User-Agent\n### To Reproduce\nPerform an operation that will generate a large amount of requests to the Wikidata API (or another Wikimedia project). \n\n### Current Results\nRequests get blocked with status 429 after a while\n\n### Expected Behavior\nThousands of requests per hour can be made without being blocked, ev\nThe OpenRefine User-Agent headers were fixed 6 months ago in the last Wikidata created fire drill. #7383  https://github.com/W…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Requests to Wikidata get rate limited because of insufficient User-Agent\n### To \u2026",
+          "title": "Requests to Wikidata get rate limited because of insufficient User-Agent\n### To …",
           "url": "https://github.com/OpenRefine/OpenRefine/issues/7731",
           "date": "2026-03-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -296,13 +246,13 @@
     },
     {
       "id": "l514",
-      "text": "Project Mirror v2: Alessandro Pedori \u2014 Decidim wins (87.0)\n## 1. About Project Mirror v2\n\nProject Mirror v2 is a synthetic evaluator estimation workflow built for the Newspeak House\nPolitech Awards 2026. It estimates how individual cohort members might evaluate the 321-project\nlonglist based on their public record and provided bio. It is a research prototyp\nThis agent will remain available for reviewing and reflecting on \u2014 and even after the event, I'm happy to provide opportunities to discuss, \u2026",
+      "text": "Project Mirror v2: Alessandro Pedori — Decidim wins (87.0)\n## 1. About Project Mirror v2\n\nProject Mirror v2 is a synthetic evaluator estimation workflow built for the Newspeak House\nPolitech Awards 2026. It estimates how individual cohort members might evaluate the 321-project\nlonglist based on their public record and provided bio. It is a research prototyp\nThis agent will remain available for reviewing and reflecting on — and even after the event, I'm happy to provide opportunities to discuss, …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Project Mirror v2: Alessandro Pedori \u2014 Decidim wins (87.0)\n## 1. About Project M\u2026",
+          "title": "Project Mirror v2: Alessandro Pedori — Decidim wins (87.0)\n## 1. About Project M…",
           "url": "https://github.com/nwspk/politech-awards-2026/pull/82",
           "date": "2026-03-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -317,13 +267,13 @@
     },
     {
       "id": "l515",
-      "text": "Daily Content Summary 2026-04-05\n# \ud83d\udcf0 Daily Content Summary - 2026-04-05\n### Executive Summary\n\n**Key Insights**\nThe technology sector is currently defined by a paradoxical tension between **open innovation** and **restrictive control**, often within the same ecosystem. While Meta secured a gag order against former employee Sarah Wy\n---\n### Articles Processed\n| \ud83d\udcd1 Article | \ud83d\udc64 Author | \ud83d\udcc4 Summary | \ud83c\udff7\ufe0f Tags |\n|---------|-----------|-----------|--------|\n| [\ud83d\udd17](https://www.thetimes.com/uk/technology-uk\u2026",
+      "text": "Daily Content Summary 2026-04-05\n# 📰 Daily Content Summary - 2026-04-05\n### Executive Summary\n\n**Key Insights**\nThe technology sector is currently defined by a paradoxical tension between **open innovation** and **restrictive control**, often within the same ecosystem. While Meta secured a gag order against former employee Sarah Wy\n---\n### Articles Processed\n| 📑 Article | 👤 Author | 📄 Summary | 🏷️ Tags |\n|---------|-----------|-----------|--------|\n| [🔗](https://www.thetimes.com/uk/technology-uk…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Daily Content Summary 2026-04-05\n# \ud83d\udcf0 Daily Content Summary - 2026-04-05\n### Exec\u2026",
+          "title": "Daily Content Summary 2026-04-05\n# 📰 Daily Content Summary - 2026-04-05\n### Exec…",
           "url": "https://github.com/jhengy/content-aggregator/issues/447",
           "date": "2026-04-05",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -527,13 +477,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -569,13 +519,13 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -848,7 +798,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Yesterday, I had the privilege of joining the University of Ghana Library System\u2026",
+          "title": "Yesterday, I had the privilege of joining the University of Ghana Library System…",
           "url": "https://x.com/barbaraquashiga/status/2089805376648519799",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -869,7 +819,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@i0lanthe_ I would kill my librarians if I find out ai was used anywhere near my\u2026",
+          "title": "@i0lanthe_ I would kill my librarians if I find out ai was used anywhere near my…",
           "url": "https://x.com/CoolAwesomeGuy0/status/2089959930312728782",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -884,13 +834,13 @@
     },
     {
       "id": "l542",
-      "text": "MIT\u2019s Report: AI Can Already Do All the Homework. The University Says College Itself Has to Change.",
+      "text": "MIT’s Report: AI Can Already Do All the Homework. The University Says College Itself Has to Change.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "MIT\u2019s Report: AI Can Already Do All the Homework. The University Says College It\u2026",
+          "title": "MIT’s Report: AI Can Already Do All the Homework. The University Says College It…",
           "url": "https://x.com/BrianRoemmele/status/2092993257047482757",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "AI is changing how students engage with information \u2014 and raising the stakes for information literacy.\n\nAim\u00e9e Leverette Green shares how trusted, vetted AI tools help librarians guide deeper conversations about authority and validity.\n\n#LibrariansAtClarivate https://t.co/9P4In2Coae",
+      "text": "AI is changing how students engage with information — and raising the stakes for information literacy.\n\nAimée Leverette Green shares how trusted, vetted AI tools help librarians guide deeper conversations about authority and validity.\n\n#LibrariansAtClarivate https://t.co/9P4In2Coae",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI is changing how students engage with information \u2014 and raising the stakes for\u2026",
+          "title": "AI is changing how students engage with information — and raising the stakes for…",
           "url": "https://x.com/ClarivateAG/status/2092353835113001106",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -926,13 +876,13 @@
     },
     {
       "id": "l544",
-      "text": "As law schools rethink how they prepare students for an AI-enabled profession, law librarians have an opportunity to help shape that future.\n\nJoin us Sept. 9 at 1:00 p.m. (CDT) for the Harvey Partner Webinar to explore:\n\n\ud83d\udd39 What\u2019s driving AI adoption in legal education\n\ud83d\udd39 New approaches to teaching AI literacy and sound judgment\n\ud83d\udd39 Practical ways to help students develop practice-ready AI skills\n\nDiscover how law librarians can help students move beyond simply using AI tools\u2014and learn to use them c",
+      "text": "As law schools rethink how they prepare students for an AI-enabled profession, law librarians have an opportunity to help shape that future.\n\nJoin us Sept. 9 at 1:00 p.m. (CDT) for the Harvey Partner Webinar to explore:\n\n🔹 What’s driving AI adoption in legal education\n🔹 New approaches to teaching AI literacy and sound judgment\n🔹 Practical ways to help students develop practice-ready AI skills\n\nDiscover how law librarians can help students move beyond simply using AI tools—and learn to use them c",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "As law schools rethink how they prepare students for an AI-enabled profession, l\u2026",
+          "title": "As law schools rethink how they prepare students for an AI-enabled profession, l…",
           "url": "https://x.com/aallnet/status/2093007038225711215",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "Two valuable days at the Australian Law Librarians' Association Conference, with thoughtful discussion on AI, legal information and the evolving role of law librarians.\n\nThanks to everyone who stopped by the LexisNexis stand and joined the conversation. \ud83c\udf6f\n\n#LegalAI #Prot\u00e9g\u00e9 https://t.co/r6A1uBw83T",
+      "text": "Two valuable days at the Australian Law Librarians' Association Conference, with thoughtful discussion on AI, legal information and the evolving role of law librarians.\n\nThanks to everyone who stopped by the LexisNexis stand and joined the conversation. 🍯\n\n#LegalAI #Protégé https://t.co/r6A1uBw83T",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Two valuable days at the Australian Law Librarians' Association Conference, with\u2026",
+          "title": "Two valuable days at the Australian Law Librarians' Association Conference, with…",
           "url": "https://x.com/LexisNexisAUS/status/2091780988342816843",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -974,7 +924,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@xoayquanh my deep suspicion abt why academics are infuriated with AI is not maj\u2026",
+          "title": "@xoayquanh my deep suspicion abt why academics are infuriated with AI is not maj…",
           "url": "https://x.com/_deerfeeld/status/2091724431638806545",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "There is NO purpose in a public library when every last bit of knowledge is out on the internet and AI tells you everything you need to know and data centers are destroying the earth. Except the salaries and benefits for radical leftist librarians\u2026 show me a Conservative librarian. I dare you!!!",
+      "text": "There is NO purpose in a public library when every last bit of knowledge is out on the internet and AI tells you everything you need to know and data centers are destroying the earth. Except the salaries and benefits for radical leftist librarians… show me a Conservative librarian. I dare you!!!",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "There is NO purpose in a public library when every last bit of knowledge is out \u2026",
+          "title": "There is NO purpose in a public library when every last bit of knowledge is out …",
           "url": "https://x.com/DanEastman2023/status/2091719204219097297",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1016,7 +966,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Librarians &gt; AI research\n\nPros:\n+ I've not had a librarian hallucinate an ent\u2026",
+          "title": "Librarians &gt; AI research\n\nPros:\n+ I've not had a librarian hallucinate an ent…",
           "url": "https://x.com/PinkDemonAlex/status/2091599123162022282",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1031,13 +981,13 @@
     },
     {
       "id": "l549",
-      "text": "The latest edition of Future ready: Elsevier\u2019s AI in higher education newsletter is now available.\nExplore: https://t.co/TDPCZHIuGh\nhttps://t.co/ZffQzialIN\n#research #Elsevier #librarians #researchers",
+      "text": "The latest edition of Future ready: Elsevier’s AI in higher education newsletter is now available.\nExplore: https://t.co/TDPCZHIuGh\nhttps://t.co/ZffQzialIN\n#research #Elsevier #librarians #researchers",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The latest edition of Future ready: Elsevier\u2019s AI in higher education newsletter\u2026",
+          "title": "The latest edition of Future ready: Elsevier’s AI in higher education newsletter…",
           "url": "https://x.com/CatherineAdenle/status/2090747537745436971",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1052,13 +1002,13 @@
     },
     {
       "id": "l550",
-      "text": "\"Hello! The book? Yeah, it's interesting. To us, Librarians, knowledge is essential, as well as safely keeping it.\" \n\nIt's more to Ophelia than it meets the eye. \n#WeWearPinkWednesday by @msashleighrowan and @soulforged77 \n\n#AIart #AI\u30a4\u30e9\u30b9\u30c8 #PixAI #AIartwork https://t.co/I9oGShdXuV",
+      "text": "\"Hello! The book? Yeah, it's interesting. To us, Librarians, knowledge is essential, as well as safely keeping it.\" \n\nIt's more to Ophelia than it meets the eye. \n#WeWearPinkWednesday by @msashleighrowan and @soulforged77 \n\n#AIart #AIイラスト #PixAI #AIartwork https://t.co/I9oGShdXuV",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\"Hello! The book? Yeah, it's interesting. To us, Librarians, knowledge is essent\u2026",
+          "title": "\"Hello! The book? Yeah, it's interesting. To us, Librarians, knowledge is essent…",
           "url": "https://x.com/DigitalMuse93/status/2090028088901972189",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1073,13 +1023,13 @@
     },
     {
       "id": "l551",
-      "text": "School librarians are leaders, and when they connect, collaborate, and learn together, incredible things happen.\n\nJoin @ShannonMMiller and @LiaDossin at MassCUE's @FutureReady Librarians Court on October 14\u201315 at Gillette Stadium for learning around AI, literacy, advocacy and more!\n\n\ud83d\udcda Learn more & register: https://t.co/VOPW6JDcnu\n\n#FutureReadyLibs #MassCue",
+      "text": "School librarians are leaders, and when they connect, collaborate, and learn together, incredible things happen.\n\nJoin @ShannonMMiller and @LiaDossin at MassCUE's @FutureReady Librarians Court on October 14–15 at Gillette Stadium for learning around AI, literacy, advocacy and more!\n\n📚 Learn more & register: https://t.co/VOPW6JDcnu\n\n#FutureReadyLibs #MassCue",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "School librarians are leaders, and when they connect, collaborate, and learn tog\u2026",
+          "title": "School librarians are leaders, and when they connect, collaborate, and learn tog…",
           "url": "https://x.com/thomascmurray/status/2092599027552448683",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1115,13 +1065,13 @@
     },
     {
       "id": "l553",
-      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - \u2026",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har\u2026",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har…",
           "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1136,13 +1086,13 @@
     },
     {
       "id": "l554",
-      "text": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: https://synthflow.ai/?via=intellagents\n\nIn this Synthflow AI review, I delve into building and testing six voice AI agents using the platform. We put Synthflow through its paces with seven rigorous tests, examining everything from voice clarity and interruption handling to human handoff and data extraction. Discover how Synthflow stacks up against other leading voice AI tools, and uncover a key \"dealbreaker\" that coul\u2026",
+      "text": "Synthflow AI Review: I Built 6 Voice AI Agents – is it worth it?\n⤵️ Synthflow: https://synthflow.ai/?via=intellagents\n\nIn this Synthflow AI review, I delve into building and testing six voice AI agents using the platform. We put Synthflow through its paces with seven rigorous tests, examining everything from voice clarity and interruption handling to human handoff and data extraction. Discover how Synthflow stacks up against other leading voice AI tools, and uncover a key \"dealbreaker\" that coul…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: h\u2026",
+          "title": "Synthflow AI Review: I Built 6 Voice AI Agents – is it worth it?\n⤵️ Synthflow: h…",
           "url": "https://www.youtube.com/watch?v=w6eUBmVwNMY",
           "date": "2026-03-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1157,13 +1107,13 @@
     },
     {
       "id": "l555",
-      "text": "The Brutal Truth About AI Prompt Libraries and 10x Results\nAt 2:13 a.m., two creators are racing the same clock: one is trapped in endless prompt tweaking, while the other uses a structured AI prompt library and ships polished work before sunrise. This video breaks down why the gap is getting wider, and how you can move from random outputs to repeatable 10x results using practical AI workflow design.\n\nIf you\u2019ve ever wondered whether a free prompt library can actually outperform raw prompting ski\u2026",
+      "text": "The Brutal Truth About AI Prompt Libraries and 10x Results\nAt 2:13 a.m., two creators are racing the same clock: one is trapped in endless prompt tweaking, while the other uses a structured AI prompt library and ships polished work before sunrise. This video breaks down why the gap is getting wider, and how you can move from random outputs to repeatable 10x results using practical AI workflow design.\n\nIf you’ve ever wondered whether a free prompt library can actually outperform raw prompting ski…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Brutal Truth About AI Prompt Libraries and 10x Results\nAt 2:13 a.m., two cre\u2026",
+          "title": "The Brutal Truth About AI Prompt Libraries and 10x Results\nAt 2:13 a.m., two cre…",
           "url": "https://www.youtube.com/watch?v=wdukWqAk7Qc",
           "date": "2026-03-04",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1178,13 +1128,13 @@
     },
     {
       "id": "l556",
-      "text": "How Libraries Can Navigate the AI Revolution: Strategy, Ethics & Real-World Execution\nA comprehensive strategic playbook for navigating the AI paradigm shift in modern libraries. From the evolution of Library Services Platforms to the rise of Agentic AI and Human-in-the-Loop architecture, this session covers everything library leaders and LIS professionals need to know.\n\nKey themes covered:\n\u2022 Why AI is not libraries' first disruption \u2014 but the most powerful one\n\u2022 The shift from fragmented archiv\u2026",
+      "text": "How Libraries Can Navigate the AI Revolution: Strategy, Ethics & Real-World Execution\nA comprehensive strategic playbook for navigating the AI paradigm shift in modern libraries. From the evolution of Library Services Platforms to the rise of Agentic AI and Human-in-the-Loop architecture, this session covers everything library leaders and LIS professionals need to know.\n\nKey themes covered:\n• Why AI is not libraries' first disruption — but the most powerful one\n• The shift from fragmented archiv…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How Libraries Can Navigate the AI Revolution: Strategy, Ethics & Real-World Exec\u2026",
+          "title": "How Libraries Can Navigate the AI Revolution: Strategy, Ethics & Real-World Exec…",
           "url": "https://www.youtube.com/watch?v=6BocZqJlAZw",
           "date": "2026-03-29",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1263,6 +1213,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

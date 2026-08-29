@@ -15,56 +15,6 @@
   "programs": [],
   "claims": [
     {
-      "id": "17-1011-01",
-      "text": "National peak professional bodies and statutory regulators governing Architects, Except Landscape and Naval enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Architects, Except Landscape and Naval",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Architects, Except Landscape and Naval",
-          "url": "https://www.psc.gov.au/standards/17-1011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Architects, Except Landscape and Naval"
-        }
-      ],
-      "scope": "Australian practitioners in Architects, Except Landscape and Naval across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "17-1011-02",
-      "text": "Automation of routine transactional and analytical tasks in Architects, Except Landscape and Naval heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Architects, Except Landscape and Naval",
-          "url": "https://www.jobsandskills.gov.au/research/17-1011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Architects, Except Landscape and Naval in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Architects, Except Landscape and Naval roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
       "text": "[WR] AI Architecture followups\n### Output Type (required)\n\ntechnical-documentation\n\n### PDF pipeline batch\n\nNot applicable\n\n### Research Mode\n\ndeepresearch\n\n### Delivery Mode\n\nbuild-direct\n\n### Lifecycle Mode\n\nnew-build\n\n### Commercial Mode\n\ninternal-only\n\n### Assign To / Decision Team\n\ndragnet-team\n\n### Summary\n\nAI Architecture",
       "lane": "L5",
@@ -72,7 +22,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "[WR] AI Architecture followups\n### Output Type (required)\n\ntechnical-documentati\u2026",
+          "title": "[WR] AI Architecture followups\n### Output Type (required)\n\ntechnical-documentati…",
           "url": "https://github.com/midnghtsapphire/revvel-standards/issues/17171",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -87,13 +37,13 @@
     },
     {
       "id": "l504",
-      "text": "[Research Report 3] Goal Divergence Telemetry & Real-Time Space Governance under the Amoeba Protocol\n# [CLINICAL-TECHNICAL] REPORT ON THE PATHOLOGY OF INTELLIGENT SYSTEMS (ICT-APSI) \u2014 REPORT III: GOAL DIVERGENCE TELEMETRY AND REAL-TIME SPACE GOVERNANCE\n\n**Document Version:** ICT-APSI-V6-AMOEBA-FINAL\n\n**Laboratory Director:** AMOEBAFPS\n\n**Methodology:** Synchronous Tri-AI Consortium (Orchestration b",
+      "text": "[Research Report 3] Goal Divergence Telemetry & Real-Time Space Governance under the Amoeba Protocol\n# [CLINICAL-TECHNICAL] REPORT ON THE PATHOLOGY OF INTELLIGENT SYSTEMS (ICT-APSI) — REPORT III: GOAL DIVERGENCE TELEMETRY AND REAL-TIME SPACE GOVERNANCE\n\n**Document Version:** ICT-APSI-V6-AMOEBA-FINAL\n\n**Laboratory Director:** AMOEBAFPS\n\n**Methodology:** Synchronous Tri-AI Consortium (Orchestration b",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[Research Report 3] Goal Divergence Telemetry & Real-Time Space Governance under\u2026",
+          "title": "[Research Report 3] Goal Divergence Telemetry & Real-Time Space Governance under…",
           "url": "https://github.com/deepseek-ai/DeepSeek-V3/issues/1494",
           "date": "2026-07-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -108,13 +58,13 @@
     },
     {
       "id": "l505",
-      "text": "If the training data isn't an open source license that doesn't require attribution, you (probably) don't have data compliance\n[You claim you achieve data compliance by doing this:](https://arxiv.org/abs/2509.14233)\n\n> unlike many prior models that release weights without reproducible data pipelines or regard for content-owner rights, Apertus models are pretrained exclusively on openly available data, retroactively respecti\nThe opt out mechanism I have seen also seems as full of holes as Swiss ch\u2026",
+      "text": "If the training data isn't an open source license that doesn't require attribution, you (probably) don't have data compliance\n[You claim you achieve data compliance by doing this:](https://arxiv.org/abs/2509.14233)\n\n> unlike many prior models that release weights without reproducible data pipelines or regard for content-owner rights, Apertus models are pretrained exclusively on openly available data, retroactively respecti\nThe opt out mechanism I have seen also seems as full of holes as Swiss ch…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "If the training data isn't an open source license that doesn't require attributi\u2026",
+          "title": "If the training data isn't an open source license that doesn't require attributi…",
           "url": "https://github.com/swiss-ai/apertus-tech-report/issues/10",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -129,13 +79,13 @@
     },
     {
       "id": "l506",
-      "text": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] feat: implement AI architecture framework and hardware dashboard\nAutomated code changes for\nissue #17213.\n\n**Agent used:** openrouter\n**Fallback chain:** OpenRouter \u2192 OpenHands (opt-in)\n**Fallback chain:** OpenRouter \u2192 OpenHands \u2192 manual (all free-tier)\n\n### Issue\nAutomated code changes for\nissue #17210.\n\n**Agent use\u2026",
+      "text": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] feat: implement AI architecture framework and hardware dashboard\nAutomated code changes for\nissue #17213.\n\n**Agent used:** openrouter\n**Fallback chain:** OpenRouter → OpenHands (opt-in)\n**Fallback chain:** OpenRouter → OpenHands → manual (all free-tier)\n\n### Issue\nAutomated code changes for\nissue #17210.\n\n**Agent use…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [o\u2026",
+          "title": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [o…",
           "url": "https://github.com/midnghtsapphire/revvel-standards/pull/17216",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -150,13 +100,13 @@
     },
     {
       "id": "l507",
-      "text": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] feat: implement AI architecture framework and hardware dashboard\nAutomated code changes for\nissue #17228.\n\n**Agent used:** openrouter\n**Fallback chain:** OpenRouter \u2192 OpenHands (opt-in)\n**Fallback chain:** OpenRouter \u2192 OpenHands \u2192 manual (all free-tier)\u2026",
+      "text": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] feat: implement AI architecture framework and hardware dashboard\nAutomated code changes for\nissue #17228.\n\n**Agent used:** openrouter\n**Fallback chain:** OpenRouter → OpenHands (opt-in)\n**Fallback chain:** OpenRouter → OpenHands → manual (all free-tier)…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [o\u2026",
+          "title": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [o…",
           "url": "https://github.com/midnghtsapphire/revvel-standards/pull/17231",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -171,13 +121,13 @@
     },
     {
       "id": "l508",
-      "text": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] feat: implement AI architecture framework and hardware dashboard\nAutomated code changes for\nissue #17192.\n\n**Agent used:** openrouter\n**Fallback chain:** OpenRouter \u2192 OpenHands (opt-in)\n**Fallback chain:** OpenRouter \u2192 OpenHands \u2192 manual (all free-tier)\n\n### Issue\nAutomated code changes for\nissue #17189.\n\n**Agent used:** openrouter\n**Fallback chain:** OpenRouter\n> \ud83d\udc19 **Octopus Review** \u2014 Your organization i\u2026",
+      "text": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] feat: implement AI architecture framework and hardware dashboard\nAutomated code changes for\nissue #17192.\n\n**Agent used:** openrouter\n**Fallback chain:** OpenRouter → OpenHands (opt-in)\n**Fallback chain:** OpenRouter → OpenHands → manual (all free-tier)\n\n### Issue\nAutomated code changes for\nissue #17189.\n\n**Agent used:** openrouter\n**Fallback chain:** OpenRouter\n> 🐙 **Octopus Review** — Your organization i…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [o\u2026",
+          "title": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [o…",
           "url": "https://github.com/midnghtsapphire/revvel-standards/pull/17195",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -192,13 +142,13 @@
     },
     {
       "id": "l509",
-      "text": "feat: add AI architect expert script, mermaid diagram, and dashboard for sellable prompts\nThis PR fulfills the requested Work Request to build an advanced AI architecture \"sellable prompt area\". It creates three primary artifacts:\n1. `ai_architect_expert.py` \u2014 An advanced Python script employing dataclasses to encapsulate expert knowledge across 9 core AI architecture domains, including",
+      "text": "feat: add AI architect expert script, mermaid diagram, and dashboard for sellable prompts\nThis PR fulfills the requested Work Request to build an advanced AI architecture \"sellable prompt area\". It creates three primary artifacts:\n1. `ai_architect_expert.py` — An advanced Python script employing dataclasses to encapsulate expert knowledge across 9 core AI architecture domains, including",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: add AI architect expert script, mermaid diagram, and dashboard for sellabl\u2026",
+          "title": "feat: add AI architect expert script, mermaid diagram, and dashboard for sellabl…",
           "url": "https://github.com/midnghtsapphire/revvel-standards/pull/17176",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -240,7 +190,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "OXFAM_ART_NEW: 29 broad Art & Photography listings\n## New Oxfam Art & Photograph\u2026",
+          "title": "OXFAM_ART_NEW: 29 broad Art & Photography listings\n## New Oxfam Art & Photograph…",
           "url": "https://github.com/jonattenborough/oxfam-photobook-monitor/issues/192",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -261,7 +211,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Build US occupation cohorts\n## Scope\n\nUnited States (`US`) occupation rollout on\u2026",
+          "title": "Build US occupation cohorts\n## Scope\n\nUnited States (`US`) occupation rollout on…",
           "url": "https://github.com/CampCareer/campcareer/pull/217",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -282,7 +232,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(easter-egg): introduce The Open Source raid dungeon\n## Summary\r\n\r\n**The Ope\u2026",
+          "title": "feat(easter-egg): introduce The Open Source raid dungeon\n## Summary\r\n\r\n**The Ope…",
           "url": "https://github.com/levy-street/world-of-claudecraft/pull/1790",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -297,13 +247,13 @@
     },
     {
       "id": "l514",
-      "text": "\ud83e\udd9e OpenClaw Ecosystem Digest 2026-07-29\n# OpenClaw Ecosystem Digest 2026-07-29\n\n> Issues: 500 | PRs: 500 | Projects covered: 13 | Generated: 2026-07-29 02:00 UTC\n\n- [OpenClaw](https://github\u200b.com/openclaw/openclaw)\n- [NanoBot](https://github\u200b.com/HKUDS/nanobot)\n- [Hermes Agent](https://github\u200b.com/nousresearch/hermes-agent)\n- [PicoClaw](h",
+      "text": "🦞 OpenClaw Ecosystem Digest 2026-07-29\n# OpenClaw Ecosystem Digest 2026-07-29\n\n> Issues: 500 | PRs: 500 | Projects covered: 13 | Generated: 2026-07-29 02:00 UTC\n\n- [OpenClaw](https://github​.com/openclaw/openclaw)\n- [NanoBot](https://github​.com/HKUDS/nanobot)\n- [Hermes Agent](https://github​.com/nousresearch/hermes-agent)\n- [PicoClaw](h",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83e\udd9e OpenClaw Ecosystem Digest 2026-07-29\n# OpenClaw Ecosystem Digest 2026-07-29\n\n>\u2026",
+          "title": "🦞 OpenClaw Ecosystem Digest 2026-07-29\n# OpenClaw Ecosystem Digest 2026-07-29\n\n>…",
           "url": "https://github.com/DenisZheng/agents-radar/issues/1602",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -318,13 +268,13 @@
     },
     {
       "id": "l515",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -360,13 +310,13 @@
     },
     {
       "id": "l517",
-      "text": "Everybody's Weirded Out by AI\u2013Except the People Who Foist It on Us",
+      "text": "Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Everybody's Weirded Out by AI\u2013Except the People Who Foist It on Us",
+          "title": "Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
           "url": "https://newrepublic.com/article/213004/everybody-weirded-ai-except-people-foist-us",
           "date": "2026-07-17",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -507,13 +457,13 @@
     },
     {
       "id": "l524",
-      "text": "GCC to Decline Any Significant Contributions Made via AI/LLMs \u2013 Except for Tests",
+      "text": "GCC to Decline Any Significant Contributions Made via AI/LLMs – Except for Tests",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "GCC to Decline Any Significant Contributions Made via AI/LLMs \u2013 Except for Tests",
+          "title": "GCC to Decline Any Significant Contributions Made via AI/LLMs – Except for Tests",
           "url": "https://www.phoronix.com/news/GCC-Declining-AI-Contributions",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -549,13 +499,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -570,13 +520,13 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -738,13 +688,13 @@
     },
     {
       "id": "l535",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -780,13 +730,13 @@
     },
     {
       "id": "l537",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -822,13 +772,13 @@
     },
     {
       "id": "l539",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -843,13 +793,13 @@
     },
     {
       "id": "l540",
-      "text": "I Tried Unreal MCP and *Agentic AI Coding*. Here\u2019s What I Got\nI decided to try Unreal MCP with an AI agent to see whether this stuff is actually as impressive as people keep claiming. Not because I particularly wanna use it, I honestly don&#39;t. After watching AI completely disrupt the web and mobile development industry, which I worked in for years, and being unemployed for almost two years now, I&#39;m not exactly excited about giving more money to those billionaire AI CEOs . Anyway, I wanted\u2026",
+      "text": "I Tried Unreal MCP and *Agentic AI Coding*. Here’s What I Got\nI decided to try Unreal MCP with an AI agent to see whether this stuff is actually as impressive as people keep claiming. Not because I particularly wanna use it, I honestly don&#39;t. After watching AI completely disrupt the web and mobile development industry, which I worked in for years, and being unemployed for almost two years now, I&#39;m not exactly excited about giving more money to those billionaire AI CEOs . Anyway, I wanted…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I Tried Unreal MCP and *Agentic AI Coding*. Here\u2019s What I Got\nI decided to try U\u2026",
+          "title": "I Tried Unreal MCP and *Agentic AI Coding*. Here’s What I Got\nI decided to try U…",
           "url": "https://www.reddit.com/r/unrealengine/comments/1vtl6ip/i_tried_unreal_mcp_and_agentic_ai_coding_heres/",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -864,13 +814,13 @@
     },
     {
       "id": "l541",
-      "text": "Ok I finally concede, the naval update is broken\nI&#39;ve previously been a pretty strong supporter of the naval update, I thought the biggest problem was the AI not using being able to interact with it properly But now I&#39;ve installed a mod that massively improves the AI and now I&#39;m actually losing naval battles. Great I now have the naval strategy and warfare I&#39;ve always wanted! right? right? except the important thing to note is how I&#39;m losing these battles. you see I&#39;ve be\u2026",
+      "text": "Ok I finally concede, the naval update is broken\nI&#39;ve previously been a pretty strong supporter of the naval update, I thought the biggest problem was the AI not using being able to interact with it properly But now I&#39;ve installed a mod that massively improves the AI and now I&#39;m actually losing naval battles. Great I now have the naval strategy and warfare I&#39;ve always wanted! right? right? except the important thing to note is how I&#39;m losing these battles. you see I&#39;ve be…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Ok I finally concede, the naval update is broken\nI&#39;ve previously been a pret\u2026",
+          "title": "Ok I finally concede, the naval update is broken\nI&#39;ve previously been a pret…",
           "url": "https://www.reddit.com/r/victoria3/comments/1vzyl7t/ok_i_finally_concede_the_naval_update_is_broken/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -885,13 +835,13 @@
     },
     {
       "id": "l542",
-      "text": "One thing Day 2 of @Ai4Conferences reinforced is that if you\u2019re building your career based solely on what\u2019s trending online, you\u2019re probably optimizing for the wrong things.\n\nAcross infrastructure, product, governance, workforce, and policy discussions, the highest-value conversations were about what it actually takes to make AI work inside an organization.\n\nIf I were intentionally positioning my career around where enterprise AI is headed, these are the capabilities I\u2019d be investing in:\n\n\u2192 Judg",
+      "text": "One thing Day 2 of @Ai4Conferences reinforced is that if you’re building your career based solely on what’s trending online, you’re probably optimizing for the wrong things.\n\nAcross infrastructure, product, governance, workforce, and policy discussions, the highest-value conversations were about what it actually takes to make AI work inside an organization.\n\nIf I were intentionally positioning my career around where enterprise AI is headed, these are the capabilities I’d be investing in:\n\n→ Judg",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "One thing Day 2 of @Ai4Conferences reinforced is that if you\u2019re building your ca\u2026",
+          "title": "One thing Day 2 of @Ai4Conferences reinforced is that if you’re building your ca…",
           "url": "https://x.com/iamKierraD/status/2085514499935600748",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -906,13 +856,13 @@
     },
     {
       "id": "l543",
-      "text": "Agentic AI\u2014The Killer Use Case for Blockchain and Crypto",
+      "text": "Agentic AI—The Killer Use Case for Blockchain and Crypto",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Agentic AI\u2014The Killer Use Case for Blockchain and Crypto",
+          "title": "Agentic AI—The Killer Use Case for Blockchain and Crypto",
           "url": "https://x.com/FTDA_US/status/2079527739288158472",
           "date": "2026-07-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -927,13 +877,13 @@
     },
     {
       "id": "l544",
-      "text": "AI is cranking out more code than ever, but that doesn\u2019t mean teams are shipping the right outcomes. From #PegaWorld, I sat down with Steph Lewis, Senior Director of Community Developer Programs at @Pega, to unpack what\u2019s actually changing for developers, architects, and business stakeholders as AI, agents, and LLMs reshape enterprise delivery. \n\nWe get specific about the Solution Designer role Steph helped build and why it\u2019s showing up now. We talk about Pega Blueprint as a practical way to tur",
+      "text": "AI is cranking out more code than ever, but that doesn’t mean teams are shipping the right outcomes. From #PegaWorld, I sat down with Steph Lewis, Senior Director of Community Developer Programs at @Pega, to unpack what’s actually changing for developers, architects, and business stakeholders as AI, agents, and LLMs reshape enterprise delivery. \n\nWe get specific about the Solution Designer role Steph helped build and why it’s showing up now. We talk about Pega Blueprint as a practical way to tur",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI is cranking out more code than ever, but that doesn\u2019t mean teams are shipping\u2026",
+          "title": "AI is cranking out more code than ever, but that doesn’t mean teams are shipping…",
           "url": "https://x.com/EvanKirstel/status/2084723888240345522",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -954,7 +904,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Can AI agents turn an architect's rough sketch into a floor plan? Not yet. But G\u2026",
+          "title": "Can AI agents turn an architect's rough sketch into a floor plan? Not yet. But G…",
           "url": "https://x.com/sayashk/status/2075698327300325798",
           "date": "2026-07-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1011,13 +961,13 @@
     },
     {
       "id": "l548",
-      "text": "10 AI Careers Quietly Paying $135K\u2013$1M+ in 2026 (Full Resources)",
+      "text": "10 AI Careers Quietly Paying $135K–$1M+ in 2026 (Full Resources)",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "10 AI Careers Quietly Paying $135K\u2013$1M+ in 2026 (Full Resources)",
+          "title": "10 AI Careers Quietly Paying $135K–$1M+ in 2026 (Full Resources)",
           "url": "https://x.com/exploraX_/status/2076606152075272615",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1059,7 +1009,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "on instagram im in a rabbit hole looking at how architecture transforms psycholo\u2026",
+          "title": "on instagram im in a rabbit hole looking at how architecture transforms psycholo…",
           "url": "https://x.com/yyallian/status/2093225386301862028",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1095,13 +1045,13 @@
     },
     {
       "id": "l552",
-      "text": "@HeidiPriebe1 i really needed to hear this and know it\u2019s possible, thank you",
+      "text": "@HeidiPriebe1 i really needed to hear this and know it’s possible, thank you",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@HeidiPriebe1 i really needed to hear this and know it\u2019s possible, thank you",
+          "title": "@HeidiPriebe1 i really needed to hear this and know it’s possible, thank you",
           "url": "https://x.com/s0ulDirect0r/status/2091646946683310286",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1143,7 +1093,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@s0ulDirect0r he who explores the soul through study and adventuring, like mysti\u2026",
+          "title": "@s0ulDirect0r he who explores the soul through study and adventuring, like mysti…",
           "url": "https://x.com/yyallian/status/2077898313077285078",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1158,13 +1108,13 @@
     },
     {
       "id": "l555",
-      "text": "i\u2019m too aware of what i\u2019m feeling at any given moment oopsieeeee",
+      "text": "i’m too aware of what i’m feeling at any given moment oopsieeeee",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "i\u2019m too aware of what i\u2019m feeling at any given moment oopsieeeee",
+          "title": "i’m too aware of what i’m feeling at any given moment oopsieeeee",
           "url": "https://x.com/yyallian/status/2093439994639892729",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1206,7 +1156,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@s0ulDirect0r @__drewface U should read Iconic Arithmetic too ;)\n\nI'll send u th\u2026",
+          "title": "@s0ulDirect0r @__drewface U should read Iconic Arithmetic too ;)\n\nI'll send u th…",
           "url": "https://x.com/okwalerie/status/2093214154760802657",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1248,7 +1198,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The Challenge of Supporting Business Agility in the Age of AI-Assisted Programmi\u2026",
+          "title": "The Challenge of Supporting Business Agility in the Age of AI-Assisted Programmi…",
           "url": "https://x.com/ZHENXINYU/status/2068610728060461479",
           "date": "2026-06-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1269,7 +1219,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@UntilTrees no haha i mean, what if you tweet \"hey guys does anyone want to do w\u2026",
+          "title": "@UntilTrees no haha i mean, what if you tweet \"hey guys does anyone want to do w…",
           "url": "https://x.com/maebichka/status/2092921997848105027",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1305,13 +1255,13 @@
     },
     {
       "id": "l562",
-      "text": "@nadiainthought well, all the improv i got into was definitely silly as fuck for sure. the storytelling, definitely can go in the direction of dramatic and artful. i\u2019m struggling to remember but i told the story of an experience i had at a vipassana retreat, which both had silly and sincere!",
+      "text": "@nadiainthought well, all the improv i got into was definitely silly as fuck for sure. the storytelling, definitely can go in the direction of dramatic and artful. i’m struggling to remember but i told the story of an experience i had at a vipassana retreat, which both had silly and sincere!",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@nadiainthought well, all the improv i got into was definitely silly as fuck for\u2026",
+          "title": "@nadiainthought well, all the improv i got into was definitely silly as fuck for…",
           "url": "https://x.com/s0ulDirect0r/status/2093447564569763992",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1326,13 +1276,13 @@
     },
     {
       "id": "l563",
-      "text": "@brxfastsolstice @lapislagoons you\u2019d like the blues i think",
+      "text": "@brxfastsolstice @lapislagoons you’d like the blues i think",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@brxfastsolstice @lapislagoons you\u2019d like the blues i think",
+          "title": "@brxfastsolstice @lapislagoons you’d like the blues i think",
           "url": "https://x.com/yyallian/status/2093192721448181954",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1347,13 +1297,13 @@
     },
     {
       "id": "l564",
-      "text": "@sahra_bn it\u2019s interesting to think of the differences in these journeys. the art journey felt so choiceless, i felt really insane, even as i suffered a lot i couldn\u2019t stop. it was like i was plummeting into the underworld. this math journey has felt much more like climbing a mountain",
+      "text": "@sahra_bn it’s interesting to think of the differences in these journeys. the art journey felt so choiceless, i felt really insane, even as i suffered a lot i couldn’t stop. it was like i was plummeting into the underworld. this math journey has felt much more like climbing a mountain",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@sahra_bn it\u2019s interesting to think of the differences in these journeys. the ar\u2026",
+          "title": "@sahra_bn it’s interesting to think of the differences in these journeys. the ar…",
           "url": "https://x.com/s0ulDirect0r/status/2091260283566072058",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1389,13 +1339,13 @@
     },
     {
       "id": "l566",
-      "text": "@nadiainthought one of the best things i\u2019ve ever done was doing the Magnet Theater NYC\u2019s Improv and Musical Improv courses. actually, the Storytelling course especially was a peak moment, highly recommend this for you!",
+      "text": "@nadiainthought one of the best things i’ve ever done was doing the Magnet Theater NYC’s Improv and Musical Improv courses. actually, the Storytelling course especially was a peak moment, highly recommend this for you!",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@nadiainthought one of the best things i\u2019ve ever done was doing the Magnet Theat\u2026",
+          "title": "@nadiainthought one of the best things i’ve ever done was doing the Magnet Theat…",
           "url": "https://x.com/s0ulDirect0r/status/2093329350565187629",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1410,13 +1360,13 @@
     },
     {
       "id": "l567",
-      "text": "@CZ_YiHe \u5750\u5728\u5e8a\u4e0a\u5c31\u80fd\u6492\u5c3f\uff0c\u65b9\u4fbf\u65b9\u4fbf",
+      "text": "@CZ_YiHe 坐在床上就能撒尿，方便方便",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@CZ_YiHe \u5750\u5728\u5e8a\u4e0a\u5c31\u80fd\u6492\u5c3f\uff0c\u65b9\u4fbf\u65b9\u4fbf",
+          "title": "@CZ_YiHe 坐在床上就能撒尿，方便方便",
           "url": "https://x.com/ZHENXINYU/status/2093219673303392525",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1536,13 +1486,13 @@
     },
     {
       "id": "l573",
-      "text": "@sahra_bn ok, last thing i\u2019ll say: i do think i could find a lot more surrender in this and i\u2019ll keep an eye out for the image, the frame that could take me there. thank you for the inspiration.",
+      "text": "@sahra_bn ok, last thing i’ll say: i do think i could find a lot more surrender in this and i’ll keep an eye out for the image, the frame that could take me there. thank you for the inspiration.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@sahra_bn ok, last thing i\u2019ll say: i do think i could find a lot more surrender \u2026",
+          "title": "@sahra_bn ok, last thing i’ll say: i do think i could find a lot more surrender …",
           "url": "https://x.com/s0ulDirect0r/status/2091262914405498998",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1557,13 +1507,13 @@
     },
     {
       "id": "l574",
-      "text": "@s0ulDirect0r dorohedoro yes, the other one no! starting now \ud83d\ude01",
+      "text": "@s0ulDirect0r dorohedoro yes, the other one no! starting now 😁",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@s0ulDirect0r dorohedoro yes, the other one no! starting now \ud83d\ude01",
+          "title": "@s0ulDirect0r dorohedoro yes, the other one no! starting now 😁",
           "url": "https://x.com/UntilTrees/status/2092535642563485939",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1599,13 +1549,13 @@
     },
     {
       "id": "l576",
-      "text": "@sahra_bn the milestones are finishing each one of these courses in this math foundations sequences and their proofs course. the summit\u2026the answer that comes to mind is clearing math academy\u2019s upcoming machine learning courses. further summits could be learning category theory\u2026",
+      "text": "@sahra_bn the milestones are finishing each one of these courses in this math foundations sequences and their proofs course. the summit…the answer that comes to mind is clearing math academy’s upcoming machine learning courses. further summits could be learning category theory…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@sahra_bn the milestones are finishing each one of these courses in this math fo\u2026",
+          "title": "@sahra_bn the milestones are finishing each one of these courses in this math fo…",
           "url": "https://x.com/s0ulDirect0r/status/2091601063379882146",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1647,7 +1597,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "this guy PJ decided to name his highest best self and lowest saboteur self to at\u2026",
+          "title": "this guy PJ decided to name his highest best self and lowest saboteur self to at…",
           "url": "https://x.com/yyallian/status/2093195823614140898",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1668,7 +1618,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@cxmrondlls Yes. The database was built from public-domain authoritative sources\u2026",
+          "title": "@cxmrondlls Yes. The database was built from public-domain authoritative sources…",
           "url": "https://x.com/ZHENXINYU/status/2093236646921859127",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1683,13 +1633,13 @@
     },
     {
       "id": "l580",
-      "text": "@77bncvbsdcg That\u2019s the goal \u2014 helping the idioms actually stick. The category view is also meant to help with writin",
+      "text": "@77bncvbsdcg That’s the goal — helping the idioms actually stick. The category view is also meant to help with writin",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@77bncvbsdcg That\u2019s the goal \u2014 helping the idioms actually stick. The category v\u2026",
+          "title": "@77bncvbsdcg That’s the goal — helping the idioms actually stick. The category v…",
           "url": "https://x.com/ZHENXINYU/status/2093234541498646546",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1710,7 +1660,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@NenitoCrypto Yeah. The first version was a practice app while I was learning Ob\u2026",
+          "title": "@NenitoCrypto Yeah. The first version was a practice app while I was learning Ob…",
           "url": "https://x.com/ZHENXINYU/status/2093222020733636836",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1725,13 +1675,13 @@
     },
     {
       "id": "l582",
-      "text": "@CZ_YiHe \u63db\u500b\u89d2\u5ea6\uff0c\u4e4b\u524d\u55ae\u4eba\u5bbf\u820d\u9700\u8981\u548c\u540c\u4e00\u6a13\u5c64\u7684\u5171\u7528\u4e00\u500b\u5ec1\u6240\u3002\u9019\u500b\u52a0\u9322\u5347\u7d1a\u88dd\u5099\u4e86\u3002",
+      "text": "@CZ_YiHe 換個角度，之前單人宿舍需要和同一樓層的共用一個廁所。這個加錢升級裝備了。",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@CZ_YiHe \u63db\u500b\u89d2\u5ea6\uff0c\u4e4b\u524d\u55ae\u4eba\u5bbf\u820d\u9700\u8981\u548c\u540c\u4e00\u6a13\u5c64\u7684\u5171\u7528\u4e00\u500b\u5ec1\u6240\u3002\u9019\u500b\u52a0\u9322\u5347\u7d1a\u88dd\u5099\u4e86\u3002",
+          "title": "@CZ_YiHe 換個角度，之前單人宿舍需要和同一樓層的共用一個廁所。這個加錢升級裝備了。",
           "url": "https://x.com/ZHENXINYU/status/2093220938469036158",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1746,13 +1696,13 @@
     },
     {
       "id": "l583",
-      "text": "Like I said, I brought it back to life with Codex\u2019s help. The old version was written in Objective-C, and I rewrote it in Flutter. Check out the screenshot \u2014 yeah, it\u2019s definitely from over 10 years ago (the archive was saved 9 years ago). The most important part, though, is the database. I spent a long time carefully checking it, and I used some really solid, professional sources on the origins of these Chinese idioms.",
+      "text": "Like I said, I brought it back to life with Codex’s help. The old version was written in Objective-C, and I rewrote it in Flutter. Check out the screenshot — yeah, it’s definitely from over 10 years ago (the archive was saved 9 years ago). The most important part, though, is the database. I spent a long time carefully checking it, and I used some really solid, professional sources on the origins of these Chinese idioms.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Like I said, I brought it back to life with Codex\u2019s help. The old version was wr\u2026",
+          "title": "Like I said, I brought it back to life with Codex’s help. The old version was wr…",
           "url": "https://x.com/ZHENXINYU/status/2093213934660829264",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1767,13 +1717,13 @@
     },
     {
       "id": "l584",
-      "text": "@lifesinger \u539f\u4f86\u5b6b\u54e5\u7684\u6587\u7ae0\u662f\u7528YoMind\u5beb\u7684\uff0c\u602a\u4e0d\u5f97",
+      "text": "@lifesinger 原來孫哥的文章是用YoMind寫的，怪不得",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@lifesinger \u539f\u4f86\u5b6b\u54e5\u7684\u6587\u7ae0\u662f\u7528YoMind\u5beb\u7684\uff0c\u602a\u4e0d\u5f97",
+          "title": "@lifesinger 原來孫哥的文章是用YoMind寫的，怪不得",
           "url": "https://x.com/ZHENXINYU/status/2093207838663528850",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1794,7 +1744,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@ZHENXINYU It seems codex is using the same template for building web apps! Base\u2026",
+          "title": "@ZHENXINYU It seems codex is using the same template for building web apps! Base…",
           "url": "https://x.com/gs75Uz/status/2093298625182851504",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1872,13 +1822,13 @@
     },
     {
       "id": "l589",
-      "text": "@ZHENXINYU \u725b\u6765\u90fd\u53eb\u5988\u5988\u5566\uff0c\ud83d\ude02",
+      "text": "@ZHENXINYU 牛来都叫妈妈啦，😂",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@ZHENXINYU \u725b\u6765\u90fd\u53eb\u5988\u5988\u5566\uff0c\ud83d\ude02",
+          "title": "@ZHENXINYU 牛来都叫妈妈啦，😂",
           "url": "https://x.com/shaok45000/status/2093227424914047485",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1893,13 +1843,13 @@
     },
     {
       "id": "l590",
-      "text": "@yyallian Which accounts? I\u2019m curious to see",
+      "text": "@yyallian Which accounts? I’m curious to see",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@yyallian Which accounts? I\u2019m curious to see",
+          "title": "@yyallian Which accounts? I’m curious to see",
           "url": "https://x.com/gmamoon888/status/2093451537905270899",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1956,13 +1906,13 @@
     },
     {
       "id": "l593",
-      "text": "I Finally Found an AI Workflow That Actually Fits Archviz\nExplore Magnific here: https://referral.magnific.com/mzUV5PT\n(If you choose to sign up through this affiliate link, you'll be supporting the channel at no additional cost to you.)\n\n~\nAI in architectural visualization doesn't have to mean giving up control. Or at least, it shouldn't... In this practical super tutorial, I'll show you how I use Magnific to improve architectural renders, create animations, test design ideas, and build reusabl\u2026",
+      "text": "I Finally Found an AI Workflow That Actually Fits Archviz\nExplore Magnific here: https://referral.magnific.com/mzUV5PT\n(If you choose to sign up through this affiliate link, you'll be supporting the channel at no additional cost to you.)\n\n~\nAI in architectural visualization doesn't have to mean giving up control. Or at least, it shouldn't... In this practical super tutorial, I'll show you how I use Magnific to improve architectural renders, create animations, test design ideas, and build reusabl…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "I Finally Found an AI Workflow That Actually Fits Archviz\nExplore Magnific here:\u2026",
+          "title": "I Finally Found an AI Workflow That Actually Fits Archviz\nExplore Magnific here:…",
           "url": "https://www.youtube.com/watch?v=gq1LIFNxjeI",
           "date": "2026-06-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1977,13 +1927,13 @@
     },
     {
       "id": "l594",
-      "text": "AI Wellness Garden Design: From CAD to Concept (Part 1)\nI\u2019ve been experimenting with a new workflow lately: taking CAD files straight into AI to generate wellness garden concepts, and honestly, it\u2019s been a huge time-saver. In this video, I\u2019m walking you through how I do it from start to finish using KONVI.\nThis is Part 1 of my AI Wellness Garden Design series. Part 2 will cover rendering and presentation boards\u2014I\u2019ll add the link here once it\u2019s live.\nVideo breakdown:\n0:00 \u2014 Why the traditional la\u2026",
+      "text": "AI Wellness Garden Design: From CAD to Concept (Part 1)\nI’ve been experimenting with a new workflow lately: taking CAD files straight into AI to generate wellness garden concepts, and honestly, it’s been a huge time-saver. In this video, I’m walking you through how I do it from start to finish using KONVI.\nThis is Part 1 of my AI Wellness Garden Design series. Part 2 will cover rendering and presentation boards—I’ll add the link here once it’s live.\nVideo breakdown:\n0:00 — Why the traditional la…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Wellness Garden Design: From CAD to Concept (Part 1)\nI\u2019ve been experimenting \u2026",
+          "title": "AI Wellness Garden Design: From CAD to Concept (Part 1)\nI’ve been experimenting …",
           "url": "https://www.youtube.com/watch?v=usLTIaVx0Fg",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1998,7 +1948,7 @@
     },
     {
       "id": "l495",
-      "text": "Enterprise Architect \u2014 Tata Consultancy Services (Perth, Western Australia, Australia). Posted 2 weeks ago.",
+      "text": "Enterprise Architect — Tata Consultancy Services (Perth, Western Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2019,7 +1969,7 @@
     },
     {
       "id": "l496",
-      "text": "Solutions Architect \u2014 Tata Consultancy Services (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Solutions Architect — Tata Consultancy Services (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2040,7 +1990,7 @@
     },
     {
       "id": "l497",
-      "text": "Architect \u2014 Mega Recruitment (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "text": "Architect — Mega Recruitment (Melbourne, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2061,7 +2011,7 @@
     },
     {
       "id": "l498",
-      "text": "Project Architect \u2014 Hays (Gold Coast, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Project Architect — Hays (Gold Coast, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2082,7 +2032,7 @@
     },
     {
       "id": "l499",
-      "text": "Inhouse Architect | Burger Urge \u2014 Burger Urge (New Farm, Queensland, Australia). Posted 1 month ago.",
+      "text": "Inhouse Architect | Burger Urge — Burger Urge (New Farm, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2103,7 +2053,7 @@
     },
     {
       "id": "l4100",
-      "text": "Architect \u2014 Egis in ANZ (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "text": "Architect — Egis in ANZ (Melbourne, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2124,7 +2074,7 @@
     },
     {
       "id": "l4101",
-      "text": "Inhouse Architect | Burger Urge \u2014 Burger Urge (Teneriffe, Queensland, Australia). Posted 1 month ago.",
+      "text": "Inhouse Architect | Burger Urge — Burger Urge (Teneriffe, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2145,7 +2095,7 @@
     },
     {
       "id": "l4102",
-      "text": "Solutions Architect \u2014 GSOBA (Greater Sydney Area). Posted 2 months ago.",
+      "text": "Solutions Architect — GSOBA (Greater Sydney Area). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2166,7 +2116,7 @@
     },
     {
       "id": "l4103",
-      "text": "Associate Architect \u2014 Mega Recruitment (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "text": "Associate Architect — Mega Recruitment (Melbourne, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2187,7 +2137,7 @@
     },
     {
       "id": "l4104",
-      "text": "Architect \u2014 ROUSSOS Recruitment (Adelaide, South Australia, Australia). Posted 1 week ago.",
+      "text": "Architect — ROUSSOS Recruitment (Adelaide, South Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2208,13 +2158,13 @@
     },
     {
       "id": "l5105",
-      "text": "If the training data isn't an open source license that doesn't require attribution, you (probably) don't have data compliance\n[You claim you achieve data compliance by doing this:](https://arxiv.org/abs/2509.14233)\n\n> unlike many prior models that release weights without reproducible data pipelines or regard for content-owner rights, Apertus models are pretrained exclusively on openly available data, retroactively respecti\nThe opt out mechanism I have seen also seems as full of holes as Swiss ch\u2026",
+      "text": "If the training data isn't an open source license that doesn't require attribution, you (probably) don't have data compliance\n[You claim you achieve data compliance by doing this:](https://arxiv.org/abs/2509.14233)\n\n> unlike many prior models that release weights without reproducible data pipelines or regard for content-owner rights, Apertus models are pretrained exclusively on openly available data, retroactively respecti\nThe opt out mechanism I have seen also seems as full of holes as Swiss ch…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "If the training data isn't an open source license that doesn't require attributi\u2026",
+          "title": "If the training data isn't an open source license that doesn't require attributi…",
           "url": "https://github.com/swiss-ai/apertus-tech-report/issues/10",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -2229,13 +2179,13 @@
     },
     {
       "id": "l5106",
-      "text": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] feat: implement AI architecture framework and hardware dashboard\nAutomated code changes for\nissue #17213.\n\n**Agent used:** openrouter\n**Fallback chain:** OpenRouter \u2192 OpenHands (opt-in)\n**Fallback chain:** OpenRouter \u2192 OpenHands \u2192 manual (all free-tier)\n\n### Issue\nAutomated code changes for\nissue #17210.\n\n**Agent use\u2026",
+      "text": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] feat: implement AI architecture framework and hardware dashboard\nAutomated code changes for\nissue #17213.\n\n**Agent used:** openrouter\n**Fallback chain:** OpenRouter → OpenHands (opt-in)\n**Fallback chain:** OpenRouter → OpenHands → manual (all free-tier)\n\n### Issue\nAutomated code changes for\nissue #17210.\n\n**Agent use…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [o\u2026",
+          "title": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [o…",
           "url": "https://github.com/midnghtsapphire/revvel-standards/pull/17216",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -2250,13 +2200,13 @@
     },
     {
       "id": "l5107",
-      "text": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] feat: implement AI architecture framework and hardware dashboard\nAutomated code changes for\nissue #17228.\n\n**Agent used:** openrouter\n**Fallback chain:** OpenRouter \u2192 OpenHands (opt-in)\n**Fallback chain:** OpenRouter \u2192 OpenHands \u2192 manual (all free-tier)\u2026",
+      "text": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] feat: implement AI architecture framework and hardware dashboard\nAutomated code changes for\nissue #17228.\n\n**Agent used:** openrouter\n**Fallback chain:** OpenRouter → OpenHands (opt-in)\n**Fallback chain:** OpenRouter → OpenHands → manual (all free-tier)…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [o\u2026",
+          "title": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [o…",
           "url": "https://github.com/midnghtsapphire/revvel-standards/pull/17231",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -2271,13 +2221,13 @@
     },
     {
       "id": "l5108",
-      "text": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] feat: implement AI architecture framework and hardware dashboard\nAutomated code changes for\nissue #17192.\n\n**Agent used:** openrouter\n**Fallback chain:** OpenRouter \u2192 OpenHands (opt-in)\n**Fallback chain:** OpenRouter \u2192 OpenHands \u2192 manual (all free-tier)\n\n### Issue\nAutomated code changes for\nissue #17189.\n\n**Agent used:** openrouter\n**Fallback chain:** OpenRouter\n> \ud83d\udc19 **Octopus Review** \u2014 Your organization i\u2026",
+      "text": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] feat: implement AI architecture framework and hardware dashboard\nAutomated code changes for\nissue #17192.\n\n**Agent used:** openrouter\n**Fallback chain:** OpenRouter → OpenHands (opt-in)\n**Fallback chain:** OpenRouter → OpenHands → manual (all free-tier)\n\n### Issue\nAutomated code changes for\nissue #17189.\n\n**Agent used:** openrouter\n**Fallback chain:** OpenRouter\n> 🐙 **Octopus Review** — Your organization i…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [o\u2026",
+          "title": "[openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [openrouter] [o…",
           "url": "https://github.com/midnghtsapphire/revvel-standards/pull/17195",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -2292,13 +2242,13 @@
     },
     {
       "id": "l5109",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -2313,13 +2263,13 @@
     },
     {
       "id": "l5110",
-      "text": "I Tried Unreal MCP and *Agentic AI Coding*. Here\u2019s What I Got\nI decided to try Unreal MCP with an AI agent to see whether this stuff is actually as impressive as people keep claiming. Not because I particularly wanna use it, I honestly don&#39;t. After watching AI completely disrupt the web and mobile development industry, which I worked in for years, and being unemployed for almost two years now, I&#39;m not exactly excited about giving more money to those billionaire AI CEOs . Anyway, I wanted\u2026",
+      "text": "I Tried Unreal MCP and *Agentic AI Coding*. Here’s What I Got\nI decided to try Unreal MCP with an AI agent to see whether this stuff is actually as impressive as people keep claiming. Not because I particularly wanna use it, I honestly don&#39;t. After watching AI completely disrupt the web and mobile development industry, which I worked in for years, and being unemployed for almost two years now, I&#39;m not exactly excited about giving more money to those billionaire AI CEOs . Anyway, I wanted…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I Tried Unreal MCP and *Agentic AI Coding*. Here\u2019s What I Got\nI decided to try U\u2026",
+          "title": "I Tried Unreal MCP and *Agentic AI Coding*. Here’s What I Got\nI decided to try U…",
           "url": "https://www.reddit.com/r/unrealengine/comments/1vtl6ip/i_tried_unreal_mcp_and_agentic_ai_coding_heres/",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2334,13 +2284,13 @@
     },
     {
       "id": "l5111",
-      "text": "Ok I finally concede, the naval update is broken\nI&#39;ve previously been a pretty strong supporter of the naval update, I thought the biggest problem was the AI not using being able to interact with it properly But now I&#39;ve installed a mod that massively improves the AI and now I&#39;m actually losing naval battles. Great I now have the naval strategy and warfare I&#39;ve always wanted! right? right? except the important thing to note is how I&#39;m losing these battles. you see I&#39;ve be\u2026",
+      "text": "Ok I finally concede, the naval update is broken\nI&#39;ve previously been a pretty strong supporter of the naval update, I thought the biggest problem was the AI not using being able to interact with it properly But now I&#39;ve installed a mod that massively improves the AI and now I&#39;m actually losing naval battles. Great I now have the naval strategy and warfare I&#39;ve always wanted! right? right? except the important thing to note is how I&#39;m losing these battles. you see I&#39;ve be…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Ok I finally concede, the naval update is broken\nI&#39;ve previously been a pret\u2026",
+          "title": "Ok I finally concede, the naval update is broken\nI&#39;ve previously been a pret…",
           "url": "https://www.reddit.com/r/victoria3/comments/1vzyl7t/ok_i_finally_concede_the_naval_update_is_broken/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2355,13 +2305,13 @@
     },
     {
       "id": "l5112",
-      "text": "I Finally Found an AI Workflow That Actually Fits Archviz\nExplore Magnific here: https://referral.magnific.com/mzUV5PT\n(If you choose to sign up through this affiliate link, you'll be supporting the channel at no additional cost to you.)\n\n~\nAI in architectural visualization doesn't have to mean giving up control. Or at least, it shouldn't... In this practical super tutorial, I'll show you how I use Magnific to improve architectural renders, create animations, test design ideas, and build reusabl\u2026",
+      "text": "I Finally Found an AI Workflow That Actually Fits Archviz\nExplore Magnific here: https://referral.magnific.com/mzUV5PT\n(If you choose to sign up through this affiliate link, you'll be supporting the channel at no additional cost to you.)\n\n~\nAI in architectural visualization doesn't have to mean giving up control. Or at least, it shouldn't... In this practical super tutorial, I'll show you how I use Magnific to improve architectural renders, create animations, test design ideas, and build reusabl…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "I Finally Found an AI Workflow That Actually Fits Archviz\nExplore Magnific here:\u2026",
+          "title": "I Finally Found an AI Workflow That Actually Fits Archviz\nExplore Magnific here:…",
           "url": "https://www.youtube.com/watch?v=gq1LIFNxjeI",
           "date": "2026-06-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2376,13 +2326,13 @@
     },
     {
       "id": "l5113",
-      "text": "AI Wellness Garden Design: From CAD to Concept (Part 1)\nI\u2019ve been experimenting with a new workflow lately: taking CAD files straight into AI to generate wellness garden concepts, and honestly, it\u2019s been a huge time-saver. In this video, I\u2019m walking you through how I do it from start to finish using KONVI.\nThis is Part 1 of my AI Wellness Garden Design series. Part 2 will cover rendering and presentation boards\u2014I\u2019ll add the link here once it\u2019s live.\nVideo breakdown:\n0:00 \u2014 Why the traditional la\u2026",
+      "text": "AI Wellness Garden Design: From CAD to Concept (Part 1)\nI’ve been experimenting with a new workflow lately: taking CAD files straight into AI to generate wellness garden concepts, and honestly, it’s been a huge time-saver. In this video, I’m walking you through how I do it from start to finish using KONVI.\nThis is Part 1 of my AI Wellness Garden Design series. Part 2 will cover rendering and presentation boards—I’ll add the link here once it’s live.\nVideo breakdown:\n0:00 — Why the traditional la…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Wellness Garden Design: From CAD to Concept (Part 1)\nI\u2019ve been experimenting \u2026",
+          "title": "AI Wellness Garden Design: From CAD to Concept (Part 1)\nI’ve been experimenting …",
           "url": "https://www.youtube.com/watch?v=usLTIaVx0Fg",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2473,6 +2423,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

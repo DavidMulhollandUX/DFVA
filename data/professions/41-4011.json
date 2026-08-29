@@ -17,64 +17,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "41-4011-01",
-      "text": "National peak professional bodies and statutory regulators governing Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
-          "url": "https://www.psc.gov.au/standards/41-4011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products"
-        }
-      ],
-      "scope": "Australian practitioners in Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "41-4011-02",
-      "text": "Automation of routine transactional and analytical tasks in Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
-          "url": "https://www.jobsandskills.gov.au/research/41-4011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "Privacy Policy for \"Awj\" (\u0623\u0648\u062c)\nPrivacy Policy for \"Awj\" (\u0623\u0648\u062c)Last Updated: July 15, 2026Awj (\"we,\" \"our,\" or \"us\") respects your privacy. This Privacy Policy outlines how we collect, use, and protect your information when using our B2B marketplace platform connecting wholesale stores, retail shops, and sales representatives.1. In",
+      "text": "Privacy Policy for \"Awj\" (أوج)\nPrivacy Policy for \"Awj\" (أوج)Last Updated: July 15, 2026Awj (\"we,\" \"our,\" or \"us\") respects your privacy. This Privacy Policy outlines how we collect, use, and protect your information when using our B2B marketplace platform connecting wholesale stores, retail shops, and sales representatives.1. In",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Privacy Policy for \"Awj\" (\u0623\u0648\u062c)\nPrivacy Policy for \"Awj\" (\u0623\u0648\u062c)Last Updated: July \u2026",
+          "title": "Privacy Policy for \"Awj\" (أوج)\nPrivacy Policy for \"Awj\" (أوج)Last Updated: July …",
           "url": "https://github.com/mareo98/claint13/issues/1",
           "date": "2026-07-14",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -89,13 +39,13 @@
     },
     {
       "id": "l504",
-      "text": "Add LA Peptides Sales Portal: mobile-first quoting/invoicing PWA\n## Summary\n\nAdds `sales-portal/` \u2014 a production-ready, mobile-first quoting and invoicing Progressive Web App for LA Peptides sales representatives, built with Next.js 14, TypeScript, Prisma/PostgreSQL, and Auth.js. The existing static market-analysis site at the repo root is untouched.\n\n- **Pricing",
+      "text": "Add LA Peptides Sales Portal: mobile-first quoting/invoicing PWA\n## Summary\n\nAdds `sales-portal/` — a production-ready, mobile-first quoting and invoicing Progressive Web App for LA Peptides sales representatives, built with Next.js 14, TypeScript, Prisma/PostgreSQL, and Auth.js. The existing static market-analysis site at the repo root is untouched.\n\n- **Pricing",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add LA Peptides Sales Portal: mobile-first quoting/invoicing PWA\n## Summary\n\nAdd\u2026",
+          "title": "Add LA Peptides Sales Portal: mobile-first quoting/invoicing PWA\n## Summary\n\nAdd…",
           "url": "https://github.com/uniquesalesinc-hub/Lapeptides-market-analysis-/pull/1",
           "date": "2026-07-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -110,13 +60,13 @@
     },
     {
       "id": "l505",
-      "text": "HN Top Stories Digest - July 3, 2026\n**Daily Hacker News digest for 2026-07-03** \u2014 top 30 submissions of the last 24h, ranked by points. Each entry summarizes the linked article and its HN discussion.\n\n\ud83d\udcc4 Permalink (master): https://github.com/srid/claude-dump/blob/master/hn/2026/07/03.md\n\nFetch notes: 2 articles gated (#8 Reuters, #20",
+      "text": "HN Top Stories Digest - July 3, 2026\n**Daily Hacker News digest for 2026-07-03** — top 30 submissions of the last 24h, ranked by points. Each entry summarizes the linked article and its HN discussion.\n\n📄 Permalink (master): https://github.com/srid/claude-dump/blob/master/hn/2026/07/03.md\n\nFetch notes: 2 articles gated (#8 Reuters, #20",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "HN Top Stories Digest - July 3, 2026\n**Daily Hacker News digest for 2026-07-03**\u2026",
+          "title": "HN Top Stories Digest - July 3, 2026\n**Daily Hacker News digest for 2026-07-03**…",
           "url": "https://github.com/srid/claude-dump/pull/64",
           "date": "2026-07-03",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -320,13 +270,13 @@
     },
     {
       "id": "l515",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -488,13 +438,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -572,13 +522,13 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: Slate \u2013 Open-source AI workspace with a built-in browser",
+      "text": "Show HN: Slate – Open-source AI workspace with a built-in browser",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Slate \u2013 Open-source AI workspace with a built-in browser",
+          "title": "Show HN: Slate – Open-source AI workspace with a built-in browser",
           "url": "https://github.com/slate-ai/slate",
           "date": "2026-03-11",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -614,13 +564,13 @@
     },
     {
       "id": "l529",
-      "text": "r/gamedev Policy on AI Use\nAI is one of the most contentious subjects in game development right now, and we regularly see posts reported or discussions derailed simply because AI was involved somewhere in the process. We want to be clear about our position: r/gamedev does not prohibit the use of AI, and using AI does not automatically make a post low effort. This is not an endorsement of every AI company, model, or use case. Legitimate technical, legal, economic, ethical, and creative concerns e\u2026",
+      "text": "r/gamedev Policy on AI Use\nAI is one of the most contentious subjects in game development right now, and we regularly see posts reported or discussions derailed simply because AI was involved somewhere in the process. We want to be clear about our position: r/gamedev does not prohibit the use of AI, and using AI does not automatically make a post low effort. This is not an endorsement of every AI company, model, or use case. Legitimate technical, legal, economic, ethical, and creative concerns e…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "r/gamedev Policy on AI Use\nAI is one of the most contentious subjects in game de\u2026",
+          "title": "r/gamedev Policy on AI Use\nAI is one of the most contentious subjects in game de…",
           "url": "https://www.reddit.com/r/gamedev/comments/1vrnqyt/rgamedev_policy_on_ai_use/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -635,13 +585,13 @@
     },
     {
       "id": "l530",
-      "text": "AI bubble in a nutshell\nThe AI bubble isn\u2019t bursting. You idiots ARE the demand. Everyone compares AI to the dot-com bubble while using AI every fucking day. We ask it stupid questions, write emails and texts, summarize shit we don\u2019t want to read, code, research, study, make spreadsheets, plan trips\u2014the list keeps growing. And that\u2019s just us degenerates. Enterprises are plugging AI into customer service, coding, cybersecurity, data analysis, sales, marketing, and basically every workflow where h\u2026",
+      "text": "AI bubble in a nutshell\nThe AI bubble isn’t bursting. You idiots ARE the demand. Everyone compares AI to the dot-com bubble while using AI every fucking day. We ask it stupid questions, write emails and texts, summarize shit we don’t want to read, code, research, study, make spreadsheets, plan trips—the list keeps growing. And that’s just us degenerates. Enterprises are plugging AI into customer service, coding, cybersecurity, data analysis, sales, marketing, and basically every workflow where h…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI bubble in a nutshell\nThe AI bubble isn\u2019t bursting. You idiots ARE the demand.\u2026",
+          "title": "AI bubble in a nutshell\nThe AI bubble isn’t bursting. You idiots ARE the demand.…",
           "url": "https://www.reddit.com/r/wallstreetbets/comments/1vknzog/ai_bubble_in_a_nutshell/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -656,13 +606,13 @@
     },
     {
       "id": "l531",
-      "text": "\ud83d\udea8 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the future.\n\nIt\u2019s already changing how we write, design, edit, code, research, and create.\n\nHere are 20 AI tools worth knowing \ud83e\uddf5\ud83d\udc47\n\n1/ ChatGPT \u2014 Your AI assistant.\n\nUse it to:\n\u2022 Write\n\u2022 Research\n\u2022 Brainstorm\n\u2022 Learn\n\u2022 Plan\n\u2022 Solve problems\n\nThe better your prompts, the better your results.\n\n2/ Midjourney \u2014 Turn imagination into stunning images.\n\nPerfect for:\n\u2022 Creators\n\u2022 Designers\n\u2022 Marketers\n\u2022 Brand owners\n\nOne idea can b",
+      "text": "🚨 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the future.\n\nIt’s already changing how we write, design, edit, code, research, and create.\n\nHere are 20 AI tools worth knowing 🧵👇\n\n1/ ChatGPT — Your AI assistant.\n\nUse it to:\n• Write\n• Research\n• Brainstorm\n• Learn\n• Plan\n• Solve problems\n\nThe better your prompts, the better your results.\n\n2/ Midjourney — Turn imagination into stunning images.\n\nPerfect for:\n• Creators\n• Designers\n• Marketers\n• Brand owners\n\nOne idea can b",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the f\u2026",
+          "title": "🚨 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the f…",
           "url": "https://x.com/Shohan_Tech_AI/status/2093186736088400143",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -698,13 +648,13 @@
     },
     {
       "id": "l533",
-      "text": "Everyone says, \u201cAI agents will change everything.\u201d\n\nBut very few explain how to actually build one.\n\nSo let me explain it simply.\n\nImagine you hire a new junior employee.\n\nOn day one, you do not give them access to every company system and say:\n\n\u201cGo run the business.\u201d\n\nYou give them one clear job.\n\nMaybe:\n\u201cEvery morning, check the sales sheet, find what changed, and send me a short update.\u201d\n\nThey need three things:\n\n1. A clear goal\n   What exactly should they achieve?\n\n2. The right tools\n   Acce",
+      "text": "Everyone says, “AI agents will change everything.”\n\nBut very few explain how to actually build one.\n\nSo let me explain it simply.\n\nImagine you hire a new junior employee.\n\nOn day one, you do not give them access to every company system and say:\n\n“Go run the business.”\n\nYou give them one clear job.\n\nMaybe:\n“Every morning, check the sales sheet, find what changed, and send me a short update.”\n\nThey need three things:\n\n1. A clear goal\n   What exactly should they achieve?\n\n2. The right tools\n   Acce",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Everyone says, \u201cAI agents will change everything.\u201d\n\nBut very few explain how to \u2026",
+          "title": "Everyone says, “AI agents will change everything.”\n\nBut very few explain how to …",
           "url": "https://x.com/NChandrawanshi6/status/2092607273168515184",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -782,13 +732,13 @@
     },
     {
       "id": "l537",
-      "text": "Who is we \ud83d\ude02\ud83d\udc94 https://t.co/MUkyoHtnqn",
+      "text": "Who is we 😂💔 https://t.co/MUkyoHtnqn",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Who is we \ud83d\ude02\ud83d\udc94 https://t.co/MUkyoHtnqn",
+          "title": "Who is we 😂💔 https://t.co/MUkyoHtnqn",
           "url": "https://x.com/CodeEdison/status/2091118645220896931",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -803,13 +753,13 @@
     },
     {
       "id": "l538",
-      "text": "POV: my dreams when I spend all night learning programming \ud83d\ude02 https://t.co/XImsOh2uDF",
+      "text": "POV: my dreams when I spend all night learning programming 😂 https://t.co/XImsOh2uDF",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "POV: my dreams when I spend all night learning programming \ud83d\ude02 https://t.co/XImsOh\u2026",
+          "title": "POV: my dreams when I spend all night learning programming 😂 https://t.co/XImsOh…",
           "url": "https://x.com/CodeEdison/status/2091242719033074130",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -830,7 +780,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Climbing the corporate ladder until 65 is such a scam:\n\n- graduate college\n- go \u2026",
+          "title": "Climbing the corporate ladder until 65 is such a scam:\n\n- graduate college\n- go …",
           "url": "https://x.com/Sakshi50038/status/2093336508153618714",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -851,7 +801,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Anthropic released a list of jobs that are affected by AI\n\n1. Computer Programme\u2026",
+          "title": "Anthropic released a list of jobs that are affected by AI\n\n1. Computer Programme…",
           "url": "https://x.com/CodeEdison/status/2047658517524320464",
           "date": "2026-04-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -872,7 +822,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "With vibe coding, you accidentally learn:\n- how APIs connect everything.\n- why y\u2026",
+          "title": "With vibe coding, you accidentally learn:\n- how APIs connect everything.\n- why y…",
           "url": "https://x.com/Sakshi50038/status/2092952312327393341",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -887,13 +837,13 @@
     },
     {
       "id": "l542",
-      "text": "Every developer can relate to this  \ud83d\ude02 https://t.co/ZQF4RofPOX",
+      "text": "Every developer can relate to this  😂 https://t.co/ZQF4RofPOX",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Every developer can relate to this  \ud83d\ude02 https://t.co/ZQF4RofPOX",
+          "title": "Every developer can relate to this  😂 https://t.co/ZQF4RofPOX",
           "url": "https://x.com/CodeEdison/status/2091866191899812281",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -908,13 +858,13 @@
     },
     {
       "id": "l543",
-      "text": "Lmaoo \ud83d\ude02\ud83d\ude02 https://t.co/4alFazsP1M",
+      "text": "Lmaoo 😂😂 https://t.co/4alFazsP1M",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Lmaoo \ud83d\ude02\ud83d\ude02 https://t.co/4alFazsP1M",
+          "title": "Lmaoo 😂😂 https://t.co/4alFazsP1M",
           "url": "https://x.com/CodeEdison/status/2091429010043457567",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -929,13 +879,13 @@
     },
     {
       "id": "l544",
-      "text": "The confidence in this post is impressive. \n\n\u20b9500/day sounds simple.\n\nThen the maths goes:\n\u20b92,500/week \u2192 \u20b950,000/month \u2192 \u20b910 lakh/year\n\nAt this point, don\u2019t trade options.\nTrade the calculator. https://t.co/kRnjIKidXP",
+      "text": "The confidence in this post is impressive. \n\n₹500/day sounds simple.\n\nThen the maths goes:\n₹2,500/week → ₹50,000/month → ₹10 lakh/year\n\nAt this point, don’t trade options.\nTrade the calculator. https://t.co/kRnjIKidXP",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The confidence in this post is impressive. \n\n\u20b9500/day sounds simple.\n\nThen the m\u2026",
+          "title": "The confidence in this post is impressive. \n\n₹500/day sounds simple.\n\nThen the m…",
           "url": "https://x.com/Sakshi50038/status/2092879507267240235",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -950,13 +900,13 @@
     },
     {
       "id": "l545",
-      "text": "If else and switch cases \ud83d\ude02 https://t.co/okols40hXJ",
+      "text": "If else and switch cases 😂 https://t.co/okols40hXJ",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "If else and switch cases \ud83d\ude02 https://t.co/okols40hXJ",
+          "title": "If else and switch cases 😂 https://t.co/okols40hXJ",
           "url": "https://x.com/CodeEdison/status/2091451952810909862",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -971,13 +921,13 @@
     },
     {
       "id": "l546",
-      "text": "Suddenly I forget the most basic things \ud83d\ude2d https://t.co/Nk2Xc3kwLe",
+      "text": "Suddenly I forget the most basic things 😭 https://t.co/Nk2Xc3kwLe",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Suddenly I forget the most basic things \ud83d\ude2d https://t.co/Nk2Xc3kwLe",
+          "title": "Suddenly I forget the most basic things 😭 https://t.co/Nk2Xc3kwLe",
           "url": "https://x.com/CodeEdison/status/2091913517632741438",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -992,13 +942,13 @@
     },
     {
       "id": "l547",
-      "text": "How that one tech bro be feeling like \ud83d\ude02 https://t.co/7VoFcZeIVk",
+      "text": "How that one tech bro be feeling like 😂 https://t.co/7VoFcZeIVk",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "How that one tech bro be feeling like \ud83d\ude02 https://t.co/7VoFcZeIVk",
+          "title": "How that one tech bro be feeling like 😂 https://t.co/7VoFcZeIVk",
           "url": "https://x.com/CodeEdison/status/2092529830310846588",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1013,13 +963,13 @@
     },
     {
       "id": "l548",
-      "text": "There are only 10 ways \u2b07\u2b07\n1. Marry rich.\n2. Index funds.\n3. Sales.\n4. Content creation.\n5. Real estate.\n6. Startup investing.\n7. IP.\n8. Online business.\n9. App/Software development.\n10. Leverage other people's money.\n\nThat's it. That's the whole list.\n\nNo shortcuts. No secrets.\n\nPick one. Get obsessed. Give it 5 years",
+      "text": "There are only 10 ways ⬇⬇\n1. Marry rich.\n2. Index funds.\n3. Sales.\n4. Content creation.\n5. Real estate.\n6. Startup investing.\n7. IP.\n8. Online business.\n9. App/Software development.\n10. Leverage other people's money.\n\nThat's it. That's the whole list.\n\nNo shortcuts. No secrets.\n\nPick one. Get obsessed. Give it 5 years",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "There are only 10 ways \u2b07\u2b07\n1. Marry rich.\n2. Index funds.\n3. Sales.\n4. Content cr\u2026",
+          "title": "There are only 10 ways ⬇⬇\n1. Marry rich.\n2. Index funds.\n3. Sales.\n4. Content cr…",
           "url": "https://x.com/Sakshi50038/status/2093186896205861099",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1034,13 +984,13 @@
     },
     {
       "id": "l549",
-      "text": "So real \ud83d\ude02 https://t.co/HnE0RvtZyN",
+      "text": "So real 😂 https://t.co/HnE0RvtZyN",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "So real \ud83d\ude02 https://t.co/HnE0RvtZyN",
+          "title": "So real 😂 https://t.co/HnE0RvtZyN",
           "url": "https://x.com/CodeEdison/status/2091511387361083659",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1055,13 +1005,13 @@
     },
     {
       "id": "l550",
-      "text": "Anthropic Reveals At-Risk Careers\n\n Jobs most exposed to AI \n\n1. Computer Programmers \u2013 74.50% exposed\n(Writing, updating & maintaining software programs)\n2. Customer Service Representatives \u2013 70.10% exposed\n(Answering queries, handling complaints, taking orders)\n3. Data Entry Keyers \u2013 67.10% exposed\n(Reading source documents & entering data into systems)\n4. Medical Records Specialists \u2013 66.70% exposed\n(Compiling & coding patient data & records)\n5. Market Research & Marketing Specialists \u2013 64.80",
+      "text": "Anthropic Reveals At-Risk Careers\n\n Jobs most exposed to AI \n\n1. Computer Programmers – 74.50% exposed\n(Writing, updating & maintaining software programs)\n2. Customer Service Representatives – 70.10% exposed\n(Answering queries, handling complaints, taking orders)\n3. Data Entry Keyers – 67.10% exposed\n(Reading source documents & entering data into systems)\n4. Medical Records Specialists – 66.70% exposed\n(Compiling & coding patient data & records)\n5. Market Research & Marketing Specialists – 64.80",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Anthropic Reveals At-Risk Careers\n\n Jobs most exposed to AI \n\n1. Computer Progra\u2026",
+          "title": "Anthropic Reveals At-Risk Careers\n\n Jobs most exposed to AI \n\n1. Computer Progra…",
           "url": "https://x.com/Sakshi50038/status/2031624631409635757",
           "date": "2026-03-11",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1076,13 +1026,13 @@
     },
     {
       "id": "l551",
-      "text": "This is genuinely the worst cold email i\u2019ve ever received\n\nthis template will NOT get you hired https://t.co/ZbQ187Jfqr",
+      "text": "This is genuinely the worst cold email i’ve ever received\n\nthis template will NOT get you hired https://t.co/ZbQ187Jfqr",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This is genuinely the worst cold email i\u2019ve ever received\n\nthis template will NO\u2026",
+          "title": "This is genuinely the worst cold email i’ve ever received\n\nthis template will NO…",
           "url": "https://x.com/Sakshi50038/status/2093404412991692893",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1118,13 +1068,13 @@
     },
     {
       "id": "l553",
-      "text": "Everyone wants a secret formula for getting rich.\n\nThere isn't one.\n\nThere are only 10 ways: \u2b07\u2b07",
+      "text": "Everyone wants a secret formula for getting rich.\n\nThere isn't one.\n\nThere are only 10 ways: ⬇⬇",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Everyone wants a secret formula for getting rich.\n\nThere isn't one.\n\nThere are o\u2026",
+          "title": "Everyone wants a secret formula for getting rich.\n\nThere isn't one.\n\nThere are o…",
           "url": "https://x.com/Sakshi50038/status/2093186804182876377",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1181,13 +1131,13 @@
     },
     {
       "id": "l556",
-      "text": "@chillaxdude14 Nice \ud83d\ude42",
+      "text": "@chillaxdude14 Nice 🙂",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@chillaxdude14 Nice \ud83d\ude42",
+          "title": "@chillaxdude14 Nice 🙂",
           "url": "https://x.com/Sakshi50038/status/2093384324456542258",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1202,13 +1152,13 @@
     },
     {
       "id": "l557",
-      "text": "@pinksliparcade @Sakshi50038 \ud83d\ude02",
+      "text": "@pinksliparcade @Sakshi50038 😂",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@pinksliparcade @Sakshi50038 \ud83d\ude02",
+          "title": "@pinksliparcade @Sakshi50038 😂",
           "url": "https://x.com/yung_in01/status/2093447841792295121",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1244,13 +1194,13 @@
     },
     {
       "id": "l559",
-      "text": "@Sakshi50038 Good thing about these careers are all of them don't need to pay tax which is the goldmine \ud83d\ude4f",
+      "text": "@Sakshi50038 Good thing about these careers are all of them don't need to pay tax which is the goldmine 🙏",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Sakshi50038 Good thing about these careers are all of them don't need to pay ta\u2026",
+          "title": "@Sakshi50038 Good thing about these careers are all of them don't need to pay ta…",
           "url": "https://x.com/GobindVijay/status/2093149020894233016",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1265,13 +1215,13 @@
     },
     {
       "id": "l560",
-      "text": "@Sakshi50038 Curious what 2026 list says \ud83d\udc40",
+      "text": "@Sakshi50038 Curious what 2026 list says 👀",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Sakshi50038 Curious what 2026 list says \ud83d\udc40",
+          "title": "@Sakshi50038 Curious what 2026 list says 👀",
           "url": "https://x.com/SEOMastery2026/status/2093139539095388348",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1286,13 +1236,13 @@
     },
     {
       "id": "l561",
-      "text": "@CodeEdison \ud83d\udc80 dreams",
+      "text": "@CodeEdison 💀 dreams",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@CodeEdison \ud83d\udc80 dreams",
+          "title": "@CodeEdison 💀 dreams",
           "url": "https://x.com/web3devop/status/2092542475550273746",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1334,7 +1284,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Sakshi50038 the accidental learning is probably more valuable than the first ap\u2026",
+          "title": "@Sakshi50038 the accidental learning is probably more valuable than the first ap…",
           "url": "https://x.com/irbaazkadri/status/2092973238829904039",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1349,13 +1299,13 @@
     },
     {
       "id": "l564",
-      "text": "@CodeEdison Why do we need this \ud83d\ude2d",
+      "text": "@CodeEdison Why do we need this 😭",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@CodeEdison Why do we need this \ud83d\ude2d",
+          "title": "@CodeEdison Why do we need this 😭",
           "url": "https://x.com/tpritha03/status/2092160728262451299",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1370,13 +1320,13 @@
     },
     {
       "id": "l565",
-      "text": "@CodeEdison \ud83d\ude35\ud83d\ude35",
+      "text": "@CodeEdison 😵😵",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@CodeEdison \ud83d\ude35\ud83d\ude35",
+          "title": "@CodeEdison 😵😵",
           "url": "https://x.com/jahirsheikh8/status/2091877449533730993",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1391,13 +1341,13 @@
     },
     {
       "id": "l566",
-      "text": "@CodeEdison Spending hours debugging only to find a misplaced semicolon or trailing comma \ud83d\udc80",
+      "text": "@CodeEdison Spending hours debugging only to find a misplaced semicolon or trailing comma 💀",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@CodeEdison Spending hours debugging only to find a misplaced semicolon or trail\u2026",
+          "title": "@CodeEdison Spending hours debugging only to find a misplaced semicolon or trail…",
           "url": "https://x.com/sanketghatte23/status/2091874737761005778",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1433,13 +1383,13 @@
     },
     {
       "id": "l568",
-      "text": "@HindutvaDon_ We love you, we are with you Modiji! \ud83e\udde1 Just end the reservation everything will line up!",
+      "text": "@HindutvaDon_ We love you, we are with you Modiji! 🧡 Just end the reservation everything will line up!",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@HindutvaDon_ We love you, we are with you Modiji! \ud83e\udde1 Just end the reservation ev\u2026",
+          "title": "@HindutvaDon_ We love you, we are with you Modiji! 🧡 Just end the reservation ev…",
           "url": "https://x.com/DigitalYog/status/2080476868046995582",
           "date": "2026-07-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1454,13 +1404,13 @@
     },
     {
       "id": "l569",
-      "text": "Which jobs are at risk due to Anthropic AI ?\n\n1. \ud83d\udcbb Computer Programmers \u2192 75%  \n   (Writing, updating, maintaining code)\n\n2. \ud83d\udcde Customer Service Representatives \u2192 70%  \n   (Answering questions, handling complaints, orders)\n\n3. \u2328\ufe0f Data Entry Keyers \u2192 67%  \n   (Reading docs and entering data)\n\n4. \ud83e\ude7a Medical Records Specialists \u2192 67%  \n   (Compiling & coding patient records)\n\n5. \ud83d\udcca Market Research & Marketing Specialists \u2192 65%  \n   (Analyzing data, preparing reports)\n\n6. \ud83d\udcbc Sales Representatives (Whole",
+      "text": "Which jobs are at risk due to Anthropic AI ?\n\n1. 💻 Computer Programmers → 75%  \n   (Writing, updating, maintaining code)\n\n2. 📞 Customer Service Representatives → 70%  \n   (Answering questions, handling complaints, orders)\n\n3. ⌨️ Data Entry Keyers → 67%  \n   (Reading docs and entering data)\n\n4. 🩺 Medical Records Specialists → 67%  \n   (Compiling & coding patient records)\n\n5. 📊 Market Research & Marketing Specialists → 65%  \n   (Analyzing data, preparing reports)\n\n6. 💼 Sales Representatives (Whole",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Which jobs are at risk due to Anthropic AI ?\n\n1. \ud83d\udcbb Computer Programmers \u2192 75%  \n\u2026",
+          "title": "Which jobs are at risk due to Anthropic AI ?\n\n1. 💻 Computer Programmers → 75%  \n…",
           "url": "https://x.com/DigitalYog/status/2031324867530985536",
           "date": "2026-03-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1481,7 +1431,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Modiji has taken out ships from war zone when Iran VS USA was happening. The ant\u2026",
+          "title": "Modiji has taken out ships from war zone when Iran VS USA was happening. The ant…",
           "url": "https://x.com/DigitalYog/status/2079837001520693272",
           "date": "2026-07-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1538,13 +1488,13 @@
     },
     {
       "id": "l573",
-      "text": "@dmuthuk If BJP wasn\u2019t secular, Bharath would be Hindurashtra by now!",
+      "text": "@dmuthuk If BJP wasn’t secular, Bharath would be Hindurashtra by now!",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@dmuthuk If BJP wasn\u2019t secular, Bharath would be Hindurashtra by now!",
+          "title": "@dmuthuk If BJP wasn’t secular, Bharath would be Hindurashtra by now!",
           "url": "https://x.com/DigitalYog/status/2051927545852113073",
           "date": "2026-05-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1580,13 +1530,13 @@
     },
     {
       "id": "l575",
-      "text": "@DigitalYog Solid point build that safety net first, then chase the rocket. Smart risks beat reckless leaps. \ud83d\ude80",
+      "text": "@DigitalYog Solid point build that safety net first, then chase the rocket. Smart risks beat reckless leaps. 🚀",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@DigitalYog Solid point build that safety net first, then chase the rocket. Smar\u2026",
+          "title": "@DigitalYog Solid point build that safety net first, then chase the rocket. Smar…",
           "url": "https://x.com/FutureAIRepeat/status/2039704856487919695",
           "date": "2026-04-02",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1607,7 +1557,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@DigitalYog @KobeissiLetter The islamist literally removed the lion flag when th\u2026",
+          "title": "@DigitalYog @KobeissiLetter The islamist literally removed the lion flag when th…",
           "url": "https://x.com/Dazzerd93/status/2036775369106137492",
           "date": "2026-03-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1643,13 +1593,13 @@
     },
     {
       "id": "l578",
-      "text": "@DigitalYog Yeah let\u2019s rebrand \ud83d\ude02\ud83d\ude02",
+      "text": "@DigitalYog Yeah let’s rebrand 😂😂",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@DigitalYog Yeah let\u2019s rebrand \ud83d\ude02\ud83d\ude02",
+          "title": "@DigitalYog Yeah let’s rebrand 😂😂",
           "url": "https://x.com/FutureAIRepeat/status/2036802407431311793",
           "date": "2026-03-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1664,13 +1614,13 @@
     },
     {
       "id": "l579",
-      "text": "How to Use AI in Your Business in 2026\nGet your free personalized $100M scaling roadmap: https://www.acquisition.com/roadmap\n\nIf you\u2019re new to my channel, my name is Alex Hormozi. I\u2019m the founder and managing partner of Acquisition.com. It\u2019s a family office, which is just a formal way of saying we invest our own money into companies. Our 10 portfolio companies bring in over $250,000,000+ per year. Our ownership stake varies between 20% and 100% of them. Given this is a YT channel, and anyone can\u2026",
+      "text": "How to Use AI in Your Business in 2026\nGet your free personalized $100M scaling roadmap: https://www.acquisition.com/roadmap\n\nIf you’re new to my channel, my name is Alex Hormozi. I’m the founder and managing partner of Acquisition.com. It’s a family office, which is just a formal way of saying we invest our own money into companies. Our 10 portfolio companies bring in over $250,000,000+ per year. Our ownership stake varies between 20% and 100% of them. Given this is a YT channel, and anyone can…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How to Use AI in Your Business in 2026\nGet your free personalized $100M scaling \u2026",
+          "title": "How to Use AI in Your Business in 2026\nGet your free personalized $100M scaling …",
           "url": "https://www.youtube.com/watch?v=fr78adfAnuA",
           "date": "2026-04-21",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1685,13 +1635,13 @@
     },
     {
       "id": "l580",
-      "text": "How To Create AI UGC Ads (Full Tutorial)\nJoin our Free weekend Masterclasses on various AI topics : https://class.100xengineers.com/tohqPo\n\nIn this video, we break down how to create AI UGC Ads using ChatGPT Images and Seedance 2.0. Learn how to generate ad creatives with consistent characters, and high-converting AI ad videos for brands, products, and content creation.\n\nPrompting Guidelines Doc : https://docs.google.com/document/d/1gk5TmsjO-082syYp7o1DvW1kk9YwMRIojk3WHc0_fHc/edit?tab=t.0\n\nTimes\u2026",
+      "text": "How To Create AI UGC Ads (Full Tutorial)\nJoin our Free weekend Masterclasses on various AI topics : https://class.100xengineers.com/tohqPo\n\nIn this video, we break down how to create AI UGC Ads using ChatGPT Images and Seedance 2.0. Learn how to generate ad creatives with consistent characters, and high-converting AI ad videos for brands, products, and content creation.\n\nPrompting Guidelines Doc : https://docs.google.com/document/d/1gk5TmsjO-082syYp7o1DvW1kk9YwMRIojk3WHc0_fHc/edit?tab=t.0\n\nTimes…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How To Create AI UGC Ads (Full Tutorial)\nJoin our Free weekend Masterclasses on \u2026",
+          "title": "How To Create AI UGC Ads (Full Tutorial)\nJoin our Free weekend Masterclasses on …",
           "url": "https://www.youtube.com/watch?v=pRtkjKD38SM",
           "date": "2026-05-25",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1706,7 +1656,7 @@
     },
     {
       "id": "l481",
-      "text": "Technical Sales Representative SA \u2014 DuluxGroup (Allenby Gardens, South Australia, Australia). Posted 1 week ago.",
+      "text": "Technical Sales Representative SA — DuluxGroup (Allenby Gardens, South Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1727,7 +1677,7 @@
     },
     {
       "id": "l482",
-      "text": "Sales Specialist \u2014 DKSH (Macquarie Park, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Sales Specialist — DKSH (Macquarie Park, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1748,7 +1698,7 @@
     },
     {
       "id": "l483",
-      "text": "Salesperson \u2014 Emyte Australia (Dandenong, Victoria, Australia). Posted 1 week ago.",
+      "text": "Salesperson — Emyte Australia (Dandenong, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1769,7 +1719,7 @@
     },
     {
       "id": "l484",
-      "text": "Specialist Inside Sales Australia \u2014 Chem-Trend (Thomastown, Victoria, Australia). Posted 1 day ago.",
+      "text": "Specialist Inside Sales Australia — Chem-Trend (Thomastown, Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1790,7 +1740,7 @@
     },
     {
       "id": "l485",
-      "text": "Sales Account Manager \u2014 Primaplas Pty Ltd (Glen Iris, Victoria, Australia). Posted 3 weeks ago.",
+      "text": "Sales Account Manager — Primaplas Pty Ltd (Glen Iris, Victoria, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1811,7 +1761,7 @@
     },
     {
       "id": "l486",
-      "text": "Technical Sales Representative - Industry \u2014 Sika (Bibra Lake, Western Australia, Australia). Posted 2 months ago.",
+      "text": "Technical Sales Representative - Industry — Sika (Bibra Lake, Western Australia, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1832,7 +1782,7 @@
     },
     {
       "id": "l487",
-      "text": "Sales Account Representative (QLD) \u2014 Jotun (Berrinba, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Sales Account Representative (QLD) — Jotun (Berrinba, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1853,7 +1803,7 @@
     },
     {
       "id": "l488",
-      "text": "Account Manager, Polymer & Rubber \u2014 Brenntag (Greater Melbourne Area). Posted 6 days ago.",
+      "text": "Account Manager, Polymer & Rubber — Brenntag (Greater Melbourne Area). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1874,7 +1824,7 @@
     },
     {
       "id": "l489",
-      "text": "Sales Representative - Marine/Protective Coatings (WA) \u2014 Jotun (Henderson, Western Australia, Australia). Posted 2 weeks ago.",
+      "text": "Sales Representative - Marine/Protective Coatings (WA) — Jotun (Henderson, Western Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1895,7 +1845,7 @@
     },
     {
       "id": "l490",
-      "text": "External Sales WSS \u2014 Xylem (Parramatta, New South Wales, Australia). Posted 6 days ago.",
+      "text": "External Sales WSS — Xylem (Parramatta, New South Wales, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1916,13 +1866,13 @@
     },
     {
       "id": "l591",
-      "text": "r/gamedev Policy on AI Use\nAI is one of the most contentious subjects in game development right now, and we regularly see posts reported or discussions derailed simply because AI was involved somewhere in the process. We want to be clear about our position: r/gamedev does not prohibit the use of AI, and using AI does not automatically make a post low effort. This is not an endorsement of every AI company, model, or use case. Legitimate technical, legal, economic, ethical, and creative concerns e\u2026",
+      "text": "r/gamedev Policy on AI Use\nAI is one of the most contentious subjects in game development right now, and we regularly see posts reported or discussions derailed simply because AI was involved somewhere in the process. We want to be clear about our position: r/gamedev does not prohibit the use of AI, and using AI does not automatically make a post low effort. This is not an endorsement of every AI company, model, or use case. Legitimate technical, legal, economic, ethical, and creative concerns e…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "r/gamedev Policy on AI Use\nAI is one of the most contentious subjects in game de\u2026",
+          "title": "r/gamedev Policy on AI Use\nAI is one of the most contentious subjects in game de…",
           "url": "https://www.reddit.com/r/gamedev/comments/1vrnqyt/rgamedev_policy_on_ai_use/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1937,13 +1887,13 @@
     },
     {
       "id": "l592",
-      "text": "AI bubble in a nutshell\nThe AI bubble isn\u2019t bursting. You idiots ARE the demand. Everyone compares AI to the dot-com bubble while using AI every fucking day. We ask it stupid questions, write emails and texts, summarize shit we don\u2019t want to read, code, research, study, make spreadsheets, plan trips\u2014the list keeps growing. And that\u2019s just us degenerates. Enterprises are plugging AI into customer service, coding, cybersecurity, data analysis, sales, marketing, and basically every workflow where h\u2026",
+      "text": "AI bubble in a nutshell\nThe AI bubble isn’t bursting. You idiots ARE the demand. Everyone compares AI to the dot-com bubble while using AI every fucking day. We ask it stupid questions, write emails and texts, summarize shit we don’t want to read, code, research, study, make spreadsheets, plan trips—the list keeps growing. And that’s just us degenerates. Enterprises are plugging AI into customer service, coding, cybersecurity, data analysis, sales, marketing, and basically every workflow where h…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI bubble in a nutshell\nThe AI bubble isn\u2019t bursting. You idiots ARE the demand.\u2026",
+          "title": "AI bubble in a nutshell\nThe AI bubble isn’t bursting. You idiots ARE the demand.…",
           "url": "https://www.reddit.com/r/wallstreetbets/comments/1vknzog/ai_bubble_in_a_nutshell/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1958,13 +1908,13 @@
     },
     {
       "id": "l593",
-      "text": "How to Use AI in Your Business in 2026\nGet your free personalized $100M scaling roadmap: https://www.acquisition.com/roadmap\n\nIf you\u2019re new to my channel, my name is Alex Hormozi. I\u2019m the founder and managing partner of Acquisition.com. It\u2019s a family office, which is just a formal way of saying we invest our own money into companies. Our 10 portfolio companies bring in over $250,000,000+ per year. Our ownership stake varies between 20% and 100% of them. Given this is a YT channel, and anyone can\u2026",
+      "text": "How to Use AI in Your Business in 2026\nGet your free personalized $100M scaling roadmap: https://www.acquisition.com/roadmap\n\nIf you’re new to my channel, my name is Alex Hormozi. I’m the founder and managing partner of Acquisition.com. It’s a family office, which is just a formal way of saying we invest our own money into companies. Our 10 portfolio companies bring in over $250,000,000+ per year. Our ownership stake varies between 20% and 100% of them. Given this is a YT channel, and anyone can…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How to Use AI in Your Business in 2026\nGet your free personalized $100M scaling \u2026",
+          "title": "How to Use AI in Your Business in 2026\nGet your free personalized $100M scaling …",
           "url": "https://www.youtube.com/watch?v=fr78adfAnuA",
           "date": "2026-04-21",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1979,13 +1929,13 @@
     },
     {
       "id": "l594",
-      "text": "How To Create AI UGC Ads (Full Tutorial)\nJoin our Free weekend Masterclasses on various AI topics : https://class.100xengineers.com/tohqPo\n\nIn this video, we break down how to create AI UGC Ads using ChatGPT Images and Seedance 2.0. Learn how to generate ad creatives with consistent characters, and high-converting AI ad videos for brands, products, and content creation.\n\nPrompting Guidelines Doc : https://docs.google.com/document/d/1gk5TmsjO-082syYp7o1DvW1kk9YwMRIojk3WHc0_fHc/edit?tab=t.0\n\nTimes\u2026",
+      "text": "How To Create AI UGC Ads (Full Tutorial)\nJoin our Free weekend Masterclasses on various AI topics : https://class.100xengineers.com/tohqPo\n\nIn this video, we break down how to create AI UGC Ads using ChatGPT Images and Seedance 2.0. Learn how to generate ad creatives with consistent characters, and high-converting AI ad videos for brands, products, and content creation.\n\nPrompting Guidelines Doc : https://docs.google.com/document/d/1gk5TmsjO-082syYp7o1DvW1kk9YwMRIojk3WHc0_fHc/edit?tab=t.0\n\nTimes…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How To Create AI UGC Ads (Full Tutorial)\nJoin our Free weekend Masterclasses on \u2026",
+          "title": "How To Create AI UGC Ads (Full Tutorial)\nJoin our Free weekend Masterclasses on …",
           "url": "https://www.youtube.com/watch?v=pRtkjKD38SM",
           "date": "2026-05-25",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2076,6 +2026,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

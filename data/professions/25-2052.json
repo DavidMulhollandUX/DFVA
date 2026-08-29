@@ -15,58 +15,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "25-2052-01",
-      "text": "National peak professional bodies and statutory regulators governing Special Education Teachers, Kindergarten and Elementary School enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Special Education Teachers, Kindergarten and Elementary School",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Special Education Teachers, Kindergarten and Elementary School",
-          "url": "https://www.psc.gov.au/standards/25-2052",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Special Education Teachers, Kindergarten and Elementary School"
-        }
-      ],
-      "scope": "Australian practitioners in Special Education Teachers, Kindergarten and Elementary School across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "25-2052-02",
-      "text": "Automation of routine transactional and analytical tasks in Special Education Teachers, Kindergarten and Elementary School heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Special Education Teachers, Kindergarten and Elementary School",
-          "url": "https://www.jobsandskills.gov.au/research/25-2052",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Special Education Teachers, Kindergarten and Elementary School in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Special Education Teachers, Kindergarten and Elementary School roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Teacher - Education Support \u2014 Department of Education, Western Australia (Greater Perth Area). Posted 1 week ago.",
+      "text": "Teacher - Education Support — Department of Education, Western Australia (Greater Perth Area). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -87,7 +37,7 @@
     },
     {
       "id": "l404",
-      "text": "Opportunities for Special Education Teachers (Education Support) \u2014 Department of Education, Western Australia (East Perth, Western Australia, Australia). Posted 2 weeks ago.",
+      "text": "Opportunities for Special Education Teachers (Education Support) — Department of Education, Western Australia (East Perth, Western Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -108,7 +58,7 @@
     },
     {
       "id": "l405",
-      "text": "Special Needs Teachers \u2014 Catholic Education Northern Territory (Berrimah, Northern Territory, Australia). Posted 1 day ago.",
+      "text": "Special Needs Teachers — Catholic Education Northern Territory (Berrimah, Northern Territory, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -129,7 +79,7 @@
     },
     {
       "id": "l406",
-      "text": "Teacher \u2014 Autism Spectrum Australia (Aspect) (Port Macquarie, New South Wales, Australia). Posted 1 month ago.",
+      "text": "Teacher — Autism Spectrum Australia (Aspect) (Port Macquarie, New South Wales, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -150,7 +100,7 @@
     },
     {
       "id": "l407",
-      "text": "Teacher \u2014 Autism Spectrum Australia (Aspect) (The Gables, New South Wales, Australia). Posted 2 months ago.",
+      "text": "Teacher — Autism Spectrum Australia (Aspect) (The Gables, New South Wales, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -171,7 +121,7 @@
     },
     {
       "id": "l408",
-      "text": "TEMPORARY TEACHER - ROXBY DOWNS AS - SPECIAL EDUCATION / PLUS ANOTHER SUBJECT* \u2014 Department for Education, South Australia (Roxby Downs, South Australia, Australia). Posted 3 days ago.",
+      "text": "TEMPORARY TEACHER - ROXBY DOWNS AS - SPECIAL EDUCATION / PLUS ANOTHER SUBJECT* — Department for Education, South Australia (Roxby Downs, South Australia, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -192,7 +142,7 @@
     },
     {
       "id": "l409",
-      "text": "Academic Intervention Specialist and Learning Diversity Teacher \u2014 Ivanhoe Grammar School (Doreen, Victoria, Australia). Posted 5 days ago.",
+      "text": "Academic Intervention Specialist and Learning Diversity Teacher — Ivanhoe Grammar School (Doreen, Victoria, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -213,7 +163,7 @@
     },
     {
       "id": "l410",
-      "text": "Specialist Learning Support Teacher | Melton VIC \u2014 OneSchool Global (Melton, Victoria, Australia). Posted 1 week ago.",
+      "text": "Specialist Learning Support Teacher | Melton VIC — OneSchool Global (Melton, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -234,7 +184,7 @@
     },
     {
       "id": "l411",
-      "text": "FY27: Teacher, Special Education, Classic Autism, Kensington Parkwood ES, 1.0FTE \u2014 Montgomery County Public Schools (Kensington, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "FY27: Teacher, Special Education, Classic Autism, Kensington Parkwood ES, 1.0FTE — Montgomery County Public Schools (Kensington, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -255,7 +205,7 @@
     },
     {
       "id": "l412",
-      "text": "Support Teacher (Inclusive Education) - Holy Spirit College, FITZGIBBON \u2014 Brisbane Catholic Education (Taigum, Queensland, Australia). Posted 2 days ago.",
+      "text": "Support Teacher (Inclusive Education) - Holy Spirit College, FITZGIBBON — Brisbane Catholic Education (Taigum, Queensland, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -282,7 +232,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Add fillable Alberta IPP (.docx) template and generator\n## Summary\n\nAdds a filla\u2026",
+          "title": "Add fillable Alberta IPP (.docx) template and generator\n## Summary\n\nAdds a filla…",
           "url": "https://github.com/tmackinnon-prog/reimagined-potato/pull/2",
           "date": "2026-07-23",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -297,13 +247,13 @@
     },
     {
       "id": "l514",
-      "text": "Add UK Education occupation cohort\nAdds the sixth United Kingdom occupation publication cohort for the eight canonical Education careers, stacked on the UK Business branch.\n\nScope:\n- Early Childhood Teacher \u2014 SOC 2315, early-years teacher scope\n- Primary School Teacher \u2014 SOC 2314\n- Secondary School Teacher \u2014 SOC 2313\n- Special Educat",
+      "text": "Add UK Education occupation cohort\nAdds the sixth United Kingdom occupation publication cohort for the eight canonical Education careers, stacked on the UK Business branch.\n\nScope:\n- Early Childhood Teacher — SOC 2315, early-years teacher scope\n- Primary School Teacher — SOC 2314\n- Secondary School Teacher — SOC 2313\n- Special Educat",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add UK Education occupation cohort\nAdds the sixth United Kingdom occupation publ\u2026",
+          "title": "Add UK Education occupation cohort\nAdds the sixth United Kingdom occupation publ…",
           "url": "https://github.com/CampCareer/campcareer/pull/189",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -324,7 +274,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Repo cleanup: add topics, Pages URL in About, update README intro, mark HACKATHO\u2026",
+          "title": "Repo cleanup: add topics, Pages URL in About, update README intro, mark HACKATHO…",
           "url": "https://github.com/Swissystem7/MelodyMath/issues/2",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -339,13 +289,13 @@
     },
     {
       "id": "l516",
-      "text": "Use Case: Section 618 Personnel Reporting\n## **Use Case: Section 618 Personnel Reporting**\n\n---\n\n### **1. Introduction**\nStates and LEAs report the number of special education teachers (FS070), related services personnel (FS099), and paraprofessionals (FS112) employed or contracted to work with children with disabilities ages 3\u201321. Data are",
+      "text": "Use Case: Section 618 Personnel Reporting\n## **Use Case: Section 618 Personnel Reporting**\n\n---\n\n### **1. Introduction**\nStates and LEAs report the number of special education teachers (FS070), related services personnel (FS099), and paraprofessionals (FS112) employed or contracted to work with children with disabilities ages 3–21. Data are",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Use Case: Section 618 Personnel Reporting\n## **Use Case: Section 618 Personnel R\u2026",
+          "title": "Use Case: Section 618 Personnel Reporting\n## **Use Case: Section 618 Personnel R…",
           "url": "https://github.com/educoreproject/educore_use_cases/issues/44",
           "date": "2026-04-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -360,13 +310,13 @@
     },
     {
       "id": "l517",
-      "text": "Add education-legal plugin: K-12 special ed, civil rights, FERPA, Title IX (closes #13)\n## Scale and breadth\n\nThree audiences this plugin serves are each working at scale.\n\n**Students directly subject to these regimes**\n- **~8.2 million students** have IEPs under IDEA (ages 3\u201321, 2024 data \u2014 up 3.8% YoY; autism alone now ~15% of school-age caseload).\n- **~1.5 million students** have Se",
+      "text": "Add education-legal plugin: K-12 special ed, civil rights, FERPA, Title IX (closes #13)\n## Scale and breadth\n\nThree audiences this plugin serves are each working at scale.\n\n**Students directly subject to these regimes**\n- **~8.2 million students** have IEPs under IDEA (ages 3–21, 2024 data — up 3.8% YoY; autism alone now ~15% of school-age caseload).\n- **~1.5 million students** have Se",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add education-legal plugin: K-12 special ed, civil rights, FERPA, Title IX (clos\u2026",
+          "title": "Add education-legal plugin: K-12 special ed, civil rights, FERPA, Title IX (clos…",
           "url": "https://github.com/anthropics/claude-for-legal/pull/14",
           "date": "2026-05-14",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -381,13 +331,13 @@
     },
     {
       "id": "l518",
-      "text": "Proposal: education-legal plugin (K-12 special ed, civil rights, discipline, Title IX, FERPA)\n## Summary\n\nPropose a new `education-legal/` plugin covering K-12 education law: special education and disability civil rights (IDEA, Section 504, ADA Title II), student privacy (FERPA), sex discrimination (Title IX), race / national-origin / English-learner protections (Title VI, EEOA), discipline\n## Scale of K-12 education law in the US \u2014 context for reviewers\n\nAdding scale-of-impact numbers so the br\u2026",
+      "text": "Proposal: education-legal plugin (K-12 special ed, civil rights, discipline, Title IX, FERPA)\n## Summary\n\nPropose a new `education-legal/` plugin covering K-12 education law: special education and disability civil rights (IDEA, Section 504, ADA Title II), student privacy (FERPA), sex discrimination (Title IX), race / national-origin / English-learner protections (Title VI, EEOA), discipline\n## Scale of K-12 education law in the US — context for reviewers\n\nAdding scale-of-impact numbers so the br…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Proposal: education-legal plugin (K-12 special ed, civil rights, discipline, Tit\u2026",
+          "title": "Proposal: education-legal plugin (K-12 special ed, civil rights, discipline, Tit…",
           "url": "https://github.com/anthropics/claude-for-legal/issues/13",
           "date": "2026-05-14",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -402,13 +352,13 @@
     },
     {
       "id": "l519",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -612,13 +562,13 @@
     },
     {
       "id": "l529",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -654,13 +604,13 @@
     },
     {
       "id": "l531",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -759,13 +709,13 @@
     },
     {
       "id": "l536",
-      "text": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+      "text": "Show HN: Videopython – local-first video processing, editing and AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+          "title": "Show HN: Videopython – local-first video processing, editing and AI workflows",
           "url": "https://github.com/bartwojtowicz/videopython",
           "date": "2026-06-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -822,13 +772,13 @@
     },
     {
       "id": "l539",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -885,13 +835,13 @@
     },
     {
       "id": "l542",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -906,13 +856,13 @@
     },
     {
       "id": "l543",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -927,13 +877,13 @@
     },
     {
       "id": "l544",
-      "text": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generated Educational Materials Full of Inexcusable Hallucinations, Including a Map Labeled With \"North Dahota\" and \"Olkchoma\"\n&#32; submitted by &#32; /u/SplashTarget &#32; to &#32; r/antiai [link] &#32; [comments]\nSaw this in my news feed the other day. I'm not surprised the AI screwed up, but I am surprised that apparently not a single person even skim read the result before handing it out to students. Maybe I The teache\u2026",
+      "text": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generated Educational Materials Full of Inexcusable Hallucinations, Including a Map Labeled With \"North Dahota\" and \"Olkchoma\"\n&#32; submitted by &#32; /u/SplashTarget &#32; to &#32; r/antiai [link] &#32; [comments]\nSaw this in my news feed the other day. I'm not surprised the AI screwed up, but I am surprised that apparently not a single person even skim read the result before handing it out to students. Maybe I The teache…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generat\u2026",
+          "title": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generat…",
           "url": "https://www.reddit.com/r/antiai/comments/1vshdo1/kentucky_middle_school_sends_students_home_on/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -948,13 +898,13 @@
     },
     {
       "id": "l545",
-      "text": "A woman made a joke in a private Snapchat message. Snapchat\u2019s AI reported it to the FBI. She was arrested before any human she sent it to ever reported her.\nA 22-year-old student teacher in Illinois sent a private Snapchat message to her boyfriend and two roommates. A student had walked up to her laptop and deleted her lesson plan mid-class. frustrated, she typed something like &quot;should I shoot him&quot; with a gun emoji. venting. four people. private group chat. An hour later, police walked\u2026",
+      "text": "A woman made a joke in a private Snapchat message. Snapchat’s AI reported it to the FBI. She was arrested before any human she sent it to ever reported her.\nA 22-year-old student teacher in Illinois sent a private Snapchat message to her boyfriend and two roommates. A student had walked up to her laptop and deleted her lesson plan mid-class. frustrated, she typed something like &quot;should I shoot him&quot; with a gun emoji. venting. four people. private group chat. An hour later, police walked…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "A woman made a joke in a private Snapchat message. Snapchat\u2019s AI reported it to \u2026",
+          "title": "A woman made a joke in a private Snapchat message. Snapchat’s AI reported it to …",
           "url": "https://www.reddit.com/r/DigitalPrivacy/comments/1vcv41z/a_woman_made_a_joke_in_a_private_snapchat_message/",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -969,13 +919,13 @@
     },
     {
       "id": "l546",
-      "text": "When you use a credit card, a 1\u00a2 payment costs 31\u00a2.\n\nThat math doesn't work for AI agents making thousands of tiny payments a day.\n\n@samrags_ of @merit_systems explains why stablecoins could be the rail the agent economy runs on. https://t.co/P1o2CMuaNu",
+      "text": "When you use a credit card, a 1¢ payment costs 31¢.\n\nThat math doesn't work for AI agents making thousands of tiny payments a day.\n\n@samrags_ of @merit_systems explains why stablecoins could be the rail the agent economy runs on. https://t.co/P1o2CMuaNu",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "When you use a credit card, a 1\u00a2 payment costs 31\u00a2.\n\nThat math doesn't work for \u2026",
+          "title": "When you use a credit card, a 1¢ payment costs 31¢.\n\nThat math doesn't work for …",
           "url": "https://x.com/a16zcrypto/status/2092335249195970753",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1059,7 +1009,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "A Cruel Chinese Romance: A Chinese Knight Rescues His Beloved Princess from the \u2026",
+          "title": "A Cruel Chinese Romance: A Chinese Knight Rescues His Beloved Princess from the …",
           "url": "https://x.com/randnobody666/status/2060475381787111653",
           "date": "2026-05-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1137,6 +1087,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

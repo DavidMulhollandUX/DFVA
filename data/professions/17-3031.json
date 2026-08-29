@@ -15,64 +15,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "17-3031-01",
-      "text": "National peak professional bodies and statutory regulators governing Surveying and Mapping Technicians enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Surveying and Mapping Technicians",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Surveying and Mapping Technicians",
-          "url": "https://www.psc.gov.au/standards/17-3031",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Surveying and Mapping Technicians"
-        }
-      ],
-      "scope": "Australian practitioners in Surveying and Mapping Technicians across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "17-3031-02",
-      "text": "Automation of routine transactional and analytical tasks in Surveying and Mapping Technicians heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Surveying and Mapping Technicians",
-          "url": "https://www.jobsandskills.gov.au/research/17-3031",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Surveying and Mapping Technicians in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Surveying and Mapping Technicians roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "Revise Guides 00-100 under expanded opportunity standard\n## Purpose\n\nControlled revision of Guides 00\u2013100 under the expanded opportunity standard.\n\n## Final controlled collection status\n\n**All 101 guides are now closed through Publication PASS and Release Audit PASS under the project's evidence-supported final release standard.**\n\nThe project preserves it\nGuide 00 controlled revision advanced with official-source verification batch 02.\n\nCommitted on `revision/guide-00-100-2026`:\n\n- `project/revi\u2026",
+      "text": "Revise Guides 00-100 under expanded opportunity standard\n## Purpose\n\nControlled revision of Guides 00–100 under the expanded opportunity standard.\n\n## Final controlled collection status\n\n**All 101 guides are now closed through Publication PASS and Release Audit PASS under the project's evidence-supported final release standard.**\n\nThe project preserves it\nGuide 00 controlled revision advanced with official-source verification batch 02.\n\nCommitted on `revision/guide-00-100-2026`:\n\n- `project/revi…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Revise Guides 00-100 under expanded opportunity standard\n## Purpose\n\nControlled \u2026",
+          "title": "Revise Guides 00-100 under expanded opportunity standard\n## Purpose\n\nControlled …",
           "url": "https://github.com/Chpmunk31456/lifelong-opportunity-project/pull/17",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -255,13 +205,13 @@
     },
     {
       "id": "l512",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -297,13 +247,13 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -486,13 +436,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -528,13 +478,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -570,13 +520,13 @@
     },
     {
       "id": "l527",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -591,13 +541,13 @@
     },
     {
       "id": "l528",
-      "text": "Surveying and AI\nhttps://preview.redd.it/sp0opwo5bmlh1.png?width=1043&amp;format=png&amp;auto=webp&amp;s=d123da5a543981ea70795db5849ffe0d3bc1d1e7 I didn&#39;t get it why is so vulnerable? &#32; submitted by &#32; /u/DeI-Iys &#32; to &#32; r/Surveying [link] &#32; [comments]\nI would guess entry level GIS jobs My wild guess is they might think drone mapping would get everything and surveyors wont be needed? I dont think who ever made this has deep knowledge on how the profession work, I dont think\u2026",
+      "text": "Surveying and AI\nhttps://preview.redd.it/sp0opwo5bmlh1.png?width=1043&amp;format=png&amp;auto=webp&amp;s=d123da5a543981ea70795db5849ffe0d3bc1d1e7 I didn&#39;t get it why is so vulnerable? &#32; submitted by &#32; /u/DeI-Iys &#32; to &#32; r/Surveying [link] &#32; [comments]\nI would guess entry level GIS jobs My wild guess is they might think drone mapping would get everything and surveyors wont be needed? I dont think who ever made this has deep knowledge on how the profession work, I dont think…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Surveying and AI\nhttps://preview.redd.it/sp0opwo5bmlh1.png?width=1043&amp;format\u2026",
+          "title": "Surveying and AI\nhttps://preview.redd.it/sp0opwo5bmlh1.png?width=1043&amp;format…",
           "url": "https://www.reddit.com/r/Surveying/comments/1vyibxo/surveying_and_ai/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -612,13 +562,13 @@
     },
     {
       "id": "l529",
-      "text": "8 years in software engineering, now an AI Engineer, struggling to get interviews in the UK\nI\u2019d appreciate some advice from UK recruiters, hiring managers and engineers. I have 8 years of software engineering experience , a Master\u2019s degree , and currently work as an AI Software Engineer . My core background is backend/full-stack engineering, particularly Python and Java , alongside AI/ML and GenAI. I\u2019ve designed and delivered production systems on AWS and am currently building an AI platform acr\u2026",
+      "text": "8 years in software engineering, now an AI Engineer, struggling to get interviews in the UK\nI’d appreciate some advice from UK recruiters, hiring managers and engineers. I have 8 years of software engineering experience , a Master’s degree , and currently work as an AI Software Engineer . My core background is backend/full-stack engineering, particularly Python and Java , alongside AI/ML and GenAI. I’ve designed and delivered production systems on AWS and am currently building an AI platform acr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "8 years in software engineering, now an AI Engineer, struggling to get interview\u2026",
+          "title": "8 years in software engineering, now an AI Engineer, struggling to get interview…",
           "url": "https://www.reddit.com/r/cscareerquestionsuk/comments/1vup1xs/8_years_in_software_engineering_now_an_ai/",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -633,13 +583,13 @@
     },
     {
       "id": "l530",
-      "text": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a note from a senior software engineer in Silicon Valley. He described himself as an AI skeptic who became converted after trying Claude Code for the first time. \u201cOvernight, it changed the way I do my job,\u201d he wrote. \u201cIt\u2019s really, really good.\u201d As he explained, he no longer used a standard development environment. Instead, he \u201cexclusively uses Claude Code\u201d to get the job done, interacting with the tool in a terminal windo\u2026",
+      "text": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a note from a senior software engineer in Silicon Valley. He described himself as an AI skeptic who became converted after trying Claude Code for the first time. “Overnight, it changed the way I do my job,” he wrote. “It’s really, really good.” As he explained, he no longer used a standard development environment. Instead, he “exclusively uses Claude Code” to get the job done, interacting with the tool in a terminal windo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a not\u2026",
+          "title": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a not…",
           "url": "https://www.reddit.com/r/webdev/comments/1vksk2d/on_ai_coding_and_its_discontents_cal_newport/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -654,13 +604,13 @@
     },
     {
       "id": "l531",
-      "text": "A SMALL STARTUP IS RENTING OUT HUMANOID HOUSE CLEANERS FOR $30 AN HOUR\n\nTau Robotics has started sending robots into San Francisco homes to vacuum floors, wipe surfaces, pick up clutter, and take out the trash\n\nNo $100,000 robot purchase\n\nNo years-long waitlist\n\nYou simply pay for the work by the hour\n\nAnd no\u2014the robot isn't fully autonomous yet\n\nAI handles part of the job, while a remote human operator steps in when needed\n\nThat may sound less impressive\n\nBut it\u2019s actually the smartest part\n\nRo",
+      "text": "A SMALL STARTUP IS RENTING OUT HUMANOID HOUSE CLEANERS FOR $30 AN HOUR\n\nTau Robotics has started sending robots into San Francisco homes to vacuum floors, wipe surfaces, pick up clutter, and take out the trash\n\nNo $100,000 robot purchase\n\nNo years-long waitlist\n\nYou simply pay for the work by the hour\n\nAnd no—the robot isn't fully autonomous yet\n\nAI handles part of the job, while a remote human operator steps in when needed\n\nThat may sound less impressive\n\nBut it’s actually the smartest part\n\nRo",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A SMALL STARTUP IS RENTING OUT HUMANOID HOUSE CLEANERS FOR $30 AN HOUR\n\nTau Robo\u2026",
+          "title": "A SMALL STARTUP IS RENTING OUT HUMANOID HOUSE CLEANERS FOR $30 AN HOUR\n\nTau Robo…",
           "url": "https://x.com/Prompt_ProfitAI/status/2084745440025575439",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -717,13 +667,13 @@
     },
     {
       "id": "l534",
-      "text": "Be honest, do you look at AI generated unit tests?\n\nI have mixed feelings. I have seen very poor unit tests and reward hacking is still a thing and something you can\u2019t fully solve. It\u2019s just a by-product of RL.\n\nBut at the same time, unit tests were the first thing that almost entirely got replaced and no one writes them by hand anymore.",
+      "text": "Be honest, do you look at AI generated unit tests?\n\nI have mixed feelings. I have seen very poor unit tests and reward hacking is still a thing and something you can’t fully solve. It’s just a by-product of RL.\n\nBut at the same time, unit tests were the first thing that almost entirely got replaced and no one writes them by hand anymore.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Be honest, do you look at AI generated unit tests?\n\nI have mixed feelings. I hav\u2026",
+          "title": "Be honest, do you look at AI generated unit tests?\n\nI have mixed feelings. I hav…",
           "url": "https://x.com/elmd_/status/2087155421454753929",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -738,13 +688,13 @@
     },
     {
       "id": "l535",
-      "text": "CONNECTICUT\u2019S FIRST AI BARISTA JUST OPENED\n\nTHE COFFEE SHOP IS ALREADY CLOSED\u2014BECAUSE THE ROBOT NEEDS MAINTENANCE\n\nMeet Janice\n\nShe makes lattes, chai, and iced matcha using AI-powered obstacle detection and physical reasoning\n\nThe robot costs $88,000 to buy or starts at $2,500 a month to lease\n\nNo sick days\nNo lunch breaks\nNo salary\nBut there are software fees, repairs, and downtime\nThis is the part of automation nobody puts in the demo:\n\nRobots don\u2019t eliminate operational problems\n\nThey replac",
+      "text": "CONNECTICUT’S FIRST AI BARISTA JUST OPENED\n\nTHE COFFEE SHOP IS ALREADY CLOSED—BECAUSE THE ROBOT NEEDS MAINTENANCE\n\nMeet Janice\n\nShe makes lattes, chai, and iced matcha using AI-powered obstacle detection and physical reasoning\n\nThe robot costs $88,000 to buy or starts at $2,500 a month to lease\n\nNo sick days\nNo lunch breaks\nNo salary\nBut there are software fees, repairs, and downtime\nThis is the part of automation nobody puts in the demo:\n\nRobots don’t eliminate operational problems\n\nThey replac",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "CONNECTICUT\u2019S FIRST AI BARISTA JUST OPENED\n\nTHE COFFEE SHOP IS ALREADY CLOSED\u2014BE\u2026",
+          "title": "CONNECTICUT’S FIRST AI BARISTA JUST OPENED\n\nTHE COFFEE SHOP IS ALREADY CLOSED—BE…",
           "url": "https://x.com/Prompt_ProfitAI/status/2085712526549897616",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -759,13 +709,13 @@
     },
     {
       "id": "l536",
-      "text": "A VIDEO MODEL JUST GOT A BODY\n\nFLUX learned to predict what happens next in a video\n\nMimic Robotics connected it to a robot\n\nNow it\u2019s handling cables, seals, and flexible car parts at Audi\u2014the exact tasks traditional automation struggles with\n\n00:00 \u2014 Multimodal AI enters the physical world\n00:14 \u2014 Audi reveals how it\u2019s testing and deploying FLUX-mimic\n00:25 \u2014 New tasks require just 30 minutes of robot data instead of 30+ hours\n00:40 \u2014 AI models leave the lab and enter the real world\n\nThe next b",
+      "text": "A VIDEO MODEL JUST GOT A BODY\n\nFLUX learned to predict what happens next in a video\n\nMimic Robotics connected it to a robot\n\nNow it’s handling cables, seals, and flexible car parts at Audi—the exact tasks traditional automation struggles with\n\n00:00 — Multimodal AI enters the physical world\n00:14 — Audi reveals how it’s testing and deploying FLUX-mimic\n00:25 — New tasks require just 30 minutes of robot data instead of 30+ hours\n00:40 — AI models leave the lab and enter the real world\n\nThe next b",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A VIDEO MODEL JUST GOT A BODY\n\nFLUX learned to predict what happens next in a vi\u2026",
+          "title": "A VIDEO MODEL JUST GOT A BODY\n\nFLUX learned to predict what happens next in a vi…",
           "url": "https://x.com/Prompt_ProfitAI/status/2085441684523917539",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -780,13 +730,13 @@
     },
     {
       "id": "l537",
-      "text": "A FATHER AND SON FROM TEXAS BUILT A DRONE THAT HIT 408 MPH\n\nNo $50M seed round\nNo \u201cAI-powered\u201d landing page\nNo 40-person engineering team\nThey spent two years building four versions of the same idea\u2014each one faster than the last\nTech Twitter talks a lot about moving fast\n\nThese guys took it literally",
+      "text": "A FATHER AND SON FROM TEXAS BUILT A DRONE THAT HIT 408 MPH\n\nNo $50M seed round\nNo “AI-powered” landing page\nNo 40-person engineering team\nThey spent two years building four versions of the same idea—each one faster than the last\nTech Twitter talks a lot about moving fast\n\nThese guys took it literally",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A FATHER AND SON FROM TEXAS BUILT A DRONE THAT HIT 408 MPH\n\nNo $50M seed round\nN\u2026",
+          "title": "A FATHER AND SON FROM TEXAS BUILT A DRONE THAT HIT 408 MPH\n\nNo $50M seed round\nN…",
           "url": "https://x.com/Prompt_ProfitAI/status/2085745879625953781",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -801,13 +751,13 @@
     },
     {
       "id": "l538",
-      "text": "In 2026, guesswork is a luxury no industry can afford.\n\nAcross Zimbabwe, smart companies are switching to drone intelligence because data doesn\u2019t lie and speed wins.\n\nThis is what drones are doing right now\u2026\n\n\u2022 Smart Farms detect crop stress before the leaves even change colour.\n\n\u2022 Survey Teams map huge terrains in HOURS, not weeks.\n\n\u2022 Mining Companies track stockpiles with zero risk to human life.\n\n\u2022 Agriculture, construction, security, environmental monitoring all powered by aerial data.\n\nBut",
+      "text": "In 2026, guesswork is a luxury no industry can afford.\n\nAcross Zimbabwe, smart companies are switching to drone intelligence because data doesn’t lie and speed wins.\n\nThis is what drones are doing right now…\n\n• Smart Farms detect crop stress before the leaves even change colour.\n\n• Survey Teams map huge terrains in HOURS, not weeks.\n\n• Mining Companies track stockpiles with zero risk to human life.\n\n• Agriculture, construction, security, environmental monitoring all powered by aerial data.\n\nBut",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "In 2026, guesswork is a luxury no industry can afford.\n\nAcross Zimbabwe, smart c\u2026",
+          "title": "In 2026, guesswork is a luxury no industry can afford.\n\nAcross Zimbabwe, smart c…",
           "url": "https://x.com/MarumuraOnward/status/2068916816831779320",
           "date": "2026-06-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -843,13 +793,13 @@
     },
     {
       "id": "l540",
-      "text": "How to Get AI to Read Construction Drawings\n\ud83d\ude80 Join ContractorOS \u2014 implement AI in your construction business within 7 days: https://www.skool.com/contractor-os\n\n\ud83d\udce7 Business Enquiries: tim@contractoros.build\nWork with me: https://contractoros.build/work-with-us/\n\ud83d\udd17 LinkedIn: https://www.linkedin.com/in/timothy-fairley-7b0141a0/\n\n\ud83d\udcda Related videos:\n\u2192 How to Get AI to Read Construction Drawings (50x Less Tokens, 20% More Accurate): https://youtube.com/watch?v=ItW-ielFvGg\n\u2192 Connect AI to your Construct\u2026",
+      "text": "How to Get AI to Read Construction Drawings\n🚀 Join ContractorOS — implement AI in your construction business within 7 days: https://www.skool.com/contractor-os\n\n📧 Business Enquiries: tim@contractoros.build\nWork with me: https://contractoros.build/work-with-us/\n🔗 LinkedIn: https://www.linkedin.com/in/timothy-fairley-7b0141a0/\n\n📚 Related videos:\n→ How to Get AI to Read Construction Drawings (50x Less Tokens, 20% More Accurate): https://youtube.com/watch?v=ItW-ielFvGg\n→ Connect AI to your Construct…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How to Get AI to Read Construction Drawings\n\ud83d\ude80 Join ContractorOS \u2014 implement AI i\u2026",
+          "title": "How to Get AI to Read Construction Drawings\n🚀 Join ContractorOS — implement AI i…",
           "url": "https://www.youtube.com/watch?v=3tAYEJTyUFY",
           "date": "2026-04-29",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -864,13 +814,13 @@
     },
     {
       "id": "l541",
-      "text": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: https://contractoros.build/work-with-us\n\nJoin ContractorOS: https://www.skool.com/contractor-os/about\n\nFollow on LinkedIn: https://www.linkedin.com/in/josh-turner-pmp-10608b1b7/\n\nI use Claude every day to run my AI consulting business for construction. In this video I break down what Claude actually does, how each interface works, and why the system around it (Projects, Skills, Plugins, Memory) makes it genuinely useful \u2026",
+      "text": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: https://contractoros.build/work-with-us\n\nJoin ContractorOS: https://www.skool.com/contractor-os/about\n\nFollow on LinkedIn: https://www.linkedin.com/in/josh-turner-pmp-10608b1b7/\n\nI use Claude every day to run my AI consulting business for construction. In this video I break down what Claude actually does, how each interface works, and why the system around it (Projects, Skills, Plugins, Memory) makes it genuinely useful …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: http\u2026",
+          "title": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: http…",
           "url": "https://www.youtube.com/watch?v=DQwlMX27E6k",
           "date": "2026-03-12",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -885,7 +835,7 @@
     },
     {
       "id": "l442",
-      "text": "Engineering Surveyor / Survey Technician \u2014 Shadforth (Sunshine Coast, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Engineering Surveyor / Survey Technician — Shadforth (Sunshine Coast, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -906,7 +856,7 @@
     },
     {
       "id": "l443",
-      "text": "Engineering Surveyor / Survey Technician \u2014 Shadforth (Caloundra, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Engineering Surveyor / Survey Technician — Shadforth (Caloundra, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -927,7 +877,7 @@
     },
     {
       "id": "l444",
-      "text": "Surveying Technician \u2014 EPSA (Millmerran, Queensland, Australia). Posted 6 days ago.",
+      "text": "Surveying Technician — EPSA (Millmerran, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -948,7 +898,7 @@
     },
     {
       "id": "l445",
-      "text": "Digital and Spatial Technician \u2014 ISGroup (Sydney, New South Wales, Australia). Posted 2 months ago.",
+      "text": "Digital and Spatial Technician — ISGroup (Sydney, New South Wales, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -969,7 +919,7 @@
     },
     {
       "id": "l446",
-      "text": "Graduate Hydrographic Surveyor \u2014 Ocean Infinity (Hobart, Tasmania, Australia). Posted 2 weeks ago.",
+      "text": "Graduate Hydrographic Surveyor — Ocean Infinity (Hobart, Tasmania, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -990,7 +940,7 @@
     },
     {
       "id": "l447",
-      "text": "Surveyor \u2014 Survey Management Solutions (Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Surveyor — Survey Management Solutions (Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1011,7 +961,7 @@
     },
     {
       "id": "l448",
-      "text": "Surveyor \u2014 Bennett + Bennett (Sunshine Coast, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Surveyor — Bennett + Bennett (Sunshine Coast, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1032,7 +982,7 @@
     },
     {
       "id": "l449",
-      "text": "Assistant Surveyor/Surveyor Assistant \u2014 Malabar Resources (Muswellbrook, New South Wales, Australia). Posted 1 day ago.",
+      "text": "Assistant Surveyor/Surveyor Assistant — Malabar Resources (Muswellbrook, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1053,7 +1003,7 @@
     },
     {
       "id": "l450",
-      "text": "Assistant Surveyor/Surveyor Assistant \u2014 Malabar Resources (Maitland, New South Wales, Australia). Posted 1 day ago.",
+      "text": "Assistant Surveyor/Surveyor Assistant — Malabar Resources (Maitland, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1074,7 +1024,7 @@
     },
     {
       "id": "l451",
-      "text": "Junior Surveyor - South Australia \u2014 Survey Management Solutions (South Australia, Australia). Posted 2 weeks ago.",
+      "text": "Junior Surveyor - South Australia — Survey Management Solutions (South Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1095,13 +1045,13 @@
     },
     {
       "id": "l552",
-      "text": "Revise Guides 00-100 under expanded opportunity standard\n## Purpose\n\nControlled revision of Guides 00\u2013100 under the expanded opportunity standard.\n\n## Final controlled collection status\n\n**All 101 guides are now closed through Publication PASS and Release Audit PASS under the project's evidence-supported final release standard.**\n\nThe project preserves it\nGuide 00 controlled revision advanced with official-source verification batch 02.\n\nCommitted on `revision/guide-00-100-2026`:\n\n- `project/revi\u2026",
+      "text": "Revise Guides 00-100 under expanded opportunity standard\n## Purpose\n\nControlled revision of Guides 00–100 under the expanded opportunity standard.\n\n## Final controlled collection status\n\n**All 101 guides are now closed through Publication PASS and Release Audit PASS under the project's evidence-supported final release standard.**\n\nThe project preserves it\nGuide 00 controlled revision advanced with official-source verification batch 02.\n\nCommitted on `revision/guide-00-100-2026`:\n\n- `project/revi…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Revise Guides 00-100 under expanded opportunity standard\n## Purpose\n\nControlled \u2026",
+          "title": "Revise Guides 00-100 under expanded opportunity standard\n## Purpose\n\nControlled …",
           "url": "https://github.com/Chpmunk31456/lifelong-opportunity-project/pull/17",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1116,13 +1066,13 @@
     },
     {
       "id": "l553",
-      "text": "Surveying and AI\nhttps://preview.redd.it/sp0opwo5bmlh1.png?width=1043&amp;format=png&amp;auto=webp&amp;s=d123da5a543981ea70795db5849ffe0d3bc1d1e7 I didn&#39;t get it why is so vulnerable? &#32; submitted by &#32; /u/DeI-Iys &#32; to &#32; r/Surveying [link] &#32; [comments]\nI would guess entry level GIS jobs My wild guess is they might think drone mapping would get everything and surveyors wont be needed? I dont think who ever made this has deep knowledge on how the profession work, I dont think\u2026",
+      "text": "Surveying and AI\nhttps://preview.redd.it/sp0opwo5bmlh1.png?width=1043&amp;format=png&amp;auto=webp&amp;s=d123da5a543981ea70795db5849ffe0d3bc1d1e7 I didn&#39;t get it why is so vulnerable? &#32; submitted by &#32; /u/DeI-Iys &#32; to &#32; r/Surveying [link] &#32; [comments]\nI would guess entry level GIS jobs My wild guess is they might think drone mapping would get everything and surveyors wont be needed? I dont think who ever made this has deep knowledge on how the profession work, I dont think…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Surveying and AI\nhttps://preview.redd.it/sp0opwo5bmlh1.png?width=1043&amp;format\u2026",
+          "title": "Surveying and AI\nhttps://preview.redd.it/sp0opwo5bmlh1.png?width=1043&amp;format…",
           "url": "https://www.reddit.com/r/Surveying/comments/1vyibxo/surveying_and_ai/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1137,13 +1087,13 @@
     },
     {
       "id": "l554",
-      "text": "8 years in software engineering, now an AI Engineer, struggling to get interviews in the UK\nI\u2019d appreciate some advice from UK recruiters, hiring managers and engineers. I have 8 years of software engineering experience , a Master\u2019s degree , and currently work as an AI Software Engineer . My core background is backend/full-stack engineering, particularly Python and Java , alongside AI/ML and GenAI. I\u2019ve designed and delivered production systems on AWS and am currently building an AI platform acr\u2026",
+      "text": "8 years in software engineering, now an AI Engineer, struggling to get interviews in the UK\nI’d appreciate some advice from UK recruiters, hiring managers and engineers. I have 8 years of software engineering experience , a Master’s degree , and currently work as an AI Software Engineer . My core background is backend/full-stack engineering, particularly Python and Java , alongside AI/ML and GenAI. I’ve designed and delivered production systems on AWS and am currently building an AI platform acr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "8 years in software engineering, now an AI Engineer, struggling to get interview\u2026",
+          "title": "8 years in software engineering, now an AI Engineer, struggling to get interview…",
           "url": "https://www.reddit.com/r/cscareerquestionsuk/comments/1vup1xs/8_years_in_software_engineering_now_an_ai/",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1158,13 +1108,13 @@
     },
     {
       "id": "l555",
-      "text": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a note from a senior software engineer in Silicon Valley. He described himself as an AI skeptic who became converted after trying Claude Code for the first time. \u201cOvernight, it changed the way I do my job,\u201d he wrote. \u201cIt\u2019s really, really good.\u201d As he explained, he no longer used a standard development environment. Instead, he \u201cexclusively uses Claude Code\u201d to get the job done, interacting with the tool in a terminal windo\u2026",
+      "text": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a note from a senior software engineer in Silicon Valley. He described himself as an AI skeptic who became converted after trying Claude Code for the first time. “Overnight, it changed the way I do my job,” he wrote. “It’s really, really good.” As he explained, he no longer used a standard development environment. Instead, he “exclusively uses Claude Code” to get the job done, interacting with the tool in a terminal windo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a not\u2026",
+          "title": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a not…",
           "url": "https://www.reddit.com/r/webdev/comments/1vksk2d/on_ai_coding_and_its_discontents_cal_newport/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1179,13 +1129,13 @@
     },
     {
       "id": "l556",
-      "text": "How to Get AI to Read Construction Drawings\n\ud83d\ude80 Join ContractorOS \u2014 implement AI in your construction business within 7 days: https://www.skool.com/contractor-os\n\n\ud83d\udce7 Business Enquiries: tim@contractoros.build\nWork with me: https://contractoros.build/work-with-us/\n\ud83d\udd17 LinkedIn: https://www.linkedin.com/in/timothy-fairley-7b0141a0/\n\n\ud83d\udcda Related videos:\n\u2192 How to Get AI to Read Construction Drawings (50x Less Tokens, 20% More Accurate): https://youtube.com/watch?v=ItW-ielFvGg\n\u2192 Connect AI to your Construct\u2026",
+      "text": "How to Get AI to Read Construction Drawings\n🚀 Join ContractorOS — implement AI in your construction business within 7 days: https://www.skool.com/contractor-os\n\n📧 Business Enquiries: tim@contractoros.build\nWork with me: https://contractoros.build/work-with-us/\n🔗 LinkedIn: https://www.linkedin.com/in/timothy-fairley-7b0141a0/\n\n📚 Related videos:\n→ How to Get AI to Read Construction Drawings (50x Less Tokens, 20% More Accurate): https://youtube.com/watch?v=ItW-ielFvGg\n→ Connect AI to your Construct…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How to Get AI to Read Construction Drawings\n\ud83d\ude80 Join ContractorOS \u2014 implement AI i\u2026",
+          "title": "How to Get AI to Read Construction Drawings\n🚀 Join ContractorOS — implement AI i…",
           "url": "https://www.youtube.com/watch?v=3tAYEJTyUFY",
           "date": "2026-04-29",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1200,13 +1150,13 @@
     },
     {
       "id": "l557",
-      "text": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: https://contractoros.build/work-with-us\n\nJoin ContractorOS: https://www.skool.com/contractor-os/about\n\nFollow on LinkedIn: https://www.linkedin.com/in/josh-turner-pmp-10608b1b7/\n\nI use Claude every day to run my AI consulting business for construction. In this video I break down what Claude actually does, how each interface works, and why the system around it (Projects, Skills, Plugins, Memory) makes it genuinely useful \u2026",
+      "text": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: https://contractoros.build/work-with-us\n\nJoin ContractorOS: https://www.skool.com/contractor-os/about\n\nFollow on LinkedIn: https://www.linkedin.com/in/josh-turner-pmp-10608b1b7/\n\nI use Claude every day to run my AI consulting business for construction. In this video I break down what Claude actually does, how each interface works, and why the system around it (Projects, Skills, Plugins, Memory) makes it genuinely useful …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: http\u2026",
+          "title": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: http…",
           "url": "https://www.youtube.com/watch?v=DQwlMX27E6k",
           "date": "2026-03-12",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1297,6 +1247,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

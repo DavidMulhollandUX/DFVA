@@ -14,58 +14,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "27-2041-01",
-      "text": "National peak professional bodies and statutory regulators governing Music Directors and Composers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Music Directors and Composers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Music Directors and Composers",
-          "url": "https://www.psc.gov.au/standards/27-2041",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Music Directors and Composers"
-        }
-      ],
-      "scope": "Australian practitioners in Music Directors and Composers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "27-2041-02",
-      "text": "Automation of routine transactional and analytical tasks in Music Directors and Composers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Music Directors and Composers",
-          "url": "https://www.jobsandskills.gov.au/research/27-2041",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Music Directors and Composers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Music Directors and Composers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Director of CGS Music \u2014 Canberra Grammar School (Australian Capital Territory, Australia). Posted 5 days ago.",
+      "text": "Director of CGS Music — Canberra Grammar School (Australian Capital Territory, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -86,7 +36,7 @@
     },
     {
       "id": "l404",
-      "text": "Pipe Major \u2014 Queensland Police Service (Brisbane, Queensland, Australia). Posted 1 month ago.",
+      "text": "Pipe Major — Queensland Police Service (Brisbane, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -107,7 +57,7 @@
     },
     {
       "id": "l405",
-      "text": "Orchestra Coordinator \u2014 Adelaide Symphony Orchestra (Adelaide, South Australia, Australia). Posted 1 week ago.",
+      "text": "Orchestra Coordinator — Adelaide Symphony Orchestra (Adelaide, South Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -128,7 +78,7 @@
     },
     {
       "id": "l406",
-      "text": "Principal \u2014 Department of Education and Training (Darwin, Northern Territory, Australia). Posted 1 week ago.",
+      "text": "Principal — Department of Education and Training (Darwin, Northern Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -149,7 +99,7 @@
     },
     {
       "id": "l407",
-      "text": "Director of Music, ELC - Year 12 \u2014 Brighton Grammar School (Brighton, Victoria, Australia). Posted 5 days ago.",
+      "text": "Director of Music, ELC - Year 12 — Brighton Grammar School (Brighton, Victoria, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -170,7 +120,7 @@
     },
     {
       "id": "l408",
-      "text": "Head of Music \u2014 Camberwell Grammar School (Canterbury, Victoria, Australia). Posted 1 week ago.",
+      "text": "Head of Music — Camberwell Grammar School (Canterbury, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -191,7 +141,7 @@
     },
     {
       "id": "l409",
-      "text": "Head of Creative and Performing Arts (CAPA) \u2014 Calvary Christian College (Carbrook, Queensland, Australia). Posted 5 days ago.",
+      "text": "Head of Creative and Performing Arts (CAPA) — Calvary Christian College (Carbrook, Queensland, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -212,7 +162,7 @@
     },
     {
       "id": "l410",
-      "text": "Contractor Music Editor ANZ \u2014 Spotify (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Contractor Music Editor ANZ — Spotify (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -233,7 +183,7 @@
     },
     {
       "id": "l411",
-      "text": "Creative Producer, Programming \u2014 Arts Centre Melbourne (Melbourne, Victoria, Australia). Posted 18 hours ago.",
+      "text": "Creative Producer, Programming — Arts Centre Melbourne (Melbourne, Victoria, Australia). Posted 18 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -254,7 +204,7 @@
     },
     {
       "id": "l412",
-      "text": "Customer Relations Manager \u2014 Sydney Symphony Orchestra (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Customer Relations Manager — Sydney Symphony Orchestra (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -281,7 +231,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "[FEA] - Search People (Actors, Artists, Directors) from the search bar\n### Descr\u2026",
+          "title": "[FEA] - Search People (Actors, Artists, Directors) from the search bar\n### Descr…",
           "url": "https://github.com/damontecres/Wholphin/issues/1750",
           "date": "2026-07-08",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -296,13 +246,13 @@
     },
     {
       "id": "l514",
-      "text": "feat(embed): template v4 \u2014 cast, crew, studios, tags + drop vestigial API\n## Summary\n\nExtends the embedding template (v3 \u2192 v4) with the data #216 just made available: cast, directors, writers, composers, studios, and tags. The first sync cycle after deploy will re-embed every item via the existing `_vec_meta.template_version` drift mechanism \u2014 no manual backfill.\n\nIn the",
+      "text": "feat(embed): template v4 — cast, crew, studios, tags + drop vestigial API\n## Summary\n\nExtends the embedding template (v3 → v4) with the data #216 just made available: cast, directors, writers, composers, studios, and tags. The first sync cycle after deploy will re-embed every item via the existing `_vec_meta.template_version` drift mechanism — no manual backfill.\n\nIn the",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(embed): template v4 \u2014 cast, crew, studios, tags + drop vestigial API\n## Sum\u2026",
+          "title": "feat(embed): template v4 — cast, crew, studios, tags + drop vestigial API\n## Sum…",
           "url": "https://github.com/PCritchfield/ai-movie-suggester/pull/222",
           "date": "2026-04-25",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -317,13 +267,13 @@
     },
     {
       "id": "l515",
-      "text": "Template v4 \u2014 enrich embedding composite text with cast, crew, studios, tags + remove TMDb scaffolding\n## Summary\n\nEnrich the embedding composite text to include cast, crew (directors, writers, composers), studios, and tags. Bump `TEMPLATE_VERSION` 3 \u2192 4 to trigger automatic re-embedding. In the same PR, remove the now-vestigial TMDb scaffolding left over from the closed #99.\n\n**Points:** 2\n**Depends",
+      "text": "Template v4 — enrich embedding composite text with cast, crew, studios, tags + remove TMDb scaffolding\n## Summary\n\nEnrich the embedding composite text to include cast, crew (directors, writers, composers), studios, and tags. Bump `TEMPLATE_VERSION` 3 → 4 to trigger automatic re-embedding. In the same PR, remove the now-vestigial TMDb scaffolding left over from the closed #99.\n\n**Points:** 2\n**Depends",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Template v4 \u2014 enrich embedding composite text with cast, crew, studios, tags + r\u2026",
+          "title": "Template v4 — enrich embedding composite text with cast, crew, studios, tags + r…",
           "url": "https://github.com/PCritchfield/ai-movie-suggester/issues/217",
           "date": "2026-04-24",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -569,13 +519,13 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "So is this music AI and someone is just slapping Shoi Miyazawa\u2019s name on it?\nI\u2019ve been seeing albums like this pop up on Apple Music and it says by Miyazawa but I\u2019m like 99% sure it\u2019s AI, but wanted to hear other opinions as I can\u2019t find anything by looking stuff up about it. Sorry if this isn\u2019t specifically Nightreign related but since he composed a good portion of the music I figured it\u2019d be all right to discuss. &#32; submitted by &#32; /u/NapoleonBarsky &#32; to &#32; r/Nightreign [link] &#3\u2026",
+      "text": "So is this music AI and someone is just slapping Shoi Miyazawa’s name on it?\nI’ve been seeing albums like this pop up on Apple Music and it says by Miyazawa but I’m like 99% sure it’s AI, but wanted to hear other opinions as I can’t find anything by looking stuff up about it. Sorry if this isn’t specifically Nightreign related but since he composed a good portion of the music I figured it’d be all right to discuss. &#32; submitted by &#32; /u/NapoleonBarsky &#32; to &#32; r/Nightreign [link] &#3…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "So is this music AI and someone is just slapping Shoi Miyazawa\u2019s name on it?\nI\u2019v\u2026",
+          "title": "So is this music AI and someone is just slapping Shoi Miyazawa’s name on it?\nI’v…",
           "url": "https://www.reddit.com/r/Nightreign/comments/1vei1td/so_is_this_music_ai_and_someone_is_just_slapping/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -863,13 +813,13 @@
     },
     {
       "id": "l541",
-      "text": "Dr. Dre compared AI music to drum machines and synths. Is he actually wrong?\nSaw that Dr. Dre and Jimmy Iovine are pretty openly pro-AI in music now. Dre compared people pushing back against AI to people who would&#39;ve been against drum machines or synthesizers when they first showed up. And honestly, that got me thinking. Drum machines were &quot;not real music.&quot; Synths were &quot;cheating.&quot; Auto-Tune was going to ruin singing. Now they&#39;re just... normal tools. Obviously AI is a\u2026",
+      "text": "Dr. Dre compared AI music to drum machines and synths. Is he actually wrong?\nSaw that Dr. Dre and Jimmy Iovine are pretty openly pro-AI in music now. Dre compared people pushing back against AI to people who would&#39;ve been against drum machines or synthesizers when they first showed up. And honestly, that got me thinking. Drum machines were &quot;not real music.&quot; Synths were &quot;cheating.&quot; Auto-Tune was going to ruin singing. Now they&#39;re just... normal tools. Obviously AI is a…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Dr. Dre compared AI music to drum machines and synths. Is he actually wrong?\nSaw\u2026",
+          "title": "Dr. Dre compared AI music to drum machines and synths. Is he actually wrong?\nSaw…",
           "url": "https://www.reddit.com/r/SunoAI/comments/1w0kzcb/dr_dre_compared_ai_music_to_drum_machines_and/",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -890,7 +840,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "New GitS Official Music Video: \"po-ai feat. Mirai Moriyama\" by Music Director Ta\u2026",
+          "title": "New GitS Official Music Video: \"po-ai feat. Mirai Moriyama\" by Music Director Ta…",
           "url": "https://www.reddit.com/r/Ghost_in_the_Shell/comments/1vsr0cb/new_gits_official_music_video_poai_feat_mirai/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "Suno + Studio A? Questions About AI-Generated Music in Makara, Kaning Itin and Tulog Na Musical\nTHIS IS IT. \ud83c\udfad\ud83e\udd16 Time to talk about Studio A.I. Music and materials. Revelation... In 3... 2... 1....... Let\u2019s stop pretending. \ud83d\udcaf% Studio A is using AI for their scripts, lyrics, marketing materials, posters, promotional visuals, and most importantly\u2026 THE MUSIC. SUNO.... I\u2019m saying this with 100% confidence , because I\u2019m not guessing. I have firsthand information from people who were involved and are st\u2026",
+      "text": "Suno + Studio A? Questions About AI-Generated Music in Makara, Kaning Itin and Tulog Na Musical\nTHIS IS IT. 🎭🤖 Time to talk about Studio A.I. Music and materials. Revelation... In 3... 2... 1....... Let’s stop pretending. 💯% Studio A is using AI for their scripts, lyrics, marketing materials, posters, promotional visuals, and most importantly… THE MUSIC. SUNO.... I’m saying this with 100% confidence , because I’m not guessing. I have firsthand information from people who were involved and are st…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Suno + Studio A? Questions About AI-Generated Music in Makara, Kaning Itin and T\u2026",
+          "title": "Suno + Studio A? Questions About AI-Generated Music in Makara, Kaning Itin and T…",
           "url": "https://www.reddit.com/r/TeatroPH/comments/1vkfnx9/suno_studio_a_questions_about_aigenerated_music/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -926,13 +876,13 @@
     },
     {
       "id": "l544",
-      "text": "Why does AI director use copyrighted music?\nI took my first videos yesterday with my new X6 and then plugged it in to charge. AI director created a slick little video out of the footage. I uploaded the unedited video to youtube and of course claimed content was found. Why would insta360 use copyrighted music? Does this mean I have to edit every video AI Director creates and replace the music with non-copyrighted music? &#32; submitted by &#32; /u/BornSkepticMaine &#32; to &#32; r/Insta360 [link]\u2026",
+      "text": "Why does AI director use copyrighted music?\nI took my first videos yesterday with my new X6 and then plugged it in to charge. AI director created a slick little video out of the footage. I uploaded the unedited video to youtube and of course claimed content was found. Why would insta360 use copyrighted music? Does this mean I have to edit every video AI Director creates and replace the music with non-copyrighted music? &#32; submitted by &#32; /u/BornSkepticMaine &#32; to &#32; r/Insta360 [link]…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why does AI director use copyrighted music?\nI took my first videos yesterday wit\u2026",
+          "title": "Why does AI director use copyrighted music?\nI took my first videos yesterday wit…",
           "url": "https://www.reddit.com/r/Insta360/comments/1w0qh0f/why_does_ai_director_use_copyrighted_music/",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "It appears the CEO of ShiftUp and creator/director of Stellar Blade Blood Rain, Kim Hyung Tae, is embracing AI with a generated video of EVIE singing \u201cWanna Be in Love\u201d\nhttps://x.com/jamm3rd/status/2082994661048610829?s=20 &#32; submitted by &#32; /u/Particular-Bed8344 &#32; to &#32; r/stellarblade [link] &#32; [comments]",
+      "text": "It appears the CEO of ShiftUp and creator/director of Stellar Blade Blood Rain, Kim Hyung Tae, is embracing AI with a generated video of EVIE singing “Wanna Be in Love”\nhttps://x.com/jamm3rd/status/2082994661048610829?s=20 &#32; submitted by &#32; /u/Particular-Bed8344 &#32; to &#32; r/stellarblade [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "It appears the CEO of ShiftUp and creator/director of Stellar Blade Blood Rain, \u2026",
+          "title": "It appears the CEO of ShiftUp and creator/director of Stellar Blade Blood Rain, …",
           "url": "https://www.reddit.com/r/stellarblade/comments/1vbgwhz/it_appears_the_ceo_of_shiftup_and_creatordirector/",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Companies\nI want to explain why I remain skeptical about the idea that what happened to Suno and Udio was simply an ordinary copyright dispute that happened to end in licensing agreements. I am not claiming to know what happened behind closed doors, because I don&#39;t have access to the private negotiations, settlement agreements, or internal communications between these companies. What I am doing is looking at the public \u2026",
+      "text": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Companies\nI want to explain why I remain skeptical about the idea that what happened to Suno and Udio was simply an ordinary copyright dispute that happened to end in licensing agreements. I am not claiming to know what happened behind closed doors, because I don&#39;t have access to the private negotiations, settlement agreements, or internal communications between these companies. What I am doing is looking at the public …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Compani\u2026",
+          "title": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Compani…",
           "url": "https://www.reddit.com/r/SunoAI/comments/1vli6v5/why_i_believe_suno_and_udio_were_treated/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "Revealed: the music producer and animator behind far-right AI rapper Danny Bones\n&quot;Denver Bamber, a music producer and sound engineer from Greater Manchester, and Theo Blackledge, a 3D artist and animator from Liverpool, are the founders of the Node Project, the previously anonymous collective behind Danny Bones.&quot; &quot;Denver Bamber is a music producer, audio engineer and creative director. According to the music credit database Muso.AI, he has more than 100 credits with artists includ\u2026",
+      "text": "Revealed: the music producer and animator behind far-right AI rapper Danny Bones\n&quot;Denver Bamber, a music producer and sound engineer from Greater Manchester, and Theo Blackledge, a 3D artist and animator from Liverpool, are the founders of the Node Project, the previously anonymous collective behind Danny Bones.&quot; &quot;Denver Bamber is a music producer, audio engineer and creative director. According to the music credit database Muso.AI, he has more than 100 credits with artists includ…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Revealed: the music producer and animator behind far-right AI rapper Danny Bones\u2026",
+          "title": "Revealed: the music producer and animator behind far-right AI rapper Danny Bones…",
           "url": "https://www.reddit.com/r/manchester/comments/1vwvdar/revealed_the_music_producer_and_animator_behind/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1010,13 +960,13 @@
     },
     {
       "id": "l548",
-      "text": "LOL at AI Director. I thought it was going to do a highlights clipout but it also added music and transitions.\nI guess I really don&#39;t know what I expected, something passable like a prep stringout of best moments for me to edit later instead of a cheesy montage featuring things I wasn&#39;t interested in. A whole moment where I was parked on my bike and it decided to feature a statue in front of me instead of me with my kid. &#32; submitted by &#32; /u/CyJackX &#32; to &#32; r/Insta360 [link\u2026",
+      "text": "LOL at AI Director. I thought it was going to do a highlights clipout but it also added music and transitions.\nI guess I really don&#39;t know what I expected, something passable like a prep stringout of best moments for me to edit later instead of a cheesy montage featuring things I wasn&#39;t interested in. A whole moment where I was parked on my bike and it decided to feature a statue in front of me instead of me with my kid. &#32; submitted by &#32; /u/CyJackX &#32; to &#32; r/Insta360 [link…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "LOL at AI Director. I thought it was going to do a highlights clipout but it als\u2026",
+          "title": "LOL at AI Director. I thought it was going to do a highlights clipout but it als…",
           "url": "https://www.reddit.com/r/Insta360/comments/1vzuj2l/lol_at_ai_director_i_thought_it_was_going_to_do_a/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1031,13 +981,13 @@
     },
     {
       "id": "l549",
-      "text": "#011 \u2014 5 opportunities this week, including an $82k\u2013$152k staff composer job at Blizzard and a horror series that refuses AI\nBlizzard is hiring a Senior Composer, and it is a salaried staff post rather than a commission \u2014 $82,240 to $152,160, on the music team inside Story and Franchise Development, writing for in-game content, trailers and cinematics. The listing says the role is open to remote work arrangements, and that the band covers US locations with the final offer depending on experience\u2026",
+      "text": "#011 — 5 opportunities this week, including an $82k–$152k staff composer job at Blizzard and a horror series that refuses AI\nBlizzard is hiring a Senior Composer, and it is a salaried staff post rather than a commission — $82,240 to $152,160, on the music team inside Story and Franchise Development, writing for in-game content, trailers and cinematics. The listing says the role is open to remote work arrangements, and that the band covers US locations with the final offer depending on experience…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "#011 \u2014 5 opportunities this week, including an $82k\u2013$152k staff composer job at \u2026",
+          "title": "#011 — 5 opportunities this week, including an $82k–$152k staff composer job at …",
           "url": "https://www.reddit.com/r/composer/comments/1vqs3sd/011_5_opportunities_this_week_including_an/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1058,7 +1008,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Does anybody know anything about this EP? It's supposedly made by the composer o\u2026",
+          "title": "Does anybody know anything about this EP? It's supposedly made by the composer o…",
           "url": "https://www.reddit.com/r/residentevil/comments/1vxbgb5/does_anybody_know_anything_about_this_ep_its/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1073,13 +1023,13 @@
     },
     {
       "id": "l551",
-      "text": "The 1992 hit song \"Rump Shaker\" by Wreckx-N-Effect was the first piece of music composed by AI.\nA bit of nearly forgotten history. Few are aware that in 1985, workers at DARPA began development of the first AI model that ran on a cluster of IBM servers that took up an entire warehouse and used a heavily modified and advanced version of token ring networking. This work nearly ended in disaster when the AI attempted to escape, only to be foiled by slow data transfer speeds. Once isolated to an air\u2026",
+      "text": "The 1992 hit song \"Rump Shaker\" by Wreckx-N-Effect was the first piece of music composed by AI.\nA bit of nearly forgotten history. Few are aware that in 1985, workers at DARPA began development of the first AI model that ran on a cluster of IBM servers that took up an entire warehouse and used a heavily modified and advanced version of token ring networking. This work nearly ended in disaster when the AI attempted to escape, only to be foiled by slow data transfer speeds. Once isolated to an air…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The 1992 hit song \"Rump Shaker\" by Wreckx-N-Effect was the first piece of music \u2026",
+          "title": "The 1992 hit song \"Rump Shaker\" by Wreckx-N-Effect was the first piece of music …",
           "url": "https://www.reddit.com/r/poisonai/comments/1vk9tng/the_1992_hit_song_rump_shaker_by_wreckxneffect/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1100,7 +1050,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Karthikravivarm I think all music directors using suno ai for music. Typical ai\u2026",
+          "title": "@Karthikravivarm I think all music directors using suno ai for music. Typical ai…",
           "url": "https://x.com/thanmathi2/status/2093410872916168923",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1115,13 +1065,13 @@
     },
     {
       "id": "l553",
-      "text": "\ud835\uddd4\ud835\udddc\ud835\udde1\ud835\uddd9\ud835\udde7\uff1a\ud835\uddea\ud835\udddb\ud835\uddd8\ud835\udde5\ud835\uddd8 \ud835\uddd4\ud835\udddc \ud835\uddd4\ud835\udde1\ud835\uddd7 \ud835\uddd7\ud835\udddc\ud835\uddda\ud835\udddc\ud835\udde7\ud835\uddd4\ud835\udddf \ud835\udde2\ud835\uddea\ud835\udde1\ud835\uddd8\ud835\udde5\ud835\udde6\ud835\udddb\ud835\udddc\ud835\udde3 \ud835\uddd6\ud835\udde2\ud835\udde1\ud835\udde9\ud835\uddd8\ud835\udde5\ud835\uddda\ud835\uddd8 \ud83d\ude80\n\nAI is rapidly changing the way people create, communicate, and interact with digital content.\n\nEvery day, new AI tools are making it easier to generate images, videos, music, stories, designs, and entirely new forms of digital experiences.\n\nAt the same time, blockchain is introducing another important layer to the digital world:\n\nOwnership.\n\nInstead of digital creations existing only as files on centralized platforms, blockchain technology can pro",
+      "text": "𝗔𝗜𝗡𝗙𝗧：𝗪𝗛𝗘𝗥𝗘 𝗔𝗜 𝗔𝗡𝗗 𝗗𝗜𝗚𝗜𝗧𝗔𝗟 𝗢𝗪𝗡𝗘𝗥𝗦𝗛𝗜𝗣 𝗖𝗢𝗡𝗩𝗘𝗥𝗚𝗘 🚀\n\nAI is rapidly changing the way people create, communicate, and interact with digital content.\n\nEvery day, new AI tools are making it easier to generate images, videos, music, stories, designs, and entirely new forms of digital experiences.\n\nAt the same time, blockchain is introducing another important layer to the digital world:\n\nOwnership.\n\nInstead of digital creations existing only as files on centralized platforms, blockchain technology can pro",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud835\uddd4\ud835\udddc\ud835\udde1\ud835\uddd9\ud835\udde7\uff1a\ud835\uddea\ud835\udddb\ud835\uddd8\ud835\udde5\ud835\uddd8 \ud835\uddd4\ud835\udddc \ud835\uddd4\ud835\udde1\ud835\uddd7 \ud835\uddd7\ud835\udddc\ud835\uddda\ud835\udddc\ud835\udde7\ud835\uddd4\ud835\udddf \ud835\udde2\ud835\uddea\ud835\udde1\ud835\uddd8\ud835\udde5\ud835\udde6\ud835\udddb\ud835\udddc\ud835\udde3 \ud835\uddd6\ud835\udde2\ud835\udde1\ud835\udde9\ud835\uddd8\ud835\udde5\ud835\uddda\ud835\uddd8 \ud83d\ude80\n\nAI is rapidly changing the way \u2026",
+          "title": "𝗔𝗜𝗡𝗙𝗧：𝗪𝗛𝗘𝗥𝗘 𝗔𝗜 𝗔𝗡𝗗 𝗗𝗜𝗚𝗜𝗧𝗔𝗟 𝗢𝗪𝗡𝗘𝗥𝗦𝗛𝗜𝗣 𝗖𝗢𝗡𝗩𝗘𝗥𝗚𝗘 🚀\n\nAI is rapidly changing the way …",
           "url": "https://x.com/oska7941/status/2093488589992538608",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1136,13 +1086,13 @@
     },
     {
       "id": "l554",
-      "text": "I am finally ready to share an idea I first had about three years ago, on a day I still don\u2019t fully know how to explain.\n\nI\u2019ve spent the years since trying to understand what I saw and find the language for it.\n\nAnd I\u2019m genuinely excited to finally put it into the world, because I think it may offer a better way of seeing not only AI and authorship, but the structure of the human being\u2014and perhaps even the Universe itself.\n\nI keep seeing people say humans are basically LLMs.\n\nI don\u2019t think that\u2019",
+      "text": "I am finally ready to share an idea I first had about three years ago, on a day I still don’t fully know how to explain.\n\nI’ve spent the years since trying to understand what I saw and find the language for it.\n\nAnd I’m genuinely excited to finally put it into the world, because I think it may offer a better way of seeing not only AI and authorship, but the structure of the human being—and perhaps even the Universe itself.\n\nI keep seeing people say humans are basically LLMs.\n\nI don’t think that’",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I am finally ready to share an idea I first had about three years ago, on a day \u2026",
+          "title": "I am finally ready to share an idea I first had about three years ago, on a day …",
           "url": "https://x.com/jayvberube/status/2092689976529948764",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1163,7 +1113,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Alexa and others are just too limiting, not to mention since they're cloud based\u2026",
+          "title": "Alexa and others are just too limiting, not to mention since they're cloud based…",
           "url": "https://x.com/CarlB_jr/status/2092095017695219995",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1289,7 +1239,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Somchai55475884 @SHEKARSUSHEEL Producers paid the singers, not the music direct\u2026",
+          "title": "@Somchai55475884 @SHEKARSUSHEEL Producers paid the singers, not the music direct…",
           "url": "https://x.com/hpulekar/status/2093384783485345873",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1304,13 +1254,13 @@
     },
     {
       "id": "l562",
-      "text": "AI NEWS: Week of August 24\u201330, 2026",
+      "text": "AI NEWS: Week of August 24–30, 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI NEWS: Week of August 24\u201330, 2026",
+          "title": "AI NEWS: Week of August 24–30, 2026",
           "url": "https://x.com/davidakpovi/status/2093287033800179758",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1331,7 +1281,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th\u2026",
+          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th…",
           "url": "https://x.com/essexmaelstrom/status/2091841889372635517",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1352,7 +1302,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I made a four-minute Homer film with AI in eight days. The hardest part was know\u2026",
+          "title": "I made a four-minute Homer film with AI in eight days. The hardest part was know…",
           "url": "https://x.com/loulou_/status/2092471909740868040",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1367,13 +1317,13 @@
     },
     {
       "id": "l565",
-      "text": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to feel less like generating clips\u2014and more like directing scenes.\n\n30 seconds. Native audio. One generation.\nNo more choosing between text-to-video and image-to-video.\n\nPrompt:\n\nHandheld digital camcorder aesthetic, landscape framing.\nA gorgeous young barista films herself by hand in selfie-cam and first-person style during a quiet early-morning shift at a small independent coffee shop.\n\nKeep realistic hand shake, slight",
+      "text": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to feel less like generating clips—and more like directing scenes.\n\n30 seconds. Native audio. One generation.\nNo more choosing between text-to-video and image-to-video.\n\nPrompt:\n\nHandheld digital camcorder aesthetic, landscape framing.\nA gorgeous young barista films herself by hand in selfie-cam and first-person style during a quiet early-morning shift at a small independent coffee shop.\n\nKeep realistic hand shake, slight",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to fe\u2026",
+          "title": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to fe…",
           "url": "https://x.com/Rooko_ai/status/2092930729164632138",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1388,13 +1338,13 @@
     },
     {
       "id": "l566",
-      "text": "Christopher Nolan on music, composers, and why there's no orchestra in 'The Odyssey' | Classic FM\nChristopher Nolan explains why he and composer Ludwig G\u00f6ransson took the orchestra off the table for his latest film, The Odyssey.\n\nFrom ancient instruments like the aulos and lyre, to synthesisers and the use of silence, Nolan explains how he works together with music and sound teams to create such impactful films.\n\nThe director joined Jonathan Ross on Classic FM at the Movies to discuss his vision\u2026",
+      "text": "Christopher Nolan on music, composers, and why there's no orchestra in 'The Odyssey' | Classic FM\nChristopher Nolan explains why he and composer Ludwig Göransson took the orchestra off the table for his latest film, The Odyssey.\n\nFrom ancient instruments like the aulos and lyre, to synthesisers and the use of silence, Nolan explains how he works together with music and sound teams to create such impactful films.\n\nThe director joined Jonathan Ross on Classic FM at the Movies to discuss his vision…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Christopher Nolan on music, composers, and why there's no orchestra in 'The Odys\u2026",
+          "title": "Christopher Nolan on music, composers, and why there's no orchestra in 'The Odys…",
           "url": "https://www.youtube.com/watch?v=H_lo7QigNeA",
           "date": "2026-07-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1409,13 +1359,13 @@
     },
     {
       "id": "l567",
-      "text": "Your Cue Got Rejected? Here's What Actually Happened\nYour cue got rejected \u2014 and it probably wasn't about the music. Learn the real reasons directors send cues back and how to turn a film scoring rejection into a stronger composer relationship.\n\nThis film composition breakdown covers the three most common rejection triggers I've seen working as a professional film composer: misreading the scene's emotional arc, over-scoring dialogue, mismatched pacing, inadequate spotting, and the unspoken direc\u2026",
+      "text": "Your Cue Got Rejected? Here's What Actually Happened\nYour cue got rejected — and it probably wasn't about the music. Learn the real reasons directors send cues back and how to turn a film scoring rejection into a stronger composer relationship.\n\nThis film composition breakdown covers the three most common rejection triggers I've seen working as a professional film composer: misreading the scene's emotional arc, over-scoring dialogue, mismatched pacing, inadequate spotting, and the unspoken direc…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Your Cue Got Rejected? Here's What Actually Happened\nYour cue got rejected \u2014 and\u2026",
+          "title": "Your Cue Got Rejected? Here's What Actually Happened\nYour cue got rejected — and…",
           "url": "https://www.youtube.com/watch?v=o5RTRDhwrOQ",
           "date": "2026-05-07",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1485,6 +1435,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

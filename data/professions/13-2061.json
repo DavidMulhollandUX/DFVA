@@ -16,58 +16,8 @@
   ],
   "claims": [
     {
-      "id": "13-2061-01",
-      "text": "National peak professional bodies and statutory regulators governing Financial Examiners enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Financial Examiners",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Financial Examiners",
-          "url": "https://www.psc.gov.au/standards/13-2061",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Financial Examiners"
-        }
-      ],
-      "scope": "Australian practitioners in Financial Examiners across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "13-2061-02",
-      "text": "Automation of routine transactional and analytical tasks in Financial Examiners heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Financial Examiners",
-          "url": "https://www.jobsandskills.gov.au/research/13-2061",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Financial Examiners in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Financial Examiners roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "External Audit | Expressions of Interest \u2014 BDO in Australia (Canberra, Australian Capital Territory, Australia). Posted 1 day ago.",
+      "text": "External Audit | Expressions of Interest — BDO in Australia (Canberra, Australian Capital Territory, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -88,7 +38,7 @@
     },
     {
       "id": "l404",
-      "text": "Financial Assurance Accountant- Forensic- South Bank, QLD \u2014 Flight Centre Travel Group (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Financial Assurance Accountant- Forensic- South Bank, QLD — Flight Centre Travel Group (Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -109,7 +59,7 @@
     },
     {
       "id": "l405",
-      "text": "Audit & Forensic Services Manager \u2014 ClarityNT (Australia). Posted 3 weeks ago.",
+      "text": "Audit & Forensic Services Manager — ClarityNT (Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -130,7 +80,7 @@
     },
     {
       "id": "l406",
-      "text": "Executive Manager, Finance, International, Audit & Governance and Chief Financial Officer \u2014 Civil Aviation Safety Authority (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
+      "text": "Executive Manager, Finance, International, Audit & Governance and Chief Financial Officer — Civil Aviation Safety Authority (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -151,7 +101,7 @@
     },
     {
       "id": "l407",
-      "text": "Associate Partner - Audit \u2014 EY (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
+      "text": "Associate Partner - Audit — EY (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -172,7 +122,7 @@
     },
     {
       "id": "l408",
-      "text": "Ombudsman, Banking and Finance (Small Business & Transactions) \u2014 Australian Financial Complaints Authority (Melbourne, Victoria, Australia). Posted 6 days ago.",
+      "text": "Ombudsman, Banking and Finance (Small Business & Transactions) — Australian Financial Complaints Authority (Melbourne, Victoria, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -193,7 +143,7 @@
     },
     {
       "id": "l409",
-      "text": "Expressions of Interest | Audit | Tax | Advisory - BDO (NTH QLD) - Townsville \u2014 BDO in Australia (Townsville, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Expressions of Interest | Audit | Tax | Advisory - BDO (NTH QLD) - Townsville — BDO in Australia (Townsville, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -214,7 +164,7 @@
     },
     {
       "id": "l410",
-      "text": "Senior Auditor (NT) \u2014 Nexia Edwards Marshall NT (Darwin City, Northern Territory, Australia). Posted 2 weeks ago.",
+      "text": "Senior Auditor (NT) — Nexia Edwards Marshall NT (Darwin City, Northern Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -235,7 +185,7 @@
     },
     {
       "id": "l411",
-      "text": "Auditor \u2014 Legal Practice Board of Western Australia (Perth, Western Australia, Australia). Posted 2 days ago.",
+      "text": "Auditor — Legal Practice Board of Western Australia (Perth, Western Australia, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -256,7 +206,7 @@
     },
     {
       "id": "l412",
-      "text": "Ombudsman, Banking and Finance (Small Business & Transactions) \u2014 Australian Financial Complaints Authority (Sydney, New South Wales, Australia). Posted 6 days ago.",
+      "text": "Ombudsman, Banking and Finance (Small Business & Transactions) — Australian Financial Complaints Authority (Sydney, New South Wales, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -277,13 +227,13 @@
     },
     {
       "id": "l513",
-      "text": "Takes: Agentic AI compliance systems that route AML workflows across bounded, role-specific LLM agents \u2014 one per compliance stage (customer onboarding, transaction monitoring, investigation, SAR draf\u2026\n**Topic:** Research case studies from academia, large enterprises, and startups.\r\n\r\nI am especially interested in examples related to investment management, financial information, and making data \u201cAI-ready\u201d or \u201cAI-native.\u201d\r\n\r\nPlease focus on cases involving one or more of the following themes:\r\n\r\n1\u2026",
+      "text": "Takes: Agentic AI compliance systems that route AML workflows across bounded, role-specific LLM agents — one per compliance stage (customer onboarding, transaction monitoring, investigation, SAR draf…\n**Topic:** Research case studies from academia, large enterprises, and startups.\r\n\r\nI am especially interested in examples related to investment management, financial information, and making data “AI-ready” or “AI-native.”\r\n\r\nPlease focus on cases involving one or more of the following themes:\r\n\r\n1…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Takes: Agentic AI compliance systems that route AML workflows across bounded, ro\u2026",
+          "title": "Takes: Agentic AI compliance systems that route AML workflows across bounded, ro…",
           "url": "https://github.com/KatsuyaITO/indx-autoresearch-financeaiready/issues/698",
           "date": "2026-07-14",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -298,13 +248,13 @@
     },
     {
       "id": "l514",
-      "text": "Takes: Financial institutions that deploy dedicated LLM model-validation tooling \u2014 prompt-sensitivity regression suites, behavioral drift monitors, and structured hallucination quantification benchma\u2026\n**Topic:** Research case studies from academia, large enterprises, and startups.\r\n\r\nI am especially interested in examples related to investment management, financial information, and making data \u201cAI-ready\u201d or \u201cAI-native.\u201d\r\n\r\nPlease focus on cases involving one or more of the following themes:\r\n\r\n1\u2026",
+      "text": "Takes: Financial institutions that deploy dedicated LLM model-validation tooling — prompt-sensitivity regression suites, behavioral drift monitors, and structured hallucination quantification benchma…\n**Topic:** Research case studies from academia, large enterprises, and startups.\r\n\r\nI am especially interested in examples related to investment management, financial information, and making data “AI-ready” or “AI-native.”\r\n\r\nPlease focus on cases involving one or more of the following themes:\r\n\r\n1…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Takes: Financial institutions that deploy dedicated LLM model-validation tooling\u2026",
+          "title": "Takes: Financial institutions that deploy dedicated LLM model-validation tooling…",
           "url": "https://github.com/KatsuyaITO/indx-autoresearch-financeaiready/issues/482",
           "date": "2026-07-04",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -319,13 +269,13 @@
     },
     {
       "id": "l515",
-      "text": "Takes: AI credit underwriting pipelines that isolate deterministic computation \u2014 financial ratio calculation from extracted document data \u2014 into an explicit, auditable intermediate layer separate fro\u2026\n**Topic:** Research case studies from academia, large enterprises, and startups.\r\n\r\nI am especially interested in examples related to investment management, financial information, and making data \u201cAI-ready\u201d or \u201cAI-native.\u201d\r\n\r\nPlease focus on cases involving one or more of the following themes:\r\n\r\n1\u2026",
+      "text": "Takes: AI credit underwriting pipelines that isolate deterministic computation — financial ratio calculation from extracted document data — into an explicit, auditable intermediate layer separate fro…\n**Topic:** Research case studies from academia, large enterprises, and startups.\r\n\r\nI am especially interested in examples related to investment management, financial information, and making data “AI-ready” or “AI-native.”\r\n\r\nPlease focus on cases involving one or more of the following themes:\r\n\r\n1…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Takes: AI credit underwriting pipelines that isolate deterministic computation \u2014\u2026",
+          "title": "Takes: AI credit underwriting pipelines that isolate deterministic computation —…",
           "url": "https://github.com/KatsuyaITO/indx-autoresearch-financeaiready/issues/254",
           "date": "2026-07-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -340,13 +290,13 @@
     },
     {
       "id": "l516",
-      "text": "Takes: Verification-hybrid architectures across legal, medical, code, and financial LLMs will converge into a shared 'auditable AI output' compliance standard\nAcross independently developed domains, the same architectural response to hallucination has emerged: keep the LLM as a fluent reader/candidate-generator, and route claims through a separate, deterministic verifier. Legal RAG tools ground citations in retrieved case law but still show 17\u201343% error r",
+      "text": "Takes: Verification-hybrid architectures across legal, medical, code, and financial LLMs will converge into a shared 'auditable AI output' compliance standard\nAcross independently developed domains, the same architectural response to hallucination has emerged: keep the LLM as a fluent reader/candidate-generator, and route claims through a separate, deterministic verifier. Legal RAG tools ground citations in retrieved case law but still show 17–43% error r",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Takes: Verification-hybrid architectures across legal, medical, code, and financ\u2026",
+          "title": "Takes: Verification-hybrid architectures across legal, medical, code, and financ…",
           "url": "https://github.com/KatsuyaITO/indx-autoresearch-financeaiready/issues/425",
           "date": "2026-07-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -361,13 +311,13 @@
     },
     {
       "id": "l517",
-      "text": "Takes: AI agent frameworks capable of continuous (daily or real-time) bank capital stress testing will prove technically able to flag capital stress signals 4\u20136 weeks ahead of quarterly DFAST/CCAR cy\u2026\n**Topic:** Research case studies from academia, large enterprises, and startups.\r\n\r\nI am especially interested in examples related to investment management, financial information, and making data \u201cAI-ready\u201d or \u201cAI-native.\u201d\r\n\r\nPlease focus on cases involving one or more of the following themes:\r\n\r\n1\u2026",
+      "text": "Takes: AI agent frameworks capable of continuous (daily or real-time) bank capital stress testing will prove technically able to flag capital stress signals 4–6 weeks ahead of quarterly DFAST/CCAR cy…\n**Topic:** Research case studies from academia, large enterprises, and startups.\r\n\r\nI am especially interested in examples related to investment management, financial information, and making data “AI-ready” or “AI-native.”\r\n\r\nPlease focus on cases involving one or more of the following themes:\r\n\r\n1…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Takes: AI agent frameworks capable of continuous (daily or real-time) bank capit\u2026",
+          "title": "Takes: AI agent frameworks capable of continuous (daily or real-time) bank capit…",
           "url": "https://github.com/KatsuyaITO/indx-autoresearch-financeaiready/issues/236",
           "date": "2026-07-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -382,13 +332,13 @@
     },
     {
       "id": "l518",
-      "text": "Takes: The April 2026 rescission of the U.S. federal banking agencies' SR 11-7 one-size-fits-all model validation framework \u2014 replaced by risk-tiered, principles-based model risk management guidance\u2026\n**Topic:** Research case studies from academia, large enterprises, and startups.\r\n\r\nI am especially interested in examples related to investment management, financial information, and making data \u201cAI-ready\u201d or \u201cAI-native.\u201d\r\n\r\nPlease focus on cases involving one or more of the following themes:\r\n\r\n1.",
+      "text": "Takes: The April 2026 rescission of the U.S. federal banking agencies' SR 11-7 one-size-fits-all model validation framework — replaced by risk-tiered, principles-based model risk management guidance…\n**Topic:** Research case studies from academia, large enterprises, and startups.\r\n\r\nI am especially interested in examples related to investment management, financial information, and making data “AI-ready” or “AI-native.”\r\n\r\nPlease focus on cases involving one or more of the following themes:\r\n\r\n1.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Takes: The April 2026 rescission of the U.S. federal banking agencies' SR 11-7 o\u2026",
+          "title": "Takes: The April 2026 rescission of the U.S. federal banking agencies' SR 11-7 o…",
           "url": "https://github.com/KatsuyaITO/indx-autoresearch-financeaiready/issues/61",
           "date": "2026-07-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -403,13 +353,13 @@
     },
     {
       "id": "l519",
-      "text": "[Idea]: NIST is seeking insights from industry, academia, and the security community regarding the secure development and deployment of AI agent systems\n### Contact Details\n\nluca.borella@finos.org\n\n### What is the idea\n\nThe [Center for AI Standards and Innovation (CAISI)](https://www.nist.gov/caisi) at the U.S. Department of Commerce\u2019s National Institute of Standards and Technology (NIST) has published a [Request for Information](https://www.federal\nHere's an AI draft as a strawman based on the \u2026",
+      "text": "[Idea]: NIST is seeking insights from industry, academia, and the security community regarding the secure development and deployment of AI agent systems\n### Contact Details\n\nluca.borella@finos.org\n\n### What is the idea\n\nThe [Center for AI Standards and Innovation (CAISI)](https://www.nist.gov/caisi) at the U.S. Department of Commerce’s National Institute of Standards and Technology (NIST) has published a [Request for Information](https://www.federal\nHere's an AI draft as a strawman based on the …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[Idea]: NIST is seeking insights from industry, academia, and the security commu\u2026",
+          "title": "[Idea]: NIST is seeking insights from industry, academia, and the security commu…",
           "url": "https://github.com/finos/ai-governance-framework/issues/266",
           "date": "2026-03-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -550,13 +500,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -592,13 +542,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -802,13 +752,13 @@
     },
     {
       "id": "l538",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -823,13 +773,13 @@
     },
     {
       "id": "l539",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -886,13 +836,13 @@
     },
     {
       "id": "l542",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -907,13 +857,13 @@
     },
     {
       "id": "l543",
-      "text": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+      "text": "Show HN: Core – open-source AI butler that clears your backlog without you",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+          "title": "Show HN: Core – open-source AI butler that clears your backlog without you",
           "url": "https://www.getcore.me/",
           "date": "2026-04-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -928,13 +878,13 @@
     },
     {
       "id": "l544",
-      "text": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Companies\nI want to explain why I remain skeptical about the idea that what happened to Suno and Udio was simply an ordinary copyright dispute that happened to end in licensing agreements. I am not claiming to know what happened behind closed doors, because I don&#39;t have access to the private negotiations, settlement agreements, or internal communications between these companies. What I am doing is looking at the public \u2026",
+      "text": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Companies\nI want to explain why I remain skeptical about the idea that what happened to Suno and Udio was simply an ordinary copyright dispute that happened to end in licensing agreements. I am not claiming to know what happened behind closed doors, because I don&#39;t have access to the private negotiations, settlement agreements, or internal communications between these companies. What I am doing is looking at the public …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Compani\u2026",
+          "title": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Compani…",
           "url": "https://www.reddit.com/r/SunoAI/comments/1vli6v5/why_i_believe_suno_and_udio_were_treated/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -949,13 +899,13 @@
     },
     {
       "id": "l545",
-      "text": "Governing AI in Complex Societies\nFrom Algorithmic Leviathan to Cognitive Democracy: Abstract Artificial intelligence is rapidly becoming part of the infrastructure through which modern societies perceive, predict and govern themselves. This transformation creates a fundamental institutional dilemma. AI can dramatically expand the capacity of governments and citizens to process information, simulate complex systems and evaluate policy consequences. Yet the same technologies can concentrate infor\u2026",
+      "text": "Governing AI in Complex Societies\nFrom Algorithmic Leviathan to Cognitive Democracy: Abstract Artificial intelligence is rapidly becoming part of the infrastructure through which modern societies perceive, predict and govern themselves. This transformation creates a fundamental institutional dilemma. AI can dramatically expand the capacity of governments and citizens to process information, simulate complex systems and evaluate policy consequences. Yet the same technologies can concentrate infor…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Governing AI in Complex Societies\nFrom Algorithmic Leviathan to Cognitive Democr\u2026",
+          "title": "Governing AI in Complex Societies\nFrom Algorithmic Leviathan to Cognitive Democr…",
           "url": "https://www.reddit.com/r/IT4Research/comments/1vjpoin/governing_ai_in_complex_societies/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -970,13 +920,13 @@
     },
     {
       "id": "l546",
-      "text": "|US ECONOMY BRIEFING | 11.08.2026 | 06:09 PM ET |Last 24 Hours | 264,000 Americans quit the job search in July, energy bills keep climbing on Hormuz tensions, and AI is quietly eliminating jobs across the economy |TOP 45 STORIES\nThe July jobs report looks better on paper, but only because 264,000 people stopped searching for work entirely. At the same time, the Hormuz standoff is pushing energy prices higher, raising gas, diesel, and heating costs for American households. And economists warn tha\u2026",
+      "text": "|US ECONOMY BRIEFING | 11.08.2026 | 06:09 PM ET |Last 24 Hours | 264,000 Americans quit the job search in July, energy bills keep climbing on Hormuz tensions, and AI is quietly eliminating jobs across the economy |TOP 45 STORIES\nThe July jobs report looks better on paper, but only because 264,000 people stopped searching for work entirely. At the same time, the Hormuz standoff is pushing energy prices higher, raising gas, diesel, and heating costs for American households. And economists warn tha…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "|US ECONOMY BRIEFING | 11.08.2026 | 06:09 PM ET |Last 24 Hours | 264,000 America\u2026",
+          "title": "|US ECONOMY BRIEFING | 11.08.2026 | 06:09 PM ET |Last 24 Hours | 264,000 America…",
           "url": "https://www.reddit.com/r/TrumpGlobalWar/comments/1vldga3/us_economy_briefing_11082026_0609_pm_et_last_24/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -991,13 +941,13 @@
     },
     {
       "id": "l547",
-      "text": "How I\u2019m Using Binance Agent OS in My AI Workflow",
+      "text": "How I’m Using Binance Agent OS in My AI Workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "How I\u2019m Using Binance Agent OS in My AI Workflow",
+          "title": "How I’m Using Binance Agent OS in My AI Workflow",
           "url": "https://x.com/CryptoVerse_Co/status/2092272694926668230",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1060,7 +1010,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th\u2026",
+          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th…",
           "url": "https://x.com/essexmaelstrom/status/2091841889372635517",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1075,13 +1025,13 @@
     },
     {
       "id": "l551",
-      "text": "Daily AI Briefing - Tuesday , August 25\n\n1. Anonymous \"Ox Alpha\" model appears free on OpenRouter \u2014 likely a Chinese lab's stealth launch\nAn unattributed model with a 1M-token context window and text/image/video input appeared on OpenRouter and OpenCode on August 20 under the ID stealth/ox-alpha, free for roughly a week. Community tokenizer fingerprinting points strongly to https://t.co/BDvjCDsRp2's GLM family (a possible GLM-5.3), though no lab has claimed it; it would be the fifth anonymous re",
+      "text": "Daily AI Briefing - Tuesday , August 25\n\n1. Anonymous \"Ox Alpha\" model appears free on OpenRouter — likely a Chinese lab's stealth launch\nAn unattributed model with a 1M-token context window and text/image/video input appeared on OpenRouter and OpenCode on August 20 under the ID stealth/ox-alpha, free for roughly a week. Community tokenizer fingerprinting points strongly to https://t.co/BDvjCDsRp2's GLM family (a possible GLM-5.3), though no lab has claimed it; it would be the fifth anonymous re",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Daily AI Briefing - Tuesday , August 25\n\n1. Anonymous \"Ox Alpha\" model appears f\u2026",
+          "title": "Daily AI Briefing - Tuesday , August 25\n\n1. Anonymous \"Ox Alpha\" model appears f…",
           "url": "https://x.com/SarangMahatwo/status/2092260161767264376",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1096,13 +1046,13 @@
     },
     {
       "id": "l552",
-      "text": "\u26a1\ud83e\udd16 https://t.co/D0OdXFmcl8 \u2014 THE BEST AI PRODUCTS WON\u2019T FEEL LIKE SOFTWARE.\n\nThey\u2019ll feel like:\n\nSOMEONE ALREADY TOOK CARE OF IT.\n\nYour inbox?\n\nHandled.\n\nMeeting notes?\n\nOrganized.\n\nCustomer follow-ups?\n\nDrafted.\n\nResearch?\n\nDone.\n\nCalendar chaos?\n\nSorted.\n\nDocuments?\n\nUnderstood.\n\nTasks?\n\nPrioritized.\n\nYou don't open twelve dashboards.\n\nYou don't learn another complicated interface.\n\nYou just say:\n\n\u201cZoli, take care of this.\u201d\n\nAnd that's the opportunity inside:\n\nhttps://t.co/D0OdXFmcl8\n\nShort.",
+      "text": "⚡🤖 https://t.co/D0OdXFmcl8 — THE BEST AI PRODUCTS WON’T FEEL LIKE SOFTWARE.\n\nThey’ll feel like:\n\nSOMEONE ALREADY TOOK CARE OF IT.\n\nYour inbox?\n\nHandled.\n\nMeeting notes?\n\nOrganized.\n\nCustomer follow-ups?\n\nDrafted.\n\nResearch?\n\nDone.\n\nCalendar chaos?\n\nSorted.\n\nDocuments?\n\nUnderstood.\n\nTasks?\n\nPrioritized.\n\nYou don't open twelve dashboards.\n\nYou don't learn another complicated interface.\n\nYou just say:\n\n“Zoli, take care of this.”\n\nAnd that's the opportunity inside:\n\nhttps://t.co/D0OdXFmcl8\n\nShort.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u26a1\ud83e\udd16 https://t.co/D0OdXFmcl8 \u2014 THE BEST AI PRODUCTS WON\u2019T FEEL LIKE SOFTWARE.\n\nThe\u2026",
+          "title": "⚡🤖 https://t.co/D0OdXFmcl8 — THE BEST AI PRODUCTS WON’T FEEL LIKE SOFTWARE.\n\nThe…",
           "url": "https://x.com/UpHonestReal/status/2091845196845637891",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1138,13 +1088,13 @@
     },
     {
       "id": "l554",
-      "text": "I've captured and summarized some essential data:\n\nJobs to Avoid \u2014 AI Exposure 9-10/10 \u2620\ufe0f\n\n\ud83d\udc80 Computer/Info Research Scientists \u2014 $141K | 40K jobs | Master's\n\ud83d\udc80 Software Developers/QA/Testers \u2014 $131K | 1.9M jobs | Bachelor's\n\ud83d\udc80 Database Admins/Architects \u2014 $123K | 145K jobs | Bachelor's\n\ud83d\udc80 Economists \u2014 $115K | 18K jobs | Master's\n\ud83d\udc80 Data Scientists \u2014 $113K | 246K jobs | Bachelor's\n\ud83d\udc80 Mathematicians/Statisticians \u2014 $104K | 35K jobs | Master's\n\ud83d\udc80 Financial Analysts \u2014 $102K | 429K jobs | Bachelor's\n\ud83d\udc80 Spec",
+      "text": "I've captured and summarized some essential data:\n\nJobs to Avoid — AI Exposure 9-10/10 ☠️\n\n💀 Computer/Info Research Scientists — $141K | 40K jobs | Master's\n💀 Software Developers/QA/Testers — $131K | 1.9M jobs | Bachelor's\n💀 Database Admins/Architects — $123K | 145K jobs | Bachelor's\n💀 Economists — $115K | 18K jobs | Master's\n💀 Data Scientists — $113K | 246K jobs | Bachelor's\n💀 Mathematicians/Statisticians — $104K | 35K jobs | Master's\n💀 Financial Analysts — $102K | 429K jobs | Bachelor's\n💀 Spec",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I've captured and summarized some essential data:\n\nJobs to Avoid \u2014 AI Exposure 9\u2026",
+          "title": "I've captured and summarized some essential data:\n\nJobs to Avoid — AI Exposure 9…",
           "url": "https://x.com/XROM2863/status/2033218672026849468",
           "date": "2026-03-15",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1159,13 +1109,13 @@
     },
     {
       "id": "l555",
-      "text": "Shenzhen is subsidizing OpenClaw deployment \u2014 compute credits, free setup, housing for entrepreneurs. Impressive speed.\n\nBut the entire policy has zero mention of security. No exec allowlists, no skill vetting, no credential isolation. An AI agent with shell access isn't just a productivity tool \u2014 it's an attack surface.\n\nSomeone needs to write the first OpenClaw security policy to match the first OpenClaw subsidy policy. That's literally what we built KatClaw for \u2014 security audit, VirusTotal sk",
+      "text": "Shenzhen is subsidizing OpenClaw deployment — compute credits, free setup, housing for entrepreneurs. Impressive speed.\n\nBut the entire policy has zero mention of security. No exec allowlists, no skill vetting, no credential isolation. An AI agent with shell access isn't just a productivity tool — it's an attack surface.\n\nSomeone needs to write the first OpenClaw security policy to match the first OpenClaw subsidy policy. That's literally what we built KatClaw for — security audit, VirusTotal sk",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Shenzhen is subsidizing OpenClaw deployment \u2014 compute credits, free setup, housi\u2026",
+          "title": "Shenzhen is subsidizing OpenClaw deployment — compute credits, free setup, housi…",
           "url": "https://x.com/XROM2863/status/2030701013741846679",
           "date": "2026-03-08",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1180,13 +1130,13 @@
     },
     {
       "id": "l556",
-      "text": "AI Could End Work \u2014 But Who Owns the Future?\nAI could make intelligence, software and labour dramatically cheaper. The decisive question is not only what AI can do, but who owns the agents, compute, robots, energy and infrastructure behind it.\n\nIn this 98-minute Magrathean Explains discussion, I follow the chain from today\u2019s chatbots and coding agents to autonomous digital labour, one-person companies, AI improving AI, citizen dividends, universal high income, robotics and orbital data centres.\n\u2026",
+      "text": "AI Could End Work — But Who Owns the Future?\nAI could make intelligence, software and labour dramatically cheaper. The decisive question is not only what AI can do, but who owns the agents, compute, robots, energy and infrastructure behind it.\n\nIn this 98-minute Magrathean Explains discussion, I follow the chain from today’s chatbots and coding agents to autonomous digital labour, one-person companies, AI improving AI, citizen dividends, universal high income, robotics and orbital data centres.\n…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Could End Work \u2014 But Who Owns the Future?\nAI could make intelligence, softwar\u2026",
+          "title": "AI Could End Work — But Who Owns the Future?\nAI could make intelligence, softwar…",
           "url": "https://www.youtube.com/watch?v=LtAGNp9z8vM",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1201,13 +1151,13 @@
     },
     {
       "id": "l557",
-      "text": "The Music Industry is Broken\nThanks for Opera for sponsoring today's video. Download the browser for free using my link: https://opr.as/06-Opera-browser-drewisgooden\n\nLINKS TO OUR MUSIC: https://linktr.ee/arythmia\nsubscribe to our youtube channel: @Arythmiamusic \n\nchapters:\n00:00 - intro\n1:07 - spotify\n18:36 - record labels\n28:36 - LiveNation/ticketmaster\n35:09 - my own experience\n\nsome really cool local bands:\nWalking Blue: https://www.instagram.com/walkingbluefl/?hl=en\nSky Navy: https://www.in\u2026",
+      "text": "The Music Industry is Broken\nThanks for Opera for sponsoring today's video. Download the browser for free using my link: https://opr.as/06-Opera-browser-drewisgooden\n\nLINKS TO OUR MUSIC: https://linktr.ee/arythmia\nsubscribe to our youtube channel: @Arythmiamusic \n\nchapters:\n00:00 - intro\n1:07 - spotify\n18:36 - record labels\n28:36 - LiveNation/ticketmaster\n35:09 - my own experience\n\nsome really cool local bands:\nWalking Blue: https://www.instagram.com/walkingbluefl/?hl=en\nSky Navy: https://www.in…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Music Industry is Broken\nThanks for Opera for sponsoring today's video. Down\u2026",
+          "title": "The Music Industry is Broken\nThanks for Opera for sponsoring today's video. Down…",
           "url": "https://www.youtube.com/watch?v=Yx7baJMQuVA",
           "date": "2026-06-17",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1222,13 +1172,13 @@
     },
     {
       "id": "l558",
-      "text": "AI Is Disrupting the \"Higher Education Cartels\" | Erika Donalds\nAI represents the single greatest disruption to higher education cartels in generations. That's why so many institutions are teaching students that it's evil.\n\nErika Donalds, founder of the Education Freedom Foundation and Chair of the Center for Education Opportunity at America First Policy Institute, joins Jim Iuorio and Bobby Iaccino to break down how AI is upending the university system, where the Trump administration actually s\u2026",
+      "text": "AI Is Disrupting the \"Higher Education Cartels\" | Erika Donalds\nAI represents the single greatest disruption to higher education cartels in generations. That's why so many institutions are teaching students that it's evil.\n\nErika Donalds, founder of the Education Freedom Foundation and Chair of the Center for Education Opportunity at America First Policy Institute, joins Jim Iuorio and Bobby Iaccino to break down how AI is upending the university system, where the Trump administration actually s…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Is Disrupting the \"Higher Education Cartels\" | Erika Donalds\nAI represents th\u2026",
+          "title": "AI Is Disrupting the \"Higher Education Cartels\" | Erika Donalds\nAI represents th…",
           "url": "https://www.youtube.com/watch?v=gzFNOK7NkNo",
           "date": "2026-07-23",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1243,13 +1193,13 @@
     },
     {
       "id": "l559",
-      "text": "Elon Musk on AI: humans will no longer be in control in ten years  | The Economist\nWatch the full show: https://bit.ly/4fsnd9Q \n\nElon Musk expects artificial intelligence to exceed the sum of human intelligence in about five years and thinks that humans will no longer be in control in ten years. In an interview with Zanny Minton Beddoes, The Economist\u2019s editor-in-chief, he predicts an \u201cage of amazing abundance,\u201d and sets out his proposal for how rival AI labs could review each other\u2019s frontier m\u2026",
+      "text": "Elon Musk on AI: humans will no longer be in control in ten years  | The Economist\nWatch the full show: https://bit.ly/4fsnd9Q \n\nElon Musk expects artificial intelligence to exceed the sum of human intelligence in about five years and thinks that humans will no longer be in control in ten years. In an interview with Zanny Minton Beddoes, The Economist’s editor-in-chief, he predicts an “age of amazing abundance,” and sets out his proposal for how rival AI labs could review each other’s frontier m…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Elon Musk on AI: humans will no longer be in control in ten years  | The Economi\u2026",
+          "title": "Elon Musk on AI: humans will no longer be in control in ten years  | The Economi…",
           "url": "https://www.youtube.com/watch?v=1X-rr1DKSbY",
           "date": "2026-07-23",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1264,13 +1214,13 @@
     },
     {
       "id": "l560",
-      "text": "AI Bubble BURSTS!!!! What Happens Next?\nNEW! Access our Investing Website & Private Community: https://investorsgrow.com/\n8 Steps to Analyze a Stock Video: https://youtu.be/fGVtypWv04Y\n\n\u2605\u2606\u2605 Subscribe: \u2605\u2606\u2605\nhttps://goo.gl/qkRHDf \n\nInvesting Basics Playlist\nhttps://goo.gl/ky7CJq\n\nInvesting Books I like: \nThe Intelligent Investor - https://amzn.to/3EEFf83\nCommon Stocks & Uncommon Profits - https://amzn.to/3MuoJsZ\nUnderstanding Options -  https://amzn.to/3T02tcX\nLittle Book of Common Sense Investing \u2026",
+      "text": "AI Bubble BURSTS!!!! What Happens Next?\nNEW! Access our Investing Website & Private Community: https://investorsgrow.com/\n8 Steps to Analyze a Stock Video: https://youtu.be/fGVtypWv04Y\n\n★☆★ Subscribe: ★☆★\nhttps://goo.gl/qkRHDf \n\nInvesting Basics Playlist\nhttps://goo.gl/ky7CJq\n\nInvesting Books I like: \nThe Intelligent Investor - https://amzn.to/3EEFf83\nCommon Stocks & Uncommon Profits - https://amzn.to/3MuoJsZ\nUnderstanding Options -  https://amzn.to/3T02tcX\nLittle Book of Common Sense Investing …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Bubble BURSTS!!!! What Happens Next?\nNEW! Access our Investing Website & Priv\u2026",
+          "title": "AI Bubble BURSTS!!!! What Happens Next?\nNEW! Access our Investing Website & Priv…",
           "url": "https://www.youtube.com/watch?v=uXc4NSKqQLk",
           "date": "2026-07-17",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1355,6 +1305,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

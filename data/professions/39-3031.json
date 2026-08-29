@@ -14,56 +14,6 @@
   "programs": [],
   "claims": [
     {
-      "id": "39-3031-01",
-      "text": "National peak professional bodies and statutory regulators governing Ushers, Lobby Attendants, and Ticket Takers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Ushers, Lobby Attendants, and Ticket Takers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Ushers, Lobby Attendants, and Ticket Takers",
-          "url": "https://www.psc.gov.au/standards/39-3031",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Ushers, Lobby Attendants, and Ticket Takers"
-        }
-      ],
-      "scope": "Australian practitioners in Ushers, Lobby Attendants, and Ticket Takers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "39-3031-02",
-      "text": "Automation of routine transactional and analytical tasks in Ushers, Lobby Attendants, and Ticket Takers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Ushers, Lobby Attendants, and Ticket Takers",
-          "url": "https://www.jobsandskills.gov.au/research/39-3031",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Ushers, Lobby Attendants, and Ticket Takers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Ushers, Lobby Attendants, and Ticket Takers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
       "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
@@ -254,13 +204,13 @@
     },
     {
       "id": "l512",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -275,13 +225,13 @@
     },
     {
       "id": "l513",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -464,13 +414,13 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -506,13 +456,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -548,13 +498,13 @@
     },
     {
       "id": "l526",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -569,14 +519,14 @@
     },
     {
       "id": "l527",
-      "text": "[New Update]: AITAH for letting my fianc\u00e9 and his son move in rather than moving to them so his mom can co-parent?\nI am not OOP. OOP is u/Far-Championship202 Originally posted to r/AITAH and their own page Previous BoRUs: #1 [New Update]: AITAH for letting my fianc\u00e9 and his son move in rather than moving to them so his mom can co-parent? NEW UPDATE MARKED WITH ---- Editor\u2019s note: made small edits for ease of readability Trigger Warnings: emotional abuse and manipulation, harassment / stalking, m\u2026",
+      "text": "[New Update]: AITAH for letting my fiancé and his son move in rather than moving to them so his mom can co-parent?\nI am not OOP. OOP is u/Far-Championship202 Originally posted to r/AITAH and their own page Previous BoRUs: #1 [New Update]: AITAH for letting my fiancé and his son move in rather than moving to them so his mom can co-parent? NEW UPDATE MARKED WITH ---- Editor’s note: made small edits for ease of readability Trigger Warnings: emotional abuse and manipulation, harassment / stalking, m…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "[New Update]: AITAH for letting my fianc\u00e9 and his son move in rather than moving\u2026",
-          "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1vv1xr2/new_update_aitah_for_letting_my_fianc\u00e9_and_his/",
+          "title": "[New Update]: AITAH for letting my fiancé and his son move in rather than moving…",
+          "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1vv1xr2/new_update_aitah_for_letting_my_fiancé_and_his/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
         }
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "HARM REDUCTION: After long-term use, I barely keep memories of a night on MDMA. What do you do/use to ENJOY AND REMEMBER the night before?\nTLDR: What do you do/use that makes you ENJOY AND REMEMBER the night before? I&#39;m planning to attend, for the first time in my life, a couple of marathons (10-12 hr sets each) with 2 of my favourite DJs on separate dates (2 weeks apart) in the same month, but I&#39;ve started to notice that after long, intermittent use of MDMA or Ecstasy over 4 years (not \u2026",
+      "text": "HARM REDUCTION: After long-term use, I barely keep memories of a night on MDMA. What do you do/use to ENJOY AND REMEMBER the night before?\nTLDR: What do you do/use that makes you ENJOY AND REMEMBER the night before? I&#39;m planning to attend, for the first time in my life, a couple of marathons (10-12 hr sets each) with 2 of my favourite DJs on separate dates (2 weeks apart) in the same month, but I&#39;ve started to notice that after long, intermittent use of MDMA or Ecstasy over 4 years (not …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "HARM REDUCTION: After long-term use, I barely keep memories of a night on MDMA. \u2026",
+          "title": "HARM REDUCTION: After long-term use, I barely keep memories of a night on MDMA. …",
           "url": "https://www.reddit.com/r/Raves/comments/1vww6uy/harm_reduction_after_longterm_use_i_barely_keep/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "Ted Kaczynski (1942\u20132023), nicknamed the \"Unabomber\", was an American domestic terrorist who killed 3 people and injured 23 by sending them bombs. In 1995, Kaczynski abandoned his terrorist campaign after his manifesto was published.\nhttps://en.wikipedia.org/wiki/Ted\\_Kaczynski Theodore John Kaczynski was born in Chicago on May 22, 1942, to working-class parents Wanda Theresa (n\u00e9e Dombek) and Theodore Richard Kaczynski, a sausage maker. The two were Polish Americans who were raised as Roman Cath\u2026",
+      "text": "Ted Kaczynski (1942–2023), nicknamed the \"Unabomber\", was an American domestic terrorist who killed 3 people and injured 23 by sending them bombs. In 1995, Kaczynski abandoned his terrorist campaign after his manifesto was published.\nhttps://en.wikipedia.org/wiki/Ted\\_Kaczynski Theodore John Kaczynski was born in Chicago on May 22, 1942, to working-class parents Wanda Theresa (née Dombek) and Theodore Richard Kaczynski, a sausage maker. The two were Polish Americans who were raised as Roman Cath…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Ted Kaczynski (1942\u20132023), nicknamed the \"Unabomber\", was an American domestic t\u2026",
+          "title": "Ted Kaczynski (1942–2023), nicknamed the \"Unabomber\", was an American domestic t…",
           "url": "https://www.reddit.com/r/AllThatsHistory/comments/1vzr02q/ted_kaczynski_19422023_nicknamed_the_unabomber/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "Arrested for saying F the Mayor ONE YEAR LATER! Corpus Christi\nOn September 23rd, 2025 I spoke at the Corpus Christi council meeting because they had started to arrest people for protected free speech during public comment. I was kicked out of that meeting unlawfully. 2 weeks later, the Corpus Christi PD started a criminal investigation against me for disrupting a meeting. In December they roped the Nueces County DA into the investigation. Then nothing happened for 7 months. In July, the Corpus \u2026",
+      "text": "Arrested for saying F the Mayor ONE YEAR LATER! Corpus Christi\nOn September 23rd, 2025 I spoke at the Corpus Christi council meeting because they had started to arrest people for protected free speech during public comment. I was kicked out of that meeting unlawfully. 2 weeks later, the Corpus Christi PD started a criminal investigation against me for disrupting a meeting. In December they roped the Nueces County DA into the investigation. Then nothing happened for 7 months. In July, the Corpus …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Arrested for saying F the Mayor ONE YEAR LATER! Corpus Christi\nOn September 23rd\u2026",
+          "title": "Arrested for saying F the Mayor ONE YEAR LATER! Corpus Christi\nOn September 23rd…",
           "url": "https://www.reddit.com/r/PublicFreakout/comments/1vz0g2p/arrested_for_saying_f_the_mayor_one_year_later/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "34 years as a libertarian and I no longer believe the core premise.\nMany of the people in this sub know me...and some of you may be wondering why I&#39;ve been quiet here the past year or two. I was very active in this sub after the MC takeover of the other libertarian sub. I was a libertarian for thirty-four years. From &#39;90 to 2024, split the first Presidential ticket and never looked back after. I read all the libertarian thinkers from Hayek to Friedman to Mises. I argued from a libertaria\u2026",
+      "text": "34 years as a libertarian and I no longer believe the core premise.\nMany of the people in this sub know me...and some of you may be wondering why I&#39;ve been quiet here the past year or two. I was very active in this sub after the MC takeover of the other libertarian sub. I was a libertarian for thirty-four years. From &#39;90 to 2024, split the first Presidential ticket and never looked back after. I read all the libertarian thinkers from Hayek to Friedman to Mises. I argued from a libertaria…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "34 years as a libertarian and I no longer believe the core premise.\nMany of the \u2026",
+          "title": "34 years as a libertarian and I no longer believe the core premise.\nMany of the …",
           "url": "https://www.reddit.com/r/LibertarianUncensored/comments/1vpccc7/34_years_as_a_libertarian_and_i_no_longer_believe/",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -674,13 +624,13 @@
     },
     {
       "id": "l532",
-      "text": "Powered by franchises like 'Spider-Man' and 'Avengers', originals like 'Obsession', and old-school epics like 'The Odyssey', 2026 is firmly set to become the highest grossing year since the pandemic. But comparatively lower theater attendance still remains a challenge\nThe U.S. box office saw its biggest opening weekend in history thanks \u200bto the one-two punch of &quot;Spider-Man: Brand New Day&quot; and &quot;The Odyssey.&quot; But the industry&#39;s rebound is increasingly being powered by highe\u2026",
+      "text": "Powered by franchises like 'Spider-Man' and 'Avengers', originals like 'Obsession', and old-school epics like 'The Odyssey', 2026 is firmly set to become the highest grossing year since the pandemic. But comparatively lower theater attendance still remains a challenge\nThe U.S. box office saw its biggest opening weekend in history thanks ​to the one-two punch of &quot;Spider-Man: Brand New Day&quot; and &quot;The Odyssey.&quot; But the industry&#39;s rebound is increasingly being powered by highe…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Powered by franchises like 'Spider-Man' and 'Avengers', originals like 'Obsessio\u2026",
+          "title": "Powered by franchises like 'Spider-Man' and 'Avengers', originals like 'Obsessio…",
           "url": "https://www.reddit.com/r/movies/comments/1vjqory/powered_by_franchises_like_spiderman_and_avengers/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -695,13 +645,13 @@
     },
     {
       "id": "l533",
-      "text": "spiderman has brought the worst people ever to the theater\nEvery day it\u2019s packed. Sure, fine, cool. People are literally trying to shove past me just to get to the ticket taker. Had someone try to get through the door I OPENED outside the theater before me. Has some dude today try to creep in front of me in the packed concession line as soon as we were getting close to the front as if we weren\u2019t going to be called up at practically the same time. And then I overheard him being a total fucking as\u2026",
+      "text": "spiderman has brought the worst people ever to the theater\nEvery day it’s packed. Sure, fine, cool. People are literally trying to shove past me just to get to the ticket taker. Had someone try to get through the door I OPENED outside the theater before me. Has some dude today try to creep in front of me in the packed concession line as soon as we were getting close to the front as if we weren’t going to be called up at practically the same time. And then I overheard him being a total fucking as…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "spiderman has brought the worst people ever to the theater\nEvery day it\u2019s packed\u2026",
+          "title": "spiderman has brought the worst people ever to the theater\nEvery day it’s packed…",
           "url": "https://www.reddit.com/r/RegalUnlimited/comments/1ve5xry/spiderman_has_brought_the_worst_people_ever_to/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "VIP experience\nWanted to share the breakdown for VIP for those of y\u2019all attending: First all all, there really is no check in at 6pm, all you need is your AXS QR codes, they don\u2019t check IDs or anything. The only true thing on the itinerary is doors at 6:30pm so definitely make sure you are there at that time. VIP line formed on the side of the box office so make sure you get in the correct line. I got there around 5:40 and they started organizing the line and checking tickets as it got closer to\u2026",
+      "text": "VIP experience\nWanted to share the breakdown for VIP for those of y’all attending: First all all, there really is no check in at 6pm, all you need is your AXS QR codes, they don’t check IDs or anything. The only true thing on the itinerary is doors at 6:30pm so definitely make sure you are there at that time. VIP line formed on the side of the box office so make sure you get in the correct line. I got there around 5:40 and they started organizing the line and checking tickets as it got closer to…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "VIP experience\nWanted to share the breakdown for VIP for those of y\u2019all attendin\u2026",
+          "title": "VIP experience\nWanted to share the breakdown for VIP for those of y’all attendin…",
           "url": "https://www.reddit.com/r/1800slayyyter/comments/1vx5xsy/vip_experience/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "Outfit Fixes 28\nHowdy y&#39;all! It&#39;s been a long while! I hope that you all enjoy this next installment! Again, for those who have not read through my posts before, I follow the wise words of don&#39;t like, don&#39;t read; if you have nothing positive to say, don&#39;t become like a sugar and tear me down. Constructive criticism is all well and good, but being malicious, tearing into me for no reason, or saying that no one cares just gets you an easy block. I do this for free, for fun, and\u2026",
+      "text": "Outfit Fixes 28\nHowdy y&#39;all! It&#39;s been a long while! I hope that you all enjoy this next installment! Again, for those who have not read through my posts before, I follow the wise words of don&#39;t like, don&#39;t read; if you have nothing positive to say, don&#39;t become like a sugar and tear me down. Constructive criticism is all well and good, but being malicious, tearing into me for no reason, or saying that no one cares just gets you an easy block. I do this for free, for fun, and…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Outfit Fixes 28\nHowdy y&#39;all! It&#39;s been a long while! I hope that you all\u2026",
+          "title": "Outfit Fixes 28\nHowdy y&#39;all! It&#39;s been a long while! I hope that you all…",
           "url": "https://www.reddit.com/r/SaintMeghanMarkle/comments/1vscf7p/outfit_fixes_28/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -758,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "AITAH for letting my fiancee and his son move in rather than moving to them so his mom can co-parent?\nThis is a repost sub. I\u2019m not the Original OP (OOP) OOP: u/Far-Championship202 Published on: r/AITAH &amp; u/Far-Championship202 Previous BORU: BORU-1 by u/Glum_Craft_4652 on December 16, 2025 Thanks to u/kateluvsthe80s for new update Story is: CONCLUDED Story timeline Main Post : October 07, 2025 Update 1 : October 10, 2025 Update 2 : December 13, 2025 Final Update : August 16, 2026 --&gt; NEW \u2026",
+      "text": "AITAH for letting my fiancee and his son move in rather than moving to them so his mom can co-parent?\nThis is a repost sub. I’m not the Original OP (OOP) OOP: u/Far-Championship202 Published on: r/AITAH &amp; u/Far-Championship202 Previous BORU: BORU-1 by u/Glum_Craft_4652 on December 16, 2025 Thanks to u/kateluvsthe80s for new update Story is: CONCLUDED Story timeline Main Post : October 07, 2025 Update 1 : October 10, 2025 Update 2 : December 13, 2025 Final Update : August 16, 2026 --&gt; NEW …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AITAH for letting my fiancee and his son move in rather than moving to them so h\u2026",
+          "title": "AITAH for letting my fiancee and his son move in rather than moving to them so h…",
           "url": "https://www.reddit.com/r/BORUpdates/comments/1vpxezg/aitah_for_letting_my_fiancee_and_his_son_move_in/",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "I thought Meghan went to the Lotusland fundraiser where Martha was, but I think I was wrong, and Meghan MOST LIKELY was near Martha Stewart at a dinner that Serena Williams put on with her husband,Alex Ohanian\u2026\nThere\u2019s no flair for #Slauthing or #investigations yet, otherwise I\u2019d put that as a flair. [NOTE: I started this thread thinking that Meghan &amp; Martha attended the Lotusland fundraiser, but there are no photos of Meghan attending this, please read this thread with that in mind. It coul\u2026",
+      "text": "I thought Meghan went to the Lotusland fundraiser where Martha was, but I think I was wrong, and Meghan MOST LIKELY was near Martha Stewart at a dinner that Serena Williams put on with her husband,Alex Ohanian…\nThere’s no flair for #Slauthing or #investigations yet, otherwise I’d put that as a flair. [NOTE: I started this thread thinking that Meghan &amp; Martha attended the Lotusland fundraiser, but there are no photos of Meghan attending this, please read this thread with that in mind. It coul…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I thought Meghan went to the Lotusland fundraiser where Martha was, but I think \u2026",
+          "title": "I thought Meghan went to the Lotusland fundraiser where Martha was, but I think …",
           "url": "https://www.reddit.com/r/SaintMeghanMarkle/comments/1vpmh6d/i_thought_meghan_went_to_the_lotusland_fundraiser/",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "BTS would never attend a concert held by Seungri, Taeil, Choi Jong-hoon or Jung Joon-young\nTL;DR - BTS are upholding a double standard with western abusers vs Korean ones bc they only care about reputation, not ethics + they primarily care about their reputation in East Asia bc fans there WILL boycott them + Bad Bunny is instructive on winning the biggest award at the Grammys for an album that\u2019s entirely in Spanish, culturally specific to Puerto Rico, political and hence authentic, plus on uphol\u2026",
+      "text": "BTS would never attend a concert held by Seungri, Taeil, Choi Jong-hoon or Jung Joon-young\nTL;DR - BTS are upholding a double standard with western abusers vs Korean ones bc they only care about reputation, not ethics + they primarily care about their reputation in East Asia bc fans there WILL boycott them + Bad Bunny is instructive on winning the biggest award at the Grammys for an album that’s entirely in Spanish, culturally specific to Puerto Rico, political and hence authentic, plus on uphol…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "BTS would never attend a concert held by Seungri, Taeil, Choi Jong-hoon or Jung \u2026",
+          "title": "BTS would never attend a concert held by Seungri, Taeil, Choi Jong-hoon or Jung …",
           "url": "https://www.reddit.com/r/ARMYNeutral/comments/1vqagw0/bts_would_never_attend_a_concert_held_by_seungri/",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -827,7 +777,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I was sad to find out earlier today that Kevin Smith, one of the ticket takers a\u2026",
+          "title": "I was sad to find out earlier today that Kevin Smith, one of the ticket takers a…",
           "url": "https://x.com/LifeIsAFilmFest/status/2092466461230940247",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "At this point, I\u2019ll take a minor Ridley Scott film than none at all. I was actually enjoying the slow-burn drama set to the Americana score. The sudden bursts into action and retro sci-fi didn\u2019t work for me. I liked the casting and the look of the film, but overall, it was disappointing.",
+      "text": "At this point, I’ll take a minor Ridley Scott film than none at all. I was actually enjoying the slow-burn drama set to the Americana score. The sudden bursts into action and retro sci-fi didn’t work for me. I liked the casting and the look of the film, but overall, it was disappointing.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "At this point, I\u2019ll take a minor Ridley Scott film than none at all. I was actua\u2026",
+          "title": "At this point, I’ll take a minor Ridley Scott film than none at all. I was actua…",
           "url": "https://x.com/LifeIsAFilmFest/status/2093470305322749955",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -863,13 +813,13 @@
     },
     {
       "id": "l541",
-      "text": "Second film of the day at the theater was much better. FINDING EMILY is a near perfect romantic comedy, with an emphasis on comedy. It does not rewrite the book, but it has fleshed out main and supporting characters and manages to be consistently engaging and funny. The catchy soundtrack opens with Blue Monday and features Ramalama (Bang Bang), Let\u2019s Have a Kiki, and Call Me Maybe. We all know where it\u2019s going, but the ride is full of laughs.",
+      "text": "Second film of the day at the theater was much better. FINDING EMILY is a near perfect romantic comedy, with an emphasis on comedy. It does not rewrite the book, but it has fleshed out main and supporting characters and manages to be consistently engaging and funny. The catchy soundtrack opens with Blue Monday and features Ramalama (Bang Bang), Let’s Have a Kiki, and Call Me Maybe. We all know where it’s going, but the ride is full of laughs.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Second film of the day at the theater was much better. FINDING EMILY is a near p\u2026",
+          "title": "Second film of the day at the theater was much better. FINDING EMILY is a near p…",
           "url": "https://x.com/LifeIsAFilmFest/status/2093525225757446459",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -884,13 +834,13 @@
     },
     {
       "id": "l542",
-      "text": "Six months ago, Anthropic shipped Claude Cowork (Jan 12). Notably, it wasn\u2019t a new model. It was an agent for knowledge work.\n\nThen, on January 30th, Ant shipped 11 Cowork plugins (sales, legal, finance, support, etc) and Skills as markdown files.\n\nFour days later the S&P software index dropped 4%, wiping out over $285B in a day (ruh oh\u2026 that\u2019s a lot of \u201cchurn\u201d). By the end of that week, over $1T (yes, trillion) of software market cap evaporated. Jeffrey Favuzza said there was a \u201cget me out\u201d sty",
+      "text": "Six months ago, Anthropic shipped Claude Cowork (Jan 12). Notably, it wasn’t a new model. It was an agent for knowledge work.\n\nThen, on January 30th, Ant shipped 11 Cowork plugins (sales, legal, finance, support, etc) and Skills as markdown files.\n\nFour days later the S&P software index dropped 4%, wiping out over $285B in a day (ruh oh… that’s a lot of “churn”). By the end of that week, over $1T (yes, trillion) of software market cap evaporated. Jeffrey Favuzza said there was a “get me out” sty",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Six months ago, Anthropic shipped Claude Cowork (Jan 12). Notably, it wasn\u2019t a n\u2026",
+          "title": "Six months ago, Anthropic shipped Claude Cowork (Jan 12). Notably, it wasn’t a n…",
           "url": "https://x.com/brendanjshort/status/2093513116399042743",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -911,7 +861,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "idk what it 'started with', \n\nbut it surely ended with a pop... \n\nthe SaaSpocaly\u2026",
+          "title": "idk what it 'started with', \n\nbut it surely ended with a pop... \n\nthe SaaSpocaly…",
           "url": "https://x.com/brendanjshort/status/2093309098020184393",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -932,7 +882,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Black tent done + a peak at ticket takers (his floor isn't textured yet)\n\nYes I \u2026",
+          "title": "Black tent done + a peak at ticket takers (his floor isn't textured yet)\n\nYes I …",
           "url": "https://x.com/theInvincibleII/status/2087108333610426815",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -953,7 +903,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The premiere episode of Taiwanese Mandopop drama series THE PRODUCER, starring Y\u2026",
+          "title": "The premiere episode of Taiwanese Mandopop drama series THE PRODUCER, starring Y…",
           "url": "https://x.com/LifeIsAFilmFest/status/2093481504332521916",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "\ud83c\udfc8 GAME DAY JOBS ARE HERE \u2014 AND WE NEED A CREW! \ud83c\udf9f\ufe0f\ud83d\ude4c\n\nWant to make some extra money, be part of the action, and work in a fun football atmosphere? Express Employment Professionals is hiring MULTIPLE Ticket Takers/Ushers for an upcoming game in St.... https://t.co/3w3pi5EW7I\n\ud83d\udccd https://t.co/nR7WabTzLL",
+      "text": "🏈 GAME DAY JOBS ARE HERE — AND WE NEED A CREW! 🎟️🙌\n\nWant to make some extra money, be part of the action, and work in a fun football atmosphere? Express Employment Professionals is hiring MULTIPLE Ticket Takers/Ushers for an upcoming game in St.... https://t.co/3w3pi5EW7I\n📍 https://t.co/nR7WabTzLL",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83c\udfc8 GAME DAY JOBS ARE HERE \u2014 AND WE NEED A CREW! \ud83c\udf9f\ufe0f\ud83d\ude4c\n\nWant to make some extra mone\u2026",
+          "title": "🏈 GAME DAY JOBS ARE HERE — AND WE NEED A CREW! 🎟️🙌\n\nWant to make some extra mone…",
           "url": "https://x.com/expressStjoe/status/2092635067939999923",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -995,7 +945,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Friday wish list from the Boys in Boone:\n1. Heelan loses\n2. Fans get hollered at\u2026",
+          "title": "Friday wish list from the Boys in Boone:\n1. Heelan loses\n2. Fans get hollered at…",
           "url": "https://x.com/BoysInBoone/status/2093020581172052093",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1016,7 +966,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Like I told you, the people that give Hunter Biden a platform for his redemption\u2026",
+          "title": "Like I told you, the people that give Hunter Biden a platform for his redemption…",
           "url": "https://x.com/BigJonnyQuest/status/2091376340154917312",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1052,13 +1002,13 @@
     },
     {
       "id": "l550",
-      "text": "25 discounted tickets have officially been claimed! \ud83c\udf39\u2728\n\nThank you so much for trusting us, Black Roses!  Details regarding the claiming process have already been sent to all ticket takers.\n\nSee you at Rosetopia! \n\n#TheRose #\ub354\ub85c\uc988 #ROSETOPIA\n #ROSETOPIAInManila https://t.co/bAfhl6NuwG",
+      "text": "25 discounted tickets have officially been claimed! 🌹✨\n\nThank you so much for trusting us, Black Roses!  Details regarding the claiming process have already been sent to all ticket takers.\n\nSee you at Rosetopia! \n\n#TheRose #더로즈 #ROSETOPIA\n #ROSETOPIAInManila https://t.co/bAfhl6NuwG",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "25 discounted tickets have officially been claimed! \ud83c\udf39\u2728\n\nThank you so much for tr\u2026",
+          "title": "25 discounted tickets have officially been claimed! 🌹✨\n\nThank you so much for tr…",
           "url": "https://x.com/project4therose/status/2088476898594856984",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1073,13 +1023,13 @@
     },
     {
       "id": "l551",
-      "text": "sad, will also add \u2014 the ticket takers at NYC theatres are some of the brightest, most energetic people i\u2019ve encountered, not sure what\u2019s in the water here for them, but some really magnetic smiles and happy people, we should all be so lucky",
+      "text": "sad, will also add — the ticket takers at NYC theatres are some of the brightest, most energetic people i’ve encountered, not sure what’s in the water here for them, but some really magnetic smiles and happy people, we should all be so lucky",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "sad, will also add \u2014 the ticket takers at NYC theatres are some of the brightest\u2026",
+          "title": "sad, will also add — the ticket takers at NYC theatres are some of the brightest…",
           "url": "https://x.com/night__gallery/status/2092626208324198682",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1094,13 +1044,13 @@
     },
     {
       "id": "l552",
-      "text": "Seeing fem ticket takers makes the raging gay in me awaken \ud83e\udeea\ud83d\udde3\n#thefreakcircus",
+      "text": "Seeing fem ticket takers makes the raging gay in me awaken 🫪🗣\n#thefreakcircus",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Seeing fem ticket takers makes the raging gay in me awaken \ud83e\udeea\ud83d\udde3\n#thefreakcircus",
+          "title": "Seeing fem ticket takers makes the raging gay in me awaken 🫪🗣\n#thefreakcircus",
           "url": "https://x.com/S00shi3/status/2091756226103459857",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1115,13 +1065,13 @@
     },
     {
       "id": "l553",
-      "text": "I\u2019ve become pals w a few different cashiers/waiters/etc in my life, it\u2019s always fun. I\u2019m on a first name basis with like 3 of the ticket takers at the AMC by my house, it\u2019s awesome!",
+      "text": "I’ve become pals w a few different cashiers/waiters/etc in my life, it’s always fun. I’m on a first name basis with like 3 of the ticket takers at the AMC by my house, it’s awesome!",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I\u2019ve become pals w a few different cashiers/waiters/etc in my life, it\u2019s always \u2026",
+          "title": "I’ve become pals w a few different cashiers/waiters/etc in my life, it’s always …",
           "url": "https://x.com/zmullis/status/2092235853045092856",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1136,13 +1086,13 @@
     },
     {
       "id": "l554",
-      "text": "I LOVE MIDDLE AGED MEN YOUNGER DUDES DONT DO IT RIGHT \ud83d\udde3\ufe0f\ud83d\udde3\ufe0f\ud83d\udde3\ufe0f\ud83d\udde3\ufe0f\ud83d\udde3\ufe0f\ud83d\udde3\ufe0f\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83c\udfd4\ufe0f\ud83c\udfd4\ufe0f\ud83c\udfd4\ufe0f\ud83c\udfd4\ufe0f\ud83c\udfd4\ufe0f\ud83c\udfd4\ufe0f\ud83c\udfd4\ufe0f I NEED CENTURIES OLD MONSTER MAN COCK!!!!11!1!11!2 OLD COCK IS THE BEST. OCK!!! I LOVE FORTY YEAR OLD TICKET TAKERS I LOVE TICKET TAKER TICKET TAKER TICKET TTKTNSA",
+      "text": "I LOVE MIDDLE AGED MEN YOUNGER DUDES DONT DO IT RIGHT 🗣️🗣️🗣️🗣️🗣️🗣️🔊🔊🔊🔊🔊🔊🔊🔊🔊🔊🔊🔊🔊🔊🔊🔊🏔️🏔️🏔️🏔️🏔️🏔️🏔️ I NEED CENTURIES OLD MONSTER MAN COCK!!!!11!1!11!2 OLD COCK IS THE BEST. OCK!!! I LOVE FORTY YEAR OLD TICKET TAKERS I LOVE TICKET TAKER TICKET TAKER TICKET TTKTNSA",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I LOVE MIDDLE AGED MEN YOUNGER DUDES DONT DO IT RIGHT \ud83d\udde3\ufe0f\ud83d\udde3\ufe0f\ud83d\udde3\ufe0f\ud83d\udde3\ufe0f\ud83d\udde3\ufe0f\ud83d\udde3\ufe0f\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\ud83d\udd0a\u2026",
+          "title": "I LOVE MIDDLE AGED MEN YOUNGER DUDES DONT DO IT RIGHT 🗣️🗣️🗣️🗣️🗣️🗣️🔊🔊🔊🔊🔊🔊🔊🔊🔊🔊🔊🔊🔊🔊…",
           "url": "https://x.com/hexserath/status/2081645899738927568",
           "date": "2026-07-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1163,7 +1113,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@SecretaryBurgum @NatlParkService Has to be free because we can't afford to pay \u2026",
+          "title": "@SecretaryBurgum @NatlParkService Has to be free because we can't afford to pay …",
           "url": "https://x.com/bubbaszone/status/2092285677685878799",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1178,13 +1128,13 @@
     },
     {
       "id": "l556",
-      "text": "Please make sure your tickets are live and not screenshot. \u00a0Real GoFan tickets are live and interactive with our ticket takers. https://t.co/dQ6FD2D7Cv",
+      "text": "Please make sure your tickets are live and not screenshot.  Real GoFan tickets are live and interactive with our ticket takers. https://t.co/dQ6FD2D7Cv",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Please make sure your tickets are live and not screenshot. \u00a0Real GoFan tickets a\u2026",
+          "title": "Please make sure your tickets are live and not screenshot.  Real GoFan tickets a…",
           "url": "https://x.com/rockerlee229/status/2093433425080316005",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1220,13 +1170,13 @@
     },
     {
       "id": "l558",
-      "text": "Nobody\u2019s perfect, but Some Like It Hot is!",
+      "text": "Nobody’s perfect, but Some Like It Hot is!",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Nobody\u2019s perfect, but Some Like It Hot is!",
+          "title": "Nobody’s perfect, but Some Like It Hot is!",
           "url": "https://x.com/LifeIsAFilmFest/status/2093408883058290776",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1247,7 +1197,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@brendanjshort The buyer stays human, even when an agent becomes the operator. T\u2026",
+          "title": "@brendanjshort The buyer stays human, even when an agent becomes the operator. T…",
           "url": "https://x.com/olegzanx/status/2093530920049320373",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1310,7 +1260,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I'm rewatching the second bayverse movie w/ my wife rn &amp; this is deadass how\u2026",
+          "title": "I'm rewatching the second bayverse movie w/ my wife rn &amp; this is deadass how…",
           "url": "https://x.com/theInvincibleII/status/2093285149232533957",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1331,7 +1281,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Cried so hard I have a headache &amp; got that full body heat/fake fever feeling\u2026",
+          "title": "Cried so hard I have a headache &amp; got that full body heat/fake fever feeling…",
           "url": "https://x.com/theInvincibleII/status/2093137469499945116",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1352,7 +1302,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@brendanjshort The SaaS companies that survive may look less like apps and more \u2026",
+          "title": "@brendanjshort The SaaS companies that survive may look less like apps and more …",
           "url": "https://x.com/DanielNguyenHQ/status/2093553339644710947",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1373,7 +1323,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "\"Who would you be without me prime?\" But now I can't stop thinking about it in r\u2026",
+          "title": "\"Who would you be without me prime?\" But now I can't stop thinking about it in r…",
           "url": "https://x.com/theInvincibleII/status/2093087177286861239",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1394,7 +1344,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@philipwmoore first time i've enjoyed his work with Salesforce. sounded like he \u2026",
+          "title": "@philipwmoore first time i've enjoyed his work with Salesforce. sounded like he …",
           "url": "https://x.com/brendanjshort/status/2093110369308790911",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1409,13 +1359,13 @@
     },
     {
       "id": "l567",
-      "text": "I love free will bc I blocked a moot yesterday for being genuinely really rude to someone for no reason &amp; then insulting them &amp; calling them names for rightfully blocking them \ud83d\ude2d like bro YOU were in the wrong",
+      "text": "I love free will bc I blocked a moot yesterday for being genuinely really rude to someone for no reason &amp; then insulting them &amp; calling them names for rightfully blocking them 😭 like bro YOU were in the wrong",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I love free will bc I blocked a moot yesterday for being genuinely really rude t\u2026",
+          "title": "I love free will bc I blocked a moot yesterday for being genuinely really rude t…",
           "url": "https://x.com/theInvincibleII/status/2093493415745073326",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1472,13 +1422,13 @@
     },
     {
       "id": "l570",
-      "text": "@theInvincibleII \u201cThe second Bayverse movie\u201d my love I\u2019m gonna hold your hand when I say this, you barely made it through the Cube speech in the FIRST movie \ud83d\ude2d",
+      "text": "@theInvincibleII “The second Bayverse movie” my love I’m gonna hold your hand when I say this, you barely made it through the Cube speech in the FIRST movie 😭",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@theInvincibleII \u201cThe second Bayverse movie\u201d my love I\u2019m gonna hold your hand wh\u2026",
+          "title": "@theInvincibleII “The second Bayverse movie” my love I’m gonna hold your hand wh…",
           "url": "https://x.com/MyMarkusplier/status/2093493248421757201",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1514,13 +1464,13 @@
     },
     {
       "id": "l572",
-      "text": "@theInvincibleII I\u2019m deadass SO sorry I got home and fucking melted into my bed and FORGOT head in hands they call me the worst wife EVER https://t.co/Opfn72APF2",
+      "text": "@theInvincibleII I’m deadass SO sorry I got home and fucking melted into my bed and FORGOT head in hands they call me the worst wife EVER https://t.co/Opfn72APF2",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@theInvincibleII I\u2019m deadass SO sorry I got home and fucking melted into my bed \u2026",
+          "title": "@theInvincibleII I’m deadass SO sorry I got home and fucking melted into my bed …",
           "url": "https://x.com/MyMarkusplier/status/2093228671800918126",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1583,7 +1533,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@brendanjshort skills as plain markdown is why this stuck for me. I run my organ\u2026",
+          "title": "@brendanjshort skills as plain markdown is why this stuck for me. I run my organ…",
           "url": "https://x.com/Dinesh78039466/status/2093521174311698580",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1598,13 +1548,13 @@
     },
     {
       "id": "l576",
-      "text": "@LifeIsAFilmFest I love this film!! I really enjoyed it. I want her to get that visa\ud83d\ude04",
+      "text": "@LifeIsAFilmFest I love this film!! I really enjoyed it. I want her to get that visa😄",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@LifeIsAFilmFest I love this film!! I really enjoyed it. I want her to get that \u2026",
+          "title": "@LifeIsAFilmFest I love this film!! I really enjoyed it. I want her to get that …",
           "url": "https://x.com/wimsadmojo/status/2093538033111113995",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1625,7 +1575,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@LifeIsAFilmFest I wish the bursts into action and such weren't added. The low k\u2026",
+          "title": "@LifeIsAFilmFest I wish the bursts into action and such weren't added. The low k…",
           "url": "https://x.com/unseenfilms/status/2093509468843573279",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1646,7 +1596,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@LifeIsAFilmFest his minor movie still took a big budget. \nfor that budget, it w\u2026",
+          "title": "@LifeIsAFilmFest his minor movie still took a big budget. \nfor that budget, it w…",
           "url": "https://x.com/Ganbatte0123/status/2093504089057587485",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1751,7 +1701,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@MyMarkusplier DOG YOU'RE GOOD YOU DESERVE REST TOO I wasn't even able to get up\u2026",
+          "title": "@MyMarkusplier DOG YOU'RE GOOD YOU DESERVE REST TOO I wasn't even able to get up…",
           "url": "https://x.com/theInvincibleII/status/2093265204939571525",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1766,13 +1716,13 @@
     },
     {
       "id": "l584",
-      "text": "@brendanjshort Totally. This one felt way more like him than the others I\u2019ve seen.",
+      "text": "@brendanjshort Totally. This one felt way more like him than the others I’ve seen.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@brendanjshort Totally. This one felt way more like him than the others I\u2019ve see\u2026",
+          "title": "@brendanjshort Totally. This one felt way more like him than the others I’ve see…",
           "url": "https://x.com/philipwmoore/status/2093129245513953756",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1808,13 +1758,13 @@
     },
     {
       "id": "l586",
-      "text": "@jasonlk or maybe clay *was* actually the best for the job? \ud83e\udd14",
+      "text": "@jasonlk or maybe clay *was* actually the best for the job? 🤔",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@jasonlk or maybe clay *was* actually the best for the job? \ud83e\udd14",
+          "title": "@jasonlk or maybe clay *was* actually the best for the job? 🤔",
           "url": "https://x.com/brendanjshort/status/2093516264190652891",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1835,7 +1785,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@LifeIsAFilmFest The book is already great, it's not a hard adaptation if you're\u2026",
+          "title": "@LifeIsAFilmFest The book is already great, it's not a hard adaptation if you're…",
           "url": "https://x.com/Titan_Blacklist/status/2093509808003624997",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1892,7 +1842,7 @@
     },
     {
       "id": "l490",
-      "text": "Team Member - Liverpool South \u2014 GOALS (Liverpool, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Team Member - Liverpool South — GOALS (Liverpool, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1913,7 +1863,7 @@
     },
     {
       "id": "l491",
-      "text": "Gaming and Bar Attendants Come join us!! \u2014 Moama Bowling Club (Moama, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Gaming and Bar Attendants Come join us!! — Moama Bowling Club (Moama, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1934,7 +1884,7 @@
     },
     {
       "id": "l492",
-      "text": "Senior Head Host | Wishbone Restaurant \u2014 Lucas Collective (Melbourne, Victoria, Australia). Posted 5 days ago.",
+      "text": "Senior Head Host | Wishbone Restaurant — Lucas Collective (Melbourne, Victoria, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1955,7 +1905,7 @@
     },
     {
       "id": "l493",
-      "text": "FOH Crew (Waitstaff, Hosts, Bartenders, Sommeliers) | Lucas Collective \u2014 Lucas Collective (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "FOH Crew (Waitstaff, Hosts, Bartenders, Sommeliers) | Lucas Collective — Lucas Collective (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1976,7 +1926,7 @@
     },
     {
       "id": "l494",
-      "text": "Express your interest in future positions as they become available We'd love to hear from hospitality professionals who'd like to join our team in the future \u2014 Moama Bowling Club (Moama, New South Wales, Australia). Posted 2 days ago.",
+      "text": "Express your interest in future positions as they become available We'd love to hear from hospitality professionals who'd like to join our team in the future — Moama Bowling Club (Moama, New South Wales, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1997,7 +1947,7 @@
     },
     {
       "id": "l495",
-      "text": "Boardroom Waiter \u2014 Allens (Perth, Western Australia, Australia). Posted 13 hours ago.",
+      "text": "Boardroom Waiter — Allens (Perth, Western Australia, Australia). Posted 13 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2018,7 +1968,7 @@
     },
     {
       "id": "l496",
-      "text": "Expression Of Interest- Station Staff & Conductors- Shepparton \u2014 V/Line (Shepparton, Victoria, Australia). Posted 1 week ago.",
+      "text": "Expression Of Interest- Station Staff & Conductors- Shepparton — V/Line (Shepparton, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2039,7 +1989,7 @@
     },
     {
       "id": "l497",
-      "text": "Boardroom Waiter \u2014 Allens (Melbourne, Victoria, Australia). Posted 5 days ago.",
+      "text": "Boardroom Waiter — Allens (Melbourne, Victoria, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2060,7 +2010,7 @@
     },
     {
       "id": "l498",
-      "text": "Front Office All Rounder \u2014 ibis, ibis Styles, ibis budget (Mackay, Queensland, Australia). Posted 1 week ago.",
+      "text": "Front Office All Rounder — ibis, ibis Styles, ibis budget (Mackay, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2081,7 +2031,7 @@
     },
     {
       "id": "l499",
-      "text": "Trade Waitstaff | Opera Bar | Sydney \u2014 Applejack Hospitality (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Trade Waitstaff | Opera Bar | Sydney — Applejack Hospitality (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -2102,14 +2052,14 @@
     },
     {
       "id": "l5100",
-      "text": "[New Update]: AITAH for letting my fianc\u00e9 and his son move in rather than moving to them so his mom can co-parent?\nI am not OOP. OOP is u/Far-Championship202 Originally posted to r/AITAH and their own page Previous BoRUs: #1 [New Update]: AITAH for letting my fianc\u00e9 and his son move in rather than moving to them so his mom can co-parent? NEW UPDATE MARKED WITH ---- Editor\u2019s note: made small edits for ease of readability Trigger Warnings: emotional abuse and manipulation, harassment / stalking, m\u2026",
+      "text": "[New Update]: AITAH for letting my fiancé and his son move in rather than moving to them so his mom can co-parent?\nI am not OOP. OOP is u/Far-Championship202 Originally posted to r/AITAH and their own page Previous BoRUs: #1 [New Update]: AITAH for letting my fiancé and his son move in rather than moving to them so his mom can co-parent? NEW UPDATE MARKED WITH ---- Editor’s note: made small edits for ease of readability Trigger Warnings: emotional abuse and manipulation, harassment / stalking, m…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "[New Update]: AITAH for letting my fianc\u00e9 and his son move in rather than moving\u2026",
-          "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1vv1xr2/new_update_aitah_for_letting_my_fianc\u00e9_and_his/",
+          "title": "[New Update]: AITAH for letting my fiancé and his son move in rather than moving…",
+          "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1vv1xr2/new_update_aitah_for_letting_my_fiancé_and_his/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
         }
@@ -2123,13 +2073,13 @@
     },
     {
       "id": "l5101",
-      "text": "HARM REDUCTION: After long-term use, I barely keep memories of a night on MDMA. What do you do/use to ENJOY AND REMEMBER the night before?\nTLDR: What do you do/use that makes you ENJOY AND REMEMBER the night before? I&#39;m planning to attend, for the first time in my life, a couple of marathons (10-12 hr sets each) with 2 of my favourite DJs on separate dates (2 weeks apart) in the same month, but I&#39;ve started to notice that after long, intermittent use of MDMA or Ecstasy over 4 years (not \u2026",
+      "text": "HARM REDUCTION: After long-term use, I barely keep memories of a night on MDMA. What do you do/use to ENJOY AND REMEMBER the night before?\nTLDR: What do you do/use that makes you ENJOY AND REMEMBER the night before? I&#39;m planning to attend, for the first time in my life, a couple of marathons (10-12 hr sets each) with 2 of my favourite DJs on separate dates (2 weeks apart) in the same month, but I&#39;ve started to notice that after long, intermittent use of MDMA or Ecstasy over 4 years (not …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "HARM REDUCTION: After long-term use, I barely keep memories of a night on MDMA. \u2026",
+          "title": "HARM REDUCTION: After long-term use, I barely keep memories of a night on MDMA. …",
           "url": "https://www.reddit.com/r/Raves/comments/1vww6uy/harm_reduction_after_longterm_use_i_barely_keep/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2144,13 +2094,13 @@
     },
     {
       "id": "l5102",
-      "text": "Ted Kaczynski (1942\u20132023), nicknamed the \"Unabomber\", was an American domestic terrorist who killed 3 people and injured 23 by sending them bombs. In 1995, Kaczynski abandoned his terrorist campaign after his manifesto was published.\nhttps://en.wikipedia.org/wiki/Ted\\_Kaczynski Theodore John Kaczynski was born in Chicago on May 22, 1942, to working-class parents Wanda Theresa (n\u00e9e Dombek) and Theodore Richard Kaczynski, a sausage maker. The two were Polish Americans who were raised as Roman Cath\u2026",
+      "text": "Ted Kaczynski (1942–2023), nicknamed the \"Unabomber\", was an American domestic terrorist who killed 3 people and injured 23 by sending them bombs. In 1995, Kaczynski abandoned his terrorist campaign after his manifesto was published.\nhttps://en.wikipedia.org/wiki/Ted\\_Kaczynski Theodore John Kaczynski was born in Chicago on May 22, 1942, to working-class parents Wanda Theresa (née Dombek) and Theodore Richard Kaczynski, a sausage maker. The two were Polish Americans who were raised as Roman Cath…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Ted Kaczynski (1942\u20132023), nicknamed the \"Unabomber\", was an American domestic t\u2026",
+          "title": "Ted Kaczynski (1942–2023), nicknamed the \"Unabomber\", was an American domestic t…",
           "url": "https://www.reddit.com/r/AllThatsHistory/comments/1vzr02q/ted_kaczynski_19422023_nicknamed_the_unabomber/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2165,13 +2115,13 @@
     },
     {
       "id": "l5103",
-      "text": "Arrested for saying F the Mayor ONE YEAR LATER! Corpus Christi\nOn September 23rd, 2025 I spoke at the Corpus Christi council meeting because they had started to arrest people for protected free speech during public comment. I was kicked out of that meeting unlawfully. 2 weeks later, the Corpus Christi PD started a criminal investigation against me for disrupting a meeting. In December they roped the Nueces County DA into the investigation. Then nothing happened for 7 months. In July, the Corpus \u2026",
+      "text": "Arrested for saying F the Mayor ONE YEAR LATER! Corpus Christi\nOn September 23rd, 2025 I spoke at the Corpus Christi council meeting because they had started to arrest people for protected free speech during public comment. I was kicked out of that meeting unlawfully. 2 weeks later, the Corpus Christi PD started a criminal investigation against me for disrupting a meeting. In December they roped the Nueces County DA into the investigation. Then nothing happened for 7 months. In July, the Corpus …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Arrested for saying F the Mayor ONE YEAR LATER! Corpus Christi\nOn September 23rd\u2026",
+          "title": "Arrested for saying F the Mayor ONE YEAR LATER! Corpus Christi\nOn September 23rd…",
           "url": "https://www.reddit.com/r/PublicFreakout/comments/1vz0g2p/arrested_for_saying_f_the_mayor_one_year_later/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2186,13 +2136,13 @@
     },
     {
       "id": "l5104",
-      "text": "34 years as a libertarian and I no longer believe the core premise.\nMany of the people in this sub know me...and some of you may be wondering why I&#39;ve been quiet here the past year or two. I was very active in this sub after the MC takeover of the other libertarian sub. I was a libertarian for thirty-four years. From &#39;90 to 2024, split the first Presidential ticket and never looked back after. I read all the libertarian thinkers from Hayek to Friedman to Mises. I argued from a libertaria\u2026",
+      "text": "34 years as a libertarian and I no longer believe the core premise.\nMany of the people in this sub know me...and some of you may be wondering why I&#39;ve been quiet here the past year or two. I was very active in this sub after the MC takeover of the other libertarian sub. I was a libertarian for thirty-four years. From &#39;90 to 2024, split the first Presidential ticket and never looked back after. I read all the libertarian thinkers from Hayek to Friedman to Mises. I argued from a libertaria…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "34 years as a libertarian and I no longer believe the core premise.\nMany of the \u2026",
+          "title": "34 years as a libertarian and I no longer believe the core premise.\nMany of the …",
           "url": "https://www.reddit.com/r/LibertarianUncensored/comments/1vpccc7/34_years_as_a_libertarian_and_i_no_longer_believe/",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2207,13 +2157,13 @@
     },
     {
       "id": "l5105",
-      "text": "Powered by franchises like 'Spider-Man' and 'Avengers', originals like 'Obsession', and old-school epics like 'The Odyssey', 2026 is firmly set to become the highest grossing year since the pandemic. But comparatively lower theater attendance still remains a challenge\nThe U.S. box office saw its biggest opening weekend in history thanks \u200bto the one-two punch of &quot;Spider-Man: Brand New Day&quot; and &quot;The Odyssey.&quot; But the industry&#39;s rebound is increasingly being powered by highe\u2026",
+      "text": "Powered by franchises like 'Spider-Man' and 'Avengers', originals like 'Obsession', and old-school epics like 'The Odyssey', 2026 is firmly set to become the highest grossing year since the pandemic. But comparatively lower theater attendance still remains a challenge\nThe U.S. box office saw its biggest opening weekend in history thanks ​to the one-two punch of &quot;Spider-Man: Brand New Day&quot; and &quot;The Odyssey.&quot; But the industry&#39;s rebound is increasingly being powered by highe…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Powered by franchises like 'Spider-Man' and 'Avengers', originals like 'Obsessio\u2026",
+          "title": "Powered by franchises like 'Spider-Man' and 'Avengers', originals like 'Obsessio…",
           "url": "https://www.reddit.com/r/movies/comments/1vjqory/powered_by_franchises_like_spiderman_and_avengers/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2228,13 +2178,13 @@
     },
     {
       "id": "l5106",
-      "text": "spiderman has brought the worst people ever to the theater\nEvery day it\u2019s packed. Sure, fine, cool. People are literally trying to shove past me just to get to the ticket taker. Had someone try to get through the door I OPENED outside the theater before me. Has some dude today try to creep in front of me in the packed concession line as soon as we were getting close to the front as if we weren\u2019t going to be called up at practically the same time. And then I overheard him being a total fucking as\u2026",
+      "text": "spiderman has brought the worst people ever to the theater\nEvery day it’s packed. Sure, fine, cool. People are literally trying to shove past me just to get to the ticket taker. Had someone try to get through the door I OPENED outside the theater before me. Has some dude today try to creep in front of me in the packed concession line as soon as we were getting close to the front as if we weren’t going to be called up at practically the same time. And then I overheard him being a total fucking as…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "spiderman has brought the worst people ever to the theater\nEvery day it\u2019s packed\u2026",
+          "title": "spiderman has brought the worst people ever to the theater\nEvery day it’s packed…",
           "url": "https://www.reddit.com/r/RegalUnlimited/comments/1ve5xry/spiderman_has_brought_the_worst_people_ever_to/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2249,13 +2199,13 @@
     },
     {
       "id": "l5107",
-      "text": "VIP experience\nWanted to share the breakdown for VIP for those of y\u2019all attending: First all all, there really is no check in at 6pm, all you need is your AXS QR codes, they don\u2019t check IDs or anything. The only true thing on the itinerary is doors at 6:30pm so definitely make sure you are there at that time. VIP line formed on the side of the box office so make sure you get in the correct line. I got there around 5:40 and they started organizing the line and checking tickets as it got closer to\u2026",
+      "text": "VIP experience\nWanted to share the breakdown for VIP for those of y’all attending: First all all, there really is no check in at 6pm, all you need is your AXS QR codes, they don’t check IDs or anything. The only true thing on the itinerary is doors at 6:30pm so definitely make sure you are there at that time. VIP line formed on the side of the box office so make sure you get in the correct line. I got there around 5:40 and they started organizing the line and checking tickets as it got closer to…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "VIP experience\nWanted to share the breakdown for VIP for those of y\u2019all attendin\u2026",
+          "title": "VIP experience\nWanted to share the breakdown for VIP for those of y’all attendin…",
           "url": "https://www.reddit.com/r/1800slayyyter/comments/1vx5xsy/vip_experience/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2270,13 +2220,13 @@
     },
     {
       "id": "l5108",
-      "text": "Outfit Fixes 28\nHowdy y&#39;all! It&#39;s been a long while! I hope that you all enjoy this next installment! Again, for those who have not read through my posts before, I follow the wise words of don&#39;t like, don&#39;t read; if you have nothing positive to say, don&#39;t become like a sugar and tear me down. Constructive criticism is all well and good, but being malicious, tearing into me for no reason, or saying that no one cares just gets you an easy block. I do this for free, for fun, and\u2026",
+      "text": "Outfit Fixes 28\nHowdy y&#39;all! It&#39;s been a long while! I hope that you all enjoy this next installment! Again, for those who have not read through my posts before, I follow the wise words of don&#39;t like, don&#39;t read; if you have nothing positive to say, don&#39;t become like a sugar and tear me down. Constructive criticism is all well and good, but being malicious, tearing into me for no reason, or saying that no one cares just gets you an easy block. I do this for free, for fun, and…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Outfit Fixes 28\nHowdy y&#39;all! It&#39;s been a long while! I hope that you all\u2026",
+          "title": "Outfit Fixes 28\nHowdy y&#39;all! It&#39;s been a long while! I hope that you all…",
           "url": "https://www.reddit.com/r/SaintMeghanMarkle/comments/1vscf7p/outfit_fixes_28/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2291,13 +2241,13 @@
     },
     {
       "id": "l5109",
-      "text": "AITAH for letting my fiancee and his son move in rather than moving to them so his mom can co-parent?\nThis is a repost sub. I\u2019m not the Original OP (OOP) OOP: u/Far-Championship202 Published on: r/AITAH &amp; u/Far-Championship202 Previous BORU: BORU-1 by u/Glum_Craft_4652 on December 16, 2025 Thanks to u/kateluvsthe80s for new update Story is: CONCLUDED Story timeline Main Post : October 07, 2025 Update 1 : October 10, 2025 Update 2 : December 13, 2025 Final Update : August 16, 2026 --&gt; NEW \u2026",
+      "text": "AITAH for letting my fiancee and his son move in rather than moving to them so his mom can co-parent?\nThis is a repost sub. I’m not the Original OP (OOP) OOP: u/Far-Championship202 Published on: r/AITAH &amp; u/Far-Championship202 Previous BORU: BORU-1 by u/Glum_Craft_4652 on December 16, 2025 Thanks to u/kateluvsthe80s for new update Story is: CONCLUDED Story timeline Main Post : October 07, 2025 Update 1 : October 10, 2025 Update 2 : December 13, 2025 Final Update : August 16, 2026 --&gt; NEW …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AITAH for letting my fiancee and his son move in rather than moving to them so h\u2026",
+          "title": "AITAH for letting my fiancee and his son move in rather than moving to them so h…",
           "url": "https://www.reddit.com/r/BORUpdates/comments/1vpxezg/aitah_for_letting_my_fiancee_and_his_son_move_in/",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2312,13 +2262,13 @@
     },
     {
       "id": "l5110",
-      "text": "I thought Meghan went to the Lotusland fundraiser where Martha was, but I think I was wrong, and Meghan MOST LIKELY was near Martha Stewart at a dinner that Serena Williams put on with her husband,Alex Ohanian\u2026\nThere\u2019s no flair for #Slauthing or #investigations yet, otherwise I\u2019d put that as a flair. [NOTE: I started this thread thinking that Meghan &amp; Martha attended the Lotusland fundraiser, but there are no photos of Meghan attending this, please read this thread with that in mind. It coul\u2026",
+      "text": "I thought Meghan went to the Lotusland fundraiser where Martha was, but I think I was wrong, and Meghan MOST LIKELY was near Martha Stewart at a dinner that Serena Williams put on with her husband,Alex Ohanian…\nThere’s no flair for #Slauthing or #investigations yet, otherwise I’d put that as a flair. [NOTE: I started this thread thinking that Meghan &amp; Martha attended the Lotusland fundraiser, but there are no photos of Meghan attending this, please read this thread with that in mind. It coul…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I thought Meghan went to the Lotusland fundraiser where Martha was, but I think \u2026",
+          "title": "I thought Meghan went to the Lotusland fundraiser where Martha was, but I think …",
           "url": "https://www.reddit.com/r/SaintMeghanMarkle/comments/1vpmh6d/i_thought_meghan_went_to_the_lotusland_fundraiser/",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2333,13 +2283,13 @@
     },
     {
       "id": "l5111",
-      "text": "BTS would never attend a concert held by Seungri, Taeil, Choi Jong-hoon or Jung Joon-young\nTL;DR - BTS are upholding a double standard with western abusers vs Korean ones bc they only care about reputation, not ethics + they primarily care about their reputation in East Asia bc fans there WILL boycott them + Bad Bunny is instructive on winning the biggest award at the Grammys for an album that\u2019s entirely in Spanish, culturally specific to Puerto Rico, political and hence authentic, plus on uphol\u2026",
+      "text": "BTS would never attend a concert held by Seungri, Taeil, Choi Jong-hoon or Jung Joon-young\nTL;DR - BTS are upholding a double standard with western abusers vs Korean ones bc they only care about reputation, not ethics + they primarily care about their reputation in East Asia bc fans there WILL boycott them + Bad Bunny is instructive on winning the biggest award at the Grammys for an album that’s entirely in Spanish, culturally specific to Puerto Rico, political and hence authentic, plus on uphol…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "BTS would never attend a concert held by Seungri, Taeil, Choi Jong-hoon or Jung \u2026",
+          "title": "BTS would never attend a concert held by Seungri, Taeil, Choi Jong-hoon or Jung …",
           "url": "https://www.reddit.com/r/ARMYNeutral/comments/1vqagw0/bts_would_never_attend_a_concert_held_by_seungri/",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -2430,6 +2380,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

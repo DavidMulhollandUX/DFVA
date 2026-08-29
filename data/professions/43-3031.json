@@ -17,64 +17,14 @@
   ],
   "claims": [
     {
-      "id": "43-3031-01",
-      "text": "National peak professional bodies and statutory regulators governing Bookkeeping, Accounting, and Auditing Clerks enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Bookkeeping, Accounting, and Auditing Clerks",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Bookkeeping, Accounting, and Auditing Clerks",
-          "url": "https://www.psc.gov.au/standards/43-3031",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Bookkeeping, Accounting, and Auditing Clerks"
-        }
-      ],
-      "scope": "Australian practitioners in Bookkeeping, Accounting, and Auditing Clerks across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "43-3031-02",
-      "text": "Automation of routine transactional and analytical tasks in Bookkeeping, Accounting, and Auditing Clerks heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Bookkeeping, Accounting, and Auditing Clerks",
-          "url": "https://www.jobsandskills.gov.au/research/43-3031",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Bookkeeping, Accounting, and Auditing Clerks in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Bookkeeping, Accounting, and Auditing Clerks roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "feat: add Responses API provider support\n## Summary\n\n- adds a native `responses` provider protocol targeting `/responses`\n- preserves native request and response envelopes, background/failed tracking receipts, built-in tools, citations, reasoning, refusals, usage, continuation IDs, structured output, and exact pseudo-stream item events acr\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.c\u2026",
+      "text": "feat: add Responses API provider support\n## Summary\n\n- adds a native `responses` provider protocol targeting `/responses`\n- preserves native request and response envelopes, background/failed tracking receipts, built-in tools, citations, reasoning, refusals, usage, continuation IDs, structured output, and exact pseudo-stream item events acr\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: add Responses API provider support\n## Summary\n\n- adds a native `responses`\u2026",
+          "title": "feat: add Responses API provider support\n## Summary\n\n- adds a native `responses`…",
           "url": "https://github.com/RESMP-DEV/ccr-rust/pull/25",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -89,13 +39,13 @@
     },
     {
       "id": "l504",
-      "text": "feat(skills): unify keep-or-dismiss and severity into one five-way triage verdict\n## What\n\nReplaces the two-judgment review triage (assign severity, then keep-or-dismiss) with a single five-way verdict per finding, in the same wording across bmad-build-auto, bmad-build (incl. one-shot), and bmad-code-review \u2014 each keeping its own routes and bookkeeping.\n\nFor every finding the tri",
+      "text": "feat(skills): unify keep-or-dismiss and severity into one five-way triage verdict\n## What\n\nReplaces the two-judgment review triage (assign severity, then keep-or-dismiss) with a single five-way verdict per finding, in the same wording across bmad-build-auto, bmad-build (incl. one-shot), and bmad-code-review — each keeping its own routes and bookkeeping.\n\nFor every finding the tri",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(skills): unify keep-or-dismiss and severity into one five-way triage verdic\u2026",
+          "title": "feat(skills): unify keep-or-dismiss and severity into one five-way triage verdic…",
           "url": "https://github.com/bmad-code-org/BMAD-METHOD/pull/2758",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -110,13 +60,13 @@
     },
     {
       "id": "l505",
-      "text": "Enforce a single asset category per Strategy Lab design attempt\n## Summary\n\nSelecting only **Stocks** in the Strategy Lab form still produced Commodities/Forex/Crypto strategies, and the analysis of previously generated strategies quoted every category's results rather than the one selected. The user's selection reached the backend correctly \u2014 the UI and the who",
+      "text": "Enforce a single asset category per Strategy Lab design attempt\n## Summary\n\nSelecting only **Stocks** in the Strategy Lab form still produced Commodities/Forex/Crypto strategies, and the analysis of previously generated strategies quoted every category's results rather than the one selected. The user's selection reached the backend correctly — the UI and the who",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Enforce a single asset category per Strategy Lab design attempt\n## Summary\n\nSele\u2026",
+          "title": "Enforce a single asset category per Strategy Lab design attempt\n## Summary\n\nSele…",
           "url": "https://github.com/brandonkindred/Khala-Agentic-AI-Teams/pull/7199",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -137,7 +87,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Topic 19: CPU frontend bottlenecks\n## Summary\n\n- Adds Topic 19's compact mental \u2026",
+          "title": "Topic 19: CPU frontend bottlenecks\n## Summary\n\n- Adds Topic 19's compact mental …",
           "url": "https://github.com/ahrav/systems-snackpack/pull/17",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -158,7 +108,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "fix(connectors): count hard-kill failures and cap deletion blast radius\nTwo coup\u2026",
+          "title": "fix(connectors): count hard-kill failures and cap deletion blast radius\nTwo coup…",
           "url": "https://github.com/simstudioai/sim/pull/6909",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -173,13 +123,13 @@
     },
     {
       "id": "l508",
-      "text": "fix: redeploy follow-ups \u2014 portfolio base, candidate iteration, known-signal confidence, overlay bookkeeping\nAddresses the seven post-merge Codex P2s on #129's idle-redeploy pass:\n\n1. **Paper portfolio base (@1981)** \u2014 paper mode uses `PAPER_PORTFOLIO_USD` (the modeled total) as `portfolioValueUsd`, fixing the seed+positions double-count that let a 40% cap grow a pool to 52% of the paper portfolio.\n2. **Ex",
+      "text": "fix: redeploy follow-ups — portfolio base, candidate iteration, known-signal confidence, overlay bookkeeping\nAddresses the seven post-merge Codex P2s on #129's idle-redeploy pass:\n\n1. **Paper portfolio base (@1981)** — paper mode uses `PAPER_PORTFOLIO_USD` (the modeled total) as `portfolioValueUsd`, fixing the seed+positions double-count that let a 40% cap grow a pool to 52% of the paper portfolio.\n2. **Ex",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "fix: redeploy follow-ups \u2014 portfolio base, candidate iteration, known-signal con\u2026",
+          "title": "fix: redeploy follow-ups — portfolio base, candidate iteration, known-signal con…",
           "url": "https://github.com/irfndi/prism-liquidity-agent/pull/133",
           "date": "2026-07-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -194,13 +144,13 @@
     },
     {
       "id": "l509",
-      "text": "fix: redeploy follow-ups \u2014 portfolio base, candidate iteration, known-signal confidence, overlay bookkeeping\nAddresses the seven post-merge P2 review comments on #129 (idle-capital auto-redeploy). All are fidelity gaps between the redeploy pass and the normal decision tail; all fixes are confined to `engine/program.ts` with tests extended in `bench/idle-redeploy.test.ts`.\n\n| Comment | Fix | Location |\n|---",
+      "text": "fix: redeploy follow-ups — portfolio base, candidate iteration, known-signal confidence, overlay bookkeeping\nAddresses the seven post-merge P2 review comments on #129 (idle-capital auto-redeploy). All are fidelity gaps between the redeploy pass and the normal decision tail; all fixes are confined to `engine/program.ts` with tests extended in `bench/idle-redeploy.test.ts`.\n\n| Comment | Fix | Location |\n|---",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "fix: redeploy follow-ups \u2014 portfolio base, candidate iteration, known-signal con\u2026",
+          "title": "fix: redeploy follow-ups — portfolio base, candidate iteration, known-signal con…",
           "url": "https://github.com/irfndi/prism-liquidity-agent/pull/135",
           "date": "2026-07-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -215,13 +165,13 @@
     },
     {
       "id": "l510",
-      "text": "Multitenancy (tenant isolation) \u2014 fork-internal review [do not merge]\n## Multitenancy (tenant isolation) for CAPEv2 \u2014 fork-internal review PR\n\n**Not for merge** \u2014 this is a fork-internal draft so Codex / reviewers can review\nthe multitenancy feature branch (`feat/mt-upstream`) before the real upstream PR\nto `kevoreilly/CAPEv2`. Base is `mt-base` = `upstream/master` at",
+      "text": "Multitenancy (tenant isolation) — fork-internal review [do not merge]\n## Multitenancy (tenant isolation) for CAPEv2 — fork-internal review PR\n\n**Not for merge** — this is a fork-internal draft so Codex / reviewers can review\nthe multitenancy feature branch (`feat/mt-upstream`) before the real upstream PR\nto `kevoreilly/CAPEv2`. Base is `mt-base` = `upstream/master` at",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Multitenancy (tenant isolation) \u2014 fork-internal review [do not merge]\n## Multite\u2026",
+          "title": "Multitenancy (tenant isolation) — fork-internal review [do not merge]\n## Multite…",
           "url": "https://github.com/wmetcalf/CAPEv2/pull/16",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -236,13 +186,13 @@
     },
     {
       "id": "l511",
-      "text": "feat(deals): \"Move back to Opportunity\" \u2014 detach from Bid Board, reset RFP, void commission\n## What this adds\n\nA **\"Move back to Opportunity\"** item in the deal-detail overflow menu (between Edit Deal and Archive Deal). It returns a deal to the Opportunity stage from **any** stage, severs it from Bid Board sync, resets its RFP cycle, and \u2014 when the deal is Won or otherwise carries booked m",
+      "text": "feat(deals): \"Move back to Opportunity\" — detach from Bid Board, reset RFP, void commission\n## What this adds\n\nA **\"Move back to Opportunity\"** item in the deal-detail overflow menu (between Edit Deal and Archive Deal). It returns a deal to the Opportunity stage from **any** stage, severs it from Bid Board sync, resets its RFP cycle, and — when the deal is Won or otherwise carries booked m",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(deals): \"Move back to Opportunity\" \u2014 detach from Bid Board, reset RFP, void\u2026",
+          "title": "feat(deals): \"Move back to Opportunity\" — detach from Bid Board, reset RFP, void…",
           "url": "https://github.com/artificialadnaan/trockcrm/pull/967",
           "date": "2026-07-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -257,13 +207,13 @@
     },
     {
       "id": "l512",
-      "text": "eval-runner harness with synthetic preflight + dev-set (public part)\n## Summary\n\nImplements pilot prerequisite 5 and Sequence step 2 of `thoughts/shared/plans/2026-07-26-thinking-model-modernization-pilot.md`. No behavioral rewrite; baseline stays frozen; no scored runs yet.\n\n### Eval-runner (`skills/research-codebase/evals/public/`)\n- **`runner.py`** \u2014 drives one ar",
+      "text": "eval-runner harness with synthetic preflight + dev-set (public part)\n## Summary\n\nImplements pilot prerequisite 5 and Sequence step 2 of `thoughts/shared/plans/2026-07-26-thinking-model-modernization-pilot.md`. No behavioral rewrite; baseline stays frozen; no scored runs yet.\n\n### Eval-runner (`skills/research-codebase/evals/public/`)\n- **`runner.py`** — drives one ar",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "eval-runner harness with synthetic preflight + dev-set (public part)\n## Summary\n\u2026",
+          "title": "eval-runner harness with synthetic preflight + dev-set (public part)\n## Summary\n…",
           "url": "https://github.com/dsmolchanov/rpa/pull/7",
           "date": "2026-07-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -284,7 +234,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "fix(auth): create a fresh install with canonical shared-auth ownership\n## What P\u2026",
+          "title": "fix(auth): create a fresh install with canonical shared-auth ownership\n## What P…",
           "url": "https://github.com/openclaw/openclaw/pull/126783",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -299,13 +249,13 @@
     },
     {
       "id": "l514",
-      "text": "Shared-memory threads for JavaScriptCore (experimental, not working yet)\n## What this is\n\nShared-memory threads for JavaScriptCore. `new Thread(fn)` runs `fn` on another thread, in the same heap, with the same objects. No structured clone, no message passing, no SharedArrayBuffer-only escape hatch. You share an object by sharing the object.\n\n**Status: parallel JavaScript\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Sta\u2026",
+      "text": "Shared-memory threads for JavaScriptCore (experimental, not working yet)\n## What this is\n\nShared-memory threads for JavaScriptCore. `new Thread(fn)` runs `fn` on another thread, in the same heap, with the same objects. No structured clone, no message passing, no SharedArrayBuffer-only escape hatch. You share an object by sharing the object.\n\n**Status: parallel JavaScript\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Sta…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Shared-memory threads for JavaScriptCore (experimental, not working yet)\n## What\u2026",
+          "title": "Shared-memory threads for JavaScriptCore (experimental, not working yet)\n## What…",
           "url": "https://github.com/oven-sh/WebKit/pull/249",
           "date": "2026-06-06",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -509,13 +459,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -530,13 +480,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -719,13 +669,13 @@
     },
     {
       "id": "l534",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -761,13 +711,13 @@
     },
     {
       "id": "l536",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -803,13 +753,13 @@
     },
     {
       "id": "l538",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -824,13 +774,13 @@
     },
     {
       "id": "l539",
-      "text": "How can AI help automate bookkeeping and accounting for a small business?\nIf you\u2019ve been wondering how AI can fit into your bookkeeping or accounting workflow, one of the best places to start is with the repetitive work that takes up time but still needs to get done accurately. AI-powered accounting tools can help automate parts of the day-to-day process, from categorizing transactions and reconciling accounts to managing invoices, identifying unusual activity, and surfacing insights from your f\u2026",
+      "text": "How can AI help automate bookkeeping and accounting for a small business?\nIf you’ve been wondering how AI can fit into your bookkeeping or accounting workflow, one of the best places to start is with the repetitive work that takes up time but still needs to get done accurately. AI-powered accounting tools can help automate parts of the day-to-day process, from categorizing transactions and reconciling accounts to managing invoices, identifying unusual activity, and surfacing insights from your f…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "How can AI help automate bookkeeping and accounting for a small business?\nIf you\u2026",
+          "title": "How can AI help automate bookkeeping and accounting for a small business?\nIf you…",
           "url": "https://www.reddit.com/r/u_Intuit_QuickBooks/comments/1vlv5n6/how_can_ai_help_automate_bookkeeping_and/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -845,13 +795,13 @@
     },
     {
       "id": "l540",
-      "text": "An AI bookkeeping tool for both founders and accountants\nI run a financial advisory firm for early stage startups and I want to make a tool to help my clients. Many clients talk about how the bookkeeping process is the most confusing, difficult and expensive process they face. Hiring bookkeepers take out so much of their time and it leads to more problems such as cost, bookkeepers not finishing their work on time, or me the financial advisor for these clients facing poorly kept records (slowly d\u2026",
+      "text": "An AI bookkeeping tool for both founders and accountants\nI run a financial advisory firm for early stage startups and I want to make a tool to help my clients. Many clients talk about how the bookkeeping process is the most confusing, difficult and expensive process they face. Hiring bookkeepers take out so much of their time and it leads to more problems such as cost, bookkeepers not finishing their work on time, or me the financial advisor for these clients facing poorly kept records (slowly d…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "An AI bookkeeping tool for both founders and accountants\nI run a financial advis\u2026",
+          "title": "An AI bookkeeping tool for both founders and accountants\nI run a financial advis…",
           "url": "https://www.reddit.com/r/startupideas/comments/1vndfsm/an_ai_bookkeeping_tool_for_both_founders_and/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -872,7 +822,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Accountants / Bookkeepers / Accounting Clerks - Bangladesh at SuperAnnotate - AI\u2026",
+          "title": "Accountants / Bookkeepers / Accounting Clerks - Bangladesh at SuperAnnotate - AI…",
           "url": "https://www.reddit.com/r/trainAIjobs/comments/1vngtby/accountants_bookkeepers_accounting_clerks/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -887,13 +837,13 @@
     },
     {
       "id": "l542",
-      "text": "AI-assisted Active Directory audit: how I found dormant privileged accounts using Claude and PowerShell\nHad a client ask me to review their AD environment last month. Before going in manually I built a quick workflow using PowerShell exports + Claude to get an initial picture of the estate. Sharing because the results were useful and the approach is reproducible. The workflow (read-only throughout, no changes made) Step 1 \u2014 Export all users and their group memberships: Get-ADUser -Filter * -Prop\u2026",
+      "text": "AI-assisted Active Directory audit: how I found dormant privileged accounts using Claude and PowerShell\nHad a client ask me to review their AD environment last month. Before going in manually I built a quick workflow using PowerShell exports + Claude to get an initial picture of the estate. Sharing because the results were useful and the approach is reproducible. The workflow (read-only throughout, no changes made) Step 1 — Export all users and their group memberships: Get-ADUser -Filter * -Prop…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI-assisted Active Directory audit: how I found dormant privileged accounts usin\u2026",
+          "title": "AI-assisted Active Directory audit: how I found dormant privileged accounts usin…",
           "url": "https://www.reddit.com/r/sysadmin/comments/1vb3p6c/aiassisted_active_directory_audit_how_i_found/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -914,7 +864,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI is compressing three days of work into half a day for me.\n\n@ModelML_ is insan\u2026",
+          "title": "AI is compressing three days of work into half a day for me.\n\n@ModelML_ is insan…",
           "url": "https://x.com/rickyho_1989/status/2092905855750664457",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -935,7 +885,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Things getting wild in automated systems engineering.\n\nThis new work claims to b\u2026",
+          "title": "Things getting wild in automated systems engineering.\n\nThis new work claims to b…",
           "url": "https://x.com/dair_ai/status/2093383220041753042",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -971,13 +921,13 @@
     },
     {
       "id": "l546",
-      "text": "Personal tier list of current AI jobs in 2026.\n\nSomehow, as AI takes over several human jobs, we\u2019re also seeing more AI-related jobs appear in exchange.\n\nYou\u2019ve probably seen the AI exposure map in the US, where these sectors are at high risk of being replaced by AI:\n\n+ Customer service reps\n+ General office clerks\n+ Secretaries and administration\n+ Bookkeeping, accounting, and auditing clerks\n+ Financial clerks\n+ Software developers\n+ Web devs\n\nAll of the sectors above face 9/10 AI exposure - w",
+      "text": "Personal tier list of current AI jobs in 2026.\n\nSomehow, as AI takes over several human jobs, we’re also seeing more AI-related jobs appear in exchange.\n\nYou’ve probably seen the AI exposure map in the US, where these sectors are at high risk of being replaced by AI:\n\n+ Customer service reps\n+ General office clerks\n+ Secretaries and administration\n+ Bookkeeping, accounting, and auditing clerks\n+ Financial clerks\n+ Software developers\n+ Web devs\n\nAll of the sectors above face 9/10 AI exposure - w",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Personal tier list of current AI jobs in 2026.\n\nSomehow, as AI takes over severa\u2026",
+          "title": "Personal tier list of current AI jobs in 2026.\n\nSomehow, as AI takes over severa…",
           "url": "https://x.com/defikadic/status/2034549962055553323",
           "date": "2026-03-19",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -998,7 +948,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Introducing AI Papers of the Week: https://t.co/TXvoB4ozqb\n\nWe took the top AI p\u2026",
+          "title": "Introducing AI Papers of the Week: https://t.co/TXvoB4ozqb\n\nWe took the top AI p…",
           "url": "https://x.com/dair_ai/status/2092649526020448265",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1019,7 +969,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Learning about AI agents starts with understanding the fundamentals and then bui\u2026",
+          "title": "Learning about AI agents starts with understanding the fundamentals and then bui…",
           "url": "https://x.com/dair_ai/status/2092613003677991378",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1034,13 +984,13 @@
     },
     {
       "id": "l549",
-      "text": "\ud83e\udd47Top AI Papers of the Week",
+      "text": "🥇Top AI Papers of the Week",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83e\udd47Top AI Papers of the Week",
+          "title": "🥇Top AI Papers of the Week",
           "url": "https://x.com/dair_ai/status/2063644231030214958",
           "date": "2026-06-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1055,13 +1005,13 @@
     },
     {
       "id": "l550",
-      "text": "The whole Wall Street is upgrading $NVDA. Up 7% pre-market. This shall spark new rally into the whole AI basket. Let the profit run baby \ud83d\ude80",
+      "text": "The whole Wall Street is upgrading $NVDA. Up 7% pre-market. This shall spark new rally into the whole AI basket. Let the profit run baby 🚀",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The whole Wall Street is upgrading $NVDA. Up 7% pre-market. This shall spark new\u2026",
+          "title": "The whole Wall Street is upgrading $NVDA. Up 7% pre-market. This shall spark new…",
           "url": "https://x.com/rickyho_1989/status/2092932460510330942",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1097,13 +1047,13 @@
     },
     {
       "id": "l552",
-      "text": "$NBIS\nCan Europe Build a Trillion-Dollar AI Company?\nNebius \u00d7 Sifted Slush 2025 Conversation Analysis\n\nThe central question behind the Nebius and Sifted conversation at Slush 2025 is one of the biggest strategic questions of the AI era:\n\nCan Europe create a trillion-dollar technology company, or will the largest AI winners remain concentrated in the United States?\n\nFor decades, Europe struggled to produce technology giants comparable to Google, Microsoft, Amazon, or Meta. The reasons were struct",
+      "text": "$NBIS\nCan Europe Build a Trillion-Dollar AI Company?\nNebius × Sifted Slush 2025 Conversation Analysis\n\nThe central question behind the Nebius and Sifted conversation at Slush 2025 is one of the biggest strategic questions of the AI era:\n\nCan Europe create a trillion-dollar technology company, or will the largest AI winners remain concentrated in the United States?\n\nFor decades, Europe struggled to produce technology giants comparable to Google, Microsoft, Amazon, or Meta. The reasons were struct",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "$NBIS\nCan Europe Build a Trillion-Dollar AI Company?\nNebius \u00d7 Sifted Slush 2025 \u2026",
+          "title": "$NBIS\nCan Europe Build a Trillion-Dollar AI Company?\nNebius × Sifted Slush 2025 …",
           "url": "https://x.com/jiwanpark1014/status/2086846303590625739",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1145,7 +1095,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Tools That Will Actually Change Your Life (And Your Bank Account) - The Only \u2026",
+          "title": "AI Tools That Will Actually Change Your Life (And Your Bank Account) - The Only …",
           "url": "https://x.com/Cennes100/status/2075074887215874402",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1202,13 +1152,13 @@
     },
     {
       "id": "l557",
-      "text": "Claude Cowork Can Automate Your QuickBooks! (here's how accounting firms use it)\n\ud83e\uddf0 Swipe my FREE app recommendations for accounting firms: https://www.jasononfirms.com/apps\n\ud83d\udcc4 Grab the two Claude skills mentioned in this video! https://drive.google.com/drive/folders/1dkQT46CwAq3Fi6tzpI9dRvDoryZIqtEK?usp=sharing\n\n\nMy name\u2019s Jason, I used to run a $5M accounting firm, now I help accountants around the world build better firms. I\u2019m the founder of a +800 firm private community that\u2019s shaping the futu\u2026",
+      "text": "Claude Cowork Can Automate Your QuickBooks! (here's how accounting firms use it)\n🧰 Swipe my FREE app recommendations for accounting firms: https://www.jasononfirms.com/apps\n📄 Grab the two Claude skills mentioned in this video! https://drive.google.com/drive/folders/1dkQT46CwAq3Fi6tzpI9dRvDoryZIqtEK?usp=sharing\n\n\nMy name’s Jason, I used to run a $5M accounting firm, now I help accountants around the world build better firms. I’m the founder of a +800 firm private community that’s shaping the futu…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Claude Cowork Can Automate Your QuickBooks! (here's how accounting firms use it)\u2026",
+          "title": "Claude Cowork Can Automate Your QuickBooks! (here's how accounting firms use it)…",
           "url": "https://www.youtube.com/watch?v=fBne9qS08w4",
           "date": "2026-07-15",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1223,13 +1173,13 @@
     },
     {
       "id": "l558",
-      "text": "Why Claude Cowork Is Already Changing Accounting Firms\n\ud83e\uddf0 Swipe my FREE app recommendations for accounting firms: https://www.jasononfirms.com/apps\n\ud83d\ude80 Make the ultimate investment in your accounting firm by joining my alliance of +800 firm owners: https://rlz.io/\n\nMy name\u2019s Jason, I used to run a $5M accounting firm, now I help accountants around the world build better firms. I\u2019m the founder of a 800+ firm private community that\u2019s shaping the future of small-firm ownership for the better.\n\nIn this\u2026",
+      "text": "Why Claude Cowork Is Already Changing Accounting Firms\n🧰 Swipe my FREE app recommendations for accounting firms: https://www.jasononfirms.com/apps\n🚀 Make the ultimate investment in your accounting firm by joining my alliance of +800 firm owners: https://rlz.io/\n\nMy name’s Jason, I used to run a $5M accounting firm, now I help accountants around the world build better firms. I’m the founder of a 800+ firm private community that’s shaping the future of small-firm ownership for the better.\n\nIn this…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Why Claude Cowork Is Already Changing Accounting Firms\n\ud83e\uddf0 Swipe my FREE app recom\u2026",
+          "title": "Why Claude Cowork Is Already Changing Accounting Firms\n🧰 Swipe my FREE app recom…",
           "url": "https://www.youtube.com/watch?v=5DevfwAfVpA",
           "date": "2026-03-08",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1244,13 +1194,13 @@
     },
     {
       "id": "l559",
-      "text": "How I Use Claude to Automate Tax and Bookkeeping (Beginner Tutorial)\nJoin my Skool Squad to learn AI and make money it: https://www.skool.com/ai-operators-club/about \n\nI break down what Claude Code actually is, how to set it up properly in VS Code, and how I used it to build a real bookkeeping and tax automation for my business \u2014 invoices, expense categorization, Google Sheets, the whole thing. \n\n\ud83d\udccc TIMESTAMPS:\n0:40 \u2013 Setting up Claude Code in VS Code and project workspace\n1:54 \u2013 CLAUDE.md explai\u2026",
+      "text": "How I Use Claude to Automate Tax and Bookkeeping (Beginner Tutorial)\nJoin my Skool Squad to learn AI and make money it: https://www.skool.com/ai-operators-club/about \n\nI break down what Claude Code actually is, how to set it up properly in VS Code, and how I used it to build a real bookkeeping and tax automation for my business — invoices, expense categorization, Google Sheets, the whole thing. \n\n📌 TIMESTAMPS:\n0:40 – Setting up Claude Code in VS Code and project workspace\n1:54 – CLAUDE.md explai…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How I Use Claude to Automate Tax and Bookkeeping (Beginner Tutorial)\nJoin my Sko\u2026",
+          "title": "How I Use Claude to Automate Tax and Bookkeeping (Beginner Tutorial)\nJoin my Sko…",
           "url": "https://www.youtube.com/watch?v=ztXUJa58r9o",
           "date": "2026-03-21",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1265,7 +1215,7 @@
     },
     {
       "id": "l460",
-      "text": "ACCOUNTING CLERK \u2014 Grand Portage Trading Post (Casino, New South Wales, Australia). Posted 1 week ago.",
+      "text": "ACCOUNTING CLERK — Grand Portage Trading Post (Casino, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1286,7 +1236,7 @@
     },
     {
       "id": "l461",
-      "text": "Accounts Clerk \u2014 Hays (Perth, Western Australia, Australia). Posted 1 week ago.",
+      "text": "Accounts Clerk — Hays (Perth, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1307,7 +1257,7 @@
     },
     {
       "id": "l462",
-      "text": "Bookkeeper \u2014 United Exports (Perth, Western Australia, Australia). Posted 3 weeks ago.",
+      "text": "Bookkeeper — United Exports (Perth, Western Australia, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1328,7 +1278,7 @@
     },
     {
       "id": "l463",
-      "text": "Bookkeeper \u2014 RSM Australia (Busselton, Western Australia, Australia). Posted 5 days ago.",
+      "text": "Bookkeeper — RSM Australia (Busselton, Western Australia, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1349,7 +1299,7 @@
     },
     {
       "id": "l464",
-      "text": "Bookkeeper \u2014 Pitcher Partners (Melbourne, Victoria, Australia). Posted 3 weeks ago.",
+      "text": "Bookkeeper — Pitcher Partners (Melbourne, Victoria, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1370,7 +1320,7 @@
     },
     {
       "id": "l465",
-      "text": "Bookkeeper \u2014 Sharp & Carter (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "text": "Bookkeeper — Sharp & Carter (Melbourne, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1391,7 +1341,7 @@
     },
     {
       "id": "l466",
-      "text": "Bookkeeper \u2014 Nexia Melbourne (Melbourne, Victoria, Australia). Posted 1 day ago.",
+      "text": "Bookkeeper — Nexia Melbourne (Melbourne, Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1412,7 +1362,7 @@
     },
     {
       "id": "l467",
-      "text": "ACCOUNT ASSISTANT \u2014 Hotel Granada Johor Bahru (Island Beach, South Australia, Australia). Posted 2 months ago.",
+      "text": "ACCOUNT ASSISTANT — Hotel Granada Johor Bahru (Island Beach, South Australia, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1433,7 +1383,7 @@
     },
     {
       "id": "l468",
-      "text": "Bookkeeper \u2014 RSM Australia (Albury, New South Wales, Australia). Posted 23 hours ago.",
+      "text": "Bookkeeper — RSM Australia (Albury, New South Wales, Australia). Posted 23 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1454,7 +1404,7 @@
     },
     {
       "id": "l469",
-      "text": "Accounting Assistant Officer \u2014 Centrecare (Perth, Western Australia, Australia). Posted 3 weeks ago.",
+      "text": "Accounting Assistant Officer — Centrecare (Perth, Western Australia, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1475,13 +1425,13 @@
     },
     {
       "id": "l570",
-      "text": "feat: add Responses API provider support\n## Summary\n\n- adds a native `responses` provider protocol targeting `/responses`\n- preserves native request and response envelopes, background/failed tracking receipts, built-in tools, citations, reasoning, refusals, usage, continuation IDs, structured output, and exact pseudo-stream item events acr\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.c\u2026",
+      "text": "feat: add Responses API provider support\n## Summary\n\n- adds a native `responses` provider protocol targeting `/responses`\n- preserves native request and response envelopes, background/failed tracking receipts, built-in tools, citations, reasoning, refusals, usage, continuation IDs, structured output, and exact pseudo-stream item events acr\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: add Responses API provider support\n## Summary\n\n- adds a native `responses`\u2026",
+          "title": "feat: add Responses API provider support\n## Summary\n\n- adds a native `responses`…",
           "url": "https://github.com/RESMP-DEV/ccr-rust/pull/25",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1496,13 +1446,13 @@
     },
     {
       "id": "l571",
-      "text": "Shared-memory threads for JavaScriptCore (experimental, not working yet)\n## What this is\n\nShared-memory threads for JavaScriptCore. `new Thread(fn)` runs `fn` on another thread, in the same heap, with the same objects. No structured clone, no message passing, no SharedArrayBuffer-only escape hatch. You share an object by sharing the object.\n\n**Status: parallel JavaScript\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Sta\u2026",
+      "text": "Shared-memory threads for JavaScriptCore (experimental, not working yet)\n## What this is\n\nShared-memory threads for JavaScriptCore. `new Thread(fn)` runs `fn` on another thread, in the same heap, with the same objects. No structured clone, no message passing, no SharedArrayBuffer-only escape hatch. You share an object by sharing the object.\n\n**Status: parallel JavaScript\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Sta…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Shared-memory threads for JavaScriptCore (experimental, not working yet)\n## What\u2026",
+          "title": "Shared-memory threads for JavaScriptCore (experimental, not working yet)\n## What…",
           "url": "https://github.com/oven-sh/WebKit/pull/249",
           "date": "2026-06-06",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1517,13 +1467,13 @@
     },
     {
       "id": "l572",
-      "text": "How can AI help automate bookkeeping and accounting for a small business?\nIf you\u2019ve been wondering how AI can fit into your bookkeeping or accounting workflow, one of the best places to start is with the repetitive work that takes up time but still needs to get done accurately. AI-powered accounting tools can help automate parts of the day-to-day process, from categorizing transactions and reconciling accounts to managing invoices, identifying unusual activity, and surfacing insights from your f\u2026",
+      "text": "How can AI help automate bookkeeping and accounting for a small business?\nIf you’ve been wondering how AI can fit into your bookkeeping or accounting workflow, one of the best places to start is with the repetitive work that takes up time but still needs to get done accurately. AI-powered accounting tools can help automate parts of the day-to-day process, from categorizing transactions and reconciling accounts to managing invoices, identifying unusual activity, and surfacing insights from your f…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "How can AI help automate bookkeeping and accounting for a small business?\nIf you\u2026",
+          "title": "How can AI help automate bookkeeping and accounting for a small business?\nIf you…",
           "url": "https://www.reddit.com/r/u_Intuit_QuickBooks/comments/1vlv5n6/how_can_ai_help_automate_bookkeeping_and/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1538,13 +1488,13 @@
     },
     {
       "id": "l573",
-      "text": "An AI bookkeeping tool for both founders and accountants\nI run a financial advisory firm for early stage startups and I want to make a tool to help my clients. Many clients talk about how the bookkeeping process is the most confusing, difficult and expensive process they face. Hiring bookkeepers take out so much of their time and it leads to more problems such as cost, bookkeepers not finishing their work on time, or me the financial advisor for these clients facing poorly kept records (slowly d\u2026",
+      "text": "An AI bookkeeping tool for both founders and accountants\nI run a financial advisory firm for early stage startups and I want to make a tool to help my clients. Many clients talk about how the bookkeeping process is the most confusing, difficult and expensive process they face. Hiring bookkeepers take out so much of their time and it leads to more problems such as cost, bookkeepers not finishing their work on time, or me the financial advisor for these clients facing poorly kept records (slowly d…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "An AI bookkeeping tool for both founders and accountants\nI run a financial advis\u2026",
+          "title": "An AI bookkeeping tool for both founders and accountants\nI run a financial advis…",
           "url": "https://www.reddit.com/r/startupideas/comments/1vndfsm/an_ai_bookkeeping_tool_for_both_founders_and/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1559,13 +1509,13 @@
     },
     {
       "id": "l574",
-      "text": "AI-assisted Active Directory audit: how I found dormant privileged accounts using Claude and PowerShell\nHad a client ask me to review their AD environment last month. Before going in manually I built a quick workflow using PowerShell exports + Claude to get an initial picture of the estate. Sharing because the results were useful and the approach is reproducible. The workflow (read-only throughout, no changes made) Step 1 \u2014 Export all users and their group memberships: Get-ADUser -Filter * -Prop\u2026",
+      "text": "AI-assisted Active Directory audit: how I found dormant privileged accounts using Claude and PowerShell\nHad a client ask me to review their AD environment last month. Before going in manually I built a quick workflow using PowerShell exports + Claude to get an initial picture of the estate. Sharing because the results were useful and the approach is reproducible. The workflow (read-only throughout, no changes made) Step 1 — Export all users and their group memberships: Get-ADUser -Filter * -Prop…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI-assisted Active Directory audit: how I found dormant privileged accounts usin\u2026",
+          "title": "AI-assisted Active Directory audit: how I found dormant privileged accounts usin…",
           "url": "https://www.reddit.com/r/sysadmin/comments/1vb3p6c/aiassisted_active_directory_audit_how_i_found/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1580,13 +1530,13 @@
     },
     {
       "id": "l575",
-      "text": "Claude Cowork Can Automate Your QuickBooks! (here's how accounting firms use it)\n\ud83e\uddf0 Swipe my FREE app recommendations for accounting firms: https://www.jasononfirms.com/apps\n\ud83d\udcc4 Grab the two Claude skills mentioned in this video! https://drive.google.com/drive/folders/1dkQT46CwAq3Fi6tzpI9dRvDoryZIqtEK?usp=sharing\n\n\nMy name\u2019s Jason, I used to run a $5M accounting firm, now I help accountants around the world build better firms. I\u2019m the founder of a +800 firm private community that\u2019s shaping the futu\u2026",
+      "text": "Claude Cowork Can Automate Your QuickBooks! (here's how accounting firms use it)\n🧰 Swipe my FREE app recommendations for accounting firms: https://www.jasononfirms.com/apps\n📄 Grab the two Claude skills mentioned in this video! https://drive.google.com/drive/folders/1dkQT46CwAq3Fi6tzpI9dRvDoryZIqtEK?usp=sharing\n\n\nMy name’s Jason, I used to run a $5M accounting firm, now I help accountants around the world build better firms. I’m the founder of a +800 firm private community that’s shaping the futu…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Claude Cowork Can Automate Your QuickBooks! (here's how accounting firms use it)\u2026",
+          "title": "Claude Cowork Can Automate Your QuickBooks! (here's how accounting firms use it)…",
           "url": "https://www.youtube.com/watch?v=fBne9qS08w4",
           "date": "2026-07-15",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1601,13 +1551,13 @@
     },
     {
       "id": "l576",
-      "text": "Why Claude Cowork Is Already Changing Accounting Firms\n\ud83e\uddf0 Swipe my FREE app recommendations for accounting firms: https://www.jasononfirms.com/apps\n\ud83d\ude80 Make the ultimate investment in your accounting firm by joining my alliance of +800 firm owners: https://rlz.io/\n\nMy name\u2019s Jason, I used to run a $5M accounting firm, now I help accountants around the world build better firms. I\u2019m the founder of a 800+ firm private community that\u2019s shaping the future of small-firm ownership for the better.\n\nIn this\u2026",
+      "text": "Why Claude Cowork Is Already Changing Accounting Firms\n🧰 Swipe my FREE app recommendations for accounting firms: https://www.jasononfirms.com/apps\n🚀 Make the ultimate investment in your accounting firm by joining my alliance of +800 firm owners: https://rlz.io/\n\nMy name’s Jason, I used to run a $5M accounting firm, now I help accountants around the world build better firms. I’m the founder of a 800+ firm private community that’s shaping the future of small-firm ownership for the better.\n\nIn this…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Why Claude Cowork Is Already Changing Accounting Firms\n\ud83e\uddf0 Swipe my FREE app recom\u2026",
+          "title": "Why Claude Cowork Is Already Changing Accounting Firms\n🧰 Swipe my FREE app recom…",
           "url": "https://www.youtube.com/watch?v=5DevfwAfVpA",
           "date": "2026-03-08",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1622,13 +1572,13 @@
     },
     {
       "id": "l577",
-      "text": "How I Use Claude to Automate Tax and Bookkeeping (Beginner Tutorial)\nJoin my Skool Squad to learn AI and make money it: https://www.skool.com/ai-operators-club/about \n\nI break down what Claude Code actually is, how to set it up properly in VS Code, and how I used it to build a real bookkeeping and tax automation for my business \u2014 invoices, expense categorization, Google Sheets, the whole thing. \n\n\ud83d\udccc TIMESTAMPS:\n0:40 \u2013 Setting up Claude Code in VS Code and project workspace\n1:54 \u2013 CLAUDE.md explai\u2026",
+      "text": "How I Use Claude to Automate Tax and Bookkeeping (Beginner Tutorial)\nJoin my Skool Squad to learn AI and make money it: https://www.skool.com/ai-operators-club/about \n\nI break down what Claude Code actually is, how to set it up properly in VS Code, and how I used it to build a real bookkeeping and tax automation for my business — invoices, expense categorization, Google Sheets, the whole thing. \n\n📌 TIMESTAMPS:\n0:40 – Setting up Claude Code in VS Code and project workspace\n1:54 – CLAUDE.md explai…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How I Use Claude to Automate Tax and Bookkeeping (Beginner Tutorial)\nJoin my Sko\u2026",
+          "title": "How I Use Claude to Automate Tax and Bookkeeping (Beginner Tutorial)\nJoin my Sko…",
           "url": "https://www.youtube.com/watch?v=ztXUJa58r9o",
           "date": "2026-03-21",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1719,6 +1669,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

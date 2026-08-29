@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "43-4171-01",
-      "text": "National peak professional bodies and statutory regulators governing Receptionists and Information Clerks enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Receptionists and Information Clerks",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Receptionists and Information Clerks",
-          "url": "https://www.psc.gov.au/standards/43-4171",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Receptionists and Information Clerks"
-        }
-      ],
-      "scope": "Australian practitioners in Receptionists and Information Clerks across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "43-4171-02",
-      "text": "Automation of routine transactional and analytical tasks in Receptionists and Information Clerks heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Receptionists and Information Clerks",
-          "url": "https://www.jobsandskills.gov.au/research/43-4171",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Receptionists and Information Clerks in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Receptionists and Information Clerks roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "fix(security): add rate limiting to all 4 services [P0]\n## Summary\n\nCloses #223 (P0 SEC-4 \u2014 `Add Rate Limiting Across All Services`).\n\nAll four backend services were unprotected against request flooding / brute force / runaway clients. This PR adds per-IP rate limiting to every service, with tighter limits on PHI endpoints.\n\n## Changes per service\n\n| Ser\n[vc]: #IDRnH6r0Ksn2kWwno/GctBMKsldR7PzYqqGso9jr+D0=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJjb250b3NvLXZpYmU\u2026",
+      "text": "fix(security): add rate limiting to all 4 services [P0]\n## Summary\n\nCloses #223 (P0 SEC-4 — `Add Rate Limiting Across All Services`).\n\nAll four backend services were unprotected against request flooding / brute force / runaway clients. This PR adds per-IP rate limiting to every service, with tighter limits on PHI endpoints.\n\n## Changes per service\n\n| Ser\n[vc]: #IDRnH6r0Ksn2kWwno/GctBMKsldR7PzYqqGso9jr+D0=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJjb250b3NvLXZpYmU…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "fix(security): add rate limiting to all 4 services [P0]\n## Summary\n\nCloses #223 \u2026",
+          "title": "fix(security): add rate limiting to all 4 services [P0]\n## Summary\n\nCloses #223 …",
           "url": "https://github.com/VeVarunSharma/contoso-vibe-engineering/pull/290",
           "date": "2026-05-03",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -86,13 +36,13 @@
     },
     {
       "id": "l504",
-      "text": "Run the cross-metropolitan test, and fix the recode double-count in 8.2\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\nFour changes, arising from reviewing the report against an external critique of the \"10k jobs lost to AI\" framing.\n\n## 1. The cross-metropolitan comparison, which had never been run\n\nSections 3.2 and 8.10 both named this as the highest-priority test \u2014 the one that\n<!-- BUGBOT_FREE_TIER_DISABLED_UPSELL -->\nBugbot is not enabled for your account, so this pull request was not reviewed.\n\nEnabl\u2026",
+      "text": "Run the cross-metropolitan test, and fix the recode double-count in 8.2\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\nFour changes, arising from reviewing the report against an external critique of the \"10k jobs lost to AI\" framing.\n\n## 1. The cross-metropolitan comparison, which had never been run\n\nSections 3.2 and 8.10 both named this as the highest-priority test — the one that\n<!-- BUGBOT_FREE_TIER_DISABLED_UPSELL -->\nBugbot is not enabled for your account, so this pull request was not reviewed.\n\nEnabl…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Run the cross-metropolitan test, and fix the recode double-count in 8.2\n<!-- CUR\u2026",
+          "title": "Run the cross-metropolitan test, and fix the recode double-count in 8.2\n<!-- CUR…",
           "url": "https://github.com/hack4rva/richmond-ai-impact-analysis/pull/2",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -317,13 +267,13 @@
     },
     {
       "id": "l515",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -338,13 +288,13 @@
     },
     {
       "id": "l516",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -464,13 +414,13 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+      "text": "Show HN: Videopython – local-first video processing, editing and AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+          "title": "Show HN: Videopython – local-first video processing, editing and AI workflows",
           "url": "https://github.com/bartwojtowicz/videopython",
           "date": "2026-06-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -506,13 +456,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -548,13 +498,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "CMV: modern generative ai has been a net negative to society this far\nHere&#39;s some of my reasoning, though I want you to know that I don&#39;t have perfect understanding and knowledge of the topic and besides my view, I still use genai weekly: It has dramatically increased the amount of low-quality, AI-generated content online, making it harder to find genuine information and discussion. Misinformation, scams, impersonation, and deepfakes have become much easier and cheaper to produce Many pe\u2026",
+      "text": "CMV: modern generative ai has been a net negative to society this far\nHere&#39;s some of my reasoning, though I want you to know that I don&#39;t have perfect understanding and knowledge of the topic and besides my view, I still use genai weekly: It has dramatically increased the amount of low-quality, AI-generated content online, making it harder to find genuine information and discussion. Misinformation, scams, impersonation, and deepfakes have become much easier and cheaper to produce Many pe…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "CMV: modern generative ai has been a net negative to society this far\nHere&#39;s\u2026",
+          "title": "CMV: modern generative ai has been a net negative to society this far\nHere&#39;s…",
           "url": "https://www.reddit.com/r/changemyview/comments/1vf8rfu/cmv_modern_generative_ai_has_been_a_net_negative/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "AI and Superconducting Magnets Revive the Stellarator for Continuous Fusion Power\nA stellarator is an experimental fusion machine with a complex, twisted 3D magnetic geometry designed to confine plasma hotter than the Sun. For decades, its intricate design made it difficult to achieve effective plasma confinement. Now, Munich-based Proxima Fusion, a spin-off of the Max Planck Institute for Plasma Physics, is using advanced computing, AI-driven optimization and high-temperature superconducting (H\u2026",
+      "text": "AI and Superconducting Magnets Revive the Stellarator for Continuous Fusion Power\nA stellarator is an experimental fusion machine with a complex, twisted 3D magnetic geometry designed to confine plasma hotter than the Sun. For decades, its intricate design made it difficult to achieve effective plasma confinement. Now, Munich-based Proxima Fusion, a spin-off of the Max Planck Institute for Plasma Physics, is using advanced computing, AI-driven optimization and high-temperature superconducting (H…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI and Superconducting Magnets Revive the Stellarator for Continuous Fusion Powe\u2026",
+          "title": "AI and Superconducting Magnets Revive the Stellarator for Continuous Fusion Powe…",
           "url": "https://www.reddit.com/r/STEW_ScTecEngWorld/comments/1vwqfqo/ai_and_superconducting_magnets_revive_the/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "No, AI will not save the Masquerade\nI&#39;ve seen this point raised a lot in the past few years as a potential way that the Masquerade will remain feasible despite the surveillance era we&#39;re all enduring. It&#39;s so prevalent, we&#39;ve even seen it appear in the VtM6 playtest material. The new digital world of post-truth and AI slop has turned out beautifully for the Masquerade. No one believes in anything anymore. Everything is staged, posed, faked. Vampires take advantage of it, though t\u2026",
+      "text": "No, AI will not save the Masquerade\nI&#39;ve seen this point raised a lot in the past few years as a potential way that the Masquerade will remain feasible despite the surveillance era we&#39;re all enduring. It&#39;s so prevalent, we&#39;ve even seen it appear in the VtM6 playtest material. The new digital world of post-truth and AI slop has turned out beautifully for the Masquerade. No one believes in anything anymore. Everything is staged, posed, faked. Vampires take advantage of it, though t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "No, AI will not save the Masquerade\nI&#39;ve seen this point raised a lot in the\u2026",
+          "title": "No, AI will not save the Masquerade\nI&#39;ve seen this point raised a lot in the…",
           "url": "https://www.reddit.com/r/vtm/comments/1vmwjt6/no_ai_will_not_save_the_masquerade/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -674,13 +624,13 @@
     },
     {
       "id": "l532",
-      "text": "I'm trying to sell Ai Receptionists and Automations But CANT MAKE SHIT\nI&#39;m trying to make AI receptionists and automations, but nothing is fucking working. Nothing that I try to do is working at all, and I try cold calling. No one picks up the call. They just hang up on me, or they just curse me out under their breath. I&#39;m not trying to sell shit right here, but I&#39;m just trying to understand how to make actual freaking money because I&#39;m tired of this shit of getting no clients. I\u2026",
+      "text": "I'm trying to sell Ai Receptionists and Automations But CANT MAKE SHIT\nI&#39;m trying to make AI receptionists and automations, but nothing is fucking working. Nothing that I try to do is working at all, and I try cold calling. No one picks up the call. They just hang up on me, or they just curse me out under their breath. I&#39;m not trying to sell shit right here, but I&#39;m just trying to understand how to make actual freaking money because I&#39;m tired of this shit of getting no clients. I…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I'm trying to sell Ai Receptionists and Automations But CANT MAKE SHIT\nI&#39;m t\u2026",
+          "title": "I'm trying to sell Ai Receptionists and Automations But CANT MAKE SHIT\nI&#39;m t…",
           "url": "https://www.reddit.com/r/smallbusiness/comments/1vzfijv/im_trying_to_sell_ai_receptionists_and/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -695,13 +645,13 @@
     },
     {
       "id": "l533",
-      "text": "How I\u2019d Turn $350 Into a $10K/Month AI Agency",
+      "text": "How I’d Turn $350 Into a $10K/Month AI Agency",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "How I\u2019d Turn $350 Into a $10K/Month AI Agency",
+          "title": "How I’d Turn $350 Into a $10K/Month AI Agency",
           "url": "https://x.com/arfujeddy14/status/2090082018482643318",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "\u2018By this measure, jobs like \u201caccountants and auditors\u201d and \u201creceptionists and information clerks\u201d were among those judged most susceptible to AI automation, while jobs like \u201cchief executive\u201d and \u201cregistered nurse\u201d were among those using AI augmentation most often.\u2019",
+      "text": "‘By this measure, jobs like “accountants and auditors” and “receptionists and information clerks” were among those judged most susceptible to AI automation, while jobs like “chief executive” and “registered nurse” were among those using AI augmentation most often.’",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u2018By this measure, jobs like \u201caccountants and auditors\u201d and \u201creceptionists and in\u2026",
+          "title": "‘By this measure, jobs like “accountants and auditors” and “receptionists and in…",
           "url": "https://x.com/LiChang8/status/2092197902877872250",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "THIS IS THE CLEAREST AI AGENT BREAKDOWN ON THE INTERNET.\n\nHe broke down the Hermes harness from scratch:\n\n\u2013 gateway interface (how messages get in)\n\u2013 the agent loop (where most builds break)\n\u2013 ephemeral vs persistent memory\n\u2013 tool calls end to end\n\u2013 LLM ops that survive production\n\nNo fluff. No framework pitch. Just the actual architecture.\n\nBookmark this one before you lose it",
+      "text": "THIS IS THE CLEAREST AI AGENT BREAKDOWN ON THE INTERNET.\n\nHe broke down the Hermes harness from scratch:\n\n– gateway interface (how messages get in)\n– the agent loop (where most builds break)\n– ephemeral vs persistent memory\n– tool calls end to end\n– LLM ops that survive production\n\nNo fluff. No framework pitch. Just the actual architecture.\n\nBookmark this one before you lose it",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "THIS IS THE CLEAREST AI AGENT BREAKDOWN ON THE INTERNET.\n\nHe broke down the Herm\u2026",
+          "title": "THIS IS THE CLEAREST AI AGENT BREAKDOWN ON THE INTERNET.\n\nHe broke down the Herm…",
           "url": "https://x.com/arfujeddy14/status/2081033308658376712",
           "date": "2026-07-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -827,7 +777,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Goldman Sachs: The U.S. labor market is healthier now than when ChatGPT launched\u2026",
+          "title": "Goldman Sachs: The U.S. labor market is healthier now than when ChatGPT launched…",
           "url": "https://x.com/OwenGregorian/status/2057080944717082967",
           "date": "2026-05-20",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "Best daily AI habit I adopted in 2026:\n\nBefore asking anything important, I first ask the AI:\n\n\u201cHelp me ask a better question about [topic]. Make it more specific and useful.\u201d\n\nThen I use the improved version.\n\nSaves time, cuts bad answers, and trains you to think clearer.\n\nTook me 30 seconds a day and completely changed how I use AI.\n\nTry it once today, you\u2019ll see what I mean.",
+      "text": "Best daily AI habit I adopted in 2026:\n\nBefore asking anything important, I first ask the AI:\n\n“Help me ask a better question about [topic]. Make it more specific and useful.”\n\nThen I use the improved version.\n\nSaves time, cuts bad answers, and trains you to think clearer.\n\nTook me 30 seconds a day and completely changed how I use AI.\n\nTry it once today, you’ll see what I mean.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Best daily AI habit I adopted in 2026:\n\nBefore asking anything important, I firs\u2026",
+          "title": "Best daily AI habit I adopted in 2026:\n\nBefore asking anything important, I firs…",
           "url": "https://x.com/arfujeddy14/status/2029971036997923060",
           "date": "2026-03-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -863,13 +813,13 @@
     },
     {
       "id": "l541",
-      "text": "15 Jobs AI Kills First By 2027 \u2014 The Real List\nThe federal government flagged eighteen occupations as exposed to artificial intelligence. Between May 2024 and May 2025, employment across those jobs fell while employment in the rest of the country went up. That is not a forecast. It is a measurement, and almost nobody read it out loud.\n\nThis video reads all fifteen, in order, with the number attached to each one.\n\nTypists down 36 percent, the steepest decline of any occupation in America. Telepho\u2026",
+      "text": "15 Jobs AI Kills First By 2027 — The Real List\nThe federal government flagged eighteen occupations as exposed to artificial intelligence. Between May 2024 and May 2025, employment across those jobs fell while employment in the rest of the country went up. That is not a forecast. It is a measurement, and almost nobody read it out loud.\n\nThis video reads all fifteen, in order, with the number attached to each one.\n\nTypists down 36 percent, the steepest decline of any occupation in America. Telepho…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "15 Jobs AI Kills First By 2027 \u2014 The Real List\nThe federal government flagged ei\u2026",
+          "title": "15 Jobs AI Kills First By 2027 — The Real List\nThe federal government flagged ei…",
           "url": "https://www.youtube.com/watch?v=BclYk0alFVw",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -884,13 +834,13 @@
     },
     {
       "id": "l542",
-      "text": "AI Receptionist ROI: 7 Numbers That Tell You If It Actually Works\nAn AI receptionist can sound human and still be a bad investment.\n\nIn this video, we break down the 7 metrics that actually tell you whether an AI receptionist is creating business value after launch:\n\n1. Answer coverage\n2. Qualified opportunity rate\n3. Booking rate\n4. Show rate and downstream conversion\n5. CRM and follow-up completion\n6. Exception, handoff and cleanup rate\n7. Net economic return\n\nThe point is simple: do not buy t\u2026",
+      "text": "AI Receptionist ROI: 7 Numbers That Tell You If It Actually Works\nAn AI receptionist can sound human and still be a bad investment.\n\nIn this video, we break down the 7 metrics that actually tell you whether an AI receptionist is creating business value after launch:\n\n1. Answer coverage\n2. Qualified opportunity rate\n3. Booking rate\n4. Show rate and downstream conversion\n5. CRM and follow-up completion\n6. Exception, handoff and cleanup rate\n7. Net economic return\n\nThe point is simple: do not buy t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Receptionist ROI: 7 Numbers That Tell You If It Actually Works\nAn AI receptio\u2026",
+          "title": "AI Receptionist ROI: 7 Numbers That Tell You If It Actually Works\nAn AI receptio…",
           "url": "https://www.youtube.com/watch?v=t-t-huDBW1g",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "NERI Seminar: The Pink-Collar Trap: Occupational Segregation and Gendered Vulnerability to AI\nThe NERI seminar titled 'The Pink-Collar Trap: Occupational Segregation and Gendered Vulnerability to AI' was presented by Ms. Thais Palanca, PhD Student, NOVA School of Business and Economics, Portugal.  It took place on Wednesday 17 June, 2026 at 15:30 as an online Zoom event. \n\nLecture Format:\n\nMs. Thais Palanca, PhD Student, NOVA School of Business and Economics, Portugal made her presentation for b\u2026",
+      "text": "NERI Seminar: The Pink-Collar Trap: Occupational Segregation and Gendered Vulnerability to AI\nThe NERI seminar titled 'The Pink-Collar Trap: Occupational Segregation and Gendered Vulnerability to AI' was presented by Ms. Thais Palanca, PhD Student, NOVA School of Business and Economics, Portugal.  It took place on Wednesday 17 June, 2026 at 15:30 as an online Zoom event. \n\nLecture Format:\n\nMs. Thais Palanca, PhD Student, NOVA School of Business and Economics, Portugal made her presentation for b…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "NERI Seminar: The Pink-Collar Trap: Occupational Segregation and Gendered Vulner\u2026",
+          "title": "NERI Seminar: The Pink-Collar Trap: Occupational Segregation and Gendered Vulner…",
           "url": "https://www.youtube.com/watch?v=gMpgjdxPj8A",
           "date": "2026-06-25",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -926,13 +876,13 @@
     },
     {
       "id": "l544",
-      "text": "Episode 10 Pamela Frost - Disrupt Yourself Before the AI Does (aka Reimagine Your Relevance)\nDon\u2019t panic. In this engaging episode, I picked up Career Transition expert, Pamela Frost.\n\nPamela has thirty years of expertise across capability assessment, talent management, career transition coaching, leadership development and employee engagement.\n\nPamela is the founder and CEO of Adapt and Thrive, a multi-tool, multi-layered AI platform enabling people to realise their potential and develop the ca\u2026",
+      "text": "Episode 10 Pamela Frost - Disrupt Yourself Before the AI Does (aka Reimagine Your Relevance)\nDon’t panic. In this engaging episode, I picked up Career Transition expert, Pamela Frost.\n\nPamela has thirty years of expertise across capability assessment, talent management, career transition coaching, leadership development and employee engagement.\n\nPamela is the founder and CEO of Adapt and Thrive, a multi-tool, multi-layered AI platform enabling people to realise their potential and develop the ca…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Episode 10 Pamela Frost - Disrupt Yourself Before the AI Does (aka Reimagine You\u2026",
+          "title": "Episode 10 Pamela Frost - Disrupt Yourself Before the AI Does (aka Reimagine You…",
           "url": "https://www.youtube.com/watch?v=YrmuWVbnxIA",
           "date": "2026-07-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "AI Automation Jobs Disappear 2027 McKinsey Report\nMcKinsey confirmed it. 400 million jobs disappear by 2027. Not speculation. Not maybe. Real data. Real timeline. Goldman Sachs reports 44% of administrative work gets automated in the next 36 months. Customer service representatives. Data entry clerks. Junior analysts. Entry-level finance roles. All obsolete by 2027. Microsoft already automated 10,000 support tickets daily using GPT-4. Bank of America deployed ERICA handling 100 million interacti\u2026",
+      "text": "AI Automation Jobs Disappear 2027 McKinsey Report\nMcKinsey confirmed it. 400 million jobs disappear by 2027. Not speculation. Not maybe. Real data. Real timeline. Goldman Sachs reports 44% of administrative work gets automated in the next 36 months. Customer service representatives. Data entry clerks. Junior analysts. Entry-level finance roles. All obsolete by 2027. Microsoft already automated 10,000 support tickets daily using GPT-4. Bank of America deployed ERICA handling 100 million interacti…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Automation Jobs Disappear 2027 McKinsey Report\nMcKinsey confirmed it. 400 mil\u2026",
+          "title": "AI Automation Jobs Disappear 2027 McKinsey Report\nMcKinsey confirmed it. 400 mil…",
           "url": "https://www.youtube.com/watch?v=e8B295oUl9Q",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -968,7 +918,7 @@
     },
     {
       "id": "l446",
-      "text": "Receptionist \u2014 EML Group (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Receptionist — EML Group (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -989,7 +939,7 @@
     },
     {
       "id": "l447",
-      "text": "Full Time Receptionist \u2014 VetPartners Australia and New Zealand (Mentone, Victoria, Australia). Posted 4 months ago.",
+      "text": "Full Time Receptionist — VetPartners Australia and New Zealand (Mentone, Victoria, Australia). Posted 4 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1010,7 +960,7 @@
     },
     {
       "id": "l448",
-      "text": "Receptionist \u2014 VetPartners Australia and New Zealand (Caulfield East, Victoria, Australia). Posted 1 week ago.",
+      "text": "Receptionist — VetPartners Australia and New Zealand (Caulfield East, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1031,7 +981,7 @@
     },
     {
       "id": "l449",
-      "text": "Dental Receptionist \u2014 Impression Dental Group (Andergrove, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Dental Receptionist — Impression Dental Group (Andergrove, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1052,7 +1002,7 @@
     },
     {
       "id": "l450",
-      "text": "Receptionist / Administration Assistant \u2014 Regis Resources Ltd (Perth, Western Australia, Australia). Posted 1 week ago.",
+      "text": "Receptionist / Administration Assistant — Regis Resources Ltd (Perth, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1073,7 +1023,7 @@
     },
     {
       "id": "l451",
-      "text": "Medical Receptionist \u2014 Lumus Imaging (Kippa-Ring, Queensland, Australia). Posted 1 day ago.",
+      "text": "Medical Receptionist — Lumus Imaging (Kippa-Ring, Queensland, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1094,7 +1044,7 @@
     },
     {
       "id": "l452",
-      "text": "Receptionist \u2014 CBRE (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "text": "Receptionist — CBRE (Melbourne, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1115,7 +1065,7 @@
     },
     {
       "id": "l453",
-      "text": "Dental Receptionist \u2014 Impression Dental Group (Indooroopilly, Queensland, Australia). Posted 1 day ago.",
+      "text": "Dental Receptionist — Impression Dental Group (Indooroopilly, Queensland, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1136,7 +1086,7 @@
     },
     {
       "id": "l454",
-      "text": "Receptionist \u2014 Qscan Group (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Receptionist — Qscan Group (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1157,7 +1107,7 @@
     },
     {
       "id": "l455",
-      "text": "Receptionist | Brisbane \u2014 McInnes Wilson (Brisbane City, Queensland, Australia). Posted 5 days ago.",
+      "text": "Receptionist | Brisbane — McInnes Wilson (Brisbane City, Queensland, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1178,13 +1128,13 @@
     },
     {
       "id": "l556",
-      "text": "fix(security): add rate limiting to all 4 services [P0]\n## Summary\n\nCloses #223 (P0 SEC-4 \u2014 `Add Rate Limiting Across All Services`).\n\nAll four backend services were unprotected against request flooding / brute force / runaway clients. This PR adds per-IP rate limiting to every service, with tighter limits on PHI endpoints.\n\n## Changes per service\n\n| Ser\n[vc]: #IDRnH6r0Ksn2kWwno/GctBMKsldR7PzYqqGso9jr+D0=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJjb250b3NvLXZpYmU\u2026",
+      "text": "fix(security): add rate limiting to all 4 services [P0]\n## Summary\n\nCloses #223 (P0 SEC-4 — `Add Rate Limiting Across All Services`).\n\nAll four backend services were unprotected against request flooding / brute force / runaway clients. This PR adds per-IP rate limiting to every service, with tighter limits on PHI endpoints.\n\n## Changes per service\n\n| Ser\n[vc]: #IDRnH6r0Ksn2kWwno/GctBMKsldR7PzYqqGso9jr+D0=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJjb250b3NvLXZpYmU…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "fix(security): add rate limiting to all 4 services [P0]\n## Summary\n\nCloses #223 \u2026",
+          "title": "fix(security): add rate limiting to all 4 services [P0]\n## Summary\n\nCloses #223 …",
           "url": "https://github.com/VeVarunSharma/contoso-vibe-engineering/pull/290",
           "date": "2026-05-03",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1199,13 +1149,13 @@
     },
     {
       "id": "l557",
-      "text": "Run the cross-metropolitan test, and fix the recode double-count in 8.2\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\nFour changes, arising from reviewing the report against an external critique of the \"10k jobs lost to AI\" framing.\n\n## 1. The cross-metropolitan comparison, which had never been run\n\nSections 3.2 and 8.10 both named this as the highest-priority test \u2014 the one that\n<!-- BUGBOT_FREE_TIER_DISABLED_UPSELL -->\nBugbot is not enabled for your account, so this pull request was not reviewed.\n\nEnabl\u2026",
+      "text": "Run the cross-metropolitan test, and fix the recode double-count in 8.2\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\nFour changes, arising from reviewing the report against an external critique of the \"10k jobs lost to AI\" framing.\n\n## 1. The cross-metropolitan comparison, which had never been run\n\nSections 3.2 and 8.10 both named this as the highest-priority test — the one that\n<!-- BUGBOT_FREE_TIER_DISABLED_UPSELL -->\nBugbot is not enabled for your account, so this pull request was not reviewed.\n\nEnabl…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Run the cross-metropolitan test, and fix the recode double-count in 8.2\n<!-- CUR\u2026",
+          "title": "Run the cross-metropolitan test, and fix the recode double-count in 8.2\n<!-- CUR…",
           "url": "https://github.com/hack4rva/richmond-ai-impact-analysis/pull/2",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1220,13 +1170,13 @@
     },
     {
       "id": "l558",
-      "text": "CMV: modern generative ai has been a net negative to society this far\nHere&#39;s some of my reasoning, though I want you to know that I don&#39;t have perfect understanding and knowledge of the topic and besides my view, I still use genai weekly: It has dramatically increased the amount of low-quality, AI-generated content online, making it harder to find genuine information and discussion. Misinformation, scams, impersonation, and deepfakes have become much easier and cheaper to produce Many pe\u2026",
+      "text": "CMV: modern generative ai has been a net negative to society this far\nHere&#39;s some of my reasoning, though I want you to know that I don&#39;t have perfect understanding and knowledge of the topic and besides my view, I still use genai weekly: It has dramatically increased the amount of low-quality, AI-generated content online, making it harder to find genuine information and discussion. Misinformation, scams, impersonation, and deepfakes have become much easier and cheaper to produce Many pe…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "CMV: modern generative ai has been a net negative to society this far\nHere&#39;s\u2026",
+          "title": "CMV: modern generative ai has been a net negative to society this far\nHere&#39;s…",
           "url": "https://www.reddit.com/r/changemyview/comments/1vf8rfu/cmv_modern_generative_ai_has_been_a_net_negative/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1241,13 +1191,13 @@
     },
     {
       "id": "l559",
-      "text": "AI and Superconducting Magnets Revive the Stellarator for Continuous Fusion Power\nA stellarator is an experimental fusion machine with a complex, twisted 3D magnetic geometry designed to confine plasma hotter than the Sun. For decades, its intricate design made it difficult to achieve effective plasma confinement. Now, Munich-based Proxima Fusion, a spin-off of the Max Planck Institute for Plasma Physics, is using advanced computing, AI-driven optimization and high-temperature superconducting (H\u2026",
+      "text": "AI and Superconducting Magnets Revive the Stellarator for Continuous Fusion Power\nA stellarator is an experimental fusion machine with a complex, twisted 3D magnetic geometry designed to confine plasma hotter than the Sun. For decades, its intricate design made it difficult to achieve effective plasma confinement. Now, Munich-based Proxima Fusion, a spin-off of the Max Planck Institute for Plasma Physics, is using advanced computing, AI-driven optimization and high-temperature superconducting (H…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI and Superconducting Magnets Revive the Stellarator for Continuous Fusion Powe\u2026",
+          "title": "AI and Superconducting Magnets Revive the Stellarator for Continuous Fusion Powe…",
           "url": "https://www.reddit.com/r/STEW_ScTecEngWorld/comments/1vwqfqo/ai_and_superconducting_magnets_revive_the/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1262,13 +1212,13 @@
     },
     {
       "id": "l560",
-      "text": "No, AI will not save the Masquerade\nI&#39;ve seen this point raised a lot in the past few years as a potential way that the Masquerade will remain feasible despite the surveillance era we&#39;re all enduring. It&#39;s so prevalent, we&#39;ve even seen it appear in the VtM6 playtest material. The new digital world of post-truth and AI slop has turned out beautifully for the Masquerade. No one believes in anything anymore. Everything is staged, posed, faked. Vampires take advantage of it, though t\u2026",
+      "text": "No, AI will not save the Masquerade\nI&#39;ve seen this point raised a lot in the past few years as a potential way that the Masquerade will remain feasible despite the surveillance era we&#39;re all enduring. It&#39;s so prevalent, we&#39;ve even seen it appear in the VtM6 playtest material. The new digital world of post-truth and AI slop has turned out beautifully for the Masquerade. No one believes in anything anymore. Everything is staged, posed, faked. Vampires take advantage of it, though t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "No, AI will not save the Masquerade\nI&#39;ve seen this point raised a lot in the\u2026",
+          "title": "No, AI will not save the Masquerade\nI&#39;ve seen this point raised a lot in the…",
           "url": "https://www.reddit.com/r/vtm/comments/1vmwjt6/no_ai_will_not_save_the_masquerade/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1283,13 +1233,13 @@
     },
     {
       "id": "l561",
-      "text": "I'm trying to sell Ai Receptionists and Automations But CANT MAKE SHIT\nI&#39;m trying to make AI receptionists and automations, but nothing is fucking working. Nothing that I try to do is working at all, and I try cold calling. No one picks up the call. They just hang up on me, or they just curse me out under their breath. I&#39;m not trying to sell shit right here, but I&#39;m just trying to understand how to make actual freaking money because I&#39;m tired of this shit of getting no clients. I\u2026",
+      "text": "I'm trying to sell Ai Receptionists and Automations But CANT MAKE SHIT\nI&#39;m trying to make AI receptionists and automations, but nothing is fucking working. Nothing that I try to do is working at all, and I try cold calling. No one picks up the call. They just hang up on me, or they just curse me out under their breath. I&#39;m not trying to sell shit right here, but I&#39;m just trying to understand how to make actual freaking money because I&#39;m tired of this shit of getting no clients. I…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I'm trying to sell Ai Receptionists and Automations But CANT MAKE SHIT\nI&#39;m t\u2026",
+          "title": "I'm trying to sell Ai Receptionists and Automations But CANT MAKE SHIT\nI&#39;m t…",
           "url": "https://www.reddit.com/r/smallbusiness/comments/1vzfijv/im_trying_to_sell_ai_receptionists_and/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1304,13 +1254,13 @@
     },
     {
       "id": "l562",
-      "text": "15 Jobs AI Kills First By 2027 \u2014 The Real List\nThe federal government flagged eighteen occupations as exposed to artificial intelligence. Between May 2024 and May 2025, employment across those jobs fell while employment in the rest of the country went up. That is not a forecast. It is a measurement, and almost nobody read it out loud.\n\nThis video reads all fifteen, in order, with the number attached to each one.\n\nTypists down 36 percent, the steepest decline of any occupation in America. Telepho\u2026",
+      "text": "15 Jobs AI Kills First By 2027 — The Real List\nThe federal government flagged eighteen occupations as exposed to artificial intelligence. Between May 2024 and May 2025, employment across those jobs fell while employment in the rest of the country went up. That is not a forecast. It is a measurement, and almost nobody read it out loud.\n\nThis video reads all fifteen, in order, with the number attached to each one.\n\nTypists down 36 percent, the steepest decline of any occupation in America. Telepho…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "15 Jobs AI Kills First By 2027 \u2014 The Real List\nThe federal government flagged ei\u2026",
+          "title": "15 Jobs AI Kills First By 2027 — The Real List\nThe federal government flagged ei…",
           "url": "https://www.youtube.com/watch?v=BclYk0alFVw",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1325,13 +1275,13 @@
     },
     {
       "id": "l563",
-      "text": "AI Receptionist ROI: 7 Numbers That Tell You If It Actually Works\nAn AI receptionist can sound human and still be a bad investment.\n\nIn this video, we break down the 7 metrics that actually tell you whether an AI receptionist is creating business value after launch:\n\n1. Answer coverage\n2. Qualified opportunity rate\n3. Booking rate\n4. Show rate and downstream conversion\n5. CRM and follow-up completion\n6. Exception, handoff and cleanup rate\n7. Net economic return\n\nThe point is simple: do not buy t\u2026",
+      "text": "AI Receptionist ROI: 7 Numbers That Tell You If It Actually Works\nAn AI receptionist can sound human and still be a bad investment.\n\nIn this video, we break down the 7 metrics that actually tell you whether an AI receptionist is creating business value after launch:\n\n1. Answer coverage\n2. Qualified opportunity rate\n3. Booking rate\n4. Show rate and downstream conversion\n5. CRM and follow-up completion\n6. Exception, handoff and cleanup rate\n7. Net economic return\n\nThe point is simple: do not buy t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Receptionist ROI: 7 Numbers That Tell You If It Actually Works\nAn AI receptio\u2026",
+          "title": "AI Receptionist ROI: 7 Numbers That Tell You If It Actually Works\nAn AI receptio…",
           "url": "https://www.youtube.com/watch?v=t-t-huDBW1g",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1346,13 +1296,13 @@
     },
     {
       "id": "l564",
-      "text": "NERI Seminar: The Pink-Collar Trap: Occupational Segregation and Gendered Vulnerability to AI\nThe NERI seminar titled 'The Pink-Collar Trap: Occupational Segregation and Gendered Vulnerability to AI' was presented by Ms. Thais Palanca, PhD Student, NOVA School of Business and Economics, Portugal.  It took place on Wednesday 17 June, 2026 at 15:30 as an online Zoom event. \n\nLecture Format:\n\nMs. Thais Palanca, PhD Student, NOVA School of Business and Economics, Portugal made her presentation for b\u2026",
+      "text": "NERI Seminar: The Pink-Collar Trap: Occupational Segregation and Gendered Vulnerability to AI\nThe NERI seminar titled 'The Pink-Collar Trap: Occupational Segregation and Gendered Vulnerability to AI' was presented by Ms. Thais Palanca, PhD Student, NOVA School of Business and Economics, Portugal.  It took place on Wednesday 17 June, 2026 at 15:30 as an online Zoom event. \n\nLecture Format:\n\nMs. Thais Palanca, PhD Student, NOVA School of Business and Economics, Portugal made her presentation for b…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "NERI Seminar: The Pink-Collar Trap: Occupational Segregation and Gendered Vulner\u2026",
+          "title": "NERI Seminar: The Pink-Collar Trap: Occupational Segregation and Gendered Vulner…",
           "url": "https://www.youtube.com/watch?v=gMpgjdxPj8A",
           "date": "2026-06-25",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1367,13 +1317,13 @@
     },
     {
       "id": "l565",
-      "text": "Episode 10 Pamela Frost - Disrupt Yourself Before the AI Does (aka Reimagine Your Relevance)\nDon\u2019t panic. In this engaging episode, I picked up Career Transition expert, Pamela Frost.\n\nPamela has thirty years of expertise across capability assessment, talent management, career transition coaching, leadership development and employee engagement.\n\nPamela is the founder and CEO of Adapt and Thrive, a multi-tool, multi-layered AI platform enabling people to realise their potential and develop the ca\u2026",
+      "text": "Episode 10 Pamela Frost - Disrupt Yourself Before the AI Does (aka Reimagine Your Relevance)\nDon’t panic. In this engaging episode, I picked up Career Transition expert, Pamela Frost.\n\nPamela has thirty years of expertise across capability assessment, talent management, career transition coaching, leadership development and employee engagement.\n\nPamela is the founder and CEO of Adapt and Thrive, a multi-tool, multi-layered AI platform enabling people to realise their potential and develop the ca…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Episode 10 Pamela Frost - Disrupt Yourself Before the AI Does (aka Reimagine You\u2026",
+          "title": "Episode 10 Pamela Frost - Disrupt Yourself Before the AI Does (aka Reimagine You…",
           "url": "https://www.youtube.com/watch?v=YrmuWVbnxIA",
           "date": "2026-07-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1388,13 +1338,13 @@
     },
     {
       "id": "l566",
-      "text": "AI Automation Jobs Disappear 2027 McKinsey Report\nMcKinsey confirmed it. 400 million jobs disappear by 2027. Not speculation. Not maybe. Real data. Real timeline. Goldman Sachs reports 44% of administrative work gets automated in the next 36 months. Customer service representatives. Data entry clerks. Junior analysts. Entry-level finance roles. All obsolete by 2027. Microsoft already automated 10,000 support tickets daily using GPT-4. Bank of America deployed ERICA handling 100 million interacti\u2026",
+      "text": "AI Automation Jobs Disappear 2027 McKinsey Report\nMcKinsey confirmed it. 400 million jobs disappear by 2027. Not speculation. Not maybe. Real data. Real timeline. Goldman Sachs reports 44% of administrative work gets automated in the next 36 months. Customer service representatives. Data entry clerks. Junior analysts. Entry-level finance roles. All obsolete by 2027. Microsoft already automated 10,000 support tickets daily using GPT-4. Bank of America deployed ERICA handling 100 million interacti…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Automation Jobs Disappear 2027 McKinsey Report\nMcKinsey confirmed it. 400 mil\u2026",
+          "title": "AI Automation Jobs Disappear 2027 McKinsey Report\nMcKinsey confirmed it. 400 mil…",
           "url": "https://www.youtube.com/watch?v=e8B295oUl9Q",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1485,6 +1435,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

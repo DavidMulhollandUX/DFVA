@@ -16,64 +16,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "29-1199-01",
-      "text": "National peak professional bodies and statutory regulators governing Health Diagnosing and Treating Practitioners, All Other enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Health Diagnosing and Treating Practitioners, All Other",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Health Diagnosing and Treating Practitioners, All Other",
-          "url": "https://www.psc.gov.au/standards/29-1199",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Health Diagnosing and Treating Practitioners, All Other"
-        }
-      ],
-      "scope": "Australian practitioners in Health Diagnosing and Treating Practitioners, All Other across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "29-1199-02",
-      "text": "Automation of routine transactional and analytical tasks in Health Diagnosing and Treating Practitioners, All Other heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Health Diagnosing and Treating Practitioners, All Other",
-          "url": "https://www.jobsandskills.gov.au/research/29-1199",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Health Diagnosing and Treating Practitioners, All Other in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Health Diagnosing and Treating Practitioners, All Other roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "fix(gateway): distinguish disconnected from stuck in health-monitor restart reason\n## Summary\n\n- **Problem:** `resolveChannelRestartReason` does not handle `disconnected` evaluation reason explicitly \u2014 it falls through to `\"stuck\"`, conflating a clean WebSocket drop (e.g. Discord code 1006) with a genuinely stalled channel.\n- **Why it matters:** Operators diagnosing multi-bot rest",
+      "text": "fix(gateway): distinguish disconnected from stuck in health-monitor restart reason\n## Summary\n\n- **Problem:** `resolveChannelRestartReason` does not handle `disconnected` evaluation reason explicitly — it falls through to `\"stuck\"`, conflating a clean WebSocket drop (e.g. Discord code 1006) with a genuinely stalled channel.\n- **Why it matters:** Operators diagnosing multi-bot rest",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "fix(gateway): distinguish disconnected from stuck in health-monitor restart reas\u2026",
+          "title": "fix(gateway): distinguish disconnected from stuck in health-monitor restart reas…",
           "url": "https://github.com/openclaw/openclaw/pull/36436",
           "date": "2026-03-05",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -298,13 +248,13 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -361,13 +311,13 @@
     },
     {
       "id": "l517",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -508,13 +458,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -550,13 +500,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -571,13 +521,13 @@
     },
     {
       "id": "l527",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -592,13 +542,13 @@
     },
     {
       "id": "l528",
-      "text": "Sibling is in a \"relationship\" with AI and it's killing me inside\nOriginally posted by user anonymousaccount2411 in r/ offmychest Original : Nov 26, 2025 Update: Dec 23, 2025 Status : no further updates from OOP Note : thanks to u/WattlesFlowerThrowRA for suggestion to BORU ---------------------------------------------------------------------------------------------- Original: My sibling is in a &quot;relationship&quot; with AI and it&#39;s killing me inside because this is completely delusional\u2026",
+      "text": "Sibling is in a \"relationship\" with AI and it's killing me inside\nOriginally posted by user anonymousaccount2411 in r/ offmychest Original : Nov 26, 2025 Update: Dec 23, 2025 Status : no further updates from OOP Note : thanks to u/WattlesFlowerThrowRA for suggestion to BORU ---------------------------------------------------------------------------------------------- Original: My sibling is in a &quot;relationship&quot; with AI and it&#39;s killing me inside because this is completely delusional…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sibling is in a \"relationship\" with AI and it's killing me inside\nOriginally pos\u2026",
+          "title": "Sibling is in a \"relationship\" with AI and it's killing me inside\nOriginally pos…",
           "url": "https://www.reddit.com/r/BORUpdates/comments/1vrmv6n/sibling_is_in_a_relationship_with_ai_and_its/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -613,13 +563,13 @@
     },
     {
       "id": "l529",
-      "text": "How Can You Spot AI Tarot or Astrology Tools That Manipulate You Into Paying?\nWhich Three Manipulation Mechanics Separate a Predatory Divination App From a Reflective One? You can spot a manipulative AI tarot or astrology tool by testing for three specific mechanics: certainty language (does it predict rather than interpret?), dependency engineering (does it discourage you from leaving?), and fear-to-payment conversion (does it manufacture an ominous outcome that a paid upgrade resolves?). These\u2026",
+      "text": "How Can You Spot AI Tarot or Astrology Tools That Manipulate You Into Paying?\nWhich Three Manipulation Mechanics Separate a Predatory Divination App From a Reflective One? You can spot a manipulative AI tarot or astrology tool by testing for three specific mechanics: certainty language (does it predict rather than interpret?), dependency engineering (does it discourage you from leaving?), and fear-to-payment conversion (does it manufacture an ominous outcome that a paid upgrade resolves?). These…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "How Can You Spot AI Tarot or Astrology Tools That Manipulate You Into Paying?\nWh\u2026",
+          "title": "How Can You Spot AI Tarot or Astrology Tools That Manipulate You Into Paying?\nWh…",
           "url": "https://www.reddit.com/r/jenova_ai/comments/1vrimcv/how_can_you_spot_ai_tarot_or_astrology_tools_that/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -718,13 +668,13 @@
     },
     {
       "id": "l534",
-      "text": "Psychohistory for the Age of\u00a0AI",
+      "text": "Psychohistory for the Age of AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Psychohistory for the Age of\u00a0AI",
+          "title": "Psychohistory for the Age of AI",
           "url": "https://x.com/sebastian_rtj/status/2092335283492544791",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -802,13 +752,13 @@
     },
     {
       "id": "l538",
-      "text": "About the job\nAnduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century\u2019s most innovative companies to the defense industry, Anduril is changing how military systems are designed, built and sold. Anduril\u2019s family of systems is powered by Lattice OS, an AI-powered operating system that turns thousands of data streams into a realtime, 3D",
+      "text": "About the job\nAnduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how military systems are designed, built and sold. Anduril’s family of systems is powered by Lattice OS, an AI-powered operating system that turns thousands of data streams into a realtime, 3D",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "About the job\nAnduril Industries is a defense technology company with a mission \u2026",
+          "title": "About the job\nAnduril Industries is a defense technology company with a mission …",
           "url": "https://x.com/sumbios/status/2092161057217265948",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -829,7 +779,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Alexa and others are just too limiting, not to mention since they're cloud based\u2026",
+          "title": "Alexa and others are just too limiting, not to mention since they're cloud based…",
           "url": "https://x.com/CarlB_jr/status/2092095017695219995",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -844,13 +794,13 @@
     },
     {
       "id": "l540",
-      "text": "The language in modern healthcare is getting more complex. It can empower you\u2026 or overwhelm you. Here\u2019s a quick cheat sheet to navigate it \ud83d\udc47\n\n\ud83e\ude7a \ud835\uddd6\ud835\uddfc\ud835\uddfb\ud835\ude03\ud835\uddf2\ud835\uddfb\ud835\ude01\ud835\uddf6\ud835\uddfc\ud835\uddfb\ud835\uddee\ud835\uddf9 \ud835\udde0\ud835\uddf2\ud835\uddf1\ud835\uddf6\ud835\uddf0\ud835\uddf6\ud835\uddfb\ud835\uddf2\nTraditional MD/DO care focused on diagnosing and treating acute issues, emergencies, and surgery. Reactive, insurance-based, and short visits. Best when something\u2019s wrong right now and you need answers fast.\n\n\ud83d\udd2c \ud835\udddc\ud835\uddfb\ud835\ude01\ud835\uddf2\ud835\uddf4\ud835\uddff\ud835\uddee\ud835\ude01\ud835\uddf6\ud835\ude03\ud835\uddf2 \ud835\udde0\ud835\uddf2\ud835\uddf1\ud835\uddf6\ud835\uddf0\ud835\uddf6\ud835\uddfb\ud835\uddf2\nDelivered by conventionally trained clinicians (MDs, DOs, NPs, etc.) who combine conventional care wit",
+      "text": "The language in modern healthcare is getting more complex. It can empower you… or overwhelm you. Here’s a quick cheat sheet to navigate it 👇\n\n🩺 𝗖𝗼𝗻𝘃𝗲𝗻𝘁𝗶𝗼𝗻𝗮𝗹 𝗠𝗲𝗱𝗶𝗰𝗶𝗻𝗲\nTraditional MD/DO care focused on diagnosing and treating acute issues, emergencies, and surgery. Reactive, insurance-based, and short visits. Best when something’s wrong right now and you need answers fast.\n\n🔬 𝗜𝗻𝘁𝗲𝗴𝗿𝗮𝘁𝗶𝘃𝗲 𝗠𝗲𝗱𝗶𝗰𝗶𝗻𝗲\nDelivered by conventionally trained clinicians (MDs, DOs, NPs, etc.) who combine conventional care wit",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The language in modern healthcare is getting more complex. It can empower you\u2026 o\u2026",
+          "title": "The language in modern healthcare is getting more complex. It can empower you… o…",
           "url": "https://x.com/cherylyeoh/status/2041923474424238119",
           "date": "2026-04-08",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -865,7 +815,7 @@
     },
     {
       "id": "l441",
-      "text": "Oral Health Therapist / Hygienist \u2014 National Dental Care (Kirwan, Queensland, Australia). Posted 2 days ago.",
+      "text": "Oral Health Therapist / Hygienist — National Dental Care (Kirwan, Queensland, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -886,7 +836,7 @@
     },
     {
       "id": "l442",
-      "text": "Dentist and OHT/Hygienist \u2014 National Dental Care (Gladstone, Queensland, Australia). Posted 6 days ago.",
+      "text": "Dentist and OHT/Hygienist — National Dental Care (Gladstone, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -907,7 +857,7 @@
     },
     {
       "id": "l443",
-      "text": "Sonographer \u2014 Radiology Tasmania (Launceston, Tasmania, Australia). Posted 9 hours ago.",
+      "text": "Sonographer — Radiology Tasmania (Launceston, Tasmania, Australia). Posted 9 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -928,13 +878,13 @@
     },
     {
       "id": "l444",
-      "text": "Speech Pathologist \u2013 Community \u2014 Timeless Healthcare Pty Ltd (Sydney, New South Wales, Australia). Posted 1 month ago.",
+      "text": "Speech Pathologist – Community — Timeless Healthcare Pty Ltd (Sydney, New South Wales, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
           "publisher": "Timeless Healthcare Pty Ltd",
-          "title": "Speech Pathologist \u2013 Community",
+          "title": "Speech Pathologist – Community",
           "url": "https://www.linkedin.com/jobs/view/4445613304",
           "date": "1 month ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
@@ -949,7 +899,7 @@
     },
     {
       "id": "l445",
-      "text": "Lithgow Chiropractor \u2014 Aligned Chiro (Lithgow, New South Wales, Australia). Posted 1 month ago.",
+      "text": "Lithgow Chiropractor — Aligned Chiro (Lithgow, New South Wales, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -970,7 +920,7 @@
     },
     {
       "id": "l446",
-      "text": "Speech Pathologist \u2014 Ability Action Australia (Belconnen, Australian Capital Territory, Australia). Posted 1 week ago.",
+      "text": "Speech Pathologist — Ability Action Australia (Belconnen, Australian Capital Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -991,7 +941,7 @@
     },
     {
       "id": "l447",
-      "text": "Speech Pathologist \u2014 Ability Action Australia (Hobart, Tasmania, Australia). Posted 6 days ago.",
+      "text": "Speech Pathologist — Ability Action Australia (Hobart, Tasmania, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1012,7 +962,7 @@
     },
     {
       "id": "l448",
-      "text": "Speech Pathologist | Launceston | Full-time \u2014 Optimum Health Solutions (Launceston, Tasmania, Australia). Posted 1 week ago.",
+      "text": "Speech Pathologist | Launceston | Full-time — Optimum Health Solutions (Launceston, Tasmania, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1033,7 +983,7 @@
     },
     {
       "id": "l449",
-      "text": "Speech Pathologist \u2014 Better Rehab (Central Coast, New South Wales, Australia). Posted 1 day ago.",
+      "text": "Speech Pathologist — Better Rehab (Central Coast, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1054,7 +1004,7 @@
     },
     {
       "id": "l450",
-      "text": "Podiatry - Podiatrist \u2014 cohealth (Melbourne, Victoria, Australia). Posted 6 days ago.",
+      "text": "Podiatry - Podiatrist — cohealth (Melbourne, Victoria, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1075,13 +1025,13 @@
     },
     {
       "id": "l551",
-      "text": "Sibling is in a \"relationship\" with AI and it's killing me inside\nOriginally posted by user anonymousaccount2411 in r/ offmychest Original : Nov 26, 2025 Update: Dec 23, 2025 Status : no further updates from OOP Note : thanks to u/WattlesFlowerThrowRA for suggestion to BORU ---------------------------------------------------------------------------------------------- Original: My sibling is in a &quot;relationship&quot; with AI and it&#39;s killing me inside because this is completely delusional\u2026",
+      "text": "Sibling is in a \"relationship\" with AI and it's killing me inside\nOriginally posted by user anonymousaccount2411 in r/ offmychest Original : Nov 26, 2025 Update: Dec 23, 2025 Status : no further updates from OOP Note : thanks to u/WattlesFlowerThrowRA for suggestion to BORU ---------------------------------------------------------------------------------------------- Original: My sibling is in a &quot;relationship&quot; with AI and it&#39;s killing me inside because this is completely delusional…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sibling is in a \"relationship\" with AI and it's killing me inside\nOriginally pos\u2026",
+          "title": "Sibling is in a \"relationship\" with AI and it's killing me inside\nOriginally pos…",
           "url": "https://www.reddit.com/r/BORUpdates/comments/1vrmv6n/sibling_is_in_a_relationship_with_ai_and_its/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1096,13 +1046,13 @@
     },
     {
       "id": "l552",
-      "text": "How Can You Spot AI Tarot or Astrology Tools That Manipulate You Into Paying?\nWhich Three Manipulation Mechanics Separate a Predatory Divination App From a Reflective One? You can spot a manipulative AI tarot or astrology tool by testing for three specific mechanics: certainty language (does it predict rather than interpret?), dependency engineering (does it discourage you from leaving?), and fear-to-payment conversion (does it manufacture an ominous outcome that a paid upgrade resolves?). These\u2026",
+      "text": "How Can You Spot AI Tarot or Astrology Tools That Manipulate You Into Paying?\nWhich Three Manipulation Mechanics Separate a Predatory Divination App From a Reflective One? You can spot a manipulative AI tarot or astrology tool by testing for three specific mechanics: certainty language (does it predict rather than interpret?), dependency engineering (does it discourage you from leaving?), and fear-to-payment conversion (does it manufacture an ominous outcome that a paid upgrade resolves?). These…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "How Can You Spot AI Tarot or Astrology Tools That Manipulate You Into Paying?\nWh\u2026",
+          "title": "How Can You Spot AI Tarot or Astrology Tools That Manipulate You Into Paying?\nWh…",
           "url": "https://www.reddit.com/r/jenova_ai/comments/1vrimcv/how_can_you_spot_ai_tarot_or_astrology_tools_that/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1193,6 +1143,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

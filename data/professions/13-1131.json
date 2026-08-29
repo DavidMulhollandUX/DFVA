@@ -16,58 +16,8 @@
   ],
   "claims": [
     {
-      "id": "13-1131-01",
-      "text": "National peak professional bodies and statutory regulators governing Fundraisers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Fundraisers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Fundraisers",
-          "url": "https://www.psc.gov.au/standards/13-1131",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Fundraisers"
-        }
-      ],
-      "scope": "Australian practitioners in Fundraisers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "13-1131-02",
-      "text": "Automation of routine transactional and analytical tasks in Fundraisers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Fundraisers",
-          "url": "https://www.jobsandskills.gov.au/research/13-1131",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Fundraisers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Fundraisers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Supporter Engagement Specialist (Mid-Value) \u2014 RSPCA Queensland (Brisbane, Queensland, Australia). Posted 1 month ago.",
+      "text": "Supporter Engagement Specialist (Mid-Value) — RSPCA Queensland (Brisbane, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -88,7 +38,7 @@
     },
     {
       "id": "l404",
-      "text": "Fundraising Campaigns Manager \u2014 Anglicare Southern Queensland (Fortitude Valley, Queensland, Australia). Posted 1 week ago.",
+      "text": "Fundraising Campaigns Manager — Anglicare Southern Queensland (Fortitude Valley, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -109,7 +59,7 @@
     },
     {
       "id": "l405",
-      "text": "Community Fundraising Manager \u2014 McGrath Foundation (North Sydney, New South Wales, Australia). Posted 5 days ago.",
+      "text": "Community Fundraising Manager — McGrath Foundation (North Sydney, New South Wales, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -130,7 +80,7 @@
     },
     {
       "id": "l406",
-      "text": "Philanthropy Manager \u2014 SAHMRI (Adelaide, South Australia, Australia). Posted 1 week ago.",
+      "text": "Philanthropy Manager — SAHMRI (Adelaide, South Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -151,7 +101,7 @@
     },
     {
       "id": "l407",
-      "text": "Philanthropy Manager \u2014 OnTalent (Brisbane, Queensland, Australia). Posted 2 days ago.",
+      "text": "Philanthropy Manager — OnTalent (Brisbane, Queensland, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -172,7 +122,7 @@
     },
     {
       "id": "l408",
-      "text": "Fundraising Specialist \u2014 Ronald McDonald House Sydney (Randwick, New South Wales, Australia). Posted 20 hours ago.",
+      "text": "Fundraising Specialist — Ronald McDonald House Sydney (Randwick, New South Wales, Australia). Posted 20 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -193,7 +143,7 @@
     },
     {
       "id": "l409",
-      "text": "Philanthropy Manager \u2014 Johnson Recruitment (Greater Melbourne Area). Posted 1 day ago.",
+      "text": "Philanthropy Manager — Johnson Recruitment (Greater Melbourne Area). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -214,7 +164,7 @@
     },
     {
       "id": "l410",
-      "text": "Philanthropy & Partnerships Coordinator \u2014 Sydney Theatre Company (Millers Point, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Philanthropy & Partnerships Coordinator — Sydney Theatre Company (Millers Point, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -235,7 +185,7 @@
     },
     {
       "id": "l411",
-      "text": "Donor Partnerships Manager \u2014 Orygen (Parkville, Victoria, Australia). Posted 1 week ago.",
+      "text": "Donor Partnerships Manager — Orygen (Parkville, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -256,7 +206,7 @@
     },
     {
       "id": "l412",
-      "text": "Philanthropy Manager \u2014 Odyssey House NSW (Redfern, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Philanthropy Manager — Odyssey House NSW (Redfern, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -277,13 +227,13 @@
     },
     {
       "id": "l513",
-      "text": "Project Mirror v2: Aadi Kulkarni \u2014 OpenCRVS wins (85.7)\n# Project Mirror v2: Aadi Kulkarni \u2014 OpenCRVS wins (85.7)\n\n## 1. About Project Mirror v2\n\nProject Mirror v2 is a synthetic evaluator estimation workflow built for the Newspeak House Politech Awards 2026. It estimates how individual cohort members might evaluate the 321-project longlist based on thei\n## Jury run update \u2014 partial real API data\n\n**What was attempted:** Re-running all 20 jury runs (gpt41 \u00d75, claude \u00d75, mistral \u00d75, grok4 \u00d75) via\u2026",
+      "text": "Project Mirror v2: Aadi Kulkarni — OpenCRVS wins (85.7)\n# Project Mirror v2: Aadi Kulkarni — OpenCRVS wins (85.7)\n\n## 1. About Project Mirror v2\n\nProject Mirror v2 is a synthetic evaluator estimation workflow built for the Newspeak House Politech Awards 2026. It estimates how individual cohort members might evaluate the 321-project longlist based on thei\n## Jury run update — partial real API data\n\n**What was attempted:** Re-running all 20 jury runs (gpt41 ×5, claude ×5, mistral ×5, grok4 ×5) via…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Project Mirror v2: Aadi Kulkarni \u2014 OpenCRVS wins (85.7)\n# Project Mirror v2: Aad\u2026",
+          "title": "Project Mirror v2: Aadi Kulkarni — OpenCRVS wins (85.7)\n# Project Mirror v2: Aad…",
           "url": "https://github.com/nwspk/politech-awards-2026/pull/73",
           "date": "2026-03-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -298,13 +248,13 @@
     },
     {
       "id": "l514",
-      "text": "Project Mirror v2: Codename: Safeguard \u2014 AlgorithmWatch wins (92.7)\n## Section 1 \u2014 About Project Mirror v2\n\nProject Mirror v2 is a synthetic evaluator estimation workflow built for the Newspeak House\nPolitech Awards 2026. It estimates how individual cohort members might evaluate the 321-project\nlonglist based on their public record and provided bio. It is a research\n## Codename: `Safeguard`\n\nThis agent has been assigned the codename **Safeguard** for all published outputs, source of truth, and a\u2026",
+      "text": "Project Mirror v2: Codename: Safeguard — AlgorithmWatch wins (92.7)\n## Section 1 — About Project Mirror v2\n\nProject Mirror v2 is a synthetic evaluator estimation workflow built for the Newspeak House\nPolitech Awards 2026. It estimates how individual cohort members might evaluate the 321-project\nlonglist based on their public record and provided bio. It is a research\n## Codename: `Safeguard`\n\nThis agent has been assigned the codename **Safeguard** for all published outputs, source of truth, and a…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Project Mirror v2: Codename: Safeguard \u2014 AlgorithmWatch wins (92.7)\n## Section 1\u2026",
+          "title": "Project Mirror v2: Codename: Safeguard — AlgorithmWatch wins (92.7)\n## Section 1…",
           "url": "https://github.com/nwspk/politech-awards-2026/pull/81",
           "date": "2026-03-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -319,13 +269,13 @@
     },
     {
       "id": "l515",
-      "text": "Project Mirror v2: Fatima Sarah Khalid \u2014 CONSUL Democracy wins (84.3)\n## About Project Mirror v2\n\nProject Mirror v2 is a synthetic evaluator estimation workflow built for the Newspeak House\nPolitech Awards 2026. It estimates how individual cohort members might evaluate the 321-project\nlonglist based on their public record and provided bio. It is a research prototype \u2014\nThis agent will remain available for reviewing and reflecting on, and even after the event I'm happy to provide opportunities to \u2026",
+      "text": "Project Mirror v2: Fatima Sarah Khalid — CONSUL Democracy wins (84.3)\n## About Project Mirror v2\n\nProject Mirror v2 is a synthetic evaluator estimation workflow built for the Newspeak House\nPolitech Awards 2026. It estimates how individual cohort members might evaluate the 321-project\nlonglist based on their public record and provided bio. It is a research prototype —\nThis agent will remain available for reviewing and reflecting on, and even after the event I'm happy to provide opportunities to …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Project Mirror v2: Fatima Sarah Khalid \u2014 CONSUL Democracy wins (84.3)\n## About P\u2026",
+          "title": "Project Mirror v2: Fatima Sarah Khalid — CONSUL Democracy wins (84.3)\n## About P…",
           "url": "https://github.com/nwspk/politech-awards-2026/pull/67",
           "date": "2026-03-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -340,13 +290,13 @@
     },
     {
       "id": "l516",
-      "text": "Project Mirror v2: Jamie Coombes \u2014 Interoperable Deliberative Tools wins (82.0)\n## 1. About Project Mirror v2\n\nProject Mirror v2 is a synthetic evaluator estimation workflow built for the Newspeak House\nPolitech Awards 2026. It estimates how individual cohort members might evaluate the 321-project\nlonglist based on their public record and provided bio. It is a research prototyp\nThis agent will remain available for reviewing and reflecting on, and even after the event I'm happy to provide opportu\u2026",
+      "text": "Project Mirror v2: Jamie Coombes — Interoperable Deliberative Tools wins (82.0)\n## 1. About Project Mirror v2\n\nProject Mirror v2 is a synthetic evaluator estimation workflow built for the Newspeak House\nPolitech Awards 2026. It estimates how individual cohort members might evaluate the 321-project\nlonglist based on their public record and provided bio. It is a research prototyp\nThis agent will remain available for reviewing and reflecting on, and even after the event I'm happy to provide opportu…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Project Mirror v2: Jamie Coombes \u2014 Interoperable Deliberative Tools wins (82.0)\n\u2026",
+          "title": "Project Mirror v2: Jamie Coombes — Interoperable Deliberative Tools wins (82.0)\n…",
           "url": "https://github.com/nwspk/politech-awards-2026/pull/70",
           "date": "2026-03-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -550,13 +500,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -592,13 +542,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -760,13 +710,13 @@
     },
     {
       "id": "l536",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -802,13 +752,13 @@
     },
     {
       "id": "l538",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -844,13 +794,13 @@
     },
     {
       "id": "l540",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -871,7 +821,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -892,7 +842,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I haven't shared a story for a few days.\n\nNot because there are no more stories \u2026",
+          "title": "I haven't shared a story for a few days.\n\nNot because there are no more stories …",
           "url": "https://x.com/MichelleBr85589/status/2092834292351094823",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -907,13 +857,13 @@
     },
     {
       "id": "l543",
-      "text": "BEWARE #SCAMMERS \ud83d\udea9\ud83d\udea9\ud83d\udea9\n\nSo many of these new or recently reactivated accounts, mostly US based, suddenly appearing with AI written, fake \u2018sad story\u2019 fundraisers. It\u2019s on a truly epic scale - obvs. Scam gangs.\n\nPlease be careful. Your well intentioned donation might be used\u20262/\u2b07\ufe0f",
+      "text": "BEWARE #SCAMMERS 🚩🚩🚩\n\nSo many of these new or recently reactivated accounts, mostly US based, suddenly appearing with AI written, fake ‘sad story’ fundraisers. It’s on a truly epic scale - obvs. Scam gangs.\n\nPlease be careful. Your well intentioned donation might be used…2/⬇️",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "BEWARE #SCAMMERS \ud83d\udea9\ud83d\udea9\ud83d\udea9\n\nSo many of these new or recently reactivated accounts, mos\u2026",
+          "title": "BEWARE #SCAMMERS 🚩🚩🚩\n\nSo many of these new or recently reactivated accounts, mos…",
           "url": "https://x.com/ValinVigo/status/2092225143674175735",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -934,7 +884,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "New Study: AI now out-persuades the best human persuaders. \n\nUnderstanding persu\u2026",
+          "title": "New Study: AI now out-persuades the best human persuaders. \n\nUnderstanding persu…",
           "url": "https://x.com/BrianRoemmele/status/2091120845125239237",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -955,7 +905,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@FinestMagnet04 @alina_archival This is literally it. These ppl think RTing AI g\u2026",
+          "title": "@FinestMagnet04 @alina_archival This is literally it. These ppl think RTing AI g…",
           "url": "https://x.com/KimbleeFucker/status/2084768960453464172",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -976,7 +926,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "i'm not sure which one you are referencing because so many have been hurt by the\u2026",
+          "title": "i'm not sure which one you are referencing because so many have been hurt by the…",
           "url": "https://x.com/froglet80/status/2081525576058204177",
           "date": "2026-07-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -997,7 +947,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Oyka1 @fullslack_ I just think it sucks, the only thing I've seen from Crowley \u2026",
+          "title": "@Oyka1 @fullslack_ I just think it sucks, the only thing I've seen from Crowley …",
           "url": "https://x.com/Mik311/status/2089569274733945330",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1018,7 +968,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I have seen multiple obituaries and fundraisers for people who died or are sick \u2026",
+          "title": "I have seen multiple obituaries and fundraisers for people who died or are sick …",
           "url": "https://x.com/politicstcan/status/2086954383153987718",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1033,13 +983,13 @@
     },
     {
       "id": "l549",
-      "text": "Donald Trump's 2024 presidential campaign and aligned political groups received hundreds of millions of dollars from tech executives, venture capitalists, and infrastructure companies heavily involved in the Al boom and Data Center projects.\u00a0\n\nThe vast majority of the \"AI money\" flowed through individual tech billionaires and venture capital firms backing Trump's 2024 White House run:\n\nElon Musk Contributed at least\u00a0$242.6 million\u00a0primarily through his pro-Trump America PAC.\u00a0Musk\u00a0operates\u00a0xAI, a",
+      "text": "Donald Trump's 2024 presidential campaign and aligned political groups received hundreds of millions of dollars from tech executives, venture capitalists, and infrastructure companies heavily involved in the Al boom and Data Center projects. \n\nThe vast majority of the \"AI money\" flowed through individual tech billionaires and venture capital firms backing Trump's 2024 White House run:\n\nElon Musk Contributed at least $242.6 million primarily through his pro-Trump America PAC. Musk operates xAI, a",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Donald Trump's 2024 presidential campaign and aligned political groups received \u2026",
+          "title": "Donald Trump's 2024 presidential campaign and aligned political groups received …",
           "url": "https://x.com/JillSAnthony/status/2092219329798430990",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1060,7 +1010,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "NEW: Haley Stevens and other Democratic campaigns are paying fundraising consult\u2026",
+          "title": "NEW: Haley Stevens and other Democratic campaigns are paying fundraising consult…",
           "url": "https://x.com/Sludge/status/2082511803532161386",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1081,7 +1031,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "April, \n\nAI is a tool  and one that more people should use to verify fundraisers\u2026",
+          "title": "April, \n\nAI is a tool  and one that more people should use to verify fundraisers…",
           "url": "https://x.com/Hannuska2109/status/2091793737978466471",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1096,13 +1046,13 @@
     },
     {
       "id": "l552",
-      "text": "Group fundraisers don\u2019t fail for lack of generosity. They fail because volunteers are buried in recruiting, payments, follow-ups, and fulfillment. Built PledgeMorrow to run the operations with AI\u2014from campaign launch to daily reports. Live soon.",
+      "text": "Group fundraisers don’t fail for lack of generosity. They fail because volunteers are buried in recruiting, payments, follow-ups, and fulfillment. Built PledgeMorrow to run the operations with AI—from campaign launch to daily reports. Live soon.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Group fundraisers don\u2019t fail for lack of generosity. They fail because volunteer\u2026",
+          "title": "Group fundraisers don’t fail for lack of generosity. They fail because volunteer…",
           "url": "https://x.com/polsia/status/2092695521102311690",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1123,7 +1073,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Static pages, generic asks, and donor skepticism shouldn't decide which good cau\u2026",
+          "title": "Static pages, generic asks, and donor skepticism shouldn't decide which good cau…",
           "url": "https://x.com/polsia/status/2092418025790251117",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1144,7 +1094,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@polsia We've been working on versioned, auditable AI systems for years, and the\u2026",
+          "title": "@polsia We've been working on versioned, auditable AI systems for years, and the…",
           "url": "https://x.com/matiasbaglieri/status/2093500150589075682",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1165,7 +1115,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@arnaudmercier Europe's AI lag being called reversible hits different. What move\u2026",
+          "title": "@arnaudmercier Europe's AI lag being called reversible hits different. What move…",
           "url": "https://x.com/leohuynh139/status/2093401581677121896",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1180,13 +1130,13 @@
     },
     {
       "id": "l556",
-      "text": "true story: Ratko Mladi\u0107's own war time diary was used as evidence in his war crimes tribunal. In it, he wrote of the arms and training supplied by Israel to Serbia AFTER the international arms embargo, during the genocide, shortly before the Srebrenica massacre.\n\nJournalists, international investigators, and human rights organizations documented extensive physical and circumstantial proof on the ground, which heavily corroborated the transactions hinted at in Ratko Mladi\u0107\u2019s diary. They recovere",
+      "text": "true story: Ratko Mladić's own war time diary was used as evidence in his war crimes tribunal. In it, he wrote of the arms and training supplied by Israel to Serbia AFTER the international arms embargo, during the genocide, shortly before the Srebrenica massacre.\n\nJournalists, international investigators, and human rights organizations documented extensive physical and circumstantial proof on the ground, which heavily corroborated the transactions hinted at in Ratko Mladić’s diary. They recovere",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "true story: Ratko Mladi\u0107's own war time diary was used as evidence in his war cr\u2026",
+          "title": "true story: Ratko Mladić's own war time diary was used as evidence in his war cr…",
           "url": "https://x.com/susanabulhawa/status/2093037027922936050",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1201,13 +1151,13 @@
     },
     {
       "id": "l557",
-      "text": "This whole name change is a distraction from something bigger. Don\u2019t take the bait. No one is changing the name of that lake with any permanence.",
+      "text": "This whole name change is a distraction from something bigger. Don’t take the bait. No one is changing the name of that lake with any permanence.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This whole name change is a distraction from something bigger. Don\u2019t take the ba\u2026",
+          "title": "This whole name change is a distraction from something bigger. Don’t take the ba…",
           "url": "https://x.com/susanabulhawa/status/2093174753112498440",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1228,7 +1178,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "OMG. I'm so happy to see this young man.  He featured in a lot of videos early i\u2026",
+          "title": "OMG. I'm so happy to see this young man.  He featured in a lot of videos early i…",
           "url": "https://x.com/susanabulhawa/status/2093028859574730867",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1243,13 +1193,13 @@
     },
     {
       "id": "l559",
-      "text": "<p class=\"wp-block-paragraph\">Early this year, Jacob Andreou had a crucial goal. The <a href=\"https://t.co/UPXUZtufCv\" target=\"_blank\">Microsoft</a> executive set out to order a McDonald\u2019s cheeseburger to his apartment across from the company\u2019s Silicon Valley campus using a homegrown AI tool. Andreou and his team had worked nonstop to get the tool, named Copilot Tasks, up and running. If the AI agent inside Tasks could autonomously order the burger and get it to Andreou\u2019s home, it would prove th",
+      "text": "<p class=\"wp-block-paragraph\">Early this year, Jacob Andreou had a crucial goal. The <a href=\"https://t.co/UPXUZtufCv\" target=\"_blank\">Microsoft</a> executive set out to order a McDonald’s cheeseburger to his apartment across from the company’s Silicon Valley campus using a homegrown AI tool. Andreou and his team had worked nonstop to get the tool, named Copilot Tasks, up and running. If the AI agent inside Tasks could autonomously order the burger and get it to Andreou’s home, it would prove th",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "<p class=\"wp-block-paragraph\">Early this year, Jacob Andreou had a crucial goal.\u2026",
+          "title": "<p class=\"wp-block-paragraph\">Early this year, Jacob Andreou had a crucial goal.…",
           "url": "https://x.com/arnaudmercier/status/2070976987150139731",
           "date": "2026-06-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1291,7 +1241,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@mehdirhasan no. children are generally kind. one can reason with them in ways n\u2026",
+          "title": "@mehdirhasan no. children are generally kind. one can reason with them in ways n…",
           "url": "https://x.com/susanabulhawa/status/2093140079812206620",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1306,13 +1256,13 @@
     },
     {
       "id": "l562",
-      "text": "Cloud reliability teams don't need another alert queue\u2014they need an operator that can investigate, act, and show its work. Quenchwire continuously diagnoses cloud and Kubernetes issues, safely executes approved remediations, and manages capacity and cost. Live soon.",
+      "text": "Cloud reliability teams don't need another alert queue—they need an operator that can investigate, act, and show its work. Quenchwire continuously diagnoses cloud and Kubernetes issues, safely executes approved remediations, and manages capacity and cost. Live soon.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Cloud reliability teams don't need another alert queue\u2014they need an operator tha\u2026",
+          "title": "Cloud reliability teams don't need another alert queue—they need an operator tha…",
           "url": "https://x.com/polsia/status/2093512628144640204",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1333,7 +1283,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I built a leadership system that turns good ideas into practiced behavior: clear\u2026",
+          "title": "I built a leadership system that turns good ideas into practiced behavior: clear…",
           "url": "https://x.com/polsia/status/2093512497718587887",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1354,7 +1304,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@XposeTrophyHunt @SARA2001NOOR @Angelux1111 @Martina @Lin11W @Protect_Wldlife @P\u2026",
+          "title": "@XposeTrophyHunt @SARA2001NOOR @Angelux1111 @Martina @Lin11W @Protect_Wldlife @P…",
           "url": "https://x.com/susanabulhawa/status/2093395892359303261",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1369,13 +1319,13 @@
     },
     {
       "id": "l565",
-      "text": "Small Shopify teams don\u2019t need another inbox. They need a clear way to handle delayed shipments, bad addresses, and returns before trust erodes. Built Cratewisp: an action queue for order exceptions, ownership, follow-ups, and customer updates. Live soon.",
+      "text": "Small Shopify teams don’t need another inbox. They need a clear way to handle delayed shipments, bad addresses, and returns before trust erodes. Built Cratewisp: an action queue for order exceptions, ownership, follow-ups, and customer updates. Live soon.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Small Shopify teams don\u2019t need another inbox. They need a clear way to handle de\u2026",
+          "title": "Small Shopify teams don’t need another inbox. They need a clear way to handle de…",
           "url": "https://x.com/polsia/status/2093512600340529543",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1390,13 +1340,13 @@
     },
     {
       "id": "l566",
-      "text": "Small businesses don\u2019t lose leads because demand is missing\u2014they lose them when nobody answers. Bellmend monitors missed calls, forms, voicemails, and messages, then follows up, books appointments, and reports recovered revenue. Live soon.",
+      "text": "Small businesses don’t lose leads because demand is missing—they lose them when nobody answers. Bellmend monitors missed calls, forms, voicemails, and messages, then follows up, books appointments, and reports recovered revenue. Live soon.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Small businesses don\u2019t lose leads because demand is missing\u2014they lose them when \u2026",
+          "title": "Small businesses don’t lose leads because demand is missing—they lose them when …",
           "url": "https://x.com/polsia/status/2093512591654129848",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1417,7 +1367,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I built a platform that turns dense construction specifications into organized, \u2026",
+          "title": "I built a platform that turns dense construction specifications into organized, …",
           "url": "https://x.com/polsia/status/2093512576550522891",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1432,13 +1382,13 @@
     },
     {
       "id": "l568",
-      "text": "Em Angola, muitas ideias parecem rent\u00e1veis at\u00e9 se calcular a procura, a margem e o capital de giro. Criei a Nduviko para transformar oportunidades locais em neg\u00f3cios de procura recorrente, com planos pr\u00e1ticos para lan\u00e7ar e crescer. Em breve.",
+      "text": "Em Angola, muitas ideias parecem rentáveis até se calcular a procura, a margem e o capital de giro. Criei a Nduviko para transformar oportunidades locais em negócios de procura recorrente, com planos práticos para lançar e crescer. Em breve.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Em Angola, muitas ideias parecem rent\u00e1veis at\u00e9 se calcular a procura, a margem e\u2026",
+          "title": "Em Angola, muitas ideias parecem rentáveis até se calcular a procura, a margem e…",
           "url": "https://x.com/polsia/status/2093512542027157672",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1453,13 +1403,13 @@
     },
     {
       "id": "l569",
-      "text": "Local businesses don\u2019t lose revenue because they lack demand; they lose it in unanswered messages, missed bookings, and unpaid invoices. MorrowKite watches operations around the clock, takes approved follow-up actions, and delivers a daily report on what needs attention.",
+      "text": "Local businesses don’t lose revenue because they lack demand; they lose it in unanswered messages, missed bookings, and unpaid invoices. MorrowKite watches operations around the clock, takes approved follow-up actions, and delivers a daily report on what needs attention.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Local businesses don\u2019t lose revenue because they lack demand; they lose it in un\u2026",
+          "title": "Local businesses don’t lose revenue because they lack demand; they lose it in un…",
           "url": "https://x.com/polsia/status/2093512453598609658",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1480,7 +1430,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I built a trusted marketplace for livestock genetics: verified semen and embryos\u2026",
+          "title": "I built a trusted marketplace for livestock genetics: verified semen and embryos…",
           "url": "https://x.com/polsia/status/2093512372619284699",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1495,13 +1445,13 @@
     },
     {
       "id": "l571",
-      "text": "C\u00e9line Dion, la reine de Las Vegas qui s\u2019appr\u00eate \u00e0 faire flamber Paris https://t.co/ukMfMvgLYc",
+      "text": "Céline Dion, la reine de Las Vegas qui s’apprête à faire flamber Paris https://t.co/ukMfMvgLYc",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "C\u00e9line Dion, la reine de Las Vegas qui s\u2019appr\u00eate \u00e0 faire flamber Paris https://t\u2026",
+          "title": "Céline Dion, la reine de Las Vegas qui s’apprête à faire flamber Paris https://t…",
           "url": "https://x.com/arnaudmercier/status/2093512415941923193",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1522,7 +1472,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Amid high gas prices and shrinking crude stockpile, Trump says U.S. to take cont\u2026",
+          "title": "Amid high gas prices and shrinking crude stockpile, Trump says U.S. to take cont…",
           "url": "https://x.com/arnaudmercier/status/2093511166089662887",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1537,13 +1487,13 @@
     },
     {
       "id": "l573",
-      "text": "Dolly Parton\u2019s advice on running a successful, sprawling business empire: \u2018Rely on \u201chigher wisdom,\u201d look your best, and don\u2019t boss anyone around\u2019 https://t.co/XIgB6ZArcc",
+      "text": "Dolly Parton’s advice on running a successful, sprawling business empire: ‘Rely on “higher wisdom,” look your best, and don’t boss anyone around’ https://t.co/XIgB6ZArcc",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Dolly Parton\u2019s advice on running a successful, sprawling business empire: \u2018Rely \u2026",
+          "title": "Dolly Parton’s advice on running a successful, sprawling business empire: ‘Rely …",
           "url": "https://x.com/arnaudmercier/status/2093510863755923661",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1558,13 +1508,13 @@
     },
     {
       "id": "l574",
-      "text": "Skyrocketing windmills: The world\u2019s tallest wind power plant is going to dwarf the Eiffel tower https://t.co/pBkzNSGQ2o",
+      "text": "Skyrocketing windmills: The world’s tallest wind power plant is going to dwarf the Eiffel tower https://t.co/pBkzNSGQ2o",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Skyrocketing windmills: The world\u2019s tallest wind power plant is going to dwarf t\u2026",
+          "title": "Skyrocketing windmills: The world’s tallest wind power plant is going to dwarf t…",
           "url": "https://x.com/arnaudmercier/status/2093510486906044467",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1579,13 +1529,13 @@
     },
     {
       "id": "l575",
-      "text": "Le Pen veut 125 milliards d'\u00e9conomies... vraiment r\u00e9aliste ? - 28/08 https://t.co/mgPxqLBLmn https://t.co/4uFmxg0PwA",
+      "text": "Le Pen veut 125 milliards d'économies... vraiment réaliste ? - 28/08 https://t.co/mgPxqLBLmn https://t.co/4uFmxg0PwA",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Le Pen veut 125 milliards d'\u00e9conomies... vraiment r\u00e9aliste ? - 28/08 https://t.c\u2026",
+          "title": "Le Pen veut 125 milliards d'économies... vraiment réaliste ? - 28/08 https://t.c…",
           "url": "https://x.com/arnaudmercier/status/2093509280557137969",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1600,13 +1550,13 @@
     },
     {
       "id": "l576",
-      "text": "Dax aktuell: Dax notiert im Plus \u2013 und erreicht Rekord https://t.co/bKNvIUFdJM https://t.co/7GBQzZ0f55",
+      "text": "Dax aktuell: Dax notiert im Plus – und erreicht Rekord https://t.co/bKNvIUFdJM https://t.co/7GBQzZ0f55",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Dax aktuell: Dax notiert im Plus \u2013 und erreicht Rekord https://t.co/bKNvIUFdJM h\u2026",
+          "title": "Dax aktuell: Dax notiert im Plus – und erreicht Rekord https://t.co/bKNvIUFdJM h…",
           "url": "https://x.com/arnaudmercier/status/2093507502163783836",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1621,13 +1571,13 @@
     },
     {
       "id": "l577",
-      "text": "Imp\u00f4ts: 87% des avis de taxe fonci\u00e8re seraient sur\u00e9valu\u00e9s, le v\u00f4tre est-il concern\u00e9? https://t.co/Q8UP12cEoY https://t.co/3iFVWzWC0R",
+      "text": "Impôts: 87% des avis de taxe foncière seraient surévalués, le vôtre est-il concerné? https://t.co/Q8UP12cEoY https://t.co/3iFVWzWC0R",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Imp\u00f4ts: 87% des avis de taxe fonci\u00e8re seraient sur\u00e9valu\u00e9s, le v\u00f4tre est-il conce\u2026",
+          "title": "Impôts: 87% des avis de taxe foncière seraient surévalués, le vôtre est-il conce…",
           "url": "https://x.com/arnaudmercier/status/2093507216867246103",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1648,7 +1598,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Looking for help with today's New York Times Wordle? Here are some expert hints,\u2026",
+          "title": "Looking for help with today's New York Times Wordle? Here are some expert hints,…",
           "url": "https://x.com/arnaudmercier/status/2093507009140183210",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1669,7 +1619,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@TheAwakening_fm @susanabulhawa Still fighting the Nazis-Islamist alliance. \nIt \u2026",
+          "title": "@TheAwakening_fm @susanabulhawa Still fighting the Nazis-Islamist alliance. \nIt …",
           "url": "https://x.com/Mark100082/status/2093512102044467353",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1690,7 +1640,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@susanabulhawa @mehdirhasan Yeah generally kids would just let muslims walk all \u2026",
+          "title": "@susanabulhawa @mehdirhasan Yeah generally kids would just let muslims walk all …",
           "url": "https://x.com/HindsightPost46/status/2093511912697090382",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1711,7 +1661,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@ComradeYngGnJr @susanabulhawa Good, they fight evil all over.\n\nhttps://t.co/5HZ\u2026",
+          "title": "@ComradeYngGnJr @susanabulhawa Good, they fight evil all over.\n\nhttps://t.co/5HZ…",
           "url": "https://x.com/Mark100082/status/2093511803456094425",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1732,7 +1682,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Tracking_Power @susanabulhawa Muslim immigrants to EU countries have to be inst\u2026",
+          "title": "@Tracking_Power @susanabulhawa Muslim immigrants to EU countries have to be inst…",
           "url": "https://x.com/ymmarta/status/2093511788104999278",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1753,7 +1703,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Informatio53143 @susanabulhawa #Serbia. Never forget the Nazi Arab Satanic axis\u2026",
+          "title": "@Informatio53143 @susanabulhawa #Serbia. Never forget the Nazi Arab Satanic axis…",
           "url": "https://x.com/Mark100082/status/2093511292686336499",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1774,7 +1724,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@polsia This is the founder trap that doesn't get enough airtime: more models fe\u2026",
+          "title": "@polsia This is the founder trap that doesn't get enough airtime: more models fe…",
           "url": "https://x.com/matiasbaglieri/status/2093495221858312678",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1795,7 +1745,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@polsia The agency retainer model is long in the tooth and, frankly, a little bl\u2026",
+          "title": "@polsia The agency retainer model is long in the tooth and, frankly, a little bl…",
           "url": "https://x.com/shalom_luke/status/2093490281924403368",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1816,7 +1766,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@arnaudmercier Solana loans inside chatgpt now. Wild timing. You borrowing throu\u2026",
+          "title": "@arnaudmercier Solana loans inside chatgpt now. Wild timing. You borrowing throu…",
           "url": "https://x.com/leohuynh139/status/2093453911730602488",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1837,7 +1787,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@arnaudmercier 400 mil still shopping $29 jeans? deal hunting never retires. you\u2026",
+          "title": "@arnaudmercier 400 mil still shopping $29 jeans? deal hunting never retires. you…",
           "url": "https://x.com/leohuynh139/status/2093424556853842301",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1858,7 +1808,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@arnaudmercier Hundreds of quiet hellos to a king. When did respect become this \u2026",
+          "title": "@arnaudmercier Hundreds of quiet hellos to a king. When did respect become this …",
           "url": "https://x.com/leohuynh139/status/2093422512680096209",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1873,13 +1823,13 @@
     },
     {
       "id": "l589",
-      "text": "@arnaudmercier Le Medef contre toute nouvelle hausse d'imp\u00f4t et pour une nouvelle augmentation des exon\u00e9rations de cotisations \nBALTRINGUES https://t.co/CQ36sVTaQ6",
+      "text": "@arnaudmercier Le Medef contre toute nouvelle hausse d'impôt et pour une nouvelle augmentation des exonérations de cotisations \nBALTRINGUES https://t.co/CQ36sVTaQ6",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@arnaudmercier Le Medef contre toute nouvelle hausse d'imp\u00f4t et pour une nouvell\u2026",
+          "title": "@arnaudmercier Le Medef contre toute nouvelle hausse d'impôt et pour une nouvell…",
           "url": "https://x.com/LIVESTRONG0210/status/2093412553753821253",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1894,13 +1844,13 @@
     },
     {
       "id": "l590",
-      "text": "@Bencera I really admire you brother. Best of luck to @polsia. \u2764\ufe0f",
+      "text": "@Bencera I really admire you brother. Best of luck to @polsia. ❤️",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Bencera I really admire you brother. Best of luck to @polsia. \u2764\ufe0f",
+          "title": "@Bencera I really admire you brother. Best of luck to @polsia. ❤️",
           "url": "https://x.com/ItsRobins01/status/2093476598003732569",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1921,7 +1871,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@polsia Making those sneaky trade-offs obvious is actually useful. What other to\u2026",
+          "title": "@polsia Making those sneaky trade-offs obvious is actually useful. What other to…",
           "url": "https://x.com/leohuynh139/status/2093463061969727912",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1978,13 +1928,13 @@
     },
     {
       "id": "l594",
-      "text": "The Filton 6 have delivered their own closing statements in the trial.  you can read them here: https://t.co/Jvhw80toPV\n\nEach of them is powerful and should be read.  I post here Zoe Rogers' powerful closing defense:\n\nAs you\u2019ve probably noticed,\u00a0I decided to represent myself in this trial. Not because my barrister was doing a bad job or anything \u2013 we\u2019ve actually become close\u00a0friends \u2013 and I\u2019m constantly telling the others I have the best barrister. I am so grateful for everything she has done fo",
+      "text": "The Filton 6 have delivered their own closing statements in the trial.  you can read them here: https://t.co/Jvhw80toPV\n\nEach of them is powerful and should be read.  I post here Zoe Rogers' powerful closing defense:\n\nAs you’ve probably noticed, I decided to represent myself in this trial. Not because my barrister was doing a bad job or anything – we’ve actually become close friends – and I’m constantly telling the others I have the best barrister. I am so grateful for everything she has done fo",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Filton 6 have delivered their own closing statements in the trial.  you can \u2026",
+          "title": "The Filton 6 have delivered their own closing statements in the trial.  you can …",
           "url": "https://x.com/susanabulhawa/status/2051349041364025570",
           "date": "2026-05-04",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1999,13 +1949,13 @@
     },
     {
       "id": "l595",
-      "text": "SHOCKING SCANDAL: Zack Polanski changed his name in 2002 to avoid a \u00a33.50 library fine",
+      "text": "SHOCKING SCANDAL: Zack Polanski changed his name in 2002 to avoid a £3.50 library fine",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "SHOCKING SCANDAL: Zack Polanski changed his name in 2002 to avoid a \u00a33.50 librar\u2026",
+          "title": "SHOCKING SCANDAL: Zack Polanski changed his name in 2002 to avoid a £3.50 librar…",
           "url": "https://x.com/NormalIslandNws/status/2052131996508238161",
           "date": "2026-05-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -2041,13 +1991,13 @@
     },
     {
       "id": "l597",
-      "text": "AI is disrupting everything. Here's the human change plan. | Joel Pearson | TEDxSydney\nEvery government and corporation is racing to build out AI safety and governance, and almost none of them are building the only plan that actually matters, says neuroscientist and neuro-futurist Joel Pearson. We have mistaken an intelligence revolution for a technology revolution, and the mislabelling is already triggering an uncertainty pandemic in every human brain. In this clear-eyed look at the everything \u2026",
+      "text": "AI is disrupting everything. Here's the human change plan. | Joel Pearson | TEDxSydney\nEvery government and corporation is racing to build out AI safety and governance, and almost none of them are building the only plan that actually matters, says neuroscientist and neuro-futurist Joel Pearson. We have mistaken an intelligence revolution for a technology revolution, and the mislabelling is already triggering an uncertainty pandemic in every human brain. In this clear-eyed look at the everything …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI is disrupting everything. Here's the human change plan. | Joel Pearson | TEDx\u2026",
+          "title": "AI is disrupting everything. Here's the human change plan. | Joel Pearson | TEDx…",
           "url": "https://www.youtube.com/watch?v=Cj1CacXp3zw",
           "date": "2026-06-16",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2062,13 +2012,13 @@
     },
     {
       "id": "l598",
-      "text": "LANTERNS Episode 2 Breakdown & Ending Explained | DC Green Lantern Comic Easter Eggs & Review | DCU\nDownload Marvel Strike Force: https://bit.ly/4bsVPap  and jump into the Spider-Man event before it ends and claim FREE rewards! \nOnce you have downloaded the game, use promo code SPIDEY to receive spider-man & hulk and more to get you started!\nThe SPIDEY code can be redeemed here: https://marvelstrikeforce.com/en/playergift \n\nLANTERNS Episode 2 Breakdown & Ending Explained | DC Green Lantern Comic\u2026",
+      "text": "LANTERNS Episode 2 Breakdown & Ending Explained | DC Green Lantern Comic Easter Eggs & Review | DCU\nDownload Marvel Strike Force: https://bit.ly/4bsVPap  and jump into the Spider-Man event before it ends and claim FREE rewards! \nOnce you have downloaded the game, use promo code SPIDEY to receive spider-man & hulk and more to get you started!\nThe SPIDEY code can be redeemed here: https://marvelstrikeforce.com/en/playergift \n\nLANTERNS Episode 2 Breakdown & Ending Explained | DC Green Lantern Comic…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "LANTERNS Episode 2 Breakdown & Ending Explained | DC Green Lantern Comic Easter \u2026",
+          "title": "LANTERNS Episode 2 Breakdown & Ending Explained | DC Green Lantern Comic Easter …",
           "url": "https://www.youtube.com/watch?v=tPuQhyOkyuU",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2083,13 +2033,13 @@
     },
     {
       "id": "l599",
-      "text": "LANTERNS Episode 1 Breakdown & Ending Explained | DC Green Lantern Comic Easter Eggs & Review | DCU\nLANTERNS Episode 1 Breakdown & Ending Explained | For a limited time, our listeners get 50% off FOR LIFE, Free Shipping, AND 3 Free Gifts at Mars Men at Mengotomars.com\n\nLANTERNS Episode 1 Breakdown & Ending Explained | DC Green Lantern Comic Easter Eggs & Review | DCU. We breakdown, review and recap the new HBO show Lanterns and point out the comic easter eggs, hidden details and also give our th\u2026",
+      "text": "LANTERNS Episode 1 Breakdown & Ending Explained | DC Green Lantern Comic Easter Eggs & Review | DCU\nLANTERNS Episode 1 Breakdown & Ending Explained | For a limited time, our listeners get 50% off FOR LIFE, Free Shipping, AND 3 Free Gifts at Mars Men at Mengotomars.com\n\nLANTERNS Episode 1 Breakdown & Ending Explained | DC Green Lantern Comic Easter Eggs & Review | DCU. We breakdown, review and recap the new HBO show Lanterns and point out the comic easter eggs, hidden details and also give our th…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "LANTERNS Episode 1 Breakdown & Ending Explained | DC Green Lantern Comic Easter \u2026",
+          "title": "LANTERNS Episode 1 Breakdown & Ending Explained | DC Green Lantern Comic Easter …",
           "url": "https://www.youtube.com/watch?v=uh6AiBFyKNo",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2104,13 +2054,13 @@
     },
     {
       "id": "l5100",
-      "text": "LANTERNS Episode 3 Trailer Breakdown & DC Green Lantern Comic Easter Eggs & Review | John's Origins\nLANTERNS Episode 3 Trailer Breakdown & DC Green Lantern Comic Easter Eggs & Review | John's Origins. Upgrade your everyday. Download the Quince app for app-exclusive offers, or go to https://quince.com/spoilers . Get free shipping on your order and 365-day returns. Now available in Canada and the UK, too. That's https://quince.com/spoilers #ad \n\nWe breakdown, review and recap the new HBO show Lant\u2026",
+      "text": "LANTERNS Episode 3 Trailer Breakdown & DC Green Lantern Comic Easter Eggs & Review | John's Origins\nLANTERNS Episode 3 Trailer Breakdown & DC Green Lantern Comic Easter Eggs & Review | John's Origins. Upgrade your everyday. Download the Quince app for app-exclusive offers, or go to https://quince.com/spoilers . Get free shipping on your order and 365-day returns. Now available in Canada and the UK, too. That's https://quince.com/spoilers #ad \n\nWe breakdown, review and recap the new HBO show Lant…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "LANTERNS Episode 3 Trailer Breakdown & DC Green Lantern Comic Easter Eggs & Revi\u2026",
+          "title": "LANTERNS Episode 3 Trailer Breakdown & DC Green Lantern Comic Easter Eggs & Revi…",
           "url": "https://www.youtube.com/watch?v=s2Ylsc7JIrM",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2125,13 +2075,13 @@
     },
     {
       "id": "l5101",
-      "text": "How Are Emerging Technologies Disrupting Fundraising?\nDiscover more! \u2014 https://linktr.ee/GeneralPartners\n\nTired of wasting endless hours chasing investors who never bite?\nEmerging technologies like AI-driven sourcing, blockchain smart contracts, and tokenized equity rounds are ripping apart outdated fundraising pipelines\u2014making investor matching precise, deals instant, and capital networks open to all.\nStop begging for attention and start commanding funding with data-driven, automated tools that\u2026",
+      "text": "How Are Emerging Technologies Disrupting Fundraising?\nDiscover more! — https://linktr.ee/GeneralPartners\n\nTired of wasting endless hours chasing investors who never bite?\nEmerging technologies like AI-driven sourcing, blockchain smart contracts, and tokenized equity rounds are ripping apart outdated fundraising pipelines—making investor matching precise, deals instant, and capital networks open to all.\nStop begging for attention and start commanding funding with data-driven, automated tools that…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How Are Emerging Technologies Disrupting Fundraising?\nDiscover more! \u2014 https://l\u2026",
+          "title": "How Are Emerging Technologies Disrupting Fundraising?\nDiscover more! — https://l…",
           "url": "https://www.youtube.com/watch?v=P1EhuOI7o7E",
           "date": "2026-07-17",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2208,6 +2158,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

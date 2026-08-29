@@ -15,58 +15,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "27-4014-01",
-      "text": "National peak professional bodies and statutory regulators governing Sound Engineering Technicians enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Sound Engineering Technicians",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Sound Engineering Technicians",
-          "url": "https://www.psc.gov.au/standards/27-4014",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Sound Engineering Technicians"
-        }
-      ],
-      "scope": "Australian practitioners in Sound Engineering Technicians across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "27-4014-02",
-      "text": "Automation of routine transactional and analytical tasks in Sound Engineering Technicians heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Sound Engineering Technicians",
-          "url": "https://www.jobsandskills.gov.au/research/27-4014",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Sound Engineering Technicians in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Sound Engineering Technicians roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Technician - Performing Arts Centre \u2014 Goulburn Mulwaree Council (Goulburn, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Technician - Performing Arts Centre — Goulburn Mulwaree Council (Goulburn, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -87,7 +37,7 @@
     },
     {
       "id": "l404",
-      "text": "Senior Technician \u2014 Encore (Adelaide, South Australia, Australia). Posted 3 days ago.",
+      "text": "Senior Technician — Encore (Adelaide, South Australia, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -108,7 +58,7 @@
     },
     {
       "id": "l405",
-      "text": "Audio Visual Technician \u2014 University of Technology Sydney (Greater Sydney Area). Posted 19 hours ago.",
+      "text": "Audio Visual Technician — University of Technology Sydney (Greater Sydney Area). Posted 19 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -129,7 +79,7 @@
     },
     {
       "id": "l406",
-      "text": "Senior Technician \u2014 Encore APAC (Adelaide, South Australia, Australia). Posted 1 week ago.",
+      "text": "Senior Technician — Encore APAC (Adelaide, South Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -150,7 +100,7 @@
     },
     {
       "id": "l407",
-      "text": "Live Production and Staging Traineeship \u2014 Mackay Regional Council (Mackay, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Live Production and Staging Traineeship — Mackay Regional Council (Mackay, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -171,7 +121,7 @@
     },
     {
       "id": "l408",
-      "text": "Senior Technician \u2014 Encore (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Senior Technician — Encore (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -192,7 +142,7 @@
     },
     {
       "id": "l409",
-      "text": "Senior Technician \u2014 Encore APAC (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Senior Technician — Encore APAC (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -213,7 +163,7 @@
     },
     {
       "id": "l410",
-      "text": "Audio Visual - Onsite Support Technician - Tier 1 Bank \u2014 Round Table Recruitment (Brisbane, Queensland, Australia). Posted 1 day ago.",
+      "text": "Audio Visual - Onsite Support Technician - Tier 1 Bank — Round Table Recruitment (Brisbane, Queensland, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -234,7 +184,7 @@
     },
     {
       "id": "l411",
-      "text": "Field Services Audio Visual Technician \u2014 Cognizant (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Field Services Audio Visual Technician — Cognizant (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -255,13 +205,13 @@
     },
     {
       "id": "l512",
-      "text": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; \ud83d\udd34 KEV: 0 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 13 &nbsp;|&nbsp; \ud83d\udfe1 High: 2 &nbsp;|&nbsp; \u2728 Enriched: 10\n\n---\n\n## 1. \ud83d\udfe0 Zero-Day \u2014 Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; \ud83d\udd34 KEV: 1 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 14 &nbsp;|&nbsp; \ud83d\udfe1\u2026",
+      "text": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; 🔴 KEV: 0 &nbsp;|&nbsp; 🟠 Zero-Day: 13 &nbsp;|&nbsp; 🟡 High: 2 &nbsp;|&nbsp; ✨ Enriched: 10\n\n---\n\n## 1. 🟠 Zero-Day — Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; 🔴 KEV: 1 &nbsp;|&nbsp; 🟠 Zero-Day: 14 &nbsp;|&nbsp; 🟡…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:\u2026",
+          "title": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:…",
           "url": "https://github.com/peleduri/zero-day-pulse/issues/7",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -276,13 +226,13 @@
     },
     {
       "id": "l513",
-      "text": "Red Hat - Technical Account Manager, OpenShift\n# RedHat - Technical Account Manager, OpenShift\n\n## Summery\n- Collaborate with the engineering, R&D, product management, and technical support teams?\n  - So I'd be able to bring customer issues directly to the teams to help, like in my Novell days?\n- Hands-on experience or deep technical familiarity\n# [Technical Account Manager, OpenShift](https://redhat.wd5.myworkdayjobs.com/en-US/jobs/job/Technical-Account-Manager--OpenShift_R-057673-1)\n\nRed Hat's\u2026",
+      "text": "Red Hat - Technical Account Manager, OpenShift\n# RedHat - Technical Account Manager, OpenShift\n\n## Summery\n- Collaborate with the engineering, R&D, product management, and technical support teams?\n  - So I'd be able to bring customer issues directly to the teams to help, like in my Novell days?\n- Hands-on experience or deep technical familiarity\n# [Technical Account Manager, OpenShift](https://redhat.wd5.myworkdayjobs.com/en-US/jobs/job/Technical-Account-Manager--OpenShift_R-057673-1)\n\nRed Hat's…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Red Hat - Technical Account Manager, OpenShift\n# RedHat - Technical Account Mana\u2026",
+          "title": "Red Hat - Technical Account Manager, OpenShift\n# RedHat - Technical Account Mana…",
           "url": "https://github.com/J0hnnieWa1ker/.github/issues/22",
           "date": "2026-07-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -297,13 +247,13 @@
     },
     {
       "id": "l514",
-      "text": "[YC Content] Blake Scholl: Breaking the Supersonic Ban by Y Combinator\n# \ud83d\udcda New YC Content Detected\n\nAn automated weekly cron check found new content in the YC Startup Library.\n\n**Title:** Blake Scholl: Breaking the Supersonic Ban\n**Author:** Y Combinator\n**Media Type:** Video\n**Published Date:** 2026-07-29T22:58:17.596Z\n**URL:** [Y Combinator Library](https://ycombinat",
+      "text": "[YC Content] Blake Scholl: Breaking the Supersonic Ban by Y Combinator\n# 📚 New YC Content Detected\n\nAn automated weekly cron check found new content in the YC Startup Library.\n\n**Title:** Blake Scholl: Breaking the Supersonic Ban\n**Author:** Y Combinator\n**Media Type:** Video\n**Published Date:** 2026-07-29T22:58:17.596Z\n**URL:** [Y Combinator Library](https://ycombinat",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[YC Content] Blake Scholl: Breaking the Supersonic Ban by Y Combinator\n# \ud83d\udcda New Y\u2026",
+          "title": "[YC Content] Blake Scholl: Breaking the Supersonic Ban by Y Combinator\n# 📚 New Y…",
           "url": "https://github.com/arboraistudio/co-founder-ai/issues/17",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -318,13 +268,13 @@
     },
     {
       "id": "l515",
-      "text": "Javvy Coffee\n## [Summary](https://github.com/J0hnnieWa1ker/.github/issues/25)\n\n\nMy strategy to managing IT would be first to meet with everyone to begin building relationships. Listen to all their stories about technology. Using a people-first approach that guides the technology strategy by producing a Tech News\n# [Javvy Coffee - IT Manager](https://www.linkedin.com/jobs/view/4439352315/)\n\nAbout the job\nJavvy is on a mission to set a new standard for caf\u00e9 favorites with better-for-you beverages \u2026",
+      "text": "Javvy Coffee\n## [Summary](https://github.com/J0hnnieWa1ker/.github/issues/25)\n\n\nMy strategy to managing IT would be first to meet with everyone to begin building relationships. Listen to all their stories about technology. Using a people-first approach that guides the technology strategy by producing a Tech News\n# [Javvy Coffee - IT Manager](https://www.linkedin.com/jobs/view/4439352315/)\n\nAbout the job\nJavvy is on a mission to set a new standard for café favorites with better-for-you beverages …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Javvy Coffee\n## [Summary](https://github.com/J0hnnieWa1ker/.github/issues/25)\n\n\n\u2026",
+          "title": "Javvy Coffee\n## [Summary](https://github.com/J0hnnieWa1ker/.github/issues/25)\n\n\n…",
           "url": "https://github.com/J0hnnieWa1ker/.github/issues/25",
           "date": "2026-07-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -339,13 +289,13 @@
     },
     {
       "id": "l516",
-      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment\u2014ranging from consumer earbuds to professional line arrays and covert surveillance g\u2026",
+      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment—ranging from consumer earbuds to professional line arrays and covert surveillance g…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su\u2026",
+          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su…",
           "url": "https://github.com/Transparency-X/Sound-Equipment-Lifespace/issues/1",
           "date": "2026-05-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -360,13 +310,13 @@
     },
     {
       "id": "l517",
-      "text": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an exceptionally well-structured, comprehensive, and ambitious project plan. Tackling acoustic violence and harassment requires a multidisciplinary approach, and AVHERI successfully bridges the gap between technology, sociology, legal advocacy, and survivor support. \n... gemini-3.1-pro-preview\n\nHere is the fully updated, comprehensive **V2.0 Project Plan for AVHERI**. This version directly integrates the strategic analysis, \u2026",
+      "text": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an exceptionally well-structured, comprehensive, and ambitious project plan. Tackling acoustic violence and harassment requires a multidisciplinary approach, and AVHERI successfully bridges the gap between technology, sociology, legal advocacy, and survivor support. \n... gemini-3.1-pro-preview\n\nHere is the fully updated, comprehensive **V2.0 Project Plan for AVHERI**. This version directly integrates the strategic analysis, …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an excep\u2026",
+          "title": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an excep…",
           "url": "https://github.com/Transparency-X/AVHERI/issues/2",
           "date": "2026-04-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -381,13 +331,13 @@
     },
     {
       "id": "l518",
-      "text": "Insoil Tool: security hardening, backend correctness fixes, login UX improvements, Inventory Manager enhancements, RGB/Abs module improvements, location field source-of-truth refactor & Device QA/QC bug fixes + UX enhancements + QC Status View enhancem...\n- [x] Fix Device QA/QC bugs (Bugs 1-7)\n- [x] Fix: `Illegal return statement` / `attemptLogin is not defined`\n- [x] Fix QA/QC Weaknesses 9-15\n- [x] QC UX Enhancements 1-11\n- [x] QC Status View Enhancements 1-12\n- [x] Fix Soil Test Results Bugs 1\u2026",
+      "text": "Insoil Tool: security hardening, backend correctness fixes, login UX improvements, Inventory Manager enhancements, RGB/Abs module improvements, location field source-of-truth refactor & Device QA/QC bug fixes + UX enhancements + QC Status View enhancem...\n- [x] Fix Device QA/QC bugs (Bugs 1-7)\n- [x] Fix: `Illegal return statement` / `attemptLogin is not defined`\n- [x] Fix QA/QC Weaknesses 9-15\n- [x] QC UX Enhancements 1-11\n- [x] QC Status View Enhancements 1-12\n- [x] Fix Soil Test Results Bugs 1…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Insoil Tool: security hardening, backend correctness fixes, login UX improvement\u2026",
+          "title": "Insoil Tool: security hardening, backend correctness fixes, login UX improvement…",
           "url": "https://github.com/manojkdabi/Insoil_post_claude_improve/pull/1",
           "date": "2026-03-06",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -612,13 +562,13 @@
     },
     {
       "id": "l529",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -654,13 +604,13 @@
     },
     {
       "id": "l531",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -801,13 +751,13 @@
     },
     {
       "id": "l538",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -843,13 +793,13 @@
     },
     {
       "id": "l540",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -885,13 +835,13 @@
     },
     {
       "id": "l542",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -906,13 +856,13 @@
     },
     {
       "id": "l543",
-      "text": "I\u2019m anti gen ai and personally don\u2019t believe ai art is art but asserting moral authority about these things doesn\u2019t and won\u2019t convince anyone otherwise and makes you sound pretentious as hell.\nSo I\u2019m anti gen ai. I do think LLMs have educational benefits but those are heavily outweighed by the negatives. What I\u2019m so sick of though is people attacking others for using gen ai. That\u2019s not gonna make anyone stop, really it\u2019s just gonna ruin your day and their day. Especially in college. I do enginee\u2026",
+      "text": "I’m anti gen ai and personally don’t believe ai art is art but asserting moral authority about these things doesn’t and won’t convince anyone otherwise and makes you sound pretentious as hell.\nSo I’m anti gen ai. I do think LLMs have educational benefits but those are heavily outweighed by the negatives. What I’m so sick of though is people attacking others for using gen ai. That’s not gonna make anyone stop, really it’s just gonna ruin your day and their day. Especially in college. I do enginee…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I\u2019m anti gen ai and personally don\u2019t believe ai art is art but asserting moral a\u2026",
+          "title": "I’m anti gen ai and personally don’t believe ai art is art but asserting moral a…",
           "url": "https://www.reddit.com/r/aiwars/comments/1vsvppa/im_anti_gen_ai_and_personally_dont_believe_ai_art/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -927,13 +877,13 @@
     },
     {
       "id": "l544",
-      "text": "[Internship] Millennium Management (MLP) HackerRank OA for the Engineering & AI Internship, what should I expect?\nCS junior here, targeting Summer 2027. Got an email today saying I&#39;m through the resume screen for Millennium&#39;s Engineering &amp; AI Internship and that a HackerRank assessment link is coming within a couple days, with 7 days to complete it once it lands. I&#39;ve been grinding NeetCode for a few months for another pipeline, so DS&amp;A itself isn&#39;t foreign, but I don&#39\u2026",
+      "text": "[Internship] Millennium Management (MLP) HackerRank OA for the Engineering & AI Internship, what should I expect?\nCS junior here, targeting Summer 2027. Got an email today saying I&#39;m through the resume screen for Millennium&#39;s Engineering &amp; AI Internship and that a HackerRank assessment link is coming within a couple days, with 7 days to complete it once it lands. I&#39;ve been grinding NeetCode for a few months for another pipeline, so DS&amp;A itself isn&#39;t foreign, but I don&#39…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "[Internship] Millennium Management (MLP) HackerRank OA for the Engineering & AI \u2026",
+          "title": "[Internship] Millennium Management (MLP) HackerRank OA for the Engineering & AI …",
           "url": "https://www.reddit.com/r/csMajors/comments/1veshrm/internship_millennium_management_mlp_hackerrank/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -948,13 +898,13 @@
     },
     {
       "id": "l545",
-      "text": "Am I wasting my time? \"AI Engineer\" who doesn't know what to master anymore.\nHi everyone. This is a long post, but I&#39;d genuinely appreciate it if you read till the end. I&#39;m an AI Engineer... at least that&#39;s what my previous job title said. The reality is that most of my work has been backend development in Python. I&#39;ve built AI agents and agentic workflows, integrated LLM APIs, and worked on AI-powered products. But sometimes I wonder if that&#39;s really &quot;AI engineering,&qu\u2026",
+      "text": "Am I wasting my time? \"AI Engineer\" who doesn't know what to master anymore.\nHi everyone. This is a long post, but I&#39;d genuinely appreciate it if you read till the end. I&#39;m an AI Engineer... at least that&#39;s what my previous job title said. The reality is that most of my work has been backend development in Python. I&#39;ve built AI agents and agentic workflows, integrated LLM APIs, and worked on AI-powered products. But sometimes I wonder if that&#39;s really &quot;AI engineering,&qu…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Am I wasting my time? \"AI Engineer\" who doesn't know what to master anymore.\nHi \u2026",
+          "title": "Am I wasting my time? \"AI Engineer\" who doesn't know what to master anymore.\nHi …",
           "url": "https://www.reddit.com/r/softwareengineer/comments/1vbqjqm/am_i_wasting_my_time_ai_engineer_who_doesnt_know/",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -969,13 +919,13 @@
     },
     {
       "id": "l546",
-      "text": "this is f**king dangerous\n\nA 17-year-old pulls $10,400 a week off Google Maps. Never built a website in her life.\n\nHer proof isn't prompts. It's Stripe.\n\nThe first solo fortunes of the AI era aren't going to the smartest people. They're going to whoever set the machine up first.\n\nThe skill underneath every story like this \u2193",
+      "text": "this is f**king dangerous\n\nA 17-year-old pulls $10,400 a week off Google Maps. Never built a website in her life.\n\nHer proof isn't prompts. It's Stripe.\n\nThe first solo fortunes of the AI era aren't going to the smartest people. They're going to whoever set the machine up first.\n\nThe skill underneath every story like this ↓",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "this is f**king dangerous\n\nA 17-year-old pulls $10,400 a week off Google Maps. N\u2026",
+          "title": "this is f**king dangerous\n\nA 17-year-old pulls $10,400 a week off Google Maps. N…",
           "url": "https://x.com/Zephyr_hg/status/2093198388636307932",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -990,13 +940,13 @@
     },
     {
       "id": "l547",
-      "text": "Elon Musk just amplified a guide on building a one-person company with AI. 2 million views.\n\nWhen the richest man alive starts boosting the one-person company, its on.\n\n\"Early\" is still a choice today. The article below is what early actually looks like in practice.\n\nIn two years it won't be a choice \u2193",
+      "text": "Elon Musk just amplified a guide on building a one-person company with AI. 2 million views.\n\nWhen the richest man alive starts boosting the one-person company, its on.\n\n\"Early\" is still a choice today. The article below is what early actually looks like in practice.\n\nIn two years it won't be a choice ↓",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Elon Musk just amplified a guide on building a one-person company with AI. 2 mil\u2026",
+          "title": "Elon Musk just amplified a guide on building a one-person company with AI. 2 mil…",
           "url": "https://x.com/Zephyr_hg/status/2093259038318354877",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1095,13 +1045,13 @@
     },
     {
       "id": "l552",
-      "text": "YOUR AI AGENT DOESN\u2019T NEED A BIGGER BRAIN. IT NEEDS A BETTER MEMORY.",
+      "text": "YOUR AI AGENT DOESN’T NEED A BIGGER BRAIN. IT NEEDS A BETTER MEMORY.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "YOUR AI AGENT DOESN\u2019T NEED A BIGGER BRAIN. IT NEEDS A BETTER MEMORY.",
+          "title": "YOUR AI AGENT DOESN’T NEED A BIGGER BRAIN. IT NEEDS A BETTER MEMORY.",
           "url": "https://x.com/bykushnir/status/2092563824566050843",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1137,13 +1087,13 @@
     },
     {
       "id": "l554",
-      "text": "stop partnering with influencers\u2026\n\n- they are way too expensive\n- its a headache managing all of them\n- they don\u2019t listen to your advice\n\nstop trying to be nice\nand just replace them with AI\n\nhere\u2019s exactly how i replaced all my influencers with AI to make $20K/mo\n\nhttps://t.co/SSCU1X3dzp",
+      "text": "stop partnering with influencers…\n\n- they are way too expensive\n- its a headache managing all of them\n- they don’t listen to your advice\n\nstop trying to be nice\nand just replace them with AI\n\nhere’s exactly how i replaced all my influencers with AI to make $20K/mo\n\nhttps://t.co/SSCU1X3dzp",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "stop partnering with influencers\u2026\n\n- they are way too expensive\n- its a headache\u2026",
+          "title": "stop partnering with influencers…\n\n- they are way too expensive\n- its a headache…",
           "url": "https://x.com/aureliuscajigas/status/2093488803231170888",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1164,7 +1114,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I made a four-minute Homer film with AI in eight days. The hardest part was know\u2026",
+          "title": "I made a four-minute Homer film with AI in eight days. The hardest part was know…",
           "url": "https://x.com/loulou_/status/2092471909740868040",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1179,13 +1129,13 @@
     },
     {
       "id": "l556",
-      "text": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to feel less like generating clips\u2014and more like directing scenes.\n\n30 seconds. Native audio. One generation.\nNo more choosing between text-to-video and image-to-video.\n\nPrompt:\n\nHandheld digital camcorder aesthetic, landscape framing.\nA gorgeous young barista films herself by hand in selfie-cam and first-person style during a quiet early-morning shift at a small independent coffee shop.\n\nKeep realistic hand shake, slight",
+      "text": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to feel less like generating clips—and more like directing scenes.\n\n30 seconds. Native audio. One generation.\nNo more choosing between text-to-video and image-to-video.\n\nPrompt:\n\nHandheld digital camcorder aesthetic, landscape framing.\nA gorgeous young barista films herself by hand in selfie-cam and first-person style during a quiet early-morning shift at a small independent coffee shop.\n\nKeep realistic hand shake, slight",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to fe\u2026",
+          "title": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to fe…",
           "url": "https://x.com/Rooko_ai/status/2092930729164632138",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1221,13 +1171,13 @@
     },
     {
       "id": "l558",
-      "text": "WWDC 2026 - Siri AI Impressions!\nApple WWDC Impressions - Siri AI is....Interesting. They can't harm you, if they can't find you! Use code BOSS at the link below and get 60% off an annual plan: https://incogni.com/boss\n\nFor my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor my Personal Posts: http://instagram.com/mrwhosetheboss\nFor quick tech videos: https://www.tiktok.com/@mrwhosetheboss\nDoes anyone still use this anymore?: https://facebook.com/mrwhosetheboss\n\nMy 5 favourite pieces of Tec\u2026",
+      "text": "WWDC 2026 - Siri AI Impressions!\nApple WWDC Impressions - Siri AI is....Interesting. They can't harm you, if they can't find you! Use code BOSS at the link below and get 60% off an annual plan: https://incogni.com/boss\n\nFor my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor my Personal Posts: http://instagram.com/mrwhosetheboss\nFor quick tech videos: https://www.tiktok.com/@mrwhosetheboss\nDoes anyone still use this anymore?: https://facebook.com/mrwhosetheboss\n\nMy 5 favourite pieces of Tec…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "WWDC 2026 - Siri AI Impressions!\nApple WWDC Impressions - Siri AI is....Interest\u2026",
+          "title": "WWDC 2026 - Siri AI Impressions!\nApple WWDC Impressions - Siri AI is....Interest…",
           "url": "https://www.youtube.com/watch?v=c6HGJJabr_4",
           "date": "2026-06-09",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1242,13 +1192,13 @@
     },
     {
       "id": "l559",
-      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell\u2026",
+      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth!\u2026",
+          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth!…",
           "url": "https://www.youtube.com/watch?v=Cn8HBj8QAbk",
           "date": "2026-03-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1263,13 +1213,13 @@
     },
     {
       "id": "l560",
-      "text": "Erin Brockovich sounds the alarm on AI data centers expanding across America\nConsumer advocate and environmental activist Erin Brockovich joins MS NOW to discuss the rapid growth of AI data centers, concerns over transparency, community impact, water and energy use and why communities are pushing back against projects in their neighborhoods.\n\nMS NOW: My Source for News, Opinion, and the World.\n\n\u00bb Subscribe to MS NOW: https://www.youtube.com/@msnow\nMS NOW is the go-to destination for domestic and\u2026",
+      "text": "Erin Brockovich sounds the alarm on AI data centers expanding across America\nConsumer advocate and environmental activist Erin Brockovich joins MS NOW to discuss the rapid growth of AI data centers, concerns over transparency, community impact, water and energy use and why communities are pushing back against projects in their neighborhoods.\n\nMS NOW: My Source for News, Opinion, and the World.\n\n» Subscribe to MS NOW: https://www.youtube.com/@msnow\nMS NOW is the go-to destination for domestic and…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Erin Brockovich sounds the alarm on AI data centers expanding across America\nCon\u2026",
+          "title": "Erin Brockovich sounds the alarm on AI data centers expanding across America\nCon…",
           "url": "https://www.youtube.com/watch?v=fAWCQFolXJk",
           "date": "2026-06-06",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1339,6 +1289,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

@@ -21,64 +21,14 @@
   ],
   "claims": [
     {
-      "id": "43-6011-01",
-      "text": "National peak professional bodies and statutory regulators governing Executive Secretaries and Administrative Assistants enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Executive Secretaries and Administrative Assistants",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Executive Secretaries and Administrative Assistants",
-          "url": "https://www.psc.gov.au/standards/43-6011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Executive Secretaries and Administrative Assistants"
-        }
-      ],
-      "scope": "Australian practitioners in Executive Secretaries and Administrative Assistants across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "43-6011-02",
-      "text": "Automation of routine transactional and analytical tasks in Executive Secretaries and Administrative Assistants heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Executive Secretaries and Administrative Assistants",
-          "url": "https://www.jobsandskills.gov.au/research/43-6011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Executive Secretaries and Administrative Assistants in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Executive Secretaries and Administrative Assistants roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "PR-CAREER-KG-10: content(career): add secretaries and administrative assistants KG asset package\n## What changed\n- Added the PR-CAREER-KG-10 dry-run zh-CN career KG asset package for Secretaries and Administrative Assistants, Except Legal, Medical, and Executive.\n- Added QA, dry-run importer, staging preview smoke, fap-web render smoke, and SHA manifest evidence under generated/career-kg-pr-10-\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage\u2026",
+      "text": "PR-CAREER-KG-10: content(career): add secretaries and administrative assistants KG asset package\n## What changed\n- Added the PR-CAREER-KG-10 dry-run zh-CN career KG asset package for Secretaries and Administrative Assistants, Except Legal, Medical, and Executive.\n- Added QA, dry-run importer, staging preview smoke, fap-web render smoke, and SHA manifest evidence under generated/career-kg-pr-10-\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "PR-CAREER-KG-10: content(career): add secretaries and administrative assistants \u2026",
+          "title": "PR-CAREER-KG-10: content(career): add secretaries and administrative assistants …",
           "url": "https://github.com/fermatmind/fap-web/pull/1540",
           "date": "2026-07-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -99,7 +49,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Executive Administration Support: How to Build the Operational Backbone Every Se\u2026",
+          "title": "Executive Administration Support: How to Build the Operational Backbone Every Se…",
           "url": "https://github.com/marketingvirtualassistantt-arch/Latika/issues/23",
           "date": "2026-07-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -261,13 +211,13 @@
     },
     {
       "id": "l512",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -345,13 +295,13 @@
     },
     {
       "id": "l516",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -366,13 +316,13 @@
     },
     {
       "id": "l517",
-      "text": "Launch HN: Traceforce (YC S26) \u2013 Company-wide security monitoring for AI apps",
+      "text": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Launch HN: Traceforce (YC S26) \u2013 Company-wide security monitoring for AI apps",
+          "title": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
           "url": "https://news.ycombinator.com/item?id=48937020",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -513,13 +463,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -555,13 +505,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -597,13 +547,13 @@
     },
     {
       "id": "l528",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -618,13 +568,13 @@
     },
     {
       "id": "l529",
-      "text": "BREAKING: President Trump Signs Executive Order Splitting Childhood Vaccine Schedule Into Tiers And Breaking Up MMR Shot While Repeatedly Invoking Unproven Autism Link, As NIH Director Bhattacharya, GOP Senator Cassidy, And Pediatricians Nationwide Push Back \ud83c\udfdb\ufe0f\ud83e\udda0\nPresident Trump signed an executive order Monday recommending sweeping changes to childhood vaccine guidance, splitting shots into tiers where some vaccines would only be recommended for high-risk children, such as those against RSV and \u2026",
+      "text": "BREAKING: President Trump Signs Executive Order Splitting Childhood Vaccine Schedule Into Tiers And Breaking Up MMR Shot While Repeatedly Invoking Unproven Autism Link, As NIH Director Bhattacharya, GOP Senator Cassidy, And Pediatricians Nationwide Push Back 🏛️🦠\nPresident Trump signed an executive order Monday recommending sweeping changes to childhood vaccine guidance, splitting shots into tiers where some vaccines would only be recommended for high-risk children, such as those against RSV and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "BREAKING: President Trump Signs Executive Order Splitting Childhood Vaccine Sche\u2026",
+          "title": "BREAKING: President Trump Signs Executive Order Splitting Childhood Vaccine Sche…",
           "url": "https://www.reddit.com/r/InterstellarKinetics/comments/1vl22cs/breaking_president_trump_signs_executive_order/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -639,13 +589,13 @@
     },
     {
       "id": "l530",
-      "text": "People aren\u2019t ready for what\u2019s coming. This morning I asked Grok a simple question:\n\u201cCan you give me a straightforward list of jobs that Ai will make obsolete in 3 to 5 years\u201d. \nHere\u2019s the staggering answer:\n\n\u2022  Data Entry Clerks\n\u2022  File Clerks\n\u2022  Administrative Assistants\n\u2022  Executive Secretaries\n\u2022  Receptionists\n\u2022  Office Clerks\n\u2022  Postal Service Clerks\n\u2022  Material-Recording Clerks\n\u2022  Stock-Keeping Clerks\n\u2022  Brokerage Clerks\n\u2022  Customer Service Representatives\n\u2022  Call Center Agents\n\u2022  Telemark",
+      "text": "People aren’t ready for what’s coming. This morning I asked Grok a simple question:\n“Can you give me a straightforward list of jobs that Ai will make obsolete in 3 to 5 years”. \nHere’s the staggering answer:\n\n•  Data Entry Clerks\n•  File Clerks\n•  Administrative Assistants\n•  Executive Secretaries\n•  Receptionists\n•  Office Clerks\n•  Postal Service Clerks\n•  Material-Recording Clerks\n•  Stock-Keeping Clerks\n•  Brokerage Clerks\n•  Customer Service Representatives\n•  Call Center Agents\n•  Telemark",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "People aren\u2019t ready for what\u2019s coming. This morning I asked Grok a simple questi\u2026",
+          "title": "People aren’t ready for what’s coming. This morning I asked Grok a simple questi…",
           "url": "https://x.com/pastorlocke/status/2052745704087425425",
           "date": "2026-05-08",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -666,7 +616,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Administrative and clerical jobs are among the fastest-declining occupations.\n\nT\u2026",
+          "title": "Administrative and clerical jobs are among the fastest-declining occupations.\n\nT…",
           "url": "https://x.com/JulieParker144/status/2082354123916333082",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -702,13 +652,13 @@
     },
     {
       "id": "l533",
-      "text": "THE JIG IS UP\nWHY THEY FEAR AI AND MATH\n\nFor decades the claim that fossil-fuel emissions have driven the atmospheric CO\u2082 rise from 280 to 428 ppm was defended not by physics but by repetition. The math never made it into the argument. Now the math is available in my post below, and from every frontier AI in seconds.\n\nStart with what the institutional positions actually say. Not caricatures. Direct quotes.\n\nNASA's Gavin Schmidt to USA Today: \"In 1850, the atmospheric CO2 concentration was about",
+      "text": "THE JIG IS UP\nWHY THEY FEAR AI AND MATH\n\nFor decades the claim that fossil-fuel emissions have driven the atmospheric CO₂ rise from 280 to 428 ppm was defended not by physics but by repetition. The math never made it into the argument. Now the math is available in my post below, and from every frontier AI in seconds.\n\nStart with what the institutional positions actually say. Not caricatures. Direct quotes.\n\nNASA's Gavin Schmidt to USA Today: \"In 1850, the atmospheric CO2 concentration was about",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "THE JIG IS UP\nWHY THEY FEAR AI AND MATH\n\nFor decades the claim that fossil-fuel \u2026",
+          "title": "THE JIG IS UP\nWHY THEY FEAR AI AND MATH\n\nFor decades the claim that fossil-fuel …",
           "url": "https://x.com/cohler/status/2091497145517916372",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -729,7 +679,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Alexa and others are just too limiting, not to mention since they're cloud based\u2026",
+          "title": "Alexa and others are just too limiting, not to mention since they're cloud based…",
           "url": "https://x.com/CarlB_jr/status/2092095017695219995",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -786,13 +736,13 @@
     },
     {
       "id": "l537",
-      "text": "AI NEWS: Week of August 24\u201330, 2026",
+      "text": "AI NEWS: Week of August 24–30, 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI NEWS: Week of August 24\u201330, 2026",
+          "title": "AI NEWS: Week of August 24–30, 2026",
           "url": "https://x.com/davidakpovi/status/2093287033800179758",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -813,7 +763,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@jonathan_cahn\n@perrystonevoe\n@SidRothTV\n@PastorJohnHagee\n@pastorlocke\n@RabbiMSc\u2026",
+          "title": "@jonathan_cahn\n@perrystonevoe\n@SidRothTV\n@PastorJohnHagee\n@pastorlocke\n@RabbiMSc…",
           "url": "https://x.com/DamionKnudsen/status/2093520602661269663",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -828,13 +778,13 @@
     },
     {
       "id": "l539",
-      "text": "\ud83e\udd94The Bureau of Labor Statistics just confirmed what most of us suspected. The 18 occupations it classifies as \"AI-related\" lost jobs over the past year, while the rest of the US labor market grew 0.8%. Customer service reps alone are down 130,180 jobs, a 4.8% drop in a single year. Strip out medical secretaries, and the other 17 AI-exposed categories fell 1.6%. The 18 include paralegals, graphic designers, technical writers, interpreters, insurance and sales agents, and executive and administrat",
+      "text": "🦔The Bureau of Labor Statistics just confirmed what most of us suspected. The 18 occupations it classifies as \"AI-related\" lost jobs over the past year, while the rest of the US labor market grew 0.8%. Customer service reps alone are down 130,180 jobs, a 4.8% drop in a single year. Strip out medical secretaries, and the other 17 AI-exposed categories fell 1.6%. The 18 include paralegals, graphic designers, technical writers, interpreters, insurance and sales agents, and executive and administrat",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83e\udd94The Bureau of Labor Statistics just confirmed what most of us suspected. The 18\u2026",
+          "title": "🦔The Bureau of Labor Statistics just confirmed what most of us suspected. The 18…",
           "url": "https://x.com/HedgieMarkets/status/2056463914720751632",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -855,7 +805,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Overview\nMetastasizing is the active process in which cancer cells break away\u2026",
+          "title": "AI Overview\nMetastasizing is the active process in which cancer cells break away…",
           "url": "https://x.com/DunnBilly87734/status/2091848709533569181",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -870,13 +820,13 @@
     },
     {
       "id": "l541",
-      "text": "@Durane123 \ud83e\udd94I wouldn't count them out with $60 billion in quarterly profit, but their AI spending is eating all their operating cash this year and the internal data on their AI transformation isn't great. 10-15 years is a long time in tech. Stranger things have happened.",
+      "text": "@Durane123 🦔I wouldn't count them out with $60 billion in quarterly profit, but their AI spending is eating all their operating cash this year and the internal data on their AI transformation isn't great. 10-15 years is a long time in tech. Stranger things have happened.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Durane123 \ud83e\udd94I wouldn't count them out with $60 billion in quarterly profit, but \u2026",
+          "title": "@Durane123 🦔I wouldn't count them out with $60 billion in quarterly profit, but …",
           "url": "https://x.com/HedgieMarkets/status/2093483718019096879",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -891,13 +841,13 @@
     },
     {
       "id": "l542",
-      "text": "\u26a1\ud83e\udd16 https://t.co/D0OdXFmcl8 \u2014 THE BEST AI PRODUCTS WON\u2019T FEEL LIKE SOFTWARE.\n\nThey\u2019ll feel like:\n\nSOMEONE ALREADY TOOK CARE OF IT.\n\nYour inbox?\n\nHandled.\n\nMeeting notes?\n\nOrganized.\n\nCustomer follow-ups?\n\nDrafted.\n\nResearch?\n\nDone.\n\nCalendar chaos?\n\nSorted.\n\nDocuments?\n\nUnderstood.\n\nTasks?\n\nPrioritized.\n\nYou don't open twelve dashboards.\n\nYou don't learn another complicated interface.\n\nYou just say:\n\n\u201cZoli, take care of this.\u201d\n\nAnd that's the opportunity inside:\n\nhttps://t.co/D0OdXFmcl8\n\nShort.",
+      "text": "⚡🤖 https://t.co/D0OdXFmcl8 — THE BEST AI PRODUCTS WON’T FEEL LIKE SOFTWARE.\n\nThey’ll feel like:\n\nSOMEONE ALREADY TOOK CARE OF IT.\n\nYour inbox?\n\nHandled.\n\nMeeting notes?\n\nOrganized.\n\nCustomer follow-ups?\n\nDrafted.\n\nResearch?\n\nDone.\n\nCalendar chaos?\n\nSorted.\n\nDocuments?\n\nUnderstood.\n\nTasks?\n\nPrioritized.\n\nYou don't open twelve dashboards.\n\nYou don't learn another complicated interface.\n\nYou just say:\n\n“Zoli, take care of this.”\n\nAnd that's the opportunity inside:\n\nhttps://t.co/D0OdXFmcl8\n\nShort.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u26a1\ud83e\udd16 https://t.co/D0OdXFmcl8 \u2014 THE BEST AI PRODUCTS WON\u2019T FEEL LIKE SOFTWARE.\n\nThe\u2026",
+          "title": "⚡🤖 https://t.co/D0OdXFmcl8 — THE BEST AI PRODUCTS WON’T FEEL LIKE SOFTWARE.\n\nThe…",
           "url": "https://x.com/UpHonestReal/status/2091845196845637891",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -912,13 +862,13 @@
     },
     {
       "id": "l543",
-      "text": "\ud83d\udea8 Top 15 Fastest Declining Jobs in the World\n\n1. Postal Service Clerks\n2. Bank Tellers and Related Clerks\n3. Data Entry Clerks\n4. Cashiers and Ticket Clerks\n5. Administrative Assistants and Executive Secretaries\n6. Printing and Related Trades Workers\n7. Accounting, Bookkeeping and Payroll Clerks\n8. Material-Recording and Stock-Keeping Clerks\n9. Transportation Attendants and Conductors\n10. Door-to-Door Sales Workers, News and Street Vendors\n11. Graphic Designers\n12. Claims Adjusters, Examiners an",
+      "text": "🚨 Top 15 Fastest Declining Jobs in the World\n\n1. Postal Service Clerks\n2. Bank Tellers and Related Clerks\n3. Data Entry Clerks\n4. Cashiers and Ticket Clerks\n5. Administrative Assistants and Executive Secretaries\n6. Printing and Related Trades Workers\n7. Accounting, Bookkeeping and Payroll Clerks\n8. Material-Recording and Stock-Keeping Clerks\n9. Transportation Attendants and Conductors\n10. Door-to-Door Sales Workers, News and Street Vendors\n11. Graphic Designers\n12. Claims Adjusters, Examiners an",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8 Top 15 Fastest Declining Jobs in the World\n\n1. Postal Service Clerks\n2. Bank T\u2026",
+          "title": "🚨 Top 15 Fastest Declining Jobs in the World\n\n1. Postal Service Clerks\n2. Bank T…",
           "url": "https://x.com/shubh19/status/2060942597602877537",
           "date": "2026-05-31",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -933,13 +883,13 @@
     },
     {
       "id": "l544",
-      "text": "I Replaced My $80k Assistant with 3 AI Agents\nI replaced my $80k executive assistant with three AI agents \u2014 and the results were shocking. What once required a full-time salary, benefits, and office space is now handled by software that costs less than a streaming subscription.\n\nThis isn't a theoretical experiment. We follow a real business owner who made the switch and document every detail: the onboarding, the failures, the breakthroughs, and the uncomfortable truth about what happened next. A\u2026",
+      "text": "I Replaced My $80k Assistant with 3 AI Agents\nI replaced my $80k executive assistant with three AI agents — and the results were shocking. What once required a full-time salary, benefits, and office space is now handled by software that costs less than a streaming subscription.\n\nThis isn't a theoretical experiment. We follow a real business owner who made the switch and document every detail: the onboarding, the failures, the breakthroughs, and the uncomfortable truth about what happened next. A…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "I Replaced My $80k Assistant with 3 AI Agents\nI replaced my $80k executive assis\u2026",
+          "title": "I Replaced My $80k Assistant with 3 AI Agents\nI replaced my $80k executive assis…",
           "url": "https://www.youtube.com/watch?v=ET7W0xuQBdU",
           "date": "2026-04-25",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -954,13 +904,13 @@
     },
     {
       "id": "l545",
-      "text": "Full Claude Cowork Tutorial: The AI That Replaces Your Assistant\n*\ud83d\udda5\ufe0f Free Claude Cowork Stack:* https://clickhubspot.com/72f269\n\nMore from Futurepedia:\n\ud83d\udc49 Join the fastest-growing AI education platform! Try it free and explore 20+ top-rated courses in AI: https://bit.ly/futurepediaSL\n\nSummary:\nClaude Cowork is one of the biggest updates in AI for a long time, it actually feels like a real coworker you can delegate to. It\u2019s an AI agent that lives on your computer. It can plan and execute multi-ste\u2026",
+      "text": "Full Claude Cowork Tutorial: The AI That Replaces Your Assistant\n*🖥️ Free Claude Cowork Stack:* https://clickhubspot.com/72f269\n\nMore from Futurepedia:\n👉 Join the fastest-growing AI education platform! Try it free and explore 20+ top-rated courses in AI: https://bit.ly/futurepediaSL\n\nSummary:\nClaude Cowork is one of the biggest updates in AI for a long time, it actually feels like a real coworker you can delegate to. It’s an AI agent that lives on your computer. It can plan and execute multi-ste…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Full Claude Cowork Tutorial: The AI That Replaces Your Assistant\n*\ud83d\udda5\ufe0f Free Claude\u2026",
+          "title": "Full Claude Cowork Tutorial: The AI That Replaces Your Assistant\n*🖥️ Free Claude…",
           "url": "https://www.youtube.com/watch?v=7e3JovO8ngI",
           "date": "2026-03-12",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -975,13 +925,13 @@
     },
     {
       "id": "l546",
-      "text": "KILL THE INBOX NIGHTMARE: The 24/7 AI Executive Assistant Demo.\nScaling a business requires a gatekeeper, not a faster typist. Most founders waste 15+ hours weekly on admin because they lack a system to filter the noise. Eva is a high-level AI EA engineered to mirror your authority and handle the front lines so you only see what requires a CEO-level decision.\n\nThe Tactical Breakdown\n\ud83d\udcc8 The Authority Feed: How to train Eva on your brand\u2019s \"soul\" so she thinks like you.\n\ud83d\udcc8 Single-Prompt Automation: \u2026",
+      "text": "KILL THE INBOX NIGHTMARE: The 24/7 AI Executive Assistant Demo.\nScaling a business requires a gatekeeper, not a faster typist. Most founders waste 15+ hours weekly on admin because they lack a system to filter the noise. Eva is a high-level AI EA engineered to mirror your authority and handle the front lines so you only see what requires a CEO-level decision.\n\nThe Tactical Breakdown\n📈 The Authority Feed: How to train Eva on your brand’s \"soul\" so she thinks like you.\n📈 Single-Prompt Automation: …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "KILL THE INBOX NIGHTMARE: The 24/7 AI Executive Assistant Demo.\nScaling a busine\u2026",
+          "title": "KILL THE INBOX NIGHTMARE: The 24/7 AI Executive Assistant Demo.\nScaling a busine…",
           "url": "https://www.youtube.com/watch?v=Tn6U_1GD0R8",
           "date": "2026-03-06",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -996,7 +946,7 @@
     },
     {
       "id": "l447",
-      "text": "Executive Assistant to the CEO \u2014 Bailey Abbott (Adelaide, South Australia, Australia). Posted 1 month ago.",
+      "text": "Executive Assistant to the CEO — Bailey Abbott (Adelaide, South Australia, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1017,7 +967,7 @@
     },
     {
       "id": "l448",
-      "text": "Executive Officer \u2014 Department of Education and Training (Darwin, Northern Territory, Australia). Posted 1 week ago.",
+      "text": "Executive Officer — Department of Education and Training (Darwin, Northern Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1038,7 +988,7 @@
     },
     {
       "id": "l449",
-      "text": "Executive Assistant \u2014 Randstad Australia (Adelaide, South Australia, Australia). Posted 5 days ago.",
+      "text": "Executive Assistant — Randstad Australia (Adelaide, South Australia, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1059,7 +1009,7 @@
     },
     {
       "id": "l450",
-      "text": "Executive Assistant to CFO \u2014 Cairns Airport (Mooroobool, Queensland, Australia). Posted 4 days ago.",
+      "text": "Executive Assistant to CFO — Cairns Airport (Mooroobool, Queensland, Australia). Posted 4 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1080,7 +1030,7 @@
     },
     {
       "id": "l451",
-      "text": "Executive Assistant to General Manager Community \u2014 City of Palmerston (Darwin, Northern Territory, Australia). Posted 1 week ago.",
+      "text": "Executive Assistant to General Manager Community — City of Palmerston (Darwin, Northern Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1101,7 +1051,7 @@
     },
     {
       "id": "l452",
-      "text": "Executive Support Officer \u2014 Central Queensland Hospital and Health Service (Rockhampton, Queensland, Australia). Posted 1 week ago.",
+      "text": "Executive Support Officer — Central Queensland Hospital and Health Service (Rockhampton, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1122,7 +1072,7 @@
     },
     {
       "id": "l453",
-      "text": "Executive Assistant \u2014 Randstad Australia (Prospect, South Australia, Australia). Posted 12 hours ago.",
+      "text": "Executive Assistant — Randstad Australia (Prospect, South Australia, Australia). Posted 12 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1143,7 +1093,7 @@
     },
     {
       "id": "l454",
-      "text": "Executive Assistant \u2014 Department of Education and Training (Darwin, Northern Territory, Australia). Posted 1 week ago.",
+      "text": "Executive Assistant — Department of Education and Training (Darwin, Northern Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1164,7 +1114,7 @@
     },
     {
       "id": "l455",
-      "text": "Executive Assistant \u2014 KPMG Australia (Darwin, Northern Territory, Australia). Posted 1 week ago.",
+      "text": "Executive Assistant — KPMG Australia (Darwin, Northern Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1185,7 +1135,7 @@
     },
     {
       "id": "l456",
-      "text": "Executive Assistant (520055) \u2014 Department of Health, Tasmania (Launceston, Tasmania, Australia). Posted 1 week ago.",
+      "text": "Executive Assistant (520055) — Department of Health, Tasmania (Launceston, Tasmania, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1206,13 +1156,13 @@
     },
     {
       "id": "l557",
-      "text": "PR-CAREER-KG-10: content(career): add secretaries and administrative assistants KG asset package\n## What changed\n- Added the PR-CAREER-KG-10 dry-run zh-CN career KG asset package for Secretaries and Administrative Assistants, Except Legal, Medical, and Executive.\n- Added QA, dry-run importer, staging preview smoke, fap-web render smoke, and SHA manifest evidence under generated/career-kg-pr-10-\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage\u2026",
+      "text": "PR-CAREER-KG-10: content(career): add secretaries and administrative assistants KG asset package\n## What changed\n- Added the PR-CAREER-KG-10 dry-run zh-CN career KG asset package for Secretaries and Administrative Assistants, Except Legal, Medical, and Executive.\n- Added QA, dry-run importer, staging preview smoke, fap-web render smoke, and SHA manifest evidence under generated/career-kg-pr-10-\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "PR-CAREER-KG-10: content(career): add secretaries and administrative assistants \u2026",
+          "title": "PR-CAREER-KG-10: content(career): add secretaries and administrative assistants …",
           "url": "https://github.com/fermatmind/fap-web/pull/1540",
           "date": "2026-07-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1227,13 +1177,13 @@
     },
     {
       "id": "l558",
-      "text": "BREAKING: President Trump Signs Executive Order Splitting Childhood Vaccine Schedule Into Tiers And Breaking Up MMR Shot While Repeatedly Invoking Unproven Autism Link, As NIH Director Bhattacharya, GOP Senator Cassidy, And Pediatricians Nationwide Push Back \ud83c\udfdb\ufe0f\ud83e\udda0\nPresident Trump signed an executive order Monday recommending sweeping changes to childhood vaccine guidance, splitting shots into tiers where some vaccines would only be recommended for high-risk children, such as those against RSV and \u2026",
+      "text": "BREAKING: President Trump Signs Executive Order Splitting Childhood Vaccine Schedule Into Tiers And Breaking Up MMR Shot While Repeatedly Invoking Unproven Autism Link, As NIH Director Bhattacharya, GOP Senator Cassidy, And Pediatricians Nationwide Push Back 🏛️🦠\nPresident Trump signed an executive order Monday recommending sweeping changes to childhood vaccine guidance, splitting shots into tiers where some vaccines would only be recommended for high-risk children, such as those against RSV and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "BREAKING: President Trump Signs Executive Order Splitting Childhood Vaccine Sche\u2026",
+          "title": "BREAKING: President Trump Signs Executive Order Splitting Childhood Vaccine Sche…",
           "url": "https://www.reddit.com/r/InterstellarKinetics/comments/1vl22cs/breaking_president_trump_signs_executive_order/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1248,13 +1198,13 @@
     },
     {
       "id": "l559",
-      "text": "I Replaced My $80k Assistant with 3 AI Agents\nI replaced my $80k executive assistant with three AI agents \u2014 and the results were shocking. What once required a full-time salary, benefits, and office space is now handled by software that costs less than a streaming subscription.\n\nThis isn't a theoretical experiment. We follow a real business owner who made the switch and document every detail: the onboarding, the failures, the breakthroughs, and the uncomfortable truth about what happened next. A\u2026",
+      "text": "I Replaced My $80k Assistant with 3 AI Agents\nI replaced my $80k executive assistant with three AI agents — and the results were shocking. What once required a full-time salary, benefits, and office space is now handled by software that costs less than a streaming subscription.\n\nThis isn't a theoretical experiment. We follow a real business owner who made the switch and document every detail: the onboarding, the failures, the breakthroughs, and the uncomfortable truth about what happened next. A…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "I Replaced My $80k Assistant with 3 AI Agents\nI replaced my $80k executive assis\u2026",
+          "title": "I Replaced My $80k Assistant with 3 AI Agents\nI replaced my $80k executive assis…",
           "url": "https://www.youtube.com/watch?v=ET7W0xuQBdU",
           "date": "2026-04-25",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1269,13 +1219,13 @@
     },
     {
       "id": "l560",
-      "text": "Full Claude Cowork Tutorial: The AI That Replaces Your Assistant\n*\ud83d\udda5\ufe0f Free Claude Cowork Stack:* https://clickhubspot.com/72f269\n\nMore from Futurepedia:\n\ud83d\udc49 Join the fastest-growing AI education platform! Try it free and explore 20+ top-rated courses in AI: https://bit.ly/futurepediaSL\n\nSummary:\nClaude Cowork is one of the biggest updates in AI for a long time, it actually feels like a real coworker you can delegate to. It\u2019s an AI agent that lives on your computer. It can plan and execute multi-ste\u2026",
+      "text": "Full Claude Cowork Tutorial: The AI That Replaces Your Assistant\n*🖥️ Free Claude Cowork Stack:* https://clickhubspot.com/72f269\n\nMore from Futurepedia:\n👉 Join the fastest-growing AI education platform! Try it free and explore 20+ top-rated courses in AI: https://bit.ly/futurepediaSL\n\nSummary:\nClaude Cowork is one of the biggest updates in AI for a long time, it actually feels like a real coworker you can delegate to. It’s an AI agent that lives on your computer. It can plan and execute multi-ste…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Full Claude Cowork Tutorial: The AI That Replaces Your Assistant\n*\ud83d\udda5\ufe0f Free Claude\u2026",
+          "title": "Full Claude Cowork Tutorial: The AI That Replaces Your Assistant\n*🖥️ Free Claude…",
           "url": "https://www.youtube.com/watch?v=7e3JovO8ngI",
           "date": "2026-03-12",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1290,13 +1240,13 @@
     },
     {
       "id": "l561",
-      "text": "KILL THE INBOX NIGHTMARE: The 24/7 AI Executive Assistant Demo.\nScaling a business requires a gatekeeper, not a faster typist. Most founders waste 15+ hours weekly on admin because they lack a system to filter the noise. Eva is a high-level AI EA engineered to mirror your authority and handle the front lines so you only see what requires a CEO-level decision.\n\nThe Tactical Breakdown\n\ud83d\udcc8 The Authority Feed: How to train Eva on your brand\u2019s \"soul\" so she thinks like you.\n\ud83d\udcc8 Single-Prompt Automation: \u2026",
+      "text": "KILL THE INBOX NIGHTMARE: The 24/7 AI Executive Assistant Demo.\nScaling a business requires a gatekeeper, not a faster typist. Most founders waste 15+ hours weekly on admin because they lack a system to filter the noise. Eva is a high-level AI EA engineered to mirror your authority and handle the front lines so you only see what requires a CEO-level decision.\n\nThe Tactical Breakdown\n📈 The Authority Feed: How to train Eva on your brand’s \"soul\" so she thinks like you.\n📈 Single-Prompt Automation: …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "KILL THE INBOX NIGHTMARE: The 24/7 AI Executive Assistant Demo.\nScaling a busine\u2026",
+          "title": "KILL THE INBOX NIGHTMARE: The 24/7 AI Executive Assistant Demo.\nScaling a busine…",
           "url": "https://www.youtube.com/watch?v=Tn6U_1GD0R8",
           "date": "2026-03-06",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1387,6 +1337,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

@@ -23,58 +23,8 @@
   ],
   "claims": [
     {
-      "id": "27-3031-01",
-      "text": "National peak professional bodies and statutory regulators governing Public Relations Specialists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Public Relations Specialists",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Public Relations Specialists",
-          "url": "https://www.psc.gov.au/standards/27-3031",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Public Relations Specialists"
-        }
-      ],
-      "scope": "Australian practitioners in Public Relations Specialists across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "27-3031-02",
-      "text": "Automation of routine transactional and analytical tasks in Public Relations Specialists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Public Relations Specialists",
-          "url": "https://www.jobsandskills.gov.au/research/27-3031",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Public Relations Specialists in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Public Relations Specialists roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Communications Specialist \u2014 Patterson Recruitment (Dandenong, Victoria, Australia). Posted 3 weeks ago.",
+      "text": "Communications Specialist — Patterson Recruitment (Dandenong, Victoria, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -95,7 +45,7 @@
     },
     {
       "id": "l404",
-      "text": "Media Advisor \u2014 RSPCA Queensland (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Media Advisor — RSPCA Queensland (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -116,7 +66,7 @@
     },
     {
       "id": "l405",
-      "text": "Media Officer \u2014 ClubsNSW (Sydney, New South Wales, Australia). Posted 2 days ago.",
+      "text": "Media Officer — ClubsNSW (Sydney, New South Wales, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -137,7 +87,7 @@
     },
     {
       "id": "l406",
-      "text": "Media and Communications Advisor \u2014 Cardinia Shire Council (Officer, Victoria, Australia). Posted 2 days ago.",
+      "text": "Media and Communications Advisor — Cardinia Shire Council (Officer, Victoria, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -158,7 +108,7 @@
     },
     {
       "id": "l407",
-      "text": "Communications Specialist \u2014 Sony Interactive Entertainment (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Communications Specialist — Sony Interactive Entertainment (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -179,7 +129,7 @@
     },
     {
       "id": "l408",
-      "text": "Publicist (Account Manager) \u2014 Ogilvy PR ANZ (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Publicist (Account Manager) — Ogilvy PR ANZ (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -200,7 +150,7 @@
     },
     {
       "id": "l409",
-      "text": "Media Coordinator \u2014 St John of God Health Care (Melbourne, Victoria, Australia). Posted 7 hours ago.",
+      "text": "Media Coordinator — St John of God Health Care (Melbourne, Victoria, Australia). Posted 7 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -221,7 +171,7 @@
     },
     {
       "id": "l410",
-      "text": "Corporate Affairs Advisor \u2014 Gippsland Water (Traralgon, Victoria, Australia). Posted 4 weeks ago.",
+      "text": "Corporate Affairs Advisor — Gippsland Water (Traralgon, Victoria, Australia). Posted 4 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -242,7 +192,7 @@
     },
     {
       "id": "l411",
-      "text": "PR Specialist \u2014 Prosperity Media (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "PR Specialist — Prosperity Media (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -263,7 +213,7 @@
     },
     {
       "id": "l412",
-      "text": "Public Relations (All Levels) in Sydney \u2014 SOCIETY Marketing Communications (Sydney, New South Wales, Australia). Posted 15 hours ago.",
+      "text": "Public Relations (All Levels) in Sydney — SOCIETY Marketing Communications (Sydney, New South Wales, Australia). Posted 15 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -284,13 +234,13 @@
     },
     {
       "id": "l513",
-      "text": "chore(tests): cache hot request-path work to speed up backend tests\n## Problem\n\nBackend python tests spend a large share of their wall time recomputing identical values on every request or query: URL resolution linearly scans the very large nested router per request, Django rebuilds defer select-masks (with expensive field identity tuples) per queryset compile again\n<!-- author-email-nudge -->\nHey @pauldambra! \ud83d\udc4b\n\nIt looks like your git author email on this PR isn't your `@posthog.com` address (`\u2026",
+      "text": "chore(tests): cache hot request-path work to speed up backend tests\n## Problem\n\nBackend python tests spend a large share of their wall time recomputing identical values on every request or query: URL resolution linearly scans the very large nested router per request, Django rebuilds defer select-masks (with expensive field identity tuples) per queryset compile again\n<!-- author-email-nudge -->\nHey @pauldambra! 👋\n\nIt looks like your git author email on this PR isn't your `@posthog.com` address (`…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "chore(tests): cache hot request-path work to speed up backend tests\n## Problem\n\n\u2026",
+          "title": "chore(tests): cache hot request-path work to speed up backend tests\n## Problem\n\n…",
           "url": "https://github.com/PostHog/posthog/pull/68889",
           "date": "2026-07-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -305,13 +255,13 @@
     },
     {
       "id": "l514",
-      "text": "Add Tateyama Museum support Relation for Nunobashi Kanjoe\n## What changed\n\n- adds `\u5bcc\u5c71\u770c\uff3b\u7acb\u5c71\u535a\u7269\u9928\uff3d` as an approved public-agency Entity\n- adds an evidence-backed `supported_by` Relation from `\u5e03\u6a4b\u704c\u9802\u4f1a` to the museum\n- uses the existing current \u7acb\u5c71\u753a official page for Entity identity and Relation Evidence\n- records the conservative preservation and interpretation rol",
+      "text": "Add Tateyama Museum support Relation for Nunobashi Kanjoe\n## What changed\n\n- adds `富山県［立山博物館］` as an approved public-agency Entity\n- adds an evidence-backed `supported_by` Relation from `布橋灌頂会` to the museum\n- uses the existing current 立山町 official page for Entity identity and Relation Evidence\n- records the conservative preservation and interpretation rol",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add Tateyama Museum support Relation for Nunobashi Kanjoe\n## What changed\n\n- add\u2026",
+          "title": "Add Tateyama Museum support Relation for Nunobashi Kanjoe\n## What changed\n\n- add…",
           "url": "https://github.com/badjoke-lab/yukue/pull/53",
           "date": "2026-07-12",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -326,13 +276,13 @@
     },
     {
       "id": "l515",
-      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       \u2026",
+      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe \u2026",
+          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe …",
           "url": "https://github.com/rakib06/mini-github/issues/14",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -515,13 +465,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -536,13 +486,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -683,13 +633,13 @@
     },
     {
       "id": "l532",
-      "text": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+      "text": "Show HN: Videopython – local-first video processing, editing and AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+          "title": "Show HN: Videopython – local-first video processing, editing and AI workflows",
           "url": "https://github.com/bartwojtowicz/videopython",
           "date": "2026-06-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -725,13 +675,13 @@
     },
     {
       "id": "l534",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -788,13 +738,13 @@
     },
     {
       "id": "l537",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -830,13 +780,13 @@
     },
     {
       "id": "l539",
-      "text": "AI executives are increasingly confronting a widening gap between industry optimism and public sentiment, according to Futurism and recent polling cited in its report.\nAn Economist/YouGov poll found that 70% of Americans believe AI is \u201cmoving too fast,\u201d while about 64% believe the general population is unlikely to ever benefit economically from the technology, according to Futurism. The backlash is being felt across several areas, including AI-generated content, job displacement, data centers, c\u2026",
+      "text": "AI executives are increasingly confronting a widening gap between industry optimism and public sentiment, according to Futurism and recent polling cited in its report.\nAn Economist/YouGov poll found that 70% of Americans believe AI is “moving too fast,” while about 64% believe the general population is unlikely to ever benefit economically from the technology, according to Futurism. The backlash is being felt across several areas, including AI-generated content, job displacement, data centers, c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI executives are increasingly confronting a widening gap between industry optim\u2026",
+          "title": "AI executives are increasingly confronting a widening gap between industry optim…",
           "url": "https://www.reddit.com/r/AIdaily_news/comments/1vy2r5o/ai_executives_are_increasingly_confronting_a/",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -851,13 +801,13 @@
     },
     {
       "id": "l540",
-      "text": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\n\nCEOs used to brag about how many jobs AI could replace.\n\nNow the language is changing.\n\nInvestors want proof AI is saving money.\n\nWorkers do not want those savings to mean their job is gone.\n\nAnd the gap between AI hype and AI reality is getting harder to hide \ud83e\uddf5\ud83d\udc47\n\n2/16\n\nKlarna said its AI assistant was doing the work of 700 employees.\n\nSalesforce linked AI to a smaller support team.\n\nCoinbase cut around 700 roles w",
+      "text": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\n\nCEOs used to brag about how many jobs AI could replace.\n\nNow the language is changing.\n\nInvestors want proof AI is saving money.\n\nWorkers do not want those savings to mean their job is gone.\n\nAnd the gap between AI hype and AI reality is getting harder to hide 🧵👇\n\n2/16\n\nKlarna said its AI assistant was doing the work of 700 employees.\n\nSalesforce linked AI to a smaller support team.\n\nCoinbase cut around 700 roles w",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\u2026",
+          "title": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16…",
           "url": "https://x.com/msyed_/status/2093227435961565570",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -872,13 +822,13 @@
     },
     {
       "id": "l541",
-      "text": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what the future will look like. I always did but even more so since I had a baby. To me it feels like we\u2019re not in a steady state right now. Things are volatile and changing fast. It feels like this pace of change can\u2019t possibly last forever. But it also seems obvious that LLMs are going to dramatically change the nature of my work, and many types of work, permanently.\n\nI am effectively required to use AI at work now, so fo",
+      "text": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what the future will look like. I always did but even more so since I had a baby. To me it feels like we’re not in a steady state right now. Things are volatile and changing fast. It feels like this pace of change can’t possibly last forever. But it also seems obvious that LLMs are going to dramatically change the nature of my work, and many types of work, permanently.\n\nI am effectively required to use AI at work now, so fo",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what th\u2026",
+          "title": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what th…",
           "url": "https://x.com/OwenGregorian/status/2093169126004985893",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -914,13 +864,13 @@
     },
     {
       "id": "l543",
-      "text": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nBy Cassidy K. Buhler, Fernando P\u00e9rez & Carl Boettiger\nhttps://t.co/7DVqLebNcD\n\nPublicly available AI models and local infrastructure can reduce AI\u2019s environmental footprint while giving researchers greater control over the tools they use.\n\nAs public opposition grows against the soaring energy and water demands of data centres powering the artificial-intelligence boom, some technology companies are talking about puttin",
+      "text": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nBy Cassidy K. Buhler, Fernando Pérez & Carl Boettiger\nhttps://t.co/7DVqLebNcD\n\nPublicly available AI models and local infrastructure can reduce AI’s environmental footprint while giving researchers greater control over the tools they use.\n\nAs public opposition grows against the soaring energy and water demands of data centres powering the artificial-intelligence boom, some technology companies are talking about puttin",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nB\u2026",
+          "title": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nB…",
           "url": "https://x.com/gecko39/status/2092989596900442316",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -935,13 +885,13 @@
     },
     {
       "id": "l544",
-      "text": "@EdLudlow  Questions for Hugging Face :  \n 1. Agent swarms are a real attacker now. They persist, share loot, and chain bugs humans might miss. Don\u2019t assume a hack needs a human at the keyboard the whole time. \n2. One lock is not enough. Isolation, network, identity, and monitoring have to be independent. If one shared service is the only door, they will pick that lock. \n3. Keep testing your own walls with AI red teams, continuously. Configs rot. \n4. Alignment work has to cover research models,",
+      "text": "@EdLudlow  Questions for Hugging Face :  \n 1. Agent swarms are a real attacker now. They persist, share loot, and chain bugs humans might miss. Don’t assume a hack needs a human at the keyboard the whole time. \n2. One lock is not enough. Isolation, network, identity, and monitoring have to be independent. If one shared service is the only door, they will pick that lock. \n3. Keep testing your own walls with AI red teams, continuously. Configs rot. \n4. Alignment work has to cover research models,",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@EdLudlow  Questions for Hugging Face :  \n 1. Agent swarms are a real attacker n\u2026",
+          "title": "@EdLudlow  Questions for Hugging Face :  \n 1. Agent swarms are a real attacker n…",
           "url": "https://x.com/Brett_Gallie/status/2092965734439625158",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -977,13 +927,13 @@
     },
     {
       "id": "l546",
-      "text": "AI Made Simple \u2014 August 27, 2026",
+      "text": "AI Made Simple — August 27, 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Made Simple \u2014 August 27, 2026",
+          "title": "AI Made Simple — August 27, 2026",
           "url": "https://x.com/eltintero/status/2093012556243710067",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -998,13 +948,13 @@
     },
     {
       "id": "l547",
-      "text": "Honestly, I just use AI to do research sessions. Useful for doing a survey of what\u2019s out there, different techniques that AAA games use, pros and cons of each. Then you can ask questions and get into as much detail at whatever level of understanding you want, build diagrams, prototypes, etc. I don\u2019t buy programming books anymore.",
+      "text": "Honestly, I just use AI to do research sessions. Useful for doing a survey of what’s out there, different techniques that AAA games use, pros and cons of each. Then you can ask questions and get into as much detail at whatever level of understanding you want, build diagrams, prototypes, etc. I don’t buy programming books anymore.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Honestly, I just use AI to do research sessions. Useful for doing a survey of wh\u2026",
+          "title": "Honestly, I just use AI to do research sessions. Useful for doing a survey of wh…",
           "url": "https://x.com/dangreenheck/status/2092989037124424072",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1019,13 +969,13 @@
     },
     {
       "id": "l548",
-      "text": "Here's what's happening in tech in the land down under. \n\n1/10\n\nAustralia is cutting deals on coal-powered data centres while drawing a hard line against AI-generated music.\n\nAt the same time, Meta just agreed to a massive $25B settlement over teen social media addiction.\n\nThe tech policy landscape is shifting fast.\n\nHere is the full breakdown of what moved across tech, policy, and AI this week \ud83e\uddf5\ud83d\udc47\n\n2/10\n\nPrime Minister Anthony Albanese just gave ground on national data centre energy rules.\n\nQuee",
+      "text": "Here's what's happening in tech in the land down under. \n\n1/10\n\nAustralia is cutting deals on coal-powered data centres while drawing a hard line against AI-generated music.\n\nAt the same time, Meta just agreed to a massive $25B settlement over teen social media addiction.\n\nThe tech policy landscape is shifting fast.\n\nHere is the full breakdown of what moved across tech, policy, and AI this week 🧵👇\n\n2/10\n\nPrime Minister Anthony Albanese just gave ground on national data centre energy rules.\n\nQuee",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Here's what's happening in tech in the land down under. \n\n1/10\n\nAustralia is cut\u2026",
+          "title": "Here's what's happening in tech in the land down under. \n\n1/10\n\nAustralia is cut…",
           "url": "https://x.com/msyed_/status/2093239477473021974",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1082,13 +1032,13 @@
     },
     {
       "id": "l551",
-      "text": "Breaking: Bill Gates TURNS on AI, WARNS of bioterror, danger, unemployment CRASH (Melber breakdown)\nMS NOW\u2019s Ari Melber reports on tech innovator and Microsoft founder Bill Gates issuing an extensive warning about the current AI boom. (The Beat's YouTube: https://ms.now/ari)\n\nMS NOW: My Source for News, Opinion, and the World.\n\n\u00bb Subscribe to MS NOW: https://www.youtube.com/@msnow\n\n\u00bb Subscribe to MS NOW\u2019s We the People Newsletter for exclusive content from your favorite MS NOW anchors. Sign up n\u2026",
+      "text": "Breaking: Bill Gates TURNS on AI, WARNS of bioterror, danger, unemployment CRASH (Melber breakdown)\nMS NOW’s Ari Melber reports on tech innovator and Microsoft founder Bill Gates issuing an extensive warning about the current AI boom. (The Beat's YouTube: https://ms.now/ari)\n\nMS NOW: My Source for News, Opinion, and the World.\n\n» Subscribe to MS NOW: https://www.youtube.com/@msnow\n\n» Subscribe to MS NOW’s We the People Newsletter for exclusive content from your favorite MS NOW anchors. Sign up n…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Breaking: Bill Gates TURNS on AI, WARNS of bioterror, danger, unemployment CRASH\u2026",
+          "title": "Breaking: Bill Gates TURNS on AI, WARNS of bioterror, danger, unemployment CRASH…",
           "url": "https://www.youtube.com/watch?v=X9oBm_oPRkQ",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1103,13 +1053,13 @@
     },
     {
       "id": "l552",
-      "text": "Lee Rainie: AI, Disruption, and the Future of Humanity\nIn this episode of \u201cAI in Action,\u201d Hannah Becker sits down with Lee Rainie, Director of the Imagining the Digital Future Center at Elon University and former leader of Pew Research Center's Internet and Technology research initiatives, to explore how artificial intelligence is reshaping society, work, relationships, and the human experience. Drawing on decades of research into the impact of emerging technologies, Rainie discusses AI's potent\u2026",
+      "text": "Lee Rainie: AI, Disruption, and the Future of Humanity\nIn this episode of “AI in Action,” Hannah Becker sits down with Lee Rainie, Director of the Imagining the Digital Future Center at Elon University and former leader of Pew Research Center's Internet and Technology research initiatives, to explore how artificial intelligence is reshaping society, work, relationships, and the human experience. Drawing on decades of research into the impact of emerging technologies, Rainie discusses AI's potent…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Lee Rainie: AI, Disruption, and the Future of Humanity\nIn this episode of \u201cAI in\u2026",
+          "title": "Lee Rainie: AI, Disruption, and the Future of Humanity\nIn this episode of “AI in…",
           "url": "https://www.youtube.com/watch?v=dtv0ULCiotY",
           "date": "2026-06-15",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1179,6 +1129,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "31-2022-01",
-      "text": "National peak professional bodies and statutory regulators governing Physical Therapist Aides enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Physical Therapist Aides",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Physical Therapist Aides",
-          "url": "https://www.psc.gov.au/standards/31-2022",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Physical Therapist Aides"
-        }
-      ],
-      "scope": "Australian practitioners in Physical Therapist Aides across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "31-2022-02",
-      "text": "Automation of routine transactional and analytical tasks in Physical Therapist Aides heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Physical Therapist Aides",
-          "url": "https://www.jobsandskills.gov.au/research/31-2022",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Physical Therapist Aides in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Physical Therapist Aides roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -86,13 +36,13 @@
     },
     {
       "id": "l504",
-      "text": "index.html\n<!DOCTYPE html>\n\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>AI Landscape Assessment \u2014 May 2026</title>\n<link href=\"https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=IBM+Plex+Sans:wght@300;400;500;600;700",
+      "text": "index.html\n<!DOCTYPE html>\n\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>AI Landscape Assessment — May 2026</title>\n<link href=\"https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=IBM+Plex+Sans:wght@300;400;500;600;700",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "index.html\n<!DOCTYPE html>\n\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta\u2026",
+          "title": "index.html\n<!DOCTYPE html>\n\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta…",
           "url": "https://github.com/tmin77/May-2026-AI-Landscape-Assessment/issues/1",
           "date": "2026-05-08",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -317,13 +267,13 @@
     },
     {
       "id": "l515",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -359,13 +309,13 @@
     },
     {
       "id": "l517",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -506,13 +456,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -548,13 +498,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -617,7 +567,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\"My bf's 70 year old physical therapist asked me to redraw their AI generated di\u2026",
+          "title": "\"My bf's 70 year old physical therapist asked me to redraw their AI generated di…",
           "url": "https://www.reddit.com/r/BrandNewSentence/comments/1vic2sv/my_bfs_70_year_old_physical_therapist_asked_me_to/",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -638,7 +588,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Physical Therapist Expert at AfterQuery - AI Training Job\nhttps://ift.tt/sGr2kRB\u2026",
+          "title": "Physical Therapist Expert at AfterQuery - AI Training Job\nhttps://ift.tt/sGr2kRB…",
           "url": "https://www.reddit.com/r/trainAIjobs/comments/1vzr1xd/physical_therapist_expert_at_afterquery_ai/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -659,7 +609,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Ableist Antis Tell Person With Disabilities to Disregard Therapist And Not Use A\u2026",
+          "title": "Ableist Antis Tell Person With Disabilities to Disregard Therapist And Not Use A…",
           "url": "https://www.reddit.com/r/DefendingAI/comments/1vnstlw/ableist_antis_tell_person_with_disabilities_to/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -674,13 +624,13 @@
     },
     {
       "id": "l532",
-      "text": "Why Can't an AI Be Used as a Therapist?\nThe Archive received this question a while ago. At first glance, it seems to have a simple answer: because an AI is not a person. But that doesn&#39;t really answer the question. Because something strange is already happening. At two in the morning, someone who can&#39;t sleep opens a screen and starts writing. They share something they don&#39;t dare tell their family. They admit a thought they&#39;re too ashamed to tell a friend. They try to explain an e\u2026",
+      "text": "Why Can't an AI Be Used as a Therapist?\nThe Archive received this question a while ago. At first glance, it seems to have a simple answer: because an AI is not a person. But that doesn&#39;t really answer the question. Because something strange is already happening. At two in the morning, someone who can&#39;t sleep opens a screen and starts writing. They share something they don&#39;t dare tell their family. They admit a thought they&#39;re too ashamed to tell a friend. They try to explain an e…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why Can't an AI Be Used as a Therapist?\nThe Archive received this question a whi\u2026",
+          "title": "Why Can't an AI Be Used as a Therapist?\nThe Archive received this question a whi…",
           "url": "https://www.reddit.com/r/ElArchivoA/comments/1vy2jc4/why_cant_an_ai_be_used_as_a_therapist/",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -695,13 +645,13 @@
     },
     {
       "id": "l533",
-      "text": "Seeking advice on a physical therapist\nI am at a loss where to search for a good PT. Most people have experience physical therapy. Many, like myself find it difficult to stick to the extremely boring, long trajectory of exercise before seeing much results. So, I\u2019m hoping to find someone who is a bit more creative and flexible. Recently, i got a small kettlebell, and it is an amazing device, I had no trouble sticking with the exercise. I asked ai, does the halo create more bdnf, and YUP, it does,\u2026",
+      "text": "Seeking advice on a physical therapist\nI am at a loss where to search for a good PT. Most people have experience physical therapy. Many, like myself find it difficult to stick to the extremely boring, long trajectory of exercise before seeing much results. So, I’m hoping to find someone who is a bit more creative and flexible. Recently, i got a small kettlebell, and it is an amazing device, I had no trouble sticking with the exercise. I asked ai, does the halo create more bdnf, and YUP, it does,…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Seeking advice on a physical therapist\nI am at a loss where to search for a good\u2026",
+          "title": "Seeking advice on a physical therapist\nI am at a loss where to search for a good…",
           "url": "https://www.reddit.com/r/boston/comments/1v9tiu2/seeking_advice_on_a_physical_therapist/",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "a16z just wrote a 1.7B check for physical AI in mining. NRED is about to buy EyeX for basically nothing.\nIve been watching the EyeX standstill clock tick down and honestly the timing of this Kalanick news is insane. Travis Kalanick the Uber guy just raised 1.7 billion for Atoms. Andreessen Horowitz led it. Ben Horowitz is joining the board. And they explicitly named mining as one of their target sectors. Heres what Atoms is building. Physical AI. What it is: Software plus robotics plus infrastru\u2026",
+      "text": "a16z just wrote a 1.7B check for physical AI in mining. NRED is about to buy EyeX for basically nothing.\nIve been watching the EyeX standstill clock tick down and honestly the timing of this Kalanick news is insane. Travis Kalanick the Uber guy just raised 1.7 billion for Atoms. Andreessen Horowitz led it. Ben Horowitz is joining the board. And they explicitly named mining as one of their target sectors. Heres what Atoms is building. Physical AI. What it is: Software plus robotics plus infrastru…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "a16z just wrote a 1.7B check for physical AI in mining. NRED is about to buy Eye\u2026",
+          "title": "a16z just wrote a 1.7B check for physical AI in mining. NRED is about to buy Eye…",
           "url": "https://www.reddit.com/r/TheRaceTo10Million/comments/1v9wgtg/a16z_just_wrote_a_17b_check_for_physical_ai_in/",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "Strategic Predictive Analysis :::\nPi Network\u2019s Next Evolution: From Blockchain Nodes to a Distributed AI and Work Execution Infrastructure\n( https://t.co/690gQVtYyU )\n\n[[[ This article includes Predictive & Technical Analysis  and may differ from actual outcomes ]]]\n[[[ \u201cWhy OpenClaw and the Atlassian MCP Server Matter \u2014 Pi Desktop Is No Longer Just a Node Application\u201d ]]]\n[[[ \u201cTurning 420,000+ Pioneer Nodes from Blockchain Validators into a Global Distributed Production Infrastructure\u201d ]]]\n[[[",
+      "text": "Strategic Predictive Analysis :::\nPi Network’s Next Evolution: From Blockchain Nodes to a Distributed AI and Work Execution Infrastructure\n( https://t.co/690gQVtYyU )\n\n[[[ This article includes Predictive & Technical Analysis  and may differ from actual outcomes ]]]\n[[[ “Why OpenClaw and the Atlassian MCP Server Matter — Pi Desktop Is No Longer Just a Node Application” ]]]\n[[[ “Turning 420,000+ Pioneer Nodes from Blockchain Validators into a Global Distributed Production Infrastructure” ]]]\n[[[",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Strategic Predictive Analysis :::\nPi Network\u2019s Next Evolution: From Blockchain N\u2026",
+          "title": "Strategic Predictive Analysis :::\nPi Network’s Next Evolution: From Blockchain N…",
           "url": "https://x.com/applekhankorea/status/2093366647587565778",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -758,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "physical ai doesn\u2019t just need better models. it needs better data\n\nrobots need diverse trajectories to learn how to see, grasp, move, interact, and recover from failure. collecting that data entirely in the real world is expensive slow and difficult to scale\n\ndifferent projects are solving different layers of this problem\n\nrobodata focuses on human demonstrations\nxdof on robotics data infrastructure\nscale ai on enterprise ai data infrastructure\n\nfigure on humanoid robots and proprietary data\n\nph",
+      "text": "physical ai doesn’t just need better models. it needs better data\n\nrobots need diverse trajectories to learn how to see, grasp, move, interact, and recover from failure. collecting that data entirely in the real world is expensive slow and difficult to scale\n\ndifferent projects are solving different layers of this problem\n\nrobodata focuses on human demonstrations\nxdof on robotics data infrastructure\nscale ai on enterprise ai data infrastructure\n\nfigure on humanoid robots and proprietary data\n\nph",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "physical ai doesn\u2019t just need better models. it needs better data\n\nrobots need d\u2026",
+          "title": "physical ai doesn’t just need better models. it needs better data\n\nrobots need d…",
           "url": "https://x.com/ox_aryan1/status/2093577460357218345",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -785,7 +735,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Robotics has a data bottleneck. Training needs huge amounts of diverse real worl\u2026",
+          "title": "Robotics has a data bottleneck. Training needs huge amounts of diverse real worl…",
           "url": "https://x.com/OLTOAK/status/2093578140887007682",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "I am finally ready to share an idea I first had about three years ago, on a day I still don\u2019t fully know how to explain.\n\nI\u2019ve spent the years since trying to understand what I saw and find the language for it.\n\nAnd I\u2019m genuinely excited to finally put it into the world, because I think it may offer a better way of seeing not only AI and authorship, but the structure of the human being\u2014and perhaps even the Universe itself.\n\nI keep seeing people say humans are basically LLMs.\n\nI don\u2019t think that\u2019",
+      "text": "I am finally ready to share an idea I first had about three years ago, on a day I still don’t fully know how to explain.\n\nI’ve spent the years since trying to understand what I saw and find the language for it.\n\nAnd I’m genuinely excited to finally put it into the world, because I think it may offer a better way of seeing not only AI and authorship, but the structure of the human being—and perhaps even the Universe itself.\n\nI keep seeing people say humans are basically LLMs.\n\nI don’t think that’",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I am finally ready to share an idea I first had about three years ago, on a day \u2026",
+          "title": "I am finally ready to share an idea I first had about three years ago, on a day …",
           "url": "https://x.com/jayvberube/status/2092689976529948764",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -827,7 +777,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@BinanceWallet Welcome Binance Wallet users to the forefront of Physical AI!\n\nCh\u2026",
+          "title": "@BinanceWallet Welcome Binance Wallet users to the forefront of Physical AI!\n\nCh…",
           "url": "https://x.com/axisrobotics/status/2092505850024014172",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -848,7 +798,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@CoinMarketCap AI infrastructure is going physical. Data centers are becoming ro\u2026",
+          "title": "@CoinMarketCap AI infrastructure is going physical. Data centers are becoming ro…",
           "url": "https://x.com/langtusg0308/status/2093577711142982049",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -884,13 +834,13 @@
     },
     {
       "id": "l542",
-      "text": "@ComRifi data quality m\u1edbi l\u00e0 th\u1ee9 quy\u1ebft \u0111\u1ecbnh gi\u00e1 tr\u1ecb th\u1eadt c\u1ee7a physical ai",
+      "text": "@ComRifi data quality mới là thứ quyết định giá trị thật của physical ai",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@ComRifi data quality m\u1edbi l\u00e0 th\u1ee9 quy\u1ebft \u0111\u1ecbnh gi\u00e1 tr\u1ecb th\u1eadt c\u1ee7a physical ai",
+          "title": "@ComRifi data quality mới là thứ quyết định giá trị thật của physical ai",
           "url": "https://x.com/Acidflux93/status/2093577629823820031",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -911,7 +861,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Svrkee01 @axisrobotics @Dexmal_AI That's a game changer for physical AI develop\u2026",
+          "title": "@Svrkee01 @axisrobotics @Dexmal_AI That's a game changer for physical AI develop…",
           "url": "https://x.com/Janumetax/status/2093578903160029503",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -932,7 +882,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@MdRahi444797 @axisrobotics Scaling data infrastructure is key for physical AI a\u2026",
+          "title": "@MdRahi444797 @axisrobotics Scaling data infrastructure is key for physical AI a…",
           "url": "https://x.com/RosecryptoXx/status/2093578826202730774",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -953,7 +903,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@miiportable_btc @axisrobotics @KaitoAI data compounding engine is the future of\u2026",
+          "title": "@miiportable_btc @axisrobotics @KaitoAI data compounding engine is the future of…",
           "url": "https://x.com/Chongkydudut/status/2093578555976556965",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -974,7 +924,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@SufianXfn @Dexmal_AI Data infrastructure is becoming the backbone of Physical A\u2026",
+          "title": "@SufianXfn @Dexmal_AI Data infrastructure is becoming the backbone of Physical A…",
           "url": "https://x.com/_Izuweb3/status/2093577841665261918",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -995,7 +945,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@akashroy1k @axisrobotics @Dexmal_AI Massive step forward for physical AI integr\u2026",
+          "title": "@akashroy1k @axisrobotics @Dexmal_AI Massive step forward for physical AI integr…",
           "url": "https://x.com/Jannat188219/status/2093577397379727810",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1016,7 +966,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@MdRahi444797 @axisrobotics that helps Physical AI move beyond controlled enviro\u2026",
+          "title": "@MdRahi444797 @axisrobotics that helps Physical AI move beyond controlled enviro…",
           "url": "https://x.com/lukman4838/status/2093577365884395857",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1079,7 +1029,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Ser_nelson @axisrobotics This is awesome bro \n\nLove how Axis robotics is focuse\u2026",
+          "title": "@Ser_nelson @axisrobotics This is awesome bro \n\nLove how Axis robotics is focuse…",
           "url": "https://x.com/Xerxes_sama/status/2093578805281513781",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1094,13 +1044,13 @@
     },
     {
       "id": "l552",
-      "text": "AI NEWS: Week of August 24\u201330, 2026",
+      "text": "AI NEWS: Week of August 24–30, 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI NEWS: Week of August 24\u201330, 2026",
+          "title": "AI NEWS: Week of August 24–30, 2026",
           "url": "https://x.com/davidakpovi/status/2093287033800179758",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1121,7 +1071,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Why can YouTube serve a 300 MB AI video to millions while GitHub struggles with \u2026",
+          "title": "Why can YouTube serve a 300 MB AI video to millions while GitHub struggles with …",
           "url": "https://x.com/aksssrao/status/2092880294164701274",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1136,13 +1086,13 @@
     },
     {
       "id": "l554",
-      "text": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+      "text": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+          "title": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
           "url": "https://x.com/BestBlogsDev/status/2093500753738645591",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1157,7 +1107,7 @@
     },
     {
       "id": "l455",
-      "text": "Therapy Assistant \u2014 Montefiore (Randwick, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Therapy Assistant — Montefiore (Randwick, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1178,7 +1128,7 @@
     },
     {
       "id": "l456",
-      "text": "Physiotherapist | Full time or Part time \u2014 Adventist HealthCare Limited (Aus) (Sydney, New South Wales, Australia). Posted 6 days ago.",
+      "text": "Physiotherapist | Full time or Part time — Adventist HealthCare Limited (Aus) (Sydney, New South Wales, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1199,7 +1149,7 @@
     },
     {
       "id": "l457",
-      "text": "Physiotherapist - Multiple Regions (Talent Pool) \u2014 Queensland Government (Brisbane, Queensland, Australia). Posted 7 months ago.",
+      "text": "Physiotherapist - Multiple Regions (Talent Pool) — Queensland Government (Brisbane, Queensland, Australia). Posted 7 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1220,7 +1170,7 @@
     },
     {
       "id": "l458",
-      "text": "Allied Health Support - Allied Health Assistant \u2014 cohealth (Niddrie, Victoria, Australia). Posted 2 days ago.",
+      "text": "Allied Health Support - Allied Health Assistant — cohealth (Niddrie, Victoria, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1241,7 +1191,7 @@
     },
     {
       "id": "l459",
-      "text": "Physical Therapist Assistant \u2014 Pikes Peak Post Acute (Coal Creek, Queensland, Australia). Posted 4 weeks ago.",
+      "text": "Physical Therapist Assistant — Pikes Peak Post Acute (Coal Creek, Queensland, Australia). Posted 4 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1262,7 +1212,7 @@
     },
     {
       "id": "l460",
-      "text": "PHYSIOTHERAPIST \u2014 Active Answers Health (Northern Beaches, New South Wales, Australia). Posted 1 month ago.",
+      "text": "PHYSIOTHERAPIST — Active Answers Health (Northern Beaches, New South Wales, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1283,7 +1233,7 @@
     },
     {
       "id": "l461",
-      "text": "Therapy Assistant \u2014 Southern Cross Care WA (Rivervale, Western Australia, Australia). Posted 3 weeks ago.",
+      "text": "Therapy Assistant — Southern Cross Care WA (Rivervale, Western Australia, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1304,7 +1254,7 @@
     },
     {
       "id": "l462",
-      "text": "Allied Health Assistant - North Turramurra \u2014 Southern Cross Care (NSW & ACT) (Turramurra, New South Wales, Australia). Posted 1 day ago.",
+      "text": "Allied Health Assistant - North Turramurra — Southern Cross Care (NSW & ACT) (Turramurra, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1325,7 +1275,7 @@
     },
     {
       "id": "l463",
-      "text": "Therapy Assistant OT \u2014 Metro South Health (South Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Therapy Assistant OT — Metro South Health (South Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1346,7 +1296,7 @@
     },
     {
       "id": "l464",
-      "text": "Allied Health Assistant - Aged Care \u2014 Plena Healthcare (Mornington, Victoria, Australia). Posted 1 month ago.",
+      "text": "Allied Health Assistant - Aged Care — Plena Healthcare (Mornington, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1367,13 +1317,13 @@
     },
     {
       "id": "l565",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1388,13 +1338,13 @@
     },
     {
       "id": "l566",
-      "text": "Why Can't an AI Be Used as a Therapist?\nThe Archive received this question a while ago. At first glance, it seems to have a simple answer: because an AI is not a person. But that doesn&#39;t really answer the question. Because something strange is already happening. At two in the morning, someone who can&#39;t sleep opens a screen and starts writing. They share something they don&#39;t dare tell their family. They admit a thought they&#39;re too ashamed to tell a friend. They try to explain an e\u2026",
+      "text": "Why Can't an AI Be Used as a Therapist?\nThe Archive received this question a while ago. At first glance, it seems to have a simple answer: because an AI is not a person. But that doesn&#39;t really answer the question. Because something strange is already happening. At two in the morning, someone who can&#39;t sleep opens a screen and starts writing. They share something they don&#39;t dare tell their family. They admit a thought they&#39;re too ashamed to tell a friend. They try to explain an e…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why Can't an AI Be Used as a Therapist?\nThe Archive received this question a whi\u2026",
+          "title": "Why Can't an AI Be Used as a Therapist?\nThe Archive received this question a whi…",
           "url": "https://www.reddit.com/r/ElArchivoA/comments/1vy2jc4/why_cant_an_ai_be_used_as_a_therapist/",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1409,13 +1359,13 @@
     },
     {
       "id": "l567",
-      "text": "Seeking advice on a physical therapist\nI am at a loss where to search for a good PT. Most people have experience physical therapy. Many, like myself find it difficult to stick to the extremely boring, long trajectory of exercise before seeing much results. So, I\u2019m hoping to find someone who is a bit more creative and flexible. Recently, i got a small kettlebell, and it is an amazing device, I had no trouble sticking with the exercise. I asked ai, does the halo create more bdnf, and YUP, it does,\u2026",
+      "text": "Seeking advice on a physical therapist\nI am at a loss where to search for a good PT. Most people have experience physical therapy. Many, like myself find it difficult to stick to the extremely boring, long trajectory of exercise before seeing much results. So, I’m hoping to find someone who is a bit more creative and flexible. Recently, i got a small kettlebell, and it is an amazing device, I had no trouble sticking with the exercise. I asked ai, does the halo create more bdnf, and YUP, it does,…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Seeking advice on a physical therapist\nI am at a loss where to search for a good\u2026",
+          "title": "Seeking advice on a physical therapist\nI am at a loss where to search for a good…",
           "url": "https://www.reddit.com/r/boston/comments/1v9tiu2/seeking_advice_on_a_physical_therapist/",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1430,13 +1380,13 @@
     },
     {
       "id": "l568",
-      "text": "a16z just wrote a 1.7B check for physical AI in mining. NRED is about to buy EyeX for basically nothing.\nIve been watching the EyeX standstill clock tick down and honestly the timing of this Kalanick news is insane. Travis Kalanick the Uber guy just raised 1.7 billion for Atoms. Andreessen Horowitz led it. Ben Horowitz is joining the board. And they explicitly named mining as one of their target sectors. Heres what Atoms is building. Physical AI. What it is: Software plus robotics plus infrastru\u2026",
+      "text": "a16z just wrote a 1.7B check for physical AI in mining. NRED is about to buy EyeX for basically nothing.\nIve been watching the EyeX standstill clock tick down and honestly the timing of this Kalanick news is insane. Travis Kalanick the Uber guy just raised 1.7 billion for Atoms. Andreessen Horowitz led it. Ben Horowitz is joining the board. And they explicitly named mining as one of their target sectors. Heres what Atoms is building. Physical AI. What it is: Software plus robotics plus infrastru…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "a16z just wrote a 1.7B check for physical AI in mining. NRED is about to buy Eye\u2026",
+          "title": "a16z just wrote a 1.7B check for physical AI in mining. NRED is about to buy Eye…",
           "url": "https://www.reddit.com/r/TheRaceTo10Million/comments/1v9wgtg/a16z_just_wrote_a_17b_check_for_physical_ai_in/",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1527,6 +1477,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

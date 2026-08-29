@@ -15,56 +15,6 @@
   "programs": [],
   "claims": [
     {
-      "id": "19-1022-01",
-      "text": "National peak professional bodies and statutory regulators governing Microbiologists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Microbiologists",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Microbiologists",
-          "url": "https://www.psc.gov.au/standards/19-1022",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Microbiologists"
-        }
-      ],
-      "scope": "Australian practitioners in Microbiologists across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "19-1022-02",
-      "text": "Automation of routine transactional and analytical tasks in Microbiologists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Microbiologists",
-          "url": "https://www.jobsandskills.gov.au/research/19-1022",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Microbiologists in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Microbiologists roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
       "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
@@ -255,13 +205,13 @@
     },
     {
       "id": "l512",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -297,13 +247,13 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -465,13 +415,13 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -507,13 +457,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -549,13 +499,13 @@
     },
     {
       "id": "l526",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -570,13 +520,13 @@
     },
     {
       "id": "l527",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -591,13 +541,13 @@
     },
     {
       "id": "l528",
-      "text": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]",
+      "text": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&\u2026",
+          "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&…",
           "url": "https://www.reddit.com/r/technology/comments/1vzb4xo/ai_agents_meant_to_replace_meta_workers_made/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -612,13 +562,13 @@
     },
     {
       "id": "l529",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the RAM for a motherboard upgrade or a cor\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the RAM for a motherboard upgrade or a cor…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcmasterrace/comments/1vfe28b/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -633,13 +583,13 @@
     },
     {
       "id": "l530",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcgaming/comments/1vfe3ru/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -660,7 +610,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecas\u2026",
+          "title": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecas…",
           "url": "https://www.reddit.com/r/SEO/comments/1vxkjla/sam_altman_concedes_he_overestimated_ai/",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -681,7 +631,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32\u2026",
+          "title": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32…",
           "url": "https://www.reddit.com/r/technology/comments/1voms55/onlyfans_investor_says_ai_cant_disrupt_adult/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -702,7 +652,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI job disruption priced into man's compensation payout in first known case\n&#32\u2026",
+          "title": "AI job disruption priced into man's compensation payout in first known case\n&#32…",
           "url": "https://www.reddit.com/r/australia/comments/1vv43m6/ai_job_disruption_priced_into_mans_compensation/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -717,13 +667,13 @@
     },
     {
       "id": "l534",
-      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k\u2026",
+      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A\u2026",
+          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A…",
           "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -738,13 +688,13 @@
     },
     {
       "id": "l535",
-      "text": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let\u2019s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
+      "text": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let’s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market \u2026",
+          "title": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market …",
           "url": "https://www.reddit.com/r/Superstonk/comments/1vaxmve/for_my_dorito_loversyen_intervention_with_a/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -759,13 +709,13 @@
     },
     {
       "id": "l536",
-      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c\u2026",
+      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public \u2026",
+          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public …",
           "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vnsz0y/jpmorgan_ceo_jamie_dimon_declares_ai_deployment/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -780,14 +730,14 @@
     },
     {
       "id": "l537",
-      "text": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]",
+      "text": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks \u2026",
-          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_\u00e0_special/",
+          "title": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks …",
+          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_à_special/",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
         }
@@ -807,7 +757,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/aiecosystem/comments/1w00i5d/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -822,13 +772,13 @@
     },
     {
       "id": "l539",
-      "text": "\ud83d\udea8 Are you a Microbiologist? Don\u2019t scroll past this.\n\nMicro1 is hiring Microbiologists to help train AI.\n\n\ud83d\udcb0 $70\u2013$90/hr\n\ud83c\udf0d Remote | 100 openings\n\n\ud83c\udf93 Biology, Microbiology, Chemistry or related degree required.\n\nYour scientific expertise could become your next AI income stream.\n\n\u26a0\ufe0f Update your CV before applying.\n\n\ud83d\udd17 Link in the comments.",
+      "text": "🚨 Are you a Microbiologist? Don’t scroll past this.\n\nMicro1 is hiring Microbiologists to help train AI.\n\n💰 $70–$90/hr\n🌍 Remote | 100 openings\n\n🎓 Biology, Microbiology, Chemistry or related degree required.\n\nYour scientific expertise could become your next AI income stream.\n\n⚠️ Update your CV before applying.\n\n🔗 Link in the comments.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8 Are you a Microbiologist? Don\u2019t scroll past this.\n\nMicro1 is hiring Microbiolo\u2026",
+          "title": "🚨 Are you a Microbiologist? Don’t scroll past this.\n\nMicro1 is hiring Microbiolo…",
           "url": "https://x.com/OlatunjiAyokan2/status/2086713195272540294",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -843,13 +793,13 @@
     },
     {
       "id": "l540",
-      "text": "@radical_jam_ White people can\u2019t be microbiologists- ass argument.\n\nAnyway, I only even saw this because this texture looked vaguely AI, but no one else seems to think so so hell yeah ig",
+      "text": "@radical_jam_ White people can’t be microbiologists- ass argument.\n\nAnyway, I only even saw this because this texture looked vaguely AI, but no one else seems to think so so hell yeah ig",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@radical_jam_ White people can\u2019t be microbiologists- ass argument.\n\nAnyway, I on\u2026",
+          "title": "@radical_jam_ White people can’t be microbiologists- ass argument.\n\nAnyway, I on…",
           "url": "https://x.com/fantasticmeteor/status/2093062841444245870",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -864,13 +814,13 @@
     },
     {
       "id": "l541",
-      "text": "\ud83d\udea8 Just got an email.\n\nAI companies are still urgently hiring.\n\nSome of these roles have 100+ openings:\n\n\u2022 Open Source Contributors\n\u2022 Senior Software Engineers\n\u2022 GitHub Contributors\n\u2022 Frontend Engineers\n\u2022 Supply Chain Specialists\n\u2022 Management Consultants\n\u2022 Software Engineers (Go/Python/TS)\n\u2022 Microbiologists\nThe AI hiring wave isn't slowing down.\nIf you have any of these skills, this is your signal to stop watching and start applying.\nRepost this so someone who needs a job sees it before the weeke",
+      "text": "🚨 Just got an email.\n\nAI companies are still urgently hiring.\n\nSome of these roles have 100+ openings:\n\n• Open Source Contributors\n• Senior Software Engineers\n• GitHub Contributors\n• Frontend Engineers\n• Supply Chain Specialists\n• Management Consultants\n• Software Engineers (Go/Python/TS)\n• Microbiologists\nThe AI hiring wave isn't slowing down.\nIf you have any of these skills, this is your signal to stop watching and start applying.\nRepost this so someone who needs a job sees it before the weeke",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8 Just got an email.\n\nAI companies are still urgently hiring.\n\nSome of these rol\u2026",
+          "title": "🚨 Just got an email.\n\nAI companies are still urgently hiring.\n\nSome of these rol…",
           "url": "https://x.com/AndrewOkiemute/status/2083187105115537691",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -885,13 +835,13 @@
     },
     {
       "id": "l542",
-      "text": "\ud83d\udcac Use AI most days?\n\nEarn $100 for a 60-minute online study about your workflows.\n\nQuick sign-up: https://t.co/TPmvYs97Vg\n\nSpots can go fast. Not everyone will qualify.\n\n#PaidStudy #AI #UserResearch",
+      "text": "💬 Use AI most days?\n\nEarn $100 for a 60-minute online study about your workflows.\n\nQuick sign-up: https://t.co/TPmvYs97Vg\n\nSpots can go fast. Not everyone will qualify.\n\n#PaidStudy #AI #UserResearch",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udcac Use AI most days?\n\nEarn $100 for a 60-minute online study about your workflows\u2026",
+          "title": "💬 Use AI most days?\n\nEarn $100 for a 60-minute online study about your workflows…",
           "url": "https://x.com/TheFocusGroups/status/2093541076275548423",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -906,13 +856,13 @@
     },
     {
       "id": "l543",
-      "text": "Mother: \u201cI want to move with the children.\u201d\n\nFather: \u201cAbsolutely not.\u201d\n\nJudge: \u201cWhere?\u201d\n\nMother: \u201cFrom Dallas to San Diego.\u201d\n\nJudge: \u201cWhy?\u201d\n\nMother: \u201cI was offered a promotion. $48,000 more a year, better health insurance, and a four-day workweek.\u201d\n\nFather: \u201cAnd I\u2019d go from seeing my kids four nights a week to seeing them during school breaks.\u201d\n\nMother: \u201cI\u2019d pay for their flights. You could have most of the summer, holidays and school breaks.\u201d\n\nFather: \u201cThey\u2019re nine and eleven. They\u2019re not lugga",
+      "text": "Mother: “I want to move with the children.”\n\nFather: “Absolutely not.”\n\nJudge: “Where?”\n\nMother: “From Dallas to San Diego.”\n\nJudge: “Why?”\n\nMother: “I was offered a promotion. $48,000 more a year, better health insurance, and a four-day workweek.”\n\nFather: “And I’d go from seeing my kids four nights a week to seeing them during school breaks.”\n\nMother: “I’d pay for their flights. You could have most of the summer, holidays and school breaks.”\n\nFather: “They’re nine and eleven. They’re not lugga",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Mother: \u201cI want to move with the children.\u201d\n\nFather: \u201cAbsolutely not.\u201d\n\nJudge: \u201c\u2026",
+          "title": "Mother: “I want to move with the children.”\n\nFather: “Absolutely not.”\n\nJudge: “…",
           "url": "https://x.com/Mario_Sneh/status/2093545118481408368",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -927,13 +877,13 @@
     },
     {
       "id": "l544",
-      "text": "Doctor Chaitanya Challa:\n\n\u201cAI will tell you. Who can be lost? Radiologists, microbiologists, pathologists.\u201d\n\nDr. Chaitanya breaks down why some medical specialties may be transformed by AI before others.\n\nFrom reading scans to analyzing samples, AI is already becoming better at certain diagnostic tasks.\n\nThe question is:\n\nWhich parts of medicine still require a human?\n\nWatch it, then read the full breakdown on AI replacing healthcare jobs below.",
+      "text": "Doctor Chaitanya Challa:\n\n“AI will tell you. Who can be lost? Radiologists, microbiologists, pathologists.”\n\nDr. Chaitanya breaks down why some medical specialties may be transformed by AI before others.\n\nFrom reading scans to analyzing samples, AI is already becoming better at certain diagnostic tasks.\n\nThe question is:\n\nWhich parts of medicine still require a human?\n\nWatch it, then read the full breakdown on AI replacing healthcare jobs below.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Doctor Chaitanya Challa:\n\n\u201cAI will tell you. Who can be lost? Radiologists, micr\u2026",
+          "title": "Doctor Chaitanya Challa:\n\n“AI will tell you. Who can be lost? Radiologists, micr…",
           "url": "https://x.com/Web4Newsletter/status/2084753746886603157",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -954,7 +904,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Live from Edmonton at the Canadian Society for Microbiologists Conference!\n\nI wi\u2026",
+          "title": "Live from Edmonton at the Canadian Society for Microbiologists Conference!\n\nI wi…",
           "url": "https://x.com/olumuyiwaayo/status/2066654951686967386",
           "date": "2026-06-15",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -975,7 +925,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "UMass Amherst-led team of @UMassMicrobio microbiologists and computer scientists\u2026",
+          "title": "UMass Amherst-led team of @UMassMicrobio microbiologists and computer scientists…",
           "url": "https://x.com/UMassAmherst/status/2074183620688838810",
           "date": "2026-07-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -990,13 +940,13 @@
     },
     {
       "id": "l547",
-      "text": "Excited to speak at the Canadian Society of Microbiologists Conference in Edmonton!\n\n\ud83d\udcc5 June 16, 2026 | 9:00\u201310:30 MST\n\ud83d\udccd Career Development Workshop\n\nI will be presenting on \u201cHow to Craft an Effective Academic CV\u201d and joining a panel on \u201cNavigating Scholarships and Job Applications in the AI Era.\u201d\nLooking forward to sharing strategies for strong applications, interviews, and responsible AI use with trainees and researchers.\n\nhttps://t.co/1SUDV2dFhs",
+      "text": "Excited to speak at the Canadian Society of Microbiologists Conference in Edmonton!\n\n📅 June 16, 2026 | 9:00–10:30 MST\n📍 Career Development Workshop\n\nI will be presenting on “How to Craft an Effective Academic CV” and joining a panel on “Navigating Scholarships and Job Applications in the AI Era.”\nLooking forward to sharing strategies for strong applications, interviews, and responsible AI use with trainees and researchers.\n\nhttps://t.co/1SUDV2dFhs",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Excited to speak at the Canadian Society of Microbiologists Conference in Edmont\u2026",
+          "title": "Excited to speak at the Canadian Society of Microbiologists Conference in Edmont…",
           "url": "https://x.com/olumuyiwaayo/status/2062248864464445806",
           "date": "2026-06-03",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1011,13 +961,13 @@
     },
     {
       "id": "l548",
-      "text": "Come by @tatta_bio\u2019s booth to learn more about AI tools for microbiologists! I will also be giving a talk in the AI &amp; \"Dark Matter\" Session (10:45a-12:45p on Sunday, 6/7 in Room 145AB) \ud83e\udda0\ud83e\udda0\ud83e\udda0",
+      "text": "Come by @tatta_bio’s booth to learn more about AI tools for microbiologists! I will also be giving a talk in the AI &amp; \"Dark Matter\" Session (10:45a-12:45p on Sunday, 6/7 in Room 145AB) 🦠🦠🦠",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Come by @tatta_bio\u2019s booth to learn more about AI tools for microbiologists! I w\u2026",
+          "title": "Come by @tatta_bio’s booth to learn more about AI tools for microbiologists! I w…",
           "url": "https://x.com/Micro_Yunha/status/2060013118168670603",
           "date": "2026-05-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1038,7 +988,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The day to day experience of working with someone often reveals more than a poli\u2026",
+          "title": "The day to day experience of working with someone often reveals more than a poli…",
           "url": "https://x.com/PeerReflect/status/2093546398343909399",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1059,7 +1009,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "So if civilians can film you on GTA6 I eonder how body armour is going to work.\n\u2026",
+          "title": "So if civilians can film you on GTA6 I eonder how body armour is going to work.\n…",
           "url": "https://x.com/PussFace25/status/2093542194602758159",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1074,13 +1024,13 @@
     },
     {
       "id": "l551",
-      "text": "\ud83d\udcbc $29 for a 22-minute online study about your day-to-day work.\n\nIf you qualify and finish by Sept 3, 2026, you\u2019ll get paid.\n\nSign up: https://t.co/S7MfxSEmFa\n\n#PaidStudy #OnlineResearch #WorkLife",
+      "text": "💼 $29 for a 22-minute online study about your day-to-day work.\n\nIf you qualify and finish by Sept 3, 2026, you’ll get paid.\n\nSign up: https://t.co/S7MfxSEmFa\n\n#PaidStudy #OnlineResearch #WorkLife",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udcbc $29 for a 22-minute online study about your day-to-day work.\n\nIf you qualify a\u2026",
+          "title": "💼 $29 for a 22-minute online study about your day-to-day work.\n\nIf you qualify a…",
           "url": "https://x.com/TheFocusGroups/status/2093540875829748128",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1095,13 +1045,13 @@
     },
     {
       "id": "l552",
-      "text": "\ud83d\udcbc $34 for a 41\u2011min online study on work experiences.\n\nShare how your day-to-day shapes your career. Complete by Sept 2, 2026 if you qualify.\n\nSign up: https://t.co/tDr5jb4hwB\n\n#WorkStudy #PaidResearch #OnlineStudy",
+      "text": "💼 $34 for a 41‑min online study on work experiences.\n\nShare how your day-to-day shapes your career. Complete by Sept 2, 2026 if you qualify.\n\nSign up: https://t.co/tDr5jb4hwB\n\n#WorkStudy #PaidResearch #OnlineStudy",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udcbc $34 for a 41\u2011min online study on work experiences.\n\nShare how your day-to-day \u2026",
+          "title": "💼 $34 for a 41‑min online study on work experiences.\n\nShare how your day-to-day …",
           "url": "https://x.com/TheFocusGroups/status/2093539540908544272",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1122,7 +1072,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Live tonight with Elizabeth Lane. 8:30 PM EST on X Spaces.\n\nTopic: Dead and Miss\u2026",
+          "title": "Live tonight with Elizabeth Lane. 8:30 PM EST on X Spaces.\n\nTopic: Dead and Miss…",
           "url": "https://x.com/danksterintel/status/2047421851480346728",
           "date": "2026-04-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1143,7 +1093,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Forget Replacing People With AI. The Real Advantage Is Making Them Impossible to\u2026",
+          "title": "Forget Replacing People With AI. The Real Advantage Is Making Them Impossible to…",
           "url": "https://x.com/MageziHarvest/status/2074029482151739783",
           "date": "2026-07-06",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1158,13 +1108,13 @@
     },
     {
       "id": "l555",
-      "text": "@SlicePlatinum @AndrewCurtice @crulge @BluesPolitics pretty much or if doesn\u2019t kill them just makes day to day infinitely worse. So many struggles/issues in jobs are simply cause the company is cheaping out",
+      "text": "@SlicePlatinum @AndrewCurtice @crulge @BluesPolitics pretty much or if doesn’t kill them just makes day to day infinitely worse. So many struggles/issues in jobs are simply cause the company is cheaping out",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@SlicePlatinum @AndrewCurtice @crulge @BluesPolitics pretty much or if doesn\u2019t k\u2026",
+          "title": "@SlicePlatinum @AndrewCurtice @crulge @BluesPolitics pretty much or if doesn’t k…",
           "url": "https://x.com/ohhnostorm/status/2093540441807294734",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1185,7 +1135,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "not being able to pronounce words that arent said in our day to day lives doesnt\u2026",
+          "title": "not being able to pronounce words that arent said in our day to day lives doesnt…",
           "url": "https://x.com/UrApoopypantz/status/2093544308129382820",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1200,13 +1150,13 @@
     },
     {
       "id": "l557",
-      "text": "AMSc\u2013AMI Expert Lecture Series 2026: Gentle reminder  of The lecture titled \u201cRevolutionizing Education through AI Tools for Teachers\u201d will be delivered by Dr. Gopal ji Gopal today at 12 PM #AMI #MICROBIOLOGY #BIOTECHNOLOGY\n\n\ud83d\udd17 Meeting Link: https://t.co/rWLL71xvav https://t.co/YlUpjI0TMY",
+      "text": "AMSc–AMI Expert Lecture Series 2026: Gentle reminder  of The lecture titled “Revolutionizing Education through AI Tools for Teachers” will be delivered by Dr. Gopal ji Gopal today at 12 PM #AMI #MICROBIOLOGY #BIOTECHNOLOGY\n\n🔗 Meeting Link: https://t.co/rWLL71xvav https://t.co/YlUpjI0TMY",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AMSc\u2013AMI Expert Lecture Series 2026: Gentle reminder  of The lecture titled \u201cRev\u2026",
+          "title": "AMSc–AMI Expert Lecture Series 2026: Gentle reminder  of The lecture titled “Rev…",
           "url": "https://x.com/AMIMicrobiology/status/2058423826028048782",
           "date": "2026-05-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1227,7 +1177,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AMI-AMSc Lecture Series 2026, Lecture 10 on Revolutionizing Education through AI\u2026",
+          "title": "AMI-AMSc Lecture Series 2026, Lecture 10 on Revolutionizing Education through AI…",
           "url": "https://x.com/AMIMicrobiology/status/2058904742269767830",
           "date": "2026-05-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1248,7 +1198,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@MelGerardGop7 Hell yeah! If it were handled like this more, there wouldn't be a\u2026",
+          "title": "@MelGerardGop7 Hell yeah! If it were handled like this more, there wouldn't be a…",
           "url": "https://x.com/XSSocialM/status/2093537362739659064",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1269,7 +1219,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@johnkissinger @AdamMcCalvy You have to enjoy it day to day or you don't have an\u2026",
+          "title": "@johnkissinger @AdamMcCalvy You have to enjoy it day to day or you don't have an…",
           "url": "https://x.com/LeBuuuuut/status/2093546947042812406",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1284,13 +1234,13 @@
     },
     {
       "id": "l561",
-      "text": "My sun and moon fighting each other on a day to day basis \ud83e\udd23",
+      "text": "My sun and moon fighting each other on a day to day basis 🤣",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "My sun and moon fighting each other on a day to day basis \ud83e\udd23",
+          "title": "My sun and moon fighting each other on a day to day basis 🤣",
           "url": "https://x.com/sel_sess222/status/2093540314191675641",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1305,13 +1255,13 @@
     },
     {
       "id": "l562",
-      "text": "\u201cAja Wilson day to day\u201d proceeds to have 20 pts at halftime \ud83d\ude44",
+      "text": "“Aja Wilson day to day” proceeds to have 20 pts at halftime 🙄",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u201cAja Wilson day to day\u201d proceeds to have 20 pts at halftime \ud83d\ude44",
+          "title": "“Aja Wilson day to day” proceeds to have 20 pts at halftime 🙄",
           "url": "https://x.com/BloodMoneyx5/status/2093536702132617407",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1326,13 +1276,13 @@
     },
     {
       "id": "l563",
-      "text": "@Hunter_Eagleman @GavinNewsom No this guys just head grifter. His \u201cstaff\u201d runs the day to day mismanagement of whatever the hell is going on in that state.",
+      "text": "@Hunter_Eagleman @GavinNewsom No this guys just head grifter. His “staff” runs the day to day mismanagement of whatever the hell is going on in that state.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Hunter_Eagleman @GavinNewsom No this guys just head grifter. His \u201cstaff\u201d runs t\u2026",
+          "title": "@Hunter_Eagleman @GavinNewsom No this guys just head grifter. His “staff” runs t…",
           "url": "https://x.com/charliehummer4/status/2093545082746261611",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1347,13 +1297,13 @@
     },
     {
       "id": "l564",
-      "text": "AI, Viruses, and Bioweapons | Bulletin Breakdown\nThe Bulletin of the Atomic Scientists sits down with three leading experts at the intersection of artificial intelligence and biosecurity:\n\nDavid Relman, Professor of Microbiology & Immunology at Stanford University\n\nAllison Berke, Senior Engineer at RAND's Center for AI, Security, and Technology\n\nJaime Yassif, Senior Advisor at the Nuclear Threat Initiative\n\nIn this conversation, they break down the most urgent risks and opportunities shaping AI \u2026",
+      "text": "AI, Viruses, and Bioweapons | Bulletin Breakdown\nThe Bulletin of the Atomic Scientists sits down with three leading experts at the intersection of artificial intelligence and biosecurity:\n\nDavid Relman, Professor of Microbiology & Immunology at Stanford University\n\nAllison Berke, Senior Engineer at RAND's Center for AI, Security, and Technology\n\nJaime Yassif, Senior Advisor at the Nuclear Threat Initiative\n\nIn this conversation, they break down the most urgent risks and opportunities shaping AI …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI, Viruses, and Bioweapons | Bulletin Breakdown\nThe Bulletin of the Atomic Scie\u2026",
+          "title": "AI, Viruses, and Bioweapons | Bulletin Breakdown\nThe Bulletin of the Atomic Scie…",
           "url": "https://www.youtube.com/watch?v=UsDc_vb-ELw",
           "date": "2026-07-08",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1368,13 +1318,13 @@
     },
     {
       "id": "l565",
-      "text": "ai just created viruses that don\u2019t exist in nature for first time\nStanford University and Arc Institute researchers have used generative AI models, known as Evo1 and Evo2, to design and create fully functional synthetic viruses that never existed in nature. Trained on genomic sequences across viruses, bacteria, plants, and humans, these AI algorithms synthesized 300 designs, resulting in 16 active bacteriophages that proved more effective at killing antibiotic-resistant E. coli bacteria than nat\u2026",
+      "text": "ai just created viruses that don’t exist in nature for first time\nStanford University and Arc Institute researchers have used generative AI models, known as Evo1 and Evo2, to design and create fully functional synthetic viruses that never existed in nature. Trained on genomic sequences across viruses, bacteria, plants, and humans, these AI algorithms synthesized 300 designs, resulting in 16 active bacteriophages that proved more effective at killing antibiotic-resistant E. coli bacteria than nat…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "ai just created viruses that don\u2019t exist in nature for first time\nStanford Unive\u2026",
+          "title": "ai just created viruses that don’t exist in nature for first time\nStanford Unive…",
           "url": "https://www.youtube.com/watch?v=Nr0ggWqnkfE",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1389,7 +1339,7 @@
     },
     {
       "id": "l466",
-      "text": "Medical Scientist Grade 1 \u2014 The Royal Melbourne Hospital (Melbourne, Victoria, Australia). Posted 2 days ago.",
+      "text": "Medical Scientist Grade 1 — The Royal Melbourne Hospital (Melbourne, Victoria, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1410,7 +1360,7 @@
     },
     {
       "id": "l467",
-      "text": "R&D Officer (Life Scientist ANZSCO 234511) \u2014 Lixa (Nedlands, Western Australia, Australia). Posted 2 weeks ago.",
+      "text": "R&D Officer (Life Scientist ANZSCO 234511) — Lixa (Nedlands, Western Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1431,13 +1381,13 @@
     },
     {
       "id": "l468",
-      "text": "Laboratory Technician \u2013 Microbiology \u2014 ALS (Rydalmere, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Laboratory Technician – Microbiology — ALS (Rydalmere, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
           "publisher": "ALS",
-          "title": "Laboratory Technician \u2013 Microbiology",
+          "title": "Laboratory Technician – Microbiology",
           "url": "https://www.linkedin.com/jobs/view/4432776371",
           "date": "1 week ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
@@ -1452,7 +1402,7 @@
     },
     {
       "id": "l469",
-      "text": "Microbiology/Inorganic Lab Technician \u2014 ALS (Newcastle, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Microbiology/Inorganic Lab Technician — ALS (Newcastle, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1473,7 +1423,7 @@
     },
     {
       "id": "l470",
-      "text": "Medical Laboratory Technician - Microbiology \u2014 NSW Health Pathology (Lismore, New South Wales, Australia). Posted 12 hours ago.",
+      "text": "Medical Laboratory Technician - Microbiology — NSW Health Pathology (Lismore, New South Wales, Australia). Posted 12 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1494,7 +1444,7 @@
     },
     {
       "id": "l471",
-      "text": "Research Officer/Senior Research Officer \u2014 The Kids Research Institute Australia (Nedlands, Western Australia, Australia). Posted 2 weeks ago.",
+      "text": "Research Officer/Senior Research Officer — The Kids Research Institute Australia (Nedlands, Western Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1515,7 +1465,7 @@
     },
     {
       "id": "l472",
-      "text": "Postgraduate Fellow - Microbiology - Westmead Hospital (eCred) \u2014 NSW Health Pathology (Westmead, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Postgraduate Fellow - Microbiology - Westmead Hospital (eCred) — NSW Health Pathology (Westmead, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1536,7 +1486,7 @@
     },
     {
       "id": "l473",
-      "text": "Manufacturing Technician (Biochemist) \u2014 Vow (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
+      "text": "Manufacturing Technician (Biochemist) — Vow (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1557,7 +1507,7 @@
     },
     {
       "id": "l474",
-      "text": "Associate Research Fellow, Infant Microbiome \u2014 Deakin University (South Geelong, Victoria, Australia). Posted 3 weeks ago.",
+      "text": "Associate Research Fellow, Infant Microbiome — Deakin University (South Geelong, Victoria, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1578,7 +1528,7 @@
     },
     {
       "id": "l475",
-      "text": "Postdoctoral Research Fellow/Research Officer - Microbial Entrapment for Domestic and Industrial Wastewater Treatment \u2014 The University of Queensland (St Lucia, Queensland, Australia). Posted 2 days ago.",
+      "text": "Postdoctoral Research Fellow/Research Officer - Microbial Entrapment for Domestic and Industrial Wastewater Treatment — The University of Queensland (St Lucia, Queensland, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1599,13 +1549,13 @@
     },
     {
       "id": "l576",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1620,13 +1570,13 @@
     },
     {
       "id": "l577",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the RAM for a motherboard upgrade or a cor\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the RAM for a motherboard upgrade or a cor…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcmasterrace/comments/1vfe28b/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1641,13 +1591,13 @@
     },
     {
       "id": "l578",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcgaming/comments/1vfe3ru/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1662,13 +1612,13 @@
     },
     {
       "id": "l579",
-      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k\u2026",
+      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A\u2026",
+          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A…",
           "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1683,13 +1633,13 @@
     },
     {
       "id": "l580",
-      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c\u2026",
+      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public \u2026",
+          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public …",
           "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vnsz0y/jpmorgan_ceo_jamie_dimon_declares_ai_deployment/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1704,13 +1654,13 @@
     },
     {
       "id": "l581",
-      "text": "AI, Viruses, and Bioweapons | Bulletin Breakdown\nThe Bulletin of the Atomic Scientists sits down with three leading experts at the intersection of artificial intelligence and biosecurity:\n\nDavid Relman, Professor of Microbiology & Immunology at Stanford University\n\nAllison Berke, Senior Engineer at RAND's Center for AI, Security, and Technology\n\nJaime Yassif, Senior Advisor at the Nuclear Threat Initiative\n\nIn this conversation, they break down the most urgent risks and opportunities shaping AI \u2026",
+      "text": "AI, Viruses, and Bioweapons | Bulletin Breakdown\nThe Bulletin of the Atomic Scientists sits down with three leading experts at the intersection of artificial intelligence and biosecurity:\n\nDavid Relman, Professor of Microbiology & Immunology at Stanford University\n\nAllison Berke, Senior Engineer at RAND's Center for AI, Security, and Technology\n\nJaime Yassif, Senior Advisor at the Nuclear Threat Initiative\n\nIn this conversation, they break down the most urgent risks and opportunities shaping AI …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI, Viruses, and Bioweapons | Bulletin Breakdown\nThe Bulletin of the Atomic Scie\u2026",
+          "title": "AI, Viruses, and Bioweapons | Bulletin Breakdown\nThe Bulletin of the Atomic Scie…",
           "url": "https://www.youtube.com/watch?v=UsDc_vb-ELw",
           "date": "2026-07-08",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1725,13 +1675,13 @@
     },
     {
       "id": "l582",
-      "text": "ai just created viruses that don\u2019t exist in nature for first time\nStanford University and Arc Institute researchers have used generative AI models, known as Evo1 and Evo2, to design and create fully functional synthetic viruses that never existed in nature. Trained on genomic sequences across viruses, bacteria, plants, and humans, these AI algorithms synthesized 300 designs, resulting in 16 active bacteriophages that proved more effective at killing antibiotic-resistant E. coli bacteria than nat\u2026",
+      "text": "ai just created viruses that don’t exist in nature for first time\nStanford University and Arc Institute researchers have used generative AI models, known as Evo1 and Evo2, to design and create fully functional synthetic viruses that never existed in nature. Trained on genomic sequences across viruses, bacteria, plants, and humans, these AI algorithms synthesized 300 designs, resulting in 16 active bacteriophages that proved more effective at killing antibiotic-resistant E. coli bacteria than nat…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "ai just created viruses that don\u2019t exist in nature for first time\nStanford Unive\u2026",
+          "title": "ai just created viruses that don’t exist in nature for first time\nStanford Unive…",
           "url": "https://www.youtube.com/watch?v=Nr0ggWqnkfE",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1824,6 +1774,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

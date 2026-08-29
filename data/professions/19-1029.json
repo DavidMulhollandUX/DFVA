@@ -19,64 +19,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "19-1029-01",
-      "text": "National peak professional bodies and statutory regulators governing Biological Scientists, All Other enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Biological Scientists, All Other",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Biological Scientists, All Other",
-          "url": "https://www.psc.gov.au/standards/19-1029",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Biological Scientists, All Other"
-        }
-      ],
-      "scope": "Australian practitioners in Biological Scientists, All Other across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "19-1029-02",
-      "text": "Automation of routine transactional and analytical tasks in Biological Scientists, All Other heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Biological Scientists, All Other",
-          "url": "https://www.jobsandskills.gov.au/research/19-1029",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Biological Scientists, All Other in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Biological Scientists, All Other roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** \u2014 [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t\u2026",
+      "text": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first — **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n☑️ Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** — [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
+          "title": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open …",
           "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -91,13 +41,13 @@
     },
     {
       "id": "l504",
-      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       \u2026",
+      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe \u2026",
+          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe …",
           "url": "https://github.com/rakib06/mini-github/issues/14",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -112,13 +62,13 @@
     },
     {
       "id": "l505",
-      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n\u00b7 I.G. Farben's post-w\n\ud83e\udd3f\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati\u2026",
+      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n· I.G. Farben's post-w\n🤿\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL\u2026",
+          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL…",
           "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/3",
           "date": "2026-04-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -343,13 +293,13 @@
     },
     {
       "id": "l516",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -406,13 +356,13 @@
     },
     {
       "id": "l519",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -553,13 +503,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -595,13 +545,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -616,13 +566,13 @@
     },
     {
       "id": "l529",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -637,13 +587,13 @@
     },
     {
       "id": "l530",
-      "text": "Why do people here insist on downplaying the capabilities of AI?\nFirst off, let me state that I&#39;m deeply anti (gen)AI. I have been hanging out on this subreddit for a while, and I&#39;m noticing people calling generative AI models dumb, useless, or incapable of solving any &quot;real problems&quot; (and I do mean generative models, not just older deep learning models that have been around for decades). While I would love that to be the case, it simply is not. Yes, LLMs are still bad at many \u2026",
+      "text": "Why do people here insist on downplaying the capabilities of AI?\nFirst off, let me state that I&#39;m deeply anti (gen)AI. I have been hanging out on this subreddit for a while, and I&#39;m noticing people calling generative AI models dumb, useless, or incapable of solving any &quot;real problems&quot; (and I do mean generative models, not just older deep learning models that have been around for decades). While I would love that to be the case, it simply is not. Yes, LLMs are still bad at many …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why do people here insist on downplaying the capabilities of AI?\nFirst off, let \u2026",
+          "title": "Why do people here insist on downplaying the capabilities of AI?\nFirst off, let …",
           "url": "https://www.reddit.com/r/antiai/comments/1vzcofv/why_do_people_here_insist_on_downplaying_the/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -658,13 +608,13 @@
     },
     {
       "id": "l531",
-      "text": "AI is destroying everything meaningful in my life and eventually almost everyone\u2019s lives, and we have very little time to stop it.\nAfter years of relative apathy about and waxing and waning opinions about AI, I have come to a devastating conclusion that has left me profoundly depressed, more so even than when my paternal grandmother died 5 years ago: If we do not act valiantly within the next few months, AI will likely lead to the extinction of human civilization. I am not mincing words here. Bu\u2026",
+      "text": "AI is destroying everything meaningful in my life and eventually almost everyone’s lives, and we have very little time to stop it.\nAfter years of relative apathy about and waxing and waning opinions about AI, I have come to a devastating conclusion that has left me profoundly depressed, more so even than when my paternal grandmother died 5 years ago: If we do not act valiantly within the next few months, AI will likely lead to the extinction of human civilization. I am not mincing words here. Bu…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI is destroying everything meaningful in my life and eventually almost everyone\u2026",
+          "title": "AI is destroying everything meaningful in my life and eventually almost everyone…",
           "url": "https://www.reddit.com/r/AIDangers/comments/1vme5nq/ai_is_destroying_everything_meaningful_in_my_life/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -679,13 +629,13 @@
     },
     {
       "id": "l532",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult…",
           "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -700,13 +650,13 @@
     },
     {
       "id": "l533",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac\u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and \u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and …",
           "url": "https://www.reddit.com/r/accelerate/comments/1vlw4un/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -727,7 +677,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI designed a virus, scientists brought it to life | Eitan Gefen, Ynetnews\n\nUnti\u2026",
+          "title": "AI designed a virus, scientists brought it to life | Eitan Gefen, Ynetnews\n\nUnti…",
           "url": "https://x.com/OwenGregorian/status/2088969823044723044",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -748,7 +698,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The chatbot era is ending. The age of AI agents, autonomous systems and machine-\u2026",
+          "title": "The chatbot era is ending. The age of AI agents, autonomous systems and machine-…",
           "url": "https://x.com/mistersx16/status/2089414348787864038",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -763,13 +713,13 @@
     },
     {
       "id": "l536",
-      "text": "AlphaFold Mapped the Shapes of Millions of Proteins. Now Scientists Are Using the Powerful AI to Figure Out What They Actually Do | Tibi Puiu, ZME Science\n\nSince it was unveiled in 2020, Google DeepMind\u2019s game-changing AI tool, called AlphaFold, has helped researchers all over the world to predict the 3D structures of hundreds of millions of proteins. This means that scientists can now get a reliable prediction for almost any protein.\n\n\u201cHaving models for anything has had a huge impact,\u201d says Jan",
+      "text": "AlphaFold Mapped the Shapes of Millions of Proteins. Now Scientists Are Using the Powerful AI to Figure Out What They Actually Do | Tibi Puiu, ZME Science\n\nSince it was unveiled in 2020, Google DeepMind’s game-changing AI tool, called AlphaFold, has helped researchers all over the world to predict the 3D structures of hundreds of millions of proteins. This means that scientists can now get a reliable prediction for almost any protein.\n\n“Having models for anything has had a huge impact,” says Jan",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AlphaFold Mapped the Shapes of Millions of Proteins. Now Scientists Are Using th\u2026",
+          "title": "AlphaFold Mapped the Shapes of Millions of Proteins. Now Scientists Are Using th…",
           "url": "https://x.com/OwenGregorian/status/2093314112377803105",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -784,13 +734,13 @@
     },
     {
       "id": "l537",
-      "text": "I\u2019m excited to share a new arXiv preprint. It is a modest but open theorem in theoretical biology proved by AI. (https://t.co/9xyTccDe1G):\n\n\"Designability of RNA Targets with Up to Two Length-2 Helices\"\n\nLet me state the most important personal point upfront: *Without AI I could not have done this*. This is an AI-generated, human-directed, and formally verified mathematical proof. But I\u2019m a chemist and biologist, not a mathematician or formal-methods expert, which is why, although I understand t",
+      "text": "I’m excited to share a new arXiv preprint. It is a modest but open theorem in theoretical biology proved by AI. (https://t.co/9xyTccDe1G):\n\n\"Designability of RNA Targets with Up to Two Length-2 Helices\"\n\nLet me state the most important personal point upfront: *Without AI I could not have done this*. This is an AI-generated, human-directed, and formally verified mathematical proof. But I’m a chemist and biologist, not a mathematician or formal-methods expert, which is why, although I understand t",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I\u2019m excited to share a new arXiv preprint. It is a modest but open theorem in th\u2026",
+          "title": "I’m excited to share a new arXiv preprint. It is a modest but open theorem in th…",
           "url": "https://x.com/curiouswavefn/status/2092380964668534967",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -826,13 +776,13 @@
     },
     {
       "id": "l539",
-      "text": "Transfyr is promising because it has the potential to use AI to capture tacit knowledge. For instance, how often have chemists and biologists seen the following:\n\n1. In a description of an organic synthesis: \u201cWarmed with gentle swirling.\u201d\n\n2. In a description of a PCR (Polymerase Chain Reaction) protocol: \u201cAvoid Vortexing: During binding and elution steps, mix by gentle inversion to prevent shearing of DNA.\u201d\n\n3. In a description of a drug delivery method: \u201cAt the first sign of turbidity or milki",
+      "text": "Transfyr is promising because it has the potential to use AI to capture tacit knowledge. For instance, how often have chemists and biologists seen the following:\n\n1. In a description of an organic synthesis: “Warmed with gentle swirling.”\n\n2. In a description of a PCR (Polymerase Chain Reaction) protocol: “Avoid Vortexing: During binding and elution steps, mix by gentle inversion to prevent shearing of DNA.”\n\n3. In a description of a drug delivery method: “At the first sign of turbidity or milki",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Transfyr is promising because it has the potential to use AI to capture tacit kn\u2026",
+          "title": "Transfyr is promising because it has the potential to use AI to capture tacit kn…",
           "url": "https://x.com/curiouswavefn/status/2093197478677909922",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -853,7 +803,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Explore our new article about the connection between science and AI.\n\nLink in th\u2026",
+          "title": "Explore our new article about the connection between science and AI.\n\nLink in th…",
           "url": "https://x.com/longbrief/status/2093271573499195474",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -874,7 +824,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Read more about the vulnerable AI-generated proofs in the field of science.\n\nFin\u2026",
+          "title": "Read more about the vulnerable AI-generated proofs in the field of science.\n\nFin…",
           "url": "https://x.com/longbrief/status/2092974455005843691",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -889,13 +839,13 @@
     },
     {
       "id": "l542",
-      "text": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill Gates is looking to meet with Chinese President Xi Jinping later this year, eager to propose global efforts to mitigate the growing risks posed by artificial intelligence.\n\nThe Microsoft co-founder and billionaire philanthropist told Reuters in an interview that he believes China might agree to restricting potentially dangerous AI model releases if the U.S. took the initiative.\n\n\u201cThe whole world would go along with",
+      "text": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill Gates is looking to meet with Chinese President Xi Jinping later this year, eager to propose global efforts to mitigate the growing risks posed by artificial intelligence.\n\nThe Microsoft co-founder and billionaire philanthropist told Reuters in an interview that he believes China might agree to restricting potentially dangerous AI model releases if the U.S. took the initiative.\n\n“The whole world would go along with",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill\u2026",
+          "title": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill…",
           "url": "https://x.com/OwenGregorian/status/2093324365257457709",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -937,7 +887,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The risks of misinformation, deep fakes and cyberattacks from AI far outweigh an\u2026",
+          "title": "The risks of misinformation, deep fakes and cyberattacks from AI far outweigh an…",
           "url": "https://x.com/curiouswavefn/status/2093363377578066315",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -958,7 +908,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "My thoughts on the current state of AI, where we might be heading, and where we \u2026",
+          "title": "My thoughts on the current state of AI, where we might be heading, and where we …",
           "url": "https://x.com/thomasLe_e/status/2089332614364586137",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -979,7 +929,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Fully AI-Guided Russian Drones Have Reportedly Killed Ukrainian Civilians | Ece \u2026",
+          "title": "Fully AI-Guided Russian Drones Have Reportedly Killed Ukrainian Civilians | Ece …",
           "url": "https://x.com/OwenGregorian/status/2093324464188449024",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1036,13 +986,13 @@
     },
     {
       "id": "l549",
-      "text": "AI WEEKLY UPDATE \u2014 Saturday, 22 August 2026",
+      "text": "AI WEEKLY UPDATE — Saturday, 22 August 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI WEEKLY UPDATE \u2014 Saturday, 22 August 2026",
+          "title": "AI WEEKLY UPDATE — Saturday, 22 August 2026",
           "url": "https://x.com/MansaTesla/status/2091213068931928111",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1078,13 +1028,13 @@
     },
     {
       "id": "l551",
-      "text": "Why AI Probably Won\u2019t Cure Most Diseases in Ten Years\nSince coding agents have become much better, there has been a debate about what comes next. If LLMs can transform coding, why not biology and drug discovery?\n\nAnthropic is focusing heavily on these areas. Dario has gone further, arguing that AI could help cure most diseases within five to ten years.\n\nNobody knows what AI will be capable of in five years. But I don\u2019t think progress in coding will transfer directly to biology.  I studied comput",
+      "text": "Why AI Probably Won’t Cure Most Diseases in Ten Years\nSince coding agents have become much better, there has been a debate about what comes next. If LLMs can transform coding, why not biology and drug discovery?\n\nAnthropic is focusing heavily on these areas. Dario has gone further, arguing that AI could help cure most diseases within five to ten years.\n\nNobody knows what AI will be capable of in five years. But I don’t think progress in coding will transfer directly to biology.  I studied comput",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Why AI Probably Won\u2019t Cure Most Diseases in Ten Years\nSince coding agents have b\u2026",
+          "title": "Why AI Probably Won’t Cure Most Diseases in Ten Years\nSince coding agents have b…",
           "url": "https://x.com/ziv_ravid/status/2092712217627996381",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1105,7 +1055,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th\u2026",
+          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th…",
           "url": "https://x.com/essexmaelstrom/status/2091841889372635517",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1126,7 +1076,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Study: AI Systems Now Write Research Papers, Best Doctors At Diagnoses | StudyFi\u2026",
+          "title": "Study: AI Systems Now Write Research Papers, Best Doctors At Diagnoses | StudyFi…",
           "url": "https://x.com/OwenGregorian/status/2091506022183571469",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1141,13 +1091,13 @@
     },
     {
       "id": "l554",
-      "text": "Peptides: The Science, Uses & Safety | Dr. Abud Bakri\nDr. Abud Bakri, MD, is a board-certified internal medicine physician and expert in the science and clinical use of peptides. We discuss the history, uses, sourcing and safety of BPC-157, GHK-Cu, pinealon, epithalon, GLP-1s, retatrutide, melanotan and growth hormone-promoting peptides. We discuss the gap that exists between animal and human data and meaningful differences in the sources for different peptides. For those interested in peptides,\u2026",
+      "text": "Peptides: The Science, Uses & Safety | Dr. Abud Bakri\nDr. Abud Bakri, MD, is a board-certified internal medicine physician and expert in the science and clinical use of peptides. We discuss the history, uses, sourcing and safety of BPC-157, GHK-Cu, pinealon, epithalon, GLP-1s, retatrutide, melanotan and growth hormone-promoting peptides. We discuss the gap that exists between animal and human data and meaningful differences in the sources for different peptides. For those interested in peptides,…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Peptides: The Science, Uses & Safety | Dr. Abud Bakri\nDr. Abud Bakri, MD, is a b\u2026",
+          "title": "Peptides: The Science, Uses & Safety | Dr. Abud Bakri\nDr. Abud Bakri, MD, is a b…",
           "url": "https://www.youtube.com/watch?v=_DfqnpSbMfE",
           "date": "2026-06-01",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1162,13 +1112,13 @@
     },
     {
       "id": "l555",
-      "text": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a Myth? - Steven Pinker\nProfessor Steven Pinker, one of the world\u2019s most influential cognitive psychologists and public intellectuals, joins the podcast for a profound conversation about artificial intelligence, human consciousness, and the enduring power of Enlightenment values.\n\nFilmed at Harvard \n\nIn an era dominated by apocalyptic headlines, rapid technological disruption, and rising tribalism, Pinker dismantles mode\u2026",
+      "text": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a Myth? - Steven Pinker\nProfessor Steven Pinker, one of the world’s most influential cognitive psychologists and public intellectuals, joins the podcast for a profound conversation about artificial intelligence, human consciousness, and the enduring power of Enlightenment values.\n\nFilmed at Harvard \n\nIn an era dominated by apocalyptic headlines, rapid technological disruption, and rising tribalism, Pinker dismantles mode…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a My\u2026",
+          "title": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a My…",
           "url": "https://www.youtube.com/watch?v=eWC47agaKpk",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1183,13 +1133,13 @@
     },
     {
       "id": "l556",
-      "text": "AI, Viruses, and Bioweapons | Bulletin Breakdown\nThe Bulletin of the Atomic Scientists sits down with three leading experts at the intersection of artificial intelligence and biosecurity:\n\nDavid Relman, Professor of Microbiology & Immunology at Stanford University\n\nAllison Berke, Senior Engineer at RAND's Center for AI, Security, and Technology\n\nJaime Yassif, Senior Advisor at the Nuclear Threat Initiative\n\nIn this conversation, they break down the most urgent risks and opportunities shaping AI \u2026",
+      "text": "AI, Viruses, and Bioweapons | Bulletin Breakdown\nThe Bulletin of the Atomic Scientists sits down with three leading experts at the intersection of artificial intelligence and biosecurity:\n\nDavid Relman, Professor of Microbiology & Immunology at Stanford University\n\nAllison Berke, Senior Engineer at RAND's Center for AI, Security, and Technology\n\nJaime Yassif, Senior Advisor at the Nuclear Threat Initiative\n\nIn this conversation, they break down the most urgent risks and opportunities shaping AI …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI, Viruses, and Bioweapons | Bulletin Breakdown\nThe Bulletin of the Atomic Scie\u2026",
+          "title": "AI, Viruses, and Bioweapons | Bulletin Breakdown\nThe Bulletin of the Atomic Scie…",
           "url": "https://www.youtube.com/watch?v=UsDc_vb-ELw",
           "date": "2026-07-08",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1204,7 +1154,7 @@
     },
     {
       "id": "l457",
-      "text": "Research Officer- Experimental Biology and Surveillance Innovation \u2014 QIMR Berghofer (Herston, Queensland, Australia). Posted 1 week ago.",
+      "text": "Research Officer- Experimental Biology and Surveillance Innovation — QIMR Berghofer (Herston, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1225,7 +1175,7 @@
     },
     {
       "id": "l458",
-      "text": "Medical Scientist (530821) \u2014 Department of Health, Tasmania (Launceston, Tasmania, Australia). Posted 2 days ago.",
+      "text": "Medical Scientist (530821) — Department of Health, Tasmania (Launceston, Tasmania, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1246,7 +1196,7 @@
     },
     {
       "id": "l459",
-      "text": "Medical Scientist Grade 1 \u2014 The Royal Melbourne Hospital (Melbourne, Victoria, Australia). Posted 2 days ago.",
+      "text": "Medical Scientist Grade 1 — The Royal Melbourne Hospital (Melbourne, Victoria, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1267,7 +1217,7 @@
     },
     {
       "id": "l460",
-      "text": "Research Officer \u2014 The University of Western Australia (Crawley, Western Australia, Australia). Posted 1 week ago.",
+      "text": "Research Officer — The University of Western Australia (Crawley, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1288,7 +1238,7 @@
     },
     {
       "id": "l461",
-      "text": "National Biodiversity DNA Library - Research Technician \u2014 CSIRO (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
+      "text": "National Biodiversity DNA Library - Research Technician — CSIRO (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1309,7 +1259,7 @@
     },
     {
       "id": "l462",
-      "text": "Scientific Officer \u2014 Macquarie University (North Ryde, New South Wales, Australia). Posted 6 days ago.",
+      "text": "Scientific Officer — Macquarie University (North Ryde, New South Wales, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1330,7 +1280,7 @@
     },
     {
       "id": "l463",
-      "text": "Scientist \u2014 Dorevitch Pathology (Warrnambool, Victoria, Australia). Posted 1 day ago.",
+      "text": "Scientist — Dorevitch Pathology (Warrnambool, Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1351,7 +1301,7 @@
     },
     {
       "id": "l464",
-      "text": "National Biodiversity DNA Library - Research Technician \u2014 CSIRO (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "text": "National Biodiversity DNA Library - Research Technician — CSIRO (Melbourne, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1372,7 +1322,7 @@
     },
     {
       "id": "l465",
-      "text": "Health Professional Level 2 - Pathology Medical Scientist \u2014 Canberra Health Services (Canberra, Australian Capital Territory, Australia). Posted 2 weeks ago.",
+      "text": "Health Professional Level 2 - Pathology Medical Scientist — Canberra Health Services (Canberra, Australian Capital Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1393,7 +1343,7 @@
     },
     {
       "id": "l466",
-      "text": "R&D Officer (Life Scientist ANZSCO 234511) \u2014 Lixa (Nedlands, Western Australia, Australia). Posted 2 weeks ago.",
+      "text": "R&D Officer (Life Scientist ANZSCO 234511) — Lixa (Nedlands, Western Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1414,13 +1364,13 @@
     },
     {
       "id": "l567",
-      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** \u2014 [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t\u2026",
+      "text": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first — **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n☑️ Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** — [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
+          "title": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open …",
           "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1435,13 +1385,13 @@
     },
     {
       "id": "l568",
-      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       \u2026",
+      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe \u2026",
+          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe …",
           "url": "https://github.com/rakib06/mini-github/issues/14",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1456,13 +1406,13 @@
     },
     {
       "id": "l569",
-      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n\u00b7 I.G. Farben's post-w\n\ud83e\udd3f\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati\u2026",
+      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n· I.G. Farben's post-w\n🤿\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL\u2026",
+          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL…",
           "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/3",
           "date": "2026-04-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1477,13 +1427,13 @@
     },
     {
       "id": "l570",
-      "text": "Why do people here insist on downplaying the capabilities of AI?\nFirst off, let me state that I&#39;m deeply anti (gen)AI. I have been hanging out on this subreddit for a while, and I&#39;m noticing people calling generative AI models dumb, useless, or incapable of solving any &quot;real problems&quot; (and I do mean generative models, not just older deep learning models that have been around for decades). While I would love that to be the case, it simply is not. Yes, LLMs are still bad at many \u2026",
+      "text": "Why do people here insist on downplaying the capabilities of AI?\nFirst off, let me state that I&#39;m deeply anti (gen)AI. I have been hanging out on this subreddit for a while, and I&#39;m noticing people calling generative AI models dumb, useless, or incapable of solving any &quot;real problems&quot; (and I do mean generative models, not just older deep learning models that have been around for decades). While I would love that to be the case, it simply is not. Yes, LLMs are still bad at many …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why do people here insist on downplaying the capabilities of AI?\nFirst off, let \u2026",
+          "title": "Why do people here insist on downplaying the capabilities of AI?\nFirst off, let …",
           "url": "https://www.reddit.com/r/antiai/comments/1vzcofv/why_do_people_here_insist_on_downplaying_the/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1498,13 +1448,13 @@
     },
     {
       "id": "l571",
-      "text": "AI is destroying everything meaningful in my life and eventually almost everyone\u2019s lives, and we have very little time to stop it.\nAfter years of relative apathy about and waxing and waning opinions about AI, I have come to a devastating conclusion that has left me profoundly depressed, more so even than when my paternal grandmother died 5 years ago: If we do not act valiantly within the next few months, AI will likely lead to the extinction of human civilization. I am not mincing words here. Bu\u2026",
+      "text": "AI is destroying everything meaningful in my life and eventually almost everyone’s lives, and we have very little time to stop it.\nAfter years of relative apathy about and waxing and waning opinions about AI, I have come to a devastating conclusion that has left me profoundly depressed, more so even than when my paternal grandmother died 5 years ago: If we do not act valiantly within the next few months, AI will likely lead to the extinction of human civilization. I am not mincing words here. Bu…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI is destroying everything meaningful in my life and eventually almost everyone\u2026",
+          "title": "AI is destroying everything meaningful in my life and eventually almost everyone…",
           "url": "https://www.reddit.com/r/AIDangers/comments/1vme5nq/ai_is_destroying_everything_meaningful_in_my_life/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1519,13 +1469,13 @@
     },
     {
       "id": "l572",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult…",
           "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1540,13 +1490,13 @@
     },
     {
       "id": "l573",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac\u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and Multipurpose Home Robots\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. By updating these estimates each week, we can track how new developments shift the timelines in the column &quot;Change vs. first week.&quot; As more evidence ac…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and \u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, and …",
           "url": "https://www.reddit.com/r/accelerate/comments/1vlw4un/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1561,13 +1511,13 @@
     },
     {
       "id": "l574",
-      "text": "Peptides: The Science, Uses & Safety | Dr. Abud Bakri\nDr. Abud Bakri, MD, is a board-certified internal medicine physician and expert in the science and clinical use of peptides. We discuss the history, uses, sourcing and safety of BPC-157, GHK-Cu, pinealon, epithalon, GLP-1s, retatrutide, melanotan and growth hormone-promoting peptides. We discuss the gap that exists between animal and human data and meaningful differences in the sources for different peptides. For those interested in peptides,\u2026",
+      "text": "Peptides: The Science, Uses & Safety | Dr. Abud Bakri\nDr. Abud Bakri, MD, is a board-certified internal medicine physician and expert in the science and clinical use of peptides. We discuss the history, uses, sourcing and safety of BPC-157, GHK-Cu, pinealon, epithalon, GLP-1s, retatrutide, melanotan and growth hormone-promoting peptides. We discuss the gap that exists between animal and human data and meaningful differences in the sources for different peptides. For those interested in peptides,…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Peptides: The Science, Uses & Safety | Dr. Abud Bakri\nDr. Abud Bakri, MD, is a b\u2026",
+          "title": "Peptides: The Science, Uses & Safety | Dr. Abud Bakri\nDr. Abud Bakri, MD, is a b…",
           "url": "https://www.youtube.com/watch?v=_DfqnpSbMfE",
           "date": "2026-06-01",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1582,13 +1532,13 @@
     },
     {
       "id": "l575",
-      "text": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a Myth? - Steven Pinker\nProfessor Steven Pinker, one of the world\u2019s most influential cognitive psychologists and public intellectuals, joins the podcast for a profound conversation about artificial intelligence, human consciousness, and the enduring power of Enlightenment values.\n\nFilmed at Harvard \n\nIn an era dominated by apocalyptic headlines, rapid technological disruption, and rising tribalism, Pinker dismantles mode\u2026",
+      "text": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a Myth? - Steven Pinker\nProfessor Steven Pinker, one of the world’s most influential cognitive psychologists and public intellectuals, joins the podcast for a profound conversation about artificial intelligence, human consciousness, and the enduring power of Enlightenment values.\n\nFilmed at Harvard \n\nIn an era dominated by apocalyptic headlines, rapid technological disruption, and rising tribalism, Pinker dismantles mode…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a My\u2026",
+          "title": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a My…",
           "url": "https://www.youtube.com/watch?v=eWC47agaKpk",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1603,13 +1553,13 @@
     },
     {
       "id": "l576",
-      "text": "AI, Viruses, and Bioweapons | Bulletin Breakdown\nThe Bulletin of the Atomic Scientists sits down with three leading experts at the intersection of artificial intelligence and biosecurity:\n\nDavid Relman, Professor of Microbiology & Immunology at Stanford University\n\nAllison Berke, Senior Engineer at RAND's Center for AI, Security, and Technology\n\nJaime Yassif, Senior Advisor at the Nuclear Threat Initiative\n\nIn this conversation, they break down the most urgent risks and opportunities shaping AI \u2026",
+      "text": "AI, Viruses, and Bioweapons | Bulletin Breakdown\nThe Bulletin of the Atomic Scientists sits down with three leading experts at the intersection of artificial intelligence and biosecurity:\n\nDavid Relman, Professor of Microbiology & Immunology at Stanford University\n\nAllison Berke, Senior Engineer at RAND's Center for AI, Security, and Technology\n\nJaime Yassif, Senior Advisor at the Nuclear Threat Initiative\n\nIn this conversation, they break down the most urgent risks and opportunities shaping AI …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI, Viruses, and Bioweapons | Bulletin Breakdown\nThe Bulletin of the Atomic Scie\u2026",
+          "title": "AI, Viruses, and Bioweapons | Bulletin Breakdown\nThe Bulletin of the Atomic Scie…",
           "url": "https://www.youtube.com/watch?v=UsDc_vb-ELw",
           "date": "2026-07-08",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1700,6 +1650,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

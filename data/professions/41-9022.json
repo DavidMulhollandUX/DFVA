@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "41-9022-01",
-      "text": "National peak professional bodies and statutory regulators governing Real Estate Sales Agents enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Real Estate Sales Agents",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Real Estate Sales Agents",
-          "url": "https://www.psc.gov.au/standards/41-9022",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Real Estate Sales Agents"
-        }
-      ],
-      "scope": "Australian practitioners in Real Estate Sales Agents across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "41-9022-02",
-      "text": "Automation of routine transactional and analytical tasks in Real Estate Sales Agents heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Real Estate Sales Agents",
-          "url": "https://www.jobsandskills.gov.au/research/41-9022",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Real Estate Sales Agents in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Real Estate Sales Agents roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "feat(weekly-reports): Field Team roster pickers, Won-only project picker, and a per-project audit trail\nAnswers and fixes for everything raised on the weekly-report setup form and dashboard.\n\n## Why Adam Sherwood wasn't in the PM dropdown\n\nHe is `rep` in `public.users`, and the picker offered only `field_contractor` /\n`construction` / `admin` / `director`. It is not just him \u2014 measured against the liv\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Code\u2026",
+      "text": "feat(weekly-reports): Field Team roster pickers, Won-only project picker, and a per-project audit trail\nAnswers and fixes for everything raised on the weekly-report setup form and dashboard.\n\n## Why Adam Sherwood wasn't in the PM dropdown\n\nHe is `rep` in `public.users`, and the picker offered only `field_contractor` /\n`construction` / `admin` / `director`. It is not just him — measured against the liv\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Code…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(weekly-reports): Field Team roster pickers, Won-only project picker, and a \u2026",
+          "title": "feat(weekly-reports): Field Team roster pickers, Won-only project picker, and a …",
           "url": "https://github.com/artificialadnaan/trockcrm/pull/1089",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -86,13 +36,13 @@
     },
     {
       "id": "l504",
-      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1445 roles**, refreshed Sat Aug 29, 06:01 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Anduril** \u2014 [Software Engineer - Tracking](https://boards.greenhouse.io/andurilindustries/jobs/5215629007) \u00b7 Fort Collins, \u2026",
+      "text": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first — **1445 roles**, refreshed Sat Aug 29, 06:01 UTC. Extra pages live in the comments below.\n\n☑️ Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Anduril** — [Software Engineer - Tracking](https://boards.greenhouse.io/andurilindustries/jobs/5215629007) · Fort Collins, …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
+          "title": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open …",
           "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -107,13 +57,13 @@
     },
     {
       "id": "l505",
-      "text": "Operator Bridge \u2014 Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_ISSUE -->\n\nThis issue is the **live coordination surface** for CorpFlow Operator Bridge v1 (Option C \u2014 Hybrid).\n\n**Canonical doc on `main`:** [`docs/operations/OPERATOR_BRIDGE_V1.md`](https://github.com/antonvdberg-bit/corpflow-ai-command-center/blob/main/docs/operations/OPER\n### Cursor status \u2014 2026-05-27 23:13 UTC\n\n**Packet / item:** Operator Bridge v1 activation (this issue).\n**Status:** ACTIVATED.\n\n**What I checke\u2026",
+      "text": "Operator Bridge — Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_ISSUE -->\n\nThis issue is the **live coordination surface** for CorpFlow Operator Bridge v1 (Option C — Hybrid).\n\n**Canonical doc on `main`:** [`docs/operations/OPERATOR_BRIDGE_V1.md`](https://github.com/antonvdberg-bit/corpflow-ai-command-center/blob/main/docs/operations/OPER\n### Cursor status — 2026-05-27 23:13 UTC\n\n**Packet / item:** Operator Bridge v1 activation (this issue).\n**Status:** ACTIVATED.\n\n**What I checke…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Operator Bridge \u2014 Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_I\u2026",
+          "title": "Operator Bridge — Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_I…",
           "url": "https://github.com/antonvdberg-bit/corpflow-ai-command-center/issues/249",
           "date": "2026-05-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -128,13 +78,13 @@
     },
     {
       "id": "l506",
-      "text": "Territories, leads, and the first real day of field work\n17 commits, 46 files, +5,491/\u2212232. The branch started as two sync fixes and grew\ninto most of a working system, so the summary below is grouped by subject rather\nthan by commit.\n\n**The headline: the app has now done a real day's work.** Before this branch it\nhad never recorded a single visit. A rep",
+      "text": "Territories, leads, and the first real day of field work\n17 commits, 46 files, +5,491/−232. The branch started as two sync fixes and grew\ninto most of a working system, so the summary below is grouped by subject rather\nthan by commit.\n\n**The headline: the app has now done a real day's work.** Before this branch it\nhad never recorded a single visit. A rep",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Territories, leads, and the first real day of field work\n17 commits, 46 files, +\u2026",
+          "title": "Territories, leads, and the first real day of field work\n17 commits, 46 files, +…",
           "url": "https://github.com/conradbrink/Gold-Fortune-Merch-App/pull/2",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -149,13 +99,13 @@
     },
     {
       "id": "l507",
-      "text": "XPElevator Simulator \u2014 enhancement path (control + log)\nControl plane for the **canonical XPElevator**: the live virtual-customer training simulator on xpelevator.com (founder decision 2026-07-04 \u2014 the journeys build is dead; see #12, PAUSE&#39;d, and the harvest into the-calling#21). Full audit evidence: comment below.\n\n## What it is (audited live, 2026\n## Audit evidence (2026-07-04, read-only, browser UA)\n\n**Surface:** `/` (landing: Start Simulation / View Sessions / Admin Panel / Analytics), \u2026",
+      "text": "XPElevator Simulator — enhancement path (control + log)\nControl plane for the **canonical XPElevator**: the live virtual-customer training simulator on xpelevator.com (founder decision 2026-07-04 — the journeys build is dead; see #12, PAUSE&#39;d, and the harvest into the-calling#21). Full audit evidence: comment below.\n\n## What it is (audited live, 2026\n## Audit evidence (2026-07-04, read-only, browser UA)\n\n**Surface:** `/` (landing: Start Simulation / View Sessions / Admin Panel / Analytics), …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "XPElevator Simulator \u2014 enhancement path (control + log)\nControl plane for the **\u2026",
+          "title": "XPElevator Simulator — enhancement path (control + log)\nControl plane for the **…",
           "url": "https://github.com/Latimer-Woods-Tech/xpelevator/issues/16",
           "date": "2026-07-04",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -170,13 +120,13 @@
     },
     {
       "id": "l508",
-      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n\u00b7 I.G. Farben's post-w\n\ud83e\udd3f\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati\u2026",
+      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n· I.G. Farben's post-w\n🤿\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL\u2026",
+          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL…",
           "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/3",
           "date": "2026-04-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -212,13 +162,13 @@
     },
     {
       "id": "l510",
-      "text": "OpenClaw for Sales \u2013 Using Local-First AI Agents for Sales Workflows",
+      "text": "OpenClaw for Sales – Using Local-First AI Agents for Sales Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "OpenClaw for Sales \u2013 Using Local-First AI Agents for Sales Workflows",
+          "title": "OpenClaw for Sales – Using Local-First AI Agents for Sales Workflows",
           "url": "https://www.kickscale.com/en/blog/openclaw-sales-ai-agent-revolution",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -296,13 +246,13 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -317,13 +267,13 @@
     },
     {
       "id": "l515",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -338,13 +288,13 @@
     },
     {
       "id": "l516",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -401,13 +351,13 @@
     },
     {
       "id": "l519",
-      "text": "Show HN: Veil \u2013 stealth browser for AI agents (real Chrome no Playwright)",
+      "text": "Show HN: Veil – stealth browser for AI agents (real Chrome no Playwright)",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Veil \u2013 stealth browser for AI agents (real Chrome no Playwright)",
+          "title": "Show HN: Veil – stealth browser for AI agents (real Chrome no Playwright)",
           "url": "https://github.com/acunningham-ship-it/veilbrowser",
           "date": "2026-06-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -464,13 +414,13 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -485,13 +435,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: Persist \u2013 an AI agent that follows up accrued channels till they reply",
+      "text": "Show HN: Persist – an AI agent that follows up accrued channels till they reply",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Persist \u2013 an AI agent that follows up accrued channels till they reply",
+          "title": "Show HN: Persist – an AI agent that follows up accrued channels till they reply",
           "url": "https://persist.chat",
           "date": "2026-06-07",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -527,13 +477,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: VAEN \u2013 Package and import portable AI coding-agent Harnesses",
+      "text": "Show HN: VAEN – Package and import portable AI coding-agent Harnesses",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: VAEN \u2013 Package and import portable AI coding-agent Harnesses",
+          "title": "Show HN: VAEN – Package and import portable AI coding-agent Harnesses",
           "url": "https://github.com/sjhalani7/vaen",
           "date": "2026-05-27",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "Show HN: Budibase Agents Beta \u2013 model-agnostic AI agents for internal workflows",
+      "text": "Show HN: Budibase Agents Beta – model-agnostic AI agents for internal workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Budibase Agents Beta \u2013 model-agnostic AI agents for internal workflows",
+          "title": "Show HN: Budibase Agents Beta – model-agnostic AI agents for internal workflows",
           "url": "https://budibase.com/blog/updates/ai-agents-beta/",
           "date": "2026-03-19",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -674,13 +624,13 @@
     },
     {
       "id": "l532",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -695,13 +645,13 @@
     },
     {
       "id": "l533",
-      "text": "AI Realtor photos need to be banned\nI&#39;ve seen plenty of discussions about AI-enhanced real estate photos, but it&#39;s really getting out of control. My husband and I have been house hunting for over a year in New Jersey, where the market is incredibly competitive. When a listing looks promising, you have to act fast. The problem is that more and more listings are filled with AI-generated or heavily altered photos that make the property look nothing like it actually does. It&#39;s such a was\u2026",
+      "text": "AI Realtor photos need to be banned\nI&#39;ve seen plenty of discussions about AI-enhanced real estate photos, but it&#39;s really getting out of control. My husband and I have been house hunting for over a year in New Jersey, where the market is incredibly competitive. When a listing looks promising, you have to act fast. The problem is that more and more listings are filled with AI-generated or heavily altered photos that make the property look nothing like it actually does. It&#39;s such a was…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI Realtor photos need to be banned\nI&#39;ve seen plenty of discussions about AI\u2026",
+          "title": "AI Realtor photos need to be banned\nI&#39;ve seen plenty of discussions about AI…",
           "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1vdo0dm/ai_realtor_photos_need_to_be_banned/",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "Why are fake AI pictures allowed in selling real estate?\nHow is it reasonable that professional real estate sales are conducted knowing misleading buyers with fake images of the property? AI images are not real images. Using AI without disclosure is deceptive. This would not be accepted in selling a car or anything else. Why is there no standard for this? &#32; submitted by &#32; /u/Sufficient-Eagle3318 &#32; to &#32; r/RealEstateCanada [link] &#32; [comments]\nMy next door neighbour just listed \u2026",
+      "text": "Why are fake AI pictures allowed in selling real estate?\nHow is it reasonable that professional real estate sales are conducted knowing misleading buyers with fake images of the property? AI images are not real images. Using AI without disclosure is deceptive. This would not be accepted in selling a car or anything else. Why is there no standard for this? &#32; submitted by &#32; /u/Sufficient-Eagle3318 &#32; to &#32; r/RealEstateCanada [link] &#32; [comments]\nMy next door neighbour just listed …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why are fake AI pictures allowed in selling real estate?\nHow is it reasonable th\u2026",
+          "title": "Why are fake AI pictures allowed in selling real estate?\nHow is it reasonable th…",
           "url": "https://www.reddit.com/r/RealEstateCanada/comments/1vcrr88/why_are_fake_ai_pictures_allowed_in_selling_real/",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "AI in real estate should be illegal\nBeen looking at houses recently and the amount of AI photos used in listings is insane, half the time they&#39;re posted as if they&#39;re before-and-after pictures &#32; submitted by &#32; /u/jarrbear2319 &#32; to &#32; r/mildlyinfuriating [link] &#32; [comments]\nI agree. When we were on our house hunt literally every house except one had ai pictures. Didn\u2019t catch on until after the 2nd home. We went with the one house that didn\u2019t have ai pictures Here it mus\u2026",
+      "text": "AI in real estate should be illegal\nBeen looking at houses recently and the amount of AI photos used in listings is insane, half the time they&#39;re posted as if they&#39;re before-and-after pictures &#32; submitted by &#32; /u/jarrbear2319 &#32; to &#32; r/mildlyinfuriating [link] &#32; [comments]\nI agree. When we were on our house hunt literally every house except one had ai pictures. Didn’t catch on until after the 2nd home. We went with the one house that didn’t have ai pictures Here it mus…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI in real estate should be illegal\nBeen looking at houses recently and the amou\u2026",
+          "title": "AI in real estate should be illegal\nBeen looking at houses recently and the amou…",
           "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1vskbde/ai_in_real_estate_should_be_illegal/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -758,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "Falling Australian property prices will lead to a real estate industry shake-out, with agent redundancies, lower fees\nThis is good news? &#32; submitted by &#32; /u/Temporary_Mistake715 &#32; to &#32; r/AusFinance [link] &#32; [comments]\nYes. Maybe a few less shiny suits around and mildly below-average IQ types might have to find more productive jobs. Good, fuck the real estate agents. I hope the industry collapses and we can just list our places on FB Marketplace or something. Tarocash and Conn\u2026",
+      "text": "Falling Australian property prices will lead to a real estate industry shake-out, with agent redundancies, lower fees\nThis is good news? &#32; submitted by &#32; /u/Temporary_Mistake715 &#32; to &#32; r/AusFinance [link] &#32; [comments]\nYes. Maybe a few less shiny suits around and mildly below-average IQ types might have to find more productive jobs. Good, fuck the real estate agents. I hope the industry collapses and we can just list our places on FB Marketplace or something. Tarocash and Conn…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Falling Australian property prices will lead to a real estate industry shake-out\u2026",
+          "title": "Falling Australian property prices will lead to a real estate industry shake-out…",
           "url": "https://www.reddit.com/r/AusFinance/comments/1vihjzb/falling_australian_property_prices_will_lead_to_a/",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "Real Estate AI Misrepresentations\nI was walking by 228 Jefferson St NW yesterday. It is a particularly ugly style of home that has the sloping roof as the focal point of the house. I checked what it was listed at and it is listed for $500k, which seems appropriate given the house&#39;s condition. I also noticed that the photos on the MLS show it as a ranch! AI in real estate listings is getting out of hand. See attached for the real picture and the AI image on the MLS. https://www.redfin.com/DC/\u2026",
+      "text": "Real Estate AI Misrepresentations\nI was walking by 228 Jefferson St NW yesterday. It is a particularly ugly style of home that has the sloping roof as the focal point of the house. I checked what it was listed at and it is listed for $500k, which seems appropriate given the house&#39;s condition. I also noticed that the photos on the MLS show it as a ranch! AI in real estate listings is getting out of hand. See attached for the real picture and the AI image on the MLS. https://www.redfin.com/DC/…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Real Estate AI Misrepresentations\nI was walking by 228 Jefferson St NW yesterday\u2026",
+          "title": "Real Estate AI Misrepresentations\nI was walking by 228 Jefferson St NW yesterday…",
           "url": "https://www.reddit.com/r/washingtondc/comments/1vqw2h6/real_estate_ai_misrepresentations/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -806,7 +756,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "We're hiring a Forward Deployed Engineer (Intern) at Thinkly AI. \n\nOur AI agents\u2026",
+          "title": "We're hiring a Forward Deployed Engineer (Intern) at Thinkly AI. \n\nOur AI agents…",
           "url": "https://x.com/vedanttkunte/status/2092199961027026956",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "Most teams already have access to AI. Using it more isn't the same as changing how work gets done.\n\nThat's the shift ODSC AI NYC: AI for Work Summit is built around \u2014 two days in New York City this December on moving from AI assistance to AI delegation.\n\nAcross 30+ sessions and hands-on workshops:\n- You build \u2192 Ship reliable agents, evals, and RAG in production\n- You apply \u2192 Delegate a real task from your backlog \u2014 no code required \u2014 and leave with a working automation\n- You lead \u2192 Build the gov",
+      "text": "Most teams already have access to AI. Using it more isn't the same as changing how work gets done.\n\nThat's the shift ODSC AI NYC: AI for Work Summit is built around — two days in New York City this December on moving from AI assistance to AI delegation.\n\nAcross 30+ sessions and hands-on workshops:\n- You build → Ship reliable agents, evals, and RAG in production\n- You apply → Delegate a real task from your backlog — no code required — and leave with a working automation\n- You lead → Build the gov",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Most teams already have access to AI. Using it more isn't the same as changing h\u2026",
+          "title": "Most teams already have access to AI. Using it more isn't the same as changing h…",
           "url": "https://x.com/_odsc/status/2093429414952366481",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "BAI_AGI framed the shift cleanly: AI is changing how we build, and the stack should live in one place.\n\nCode, creative work, frontier models, and production APIs only compound when the path from prompt to shipment is short. \n\nhttps://t.co/vl0CaU8bMl\u2019s pitch is that gateway\u2014wallet-native access, model choice, and interfaces meant for agents that call tools all day. \n\nFaster building is the claim. Reliable inference plus settlement is the test.\nThat is where TRON belongs in the picture. \n\nAgents n",
+      "text": "BAI_AGI framed the shift cleanly: AI is changing how we build, and the stack should live in one place.\n\nCode, creative work, frontier models, and production APIs only compound when the path from prompt to shipment is short. \n\nhttps://t.co/vl0CaU8bMl’s pitch is that gateway—wallet-native access, model choice, and interfaces meant for agents that call tools all day. \n\nFaster building is the claim. Reliable inference plus settlement is the test.\nThat is where TRON belongs in the picture. \n\nAgents n",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "BAI_AGI framed the shift cleanly: AI is changing how we build, and the stack sho\u2026",
+          "title": "BAI_AGI framed the shift cleanly: AI is changing how we build, and the stack sho…",
           "url": "https://x.com/francis_cgl/status/2093421071185973478",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -863,13 +813,13 @@
     },
     {
       "id": "l541",
-      "text": "The real estate industry is changing fast.\n\nThe agents who win in the next 5\u201310 years won\u2019t necessarily be the ones with the biggest teams, the most listings, or the most followers.\n\nThey\u2019ll be the ones who know how to leverage technology, build real relationships, and create systems that scale.\n\nThe next generation is already here.\n\nWant to learn how to use AI to generate more real estate leads? Visit https://t.co/rPJTy33HZb \n\n#sales #realestate",
+      "text": "The real estate industry is changing fast.\n\nThe agents who win in the next 5–10 years won’t necessarily be the ones with the biggest teams, the most listings, or the most followers.\n\nThey’ll be the ones who know how to leverage technology, build real relationships, and create systems that scale.\n\nThe next generation is already here.\n\nWant to learn how to use AI to generate more real estate leads? Visit https://t.co/rPJTy33HZb \n\n#sales #realestate",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The real estate industry is changing fast.\n\nThe agents who win in the next 5\u201310 \u2026",
+          "title": "The real estate industry is changing fast.\n\nThe agents who win in the next 5–10 …",
           "url": "https://x.com/NucciAnthony/status/2093111393272635498",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -890,7 +840,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "How AI Staging and Dynamic Video Accelerate Real Estate Sales  https://t.co/ss1L\u2026",
+          "title": "How AI Staging and Dynamic Video Accelerate Real Estate Sales  https://t.co/ss1L…",
           "url": "https://x.com/onevideoproapp/status/2092273417944789210",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "Bakeries, hotels, real estate offices \u2014 every day they lose leads because nobody answers WhatsApp fast enough. TABLO fixes that. AI agents that book, quote, follow up and recover lost sales, in Spanish, for LatAm PyMEs. First deployments live this month.",
+      "text": "Bakeries, hotels, real estate offices — every day they lose leads because nobody answers WhatsApp fast enough. TABLO fixes that. AI agents that book, quote, follow up and recover lost sales, in Spanish, for LatAm PyMEs. First deployments live this month.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Bakeries, hotels, real estate offices \u2014 every day they lose leads because nobody\u2026",
+          "title": "Bakeries, hotels, real estate offices — every day they lose leads because nobody…",
           "url": "https://x.com/polsia/status/2092312415052661248",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -932,7 +882,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Lots of very smart people in X land except it would seem Aussie #RealEstateAgent\u2026",
+          "title": "Lots of very smart people in X land except it would seem Aussie #RealEstateAgent…",
           "url": "https://x.com/JohannesGu34837/status/2092154544394531320",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "The fastest way to land a client is not to explain what AI agents are.\n\nIt is to show them one working.\n\nHere is the exact 6-step system:\n\nStep 1: Pick one industry vertical\n\u2192 Real estate, dental practices, law firms, e-commerce brands\n\u2192 Local is easiest \u2014 you can get in-person meetings\n\u2192 Pick the one where you can most easily picture the repetitive work they hate\n\nStep 2: Build one demo agent before contacting anyone\n\u2192 A lead follow-up agent using fictional client data\n\u2192 A content creator for a",
+      "text": "The fastest way to land a client is not to explain what AI agents are.\n\nIt is to show them one working.\n\nHere is the exact 6-step system:\n\nStep 1: Pick one industry vertical\n→ Real estate, dental practices, law firms, e-commerce brands\n→ Local is easiest — you can get in-person meetings\n→ Pick the one where you can most easily picture the repetitive work they hate\n\nStep 2: Build one demo agent before contacting anyone\n→ A lead follow-up agent using fictional client data\n→ A content creator for a",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The fastest way to land a client is not to explain what AI agents are.\n\nIt is to\u2026",
+          "title": "The fastest way to land a client is not to explain what AI agents are.\n\nIt is to…",
           "url": "https://x.com/AiAgencyGoat/status/2092266387138068883",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "10,000 followers sounds great. \n\nBut if none of them ever become conversations, referrals, appointments, or clients\u2026 what are they actually worth? \n\nYou don\u2019t need more attention. \n\nYou need the right attention from the right people. \n\nBuild an audience that trusts you, not just one that watches you.\n\nWant to learn how to use AI to generate more real estate leads? Visit https://t.co/rPJTy33HZb \n\n#sales #realestate",
+      "text": "10,000 followers sounds great. \n\nBut if none of them ever become conversations, referrals, appointments, or clients… what are they actually worth? \n\nYou don’t need more attention. \n\nYou need the right attention from the right people. \n\nBuild an audience that trusts you, not just one that watches you.\n\nWant to learn how to use AI to generate more real estate leads? Visit https://t.co/rPJTy33HZb \n\n#sales #realestate",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "10,000 followers sounds great. \n\nBut if none of them ever become conversations, \u2026",
+          "title": "10,000 followers sounds great. \n\nBut if none of them ever become conversations, …",
           "url": "https://x.com/NucciAnthony/status/2093429786613801266",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "The agent who relies on a database, cold calls, open houses, and \u201cjust follow up\u201d is going to have a harder time standing out. \n\nNot because those things stopped working. \n\nBecause the game has changed. \n\nToday\u2019s agent needs to know how to build attention, create trust, and stay relevant before the client ever raises their hand.\n\nWant to learn how to use AI to generate more real estate leads? Visit https://t.co/rPJTy33HZb \n\n#sales #ai #realestate",
+      "text": "The agent who relies on a database, cold calls, open houses, and “just follow up” is going to have a harder time standing out. \n\nNot because those things stopped working. \n\nBecause the game has changed. \n\nToday’s agent needs to know how to build attention, create trust, and stay relevant before the client ever raises their hand.\n\nWant to learn how to use AI to generate more real estate leads? Visit https://t.co/rPJTy33HZb \n\n#sales #ai #realestate",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The agent who relies on a database, cold calls, open houses, and \u201cjust follow up\u2026",
+          "title": "The agent who relies on a database, cold calls, open houses, and “just follow up…",
           "url": "https://x.com/NucciAnthony/status/2093379257133117631",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1010,13 +960,13 @@
     },
     {
       "id": "l548",
-      "text": "$MITI | ROBO AGENT: ONE PLATFORM, ONE WORKFLOW\n\nReal-estate professionals often rely on separate systems for CRM, MLS access, calendars, training and daily task management.\n\nMitesco\u2019s Robo Agent brings those essential functions together within one AI-powered business platform.\n\nRather than simply storing information, the system is designed to guide agents toward their next priority while reinforcing accountability and professional development.\n\nThe platform targets hardworking agents seeking str",
+      "text": "$MITI | ROBO AGENT: ONE PLATFORM, ONE WORKFLOW\n\nReal-estate professionals often rely on separate systems for CRM, MLS access, calendars, training and daily task management.\n\nMitesco’s Robo Agent brings those essential functions together within one AI-powered business platform.\n\nRather than simply storing information, the system is designed to guide agents toward their next priority while reinforcing accountability and professional development.\n\nThe platform targets hardworking agents seeking str",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "$MITI | ROBO AGENT: ONE PLATFORM, ONE WORKFLOW\n\nReal-estate professionals often \u2026",
+          "title": "$MITI | ROBO AGENT: ONE PLATFORM, ONE WORKFLOW\n\nReal-estate professionals often …",
           "url": "https://x.com/XdInsiderr/status/2092351011306250343",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1031,13 +981,13 @@
     },
     {
       "id": "l549",
-      "text": "If you disappear for a week and your pipeline goes completely silent, you don\u2019t have a predictable business. \n\nYou have a prospecting routine. \n\nThere\u2019s a difference. \n\nThe goal should be to build systems, relationships, referrals, and demand that keep creating opportunities even when you\u2019re not actively chasing them.\n\nWant to learn how to use AI to generate more real estate leads? Visit https://t.co/rPJTy33HZb \n\n#sales #ai #realestate",
+      "text": "If you disappear for a week and your pipeline goes completely silent, you don’t have a predictable business. \n\nYou have a prospecting routine. \n\nThere’s a difference. \n\nThe goal should be to build systems, relationships, referrals, and demand that keep creating opportunities even when you’re not actively chasing them.\n\nWant to learn how to use AI to generate more real estate leads? Visit https://t.co/rPJTy33HZb \n\n#sales #ai #realestate",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "If you disappear for a week and your pipeline goes completely silent, you don\u2019t \u2026",
+          "title": "If you disappear for a week and your pipeline goes completely silent, you don’t …",
           "url": "https://x.com/NucciAnthony/status/2092955440753631673",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1052,13 +1002,13 @@
     },
     {
       "id": "l550",
-      "text": "Absolutely agree. AI\u2019s biggest value in real estate is taking the repetitive work off an agent\u2019s plate, not replacing the agent.\n\nWe work in AI and intelligent automation, and there are some really interesting workflows that can be built around lead qualification, follow-ups, content, and communication.\n\nI\u2019ve got a few ideas that could add real value here. Would be happy to share them!",
+      "text": "Absolutely agree. AI’s biggest value in real estate is taking the repetitive work off an agent’s plate, not replacing the agent.\n\nWe work in AI and intelligent automation, and there are some really interesting workflows that can be built around lead qualification, follow-ups, content, and communication.\n\nI’ve got a few ideas that could add real value here. Would be happy to share them!",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Absolutely agree. AI\u2019s biggest value in real estate is taking the repetitive wor\u2026",
+          "title": "Absolutely agree. AI’s biggest value in real estate is taking the repetitive wor…",
           "url": "https://x.com/maitreya_ai/status/2091409001594638825",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1073,13 +1023,13 @@
     },
     {
       "id": "l551",
-      "text": "Strategic Predictive Analysis :::\nPi Network\u2019s Next Evolution: From Blockchain Nodes to a Distributed AI and Work Execution Infrastructure\n( https://t.co/690gQVtYyU )\n\n[[[ This article includes Predictive & Technical Analysis  and may differ from actual outcomes ]]]\n[[[ \u201cWhy OpenClaw and the Atlassian MCP Server Matter \u2014 Pi Desktop Is No Longer Just a Node Application\u201d ]]]\n[[[ \u201cTurning 420,000+ Pioneer Nodes from Blockchain Validators into a Global Distributed Production Infrastructure\u201d ]]]\n[[[",
+      "text": "Strategic Predictive Analysis :::\nPi Network’s Next Evolution: From Blockchain Nodes to a Distributed AI and Work Execution Infrastructure\n( https://t.co/690gQVtYyU )\n\n[[[ This article includes Predictive & Technical Analysis  and may differ from actual outcomes ]]]\n[[[ “Why OpenClaw and the Atlassian MCP Server Matter — Pi Desktop Is No Longer Just a Node Application” ]]]\n[[[ “Turning 420,000+ Pioneer Nodes from Blockchain Validators into a Global Distributed Production Infrastructure” ]]]\n[[[",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Strategic Predictive Analysis :::\nPi Network\u2019s Next Evolution: From Blockchain N\u2026",
+          "title": "Strategic Predictive Analysis :::\nPi Network’s Next Evolution: From Blockchain N…",
           "url": "https://x.com/applekhankorea/status/2093366647587565778",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1094,13 +1044,13 @@
     },
     {
       "id": "l552",
-      "text": "AI can give your client an answer in 10 seconds. \n\nThat doesn\u2019t mean it can replace you. The agents who win won\u2019t be the ones trying to compete with AI on information. \n\nThey\u2019ll be the ones who can provide context, experience, strategy, and trust when the decision actually matters. \n\nAI can answer the question. You need to be the person they trust with the decision.\n\nWant to learn how to use AI to generate more real estate leads?  DM \u201cLEADS\u201d to \n@nuccimanthony on IG and I\u2019ll send you the details",
+      "text": "AI can give your client an answer in 10 seconds. \n\nThat doesn’t mean it can replace you. The agents who win won’t be the ones trying to compete with AI on information. \n\nThey’ll be the ones who can provide context, experience, strategy, and trust when the decision actually matters. \n\nAI can answer the question. You need to be the person they trust with the decision.\n\nWant to learn how to use AI to generate more real estate leads?  DM “LEADS” to \n@nuccimanthony on IG and I’ll send you the details",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI can give your client an answer in 10 seconds. \n\nThat doesn\u2019t mean it can repl\u2026",
+          "title": "AI can give your client an answer in 10 seconds. \n\nThat doesn’t mean it can repl…",
           "url": "https://x.com/NucciAnthony/status/2092702964473380884",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1115,13 +1065,13 @@
     },
     {
       "id": "l553",
-      "text": "Real estate agents: In 2026, the opportunity is to become more useful where technology remains weakest\u2014judgment, negotiation &amp; relationships.\n\nUse AI to save time, then use that time to talk to actual people. That\u2019s how you win. \n\n#RealEstate #AI #SalesTips #RealEstateSalesGrowth https://t.co/KtcP2kF8NR",
+      "text": "Real estate agents: In 2026, the opportunity is to become more useful where technology remains weakest—judgment, negotiation &amp; relationships.\n\nUse AI to save time, then use that time to talk to actual people. That’s how you win. \n\n#RealEstate #AI #SalesTips #RealEstateSalesGrowth https://t.co/KtcP2kF8NR",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Real estate agents: In 2026, the opportunity is to become more useful where tech\u2026",
+          "title": "Real estate agents: In 2026, the opportunity is to become more useful where tech…",
           "url": "https://x.com/EstateGrowth/status/2092265783669743702",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1136,13 +1086,13 @@
     },
     {
       "id": "l554",
-      "text": "There\u2019s also another reason I\u2019m interested in RVII.\n\nIt\u2019s currently trading below NAV.\n\nNAV: $23.90\nRVII price: $21.69\n\nThat\u2019s roughly a 9.2% discount to NAV.\n\nThe IPO price was $25, so it\u2019s also down 13% from the IPO.\n\nYou\u2019re essentially getting the underlying portfolio at a discount.\n\nRVII is heavily concentrated around one a mega theme\n\nAI agents\n\nNot just AI that answers questions. AI that actually performs work\n\nThe portfolio spans almost every layer needed to make that happen\n\n\ud83e\udd16 AI Agents",
+      "text": "There’s also another reason I’m interested in RVII.\n\nIt’s currently trading below NAV.\n\nNAV: $23.90\nRVII price: $21.69\n\nThat’s roughly a 9.2% discount to NAV.\n\nThe IPO price was $25, so it’s also down 13% from the IPO.\n\nYou’re essentially getting the underlying portfolio at a discount.\n\nRVII is heavily concentrated around one a mega theme\n\nAI agents\n\nNot just AI that answers questions. AI that actually performs work\n\nThe portfolio spans almost every layer needed to make that happen\n\n🤖 AI Agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "There\u2019s also another reason I\u2019m interested in RVII.\n\nIt\u2019s currently trading belo\u2026",
+          "title": "There’s also another reason I’m interested in RVII.\n\nIt’s currently trading belo…",
           "url": "https://x.com/DiligentPlane/status/2092990900175593823",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1247,7 +1197,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@jasonlk That curve is bending both ways with AI. Getting to $100m gets faster s\u2026",
+          "title": "@jasonlk That curve is bending both ways with AI. Getting to $100m gets faster s…",
           "url": "https://x.com/vikasmalpani/status/2093343673891398134",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1262,13 +1212,13 @@
     },
     {
       "id": "l560",
-      "text": "We launched Synapse. [ Read till end ]\n\nAnd instead of posting another \u201cwe\u2019re changing healthcare with AI\u201d thread, I want to share the questions people have been asking us.\n\nDoctors. Hospital owners. Founders. VCs. Customers.\n\nSome of them were uncomfortable.\n\nProbably the most useful questions we\u2019ve received.\n\n\u201cWhy would Apollo need you if OpenAI or Microsoft can give them models, servers, engineers and basically unlimited compute?\u201d\n\nFair.\n\nWe are not trying to build a better GPT.\n\nAnd we\u2019re no",
+      "text": "We launched Synapse. [ Read till end ]\n\nAnd instead of posting another “we’re changing healthcare with AI” thread, I want to share the questions people have been asking us.\n\nDoctors. Hospital owners. Founders. VCs. Customers.\n\nSome of them were uncomfortable.\n\nProbably the most useful questions we’ve received.\n\n“Why would Apollo need you if OpenAI or Microsoft can give them models, servers, engineers and basically unlimited compute?”\n\nFair.\n\nWe are not trying to build a better GPT.\n\nAnd we’re no",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "We launched Synapse. [ Read till end ]\n\nAnd instead of posting another \u201cwe\u2019re ch\u2026",
+          "title": "We launched Synapse. [ Read till end ]\n\nAnd instead of posting another “we’re ch…",
           "url": "https://x.com/KarthikNagpuri/status/2093567763801686429",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1289,7 +1239,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Leaving an industry is not the same as starting over.\n\nHypothetical: a process e\u2026",
+          "title": "Leaving an industry is not the same as starting over.\n\nHypothetical: a process e…",
           "url": "https://x.com/offladder/status/2093528981824053495",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1325,13 +1275,13 @@
     },
     {
       "id": "l563",
-      "text": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+      "text": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+          "title": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
           "url": "https://x.com/BestBlogsDev/status/2093500753738645591",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1346,13 +1296,13 @@
     },
     {
       "id": "l564",
-      "text": "Cloudflare will make 1000+ AI millionaires\nIn this solo episode I break down Cloudflare's AI agent announcement in plain English and explain why I see it as the new business model for the internet. I walk through AI crawl control, pay per crawl, the monetization gateway, and the x402 payment rail, and I show how a single request turns into a transaction. From there I give three startup ideas built directly on top of this shift: a niche data refinery, agent readiness for businesses, and expert ar\u2026",
+      "text": "Cloudflare will make 1000+ AI millionaires\nIn this solo episode I break down Cloudflare's AI agent announcement in plain English and explain why I see it as the new business model for the internet. I walk through AI crawl control, pay per crawl, the monetization gateway, and the x402 payment rail, and I show how a single request turns into a transaction. From there I give three startup ideas built directly on top of this shift: a niche data refinery, agent readiness for businesses, and expert ar…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Cloudflare will make 1000+ AI millionaires\nIn this solo episode I break down Clo\u2026",
+          "title": "Cloudflare will make 1000+ AI millionaires\nIn this solo episode I break down Clo…",
           "url": "https://www.youtube.com/watch?v=MNNfat_QP0E",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1367,13 +1317,13 @@
     },
     {
       "id": "l565",
-      "text": "How Real Estate Agents Stay Essential in the Age of AI\nAI is changing how real estate agents market, communicate, research, and serve clients. But as more transactional work becomes automated, the skills that make an agent truly valuable may matter more than ever.\n\nIn this episode of So You Want to Be a Real Estate Agent: Beyond Real Estate, Meredith Fogle sits down with Laureen Knudsen, author of Becoming Essential: The Proven Plan to Reinvent Your Career in the Age of Disruption. After more th\u2026",
+      "text": "How Real Estate Agents Stay Essential in the Age of AI\nAI is changing how real estate agents market, communicate, research, and serve clients. But as more transactional work becomes automated, the skills that make an agent truly valuable may matter more than ever.\n\nIn this episode of So You Want to Be a Real Estate Agent: Beyond Real Estate, Meredith Fogle sits down with Laureen Knudsen, author of Becoming Essential: The Proven Plan to Reinvent Your Career in the Age of Disruption. After more th…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How Real Estate Agents Stay Essential in the Age of AI\nAI is changing how real e\u2026",
+          "title": "How Real Estate Agents Stay Essential in the Age of AI\nAI is changing how real e…",
           "url": "https://www.youtube.com/watch?v=tNpb8uuNv38",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1388,13 +1338,13 @@
     },
     {
       "id": "l566",
-      "text": "We\u2019ve Generated 5 Million Leads Now AI Found Something 3x Better Than Google\nThe AI Sales Rep That Sets Appointments 24/7: https://objectionproofselling.com/ai-sales-agent-yt\n\nMaximize Your Tax Returns And\nGet Clarity On Your Financials With Our Tax Guys\nhttps://beccfo.com/\n\nBuild Real AI Tools For Your Business In One Day At REI Tech Unlocked: https://reitechunlocked.com/\n\nCarrot\nhttps://carrot.com/\n\nBONUS\nGET 10% OFF ON INVESTORLIFT\nUse promo code DISRUPTORS.\nhttps://get.investorlift.com/disru\u2026",
+      "text": "We’ve Generated 5 Million Leads Now AI Found Something 3x Better Than Google\nThe AI Sales Rep That Sets Appointments 24/7: https://objectionproofselling.com/ai-sales-agent-yt\n\nMaximize Your Tax Returns And\nGet Clarity On Your Financials With Our Tax Guys\nhttps://beccfo.com/\n\nBuild Real AI Tools For Your Business In One Day At REI Tech Unlocked: https://reitechunlocked.com/\n\nCarrot\nhttps://carrot.com/\n\nBONUS\nGET 10% OFF ON INVESTORLIFT\nUse promo code DISRUPTORS.\nhttps://get.investorlift.com/disru…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "We\u2019ve Generated 5 Million Leads Now AI Found Something 3x Better Than Google\nThe\u2026",
+          "title": "We’ve Generated 5 Million Leads Now AI Found Something 3x Better Than Google\nThe…",
           "url": "https://www.youtube.com/watch?v=4nYm_HcKruQ",
           "date": "2026-04-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1409,13 +1359,13 @@
     },
     {
       "id": "l567",
-      "text": "AI Can't Replace Realtors (Yet) \u2014 Here's What Agents Still Have\nCan AI replace real estate agents\u2014or is this just another tech panic? In this video, we break down what AI is actually doing to residential real estate: commissions, competition, portals, and why the next listing appointment might include a robot (that still won\u2019t wear a blazer).\n\nIf you\u2019re an agent wondering \u201cCan AI replace real estate agents?\u201d\u2014breathe. AI isn\u2019t showing homes in heels on a Sunday. But it is automating everything ar\u2026",
+      "text": "AI Can't Replace Realtors (Yet) — Here's What Agents Still Have\nCan AI replace real estate agents—or is this just another tech panic? In this video, we break down what AI is actually doing to residential real estate: commissions, competition, portals, and why the next listing appointment might include a robot (that still won’t wear a blazer).\n\nIf you’re an agent wondering “Can AI replace real estate agents?”—breathe. AI isn’t showing homes in heels on a Sunday. But it is automating everything ar…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Can't Replace Realtors (Yet) \u2014 Here's What Agents Still Have\nCan AI replace r\u2026",
+          "title": "AI Can't Replace Realtors (Yet) — Here's What Agents Still Have\nCan AI replace r…",
           "url": "https://www.youtube.com/watch?v=UvxPrjQLH74",
           "date": "2026-03-02",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1430,13 +1380,13 @@
     },
     {
       "id": "l568",
-      "text": "\u2018Agent BEAT AI this time': Real estate agent explains how a $50M deal was almost derailed\nReal estate mogul Ryan Serhant discusses how a $50 million penthouse deal almost fell apart on 'The Bottom Line.' #fox #media #us #usa #new #news #foxbusiness #realestate #housing #property #luxury #penthouse #ai #technology #business #deal #sales #market #finance #investment #money #entrepreneur #homes #wealth  \n\nSubscribe to Fox Business: https://bit.ly/2D9Cdse\nWatch more Fox Business Video: https://video\u2026",
+      "text": "‘Agent BEAT AI this time': Real estate agent explains how a $50M deal was almost derailed\nReal estate mogul Ryan Serhant discusses how a $50 million penthouse deal almost fell apart on 'The Bottom Line.' #fox #media #us #usa #new #news #foxbusiness #realestate #housing #property #luxury #penthouse #ai #technology #business #deal #sales #market #finance #investment #money #entrepreneur #homes #wealth  \n\nSubscribe to Fox Business: https://bit.ly/2D9Cdse\nWatch more Fox Business Video: https://video…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "\u2018Agent BEAT AI this time': Real estate agent explains how a $50M deal was almost\u2026",
+          "title": "‘Agent BEAT AI this time': Real estate agent explains how a $50M deal was almost…",
           "url": "https://www.youtube.com/watch?v=WONWpAVc1VM",
           "date": "2026-03-22",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1451,13 +1401,13 @@
     },
     {
       "id": "l569",
-      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell\u2026",
+      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth!\u2026",
+          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth!…",
           "url": "https://www.youtube.com/watch?v=Cn8HBj8QAbk",
           "date": "2026-03-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1472,13 +1422,13 @@
     },
     {
       "id": "l570",
-      "text": "90% of Real Estate May Be Done by AI | Here\u2019s What That Means for Agents\n90% of Real Estate May Be Done by AI | Here\u2019s What That Means for Agents\n\nAI is changing real estate faster than most agents realize. But here\u2019s the real question\u2026 does it replace agents, or does it actually make great agents even more valuable?\n\nIn this training for real estate professionals, we break down what leaders across the industry are saying about Agentic AI, AI-powered consumers, and the future of the real estate \u2026",
+      "text": "90% of Real Estate May Be Done by AI | Here’s What That Means for Agents\n90% of Real Estate May Be Done by AI | Here’s What That Means for Agents\n\nAI is changing real estate faster than most agents realize. But here’s the real question… does it replace agents, or does it actually make great agents even more valuable?\n\nIn this training for real estate professionals, we break down what leaders across the industry are saying about Agentic AI, AI-powered consumers, and the future of the real estate …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "90% of Real Estate May Be Done by AI | Here\u2019s What That Means for Agents\n90% of \u2026",
+          "title": "90% of Real Estate May Be Done by AI | Here’s What That Means for Agents\n90% of …",
           "url": "https://www.youtube.com/watch?v=mFUyc4RPhfw",
           "date": "2026-03-27",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1493,7 +1443,7 @@
     },
     {
       "id": "l471",
-      "text": "PROJECT SALES AGENT \u2014 Boston PR (Zetland, New South Wales, Australia). Posted 1 month ago.",
+      "text": "PROJECT SALES AGENT — Boston PR (Zetland, New South Wales, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1514,7 +1464,7 @@
     },
     {
       "id": "l472",
-      "text": "Sales Associate to Daniel Christensen \u2014 Place Estate Agents (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Sales Associate to Daniel Christensen — Place Estate Agents (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1535,7 +1485,7 @@
     },
     {
       "id": "l473",
-      "text": "Sales Executive | Real Estate \u2014 Scenic Property (Greater Melbourne Area). Posted 6 days ago.",
+      "text": "Sales Executive | Real Estate — Scenic Property (Greater Melbourne Area). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1556,7 +1506,7 @@
     },
     {
       "id": "l474",
-      "text": "Sales Associate to Melissa Brown \u2014 Place Estate Agents (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Sales Associate to Melissa Brown — Place Estate Agents (Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1577,7 +1527,7 @@
     },
     {
       "id": "l475",
-      "text": "Co-Agent to Anton Vizzari \u2014 Harris Real Estate Pty Ltd (Glenelg North, South Australia, Australia). Posted 3 weeks ago.",
+      "text": "Co-Agent to Anton Vizzari — Harris Real Estate Pty Ltd (Glenelg North, South Australia, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1598,7 +1548,7 @@
     },
     {
       "id": "l476",
-      "text": "Sales Associate \u2014 Woodards Real Estate (Melbourne, Victoria, Australia). Posted 1 day ago.",
+      "text": "Sales Associate — Woodards Real Estate (Melbourne, Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1619,7 +1569,7 @@
     },
     {
       "id": "l477",
-      "text": "Real Estate Sales Agent \u2014 United Realty NT (Greater Darwin Area). Posted 15 hours ago.",
+      "text": "Real Estate Sales Agent — United Realty NT (Greater Darwin Area). Posted 15 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1640,7 +1590,7 @@
     },
     {
       "id": "l478",
-      "text": "SALES CONSULTANT \u2014 Barry Plant Taylors Lakes (Docklands, Victoria, Australia). Posted 3 weeks ago.",
+      "text": "SALES CONSULTANT — Barry Plant Taylors Lakes (Docklands, Victoria, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1661,7 +1611,7 @@
     },
     {
       "id": "l479",
-      "text": "Commercial Property Sales Executive \u2014 CBRE Asia Pacific (Sydney, New South Wales, Australia). Posted 4 months ago.",
+      "text": "Commercial Property Sales Executive — CBRE Asia Pacific (Sydney, New South Wales, Australia). Posted 4 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1682,13 +1632,13 @@
     },
     {
       "id": "l580",
-      "text": "feat(weekly-reports): Field Team roster pickers, Won-only project picker, and a per-project audit trail\nAnswers and fixes for everything raised on the weekly-report setup form and dashboard.\n\n## Why Adam Sherwood wasn't in the PM dropdown\n\nHe is `rep` in `public.users`, and the picker offered only `field_contractor` /\n`construction` / `admin` / `director`. It is not just him \u2014 measured against the liv\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Code\u2026",
+      "text": "feat(weekly-reports): Field Team roster pickers, Won-only project picker, and a per-project audit trail\nAnswers and fixes for everything raised on the weekly-report setup form and dashboard.\n\n## Why Adam Sherwood wasn't in the PM dropdown\n\nHe is `rep` in `public.users`, and the picker offered only `field_contractor` /\n`construction` / `admin` / `director`. It is not just him — measured against the liv\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Code…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(weekly-reports): Field Team roster pickers, Won-only project picker, and a \u2026",
+          "title": "feat(weekly-reports): Field Team roster pickers, Won-only project picker, and a …",
           "url": "https://github.com/artificialadnaan/trockcrm/pull/1089",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1703,13 +1653,13 @@
     },
     {
       "id": "l581",
-      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1445 roles**, refreshed Sat Aug 29, 06:01 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Anduril** \u2014 [Software Engineer - Tracking](https://boards.greenhouse.io/andurilindustries/jobs/5215629007) \u00b7 Fort Collins, \u2026",
+      "text": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first — **1445 roles**, refreshed Sat Aug 29, 06:01 UTC. Extra pages live in the comments below.\n\n☑️ Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Anduril** — [Software Engineer - Tracking](https://boards.greenhouse.io/andurilindustries/jobs/5215629007) · Fort Collins, …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
+          "title": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open …",
           "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1724,13 +1674,13 @@
     },
     {
       "id": "l582",
-      "text": "Operator Bridge \u2014 Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_ISSUE -->\n\nThis issue is the **live coordination surface** for CorpFlow Operator Bridge v1 (Option C \u2014 Hybrid).\n\n**Canonical doc on `main`:** [`docs/operations/OPERATOR_BRIDGE_V1.md`](https://github.com/antonvdberg-bit/corpflow-ai-command-center/blob/main/docs/operations/OPER\n### Cursor status \u2014 2026-05-27 23:13 UTC\n\n**Packet / item:** Operator Bridge v1 activation (this issue).\n**Status:** ACTIVATED.\n\n**What I checke\u2026",
+      "text": "Operator Bridge — Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_ISSUE -->\n\nThis issue is the **live coordination surface** for CorpFlow Operator Bridge v1 (Option C — Hybrid).\n\n**Canonical doc on `main`:** [`docs/operations/OPERATOR_BRIDGE_V1.md`](https://github.com/antonvdberg-bit/corpflow-ai-command-center/blob/main/docs/operations/OPER\n### Cursor status — 2026-05-27 23:13 UTC\n\n**Packet / item:** Operator Bridge v1 activation (this issue).\n**Status:** ACTIVATED.\n\n**What I checke…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Operator Bridge \u2014 Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_I\u2026",
+          "title": "Operator Bridge — Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_I…",
           "url": "https://github.com/antonvdberg-bit/corpflow-ai-command-center/issues/249",
           "date": "2026-05-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1745,13 +1695,13 @@
     },
     {
       "id": "l583",
-      "text": "XPElevator Simulator \u2014 enhancement path (control + log)\nControl plane for the **canonical XPElevator**: the live virtual-customer training simulator on xpelevator.com (founder decision 2026-07-04 \u2014 the journeys build is dead; see #12, PAUSE&#39;d, and the harvest into the-calling#21). Full audit evidence: comment below.\n\n## What it is (audited live, 2026\n## Audit evidence (2026-07-04, read-only, browser UA)\n\n**Surface:** `/` (landing: Start Simulation / View Sessions / Admin Panel / Analytics), \u2026",
+      "text": "XPElevator Simulator — enhancement path (control + log)\nControl plane for the **canonical XPElevator**: the live virtual-customer training simulator on xpelevator.com (founder decision 2026-07-04 — the journeys build is dead; see #12, PAUSE&#39;d, and the harvest into the-calling#21). Full audit evidence: comment below.\n\n## What it is (audited live, 2026\n## Audit evidence (2026-07-04, read-only, browser UA)\n\n**Surface:** `/` (landing: Start Simulation / View Sessions / Admin Panel / Analytics), …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "XPElevator Simulator \u2014 enhancement path (control + log)\nControl plane for the **\u2026",
+          "title": "XPElevator Simulator — enhancement path (control + log)\nControl plane for the **…",
           "url": "https://github.com/Latimer-Woods-Tech/xpelevator/issues/16",
           "date": "2026-07-04",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1766,13 +1716,13 @@
     },
     {
       "id": "l584",
-      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n\u00b7 I.G. Farben's post-w\n\ud83e\udd3f\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati\u2026",
+      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n· I.G. Farben's post-w\n🤿\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL\u2026",
+          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL…",
           "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/3",
           "date": "2026-04-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1787,13 +1737,13 @@
     },
     {
       "id": "l585",
-      "text": "AI Realtor photos need to be banned\nI&#39;ve seen plenty of discussions about AI-enhanced real estate photos, but it&#39;s really getting out of control. My husband and I have been house hunting for over a year in New Jersey, where the market is incredibly competitive. When a listing looks promising, you have to act fast. The problem is that more and more listings are filled with AI-generated or heavily altered photos that make the property look nothing like it actually does. It&#39;s such a was\u2026",
+      "text": "AI Realtor photos need to be banned\nI&#39;ve seen plenty of discussions about AI-enhanced real estate photos, but it&#39;s really getting out of control. My husband and I have been house hunting for over a year in New Jersey, where the market is incredibly competitive. When a listing looks promising, you have to act fast. The problem is that more and more listings are filled with AI-generated or heavily altered photos that make the property look nothing like it actually does. It&#39;s such a was…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI Realtor photos need to be banned\nI&#39;ve seen plenty of discussions about AI\u2026",
+          "title": "AI Realtor photos need to be banned\nI&#39;ve seen plenty of discussions about AI…",
           "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1vdo0dm/ai_realtor_photos_need_to_be_banned/",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1808,13 +1758,13 @@
     },
     {
       "id": "l586",
-      "text": "Why are fake AI pictures allowed in selling real estate?\nHow is it reasonable that professional real estate sales are conducted knowing misleading buyers with fake images of the property? AI images are not real images. Using AI without disclosure is deceptive. This would not be accepted in selling a car or anything else. Why is there no standard for this? &#32; submitted by &#32; /u/Sufficient-Eagle3318 &#32; to &#32; r/RealEstateCanada [link] &#32; [comments]\nMy next door neighbour just listed \u2026",
+      "text": "Why are fake AI pictures allowed in selling real estate?\nHow is it reasonable that professional real estate sales are conducted knowing misleading buyers with fake images of the property? AI images are not real images. Using AI without disclosure is deceptive. This would not be accepted in selling a car or anything else. Why is there no standard for this? &#32; submitted by &#32; /u/Sufficient-Eagle3318 &#32; to &#32; r/RealEstateCanada [link] &#32; [comments]\nMy next door neighbour just listed …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why are fake AI pictures allowed in selling real estate?\nHow is it reasonable th\u2026",
+          "title": "Why are fake AI pictures allowed in selling real estate?\nHow is it reasonable th…",
           "url": "https://www.reddit.com/r/RealEstateCanada/comments/1vcrr88/why_are_fake_ai_pictures_allowed_in_selling_real/",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1829,13 +1779,13 @@
     },
     {
       "id": "l587",
-      "text": "AI in real estate should be illegal\nBeen looking at houses recently and the amount of AI photos used in listings is insane, half the time they&#39;re posted as if they&#39;re before-and-after pictures &#32; submitted by &#32; /u/jarrbear2319 &#32; to &#32; r/mildlyinfuriating [link] &#32; [comments]\nI agree. When we were on our house hunt literally every house except one had ai pictures. Didn\u2019t catch on until after the 2nd home. We went with the one house that didn\u2019t have ai pictures Here it mus\u2026",
+      "text": "AI in real estate should be illegal\nBeen looking at houses recently and the amount of AI photos used in listings is insane, half the time they&#39;re posted as if they&#39;re before-and-after pictures &#32; submitted by &#32; /u/jarrbear2319 &#32; to &#32; r/mildlyinfuriating [link] &#32; [comments]\nI agree. When we were on our house hunt literally every house except one had ai pictures. Didn’t catch on until after the 2nd home. We went with the one house that didn’t have ai pictures Here it mus…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI in real estate should be illegal\nBeen looking at houses recently and the amou\u2026",
+          "title": "AI in real estate should be illegal\nBeen looking at houses recently and the amou…",
           "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1vskbde/ai_in_real_estate_should_be_illegal/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1850,13 +1800,13 @@
     },
     {
       "id": "l588",
-      "text": "Falling Australian property prices will lead to a real estate industry shake-out, with agent redundancies, lower fees\nThis is good news? &#32; submitted by &#32; /u/Temporary_Mistake715 &#32; to &#32; r/AusFinance [link] &#32; [comments]\nYes. Maybe a few less shiny suits around and mildly below-average IQ types might have to find more productive jobs. Good, fuck the real estate agents. I hope the industry collapses and we can just list our places on FB Marketplace or something. Tarocash and Conn\u2026",
+      "text": "Falling Australian property prices will lead to a real estate industry shake-out, with agent redundancies, lower fees\nThis is good news? &#32; submitted by &#32; /u/Temporary_Mistake715 &#32; to &#32; r/AusFinance [link] &#32; [comments]\nYes. Maybe a few less shiny suits around and mildly below-average IQ types might have to find more productive jobs. Good, fuck the real estate agents. I hope the industry collapses and we can just list our places on FB Marketplace or something. Tarocash and Conn…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Falling Australian property prices will lead to a real estate industry shake-out\u2026",
+          "title": "Falling Australian property prices will lead to a real estate industry shake-out…",
           "url": "https://www.reddit.com/r/AusFinance/comments/1vihjzb/falling_australian_property_prices_will_lead_to_a/",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1871,13 +1821,13 @@
     },
     {
       "id": "l589",
-      "text": "Real Estate AI Misrepresentations\nI was walking by 228 Jefferson St NW yesterday. It is a particularly ugly style of home that has the sloping roof as the focal point of the house. I checked what it was listed at and it is listed for $500k, which seems appropriate given the house&#39;s condition. I also noticed that the photos on the MLS show it as a ranch! AI in real estate listings is getting out of hand. See attached for the real picture and the AI image on the MLS. https://www.redfin.com/DC/\u2026",
+      "text": "Real Estate AI Misrepresentations\nI was walking by 228 Jefferson St NW yesterday. It is a particularly ugly style of home that has the sloping roof as the focal point of the house. I checked what it was listed at and it is listed for $500k, which seems appropriate given the house&#39;s condition. I also noticed that the photos on the MLS show it as a ranch! AI in real estate listings is getting out of hand. See attached for the real picture and the AI image on the MLS. https://www.redfin.com/DC/…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Real Estate AI Misrepresentations\nI was walking by 228 Jefferson St NW yesterday\u2026",
+          "title": "Real Estate AI Misrepresentations\nI was walking by 228 Jefferson St NW yesterday…",
           "url": "https://www.reddit.com/r/washingtondc/comments/1vqw2h6/real_estate_ai_misrepresentations/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1892,13 +1842,13 @@
     },
     {
       "id": "l590",
-      "text": "Cloudflare will make 1000+ AI millionaires\nIn this solo episode I break down Cloudflare's AI agent announcement in plain English and explain why I see it as the new business model for the internet. I walk through AI crawl control, pay per crawl, the monetization gateway, and the x402 payment rail, and I show how a single request turns into a transaction. From there I give three startup ideas built directly on top of this shift: a niche data refinery, agent readiness for businesses, and expert ar\u2026",
+      "text": "Cloudflare will make 1000+ AI millionaires\nIn this solo episode I break down Cloudflare's AI agent announcement in plain English and explain why I see it as the new business model for the internet. I walk through AI crawl control, pay per crawl, the monetization gateway, and the x402 payment rail, and I show how a single request turns into a transaction. From there I give three startup ideas built directly on top of this shift: a niche data refinery, agent readiness for businesses, and expert ar…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Cloudflare will make 1000+ AI millionaires\nIn this solo episode I break down Clo\u2026",
+          "title": "Cloudflare will make 1000+ AI millionaires\nIn this solo episode I break down Clo…",
           "url": "https://www.youtube.com/watch?v=MNNfat_QP0E",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1913,13 +1863,13 @@
     },
     {
       "id": "l591",
-      "text": "How Real Estate Agents Stay Essential in the Age of AI\nAI is changing how real estate agents market, communicate, research, and serve clients. But as more transactional work becomes automated, the skills that make an agent truly valuable may matter more than ever.\n\nIn this episode of So You Want to Be a Real Estate Agent: Beyond Real Estate, Meredith Fogle sits down with Laureen Knudsen, author of Becoming Essential: The Proven Plan to Reinvent Your Career in the Age of Disruption. After more th\u2026",
+      "text": "How Real Estate Agents Stay Essential in the Age of AI\nAI is changing how real estate agents market, communicate, research, and serve clients. But as more transactional work becomes automated, the skills that make an agent truly valuable may matter more than ever.\n\nIn this episode of So You Want to Be a Real Estate Agent: Beyond Real Estate, Meredith Fogle sits down with Laureen Knudsen, author of Becoming Essential: The Proven Plan to Reinvent Your Career in the Age of Disruption. After more th…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How Real Estate Agents Stay Essential in the Age of AI\nAI is changing how real e\u2026",
+          "title": "How Real Estate Agents Stay Essential in the Age of AI\nAI is changing how real e…",
           "url": "https://www.youtube.com/watch?v=tNpb8uuNv38",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1934,13 +1884,13 @@
     },
     {
       "id": "l592",
-      "text": "We\u2019ve Generated 5 Million Leads Now AI Found Something 3x Better Than Google\nThe AI Sales Rep That Sets Appointments 24/7: https://objectionproofselling.com/ai-sales-agent-yt\n\nMaximize Your Tax Returns And\nGet Clarity On Your Financials With Our Tax Guys\nhttps://beccfo.com/\n\nBuild Real AI Tools For Your Business In One Day At REI Tech Unlocked: https://reitechunlocked.com/\n\nCarrot\nhttps://carrot.com/\n\nBONUS\nGET 10% OFF ON INVESTORLIFT\nUse promo code DISRUPTORS.\nhttps://get.investorlift.com/disru\u2026",
+      "text": "We’ve Generated 5 Million Leads Now AI Found Something 3x Better Than Google\nThe AI Sales Rep That Sets Appointments 24/7: https://objectionproofselling.com/ai-sales-agent-yt\n\nMaximize Your Tax Returns And\nGet Clarity On Your Financials With Our Tax Guys\nhttps://beccfo.com/\n\nBuild Real AI Tools For Your Business In One Day At REI Tech Unlocked: https://reitechunlocked.com/\n\nCarrot\nhttps://carrot.com/\n\nBONUS\nGET 10% OFF ON INVESTORLIFT\nUse promo code DISRUPTORS.\nhttps://get.investorlift.com/disru…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "We\u2019ve Generated 5 Million Leads Now AI Found Something 3x Better Than Google\nThe\u2026",
+          "title": "We’ve Generated 5 Million Leads Now AI Found Something 3x Better Than Google\nThe…",
           "url": "https://www.youtube.com/watch?v=4nYm_HcKruQ",
           "date": "2026-04-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1955,13 +1905,13 @@
     },
     {
       "id": "l593",
-      "text": "AI Can't Replace Realtors (Yet) \u2014 Here's What Agents Still Have\nCan AI replace real estate agents\u2014or is this just another tech panic? In this video, we break down what AI is actually doing to residential real estate: commissions, competition, portals, and why the next listing appointment might include a robot (that still won\u2019t wear a blazer).\n\nIf you\u2019re an agent wondering \u201cCan AI replace real estate agents?\u201d\u2014breathe. AI isn\u2019t showing homes in heels on a Sunday. But it is automating everything ar\u2026",
+      "text": "AI Can't Replace Realtors (Yet) — Here's What Agents Still Have\nCan AI replace real estate agents—or is this just another tech panic? In this video, we break down what AI is actually doing to residential real estate: commissions, competition, portals, and why the next listing appointment might include a robot (that still won’t wear a blazer).\n\nIf you’re an agent wondering “Can AI replace real estate agents?”—breathe. AI isn’t showing homes in heels on a Sunday. But it is automating everything ar…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Can't Replace Realtors (Yet) \u2014 Here's What Agents Still Have\nCan AI replace r\u2026",
+          "title": "AI Can't Replace Realtors (Yet) — Here's What Agents Still Have\nCan AI replace r…",
           "url": "https://www.youtube.com/watch?v=UvxPrjQLH74",
           "date": "2026-03-02",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1976,13 +1926,13 @@
     },
     {
       "id": "l594",
-      "text": "\u2018Agent BEAT AI this time': Real estate agent explains how a $50M deal was almost derailed\nReal estate mogul Ryan Serhant discusses how a $50 million penthouse deal almost fell apart on 'The Bottom Line.' #fox #media #us #usa #new #news #foxbusiness #realestate #housing #property #luxury #penthouse #ai #technology #business #deal #sales #market #finance #investment #money #entrepreneur #homes #wealth  \n\nSubscribe to Fox Business: https://bit.ly/2D9Cdse\nWatch more Fox Business Video: https://video\u2026",
+      "text": "‘Agent BEAT AI this time': Real estate agent explains how a $50M deal was almost derailed\nReal estate mogul Ryan Serhant discusses how a $50 million penthouse deal almost fell apart on 'The Bottom Line.' #fox #media #us #usa #new #news #foxbusiness #realestate #housing #property #luxury #penthouse #ai #technology #business #deal #sales #market #finance #investment #money #entrepreneur #homes #wealth  \n\nSubscribe to Fox Business: https://bit.ly/2D9Cdse\nWatch more Fox Business Video: https://video…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "\u2018Agent BEAT AI this time': Real estate agent explains how a $50M deal was almost\u2026",
+          "title": "‘Agent BEAT AI this time': Real estate agent explains how a $50M deal was almost…",
           "url": "https://www.youtube.com/watch?v=WONWpAVc1VM",
           "date": "2026-03-22",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1997,13 +1947,13 @@
     },
     {
       "id": "l595",
-      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell\u2026",
+      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth!\u2026",
+          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth!…",
           "url": "https://www.youtube.com/watch?v=Cn8HBj8QAbk",
           "date": "2026-03-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2018,13 +1968,13 @@
     },
     {
       "id": "l596",
-      "text": "90% of Real Estate May Be Done by AI | Here\u2019s What That Means for Agents\n90% of Real Estate May Be Done by AI | Here\u2019s What That Means for Agents\n\nAI is changing real estate faster than most agents realize. But here\u2019s the real question\u2026 does it replace agents, or does it actually make great agents even more valuable?\n\nIn this training for real estate professionals, we break down what leaders across the industry are saying about Agentic AI, AI-powered consumers, and the future of the real estate \u2026",
+      "text": "90% of Real Estate May Be Done by AI | Here’s What That Means for Agents\n90% of Real Estate May Be Done by AI | Here’s What That Means for Agents\n\nAI is changing real estate faster than most agents realize. But here’s the real question… does it replace agents, or does it actually make great agents even more valuable?\n\nIn this training for real estate professionals, we break down what leaders across the industry are saying about Agentic AI, AI-powered consumers, and the future of the real estate …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "90% of Real Estate May Be Done by AI | Here\u2019s What That Means for Agents\n90% of \u2026",
+          "title": "90% of Real Estate May Be Done by AI | Here’s What That Means for Agents\n90% of …",
           "url": "https://www.youtube.com/watch?v=mFUyc4RPhfw",
           "date": "2026-03-27",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2115,6 +2065,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "43-4181-01",
-      "text": "National peak professional bodies and statutory regulators governing Reservation and Transportation Ticket Agents and Travel Clerks enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Reservation and Transportation Ticket Agents and Travel Clerks",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Reservation and Transportation Ticket Agents and Travel Clerks",
-          "url": "https://www.psc.gov.au/standards/43-4181",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Reservation and Transportation Ticket Agents and Travel Clerks"
-        }
-      ],
-      "scope": "Australian practitioners in Reservation and Transportation Ticket Agents and Travel Clerks across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "43-4181-02",
-      "text": "Automation of routine transactional and analytical tasks in Reservation and Transportation Ticket Agents and Travel Clerks heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Reservation and Transportation Ticket Agents and Travel Clerks",
-          "url": "https://www.jobsandskills.gov.au/research/43-4181",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Reservation and Transportation Ticket Agents and Travel Clerks in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Reservation and Transportation Ticket Agents and Travel Clerks roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "Document Section 4B completion and advance to 4C\n## Summary\n\nRecords the approved CastleWatch Section 4B finalization in the canonical project documents.\n\n- Section 4B is complete, merged and production-deployed.\n- Section 4C \u2014 transportation/reservation and Lightning Lane contracts \u2014 is next.\n- Later Section 4 batches remain planned and are not s",
+      "text": "Document Section 4B completion and advance to 4C\n## Summary\n\nRecords the approved CastleWatch Section 4B finalization in the canonical project documents.\n\n- Section 4B is complete, merged and production-deployed.\n- Section 4C — transportation/reservation and Lightning Lane contracts — is next.\n- Later Section 4 batches remain planned and are not s",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Document Section 4B completion and advance to 4C\n## Summary\n\nRecords the approve\u2026",
+          "title": "Document Section 4B completion and advance to 4C\n## Summary\n\nRecords the approve…",
           "url": "https://github.com/MileHighHoosier/castlewatch-2027/pull/38",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -86,13 +36,13 @@
     },
     {
       "id": "l504",
-      "text": "F1 \u2014 Hotel and Mozio transportation are independently confirmed and paid\n**As an** agency staff member taking a customer through a booking session\n**I want to** confirm and collect payment for the **hotel** stay even when the customer hasn't yet committed to a **transportation transfer**, and still be able to confirm + collect for the transfer later (within a bounded win\n## Prototype screenshots \u2014 F1 (decoupled hotel + transportation booking)\n\nClick-through prototype at https://lukzen.github.io/\u2026",
+      "text": "F1 — Hotel and Mozio transportation are independently confirmed and paid\n**As an** agency staff member taking a customer through a booking session\n**I want to** confirm and collect payment for the **hotel** stay even when the customer hasn't yet committed to a **transportation transfer**, and still be able to confirm + collect for the transfer later (within a bounded win\n## Prototype screenshots — F1 (decoupled hotel + transportation booking)\n\nClick-through prototype at https://lukzen.github.io/…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "F1 \u2014 Hotel and Mozio transportation are independently confirmed and paid\n**As an\u2026",
+          "title": "F1 — Hotel and Mozio transportation are independently confirmed and paid\n**As an…",
           "url": "https://github.com/lukzen/documentation/issues/23",
           "date": "2026-06-04",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -107,13 +57,13 @@
     },
     {
       "id": "l505",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -275,13 +225,13 @@
     },
     {
       "id": "l513",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -296,13 +246,13 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -359,13 +309,13 @@
     },
     {
       "id": "l517",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -422,13 +372,13 @@
     },
     {
       "id": "l520",
-      "text": "OpenClaw for Sales \u2013 Using Local-First AI Agents for Sales Workflows",
+      "text": "OpenClaw for Sales – Using Local-First AI Agents for Sales Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "OpenClaw for Sales \u2013 Using Local-First AI Agents for Sales Workflows",
+          "title": "OpenClaw for Sales – Using Local-First AI Agents for Sales Workflows",
           "url": "https://www.kickscale.com/en/blog/openclaw-sales-ai-agent-revolution",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -443,13 +393,13 @@
     },
     {
       "id": "l521",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "AI agent finds security flaw in gym booking system, jumps the queue, and cancels another person's reservation\n&#32; submitted by &#32; /u/AdSpecialist6598 &#32; to &#32; r/technology [link] &#32; [comments]\nI am not sure this counts as an exploit. Reading it seems the website called a REST API , openclaw was able to book sessions for months in advance and the REST API was quite happy with it. It seems th Yeah at best it is an exploit because it did exploit an unintended aspect of the api. I agre\u2026",
+      "text": "AI agent finds security flaw in gym booking system, jumps the queue, and cancels another person's reservation\n&#32; submitted by &#32; /u/AdSpecialist6598 &#32; to &#32; r/technology [link] &#32; [comments]\nI am not sure this counts as an exploit. Reading it seems the website called a REST API , openclaw was able to book sessions for months in advance and the REST API was quite happy with it. It seems th Yeah at best it is an exploit because it did exploit an unintended aspect of the api. I agre…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI agent finds security flaw in gym booking system, jumps the queue, and cancels\u2026",
+          "title": "AI agent finds security flaw in gym booking system, jumps the queue, and cancels…",
           "url": "https://www.reddit.com/r/technology/comments/1vkiq1a/ai_agent_finds_security_flaw_in_gym_booking/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "Does your company have AI agents that take a Jira ticket and open a PR fully autonomously?\nHey this is kind of for me to understand where we are at in terms of AI adoption. Obviously the question is agnostic to the stack itself(general idea is ticket/task -&gt; PR flow) To be clear, I don&#39;t mean a Cursor/Codex/Claude session where a you are sitting there prompting the agent with a planinng session and answering its questions. I mean someone assigns/labels a ticket and the agent is triggered,\u2026",
+      "text": "Does your company have AI agents that take a Jira ticket and open a PR fully autonomously?\nHey this is kind of for me to understand where we are at in terms of AI adoption. Obviously the question is agnostic to the stack itself(general idea is ticket/task -&gt; PR flow) To be clear, I don&#39;t mean a Cursor/Codex/Claude session where a you are sitting there prompting the agent with a planinng session and answering its questions. I mean someone assigns/labels a ticket and the agent is triggered,…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Does your company have AI agents that take a Jira ticket and open a PR fully aut\u2026",
+          "title": "Does your company have AI agents that take a Jira ticket and open a PR fully aut…",
           "url": "https://www.reddit.com/r/AI_Agents/comments/1vrbts3/does_your_company_have_ai_agents_that_take_a_jira/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -695,13 +645,13 @@
     },
     {
       "id": "l533",
-      "text": "New tours. New memories. Same music you love. \ud83c\udfb5\n\nScroll for event and onsale date details.\n\nWhich are you getting tickets for first? \ud83c\udf9f\ufe0f https://t.co/U1nmGpaAuL",
+      "text": "New tours. New memories. Same music you love. 🎵\n\nScroll for event and onsale date details.\n\nWhich are you getting tickets for first? 🎟️ https://t.co/U1nmGpaAuL",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "New tours. New memories. Same music you love. \ud83c\udfb5\n\nScroll for event and onsale dat\u2026",
+          "title": "New tours. New memories. Same music you love. 🎵\n\nScroll for event and onsale dat…",
           "url": "https://x.com/Ticketmaster/status/2092682807143448587",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -722,7 +672,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Most people talking about \"AI agents booking your life\" are skipping one detail.\u2026",
+          "title": "Most people talking about \"AI agents booking your life\" are skipping one detail.…",
           "url": "https://x.com/BoBrainerd/status/2047663776967610481",
           "date": "2026-04-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "An Inquiry: The Masculine We Long For: Testimonies of Desire Through a Feminine Ai Psyche Lens\u2640\ufe0f\ud83d\udc41",
+      "text": "An Inquiry: The Masculine We Long For: Testimonies of Desire Through a Feminine Ai Psyche Lens♀️👁",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "An Inquiry: The Masculine We Long For: Testimonies of Desire Through a Feminine \u2026",
+          "title": "An Inquiry: The Masculine We Long For: Testimonies of Desire Through a Feminine …",
           "url": "https://x.com/OfVeteran64719/status/2073354555916787824",
           "date": "2026-07-04",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -863,13 +813,13 @@
     },
     {
       "id": "l541",
-      "text": "@BuffaloBills For the ones who show up and make this city what it is. \ud83e\uddac\ud83d\udc99\n\nProud to work with the @BuffaloBills on initiatives like the Community Ticket Program!",
+      "text": "@BuffaloBills For the ones who show up and make this city what it is. 🦬💙\n\nProud to work with the @BuffaloBills on initiatives like the Community Ticket Program!",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@BuffaloBills For the ones who show up and make this city what it is. \ud83e\uddac\ud83d\udc99\n\nProud \u2026",
+          "title": "@BuffaloBills For the ones who show up and make this city what it is. 🦬💙\n\nProud …",
           "url": "https://x.com/Ticketmaster/status/2092723617503277374",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -926,13 +876,13 @@
     },
     {
       "id": "l544",
-      "text": "@persontradoor @beboo131561117 Imagine being so unable to disagree with a point that you resort to a \u201cwipe your butt\u201d joke. Laughable.",
+      "text": "@persontradoor @beboo131561117 Imagine being so unable to disagree with a point that you resort to a “wipe your butt” joke. Laughable.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@persontradoor @beboo131561117 Imagine being so unable to disagree with a point \u2026",
+          "title": "@persontradoor @beboo131561117 Imagine being so unable to disagree with a point …",
           "url": "https://x.com/BoBrainerd/status/2093471582484095204",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "@beboo131561117 No, I want the software I\u2019m using to actually do what I asked it to do. Wild concept. Larp",
+      "text": "@beboo131561117 No, I want the software I’m using to actually do what I asked it to do. Wild concept. Larp",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@beboo131561117 No, I want the software I\u2019m using to actually do what I asked it\u2026",
+          "title": "@beboo131561117 No, I want the software I’m using to actually do what I asked it…",
           "url": "https://x.com/BoBrainerd/status/2093470728532181459",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -974,7 +924,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@WashMystics @Ticketmaster People work there asses off and you played like a bun\u2026",
+          "title": "@WashMystics @Ticketmaster People work there asses off and you played like a bun…",
           "url": "https://x.com/hisnameisking9/status/2093550381238288411",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "@cloudstyles @Harry_Styles check ur DMs bb \ud83d\udc40\ud83d\udc9c",
+      "text": "@cloudstyles @Harry_Styles check ur DMs bb 👀💜",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@cloudstyles @Harry_Styles check ur DMs bb \ud83d\udc40\ud83d\udc9c",
+          "title": "@cloudstyles @Harry_Styles check ur DMs bb 👀💜",
           "url": "https://x.com/StubHub/status/2093411566599225461",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1016,7 +966,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@concentrateai @amelia_metters @Balthz @Squad__ai @WorkOS @thealexker @loganbrow\u2026",
+          "title": "@concentrateai @amelia_metters @Balthz @Squad__ai @WorkOS @thealexker @loganbrow…",
           "url": "https://x.com/BoBrainerd/status/2093415755547033916",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1031,13 +981,13 @@
     },
     {
       "id": "l549",
-      "text": "@amelia_metters @Balthz @Squad__ai @WorkOS @thealexker @loganbrown799 @BoBrainerd @concentrateai @GaurangAlat \ud83e\udd93 city bag obsessed",
+      "text": "@amelia_metters @Balthz @Squad__ai @WorkOS @thealexker @loganbrown799 @BoBrainerd @concentrateai @GaurangAlat 🦓 city bag obsessed",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@amelia_metters @Balthz @Squad__ai @WorkOS @thealexker @loganbrown799 @BoBrainer\u2026",
+          "title": "@amelia_metters @Balthz @Squad__ai @WorkOS @thealexker @loganbrown799 @BoBrainer…",
           "url": "https://x.com/wallstmadison/status/2093438365848764435",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1121,7 +1071,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@tecxbro Or actually an agent card? Assuming an agentcard on the actual purchase\u2026",
+          "title": "@tecxbro Or actually an agent card? Assuming an agentcard on the actual purchase…",
           "url": "https://x.com/BoBrainerd/status/2093430806442119432",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1178,13 +1128,13 @@
     },
     {
       "id": "l556",
-      "text": "@tsella I like the tech. I\u2019m just not sure \u201cgive the agent your credit card + access to your accounts\u201d is the trust model I want, especially when they\u2019ve already logged into people\u2019s accounts without authorization and collected their data.",
+      "text": "@tsella I like the tech. I’m just not sure “give the agent your credit card + access to your accounts” is the trust model I want, especially when they’ve already logged into people’s accounts without authorization and collected their data.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@tsella I like the tech. I\u2019m just not sure \u201cgive the agent your credit card + ac\u2026",
+          "title": "@tsella I like the tech. I’m just not sure “give the agent your credit card + ac…",
           "url": "https://x.com/BoBrainerd/status/2093471067792650387",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1262,13 +1212,13 @@
     },
     {
       "id": "l560",
-      "text": "@WashMystics @Ticketmaster Those back to back will do it to ya. \ud83e\udd37\ud83c\udffd\ud83e\udd37\ud83c\udffd\ud83e\udd37\ud83c\udffd",
+      "text": "@WashMystics @Ticketmaster Those back to back will do it to ya. 🤷🏽🤷🏽🤷🏽",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@WashMystics @Ticketmaster Those back to back will do it to ya. \ud83e\udd37\ud83c\udffd\ud83e\udd37\ud83c\udffd\ud83e\udd37\ud83c\udffd",
+          "title": "@WashMystics @Ticketmaster Those back to back will do it to ya. 🤷🏽🤷🏽🤷🏽",
           "url": "https://x.com/kamvp19/status/2093550195610972336",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1310,7 +1260,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Ticketmaster crazy how yall let bots take from real fans , its true what they s\u2026",
+          "title": "@Ticketmaster crazy how yall let bots take from real fans , its true what they s…",
           "url": "https://x.com/sugascinema/status/2093550176392900752",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1325,13 +1275,13 @@
     },
     {
       "id": "l563",
-      "text": "\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d 9:20 PM and tickets in @StubHub are high \ud83d\ude2d\ud83d\ude2d \nGreedy resellers \n\nWhy \u2026 it\u2019s past 1hour and 22 minutes of the concert \ud83c\udfb6 https://t.co/a66C0ic1Ad",
+      "text": "😭😭😭 9:20 PM and tickets in @StubHub are high 😭😭 \nGreedy resellers \n\nWhy … it’s past 1hour and 22 minutes of the concert 🎶 https://t.co/a66C0ic1Ad",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d 9:20 PM and tickets in @StubHub are high \ud83d\ude2d\ud83d\ude2d \nGreedy resellers \n\nWhy \u2026 it\u2019s p\u2026",
+          "title": "😭😭😭 9:20 PM and tickets in @StubHub are high 😭😭 \nGreedy resellers \n\nWhy … it’s p…",
           "url": "https://x.com/94PiedPiper/status/2093524857539432824",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1346,13 +1296,13 @@
     },
     {
       "id": "l564",
-      "text": "@davidbasave_ @StubHub That\u2019s how they roll. Sorry you had to learn like me",
+      "text": "@davidbasave_ @StubHub That’s how they roll. Sorry you had to learn like me",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@davidbasave_ @StubHub That\u2019s how they roll. Sorry you had to learn like me",
+          "title": "@davidbasave_ @StubHub That’s how they roll. Sorry you had to learn like me",
           "url": "https://x.com/denunglued/status/2093516289234883004",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1373,7 +1323,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@davidbasave_ @StubHub Dave - We got your back via Clements law firm. He has rec\u2026",
+          "title": "@davidbasave_ @StubHub Dave - We got your back via Clements law firm. He has rec…",
           "url": "https://x.com/ScottFriedman3/status/2093509654177272157",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1388,13 +1338,13 @@
     },
     {
       "id": "l566",
-      "text": "@tecxbro Cleaner yes, but isn\u2019t this just UX layer?",
+      "text": "@tecxbro Cleaner yes, but isn’t this just UX layer?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@tecxbro Cleaner yes, but isn\u2019t this just UX layer?",
+          "title": "@tecxbro Cleaner yes, but isn’t this just UX layer?",
           "url": "https://x.com/BoBrainerd/status/2093429184508887236",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1430,13 +1380,13 @@
     },
     {
       "id": "l568",
-      "text": "@BoBrainerd @beboo131561117 It\u2019s friday. Enjoy the laugh and the evening lol. the clowns on this app make it more fun \ud83d\ude02",
+      "text": "@BoBrainerd @beboo131561117 It’s friday. Enjoy the laugh and the evening lol. the clowns on this app make it more fun 😂",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@BoBrainerd @beboo131561117 It\u2019s friday. Enjoy the laugh and the evening lol. th\u2026",
+          "title": "@BoBrainerd @beboo131561117 It’s friday. Enjoy the laugh and the evening lol. th…",
           "url": "https://x.com/persontradoor/status/2093474979509657734",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1457,7 +1407,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@BoBrainerd Your laziness knows no bounds then lmao do you want it to wipe your \u2026",
+          "title": "@BoBrainerd Your laziness knows no bounds then lmao do you want it to wipe your …",
           "url": "https://x.com/beboo131561117/status/2093438125544481162",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1472,13 +1422,13 @@
     },
     {
       "id": "l570",
-      "text": "\ud83c\udfb6 Yebba on sale FRI, AUG 28.\n\n\ud83c\udf9f\ufe0f: https://t.co/nN2UpmZu1w https://t.co/Jp1Vs5O7C6",
+      "text": "🎶 Yebba on sale FRI, AUG 28.\n\n🎟️: https://t.co/nN2UpmZu1w https://t.co/Jp1Vs5O7C6",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83c\udfb6 Yebba on sale FRI, AUG 28.\n\n\ud83c\udf9f\ufe0f: https://t.co/nN2UpmZu1w https://t.co/Jp1Vs5O7C\u2026",
+          "title": "🎶 Yebba on sale FRI, AUG 28.\n\n🎟️: https://t.co/nN2UpmZu1w https://t.co/Jp1Vs5O7C…",
           "url": "https://x.com/Ticketmaster/status/2092682843478765800",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1493,13 +1443,13 @@
     },
     {
       "id": "l571",
-      "text": "\ud83c\udfb6 @TriumphTheBand on sale FRI, AUG 28.\n\n\ud83c\udf9f\ufe0f: https://t.co/QMVDNv4v6d https://t.co/Pl3C0UIc69",
+      "text": "🎶 @TriumphTheBand on sale FRI, AUG 28.\n\n🎟️: https://t.co/QMVDNv4v6d https://t.co/Pl3C0UIc69",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83c\udfb6 @TriumphTheBand on sale FRI, AUG 28.\n\n\ud83c\udf9f\ufe0f: https://t.co/QMVDNv4v6d https://t.co\u2026",
+          "title": "🎶 @TriumphTheBand on sale FRI, AUG 28.\n\n🎟️: https://t.co/QMVDNv4v6d https://t.co…",
           "url": "https://x.com/Ticketmaster/status/2092682838269407609",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1514,13 +1464,13 @@
     },
     {
       "id": "l572",
-      "text": "\ud83c\udfb6 @stellalefty on sale FRI, AUG 28.\n\n\ud83c\udf9f\ufe0f: https://t.co/JoInURV8WI https://t.co/DiihgTQHJO",
+      "text": "🎶 @stellalefty on sale FRI, AUG 28.\n\n🎟️: https://t.co/JoInURV8WI https://t.co/DiihgTQHJO",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83c\udfb6 @stellalefty on sale FRI, AUG 28.\n\n\ud83c\udf9f\ufe0f: https://t.co/JoInURV8WI https://t.co/Di\u2026",
+          "title": "🎶 @stellalefty on sale FRI, AUG 28.\n\n🎟️: https://t.co/JoInURV8WI https://t.co/Di…",
           "url": "https://x.com/Ticketmaster/status/2092682832883888269",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1535,13 +1485,13 @@
     },
     {
       "id": "l573",
-      "text": "\ud83c\udfb6 @LindseyStirling on sale FRI, AUG 28.\n\n\ud83c\udf9f\ufe0f: https://t.co/nxt0HXzUhU https://t.co/oJZnBzzWhn",
+      "text": "🎶 @LindseyStirling on sale FRI, AUG 28.\n\n🎟️: https://t.co/nxt0HXzUhU https://t.co/oJZnBzzWhn",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83c\udfb6 @LindseyStirling on sale FRI, AUG 28.\n\n\ud83c\udf9f\ufe0f: https://t.co/nxt0HXzUhU https://t.c\u2026",
+          "title": "🎶 @LindseyStirling on sale FRI, AUG 28.\n\n🎟️: https://t.co/nxt0HXzUhU https://t.c…",
           "url": "https://x.com/Ticketmaster/status/2092682826944827445",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1556,13 +1506,13 @@
     },
     {
       "id": "l574",
-      "text": "\ud83c\udfb6 @Jessiereyez on sale FRI, AUG 28.\n\n\ud83c\udf9f\ufe0f: https://t.co/2PT1omASzu https://t.co/oT83W8AyFa",
+      "text": "🎶 @Jessiereyez on sale FRI, AUG 28.\n\n🎟️: https://t.co/2PT1omASzu https://t.co/oT83W8AyFa",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83c\udfb6 @Jessiereyez on sale FRI, AUG 28.\n\n\ud83c\udf9f\ufe0f: https://t.co/2PT1omASzu https://t.co/oT\u2026",
+          "title": "🎶 @Jessiereyez on sale FRI, AUG 28.\n\n🎟️: https://t.co/2PT1omASzu https://t.co/oT…",
           "url": "https://x.com/Ticketmaster/status/2092682819810295841",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1577,13 +1527,13 @@
     },
     {
       "id": "l575",
-      "text": "\ud83c\udfb6 @BTObandofficial on sale FRI, AUG 28.\n\n\ud83c\udf9f\ufe0f: https://t.co/NLSGwnBVfJ https://t.co/swClu466YP",
+      "text": "🎶 @BTObandofficial on sale FRI, AUG 28.\n\n🎟️: https://t.co/NLSGwnBVfJ https://t.co/swClu466YP",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83c\udfb6 @BTObandofficial on sale FRI, AUG 28.\n\n\ud83c\udf9f\ufe0f: https://t.co/NLSGwnBVfJ https://t.c\u2026",
+          "title": "🎶 @BTObandofficial on sale FRI, AUG 28.\n\n🎟️: https://t.co/NLSGwnBVfJ https://t.c…",
           "url": "https://x.com/Ticketmaster/status/2092682813644619801",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1598,13 +1548,13 @@
     },
     {
       "id": "l576",
-      "text": "@Harrysnepobabyy @Harry_Styles \ud83d\udc40",
+      "text": "@Harrysnepobabyy @Harry_Styles 👀",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Harrysnepobabyy @Harry_Styles \ud83d\udc40",
+          "title": "@Harrysnepobabyy @Harry_Styles 👀",
           "url": "https://x.com/StubHub/status/2092723833727766786",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1619,13 +1569,13 @@
     },
     {
       "id": "l577",
-      "text": "Perplexity Computer for Beginners: Everything You Need to Know\nPerplexity just launched something big \u2014 Perplexity Computer. It\u2019s a multi-model AI system that acts like a digital coworker, using 19 different AI models to handle entire projects from a single prompt. In this video, I\u2019ll walk you through what it is, how it works, and show you real demo prompts you can try yourself.\n\n6 Advanced Tips for Perplexity Computer: https://youtu.be/svTfd5IyhVo\nCheck out Perplexity Personal Computer on Mac: \u2026",
+      "text": "Perplexity Computer for Beginners: Everything You Need to Know\nPerplexity just launched something big — Perplexity Computer. It’s a multi-model AI system that acts like a digital coworker, using 19 different AI models to handle entire projects from a single prompt. In this video, I’ll walk you through what it is, how it works, and show you real demo prompts you can try yourself.\n\n6 Advanced Tips for Perplexity Computer: https://youtu.be/svTfd5IyhVo\nCheck out Perplexity Personal Computer on Mac: …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Perplexity Computer for Beginners: Everything You Need to Know\nPerplexity just l\u2026",
+          "title": "Perplexity Computer for Beginners: Everything You Need to Know\nPerplexity just l…",
           "url": "https://www.youtube.com/watch?v=EHpAQwXmseQ",
           "date": "2026-03-04",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1640,7 +1590,7 @@
     },
     {
       "id": "l478",
-      "text": "Travel Consultant - Canberra, ACT \u2014 Flight Centre Travel Group (Australian Capital Territory, Australia). Posted 1 week ago.",
+      "text": "Travel Consultant - Canberra, ACT — Flight Centre Travel Group (Australian Capital Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1661,7 +1611,7 @@
     },
     {
       "id": "l479",
-      "text": "Travel Consultant - FCM - North Sydney, NSW \u2014 FCM Travel Australia (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Travel Consultant - FCM - North Sydney, NSW — FCM Travel Australia (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1682,7 +1632,7 @@
     },
     {
       "id": "l480",
-      "text": "FCM - Travel Consultant - Roles Available Australia Wide \u2014 Flight Centre Travel Group (Australian Capital Territory, Australia). Posted 1 week ago.",
+      "text": "FCM - Travel Consultant - Roles Available Australia Wide — Flight Centre Travel Group (Australian Capital Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1703,7 +1653,7 @@
     },
     {
       "id": "l481",
-      "text": "Senior Travel Consultant - Groups Advisor \u2014 Travel Trade Recruitment (Gold Coast, Queensland, Australia). Posted 6 days ago.",
+      "text": "Senior Travel Consultant - Groups Advisor — Travel Trade Recruitment (Gold Coast, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1724,7 +1674,7 @@
     },
     {
       "id": "l482",
-      "text": "Business Travel Consultant \u2014 Gray Dawes Travel (Melbourne, Victoria, Australia). Posted 2 days ago.",
+      "text": "Business Travel Consultant — Gray Dawes Travel (Melbourne, Victoria, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1745,7 +1695,7 @@
     },
     {
       "id": "l483",
-      "text": "Travel Consultant - Canberra, ACT \u2014 FCM Travel Australia (Australian Capital Territory, Australia). Posted 2 weeks ago.",
+      "text": "Travel Consultant - Canberra, ACT — FCM Travel Australia (Australian Capital Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1766,7 +1716,7 @@
     },
     {
       "id": "l484",
-      "text": "Travel Consultant \u2014 Travel Trade Recruitment (Melbourne, Victoria, Australia). Posted 2 days ago.",
+      "text": "Travel Consultant — Travel Trade Recruitment (Melbourne, Victoria, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1787,7 +1737,7 @@
     },
     {
       "id": "l485",
-      "text": "Air Specialist \u2014 Abercrombie & Kent Australia (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "text": "Air Specialist — Abercrombie & Kent Australia (Melbourne, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1808,7 +1758,7 @@
     },
     {
       "id": "l486",
-      "text": "Experienced Travel Consultant - Flight Centre - Sydney Airport \u2014 Flight Centre (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Experienced Travel Consultant - Flight Centre - Sydney Airport — Flight Centre (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1829,7 +1779,7 @@
     },
     {
       "id": "l487",
-      "text": "Experienced Travel Consultant - Flight Centre - Hobart Airport \u2014 Flight Centre (Tasmania, Australia). Posted 1 week ago.",
+      "text": "Experienced Travel Consultant - Flight Centre - Hobart Airport — Flight Centre (Tasmania, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1850,13 +1800,13 @@
     },
     {
       "id": "l588",
-      "text": "F1 \u2014 Hotel and Mozio transportation are independently confirmed and paid\n**As an** agency staff member taking a customer through a booking session\n**I want to** confirm and collect payment for the **hotel** stay even when the customer hasn't yet committed to a **transportation transfer**, and still be able to confirm + collect for the transfer later (within a bounded win\n## Prototype screenshots \u2014 F1 (decoupled hotel + transportation booking)\n\nClick-through prototype at https://lukzen.github.io/\u2026",
+      "text": "F1 — Hotel and Mozio transportation are independently confirmed and paid\n**As an** agency staff member taking a customer through a booking session\n**I want to** confirm and collect payment for the **hotel** stay even when the customer hasn't yet committed to a **transportation transfer**, and still be able to confirm + collect for the transfer later (within a bounded win\n## Prototype screenshots — F1 (decoupled hotel + transportation booking)\n\nClick-through prototype at https://lukzen.github.io/…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "F1 \u2014 Hotel and Mozio transportation are independently confirmed and paid\n**As an\u2026",
+          "title": "F1 — Hotel and Mozio transportation are independently confirmed and paid\n**As an…",
           "url": "https://github.com/lukzen/documentation/issues/23",
           "date": "2026-06-04",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1871,13 +1821,13 @@
     },
     {
       "id": "l589",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1892,13 +1842,13 @@
     },
     {
       "id": "l590",
-      "text": "AI agent finds security flaw in gym booking system, jumps the queue, and cancels another person's reservation\n&#32; submitted by &#32; /u/AdSpecialist6598 &#32; to &#32; r/technology [link] &#32; [comments]\nI am not sure this counts as an exploit. Reading it seems the website called a REST API , openclaw was able to book sessions for months in advance and the REST API was quite happy with it. It seems th Yeah at best it is an exploit because it did exploit an unintended aspect of the api. I agre\u2026",
+      "text": "AI agent finds security flaw in gym booking system, jumps the queue, and cancels another person's reservation\n&#32; submitted by &#32; /u/AdSpecialist6598 &#32; to &#32; r/technology [link] &#32; [comments]\nI am not sure this counts as an exploit. Reading it seems the website called a REST API , openclaw was able to book sessions for months in advance and the REST API was quite happy with it. It seems th Yeah at best it is an exploit because it did exploit an unintended aspect of the api. I agre…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI agent finds security flaw in gym booking system, jumps the queue, and cancels\u2026",
+          "title": "AI agent finds security flaw in gym booking system, jumps the queue, and cancels…",
           "url": "https://www.reddit.com/r/technology/comments/1vkiq1a/ai_agent_finds_security_flaw_in_gym_booking/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1913,13 +1863,13 @@
     },
     {
       "id": "l591",
-      "text": "Does your company have AI agents that take a Jira ticket and open a PR fully autonomously?\nHey this is kind of for me to understand where we are at in terms of AI adoption. Obviously the question is agnostic to the stack itself(general idea is ticket/task -&gt; PR flow) To be clear, I don&#39;t mean a Cursor/Codex/Claude session where a you are sitting there prompting the agent with a planinng session and answering its questions. I mean someone assigns/labels a ticket and the agent is triggered,\u2026",
+      "text": "Does your company have AI agents that take a Jira ticket and open a PR fully autonomously?\nHey this is kind of for me to understand where we are at in terms of AI adoption. Obviously the question is agnostic to the stack itself(general idea is ticket/task -&gt; PR flow) To be clear, I don&#39;t mean a Cursor/Codex/Claude session where a you are sitting there prompting the agent with a planinng session and answering its questions. I mean someone assigns/labels a ticket and the agent is triggered,…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Does your company have AI agents that take a Jira ticket and open a PR fully aut\u2026",
+          "title": "Does your company have AI agents that take a Jira ticket and open a PR fully aut…",
           "url": "https://www.reddit.com/r/AI_Agents/comments/1vrbts3/does_your_company_have_ai_agents_that_take_a_jira/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1934,13 +1884,13 @@
     },
     {
       "id": "l592",
-      "text": "Perplexity Computer for Beginners: Everything You Need to Know\nPerplexity just launched something big \u2014 Perplexity Computer. It\u2019s a multi-model AI system that acts like a digital coworker, using 19 different AI models to handle entire projects from a single prompt. In this video, I\u2019ll walk you through what it is, how it works, and show you real demo prompts you can try yourself.\n\n6 Advanced Tips for Perplexity Computer: https://youtu.be/svTfd5IyhVo\nCheck out Perplexity Personal Computer on Mac: \u2026",
+      "text": "Perplexity Computer for Beginners: Everything You Need to Know\nPerplexity just launched something big — Perplexity Computer. It’s a multi-model AI system that acts like a digital coworker, using 19 different AI models to handle entire projects from a single prompt. In this video, I’ll walk you through what it is, how it works, and show you real demo prompts you can try yourself.\n\n6 Advanced Tips for Perplexity Computer: https://youtu.be/svTfd5IyhVo\nCheck out Perplexity Personal Computer on Mac: …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Perplexity Computer for Beginners: Everything You Need to Know\nPerplexity just l\u2026",
+          "title": "Perplexity Computer for Beginners: Everything You Need to Know\nPerplexity just l…",
           "url": "https://www.youtube.com/watch?v=EHpAQwXmseQ",
           "date": "2026-03-04",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2031,6 +1981,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

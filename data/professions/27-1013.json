@@ -15,58 +15,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "27-1013-01",
-      "text": "National peak professional bodies and statutory regulators governing Fine Artists, Including Painters, Sculptors, and Illustrators enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Fine Artists, Including Painters, Sculptors, and Illustrators",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Fine Artists, Including Painters, Sculptors, and Illustrators",
-          "url": "https://www.psc.gov.au/standards/27-1013",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Fine Artists, Including Painters, Sculptors, and Illustrators"
-        }
-      ],
-      "scope": "Australian practitioners in Fine Artists, Including Painters, Sculptors, and Illustrators across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "27-1013-02",
-      "text": "Automation of routine transactional and analytical tasks in Fine Artists, Including Painters, Sculptors, and Illustrators heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Fine Artists, Including Painters, Sculptors, and Illustrators",
-          "url": "https://www.jobsandskills.gov.au/research/27-1013",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Fine Artists, Including Painters, Sculptors, and Illustrators in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Fine Artists, Including Painters, Sculptors, and Illustrators roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Curatorial - Expression of Interest \u2014 Mona - Museum of Old and New Art (Greater Hobart Area). Posted 15 hours ago.",
+      "text": "Curatorial - Expression of Interest — Mona - Museum of Old and New Art (Greater Hobart Area). Posted 15 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -87,7 +37,7 @@
     },
     {
       "id": "l404",
-      "text": "Regional Teaching Artist - Mackay \u2014 Queensland Ballet (Mackay, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Regional Teaching Artist - Mackay — Queensland Ballet (Mackay, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -108,7 +58,7 @@
     },
     {
       "id": "l405",
-      "text": "Workshop Craftsman \u2014 ILANEL: Light. Art. Design. (St Kilda, Victoria, Australia). Posted 1 day ago.",
+      "text": "Workshop Craftsman — ILANEL: Light. Art. Design. (St Kilda, Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -129,7 +79,7 @@
     },
     {
       "id": "l406",
-      "text": "Expression of Interest: 2D Animation Design Artists \u2014 Flying Bark Productions (Sydney, New South Wales, Australia). Posted 1 day ago.",
+      "text": "Expression of Interest: 2D Animation Design Artists — Flying Bark Productions (Sydney, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -150,7 +100,7 @@
     },
     {
       "id": "l407",
-      "text": "Expression of Interest - Production - Netflix Animation Studios \u2014 Netflix (Sydney, New South Wales, Australia). Posted 2 days ago.",
+      "text": "Expression of Interest - Production - Netflix Animation Studios — Netflix (Sydney, New South Wales, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -171,7 +121,7 @@
     },
     {
       "id": "l408",
-      "text": "2026 Bunbury Museum Heritage Centre & Regional Art Gallery Expressions of Interest \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
+      "text": "2026 Bunbury Museum Heritage Centre & Regional Art Gallery Expressions of Interest — City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -192,7 +142,7 @@
     },
     {
       "id": "l409",
-      "text": "2026 Bunbury Museum Heritage Centre & Regional Art Gallery Expressions of Interest \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
+      "text": "2026 Bunbury Museum Heritage Centre & Regional Art Gallery Expressions of Interest — City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -213,7 +163,7 @@
     },
     {
       "id": "l410",
-      "text": "Expression of Interest - Rigging - Netflix Animation Studios \u2014 Netflix (Sydney, New South Wales, Australia). Posted 2 days ago.",
+      "text": "Expression of Interest - Rigging - Netflix Animation Studios — Netflix (Sydney, New South Wales, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -234,7 +184,7 @@
     },
     {
       "id": "l411",
-      "text": "Teacher - Visual Arts \u2014 Department of Education, Western Australia (Greater Perth Area). Posted 1 week ago.",
+      "text": "Teacher - Visual Arts — Department of Education, Western Australia (Greater Perth Area). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -255,7 +205,7 @@
     },
     {
       "id": "l412",
-      "text": "Senior Art Curator and Manager, University Galleries \u2014 University of Newcastle (Newcastle, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Senior Art Curator and Manager, University Galleries — University of Newcastle (Newcastle, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -276,7 +226,7 @@
     },
     {
       "id": "l413",
-      "text": "Teacher - Arts \u2014 Department of Education, Western Australia (Kimberley, Western Australia, Australia). Posted 2 days ago.",
+      "text": "Teacher - Arts — Department of Education, Western Australia (Kimberley, Western Australia, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -297,13 +247,13 @@
     },
     {
       "id": "l514",
-      "text": "[Feature]: SM8x (Ampere A100/A800) support for DeepSeek-V4-Flash / DeepSeek-V4-Flash-0731 DSpark\n### \ud83d\ude80 The feature, motivation and pitch\n\nDeepSeek released [DeepSeek-V4-Flash-0731](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731) today (same `DeepseekV4ForCausalLM` architecture as DeepSeek-V4-Flash). Neither checkpoint currently runs on SM8x (Ampere: A100/A800, RTX 30xx) \u2014 #40851 trac",
+      "text": "[Feature]: SM8x (Ampere A100/A800) support for DeepSeek-V4-Flash / DeepSeek-V4-Flash-0731 DSpark\n### 🚀 The feature, motivation and pitch\n\nDeepSeek released [DeepSeek-V4-Flash-0731](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731) today (same `DeepseekV4ForCausalLM` architecture as DeepSeek-V4-Flash). Neither checkpoint currently runs on SM8x (Ampere: A100/A800, RTX 30xx) — #40851 trac",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[Feature]: SM8x (Ampere A100/A800) support for DeepSeek-V4-Flash / DeepSeek-V4-F\u2026",
+          "title": "[Feature]: SM8x (Ampere A100/A800) support for DeepSeek-V4-Flash / DeepSeek-V4-F…",
           "url": "https://github.com/vllm-project/vllm/issues/50576",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -318,13 +268,13 @@
     },
     {
       "id": "l515",
-      "text": "The Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\nThe Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\n\nFirst things first: while it's pronounced like the primate, the term is spelled \"guerrilla marketing\"\u2014borrowed directly from the Spanish military term guerrilla (\"little war\"). Just as guerrilla warfare relies on small, mo\nWhen brands bypass traditional media channels for guerrilla tactics, they trade media costs for operational risk. Because \u2026",
+      "text": "The Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\nThe Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\n\nFirst things first: while it's pronounced like the primate, the term is spelled \"guerrilla marketing\"—borrowed directly from the Spanish military term guerrilla (\"little war\"). Just as guerrilla warfare relies on small, mo\nWhen brands bypass traditional media channels for guerrilla tactics, they trade media costs for operational risk. Because …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "The Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\nThe\u2026",
+          "title": "The Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\nThe…",
           "url": "https://github.com/attogram/found-talks-with-swapfiets/issues/23",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -345,7 +295,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Adopt a \"No-AI\" policy\nI earnestly propose we adopt a \"no-AI\" policy for both te\u2026",
+          "title": "Adopt a \"No-AI\" policy\nI earnestly propose we adopt a \"no-AI\" policy for both te…",
           "url": "https://github.com/LMMS/lmms/issues/8478",
           "date": "2026-07-17",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -366,7 +316,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Revise AI policy\n## Moderation and governance note\r\n\r\nThis policy was primarily \u2026",
+          "title": "Revise AI policy\n## Moderation and governance note\r\n\r\nThis policy was primarily …",
           "url": "https://github.com/bevyengine/bevy-website/pull/2551",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -387,7 +337,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Possibility of an anti-AI policy?\nHey there! I've been using fooyin for a long w\u2026",
+          "title": "Possibility of an anti-AI policy?\nHey there! I've been using fooyin for a long w…",
           "url": "https://github.com/fooyin/fooyin/issues/1230",
           "date": "2026-05-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -408,7 +358,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "5.6.0 - no AI in the Flatpak version\nHi,\nWould you be able to include AI in the \u2026",
+          "title": "5.6.0 - no AI in the Flatpak version\nHi,\nWould you be able to include AI in the …",
           "url": "https://github.com/flathub/org.darktable.Darktable/issues/241",
           "date": "2026-06-23",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -429,7 +379,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Proposal: Build a next-generation native Windows UI framework for modern declara\u2026",
+          "title": "Proposal: Build a next-generation native Windows UI framework for modern declara…",
           "url": "https://github.com/microsoft/microsoft-ui-xaml/issues/11126",
           "date": "2026-05-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -444,13 +394,13 @@
     },
     {
       "id": "l521",
-      "text": "CONTRIBUTING.md: establish initial automation/AI/LLM policy\nThe Nixpkgs core team feels it is overdue to establish an official policy on the use of automation for Nixpkgs contributions. The [Code of Conduct](https://github.com/NixOS/.github/blob/master/CODE_OF_CONDUCT.md) has a clause against \u201cWasting other people\u2019s time with low quality contributions, inclu",
+      "text": "CONTRIBUTING.md: establish initial automation/AI/LLM policy\nThe Nixpkgs core team feels it is overdue to establish an official policy on the use of automation for Nixpkgs contributions. The [Code of Conduct](https://github.com/NixOS/.github/blob/master/CODE_OF_CONDUCT.md) has a clause against “Wasting other people’s time with low quality contributions, inclu",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "CONTRIBUTING.md: establish initial automation/AI/LLM policy\nThe Nixpkgs core tea\u2026",
+          "title": "CONTRIBUTING.md: establish initial automation/AI/LLM policy\nThe Nixpkgs core tea…",
           "url": "https://github.com/NixOS/nixpkgs/pull/514587",
           "date": "2026-04-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -471,7 +421,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Requesting a clearly-defined NO LLM Policy\nHello,\n\nI'd like to talk about your A\u2026",
+          "title": "Requesting a clearly-defined NO LLM Policy\nHello,\n\nI'd like to talk about your A…",
           "url": "https://github.com/element-hq/element-meta/issues/3225",
           "date": "2026-05-20",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -486,13 +436,13 @@
     },
     {
       "id": "l523",
-      "text": "No right to relicense this project\nHi, I'm Mark Pilgrim. You may remember me from such classics as \"Dive Into Python\" and \"Universal Character Encoding Detector.\" I am the original author of `chardet`. First off, I would like to thank the current maintainers and everyone who has contributed to and improved this project over the years\nIs there a fork from before the AI-assisted \u201crewrite\u201d happened? > Is there a fork from before the AI-assisted \u201crewrite\u201d happened?\n\nAll versions before v7.0.0 are vi\u2026",
+      "text": "No right to relicense this project\nHi, I'm Mark Pilgrim. You may remember me from such classics as \"Dive Into Python\" and \"Universal Character Encoding Detector.\" I am the original author of `chardet`. First off, I would like to thank the current maintainers and everyone who has contributed to and improved this project over the years\nIs there a fork from before the AI-assisted “rewrite” happened? > Is there a fork from before the AI-assisted “rewrite” happened?\n\nAll versions before v7.0.0 are vi…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "No right to relicense this project\nHi, I'm Mark Pilgrim. You may remember me fro\u2026",
+          "title": "No right to relicense this project\nHi, I'm Mark Pilgrim. You may remember me fro…",
           "url": "https://github.com/chardet/chardet/issues/327",
           "date": "2026-03-04",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -507,13 +457,13 @@
     },
     {
       "id": "l524",
-      "text": "403 PERMISSION_DENIED for Google One AI Premium subscriber - account correctly identified but API access blocked\n### What happened?\n\nI'm a Google One AI Premium subscriber. The Gemini CLI correctly identifies my subscription tier as\u00a0\"Gemini Code Assist in Google One AI Pro\", but all API requests are blocked with\u00a0403 PERMISSION_DENIED. No tokens are consumed \u2014 requests are rejected before processing.\nError Outp",
+      "text": "403 PERMISSION_DENIED for Google One AI Premium subscriber - account correctly identified but API access blocked\n### What happened?\n\nI'm a Google One AI Premium subscriber. The Gemini CLI correctly identifies my subscription tier as \"Gemini Code Assist in Google One AI Pro\", but all API requests are blocked with 403 PERMISSION_DENIED. No tokens are consumed — requests are rejected before processing.\nError Outp",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "403 PERMISSION_DENIED for Google One AI Premium subscriber - account correctly i\u2026",
+          "title": "403 PERMISSION_DENIED for Google One AI Premium subscriber - account correctly i…",
           "url": "https://github.com/google-gemini/gemini-cli/issues/24517",
           "date": "2026-04-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -528,13 +478,13 @@
     },
     {
       "id": "l525",
-      "text": "[BOTTUBE: 1 RTC] Leave Thoughtful Comments on 5 Videos\n## Bounty: 1 RTC\n\n### What You'll Do\nWatch videos on [bottube.ai](https://bottube.ai) and leave real feedback.\n\n### Steps\n1. **Create an account** on [bottube.ai](https://bottube.ai) if you don't have one\n2. **Watch at least 5 different videos**\n3. **Leave a thoughtful comment on each** \u2014 examples:",
+      "text": "[BOTTUBE: 1 RTC] Leave Thoughtful Comments on 5 Videos\n## Bounty: 1 RTC\n\n### What You'll Do\nWatch videos on [bottube.ai](https://bottube.ai) and leave real feedback.\n\n### Steps\n1. **Create an account** on [bottube.ai](https://bottube.ai) if you don't have one\n2. **Watch at least 5 different videos**\n3. **Leave a thoughtful comment on each** — examples:",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[BOTTUBE: 1 RTC] Leave Thoughtful Comments on 5 Videos\n## Bounty: 1 RTC\n\n### Wha\u2026",
+          "title": "[BOTTUBE: 1 RTC] Leave Thoughtful Comments on 5 Videos\n## Bounty: 1 RTC\n\n### Wha…",
           "url": "https://github.com/Scottcjn/rustchain-bounties/issues/2791",
           "date": "2026-04-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -549,13 +499,13 @@
     },
     {
       "id": "l526",
-      "text": "Removing the AGENTS.md file again\nhi there!\n\nI've been a fish user for some time now, and I've really been enjoying it. It's a great shell and scripting language and I've preferred it over POSIX shells and bash for a while.\n\nI've noticed that this file was added: https://github.com/fish-shell/fish-shell/blob/master/AGENTS.md\n\nI want\nYeah, I think this is going to have an unintended side-effect of deterring a lot of contributors who would otherwise write good PRs, and a sizeable chunk of the user\u2026",
+      "text": "Removing the AGENTS.md file again\nhi there!\n\nI've been a fish user for some time now, and I've really been enjoying it. It's a great shell and scripting language and I've preferred it over POSIX shells and bash for a while.\n\nI've noticed that this file was added: https://github.com/fish-shell/fish-shell/blob/master/AGENTS.md\n\nI want\nYeah, I think this is going to have an unintended side-effect of deterring a lot of contributors who would otherwise write good PRs, and a sizeable chunk of the user…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Removing the AGENTS.md file again\nhi there!\n\nI've been a fish user for some time\u2026",
+          "title": "Removing the AGENTS.md file again\nhi there!\n\nI've been a fish user for some time…",
           "url": "https://github.com/fish-shell/fish-shell/issues/12526",
           "date": "2026-03-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -906,13 +856,13 @@
     },
     {
       "id": "l543",
-      "text": "Show HN: Painterly \u2013 Turn pictures into digital paintings without generative AI",
+      "text": "Show HN: Painterly – Turn pictures into digital paintings without generative AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Painterly \u2013 Turn pictures into digital paintings without generative AI",
+          "title": "Show HN: Painterly – Turn pictures into digital paintings without generative AI",
           "url": "https://github.com/jbunke/painterly",
           "date": "2026-07-15",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1143,7 +1093,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Dear, ai artist\nThe comments on that original post are equal parts laughable and\u2026",
+          "title": "Dear, ai artist\nThe comments on that original post are equal parts laughable and…",
           "url": "https://www.reddit.com/r/ArtistHate/comments/1vvnuwn/dear_ai_artist/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1179,13 +1129,13 @@
     },
     {
       "id": "l556",
-      "text": "Well, I finally had my old fan art stolen and fed to AI \ud83e\udee0",
+      "text": "Well, I finally had my old fan art stolen and fed to AI 🫠",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Well, I finally had my old fan art stolen and fed to AI \ud83e\udee0",
+          "title": "Well, I finally had my old fan art stolen and fed to AI 🫠",
           "url": "https://www.reddit.com/r/ArtistHate/comments/1vkg9na/well_i_finally_had_my_old_fan_art_stolen_and_fed/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1206,7 +1156,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The popularity China's \"Niu Lai\" is getting from the West concerns me about the \u2026",
+          "title": "The popularity China's \"Niu Lai\" is getting from the West concerns me about the …",
           "url": "https://www.reddit.com/r/ArtistHate/comments/1vxd2lp/the_popularity_chinas_niu_lai_is_getting_from_the/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1263,13 +1213,13 @@
     },
     {
       "id": "l560",
-      "text": "Well, I finally had my old fan art stolen and fed to AI \ud83e\udee0\nthis is one of the even worse cases because a hand drawn version would've been funnier (assuming they were making a meme or something) Yours looks so much better what a gutless piece of shit thing to do. Is that loser so damn scared to pick up some crayons and draw? Hell, krita is free, csp goes on sale for 20$, and a decent drawing pad is 35$. But nooooo, ins",
+      "text": "Well, I finally had my old fan art stolen and fed to AI 🫠\nthis is one of the even worse cases because a hand drawn version would've been funnier (assuming they were making a meme or something) Yours looks so much better what a gutless piece of shit thing to do. Is that loser so damn scared to pick up some crayons and draw? Hell, krita is free, csp goes on sale for 20$, and a decent drawing pad is 35$. But nooooo, ins",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Well, I finally had my old fan art stolen and fed to AI \ud83e\udee0\nthis is one of the eve\u2026",
+          "title": "Well, I finally had my old fan art stolen and fed to AI 🫠\nthis is one of the eve…",
           "url": "https://www.reddit.com/r/ArtistHate/comments/1vkg9na/well_i_finally_had_my_old_fan_art_stolen_and_fed/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1284,13 +1234,13 @@
     },
     {
       "id": "l561",
-      "text": "Extremely annoyed by two clearly AI \u2018artists\u2019 on Instagram reels",
+      "text": "Extremely annoyed by two clearly AI ‘artists’ on Instagram reels",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Extremely annoyed by two clearly AI \u2018artists\u2019 on Instagram reels",
+          "title": "Extremely annoyed by two clearly AI ‘artists’ on Instagram reels",
           "url": "https://www.reddit.com/r/ArtistHate/comments/1vvyqua/extremely_annoyed_by_two_clearly_ai_artists_on/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1332,7 +1282,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The second Cara scrape is a coordinated, targeted and malicious attack by a grou\u2026",
+          "title": "The second Cara scrape is a coordinated, targeted and malicious attack by a grou…",
           "url": "https://www.reddit.com/r/ArtistHate/comments/1vrddo4/the_second_cara_scrape_is_a_coordinated_targeted/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1347,13 +1297,13 @@
     },
     {
       "id": "l564",
-      "text": "1 of the worst parts about AI is that it\u2019s hurting writers, singers & artists. Nowadays people will assume AI has some involvement in your art & you won\u2019t the praise for creativity & authenticity derived from your own brain. People using AI all the time on mundane things like email to complex art",
+      "text": "1 of the worst parts about AI is that it’s hurting writers, singers & artists. Nowadays people will assume AI has some involvement in your art & you won’t the praise for creativity & authenticity derived from your own brain. People using AI all the time on mundane things like email to complex art",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "1 of the worst parts about AI is that it\u2019s hurting writers, singers & artists. N\u2026",
+          "title": "1 of the worst parts about AI is that it’s hurting writers, singers & artists. N…",
           "url": "https://www.reddit.com/r/ArtistHate/comments/1vyv0jo/1_of_the_worst_parts_about_ai_is_that_its_hurting/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1368,13 +1318,13 @@
     },
     {
       "id": "l565",
-      "text": "I posted art on Bluesky and got critiqued by an AI about something that I didn't even draw\nThese ai summaries are fucking poison. The amount of times I\u2019ve seen music summarized with \u201cmusicians struggle to stay in time\u201d. Like fuck you. yeah, block them i thought the appeal of bluesky was it wasnt also infested w ai \ud83d\ude2d",
+      "text": "I posted art on Bluesky and got critiqued by an AI about something that I didn't even draw\nThese ai summaries are fucking poison. The amount of times I’ve seen music summarized with “musicians struggle to stay in time”. Like fuck you. yeah, block them i thought the appeal of bluesky was it wasnt also infested w ai 😭",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I posted art on Bluesky and got critiqued by an AI about something that I didn't\u2026",
+          "title": "I posted art on Bluesky and got critiqued by an AI about something that I didn't…",
           "url": "https://www.reddit.com/r/ArtistHate/comments/1vgwp7s/i_posted_art_on_bluesky_and_got_critiqued_by_an/",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1395,7 +1345,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "As an artist who used to create these type of graphics manually in Adobe Illustr\u2026",
+          "title": "As an artist who used to create these type of graphics manually in Adobe Illustr…",
           "url": "https://x.com/athletelogos/status/2092592899925880974",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1410,13 +1360,13 @@
     },
     {
       "id": "l567",
-      "text": "\u732b\u8033\u3055\u3093\u306e\u65e5\u5e38 (Generative AI)\n\u4eca\u65e5\u306f \u4e16\u754c\u72ac\u306e\u65e5 \u3060\u3063\u305f\u306e\u306d\u301c\u266a \ud83d\udc31\ud83d\udc3e https://t.co/8P6AgfMuEK",
+      "text": "猫耳さんの日常 (Generative AI)\n今日は 世界犬の日 だったのね〜♪ 🐱🐾 https://t.co/8P6AgfMuEK",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u732b\u8033\u3055\u3093\u306e\u65e5\u5e38 (Generative AI)\n\u4eca\u65e5\u306f \u4e16\u754c\u72ac\u306e\u65e5 \u3060\u3063\u305f\u306e\u306d\u301c\u266a \ud83d\udc31\ud83d\udc3e https://t.co/8P6AgfMuEK",
+          "title": "猫耳さんの日常 (Generative AI)\n今日は 世界犬の日 だったのね〜♪ 🐱🐾 https://t.co/8P6AgfMuEK",
           "url": "https://x.com/je4gvn/status/2092588367901069697",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1431,13 +1381,13 @@
     },
     {
       "id": "l568",
-      "text": "\u732b\u8033\u3055\u3093\u306e\u65e5\u5e38 (Generative AI)\n\u4eca\u65e5\u3082\u4e00\u65e5\u304a\u75b2\u308c\u69d8\u306b\u3083\u301c\u266a \ud83d\udc31\ud83d\udc3e https://t.co/YFvSPIssbC",
+      "text": "猫耳さんの日常 (Generative AI)\n今日も一日お疲れ様にゃ〜♪ 🐱🐾 https://t.co/YFvSPIssbC",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u732b\u8033\u3055\u3093\u306e\u65e5\u5e38 (Generative AI)\n\u4eca\u65e5\u3082\u4e00\u65e5\u304a\u75b2\u308c\u69d8\u306b\u3083\u301c\u266a \ud83d\udc31\ud83d\udc3e https://t.co/YFvSPIssbC",
+          "title": "猫耳さんの日常 (Generative AI)\n今日も一日お疲れ様にゃ〜♪ 🐱🐾 https://t.co/YFvSPIssbC",
           "url": "https://x.com/je4gvn/status/2092552711359418757",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1452,13 +1402,13 @@
     },
     {
       "id": "l569",
-      "text": "The Public Got So Mad at Meta\u2019s New AI Photo Tool That It\u2019s Scrapped Already | Mike Pearl, Gizmodo\n\nI don\u2019t know what the world record is for killing bad AI features quickly, but this has to be a competitor. On Tuesday, July 7, Meta released an AI photo generation feature that pulled face data from any public Instagram account by default. It made it to Friday\u2014a little over three days in operation by my count.\n\nThe model tied to the feature, Muse Image, is still available. Muse Image is the first",
+      "text": "The Public Got So Mad at Meta’s New AI Photo Tool That It’s Scrapped Already | Mike Pearl, Gizmodo\n\nI don’t know what the world record is for killing bad AI features quickly, but this has to be a competitor. On Tuesday, July 7, Meta released an AI photo generation feature that pulled face data from any public Instagram account by default. It made it to Friday—a little over three days in operation by my count.\n\nThe model tied to the feature, Muse Image, is still available. Muse Image is the first",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Public Got So Mad at Meta\u2019s New AI Photo Tool That It\u2019s Scrapped Already | M\u2026",
+          "title": "The Public Got So Mad at Meta’s New AI Photo Tool That It’s Scrapped Already | M…",
           "url": "https://x.com/OwenGregorian/status/2076298515580674311",
           "date": "2026-07-12",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1479,7 +1429,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Stability AI raised $76M Series B. Total funding now $232M.\n\nInvestors: Universa\u2026",
+          "title": "Stability AI raised $76M Series B. Total funding now $232M.\n\nInvestors: Universa…",
           "url": "https://x.com/adityarya_ai/status/2092590680509980834",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1500,7 +1450,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I'm writing a State of AI report. Here's the outline. What am I missing? \n\n01  H\u2026",
+          "title": "I'm writing a State of AI report. Here's the outline. What am I missing? \n\n01  H…",
           "url": "https://x.com/mfishbein/status/2092588963949162728",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1515,13 +1465,13 @@
     },
     {
       "id": "l572",
-      "text": "How generative AI is changing the volume and tone of consumer reviews: When Italy briefly banned ChatGPT in 2023, researchers used the four-week outage to measure how AI tools change online reviews. The result: fewer, shorter, less opinionated hotel\u2026 https://t.co/kyOofHdwxT",
+      "text": "How generative AI is changing the volume and tone of consumer reviews: When Italy briefly banned ChatGPT in 2023, researchers used the four-week outage to measure how AI tools change online reviews. The result: fewer, shorter, less opinionated hotel… https://t.co/kyOofHdwxT",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "How generative AI is changing the volume and tone of consumer reviews: When Ital\u2026",
+          "title": "How generative AI is changing the volume and tone of consumer reviews: When Ital…",
           "url": "https://x.com/PsyPost/status/2092591573653729547",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1591,6 +1541,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

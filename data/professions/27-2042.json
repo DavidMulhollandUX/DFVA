@@ -17,58 +17,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "27-2042-01",
-      "text": "National peak professional bodies and statutory regulators governing Musicians and Singers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Musicians and Singers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Musicians and Singers",
-          "url": "https://www.psc.gov.au/standards/27-2042",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Musicians and Singers"
-        }
-      ],
-      "scope": "Australian practitioners in Musicians and Singers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "27-2042-02",
-      "text": "Automation of routine transactional and analytical tasks in Musicians and Singers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Musicians and Singers",
-          "url": "https://www.jobsandskills.gov.au/research/27-2042",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Musicians and Singers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Musicians and Singers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Pipe Major \u2014 Queensland Police Service (Brisbane, Queensland, Australia). Posted 1 month ago.",
+      "text": "Pipe Major — Queensland Police Service (Brisbane, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -89,7 +39,7 @@
     },
     {
       "id": "l404",
-      "text": "Orchestra Coordinator \u2014 Adelaide Symphony Orchestra (Adelaide, South Australia, Australia). Posted 1 week ago.",
+      "text": "Orchestra Coordinator — Adelaide Symphony Orchestra (Adelaide, South Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -110,7 +60,7 @@
     },
     {
       "id": "l405",
-      "text": "Live Production and Staging Traineeship \u2014 Mackay Regional Council (Mackay, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Live Production and Staging Traineeship — Mackay Regional Council (Mackay, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -131,13 +81,13 @@
     },
     {
       "id": "l406",
-      "text": "Junior DJ \u2014 Paid Training Pathway | Diesel Productions (Perth) \u2014 Diesel Perth (Perth, Western Australia, Australia). Posted 1 week ago.",
+      "text": "Junior DJ — Paid Training Pathway | Diesel Productions (Perth) — Diesel Perth (Perth, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
           "publisher": "Diesel Perth",
-          "title": "Junior DJ \u2014 Paid Training Pathway | Diesel Productions (Perth)",
+          "title": "Junior DJ — Paid Training Pathway | Diesel Productions (Perth)",
           "url": "https://www.linkedin.com/jobs/view/4454705151",
           "date": "1 week ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
@@ -152,7 +102,7 @@
     },
     {
       "id": "l407",
-      "text": "CREATIVE OPPS \u2014 ZING (UK) (Young, New South Wales, Australia). Posted 1 month ago.",
+      "text": "CREATIVE OPPS — ZING (UK) (Young, New South Wales, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -173,7 +123,7 @@
     },
     {
       "id": "l408",
-      "text": "HER PATH TO PURPOSE \u2014 ZING (UK) (Young, New South Wales, Australia). Posted 1 month ago.",
+      "text": "HER PATH TO PURPOSE — ZING (UK) (Young, New South Wales, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -194,7 +144,7 @@
     },
     {
       "id": "l409",
-      "text": "Teacher (Drama, Acting, Singing) \u2014 Stage61 Australia (Perth, Western Australia, Australia). Posted 1 month ago.",
+      "text": "Teacher (Drama, Acting, Singing) — Stage61 Australia (Perth, Western Australia, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -215,7 +165,7 @@
     },
     {
       "id": "l410",
-      "text": "Collaborative Pianist and Accompanist \u2014 Reddam House Sydney (Sydney, New South Wales, Australia). Posted 5 days ago.",
+      "text": "Collaborative Pianist and Accompanist — Reddam House Sydney (Sydney, New South Wales, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -236,7 +186,7 @@
     },
     {
       "id": "l411",
-      "text": "Teacher - Music - Performance Arts \u2014 Department of Education, Western Australia (Kimberley, Western Australia, Australia). Posted 1 week ago.",
+      "text": "Teacher - Music - Performance Arts — Department of Education, Western Australia (Kimberley, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -257,7 +207,7 @@
     },
     {
       "id": "l412",
-      "text": "Regional Teaching Artist - Mackay \u2014 Queensland Ballet (Mackay, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Regional Teaching Artist - Mackay — Queensland Ballet (Mackay, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -278,13 +228,13 @@
     },
     {
       "id": "l513",
-      "text": "feat(route): add KQED\n## Involved Issue / \u8be5 PR \u76f8\u5173 Issue\n\nN/A\n\n## Example for the Proposed Route(s) / \u8def\u7531\u5730\u5740\u793a\u4f8b\n\n```routes\n/kqed\n/kqed/arts\n/kqed/news\n/kqed/science\n/kqed/forum\n/kqed/mindshift\n/kqed/perspectives\n/kqed/education\n```\n\n## New RSS Route Checklist / \u65b0 RSS \u8def\u7531\u68c0\u67e5\u8868\n\n- [x] New Route / \u65b0\u7684\u8def\u7531\n    - [x] Follows [Script St\nSuccessfully [generated](https://github.com/DIYgod/RSSHub/actions/runs/32766205456) as following:\n\n<details>\n<summary><a href=\"http://localhost:1200/kqed\">http://localhost:1200/\u2026",
+      "text": "feat(route): add KQED\n## Involved Issue / 该 PR 相关 Issue\n\nN/A\n\n## Example for the Proposed Route(s) / 路由地址示例\n\n```routes\n/kqed\n/kqed/arts\n/kqed/news\n/kqed/science\n/kqed/forum\n/kqed/mindshift\n/kqed/perspectives\n/kqed/education\n```\n\n## New RSS Route Checklist / 新 RSS 路由检查表\n\n- [x] New Route / 新的路由\n    - [x] Follows [Script St\nSuccessfully [generated](https://github.com/DIYgod/RSSHub/actions/runs/32766205456) as following:\n\n<details>\n<summary><a href=\"http://localhost:1200/kqed\">http://localhost:1200/…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(route): add KQED\n## Involved Issue / \u8be5 PR \u76f8\u5173 Issue\n\nN/A\n\n## Example for the\u2026",
+          "title": "feat(route): add KQED\n## Involved Issue / 该 PR 相关 Issue\n\nN/A\n\n## Example for the…",
           "url": "https://github.com/DIYgod/RSSHub/pull/23105",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -299,13 +249,13 @@
     },
     {
       "id": "l514",
-      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       \u2026",
+      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe \u2026",
+          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe …",
           "url": "https://github.com/rakib06/mini-github/issues/14",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -320,13 +270,13 @@
     },
     {
       "id": "l515",
-      "text": "fix(route/likeshop): Likeshop API now supports title attribute\n<!--\r\nIf you have any difficulties in filling out this form, please refer to https://docs.rsshub.app/joinus/new-rss/submit-route\r\n\u5982\u679c\u4f60\u5728\u586b\u5199\u6b64\u8868\u5355\u65f6\u9047\u5230\u4efb\u4f55\u56f0\u96be\uff0c\u8bf7\u53c2\u8003 https://docs.rsshub.app/zh/joinus/new-rss/submit-route\r\n-->\r\n\r\n## Involved Issue / \u8be5 PR \u76f8\u5173 Issue\r\n\r\nClose #\r\n\r\n## Example for the Proposed Route(s) /\n<!-- pr-auto-review -->%0A## Auto Review%0A- **Rule 11** \u2014 `lib/routes/likeshop/index.ts:33`: When `item.title === -`, the title is set \u2026",
+      "text": "fix(route/likeshop): Likeshop API now supports title attribute\n<!--\r\nIf you have any difficulties in filling out this form, please refer to https://docs.rsshub.app/joinus/new-rss/submit-route\r\n如果你在填写此表单时遇到任何困难，请参考 https://docs.rsshub.app/zh/joinus/new-rss/submit-route\r\n-->\r\n\r\n## Involved Issue / 该 PR 相关 Issue\r\n\r\nClose #\r\n\r\n## Example for the Proposed Route(s) /\n<!-- pr-auto-review -->%0A## Auto Review%0A- **Rule 11** — `lib/routes/likeshop/index.ts:33`: When `item.title === -`, the title is set …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "fix(route/likeshop): Likeshop API now supports title attribute\n<!--\r\nIf you have\u2026",
+          "title": "fix(route/likeshop): Likeshop API now supports title attribute\n<!--\r\nIf you have…",
           "url": "https://github.com/DIYgod/RSSHub/pull/21484",
           "date": "2026-03-23",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -488,13 +438,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -509,13 +459,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -677,13 +627,13 @@
     },
     {
       "id": "l532",
-      "text": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+      "text": "Show HN: Videopython – local-first video processing, editing and AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+          "title": "Show HN: Videopython – local-first video processing, editing and AI workflows",
           "url": "https://github.com/bartwojtowicz/videopython",
           "date": "2026-06-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -719,13 +669,13 @@
     },
     {
       "id": "l534",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -782,13 +732,13 @@
     },
     {
       "id": "l537",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -824,13 +774,13 @@
     },
     {
       "id": "l539",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -845,13 +795,13 @@
     },
     {
       "id": "l540",
-      "text": "Sonarworks is trashing Audio Engineers and musicians with their ad\nJust scrolling on IG and I get this ad by Sonarworks for VoiceAI. Sure whatever, but the ad\u2026. They are basically saying \u201cwhy hire an audio engineer and a singer if for $99 you can have an AI singer\u201d. I am extremely offended to the point I\u2019m considering getting rid of SoundID and getting another system. I\u2019ll show the ad in the comments w the link &#32; submitted by &#32; /u/babyryanrecords &#32; to &#32; r/audioengineering [link] \u2026",
+      "text": "Sonarworks is trashing Audio Engineers and musicians with their ad\nJust scrolling on IG and I get this ad by Sonarworks for VoiceAI. Sure whatever, but the ad…. They are basically saying “why hire an audio engineer and a singer if for $99 you can have an AI singer”. I am extremely offended to the point I’m considering getting rid of SoundID and getting another system. I’ll show the ad in the comments w the link &#32; submitted by &#32; /u/babyryanrecords &#32; to &#32; r/audioengineering [link] …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sonarworks is trashing Audio Engineers and musicians with their ad\nJust scrollin\u2026",
+          "title": "Sonarworks is trashing Audio Engineers and musicians with their ad\nJust scrollin…",
           "url": "https://www.reddit.com/r/audioengineering/comments/1vovq87/sonarworks_is_trashing_audio_engineers_and/",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -866,13 +816,13 @@
     },
     {
       "id": "l541",
-      "text": "Looking for singers/musicians to turn lyrics and ideas into actual human songs.\nI have been writing lyrics for a while and would like to real humans sing them. For now I&#39;m just looking for volunteers,, but I&#39;d love to eventually be able to oay. Currently I have a collection of songs in what I call nerdcore. Songs based on d&amp;d and other &quot;nerdy&quot; interests. I don&#39;t stick to one genre and tale the lyrics seriously. Its not about being funny but capturing the essence of the \u2026",
+      "text": "Looking for singers/musicians to turn lyrics and ideas into actual human songs.\nI have been writing lyrics for a while and would like to real humans sing them. For now I&#39;m just looking for volunteers,, but I&#39;d love to eventually be able to oay. Currently I have a collection of songs in what I call nerdcore. Songs based on d&amp;d and other &quot;nerdy&quot; interests. I don&#39;t stick to one genre and tale the lyrics seriously. Its not about being funny but capturing the essence of the …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Looking for singers/musicians to turn lyrics and ideas into actual human songs.\n\u2026",
+          "title": "Looking for singers/musicians to turn lyrics and ideas into actual human songs.\n…",
           "url": "https://www.reddit.com/r/NeedVocals/comments/1vsxs7h/looking_for_singersmusicians_to_turn_lyrics_and/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -887,13 +837,13 @@
     },
     {
       "id": "l542",
-      "text": "Are we actually protecting musicians, or are we protecting the music industry from its next disruption?\nI\u2019m a musician, and I\u2019ve been around the music industry long enough that this whole AI debate has started to feel really strange to me. I keep seeing lawyers, commentators and people suddenly positioning themselves as the people who are here to \u201cprotect musicians\u201d from AI and honestly, my first reaction is: Where was this energy before AI? Where was this outrage when musicians were signing ter\u2026",
+      "text": "Are we actually protecting musicians, or are we protecting the music industry from its next disruption?\nI’m a musician, and I’ve been around the music industry long enough that this whole AI debate has started to feel really strange to me. I keep seeing lawyers, commentators and people suddenly positioning themselves as the people who are here to “protect musicians” from AI and honestly, my first reaction is: Where was this energy before AI? Where was this outrage when musicians were signing ter…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Are we actually protecting musicians, or are we protecting the music industry fr\u2026",
+          "title": "Are we actually protecting musicians, or are we protecting the music industry fr…",
           "url": "https://www.reddit.com/r/aiMusic/comments/1vo2tbd/are_we_actually_protecting_musicians_or_are_we/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -908,13 +858,13 @@
     },
     {
       "id": "l543",
-      "text": "Looking for singers/musicians to turn lyrics and ideas into actual human songs.\nI have been writing lyrics for a while and would like to real humans sing them. For now I&#39;m just looking for volunteers,, but I&#39;d love to eventually be able to oay. Currently I have a collection of songs in what I call nerdcore. Songs based on d&amp;d and other &quot;nerdy&quot; interests. I don&#39;t stick to one genre and tale the lyrics seriously. Its not about being funny but capturing the essence of the \u2026",
+      "text": "Looking for singers/musicians to turn lyrics and ideas into actual human songs.\nI have been writing lyrics for a while and would like to real humans sing them. For now I&#39;m just looking for volunteers,, but I&#39;d love to eventually be able to oay. Currently I have a collection of songs in what I call nerdcore. Songs based on d&amp;d and other &quot;nerdy&quot; interests. I don&#39;t stick to one genre and tale the lyrics seriously. Its not about being funny but capturing the essence of the …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Looking for singers/musicians to turn lyrics and ideas into actual human songs.\n\u2026",
+          "title": "Looking for singers/musicians to turn lyrics and ideas into actual human songs.\n…",
           "url": "https://www.reddit.com/r/MusicInTheMaking/comments/1vsjppr/looking_for_singersmusicians_to_turn_lyrics_and/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -929,13 +879,13 @@
     },
     {
       "id": "l544",
-      "text": "So, no one noticed that DC album is filled with AI? Or no one cares?\nAs a sporadic musician myself, I noticed Anirudh&#39;s music getting more and more suspisciously lower quality. A weird instrument here, a low quality vocal track there, didn&#39;t think much of it. But in DC? Oh my goodness, this is the most prominent example of AI use for vocals I&#39;ve ever seen. Boom Baa Diga - Dude, who are these rappers? I can literally hear 2 male voices, and 1 female voice that don&#39;t appear in the \u2026",
+      "text": "So, no one noticed that DC album is filled with AI? Or no one cares?\nAs a sporadic musician myself, I noticed Anirudh&#39;s music getting more and more suspisciously lower quality. A weird instrument here, a low quality vocal track there, didn&#39;t think much of it. But in DC? Oh my goodness, this is the most prominent example of AI use for vocals I&#39;ve ever seen. Boom Baa Diga - Dude, who are these rappers? I can literally hear 2 male voices, and 1 female voice that don&#39;t appear in the …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "So, no one noticed that DC album is filled with AI? Or no one cares?\nAs a sporad\u2026",
+          "title": "So, no one noticed that DC album is filled with AI? Or no one cares?\nAs a sporad…",
           "url": "https://www.reddit.com/r/kollywood/comments/1v9ppth/so_no_one_noticed_that_dc_album_is_filled_with_ai/",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -950,13 +900,13 @@
     },
     {
       "id": "l545",
-      "text": "Ai Music Detection is a Scam.\nToday, the Australian recording industry association (ARIA) announced that AI-generated music will be banned from the ARIA Charts. The announcement comes amid growing concern about AI-generated spam, fake artists and people flooding streaming services with thousands of cheaply-produced tracks designed to manipulate the system. Those are legitimate problems, but the industry&#39;s response is increasingly to treat AI itself as the problem. In response, AI labelling s\u2026",
+      "text": "Ai Music Detection is a Scam.\nToday, the Australian recording industry association (ARIA) announced that AI-generated music will be banned from the ARIA Charts. The announcement comes amid growing concern about AI-generated spam, fake artists and people flooding streaming services with thousands of cheaply-produced tracks designed to manipulate the system. Those are legitimate problems, but the industry&#39;s response is increasingly to treat AI itself as the problem. In response, AI labelling s…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Ai Music Detection is a Scam.\nToday, the Australian recording industry associati\u2026",
+          "title": "Ai Music Detection is a Scam.\nToday, the Australian recording industry associati…",
           "url": "https://www.reddit.com/r/SunoAI/comments/1vz5mve/ai_music_detection_is_a_scam/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -971,13 +921,13 @@
     },
     {
       "id": "l546",
-      "text": "AI Music Giveaway: Over the top\nI normally don&#39;t listen to AI music from others on the Suno platform as a majority of what&#39;s out there is not in my particular genre range. But I&#39;ve noticed a particular pattern that to me is a dead giveaway that a track is AI-generated: it&#39;s completely over the top. Over-the-top belting vocals, over-the-top dense instrumentation, and over-the-top lyric descriptors. It lacks subtlety or what human musicians call being &quot;organic.&quot; I honestl\u2026",
+      "text": "AI Music Giveaway: Over the top\nI normally don&#39;t listen to AI music from others on the Suno platform as a majority of what&#39;s out there is not in my particular genre range. But I&#39;ve noticed a particular pattern that to me is a dead giveaway that a track is AI-generated: it&#39;s completely over the top. Over-the-top belting vocals, over-the-top dense instrumentation, and over-the-top lyric descriptors. It lacks subtlety or what human musicians call being &quot;organic.&quot; I honestl…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI Music Giveaway: Over the top\nI normally don&#39;t listen to AI music from oth\u2026",
+          "title": "AI Music Giveaway: Over the top\nI normally don&#39;t listen to AI music from oth…",
           "url": "https://www.reddit.com/r/aiMusic/comments/1vuu21x/ai_music_giveaway_over_the_top/",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -992,13 +942,13 @@
     },
     {
       "id": "l547",
-      "text": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Companies\nI want to explain why I remain skeptical about the idea that what happened to Suno and Udio was simply an ordinary copyright dispute that happened to end in licensing agreements. I am not claiming to know what happened behind closed doors, because I don&#39;t have access to the private negotiations, settlement agreements, or internal communications between these companies. What I am doing is looking at the public \u2026",
+      "text": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Companies\nI want to explain why I remain skeptical about the idea that what happened to Suno and Udio was simply an ordinary copyright dispute that happened to end in licensing agreements. I am not claiming to know what happened behind closed doors, because I don&#39;t have access to the private negotiations, settlement agreements, or internal communications between these companies. What I am doing is looking at the public …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Compani\u2026",
+          "title": "Why I Believe Suno and Udio Were Treated Differently From Other AI Music Compani…",
           "url": "https://www.reddit.com/r/SunoAI/comments/1vli6v5/why_i_believe_suno_and_udio_were_treated/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1013,13 +963,13 @@
     },
     {
       "id": "l548",
-      "text": "Anyone else having an existential crisis based on AI art?\nBit of a rant, sorry. A lot gets said about AI infiltrating the workplace and the complications that&#39;s going to bring about (i.e. who will have the money to purchase what AI creates if no one is working anymore?). But I&#39;ve been having an artistic crisis lately. About me: I&#39;m a musician, even though I haven&#39;t played full-time in a long while. I have recently mixed music and recorded some instruments for singer/songwriter fr\u2026",
+      "text": "Anyone else having an existential crisis based on AI art?\nBit of a rant, sorry. A lot gets said about AI infiltrating the workplace and the complications that&#39;s going to bring about (i.e. who will have the money to purchase what AI creates if no one is working anymore?). But I&#39;ve been having an artistic crisis lately. About me: I&#39;m a musician, even though I haven&#39;t played full-time in a long while. I have recently mixed music and recorded some instruments for singer/songwriter fr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Anyone else having an existential crisis based on AI art?\nBit of a rant, sorry. \u2026",
+          "title": "Anyone else having an existential crisis based on AI art?\nBit of a rant, sorry. …",
           "url": "https://www.reddit.com/r/antiai/comments/1vf80e7/anyone_else_having_an_existential_crisis_based_on/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1034,13 +984,13 @@
     },
     {
       "id": "l549",
-      "text": "If you hate AI music, fine. But critique what I actually made.\nI\u2019m not asking anyone to listen to it. This isn\u2019t self-promotion . I\u2019ll tell you exactly what it is. The Postal Shame Revival is a deliberately artificial Southern gospel project about counterfeit postage, failed stamp authentication, and the way uncertainty gets pushed onto ordinary buyers through source, price, suspicion, shame, fear and guilt. The opinions are mine. The machine didn\u2019t invent them. I\u2019m not trying to make money with\u2026",
+      "text": "If you hate AI music, fine. But critique what I actually made.\nI’m not asking anyone to listen to it. This isn’t self-promotion . I’ll tell you exactly what it is. The Postal Shame Revival is a deliberately artificial Southern gospel project about counterfeit postage, failed stamp authentication, and the way uncertainty gets pushed onto ordinary buyers through source, price, suspicion, shame, fear and guilt. The opinions are mine. The machine didn’t invent them. I’m not trying to make money with…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "If you hate AI music, fine. But critique what I actually made.\nI\u2019m not asking an\u2026",
+          "title": "If you hate AI music, fine. But critique what I actually made.\nI’m not asking an…",
           "url": "https://www.reddit.com/r/aiwars/comments/1vycfiz/if_you_hate_ai_music_fine_but_critique_what_i/",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1055,13 +1005,13 @@
     },
     {
       "id": "l550",
-      "text": "AI. I'm confused\nHi, I was going to post here of my new song until I saw the no AI policy. I won&#39;t post on this basis, however. I spent a huge amount of time recording a demo, me singing (not the best at it) and playing all of the instruments. It passable at best but it would get flamed for its low quality. I wrote it all, I have subsequently run it though suno. It&#39;s still the same song, same chords, same melody. However, different singer, better mix and better instruments. Does this tak\u2026",
+      "text": "AI. I'm confused\nHi, I was going to post here of my new song until I saw the no AI policy. I won&#39;t post on this basis, however. I spent a huge amount of time recording a demo, me singing (not the best at it) and playing all of the instruments. It passable at best but it would get flamed for its low quality. I wrote it all, I have subsequently run it though suno. It&#39;s still the same song, same chords, same melody. However, different singer, better mix and better instruments. Does this tak…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI. I'm confused\nHi, I was going to post here of my new song until I saw the no \u2026",
+          "title": "AI. I'm confused\nHi, I was going to post here of my new song until I saw the no …",
           "url": "https://www.reddit.com/r/IndieMusicFeedback/comments/1vtgu54/ai_im_confused/",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1076,13 +1026,13 @@
     },
     {
       "id": "l551",
-      "text": "How do we protect Suno creators from major label purges? A proposal for a distributor-level \"AI Heritage Fund\".\nAI Music Learned from Human Culture. Let It Help Fund Its Future. Right now, the greatest threat to independent AI-music creators may not be quality. It is uncertainty. Lawsuits are mounting, major labels are pushing back, and distributors face growing pressure over fully AI-generated music. If the industry responds only through bans or expensive private licensing deals, independent cr\u2026",
+      "text": "How do we protect Suno creators from major label purges? A proposal for a distributor-level \"AI Heritage Fund\".\nAI Music Learned from Human Culture. Let It Help Fund Its Future. Right now, the greatest threat to independent AI-music creators may not be quality. It is uncertainty. Lawsuits are mounting, major labels are pushing back, and distributors face growing pressure over fully AI-generated music. If the industry responds only through bans or expensive private licensing deals, independent cr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "How do we protect Suno creators from major label purges? A proposal for a distri\u2026",
+          "title": "How do we protect Suno creators from major label purges? A proposal for a distri…",
           "url": "https://www.reddit.com/r/SunoAI/comments/1vdxeim/how_do_we_protect_suno_creators_from_major_label/",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1103,7 +1053,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@dantomlinsonmp @ZackPolanski \"benefits of AI\"... Like what, exactly? Some of Br\u2026",
+          "title": "@dantomlinsonmp @ZackPolanski \"benefits of AI\"... Like what, exactly? Some of Br…",
           "url": "https://x.com/PixelBushYT/status/2093428313486160170",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1124,7 +1074,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "What a difference between real music, real musicians, real singers, real lyrics,\u2026",
+          "title": "What a difference between real music, real musicians, real singers, real lyrics,…",
           "url": "https://x.com/miky_maiorano/status/2093492676247364049",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1145,7 +1095,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@flapjastic Problem is that every artist is like \"using AI on graphics is bad bu\u2026",
+          "title": "@flapjastic Problem is that every artist is like \"using AI on graphics is bad bu…",
           "url": "https://x.com/Legosuper_girl/status/2093475388391391454",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1160,13 +1110,13 @@
     },
     {
       "id": "l555",
-      "text": "I just finished listening to the Deluxe Album on AethrMusik. \n\n My opinion on the Broken Wings album: This album is an absolute banger from start to finish. Sets the standard for up and coming  traditional rock and roll musicians while showcasing to the world that an Artist who uses AI as a tool can create memorable, head banging and heartfelt music. \n\n 1. Broken Angels \ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\n2. B3TT3R OFF ALON3 \ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\n3. Find My Peace \ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\n4. Torture \ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\n       5. Malice \ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\n       6. Crawling \ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25 \n       7.",
+      "text": "I just finished listening to the Deluxe Album on AethrMusik. \n\n My opinion on the Broken Wings album: This album is an absolute banger from start to finish. Sets the standard for up and coming  traditional rock and roll musicians while showcasing to the world that an Artist who uses AI as a tool can create memorable, head banging and heartfelt music. \n\n 1. Broken Angels 🔥🔥🔥🔥\n2. B3TT3R OFF ALON3 🔥🔥🔥🔥🔥\n3. Find My Peace 🔥🔥🔥🔥\n4. Torture 🔥🔥🔥🔥\n       5. Malice 🔥🔥🔥🔥🔥\n       6. Crawling 🔥🔥🔥🔥 \n       7.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I just finished listening to the Deluxe Album on AethrMusik. \n\n My opinion on th\u2026",
+          "title": "I just finished listening to the Deluxe Album on AethrMusik. \n\n My opinion on th…",
           "url": "https://x.com/luisvillcruz/status/2093461630579310925",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1181,13 +1131,13 @@
     },
     {
       "id": "l556",
-      "text": "@Snoopy, when I keyed in the GIF search field for \"Dolly Parton Snoopy\" to use as a reply to @Urnersoul and @RayshawnColema2 this unexpected spectacular gif with @DollyParton\nand her goddaughter  @MileyCyrus appeared \ud83e\udd29\nPer Google AI:  The selected region shows a clip of Miley Cyrus and @DollyParton\nDolly Parton during an appearance on NBC's The Voice Season 11. The clip captures a fun, behind-the-scenes interaction between the two iconic musicians. Dolly Parton served as a real-life godmother an",
+      "text": "@Snoopy, when I keyed in the GIF search field for \"Dolly Parton Snoopy\" to use as a reply to @Urnersoul and @RayshawnColema2 this unexpected spectacular gif with @DollyParton\nand her goddaughter  @MileyCyrus appeared 🤩\nPer Google AI:  The selected region shows a clip of Miley Cyrus and @DollyParton\nDolly Parton during an appearance on NBC's The Voice Season 11. The clip captures a fun, behind-the-scenes interaction between the two iconic musicians. Dolly Parton served as a real-life godmother an",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Snoopy, when I keyed in the GIF search field for \"Dolly Parton Snoopy\" to use a\u2026",
+          "title": "@Snoopy, when I keyed in the GIF search field for \"Dolly Parton Snoopy\" to use a…",
           "url": "https://x.com/Beggin2hnd2/status/2093472558544720270",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1208,7 +1158,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@ArcyloOfficial Fuck the musicians who can't take the competition. AI music is n\u2026",
+          "title": "@ArcyloOfficial Fuck the musicians who can't take the competition. AI music is n…",
           "url": "https://x.com/SebsterSpeaks/status/2093415152884359657",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1229,7 +1179,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Yep, it's AI. Someone sent it to us, we loved it and so we shared it. Amazing wh\u2026",
+          "title": "Yep, it's AI. Someone sent it to us, we loved it and so we shared it. Amazing wh…",
           "url": "https://x.com/Rowdy_House/status/2093494012908892555",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1250,7 +1200,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Fair enough. Until very recently, musicians weren't expected to also be photogra\u2026",
+          "title": "Fair enough. Until very recently, musicians weren't expected to also be photogra…",
           "url": "https://x.com/UncleFunkbeard/status/2093500399525277820",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1292,7 +1242,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Imagine...\n\"We are being discriminated because we use ai, we don't make real mus\u2026",
+          "title": "Imagine...\n\"We are being discriminated because we use ai, we don't make real mus…",
           "url": "https://x.com/HerrDrachenmann/status/2093436946605335017",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1313,7 +1263,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Hoodbilly_Rolla Many musicians on here are thin skinned, I'm an ASCAP songwrite\u2026",
+          "title": "@Hoodbilly_Rolla Many musicians on here are thin skinned, I'm an ASCAP songwrite…",
           "url": "https://x.com/Albatro05700291/status/2093432075533574534",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1328,13 +1278,13 @@
     },
     {
       "id": "l563",
-      "text": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the San\u0101tana Question of the Self",
+      "text": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the Sanātana Question of the Self",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the San\u0101tana Questio\u2026",
+          "title": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the Sanātana Questio…",
           "url": "https://x.com/nithinpalal/status/2086874531751489924",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1349,13 +1299,13 @@
     },
     {
       "id": "l564",
-      "text": "Some random thoughts on ai music/suno. I've used it enough now to comment without completely talking out of my ass on the subject. I type fast so long rambling post incoming. \ud83d\ude02\n\nNote: What I'm going to be talking about is just tech and real world use. Not the legal shit which is way above my pay grade. I'm a little bit of a tech nerd so this stuff is interesting from that stand point. Let the lawyers fight the legal battles. I have no financial dog in that hunt at all beyond the fact that Suno s",
+      "text": "Some random thoughts on ai music/suno. I've used it enough now to comment without completely talking out of my ass on the subject. I type fast so long rambling post incoming. 😂\n\nNote: What I'm going to be talking about is just tech and real world use. Not the legal shit which is way above my pay grade. I'm a little bit of a tech nerd so this stuff is interesting from that stand point. Let the lawyers fight the legal battles. I have no financial dog in that hunt at all beyond the fact that Suno s",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Some random thoughts on ai music/suno. I've used it enough now to comment withou\u2026",
+          "title": "Some random thoughts on ai music/suno. I've used it enough now to comment withou…",
           "url": "https://x.com/dmnguitarist/status/2086142667931746584",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1370,13 +1320,13 @@
     },
     {
       "id": "l565",
-      "text": "Every video emerging from Nepal is somehow even scarier than the last. A peaceful valley under a bright, completely normal sky \u2014 then a wall of water, mud and ice just erases everything in its path.\n\nThis is exactly why we urgently need purpose-built AI models for the Himalayas: ones that continuously fuse satellite imagery, InSAR, seismic signals, glacier thickness, permafrost thaw and river gauges to detect collapse precursors and give communities even 20\u201340 minutes of warning. These events ar",
+      "text": "Every video emerging from Nepal is somehow even scarier than the last. A peaceful valley under a bright, completely normal sky — then a wall of water, mud and ice just erases everything in its path.\n\nThis is exactly why we urgently need purpose-built AI models for the Himalayas: ones that continuously fuse satellite imagery, InSAR, seismic signals, glacier thickness, permafrost thaw and river gauges to detect collapse precursors and give communities even 20–40 minutes of warning. These events ar",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Every video emerging from Nepal is somehow even scarier than the last. A peacefu\u2026",
+          "title": "Every video emerging from Nepal is somehow even scarier than the last. A peacefu…",
           "url": "https://x.com/nithinpalal/status/2093374571173056730",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1412,13 +1362,13 @@
     },
     {
       "id": "l567",
-      "text": "Philosophy sets the destination. Enforcement is the road, the budget, and the people who actually have to drive it.\n\nUAE treated AI ethics as infrastructure, not a conference talking point. Egypt is still fighting over the basics of R&D funding. That\u2019s not a philosophy problem. That\u2019s a capacity and priority problem.\n\nPanels are cheap. Building the institutions that can actually say no to an algorithm is expensive.",
+      "text": "Philosophy sets the destination. Enforcement is the road, the budget, and the people who actually have to drive it.\n\nUAE treated AI ethics as infrastructure, not a conference talking point. Egypt is still fighting over the basics of R&D funding. That’s not a philosophy problem. That’s a capacity and priority problem.\n\nPanels are cheap. Building the institutions that can actually say no to an algorithm is expensive.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Philosophy sets the destination. Enforcement is the road, the budget, and the pe\u2026",
+          "title": "Philosophy sets the destination. Enforcement is the road, the budget, and the pe…",
           "url": "https://x.com/nithinpalal/status/2092899545399324997",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1439,7 +1389,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@nithinpalal Philosophy's easy. Enforcement is hard. UAE tied AI ethics to actua\u2026",
+          "title": "@nithinpalal Philosophy's easy. Enforcement is hard. UAE tied AI ethics to actua…",
           "url": "https://x.com/Rami_Bball_Fan/status/2092897992416149875",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1475,13 +1425,13 @@
     },
     {
       "id": "l570",
-      "text": "Global icon and humanitarian, Dolly Parton, known to the world as a beloved singer, songwriter, philanthropist, actress, playwright, and author died peacefully today in Nashville, Tennessee. She was 80 years old.\n \nDolly is preceded in death by her beloved husband of 59 years Carl Thomas Dean (1942 \u2013 2025), her mother Avie Lee Caroline Owens (1923 \u2013 2003), and father, Robert Lee Parton, Sr. (1921 \u2013 2000). \n \nA rhinestone life that shone bright enough for the world to see, Dolly will forever stan",
+      "text": "Global icon and humanitarian, Dolly Parton, known to the world as a beloved singer, songwriter, philanthropist, actress, playwright, and author died peacefully today in Nashville, Tennessee. She was 80 years old.\n \nDolly is preceded in death by her beloved husband of 59 years Carl Thomas Dean (1942 – 2025), her mother Avie Lee Caroline Owens (1923 – 2003), and father, Robert Lee Parton, Sr. (1921 – 2000). \n \nA rhinestone life that shone bright enough for the world to see, Dolly will forever stan",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Global icon and humanitarian, Dolly Parton, known to the world as a beloved sing\u2026",
+          "title": "Global icon and humanitarian, Dolly Parton, known to the world as a beloved sing…",
           "url": "https://x.com/DollyParton/status/2092329891350159576",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1517,13 +1467,13 @@
     },
     {
       "id": "l572",
-      "text": "MIURO\u2019s Value for Creators and Developers: From Miuro Box to AI-native Creator Token Economy",
+      "text": "MIURO’s Value for Creators and Developers: From Miuro Box to AI-native Creator Token Economy",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "MIURO\u2019s Value for Creators and Developers: From Miuro Box to AI-native Creator T\u2026",
+          "title": "MIURO’s Value for Creators and Developers: From Miuro Box to AI-native Creator T…",
           "url": "https://x.com/MiuroAI/status/2060192922973393395",
           "date": "2026-05-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1538,13 +1488,13 @@
     },
     {
       "id": "l573",
-      "text": "@nithinpalal @anilkantony @BJP4India @NitinNabin @narendramodi @mansukhmandviya @rajnathsingh @smritiirani @Stanford @StanfordAILab I\u2019m trying my best and they leave no choice with decisions being made so superficial that instead of strengthening end up exposing intelligence that is artificial and thereby consequences we will have to bear if not addressed immediately",
+      "text": "@nithinpalal @anilkantony @BJP4India @NitinNabin @narendramodi @mansukhmandviya @rajnathsingh @smritiirani @Stanford @StanfordAILab I’m trying my best and they leave no choice with decisions being made so superficial that instead of strengthening end up exposing intelligence that is artificial and thereby consequences we will have to bear if not addressed immediately",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@nithinpalal @anilkantony @BJP4India @NitinNabin @narendramodi @mansukhmandviya \u2026",
+          "title": "@nithinpalal @anilkantony @BJP4India @NitinNabin @narendramodi @mansukhmandviya …",
           "url": "https://x.com/mbajaj20/status/2091760055599374755",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1580,13 +1530,13 @@
     },
     {
       "id": "l575",
-      "text": "What Will End in the Age of AI: Voice, Music, and the Illusion of Manufactured Success\n\nAI now speaks, sings, acts, and composes.\n\nNot long ago, AI-generated singing and synthetic voices were often dismissed as \u201cstill unnatural\u201d or \u201cnot yet close to human performance.\u201d But that stage is already passing. AI singers, AI bands, AI narrators, and AI voice actors are no longer unusual. AI-generated songs are entering streaming platforms in massive numbers, and synthetic voices are becoming part of th",
+      "text": "What Will End in the Age of AI: Voice, Music, and the Illusion of Manufactured Success\n\nAI now speaks, sings, acts, and composes.\n\nNot long ago, AI-generated singing and synthetic voices were often dismissed as “still unnatural” or “not yet close to human performance.” But that stage is already passing. AI singers, AI bands, AI narrators, and AI voice actors are no longer unusual. AI-generated songs are entering streaming platforms in massive numbers, and synthetic voices are becoming part of th",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "What Will End in the Age of AI: Voice, Music, and the Illusion of Manufactured S\u2026",
+          "title": "What Will End in the Age of AI: Voice, Music, and the Illusion of Manufactured S…",
           "url": "https://x.com/HirokoKonishi/status/2060239679501562150",
           "date": "2026-05-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1601,13 +1551,13 @@
     },
     {
       "id": "l576",
-      "text": "43 years of \u201cIslands In the Stream!\u201d \ud83d\udc96 @_KennyRogers https://t.co/AC1zUjrCDN",
+      "text": "43 years of “Islands In the Stream!” 💖 @_KennyRogers https://t.co/AC1zUjrCDN",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "43 years of \u201cIslands In the Stream!\u201d \ud83d\udc96 @_KennyRogers https://t.co/AC1zUjrCDN",
+          "title": "43 years of “Islands In the Stream!” 💖 @_KennyRogers https://t.co/AC1zUjrCDN",
           "url": "https://x.com/DollyParton/status/2088654408867254328",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1622,13 +1572,13 @@
     },
     {
       "id": "l577",
-      "text": "Love is like a butterfly\nAs soft and gentle as a sigh \ud83c\udfb6\ud83e\udd8b https://t.co/gV4NrwqhPB",
+      "text": "Love is like a butterfly\nAs soft and gentle as a sigh 🎶🦋 https://t.co/gV4NrwqhPB",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Love is like a butterfly\nAs soft and gentle as a sigh \ud83c\udfb6\ud83e\udd8b https://t.co/gV4NrwqhPB",
+          "title": "Love is like a butterfly\nAs soft and gentle as a sigh 🎶🦋 https://t.co/gV4NrwqhPB",
           "url": "https://x.com/DollyParton/status/2085089414959489222",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1643,13 +1593,13 @@
     },
     {
       "id": "l578",
-      "text": "Grab the mic... it's International Karaoke Day! \ud83c\udfa4\u2728 Sing along to classics like \"9 to 5,\" \"Jolene,\" and \"Islands in the Stream\" with my Greatest Hits (Official Karaoke Versions) EP. https://t.co/DdWY6DHWl4 https://t.co/iTb1qRZpFb",
+      "text": "Grab the mic... it's International Karaoke Day! 🎤✨ Sing along to classics like \"9 to 5,\" \"Jolene,\" and \"Islands in the Stream\" with my Greatest Hits (Official Karaoke Versions) EP. https://t.co/DdWY6DHWl4 https://t.co/iTb1qRZpFb",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Grab the mic... it's International Karaoke Day! \ud83c\udfa4\u2728 Sing along to classics like \"\u2026",
+          "title": "Grab the mic... it's International Karaoke Day! 🎤✨ Sing along to classics like \"…",
           "url": "https://x.com/DollyParton/status/2078868238021054569",
           "date": "2026-07-19",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1664,13 +1614,13 @@
     },
     {
       "id": "l579",
-      "text": "Freedom is not the right to flatten every space into one. It is the intelligence to know which room you have entered.\n\nA beach has a grammar. An office has another. Eid, in this video, has one so non-negotiable that the question itself is treated as a threat. Hindu festivals and temples, meanwhile, are expected to absorb every experiment, every neckline, every branding exercise \u2014 and then apologise for having a memory.\n\nSanatana never said the body is sin. It said every space has dharma. What is",
+      "text": "Freedom is not the right to flatten every space into one. It is the intelligence to know which room you have entered.\n\nA beach has a grammar. An office has another. Eid, in this video, has one so non-negotiable that the question itself is treated as a threat. Hindu festivals and temples, meanwhile, are expected to absorb every experiment, every neckline, every branding exercise — and then apologise for having a memory.\n\nSanatana never said the body is sin. It said every space has dharma. What is",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Freedom is not the right to flatten every space into one. It is the intelligence\u2026",
+          "title": "Freedom is not the right to flatten every space into one. It is the intelligence…",
           "url": "https://x.com/nithinpalal/status/2093370433634787475",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1685,13 +1635,13 @@
     },
     {
       "id": "l580",
-      "text": "I feel glamorous on the inside, so I want to look like it on the outside. \ud83d\udc84\u2728 https://t.co/qiOCiENTIm",
+      "text": "I feel glamorous on the inside, so I want to look like it on the outside. 💄✨ https://t.co/qiOCiENTIm",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I feel glamorous on the inside, so I want to look like it on the outside. \ud83d\udc84\u2728 htt\u2026",
+          "title": "I feel glamorous on the inside, so I want to look like it on the outside. 💄✨ htt…",
           "url": "https://x.com/DollyParton/status/2082551877929935275",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1712,7 +1662,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The argument treats intelligence as an unlimited good whose only constraint is e\u2026",
+          "title": "The argument treats intelligence as an unlimited good whose only constraint is e…",
           "url": "https://x.com/nithinpalal/status/2093005138151809358",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1727,13 +1677,13 @@
     },
     {
       "id": "l582",
-      "text": "Anybody wanna go to a party with me? \ud83e\udd20 https://t.co/f9mp3L0yF2",
+      "text": "Anybody wanna go to a party with me? 🤠 https://t.co/f9mp3L0yF2",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Anybody wanna go to a party with me? \ud83e\udd20 https://t.co/f9mp3L0yF2",
+          "title": "Anybody wanna go to a party with me? 🤠 https://t.co/f9mp3L0yF2",
           "url": "https://x.com/DollyParton/status/2080670799262822661",
           "date": "2026-07-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1748,13 +1698,13 @@
     },
     {
       "id": "l583",
-      "text": "Chautauqua, NY! Threads: My Songs in Symphony comes to the Chautauqua Symphony Orchestra next Saturday, August 1st. Hear classics like \u201cJolene,\u201d \u201cCoat of Many Colors\u201d and \u201cI Will Always Love You\u201d reimagined with the power of a live orchestra. Get your tickets now! https://t.co/NcMdVka6d5",
+      "text": "Chautauqua, NY! Threads: My Songs in Symphony comes to the Chautauqua Symphony Orchestra next Saturday, August 1st. Hear classics like “Jolene,” “Coat of Many Colors” and “I Will Always Love You” reimagined with the power of a live orchestra. Get your tickets now! https://t.co/NcMdVka6d5",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Chautauqua, NY! Threads: My Songs in Symphony comes to the Chautauqua Symphony O\u2026",
+          "title": "Chautauqua, NY! Threads: My Songs in Symphony comes to the Chautauqua Symphony O…",
           "url": "https://x.com/DollyParton/status/2080693778159902888",
           "date": "2026-07-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1775,7 +1725,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "ElevenMusic Refocuses AI-Human Collaboration - Bob's AI Music Briefing May 12, 2\u2026",
+          "title": "ElevenMusic Refocuses AI-Human Collaboration - Bob's AI Music Briefing May 12, 2…",
           "url": "https://x.com/ai_kills/status/2054303803298713730",
           "date": "2026-05-12",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1817,7 +1767,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@stan_niesman 3589.76\n\nbc1qtpmynhgt0rmc4u3u2hhyvfwau5crns0rv3q3j7\n\nIf you send t\u2026",
+          "title": "@stan_niesman 3589.76\n\nbc1qtpmynhgt0rmc4u3u2hhyvfwau5crns0rv3q3j7\n\nIf you send t…",
           "url": "https://x.com/GanjaScore/status/2093503517373653175",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1880,7 +1830,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@PaulyShore Bass Boost!!!! We thought they were so cool when you didn't need to \u2026",
+          "title": "@PaulyShore Bass Boost!!!! We thought they were so cool when you didn't need to …",
           "url": "https://x.com/GanjaScore/status/2093505300376486392",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1916,13 +1866,13 @@
     },
     {
       "id": "l591",
-      "text": "@stan_niesman \ud83d\ude14 yessss...sadly",
+      "text": "@stan_niesman 😔 yessss...sadly",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@stan_niesman \ud83d\ude14 yessss...sadly",
+          "title": "@stan_niesman 😔 yessss...sadly",
           "url": "https://x.com/GanjaScore/status/2093504453437517920",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1943,7 +1893,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@o4america @coletonfurlow The new Republican party, is the Pedophilican party.\n\n\u2026",
+          "title": "@o4america @coletonfurlow The new Republican party, is the Pedophilican party.\n\n…",
           "url": "https://x.com/GanjaScore/status/2093504127833633189",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1985,7 +1935,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Sure, coming from the party of groomers and pedos?\nYou literally groom them in s\u2026",
+          "title": "Sure, coming from the party of groomers and pedos?\nYou literally groom them in s…",
           "url": "https://x.com/o4america/status/2093506294552396144",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -2000,13 +1950,13 @@
     },
     {
       "id": "l595",
-      "text": "@GanjaScore \ud83e\uddd0\ud83e\uddd0",
+      "text": "@GanjaScore 🧐🧐",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@GanjaScore \ud83e\uddd0\ud83e\uddd0",
+          "title": "@GanjaScore 🧐🧐",
           "url": "https://x.com/stan_niesman/status/2093494271852581096",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -2063,13 +2013,13 @@
     },
     {
       "id": "l598",
-      "text": "@thedailybeast We will always love you \u2014 @DollyParton\nhttps://t.co/LBrVrC8VsY",
+      "text": "@thedailybeast We will always love you — @DollyParton\nhttps://t.co/LBrVrC8VsY",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@thedailybeast We will always love you \u2014 @DollyParton\nhttps://t.co/LBrVrC8VsY",
+          "title": "@thedailybeast We will always love you — @DollyParton\nhttps://t.co/LBrVrC8VsY",
           "url": "https://x.com/lelandcpiccola/status/2093506389352255755",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -2105,13 +2055,13 @@
     },
     {
       "id": "l5100",
-      "text": "DIM\u0100G\u012a SAN\u0100TAN\u012a: The Architecture of Durability",
+      "text": "DIMĀGĪ SANĀTANĪ: The Architecture of Durability",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "DIM\u0100G\u012a SAN\u0100TAN\u012a: The Architecture of Durability",
+          "title": "DIMĀGĪ SANĀTANĪ: The Architecture of Durability",
           "url": "https://x.com/nithinpalal/status/2093194914167480510",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -2126,13 +2076,13 @@
     },
     {
       "id": "l5101",
-      "text": "@i_mika_el This is the part most people skip. Values that live only in the founder\u2019s head or the early team\u2019s Slack disappear the moment those people leave or get outvoted. The system has to make the shortcut expensive even when no one who originally cared is still in the room.",
+      "text": "@i_mika_el This is the part most people skip. Values that live only in the founder’s head or the early team’s Slack disappear the moment those people leave or get outvoted. The system has to make the shortcut expensive even when no one who originally cared is still in the room.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@i_mika_el This is the part most people skip. Values that live only in the found\u2026",
+          "title": "@i_mika_el This is the part most people skip. Values that live only in the found…",
           "url": "https://x.com/nithinpalal/status/2092900041078059142",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -2147,13 +2097,13 @@
     },
     {
       "id": "l5102",
-      "text": "@GanjaScore @actingliketommy Under her breath\u2026 Okay then bye grandpa!",
+      "text": "@GanjaScore @actingliketommy Under her breath… Okay then bye grandpa!",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@GanjaScore @actingliketommy Under her breath\u2026 Okay then bye grandpa!",
+          "title": "@GanjaScore @actingliketommy Under her breath… Okay then bye grandpa!",
           "url": "https://x.com/johnforchione/status/2093445613019173006",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -2168,13 +2118,13 @@
     },
     {
       "id": "l5103",
-      "text": "DIM\u0100G\u012a SAN\u0100TAN\u012a: The Architecture of Belonging",
+      "text": "DIMĀGĪ SANĀTANĪ: The Architecture of Belonging",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "DIM\u0100G\u012a SAN\u0100TAN\u012a: The Architecture of Belonging",
+          "title": "DIMĀGĪ SANĀTANĪ: The Architecture of Belonging",
           "url": "https://x.com/nithinpalal/status/2092957860225577436",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -2210,13 +2160,13 @@
     },
     {
       "id": "l5105",
-      "text": "Owner + expiry is the only thing that keeps an exception from becoming folklore. Countries do this constantly. Emergency measures, wartime rules, and \u201cjust this once\u201d statutes stay on the books long after everyone who understood why they existed is gone. The next generation just inherits them as the new default.",
+      "text": "Owner + expiry is the only thing that keeps an exception from becoming folklore. Countries do this constantly. Emergency measures, wartime rules, and “just this once” statutes stay on the books long after everyone who understood why they existed is gone. The next generation just inherits them as the new default.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Owner + expiry is the only thing that keeps an exception from becoming folklore.\u2026",
+          "title": "Owner + expiry is the only thing that keeps an exception from becoming folklore.…",
           "url": "https://x.com/nithinpalal/status/2092941821605466507",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -2237,7 +2187,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@nithinpalal Then every exception needs an owner and an expiry date. Otherwise t\u2026",
+          "title": "@nithinpalal Then every exception needs an owner and an expiry date. Otherwise t…",
           "url": "https://x.com/i_mika_el/status/2092922708715577716",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -2258,7 +2208,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@nithinpalal Dharma needs to be encoded into incentives and enforcement. Otherwi\u2026",
+          "title": "@nithinpalal Dharma needs to be encoded into incentives and enforcement. Otherwi…",
           "url": "https://x.com/i_mika_el/status/2092898074033103174",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -2279,7 +2229,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@nithinpalal @RahulGandhi With 2 terms of BJP and third in progress should you n\u2026",
+          "title": "@nithinpalal @RahulGandhi With 2 terms of BJP and third in progress should you n…",
           "url": "https://x.com/Bsrikschennai/status/2090428173381189729",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -2300,7 +2250,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The UK government's progress update on AI & copyright: a small win for creatives\u2026",
+          "title": "The UK government's progress update on AI & copyright: a small win for creatives…",
           "url": "https://x.com/ednewtonrex/status/2034565138301239726",
           "date": "2026-03-19",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -2321,7 +2271,7 @@
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Is AI destroying music?\nMusicians, singers, producers, and writers, you don't an\u2026",
+          "title": "Is AI destroying music?\nMusicians, singers, producers, and writers, you don't an…",
           "url": "https://www.youtube.com/watch?v=zdJkIWNJQZM",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2391,6 +2341,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

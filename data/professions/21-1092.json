@@ -17,64 +17,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "21-1092-01",
-      "text": "National peak professional bodies and statutory regulators governing Probation Officers and Correctional Treatment Specialists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Probation Officers and Correctional Treatment Specialists",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Probation Officers and Correctional Treatment Specialists",
-          "url": "https://www.psc.gov.au/standards/21-1092",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Probation Officers and Correctional Treatment Specialists"
-        }
-      ],
-      "scope": "Australian practitioners in Probation Officers and Correctional Treatment Specialists across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "21-1092-02",
-      "text": "Automation of routine transactional and analytical tasks in Probation Officers and Correctional Treatment Specialists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Probation Officers and Correctional Treatment Specialists",
-          "url": "https://www.jobsandskills.gov.au/research/21-1092",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Probation Officers and Correctional Treatment Specialists in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Probation Officers and Correctional Treatment Specialists roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "Add Bon Air Journal blog themes (Hugo + WordPress) with CMS, SEO, and deployment wiring\n## What\n\nAdds `bonair-themes/` \u2014 blog platforms for bonairmedia.com in both candidate stacks:\n\n**Hugo \u2014 \"The Bon Air Journal\"** (`bonair-themes/hugo/`), the recommended path:\n- Custom editorial theme (`bonair-dark`): Fraunces serif masthead, Newsreader body, Space Grotesk nav/titles/CTAs, stroke-ico\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Re\u2026",
+      "text": "Add Bon Air Journal blog themes (Hugo + WordPress) with CMS, SEO, and deployment wiring\n## What\n\nAdds `bonair-themes/` — blog platforms for bonairmedia.com in both candidate stacks:\n\n**Hugo — \"The Bon Air Journal\"** (`bonair-themes/hugo/`), the recommended path:\n- Custom editorial theme (`bonair-dark`): Fraunces serif masthead, Newsreader body, Space Grotesk nav/titles/CTAs, stroke-ico\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Re…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add Bon Air Journal blog themes (Hugo + WordPress) with CMS, SEO, and deployment\u2026",
+          "title": "Add Bon Air Journal blog themes (Hugo + WordPress) with CMS, SEO, and deployment…",
           "url": "https://github.com/XtianBDevn/standishalexander.com/pull/1",
           "date": "2026-07-25",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -257,13 +207,13 @@
     },
     {
       "id": "l512",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -278,13 +228,13 @@
     },
     {
       "id": "l513",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -488,13 +438,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -530,13 +480,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -572,13 +522,13 @@
     },
     {
       "id": "l527",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -593,13 +543,13 @@
     },
     {
       "id": "l528",
-      "text": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI for putting watermarks on their prompts \"creations\"\nSources: https://www.reddit.com/r/ClaudeCode/comments/1vlclpn/claude_watermarking_our_work_is_unethical_and/ https://www.reddit.com/r/ClaudeAI/comments/1vlckt9/claude_watermarking_our_work_is_unethical_and/ HIGHLIGHTS THREAD 1 Most consumers would want to know if something that was created with AI tools, I don\u2019t see a problem with that. This is such a hopelessly ch\u2026",
+      "text": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI for putting watermarks on their prompts \"creations\"\nSources: https://www.reddit.com/r/ClaudeCode/comments/1vlclpn/claude_watermarking_our_work_is_unethical_and/ https://www.reddit.com/r/ClaudeAI/comments/1vlckt9/claude_watermarking_our_work_is_unethical_and/ HIGHLIGHTS THREAD 1 Most consumers would want to know if something that was created with AI tools, I don’t see a problem with that. This is such a hopelessly ch…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI\u2026",
+          "title": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI…",
           "url": "https://www.reddit.com/r/SubredditDrama/comments/1vlyeei/can_you_please_just_write_your_own_posts_op_makes/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -620,7 +570,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "This morning, I watched 35 probation officers graduate from the DOP Training Aca\u2026",
+          "title": "This morning, I watched 35 probation officers graduate from the DOP Training Aca…",
           "url": "https://x.com/NYCMayor/status/2093469865780678854",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -662,7 +612,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Thousands of New Yorkers woke yesterday to devastating news from home. Flooding \u2026",
+          "title": "Thousands of New Yorkers woke yesterday to devastating news from home. Flooding …",
           "url": "https://x.com/NYCMayor/status/2092975134533407216",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -683,7 +633,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "On Raksha Bandhan, a single thread symbolizes a powerful promise: to protect, su\u2026",
+          "title": "On Raksha Bandhan, a single thread symbolizes a powerful promise: to protect, su…",
           "url": "https://x.com/NYCMayor/status/2093434885088113000",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -704,7 +654,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Did you know? Probation officers supervise individuals serving court-ordered sen\u2026",
+          "title": "Did you know? Probation officers supervise individuals serving court-ordered sen…",
           "url": "https://x.com/ABPublicSafety/status/2092296180239831076",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -725,7 +675,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Nath22717146 @zatzi Nope. More Police Officers, more Prisons, more Probation Of\u2026",
+          "title": "@Nath22717146 @zatzi Nope. More Police Officers, more Prisons, more Probation Of…",
           "url": "https://x.com/NadaSurfed/status/2093365564714414229",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -746,7 +696,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "\"I was browsing Civil Service Jobs yesterday, there are numerous vacancies payin\u2026",
+          "title": "\"I was browsing Civil Service Jobs yesterday, there are numerous vacancies payin…",
           "url": "https://x.com/jimbrownblog/status/2092539906711077184",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -767,7 +717,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "It raised questions about the effectiveness of electronic ankle monitors by show\u2026",
+          "title": "It raised questions about the effectiveness of electronic ankle monitors by show…",
           "url": "https://x.com/lee_lee033/status/2093554149984006488",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -782,13 +732,13 @@
     },
     {
       "id": "l537",
-      "text": "New Yorkers: Thunderstorms could bring heavy rain and damaging winds to our city tomorrow, beginning late morning and continuing into the evening.\n\nIf conditions are dangerous, please wait to travel. Never drive through floodwaters. If you\u2019re in immediate danger, call 911. Report downed trees, blocked catch basins and other nonemergency hazards to 311.\n\nOur agencies are preparing our streets to clear stormwater quickly, and emergency crews are ready to respond. \n\nLook out for your neighbors, use",
+      "text": "New Yorkers: Thunderstorms could bring heavy rain and damaging winds to our city tomorrow, beginning late morning and continuing into the evening.\n\nIf conditions are dangerous, please wait to travel. Never drive through floodwaters. If you’re in immediate danger, call 911. Report downed trees, blocked catch basins and other nonemergency hazards to 311.\n\nOur agencies are preparing our streets to clear stormwater quickly, and emergency crews are ready to respond. \n\nLook out for your neighbors, use",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "New Yorkers: Thunderstorms could bring heavy rain and damaging winds to our city\u2026",
+          "title": "New Yorkers: Thunderstorms could bring heavy rain and damaging winds to our city…",
           "url": "https://x.com/NYCMayor/status/2092808392070885404",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -824,13 +774,13 @@
     },
     {
       "id": "l539",
-      "text": "These are the questions reporters should be asking. \n\nThe Better questions are why are these lunatics in charge of these companies that are ruining our lives, running for Congress and actually sitting in Congress, are actual sitting judges, probation officers, police officers, teachers, and other people with the positions of power over everyday citizens. \n\nWe\u2019re not gonna vote our way out of this.",
+      "text": "These are the questions reporters should be asking. \n\nThe Better questions are why are these lunatics in charge of these companies that are ruining our lives, running for Congress and actually sitting in Congress, are actual sitting judges, probation officers, police officers, teachers, and other people with the positions of power over everyday citizens. \n\nWe’re not gonna vote our way out of this.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "These are the questions reporters should be asking. \n\nThe Better questions are w\u2026",
+          "title": "These are the questions reporters should be asking. \n\nThe Better questions are w…",
           "url": "https://x.com/QTWIQ/status/2093128647196447115",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -845,13 +795,13 @@
     },
     {
       "id": "l540",
-      "text": "@A_TailGator @UinMiami The ticket probation officers when Ricky messes up around week six\u2026 https://t.co/6vQDHg3MyN",
+      "text": "@A_TailGator @UinMiami The ticket probation officers when Ricky messes up around week six… https://t.co/6vQDHg3MyN",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@A_TailGator @UinMiami The ticket probation officers when Ricky messes up around\u2026",
+          "title": "@A_TailGator @UinMiami The ticket probation officers when Ricky messes up around…",
           "url": "https://x.com/ChristophersZen/status/2093067381505503690",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -866,13 +816,13 @@
     },
     {
       "id": "l541",
-      "text": "This landmark settlement is a powerful step toward holding Big Tech accountable.\n\nI applaud AG James for taking on corporate greed and fighting to put New York\u2019s children first.",
+      "text": "This landmark settlement is a powerful step toward holding Big Tech accountable.\n\nI applaud AG James for taking on corporate greed and fighting to put New York’s children first.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This landmark settlement is a powerful step toward holding Big Tech accountable.\u2026",
+          "title": "This landmark settlement is a powerful step toward holding Big Tech accountable.…",
           "url": "https://x.com/NYCMayor/status/2093081026910183892",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -887,13 +837,13 @@
     },
     {
       "id": "l542",
-      "text": "Thank you @NYCMayor for helping us celebrate such an important milestone for NYC Probation! We were honored to have the you join us and address our newest Probation Officers as they begin this next chapter of service to New York City. \ud83d\udc99\ud83e\udde1",
+      "text": "Thank you @NYCMayor for helping us celebrate such an important milestone for NYC Probation! We were honored to have the you join us and address our newest Probation Officers as they begin this next chapter of service to New York City. 💙🧡",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Thank you @NYCMayor for helping us celebrate such an important milestone for NYC\u2026",
+          "title": "Thank you @NYCMayor for helping us celebrate such an important milestone for NYC…",
           "url": "https://x.com/nycprobation/status/2093483757734904077",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -929,13 +879,13 @@
     },
     {
       "id": "l544",
-      "text": "\u0939\u091c\u093e\u0930\u094c\u0901 \u0928\u094d\u092f\u0942\u092f\u094b\u0930\u094d\u0915\u0935\u093e\u0938\u0940\u0939\u0930\u0942 \u0939\u093f\u091c\u094b \u0906\u092b\u094d\u0928\u094b \u092e\u093e\u0924\u0943\u092d\u0942\u092e\u093f\u092c\u093e\u091f \u0906\u090f\u0915\u094b \u0939\u0943\u0926\u092f\u0935\u093f\u0926\u093e\u0930\u0915 \u0916\u092c\u0930\u0938\u0901\u0917\u0948 \u0909\u0920\u0947\u0964 \u0928\u0947\u092a\u093e\u0932\u2013\u0924\u093f\u092c\u094d\u092c\u0924 \u0938\u0940\u092e\u093e\u0935\u0930\u094d\u0924\u0940 \u0915\u094d\u0937\u0947\u0924\u094d\u0930\u092e\u093e \u0906\u090f\u0915\u094b \u0935\u093f\u0928\u093e\u0936\u0915\u093e\u0930\u0940 \u092c\u093e\u0922\u0940\u0932\u0947 \u0938\u092f\u094c\u0901 \u091c\u0940\u0935\u0928 \u0917\u0941\u092e\u093e\u090f\u0915\u094b \u091b, \u0930 \u0905\u091d\u0948 \u092c\u0947\u092a\u0924\u094d\u0924\u093e\u202f \u092d\u090f\u0915\u093e \u092a\u094d\u0930\u093f\u092f\u091c\u0928\u0939\u0930\u0942\u0915\u094b \u0916\u094b\u091c\u0940\u0915\u093e\u0930\u094d\u092f\u202f \u0928\u093f\u0930\u0928\u094d\u0924\u0930 \u091c\u093e\u0930\u0940 \u091b\u0964\n\u00a0\n\u0939\u093e\u092e\u094d\u0930\u093e \u0928\u0947\u092a\u093e\u0932\u0940 \u0930 \u0924\u093f\u092c\u094d\u092c\u0924\u0940 \u091b\u093f\u092e\u0947\u0915\u0940\u0939\u0930\u0942\u092a\u094d\u0930\u0924\u093f: \u0906\u092b\u0942\u0932\u0947 \u091b\u094b\u0921\u0947\u0930 \u0906\u090f \u092a\u0928\u093f \u092e\u0928 \u0930 \u0938\u092e\u094d\u091d\u0928\u093e\u092e\u093e \u0938\u0927\u0948\u0901 \u0906\u092b\u094d\u0928\u094b \u0918\u0930 \u092d\u090f\u0930 \u092c\u0938\u093f\u0930\u0939\u0928\u0947 \u0920\u093e\u0909\u0901 \u0917\u0941\u092e\u093e\u0909\u0901\u0926\u093e\u0915\u094b \u092a\u0940\u0921\u093e \u092f\u094b\u202f\u0936\u0939\u0930\u0932\u0947 \u0917\u0939\u093f\u0930\u094b\u0938\u0901\u0917 \u092c\u0941\u091d\u094d\u0926\u091b \u0964 \u092f\u094b \u0926\u0941\u0903\u0916 \u0930 \u0936\u094b\u0915 \u0924\u092a\u093e\u0908\u0939\u0930\u0942\u0932\u0947\u202f \u090f\u0915\u094d\u0932\u0948 \u092c\u094b\u0915\u094d\u0928\u0941\u092a\u0930\u094d\u0926\u0948\u0928\u0964 \u092f\u0938 \u0915\u0920\u093f\u0928 \u0918\u0921\u0940\u092e\u093e\u202f \u0928\u094d\u092f\u0942\u092f\u094b\u0930\u094d\u0915 \u0936\u0939\u0930 \u0924\u092a\u093e\u0908\u0939\u0930\u0942\u0915\u094b \u0938\u093e\u0925\u092e\u093e\u202f \u091b\u0964",
+      "text": "हजारौँ न्यूयोर्कवासीहरू हिजो आफ्नो मातृभूमिबाट आएको हृदयविदारक खबरसँगै उठे। नेपाल–तिब्बत सीमावर्ती क्षेत्रमा आएको विनाशकारी बाढीले सयौँ जीवन गुमाएको छ, र अझै बेपत्ता  भएका प्रियजनहरूको खोजीकार्य  निरन्तर जारी छ।\n \nहाम्रा नेपाली र तिब्बती छिमेकीहरूप्रति: आफूले छोडेर आए पनि मन र सम्झनामा सधैँ आफ्नो घर भएर बसिरहने ठाउँ गुमाउँदाको पीडा यो शहरले गहिरोसँग बुझ्दछ । यो दुःख र शोक तपाईहरूले  एक्लै बोक्नुपर्दैन। यस कठिन घडीमा  न्यूयोर्क शहर तपाईहरूको साथमा  छ।",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u0939\u091c\u093e\u0930\u094c\u0901 \u0928\u094d\u092f\u0942\u092f\u094b\u0930\u094d\u0915\u0935\u093e\u0938\u0940\u0939\u0930\u0942 \u0939\u093f\u091c\u094b \u0906\u092b\u094d\u0928\u094b \u092e\u093e\u0924\u0943\u092d\u0942\u092e\u093f\u092c\u093e\u091f \u0906\u090f\u0915\u094b \u0939\u0943\u0926\u092f\u0935\u093f\u0926\u093e\u0930\u0915 \u0916\u092c\u0930\u0938\u0901\u0917\u0948 \u0909\u0920\u0947\u0964 \u0928\u0947\u092a\u093e\u2026",
+          "title": "हजारौँ न्यूयोर्कवासीहरू हिजो आफ्नो मातृभूमिबाट आएको हृदयविदारक खबरसँगै उठे। नेपा…",
           "url": "https://x.com/NYCMayor/status/2093036285032022439",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -950,13 +900,13 @@
     },
     {
       "id": "l545",
-      "text": "@Perky_43 I assume the Govt is massively increasing the number of probation officers to cope with the early releases of dangerous criminals? If not, there\u2019s no way they\u2019ll be able to monitor them effectively.",
+      "text": "@Perky_43 I assume the Govt is massively increasing the number of probation officers to cope with the early releases of dangerous criminals? If not, there’s no way they’ll be able to monitor them effectively.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Perky_43 I assume the Govt is massively increasing the number of probation offi\u2026",
+          "title": "@Perky_43 I assume the Govt is massively increasing the number of probation offi…",
           "url": "https://x.com/Pendles_Nina/status/2092516682547769656",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -971,13 +921,13 @@
     },
     {
       "id": "l546",
-      "text": "Reading todays Jim Brown Blog \u2018Probation has Leverage\u2019 and the stark facts published by @HMPPS that Probation are down by nearly 2000 Probation Officers . What possibly could go wrong ?  Then  I\u2019m reminded of this contract which was awarded recently out of MOJ central funds. https://t.co/HvZ9VgqSIq",
+      "text": "Reading todays Jim Brown Blog ‘Probation has Leverage’ and the stark facts published by @HMPPS that Probation are down by nearly 2000 Probation Officers . What possibly could go wrong ?  Then  I’m reminded of this contract which was awarded recently out of MOJ central funds. https://t.co/HvZ9VgqSIq",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Reading todays Jim Brown Blog \u2018Probation has Leverage\u2019 and the stark facts publi\u2026",
+          "title": "Reading todays Jim Brown Blog ‘Probation has Leverage’ and the stark facts publi…",
           "url": "https://x.com/IanGould5/status/2092651672774291819",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -992,13 +942,13 @@
     },
     {
       "id": "l547",
-      "text": "\u0f53\u0f72\u0f60\u0f74\u0f0b\u0f61\u0f7c\u0f42\u0f0b\u0f42\u0f53\u0f66\u0f0b\u0f66\u0fa1\u0f7c\u0f51\u0f0b\u0f58\u0f72\u0f0b\u0f58\u0f44\u0f0b\u0f54\u0f7c\u0f0b\u0f5e\u0f72\u0f42\u0f0b\u0f41\u0f0b\u0f66\u0f44\u0f0b\u0f62\u0f44\u0f0b\u0f49\u0f72\u0f51\u0f0b\u0f40\u0fb1\u0f72\u0f0b\u0f55\u0f0b\u0f61\u0f74\u0f63\u0f0b\u0f53\u0f66\u0f0b\u0f66\u0f7a\u0f58\u0f66\u0f0b\u0f66\u0f90\u0fb1\u0f7c\u0f0b\u0f56\u0f60\u0f72\u0f0b\u0f42\u0f4f\u0f58\u0f0b\u0f44\u0f53\u0f0b\u0f50\u0f7c\u0f66\u0f0b\u0f61\u0f7c\u0f51\u0f0d \u0f56\u0f63\u0f0b\u0f61\u0f74\u0f63\u0f0b\u0f51\u0f44\u0f0b\u0f56\u0f7c\u0f51\u0f0b\u0f40\u0fb1\u0f72\u0f0b\u0f66\u0f0b\u0f58\u0f5a\u0f58\u0f66\u0f0b\u0f41\u0f74\u0f63\u0f0b\u0f51\u0f74\u0f0b\u0f46\u0f74\u0f0b\u0f63\u0f7c\u0f42\u0f0b\u0f56\u0fb1\u0f74\u0f44\u0f0b\u0f53\u0f66\u0f0b\u0f58\u0f72\u0f0b\u0f56\u0f62\u0f92\u0fb1\u0f0b\u0f55\u0fb2\u0f42\u0f0b\u0f58\u0f44\u0f0b\u0f54\u0f7c\u0f60\u0f72\u0f0b\u0f66\u0fb2\u0f7c\u0f42\u0f0b\u0f64\u0f7c\u0f62\u0f0b\u0f61\u0f7c\u0f51\u0f0b\u0f54\u0f0b\u0f51\u0f44\u0f0b\u0f0d \u0f51\u0f0b\u0f51\u0f74\u0f44\u0f0b\u0f42\u0f62\u0f0b\u0f66\u0f7c\u0f44\u0f0b\u0f58\u0f7a\u0f51\u0f0b\u0f54\u0f60\u0f72\u0f0b\u0f58\u0f72\u0f0b\u0f62\u0fa3\u0f58\u0f66\u0f0b\u0f58\u0f74\u0f0b\u0f58\u0f50\u0f74\u0f51\u0f0b\u0f60\u0f5a\u0f7c\u0f63\u0f0b\u0f56\u0f5e\u0f72\u0f53\u0f0b\u0f60\u0f51\u0f74\u0f42\u0f0d\n\n\u0f56\u0f63\u0f0b\u0f61\u0f74\u0f63\u0f0b\u0f51\u0f44\u0f0b\u0f56\u0f7c\u0f51\u0f0b\u0f53\u0f66\u0f0b\u0f61\u0f72\u0f53\u0f0b\u0f54\u0f60\u0f72\u0f0b\u0f61\u0f74\u0f63\u0f0b\u0f58\u0f72\u0f0b\u0f62\u0fa3\u0f58\u0f66\u0f0b\u0f63\u0f42\u0f66\u0f0d \u0f41\u0fb1\u0f7a\u0f51\u0f0b\u0f62\u0fa3\u0f58\u0f0b\u0f54\u0f60\u0f72\u0f0b\u0f66\u0f7a\u0f58\u0f66\u0f0b\u0f53\u0f44\u0f0b\u0f60\u0f5a\u0f7c\u0f62\u0f0b\u0f56\u0f5e\u0f72\u0f53\u0f0b\u0f54\u0f60\u0f72\u0f0b\u0f66\u0f7a\u0f58\u0f66\u0f0b\u0f66\u0fa1\u0f74\u0f42\u0f0b\u0f60\u0f51\u0f72\u0f0b\u0f44\u0f0b\u0f5a\u0f7c\u0f60\u0f72\u0f0b\u0f42\u0fb2\u0f7c\u0f44\u0f0b\u0f41\u0fb1\u0f7a\u0f62\u0f0b\u0f53\u0f66\u0f0b\u0f64\u0f7a\u0f66\u0f0b\u0f40\u0fb1\u0f72\u0f0b\u0f61\u0f7c\u0f51\u0f0b\u0f63\u0f42\u0f66\u0f0b\u0f60\u0f5a\u0f7c\u0f62\u0f0b\u0f42\u0fb1\u0f72\u0f0b\u0f61\u0f7c\u0f51\u0f0d \u0f51\u0f40\u0f60\u0f0b\u0f44\u0f63\u0f0b\u0f46\u0f7a\u0f0b\u0f56\u0f60\u0f72\u0f0b\u0f51\u0f74\u0f66\u0f0b\u0f5a\u0f7c\u0f51\u0f0b\u0f60\u0f51\u0f72\u0f62\u0f0b\u0f41\u0fb1\u0f7a\u0f51\u0f0b\u0f62\u0fa3\u0f58\u0f0b\u0f54\u0f0b\u0f42\u0f45\u0f72\u0f42\u0f0b\u0f54\u0f74\u0f0b\u0f58\u0f72\u0f53\u0f0d \u0f41\u0fb1\u0f7a\u0f51\u0f0b\u0f62\u0fa3\u0f58\u0f0b\u0f54\u0f0b\u0f51\u0f44\u0f0b\u0f58\u0f49\u0f58\u0f0b\u0f51\u0f74\u0f0b\u0f53\u0f72\u0f60\u0f74\u0f0b\u0f61\u0f7c\u0f42\u0f0b\u0f42\u0fb2\u0f7c\u0f44\u0f0b\u0f41\u0fb1\u0f7a\u0f62\u0f0b\u0f61\u0f44\u0f0b\u0f61\u0f7c\u0f51\u0f0d",
+      "text": "ནིའུ་ཡོག་གནས་སྡོད་མི་མང་པོ་ཞིག་ཁ་སང་རང་ཉིད་ཀྱི་ཕ་ཡུལ་ནས་སེམས་སྐྱོ་བའི་གཏམ་ངན་ཐོས་ཡོད། བལ་ཡུལ་དང་བོད་ཀྱི་ས་མཚམས་ཁུལ་དུ་ཆུ་ལོག་བྱུང་ནས་མི་བརྒྱ་ཕྲག་མང་པོའི་སྲོག་ཤོར་ཡོད་པ་དང་། ད་དུང་གར་སོང་མེད་པའི་མི་རྣམས་མུ་མཐུད་འཚོལ་བཞིན་འདུག།\n\nབལ་ཡུལ་དང་བོད་ནས་ཡིན་པའི་ཡུལ་མི་རྣམས་ལགས། ཁྱེད་རྣམ་པའི་སེམས་ནང་འཚོར་བཞིན་པའི་སེམས་སྡུག་འདི་ང་ཚོའི་གྲོང་ཁྱེར་ནས་ཤེས་ཀྱི་ཡོད་ལགས་འཚོར་གྱི་ཡོད། དཀའ་ངལ་ཆེ་བའི་དུས་ཚོད་འདིར་ཁྱེད་རྣམ་པ་གཅིག་པུ་མིན། ཁྱེད་རྣམ་པ་དང་མཉམ་དུ་ནིའུ་ཡོག་གྲོང་ཁྱེར་ཡང་ཡོད།",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u0f53\u0f72\u0f60\u0f74\u0f0b\u0f61\u0f7c\u0f42\u0f0b\u0f42\u0f53\u0f66\u0f0b\u0f66\u0fa1\u0f7c\u0f51\u0f0b\u0f58\u0f72\u0f0b\u0f58\u0f44\u0f0b\u0f54\u0f7c\u0f0b\u0f5e\u0f72\u0f42\u0f0b\u0f41\u0f0b\u0f66\u0f44\u0f0b\u0f62\u0f44\u0f0b\u0f49\u0f72\u0f51\u0f0b\u0f40\u0fb1\u0f72\u0f0b\u0f55\u0f0b\u0f61\u0f74\u0f63\u0f0b\u0f53\u0f66\u0f0b\u0f66\u0f7a\u0f58\u0f66\u0f0b\u0f66\u0f90\u0fb1\u0f7c\u0f0b\u0f56\u0f60\u0f72\u0f0b\u0f42\u0f4f\u0f58\u0f0b\u0f44\u0f53\u0f0b\u0f50\u0f7c\u0f66\u2026",
+          "title": "ནིའུ་ཡོག་གནས་སྡོད་མི་མང་པོ་ཞིག་ཁ་སང་རང་ཉིད་ཀྱི་ཕ་ཡུལ་ནས་སེམས་སྐྱོ་བའི་གཏམ་ངན་ཐོས…",
           "url": "https://x.com/NYCMayor/status/2093032793706315979",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1019,7 +969,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "$VLO $MPC $PSX $DINO Crap chop day for the GAI trade and the refiners finished s\u2026",
+          "title": "$VLO $MPC $PSX $DINO Crap chop day for the GAI trade and the refiners finished s…",
           "url": "https://x.com/TheValueist/status/2093448152615415967",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1034,13 +984,13 @@
     },
     {
       "id": "l549",
-      "text": "This Warsh presser was generally awful and a distraction. \n\u2014\u2014\u2014\u2014\n(Bloomberg) -- For one day at least, bond traders got the message they were waiting for as Federal Reserve Chairman Kevin Warshdoubled down on his vow to finally tame inflation that\u2019s outpaced the central bank\u2019s target for five straight years.\nThe tone of his Jackson Hole, Wyoming, speech wasn\u2019t new. But it was enough to dispel some of the doubts about the new Fed chief that this month helped drive long-dated Treasury yields to a ne",
+      "text": "This Warsh presser was generally awful and a distraction. \n————\n(Bloomberg) -- For one day at least, bond traders got the message they were waiting for as Federal Reserve Chairman Kevin Warshdoubled down on his vow to finally tame inflation that’s outpaced the central bank’s target for five straight years.\nThe tone of his Jackson Hole, Wyoming, speech wasn’t new. But it was enough to dispel some of the doubts about the new Fed chief that this month helped drive long-dated Treasury yields to a ne",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This Warsh presser was generally awful and a distraction. \n\u2014\u2014\u2014\u2014\n(Bloomberg) -- F\u2026",
+          "title": "This Warsh presser was generally awful and a distraction. \n————\n(Bloomberg) -- F…",
           "url": "https://x.com/TheValueist/status/2093446144479162754",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1055,13 +1005,13 @@
     },
     {
       "id": "l550",
-      "text": "@dennisottawa 70\u5206\u90fd\u592a\u6177\u6168\u4e86\uff0c\u571f\u7684\u6389\u6e23\uff0c\u5973\u6f14\u5458\u5f53\u4e2d\u53ea\u80fd\u7b97\u662f\u4e2a\u4e2d\u4e0b\u54c1",
+      "text": "@dennisottawa 70分都太慷慨了，土的掉渣，女演员当中只能算是个中下品",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@dennisottawa 70\u5206\u90fd\u592a\u6177\u6168\u4e86\uff0c\u571f\u7684\u6389\u6e23\uff0c\u5973\u6f14\u5458\u5f53\u4e2d\u53ea\u80fd\u7b97\u662f\u4e2a\u4e2d\u4e0b\u54c1",
+          "title": "@dennisottawa 70分都太慷慨了，土的掉渣，女演员当中只能算是个中下品",
           "url": "https://x.com/shenshiduoshi/status/2093095839337980394",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1082,7 +1032,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "$VLO $MPC $PSX $DINO Here is 5y price appreciation (not including dividends) for\u2026",
+          "title": "$VLO $MPC $PSX $DINO Here is 5y price appreciation (not including dividends) for…",
           "url": "https://x.com/TheValueist/status/2093531896311398442",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1103,7 +1053,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "$VLO $MPC $PSX $DINO VENEZUELA/US RESERVE DEAL EXECUTIVE ASSESSMENT (1/x)\n\nThe a\u2026",
+          "title": "$VLO $MPC $PSX $DINO VENEZUELA/US RESERVE DEAL EXECUTIVE ASSESSMENT (1/x)\n\nThe a…",
           "url": "https://x.com/TheValueist/status/2093514587496653146",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1118,13 +1068,13 @@
     },
     {
       "id": "l553",
-      "text": "@SVScholar \u82f1\u4f1f\u8fbe\u7684\u8d22\u62a5\u592a\u597d\uff0c\u80a1\u4ef7\u6da8\u5f97\u592a\u51f6\uff0c\u5e02\u573a\u5f00\u59cb\u5fc3\u865a\u4e86\u3002\u518d\u52a0\u4e0a\u8fc7\u53bb\u5f88\u957f\u4e00\u987f\u65f6\u95f4\uff0c\u5b58\u50a8\u6da8\u5f97\u592a\u731b\uff0c\u5927\u5bb6\u5e72\u8106\u843d\u888b\u4e3a\u5b89\u3002",
+      "text": "@SVScholar 英伟达的财报太好，股价涨得太凶，市场开始心虚了。再加上过去很长一顿时间，存储涨得太猛，大家干脆落袋为安。",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@SVScholar \u82f1\u4f1f\u8fbe\u7684\u8d22\u62a5\u592a\u597d\uff0c\u80a1\u4ef7\u6da8\u5f97\u592a\u51f6\uff0c\u5e02\u573a\u5f00\u59cb\u5fc3\u865a\u4e86\u3002\u518d\u52a0\u4e0a\u8fc7\u53bb\u5f88\u957f\u4e00\u987f\u65f6\u95f4\uff0c\u5b58\u50a8\u6da8\u5f97\u592a\u731b\uff0c\u5927\u5bb6\u5e72\u8106\u843d\u888b\u4e3a\u5b89\u3002",
+          "title": "@SVScholar 英伟达的财报太好，股价涨得太凶，市场开始心虚了。再加上过去很长一顿时间，存储涨得太猛，大家干脆落袋为安。",
           "url": "https://x.com/shenshiduoshi/status/2093026968484655231",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1145,7 +1095,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "$VLO $MPC $PSX $DINO This deal should be a strong long-term positive for the PAD\u2026",
+          "title": "$VLO $MPC $PSX $DINO This deal should be a strong long-term positive for the PAD…",
           "url": "https://x.com/TheValueist/status/2093484689457545435",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1166,7 +1116,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "$VLO $MPC $PSX $DINO The more incensed Venezuelans are about this deal, the more\u2026",
+          "title": "$VLO $MPC $PSX $DINO The more incensed Venezuelans are about this deal, the more…",
           "url": "https://x.com/TheValueist/status/2093534640396972403",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1187,7 +1137,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "$NVDA $MU $SNDK $LITE I have a strong feeling that people will soon trust GAI-cu\u2026",
+          "title": "$NVDA $MU $SNDK $LITE I have a strong feeling that people will soon trust GAI-cu…",
           "url": "https://x.com/TheValueist/status/2093464202769846645",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1208,7 +1158,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@shenshiduoshi It is absolutely injected into the umbilical cord, which is the l\u2026",
+          "title": "@shenshiduoshi It is absolutely injected into the umbilical cord, which is the l…",
           "url": "https://x.com/ARBAyala/status/2089932129178190002",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1229,7 +1179,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The January 2026 market provides an important warning against assuming Venezuela\u2026",
+          "title": "The January 2026 market provides an important warning against assuming Venezuela…",
           "url": "https://x.com/TheValueist/status/2093514595390325105",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1271,7 +1221,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@NYCMayor Mulla u can be spefic when u meet Indians ..itna hatred mat rako gaand\u2026",
+          "title": "@NYCMayor Mulla u can be spefic when u meet Indians ..itna hatred mat rako gaand…",
           "url": "https://x.com/sunthoshbabu/status/2093589662367646037",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1286,13 +1236,13 @@
     },
     {
       "id": "l561",
-      "text": "@NYCMayor You\u2019re a sick pos",
+      "text": "@NYCMayor You’re a sick pos",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@NYCMayor You\u2019re a sick pos",
+          "title": "@NYCMayor You’re a sick pos",
           "url": "https://x.com/elanematthew/status/2093589654813442160",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1313,7 +1263,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@petulantboots @NYCMayor What tf is rakhi though? As a South Indian I have no cl\u2026",
+          "title": "@petulantboots @NYCMayor What tf is rakhi though? As a South Indian I have no cl…",
           "url": "https://x.com/FellahMengu/status/2093589512488366214",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1328,13 +1278,13 @@
     },
     {
       "id": "l563",
-      "text": "@Gerard96184 @texangirl123 @NYCMayor \ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23",
+      "text": "@Gerard96184 @texangirl123 @NYCMayor 🤣🤣🤣🤣🤣🤣🤣",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Gerard96184 @texangirl123 @NYCMayor \ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23",
+          "title": "@Gerard96184 @texangirl123 @NYCMayor 🤣🤣🤣🤣🤣🤣🤣",
           "url": "https://x.com/ethankagwa1/status/2093589325262827927",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1349,13 +1299,13 @@
     },
     {
       "id": "l564",
-      "text": "@ChenCarrie6 \u8fd9\u4e0d\u53ef\u80fd\uff0c\u6210\u672c\u9ad8\u5230\u5929\u4e0a\u53bb\uff0c\u767d\u83dc\u5356\u51fa\u767d\u91d1\u4ef7",
+      "text": "@ChenCarrie6 这不可能，成本高到天上去，白菜卖出白金价",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@ChenCarrie6 \u8fd9\u4e0d\u53ef\u80fd\uff0c\u6210\u672c\u9ad8\u5230\u5929\u4e0a\u53bb\uff0c\u767d\u83dc\u5356\u51fa\u767d\u91d1\u4ef7",
+          "title": "@ChenCarrie6 这不可能，成本高到天上去，白菜卖出白金价",
           "url": "https://x.com/shenshiduoshi/status/2092306367629451305",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1370,13 +1320,13 @@
     },
     {
       "id": "l565",
-      "text": "@billtheinvestor \u9a91\u5728\u534e\u4eba\u8116\u5b50\u4e0a\u62c9\u5c4e\uff0c\u8fd9\u5c31\u662f\u4e0d\u6295\u7968\u4e0d\u53c2\u653f\u4e0d\u56e2\u7ed3\u7684\u540e\u679c\u3002",
+      "text": "@billtheinvestor 骑在华人脖子上拉屎，这就是不投票不参政不团结的后果。",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@billtheinvestor \u9a91\u5728\u534e\u4eba\u8116\u5b50\u4e0a\u62c9\u5c4e\uff0c\u8fd9\u5c31\u662f\u4e0d\u6295\u7968\u4e0d\u53c2\u653f\u4e0d\u56e2\u7ed3\u7684\u540e\u679c\u3002",
+          "title": "@billtheinvestor 骑在华人脖子上拉屎，这就是不投票不参政不团结的后果。",
           "url": "https://x.com/shenshiduoshi/status/2092381078669385744",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1391,13 +1341,13 @@
     },
     {
       "id": "l566",
-      "text": "@YefyWorld \u666f\u751c\u505a\u5c3d\u8c03\u662f\u9891\u7e41\u8bbf\u95ee\u524d\u5973\u53cb\u4e3b\u9875\u3002\n\u5b59\u5272\u505a\u5c3d\u8c03\u662f\u627e\u4e13\u4e1a\u56e2\u961f\uff0c\u628a\u5bf9\u65b9\u4e09\u4ee3\u67e5\u4e2a\u5e95\u8c03\u3002\n\u8fd9\u6c34\u5e73\u662f\u4e91\u6ce5\u4e4b\u522b\u3002",
+      "text": "@YefyWorld 景甜做尽调是频繁访问前女友主页。\n孙割做尽调是找专业团队，把对方三代查个底调。\n这水平是云泥之别。",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@YefyWorld \u666f\u751c\u505a\u5c3d\u8c03\u662f\u9891\u7e41\u8bbf\u95ee\u524d\u5973\u53cb\u4e3b\u9875\u3002\n\u5b59\u5272\u505a\u5c3d\u8c03\u662f\u627e\u4e13\u4e1a\u56e2\u961f\uff0c\u628a\u5bf9\u65b9\u4e09\u4ee3\u67e5\u4e2a\u5e95\u8c03\u3002\n\u8fd9\u6c34\u5e73\u662f\u4e91\u6ce5\u4e4b\u522b\u3002",
+          "title": "@YefyWorld 景甜做尽调是频繁访问前女友主页。\n孙割做尽调是找专业团队，把对方三代查个底调。\n这水平是云泥之别。",
           "url": "https://x.com/shenshiduoshi/status/2093028560885756365",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1439,7 +1389,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@TheValueist This isn't the hardest part. The hardest part will be when the bull\u2026",
+          "title": "@TheValueist This isn't the hardest part. The hardest part will be when the bull…",
           "url": "https://x.com/JD04925090/status/2093408099319046279",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1460,7 +1410,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@Gnu352 @TheValueist If your bull case for memory was \"HBM architectural co-desi\u2026",
+          "title": "@Gnu352 @TheValueist If your bull case for memory was \"HBM architectural co-desi…",
           "url": "https://x.com/JD04925090/status/2093407897799565720",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1481,7 +1431,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@TheValueist Everyone's watching passage odds. Missed part: short-run demand bar\u2026",
+          "title": "@TheValueist Everyone's watching passage odds. Missed part: short-run demand bar…",
           "url": "https://x.com/jejdjd7w/status/2093400649157271709",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1496,13 +1446,13 @@
     },
     {
       "id": "l571",
-      "text": "I agree short term that the momentum \u2018tards + near term inventories may mean \u2026. This could catch a parabolic pump. \nBut \u2026.\n$VLO $MPC with earnings yields of 6-7% and peak crack spreads. \n\u2026. That\u2019s a recipe for 1-3 years of sideways after this blow off.  \n\nReminder: these are cyclical.",
+      "text": "I agree short term that the momentum ‘tards + near term inventories may mean …. This could catch a parabolic pump. \nBut ….\n$VLO $MPC with earnings yields of 6-7% and peak crack spreads. \n…. That’s a recipe for 1-3 years of sideways after this blow off.  \n\nReminder: these are cyclical.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I agree short term that the momentum \u2018tards + near term inventories may mean \u2026. \u2026",
+          "title": "I agree short term that the momentum ‘tards + near term inventories may mean …. …",
           "url": "https://x.com/SJOldValueGuy/status/2093381232360821083",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1517,13 +1467,13 @@
     },
     {
       "id": "l572",
-      "text": "@zengying1107 \u666f\u751c\u59d1\u5a18\u4e0d\u61c2\u65b0\u5a92\u4f53\u5230\u5e95\u662f\u600e\u4e48\u73a9\u7684\uff0c\u4ee5\u53ca\u5230\u5e95\u662f\u600e\u4e48\u73a9\u5979\u7684\u3002\n\u8fd8\u662f\u5403\u4e86\u6ca1\u6587\u5316\u7684\u4e8f\u3002\n\u5b59\u5272\u7ed9\u94b1\u7ed9\u7684\u5f88\u5bb9\u6613\uff0c\u4f46\u662f\u666f\u751c\u59d1\u5a18\u8fd9\u94b1\u62ff\u7684\u771f\u662f\u4e0d\u5bb9\u6613\u554a\u3002",
+      "text": "@zengying1107 景甜姑娘不懂新媒体到底是怎么玩的，以及到底是怎么玩她的。\n还是吃了没文化的亏。\n孙割给钱给的很容易，但是景甜姑娘这钱拿的真是不容易啊。",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@zengying1107 \u666f\u751c\u59d1\u5a18\u4e0d\u61c2\u65b0\u5a92\u4f53\u5230\u5e95\u662f\u600e\u4e48\u73a9\u7684\uff0c\u4ee5\u53ca\u5230\u5e95\u662f\u600e\u4e48\u73a9\u5979\u7684\u3002\n\u8fd8\u662f\u5403\u4e86\u6ca1\u6587\u5316\u7684\u4e8f\u3002\n\u5b59\u5272\u7ed9\u94b1\u7ed9\u7684\u5f88\u5bb9\u6613\uff0c\u4f46\u662f\u666f\u751c\u59d1\u5a18\u8fd9\u94b1\u62ff\u7684\u771f\u662f\u4e0d\u5bb9\u6613\u554a\u2026",
+          "title": "@zengying1107 景甜姑娘不懂新媒体到底是怎么玩的，以及到底是怎么玩她的。\n还是吃了没文化的亏。\n孙割给钱给的很容易，但是景甜姑娘这钱拿的真是不容易啊…",
           "url": "https://x.com/shenshiduoshi/status/2093029941797376076",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1538,13 +1488,13 @@
     },
     {
       "id": "l573",
-      "text": "\u5b59\u5272\u7684\u5c0f\u4f5c\u6587\u5f15\u53d1\u4e86\u635e\u5973\u754c\u7684\u96c6\u4f53\u6050\u614c\u3002\n\u4e00\u5927\u5806\u635e\u5973\u5728\u9a82\u5b59\u5272\u3002\n\u5b59\u5272\u5728\u6574\u987f\u793e\u4f1a\u79e9\u5e8f\uff0c\u63d0\u9ad8\u793e\u4f1a\u98ce\u5c1a\u8fd9\u4e00\u70b9\u4e0a\uff0c\u505a\u7684\u8fd8\u662f\u975e\u5e38\u51fa\u8272\u7684\u3002\n\u5584\u83ab\u5927\u7109\u3002",
+      "text": "孙割的小作文引发了捞女界的集体恐慌。\n一大堆捞女在骂孙割。\n孙割在整顿社会秩序，提高社会风尚这一点上，做的还是非常出色的。\n善莫大焉。",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u5b59\u5272\u7684\u5c0f\u4f5c\u6587\u5f15\u53d1\u4e86\u635e\u5973\u754c\u7684\u96c6\u4f53\u6050\u614c\u3002\n\u4e00\u5927\u5806\u635e\u5973\u5728\u9a82\u5b59\u5272\u3002\n\u5b59\u5272\u5728\u6574\u987f\u793e\u4f1a\u79e9\u5e8f\uff0c\u63d0\u9ad8\u793e\u4f1a\u98ce\u5c1a\u8fd9\u4e00\u70b9\u4e0a\uff0c\u505a\u7684\u8fd8\u662f\u975e\u5e38\u51fa\u8272\u7684\u3002\n\u5584\u83ab\u5927\u7109\u3002",
+          "title": "孙割的小作文引发了捞女界的集体恐慌。\n一大堆捞女在骂孙割。\n孙割在整顿社会秩序，提高社会风尚这一点上，做的还是非常出色的。\n善莫大焉。",
           "url": "https://x.com/shenshiduoshi/status/2093027904904909069",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1559,13 +1509,13 @@
     },
     {
       "id": "l574",
-      "text": "@JianhuaW34789 \u57fa\u672c\u7684\u5e95\u7ebf\u8fd8\u662f\u8981\u6709\u7684\u5427\u3002\n\u5165\u7c4d\u5ba3\u8a93\u4e0d\u662f\u5c0f\u5b69\u8fc7\u5bb6\u5bb6\u3002\n\u8f6c\u53d1\u56fd\u5b89\u90e8\u7684\u6d88\u606f\u66f4\u662f\u8fc7\u7ebf\u4e86",
+      "text": "@JianhuaW34789 基本的底线还是要有的吧。\n入籍宣誓不是小孩过家家。\n转发国安部的消息更是过线了",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@JianhuaW34789 \u57fa\u672c\u7684\u5e95\u7ebf\u8fd8\u662f\u8981\u6709\u7684\u5427\u3002\n\u5165\u7c4d\u5ba3\u8a93\u4e0d\u662f\u5c0f\u5b69\u8fc7\u5bb6\u5bb6\u3002\n\u8f6c\u53d1\u56fd\u5b89\u90e8\u7684\u6d88\u606f\u66f4\u662f\u8fc7\u7ebf\u4e86",
+          "title": "@JianhuaW34789 基本的底线还是要有的吧。\n入籍宣誓不是小孩过家家。\n转发国安部的消息更是过线了",
           "url": "https://x.com/shenshiduoshi/status/2092693801777156412",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1601,13 +1551,13 @@
     },
     {
       "id": "l576",
-      "text": "@shenshiduoshi @billtheinvestor \u5217\u6cbb\u6587\u7684\u534e\u88d4\u518d\u4e0d\u51fa\u6765\u6295\u7968\uff0c\u5230\u65f6\u201c\u9a91\u5728\u8116\u5b50\u4e0a\u62c9\u5c4e\u201d\u5c31\u4e0d\u662f\u6bd4\u55bb\uff0c\u800c\u4e14\u63cf\u8ff0\u4e86\u3002",
+      "text": "@shenshiduoshi @billtheinvestor 列治文的华裔再不出来投票，到时“骑在脖子上拉屎”就不是比喻，而且描述了。",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@shenshiduoshi @billtheinvestor \u5217\u6cbb\u6587\u7684\u534e\u88d4\u518d\u4e0d\u51fa\u6765\u6295\u7968\uff0c\u5230\u65f6\u201c\u9a91\u5728\u8116\u5b50\u4e0a\u62c9\u5c4e\u201d\u5c31\u4e0d\u662f\u6bd4\u55bb\uff0c\u800c\u4e14\u63cf\u8ff0\u4e86\u3002",
+          "title": "@shenshiduoshi @billtheinvestor 列治文的华裔再不出来投票，到时“骑在脖子上拉屎”就不是比喻，而且描述了。",
           "url": "https://x.com/San35757088/status/2092400614135431206",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1628,7 +1578,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@shenshiduoshi @liqwhale @unusual_whales I'm not overlooking it. I just thought \u2026",
+          "title": "@shenshiduoshi @liqwhale @unusual_whales I'm not overlooking it. I just thought …",
           "url": "https://x.com/KG6783/status/2091900056760734147",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1643,13 +1593,13 @@
     },
     {
       "id": "l578",
-      "text": "@shenshiduoshi @SenatorVictorOh No, indigenous people didn\u2019t build anything useful at all. Europeans built everything. Indigenous Canadians still live in the same level of living 250 years ago as today basically. are you that stupid you need me to explain this to you?",
+      "text": "@shenshiduoshi @SenatorVictorOh No, indigenous people didn’t build anything useful at all. Europeans built everything. Indigenous Canadians still live in the same level of living 250 years ago as today basically. are you that stupid you need me to explain this to you?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@shenshiduoshi @SenatorVictorOh No, indigenous people didn\u2019t build anything usef\u2026",
+          "title": "@shenshiduoshi @SenatorVictorOh No, indigenous people didn’t build anything usef…",
           "url": "https://x.com/supersin555/status/2083358498448904505",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1664,13 +1614,13 @@
     },
     {
       "id": "l579",
-      "text": "@shenshiduoshi @cuichenghao \u8ba9\u4eba\u505a\u8fd9\u79cd\u9009\u62e9\u7684\u5236\u5ea6\u624d\u662f\u51b7\u8840\u3002",
+      "text": "@shenshiduoshi @cuichenghao 让人做这种选择的制度才是冷血。",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@shenshiduoshi @cuichenghao \u8ba9\u4eba\u505a\u8fd9\u79cd\u9009\u62e9\u7684\u5236\u5ea6\u624d\u662f\u51b7\u8840\u3002",
+          "title": "@shenshiduoshi @cuichenghao 让人做这种选择的制度才是冷血。",
           "url": "https://x.com/Acceleratorpooh/status/2074479539938627966",
           "date": "2026-07-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1685,13 +1635,13 @@
     },
     {
       "id": "l580",
-      "text": "Behind Canada\u2019s Security Screening Black Box, Something More Valuable Than Efficiency Is Being Spent",
+      "text": "Behind Canada’s Security Screening Black Box, Something More Valuable Than Efficiency Is Being Spent",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Behind Canada\u2019s Security Screening Black Box, Something More Valuable Than Effic\u2026",
+          "title": "Behind Canada’s Security Screening Black Box, Something More Valuable Than Effic…",
           "url": "https://x.com/shenshiduoshi/status/2064213251055857733",
           "date": "2026-06-09",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1706,13 +1656,13 @@
     },
     {
       "id": "l581",
-      "text": "Virginia\u2019s New Probation Law \u00a7 19.2-304 \u2014 What \u201cSHALL\u201d Really Means\nOn July 1, 2026, Virginia amended one statute \u2014 \u00a7 19.2-304 \u2014 and quietly changed the rules for the roughly 60,500 people supervised on probation and parole by the Virginia Department of Corrections. Not \"may\" \u2014 \"shall.\" The DOC now has a legal duty to petition the court for your early termination after 12 months if you're compliant and low-risk.\n\nIn this breakdown, I read you the actual statute, the actual bill numbers, and the \u2026",
+      "text": "Virginia’s New Probation Law § 19.2-304 — What “SHALL” Really Means\nOn July 1, 2026, Virginia amended one statute — § 19.2-304 — and quietly changed the rules for the roughly 60,500 people supervised on probation and parole by the Virginia Department of Corrections. Not \"may\" — \"shall.\" The DOC now has a legal duty to petition the court for your early termination after 12 months if you're compliant and low-risk.\n\nIn this breakdown, I read you the actual statute, the actual bill numbers, and the …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Virginia\u2019s New Probation Law \u00a7 19.2-304 \u2014 What \u201cSHALL\u201d Really Means\nOn July 1, 2\u2026",
+          "title": "Virginia’s New Probation Law § 19.2-304 — What “SHALL” Really Means\nOn July 1, 2…",
           "url": "https://www.youtube.com/watch?v=ZZ2ndPgX7Ps",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1727,7 +1677,7 @@
     },
     {
       "id": "l482",
-      "text": "Program Delivery Officer Level 1 \u2014 Queensland Corrective Services (Rockhampton, Queensland, Australia). Posted 6 days ago.",
+      "text": "Program Delivery Officer Level 1 — Queensland Corrective Services (Rockhampton, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1748,7 +1698,7 @@
     },
     {
       "id": "l483",
-      "text": "Parole Officer - Geelong \u2014 Department of Justice and Community Safety, Victoria (Geelong, Victoria, Australia). Posted 1 week ago.",
+      "text": "Parole Officer - Geelong — Department of Justice and Community Safety, Victoria (Geelong, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1769,7 +1719,7 @@
     },
     {
       "id": "l484",
-      "text": "Probation Services Officer \u2014 Queensland Corrective Services (Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Probation Services Officer — Queensland Corrective Services (Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1790,7 +1740,7 @@
     },
     {
       "id": "l485",
-      "text": "Remand Program Facilitator \u2014 Department of Justice and Community Safety, Victoria (Ararat, Victoria, Australia). Posted 15 hours ago.",
+      "text": "Remand Program Facilitator — Department of Justice and Community Safety, Victoria (Ararat, Victoria, Australia). Posted 15 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1811,7 +1761,7 @@
     },
     {
       "id": "l486",
-      "text": "Case Management Officer - Cooma and Nowra \u2014 NSW Department of Communities and Justice (Cooma, New South Wales, Australia). Posted 2 days ago.",
+      "text": "Case Management Officer - Cooma and Nowra — NSW Department of Communities and Justice (Cooma, New South Wales, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1832,7 +1782,7 @@
     },
     {
       "id": "l487",
-      "text": "Community Corrections Officer \u2014 NSW Department of Communities and Justice (Grafton, New South Wales, Australia). Posted 3 days ago.",
+      "text": "Community Corrections Officer — NSW Department of Communities and Justice (Grafton, New South Wales, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1853,7 +1803,7 @@
     },
     {
       "id": "l488",
-      "text": "Caseworker \u2014 Queensland Government (Townsville, Queensland, Australia). Posted 1 week ago.",
+      "text": "Caseworker — Queensland Government (Townsville, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1874,7 +1824,7 @@
     },
     {
       "id": "l489",
-      "text": "Youth Worker \u2014 Queensland Government (Toowoomba, Queensland, Australia). Posted 1 week ago.",
+      "text": "Youth Worker — Queensland Government (Toowoomba, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1895,7 +1845,7 @@
     },
     {
       "id": "l490",
-      "text": "Program Delivery Officer \u2014 Serco (Lavadia, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Program Delivery Officer — Serco (Lavadia, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1916,7 +1866,7 @@
     },
     {
       "id": "l491",
-      "text": "Youth Support Officer \u2014 Department of Justice (Gascoyne River, Western Australia, Australia). Posted 5 days ago.",
+      "text": "Youth Support Officer — Department of Justice (Gascoyne River, Western Australia, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1937,13 +1887,13 @@
     },
     {
       "id": "l592",
-      "text": "Add Bon Air Journal blog themes (Hugo + WordPress) with CMS, SEO, and deployment wiring\n## What\n\nAdds `bonair-themes/` \u2014 blog platforms for bonairmedia.com in both candidate stacks:\n\n**Hugo \u2014 \"The Bon Air Journal\"** (`bonair-themes/hugo/`), the recommended path:\n- Custom editorial theme (`bonair-dark`): Fraunces serif masthead, Newsreader body, Space Grotesk nav/titles/CTAs, stroke-ico\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Re\u2026",
+      "text": "Add Bon Air Journal blog themes (Hugo + WordPress) with CMS, SEO, and deployment wiring\n## What\n\nAdds `bonair-themes/` — blog platforms for bonairmedia.com in both candidate stacks:\n\n**Hugo — \"The Bon Air Journal\"** (`bonair-themes/hugo/`), the recommended path:\n- Custom editorial theme (`bonair-dark`): Fraunces serif masthead, Newsreader body, Space Grotesk nav/titles/CTAs, stroke-ico\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Re…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add Bon Air Journal blog themes (Hugo + WordPress) with CMS, SEO, and deployment\u2026",
+          "title": "Add Bon Air Journal blog themes (Hugo + WordPress) with CMS, SEO, and deployment…",
           "url": "https://github.com/XtianBDevn/standishalexander.com/pull/1",
           "date": "2026-07-25",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1958,13 +1908,13 @@
     },
     {
       "id": "l593",
-      "text": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI for putting watermarks on their prompts \"creations\"\nSources: https://www.reddit.com/r/ClaudeCode/comments/1vlclpn/claude_watermarking_our_work_is_unethical_and/ https://www.reddit.com/r/ClaudeAI/comments/1vlckt9/claude_watermarking_our_work_is_unethical_and/ HIGHLIGHTS THREAD 1 Most consumers would want to know if something that was created with AI tools, I don\u2019t see a problem with that. This is such a hopelessly ch\u2026",
+      "text": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI for putting watermarks on their prompts \"creations\"\nSources: https://www.reddit.com/r/ClaudeCode/comments/1vlclpn/claude_watermarking_our_work_is_unethical_and/ https://www.reddit.com/r/ClaudeAI/comments/1vlckt9/claude_watermarking_our_work_is_unethical_and/ HIGHLIGHTS THREAD 1 Most consumers would want to know if something that was created with AI tools, I don’t see a problem with that. This is such a hopelessly ch…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI\u2026",
+          "title": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI…",
           "url": "https://www.reddit.com/r/SubredditDrama/comments/1vlyeei/can_you_please_just_write_your_own_posts_op_makes/",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1979,13 +1929,13 @@
     },
     {
       "id": "l594",
-      "text": "Virginia\u2019s New Probation Law \u00a7 19.2-304 \u2014 What \u201cSHALL\u201d Really Means\nOn July 1, 2026, Virginia amended one statute \u2014 \u00a7 19.2-304 \u2014 and quietly changed the rules for the roughly 60,500 people supervised on probation and parole by the Virginia Department of Corrections. Not \"may\" \u2014 \"shall.\" The DOC now has a legal duty to petition the court for your early termination after 12 months if you're compliant and low-risk.\n\nIn this breakdown, I read you the actual statute, the actual bill numbers, and the \u2026",
+      "text": "Virginia’s New Probation Law § 19.2-304 — What “SHALL” Really Means\nOn July 1, 2026, Virginia amended one statute — § 19.2-304 — and quietly changed the rules for the roughly 60,500 people supervised on probation and parole by the Virginia Department of Corrections. Not \"may\" — \"shall.\" The DOC now has a legal duty to petition the court for your early termination after 12 months if you're compliant and low-risk.\n\nIn this breakdown, I read you the actual statute, the actual bill numbers, and the …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Virginia\u2019s New Probation Law \u00a7 19.2-304 \u2014 What \u201cSHALL\u201d Really Means\nOn July 1, 2\u2026",
+          "title": "Virginia’s New Probation Law § 19.2-304 — What “SHALL” Really Means\nOn July 1, 2…",
           "url": "https://www.youtube.com/watch?v=ZZ2ndPgX7Ps",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2076,6 +2026,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

@@ -20,58 +20,8 @@
   ],
   "claims": [
     {
-      "id": "21-1021-01",
-      "text": "National peak professional bodies and statutory regulators governing Child, Family, and School Social Workers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Child, Family, and School Social Workers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Child, Family, and School Social Workers",
-          "url": "https://www.psc.gov.au/standards/21-1021",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Child, Family, and School Social Workers"
-        }
-      ],
-      "scope": "Australian practitioners in Child, Family, and School Social Workers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "21-1021-02",
-      "text": "Automation of routine transactional and analytical tasks in Child, Family, and School Social Workers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Child, Family, and School Social Workers",
-          "url": "https://www.jobsandskills.gov.au/research/21-1021",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Child, Family, and School Social Workers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Child, Family, and School Social Workers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Social Worker - Marsden State School \u2014 Queensland Government (Beaudesert, Queensland, Australia). Posted 1 week ago.",
+      "text": "Social Worker - Marsden State School — Queensland Government (Beaudesert, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -92,7 +42,7 @@
     },
     {
       "id": "l404",
-      "text": "Court Child Expert (Psychologist or Social Worker) \u2014 Federal Circuit and Family Court of Australia (Newcastle, New South Wales, Australia). Posted 6 days ago.",
+      "text": "Court Child Expert (Psychologist or Social Worker) — Federal Circuit and Family Court of Australia (Newcastle, New South Wales, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -113,7 +63,7 @@
     },
     {
       "id": "l405",
-      "text": "Child Safety Officer \u2014 Queensland Government (Brisbane, Queensland, Australia). Posted 2 months ago.",
+      "text": "Child Safety Officer — Queensland Government (Brisbane, Queensland, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -134,7 +84,7 @@
     },
     {
       "id": "l406",
-      "text": "Triage Counsellor (Social Worker/Psychologist/Counsellor) \u2014 Federal Circuit and Family Court of Australia (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Triage Counsellor (Social Worker/Psychologist/Counsellor) — Federal Circuit and Family Court of Australia (Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -155,7 +105,7 @@
     },
     {
       "id": "l407",
-      "text": "Child and Family Expert \u2014 Legal Aid WA (Perth, Western Australia, Australia). Posted 2 days ago.",
+      "text": "Child and Family Expert — Legal Aid WA (Perth, Western Australia, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -176,7 +126,7 @@
     },
     {
       "id": "l408",
-      "text": "Child Safety Officer - Intensive Family Engagement Service - 526923 \u2014 Department for Education, Children and Young People (Hobart, Tasmania, Australia). Posted 1 day ago.",
+      "text": "Child Safety Officer - Intensive Family Engagement Service - 526923 — Department for Education, Children and Young People (Hobart, Tasmania, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -197,7 +147,7 @@
     },
     {
       "id": "l409",
-      "text": "Case Worker, On PAR \u2014 The Smith Family (New South Wales, Australia). Posted 6 days ago.",
+      "text": "Case Worker, On PAR — The Smith Family (New South Wales, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -218,7 +168,7 @@
     },
     {
       "id": "l410",
-      "text": "Social Worker \u2014 Department of Education (Morwell, Victoria, Australia). Posted 1 week ago.",
+      "text": "Social Worker — Department of Education (Morwell, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -239,7 +189,7 @@
     },
     {
       "id": "l411",
-      "text": "Joint Child Protection Response Program (JCPRP) Caseworker - Statewide \u2014 NSW Department of Communities and Justice (Newcastle West, New South Wales, Australia). Posted 2 months ago.",
+      "text": "Joint Child Protection Response Program (JCPRP) Caseworker - Statewide — NSW Department of Communities and Justice (Newcastle West, New South Wales, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -260,7 +210,7 @@
     },
     {
       "id": "l412",
-      "text": "Joint Child Protection Response Program (JCPRP) Caseworker - Statewide \u2014 NSW Department of Communities and Justice (Liverpool, New South Wales, Australia). Posted 3 months ago.",
+      "text": "Joint Child Protection Response Program (JCPRP) Caseworker - Statewide — NSW Department of Communities and Justice (Liverpool, New South Wales, Australia). Posted 3 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -281,13 +231,13 @@
     },
     {
       "id": "l513",
-      "text": "Introduce romantic relationships, births, and dependent citizens\n> *This was generated by AI during triage.*\n\n## Idea\n\nClose romantic relationships may result in a new citizen being born.\n\nA birth increases the living population and immediate demand for food, housing, care, and treasury support. A child begins as a dependant rather than a worker, then may enter e\n> *This was generated by AI during triage.*\n\n## Added connection: demographic demand for Morrow School\n\nProcreation makes the school i\u2026",
+      "text": "Introduce romantic relationships, births, and dependent citizens\n> *This was generated by AI during triage.*\n\n## Idea\n\nClose romantic relationships may result in a new citizen being born.\n\nA birth increases the living population and immediate demand for food, housing, care, and treasury support. A child begins as a dependant rather than a worker, then may enter e\n> *This was generated by AI during triage.*\n\n## Added connection: demographic demand for Morrow School\n\nProcreation makes the school i…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Introduce romantic relationships, births, and dependent citizens\n> *This was gen\u2026",
+          "title": "Introduce romantic relationships, births, and dependent citizens\n> *This was gen…",
           "url": "https://github.com/datashaman/morrow/issues/58",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -302,13 +252,13 @@
     },
     {
       "id": "l514",
-      "text": "WIP: Procedural infinite dungeons (Rifts) + dev commands\n## Procedural infinite dungeons (Rifts), the new-world continent, and the AI dungeon upgrader\n\nDraft / work in progress. cc @enriquegf for review.\n\n### v0.28 compatibility sync (2026-07-20)\n\n- Merged `release/v0.28.0` through `b2911d80`, including the latest offhand equip validation and drag/drop wi\n/review <!-- pr-ai-review-comment-4901258228 -->\n## AI review (Codex, requested by @EnriqueGF via `/review`)\n\nThe rift generator is nicely iso\u2026",
+      "text": "WIP: Procedural infinite dungeons (Rifts) + dev commands\n## Procedural infinite dungeons (Rifts), the new-world continent, and the AI dungeon upgrader\n\nDraft / work in progress. cc @enriquegf for review.\n\n### v0.28 compatibility sync (2026-07-20)\n\n- Merged `release/v0.28.0` through `b2911d80`, including the latest offhand equip validation and drag/drop wi\n/review <!-- pr-ai-review-comment-4901258228 -->\n## AI review (Codex, requested by @EnriqueGF via `/review`)\n\nThe rift generator is nicely iso…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "WIP: Procedural infinite dungeons (Rifts) + dev commands\n## Procedural infinite \u2026",
+          "title": "WIP: Procedural infinite dungeons (Rifts) + dev commands\n## Procedural infinite …",
           "url": "https://github.com/levy-street/world-of-claudecraft/pull/1584",
           "date": "2026-07-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -323,13 +273,13 @@
     },
     {
       "id": "l515",
-      "text": "Jameson vs. OmniBlocks\nContinuation of the discussion over at #316 about which of Jameson or OmniBlocks is better.\n\n@coderabbitai Please generate a summary of the situation.\n@coderabbitai Please respond to my first message. <!-- This is an auto-generated reply by CodeRabbit -->\n> [!TIP]\n> For best results, initiate chat on the files or code changes.\n\n<details>\n<summary>\ud83e\udde9 Analysis chain</summary>\n\n\ud83c\udfc1 Script executed:\n```\n#!/bin/bash\n# Fetch issue `#335`\ngh issue view 335 --repo OmniBlocks/monorepo\u2026",
+      "text": "Jameson vs. OmniBlocks\nContinuation of the discussion over at #316 about which of Jameson or OmniBlocks is better.\n\n@coderabbitai Please generate a summary of the situation.\n@coderabbitai Please respond to my first message. <!-- This is an auto-generated reply by CodeRabbit -->\n> [!TIP]\n> For best results, initiate chat on the files or code changes.\n\n<details>\n<summary>🧩 Analysis chain</summary>\n\n🏁 Script executed:\n```\n#!/bin/bash\n# Fetch issue `#335`\ngh issue view 335 --repo OmniBlocks/monorepo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Jameson vs. OmniBlocks\nContinuation of the discussion over at #316 about which o\u2026",
+          "title": "Jameson vs. OmniBlocks\nContinuation of the discussion over at #316 about which o…",
           "url": "https://github.com/OmniBlocks/monorepo/issues/335",
           "date": "2026-05-23",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -344,13 +294,13 @@
     },
     {
       "id": "l516",
-      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       \u2026",
+      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe \u2026",
+          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe …",
           "url": "https://github.com/rakib06/mini-github/issues/14",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -365,13 +315,13 @@
     },
     {
       "id": "l517",
-      "text": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sections 1\u20133 (Purpose & Scope; Domain Matrix; Evidence Bands)**  \nDecember 02, 2025  \n\n---\n\n## 1. Purpose & Scope\n\nThis section aligns the project\u2019s TXT and PDF corpus around one structural pattern:\n\n> **Systems that secure compliance and e\nHere is the forensic debrief of the current operational reality, synthesized from your diagnosis.\n\ud83d\udccb CLINICAL DIAGNOSIS: The Parasitic Extraction Engine\nSubject: Global Socio-Economic\u2026",
+      "text": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sections 1–3 (Purpose & Scope; Domain Matrix; Evidence Bands)**  \nDecember 02, 2025  \n\n---\n\n## 1. Purpose & Scope\n\nThis section aligns the project’s TXT and PDF corpus around one structural pattern:\n\n> **Systems that secure compliance and e\nHere is the forensic debrief of the current operational reality, synthesized from your diagnosis.\n📋 CLINICAL DIAGNOSIS: The Parasitic Extraction Engine\nSubject: Global Socio-Economic…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sec\u2026",
+          "title": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sec…",
           "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/2",
           "date": "2026-04-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -428,13 +378,13 @@
     },
     {
       "id": "l520",
-      "text": "Launch HN: Bloomy (YC S26) \u2013 AI-powered mastery learning for K-12",
+      "text": "Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Launch HN: Bloomy (YC S26) \u2013 AI-powered mastery learning for K-12",
+          "title": "Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12",
           "url": "https://news.ycombinator.com/item?id=48981136",
           "date": "2026-07-20",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -596,13 +546,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -617,13 +567,13 @@
     },
     {
       "id": "l529",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -743,13 +693,13 @@
     },
     {
       "id": "l535",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -827,13 +777,13 @@
     },
     {
       "id": "l539",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -848,13 +798,13 @@
     },
     {
       "id": "l540",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -869,13 +819,13 @@
     },
     {
       "id": "l541",
-      "text": "My wife (29f) says she gets to make 100% of the educational decisions for our child. I (28f) can't change her mind\nI am not The OOP, OOP is u/TeacherWifeBlues My wife (29f) says she gets to make 100% of the educational decisions for our child. I (28f) can&#39;t change her mind. TRIGGER WARNING: Controlling behavior Original Post May 17, 2016 My wife and I have been together for seven years. We&#39;re expecting our first child in June. It&#39;s a girl and were both extremely excited. Background: \u2026",
+      "text": "My wife (29f) says she gets to make 100% of the educational decisions for our child. I (28f) can't change her mind\nI am not The OOP, OOP is u/TeacherWifeBlues My wife (29f) says she gets to make 100% of the educational decisions for our child. I (28f) can&#39;t change her mind. TRIGGER WARNING: Controlling behavior Original Post May 17, 2016 My wife and I have been together for seven years. We&#39;re expecting our first child in June. It&#39;s a girl and were both extremely excited. Background: …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "My wife (29f) says she gets to make 100% of the educational decisions for our ch\u2026",
+          "title": "My wife (29f) says she gets to make 100% of the educational decisions for our ch…",
           "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1vqhqay/my_wife_29f_says_she_gets_to_make_100_of_the/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -890,13 +840,13 @@
     },
     {
       "id": "l542",
-      "text": "When you use a credit card, a 1\u00a2 payment costs 31\u00a2.\n\nThat math doesn't work for AI agents making thousands of tiny payments a day.\n\n@samrags_ of @merit_systems explains why stablecoins could be the rail the agent economy runs on. https://t.co/P1o2CMuaNu",
+      "text": "When you use a credit card, a 1¢ payment costs 31¢.\n\nThat math doesn't work for AI agents making thousands of tiny payments a day.\n\n@samrags_ of @merit_systems explains why stablecoins could be the rail the agent economy runs on. https://t.co/P1o2CMuaNu",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "When you use a credit card, a 1\u00a2 payment costs 31\u00a2.\n\nThat math doesn't work for \u2026",
+          "title": "When you use a credit card, a 1¢ payment costs 31¢.\n\nThat math doesn't work for …",
           "url": "https://x.com/a16zcrypto/status/2092335249195970753",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -959,7 +909,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Elon Musk brought up his son, who can't make friends, and shut down the AI frien\u2026",
+          "title": "Elon Musk brought up his son, who can't make friends, and shut down the AI frien…",
           "url": "https://x.com/AiEvolutio58513/status/2091525892623487170",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -980,7 +930,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "This Fable 5 UI/UX hack is wild.\n\nThe \"Taste\" skill completely kills generic AI \u2026",
+          "title": "This Fable 5 UI/UX hack is wild.\n\nThe \"Taste\" skill completely kills generic AI …",
           "url": "https://x.com/AiEvolutio58513/status/2093321728277803360",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -995,13 +945,13 @@
     },
     {
       "id": "l547",
-      "text": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what the future will look like. I always did but even more so since I had a baby. To me it feels like we\u2019re not in a steady state right now. Things are volatile and changing fast. It feels like this pace of change can\u2019t possibly last forever. But it also seems obvious that LLMs are going to dramatically change the nature of my work, and many types of work, permanently.\n\nI am effectively required to use AI at work now, so fo",
+      "text": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what the future will look like. I always did but even more so since I had a baby. To me it feels like we’re not in a steady state right now. Things are volatile and changing fast. It feels like this pace of change can’t possibly last forever. But it also seems obvious that LLMs are going to dramatically change the nature of my work, and many types of work, permanently.\n\nI am effectively required to use AI at work now, so fo",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what th\u2026",
+          "title": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what th…",
           "url": "https://x.com/OwenGregorian/status/2093169126004985893",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1022,7 +972,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Trying to avoid AI slop in your copywriting?\n\nUse this, and read @stephbzinn's p\u2026",
+          "title": "Trying to avoid AI slop in your copywriting?\n\nUse this, and read @stephbzinn's p…",
           "url": "https://x.com/a16zcrypto/status/2092998851171061764",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1043,7 +993,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "How life looked before this clip existed...\n\nInterested in AI?\n\nFollow @AiEvolut\u2026",
+          "title": "How life looked before this clip existed...\n\nInterested in AI?\n\nFollow @AiEvolut…",
           "url": "https://x.com/AiEvolutio58513/status/2093451573439692812",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1085,7 +1035,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th\u2026",
+          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th…",
           "url": "https://x.com/essexmaelstrom/status/2091841889372635517",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1100,13 +1050,13 @@
     },
     {
       "id": "l552",
-      "text": "\u201cThe Woman With Dad Isn\u2019t My Mom,\u201d My Granddaughter Whispered At My 68th Birthday Party...\n\u201cThe Woman With Dad Isn\u2019t My Mom,\u201d My Granddaughter Whispered At My 68th Birthday Party...\n\nWelcome to Revenge Dad. We are a digital storytelling channel dedicated to exploring the unspoken truths of family life. Through cinematic dramatizations, we uncover the hidden strength of those who are underestimated.\n\n\n\ud83c\udfaf  Lessons from this story:\n\n\u2726 Trust should never replace awareness, especially when money, fami\u2026",
+      "text": "“The Woman With Dad Isn’t My Mom,” My Granddaughter Whispered At My 68th Birthday Party...\n“The Woman With Dad Isn’t My Mom,” My Granddaughter Whispered At My 68th Birthday Party...\n\nWelcome to Revenge Dad. We are a digital storytelling channel dedicated to exploring the unspoken truths of family life. Through cinematic dramatizations, we uncover the hidden strength of those who are underestimated.\n\n\n🎯  Lessons from this story:\n\n✦ Trust should never replace awareness, especially when money, fami…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "\u201cThe Woman With Dad Isn\u2019t My Mom,\u201d My Granddaughter Whispered At My 68th Birthda\u2026",
+          "title": "“The Woman With Dad Isn’t My Mom,” My Granddaughter Whispered At My 68th Birthda…",
           "url": "https://www.youtube.com/watch?v=wyp1hNMmeL0",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1121,13 +1071,13 @@
     },
     {
       "id": "l553",
-      "text": "Can AI solve South Korea\u2019s problem with social recluses? - Asia Specific podcast, BBC World Service\nWhat if leaving your bedroom felt impossible? Across Asia, a growing number of young people are becoming hikikomori, a term used to describe people who suffer from a severe social withdrawal. \n\nClick here to subscribe to our channel \ud83d\udc49\ud83c\udffd https://bbc.in/3VyyriM\n\nThey shut themselves in their homes, retreating from work, school, or their families for months, sometimes years.  \n\nThat condition was firs\u2026",
+      "text": "Can AI solve South Korea’s problem with social recluses? - Asia Specific podcast, BBC World Service\nWhat if leaving your bedroom felt impossible? Across Asia, a growing number of young people are becoming hikikomori, a term used to describe people who suffer from a severe social withdrawal. \n\nClick here to subscribe to our channel 👉🏽 https://bbc.in/3VyyriM\n\nThey shut themselves in their homes, retreating from work, school, or their families for months, sometimes years.  \n\nThat condition was firs…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Can AI solve South Korea\u2019s problem with social recluses? - Asia Specific podcast\u2026",
+          "title": "Can AI solve South Korea’s problem with social recluses? - Asia Specific podcast…",
           "url": "https://www.youtube.com/watch?v=GKILCqVwp9E",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1205,6 +1155,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

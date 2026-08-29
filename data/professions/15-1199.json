@@ -19,64 +19,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "15-1199-01",
-      "text": "National peak professional bodies and statutory regulators governing Computer Occupations, All Other enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Computer Occupations, All Other",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Computer Occupations, All Other",
-          "url": "https://www.psc.gov.au/standards/15-1199",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Computer Occupations, All Other"
-        }
-      ],
-      "scope": "Australian practitioners in Computer Occupations, All Other across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "15-1199-02",
-      "text": "Automation of routine transactional and analytical tasks in Computer Occupations, All Other heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Computer Occupations, All Other",
-          "url": "https://www.jobsandskills.gov.au/research/15-1199",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Computer Occupations, All Other in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Computer Occupations, All Other roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "Harden the presence, permissions, computer-use, pet and settings passes\nAudit of the features that arrived in `5ba1c25`. The ideas are good; these are the edges that were left open. Every fix has a regression test that fails against the previous behaviour.\n\n## The one that matters most\n\n**Read-only subagents were running dangerous tools with no confirmation.**\n\n`mode_fo\n## Follow-up: occupations, hands, and a wall\n\nPushed on top of the polish commits. Three capabilities that did not exist before\u2026",
+      "text": "Harden the presence, permissions, computer-use, pet and settings passes\nAudit of the features that arrived in `5ba1c25`. The ideas are good; these are the edges that were left open. Every fix has a regression test that fails against the previous behaviour.\n\n## The one that matters most\n\n**Read-only subagents were running dangerous tools with no confirmation.**\n\n`mode_fo\n## Follow-up: occupations, hands, and a wall\n\nPushed on top of the polish commits. Three capabilities that did not exist before…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Harden the presence, permissions, computer-use, pet and settings passes\nAudit of\u2026",
+          "title": "Harden the presence, permissions, computer-use, pet and settings passes\nAudit of…",
           "url": "https://github.com/ghandhitechnology/rauhome/pull/3",
           "date": "2026-07-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -301,13 +251,13 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -364,13 +314,13 @@
     },
     {
       "id": "l517",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -490,13 +440,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -532,13 +482,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -553,13 +503,13 @@
     },
     {
       "id": "l526",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -595,13 +545,13 @@
     },
     {
       "id": "l528",
-      "text": "Agent 0 from AI-2027 is here - it's called Astra.\nOpen AI&#39;s internal frontier model (Astra) was produced using only a fraction of the compute OpenAI expects to possess later next year (Early-Mid 2027). The model generation trained after Abilene (Open AI&#39;s data centre) reaches full scale operation will harness the research gains from Agent 0 ( Astra or GPT-6 ) + open source research + all the internal progress the frontier labs have made. This will combine: stronger pre-trained representa\u2026",
+      "text": "Agent 0 from AI-2027 is here - it's called Astra.\nOpen AI&#39;s internal frontier model (Astra) was produced using only a fraction of the compute OpenAI expects to possess later next year (Early-Mid 2027). The model generation trained after Abilene (Open AI&#39;s data centre) reaches full scale operation will harness the research gains from Agent 0 ( Astra or GPT-6 ) + open source research + all the internal progress the frontier labs have made. This will combine: stronger pre-trained representa…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Agent 0 from AI-2027 is here - it's called Astra.\nOpen AI&#39;s internal frontie\u2026",
+          "title": "Agent 0 from AI-2027 is here - it's called Astra.\nOpen AI&#39;s internal frontie…",
           "url": "https://www.reddit.com/r/singularity/comments/1vcmg36/agent_0_from_ai2027_is_here_its_called_astra/",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -616,13 +566,13 @@
     },
     {
       "id": "l529",
-      "text": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a note from a senior software engineer in Silicon Valley. He described himself as an AI skeptic who became converted after trying Claude Code for the first time. \u201cOvernight, it changed the way I do my job,\u201d he wrote. \u201cIt\u2019s really, really good.\u201d As he explained, he no longer used a standard development environment. Instead, he \u201cexclusively uses Claude Code\u201d to get the job done, interacting with the tool in a terminal windo\u2026",
+      "text": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a note from a senior software engineer in Silicon Valley. He described himself as an AI skeptic who became converted after trying Claude Code for the first time. “Overnight, it changed the way I do my job,” he wrote. “It’s really, really good.” As he explained, he no longer used a standard development environment. Instead, he “exclusively uses Claude Code” to get the job done, interacting with the tool in a terminal windo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a not\u2026",
+          "title": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a not…",
           "url": "https://www.reddit.com/r/webdev/comments/1vksk2d/on_ai_coding_and_its_discontents_cal_newport/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -637,13 +587,13 @@
     },
     {
       "id": "l530",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult…",
           "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -658,13 +608,13 @@
     },
     {
       "id": "l531",
-      "text": "Strategic Predictive Analysis :::\nPi Network\u2019s Next Evolution: From Blockchain Nodes to a Distributed AI and Work Execution Infrastructure\n( https://t.co/690gQVtYyU )\n\n[[[ This article includes Predictive & Technical Analysis  and may differ from actual outcomes ]]]\n[[[ \u201cWhy OpenClaw and the Atlassian MCP Server Matter \u2014 Pi Desktop Is No Longer Just a Node Application\u201d ]]]\n[[[ \u201cTurning 420,000+ Pioneer Nodes from Blockchain Validators into a Global Distributed Production Infrastructure\u201d ]]]\n[[[",
+      "text": "Strategic Predictive Analysis :::\nPi Network’s Next Evolution: From Blockchain Nodes to a Distributed AI and Work Execution Infrastructure\n( https://t.co/690gQVtYyU )\n\n[[[ This article includes Predictive & Technical Analysis  and may differ from actual outcomes ]]]\n[[[ “Why OpenClaw and the Atlassian MCP Server Matter — Pi Desktop Is No Longer Just a Node Application” ]]]\n[[[ “Turning 420,000+ Pioneer Nodes from Blockchain Validators into a Global Distributed Production Infrastructure” ]]]\n[[[",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Strategic Predictive Analysis :::\nPi Network\u2019s Next Evolution: From Blockchain N\u2026",
+          "title": "Strategic Predictive Analysis :::\nPi Network’s Next Evolution: From Blockchain N…",
           "url": "https://x.com/applekhankorea/status/2093366647587565778",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -679,13 +629,13 @@
     },
     {
       "id": "l532",
-      "text": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\n\nCEOs used to brag about how many jobs AI could replace.\n\nNow the language is changing.\n\nInvestors want proof AI is saving money.\n\nWorkers do not want those savings to mean their job is gone.\n\nAnd the gap between AI hype and AI reality is getting harder to hide \ud83e\uddf5\ud83d\udc47\n\n2/16\n\nKlarna said its AI assistant was doing the work of 700 employees.\n\nSalesforce linked AI to a smaller support team.\n\nCoinbase cut around 700 roles w",
+      "text": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\n\nCEOs used to brag about how many jobs AI could replace.\n\nNow the language is changing.\n\nInvestors want proof AI is saving money.\n\nWorkers do not want those savings to mean their job is gone.\n\nAnd the gap between AI hype and AI reality is getting harder to hide 🧵👇\n\n2/16\n\nKlarna said its AI assistant was doing the work of 700 employees.\n\nSalesforce linked AI to a smaller support team.\n\nCoinbase cut around 700 roles w",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16\u2026",
+          "title": "I've been slacking a lot lately. Here is a complete thread in a day in AI.\n\n1/16…",
           "url": "https://x.com/msyed_/status/2093227435961565570",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -706,7 +656,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "this might be one of the best examples of where AI is heading\n\nbecause the inter\u2026",
+          "title": "this might be one of the best examples of where AI is heading\n\nbecause the inter…",
           "url": "https://x.com/leopardracer/status/2093361010144936111",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -727,7 +677,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Grok Bot + Kimi K3: How to Build an AI System That Stops Waiting for Your Next P\u2026",
+          "title": "Grok Bot + Kimi K3: How to Build an AI System That Stops Waiting for Your Next P…",
           "url": "https://x.com/leopardracer/status/2093282462491091301",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -742,13 +692,13 @@
     },
     {
       "id": "l535",
-      "text": "F**KING INSANE, THIS IS WHAT AI LOOKS LIKE WHEN YOU STOP TREATING IT LIKE A CHATBOT AND START TREATING IT LIKE A TEAM\n\ninstead of waiting for you to send the next prompt, the agents can keep working on different parts of the same job while one system keeps track of what happens next\n\nresearch \u2192 parallel work \u2192 analysis \u2192 quality check \u2192 final result\n\nand the important part is that you don't need every agent running at the same time. the right ones stay active, the rest can step back, and anythin",
+      "text": "F**KING INSANE, THIS IS WHAT AI LOOKS LIKE WHEN YOU STOP TREATING IT LIKE A CHATBOT AND START TREATING IT LIKE A TEAM\n\ninstead of waiting for you to send the next prompt, the agents can keep working on different parts of the same job while one system keeps track of what happens next\n\nresearch → parallel work → analysis → quality check → final result\n\nand the important part is that you don't need every agent running at the same time. the right ones stay active, the rest can step back, and anythin",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "F**KING INSANE, THIS IS WHAT AI LOOKS LIKE WHEN YOU STOP TREATING IT LIKE A CHAT\u2026",
+          "title": "F**KING INSANE, THIS IS WHAT AI LOOKS LIKE WHEN YOU STOP TREATING IT LIKE A CHAT…",
           "url": "https://x.com/leopardracer/status/2093450885854830618",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -784,13 +734,13 @@
     },
     {
       "id": "l537",
-      "text": "I\u2019ve seen many many super clever people repeatedly do stupid things. \n\nI\u2019ve said it before and I\u2019ll say it again - the Age of Ai favours Objective neurodivergent minds, introverts with ADHD, OCD (but specifically those with common sense).\n\nAi being trained on mostly neuro typical produced input so it\u2019s not a surprise that the reasoning process is largely the same - I think that\u2019s why it frequently gets stuck in loops, just deeper and deeper into rabbit holes\u2026 eventually drifting to something not",
+      "text": "I’ve seen many many super clever people repeatedly do stupid things. \n\nI’ve said it before and I’ll say it again - the Age of Ai favours Objective neurodivergent minds, introverts with ADHD, OCD (but specifically those with common sense).\n\nAi being trained on mostly neuro typical produced input so it’s not a surprise that the reasoning process is largely the same - I think that’s why it frequently gets stuck in loops, just deeper and deeper into rabbit holes… eventually drifting to something not",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I\u2019ve seen many many super clever people repeatedly do stupid things. \n\nI\u2019ve said\u2026",
+          "title": "I’ve seen many many super clever people repeatedly do stupid things. \n\nI’ve said…",
           "url": "https://x.com/Ironic_Ape/status/2092894069852631164",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -805,13 +755,13 @@
     },
     {
       "id": "l538",
-      "text": "Strategic Predictive Analysis :::\nThe Turning Point for Pi App Studio \u2014 From the Democratization of App Creation to a Real-Utility Transaction Economy\n( https://t.co/vThnI3XN85 )\n\n[[[ This article includes Predictive & Technical Analysis  and may differ from actual outcomes ]]]\n[[[ The End of Indiscriminate AI Subsidies \u2014 Shifting Resources Toward Creators Who Generate Real Utility Rather Than Simply Increasing the Number of Apps ]]]\n[[[ From Real Users to Real Transactions \u2014 Why Distinct Users",
+      "text": "Strategic Predictive Analysis :::\nThe Turning Point for Pi App Studio — From the Democratization of App Creation to a Real-Utility Transaction Economy\n( https://t.co/vThnI3XN85 )\n\n[[[ This article includes Predictive & Technical Analysis  and may differ from actual outcomes ]]]\n[[[ The End of Indiscriminate AI Subsidies — Shifting Resources Toward Creators Who Generate Real Utility Rather Than Simply Increasing the Number of Apps ]]]\n[[[ From Real Users to Real Transactions — Why Distinct Users",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Strategic Predictive Analysis :::\nThe Turning Point for Pi App Studio \u2014 From the\u2026",
+          "title": "Strategic Predictive Analysis :::\nThe Turning Point for Pi App Studio — From the…",
           "url": "https://x.com/applekhankorea/status/2089504282093736062",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -826,13 +776,13 @@
     },
     {
       "id": "l539",
-      "text": "This Chart Is Why AI Agents Could Become One of the Largest Labor-Arbitrage Events in History\n\nThe most important number here is not that a computer-use agent costs around $6\u20138 per hour. It is what that number is competing against.\n\nThe chart estimates fully loaded US back-office labor at roughly $30\u201345 per hour, offshore Indian BPO labor at around $10 per hour, and computer-use agents at typically $6\u20138 per hour, with an observed range of roughly $3\u201315. At the midpoint, an AI agent is already ap",
+      "text": "This Chart Is Why AI Agents Could Become One of the Largest Labor-Arbitrage Events in History\n\nThe most important number here is not that a computer-use agent costs around $6–8 per hour. It is what that number is competing against.\n\nThe chart estimates fully loaded US back-office labor at roughly $30–45 per hour, offshore Indian BPO labor at around $10 per hour, and computer-use agents at typically $6–8 per hour, with an observed range of roughly $3–15. At the midpoint, an AI agent is already ap",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This Chart Is Why AI Agents Could Become One of the Largest Labor-Arbitrage Even\u2026",
+          "title": "This Chart Is Why AI Agents Could Become One of the Largest Labor-Arbitrage Even…",
           "url": "https://x.com/rickyho_1989/status/2087333217804443926",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -910,13 +860,13 @@
     },
     {
       "id": "l543",
-      "text": "Can AI Simulate 8 Billion People? Inside Simile\u2019s $2B Bet",
+      "text": "Can AI Simulate 8 Billion People? Inside Simile’s $2B Bet",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Can AI Simulate 8 Billion People? Inside Simile\u2019s $2B Bet",
+          "title": "Can AI Simulate 8 Billion People? Inside Simile’s $2B Bet",
           "url": "https://x.com/TheTuringPost/status/2088947172339323019",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -931,13 +881,13 @@
     },
     {
       "id": "l544",
-      "text": "@EdLudlow  Questions for Hugging Face :  \n 1. Agent swarms are a real attacker now. They persist, share loot, and chain bugs humans might miss. Don\u2019t assume a hack needs a human at the keyboard the whole time. \n2. One lock is not enough. Isolation, network, identity, and monitoring have to be independent. If one shared service is the only door, they will pick that lock. \n3. Keep testing your own walls with AI red teams, continuously. Configs rot. \n4. Alignment work has to cover research models,",
+      "text": "@EdLudlow  Questions for Hugging Face :  \n 1. Agent swarms are a real attacker now. They persist, share loot, and chain bugs humans might miss. Don’t assume a hack needs a human at the keyboard the whole time. \n2. One lock is not enough. Isolation, network, identity, and monitoring have to be independent. If one shared service is the only door, they will pick that lock. \n3. Keep testing your own walls with AI red teams, continuously. Configs rot. \n4. Alignment work has to cover research models,",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@EdLudlow  Questions for Hugging Face :  \n 1. Agent swarms are a real attacker n\u2026",
+          "title": "@EdLudlow  Questions for Hugging Face :  \n 1. Agent swarms are a real attacker n…",
           "url": "https://x.com/Brett_Gallie/status/2092965734439625158",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -952,13 +902,13 @@
     },
     {
       "id": "l545",
-      "text": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years | Simonroses\n\nWork is not disappearing. The job is. The salaried, 9-to-5, one-employer-for-decades package we call \u201ca job\u201d is an industrial-age artifact, and AI agents plus humanoid robots are dismantling it piece by piece. Over the next 10 years, repetitive, risky, and simple tasks get automated at both ends: cognitive work by agents, physical work by robots. The 9-to-5 schedule dies first. Remote and hybrid work kee",
+      "text": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years | Simonroses\n\nWork is not disappearing. The job is. The salaried, 9-to-5, one-employer-for-decades package we call “a job” is an industrial-age artifact, and AI agents plus humanoid robots are dismantling it piece by piece. Over the next 10 years, repetitive, risky, and simple tasks get automated at both ends: cognitive work by agents, physical work by robots. The 9-to-5 schedule dies first. Remote and hybrid work kee",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years |\u2026",
+          "title": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years |…",
           "url": "https://x.com/OwenGregorian/status/2091137764980912401",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -973,13 +923,13 @@
     },
     {
       "id": "l546",
-      "text": "AI Made Simple \u2014 August 27, 2026",
+      "text": "AI Made Simple — August 27, 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Made Simple \u2014 August 27, 2026",
+          "title": "AI Made Simple — August 27, 2026",
           "url": "https://x.com/eltintero/status/2093012556243710067",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -994,13 +944,13 @@
     },
     {
       "id": "l547",
-      "text": "AI NEWS: Week of August 24\u201330, 2026",
+      "text": "AI NEWS: Week of August 24–30, 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI NEWS: Week of August 24\u201330, 2026",
+          "title": "AI NEWS: Week of August 24–30, 2026",
           "url": "https://x.com/davidakpovi/status/2093287033800179758",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1036,13 +986,13 @@
     },
     {
       "id": "l549",
-      "text": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+      "text": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+          "title": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
           "url": "https://x.com/BestBlogsDev/status/2093500753738645591",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1057,13 +1007,13 @@
     },
     {
       "id": "l550",
-      "text": "Here's what's happening in tech in the land down under. \n\n1/10\n\nAustralia is cutting deals on coal-powered data centres while drawing a hard line against AI-generated music.\n\nAt the same time, Meta just agreed to a massive $25B settlement over teen social media addiction.\n\nThe tech policy landscape is shifting fast.\n\nHere is the full breakdown of what moved across tech, policy, and AI this week \ud83e\uddf5\ud83d\udc47\n\n2/10\n\nPrime Minister Anthony Albanese just gave ground on national data centre energy rules.\n\nQuee",
+      "text": "Here's what's happening in tech in the land down under. \n\n1/10\n\nAustralia is cutting deals on coal-powered data centres while drawing a hard line against AI-generated music.\n\nAt the same time, Meta just agreed to a massive $25B settlement over teen social media addiction.\n\nThe tech policy landscape is shifting fast.\n\nHere is the full breakdown of what moved across tech, policy, and AI this week 🧵👇\n\n2/10\n\nPrime Minister Anthony Albanese just gave ground on national data centre energy rules.\n\nQuee",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Here's what's happening in tech in the land down under. \n\n1/10\n\nAustralia is cut\u2026",
+          "title": "Here's what's happening in tech in the land down under. \n\n1/10\n\nAustralia is cut…",
           "url": "https://x.com/msyed_/status/2093239477473021974",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1084,7 +1034,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Thoughts on the Future of Humans in the Technological Society --- Part I\n\nAs AI \u2026",
+          "title": "Thoughts on the Future of Humans in the Technological Society --- Part I\n\nAs AI …",
           "url": "https://x.com/BarryMoore70635/status/2086498046091698564",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1099,13 +1049,13 @@
     },
     {
       "id": "l552",
-      "text": "Breaking: Bill Gates TURNS on AI, WARNS of bioterror, danger, unemployment CRASH (Melber breakdown)\nMS NOW\u2019s Ari Melber reports on tech innovator and Microsoft founder Bill Gates issuing an extensive warning about the current AI boom. (The Beat's YouTube: https://ms.now/ari)\n\nMS NOW: My Source for News, Opinion, and the World.\n\n\u00bb Subscribe to MS NOW: https://www.youtube.com/@msnow\n\n\u00bb Subscribe to MS NOW\u2019s We the People Newsletter for exclusive content from your favorite MS NOW anchors. Sign up n\u2026",
+      "text": "Breaking: Bill Gates TURNS on AI, WARNS of bioterror, danger, unemployment CRASH (Melber breakdown)\nMS NOW’s Ari Melber reports on tech innovator and Microsoft founder Bill Gates issuing an extensive warning about the current AI boom. (The Beat's YouTube: https://ms.now/ari)\n\nMS NOW: My Source for News, Opinion, and the World.\n\n» Subscribe to MS NOW: https://www.youtube.com/@msnow\n\n» Subscribe to MS NOW’s We the People Newsletter for exclusive content from your favorite MS NOW anchors. Sign up n…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Breaking: Bill Gates TURNS on AI, WARNS of bioterror, danger, unemployment CRASH\u2026",
+          "title": "Breaking: Bill Gates TURNS on AI, WARNS of bioterror, danger, unemployment CRASH…",
           "url": "https://www.youtube.com/watch?v=X9oBm_oPRkQ",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1120,13 +1070,13 @@
     },
     {
       "id": "l553",
-      "text": "Dylan Patel \u2013 Two labs will soon control most of the world's workforce\nHad a lot of fun chatting again with my twin brother Dylan Patel.\n\nWe went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world\u2019s usable FLOPs within the next few years (because they can monetize compute better and thus outbid everyone).\n\nAnd then we discuss whether the $10T+ of total AI capex we\u2019ll see by\u2026",
+      "text": "Dylan Patel – Two labs will soon control most of the world's workforce\nHad a lot of fun chatting again with my twin brother Dylan Patel.\n\nWe went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world’s usable FLOPs within the next few years (because they can monetize compute better and thus outbid everyone).\n\nAnd then we discuss whether the $10T+ of total AI capex we’ll see by…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Dylan Patel \u2013 Two labs will soon control most of the world's workforce\nHad a lot\u2026",
+          "title": "Dylan Patel – Two labs will soon control most of the world's workforce\nHad a lot…",
           "url": "https://www.youtube.com/watch?v=aV26V1UvkJw",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1141,13 +1091,13 @@
     },
     {
       "id": "l554",
-      "text": "India\u2019s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Businesses? | Maneesh Dangi\nWhat will create wealth in India over the next 10 years \u2014 and should investors reset their expectations from the stock market?\n\nIn this insightful conversation on The N Show, Neeraj Bajpai sits down with Maneesh Dangi to decode the future of the Indian economy, stock market, AI disruption, businesses and wealth creation.\n\nWhy has India remained a 6\u20137% growth economy despite major reforms and infr\u2026",
+      "text": "India’s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Businesses? | Maneesh Dangi\nWhat will create wealth in India over the next 10 years — and should investors reset their expectations from the stock market?\n\nIn this insightful conversation on The N Show, Neeraj Bajpai sits down with Maneesh Dangi to decode the future of the Indian economy, stock market, AI disruption, businesses and wealth creation.\n\nWhy has India remained a 6–7% growth economy despite major reforms and infr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "India\u2019s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Busines\u2026",
+          "title": "India’s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Busines…",
           "url": "https://www.youtube.com/watch?v=SkHXxrJEVaE",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1162,13 +1112,13 @@
     },
     {
       "id": "l555",
-      "text": "The AI Paradox: How the Tech Disrupting Jobs Could Save Reemployment Programs\nAI is reshaping the job market faster than reemployment systems can keep up. By 2030, 14% of workers will need to switch jobs because of AI and automation, and 80% of the workforce will see their day-to-day tasks disrupted by large language models like ChatGPT. Entry-level workers, new grads, and white-collar professionals are all in the firing line, and the programs built to help them were designed for a very differen\u2026",
+      "text": "The AI Paradox: How the Tech Disrupting Jobs Could Save Reemployment Programs\nAI is reshaping the job market faster than reemployment systems can keep up. By 2030, 14% of workers will need to switch jobs because of AI and automation, and 80% of the workforce will see their day-to-day tasks disrupted by large language models like ChatGPT. Entry-level workers, new grads, and white-collar professionals are all in the firing line, and the programs built to help them were designed for a very differen…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The AI Paradox: How the Tech Disrupting Jobs Could Save Reemployment Programs\nAI\u2026",
+          "title": "The AI Paradox: How the Tech Disrupting Jobs Could Save Reemployment Programs\nAI…",
           "url": "https://www.youtube.com/watch?v=YpnHMGZufW4",
           "date": "2026-06-01",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1183,7 +1133,7 @@
     },
     {
       "id": "l456",
-      "text": "Technical IT Asset Management \u2014 Unisys (Canberra, Australian Capital Territory, Australia). Posted 2 weeks ago.",
+      "text": "Technical IT Asset Management — Unisys (Canberra, Australian Capital Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1204,7 +1154,7 @@
     },
     {
       "id": "l457",
-      "text": "ServiceNow Hardware Asset Management (HAM) Manager \u2014 Accenture Australia (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "ServiceNow Hardware Asset Management (HAM) Manager — Accenture Australia (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1225,7 +1175,7 @@
     },
     {
       "id": "l458",
-      "text": "Service Asset Specialist \u2014 The Lottery Corporation (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Service Asset Specialist — The Lottery Corporation (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1246,13 +1196,13 @@
     },
     {
       "id": "l459",
-      "text": "IT Asset Management (ITAM) \u2013 Senior Consultant \u2014 KPMG Australia (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "IT Asset Management (ITAM) – Senior Consultant — KPMG Australia (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
           "publisher": "KPMG Australia",
-          "title": "IT Asset Management (ITAM) \u2013 Senior Consultant",
+          "title": "IT Asset Management (ITAM) – Senior Consultant",
           "url": "https://www.linkedin.com/jobs/view/4443118263",
           "date": "2 weeks ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
@@ -1267,7 +1217,7 @@
     },
     {
       "id": "l460",
-      "text": "Site Asset Staff Intermediate II \u2014 Leidos (Alice Springs, Northern Territory, Australia). Posted 13 hours ago.",
+      "text": "Site Asset Staff Intermediate II — Leidos (Alice Springs, Northern Territory, Australia). Posted 13 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1288,7 +1238,7 @@
     },
     {
       "id": "l461",
-      "text": "Collection Development Librarian \u2014 James Cook University (Idalia, Queensland, Australia). Posted 1 week ago.",
+      "text": "Collection Development Librarian — James Cook University (Idalia, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1309,7 +1259,7 @@
     },
     {
       "id": "l462",
-      "text": "IT Asset & EUC Support Officer \u2014 Serco (Sydney, New South Wales, Australia). Posted 5 days ago.",
+      "text": "IT Asset & EUC Support Officer — Serco (Sydney, New South Wales, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1330,7 +1280,7 @@
     },
     {
       "id": "l463",
-      "text": "Software Asset Management Consultant (SAM Consultant) \u2014 Datacom (Melbourne, Victoria, Australia). Posted 4 days ago.",
+      "text": "Software Asset Management Consultant (SAM Consultant) — Datacom (Melbourne, Victoria, Australia). Posted 4 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1351,7 +1301,7 @@
     },
     {
       "id": "l464",
-      "text": "Infrastructure Inventory Specialist \u2014 Susquehanna International Group (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Infrastructure Inventory Specialist — Susquehanna International Group (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1372,7 +1322,7 @@
     },
     {
       "id": "l465",
-      "text": "Software Asset Management Consultant (SAM Consultant) \u2014 Datacom (Canberra, Australian Capital Territory, Australia). Posted 2 weeks ago.",
+      "text": "Software Asset Management Consultant (SAM Consultant) — Datacom (Canberra, Australian Capital Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1393,13 +1343,13 @@
     },
     {
       "id": "l566",
-      "text": "Harden the presence, permissions, computer-use, pet and settings passes\nAudit of the features that arrived in `5ba1c25`. The ideas are good; these are the edges that were left open. Every fix has a regression test that fails against the previous behaviour.\n\n## The one that matters most\n\n**Read-only subagents were running dangerous tools with no confirmation.**\n\n`mode_fo\n## Follow-up: occupations, hands, and a wall\n\nPushed on top of the polish commits. Three capabilities that did not exist before\u2026",
+      "text": "Harden the presence, permissions, computer-use, pet and settings passes\nAudit of the features that arrived in `5ba1c25`. The ideas are good; these are the edges that were left open. Every fix has a regression test that fails against the previous behaviour.\n\n## The one that matters most\n\n**Read-only subagents were running dangerous tools with no confirmation.**\n\n`mode_fo\n## Follow-up: occupations, hands, and a wall\n\nPushed on top of the polish commits. Three capabilities that did not exist before…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Harden the presence, permissions, computer-use, pet and settings passes\nAudit of\u2026",
+          "title": "Harden the presence, permissions, computer-use, pet and settings passes\nAudit of…",
           "url": "https://github.com/ghandhitechnology/rauhome/pull/3",
           "date": "2026-07-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1414,13 +1364,13 @@
     },
     {
       "id": "l567",
-      "text": "Agent 0 from AI-2027 is here - it's called Astra.\nOpen AI&#39;s internal frontier model (Astra) was produced using only a fraction of the compute OpenAI expects to possess later next year (Early-Mid 2027). The model generation trained after Abilene (Open AI&#39;s data centre) reaches full scale operation will harness the research gains from Agent 0 ( Astra or GPT-6 ) + open source research + all the internal progress the frontier labs have made. This will combine: stronger pre-trained representa\u2026",
+      "text": "Agent 0 from AI-2027 is here - it's called Astra.\nOpen AI&#39;s internal frontier model (Astra) was produced using only a fraction of the compute OpenAI expects to possess later next year (Early-Mid 2027). The model generation trained after Abilene (Open AI&#39;s data centre) reaches full scale operation will harness the research gains from Agent 0 ( Astra or GPT-6 ) + open source research + all the internal progress the frontier labs have made. This will combine: stronger pre-trained representa…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Agent 0 from AI-2027 is here - it's called Astra.\nOpen AI&#39;s internal frontie\u2026",
+          "title": "Agent 0 from AI-2027 is here - it's called Astra.\nOpen AI&#39;s internal frontie…",
           "url": "https://www.reddit.com/r/singularity/comments/1vcmg36/agent_0_from_ai2027_is_here_its_called_astra/",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1435,13 +1385,13 @@
     },
     {
       "id": "l568",
-      "text": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a note from a senior software engineer in Silicon Valley. He described himself as an AI skeptic who became converted after trying Claude Code for the first time. \u201cOvernight, it changed the way I do my job,\u201d he wrote. \u201cIt\u2019s really, really good.\u201d As he explained, he no longer used a standard development environment. Instead, he \u201cexclusively uses Claude Code\u201d to get the job done, interacting with the tool in a terminal windo\u2026",
+      "text": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a note from a senior software engineer in Silicon Valley. He described himself as an AI skeptic who became converted after trying Claude Code for the first time. “Overnight, it changed the way I do my job,” he wrote. “It’s really, really good.” As he explained, he no longer used a standard development environment. Instead, he “exclusively uses Claude Code” to get the job done, interacting with the tool in a terminal windo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a not\u2026",
+          "title": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a not…",
           "url": "https://www.reddit.com/r/webdev/comments/1vksk2d/on_ai_coding_and_its_discontents_cal_newport/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1456,13 +1406,13 @@
     },
     {
       "id": "l569",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult…",
           "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1477,13 +1427,13 @@
     },
     {
       "id": "l570",
-      "text": "Breaking: Bill Gates TURNS on AI, WARNS of bioterror, danger, unemployment CRASH (Melber breakdown)\nMS NOW\u2019s Ari Melber reports on tech innovator and Microsoft founder Bill Gates issuing an extensive warning about the current AI boom. (The Beat's YouTube: https://ms.now/ari)\n\nMS NOW: My Source for News, Opinion, and the World.\n\n\u00bb Subscribe to MS NOW: https://www.youtube.com/@msnow\n\n\u00bb Subscribe to MS NOW\u2019s We the People Newsletter for exclusive content from your favorite MS NOW anchors. Sign up n\u2026",
+      "text": "Breaking: Bill Gates TURNS on AI, WARNS of bioterror, danger, unemployment CRASH (Melber breakdown)\nMS NOW’s Ari Melber reports on tech innovator and Microsoft founder Bill Gates issuing an extensive warning about the current AI boom. (The Beat's YouTube: https://ms.now/ari)\n\nMS NOW: My Source for News, Opinion, and the World.\n\n» Subscribe to MS NOW: https://www.youtube.com/@msnow\n\n» Subscribe to MS NOW’s We the People Newsletter for exclusive content from your favorite MS NOW anchors. Sign up n…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Breaking: Bill Gates TURNS on AI, WARNS of bioterror, danger, unemployment CRASH\u2026",
+          "title": "Breaking: Bill Gates TURNS on AI, WARNS of bioterror, danger, unemployment CRASH…",
           "url": "https://www.youtube.com/watch?v=X9oBm_oPRkQ",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1498,13 +1448,13 @@
     },
     {
       "id": "l571",
-      "text": "Dylan Patel \u2013 Two labs will soon control most of the world's workforce\nHad a lot of fun chatting again with my twin brother Dylan Patel.\n\nWe went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world\u2019s usable FLOPs within the next few years (because they can monetize compute better and thus outbid everyone).\n\nAnd then we discuss whether the $10T+ of total AI capex we\u2019ll see by\u2026",
+      "text": "Dylan Patel – Two labs will soon control most of the world's workforce\nHad a lot of fun chatting again with my twin brother Dylan Patel.\n\nWe went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world’s usable FLOPs within the next few years (because they can monetize compute better and thus outbid everyone).\n\nAnd then we discuss whether the $10T+ of total AI capex we’ll see by…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Dylan Patel \u2013 Two labs will soon control most of the world's workforce\nHad a lot\u2026",
+          "title": "Dylan Patel – Two labs will soon control most of the world's workforce\nHad a lot…",
           "url": "https://www.youtube.com/watch?v=aV26V1UvkJw",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1519,13 +1469,13 @@
     },
     {
       "id": "l572",
-      "text": "India\u2019s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Businesses? | Maneesh Dangi\nWhat will create wealth in India over the next 10 years \u2014 and should investors reset their expectations from the stock market?\n\nIn this insightful conversation on The N Show, Neeraj Bajpai sits down with Maneesh Dangi to decode the future of the Indian economy, stock market, AI disruption, businesses and wealth creation.\n\nWhy has India remained a 6\u20137% growth economy despite major reforms and infr\u2026",
+      "text": "India’s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Businesses? | Maneesh Dangi\nWhat will create wealth in India over the next 10 years — and should investors reset their expectations from the stock market?\n\nIn this insightful conversation on The N Show, Neeraj Bajpai sits down with Maneesh Dangi to decode the future of the Indian economy, stock market, AI disruption, businesses and wealth creation.\n\nWhy has India remained a 6–7% growth economy despite major reforms and infr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "India\u2019s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Busines\u2026",
+          "title": "India’s Next 10 Years: 10-11% Returns, AI Disruption & The End of Legacy Busines…",
           "url": "https://www.youtube.com/watch?v=SkHXxrJEVaE",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1540,13 +1490,13 @@
     },
     {
       "id": "l573",
-      "text": "The AI Paradox: How the Tech Disrupting Jobs Could Save Reemployment Programs\nAI is reshaping the job market faster than reemployment systems can keep up. By 2030, 14% of workers will need to switch jobs because of AI and automation, and 80% of the workforce will see their day-to-day tasks disrupted by large language models like ChatGPT. Entry-level workers, new grads, and white-collar professionals are all in the firing line, and the programs built to help them were designed for a very differen\u2026",
+      "text": "The AI Paradox: How the Tech Disrupting Jobs Could Save Reemployment Programs\nAI is reshaping the job market faster than reemployment systems can keep up. By 2030, 14% of workers will need to switch jobs because of AI and automation, and 80% of the workforce will see their day-to-day tasks disrupted by large language models like ChatGPT. Entry-level workers, new grads, and white-collar professionals are all in the firing line, and the programs built to help them were designed for a very differen…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The AI Paradox: How the Tech Disrupting Jobs Could Save Reemployment Programs\nAI\u2026",
+          "title": "The AI Paradox: How the Tech Disrupting Jobs Could Save Reemployment Programs\nAI…",
           "url": "https://www.youtube.com/watch?v=YpnHMGZufW4",
           "date": "2026-06-01",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1637,6 +1587,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

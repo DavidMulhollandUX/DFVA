@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "31-1014-01",
-      "text": "National peak professional bodies and statutory regulators governing Nursing Assistants enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Nursing Assistants",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Nursing Assistants",
-          "url": "https://www.psc.gov.au/standards/31-1014",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Nursing Assistants"
-        }
-      ],
-      "scope": "Australian practitioners in Nursing Assistants across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "31-1014-02",
-      "text": "Automation of routine transactional and analytical tasks in Nursing Assistants heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Nursing Assistants",
-          "url": "https://www.jobsandskills.gov.au/research/31-1014",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Nursing Assistants in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Nursing Assistants roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "Add CLAUDE.md guide for AI assistants\n## Summary\n\nAdds a `CLAUDE.md` to guide AI assistants working in this repository (NurseTube \u2014 the \u305a\u3093\u3060\u3082\u3093 nursing study app).\n\nIt documents:\n- **Project overview** \u2014 static dependency-free YouTube-style app; Japanese UI and \u305a\u3093\u3060\u3082\u3093\u300c\u301c\u306a\u306e\u3060\u300d tone\n- **How to run** \u2014 open `index.html` or `python3 -m http.serv",
+      "text": "Add CLAUDE.md guide for AI assistants\n## Summary\n\nAdds a `CLAUDE.md` to guide AI assistants working in this repository (NurseTube — the ずんだもん nursing study app).\n\nIt documents:\n- **Project overview** — static dependency-free YouTube-style app; Japanese UI and ずんだもん「〜なのだ」 tone\n- **How to run** — open `index.html` or `python3 -m http.serv",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add CLAUDE.md guide for AI assistants\n## Summary\n\nAdds a `CLAUDE.md` to guide AI\u2026",
+          "title": "Add CLAUDE.md guide for AI assistants\n## Summary\n\nAdds a `CLAUDE.md` to guide AI…",
           "url": "https://github.com/yakkun-shinchian/SD-/pull/1",
           "date": "2026-06-23",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -86,13 +36,13 @@
     },
     {
       "id": "l504",
-      "text": "Add CLAUDE.md with codebase guidance for AI assistants\n## Summary\n\nAdds a comprehensive `CLAUDE.md` to give AI assistants a fast, accurate map of the codebase.\n\nThe repo had no existing `CLAUDE.md`. This new file documents:\n\n- **Project overview** \u2014 what the tool does (collects Swiss nursing jobs from job-room.ch + JobSpy) and its double purpose as a po",
+      "text": "Add CLAUDE.md with codebase guidance for AI assistants\n## Summary\n\nAdds a comprehensive `CLAUDE.md` to give AI assistants a fast, accurate map of the codebase.\n\nThe repo had no existing `CLAUDE.md`. This new file documents:\n\n- **Project overview** — what the tool does (collects Swiss nursing jobs from job-room.ch + JobSpy) and its double purpose as a po",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add CLAUDE.md with codebase guidance for AI assistants\n## Summary\n\nAdds a compre\u2026",
+          "title": "Add CLAUDE.md with codebase guidance for AI assistants\n## Summary\n\nAdds a compre…",
           "url": "https://github.com/oskarwalluga-cmyk/ch-pflege-jobs/pull/1",
           "date": "2026-06-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -113,7 +63,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Implement production SEO and AI search foundation\n## Why\nBeyond The Visa needed \u2026",
+          "title": "Implement production SEO and AI search foundation\n## Why\nBeyond The Visa needed …",
           "url": "https://github.com/basintaleuk-del/Beyond-The-Visa-MVP/pull/5",
           "date": "2026-07-24",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -134,7 +84,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "1-create a AI driven learning cum coaching platform for Uttarakhand state of ind\u2026",
+          "title": "1-create a AI driven learning cum coaching platform for Uttarakhand state of ind…",
           "url": "https://github.com/babajosh50/moshi/issues/1",
           "date": "2026-03-20",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -296,13 +246,13 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -380,13 +330,13 @@
     },
     {
       "id": "l518",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -401,13 +351,13 @@
     },
     {
       "id": "l519",
-      "text": "Launch HN: Traceforce (YC S26) \u2013 Company-wide security monitoring for AI apps",
+      "text": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Launch HN: Traceforce (YC S26) \u2013 Company-wide security monitoring for AI apps",
+          "title": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
           "url": "https://news.ycombinator.com/item?id=48937020",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -548,13 +498,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -590,13 +540,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -632,13 +582,13 @@
     },
     {
       "id": "l530",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "No, AI will not save the Masquerade\nI&#39;ve seen this point raised a lot in the past few years as a potential way that the Masquerade will remain feasible despite the surveillance era we&#39;re all enduring. It&#39;s so prevalent, we&#39;ve even seen it appear in the VtM6 playtest material. The new digital world of post-truth and AI slop has turned out beautifully for the Masquerade. No one believes in anything anymore. Everything is staged, posed, faked. Vampires take advantage of it, though t\u2026",
+      "text": "No, AI will not save the Masquerade\nI&#39;ve seen this point raised a lot in the past few years as a potential way that the Masquerade will remain feasible despite the surveillance era we&#39;re all enduring. It&#39;s so prevalent, we&#39;ve even seen it appear in the VtM6 playtest material. The new digital world of post-truth and AI slop has turned out beautifully for the Masquerade. No one believes in anything anymore. Everything is staged, posed, faked. Vampires take advantage of it, though t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "No, AI will not save the Masquerade\nI&#39;ve seen this point raised a lot in the\u2026",
+          "title": "No, AI will not save the Masquerade\nI&#39;ve seen this point raised a lot in the…",
           "url": "https://www.reddit.com/r/vtm/comments/1vmwjt6/no_ai_will_not_save_the_masquerade/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -674,13 +624,13 @@
     },
     {
       "id": "l532",
-      "text": "Why would I Want AI-Assisted Clinical Judgement\nI just checked the Kaiser Nurse Residency page to see if I moved forward in the hiring process. Why would I want to learn how to use AI for clinical judgment? That\u2019s not what I want in a residency, I want to progress nursing skills and my own clinical judgment. Not to mention the interview process was all AI reviewed videos. Kaiser seemingly has gone all in on AI for nursing. &#32; submitted by &#32; /u/kitkatofthunder &#32; to &#32; r/nursing [lin\u2026",
+      "text": "Why would I Want AI-Assisted Clinical Judgement\nI just checked the Kaiser Nurse Residency page to see if I moved forward in the hiring process. Why would I want to learn how to use AI for clinical judgment? That’s not what I want in a residency, I want to progress nursing skills and my own clinical judgment. Not to mention the interview process was all AI reviewed videos. Kaiser seemingly has gone all in on AI for nursing. &#32; submitted by &#32; /u/kitkatofthunder &#32; to &#32; r/nursing [lin…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why would I Want AI-Assisted Clinical Judgement\nI just checked the Kaiser Nurse \u2026",
+          "title": "Why would I Want AI-Assisted Clinical Judgement\nI just checked the Kaiser Nurse …",
           "url": "https://www.reddit.com/r/nursing/comments/1vdpxs1/why_would_i_want_aiassisted_clinical_judgement/",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -701,7 +651,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of P\u2026",
+          "title": "The Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of P…",
           "url": "https://www.reddit.com/r/PoisonFountain/comments/1vkxkqc/the_tragedy_of_the_cognitive_commons_how_ai_could/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -716,13 +666,13 @@
     },
     {
       "id": "l534",
-      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif\u2026",
+      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Traini\u2026",
+          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Traini…",
           "url": "https://www.reddit.com/r/ClinicalLegalField/comments/1vkdimx/thinking_about_becoming_a_legal_nurse_consultant/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -743,7 +693,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The AI Upside #58\n\nWhat if the time nurses spend typing could be returned to pat\u2026",
+          "title": "The AI Upside #58\n\nWhat if the time nurses spend typing could be returned to pat…",
           "url": "https://x.com/TheAIUpside/status/2092215589536219269",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -758,13 +708,13 @@
     },
     {
       "id": "l536",
-      "text": "ELON MUSK: \u201cAI AND ROBOTS WILL REPLACE ALL JOBS\u201d",
+      "text": "ELON MUSK: “AI AND ROBOTS WILL REPLACE ALL JOBS”",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "ELON MUSK: \u201cAI AND ROBOTS WILL REPLACE ALL JOBS\u201d",
+          "title": "ELON MUSK: “AI AND ROBOTS WILL REPLACE ALL JOBS”",
           "url": "https://x.com/TheFutureIRL/status/2087493362928484354",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "AI JUST TOOK OVER THE KITCHEN. THE KITCHEN DID NOT SURVIVE \ud83e\udd16\ud83c\udf5c\n\nThe humanoid tries to cook noodles.\n\nFirst, the noodles hit the floor.\n\nThen the sauce goes everywhere.\n\nThe owner walks in to see the disaster\u2026 and somehow ends up with noodles hanging off him too \ud83d\ude02\n\nThe robot looks at the crime scene, grabs the spatula and runs out of the kitchen while he chases it \ud83d\udc80\n\nHumanoid robotics is advancing fast.\n\nCooking skills are still in beta.\n\nWould you let this robot make your dinner?",
+      "text": "AI JUST TOOK OVER THE KITCHEN. THE KITCHEN DID NOT SURVIVE 🤖🍜\n\nThe humanoid tries to cook noodles.\n\nFirst, the noodles hit the floor.\n\nThen the sauce goes everywhere.\n\nThe owner walks in to see the disaster… and somehow ends up with noodles hanging off him too 😂\n\nThe robot looks at the crime scene, grabs the spatula and runs out of the kitchen while he chases it 💀\n\nHumanoid robotics is advancing fast.\n\nCooking skills are still in beta.\n\nWould you let this robot make your dinner?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI JUST TOOK OVER THE KITCHEN. THE KITCHEN DID NOT SURVIVE \ud83e\udd16\ud83c\udf5c\n\nThe humanoid trie\u2026",
+          "title": "AI JUST TOOK OVER THE KITCHEN. THE KITCHEN DID NOT SURVIVE 🤖🍜\n\nThe humanoid trie…",
           "url": "https://x.com/TheFutureIRL/status/2089847055930085845",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "A COWBOY ROBOT JUST SERVED A DRINK LIKE THIS IS COMPLETELY NORMAL\u2049\ufe0f\u2049\ufe0f\u2049\ufe0f\n\nIt gestures to the customer, grabs the cup, works the tap, pours the drink \u2014 then hands it over across the bar.\n\nThe cowboy hat somehow makes the whole thing even more surreal.\n\nThis is what makes physical AI interesting: not robots doing backflips in a lab, but machines starting to perform small, ordinary human interactions in public.\n\nBartender today.\n\nWaiter tomorrow.\n\nHow long before seeing a robot behind the bar stops",
+      "text": "A COWBOY ROBOT JUST SERVED A DRINK LIKE THIS IS COMPLETELY NORMAL⁉️⁉️⁉️\n\nIt gestures to the customer, grabs the cup, works the tap, pours the drink — then hands it over across the bar.\n\nThe cowboy hat somehow makes the whole thing even more surreal.\n\nThis is what makes physical AI interesting: not robots doing backflips in a lab, but machines starting to perform small, ordinary human interactions in public.\n\nBartender today.\n\nWaiter tomorrow.\n\nHow long before seeing a robot behind the bar stops",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A COWBOY ROBOT JUST SERVED A DRINK LIKE THIS IS COMPLETELY NORMAL\u2049\ufe0f\u2049\ufe0f\u2049\ufe0f\n\nIt gest\u2026",
+          "title": "A COWBOY ROBOT JUST SERVED A DRINK LIKE THIS IS COMPLETELY NORMAL⁉️⁉️⁉️\n\nIt gest…",
           "url": "https://x.com/TheFutureIRL/status/2089376707010585028",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -842,13 +792,13 @@
     },
     {
       "id": "l540",
-      "text": "@andrewilliamsus These are nursing assistants I\u2019m sure.",
+      "text": "@andrewilliamsus These are nursing assistants I’m sure.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@andrewilliamsus These are nursing assistants I\u2019m sure.",
+          "title": "@andrewilliamsus These are nursing assistants I’m sure.",
           "url": "https://x.com/DHthegreatthx0/status/2091997322934714436",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -890,7 +840,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The future of tokenization is here, build your agent on $VIRTUAL.\n\n@virtuals_io \u2026",
+          "title": "The future of tokenization is here, build your agent on $VIRTUAL.\n\n@virtuals_io …",
           "url": "https://x.com/cryptolart/status/2093331640755863995",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -968,7 +918,7 @@
     },
     {
       "id": "l446",
-      "text": "Assistant in Nursing - Maroochydore \u2014 Regis Aged Care (Maroochydore, Queensland, Australia). Posted 1 week ago.",
+      "text": "Assistant in Nursing - Maroochydore — Regis Aged Care (Maroochydore, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -989,7 +939,7 @@
     },
     {
       "id": "l447",
-      "text": "Assistant in Nursing - Pelican Waters New \u2014 Regis Aged Care (Pelican Waters, Queensland, Australia). Posted 1 week ago.",
+      "text": "Assistant in Nursing - Pelican Waters New — Regis Aged Care (Pelican Waters, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1010,7 +960,7 @@
     },
     {
       "id": "l448",
-      "text": "Certified Nursing Assistant (CNA) \u2014 Pikes Peak Post Acute (Gold Coast). Posted 1 month ago.",
+      "text": "Certified Nursing Assistant (CNA) — Pikes Peak Post Acute (Gold Coast). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1031,7 +981,7 @@
     },
     {
       "id": "l449",
-      "text": "Assistant in Nursing \u2014 Montefiore (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Assistant in Nursing — Montefiore (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1052,7 +1002,7 @@
     },
     {
       "id": "l450",
-      "text": "Care Companion (Personal Carer) \u2014 UnitingCare Queensland (Sunshine Coast, Queensland, Australia). Posted 3 months ago.",
+      "text": "Care Companion (Personal Carer) — UnitingCare Queensland (Sunshine Coast, Queensland, Australia). Posted 3 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1073,7 +1023,7 @@
     },
     {
       "id": "l451",
-      "text": "Assistant in Nursing \u2014 Central Queensland Hospital and Health Service (Yeppoon, Queensland, Australia). Posted 16 hours ago.",
+      "text": "Assistant in Nursing — Central Queensland Hospital and Health Service (Yeppoon, Queensland, Australia). Posted 16 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1094,7 +1044,7 @@
     },
     {
       "id": "l452",
-      "text": "Personal Care Worker \u2014 Benetas (Eastern View, Victoria, Australia). Posted 4 weeks ago.",
+      "text": "Personal Care Worker — Benetas (Eastern View, Victoria, Australia). Posted 4 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1115,7 +1065,7 @@
     },
     {
       "id": "l453",
-      "text": "Assistant in Nursing \u2014 Achieve Australia (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
+      "text": "Assistant in Nursing — Achieve Australia (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1136,7 +1086,7 @@
     },
     {
       "id": "l454",
-      "text": "Care Assistants \u2014 Newcastle Anglican (Gloucester, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Care Assistants — Newcastle Anglican (Gloucester, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1157,7 +1107,7 @@
     },
     {
       "id": "l455",
-      "text": "Support Worker \u2014 EspouseCare (Adelaide, South Australia, Australia). Posted 2 days ago.",
+      "text": "Support Worker — EspouseCare (Adelaide, South Australia, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1178,13 +1128,13 @@
     },
     {
       "id": "l556",
-      "text": "No, AI will not save the Masquerade\nI&#39;ve seen this point raised a lot in the past few years as a potential way that the Masquerade will remain feasible despite the surveillance era we&#39;re all enduring. It&#39;s so prevalent, we&#39;ve even seen it appear in the VtM6 playtest material. The new digital world of post-truth and AI slop has turned out beautifully for the Masquerade. No one believes in anything anymore. Everything is staged, posed, faked. Vampires take advantage of it, though t\u2026",
+      "text": "No, AI will not save the Masquerade\nI&#39;ve seen this point raised a lot in the past few years as a potential way that the Masquerade will remain feasible despite the surveillance era we&#39;re all enduring. It&#39;s so prevalent, we&#39;ve even seen it appear in the VtM6 playtest material. The new digital world of post-truth and AI slop has turned out beautifully for the Masquerade. No one believes in anything anymore. Everything is staged, posed, faked. Vampires take advantage of it, though t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "No, AI will not save the Masquerade\nI&#39;ve seen this point raised a lot in the\u2026",
+          "title": "No, AI will not save the Masquerade\nI&#39;ve seen this point raised a lot in the…",
           "url": "https://www.reddit.com/r/vtm/comments/1vmwjt6/no_ai_will_not_save_the_masquerade/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1199,13 +1149,13 @@
     },
     {
       "id": "l557",
-      "text": "Why would I Want AI-Assisted Clinical Judgement\nI just checked the Kaiser Nurse Residency page to see if I moved forward in the hiring process. Why would I want to learn how to use AI for clinical judgment? That\u2019s not what I want in a residency, I want to progress nursing skills and my own clinical judgment. Not to mention the interview process was all AI reviewed videos. Kaiser seemingly has gone all in on AI for nursing. &#32; submitted by &#32; /u/kitkatofthunder &#32; to &#32; r/nursing [lin\u2026",
+      "text": "Why would I Want AI-Assisted Clinical Judgement\nI just checked the Kaiser Nurse Residency page to see if I moved forward in the hiring process. Why would I want to learn how to use AI for clinical judgment? That’s not what I want in a residency, I want to progress nursing skills and my own clinical judgment. Not to mention the interview process was all AI reviewed videos. Kaiser seemingly has gone all in on AI for nursing. &#32; submitted by &#32; /u/kitkatofthunder &#32; to &#32; r/nursing [lin…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why would I Want AI-Assisted Clinical Judgement\nI just checked the Kaiser Nurse \u2026",
+          "title": "Why would I Want AI-Assisted Clinical Judgement\nI just checked the Kaiser Nurse …",
           "url": "https://www.reddit.com/r/nursing/comments/1vdpxs1/why_would_i_want_aiassisted_clinical_judgement/",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1220,13 +1170,13 @@
     },
     {
       "id": "l558",
-      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif\u2026",
+      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Traini\u2026",
+          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here—Traini…",
           "url": "https://www.reddit.com/r/ClinicalLegalField/comments/1vkdimx/thinking_about_becoming_a_legal_nurse_consultant/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1319,6 +1269,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

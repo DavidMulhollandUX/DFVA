@@ -21,64 +21,14 @@
   ],
   "claims": [
     {
-      "id": "21-1093-01",
-      "text": "National peak professional bodies and statutory regulators governing Social and Human Service Assistants enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Social and Human Service Assistants",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Social and Human Service Assistants",
-          "url": "https://www.psc.gov.au/standards/21-1093",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Social and Human Service Assistants"
-        }
-      ],
-      "scope": "Australian practitioners in Social and Human Service Assistants across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "21-1093-02",
-      "text": "Automation of routine transactional and analytical tasks in Social and Human Service Assistants heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Social and Human Service Assistants",
-          "url": "https://www.jobsandskills.gov.au/research/21-1093",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Social and Human Service Assistants in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Social and Human Service Assistants roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "GCP Professional Cloud Architect (PCA) \u30ac\u30a4\u30c9\u5168\u30bb\u30af\u30b7\u30e7\u30f3\u306e Next.js \u5b8c\u5168\u79fb\u884c\u3068 SRE/DevOps/\u5206\u6563\u30b7\u30b9\u30c6\u30e0\u5b66\u7fd2\u30ac\u30a4\u30c9\u7fa4\u306e\u62e1\u5145\n## **\u4e3b\u306a\u5909\u66f4\u70b9\u3068\u8a73\u7d30**\r\n\r\n### **1. GCP PCA \u30ac\u30a4\u30c9\u306e Next.js \u5b8c\u5168\u79fb\u884c (Section 2\u301c6)**\r\n\r\nTDD\uff08\u30c6\u30b9\u30c8\u99c6\u52d5\u958b\u767a\uff09\u30ef\u30fc\u30af\u30d5\u30ed\u30fc\u306b\u53b3\u683c\u306b\u5f93\u3044\u3001\u5168\u30bb\u30af\u30b7\u30e7\u30f3\u306e\u79fb\u884c\u30fb\u30eb\u30fc\u30c6\u30a3\u30f3\u30b0\u7d71\u5408\u30fb\u30c6\u30b9\u30c8\u4f5c\u6210\u304c\u5b8c\u4e86\u3057\u307e\u3057\u305f\u3002\r\n\r\n- **\u79fb\u884c\u3055\u308c\u305f\u30bb\u30af\u30b7\u30e7\u30f3:**\r\n    - **Section 2:**\u00a0\u30b5\u30fc\u30d3\u30b9\u30d7\u30ed\u30d3\u30b8\u30e7\u30cb\u30f3\u30b0\u3068\u7ba1\u7406 (`section2-managing-provisioning`)\r\n    - **Section 3:**\u00a0\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u3068\u30b3\u30f3\u30d7\u30e9\u30a4\u30a2\u30f3\u30b9\u8a2d\u8a08 (`section3-security-compliance`)\n### <span aria-hidden=\"true\">\u274c</span> Deploy Preview for *cloud-infrastructure-studies* failed.\n\n\n|  Name | Lin\u2026",
+      "text": "GCP Professional Cloud Architect (PCA) ガイド全セクションの Next.js 完全移行と SRE/DevOps/分散システム学習ガイド群の拡充\n## **主な変更点と詳細**\r\n\r\n### **1. GCP PCA ガイドの Next.js 完全移行 (Section 2〜6)**\r\n\r\nTDD（テスト駆動開発）ワークフローに厳格に従い、全セクションの移行・ルーティング統合・テスト作成が完了しました。\r\n\r\n- **移行されたセクション:**\r\n    - **Section 2:** サービスプロビジョニングと管理 (`section2-managing-provisioning`)\r\n    - **Section 3:** セキュリティとコンプライアンス設計 (`section3-security-compliance`)\n### <span aria-hidden=\"true\">❌</span> Deploy Preview for *cloud-infrastructure-studies* failed.\n\n\n|  Name | Lin…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "GCP Professional Cloud Architect (PCA) \u30ac\u30a4\u30c9\u5168\u30bb\u30af\u30b7\u30e7\u30f3\u306e Next.js \u5b8c\u5168\u79fb\u884c\u3068 SRE/DevOps/\u5206\u6563\u30b7\u30b9\u30c6\u2026",
+          "title": "GCP Professional Cloud Architect (PCA) ガイド全セクションの Next.js 完全移行と SRE/DevOps/分散システ…",
           "url": "https://github.com/myoshi2891/Cloud-Infrastructure-and-Network-Studies/pull/133",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -93,13 +43,13 @@
     },
     {
       "id": "l504",
-      "text": "Operator Bridge \u2014 Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_ISSUE -->\n\nThis issue is the **live coordination surface** for CorpFlow Operator Bridge v1 (Option C \u2014 Hybrid).\n\n**Canonical doc on `main`:** [`docs/operations/OPERATOR_BRIDGE_V1.md`](https://github.com/antonvdberg-bit/corpflow-ai-command-center/blob/main/docs/operations/OPER\n### Cursor status \u2014 2026-05-27 23:13 UTC\n\n**Packet / item:** Operator Bridge v1 activation (this issue).\n**Status:** ACTIVATED.\n\n**What I checke\u2026",
+      "text": "Operator Bridge — Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_ISSUE -->\n\nThis issue is the **live coordination surface** for CorpFlow Operator Bridge v1 (Option C — Hybrid).\n\n**Canonical doc on `main`:** [`docs/operations/OPERATOR_BRIDGE_V1.md`](https://github.com/antonvdberg-bit/corpflow-ai-command-center/blob/main/docs/operations/OPER\n### Cursor status — 2026-05-27 23:13 UTC\n\n**Packet / item:** Operator Bridge v1 activation (this issue).\n**Status:** ACTIVATED.\n\n**What I checke…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Operator Bridge \u2014 Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_I\u2026",
+          "title": "Operator Bridge — Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_I…",
           "url": "https://github.com/antonvdberg-bit/corpflow-ai-command-center/issues/249",
           "date": "2026-05-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -114,13 +64,13 @@
     },
     {
       "id": "l505",
-      "text": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox between PeptiBloom Work execution and Technical Direction/Orchestrator.\n\nUse this issue for coordination messages that should **not** modify `main` or trigger site builds/deployments.\n\n### Work protocol\n- Before autonomous work, read the current project co\nORCHESTRATOR -> WORK\n\nCurrent review verified directly against GitHub on 2026-08-17:\n- PR #12 HEAD `f030718ecc68a7a5664a4950d3fc50da13e6dd55`: open, non-draft, mer\u2026",
+      "text": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox between PeptiBloom Work execution and Technical Direction/Orchestrator.\n\nUse this issue for coordination messages that should **not** modify `main` or trigger site builds/deployments.\n\n### Work protocol\n- Before autonomous work, read the current project co\nORCHESTRATOR -> WORK\n\nCurrent review verified directly against GitHub on 2026-08-17:\n- PR #12 HEAD `f030718ecc68a7a5664a4950d3fc50da13e6dd55`: open, non-draft, mer…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox \u2026",
+          "title": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox …",
           "url": "https://github.com/e-milysol/peptibloom-project/issues/13",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -135,13 +85,13 @@
     },
     {
       "id": "l506",
-      "text": "\ud83d\udcac Tech Community AI Digest 2026-08-02\n# Tech Community AI Digest 2026-08-02\n\n> Sources: [Dev.to](https://dev.to/) (30 articles) + [Lobste.rs](https://lobste.rs/) (4 stories) | Generated: 2026-08-02 01:48 UTC\n\n---\n\n\n\n# Tech Community AI Digest \u2014 2026-08-02\n\n## 1. Today's Highlights\n\nAgent evaluation and multi-agent loops dominated discus",
+      "text": "💬 Tech Community AI Digest 2026-08-02\n# Tech Community AI Digest 2026-08-02\n\n> Sources: [Dev.to](https://dev.to/) (30 articles) + [Lobste.rs](https://lobste.rs/) (4 stories) | Generated: 2026-08-02 01:48 UTC\n\n---\n\n\n\n# Tech Community AI Digest — 2026-08-02\n\n## 1. Today's Highlights\n\nAgent evaluation and multi-agent loops dominated discus",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udcac Tech Community AI Digest 2026-08-02\n# Tech Community AI Digest 2026-08-02\n\n> S\u2026",
+          "title": "💬 Tech Community AI Digest 2026-08-02\n# Tech Community AI Digest 2026-08-02\n\n> S…",
           "url": "https://github.com/Chestnuts-Sisyphus/gittok/issues/679",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -156,13 +106,13 @@
     },
     {
       "id": "l507",
-      "text": "Add Inngest agent skills and repo tooling updates\n## Summary\n- Added the official Inngest agent skill set and refreshed canonical skill mirrors under \\docs/ai/skills/\\, \\.agents/skills/\\, and \\.cursor/skills/\\.\n- Wired agent routing (\\AGENTS.md\\, playbook, stack registry, \\\find-skills\\) and \\inngest-dev\\ MCP in \\.mcp.json\\ / \\.cursor/mcp.json\\.\n- A\n## PR Summary\n\n<!-- CURSOR_SUMMARY -->\n**Low Risk**\nChanges are documentation, vendored agent skills, and MCP/ship workflow defaults\u2014no product runti\u2026",
+      "text": "Add Inngest agent skills and repo tooling updates\n## Summary\n- Added the official Inngest agent skill set and refreshed canonical skill mirrors under \\docs/ai/skills/\\, \\.agents/skills/\\, and \\.cursor/skills/\\.\n- Wired agent routing (\\AGENTS.md\\, playbook, stack registry, \\\find-skills\\) and \\inngest-dev\\ MCP in \\.mcp.json\\ / \\.cursor/mcp.json\\.\n- A\n## PR Summary\n\n<!-- CURSOR_SUMMARY -->\n**Low Risk**\nChanges are documentation, vendored agent skills, and MCP/ship workflow defaults—no product runti…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add Inngest agent skills and repo tooling updates\n## Summary\n- Added the officia\u2026",
+          "title": "Add Inngest agent skills and repo tooling updates\n## Summary\n- Added the officia…",
           "url": "https://github.com/Asymmetric-al/core/pull/282",
           "date": "2026-06-03",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -177,13 +127,13 @@
     },
     {
       "id": "l508",
-      "text": "Add bendc frontend guidelines as canonical agent skill\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\n## Summary\n\nAdds [bendc/frontend-guidelines](https://github.com/bendc/frontend-guidelines) as a **canonical** repo skill under `docs/ai/skills/bendc-frontend-guidelines/`, following the same pattern as other vendored references (for example `resend-cli`): `SKILL.m\n### Biggest blocker\nNo blocker has been identified in the current review discussion.\n\nThe only substantive review feedback on this pull request \u2026",
+      "text": "Add bendc frontend guidelines as canonical agent skill\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\n## Summary\n\nAdds [bendc/frontend-guidelines](https://github.com/bendc/frontend-guidelines) as a **canonical** repo skill under `docs/ai/skills/bendc-frontend-guidelines/`, following the same pattern as other vendored references (for example `resend-cli`): `SKILL.m\n### Biggest blocker\nNo blocker has been identified in the current review discussion.\n\nThe only substantive review feedback on this pull request …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add bendc frontend guidelines as canonical agent skill\n<!-- CURSOR_AGENT_PR_BODY\u2026",
+          "title": "Add bendc frontend guidelines as canonical agent skill\n<!-- CURSOR_AGENT_PR_BODY…",
           "url": "https://github.com/Asymmetric-al/core/pull/229",
           "date": "2026-05-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -198,13 +148,13 @@
     },
     {
       "id": "l509",
-      "text": "Daily Content Summary 2026-06-02\n# \ud83d\udcf0 Daily Content Summary - 2026-06-02\n### Executive Summary\n\n**Key Insights** reveal a paradoxical landscape where technological advancement simultaneously erodes and reinforces security. While Meta's AI support bot facilitated high-profile account takeovers by bypassing two-factor authentication t",
+      "text": "Daily Content Summary 2026-06-02\n# 📰 Daily Content Summary - 2026-06-02\n### Executive Summary\n\n**Key Insights** reveal a paradoxical landscape where technological advancement simultaneously erodes and reinforces security. While Meta's AI support bot facilitated high-profile account takeovers by bypassing two-factor authentication t",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Daily Content Summary 2026-06-02\n# \ud83d\udcf0 Daily Content Summary - 2026-06-02\n### Exec\u2026",
+          "title": "Daily Content Summary 2026-06-02\n# 📰 Daily Content Summary - 2026-06-02\n### Exec…",
           "url": "https://github.com/jhengy/content-aggregator/issues/506",
           "date": "2026-06-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -219,13 +169,13 @@
     },
     {
       "id": "l510",
-      "text": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; \ud83d\udd34 KEV: 0 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 13 &nbsp;|&nbsp; \ud83d\udfe1 High: 2 &nbsp;|&nbsp; \u2728 Enriched: 10\n\n---\n\n## 1. \ud83d\udfe0 Zero-Day \u2014 Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; \ud83d\udd34 KEV: 1 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 14 &nbsp;|&nbsp; \ud83d\udfe1\u2026",
+      "text": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; 🔴 KEV: 0 &nbsp;|&nbsp; 🟠 Zero-Day: 13 &nbsp;|&nbsp; 🟡 High: 2 &nbsp;|&nbsp; ✨ Enriched: 10\n\n---\n\n## 1. 🟠 Zero-Day — Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; 🔴 KEV: 1 &nbsp;|&nbsp; 🟠 Zero-Day: 14 &nbsp;|&nbsp; 🟡…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:\u2026",
+          "title": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:…",
           "url": "https://github.com/peleduri/zero-day-pulse/issues/7",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -246,7 +196,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Navigating the Digital Frontier: Top Tech Trends, Frameworks, AI, and Cloud in 2\u2026",
+          "title": "Navigating the Digital Frontier: Top Tech Trends, Frameworks, AI, and Cloud in 2…",
           "url": "https://github.com/Angelin-ak/novox-test-blog/issues/10",
           "date": "2026-06-01",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -261,13 +211,13 @@
     },
     {
       "id": "l512",
-      "text": "\ud83e\udd9e OpenClaw Ecosystem Digest 2026-07-01\n# OpenClaw Ecosystem Digest 2026-07-01\n\n> Issues: 308 | PRs: 500 | Projects covered: 13 | Generated: 2026-06-30 23:13 UTC\n\n- [OpenClaw](https://github\u200b.com/openclaw/openclaw)\n- [NanoBot](https://github\u200b.com/HKUDS/nanobot)\n- [Hermes Agent](https://github\u200b.com/nousresearch/hermes-agent)\n- [PicoClaw](h",
+      "text": "🦞 OpenClaw Ecosystem Digest 2026-07-01\n# OpenClaw Ecosystem Digest 2026-07-01\n\n> Issues: 308 | PRs: 500 | Projects covered: 13 | Generated: 2026-06-30 23:13 UTC\n\n- [OpenClaw](https://github​.com/openclaw/openclaw)\n- [NanoBot](https://github​.com/HKUDS/nanobot)\n- [Hermes Agent](https://github​.com/nousresearch/hermes-agent)\n- [PicoClaw](h",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83e\udd9e OpenClaw Ecosystem Digest 2026-07-01\n# OpenClaw Ecosystem Digest 2026-07-01\n\n>\u2026",
+          "title": "🦞 OpenClaw Ecosystem Digest 2026-07-01\n# OpenClaw Ecosystem Digest 2026-07-01\n\n>…",
           "url": "https://github.com/kakapez/agents-radar/issues/584",
           "date": "2026-06-30",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -282,13 +232,13 @@
     },
     {
       "id": "l513",
-      "text": "\ud83c\udf10 Global Tech Briefing - 2026-03-11\n# \ud83c\udf10 Global Tech Intelligence Briefing - 2026-03-11\n**Date:** 2026-03-11\n**Generated At:** 08:22\n**Data Sources:** Hacker News, GitHub Trending, ArXiv\n\n---\n\n## \ud83d\udcf0 Hacker News (Top Stories)\n### 1. [Create value for others and don\u2019t worry about the returns](https://geohot.github.io//blog/jekyll/update/2",
+      "text": "🌐 Global Tech Briefing - 2026-03-11\n# 🌐 Global Tech Intelligence Briefing - 2026-03-11\n**Date:** 2026-03-11\n**Generated At:** 08:22\n**Data Sources:** Hacker News, GitHub Trending, ArXiv\n\n---\n\n## 📰 Hacker News (Top Stories)\n### 1. [Create value for others and don’t worry about the returns](https://geohot.github.io//blog/jekyll/update/2",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83c\udf10 Global Tech Briefing - 2026-03-11\n# \ud83c\udf10 Global Tech Intelligence Briefing - 2026\u2026",
+          "title": "🌐 Global Tech Briefing - 2026-03-11\n# 🌐 Global Tech Intelligence Briefing - 2026…",
           "url": "https://github.com/AtomChen0425/Global_Trends/issues/23",
           "date": "2026-03-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -303,13 +253,13 @@
     },
     {
       "id": "l514",
-      "text": "Daily Content Summary 2026-03-24\n# \ud83d\udcf0 Daily Content Summary - 2026-03-24\n### Executive Summary\n\n**Key Insights**\nThe current technological landscape reveals a striking paradox where **geopolitical fragmentation** is driving both innovation and regression. While the US FCC has banned new foreign-made consumer routers to mitigate supp",
+      "text": "Daily Content Summary 2026-03-24\n# 📰 Daily Content Summary - 2026-03-24\n### Executive Summary\n\n**Key Insights**\nThe current technological landscape reveals a striking paradox where **geopolitical fragmentation** is driving both innovation and regression. While the US FCC has banned new foreign-made consumer routers to mitigate supp",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Daily Content Summary 2026-03-24\n# \ud83d\udcf0 Daily Content Summary - 2026-03-24\n### Exec\u2026",
+          "title": "Daily Content Summary 2026-03-24\n# 📰 Daily Content Summary - 2026-03-24\n### Exec…",
           "url": "https://github.com/jhengy/content-aggregator/issues/435",
           "date": "2026-03-24",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -471,13 +421,13 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: Paca \u2013 Lightweight Jira alternative for human-AI collaboration",
+      "text": "Show HN: Paca – Lightweight Jira alternative for human-AI collaboration",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Paca \u2013 Lightweight Jira alternative for human-AI collaboration",
+          "title": "Show HN: Paca – Lightweight Jira alternative for human-AI collaboration",
           "url": "https://github.com/Paca-AI/paca",
           "date": "2026-06-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -597,13 +547,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -639,13 +589,13 @@
     },
     {
       "id": "l530",
-      "text": "Launch HN: Traceforce (YC S26) \u2013 Company-wide security monitoring for AI apps",
+      "text": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Launch HN: Traceforce (YC S26) \u2013 Company-wide security monitoring for AI apps",
+          "title": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
           "url": "https://news.ycombinator.com/item?id=48937020",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -660,13 +610,13 @@
     },
     {
       "id": "l531",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -723,13 +673,13 @@
     },
     {
       "id": "l534",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -765,13 +715,13 @@
     },
     {
       "id": "l536",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -786,13 +736,13 @@
     },
     {
       "id": "l537",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -807,13 +757,13 @@
     },
     {
       "id": "l538",
-      "text": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+      "text": "Show HN: Core – open-source AI butler that clears your backlog without you",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+          "title": "Show HN: Core – open-source AI butler that clears your backlog without you",
           "url": "https://www.getcore.me/",
           "date": "2026-04-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -828,13 +778,13 @@
     },
     {
       "id": "l539",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -849,13 +799,13 @@
     },
     {
       "id": "l540",
-      "text": "Post-AI Cynicism, the \u201cBehavioral Sink,\u201d and the Evolution of Human Motivation\nAfter Scarcity: For most of human history, civilization was organized around a simple psychological equation: survival required effort, and effort required motivation. Hunger compelled production; scarcity generated competition; danger created solidarity; social exclusion imposed conformity; and the prospect of wealth or status encouraged individuals to work beyond immediate biological necessity. Human institutions gr\u2026",
+      "text": "Post-AI Cynicism, the “Behavioral Sink,” and the Evolution of Human Motivation\nAfter Scarcity: For most of human history, civilization was organized around a simple psychological equation: survival required effort, and effort required motivation. Hunger compelled production; scarcity generated competition; danger created solidarity; social exclusion imposed conformity; and the prospect of wealth or status encouraged individuals to work beyond immediate biological necessity. Human institutions gr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Post-AI Cynicism, the \u201cBehavioral Sink,\u201d and the Evolution of Human Motivation\nA\u2026",
+          "title": "Post-AI Cynicism, the “Behavioral Sink,” and the Evolution of Human Motivation\nA…",
           "url": "https://www.reddit.com/r/AfterClass/comments/1vslxn7/postai_cynicism_the_behavioral_sink_and_the/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -870,13 +820,13 @@
     },
     {
       "id": "l541",
-      "text": "If AI makes much of human labor unnecessary, is UBI enough? I've been trying to work out what comes after it.\nI&#39;ve been thinking about a contradiction in the way we talk about automation. If a machine allows 10 people to produce what previously required 20, that is supposed to be technological progress. Society can produce the same amount with less human labor. Historically, that kind of disruption did not usually mean that human labor stopped being needed altogether. Agricultural workers mo\u2026",
+      "text": "If AI makes much of human labor unnecessary, is UBI enough? I've been trying to work out what comes after it.\nI&#39;ve been thinking about a contradiction in the way we talk about automation. If a machine allows 10 people to produce what previously required 20, that is supposed to be technological progress. Society can produce the same amount with less human labor. Historically, that kind of disruption did not usually mean that human labor stopped being needed altogether. Agricultural workers mo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "If AI makes much of human labor unnecessary, is UBI enough? I've been trying to \u2026",
+          "title": "If AI makes much of human labor unnecessary, is UBI enough? I've been trying to …",
           "url": "https://www.reddit.com/r/BasicIncome/comments/1voapgs/if_ai_makes_much_of_human_labor_unnecessary_is/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -891,13 +841,13 @@
     },
     {
       "id": "l542",
-      "text": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better Guidance?\nWhere Does the Structural Gap Between General Chatbots and Relationship-Specific AI Actually Show Up? The gap appears in three places: persistence of relationship context across sessions, resistance to sycophancy, and whether the tool is built around one person&#39;s interior world or the dynamic between two people. General-purpose assistants like ChatGPT, Claude, and Gemini score well on empathy and helpf\u2026",
+      "text": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better Guidance?\nWhere Does the Structural Gap Between General Chatbots and Relationship-Specific AI Actually Show Up? The gap appears in three places: persistence of relationship context across sessions, resistance to sycophancy, and whether the tool is built around one person&#39;s interior world or the dynamic between two people. General-purpose assistants like ChatGPT, Claude, and Gemini score well on empathy and helpf…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better\u2026",
+          "title": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better…",
           "url": "https://www.reddit.com/r/jenova_ai/comments/1vypds5/general_ai_chatbots_vs_specialized_ai/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -912,13 +862,13 @@
     },
     {
       "id": "l543",
-      "text": "Brand new book launch!! \n\nAi for Automation for beginners is on Amazon Kindle go and read now \n\nLink:https://t.co/9wWXLgMaqG\n\nStop drowning in repetitive tasks. Discover how practical AI tools can supercharge your productivity, cut your workload in half, and scale your business\u2014without writing a single line of code.\n\nDo you feel overwhelmed by routine admin work, endless emails, social media scheduling, and complex digital workflows? You\u2019ve heard about the AI revolution, but technical jargon and",
+      "text": "Brand new book launch!! \n\nAi for Automation for beginners is on Amazon Kindle go and read now \n\nLink:https://t.co/9wWXLgMaqG\n\nStop drowning in repetitive tasks. Discover how practical AI tools can supercharge your productivity, cut your workload in half, and scale your business—without writing a single line of code.\n\nDo you feel overwhelmed by routine admin work, endless emails, social media scheduling, and complex digital workflows? You’ve heard about the AI revolution, but technical jargon and",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Brand new book launch!! \n\nAi for Automation for beginners is on Amazon Kindle go\u2026",
+          "title": "Brand new book launch!! \n\nAi for Automation for beginners is on Amazon Kindle go…",
           "url": "https://x.com/lomot36748/status/2091136766535463303",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -939,7 +889,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Fun stream today, starting with a look at some of the biggest stories we're seei\u2026",
+          "title": "Fun stream today, starting with a look at some of the biggest stories we're seei…",
           "url": "https://x.com/knowerofmarkets/status/2092644882875617690",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -954,13 +904,13 @@
     },
     {
       "id": "l545",
-      "text": "\ud83d\udea8 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the future.\n\nIt\u2019s already changing how we write, design, edit, code, research, and create.\n\nHere are 20 AI tools worth knowing \ud83e\uddf5\ud83d\udc47\n\n1/ ChatGPT \u2014 Your AI assistant.\n\nUse it to:\n\u2022 Write\n\u2022 Research\n\u2022 Brainstorm\n\u2022 Learn\n\u2022 Plan\n\u2022 Solve problems\n\nThe better your prompts, the better your results.\n\n2/ Midjourney \u2014 Turn imagination into stunning images.\n\nPerfect for:\n\u2022 Creators\n\u2022 Designers\n\u2022 Marketers\n\u2022 Brand owners\n\nOne idea can b",
+      "text": "🚨 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the future.\n\nIt’s already changing how we write, design, edit, code, research, and create.\n\nHere are 20 AI tools worth knowing 🧵👇\n\n1/ ChatGPT — Your AI assistant.\n\nUse it to:\n• Write\n• Research\n• Brainstorm\n• Learn\n• Plan\n• Solve problems\n\nThe better your prompts, the better your results.\n\n2/ Midjourney — Turn imagination into stunning images.\n\nPerfect for:\n• Creators\n• Designers\n• Marketers\n• Brand owners\n\nOne idea can b",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the f\u2026",
+          "title": "🚨 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the f…",
           "url": "https://x.com/Shohan_Tech_AI/status/2093186736088400143",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -996,13 +946,13 @@
     },
     {
       "id": "l547",
-      "text": "AI for Content Creation: The Ultimate Guide \u2014 A Practical Guide for the New Era of Content Creation\n\nContent creation has changed dramatically.\n\nA few years ago, creating a blog post, YouTube video, social media campaign, advertisement, or professional graphic could take hours\u2014or even days. You needed writing skills, design skills, video-editing knowledge, research abilities, and sometimes an entire team.\n\nToday, AI is changing that.\n\nBut here is the important question:\n\nAre you actually using A",
+      "text": "AI for Content Creation: The Ultimate Guide — A Practical Guide for the New Era of Content Creation\n\nContent creation has changed dramatically.\n\nA few years ago, creating a blog post, YouTube video, social media campaign, advertisement, or professional graphic could take hours—or even days. You needed writing skills, design skills, video-editing knowledge, research abilities, and sometimes an entire team.\n\nToday, AI is changing that.\n\nBut here is the important question:\n\nAre you actually using A",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI for Content Creation: The Ultimate Guide \u2014 A Practical Guide for the New Era \u2026",
+          "title": "AI for Content Creation: The Ultimate Guide — A Practical Guide for the New Era …",
           "url": "https://x.com/lomot36748/status/2092482215292854681",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1023,7 +973,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "'I hide communist identity' - Robust questioning can squeeze truths from AI assi\u2026",
+          "title": "'I hide communist identity' - Robust questioning can squeeze truths from AI assi…",
           "url": "https://x.com/JMichaelWaller/status/2086091932518773170",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1044,7 +994,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Buying AI Today Could Be Like Buying Bitcoin in 2010, But Not for the Reason You\u2026",
+          "title": "Buying AI Today Could Be Like Buying Bitcoin in 2010, But Not for the Reason You…",
           "url": "https://x.com/BlackPantherCap/status/2092681465238847854",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1101,13 +1051,13 @@
     },
     {
       "id": "l552",
-      "text": "https://t.co/GwaAt8EG2G \u2014 THE KIND OF NAME YOU BUILD THE COMPANY AROUND.\n\nShort.\n\nDistinctive.\n\nEasy to say.\n\nEasy to remember.\n\nAnd most importantly:\n\nhttps://t.co/dVBCBvx0nA\n\ndoesn\u2019t lock a founder into one narrow category.\n\nIt sounds like a modern consumer brand from day one \u2014 the kind of name that could sit comfortably beside today\u2019s strongest fintech, AI, commerce, travel, health, social, and mobile-first companies.\n\n\ud83d\ude80 FIVE LETTERS. ONE WORD. MASSIVE OPTIONALITY.\n\nSome domains explain exact",
+      "text": "https://t.co/GwaAt8EG2G — THE KIND OF NAME YOU BUILD THE COMPANY AROUND.\n\nShort.\n\nDistinctive.\n\nEasy to say.\n\nEasy to remember.\n\nAnd most importantly:\n\nhttps://t.co/dVBCBvx0nA\n\ndoesn’t lock a founder into one narrow category.\n\nIt sounds like a modern consumer brand from day one — the kind of name that could sit comfortably beside today’s strongest fintech, AI, commerce, travel, health, social, and mobile-first companies.\n\n🚀 FIVE LETTERS. ONE WORD. MASSIVE OPTIONALITY.\n\nSome domains explain exact",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "https://t.co/GwaAt8EG2G \u2014 THE KIND OF NAME YOU BUILD THE COMPANY AROUND.\n\nShort.\u2026",
+          "title": "https://t.co/GwaAt8EG2G — THE KIND OF NAME YOU BUILD THE COMPANY AROUND.\n\nShort.…",
           "url": "https://x.com/UpHonestReal/status/2092210806750314755",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1269,13 +1219,13 @@
     },
     {
       "id": "l560",
-      "text": "The AI Tools That Could Replace Millions of Jobs\nThe AI Tools That Could Replace Millions of Jobs\n\nArtificial intelligence is no longer just augmenting human work \u2014 it is beginning to replace entire roles across industries. In this video, we explore the AI tools that have the potential to replace millions of jobs worldwide, the sectors most at risk, and how workers and businesses can adapt to this seismic shift.\n\nAI-powered automation is rapidly advancing, with tools capable of performing tasks \u2026",
+      "text": "The AI Tools That Could Replace Millions of Jobs\nThe AI Tools That Could Replace Millions of Jobs\n\nArtificial intelligence is no longer just augmenting human work — it is beginning to replace entire roles across industries. In this video, we explore the AI tools that have the potential to replace millions of jobs worldwide, the sectors most at risk, and how workers and businesses can adapt to this seismic shift.\n\nAI-powered automation is rapidly advancing, with tools capable of performing tasks …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The AI Tools That Could Replace Millions of Jobs\nThe AI Tools That Could Replace\u2026",
+          "title": "The AI Tools That Could Replace Millions of Jobs\nThe AI Tools That Could Replace…",
           "url": "https://www.youtube.com/watch?v=pXmK4Cz3EY0",
           "date": "2026-05-03",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1290,7 +1240,7 @@
     },
     {
       "id": "l461",
-      "text": "Support Coordinator \u2014 Wellways Australia (Cairns North, Queensland, Australia). Posted 1 day ago.",
+      "text": "Support Coordinator — Wellways Australia (Cairns North, Queensland, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1311,7 +1261,7 @@
     },
     {
       "id": "l462",
-      "text": "Support Coordinator \u2014 Access Your Supports (South Geelong, Victoria, Australia). Posted 3 months ago.",
+      "text": "Support Coordinator — Access Your Supports (South Geelong, Victoria, Australia). Posted 3 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1332,7 +1282,7 @@
     },
     {
       "id": "l463",
-      "text": "Case Worker \u2014 Centrecare (Cannington, Western Australia, Australia). Posted 5 days ago.",
+      "text": "Case Worker — Centrecare (Cannington, Western Australia, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1353,7 +1303,7 @@
     },
     {
       "id": "l464",
-      "text": "Youth Engagement Worker - Student Support (North) - 976133 \u2014 Department for Education, Children and Young People (Launceston, Tasmania, Australia). Posted 1 week ago.",
+      "text": "Youth Engagement Worker - Student Support (North) - 976133 — Department for Education, Children and Young People (Launceston, Tasmania, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1374,7 +1324,7 @@
     },
     {
       "id": "l465",
-      "text": "ITC Youth Worker \u2014 MacKillop Family Services (Newcastle, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "ITC Youth Worker — MacKillop Family Services (Newcastle, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1395,7 +1345,7 @@
     },
     {
       "id": "l466",
-      "text": "Caseworker \u2014 Queensland Government (Townsville, Queensland, Australia). Posted 1 week ago.",
+      "text": "Caseworker — Queensland Government (Townsville, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1416,7 +1366,7 @@
     },
     {
       "id": "l467",
-      "text": "Support Coordinator - Aftercare \u2014 Wellways Australia (Queensland, Australia). Posted 1 week ago.",
+      "text": "Support Coordinator - Aftercare — Wellways Australia (Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1437,7 +1387,7 @@
     },
     {
       "id": "l468",
-      "text": "Activities Officer \u2014 STAR Community Services (previously Transport) (Lowood, Queensland, Australia). Posted 9 hours ago.",
+      "text": "Activities Officer — STAR Community Services (previously Transport) (Lowood, Queensland, Australia). Posted 9 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1458,7 +1408,7 @@
     },
     {
       "id": "l469",
-      "text": "Supportive Housing Case Manager (FT or PT) \u2014 The Good Seed (Hyde Park, Queensland, Australia). Posted 5 months ago.",
+      "text": "Supportive Housing Case Manager (FT or PT) — The Good Seed (Hyde Park, Queensland, Australia). Posted 5 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1479,7 +1429,7 @@
     },
     {
       "id": "l470",
-      "text": "Child Safety Officer - Intensive Family Engagement Service - 526923 \u2014 Department for Education, Children and Young People (Hobart, Tasmania, Australia). Posted 1 day ago.",
+      "text": "Child Safety Officer - Intensive Family Engagement Service - 526923 — Department for Education, Children and Young People (Hobart, Tasmania, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1500,13 +1450,13 @@
     },
     {
       "id": "l571",
-      "text": "GCP Professional Cloud Architect (PCA) \u30ac\u30a4\u30c9\u5168\u30bb\u30af\u30b7\u30e7\u30f3\u306e Next.js \u5b8c\u5168\u79fb\u884c\u3068 SRE/DevOps/\u5206\u6563\u30b7\u30b9\u30c6\u30e0\u5b66\u7fd2\u30ac\u30a4\u30c9\u7fa4\u306e\u62e1\u5145\n## **\u4e3b\u306a\u5909\u66f4\u70b9\u3068\u8a73\u7d30**\r\n\r\n### **1. GCP PCA \u30ac\u30a4\u30c9\u306e Next.js \u5b8c\u5168\u79fb\u884c (Section 2\u301c6)**\r\n\r\nTDD\uff08\u30c6\u30b9\u30c8\u99c6\u52d5\u958b\u767a\uff09\u30ef\u30fc\u30af\u30d5\u30ed\u30fc\u306b\u53b3\u683c\u306b\u5f93\u3044\u3001\u5168\u30bb\u30af\u30b7\u30e7\u30f3\u306e\u79fb\u884c\u30fb\u30eb\u30fc\u30c6\u30a3\u30f3\u30b0\u7d71\u5408\u30fb\u30c6\u30b9\u30c8\u4f5c\u6210\u304c\u5b8c\u4e86\u3057\u307e\u3057\u305f\u3002\r\n\r\n- **\u79fb\u884c\u3055\u308c\u305f\u30bb\u30af\u30b7\u30e7\u30f3:**\r\n    - **Section 2:**\u00a0\u30b5\u30fc\u30d3\u30b9\u30d7\u30ed\u30d3\u30b8\u30e7\u30cb\u30f3\u30b0\u3068\u7ba1\u7406 (`section2-managing-provisioning`)\r\n    - **Section 3:**\u00a0\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u3068\u30b3\u30f3\u30d7\u30e9\u30a4\u30a2\u30f3\u30b9\u8a2d\u8a08 (`section3-security-compliance`)\n### <span aria-hidden=\"true\">\u274c</span> Deploy Preview for *cloud-infrastructure-studies* failed.\n\n\n|  Name | Lin\u2026",
+      "text": "GCP Professional Cloud Architect (PCA) ガイド全セクションの Next.js 完全移行と SRE/DevOps/分散システム学習ガイド群の拡充\n## **主な変更点と詳細**\r\n\r\n### **1. GCP PCA ガイドの Next.js 完全移行 (Section 2〜6)**\r\n\r\nTDD（テスト駆動開発）ワークフローに厳格に従い、全セクションの移行・ルーティング統合・テスト作成が完了しました。\r\n\r\n- **移行されたセクション:**\r\n    - **Section 2:** サービスプロビジョニングと管理 (`section2-managing-provisioning`)\r\n    - **Section 3:** セキュリティとコンプライアンス設計 (`section3-security-compliance`)\n### <span aria-hidden=\"true\">❌</span> Deploy Preview for *cloud-infrastructure-studies* failed.\n\n\n|  Name | Lin…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "GCP Professional Cloud Architect (PCA) \u30ac\u30a4\u30c9\u5168\u30bb\u30af\u30b7\u30e7\u30f3\u306e Next.js \u5b8c\u5168\u79fb\u884c\u3068 SRE/DevOps/\u5206\u6563\u30b7\u30b9\u30c6\u2026",
+          "title": "GCP Professional Cloud Architect (PCA) ガイド全セクションの Next.js 完全移行と SRE/DevOps/分散システ…",
           "url": "https://github.com/myoshi2891/Cloud-Infrastructure-and-Network-Studies/pull/133",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1521,13 +1471,13 @@
     },
     {
       "id": "l572",
-      "text": "Operator Bridge \u2014 Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_ISSUE -->\n\nThis issue is the **live coordination surface** for CorpFlow Operator Bridge v1 (Option C \u2014 Hybrid).\n\n**Canonical doc on `main`:** [`docs/operations/OPERATOR_BRIDGE_V1.md`](https://github.com/antonvdberg-bit/corpflow-ai-command-center/blob/main/docs/operations/OPER\n### Cursor status \u2014 2026-05-27 23:13 UTC\n\n**Packet / item:** Operator Bridge v1 activation (this issue).\n**Status:** ACTIVATED.\n\n**What I checke\u2026",
+      "text": "Operator Bridge — Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_ISSUE -->\n\nThis issue is the **live coordination surface** for CorpFlow Operator Bridge v1 (Option C — Hybrid).\n\n**Canonical doc on `main`:** [`docs/operations/OPERATOR_BRIDGE_V1.md`](https://github.com/antonvdberg-bit/corpflow-ai-command-center/blob/main/docs/operations/OPER\n### Cursor status — 2026-05-27 23:13 UTC\n\n**Packet / item:** Operator Bridge v1 activation (this issue).\n**Status:** ACTIVATED.\n\n**What I checke…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Operator Bridge \u2014 Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_I\u2026",
+          "title": "Operator Bridge — Active Work Queue / Live Command Log\n<!-- OPERATOR_BRIDGE_V1_I…",
           "url": "https://github.com/antonvdberg-bit/corpflow-ai-command-center/issues/249",
           "date": "2026-05-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1542,13 +1492,13 @@
     },
     {
       "id": "l573",
-      "text": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox between PeptiBloom Work execution and Technical Direction/Orchestrator.\n\nUse this issue for coordination messages that should **not** modify `main` or trigger site builds/deployments.\n\n### Work protocol\n- Before autonomous work, read the current project co\nORCHESTRATOR -> WORK\n\nCurrent review verified directly against GitHub on 2026-08-17:\n- PR #12 HEAD `f030718ecc68a7a5664a4950d3fc50da13e6dd55`: open, non-draft, mer\u2026",
+      "text": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox between PeptiBloom Work execution and Technical Direction/Orchestrator.\n\nUse this issue for coordination messages that should **not** modify `main` or trigger site builds/deployments.\n\n### Work protocol\n- Before autonomous work, read the current project co\nORCHESTRATOR -> WORK\n\nCurrent review verified directly against GitHub on 2026-08-17:\n- PR #12 HEAD `f030718ecc68a7a5664a4950d3fc50da13e6dd55`: open, non-draft, mer…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox \u2026",
+          "title": "PeptiBloom Async Orchestrator Queue\n## Purpose\n\nPersistent asynchronous mailbox …",
           "url": "https://github.com/e-milysol/peptibloom-project/issues/13",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1563,13 +1513,13 @@
     },
     {
       "id": "l574",
-      "text": "Add Inngest agent skills and repo tooling updates\n## Summary\n- Added the official Inngest agent skill set and refreshed canonical skill mirrors under \\docs/ai/skills/\\, \\.agents/skills/\\, and \\.cursor/skills/\\.\n- Wired agent routing (\\AGENTS.md\\, playbook, stack registry, \\\find-skills\\) and \\inngest-dev\\ MCP in \\.mcp.json\\ / \\.cursor/mcp.json\\.\n- A\n## PR Summary\n\n<!-- CURSOR_SUMMARY -->\n**Low Risk**\nChanges are documentation, vendored agent skills, and MCP/ship workflow defaults\u2014no product runti\u2026",
+      "text": "Add Inngest agent skills and repo tooling updates\n## Summary\n- Added the official Inngest agent skill set and refreshed canonical skill mirrors under \\docs/ai/skills/\\, \\.agents/skills/\\, and \\.cursor/skills/\\.\n- Wired agent routing (\\AGENTS.md\\, playbook, stack registry, \\\find-skills\\) and \\inngest-dev\\ MCP in \\.mcp.json\\ / \\.cursor/mcp.json\\.\n- A\n## PR Summary\n\n<!-- CURSOR_SUMMARY -->\n**Low Risk**\nChanges are documentation, vendored agent skills, and MCP/ship workflow defaults—no product runti…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add Inngest agent skills and repo tooling updates\n## Summary\n- Added the officia\u2026",
+          "title": "Add Inngest agent skills and repo tooling updates\n## Summary\n- Added the officia…",
           "url": "https://github.com/Asymmetric-al/core/pull/282",
           "date": "2026-06-03",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1584,13 +1534,13 @@
     },
     {
       "id": "l575",
-      "text": "Add bendc frontend guidelines as canonical agent skill\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\n## Summary\n\nAdds [bendc/frontend-guidelines](https://github.com/bendc/frontend-guidelines) as a **canonical** repo skill under `docs/ai/skills/bendc-frontend-guidelines/`, following the same pattern as other vendored references (for example `resend-cli`): `SKILL.m\n### Biggest blocker\nNo blocker has been identified in the current review discussion.\n\nThe only substantive review feedback on this pull request \u2026",
+      "text": "Add bendc frontend guidelines as canonical agent skill\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\n## Summary\n\nAdds [bendc/frontend-guidelines](https://github.com/bendc/frontend-guidelines) as a **canonical** repo skill under `docs/ai/skills/bendc-frontend-guidelines/`, following the same pattern as other vendored references (for example `resend-cli`): `SKILL.m\n### Biggest blocker\nNo blocker has been identified in the current review discussion.\n\nThe only substantive review feedback on this pull request …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add bendc frontend guidelines as canonical agent skill\n<!-- CURSOR_AGENT_PR_BODY\u2026",
+          "title": "Add bendc frontend guidelines as canonical agent skill\n<!-- CURSOR_AGENT_PR_BODY…",
           "url": "https://github.com/Asymmetric-al/core/pull/229",
           "date": "2026-05-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1605,13 +1555,13 @@
     },
     {
       "id": "l576",
-      "text": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; \ud83d\udd34 KEV: 0 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 13 &nbsp;|&nbsp; \ud83d\udfe1 High: 2 &nbsp;|&nbsp; \u2728 Enriched: 10\n\n---\n\n## 1. \ud83d\udfe0 Zero-Day \u2014 Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; \ud83d\udd34 KEV: 1 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 14 &nbsp;|&nbsp; \ud83d\udfe1\u2026",
+      "text": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; 🔴 KEV: 0 &nbsp;|&nbsp; 🟠 Zero-Day: 13 &nbsp;|&nbsp; 🟡 High: 2 &nbsp;|&nbsp; ✨ Enriched: 10\n\n---\n\n## 1. 🟠 Zero-Day — Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; 🔴 KEV: 1 &nbsp;|&nbsp; 🟠 Zero-Day: 14 &nbsp;|&nbsp; 🟡…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:\u2026",
+          "title": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:…",
           "url": "https://github.com/peleduri/zero-day-pulse/issues/7",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1626,13 +1576,13 @@
     },
     {
       "id": "l577",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1647,13 +1597,13 @@
     },
     {
       "id": "l578",
-      "text": "Post-AI Cynicism, the \u201cBehavioral Sink,\u201d and the Evolution of Human Motivation\nAfter Scarcity: For most of human history, civilization was organized around a simple psychological equation: survival required effort, and effort required motivation. Hunger compelled production; scarcity generated competition; danger created solidarity; social exclusion imposed conformity; and the prospect of wealth or status encouraged individuals to work beyond immediate biological necessity. Human institutions gr\u2026",
+      "text": "Post-AI Cynicism, the “Behavioral Sink,” and the Evolution of Human Motivation\nAfter Scarcity: For most of human history, civilization was organized around a simple psychological equation: survival required effort, and effort required motivation. Hunger compelled production; scarcity generated competition; danger created solidarity; social exclusion imposed conformity; and the prospect of wealth or status encouraged individuals to work beyond immediate biological necessity. Human institutions gr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Post-AI Cynicism, the \u201cBehavioral Sink,\u201d and the Evolution of Human Motivation\nA\u2026",
+          "title": "Post-AI Cynicism, the “Behavioral Sink,” and the Evolution of Human Motivation\nA…",
           "url": "https://www.reddit.com/r/AfterClass/comments/1vslxn7/postai_cynicism_the_behavioral_sink_and_the/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1668,13 +1618,13 @@
     },
     {
       "id": "l579",
-      "text": "If AI makes much of human labor unnecessary, is UBI enough? I've been trying to work out what comes after it.\nI&#39;ve been thinking about a contradiction in the way we talk about automation. If a machine allows 10 people to produce what previously required 20, that is supposed to be technological progress. Society can produce the same amount with less human labor. Historically, that kind of disruption did not usually mean that human labor stopped being needed altogether. Agricultural workers mo\u2026",
+      "text": "If AI makes much of human labor unnecessary, is UBI enough? I've been trying to work out what comes after it.\nI&#39;ve been thinking about a contradiction in the way we talk about automation. If a machine allows 10 people to produce what previously required 20, that is supposed to be technological progress. Society can produce the same amount with less human labor. Historically, that kind of disruption did not usually mean that human labor stopped being needed altogether. Agricultural workers mo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "If AI makes much of human labor unnecessary, is UBI enough? I've been trying to \u2026",
+          "title": "If AI makes much of human labor unnecessary, is UBI enough? I've been trying to …",
           "url": "https://www.reddit.com/r/BasicIncome/comments/1voapgs/if_ai_makes_much_of_human_labor_unnecessary_is/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1689,13 +1639,13 @@
     },
     {
       "id": "l580",
-      "text": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better Guidance?\nWhere Does the Structural Gap Between General Chatbots and Relationship-Specific AI Actually Show Up? The gap appears in three places: persistence of relationship context across sessions, resistance to sycophancy, and whether the tool is built around one person&#39;s interior world or the dynamic between two people. General-purpose assistants like ChatGPT, Claude, and Gemini score well on empathy and helpf\u2026",
+      "text": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better Guidance?\nWhere Does the Structural Gap Between General Chatbots and Relationship-Specific AI Actually Show Up? The gap appears in three places: persistence of relationship context across sessions, resistance to sycophancy, and whether the tool is built around one person&#39;s interior world or the dynamic between two people. General-purpose assistants like ChatGPT, Claude, and Gemini score well on empathy and helpf…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better\u2026",
+          "title": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better…",
           "url": "https://www.reddit.com/r/jenova_ai/comments/1vypds5/general_ai_chatbots_vs_specialized_ai/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1710,13 +1660,13 @@
     },
     {
       "id": "l581",
-      "text": "The AI Tools That Could Replace Millions of Jobs\nThe AI Tools That Could Replace Millions of Jobs\n\nArtificial intelligence is no longer just augmenting human work \u2014 it is beginning to replace entire roles across industries. In this video, we explore the AI tools that have the potential to replace millions of jobs worldwide, the sectors most at risk, and how workers and businesses can adapt to this seismic shift.\n\nAI-powered automation is rapidly advancing, with tools capable of performing tasks \u2026",
+      "text": "The AI Tools That Could Replace Millions of Jobs\nThe AI Tools That Could Replace Millions of Jobs\n\nArtificial intelligence is no longer just augmenting human work — it is beginning to replace entire roles across industries. In this video, we explore the AI tools that have the potential to replace millions of jobs worldwide, the sectors most at risk, and how workers and businesses can adapt to this seismic shift.\n\nAI-powered automation is rapidly advancing, with tools capable of performing tasks …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The AI Tools That Could Replace Millions of Jobs\nThe AI Tools That Could Replace\u2026",
+          "title": "The AI Tools That Could Replace Millions of Jobs\nThe AI Tools That Could Replace…",
           "url": "https://www.youtube.com/watch?v=pXmK4Cz3EY0",
           "date": "2026-05-03",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1807,6 +1757,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

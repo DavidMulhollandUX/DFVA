@@ -21,64 +21,14 @@
   ],
   "claims": [
     {
-      "id": "25-1191-01",
-      "text": "National peak professional bodies and statutory regulators governing Graduate Teaching Assistants enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Graduate Teaching Assistants",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Graduate Teaching Assistants",
-          "url": "https://www.psc.gov.au/standards/25-1191",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Graduate Teaching Assistants"
-        }
-      ],
-      "scope": "Australian practitioners in Graduate Teaching Assistants across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "25-1191-02",
-      "text": "Automation of routine transactional and analytical tasks in Graduate Teaching Assistants heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Graduate Teaching Assistants",
-          "url": "https://www.jobsandskills.gov.au/research/25-1191",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Graduate Teaching Assistants in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Graduate Teaching Assistants roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "SAFE Digest 2026-07-31 \u2014 AI & Medical Education\n# SAFE Researcher Digest \u2014 2026-07-31\n\n> Tailored for two workshops: **Faculty Workshop** (AI & the Learner \u2014 ED Retreat) and **Learner Workshop** (AI at the Bedside \u2014 Legacy RCH).\n> **Sources:** PubMed \u00b7 arXiv \u00b7 Semantic Scholar \u00b7 Arise Network &nbsp;|&nbsp; **Period:** last 8 days &nbsp;|&nbsp; **",
+      "text": "SAFE Digest 2026-07-31 — AI & Medical Education\n# SAFE Researcher Digest — 2026-07-31\n\n> Tailored for two workshops: **Faculty Workshop** (AI & the Learner — ED Retreat) and **Learner Workshop** (AI at the Bedside — Legacy RCH).\n> **Sources:** PubMed · arXiv · Semantic Scholar · Arise Network &nbsp;|&nbsp; **Period:** last 8 days &nbsp;|&nbsp; **",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "SAFE Digest 2026-07-31 \u2014 AI & Medical Education\n# SAFE Researcher Digest \u2014 2026-\u2026",
+          "title": "SAFE Digest 2026-07-31 — AI & Medical Education\n# SAFE Researcher Digest — 2026-…",
           "url": "https://github.com/drpickens/SAFE-researcher/issues/24",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -99,7 +49,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "[M5-4] Teaching page\n## Description\n\nA decade of teaching across six institution\u2026",
+          "title": "[M5-4] Teaching page\n## Description\n\nA decade of teaching across six institution…",
           "url": "https://github.com/williamdemeo/williamdemeo.github.io/issues/32",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -282,13 +232,13 @@
     },
     {
       "id": "l513",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -345,13 +295,13 @@
     },
     {
       "id": "l516",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -366,13 +316,13 @@
     },
     {
       "id": "l517",
-      "text": "Launch HN: Traceforce (YC S26) \u2013 Company-wide security monitoring for AI apps",
+      "text": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Launch HN: Traceforce (YC S26) \u2013 Company-wide security monitoring for AI apps",
+          "title": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
           "url": "https://news.ycombinator.com/item?id=48937020",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -513,13 +463,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -555,13 +505,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -597,13 +547,13 @@
     },
     {
       "id": "l528",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -618,13 +568,13 @@
     },
     {
       "id": "l529",
-      "text": "Trustworthy AI: Open to all graduate students\nHi, I&#39;m Robert Pless, a professor in the CS department. Long-time r/gwu users may remember me from such posts as &quot;A lazy summer day watching Science and Engineering Hall&quot; and &quot;my list of favorite GWU robotics researchers&quot; . This fall I&#39;m again teaching Trustworthy AI (CSCI 6501 / EMSE 6992, Mondays 3:30\u20136:00). It&#39;s built to be accessible to grad students from any discipline \u2014 you don&#39;t need to code. Each project ca\u2026",
+      "text": "Trustworthy AI: Open to all graduate students\nHi, I&#39;m Robert Pless, a professor in the CS department. Long-time r/gwu users may remember me from such posts as &quot;A lazy summer day watching Science and Engineering Hall&quot; and &quot;my list of favorite GWU robotics researchers&quot; . This fall I&#39;m again teaching Trustworthy AI (CSCI 6501 / EMSE 6992, Mondays 3:30–6:00). It&#39;s built to be accessible to grad students from any discipline — you don&#39;t need to code. Each project ca…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Trustworthy AI: Open to all graduate students\nHi, I&#39;m Robert Pless, a profes\u2026",
+          "title": "Trustworthy AI: Open to all graduate students\nHi, I&#39;m Robert Pless, a profes…",
           "url": "https://www.reddit.com/r/gwu/comments/1vx5r0x/trustworthy_ai_open_to_all_graduate_students/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -639,13 +589,13 @@
     },
     {
       "id": "l530",
-      "text": "Over the past six months, I've been teaching teams at places like Stanford, Penn, Northwestern, and many more how to start using AI responsibly and effectively in their work. Today, I'm starting to release my entire curriculum: for free, forever, for everyone!\nOver the past six months, I&#39;ve been teaching teams at places like Stanford, Penn, Northwestern, and many more how to start using AI responsibly and effectively in their work. Today, I&#39;m starting to release my entire curriculum: for\u2026",
+      "text": "Over the past six months, I've been teaching teams at places like Stanford, Penn, Northwestern, and many more how to start using AI responsibly and effectively in their work. Today, I'm starting to release my entire curriculum: for free, forever, for everyone!\nOver the past six months, I&#39;ve been teaching teams at places like Stanford, Penn, Northwestern, and many more how to start using AI responsibly and effectively in their work. Today, I&#39;m starting to release my entire curriculum: for…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Over the past six months, I've been teaching teams at places like Stanford, Penn\u2026",
+          "title": "Over the past six months, I've been teaching teams at places like Stanford, Penn…",
           "url": "https://www.reddit.com/r/WritingWithAI/comments/1vvchd1/over_the_past_six_months_ive_been_teaching_teams/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -660,13 +610,13 @@
     },
     {
       "id": "l531",
-      "text": "Generative AI Can Harm Teaching\nwe have a lot of work showing the harms of AI on learning, from math skills to writing. This interesting working paper looking at how AI can harm learning when used in teaching. Seems that including AI as part of a course can really make students lose interest in learning https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7007339 Abstract Teachers are rapidly adopting generative AI, yet there is little causal evidence on whether AI-assisted teaching improves or h\u2026",
+      "text": "Generative AI Can Harm Teaching\nwe have a lot of work showing the harms of AI on learning, from math skills to writing. This interesting working paper looking at how AI can harm learning when used in teaching. Seems that including AI as part of a course can really make students lose interest in learning https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7007339 Abstract Teachers are rapidly adopting generative AI, yet there is little causal evidence on whether AI-assisted teaching improves or h…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Generative AI Can Harm Teaching\nwe have a lot of work showing the harms of AI on\u2026",
+          "title": "Generative AI Can Harm Teaching\nwe have a lot of work showing the harms of AI on…",
           "url": "https://www.reddit.com/r/Professors/comments/1w07jl2/generative_ai_can_harm_teaching/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -681,13 +631,13 @@
     },
     {
       "id": "l532",
-      "text": "Starting a PhD in AI: How do researchers use AI coding assistants without losing programming skills?\nHello, I will start a PhD next year in the field of education and AI, and I would like to know what are the most effective ways to learn and develop my programming skills during this period. I recently completed a research laboratory CDD (fixed-term contract), and I have the feeling that around 80% of my code was generated by Claude. I tried several times to code by myself in order to develop a c\u2026",
+      "text": "Starting a PhD in AI: How do researchers use AI coding assistants without losing programming skills?\nHello, I will start a PhD next year in the field of education and AI, and I would like to know what are the most effective ways to learn and develop my programming skills during this period. I recently completed a research laboratory CDD (fixed-term contract), and I have the feeling that around 80% of my code was generated by Claude. I tried several times to code by myself in order to develop a c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Starting a PhD in AI: How do researchers use AI coding assistants without losing\u2026",
+          "title": "Starting a PhD in AI: How do researchers use AI coding assistants without losing…",
           "url": "https://www.reddit.com/r/learnmachinelearning/comments/1vb6vgn/starting_a_phd_in_ai_how_do_researchers_use_ai/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -702,13 +652,13 @@
     },
     {
       "id": "l533",
-      "text": "Where should AI assistance stop when learning pentesting on HTB?\nI\u2019ve been experimenting with supervised AI-assisted pentesting in authorised lab environments, and I\u2019m curious how people here think it should fit into platforms like Hack The Box. There\u2019s obviously a big difference between: \u201cExplain why this HTTP response is interesting\u201d and \u201cHere\u2019s the target \u2014 enumerate everything, exploit it and give me the flag.\u201d The second might get you a solve, but I\u2019m not convinced it teaches you much. What\u2026",
+      "text": "Where should AI assistance stop when learning pentesting on HTB?\nI’ve been experimenting with supervised AI-assisted pentesting in authorised lab environments, and I’m curious how people here think it should fit into platforms like Hack The Box. There’s obviously a big difference between: “Explain why this HTTP response is interesting” and “Here’s the target — enumerate everything, exploit it and give me the flag.” The second might get you a solve, but I’m not convinced it teaches you much. What…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Where should AI assistance stop when learning pentesting on HTB?\nI\u2019ve been exper\u2026",
+          "title": "Where should AI assistance stop when learning pentesting on HTB?\nI’ve been exper…",
           "url": "https://www.reddit.com/r/hackthebox/comments/1vs1mz5/where_should_ai_assistance_stop_when_learning/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -723,13 +673,13 @@
     },
     {
       "id": "l534",
-      "text": "I think I blamed my AI assistant too much\nI spent two hours yesterday fighting with Cursor. It was a classic TypeError. I asked it to fix the issue, but it copied a solution from an old Medium article that used a deprecated API. It confidently changed my code, and somehow made everything worse. At that moment, I was really frustrated. But after calming down, I started thinking this might not be entirely the AI&#39;s fault. We give AI assistants access to the entire internet, but the problem is t\u2026",
+      "text": "I think I blamed my AI assistant too much\nI spent two hours yesterday fighting with Cursor. It was a classic TypeError. I asked it to fix the issue, but it copied a solution from an old Medium article that used a deprecated API. It confidently changed my code, and somehow made everything worse. At that moment, I was really frustrated. But after calming down, I started thinking this might not be entirely the AI&#39;s fault. We give AI assistants access to the entire internet, but the problem is t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I think I blamed my AI assistant too much\nI spent two hours yesterday fighting w\u2026",
+          "title": "I think I blamed my AI assistant too much\nI spent two hours yesterday fighting w…",
           "url": "https://www.reddit.com/r/AI_Agents/comments/1ve2nio/i_think_i_blamed_my_ai_assistant_too_much/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -744,13 +694,13 @@
     },
     {
       "id": "l535",
-      "text": "Administration keeps telling us that \"employers want graduates to know how to use ai\" and I don't even know what this means\nUniversity prof. I keep hearing this from the admin, and aside from the fact that obviously not all employers are asking for this and the ai landscape is changing and no one knows how it will look in 4 years, I also just don&#39;t know what they want us to DO about it in class. AI systems are intuitive to use. You ask them a question or give them a prompt and they do it. It\u2026",
+      "text": "Administration keeps telling us that \"employers want graduates to know how to use ai\" and I don't even know what this means\nUniversity prof. I keep hearing this from the admin, and aside from the fact that obviously not all employers are asking for this and the ai landscape is changing and no one knows how it will look in 4 years, I also just don&#39;t know what they want us to DO about it in class. AI systems are intuitive to use. You ask them a question or give them a prompt and they do it. It…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Administration keeps telling us that \"employers want graduates to know how to us\u2026",
+          "title": "Administration keeps telling us that \"employers want graduates to know how to us…",
           "url": "https://www.reddit.com/r/teaching/comments/1w0upzk/administration_keeps_telling_us_that_employers/",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -765,13 +715,13 @@
     },
     {
       "id": "l536",
-      "text": "\u201cAI slop\u201d is becoming a meaningless label when people use it for anything AI-assisted\nThere is a difference between criticizing bad generated output and treating the mere use of AI as proof that something is bad. That distinction is disappearing. A one-shot prompt that produces a brittle app full of fake functionality is slop. Fine. A developer using ChatGPT/Codex/agents to accelerate implementation while still controlling architecture, reviewing diffs, writing tests, validating security and deb\u2026",
+      "text": "“AI slop” is becoming a meaningless label when people use it for anything AI-assisted\nThere is a difference between criticizing bad generated output and treating the mere use of AI as proof that something is bad. That distinction is disappearing. A one-shot prompt that produces a brittle app full of fake functionality is slop. Fine. A developer using ChatGPT/Codex/agents to accelerate implementation while still controlling architecture, reviewing diffs, writing tests, validating security and deb…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\u201cAI slop\u201d is becoming a meaningless label when people use it for anything AI-ass\u2026",
+          "title": "“AI slop” is becoming a meaningless label when people use it for anything AI-ass…",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vnpf50/ai_slop_is_becoming_a_meaningless_label_when/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -786,13 +736,13 @@
     },
     {
       "id": "l537",
-      "text": "Stanford professor:\n\n\u201ca graduating senior came to my office. most of her classmates did not have jobs. her exact words were: \u2018is my generation doomed?\u2019\u201d\n\nin 58 minutes, Erik Brynjolfsson explains why AI is hitting entry-level workers first, what happens when routine work disappears, and how companies must rebuild the way juniors become experts.\n\n\u2022 00:00 - a Stanford graduate asks: \u201cIs my generation doomed?\u201d\n\u2022 08:01 - millions of jobs will disappear\u2014and millions of new ones will be created\n\u2022 43:1",
+      "text": "Stanford professor:\n\n“a graduating senior came to my office. most of her classmates did not have jobs. her exact words were: ‘is my generation doomed?’”\n\nin 58 minutes, Erik Brynjolfsson explains why AI is hitting entry-level workers first, what happens when routine work disappears, and how companies must rebuild the way juniors become experts.\n\n• 00:00 - a Stanford graduate asks: “Is my generation doomed?”\n• 08:01 - millions of jobs will disappear—and millions of new ones will be created\n• 43:1",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Stanford professor:\n\n\u201ca graduating senior came to my office. most of her classma\u2026",
+          "title": "Stanford professor:\n\n“a graduating senior came to my office. most of her classma…",
           "url": "https://x.com/limalemonnn/status/2083536839923638609",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -807,13 +757,13 @@
     },
     {
       "id": "l538",
-      "text": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years | Simonroses\n\nWork is not disappearing. The job is. The salaried, 9-to-5, one-employer-for-decades package we call \u201ca job\u201d is an industrial-age artifact, and AI agents plus humanoid robots are dismantling it piece by piece. Over the next 10 years, repetitive, risky, and simple tasks get automated at both ends: cognitive work by agents, physical work by robots. The 9-to-5 schedule dies first. Remote and hybrid work kee",
+      "text": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years | Simonroses\n\nWork is not disappearing. The job is. The salaried, 9-to-5, one-employer-for-decades package we call “a job” is an industrial-age artifact, and AI agents plus humanoid robots are dismantling it piece by piece. Over the next 10 years, repetitive, risky, and simple tasks get automated at both ends: cognitive work by agents, physical work by robots. The 9-to-5 schedule dies first. Remote and hybrid work kee",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years |\u2026",
+          "title": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years |…",
           "url": "https://x.com/OwenGregorian/status/2091137764980912401",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -828,13 +778,13 @@
     },
     {
       "id": "l539",
-      "text": "Interested in post-training and recursive self-improvement for agents?\n\nOur team at @AmazonScience Agentic AI is hiring PhD students for fall research internships. We work on software engineering agents.\n\nWe\u2019re excited about the full post-training stack: better data mixtures, efficient training algorithms, and multimodal reasoning.\n\nWe\u2019re also interested in what happens when agents become part of that research loop itself. How can agents help generate better data, discover  training strategies,",
+      "text": "Interested in post-training and recursive self-improvement for agents?\n\nOur team at @AmazonScience Agentic AI is hiring PhD students for fall research internships. We work on software engineering agents.\n\nWe’re excited about the full post-training stack: better data mixtures, efficient training algorithms, and multimodal reasoning.\n\nWe’re also interested in what happens when agents become part of that research loop itself. How can agents help generate better data, discover  training strategies,",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Interested in post-training and recursive self-improvement for agents?\n\nOur team\u2026",
+          "title": "Interested in post-training and recursive self-improvement for agents?\n\nOur team…",
           "url": "https://x.com/MononitoGoswami/status/2087014648323408367",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -849,13 +799,13 @@
     },
     {
       "id": "l540",
-      "text": "Complete AI Engineer Roadmap: Python \u2192 ML \u2192 LLMs \u2192 Agents",
+      "text": "Complete AI Engineer Roadmap: Python → ML → LLMs → Agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Complete AI Engineer Roadmap: Python \u2192 ML \u2192 LLMs \u2192 Agents",
+          "title": "Complete AI Engineer Roadmap: Python → ML → LLMs → Agents",
           "url": "https://x.com/hrswatigupta/status/2087086393344593999",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -891,13 +841,13 @@
     },
     {
       "id": "l542",
-      "text": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill Gates is looking to meet with Chinese President Xi Jinping later this year, eager to propose global efforts to mitigate the growing risks posed by artificial intelligence.\n\nThe Microsoft co-founder and billionaire philanthropist told Reuters in an interview that he believes China might agree to restricting potentially dangerous AI model releases if the U.S. took the initiative.\n\n\u201cThe whole world would go along with",
+      "text": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill Gates is looking to meet with Chinese President Xi Jinping later this year, eager to propose global efforts to mitigate the growing risks posed by artificial intelligence.\n\nThe Microsoft co-founder and billionaire philanthropist told Reuters in an interview that he believes China might agree to restricting potentially dangerous AI model releases if the U.S. took the initiative.\n\n“The whole world would go along with",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill\u2026",
+          "title": "Bill Gates is sounding the alarm about growing risks posed by AI | Reuters\n\nBill…",
           "url": "https://x.com/OwenGregorian/status/2093324365257457709",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -918,7 +868,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I Gave an AI Agent My Daily Workflow. Then I Audited What It Could Touch. (Full \u2026",
+          "title": "I Gave an AI Agent My Daily Workflow. Then I Audited What It Could Touch. (Full …",
           "url": "https://x.com/88n77n/status/2087197088614359125",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -960,7 +910,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Fully AI-Guided Russian Drones Have Reportedly Killed Ukrainian Civilians | Ece \u2026",
+          "title": "Fully AI-Guided Russian Drones Have Reportedly Killed Ukrainian Civilians | Ece …",
           "url": "https://x.com/OwenGregorian/status/2093324464188449024",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -996,13 +946,13 @@
     },
     {
       "id": "l547",
-      "text": "\ud83d\udce3 Amazon Research Awards announces the 34 recipients of the Build on Trainium program, a $110M credit initiative supporting AI research at 30 universities on AWS Trainium: https://t.co/Xz3ZsCFkSn",
+      "text": "📣 Amazon Research Awards announces the 34 recipients of the Build on Trainium program, a $110M credit initiative supporting AI research at 30 universities on AWS Trainium: https://t.co/Xz3ZsCFkSn",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udce3 Amazon Research Awards announces the 34 recipients of the Build on Trainium pr\u2026",
+          "title": "📣 Amazon Research Awards announces the 34 recipients of the Build on Trainium pr…",
           "url": "https://x.com/AmazonScience/status/2085019366555312178",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1017,13 +967,13 @@
     },
     {
       "id": "l548",
-      "text": "\ud83d\udce3 AWS Trainium Frontier is open for registration. Train language models from scratch on purpose-built AI chips for @NeurIPSConf. \n\nPrizes include $25K for first place, co-publication with Annapurna Labs researchers, and a presentation in Sydney. Deadline is September 30. #NeurIPS2026 https://t.co/SUw1WCy4iQ",
+      "text": "📣 AWS Trainium Frontier is open for registration. Train language models from scratch on purpose-built AI chips for @NeurIPSConf. \n\nPrizes include $25K for first place, co-publication with Annapurna Labs researchers, and a presentation in Sydney. Deadline is September 30. #NeurIPS2026 https://t.co/SUw1WCy4iQ",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udce3 AWS Trainium Frontier is open for registration. Train language models from scr\u2026",
+          "title": "📣 AWS Trainium Frontier is open for registration. Train language models from scr…",
           "url": "https://x.com/AmazonScience/status/2086918313494352089",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1038,13 +988,13 @@
     },
     {
       "id": "l549",
-      "text": "\u26a1\ud83e\udd16 https://t.co/D0OdXFmcl8 \u2014 THE BEST AI PRODUCTS WON\u2019T FEEL LIKE SOFTWARE.\n\nThey\u2019ll feel like:\n\nSOMEONE ALREADY TOOK CARE OF IT.\n\nYour inbox?\n\nHandled.\n\nMeeting notes?\n\nOrganized.\n\nCustomer follow-ups?\n\nDrafted.\n\nResearch?\n\nDone.\n\nCalendar chaos?\n\nSorted.\n\nDocuments?\n\nUnderstood.\n\nTasks?\n\nPrioritized.\n\nYou don't open twelve dashboards.\n\nYou don't learn another complicated interface.\n\nYou just say:\n\n\u201cZoli, take care of this.\u201d\n\nAnd that's the opportunity inside:\n\nhttps://t.co/D0OdXFmcl8\n\nShort.",
+      "text": "⚡🤖 https://t.co/D0OdXFmcl8 — THE BEST AI PRODUCTS WON’T FEEL LIKE SOFTWARE.\n\nThey’ll feel like:\n\nSOMEONE ALREADY TOOK CARE OF IT.\n\nYour inbox?\n\nHandled.\n\nMeeting notes?\n\nOrganized.\n\nCustomer follow-ups?\n\nDrafted.\n\nResearch?\n\nDone.\n\nCalendar chaos?\n\nSorted.\n\nDocuments?\n\nUnderstood.\n\nTasks?\n\nPrioritized.\n\nYou don't open twelve dashboards.\n\nYou don't learn another complicated interface.\n\nYou just say:\n\n“Zoli, take care of this.”\n\nAnd that's the opportunity inside:\n\nhttps://t.co/D0OdXFmcl8\n\nShort.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u26a1\ud83e\udd16 https://t.co/D0OdXFmcl8 \u2014 THE BEST AI PRODUCTS WON\u2019T FEEL LIKE SOFTWARE.\n\nThe\u2026",
+          "title": "⚡🤖 https://t.co/D0OdXFmcl8 — THE BEST AI PRODUCTS WON’T FEEL LIKE SOFTWARE.\n\nThe…",
           "url": "https://x.com/UpHonestReal/status/2091845196845637891",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1065,7 +1015,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "As AI agents take on higher-stakes decisions, their actions need to be provably \u2026",
+          "title": "As AI agents take on higher-stakes decisions, their actions need to be provably …",
           "url": "https://x.com/AmazonScience/status/2081817385254658468",
           "date": "2026-07-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1086,7 +1036,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Most healthcare AI benchmarks test static medical knowledge or evaluate tool-usi\u2026",
+          "title": "Most healthcare AI benchmarks test static medical knowledge or evaluate tool-usi…",
           "url": "https://x.com/AmazonScience/status/2082498402571481582",
           "date": "2026-07-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1101,13 +1051,13 @@
     },
     {
       "id": "l552",
-      "text": "Is Higher Ed Broken? Dr. Steve Whitehead on Creativity, AI & Change\nWhat if creativity isn't a talent you're born with, but a skill you can practice like an instrument?\n\nIn this episode, Eytan Wurman of CommonTime Pathways sits down with Dr. Steve Whitehead, founder of 5th Hammer Innovation (https://www.5thhammerinnovation.com), to dig into what real innovation in higher education actually looks like \u2014 and why so many promising ideas never make it off the whiteboard.\n\nIn this episode:\n\n0:00 Intr\u2026",
+      "text": "Is Higher Ed Broken? Dr. Steve Whitehead on Creativity, AI & Change\nWhat if creativity isn't a talent you're born with, but a skill you can practice like an instrument?\n\nIn this episode, Eytan Wurman of CommonTime Pathways sits down with Dr. Steve Whitehead, founder of 5th Hammer Innovation (https://www.5thhammerinnovation.com), to dig into what real innovation in higher education actually looks like — and why so many promising ideas never make it off the whiteboard.\n\nIn this episode:\n\n0:00 Intr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Is Higher Ed Broken? Dr. Steve Whitehead on Creativity, AI & Change\nWhat if crea\u2026",
+          "title": "Is Higher Ed Broken? Dr. Steve Whitehead on Creativity, AI & Change\nWhat if crea…",
           "url": "https://www.youtube.com/watch?v=O6eDUnDb90k",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1122,7 +1072,7 @@
     },
     {
       "id": "l453",
-      "text": "Associate Lecturer (EmpowerED) \u2014 Griffith University (Meadowbrook, Queensland, Australia). Posted 5 days ago.",
+      "text": "Associate Lecturer (EmpowerED) — Griffith University (Meadowbrook, Queensland, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1143,7 +1093,7 @@
     },
     {
       "id": "l454",
-      "text": "Advanced Graduate Program \u2014 Department of Education, Western Australia (Greater Perth Area). Posted 1 month ago.",
+      "text": "Advanced Graduate Program — Department of Education, Western Australia (Greater Perth Area). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1164,7 +1114,7 @@
     },
     {
       "id": "l455",
-      "text": "Graduate Teacher \u2014 Department of Education, Western Australia (Gascoyne River, Western Australia, Australia). Posted 1 month ago.",
+      "text": "Graduate Teacher — Department of Education, Western Australia (Gascoyne River, Western Australia, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1185,7 +1135,7 @@
     },
     {
       "id": "l456",
-      "text": "Expressions of Interest: Indigenous Employment Opportunities at the University of Melbourne \u2014 University of Melbourne (Parkville, Victoria, Australia). Posted 1 day ago.",
+      "text": "Expressions of Interest: Indigenous Employment Opportunities at the University of Melbourne — University of Melbourne (Parkville, Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1206,7 +1156,7 @@
     },
     {
       "id": "l457",
-      "text": "Education Support \u2014 Department of Education (Victoria, Australia). Posted 1 day ago.",
+      "text": "Education Support — Department of Education (Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1227,7 +1177,7 @@
     },
     {
       "id": "l458",
-      "text": "$115200 - $124800 Annually Tutoring jobs \u2014 Supawork.ai (Heidelberg, Victoria, Australia). Posted 1 month ago.",
+      "text": "$115200 - $124800 Annually Tutoring jobs — Supawork.ai (Heidelberg, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1248,7 +1198,7 @@
     },
     {
       "id": "l459",
-      "text": "Classroom Teacher \u2014 Department of Education (Victoria, Australia). Posted 1 day ago.",
+      "text": "Classroom Teacher — Department of Education (Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1269,7 +1219,7 @@
     },
     {
       "id": "l460",
-      "text": "$115200 - $124800 Annually Tutoring jobs near me \u2014 Supawork.ai (Heidelberg, Victoria, Australia). Posted 1 month ago.",
+      "text": "$115200 - $124800 Annually Tutoring jobs near me — Supawork.ai (Heidelberg, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1290,7 +1240,7 @@
     },
     {
       "id": "l461",
-      "text": "RMIT Graduate Program 2027 \u2014 RMIT University (Melbourne, Victoria, Australia). Posted 2 days ago.",
+      "text": "RMIT Graduate Program 2027 — RMIT University (Melbourne, Victoria, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1311,7 +1261,7 @@
     },
     {
       "id": "l462",
-      "text": "Inclusion Support Tutor \u2014 Department of Education and Training (Katherine, Northern Territory, Australia). Posted 1 week ago.",
+      "text": "Inclusion Support Tutor — Department of Education and Training (Katherine, Northern Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1332,13 +1282,13 @@
     },
     {
       "id": "l563",
-      "text": "Trustworthy AI: Open to all graduate students\nHi, I&#39;m Robert Pless, a professor in the CS department. Long-time r/gwu users may remember me from such posts as &quot;A lazy summer day watching Science and Engineering Hall&quot; and &quot;my list of favorite GWU robotics researchers&quot; . This fall I&#39;m again teaching Trustworthy AI (CSCI 6501 / EMSE 6992, Mondays 3:30\u20136:00). It&#39;s built to be accessible to grad students from any discipline \u2014 you don&#39;t need to code. Each project ca\u2026",
+      "text": "Trustworthy AI: Open to all graduate students\nHi, I&#39;m Robert Pless, a professor in the CS department. Long-time r/gwu users may remember me from such posts as &quot;A lazy summer day watching Science and Engineering Hall&quot; and &quot;my list of favorite GWU robotics researchers&quot; . This fall I&#39;m again teaching Trustworthy AI (CSCI 6501 / EMSE 6992, Mondays 3:30–6:00). It&#39;s built to be accessible to grad students from any discipline — you don&#39;t need to code. Each project ca…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Trustworthy AI: Open to all graduate students\nHi, I&#39;m Robert Pless, a profes\u2026",
+          "title": "Trustworthy AI: Open to all graduate students\nHi, I&#39;m Robert Pless, a profes…",
           "url": "https://www.reddit.com/r/gwu/comments/1vx5r0x/trustworthy_ai_open_to_all_graduate_students/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1353,13 +1303,13 @@
     },
     {
       "id": "l564",
-      "text": "Over the past six months, I've been teaching teams at places like Stanford, Penn, Northwestern, and many more how to start using AI responsibly and effectively in their work. Today, I'm starting to release my entire curriculum: for free, forever, for everyone!\nOver the past six months, I&#39;ve been teaching teams at places like Stanford, Penn, Northwestern, and many more how to start using AI responsibly and effectively in their work. Today, I&#39;m starting to release my entire curriculum: for\u2026",
+      "text": "Over the past six months, I've been teaching teams at places like Stanford, Penn, Northwestern, and many more how to start using AI responsibly and effectively in their work. Today, I'm starting to release my entire curriculum: for free, forever, for everyone!\nOver the past six months, I&#39;ve been teaching teams at places like Stanford, Penn, Northwestern, and many more how to start using AI responsibly and effectively in their work. Today, I&#39;m starting to release my entire curriculum: for…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Over the past six months, I've been teaching teams at places like Stanford, Penn\u2026",
+          "title": "Over the past six months, I've been teaching teams at places like Stanford, Penn…",
           "url": "https://www.reddit.com/r/WritingWithAI/comments/1vvchd1/over_the_past_six_months_ive_been_teaching_teams/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1374,13 +1324,13 @@
     },
     {
       "id": "l565",
-      "text": "Generative AI Can Harm Teaching\nwe have a lot of work showing the harms of AI on learning, from math skills to writing. This interesting working paper looking at how AI can harm learning when used in teaching. Seems that including AI as part of a course can really make students lose interest in learning https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7007339 Abstract Teachers are rapidly adopting generative AI, yet there is little causal evidence on whether AI-assisted teaching improves or h\u2026",
+      "text": "Generative AI Can Harm Teaching\nwe have a lot of work showing the harms of AI on learning, from math skills to writing. This interesting working paper looking at how AI can harm learning when used in teaching. Seems that including AI as part of a course can really make students lose interest in learning https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7007339 Abstract Teachers are rapidly adopting generative AI, yet there is little causal evidence on whether AI-assisted teaching improves or h…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Generative AI Can Harm Teaching\nwe have a lot of work showing the harms of AI on\u2026",
+          "title": "Generative AI Can Harm Teaching\nwe have a lot of work showing the harms of AI on…",
           "url": "https://www.reddit.com/r/Professors/comments/1w07jl2/generative_ai_can_harm_teaching/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1395,13 +1345,13 @@
     },
     {
       "id": "l566",
-      "text": "Starting a PhD in AI: How do researchers use AI coding assistants without losing programming skills?\nHello, I will start a PhD next year in the field of education and AI, and I would like to know what are the most effective ways to learn and develop my programming skills during this period. I recently completed a research laboratory CDD (fixed-term contract), and I have the feeling that around 80% of my code was generated by Claude. I tried several times to code by myself in order to develop a c\u2026",
+      "text": "Starting a PhD in AI: How do researchers use AI coding assistants without losing programming skills?\nHello, I will start a PhD next year in the field of education and AI, and I would like to know what are the most effective ways to learn and develop my programming skills during this period. I recently completed a research laboratory CDD (fixed-term contract), and I have the feeling that around 80% of my code was generated by Claude. I tried several times to code by myself in order to develop a c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Starting a PhD in AI: How do researchers use AI coding assistants without losing\u2026",
+          "title": "Starting a PhD in AI: How do researchers use AI coding assistants without losing…",
           "url": "https://www.reddit.com/r/learnmachinelearning/comments/1vb6vgn/starting_a_phd_in_ai_how_do_researchers_use_ai/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1416,13 +1366,13 @@
     },
     {
       "id": "l567",
-      "text": "Where should AI assistance stop when learning pentesting on HTB?\nI\u2019ve been experimenting with supervised AI-assisted pentesting in authorised lab environments, and I\u2019m curious how people here think it should fit into platforms like Hack The Box. There\u2019s obviously a big difference between: \u201cExplain why this HTTP response is interesting\u201d and \u201cHere\u2019s the target \u2014 enumerate everything, exploit it and give me the flag.\u201d The second might get you a solve, but I\u2019m not convinced it teaches you much. What\u2026",
+      "text": "Where should AI assistance stop when learning pentesting on HTB?\nI’ve been experimenting with supervised AI-assisted pentesting in authorised lab environments, and I’m curious how people here think it should fit into platforms like Hack The Box. There’s obviously a big difference between: “Explain why this HTTP response is interesting” and “Here’s the target — enumerate everything, exploit it and give me the flag.” The second might get you a solve, but I’m not convinced it teaches you much. What…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Where should AI assistance stop when learning pentesting on HTB?\nI\u2019ve been exper\u2026",
+          "title": "Where should AI assistance stop when learning pentesting on HTB?\nI’ve been exper…",
           "url": "https://www.reddit.com/r/hackthebox/comments/1vs1mz5/where_should_ai_assistance_stop_when_learning/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1437,13 +1387,13 @@
     },
     {
       "id": "l568",
-      "text": "I think I blamed my AI assistant too much\nI spent two hours yesterday fighting with Cursor. It was a classic TypeError. I asked it to fix the issue, but it copied a solution from an old Medium article that used a deprecated API. It confidently changed my code, and somehow made everything worse. At that moment, I was really frustrated. But after calming down, I started thinking this might not be entirely the AI&#39;s fault. We give AI assistants access to the entire internet, but the problem is t\u2026",
+      "text": "I think I blamed my AI assistant too much\nI spent two hours yesterday fighting with Cursor. It was a classic TypeError. I asked it to fix the issue, but it copied a solution from an old Medium article that used a deprecated API. It confidently changed my code, and somehow made everything worse. At that moment, I was really frustrated. But after calming down, I started thinking this might not be entirely the AI&#39;s fault. We give AI assistants access to the entire internet, but the problem is t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I think I blamed my AI assistant too much\nI spent two hours yesterday fighting w\u2026",
+          "title": "I think I blamed my AI assistant too much\nI spent two hours yesterday fighting w…",
           "url": "https://www.reddit.com/r/AI_Agents/comments/1ve2nio/i_think_i_blamed_my_ai_assistant_too_much/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1458,13 +1408,13 @@
     },
     {
       "id": "l569",
-      "text": "Administration keeps telling us that \"employers want graduates to know how to use ai\" and I don't even know what this means\nUniversity prof. I keep hearing this from the admin, and aside from the fact that obviously not all employers are asking for this and the ai landscape is changing and no one knows how it will look in 4 years, I also just don&#39;t know what they want us to DO about it in class. AI systems are intuitive to use. You ask them a question or give them a prompt and they do it. It\u2026",
+      "text": "Administration keeps telling us that \"employers want graduates to know how to use ai\" and I don't even know what this means\nUniversity prof. I keep hearing this from the admin, and aside from the fact that obviously not all employers are asking for this and the ai landscape is changing and no one knows how it will look in 4 years, I also just don&#39;t know what they want us to DO about it in class. AI systems are intuitive to use. You ask them a question or give them a prompt and they do it. It…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Administration keeps telling us that \"employers want graduates to know how to us\u2026",
+          "title": "Administration keeps telling us that \"employers want graduates to know how to us…",
           "url": "https://www.reddit.com/r/teaching/comments/1w0upzk/administration_keeps_telling_us_that_employers/",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1479,13 +1429,13 @@
     },
     {
       "id": "l570",
-      "text": "\u201cAI slop\u201d is becoming a meaningless label when people use it for anything AI-assisted\nThere is a difference between criticizing bad generated output and treating the mere use of AI as proof that something is bad. That distinction is disappearing. A one-shot prompt that produces a brittle app full of fake functionality is slop. Fine. A developer using ChatGPT/Codex/agents to accelerate implementation while still controlling architecture, reviewing diffs, writing tests, validating security and deb\u2026",
+      "text": "“AI slop” is becoming a meaningless label when people use it for anything AI-assisted\nThere is a difference between criticizing bad generated output and treating the mere use of AI as proof that something is bad. That distinction is disappearing. A one-shot prompt that produces a brittle app full of fake functionality is slop. Fine. A developer using ChatGPT/Codex/agents to accelerate implementation while still controlling architecture, reviewing diffs, writing tests, validating security and deb…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\u201cAI slop\u201d is becoming a meaningless label when people use it for anything AI-ass\u2026",
+          "title": "“AI slop” is becoming a meaningless label when people use it for anything AI-ass…",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vnpf50/ai_slop_is_becoming_a_meaningless_label_when/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1500,13 +1450,13 @@
     },
     {
       "id": "l571",
-      "text": "Is Higher Ed Broken? Dr. Steve Whitehead on Creativity, AI & Change\nWhat if creativity isn't a talent you're born with, but a skill you can practice like an instrument?\n\nIn this episode, Eytan Wurman of CommonTime Pathways sits down with Dr. Steve Whitehead, founder of 5th Hammer Innovation (https://www.5thhammerinnovation.com), to dig into what real innovation in higher education actually looks like \u2014 and why so many promising ideas never make it off the whiteboard.\n\nIn this episode:\n\n0:00 Intr\u2026",
+      "text": "Is Higher Ed Broken? Dr. Steve Whitehead on Creativity, AI & Change\nWhat if creativity isn't a talent you're born with, but a skill you can practice like an instrument?\n\nIn this episode, Eytan Wurman of CommonTime Pathways sits down with Dr. Steve Whitehead, founder of 5th Hammer Innovation (https://www.5thhammerinnovation.com), to dig into what real innovation in higher education actually looks like — and why so many promising ideas never make it off the whiteboard.\n\nIn this episode:\n\n0:00 Intr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Is Higher Ed Broken? Dr. Steve Whitehead on Creativity, AI & Change\nWhat if crea\u2026",
+          "title": "Is Higher Ed Broken? Dr. Steve Whitehead on Creativity, AI & Change\nWhat if crea…",
           "url": "https://www.youtube.com/watch?v=O6eDUnDb90k",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1597,6 +1547,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

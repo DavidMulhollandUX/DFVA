@@ -14,64 +14,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "53-5031-01",
-      "text": "National peak professional bodies and statutory regulators governing Ship Engineers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Ship Engineers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Ship Engineers",
-          "url": "https://www.psc.gov.au/standards/53-5031",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Ship Engineers"
-        }
-      ],
-      "scope": "Australian practitioners in Ship Engineers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "53-5031-02",
-      "text": "Automation of routine transactional and analytical tasks in Ship Engineers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Ship Engineers",
-          "url": "https://www.jobsandskills.gov.au/research/53-5031",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Ship Engineers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Ship Engineers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Shipboard Officers & Engineering Roles \u2013 Multiple Vacancies \u2014 The CSL Group Inc. (South Perth, Western Australia, Australia). Posted 1 week ago.",
+      "text": "Shipboard Officers & Engineering Roles – Multiple Vacancies — The CSL Group Inc. (South Perth, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
           "publisher": "The CSL Group Inc.",
-          "title": "Shipboard Officers & Engineering Roles \u2013 Multiple Vacancies",
+          "title": "Shipboard Officers & Engineering Roles – Multiple Vacancies",
           "url": "https://www.linkedin.com/jobs/view/4454563992",
           "date": "1 week ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
@@ -86,7 +36,7 @@
     },
     {
       "id": "l404",
-      "text": "Second Engineer \u2014 The CSL Group Inc. (Devonport, Tasmania, Australia). Posted 1 week ago.",
+      "text": "Second Engineer — The CSL Group Inc. (Devonport, Tasmania, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -107,7 +57,7 @@
     },
     {
       "id": "l405",
-      "text": "Engineer \u2014 Svitzer (Brisbane, Queensland, Australia). Posted 6 days ago.",
+      "text": "Engineer — Svitzer (Brisbane, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -128,7 +78,7 @@
     },
     {
       "id": "l406",
-      "text": "Engineer Class 3 \u2014 Serco (Elizabeth Bay, New South Wales, Australia). Posted 12 hours ago.",
+      "text": "Engineer Class 3 — Serco (Elizabeth Bay, New South Wales, Australia). Posted 12 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -149,7 +99,7 @@
     },
     {
       "id": "l407",
-      "text": "Marine Engineer - Heavy Works Team \u2014 Tassal Group (Broome, Western Australia, Australia). Posted 5 days ago.",
+      "text": "Marine Engineer - Heavy Works Team — Tassal Group (Broome, Western Australia, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -170,7 +120,7 @@
     },
     {
       "id": "l408",
-      "text": "Expressions of Interest - RSV Nuyina Maritime Crew \u2014 Serco (Hobart, Tasmania, Australia). Posted 6 months ago.",
+      "text": "Expressions of Interest - RSV Nuyina Maritime Crew — Serco (Hobart, Tasmania, Australia). Posted 6 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -191,7 +141,7 @@
     },
     {
       "id": "l409",
-      "text": "Graduate Marine Engineer \u2014 Riverside Marine (Newstead, Queensland, Australia). Posted 6 days ago.",
+      "text": "Graduate Marine Engineer — Riverside Marine (Newstead, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -212,7 +162,7 @@
     },
     {
       "id": "l410",
-      "text": "Superintendent Ship \u2014 Mineral Resources (Herdsman, Western Australia, Australia). Posted 2 days ago.",
+      "text": "Superintendent Ship — Mineral Resources (Herdsman, Western Australia, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -233,7 +183,7 @@
     },
     {
       "id": "l411",
-      "text": "Pontoon Engineer | Cruise Whitsundays \u2014 Journey Beyond (Airlie Beach, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Pontoon Engineer | Cruise Whitsundays — Journey Beyond (Airlie Beach, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -254,7 +204,7 @@
     },
     {
       "id": "l412",
-      "text": "Shore Based Engineer - Shipwright \u2014 Journey Beyond (Airlie Beach, Queensland, Australia). Posted 1 week ago.",
+      "text": "Shore Based Engineer - Shipwright — Journey Beyond (Airlie Beach, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -275,13 +225,13 @@
     },
     {
       "id": "l513",
-      "text": "\ud83d\udcca AI CLI Tools Digest 2026-08-23\n# AI CLI Tools Community Digest 2026-08-23\n\n> Generated: 2026-08-22 22:21 UTC | Tools covered: 9\n\n- [Claude Code](https://github\u200b.com/anthropics/claude-code)\n- [OpenAI Codex](https://github\u200b.com/openai/codex)\n- [Gemini CLI](https://github\u200b.com/google-gemini/gemini-cli)\n- [GitHub Copilot CLI](https:/",
+      "text": "📊 AI CLI Tools Digest 2026-08-23\n# AI CLI Tools Community Digest 2026-08-23\n\n> Generated: 2026-08-22 22:21 UTC | Tools covered: 9\n\n- [Claude Code](https://github​.com/anthropics/claude-code)\n- [OpenAI Codex](https://github​.com/openai/codex)\n- [Gemini CLI](https://github​.com/google-gemini/gemini-cli)\n- [GitHub Copilot CLI](https:/",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udcca AI CLI Tools Digest 2026-08-23\n# AI CLI Tools Community Digest 2026-08-23\n\n> G\u2026",
+          "title": "📊 AI CLI Tools Digest 2026-08-23\n# AI CLI Tools Community Digest 2026-08-23\n\n> G…",
           "url": "https://github.com/kakapez/agents-radar/issues/1354",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -296,13 +246,13 @@
     },
     {
       "id": "l514",
-      "text": "\ud83d\udcac Tech Community AI Digest 2026-08-01\n# Tech Community AI Digest 2026-08-01\n\n> Sources: [Dev.to](https://dev.to/) (30 articles) + [Lobste.rs](https://lobste.rs/) (5 stories) | Generated: 2026-08-01 02:10 UTC\n\n---\n\n# Tech Community AI Digest \u2014 2026-08-01\n\n---\n\n## 1. Today's Highlights\n\nDeveloper communities are shifting from \"wow\" demos",
+      "text": "💬 Tech Community AI Digest 2026-08-01\n# Tech Community AI Digest 2026-08-01\n\n> Sources: [Dev.to](https://dev.to/) (30 articles) + [Lobste.rs](https://lobste.rs/) (5 stories) | Generated: 2026-08-01 02:10 UTC\n\n---\n\n# Tech Community AI Digest — 2026-08-01\n\n---\n\n## 1. Today's Highlights\n\nDeveloper communities are shifting from \"wow\" demos",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udcac Tech Community AI Digest 2026-08-01\n# Tech Community AI Digest 2026-08-01\n\n> S\u2026",
+          "title": "💬 Tech Community AI Digest 2026-08-01\n# Tech Community AI Digest 2026-08-01\n\n> S…",
           "url": "https://github.com/DenisZheng/agents-radar/issues/1625",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -317,13 +267,13 @@
     },
     {
       "id": "l515",
-      "text": "\u2699\ufe0f AI Infrastructure Digest 2026-08-16\n# AI Infrastructure Digest 2026-08-16\n\n> Generated: 2026-08-15 23:11 UTC | Projects covered: 6\n\n- [vLLM](https://github\u200b.com/vllm-project/vllm)\n- [SGLang](https://github\u200b.com/sgl-project/sglang)\n- [llama.cpp](https://github\u200b.com/ggml-org/llama.cpp)\n- [Ollama](https://github\u200b.com/ollama/ollama)\n- [Li",
+      "text": "⚙️ AI Infrastructure Digest 2026-08-16\n# AI Infrastructure Digest 2026-08-16\n\n> Generated: 2026-08-15 23:11 UTC | Projects covered: 6\n\n- [vLLM](https://github​.com/vllm-project/vllm)\n- [SGLang](https://github​.com/sgl-project/sglang)\n- [llama.cpp](https://github​.com/ggml-org/llama.cpp)\n- [Ollama](https://github​.com/ollama/ollama)\n- [Li",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\u2699\ufe0f AI Infrastructure Digest 2026-08-16\n# AI Infrastructure Digest 2026-08-16\n\n> \u2026",
+          "title": "⚙️ AI Infrastructure Digest 2026-08-16\n# AI Infrastructure Digest 2026-08-16\n\n> …",
           "url": "https://github.com/duanyytop/agents-radar/issues/2740",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -338,13 +288,13 @@
     },
     {
       "id": "l516",
-      "text": "\ud83d\udcac Tech Community AI Digest 2026-08-02\n# Tech Community AI Digest 2026-08-02\n\n> Sources: [Dev.to](https://dev.to/) (30 articles) + [Lobste.rs](https://lobste.rs/) (4 stories) | Generated: 2026-08-02 01:48 UTC\n\n---\n\n\n\n# Tech Community AI Digest \u2014 2026-08-02\n\n## 1. Today's Highlights\n\nAgent evaluation and multi-agent loops dominated discus",
+      "text": "💬 Tech Community AI Digest 2026-08-02\n# Tech Community AI Digest 2026-08-02\n\n> Sources: [Dev.to](https://dev.to/) (30 articles) + [Lobste.rs](https://lobste.rs/) (4 stories) | Generated: 2026-08-02 01:48 UTC\n\n---\n\n\n\n# Tech Community AI Digest — 2026-08-02\n\n## 1. Today's Highlights\n\nAgent evaluation and multi-agent loops dominated discus",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udcac Tech Community AI Digest 2026-08-02\n# Tech Community AI Digest 2026-08-02\n\n> S\u2026",
+          "title": "💬 Tech Community AI Digest 2026-08-02\n# Tech Community AI Digest 2026-08-02\n\n> S…",
           "url": "https://github.com/Chestnuts-Sisyphus/gittok/issues/679",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -359,13 +309,13 @@
     },
     {
       "id": "l517",
-      "text": "feat(subscriptions): code-computed timezone-aware AI report window\n## Problem\r\n\r\nAI subscription reports had no reliable notion of *what time range to analyze*, and users had no way to control it:\r\n\r\n- The planner LLM wrote its own date filters (`now() - INTERVAL \u2026`, `today()`), which are UTC-anchored \u2014 a daily sub sent at 4pm in a UTC+ timezone could never get \"to",
+      "text": "feat(subscriptions): code-computed timezone-aware AI report window\n## Problem\r\n\r\nAI subscription reports had no reliable notion of *what time range to analyze*, and users had no way to control it:\r\n\r\n- The planner LLM wrote its own date filters (`now() - INTERVAL …`, `today()`), which are UTC-anchored — a daily sub sent at 4pm in a UTC+ timezone could never get \"to",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(subscriptions): code-computed timezone-aware AI report window\n## Problem\r\n\r\u2026",
+          "title": "feat(subscriptions): code-computed timezone-aware AI report window\n## Problem\r\n\r…",
           "url": "https://github.com/PostHog/posthog/pull/66804",
           "date": "2026-06-29",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -386,7 +336,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Merge epic integration into main\n## Summary\n\nThis PR promotes the accumulated `e\u2026",
+          "title": "Merge epic integration into main\n## Summary\n\nThis PR promotes the accumulated `e…",
           "url": "https://github.com/Asymmetric-al/core/pull/223",
           "date": "2026-05-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -407,7 +357,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(governance): the LangWatch AI Governance Platform\n# feat(governance): the L\u2026",
+          "title": "feat(governance): the LangWatch AI Governance Platform\n# feat(governance): the L…",
           "url": "https://github.com/langwatch/langwatch/pull/3524",
           "date": "2026-04-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -422,13 +372,13 @@
     },
     {
       "id": "l520",
-      "text": "\ud83d\udcac Tech Community AI Digest 2026-06-21\n# Tech Community AI Digest 2026-06-21\n\n> Sources: [Dev.to](https://dev.to/) (30 articles) + [Lobste.rs](https://lobste.rs/) (12 stories) | Generated: 2026-06-20 23:09 UTC\n\n---\n\n# 2026-06-21 AI Tech Community Digest\n---\n## 1. Today's Highlights\nAcross both Dev.to and Lobste.rs, developer AI discourse",
+      "text": "💬 Tech Community AI Digest 2026-06-21\n# Tech Community AI Digest 2026-06-21\n\n> Sources: [Dev.to](https://dev.to/) (30 articles) + [Lobste.rs](https://lobste.rs/) (12 stories) | Generated: 2026-06-20 23:09 UTC\n\n---\n\n# 2026-06-21 AI Tech Community Digest\n---\n## 1. Today's Highlights\nAcross both Dev.to and Lobste.rs, developer AI discourse",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udcac Tech Community AI Digest 2026-06-21\n# Tech Community AI Digest 2026-06-21\n\n> S\u2026",
+          "title": "💬 Tech Community AI Digest 2026-06-21\n# Tech Community AI Digest 2026-06-21\n\n> S…",
           "url": "https://github.com/kakapez/agents-radar/issues/432",
           "date": "2026-06-20",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -449,7 +399,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Add Inngest agent skills and repo tooling updates\n## Summary\n- Added the officia\u2026",
+          "title": "Add Inngest agent skills and repo tooling updates\n## Summary\n- Added the officia…",
           "url": "https://github.com/Asymmetric-al/core/pull/282",
           "date": "2026-06-03",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -464,13 +414,13 @@
     },
     {
       "id": "l522",
-      "text": "Add built-in Amp integration for agent status in tabs\n## Summary\n\nAdds zero-config Amp agent status tracking in cmux tabs, mirroring the existing Claude Code integration.\n\n### How it works\n\nWhen a user types `amp` inside a cmux terminal, the shell wrapper transparently:\n1. Auto-installs the bundled status plugin into `~/.config/amp/plugins/`\n2. Enables\n@HamptonMakes is attempting to deploy a commit to the **Manaflow** Team on [Vercel](https://vercel.com).\n\nA member of the Team first needs to [au\u2026",
+      "text": "Add built-in Amp integration for agent status in tabs\n## Summary\n\nAdds zero-config Amp agent status tracking in cmux tabs, mirroring the existing Claude Code integration.\n\n### How it works\n\nWhen a user types `amp` inside a cmux terminal, the shell wrapper transparently:\n1. Auto-installs the bundled status plugin into `~/.config/amp/plugins/`\n2. Enables\n@HamptonMakes is attempting to deploy a commit to the **Manaflow** Team on [Vercel](https://vercel.com).\n\nA member of the Team first needs to [au…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add built-in Amp integration for agent status in tabs\n## Summary\n\nAdds zero-conf\u2026",
+          "title": "Add built-in Amp integration for agent status in tabs\n## Summary\n\nAdds zero-conf…",
           "url": "https://github.com/manaflow-ai/cmux/pull/2007",
           "date": "2026-03-23",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -491,7 +441,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Add bendc frontend guidelines as canonical agent skill\n<!-- CURSOR_AGENT_PR_BODY\u2026",
+          "title": "Add bendc frontend guidelines as canonical agent skill\n<!-- CURSOR_AGENT_PR_BODY…",
           "url": "https://github.com/Asymmetric-al/core/pull/229",
           "date": "2026-05-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -506,13 +456,13 @@
     },
     {
       "id": "l524",
-      "text": "Codex/perform exchange gateway gap analysis ee6iqh\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **New Features**\n  * Autodiscover (XML/SOAP/JSON), ActiveSync (EAS) and EWS calendar/folder support, CalDAV-backed calendar sync, Cloudflare Worker gateway and HTTP storage API, healthcheck endpo\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/settings/u\u2026",
+      "text": "Codex/perform exchange gateway gap analysis ee6iqh\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **New Features**\n  * Autodiscover (XML/SOAP/JSON), ActiveSync (EAS) and EWS calendar/folder support, CalDAV-backed calendar sync, Cloudflare Worker gateway and HTTP storage API, healthcheck endpo\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/settings/u…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Codex/perform exchange gateway gap analysis ee6iqh\n<!-- This is an auto-generate\u2026",
+          "title": "Codex/perform exchange gateway gap analysis ee6iqh\n<!-- This is an auto-generate…",
           "url": "https://github.com/Voornaamenachternaam/exchange_gateway/pull/1148",
           "date": "2026-03-28",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -527,13 +477,13 @@
     },
     {
       "id": "l525",
-      "text": "[Feature]: Locked Gherkin DSL -- Bridging Shannon-Kolmogorov Gap for ~~Proven~~ Demonstrated Accuracy Gains\n### Summary\n\nAI-Drafted, several HITL iterations, then edited:\n\nAdd AI-assisted generation of  locked Gherkin (`.feature`) files as a low-Kolmogorov-complexity DSL layer in GSD-2 \u2014 this single change turns GSD-2 from \u201cstatistically good\u201d toward \u201calgorithmically reliable\u201d code generation.\n\n\n### Probl\n\ud83d\udc4b Thanks for opening this issue!\n\nThis was automatically flagged for maintainer review.\n\n**\u2026",
+      "text": "[Feature]: Locked Gherkin DSL -- Bridging Shannon-Kolmogorov Gap for ~~Proven~~ Demonstrated Accuracy Gains\n### Summary\n\nAI-Drafted, several HITL iterations, then edited:\n\nAdd AI-assisted generation of  locked Gherkin (`.feature`) files as a low-Kolmogorov-complexity DSL layer in GSD-2 — this single change turns GSD-2 from “statistically good” toward “algorithmically reliable” code generation.\n\n\n### Probl\n👋 Thanks for opening this issue!\n\nThis was automatically flagged for maintainer review.\n\n**…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[Feature]: Locked Gherkin DSL -- Bridging Shannon-Kolmogorov Gap for ~~Proven~~ \u2026",
+          "title": "[Feature]: Locked Gherkin DSL -- Bridging Shannon-Kolmogorov Gap for ~~Proven~~ …",
           "url": "https://github.com/gsd-build/gsd-2/issues/2578",
           "date": "2026-03-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -548,13 +498,13 @@
     },
     {
       "id": "l526",
-      "text": "LinkedIn Authority Strategy: 70K \u2192 100K Monthly Views\n## LinkedIn Authority Strategy\n\n**Goal:** 70K \u2192 100K monthly views\n**Current cadence:** 3-5x/week\n**Target audience:** Engineering leaders, founders, AI-curious professionals, working moms\n\n---\n\n## Positioning\n\n### Current Headline\n> Product & Engineering @ Kilo Code | Turning AI Spend into Engineer",
+      "text": "LinkedIn Authority Strategy: 70K → 100K Monthly Views\n## LinkedIn Authority Strategy\n\n**Goal:** 70K → 100K monthly views\n**Current cadence:** 3-5x/week\n**Target audience:** Engineering leaders, founders, AI-curious professionals, working moms\n\n---\n\n## Positioning\n\n### Current Headline\n> Product & Engineering @ Kilo Code | Turning AI Spend into Engineer",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "LinkedIn Authority Strategy: 70K \u2192 100K Monthly Views\n## LinkedIn Authority Stra\u2026",
+          "title": "LinkedIn Authority Strategy: 70K → 100K Monthly Views\n## LinkedIn Authority Stra…",
           "url": "https://github.com/chad-kiloclaw/sandbox/issues/1",
           "date": "2026-03-21",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "AI Engineer Notebooks \u2013 free, framework-free RAG/agents/evals on Colab",
+      "text": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI Engineer Notebooks \u2013 free, framework-free RAG/agents/evals on Colab",
+          "title": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
           "url": "https://github.com/calmrocks/ai-engineer-notebooks",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -737,13 +687,13 @@
     },
     {
       "id": "l535",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "Skyportal SRE \u2013 an open-source AI infrastructure engineer",
+      "text": "Skyportal SRE – an open-source AI infrastructure engineer",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Skyportal SRE \u2013 an open-source AI infrastructure engineer",
+          "title": "Skyportal SRE – an open-source AI infrastructure engineer",
           "url": "https://github.com/SkyportalAi/skyportalai",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1031,13 +981,13 @@
     },
     {
       "id": "l549",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1052,13 +1002,13 @@
     },
     {
       "id": "l550",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1079,7 +1029,7 @@
       "sources": [
         {
           "publisher": "jobs",
-          "title": "Careers at ShipIn | Join the Maritime AI Revolution\nBuild the future of maritime\u2026",
+          "title": "Careers at ShipIn | Join the Maritime AI Revolution\nBuild the future of maritime…",
           "url": "https://www.shipin.ai/careers",
           "date": "",
           "whatItMeasured": "last30days L5 practitioner discourse (jobs); retrieved 2026-08-29"
@@ -1100,7 +1050,7 @@
       "sources": [
         {
           "publisher": "jobs",
-          "title": "Ai Engineer Jobs (with Salaries) - SEEK\nFind your ideal job at SEEK with 1206 Ai\u2026",
+          "title": "Ai Engineer Jobs (with Salaries) - SEEK\nFind your ideal job at SEEK with 1206 Ai…",
           "url": "https://au.seek.com/ai-engineer-jobs",
           "date": "",
           "whatItMeasured": "last30days L5 practitioner discourse (jobs); retrieved 2026-08-29"
@@ -1121,7 +1071,7 @@
       "sources": [
         {
           "publisher": "jobs",
-          "title": "Ship Engineers Jobs in Australia (1,000+ Open Roles) | LinkedIn\nToday's top 1,00\u2026",
+          "title": "Ship Engineers Jobs in Australia (1,000+ Open Roles) | LinkedIn\nToday's top 1,00…",
           "url": "https://au.linkedin.com/jobs/ship-engineers-jobs",
           "date": "",
           "whatItMeasured": "last30days L5 practitioner discourse (jobs); retrieved 2026-08-29"
@@ -1142,7 +1092,7 @@
       "sources": [
         {
           "publisher": "jobs",
-          "title": "2026 Best Remote Jobs - Fully Remote Companies Hiring\nFlexJobs Has 100% Verified\u2026",
+          "title": "2026 Best Remote Jobs - Fully Remote Companies Hiring\nFlexJobs Has 100% Verified…",
           "url": "https://duckduckgo.com/y.js?ad_domain=flexjobs.com&ad_provider=bingv7aa&ad_type=txad&click_metadata=5xmAxiHG9LNNloP6tRKw9ArZr8mLl5r3AD7503Ht57Mu0khyxtdTRnEHSvvOyYHVf4roybTJhhPzrWmlohTk3csHj59R4KMafKDbmqOdhk0MyQoWGhyB_C%2DCVi7fjrkfDLflEKJE0nqy6u1lSc4UBgKmMwA5pVQ6_bKO8w4Q9b0.wmZFJir5eD9jglGgamhhzA&rut=013424a5e9f46d2d916597f4f9997883f7ca8965e8cfcd0394b3c08ba6fdb541&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8pPb6fXt_tWI1wgQvLxshaDVUCUxSUPpAhLHIu6NdoxZNZ8HGz9F8IG6z2fgQvzF5hlSZ4dA2oUnrBmLz9ZUUfFwHpfLt1A9IhY3uz4KOWqF0YyCyyXdQJzUORrZ23s8SfjK6UUUpH_KifUrQG4%2DpkyvQs79L21clTn_c7eJWRNDkIo0NEkLvW12R3DE51vNCDarbJoSmK6wIYHMBzKyeK1dZ5Wc%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cuZmxleGpvYnMuY29tJTJmbHAlMmZyZW1vdGUtam9iczElM2ZuZXR3b3JrJTNkcyUyNmRldmljZSUzZGMlMjZhZHBvc2l0aW9uJTNkJTI2YWRncm91cGlkJTNkMTI2ODgzODA2NTAyNDM2MCUyNnBsYWNlbWVudCUzZCUyNmFkaWQlM2QlMjZtc2Nsa2lkJTNkNDI0ODM1OTk0ZjA4MWIwNmVmZWQ1ZjBiNWFhNTVmMjIlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2QlMjU1QnNlYXJjaCUyNTVEJTI1MjBjYW4lMjUyRnVrJTI1MkZhdXMlMjUyRm56X25iX3dmaF9iZXRhJTI2dXRtX3Rlcm0lM2RmaW5kYWpvYiUyNnV0bV9jb250ZW50JTNkd29yayUyNTIwZnJvbSUyNTJGYXQlMjUyMGhvbWU%26rlid%3D424835994f081b06efed5f0b5aa55f22&vqd=4-169070484170584817708326771537218920878&iurl=%7B1%7DIG%3DCF0DFB58C82947E6A5D5942C0DBAD8F6%26CID%3D18C446A1CD4163473BFD5162CC87623E%26ID%3DDevEx%2C5042.1",
           "date": "",
           "whatItMeasured": "last30days L5 practitioner discourse (jobs); retrieved 2026-08-29"
@@ -1163,7 +1113,7 @@
       "sources": [
         {
           "publisher": "jobs",
-          "title": "Ship Engineering Jobs in All Melbourne VIC - Jun 2026 | SEEK\nFind your ideal job\u2026",
+          "title": "Ship Engineering Jobs in All Melbourne VIC - Jun 2026 | SEEK\nFind your ideal job…",
           "url": "https://au.seek.com/ship-engineering-jobs/in-All-Melbourne-VIC",
           "date": "",
           "whatItMeasured": "last30days L5 practitioner discourse (jobs); retrieved 2026-08-29"
@@ -1184,7 +1134,7 @@
       "sources": [
         {
           "publisher": "jobs",
-          "title": "Ship Engineer Jobs (with Salaries) - SEEK\nFind your ideal job at SEEK with 3244 \u2026",
+          "title": "Ship Engineer Jobs (with Salaries) - SEEK\nFind your ideal job at SEEK with 3244 …",
           "url": "https://au.seek.com/ship-engineer-jobs",
           "date": "",
           "whatItMeasured": "last30days L5 practitioner discourse (jobs); retrieved 2026-08-29"
@@ -1205,7 +1155,7 @@
       "sources": [
         {
           "publisher": "jobs",
-          "title": "Ship'S Engineer Jobs (with Salaries) - SEEK\nFind your ideal job at SEEK with 853\u2026",
+          "title": "Ship'S Engineer Jobs (with Salaries) - SEEK\nFind your ideal job at SEEK with 853…",
           "url": "https://au.seek.com/ship's-engineer-jobs",
           "date": "",
           "whatItMeasured": "last30days L5 practitioner discourse (jobs); retrieved 2026-08-29"
@@ -1226,7 +1176,7 @@
       "sources": [
         {
           "publisher": "jobs",
-          "title": "122 Ship Engineer jobs in Melbourne - LinkedIn\nToday's top 122 Ship Engineer job\u2026",
+          "title": "122 Ship Engineer jobs in Melbourne - LinkedIn\nToday's top 122 Ship Engineer job…",
           "url": "https://www.linkedin.com/jobs/ship-engineer-jobs-melbourne-vic",
           "date": "",
           "whatItMeasured": "last30days L5 practitioner discourse (jobs); retrieved 2026-08-29"
@@ -1247,7 +1197,7 @@
       "sources": [
         {
           "publisher": "jobs",
-          "title": "541 Ship Engineer jobs in Australia - LinkedIn\nToday's top 541 Ship Engineer job\u2026",
+          "title": "541 Ship Engineer jobs in Australia - LinkedIn\nToday's top 541 Ship Engineer job…",
           "url": "https://au.linkedin.com/jobs/ship-engineer-jobs",
           "date": "",
           "whatItMeasured": "last30days L5 practitioner discourse (jobs); retrieved 2026-08-29"
@@ -1268,7 +1218,7 @@
       "sources": [
         {
           "publisher": "jobs",
-          "title": "Job Search Australia - Find Your Dream Job Today!\nQuickly search more than 200k \u2026",
+          "title": "Job Search Australia - Find Your Dream Job Today!\nQuickly search more than 200k …",
           "url": "https://duckduckgo.com/y.js?ad_domain=jobsearch.com.au&ad_provider=bingv7aa&ad_type=txad&click_metadata=1G5MYMNPQgrEO3tpzM9vvFi_uG%2DfDFMptJXwmU0%2D04C2DL180_biJibP3MGqxT2ElXKTvAnKI1IHsnunXW_wrqfjeKhCm%2DUBd8JI1iUYsdrcYfK%2Dqkv9nJhqII3ZZud6tg9QGvIghIWPdGAQ4DuNyjv_82Z2kAL8NHgAUGACaVU.Q3jv0Wgsox9hEWOb6FyEYA&rut=2602b49a6169a0b7028f3ab33b5b0bcdbcd5d5c58008c677644e796f870b2d7e&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8%2DMSwgb3e7hOkFtbZAa%2DJ5zVUCUzPzo7OMWh0mg_xU%2DgJzqXb4t8hpQG_y8Vzg9uVfqd2MT8ctC9JYrJ6maWryfnuPkmrHrErAyK%2DOaL%2D0XDTytwh6V97L1T3jF5h98GHg5mFIA7FkI_7Od2EKDz3E0QrQWNBpaP52dAC4oe4NrWcErJh%2DpcQi3BR7hb%2DruAoVpb6Nyk19kqJaEqoNFdUwI3UQqI%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cuam9ic2VhcmNoLmNvbS5hdSUyZiUzZnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZGJpbmclMjZtc2Nsa2lkJTNkOGU2MTkyNmY4YTVkMTQ0MTMxZTZmOGZkOWZmMGFlYWI%26rlid%3D8e61926f8a5d144131e6f8fd9ff0aeab&vqd=4-147163657585620039892011869138297696952&iurl=%7B1%7DIG%3DCF0DFB58C82947E6A5D5942C0DBAD8F6%26CID%3D18C446A1CD4163473BFD5162CC87623E%26ID%3DDevEx%2C5037.1",
           "date": "",
           "whatItMeasured": "last30days L5 practitioner discourse (jobs); retrieved 2026-08-29"
@@ -1283,13 +1233,13 @@
     },
     {
       "id": "l561",
-      "text": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Rank 5 Captain Zhiagii scrabbled against the deck as the ship shook around him. The Good Pheromone had only been commissioned last year. The new ship was state-of-the-art for a light cruiser. Premium shielding modules, revamped power-routing systems, and boosted acceleration profiles were the specs he had picked that set it above the rest. And now, somewhere near the front of the ship, several decks were exposed to spa\u2026",
+      "text": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Rank 5 Captain Zhiagii scrabbled against the deck as the ship shook around him. The Good Pheromone had only been commissioned last year. The new ship was state-of-the-art for a light cruiser. Premium shielding modules, revamped power-routing systems, and boosted acceleration profiles were the specs he had picked that set it above the rest. And now, somewhere near the front of the ship, several decks were exposed to spa…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Ra\u2026",
+          "title": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Ra…",
           "url": "https://www.reddit.com/r/HFY/comments/1vwpkvz/the_human_artificial_hivemind_part_641_a_new_set/",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1304,13 +1254,13 @@
     },
     {
       "id": "l562",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult…",
           "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1325,13 +1275,13 @@
     },
     {
       "id": "l563",
-      "text": "\u201cAI slop\u201d is becoming a meaningless label when people use it for anything AI-assisted\nThere is a difference between criticizing bad generated output and treating the mere use of AI as proof that something is bad. That distinction is disappearing. A one-shot prompt that produces a brittle app full of fake functionality is slop. Fine. A developer using ChatGPT/Codex/agents to accelerate implementation while still controlling architecture, reviewing diffs, writing tests, validating security and deb\u2026",
+      "text": "“AI slop” is becoming a meaningless label when people use it for anything AI-assisted\nThere is a difference between criticizing bad generated output and treating the mere use of AI as proof that something is bad. That distinction is disappearing. A one-shot prompt that produces a brittle app full of fake functionality is slop. Fine. A developer using ChatGPT/Codex/agents to accelerate implementation while still controlling architecture, reviewing diffs, writing tests, validating security and deb…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "\u201cAI slop\u201d is becoming a meaningless label when people use it for anything AI-ass\u2026",
+          "title": "“AI slop” is becoming a meaningless label when people use it for anything AI-ass…",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vnpf50/ai_slop_is_becoming_a_meaningless_label_when/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1346,13 +1296,13 @@
     },
     {
       "id": "l564",
-      "text": "Hierarchos Alpha v0.30: Toward a Vulkan-Native Recurrent AI Stack for Training, Inference, Memory, and Adaptive Computation\nMost modern language-model research assumes two things at once: a Transformer-like architecture and a CUDA-centered software stack. Hierarchos is an experiment in questioning both assumptions. Hierarchos is a recurrent, memory-augmented language-model architecture combining an RWKV-derived neural backbone, hierarchical Manager/Worker computation, adaptive computation time, \u2026",
+      "text": "Hierarchos Alpha v0.30: Toward a Vulkan-Native Recurrent AI Stack for Training, Inference, Memory, and Adaptive Computation\nMost modern language-model research assumes two things at once: a Transformer-like architecture and a CUDA-centered software stack. Hierarchos is an experiment in questioning both assumptions. Hierarchos is a recurrent, memory-augmented language-model architecture combining an RWKV-derived neural backbone, hierarchical Manager/Worker computation, adaptive computation time, …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Hierarchos Alpha v0.30: Toward a Vulkan-Native Recurrent AI Stack for Training, \u2026",
+          "title": "Hierarchos Alpha v0.30: Toward a Vulkan-Native Recurrent AI Stack for Training, …",
           "url": "https://www.reddit.com/r/ROCm/comments/1w0kepb/hierarchos_alpha_v030_toward_a_vulkannative/",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1367,13 +1317,13 @@
     },
     {
       "id": "l565",
-      "text": "AI-Assisted Writing is already here, myStar Trek TNG episode\nHello, I thought I&#39;d share this piece that could not have been done without Gemini/ChatGPT/Grok editing. Since April 19th, AI has allowed me to get all these ideas (290 writings, see Substack link in profile) that have been in my head for decades. It really does take out the friction and the output is like a Big Bang. I have run into the usual &quot;AI Slop&quot; and other pushback in other subreddits, but many of my pieces have fo\u2026",
+      "text": "AI-Assisted Writing is already here, myStar Trek TNG episode\nHello, I thought I&#39;d share this piece that could not have been done without Gemini/ChatGPT/Grok editing. Since April 19th, AI has allowed me to get all these ideas (290 writings, see Substack link in profile) that have been in my head for decades. It really does take out the friction and the output is like a Big Bang. I have run into the usual &quot;AI Slop&quot; and other pushback in other subreddits, but many of my pieces have fo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI-Assisted Writing is already here, myStar Trek TNG episode\nHello, I thought I&\u2026",
+          "title": "AI-Assisted Writing is already here, myStar Trek TNG episode\nHello, I thought I&…",
           "url": "https://www.reddit.com/r/WritingWithAI/comments/1vhb455/aiassisted_writing_is_already_here_mystar_trek/",
           "date": "2026-08-06",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1388,13 +1338,13 @@
     },
     {
       "id": "l566",
-      "text": "BAI_AGI framed the shift cleanly: AI is changing how we build, and the stack should live in one place.\n\nCode, creative work, frontier models, and production APIs only compound when the path from prompt to shipment is short. \n\nhttps://t.co/vl0CaU8bMl\u2019s pitch is that gateway\u2014wallet-native access, model choice, and interfaces meant for agents that call tools all day. \n\nFaster building is the claim. Reliable inference plus settlement is the test.\nThat is where TRON belongs in the picture. \n\nAgents n",
+      "text": "BAI_AGI framed the shift cleanly: AI is changing how we build, and the stack should live in one place.\n\nCode, creative work, frontier models, and production APIs only compound when the path from prompt to shipment is short. \n\nhttps://t.co/vl0CaU8bMl’s pitch is that gateway—wallet-native access, model choice, and interfaces meant for agents that call tools all day. \n\nFaster building is the claim. Reliable inference plus settlement is the test.\nThat is where TRON belongs in the picture. \n\nAgents n",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "BAI_AGI framed the shift cleanly: AI is changing how we build, and the stack sho\u2026",
+          "title": "BAI_AGI framed the shift cleanly: AI is changing how we build, and the stack sho…",
           "url": "https://x.com/francis_cgl/status/2093421071185973478",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1409,13 +1359,13 @@
     },
     {
       "id": "l567",
-      "text": "Most teams already have access to AI. Using it more isn't the same as changing how work gets done.\n\nThat's the shift ODSC AI NYC: AI for Work Summit is built around \u2014 two days in New York City this December on moving from AI assistance to AI delegation.\n\nAcross 30+ sessions and hands-on workshops:\n- You build \u2192 Ship reliable agents, evals, and RAG in production\n- You apply \u2192 Delegate a real task from your backlog \u2014 no code required \u2014 and leave with a working automation\n- You lead \u2192 Build the gov",
+      "text": "Most teams already have access to AI. Using it more isn't the same as changing how work gets done.\n\nThat's the shift ODSC AI NYC: AI for Work Summit is built around — two days in New York City this December on moving from AI assistance to AI delegation.\n\nAcross 30+ sessions and hands-on workshops:\n- You build → Ship reliable agents, evals, and RAG in production\n- You apply → Delegate a real task from your backlog — no code required — and leave with a working automation\n- You lead → Build the gov",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Most teams already have access to AI. Using it more isn't the same as changing h\u2026",
+          "title": "Most teams already have access to AI. Using it more isn't the same as changing h…",
           "url": "https://x.com/_odsc/status/2093429414952366481",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1478,7 +1428,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Grok Bot + Kimi K3: How to Build an AI System That Stops Waiting for Your Next P\u2026",
+          "title": "Grok Bot + Kimi K3: How to Build an AI System That Stops Waiting for Your Next P…",
           "url": "https://x.com/leopardracer/status/2093282462491091301",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1577,13 +1527,13 @@
     },
     {
       "id": "l575",
-      "text": "Psychohistory for the Age of\u00a0AI",
+      "text": "Psychohistory for the Age of AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Psychohistory for the Age of\u00a0AI",
+          "title": "Psychohistory for the Age of AI",
           "url": "https://x.com/sebastian_rtj/status/2092335283492544791",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1667,7 +1617,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "i think agents are too many degrees of freedom for the average professional. wha\u2026",
+          "title": "i think agents are too many degrees of freedom for the average professional. wha…",
           "url": "https://x.com/ofcAkshat/status/2085023868184657987",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1682,13 +1632,13 @@
     },
     {
       "id": "l580",
-      "text": "What To Do if You\u2019ve Been Replaced by AI at Work",
+      "text": "What To Do if You’ve Been Replaced by AI at Work",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "What To Do if You\u2019ve Been Replaced by AI at Work",
+          "title": "What To Do if You’ve Been Replaced by AI at Work",
           "url": "https://x.com/blocmates/status/2076985533839159618",
           "date": "2026-07-14",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1709,7 +1659,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "A few million $$$$ in the bank later, here's what I've learned selling AI in the\u2026",
+          "title": "A few million $$$$ in the bank later, here's what I've learned selling AI in the…",
           "url": "https://x.com/ofcAkshat/status/2086080888488558872",
           "date": "2026-08-08",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1745,13 +1695,13 @@
     },
     {
       "id": "l583",
-      "text": "@JesseRank And what an amazing world that could be\u2026 we need to have a new mental model around AI",
+      "text": "@JesseRank And what an amazing world that could be… we need to have a new mental model around AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@JesseRank And what an amazing world that could be\u2026 we need to have a new mental\u2026",
+          "title": "@JesseRank And what an amazing world that could be… we need to have a new mental…",
           "url": "https://x.com/SVenkatachalam/status/2079965749121351747",
           "date": "2026-07-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1787,13 +1737,13 @@
     },
     {
       "id": "l585",
-      "text": "How to Start a 6\u20137 Figure Solo AI Business in 2026 (Full Guide)",
+      "text": "How to Start a 6–7 Figure Solo AI Business in 2026 (Full Guide)",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "How to Start a 6\u20137 Figure Solo AI Business in 2026 (Full Guide)",
+          "title": "How to Start a 6–7 Figure Solo AI Business in 2026 (Full Guide)",
           "url": "https://x.com/exploraX_/status/2055559252744290358",
           "date": "2026-05-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1856,7 +1806,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Harness and Loop Engineering: The Two-Layer Architecture of AI Agent Engineering\u2026",
+          "title": "Harness and Loop Engineering: The Two-Layer Architecture of AI Agent Engineering…",
           "url": "https://x.com/huxlab/status/2072942926263668990",
           "date": "2026-07-03",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1877,7 +1827,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Welcome to Tokenomics. Tesla says $200/week. Uber says $1,500/month. What's the \u2026",
+          "title": "Welcome to Tokenomics. Tesla says $200/week. Uber says $1,500/month. What's the …",
           "url": "https://x.com/amitpaka/status/2076714594454949978",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1892,13 +1842,13 @@
     },
     {
       "id": "l590",
-      "text": "How to Become an AI Freelancer Charging $200/hour This Year  \u2014 The Complete Guide.",
+      "text": "How to Become an AI Freelancer Charging $200/hour This Year  — The Complete Guide.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "How to Become an AI Freelancer Charging $200/hour This Year  \u2014 The Complete Guid\u2026",
+          "title": "How to Become an AI Freelancer Charging $200/hour This Year  — The Complete Guid…",
           "url": "https://x.com/eng_khairallah1/status/2042533237944397864",
           "date": "2026-04-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1913,13 +1863,13 @@
     },
     {
       "id": "l591",
-      "text": "The Insane Complexity of the Semiconductor Global Supply Chain\nCheck out Genspark, an All-in-one AI Workspace that hit $250M ARR in just 12 months. New users can get a sign-up bonus + GetStarted bonus.\n\nhttps://www.genspark.ai/?utm_source=yt&utm_campaign=Micro\n\n#Genspark #WorkwithGenspark\n@GensparkProduct \n\n*********\nI'm on Spotify \ud83d\udc49 https://open.spotify.com/show/0qSzwHHHo7Hx9QbvzKHQAy?si=l9gQx_T6Tbuh2Kz84O-eng\n\n*******\n\nChapter Breakdown\n\n00:00 Intro\n02:20 Base Components\n06:57 Sponsor\n08:10 Th\u2026",
+      "text": "The Insane Complexity of the Semiconductor Global Supply Chain\nCheck out Genspark, an All-in-one AI Workspace that hit $250M ARR in just 12 months. New users can get a sign-up bonus + GetStarted bonus.\n\nhttps://www.genspark.ai/?utm_source=yt&utm_campaign=Micro\n\n#Genspark #WorkwithGenspark\n@GensparkProduct \n\n*********\nI'm on Spotify 👉 https://open.spotify.com/show/0qSzwHHHo7Hx9QbvzKHQAy?si=l9gQx_T6Tbuh2Kz84O-eng\n\n*******\n\nChapter Breakdown\n\n00:00 Intro\n02:20 Base Components\n06:57 Sponsor\n08:10 Th…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Insane Complexity of the Semiconductor Global Supply Chain\nCheck out Genspar\u2026",
+          "title": "The Insane Complexity of the Semiconductor Global Supply Chain\nCheck out Genspar…",
           "url": "https://www.youtube.com/watch?v=Gj5liYnpTeM",
           "date": "2026-05-23",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1934,13 +1884,13 @@
     },
     {
       "id": "l592",
-      "text": "Dylan Patel \u2013 Two labs will soon control most of the world's workforce\nHad a lot of fun chatting again with my twin brother Dylan Patel.\n\nWe went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world\u2019s usable FLOPs within the next few years (because they can monetize compute better and thus outbid everyone).\n\nAnd then we discuss whether the $10T+ of total AI capex we\u2019ll see by\u2026",
+      "text": "Dylan Patel – Two labs will soon control most of the world's workforce\nHad a lot of fun chatting again with my twin brother Dylan Patel.\n\nWe went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world’s usable FLOPs within the next few years (because they can monetize compute better and thus outbid everyone).\n\nAnd then we discuss whether the $10T+ of total AI capex we’ll see by…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Dylan Patel \u2013 Two labs will soon control most of the world's workforce\nHad a lot\u2026",
+          "title": "Dylan Patel – Two labs will soon control most of the world's workforce\nHad a lot…",
           "url": "https://www.youtube.com/watch?v=aV26V1UvkJw",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1955,13 +1905,13 @@
     },
     {
       "id": "l593",
-      "text": "The Double Disruption : The Real Reason Agile Is Breaking in the AI Era\nEvery Agile ceremony you run was built on one assumption \u2014 that human effort is the unit of production. AI just broke it.\n\nIn 2001, seventeen software engineers got together and wrote twelve principles that became the Agile Manifesto. It was a real leap forward from waterfall delivery \u2014 plan less, adapt more, ship working software instead of documents nobody reads. Enterprises spent the better part of the next two decades tr\u2026",
+      "text": "The Double Disruption : The Real Reason Agile Is Breaking in the AI Era\nEvery Agile ceremony you run was built on one assumption — that human effort is the unit of production. AI just broke it.\n\nIn 2001, seventeen software engineers got together and wrote twelve principles that became the Agile Manifesto. It was a real leap forward from waterfall delivery — plan less, adapt more, ship working software instead of documents nobody reads. Enterprises spent the better part of the next two decades tr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Double Disruption : The Real Reason Agile Is Breaking in the AI Era\nEvery Ag\u2026",
+          "title": "The Double Disruption : The Real Reason Agile Is Breaking in the AI Era\nEvery Ag…",
           "url": "https://www.youtube.com/watch?v=rsuIfKsRuzc",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1976,13 +1926,13 @@
     },
     {
       "id": "l594",
-      "text": "Claude just got another superpower...\nRun any code on Google\u2019s world-class infrastructure - https://cloud.run. Get 2 million free requests per month\n\nClaude Design could be Anthropic's most disruptive tool since Claude Code. But can their new Opus 4.7 powered platform really turn your half-baked Figma wireframe into a production ready UI? Let's run it.\n\n#coding #programming\n\n\ud83d\udd16 Topics Covered\n- What is Claude Design\n- Claude Design vs Figma vs Adobe\n- Claude Design demo\n\nWant more Fireship?\n\n\ud83d\uddde\ufe0f N\u2026",
+      "text": "Claude just got another superpower...\nRun any code on Google’s world-class infrastructure - https://cloud.run. Get 2 million free requests per month\n\nClaude Design could be Anthropic's most disruptive tool since Claude Code. But can their new Opus 4.7 powered platform really turn your half-baked Figma wireframe into a production ready UI? Let's run it.\n\n#coding #programming\n\n🔖 Topics Covered\n- What is Claude Design\n- Claude Design vs Figma vs Adobe\n- Claude Design demo\n\nWant more Fireship?\n\n🗞️ N…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Claude just got another superpower...\nRun any code on Google\u2019s world-class infra\u2026",
+          "title": "Claude just got another superpower...\nRun any code on Google’s world-class infra…",
           "url": "https://www.youtube.com/watch?v=jeA-KBv0b68",
           "date": "2026-04-21",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1997,13 +1947,13 @@
     },
     {
       "id": "l595",
-      "text": "The Future of SMART Vessels: AI & Marine Diesel Engines\nIn this video, we dive deep into the intersection of artificial intelligence and the maritime industry, focusing specifically on my recent literature review: \"Fault Detection in Tugboat Marine Diesel Engines Through the Application of Machine Learning.\"\n\n\ud83d\udc49 Read the full Technical White Paper on my blog here: https://github.com/RafaPieper/Fault_Detection_Marine_Engines_Review/blob/main/Paper-Machine%20Learning%20Review%20for%20ship%20mainten\u2026",
+      "text": "The Future of SMART Vessels: AI & Marine Diesel Engines\nIn this video, we dive deep into the intersection of artificial intelligence and the maritime industry, focusing specifically on my recent literature review: \"Fault Detection in Tugboat Marine Diesel Engines Through the Application of Machine Learning.\"\n\n👉 Read the full Technical White Paper on my blog here: https://github.com/RafaPieper/Fault_Detection_Marine_Engines_Review/blob/main/Paper-Machine%20Learning%20Review%20for%20ship%20mainten…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Future of SMART Vessels: AI & Marine Diesel Engines\nIn this video, we dive d\u2026",
+          "title": "The Future of SMART Vessels: AI & Marine Diesel Engines\nIn this video, we dive d…",
           "url": "https://www.youtube.com/watch?v=YdfIqsiNv_Y",
           "date": "2026-04-13",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2018,13 +1968,13 @@
     },
     {
       "id": "l596",
-      "text": "Claude Mythos is too dangerous for public consumption...\nBrowserbase is the simplest way to give your agents access to the whole web. Try it for free - https://browserbase.run/fireship\n\nAnthropic locked down their new Mythos model because they say it's too dangerous for normies like you and me to use. Let's investigate...\n\n#mythos #ai #programming #claude \n\nResources:\nhttps://www.trendmicro.com/en_us/research/26/c/axios-npm-package-compromised.html\n\nWant more Fireship?\n\n\ud83d\uddde\ufe0f Newsletter: https://by\u2026",
+      "text": "Claude Mythos is too dangerous for public consumption...\nBrowserbase is the simplest way to give your agents access to the whole web. Try it for free - https://browserbase.run/fireship\n\nAnthropic locked down their new Mythos model because they say it's too dangerous for normies like you and me to use. Let's investigate...\n\n#mythos #ai #programming #claude \n\nResources:\nhttps://www.trendmicro.com/en_us/research/26/c/axios-npm-package-compromised.html\n\nWant more Fireship?\n\n🗞️ Newsletter: https://by…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Claude Mythos is too dangerous for public consumption...\nBrowserbase is the simp\u2026",
+          "title": "Claude Mythos is too dangerous for public consumption...\nBrowserbase is the simp…",
           "url": "https://www.youtube.com/watch?v=d3Qq-rkp_to",
           "date": "2026-04-10",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2039,13 +1989,13 @@
     },
     {
       "id": "l597",
-      "text": "Ship AI Products Users Pay For: The 7-Step Framework That Killed 83% of GPT Wrappers\nReal AI products solve workflow problems with deterministic systems wrapped around LLMs, not chat interfaces with thin prompts\n\nhttps://atlassignal.in\nhttps://x.com/atlassignaldesk\n\n. The difference between failure and $50K MRR is systematic evaluation, failure mode handling, and measuring business metrics\u2014not model performance. In this breakdown: Ship AI Products Users Pay For: The 7-Step Framework That Killed \u2026",
+      "text": "Ship AI Products Users Pay For: The 7-Step Framework That Killed 83% of GPT Wrappers\nReal AI products solve workflow problems with deterministic systems wrapped around LLMs, not chat interfaces with thin prompts\n\nhttps://atlassignal.in\nhttps://x.com/atlassignaldesk\n\n. The difference between failure and $50K MRR is systematic evaluation, failure mode handling, and measuring business metrics—not model performance. In this breakdown: Ship AI Products Users Pay For: The 7-Step Framework That Killed …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Ship AI Products Users Pay For: The 7-Step Framework That Killed 83% of GPT Wrap\u2026",
+          "title": "Ship AI Products Users Pay For: The 7-Step Framework That Killed 83% of GPT Wrap…",
           "url": "https://www.youtube.com/watch?v=EZG_n637Afg",
           "date": "2026-06-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2060,13 +2010,13 @@
     },
     {
       "id": "l598",
-      "text": "Ship, Don\u2019t Flinch: Navigate 12 Months of AI Upheaval\nCreator/teacher George Blackman's @GeorgeBlackmanYT  thoughts on AI we will cover: Explore AI\u2019s \u201cflattening\u201d of skills, hybrid careers, and the fear that moats are vanishing. Through a cultural vignette about a well-known photographer\u2019s AI panic, I argue for calibrating anxiety to actual expertise, focusing on 12-month survival over five-year plans, and letting our identities soften across disciplines so we can become unique blends.\n\nOn the b\u2026",
+      "text": "Ship, Don’t Flinch: Navigate 12 Months of AI Upheaval\nCreator/teacher George Blackman's @GeorgeBlackmanYT  thoughts on AI we will cover: Explore AI’s “flattening” of skills, hybrid careers, and the fear that moats are vanishing. Through a cultural vignette about a well-known photographer’s AI panic, I argue for calibrating anxiety to actual expertise, focusing on 12-month survival over five-year plans, and letting our identities soften across disciplines so we can become unique blends.\n\nOn the b…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Ship, Don\u2019t Flinch: Navigate 12 Months of AI Upheaval\nCreator/teacher George Bla\u2026",
+          "title": "Ship, Don’t Flinch: Navigate 12 Months of AI Upheaval\nCreator/teacher George Bla…",
           "url": "https://www.youtube.com/watch?v=waBs8I5vZFg",
           "date": "2026-03-06",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -2137,6 +2087,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

@@ -19,58 +19,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "13-1071-01",
-      "text": "National peak professional bodies and statutory regulators governing Employment, Recruitment, and Placement Specialists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Employment, Recruitment, and Placement Specialists",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Employment, Recruitment, and Placement Specialists",
-          "url": "https://www.psc.gov.au/standards/13-1071",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Employment, Recruitment, and Placement Specialists"
-        }
-      ],
-      "scope": "Australian practitioners in Employment, Recruitment, and Placement Specialists across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "13-1071-02",
-      "text": "Automation of routine transactional and analytical tasks in Employment, Recruitment, and Placement Specialists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Employment, Recruitment, and Placement Specialists",
-          "url": "https://www.jobsandskills.gov.au/research/13-1071",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Employment, Recruitment, and Placement Specialists in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Employment, Recruitment, and Placement Specialists roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Recruitment Advisor \u2014 J & P Richardson Industries (Brisbane, Queensland, Australia). Posted 5 days ago.",
+      "text": "Recruitment Advisor — J & P Richardson Industries (Brisbane, Queensland, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -91,7 +41,7 @@
     },
     {
       "id": "l404",
-      "text": "Talent Acquisition Advisor \u2014 CMC (Brisbane, Queensland, Australia). Posted 1 day ago.",
+      "text": "Talent Acquisition Advisor — CMC (Brisbane, Queensland, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -112,7 +62,7 @@
     },
     {
       "id": "l405",
-      "text": "Senior Recruitment Advisor \u2014 MEC (Perth, Western Australia, Australia). Posted 1 day ago.",
+      "text": "Senior Recruitment Advisor — MEC (Perth, Western Australia, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -133,7 +83,7 @@
     },
     {
       "id": "l406",
-      "text": "Talent Acquisition Partner \u2014 OCU (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Talent Acquisition Partner — OCU (Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -154,7 +104,7 @@
     },
     {
       "id": "l407",
-      "text": "Talent Acquisition Specialist \u2014 JB Hi-Fi (Southbank, Victoria, Australia). Posted 1 week ago.",
+      "text": "Talent Acquisition Specialist — JB Hi-Fi (Southbank, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -175,7 +125,7 @@
     },
     {
       "id": "l408",
-      "text": "Senior Recruitment Advisor \u2014 MEC (Western Australia, Australia). Posted 1 day ago.",
+      "text": "Senior Recruitment Advisor — MEC (Western Australia, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -196,7 +146,7 @@
     },
     {
       "id": "l409",
-      "text": "Recruitment Advisor \u2014 GenusPlus Group (Perth, Western Australia, Australia). Posted 3 weeks ago.",
+      "text": "Recruitment Advisor — GenusPlus Group (Perth, Western Australia, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -217,7 +167,7 @@
     },
     {
       "id": "l410",
-      "text": "Recruitment Specialist - White Collar \u2014 Monadelphous (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Recruitment Specialist - White Collar — Monadelphous (Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -238,7 +188,7 @@
     },
     {
       "id": "l411",
-      "text": "Talent Acquisition Specialist \u2014 Hatch (Melbourne, Victoria, Australia). Posted 1 month ago.",
+      "text": "Talent Acquisition Specialist — Hatch (Melbourne, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -259,7 +209,7 @@
     },
     {
       "id": "l412",
-      "text": "Talent Acquisition Business Partner \u2014 VetPartners Australia and New Zealand (Gold Coast, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Talent Acquisition Business Partner — VetPartners Australia and New Zealand (Gold Coast, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -280,13 +230,13 @@
     },
     {
       "id": "l513",
-      "text": "Robot Employment Model and Job Cards\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\nThe Jobs headline was already right. This locks the operating model: ReadyForRobots is recruitment and placement infrastructure for robotic labor. The unit of value is the Robot Job, not a lead.\n\n- Canonical model: `docs/robot_employment_model.md`\n- Expanded Jobs\n[vc]: #sh16O7T5lvAmvlDOGjIDmzCnkzjk1RMp7QFd4TeWZIw=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJyZWFkeS1mb3Itcm9ib3RzIiwicHJvamVjdEl\u2026",
+      "text": "Robot Employment Model and Job Cards\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\nThe Jobs headline was already right. This locks the operating model: ReadyForRobots is recruitment and placement infrastructure for robotic labor. The unit of value is the Robot Job, not a lead.\n\n- Canonical model: `docs/robot_employment_model.md`\n- Expanded Jobs\n[vc]: #sh16O7T5lvAmvlDOGjIDmzCnkzjk1RMp7QFd4TeWZIw=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJyZWFkeS1mb3Itcm9ib3RzIiwicHJvamVjdEl…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Robot Employment Model and Job Cards\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\nThe Job\u2026",
+          "title": "Robot Employment Model and Job Cards\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\nThe Job…",
           "url": "https://github.com/ugobe007/Ready_For_Robots/pull/97",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -301,13 +251,13 @@
     },
     {
       "id": "l514",
-      "text": "Recruitment Workflow \u2014 placement reassignment, Employees Ready, recommendations\n## What & why\n\nCompletes the frozen `docs/12-planning/recruitment-workflow-design.md` \u2014 the last decisions that\nwere still unbuilt after PR #84 merged: **RW1\u2013RW5** (placement stays editable until hire), the\n**Employees Ready** queue (A6), and bulk **Start now** (RW12).\n\n### Placement is a first-clas\n### Gap closure \u2014 I1, I15, I5, I3, and the audit's own find (I8/I11)\n\nThe remaining gaps against the frozen design, clo\u2026",
+      "text": "Recruitment Workflow — placement reassignment, Employees Ready, recommendations\n## What & why\n\nCompletes the frozen `docs/12-planning/recruitment-workflow-design.md` — the last decisions that\nwere still unbuilt after PR #84 merged: **RW1–RW5** (placement stays editable until hire), the\n**Employees Ready** queue (A6), and bulk **Start now** (RW12).\n\n### Placement is a first-clas\n### Gap closure — I1, I15, I5, I3, and the audit's own find (I8/I11)\n\nThe remaining gaps against the frozen design, clo…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Recruitment Workflow \u2014 placement reassignment, Employees Ready, recommendations\n\u2026",
+          "title": "Recruitment Workflow — placement reassignment, Employees Ready, recommendations\n…",
           "url": "https://github.com/egycashcompany-ops/egycash/pull/85",
           "date": "2026-07-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -322,13 +272,13 @@
     },
     {
       "id": "l515",
-      "text": "feat(employer): simplify recruitment assessment journey\nOwner-approved after a visual review of screens A\u2013G plus the identity, purpose and interview-notes corrections. This PR is presentation and read-model only.\n\n## Problem / root causes\n\nFive, and only the last is cosmetic.\n\n1. **The card that reported the work was not the control that opened it.** A c",
+      "text": "feat(employer): simplify recruitment assessment journey\nOwner-approved after a visual review of screens A–G plus the identity, purpose and interview-notes corrections. This PR is presentation and read-model only.\n\n## Problem / root causes\n\nFive, and only the last is cosmetic.\n\n1. **The card that reported the work was not the control that opened it.** A c",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(employer): simplify recruitment assessment journey\nOwner-approved after a v\u2026",
+          "title": "feat(employer): simplify recruitment assessment journey\nOwner-approved after a v…",
           "url": "https://github.com/cqrityjob/trust-path-recruitment/pull/121",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -349,7 +299,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: add Loomloom recruitment screening SkillBot example\n## Summary\n\n- adapt th\u2026",
+          "title": "feat: add Loomloom recruitment screening SkillBot example\n## Summary\n\n- adapt th…",
           "url": "https://github.com/msitarzewski/agency-agents/pull/754",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -370,7 +320,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "index.html\n<!-- ABOUT SECTION -->\n\n<section class=\"about\">\n\n<div class=\"containe\u2026",
+          "title": "index.html\n<!-- ABOUT SECTION -->\n\n<section class=\"about\">\n\n<div class=\"containe…",
           "url": "https://github.com/rudraconsultancyoffice/rc/issues/3",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -385,13 +335,13 @@
     },
     {
       "id": "l518",
-      "text": "Get on the agencies' databases, and ask the right door about CTP\nTwo routes that were being left to Harry by hand: getting his CV into the recruitment agencies' own databases, and CTP.\n\n## The agency register \u2014 `agency_outreach.py`, `data/agencies.json`\n\nThe pipeline only ever reaches agencies that advertised something in the last 48 hours, about the one role the",
+      "text": "Get on the agencies' databases, and ask the right door about CTP\nTwo routes that were being left to Harry by hand: getting his CV into the recruitment agencies' own databases, and CTP.\n\n## The agency register — `agency_outreach.py`, `data/agencies.json`\n\nThe pipeline only ever reaches agencies that advertised something in the last 48 hours, about the one role the",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Get on the agencies' databases, and ask the right door about CTP\nTwo routes that\u2026",
+          "title": "Get on the agencies' databases, and ask the right door about CTP\nTwo routes that…",
           "url": "https://github.com/harryrussell081203-dev/job-machine/pull/24",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -406,13 +356,13 @@
     },
     {
       "id": "l519",
-      "text": "ENDEAVOUR-v0.6.02-02A \u2014 Review current character record, dossier, appraisal, and service-history reality\n## Goal\n\nReview the current character record, dossier, appraisal, recruitment, employment, assignment, and service-history systems before designing character chronicle/background generation.\n\nThis is the required reality-check card for the Character chronicle, background, and legend generation paren",
+      "text": "ENDEAVOUR-v0.6.02-02A — Review current character record, dossier, appraisal, and service-history reality\n## Goal\n\nReview the current character record, dossier, appraisal, recruitment, employment, assignment, and service-history systems before designing character chronicle/background generation.\n\nThis is the required reality-check card for the Character chronicle, background, and legend generation paren",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "ENDEAVOUR-v0.6.02-02A \u2014 Review current character record, dossier, appraisal, and\u2026",
+          "title": "ENDEAVOUR-v0.6.02-02A — Review current character record, dossier, appraisal, and…",
           "url": "https://github.com/GALSOV/galsov-public-roadmap/issues/314",
           "date": "2026-07-05",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -595,13 +545,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -616,13 +566,13 @@
     },
     {
       "id": "l529",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -826,13 +776,13 @@
     },
     {
       "id": "l539",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -868,13 +818,13 @@
     },
     {
       "id": "l541",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -910,13 +860,13 @@
     },
     {
       "id": "l543",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -931,13 +881,13 @@
     },
     {
       "id": "l544",
-      "text": "I\u2019m Mariana McNally, a Tech & AI Recruiter for micro1. AMA\nhttps://preview.redd.it/xhdepn47xwlh1.png?width=2722&amp;format=png&amp;auto=webp&amp;s=66b3bac7f6cedf9d54cc2ca0dffd4a79e17f19c7 Hey y&#39;all! I&#39;m Mariana McNally ( u/delicious _pin_3875), and I&#39;ll be hosting an Ask Me Anything (AMA) here this Tuesday, September 1st at 12:00 PM UTC . You can start dropping your questions in the comments below right now! I&#39;ll be reading through them and answering live when the AMA kicks off o\u2026",
+      "text": "I’m Mariana McNally, a Tech & AI Recruiter for micro1. AMA\nhttps://preview.redd.it/xhdepn47xwlh1.png?width=2722&amp;format=png&amp;auto=webp&amp;s=66b3bac7f6cedf9d54cc2ca0dffd4a79e17f19c7 Hey y&#39;all! I&#39;m Mariana McNally ( u/delicious _pin_3875), and I&#39;ll be hosting an Ask Me Anything (AMA) here this Tuesday, September 1st at 12:00 PM UTC . You can start dropping your questions in the comments below right now! I&#39;ll be reading through them and answering live when the AMA kicks off o…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I\u2019m Mariana McNally, a Tech & AI Recruiter for micro1. AMA\nhttps://preview.redd.\u2026",
+          "title": "I’m Mariana McNally, a Tech & AI Recruiter for micro1. AMA\nhttps://preview.redd.…",
           "url": "https://www.reddit.com/r/micro1_ai/comments/1vzstoa/im_mariana_mcnally_a_tech_ai_recruiter_for_micro1/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -952,13 +902,13 @@
     },
     {
       "id": "l545",
-      "text": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years | Simonroses\n\nWork is not disappearing. The job is. The salaried, 9-to-5, one-employer-for-decades package we call \u201ca job\u201d is an industrial-age artifact, and AI agents plus humanoid robots are dismantling it piece by piece. Over the next 10 years, repetitive, risky, and simple tasks get automated at both ends: cognitive work by agents, physical work by robots. The 9-to-5 schedule dies first. Remote and hybrid work kee",
+      "text": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years | Simonroses\n\nWork is not disappearing. The job is. The salaried, 9-to-5, one-employer-for-decades package we call “a job” is an industrial-age artifact, and AI agents plus humanoid robots are dismantling it piece by piece. Over the next 10 years, repetitive, risky, and simple tasks get automated at both ends: cognitive work by agents, physical work by robots. The 9-to-5 schedule dies first. Remote and hybrid work kee",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years |\u2026",
+          "title": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years |…",
           "url": "https://x.com/OwenGregorian/status/2091137764980912401",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -973,13 +923,13 @@
     },
     {
       "id": "l546",
-      "text": "Psychohistory for the Age of\u00a0AI",
+      "text": "Psychohistory for the Age of AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Psychohistory for the Age of\u00a0AI",
+          "title": "Psychohistory for the Age of AI",
           "url": "https://x.com/sebastian_rtj/status/2092335283492544791",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1036,13 +986,13 @@
     },
     {
       "id": "l549",
-      "text": "AI WEEKLY UPDATE \u2014 Saturday, 22 August 2026",
+      "text": "AI WEEKLY UPDATE — Saturday, 22 August 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI WEEKLY UPDATE \u2014 Saturday, 22 August 2026",
+          "title": "AI WEEKLY UPDATE — Saturday, 22 August 2026",
           "url": "https://x.com/MansaTesla/status/2091213068931928111",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1078,13 +1028,13 @@
     },
     {
       "id": "l551",
-      "text": "The Formation of the \u201cAI Elite\u201d in the Mid-Market Workforce: Closing the Productivity Gap",
+      "text": "The Formation of the “AI Elite” in the Mid-Market Workforce: Closing the Productivity Gap",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Formation of the \u201cAI Elite\u201d in the Mid-Market Workforce: Closing the Product\u2026",
+          "title": "The Formation of the “AI Elite” in the Mid-Market Workforce: Closing the Product…",
           "url": "https://x.com/DinoJVidiliCons/status/2088979378428395545",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1120,13 +1070,13 @@
     },
     {
       "id": "l553",
-      "text": "There were 2 deaths from Measles between 2003 and 2015, and in that same time period there were 127 deaths from the Measles vaccine!\nYou are told to just \u2018follow the science\u2019 !\nNo medication should be approved that is more dangerous than the disease it claims to treat. https://t.co/ectsLYwNrW",
+      "text": "There were 2 deaths from Measles between 2003 and 2015, and in that same time period there were 127 deaths from the Measles vaccine!\nYou are told to just ‘follow the science’ !\nNo medication should be approved that is more dangerous than the disease it claims to treat. https://t.co/ectsLYwNrW",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "There were 2 deaths from Measles between 2003 and 2015, and in that same time pe\u2026",
+          "title": "There were 2 deaths from Measles between 2003 and 2015, and in that same time pe…",
           "url": "https://x.com/ABridgen/status/2093326246104940640",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1141,13 +1091,13 @@
     },
     {
       "id": "l554",
-      "text": "Anyone who has to consult Grok for answers is deficient in the knowledge needed to interpret real data. Sadly, it appears to make people THINK he/she/they understand something when, in fact, they are clueless. Humans need to steer away from all the media \u201ccrutches\u201d and start really LEARNING and researching. What a concept\u2026 People used to research questions on their own,THAT is how we learn. NOT from asking Grok et al AI resources.",
+      "text": "Anyone who has to consult Grok for answers is deficient in the knowledge needed to interpret real data. Sadly, it appears to make people THINK he/she/they understand something when, in fact, they are clueless. Humans need to steer away from all the media “crutches” and start really LEARNING and researching. What a concept… People used to research questions on their own,THAT is how we learn. NOT from asking Grok et al AI resources.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Anyone who has to consult Grok for answers is deficient in the knowledge needed \u2026",
+          "title": "Anyone who has to consult Grok for answers is deficient in the knowledge needed …",
           "url": "https://x.com/bluescityconnie/status/2093510262502338829",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1162,13 +1112,13 @@
     },
     {
       "id": "l555",
-      "text": "Please No !\nWho dies of a common cold ?\nHow many people do you know who have died because of taking \u2018vaccines\u2019. \nSoon they will be an \u2018approved vaccine\u2019 for every illness and then \u2018mysteriously\u2019 more people will be dying than ever https://t.co/MTo08uqCAr",
+      "text": "Please No !\nWho dies of a common cold ?\nHow many people do you know who have died because of taking ‘vaccines’. \nSoon they will be an ‘approved vaccine’ for every illness and then ‘mysteriously’ more people will be dying than ever https://t.co/MTo08uqCAr",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Please No !\nWho dies of a common cold ?\nHow many people do you know who have die\u2026",
+          "title": "Please No !\nWho dies of a common cold ?\nHow many people do you know who have die…",
           "url": "https://x.com/ABridgen/status/2093378622006386739",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1189,7 +1139,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Actor Jim Caviezel said that after he started talking about adrenochrome, Hollyw\u2026",
+          "title": "Actor Jim Caviezel said that after he started talking about adrenochrome, Hollyw…",
           "url": "https://x.com/ABridgen/status/2093273569509695854",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1246,13 +1196,13 @@
     },
     {
       "id": "l559",
-      "text": "The propaganda for \u2018vaccines\u2019 is still being pushed hard at the public. \nHave you forgotten how \u2018safe and effective\u2019 the Covid 19 gene therapies were ? https://t.co/Ihw4pLhCN5",
+      "text": "The propaganda for ‘vaccines’ is still being pushed hard at the public. \nHave you forgotten how ‘safe and effective’ the Covid 19 gene therapies were ? https://t.co/Ihw4pLhCN5",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The propaganda for \u2018vaccines\u2019 is still being pushed hard at the public. \nHave yo\u2026",
+          "title": "The propaganda for ‘vaccines’ is still being pushed hard at the public. \nHave yo…",
           "url": "https://x.com/ABridgen/status/2093327005475369412",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1273,7 +1223,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Is this the map of the World that President Trump is currently using ? https://t\u2026",
+          "title": "Is this the map of the World that President Trump is currently using ? https://t…",
           "url": "https://x.com/ABridgen/status/2093281966732857588",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1315,7 +1265,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@NiohBerg If she really thought he's in danger, she'd move back home\n\nOr maybe s\u2026",
+          "title": "@NiohBerg If she really thought he's in danger, she'd move back home\n\nOr maybe s…",
           "url": "https://x.com/adoggzz/status/2093401176297644398",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1336,7 +1286,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@NoticerNews De-fucking-port\n\nStraight back to Africa\n\nWhy do we want that guy h\u2026",
+          "title": "@NoticerNews De-fucking-port\n\nStraight back to Africa\n\nWhy do we want that guy h…",
           "url": "https://x.com/adoggzz/status/2093245756916584465",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1357,7 +1307,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@NoticerNews When people say we need to take African refugees because they're fl\u2026",
+          "title": "@NoticerNews When people say we need to take African refugees because they're fl…",
           "url": "https://x.com/adoggzz/status/2093323555635413085",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1378,7 +1328,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@jimmy_dore There was. You just want one that gives you the answers that line up\u2026",
+          "title": "@jimmy_dore There was. You just want one that gives you the answers that line up…",
           "url": "https://x.com/adoggzz/status/2093248752572375045",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1399,7 +1349,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@alexstein99 Ooohhh Kevin is gonna get some serious suspended probation for that\u2026",
+          "title": "@alexstein99 Ooohhh Kevin is gonna get some serious suspended probation for that…",
           "url": "https://x.com/adoggzz/status/2093190594658988412",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1462,7 +1412,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@adoggzz @NoticerNews So albo can stay in power cause these are the grubs who vo\u2026",
+          "title": "@adoggzz @NoticerNews So albo can stay in power cause these are the grubs who vo…",
           "url": "https://x.com/Gorewayy/status/2093258127592538346",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1498,13 +1448,13 @@
     },
     {
       "id": "l571",
-      "text": "@ABridgen You\u2019re making yourself look stupid again Andrew.  A simple check before posting would reveal the truth. https://t.co/RYZ6rralZ0",
+      "text": "@ABridgen You’re making yourself look stupid again Andrew.  A simple check before posting would reveal the truth. https://t.co/RYZ6rralZ0",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@ABridgen You\u2019re making yourself look stupid again Andrew.  A simple check befor\u2026",
+          "title": "@ABridgen You’re making yourself look stupid again Andrew.  A simple check befor…",
           "url": "https://x.com/JohannesD_B_T/status/2093510578610331907",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1525,7 +1475,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@ABridgen The same happened to Dr Andrew Wakefield. He is now labelled as fraud \u2026",
+          "title": "@ABridgen The same happened to Dr Andrew Wakefield. He is now labelled as fraud …",
           "url": "https://x.com/fight_4freedom_/status/2093510260451377409",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1540,13 +1490,13 @@
     },
     {
       "id": "l573",
-      "text": "@Stop_antivax_bs @ABridgen And YOUR credentials are\u2026???",
+      "text": "@Stop_antivax_bs @ABridgen And YOUR credentials are…???",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@Stop_antivax_bs @ABridgen And YOUR credentials are\u2026???",
+          "title": "@Stop_antivax_bs @ABridgen And YOUR credentials are…???",
           "url": "https://x.com/bluescityconnie/status/2093509103163204061",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1567,7 +1517,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@adoggzz @ABridgen Whatever it is NASA are full of shit, compulsive liars and ps\u2026",
+          "title": "@adoggzz @ABridgen Whatever it is NASA are full of shit, compulsive liars and ps…",
           "url": "https://x.com/DHustlerW/status/2041851840329838967",
           "date": "2026-04-08",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1582,13 +1532,13 @@
     },
     {
       "id": "l575",
-      "text": "@UnityNewsNet Caused some redness there \ud83d\ude02",
+      "text": "@UnityNewsNet Caused some redness there 😂",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@UnityNewsNet Caused some redness there \ud83d\ude02",
+          "title": "@UnityNewsNet Caused some redness there 😂",
           "url": "https://x.com/DHustlerW/status/2092542046804259017",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1624,13 +1574,13 @@
     },
     {
       "id": "l577",
-      "text": "@ABridgen It\u2019s a mentally ill cult controlled puppet",
+      "text": "@ABridgen It’s a mentally ill cult controlled puppet",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@ABridgen It\u2019s a mentally ill cult controlled puppet",
+          "title": "@ABridgen It’s a mentally ill cult controlled puppet",
           "url": "https://x.com/DHustlerW/status/2093311491889926376",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1666,13 +1616,13 @@
     },
     {
       "id": "l579",
-      "text": "@UnityNewsNet I can tell she\u2019s stupid just by the way she holds her face",
+      "text": "@UnityNewsNet I can tell she’s stupid just by the way she holds her face",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@UnityNewsNet I can tell she\u2019s stupid just by the way she holds her face",
+          "title": "@UnityNewsNet I can tell she’s stupid just by the way she holds her face",
           "url": "https://x.com/DHustlerW/status/2092541252700946680",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1687,13 +1637,13 @@
     },
     {
       "id": "l580",
-      "text": "@garethicke Man doesn\u2019t know whether he\u2019s coming or going ay",
+      "text": "@garethicke Man doesn’t know whether he’s coming or going ay",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@garethicke Man doesn\u2019t know whether he\u2019s coming or going ay",
+          "title": "@garethicke Man doesn’t know whether he’s coming or going ay",
           "url": "https://x.com/DHustlerW/status/2092540717016969306",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1735,7 +1685,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@DeliberativeAss @EnzoAdade @adoggzz @ed_Didiong @jk_rowling @grok Uhh.... Whut?\u2026",
+          "title": "@DeliberativeAss @EnzoAdade @adoggzz @ed_Didiong @jk_rowling @grok Uhh.... Whut?…",
           "url": "https://x.com/jambyc/status/2093031811886862797",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1756,7 +1706,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@jambyc @EnzoAdade @adoggzz @ed_Didiong @jk_rowling @grok But Rowling was correc\u2026",
+          "title": "@jambyc @EnzoAdade @adoggzz @ed_Didiong @jk_rowling @grok But Rowling was correc…",
           "url": "https://x.com/DeliberativeAss/status/2093030569437221064",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1771,13 +1721,13 @@
     },
     {
       "id": "l584",
-      "text": "@adoggzz @BasedDownUnder @DrewPavlou \ud83e\udd23\ud83e\udd23",
+      "text": "@adoggzz @BasedDownUnder @DrewPavlou 🤣🤣",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@adoggzz @BasedDownUnder @DrewPavlou \ud83e\udd23\ud83e\udd23",
+          "title": "@adoggzz @BasedDownUnder @DrewPavlou 🤣🤣",
           "url": "https://x.com/publicgstar/status/2092980494959030456",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1792,13 +1742,13 @@
     },
     {
       "id": "l585",
-      "text": "\ud83d\uddd3 28 May \n\u23f0\ufe0f 17h00\nThe ex-employees of Consolidated Placement Specialists(CPS) lost jobs with no pay since Sept 2025. Over a decade's work, no liquidation notice. No salaries, Provident Fund, UIF, or benefits\n\n#MolaoOReng https://t.co/rs7tHzapsE",
+      "text": "🗓 28 May \n⏰️ 17h00\nThe ex-employees of Consolidated Placement Specialists(CPS) lost jobs with no pay since Sept 2025. Over a decade's work, no liquidation notice. No salaries, Provident Fund, UIF, or benefits\n\n#MolaoOReng https://t.co/rs7tHzapsE",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\uddd3 28 May \n\u23f0\ufe0f 17h00\nThe ex-employees of Consolidated Placement Specialists(CPS) l\u2026",
+          "title": "🗓 28 May \n⏰️ 17h00\nThe ex-employees of Consolidated Placement Specialists(CPS) l…",
           "url": "https://x.com/MojaLoveTv/status/2059177677043400745",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1861,7 +1811,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@DHustlerW @woody7297 @ABridgen Yeah I'm still trying to determine whether that \u2026",
+          "title": "@DHustlerW @woody7297 @ABridgen Yeah I'm still trying to determine whether that …",
           "url": "https://x.com/AdJunCt01/status/2064436985767383242",
           "date": "2026-06-09",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1876,13 +1826,13 @@
     },
     {
       "id": "l589",
-      "text": "@DHustlerW I'm going to have a dope one made thats beige with leather trim that I can wear in the jungle. I will canonize it in an exploration video \ud83d\ude4c\ud83c\udffb",
+      "text": "@DHustlerW I'm going to have a dope one made thats beige with leather trim that I can wear in the jungle. I will canonize it in an exploration video 🙌🏻",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@DHustlerW I'm going to have a dope one made thats beige with leather trim that \u2026",
+          "title": "@DHustlerW I'm going to have a dope one made thats beige with leather trim that …",
           "url": "https://x.com/East10Outpost/status/2064276314333323681",
           "date": "2026-06-09",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1897,13 +1847,13 @@
     },
     {
       "id": "l590",
-      "text": "@ABridgen Starmer is only doing what his masters are telling him, don\u2019t act like you don\u2019t know, makes you sound like controlled opposition",
+      "text": "@ABridgen Starmer is only doing what his masters are telling him, don’t act like you don’t know, makes you sound like controlled opposition",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@ABridgen Starmer is only doing what his masters are telling him, don\u2019t act like\u2026",
+          "title": "@ABridgen Starmer is only doing what his masters are telling him, don’t act like…",
           "url": "https://x.com/DHustlerW/status/2063911361571066309",
           "date": "2026-06-08",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1918,13 +1868,13 @@
     },
     {
       "id": "l591",
-      "text": "@DHustlerW @East10Outpost I came here to say the same thing. Matt Beall proposed this theory awhile ago. It\u2019s a good one.",
+      "text": "@DHustlerW @East10Outpost I came here to say the same thing. Matt Beall proposed this theory awhile ago. It’s a good one.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@DHustlerW @East10Outpost I came here to say the same thing. Matt Beall proposed\u2026",
+          "title": "@DHustlerW @East10Outpost I came here to say the same thing. Matt Beall proposed…",
           "url": "https://x.com/WhitneyColt5g/status/2059843567485628501",
           "date": "2026-05-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1945,7 +1895,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@DHustlerW It's wild to think how different the landscape of the planet was in t\u2026",
+          "title": "@DHustlerW It's wild to think how different the landscape of the planet was in t…",
           "url": "https://x.com/East10Outpost/status/2059695949329420776",
           "date": "2026-05-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -2036,6 +1986,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

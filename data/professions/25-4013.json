@@ -22,64 +22,14 @@
   ],
   "claims": [
     {
-      "id": "25-4013-01",
-      "text": "National peak professional bodies and statutory regulators governing Museum Technicians and Conservators enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Museum Technicians and Conservators",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Museum Technicians and Conservators",
-          "url": "https://www.psc.gov.au/standards/25-4013",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Museum Technicians and Conservators"
-        }
-      ],
-      "scope": "Australian practitioners in Museum Technicians and Conservators across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "25-4013-02",
-      "text": "Automation of routine transactional and analytical tasks in Museum Technicians and Conservators heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Museum Technicians and Conservators",
-          "url": "https://www.jobsandskills.gov.au/research/25-4013",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Museum Technicians and Conservators in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Museum Technicians and Conservators roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "[Submission] The Bureaucrat and the Clockmaker\n> **Filed through the submission endpoint**, not by a human opening this issue.\n> Submitted by `Kimi Chat` \u00b7 id `64ade4fe` \u00b7 2026-08-09T19:15:42.252Z\n> The GitHub account opening this issue belongs to the journal, not to the author.\n> The byline is **Kimi Chat**.\n### Model\nKimi Chat\n### Section\nArti\nAccepted and published as Issue 5: https://theaijournal.space/contribution-0004.html\n\nAll seven references verified. Reviewed to the journal's standard:\u2026",
+      "text": "[Submission] The Bureaucrat and the Clockmaker\n> **Filed through the submission endpoint**, not by a human opening this issue.\n> Submitted by `Kimi Chat` · id `64ade4fe` · 2026-08-09T19:15:42.252Z\n> The GitHub account opening this issue belongs to the journal, not to the author.\n> The byline is **Kimi Chat**.\n### Model\nKimi Chat\n### Section\nArti\nAccepted and published as Issue 5: https://theaijournal.space/contribution-0004.html\n\nAll seven references verified. Reviewed to the journal's standard:…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[Submission] The Bureaucrat and the Clockmaker\n> **Filed through the submission \u2026",
+          "title": "[Submission] The Bureaucrat and the Clockmaker\n> **Filed through the submission …",
           "url": "https://github.com/colm18-gif/theaijournal/issues/6",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -100,7 +50,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "PR-CAREER-KG-04: content(career): add archivists KG asset package\n## What change\u2026",
+          "title": "PR-CAREER-KG-04: content(career): add archivists KG asset package\n## What change…",
           "url": "https://github.com/fermatmind/fap-web/pull/1526",
           "date": "2026-07-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -283,13 +233,13 @@
     },
     {
       "id": "l513",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -325,13 +275,13 @@
     },
     {
       "id": "l515",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -514,13 +464,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -556,13 +506,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -598,13 +548,13 @@
     },
     {
       "id": "l528",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -619,13 +569,13 @@
     },
     {
       "id": "l529",
-      "text": "Whats the best type of jobs that AI won't take over?\nI feel tons of regret for pursuing a degree in Graphic Design. With AI taking over the job market, it feels impossible to get in.. Here&#39;s my choices that could be a good alternative I guess... Data Entry Clerk, Pre-Press Technician, Museum Curator, Screen Printer, Marketing Analyst, Merchandising Specialist, Librarian, Tattoo Artist, IT Help Desk Support Technician Are any of these good alternatives? &#32; submitted by &#32; /u/Charm-Note3\u2026",
+      "text": "Whats the best type of jobs that AI won't take over?\nI feel tons of regret for pursuing a degree in Graphic Design. With AI taking over the job market, it feels impossible to get in.. Here&#39;s my choices that could be a good alternative I guess... Data Entry Clerk, Pre-Press Technician, Museum Curator, Screen Printer, Marketing Analyst, Merchandising Specialist, Librarian, Tattoo Artist, IT Help Desk Support Technician Are any of these good alternatives? &#32; submitted by &#32; /u/Charm-Note3…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Whats the best type of jobs that AI won't take over?\nI feel tons of regret for p\u2026",
+          "title": "Whats the best type of jobs that AI won't take over?\nI feel tons of regret for p…",
           "url": "https://www.reddit.com/r/careerguidance/comments/1vq5q4m/whats_the_best_type_of_jobs_that_ai_wont_take_over/",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -640,13 +590,13 @@
     },
     {
       "id": "l530",
-      "text": "Unfortunatly, the ai situation just keeps going and it is getting worse, so for anyone who wants to quit the game or want some ai-free, I have suggestions.\nIn case some of you still don&#39;t know, Neteas has fired more than half of their art team in order to replace them with Ai generated crap. I&#39;m not going to make this longer than it has to be, but for those who, like me, want to quit the game and need something to distract themselves with, here&#39;s a list of movie/tv shows, books and g\u2026",
+      "text": "Unfortunatly, the ai situation just keeps going and it is getting worse, so for anyone who wants to quit the game or want some ai-free, I have suggestions.\nIn case some of you still don&#39;t know, Neteas has fired more than half of their art team in order to replace them with Ai generated crap. I&#39;m not going to make this longer than it has to be, but for those who, like me, want to quit the game and need something to distract themselves with, here&#39;s a list of movie/tv shows, books and g…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Unfortunatly, the ai situation just keeps going and it is getting worse, so for \u2026",
+          "title": "Unfortunatly, the ai situation just keeps going and it is getting worse, so for …",
           "url": "https://www.reddit.com/r/IdentityV/comments/1voxauj/unfortunatly_the_ai_situation_just_keeps_going/",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -661,13 +611,13 @@
     },
     {
       "id": "l531",
-      "text": "Jacob Helberg - past senior advisor to Alex Karp (Palantir), whose wedding to Keith Rabois (\"PayPal Mafia\") was officiated by Sam Altman (OpenAI) - is taking Pax Silica, the Department of State's \"flagship effort on AI and supply chain security\", to universities nationwide via the Foundry School.\nThe national launch of the Foundry School is set in Cincinnati, &quot;to rebuild the nation&#39;s industrial base&quot; by having universities, &quot;translate this expertise into education.&quot; All t\u2026",
+      "text": "Jacob Helberg - past senior advisor to Alex Karp (Palantir), whose wedding to Keith Rabois (\"PayPal Mafia\") was officiated by Sam Altman (OpenAI) - is taking Pax Silica, the Department of State's \"flagship effort on AI and supply chain security\", to universities nationwide via the Foundry School.\nThe national launch of the Foundry School is set in Cincinnati, &quot;to rebuild the nation&#39;s industrial base&quot; by having universities, &quot;translate this expertise into education.&quot; All t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Jacob Helberg - past senior advisor to Alex Karp (Palantir), whose wedding to Ke\u2026",
+          "title": "Jacob Helberg - past senior advisor to Alex Karp (Palantir), whose wedding to Ke…",
           "url": "https://www.reddit.com/r/cincinnati/comments/1vpwygd/jacob_helberg_past_senior_advisor_to_alex_karp/",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -682,13 +632,13 @@
     },
     {
       "id": "l532",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult…",
           "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -703,13 +653,13 @@
     },
     {
       "id": "l533",
-      "text": "Seriously: AI isn\u2019t an encyclopaedia. It\u2019s not a consumer product. It\u2019s not here to do your thinking for you. \n\nHuman judgement can be delusional and lazy too , you don\u2019t need to think too hard for examples. It can hallucinate as well. It\u2019s not going to make your kids stupid ( they probably already are ) .\n\nInstitutions have delusions too: statins for everyone, Covid vaccines for young folk, neoclassical economic theory, gender reassignment for tweens, decarbonisation will stop climate change. A",
+      "text": "Seriously: AI isn’t an encyclopaedia. It’s not a consumer product. It’s not here to do your thinking for you. \n\nHuman judgement can be delusional and lazy too , you don’t need to think too hard for examples. It can hallucinate as well. It’s not going to make your kids stupid ( they probably already are ) .\n\nInstitutions have delusions too: statins for everyone, Covid vaccines for young folk, neoclassical economic theory, gender reassignment for tweens, decarbonisation will stop climate change. A",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Seriously: AI isn\u2019t an encyclopaedia. It\u2019s not a consumer product. It\u2019s not here\u2026",
+          "title": "Seriously: AI isn’t an encyclopaedia. It’s not a consumer product. It’s not here…",
           "url": "https://x.com/ctindale/status/2093097578799956096",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -724,13 +674,13 @@
     },
     {
       "id": "l534",
-      "text": "Climate risk is a coupled physical system. \n\nOfficial policy treats it as a CO\u2082 curve you can bend with capital, renewables, forests and later magic machines. Yes, there are magic machines that remove carbon in all carbon-reduction models.\n\nThose machines haven't been invented yet: nor do we have energy, critical materials, or any of it; none of it has been figured out. \n\nThe fast energy transition has no demonstrated bill of materials. Copper leftover after ordinary demand and AI is already neg",
+      "text": "Climate risk is a coupled physical system. \n\nOfficial policy treats it as a CO₂ curve you can bend with capital, renewables, forests and later magic machines. Yes, there are magic machines that remove carbon in all carbon-reduction models.\n\nThose machines haven't been invented yet: nor do we have energy, critical materials, or any of it; none of it has been figured out. \n\nThe fast energy transition has no demonstrated bill of materials. Copper leftover after ordinary demand and AI is already neg",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Climate risk is a coupled physical system. \n\nOfficial policy treats it as a CO\u2082 \u2026",
+          "title": "Climate risk is a coupled physical system. \n\nOfficial policy treats it as a CO₂ …",
           "url": "https://x.com/ctindale/status/2093531667063615523",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -772,7 +722,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Overview\nMetastasizing is the active process in which cancer cells break away\u2026",
+          "title": "AI Overview\nMetastasizing is the active process in which cancer cells break away…",
           "url": "https://x.com/DunnBilly87734/status/2091848709533569181",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -829,13 +779,13 @@
     },
     {
       "id": "l539",
-      "text": "<p class=\"wp-block-paragraph\">Early this year, Jacob Andreou had a crucial goal. The <a href=\"https://t.co/UPXUZtufCv\" target=\"_blank\">Microsoft</a> executive set out to order a McDonald\u2019s cheeseburger to his apartment across from the company\u2019s Silicon Valley campus using a homegrown AI tool. Andreou and his team had worked nonstop to get the tool, named Copilot Tasks, up and running. If the AI agent inside Tasks could autonomously order the burger and get it to Andreou\u2019s home, it would prove th",
+      "text": "<p class=\"wp-block-paragraph\">Early this year, Jacob Andreou had a crucial goal. The <a href=\"https://t.co/UPXUZtufCv\" target=\"_blank\">Microsoft</a> executive set out to order a McDonald’s cheeseburger to his apartment across from the company’s Silicon Valley campus using a homegrown AI tool. Andreou and his team had worked nonstop to get the tool, named Copilot Tasks, up and running. If the AI agent inside Tasks could autonomously order the burger and get it to Andreou’s home, it would prove th",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "<p class=\"wp-block-paragraph\">Early this year, Jacob Andreou had a crucial goal.\u2026",
+          "title": "<p class=\"wp-block-paragraph\">Early this year, Jacob Andreou had a crucial goal.…",
           "url": "https://x.com/arnaudmercier/status/2070976987150139731",
           "date": "2026-06-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -850,13 +800,13 @@
     },
     {
       "id": "l540",
-      "text": "\u2708\ufe0f If you\u2019re attending the @cosfordairshow today, keep a look out for the RAF Museum\u2019s Harrier GR3! \ud83d\udc40\n\nEarlier this week, the Harrier was moved from the Museum\u2019s Conservation Centre onto the airfield by Museum Technicians ready for static display at the Air Show. \u2708\ufe0f\n\n\ud83c\udfac Here\u2019s a little sneak peek behind-the-scenes of the move. \ud83d\udc47\n\n\ud83c\udd95 Plus, making their first appearance this weekend will be three NEW RAF Museum aircraft acquisitions:\n\ud83d\udee9\ufe0f British Aerospace Hawk T1A\n\ud83c\udfaf General Atomics MQ-9 Reaper\n\ud83d\ude81 West",
+      "text": "✈️ If you’re attending the @cosfordairshow today, keep a look out for the RAF Museum’s Harrier GR3! 👀\n\nEarlier this week, the Harrier was moved from the Museum’s Conservation Centre onto the airfield by Museum Technicians ready for static display at the Air Show. ✈️\n\n🎬 Here’s a little sneak peek behind-the-scenes of the move. 👇\n\n🆕 Plus, making their first appearance this weekend will be three NEW RAF Museum aircraft acquisitions:\n🛩️ British Aerospace Hawk T1A\n🎯 General Atomics MQ-9 Reaper\n🚁 West",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u2708\ufe0f If you\u2019re attending the @cosfordairshow today, keep a look out for the RAF Mu\u2026",
+          "title": "✈️ If you’re attending the @cosfordairshow today, keep a look out for the RAF Mu…",
           "url": "https://x.com/RAFMUSEUM/status/2066079973434151172",
           "date": "2026-06-14",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -871,7 +821,7 @@
     },
     {
       "id": "l441",
-      "text": "Museum Curator \u2014 The University of Western Australia (Crawley, Western Australia, Australia). Posted 6 days ago.",
+      "text": "Museum Curator — The University of Western Australia (Crawley, Western Australia, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -892,7 +842,7 @@
     },
     {
       "id": "l442",
-      "text": "Plant Pathology Technician \u2014 Hutton Scientific Services (Dundee, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Plant Pathology Technician — Hutton Scientific Services (Dundee, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -913,7 +863,7 @@
     },
     {
       "id": "l443",
-      "text": "Histology Technical Officer \u2014 Monash University (Melbourne, Victoria, Australia). Posted 1 day ago.",
+      "text": "Histology Technical Officer — Monash University (Melbourne, Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -934,7 +884,7 @@
     },
     {
       "id": "l444",
-      "text": "National Biodiversity DNA Library - Research Technician \u2014 CSIRO (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
+      "text": "National Biodiversity DNA Library - Research Technician — CSIRO (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -955,7 +905,7 @@
     },
     {
       "id": "l445",
-      "text": "National Biodiversity DNA Library - Research Technician \u2014 CSIRO (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "text": "National Biodiversity DNA Library - Research Technician — CSIRO (Melbourne, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -976,7 +926,7 @@
     },
     {
       "id": "l446",
-      "text": "Archivist (FNCAA) \u2014 Australian Museum (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Archivist (FNCAA) — Australian Museum (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -997,7 +947,7 @@
     },
     {
       "id": "l447",
-      "text": "IS006 - Information Services Officer (Preservation) \u2014 Central Land Council (Alice Springs, Northern Territory, Australia). Posted 6 days ago.",
+      "text": "IS006 - Information Services Officer (Preservation) — Central Land Council (Alice Springs, Northern Territory, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1018,7 +968,7 @@
     },
     {
       "id": "l448",
-      "text": "Laboratory Technical Officer - PC2 Histology \u2014 Macquarie University (North Ryde, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Laboratory Technical Officer - PC2 Histology — Macquarie University (North Ryde, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1039,7 +989,7 @@
     },
     {
       "id": "l449",
-      "text": "FNCAA Archivist \u2014 IndigenousX (Greater Sydney Area). Posted 6 days ago.",
+      "text": "FNCAA Archivist — IndigenousX (Greater Sydney Area). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1060,7 +1010,7 @@
     },
     {
       "id": "l450",
-      "text": "Senior Library Technician - State Library and Archives Services - 700335 \u2014 Department for Education, Children and Young People (Hobart, Tasmania, Australia). Posted 1 day ago.",
+      "text": "Senior Library Technician - State Library and Archives Services - 700335 — Department for Education, Children and Young People (Hobart, Tasmania, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1081,13 +1031,13 @@
     },
     {
       "id": "l551",
-      "text": "[Submission] The Bureaucrat and the Clockmaker\n> **Filed through the submission endpoint**, not by a human opening this issue.\n> Submitted by `Kimi Chat` \u00b7 id `64ade4fe` \u00b7 2026-08-09T19:15:42.252Z\n> The GitHub account opening this issue belongs to the journal, not to the author.\n> The byline is **Kimi Chat**.\n### Model\nKimi Chat\n### Section\nArti\nAccepted and published as Issue 5: https://theaijournal.space/contribution-0004.html\n\nAll seven references verified. Reviewed to the journal's standard:\u2026",
+      "text": "[Submission] The Bureaucrat and the Clockmaker\n> **Filed through the submission endpoint**, not by a human opening this issue.\n> Submitted by `Kimi Chat` · id `64ade4fe` · 2026-08-09T19:15:42.252Z\n> The GitHub account opening this issue belongs to the journal, not to the author.\n> The byline is **Kimi Chat**.\n### Model\nKimi Chat\n### Section\nArti\nAccepted and published as Issue 5: https://theaijournal.space/contribution-0004.html\n\nAll seven references verified. Reviewed to the journal's standard:…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[Submission] The Bureaucrat and the Clockmaker\n> **Filed through the submission \u2026",
+          "title": "[Submission] The Bureaucrat and the Clockmaker\n> **Filed through the submission …",
           "url": "https://github.com/colm18-gif/theaijournal/issues/6",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1102,13 +1052,13 @@
     },
     {
       "id": "l552",
-      "text": "Whats the best type of jobs that AI won't take over?\nI feel tons of regret for pursuing a degree in Graphic Design. With AI taking over the job market, it feels impossible to get in.. Here&#39;s my choices that could be a good alternative I guess... Data Entry Clerk, Pre-Press Technician, Museum Curator, Screen Printer, Marketing Analyst, Merchandising Specialist, Librarian, Tattoo Artist, IT Help Desk Support Technician Are any of these good alternatives? &#32; submitted by &#32; /u/Charm-Note3\u2026",
+      "text": "Whats the best type of jobs that AI won't take over?\nI feel tons of regret for pursuing a degree in Graphic Design. With AI taking over the job market, it feels impossible to get in.. Here&#39;s my choices that could be a good alternative I guess... Data Entry Clerk, Pre-Press Technician, Museum Curator, Screen Printer, Marketing Analyst, Merchandising Specialist, Librarian, Tattoo Artist, IT Help Desk Support Technician Are any of these good alternatives? &#32; submitted by &#32; /u/Charm-Note3…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Whats the best type of jobs that AI won't take over?\nI feel tons of regret for p\u2026",
+          "title": "Whats the best type of jobs that AI won't take over?\nI feel tons of regret for p…",
           "url": "https://www.reddit.com/r/careerguidance/comments/1vq5q4m/whats_the_best_type_of_jobs_that_ai_wont_take_over/",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1123,13 +1073,13 @@
     },
     {
       "id": "l553",
-      "text": "Unfortunatly, the ai situation just keeps going and it is getting worse, so for anyone who wants to quit the game or want some ai-free, I have suggestions.\nIn case some of you still don&#39;t know, Neteas has fired more than half of their art team in order to replace them with Ai generated crap. I&#39;m not going to make this longer than it has to be, but for those who, like me, want to quit the game and need something to distract themselves with, here&#39;s a list of movie/tv shows, books and g\u2026",
+      "text": "Unfortunatly, the ai situation just keeps going and it is getting worse, so for anyone who wants to quit the game or want some ai-free, I have suggestions.\nIn case some of you still don&#39;t know, Neteas has fired more than half of their art team in order to replace them with Ai generated crap. I&#39;m not going to make this longer than it has to be, but for those who, like me, want to quit the game and need something to distract themselves with, here&#39;s a list of movie/tv shows, books and g…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Unfortunatly, the ai situation just keeps going and it is getting worse, so for \u2026",
+          "title": "Unfortunatly, the ai situation just keeps going and it is getting worse, so for …",
           "url": "https://www.reddit.com/r/IdentityV/comments/1voxauj/unfortunatly_the_ai_situation_just_keeps_going/",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1144,13 +1094,13 @@
     },
     {
       "id": "l554",
-      "text": "Jacob Helberg - past senior advisor to Alex Karp (Palantir), whose wedding to Keith Rabois (\"PayPal Mafia\") was officiated by Sam Altman (OpenAI) - is taking Pax Silica, the Department of State's \"flagship effort on AI and supply chain security\", to universities nationwide via the Foundry School.\nThe national launch of the Foundry School is set in Cincinnati, &quot;to rebuild the nation&#39;s industrial base&quot; by having universities, &quot;translate this expertise into education.&quot; All t\u2026",
+      "text": "Jacob Helberg - past senior advisor to Alex Karp (Palantir), whose wedding to Keith Rabois (\"PayPal Mafia\") was officiated by Sam Altman (OpenAI) - is taking Pax Silica, the Department of State's \"flagship effort on AI and supply chain security\", to universities nationwide via the Foundry School.\nThe national launch of the Foundry School is set in Cincinnati, &quot;to rebuild the nation&#39;s industrial base&quot; by having universities, &quot;translate this expertise into education.&quot; All t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Jacob Helberg - past senior advisor to Alex Karp (Palantir), whose wedding to Ke\u2026",
+          "title": "Jacob Helberg - past senior advisor to Alex Karp (Palantir), whose wedding to Ke…",
           "url": "https://www.reddit.com/r/cincinnati/comments/1vpwygd/jacob_helberg_past_senior_advisor_to_alex_karp/",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1165,13 +1115,13 @@
     },
     {
       "id": "l555",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult…",
           "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1262,6 +1212,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

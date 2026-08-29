@@ -15,56 +15,6 @@
   "programs": [],
   "claims": [
     {
-      "id": "29-2011-01",
-      "text": "National peak professional bodies and statutory regulators governing Medical and Clinical Laboratory Technologists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Medical and Clinical Laboratory Technologists",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Medical and Clinical Laboratory Technologists",
-          "url": "https://www.psc.gov.au/standards/29-2011",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Medical and Clinical Laboratory Technologists"
-        }
-      ],
-      "scope": "Australian practitioners in Medical and Clinical Laboratory Technologists across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "29-2011-02",
-      "text": "Automation of routine transactional and analytical tasks in Medical and Clinical Laboratory Technologists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Medical and Clinical Laboratory Technologists",
-          "url": "https://www.jobsandskills.gov.au/research/29-2011",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Medical and Clinical Laboratory Technologists in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Medical and Clinical Laboratory Technologists roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
       "text": "Harden clinical imports and role workspaces\n## What changed\n\n- hardens OCR imports for medication, laboratory results, and vital history with staged exact payloads, provenance, chronology, unit handling, and patient identity confirmation\n- expands the medical document import builder and keeps review/apply state resumable\n- aligns first-releas",
       "lane": "L5",
@@ -72,7 +22,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Harden clinical imports and role workspaces\n## What changed\n\n- hardens OCR impor\u2026",
+          "title": "Harden clinical imports and role workspaces\n## What changed\n\n- hardens OCR impor…",
           "url": "https://github.com/oleksandrmelnychenko/gmed-crm/pull/39",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -87,13 +37,13 @@
     },
     {
       "id": "l504",
-      "text": "feat(skills): add clinical-case-report skill\n## What\r\n\r\nAdds `clinical-case-report` \u2014 a new healthcare skill that generates structured medical case presentations for clinical rounds, conferences, and ward documentation.\r\n\r\n## Why\r\n\r\nThe current skill catalog has 31 skills covering SaaS, marketing, and operations \u2014 zero healthcare coverage. Hea\nHi @syedali254! \ud83c\udf89\n\nThanks for the contribution \u2014 adding healthcare coverage to the skill catalog is a great direction.\n\nI will run a deep review and get b\u2026",
+      "text": "feat(skills): add clinical-case-report skill\n## What\r\n\r\nAdds `clinical-case-report` — a new healthcare skill that generates structured medical case presentations for clinical rounds, conferences, and ward documentation.\r\n\r\n## Why\r\n\r\nThe current skill catalog has 31 skills covering SaaS, marketing, and operations — zero healthcare coverage. Hea\nHi @syedali254! 🎉\n\nThanks for the contribution — adding healthcare coverage to the skill catalog is a great direction.\n\nI will run a deep review and get b…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(skills): add clinical-case-report skill\n## What\r\n\r\nAdds `clinical-case-repo\u2026",
+          "title": "feat(skills): add clinical-case-report skill\n## What\r\n\r\nAdds `clinical-case-repo…",
           "url": "https://github.com/nexu-io/open-design/pull/581",
           "date": "2026-05-05",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -108,13 +58,13 @@
     },
     {
       "id": "l505",
-      "text": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical thriller. Can you expand on this.\n\n\n\n\n# THE LAST PHYSICIAN\n\nIn the year 2115, humanity has achieved what previous generations believed impossible.\n\nDisease has been conquered. Cancer, dementia, heart failure, sepsis, and countless other k\nAbsolutely\u2014this has the bones of a very strong near-future thriller. The concept already feels cinematic, high-stakes, and thematically rich. What it needs is a bit more structure \u2026",
+      "text": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical thriller. Can you expand on this.\n\n\n\n\n# THE LAST PHYSICIAN\n\nIn the year 2115, humanity has achieved what previous generations believed impossible.\n\nDisease has been conquered. Cancer, dementia, heart failure, sepsis, and countless other k\nAbsolutely—this has the bones of a very strong near-future thriller. The concept already feels cinematic, high-stakes, and thematically rich. What it needs is a bit more structure …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical\u2026",
+          "title": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical…",
           "url": "https://github.com/badbeaver88/game/issues/19",
           "date": "2026-06-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -135,7 +85,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Add ability to define personal reference ranges for a measurement\n## Problem\n\nTh\u2026",
+          "title": "Add ability to define personal reference ranges for a measurement\n## Problem\n\nTh…",
           "url": "https://github.com/benleane83/vitana-health/issues/77",
           "date": "2026-07-16",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -381,13 +331,13 @@
     },
     {
       "id": "l518",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -402,13 +352,13 @@
     },
     {
       "id": "l519",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -549,13 +499,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -591,13 +541,13 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -633,13 +583,13 @@
     },
     {
       "id": "l530",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -654,13 +604,13 @@
     },
     {
       "id": "l531",
-      "text": "Can AI Replace Legal Nurse Consultants? How Artificial Intelligence Is Changing Medical-Record Analysis and Clinical-Legal Work\nArtificial intelligence can read thousands of pages of medical records faster than any human. It can extract dates. Identify medications. Summarize physician notes. Organize laboratory results. Generate preliminary medical chronologies. Search massive records in seconds. So an uncomfortable question deserves a serious answer: Can AI replace the Legal Nurse Consultant? T\u2026",
+      "text": "Can AI Replace Legal Nurse Consultants? How Artificial Intelligence Is Changing Medical-Record Analysis and Clinical-Legal Work\nArtificial intelligence can read thousands of pages of medical records faster than any human. It can extract dates. Identify medications. Summarize physician notes. Organize laboratory results. Generate preliminary medical chronologies. Search massive records in seconds. So an uncomfortable question deserves a serious answer: Can AI replace the Legal Nurse Consultant? T…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Can AI Replace Legal Nurse Consultants? How Artificial Intelligence Is Changing \u2026",
+          "title": "Can AI Replace Legal Nurse Consultants? How Artificial Intelligence Is Changing …",
           "url": "https://www.reddit.com/r/ClinicalLegalField/comments/1vkdfl3/can_ai_replace_legal_nurse_consultants_how/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -675,13 +625,13 @@
     },
     {
       "id": "l532",
-      "text": "How do I report my doctor for using AI to diagnose my nerve pain?\nAs the title says. I\u2019m new around this community but I\u2019ve had joint and nerve pain since I was a kid. I\u2019d been told it was growing pains, that I was exaggerating, the whole run of the mill docs use to not have to investigate pain. But this time around nothing usual helped, and I was losing sensation in my pinky/ring fingers, so I went to my usual doctor in hopes they could refer me to someone who specializes in rheumatology\u2026 But w\u2026",
+      "text": "How do I report my doctor for using AI to diagnose my nerve pain?\nAs the title says. I’m new around this community but I’ve had joint and nerve pain since I was a kid. I’d been told it was growing pains, that I was exaggerating, the whole run of the mill docs use to not have to investigate pain. But this time around nothing usual helped, and I was losing sensation in my pinky/ring fingers, so I went to my usual doctor in hopes they could refer me to someone who specializes in rheumatology… But w…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "How do I report my doctor for using AI to diagnose my nerve pain?\nAs the title s\u2026",
+          "title": "How do I report my doctor for using AI to diagnose my nerve pain?\nAs the title s…",
           "url": "https://www.reddit.com/r/ChronicPain/comments/1vg5l5a/how_do_i_report_my_doctor_for_using_ai_to/",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -696,13 +646,13 @@
     },
     {
       "id": "l533",
-      "text": "As AI beats doctors, regulators shouldn't force a human into the loop\nThis is from the Journal of the American Medical Assocation . Nice to see docs taking this very ethical stance. https://the-decoder.com/as-ai-beats-doctors-regulators-shouldnt-force-a-human-into-the-loop-jama-piece-says/ https://jamanetwork.com/journals/jama/article-abstract/2852952# &quot;The prevailing view of artificial intelligence (AI) in medicine is that it will support physician-led care. The American Medical Associatio\u2026",
+      "text": "As AI beats doctors, regulators shouldn't force a human into the loop\nThis is from the Journal of the American Medical Assocation . Nice to see docs taking this very ethical stance. https://the-decoder.com/as-ai-beats-doctors-regulators-shouldnt-force-a-human-into-the-loop-jama-piece-says/ https://jamanetwork.com/journals/jama/article-abstract/2852952# &quot;The prevailing view of artificial intelligence (AI) in medicine is that it will support physician-led care. The American Medical Associatio…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "As AI beats doctors, regulators shouldn't force a human into the loop\nThis is fr\u2026",
+          "title": "As AI beats doctors, regulators shouldn't force a human into the loop\nThis is fr…",
           "url": "https://www.reddit.com/r/accelerate/comments/1vrzyqx/as_ai_beats_doctors_regulators_shouldnt_force_a/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -717,13 +667,13 @@
     },
     {
       "id": "l534",
-      "text": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe've barely caught our breaths since Collaborative Agent Hackathon at @Cambridge_Uni, UK, and now we're going to host another intense hackathon in Berlin. September 16. \u200bThe Collaborative Agent Hackathon is a 1-day event for building open-source, collaborative AI agents using Flower.\n\n\u200bAgents are changing what is possible, and their greatest potential emerges when they collaborate safely in human-supervised multi-agent",
+      "text": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe've barely caught our breaths since Collaborative Agent Hackathon at @Cambridge_Uni, UK, and now we're going to host another intense hackathon in Berlin. September 16. ​The Collaborative Agent Hackathon is a 1-day event for building open-source, collaborative AI agents using Flower.\n\n​Agents are changing what is possible, and their greatest potential emerges when they collaborate safely in human-supervised multi-agent",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe'v\u2026",
+          "title": "Collaborative Agent Hackathon [BERLIN Edition] coming up on September 16. \n\nWe'v…",
           "url": "https://x.com/flwrlabs/status/2092989569264214482",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -759,13 +709,13 @@
     },
     {
       "id": "l536",
-      "text": "At the next Flower Monthly (Wednesday, September 2), we\u2019ll be joined by 6 researchers and engineers working on some of the most interesting areas in federated learning and AI.\n\nHasti Zanganeh and Lydia Obeng will present SpikeFed, their work on federated training of spiking neural networks for event based vision. The project brings together federated learning, privacy preserving training, neuromorphic computing, and more efficient approaches to processing visual data.\n\nWe\u2019ll also hear from Tanve",
+      "text": "At the next Flower Monthly (Wednesday, September 2), we’ll be joined by 6 researchers and engineers working on some of the most interesting areas in federated learning and AI.\n\nHasti Zanganeh and Lydia Obeng will present SpikeFed, their work on federated training of spiking neural networks for event based vision. The project brings together federated learning, privacy preserving training, neuromorphic computing, and more efficient approaches to processing visual data.\n\nWe’ll also hear from Tanve",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "At the next Flower Monthly (Wednesday, September 2), we\u2019ll be joined by 6 resear\u2026",
+          "title": "At the next Flower Monthly (Wednesday, September 2), we’ll be joined by 6 resear…",
           "url": "https://x.com/flwrlabs/status/2093356198959403366",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -807,7 +757,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "An AI-Assisted Clinical Tool for Long COVID and ME/CFS: The Buonsenso Clinic Ref\u2026",
+          "title": "An AI-Assisted Clinical Tool for Long COVID and ME/CFS: The Buonsenso Clinic Ref…",
           "url": "https://x.com/surf4children/status/2066179950919463248",
           "date": "2026-06-14",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -849,7 +799,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Alexa and others are just too limiting, not to mention since they're cloud based\u2026",
+          "title": "Alexa and others are just too limiting, not to mention since they're cloud based…",
           "url": "https://x.com/CarlB_jr/status/2092095017695219995",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -912,7 +862,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "This week. In-person events are great. \n\n2 Workshop days, From Zero to Hero: Fed\u2026",
+          "title": "This week. In-person events are great. \n\n2 Workshop days, From Zero to Hero: Fed…",
           "url": "https://x.com/flwrlabs/status/2093533957195247990",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -927,13 +877,13 @@
     },
     {
       "id": "l544",
-      "text": "From Lab to Clinic: Build Clinical AI Infrastructure, Not More Demos | DLD Health (Lisa Adams)\nIn this DLD Health talk, Prof. Lisa Adams \u2013 radiologist and Deputy Director at the Institute of Diagnostic and Interventional Radiology at TUM University Hospital Munich \u2013 argues that healthcare needs to move beyond impressive AI demos and build real clinical AI infrastructure inside hospitals.\n\nHer key message: useful AI will only become part of everyday care if hospitals own enough local AI capacity \u2026",
+      "text": "From Lab to Clinic: Build Clinical AI Infrastructure, Not More Demos | DLD Health (Lisa Adams)\nIn this DLD Health talk, Prof. Lisa Adams – radiologist and Deputy Director at the Institute of Diagnostic and Interventional Radiology at TUM University Hospital Munich – argues that healthcare needs to move beyond impressive AI demos and build real clinical AI infrastructure inside hospitals.\n\nHer key message: useful AI will only become part of everyday care if hospitals own enough local AI capacity …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "From Lab to Clinic: Build Clinical AI Infrastructure, Not More Demos | DLD Healt\u2026",
+          "title": "From Lab to Clinic: Build Clinical AI Infrastructure, Not More Demos | DLD Healt…",
           "url": "https://www.youtube.com/watch?v=kVMnoeSK8Z8",
           "date": "2026-06-15",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -948,13 +898,13 @@
     },
     {
       "id": "l545",
-      "text": "How AI Found 1,700 Patients for a Trial That Could Only Find 6 | Julio Martinez-Clark\nAnastassia and Julio unpack the evolving role of AI in healthcare, with a focus on clinical trials, patient identification, and medical education.\n\nJulio G. Martinez-Clark is an entrepreneur and clinical research strategist recognized for transforming global clinical trial operations across MedTech, biopharma, and radiopharmaceutical sectors. He is the CEO of bioaccess\u00ae, where he champions quality and efficienc\u2026",
+      "text": "How AI Found 1,700 Patients for a Trial That Could Only Find 6 | Julio Martinez-Clark\nAnastassia and Julio unpack the evolving role of AI in healthcare, with a focus on clinical trials, patient identification, and medical education.\n\nJulio G. Martinez-Clark is an entrepreneur and clinical research strategist recognized for transforming global clinical trial operations across MedTech, biopharma, and radiopharmaceutical sectors. He is the CEO of bioaccess®, where he champions quality and efficienc…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI Found 1,700 Patients for a Trial That Could Only Find 6 | Julio Martinez-\u2026",
+          "title": "How AI Found 1,700 Patients for a Trial That Could Only Find 6 | Julio Martinez-…",
           "url": "https://www.youtube.com/watch?v=aJv5hVBlhl4",
           "date": "2026-04-07",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -969,7 +919,7 @@
     },
     {
       "id": "l446",
-      "text": "Medical Laboratory Technician - Anatomical Pathology \u2014 NSW Health Pathology (Westmead, New South Wales, Australia). Posted 1 day ago.",
+      "text": "Medical Laboratory Technician - Anatomical Pathology — NSW Health Pathology (Westmead, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -990,7 +940,7 @@
     },
     {
       "id": "l447",
-      "text": "Medical Laboratory Technician - Microbiology \u2014 NSW Health Pathology (Lismore, New South Wales, Australia). Posted 12 hours ago.",
+      "text": "Medical Laboratory Technician - Microbiology — NSW Health Pathology (Lismore, New South Wales, Australia). Posted 12 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1011,7 +961,7 @@
     },
     {
       "id": "l448",
-      "text": "Medical Scientist (530821) \u2014 Department of Health, Tasmania (Launceston, Tasmania, Australia). Posted 2 days ago.",
+      "text": "Medical Scientist (530821) — Department of Health, Tasmania (Launceston, Tasmania, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1032,7 +982,7 @@
     },
     {
       "id": "l449",
-      "text": "Health Professional Level 2 - Pathology Medical Scientist \u2014 Canberra Health Services (Canberra, Australian Capital Territory, Australia). Posted 2 weeks ago.",
+      "text": "Health Professional Level 2 - Pathology Medical Scientist — Canberra Health Services (Canberra, Australian Capital Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1053,7 +1003,7 @@
     },
     {
       "id": "l450",
-      "text": "Scientist \u2014 Dorevitch Pathology (Warrnambool, Victoria, Australia). Posted 1 day ago.",
+      "text": "Scientist — Dorevitch Pathology (Warrnambool, Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1074,7 +1024,7 @@
     },
     {
       "id": "l451",
-      "text": "NSW Biochemical Genetics Service - Hospital Scientific Officer \u2014 Sydney Children's Hospitals Network (Westmead, New South Wales, Australia). Posted 1 week ago.",
+      "text": "NSW Biochemical Genetics Service - Hospital Scientific Officer — Sydney Children's Hospitals Network (Westmead, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1095,7 +1045,7 @@
     },
     {
       "id": "l452",
-      "text": "Immunology Scientist \u2014 QML Pathology (Murarrie, Queensland, Australia). Posted 2 weeks ago.",
+      "text": "Immunology Scientist — QML Pathology (Murarrie, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1116,7 +1066,7 @@
     },
     {
       "id": "l453",
-      "text": "Medical Scientist Grade 1 \u2014 The Royal Melbourne Hospital (Melbourne, Victoria, Australia). Posted 2 days ago.",
+      "text": "Medical Scientist Grade 1 — The Royal Melbourne Hospital (Melbourne, Victoria, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1137,7 +1087,7 @@
     },
     {
       "id": "l454",
-      "text": "Technical Officer \u2014 Genea (Deakin, Australian Capital Territory, Australia). Posted 5 days ago.",
+      "text": "Technical Officer — Genea (Deakin, Australian Capital Territory, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1158,7 +1108,7 @@
     },
     {
       "id": "l455",
-      "text": "Health Professional Level 3 - Senior Scientist \u2014 Canberra Health Services (Canberra, Australian Capital Territory, Australia). Posted 2 weeks ago.",
+      "text": "Health Professional Level 3 - Senior Scientist — Canberra Health Services (Canberra, Australian Capital Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1179,13 +1129,13 @@
     },
     {
       "id": "l556",
-      "text": "feat(skills): add clinical-case-report skill\n## What\r\n\r\nAdds `clinical-case-report` \u2014 a new healthcare skill that generates structured medical case presentations for clinical rounds, conferences, and ward documentation.\r\n\r\n## Why\r\n\r\nThe current skill catalog has 31 skills covering SaaS, marketing, and operations \u2014 zero healthcare coverage. Hea\nHi @syedali254! \ud83c\udf89\n\nThanks for the contribution \u2014 adding healthcare coverage to the skill catalog is a great direction.\n\nI will run a deep review and get b\u2026",
+      "text": "feat(skills): add clinical-case-report skill\n## What\r\n\r\nAdds `clinical-case-report` — a new healthcare skill that generates structured medical case presentations for clinical rounds, conferences, and ward documentation.\r\n\r\n## Why\r\n\r\nThe current skill catalog has 31 skills covering SaaS, marketing, and operations — zero healthcare coverage. Hea\nHi @syedali254! 🎉\n\nThanks for the contribution — adding healthcare coverage to the skill catalog is a great direction.\n\nI will run a deep review and get b…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(skills): add clinical-case-report skill\n## What\r\n\r\nAdds `clinical-case-repo\u2026",
+          "title": "feat(skills): add clinical-case-report skill\n## What\r\n\r\nAdds `clinical-case-repo…",
           "url": "https://github.com/nexu-io/open-design/pull/581",
           "date": "2026-05-05",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1200,13 +1150,13 @@
     },
     {
       "id": "l557",
-      "text": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical thriller. Can you expand on this.\n\n\n\n\n# THE LAST PHYSICIAN\n\nIn the year 2115, humanity has achieved what previous generations believed impossible.\n\nDisease has been conquered. Cancer, dementia, heart failure, sepsis, and countless other k\nAbsolutely\u2014this has the bones of a very strong near-future thriller. The concept already feels cinematic, high-stakes, and thematically rich. What it needs is a bit more structure \u2026",
+      "text": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical thriller. Can you expand on this.\n\n\n\n\n# THE LAST PHYSICIAN\n\nIn the year 2115, humanity has achieved what previous generations believed impossible.\n\nDisease has been conquered. Cancer, dementia, heart failure, sepsis, and countless other k\nAbsolutely—this has the bones of a very strong near-future thriller. The concept already feels cinematic, high-stakes, and thematically rich. What it needs is a bit more structure …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical\u2026",
+          "title": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical…",
           "url": "https://github.com/badbeaver88/game/issues/19",
           "date": "2026-06-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1221,13 +1171,13 @@
     },
     {
       "id": "l558",
-      "text": "Can AI Replace Legal Nurse Consultants? How Artificial Intelligence Is Changing Medical-Record Analysis and Clinical-Legal Work\nArtificial intelligence can read thousands of pages of medical records faster than any human. It can extract dates. Identify medications. Summarize physician notes. Organize laboratory results. Generate preliminary medical chronologies. Search massive records in seconds. So an uncomfortable question deserves a serious answer: Can AI replace the Legal Nurse Consultant? T\u2026",
+      "text": "Can AI Replace Legal Nurse Consultants? How Artificial Intelligence Is Changing Medical-Record Analysis and Clinical-Legal Work\nArtificial intelligence can read thousands of pages of medical records faster than any human. It can extract dates. Identify medications. Summarize physician notes. Organize laboratory results. Generate preliminary medical chronologies. Search massive records in seconds. So an uncomfortable question deserves a serious answer: Can AI replace the Legal Nurse Consultant? T…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Can AI Replace Legal Nurse Consultants? How Artificial Intelligence Is Changing \u2026",
+          "title": "Can AI Replace Legal Nurse Consultants? How Artificial Intelligence Is Changing …",
           "url": "https://www.reddit.com/r/ClinicalLegalField/comments/1vkdfl3/can_ai_replace_legal_nurse_consultants_how/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1242,13 +1192,13 @@
     },
     {
       "id": "l559",
-      "text": "How do I report my doctor for using AI to diagnose my nerve pain?\nAs the title says. I\u2019m new around this community but I\u2019ve had joint and nerve pain since I was a kid. I\u2019d been told it was growing pains, that I was exaggerating, the whole run of the mill docs use to not have to investigate pain. But this time around nothing usual helped, and I was losing sensation in my pinky/ring fingers, so I went to my usual doctor in hopes they could refer me to someone who specializes in rheumatology\u2026 But w\u2026",
+      "text": "How do I report my doctor for using AI to diagnose my nerve pain?\nAs the title says. I’m new around this community but I’ve had joint and nerve pain since I was a kid. I’d been told it was growing pains, that I was exaggerating, the whole run of the mill docs use to not have to investigate pain. But this time around nothing usual helped, and I was losing sensation in my pinky/ring fingers, so I went to my usual doctor in hopes they could refer me to someone who specializes in rheumatology… But w…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "How do I report my doctor for using AI to diagnose my nerve pain?\nAs the title s\u2026",
+          "title": "How do I report my doctor for using AI to diagnose my nerve pain?\nAs the title s…",
           "url": "https://www.reddit.com/r/ChronicPain/comments/1vg5l5a/how_do_i_report_my_doctor_for_using_ai_to/",
           "date": "2026-08-05",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1263,13 +1213,13 @@
     },
     {
       "id": "l560",
-      "text": "As AI beats doctors, regulators shouldn't force a human into the loop\nThis is from the Journal of the American Medical Assocation . Nice to see docs taking this very ethical stance. https://the-decoder.com/as-ai-beats-doctors-regulators-shouldnt-force-a-human-into-the-loop-jama-piece-says/ https://jamanetwork.com/journals/jama/article-abstract/2852952# &quot;The prevailing view of artificial intelligence (AI) in medicine is that it will support physician-led care. The American Medical Associatio\u2026",
+      "text": "As AI beats doctors, regulators shouldn't force a human into the loop\nThis is from the Journal of the American Medical Assocation . Nice to see docs taking this very ethical stance. https://the-decoder.com/as-ai-beats-doctors-regulators-shouldnt-force-a-human-into-the-loop-jama-piece-says/ https://jamanetwork.com/journals/jama/article-abstract/2852952# &quot;The prevailing view of artificial intelligence (AI) in medicine is that it will support physician-led care. The American Medical Associatio…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "As AI beats doctors, regulators shouldn't force a human into the loop\nThis is fr\u2026",
+          "title": "As AI beats doctors, regulators shouldn't force a human into the loop\nThis is fr…",
           "url": "https://www.reddit.com/r/accelerate/comments/1vrzyqx/as_ai_beats_doctors_regulators_shouldnt_force_a/",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1284,13 +1234,13 @@
     },
     {
       "id": "l561",
-      "text": "From Lab to Clinic: Build Clinical AI Infrastructure, Not More Demos | DLD Health (Lisa Adams)\nIn this DLD Health talk, Prof. Lisa Adams \u2013 radiologist and Deputy Director at the Institute of Diagnostic and Interventional Radiology at TUM University Hospital Munich \u2013 argues that healthcare needs to move beyond impressive AI demos and build real clinical AI infrastructure inside hospitals.\n\nHer key message: useful AI will only become part of everyday care if hospitals own enough local AI capacity \u2026",
+      "text": "From Lab to Clinic: Build Clinical AI Infrastructure, Not More Demos | DLD Health (Lisa Adams)\nIn this DLD Health talk, Prof. Lisa Adams – radiologist and Deputy Director at the Institute of Diagnostic and Interventional Radiology at TUM University Hospital Munich – argues that healthcare needs to move beyond impressive AI demos and build real clinical AI infrastructure inside hospitals.\n\nHer key message: useful AI will only become part of everyday care if hospitals own enough local AI capacity …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "From Lab to Clinic: Build Clinical AI Infrastructure, Not More Demos | DLD Healt\u2026",
+          "title": "From Lab to Clinic: Build Clinical AI Infrastructure, Not More Demos | DLD Healt…",
           "url": "https://www.youtube.com/watch?v=kVMnoeSK8Z8",
           "date": "2026-06-15",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1305,13 +1255,13 @@
     },
     {
       "id": "l562",
-      "text": "How AI Found 1,700 Patients for a Trial That Could Only Find 6 | Julio Martinez-Clark\nAnastassia and Julio unpack the evolving role of AI in healthcare, with a focus on clinical trials, patient identification, and medical education.\n\nJulio G. Martinez-Clark is an entrepreneur and clinical research strategist recognized for transforming global clinical trial operations across MedTech, biopharma, and radiopharmaceutical sectors. He is the CEO of bioaccess\u00ae, where he champions quality and efficienc\u2026",
+      "text": "How AI Found 1,700 Patients for a Trial That Could Only Find 6 | Julio Martinez-Clark\nAnastassia and Julio unpack the evolving role of AI in healthcare, with a focus on clinical trials, patient identification, and medical education.\n\nJulio G. Martinez-Clark is an entrepreneur and clinical research strategist recognized for transforming global clinical trial operations across MedTech, biopharma, and radiopharmaceutical sectors. He is the CEO of bioaccess®, where he champions quality and efficienc…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI Found 1,700 Patients for a Trial That Could Only Find 6 | Julio Martinez-\u2026",
+          "title": "How AI Found 1,700 Patients for a Trial That Could Only Find 6 | Julio Martinez-…",
           "url": "https://www.youtube.com/watch?v=aJv5hVBlhl4",
           "date": "2026-04-07",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1402,6 +1352,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

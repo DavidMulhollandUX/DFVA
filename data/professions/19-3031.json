@@ -15,64 +15,14 @@
   "programs": [],
   "claims": [
     {
-      "id": "19-3031-01",
-      "text": "National peak professional bodies and statutory regulators governing Clinical, Counseling, and School Psychologists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Clinical, Counseling, and School Psychologists",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Clinical, Counseling, and School Psychologists",
-          "url": "https://www.psc.gov.au/standards/19-3031",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Clinical, Counseling, and School Psychologists"
-        }
-      ],
-      "scope": "Australian practitioners in Clinical, Counseling, and School Psychologists across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "19-3031-02",
-      "text": "Automation of routine transactional and analytical tasks in Clinical, Counseling, and School Psychologists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Clinical, Counseling, and School Psychologists",
-          "url": "https://www.jobsandskills.gov.au/research/19-3031",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Clinical, Counseling, and School Psychologists in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Clinical, Counseling, and School Psychologists roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "feat: add 3 skills (chiropractic, business-valuation, school-counseling)\nThis PR adds 3 new domain-specific skills.\n\n---\n\n## Skill 1: `chiropractic-encounter-note-drafter` \u2014 chiropractic\n\n**Skill name and domain:** `chiropractic-encounter-note-drafter` in the `chiropractic` plugin (new plugin).\n\n**Problem it addresses:** Doctors of Chiropractic spend 90\u2013150 minutes per d",
+      "text": "feat: add 3 skills (chiropractic, business-valuation, school-counseling)\nThis PR adds 3 new domain-specific skills.\n\n---\n\n## Skill 1: `chiropractic-encounter-note-drafter` — chiropractic\n\n**Skill name and domain:** `chiropractic-encounter-note-drafter` in the `chiropractic` plugin (new plugin).\n\n**Problem it addresses:** Doctors of Chiropractic spend 90–150 minutes per d",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: add 3 skills (chiropractic, business-valuation, school-counseling)\nThis PR\u2026",
+          "title": "feat: add 3 skills (chiropractic, business-valuation, school-counseling)\nThis PR…",
           "url": "https://github.com/beasaltfish/Open-Skill-Hub-Archive/pull/93",
           "date": "2026-06-01",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -255,13 +205,13 @@
     },
     {
       "id": "l512",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -297,13 +247,13 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -486,13 +436,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -528,13 +478,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -570,13 +520,13 @@
     },
     {
       "id": "l527",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -591,13 +541,13 @@
     },
     {
       "id": "l528",
-      "text": "CMV: modern generative ai has been a net negative to society this far\nHere&#39;s some of my reasoning, though I want you to know that I don&#39;t have perfect understanding and knowledge of the topic and besides my view, I still use genai weekly: It has dramatically increased the amount of low-quality, AI-generated content online, making it harder to find genuine information and discussion. Misinformation, scams, impersonation, and deepfakes have become much easier and cheaper to produce Many pe\u2026",
+      "text": "CMV: modern generative ai has been a net negative to society this far\nHere&#39;s some of my reasoning, though I want you to know that I don&#39;t have perfect understanding and knowledge of the topic and besides my view, I still use genai weekly: It has dramatically increased the amount of low-quality, AI-generated content online, making it harder to find genuine information and discussion. Misinformation, scams, impersonation, and deepfakes have become much easier and cheaper to produce Many pe…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "CMV: modern generative ai has been a net negative to society this far\nHere&#39;s\u2026",
+          "title": "CMV: modern generative ai has been a net negative to society this far\nHere&#39;s…",
           "url": "https://www.reddit.com/r/changemyview/comments/1vf8rfu/cmv_modern_generative_ai_has_been_a_net_negative/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -612,13 +562,13 @@
     },
     {
       "id": "l529",
-      "text": "Prenup and premarital counseling 39M and 48F\nI 39M recieved a prenup 26 days before the wedding from my fianc\u00e9e (48F). We spoke briefly about it one morning months prior. I have debt but will aquire a healthcare business from a mentor here pretty soon. She has a high net worth, which is understandable to have a prenup. Day 23 I retain a family lawyer. Day 20 we meet and go over what a prenup is and how it works. I ask to not touch her money and walk away with no alimony. I also ask how could I p\u2026",
+      "text": "Prenup and premarital counseling 39M and 48F\nI 39M recieved a prenup 26 days before the wedding from my fiancée (48F). We spoke briefly about it one morning months prior. I have debt but will aquire a healthcare business from a mentor here pretty soon. She has a high net worth, which is understandable to have a prenup. Day 23 I retain a family lawyer. Day 20 we meet and go over what a prenup is and how it works. I ask to not touch her money and walk away with no alimony. I also ask how could I p…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Prenup and premarital counseling 39M and 48F\nI 39M recieved a prenup 26 days bef\u2026",
+          "title": "Prenup and premarital counseling 39M and 48F\nI 39M recieved a prenup 26 days bef…",
           "url": "https://www.reddit.com/r/relationship_advice/comments/1vblhdh/prenup_and_premarital_counseling_39m_and_48f/",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -660,7 +610,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "AI designed a virus, scientists brought it to life | Eitan Gefen, Ynetnews\n\nUnti\u2026",
+          "title": "AI designed a virus, scientists brought it to life | Eitan Gefen, Ynetnews\n\nUnti…",
           "url": "https://x.com/OwenGregorian/status/2088969823044723044",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -681,7 +631,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "I am pretty close to celebrating. We seem to have solved the PDF / lab / note ex\u2026",
+          "title": "I am pretty close to celebrating. We seem to have solved the PDF / lab / note ex…",
           "url": "https://x.com/JohnGoldman/status/2093486266260341242",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -696,13 +646,13 @@
     },
     {
       "id": "l533",
-      "text": "We launched Synapse. [ Read till end ]\n\nAnd instead of posting another \u201cwe\u2019re changing healthcare with AI\u201d thread, I want to share the questions people have been asking us.\n\nDoctors. Hospital owners. Founders. VCs. Customers.\n\nSome of them were uncomfortable.\n\nProbably the most useful questions we\u2019ve received.\n\n\u201cWhy would Apollo need you if OpenAI or Microsoft can give them models, servers, engineers and basically unlimited compute?\u201d\n\nFair.\n\nWe are not trying to build a better GPT.\n\nAnd we\u2019re no",
+      "text": "We launched Synapse. [ Read till end ]\n\nAnd instead of posting another “we’re changing healthcare with AI” thread, I want to share the questions people have been asking us.\n\nDoctors. Hospital owners. Founders. VCs. Customers.\n\nSome of them were uncomfortable.\n\nProbably the most useful questions we’ve received.\n\n“Why would Apollo need you if OpenAI or Microsoft can give them models, servers, engineers and basically unlimited compute?”\n\nFair.\n\nWe are not trying to build a better GPT.\n\nAnd we’re no",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "We launched Synapse. [ Read till end ]\n\nAnd instead of posting another \u201cwe\u2019re ch\u2026",
+          "title": "We launched Synapse. [ Read till end ]\n\nAnd instead of posting another “we’re ch…",
           "url": "https://x.com/KarthikNagpuri/status/2093567763801686429",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -765,7 +715,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Ok this is super nerdy deep in the weeds practical real world AI use on the cutt\u2026",
+          "title": "Ok this is super nerdy deep in the weeds practical real world AI use on the cutt…",
           "url": "https://x.com/JohnGoldman/status/2087292234572218811",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -786,7 +736,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The Rise of the AI Generalist: How AI Copilots Are Reshaping the Global Workforc\u2026",
+          "title": "The Rise of the AI Generalist: How AI Copilots Are Reshaping the Global Workforc…",
           "url": "https://x.com/DinoJVidiliCons/status/2089356456587931795",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -822,13 +772,13 @@
     },
     {
       "id": "l539",
-      "text": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the San\u0101tana Question of the Self",
+      "text": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the Sanātana Question of the Self",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the San\u0101tana Questio\u2026",
+          "title": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the Sanātana Questio…",
           "url": "https://x.com/nithinpalal/status/2086874531751489924",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -843,13 +793,13 @@
     },
     {
       "id": "l540",
-      "text": "Daily AI Briefing - Tuesday , August 25\n\n1. Anonymous \"Ox Alpha\" model appears free on OpenRouter \u2014 likely a Chinese lab's stealth launch\nAn unattributed model with a 1M-token context window and text/image/video input appeared on OpenRouter and OpenCode on August 20 under the ID stealth/ox-alpha, free for roughly a week. Community tokenizer fingerprinting points strongly to https://t.co/BDvjCDsRp2's GLM family (a possible GLM-5.3), though no lab has claimed it; it would be the fifth anonymous re",
+      "text": "Daily AI Briefing - Tuesday , August 25\n\n1. Anonymous \"Ox Alpha\" model appears free on OpenRouter — likely a Chinese lab's stealth launch\nAn unattributed model with a 1M-token context window and text/image/video input appeared on OpenRouter and OpenCode on August 20 under the ID stealth/ox-alpha, free for roughly a week. Community tokenizer fingerprinting points strongly to https://t.co/BDvjCDsRp2's GLM family (a possible GLM-5.3), though no lab has claimed it; it would be the fifth anonymous re",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Daily AI Briefing - Tuesday , August 25\n\n1. Anonymous \"Ox Alpha\" model appears f\u2026",
+          "title": "Daily AI Briefing - Tuesday , August 25\n\n1. Anonymous \"Ox Alpha\" model appears f…",
           "url": "https://x.com/SarangMahatwo/status/2092260161767264376",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -864,13 +814,13 @@
     },
     {
       "id": "l541",
-      "text": "President Trump Champions Educational Freedom \u2014 Putting Students and Parents First",
+      "text": "President Trump Champions Educational Freedom — Putting Students and Parents First",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "President Trump Champions Educational Freedom \u2014 Putting Students and Parents Fir\u2026",
+          "title": "President Trump Champions Educational Freedom — Putting Students and Parents Fir…",
           "url": "https://x.com/WhiteHouse/status/2091958903277769161",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -891,7 +841,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "So, the @CIA  and its well documented torture programme have truly screwed up th\u2026",
+          "title": "So, the @CIA  and its well documented torture programme have truly screwed up th…",
           "url": "https://x.com/yvonneridley/status/2093404169415573674",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -912,7 +862,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@TheInsiderPaper National Association of School Psychologists believes otherwise\u2026",
+          "title": "@TheInsiderPaper National Association of School Psychologists believes otherwise…",
           "url": "https://x.com/ANanaRepublic/status/2091984032380629280",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -927,13 +877,13 @@
     },
     {
       "id": "l544",
-      "text": "TEA Under Morath Lets Houston ISD Keep Filing H-1Bs for $126K Engineers & School Psychologists\n\nThe Texas Education Agency has full control over Houston ISD \u2014 yet under TEA\u2019s watch, HISD continues filing H-1B visas, including for \u201cEngineer Center of Excellence\u201d positions paid a minimum of $126,000 (and higher).  Why is Houston ISD also hiring foreign School Psychologists (LSSPs) on H-1B visas?\n\nGovernor Abbott just made it crystal clear: \u201cExactly zero Texas public school employees should be here",
+      "text": "TEA Under Morath Lets Houston ISD Keep Filing H-1Bs for $126K Engineers & School Psychologists\n\nThe Texas Education Agency has full control over Houston ISD — yet under TEA’s watch, HISD continues filing H-1B visas, including for “Engineer Center of Excellence” positions paid a minimum of $126,000 (and higher).  Why is Houston ISD also hiring foreign School Psychologists (LSSPs) on H-1B visas?\n\nGovernor Abbott just made it crystal clear: “Exactly zero Texas public school employees should be here",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "TEA Under Morath Lets Houston ISD Keep Filing H-1Bs for $126K Engineers & School\u2026",
+          "title": "TEA Under Morath Lets Houston ISD Keep Filing H-1Bs for $126K Engineers & School…",
           "url": "https://x.com/drbone4tx/status/2090116099912147066",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -948,13 +898,13 @@
     },
     {
       "id": "l545",
-      "text": "@libsoftiktok @jonesville We have school psychologists in Utah preaching this shit. It\u2019s insane.",
+      "text": "@libsoftiktok @jonesville We have school psychologists in Utah preaching this shit. It’s insane.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@libsoftiktok @jonesville We have school psychologists in Utah preaching this sh\u2026",
+          "title": "@libsoftiktok @jonesville We have school psychologists in Utah preaching this sh…",
           "url": "https://x.com/Journey_Utah/status/2092120288494522673",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -969,13 +919,13 @@
     },
     {
       "id": "l546",
-      "text": "Administration and Literacy. That would cover health service managers, school principals, Human Resources, school psychologists, writers and editors in literary arts. Just two weeks ago we learned over 70% of the publishing world is made up of white women today! That doesn\u2019t seem like balance to me!",
+      "text": "Administration and Literacy. That would cover health service managers, school principals, Human Resources, school psychologists, writers and editors in literary arts. Just two weeks ago we learned over 70% of the publishing world is made up of white women today! That doesn’t seem like balance to me!",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Administration and Literacy. That would cover health service managers, school pr\u2026",
+          "title": "Administration and Literacy. That would cover health service managers, school pr…",
           "url": "https://x.com/LisaBritton/status/2090747457390977097",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -990,13 +940,13 @@
     },
     {
       "id": "l547",
-      "text": "A medical diagnosis and educational eligibility are two different things, and explaining that distinction to families isn\u2019t always easy.\n\nThat\u2019s why we created a new FREE Medical Diagnosis vs. Educational Eligibility handout to help school psychologists explain the difference.",
+      "text": "A medical diagnosis and educational eligibility are two different things, and explaining that distinction to families isn’t always easy.\n\nThat’s why we created a new FREE Medical Diagnosis vs. Educational Eligibility handout to help school psychologists explain the difference.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A medical diagnosis and educational eligibility are two different things, and ex\u2026",
+          "title": "A medical diagnosis and educational eligibility are two different things, and ex…",
           "url": "https://x.com/SchoolPsychDCom/status/2087954771269312773",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1017,7 +967,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "\"When student data is poor, the last rock that education academics want to turn \u2026",
+          "title": "\"When student data is poor, the last rock that education academics want to turn …",
           "url": "https://x.com/EduConsumersFdn/status/2090420259404513298",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1038,7 +988,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Every other position that requires a master's degree is paid on a different scal\u2026",
+          "title": "Every other position that requires a master's degree is paid on a different scal…",
           "url": "https://x.com/uglygreenjacket/status/2085786183615774970",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1059,7 +1009,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@gloomyyumes I got my diagnosis at 16 after struggling with audhd through my sch\u2026",
+          "title": "@gloomyyumes I got my diagnosis at 16 after struggling with audhd through my sch…",
           "url": "https://x.com/n0t_deer/status/2091569108139610273",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1080,7 +1030,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@lilmoemusic @Mike_Amanpene which test in particular? those based on recommendat\u2026",
+          "title": "@lilmoemusic @Mike_Amanpene which test in particular? those based on recommendat…",
           "url": "https://x.com/nymfree/status/2091940538102518213",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1095,13 +1045,13 @@
     },
     {
       "id": "l552",
-      "text": "Adding to the list:\nMarxist Paulo Freire who fashioned modern education as a tool for social change. Equity\u2019s oppressor vs oppressed stance. Centering education on race and sexual identities. The claim that America was founded on racism and all American institutions are racist today. What could go wrong? No wonder the push now is to hire school psychologists to fix the mess they made. But I would advise to stay away.",
+      "text": "Adding to the list:\nMarxist Paulo Freire who fashioned modern education as a tool for social change. Equity’s oppressor vs oppressed stance. Centering education on race and sexual identities. The claim that America was founded on racism and all American institutions are racist today. What could go wrong? No wonder the push now is to hire school psychologists to fix the mess they made. But I would advise to stay away.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Adding to the list:\nMarxist Paulo Freire who fashioned modern education as a too\u2026",
+          "title": "Adding to the list:\nMarxist Paulo Freire who fashioned modern education as a too…",
           "url": "https://x.com/D4131David/status/2092765227766915125",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1116,13 +1066,13 @@
     },
     {
       "id": "l553",
-      "text": "AI Workflows for School Psychologists: Finishing Reports Faster and Leading Better IEP Meetings\nYou sit down at your desk with a stack of evaluation data, late reports, and an IEP meeting starting in twenty minutes. The paperwork is piling up, and the clock is ticking. You want to write a comprehensive report that truly helps the student, but right now you are just trying to get it out the door on time.\n\nIn this session of School Psych AI Office Hours, we focus on what you can control. We break \u2026",
+      "text": "AI Workflows for School Psychologists: Finishing Reports Faster and Leading Better IEP Meetings\nYou sit down at your desk with a stack of evaluation data, late reports, and an IEP meeting starting in twenty minutes. The paperwork is piling up, and the clock is ticking. You want to write a comprehensive report that truly helps the student, but right now you are just trying to get it out the door on time.\n\nIn this session of School Psych AI Office Hours, we focus on what you can control. We break …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Workflows for School Psychologists: Finishing Reports Faster and Leading Bett\u2026",
+          "title": "AI Workflows for School Psychologists: Finishing Reports Faster and Leading Bett…",
           "url": "https://www.youtube.com/watch?v=hH9EIoUvxQ4",
           "date": "2026-05-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1137,13 +1087,13 @@
     },
     {
       "id": "l554",
-      "text": "Office Hours Part 2: How to use the Readability Assistant Tool to Simplify Clinical Jargon\nIn this session of SchoolPsych AI Office Hours, Byron McClure demonstrates how to transform complex clinical jargon into parent friendly language using the Readability Assistant. Whether you're working with WISC interpretive reports or lengthy psychological evaluations, this tool allows you to set specific grade level accessibility to ensure your findings are actionable and understandable for families.\nThe\u2026",
+      "text": "Office Hours Part 2: How to use the Readability Assistant Tool to Simplify Clinical Jargon\nIn this session of SchoolPsych AI Office Hours, Byron McClure demonstrates how to transform complex clinical jargon into parent friendly language using the Readability Assistant. Whether you're working with WISC interpretive reports or lengthy psychological evaluations, this tool allows you to set specific grade level accessibility to ensure your findings are actionable and understandable for families.\nThe…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Office Hours Part 2: How to use the Readability Assistant Tool to Simplify Clini\u2026",
+          "title": "Office Hours Part 2: How to use the Readability Assistant Tool to Simplify Clini…",
           "url": "https://www.youtube.com/watch?v=X__3Qg2Q_Dc",
           "date": "2026-04-09",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1158,13 +1108,13 @@
     },
     {
       "id": "l455",
-      "text": "Psychologist \u2013 Register of Interest \u2014 Department of Education and Training (Tennant Creek, Northern Territory, Australia). Posted 2 months ago.",
+      "text": "Psychologist – Register of Interest — Department of Education and Training (Tennant Creek, Northern Territory, Australia). Posted 2 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
           "publisher": "Department of Education and Training",
-          "title": "Psychologist \u2013 Register of Interest",
+          "title": "Psychologist – Register of Interest",
           "url": "https://www.linkedin.com/jobs/view/4429552801",
           "date": "2 months ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
@@ -1179,7 +1129,7 @@
     },
     {
       "id": "l456",
-      "text": "Psychologist \u2014 Northern Territory Government (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
+      "text": "Psychologist — Northern Territory Government (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1200,7 +1150,7 @@
     },
     {
       "id": "l457",
-      "text": "Psychologist \u2014 Department of Education (Morwell, Victoria, Australia). Posted 1 week ago.",
+      "text": "Psychologist — Department of Education (Morwell, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1221,7 +1171,7 @@
     },
     {
       "id": "l458",
-      "text": "Psychologist \u2014 NSW Department of Communities and Justice (Tenambit, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Psychologist — NSW Department of Communities and Justice (Tenambit, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1242,7 +1192,7 @@
     },
     {
       "id": "l459",
-      "text": "Psychologist (517844) \u2014 Department of Health, Tasmania (West Coast, Tasmania, Australia). Posted 1 day ago.",
+      "text": "Psychologist (517844) — Department of Health, Tasmania (West Coast, Tasmania, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1263,7 +1213,7 @@
     },
     {
       "id": "l460",
-      "text": "Psychologist \u2014 NSW Department of Communities and Justice (Little Jilliby, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Psychologist — NSW Department of Communities and Justice (Little Jilliby, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1284,7 +1234,7 @@
     },
     {
       "id": "l461",
-      "text": "Psychologist \u2014 Sigma Therapies (Perth, Western Australia, Australia). Posted 2 days ago.",
+      "text": "Psychologist — Sigma Therapies (Perth, Western Australia, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1305,7 +1255,7 @@
     },
     {
       "id": "l462",
-      "text": "Psychologist \u2014 NT Health (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
+      "text": "Psychologist — NT Health (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1326,7 +1276,7 @@
     },
     {
       "id": "l463",
-      "text": "Psychologist \u2014 Succoris Psychology Group (Perth, Western Australia, Australia). Posted 5 days ago.",
+      "text": "Psychologist — Succoris Psychology Group (Perth, Western Australia, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1347,7 +1297,7 @@
     },
     {
       "id": "l464",
-      "text": "Psychologist \u2014 Activ8 Mind (Adelaide, South Australia, Australia). Posted 1 week ago.",
+      "text": "Psychologist — Activ8 Mind (Adelaide, South Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1368,13 +1318,13 @@
     },
     {
       "id": "l565",
-      "text": "CMV: modern generative ai has been a net negative to society this far\nHere&#39;s some of my reasoning, though I want you to know that I don&#39;t have perfect understanding and knowledge of the topic and besides my view, I still use genai weekly: It has dramatically increased the amount of low-quality, AI-generated content online, making it harder to find genuine information and discussion. Misinformation, scams, impersonation, and deepfakes have become much easier and cheaper to produce Many pe\u2026",
+      "text": "CMV: modern generative ai has been a net negative to society this far\nHere&#39;s some of my reasoning, though I want you to know that I don&#39;t have perfect understanding and knowledge of the topic and besides my view, I still use genai weekly: It has dramatically increased the amount of low-quality, AI-generated content online, making it harder to find genuine information and discussion. Misinformation, scams, impersonation, and deepfakes have become much easier and cheaper to produce Many pe…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "CMV: modern generative ai has been a net negative to society this far\nHere&#39;s\u2026",
+          "title": "CMV: modern generative ai has been a net negative to society this far\nHere&#39;s…",
           "url": "https://www.reddit.com/r/changemyview/comments/1vf8rfu/cmv_modern_generative_ai_has_been_a_net_negative/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1389,13 +1339,13 @@
     },
     {
       "id": "l566",
-      "text": "Prenup and premarital counseling 39M and 48F\nI 39M recieved a prenup 26 days before the wedding from my fianc\u00e9e (48F). We spoke briefly about it one morning months prior. I have debt but will aquire a healthcare business from a mentor here pretty soon. She has a high net worth, which is understandable to have a prenup. Day 23 I retain a family lawyer. Day 20 we meet and go over what a prenup is and how it works. I ask to not touch her money and walk away with no alimony. I also ask how could I p\u2026",
+      "text": "Prenup and premarital counseling 39M and 48F\nI 39M recieved a prenup 26 days before the wedding from my fiancée (48F). We spoke briefly about it one morning months prior. I have debt but will aquire a healthcare business from a mentor here pretty soon. She has a high net worth, which is understandable to have a prenup. Day 23 I retain a family lawyer. Day 20 we meet and go over what a prenup is and how it works. I ask to not touch her money and walk away with no alimony. I also ask how could I p…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Prenup and premarital counseling 39M and 48F\nI 39M recieved a prenup 26 days bef\u2026",
+          "title": "Prenup and premarital counseling 39M and 48F\nI 39M recieved a prenup 26 days bef…",
           "url": "https://www.reddit.com/r/relationship_advice/comments/1vblhdh/prenup_and_premarital_counseling_39m_and_48f/",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1410,13 +1360,13 @@
     },
     {
       "id": "l567",
-      "text": "AI Workflows for School Psychologists: Finishing Reports Faster and Leading Better IEP Meetings\nYou sit down at your desk with a stack of evaluation data, late reports, and an IEP meeting starting in twenty minutes. The paperwork is piling up, and the clock is ticking. You want to write a comprehensive report that truly helps the student, but right now you are just trying to get it out the door on time.\n\nIn this session of School Psych AI Office Hours, we focus on what you can control. We break \u2026",
+      "text": "AI Workflows for School Psychologists: Finishing Reports Faster and Leading Better IEP Meetings\nYou sit down at your desk with a stack of evaluation data, late reports, and an IEP meeting starting in twenty minutes. The paperwork is piling up, and the clock is ticking. You want to write a comprehensive report that truly helps the student, but right now you are just trying to get it out the door on time.\n\nIn this session of School Psych AI Office Hours, we focus on what you can control. We break …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Workflows for School Psychologists: Finishing Reports Faster and Leading Bett\u2026",
+          "title": "AI Workflows for School Psychologists: Finishing Reports Faster and Leading Bett…",
           "url": "https://www.youtube.com/watch?v=hH9EIoUvxQ4",
           "date": "2026-05-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1431,13 +1381,13 @@
     },
     {
       "id": "l568",
-      "text": "Office Hours Part 2: How to use the Readability Assistant Tool to Simplify Clinical Jargon\nIn this session of SchoolPsych AI Office Hours, Byron McClure demonstrates how to transform complex clinical jargon into parent friendly language using the Readability Assistant. Whether you're working with WISC interpretive reports or lengthy psychological evaluations, this tool allows you to set specific grade level accessibility to ensure your findings are actionable and understandable for families.\nThe\u2026",
+      "text": "Office Hours Part 2: How to use the Readability Assistant Tool to Simplify Clinical Jargon\nIn this session of SchoolPsych AI Office Hours, Byron McClure demonstrates how to transform complex clinical jargon into parent friendly language using the Readability Assistant. Whether you're working with WISC interpretive reports or lengthy psychological evaluations, this tool allows you to set specific grade level accessibility to ensure your findings are actionable and understandable for families.\nThe…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Office Hours Part 2: How to use the Readability Assistant Tool to Simplify Clini\u2026",
+          "title": "Office Hours Part 2: How to use the Readability Assistant Tool to Simplify Clini…",
           "url": "https://www.youtube.com/watch?v=X__3Qg2Q_Dc",
           "date": "2026-04-09",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1528,6 +1478,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

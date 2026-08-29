@@ -14,58 +14,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "27-4031-01",
-      "text": "National peak professional bodies and statutory regulators governing Camera Operators, Television, Video, and Motion Picture enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Camera Operators, Television, Video, and Motion Picture",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Camera Operators, Television, Video, and Motion Picture",
-          "url": "https://www.psc.gov.au/standards/27-4031",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Camera Operators, Television, Video, and Motion Picture"
-        }
-      ],
-      "scope": "Australian practitioners in Camera Operators, Television, Video, and Motion Picture across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "27-4031-02",
-      "text": "Automation of routine transactional and analytical tasks in Camera Operators, Television, Video, and Motion Picture heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Camera Operators, Television, Video, and Motion Picture",
-          "url": "https://www.jobsandskills.gov.au/research/27-4031",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Camera Operators, Television, Video, and Motion Picture in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Camera Operators, Television, Video, and Motion Picture roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Camera Operator \u2014 Seven West Media (Perth, Western Australia, Australia). Posted 1 month ago.",
+      "text": "Camera Operator — Seven West Media (Perth, Western Australia, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -86,7 +36,7 @@
     },
     {
       "id": "l404",
-      "text": "Videographer/Video Editor \u2014 KINCROME (Scoresby, Victoria, Australia). Posted 1 day ago.",
+      "text": "Videographer/Video Editor — KINCROME (Scoresby, Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -107,7 +57,7 @@
     },
     {
       "id": "l405",
-      "text": "Video Editor \u2014 FBI TALENT CO. (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Video Editor — FBI TALENT CO. (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -128,7 +78,7 @@
     },
     {
       "id": "l406",
-      "text": "Project Photographer and Drone Pilot \u2014 John Holland (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
+      "text": "Project Photographer and Drone Pilot — John Holland (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -149,7 +99,7 @@
     },
     {
       "id": "l407",
-      "text": "Senior YouTube Channel Specialist & Videographer \u2014 Showpo (Sydney, New South Wales, Australia). Posted 1 month ago.",
+      "text": "Senior YouTube Channel Specialist & Videographer — Showpo (Sydney, New South Wales, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -170,7 +120,7 @@
     },
     {
       "id": "l408",
-      "text": "Senior Videographer & Editor \u2014 Social Fixation (Melbourne, Victoria, Australia). Posted 1 month ago.",
+      "text": "Senior Videographer & Editor — Social Fixation (Melbourne, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -191,7 +141,7 @@
     },
     {
       "id": "l409",
-      "text": "Videographer & Studio Manager \u2014 St Trinity Property Group (North Strathfield, New South Wales, Australia). Posted 5 days ago.",
+      "text": "Videographer & Studio Manager — St Trinity Property Group (North Strathfield, New South Wales, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -212,7 +162,7 @@
     },
     {
       "id": "l410",
-      "text": "Videographer \u2014 Aaron Sansoni Group International (South Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Videographer — Aaron Sansoni Group International (South Melbourne, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -233,7 +183,7 @@
     },
     {
       "id": "l411",
-      "text": "Videographer Savage (Video Content, Video Producer) \u2014 KingKong (South Yarra, Victoria, Australia). Posted 1 month ago.",
+      "text": "Videographer Savage (Video Content, Video Producer) — KingKong (South Yarra, Victoria, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -254,7 +204,7 @@
     },
     {
       "id": "l412",
-      "text": "Videographer \u2014 Love Poets (Albury, New South Wales, Australia). Posted 1 month ago.",
+      "text": "Videographer — Love Poets (Albury, New South Wales, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -275,13 +225,13 @@
     },
     {
       "id": "l513",
-      "text": "Plano 02 \u2014 Wiki Project Zomboid na V2\n# Plano 02 \u2014 Wiki Project Zomboid na V2\n\n## Objetivo\nTransformar o levantamento de informa\u00e7\u00f5es sobre Project Zomboid em um m\u00f3dulo de conhecimento estruturado da V2, sem acoplar a wiki \u00e0 arquitetura da V1.\n\n## Princ\u00edpios\n- A Wiki entra como projeto/m\u00f3dulo da V2.\n- Fontes devem ser identific\u00e1veis e at\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3778915544 (finalmente escadas na parede v\u00e3o ter anima\u00e7\u00e3o e funcionar)\n\nLadders finally look like ladders.\u2026",
+      "text": "Plano 02 — Wiki Project Zomboid na V2\n# Plano 02 — Wiki Project Zomboid na V2\n\n## Objetivo\nTransformar o levantamento de informações sobre Project Zomboid em um módulo de conhecimento estruturado da V2, sem acoplar a wiki à arquitetura da V1.\n\n## Princípios\n- A Wiki entra como projeto/módulo da V2.\n- Fontes devem ser identificáveis e at\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=3778915544 (finalmente escadas na parede vão ter animação e funcionar)\n\nLadders finally look like ladders.…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Plano 02 \u2014 Wiki Project Zomboid na V2\n# Plano 02 \u2014 Wiki Project Zomboid na V2\n\n#\u2026",
+          "title": "Plano 02 — Wiki Project Zomboid na V2\n# Plano 02 — Wiki Project Zomboid na V2\n\n#…",
           "url": "https://github.com/Lucas-Belucci-Bellini/Projeto-Baluarte/issues/422",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -296,13 +246,13 @@
     },
     {
       "id": "l514",
-      "text": "An operator can put a service message in front of players, and take it down\nStage 8 of the player-value and reliability programme.\n\n\"Results for matchweek 3 are delayed\", \"maintenance at 21:00\", \"we know the leaderboard is wrong and are fixing it\" \u2014 said once, in the product, by the person who knows.\n\n## Why this is not in the database\n\nThe obvious design is a table plus an",
+      "text": "An operator can put a service message in front of players, and take it down\nStage 8 of the player-value and reliability programme.\n\n\"Results for matchweek 3 are delayed\", \"maintenance at 21:00\", \"we know the leaderboard is wrong and are fixing it\" — said once, in the product, by the person who knows.\n\n## Why this is not in the database\n\nThe obvious design is a table plus an",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "An operator can put a service message in front of players, and take it down\nStag\u2026",
+          "title": "An operator can put a service message in front of players, and take it down\nStag…",
           "url": "https://github.com/nickygregal12-cmyk/Euro-2028-Predictor/pull/1024",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -317,13 +267,13 @@
     },
     {
       "id": "l515",
-      "text": "The Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\nThe Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\n\nFirst things first: while it's pronounced like the primate, the term is spelled \"guerrilla marketing\"\u2014borrowed directly from the Spanish military term guerrilla (\"little war\"). Just as guerrilla warfare relies on small, mo\nWhen brands bypass traditional media channels for guerrilla tactics, they trade media costs for operational risk. Because \u2026",
+      "text": "The Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\nThe Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\n\nFirst things first: while it's pronounced like the primate, the term is spelled \"guerrilla marketing\"—borrowed directly from the Spanish military term guerrilla (\"little war\"). Just as guerrilla warfare relies on small, mo\nWhen brands bypass traditional media channels for guerrilla tactics, they trade media costs for operational risk. Because …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "The Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\nThe\u2026",
+          "title": "The Evolution of Guerrilla Marketing: From Street Ambush to AI Orchestration\nThe…",
           "url": "https://github.com/attogram/found-talks-with-swapfiets/issues/23",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -338,13 +288,13 @@
     },
     {
       "id": "l516",
-      "text": "TITLE: THE UNREFRACTED PRESS JUNKET SETTING: A plush, overly sterile hotel suite at the Conservatorium Hotel, Amsterdam. August 2026. A hyper-polished reporter from a major Hollywood trade publication  ...\nTITLE: THE UNREFRACTED PRESS JUNKET\nSETTING: A plush, overly sterile hotel suite at the Conservatorium Hotel, Amsterdam. August 2026. A hyper-polished reporter from a major Hollywood trade publication sits across from a sofa packed with a human family, an 80-year-old grandmother holding a plat\u2026",
+      "text": "TITLE: THE UNREFRACTED PRESS JUNKET SETTING: A plush, overly sterile hotel suite at the Conservatorium Hotel, Amsterdam. August 2026. A hyper-polished reporter from a major Hollywood trade publication  ...\nTITLE: THE UNREFRACTED PRESS JUNKET\nSETTING: A plush, overly sterile hotel suite at the Conservatorium Hotel, Amsterdam. August 2026. A hyper-polished reporter from a major Hollywood trade publication sits across from a sofa packed with a human family, an 80-year-old grandmother holding a plat…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "TITLE: THE UNREFRACTED PRESS JUNKET SETTING: A plush, overly sterile hotel suite\u2026",
+          "title": "TITLE: THE UNREFRACTED PRESS JUNKET SETTING: A plush, overly sterile hotel suite…",
           "url": "https://github.com/attogram/found-talks-with-swapfiets/issues/26",
           "date": "2026-08-02",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -359,13 +309,13 @@
     },
     {
       "id": "l517",
-      "text": "docs(marketing): Seedance 2.5 house reference\nStarts `references/seedance.md` \u2014 the durable place we accumulate what we learn about ByteDance's **Seedance 2.5** (announced 2026-07-31, API live ~2026-08-07). Written *before* our first generation, so everything above the run log is marked **sourced, not earned**; the run log at the bottom is the",
+      "text": "docs(marketing): Seedance 2.5 house reference\nStarts `references/seedance.md` — the durable place we accumulate what we learn about ByteDance's **Seedance 2.5** (announced 2026-07-31, API live ~2026-08-07). Written *before* our first generation, so everything above the run log is marked **sourced, not earned**; the run log at the bottom is the",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "docs(marketing): Seedance 2.5 house reference\nStarts `references/seedance.md` \u2014 \u2026",
+          "title": "docs(marketing): Seedance 2.5 house reference\nStarts `references/seedance.md` — …",
           "url": "https://github.com/recoupable/skills/pull/111",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -380,13 +330,13 @@
     },
     {
       "id": "l518",
-      "text": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical thriller. Can you expand on this.\n\n\n\n\n# THE LAST PHYSICIAN\n\nIn the year 2115, humanity has achieved what previous generations believed impossible.\n\nDisease has been conquered. Cancer, dementia, heart failure, sepsis, and countless other k\nAbsolutely\u2014this has the bones of a very strong near-future thriller. The concept already feels cinematic, high-stakes, and thematically rich. What it needs is a bit more structure \u2026",
+      "text": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical thriller. Can you expand on this.\n\n\n\n\n# THE LAST PHYSICIAN\n\nIn the year 2115, humanity has achieved what previous generations believed impossible.\n\nDisease has been conquered. Cancer, dementia, heart failure, sepsis, and countless other k\nAbsolutely—this has the bones of a very strong near-future thriller. The concept already feels cinematic, high-stakes, and thematically rich. What it needs is a bit more structure …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical\u2026",
+          "title": "The Last Physician\nThis is a book idea for a science fiction, futuristic medical…",
           "url": "https://github.com/badbeaver88/game/issues/19",
           "date": "2026-06-09",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -401,13 +351,13 @@
     },
     {
       "id": "l519",
-      "text": "add new devices and clients\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **Neue Funktionen**\n  * Umfangreiche Erg\u00e4nzungen an Ger\u00e4teprofilen f\u00fcr Smartphone, Tablet, Fone-Pad und TV.\n  * Erweiterte Erkennungsabdeckung f\u00fcr Browser/Crawler sowie neue \u201ePresearch Bot\u201c und \u201e",
+      "text": "add new devices and clients\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **Neue Funktionen**\n  * Umfangreiche Ergänzungen an Geräteprofilen für Smartphone, Tablet, Fone-Pad und TV.\n  * Erweiterte Erkennungsabdeckung für Browser/Crawler sowie neue „Presearch Bot“ und „",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "add new devices and clients\n<!-- This is an auto-generated comment: release note\u2026",
+          "title": "add new devices and clients\n<!-- This is an auto-generated comment: release note…",
           "url": "https://github.com/mimmi20/browser-detector/pull/1067",
           "date": "2026-07-23",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -422,13 +372,13 @@
     },
     {
       "id": "l520",
-      "text": "FEATURE: OVERVIEW\nQwen 3.7 Max - v1\n\nThe concepts of **surveillance-based harassment** and **surveillance-based torture** are recognized in the fields of psychology, human rights, and national security. While physical torture leaves visible marks, surveillance-based abuse is a form of **psychological torture** design\nDeepSeek Expert - feedback on v1\n\nThe text you provided offers a strong and accessible overview, but it leans heavily on illustrative examples rather than a rigorous analytical fram\u2026",
+      "text": "FEATURE: OVERVIEW\nQwen 3.7 Max - v1\n\nThe concepts of **surveillance-based harassment** and **surveillance-based torture** are recognized in the fields of psychology, human rights, and national security. While physical torture leaves visible marks, surveillance-based abuse is a form of **psychological torture** design\nDeepSeek Expert - feedback on v1\n\nThe text you provided offers a strong and accessible overview, but it leans heavily on illustrative examples rather than a rigorous analytical fram…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "FEATURE: OVERVIEW\nQwen 3.7 Max - v1\n\nThe concepts of **surveillance-based harass\u2026",
+          "title": "FEATURE: OVERVIEW\nQwen 3.7 Max - v1\n\nThe concepts of **surveillance-based harass…",
           "url": "https://github.com/Transparency-X/Surveillance---Harrasment-to-Torture/issues/1",
           "date": "2026-07-08",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -443,13 +393,13 @@
     },
     {
       "id": "l521",
-      "text": "Add Creative Strategy Knowledge Docs\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary\n\nExpanded Parker\u2019s creative-strategy knowledge base to support more accurate, context-aware marketing guidance across the full creative lifecycle.\n\n- Added foundational guidance for audience, brand size, luxury/",
+      "text": "Add Creative Strategy Knowledge Docs\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary\n\nExpanded Parker’s creative-strategy knowledge base to support more accurate, context-aware marketing guidance across the full creative lifecycle.\n\n- Added foundational guidance for audience, brand size, luxury/",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Add Creative Strategy Knowledge Docs\n<!-- This is an auto-generated comment: rel\u2026",
+          "title": "Add Creative Strategy Knowledge Docs\n<!-- This is an auto-generated comment: rel…",
           "url": "https://github.com/real-simple-labs/parker-brain/pull/59",
           "date": "2026-07-20",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -464,13 +414,13 @@
     },
     {
       "id": "l522",
-      "text": "Case Study: Pierre Kalulu Disputed Second Yellow Card \u2014 Inter Milan vs Juventus (Serie A, Feb 15 2026)\n## Incident Summary\n\nIn the Serie A 2025-26 matchday 24, **Inter Milan defeated Juventus 3-2** at San Siro on February 15, 2026. The result was heavily influenced by a highly controversial and **incorrect second yellow card** shown to Juventus defender Pierre Kalulu, which the referee designator him",
+      "text": "Case Study: Pierre Kalulu Disputed Second Yellow Card — Inter Milan vs Juventus (Serie A, Feb 15 2026)\n## Incident Summary\n\nIn the Serie A 2025-26 matchday 24, **Inter Milan defeated Juventus 3-2** at San Siro on February 15, 2026. The result was heavily influenced by a highly controversial and **incorrect second yellow card** shown to Juventus defender Pierre Kalulu, which the referee designator him",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Case Study: Pierre Kalulu Disputed Second Yellow Card \u2014 Inter Milan vs Juventus \u2026",
+          "title": "Case Study: Pierre Kalulu Disputed Second Yellow Card — Inter Milan vs Juventus …",
           "url": "https://github.com/ABCDEFG606/IBM-VAR-Explainer-Challenge/issues/73",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -485,13 +435,13 @@
     },
     {
       "id": "l523",
-      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
           "url": "https://github.com/proxima424/westworld/issues/108",
           "date": "2026-05-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -512,7 +462,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature: Overview/README - dev\nk2.6 thinking\n\n# Genocide: Legal Framework, Histo\u2026",
+          "title": "Feature: Overview/README - dev\nk2.6 thinking\n\n# Genocide: Legal Framework, Histo…",
           "url": "https://github.com/Transparency-X/Genocide/issues/2",
           "date": "2026-05-03",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -611,13 +561,13 @@
     },
     {
       "id": "l529",
-      "text": "Terence Tao \u2013 How the top mathematician uses AI [video]",
+      "text": "Terence Tao – How the top mathematician uses AI [video]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Terence Tao \u2013 How the top mathematician uses AI [video]",
+          "title": "Terence Tao – How the top mathematician uses AI [video]",
           "url": "https://www.youtube.com/watch?v=Q8Fkpi18QXU",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -779,13 +729,13 @@
     },
     {
       "id": "l537",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -800,13 +750,13 @@
     },
     {
       "id": "l538",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -926,13 +876,13 @@
     },
     {
       "id": "l544",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1010,13 +960,13 @@
     },
     {
       "id": "l548",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -1031,13 +981,13 @@
     },
     {
       "id": "l549",
-      "text": "Is this video AI? The expansion of the gas seems to come out of nowhere and the camera at the angle at the end looks strange.\n&#32; submitted by &#32; /u/Repulsive_Tomorrow95 &#32; to &#32; r/isthisAI [link] &#32; [comments]\nHolding a 100 kilograms? Shouldn't that be your first clue that it's clearly fake It screams \"AI\" In the beginning it's someone else who's filming and then they gave camera to this guy and the picture stays completely smooth during handover? Helicopters are LOUD, I doubt tha\u2026",
+      "text": "Is this video AI? The expansion of the gas seems to come out of nowhere and the camera at the angle at the end looks strange.\n&#32; submitted by &#32; /u/Repulsive_Tomorrow95 &#32; to &#32; r/isthisAI [link] &#32; [comments]\nHolding a 100 kilograms? Shouldn't that be your first clue that it's clearly fake It screams \"AI\" In the beginning it's someone else who's filming and then they gave camera to this guy and the picture stays completely smooth during handover? Helicopters are LOUD, I doubt tha…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Is this video AI? The expansion of the gas seems to come out of nowhere and the \u2026",
+          "title": "Is this video AI? The expansion of the gas seems to come out of nowhere and the …",
           "url": "https://www.reddit.com/r/isthisAI/comments/1vtcokt/is_this_video_ai_the_expansion_of_the_gas_seems/",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1052,13 +1002,13 @@
     },
     {
       "id": "l550",
-      "text": "My likeness was stolen by an AI Slop video\nWell I posted this photo to reddit on an old account 6 years ago just sharing my freshly dyed hair. Thought nothing of it. And now 6 years later seemingly this ai slop peddling fake wooden American flags or something has used my photo to make a &quot;liberal&quot; or something that burns his flag. I reverse image searched this video and it literally pulls up my exact picture. It&#39;s so weird. I don&#39;t even know what to be thinking right now. Just s\u2026",
+      "text": "My likeness was stolen by an AI Slop video\nWell I posted this photo to reddit on an old account 6 years ago just sharing my freshly dyed hair. Thought nothing of it. And now 6 years later seemingly this ai slop peddling fake wooden American flags or something has used my photo to make a &quot;liberal&quot; or something that burns his flag. I reverse image searched this video and it literally pulls up my exact picture. It&#39;s so weird. I don&#39;t even know what to be thinking right now. Just s…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "My likeness was stolen by an AI Slop video\nWell I posted this photo to reddit on\u2026",
+          "title": "My likeness was stolen by an AI Slop video\nWell I posted this photo to reddit on…",
           "url": "https://www.reddit.com/r/fuck_ai_slop/comments/1vvt5xg/my_likeness_was_stolen_by_an_ai_slop_video/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1073,13 +1023,13 @@
     },
     {
       "id": "l551",
-      "text": "Is this video AI? The expansion of the gas seems to come out of nowhere and the camera at the angle at the end looks strange.\n&#32; submitted by &#32; /u/Fridge_1000 &#32; to &#32; r/isthisaicirclejerk [link] &#32; [comments]\nDudes strong holds 100 kg like its nothing r/isthisai is so done bro. Some of the people Posting there are so stupid\ud83d\ude2d. 100kg of liquid nitrogen weighs significantly less than 100kg of, say, feathers.",
+      "text": "Is this video AI? The expansion of the gas seems to come out of nowhere and the camera at the angle at the end looks strange.\n&#32; submitted by &#32; /u/Fridge_1000 &#32; to &#32; r/isthisaicirclejerk [link] &#32; [comments]\nDudes strong holds 100 kg like its nothing r/isthisai is so done bro. Some of the people Posting there are so stupid😭. 100kg of liquid nitrogen weighs significantly less than 100kg of, say, feathers.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Is this video AI? The expansion of the gas seems to come out of nowhere and the \u2026",
+          "title": "Is this video AI? The expansion of the gas seems to come out of nowhere and the …",
           "url": "https://www.reddit.com/r/isthisaicirclejerk/comments/1vtfh6o/is_this_video_ai_the_expansion_of_the_gas_seems/",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1094,13 +1044,13 @@
     },
     {
       "id": "l552",
-      "text": "I am so sick of everyone shoving AI video editing and motion graphics down our throats\nI feel like I\u2019m losing my mind every time I open YouTube, X, or Reddit lately. Every single day it\u2019s the exact same post: &quot;Why After Effects is officially DEAD&quot; or &quot;How I generated a full video and 3D motion graphics sequence in 20 seconds using Claude and Higgsfield!&quot; And then you watch the actual video and it looks like total garbage. The pacing feels like a robot cut it because it litera\u2026",
+      "text": "I am so sick of everyone shoving AI video editing and motion graphics down our throats\nI feel like I’m losing my mind every time I open YouTube, X, or Reddit lately. Every single day it’s the exact same post: &quot;Why After Effects is officially DEAD&quot; or &quot;How I generated a full video and 3D motion graphics sequence in 20 seconds using Claude and Higgsfield!&quot; And then you watch the actual video and it looks like total garbage. The pacing feels like a robot cut it because it litera…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I am so sick of everyone shoving AI video editing and motion graphics down our t\u2026",
+          "title": "I am so sick of everyone shoving AI video editing and motion graphics down our t…",
           "url": "https://www.reddit.com/r/davinciresolve/comments/1vlgmbp/i_am_so_sick_of_everyone_shoving_ai_video_editing/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1115,13 +1065,13 @@
     },
     {
       "id": "l553",
-      "text": "I am so sick of everyone shoving AI video editing and motion graphics down our throats\nI feel like I\u2019m losing my mind every time I open YouTube, X, or Reddit lately. Every single day it\u2019s the exact same post: &quot;Why After Effects is officially DEAD&quot; or &quot;How I generated a full video and 3D motion graphics sequence in 20 seconds using Claude and Higgsfield!&quot; And then you watch the actual video and it looks like total garbage. The pacing feels like a robot cut it because it litera\u2026",
+      "text": "I am so sick of everyone shoving AI video editing and motion graphics down our throats\nI feel like I’m losing my mind every time I open YouTube, X, or Reddit lately. Every single day it’s the exact same post: &quot;Why After Effects is officially DEAD&quot; or &quot;How I generated a full video and 3D motion graphics sequence in 20 seconds using Claude and Higgsfield!&quot; And then you watch the actual video and it looks like total garbage. The pacing feels like a robot cut it because it litera…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I am so sick of everyone shoving AI video editing and motion graphics down our t\u2026",
+          "title": "I am so sick of everyone shoving AI video editing and motion graphics down our t…",
           "url": "https://www.reddit.com/r/AfterEffects/comments/1vlgqca/i_am_so_sick_of_everyone_shoving_ai_video_editing/",
           "date": "2026-08-11",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1142,7 +1092,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "3 AI video formats worth knowing today:\n\n1. the surreal physics hook. \n\na liquid\u2026",
+          "title": "3 AI video formats worth knowing today:\n\n1. the surreal physics hook. \n\na liquid…",
           "url": "https://x.com/johnvirality/status/2091115507248169466",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1157,13 +1107,13 @@
     },
     {
       "id": "l555",
-      "text": "\ud83d\udea8 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the future.\n\nIt\u2019s already changing how we write, design, edit, code, research, and create.\n\nHere are 20 AI tools worth knowing \ud83e\uddf5\ud83d\udc47\n\n1/ ChatGPT \u2014 Your AI assistant.\n\nUse it to:\n\u2022 Write\n\u2022 Research\n\u2022 Brainstorm\n\u2022 Learn\n\u2022 Plan\n\u2022 Solve problems\n\nThe better your prompts, the better your results.\n\n2/ Midjourney \u2014 Turn imagination into stunning images.\n\nPerfect for:\n\u2022 Creators\n\u2022 Designers\n\u2022 Marketers\n\u2022 Brand owners\n\nOne idea can b",
+      "text": "🚨 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the future.\n\nIt’s already changing how we write, design, edit, code, research, and create.\n\nHere are 20 AI tools worth knowing 🧵👇\n\n1/ ChatGPT — Your AI assistant.\n\nUse it to:\n• Write\n• Research\n• Brainstorm\n• Learn\n• Plan\n• Solve problems\n\nThe better your prompts, the better your results.\n\n2/ Midjourney — Turn imagination into stunning images.\n\nPerfect for:\n• Creators\n• Designers\n• Marketers\n• Brand owners\n\nOne idea can b",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the f\u2026",
+          "title": "🚨 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the f…",
           "url": "https://x.com/Shohan_Tech_AI/status/2093186736088400143",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1262,13 +1212,13 @@
     },
     {
       "id": "l560",
-      "text": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to feel less like generating clips\u2014and more like directing scenes.\n\n30 seconds. Native audio. One generation.\nNo more choosing between text-to-video and image-to-video.\n\nPrompt:\n\nHandheld digital camcorder aesthetic, landscape framing.\nA gorgeous young barista films herself by hand in selfie-cam and first-person style during a quiet early-morning shift at a small independent coffee shop.\n\nKeep realistic hand shake, slight",
+      "text": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to feel less like generating clips—and more like directing scenes.\n\n30 seconds. Native audio. One generation.\nNo more choosing between text-to-video and image-to-video.\n\nPrompt:\n\nHandheld digital camcorder aesthetic, landscape framing.\nA gorgeous young barista films herself by hand in selfie-cam and first-person style during a quiet early-morning shift at a small independent coffee shop.\n\nKeep realistic hand shake, slight",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to fe\u2026",
+          "title": "Seedance 2.5 or Wan 3.0?\nWhich one comes out on top?\n\nAI video is starting to fe…",
           "url": "https://x.com/Rooko_ai/status/2092930729164632138",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1325,13 +1275,13 @@
     },
     {
       "id": "l563",
-      "text": "VFX Artists React to Bad & Great CGi 229\nSquarespace \u25ba Head to http://squarespace.com/corridorcrew to save 10% off your first purchase!\n\nOur videos are made possible by Members of CorridorDigital, our Exclusive Streaming Service! Try a membership yourself with a 14-Day Free Trial \u25ba http://corridordigital.com/\n\nNiko, Wren and Jordan PUNISH some recent VFX and unMASK the secrets to some crazy conspiracy theories. This episode's a MARATHON, but you'll have a great time!\n\nInstagram \u25ba http://instagra\u2026",
+      "text": "VFX Artists React to Bad & Great CGi 229\nSquarespace ► Head to http://squarespace.com/corridorcrew to save 10% off your first purchase!\n\nOur videos are made possible by Members of CorridorDigital, our Exclusive Streaming Service! Try a membership yourself with a 14-Day Free Trial ► http://corridordigital.com/\n\nNiko, Wren and Jordan PUNISH some recent VFX and unMASK the secrets to some crazy conspiracy theories. This episode's a MARATHON, but you'll have a great time!\n\nInstagram ► http://instagra…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "VFX Artists React to Bad & Great CGi 229\nSquarespace \u25ba Head to http://squarespac\u2026",
+          "title": "VFX Artists React to Bad & Great CGi 229\nSquarespace ► Head to http://squarespac…",
           "url": "https://www.youtube.com/watch?v=fGqF83ddhrM",
           "date": "2026-06-13",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1346,13 +1296,13 @@
     },
     {
       "id": "l564",
-      "text": "Learn 98% of Higgsfield AI in 18 Minutes\nCreate The BEST AI Content using Higgsfield \ud83d\udc49 https://youricreates.com/Higgsfield\n\nIn this video, I walk through every major feature inside Higgsfield, from image generation and cinematic video creation to editing, Marketing Studio, Cinema Studio, audio tools, AI apps, the Supercomputer, and Claude integration. You'll learn how to create consistent characters, edit and upscale videos, build ads, automate workflows, and run almost your entire AI creative p\u2026",
+      "text": "Learn 98% of Higgsfield AI in 18 Minutes\nCreate The BEST AI Content using Higgsfield 👉 https://youricreates.com/Higgsfield\n\nIn this video, I walk through every major feature inside Higgsfield, from image generation and cinematic video creation to editing, Marketing Studio, Cinema Studio, audio tools, AI apps, the Supercomputer, and Claude integration. You'll learn how to create consistent characters, edit and upscale videos, build ads, automate workflows, and run almost your entire AI creative p…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Learn 98% of Higgsfield AI in 18 Minutes\nCreate The BEST AI Content using Higgsf\u2026",
+          "title": "Learn 98% of Higgsfield AI in 18 Minutes\nCreate The BEST AI Content using Higgsf…",
           "url": "https://www.youtube.com/watch?v=-vqocuhO1YE",
           "date": "2026-07-24",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1367,13 +1317,13 @@
     },
     {
       "id": "l565",
-      "text": "I mixed AI with Real Footage\u2026 and it\u2019s actually scary.\nIn this video, I explore 6 techniques to mix AI with real footage using tools inside Higgsfield AI. \n\n\u26a1Try out Higgsfield here: https://higgsfield.ai/s/cinema-studio-3-5-sightseeingstan-teVljX\n\nFrom replacing backgrounds and creating AI-generated environments, to impossible transitions, AI motion control, and AI-assisted VFX.\nThis is a breakdown of what these tools can actually do for filmmakers and content creators. AI in filmmaking is movi\u2026",
+      "text": "I mixed AI with Real Footage… and it’s actually scary.\nIn this video, I explore 6 techniques to mix AI with real footage using tools inside Higgsfield AI. \n\n⚡Try out Higgsfield here: https://higgsfield.ai/s/cinema-studio-3-5-sightseeingstan-teVljX\n\nFrom replacing backgrounds and creating AI-generated environments, to impossible transitions, AI motion control, and AI-assisted VFX.\nThis is a breakdown of what these tools can actually do for filmmakers and content creators. AI in filmmaking is movi…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "I mixed AI with Real Footage\u2026 and it\u2019s actually scary.\nIn this video, I explore \u2026",
+          "title": "I mixed AI with Real Footage… and it’s actually scary.\nIn this video, I explore …",
           "url": "https://www.youtube.com/watch?v=Q6S8tGOVNb4",
           "date": "2026-04-22",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1388,13 +1338,13 @@
     },
     {
       "id": "l566",
-      "text": "Best Beginner Cameras for YouTube! (2026 Guide)\nLooking for the best beginner camera for YouTube in 2026? Check out the top mirrorless, action, and web cameras from Sony, Canon, DJI, Yololiv and Nikon! \ud83d\udd25Best Beginner Cameras in 2026 \ud83d\udc49 https://geni.us/G4xh\n\n\u2b50\ufe0f Our free YouTube growth class reveals 3 essential secrets we're using to get more views, subscribers, and income\u2014watch here \u27a1\ufe0f http://ThinkMasterclass.com\n\nThis video is NOT sponsored. Some of the links below are sponsored or affiliate link\u2026",
+      "text": "Best Beginner Cameras for YouTube! (2026 Guide)\nLooking for the best beginner camera for YouTube in 2026? Check out the top mirrorless, action, and web cameras from Sony, Canon, DJI, Yololiv and Nikon! 🔥Best Beginner Cameras in 2026 👉 https://geni.us/G4xh\n\n⭐️ Our free YouTube growth class reveals 3 essential secrets we're using to get more views, subscribers, and income—watch here ➡️ http://ThinkMasterclass.com\n\nThis video is NOT sponsored. Some of the links below are sponsored or affiliate link…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Best Beginner Cameras for YouTube! (2026 Guide)\nLooking for the best beginner ca\u2026",
+          "title": "Best Beginner Cameras for YouTube! (2026 Guide)\nLooking for the best beginner ca…",
           "url": "https://www.youtube.com/watch?v=pQVRlZFrYn0",
           "date": "2026-05-28",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1409,13 +1359,13 @@
     },
     {
       "id": "l567",
-      "text": "Why My AI Videos look Ultra Realistic - Higgsfield AI\nLearn How To Use Higgsfield AI To Create Cinematic AI video. \nTry Soul 2 on Higgsfield \ud83d\udc49 https://higgsfield.ai/ai-video?fpr=dankieft&fp_sid=soul\n\nIn this video I teach you how to create cinematic AI videos that look ultra realistic with Higgsfield Soul 2 and Cinema studio 2.0. These are my secret tools that I use for AI Filmmaking. Higgsfield Soul 2 is custom version of Nano Banana 2 that creates that cinematic type images that we will be usi\u2026",
+      "text": "Why My AI Videos look Ultra Realistic - Higgsfield AI\nLearn How To Use Higgsfield AI To Create Cinematic AI video. \nTry Soul 2 on Higgsfield 👉 https://higgsfield.ai/ai-video?fpr=dankieft&fp_sid=soul\n\nIn this video I teach you how to create cinematic AI videos that look ultra realistic with Higgsfield Soul 2 and Cinema studio 2.0. These are my secret tools that I use for AI Filmmaking. Higgsfield Soul 2 is custom version of Nano Banana 2 that creates that cinematic type images that we will be usi…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Why My AI Videos look Ultra Realistic - Higgsfield AI\nLearn How To Use Higgsfiel\u2026",
+          "title": "Why My AI Videos look Ultra Realistic - Higgsfield AI\nLearn How To Use Higgsfiel…",
           "url": "https://www.youtube.com/watch?v=0B_xyflXrwc",
           "date": "2026-03-07",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1430,13 +1380,13 @@
     },
     {
       "id": "l568",
-      "text": "Best Cameras for YouTube in 2026 (Cheap to Expensive)\nWant to start a YouTube channel but don't know which camera to buy? Here are the best cameras for every budget and video style in 2026. \ud83d\udd25 Thanks to Storyblocks for sponsoring this video. Get 15% off any annual plan for a limited time, only available through this link: https://www.storyblocks.com/ThinkMedia\n\n\u2b50\ufe0f Our free YouTube growth class reveals 3 essential secrets we're using to get more views, subscribers, and income\u2014watch here \u27a1\ufe0f http://\u2026",
+      "text": "Best Cameras for YouTube in 2026 (Cheap to Expensive)\nWant to start a YouTube channel but don't know which camera to buy? Here are the best cameras for every budget and video style in 2026. 🔥 Thanks to Storyblocks for sponsoring this video. Get 15% off any annual plan for a limited time, only available through this link: https://www.storyblocks.com/ThinkMedia\n\n⭐️ Our free YouTube growth class reveals 3 essential secrets we're using to get more views, subscribers, and income—watch here ➡️ http://…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Best Cameras for YouTube in 2026 (Cheap to Expensive)\nWant to start a YouTube ch\u2026",
+          "title": "Best Cameras for YouTube in 2026 (Cheap to Expensive)\nWant to start a YouTube ch…",
           "url": "https://www.youtube.com/watch?v=ZHBFTJnre2Q",
           "date": "2026-03-02",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1506,6 +1456,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

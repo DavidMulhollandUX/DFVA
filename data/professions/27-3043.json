@@ -21,58 +21,8 @@
   ],
   "claims": [
     {
-      "id": "27-3043-01",
-      "text": "National peak professional bodies and statutory regulators governing Writers and Authors enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Writers and Authors",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Writers and Authors",
-          "url": "https://www.psc.gov.au/standards/27-3043",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Writers and Authors"
-        }
-      ],
-      "scope": "Australian practitioners in Writers and Authors across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "27-3043-02",
-      "text": "Automation of routine transactional and analytical tasks in Writers and Authors heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Writers and Authors",
-          "url": "https://www.jobsandskills.gov.au/research/27-3043",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Writers and Authors in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Writers and Authors roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Children's Script Writer \u2014 Spawnpoint Media (Melbourne, Victoria, Australia). Posted 3 months ago.",
+      "text": "Children's Script Writer — Spawnpoint Media (Melbourne, Victoria, Australia). Posted 3 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -93,7 +43,7 @@
     },
     {
       "id": "l404",
-      "text": "Growth Content Writer \u2014 Broadsheet Media (Collingwood, Victoria, Australia). Posted 13 hours ago.",
+      "text": "Growth Content Writer — Broadsheet Media (Collingwood, Victoria, Australia). Posted 13 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -114,7 +64,7 @@
     },
     {
       "id": "l405",
-      "text": "Content Specialist \u2014 HOUSE OF PSALM (Armadale, Victoria, Australia). Posted 6 days ago.",
+      "text": "Content Specialist — HOUSE OF PSALM (Armadale, Victoria, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -135,7 +85,7 @@
     },
     {
       "id": "l406",
-      "text": "Content Creator - Health (VCE) \u2014 Atomi (Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Content Creator - Health (VCE) — Atomi (Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -156,7 +106,7 @@
     },
     {
       "id": "l407",
-      "text": "News Writer (Body+Soul) \u2014 News Corp Australia (Surry Hills, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "News Writer (Body+Soul) — News Corp Australia (Surry Hills, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -177,7 +127,7 @@
     },
     {
       "id": "l408",
-      "text": "Copywriter \u2014 Cheil Australia (Sydney Olympic Park, New South Wales, Australia). Posted 3 weeks ago.",
+      "text": "Copywriter — Cheil Australia (Sydney Olympic Park, New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -198,7 +148,7 @@
     },
     {
       "id": "l409",
-      "text": "Copywriter \u2014 VML (Melbourne, Victoria, Australia). Posted 4 months ago.",
+      "text": "Copywriter — VML (Melbourne, Victoria, Australia). Posted 4 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -219,7 +169,7 @@
     },
     {
       "id": "l410",
-      "text": "Bid Writer \u2014 Assure (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Bid Writer — Assure (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -240,7 +190,7 @@
     },
     {
       "id": "l411",
-      "text": "Copywriter \u2014 VML Enterprise Solutions (Perth, Western Australia, Australia). Posted 22 hours ago.",
+      "text": "Copywriter — VML Enterprise Solutions (Perth, Western Australia, Australia). Posted 22 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -261,7 +211,7 @@
     },
     {
       "id": "l412",
-      "text": "Mixdown - Editor \u2014 Furst Media (Brunswick, Victoria, Australia). Posted 18 hours ago.",
+      "text": "Mixdown - Editor — Furst Media (Brunswick, Victoria, Australia). Posted 18 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -288,7 +238,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Company v1 agent ops loop\n# Company v1 agent ops loop\n\nOperational coordination \u2026",
+          "title": "Company v1 agent ops loop\n# Company v1 agent ops loop\n\nOperational coordination …",
           "url": "https://github.com/zeroslove-ai/company-v1/issues/68",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -303,13 +253,13 @@
     },
     {
       "id": "l514",
-      "text": "feat(jira-clockify): log time from Claude Code sessions\nRecovers time that neither Clockify nor Jira recorded, using local Claude Code sessions as evidence, and adds a watch that logs it as it happens.\n\n## `jcf sync reconcile --agent claude`\n\nReads the Claude Code transcripts under your session roots, works out which issue each session belongs to and how\n@codex review <!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack]\u2026",
+      "text": "feat(jira-clockify): log time from Claude Code sessions\nRecovers time that neither Clockify nor Jira recorded, using local Claude Code sessions as evidence, and adds a watch that logs it as it happens.\n\n## `jcf sync reconcile --agent claude`\n\nReads the Claude Code transcripts under your session roots, works out which issue each session belongs to and how\n@codex review <!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack]…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(jira-clockify): log time from Claude Code sessions\nRecovers time that neith\u2026",
+          "title": "feat(jira-clockify): log time from Claude Code sessions\nRecovers time that neith…",
           "url": "https://github.com/knpkv/npm/pull/376",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -324,13 +274,13 @@
     },
     {
       "id": "l515",
-      "text": "feat(debug): publish evidence-first Codex and Agents debug skill\n## Summary\r\n\r\n- publish the verified 26-file `debug` skill backup for Codex and Agents skill trees\r\n- preserve automatic triggers for `cleanup GitHub`, `bug`, `debug`, PR cleanup, failing tests, and broken builds\r\n- include the authenticated runtime evidence collector and deterministic 19-check PR c\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](http\u2026",
+      "text": "feat(debug): publish evidence-first Codex and Agents debug skill\n## Summary\r\n\r\n- publish the verified 26-file `debug` skill backup for Codex and Agents skill trees\r\n- preserve automatic triggers for `cleanup GitHub`, `bug`, `debug`, PR cleanup, failing tests, and broken builds\r\n- include the authenticated runtime evidence collector and deterministic 19-check PR c\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](http…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(debug): publish evidence-first Codex and Agents debug skill\n## Summary\r\n\r\n-\u2026",
+          "title": "feat(debug): publish evidence-first Codex and Agents debug skill\n## Summary\r\n\r\n-…",
           "url": "https://github.com/XGenerationy/codex-agents-debug-mode/pull/1",
           "date": "2026-07-20",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -345,13 +295,13 @@
     },
     {
       "id": "l516",
-      "text": "fix(hooks): match lint-staged Prettier scope to the repo-wide format gate\n## Problem\n\n`lint-staged` ran Prettier over `{apps,packages,tooling,docs,.github}/**` plus four repo-root files, but the pre-push gate (`scripts/verify/ci-preflight.mjs` \u2192 `format:check`) runs `prettier . --check` across the **whole repo**.\n\nAnything in the difference committed cleanly and then fail\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change St\u2026",
+      "text": "fix(hooks): match lint-staged Prettier scope to the repo-wide format gate\n## Problem\n\n`lint-staged` ran Prettier over `{apps,packages,tooling,docs,.github}/**` plus four repo-root files, but the pre-push gate (`scripts/verify/ci-preflight.mjs` → `format:check`) runs `prettier . --check` across the **whole repo**.\n\nAnything in the difference committed cleanly and then fail\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change St…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "fix(hooks): match lint-staged Prettier scope to the repo-wide format gate\n## Pro\u2026",
+          "title": "fix(hooks): match lint-staged Prettier scope to the repo-wide format gate\n## Pro…",
           "url": "https://github.com/Asymmetric-al/core/pull/1037",
           "date": "2026-07-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -555,13 +505,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -576,13 +526,13 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -765,13 +715,13 @@
     },
     {
       "id": "l536",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -807,13 +757,13 @@
     },
     {
       "id": "l538",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -849,13 +799,13 @@
     },
     {
       "id": "l540",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -876,7 +826,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI-generated books are flooding Amazon and tanking sales for human authors\n&#32;\u2026",
+          "title": "AI-generated books are flooding Amazon and tanking sales for human authors\n&#32;…",
           "url": "https://www.reddit.com/r/fuck_ai_slop/comments/1vqrpcz/aigenerated_books_are_flooding_amazon_and_tanking/",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -891,13 +841,13 @@
     },
     {
       "id": "l542",
-      "text": "OUTRAGE: ChatGPT Now Refuses To Copy Specific Authors\u2019 Writing Styles, For Both Living & Deceased Authors, Sparking Outrage Among AI-Assisted Novel Writers Who Say They Have \u201cNo Idea How To Get Around This\u201d \ud83e\udd16\ud83d\udeab\nOpenAI has quietly directed ChatGPT to start refusing prompts asking it to mimic a specific author\u2019s writing style, Ars Technica reports, triggering a backlash among writers who had relied on the chatbot to churn out fiction. The change surfaced on the r/WritingWithAI subreddit, where one \u2026",
+      "text": "OUTRAGE: ChatGPT Now Refuses To Copy Specific Authors’ Writing Styles, For Both Living & Deceased Authors, Sparking Outrage Among AI-Assisted Novel Writers Who Say They Have “No Idea How To Get Around This” 🤖🚫\nOpenAI has quietly directed ChatGPT to start refusing prompts asking it to mimic a specific author’s writing style, Ars Technica reports, triggering a backlash among writers who had relied on the chatbot to churn out fiction. The change surfaced on the r/WritingWithAI subreddit, where one …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "OUTRAGE: ChatGPT Now Refuses To Copy Specific Authors\u2019 Writing Styles, For Both \u2026",
+          "title": "OUTRAGE: ChatGPT Now Refuses To Copy Specific Authors’ Writing Styles, For Both …",
           "url": "https://www.reddit.com/r/InterstellarKinetics/comments/1varo4e/outrage_chatgpt_now_refuses_to_copy_specific/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -918,7 +868,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Tip for my fellow AI-writers: don't forget to feed your book back into Grok and \u2026",
+          "title": "Tip for my fellow AI-writers: don't forget to feed your book back into Grok and …",
           "url": "https://www.reddit.com/r/writingcirclejerk/comments/1vekluv/tip_for_my_fellow_aiwriters_dont_forget_to_feed/",
           "date": "2026-08-03",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -933,13 +883,13 @@
     },
     {
       "id": "l544",
-      "text": "Why AI covers aren't the quick fix you think (from a bookseller's and author's POV)\n[ETA: no AI was used in this post. I&#39;m currently on a break at the bookstore, on a machine where I couldn&#39;t log in even if I wanted to due to system restrictions. As I&#39;ve commented below, I&#39;ve also got a background in technical writing, and an autistic diagnosis; if anything, AI sounds like *me*...] Right now Facebook is infested with &#39;New writers&#39; pages&#39; that are basically scam traps \u2026",
+      "text": "Why AI covers aren't the quick fix you think (from a bookseller's and author's POV)\n[ETA: no AI was used in this post. I&#39;m currently on a break at the bookstore, on a machine where I couldn&#39;t log in even if I wanted to due to system restrictions. As I&#39;ve commented below, I&#39;ve also got a background in technical writing, and an autistic diagnosis; if anything, AI sounds like *me*...] Right now Facebook is infested with &#39;New writers&#39; pages&#39; that are basically scam traps …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why AI covers aren't the quick fix you think (from a bookseller's and author's P\u2026",
+          "title": "Why AI covers aren't the quick fix you think (from a bookseller's and author's P…",
           "url": "https://www.reddit.com/r/KDP/comments/1vy2e2m/why_ai_covers_arent_the_quick_fix_you_think_from/",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -954,13 +904,13 @@
     },
     {
       "id": "l545",
-      "text": "Black authors are losing publishing deals due to false AI accusations\nJerry Falade\u2018s debut novel, \u201cCall Me, I\u2019ll Hide the Body,\u201d was scheduled for publication in 2028 after it triggered a massive 14-way auction among major U.S. publishing houses and six-figure bids in the U.K., according to The Guardian. The manuscript was so captivating that Hollywood studios were vying for film and TV adaptation rights before the manuscript was even published, Deadline reported. Marc Gerald of Europa Content\u2014a\u2026",
+      "text": "Black authors are losing publishing deals due to false AI accusations\nJerry Falade‘s debut novel, “Call Me, I’ll Hide the Body,” was scheduled for publication in 2028 after it triggered a massive 14-way auction among major U.S. publishing houses and six-figure bids in the U.K., according to The Guardian. The manuscript was so captivating that Hollywood studios were vying for film and TV adaptation rights before the manuscript was even published, Deadline reported. Marc Gerald of Europa Content—a…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Black authors are losing publishing deals due to false AI accusations\nJerry Fala\u2026",
+          "title": "Black authors are losing publishing deals due to false AI accusations\nJerry Fala…",
           "url": "https://www.reddit.com/r/BlackPeopleofReddit/comments/1vf14uh/black_authors_are_losing_publishing_deals_due_to/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -975,13 +925,13 @@
     },
     {
       "id": "l546",
-      "text": "Claude AI Watermark Means New Claude Models Can Be Tracked\nClaude AI Watermark means newer Claude outputs can carry signals that make AI involvement easier to trace after leaving the original chat. That does not mean Anthropic is secretly following users around the internet, because the system focuses on content provenance, not personal surveillance. The AI Profit Boardroom helps people understand AI updates, improve workflows, and adapt as tools change. Watch the video below: https://www.youtub\u2026",
+      "text": "Claude AI Watermark Means New Claude Models Can Be Tracked\nClaude AI Watermark means newer Claude outputs can carry signals that make AI involvement easier to trace after leaving the original chat. That does not mean Anthropic is secretly following users around the internet, because the system focuses on content provenance, not personal surveillance. The AI Profit Boardroom helps people understand AI updates, improve workflows, and adapt as tools change. Watch the video below: https://www.youtub…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Claude AI Watermark Means New Claude Models Can Be Tracked\nClaude AI Watermark m\u2026",
+          "title": "Claude AI Watermark Means New Claude Models Can Be Tracked\nClaude AI Watermark m…",
           "url": "https://www.reddit.com/r/AISEOInsider/comments/1voizd6/claude_ai_watermark_means_new_claude_models_can/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -996,13 +946,13 @@
     },
     {
       "id": "l547",
-      "text": "Claude AI Watermark Detection Is Coming And This Changes Everything\nClaude AI Watermark Detection is coming, and it could change how people judge AI-assisted writing across everyday publishing workflows. Anthropic already places imperceptible signals inside supported Claude output, but public detection tools are the missing part that will make those signals much more practical. The AI Profit Boardroom helps people understand AI changes like this and turn them into simple working systems. Watch t\u2026",
+      "text": "Claude AI Watermark Detection Is Coming And This Changes Everything\nClaude AI Watermark Detection is coming, and it could change how people judge AI-assisted writing across everyday publishing workflows. Anthropic already places imperceptible signals inside supported Claude output, but public detection tools are the missing part that will make those signals much more practical. The AI Profit Boardroom helps people understand AI changes like this and turn them into simple working systems. Watch t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Claude AI Watermark Detection Is Coming And This Changes Everything\nClaude AI Wa\u2026",
+          "title": "Claude AI Watermark Detection Is Coming And This Changes Everything\nClaude AI Wa…",
           "url": "https://www.reddit.com/r/AISEOInsider/comments/1vpi7mt/claude_ai_watermark_detection_is_coming_and_this/",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1017,13 +967,13 @@
     },
     {
       "id": "l548",
-      "text": "Is it even worth being a writer/author if AI is the go to nowadays?\nSo for context, I am a writer and have been working on a novel for some time now. Writing the novel has made me happy and story wise I can&#39;t wait to share it with the world. But just a few months ago, I offered to proofread and give advice on other novels in the making from potential authors. And most if not all were just AI slop. It really made me want to come here and ask this burning question that&#39;s been plaguing me f\u2026",
+      "text": "Is it even worth being a writer/author if AI is the go to nowadays?\nSo for context, I am a writer and have been working on a novel for some time now. Writing the novel has made me happy and story wise I can&#39;t wait to share it with the world. But just a few months ago, I offered to proofread and give advice on other novels in the making from potential authors. And most if not all were just AI slop. It really made me want to come here and ask this burning question that&#39;s been plaguing me f…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Is it even worth being a writer/author if AI is the go to nowadays?\nSo for conte\u2026",
+          "title": "Is it even worth being a writer/author if AI is the go to nowadays?\nSo for conte…",
           "url": "https://www.reddit.com/r/novelwriting/comments/1vsopw9/is_it_even_worth_being_a_writerauthor_if_ai_is/",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1038,13 +988,13 @@
     },
     {
       "id": "l549",
-      "text": "When you use a credit card, a 1\u00a2 payment costs 31\u00a2.\n\nThat math doesn't work for AI agents making thousands of tiny payments a day.\n\n@samrags_ of @merit_systems explains why stablecoins could be the rail the agent economy runs on. https://t.co/P1o2CMuaNu",
+      "text": "When you use a credit card, a 1¢ payment costs 31¢.\n\nThat math doesn't work for AI agents making thousands of tiny payments a day.\n\n@samrags_ of @merit_systems explains why stablecoins could be the rail the agent economy runs on. https://t.co/P1o2CMuaNu",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "When you use a credit card, a 1\u00a2 payment costs 31\u00a2.\n\nThat math doesn't work for \u2026",
+          "title": "When you use a credit card, a 1¢ payment costs 31¢.\n\nThat math doesn't work for …",
           "url": "https://x.com/a16zcrypto/status/2092335249195970753",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1107,7 +1057,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Trying to avoid AI slop in your copywriting?\n\nUse this, and read @stephbzinn's p\u2026",
+          "title": "Trying to avoid AI slop in your copywriting?\n\nUse this, and read @stephbzinn's p…",
           "url": "https://x.com/a16zcrypto/status/2092998851171061764",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1149,7 +1099,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "5 Dead-Simple (Obvious) Ways To 10x Your Writing Efficiency With AI As Your Pers\u2026",
+          "title": "5 Dead-Simple (Obvious) Ways To 10x Your Writing Efficiency With AI As Your Pers…",
           "url": "https://x.com/dickiebush/status/2090089381852053658",
           "date": "2026-08-19",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1233,7 +1183,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The best SEO tools for Perplexity don't come from one product category. Perplexi\u2026",
+          "title": "The best SEO tools for Perplexity don't come from one product category. Perplexi…",
           "url": "https://x.com/veeeeking/status/2091889366411178065",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1254,7 +1204,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Developing judgment is hard. Schools aren't always setup well to develop this sk\u2026",
+          "title": "Developing judgment is hard. Schools aren't always setup well to develop this sk…",
           "url": "https://x.com/sean_campbell/status/2091624114695946485",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1275,7 +1225,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Here's what caught my eye this past week in AI.\n\nThe Detection Wars\n\nEU AI Act n\u2026",
+          "title": "Here's what caught my eye this past week in AI.\n\nThe Detection Wars\n\nEU AI Act n…",
           "url": "https://x.com/sean_campbell/status/2089097436967141769",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1311,13 +1261,13 @@
     },
     {
       "id": "l562",
-      "text": "The Invisible AI Watermark Nobody Told Authors About\n-Claude just started tattooing an invisible watermark onto everything it writes \u2014 and nobody asked authors how we felt about it. \ud83d\ude43\n\nThis month, nearly 200 companies (including Anthropic, Google, and Microsoft) quietly signed onto new EU rules requiring AI-generated text to carry a hidden, undetectable-to-the-eye watermark. Sounds harmless until you realize it can't tell the difference between \"AI wrote this whole book\" and \"I wrote this myself\u2026",
+      "text": "The Invisible AI Watermark Nobody Told Authors About\n-Claude just started tattooing an invisible watermark onto everything it writes — and nobody asked authors how we felt about it. 🙃\n\nThis month, nearly 200 companies (including Anthropic, Google, and Microsoft) quietly signed onto new EU rules requiring AI-generated text to carry a hidden, undetectable-to-the-eye watermark. Sounds harmless until you realize it can't tell the difference between \"AI wrote this whole book\" and \"I wrote this myself…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Invisible AI Watermark Nobody Told Authors About\n-Claude just started tattoo\u2026",
+          "title": "The Invisible AI Watermark Nobody Told Authors About\n-Claude just started tattoo…",
           "url": "https://www.youtube.com/watch?v=RkKpU1GK68Q",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1332,13 +1282,13 @@
     },
     {
       "id": "l563",
-      "text": "Why Human Writers Still Win Against AI\nWarren Brown, a poet, writer, and author, created this video. \nhttps://www.amazon.com/stores/Warren-Brown/author/B003AN10UI\nA video about the art and craft of writing.Useful content for writers and aspiring writers and poets.\n\nCan AI writing tools actually replace human creativity? Learn why your unique voice remains essential while using AI as a powerful co-pilot.\n\nThis video explores the boundary between machine efficiency and human imagination. If you ar\u2026",
+      "text": "Why Human Writers Still Win Against AI\nWarren Brown, a poet, writer, and author, created this video. \nhttps://www.amazon.com/stores/Warren-Brown/author/B003AN10UI\nA video about the art and craft of writing.Useful content for writers and aspiring writers and poets.\n\nCan AI writing tools actually replace human creativity? Learn why your unique voice remains essential while using AI as a powerful co-pilot.\n\nThis video explores the boundary between machine efficiency and human imagination. If you ar…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Why Human Writers Still Win Against AI\nWarren Brown, a poet, writer, and author,\u2026",
+          "title": "Why Human Writers Still Win Against AI\nWarren Brown, a poet, writer, and author,…",
           "url": "https://www.youtube.com/watch?v=NRAcX65QbWo",
           "date": "2026-08-01",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1353,13 +1303,13 @@
     },
     {
       "id": "l564",
-      "text": "AI Versus The Book: How Can Literature Survive?\nAI Versus The Book: How Can Literature Survive?\n\nAmong the various artistic forms, artificial intelligence is being most disruptive in creative writing. This is true for the writing of both commercial and literary fiction. Algorithms can now produce novels, summarize complex works, and mimic literary styles in seconds. Yet literature has always been more than words arranged on a page; it is a record of lived experience, cultural memory, and the irr\u2026",
+      "text": "AI Versus The Book: How Can Literature Survive?\nAI Versus The Book: How Can Literature Survive?\n\nAmong the various artistic forms, artificial intelligence is being most disruptive in creative writing. This is true for the writing of both commercial and literary fiction. Algorithms can now produce novels, summarize complex works, and mimic literary styles in seconds. Yet literature has always been more than words arranged on a page; it is a record of lived experience, cultural memory, and the irr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Versus The Book: How Can Literature Survive?\nAI Versus The Book: How Can Lite\u2026",
+          "title": "AI Versus The Book: How Can Literature Survive?\nAI Versus The Book: How Can Lite…",
           "url": "https://www.youtube.com/watch?v=OQiq40BETDE",
           "date": "2026-03-21",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1429,6 +1379,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

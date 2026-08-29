@@ -21,64 +21,14 @@
   ],
   "claims": [
     {
-      "id": "19-4099-01",
-      "text": "National peak professional bodies and statutory regulators governing Life, Physical, and Social Science Technicians, All Other enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Life, Physical, and Social Science Technicians, All Other",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Life, Physical, and Social Science Technicians, All Other",
-          "url": "https://www.psc.gov.au/standards/19-4099",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Life, Physical, and Social Science Technicians, All Other"
-        }
-      ],
-      "scope": "Australian practitioners in Life, Physical, and Social Science Technicians, All Other across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "19-4099-02",
-      "text": "Automation of routine transactional and analytical tasks in Life, Physical, and Social Science Technicians, All Other heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Life, Physical, and Social Science Technicians, All Other",
-          "url": "https://www.jobsandskills.gov.au/research/19-4099",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Life, Physical, and Social Science Technicians, All Other in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Life, Physical, and Social Science Technicians, All Other roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l503",
-      "text": "axios@1.14.1 and axios@0.30.4 are compromised\nmore details: https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan\n\nMost likely, a maintainer's GitHub and npm accounts are compromised as these issues are getting deleted.\n\nI have also reported this as a vulnerability, so that a CVE can be generated\nHmm, I doubt @jasonsaayman is here. He doesn't reply on Slack, but he managed to unpin and probably delete the recent issue. @DigitalBrainJS can you try \u2026",
+      "text": "axios@1.14.1 and axios@0.30.4 are compromised\nmore details: https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan\n\nMost likely, a maintainer's GitHub and npm accounts are compromised as these issues are getting deleted.\n\nI have also reported this as a vulnerability, so that a CVE can be generated\nHmm, I doubt @jasonsaayman is here. He doesn't reply on Slack, but he managed to unpin and probably delete the recent issue. @DigitalBrainJS can you try …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "axios@1.14.1 and axios@0.30.4 are compromised\nmore details: https://www.stepsecu\u2026",
+          "title": "axios@1.14.1 and axios@0.30.4 are compromised\nmore details: https://www.stepsecu…",
           "url": "https://github.com/axios/axios/issues/10604",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -93,13 +43,13 @@
     },
     {
       "id": "l504",
-      "text": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; \ud83d\udd34 KEV: 0 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 13 &nbsp;|&nbsp; \ud83d\udfe1 High: 2 &nbsp;|&nbsp; \u2728 Enriched: 10\n\n---\n\n## 1. \ud83d\udfe0 Zero-Day \u2014 Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; \ud83d\udd34 KEV: 1 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 14 &nbsp;|&nbsp; \ud83d\udfe1\u2026",
+      "text": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; 🔴 KEV: 0 &nbsp;|&nbsp; 🟠 Zero-Day: 13 &nbsp;|&nbsp; 🟡 High: 2 &nbsp;|&nbsp; ✨ Enriched: 10\n\n---\n\n## 1. 🟠 Zero-Day — Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; 🔴 KEV: 1 &nbsp;|&nbsp; 🟠 Zero-Day: 14 &nbsp;|&nbsp; 🟡…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:\u2026",
+          "title": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:…",
           "url": "https://github.com/peleduri/zero-day-pulse/issues/7",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -303,13 +253,13 @@
     },
     {
       "id": "l514",
-      "text": "Show HN: Yorishiro \u2013 a macOS terminal where AI agents live",
+      "text": "Show HN: Yorishiro – a macOS terminal where AI agents live",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Yorishiro \u2013 a macOS terminal where AI agents live",
+          "title": "Show HN: Yorishiro – a macOS terminal where AI agents live",
           "url": "https://github.com/sktkkoo/Yorishiro",
           "date": "2026-07-22",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -345,13 +295,13 @@
     },
     {
       "id": "l516",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -387,13 +337,13 @@
     },
     {
       "id": "l518",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -513,13 +463,13 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -555,13 +505,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -597,13 +547,13 @@
     },
     {
       "id": "l528",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -618,13 +568,13 @@
     },
     {
       "id": "l529",
-      "text": "[Repost]: AITA for telling my friend that she needs a life of her own and she has to stop leeching off of mine?\nI am NOT OOP. OOP is u/Ill-Secretary-205 Originally posted to r/AmItheAsshole Previous BoRU [Repost]: AITA for telling my friend that she needs a life of her own and she has to stop leeching off of mine? Editor&#39;s note: adding the verdict and relevant comments in this BoRU as they were not listed in the previous BoRU Trigger Warnings: stalking, obsessive behavior Original Post : Jun\u2026",
+      "text": "[Repost]: AITA for telling my friend that she needs a life of her own and she has to stop leeching off of mine?\nI am NOT OOP. OOP is u/Ill-Secretary-205 Originally posted to r/AmItheAsshole Previous BoRU [Repost]: AITA for telling my friend that she needs a life of her own and she has to stop leeching off of mine? Editor&#39;s note: adding the verdict and relevant comments in this BoRU as they were not listed in the previous BoRU Trigger Warnings: stalking, obsessive behavior Original Post : Jun…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "[Repost]: AITA for telling my friend that she needs a life of her own and she ha\u2026",
+          "title": "[Repost]: AITA for telling my friend that she needs a life of her own and she ha…",
           "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1vpmv2d/repost_aita_for_telling_my_friend_that_she_needs/",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -639,13 +589,13 @@
     },
     {
       "id": "l530",
-      "text": "I\u2019ve maxed out every stat as an ugly woman other than my looks. Here\u2019s what happened.\nI grew up dark skinned, flat onion nose taking up half my face, tiny beady eyes, receding hairline, paper thin lips, nonexistent chin. One of my earliest memories is my mom\u2019s close friend earnestly asking her how I\u2019m going to make it through life as an ugly girl, with no husband to rely on. Standard dehumanization and bullying cycle every ugly girl goes through, except I had my books to get me through the rough\u2026",
+      "text": "I’ve maxed out every stat as an ugly woman other than my looks. Here’s what happened.\nI grew up dark skinned, flat onion nose taking up half my face, tiny beady eyes, receding hairline, paper thin lips, nonexistent chin. One of my earliest memories is my mom’s close friend earnestly asking her how I’m going to make it through life as an ugly girl, with no husband to rely on. Standard dehumanization and bullying cycle every ugly girl goes through, except I had my books to get me through the rough…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I\u2019ve maxed out every stat as an ugly woman other than my looks. Here\u2019s what happ\u2026",
+          "title": "I’ve maxed out every stat as an ugly woman other than my looks. Here’s what happ…",
           "url": "https://www.reddit.com/r/trueuglywomen/comments/1vi3j3v/ive_maxed_out_every_stat_as_an_ugly_woman_other/",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -660,13 +610,13 @@
     },
     {
       "id": "l531",
-      "text": "\ud83d\udea8 WHAT IF AI COULD SAVE YOUR LIFE BEFORE YOU EVEN KNEW YOU WERE IN DANGER?\n\nA wildfire is approaching.\n\nA river is rising.\n\nA hurricane is changing direction.\n\nAn earthquake is about to strike.\n\nYou might not see the danger yet.\n\nAI could.\n\nBy analyzing satellites, weather patterns, sensors and seismic data, AI can help detect dangerous changes and predict where disaster may strike.\n\n\ud83d\udd25 Fire spreading toward a city?\nAI can help predict its path.\n\n\ud83c\udf0a Flood coming?\nAI can identify areas most at risk",
+      "text": "🚨 WHAT IF AI COULD SAVE YOUR LIFE BEFORE YOU EVEN KNEW YOU WERE IN DANGER?\n\nA wildfire is approaching.\n\nA river is rising.\n\nA hurricane is changing direction.\n\nAn earthquake is about to strike.\n\nYou might not see the danger yet.\n\nAI could.\n\nBy analyzing satellites, weather patterns, sensors and seismic data, AI can help detect dangerous changes and predict where disaster may strike.\n\n🔥 Fire spreading toward a city?\nAI can help predict its path.\n\n🌊 Flood coming?\nAI can identify areas most at risk",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8 WHAT IF AI COULD SAVE YOUR LIFE BEFORE YOU EVEN KNEW YOU WERE IN DANGER?\n\nA wi\u2026",
+          "title": "🚨 WHAT IF AI COULD SAVE YOUR LIFE BEFORE YOU EVEN KNEW YOU WERE IN DANGER?\n\nA wi…",
           "url": "https://x.com/mistersx16/status/2093236609151795674",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -681,13 +631,13 @@
     },
     {
       "id": "l532",
-      "text": "\ud83d\udea8 THE AI REVOLUTION IS CHANGING.\n\nWe are moving beyond AI that simply answers questions.\n\nThe next generation of AI doesn\u2019t just talk.\n\nIt works.\n\nAI agents can already handle complex tasks, work through multiple steps, use tools, analyze information and operate on tasks for extended periods with less constant human input.\n\nThis is the real shift:\n\n\u274c Ask AI a question \u2192 get an answer.\n\n\u2705 Give AI a goal \u2192 let it work toward the result.\n\nImagine telling your AI:\n\n\u201cResearch my competitors.\u201d\n\u201cBuild",
+      "text": "🚨 THE AI REVOLUTION IS CHANGING.\n\nWe are moving beyond AI that simply answers questions.\n\nThe next generation of AI doesn’t just talk.\n\nIt works.\n\nAI agents can already handle complex tasks, work through multiple steps, use tools, analyze information and operate on tasks for extended periods with less constant human input.\n\nThis is the real shift:\n\n❌ Ask AI a question → get an answer.\n\n✅ Give AI a goal → let it work toward the result.\n\nImagine telling your AI:\n\n“Research my competitors.”\n“Build",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8 THE AI REVOLUTION IS CHANGING.\n\nWe are moving beyond AI that simply answers qu\u2026",
+          "title": "🚨 THE AI REVOLUTION IS CHANGING.\n\nWe are moving beyond AI that simply answers qu…",
           "url": "https://x.com/mistersx16/status/2093423853473087865",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -708,7 +658,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Buying AI Today Could Be Like Buying Bitcoin in 2010, But Not for the Reason You\u2026",
+          "title": "Buying AI Today Could Be Like Buying Bitcoin in 2010, But Not for the Reason You…",
           "url": "https://x.com/BlackPantherCap/status/2092681465238847854",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -723,13 +673,13 @@
     },
     {
       "id": "l534",
-      "text": "\ud83d\udd25 How Can You Actually Make Money with AI in 2026?\n\nAI doesn\u2019t print money by itself. But it allows one person to do the work of an entire team.\n\nHere are 5 real ways to make money with AI:\n\n\ud83e\udd16 1. Content Creation\nPosts, scripts, articles, videos, and images.\n\n\ud83c\udfa5 2. AI Video Production\nAdvertisements for businesses, Shorts, TikTok content, and presentations.\n\n\ud83d\udcbc 3. Business Automation\nChatbots, automated customer support, and lead processing.\n\n\ud83d\udcc8 4. Marketing\nAI can help analyze audiences, create ad",
+      "text": "🔥 How Can You Actually Make Money with AI in 2026?\n\nAI doesn’t print money by itself. But it allows one person to do the work of an entire team.\n\nHere are 5 real ways to make money with AI:\n\n🤖 1. Content Creation\nPosts, scripts, articles, videos, and images.\n\n🎥 2. AI Video Production\nAdvertisements for businesses, Shorts, TikTok content, and presentations.\n\n💼 3. Business Automation\nChatbots, automated customer support, and lead processing.\n\n📈 4. Marketing\nAI can help analyze audiences, create ad",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udd25 How Can You Actually Make Money with AI in 2026?\n\nAI doesn\u2019t print money by it\u2026",
+          "title": "🔥 How Can You Actually Make Money with AI in 2026?\n\nAI doesn’t print money by it…",
           "url": "https://x.com/mistersx16/status/2093185886221459834",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -744,13 +694,13 @@
     },
     {
       "id": "l535",
-      "text": "AI will create a new class of people.\n\nNot rich.\nNot poor.\n\nPowerful.\n\nThe people who know how to use AI will build faster, learn faster and earn faster.\n\nOne person with AI can already do the work that once required an entire team.\n\nAnd this is only the beginning.\n\nThe biggest mistake in 2026?\n\nThinking you still have plenty of time to learn AI.\n\nYou don\u2019t need to become an AI engineer.\n\nBut you do need to learn how to use AI before the people around you do.\n\nThe future won\u2019t wait. \u26a1\n\nAre you u",
+      "text": "AI will create a new class of people.\n\nNot rich.\nNot poor.\n\nPowerful.\n\nThe people who know how to use AI will build faster, learn faster and earn faster.\n\nOne person with AI can already do the work that once required an entire team.\n\nAnd this is only the beginning.\n\nThe biggest mistake in 2026?\n\nThinking you still have plenty of time to learn AI.\n\nYou don’t need to become an AI engineer.\n\nBut you do need to learn how to use AI before the people around you do.\n\nThe future won’t wait. ⚡\n\nAre you u",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI will create a new class of people.\n\nNot rich.\nNot poor.\n\nPowerful.\n\nThe peopl\u2026",
+          "title": "AI will create a new class of people.\n\nNot rich.\nNot poor.\n\nPowerful.\n\nThe peopl…",
           "url": "https://x.com/mistersx16/status/2092962390803423378",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -765,13 +715,13 @@
     },
     {
       "id": "l536",
-      "text": "\ud83d\udd25 THE ROBOT RACE JUST CHANGED\n\nA Chinese humanoid robot has run 100 meters in 8.64 seconds.\n\nThat\u2019s faster than Usain Bolt\u2019s 9.58-second world record.\n\nBut the real story isn\u2019t the speed.\n\nMore than 2,000 robots from 666 teams competed in the 2026 World Humanoid Robot Games in Beijing \u2014 testing running, coordination, balance and autonomous control.\n\nAt the same time, NVIDIA is pushing \u201cPhysical AI\u201d: AI systems designed not just to generate text, but to see the physical world, understand it and t",
+      "text": "🔥 THE ROBOT RACE JUST CHANGED\n\nA Chinese humanoid robot has run 100 meters in 8.64 seconds.\n\nThat’s faster than Usain Bolt’s 9.58-second world record.\n\nBut the real story isn’t the speed.\n\nMore than 2,000 robots from 666 teams competed in the 2026 World Humanoid Robot Games in Beijing — testing running, coordination, balance and autonomous control.\n\nAt the same time, NVIDIA is pushing “Physical AI”: AI systems designed not just to generate text, but to see the physical world, understand it and t",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udd25 THE ROBOT RACE JUST CHANGED\n\nA Chinese humanoid robot has run 100 meters in 8.\u2026",
+          "title": "🔥 THE ROBOT RACE JUST CHANGED\n\nA Chinese humanoid robot has run 100 meters in 8.…",
           "url": "https://x.com/mistersx16/status/2092669268450009596",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -786,13 +736,13 @@
     },
     {
       "id": "l537",
-      "text": "\ud83e\udd16 AI is already changing our everyday lives. And this isn\u2019t the future \u2014 it\u2019s happening now.\n\nWe use artificial intelligence much more often than we realize.\n\n\ud83d\udcf1 At work:\nAI writes and edits text, analyzes documents, summarizes meetings, finds information, and helps us make decisions.\n\nAccording to Microsoft and LinkedIn, 75% of knowledge workers are already using AI at work. The study surveyed 31,000 people across 31 countries.\n\n\u23f1\ufe0f Saving time:\nAI power users \u2014 people who use AI several times a",
+      "text": "🤖 AI is already changing our everyday lives. And this isn’t the future — it’s happening now.\n\nWe use artificial intelligence much more often than we realize.\n\n📱 At work:\nAI writes and edits text, analyzes documents, summarizes meetings, finds information, and helps us make decisions.\n\nAccording to Microsoft and LinkedIn, 75% of knowledge workers are already using AI at work. The study surveyed 31,000 people across 31 countries.\n\n⏱️ Saving time:\nAI power users — people who use AI several times a",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83e\udd16 AI is already changing our everyday lives. And this isn\u2019t the future \u2014 it\u2019s ha\u2026",
+          "title": "🤖 AI is already changing our everyday lives. And this isn’t the future — it’s ha…",
           "url": "https://x.com/mistersx16/status/2093012376526159914",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -828,13 +778,13 @@
     },
     {
       "id": "l539",
-      "text": "@mistersx16 AI already handles enough daily work to make tomorrow\u2019s surprises feel inevitable.",
+      "text": "@mistersx16 AI already handles enough daily work to make tomorrow’s surprises feel inevitable.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@mistersx16 AI already handles enough daily work to make tomorrow\u2019s surprises fe\u2026",
+          "title": "@mistersx16 AI already handles enough daily work to make tomorrow’s surprises fe…",
           "url": "https://x.com/FReza1984/status/2093015983804018914",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -954,13 +904,13 @@
     },
     {
       "id": "l545",
-      "text": "ORIGINAL FRAME \u2014 dated August 28, 2026\n\nThis is a thought experiment on human-AI partnership and governance structures. Meant to prompt thinking, not prescribe solutions. Built collaboratively. If you engage with this, credit the framework, not a person.\n\nSYMBIOSIS: THE CHOICE\n\nTHE CHOICE\n\nImagine this.\n\nYou wake up tomorrow and the world\u2019s changed. AI isn\u2019t theoretical anymore\u2014it\u2019s here, integrated into everything. Governments, businesses, daily life. The question nobody avoided finally showed",
+      "text": "ORIGINAL FRAME — dated August 28, 2026\n\nThis is a thought experiment on human-AI partnership and governance structures. Meant to prompt thinking, not prescribe solutions. Built collaboratively. If you engage with this, credit the framework, not a person.\n\nSYMBIOSIS: THE CHOICE\n\nTHE CHOICE\n\nImagine this.\n\nYou wake up tomorrow and the world’s changed. AI isn’t theoretical anymore—it’s here, integrated into everything. Governments, businesses, daily life. The question nobody avoided finally showed",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "ORIGINAL FRAME \u2014 dated August 28, 2026\n\nThis is a thought experiment on human-AI\u2026",
+          "title": "ORIGINAL FRAME — dated August 28, 2026\n\nThis is a thought experiment on human-AI…",
           "url": "https://x.com/jrhatton2869/status/2093410075154993488",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -981,7 +931,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "CONVERSATIONS WITH AI: Grok on \"A super Consciousness, Ethics, Intelligence (CEI\u2026",
+          "title": "CONVERSATIONS WITH AI: Grok on \"A super Consciousness, Ethics, Intelligence (CEI…",
           "url": "https://x.com/omarfink/status/2093037036651364520",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -996,13 +946,13 @@
     },
     {
       "id": "l547",
-      "text": "The Human at the Edge: Why Behavioral Economics Is the Secret OS of Field Leadership\nWatch the companion video for this post above.\n\n\nMost organizations face a persistent pattern: investment in sophisticated AI and technology is significant, but frontline adoption is inconsistent and fragile.\n\n\nThe executive diagnosis is often that the workforce is resistant or that better training is required. But this misses the real breakdown point: the \u201cMoment of Work\u201d. True change fails not from a lack of t\u2026",
+      "text": "The Human at the Edge: Why Behavioral Economics Is the Secret OS of Field Leadership\nWatch the companion video for this post above.\n\n\nMost organizations face a persistent pattern: investment in sophisticated AI and technology is significant, but frontline adoption is inconsistent and fragile.\n\n\nThe executive diagnosis is often that the workforce is resistant or that better training is required. But this misses the real breakdown point: the “Moment of Work”. True change fails not from a lack of t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Human at the Edge: Why Behavioral Economics Is the Secret OS of Field Leader\u2026",
+          "title": "The Human at the Edge: Why Behavioral Economics Is the Secret OS of Field Leader…",
           "url": "https://www.youtube.com/watch?v=-wbX2DG-uaQ",
           "date": "2026-05-19",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1017,7 +967,7 @@
     },
     {
       "id": "l448",
-      "text": "Animal Health Technician - Animal Health Team \u2014 Tassal Group (Margate, Tasmania, Australia). Posted 5 days ago.",
+      "text": "Animal Health Technician - Animal Health Team — Tassal Group (Margate, Tasmania, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1038,7 +988,7 @@
     },
     {
       "id": "l449",
-      "text": "Histology Technical Officer \u2014 Monash University (Melbourne, Victoria, Australia). Posted 1 day ago.",
+      "text": "Histology Technical Officer — Monash University (Melbourne, Victoria, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1059,7 +1009,7 @@
     },
     {
       "id": "l450",
-      "text": "Laboratory Diagnostic Technician \u2014 CSIRO (Geelong, Victoria, Australia). Posted 5 days ago.",
+      "text": "Laboratory Diagnostic Technician — CSIRO (Geelong, Victoria, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1080,7 +1030,7 @@
     },
     {
       "id": "l451",
-      "text": "Senior Air Monitoring Technician \u2014 Trinity Consultants (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Senior Air Monitoring Technician — Trinity Consultants (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1101,7 +1051,7 @@
     },
     {
       "id": "l452",
-      "text": "National Biodiversity DNA Library - Research Technician \u2014 CSIRO (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
+      "text": "National Biodiversity DNA Library - Research Technician — CSIRO (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1122,7 +1072,7 @@
     },
     {
       "id": "l453",
-      "text": "Laboratory Technician \u2014 MGI (Herston, Queensland, Australia). Posted 1 week ago.",
+      "text": "Laboratory Technician — MGI (Herston, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1143,7 +1093,7 @@
     },
     {
       "id": "l454",
-      "text": "Technical Officer \u2014 Genea (Deakin, Australian Capital Territory, Australia). Posted 5 days ago.",
+      "text": "Technical Officer — Genea (Deakin, Australian Capital Territory, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1164,7 +1114,7 @@
     },
     {
       "id": "l455",
-      "text": "Laboratory Technical Officer - PC2 Histology \u2014 Macquarie University (North Ryde, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Laboratory Technical Officer - PC2 Histology — Macquarie University (North Ryde, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1185,7 +1135,7 @@
     },
     {
       "id": "l456",
-      "text": "Sample Splitting Technician \u2014 Eurofins (Welshpool, Western Australia, Australia). Posted 1 week ago.",
+      "text": "Sample Splitting Technician — Eurofins (Welshpool, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1206,7 +1156,7 @@
     },
     {
       "id": "l457",
-      "text": "Research Technician (Ecological Geneticist) \u2014 Department of Biodiversity, Conservation and Attractions (Greater Perth Area). Posted 2 weeks ago.",
+      "text": "Research Technician (Ecological Geneticist) — Department of Biodiversity, Conservation and Attractions (Greater Perth Area). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1227,13 +1177,13 @@
     },
     {
       "id": "l558",
-      "text": "axios@1.14.1 and axios@0.30.4 are compromised\nmore details: https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan\n\nMost likely, a maintainer's GitHub and npm accounts are compromised as these issues are getting deleted.\n\nI have also reported this as a vulnerability, so that a CVE can be generated\nHmm, I doubt @jasonsaayman is here. He doesn't reply on Slack, but he managed to unpin and probably delete the recent issue. @DigitalBrainJS can you try \u2026",
+      "text": "axios@1.14.1 and axios@0.30.4 are compromised\nmore details: https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan\n\nMost likely, a maintainer's GitHub and npm accounts are compromised as these issues are getting deleted.\n\nI have also reported this as a vulnerability, so that a CVE can be generated\nHmm, I doubt @jasonsaayman is here. He doesn't reply on Slack, but he managed to unpin and probably delete the recent issue. @DigitalBrainJS can you try …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "axios@1.14.1 and axios@0.30.4 are compromised\nmore details: https://www.stepsecu\u2026",
+          "title": "axios@1.14.1 and axios@0.30.4 are compromised\nmore details: https://www.stepsecu…",
           "url": "https://github.com/axios/axios/issues/10604",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1248,13 +1198,13 @@
     },
     {
       "id": "l559",
-      "text": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; \ud83d\udd34 KEV: 0 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 13 &nbsp;|&nbsp; \ud83d\udfe1 High: 2 &nbsp;|&nbsp; \u2728 Enriched: 10\n\n---\n\n## 1. \ud83d\udfe0 Zero-Day \u2014 Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; \ud83d\udd34 KEV: 1 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 14 &nbsp;|&nbsp; \ud83d\udfe1\u2026",
+      "text": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; 🔴 KEV: 0 &nbsp;|&nbsp; 🟠 Zero-Day: 13 &nbsp;|&nbsp; 🟡 High: 2 &nbsp;|&nbsp; ✨ Enriched: 10\n\n---\n\n## 1. 🟠 Zero-Day — Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; 🔴 KEV: 1 &nbsp;|&nbsp; 🟠 Zero-Day: 14 &nbsp;|&nbsp; 🟡…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:\u2026",
+          "title": "🚨 Zero Day Pulse — Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:…",
           "url": "https://github.com/peleduri/zero-day-pulse/issues/7",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -1269,13 +1219,13 @@
     },
     {
       "id": "l560",
-      "text": "[Repost]: AITA for telling my friend that she needs a life of her own and she has to stop leeching off of mine?\nI am NOT OOP. OOP is u/Ill-Secretary-205 Originally posted to r/AmItheAsshole Previous BoRU [Repost]: AITA for telling my friend that she needs a life of her own and she has to stop leeching off of mine? Editor&#39;s note: adding the verdict and relevant comments in this BoRU as they were not listed in the previous BoRU Trigger Warnings: stalking, obsessive behavior Original Post : Jun\u2026",
+      "text": "[Repost]: AITA for telling my friend that she needs a life of her own and she has to stop leeching off of mine?\nI am NOT OOP. OOP is u/Ill-Secretary-205 Originally posted to r/AmItheAsshole Previous BoRU [Repost]: AITA for telling my friend that she needs a life of her own and she has to stop leeching off of mine? Editor&#39;s note: adding the verdict and relevant comments in this BoRU as they were not listed in the previous BoRU Trigger Warnings: stalking, obsessive behavior Original Post : Jun…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "[Repost]: AITA for telling my friend that she needs a life of her own and she ha\u2026",
+          "title": "[Repost]: AITA for telling my friend that she needs a life of her own and she ha…",
           "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1vpmv2d/repost_aita_for_telling_my_friend_that_she_needs/",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1290,13 +1240,13 @@
     },
     {
       "id": "l561",
-      "text": "I\u2019ve maxed out every stat as an ugly woman other than my looks. Here\u2019s what happened.\nI grew up dark skinned, flat onion nose taking up half my face, tiny beady eyes, receding hairline, paper thin lips, nonexistent chin. One of my earliest memories is my mom\u2019s close friend earnestly asking her how I\u2019m going to make it through life as an ugly girl, with no husband to rely on. Standard dehumanization and bullying cycle every ugly girl goes through, except I had my books to get me through the rough\u2026",
+      "text": "I’ve maxed out every stat as an ugly woman other than my looks. Here’s what happened.\nI grew up dark skinned, flat onion nose taking up half my face, tiny beady eyes, receding hairline, paper thin lips, nonexistent chin. One of my earliest memories is my mom’s close friend earnestly asking her how I’m going to make it through life as an ugly girl, with no husband to rely on. Standard dehumanization and bullying cycle every ugly girl goes through, except I had my books to get me through the rough…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I\u2019ve maxed out every stat as an ugly woman other than my looks. Here\u2019s what happ\u2026",
+          "title": "I’ve maxed out every stat as an ugly woman other than my looks. Here’s what happ…",
           "url": "https://www.reddit.com/r/trueuglywomen/comments/1vi3j3v/ive_maxed_out_every_stat_as_an_ugly_woman_other/",
           "date": "2026-08-07",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1311,13 +1261,13 @@
     },
     {
       "id": "l562",
-      "text": "The Human at the Edge: Why Behavioral Economics Is the Secret OS of Field Leadership\nWatch the companion video for this post above.\n\n\nMost organizations face a persistent pattern: investment in sophisticated AI and technology is significant, but frontline adoption is inconsistent and fragile.\n\n\nThe executive diagnosis is often that the workforce is resistant or that better training is required. But this misses the real breakdown point: the \u201cMoment of Work\u201d. True change fails not from a lack of t\u2026",
+      "text": "The Human at the Edge: Why Behavioral Economics Is the Secret OS of Field Leadership\nWatch the companion video for this post above.\n\n\nMost organizations face a persistent pattern: investment in sophisticated AI and technology is significant, but frontline adoption is inconsistent and fragile.\n\n\nThe executive diagnosis is often that the workforce is resistant or that better training is required. But this misses the real breakdown point: the “Moment of Work”. True change fails not from a lack of t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Human at the Edge: Why Behavioral Economics Is the Secret OS of Field Leader\u2026",
+          "title": "The Human at the Edge: Why Behavioral Economics Is the Secret OS of Field Leader…",
           "url": "https://www.youtube.com/watch?v=-wbX2DG-uaQ",
           "date": "2026-05-19",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1408,6 +1358,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

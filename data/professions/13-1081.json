@@ -20,58 +20,8 @@
   ],
   "claims": [
     {
-      "id": "13-1081-01",
-      "text": "National peak professional bodies and statutory regulators governing Logisticians enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Logisticians",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Logisticians",
-          "url": "https://www.psc.gov.au/standards/13-1081",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Logisticians"
-        }
-      ],
-      "scope": "Australian practitioners in Logisticians across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "13-1081-02",
-      "text": "Automation of routine transactional and analytical tasks in Logisticians heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Logisticians",
-          "url": "https://www.jobsandskills.gov.au/research/13-1081",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Logisticians in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Logisticians roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Logistics Specialist \u2014 UPS (Adelaide, South Australia, Australia). Posted 5 days ago.",
+      "text": "Logistics Specialist — UPS (Adelaide, South Australia, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -92,7 +42,7 @@
     },
     {
       "id": "l404",
-      "text": "Logistics Specialist \u2014 UPS (Greater Adelaide Area). Posted 1 week ago.",
+      "text": "Logistics Specialist — UPS (Greater Adelaide Area). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -113,7 +63,7 @@
     },
     {
       "id": "l405",
-      "text": "Logistics Specialist \u2014 MANTECH (Shelly Beach, Queensland, Australia). Posted 6 days ago.",
+      "text": "Logistics Specialist — MANTECH (Shelly Beach, Queensland, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -134,7 +84,7 @@
     },
     {
       "id": "l406",
-      "text": "Logistics Planner \u2014 New Economy Minerals Jobs (Townsville, Queensland, Australia). Posted 21 hours ago.",
+      "text": "Logistics Planner — New Economy Minerals Jobs (Townsville, Queensland, Australia). Posted 21 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -155,7 +105,7 @@
     },
     {
       "id": "l407",
-      "text": "Transportation Specialist, Transportation Operations Management (TOM) \u2014 Amazon (Kemps Creek, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Transportation Specialist, Transportation Operations Management (TOM) — Amazon (Kemps Creek, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -176,7 +126,7 @@
     },
     {
       "id": "l408",
-      "text": "Transport Allocator \u2014 CHILL (Gold Coast). Posted 1 week ago.",
+      "text": "Transport Allocator — CHILL (Gold Coast). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -197,7 +147,7 @@
     },
     {
       "id": "l409",
-      "text": "Transportation Specialist \u2014 Amazon (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Transportation Specialist — Amazon (Brisbane, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -218,7 +168,7 @@
     },
     {
       "id": "l410",
-      "text": "Transport Operations \u2014 Qube (Outer Harbor, South Australia, Australia). Posted 1 week ago.",
+      "text": "Transport Operations — Qube (Outer Harbor, South Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -239,7 +189,7 @@
     },
     {
       "id": "l411",
-      "text": "Freight & Customs Specialist \u2014 Raytheon Australia (Cannon Hill, Queensland, Australia). Posted 1 week ago.",
+      "text": "Freight & Customs Specialist — Raytheon Australia (Cannon Hill, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -260,7 +210,7 @@
     },
     {
       "id": "l412",
-      "text": "Operations and Transport Officer \u2014 Elgas Limited (Canning Vale, Western Australia, Australia). Posted 1 month ago.",
+      "text": "Operations and Transport Officer — Elgas Limited (Canning Vale, Western Australia, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -281,13 +231,13 @@
     },
     {
       "id": "l513",
-      "text": "Problem: Small carriers miss Belarus border queue booking windows\n**JTBD:** When I dispatch trucks through Belarusian border checkpoints, I want booking rules, queue status and vehicle documents coordinated before departure, so I can avoid idle drivers, missed slots and last-minute rerouting.\n\n---\n\n**Context & frequency:**\nTriggered for small road carriers and fre\n<!-- rw:orchestration-run:rw:muaddibco:RealWorldProblems:issue:1937 -->\nOrchestrator claimed issue for stage `evidence-enrich` at 202\u2026",
+      "text": "Problem: Small carriers miss Belarus border queue booking windows\n**JTBD:** When I dispatch trucks through Belarusian border checkpoints, I want booking rules, queue status and vehicle documents coordinated before departure, so I can avoid idle drivers, missed slots and last-minute rerouting.\n\n---\n\n**Context & frequency:**\nTriggered for small road carriers and fre\n<!-- rw:orchestration-run:rw:muaddibco:RealWorldProblems:issue:1937 -->\nOrchestrator claimed issue for stage `evidence-enrich` at 202…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Problem: Small carriers miss Belarus border queue booking windows\n**JTBD:** When\u2026",
+          "title": "Problem: Small carriers miss Belarus border queue booking windows\n**JTBD:** When…",
           "url": "https://github.com/muaddibco/RealWorldProblems/issues/1937",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -491,13 +441,13 @@
     },
     {
       "id": "l523",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -533,13 +483,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -701,13 +651,13 @@
     },
     {
       "id": "l533",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -743,13 +693,13 @@
     },
     {
       "id": "l535",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -785,13 +735,13 @@
     },
     {
       "id": "l537",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -806,13 +756,13 @@
     },
     {
       "id": "l538",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA\u2026",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -827,13 +777,13 @@
     },
     {
       "id": "l539",
-      "text": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]",
+      "text": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&\u2026",
+          "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&…",
           "url": "https://www.reddit.com/r/technology/comments/1vzb4xo/ai_agents_meant_to_replace_meta_workers_made/",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -848,13 +798,13 @@
     },
     {
       "id": "l540",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the RAM for a motherboard upgrade or a cor\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]\nIncoming psu price rises due to \"shortages \" Future news: Thermal paste surges to $79.99 for 2g tubes as AI continues to disrupt the PC market. It's going to happen. The reasoning for the motherboards is weakening demand which is probably completely unavoidable as people can't afford the RAM for a motherboard upgrade or a cor…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcmasterrace/comments/1vfe28b/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -869,13 +819,13 @@
     },
     {
       "id": "l541",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed\u2026",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]\nI've long given up on upgrading my PC. RAM , GPU , now motherboards. For all I know everything else could become ten times as expensive and it wouldn't change anything because without those components Don't forget ssds and hard drives . Good luck installing the next bloated 100gb game on a 100$ 256 GB ssd with windows 11 installed…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
           "url": "https://www.reddit.com/r/pcgaming/comments/1vfe3ru/motherboard_prices_set_to_rise_as_aifuelled_pc/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -896,7 +846,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecas\u2026",
+          "title": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecas…",
           "url": "https://www.reddit.com/r/SEO/comments/1vxkjla/sam_altman_concedes_he_overestimated_ai/",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -917,7 +867,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32\u2026",
+          "title": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32…",
           "url": "https://www.reddit.com/r/technology/comments/1voms55/onlyfans_investor_says_ai_cant_disrupt_adult/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -938,7 +888,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI job disruption priced into man's compensation payout in first known case\n&#32\u2026",
+          "title": "AI job disruption priced into man's compensation payout in first known case\n&#32…",
           "url": "https://www.reddit.com/r/australia/comments/1vv43m6/ai_job_disruption_priced_into_mans_compensation/",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -953,13 +903,13 @@
     },
     {
       "id": "l545",
-      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k\u2026",
+      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A\u2026",
+          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A…",
           "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
           "date": "2026-08-23",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -974,13 +924,13 @@
     },
     {
       "id": "l546",
-      "text": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let\u2019s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
+      "text": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let’s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market \u2026",
+          "title": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market …",
           "url": "https://www.reddit.com/r/Superstonk/comments/1vaxmve/for_my_dorito_loversyen_intervention_with_a/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -995,13 +945,13 @@
     },
     {
       "id": "l547",
-      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c\u2026",
+      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public \u2026",
+          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public …",
           "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vnsz0y/jpmorgan_ceo_jamie_dimon_declares_ai_deployment/",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1016,14 +966,14 @@
     },
     {
       "id": "l548",
-      "text": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]",
+      "text": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Europe\u2019s fight to stay in the AI race. \u00c0 special edition of Talking Europe asks \u2026",
-          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_\u00e0_special/",
+          "title": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks …",
+          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_à_special/",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
         }
@@ -1043,7 +993,7 @@
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
           "url": "https://www.reddit.com/r/aiecosystem/comments/1w00i5d/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1058,13 +1008,13 @@
     },
     {
       "id": "l550",
-      "text": "\ud83e\udd16 AI is already changing our everyday lives. And this isn\u2019t the future \u2014 it\u2019s happening now.\n\nWe use artificial intelligence much more often than we realize.\n\n\ud83d\udcf1 At work:\nAI writes and edits text, analyzes documents, summarizes meetings, finds information, and helps us make decisions.\n\nAccording to Microsoft and LinkedIn, 75% of knowledge workers are already using AI at work. The study surveyed 31,000 people across 31 countries.\n\n\u23f1\ufe0f Saving time:\nAI power users \u2014 people who use AI several times a",
+      "text": "🤖 AI is already changing our everyday lives. And this isn’t the future — it’s happening now.\n\nWe use artificial intelligence much more often than we realize.\n\n📱 At work:\nAI writes and edits text, analyzes documents, summarizes meetings, finds information, and helps us make decisions.\n\nAccording to Microsoft and LinkedIn, 75% of knowledge workers are already using AI at work. The study surveyed 31,000 people across 31 countries.\n\n⏱️ Saving time:\nAI power users — people who use AI several times a",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83e\udd16 AI is already changing our everyday lives. And this isn\u2019t the future \u2014 it\u2019s ha\u2026",
+          "title": "🤖 AI is already changing our everyday lives. And this isn’t the future — it’s ha…",
           "url": "https://x.com/mistersx16/status/2093012376526159914",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1079,13 +1029,13 @@
     },
     {
       "id": "l551",
-      "text": "\ud83d\udea8 THE AI REVOLUTION IS CHANGING.\n\nWe are moving beyond AI that simply answers questions.\n\nThe next generation of AI doesn\u2019t just talk.\n\nIt works.\n\nAI agents can already handle complex tasks, work through multiple steps, use tools, analyze information and operate on tasks for extended periods with less constant human input.\n\nThis is the real shift:\n\n\u274c Ask AI a question \u2192 get an answer.\n\n\u2705 Give AI a goal \u2192 let it work toward the result.\n\nImagine telling your AI:\n\n\u201cResearch my competitors.\u201d\n\u201cBuild",
+      "text": "🚨 THE AI REVOLUTION IS CHANGING.\n\nWe are moving beyond AI that simply answers questions.\n\nThe next generation of AI doesn’t just talk.\n\nIt works.\n\nAI agents can already handle complex tasks, work through multiple steps, use tools, analyze information and operate on tasks for extended periods with less constant human input.\n\nThis is the real shift:\n\n❌ Ask AI a question → get an answer.\n\n✅ Give AI a goal → let it work toward the result.\n\nImagine telling your AI:\n\n“Research my competitors.”\n“Build",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8 THE AI REVOLUTION IS CHANGING.\n\nWe are moving beyond AI that simply answers qu\u2026",
+          "title": "🚨 THE AI REVOLUTION IS CHANGING.\n\nWe are moving beyond AI that simply answers qu…",
           "url": "https://x.com/mistersx16/status/2093423853473087865",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1106,7 +1056,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "EXCLUSIVE: @GallatinAI secures DIU contract for critical contested logistics sup\u2026",
+          "title": "EXCLUSIVE: @GallatinAI secures DIU contract for critical contested logistics sup…",
           "url": "https://x.com/AtomsNotBits/status/2077408310324797855",
           "date": "2026-07-15",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1121,13 +1071,13 @@
     },
     {
       "id": "l553",
-      "text": "\ud83d\udd25 How Can You Actually Make Money with AI in 2026?\n\nAI doesn\u2019t print money by itself. But it allows one person to do the work of an entire team.\n\nHere are 5 real ways to make money with AI:\n\n\ud83e\udd16 1. Content Creation\nPosts, scripts, articles, videos, and images.\n\n\ud83c\udfa5 2. AI Video Production\nAdvertisements for businesses, Shorts, TikTok content, and presentations.\n\n\ud83d\udcbc 3. Business Automation\nChatbots, automated customer support, and lead processing.\n\n\ud83d\udcc8 4. Marketing\nAI can help analyze audiences, create ad",
+      "text": "🔥 How Can You Actually Make Money with AI in 2026?\n\nAI doesn’t print money by itself. But it allows one person to do the work of an entire team.\n\nHere are 5 real ways to make money with AI:\n\n🤖 1. Content Creation\nPosts, scripts, articles, videos, and images.\n\n🎥 2. AI Video Production\nAdvertisements for businesses, Shorts, TikTok content, and presentations.\n\n💼 3. Business Automation\nChatbots, automated customer support, and lead processing.\n\n📈 4. Marketing\nAI can help analyze audiences, create ad",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udd25 How Can You Actually Make Money with AI in 2026?\n\nAI doesn\u2019t print money by it\u2026",
+          "title": "🔥 How Can You Actually Make Money with AI in 2026?\n\nAI doesn’t print money by it…",
           "url": "https://x.com/mistersx16/status/2093185886221459834",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1142,13 +1092,13 @@
     },
     {
       "id": "l554",
-      "text": "AI will create a new class of people.\n\nNot rich.\nNot poor.\n\nPowerful.\n\nThe people who know how to use AI will build faster, learn faster and earn faster.\n\nOne person with AI can already do the work that once required an entire team.\n\nAnd this is only the beginning.\n\nThe biggest mistake in 2026?\n\nThinking you still have plenty of time to learn AI.\n\nYou don\u2019t need to become an AI engineer.\n\nBut you do need to learn how to use AI before the people around you do.\n\nThe future won\u2019t wait. \u26a1\n\nAre you u",
+      "text": "AI will create a new class of people.\n\nNot rich.\nNot poor.\n\nPowerful.\n\nThe people who know how to use AI will build faster, learn faster and earn faster.\n\nOne person with AI can already do the work that once required an entire team.\n\nAnd this is only the beginning.\n\nThe biggest mistake in 2026?\n\nThinking you still have plenty of time to learn AI.\n\nYou don’t need to become an AI engineer.\n\nBut you do need to learn how to use AI before the people around you do.\n\nThe future won’t wait. ⚡\n\nAre you u",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI will create a new class of people.\n\nNot rich.\nNot poor.\n\nPowerful.\n\nThe peopl\u2026",
+          "title": "AI will create a new class of people.\n\nNot rich.\nNot poor.\n\nPowerful.\n\nThe peopl…",
           "url": "https://x.com/mistersx16/status/2092962390803423378",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1169,7 +1119,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "BREAKING: @a16z has raised $1.1B for its new Machine Age Fund, focused on the ph\u2026",
+          "title": "BREAKING: @a16z has raised $1.1B for its new Machine Age Fund, focused on the ph…",
           "url": "https://x.com/AtomsNotBits/status/2093354491701813340",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1184,13 +1134,13 @@
     },
     {
       "id": "l556",
-      "text": "\ud83d\udea8 WHAT IF AI COULD SAVE YOUR LIFE BEFORE YOU EVEN KNEW YOU WERE IN DANGER?\n\nA wildfire is approaching.\n\nA river is rising.\n\nA hurricane is changing direction.\n\nAn earthquake is about to strike.\n\nYou might not see the danger yet.\n\nAI could.\n\nBy analyzing satellites, weather patterns, sensors and seismic data, AI can help detect dangerous changes and predict where disaster may strike.\n\n\ud83d\udd25 Fire spreading toward a city?\nAI can help predict its path.\n\n\ud83c\udf0a Flood coming?\nAI can identify areas most at risk",
+      "text": "🚨 WHAT IF AI COULD SAVE YOUR LIFE BEFORE YOU EVEN KNEW YOU WERE IN DANGER?\n\nA wildfire is approaching.\n\nA river is rising.\n\nA hurricane is changing direction.\n\nAn earthquake is about to strike.\n\nYou might not see the danger yet.\n\nAI could.\n\nBy analyzing satellites, weather patterns, sensors and seismic data, AI can help detect dangerous changes and predict where disaster may strike.\n\n🔥 Fire spreading toward a city?\nAI can help predict its path.\n\n🌊 Flood coming?\nAI can identify areas most at risk",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8 WHAT IF AI COULD SAVE YOUR LIFE BEFORE YOU EVEN KNEW YOU WERE IN DANGER?\n\nA wi\u2026",
+          "title": "🚨 WHAT IF AI COULD SAVE YOUR LIFE BEFORE YOU EVEN KNEW YOU WERE IN DANGER?\n\nA wi…",
           "url": "https://x.com/mistersx16/status/2093236609151795674",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1211,7 +1161,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@CTOAdvisor @Scobleizer Agreed. I'm not trying to build a company that big. But,\u2026",
+          "title": "@CTOAdvisor @Scobleizer Agreed. I'm not trying to build a company that big. But,…",
           "url": "https://x.com/MattWhitneyReal/status/2093508466228797767",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1232,7 +1182,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@alexii_9 Especially with AI now, you can build almost anything.\n\nBut who's goin\u2026",
+          "title": "@alexii_9 Especially with AI now, you can build almost anything.\n\nBut who's goin…",
           "url": "https://x.com/ankitballin/status/2093502659797962838",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1253,7 +1203,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@kevinyangkuan @adityaag no one cares about AI \"the future industry\" bro -- unle\u2026",
+          "title": "@kevinyangkuan @adityaag no one cares about AI \"the future industry\" bro -- unle…",
           "url": "https://x.com/Dr_SlopLord/status/2093500121698759096",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1268,13 +1218,13 @@
     },
     {
       "id": "l560",
-      "text": "@mistersx16 AI already handles enough daily work to make tomorrow\u2019s surprises feel inevitable.",
+      "text": "@mistersx16 AI already handles enough daily work to make tomorrow’s surprises feel inevitable.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@mistersx16 AI already handles enough daily work to make tomorrow\u2019s surprises fe\u2026",
+          "title": "@mistersx16 AI already handles enough daily work to make tomorrow’s surprises fe…",
           "url": "https://x.com/FReza1984/status/2093015983804018914",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1310,13 +1260,13 @@
     },
     {
       "id": "l562",
-      "text": "\ud83d\udd25 THE ROBOT RACE JUST CHANGED\n\nA Chinese humanoid robot has run 100 meters in 8.64 seconds.\n\nThat\u2019s faster than Usain Bolt\u2019s 9.58-second world record.\n\nBut the real story isn\u2019t the speed.\n\nMore than 2,000 robots from 666 teams competed in the 2026 World Humanoid Robot Games in Beijing \u2014 testing running, coordination, balance and autonomous control.\n\nAt the same time, NVIDIA is pushing \u201cPhysical AI\u201d: AI systems designed not just to generate text, but to see the physical world, understand it and t",
+      "text": "🔥 THE ROBOT RACE JUST CHANGED\n\nA Chinese humanoid robot has run 100 meters in 8.64 seconds.\n\nThat’s faster than Usain Bolt’s 9.58-second world record.\n\nBut the real story isn’t the speed.\n\nMore than 2,000 robots from 666 teams competed in the 2026 World Humanoid Robot Games in Beijing — testing running, coordination, balance and autonomous control.\n\nAt the same time, NVIDIA is pushing “Physical AI”: AI systems designed not just to generate text, but to see the physical world, understand it and t",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udd25 THE ROBOT RACE JUST CHANGED\n\nA Chinese humanoid robot has run 100 meters in 8.\u2026",
+          "title": "🔥 THE ROBOT RACE JUST CHANGED\n\nA Chinese humanoid robot has run 100 meters in 8.…",
           "url": "https://x.com/mistersx16/status/2092669268450009596",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1337,7 +1287,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "From webhooks to FULL-FLEDGED AI: \nhow I'm implementing LLM and automation in my\u2026",
+          "title": "From webhooks to FULL-FLEDGED AI: \nhow I'm implementing LLM and automation in my…",
           "url": "https://x.com/viliana68036380/status/2064774180503945268",
           "date": "2026-06-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1358,7 +1308,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "@GallatinAI won a DIU contract to run Navigator, real-time sustainment planning,\u2026",
+          "title": "@GallatinAI won a DIU contract to run Navigator, real-time sustainment planning,…",
           "url": "https://x.com/MoonshotsCap/status/2082840786492633121",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1379,7 +1329,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Interoperability shouldn't stop at data. It should extend to developer experienc\u2026",
+          "title": "Interoperability shouldn't stop at data. It should extend to developer experienc…",
           "url": "https://x.com/GallatinAI/status/2057472496564387891",
           "date": "2026-05-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1400,7 +1350,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "We used the term \"force multiplier\" when I was in the military.  This is the fir\u2026",
+          "title": "We used the term \"force multiplier\" when I was in the military.  This is the fir…",
           "url": "https://x.com/james_tackett1/status/2029544413018689625",
           "date": "2026-03-05",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1415,13 +1365,13 @@
     },
     {
       "id": "l567",
-      "text": "Inside a YC Startup Disrupting a $900B Industry That Runs the US\nIn this episode, I go behind the scenes with Jesse Buckingham, Mike Carter and the team at Vooma, a YC-backed startup building AI workers for the freight and logistics industry. Vooma has raised $16.6M from investors including Index Ventures and Craft Ventures to modernise an $900B industry that keeps the US economy moving.\n\nFreight and logistics sits behind almost every physical product we buy, yet much of it still relies on phone\u2026",
+      "text": "Inside a YC Startup Disrupting a $900B Industry That Runs the US\nIn this episode, I go behind the scenes with Jesse Buckingham, Mike Carter and the team at Vooma, a YC-backed startup building AI workers for the freight and logistics industry. Vooma has raised $16.6M from investors including Index Ventures and Craft Ventures to modernise an $900B industry that keeps the US economy moving.\n\nFreight and logistics sits behind almost every physical product we buy, yet much of it still relies on phone…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Inside a YC Startup Disrupting a $900B Industry That Runs the US\nIn this episode\u2026",
+          "title": "Inside a YC Startup Disrupting a $900B Industry That Runs the US\nIn this episode…",
           "url": "https://www.youtube.com/watch?v=zY-dqw0_6ug",
           "date": "2026-07-10",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1436,13 +1386,13 @@
     },
     {
       "id": "l568",
-      "text": "How AI Can Improve Supply Chain Execution | 4flow\nSupply chain leaders are under pressure to respond faster, reduce cost and manage disruption \u2014 but many organisations are still operating through manual, siloed execution processes.\n\nIn this DELIVER Europe 2026 breakout session, Damian Unterl\u00f6hner from 4flow and Vineet Khanna, Former Global Head of Supply Chain at Nestl\u00e9 and Supply Chain Advisor, discuss how AI, orchestration and execution technology can support faster decision-making across comp\u2026",
+      "text": "How AI Can Improve Supply Chain Execution | 4flow\nSupply chain leaders are under pressure to respond faster, reduce cost and manage disruption — but many organisations are still operating through manual, siloed execution processes.\n\nIn this DELIVER Europe 2026 breakout session, Damian Unterlöhner from 4flow and Vineet Khanna, Former Global Head of Supply Chain at Nestlé and Supply Chain Advisor, discuss how AI, orchestration and execution technology can support faster decision-making across comp…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI Can Improve Supply Chain Execution | 4flow\nSupply chain leaders are under\u2026",
+          "title": "How AI Can Improve Supply Chain Execution | 4flow\nSupply chain leaders are under…",
           "url": "https://www.youtube.com/watch?v=uYJmrh070lA",
           "date": "2026-06-10",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1457,13 +1407,13 @@
     },
     {
       "id": "l569",
-      "text": "How AI Is Pushing the Semiconductor Supply Chain to the Limit | Bloomberg Primer\nThe global semiconductor industry powers everything from artificial intelligence to everyday electronics, and is on track to become a $1 trillion market. But its supply chain is under growing strain, as geopolitical tensions and rising demand force companies and governments to rethink how chips are made and where they come from.\n\n0:00 Introduction\n1:58 ASML\u2019s Lithography Machine\n4:46 AMD & Chip Design\n8:10 AI Demand\u2026",
+      "text": "How AI Is Pushing the Semiconductor Supply Chain to the Limit | Bloomberg Primer\nThe global semiconductor industry powers everything from artificial intelligence to everyday electronics, and is on track to become a $1 trillion market. But its supply chain is under growing strain, as geopolitical tensions and rising demand force companies and governments to rethink how chips are made and where they come from.\n\n0:00 Introduction\n1:58 ASML’s Lithography Machine\n4:46 AMD & Chip Design\n8:10 AI Demand…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI Is Pushing the Semiconductor Supply Chain to the Limit | Bloomberg Primer\u2026",
+          "title": "How AI Is Pushing the Semiconductor Supply Chain to the Limit | Bloomberg Primer…",
           "url": "https://www.youtube.com/watch?v=VdcD6qX8Xrc",
           "date": "2026-05-06",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1478,13 +1428,13 @@
     },
     {
       "id": "l570",
-      "text": "How a $250K Sea Drone Destroys $2 Billion Warships? Nexus Logistics\nHow does a $250,000 drone neutralize a $2 billion machine? Discover the brutal math and hidden physics breaking the global supply chain.\n\nDisclaimer: This video presents content from the perspectives of science, engineering (physics and chemistry), energy analysis, and supply chain logistics. It is entirely politically neutral, makes no absolute claims, and does not promote war or violence.\n\nCHAPTERS:\n\n00:00 The $2 Billion Marit\u2026",
+      "text": "How a $250K Sea Drone Destroys $2 Billion Warships? Nexus Logistics\nHow does a $250,000 drone neutralize a $2 billion machine? Discover the brutal math and hidden physics breaking the global supply chain.\n\nDisclaimer: This video presents content from the perspectives of science, engineering (physics and chemistry), energy analysis, and supply chain logistics. It is entirely politically neutral, makes no absolute claims, and does not promote war or violence.\n\nCHAPTERS:\n\n00:00 The $2 Billion Marit…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How a $250K Sea Drone Destroys $2 Billion Warships? Nexus Logistics\nHow does a $\u2026",
+          "title": "How a $250K Sea Drone Destroys $2 Billion Warships? Nexus Logistics\nHow does a $…",
           "url": "https://www.youtube.com/watch?v=UXtAeWpPvzw",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1499,13 +1449,13 @@
     },
     {
       "id": "l571",
-      "text": "I Built an AI Agent That Learns From Past Logistics Decisions\nTradeSentinel \u2014 When an AI Agent Learns From Experience\n\nWhat if an AI agent could remember what happened before and use those experiences when making its next decision?\n\nTradeSentinel is an AI-powered cross-border logistics resilience platform built to help e-commerce and logistics teams detect disruptions, predict their impact, identify affected shipments, optimize routes, and recommend recovery actions while keeping humans in the l\u2026",
+      "text": "I Built an AI Agent That Learns From Past Logistics Decisions\nTradeSentinel — When an AI Agent Learns From Experience\n\nWhat if an AI agent could remember what happened before and use those experiences when making its next decision?\n\nTradeSentinel is an AI-powered cross-border logistics resilience platform built to help e-commerce and logistics teams detect disruptions, predict their impact, identify affected shipments, optimize routes, and recommend recovery actions while keeping humans in the l…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "I Built an AI Agent That Learns From Past Logistics Decisions\nTradeSentinel \u2014 Wh\u2026",
+          "title": "I Built an AI Agent That Learns From Past Logistics Decisions\nTradeSentinel — Wh…",
           "url": "https://www.youtube.com/watch?v=CLZ2hqDAB14",
           "date": "2026-08-12",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1520,13 +1470,13 @@
     },
     {
       "id": "l572",
-      "text": "Why AI is Disrupting Supply Chains (And What It Means for Jobs)\nAI is transforming supply chains. Warehouse robots, autonomous trucks, and \nAI-powered forecasting are changing how we move products around the world.\n\nBut this raises important questions: What happens to warehouse workers? How fast \nwill automation happen? And is this good or bad?\n\nIn this video, I break down how AI is disrupting supply chains and what it means \nfor the future of logistics jobs.\n\n**What You'll Learn:**\n\u2022 How AI is \u2026",
+      "text": "Why AI is Disrupting Supply Chains (And What It Means for Jobs)\nAI is transforming supply chains. Warehouse robots, autonomous trucks, and \nAI-powered forecasting are changing how we move products around the world.\n\nBut this raises important questions: What happens to warehouse workers? How fast \nwill automation happen? And is this good or bad?\n\nIn this video, I break down how AI is disrupting supply chains and what it means \nfor the future of logistics jobs.\n\n**What You'll Learn:**\n• How AI is …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Why AI is Disrupting Supply Chains (And What It Means for Jobs)\nAI is transformi\u2026",
+          "title": "Why AI is Disrupting Supply Chains (And What It Means for Jobs)\nAI is transformi…",
           "url": "https://www.youtube.com/watch?v=MnWuowlIWOE",
           "date": "2026-06-13",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1541,13 +1491,13 @@
     },
     {
       "id": "l573",
-      "text": "Best AI Tools for Logistics & Supply Chain Teams in 2026: The Complete Guide\nbest ai tools for logistics 2026 / ai supply chain tools / ai demand forecasting supply chain / ai route optimization logistics / ai warehouse automation / ai supply chain management 2026 / ai logistics tools / ai inventory management / ai transportation optimization / supply chain ai roi / ai supply chain visibility / ai disruption management / ai for operations leaders / best ai for supply chain / ai logistics cost re\u2026",
+      "text": "Best AI Tools for Logistics & Supply Chain Teams in 2026: The Complete Guide\nbest ai tools for logistics 2026 / ai supply chain tools / ai demand forecasting supply chain / ai route optimization logistics / ai warehouse automation / ai supply chain management 2026 / ai logistics tools / ai inventory management / ai transportation optimization / supply chain ai roi / ai supply chain visibility / ai disruption management / ai for operations leaders / best ai for supply chain / ai logistics cost re…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Best AI Tools for Logistics & Supply Chain Teams in 2026: The Complete Guide\nbes\u2026",
+          "title": "Best AI Tools for Logistics & Supply Chain Teams in 2026: The Complete Guide\nbes…",
           "url": "https://www.youtube.com/watch?v=sJ851nLvKIc",
           "date": "2026-07-01",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1562,13 +1512,13 @@
     },
     {
       "id": "l574",
-      "text": "How AI is Transforming Supply Chain Logistics for Manufacturers in 2026\nIn this insightful video, we examine how AI is revolutionizing supply chain logistics for manufacturers by 2026. As the landscape of logistics becomes increasingly complex, manufacturers face significant challenges such as:\n- Fragmented transport systems\n- Limited shipment visibility\n- Rising operational costs\n\nTo navigate these challenges, manufacturers need a comprehensive solution that enables greater control over supply \u2026",
+      "text": "How AI is Transforming Supply Chain Logistics for Manufacturers in 2026\nIn this insightful video, we examine how AI is revolutionizing supply chain logistics for manufacturers by 2026. As the landscape of logistics becomes increasingly complex, manufacturers face significant challenges such as:\n- Fragmented transport systems\n- Limited shipment visibility\n- Rising operational costs\n\nTo navigate these challenges, manufacturers need a comprehensive solution that enables greater control over supply …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI is Transforming Supply Chain Logistics for Manufacturers in 2026\nIn this \u2026",
+          "title": "How AI is Transforming Supply Chain Logistics for Manufacturers in 2026\nIn this …",
           "url": "https://www.youtube.com/watch?v=H_BiF4eiZbo",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1583,13 +1533,13 @@
     },
     {
       "id": "l575",
-      "text": "How AI Detects Supply Chain Disruptions in Real-Time Explained\nIn this comprehensive educational video, we explore how Artificial Intelligence is revolutionizing supply chain management by detecting disruptions in real-time. We break down the complex algorithms that analyze vast amounts of data to predict delays, optimize logistics routes, and prevent costly downtime before they occur. This guide covers machine learning models, predictive analytics, and practical case studies from major industri\u2026",
+      "text": "How AI Detects Supply Chain Disruptions in Real-Time Explained\nIn this comprehensive educational video, we explore how Artificial Intelligence is revolutionizing supply chain management by detecting disruptions in real-time. We break down the complex algorithms that analyze vast amounts of data to predict delays, optimize logistics routes, and prevent costly downtime before they occur. This guide covers machine learning models, predictive analytics, and practical case studies from major industri…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI Detects Supply Chain Disruptions in Real-Time Explained\nIn this comprehen\u2026",
+          "title": "How AI Detects Supply Chain Disruptions in Real-Time Explained\nIn this comprehen…",
           "url": "https://www.youtube.com/watch?v=cq0HwXsNBOk",
           "date": "2026-04-30",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1660,6 +1610,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }

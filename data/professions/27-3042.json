@@ -14,58 +14,8 @@
   "programs": [],
   "claims": [
     {
-      "id": "27-3042-01",
-      "text": "National peak professional bodies and statutory regulators governing Technical Writers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
-      "sources": [
-        {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Technical Writers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Technical Writers",
-          "url": "https://www.psc.gov.au/standards/27-3042",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Technical Writers"
-        }
-      ],
-      "scope": "Australian practitioners in Technical Writers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "27-3042-02",
-      "text": "Automation of routine transactional and analytical tasks in Technical Writers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Technical Writers",
-          "url": "https://www.jobsandskills.gov.au/research/27-3042",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Technical Writers in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Technical Writers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
-    },
-    {
       "id": "l403",
-      "text": "Technical Writer \u2014 Standards Australia (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Technical Writer — Standards Australia (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -86,7 +36,7 @@
     },
     {
       "id": "l404",
-      "text": "ILS Analyst (Technical Publication / Author) \u2014 KBR, Inc. (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
+      "text": "ILS Analyst (Technical Publication / Author) — KBR, Inc. (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -107,7 +57,7 @@
     },
     {
       "id": "l405",
-      "text": "Technical Writer - HSE \u2014 Lycopodium (Perth, Western Australia, Australia). Posted 3 weeks ago.",
+      "text": "Technical Writer - HSE — Lycopodium (Perth, Western Australia, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -128,7 +78,7 @@
     },
     {
       "id": "l406",
-      "text": "Technical Writer & Illustrator (LC001) \u2014 IAG Defence and National Security (Brisbane City, Queensland, Australia). Posted 1 month ago.",
+      "text": "Technical Writer & Illustrator (LC001) — IAG Defence and National Security (Brisbane City, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -149,7 +99,7 @@
     },
     {
       "id": "l407",
-      "text": "Senior Technical Writer \u2014 Nuix (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "text": "Senior Technical Writer — Nuix (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -170,7 +120,7 @@
     },
     {
       "id": "l408",
-      "text": "ILS Analyst (Technical Publication / Author) \u2014 KBR, Inc. (Greater Adelaide Area). Posted 2 weeks ago.",
+      "text": "ILS Analyst (Technical Publication / Author) — KBR, Inc. (Greater Adelaide Area). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -191,7 +141,7 @@
     },
     {
       "id": "l409",
-      "text": "Aviation Senior Writer/Editor, Technical Publications \u2014 Civil Aviation Safety Authority (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "text": "Aviation Senior Writer/Editor, Technical Publications — Civil Aviation Safety Authority (Melbourne, Victoria, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -212,7 +162,7 @@
     },
     {
       "id": "l410",
-      "text": "Aviation Senior Writer/Editor, Technical Publications \u2014 Civil Aviation Safety Authority (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
+      "text": "Aviation Senior Writer/Editor, Technical Publications — Civil Aviation Safety Authority (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -233,7 +183,7 @@
     },
     {
       "id": "l411",
-      "text": "Technical Writer - PostgreSQL \u2014 Jobgether (Australia). Posted 6 hours ago.",
+      "text": "Technical Writer - PostgreSQL — Jobgether (Australia). Posted 6 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -254,7 +204,7 @@
     },
     {
       "id": "l412",
-      "text": "Senior Technical Writer \u2014 Micromine (Perth, Western Australia, Australia). Posted 1 day ago.",
+      "text": "Senior Technical Writer — Micromine (Perth, Western Australia, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -281,7 +231,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Company v1 agent ops loop\n# Company v1 agent ops loop\n\nOperational coordination \u2026",
+          "title": "Company v1 agent ops loop\n# Company v1 agent ops loop\n\nOperational coordination …",
           "url": "https://github.com/zeroslove-ai/company-v1/issues/68",
           "date": "2026-08-14",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -296,13 +246,13 @@
     },
     {
       "id": "l514",
-      "text": "[ PARENT THREAD ] AI Agent Toolkit \u2014 Rolling Work Queue\n<!-- AI-AGENT-TOOLKIT:GITHUB-PROGRAM-PARENT:BEGIN v2 -->\n# Programme dashboard\n\n## Goal\nDeliver the six-stage Toolkit programme through truthful, deterministic, source-traceable programme views.\n\n## Current status\n| Item | State |\n| --- | --- |\n| Programme | CURRENT / E3 G4 |\n| Current Child | #359",
+      "text": "[ PARENT THREAD ] AI Agent Toolkit — Rolling Work Queue\n<!-- AI-AGENT-TOOLKIT:GITHUB-PROGRAM-PARENT:BEGIN v2 -->\n# Programme dashboard\n\n## Goal\nDeliver the six-stage Toolkit programme through truthful, deterministic, source-traceable programme views.\n\n## Current status\n| Item | State |\n| --- | --- |\n| Programme | CURRENT / E3 G4 |\n| Current Child | #359",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "[ PARENT THREAD ] AI Agent Toolkit \u2014 Rolling Work Queue\n<!-- AI-AGENT-TOOLKIT:GI\u2026",
+          "title": "[ PARENT THREAD ] AI Agent Toolkit — Rolling Work Queue\n<!-- AI-AGENT-TOOLKIT:GI…",
           "url": "https://github.com/weijunswj/ai-agent-toolkit/issues/240",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -317,13 +267,13 @@
     },
     {
       "id": "l515",
-      "text": "MongoDB outage survival for send + history load, and extract broadcast-worker's room-level writes into roomlist-worker\n> \ud83d\udcc4 **[Engineering report: Keeping chat alive when MongoDB goes down](https://claude.ai/code/artifact/7756ae77-3d02-464c-9669-2c1e2f1d2ce8)** \u2014 what works and what fails during an outage, per-service database access, settings, and limits.\n>\n> \ud83d\udd0d **[Review triage](https://claude.ai/code/artifact/ae2c3",
+      "text": "MongoDB outage survival for send + history load, and extract broadcast-worker's room-level writes into roomlist-worker\n> 📄 **[Engineering report: Keeping chat alive when MongoDB goes down](https://claude.ai/code/artifact/7756ae77-3d02-464c-9669-2c1e2f1d2ce8)** — what works and what fails during an outage, per-service database access, settings, and limits.\n>\n> 🔍 **[Review triage](https://claude.ai/code/artifact/ae2c3",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "MongoDB outage survival for send + history load, and extract broadcast-worker's \u2026",
+          "title": "MongoDB outage survival for send + history load, and extract broadcast-worker's …",
           "url": "https://github.com/hmchangw/newchat/pull/188",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -338,13 +288,13 @@
     },
     {
       "id": "l516",
-      "text": "feat(debug): publish evidence-first Codex and Agents debug skill\n## Summary\r\n\r\n- publish the verified 26-file `debug` skill backup for Codex and Agents skill trees\r\n- preserve automatic triggers for `cleanup GitHub`, `bug`, `debug`, PR cleanup, failing tests, and broken builds\r\n- include the authenticated runtime evidence collector and deterministic 19-check PR c\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](http\u2026",
+      "text": "feat(debug): publish evidence-first Codex and Agents debug skill\n## Summary\r\n\r\n- publish the verified 26-file `debug` skill backup for Codex and Agents skill trees\r\n- preserve automatic triggers for `cleanup GitHub`, `bug`, `debug`, PR cleanup, failing tests, and broken builds\r\n- include the authenticated runtime evidence collector and deterministic 19-check PR c\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](http…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat(debug): publish evidence-first Codex and Agents debug skill\n## Summary\r\n\r\n-\u2026",
+          "title": "feat(debug): publish evidence-first Codex and Agents debug skill\n## Summary\r\n\r\n-…",
           "url": "https://github.com/XGenerationy/codex-agents-debug-mode/pull/1",
           "date": "2026-07-20",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -359,13 +309,13 @@
     },
     {
       "id": "l517",
-      "text": "fix(hooks): match lint-staged Prettier scope to the repo-wide format gate\n## Problem\n\n`lint-staged` ran Prettier over `{apps,packages,tooling,docs,.github}/**` plus four repo-root files, but the pre-push gate (`scripts/verify/ci-preflight.mjs` \u2192 `format:check`) runs `prettier . --check` across the **whole repo**.\n\nAnything in the difference committed cleanly and then fail\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change St\u2026",
+      "text": "fix(hooks): match lint-staged Prettier scope to the repo-wide format gate\n## Problem\n\n`lint-staged` ran Prettier over `{apps,packages,tooling,docs,.github}/**` plus four repo-root files, but the pre-push gate (`scripts/verify/ci-preflight.mjs` → `format:check`) runs `prettier . --check` across the **whole repo**.\n\nAnything in the difference committed cleanly and then fail\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change St…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "fix(hooks): match lint-staged Prettier scope to the repo-wide format gate\n## Pro\u2026",
+          "title": "fix(hooks): match lint-staged Prettier scope to the repo-wide format gate\n## Pro…",
           "url": "https://github.com/Asymmetric-al/core/pull/1037",
           "date": "2026-07-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -386,7 +336,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "refactor: plan & foundation for new day planner agent layer\n<!-- This is an auto\u2026",
+          "title": "refactor: plan & foundation for new day planner agent layer\n<!-- This is an auto…",
           "url": "https://github.com/matthiasn/lotti/pull/3293",
           "date": "2026-06-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -407,7 +357,7 @@
       "sources": [
         {
           "publisher": "github",
-          "title": "Flet migration\nresolves #49\n\ncoolio flet\n\n<!-- This is an auto-generated comment\u2026",
+          "title": "Flet migration\nresolves #49\n\ncoolio flet\n\n<!-- This is an auto-generated comment…",
           "url": "https://github.com/silent-this-sonder/sb3-bulk-downloader/pull/58",
           "date": "2026-04-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -422,13 +372,13 @@
     },
     {
       "id": "l520",
-      "text": "fix: [BOUNTY $100] \ud83d\udc1c The Memanto + LangGraph Integration Challenge: Give Your Graph a Permanent Brain\nResolves https://github.com/moorcheh-ai/memanto/issues/397.\n\n/claim #397\n\nAutonomous fix for mechanical task.\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **New Features**\n  * Added a LangGraph + Memanto permanent-memory demo and example scr",
+      "text": "fix: [BOUNTY $100] 🐜 The Memanto + LangGraph Integration Challenge: Give Your Graph a Permanent Brain\nResolves https://github.com/moorcheh-ai/memanto/issues/397.\n\n/claim #397\n\nAutonomous fix for mechanical task.\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **New Features**\n  * Added a LangGraph + Memanto permanent-memory demo and example scr",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "fix: [BOUNTY $100] \ud83d\udc1c The Memanto + LangGraph Integration Challenge: Give Your Gr\u2026",
+          "title": "fix: [BOUNTY $100] 🐜 The Memanto + LangGraph Integration Challenge: Give Your Gr…",
           "url": "https://github.com/moorcheh-ai/memanto/pull/478",
           "date": "2026-05-14",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -443,13 +393,13 @@
     },
     {
       "id": "l521",
-      "text": "\ud83d\ude80 Product Hunt AI Digest 2026-05-27\n# Product Hunt AI Products Digest 2026-05-27\n\n> Source: [Product Hunt](https://www.producthunt.com/) | 14 products | Generated: 2026-05-27 00:26 UTC\n\n---\n\n# Product Hunt AI Products Digest \u2014 May 27, 2026\n\n---\n\n## 1. Today's Highlights\n\nToday's Product Hunt AI launches reveal a clear maturation trend",
+      "text": "🚀 Product Hunt AI Digest 2026-05-27\n# Product Hunt AI Products Digest 2026-05-27\n\n> Source: [Product Hunt](https://www.producthunt.com/) | 14 products | Generated: 2026-05-27 00:26 UTC\n\n---\n\n# Product Hunt AI Products Digest — May 27, 2026\n\n---\n\n## 1. Today's Highlights\n\nToday's Product Hunt AI launches reveal a clear maturation trend",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\ude80 Product Hunt AI Digest 2026-05-27\n# Product Hunt AI Products Digest 2026-05-27\u2026",
+          "title": "🚀 Product Hunt AI Digest 2026-05-27\n# Product Hunt AI Products Digest 2026-05-27…",
           "url": "https://github.com/duanyytop/agents-radar/issues/1302",
           "date": "2026-05-27",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -653,13 +603,13 @@
     },
     {
       "id": "l531",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -674,13 +624,13 @@
     },
     {
       "id": "l532",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -821,13 +771,13 @@
     },
     {
       "id": "l539",
-      "text": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+      "text": "Show HN: Videopython – local-first video processing, editing and AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+          "title": "Show HN: Videopython – local-first video processing, editing and AI workflows",
           "url": "https://github.com/bartwojtowicz/videopython",
           "date": "2026-06-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -863,13 +813,13 @@
     },
     {
       "id": "l541",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -905,13 +855,13 @@
     },
     {
       "id": "l543",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -947,13 +897,13 @@
     },
     {
       "id": "l545",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -968,13 +918,13 @@
     },
     {
       "id": "l546",
-      "text": "[HIRING] Tech & Engineering Blog Writers (Strictly No AI) | Great for Diploma/Engineering Students\nHey everyone, I\u2019m looking for writers for my website. What you will be writing about: We cover a wide range of subjects basically, anything that will be beneficial for diploma students. This could include study guides, technical explanations, career advice, or industry insights. Here are the details: 1.Strictly NO AI: You can write from your own knowledge or do research, but no AI-generated text is\u2026",
+      "text": "[HIRING] Tech & Engineering Blog Writers (Strictly No AI) | Great for Diploma/Engineering Students\nHey everyone, I’m looking for writers for my website. What you will be writing about: We cover a wide range of subjects basically, anything that will be beneficial for diploma students. This could include study guides, technical explanations, career advice, or industry insights. Here are the details: 1.Strictly NO AI: You can write from your own knowledge or do research, but no AI-generated text is…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "[HIRING] Tech & Engineering Blog Writers (Strictly No AI) | Great for Diploma/En\u2026",
+          "title": "[HIRING] Tech & Engineering Blog Writers (Strictly No AI) | Great for Diploma/En…",
           "url": "https://www.reddit.com/r/sidehustleIndia/comments/1vn2fow/hiring_tech_engineering_blog_writers_strictly_no/",
           "date": "2026-08-13",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -989,13 +939,13 @@
     },
     {
       "id": "l547",
-      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En\u2026",
+      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment\u2026",
+          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment…",
           "url": "https://www.reddit.com/r/newbrunswickcanada/comments/1vkm48r/lorneville_ai_data_centre_update_eia_technical/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1010,13 +960,13 @@
     },
     {
       "id": "l548",
-      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En\u2026",
+      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment\u2026",
+          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment…",
           "url": "https://www.reddit.com/r/SaintJohnNB/comments/1vkm7tq/lorneville_ai_data_centre_update_eia_technical/",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1031,13 +981,13 @@
     },
     {
       "id": "l549",
-      "text": "OUTRAGE: ChatGPT Now Refuses To Copy Specific Authors\u2019 Writing Styles, For Both Living & Deceased Authors, Sparking Outrage Among AI-Assisted Novel Writers Who Say They Have \u201cNo Idea How To Get Around This\u201d \ud83e\udd16\ud83d\udeab\nOpenAI has quietly directed ChatGPT to start refusing prompts asking it to mimic a specific author\u2019s writing style, Ars Technica reports, triggering a backlash among writers who had relied on the chatbot to churn out fiction. The change surfaced on the r/WritingWithAI subreddit, where one \u2026",
+      "text": "OUTRAGE: ChatGPT Now Refuses To Copy Specific Authors’ Writing Styles, For Both Living & Deceased Authors, Sparking Outrage Among AI-Assisted Novel Writers Who Say They Have “No Idea How To Get Around This” 🤖🚫\nOpenAI has quietly directed ChatGPT to start refusing prompts asking it to mimic a specific author’s writing style, Ars Technica reports, triggering a backlash among writers who had relied on the chatbot to churn out fiction. The change surfaced on the r/WritingWithAI subreddit, where one …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "OUTRAGE: ChatGPT Now Refuses To Copy Specific Authors\u2019 Writing Styles, For Both \u2026",
+          "title": "OUTRAGE: ChatGPT Now Refuses To Copy Specific Authors’ Writing Styles, For Both …",
           "url": "https://www.reddit.com/r/InterstellarKinetics/comments/1varo4e/outrage_chatgpt_now_refuses_to_copy_specific/",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1052,13 +1002,13 @@
     },
     {
       "id": "l550",
-      "text": "I believe writers have a shortcut into filmmaking now - AI videos!\nWhat if writers could become directors without learning filmmaking first? I&#39;m not a professional writer, I&#39;ve always loved reading and writing short stories from time to time, mostly for fun &amp; just putting some ideas into words. But I&#39;ve been thinking about this after a conversation I had recently with a writer. As making images and videos becomes cheaper, I think the value is shifting towards imagination, good st\u2026",
+      "text": "I believe writers have a shortcut into filmmaking now - AI videos!\nWhat if writers could become directors without learning filmmaking first? I&#39;m not a professional writer, I&#39;ve always loved reading and writing short stories from time to time, mostly for fun &amp; just putting some ideas into words. But I&#39;ve been thinking about this after a conversation I had recently with a writer. As making images and videos becomes cheaper, I think the value is shifting towards imagination, good st…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "I believe writers have a shortcut into filmmaking now - AI videos!\nWhat if write\u2026",
+          "title": "I believe writers have a shortcut into filmmaking now - AI videos!\nWhat if write…",
           "url": "https://www.reddit.com/r/WritingWithAI/comments/1vjlejw/i_believe_writers_have_a_shortcut_into_filmmaking/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1073,13 +1023,13 @@
     },
     {
       "id": "l551",
-      "text": "Why are Gamers so incredibly hostile to AI? Is it just a tiny vocal minority that spreads such toxic vitriol online?\nEdit: TL;DR response: Yes***********. ... It&#39;s more accurate to say that many highly engaged online gamers are hostile to AI, not that &quot;gamers&quot; as a whole are. Gaming is a huge community with hundreds of millions of people, and opinions vary widely. Several factors contribute to why AI discussions become especially heated in gaming communities: Fear of job displaceme\u2026",
+      "text": "Why are Gamers so incredibly hostile to AI? Is it just a tiny vocal minority that spreads such toxic vitriol online?\nEdit: TL;DR response: Yes***********. ... It&#39;s more accurate to say that many highly engaged online gamers are hostile to AI, not that &quot;gamers&quot; as a whole are. Gaming is a huge community with hundreds of millions of people, and opinions vary widely. Several factors contribute to why AI discussions become especially heated in gaming communities: Fear of job displaceme…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Why are Gamers so incredibly hostile to AI? Is it just a tiny vocal minority tha\u2026",
+          "title": "Why are Gamers so incredibly hostile to AI? Is it just a tiny vocal minority tha…",
           "url": "https://www.reddit.com/r/ChatGPT/comments/1vfcgrd/why_are_gamers_so_incredibly_hostile_to_ai_is_it/",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -1094,13 +1044,13 @@
     },
     {
       "id": "l552",
-      "text": "Strategic Predictive Analysis :::\nPi Network\u2019s Next Evolution: From Blockchain Nodes to a Distributed AI and Work Execution Infrastructure\n( https://t.co/690gQVtYyU )\n\n[[[ This article includes Predictive & Technical Analysis  and may differ from actual outcomes ]]]\n[[[ \u201cWhy OpenClaw and the Atlassian MCP Server Matter \u2014 Pi Desktop Is No Longer Just a Node Application\u201d ]]]\n[[[ \u201cTurning 420,000+ Pioneer Nodes from Blockchain Validators into a Global Distributed Production Infrastructure\u201d ]]]\n[[[",
+      "text": "Strategic Predictive Analysis :::\nPi Network’s Next Evolution: From Blockchain Nodes to a Distributed AI and Work Execution Infrastructure\n( https://t.co/690gQVtYyU )\n\n[[[ This article includes Predictive & Technical Analysis  and may differ from actual outcomes ]]]\n[[[ “Why OpenClaw and the Atlassian MCP Server Matter — Pi Desktop Is No Longer Just a Node Application” ]]]\n[[[ “Turning 420,000+ Pioneer Nodes from Blockchain Validators into a Global Distributed Production Infrastructure” ]]]\n[[[",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Strategic Predictive Analysis :::\nPi Network\u2019s Next Evolution: From Blockchain N\u2026",
+          "title": "Strategic Predictive Analysis :::\nPi Network’s Next Evolution: From Blockchain N…",
           "url": "https://x.com/applekhankorea/status/2093366647587565778",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1115,13 +1065,13 @@
     },
     {
       "id": "l553",
-      "text": "\ud83d\udea8 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the future.\n\nIt\u2019s already changing how we write, design, edit, code, research, and create.\n\nHere are 20 AI tools worth knowing \ud83e\uddf5\ud83d\udc47\n\n1/ ChatGPT \u2014 Your AI assistant.\n\nUse it to:\n\u2022 Write\n\u2022 Research\n\u2022 Brainstorm\n\u2022 Learn\n\u2022 Plan\n\u2022 Solve problems\n\nThe better your prompts, the better your results.\n\n2/ Midjourney \u2014 Turn imagination into stunning images.\n\nPerfect for:\n\u2022 Creators\n\u2022 Designers\n\u2022 Marketers\n\u2022 Brand owners\n\nOne idea can b",
+      "text": "🚨 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the future.\n\nIt’s already changing how we write, design, edit, code, research, and create.\n\nHere are 20 AI tools worth knowing 🧵👇\n\n1/ ChatGPT — Your AI assistant.\n\nUse it to:\n• Write\n• Research\n• Brainstorm\n• Learn\n• Plan\n• Solve problems\n\nThe better your prompts, the better your results.\n\n2/ Midjourney — Turn imagination into stunning images.\n\nPerfect for:\n• Creators\n• Designers\n• Marketers\n• Brand owners\n\nOne idea can b",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the f\u2026",
+          "title": "🚨 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the f…",
           "url": "https://x.com/Shohan_Tech_AI/status/2093186736088400143",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1136,13 +1086,13 @@
     },
     {
       "id": "l554",
-      "text": "Most teams already have access to AI. Using it more isn't the same as changing how work gets done.\n\nThat's the shift ODSC AI NYC: AI for Work Summit is built around \u2014 two days in New York City this December on moving from AI assistance to AI delegation.\n\nAcross 30+ sessions and hands-on workshops:\n- You build \u2192 Ship reliable agents, evals, and RAG in production\n- You apply \u2192 Delegate a real task from your backlog \u2014 no code required \u2014 and leave with a working automation\n- You lead \u2192 Build the gov",
+      "text": "Most teams already have access to AI. Using it more isn't the same as changing how work gets done.\n\nThat's the shift ODSC AI NYC: AI for Work Summit is built around — two days in New York City this December on moving from AI assistance to AI delegation.\n\nAcross 30+ sessions and hands-on workshops:\n- You build → Ship reliable agents, evals, and RAG in production\n- You apply → Delegate a real task from your backlog — no code required — and leave with a working automation\n- You lead → Build the gov",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Most teams already have access to AI. Using it more isn't the same as changing h\u2026",
+          "title": "Most teams already have access to AI. Using it more isn't the same as changing h…",
           "url": "https://x.com/_odsc/status/2093429414952366481",
           "date": "2026-08-28",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1199,13 +1149,13 @@
     },
     {
       "id": "l557",
-      "text": "Why I wrote \u201cAI Native: The Mandate to Transform Your Company\u201d",
+      "text": "Why I wrote “AI Native: The Mandate to Transform Your Company”",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Why I wrote \u201cAI Native: The Mandate to Transform Your Company\u201d",
+          "title": "Why I wrote “AI Native: The Mandate to Transform Your Company”",
           "url": "https://x.com/kaifulee/status/2077911788491010275",
           "date": "2026-07-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1220,13 +1170,13 @@
     },
     {
       "id": "l558",
-      "text": "TL;DR; AI skills beat years of experience. Learn them for free: https://t.co/2uAymo6n6A\n\nSince leaving ALX, I\u2019ve been working intensively, mostly alone, on a stealth project. It\u2019s working. Really well actually (even though I got rejected - again - from YC :)). It\u2019s starting to generate good revenue, and I\u2019m having a ton of fun building again.\n\nBut after a few months, I realized something. I miss the impact and the meaning of helping others. At Holberton, and later at ALX, we had the opportunity",
+      "text": "TL;DR; AI skills beat years of experience. Learn them for free: https://t.co/2uAymo6n6A\n\nSince leaving ALX, I’ve been working intensively, mostly alone, on a stealth project. It’s working. Really well actually (even though I got rejected - again - from YC :)). It’s starting to generate good revenue, and I’m having a ton of fun building again.\n\nBut after a few months, I realized something. I miss the impact and the meaning of helping others. At Holberton, and later at ALX, we had the opportunity",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "TL;DR; AI skills beat years of experience. Learn them for free: https://t.co/2uA\u2026",
+          "title": "TL;DR; AI skills beat years of experience. Learn them for free: https://t.co/2uA…",
           "url": "https://x.com/jbarbier/status/2092924625499869436",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1241,13 +1191,13 @@
     },
     {
       "id": "l559",
-      "text": "My editor @CrownPublishing asked: \u201cWhy do you want to publish this book so quickly?\u201d\n\nMy answer: Because watching executives pour millions into the wrong approach to AI transformation kills me. There\u2019s no time to waste.\n\nAI transformation is happening now. Getting it wrong is costly. Getting it right is urgent.\n\nPre-order AI Native: The Mandate to Transform Your Company now. [Links in post]\n\neBook & audiobook: Sept 15 \nHardcover: Nov 3",
+      "text": "My editor @CrownPublishing asked: “Why do you want to publish this book so quickly?”\n\nMy answer: Because watching executives pour millions into the wrong approach to AI transformation kills me. There’s no time to waste.\n\nAI transformation is happening now. Getting it wrong is costly. Getting it right is urgent.\n\nPre-order AI Native: The Mandate to Transform Your Company now. [Links in post]\n\neBook & audiobook: Sept 15 \nHardcover: Nov 3",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "My editor @CrownPublishing asked: \u201cWhy do you want to publish this book so quick\u2026",
+          "title": "My editor @CrownPublishing asked: “Why do you want to publish this book so quick…",
           "url": "https://x.com/kaifulee/status/2084744141435511222",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1283,13 +1233,13 @@
     },
     {
       "id": "l561",
-      "text": "\ud83d\udea8 \ud835\udddb\ud835\uddd4\ud835\udddf\ud835\uddd9\ud835\uddea\ud835\uddd4\ud835\uddec \ud835\udde0\ud835\uddd4\ud835\udde5\ud835\uddde: \ud835\udfed\ud835\udfee \ud835\udddb\ud835\uddfc\ud835\ude02\ud835\uddff\ud835\ude00 \ud835\udddf\ud835\uddf2\ud835\uddf3\ud835\ude01 \ud835\udde7\ud835\uddfc \ud835\udddd\ud835\uddfc\ud835\uddf6\ud835\uddfb \ud835\udde7\ud835\uddf5\ud835\uddf2 \ud835\uddd4\ud835\udddc \ud835\udde3\ud835\uddff\ud835\uddfc\ud835\uddf3\ud835\uddf6\ud835\ude01 \ud835\uddd5\ud835\uddfc\ud835\uddee\ud835\uddff\ud835\uddf1\ud835\uddff\ud835\uddfc\ud835\uddfc\ud835\uddfa \ud835\uddd4\ud835\uddfb\ud835\uddf1 \ud835\uddea\ud835\uddf6\ud835\uddfb \ud835\uddd5\ud835\uddee\ud835\uddf0\ud835\uddf8 \ud835\uddec\ud835\uddfc\ud835\ude02\ud835\uddff \ud835\uddea\ud835\uddf2\ud835\uddf2\ud835\uddf8 \u26a1 $\ud835\udff0\ud835\udff2,\ud835\udfee\ud835\udfec\ud835\udfec+ \ud835\uddd5\ud835\uddfc\ud835\uddfb\ud835\ude02\ud835\ude00\ud835\uddf2\ud835\ude00 \ud83c\udf81\n\nGet back the hours you're losing to repetitive, manual work \u2014 that's the very first thing members notice inside the AI Profit Boardroom. It walks you through pointing AI at the tasks that slow you down, so your week feels lighter, even if you've never automated a single thing.\n\n\ud83d\udc49 Join the AI Profit Boardroom now \u2192 https://t.co/Ppmk5h9rw3\n\n\ud83d\udea8 We've hit the HALFWAY MARK \u2014 12 hours left. Here's",
+      "text": "🚨 𝗛𝗔𝗟𝗙𝗪𝗔𝗬 𝗠𝗔𝗥𝗞: 𝟭𝟮 𝗛𝗼𝘂𝗿𝘀 𝗟𝗲𝗳𝘁 𝗧𝗼 𝗝𝗼𝗶𝗻 𝗧𝗵𝗲 𝗔𝗜 𝗣𝗿𝗼𝗳𝗶𝘁 𝗕𝗼𝗮𝗿𝗱𝗿𝗼𝗼𝗺 𝗔𝗻𝗱 𝗪𝗶𝗻 𝗕𝗮𝗰𝗸 𝗬𝗼𝘂𝗿 𝗪𝗲𝗲𝗸 ⚡ $𝟰𝟲,𝟮𝟬𝟬+ 𝗕𝗼𝗻𝘂𝘀𝗲𝘀 🎁\n\nGet back the hours you're losing to repetitive, manual work — that's the very first thing members notice inside the AI Profit Boardroom. It walks you through pointing AI at the tasks that slow you down, so your week feels lighter, even if you've never automated a single thing.\n\n👉 Join the AI Profit Boardroom now → https://t.co/Ppmk5h9rw3\n\n🚨 We've hit the HALFWAY MARK — 12 hours left. Here's",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\ud83d\udea8 \ud835\udddb\ud835\uddd4\ud835\udddf\ud835\uddd9\ud835\uddea\ud835\uddd4\ud835\uddec \ud835\udde0\ud835\uddd4\ud835\udde5\ud835\uddde: \ud835\udfed\ud835\udfee \ud835\udddb\ud835\uddfc\ud835\ude02\ud835\uddff\ud835\ude00 \ud835\udddf\ud835\uddf2\ud835\uddf3\ud835\ude01 \ud835\udde7\ud835\uddfc \ud835\udddd\ud835\uddfc\ud835\uddf6\ud835\uddfb \ud835\udde7\ud835\uddf5\ud835\uddf2 \ud835\uddd4\ud835\udddc \ud835\udde3\ud835\uddff\ud835\uddfc\ud835\uddf3\ud835\uddf6\ud835\ude01 \ud835\uddd5\ud835\uddfc\ud835\uddee\ud835\uddff\ud835\uddf1\ud835\uddff\ud835\uddfc\ud835\uddfc\ud835\uddfa \ud835\uddd4\ud835\uddfb\ud835\uddf1 \ud835\uddea\ud835\uddf6\ud835\uddfb \ud835\uddd5\ud835\uddee\ud835\uddf0\ud835\uddf8 \ud835\uddec\ud835\uddfc\ud835\ude02\ud835\uddff \u2026",
+          "title": "🚨 𝗛𝗔𝗟𝗙𝗪𝗔𝗬 𝗠𝗔𝗥𝗞: 𝟭𝟮 𝗛𝗼𝘂𝗿𝘀 𝗟𝗲𝗳𝘁 𝗧𝗼 𝗝𝗼𝗶𝗻 𝗧𝗵𝗲 𝗔𝗜 𝗣𝗿𝗼𝗳𝗶𝘁 𝗕𝗼𝗮𝗿𝗱𝗿𝗼𝗼𝗺 𝗔𝗻𝗱 𝗪𝗶𝗻 𝗕𝗮𝗰𝗸 𝗬𝗼𝘂𝗿 …",
           "url": "https://x.com/JulianGoldieSEO/status/2093497658476552590",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1310,7 +1260,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Why are 95% of companies still failing at real AI transformation? This is why I \u2026",
+          "title": "Why are 95% of companies still failing at real AI transformation? This is why I …",
           "url": "https://x.com/kaifulee/status/2090490501317411307",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1331,7 +1281,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "My latest Bloomberg Interview, where I talked about AI technologies coming from \u2026",
+          "title": "My latest Bloomberg Interview, where I talked about AI technologies coming from …",
           "url": "https://x.com/kaifulee/status/2080545114930426216",
           "date": "2026-07-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1409,13 +1359,13 @@
     },
     {
       "id": "l567",
-      "text": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nBy Cassidy K. Buhler, Fernando P\u00e9rez & Carl Boettiger\nhttps://t.co/7DVqLebNcD\n\nPublicly available AI models and local infrastructure can reduce AI\u2019s environmental footprint while giving researchers greater control over the tools they use.\n\nAs public opposition grows against the soaring energy and water demands of data centres powering the artificial-intelligence boom, some technology companies are talking about puttin",
+      "text": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nBy Cassidy K. Buhler, Fernando Pérez & Carl Boettiger\nhttps://t.co/7DVqLebNcD\n\nPublicly available AI models and local infrastructure can reduce AI’s environmental footprint while giving researchers greater control over the tools they use.\n\nAs public opposition grows against the soaring energy and water demands of data centres powering the artificial-intelligence boom, some technology companies are talking about puttin",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nB\u2026",
+          "title": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nB…",
           "url": "https://x.com/gecko39/status/2092989596900442316",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1436,7 +1386,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Here's what caught my eye this past week in AI.\n\nThe Detection Wars\n\nEU AI Act n\u2026",
+          "title": "Here's what caught my eye this past week in AI.\n\nThe Detection Wars\n\nEU AI Act n…",
           "url": "https://x.com/sean_campbell/status/2089097436967141769",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1472,13 +1422,13 @@
     },
     {
       "id": "l570",
-      "text": "The Man Who Calls BS On AI: They\u2019re LYING About AI, 2027 Is When It All Breaks! | Ed Zitron\nTech critic Ed Zitron exposes the AI bubble, why OpenAI and Anthropic are burning billions, the fake AI boom, and why the crash could wipe out the ENTIRE economy!\n\nEd Zitron is a British AI critic and one of the most cited voices warning that the AI industry is one giant bubble. He hosts the 'Better Offline' podcast, reaching over a million monthly downloads, and writes the newsletter 'Where's Your Ed At'\u2026",
+      "text": "The Man Who Calls BS On AI: They’re LYING About AI, 2027 Is When It All Breaks! | Ed Zitron\nTech critic Ed Zitron exposes the AI bubble, why OpenAI and Anthropic are burning billions, the fake AI boom, and why the crash could wipe out the ENTIRE economy!\n\nEd Zitron is a British AI critic and one of the most cited voices warning that the AI industry is one giant bubble. He hosts the 'Better Offline' podcast, reaching over a million monthly downloads, and writes the newsletter 'Where's Your Ed At'…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Man Who Calls BS On AI: They\u2019re LYING About AI, 2027 Is When It All Breaks! \u2026",
+          "title": "The Man Who Calls BS On AI: They’re LYING About AI, 2027 Is When It All Breaks! …",
           "url": "https://www.youtube.com/watch?v=Lf5oqGOCRCM",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1493,13 +1443,13 @@
     },
     {
       "id": "l571",
-      "text": "They're WRONG About AI and Jobs | Titans on Tomorrow\nTitans on Tomorrow Ep. 1 with guest Anson Frericks\nPresented by Ethos: https://ethos.com/titans\n\nIn a new show on business and finance at this transformative time for the global economy, Ben Shapiro talks directly with the founders, CEOs, and investors building the next decade.  \n\nAnson Frericks spent 11 years climbing to the top of Anheuser-Busch, becoming President of Sales and Distribution.  He watched in horror as the company he loved trad\u2026",
+      "text": "They're WRONG About AI and Jobs | Titans on Tomorrow\nTitans on Tomorrow Ep. 1 with guest Anson Frericks\nPresented by Ethos: https://ethos.com/titans\n\nIn a new show on business and finance at this transformative time for the global economy, Ben Shapiro talks directly with the founders, CEOs, and investors building the next decade.  \n\nAnson Frericks spent 11 years climbing to the top of Anheuser-Busch, becoming President of Sales and Distribution.  He watched in horror as the company he loved trad…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "They're WRONG About AI and Jobs | Titans on Tomorrow\nTitans on Tomorrow Ep. 1 wi\u2026",
+          "title": "They're WRONG About AI and Jobs | Titans on Tomorrow\nTitans on Tomorrow Ep. 1 wi…",
           "url": "https://www.youtube.com/watch?v=OW9CG4XLky4",
           "date": "2026-07-31",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1514,13 +1464,13 @@
     },
     {
       "id": "l572",
-      "text": "Coders Quitting AI? AI Slop PhDs? | Ep 8 of Philosophy, Programs and Prompts\nIn this episode of Philosophy, Programs, and Prompts, Casey Hart (@OntologyExplained) and Carl Brown(@InternetOfBugs) break down the growing backlash against AI in software development. Prompted by a viral testimonial from YouTuber \"Brett Codes\" (@brettcodes) about quitting AI entirely, they analyze the core arguments against generative tools: environmental impacts, developer apathy, lost craft, and codebase bloat.  \n\nD\u2026",
+      "text": "Coders Quitting AI? AI Slop PhDs? | Ep 8 of Philosophy, Programs and Prompts\nIn this episode of Philosophy, Programs, and Prompts, Casey Hart (@OntologyExplained) and Carl Brown(@InternetOfBugs) break down the growing backlash against AI in software development. Prompted by a viral testimonial from YouTuber \"Brett Codes\" (@brettcodes) about quitting AI entirely, they analyze the core arguments against generative tools: environmental impacts, developer apathy, lost craft, and codebase bloat.  \n\nD…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Coders Quitting AI? AI Slop PhDs? | Ep 8 of Philosophy, Programs and Prompts\nIn \u2026",
+          "title": "Coders Quitting AI? AI Slop PhDs? | Ep 8 of Philosophy, Programs and Prompts\nIn …",
           "url": "https://www.youtube.com/watch?v=zCfOn6dx5r0",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1535,13 +1485,13 @@
     },
     {
       "id": "l573",
-      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - \u2026",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har\u2026",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har…",
           "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1556,13 +1506,13 @@
     },
     {
       "id": "l574",
-      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell\u2026",
+      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth!\u2026",
+          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth!…",
           "url": "https://www.youtube.com/watch?v=Cn8HBj8QAbk",
           "date": "2026-03-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1577,13 +1527,13 @@
     },
     {
       "id": "l575",
-      "text": "Skill Issue: Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of AI\nWhat happens when AI agents can design experiments, collect data, and improve \u2014 without a human in the loop? Andrej Karpathy joins Sarah Guo on the state of models, the future of engineering and education, thinking about impact on jobs, and his project AutoResearch: where agents close the loop on a piece of AI research (experimentation, training, and optimization, autonomously).\n\n00:00 Andrej Karpathy Introduction\u2026",
+      "text": "Skill Issue: Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of AI\nWhat happens when AI agents can design experiments, collect data, and improve — without a human in the loop? Andrej Karpathy joins Sarah Guo on the state of models, the future of engineering and education, thinking about impact on jobs, and his project AutoResearch: where agents close the loop on a piece of AI research (experimentation, training, and optimization, autonomously).\n\n00:00 Andrej Karpathy Introduction…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Skill Issue: Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of \u2026",
+          "title": "Skill Issue: Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of …",
           "url": "https://www.youtube.com/watch?v=kwSVtQ7dziU",
           "date": "2026-03-20",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1598,13 +1548,13 @@
     },
     {
       "id": "l576",
-      "text": "Will tech writers survive AI? Perspectives from two professors, Nupoor Ranade and Jeremy Merritt\nIn this podcast, I chat with two professors -- Nupoor Ranade (Carnegie Mellon) and Jeremy Merritt (James Madison University) -- about how AI is reshaping the technical writing profession from the academic side. We discuss dropping enrollments, misconceptions about what tech writers do, historical parallels to past disruptions, agentic AI and organizational restructuring, the cyborg model of human-mac\u2026",
+      "text": "Will tech writers survive AI? Perspectives from two professors, Nupoor Ranade and Jeremy Merritt\nIn this podcast, I chat with two professors -- Nupoor Ranade (Carnegie Mellon) and Jeremy Merritt (James Madison University) -- about how AI is reshaping the technical writing profession from the academic side. We discuss dropping enrollments, misconceptions about what tech writers do, historical parallels to past disruptions, agentic AI and organizational restructuring, the cyborg model of human-mac…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Will tech writers survive AI? Perspectives from two professors, Nupoor Ranade an\u2026",
+          "title": "Will tech writers survive AI? Perspectives from two professors, Nupoor Ranade an…",
           "url": "https://www.youtube.com/watch?v=w_jSPUpiDEc",
           "date": "2026-03-22",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1675,6 +1625,5 @@
     ]
   },
   "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "caveats": []
 }
