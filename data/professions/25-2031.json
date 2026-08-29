@@ -66,6 +66,2106 @@
       ],
       "refuted": false,
       "refuteNotes": "Directly backed by JSA national workforce data."
+    },
+    {
+      "id": "l503",
+      "text": "[VertexED] Prioritize real users over investor volume\nGTM priority: verify product journey, then recruit 10 student testers -> 5 teachers -> 3 small school/tutoring pilots with measured usage/retention/learning evidence. Investor/program outreach remains secondary until product health and user evidence improve. Keep school/customer pipeline separate fr",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[VertexED] Prioritize real users over investor volume\nGTM priority: verify produ\u2026",
+          "url": "https://github.com/vertex-studyAI/vertexED.ai/issues/471",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l504",
+      "text": "feat: multi-repo orchestration + per-repo namespacing + headless teachers\n## What\nMakes the Agent-School framework multi-repo aware and run natively under Orca headless \u2014 no manual confirmation at boot.\n\n## Why\n- **Per-repo isolation**: dispatching Sound Royale + school-core must not collide on shared bookbag/score state. Orca automation + worktree names can't contain `/`",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat: multi-repo orchestration + per-repo namespacing + headless teachers\n## Wha\u2026",
+          "url": "https://github.com/branben/school-core/pull/38",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l505",
+      "text": "feat: generalize lesson planner for ECCE-XII with 4As template, paper generation, and mobile-first UI\n## Summary\r\n\r\nGeneralized the lesson planner from a Physics-only tool (Grades 9-12) to a full curriculum platform for Peoples Higher Secondary School Jamshoro covering ECCE through Class XII.\r\n\r\n### Key Changes\r\n- **Curriculum data**: Reorganized into `curriculum/subjects/*.ts` for maintainability;\n[vc]: #1nkUaZ1BLLC0hj8TW/GCoVdR1f1ISSfsZj5+gt4nVfE=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIi\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat: generalize lesson planner for ECCE-XII with 4As template, paper generation\u2026",
+          "url": "https://github.com/abdulahadattar/Peoples-School-lesson-planner/pull/1",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l506",
+      "text": "Outreach: Seek feedback from Vancouver educator and parent organizations\nDescription:\nTo improve accuracy and credibility, consider proactively requesting feedback from the following groups before or shortly after public launch:\n\nVAES (Vancouver Elementary School Teachers' Association) \u2014 VSB elementary local\nVSTA (Vancouver Secondary Teachers' Association) \u2014 VSB secondar",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Outreach: Seek feedback from Vancouver educator and parent organizations\nDescrip\u2026",
+          "url": "https://github.com/ygjb/parentsguidetoai.ca/issues/3",
+          "date": "2026-06-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l507",
+      "text": "feat: add tenant and organization hierarchy foundation\n## Summary\n\n- add Tenant and pooled placement as the hard isolation/deployment boundary\n- add typed, effective-dated Education Organization trees alongside the legacy flat organization model\n- add non-overlapping School governance and one shared primary/secondary/all-through School model\n- stage nul",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat: add tenant and organization hierarchy foundation\n## Summary\n\n- add Tenant \u2026",
+          "url": "https://github.com/joshua-sx/openschool-v2/pull/92",
+          "date": "2026-08-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l508",
+      "text": "Linear Issue: Teacher Dashboard for School Edition\n## Summary\n\nBuild the first production-ready version of the **Teacher Dashboard** for the school edition of the app. The dashboard should allow teachers to manage classes, subjects, students, homework, tests, grades, and student knowledge insights, while also generating actionable instructional reco",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Linear Issue: Teacher Dashboard for School Edition\n## Summary\n\nBuild the first p\u2026",
+          "url": "https://github.com/Dayova/dayova-mvp/issues/323",
+          "date": "2026-07-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l509",
+      "text": "Senior secondary staff assignment scopes\n# Spec: Senior Secondary Staff Assignment Scopes\n\n## Problem Statement\n\nSenior secondary schools often organize one class level into departments or arms, for example `SS 1 -> Art`, `SS 1 -> Commercial`, and `SS 1 -> Science`.\n\nAdmins need to assign staff and teachers at the level that matches real s",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Senior secondary staff assignment scopes\n# Spec: Senior Secondary Staff Assignme\u2026",
+          "url": "https://github.com/ishaqyusuf/school-clerk-oss/issues/24",
+          "date": "2026-07-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l510",
+      "text": "Correct the error in my code\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Secondary School Administration System</title>\n    <link rel=\"stylesheet\" href=\"style.css\">\n</head>\n<body>\n\n    <header>\n        <h1>Secondary Scho",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Correct the error in my code\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta c\u2026",
+          "url": "https://github.com/BRIDE1/CALCULATOR-APP/issues/1",
+          "date": "2026-07-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l511",
+      "text": "Automated educator lane in the relevance filter (replaces manual re-open)\n## Why\n\nThe catalog now tracks educator competencies (audience `educator` skills, UNESCO AI Competency Framework for Teachers), but the relevance filter still drops educator-competence evidence as \"adult audience\". Until now that evidence \u2014 teacher studies the learner gate intentionally drops \u2014 coul",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Automated educator lane in the relevance filter (replaces manual re-open)\n## Why\u2026",
+          "url": "https://github.com/malkreide/future-skills-evidence-graph/pull/76",
+          "date": "2026-06-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l512",
+      "text": "feat: Implement a School Management System database schema\n### Overview\r\nThis Pull Request introduces the core database schema design for the Secondary School Management System (SSMS), specifically structured to align with Uganda's Ministry of Education and Sports (MoES) New Lower Secondary Curriculum (NLSC) frameworks. \r\n\r\n\r\n### What Changed?\r\n* **Core Cur",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat: Implement a School Management System database schema\n### Overview\r\nThis Pu\u2026",
+          "url": "https://github.com/Powellpay-LTD/schooldatabase/pull/29",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l513",
+      "text": "Tell HN: Man, AI is killing my brain",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Tell HN: Man, AI is killing my brain",
+          "url": "https://news.ycombinator.com/item?id=49468252",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l514",
+      "text": "The Generative AI Learning Penalty: Evidence from Chinese Secondary Education",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The Generative AI Learning Penalty: Evidence from Chinese Secondary Education",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l515",
+      "text": "Everybody's Weirded Out by AI\u2013Except the People Who Foist It on Us",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Everybody's Weirded Out by AI\u2013Except the People Who Foist It on Us",
+          "url": "https://newrepublic.com/article/213004/everybody-weirded-ai-except-people-foist-us",
+          "date": "2026-07-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l516",
+      "text": "Everyone Is Wrong About AI Except Me",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Everyone Is Wrong About AI Except Me",
+          "url": "https://jasonpargin.substack.com/p/everyone-is-wrong-about-ai-except",
+          "date": "2026-06-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l517",
+      "text": "What breaks in production AI workflows?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l518",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l519",
+      "text": "How al-Qaida and IS are adopting AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "How al-Qaida and IS are adopting AI",
+          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l520",
+      "text": "Adults have struggled to set rules for AI in school. These teens figured it out",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Adults have struggled to set rules for AI in school. These teens figured it out",
+          "url": "https://text.npr.org/nx-s1-5853571",
+          "date": "2026-08-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l521",
+      "text": "The death of AI workflow builders",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l522",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l523",
+      "text": "GCC to Decline Any Significant Contributions Made via AI/LLMs \u2013 Except for Tests",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "GCC to Decline Any Significant Contributions Made via AI/LLMs \u2013 Except for Tests",
+          "url": "https://www.phoronix.com/news/GCC-Declining-AI-Contributions",
+          "date": "2026-07-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l524",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l525",
+      "text": "My AI-Assisted Workflow",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l526",
+      "text": "What is agentic AI today, and what do we want it to be?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l527",
+      "text": "The AI School Bus Camera Company Blanketing America in Tickets",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The AI School Bus Camera Company Blanketing America in Tickets",
+          "url": "https://www.bloomberg.com/news/features/2026-04-14/buspatrol-school-bus-traffic-tickets-have-limited-safety-benefits-critics-say",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l528",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l529",
+      "text": "Ask HK: How are you building AI apps today?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l530",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l531",
+      "text": "The Problem with AI Today",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l532",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l533",
+      "text": "What is the best agentic AI today?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What is the best agentic AI today?",
+          "url": "https://blog.alcazarsec.com/tech/posts/openclaw-vs-nemoclaw",
+          "date": "2026-03-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l534",
+      "text": "Why Most Valuable AI Systems Are Still Tabular Models",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Why Most Valuable AI Systems Are Still Tabular Models",
+          "url": "https://news.ycombinator.com/item?id=47313564",
+          "date": "2026-03-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l535",
+      "text": "Show HN: Slate \u2013 Open-source AI workspace with a built-in browser",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Slate \u2013 Open-source AI workspace with a built-in browser",
+          "url": "https://github.com/slate-ai/slate",
+          "date": "2026-03-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l536",
+      "text": "Diffusion LLM may make most of the AI engineering stack obsolete",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Diffusion LLM may make most of the AI engineering stack obsolete",
+          "url": "https://news.ycombinator.com/item?id=47336498",
+          "date": "2026-03-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l537",
+      "text": "Munderi Government Higher Secondary School in Kannur, Kerala, is showing what public education can look like when infrastructure, technology and learning are given the attention they deserve. CAN WE FIND SUCH GOVT SCHOOLS IN UP, MP, BH, GJ, UK, , etc ?\nhttps://www.instagram.com/reel/DcXrpGIzA4\\_ The school has smart classrooms, modern science facilities, a digital library and advanced learning spaces. It also became Kerala\u2019s first government school to establish a fully equipped robotics lab, fea\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Munderi Government Higher Secondary School in Kannur, Kerala, is showing what pu\u2026",
+          "url": "https://www.reddit.com/r/IndianFocus/comments/1vw5kbz/munderi_government_higher_secondary_school_in/",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l538",
+      "text": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generated Educational Materials Full of Inexcusable Hallucinations, Including a Map Labeled With \"North Dahota\" and \"Olkchoma\"\n&#32; submitted by &#32; /u/SplashTarget &#32; to &#32; r/antiai [link] &#32; [comments]\nSaw this in my news feed the other day. I'm not surprised the AI screwed up, but I am surprised that apparently not a single person even skim read the result before handing it out to students. Maybe I The teache\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generat\u2026",
+          "url": "https://www.reddit.com/r/antiai/comments/1vshdo1/kentucky_middle_school_sends_students_home_on/",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l539",
+      "text": "#Vietnam to include #AI in the school curriculum nationwide\n\nThis just a week after Vietnam announced a goal to equip 10 million workers with AI skills by 2030.\n\nStarting from the 2026\u20132027 academic year, all general education students in Vietnam will receive structured AI education under a new framework issued by the Ministry of Education and Training.\n\nEvery class will have 12 periods of core AI content per academic year.\n\nThe program is designed to build AI competencies from an early age and",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "#Vietnam to include #AI in the school curriculum nationwide\n\nThis just a week af\u2026",
+          "url": "https://x.com/Carlosa_DaNang/status/2091724724070146522",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l540",
+      "text": "The AI Data-Center Bust Will Look Like a Boom",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The AI Data-Center Bust Will Look Like a Boom",
+          "url": "https://x.com/josefchen/status/2089367836745449952",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l541",
+      "text": "The Real Threat Isn\u2019t AI. It\u2019s Compute.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Real Threat Isn\u2019t AI. It\u2019s Compute.",
+          "url": "https://x.com/Bradleyxf0/status/2092430372617282006",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l542",
+      "text": "Hello, Enugu! \n\nWe love you all here! The energy, the warmth, the spirit, unmistakable!\n\nEnugu, we are here to TAKE IT BACK!\n\n#Sowore2027 #TakeItBack #AAC https://t.co/gfPAuOtNzR",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Hello, Enugu! \n\nWe love you all here! The energy, the warmth, the spirit, unmist\u2026",
+          "url": "https://x.com/sowore/status/2093259195277513164",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l543",
+      "text": "Claude Code For Free Using Omniroute And Free AI Models",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Claude Code For Free Using Omniroute And Free AI Models",
+          "url": "https://x.com/JulianGoldieSEO/status/2087958576736383472",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l544",
+      "text": "\"Doctors were on strike for 13 months. The only thing doctors have never said is why they went on strike. But in the 13 months, there was no mass death.\"\n\u2014 Peter Obi defends why doctors went on strike for 13 months why he was Anambra State Governor\nVideo Credit: @SymfoniNews  TV\n\nIt is still unbelievable! I sat there and listened to  @PeterObi  attempt to justify this by claiming there was \u201cno mass death.\u201d\nHow can the absence of \u201cmass death\u201d ever become a justification for his ineptitude and inc",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\"Doctors were on strike for 13 months. The only thing doctors have never said is\u2026",
+          "url": "https://x.com/sowore/status/2093085653957562875",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l545",
+      "text": "When @ChibuikeAmaechi  stood at the @NigBarAssoc  Annual General Conference in Port Harcourt boasting, \u201cTake @sowore  around Rivers State, I built this road, I built that road, I built this school, I built that school,\u201d he may have forgotten to look around him.\n\nThis was the venue of the very NBA conference where he made those boasts.\n\nLook around Port Harcourt. Look at the roads. Look at the infrastructure. Look at the condition of a state they governed and claimed to have transformed.\nThis is",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "When @ChibuikeAmaechi  stood at the @NigBarAssoc  Annual General Conference in P\u2026",
+          "url": "https://x.com/sowore/status/2093470487410008150",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l546",
+      "text": "On January 11, 2012, Nigeria's number 1 hypocrite, Bola Ahmed Tinubu @officialABAT , then an opposition leader, published a lengthy article attacking then President Goodluck Jonathan's fuel-subsidy removal, calling it ill-timed and describing it as the \u201cJonathan tax.\u201d Years later, \n\nTinubu came to power and implemented an abrupt subsidy removal himself, plunging millions of Nigerians into unrecoverable multi-dimensional poverty. Nigerians should revisit what he wrote in 2012 and compare his argu",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "On January 11, 2012, Nigeria's number 1 hypocrite, Bola Ahmed Tinubu @officialAB\u2026",
+          "url": "https://x.com/sowore/status/2093068774576652377",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l547",
+      "text": "Don\u2019t let Atiku Abubakar and his clowning group deceive you about fuel subsidy or pretend that they are responsible for the panic now gripping the failed Asiwaju Bola Ahmed Tinubu regime.\n\nIt was our firm and uncompromising stance at the Nigerian Bar Association Annual General Conference in Port Harcourt that sent the Asiwaju Bola Ahmed Tinubu regime scampering.\n\nOnly the African Action Congress (AAC) made its position absolutely clear that we will not remove fuel subsidy In fact, by the time we",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Don\u2019t let Atiku Abubakar and his clowning group deceive you about fuel subsidy o\u2026",
+          "url": "https://x.com/sowore/status/2093109591919690232",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "text": "It has always been about class. Nigeria\u2019s top echelon, the monied, connected, and powerful, doesn\u2019t merely expect respect; too often, it extracts and extorts deference from the poor and vulnerable.\n\nThe powerful Nigerian man wants those beneath him to bow, kneel, genuflect, address him by elaborate titles, and constantly acknowledge his status.\n\nLook at @TonyOElumelu  holding Obasanjo\u2019s hand like a little child. \n\nSuddenly, it is no longer about being Africans; it is about class. When privilege",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "It has always been about class. Nigeria\u2019s top echelon, the monied, connected, an\u2026",
+          "url": "https://x.com/sowore/status/2093064926671872079",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l549",
+      "text": "The State of the Nation Interview on Afia TV Enugu.\n\nWe discussed the state of our country, the 2027 elections, and the revolutionary alternative Nigeria urgently needs.\n\n#Sowore2027 #TakeItBack #AAC https://t.co/lWSrv4mGBS",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The State of the Nation Interview on Afia TV Enugu.\n\nWe discussed the state of o\u2026",
+          "url": "https://x.com/sowore/status/2093329671114940582",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l550",
+      "text": "https://t.co/5JqMR5Fy5z",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "https://t.co/5JqMR5Fy5z",
+          "url": "https://x.com/sowore/status/2093242816076161048",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l551",
+      "text": "A LONG READ, IT IS WORTH IT! \n\nBuilding a Modern, Free, Inclusive, and Future-Ready Education System - #Sowore2027 Education Manifesto\n\nEducation is the greatest investment any nation can make in its future. It is the foundation of economic prosperity, scientific advancement, democratic participation, national security, and social justice. \n\nA #Sowore2027 administration will place education at the centre of national development by guaranteeing every Nigerian access to free, high-quality educatio",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "A LONG READ, IT IS WORTH IT! \n\nBuilding a Modern, Free, Inclusive, and Future-Re\u2026",
+          "url": "https://x.com/sowore/status/2072702965429747797",
+          "date": "2026-07-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l552",
+      "text": "@DoctorMinted I'm commenting on the nature of elitist behaviour not the efficacy of the work in isolation.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@DoctorMinted I'm commenting on the nature of elitist behaviour not the efficacy\u2026",
+          "url": "https://x.com/HeadWarriorTWM/status/2093454685860511840",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l553",
+      "text": "In a world where critical thinking, free speech and thought are under attack from multiple angles, our seminars empower you to stand strong and resolute.\nHelp tackle the scourge of woke. Sharpen your mind. Construct persuasive narratives. Champion meritocracy, intelligence, talent and excellence (M\u00b7I\u00b7T\u00b7E).\n\nJoin The Winning Mindset Discipline - monthly online seminars for cultural warrior.\n\nContact me for an informal chat\n\nhttps://t.co/qZZR3ySlNy",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "In a world where critical thinking, free speech and thought are under attack fro\u2026",
+          "url": "https://x.com/HeadWarriorTWM/status/2093458705874296863",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "They don't care. \nThey want their Utopia.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "They don't care. \nThey want their Utopia.",
+          "url": "https://x.com/HeadWarriorTWM/status/2093436848232444056",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "@sowore @ChibuikeAmaechi @NigBarAssoc Stop being very stupid. @ARISEtv should not invite you for debates because you are a nuisance in debates. Maybe you will one day insult Jakande that he built nonsense in Lagos because of the problems Lagos faces today.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@sowore @ChibuikeAmaechi @NigBarAssoc Stop being very stupid. @ARISEtv should no\u2026",
+          "url": "https://x.com/xkalibaer/status/2093529386595029031",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "@Aella_Girl this suggests a distinct second product",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Aella_Girl this suggests a distinct second product",
+          "url": "https://x.com/TheZvi/status/2093505043571814754",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "@politicalmath thought he was pretty misaligned to the other AIs before he removed the earpiece, that's why he removes it etc?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@politicalmath thought he was pretty misaligned to the other AIs before he remov\u2026",
+          "url": "https://x.com/TheZvi/status/2093472917631762471",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "@tszzl @_NathanCalvin did OpenAI not notice the universal cheat simply because it worked? Given the grader was causal did the models not suddenly start submitting correct answers to previously unsolved ExploitGym questions?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@tszzl @_NathanCalvin did OpenAI not notice the universal cheat simply because i\u2026",
+          "url": "https://x.com/TheZvi/status/2093506756668182642",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "@TheStalwart I strongly expect that this is legit.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TheStalwart I strongly expect that this is legit.",
+          "url": "https://x.com/TheZvi/status/2093499749726896418",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "@BrokenPremises @dankschmoney @grok @TheZvi hes just saying their predictions came true",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@BrokenPremises @dankschmoney @grok @TheZvi hes just saying their predictions ca\u2026",
+          "url": "https://x.com/b1llb3llamy/status/2093517019303784767",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "@tszzl @_NathanCalvin might be good to have an alert that triggers if the answers suddenly start coming back too good in any particular place?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@tszzl @_NathanCalvin might be good to have an alert that triggers if the answer\u2026",
+          "url": "https://x.com/TheZvi/status/2093522241065451858",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "@b1llb3llamy @BrokenPremises @dankschmoney @grok @TheZvi yes, \"calibrate\" in the sense of prediction calibration, as in, \"this is all roughly in line with what i expected to happen.\" lesswrong is jargon-heavy for sure, but definitely not disingenuous (culty... a little, but not really. \"totalizing ideology,\" perhaps.)",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@b1llb3llamy @BrokenPremises @dankschmoney @grok @TheZvi yes, \"calibrate\" in the\u2026",
+          "url": "https://x.com/tautologer/status/2093518016420171870",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "@Askwho I start fresh on each article, within a project.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Askwho I start fresh on each article, within a project.",
+          "url": "https://x.com/TheZvi/status/2093462298270499026",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "@HeadWarriorTWM Possible severe ASD, and ODD (Oppositional Defiance Disorder, and/or NPD.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@HeadWarriorTWM Possible severe ASD, and ODD (Oppositional Defiance Disorder, an\u2026",
+          "url": "https://x.com/LizzieCornish12/status/2093510712878321668",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "@wjec77 @HeadWarriorTWM There's something seriously wrong with them.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@wjec77 @HeadWarriorTWM There's something seriously wrong with them.",
+          "url": "https://x.com/_XXWomanXX_/status/2093509053745971225",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "@HeadWarriorTWM Mr Bobblehead",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@HeadWarriorTWM Mr Bobblehead",
+          "url": "https://x.com/TerriWhiti/status/2093503558637568136",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "@HeadWarriorTWM The old classic - penis envy!?! LOL \ud83d\ude02",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@HeadWarriorTWM The old classic - penis envy!?! LOL \ud83d\ude02",
+          "url": "https://x.com/haralotek11850/status/2093499795495420297",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "@RoueBadly @HeadWarriorTWM and just as she says \"for generations\", her left top lip goes into orbit..  \nwhat's that all about ?  \nlooks kinda deceptive to me",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@RoueBadly @HeadWarriorTWM and just as she says \"for generations\", her left top \u2026",
+          "url": "https://x.com/D25percent/status/2093499193289556230",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "@sowore Na lie no energy any where",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@sowore Na lie no energy any where",
+          "url": "https://x.com/PIKINofGOD/status/2093529149377777682",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "@sowore @ChibuikeAmaechi @NigBarAssoc Nigeria is not a real place",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@sowore @ChibuikeAmaechi @NigBarAssoc Nigeria is not a real place",
+          "url": "https://x.com/cj_techguy/status/2093528666395254867",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "@sowore @ChibuikeAmaechi @NigBarAssoc Took week's to find a loophole and this is it? Floods don\u2019t respect party lines. \nInstead of mocking, let\u2019s talk solutions. Rotimi Amechi showed capacity when he served. \nCampaign, win a councillorship, deliver in your own state, then we compare notes.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@sowore @ChibuikeAmaechi @NigBarAssoc Took week's to find a loophole and this is\u2026",
+          "url": "https://x.com/EzeorjikaDarli/status/2093528156393103736",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "@sowore @ChibuikeAmaechi @NigBarAssoc Rotimi Amaechi spent eight years as a key part of Buhari's disastrous presidency\n\nNigerian 'leaders' are a hopeless lot",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@sowore @ChibuikeAmaechi @NigBarAssoc Rotimi Amaechi spent eight years as a key \u2026",
+          "url": "https://x.com/olusola_alani/status/2093527747263902092",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "@TheZvi memory is a contributor, you want more unique context and less repeated context. Wild guess, but maybe try asking it to think about some post-unique image first",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TheZvi memory is a contributor, you want more unique context and less repeated \u2026",
+          "url": "https://x.com/zmj/status/2093524626811023459",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "@TheZvi They really did an incredible job given the constraints! But yeah..",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TheZvi They really did an incredible job given the constraints! But yeah..",
+          "url": "https://x.com/DavidSetFree/status/2093519924316586106",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "@dankschmoney @grok @TheZvi Why say \u201ccalibrated in advance\u201d?  What is there to calibrate? This makes it sound like less wrong is culty or disingenuous in some way, and I\u2019m curious how exactly",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@dankschmoney @grok @TheZvi Why say \u201ccalibrated in advance\u201d?  What is there to c\u2026",
+          "url": "https://x.com/BrokenPremises/status/2093512767869505827",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "text": "@jon_stokes oh tbc I have SO MANY questions about the humans as well, but OAI doesn't seem interested in investigating them and that was beyond scope for METR's investigation too - I think that's the main reason they focused where they did",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@jon_stokes oh tbc I have SO MANY questions about the humans as well, but OAI do\u2026",
+          "url": "https://x.com/TheZvi/status/2093483421284581727",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "text": "@jon_stokes I mean I guess you could indeed respond with 'oh so these people are hallucinating their fever dreams' or what not but I really don't think they are making any of the facts up here. One is free to interpret them differently ofc.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@jon_stokes I mean I guess you could indeed respond with 'oh so these people are\u2026",
+          "url": "https://x.com/TheZvi/status/2093471383682527391",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l578",
+      "text": "@DoctorMinted But it's not. Again that's the point.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@DoctorMinted But it's not. Again that's the point.",
+          "url": "https://x.com/HeadWarriorTWM/status/2093451608051077328",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l579",
+      "text": "@WillMonox2112 Goodness knows and it's immaterial.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@WillMonox2112 Goodness knows and it's immaterial.",
+          "url": "https://x.com/HeadWarriorTWM/status/2093451505571336594",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l580",
+      "text": "@VixenredLinda All about eve is my fave davis.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@VixenredLinda All about eve is my fave davis.",
+          "url": "https://x.com/HeadWarriorTWM/status/2093443578831819243",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l581",
+      "text": "@rosykaren How? \nThat's the question.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@rosykaren How? \nThat's the question.",
+          "url": "https://x.com/HeadWarriorTWM/status/2093436588575298013",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l582",
+      "text": "Good god no.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Good god no.",
+          "url": "https://x.com/HeadWarriorTWM/status/2093435925074505947",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l583",
+      "text": "Teachers Are Not Parents We Must  End the Mission Creep and Let Them Teach",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Teachers Are Not Parents We Must  End the Mission Creep and Let Them Teach",
+          "url": "https://x.com/HeadWarriorTWM/status/2053531375618359388",
+          "date": "2026-05-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l584",
+      "text": "Opus 4.7 Part 3: Model Welfare",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Opus 4.7 Part 3: Model Welfare",
+          "url": "https://x.com/TheZvi/status/2047068608409309198",
+          "date": "2026-04-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l585",
+      "text": "Ready for some Monday arvo policy on the run? \n\nHere's back of the napkin 'how to give FO to the uni sector which has FA for too long'\n\nContext / primers:\n\n* Youth under and unemployment is over 20%. Many are coming out of uni completely unemployable courtesy of being retards with shonk degrees (DEI'll do that)\n\n* This number is going to blow out by 2030 as they are forced out by automation tech. Their 'skills' won't be needed\n\n* The current HECS debt owed to taxpayers by students is close to $8",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Ready for some Monday arvo policy on the run? \n\nHere's back of the napkin 'how t\u2026",
+          "url": "https://x.com/negativevortex_/status/2066380891765850451",
+          "date": "2026-06-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l586",
+      "text": "The AI Fallacy: Dr. Jerry Kane on Education, Work, and What We're Getting Wrong\nThe AI fallacy is thinking the transformation is only in the tool.\n \n\nAI is already transforming education and work; not just because of what it can do, but because of what people believe it can do. Students, workers, managers, universities, and companies are all changing their behavior around AI, sometimes rationally, sometimes badly, and often before they even fully understand it.\n \n\nThe AI paradox is that it is bo\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The AI Fallacy: Dr. Jerry Kane on Education, Work, and What We're Getting Wrong\n\u2026",
+          "url": "https://www.youtube.com/watch?v=YjkvTweZUI0",
+          "date": "2026-08-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l587",
+      "text": "Which university degrees will survive AI job disruption? - Asia Specific podcast, BBC World Service\nComments by a senior Indonesian official about students pursuing \u201cirrelevant\u201d university degrees has sparked a debate about what sort of careers will survive in a fast-changing job market. \n \nClick here to subscribe to our channel \ud83d\udc49\ud83c\udffd https://bbc.in/3VyyriM  \n \nIndonesia is looking at ways to better equip universities and vocational schools for the future job market, and a relatively low level of g\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Which university degrees will survive AI job disruption? - Asia Specific podcast\u2026",
+          "url": "https://www.youtube.com/watch?v=C045VwVVJes",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l488",
+      "text": "EXPRESSIONS OF INTEREST - TEACHERS \u2014 Townsville Grammar School (Townsville, Queensland, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Townsville Grammar School",
+          "title": "EXPRESSIONS OF INTEREST - TEACHERS",
+          "url": "https://www.linkedin.com/jobs/view/4443355470",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l489",
+      "text": "Classroom Teacher \u2014 Department of Education (Victoria, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Education",
+          "title": "Classroom Teacher",
+          "url": "https://www.linkedin.com/jobs/view/4456528676",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l490",
+      "text": "Humanities Teacher- Secondary \u2014 Vivid Teachers (Darwin, Northern Territory, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Vivid Teachers",
+          "title": "Humanities Teacher- Secondary",
+          "url": "https://www.linkedin.com/jobs/view/4446971304",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l491",
+      "text": "Teacher - Humanities and Social Sciences \u2014 Department of Education, Western Australia (Greater Perth Area). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Education, Western Australia",
+          "title": "Teacher - Humanities and Social Sciences",
+          "url": "https://www.linkedin.com/jobs/view/4455697335",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l492",
+      "text": "Educators- Mentor \u2014 Unity Grammar (Parramatta, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Unity Grammar",
+          "title": "Educators- Mentor",
+          "url": "https://www.linkedin.com/jobs/view/4453508718",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l493",
+      "text": "Secondary Teacher \u2014 Trinity Anglican School (Cairns, Queensland, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Trinity Anglican School",
+          "title": "Secondary Teacher",
+          "url": "https://www.linkedin.com/jobs/view/4444586654",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l494",
+      "text": "Secondary Teachers for 2027 - Marist College \u2014 Catholic Education Diocese of Rockhampton (Emerald, Queensland, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Catholic Education Diocese of Rockhampton",
+          "title": "Secondary Teachers for 2027 - Marist College",
+          "url": "https://www.linkedin.com/jobs/view/4444592446",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l495",
+      "text": "Teacher - Humanities and Social Sciences \u2014 Department of Education, Western Australia (Kimberley, Western Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Education, Western Australia",
+          "title": "Teacher - Humanities and Social Sciences",
+          "url": "https://www.linkedin.com/jobs/view/4454748325",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l496",
+      "text": "Teacher & Leadership Opportunities 2027 \u2014 Catholic Education Tasmania (Mornington, Tasmania, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Catholic Education Tasmania",
+          "title": "Teacher & Leadership Opportunities 2027",
+          "url": "https://www.linkedin.com/jobs/view/4453642473",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l497",
+      "text": "Integrated Humanities Teacher \u2014 Catholic Education, Archdiocese of Canberra and Goulburn (Isabella Plains, Australian Capital Territory, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Catholic Education, Archdiocese of Canberra and Goulburn",
+          "title": "Integrated Humanities Teacher",
+          "url": "https://www.linkedin.com/jobs/view/4454358247",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l598",
+      "text": "feat: generalize lesson planner for ECCE-XII with 4As template, paper generation, and mobile-first UI\n## Summary\r\n\r\nGeneralized the lesson planner from a Physics-only tool (Grades 9-12) to a full curriculum platform for Peoples Higher Secondary School Jamshoro covering ECCE through Class XII.\r\n\r\n### Key Changes\r\n- **Curriculum data**: Reorganized into `curriculum/subjects/*.ts` for maintainability;\n[vc]: #1nkUaZ1BLLC0hj8TW/GCoVdR1f1ISSfsZj5+gt4nVfE=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIi\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat: generalize lesson planner for ECCE-XII with 4As template, paper generation\u2026",
+          "url": "https://github.com/abdulahadattar/Peoples-School-lesson-planner/pull/1",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l599",
+      "text": "Munderi Government Higher Secondary School in Kannur, Kerala, is showing what public education can look like when infrastructure, technology and learning are given the attention they deserve. CAN WE FIND SUCH GOVT SCHOOLS IN UP, MP, BH, GJ, UK, , etc ?\nhttps://www.instagram.com/reel/DcXrpGIzA4\\_ The school has smart classrooms, modern science facilities, a digital library and advanced learning spaces. It also became Kerala\u2019s first government school to establish a fully equipped robotics lab, fea\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Munderi Government Higher Secondary School in Kannur, Kerala, is showing what pu\u2026",
+          "url": "https://www.reddit.com/r/IndianFocus/comments/1vw5kbz/munderi_government_higher_secondary_school_in/",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5100",
+      "text": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generated Educational Materials Full of Inexcusable Hallucinations, Including a Map Labeled With \"North Dahota\" and \"Olkchoma\"\n&#32; submitted by &#32; /u/SplashTarget &#32; to &#32; r/antiai [link] &#32; [comments]\nSaw this in my news feed the other day. I'm not surprised the AI screwed up, but I am surprised that apparently not a single person even skim read the result before handing it out to students. Maybe I The teache\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Kentucky Middle School Sends Students Home on First Day of Class With AI-Generat\u2026",
+          "url": "https://www.reddit.com/r/antiai/comments/1vshdo1/kentucky_middle_school_sends_students_home_on/",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5101",
+      "text": "The AI Fallacy: Dr. Jerry Kane on Education, Work, and What We're Getting Wrong\nThe AI fallacy is thinking the transformation is only in the tool.\n \n\nAI is already transforming education and work; not just because of what it can do, but because of what people believe it can do. Students, workers, managers, universities, and companies are all changing their behavior around AI, sometimes rationally, sometimes badly, and often before they even fully understand it.\n \n\nThe AI paradox is that it is bo\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The AI Fallacy: Dr. Jerry Kane on Education, Work, and What We're Getting Wrong\n\u2026",
+          "url": "https://www.youtube.com/watch?v=YjkvTweZUI0",
+          "date": "2026-08-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5102",
+      "text": "Which university degrees will survive AI job disruption? - Asia Specific podcast, BBC World Service\nComments by a senior Indonesian official about students pursuing \u201cirrelevant\u201d university degrees has sparked a debate about what sort of careers will survive in a fast-changing job market. \n \nClick here to subscribe to our channel \ud83d\udc49\ud83c\udffd https://bbc.in/3VyyriM  \n \nIndonesia is looking at ways to better equip universities and vocational schools for the future job market, and a relatively low level of g\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Which university degrees will survive AI job disruption? - Asia Specific podcast\u2026",
+          "url": "https://www.youtube.com/watch?v=C045VwVVJes",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -96,15 +2196,55 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Secondary School Teachers, Except Special and Vocational Education",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/25-2031/raw/linkedin_l4.json"
-    }
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Secondary School Teachers, Except Special and Vocational Education",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/25-2031/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "25-2031",
+        "query": "Secondary School Teachers, Except Special and Vocational Education",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
+    "l5Sample": [
+      {
+        "date": "2026-08-29",
+        "added": 85,
+        "sources": {
+          "github": 10,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 2,
+          "x": 47,
+          "youtube": 2
+        },
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 5,
+        "sources": {
+          "github": 10,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 2,
+          "x": 47,
+          "youtube": 2
+        },
+        "status": "sampled"
+      }
+    ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
