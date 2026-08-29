@@ -72,6 +72,10 @@ def fold(soc: str, raw_path: Path) -> int:
     d["claims"] = existing
     corpus = d.setdefault("corpus", {})
     ln = corpus.get("linkedin", []) or []
+    # Coerce a legacy dict-shaped entry (from a placeholder ledger) into the
+    # list shape this fold appends to, instead of crashing on .append().
+    if isinstance(ln, dict):
+        ln = [ln]
     ln.append({
         "date": TODAY,
         "soc": soc,
