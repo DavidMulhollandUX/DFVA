@@ -1889,6 +1889,468 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l490",
+      "text": "Team Member - Liverpool South \u2014 GOALS (Liverpool, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "GOALS",
+          "title": "Team Member - Liverpool South",
+          "url": "https://www.linkedin.com/jobs/view/4451519504",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l491",
+      "text": "Gaming and Bar Attendants Come join us!! \u2014 Moama Bowling Club (Moama, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Moama Bowling Club",
+          "title": "Gaming and Bar Attendants Come join us!!",
+          "url": "https://www.linkedin.com/jobs/view/4452286796",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l492",
+      "text": "Senior Head Host | Wishbone Restaurant \u2014 Lucas Collective (Melbourne, Victoria, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Lucas Collective",
+          "title": "Senior Head Host | Wishbone Restaurant",
+          "url": "https://www.linkedin.com/jobs/view/4457306363",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l493",
+      "text": "FOH Crew (Waitstaff, Hosts, Bartenders, Sommeliers) | Lucas Collective \u2014 Lucas Collective (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Lucas Collective",
+          "title": "FOH Crew (Waitstaff, Hosts, Bartenders, Sommeliers) | Lucas Collective",
+          "url": "https://www.linkedin.com/jobs/view/4449974835",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l494",
+      "text": "Express your interest in future positions as they become available We'd love to hear from hospitality professionals who'd like to join our team in the future \u2014 Moama Bowling Club (Moama, New South Wales, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Moama Bowling Club",
+          "title": "Express your interest in future positions as they become available We'd love to hear from hospitality professionals who'd like to join our team in the future",
+          "url": "https://www.linkedin.com/jobs/view/4456511729",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l495",
+      "text": "Boardroom Waiter \u2014 Allens (Perth, Western Australia, Australia). Posted 13 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Allens",
+          "title": "Boardroom Waiter",
+          "url": "https://www.linkedin.com/jobs/view/4439198796",
+          "date": "13 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l496",
+      "text": "Expression Of Interest- Station Staff & Conductors- Shepparton \u2014 V/Line (Shepparton, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "V/Line",
+          "title": "Expression Of Interest- Station Staff & Conductors- Shepparton",
+          "url": "https://www.linkedin.com/jobs/view/4453627640",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l497",
+      "text": "Boardroom Waiter \u2014 Allens (Melbourne, Victoria, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Allens",
+          "title": "Boardroom Waiter",
+          "url": "https://www.linkedin.com/jobs/view/4456214840",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l498",
+      "text": "Front Office All Rounder \u2014 ibis, ibis Styles, ibis budget (Mackay, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "ibis, ibis Styles, ibis budget",
+          "title": "Front Office All Rounder",
+          "url": "https://www.linkedin.com/jobs/view/4455416547",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l499",
+      "text": "Trade Waitstaff | Opera Bar | Sydney \u2014 Applejack Hospitality (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Applejack Hospitality",
+          "title": "Trade Waitstaff | Opera Bar | Sydney",
+          "url": "https://www.linkedin.com/jobs/view/4452784219",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l5100",
+      "text": "[New Update]: AITAH for letting my fianc\u00e9 and his son move in rather than moving to them so his mom can co-parent?\nI am not OOP. OOP is u/Far-Championship202 Originally posted to r/AITAH and their own page Previous BoRUs: #1 [New Update]: AITAH for letting my fianc\u00e9 and his son move in rather than moving to them so his mom can co-parent? NEW UPDATE MARKED WITH ---- Editor\u2019s note: made small edits for ease of readability Trigger Warnings: emotional abuse and manipulation, harassment / stalking, m\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "[New Update]: AITAH for letting my fianc\u00e9 and his son move in rather than moving\u2026",
+          "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1vv1xr2/new_update_aitah_for_letting_my_fianc\u00e9_and_his/",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5101",
+      "text": "HARM REDUCTION: After long-term use, I barely keep memories of a night on MDMA. What do you do/use to ENJOY AND REMEMBER the night before?\nTLDR: What do you do/use that makes you ENJOY AND REMEMBER the night before? I&#39;m planning to attend, for the first time in my life, a couple of marathons (10-12 hr sets each) with 2 of my favourite DJs on separate dates (2 weeks apart) in the same month, but I&#39;ve started to notice that after long, intermittent use of MDMA or Ecstasy over 4 years (not \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "HARM REDUCTION: After long-term use, I barely keep memories of a night on MDMA. \u2026",
+          "url": "https://www.reddit.com/r/Raves/comments/1vww6uy/harm_reduction_after_longterm_use_i_barely_keep/",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5102",
+      "text": "Ted Kaczynski (1942\u20132023), nicknamed the \"Unabomber\", was an American domestic terrorist who killed 3 people and injured 23 by sending them bombs. In 1995, Kaczynski abandoned his terrorist campaign after his manifesto was published.\nhttps://en.wikipedia.org/wiki/Ted\\_Kaczynski Theodore John Kaczynski was born in Chicago on May 22, 1942, to working-class parents Wanda Theresa (n\u00e9e Dombek) and Theodore Richard Kaczynski, a sausage maker. The two were Polish Americans who were raised as Roman Cath\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Ted Kaczynski (1942\u20132023), nicknamed the \"Unabomber\", was an American domestic t\u2026",
+          "url": "https://www.reddit.com/r/AllThatsHistory/comments/1vzr02q/ted_kaczynski_19422023_nicknamed_the_unabomber/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5103",
+      "text": "Arrested for saying F the Mayor ONE YEAR LATER! Corpus Christi\nOn September 23rd, 2025 I spoke at the Corpus Christi council meeting because they had started to arrest people for protected free speech during public comment. I was kicked out of that meeting unlawfully. 2 weeks later, the Corpus Christi PD started a criminal investigation against me for disrupting a meeting. In December they roped the Nueces County DA into the investigation. Then nothing happened for 7 months. In July, the Corpus \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Arrested for saying F the Mayor ONE YEAR LATER! Corpus Christi\nOn September 23rd\u2026",
+          "url": "https://www.reddit.com/r/PublicFreakout/comments/1vz0g2p/arrested_for_saying_f_the_mayor_one_year_later/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5104",
+      "text": "34 years as a libertarian and I no longer believe the core premise.\nMany of the people in this sub know me...and some of you may be wondering why I&#39;ve been quiet here the past year or two. I was very active in this sub after the MC takeover of the other libertarian sub. I was a libertarian for thirty-four years. From &#39;90 to 2024, split the first Presidential ticket and never looked back after. I read all the libertarian thinkers from Hayek to Friedman to Mises. I argued from a libertaria\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "34 years as a libertarian and I no longer believe the core premise.\nMany of the \u2026",
+          "url": "https://www.reddit.com/r/LibertarianUncensored/comments/1vpccc7/34_years_as_a_libertarian_and_i_no_longer_believe/",
+          "date": "2026-08-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5105",
+      "text": "Powered by franchises like 'Spider-Man' and 'Avengers', originals like 'Obsession', and old-school epics like 'The Odyssey', 2026 is firmly set to become the highest grossing year since the pandemic. But comparatively lower theater attendance still remains a challenge\nThe U.S. box office saw its biggest opening weekend in history thanks \u200bto the one-two punch of &quot;Spider-Man: Brand New Day&quot; and &quot;The Odyssey.&quot; But the industry&#39;s rebound is increasingly being powered by highe\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Powered by franchises like 'Spider-Man' and 'Avengers', originals like 'Obsessio\u2026",
+          "url": "https://www.reddit.com/r/movies/comments/1vjqory/powered_by_franchises_like_spiderman_and_avengers/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5106",
+      "text": "spiderman has brought the worst people ever to the theater\nEvery day it\u2019s packed. Sure, fine, cool. People are literally trying to shove past me just to get to the ticket taker. Had someone try to get through the door I OPENED outside the theater before me. Has some dude today try to creep in front of me in the packed concession line as soon as we were getting close to the front as if we weren\u2019t going to be called up at practically the same time. And then I overheard him being a total fucking as\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "spiderman has brought the worst people ever to the theater\nEvery day it\u2019s packed\u2026",
+          "url": "https://www.reddit.com/r/RegalUnlimited/comments/1ve5xry/spiderman_has_brought_the_worst_people_ever_to/",
+          "date": "2026-08-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5107",
+      "text": "VIP experience\nWanted to share the breakdown for VIP for those of y\u2019all attending: First all all, there really is no check in at 6pm, all you need is your AXS QR codes, they don\u2019t check IDs or anything. The only true thing on the itinerary is doors at 6:30pm so definitely make sure you are there at that time. VIP line formed on the side of the box office so make sure you get in the correct line. I got there around 5:40 and they started organizing the line and checking tickets as it got closer to\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "VIP experience\nWanted to share the breakdown for VIP for those of y\u2019all attendin\u2026",
+          "url": "https://www.reddit.com/r/1800slayyyter/comments/1vx5xsy/vip_experience/",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5108",
+      "text": "Outfit Fixes 28\nHowdy y&#39;all! It&#39;s been a long while! I hope that you all enjoy this next installment! Again, for those who have not read through my posts before, I follow the wise words of don&#39;t like, don&#39;t read; if you have nothing positive to say, don&#39;t become like a sugar and tear me down. Constructive criticism is all well and good, but being malicious, tearing into me for no reason, or saying that no one cares just gets you an easy block. I do this for free, for fun, and\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Outfit Fixes 28\nHowdy y&#39;all! It&#39;s been a long while! I hope that you all\u2026",
+          "url": "https://www.reddit.com/r/SaintMeghanMarkle/comments/1vscf7p/outfit_fixes_28/",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5109",
+      "text": "AITAH for letting my fiancee and his son move in rather than moving to them so his mom can co-parent?\nThis is a repost sub. I\u2019m not the Original OP (OOP) OOP: u/Far-Championship202 Published on: r/AITAH &amp; u/Far-Championship202 Previous BORU: BORU-1 by u/Glum_Craft_4652 on December 16, 2025 Thanks to u/kateluvsthe80s for new update Story is: CONCLUDED Story timeline Main Post : October 07, 2025 Update 1 : October 10, 2025 Update 2 : December 13, 2025 Final Update : August 16, 2026 --&gt; NEW \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AITAH for letting my fiancee and his son move in rather than moving to them so h\u2026",
+          "url": "https://www.reddit.com/r/BORUpdates/comments/1vpxezg/aitah_for_letting_my_fiancee_and_his_son_move_in/",
+          "date": "2026-08-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5110",
+      "text": "I thought Meghan went to the Lotusland fundraiser where Martha was, but I think I was wrong, and Meghan MOST LIKELY was near Martha Stewart at a dinner that Serena Williams put on with her husband,Alex Ohanian\u2026\nThere\u2019s no flair for #Slauthing or #investigations yet, otherwise I\u2019d put that as a flair. [NOTE: I started this thread thinking that Meghan &amp; Martha attended the Lotusland fundraiser, but there are no photos of Meghan attending this, please read this thread with that in mind. It coul\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I thought Meghan went to the Lotusland fundraiser where Martha was, but I think \u2026",
+          "url": "https://www.reddit.com/r/SaintMeghanMarkle/comments/1vpmh6d/i_thought_meghan_went_to_the_lotusland_fundraiser/",
+          "date": "2026-08-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5111",
+      "text": "BTS would never attend a concert held by Seungri, Taeil, Choi Jong-hoon or Jung Joon-young\nTL;DR - BTS are upholding a double standard with western abusers vs Korean ones bc they only care about reputation, not ethics + they primarily care about their reputation in East Asia bc fans there WILL boycott them + Bad Bunny is instructive on winning the biggest award at the Grammys for an album that\u2019s entirely in Spanish, culturally specific to Puerto Rico, political and hence authentic, plus on uphol\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "BTS would never attend a concert held by Seungri, Taeil, Choi Jong-hoon or Jung \u2026",
+          "url": "https://www.reddit.com/r/ARMYNeutral/comments/1vqagw0/bts_would_never_attend_a_concert_held_by_seungri/",
+          "date": "2026-08-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1919,14 +2381,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Ushers, Lobby Attendants, and Ticket Takers",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/39-3031/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Ushers, Lobby Attendants, and Ticket Takers",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/39-3031/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "39-3031",
+        "query": "Ushers, Lobby Attendants, and Ticket Takers",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1940,9 +2413,23 @@
           "youtube": 0
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 12,
+        "sources": {
+          "github": 0,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 12,
+          "x": 51,
+          "youtube": 0
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

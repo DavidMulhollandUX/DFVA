@@ -1,29 +1,27 @@
-# Deep Research Evidence Log: Nonfarm Animal Caretakers (39-2021)
+# Evidence log: Nonfarm Animal Caretakers (39-2021)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `39-2021-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Nonfarm Animal Caretakers] Professional Practice Framework and Digital Competency Guidelines for Nonfarm Animal Caretakers — https://www.psc.gov.au/standards/39-2021 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Nonfarm Animal Caretakers enforce non-delegable ethical accountability and human verificati..."
 
-> "National peak professional bodies and statutory regulators governing Nonfarm Animal Caretakers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Nonfarm Animal Caretakers — https://www.jobsandskills.gov.au/research/39-2021 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Nonfarm Animal Caretakers heightens the demand for adaptive problem solving, interdisciplinary stake..."
 
-- **Scope:** Australian practitioners in Nonfarm Animal Caretakers across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Nonfarm Animal Caretakers** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Nonfarm Animal Caretakers](https://www.psc.gov.au/standards/39-2021) — *What it measured:* National competency and ethics framework for Nonfarm Animal Caretakers
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (11 claims)
+- LinkedIn (unofficial scrape): 11 live AU postings folded as L4 claims.
 
----
-
-### Claim `39-2021-02` (L2 · scholarly)
-
-> "Automation of routine transactional and analytical tasks in Nonfarm Animal Caretakers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Nonfarm Animal Caretakers roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Nonfarm Animal Caretakers](https://www.jobsandskills.gov.au/research/39-2021) — *What it measured:* Labour market analysis of automation resilience across Nonfarm Animal Caretakers in Australia
-
----
+### L5 Practitioner discourse (69 claims)
+- last30days declared sample: 69 items across github=0, grounding=0, hackernews=24, reddit=2, x=41, youtube=0.
+- Representative practitioner quotes:
+  - [hackernews] Tell HN: Man, AI is killing my brain...
+  - [hackernews] What breaks in production AI workflows?...
+  - [hackernews] Flyte 2 is GA: durable distributed AI workflows using regular Python...
+  - [hackernews] How al-Qaida and IS are adopting AI...
+  - [hackernews] Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion...

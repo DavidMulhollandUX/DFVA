@@ -1306,6 +1306,342 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l462",
+      "text": "Travel Consultant \u2014 Travel Trade Recruitment (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Travel Trade Recruitment",
+          "title": "Travel Consultant",
+          "url": "https://www.linkedin.com/jobs/view/4451345036",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l463",
+      "text": "Travel Consultant | Luxury \u2014 Travel Trade Recruitment (Melbourne, Victoria, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Travel Trade Recruitment",
+          "title": "Travel Consultant | Luxury",
+          "url": "https://www.linkedin.com/jobs/view/4447270658",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l464",
+      "text": "Travel Advisor - Toorak, VIC \u2014 Travel Associates Australia & New Zealand (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Travel Associates Australia & New Zealand",
+          "title": "Travel Advisor - Toorak, VIC",
+          "url": "https://www.linkedin.com/jobs/view/4369436983",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l465",
+      "text": "Travel Advisor - Travel Associates - NSW \u2014 Travel Associates Australia & New Zealand (New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Travel Associates Australia & New Zealand",
+          "title": "Travel Advisor - Travel Associates - NSW",
+          "url": "https://www.linkedin.com/jobs/view/4368436836",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l466",
+      "text": "Travel Advisor - Rouse Hill, NSW \u2014 Flight Centre Travel Group (New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Flight Centre Travel Group",
+          "title": "Travel Advisor - Rouse Hill, NSW",
+          "url": "https://www.linkedin.com/jobs/view/4455274274",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l467",
+      "text": "Senior Travel Adviser \u2014 Travel Masters & The Travel Studio (Gold Coast, Queensland, Australia). Posted 4 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Travel Masters & The Travel Studio",
+          "title": "Senior Travel Adviser",
+          "url": "https://www.linkedin.com/jobs/view/4446528294",
+          "date": "4 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l468",
+      "text": "Team Leader - Doncaster, VIC \u2014 Cruiseabout Australia (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Cruiseabout Australia",
+          "title": "Team Leader - Doncaster, VIC",
+          "url": "https://www.linkedin.com/jobs/view/4369442935",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l469",
+      "text": "Travel Consultant \u2014 RAC WA (Perth, Western Australia, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "RAC WA",
+          "title": "Travel Consultant",
+          "url": "https://www.linkedin.com/jobs/view/4448924115",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l470",
+      "text": "Bus Tour Host | Rottnest Express \u2014 Journey Beyond (Fremantle, Western Australia, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Journey Beyond",
+          "title": "Bus Tour Host | Rottnest Express",
+          "url": "https://www.linkedin.com/jobs/view/4438172655",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l471",
+      "text": "Team Leader ( Cruiseabout)- Brighton, VIC \u2014 Cruiseabout Australia (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Cruiseabout Australia",
+          "title": "Team Leader ( Cruiseabout)- Brighton, VIC",
+          "url": "https://www.linkedin.com/jobs/view/4354354933",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l572",
+      "text": "[Guide/Tour] How fast travel & locations work in AI Roommate (Free vs. Plus spots + day/night tips)\nHey everyone! Put together a quick video walkthrough showing how fast-travel works in AI Roommate , how to manage the day/night cycle, and a look inside all the main spots currently on the map. Here is a breakdown of how traveling works and what each location offers: \ud83d\ude97 How Fast Travel Works Head outside the front door of your house to the blue hatchback in the driveway. Interact with the car to br\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "[Guide/Tour] How fast travel & locations work in AI Roommate (Free vs. Plus spot\u2026",
+          "url": "https://www.reddit.com/r/AI_Roommate_VR/comments/1vrakuz/guidetour_how_fast_travel_locations_work_in_ai/",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "Daily Music Brief | August 28, 2026 | Federal AI Licensing Framework Enacted, Global Sync Royalty Surge, and Oasis Tour Logistics\n&#x200B; Good morning, music fans. Here&#39;s your Daily Music Brief covering the biggest verified music developments from August 27, 2026. Regulatory authorities have finalized new protections regarding synthetic vocal training models while international catalog rights hit record mid-year valuations. The United States Copyright Office alongside federal digital commer\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Daily Music Brief | August 28, 2026 | Federal AI Licensing Framework Enacted, Gl\u2026",
+          "url": "https://www.reddit.com/r/Music_Playlist_YT/comments/1w0ppgg/daily_music_brief_august_28_2026_federal_ai/",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "I got full Street View running in WebXR on a Quest 1 \u2014 virtual treadmill running with an AI tour guide\nI fetch raw panorama tiles and project them myself \u2014 sphere \u2192 rectilinear / cylindrical / hybrid Panini \u2014 which removes the usual 90\u00b0 FOV cap. Seamless 200\u00b0+ ultra-wide, WebXR stereo on a Quest 1, and a shared-world dissolve between panoramas so walking transitions stay geometrically aligned. Also: voice commands, treadmill-footstep pace detection via microphone, and an AI tour guide that groun\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I got full Street View running in WebXR on a Quest 1 \u2014 virtual treadmill running\u2026",
+          "url": "https://www.reddit.com/r/virtualreality/comments/1vyofij/i_got_full_street_view_running_in_webxr_on_a/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "[Test for Test] Need 20 testers for Wayfare Guide (AI GPS Road Trip & Audio Tour Guide) - I will test your app back immediately!\nHi fellow developers! \ud83d\udc4b I need active testers for **Wayfare Guide** (an AI-powered road trip and walking audio guide that tells stories and landmarks based on your GPS coordinates). I will **test your app back immediately**, leave a 5-star review, and keep it installed on my device for the full 14 days! --- ### \ud83d\ude80 How to Join (Takes 30 seconds): **Join Google Group (Req\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "[Test for Test] Need 20 testers for Wayfare Guide (AI GPS Road Trip & Audio Tour\u2026",
+          "url": "https://www.reddit.com/r/AndroidClosedTesting/comments/1vsol4z/test_for_test_need_20_testers_for_wayfare_guide/",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "text": "Trying to bring AI into the self guided tour industry, Feedback appreciated!\nI got this idea while in Ireland. A relative of mine purchased a 300 dollar private guided tour. I feel like of all the generative tour apps out there none of them actually feel fully open ended. So i decided to make one myself. Its fully open ended. You could be in the middle of Stillwater Oklahoma and ask for a murder mystery tour and you would get one. I wanna know if people would be interested in something like this\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Trying to bring AI into the self guided tour industry, Feedback appreciated!\nI g\u2026",
+          "url": "https://www.reddit.com/r/SaaS/comments/1vzkpyn/trying_to_bring_ai_into_the_self_guided_tour/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "text": "THE GEO Guide for B2B CMOs: How to get found, cited, trusted, and chosen in AI Search\nA practical working guide for B2B CMOs who want to build visibility and trust in AI-generated answers. GEO is becoming a practical CMO discipline, not another acronym to admire from a safe distance. This guide explains how B2B brands can become crawlable, citable, credible, and chosen in AI-generated answers, while avoiding overpromises in a fast-changing search landscape where today&#39;s best practices may lo\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "THE GEO Guide for B2B CMOs: How to get found, cited, trusted, and chosen in AI S\u2026",
+          "url": "https://www.reddit.com/r/CMO_Huddles/comments/1vdo4op/the_geo_guide_for_b2b_cmos_how_to_get_found_cited/",
+          "date": "2026-08-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1336,14 +1672,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Tour Guides and Escorts",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/39-7011/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Tour Guides and Escorts",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/39-7011/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "39-7011",
+        "query": "Tour Guides and Escorts",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1357,9 +1704,23 @@
           "youtube": 0
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 6,
+        "sources": {
+          "github": 0,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 7,
+          "x": 28,
+          "youtube": 0
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
