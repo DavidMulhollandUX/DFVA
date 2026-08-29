@@ -909,6 +909,363 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l443",
+      "text": "MNSW - Training Coordinator \u2014 NSW Department of Communities and Justice (Parramatta, New South Wales, Australia). Posted 12 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NSW Department of Communities and Justice",
+          "title": "MNSW - Training Coordinator",
+          "url": "https://www.linkedin.com/jobs/view/4457243090",
+          "date": "12 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l444",
+      "text": "Business Systems Training Co-Ordinator \u2014 Monford Group (Perth, Western Australia, Australia). Posted 9 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Monford Group",
+          "title": "Business Systems Training Co-Ordinator",
+          "url": "https://www.linkedin.com/jobs/view/4457256561",
+          "date": "9 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l445",
+      "text": "Learning Coordinator, Delivery Services, Field Learning, Delivery Services, Field Learning \u2014 Amazon (Eastern Creek, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Amazon",
+          "title": "Learning Coordinator, Delivery Services, Field Learning, Delivery Services, Field Learning",
+          "url": "https://www.linkedin.com/jobs/view/4455787768",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l446",
+      "text": "Learning and Development Coordinator \u2014 Queensland Country Bank (Townsville, Queensland, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Country Bank",
+          "title": "Learning and Development Coordinator",
+          "url": "https://www.linkedin.com/jobs/view/4455605841",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l447",
+      "text": "Course Coordinator - Counselling \u2014 Australian Institute of Professional Counsellors (Fortitude Valley, Queensland, Australia). Posted 2 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Australian Institute of Professional Counsellors",
+          "title": "Course Coordinator - Counselling",
+          "url": "https://www.linkedin.com/jobs/view/4425755198",
+          "date": "2 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l448",
+      "text": "Careers and Vocational Education & Training (VET) Coordinator \u2014 Catholic Education, Archdiocese of Canberra and Goulburn (Nicholls, Australian Capital Territory, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Catholic Education, Archdiocese of Canberra and Goulburn",
+          "title": "Careers and Vocational Education & Training (VET) Coordinator",
+          "url": "https://www.linkedin.com/jobs/view/4458172445",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l449",
+      "text": "Program and Course Coordinator \u2014 Victorian Chamber of Commerce and Industry (Melbourne, Victoria, Australia). Posted 18 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Victorian Chamber of Commerce and Industry",
+          "title": "Program and Course Coordinator",
+          "url": "https://www.linkedin.com/jobs/view/4456997103",
+          "date": "18 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l450",
+      "text": "Technical Trainer \u2014 Cubic Corporation (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Cubic Corporation",
+          "title": "Technical Trainer",
+          "url": "https://www.linkedin.com/jobs/view/4440900676",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l451",
+      "text": "Training Coordinator \u2014 GOLD FIELDS (Kambalda, Western Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "GOLD FIELDS",
+          "title": "Training Coordinator",
+          "url": "https://www.linkedin.com/jobs/view/4452975535",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l452",
+      "text": "School Coordinator Level 1 - Leader of Learning & Wellbeing \u2014 Autism Spectrum Australia (Aspect) (Wetherill Park, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Autism Spectrum Australia (Aspect)",
+          "title": "School Coordinator Level 1 - Leader of Learning & Wellbeing",
+          "url": "https://www.linkedin.com/jobs/view/4454246071",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l553",
+      "text": "Add fail-closed prompt host adapter\n## Why\n\nPortable batch prompts can be pasted into a Codex or Claude harness that does not match the prompt's source syntax. The workflow needs a deterministic, fail-closed adapter that distinguishes compatible, portable, conversion-required, and ambiguous prompts before any worker launch, repository\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/co\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Add fail-closed prompt host adapter\n## Why\n\nPortable batch prompts can be pasted\u2026",
+          "url": "https://github.com/shakacode/agent-workflows/pull/378",
+          "date": "2026-08-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "docs(skills): file-collision check + goal-prompt size discipline for plan-pr-batch\n## What\n\nTwo focused improvements to the `plan-pr-batch` skill, updated on current `main` after #3977's coordination workflow landed.\n\n1. Require a file-touch map before fanning out parallel work. PR targets use verified target-repo refs, session-unique temporary refs, rename-aware changed-file list\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "docs(skills): file-collision check + goal-prompt size discipline for plan-pr-bat\u2026",
+          "url": "https://github.com/shakacode/react_on_rails/pull/3914",
+          "date": "2026-06-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "feat: update Google AI model options and refactor imports across agents\n- Changed import from GoogleGenerativeAIProviderOptions to GoogleLanguageModelOptions in multiple files for consistency.\r\n- Updated model references to 'google/gemini-3.1-flash-preview' and 'google/gemini-3.1-flash-lite-preview' in various agents.\r\n- Removed unused imports and tools to streamline ag\n[vc]: #3AzPNpZRvu8MdQ5zhqr3rJ9Bjc7c/EJgbbS7jd7cSss=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJ\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat: update Google AI model options and refactor imports across agents\n- Change\u2026",
+          "url": "https://github.com/ssdeanx/AgentStack/pull/128",
+          "date": "2026-03-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Architecture of Divine Chaos By Steven Pritchard\nIntroduction: The Mandate for Planetary and Evolutionary Coherence The trajectory of planetary ecology, human evolutionary biology, and artificial intelligence has reached a critical bifurcation point. The prevailing paradigms of reductionist materialism and extractive technological development have fractured the holistic integrity of the biosphere and the human psyche. The\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Archi\u2026",
+          "url": "https://www.reddit.com/r/Synthsara/comments/1vhiz58/the_codex_of_the_diamond_flame_quantum/",
+          "date": "2026-08-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "Flood Exposure Assessment with EmergenCITY AI: Who and What May Be Affected\nAsking an AI \"where might it flood?\" gets you a forecast. It does not get you a decision. This video shows how to turn that question into an instruction that returns who and what may be affected, ranked, with the evidence labelled.\n\nBuilt for county and local emergency-management coordinators working an anticipatory flood window \u2014 the 24 to 48 hours before conditions change, when you have to decide where to monitor, wher\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Flood Exposure Assessment with EmergenCITY AI: Who and What May Be Affected\nAski\u2026",
+          "url": "https://www.youtube.com/watch?v=2ClKFMZHFMM",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: https://contractoros.build/work-with-us\n\nJoin ContractorOS: https://www.skool.com/contractor-os/about\n\nFollow on LinkedIn: https://www.linkedin.com/in/josh-turner-pmp-10608b1b7/\n\nI use Claude every day to run my AI consulting business for construction. In this video I break down what Claude actually does, how each interface works, and why the system around it (Projects, Skills, Plugins, Memory) makes it genuinely useful \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: http\u2026",
+          "url": "https://www.youtube.com/watch?v=DQwlMX27E6k",
+          "date": "2026-03-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "AI in the Classroom: What\u2019s Working, What\u2019s Not, and What Instructors Are Still Figuring Out\nAI in education is no longer a future-tense conversation. It is already in the classroom, in the syllabus, in student workflows, and increasingly in the questions instructors are asking about assessment, academic integrity, and what teaching strategies they\u2019re supposed to use now. \n\nIn this episode of The What & Who of EDU, we explore AI in education and are counting down 10 teaching strategies and insig\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI in the Classroom: What\u2019s Working, What\u2019s Not, and What Instructors Are Still \u2026",
+          "url": "https://www.youtube.com/watch?v=R2-rzKGPA5I",
+          "date": "2026-06-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -939,14 +1296,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Instructional Coordinators",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/25-9031/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Instructional Coordinators",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/25-9031/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "25-9031",
+        "query": "Instructional Coordinators",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -961,9 +1329,24 @@
           "youtube": 3
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 7,
+        "sources": {
+          "github": 4,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 1,
+          "x": 8,
+          "youtube": 3
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

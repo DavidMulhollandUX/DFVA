@@ -1072,6 +1072,447 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l451",
+      "text": "First Nations Teacher Assistant (Assistant) \u2014 Catholic Education Western Australia (Bentley, Western Australia, Australia). Posted 15 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Catholic Education Western Australia",
+          "title": "First Nations Teacher Assistant (Assistant)",
+          "url": "https://www.linkedin.com/jobs/view/4459154109",
+          "date": "15 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l452",
+      "text": "Learning Assistant \u2014 Caulfield Grammar School (Wheelers Hill, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Caulfield Grammar School",
+          "title": "Learning Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4453036499",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l453",
+      "text": "Campus Student Support Assistant | Nambour QLD \u2014 OneSchool Global (Nambour, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "OneSchool Global",
+          "title": "Campus Student Support Assistant | Nambour QLD",
+          "url": "https://www.linkedin.com/jobs/view/4444913737",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l454",
+      "text": "Education Assistant - Special Needs \u2014 Department of Education, Western Australia (East Pilbara, Western Australia, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Education, Western Australia",
+          "title": "Education Assistant - Special Needs",
+          "url": "https://www.linkedin.com/jobs/view/4439832767",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l455",
+      "text": "Education Assistant - Mainstream \u2014 Department of Education, Western Australia (Greater Perth Area). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Education, Western Australia",
+          "title": "Education Assistant - Mainstream",
+          "url": "https://www.linkedin.com/jobs/view/4453574335",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l456",
+      "text": "Japanese Language Assistant \u2014 Melbourne Archdiocese Catholic Schools (Glen Iris, Victoria, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Melbourne Archdiocese Catholic Schools",
+          "title": "Japanese Language Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4458744909",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l457",
+      "text": "Teacher's Aide \u2014 Autism Spectrum Australia (Aspect) (Thornton, New South Wales, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Autism Spectrum Australia (Aspect)",
+          "title": "Teacher's Aide",
+          "url": "https://www.linkedin.com/jobs/view/4444874208",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l458",
+      "text": "Teacher's Aide \u2014 Autism Spectrum Australia (Aspect) (Port Macquarie, New South Wales, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Autism Spectrum Australia (Aspect)",
+          "title": "Teacher's Aide",
+          "url": "https://www.linkedin.com/jobs/view/4444880176",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l459",
+      "text": "Campus Student Support Assistant \u2014 OneSchool Global (Orange, New South Wales, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "OneSchool Global",
+          "title": "Campus Student Support Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4333033594",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l460",
+      "text": "Teacher's Aide \u2014 St Philip's Christian Education (Port Stephens, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "St Philip's Christian Education",
+          "title": "Teacher's Aide",
+          "url": "https://www.linkedin.com/jobs/view/4452296239",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l561",
+      "text": "feat: built-in benchmark suite \u2014 4 standard prompts + run/track harness\n## Overview\n\nAdd a built-in **benchmark package** to autolens_assistant: four standard prompts (three assistant-mode at easy/medium/hard difficulty, one teacher-mode) that are run against different AI agents/harnesses and models to measure assistant performance, plus a harness to record each run (co\n## Checkpoint \u2014 ship sign-off (supervised park, 2026-07-10)\n\n**What was being done:** the build is complete and committed local\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat: built-in benchmark suite \u2014 4 standard prompts + run/track harness\n## Overv\u2026",
+          "url": "https://github.com/PyAutoLabs/autolens_assistant/issues/57",
+          "date": "2026-07-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 14:37 UTC &nbsp;|&nbsp; **Total:** 15 &nbsp;|&nbsp; \ud83d\udd34 KEV: 0 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 13 &nbsp;|&nbsp; \ud83d\udfe1 High: 2 &nbsp;|&nbsp; \u2728 Enriched: 10\n\n---\n\n## 1. \ud83d\udfe0 Zero-Day \u2014 Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Com\n# Zero Day Pulse\n\n> **Generated:** 2026-05-26 19:54 UTC &nbsp;|&nbsp; **Total:** 20 &nbsp;|&nbsp; \ud83d\udd34 KEV: 1 &nbsp;|&nbsp; \ud83d\udfe0 Zero-Day: 14 &nbsp;|&nbsp; \ud83d\udfe1\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udea8 Zero Day Pulse \u2014 Active Vulnerability Tracker\n# Zero Day Pulse\n\n> **Generated:\u2026",
+          "url": "https://github.com/peleduri/zero-day-pulse/issues/7",
+          "date": "2026-05-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "Platform AI Scans Private Snapchat Message Containing \u201cShoot\u201d Language, Auto-Reports to FBI, Leading to School Arrest of Student Teacher\nOn January 29, 2025, Kristen Volpe, a 22-year-old student teacher at John L. Hensey Elementary School in Washington, Illinois, became frustrated when a student closed her laptop mid-lesson, disrupting the prepared lesson plan. She sent a private Snapchat communication limited to three recipients (reported as boyfriend and roommates) that included language askin\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Platform AI Scans Private Snapchat Message Containing \u201cShoot\u201d Language, Auto-Rep\u2026",
+          "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vbwmvk/platform_ai_scans_private_snapchat_message/",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "Every EdTech SaaS says it's \"AI-powered.\" What AI feature has genuinely saved teachers time?\n&quot;AI-powered&quot; has become the default marketing phrase in education. But beyond the buzzword, which AI features have actually made teachers&#39; jobs easier? Examples might include: Automated grading Personalized learning paths Lesson planning assistance Student performance insights Parent communication Which features delivered measurable value, and which were mostly marketing? &#32; submitted by\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Every EdTech SaaS says it's \"AI-powered.\" What AI feature has genuinely saved te\u2026",
+          "url": "https://www.reddit.com/r/edtech/comments/1vcshb2/every_edtech_saas_says_its_aipowered_what_ai/",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "Snapchat AI is scanning through messages and things you post, even to your private stories with limited people. The AI can flag that content and then send it to the FBI. This is real and it\u2019s already happened...We are all under mass surveillance and AI is taking it one massive step further\nThis is horrifying Snapchat AI is scanning through messages and things you post, even to your private stories with limited people The AI can flag that content and then send it to the FBI. This is real and it\u2019s\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Snapchat AI is scanning through messages and things you post, even to your priva\u2026",
+          "url": "https://www.reddit.com/r/WayOfTheBern/comments/1vf17am/snapchat_ai_is_scanning_through_messages_and/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better Guidance?\nWhere Does the Structural Gap Between General Chatbots and Relationship-Specific AI Actually Show Up? The gap appears in three places: persistence of relationship context across sessions, resistance to sycophancy, and whether the tool is built around one person&#39;s interior world or the dynamic between two people. General-purpose assistants like ChatGPT, Claude, and Gemini score well on empathy and helpf\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "General AI Chatbots vs. Specialized AI Relationship Advisors: Which Gives Better\u2026",
+          "url": "https://www.reddit.com/r/jenova_ai/comments/1vypds5/general_ai_chatbots_vs_specialized_ai/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "Post-AI Cynicism, the \u201cBehavioral Sink,\u201d and the Evolution of Human Motivation\nAfter Scarcity: For most of human history, civilization was organized around a simple psychological equation: survival required effort, and effort required motivation. Hunger compelled production; scarcity generated competition; danger created solidarity; social exclusion imposed conformity; and the prospect of wealth or status encouraged individuals to work beyond immediate biological necessity. Human institutions gr\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Post-AI Cynicism, the \u201cBehavioral Sink,\u201d and the Evolution of Human Motivation\nA\u2026",
+          "url": "https://www.reddit.com/r/AfterClass/comments/1vslxn7/postai_cynicism_the_behavioral_sink_and_the/",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "\u201cAI slop\u201d is becoming a meaningless label when people use it for anything AI-assisted\nThere is a difference between criticizing bad generated output and treating the mere use of AI as proof that something is bad. That distinction is disappearing. A one-shot prompt that produces a brittle app full of fake functionality is slop. Fine. A developer using ChatGPT/Codex/agents to accelerate implementation while still controlling architecture, reviewing diffs, writing tests, validating security and deb\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "\u201cAI slop\u201d is becoming a meaningless label when people use it for anything AI-ass\u2026",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1vnpf50/ai_slop_is_becoming_a_meaningless_label_when/",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "New game dev, unsure where to draw the line with AI assistance\nSo let me preface this by saying I absolutely despite AI image and music generation, so these aren&#39;t even part of the question. Anything I make will at best be a scrappy thing I made and at worst an asset pack I got to speed up things. I am NOT asking whether AI concept art or the like is fair game; you can have your opinion, but mine is that it isn&#39;t. Writing is also completely off the table, as I AM a hobbyist writer (you m\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "New game dev, unsure where to draw the line with AI assistance\nSo let me preface\u2026",
+          "url": "https://www.reddit.com/r/gamedev/comments/1vv1enq/new_game_dev_unsure_where_to_draw_the_line_with/",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "WWDC 2026 - Siri AI Impressions!\nApple WWDC Impressions - Siri AI is....Interesting. They can't harm you, if they can't find you! Use code BOSS at the link below and get 60% off an annual plan: https://incogni.com/boss\n\nFor my tech hot takes: http://twitter.com/Mrwhosetheboss\nFor my Personal Posts: http://instagram.com/mrwhosetheboss\nFor quick tech videos: https://www.tiktok.com/@mrwhosetheboss\nDoes anyone still use this anymore?: https://facebook.com/mrwhosetheboss\n\nMy 5 favourite pieces of Tec\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "WWDC 2026 - Siri AI Impressions!\nApple WWDC Impressions - Siri AI is....Interest\u2026",
+          "url": "https://www.youtube.com/watch?v=c6HGJJabr_4",
+          "date": "2026-06-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "I Tried PewDiePie\u2019s Odysseus AI So You Don\u2019t Have To (Its FREE)\nTry Recraft V4.1 now and experience an image generation model with exceptional visual taste : https://go.recraft.ai/MattWolfe\n\nPewDiePie built an open source AI workspace called Project Odysseus and I put it through its paces so you don't have to.\n\nOdysseus is a self-hosted AI platform that lets you run local AI models, connect APIs, do deep research, manage files, and keep your data completely off the cloud. Think ChatGPT or Claude\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "I Tried PewDiePie\u2019s Odysseus AI So You Don\u2019t Have To (Its FREE)\nTry Recraft V4.1\u2026",
+          "url": "https://www.youtube.com/watch?v=_7BHqZayPOc",
+          "date": "2026-06-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1102,14 +1543,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Teacher Assistants",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/25-9041/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Teacher Assistants",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/25-9041/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "25-9041",
+        "query": "Teacher Assistants",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1124,9 +1576,24 @@
           "youtube": 2
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 11,
+        "sources": {
+          "github": 3,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 9,
+          "x": 10,
+          "youtube": 2
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

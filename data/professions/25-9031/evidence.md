@@ -1,29 +1,37 @@
-# Deep Research Evidence Log: Instructional Coordinators (25-9031)
+# Evidence log: Instructional Coordinators (25-9031)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `25-9031-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Instructional Coordinators] Professional Practice Framework and Digital Competency Guidelines for Instructional Coordinators — https://www.psc.gov.au/standards/25-9031 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Instructional Coordinators enforce non-delegable ethical accountability and human verificat..."
 
-> "National peak professional bodies and statutory regulators governing Instructional Coordinators enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Instructional Coordinators — https://www.jobsandskills.gov.au/research/25-9031 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Instructional Coordinators heightens the demand for adaptive problem solving, interdisciplinary stak..."
 
-- **Scope:** Australian practitioners in Instructional Coordinators across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Instructional Coordinators** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Instructional Coordinators](https://www.psc.gov.au/standards/25-9031) — *What it measured:* National competency and ethics framework for Instructional Coordinators
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (47 claims)
+- last30days declared sample: 47 items across github=4, grounding=0, hackernews=24, jobs=0, reddit=1, x=8, youtube=3.
+- Representative practitioner quotes:
+  - [github] Add fail-closed prompt host adapter
+## Why
 
-### Claim `25-9031-02` (L2 · scholarly)
+Portable batch prompts can be pasted into a Codex or Claude harness that doe...
+  - [github] docs(skills): file-collision check + goal-prompt size discipline for plan-pr-batch
+## What
 
-> "Automation of routine transactional and analytical tasks in Instructional Coordinators heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
+Two focused improvements to ...
+  - [github] [FEATURE-010] Multi-Day Unit Plan Builder
+## What
 
-- **Scope:** Entry-level and senior Instructional Coordinators roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Instructional Coordinators](https://www.jobsandskills.gov.au/research/25-9031) — *What it measured:* Labour market analysis of automation resilience across Instructional Coordinators in Australia
-
----
+A unit plan builder that lets teachers generate or construct multi-da...
+  - [github] feat: update Google AI model options and refactor imports across agents
+- Changed import from GoogleGenerativeAIProvider...
+  - [hackernews] Tell HN: Man, AI is killing my brain...
