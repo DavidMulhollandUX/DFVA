@@ -1,0 +1,135 @@
+{
+  "code": "mc-aecoenh",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Level 2 anchor: 'At least one core unit assesses collaborative practice — group projects with individual accountability, client or stakeholder work, interprofessional activity.' Two core units document assessed group work: BUSA90520 (Data Wrangling and Visualisation) runs three graded group tasks, and ECOM90025 (Advanced Data Analysis) runs a graded group case competition/presentation and a group empirical project. Level 3 additionally requires an assessment where 'the division of work between people and systems is itself assessed' — no core assessment documents coordinating work across people AND tools/AI systems, so the item stops at 2.",
+      "evidenceLines": [
+        "Group assignment (in groups of 3-4 students). All students should contribute equally, averaging approximately 12.5 hours of work per student",
+        "Group data project (in groups of 3-4 students). All students should contribute equally, averaging approximately 25 hours of work per student.",
+        "Group programming assignment (in groups of 3-4 students). All students should contribute equally, averaging approximately 12.5 hours of work per student",
+        "Group case competition and presentation: • 300 words each in weeks 2, 4, 6, 8 and 10 (1500 words in total). • 10-minute group presentation in week 12; Group size 4-5 people (500-word equivalent).",
+        "Group empirical project"
+      ]
+    },
+    "C2": {
+      "score": 0,
+      "rationale": "Level 0 anchor: 'No assessment requires students to appraise the quality of work — their own, peers', or a tool's.' The captured core-unit assessment breakdowns (BUSA90520, ECOM90001, ECOM90002, ECOM90024, ECOM90025) consist entirely of proposal/progress/submission reports, individual and group assignments, quizzes and hurdle examinations — none framed as peer review, structured critique, exemplar-based marking or a documented reliance-on-tool/source justification. No 'reflection', 'self-assessment' or 'peer review' language appears anywhere in the extract, so Level 1's outcome-only reflection language is also absent.",
+      "evidenceLines": [
+        "Research Proposal Report",
+        "Mid-semester test",
+        "Research Progress Report",
+        "Research Submission Report",
+        "End of semester examination"
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: 'AI or digital tools appear only as electives or as tool operation/training — the operational level TEQSA identifies as non-durable.' Core units document digital-tool operation training — computer software use for estimation and graphing, statistical software for time-series handling, computational methods for data preparation — but nothing in the extract names AI specifically or discusses limitations, ethics or governance. Per the Migration note ('tool-operation content caps at level 1'), this content caps the item at 1 regardless of appearing in core rather than elective subjects; Levels 2–3 require AI-specific limitations/ethics or governance content, which is absent.",
+      "evidenceLines": [
+        "Use computer software to perform simple data descriptions and to graph relationships between variables, to estimate econometric models using OLS and Instrumental Variables, and to estimate simple dynamic models;",
+        "Demonstrate proficiency in time series data handling and modelling using statistical software.",
+        "Implement computational methods to prepare, explore and describe a range of types of data."
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Level 2 anchor: 'At least one core assessment requires application to novel or unfamiliar problems — case variation, unseen datasets, cross-context projects.' Two core units (ECOM90001, ECOM90002) each assess a staged project requiring students to formulate their own hypotheses and collect real-world data rather than work a taught example — an unseen/self-selected dataset applied outside the worked-example content. Level 3 requires 'a self-scoped capstone or research project' with documented structured progression; ECOM90002 titles its assessment items 'Capstone Project Proposal/Progress/Submission', which gestures toward this, but the program's actual designated Capstone subjects (Year 2: ECOM90026/ECOM90027 Econometrics Research Report, ECOM90013 Econometrics 3) have no captured evidence in this extract, so a documented progression to an independent capstone cannot be confirmed. Ambiguity resolved to the lower level.",
+      "evidenceLines": [
+        "These methods are consolidated through a research project which involves formulating hypotheses, real-world data collection, and writing-up the results in a formal report.",
+        "Research Submission Report",
+        "Methods are consolidated through a Capstone project involving hypothesis-formation, real-world data collection, and writing-up the results in a formal report.",
+        "Capstone Project Submission (report)"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Level 2 anchor: 'Students design and conduct an inquiry with methodology selection and data collection, assessed.' ECOM90001 and ECOM90002 both assess a staged research/capstone project in which students formulate hypotheses, select methodology and collect real-world data, submitted as graded proposal/progress/submission reports. Level 3 requires the primary-evidence project to be 'REQUIRED (not one route among several)' with methodology 'defended under scrutiny (viva, defence, or staged supervised review)'. The program's dedicated Capstone subjects — where a defence/viva component would most plausibly sit — have no subject or assessment pages captured in this extract, so that requirement cannot be confirmed from the available evidence.",
+      "evidenceLines": [
+        "Formulate hypotheses about economic phenomena, collect real-world data, apply econometric methods to test hypotheses, and draw evidenced-based conclusions or implications for economic theory and/or public policy.",
+        "These methods are consolidated through a research project which involves formulating hypotheses, real-world data collection, and writing-up the results in a formal report.",
+        "Methods are consolidated through a Capstone project involving hypothesis-formation, real-world data collection, and writing-up the results in a formal report."
+      ]
+    },
+    "adaptiveness": 7,
+    "W1": {
+      "score": 1,
+      "rationale": "Level 1 anchor: communication appears in core-unit generic-skills lists ('Written communication', 'Oral communication') and core assessment in ECOM90025 adds a group presentation to the teaching team/peers, but no core assessment is described using a recognised professional genre (client brief, consultancy report, policy advice, clinical handover) or judged by an audience beyond the teaching team, so Level 2 is not supported by the captured evidence.",
+      "evidenceLines": [
+        "Group case competition and presentation: • 300 words each in weeks 2, 4, 6, 8 and 10 (1500 words in total). • 10-minute group presentation in week 12; Group size 4-5 people (500-word equivalent).",
+        "Written communication",
+        "Oral communication"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Level 1 anchor: core units frame assessment with contextual/scenario content — cross-industry business data (BUSA90520), applied topics such as labour economics, consumer demand and finance (ECOM90003) — but the artefacts actually assessed are written assignments and examinations, and the criteria applied remain academic rather than a practitioner deliverable judged against practice-derived criteria. Level 2 ('reproduces a professional task end to end... judged against criteria drawn from practice') is not documented anywhere in the core-unit assessment breakdowns.",
+      "evidenceLines": [
+        "Data sets will be drawn from multiple industries and business disciplines (accounting, economics, finance and management & marketing).",
+        "Illustrative application topics normally will include labour economics, consumer demand and finance.",
+        "Individual Written Assignment",
+        "End-of-semester examination"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Level 1 anchor: 'Work-situated learning exists only as an elective, an optional internship...' The three placement-type subjects in the course structure — Business Practicum, Global Business Practicum, Business and Economics Internship — appear only inside the Year 2 elective lists, explicitly as one optional choice among several requiring Program Director approval. No core unit places students in a supervised workplace or professional-practice setting, so Levels 2–3 (core-unit placement) do not apply, and Level 0 does not apply because WIL options do exist in the structure.",
+      "evidenceLines": [
+        "Students have the option to take one of BUSA90473, BUSA90485 or BUSA90525 as an elective and must seek Program Director approval.",
+        "BUSA90473\tBusiness Practicum",
+        "BUSA90525\tBusiness and Economics Internship"
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "FAIL",
+        "rationale": "DEMOTED on verify pass: the submitted rationale claimed 'an explicit staged prerequisite chain between core subjects', but a full-text search of the extract finds exactly ONE prerequisite relationship in the entire 2,245-line document — ECOM90013 (Econometrics 3) as a concurrent prerequisite for ECOM90026 (Econometrics Research Report Part 1) — and both subjects are alternative Capstone options, not core subjects. One link is not a 'chain'. The other two PASS routes are also unsupported: the core is not all-compulsory (one of the six core slots is selected from ECOM90003/ECOM90004/ECON90033, and the Capstone slot is selected from ECOM90026/ECOM90013), and no accreditation is mentioned anywhere. PASS may still be defensible on the gate's primary criterion — a documented foundational-to-advanced core sequence (Data Wrangling/Basic Econometrics → Econometrics 2/Advanced Data Analysis/Forecasting → Capstone) — but that is not the ground the original rationale cited, so as justified it is not supported by the evidence quoted. Recorded as FAIL pending re-grounding in subject-sequence progression rather than the unsupported 'chain' claim.",
+        "evidenceLines": [
+          "The Master of Applied Econometrics program consists of 16 subjects, comprising six core subjects, eight elective subjects and two capstone subjects.",
+          "Note: ECOM90013 Econometrics 3 is a concurrent prerequisite for ECOM90026 Econometrics Research Report Part 1."
+        ]
+      },
+      "G2": {
+        "result": "FAIL",
+        "rationale": "DEMOTED on verify pass: two of the three original evidenceLines ('Diagnose model misspecification...', 'Implement, compare, and critique...') are Intended Learning Outcomes, not assessment-task descriptions, and G2's own anchor requires assessments to require defended trade-off decisions. Neither outcome is tied by the extract to a specifically named assessed task (ECOM90001's and ECOM90025's assessment tables list only generic report/quiz/exam titles, none naming misspecification diagnosis or framework critique as the graded task). The third citation (the Capstone-project sentence, tied to the graded 25%-weighted 'Capstone Project Submission' in ECOM90002/90004, built on self-collected real-world data) is genuine assessment evidence and on its own could support PASS via the gate's second disjunct (capstones with real uncertainty and accountability), but that narrower ground was not what the original rationale argued. Recorded as FAIL pending re-grounding solely in the Capstone-project evidence.",
+        "evidenceLines": [
+          "Methods are consolidated through a Capstone project involving hypothesis-formation, real-world data collection, and writing-up the results in a formal report."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1: BUSA90520's group assessments state students 'should contribute equally' but document no explicit individual-accountability mechanism (e.g. peer assessment); scored at level 2 on the collaborative-practice clause alone, since level 3 is excluded regardless (no assessment documents coordinating work across people AND tools/AI systems).",
+      "C3: 'computer software'/statistical-software content in core units is digital-tool literacy rather than explicitly AI-labelled content; scored at level 1 under the item's broader 'digital tools' construct and the Migration note capping tool-operation content at 1, rather than level 0.",
+      "C4/C5: ECOM90002's assessment items are literally named 'Capstone Project Proposal/Progress/Submission' with self-formulated hypotheses and real-world data collection, which reads toward level 3 on both C4 and C5. Resolved to level 2 on both because the program's actual designated Capstone subjects (Year 2) are not present in this extract to confirm a defended/viva component (C5) or a documented structured progression to independent learning (C4) — per R3/scoring-direction, ambiguity resolved to the lower level.",
+      "G1: verify pass demoted PASS to FAIL — the cited 'staged prerequisite chain' is a single link between two alternative Capstone options, not a chain across core subjects. A PASS may still be reachable via the foundational-to-advanced core-sequence criterion, but that requires a fresh rationale grounded in subject sequencing, not a re-score of the same evidence.",
+      "G2: verify pass demoted PASS to FAIL — two of three evidence lines are outcome statements, not assessment-task descriptions, and are not tied to a named graded task. The remaining Capstone-project evidence line is genuine assessment evidence and may support PASS on narrower grounds (capstone-only), but that requires a fresh rationale, not a re-score of the same evidence."
+    ],
+    "notScoreable": [
+      "Program-level 'Attributes, outcomes and skills' page (mc-aecoenh/attributes-outcomes-skills) returned mismatched content — the text captured under that URL is an unrelated subject, Australian Architecture (ABPL90089), not this program's graduate attributes — so no program-level outcomes statement was available as evidence for any item.",
+      "The subjects/ecom90004 and subjects/ecom90004/assessment URLs returned mismatched content (a duplicate Econometrics 2 overview and the Data Wrangling and Visualisation overview respectively, not Time Series Analysis and Forecasting), so ECOM90004 could not be used as evidence for any item.",
+      "None of the program's actual required Capstone subjects (ECOM90026 Econometrics Research Report Part 1, ECOM90027 Part 2, ECOM90013 Econometrics 3) or the alternative Year-2 core options (ECOM90008 Microeconometrics, ECOM90011 Financial Econometrics, ECOM90012 Modelling the Australian Macroeconomy) have subject or assessment pages in this extract. This limits full confirmation of C4 and C5 level-3 evidence (a self-scoped capstone with documented progression, and methodology defended under scrutiny), since that is where such evidence would most plausibly appear.",
+      "subjects/econ30024/assessment (Economics of Financial Markets, an elective) has no captured page, and subjects/econ90034/assessment returned mismatched content (Time Series Analysis and Forecasting assessment instead of Economics of Finance assessment); neither subject is core, so this does not affect any scored item."
+    ],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-29"
+      },
+      "mechanical": true,
+      "date": "2026-08-29"
+    }
+  }
+}

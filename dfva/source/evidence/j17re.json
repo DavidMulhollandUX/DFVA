@@ -1,0 +1,126 @@
+{
+  "code": "j17re",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 0,
+      "rationale": "Anchor 0: no collaborative, stakeholder or team-based work is assessed anywhere in the core. Only assessed component is a solo-authored thesis; supervision is individual (supervisor/s + Advisory Committee working with the single candidate); seminar attendance is not described as assessed.",
+      "evidenceLines": [
+        "a candidate will have appropriately experienced supervisor/s and an Advisory Committee who in consultation with the candidate, arranges a course of supervised research designed to suit the individual requirements and interests of the candidate;",
+        "all candidates are required to attend departmental seminars over the period of their candidature;",
+        "A thesis on an approved topic."
+      ]
+    },
+    "C2": {
+      "score": 0,
+      "rationale": "Anchor 0: no assessment requires appraising the quality of work (own, peers', or a tool's). The sole assessment item is submission of the thesis for external examination; no criterion-referenced peer review, critique, or portfolio-against-standards is documented, and no reflection/self-assessment outcome appears even unassessed.",
+      "evidenceLines": [
+        "Description\tTiming\tPercentage",
+        "A thesis on an approved topic.",
+        "30,000 words\n\tN/A"
+      ]
+    },
+    "C3": {
+      "score": 0,
+      "rationale": "Anchor 0: no digital/AI content in any core unit or program-level outcome. Neither the course ILOs nor the Thesis subjects' overview, generic skills, or assessment mention digital tools or AI.",
+      "evidenceLines": [
+        "demonstrate an advanced and integrated understanding of a complex body of knowledge that includes recent developments in one or more disciplines;",
+        "independently investigate, analyse and synthesise complex information, problems, concepts and theories and to apply established theories to different bodies of knowledge or practice;",
+        "demonstrate advanced knowledge of research principles and methods applicable to the field of work or learning;"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Anchor 3: a self-scoped capstone or research project, documented with assessment evidence. The entire assessed component is a self-directed thesis on an approved topic, independently designed and executed by the candidate, and it is the item actually assessed (submitted, examined) rather than an unassessed outcome claim, satisfying R2 at level 3.",
+      "evidenceLines": [
+        "independently design and execute a substantial piece of research that makes a contribution to knowledge within their field;",
+        "A thesis on an approved topic.",
+        "candidates enrol in a thesis subject for the duration of the degree;",
+        "academic progress in regard to the research thesis is reviewed regularly throughout the degree;"
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Anchor 2: students design and conduct an inquiry with methodology selection, assessed. The thesis requires independently designed and executed research using 'research principles and methods,' assessed via submission, external examination and regular progress review. Level 3 is not clearly met — the extract never states primary-evidence generation specifically is required, and documents only written external examination plus periodic progress review, not an oral viva or staged defence. Ambiguous between 2 and 3; resolved to the lower level.",
+      "evidenceLines": [
+        "demonstrate advanced knowledge of research principles and methods applicable to the field of work or learning;",
+        "independently design and execute a substantial piece of research that makes a contribution to knowledge within their field;",
+        "all candidates for the degree will be examined on the basis of their thesis which is examined externally.",
+        "academic progress in regard to the research thesis is reviewed regularly throughout the degree;"
+      ]
+    },
+    "adaptiveness": 5,
+    "W1": {
+      "score": 0,
+      "rationale": "Anchor 0: all core assessment is in academic genres addressed to the marker, with no professional-genre or spoken communication assessed. The only assessed artefact is the written thesis, examined by academic examiners. 'Disseminate research findings effectively in the professional arena' appears only as a course-level ILO, never as an assessed presentation or professional-genre task (R2/Barrie), so it cannot lift the item even to level 1, which additionally requires an assessed presentation to peers/staff.",
+      "evidenceLines": [
+        "disseminate research findings effectively in the professional arena;",
+        "A thesis on an approved topic.",
+        "30,000 words\n\tN/A"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Demoted from anchor 2 to anchor 1 on adversarial verification. The extract documents only that the thesis is examined externally by academic examiners; nothing describes client contact, fieldwork, or criteria drawn from social-work practice, so the 'artefact a practitioner would produce, judged against criteria drawn from practice' test at level 2 is not met on this evidence. The topic is situated in a real disciplinary area (level 1), but the artefact (thesis) and criteria (scholarly/academic external examination) remain academic. The 'examined externally' fact is also load-bearing for C4 and C5 and was reused for W2's practice-fidelity construct without a documented practice-context feature.",
+      "evidenceLines": [
+        "Students undertaking the thesis should demonstrate a critical application of specialist knowledge and make an independent contribution to existing scholarship in their area of research.",
+        "A thesis on an approved topic.",
+        "all candidates for the degree will be examined on the basis of their thesis which is examined externally."
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "Anchor 0: no work-integrated learning, placement, practicum or community-based project appears anywhere in the course structure. Only a residency/attendance requirement and seminar attendance are documented; no placement or practitioner-supervised live-client work appears, and there is no indication the cohort is already practising in the profession, so the v4.2 in-practice route does not apply on this evidence.",
+      "evidenceLines": [
+        "Students complete a thesis of 30,000 words and two coursework subjects. Refer to the Department of Social Work.",
+        "all candidates are required to complete a minimum of 6 months full-time research at the University in order to benefit from planning, conducting and writing up their research within a University community and environment;"
+      ]
+    },
+    "workplace": 1,
+    "gates": {
+      "G1": {
+        "result": "FAIL",
+        "rationale": "Extract documents only generic HDR candidature administration (seminar attendance, residency minimum, individual supervision, periodic progress review), none of it specialist Social Work content. The two named coursework subjects that would carry disciplinary sequencing are referenced but their content is not in this extract, so no accredited sequence, staged prerequisite chain, or compulsory specialist core with progressive depth is documented.",
+        "evidenceLines": [
+          "Students complete a thesis of 30,000 words and two coursework subjects. Refer to the Department of Social Work.",
+          "a candidate will have appropriately experienced supervisor/s and an Advisory Committee who in consultation with the candidate, arranges a course of supervised research designed to suit the individual requirements and interests of the candidate;"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The required thesis is a substantial, independently designed and executed research project carrying genuine uncertainty (an original contribution to knowledge, not a scripted/recall task) with documented accountability through regular progress review and external examination.",
+        "evidenceLines": [
+          "independently design and execute a substantial piece of research that makes a contribution to knowledge within their field;",
+          "academic progress in regard to the research thesis is reviewed regularly throughout the degree;",
+          "all candidates for the degree will be examined on the basis of their thesis which is examined externally."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C5: evidence is consistent with level 2 (methodology selection assessed) and level 3 (primary evidence REQUIRED, defended under scrutiny) — extract never states primary-evidence/data-collection is required and describes only written external examination plus progress review, not a viva/defence; resolved to the lower level (2).",
+      "W2: verification demoted the initial level-2 score to level 1 — the thesis is externally examined against academic/scholarly standards, but no documented feature (client contact, fieldwork, practice-derived criteria) establishes social-work practice fidelity rather than academic research fidelity; the 'examined externally' evidence was already load-bearing for C4/C5 and its reuse for W2 without a disclosed ambiguity was the basis for the demotion.",
+      "C4 and C5 both draw on the same thesis evidence (self-scoped research project vs methodology/primary-evidence generation) but are scored independently per their own construct definitions, not double-counted.",
+      "The course-structure page references 'two coursework subjects' whose own pages are not included in this extract. Items scored 0 (C1, C2, C3, W1, W3) reflect the absence of qualifying evidence in the supplied overview, outcomes, course-structure and Thesis(FT)/(PT) pages only — not a confirmed absence across the full course, since the coursework-subject content is unseen."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-29"
+      },
+      "mechanical": true,
+      "date": "2026-08-29"
+    }
+  }
+}
