@@ -735,6 +735,300 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l435",
+      "text": "Administrative Supervisor \u2014 Cummins Asia Pacific (Adelaide, South Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Cummins Asia Pacific",
+          "title": "Administrative Supervisor",
+          "url": "https://www.linkedin.com/jobs/view/4436092228",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l436",
+      "text": "Front Office and Data Systems Manager \u2014 Department of Education and Training (Darwin, Northern Territory, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Education and Training",
+          "title": "Front Office and Data Systems Manager",
+          "url": "https://www.linkedin.com/jobs/view/4456337534",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l437",
+      "text": "Administration Lead \u2014 Resthaven Incorporated (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Resthaven Incorporated",
+          "title": "Administration Lead",
+          "url": "https://www.linkedin.com/jobs/view/4452331509",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l438",
+      "text": "Office Manager \u2014 Team Global Express (Emerald, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Team Global Express",
+          "title": "Office Manager",
+          "url": "https://www.linkedin.com/jobs/view/4443491301",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l439",
+      "text": "Office Manager \u2014 SYSTRA ANZ (Newcastle, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "SYSTRA ANZ",
+          "title": "Office Manager",
+          "url": "https://www.linkedin.com/jobs/view/4450207433",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l440",
+      "text": "Administration Team Leader, BMVS Perth \u2014 Bupa Australia (Perth, Western Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Bupa Australia",
+          "title": "Administration Team Leader, BMVS Perth",
+          "url": "https://www.linkedin.com/jobs/view/4449366923",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l441",
+      "text": "Office Operations Manager & Executive Assistant \u2014 Journey Beyond (Adelaide, South Australia, Australia). Posted 22 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Journey Beyond",
+          "title": "Office Operations Manager & Executive Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4459084194",
+          "date": "22 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l442",
+      "text": "Office Manager \u2014 Hatch (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Hatch",
+          "title": "Office Manager",
+          "url": "https://www.linkedin.com/jobs/view/4452366352",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l443",
+      "text": "Office Manager \u2014 CoStar Group (Cremorne, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "CoStar Group",
+          "title": "Office Manager",
+          "url": "https://www.linkedin.com/jobs/view/4450236405",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l444",
+      "text": "Clerical Team Leader \u2014 Eastern Health (Melbourne, Victoria, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Eastern Health",
+          "title": "Clerical Team Leader",
+          "url": "https://www.linkedin.com/jobs/view/4457196685",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l545",
+      "text": "AI Disruption In Entry-Level Hiring: Why Job Openings Are Shrinking And How Workers Can Stay...\nArtificial Intelligence is rapidly transforming the workforce, and entry-level hiring is among the biggest areas being impacted.\n\nIn this episode of WORKERS.COM Staffing Pulse: Insights From The Frontline, we examine how AI is changing hiring practices, reducing entry-level job openings, and reshaping the future of work.\n\nAcross industries such as Manufacturing, Logistics, Administrative Support, Cust\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Disruption In Entry-Level Hiring: Why Job Openings Are Shrinking And How Work\u2026",
+          "url": "https://www.youtube.com/watch?v=xT1eIyK3jUI",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l546",
+      "text": "Why AI Might Not Replace Your Job After All\nSince ChatGPT\u2019s debut, AI has been framed as everything from a world-changing breakthrough to an existential threat. Companies are pouring hundreds of billions into the space as commentators debate potentially utopian and dystopian futures. But researchers like Princeton\u2019s Arvind Narayanan argue the reality may be more incremental \u2013 a powerful technology that will reshape work and productivity over time, without overturning the basic limits of economic\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Why AI Might Not Replace Your Job After All\nSince ChatGPT\u2019s debut, AI has been f\u2026",
+          "url": "https://www.youtube.com/watch?v=EGskcTRnLJ0",
+          "date": "2026-03-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l547",
+      "text": "Legal Support in the Age of AI Disruption - In Conversation\nThe legal industry is undergoing significant change. AI adoption is accelerating, client expectations are rising, and law firms are facing growing challenges around support staff retention, retirement risk, service delivery, and operational efficiency.\n\nIn this fireside chat, BigHand experts Eric Wangler, Duska Frink and Ben Jennings discuss key findings from the latest legal industry research report, including:\n\n- 95% of firms reportin\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Legal Support in the Age of AI Disruption - In Conversation\nThe legal industry i\u2026",
+          "url": "https://www.youtube.com/watch?v=7TuBHFWSwOY",
+          "date": "2026-07-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "text": "AI Isn\u2019t Taking Every Job Yet \u2014 The Hidden Opportunity Gap\nAI is not replacing most workers all at once. The real story is the widening gap between what AI can already do and what businesses are actually willing or able to deploy.\n\nIn this video, George Goldman Human Author breaks down the difference between theoretical AI capability and observed real-world adoption, showing why the largest disruption may first appear in knowledge work rather than in traditional assumptions about automation.\n\nYo\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Isn\u2019t Taking Every Job Yet \u2014 The Hidden Opportunity Gap\nAI is not replacing m\u2026",
+          "url": "https://www.youtube.com/watch?v=KZZWqsHjaY4",
+          "date": "2026-04-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -765,14 +1059,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "First-Line Supervisors/Managers of Office and Administrative Support Workers",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/43-1011/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "First-Line Supervisors/Managers of Office and Administrative Support Workers",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/43-1011/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "43-1011",
+        "query": "First-Line Supervisors/Managers of Office and Administrative Support Workers",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -786,9 +1091,23 @@
           "youtube": 4
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 4,
+        "sources": {
+          "github": 2,
+          "grounding": 0,
+          "hackernews": 12,
+          "reddit": 0,
+          "x": 14,
+          "youtube": 4
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

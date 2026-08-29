@@ -1574,6 +1574,531 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l475",
+      "text": "Business Broker \u2014 GSE Hospitality Brokers (Parramatta, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "GSE Hospitality Brokers",
+          "title": "Business Broker",
+          "url": "https://www.linkedin.com/jobs/view/4452346541",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l476",
+      "text": "Property Consultant to Marco Wenzel \u2014 Harris Real Estate Pty Ltd (Glenelg North, South Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Harris Real Estate Pty Ltd",
+          "title": "Property Consultant to Marco Wenzel",
+          "url": "https://www.linkedin.com/jobs/view/4449353793",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l477",
+      "text": "Co-Agent to Scott Moon \u2014 Harris Real Estate Pty Ltd (Norwood, South Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Harris Real Estate Pty Ltd",
+          "title": "Co-Agent to Scott Moon",
+          "url": "https://www.linkedin.com/jobs/view/4449363127",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l478",
+      "text": "Commercial Real Estate Agent \u2014 First National Commercial (Castle Hill, New South Wales, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "First National Commercial",
+          "title": "Commercial Real Estate Agent",
+          "url": "https://www.linkedin.com/jobs/view/4456643133",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l479",
+      "text": "Buyer's Agent - Sydney \u2014 Aussie (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Aussie",
+          "title": "Buyer's Agent - Sydney",
+          "url": "https://www.linkedin.com/jobs/view/4424172179",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l480",
+      "text": "Real Estate Sales Agent \u2014 United Realty NT (Greater Darwin Area). Posted 15 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "United Realty NT",
+          "title": "Real Estate Sales Agent",
+          "url": "https://www.linkedin.com/jobs/view/4457661679",
+          "date": "15 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l481",
+      "text": "Office Leasing Executive \u2014 CBRE Asia Pacific (Brisbane, Queensland, Australia). Posted 4 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "CBRE Asia Pacific",
+          "title": "Office Leasing Executive",
+          "url": "https://www.linkedin.com/jobs/view/4401172969",
+          "date": "4 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l482",
+      "text": "Commercial Property Sales Executive \u2014 CBRE Asia Pacific (Sydney, New South Wales, Australia). Posted 4 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "CBRE Asia Pacific",
+          "title": "Commercial Property Sales Executive",
+          "url": "https://www.linkedin.com/jobs/view/4404722344",
+          "date": "4 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l483",
+      "text": "PROJECT SALES AGENT \u2014 Boston PR (Zetland, New South Wales, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Boston PR",
+          "title": "PROJECT SALES AGENT",
+          "url": "https://www.linkedin.com/jobs/view/4443379828",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l484",
+      "text": "Tenant Representative - Office \u2014 CBRE (Adelaide, South Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "CBRE",
+          "title": "Tenant Representative - Office",
+          "url": "https://www.linkedin.com/jobs/view/4455370871",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l585",
+      "text": "Launch Spanish (es) site-wide\n## Summary\n- Resumes the paused multilingual initiative: all 61 pages now have QA-verified Spanish translations (`public/es/*.html`)\n- Flips `es.launched: true` in `build/languages.json`, activating the language switcher, hreflang tags, and localized-language banner site-wide\n- Fixes two real, pre-e\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/coderabb\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Launch Spanish (es) site-wide\n## Summary\n- Resumes the paused multilingual initi\u2026",
+          "url": "https://github.com/Aetheria-Systems/mediprimer/pull/26",
+          "date": "2026-07-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l586",
+      "text": "Custom remote MCP connector: tools never surfaced to the model in claude.ai web, while the broker completes the full OAuth + MCP handshake server-side (same server works in ChatGPT + Claude Code)\n## Summary\n\nA Connected **custom** remote MCP connector (FastMCP, OAuth, Streamable HTTP, `stateless_http=True` + `json_response=True`) shows as Connected with all its tools listed in claude.ai **web** Settings, but its tools are **never handed to the model** in conversations \u2014 the model only sees f\nRel\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Custom remote MCP connector: tools never surfaced to the model in claude.ai web,\u2026",
+          "url": "https://github.com/anthropics/claude-ai-mcp/issues/476",
+          "date": "2026-06-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l587",
+      "text": "AI Realtor photos need to be banned\nI&#39;ve seen plenty of discussions about AI-enhanced real estate photos, but it&#39;s really getting out of control. My husband and I have been house hunting for over a year in New Jersey, where the market is incredibly competitive. When a listing looks promising, you have to act fast. The problem is that more and more listings are filled with AI-generated or heavily altered photos that make the property look nothing like it actually does. It&#39;s such a was\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI Realtor photos need to be banned\nI&#39;ve seen plenty of discussions about AI\u2026",
+          "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1vdo0dm/ai_realtor_photos_need_to_be_banned/",
+          "date": "2026-08-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l588",
+      "text": "AI in real estate should be illegal\nBeen looking at houses recently and the amount of AI photos used in listings is insane, half the time they&#39;re posted as if they&#39;re before-and-after pictures &#32; submitted by &#32; /u/jarrbear2319 &#32; to &#32; r/mildlyinfuriating [link] &#32; [comments]\nI agree. When we were on our house hunt literally every house except one had ai pictures. Didn\u2019t catch on until after the 2nd home. We went with the one house that didn\u2019t have ai pictures Here it mus\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI in real estate should be illegal\nBeen looking at houses recently and the amou\u2026",
+          "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1vskbde/ai_in_real_estate_should_be_illegal/",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l589",
+      "text": "Why are fake AI pictures allowed in selling real estate?\nHow is it reasonable that professional real estate sales are conducted knowing misleading buyers with fake images of the property? AI images are not real images. Using AI without disclosure is deceptive. This would not be accepted in selling a car or anything else. Why is there no standard for this? &#32; submitted by &#32; /u/Sufficient-Eagle3318 &#32; to &#32; r/RealEstateCanada [link] &#32; [comments]\nMy next door neighbour just listed \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Why are fake AI pictures allowed in selling real estate?\nHow is it reasonable th\u2026",
+          "url": "https://www.reddit.com/r/RealEstateCanada/comments/1vcrr88/why_are_fake_ai_pictures_allowed_in_selling_real/",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l590",
+      "text": "Real estate agents using AI.\nHow do people feel about real estate agents using AI to generate/alter images? I just looked at a listing and couldn&#39;t believe what I saw. How is this meant to trust what they&#39;re showing or get a realistic idea of the house listed? This is the listing: 932 Toorak Road, Camberwell https://www.domain.com.au/932-toorak-road-camberwell-vic-3124-2021106186?utm\\_source=Android%20app&amp;utm\\_medium=sharelisting &#32; submitted by &#32; /u/AnigozanthosFlavidus &#32;\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Real estate agents using AI.\nHow do people feel about real estate agents using A\u2026",
+          "url": "https://www.reddit.com/r/melbourne/comments/1vzm2ze/real_estate_agents_using_ai/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l591",
+      "text": "Real Estate AI Misrepresentations\nI was walking by 228 Jefferson St NW yesterday. It is a particularly ugly style of home that has the sloping roof as the focal point of the house. I checked what it was listed at and it is listed for $500k, which seems appropriate given the house&#39;s condition. I also noticed that the photos on the MLS show it as a ranch! AI in real estate listings is getting out of hand. See attached for the real picture and the AI image on the MLS. https://www.redfin.com/DC/\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Real Estate AI Misrepresentations\nI was walking by 228 Jefferson St NW yesterday\u2026",
+          "url": "https://www.reddit.com/r/washingtondc/comments/1vqw2h6/real_estate_ai_misrepresentations/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l592",
+      "text": "Real disruptive CRM\nI am looking for a real disruptive CRM that mainly rely on AI. I am real estate broker, and most of my teams are not using correctly the CRM, I can not blame them, they are on the road, visits and phone all day long so they don&#39;t spend time on CRM. I am sure we could produce more if CRM is correctly field and used. Not asking them to use super advanced features, just fill the CRM and don&#39;t miss a prospect because it has been lost on CRM. So we are looking for a super \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Real disruptive CRM\nI am looking for a real disruptive CRM that mainly rely on A\u2026",
+          "url": "https://www.reddit.com/r/CRMSoftware/comments/1vg2fyu/real_disruptive_crm/",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l593",
+      "text": "Is Trade War Uncertainty Crushing Canada's Real Estate Market?\nThe US\u2013Canada trade war will likely end in a relatively tame outcome but is still creating major uncertainty that delays home-buying decisions, with key deadlines around Sept. 8 for a response to Canada\u2019s counter-tariffs and potential new US tariffs starting Jan. 1. \n\nThey review which Canadian cities and provinces are most tariff-exposed (e.g., Saint John, Calgary, Windsor and the Ontario\u2013Montreal corridor), and explain how job loss\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Is Trade War Uncertainty Crushing Canada's Real Estate Market?\nThe US\u2013Canada tra\u2026",
+          "url": "https://www.youtube.com/watch?v=xCL42Q-Qiio",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l594",
+      "text": "Dylan Patel \u2013 Two labs will soon control most of the world's workforce\nHad a lot of fun chatting again with my twin brother Dylan Patel.\n\nWe went through lab economics over the next few years - the shift from inference to training as RSI draws near; and how Anthropic and OpenAI are on track to control most of the world\u2019s usable FLOPs within the next few years (because they can monetize compute better and thus outbid everyone).\n\nAnd then we discuss whether the $10T+ of total AI capex we\u2019ll see by\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Dylan Patel \u2013 Two labs will soon control most of the world's workforce\nHad a lot\u2026",
+          "url": "https://www.youtube.com/watch?v=aV26V1UvkJw",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l595",
+      "text": "Could AI Replace Your Realtor? Buying a House Without Commission Fees\nA massive technological shift is hitting the real estate market as more homebuyers turn to artificial intelligence to navigate the process without relying as heavily on traditional agents.\n\nIn this edition of The Factor Learning Hub, tech expert Patrick Jones and realtor Tiffany Ryland break down how new AI platforms are changing the way people search for homes, schedule property tours, compare listings, review paperwork and p\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Could AI Replace Your Realtor? Buying a House Without Commission Fees\nA massive \u2026",
+          "url": "https://www.youtube.com/watch?v=l820sBcovxQ",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l596",
+      "text": "Built on Sand? The AI Blindspot Threatening Your Real Estate Business\n\ud83c\udf99\ufe0f Episode Title: Built on Sand? The AI Blindspot Threatening Your Real Estate Business\n\n\ud83d\udca1 This Episode's Winning Factor: True business longevity isn't built on the fastest tech tool; it's anchored in secure, controlled systems and the irreplaceable foundation of human trust.\n\n\u25b6\ufe0f Episode Summary:\n\nWhen China abruptly blocked a $2 billion Meta deal, the AI platform Manus went \"poof,\" instantly wiping out a beautiful, custom bac\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Built on Sand? The AI Blindspot Threatening Your Real Estate Business\n\ud83c\udf99\ufe0f Episode\u2026",
+          "url": "https://www.youtube.com/watch?v=qd0k8iZiAuc",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l597",
+      "text": "How AI is Disrupting Real Estate (And What Agents Must Do NOW)\nArtificial Intelligence is no longer something that's coming to real estate someday it's already here, and it's changing the way buyers, sellers, and agents interact with the market right now.\n\nIn this video, we're breaking down how AI is disrupting the real estate industry, what these changes mean for agents, and why the role of the real estate professional is evolving faster than most people realize. \n\nWhether you're a new agent, a\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "How AI is Disrupting Real Estate (And What Agents Must Do NOW)\nArtificial Intell\u2026",
+          "url": "https://www.youtube.com/watch?v=54lvosJ-yaE",
+          "date": "2026-06-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l598",
+      "text": "What Real Estate Agents Get Wrong About AI in 2026\nAI for real estate agents is everywhere in 2026, but most of it does not get you a single lead. \n\nThis is an honest breakdown of what agents get wrong about AI, why most real estate AI tools fall short, and the right way to actually use AI in your business.\n\nWHO THIS IS FOR\nReal estate agents and realtors who feel behind on AI, are tired of the hype, and want a clear read on what actually works in 2026.\n\nTHE PROBLEM\nBrokerages keep bolting AI on\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "What Real Estate Agents Get Wrong About AI in 2026\nAI for real estate agents is \u2026",
+          "url": "https://www.youtube.com/watch?v=xuAP6JhLWfg",
+          "date": "2026-07-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l599",
+      "text": "We\u2019ve Generated 5 Million Leads Now AI Found Something 3x Better Than Google\nThe AI Sales Rep That Sets Appointments 24/7: https://objectionproofselling.com/ai-sales-agent-yt\n\nMaximize Your Tax Returns And\nGet Clarity On Your Financials With Our Tax Guys\nhttps://beccfo.com/\n\nBuild Real AI Tools For Your Business In One Day At REI Tech Unlocked: https://reitechunlocked.com/\n\nCarrot\nhttps://carrot.com/\n\nBONUS\nGET 10% OFF ON INVESTORLIFT\nUse promo code DISRUPTORS.\nhttps://get.investorlift.com/disru\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "We\u2019ve Generated 5 Million Leads Now AI Found Something 3x Better Than Google\nThe\u2026",
+          "url": "https://www.youtube.com/watch?v=4nYm_HcKruQ",
+          "date": "2026-04-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1604,14 +2129,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Real Estate Brokers",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/41-9021/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Real Estate Brokers",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/41-9021/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "41-9021",
+        "query": "Real Estate Brokers",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1625,9 +2161,23 @@
           "youtube": 7
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 15,
+        "sources": {
+          "github": 13,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 7,
+          "x": 21,
+          "youtube": 7
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

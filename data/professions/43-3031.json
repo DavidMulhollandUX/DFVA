@@ -1262,6 +1262,384 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l460",
+      "text": "ACCOUNTING CLERK \u2014 Grand Portage Trading Post (Casino, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Grand Portage Trading Post",
+          "title": "ACCOUNTING CLERK",
+          "url": "https://www.linkedin.com/jobs/view/4453736398",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l461",
+      "text": "Accounts Clerk \u2014 Hays (Perth, Western Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Hays",
+          "title": "Accounts Clerk",
+          "url": "https://www.linkedin.com/jobs/view/4456115076",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l462",
+      "text": "Bookkeeper \u2014 United Exports (Perth, Western Australia, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "United Exports",
+          "title": "Bookkeeper",
+          "url": "https://www.linkedin.com/jobs/view/4456899453",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l463",
+      "text": "Bookkeeper \u2014 RSM Australia (Busselton, Western Australia, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "RSM Australia",
+          "title": "Bookkeeper",
+          "url": "https://www.linkedin.com/jobs/view/4447246165",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l464",
+      "text": "Bookkeeper \u2014 Pitcher Partners (Melbourne, Victoria, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Pitcher Partners",
+          "title": "Bookkeeper",
+          "url": "https://www.linkedin.com/jobs/view/4448907182",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l465",
+      "text": "Bookkeeper \u2014 Sharp & Carter (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Sharp & Carter",
+          "title": "Bookkeeper",
+          "url": "https://www.linkedin.com/jobs/view/4454336011",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l466",
+      "text": "Bookkeeper \u2014 Nexia Melbourne (Melbourne, Victoria, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Nexia Melbourne",
+          "title": "Bookkeeper",
+          "url": "https://www.linkedin.com/jobs/view/4458581251",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l467",
+      "text": "ACCOUNT ASSISTANT \u2014 Hotel Granada Johor Bahru (Island Beach, South Australia, Australia). Posted 2 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Hotel Granada Johor Bahru",
+          "title": "ACCOUNT ASSISTANT",
+          "url": "https://www.linkedin.com/jobs/view/4442525731",
+          "date": "2 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l468",
+      "text": "Bookkeeper \u2014 RSM Australia (Albury, New South Wales, Australia). Posted 23 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "RSM Australia",
+          "title": "Bookkeeper",
+          "url": "https://www.linkedin.com/jobs/view/4459070421",
+          "date": "23 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l469",
+      "text": "Accounting Assistant Officer \u2014 Centrecare (Perth, Western Australia, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Centrecare",
+          "title": "Accounting Assistant Officer",
+          "url": "https://www.linkedin.com/jobs/view/4448595239",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l570",
+      "text": "feat: add Responses API provider support\n## Summary\n\n- adds a native `responses` provider protocol targeting `/responses`\n- preserves native request and response envelopes, background/failed tracking receipts, built-in tools, citations, reasoning, refusals, usage, continuation IDs, structured output, and exact pseudo-stream item events acr\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.c\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat: add Responses API provider support\n## Summary\n\n- adds a native `responses`\u2026",
+          "url": "https://github.com/RESMP-DEV/ccr-rust/pull/25",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "Shared-memory threads for JavaScriptCore (experimental, not working yet)\n## What this is\n\nShared-memory threads for JavaScriptCore. `new Thread(fn)` runs `fn` on another thread, in the same heap, with the same objects. No structured clone, no message passing, no SharedArrayBuffer-only escape hatch. You share an object by sharing the object.\n\n**Status: parallel JavaScript\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Sta\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Shared-memory threads for JavaScriptCore (experimental, not working yet)\n## What\u2026",
+          "url": "https://github.com/oven-sh/WebKit/pull/249",
+          "date": "2026-06-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "How can AI help automate bookkeeping and accounting for a small business?\nIf you\u2019ve been wondering how AI can fit into your bookkeeping or accounting workflow, one of the best places to start is with the repetitive work that takes up time but still needs to get done accurately. AI-powered accounting tools can help automate parts of the day-to-day process, from categorizing transactions and reconciling accounts to managing invoices, identifying unusual activity, and surfacing insights from your f\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "How can AI help automate bookkeeping and accounting for a small business?\nIf you\u2026",
+          "url": "https://www.reddit.com/r/u_Intuit_QuickBooks/comments/1vlv5n6/how_can_ai_help_automate_bookkeeping_and/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "An AI bookkeeping tool for both founders and accountants\nI run a financial advisory firm for early stage startups and I want to make a tool to help my clients. Many clients talk about how the bookkeeping process is the most confusing, difficult and expensive process they face. Hiring bookkeepers take out so much of their time and it leads to more problems such as cost, bookkeepers not finishing their work on time, or me the financial advisor for these clients facing poorly kept records (slowly d\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "An AI bookkeeping tool for both founders and accountants\nI run a financial advis\u2026",
+          "url": "https://www.reddit.com/r/startupideas/comments/1vndfsm/an_ai_bookkeeping_tool_for_both_founders_and/",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "AI-assisted Active Directory audit: how I found dormant privileged accounts using Claude and PowerShell\nHad a client ask me to review their AD environment last month. Before going in manually I built a quick workflow using PowerShell exports + Claude to get an initial picture of the estate. Sharing because the results were useful and the approach is reproducible. The workflow (read-only throughout, no changes made) Step 1 \u2014 Export all users and their group memberships: Get-ADUser -Filter * -Prop\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI-assisted Active Directory audit: how I found dormant privileged accounts usin\u2026",
+          "url": "https://www.reddit.com/r/sysadmin/comments/1vb3p6c/aiassisted_active_directory_audit_how_i_found/",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "Claude Cowork Can Automate Your QuickBooks! (here's how accounting firms use it)\n\ud83e\uddf0 Swipe my FREE app recommendations for accounting firms: https://www.jasononfirms.com/apps\n\ud83d\udcc4 Grab the two Claude skills mentioned in this video! https://drive.google.com/drive/folders/1dkQT46CwAq3Fi6tzpI9dRvDoryZIqtEK?usp=sharing\n\n\nMy name\u2019s Jason, I used to run a $5M accounting firm, now I help accountants around the world build better firms. I\u2019m the founder of a +800 firm private community that\u2019s shaping the futu\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Claude Cowork Can Automate Your QuickBooks! (here's how accounting firms use it)\u2026",
+          "url": "https://www.youtube.com/watch?v=fBne9qS08w4",
+          "date": "2026-07-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "text": "Why Claude Cowork Is Already Changing Accounting Firms\n\ud83e\uddf0 Swipe my FREE app recommendations for accounting firms: https://www.jasononfirms.com/apps\n\ud83d\ude80 Make the ultimate investment in your accounting firm by joining my alliance of +800 firm owners: https://rlz.io/\n\nMy name\u2019s Jason, I used to run a $5M accounting firm, now I help accountants around the world build better firms. I\u2019m the founder of a 800+ firm private community that\u2019s shaping the future of small-firm ownership for the better.\n\nIn this\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Why Claude Cowork Is Already Changing Accounting Firms\n\ud83e\uddf0 Swipe my FREE app recom\u2026",
+          "url": "https://www.youtube.com/watch?v=5DevfwAfVpA",
+          "date": "2026-03-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "text": "How I Use Claude to Automate Tax and Bookkeeping (Beginner Tutorial)\nJoin my Skool Squad to learn AI and make money it: https://www.skool.com/ai-operators-club/about \n\nI break down what Claude Code actually is, how to set it up properly in VS Code, and how I used it to build a real bookkeeping and tax automation for my business \u2014 invoices, expense categorization, Google Sheets, the whole thing. \n\n\ud83d\udccc TIMESTAMPS:\n0:40 \u2013 Setting up Claude Code in VS Code and project workspace\n1:54 \u2013 CLAUDE.md explai\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "How I Use Claude to Automate Tax and Bookkeeping (Beginner Tutorial)\nJoin my Sko\u2026",
+          "url": "https://www.youtube.com/watch?v=ztXUJa58r9o",
+          "date": "2026-03-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1292,14 +1670,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Bookkeeping, Accounting, and Auditing Clerks",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/43-3031/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Bookkeeping, Accounting, and Auditing Clerks",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/43-3031/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "43-3031",
+        "query": "Bookkeeping, Accounting, and Auditing Clerks",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1313,9 +1702,23 @@
           "youtube": 3
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 8,
+        "sources": {
+          "github": 12,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 4,
+          "x": 14,
+          "youtube": 3
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
