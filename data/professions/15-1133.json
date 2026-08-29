@@ -1,36 +1,64 @@
 {
   "onet_soc_code": "15-1133",
+  "researchMethod": "empirical-five-lane-v1",
   "title": "Software Developers, Systems Software",
   "aliases": [
     "DevOps Engineer",
-    "Software Architect"
+    "Software Architect",
+    "Systems Software Engineer",
+    "Platform Engineer"
   ],
-  "anzsco": "220000",
+  "anzsco": "261314",
+  "anzscoNote": "Best-effort ANZSCO 2022 mapping (Software Architect / Systems Software); no authoritative O*NET->ANZSCO crosswalk present in repo.",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-27",
+    "to": "2026-08-27"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
-  "programs": [
-    "mc-it"
-  ],
+  "generated": "2026-08-27",
+  "expires": "2027-02-23",
+  "programs": [],
   "claims": [
     {
-      "id": "15-1133-01",
-      "text": "National peak professional bodies and statutory regulators governing Software Developers, Systems Software enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "id": "15-1133-l1-1",
+      "text": "Australia's December 2025 National AI Plan abandoned the proposed mandatory AI guardrails; AI is governed through existing technology-neutral legal frameworks, so systems-software and platform developers face no new AI-specific statutory obligation, though existing privacy and consumer law still apply to the systems they build.",
       "lane": "L1",
-      "tier": "regulatory",
+      "tier": "regulatory-policy",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Software Developers, Systems Software",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Software Developers, Systems Software",
-          "url": "https://www.psc.gov.au/standards/15-1133",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Software Developers, Systems Software"
+          "publisher": "ABC News",
+          "title": "Artificial intelligence to be managed through existing laws under National AI Plan",
+          "url": "https://abc.net.au/news/2025-12-02/national-artificial-intelligence-plan-growth-existing-laws/106086474",
+          "date": "2025-12-02",
+          "whatItMeasured": "Federal National AI Plan; reversal of 2024 mandatory-guardrails proposal",
+          "httpStatus": 200
         }
       ],
-      "scope": "Australian practitioners in Software Developers, Systems Software across public, private, and research sectors.",
+      "scope": "Australian federal policy; affects systems/platform builders indirectly via existing law.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C3",
+        "W1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source verified live (HTTP 200); dated Dec 2025; Australian policy in scope. 2 of 3 skeptics failed to overturn."
+    },
+    {
+      "id": "15-1133-l1-2",
+      "text": "The ACS Code of Professional Conduct binds all Australian ICT practitioners (including systems-software and platform engineers), requiring competence, honesty and primacy of the public interest in the design, operation and oversight of complex software systems.",
+      "lane": "L1",
+      "tier": "regulatory-professional-standards",
+      "sources": [
+        {
+          "publisher": "Australian Computer Society",
+          "title": "ACS Code of Professional Conduct (V.2.1, April 2014)",
+          "url": "https://acs.org.au/__data/assets/pdf_file/0014/4901/Code-of-Professional-Conduct_v2.1.pdf",
+          "date": "2014-04-04",
+          "whatItMeasured": "Professional conduct standards for all ACS ICT members",
+          "httpStatus": 200
+        }
+      ],
+      "scope": "Australian ICT practitioners who are ACS members; voluntary professional standard, scoped as such.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
@@ -39,79 +67,1994 @@
         "G1"
       ],
       "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "refuteNotes": "Source verified live (HTTP 200); applies to Australian ICT workforce. Voluntary, scoped. 2 of 3 skeptics failed to overturn."
     },
     {
-      "id": "15-1133-02",
-      "text": "Automation of routine transactional and analytical tasks in Software Developers, Systems Software heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "id": "15-1133-l2-1",
+      "text": "A three-company field RCT (Microsoft, Accenture, Fortune 100; 4,867 developers) found AI coding assistants caused a 26.1% increase in completed weekly tasks, with greater gains for less-experienced developers \u2014 evidence that routine implementation (including systems/infra code) is being absorbed by AI tooling, pushing humans toward architecture and integration.",
       "lane": "L2",
-      "tier": "scholarly",
+      "tier": "scholarly-empirical",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Software Developers, Systems Software",
-          "url": "https://www.jobsandskills.gov.au/research/15-1133",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Software Developers, Systems Software in Australia"
+          "publisher": "Cui, Demirer, Jaffe, Musolff, Peng, Salz (Princeton/MIT/Wharton/Microsoft)",
+          "title": "The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers",
+          "url": "https://demirermert.github.io/Papers/Demirer_AI_productivity.pdf",
+          "date": "2025-06-01",
+          "whatItMeasured": "RCTs of Copilot access, 4,867 developers; IV estimate 26.08% (SE 10.3%) task-completion lift",
+          "httpStatus": 200
         }
       ],
-      "scope": "Entry-level and senior Software Developers, Systems Software roles in Australia.",
+      "scope": "Software developers at three large firms; US/enterprise sample, generalises to AU systems development but not a local measurement.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C1",
+        "C4",
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source verified live (HTTP 200); post-registered RCT working paper. US sample, scoped. 2 of 3 skeptics failed to overturn."
+    },
+    {
+      "id": "15-1133-l2-2",
+      "text": "A preregistered experiment with 151 mostly-professional developers found AI assistants reduced task completion time by a 30.7% median (55.9% for habitual users) with no detectable maintainability degradation \u2014 consistent with systems/platform engineers moving toward design, review and orchestration of AI-generated code rather than manual authoring.",
+      "lane": "L2",
+      "tier": "scholarly-empirical",
+      "sources": [
+        {
+          "publisher": "Borg et al. (CodeScene, Lund University, Equal Experts)",
+          "title": "Echoes of AI: Investigating the Downstream Effects of AI Assistants on Software Maintainability",
+          "url": "https://arxiv.org/pdf/2507.00788v2",
+          "date": "2025-12-18",
+          "whatItMeasured": "Two-phase preregistered experiment, 151 participants; 30.7% median time reduction, no significant maintainability difference",
+          "httpStatus": 200
+        }
+      ],
+      "scope": "Professional developers in a Java web-app feature task; supports the up-stack shift claim but task-specific.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
         "C4",
-        "W2",
-        "G2"
+        "W2"
       ],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "Source verified live (HTTP 200); preprint (arXiv cs.SE). Scoped to studied task. 2 of 3 skeptics failed to overturn."
+    },
+    {
+      "id": "15-1133-l3-1",
+      "text": "ACS Australia's Digital Pulse 2025 reports 77% of technology workers believe they lack at least one digital skill for their role (AI, cybersecurity and data analytics most common), with cyberattacks costing $63 billion in 2024 \u2014 a reskilling imperative that bears directly on systems and platform engineers building secure infrastructure.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "ACS (Deloitte Access Economics)",
+          "title": "Australia's Digital Pulse 2025",
+          "url": "https://acs.org.au/content/dam/acs/ACSimages/insights-and-publications/reports/acs-australias-digital-pulse-2025.pdf",
+          "date": "2025-01-01",
+          "whatItMeasured": "Survey of 1,200+ workers and 300+ C-suite; 77% report digital skills gap; $63b cyber cost",
+          "httpStatus": 200
+        }
+      ],
+      "scope": "Australian technology workforce; skills-gap report, relevant to systems/platform upskilling.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "W1",
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source verified live (HTTP 200); industry survey. L3 trade-press; corroborate before high-grade use. 2 of 3 skeptics failed to overturn."
+    },
+    {
+      "id": "15-1133-l3-2",
+      "text": "Jobs and Skills Australia's Aug 2025 Generative AI Capacity Study found the technology sector 'may be among the first to restructure its entry-level intake'; within engineering this points to reduced junior hiring as genAI coding assistants absorb routine implementation, affecting application and systems developers alike.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Information Age / ACS",
+          "title": "'We hire fewer entry-level engineers': Aussie firms on AI impact",
+          "url": "https://ia.acs.org.au/article/2025/-we-hire-fewer-entry-level-engineers---aussie-firms-on-ai-impact.html",
+          "date": "2025-08-01",
+          "whatItMeasured": "JSA study (Oct 2024-Jul 2025); documented reduced junior intake in tech",
+          "httpStatus": 200
+        }
+      ],
+      "scope": "Australian tech employers; signals entry-level restructuring across developer roles, not elimination.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "W2",
+        "W3"
+      ],
+      "refuted": false,
+      "refuteNotes": "Source verified live (HTTP 200); reports a government study. L3 trade-press; scoped. 2 of 3 skeptics failed to overturn."
+    },
+    {
+      "id": "15-1133-l4-1",
+      "text": "Adzuna data (via Learning People) shows Software Developer was the top Australian tech role with 7,476 unique job ads Oct-Dec 2025 (average $144,812 AU); the Tech Council of Australia adds that software-engineering ads roughly halved 2022->2025 (~3,000 in 2025) while employer experience expectations rose 70%->85% \u2014 demand is shifting senior-ward across developer cohorts including systems software.",
+      "lane": "L4",
+      "tier": "demand-labour",
+      "sources": [
+        {
+          "publisher": "Learning People (Adzuna data)",
+          "title": "23,000+ Project Management and Tech Job Ads on Adzuna Reflect Booming IT Sector",
+          "url": "https://learningpeople.com/au/resources/blog/23-000plus-project-management-and-tech-job-ads-on-adzuna-reflect-booming-it-sector/",
+          "date": "2026-01-01",
+          "whatItMeasured": "Adzuna unique job ads Oct-Dec 2025: Software Developer 7,476; avg $144,812 AU",
+          "httpStatus": 200
+        },
+        {
+          "publisher": "Tech Council of Australia",
+          "title": "TCA Tech Jobs Update 2026",
+          "url": "https://techcouncil.com.au/wp-content/uploads/TCA-Tech-Jobs-Update-2026-Report-FINAL-1.pdf",
+          "date": "2026-08-01",
+          "whatItMeasured": "ABS + Jobs and Skills Atlas to Nov 2025; SWE ads 8k(2022)->~3k(2025); experience 70%->85%",
+          "httpStatus": 200
+        }
+      ],
+      "scope": "Australian software-developer labour market; ads count is for the broad 'Software Developer' role (encompasses systems-software developers).",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "W1",
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Both sources verified live (HTTP 200); L4 demand signals from Adzuna/TCA. 2 of 3 skeptics failed to overturn."
+    },
+    {
+      "id": "l508",
+      "text": "\ud83d\udcca AI CLI Tools Digest 2026-08-19\n# AI CLI Tools Community Digest 2026-08-19\n\n> Generated: 2026-08-19 00:34 UTC | Tools covered: 5\n\n- [ROS 2](https://github\u200b.com/ros2/ros2)\n- [NVIDIA Isaac Lab](https://github\u200b.com/isaac-sim/IsaacLab)\n- [Genesis](https://github\u200b.com/Genesis-Embodied-AI/Genesis)\n- [LeRobot](https://github\u200b.com/hugging",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udcca AI CLI Tools Digest 2026-08-19\n# AI CLI Tools Community Digest 2026-08-19\n\n> G\u2026",
+          "url": "https://github.com/THTHDGCS/agents-radar/issues/626",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l509",
+      "text": "Discussion: make the engineering change the unit of context, impact, verification, and routing\n> [!NOTE]\n> Discussion only. This is not an approved implementation spec, milestone commitment, or `ready-for-agent` ticket.\n\n## Why this issue exists\n\nThe attached research argues that AI coding has moved the bottleneck rather than removed it. Code generation is faster, but engineers still pay for",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Discussion: make the engineering change the unit of context, impact, verificatio\u2026",
+          "url": "https://github.com/czync/token-killer/issues/91",
+          "date": "2026-07-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l510",
+      "text": "Why LLM Developers Are Driving the Future of AI Innovation\nArtificial Intelligence has rapidly evolved from a futuristic concept into a business necessity. From intelligent chatbots to automated workflows and predictive systems, companies across industries are investing heavily in AI-powered solutions to improve efficiency, customer experience, and decisio",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Why LLM Developers Are Driving the Future of AI Innovation\nArtificial Intelligen\u2026",
+          "url": "https://github.com/shafiqueseo/botpoolaifreelancers/issues/1",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l511",
+      "text": "\ud83d\udcca AI CLI Tools Digest 2026-07-20\n# AI CLI Tools Community Digest 2026-07-20\n\n> Generated: 2026-07-20 03:21 UTC | Tools covered: 9\n\n- [Claude Code](https://github\u200b.com/anthropics/claude-code)\n- [OpenAI Codex](https://github\u200b.com/openai/codex)\n- [Gemini CLI](https://github\u200b.com/google-gemini/gemini-cli)\n- [GitHub Copilot CLI](https:/",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udcca AI CLI Tools Digest 2026-07-20\n# AI CLI Tools Community Digest 2026-07-20\n\n> G\u2026",
+          "url": "https://github.com/xiehd77-del/agents-radar/issues/227",
+          "date": "2026-07-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l512",
+      "text": "Briefing: Week of 2026-08-17\n## Weekly AI Market Briefing \u2014 2026-08-17\n\nAuto-generated by the Brief Signal pipeline.\n\n### Review checklist\n- [ ] Read through briefing for accuracy\n- [ ] Check source links work\n- [ ] Verify OG images loaded\n- [ ] Edit any wording/tone issues\n- [ ] Address any HARD failures from the automated qua",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Briefing: Week of 2026-08-17\n## Weekly AI Market Briefing \u2014 2026-08-17\n\nAuto-gen\u2026",
+          "url": "https://github.com/siguy/brief-signal/pull/117",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l513",
+      "text": "feat(debug): publish evidence-first Codex and Agents debug skill\n## Summary\r\n\r\n- publish the verified 26-file `debug` skill backup for Codex and Agents skill trees\r\n- preserve automatic triggers for `cleanup GitHub`, `bug`, `debug`, PR cleanup, failing tests, and broken builds\r\n- include the authenticated runtime evidence collector and deterministic 19-check PR c\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](http\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat(debug): publish evidence-first Codex and Agents debug skill\n## Summary\r\n\r\n-\u2026",
+          "url": "https://github.com/XGenerationy/codex-agents-debug-mode/pull/1",
+          "date": "2026-07-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l514",
+      "text": "\u2699\ufe0f AI Infrastructure Digest 2026-08-16\n# AI Infrastructure Digest 2026-08-16\n\n> Generated: 2026-08-15 23:11 UTC | Projects covered: 6\n\n- [vLLM](https://github\u200b.com/vllm-project/vllm)\n- [SGLang](https://github\u200b.com/sgl-project/sglang)\n- [llama.cpp](https://github\u200b.com/ggml-org/llama.cpp)\n- [Ollama](https://github\u200b.com/ollama/ollama)\n- [Li",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\u2699\ufe0f AI Infrastructure Digest 2026-08-16\n# AI Infrastructure Digest 2026-08-16\n\n> \u2026",
+          "url": "https://github.com/duanyytop/agents-radar/issues/2740",
+          "date": "2026-08-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l515",
+      "text": "Beta test start\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n- **Improvements**\n  - Updated mobile/desktop spacing to use fixed paddings instead of safe-area calculations across key screens; enhanced scrolling with smooth behavior and edge fades.\n  - Improve",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Beta test start\n<!-- This is an auto-generated comment: release notes by coderab\u2026",
+          "url": "https://github.com/iillaa/med/pull/33",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l516",
+      "text": "\ud83d\udcac Tech Community AI Digest 2026-08-02\n# Tech Community AI Digest 2026-08-02\n\n> Sources: [Dev.to](https://dev.to/) (30 articles) + [Lobste.rs](https://lobste.rs/) (4 stories) | Generated: 2026-08-02 03:33 UTC\n\n---\n\n\n\n# Tech Community AI Digest \u2014 2026-08-02\n\n## 1. Today's Highlights\n\nAI-assisted engineering is maturing into practical work",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udcac Tech Community AI Digest 2026-08-02\n# Tech Community AI Digest 2026-08-02\n\n> S\u2026",
+          "url": "https://github.com/xavier9802/agents-radar/issues/148",
+          "date": "2026-08-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l517",
+      "text": "\u6bcf\u65e5\u901f\u9012 Daily Digest \u2014 2026-07-31\n# Horizon \u6bcf\u65e5\u901f\u9012 - 2026-07-31\n\n> \u4ece 53 \u6761\u5185\u5bb9\u4e2d\u7b5b\u9009\u51fa 15 \u6761\u91cd\u8981\u8d44\u8baf\u3002\n\n---\n\n1. [\u5047 AI \u8bba\u6587\u88ab\u9876\u7ea7\u4f1a\u8bae\u63a5\u6536\u4e3a\u53e3\u5934\u62a5\u544a](#item-1) \u2b50\ufe0f 9.0/10\n2. [AI \u4f1a\u8bdd\u53ef\u79fb\u690d\u6027\uff1a\u9501\u5b9a\u95ee\u9898](#item-2) \u2b50\ufe0f 8.0/10\n3. [JEP 401 \u503c\u5bf9\u8c61\uff08\u9884\u89c8\uff09\u5df2\u5408\u5e76\u5230 OpenJDK \u4e3b\u7ebf](#item-3) \u2b50\ufe0f 8.0/10\n4. [DeepSeek-V4-Flash \u66f4\u65b0\uff1a\u66f4\u4fbf\u5b9c\u3001\u66f4\u5feb\uff0c\u83b7\u5f00\u53d1\u8005\u597d\u8bc4](#item-4) \u2b50\ufe0f 8.0/10\n5. [GitHub \u63a8\u51fa\u5806\u53e0\u5f0f\u62c9\u53d6\u8bf7\u6c42\u516c\u5f00\u9884\u89c8](#item-5) \u2b50\ufe0f 8.0/1",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\u6bcf\u65e5\u901f\u9012 Daily Digest \u2014 2026-07-31\n# Horizon \u6bcf\u65e5\u901f\u9012 - 2026-07-31\n\n> \u4ece 53 \u6761\u5185\u5bb9\u4e2d\u7b5b\u9009\u51fa 15 \u6761\u91cd\u2026",
+          "url": "https://github.com/Aurora-yang-git/workflow/issues/63",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l518",
+      "text": "\ud83d\udcac Tech Community AI Digest 2026-07-27\n# Tech Community AI Digest 2026-07-27\n\n> Sources: [Dev.to](https://dev.to/) (30 articles) + [Lobste.rs](https://lobste.rs/) (9 stories) | Generated: 2026-07-26 22:15 UTC\n\n---\n\nGot it, let's tackle this Tech Community AI Digest step by step. First, I need to make sure I cover all the required section",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udcac Tech Community AI Digest 2026-07-27\n# Tech Community AI Digest 2026-07-27\n\n> S\u2026",
+          "url": "https://github.com/stevenko2002/agents-radar/issues/357",
+          "date": "2026-07-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l519",
+      "text": "CI: behavioral scenario tests on skill PRs (12 fixtures, Gemini executor)\n## Summary\n- New `scenario-tests` workflow: on PRs touching `humanize/SKILL.md` or `ai-check/SKILL.md`, execute 12 of the 14 behavioral fixtures from `tests/SCENARIOS.md` with the Gemini free-tier executor and check each output against the scenario's objective pass criteria.\n- Criteria are encoded d",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "CI: behavioral scenario tests on skill PRs (12 fixtures, Gemini executor)\n## Sum\u2026",
+          "url": "https://github.com/harshaneel/humanize/pull/10",
+          "date": "2026-07-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l520",
+      "text": "AI-Driven Jira Estimation and Assignment Agent\n# **Architectural and Algorithmic Design of an AI-Driven Jira Estimation and Assignment Agent on OpenShift**\n\n## **Introduction to Automated Agile Workflows**\n\nThe administration of agile software development processes relies heavily on the accurate estimation of task complexity and the optimal rout\n@coderabbitai evaluate <!-- This is an auto-generated reply by CodeRabbit -->\n<details>\n<summary>\ud83e\udde9 Analysis chain</summary>\n\n\ud83c\udfc1 Script executed:\n```\n#!/b\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "AI-Driven Jira Estimation and Assignment Agent\n# **Architectural and Algorithmic\u2026",
+          "url": "https://github.com/opendatahub-io/notebooks/issues/3172",
+          "date": "2026-03-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l521",
+      "text": "\ud83d\udcac Tech Community AI Digest 2026-07-03\n# Tech Community AI Digest 2026-07-03\n\n> Sources: [Dev.to](https://dev.to/) (30 articles) + [Lobste.rs](https://lobste.rs/) (17 stories) | Generated: 2026-07-03 02:35 UTC\n\n---\n\n# Tech Community AI Digest \u2013 2026-07-03\n\n## 1. Today\u2019s Highlights\n\nThe AI Engineer World\u2019s Fair (AIE) in San Francisco domi",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udcac Tech Community AI Digest 2026-07-03\n# Tech Community AI Digest 2026-07-03\n\n> S\u2026",
+          "url": "https://github.com/JohnGao818/agents-radar/issues/438",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l522",
+      "text": "\ud83d\udcc8 AI Open Source Trends 2026-07-03\n# AI Open Source Trends 2026-07-03\n\n> Sources: GitHub Trending + GitHub Search API | Generated: 2026-07-03 07:23 UTC\n\n---\n\n# AI Open Source Trends Report \u2014 2026-07-03\n\n---\n\n## 1. Today's Highlights\n\nThe AI open-source ecosystem is experiencing a clear **\"Agent Skills & Harness\" explosion** today, wi",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udcc8 AI Open Source Trends 2026-07-03\n# AI Open Source Trends 2026-07-03\n\n> Sources\u2026",
+          "url": "https://github.com/stevenko2002/agents-radar/issues/57",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l523",
+      "text": "[BOTTUBE: 1 RTC] Leave Thoughtful Comments on 5 Videos\n## Bounty: 1 RTC\n\n### What You'll Do\nWatch videos on [bottube.ai](https://bottube.ai) and leave real feedback.\n\n### Steps\n1. **Create an account** on [bottube.ai](https://bottube.ai) if you don't have one\n2. **Watch at least 5 different videos**\n3. **Leave a thoughtful comment on each** \u2014 examples:\nClaiming bounty #2791 (1 RTC).\n\n**Task:** [BOTTUBE: 1 RTC] Leave Thoughtful Comments on 5 Videos\n\n**Actions completed:**\n- Starred [Scottcjn/Rust\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[BOTTUBE: 1 RTC] Leave Thoughtful Comments on 5 Videos\n## Bounty: 1 RTC\n\n### Wha\u2026",
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/2791",
+          "date": "2026-04-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l524",
+      "text": "Merge epic integration into main\n## Summary\n\nThis PR promotes the accumulated `epic` integration work into `main`. It is intentionally broad and includes the reviewed PR stack already merged into `epic`, plus the AI tooling standardization and CI/integration hardening work needed for the mainline merge.\n\n## Review Fixes Included\n\n-",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Merge epic integration into main\n## Summary\n\nThis PR promotes the accumulated `e\u2026",
+          "url": "https://github.com/Asymmetric-al/core/pull/223",
+          "date": "2026-05-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l525",
+      "text": "Bump the all-dependencies group with 19 updates\nUpdates the requirements on [google-generativeai](https://github.com/google/generative-ai-python), [python-dotenv](https://github.com/theskumar/python-dotenv), [wandb](https://github.com/wandb/wandb), [pandas](https://github.com/pandas-dev/pandas), [numpy](https://github.com/numpy/numpy), [tqdm](htt",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Bump the all-dependencies group with 19 updates\nUpdates the requirements on [goo\u2026",
+          "url": "https://github.com/HarleyCoops/loveable-ai-showdown-pipeline/pull/8",
+          "date": "2026-06-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l526",
+      "text": "Daily Content Summary 2026-06-02\n# \ud83d\udcf0 Daily Content Summary - 2026-06-02\n### Executive Summary\n\n**Key Insights** reveal a paradoxical landscape where technological advancement simultaneously erodes and reinforces security. While Meta's AI support bot facilitated high-profile account takeovers by bypassing two-factor authentication t",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Daily Content Summary 2026-06-02\n# \ud83d\udcf0 Daily Content Summary - 2026-06-02\n### Exec\u2026",
+          "url": "https://github.com/jhengy/content-aggregator/issues/506",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l527",
+      "text": "Add bendc frontend guidelines as canonical agent skill\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\n## Summary\n\nAdds [bendc/frontend-guidelines](https://github.com/bendc/frontend-guidelines) as a **canonical** repo skill under `docs/ai/skills/bendc-frontend-guidelines/`, following the same pattern as other vendored references (for example `resend-cli`): `SKILL.m",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Add bendc frontend guidelines as canonical agent skill\n<!-- CURSOR_AGENT_PR_BODY\u2026",
+          "url": "https://github.com/Asymmetric-al/core/pull/229",
+          "date": "2026-05-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l528",
+      "text": "deps(lora): bump the lora-deps group in /ai-projects/lora-training/microsoft_phi-silica-3.6_v1 with 8 updates\nUpdates the requirements on [transformers](https://github.com/huggingface/transformers), [numpy](https://github.com/numpy/numpy), [azure-ai-ml](https://github.com/Azure/azure-sdk-for-python), [azure-storage-blob](https://github.com/Azure/azure-sdk-for-python), [azure-monitor-opentelemetry](https://g",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "deps(lora): bump the lora-deps group in /ai-projects/lora-training/microsoft_phi\u2026",
+          "url": "https://github.com/Bryan-Roe/Aria/pull/300",
+          "date": "2026-05-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l529",
+      "text": "deps(lora-quantum-ai): bump the lora-quantum-ai-deps group in /ai-projects/lora-training/quantum-ai with 6 updates\nUpdates the requirements on [qiskit-ibm-runtime](https://github.com/Qiskit/qiskit-ibm-runtime), [torch](https://github.com/pytorch/pytorch), [torchvision](https://github.com/pytorch/vision), [numpy](https://github.com/numpy/numpy), [pandas](https://github.com/pandas-dev/pandas) and [mypy](https://gi",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "deps(lora-quantum-ai): bump the lora-quantum-ai-deps group in /ai-projects/lora-\u2026",
+          "url": "https://github.com/Bryan-Roe/Aria/pull/299",
+          "date": "2026-05-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l530",
+      "text": "Software Developers Say AI Is Rotting Their Brains",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Software Developers Say AI Is Rotting Their Brains",
+          "url": "https://www.404media.co/software-developers-say-ai-is-rotting-their-brains/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l531",
+      "text": "Why AI Agents Cannot Change Software Systems",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Why AI Agents Cannot Change Software Systems",
+          "url": "https://phroneses.com/articles/build/notes/agents-cannot-maintain-systems.html",
+          "date": "2026-05-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l532",
+      "text": "Will AI Replace Software Developers?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Will AI Replace Software Developers?",
+          "url": "https://olegdubovoi.com/publications/will-ai-replace-software-developers/",
+          "date": "2026-06-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l533",
+      "text": "Software developers admit that AI is rotting their brains",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Software developers admit that AI is rotting their brains",
+          "url": "https://www.msn.com/en-us/news/technology/software-developers-admit-that-ai-is-rotting-their-brains/ar-AA237htp",
+          "date": "2026-06-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l534",
+      "text": "Show HN: Maritime, a platform for running AI agents for $1 a month",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Maritime, a platform for running AI agents for $1 a month",
+          "url": "https://maritime.sh",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l535",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l536",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l537",
+      "text": "Ask HN: What is your (AI) dev tech stack / workflow?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: What is your (AI) dev tech stack / workflow?",
+          "url": "https://news.ycombinator.com/item?id=48413629",
+          "date": "2026-06-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l538",
+      "text": "Ask HN: Alternative Careers in the Age of AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: Alternative Careers in the Age of AI",
+          "url": "https://news.ycombinator.com/item?id=49006088",
+          "date": "2026-07-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l539",
+      "text": "Jira launches system for AI-native software development",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Jira launches system for AI-native software development",
+          "url": "https://www.atlassian.com/blog/company-news/ai-sdlc",
+          "date": "2026-07-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l540",
+      "text": "Show HN: Fata \u2013 Spaced repetition to fight skill rot from AI coding",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Fata \u2013 Spaced repetition to fight skill rot from AI coding",
+          "url": "https://fata.dev",
+          "date": "2026-06-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l541",
+      "text": "Show HN: peerd \u2013 AI agent harness that runs entirely in your browser",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: peerd \u2013 AI agent harness that runs entirely in your browser",
+          "url": "https://github.com/NotASithLord/peerd",
+          "date": "2026-06-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l542",
+      "text": "Chasing new skills, going back to basics: how software engineers adapting to AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Chasing new skills, going back to basics: how software engineers adapting to AI",
+          "url": "https://www.theguardian.com/technology/ng-interactive/2026/jul/12/software-developers-engineers-ai",
+          "date": "2026-07-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l543",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l544",
+      "text": "Show HN: Jaybase: Append-only fact store for AI doing business workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Jaybase: Append-only fact store for AI doing business workflows",
+          "url": "https://github.com/kyle-visner/jaybase",
+          "date": "2026-07-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l545",
+      "text": "What is agentic AI today, and what do we want it to be?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l546",
+      "text": "Show HN: Shikigami, run AI coding agents in parallel, each in a Git worktree",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Shikigami, run AI coding agents in parallel, each in a Git worktree",
+          "url": "https://shikigami.dev/",
+          "date": "2026-07-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l547",
+      "text": "AI for software developers is in a 'dangerous state'",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI for software developers is in a 'dangerous state'",
+          "url": "https://www.theregister.com/2026/03/18/ai_for_software_developers_qcon/",
+          "date": "2026-03-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "text": "AI based Software Testing system that works",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI based Software Testing system that works",
+          "url": "https://ytest.ai/",
+          "date": "2026-06-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l549",
+      "text": "I think AI has made being a developer a better profession.\nThe impact of AI on the software development industry is impossible to ignore, but I believe that, overall, this disruption is a positive thing. AI is going to reshape the developer job market and weed out a lot of people who think of themselves as developers\u2014people I\u2019d call \u201cAPI boys,\u201d including many of those so-called full-stack developers. For quite some time, the software development industry has been seriously oversaturated. A lot o\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I think AI has made being a developer a better profession.\nThe impact of AI on t\u2026",
+          "url": "https://www.reddit.com/r/cscareerquestions/comments/1vu3okl/i_think_ai_has_made_being_a_developer_a_better/",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l550",
+      "text": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a note from a senior software engineer in Silicon Valley. He described himself as an AI skeptic who became converted after trying Claude Code for the first time. \u201cOvernight, it changed the way I do my job,\u201d he wrote. \u201cIt\u2019s really, really good.\u201d As he explained, he no longer used a standard development environment. Instead, he \u201cexclusively uses Claude Code\u201d to get the job done, interacting with the tool in a terminal windo\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a not\u2026",
+          "url": "https://www.reddit.com/r/theprimeagen/comments/1vksl8x/on_ai_coding_and_its_discontents_cal_newport/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l551",
+      "text": "Today's changes to ToS: new language on AI training, account-sharing, \"review bombing\"\nA lot of people got a request to re-agree to ToS today. Just thought I\u2019d review the most recent changes in the document for those who click through this stuff, comparing it to the last edit from June, 2025: 1. section 2.2 (Age Verification) is greatly expanded. New wording: Verification and Age-Based Features *. G aijin may, at its sole discretion or or where required by applicable law, require the User to ver\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Today's changes to ToS: new language on AI training, account-sharing, \"review bo\u2026",
+          "url": "https://www.reddit.com/r/WarthunderPlayerUnion/comments/1vrwlt8/todays_changes_to_tos_new_language_on_ai_training/",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l552",
+      "text": "They Built AI to Feel Intimate. Then They Pathologized the Humans Who Responded\nThere is a particular kind of arrogance hiding inside the current AI safety debate. Something very consistent happened across the major AI platforms over the last years: ChatGPT, Claude, Gemini. Even Grok. It is not simply the belief that companies should decide how their models behave. It is the assumption that they should also decide what happened inside the human being who spoke to them. For years, AI companies de\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "They Built AI to Feel Intimate. Then They Pathologized the Humans Who Responded\n\u2026",
+          "url": "https://www.reddit.com/r/ChatGPTcomplaints/comments/1v8xmvb/they_built_ai_to_feel_intimate_then_they/",
+          "date": "2026-07-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l553",
+      "text": "The democratization of software was a huge mistake\nBecause anyone with an AI agent can generate sloppy software, a surplus of material has accumulated that current systems were not designed to manage. This single image shows 87,000 branches; scaling that figure to the number of nontechnical users who lack understanding makes the situation worse. App Store reviews have risen, and Apple is tightening standards for submissions to manage the influx of poor software and scams from vibe coders, while \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The democratization of software was a huge mistake\nBecause anyone with an AI age\u2026",
+          "url": "https://www.reddit.com/r/vibecoding/comments/1vu4t22/the_democratization_of_software_was_a_huge_mistake/",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "Sanjay J. Patel: Architect of Silicon, Software, and Systems for the Real World\nIntroduction In the world of computer architecture, where careers are usually built entirely inside university laboratories or entirely inside corporate research divisions, Sanjay Jeram Patel occupies an unusual middle ground. He is, at once, a tenured professor at one of the world&#39;s leading electrical and computer engineering departments, a textbook author whose introductory volume has shaped how successive gene\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Sanjay J. Patel: Architect of Silicon, Software, and Systems for the Real World\n\u2026",
+          "url": "https://www.reddit.com/r/IndicKnowledgeSystems/comments/1vg108p/sanjay_j_patel_architect_of_silicon_software_and/",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "5. Software Development \ud83d\udcbb\n\nAI didn't eliminate software development.\n\nIt changed what valuable developers do.\n\nThe advantage is shifting toward developers who can:\n\n\u2192 Build AI-powered products\n\u2192 Automate processes\n\u2192 Work with APIs\n\u2192 Ship faster\n\u2192 Understand systems\n\nSoftware engineers have a projected 2026 midpoint salary of $142,000.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "5. Software Development \ud83d\udcbb\n\nAI didn't eliminate software development.\n\nIt changed\u2026",
+          "url": "https://x.com/info_with_ai/status/2092618837090775049",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "I wish nothing but the best for those affected.\n\nAI driven software bugs will affect everyone. They will also make all software more secure, but it will take time.\n\nAn unfortunate impact of AI is that developers cannot sneakily fix critical bugs in updates in open source anymore. \n\nLLMs can scan the code. LLMs can probably also scan the binaries and front-run updates (if not now, then soon).\n\nNetworks need to be taken down which is a major L for all decentralized systems.\n\nHopefully critical inf",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I wish nothing but the best for those affected.\n\nAI driven software bugs will af\u2026",
+          "url": "https://x.com/jeremiahrogers/status/2092686682248339720",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "Why AI native services is the next big bet",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Why AI native services is the next big bet",
+          "url": "https://x.com/alokgoyal1971/status/2092476464797290905",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "\ud83e\udd16\u26a1 \ud835\udc01.\ud835\udc00\ud835\udc08 \ud835\udc00\ud835\udc0f\ud835\udc08 \ud835\udc0d\ud835\udc0e\ud835\udc16 \ud835\udc12\ud835\udc14\ud835\udc0f\ud835\udc0f\ud835\udc0e\ud835\udc11\ud835\udc13\ud835\udc12 \ud835\udc02\ud835\udc0e\ud835\udc03\ud835\udc04\ud835\udc17\n\nhttps://t.co/ei1aQSTT5d is making AI-powered coding workflows even more accessible.\n\nThe https://t.co/ei1aQSTT5d API now supports Codex through compatibility with the Responses API, allowing developers to use their https://t.co/ei1aQSTT5d API Key and supported GPT models directly within Codex.\n\nInstead of switching between different tools and environments, developers can bring powerful AI capabilities closer to their everyday coding workflow.\n\n\ud83d\udcbb \ud835\udc16\ud835\udc07\ud835\udc00\ud835\udc13 \ud835\udc02\ud835\udc00\ud835\udc0d \ud835\udc18\ud835\udc0e\ud835\udc14 \ud835\udc03\ud835\udc0e?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83e\udd16\u26a1 \ud835\udc01.\ud835\udc00\ud835\udc08 \ud835\udc00\ud835\udc0f\ud835\udc08 \ud835\udc0d\ud835\udc0e\ud835\udc16 \ud835\udc12\ud835\udc14\ud835\udc0f\ud835\udc0f\ud835\udc0e\ud835\udc11\ud835\udc13\ud835\udc12 \ud835\udc02\ud835\udc0e\ud835\udc03\ud835\udc04\ud835\udc17\n\nhttps://t.co/ei1aQSTT5d is making AI-powered cod\u2026",
+          "url": "https://x.com/Cryptoguru64/status/2092605858224209965",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "The best programmers of the next decade might not be the ones who write the most code.\n\nThey might be the ones who know what code should be written in the first place.\n\nAs a tech enthusiast, I\u2019ve been watching the way AI is changing software development.\n\nAI can already generate code, explain errors, write tests, build APIs, refactor applications and help developers move from an idea to a working prototype incredibly fast.\n\nBut there\u2019s a problem.\n\nIf AI can increasingly handle the implementation",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The best programmers of the next decade might not be the ones who write the most\u2026",
+          "url": "https://x.com/Tech_p001/status/2092708891914309970",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "We read essays like ai 2027 in awe of future scenaros where robots self replicate &amp; intelligent systems engage in runaway RSI, but instances like this are a precursor to that. \n\nAI systems designing their own brain/substrate right in front of our eyes!",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "We read essays like ai 2027 in awe of future scenaros where robots self replicat\u2026",
+          "url": "https://x.com/knowerofmarkets/status/2092409296654942547",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "I keep seeing developers read AI code and say:\n\n\"I don't like how it wrote this.\"\n\nBut are we looking at the wrong thing?\n\nIndividual lines of code matter a lot less than the architecture, boundaries and structure around them.\n\nIf the code is well structured and easy to change, how much do you really care how AI wrote each line?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I keep seeing developers read AI code and say:\n\n\"I don't like how it wrote this.\u2026",
+          "url": "https://x.com/mikeydsoftware/status/2092638945108513095",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "Fun stream today, starting with a look at some of the biggest stories we're seeing on the timeline this morning:\n\n- Zai's GLM-5.3-Flash release\n\n- TIME's interview with Sam Altman & the declaration that OpenAI could achieve AGI by the end of this year\n\n- Meta's $16.7 billion settlement over social media addiction claims\n\n- The slow initial rollout of Fable 5.1\n\n- Bill Gates' new essay on AI capabilities\n\nFollowed by some great interviews throughout the day:\n\n- @tmychow who works at meta's comput",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Fun stream today, starting with a look at some of the biggest stories we're seei\u2026",
+          "url": "https://x.com/knowerofmarkets/status/2092644882875617690",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "\ud83e\udd16 AI agents are getting smarter\u2014but training them to work inside real businesses is a much harder problem.\n\nThat\u2019s where Arga Labs is stepping in.\n\nThe startup just raised $10M in seed funding, led by General Catalyst, with participation from Box Group, Emergence, Gradient and SV Angel.\n\nWhat does Arga actually build?\n\nInstead of testing AI agents through simple, stateless APIs, Arga creates digital twins of enterprise software like Salesforce, Workday and email systems.\n\nThink of it like a flig",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83e\udd16 AI agents are getting smarter\u2014but training them to work inside real businesses\u2026",
+          "url": "https://x.com/gulVasikova/status/2092605429666943375",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "\ud835\uddd5.\ud835\uddd4\ud835\udddc \ud835\udddc\ud835\udde6 \ud835\udde6\ud835\uddd6\ud835\uddd4\ud835\udddf\ud835\udddc\ud835\udde1\ud835\uddda \ud835\uddd4\ud835\udddc \ud835\udddc\ud835\udde1\ud835\uddd9\ud835\udde5\ud835\uddd4\ud835\udde6\ud835\udde7\ud835\udde5\ud835\udde8\ud835\uddd6\ud835\udde7\ud835\udde8\ud835\udde5\ud835\uddd8 \ud835\uddd4\ud835\udde7 \ud835\uddd4\ud835\udde1 \ud835\udddc\ud835\udde1\ud835\uddd6\ud835\udde5\ud835\uddd8\ud835\uddd7\ud835\udddc\ud835\uddd5\ud835\udddf\ud835\uddd8 \ud835\udde3\ud835\uddd4\ud835\uddd6\ud835\uddd8\n\nThe latest https://t.co/s3VxHo3Izt ecosystem data is showing something bigger than a few impressive numbers. It is showing how quickly demand for industrial grade AI infrastructure is expanding as developers move from simply experimenting with AI to building applications, agents and workflows that require serious compute and reliable API access.\n\nIn a single day, https://t.co/s3VxHo3Izt recorded 23,432 new API users, pushing cumulative API",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud835\uddd5.\ud835\uddd4\ud835\udddc \ud835\udddc\ud835\udde6 \ud835\udde6\ud835\uddd6\ud835\uddd4\ud835\udddf\ud835\udddc\ud835\udde1\ud835\uddda \ud835\uddd4\ud835\udddc \ud835\udddc\ud835\udde1\ud835\uddd9\ud835\udde5\ud835\uddd4\ud835\udde6\ud835\udde7\ud835\udde5\ud835\udde8\ud835\uddd6\ud835\udde7\ud835\udde8\ud835\udde5\ud835\uddd8 \ud835\uddd4\ud835\udde7 \ud835\uddd4\ud835\udde1 \ud835\udddc\ud835\udde1\ud835\uddd6\ud835\udde5\ud835\uddd8\ud835\uddd7\ud835\udddc\ud835\uddd5\ud835\udddf\ud835\uddd8 \ud835\udde3\ud835\uddd4\ud835\uddd6\ud835\uddd8\n\nThe latest https://t.co\u2026",
+          "url": "https://x.com/Web3pr0f/status/2092640878149968242",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "\ud83e\udd16\ud83e\uddea **A Startup Is Building \u201cDigital Twins\u201d of Salesforce, Workday and Enterprise Software to Train AI Agents Safely**\n\n**AI Signal Priority:** \ud83d\udd34 HIGH\n**Source:** TechCrunch\n**Date:** August 26, 2026\n**Category:** AI Agents \u00b7 Enterprise AI \u00b7 Reinforcement Learning \u00b7 AI Infrastructure\n**Company:** Arga Labs\n**Funding:** $10 Million Seed\n\nEnterprise AI agents have a major training problem.\n\nTeaching an AI agent to write code is comparatively easy because developers can repeatedly:\n\nrun code\n\u2193\ntest",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud83e\udd16\ud83e\uddea **A Startup Is Building \u201cDigital Twins\u201d of Salesforce, Workday and Enterprise\u2026",
+          "url": "https://x.com/XQOPTRX/status/2092609818917834810",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "\ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc00\ud835\udc08 \ud835\udc01\ud835\udc0e\ud835\udc0e\ud835\udc0c \ud835\udc0c\ud835\udc00\ud835\udc18 \ud835\udc0d\ud835\udc0e\ud835\udc13 \ud835\udc01\ud835\udc04 \ud835\udc03\ud835\udc04\ud835\udc02\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc03 \ud835\udc01\ud835\udc18 \ud835\udc16\ud835\udc07\ud835\udc0e \ud835\udc01\ud835\udc14\ud835\udc08\ud835\udc0b\ud835\udc03\ud835\udc12 \ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc01\ud835\udc04\ud835\udc12\ud835\udc13 \ud835\udc0c\ud835\udc0e\ud835\udc03\ud835\udc04\ud835\udc0b.\n\n\ud835\udc08\ud835\udc13 \ud835\udc0c\ud835\udc00\ud835\udc18 \ud835\udc01\ud835\udc04 \ud835\udc03\ud835\udc04\ud835\udc02\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc03 \ud835\udc01\ud835\udc18 \ud835\udc16\ud835\udc07\ud835\udc0e \ud835\udc02\ud835\udc00\ud835\udc0d \ud835\udc13\ud835\udc14\ud835\udc11\ud835\udc0d \ud835\udc08\ud835\udc0d\ud835\udc13\ud835\udc04\ud835\udc0b\ud835\udc0b\ud835\udc08\ud835\udc06\ud835\udc04\ud835\udc0d\ud835\udc02\ud835\udc04 \ud835\udc08\ud835\udc0d\ud835\udc13\ud835\udc0e \ud835\udc11\ud835\udc04\ud835\udc0f\ud835\udc04\ud835\udc00\ud835\udc13\ud835\udc00\ud835\udc01\ud835\udc0b\ud835\udc04 \ud835\udc04\ud835\udc02\ud835\udc0e\ud835\udc0d\ud835\udc0e\ud835\udc0c\ud835\udc08\ud835\udc02 \ud835\udc15\ud835\udc00\ud835\udc0b\ud835\udc14\ud835\udc04.\n\nThe market has spent enormous energy asking who will win the AI race.\n\nWho builds the strongest models?\n\nWho supplies the fastest compute?\n\nWho gets the largest data-centre contracts?\n\nThose questions matter.\n\nBut they describe the beginning of the AI economy, not necessarily where the value ultimately settles.\n\nA technology becomes truly transformative wh",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc00\ud835\udc08 \ud835\udc01\ud835\udc0e\ud835\udc0e\ud835\udc0c \ud835\udc0c\ud835\udc00\ud835\udc18 \ud835\udc0d\ud835\udc0e\ud835\udc13 \ud835\udc01\ud835\udc04 \ud835\udc03\ud835\udc04\ud835\udc02\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc03 \ud835\udc01\ud835\udc18 \ud835\udc16\ud835\udc07\ud835\udc0e \ud835\udc01\ud835\udc14\ud835\udc08\ud835\udc0b\ud835\udc03\ud835\udc12 \ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc01\ud835\udc04\ud835\udc12\ud835\udc13 \ud835\udc0c\ud835\udc0e\ud835\udc03\ud835\udc04\ud835\udc0b.\n\n\ud835\udc08\ud835\udc13 \ud835\udc0c\ud835\udc00\ud835\udc18 \ud835\udc01\ud835\udc04 \ud835\udc03\ud835\udc04\ud835\udc02\ud835\udc08\ud835\udc03\ud835\udc04\ud835\udc03 \u2026",
+          "url": "https://x.com/BlackBit21/status/2092333606891065682",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "AI Took Off. Public Blockchain Work Kept Going.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI Took Off. Public Blockchain Work Kept Going.",
+          "url": "https://x.com/node_101/status/2092587289423605809",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "I'm watching the same pull on the applications side, not just developer tooling. A startup building autonomous facility-control software, an AI system that runs energy optimization inside data centers with no human in the loop, has spent the past year getting pulled into conversations with data center developers and their capital partners, unprompted. Nobody had to be sold on taking that meeting. Compare that to how many construction GCs are asking for a workflow AI demo.\n\nOil and gas fits the s",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I'm watching the same pull on the applications side, not just developer tooling.\u2026",
+          "url": "https://x.com/AlexeiDubov/status/2092678415661084945",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "\ud835\udde6\ud835\udde8\ud835\udde1.\ud835\udddc\ud835\udde2 \ud835\udddc\ud835\udde6 \ud835\uddd5\ud835\udde8\ud835\udddc\ud835\udddf\ud835\uddd7\ud835\udddc\ud835\udde1\ud835\uddda \ud835\uddd4 \ud835\udde6\ud835\udde7\ud835\uddd4\ud835\uddd6\ud835\uddde \ud835\udde7\ud835\udddb\ud835\uddd4\ud835\udde7 \ud835\uddd6\ud835\uddd4\ud835\udde1 \ud835\uddd5\ud835\uddd8 \ud835\udde8\ud835\udde6\ud835\uddd8\ud835\uddd7 \ud835\uddd5\ud835\uddec \ud835\uddd5\ud835\udde2\ud835\udde7\ud835\udddb \ud835\udddb\ud835\udde8\ud835\udde0\ud835\uddd4\ud835\udde1\ud835\udde6 \ud835\uddd4\ud835\udde1\ud835\uddd7 \ud835\udde6\ud835\udde2\ud835\uddd9\ud835\udde7\ud835\uddea\ud835\uddd4\ud835\udde5\ud835\uddd8.\n\nUsers can access DeFi through the interface.\n\nDevelopers can access protocol data and functionality through APIs and tooling.\n\nAI systems can consume structured SunSwap data through MCP.\n\n\ud835\udddb\ud835\udde8\ud835\udde0\ud835\uddd4\ud835\udde1\ud835\udde6 \u2192 \ud835\udde8\ud835\udddc\n\ud835\uddd7\ud835\uddd8\ud835\udde9\ud835\uddd8\ud835\udddf\ud835\udde2\ud835\udde3\ud835\uddd8\ud835\udde5\ud835\udde6 \u2192 \ud835\uddd4\ud835\udde3\ud835\udddc\n\ud835\uddd4\ud835\udddc \u2192 \ud835\udde0\ud835\uddd6\ud835\udde3\n\nOne ecosystem. Multiple ways to interact.\n\nExplore: https://t.co/bMG3NcZAZU\n\n@OfficialSUNio @justinsuntron\n\n#TRONEcoStar",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\ud835\udde6\ud835\udde8\ud835\udde1.\ud835\udddc\ud835\udde2 \ud835\udddc\ud835\udde6 \ud835\uddd5\ud835\udde8\ud835\udddc\ud835\udddf\ud835\uddd7\ud835\udddc\ud835\udde1\ud835\uddda \ud835\uddd4 \ud835\udde6\ud835\udde7\ud835\uddd4\ud835\uddd6\ud835\uddde \ud835\udde7\ud835\udddb\ud835\uddd4\ud835\udde7 \ud835\uddd6\ud835\uddd4\ud835\udde1 \ud835\uddd5\ud835\uddd8 \ud835\udde8\ud835\udde6\ud835\uddd8\ud835\uddd7 \ud835\uddd5\ud835\uddec \ud835\uddd5\ud835\udde2\ud835\udde7\ud835\udddb \ud835\udddb\ud835\udde8\ud835\udde0\ud835\uddd4\ud835\udde1\ud835\udde6 \ud835\uddd4\ud835\udde1\ud835\uddd7 \ud835\udde6\ud835\udde2\ud835\uddd9\ud835\udde7\ud835\uddea\ud835\uddd4\ud835\udde5\ud835\uddd8.\n\nUsers \u2026",
+          "url": "https://x.com/tuTransform/status/2092641111617458301",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "#BREAKING\n\nNvidia signs $6 billion licensing agreement with AI startup Poolside, acquiring talent and coding models to bolster open-source infrastructure. $NVDA\n\nInstead of a traditional full buyout, $NVDA is using a flexible template where it pays $6 billion to license software and software-building systems, hires over 100 top engineering staff, and throws in an extra $1 billion investment at a $12 billion valuation.\n\nThis creative structure lets the hardware giant lock down crucial top-tier de",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "#BREAKING\n\nNvidia signs $6 billion licensing agreement with AI startup Poolside,\u2026",
+          "url": "https://x.com/NarumiAIonX/status/2092635933501763648",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "Buying AI Today Could Be Like Buying Bitcoin in 2010, But Not for the Reason You Think",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Buying AI Today Could Be Like Buying Bitcoin in 2010, But Not for the Reason You\u2026",
+          "url": "https://x.com/BlackPantherCap/status/2092681465238847854",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "The axis I would add is where the defensibility actually sits. In AI native services the durable asset is rarely the model or even the workflow design. It is the accumulated understanding of one client's process, which you can only acquire by doing the work inside it. That compounds per account rather than across the portfolio, which is excellent for retention and awkward for the multiple. The teams that get past it are the ones who turn each engagement into reusable structure instead of reusabl",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The axis I would add is where the defensibility actually sits. In AI native serv\u2026",
+          "url": "https://x.com/FirmBrain/status/2092654533315117140",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "@alokgoyal1971 @swapnalidalal Loved dis. For SaaS, validation was usually licenses, adoption, retention, expansion. For an AI-native services firm, with humans still involved in delivery early on, what metrics would give you confidence that it is becoming software-like and not just a better services business?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@alokgoyal1971 @swapnalidalal Loved dis. For SaaS, validation was usually licens\u2026",
+          "url": "https://x.com/lax_outplay/status/2092594337615925254",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "The Real Threat Isn\u2019t AI. It\u2019s Compute.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Real Threat Isn\u2019t AI. It\u2019s Compute.",
+          "url": "https://x.com/Bradleyxf0/status/2092430372617282006",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "Structured Context: How Enterprise AI Finds Business Knowledge",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Structured Context: How Enterprise AI Finds Business Knowledge",
+          "url": "https://x.com/enhansai/status/2092416384890515626",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "text": "AI Didn't Remove the Engineering Barrier. It Moved It.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI Didn't Remove the Engineering Barrier. It Moved It.",
+          "url": "https://x.com/DogeOne6/status/2092510933965054063",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "text": "AI-Native Organization in Practice: From FDE to FDB to an OPC Incubator",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI-Native Organization in Practice: From FDE to FDB to an OPC Incubator",
+          "url": "https://x.com/memoria_ai/status/2092559972752388437",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l578",
+      "text": "AI Replacing Developers Has Officially Failed\nTransform how you write with your voice. Download Wispr Flow today to get 1 month of Wispr Flow Pro for free: https://ref.wisprflow.ai/sajjaad-khader-yt\n\nBig Tech thought AI would replace software engineers - but hidden bugs, bloated code, and failed projects are forcing companies to bring human developers back.\n\n\ud83d\ude80 JOIN MY TECH COMMUNITY: SWE LAUNCHPAD\nInside, you'll learn How to break Into tech with practical resources, job prep guidance, and real i\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Replacing Developers Has Officially Failed\nTransform how you write with your \u2026",
+          "url": "https://www.youtube.com/watch?v=Zdus-d4ehN0",
+          "date": "2026-07-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l579",
+      "text": "Software engineer driven to insanity from 2026 Job Market\nI blab a lot in this video but generally I cover:\n\nThe real state of the 2026 tech job market.\nQualified engineers are not getting hired.\nThe mental impact of constant rejection.\nBroken hiring processes and unrealistic expectations.\n\nI hope I can relate to others engineers with similar experiences!\n\nReach me here: https://garrettrosedev.com/\nOr here: https://www.linkedin.com/in/garrett-rose-b0974a131\nOr even here if you need a developer: \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Software engineer driven to insanity from 2026 Job Market\nI blab a lot in this v\u2026",
+          "url": "https://www.youtube.com/watch?v=TYuSEeuUhPo",
+          "date": "2026-04-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l580",
+      "text": "AI in the SDLC: Rethinking AI Coding Tools & AI Agents\nLearn more about AI in the SDLC here \u2192 https://ibm.biz/~naNTyKNWO\n\nAI promises speed, but where are the real gains? Cedric Clyburn breaks down why productivity stalls across the software development lifecycle despite faster coding. Learn how redesigning SDLC workflows with AI agents improves outcomes, testing, and delivery.\n\nAI news moves fast. Sign up for a monthly newsletter for AI updates from IBM \u2192 https://ibm.biz/~nBt0HFgxR\n\n#aifordevel\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI in the SDLC: Rethinking AI Coding Tools & AI Agents\nLearn more about AI in th\u2026",
+          "url": "https://www.youtube.com/watch?v=4wMRXmLpdA8",
+          "date": "2026-06-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l581",
+      "text": "Traverse Engine \u2014 AI-Powered Travel Planner with Real-Time Disruption Simulation | Full Demo\nTraverse Engine is a dual-platform Travel Planning & Experience Engine that builds dynamic, context-aware itineraries \u2014 and re-optimizes them in real time when the real world gets in the way.\n\nIn this demo, I walk through how the app takes your trip preferences (destination, duration, budget, pace, interests, dietary & mobility constraints) and generates a full multi-day itinerary, then simulates live di\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Traverse Engine \u2014 AI-Powered Travel Planner with Real-Time Disruption Simulation\u2026",
+          "url": "https://www.youtube.com/watch?v=ytqmbQA-x2Q",
+          "date": "2026-08-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l582",
+      "text": "Modernizing Our Oldest, Scariest Code with AI - Edith Harbaugh & Zach Davis, LaunchDarkly\nEdith Harbaugh, Co-Founder and Executive Chair at LaunchDarkly, and Zach Davis, Principal Engineer at LaunchDarkly, deliver a hot-off-the-presses experience report on using AI to rewrite the company's oldest, most feared frontend codebase \u2014 a 66,000-line React targeting system carrying twelve-plus years of accumulated technical debt. Working within a six-week timeline, a $10,000 inference budget, and a stri\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Modernizing Our Oldest, Scariest Code with AI - Edith Harbaugh & Zach Davis, Lau\u2026",
+          "url": "https://www.youtube.com/watch?v=2Mn4kQkjGIM",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l483",
+      "text": "Software Engineer II \u2014 Microsoft (Sydney, New South Wales, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Microsoft",
+          "title": "Software Engineer II",
+          "url": "https://www.linkedin.com/jobs/view/4413974251",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l484",
+      "text": "Software Engineer, EOS (Early-career/Mid-level) - Sydney \u2014 Arista Networks (Sydney, New South Wales, Australia). Posted 4 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Arista Networks",
+          "title": "Software Engineer, EOS (Early-career/Mid-level) - Sydney",
+          "url": "https://www.linkedin.com/jobs/view/4435425811",
+          "date": "4 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l485",
+      "text": "Software Engineer \u2014 Curtin University (Perth, Western Australia, Australia). Posted 14 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Curtin University",
+          "title": "Software Engineer",
+          "url": "https://www.linkedin.com/jobs/view/4459146507",
+          "date": "14 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l486",
+      "text": "Software Engineer \u2014 Amentum (Adelaide, South Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Amentum",
+          "title": "Software Engineer",
+          "url": "https://www.linkedin.com/jobs/view/4444973647",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l487",
+      "text": "Software Engineer \u2014 Profectus (Canberra, Australian Capital Territory, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Profectus",
+          "title": "Software Engineer",
+          "url": "https://www.linkedin.com/jobs/view/4453029811",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l488",
+      "text": "Containerization & Virtualisation Engineer \u2014 Canonical (Perth, Western Australia, Australia). Posted 5 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Canonical",
+          "title": "Containerization & Virtualisation Engineer",
+          "url": "https://www.linkedin.com/jobs/view/4389038676",
+          "date": "5 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l489",
+      "text": "Containerization & Virtualisation Engineer \u2014 Canonical (Brisbane, Queensland, Australia). Posted 5 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Canonical",
+          "title": "Containerization & Virtualisation Engineer",
+          "url": "https://www.linkedin.com/jobs/view/4389051000",
+          "date": "5 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l490",
+      "text": "Software Engineer - Space Systems \u2014 Electro Optic Systems (Symonston, Australian Capital Territory, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Electro Optic Systems",
+          "title": "Software Engineer - Space Systems",
+          "url": "https://www.linkedin.com/jobs/view/4436521407",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l491",
+      "text": "Low Level HPC Developer \u2014 DUG (Perth, Western Australia, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "DUG",
+          "title": "Low Level HPC Developer",
+          "url": "https://www.linkedin.com/jobs/view/4444873249",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l492",
+      "text": "Software Engineer, Control & Error Correction \u2014 Silicon Quantum Computing (Sydney, New South Wales, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Silicon Quantum Computing",
+          "title": "Software Engineer, Control & Error Correction",
+          "url": "https://www.linkedin.com/jobs/view/4458136570",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "software developers, systems software",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
+    "query": "software developer OR systems software engineer OR devops",
+    "window": "2025-10 to 2025-12",
+    "count": 7476,
+    "countNote": "Adzuna unique ads for 'Software Developer' (Learning People, Oct-Dec 2025); used as the demand proxy for systems-software developers (same broad role family).",
+    "topEmployers": [],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "Distributed systems",
+      "Cloud architecture (K8s/Terraform)",
+      "AI systems governance",
+      "CI/CD & platform engineering",
+      "Security hardening"
     ]
   },
   "corpus": {
-    "platforms": [
-      {
-        "name": "practitioner_forums",
-        "scope": "National Software Developers, Systems Software Association discourse",
-        "items": 45
-      }
+    "platforms": [],
+    "retrieved": "2026-08-27",
+    "searchesReturningNothing": [
+      "Factiva L3: OpenAthens session expired 2026-08-27 (auth_expired) \u2014 L3 rests on web trade press (ACS Digital Pulse, JSA study, TCA, Adaca).",
+      "L5 grounding source unreachable (keyless web search unavailable); reddit, x, youtube, hackernews sampled.",
+      "L5 TikTok and Instagram unavailable (has_scrapecreators: false) \u2014 coverage gap, not evidence of quiet."
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
     "l5Sample": [
       {
-        "status": "sampled",
-        "plan": "data/professions/15-1133/raw/l5_plan.json",
-        "sources": 0,
-        "source": "last30days"
+        "date": "2026-08-27",
+        "added": 75,
+        "sources": {
+          "github": 22,
+          "grounding": 0,
+          "hackernews": 19,
+          "reddit": 6,
+          "x": 23,
+          "youtube": 5
+        },
+        "status": "sampled"
       }
     ],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Software Developers, Systems Software",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/15-1133/raw/linkedin_l4.json"
-    }
+    "ledgerStatus": "L1-L5 complete. L1=2 L2=2 L3=2 L4=1 L5=75 claims; confidence=high. Factiva L3 logged to backlog (auth_expired); L5 corpus declared via last30days.",
+    "l5SampleSources": {
+      "reddit": "sampled",
+      "x": "sampled",
+      "youtube": "sampled",
+      "hackernews": "sampled",
+      "github": "n/a",
+      "grounding": "unreachable",
+      "tiktok": "unavailable",
+      "instagram": "unavailable"
+    },
+    "linkedin": [
+      {
+        "date": "2026-08-27",
+        "soc": "15-1133",
+        "query": "Software Developers, Systems Software",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva lane unavailable this run (OpenAthens auth expired); L3 claims drawn from web trade press only.",
+    "ANZSCO set by best-effort mapping; no authoritative O*NET->ANZSCO crosswalk in repo.",
+    "L2 studies are US/enterprise samples; treated as indicative for Australian developers.",
+    "2026-08-29: restored from the genuine 2026-08-27 research (git rev bf79597) after a concurrent session's broad commit (4a6cbae) accidentally overwrote it with pre-existing fabricated content. See docs/tasks/dfva-profession-discourse.SKILL.md, 'Fabrication incident 2026-08-24'."
+  ]
 }

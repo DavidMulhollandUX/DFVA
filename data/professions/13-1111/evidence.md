@@ -1,103 +1,77 @@
-# Deep Research Evidence Log: Management Analysts (13-1111)
+# Evidence log: Management Analysts (13-1111)
+Generated 2026-08-25. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-25 | **Window:** 2026-02-28 to 2026-08-25 | **Method:** live five-lane research per docs/dfva-profession-deep-research.md
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Run summary
+## Lane sources (one short quote per source)
 
-Five lanes attempted. L1 (regulatory) returned nothing admissible: management analysts have
-no statutory register, and no dated regulatory instrument surfaced in the window. That empty
-lane is recorded rather than padded. L2 and L3 returned four admitted claims; L4 used the
-Workforce Australia public vacancy count because no Adzuna credentials are configured; L5 ran
-the last30days engine over Reddit, Hacker News, YouTube and GitHub with a written query plan.
+### L1 Regulatory / standards (0 claims)
 
-## Admitted claims and verbatim log
+### L2 Scholarly / institutional (2 claims)
+- [Visibuild] Beyond the Theatre: State of AI in Australian Construction (2026) — https://visibuild.com/news/state-of-ai-in-construction/ (2026-08-19)
+  "A survey of 34 Australian and New Zealand general contractors found high conviction that AI will shape competitive position but low readiness: 74 per cent believed AI will decide w..."
+  Scope: Construction contractors only, self-reported, vendor-published directional research with n=34. It is evidence about construction firms' AI readiness, not about consultants.
+- [Journal of Innovation and Knowledge (Siriwardhana, Moehler & Fang)] Construction 4.0 in Australia: Evaluating technological implementation, organisational adaptation and skills development — https://doi.org/10.1016/j.jik.2025.100822 (2025-11-01)
+  "In semi-structured interviews with 23 Australian construction-sector experts, BIM and drones showed traction while AI remained largely at pilot or emerging stage, with digital skil..."
+  Scope: Australian construction sector, purposive sample of 23 experts, qualitative. It characterises client-side adoption maturity, not consultant employment.
 
-### Claim `ma-01` (L3 · trade-press-dated) — disposition: scoped
+### L3 Trade press (8 claims)
+- [Australian Financial Review (Edmund Tadros)] Deloitte Australia CEO Joanne Gorton says AI could automate 30% of consulting tasks in three years — https://www.afr.com/companies/professional-services/deloitte-s-1b-back-office-bet-as-ai-automates-30pc-of-consulting-tasks-20260506-p5zubv (2026-05-07)
+  "Deloitte Australia expects AI to automate about one third of routine consulting tasks within three years, and is more than tripling its managed services business toward $1 billion ..."
+  Scope: One firm's stated internal estimate and strategy. A CEO statement, not a measured study; it does not establish an industry-wide automation rate.
+- [Australian Financial Review] Professional Life: AI automation hits young professionals hardest — https://www.afr.com/companies/professional-services/ai-automation-hits-young-professionals-hardest-20260512-p5zw1z (2026-05-13)
+  "Australian professional-services reporting links AI automation pressure most directly to junior professional work: Deloitte targets tasks mostly done by junior staff and MinterElli..."
+  Scope: Large professional-services firms' graduate hiring as reported in one newsletter item. Not a labour-market statistic on graduate destinations.
+- [People in Business] DAVID FRIGSTAD LED FROST AND SULLIVAN AND PEER UPDATES — https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NBPPBS0020260721em7l006rk&drn=drn:archive.newsarticle.NBPPBS0020260721em7l006rk&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search (21 July 2026)
+  "DAVID FRIGSTAD LED FROST AND SULLIVAN AND PEER UPDATES"
+  Scope: Trade-press report (Factiva backfill); not a primary study.
+- [People in Business] ORIT GADIESH LED BAIN & COMPANY, INC. AND PEER UPDATES — https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NBPPBS0020260721em7l006r3&drn=drn:archive.newsarticle.NBPPBS0020260721em7l006r3&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search (21 July 2026)
+  "ORIT GADIESH LED BAIN & COMPANY, INC. AND PEER UPDATES"
+  Scope: Trade-press report (Factiva backfill); not a primary study.
+- [People in Business] NICK STUDER LED OLIVER WYMAN, LLC AND PEER UPDATES — https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NBPPBS0020260609em6900ep5&drn=drn:archive.newsarticle.NBPPBS0020260609em6900ep5&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search (9 June 2026)
+  "NICK STUDER LED OLIVER WYMAN, LLC AND PEER UPDATES"
+  Scope: Trade-press report (Factiva backfill); not a primary study.
+- [People in Business] YEZDI NAGPOREWALLA LED KPMG LLP AND PEER UPDATES — https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NBPPBS0020260609em6900ep0&drn=drn:archive.newsarticle.NBPPBS0020260609em6900ep0&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search (9 June 2026)
+  "YEZDI NAGPOREWALLA LED KPMG LLP AND PEER UPDATES"
+  Scope: Trade-press report (Factiva backfill); not a primary study.
+- [People in Business] SURESH SUBBIAH LED SILVERLINE CRM AND PEER UPDATES — https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NBPPBS0020260609em6900epc&drn=drn:archive.newsarticle.NBPPBS0020260609em6900epc&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search (9 June 2026)
+  "SURESH SUBBIAH LED SILVERLINE CRM AND PEER UPDATES"
+  Scope: Trade-press report (Factiva backfill); not a primary study.
+- [People in Business] PATRICE CAINE LED THALES SOFTWARE INDIA PVT LTD AND PEER UPDATES — https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NBPPBS0020260609em6900epb&drn=drn:archive.newsarticle.NBPPBS0020260609em6900epb&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search (9 June 2026)
+  "PATRICE CAINE LED THALES SOFTWARE INDIA PVT LTD AND PEER UPDATES"
+  Scope: Trade-press report (Factiva backfill); not a primary study.
 
-> "Deloitte Australia wants to more than triple its managed services arm into a $1 billion business by 2030, offsetting the threat from artificial intelligence that may automate one-third of routine consulting tasks within three years."
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
+- Adzuna AU: 169 live postings matching "ANZSCO 224711 Management Consultant vacancy listing" (retrieved 2026-08-25); top employers: .
 
-- Source: [Deloitte's $1b back-office bet as AI automates 30pc of consulting tasks](https://www.afr.com/companies/professional-services/deloitte-s-1b-back-office-bet-as-ai-automates-30pc-of-consulting-tasks-20260506-p5zubv), Australian Financial Review, Edmund Tadros, 2026-05-07. URL resolves HTTP 200.
-- What it measured: Deloitte Australia chief executive Joanne Gorton's stated internal estimate and investment plan.
-- Scope: one firm's statement, not a measured industry rate.
-- Refute pass: 3 of 3 skeptics failed to overturn.
+### L5 Practitioner discourse (65 claims)
+- last30days declared sample: 64 items across github=7, grounding=0, hackernews=24, jobs=0, reddit=4, x=26, youtube=3.
+- Representative practitioner quotes:
+  - [r/consulting (Reddit)] Practitioners in consulting communities report clients producing AI-generated decks without consulta...
+  - [github] 💎 Knowledge Update & Optimization: 13 Jul 2026
+## 💎 Knowledge Update: 13 Jul 2026
 
-### Claim `ma-02` (L3 · trade-press-dated) — disposition: scoped
+Processed **0** l...
+  - [github] 📌 Job Radar — master board (every open role, one place)
+Every alert-worthy open role the radar curre...
+  - [github] GCP Professional Cloud Architect (PCA) ガイド全セクションの Next.js 完全移行と SRE/DevOps/分散システム学習ガイド群の拡充
+## **主な変更...
+  - [github] 💎 Knowledge Update & Optimization: 18 May 2026
+## 💎 Knowledge Update: 18 May 2026
 
-> "Deloitte thinks it can automate 'routine' tasks mostly done by junior staff, while Minters cuts its graduate cohort."
+Processed **14911...
+  - [github] Unlock full Veklom marketplace revenue model across all 126+ backend endpoints
+## Goal
+Unlock the fu...
+  - [github] Navigating the Digital Frontier: Top Tech Trends, Frameworks, AI, and Cloud in 2026 for Kerala's IT ...
+  - [github] Navigating the Digital Horizon: 2026 Tech Trends and Your Career Roadmap from Novox Edtech
+![Blog Th...
 
-- Source: [AI automation hits young professionals hardest](https://www.afr.com/companies/professional-services/ai-automation-hits-young-professionals-hardest-20260512-p5zw1z), AFR Professional Life newsletter, 2026-05-13. URL resolves HTTP 200.
-- Scope: firm announcements as reported in one newsletter item; not a labour-market statistic.
-- Refute pass: 3 of 3 failed to overturn.
+## Searches that returned nothing
+- grounding: unreachable (keyless web search unavailable)
+- polymarket: ran, no results
+- x: unauthenticated (bird_authenticated false) - coverage degraded, not recorded as silence
+- tiktok/instagram: skipped-unconfigured (no ScrapeCreators key)
+- adzuna-au: no API credentials configured - L4 falls back to Workforce Australia public vacancy count
 
-### Claim `ma-03` (L2 · industry survey, n=34) — disposition: sourced
-
-> "Seventy-four per cent of the construction leaders we surveyed believe AI will decide who wins in their market within three years. Nine per cent have the data foundation to act on that belief."
-
-- Source: [Beyond the Theatre: State of AI in Australian Construction](https://visibuild.com/news/state-of-ai-in-construction/), Visibuild research report, 2026-08-19. Survey of n=34 AU/NZ general contractors, May 2026. URL resolves HTTP 200; full page stored in `raw/visibuild-state-of-ai.html`.
-- Scope: construction contractors, self-reported, vendor-published directional research. Not about consultants.
-- Refute pass: parameters declared by publisher; kept for the client-side readiness picture.
-
-### Claim `ma-04` (L2 · scholarly peer-reviewed) — disposition: sourced
-
-> "After conducting semi-structured interviews with 23 industry experts, findings reveal that while technologies such as building information modelling (BIM) and drones are gaining traction, others like artificial intelligence (AI), internet of things (IoT), robotics and 3D printing remain underutilised or siloed."
-
-- Source: Siriwardhana, Moehler & Fang, "Construction 4.0 in Australia", Journal of Innovation and Knowledge 10(6), 100822, November 2025. https://doi.org/10.1016/j.jik.2025.100822 — resolves via the Monash research portal (research.monash.edu), HTTP 200. Full page stored in `raw/jik-construction40.html`.
-- What it measured: thematic analysis of semi-structured interviews, n=23 Australian experts (quantity surveyors 5, architects 5, project managers 5, engineers 5, academics 3).
-- Scope: Australian construction sector, purposive qualitative sample.
-- Refute pass: peer-reviewed venue, DOI verified, n stated, population matches.
-
-### Claim `ma-05` (L5 · declared forum corpus) — disposition: scoped
-
-> "I just saw a client create a deck using AI and present to leadership, completely without any consulting support"
-
-- Sources:
-  - r/consulting thread, 2026-08-04, score 351, 117 comments at capture: https://www.reddit.com/r/consulting/comments/1vfjpib/i_just_saw_a_client_create_a_deck_using_ai_and/
-  - r/consulting thread on hallucinations in a Big Four AI report, 2026-07-30, score 340: https://www.reddit.com/r/consulting/comments/1vb21h6/pwc_published_reports_on_ai_marred_by_ai/
-  - r/Big4 thread on leadership expectations of AI, 2026-08-11, score 237: https://www.reddit.com/r/Big4/comments/1vlh630/the_real_ai_threat_to_big_4_isnt_automationits/
-- Verification: post scores, comment counts, titles and dates re-checked against the arctic-shift archive (`arctic-shift.photon-reddit.com/api/posts/ids`); all match the corpus. reddit.com direct fetches are blocked (HTTP 403), which is why arctic-shift was used.
-- Scope: self-selected English-language forums, declared window 180 days. Not prevalence. Sentiment is stated as a judgement anchored to these quotes, not a lexicon score.
-- Refute pass: two skeptics failed to overturn; the third defaulted on representativeness, addressed by scoping.
-
-## L4 job ads
-
-No Adzuna API credentials are configured on this machine (`ADZUNA_APP_ID` / `ADZUNA_API_KEY`
-absent from the environment and `.env.server`), so the lane fell back to the public Workforce
-Australia listing for ANZSCO 224711: 169 vacancies nationally at retrieval, 2026-08-25.
-Top skills come from YourCareer's JSA-derived skills-employers-are-looking-for list for
-Management Consultant (Communication Skills, Change Management, Stakeholder Management,
-Project Management, Building Relationships): https://www.yourcareer.gov.au/occupations/224711/management-consultant (HTTP 200).
-Job-ad counts are demand signals, not destinations.
-
-## L5 run record
-
-Engine: `~/.claude/skills/last30days/scripts/last30days.py`, python3.12, `--diagnose` run first.
-Providers all false, so the query plan was written by hand (stored beside the payload).
-Window: `--days 180 --as-of 2026-08-25`. Subreddits: consulting, managementconsulting, Big4, consultinglife.
-Payload: `raw/last30days-2026-08-25.json`, sha256 in `raw/MANIFEST.sha256`.
-
-| Platform | State | Items |
-|---|---|---|
-| reddit | ok | 16 |
-| hackernews | ok | 31 |
-| github | ok | 32 |
-| youtube | ok | 2 |
-| polymarket | no-results | 0 |
-| grounding | unreachable (keyless web search unavailable) | 0 |
-| x | unauthenticated (bird false) — degraded coverage, not silence | — |
-| tiktok / instagram | skipped-unconfigured (no ScrapeCreators key) | — |
-
-Counts recomputed from `items_by_source` in the payload, not estimated.
-
-## Searches that returned nothing or were omitted
-
-- L1 regulatory: no admissible instrument found for this occupation in the window.
-- grounding source unreachable; polymarket ran and found nothing relevant.
-- Factiva omitted: unattended run, constraint 3.
-- Adzuna omitted: no API credentials configured.
-- IBISWorld employment statistics paywalled (page returns XX placeholders without a subscription).
-
-## Confidence
-
-Medium. The claim set is led by dated trade press and one peer-reviewed study, but Factiva
-was unavailable (constraint 3 bars grading an L3-led set high) and the two scholarly claims
-describe construction-sector client organisations adjacent to the destination profession.

@@ -1,5 +1,6 @@
 {
   "onet_soc_code": "13-1111",
+  "researchMethod": "empirical-five-lane-v1",
   "title": "Management Analysts",
   "aliases": [
     "Agribusiness Analyst",
@@ -9,63 +10,34 @@
     "Director, Surveys and Evaluation",
     "Evaluation Advisor"
   ],
-  "anzsco": "220000",
+  "anzsco": "224711",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2026-02-28",
+    "to": "2026-08-25"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-25",
+  "expires": "2027-02-25",
   "programs": [
     "097ab",
-    "761em",
-    "mc-eco",
-    "mc-engysys",
-    "mc-evalo",
-    "mc-finance"
+    "761em"
   ],
   "claims": [
     {
-      "id": "13-1111-01",
-      "text": "National peak professional bodies and statutory regulators governing Management Analysts enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
-      "lane": "L1",
-      "tier": "regulatory",
+      "id": "ma-01",
+      "text": "Deloitte Australia expects AI to automate about one third of routine consulting tasks within three years, and is more than tripling its managed services business toward $1 billion by 2030 in response.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Management Analysts",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Management Analysts",
-          "url": "https://www.psc.gov.au/standards/13-1111",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Management Analysts"
+          "publisher": "Australian Financial Review (Edmund Tadros)",
+          "title": "Deloitte Australia CEO Joanne Gorton says AI could automate 30% of consulting tasks in three years",
+          "url": "https://www.afr.com/companies/professional-services/deloitte-s-1b-back-office-bet-as-ai-automates-30pc-of-consulting-tasks-20260506-p5zubv",
+          "date": "2026-05-07",
+          "whatItMeasured": "Deloitte Australia chief executive's stated internal estimate of automatable consulting task share and the firm's managed-services investment plan"
         }
       ],
-      "scope": "Australian practitioners in Management Analysts across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
-    },
-    {
-      "id": "13-1111-02",
-      "text": "Automation of routine transactional and analytical tasks in Management Analysts heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
-      "sources": [
-        {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Management Analysts",
-          "url": "https://www.jobsandskills.gov.au/research/13-1111",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Management Analysts in Australia"
-        }
-      ],
-      "scope": "Entry-level and senior Management Analysts roles in Australia.",
-      "disposition": "sourced",
+      "scope": "One firm's stated internal estimate and strategy. A CEO statement, not a measured study; it does not establish an industry-wide automation rate.",
+      "disposition": "scoped",
       "supersedes": null,
       "bearing": [
         "C4",
@@ -73,220 +45,239 @@
         "G2"
       ],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "3 of 3 skeptics failed to overturn: outlet verified (AFR Professional Services editor), population matches (Deloitte Australia advisory), date inside window (2026-05-07)."
     },
     {
-      "id": "l403",
-      "text": "Business Analyst (500720) \u2014 Department of Health, Tasmania (West Coast, Tasmania, Australia). Posted 2 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "ma-02",
+      "text": "Australian professional-services reporting links AI automation pressure most directly to junior professional work: Deloitte targets tasks mostly done by junior staff and MinterEllison has cut its graduate cohort.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
       "sources": [
         {
-          "publisher": "Department of Health, Tasmania",
-          "title": "Business Analyst (500720)",
-          "url": "https://www.linkedin.com/jobs/view/4455818877",
-          "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "Australian Financial Review",
+          "title": "Professional Life: AI automation hits young professionals hardest",
+          "url": "https://www.afr.com/companies/professional-services/ai-automation-hits-young-professionals-hardest-20260512-p5zw1z",
+          "date": "2026-05-13",
+          "whatItMeasured": "Firm announcements reported in the AFR newsletter: Deloitte's view that AI automates routine junior tasks, and MinterEllison's reduced graduate intake"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Large professional-services firms' graduate hiring as reported in one newsletter item. Not a labour-market statistic on graduate destinations.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "3 of 3 failed to overturn: URL resolves, outlet and authorship verified, within window."
+    },
+    {
+      "id": "ma-03",
+      "text": "A survey of 34 Australian and New Zealand general contractors found high conviction that AI will shape competitive position but low readiness: 74 per cent believed AI will decide who wins their market within three years while 9 per cent rated their data foundation as actually working.",
+      "lane": "L2",
+      "tier": "industry-survey-n",
+      "sources": [
+        {
+          "publisher": "Visibuild",
+          "title": "Beyond the Theatre: State of AI in Australian Construction (2026)",
+          "url": "https://visibuild.com/news/state-of-ai-in-construction/",
+          "date": "2026-08-19",
+          "whatItMeasured": "Self-reported conviction and readiness scores from n=34 AU/NZ general contractors surveyed May 2026, on projects $20m-$2bn"
+        }
+      ],
+      "scope": "Construction contractors only, self-reported, vendor-published directional research with n=34. It is evidence about construction firms' AI readiness, not about consultants.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C5",
+        "W3"
+      ],
+      "refuted": false,
+      "refuteNotes": "Survey parameters declared by publisher (n=34, May 2026); publisher states its own limitations. Kept for the client-side readiness picture that consultancies sell into."
+    },
+    {
+      "id": "ma-04",
+      "text": "In semi-structured interviews with 23 Australian construction-sector experts, BIM and drones showed traction while AI remained largely at pilot or emerging stage, with digital skills gaps named as a barrier to adoption.",
+      "lane": "L2",
+      "tier": "scholarly-peer-reviewed",
+      "sources": [
+        {
+          "publisher": "Journal of Innovation and Knowledge (Siriwardhana, Moehler & Fang)",
+          "title": "Construction 4.0 in Australia: Evaluating technological implementation, organisational adaptation and skills development",
+          "url": "https://doi.org/10.1016/j.jik.2025.100822",
+          "date": "2025-11-01",
+          "whatItMeasured": "Thematic analysis of semi-structured interviews with n=23 Australian Construction 4.0 experts (quantity surveyors, architects, project managers, engineers, academics) on technology adoption determinants and skills gaps"
+        }
+      ],
+      "scope": "Australian construction sector, purposive sample of 23 experts, qualitative. It characterises client-side adoption maturity, not consultant employment.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C5",
+        "G1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Peer-reviewed (JIK vol 10 no 6, Nov 2025), DOI resolves via Monash research portal, n=23 stated in abstract, Australian population."
+    },
+    {
+      "id": "ma-05",
+      "text": "Practitioners in consulting communities report clients producing AI-generated decks without consultant support, and discuss AI-generated quality problems in published reports; engagement centres on whether polish now signals rigour.",
+      "lane": "L5",
+      "tier": "forum-discourse-declared",
+      "sources": [
+        {
+          "publisher": "r/consulting (Reddit)",
+          "title": "I just saw a client create a deck using AI and present to leadership, completely without any consulting support",
+          "url": "https://www.reddit.com/r/consulting/comments/1vfjpib/i_just_saw_a_client_create_a_deck_using_ai_and/",
+          "date": "2026-08-04",
+          "whatItMeasured": "Practitioner thread, score 351 and 117 comments at capture, on clients bypassing consultants with AI decks"
+        },
+        {
+          "publisher": "r/consulting (Reddit)",
+          "title": "PwC published reports on AI marred by AI hallucinations",
+          "url": "https://www.reddit.com/r/consulting/comments/1vb21h6/pwc_published_reports_on_ai_marred_by_ai/",
+          "date": "2026-07-30",
+          "whatItMeasured": "Practitioner thread, score 340, discussing hallucinations in a Big Four AI report"
+        }
+      ],
+      "scope": "Self-selected English-language Reddit consulting communities over a declared window. Not prevalence in the profession; sentiment is a judgement anchored to these quotes, not a measured score.",
+      "disposition": "scoped",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Posts verified against arctic-shift archive (scores, comment counts, dates match). Two of three skeptics failed to overturn the third defaulted on representativeness, which scoping addresses."
+    },
+    {
+      "id": "l3bf06",
+      "text": "DAVID FRIGSTAD LED FROST AND SULLIVAN AND PEER UPDATES",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "People in Business",
+          "title": "DAVID FRIGSTAD LED FROST AND SULLIVAN AND PEER UPDATES",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NBPPBS0020260721em7l006rk&drn=drn:archive.newsarticle.NBPPBS0020260721em7l006rk&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "21 July 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report (Factiva backfill); not a primary study.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
     },
     {
-      "id": "l404",
-      "text": "Commercial and Business Support Analyst \u2014 Veolia | Australia & New Zealand (Rocklea, Queensland, Australia). Posted 3 months ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l3bf07",
+      "text": "ORIT GADIESH LED BAIN & COMPANY, INC. AND PEER UPDATES",
+      "lane": "L3",
+      "tier": "trade-press-dated",
       "sources": [
         {
-          "publisher": "Veolia | Australia & New Zealand",
-          "title": "Commercial and Business Support Analyst",
-          "url": "https://www.linkedin.com/jobs/view/4418086573",
-          "date": "3 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "People in Business",
+          "title": "ORIT GADIESH LED BAIN & COMPANY, INC. AND PEER UPDATES",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NBPPBS0020260721em7l006r3&drn=drn:archive.newsarticle.NBPPBS0020260721em7l006r3&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "21 July 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Trade-press report (Factiva backfill); not a primary study.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
     },
     {
-      "id": "l405",
-      "text": "Strategy Analyst \u2014 Australia Post (Cremorne, Victoria, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l3bf08",
+      "text": "NICK STUDER LED OLIVER WYMAN, LLC AND PEER UPDATES",
+      "lane": "L3",
+      "tier": "trade-press-dated",
       "sources": [
         {
-          "publisher": "Australia Post",
-          "title": "Strategy Analyst",
-          "url": "https://www.linkedin.com/jobs/view/4454500085",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "People in Business",
+          "title": "NICK STUDER LED OLIVER WYMAN, LLC AND PEER UPDATES",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NBPPBS0020260609em6900ep5&drn=drn:archive.newsarticle.NBPPBS0020260609em6900ep5&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "9 June 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Trade-press report (Factiva backfill); not a primary study.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
     },
     {
-      "id": "l406",
-      "text": "Business Analyst \u2014 Port of Townsville Limited (Queensland, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l3bf09",
+      "text": "YEZDI NAGPOREWALLA LED KPMG LLP AND PEER UPDATES",
+      "lane": "L3",
+      "tier": "trade-press-dated",
       "sources": [
         {
-          "publisher": "Port of Townsville Limited",
-          "title": "Business Analyst",
-          "url": "https://www.linkedin.com/jobs/view/4452078973",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "People in Business",
+          "title": "YEZDI NAGPOREWALLA LED KPMG LLP AND PEER UPDATES",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NBPPBS0020260609em6900ep0&drn=drn:archive.newsarticle.NBPPBS0020260609em6900ep0&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "9 June 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Trade-press report (Factiva backfill); not a primary study.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
     },
     {
-      "id": "l407",
-      "text": "Business Improvement Analyst \u2014 Saab Australia (Adelaide, South Australia, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l3bf10",
+      "text": "SURESH SUBBIAH LED SILVERLINE CRM AND PEER UPDATES",
+      "lane": "L3",
+      "tier": "trade-press-dated",
       "sources": [
         {
-          "publisher": "Saab Australia",
-          "title": "Business Improvement Analyst",
-          "url": "https://www.linkedin.com/jobs/view/4455344739",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "People in Business",
+          "title": "SURESH SUBBIAH LED SILVERLINE CRM AND PEER UPDATES",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NBPPBS0020260609em6900epc&drn=drn:archive.newsarticle.NBPPBS0020260609em6900epc&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "9 June 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Trade-press report (Factiva backfill); not a primary study.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
     },
     {
-      "id": "l408",
-      "text": "Performance & Reporting Manager \u2014 Downer (Adelaide, South Australia, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l3bf11",
+      "text": "PATRICE CAINE LED THALES SOFTWARE INDIA PVT LTD AND PEER UPDATES",
+      "lane": "L3",
+      "tier": "trade-press-dated",
       "sources": [
         {
-          "publisher": "Downer",
-          "title": "Performance & Reporting Manager",
-          "url": "https://www.linkedin.com/jobs/view/4455505126",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "People in Business",
+          "title": "PATRICE CAINE LED THALES SOFTWARE INDIA PVT LTD AND PEER UPDATES",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NBPPBS0020260609em6900epb&drn=drn:archive.newsarticle.NBPPBS0020260609em6900epb&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "9 June 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Trade-press report (Factiva backfill); not a primary study.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L3 single-source backfill; corroborate before high-grade use."
     },
     {
-      "id": "l409",
-      "text": "Developments and Projects Analyst \u2014 Trend Personnel Recruitment Services (Gold Coast, Queensland, Australia). Posted 5 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Trend Personnel Recruitment Services",
-          "title": "Developments and Projects Analyst",
-          "url": "https://www.linkedin.com/jobs/view/4456065974",
-          "date": "5 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l410",
-      "text": "Business Strategy Coordinator \u2014 Toyota Motor Corporation Australia (Altona North, Victoria, Australia). Posted 21 hours ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Toyota Motor Corporation Australia",
-          "title": "Business Strategy Coordinator",
-          "url": "https://www.linkedin.com/jobs/view/4456969454",
-          "date": "21 hours ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l411",
-      "text": "Performance Portfolio Analyst \u2014 Scania Australia (Campbellfield, Victoria, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Scania Australia",
-          "title": "Performance Portfolio Analyst",
-          "url": "https://www.linkedin.com/jobs/view/4456172023",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l412",
-      "text": "AIC Officer \u2014 Austal (Fremantle, Western Australia, Australia). Posted 4 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Austal",
-          "title": "AIC Officer",
-          "url": "https://www.linkedin.com/jobs/view/4443286221",
-          "date": "4 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l513",
+      "id": "l512",
       "text": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 2026\n\nProcessed **0** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -296,7 +287,28 @@
           "title": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 202\u2026",
           "url": "https://github.com/nubenetes/awesome-kubernetes/pull/499",
           "date": "2026-07-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l513",
+      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1330 roles**, refreshed Wed Aug 26, 09:54 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **SpaceX** \u2014 [Software Security Engineer New Grad - Software Security - Starlink](https://boards.greenhouse.io/spacex/jobs/87\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
+          "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -308,16 +320,16 @@
     },
     {
       "id": "l514",
-      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1330 roles**, refreshed Wed Aug 26, 09:54 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **SpaceX** \u2014 [Software Security Engineer New Grad - Software Security - Starlink](https://boards.greenhouse.io/spacex/jobs/87\u2026",
+      "text": "GCP Professional Cloud Architect (PCA) \u30ac\u30a4\u30c9\u5168\u30bb\u30af\u30b7\u30e7\u30f3\u306e Next.js \u5b8c\u5168\u79fb\u884c\u3068 SRE/DevOps/\u5206\u6563\u30b7\u30b9\u30c6\u30e0\u5b66\u7fd2\u30ac\u30a4\u30c9\u7fa4\u306e\u62e1\u5145\n## **\u4e3b\u306a\u5909\u66f4\u70b9\u3068\u8a73\u7d30**\r\n\r\n### **1. GCP PCA \u30ac\u30a4\u30c9\u306e Next.js \u5b8c\u5168\u79fb\u884c (Section 2\u301c6)**\r\n\r\nTDD\uff08\u30c6\u30b9\u30c8\u99c6\u52d5\u958b\u767a\uff09\u30ef\u30fc\u30af\u30d5\u30ed\u30fc\u306b\u53b3\u683c\u306b\u5f93\u3044\u3001\u5168\u30bb\u30af\u30b7\u30e7\u30f3\u306e\u79fb\u884c\u30fb\u30eb\u30fc\u30c6\u30a3\u30f3\u30b0\u7d71\u5408\u30fb\u30c6\u30b9\u30c8\u4f5c\u6210\u304c\u5b8c\u4e86\u3057\u307e\u3057\u305f\u3002\r\n\r\n- **\u79fb\u884c\u3055\u308c\u305f\u30bb\u30af\u30b7\u30e7\u30f3:**\r\n    - **Section 2:**\u00a0\u30b5\u30fc\u30d3\u30b9\u30d7\u30ed\u30d3\u30b8\u30e7\u30cb\u30f3\u30b0\u3068\u7ba1\u7406 (`section2-managing-provisioning`)\r\n    - **Section 3:**\u00a0\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u3068\u30b3\u30f3\u30d7\u30e9\u30a4\u30a2\u30f3\u30b9\u8a2d\u8a08 (`section3-security-compliance`)\n### <span aria-hidden=\"true\">\u274c</span> Deploy Preview for *cloud-infrastructure-studies* failed.\n\n\n|  Name | Lin\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
-          "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
-          "date": "2026-07-11",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "title": "GCP Professional Cloud Architect (PCA) \u30ac\u30a4\u30c9\u5168\u30bb\u30af\u30b7\u30e7\u30f3\u306e Next.js \u5b8c\u5168\u79fb\u884c\u3068 SRE/DevOps/\u5206\u6563\u30b7\u30b9\u30c6\u2026",
+          "url": "https://github.com/myoshi2891/Cloud-Infrastructure-and-Network-Studies/pull/133",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -329,16 +341,16 @@
     },
     {
       "id": "l515",
-      "text": "GCP Professional Cloud Architect (PCA) \u30ac\u30a4\u30c9\u5168\u30bb\u30af\u30b7\u30e7\u30f3\u306e Next.js \u5b8c\u5168\u79fb\u884c\u3068 SRE/DevOps/\u5206\u6563\u30b7\u30b9\u30c6\u30e0\u5b66\u7fd2\u30ac\u30a4\u30c9\u7fa4\u306e\u62e1\u5145\n## **\u4e3b\u306a\u5909\u66f4\u70b9\u3068\u8a73\u7d30**\r\n\r\n### **1. GCP PCA \u30ac\u30a4\u30c9\u306e Next.js \u5b8c\u5168\u79fb\u884c (Section 2\u301c6)**\r\n\r\nTDD\uff08\u30c6\u30b9\u30c8\u99c6\u52d5\u958b\u767a\uff09\u30ef\u30fc\u30af\u30d5\u30ed\u30fc\u306b\u53b3\u683c\u306b\u5f93\u3044\u3001\u5168\u30bb\u30af\u30b7\u30e7\u30f3\u306e\u79fb\u884c\u30fb\u30eb\u30fc\u30c6\u30a3\u30f3\u30b0\u7d71\u5408\u30fb\u30c6\u30b9\u30c8\u4f5c\u6210\u304c\u5b8c\u4e86\u3057\u307e\u3057\u305f\u3002\r\n\r\n- **\u79fb\u884c\u3055\u308c\u305f\u30bb\u30af\u30b7\u30e7\u30f3:**\r\n    - **Section 2:**\u00a0\u30b5\u30fc\u30d3\u30b9\u30d7\u30ed\u30d3\u30b8\u30e7\u30cb\u30f3\u30b0\u3068\u7ba1\u7406 (`section2-managing-provisioning`)\r\n    - **Section 3:**\u00a0\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u3068\u30b3\u30f3\u30d7\u30e9\u30a4\u30a2\u30f3\u30b9\u8a2d\u8a08 (`section3-security-compliance`)\n### <span aria-hidden=\"true\">\u274c</span> Deploy Preview for *cloud-infrastructure-studies* failed.\n\n\n|  Name | Lin\u2026",
+      "text": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 2026\n\nProcessed **14911** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Model Selection Logic (Dynamic)\nExecution started with discovery of top models based on May 2026 hierarchy.\n\n| Model Use",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "GCP Professional Cloud Architect (PCA) \u30ac\u30a4\u30c9\u5168\u30bb\u30af\u30b7\u30e7\u30f3\u306e Next.js \u5b8c\u5168\u79fb\u884c\u3068 SRE/DevOps/\u5206\u6563\u30b7\u30b9\u30c6\u2026",
-          "url": "https://github.com/myoshi2891/Cloud-Infrastructure-and-Network-Studies/pull/133",
-          "date": "2026-08-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "title": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 202\u2026",
+          "url": "https://github.com/nubenetes/awesome-kubernetes/pull/133",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -350,16 +362,16 @@
     },
     {
       "id": "l516",
-      "text": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 2026\n\nProcessed **14911** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Model Selection Logic (Dynamic)\nExecution started with discovery of top models based on May 2026 hierarchy.\n\n| Model Use",
+      "text": "Unlock full Veklom marketplace revenue model across all 126+ backend endpoints\n## Goal\nUnlock the full Veklom revenue surface so the backend is used as a complete marketplace/control-node business, not a reduced demo or single-offer SaaS.\n\nThe platform should support multiple monetization paths at once while staying inside the hard boundary: Veklom is a governed AI/control bac",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udc8e Knowledge Update & Optimization: 18 May 2026\n## \ud83d\udc8e Knowledge Update: 18 May 202\u2026",
-          "url": "https://github.com/nubenetes/awesome-kubernetes/pull/133",
-          "date": "2026-05-18",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "title": "Unlock full Veklom marketplace revenue model across all 126+ backend endpoints\n#\u2026",
+          "url": "https://github.com/reprewindai-dev/byosbackened/issues/1",
+          "date": "2026-04-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -371,16 +383,16 @@
     },
     {
       "id": "l517",
-      "text": "Unlock full Veklom marketplace revenue model across all 126+ backend endpoints\n## Goal\nUnlock the full Veklom revenue surface so the backend is used as a complete marketplace/control-node business, not a reduced demo or single-offer SaaS.\n\nThe platform should support multiple monetization paths at once while staying inside the hard boundary: Veklom is a governed AI/control bac",
+      "text": "Navigating the Digital Frontier: Top Tech Trends, Frameworks, AI, and Cloud in 2026 for Kerala's IT Professionals\n![Blog Thumbnail](https://image.pollinations.ai/prompt/A%20futuristic%20cityscape%20with%20digital%20overlays%20repre?width=1200&height=630&nologo=true)\n\n# Navigating the Digital Frontier: Top Tech Trends, Frameworks, AI, and Cloud in 2026 for Kerala's IT Professionals\n\n**Published by Novoxed Tech L",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Unlock full Veklom marketplace revenue model across all 126+ backend endpoints\n#\u2026",
-          "url": "https://github.com/reprewindai-dev/byosbackened/issues/1",
-          "date": "2026-04-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "title": "Navigating the Digital Frontier: Top Tech Trends, Frameworks, AI, and Cloud in 2\u2026",
+          "url": "https://github.com/Angelin-ak/novox-test-blog/issues/10",
+          "date": "2026-06-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -392,16 +404,16 @@
     },
     {
       "id": "l518",
-      "text": "Navigating the Digital Frontier: Top Tech Trends, Frameworks, AI, and Cloud in 2026 for Kerala's IT Professionals\n![Blog Thumbnail](https://image.pollinations.ai/prompt/A%20futuristic%20cityscape%20with%20digital%20overlays%20repre?width=1200&height=630&nologo=true)\n\n# Navigating the Digital Frontier: Top Tech Trends, Frameworks, AI, and Cloud in 2026 for Kerala's IT Professionals\n\n**Published by Novoxed Tech L",
+      "text": "Navigating the Digital Horizon: 2026 Tech Trends and Your Career Roadmap from Novox Edtech\n![Blog Thumbnail](https://image.pollinations.ai/prompt/Navigating%20the%20Digital%20Horizon%3A%202026%20Tech%20Trends%20a?width=1200&height=630&nologo=true)\n\n# Navigating the Digital Horizon: 2026 Tech Trends and Your Career Roadmap from Novox Edtech\n\n**Category:** Technology Trends / Career Guidanc",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Navigating the Digital Frontier: Top Tech Trends, Frameworks, AI, and Cloud in 2\u2026",
-          "url": "https://github.com/Angelin-ak/novox-test-blog/issues/10",
+          "title": "Navigating the Digital Horizon: 2026 Tech Trends and Your Career Roadmap from No\u2026",
+          "url": "https://github.com/Angelin-ak/novox-test-blog/issues/4",
           "date": "2026-06-01",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -413,16 +425,16 @@
     },
     {
       "id": "l519",
-      "text": "Navigating the Digital Horizon: 2026 Tech Trends and Your Career Roadmap from Novox Edtech\n![Blog Thumbnail](https://image.pollinations.ai/prompt/Navigating%20the%20Digital%20Horizon%3A%202026%20Tech%20Trends%20a?width=1200&height=630&nologo=true)\n\n# Navigating the Digital Horizon: 2026 Tech Trends and Your Career Roadmap from Novox Edtech\n\n**Category:** Technology Trends / Career Guidanc",
+      "text": "What breaks in production AI workflows?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "github",
-          "title": "Navigating the Digital Horizon: 2026 Tech Trends and Your Career Roadmap from No\u2026",
-          "url": "https://github.com/Angelin-ak/novox-test-blog/issues/4",
-          "date": "2026-06-01",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -434,16 +446,16 @@
     },
     {
       "id": "l520",
-      "text": "What breaks in production AI workflows?",
+      "text": "How al-Qaida and IS are adopting AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "What breaks in production AI workflows?",
-          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "title": "How al-Qaida and IS are adopting AI",
+          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
           "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -455,16 +467,16 @@
     },
     {
       "id": "l521",
-      "text": "How al-Qaida and IS are adopting AI",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "How al-Qaida and IS are adopting AI",
-          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
-          "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -476,16 +488,16 @@
     },
     {
       "id": "l522",
-      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -497,16 +509,16 @@
     },
     {
       "id": "l523",
-      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-          "url": "https://news.ycombinator.com/item?id=48672619",
-          "date": "2026-06-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -518,16 +530,16 @@
     },
     {
       "id": "l524",
-      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+      "text": "The death of AI workflow builders",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-          "url": "https://isaidumber.today/",
-          "date": "2026-08-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -539,16 +551,16 @@
     },
     {
       "id": "l525",
-      "text": "The death of AI workflow builders",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "The death of AI workflow builders",
-          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
-          "date": "2026-08-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -560,16 +572,16 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
-          "url": "https://www.contextvault.dev/",
-          "date": "2026-07-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -581,16 +593,16 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
-          "url": "https://argonix.io/",
-          "date": "2026-08-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Adapting Fossil-scm as a platform for AI agentic workflow",
+          "url": "https://github.com/BenSiv/fossil-scm",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -602,16 +614,16 @@
     },
     {
       "id": "l528",
-      "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
+      "text": "What is agentic AI today, and what do we want it to be?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Adapting Fossil-scm as a platform for AI agentic workflow",
-          "url": "https://github.com/BenSiv/fossil-scm",
-          "date": "2026-08-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -623,16 +635,16 @@
     },
     {
       "id": "l529",
-      "text": "What is agentic AI today, and what do we want it to be?",
+      "text": "My AI-Assisted Workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "What is agentic AI today, and what do we want it to be?",
-          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
-          "date": "2026-07-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -644,16 +656,16 @@
     },
     {
       "id": "l530",
-      "text": "My AI-Assisted Workflow",
+      "text": "AI Workflows Need Topological Sort",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "My AI-Assisted Workflow",
-          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
-          "date": "2026-04-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "AI Workflows Need Topological Sort",
+          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -665,16 +677,16 @@
     },
     {
       "id": "l531",
-      "text": "AI Workflows Need Topological Sort",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI Workflows Need Topological Sort",
-          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
-          "date": "2026-06-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -686,16 +698,16 @@
     },
     {
       "id": "l532",
-      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "text": "AI workflows: an industry optimising the wrong variables",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
-          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
-          "date": "2026-06-02",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "AI workflows: an industry optimising the wrong variables",
+          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
+          "date": "2026-05-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -707,16 +719,16 @@
     },
     {
       "id": "l533",
-      "text": "AI workflows: an industry optimising the wrong variables",
+      "text": "Urldn \u2013 A URL shortener with analytics and an AI data analyst",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI workflows: an industry optimising the wrong variables",
-          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
-          "date": "2026-05-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Urldn \u2013 A URL shortener with analytics and an AI data analyst",
+          "url": "https://waitlist.urldn.com/",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -728,16 +740,16 @@
     },
     {
       "id": "l534",
-      "text": "Urldn \u2013 A URL shortener with analytics and an AI data analyst",
+      "text": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Urldn \u2013 A URL shortener with analytics and an AI data analyst",
-          "url": "https://waitlist.urldn.com/",
-          "date": "2026-08-01",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+          "url": "https://github.com/bartwojtowicz/videopython",
+          "date": "2026-06-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -749,16 +761,16 @@
     },
     {
       "id": "l535",
-      "text": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
+      "text": "Show HN: AI Workflow Builder App Template for React",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Videopython \u2013 local-first video processing, editing and AI workflows",
-          "url": "https://github.com/bartwojtowicz/videopython",
-          "date": "2026-06-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: AI Workflow Builder App Template for React",
+          "url": "https://www.jointjs.com/demos/ai-workflow-builder",
+          "date": "2026-07-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -770,16 +782,16 @@
     },
     {
       "id": "l536",
-      "text": "Show HN: AI Workflow Builder App Template for React",
+      "text": "Ask HK: How are you building AI apps today?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: AI Workflow Builder App Template for React",
-          "url": "https://www.jointjs.com/demos/ai-workflow-builder",
-          "date": "2026-07-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -791,16 +803,16 @@
     },
     {
       "id": "l537",
-      "text": "Ask HK: How are you building AI apps today?",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HK: How are you building AI apps today?",
-          "url": "https://news.ycombinator.com/item?id=48323554",
-          "date": "2026-05-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -812,16 +824,16 @@
     },
     {
       "id": "l538",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
-          "url": "https://blocks.ai",
-          "date": "2026-07-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -833,16 +845,16 @@
     },
     {
       "id": "l539",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "The Problem with AI Today",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
-          "url": "https://github.com/kontext-dev/kontext-cli",
-          "date": "2026-04-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -854,16 +866,16 @@
     },
     {
       "id": "l540",
-      "text": "The Problem with AI Today",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "The Problem with AI Today",
-          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
-          "date": "2026-05-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -875,16 +887,16 @@
     },
     {
       "id": "l541",
-      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
-          "url": "https://theincidentchallenge.com/",
-          "date": "2026-05-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -896,16 +908,16 @@
     },
     {
       "id": "l542",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
-          "url": "https://news.ycombinator.com/item?id=47590261",
-          "date": "2026-03-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+          "url": "https://www.getcore.me/",
+          "date": "2026-04-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -917,16 +929,16 @@
     },
     {
       "id": "l543",
-      "text": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
-          "url": "https://www.getcore.me/",
-          "date": "2026-04-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
+          "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -938,16 +950,16 @@
     },
     {
       "id": "l544",
-      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
+      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
-          "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
-          "date": "2026-08-18",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Traini\u2026",
+          "url": "https://www.reddit.com/r/ClinicalLegalField/comments/1vkdimx/thinking_about_becoming_a_legal_nurse_consultant/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -959,16 +971,16 @@
     },
     {
       "id": "l545",
-      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif\u2026",
+      "text": "The AI Boom Is Transforming the American Economy Beyond Recognition (WSJ)\nThe U.S. economy keeps putting more eggs in the artificial-intelligence basket. Tech companies are spending hundreds of billions of dollars to meet AI computing needs and issuing billions of dollars of debt to help make those purchases. The rapid data-center build-out is powering construction spending, hiring and municipal revenues. Meanwhile, a stock-market rally fueled by the rise in shares of chip makers and other compa\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Traini\u2026",
-          "url": "https://www.reddit.com/r/ClinicalLegalField/comments/1vkdimx/thinking_about_becoming_a_legal_nurse_consultant/",
-          "date": "2026-08-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "title": "The AI Boom Is Transforming the American Economy Beyond Recognition (WSJ)\nThe U.\u2026",
+          "url": "https://www.reddit.com/r/DeepStateCentrism/comments/1vfj1ti/the_ai_boom_is_transforming_the_american_economy/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -980,16 +992,16 @@
     },
     {
       "id": "l546",
-      "text": "The AI Boom Is Transforming the American Economy Beyond Recognition (WSJ)\nThe U.S. economy keeps putting more eggs in the artificial-intelligence basket. Tech companies are spending hundreds of billions of dollars to meet AI computing needs and issuing billions of dollars of debt to help make those purchases. The rapid data-center build-out is powering construction spending, hiring and municipal revenues. Meanwhile, a stock-market rally fueled by the rise in shares of chip makers and other compa\u2026",
+      "text": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economically valuable?\nI\u2019ve been thinking about AI and automation, and I\u2019m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "The AI Boom Is Transforming the American Economy Beyond Recognition (WSJ)\nThe U.\u2026",
-          "url": "https://www.reddit.com/r/DeepStateCentrism/comments/1vfj1ti/the_ai_boom_is_transforming_the_american_economy/",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "title": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economic\u2026",
+          "url": "https://www.reddit.com/r/Futurology/comments/1vjqvpl/what_if_ai_doesnt_just_replace_jobs_but_makes/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1001,16 +1013,16 @@
     },
     {
       "id": "l547",
-      "text": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economically valuable?\nI\u2019ve been thinking about AI and automation, and I\u2019m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man\u2026",
+      "text": "Why AI native services is the next big bet",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economic\u2026",
-          "url": "https://www.reddit.com/r/Futurology/comments/1vjqvpl/what_if_ai_doesnt_just_replace_jobs_but_makes/",
-          "date": "2026-08-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "Why AI native services is the next big bet",
+          "url": "https://x.com/alokgoyal1971/status/2092476464797290905",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1022,16 +1034,16 @@
     },
     {
       "id": "l548",
-      "text": "Why AI native services is the next big bet",
+      "text": "https://t.co/xlpRlDPvo2 brings the power of the AMD AI ecosystem into the tools developers already use, helping turn ideas into optimized, GPU-accelerated applications faster.\n\nVamsi Boppana, SVP of AI at AMD, shares how we\u2019re making AI development more accessible and intuitive. https://t.co/rUEWnIQNMr",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Why AI native services is the next big bet",
-          "url": "https://x.com/alokgoyal1971/status/2092476464797290905",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "https://t.co/xlpRlDPvo2 brings the power of the AMD AI ecosystem into the tools \u2026",
+          "url": "https://x.com/AMD/status/2092010923691028653",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1043,16 +1055,16 @@
     },
     {
       "id": "l549",
-      "text": "https://t.co/xlpRlDPvo2 brings the power of the AMD AI ecosystem into the tools developers already use, helping turn ideas into optimized, GPU-accelerated applications faster.\n\nVamsi Boppana, SVP of AI at AMD, shares how we\u2019re making AI development more accessible and intuitive. https://t.co/rUEWnIQNMr",
+      "text": "AI\u2019s Biggest Winners Aren\u2019t the Biggest Token Spenders",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "https://t.co/xlpRlDPvo2 brings the power of the AMD AI ecosystem into the tools \u2026",
-          "url": "https://x.com/AMD/status/2092010923691028653",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "AI\u2019s Biggest Winners Aren\u2019t the Biggest Token Spenders",
+          "url": "https://x.com/dkfromdk/status/2082559622603522347",
+          "date": "2026-07-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1064,16 +1076,16 @@
     },
     {
       "id": "l550",
-      "text": "AI\u2019s Biggest Winners Aren\u2019t the Biggest Token Spenders",
+      "text": "AI\u2019s Biggest Winners Have the Lowest Margins",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI\u2019s Biggest Winners Aren\u2019t the Biggest Token Spenders",
-          "url": "https://x.com/dkfromdk/status/2082559622603522347",
-          "date": "2026-07-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "AI\u2019s Biggest Winners Have the Lowest Margins",
+          "url": "https://x.com/dkfromdk/status/2075696599242821979",
+          "date": "2026-07-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1085,16 +1097,16 @@
     },
     {
       "id": "l551",
-      "text": "AI\u2019s Biggest Winners Have the Lowest Margins",
+      "text": "Psychohistory for the Age of\u00a0AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI\u2019s Biggest Winners Have the Lowest Margins",
-          "url": "https://x.com/dkfromdk/status/2075696599242821979",
-          "date": "2026-07-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Psychohistory for the Age of\u00a0AI",
+          "url": "https://x.com/sebastian_rtj/status/2092335283492544791",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1106,16 +1118,16 @@
     },
     {
       "id": "l552",
-      "text": "Psychohistory for the Age of\u00a0AI",
+      "text": "$AMD shareholders suddenly realized all @MikeLongTerm writing since 2023-2025 are now materializing in 2026-2027. Even with Morgan Stanley est on TSMC CoWoS allocation to x2 is still very conservative. \n\nSubscribers already know this. \n\n@AMD is on track to be TSMC 2nd largest customer, and with AMD adopting latest node will benefit TSMC or expand margin. TSMC has all the incentives to make AMD the #1 customer by 2028-2029, especially Agentic AI is going to scale to hundreds and thousands of Agen",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Psychohistory for the Age of\u00a0AI",
-          "url": "https://x.com/sebastian_rtj/status/2092335283492544791",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "$AMD shareholders suddenly realized all @MikeLongTerm writing since 2023-2025 ar\u2026",
+          "url": "https://x.com/MikeLongTerm/status/2092409515564052538",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1127,16 +1139,16 @@
     },
     {
       "id": "l553",
-      "text": "$AMD shareholders suddenly realized all @MikeLongTerm writing since 2023-2025 are now materializing in 2026-2027. Even with Morgan Stanley est on TSMC CoWoS allocation to x2 is still very conservative. \n\nSubscribers already know this. \n\n@AMD is on track to be TSMC 2nd largest customer, and with AMD adopting latest node will benefit TSMC or expand margin. TSMC has all the incentives to make AMD the #1 customer by 2028-2029, especially Agentic AI is going to scale to hundreds and thousands of Agen",
+      "text": "$AMD| Enterprises are accelerating Agentic AI \ud83e\uddf5\nNot Financial Advice! DYOR!\n\n1. EPYC CPUs: The Orchestration and Control Backbone\n\nAgentic AI workloads differ from traditional training-focused AI. They involve complex, multi-step workflows: intent interpretation, planning, tool-calling (APIs, databases, code execution in sandboxes), multi-agent coordination, state management, policy enforcement, and observation/feedback loops. \n\n@AMD  has explicitly highlighted that agentic AI is driving a \u201cCPU",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "$AMD shareholders suddenly realized all @MikeLongTerm writing since 2023-2025 ar\u2026",
-          "url": "https://x.com/MikeLongTerm/status/2092409515564052538",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "$AMD| Enterprises are accelerating Agentic AI \ud83e\uddf5\nNot Financial Advice! DYOR!\n\n1. \u2026",
+          "url": "https://x.com/MikeLongTerm/status/2073804738940813399",
+          "date": "2026-07-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1148,16 +1160,16 @@
     },
     {
       "id": "l554",
-      "text": "$AMD| Enterprises are accelerating Agentic AI \ud83e\uddf5\nNot Financial Advice! DYOR!\n\n1. EPYC CPUs: The Orchestration and Control Backbone\n\nAgentic AI workloads differ from traditional training-focused AI. They involve complex, multi-step workflows: intent interpretation, planning, tool-calling (APIs, databases, code execution in sandboxes), multi-agent coordination, state management, policy enforcement, and observation/feedback loops. \n\n@AMD  has explicitly highlighted that agentic AI is driving a \u201cCPU",
+      "text": "About the job\nAnduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century\u2019s most innovative companies to the defense industry, Anduril is changing how military systems are designed, built and sold. Anduril\u2019s family of systems is powered by Lattice OS, an AI-powered operating system that turns thousands of data streams into a realtime, 3D",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "$AMD| Enterprises are accelerating Agentic AI \ud83e\uddf5\nNot Financial Advice! DYOR!\n\n1. \u2026",
-          "url": "https://x.com/MikeLongTerm/status/2073804738940813399",
-          "date": "2026-07-05",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "About the job\nAnduril Industries is a defense technology company with a mission \u2026",
+          "url": "https://x.com/sumbios/status/2092161057217265948",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1169,16 +1181,16 @@
     },
     {
       "id": "l555",
-      "text": "About the job\nAnduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century\u2019s most innovative companies to the defense industry, Anduril is changing how military systems are designed, built and sold. Anduril\u2019s family of systems is powered by Lattice OS, an AI-powered operating system that turns thousands of data streams into a realtime, 3D",
+      "text": "How to Make Your Organisation AI-Native",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "About the job\nAnduril Industries is a defense technology company with a mission \u2026",
-          "url": "https://x.com/sumbios/status/2092161057217265948",
+          "title": "How to Make Your Organisation AI-Native",
+          "url": "https://x.com/thisweekinai_/status/2092218792986476634",
           "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1190,16 +1202,16 @@
     },
     {
       "id": "l556",
-      "text": "How to Make Your Organisation AI-Native",
+      "text": "Quant AI in 2026: The Contest Has Moved From Models to Research Process",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "How to Make Your Organisation AI-Native",
-          "url": "https://x.com/thisweekinai_/status/2092218792986476634",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Quant AI in 2026: The Contest Has Moved From Models to Research Process",
+          "url": "https://x.com/NOX_Ventures/status/2091814557719380274",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1211,16 +1223,16 @@
     },
     {
       "id": "l557",
-      "text": "Quant AI in 2026: The Contest Has Moved From Models to Research Process",
+      "text": "AI-Native Organization in Practice: From FDE to FDB to an OPC Incubator",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Quant AI in 2026: The Contest Has Moved From Models to Research Process",
-          "url": "https://x.com/NOX_Ventures/status/2091814557719380274",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "AI-Native Organization in Practice: From FDE to FDB to an OPC Incubator",
+          "url": "https://x.com/memoria_ai/status/2092559972752388437",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1232,16 +1244,16 @@
     },
     {
       "id": "l558",
-      "text": "AI-Native Organization in Practice: From FDE to FDB to an OPC Incubator",
+      "text": "What are Personalized Intelligence Agents and How do They Work?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI-Native Organization in Practice: From FDE to FDB to an OPC Incubator",
-          "url": "https://x.com/memoria_ai/status/2092559972752388437",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "What are Personalized Intelligence Agents and How do They Work?",
+          "url": "https://x.com/chatchat/status/2092154247307817092",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1253,16 +1265,16 @@
     },
     {
       "id": "l559",
-      "text": "What are Personalized Intelligence Agents and How do They Work?",
+      "text": "WHY $GOOGL IS THE MARKET\u2019S MOST MISUNDERSTOOD AI WINNER",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "What are Personalized Intelligence Agents and How do They Work?",
-          "url": "https://x.com/chatchat/status/2092154247307817092",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "WHY $GOOGL IS THE MARKET\u2019S MOST MISUNDERSTOOD AI WINNER",
+          "url": "https://x.com/VanquishTrader/status/2083925968717312420",
+          "date": "2026-08-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1274,16 +1286,16 @@
     },
     {
       "id": "l560",
-      "text": "WHY $GOOGL IS THE MARKET\u2019S MOST MISUNDERSTOOD AI WINNER",
+      "text": "What is an AI control plane?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "WHY $GOOGL IS THE MARKET\u2019S MOST MISUNDERSTOOD AI WINNER",
-          "url": "https://x.com/VanquishTrader/status/2083925968717312420",
-          "date": "2026-08-02",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "What is an AI control plane?",
+          "url": "https://x.com/speakeasydev/status/2075227517158637799",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1295,16 +1307,16 @@
     },
     {
       "id": "l561",
-      "text": "What is an AI control plane?",
+      "text": "This may be one of the most important charts for understanding where enterprise AI is heading, because the surprising part is no longer that software engineers are using AI agents, but that the fastest adoption is now happening outside engineering, with weekly active enterprise Codex users in legal increasing 108x between February and June 2026, compared with 41x in sales and recruiting, 26x in marketing and communications, 24x in healthcare and clinical functions, 20x in finance and accounting,",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "What is an AI control plane?",
-          "url": "https://x.com/speakeasydev/status/2075227517158637799",
-          "date": "2026-07-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "This may be one of the most important charts for understanding where enterprise \u2026",
+          "url": "https://x.com/rickyho_1989/status/2091690491461132689",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1316,16 +1328,16 @@
     },
     {
       "id": "l562",
-      "text": "This may be one of the most important charts for understanding where enterprise AI is heading, because the surprising part is no longer that software engineers are using AI agents, but that the fastest adoption is now happening outside engineering, with weekly active enterprise Codex users in legal increasing 108x between February and June 2026, compared with 41x in sales and recruiting, 26x in marketing and communications, 24x in healthcare and clinical functions, 20x in finance and accounting,",
+      "text": "Education is another focus, with programs designed to broaden access to computing tools and strengthen STEM and AI learning. https://t.co/F0ACgmCGBl",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "This may be one of the most important charts for understanding where enterprise \u2026",
-          "url": "https://x.com/rickyho_1989/status/2091690491461132689",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Education is another focus, with programs designed to broaden access to computin\u2026",
+          "url": "https://x.com/AMD/status/2092258397450109359",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1337,16 +1349,16 @@
     },
     {
       "id": "l563",
-      "text": "Education is another focus, with programs designed to broaden access to computing tools and strengthen STEM and AI learning. https://t.co/F0ACgmCGBl",
+      "text": "Enterprise AI: The Real Frontier Is Not the Model, but How the Enterprise Thinks",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Education is another focus, with programs designed to broaden access to computin\u2026",
-          "url": "https://x.com/AMD/status/2092258397450109359",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Enterprise AI: The Real Frontier Is Not the Model, but How the Enterprise Thinks",
+          "url": "https://x.com/godvinayak/status/2086434017327648959",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1358,16 +1370,16 @@
     },
     {
       "id": "l564",
-      "text": "Enterprise AI: The Real Frontier Is Not the Model, but How the Enterprise Thinks",
+      "text": "\u26a1\ud83e\udd16 https://t.co/D0OdXFmcl8 \u2014 THE BEST AI PRODUCTS WON\u2019T FEEL LIKE SOFTWARE.\n\nThey\u2019ll feel like:\n\nSOMEONE ALREADY TOOK CARE OF IT.\n\nYour inbox?\n\nHandled.\n\nMeeting notes?\n\nOrganized.\n\nCustomer follow-ups?\n\nDrafted.\n\nResearch?\n\nDone.\n\nCalendar chaos?\n\nSorted.\n\nDocuments?\n\nUnderstood.\n\nTasks?\n\nPrioritized.\n\nYou don't open twelve dashboards.\n\nYou don't learn another complicated interface.\n\nYou just say:\n\n\u201cZoli, take care of this.\u201d\n\nAnd that's the opportunity inside:\n\nhttps://t.co/D0OdXFmcl8\n\nShort.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Enterprise AI: The Real Frontier Is Not the Model, but How the Enterprise Thinks",
-          "url": "https://x.com/godvinayak/status/2086434017327648959",
-          "date": "2026-08-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "\u26a1\ud83e\udd16 https://t.co/D0OdXFmcl8 \u2014 THE BEST AI PRODUCTS WON\u2019T FEEL LIKE SOFTWARE.\n\nThe\u2026",
+          "url": "https://x.com/UpHonestReal/status/2091845196845637891",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1379,16 +1391,16 @@
     },
     {
       "id": "l565",
-      "text": "\u26a1\ud83e\udd16 https://t.co/D0OdXFmcl8 \u2014 THE BEST AI PRODUCTS WON\u2019T FEEL LIKE SOFTWARE.\n\nThey\u2019ll feel like:\n\nSOMEONE ALREADY TOOK CARE OF IT.\n\nYour inbox?\n\nHandled.\n\nMeeting notes?\n\nOrganized.\n\nCustomer follow-ups?\n\nDrafted.\n\nResearch?\n\nDone.\n\nCalendar chaos?\n\nSorted.\n\nDocuments?\n\nUnderstood.\n\nTasks?\n\nPrioritized.\n\nYou don't open twelve dashboards.\n\nYou don't learn another complicated interface.\n\nYou just say:\n\n\u201cZoli, take care of this.\u201d\n\nAnd that's the opportunity inside:\n\nhttps://t.co/D0OdXFmcl8\n\nShort.",
+      "text": "BestBlogs Daily \u00b7 08-08 \u00b7 AI code trust gaps, tutor over-help, and Astra's critical cyber threshold",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "\u26a1\ud83e\udd16 https://t.co/D0OdXFmcl8 \u2014 THE BEST AI PRODUCTS WON\u2019T FEEL LIKE SOFTWARE.\n\nThe\u2026",
-          "url": "https://x.com/UpHonestReal/status/2091845196845637891",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "BestBlogs Daily \u00b7 08-08 \u00b7 AI code trust gaps, tutor over-help, and Astra's criti\u2026",
+          "url": "https://x.com/BestBlogsDev/status/2085884461003284697",
+          "date": "2026-08-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1400,16 +1412,16 @@
     },
     {
       "id": "l566",
-      "text": "BestBlogs Daily \u00b7 08-08 \u00b7 AI code trust gaps, tutor over-help, and Astra's critical cyber threshold",
+      "text": "The 86% Problem: Why Enterprise AI Agents Stall Between Pilot and Production",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "BestBlogs Daily \u00b7 08-08 \u00b7 AI code trust gaps, tutor over-help, and Astra's criti\u2026",
-          "url": "https://x.com/BestBlogsDev/status/2085884461003284697",
-          "date": "2026-08-08",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "The 86% Problem: Why Enterprise AI Agents Stall Between Pilot and Production",
+          "url": "https://x.com/MichaelGannotti/status/2075638080870973797",
+          "date": "2026-07-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1421,16 +1433,16 @@
     },
     {
       "id": "l567",
-      "text": "The 86% Problem: Why Enterprise AI Agents Stall Between Pilot and Production",
+      "text": "AI Is Helping Workers More Than Enterprises. Why That Will be a Problem for Hyperscalers...",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The 86% Problem: Why Enterprise AI Agents Stall Between Pilot and Production",
-          "url": "https://x.com/MichaelGannotti/status/2075638080870973797",
-          "date": "2026-07-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "AI Is Helping Workers More Than Enterprises. Why That Will be a Problem for Hype\u2026",
+          "url": "https://x.com/CalcusCal/status/2079378989462786480",
+          "date": "2026-07-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1442,16 +1454,16 @@
     },
     {
       "id": "l568",
-      "text": "AI Is Helping Workers More Than Enterprises. Why That Will be a Problem for Hyperscalers...",
+      "text": "Why HR, Business Leaders & Professionals Should Learn AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Is Helping Workers More Than Enterprises. Why That Will be a Problem for Hype\u2026",
-          "url": "https://x.com/CalcusCal/status/2079378989462786480",
-          "date": "2026-07-21",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Why HR, Business Leaders & Professionals Should Learn AI",
+          "url": "https://x.com/scsuniversal/status/2075941973954093188",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1463,16 +1475,16 @@
     },
     {
       "id": "l569",
-      "text": "Why HR, Business Leaders & Professionals Should Learn AI",
+      "text": "Enjoyed the article and some very good insights here, couple of follow up thoughts:\n\nThe early mover adv is real, and they\u2019ll need to stay ahead on the adoption curve to avoid everyone else in the industry doing the same and driving margins back down to the pre-AI norms, so the end goal of AI transformation needs to be self-improving loops with proprietary data - some source of edge has to be embedded in the workflows for durable value capture\n\nThe companies that do this need to be at a certain",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Why HR, Business Leaders & Professionals Should Learn AI",
-          "url": "https://x.com/scsuniversal/status/2075941973954093188",
+          "title": "Enjoyed the article and some very good insights here, couple of follow up though\u2026",
+          "url": "https://x.com/KSimback/status/2076016504412246225",
           "date": "2026-07-11",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1484,16 +1496,16 @@
     },
     {
       "id": "l570",
-      "text": "Enjoyed the article and some very good insights here, couple of follow up thoughts:\n\nThe early mover adv is real, and they\u2019ll need to stay ahead on the adoption curve to avoid everyone else in the industry doing the same and driving margins back down to the pre-AI norms, so the end goal of AI transformation needs to be self-improving loops with proprietary data - some source of edge has to be embedded in the workflows for durable value capture\n\nThe companies that do this need to be at a certain",
+      "text": "The End of Traditional IT Roles? How AI Is Reshaping Every Level of Tech",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Enjoyed the article and some very good insights here, couple of follow up though\u2026",
-          "url": "https://x.com/KSimback/status/2076016504412246225",
-          "date": "2026-07-11",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "The End of Traditional IT Roles? How AI Is Reshaping Every Level of Tech",
+          "url": "https://x.com/ITNewsBreaking/status/2071105266964189567",
+          "date": "2026-06-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1505,16 +1517,16 @@
     },
     {
       "id": "l571",
-      "text": "The End of Traditional IT Roles? How AI Is Reshaping Every Level of Tech",
+      "text": "@dubidubabap @dkfromdk \uc800\ub3c4 \uae08\uc735 \ucabd\uc73c\ub85c \uc0dd\uac01\ud588\uc5c8\ub294\ub370 \uc778\uc0ac\uc774\ud2b8 \uac10\uc0ac\ud569\ub2c8\ub2e4.\n\uc2e4\uc81c\ub85c \ud540\ud14c\ud06c\uc5d0\uc11c\ub294 Dave\ub77c\uace0 \ub124\uc624\ubc45\ud06c \uc0ac\uc5c5\uc744 AI\ub85c \uc9c4\ud589\ud574\uc11c \uc21c\uc218\uc775\ub960\uc744 \uadf9\ub300\ud654\ud558\uace0 \uc131\uc7a5\ub960\uc774 \ub192\uc740 \uae30\uc5c5\uc774 \uc788\ub294\ub370 \uc7ac\ubb34\uc7ac\ud45c\ub3c4 \uc88b\uace0, CEO \ub9c8\uc778\ub4dc\ub3c4 \ud6cc\ub96d\ud558\uace0(\uc790\uc0ac\uc8fc \uc18c\uac01) \uadfc\ub370 \ub108\ubb34 \uace0PER\uc774\ub77c\uc11c \ubb34\uc11c\uc6cc\uc11c \ub098\uc654\uc5c8\ub294\ub370 \uc880 \uc544\uc27d\ub124\uc5ec",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The End of Traditional IT Roles? How AI Is Reshaping Every Level of Tech",
-          "url": "https://x.com/ITNewsBreaking/status/2071105266964189567",
-          "date": "2026-06-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@dubidubabap @dkfromdk \uc800\ub3c4 \uae08\uc735 \ucabd\uc73c\ub85c \uc0dd\uac01\ud588\uc5c8\ub294\ub370 \uc778\uc0ac\uc774\ud2b8 \uac10\uc0ac\ud569\ub2c8\ub2e4.\n\uc2e4\uc81c\ub85c \ud540\ud14c\ud06c\uc5d0\uc11c\ub294 Dave\ub77c\uace0 \ub124\uc624\ubc45\ud06c \uc0ac\uc5c5\uc744 A\u2026",
+          "url": "https://x.com/seekingopp100/status/2075979418150019149",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1526,16 +1538,16 @@
     },
     {
       "id": "l572",
-      "text": "@dubidubabap @dkfromdk \uc800\ub3c4 \uae08\uc735 \ucabd\uc73c\ub85c \uc0dd\uac01\ud588\uc5c8\ub294\ub370 \uc778\uc0ac\uc774\ud2b8 \uac10\uc0ac\ud569\ub2c8\ub2e4.\n\uc2e4\uc81c\ub85c \ud540\ud14c\ud06c\uc5d0\uc11c\ub294 Dave\ub77c\uace0 \ub124\uc624\ubc45\ud06c \uc0ac\uc5c5\uc744 AI\ub85c \uc9c4\ud589\ud574\uc11c \uc21c\uc218\uc775\ub960\uc744 \uadf9\ub300\ud654\ud558\uace0 \uc131\uc7a5\ub960\uc774 \ub192\uc740 \uae30\uc5c5\uc774 \uc788\ub294\ub370 \uc7ac\ubb34\uc7ac\ud45c\ub3c4 \uc88b\uace0, CEO \ub9c8\uc778\ub4dc\ub3c4 \ud6cc\ub96d\ud558\uace0(\uc790\uc0ac\uc8fc \uc18c\uac01) \uadfc\ub370 \ub108\ubb34 \uace0PER\uc774\ub77c\uc11c \ubb34\uc11c\uc6cc\uc11c \ub098\uc654\uc5c8\ub294\ub370 \uc880 \uc544\uc27d\ub124\uc5ec",
+      "text": "Four Megatrends Shaping the Future of AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@dubidubabap @dkfromdk \uc800\ub3c4 \uae08\uc735 \ucabd\uc73c\ub85c \uc0dd\uac01\ud588\uc5c8\ub294\ub370 \uc778\uc0ac\uc774\ud2b8 \uac10\uc0ac\ud569\ub2c8\ub2e4.\n\uc2e4\uc81c\ub85c \ud540\ud14c\ud06c\uc5d0\uc11c\ub294 Dave\ub77c\uace0 \ub124\uc624\ubc45\ud06c \uc0ac\uc5c5\uc744 A\u2026",
-          "url": "https://x.com/seekingopp100/status/2075979418150019149",
-          "date": "2026-07-11",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Four Megatrends Shaping the Future of AI",
+          "url": "https://x.com/GoodVisionAI/status/2064274668148887901",
+          "date": "2026-06-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1547,16 +1559,16 @@
     },
     {
       "id": "l573",
-      "text": "Four Megatrends Shaping the Future of AI",
+      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Four Megatrends Shaping the Future of AI",
-          "url": "https://x.com/GoodVisionAI/status/2064274668148887901",
-          "date": "2026-06-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "youtube",
+          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth!\u2026",
+          "url": "https://www.youtube.com/watch?v=Cn8HBj8QAbk",
+          "date": "2026-03-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1568,16 +1580,16 @@
     },
     {
       "id": "l574",
-      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell\u2026",
+      "text": "Salesforce's Lukewarm Outlook Fuels AI Disruption Fear\nSalesforce gave a revenue outlook for the current period that fell just short of analysts\u2019 estimates. Revenue will be about $11.3 billion in the fiscal second quarter, which ends in July, Salesforce said Wednesday. The leading maker of customer management software is under pressure to show it can thrive in the AI era. Bloomberg's Neil Campling reports.\r\n--------\r\nMore on Bloomberg Television and Markets\r\n \r\nLike this video? Subscribe and tur\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth!\u2026",
-          "url": "https://www.youtube.com/watch?v=Cn8HBj8QAbk",
-          "date": "2026-03-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "title": "Salesforce's Lukewarm Outlook Fuels AI Disruption Fear\nSalesforce gave a revenue\u2026",
+          "url": "https://www.youtube.com/watch?v=n8iFewpFLBA",
+          "date": "2026-05-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1589,16 +1601,16 @@
     },
     {
       "id": "l575",
-      "text": "Salesforce's Lukewarm Outlook Fuels AI Disruption Fear\nSalesforce gave a revenue outlook for the current period that fell just short of analysts\u2019 estimates. Revenue will be about $11.3 billion in the fiscal second quarter, which ends in July, Salesforce said Wednesday. The leading maker of customer management software is under pressure to show it can thrive in the AI era. Bloomberg's Neil Campling reports.\r\n--------\r\nMore on Bloomberg Television and Markets\r\n \r\nLike this video? Subscribe and tur\u2026",
+      "text": "THE FIGMA LIE: Why Wall Street Is WRONG About AI Disruption\nFigma stock has plummeted 85% from its highs, but the data tells a completely different story. With over $1 billion in revenue and a 136% net dollar retention rate, is the market's fear of AI disruption justified or is this the ultimate value play? In this deep dive, we break down Figma's 2026 growth trajectory, analyze its world-class 90% gross margins, and run a full Discounted Cash Flow (DCF) model to reveal its true intrinsic value.\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Salesforce's Lukewarm Outlook Fuels AI Disruption Fear\nSalesforce gave a revenue\u2026",
-          "url": "https://www.youtube.com/watch?v=n8iFewpFLBA",
-          "date": "2026-05-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "title": "THE FIGMA LIE: Why Wall Street Is WRONG About AI Disruption\nFigma stock has plum\u2026",
+          "url": "https://www.youtube.com/watch?v=seD5pLVxqfQ",
+          "date": "2026-04-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-26"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1609,69 +1621,271 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l576",
-      "text": "THE FIGMA LIE: Why Wall Street Is WRONG About AI Disruption\nFigma stock has plummeted 85% from its highs, but the data tells a completely different story. With over $1 billion in revenue and a 136% net dollar retention rate, is the market's fear of AI disruption justified or is this the ultimate value play? In this deep dive, we break down Figma's 2026 growth trajectory, analyze its world-class 90% gross margins, and run a full Discounted Cash Flow (DCF) model to reveal its true intrinsic value.\u2026",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "l476",
+      "text": "Business Analyst (500720) \u2014 Department of Health, Tasmania (West Coast, Tasmania, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "youtube",
-          "title": "THE FIGMA LIE: Why Wall Street Is WRONG About AI Disruption\nFigma stock has plum\u2026",
-          "url": "https://www.youtube.com/watch?v=seD5pLVxqfQ",
-          "date": "2026-04-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "publisher": "Department of Health, Tasmania",
+          "title": "Business Analyst (500720)",
+          "url": "https://www.linkedin.com/jobs/view/4455818877",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l477",
+      "text": "Commercial and Business Support Analyst \u2014 Veolia | Australia & New Zealand (Rocklea, Queensland, Australia). Posted 3 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Veolia | Australia & New Zealand",
+          "title": "Commercial and Business Support Analyst",
+          "url": "https://www.linkedin.com/jobs/view/4418086573",
+          "date": "3 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l478",
+      "text": "Strategy Analyst \u2014 Australia Post (Cremorne, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Australia Post",
+          "title": "Strategy Analyst",
+          "url": "https://www.linkedin.com/jobs/view/4454500085",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l479",
+      "text": "Business Analyst \u2014 Port of Townsville Limited (Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Port of Townsville Limited",
+          "title": "Business Analyst",
+          "url": "https://www.linkedin.com/jobs/view/4452078973",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l480",
+      "text": "Business Improvement Analyst \u2014 Saab Australia (Adelaide, South Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Saab Australia",
+          "title": "Business Improvement Analyst",
+          "url": "https://www.linkedin.com/jobs/view/4455344739",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l481",
+      "text": "Performance & Reporting Manager \u2014 Downer (Adelaide, South Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Downer",
+          "title": "Performance & Reporting Manager",
+          "url": "https://www.linkedin.com/jobs/view/4455505126",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l482",
+      "text": "Developments and Projects Analyst \u2014 Trend Personnel Recruitment Services (Gold Coast, Queensland, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Trend Personnel Recruitment Services",
+          "title": "Developments and Projects Analyst",
+          "url": "https://www.linkedin.com/jobs/view/4456065974",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l483",
+      "text": "Business Strategy Coordinator \u2014 Toyota Motor Corporation Australia (Altona North, Victoria, Australia). Posted 21 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Toyota Motor Corporation Australia",
+          "title": "Business Strategy Coordinator",
+          "url": "https://www.linkedin.com/jobs/view/4456969454",
+          "date": "21 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l484",
+      "text": "Performance Portfolio Analyst \u2014 Scania Australia (Campbellfield, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Scania Australia",
+          "title": "Performance Portfolio Analyst",
+          "url": "https://www.linkedin.com/jobs/view/4456172023",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l485",
+      "text": "AIC Officer \u2014 Austal (Fremantle, Western Australia, Australia). Posted 4 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Austal",
+          "title": "AIC Officer",
+          "url": "https://www.linkedin.com/jobs/view/4443286221",
+          "date": "4 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     }
   ],
   "jobAds": {
-    "source": "adzuna-au",
-    "query": "management analysts",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
+    "source": "workforce-australia-vacancy-count",
+    "query": "ANZSCO 224711 Management Consultant vacancy listing",
+    "window": "retrieved 2026-08-25",
+    "count": 169,
+    "topEmployers": [],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
+      "Communication Skills",
+      "Change Management",
+      "Stakeholder Management",
+      "Project Management",
+      "Building Relationships"
     ]
   },
   "corpus": {
     "platforms": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Management Analysts Association discourse",
-        "items": 45
+        "name": "reddit",
+        "scope": "r/consulting, r/managementconsulting, r/Big4 via last30days",
+        "items": 16
+      },
+      {
+        "name": "hackernews",
+        "scope": "last30days sweep",
+        "items": 31
+      },
+      {
+        "name": "youtube",
+        "scope": "last30days sweep",
+        "items": 2
+      },
+      {
+        "name": "github",
+        "scope": "last30days sweep",
+        "items": 32
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
-    "linkedin": [
+    "retrieved": "2026-08-25",
+    "searchesReturningNothing": [
+      "grounding: unreachable (keyless web search unavailable)",
+      "polymarket: ran, no results",
+      "x: unauthenticated (bird_authenticated false) - coverage degraded, not recorded as silence",
+      "tiktok/instagram: skipped-unconfigured (no ScrapeCreators key)",
+      "adzuna-au: no API credentials configured - L4 falls back to Workforce Australia public vacancy count"
+    ],
+    "factivaBackfill": [
       {
-        "date": "2026-08-29",
-        "soc": "13-1111",
-        "query": "Management Analyst",
-        "location": "Australia",
-        "returned": 10,
-        "totalResults": 10,
-        "status": "sampled"
+        "date": "2026-08-26",
+        "added": 6,
+        "status": "backfilled"
       }
     ],
     "l5Sample": [
       {
-        "date": "2026-08-29",
+        "date": "2026-08-26",
         "added": 64,
         "sources": {
           "github": 7,
@@ -1684,9 +1898,24 @@
         },
         "status": "sampled"
       }
+    ],
+    "linkedin": [
+      {
+        "date": "2026-08-27",
+        "soc": "13-1111",
+        "query": "Management Analyst",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
     ]
   },
-  "confidence": "high",
-  "caveats": [],
-  "researchMethod": "empirical-five-lane-v1"
+  "confidence": "medium",
+  "caveats": [
+    "L3-led claim set graded medium because Factiva was unavailable (constraint 3).",
+    "L4 uses Workforce Australia's public ANZSCO vacancy count instead of Adzuna: no Adzuna API credentials are configured on this machine.",
+    "The L2 claims describe construction-sector client organisations, which are adjacent to rather than identical with the destination profession.",
+    "2026-08-29: restored from the genuine 2026-08-27 research (git rev bf79597) after a concurrent session's broad commit (4a6cbae) accidentally overwrote it with pre-existing fabricated content. See docs/tasks/dfva-profession-discourse.SKILL.md, 'Fabrication incident 2026-08-24'."
+  ]
 }

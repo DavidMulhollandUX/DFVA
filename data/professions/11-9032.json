@@ -1,5 +1,6 @@
 {
   "onet_soc_code": "11-9032",
+  "researchMethod": "empirical-five-lane-v1",
   "title": "Education Administrators, Elementary and Secondary School",
   "aliases": [
     "Deputy Principal",
@@ -8,111 +9,2238 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-27",
+    "to": "2026-08-27"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
-  "programs": [
-    "mc-inslead"
-  ],
+  "generated": "2026-08-27",
+  "expires": "2027-02-27",
+  "programs": [],
   "claims": [
     {
-      "id": "11-9032-01",
-      "text": "National peak professional bodies and statutory regulators governing Education Administrators, Elementary and Secondary School enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "id": "l1r01",
       "lane": "L1",
-      "tier": "regulatory",
+      "tier": "regulatory-policy",
+      "text": "The Australian Framework for Generative Artificial Intelligence (AI) in Schools, endorsed by Education Ministers in June 2025 after the National AI in Schools Taskforce review, guides responsible and ethical GenAI use by all school-connected people including school leaders, and makes clear tools must respect privacy, comply with Australian law and protect student data.",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Education Administrators, Elementary and Secondary School",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Education Administrators, Elementary and Secondary School",
-          "url": "https://www.psc.gov.au/standards/11-9032",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Education Administrators, Elementary and Secondary School"
+          "publisher": "Australian Department of Education",
+          "title": "Australian Framework for Generative Artificial Intelligence (AI) in Schools",
+          "url": "https://education.gov.au/schooling/resources/australian-framework-generative-artificial-intelligence-ai-schools",
+          "date": "2025-06",
+          "whatItMeasured": "National framework (6 principles, 25 guiding statements) for GenAI in Australian schools, endorsed by Education Ministers"
         }
       ],
-      "scope": "Australian practitioners in Education Administrators, Elementary and Secondary School across public, private, and research sectors.",
+      "scope": "Australian school leaders, teachers, support staff, students, parents across all sectors.",
       "disposition": "sourced",
-      "supersedes": null,
       "bearing": [
         "C3",
         "W1",
         "G1"
       ],
       "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "refuteNotes": "Department of Education framework; endorsed by Education Ministers June 2025."
     },
     {
-      "id": "11-9032-02",
-      "text": "Automation of routine transactional and analytical tasks in Education Administrators, Elementary and Secondary School heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
-      "lane": "L2",
-      "tier": "scholarly",
+      "id": "l1r02",
+      "lane": "L1",
+      "tier": "professional-standard",
+      "text": "AITSL's Australian Professional Standard for Principals frames what principals and school leaders are expected to know, understand and do, and is the reference point for how school leaders embed responsible technology use including GenAI into instructional leadership.",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Education Administrators, Elementary and Secondary School",
-          "url": "https://www.jobsandskills.gov.au/research/11-9032",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Education Administrators, Elementary and Secondary School in Australia"
+          "publisher": "AITSL",
+          "title": "Australian Professional Standard for Principals",
+          "url": "https://www.aitsl.edu.au/tools-resources/resource/australian-professional-standard-for-principals",
+          "date": "",
+          "whatItMeasured": "National leadership standard for principals"
         }
       ],
-      "scope": "Entry-level and senior Education Administrators, Elementary and Secondary School roles in Australia.",
+      "scope": "Australian school principals and school leaders.",
       "disposition": "sourced",
-      "supersedes": null,
       "bearing": [
-        "C4",
-        "W2",
-        "G2"
+        "G1"
       ],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "AITSL national standard; public resource."
+    },
+    {
+      "id": "l2r01",
+      "lane": "L2",
+      "tier": "scholarly",
+      "text": "A study of senior Australian educational policymakers and system leaders finds they identify responsible and ethical GenAI implementation in schools as a priority but flag constraints including teacher capacity, student access and equity as central challenges.",
+      "sources": [
+        {
+          "publisher": "Springer / The Australian Educational Researcher",
+          "title": "What generative Artificial Intelligence priorities and challenges do senior Australian educational policy makers identify (and why)?",
+          "url": "https://link.springer.com/article/10.1007/s13384-025-00801-z",
+          "date": "2025",
+          "whatItMeasured": "Survey + focus groups with senior Australian education policymakers/leaders on GenAI priorities and challenges"
+        }
+      ],
+      "scope": "Senior Australian education system leaders and policymakers; not school-level practitioners.",
+      "disposition": "sourced",
+      "bearing": [
+        "C3",
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Peer-reviewed; population is senior system leaders, scoped accordingly."
+    },
+    {
+      "id": "l3r01",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "text": "A Learning First report drawing on a 2025 survey of almost 3,400 teachers and more than 750 school leaders across NSW government, Catholic and independent schools finds about 80% of those whose students use AI for schoolwork are worried about its impact, and about half of secondary teachers say they do not know how to prevent AI plagiarism.",
+      "sources": [
+        {
+          "publisher": "ACS / Information Age (reporting Learning First)",
+          "title": "Australian students using AI to complete assessments",
+          "url": "https://ia.acs.org.au/article/2026/australian-students-using-ai-to-complete-assessments.html",
+          "date": "2026",
+          "whatItMeasured": "Media report on Learning First survey of ~3,400 teachers and 750 school leaders, NSW, 2025"
+        }
+      ],
+      "scope": "NSW school teachers and leaders (survey population); findings about student AI use and leader concern.",
+      "disposition": "sourced",
+      "bearing": [
+        "W1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Trade-press report of a named survey with stated sample; NSW-scoped."
+    },
+    {
+      "id": "l509",
+      "text": "What breaks in production AI workflows?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l510",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l511",
+      "text": "How al-Qaida and IS are adopting AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "How al-Qaida and IS are adopting AI",
+          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l512",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l513",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l514",
+      "text": "Adults have struggled to set rules for AI in school. These teens figured it out",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Adults have struggled to set rules for AI in school. These teens figured it out",
+          "url": "https://text.npr.org/nx-s1-5853571",
+          "date": "2026-08-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l515",
+      "text": "Structured Evaluation Pipelines to Improve Your AI Workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Structured Evaluation Pipelines to Improve Your AI Workflows",
+          "url": "https://heltweg.org/posts/structured-evaluation-pipelines-to-improve-your-ai-workflows/",
+          "date": "2026-07-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l516",
+      "text": "The death of AI workflow builders",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l517",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l518",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l519",
+      "text": "Norway's school AI ban is the wrong thing to do.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Norway's school AI ban is the wrong thing to do.",
+          "url": "https://coffee.link/norway-is-banning-the-wrong-thing/",
+          "date": "2026-06-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l520",
+      "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Adapting Fossil-scm as a platform for AI agentic workflow",
+          "url": "https://github.com/BenSiv/fossil-scm",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l521",
+      "text": "What is agentic AI today, and what do we want it to be?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l522",
+      "text": "My AI-Assisted Workflow",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l523",
+      "text": "The AI School Bus Camera Company Blanketing America in Tickets",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The AI School Bus Camera Company Blanketing America in Tickets",
+          "url": "https://www.bloomberg.com/news/features/2026-04-14/buspatrol-school-bus-traffic-tickets-have-limited-safety-benefits-critics-say",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l524",
+      "text": "AI Workflows Need Topological Sort",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI Workflows Need Topological Sort",
+          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l525",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l526",
+      "text": "Ask HK: How are you building AI apps today?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l527",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l528",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l529",
+      "text": "The Problem with AI Today",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l530",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l531",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l532",
+      "text": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+          "url": "https://www.getcore.me/",
+          "date": "2026-04-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l533",
+      "text": "(repost) My school used Ai for our senior shirts\ud83e\udd26\u200d\u2640\ufe0f\nYes this is a repost, another commenter had pointed out that I didn\u2019t mark out my name.. So if you\u2019ve seen this already I apologize. My last name is wrong, my smile is completely gone.. Again, I want to laugh by why? How lazy can you be to AI this???? A little update: I talked to the main principal, he agreed they looked different and directed me to the assistant principal so that I can get a remake or a refund.. At first she said they looked \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "(repost) My school used Ai for our senior shirts\ud83e\udd26\u200d\u2640\ufe0f\nYes this is a repost, anoth\u2026",
+          "url": "https://www.reddit.com/r/antiai/comments/1vfmxrj/repost_my_school_used_ai_for_our_senior_shirts/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l534",
+      "text": "Students from my school made videos of some teachers with AI\nThe following story is about my experience with AI. This whole thing happened last school year. I\u2019m a young male teacher. I\u2019m working in a highschool (it\u2019s also an elementary school but I don\u2019t teach in that part of it) in Hungary. One day I taught a class and a student asked me: Did You see the videos? I asked: What videos? Then she showed me three shorts from TikTok. All of them had our teachers (including me) as characters. These we\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Students from my school made videos of some teachers with AI\nThe following story\u2026",
+          "url": "https://www.reddit.com/r/antiai/comments/1vwsfib/students_from_my_school_made_videos_of_some/",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l535",
+      "text": "AI robot Principals?\nI was reading about the New York State school district that considered them reversed it\u2019s idea of having an AI robot in the classroom. Maybe we would be convinced it could work if we saw a proof of concept with an AI Principal? \ud83d\ude06\ud83d\ude06\ud83e\udd23\ud83e\udd23\ud83e\udd16\ud83e\udd16 &#32; submitted by &#32; /u/MuMusGoldenApple &#32; to &#32; r/Teachers [link] &#32; [comments]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI robot Principals?\nI was reading about the New York State school district that\u2026",
+          "url": "https://www.reddit.com/r/Teachers/comments/1vdhesr/ai_robot_principals/",
+          "date": "2026-08-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l536",
+      "text": "Platform AI Scans Private Snapchat Message Containing \u201cShoot\u201d Language, Auto-Reports to FBI, Leading to School Arrest of Student Teacher\nOn January 29, 2025, Kristen Volpe, a 22-year-old student teacher at John L. Hensey Elementary School in Washington, Illinois, became frustrated when a student closed her laptop mid-lesson, disrupting the prepared lesson plan. She sent a private Snapchat communication limited to three recipients (reported as boyfriend and roommates) that included language askin\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Platform AI Scans Private Snapchat Message Containing \u201cShoot\u201d Language, Auto-Rep\u2026",
+          "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vbwmvk/platform_ai_scans_private_snapchat_message/",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l537",
+      "text": "\"AI-Powered Private School\" \ud83e\udd2e\nAlpha School Website Someone I worked with like 14 years ago posted this on Facebook claiming &quot;they use AI tools for two hours then the remaining time is spent interactively learning. They learn about credit cards, stock markets, YouTube etc.&quot; and that they&#39;re &quot;crushing test scores.&quot; I looked through the website and watched their video, and man, this is bleak and probably only the beginning of this type of crap. It&#39;s impossible to tell ho\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "\"AI-Powered Private School\" \ud83e\udd2e\nAlpha School Website Someone I worked with like 14\u2026",
+          "url": "https://www.reddit.com/r/Teachers/comments/1v96xfs/aipowered_private_school/",
+          "date": "2026-07-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l538",
+      "text": "The Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of Professional Expertise\nThe Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of Professional Expertise https://arxiv.org/pdf/2607.29380 Discussion on Hacker News https://news.ycombinator.com/item?id=49245359 &#32; submitted by &#32; /u/RNSAFFN &#32; to &#32; r/PoisonFountain [link] &#32; [comments]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of P\u2026",
+          "url": "https://www.reddit.com/r/PoisonFountain/comments/1vkxkqc/the_tragedy_of_the_cognitive_commons_how_ai_could/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l539",
+      "text": "The Day AI Learned to Spend",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Day AI Learned to Spend",
+          "url": "https://x.com/Heisrae_Vibez/status/2091758783663890666",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l540",
+      "text": "The brewing tension between \u201cBiohackers\u201d / \u201cPeptide Rats\u201d and the old-school AAS Boomer/Gen X crowd\n\nIt\u2019s no secret.\n\nA lot of people are burned out on the term biohacking.\n\nMy handle is BiohackerJake and I\u2019m not changing it at this point, but I get it. People are tired of the AI-generated posts, tired of every single compound being treated like the next massive needle-mover, and tired of watching people stack a million things at once. I\u2019ve been guilty of the last one myself. When X is a big par",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The brewing tension between \u201cBiohackers\u201d / \u201cPeptide Rats\u201d and the old-school AAS\u2026",
+          "url": "https://x.com/BiohackerJake/status/2091601499562590571",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l541",
+      "text": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years | Simonroses\n\nWork is not disappearing. The job is. The salaried, 9-to-5, one-employer-for-decades package we call \u201ca job\u201d is an industrial-age artifact, and AI agents plus humanoid robots are dismantling it piece by piece. Over the next 10 years, repetitive, risky, and simple tasks get automated at both ends: cognitive work by agents, physical work by robots. The 9-to-5 schedule dies first. Remote and hybrid work kee",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Death of the Job: How AI and Robots Will Rewrite Work in the Next 10 Years |\u2026",
+          "url": "https://x.com/OwenGregorian/status/2091137764980912401",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l542",
+      "text": "Everything Goldman Sachs Taught Me About AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Everything Goldman Sachs Taught Me About AI",
+          "url": "https://x.com/nateherk/status/2091897123860050090",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l543",
+      "text": "#Vietnam to include #AI in the school curriculum nationwide\n\nThis just a week after Vietnam announced a goal to equip 10 million workers with AI skills by 2030.\n\nStarting from the 2026\u20132027 academic year, all general education students in Vietnam will receive structured AI education under a new framework issued by the Ministry of Education and Training.\n\nEvery class will have 12 periods of core AI content per academic year.\n\nThe program is designed to build AI competencies from an early age and",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "#Vietnam to include #AI in the school curriculum nationwide\n\nThis just a week af\u2026",
+          "url": "https://x.com/Carlosa_DaNang/status/2091724724070146522",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l544",
+      "text": "AI #174: You're It",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI #174: You're It",
+          "url": "https://x.com/TheZvi/status/2070111326244913433",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l545",
+      "text": "Psychohistory for the Age of\u00a0AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Psychohistory for the Age of\u00a0AI",
+          "url": "https://x.com/sebastian_rtj/status/2092335283492544791",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l546",
+      "text": "Five samurai moves that make AI pay off",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Five samurai moves that make AI pay off",
+          "url": "https://x.com/alexandrekerner/status/2092259675244769715",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l547",
+      "text": "TERAFAB\n\nNEW TODAY\n- Folder now 174 posts (9 new since Aug 24)\n- Testers (cb_doge): fully signed 34-page tax agreement among the Governor\u2019s Office, Anderson-Shiro CISD, and TeraFab AI published; construction Dec 1, 2026\u2013Dec 31, 2028; 10-year school M&O incentive 2029\u20132038 (qualifying value $0 during construction, 50% of market during the incentive window); $12.98M performance bond. Dump-only; not Official Tesla/SpaceX.\n- Testers (cb_doge / tslaming / muskonomy): Phases 2 and 3 Texas Comptroller",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "TERAFAB\n\nNEW TODAY\n- Folder now 174 posts (9 new since Aug 24)\n- Testers (cb_dog\u2026",
+          "url": "https://x.com/arthur_win8/status/2092615188591849981",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "text": "Alexa and others are just too limiting, not to mention since they're cloud based I worry with the amount of access to my personal data they'd have for the type of system I want. In my late teens I remember reading about Bill Gates' smart home and wanting something like that. When Eureka came out (loved that show) and I saw that smart house in it, I knew I wanted something just like that one day. Something far more than just, \"Hey, stupid AI...play music, set a timer, answer a question, or turn o",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Alexa and others are just too limiting, not to mention since they're cloud based\u2026",
+          "url": "https://x.com/CarlB_jr/status/2092095017695219995",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l549",
+      "text": "AI IS ALREADY CREATING NEW MILLIONAIRES: HOW PEOPLE ARE MAKING MONEY WITH ARTIFICIAL INTELLIGENCE IN",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI IS ALREADY CREATING NEW MILLIONAIRES: HOW PEOPLE ARE MAKING MONEY WITH ARTIFI\u2026",
+          "url": "https://x.com/mistersx16/status/2090891081864851963",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l550",
+      "text": "AI-Native Organization in Practice: From FDE to FDB to an OPC Incubator",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI-Native Organization in Practice: From FDE to FDB to an OPC Incubator",
+          "url": "https://x.com/memoria_ai/status/2092559972752388437",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l551",
+      "text": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in the Room",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th\u2026",
+          "url": "https://x.com/essexmaelstrom/status/2091841889372635517",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l552",
+      "text": "My two cents on this. I just ranted about it in Telegram too.\nI have no issue with people buying cheap overseas. We all know a lot of it is the same product at the end of the day.\nThere\u2019s a difference between a 21-year-old who just got online and is still feeling things out\u2026 and a beast like @Roastbeast26 who actually knows how to source properly.\nUS vendors are an option that gives you more \u201cinsurance.\u201d They usually have a direct relationship with the overseas warehouses, and those warehouses a",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "My two cents on this. I just ranted about it in Telegram too.\nI have no issue wi\u2026",
+          "url": "https://x.com/BiohackerJake/status/2092646461393502231",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l553",
+      "text": "As per general procedure, assuming Ox Alpha releases tonight: Very brief note in the weekly that this exists, decision on level of coverage made over the weekend, a full post would be Monday or Tuesday if it warrants one. \n\nI can see this going either way. Still very early. Maybe Something Happened, maybe not.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "As per general procedure, assuming Ox Alpha releases tonight: Very brief note in\u2026",
+          "url": "https://x.com/TheZvi/status/2092632693359919180",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "Call me butter I\u2019m on a roll \ud83e\udd23 \n\nCheck out BioLongevity Labs @BioLongevityUSA with Code Optimized15! \n\n(Emphasis that 15 at the end and don\u2019t be like Chris and forget it)\n\nTons of research on sale!\n\n\ud83e\udef5 know what research you should be doing.\n\nIt\u2019s time to eat.\n\nIt\u2019s time to pick up the fork!\n\nCommit to the bulk!\n\nOr if your like me, Just stay the same size and keep finding new veins every week and be content with that.\n\ud83e\udd37\u200d\u2642\ufe0f \n\nBut the choice is yours!\n\nDon\u2019t chew the granola bar!\n\nLFG",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Call me butter I\u2019m on a roll \ud83e\udd23 \n\nCheck out BioLongevity Labs @BioLongevityUSA wi\u2026",
+          "url": "https://x.com/BiohackerJake/status/2092642887737417857",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "@allTheYud How bad is it to have some gradient pointing in another direction some of the time? Why is that not survivable? How is that not inevitable the moment you are maximizing more than one thing? Etc.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@allTheYud How bad is it to have some gradient pointing in another direction som\u2026",
+          "url": "https://x.com/TheZvi/status/2092587249217016224",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "@BowTiedPep Most people cant even deal with Amazon being late 1 day.\n\nImagine $500 peptide order being seized and money gone lmao",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@BowTiedPep Most people cant even deal with Amazon being late 1 day.\n\nImagine $5\u2026",
+          "url": "https://x.com/BiohackerJake/status/2092648965112009028",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "100%",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "100%",
+          "url": "https://x.com/BiohackerJake/status/2092648360293413222",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "@8teAPi was this always true? I remember it used to not seem like it was true. and it's not always true, since I've gotten op-eds.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@8teAPi was this always true? I remember it used to not seem like it was true. a\u2026",
+          "url": "https://x.com/TheZvi/status/2092567539536499038",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "@tonymission @Alice_MiaX Can you buy the affiliates like a go-cart or something?\n\ud83e\udd13\n\nYour rolling! \ud83d\ude0e",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@tonymission @Alice_MiaX Can you buy the affiliates like a go-cart or something?\u2026",
+          "url": "https://x.com/BiohackerJake/status/2092649267546468778",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "@Big_khaddyy @MEXC_AfricaBU congrats, mk. \ud83c\udf89\ud83d\udc9c",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Big_khaddyy @MEXC_AfricaBU congrats, mk. \ud83c\udf89\ud83d\udc9c",
+          "url": "https://x.com/Heisrae_Vibez/status/2092653779837391134",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "@Roastbeast26 @BioLongevityUSA Check your DM Roasttttttt",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Roastbeast26 @BioLongevityUSA Check your DM Roasttttttt",
+          "url": "https://x.com/BiohackerJake/status/2092645249327755734",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "@bigchog allow them. \ud83d\ude2d\ud83d\ude02\ud83d\ude02",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@bigchog allow them. \ud83d\ude2d\ud83d\ude02\ud83d\ude02",
+          "url": "https://x.com/Heisrae_Vibez/status/2092653723835122141",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "@BowTiedPep 100% \nThe savy people will be fine.\n\nBut most aren\u2019t.\n\nI always support if you know how to do it, do it.\n\nBut people aren\u2019t able to tie their shoes sometimes.\n\nlol",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@BowTiedPep 100% \nThe savy people will be fine.\n\nBut most aren\u2019t.\n\nI always supp\u2026",
+          "url": "https://x.com/BiohackerJake/status/2092649771575947321",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "@1PotatoDog @nsokolsky eh that's priced in",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@1PotatoDog @nsokolsky eh that's priced in",
+          "url": "https://x.com/TheZvi/status/2092655033984635347",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "@DanielParker_13 @calxolotl @allTheYud As opposed to my name. https://t.co/8tjXzADbFt",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@DanielParker_13 @calxolotl @allTheYud As opposed to my name. https://t.co/8tjXz\u2026",
+          "url": "https://x.com/TheZvi/status/2092610803706847657",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "@AndrewCurran_ @TheZvi Same is exception with google. Hope we hear something good from google",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@AndrewCurran_ @TheZvi Same is exception with google. Hope we hear something goo\u2026",
+          "url": "https://x.com/ai_amitkhera/status/2092636913157152839",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "@Heisrae_Vibez @MEXC_AfricaBU Thank you \ud83d\ude0a",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Heisrae_Vibez @MEXC_AfricaBU Thank you \ud83d\ude0a",
+          "url": "https://x.com/Big_khaddyy/status/2092654725292327406",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "@PoNickles @DrMarcoMayor @BiohackerJake @TheCaddieYardFL lol",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@PoNickles @DrMarcoMayor @BiohackerJake @TheCaddieYardFL lol",
+          "url": "https://x.com/TarzanCrypto/status/2092655733552673100",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "@CoachMarcosCSC @BiohackerJake Hgh is measured in IU because complex proteins can be more or less biologically potent with the same weight. \n\nEach IU is approximately .33mg. Just treat the ius as mgs. It simplifies the dosing and accounts for variation in the potency",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@CoachMarcosCSC @BiohackerJake Hgh is measured in IU because complex proteins ca\u2026",
+          "url": "https://x.com/demmons35/status/2092653543505174786",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "@ruth_ekanem wow! your first blue tick?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@ruth_ekanem wow! your first blue tick?",
+          "url": "https://x.com/Heisrae_Vibez/status/2092653351376658874",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "@waleswoosh i don't use TikTok, that app bores me.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@waleswoosh i don't use TikTok, that app bores me.",
+          "url": "https://x.com/Heisrae_Vibez/status/2092653048325611733",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "@TheDefiBunnny @Big_khaddyy @silverpenydr congrats, bunnny.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TheDefiBunnny @Big_khaddyy @silverpenydr congrats, bunnny.",
+          "url": "https://x.com/Heisrae_Vibez/status/2092652020498936061",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "@thisisema22 biggest ema! \ud83d\udc9c",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@thisisema22 biggest ema! \ud83d\udc9c",
+          "url": "https://x.com/Heisrae_Vibez/status/2092651841242689569",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "@ledoraeth happy wednesday, Ledora.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@ledoraeth happy wednesday, Ledora.",
+          "url": "https://x.com/Heisrae_Vibez/status/2092651723563073763",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "@ChloeDefi happy wednesday, Chloe.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@ChloeDefi happy wednesday, Chloe.",
+          "url": "https://x.com/Heisrae_Vibez/status/2092651642923503731",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "text": "@SheilaRose_xiii Is his stupid ass named DJR?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@SheilaRose_xiii Is his stupid ass named DJR?",
+          "url": "https://x.com/BiohackerJake/status/2092652199574708253",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "text": "@a_just_john @robbensinger Community notes things are great and we should do more of those, and that does seem like a good Pangram fit.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@a_just_john @robbensinger Community notes things are great and we should do mor\u2026",
+          "url": "https://x.com/TheZvi/status/2092631480606327236",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l578",
+      "text": "@LouisLibre Fixed? \ud83e\udd23",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@LouisLibre Fixed? \ud83e\udd23",
+          "url": "https://x.com/TheZvi/status/2092611386769596861",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l579",
+      "text": "@joshcmorrison can be good, but definitely had some Gell-Mann Amnesia moments with the news section",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@joshcmorrison can be good, but definitely had some Gell-Mann Amnesia moments wi\u2026",
+          "url": "https://x.com/TheZvi/status/2092567643962130898",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l580",
+      "text": "@nsokolsky @TheZvi Probably not that good considering he thinks we\u2019re all gonna die",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@nsokolsky @TheZvi Probably not that good considering he thinks we\u2019re all gonna \u2026",
+          "url": "https://x.com/1PotatoDog/status/2092641590426656877",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l581",
+      "text": "\"The American People Really Hate Data Centers\" https://t.co/ZHqcOGF9dR @TheZvi https://t.co/rSlICOcjjq",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\"The American People Really Hate Data Centers\" https://t.co/ZHqcOGF9dR @TheZvi h\u2026",
+          "url": "https://x.com/StefanW/status/2092635945698722098",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l582",
+      "text": "@TheZvi https://t.co/bXt4OjPnf0",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TheZvi https://t.co/bXt4OjPnf0",
+          "url": "https://x.com/paperclippriors/status/2092634760954716642",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l583",
+      "text": "@TheZvi Benches are out; looks good but not crazy, I don't think it beats V4 Flash by very much. I also suspect there will be bigger fish to fry by Monday and Tuesday of next week (no info, just vibes)\n\nWeirdly, poltymarket says there's a &gt;40% chance of new Mythos in August (this week)",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TheZvi Benches are out; looks good but not crazy, I don't think it beats V4 Fla\u2026",
+          "url": "https://x.com/paperclippriors/status/2092634690804953578",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l584",
+      "text": "@Heisrae_Vibez @sixsevenapp Woww I'll be there",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Heisrae_Vibez @sixsevenapp Woww I'll be there",
+          "url": "https://x.com/LT_Navarro/status/2092656640294088933",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l585",
+      "text": "@Heisrae_Vibez Yeah\ud83d\ude02\ud83d\ude02",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Heisrae_Vibez Yeah\ud83d\ude02\ud83d\ude02",
+          "url": "https://x.com/Defi_nomzy/status/2092656256003506630",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l586",
+      "text": "@Heisrae_Vibez @sixsevenapp Thanks for the update Rae",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Heisrae_Vibez @sixsevenapp Thanks for the update Rae",
+          "url": "https://x.com/Defi_nomzy/status/2092656190362735027",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l587",
+      "text": "@Heisrae_Vibez \ud83d\ude02\ud83d\ude02",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Heisrae_Vibez \ud83d\ude02\ud83d\ude02",
+          "url": "https://x.com/ox_reyy/status/2092653498626125946",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l588",
+      "text": "@BiohackerJake Yep...Ive had a number of China manufactures contact me with USA warehouses, I just thank them politely and move on.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@BiohackerJake Yep...Ive had a number of China manufactures contact me with USA \u2026",
+          "url": "https://x.com/TarzanCrypto/status/2092653614992876007",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l589",
+      "text": "@BiohackerJake @BioLongevityUSA https://t.co/xcJzl1niQO",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@BiohackerJake @BioLongevityUSA https://t.co/xcJzl1niQO",
+          "url": "https://x.com/TheCaddieYardFL/status/2092653123739279851",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l590",
+      "text": "@BiohackerJake Trusted vendor inside the United States is always better!",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@BiohackerJake Trusted vendor inside the United States is always better!",
+          "url": "https://x.com/mstyhodler/status/2092652396656656671",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l591",
+      "text": "Teacher Uses AI ROBOTS To CATCH CHEATERS | Dhar Mann Studios\n\ud83c\udfac Join Our Community \ud83d\udc99 the Dhar Mann Studios Discord is open now, join here: http://discord.gg/Tg5yfpSukK\n\nA group of high school students must expose a corrupt robotics CEO and their compromised principal after an AI \u201crobot proctor\u201d meant to stop cheating begins falsely accusing innocent students\u2014threatening their futures and turning their school into a surveillance nightmare. \n\nWatch our latest episode \u279e https://www.youtube.com/watch\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Teacher Uses AI ROBOTS To CATCH CHEATERS | Dhar Mann Studios\n\ud83c\udfac Join Our Communit\u2026",
+          "url": "https://www.youtube.com/watch?v=JeOCvwntTwU",
+          "date": "2026-03-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l592",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har\u2026",
+          "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l593",
+      "text": "Disclosure Day Review\nSteven Spielberg is back in theaters, and he's brought aliens with him for the first time in years. Disclosure Day is a very welcome return to blockbuster filmmaking for the director who pioneered it 50 years ago with Jaws. And while Disclosure Day provides all the things Spielberg does best, with some incredible lighting and camera movement, great performances from leads Emily Blunt and Josh O'Connor, the story of disclosing the existence of alien life to the entire world \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Disclosure Day Review\nSteven Spielberg is back in theaters, and he's brought ali\u2026",
+          "url": "https://www.youtube.com/watch?v=b0XXF_GCVjk",
+          "date": "2026-06-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l490",
+      "text": "Deputy Principal - Secondary \u2014 Department of Education, Western Australia (Kimberley, Western Australia, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Education, Western Australia",
+          "title": "Deputy Principal - Secondary",
+          "url": "https://www.linkedin.com/jobs/view/4455606597",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l491",
+      "text": "Principal \u2014 Department of Education, Western Australia (South Doodlakine, Western Australia, Australia). Posted 4 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Education, Western Australia",
+          "title": "Principal",
+          "url": "https://www.linkedin.com/jobs/view/4444121275",
+          "date": "4 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l492",
+      "text": "Expressions of Interest - Shelford Campus Opportunities \u2014 Caulfield Grammar School (Caulfield, Victoria, Australia). Posted 3 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Caulfield Grammar School",
+          "title": "Expressions of Interest - Shelford Campus Opportunities",
+          "url": "https://www.linkedin.com/jobs/view/4381942608",
+          "date": "3 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l493",
+      "text": "Campus Principal | Leeton NSW \u2014 OneSchool Global (Leeton, New South Wales, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "OneSchool Global",
+          "title": "Campus Principal | Leeton NSW",
+          "url": "https://www.linkedin.com/jobs/view/4457049918",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l494",
+      "text": "Deputy Principal - Gleneagle State School \u2014 Queensland Government (Beaudesert, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Government",
+          "title": "Deputy Principal - Gleneagle State School",
+          "url": "https://www.linkedin.com/jobs/view/4455305554",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l495",
+      "text": "Head of Junior School \u2014 St Philip's Christian Education (Nulkaba, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "St Philip's Christian Education",
+          "title": "Head of Junior School",
+          "url": "https://www.linkedin.com/jobs/view/4453417399",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l496",
+      "text": "2027 Deputy Head of Primary - Logan Village Campus \u2014 King's Christian College (Mount Warren Park, Queensland, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "King's Christian College",
+          "title": "2027 Deputy Head of Primary - Logan Village Campus",
+          "url": "https://www.linkedin.com/jobs/view/2027",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l497",
+      "text": "2027 Deputy Head of Primary - Logan Village Campus \u2014 King's Christian College (Mount Warren Park, Queensland, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "King's Christian College",
+          "title": "2027 Deputy Head of Primary - Logan Village Campus",
+          "url": "https://www.linkedin.com/jobs/view/4456558028",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l498",
+      "text": "Deputy Principal - Hervey Bay Special School \u2014 Queensland Government (Bundaberg, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Government",
+          "title": "Deputy Principal - Hervey Bay Special School",
+          "url": "https://www.linkedin.com/jobs/view/4455325300",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l499",
+      "text": "Head of Middle School \u2014 St Philip's Christian Education (Waratah, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "St Philip's Christian Education",
+          "title": "Head of Middle School",
+          "url": "https://www.linkedin.com/jobs/view/4450457735",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "education administrators, elementary and secondary school",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "11-9032",
+    "window": "retrieved 2026-08-27; current Adzuna AU listings",
+    "count": 651,
+    "sampledListings": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Blacktown City Council",
+      "Catholic Education Western Australia",
+      "Northern Territory Government",
+      "1300Apprentice",
+      "NSW Government",
+      "Department of Education and Training",
+      "Department for Education and Child Development SA",
+      "Lumen Christi College",
+      "Catholic Education Dioceses of Cairns",
+      "TeamKids"
     ],
+    "topEmployerCounts": {
+      "Blacktown City Council": 7,
+      "Catholic Education Western Australia": 6,
+      "Northern Territory Government": 4,
+      "1300Apprentice": 4,
+      "NSW Government": 4,
+      "Department of Education and Training": 3,
+      "Department for Education and Child Development SA": 3,
+      "Lumen Christi College": 2,
+      "Catholic Education Dioceses of Cairns": 2,
+      "TeamKids": 2
+    },
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+      "AI",
+      "staff",
+      "training",
+      "leadership",
+      "management",
+      "operations",
+      "curriculum",
+      "funding",
+      "quality",
+      "content"
+    ],
+    "topSkillCounts": {
+      "AI": 86,
+      "staff": 14,
+      "training": 12,
+      "leadership": 8,
+      "management": 7,
+      "operations": 4,
+      "curriculum": 2,
+      "funding": 2,
+      "quality": 2,
+      "content": 1
+    }
   },
   "corpus": {
     "platforms": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Education Administrators, Elementary and Secondary School Association discourse",
-        "items": 45
+        "name": "github",
+        "scope": "last30days L5 sweep (180d)",
+        "items": 4,
+        "state": "excluded-non-discourse"
+      },
+      {
+        "name": "grounding",
+        "scope": "last30days L5 sweep (180d)",
+        "items": 0,
+        "state": "unreachable"
+      },
+      {
+        "name": "hackernews",
+        "scope": "last30days L5 sweep (180d)",
+        "items": 24,
+        "state": "ok"
+      },
+      {
+        "name": "jobs",
+        "scope": "last30days L5 sweep (180d)",
+        "items": 0,
+        "state": "unreachable"
+      },
+      {
+        "name": "reddit",
+        "scope": "last30days L5 sweep (180d)",
+        "items": 6,
+        "state": "ok"
+      },
+      {
+        "name": "x",
+        "scope": "last30days L5 sweep (180d)",
+        "items": 52,
+        "state": "ok"
+      },
+      {
+        "name": "youtube",
+        "scope": "last30days L5 sweep (180d)",
+        "items": 3,
+        "state": "ok"
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "retrieved": "2026-08-27",
+    "searchesReturningNothing": [
+      "L3 Factiva: auth_expired this run; logged to data/professions/factiva_backlog.json (reason=auth_expired). No Factiva L3 payload folded; L3 sourced from open-web trade press where available.",
+      "TikTok and Instagram practitioner discourse unavailable (last30days has_scrapecreators=false); not sampled - recorded as coverage, not as evidence of quiet.",
+      "last30days 'grounding' and 'jobs' sources unreachable this run (native_search=false / jobs endpoint error); recorded as coverage gaps."
+    ],
     "l5Sample": [
       {
-        "status": "sampled",
-        "plan": "data/professions/11-9032/raw/l5_plan.json",
-        "sources": 0,
-        "source": "last30days"
+        "date": "2026-08-27",
+        "added": 89,
+        "sources": {
+          "github": 4,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 6,
+          "x": 52,
+          "youtube": 3
+        },
+        "status": "sampled"
       }
     ],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Education Administrators, Elementary and Secondary School",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/11-9032/raw/linkedin_l4.json"
-    }
+    "linkedin": [
+      {
+        "date": "2026-08-27",
+        "soc": "11-9032",
+        "query": "Education Administrators, Elementary and Secondary School",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva trade-press lane unavailable this run (OpenAthens session expired); backfill scheduled via factiva_backlog.json.",
+    "Practitioner-discourse L5 sample excludes TikTok/Instagram (unavailable) and last30days 'grounding'/'jobs' sources (unreachable).",
+    "2026-08-29: restored from the genuine 2026-08-27 research (git rev bf79597) after a concurrent session's broad commit (4a6cbae) accidentally overwrote it with pre-existing fabricated content. See docs/tasks/dfva-profession-discourse.SKILL.md, 'Fabrication incident 2026-08-24'."
+  ]
 }

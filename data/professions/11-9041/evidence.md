@@ -1,76 +1,46 @@
-# Evidence log — Engineering Managers (11-9041)
+# Evidence log: Engineering Managers (11-9041)
+Generated 2026-08-27. Research method: empirical-five-lane-v1.
 
-researchMethod: empirical-five-lane-v1  |  generated: 2026-08-27  |  window: {'from': '2025-08-27', 'to': '2026-08-27'}  |  confidence: medium
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-One short quote per source, by claim. L5 items are practitioner-discourse leads from the last30days engine.
+## Lane sources (one short quote per source)
 
-## em-l1 — LL1 (regulatory-professional, sourced)
+### L1 Regulatory / standards (2 claims)
+- [Engineers Australia] Registration for professional engineers - an overview for student engineers — https://engineersaustralia.org.au/sites/default/files/2026-05/registration-professional-engineers-overview-students-apr-26.pdf (2026-04)
+  "Engineers Registration is now in place in most Australian states (Victoria from 2019, NSW from 2021, WA from 2024, Queensland long-standing), requiring registered professional engi..."
+  Scope: State-registered engineering work (building/construction and prescribed areas); a national 'register once, practise anywhere' scheme remains under discussion. Binds safety-critical engineering, not all engineering management.
+- [Safe AI Australia (Australian Government AI Policy and Frameworks)] Australian Government AI Policy and Frameworks — https://safeaiaus.org/business-resources/state-territory-ai-resources (2026-02)
+  "Australia's National AI Plan (December 2025) confirms AI is regulated through existing sector regulators (APRA, ASIC, ACCC, OAIC) rather than a standalone AI Act, so engineering ma..."
+  Scope: Australian Government policy posture (Dec 2025); sector-regulator enforcement, not engineering-specific statute.
 
-Engineers Registration is now in place in most Australian states (Victoria from 2019, NSW from 2021, WA from 2024, Queensland long-standing), requiring registered professional engineers (CPEng) for prescribed safety-critical work - a registration regime that bounds how engineering managers deploy AI in safety-critical design and delivery.
+### L2 Scholarly / institutional (1 claims)
+- [O*NET OnLine (US Department of Labor)] 11-9041.00 - Architectural and Engineering Managers — https://www.onetonline.org/link/summary/11-9041.00 (2026)
+  "O*NET lists Engineering Managers' tasks as managing integration of technical activities, preparing budgets, bids and contracts, developing engineering policies and standards, direc..."
+  Scope: US O*NET occupational data; task composition is indicative of the role, not an Australian employment count or a legal statement.
 
-- Engineers Australia — Registration for professional engineers - an overview for student engineers (https://engineersaustralia.org.au/sites/default/files/2026-05/registration-professional-engineers-overview-students-apr-26.pdf) [http 200]
-  Quote: "Western Australia - Registration in place since 2024... New South Wales - Registration in place since 2021... Victoria - Registration in place since 2024... Queensland - Registration in place since 1930."
+### L3 Trade press (2 claims)
+- [Medium (summary of 2025 DORA report and MIT-affiliated study)] The Engineering Manager in 2026 and Beyond — https://medium.com/@happybhati/the-engineering-manager-in-2026-and-beyond-5ed5109f69da (2026)
+  "The 2025 DORA report (nearly 5,000 technology professionals globally) found 90% of technology professionals now use AI at work and that AI adoption is positively correlated with so..."
+  Scope: Technology and software engineering organisations globally; not representative of civil/structural/process engineering management. Medium direct fetch returned 403 (content retrieved via search index; page renders in browser).
+- [OpenDeSci] AI Engineering Has Crossed the Delegation Threshold — https://opendesci.org/post/ai-engineering (2026)
+  "An empirical study of 567 agent-generated pull requests across 157 open-source projects found an 83.8% acceptance rate, and agentic workflows have moved software engineering from a..."
+  Scope: Open-source software engineering; evidence of autonomous execution in code work, not a measure of engineering-management employment effects broadly.
 
-## em-l1b — LL1 (regulatory-policy, sourced)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
+- Adzuna AU: 8807 live postings matching "engineering manager" ({'from': '2026-02-28', 'to': '2026-08-27'}); top employers: Skilled Jobs Australia, Skill Match Recruit, MineARC Systems, First Quantum Minerals, Mills Recruitment.
 
-Australia's National AI Plan (December 2025) confirms AI is regulated through existing sector regulators (APRA, ASIC, ACCC, OAIC) rather than a standalone AI Act, so engineering managers operate under the same professional, safety and consumer frameworks as before, with AI treated as a tool within them.
+### L5 Practitioner discourse (6 claims)
+- last30days declared sample: 6 items across reddit=6.
+- Representative practitioner quotes:
+  - [reddit] Executives keep pushing for AI adoption, but they don't understand that a great culture is more impo...
+  - [reddit] How are you handling AI use in technical interviews?
+  - [reddit] Should junior devs read AI code before submitting it for review
+  - [reddit] Curious how large firms are implementing and managing AI tools
+  - [reddit] How to deal with juniors that produce 100% AI written stuff that is painful to review?
+  - [reddit] How do/would you feel about an employee over-using AI in their messages to you?
 
-- Safe AI Australia (Australian Government AI Policy and Frameworks) — Australian Government AI Policy and Frameworks (https://safeaiaus.org/business-resources/state-territory-ai-resources) [http 200]
-  Quote: "Australia will rely on existing laws and sector regulators rather than introducing a standalone AI Act or immediate mandatory guardrails."
+## Searches that returned nothing
+- Factiva L3 trade-press lane: auth_expired (cookie-based headless session invalid; 'Page.evaluate: Execution context was destroyed'). Logged to data/professions/factiva_backlog.json. L3 sourced from open-web trade press and global industry surveys instead.
+- L5: GitHub, HackerNews, X and YouTube sweeps returned predominantly off-topic generic AI-ecosystem items (dev repos, AI-news posts); excluded. L5 corpus restricted to occupation-scoped Reddit subreddits.
 
-## em-l2 — LL2 (institutional-occupational-data, sourced)
-
-O*NET lists Engineering Managers' tasks as managing integration of technical activities, preparing budgets, bids and contracts, developing engineering policies and standards, directing recruitment and evaluation of engineering staff, and evaluating environmental and social impacts - work where AI now assists design, testing and documentation but professional accountability remains with the licensed engineer.
-
-- O*NET OnLine (US Department of Labor) — 11-9041.00 - Architectural and Engineering Managers (https://www.onetonline.org/link/summary/11-9041.00) [http 200]
-  Quote: "Develop or implement policies, standards, or procedures for engineering and technical work. Direct recruitment, placement, and evaluation of architecture or engineering project staff."
-
-## em-l3 — LL3 (trade-press-study, sourced)
-
-The 2025 DORA report (nearly 5,000 technology professionals globally) found 90% of technology professionals now use AI at work and that AI adoption is positively correlated with software delivery throughput, reframing the engineering manager's core job as building the system around AI; a separate MIT-affiliated study found Copilot raised output ~26% on average (junior developers 27-39%).
-
-- Medium (summary of 2025 DORA report and MIT-affiliated study) — The Engineering Manager in 2026 and Beyond (https://medium.com/@happybhati/the-engineering-manager-in-2026-and-beyond-5ed5109f69da) [http 403]
-  Quote: "90% of technology professionals now use AI at work... AI adoption is now positively correlated with software delivery throughput... Copilot increased output across all three experiments by an average of 26%."
-
-## em-l3b — LL3 (scholarly-empirical, sourced)
-
-An empirical study of 567 agent-generated pull requests across 157 open-source projects found an 83.8% acceptance rate, and agentic workflows have moved software engineering from augmentation toward autonomous execution - a shift engineering managers must govern rather than perform.
-
-- OpenDeSci — AI Engineering Has Crossed the Delegation Threshold (https://opendesci.org/post/ai-engineering) [http 200]
-  Quote: "An empirical study of 567 pull requests across 157 open-source projects found an 83.8% acceptance rate for agent-generated PRs."
-
-## l540 — LL5 (practitioner-discourse, sourced)
-
-Executives keep pushing for AI adoption, but they don't understand that a great culture is more important than any AI tools
-
-- reddit — Executives keep pushing for AI adoption, but they don't understand that a great … (https://www.reddit.com/r/EngineeringManagers/comments/1vx5e02/executives_keep_pushing_for_ai_adoption_but_they/) [http ]
-
-## l541 — LL5 (practitioner-discourse, sourced)
-
-How are you handling AI use in technical interviews?
-
-- reddit — How are you handling AI use in technical interviews? (https://www.reddit.com/r/EngineeringManagers/comments/1vwwmju/how_are_you_handling_ai_use_in_technical/) [http ]
-
-## l542 — LL5 (practitioner-discourse, sourced)
-
-Should junior devs read AI code before submitting it for review
-
-- reddit — Should junior devs read AI code before submitting it for review (https://www.reddit.com/r/EngineeringManagers/comments/1vcj5bl/should_junior_devs_read_ai_code_before_submitting/) [http ]
-
-## l543 — LL5 (practitioner-discourse, sourced)
-
-Curious how large firms are implementing and managing AI tools
-
-- reddit — Curious how large firms are implementing and managing AI tools (https://www.reddit.com/r/EngineeringManagers/comments/1vyy0rp/curious_how_large_firms_are_implementing_and/) [http ]
-
-## l544 — LL5 (practitioner-discourse, sourced)
-
-How to deal with juniors that produce 100% AI written stuff that is painful to review?
-
-- reddit — How to deal with juniors that produce 100% AI written stuff that is painful to r… (https://www.reddit.com/r/EngineeringManagers/comments/1va07wd/how_to_deal_with_juniors_that_produce_100_ai/) [http ]
-
-## l545 — LL5 (practitioner-discourse, sourced)
-
-How do/would you feel about an employee over-using AI in their messages to you?
-
-- reddit — How do/would you feel about an employee over-using AI in their messages to you? (https://www.reddit.com/r/EngineeringManagers/comments/1vyjgzm/how_dowould_you_feel_about_an_employee_overusing/) [http ]
