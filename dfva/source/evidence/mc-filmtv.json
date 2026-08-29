@@ -1,0 +1,140 @@
+{
+  "code": "mc-filmtv",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Meets level 2 ('At least one core unit assesses collaborative practice — group projects with individual accountability, client or stakeholder work, interprofessional activity'): Screen Thinking 1's graded group presentation, Screen Making 1's collaborative production, and Screen Production's graded 'Collaborative practice participation and documentation' each assess teamwork. Level 3 additionally requires assessed coordination 'across people AND tools/AI systems' with the division of work itself assessed; the extract contains no AI or digital-tool content anywhere (see C3), so that clause is unmet.",
+      "evidenceLines": [
+        "engage productively with peers through the application of established skills in collaborative screen production.",
+        "work constructively and flexibly with technical and artistic collaborators in the conception, creation, presentation and evaluation of a screen work;",
+        "Collaborative practice participation and documentation",
+        "lead a collaborative team through each stage of a screen production at an advanced level and execute each stage at an advanced level;"
+      ]
+    },
+    "C2": {
+      "score": 2,
+      "rationale": "Meets level 2 ('core assessment includes criterion-referenced appraisal of quality: peer review, structured critique...'): Screen Story 1's graded structural script-analysis presentation requires students to 'critically interpret the work of a writer.' Level 3 requires assessment documenting/justifying reliance decisions or evidencing 'strategy adjustment over time (process-focused assessment)'; Screen Thinking 1's graded 'Individual methodology paper,' tied to evaluating 'their own process ... to define a working methodology of practice,' gestures toward this but does not clearly document adjustment over time or reliance/override decisions — ambiguous, held at the lower level per the scoring-direction rule.",
+      "evidenceLines": [
+        "20-minute structural script analysis group presentation",
+        "critically interpret the work of a writer and develop story elements;",
+        "evaluate their own process, outputs and collaboration style to define a working methodology of practice;",
+        "Individual methodology paper",
+        "appraise, justify and apply feedback from peers and audience to the development of a short screen work and creative choices;"
+      ]
+    },
+    "C3": {
+      "score": 0,
+      "rationale": "No unit among the seven fully-documented core subjects references AI or digital tools. The nearest content, Screen Thinking 2's outcome to 'evaluate and contextualise technological and content innovations' and to 'critically evaluate the disruption of the film value chain model,' addresses industry disruption generally rather than AI or digital-tool use, limitations, ethics or governance, so it does not clear even level 1 ('AI or digital tools appear only as electives or as tool operation/training'). Scored 0 against the documented core (see ambiguities re: the undocumented specialisation-linked core subjects).",
+      "evidenceLines": [
+        "evaluate and contextualise technological and content innovations spanning the global screen industry;",
+        "critically evaluate the 'disruption' of the film value chain model and its impact on the screen industry;"
+      ]
+    },
+    "C4": {
+      "score": 3,
+      "rationale": "Meets level 3 ('a self-scoped capstone or research project'): Screen Story 2 has students develop 'screen ideas and creative treatments ... for screen productions they may produce in their capstone subject, Screen Production,' and Screen Production has them 'prepare, re-draft, analyse and finalise the screen idea they developed in Screen Story 2' while leading 'a creative team in the realisation of a substantive short screen work' — a self-originated project carried through and assessed at the capstone via the graded Creative project folio, satisfying R2's assessment requirement.",
+      "evidenceLines": [
+        "In this capstone subject, students will lead a creative team in the realisation of a substantive short screen work.",
+        "Students will prepare, re-draft, analyse and finalise the screen idea they developed in Screen Story 2.",
+        "In this subject, students will develop screen ideas and creative treatments, short documents and story pitches for screen productions they may produce in their capstone subject, Screen Production.",
+        "Creative project folio"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Practice-led research is named at program level and in Screen Production's generic skills, which under R2 caps the item at 1 absent clear assessed evidence of 'design[ing] and conduct[ing] an inquiry with methodology selection and data collection.' Screen Post-Production's graded 'creative methodology/process oral presentation' and Screen Thinking 1's graded 'Individual methodology paper' name assessed methodology deliverables that could support level 2, but both read as reflection on the creative/production process rather than a designed inquiry with data collection — ambiguous, held at the lower level.",
+      "evidenceLines": [
+        "critically engage with practice-led research principles and methods in creating screen work;",
+        "use a range of practice-led research tools and methodologies;",
+        "20-minute creative methodology/process oral presentation",
+        "Individual methodology paper"
+      ]
+    },
+    "adaptiveness": 8,
+    "W1": {
+      "score": 2,
+      "rationale": "Meets level 2 ('a recognised professional genre ... — client brief, consultancy or policy advice ... pitch'): Screen Story 1's graded '5-minute video story pitch' and Screen Story 2's graded '15-minute story pitch / oral presentation' are pitches, a genre the anchor names directly. Level 3 requires progression AND delivery to/judgement by a real external audience or practitioner with conduct explicitly assessed; Screen Production's Production Compliance hurdle clearly assesses professional conduct/accountability, and Screen Post-Production's work is completed 'in preparation for public exhibition' while Screen Production names 'industry mentors' as interlocutors — but no single assessed item is unambiguously delivered to or judged by that external audience rather than the teaching team, so this is ambiguous between 2 and 3; held at the lower level.",
+      "evidenceLines": [
+        "5-minute video story pitch",
+        "15-minute story pitch / oral presentation",
+        "make and justify story-based decisions appropriate to audience and marketplace contexts.",
+        "Hurdle requirement: To meet the requirements necessary for authorisation to commence shooting their film projects, students must submit all required production and compliance paperwork during scheduled meetings. This documentation is crucial for achieving the Film Department's sign-off and must include, but is not limited to, location agreements, cast agreements, and script approvals. Submission of these documents at designated intervals is mandatory and serves as a hurdle requirement for progressing to the shooting phase of their projects.",
+        "Students will research and apply knowledge through creative reflection, analysis of production and post-production choices to complete their screen work in preparation for public exhibition.",
+        "critically engage in creative conversations about ethics, aesthetics and story with lecturers, peers and industry mentors;"
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "Meets level 3 ('such tasks are the program's assessment spine ... AND at least one carries a genuine constraint of practice'): the program scaffolds practitioner artefacts across its core — Screen Story 1's graded 'Short screenplay or treatment,' explicitly produced to industry-standard formatting, and Screen Making 1's graded 'Scheduling and budget exercise based on a short film script' — culminating in Screen Production's capstone, which requires 'delivering a film to budget and to schedule' and compliance with 'industry-standard screen production processes and documentation,' a genuine resource/time constraint of practice.",
+      "evidenceLines": [
+        "Practical exercises will give students experience as active, creative participants and leaders in the story and script development process and will help develop the skills to write screen works, short documents, synopses and treatments, produce professionally formatted screenplays and pitch screen ideas.",
+        "Short screenplay or treatment",
+        "Scheduling and budget exercise based on a short film script",
+        "The screen work should achieve full industry and university and/or best practice compliance, including effectively planning, executing, and delivering a film to budget and to schedule, while employing deep creative engagement, collaborative partnerships, artistic nuance and thematic relevance.",
+        "comply with industry-standard screen production processes and documentation;"
+      ]
+    },
+    "W3": {
+      "score": 0,
+      "rationale": "No placement, practicum, or community-based project is described in any of the seven fully-documented core subjects (Screen Story 1/2, Screen Thinking 1/2, Screen Making 1, Screen Production, Screen Post-Production); none places students in an external workplace with practitioner supervision. Scored 0 against the documented core (see ambiguities re: the undocumented specialisation-linked core subjects, which commonly carry placement content in creative-industry postgraduate courses).",
+      "evidenceLines": [
+        "75 credit points of Year 1 compulsory subjects",
+        "75 credit points of Year 2 compulsory subjects",
+        "PLUS one core subject (25 credit points) according to the specialisation being undertaken."
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "'The program documents a coherent specialist core with progressive technical or methodological depth ... a staged prerequisite chain': 150 of 200 credit points are all-compulsory and disciplinary-specific (screen storytelling, screen grammar, screen making, production, post-production), and progression from Year 1 to Year 2 requires completing all Year 1 subjects.",
+        "evidenceLines": [
+          "To progress from Year 1 to Year 2, students must complete all Year 1 subjects.",
+          "75 credit points of Year 1 compulsory subjects",
+          "75 credit points of Year 2 compulsory subjects"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "'simulations/capstones/live projects with real uncertainty and accountability': Screen Production requires students to 'make high-level production decisions and follow through on their consequences' and to deliver a film to real budget and schedule constraints, with optional fundraising and compliance accountability (Production Compliance hurdle, Film Department sign-off) — a live project with real uncertainty, not recall or scripted response.",
+        "evidenceLines": [
+          "make high-level production decisions and follow through on their consequences;",
+          "The screen work should achieve full industry and university and/or best practice compliance, including effectively planning, executing, and delivering a film to budget and to schedule, while employing deep creative engagement, collaborative partnerships, artistic nuance and thematic relevance.",
+          "Students have an option to raise funds to support their capstone project. They will be expected to work respectfully with industry, community, and university stakeholders to see their projects to fruition."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1: held at 2 — collaborative assessment recurs (Screen Thinking 1, Screen Making 1, Screen Production) but no assessed task requires coordinating work across people AND tools/AI systems; the extract contains no AI/digital-tool content anywhere.",
+      "C2: held at 2 — Screen Thinking 1's graded 'Individual methodology paper' (tied to evaluating 'their own process, outputs and collaboration style') could be read as level 3's process-focused/strategy-adjustment route, but does not clearly document reliance/override decisions or change over time.",
+      "C3: scored against seven documented core subjects only; the specialisation-linked core subject in each of Year 1 and Year 2 (50cp total) is not in the extract and was not assessed.",
+      "C5: held at 1 — Screen Post-Production's 'creative methodology/process oral presentation' and Screen Thinking 1's 'Individual methodology paper' name assessed methodology deliverables that could support level 2, but both read as process reflection rather than a designed inquiry with data collection.",
+      "W1: held at 2 — Screen Production's Production Compliance hurdle assesses professional conduct, and Screen Post-Production's work is prepared 'in preparation for public exhibition,' but no single assessed item is unambiguously delivered to or judged by a real external audience or practitioner rather than the teaching team.",
+      "W3: scored against seven documented core subjects only; the specialisation-linked core subject in each of Year 1 and Year 2 is not in the extract and commonly hosts placement-type content in creative-industry postgraduate courses, so it was not assessed.",
+      "The extract's first source block is headed 'https://handbook.unimelb.edu.au/2026/courses/mc-filmtv' but its content is 'Derivative Securities (FNCE90011)', an unrelated Finance subject — evidently mismatched/miscaptured content. It does not describe the Master of Film and Television and was excluded from scoring."
+    ],
+    "notScoreable": [
+      "mc-filmtv course-overview page: the extract's source headed 'courses/mc-filmtv' contains unrelated content — Derivative Securities (FNCE90011) — so the program-level overview could not be verified and was not used as evidence for any item."
+    ],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-30"
+      },
+      "mechanical": true,
+      "date": "2026-08-29"
+    }
+  }
+}
