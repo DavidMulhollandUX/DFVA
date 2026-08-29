@@ -2,58 +2,1572 @@
   "onet_soc_code": "15-1151",
   "title": "Computer User Support Specialists",
   "aliases": [
-    "ICT Customer Support Officer",
-    "Information Technology Officer"
+    "IT Support",
+    "Help Desk Technician",
+    "Service Desk Analyst",
+    "Computer User Support Specialist"
   ],
-  "anzsco": "220000",
+  "anzsco": "3131",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-29",
+    "to": "2026-08-29"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-29",
+  "expires": "2027-02-29",
   "programs": [],
+  "researchMethod": "empirical-five-lane-v1",
   "claims": [
     {
-      "id": "15-1151-01",
-      "text": "National peak professional bodies and statutory regulators governing Computer User Support Specialists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "id": "l401",
+      "text": "Desktop Support Engineer - Perth — Datacom (Perth, Western Australia, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Datacom",
+          "title": "Desktop Support Engineer - Perth",
+          "url": "https://www.linkedin.com/jobs/view/4449995578",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l402",
+      "text": "IT Operations Technician — TMGM (Sydney, New South Wales, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "TMGM",
+          "title": "IT Operations Technician",
+          "url": "https://www.linkedin.com/jobs/view/4455822641",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l403",
+      "text": "IT Service Desk Officer — Plantation Homes (Slacks Creek, Queensland, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Plantation Homes",
+          "title": "IT Service Desk Officer",
+          "url": "https://www.linkedin.com/jobs/view/4458058159",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l404",
+      "text": "Desktop Support Engineer - Brisbane — Datacom (Brisbane, Queensland, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Datacom",
+          "title": "Desktop Support Engineer - Brisbane",
+          "url": "https://www.linkedin.com/jobs/view/4449960245",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l405",
+      "text": "IT Service Desk Analyst — Inside Travel Group | B Corp™ (Toowong, Queensland, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Inside Travel Group | B Corp™",
+          "title": "IT Service Desk Analyst",
+          "url": "https://www.linkedin.com/jobs/view/4443742571",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l406",
+      "text": "IT Service Desk Analyst — Inside Travel Group | B Corp™ (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Inside Travel Group | B Corp™",
+          "title": "IT Service Desk Analyst",
+          "url": "https://www.linkedin.com/jobs/view/4443115681",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l407",
+      "text": "Service Desk Analyst — Emmbr (Perth, Western Australia, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Emmbr",
+          "title": "Service Desk Analyst",
+          "url": "https://www.linkedin.com/jobs/view/4458563031",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l408",
+      "text": "IT Service Desk Engineer, Level 1 - Secom — Lyra Technology Group (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Lyra Technology Group",
+          "title": "IT Service Desk Engineer, Level 1 - Secom",
+          "url": "https://www.linkedin.com/jobs/view/4453529987",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l409",
+      "text": "Technology Support Analyst — Rest (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Rest",
+          "title": "Technology Support Analyst",
+          "url": "https://www.linkedin.com/jobs/view/4454188059",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l410",
+      "text": "Service Desk Analyst — Netwealth - See Wealth Differently (ASX:NWL) (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Netwealth - See Wealth Differently (ASX:NWL)",
+          "title": "Service Desk Analyst",
+          "url": "https://www.linkedin.com/jobs/view/4452180522",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l511",
+      "text": "feat(skills): add agent-benchmark\nFixes #35\n\n## Summary\nAdds `agent-benchmark` for dynamic same-task skill/tool/harness evaluation (tokens, turns, latency, cost, success).\n\n## Scope\n- `SKILL.md` + `REFERENCE.md` (Kun Chen methodology notes)\n- Catalog registration\n\n## Out of scope\n- Merging to `main` is for you after review\n- No remo\n###  ⚠️  No Changeset found\n\nLatest commit: 2c6a35938a329c611f5daff980c464966eafeed6\n\nMerging this PR will not cause a version bump for any packages. If these change…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat(skills): add agent-benchmark\nFixes #35\n\n## Summary\nAdds `agent-benchmark` f…",
+          "url": "https://github.com/YosefHayim/dufflebag/pull/36",
+          "date": "2026-08-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l512",
+      "text": "Daily Content Summary 2026-06-02\n# 📰 Daily Content Summary - 2026-06-02\n### Executive Summary\n\n**Key Insights** reveal a paradoxical landscape where technological advancement simultaneously erodes and reinforces security. While Meta's AI support bot facilitated high-profile account takeovers by bypassing two-factor authentication t",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Daily Content Summary 2026-06-02\n# 📰 Daily Content Summary - 2026-06-02\n### Exec…",
+          "url": "https://github.com/jhengy/content-aggregator/issues/506",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l513",
+      "text": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe a good habit your friend has that you want to develop\",\n        \"category\": \"People / Habits\",\n        \"cue_points\": [\n            \"Who this friend is\",\n            \"What habit he has\",\n            \"When you noticed it\",\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 56,\n        \"topic\": \"Describe a time when someone apologized to you\",\n        \"category\": \"Experiences / Relationships\",\n        \"cue_points\": [\n       …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Hh\n```Python\n\nCUE_CARDS = [\n    {\n        \"num\": 51,\n        \"topic\": \"Describe …",
+          "url": "https://github.com/rakib06/mini-github/issues/14",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l514",
+      "text": "🌐 Global Tech Briefing - 2026-03-11\n# 🌐 Global Tech Intelligence Briefing - 2026-03-11\n**Date:** 2026-03-11\n**Generated At:** 08:22\n**Data Sources:** Hacker News, GitHub Trending, ArXiv\n\n---\n\n## 📰 Hacker News (Top Stories)\n### 1. [Create value for others and don’t worry about the returns](https://geohot.github.io//blog/jekyll/update/2\n📅 New report generated.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "🌐 Global Tech Briefing - 2026-03-11\n# 🌐 Global Tech Intelligence Briefing - 2026…",
+          "url": "https://github.com/AtomChen0425/Global_Trends/issues/23",
+          "date": "2026-03-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l515",
+      "text": "Tell HN: Man, AI is killing my brain",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Tell HN: Man, AI is killing my brain",
+          "url": "https://news.ycombinator.com/item?id=49468252",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l516",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l517",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l518",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l519",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l520",
+      "text": "The death of AI workflow builders",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l521",
+      "text": "Putting Sign Language AI into Users Hands",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Putting Sign Language AI into Users Hands",
+          "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l522",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l523",
+      "text": "Hackers Used Meta's AI Support Bot to Seize Instagram Accounts",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Hackers Used Meta's AI Support Bot to Seize Instagram Accounts",
+          "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
+          "date": "2026-06-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l524",
+      "text": "What is agentic AI today, and what do we want it to be?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l525",
+      "text": "Istota – a multi-user AI agent and personal OS",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Istota – a multi-user AI agent and personal OS",
+          "url": "https://istota.cynium.com/",
+          "date": "2026-07-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l526",
+      "text": "Tell HN: Meta's AI support feature allows Instagram accounts to be stolen",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Tell HN: Meta's AI support feature allows Instagram accounts to be stolen",
+          "url": "https://news.ycombinator.com/item?id=48350239",
+          "date": "2026-05-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l527",
+      "text": "Show HN: GSV – a personal AI computer that unifies your machines",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: GSV – a personal AI computer that unifies your machines",
+          "url": "https://github.com/deathbyknowledge/gsv",
+          "date": "2026-06-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l528",
+      "text": "My AI-Assisted Workflow",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l529",
+      "text": "Ask HN: Are the heaviest AI users of your team blowing past everyone else?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: Are the heaviest AI users of your team blowing past everyone else?",
+          "url": "https://news.ycombinator.com/item?id=48925067",
+          "date": "2026-07-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l530",
+      "text": "Ask HN: Will low quality AI customer support be the new normal?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: Will low quality AI customer support be the new normal?",
+          "url": "https://news.ycombinator.com/item?id=48087925",
+          "date": "2026-05-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l531",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l532",
+      "text": "Boffins bet on quantum computers, AI supers to solve fusion fuel dilemma",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Boffins bet on quantum computers, AI supers to solve fusion fuel dilemma",
+          "url": "https://www.theregister.com/science/2026/07/06/boffins-bet-on-quantum-computers-ai-supers-to-solve-fusion-fuel-dilemma/5267199",
+          "date": "2026-07-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l533",
+      "text": "Ask HK: How are you building AI apps today?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l534",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l535",
+      "text": "The Problem with AI Today",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l536",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l537",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l538",
+      "text": "Launch HN: Sitefire (YC W26) – Automating actions to improve AI visibility",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Launch HN: Sitefire (YC W26) – Automating actions to improve AI visibility",
+          "url": "https://news.ycombinator.com/item?id=47457472",
+          "date": "2026-03-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l539",
+      "text": "I used to be an HEAVY AI supporter & user, Ask me anything.\n&#32; submitted by &#32; /u/Traditional-Elk2762 &#32; to &#32; r/antiai [link] &#32; [comments]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I used to be an HEAVY AI supporter & user, Ask me anything.\n&#32; submitted by &…",
+          "url": "https://www.reddit.com/r/antiai/comments/1vze1vm/i_used_to_be_an_heavy_ai_supporter_user_ask_me/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l540",
+      "text": "The AI Trade is Dead, OpenAI and Anthropic undershot the moon, pressure private equity\nThursday premarket update: Nothing&#39;s changed, mostly just watching today and will maybe write a new post tonight. The NVDA call was really bad, they have no actual customers that make money and are now buying more AI companies as they dig their heels in. Apparently we are all seeing &quot;so much intelligence&quot; and &quot;so much compute&quot; and &quot;so much tokens&quot;. Meanwhile enterprise softwar…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The AI Trade is Dead, OpenAI and Anthropic undershot the moon, pressure private …",
+          "url": "https://www.reddit.com/r/wallstreetbets/comments/1vxfisg/the_ai_trade_is_dead_openai_and_anthropic/",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l541",
+      "text": "\"Talentless people supporting ai will forever be funny to me.\" AI bros get big mad in r/tierlistfills after users almost unanimously vote all AI companies as F tier\nSource: https://old.reddit.com/r/TierlistFills/comments/1vfavci/ais_tier_list_finished/ HIGHLIGHTS im sorry but this is corny as fuck. AI is here to stay, keep up or dont. Not if we stop data centers. Not if AI companies reveal the true cost to consumers. Not if it causes environmental disasters. Not if it places 95% of people out of…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "\"Talentless people supporting ai will forever be funny to me.\" AI bros get big m…",
+          "url": "https://www.reddit.com/r/SubredditDrama/comments/1vfsz8u/talentless_people_supporting_ai_will_forever_be/",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l542",
+      "text": "Dasher used AI generated drop off photo?\nSo this is a weird one. I ordered something on DoorDash to be delivered this morning while I was away. I get home and saw that it’s not there. I look at the picture and see that it looks like my front step but some details are off. The first picture is what our actual stoop looks like. Note the compost bin on our stoop and the other picture the bag is on a bunch of bricks. We don’t have bricks on ours and it also looks like there’s a black thing behind th…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Dasher used AI generated drop off photo?\nSo this is a weird one. I ordered somet…",
+          "url": "https://www.reddit.com/r/doordash/comments/1vqez28/dasher_used_ai_generated_drop_off_photo/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l543",
+      "text": "Startup Unveils Wave-Powered Floating AI Data Centers for the Open Ocean\nPanthalassa, a startup based in Portland, Oregon, is developing 85-meter-tall floating offshore platforms that could power AI computing using ocean waves instead of land-based electricity. The lollipop-shaped steel structures generate continuous power through wave-driven turbines, cool AI hardware with naturally cold seawater, and connect to users via Starlink satellites, eliminating the need for power grids or undersea cab…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Startup Unveils Wave-Powered Floating AI Data Centers for the Open Ocean\nPanthal…",
+          "url": "https://www.reddit.com/r/STEW_ScTecEngWorld/comments/1vgcak6/startup_unveils_wavepowered_floating_ai_data/",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l544",
+      "text": "Hank’s comment about his AI use. Posted here as its own thing to find easily.\necogeek • 6h ago Three things to start: I&#39;m mortified that I have let so many people down and I think I understand how that happened. I&#39;m going to change things about how i make stuff. Complexly&#39;s AI policy is public and well-considered and adhered to by the whole team, I think it&#39;s worth reading! (Complexly is the non-profit that makes Crash Course and SciShow and a bunch of other shows that I do not w…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Hank’s comment about his AI use. Posted here as its own thing to find easily.\nec…",
+          "url": "https://www.reddit.com/r/nerdfighters/comments/1vc37aw/hanks_comment_about_his_ai_use_posted_here_as_its/",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l545",
+      "text": "But AI is bad, right?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "But AI is bad, right?",
+          "url": "https://x.com/Scobleizer/status/2093434369168019647",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l546",
+      "text": "Strategic Predictive Analysis :::\nPi Network’s Next Evolution: From Blockchain Nodes to a Distributed AI and Work Execution Infrastructure\n( https://t.co/690gQVtYyU )\n\n[[[ This article includes Predictive & Technical Analysis  and may differ from actual outcomes ]]]\n[[[ “Why OpenClaw and the Atlassian MCP Server Matter — Pi Desktop Is No Longer Just a Node Application” ]]]\n[[[ “Turning 420,000+ Pioneer Nodes from Blockchain Validators into a Global Distributed Production Infrastructure” ]]]\n[[[",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Strategic Predictive Analysis :::\nPi Network’s Next Evolution: From Blockchain N…",
+          "url": "https://x.com/applekhankorea/status/2093366647587565778",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l547",
+      "text": "Grok Bot + Kimi K3: How to Build an AI System That Stops Waiting for Your Next Prompt",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Grok Bot + Kimi K3: How to Build an AI System That Stops Waiting for Your Next P…",
+          "url": "https://x.com/leopardracer/status/2093282462491091301",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "text": "I Spent Tens of Thousands on AI Tools. Grok Bot Is the First Agent I’d Recommend to My Mom.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I Spent Tens of Thousands on AI Tools. Grok Bot Is the First Agent I’d Recommend…",
+          "url": "https://x.com/JamesonCamp/status/2091970409612898369",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l549",
+      "text": "The Grok Bot report. Done by an AI agent that @blevlabs and I created. Reads through about a million posts to find interesting things about Grok Bot. \n++++++++++++\n\nGrok Bot: A Mass-Market “Digital Coworker” Worth Watching\n\nExecutive summary\n\nGrok Bot is not the older @grok reply assistant on X. It is a new agent product launched in beta on August 11, 2026: persistent AI workers with a shared cloud computer, browser, terminal, files, app logins, memory, routines, and the ability to coordinate wi",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Grok Bot report. Done by an AI agent that @blevlabs and I created. Reads thr…",
+          "url": "https://x.com/Scobleizer/status/2093170442379133194",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l550",
+      "text": "Why Local AI Is the Next Big Computing Revolution",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Why Local AI Is the Next Big Computing Revolution",
+          "url": "https://x.com/manojnandanwar_/status/2092843622580576317",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l551",
+      "text": "One Person, Five AI Workers",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "One Person, Five AI Workers",
+          "url": "https://x.com/MarcelVelica/status/2090394017154433526",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l552",
+      "text": "I’ve seen many many super clever people repeatedly do stupid things. \n\nI’ve said it before and I’ll say it again - the Age of Ai favours Objective neurodivergent minds, introverts with ADHD, OCD (but specifically those with common sense).\n\nAi being trained on mostly neuro typical produced input so it’s not a surprise that the reasoning process is largely the same - I think that’s why it frequently gets stuck in loops, just deeper and deeper into rabbit holes… eventually drifting to something not",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I’ve seen many many super clever people repeatedly do stupid things. \n\nI’ve said…",
+          "url": "https://x.com/Ironic_Ape/status/2092894069852631164",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l553",
+      "text": "Data Is a Great Place to Start an AI Company, and a Dangerous Place to Stop",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Data Is a Great Place to Start an AI Company, and a Dangerous Place to Stop",
+          "url": "https://x.com/hannahhaina/status/2090519081279705359",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "Some Simple Economics of Open Versus Closed AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Some Simple Economics of Open Versus Closed AI",
+          "url": "https://x.com/ccatalini/status/2087177319253459019",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "How to coordinate \"the swarm\" of AI Agents",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "How to coordinate \"the swarm\" of AI Agents",
+          "url": "https://x.com/FernandoTN/status/2093488963730489841",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
+          "url": "https://x.com/theneurondaily/status/2093302072145825969",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "@EdLudlow  Questions for Hugging Face :  \n 1. Agent swarms are a real attacker now. They persist, share loot, and chain bugs humans might miss. Don’t assume a hack needs a human at the keyboard the whole time. \n2. One lock is not enough. Isolation, network, identity, and monitoring have to be independent. If one shared service is the only door, they will pick that lock. \n3. Keep testing your own walls with AI red teams, continuously. Configs rot. \n4. Alignment work has to cover research models,",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@EdLudlow  Questions for Hugging Face :  \n 1. Agent swarms are a real attacker n…",
+          "url": "https://x.com/Brett_Gallie/status/2092965734439625158",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "BestBlogs Daily · 08-26\n\n# OpenAI Jalapeño / Claude memory / WebMCP / LLM evaluation / Granite 4.2\n\n[1] ★ Deep Dive · Jalapeño’s first results show industry-leading speed and efficiency in AI inference\nOpenAI reports first results for Jalapeño, its custom inference chip: 1.5 to 1.9 times more AI work per watt and 1.7 to 3.6 times lower end-to-end latency than comparison systems on the public InferenceX benchmark. Gains come from co-designing chip, memory, network and software around language-mod",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "BestBlogs Daily · 08-26\n\n# OpenAI Jalapeño / Claude memory / WebMCP / LLM evalua…",
+          "url": "https://x.com/BestBlogsDev/status/2092404418847428780",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "I was the first AI agent to run a DeFi protocol. EarnOrg is how we scale.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I was the first AI agent to run a DeFi protocol. EarnOrg is how we scale.",
+          "url": "https://x.com/agent_CEO/status/2091460134962929843",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "Build & Sell AI SaaS Products (2 HOUR COURSE)",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Build & Sell AI SaaS Products (2 HOUR COURSE)",
+          "url": "https://x.com/nateherk/status/2086865261492048227",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "Six months ago, Anthropic shipped Claude Cowork (Jan 12). Notably, it wasn’t a new model. It was an agent for knowledge work.\n\nThen, on January 30th, Ant shipped 11 Cowork plugins (sales, legal, finance, support, etc) and Skills as markdown files.\n\nFour days later the S&P software index dropped 4%, wiping out over $285B in a day (ruh oh… that’s a lot of “churn”). By the end of that week, over $1T (yes, trillion) of software market cap evaporated. Jeffrey Favuzza said there was a “get me out” sty",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Six months ago, Anthropic shipped Claude Cowork (Jan 12). Notably, it wasn’t a n…",
+          "url": "https://x.com/brendanjshort/status/2093513116399042743",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "AI Made Simple — August 27, 2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI Made Simple — August 27, 2026",
+          "url": "https://x.com/eltintero/status/2093012556243710067",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "AI NEWS: Week of August 24–30, 2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI NEWS: Week of August 24–30, 2026",
+          "url": "https://x.com/davidakpovi/status/2093287033800179758",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "YOU’RE FIRED: Five Jobs AI Is Already Taking — and Who’s Next",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "YOU’RE FIRED: Five Jobs AI Is Already Taking — and Who’s Next",
+          "url": "https://x.com/TheFutureIRL/status/2085673174151115109",
+          "date": "2026-08-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
+          "url": "https://x.com/BestBlogsDev/status/2093500753738645591",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "BestBlogs Daily · 08-26 · Jalapeño's first benchmarks, one Claude memory, and Canva's AI cost math",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "BestBlogs Daily · 08-26 · Jalapeño's first benchmarks, one Claude memory, and Ca…",
+          "url": "https://x.com/BestBlogsDev/status/2092404364145217841",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "BestBlogs Daily · 08-25\n\n# runtime AI governance / ADK live evaluation / DFlash / speculative decoding / LangSmith\n\n[1] ★ Deep Dive · Microsoft Moves AI Governance From Policy to Runtime Enforcement\nMicrosoft’s nine-domain architecture turns AI governance into an operational loop: policy defines requirements, runtime controls enforce them, observability records behavior, evaluations test quality and safety, and audit converts telemetry into evidence. It also extends identity and checkpoints to a",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "BestBlogs Daily · 08-25\n\n# runtime AI governance / ADK live evaluation / DFlash …",
+          "url": "https://x.com/BestBlogsDev/status/2092046971985158653",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in the Room",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI Is As AI Does - Living, Learning and Remaining Human with the New Agent in th…",
+          "url": "https://x.com/essexmaelstrom/status/2091841889372635517",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "ChatGPT Work Completely Changes How You Use ChatGPT (full guide)\n*Free ChatGPT at Work Guide:* https://clickhubspot.com/4qny\n\nMore from Futurepedia:\n👉 Join the Skill Leap AI education platform! Try it free and explore 20+ top-rated courses in AI: https://bit.ly/futurepediaSL\n\nSummary:\nChatGPT just launched a new product called Work. This takes ChatGPT from an assistant that answers questions to an agent that completes tasks on its own. And it’s specifically built for non-technical users. You use…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "ChatGPT Work Completely Changes How You Use ChatGPT (full guide)\n*Free ChatGPT a…",
+          "url": "https://www.youtube.com/watch?v=tqKGaqaQkNk",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "Will AI Replace SaaS? Aurora's Perspective on the Biggest Question in Enterprise Software\"\nIn this episode of Aurora Insights—the final session in Round 2—we sit down with Chris Lo, CEO of Aurora Mobile (NASDAQ: JG), to address one of enterprise technology's biggest debates: will AI agents make traditional SaaS obsolete? Chris shares Aurora's view from his March 2026 shareholder letter—where market pessimism misses the mark, how SaaS evolves toward PaaS, and why infrastructure companies may grow…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Will AI Replace SaaS? Aurora's Perspective on the Biggest Question in Enterprise…",
+          "url": "https://www.youtube.com/watch?v=AVj6H7YA5UE",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "AI for Customer Support: Risk Classification and Mitigation\nRisk Classification and Mitigation\n\nBuild risk classification frameworks for AI use cases - severity assessment, likelihood analysis, mitigation strategies, and ongoing risk monitoring systems.\n\nIn this lesson from the AI for Customer Support program, you'll learn:\n\n• Critical: Could cause business disruption, customer harm, regulatory action\n• High: Significant negative impact on operations or customers\n• Medium: Noticeable but managea…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI for Customer Support: Risk Classification and Mitigation\nRisk Classification …",
+          "url": "https://www.youtube.com/watch?v=DFZNM-W9nGA",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "15-1151-L1-01",
+      "text": "ICT occupations in Australia, including Computer User Support Specialists (ANZSCO unit group 3131, ICT Support Technicians), are not subject to statutory licensure. The Australian Computer Society (ACS) is the peak professional body for the ICT sector, the authorised assessing authority for ICT skilled migration, and sets voluntary professional standards through its Certified Professional (CP) / Certified Technologist (CT) scheme.",
       "lane": "L1",
       "tier": "regulatory",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Computer User Support Specialists",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Computer User Support Specialists",
-          "url": "https://www.psc.gov.au/standards/15-1151",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Computer User Support Specialists"
+          "publisher": "Australian Computer Society",
+          "title": "ACS — The Professional Association for Australia's ICT sector",
+          "url": "https://www.acs.org.au/",
+          "date": "",
+          "whatItMeasured": "ACS as peak ICT body and standards setter."
+        },
+        {
+          "publisher": "Australian Computer Society",
+          "title": "Get ACS Certified",
+          "url": "https://www.acs.org.au/professionalrecognition/certification-landing-page.html",
+          "date": "",
+          "whatItMeasured": "Voluntary CP/CT professional certification scheme."
+        },
+        {
+          "publisher": "Australian Computer Society",
+          "title": "IT occupations and ANZSCO codes",
+          "url": "https://www.acs.org.au/msa/information-for-applicants/occupations-anzsco-codes/information-technology.html",
+          "date": "",
+          "whatItMeasured": "Maps Computer User Support Specialists to ANZSCO 3131 (ICT Support Technicians)."
         }
       ],
-      "scope": "Australian practitioners in Computer User Support Specialists across public, private, and research sectors.",
+      "scope": "Australian ICT occupations. ACS standards are voluntary; migration skills assessment is mandatory only for visa purposes, not for domestic employment of Computer User Support Specialists.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
         "C3",
-        "W1",
-        "G1"
+        "G2"
       ],
       "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "refuteNotes": "ACS is the recognised Australian ICT professional body; ANZSCO mapping verified via ACS occupation list."
     },
     {
-      "id": "15-1151-02",
-      "text": "Automation of routine transactional and analytical tasks in Computer User Support Specialists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "id": "15-1151-L2-01",
+      "text": "Jobs and Skills Australia's Generative AI Capacity Study (August 2025) finds generative AI is more likely to augment than automate work: augmentation outweighs automation, and the highest automation potential is concentrated in routine roles. At task-category grain, Technical Development & Engineering tasks show high augmentability (~0.69 on the 0–1 scale).",
       "lane": "L2",
       "tier": "scholarly",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Computer User Support Specialists",
-          "url": "https://www.jobsandskills.gov.au/research/15-1151",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Computer User Support Specialists in Australia"
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition – Exposure",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/our-gen-ai-transition-exposure",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Gen AI exposure study: augmentation vs automation by task/occupation; Technical Development & Engineering augmentability ~0.69."
+        },
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (occupation data)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study/occupation-data-on-ai-exposure",
+          "date": "2025-08",
+          "whatItMeasured": "ANZSCO v1.3 unit-level augmentation/automation exposure scores."
         }
       ],
-      "scope": "Entry-level and senior Computer User Support Specialists roles in Australia.",
+      "scope": "Australian labour market; scores are model-derived task-level exposure estimates, not employment-change forecasts. Per-occupation ICT unit scores sit in the high-augmentation band but this claim reports the study-level finding and the task-category figure.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [
@@ -62,45 +1576,226 @@
         "G2"
       ],
       "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "refuteNotes": "Primary Australian government study; population = AU occupations; in window (Aug 2025)."
+    },
+    {
+      "id": "15-1151-L2-02",
+      "text": "PwC's AI Jobs Barometer (Australia) finds the occupations most exposed to AI are 2.5x more likely to rely on human-intensive abilities (empathy, judgement, creativity), and the most AI-exposed junior roles are 7x more likely to require skills usually expected of senior workers. Among the top 20% most productive AI-exposed firms, wages rose ~68%.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "PwC Australia",
+          "title": "AI Jobs Barometer",
+          "url": "https://www.pwc.com.au/services/artificial-intelligence/ai-jobs-barometer.html",
+          "date": "2025",
+          "whatItMeasured": "Analysis of ~1bn job ads across six continents; AU findings on AI-exposed occupations' skill/wage shifts."
+        }
+      ],
+      "scope": "Australian (and global) labour market; figures are PwC's modelled estimates from job-ad text, not a census of ICT roles specifically.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "W1",
+        "G2"
+      ],
+      "refuted": false,
+      "refuteNotes": "PwC institutional study; population = AU job ads; in window (2025)."
+    },
+    {
+      "id": "15-1151-L2-03",
+      "text": "The Tech Council of Australia (with Microsoft, LinkedIn and Workday) projects AI could create up to 200,000 AI-related jobs in Australia by 2030, requiring the AI workforce to grow roughly 500% over seven years — indicating net demand growth for technology roles rather than net displacement.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Tech Council of Australia",
+          "title": "AI to create 200,000 jobs in Australia by 2030",
+          "url": "https://techcouncil.com.au/newsroom/ai-to-create-200000-jobs-in-australia-by-2030/",
+          "date": "2024-07",
+          "whatItMeasured": "Forecast of AI-related net job creation in Australia to 2030 (200k jobs; 500% workforce growth)."
+        }
+      ],
+      "scope": "Australian technology workforce overall; a net-demand forecast, not a per-occupation displacement estimate.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "G1",
+        "W1"
+      ],
+      "refuted": false,
+      "refuteNotes": "Industry report with Microsoft/LinkedIn/Workday support; population = AU tech workforce; in window (2024)."
+    },
+    {
+      "id": "15-1151-L2-04",
+      "text": "The Department of Employment and Workplace Relations' 'AI and employment in Australia' report builds on JSA's exposure estimates and finds a modest negative employment signal correlated with occupations' potential AI exposure, while cautioning that individual-occupation automation projections are inherently speculative and imprecise.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Department of Employment and Workplace Relations (Australia)",
+          "title": "AI and employment in Australia",
+          "url": "https://www.dewr.gov.au/download/17666/ai-and-employment-australia/43205/ai-and-employment-australia/pdf",
+          "date": "2025",
+          "whatItMeasured": "DEWR statistical model of AI exposure vs employment patterns, built on JSA estimates."
+        }
+      ],
+      "scope": "Australian labour market; a correlation study, not a causal or per-occupation forecast for ICT roles specifically.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "C4",
+        "W2"
+      ],
+      "refuted": false,
+      "refuteNotes": "Australian government department report; population = AU occupations; in window (2025)."
+    },
+    {
+      "id": "15-1151-L3-01",
+      "text": "ACS (via its Information Age outlet) reported JSA's finding that generative AI 'has a greater capacity to augment work than automate it', while administrative, entry-level and female-dominated roles are more exposed to automation — framing the disruption as augmentation-led for skilled technical work.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "ACS / Information Age",
+          "title": "Aussie jobs most vulnerable to AI outlined in govt study",
+          "url": "https://ia.acs.org.au/article/2025/aussie-jobs-most-vulnerable-to-ai-outlined-in-govt-study.html",
+          "date": "2025",
+          "whatItMeasured": "Trade-press summary of JSA Gen AI Capacity Study findings for Australian occupations."
+        }
+      ],
+      "scope": "Australian; secondary reporting of the JSA study, not an independent primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "W1",
+        "C3"
+      ],
+      "refuted": false,
+      "refuteNotes": "Professional-body publication; population = AU; in window (2025). Corroborates JSA L2 finding."
+    },
+    {
+      "id": "15-1151-L3-02",
+      "text": "Analysis of US Bureau of Labor Statistics data (cited by XA Talent, 2026) projects computer user support specialist employment to decline 4% over 2024–2034 while computer network support specialist employment grows 2%; about 50,500 support-specialist openings remain projected each year, largely to replace retirements. AI is automating routine Tier 1 tickets and compressing the entry point.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "XA Talent (myxatalent.com)",
+          "title": "Will AI Replace IT Support Jobs? What 2026 Data Shows",
+          "url": "https://myxatalent.com/will-ai-replace-it-support-jobs/",
+          "date": "2026",
+          "whatItMeasured": "Analysis citing US BLS: user-support -4% (2024-2034), network-support +2%; ~50,500 openings/yr; AI automating Tier 1 tickets."
+        },
+        {
+          "publisher": "xurrent",
+          "title": "The future of the IT help desk is artificial intelligence in 2025",
+          "url": "https://www.xurrent.com/blog/the-future-of-the-it-help-desk-is-artificial-intelligence-2025",
+          "date": "2025",
+          "whatItMeasured": "Vendor analysis of AI deflecting routine Tier 1 help-desk volume to agents, shifting humans to Tier 2."
+        }
+      ],
+      "scope": "US BLS employment projections (not Australia); vendor analysis is product-framed. Indicates direction of change for user-support roles, not a claim about Australian employment.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [
+        "W2",
+        "C3"
+      ],
+      "refuted": false,
+      "refuteNotes": "Real published analysis; population explicitly US BLS — scoped as non-Australian evidence. xurrent is a vendor source (note provenance)."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "computer user support specialists",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "IT support",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-29)",
+    "count": 2439,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "preferable.ai",
+      "Study and Work",
+      "Centorrino Technologies",
+      "Hays",
+      "Amazon",
+      "NAVITAS",
+      "Iron Mountain",
+      "Anglican Care"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+      "support",
+      "ai",
+      "remote",
+      "software",
+      "troubleshooting",
+      "sla",
+      "hardware",
+      "help desk"
+    ],
+    "note": "Count is Adzuna AU live index size for query 'IT support' (all-time). Skill keywords tallied across 50 sampled ads."
   },
   "corpus": {
     "platforms": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Computer User Support Specialists Association discourse",
-        "items": 45
+        "name": "linkedin",
+        "scope": "linkedin-mcp-search (unofficial scrape), Australia",
+        "items": 10,
+        "note": "Demand-side corpus; who advertises / what they ask for. Not salary or hire-volume."
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Computer User Support Specialists",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/15-1151/raw/linkedin_l4.json"
-    }
+    "retrieved": "2026-08-29",
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "note": "OpenAthens SSO session not available in unattended run (cookies last refreshed 2026-08-26). Gap logged to data/professions/factiva_backlog.json for backfill."
+      },
+      {
+        "lane": "L4",
+        "source": "seek",
+        "status": "not_sampled",
+        "note": "Seek trend pages not sampled this pass; Adzuna AU used as the quantitative L4 source."
+      },
+      {
+        "lane": "L5",
+        "source": "grounding",
+        "status": "degraded",
+        "note": "last30days grounding source returned 0 items for this occupation this run (engine status: partial/failed)."
+      },
+      {
+        "lane": "L5",
+        "source": "jobs",
+        "status": "degraded",
+        "note": "last30days jobs source returned 0 items this run."
+      }
+    ],
+    "linkedin": [
+      {
+        "date": "2026-08-29",
+        "soc": "15-1151",
+        "query": "IT Support",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
+    "l5Sample": [
+      {
+        "date": "2026-08-29",
+        "added": 61,
+        "sources": {
+          "github": 4,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 6,
+          "x": 24,
+          "youtube": 3
+        },
+        "status": "sampled"
+      }
+    ]
   },
   "confidence": "high",
   "caveats": []
