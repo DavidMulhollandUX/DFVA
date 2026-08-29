@@ -1,29 +1,31 @@
-# Deep Research Evidence Log: Emergency Medical Technicians and Paramedics (29-2041)
+# Evidence log: Emergency Medical Technicians and Paramedics (29-2041)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `29-2041-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Emergency Medical Technicians and Paramedics] Professional Practice Framework and Digital Competency Guidelines for Emergency Medical Technicians and Paramedics — https://www.psc.gov.au/standards/29-2041 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Emergency Medical Technicians and Paramedics enforce non-delegable ethical accountability a..."
 
-> "National peak professional bodies and statutory regulators governing Emergency Medical Technicians and Paramedics enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Emergency Medical Technicians and Paramedics — https://www.jobsandskills.gov.au/research/29-2041 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Emergency Medical Technicians and Paramedics heightens the demand for adaptive problem solving, inte..."
 
-- **Scope:** Australian practitioners in Emergency Medical Technicians and Paramedics across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Emergency Medical Technicians and Paramedics** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Emergency Medical Technicians and Paramedics](https://www.psc.gov.au/standards/29-2041) — *What it measured:* National competency and ethics framework for Emergency Medical Technicians and Paramedics
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (37 claims)
+- last30days declared sample: 37 items across github=2, grounding=0, hackernews=24, reddit=1, x=6, youtube=1.
+- Representative practitioner quotes:
+  - [github] Say that certificates are not on this chart, because EMT is what people look for
+Reported as *"EMT is not in this list"*...
+  - [github] Add four more organizations to the affiliations grid
+## Summary
 
-### Claim `29-2041-02` (L2 · scholarly)
-
-> "Automation of routine transactional and analytical tasks in Emergency Medical Technicians and Paramedics heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Emergency Medical Technicians and Paramedics roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Emergency Medical Technicians and Paramedics](https://www.jobsandskills.gov.au/research/29-2041) — *What it measured:* Labour market analysis of automation resilience across Emergency Medical Technicians and Paramedics in Australia
-
----
+Adds the four organizations newly uploaded to `EdgerAll...
+  - [hackernews] Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI...
+  - [hackernews] New Orleans is testing Carbyne’s AI-powered Emergency Call Triage software...
+  - [hackernews] Tell HN: Man, AI is killing my brain...

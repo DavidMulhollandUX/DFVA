@@ -1007,6 +1007,342 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l448",
+      "text": "Sonographer \u2014 Integral Diagnostics (IDX) (Ballarat, Victoria, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Integral Diagnostics (IDX)",
+          "title": "Sonographer",
+          "url": "https://www.linkedin.com/jobs/view/4444098695",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l449",
+      "text": "Sonographer \u2014 Imaging Associates (Footscray, Victoria, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Imaging Associates",
+          "title": "Sonographer",
+          "url": "https://www.linkedin.com/jobs/view/4445092705",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l450",
+      "text": "Sonographer \u2014 Qscan Group (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Qscan Group",
+          "title": "Sonographer",
+          "url": "https://www.linkedin.com/jobs/view/4453401890",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l451",
+      "text": "Sonographer \u2014 Radiology Tasmania (Hobart, Tasmania, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Radiology Tasmania",
+          "title": "Sonographer",
+          "url": "https://www.linkedin.com/jobs/view/4408989040",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l452",
+      "text": "Sonographer \u2014 Queensland X-Ray (Toowoomba, Queensland, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland X-Ray",
+          "title": "Sonographer",
+          "url": "https://www.linkedin.com/jobs/view/4456874142",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l453",
+      "text": "Sonographer \u2014 Radiology Tasmania (Launceston, Tasmania, Australia). Posted 9 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Radiology Tasmania",
+          "title": "Sonographer",
+          "url": "https://www.linkedin.com/jobs/view/4413865433",
+          "date": "9 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l454",
+      "text": "Sonographer \u2014 Qscan Group (Tamworth, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Qscan Group",
+          "title": "Sonographer",
+          "url": "https://www.linkedin.com/jobs/view/4452156818",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l455",
+      "text": "Sonographer \u2014 Queensland X-Ray (Cairns, Queensland, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland X-Ray",
+          "title": "Sonographer",
+          "url": "https://www.linkedin.com/jobs/view/4456888082",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l456",
+      "text": "Sonographer \u2014 I-MED Radiology Network (East Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "I-MED Radiology Network",
+          "title": "Sonographer",
+          "url": "https://www.linkedin.com/jobs/view/4425814385",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l457",
+      "text": "Sonographer \u2014 Integral Diagnostics (IDX) (Mackay, Queensland, Australia). Posted 2 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Integral Diagnostics (IDX)",
+          "title": "Sonographer",
+          "url": "https://www.linkedin.com/jobs/view/4330244909",
+          "date": "2 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l558",
+      "text": "\uad00\ub828 \ub17c\ubb38 \uac80\uc0c9\n\uc784\uc0c1\uc5ed\ud559(Clinical Epidemiology)\uc758 \uccb4\uacc4\uc801 \ubb38\ud5cc \uace0\ucc30(Systematic Review, SR) \ubc29\ubc95\ub860\uc744 \uaddc\uc81c \uacfc\ud559(Regulatory Science)\uc5d0 \uc811\ubaa9\ud558\uae30 \uc704\ud574, \ubcf4\uc720\ud558\uace0 \uacc4\uc2e0 '\ub17c\ubb38 \uac80\uc0c9(Paper Search)' \ud234\uc5d0 \uc989\uc2dc \uc785\ub825\ud558\uc5ec \ud575\uc2ec \ubb38\ud5cc\uc744 \ud540\uc14b\ucc98\ub7fc \ucd94\ucd9c\ud560 \uc218 \uc788\ub294 [SR \uac80\uc0c9 \ud504\ub85c\ud1a0\ucf5c \ubc0f \uc5f0\uad6c \ud504\ub808\uc784\uc6cc\ud06c]\ub97c 3\ub2e8\uacc4\ub85c \uad6c\uc870\ud654\ud574 \ub4dc\ub9bd\ub2c8\ub2e4.\n\n\ub2e8\uc21c\ud55c AI \uc54c\uace0\ub9ac\uc998 \uc131\ub2a5(Standalone Performance) \ud3c9\uac00 \ub17c\ubb38\ub4e4\uc744 \ubc30\uc81c\ud558\uace0, \uc644\uc81c\ud488 \uc81c\uc870\uc0ac(OEM)\uc758 V&V \ucc45\uc784 \ubd84\ud560(Decoupling)\uacfc \ub0b4\ubd80\n[Role] You are an expert clinical epidemiologist and regulatory science researcher conducting a Systematic Review.\n\n[Objective] Search for academic papers that evaluate the impact of integrat\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\uad00\ub828 \ub17c\ubb38 \uac80\uc0c9\n\uc784\uc0c1\uc5ed\ud559(Clinical Epidemiology)\uc758 \uccb4\uacc4\uc801 \ubb38\ud5cc \uace0\ucc30(Systematic Review, SR) \ubc29\ubc95\ub860\uc744 \uaddc\uc81c \uacfc\u2026",
+          "url": "https://github.com/hyeonho4ko/hyeonho4ko.github.io/issues/81",
+          "date": "2026-06-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "Im considering doing residency in Germany as a foreign medical graduate and Im currently deciding between radiology (in the light of AI), anesthesia, urology, and gastroenterology.\nI would really like to hear from people actually working in these specialties especially in Germany about everyday life, hours, calls, salaries, and what life is like after residency there. Anything that would help point me towards any specific specialty would be appreciated. I would love diagnostic radiology, but I a\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Im considering doing residency in Germany as a foreign medical graduate and Im c\u2026",
+          "url": "https://www.reddit.com/r/medicalschoolEU/comments/1vn4kh0/im_considering_doing_residency_in_germany_as_a/",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "AI diagnostics are now being used in Korean clinics before your consultation even starts. Has anyone experienced this?\nClinics in Seoul are rolling out AI-powered skin analysis and treatment matching tools so that by the time you sit in front of the doctor, they already have a detailed read on your skin condition, texture, concerns, and even a suggested protocol. Medical Korea 2026 (held at COEX in March) had this as its headline theme -- AI-driven personalized healthcare is no longer a future t\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI diagnostics are now being used in Korean clinics before your consultation eve\u2026",
+          "url": "https://www.reddit.com/r/KoreanClinicCare/comments/1vyqkcq/ai_diagnostics_are_now_being_used_in_korean/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "I built a web app that trains medical diagnostic reasoning \u2014 looking for beta testers (free upgraded access for feedback)\nI&#39;m an attending physician, and I&#39;ve spent the past several months building Acumen Atlas (acumenatlas.org) \u2014 a web app that trains diagnostic reasoning rather than memorization for any clinician that is practicing medicine. The format: pick a chief complaint (chest pain, dyspnea, altered mental status \u2014 22 so far), learn its diagnostic schema (or however you think thr\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I built a web app that trains medical diagnostic reasoning \u2014 looking for beta te\u2026",
+          "url": "https://www.reddit.com/r/medicalstudent/comments/1vlm4ym/i_built_a_web_app_that_trains_medical_diagnostic/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "AI is already beating human doctors in medical tests (Reason)\nArtificial intelligence (AI) systems may outperform doctors at diagnosing patients. In a recent series of experiments led by researchers at the Beth Israel Deaconess Medical Center and Harvard Medical School, a preview of the OpenAI large language model (LLM) known as o1 bested human physicians in multiple tests of clinical and diagnostic reasoning. &quot;We tested the AI model against virtually every benchmark, and it eclipsed both p\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI is already beating human doctors in medical tests (Reason)\nArtificial intelli\u2026",
+          "url": "https://www.reddit.com/r/DeepStateCentrism/comments/1vkou96/ai_is_already_beating_human_doctors_in_medical/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "Medical professionals: AI training jobs can pay far more than general data annotation\nMost people associate AI training with basic data annotation. In reality, one of the fastest-growing niches is medical AI training , where healthcare professionals help improve clinical AI systems by reviewing and evaluating AI-generated content. Typical projects include: evaluating AI-generated medical responses checking clinical accuracy identifying unsafe or misleading advice reviewing diagnostic reasoning v\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Medical professionals: AI training jobs can pay far more than general data annot\u2026",
+          "url": "https://www.reddit.com/r/AiTraining_Annotation/comments/1vcy619/medical_professionals_ai_training_jobs_can_pay/",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1037,14 +1373,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Diagnostic Medical Sonographers",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/29-2032/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Diagnostic Medical Sonographers",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/29-2032/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "29-2032",
+        "query": "Diagnostic Medical Sonographers",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1058,9 +1405,23 @@
           "youtube": 0
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 6,
+        "sources": {
+          "github": 1,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 8,
+          "x": 12,
+          "youtube": 0
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

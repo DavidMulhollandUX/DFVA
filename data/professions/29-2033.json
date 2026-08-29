@@ -1049,6 +1049,363 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l450",
+      "text": "Nuclear Medicine Technologist \u2014 Lumus Imaging (Frenchs Forest, New South Wales, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Lumus Imaging",
+          "title": "Nuclear Medicine Technologist",
+          "url": "https://www.linkedin.com/jobs/view/4448673103",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l451",
+      "text": "Nuclear Medicine Technologist \u2014 I-MED Radiology Network (Bundaberg, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "I-MED Radiology Network",
+          "title": "Nuclear Medicine Technologist",
+          "url": "https://www.linkedin.com/jobs/view/4446004720",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l452",
+      "text": "Nuclear Medicine Technologist \u2014 I-MED Radiology Network (East Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "I-MED Radiology Network",
+          "title": "Nuclear Medicine Technologist",
+          "url": "https://www.linkedin.com/jobs/view/4450881056",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l453",
+      "text": "Nuclear Medicine Technologist \u2014 Northern Territory Government (Darwin, Northern Territory, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Northern Territory Government",
+          "title": "Nuclear Medicine Technologist",
+          "url": "https://www.linkedin.com/jobs/view/4446703185",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l454",
+      "text": "Nuclear Medicine Technologist \u2014 Qscan Group (Gold Coast, Queensland, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Qscan Group",
+          "title": "Nuclear Medicine Technologist",
+          "url": "https://www.linkedin.com/jobs/view/4446713404",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l455",
+      "text": "Nuclear Medicine Technologist\u00e2\u0080\u008b \u2014 Queensland X-Ray (Cairns, Queensland, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland X-Ray",
+          "title": "Nuclear Medicine Technologist\u00e2\u0080\u008b",
+          "url": "https://www.linkedin.com/jobs/view/4456881107",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l456",
+      "text": "Nuclear Medicine Technologist \u2014 Queensland X-Ray (Townsville, Queensland, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland X-Ray",
+          "title": "Nuclear Medicine Technologist",
+          "url": "https://www.linkedin.com/jobs/view/4456881108",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l457",
+      "text": "Nuclear Medicine Technologist \u2014 Integral Diagnostics (IDX) (Sunshine Coast, Queensland, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Integral Diagnostics (IDX)",
+          "title": "Nuclear Medicine Technologist",
+          "url": "https://www.linkedin.com/jobs/view/4440395763",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l458",
+      "text": "Nuclear Medicine Technologist - Southport \u2014 Qscan Group (Gold Coast). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Qscan Group",
+          "title": "Nuclear Medicine Technologist - Southport",
+          "url": "https://www.linkedin.com/jobs/view/4446968371",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l459",
+      "text": "Nuclear Medicine Technologist \u2014 Lumus Imaging (Trevallyn, Tasmania, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Lumus Imaging",
+          "title": "Nuclear Medicine Technologist",
+          "url": "https://www.linkedin.com/jobs/view/4449957499",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l560",
+      "text": "Daily Content Summary 2026-06-21\n# \ud83d\udcf0 Daily Content Summary - 2026-06-21\n### Executive Summary\n\n**Key Insights** reveal a stark paradox in the current technological landscape: while AI tools are democratizing creation, they are simultaneously eroding trust and authority. A marketing agency's unauthorized replication of *The Dictiona\n---\n### Articles Processed\n| \ud83d\udcd1 Article | \ud83d\udc64 Author | \ud83d\udcc4 Summary | \ud83c\udff7\ufe0f Tags |\n|---------|-----------|-----------|--------|\n| [\ud83d\udd17](https://waxy.org/2026/06/the-wholesale-pl\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Daily Content Summary 2026-06-21\n# \ud83d\udcf0 Daily Content Summary - 2026-06-21\n### Exec\u2026",
+          "url": "https://github.com/jhengy/content-aggregator/issues/526",
+          "date": "2026-06-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "feat(route): add Meritalk latest articles\n<!--\r\nIf you have any difficulties in filling out this form, please refer to https://docs.rsshub.app/joinus/new-rss/submit-route\r\n\u5982\u679c\u4f60\u5728\u586b\u5199\u6b64\u8868\u5355\u65f6\u9047\u5230\u4efb\u4f55\u56f0\u96be\uff0c\u8bf7\u53c2\u8003 https://docs.rsshub.app/zh/joinus/new-rss/submit-route\r\n-->\r\n\r\n## Involved Issue / \u8be5 PR \u76f8\u5173 Issue\r\n\r\nClose #21222\r\n\r\n## Example for the Proposed Route\nSuccessfully [generated](https://github.com/DIYgod/RSSHub/actions/runs/22654397035) as following:\n\n<details>\n<summary><a href=\"http://localhost:1200/articles\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat(route): add Meritalk latest articles\n<!--\r\nIf you have any difficulties in \u2026",
+          "url": "https://github.com/DIYgod/RSSHub/pull/21282",
+          "date": "2026-03-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "Bill Gates says artificial intelligence could reshape the labor market far faster than previous technological shifts, with major disruption potentially occurring over the course of a decade rather than several generations, according to CNBC.\nIn a new essay, the Microsoft co-founder argues that AI can substitute for human cognition across a broad range of industries, including law, customer service, medicine, software and manufacturing. He says many jobs could disappear permanently, particularly \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Bill Gates says artificial intelligence could reshape the labor market far faste\u2026",
+          "url": "https://www.reddit.com/r/AIdaily_news/comments/1vyzcme/bill_gates_says_artificial_intelligence_could/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a Myth? - Steven Pinker\nProfessor Steven Pinker, one of the world\u2019s most influential cognitive psychologists and public intellectuals, joins the podcast for a profound conversation about artificial intelligence, human consciousness, and the enduring power of Enlightenment values.\n\nFilmed at Harvard \n\nIn an era dominated by apocalyptic headlines, rapid technological disruption, and rising tribalism, Pinker dismantles mode\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a My\u2026",
+          "url": "https://www.youtube.com/watch?v=eWC47agaKpk",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "Mysterious Videos That Broke My Reality!\n#Unexplained #MysteriousVideos #MysteriousTikToks\n\nJust me, late night, going down rabbit holes I couldn\u2019t stop pulling on. No script, no plan, just reaction.\n\nTonight, we\u2019re investigating mysterious videos, unexplained sightings, and disturbing encounters caught on camera. From shadowy figures and unsettling theories to dark footage with no clear explanation, every clip raises more questions than answers.\n\nSome of these moments may have a logical explana\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Mysterious Videos That Broke My Reality!\n#Unexplained #MysteriousVideos #Mysteri\u2026",
+          "url": "https://www.youtube.com/watch?v=st3IExXvLD4",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "Bill Gates Says AI Is \"A Thousand Times Bigger Than Nuclear\" \u2014 We Audited Every Claim #meshcast\nOpening Context: Bill Gates staked his reputation on it: the AI era is \"very different than any technology in human history.\" He laid it out in a 6,000-word essay and an exclusive CNN interview with Anderson Cooper \u2014 warning that AI could be \"the greatest equalizer ever invented, or the worst source of injustice.\" Bold claims deserve primary sources. This Meshcast verification episode audits all nine \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Bill Gates Says AI Is \"A Thousand Times Bigger Than Nuclear\" \u2014 We Audited Every \u2026",
+          "url": "https://www.youtube.com/watch?v=OGjQTUbhsXs",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "The AI Revolution in Cancer Imaging - Dr Richard Sidebottom\nAI will be one of the most disruptive technologies, enabling safer, faster and more accurate healthcare. It will unlock smarter cancer imaging and new insights from medical scans that were indiscernible to the human eye.\n\n\nThis lecture will demystify the AI technological revolution and explore \u201cwhy now?\u201d and how to ensure AI is deployed safely and meaningfully.\n\n\nIt will discuss how AI deployed in radiology can empower healthcare profes\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The AI Revolution in Cancer Imaging - Dr Richard Sidebottom\nAI will be one of th\u2026",
+          "url": "https://www.youtube.com/watch?v=EKWrbrTWdvk",
+          "date": "2026-06-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1079,14 +1436,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Nuclear Medicine Technologists",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/29-2033/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Nuclear Medicine Technologists",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/29-2033/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "29-2033",
+        "query": "Nuclear Medicine Technologists",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1100,9 +1468,23 @@
           "youtube": 4
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 7,
+        "sources": {
+          "github": 5,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 2,
+          "x": 12,
+          "youtube": 4
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
