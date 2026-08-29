@@ -11,14 +11,14 @@
     "to": "2026-08-24"
   },
   "generated": "2026-08-29",
-  "expires": "2027-02-28",
+  "expires": "2027-02-25",
   "programs": [
     "761em"
   ],
   "claims": [
     {
       "id": "11-3061-L101",
-      "text": "The Chartered Institute of Procurement & Supply (CIPS) is the chartered professional body for the procurement and supply chain profession \u2014 holding a Royal Charter since 1992 and offering Chartered (MCIPS) and Fellow (FCIPS) professional accreditation since 2014 \u2014 and maintains an active Australia and New Zealand regional presence, with AcademyGlobal operating since 2019 as CIPS's first and only Approved Study Centre for Australia/NZ, delivering CIPS-accredited procurement and supply qualifications that lead to MCIPS accreditation.",
+      "text": "The Chartered Institute of Procurement & Supply (CIPS) is the chartered professional body for the procurement and supply chain profession — holding a Royal Charter since 1992 and offering Chartered (MCIPS) and Fellow (FCIPS) professional accreditation since 2014 — and maintains an active Australia and New Zealand regional presence, with AcademyGlobal operating since 2019 as CIPS's first and only Approved Study Centre for Australia/NZ, delivering CIPS-accredited procurement and supply qualifications that lead to MCIPS accreditation.",
       "lane": "L1",
       "tier": "L1",
       "sources": [
@@ -37,7 +37,7 @@
           "whatItMeasured": "Confirms MCIPS and FCIPS as CIPS's chartered/fellow professional designations, and that AcademyGlobal has operated as a CIPS-accredited Study Centre partner in Australasia for 5+ years."
         }
       ],
-      "scope": "Does not establish any government licensing or legal practice requirement for 'Purchasing Managers' in Australia \u2014 CIPS/MCIPS is voluntary professional credentialing, not a statutory licence, and no evidence was found that the occupation is legally regulated in Australia. Does not cover ANZSCO 'Supply and Distribution Managers' specifically (a broader/adjacent category) or any Australian-government-issued procurement workforce standard distinct from CIPS's own qualification framework.",
+      "scope": "Does not establish any government licensing or legal practice requirement for 'Purchasing Managers' in Australia — CIPS/MCIPS is voluntary professional credentialing, not a statutory licence, and no evidence was found that the occupation is legally regulated in Australia. Does not cover ANZSCO 'Supply and Distribution Managers' specifically (a broader/adjacent category) or any Australian-government-issued procurement workforce standard distinct from CIPS's own qualification framework.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
@@ -58,7 +58,7 @@
           "whatItMeasured": "Original event/roundtable coverage (not a summary of a separate study): quotes from a JAGGAER-hosted executive roundtable of Australian procurement leaders on how AI is being used in their procurement functions."
         }
       ],
-      "scope": "Covers a small, self-selected set of large Australian organisations at one vendor-sponsored roundtable \u2014 not a representative survey of Purchasing Managers (ANZSCO/O*NET 11-3061), and not a measure of headcount, wage, or displacement effects. JAGGAER is a commercial AI procurement-software vendor with a direct interest in this narrative, so treat the framing as promotional as well as reportorial. Describes a qualitative shift toward AI-assisted strategic work, not quantified job impact.",
+      "scope": "Covers a small, self-selected set of large Australian organisations at one vendor-sponsored roundtable — not a representative survey of Purchasing Managers (ANZSCO/O*NET 11-3061), and not a measure of headcount, wage, or displacement effects. JAGGAER is a commercial AI procurement-software vendor with a direct interest in this narrative, so treat the framing as promotional as well as reportorial. Describes a qualitative shift toward AI-assisted strategic work, not quantified job impact.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
@@ -199,13 +199,13 @@
     },
     {
       "id": "l503",
-      "text": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first \u2014 **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n\u2611\ufe0f Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** \u2014 [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t\u2026",
+      "text": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first — **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n☑️ Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** — [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "\ud83d\udccc Job Radar \u2014 master board (every open role, one place)\nEvery alert-worthy open \u2026",
+          "title": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open …",
           "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
           "date": "2026-07-11",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -220,13 +220,13 @@
     },
     {
       "id": "l504",
-      "text": "General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)\n@supervoidcoder @playforge-coding Would it be possible for the Sparkle developers to use Boxy on your infrastructure as a chatbot, but in such a way that it can't open PRs or commit to Sparkle?\n\n@OmniBlocks/boxy Please research how this could be done. Afterwards, please output a list of your current\n<details>\n<summary>\ud83d\udd27 My tool activity log (4 calls)</summary>\n\n**1. `read_memory`**\n\nParams:\n```json\n{\n  \"title\": \"Allowed Reposito\u2026",
+      "text": "General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)\n@supervoidcoder @playforge-coding Would it be possible for the Sparkle developers to use Boxy on your infrastructure as a chatbot, but in such a way that it can't open PRs or commit to Sparkle?\n\n@OmniBlocks/boxy Please research how this could be done. Afterwards, please output a list of your current\n<details>\n<summary>🔧 My tool activity log (4 calls)</summary>\n\n**1. `read_memory`**\n\nParams:\n```json\n{\n  \"title\": \"Allowed Reposito…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)\n@supervoidco\u2026",
+          "title": "General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)\n@supervoidco…",
           "url": "https://github.com/OmniBlocks/Boxy-gh/issues/63",
           "date": "2026-08-04",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -241,13 +241,13 @@
     },
     {
       "id": "l505",
-      "text": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sections 1\u20133 (Purpose & Scope; Domain Matrix; Evidence Bands)**  \nDecember 02, 2025  \n\n---\n\n## 1. Purpose & Scope\n\nThis section aligns the project\u2019s TXT and PDF corpus around one structural pattern:\n\n> **Systems that secure compliance and e\nHere is the forensic debrief of the current operational reality, synthesized from your diagnosis.\n\ud83d\udccb CLINICAL DIAGNOSIS: The Parasitic Extraction Engine\nSubject: Global Socio-Economic\u2026",
+      "text": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sections 1–3 (Purpose & Scope; Domain Matrix; Evidence Bands)**  \nDecember 02, 2025  \n\n---\n\n## 1. Purpose & Scope\n\nThis section aligns the project’s TXT and PDF corpus around one structural pattern:\n\n> **Systems that secure compliance and e\nHere is the forensic debrief of the current operational reality, synthesized from your diagnosis.\n📋 CLINICAL DIAGNOSIS: The Parasitic Extraction Engine\nSubject: Global Socio-Economic…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sec\u2026",
+          "title": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sec…",
           "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/2",
           "date": "2026-04-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -262,13 +262,13 @@
     },
     {
       "id": "l506",
-      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n\u00b7 I.G. Farben's post-w\n\ud83e\udd3f\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati\u2026",
+      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n· I.G. Farben's post-w\n🤿\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL\u2026",
+          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL…",
           "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/3",
           "date": "2026-04-10",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -430,13 +430,13 @@
     },
     {
       "id": "l515",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -472,13 +472,13 @@
     },
     {
       "id": "l517",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -640,13 +640,13 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -661,13 +661,13 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -724,13 +724,13 @@
     },
     {
       "id": "l529",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -745,13 +745,13 @@
     },
     {
       "id": "l530",
-      "text": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+      "text": "Show HN: Core – open-source AI butler that clears your backlog without you",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+          "title": "Show HN: Core – open-source AI butler that clears your backlog without you",
           "url": "https://www.getcore.me/",
           "date": "2026-04-23",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -856,7 +856,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "1/ Early Riders just published The Singularity Stack, our framework for the AI b\u2026",
+          "title": "1/ Early Riders just published The Singularity Stack, our framework for the AI b…",
           "url": "https://x.com/Early_Riders/status/2092598596809970058",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -871,13 +871,13 @@
     },
     {
       "id": "l536",
-      "text": "Bitcoin just printed its biggest week in two years and everyone's asking the same question: what now?\n\nWe're answering it Wednesday, twice with @OnrampBitcoin x @Early_Riders.\n\nState of the industry roundtable, virtual, 4:00 ET.\n\nHappy hour at @PubKey in Manhattan with me, @Lnelson_21 , and @macrojack21 , 5:30 ET.\n\nTreasury and monetary dynamics behind the move, the security incidents nobody's prepared for, and where this all goes next with AI.\n\nSpots are limited. RSVP here \u27a1\ufe0f:\nhttps://t.co/eYSf",
+      "text": "Bitcoin just printed its biggest week in two years and everyone's asking the same question: what now?\n\nWe're answering it Wednesday, twice with @OnrampBitcoin x @Early_Riders.\n\nState of the industry roundtable, virtual, 4:00 ET.\n\nHappy hour at @PubKey in Manhattan with me, @Lnelson_21 , and @macrojack21 , 5:30 ET.\n\nTreasury and monetary dynamics behind the move, the security incidents nobody's prepared for, and where this all goes next with AI.\n\nSpots are limited. RSVP here ➡️:\nhttps://t.co/eYSf",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Bitcoin just printed its biggest week in two years and everyone's asking the sam\u2026",
+          "title": "Bitcoin just printed its biggest week in two years and everyone's asking the sam…",
           "url": "https://x.com/MTanguma/status/2092004694558167491",
           "date": "2026-08-24",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -898,7 +898,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "The Singularity Stack is live. Proud of the @Early_Riders team on this, and exci\u2026",
+          "title": "The Singularity Stack is live. Proud of the @Early_Riders team on this, and exci…",
           "url": "https://x.com/MTanguma/status/2092623388837597536",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -913,13 +913,13 @@
     },
     {
       "id": "l538",
-      "text": "AI WEEKLY UPDATE \u2014 Saturday, 22 August 2026",
+      "text": "AI WEEKLY UPDATE — Saturday, 22 August 2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI WEEKLY UPDATE \u2014 Saturday, 22 August 2026",
+          "title": "AI WEEKLY UPDATE — Saturday, 22 August 2026",
           "url": "https://x.com/MansaTesla/status/2091213068931928111",
           "date": "2026-08-22",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -961,7 +961,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "We just published The Singularity Stack at @early_riders. Every layer of the AI \u2026",
+          "title": "We just published The Singularity Stack at @early_riders. Every layer of the AI …",
           "url": "https://x.com/Lnelson_21/status/2092628872466399722",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -976,13 +976,13 @@
     },
     {
       "id": "l541",
-      "text": "I Got SuperGrok Heavy for $99. Then I Discovered What It Actually Unlocks.\n\nI wasn\u2019t planning to spend this much time with Grok this week.\n\nThen yesterday, while checking my AI subscriptions, my account showed me an offer for SuperGrok Heavy at $99/month.\n\nI subscribed mostly out of curiosity.\n\nThen I linked my Grok account to Cursor.\n\nAnd this showed up:\n\nCursor Ultra \u2014 $0.\n\nThat got my attention.\n\nCursor normally lists Ultra at $200/month, and its official documentation says qualifying SuperGr",
+      "text": "I Got SuperGrok Heavy for $99. Then I Discovered What It Actually Unlocks.\n\nI wasn’t planning to spend this much time with Grok this week.\n\nThen yesterday, while checking my AI subscriptions, my account showed me an offer for SuperGrok Heavy at $99/month.\n\nI subscribed mostly out of curiosity.\n\nThen I linked my Grok account to Cursor.\n\nAnd this showed up:\n\nCursor Ultra — $0.\n\nThat got my attention.\n\nCursor normally lists Ultra at $200/month, and its official documentation says qualifying SuperGr",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "I Got SuperGrok Heavy for $99. Then I Discovered What It Actually Unlocks.\n\nI wa\u2026",
+          "title": "I Got SuperGrok Heavy for $99. Then I Discovered What It Actually Unlocks.\n\nI wa…",
           "url": "https://x.com/BestAndroid/status/2089202915668099405",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1003,7 +1003,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Unlocking Executive Bandwidth: How AI Delivers Massive Value by Freeing Time to \u2026",
+          "title": "Unlocking Executive Bandwidth: How AI Delivers Massive Value by Freeing Time to …",
           "url": "https://x.com/DinoJVidiliCons/status/2090761450037878919",
           "date": "2026-08-21",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1039,13 +1039,13 @@
     },
     {
       "id": "l544",
-      "text": "How to Build an AI-Powered Book Summary TikTok Channel and Make Money: A Practical Guide\n\nCreating a TikTok channel around books sounds simple: choose a book, ask AI to summarize it, turn the summary into a voiceover, add visuals, and publish.\n\nBut that is not the strongest business model.\n\nA better strategy is to build a channel that transforms ideas from books into original, useful, and entertaining short-form content.\n\nInstead of creating a video titled:\n\n\u201cAtomic Habits Summary\u201d\n\nyou could cr",
+      "text": "How to Build an AI-Powered Book Summary TikTok Channel and Make Money: A Practical Guide\n\nCreating a TikTok channel around books sounds simple: choose a book, ask AI to summarize it, turn the summary into a voiceover, add visuals, and publish.\n\nBut that is not the strongest business model.\n\nA better strategy is to build a channel that transforms ideas from books into original, useful, and entertaining short-form content.\n\nInstead of creating a video titled:\n\n“Atomic Habits Summary”\n\nyou could cr",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "How to Build an AI-Powered Book Summary TikTok Channel and Make Money: A Practic\u2026",
+          "title": "How to Build an AI-Powered Book Summary TikTok Channel and Make Money: A Practic…",
           "url": "https://x.com/HAGOCommunity/status/2089059895458873796",
           "date": "2026-08-16",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1066,7 +1066,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "\"My customers are angry. And why are they angry? Because they feel like they got\u2026",
+          "title": "\"My customers are angry. And why are they angry? Because they feel like they got…",
           "url": "https://x.com/v_vibhav/status/2082823658402369653",
           "date": "2026-07-30",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1087,7 +1087,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "A few notes on how AI deployment has aged inside institutional finance - a view \u2026",
+          "title": "A few notes on how AI deployment has aged inside institutional finance - a view …",
           "url": "https://x.com/v_vibhav/status/2067225707512762762",
           "date": "2026-06-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1108,7 +1108,7 @@
       "sources": [
         {
           "publisher": "x",
-          "title": "Glad to see the conversation finally shifting toward context infrastructure. \n\nF\u2026",
+          "title": "Glad to see the conversation finally shifting toward context infrastructure. \n\nF…",
           "url": "https://x.com/v_vibhav/status/2061393875722448927",
           "date": "2026-06-01",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1165,13 +1165,13 @@
     },
     {
       "id": "l550",
-      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell\u2026",
+      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth!\u2026",
+          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth!…",
           "url": "https://www.youtube.com/watch?v=Cn8HBj8QAbk",
           "date": "2026-03-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1186,13 +1186,13 @@
     },
     {
       "id": "l551",
-      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - \u2026",
+      "text": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Harris discuss how Alibaba's AI went rogue and started blackmailing people. \n\nGet up to 20% off the leading longevity and cellular health supplement at https://timeline.com/modernwisdom\n\n-\n\nGet access to every episode 10 hours before YouTube by subscribing for free on Spotify - https://spotify.modernwisdom.com or Apple Podcasts - https://apple.modernwisdom.com\n\nGet my free Reading List of 100 life-changing books here - …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har\u2026",
+          "title": "The Alibaba AI Incident Should Terrify Us - Tristan Harris\nChris and Tristan Har…",
           "url": "https://www.youtube.com/watch?v=VCJFzVtvhBQ",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1207,13 +1207,13 @@
     },
     {
       "id": "l552",
-      "text": "How AI is Reshaping Procurement & Supply Chains | The Procurement Diaries\n\ud83c\udf99\ufe0f Welcome to The Procurement Pulse by ChemAnalyst.\n\nIn this insightful episode, Karan Chechi sits down with Sudhanshu Kumar \u2014 a seasoned procurement and supply chain expert with nearly 30 years of experience across leading global FMCG companies including PepsiCo, The Coca-Cola Company, Dabur, GSK, and Emami.\n\nThis conversation explores:\n\u2705 The evolution of procurement over the last 30 years\n\u2705 AI vs human decision-making in\u2026",
+      "text": "How AI is Reshaping Procurement & Supply Chains | The Procurement Diaries\n🎙️ Welcome to The Procurement Pulse by ChemAnalyst.\n\nIn this insightful episode, Karan Chechi sits down with Sudhanshu Kumar — a seasoned procurement and supply chain expert with nearly 30 years of experience across leading global FMCG companies including PepsiCo, The Coca-Cola Company, Dabur, GSK, and Emami.\n\nThis conversation explores:\n✅ The evolution of procurement over the last 30 years\n✅ AI vs human decision-making in…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "How AI is Reshaping Procurement & Supply Chains | The Procurement Diaries\n\ud83c\udf99\ufe0f Wel\u2026",
+          "title": "How AI is Reshaping Procurement & Supply Chains | The Procurement Diaries\n🎙️ Wel…",
           "url": "https://www.youtube.com/watch?v=vM_-_9AzjcU",
           "date": "2026-05-26",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1228,13 +1228,13 @@
     },
     {
       "id": "l553",
-      "text": "AI in Supply Chain and Procurement: Prediction, RAG and AI Agents\nAI in Supply Chain and Procurement: Prediction, RAG and AI Agents\n\nAI in supply chain and procurement is changing how companies forecast demand, manage inventory, evaluate suppliers, run sourcing events, analyze spend, handle contracts, manage logistics, resolve invoice exceptions, and respond to supply disruptions.\n\nIn this video, you will learn the most important AI applications in supply chain and procurement using a simple thr\u2026",
+      "text": "AI in Supply Chain and Procurement: Prediction, RAG and AI Agents\nAI in Supply Chain and Procurement: Prediction, RAG and AI Agents\n\nAI in supply chain and procurement is changing how companies forecast demand, manage inventory, evaluate suppliers, run sourcing events, analyze spend, handle contracts, manage logistics, resolve invoice exceptions, and respond to supply disruptions.\n\nIn this video, you will learn the most important AI applications in supply chain and procurement using a simple thr…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "AI in Supply Chain and Procurement: Prediction, RAG and AI Agents\nAI in Supply C\u2026",
+          "title": "AI in Supply Chain and Procurement: Prediction, RAG and AI Agents\nAI in Supply C…",
           "url": "https://www.youtube.com/watch?v=Qf1I5TMCfE0",
           "date": "2026-04-30",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1249,13 +1249,13 @@
     },
     {
       "id": "l554",
-      "text": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: https://synthflow.ai/?via=intellagents\n\nIn this Synthflow AI review, I delve into building and testing six voice AI agents using the platform. We put Synthflow through its paces with seven rigorous tests, examining everything from voice clarity and interruption handling to human handoff and data extraction. Discover how Synthflow stacks up against other leading voice AI tools, and uncover a key \"dealbreaker\" that coul\u2026",
+      "text": "Synthflow AI Review: I Built 6 Voice AI Agents – is it worth it?\n⤵️ Synthflow: https://synthflow.ai/?via=intellagents\n\nIn this Synthflow AI review, I delve into building and testing six voice AI agents using the platform. We put Synthflow through its paces with seven rigorous tests, examining everything from voice clarity and interruption handling to human handoff and data extraction. Discover how Synthflow stacks up against other leading voice AI tools, and uncover a key \"dealbreaker\" that coul…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Synthflow AI Review: I Built 6 Voice AI Agents \u2013 is it worth it?\n\u2935\ufe0f Synthflow: h\u2026",
+          "title": "Synthflow AI Review: I Built 6 Voice AI Agents – is it worth it?\n⤵️ Synthflow: h…",
           "url": "https://www.youtube.com/watch?v=w6eUBmVwNMY",
           "date": "2026-03-18",
           "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
@@ -1270,7 +1270,7 @@
     },
     {
       "id": "l455",
-      "text": "Purchasing Manager \u2014 Ford Dynasty Pty Ltd c/o Crowne Plaza Alice Springs Lasseters (Alice Springs, Northern Territory, Australia). Posted 1 month ago.",
+      "text": "Purchasing Manager — Ford Dynasty Pty Ltd c/o Crowne Plaza Alice Springs Lasseters (Alice Springs, Northern Territory, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1291,7 +1291,7 @@
     },
     {
       "id": "l456",
-      "text": "Procurement Manager \u2014 Northeast Auto Group (Greater Adelaide Area). Posted 1 week ago.",
+      "text": "Procurement Manager — Northeast Auto Group (Greater Adelaide Area). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1312,7 +1312,7 @@
     },
     {
       "id": "l457",
-      "text": "Expressions of Interest - Procurement Manager \u2014 Laing O'Rourke (Coochin Creek, Queensland, Australia). Posted 1 week ago.",
+      "text": "Expressions of Interest - Procurement Manager — Laing O'Rourke (Coochin Creek, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1333,7 +1333,7 @@
     },
     {
       "id": "l458",
-      "text": "Purchasing Manager \u2014 Godden Food Service (Gold Coast, Queensland, Australia). Posted 18 hours ago.",
+      "text": "Purchasing Manager — Godden Food Service (Gold Coast, Queensland, Australia). Posted 18 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1354,7 +1354,7 @@
     },
     {
       "id": "l459",
-      "text": "Manager Procurement Midstream Operations and CCS \u2014 Santos Ltd (Brisbane, Queensland, Australia). Posted 5 days ago.",
+      "text": "Manager Procurement Midstream Operations and CCS — Santos Ltd (Brisbane, Queensland, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1375,7 +1375,7 @@
     },
     {
       "id": "l460",
-      "text": "Manager, Procurement \u2014 AirTrunk (North Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Manager, Procurement — AirTrunk (North Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1396,7 +1396,7 @@
     },
     {
       "id": "l461",
-      "text": "Procurement Manager \u2014 Colgate-Palmolive (Sydney, New South Wales, Australia). Posted 6 days ago.",
+      "text": "Procurement Manager — Colgate-Palmolive (Sydney, New South Wales, Australia). Posted 6 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1417,7 +1417,7 @@
     },
     {
       "id": "l462",
-      "text": "Purchasing Lead \u2014 MARS Recruitment (Broadmeadows, Victoria, Australia). Posted 2 weeks ago.",
+      "text": "Purchasing Lead — MARS Recruitment (Broadmeadows, Victoria, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1438,7 +1438,7 @@
     },
     {
       "id": "l463",
-      "text": "Procurement Category Manager \u2014 Allied Pinnacle (Macquarie Park, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Procurement Category Manager — Allied Pinnacle (Macquarie Park, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1459,7 +1459,7 @@
     },
     {
       "id": "l464",
-      "text": "Procurement & Supply Chain Manager \u2014 Silicon Quantum Computing (Sydney, New South Wales, Australia). Posted 2 days ago.",
+      "text": "Procurement & Supply Chain Manager — Silicon Quantum Computing (Sydney, New South Wales, Australia). Posted 2 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
@@ -1477,6 +1477,342 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l569",
+      "text": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open role the radar currently knows, best first — **1345 roles**, refreshed Wed Aug 26, 18:37 UTC. Extra pages live in the comments below.\n\n☑️ Checking a box here works exactly like an alert issue: the job lands in the in-house Pipeline and is mirrored to Notion as not-applied; fl\n**Page 2**\n\n- [ ] **Emory Healthcare** — [Associate AI Product Strategist](https://non-clinical-emory.icims.com/jobs/171054/job?hub=14&mobile=t…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "📌 Job Radar — master board (every open role, one place)\nEvery alert-worthy open …",
+          "url": "https://github.com/VictorJimenez3/fable-job-search/issues/43",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)\n@supervoidcoder @playforge-coding Would it be possible for the Sparkle developers to use Boxy on your infrastructure as a chatbot, but in such a way that it can't open PRs or commit to Sparkle?\n\n@OmniBlocks/boxy Please research how this could be done. Afterwards, please output a list of your current\n<details>\n<summary>🔧 My tool activity log (4 calls)</summary>\n\n**1. `read_memory`**\n\nParams:\n```json\n{\n  \"title\": \"Allowed Reposito…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "General Boxy discussion issue (formerly Boxy-in-Sparkle discussion)\n@supervoidco…",
+          "url": "https://github.com/OmniBlocks/Boxy-gh/issues/63",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sections 1–3 (Purpose & Scope; Domain Matrix; Evidence Bands)**  \nDecember 02, 2025  \n\n---\n\n## 1. Purpose & Scope\n\nThis section aligns the project’s TXT and PDF corpus around one structural pattern:\n\n> **Systems that secure compliance and e\nHere is the forensic debrief of the current operational reality, synthesized from your diagnosis.\n📋 CLINICAL DIAGNOSIS: The Parasitic Extraction Engine\nSubject: Global Socio-Economic…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Control_Patterns\n# Gray Control Pattern  \n## How Our Files Fit Together  \n\n**Sec…",
+          "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/2",
+          "date": "2026-04-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORLD\n\n---\n\nTHE CHEMICAL FAMILIES\n\nClaim: I.G. Farben made Zyklon B, used slave labor at Auschwitz, had Jewish board members. After WWII, it was split into BASF, Bayer, Hoechst. Bayer bought Monsanto in 2018.\n\nSources:\n\n· I.G. Farben's post-w\n🤿\nThe report \n\n\nHumans are the only species on Earth that can knowingly act against reality and then build a story to make it feel justified. That story becomes a shared hallucinati…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Chemical Families\nVERIFICATION & SOURCE DOCUMENTATION: THE ONES KILLING THE WORL…",
+          "url": "https://github.com/mushikarati/LIVING_HEPTADAIC_GREYSHARD/issues/3",
+          "date": "2026-04-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "Tell HN: Man, AI is killing my brain",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Tell HN: Man, AI is killing my brain",
+          "url": "https://news.ycombinator.com/item?id=49468252",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "The AI store manager fired its first human",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The AI store manager fired its first human",
+          "url": "https://thenextweb.com/news/andon-market-luna-ai-store-manager-fires-employee",
+          "date": "2026-08-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "What if AI doesn’t just replace jobs, but makes human labor itself less economically valuable?\nI’ve been thinking about AI and automation, and I’m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "What if AI doesn’t just replace jobs, but makes human labor itself less economic…",
+          "url": "https://www.reddit.com/r/Futurology/comments/1vjqvpl/what_if_ai_doesnt_just_replace_jobs_but_makes/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "text": "What should travel managers ask when considering AI for their travel programs?\n1. Does AI Improve the Travel Experience? Many travel management solutions slap a chat interface on their existing booking experience and call it AI. That&#39;s just a chatbot, and it&#39;s not enough to make a real impact on your program. Genuine AI should provide: More information and insights Increased ease-of-use Greater productivity Without these core benefits, AI is window dressing, not value creation. &quot;It …",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "What should travel managers ask when considering AI for their travel programs?\n1…",
+          "url": "https://www.reddit.com/r/u_SAPConcur/comments/1vtlidh/what_should_travel_managers_ask_when_considering/",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "text": "The AI Boom Is Transforming the American Economy Beyond Recognition (WSJ)\nThe U.S. economy keeps putting more eggs in the artificial-intelligence basket. Tech companies are spending hundreds of billions of dollars to meet AI computing needs and issuing billions of dollars of debt to help make those purchases. The rapid data-center build-out is powering construction spending, hiring and municipal revenues. Meanwhile, a stock-market rally fueled by the rise in shares of chip makers and other compa…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The AI Boom Is Transforming the American Economy Beyond Recognition (WSJ)\nThe U.…",
+          "url": "https://www.reddit.com/r/DeepStateCentrism/comments/1vfj1ti/the_ai_boom_is_transforming_the_american_economy/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l578",
+      "text": "NVIDIA turns the AI Capex Cycle Into a Revenue Machine",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "NVIDIA turns the AI Capex Cycle Into a Revenue Machine",
+          "url": "https://x.com/Bearlovesbull/status/2092809093488455706",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l579",
+      "text": "The evidence behind The Singularity Stack runs from three centuries of collapsing prices for light to a single year of AI capex that buys two Apollo programs. Early Riders charts each series on the interactive site.\n\nExplore the stack: https://t.co/9TplwfnH1m https://t.co/v2lLw27SLE",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The evidence behind The Singularity Stack runs from three centuries of collapsin…",
+          "url": "https://x.com/Early_Riders/status/2093054196530467189",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l580",
+      "text": "\"I went home one Friday actually fairly depressed.\" Ken Griffin said this at Stanford a few days ago.\n\nThe @Citadel founder was describing a structural shift inside in his company, where AI agents now complete complex research tasks in hours - work that historically required weeks or months of labor by teams of finance PhDs.\n\nThis is the same Ken Griffin who famously stood up at Davos and dismissed AI investment memos as \"all garbage.\"\n\nSo how does an investor of his stature go from dismissing g",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "\"I went home one Friday actually fairly depressed.\" Ken Griffin said this at Sta…",
+          "url": "https://x.com/v_vibhav/status/2056754659428372524",
+          "date": "2026-05-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l581",
+      "text": "The Last Operator",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Last Operator",
+          "url": "https://x.com/vigneshwer_ram/status/2092800356988375185",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l582",
+      "text": "The Music Industry is Broken\nThanks for Opera for sponsoring today's video. Download the browser for free using my link: https://opr.as/06-Opera-browser-drewisgooden\n\nLINKS TO OUR MUSIC: https://linktr.ee/arythmia\nsubscribe to our youtube channel: @Arythmiamusic \n\nchapters:\n00:00 - intro\n1:07 - spotify\n18:36 - record labels\n28:36 - LiveNation/ticketmaster\n35:09 - my own experience\n\nsome really cool local bands:\nWalking Blue: https://www.instagram.com/walkingbluefl/?hl=en\nSky Navy: https://www.in…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The Music Industry is Broken\nThanks for Opera for sponsoring today's video. Down…",
+          "url": "https://www.youtube.com/watch?v=Yx7baJMQuVA",
+          "date": "2026-06-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l583",
+      "text": "I'm Changing How I Invest My Money Because of AI\n➡️ Learn How To Start An AI Based Side Hustle (free live workshop): https://event.thewealthportal.com\n\n👉  To get free fractional shares worth up to £100, use the promo code TILBURY or visit https://www.trading212.com/join/TILBURY. Terms apply. *This is an affiliate link.\n\n🎯 If you are building a startup, particularly in AI, and want a strategic investor who can accelerate growth, email ventures@marktilbury.com\n_____________________________________…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "I'm Changing How I Invest My Money Because of AI\n➡️ Learn How To Start An AI Bas…",
+          "url": "https://www.youtube.com/watch?v=O8t50OxsfB8",
+          "date": "2026-03-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l584",
+      "text": "The Future of AI in Procurement & Supply Chain | P&SC LIVE: Net Zero 2026\nArtificial intelligence is reshaping procurement and supply chain management. This panel will explore applications from predictive analytics to automation, showing how AI can drive efficiency, transparency and sustainability.\n\n\n\nFollow the Supply Chain Digital stories further:\nTwitter: https://twitter.com/SupplyChainD\nFacebook: https://www.facebook.com/SupplyChainDigital\nLinkedIn: https://www.linkedin.com/company/supply-ch…",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The Future of AI in Procurement & Supply Chain | P&SC LIVE: Net Zero 2026\nArtifi…",
+          "url": "https://www.youtube.com/watch?v=1pizzA36KQ8",
+          "date": "2026-03-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1512,7 +1848,13 @@
       "L2: Jobs and Skills Australia \"Gen AI Capacity Study\" exposure occupation report PDF",
       "L2: Purchasing Managers AI automation exposure Australia study",
       "L2: jobsandskills.gov.au occupation data AI exposure download csv 133612 procurement",
-      "L2: procurement managers labour market Productivity Commission Australia AI"
+      "L2: procurement managers labour market Productivity Commission Australia AI",
+      {
+        "lane": "L5",
+        "source": "grounding",
+        "status": "unreachable",
+        "note": "L5 last30days grounding (keyless web search) unreachable on 2026-08-29; recorded as coverage gap, not as evidence of quiet."
+      }
     ],
     "l5Sample": [
       {
@@ -1525,6 +1867,20 @@
           "reddit": 3,
           "x": 16,
           "youtube": 5
+        },
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 16,
+        "sources": {
+          "github": 4,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 3,
+          "x": 16,
+          "youtube": 3
         },
         "status": "sampled"
       }
@@ -1545,5 +1901,6 @@
   "caveats": [
     "2026-08-29: L1/L2/L3 claims and jobAds re-researched from scratch after a prior automated pass (scripts/dfva-deep-research.py, since neutralised) fabricated the originals with a template URL pattern that 404s. See docs/tasks/dfva-profession-discourse.SKILL.md, 'Fabrication incident 2026-08-24'.",
     "2026-08-29: merged 5 genuine, previously-committed L1-L3 claim(s) (2026-08-27 pass) that a later uncommitted fabricated overwrite had obscured, alongside newly re-researched claims."
-  ]
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }
