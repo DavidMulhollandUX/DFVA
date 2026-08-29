@@ -1,0 +1,126 @@
+{
+  "code": "b-famusth",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 2,
+      "rationale": "Satisfies level 2: at least one core unit assesses collaborative practice via graded group performances/presentations, recurring across multiple core units (Studio 1-6, Combination Skills 1-2, Production Studio 1-2), some paired with individually-graded components (e.g. Combination Technical Skills Presentation 3 is 'individual and small ensemble presentation' alongside the group items) and with documented collaboration with industry professionals in production settings. Does not reach level 3: no evidence anywhere in the extract of an assessment requiring coordination of work across people AND tools/AI systems (no AI or digital-tool coordination content found), so the level-3 anchor's second conjunct is unmet.",
+      "evidenceLines": [
+        "Combination Technical Skills Presentation 2 (Production – Singing and Dancing) group presentation",
+        "Performance Project 1 (New Work) 40-60 minutes group performance requiring approximately 40 hours of work to complete",
+        "demonstrate cooperative, collaborative skills within a musical theatre ensemble.",
+        "develop and apply cooperative collaborative skills with industry professionals in a production environment;"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Reflection/self-assessment components are graded (worth 10-20% in several core units, e.g. Self-reflection report of classwork and repertoire progression), so the extract does not cleanly match level 1's 'no core unit assesses it' clause, but it also does not document criterion-referenced appraisal of quality (peer review against explicit standards, marking against exemplars, structured critique) required for level 2 — the reflection items describe reflecting on progression, not judging the quality of one's own, peers', or a tool's work against stated criteria. Ambiguous between level 1 and level 2; resolved to the lower level per the scoring-direction rule.",
+      "evidenceLines": [
+        "Self-reflection report of classwork and repertoire progression",
+        "Students will regularly present autonomously prepared songs for lecturer feedback and a peer-group audience with corresponding critical self-assessment."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "The only digital/AI-adjacent content in the extract is at the tool-operation level in a compulsory Level 1 subject's generic-skills statement ('technological resources') and a program-level graduate attribute referencing information and communication technologies — matching level 1's 'tool operation/training... the operational level TEQSA identifies as non-durable.' No evidence anywhere addresses AI capabilities, limitations, ethics, governance, bias or regulation (required for level 2 or 3), and no core assessment ties to this content, so level 2/3 are unmet.",
+      "evidenceLines": [
+        "employ technological resources to present ideas about creative art practices.",
+        "be adept at learning in a range of ways, including through information and communication technologies."
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Corrected on verification to level 1. The level-2 anchor requires at least one core ASSESSMENT to require application to a novel or unfamiliar problem — assessment-table evidence, not outcomes language. The only evidence offered for level 2, 'This subject will introduce a range of stimulus requiring physical and vocal adjustments to best serve a breadth of narratives,' is verbatim in the extract but comes from MUST20013's course-overview paragraph, not from its assessment table (Technical Skills Presentation, Skills Presentation, Formal Skills Presentation, Reflection report — none reference novel/unfamiliar stimulus in the assessed-task description). The only other novel/unfamiliar-problem language in the extract, 'have the capacity to participate fully in collaborative learning and to confront unfamiliar problems,' is a program-level graduate attribute, not an assessed item. With no assessment-table evidence anywhere in the extract documenting graded application to a novel or unfamiliar problem, level 2 is unmet. MUST30016's 'Self created project plan' and 'Detailed written self-care plan' gesture toward level 3's self-scoped-project route, but document career/business and wellbeing planning rather than identification of the student's own knowledge gaps with a plan to close them, and there is no documented research/capstone project of the C4 kind — level 3 is also unmet. The evidence actually supports level 1: transfer is claimed in program outcomes but not assessed.",
+      "evidenceLines": [
+        "This subject will introduce a range of stimulus requiring physical and vocal adjustments to best serve a breadth of narratives.",
+        "Performance Project Outline—Self created project plan",
+        "Detailed written self-care plan",
+        "design a holistic self-care program aimed at sustainability in the field of Music Theatre;"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "The only research-methods-adjacent assessment in the core is a Research essay in Music Theatre Contextual Studies 1, whose learning outcomes describe appraising and contextualising historical developments — a literature-review/secondary-synthesis task, matching level 1 ('literature-review assessment'). No core unit requires students to design and conduct an inquiry with methodology selection and primary data collection (level 2), let alone a required primary-evidence project defended under scrutiny (level 3).",
+      "evidenceLines": [
+        "Research essay (Music Theatre Styles and Society)",
+        "appraise and contextualise historical developments in music theatre, circa 1900–1960;"
+      ]
+    },
+    "adaptiveness": 6,
+    "W1": {
+      "score": 2,
+      "rationale": "Level 2 is met: the compulsory Music Theatre Industry Skills subject includes an 'Industry Audition Panel' assessment item, and its overview describes 'a capstone audition in front of industry professionals' — a professional genre (audition) judged by an audience beyond the teaching team. Level 3 additionally requires professional communication to be 'assessed repeatedly and progressively across the program' with a real external audience; the rest of the program's presentation assessments are in-class studio showings judged by teaching staff (level-1 territory per the anchor), and only this one core unit documents a real external/industry audience, so recurrence across the program is not established in the extract. Ambiguous toward level 3 via the industry-panel route, resolved to the lower level.",
+      "evidenceLines": [
+        "Industry Audition Panel cumulative individual performance equivalent to 400 words",
+        "and a capstone audition in front of industry professionals.",
+        "demonstrate professional etiquette and industry-ready preparation and presentation skills for auditions and interviews."
+      ]
+    },
+    "W2": {
+      "score": 3,
+      "rationale": "The program documents an assessment spine of increasingly demanding staged productions rather than a single instance: Studio 1 through 6 scaffold technique, culminating in Production Studio 1 and 2's capstone 'Main Stage Musical' and 'Showcase' performances, explicitly built 'to mount two full scale musicals and an industry showcase' 'with industry professionals.' The artefact produced (a full-scale public musical production) is the artefact a working performer produces, and the task is judged against the profession's own standards of performance (a live, full-scale staged production with industry-professional collaboration), satisfying level 3's disjunctive 'genuine constraint of practice' clause. This is scored on the documented production structure and artefact, not on the presence of words like 'industry' or 'professional' alone (R4).",
+      "evidenceLines": [
+        "These capstone experiences provide the opportunity to work with industry professionals to mount two full scale musicals and an industry showcase.",
+        "Performance Project 3 (Main Stage Musical) 40-60 minutes solo and group performance requiring approximately 80 hours of work to complete",
+        "Performance Project 2 (Showcase) 50-60 minutes solo and group performance requiring approximately 100 hours of work to complete",
+        "develop and apply cooperative collaborative skills with industry professionals in a production environment;"
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Music Theatre Secondment (MUST30013) documents exactly the kind of extended, supervised, assessed placement W3 targets — a real professional theatre company, a placement coordinator, hurdle requirements, and a written report from the industry partner — which would otherwise support level 2 or 3. However, the course-structure page lists this subject under '12.5 credit points of Music Theatre Electives' (one option among several), not the compulsory core, so per the level-1 anchor ('exists only as an elective, an optional internship...') the item is capped at level 1. No core/compulsory unit places students in a real external workplace with practitioner supervision.",
+      "evidenceLines": [
+        "12.5 credit points of Music Theatre Electives",
+        "This elective subject offers students an immersive external experience with a musical theatre company.",
+        "Students will complete a daily rehearsal or performance process as offered by an approved professional theatre company.",
+        "The placement industry partner will provide a written report on conclusion to both the student and the placement coordinator."
+      ]
+    },
+    "workplace": 6,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program documents a coherent, almost-entirely-compulsory specialist core (237.5 of 300 credit points compulsory) with a staged prerequisite chain enforcing progressive technical depth across three levels (foundational Studio 1-2, intermediate/advanced Studio 3-4, professional-readiness Studio 5-6 and Production Studio 1-2), matching the PASS anchor's 'all-compulsory specialist core... or a staged prerequisite chain.'",
+        "evidenceLines": [
+          "237.5 credit points of Compulsory subjects",
+          "Completion of all Level 1 Compulsory subjects before proceeding to the next year level's Compulsory subjects",
+          "Completion of all Level 2 Compulsory subjects before proceeding to the next year level's Compulsory subjects"
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "The capstone Production Studio subjects require students to mount full-scale live musical productions and an industry showcase, in collaboration with industry professionals — live performance projects carrying real uncertainty (a live, public-facing production) and accountability (to industry professionals and an audience), matching the PASS anchor's 'simulations/capstones/live projects with real uncertainty and accountability.'",
+        "evidenceLines": [
+          "These capstone experiences provide the opportunity to work with industry professionals to mount two full scale musicals and an industry showcase.",
+          "Performance Project 3 (Main Stage Musical) 40-60 minutes solo and group performance requiring approximately 80 hours of work to complete"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2: reflection components are graded but the extract does not document criterion-referenced appraisal of quality; ambiguous between level 1 and 2, resolved to level 1.",
+      "C4: MUST30016's self-created project plan and self-care plan gesture toward level 3's self-scoped-project route but document career/wellbeing planning rather than knowledge-gap identification; ambiguous between level 2 and 3, resolved to level 2 on first pass, then corrected to level 1 on verification because the level-2 basis itself was not assessment-table evidence.",
+      "W1: the Industry Audition Panel in MUST30016 matches level 3's real-external-audience route, but recurrence of external-audience assessment 'repeatedly and progressively across the program' is not documented elsewhere; ambiguous between level 2 and 3, resolved to level 2.",
+      "One construct, one home: MUST30015/MUST30018's collaboration with industry professionals in a production environment was scored in C1 (coordination) and W2 (task authenticity) as two distinct facets of the same evidence, not double-counted as the same construct — see W2 rationale for the authenticity facet and C1 rationale for the coordination facet."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-29"
+      },
+      "mechanical": true,
+      "date": "2026-08-29"
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "code": "b-fapro",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Demoted from 2 to 1 on adversarial verification. The Level 2 anchor requires a core unit to assess collaborative PRACTICE itself (group work with individual accountability, stakeholder work, interprofessional activity), not merely a paired format. The cited assessed item, '10-minute presentation in pairs with supporting documentation' (Artefact and Performance 2), documents that two students present together but nothing in the extract states that collaboration or division of labour is itself a judged criterion — it could equally be two students co-presenting separately prepared content. The second evidenceLine, 'collaborate effectively with performance makers and production departments...', is a Production Studio 1 learning OUTCOME (not an assessed item per the extract), so it cannot itself establish that 'a core unit assesses collaborative practice'. Given the instrument's own rule to resolve ambiguity to the lower level, this caps at 1 rather than 2.",
+      "evidenceLines": [
+        "10-minute presentation in pairs with supporting documentation",
+        "collaborate effectively with performance makers and production departments in the production of live performance;"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Fits the Level 1 anchor for reflection/self-assessment appearing without being framed as criterion-referenced appraisal of quality: the core Reflective essay in Production Practice 1 is graded, but its outcome frames it as articulating insights from experience, not judging work against stated criteria or exemplars. No peer review, structured critique, portfolio-with-standards, or exemplar-marking language (Level 2) appears anywhere in the extract, and no documented reliance-decision or AI-judgement defence (Level 3) appears either. Ambiguity: because the Reflective essay is itself a formally graded item (15%), it arguably exceeds Level 1's 'not assessed against criteria' framing toward Level 2 — resolved to the lower Level 1 since no criteria/standards language is present in the extract.",
+      "evidenceLines": [
+        "Reflective essay",
+        "reflect on the process and output of a placement and articulate insights gained from the experience relevant to an assigned production role."
+      ]
+    },
+    "C3": {
+      "score": 1,
+      "rationale": "Matches the Level 1 anchor 'AI or digital tools appear only as electives or as tool operation/training' — the only digital-tool content in the extract is operational: 'computer aided drafting' and other 'digital and analogue techniques of visual representation' taught in the compulsory Production Studio 1 unit. No unit addresses AI capabilities, limitations, ethics or governance (Level 2/3 anchors); the terms 'artificial intelligence' and 'AI' do not appear anywhere in the extract.",
+      "evidenceLines": [
+        "Students will be introduced to basic digital and analogue techniques of visual representation including hand drawing, model making and computer aided drafting."
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Meets the Level 2 anchor 'application to novel or unfamiliar problems' at minimum: the compulsory capstone Production Practice 3 assesses either a placement on a specific VCA production or a 'negotiated independent project of a significant scale' proposed by the student. The negotiated-independent-project route reads as consistent with the Level 3 anchor ('a self-scoped capstone or research project'), but it is one of two alternative routes ('Placement on one VCA production OR independent project') rather than a structured progression required of every student, so the ambiguity is resolved to the lower Level 2 rather than upward to 3.",
+      "evidenceLines": [
+        "In negotiation with the Subject Coordinator, students may propose and undertake a negotiated independent project of a significant scale to independently develop their conceptual, technical and management skills. Students must complete at least one production role.",
+        "Placement on one VCA production OR independent project"
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Matches the Level 1 anchor 'Introductory methods unit; literature-review assessment' — the compulsory Level-1 unit Artefact and Performance 1 embeds 'academic literacy skills of analysis, discussion, essay writing, research and information retrieval' and hurdles a library research skills module, assessed through essay-style analysis rather than primary-data inquiry. No unit in the extract describes students designing and conducting an inquiry with methodology selection and data collection (Level 2), nor a required primary-evidence project defended under scrutiny (Level 3).",
+      "evidenceLines": [
+        "This subject includes an embedded program in academic literacy skills of analysis, discussion, essay writing, research and information retrieval.",
+        "Hurdle requirement: Students must complete the library research skills module and attend 75% of all scheduled classes, and attempt all elements of assessment to be eligible for a pass in this subject."
+      ]
+    },
+    "adaptiveness": 6,
+    "W1": {
+      "score": 2,
+      "rationale": "Demoted from 3 to 2 on adversarial verification. Level 3 requires professional-genre assessment 'repeatedly and progressively across the program.' One of the two evidence lines supporting that progression — 'generate industry standard documentation relevant to an assigned production role' — is a Production Practice 1 learning OUTCOME, not an assessed item; PP1's actual graded assessment table lists only 'Production role proposal,' 'Placement on one VCA production,' and 'Reflective essay,' none framed as assessed 'industry standard documentation.' The other progression step, '10-minute presentation in pairs with supporting documentation' (Artefact and Performance 2), has no documented professional-genre framing or external audience in the extract — its bare description matches this rubric's own Level 1 anchor ('presentation to peers/staff... no professional genre and no audience beyond the teaching team') at least as well as Level 2's. Once both weak links are set aside, the genuine professional-genre-plus-external-judgement evidence (CV/artist biography, the workplace-supervisor hurdle, the industry partner's written report) sits entirely inside one final-year subject, not distributed progressively across the program. That satisfies Level 2 but not Level 3's conjunctive 'repeatedly and progressively' clause; per the rubric's own rule to resolve ambiguity to the lower level, W1 caps at 2.",
+      "evidenceLines": [
+        "10-minute presentation in pairs with supporting documentation",
+        "generate industry standard documentation relevant to an assigned production role;",
+        "Written assignment of a professional curriculum vitae and artist's biography",
+        "Hurdle requirement: Successful completion of 120 hours of industry internship based on a workplace supervisor's report confirming the student's punctual and reliable attendance, active participation and appropriate endeavour.",
+        "The placement industry partner provides a written report to both the student and the placement coordinator."
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Demoted from 3 to 1 on adversarial verification. The rubric explicitly assigns 'actual workplace immersion' to W3 and 'the fidelity of the task' to W2, and states elsewhere that placement evidence belongs in W3 under the general one-construct-one-home principle. All three original W2 evidence lines ('Students undertake design, technical and management roles, increasing in responsibility...', the production-event attendance hurdle, and the pass-grade placement hurdle) describe the real VCA-production placements in Production Practice 1/2/3 — and the pass-grade hurdle line is reused verbatim as a W3 evidenceLine too, a direct violation of 'each piece of evidence scores in exactly one item.' With workplace-immersion evidence correctly excluded from W2, the extract's remaining candidate W2 evidence — the Production Studio units' 'practical projects' — gives no detail on artefact type or practice-derived judging criteria, so properly-scoped W2 evidence supports only Level 1 ('the artefact produced and the criteria applied remain academic'). Construct-appropriate (non-placement) W2 evidence was not re-established in this pass, so the item is demoted rather than re-scored upward on new evidence.",
+      "evidenceLines": [
+        "Students undertake design, technical and management roles, increasing in responsibility and endeavour as they advance through the course.",
+        "Hurdle requirement: Students are required to attend a minimum of 75% of all timetabled classes, consultations and tutorials, and 100% of all key production events relevant to assigned role which may include: design presentations, \"meet and greet\" gatherings, production meetings, technical rehearsals, bump in, show calls, and bump out.",
+        "Hurdle requirement: Students are required to achieve a pass grade or above for their placement on a VCA production."
+      ]
+    },
+    "W3": {
+      "score": 3,
+      "rationale": "Meets the Level 3 anchor 'substantial required work-situated learning: an extended placement or practicum, or a sequence of them, in the core, supervised by a practitioner, assessed, with accountability to the host and structured reflection.' The core sequence runs Production Practice 1 to 2 to 3 (Part A/B, totalling approximately 1,224 hours) to a required final-year industry Internship, each hurdled on achieving a pass grade for the placement, supervised by 'an identified manager/mentor in the host organisation', accountable to the host via a workplace supervisor's report, and closed with a required review/reflective component.",
+      "evidenceLines": [
+        "all students are required to complete an industry internship in their final year with a professional company or individual practitioner.",
+        "Students complete a 120-hour industry internship (placement). The placement is complemented by sessions designed to develop employability skills and attributes, linking them to industry expectations.",
+        "Work supervision during the placement is provided by an identified manager/mentor in the host organisation or by the individual practitioner.",
+        "The Total Time Commitment for the subject is approximately 1,224 hours, inclusive of the two study periods [DPSS30008 Production Practice 3 - Part A (37.5 points) and DPSS30009 Production Practice 3 - Part B (37.5 points)].",
+        "Hurdle requirement: Students are required to achieve a pass grade or above for their placement on a VCA production.",
+        "review and reflect on the process and product of the internship and articulate insights into professional development gained from the experience;"
+      ]
+    },
+    "workplace": 6,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "Meets the PASS anchor 'documents a coherent specialist core with progressive technical or methodological depth: an all-compulsory specialist core... or a staged prerequisite chain' — 237.5 of 300 credit points are compulsory specialist production subjects with an explicit level-1 to level-2 to level-3 prerequisite chain.",
+        "evidenceLines": [
+          "237.5 credit points of Compulsory subjects including",
+          "Completion of all Level 1 Compulsory subjects before proceeding to the next year level's Compulsory subjects",
+          "Note: Compulsory subjects in this program have prerequisites. Refer to individual subject entries."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Meets the PASS anchor '...capstones/live projects with real uncertainty and accountability' — the compulsory Production Practice 3 capstone places students in senior-level roles on live VCA productions or a negotiated independent project, both carrying real production accountability.",
+        "evidenceLines": [
+          "In this capstone subject students advance their exploration of the production process to become effective collaborators and independent practitioners.",
+          "Students will have the opportunity to further develop their conceptual, technical and management skills through placements in senior level production roles in the creation and realisation of live performance.",
+          "In negotiation with the Subject Coordinator, students may propose and undertake a negotiated independent project of a significant scale to independently develop their conceptual, technical and management skills. Students must complete at least one production role."
+        ]
+      }
+    },
+    "ambiguities": [
+      "W2's demotion note observes that with placement/workplace-immersion evidence correctly excluded (it belongs to W3), the only remaining candidate W2 evidence in the extract — the Production Studio units' unspecified 'practical projects' — is too thin to describe, so W2 was demoted to 1 rather than re-grounded and re-scored on alternate evidence. If genuine non-placement, practice-fidelity evidence for W2 exists in the full Production Studio unit entries (assessment criteria, artefact type), it wasn't in the extract reviewed here — a fresh capture of those unit pages could support re-scoring W2 upward, but that requires new evidence, not a re-read of the same extract.",
+      "C1's demotion turns on whether the Artefact and Performance 2 paired presentation actually assesses division-of-labour/collaboration as a criterion, or merely requires two students to co-present. The extract doesn't settle this either way; if the unit's actual assessment rubric names collaboration as a marked criterion, C1 could support 2, but confirming that needs the rubric text, not inference from the task title."
+    ],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-29"
+      },
+      "mechanical": true,
+      "date": "2026-08-29"
+    }
+  }
+}
