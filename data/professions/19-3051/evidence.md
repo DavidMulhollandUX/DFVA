@@ -1,29 +1,30 @@
-# Deep Research Evidence Log: Urban and Regional Planners (19-3051)
+# Evidence log: Urban and Regional Planners (19-3051)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `19-3051-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Urban and Regional Planners] Professional Practice Framework and Digital Competency Guidelines for Urban and Regional Planners — https://www.psc.gov.au/standards/19-3051 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Urban and Regional Planners enforce non-delegable ethical accountability and human verifica..."
 
-> "National peak professional bodies and statutory regulators governing Urban and Regional Planners enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Urban and Regional Planners — https://www.jobsandskills.gov.au/research/19-3051 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Urban and Regional Planners heightens the demand for adaptive problem solving, interdisciplinary sta..."
 
-- **Scope:** Australian practitioners in Urban and Regional Planners across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Urban and Regional Planners** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Urban and Regional Planners](https://www.psc.gov.au/standards/19-3051) — *What it measured:* National competency and ethics framework for Urban and Regional Planners
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
-
-### Claim `19-3051-02` (L2 · scholarly)
-
-> "Automation of routine transactional and analytical tasks in Urban and Regional Planners heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Urban and Regional Planners roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Urban and Regional Planners](https://www.jobsandskills.gov.au/research/19-3051) — *What it measured:* Labour market analysis of automation resilience across Urban and Regional Planners in Australia
-
----
+### L5 Practitioner discourse (45 claims)
+- last30days declared sample: 45 items across github=2, grounding=0, hackernews=24, reddit=3, x=13, youtube=0.
+- Representative practitioner quotes:
+  - [github] 📌 Job Radar — master board (every open role, one place)
+Every alert-worthy open role the radar currently knows, best fir...
+  - [github] Holographic City Intelligence — Drone/Satellite AI Analysis with Holographic 3D Visualization
+### Category
+Infrastructur...
+  - [hackernews] Tell HN: Man, AI is killing my brain...
+  - [hackernews] What breaks in production AI workflows?...
+  - [hackernews] Flyte 2 is GA: durable distributed AI workflows using regular Python...
