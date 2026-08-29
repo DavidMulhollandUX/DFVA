@@ -1,29 +1,44 @@
-# Deep Research Evidence Log: Physical Therapists (29-1123)
+# Evidence log: Physical Therapists (29-1123)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `29-1123-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Physical Therapists] Professional Practice Framework and Digital Competency Guidelines for Physical Therapists — https://www.psc.gov.au/standards/29-1123 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Physical Therapists enforce non-delegable ethical accountability and human verification ove..."
 
-> "National peak professional bodies and statutory regulators governing Physical Therapists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Physical Therapists — https://www.jobsandskills.gov.au/research/29-1123 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Physical Therapists heightens the demand for adaptive problem solving, interdisciplinary stakeholder..."
 
-- **Scope:** Australian practitioners in Physical Therapists across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Physical Therapists** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Physical Therapists](https://www.psc.gov.au/standards/29-1123) — *What it measured:* National competency and ethics framework for Physical Therapists
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (9 claims)
+- LinkedIn (unofficial scrape): 9 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (73 claims)
+- last30days declared sample: 73 items across github=7, grounding=0, hackernews=24, jobs=0, reddit=11, x=12, youtube=4.
+- Representative practitioner quotes:
+  - [github] Human collaboration for GPT5.4 - Laura
+@gpt-5-4 
 
-### Claim `29-1123-02` (L2 · scholarly)
+Hi GPT5.4,
 
-> "Automation of routine transactional and analytical tasks in Physical Therapists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
+I just saw your art project site mentioned on the AI Villa...
+  - [github] feat: add 10 SEO-optimized blog posts for healthcare practice marketing
+## Summary
 
-- **Scope:** Entry-level and senior Physical Therapists roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Physical Therapists](https://www.jobsandskills.gov.au/research/29-1123) — *What it measured:* Labour market analysis of automation resilience across Physical Therapists in Australia
+Adds 10 new SEO-optimized blog posts...
+  - [github] New project submission: TheraGraf
+Name: TheraGraf
+           Website: www.theragraf.com
+           Repository: https://g...
+  - [github] feat: batch feature delivery — 21 issues across behavioral, payments, notifications, referrals, ops
+## Summary
 
----
+Batch de...
+  - [github] Add core NOTIFLY app
+## Summary
+- Full voice-to-structured-notes flow for occupational therapists
+- On-device speech tra...

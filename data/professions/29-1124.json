@@ -818,6 +818,342 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l439",
+      "text": "Radiation Therapist \u2014 Cancer Care Associates (Wedderburn, New South Wales, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Cancer Care Associates",
+          "title": "Radiation Therapist",
+          "url": "https://www.linkedin.com/jobs/view/4437993172",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l440",
+      "text": "Radiation Therapist \u2014 Cancer Care Associates (Campbelltown, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Cancer Care Associates",
+          "title": "Radiation Therapist",
+          "url": "https://www.linkedin.com/jobs/view/4449826395",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l441",
+      "text": "Radiation Therapist \u2014 GenesisCare (Murdoch, Western Australia, Australia). Posted 2 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "GenesisCare",
+          "title": "Radiation Therapist",
+          "url": "https://www.linkedin.com/jobs/view/4425115683",
+          "date": "2 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l442",
+      "text": "Radiation Therapist \u2014 GenesisCare (Mandurah, Western Australia, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "GenesisCare",
+          "title": "Radiation Therapist",
+          "url": "https://www.linkedin.com/jobs/view/4444930191",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l443",
+      "text": "Base Grade Radiation Therapist - Icon Cancer Centre Rockingham \u2014 Icon Group (Perth, Western Australia, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Icon Group",
+          "title": "Base Grade Radiation Therapist - Icon Cancer Centre Rockingham",
+          "url": "https://www.linkedin.com/jobs/view/4448651008",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l444",
+      "text": "Radiation Therapist \u2014 Icon Group (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Icon Group",
+          "title": "Radiation Therapist",
+          "url": "https://www.linkedin.com/jobs/view/4455245307",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l445",
+      "text": "Radiation Therapist \u2014 Metro South Health (South Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Metro South Health",
+          "title": "Radiation Therapist",
+          "url": "https://www.linkedin.com/jobs/view/4455581136",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l446",
+      "text": "Radiation Therapist (Level A) Employment Register \u2014 Department of Health, Tasmania (Greater Perth Area). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Health, Tasmania",
+          "title": "Radiation Therapist (Level A) Employment Register",
+          "url": "https://www.linkedin.com/jobs/view/4432329287",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l447",
+      "text": "Supervisor Radiation Therapist \u2014 Department of Health, Tasmania (Hobart, Tasmania, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Health, Tasmania",
+          "title": "Supervisor Radiation Therapist",
+          "url": "https://www.linkedin.com/jobs/view/4456586423",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l448",
+      "text": "Unaccredited Registrar Radiation Oncology \u2014 Calvary Health Care (Newcastle, New South Wales, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Calvary Health Care",
+          "title": "Unaccredited Registrar Radiation Oncology",
+          "url": "https://www.linkedin.com/jobs/view/4456701372",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l549",
+      "text": "I'm 14. What are the highest paying careers that AI can't replace in the next 20 years ?\nHello everyone, I am 14 years old and I am trying to figure out the best career path for my future, one that is unlikely to be replaced by AI. I know this might seem early to be thinking about this, but I want to plan ahead so I can start developing the right skills and pursue early internships. I am average at mathematics but very good at physics and chemistry in my current class. I have a few questions to \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I'm 14. What are the highest paying careers that AI can't replace in the next 20\u2026",
+          "url": "https://www.reddit.com/r/careerguidance/comments/1w1as32/im_14_what_are_the_highest_paying_careers_that_ai/",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l550",
+      "text": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Rank 5 Captain Zhiagii scrabbled against the deck as the ship shook around him. The Good Pheromone had only been commissioned last year. The new ship was state-of-the-art for a light cruiser. Premium shielding modules, revamped power-routing systems, and boosted acceleration profiles were the specs he had picked that set it above the rest. And now, somewhere near the front of the ship, several decks were exposed to spa\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Ra\u2026",
+          "url": "https://www.reddit.com/r/HFY/comments/1vwpkvz/the_human_artificial_hivemind_part_641_a_new_set/",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l551",
+      "text": "Neil deGrasse Tyson Confronts Andy Weir on the Science of Project Hail Mary\nGo to https://ground.news/startalk to stay fully informed on the latest Space and Science news. Save 40% off through our link for unlimited access to the Vantage plan this month.\n\nT-Mobile 5G Home Internet. https://T-Mobile.com/HomeInternet \n\nWhat if a microscopic alien lifeform was slowly eating our sun? Neil deGrasse Tyson and Chuck Nice sit down with Andy Weir, the bestselling author of Project Hail Mary, for a deep d\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Neil deGrasse Tyson Confronts Andy Weir on the Science of Project Hail Mary\nGo t\u2026",
+          "url": "https://www.youtube.com/watch?v=IsoTRExywcM",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l552",
+      "text": "Are we moving away from a \"one-size-fits-all\" approach in radiation therapy?\nWelcome to another episode of The Smart Medicine Podcast! Today, host Dr. Ali Fatemi (Clinical Medical Physicist and Founder of Spentex & PrecisionMR.ai) sits down with Dr. Oliver Gurney-Champion, Associate Professor at UMC Amsterdam. \n\nDr. Gurney-Champion leads a cutting-edge research group focused on quantitative MRI and deep learning for personalized oncology.\n\nWhile traditional MRI gives us excellent anatomical and \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Are we moving away from a \"one-size-fits-all\" approach in radiation therapy?\nWel\u2026",
+          "url": "https://www.youtube.com/watch?v=Zi2VUlZVe3s",
+          "date": "2026-07-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l553",
+      "text": "PROJECT HAIL MARY Science Review with Author Andy Weir plus Astronaut and Astrophysicist Advisors\nAstrophysicist and PROJECT HAIL MARY Consultant Andy Howell evaluates the science in the book and film, interviewing author Andy Weir, screenwriter Drew Goddard, Film Consultant and NASA Astronaut Kjell Lindgren, and a special gravity demo with drag racer/astrophysicist Joseph Farah.\n\n00:00 Introduction\n00:43 Show Preview\n01:33 Seeing Stars (Detecting Dimming)\n02:28 Reluctant Hero (Astronaut Suitabi\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "PROJECT HAIL MARY Science Review with Author Andy Weir plus Astronaut and Astrop\u2026",
+          "url": "https://www.youtube.com/watch?v=7kyCMrIU-Yg",
+          "date": "2026-03-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "PROJECT HAIL MARY Science Review with Author Andy Weir plus Astronaut and Astrophysicist Advisors\nAstrophysicist and PROJECT HAIL MARY Consultant Andy Howell evaluates the science in the book and film, interviewing author Andy Weir, screenwriter Drew Goddard, Film Consultant and NASA Astronaut Kjell Lindgren, and a special gravity demo with drag racer/astrophysicist Joseph Farah.\n\n00:00 Introduction\n00:43 Show Preview\n01:33 Seeing Stars (Detecting Dimming)\n02:28 Reluctant Hero (Astronaut Suitabi\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "PROJECT HAIL MARY Science Review with Author Andy Weir plus Astronaut and Astrop\u2026",
+          "url": "https://www.youtube.com/watch?v=7kyCMrIU-Yg",
+          "date": "2026-03-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -848,14 +1184,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Radiation Therapists",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/29-1124/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Radiation Therapists",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/29-1124/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "29-1124",
+        "query": "Radiation Therapists",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -870,9 +1217,24 @@
           "youtube": 4
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 6,
+        "sources": {
+          "github": 0,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 2,
+          "x": 6,
+          "youtube": 4
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
