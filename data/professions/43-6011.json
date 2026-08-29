@@ -993,6 +993,321 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l447",
+      "text": "Executive Assistant to the CEO \u2014 Bailey Abbott (Adelaide, South Australia, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Bailey Abbott",
+          "title": "Executive Assistant to the CEO",
+          "url": "https://www.linkedin.com/jobs/view/4447726844",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l448",
+      "text": "Executive Officer \u2014 Department of Education and Training (Darwin, Northern Territory, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Education and Training",
+          "title": "Executive Officer",
+          "url": "https://www.linkedin.com/jobs/view/4455325806",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l449",
+      "text": "Executive Assistant \u2014 Randstad Australia (Adelaide, South Australia, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Randstad Australia",
+          "title": "Executive Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4456078433",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l450",
+      "text": "Executive Assistant to CFO \u2014 Cairns Airport (Mooroobool, Queensland, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Cairns Airport",
+          "title": "Executive Assistant to CFO",
+          "url": "https://www.linkedin.com/jobs/view/4419167409",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l451",
+      "text": "Executive Assistant to General Manager Community \u2014 City of Palmerston (Darwin, Northern Territory, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "City of Palmerston",
+          "title": "Executive Assistant to General Manager Community",
+          "url": "https://www.linkedin.com/jobs/view/4453298949",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l452",
+      "text": "Executive Support Officer \u2014 Central Queensland Hospital and Health Service (Rockhampton, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Central Queensland Hospital and Health Service",
+          "title": "Executive Support Officer",
+          "url": "https://www.linkedin.com/jobs/view/4455241434",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l453",
+      "text": "Executive Assistant \u2014 Randstad Australia (Prospect, South Australia, Australia). Posted 12 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Randstad Australia",
+          "title": "Executive Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4457695940",
+          "date": "12 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l454",
+      "text": "Executive Assistant \u2014 Department of Education and Training (Darwin, Northern Territory, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Education and Training",
+          "title": "Executive Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4454069071",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l455",
+      "text": "Executive Assistant \u2014 KPMG Australia (Darwin, Northern Territory, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "KPMG Australia",
+          "title": "Executive Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4454358885",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l456",
+      "text": "Executive Assistant (520055) \u2014 Department of Health, Tasmania (Launceston, Tasmania, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Health, Tasmania",
+          "title": "Executive Assistant (520055)",
+          "url": "https://www.linkedin.com/jobs/view/4452524366",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l557",
+      "text": "PR-CAREER-KG-10: content(career): add secretaries and administrative assistants KG asset package\n## What changed\n- Added the PR-CAREER-KG-10 dry-run zh-CN career KG asset package for Secretaries and Administrative Assistants, Except Legal, Medical, and Executive.\n- Added QA, dry-run importer, staging preview smoke, fap-web render smoke, and SHA manifest evidence under generated/career-kg-pr-10-\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "PR-CAREER-KG-10: content(career): add secretaries and administrative assistants \u2026",
+          "url": "https://github.com/fermatmind/fap-web/pull/1540",
+          "date": "2026-07-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "BREAKING: President Trump Signs Executive Order Splitting Childhood Vaccine Schedule Into Tiers And Breaking Up MMR Shot While Repeatedly Invoking Unproven Autism Link, As NIH Director Bhattacharya, GOP Senator Cassidy, And Pediatricians Nationwide Push Back \ud83c\udfdb\ufe0f\ud83e\udda0\nPresident Trump signed an executive order Monday recommending sweeping changes to childhood vaccine guidance, splitting shots into tiers where some vaccines would only be recommended for high-risk children, such as those against RSV and \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "BREAKING: President Trump Signs Executive Order Splitting Childhood Vaccine Sche\u2026",
+          "url": "https://www.reddit.com/r/InterstellarKinetics/comments/1vl22cs/breaking_president_trump_signs_executive_order/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "I Replaced My $80k Assistant with 3 AI Agents\nI replaced my $80k executive assistant with three AI agents \u2014 and the results were shocking. What once required a full-time salary, benefits, and office space is now handled by software that costs less than a streaming subscription.\n\nThis isn't a theoretical experiment. We follow a real business owner who made the switch and document every detail: the onboarding, the failures, the breakthroughs, and the uncomfortable truth about what happened next. A\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "I Replaced My $80k Assistant with 3 AI Agents\nI replaced my $80k executive assis\u2026",
+          "url": "https://www.youtube.com/watch?v=ET7W0xuQBdU",
+          "date": "2026-04-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "Full Claude Cowork Tutorial: The AI That Replaces Your Assistant\n*\ud83d\udda5\ufe0f Free Claude Cowork Stack:* https://clickhubspot.com/72f269\n\nMore from Futurepedia:\n\ud83d\udc49 Join the fastest-growing AI education platform! Try it free and explore 20+ top-rated courses in AI: https://bit.ly/futurepediaSL\n\nSummary:\nClaude Cowork is one of the biggest updates in AI for a long time, it actually feels like a real coworker you can delegate to. It\u2019s an AI agent that lives on your computer. It can plan and execute multi-ste\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Full Claude Cowork Tutorial: The AI That Replaces Your Assistant\n*\ud83d\udda5\ufe0f Free Claude\u2026",
+          "url": "https://www.youtube.com/watch?v=7e3JovO8ngI",
+          "date": "2026-03-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "KILL THE INBOX NIGHTMARE: The 24/7 AI Executive Assistant Demo.\nScaling a business requires a gatekeeper, not a faster typist. Most founders waste 15+ hours weekly on admin because they lack a system to filter the noise. Eva is a high-level AI EA engineered to mirror your authority and handle the front lines so you only see what requires a CEO-level decision.\n\nThe Tactical Breakdown\n\ud83d\udcc8 The Authority Feed: How to train Eva on your brand\u2019s \"soul\" so she thinks like you.\n\ud83d\udcc8 Single-Prompt Automation: \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "KILL THE INBOX NIGHTMARE: The 24/7 AI Executive Assistant Demo.\nScaling a busine\u2026",
+          "url": "https://www.youtube.com/watch?v=Tn6U_1GD0R8",
+          "date": "2026-03-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1023,14 +1338,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Executive Secretaries and Administrative Assistants",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/43-6011/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Executive Secretaries and Administrative Assistants",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/43-6011/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "43-6011",
+        "query": "Executive Secretaries and Administrative Assistants",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1044,9 +1370,23 @@
           "youtube": 3
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 5,
+        "sources": {
+          "github": 2,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 1,
+          "x": 14,
+          "youtube": 3
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

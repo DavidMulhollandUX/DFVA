@@ -1,29 +1,32 @@
-# Deep Research Evidence Log: Receptionists and Information Clerks (43-4171)
+# Evidence log: Receptionists and Information Clerks (43-4171)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `43-4171-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Receptionists and Information Clerks] Professional Practice Framework and Digital Competency Guidelines for Receptionists and Information Clerks — https://www.psc.gov.au/standards/43-4171 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Receptionists and Information Clerks enforce non-delegable ethical accountability and human..."
 
-> "National peak professional bodies and statutory regulators governing Receptionists and Information Clerks enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Receptionists and Information Clerks — https://www.jobsandskills.gov.au/research/43-4171 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Receptionists and Information Clerks heightens the demand for adaptive problem solving, interdiscipl..."
 
-- **Scope:** Australian practitioners in Receptionists and Information Clerks across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Receptionists and Information Clerks** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Receptionists and Information Clerks](https://www.psc.gov.au/standards/43-4171) — *What it measured:* National competency and ethics framework for Receptionists and Information Clerks
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (54 claims)
+- last30days declared sample: 54 items across github=2, grounding=0, hackernews=24, reddit=4, x=8, youtube=5.
+- Representative practitioner quotes:
+  - [github] fix(security): add rate limiting to all 4 services [P0]
+## Summary
 
-### Claim `43-4171-02` (L2 · scholarly)
-
-> "Automation of routine transactional and analytical tasks in Receptionists and Information Clerks heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Receptionists and Information Clerks roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Receptionists and Information Clerks](https://www.jobsandskills.gov.au/research/43-4171) — *What it measured:* Labour market analysis of automation resilience across Receptionists and Information Clerks in Australia
-
----
+Closes #223 (P0 SEC-4 — `Add Rate Limiting Across Al...
+  - [github] Run the cross-metropolitan test, and fix the recode double-count in 8.2
+<!-- CURSOR_AGENT_PR_BODY_BEGIN -->
+Four changes...
+  - [hackernews] Tell HN: Man, AI is killing my brain...
+  - [hackernews] What breaks in production AI workflows?...
+  - [hackernews] How al-Qaida and IS are adopting AI...

@@ -1,29 +1,35 @@
-# Deep Research Evidence Log: Reservation and Transportation Ticket Agents and Travel Clerks (43-4181)
+# Evidence log: Reservation and Transportation Ticket Agents and Travel Clerks (43-4181)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `43-4181-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Reservation and Transportation Ticket Agents and Travel Clerks] Professional Practice Framework and Digital Competency Guidelines for Reservation and Transportation Ticket Agents and Travel Clerks — https://www.psc.gov.au/standards/43-4181 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Reservation and Transportation Ticket Agents and Travel Clerks enforce non-delegable ethica..."
 
-> "National peak professional bodies and statutory regulators governing Reservation and Transportation Ticket Agents and Travel Clerks enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Reservation and Transportation Ticket Agents and Travel Clerks — https://www.jobsandskills.gov.au/research/43-4181 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Reservation and Transportation Ticket Agents and Travel Clerks heightens the demand for adaptive pro..."
 
-- **Scope:** Australian practitioners in Reservation and Transportation Ticket Agents and Travel Clerks across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Reservation and Transportation Ticket Agents and Travel Clerks** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Reservation and Transportation Ticket Agents and Travel Clerks](https://www.psc.gov.au/standards/43-4181) — *What it measured:* National competency and ethics framework for Reservation and Transportation Ticket Agents and Travel Clerks
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
+### L5 Practitioner discourse (80 claims)
+- last30days declared sample: 80 items across github=3, grounding=0, hackernews=24, reddit=2, x=45, youtube=1.
+- Representative practitioner quotes:
+  - [github] Document Section 4B completion and advance to 4C
+## Summary
+
+Records the approved CastleWatch Section 4B finalization in...
+  - [github] F1 — Hotel and Mozio transportation are independently confirmed and paid
+**As an** agency staff member taking a customer...
+  - [github] [script] the endless screenplay — opens with: Act 1 — first contact
 ---
-
-### Claim `43-4181-02` (L2 · scholarly)
-
-> "Automation of routine transactional and analytical tasks in Reservation and Transportation Ticket Agents and Travel Clerks heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Reservation and Transportation Ticket Agents and Travel Clerks roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Reservation and Transportation Ticket Agents and Travel Clerks](https://www.jobsandskills.gov.au/research/43-4181) — *What it measured:* Labour market analysis of automation resilience across Reservation and Transportation Ticket Agents and Travel Clerks in Australia
-
----
+persona: thabo-mokoena
+hosted_by: proxima424
+---...
+  - [hackernews] Terminal-Bench-Science: Evaluating AI agents on scientific research workflows...
+  - [hackernews] Tell HN: Man, AI is killing my brain...

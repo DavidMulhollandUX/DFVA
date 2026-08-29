@@ -1,29 +1,29 @@
-# Deep Research Evidence Log: Stock Clerks and Order Fillers (43-5081)
+# Evidence log: Stock Clerks and Order Fillers (43-5081)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `43-5081-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Stock Clerks and Order Fillers] Professional Practice Framework and Digital Competency Guidelines for Stock Clerks and Order Fillers — https://www.psc.gov.au/standards/43-5081 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Stock Clerks and Order Fillers enforce non-delegable ethical accountability and human verif..."
 
-> "National peak professional bodies and statutory regulators governing Stock Clerks and Order Fillers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Stock Clerks and Order Fillers — https://www.jobsandskills.gov.au/research/43-5081 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Stock Clerks and Order Fillers heightens the demand for adaptive problem solving, interdisciplinary ..."
 
-- **Scope:** Australian practitioners in Stock Clerks and Order Fillers across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Stock Clerks and Order Fillers** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Stock Clerks and Order Fillers](https://www.psc.gov.au/standards/43-5081) — *What it measured:* National competency and ethics framework for Stock Clerks and Order Fillers
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
-
-### Claim `43-5081-02` (L2 · scholarly)
-
-> "Automation of routine transactional and analytical tasks in Stock Clerks and Order Fillers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Stock Clerks and Order Fillers roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Stock Clerks and Order Fillers](https://www.jobsandskills.gov.au/research/43-5081) — *What it measured:* Labour market analysis of automation resilience across Stock Clerks and Order Fillers in Australia
-
----
+### L5 Practitioner discourse (49 claims)
+- last30days declared sample: 49 items across github=1, grounding=0, hackernews=24, reddit=5, stocktwits=0, x=9, youtube=4.
+- Representative practitioner quotes:
+  - [github] BUG: Anyone with the `DOCKET_CLERK_REPORT` permission can retrieve anyone else's messages
+**Describe the Bug**
+The `DOCK...
+  - [hackernews] Tell HN: Man, AI is killing my brain...
+  - [hackernews] Situational Awareness down 67% in July in AI stock rout...
+  - [hackernews] Judge relying wholly on AI in order is covered by judicial immunity, court rules...
+  - [hackernews] Trump signs downsized AI order after weeks of reversals...

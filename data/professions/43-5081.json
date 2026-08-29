@@ -965,6 +965,342 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l446",
+      "text": "Warehouse Associate \u2014 Wesco (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Wesco",
+          "title": "Warehouse Associate",
+          "url": "https://www.linkedin.com/jobs/view/4452348862",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l447",
+      "text": "Copy of Warehouse Pick Packer \u2014 Whites Powersports (Willawong, Queensland, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Whites Powersports",
+          "title": "Copy of Warehouse Pick Packer",
+          "url": "https://www.linkedin.com/jobs/view/4456872295",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l448",
+      "text": "Warehouse Worker III R4 \u2014 H.B. Fuller (Dandenong South, Victoria, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "H.B. Fuller",
+          "title": "Warehouse Worker III R4",
+          "url": "https://www.linkedin.com/jobs/view/4443830504",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l449",
+      "text": "Storeperson \u2014 Toll Group (Wulguru, Queensland, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Toll Group",
+          "title": "Storeperson",
+          "url": "https://www.linkedin.com/jobs/view/4410961668",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l450",
+      "text": "Inventory Clerk (AU) \u2014 DroneShield (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "DroneShield",
+          "title": "Inventory Clerk (AU)",
+          "url": "https://www.linkedin.com/jobs/view/4449369245",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l451",
+      "text": "Warehouse Operator - Brisbane, Australia \u2014 Arjo (Murarrie, Queensland, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Arjo",
+          "title": "Warehouse Operator - Brisbane, Australia",
+          "url": "https://www.linkedin.com/jobs/view/4445877495",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l452",
+      "text": "Storeperson \u2014 Bapcor Limited (Burleigh Heads, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Bapcor Limited",
+          "title": "Storeperson",
+          "url": "https://www.linkedin.com/jobs/view/4450225849",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l453",
+      "text": "Storeperson - Sigma Healthcare \u2014 Sigma Healthcare (Darwin, Northern Territory, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Sigma Healthcare",
+          "title": "Storeperson - Sigma Healthcare",
+          "url": "https://www.linkedin.com/jobs/view/4450977874",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l454",
+      "text": "Warehouse Assistant \u2014 LifeHealthcare (Macquarie Park, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "LifeHealthcare",
+          "title": "Warehouse Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4449369220",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l455",
+      "text": "Store Person - NAPA Yatala - Full Time \u2014 NAPA Australia (Yatala, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NAPA Australia",
+          "title": "Store Person - NAPA Yatala - Full Time",
+          "url": "https://www.linkedin.com/jobs/view/4450888262",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l556",
+      "text": "Why Did Cisco Stock\u2019s Rally Stall Despite $9.3B in AI Orders and Record Revenue?\n&#32; submitted by &#32; /u/Organic_Garden_7076 &#32; to &#32; r/StockMarket [link] &#32; [comments]\nCisco : \u2018we have $9.3B in orders!\u2019 Also Cisco: gross margin down, inventory up 80%, cash flow flat. Pick a lane. Give it a beat. This has been a common occurrence this earnings season . Arista dumped on blowout earnings and is now 20 points higher after 2 weeks. Celestica same story. Amphenol same story. Algos d For \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Why Did Cisco Stock\u2019s Rally Stall Despite $9.3B in AI Orders and Record Revenue?\u2026",
+          "url": "https://www.reddit.com/r/StockMarket/comments/1vmzmc4/why_did_cisco_stocks_rally_stall_despite_93b_in/",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "Wapify \u2014 WhatsApp automation for Shopify: COD confirmations, abandoned cart, back-in-stock, upsell, and a AI inbox that creates orders.\nWapify sends your customers WhatsApp messages automatically off real Shopify events \u2014 COD confirmation, abandoned cart, back-in-stock, review requests, upsell \u2014 and gives you one inbox for WhatsApp, Instagram and Messenger that can turn a DM into a Shopify order. It went live on the app store this week. Where can I find it? Shopify App Store: https://apps.shopif\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Wapify \u2014 WhatsApp automation for Shopify: COD confirmations, abandoned cart, bac\u2026",
+          "url": "https://www.reddit.com/r/ShopifyApps/comments/1va6kwy/wapify_whatsapp_automation_for_shopify_cod/",
+          "date": "2026-07-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "Alibaba\u2019s Qwen Just Won the AI Distribution War\nEvery day, the tech and finance world moves billions of dollars.\nMost people miss it. Signal Stack breaks it down in under 60 seconds.\n \nWe cover:\n\u2192 AI and tech company news that actually affects your money\n\u2192 Stock market moves you need to understand\n\u2192 Crypto, IPOs, earnings, and what they mean for you\n\u2192 The stories behind the headlines \u2014 told clearly and fast\n \nNew videos every day.\nNo fluff. No filler. Just the signal.\n \n\ud83d\udcf2 Follow us everywhere: @\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Alibaba\u2019s Qwen Just Won the AI Distribution War\nEvery day, the tech and finance \u2026",
+          "url": "https://www.youtube.com/watch?v=ZlMxxDmUZ_Y",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "Michael Saylor: \"I Made $15 Billion Using ChatGPT\" | The Diary of a CEO\nHe used ChatGPT to design a financial instrument that no lawyer, banker, or investor had ever built before \u2014 and it raised $15 billion.\n\nMichael Saylor turned Strategy (formerly MicroStrategy) into the largest corporate holder of Bitcoin on earth, and he built the last leg of that war chest with the help of an AI. When his company had maxed out equity markets and become the world's largest issuer of convertible bonds, he sat\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Michael Saylor: \"I Made $15 Billion Using ChatGPT\" | The Diary of a CEO\nHe used \u2026",
+          "url": "https://www.youtube.com/watch?v=Gk0q0RXF84U",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "Is Semtech (SMTC) An AI Powerhouse Or Just Pure Market Hype? \ud83d\udea8 Financial Breakdown\nWelcome back to Iron Financial, where we forge a stronger portfolio and cut through market weakness. Today, our Lead Analyst and Market Skeptic drill down into Semtech Corporation\u2019s (NASDAQ: SMTC) Q1 Fiscal Year 2027 earnings report and their massive Q2 outlook. \n\nIs this semiconductor player building a rock-solid foundation backed by true AI data center growth, or are there hidden cracks in the armor? We dissect \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Is Semtech (SMTC) An AI Powerhouse Or Just Pure Market Hype? \ud83d\udea8 Financial Breakdo\u2026",
+          "url": "https://www.youtube.com/watch?v=H5PXlPDTl-Y",
+          "date": "2026-05-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "Perplexity Computer for Beginners: Everything You Need to Know\nPerplexity just launched something big \u2014 Perplexity Computer. It\u2019s a multi-model AI system that acts like a digital coworker, using 19 different AI models to handle entire projects from a single prompt. In this video, I\u2019ll walk you through what it is, how it works, and show you real demo prompts you can try yourself.\n\n6 Advanced Tips for Perplexity Computer: https://youtu.be/svTfd5IyhVo\nCheck out Perplexity Personal Computer on Mac: \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Perplexity Computer for Beginners: Everything You Need to Know\nPerplexity just l\u2026",
+          "url": "https://www.youtube.com/watch?v=EHpAQwXmseQ",
+          "date": "2026-03-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -995,14 +1331,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Stock Clerks and Order Fillers",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/43-5081/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Stock Clerks and Order Fillers",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/43-5081/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "43-5081",
+        "query": "Stock Clerks and Order Fillers",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1017,9 +1364,24 @@
           "youtube": 4
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 6,
+        "sources": {
+          "github": 1,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 5,
+          "stocktwits": 0,
+          "x": 9,
+          "youtube": 4
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
