@@ -1805,6 +1805,489 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l486",
+      "text": "Project Geologist - Resources \u2014 Northern Star Resources Limited (Kalgoorlie, Western Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Northern Star Resources Limited",
+          "title": "Project Geologist - Resources",
+          "url": "https://www.linkedin.com/jobs/view/4451470339",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l487",
+      "text": "Project Geologist \u2014 Genesis Minerals Limited (Leonora, Western Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Genesis Minerals Limited",
+          "title": "Project Geologist",
+          "url": "https://www.linkedin.com/jobs/view/4448749828",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l488",
+      "text": "Hydrogeologist \u2014 Geosyntec Consultants (Spring Hill, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Geosyntec Consultants",
+          "title": "Hydrogeologist",
+          "url": "https://www.linkedin.com/jobs/view/4404564946",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l489",
+      "text": "Project Geologist - Discovery \u2014 Northern Star Resources Limited (Kalgoorlie, Western Australia, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Northern Star Resources Limited",
+          "title": "Project Geologist - Discovery",
+          "url": "https://www.linkedin.com/jobs/view/4456459352",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l490",
+      "text": "Project Hydrogeologist \u2014 Geosyntec Consultants (Perth, Western Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Geosyntec Consultants",
+          "title": "Project Hydrogeologist",
+          "url": "https://www.linkedin.com/jobs/view/4450086118",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l491",
+      "text": "Exploration Geologist \u2014 Eltirus (Brisbane City, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Eltirus",
+          "title": "Exploration Geologist",
+          "url": "https://www.linkedin.com/jobs/view/4454238390",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l492",
+      "text": "Project Geologist \u2014 Fortescue (Perth, Western Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Fortescue",
+          "title": "Project Geologist",
+          "url": "https://www.linkedin.com/jobs/view/4452917333",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l493",
+      "text": "Senior Geologist \u2014 PEABODY COALTRADE ASIA PRIVATE LTD. (Moranbah, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "PEABODY COALTRADE ASIA PRIVATE LTD.",
+          "title": "Senior Geologist",
+          "url": "https://www.linkedin.com/jobs/view/4450805305",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l494",
+      "text": "Project Mine Geologist - UG \u2014 Ramelius Resources Limited (Perth, Western Australia, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Ramelius Resources Limited",
+          "title": "Project Mine Geologist - UG",
+          "url": "https://www.linkedin.com/jobs/view/4458167536",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l495",
+      "text": "Senior Geologist \u2014 Peabody Energy (Moranbah, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Peabody Energy",
+          "title": "Senior Geologist",
+          "url": "https://www.linkedin.com/jobs/view/4450469830",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l596",
+      "text": "JOSS paper preparation\n### Manuscript draft\r\n\r\nThis PR is intended for revisions and improvements to the manuscript draft being prepared for submission to the Journal of Open Source Software (JOSS).\r\n\r\n**Paper format:** The manuscript is prepared as a Markdown (`paper.md`) file with references in a `paper.bib` file, follo\n[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/earthaccess-dev/earthaccess/16fb7b994dd344815f30690ceb87da084be9bc1d) :point_left: Launch a binder n\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "JOSS paper preparation\n### Manuscript draft\r\n\r\nThis PR is intended for revisions\u2026",
+          "url": "https://github.com/earthaccess-dev/earthaccess/pull/1249",
+          "date": "2026-03-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l597",
+      "text": "To understand gleason 5 - some thoughts\nPressed the AI. And it seems that the gleason 5 - cells (as in gleason 4+5, 5+5 or 5+4) is a hard nut to crack as we already know but this spells it out. From the AI: The size (stage) has no significance for Lv+It is easy to believe that a cancer must grow large and strong like a fist before it can begin to spread cells. But this is only true for indolent (milder) cancer forms. The difference: An extraprostatic extension (EPE/T3 stage) requires a large tum\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "To understand gleason 5 - some thoughts\nPressed the AI. And it seems that the gl\u2026",
+          "url": "https://www.reddit.com/r/ProstateCancer/comments/1vihan2/to_understand_gleason_5_some_thoughts/",
+          "date": "2026-08-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l598",
+      "text": "Feb 2027 is arrival date if it's even going to come, however we'll see really bad earth changes in the preceding months prior to it, so you wont have to hold me to the fact I am giving a future date.\nHistorical Astronomical Observation DISCLAIMER: This entire post is a conjecture of my research, I dont have access to controlled information or anything of that nature. And don&#39;t send me weird DMs. The reason I am interested in the 2027 date is because I&#39;ve known about it being an special y\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Feb 2027 is arrival date if it's even going to come, however we'll see really ba\u2026",
+          "url": "https://www.reddit.com/r/aliens/comments/1vfs9u8/feb_2027_is_arrival_date_if_its_even_going_to/",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l599",
+      "text": "Wharton Graduate AMA - Full Application Profile (Resume, Recommendations, Essays)\nHello all, this sub was a tremendous help when I was applying to bschool and I wanted to give back as the R1 deadline approaches. I&#39;m posting a roughly anonymized and summarized version of my application to give candidates an idea of what their own apps could look like. I applied to M7 and was rejected all without interview except for Wharton, where I received $$$ to attend. I&#39;m now happily working on the w\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Wharton Graduate AMA - Full Application Profile (Resume, Recommendations, Essays\u2026",
+          "url": "https://www.reddit.com/r/MBA/comments/1vy61al/wharton_graduate_ama_full_application_profile/",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5100",
+      "text": "[New Update]: AITAH for letting my fianc\u00e9 and his son move in rather than moving to them so his mom can co-parent?\nI am not OOP. OOP is u/Far-Championship202 Originally posted to r/AITAH and their own page Previous BoRUs: #1 [New Update]: AITAH for letting my fianc\u00e9 and his son move in rather than moving to them so his mom can co-parent? NEW UPDATE MARKED WITH ---- Editor\u2019s note: made small edits for ease of readability Trigger Warnings: emotional abuse and manipulation, harassment / stalking, m\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "[New Update]: AITAH for letting my fianc\u00e9 and his son move in rather than moving\u2026",
+          "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/1vv1xr2/new_update_aitah_for_letting_my_fianc\u00e9_and_his/",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5101",
+      "text": "I think India needs a population-control policy \u2014 even if it\u2019s only for 5\u20137 years\nI know population control is one of those topics that immediately becomes political, but I genuinely think India needs to have an uncomfortable conversation about this. I\u2019m increasingly convinced that India should consider a time-bound one-child policy for at least 5\u20137 years , with the goal being to slow population growth and give the country some breathing room to catch up on housing, education, healthcare, employ\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I think India needs a population-control policy \u2014 even if it\u2019s only for 5\u20137 year\u2026",
+          "url": "https://www.reddit.com/r/overpopulation/comments/1vyoa23/i_think_india_needs_a_populationcontrol_policy/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5102",
+      "text": "The Eternal \"Internet Archive is Down\" Post\nTL;DR: If the archive.org website is so far down you see no connection, no message, no header indicating you connected, just absolutely nothing at all, then things are dire indeed. That&#39;s some serious mojo. Or your cable modem is broken. If the archive.org site shows what&#39;s called the &quot;Sorry&quot; page, a page that indicates something is wrong and to check social media for updates, you&#39;re connected to a simple server pumping out a gene\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The Eternal \"Internet Archive is Down\" Post\nTL;DR: If the archive.org website is\u2026",
+          "url": "https://www.reddit.com/r/theinternetarchive/comments/1vzaqz6/the_eternal_internet_archive_is_down_post/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5103",
+      "text": "Revenue crushed expectations, margins expanded, guidance was strong....so why is RDDT down?\u201d\nI see a lot of posts and comments talking about the numbers, how great they are, and don&#39;t understand why &quot;others&quot; fail to see the risk &amp; reward with RDDT (implying big ups). That is the wrong question. Reddit is not literally a SaaS company; it remains overwhelmingly an advertising business. But it has been valued like a premium, high-duration growth asset because it combines software-\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Revenue crushed expectations, margins expanded, guidance was strong....so why is\u2026",
+          "url": "https://www.reddit.com/r/redditstock/comments/1vc8gzg/revenue_crushed_expectations_margins_expanded/",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5104",
+      "text": "Level 6 Arcane Spells Memorization Tier List (Vanilla, Core Rules)\nOne of the most competitive levels in the game. Not only is there a wide array of powerful and useful spells, but some of the best spells are also things you\u2019re going to want multiple instances of; level 6 has a bunch of spells that are serviceable but may not see use anyway just because there\u2019s so much goodness that you really want to stock up on. That being said, level 6 is also the first time in BG2 that scrolls aren\u2019t always \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Level 6 Arcane Spells Memorization Tier List (Vanilla, Core Rules)\nOne of the mo\u2026",
+          "url": "https://www.reddit.com/r/baldursgate/comments/1vud3rv/level_6_arcane_spells_memorization_tier_list/",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5105",
+      "text": "Democrats Are Failing the Waymo Test\nThe driverless future is here\u2014but, to borrow from William Gibson, it\u2019s not evenly distributed. Waymo\u2019s self-driving robotaxis are available in cities in California, Arizona, Florida, Georgia, Tennessee, and Texas. Aside from California, where the technology originated, those are all red or purple states. In every other blue state, meanwhile, driverless taxis are still not allowed to operate. If you live in Miami or Dallas, you can summon a Waymo to get where \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Democrats Are Failing the Waymo Test\nThe driverless future is here\u2014but, to borro\u2026",
+          "url": "https://www.reddit.com/r/neoliberal/comments/1vt3zax/democrats_are_failing_the_waymo_test/",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5106",
+      "text": "THE REEDUCATION OF WEEDSHREK: EPISODE 23\nhttps://preview.redd.it/d6s0wp7thkkh1.png?width=937&amp;format=png&amp;auto=webp&amp;s=f495d59d04b271a3dff4d095cafa6893097bb95c episode 22 today i am that spongebob meme of squidward looking out his window, where i&#39;m squidward and spongebob and patrick are all the royale recappers pain. this is episode 23: between a rock and a hell place, published 9.3.20 which i could have sworn he&#39;s done a rock and a hard place riff for a title before this but i\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "THE REEDUCATION OF WEEDSHREK: EPISODE 23\nhttps://preview.redd.it/d6s0wp7thkkh1.p\u2026",
+          "url": "https://www.reddit.com/r/TAZCirclejerk/comments/1vtrjpx/the_reeducation_of_weedshrek_episode_23/",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5107",
+      "text": "I built Curfew, a Mac bedtime locker, because I kept \"working\" until 4 AM instead of going to sleep\nHey everyone, My name is Chris Nagy, I&#39;m the founder and solo dev behind Curfew*.* It&#39;s my first time releasing an app I made into the world! TLDR; Curfew locks your Mac at night so you go to sleep instead of staying up late. You set a time when it should lock (eg. midnight) and it then covers your whole screen automatically. If you need to finish up something, you can snooze for 5 minutes\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I built Curfew, a Mac bedtime locker, because I kept \"working\" until 4 AM instea\u2026",
+          "url": "https://www.reddit.com/r/macapps/comments/1vswwgn/i_built_curfew_a_mac_bedtime_locker_because_i/",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5108",
+      "text": "Geology \u2014 8 Hours of Facts to Fall Asleep To \u2014 No Adverts\n\u2615 Support the channel \u2192 https://buymeacoffee.com/sleepysciencechannel\n\nFall asleep while learning one hundred dreamy facts about Geology. From drifting continents and rising mountain ranges to glowing magma chambers far below the crust, this soft and soothing Earth science documentary will guide you through deep time, shifting plates, ancient oceans, hidden fossils, and more. All told in a calm bedtime voice designed for listening in the \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Geology \u2014 8 Hours of Facts to Fall Asleep To \u2014 No Adverts\n\u2615 Support the channel \u2026",
+          "url": "https://www.youtube.com/watch?v=bHqwLUsZjOE",
+          "date": "2026-03-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1835,14 +2318,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Geoscientists, Except Hydrologists and Geographers",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/19-2042/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Geoscientists, Except Hydrologists and Geographers",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/19-2042/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "19-2042",
+        "query": "Geoscientists, Except Hydrologists and Geographers",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1856,9 +2350,23 @@
           "youtube": 1
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 13,
+        "sources": {
+          "github": 1,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 12,
+          "x": 45,
+          "youtube": 1
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
