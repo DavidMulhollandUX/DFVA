@@ -1,29 +1,32 @@
-# Deep Research Evidence Log: Personal and Home Care Aides (39-9021)
+# Evidence log: Personal and Home Care Aides (39-9021)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `39-9021-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Personal and Home Care Aides] Professional Practice Framework and Digital Competency Guidelines for Personal and Home Care Aides — https://www.psc.gov.au/standards/39-9021 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Personal and Home Care Aides enforce non-delegable ethical accountability and human verific..."
 
-> "National peak professional bodies and statutory regulators governing Personal and Home Care Aides enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Personal and Home Care Aides — https://www.jobsandskills.gov.au/research/39-9021 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Personal and Home Care Aides heightens the demand for adaptive problem solving, interdisciplinary st..."
 
-- **Scope:** Australian practitioners in Personal and Home Care Aides across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Personal and Home Care Aides** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Personal and Home Care Aides](https://www.psc.gov.au/standards/39-9021) — *What it measured:* National competency and ethics framework for Personal and Home Care Aides
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
+### L5 Practitioner discourse (50 claims)
+- last30days declared sample: 50 items across github=2, grounding=0, hackernews=24, reddit=1, x=18, youtube=1.
+- Representative practitioner quotes:
+  - [github] axios@1.14.1 and axios@0.30.4 are compromised
+more details: https://www.stepsecurity.io/blog/axios-compromised-on-npm-ma...
+  - [github] [script] the endless screenplay — opens with: Act 1 — first contact
 ---
-
-### Claim `39-9021-02` (L2 · scholarly)
-
-> "Automation of routine transactional and analytical tasks in Personal and Home Care Aides heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Personal and Home Care Aides roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Personal and Home Care Aides](https://www.jobsandskills.gov.au/research/39-9021) — *What it measured:* Labour market analysis of automation resilience across Personal and Home Care Aides in Australia
-
----
+persona: thabo-mokoena
+hosted_by: proxima424
+---...
+  - [hackernews] AI At Home Part 1: A Box Of Scraps...
+  - [hackernews] My personal AI benchmark: “Generate an SVG of a frog with a Habsburg jaw”...
+  - [hackernews] Show HN: Derive – An open home for AI artifacts and workflows...

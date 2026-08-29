@@ -1028,6 +1028,300 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l449",
+      "text": "Home Care Worker \u2014 Silverchain Group (Darlington, South Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Silverchain Group",
+          "title": "Home Care Worker",
+          "url": "https://www.linkedin.com/jobs/view/4448701556",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l450",
+      "text": "Personal Support Worker \u2014 Health Professionals To You (Greater Adelaide Area). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Health Professionals To You",
+          "title": "Personal Support Worker",
+          "url": "https://www.linkedin.com/jobs/view/4454473160",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l451",
+      "text": "Personal Support Worker \u2014 Arcare Aged Care (Helensvale, Queensland, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Arcare Aged Care",
+          "title": "Personal Support Worker",
+          "url": "https://www.linkedin.com/jobs/view/4447383612",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l452",
+      "text": "Home Care Worker \u2014 Silverchain Group (Toowoomba, Queensland, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Silverchain Group",
+          "title": "Home Care Worker",
+          "url": "https://www.linkedin.com/jobs/view/4448916622",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l453",
+      "text": "Care Companion | Glen Waverley \u2014 Age Up Health (Glen Waverley, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Age Up Health",
+          "title": "Care Companion | Glen Waverley",
+          "url": "https://www.linkedin.com/jobs/view/4452541435",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l454",
+      "text": "Personal Care Worker \u2014 Benetas (Eastern View, Victoria, Australia). Posted 4 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Benetas",
+          "title": "Personal Care Worker",
+          "url": "https://www.linkedin.com/jobs/view/4443649454",
+          "date": "4 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l455",
+      "text": "Support Services \u2014 Carinity (Townsville, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Carinity",
+          "title": "Support Services",
+          "url": "https://www.linkedin.com/jobs/view/4449521987",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l456",
+      "text": "Caregiver \u2014 Dovida Australia (Unley, South Australia, Australia). Posted 6 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Dovida Australia",
+          "title": "Caregiver",
+          "url": "https://www.linkedin.com/jobs/view/4371010912",
+          "date": "6 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l457",
+      "text": "Support Worker | Seaford \u2014 Accept Care (Seaford Heights, South Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Accept Care",
+          "title": "Support Worker | Seaford",
+          "url": "https://www.linkedin.com/jobs/view/4448098161",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l458",
+      "text": "Home Support Worker (Multiple Locations) - EOI \u2014 Kalyra (Adelaide, South Australia, Australia). Posted 9 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Kalyra",
+          "title": "Home Support Worker (Multiple Locations) - EOI",
+          "url": "https://www.linkedin.com/jobs/view/4337959070",
+          "date": "9 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l559",
+      "text": "axios@1.14.1 and axios@0.30.4 are compromised\nmore details: https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan\n\nMost likely, a maintainer's GitHub and npm accounts are compromised as these issues are getting deleted.\n\nI have also reported this as a vulnerability, so that a CVE can be generated\nHmm, I doubt @jasonsaayman is here. He doesn't reply on Slack, but he managed to unpin and probably delete the recent issue. @DigitalBrainJS can you try \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "axios@1.14.1 and axios@0.30.4 are compromised\nmore details: https://www.stepsecu\u2026",
+          "url": "https://github.com/axios/axios/issues/10604",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "url": "https://github.com/proxima424/westworld/issues/108",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Rank 5 Captain Zhiagii scrabbled against the deck as the ship shook around him. The Good Pheromone had only been commissioned last year. The new ship was state-of-the-art for a light cruiser. Premium shielding modules, revamped power-routing systems, and boosted acceleration profiles were the specs he had picked that set it above the rest. And now, somewhere near the front of the ship, several decks were exposed to spa\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Ra\u2026",
+          "url": "https://www.reddit.com/r/HFY/comments/1vwpkvz/the_human_artificial_hivemind_part_641_a_new_set/",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "How AI Will Run Your Life in 2026\nHow will AI change your life? In this video, we explore the future of AI in everyday life and how emerging technologies are already transforming the way we live, work, and interact. From AI-driven smart homes to personalized health assistants that feel like science fiction, we look at the advancements that will be \"normal\" by 2026.\n\nAs AI Wire Report monitors the intersection of humanity and technology, we\u2019ve identified the specific ways artificial intelligence \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "How AI Will Run Your Life in 2026\nHow will AI change your life? In this video, w\u2026",
+          "url": "https://www.youtube.com/watch?v=G1Wb3m_MCz0",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1058,14 +1352,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Personal and Home Care Aides",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/39-9021/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Personal and Home Care Aides",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/39-9021/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "39-9021",
+        "query": "Personal and Home Care Aides",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1079,9 +1384,23 @@
           "youtube": 1
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 4,
+        "sources": {
+          "github": 2,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 1,
+          "x": 18,
+          "youtube": 1
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

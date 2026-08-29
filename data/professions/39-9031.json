@@ -1952,6 +1952,384 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l493",
+      "text": "Gym Instructor Expression of Interest - Friends Health & Fitness \u2014 The Friends' School, Hobart, Tasmania (Hobart, Tasmania, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "The Friends' School, Hobart, Tasmania",
+          "title": "Gym Instructor Expression of Interest - Friends Health & Fitness",
+          "url": "https://www.linkedin.com/jobs/view/4384832853",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l494",
+      "text": "Group Fitness Instructor \u2014 Belgravia Leisure (Blayney, New South Wales, Australia). Posted 10 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Belgravia Leisure",
+          "title": "Group Fitness Instructor",
+          "url": "https://www.linkedin.com/jobs/view/4334256636",
+          "date": "10 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l495",
+      "text": "Recreation Officer \u2014 Voyages Tourism Australia (Yulara, Northern Territory, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Voyages Tourism Australia",
+          "title": "Recreation Officer",
+          "url": "https://www.linkedin.com/jobs/view/4458171426",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l496",
+      "text": "Fitness and Lifestyle Specialist | Norths Fitness \u2014 Norths Collective (New South Wales, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Norths Collective",
+          "title": "Fitness and Lifestyle Specialist | Norths Fitness",
+          "url": "https://www.linkedin.com/jobs/view/4455484896",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l497",
+      "text": "2026 South West Sport Centre Expression of Interest - Health & Fitness \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "City of Bunbury",
+          "title": "2026 South West Sport Centre Expression of Interest - Health & Fitness",
+          "url": "https://www.linkedin.com/jobs/view/2026",
+          "date": "7 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l498",
+      "text": "2026 South West Sport Centre Expression of Interest - Health & Fitness \u2014 City of Bunbury (Bunbury, Western Australia, Australia). Posted 7 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "City of Bunbury",
+          "title": "2026 South West Sport Centre Expression of Interest - Health & Fitness",
+          "url": "https://www.linkedin.com/jobs/view/4358253007",
+          "date": "7 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l499",
+      "text": "Fitness Instructors \u2014 City of De Soto (Broken Bay National Fitness Camp, New South Wales, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "City of De Soto",
+          "title": "Fitness Instructors",
+          "url": "https://www.linkedin.com/jobs/view/4439265586",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4100",
+      "text": "Group Fitness Instructor \u2014 Belgravia Leisure (Sydney, New South Wales, Australia). Posted 22 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Belgravia Leisure",
+          "title": "Group Fitness Instructor",
+          "url": "https://www.linkedin.com/jobs/view/4459192202",
+          "date": "22 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4101",
+      "text": "Exercise Specialist \u2014 Fairfield City Council (Fairfield, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Fairfield City Council",
+          "title": "Exercise Specialist",
+          "url": "https://www.linkedin.com/jobs/view/4455570892",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4102",
+      "text": "Corporate Wellness Coach \u2014 Exos (Sydney, New South Wales, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Exos",
+          "title": "Corporate Wellness Coach",
+          "url": "https://www.linkedin.com/jobs/view/4456221495",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l4103",
+      "text": "UFC GYM Studio Fitness Cycle Instructor \u2014 UFC Gym - Downtown Pittsburgh (Morgan Park, Queensland, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "UFC Gym - Downtown Pittsburgh",
+          "title": "UFC GYM Studio Fitness Cycle Instructor",
+          "url": "https://www.linkedin.com/jobs/view/4439555246",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l5104",
+      "text": "Topick 9 dml\nThis pr adds dml queries to [topic-09-dml/dml.sql](https://github.com/db-2026-05/team-6/compare/topick-9-dml?expand=1#diff-5954f29f204703fabccee915cb760ae98946d20f6de244f4af2ae0915ba17f38) file.\n# \ud83d\udd0d \u041e\u0433\u043b\u044f\u0434 Submission \u2014 Topic 09 (SQL DML)\n\n\u0414\u043e\u0431\u0440\u0438\u0439 \u0434\u0435\u043d\u044c! \u042f \u043f\u0435\u0440\u0435\u0432\u0456\u0440\u0438\u0432 \u0432\u0430\u0448 DML \u0441\u043a\u0440\u0438\u043f\u0442. \u0404 **\u043a\u0456\u043b\u044c\u043a\u0430 \u043a\u0440\u0438\u0442\u0438\u0447\u043d\u0438\u0445 \u043f\u0440\u043e\u0431\u043b\u0435\u043c**, \u044f\u043a\u0456 \u043f\u043e\u0442\u0440\u0456\u0431\u043d\u043e \u0432\u0438\u043f\u0440\u0430\u0432\u0438\u0442\u0438 \u043f\u0435\u0440\u0435\u0434 \u0444\u0456\u043d\u0430\u043b\u044c\u043d\u043e\u044e \u0437\u0434\u0430\u0447\u0435\u044e.\n\n---\n\n## \u274c **\u041a\u0440\u0438\u0442\u0438\u0447\u043d\u0456 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0438**\n\n### 1. **\u0414\u0443\u0436\u0435 \u043c\u0430\u043b\u043e \u0442\u0430\u0431\u043b\u0438\u0446\u044c \u043d\u0430\u043f\u043e\u0432\u043d\u0435\u043d\u043e**\n\u0412\u0438 \u0437\u0430\u043f\u043e\u0432\u043d\u0438\u043b\u0438 \u0434\u0430\u043d\u0456 \u0434\u043b\u044f \u043b\u0438\u0448\u0435 **3 \u0442\u0430\u0431\u043b\u0438\u0446\u044c** \u0437 20 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0438\u0445 \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Topick 9 dml\nThis pr adds dml queries to [topic-09-dml/dml.sql](https://github.c\u2026",
+          "url": "https://github.com/db-2026-05/team-6/pull/3",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5105",
+      "text": "Feature: AI coach that runs 100% on your iPhone. Giving away 1 year of Pro\nI\u2019ve been working on a new feature for Stepzy called AI Coach , and it\u2019s finally ready. The idea is simple: instead of just showing you numbers after a workout, Stepzy actually helps you understand them. AI Coach can: Give you personalized feedback after every workout Explain what stood out in your pace, heart rate, zones, duration, and recent performance Suggest what to focus on next time Coach you based on your entire d\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Feature: AI coach that runs 100% on your iPhone. Giving away 1 year of Pro\nI\u2019ve \u2026",
+          "url": "https://www.reddit.com/r/StepzyApp/comments/1vrv2zv/feature_ai_coach_that_runs_100_on_your_iphone/",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5106",
+      "text": "I hate AI\nEdit to fix formatting and say that I DID NOT WRITE THIS WITH AI. I\u2019m aware few people will likely see this and even fewer actually read to the end, but I feel compelled to write it nevertheless. I saw a post today in a teacher help group I\u2019m a part of on Facebook asking for a good AI program to use for assistance in creating kindergarten materials. (Picture below). I am honestly amazed that things have come this far, and not in a good way. It took that person more time to fight with A\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I hate AI\nEdit to fix formatting and say that I DID NOT WRITE THIS WITH AI. I\u2019m \u2026",
+          "url": "https://www.reddit.com/r/HonestHotTakes/comments/1vl4qz8/i_hate_ai/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5107",
+      "text": "Iridium MCP Server \u2013 Connects AI agents to Iridium fitness data to query workout history, nutrition logs, and body measurements. It enables users to track exercise progress, training volume, and personalized trainer analysis through natural language.\n&#32; submitted by &#32; /u/modelcontextprotocol &#32; to &#32; r/mcp [link] &#32; [comments]\nThis server has 19 tools: get_body_measurements \u2013 Retrieve body measurement history (weight, body fat, etc.) over a date range. Supports flexible date inpu\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Iridium MCP Server \u2013 Connects AI agents to Iridium fitness data to query workout\u2026",
+          "url": "https://www.reddit.com/r/mcp/comments/1vvmbai/iridium_mcp_server_connects_ai_agents_to_iridium/",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5108",
+      "text": "A.I. vs Personal Trainer: Which One Actually Gets You to Your Fitness Goals? (Honest Breakdown)\n\ud83d\udcc5 Book your FREE consultation today!\n\n \ud83d\udd17  https://calendly.com/tristanfitnezz/60min\n\nA.I. fitness tools are everywhere right now \u2014 but can they actually replace a personal trainer? \n\nIn this video, we break down the real pros and cons of both, who each one is best for, and what the research says about which approach leads to better long-term results. \n\nNo hype, no sales pitch \u2014 just an honest conversa\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "A.I. vs Personal Trainer: Which One Actually Gets You to Your Fitness Goals? (Ho\u2026",
+          "url": "https://www.youtube.com/watch?v=LWElVl-mH2k",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5109",
+      "text": "Claude Code Built My AI Fitness Trainer (Kettlebell Coach, Full Cost Breakdown)\nThat's not a video I filmed. That's an AI trainer I created using Higgsfield, looping seamlessly, coaching me through a follow-along workout, using an app I built myself with Claude Code in a couple of hours. I'm not going to sell you anything in this video. I just want to show you what's possible with these tools today, and how much it actually costs to create it yourself.\n\nKettlebell Coach: [link \u2014 add once hosted \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Claude Code Built My AI Fitness Trainer (Kettlebell Coach, Full Cost Breakdown)\n\u2026",
+          "url": "https://www.youtube.com/watch?v=MaHITJel8ew",
+          "date": "2026-07-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5110",
+      "text": "Future vs AI Fitness Apps: Is Human Coaching Still Better?\nIs a real human coach worth $199/month in 2026\u2026 or are AI fitness apps finally good enough?\n\nIn this video, we break down Future Pro, one of the most premium (and expensive) fitness platforms available today. After testing it with real coaching, biometric tracking, and daily accountability, we answer the big question:\n\n\ud83d\udc49 Do you actually get what you pay for?\n\nWhat we cover:\n\nHuman coaching vs AI fitness apps (the real difference)\nPersona\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Future vs AI Fitness Apps: Is Human Coaching Still Better?\nIs a real human coach\u2026",
+          "url": "https://www.youtube.com/watch?v=azgmY5VwZvc",
+          "date": "2026-05-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1982,14 +2360,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Fitness Trainers and Aerobics Instructors",
-      "location": "Australia",
-      "returned": 11,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/39-9031/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Fitness Trainers and Aerobics Instructors",
+        "location": "Australia",
+        "returned": 11,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/39-9031/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "39-9031",
+        "query": "Fitness Trainers and Aerobics Instructors",
+        "location": "Australia",
+        "returned": 11,
+        "totalResults": 11,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -2003,9 +2392,23 @@
           "youtube": 3
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 7,
+        "sources": {
+          "github": 1,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 3,
+          "x": 59,
+          "youtube": 3
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

@@ -1848,6 +1848,552 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l488",
+      "text": "Family Worker, Children's Contact Service \u2014 Relationships Australia Canberra & Regions (Wagga Wagga, New South Wales, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Relationships Australia Canberra & Regions",
+          "title": "Family Worker, Children's Contact Service",
+          "url": "https://www.linkedin.com/jobs/view/4444062307",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l489",
+      "text": "Youth Worker \u2014 Churches of Christ in Queensland (Mackay, Queensland, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Churches of Christ in Queensland",
+          "title": "Youth Worker",
+          "url": "https://www.linkedin.com/jobs/view/4458546064",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l490",
+      "text": "Out of Home Care Worker \u2014 HenderCare (Adelaide, South Australia, Australia). Posted 4 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "HenderCare",
+          "title": "Out of Home Care Worker",
+          "url": "https://www.linkedin.com/jobs/view/4405601318",
+          "date": "4 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l491",
+      "text": "Child Care Worker \u2014 Fairfield City Council (Fairfield, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Fairfield City Council",
+          "title": "Child Care Worker",
+          "url": "https://www.linkedin.com/jobs/view/4451132143",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l492",
+      "text": "Aboriginal Community Worker \u2014 Department of Children and Families (Katherine, Northern Territory, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Children and Families",
+          "title": "Aboriginal Community Worker",
+          "url": "https://www.linkedin.com/jobs/view/4450193103",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l493",
+      "text": "Night Residential Care Worker - Shepparton \u2014 Berry Street (Shepparton, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Berry Street",
+          "title": "Night Residential Care Worker - Shepparton",
+          "url": "https://www.linkedin.com/jobs/view/4453042743",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l494",
+      "text": "Residential Care Worker - Sleepover Shifts \u2014 MacKillop Family Services (Dandenong, Victoria, Australia). Posted 6 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "MacKillop Family Services",
+          "title": "Residential Care Worker - Sleepover Shifts",
+          "url": "https://www.linkedin.com/jobs/view/4353824261",
+          "date": "6 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l495",
+      "text": "Youth Residential Care Worker - Morwell/Traralgon: Expression of Interest 2026 \u2014 Berry Street (Morwell, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Berry Street",
+          "title": "Youth Residential Care Worker - Morwell/Traralgon: Expression of Interest 2026",
+          "url": "https://www.linkedin.com/jobs/view/4414098103",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l496",
+      "text": "Childcare Worker (Elsternwick) \u2014 Ni\u00f1o Early Learning Adventures (Elsternwick, Victoria, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Ni\u00f1o Early Learning Adventures",
+          "title": "Childcare Worker (Elsternwick)",
+          "url": "https://www.linkedin.com/jobs/view/4445090240",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l597",
+      "text": "feat(weekly-reports): Field Team roster pickers, Won-only project picker, and a per-project audit trail\nAnswers and fixes for everything raised on the weekly-report setup form and dashboard.\n\n## Why Adam Sherwood wasn't in the PM dropdown\n\nHe is `rep` in `public.users`, and the picker offered only `field_contractor` /\n`construction` / `admin` / `director`. It is not just him \u2014 measured against the liv\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Code\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat(weekly-reports): Field Team roster pickers, Won-only project picker, and a \u2026",
+          "url": "https://github.com/artificialadnaan/trockcrm/pull/1089",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l598",
+      "text": "fix(runtime): clean up test helper allocations\n<!-- This is an auto-generated description by cubic. -->\n## Summary by cubic\nSwitches all engines and backends to the canonical whole\u2011program `Program` container (v4) with W^X JIT/AOT, adds a strictness lint surface with an explain mode and generated docs in the CLI, and tightens runtime behavior\nYou have reached your Codex usage limits for code reviews. You can see your limits in the [Codex usage dashboard](https://chatgpt.com/codex/cloud/settings/\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "fix(runtime): clean up test helper allocations\n<!-- This is an auto-generated de\u2026",
+          "url": "https://github.com/metaphorics/bamTiScript/pull/3",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l599",
+      "text": "Dedupe extracted embedded native modules in compiled binaries\nFixes #29585.\n\n## Problem\n\nA `bun build --compile` binary that loads an embedded native library (`bun:ffi` `dlopen` or `process.dlopen` on a `.node`) extracted a fresh copy to `/tmp` on every call and never cleaned it up. Each Worker re-extracted on its first `dlopen`, so Worker-heavy servers leaked\n<div><sup>Updated 2:44 PM PT - Aug 18th, 2026</sup></div>\n\n:white_check_mark: @robobun, your [commit dedad50c3147565a1f7cd5e91f980e890f9d\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Dedupe extracted embedded native modules in compiled binaries\nFixes #29585.\n\n## \u2026",
+          "url": "https://github.com/oven-sh/bun/pull/29587",
+          "date": "2026-04-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5100",
+      "text": "clippy: 33 deny lints + fix 2735 violations across workspace\nAdds 45 deny-level clippy lints + `dead_code`/`unused_*`/`unreachable_*` to `[workspace.lints]`, a `clippy.toml` routing `std::{fs,sync,collections,process,env}` and `println!`/`eprintln!` through `bun_*` wrappers, and fixes the resulting violations across the workspace. Net **\u22126.2K LOC** of dead co\n<div><sup>Updated 4:59 PM PT - May 20th, 2026</sup></div>\n\n:x: @Jarred-Sumner, your commit 1a9b38ec118127ec130d916b252ea83c211d2f08 has 1 \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "clippy: 33 deny lints + fix 2735 violations across workspace\nAdds 45 deny-level \u2026",
+          "url": "https://github.com/oven-sh/bun/pull/31116",
+          "date": "2026-05-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5101",
+      "text": "feat: Scaffold SmartQB 2.0 structure and implement auth routing\nfeat: Scaffold SmartQB 2.0 structure and implement auth routing\n\n- Created correct folder structure (`core`, `gui/views`, `gui/components`, `services`, `resources/config`) and `__init__.py` files.\n- Implemented `SmartQB_2.0/main.py` entrypoint. Instantiates `QApplication` appropriately before any `Q\n\ud83d\udc4b Jules, reporting for duty! I'm here to lend a hand with this pull request.\n\nWhen you start a review, I'll add a \ud83d\udc40 emoji to each comme\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat: Scaffold SmartQB 2.0 structure and implement auth routing\nfeat: Scaffold S\u2026",
+          "url": "https://github.com/yeyouyby/SmartQB-QT/pull/2",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5102",
+      "text": "A Mexican startup has started selling Mexican-built EVs for $8,500. Why can't Silicon Valley do this for the US & rest of world, instead of pouring hundreds of billions into AI designed to replace human workers?\nOne of the things I notice about Silicon Valley &amp; Big Tech is how often they co-opt the language of transformation and change, and yet how poor they are at following through. Education, healthcare, and housing - all getting gradually worse. Not Silicon Valley&#39;s concern. They&#39;\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "A Mexican startup has started selling Mexican-built EVs for $8,500. Why can't Si\u2026",
+          "url": "https://www.reddit.com/r/Futurology/comments/1v9v7nt/a_mexican_startup_has_started_selling/",
+          "date": "2026-07-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5103",
+      "text": "\ud83d\udd25 Hiring Remote Workers - $70/Hour to Evaluate AI Responses\nIf you&#39;re a sharp thinker who loves analyzing information, this could be a work-from-home opportunity worth checking out. \ud83d\udcbb A company is looking for General Experts to evaluate AI-generated responses and provide thoughtful, structured written feedback. \ud83d\udcb0 What You\u2019ll Do You\u2019ll review AI responses, look for mistakes or weaknesses, and explain why a response is strong, weak, incomplete, or misleading. This is written work \u2014 no phone ca\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "\ud83d\udd25 Hiring Remote Workers - $70/Hour to Evaluate AI Responses\nIf you&#39;re a shar\u2026",
+          "url": "https://www.reddit.com/r/RemoteWorkers/comments/1vz50rg/hiring_remote_workers_70hour_to_evaluate_ai/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5104",
+      "text": "The creator of this AI slop didn\u2019t even care that the baby born to a religious mother actually has six fingers on its left hand.\n&#32; submitted by &#32; /u/Too_bad_4U &#32; to &#32; r/aislop [link] &#32; [comments]\nIt forgot to give a book to baby on the right. Damn they giving fetuses cellphones now It\u2019s weird to see so many AI posts from religious people, considering that making an AI/intelligent robots is very akin to playing God. I don\u2019t know about Islam, but comparing yourself to God in Ch\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The creator of this AI slop didn\u2019t even care that the baby born to a religious m\u2026",
+          "url": "https://www.reddit.com/r/aislop/comments/1vrwqxi/the_creator_of_this_ai_slop_didnt_even_care_that/",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5105",
+      "text": "\ud83d\udd25 Hiring Remote Workers - $70/Hour to Evaluate AI Responses\nIf you&#39;re a sharp thinker who loves analyzing information, this could be a work-from-home opportunity worth checking out. \ud83d\udcbb A company is looking for General Experts to evaluate AI-generated responses and provide thoughtful, structured written feedback. # \ud83d\udcb0 What You\u2019ll Do You\u2019ll review AI responses, look for mistakes or weaknesses, and explain why a response is strong, weak, incomplete, or misleading. This is written work \u2014 no phone \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "\ud83d\udd25 Hiring Remote Workers - $70/Hour to Evaluate AI Responses\nIf you&#39;re a shar\u2026",
+          "url": "https://www.reddit.com/r/NoPhoneRemoteJobs/comments/1vziafh/hiring_remote_workers_70hour_to_evaluate_ai/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5106",
+      "text": "EXPOSED: A 404 Media Investigation Used A Hidden AirTag To Track An Suspicious Anonymous Biblio Order Of 1,000 Rare Books To Amazon\u2019s Nevada \u201cVGT3\u201d Warehouse, Where Workers Strip Spines And Scan ISBNs For AI Training While Destroying Every Original Copy \ud83d\udcda\ud83d\udca5\nAn investigation by 404 Media has caught Amazon scanning and destroying rare books to feed its AI model training pipeline, uncovered after a bookseller grew suspicious of a 1,000-book order placed through Biblio, a marketplace that allows buye\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "EXPOSED: A 404 Media Investigation Used A Hidden AirTag To Track An Suspicious A\u2026",
+          "url": "https://www.reddit.com/r/InterstellarKinetics/comments/1vr49x5/exposed_a_404_media_investigation_used_a_hidden/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5107",
+      "text": "EXPOSED: An Anonymous Amazon Warehouse Worker Describes Firsthand How The VGT3 Facility Destructively Scans And Discards Thousands Of Books, Including Rare Books And Government Documents To Train AI Models \ud83d\udcda\ud83e\udd16\nAn anonymous Amazon employee who worked at the company\u2019s VGT3 warehouse in Las Vegas has described in detail how the facility scans and destroys thousands of books for AI training data, cutting off book spines and discarding the physical remains after digitizing the loose pages, according t\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "EXPOSED: An Anonymous Amazon Warehouse Worker Describes Firsthand How The VGT3 F\u2026",
+          "url": "https://www.reddit.com/r/InterstellarKinetics/comments/1vz7ew3/exposed_an_anonymous_amazon_warehouse_worker/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5108",
+      "text": "\"So kids should have sex/ explore sex? Dude, you are entering grooming territory here. Be careful.\" Pro AI fans brigade r/antiai, to protest the brainwashing of middle schoolers against AI, ICE, and Trump, and for LGBTQUI+, etc\nSource: https://www.reddit.com/r/antiai/comments/1vmul7z/absolutely_despicable_to_be_judging_a_eighth/ HIGHLIGHTS That kid got brainwashed and you cheer because its something you subscribe to. lol How are they brainwashed? a 13yr old with political pins covering their bac\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "\"So kids should have sex/ explore sex? Dude, you are entering grooming territory\u2026",
+          "url": "https://www.reddit.com/r/SubredditDrama/comments/1vpjz5c/so_kids_should_have_sex_explore_sex_dude_you_are/",
+          "date": "2026-08-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5109",
+      "text": "Breaking: Bill Gates TURNS on AI, WARNS of bioterror, danger, unemployment CRASH (Melber breakdown)\nMS NOW\u2019s Ari Melber reports on tech innovator and Microsoft founder Bill Gates issuing an extensive warning about the current AI boom. (The Beat's YouTube: https://ms.now/ari)\n\nMS NOW: My Source for News, Opinion, and the World.\n\n\u00bb Subscribe to MS NOW: https://www.youtube.com/@msnow\n\n\u00bb Subscribe to MS NOW\u2019s We the People Newsletter for exclusive content from your favorite MS NOW anchors. Sign up n\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Breaking: Bill Gates TURNS on AI, WARNS of bioterror, danger, unemployment CRASH\u2026",
+          "url": "https://www.youtube.com/watch?v=X9oBm_oPRkQ",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5110",
+      "text": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California lawmakers debate AI regulation and voters prepare to weigh a proposed 5% one-time billionaire tax, labor leaders are pushing back against what they see as growing threats to workers.\n\nPolitical Breakdown host Marisa Lagos sits down with Lorena Gonzalez, president of the California Federation of Labor Unions, to discuss AI in the workplace, worker surveillance and human oversight. They also discuss California\u2019s proposed \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Is Changing Work. Can Unions Keep Up? | Political Breakdown\nAs California law\u2026",
+          "url": "https://www.youtube.com/watch?v=WLbvdWXuR3Y",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5111",
+      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They\u2019re Hiding The Truth!\u2026",
+          "url": "https://www.youtube.com/watch?v=Cn8HBj8QAbk",
+          "date": "2026-03-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5112",
+      "text": "AI Disruption, Wealth Tax and What\u2019s Changing in Silicon Valley\nIn the Bay Area, AI is bringing renewed attention and investment to Silicon Valley at the same time that many technology companies are expanding outside California. The region can remain important to a company even when more of its growth happens somewhere else.\n\nThe movement out of California is only part of the story. Companies can remain closely connected to Silicon Valley even as more of their hiring and operations happen elsewh\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Disruption, Wealth Tax and What\u2019s Changing in Silicon Valley\nIn the Bay Area,\u2026",
+          "url": "https://www.youtube.com/watch?v=x-8TIZEqRR4",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5113",
+      "text": "Singapore's AI Strategy: Embrace the Future Without Abandoning Workers\n\ud83c\uddf8\ud83c\uddec SINGAPORE JUST SHOWED THE WORLD HOW TO MANAGE AI DISRUPTION. At the National Day Rally on August 23, 2026, Prime Minister Lawrence Wong laid out Singapore's vision: embrace AI, autonomous vehicles, and emerging technologies, but never let deployment outpace safety measures and worker support. The strategy covers AI agents in healthcare, progressive autonomous vehicle rollout, and a massive retraining commitment\u2014100,000 wor\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Singapore's AI Strategy: Embrace the Future Without Abandoning Workers\n\ud83c\uddf8\ud83c\uddec SINGAP\u2026",
+          "url": "https://www.youtube.com/watch?v=OnCbRmgdpsY",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1878,14 +2424,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Child Care Workers",
-      "location": "Australia",
-      "returned": 9,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/39-9011/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Child Care Workers",
+        "location": "Australia",
+        "returned": 9,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/39-9011/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "39-9011",
+        "query": "Child Care Workers",
+        "location": "Australia",
+        "returned": 9,
+        "totalResults": 9,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1899,9 +2456,23 @@
           "youtube": 5
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 17,
+        "sources": {
+          "github": 11,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 7,
+          "x": 38,
+          "youtube": 5
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
