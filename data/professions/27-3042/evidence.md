@@ -1,29 +1,41 @@
-# Deep Research Evidence Log: Technical Writers (27-3042)
+# Evidence log: Technical Writers (27-3042)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `27-3042-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Technical Writers] Professional Practice Framework and Digital Competency Guidelines for Technical Writers — https://www.psc.gov.au/standards/27-3042 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Technical Writers enforce non-delegable ethical accountability and human verification over ..."
 
-> "National peak professional bodies and statutory regulators governing Technical Writers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Technical Writers — https://www.jobsandskills.gov.au/research/27-3042 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Technical Writers heightens the demand for adaptive problem solving, interdisciplinary stakeholder c..."
 
-- **Scope:** Australian practitioners in Technical Writers across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Technical Writers** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Technical Writers](https://www.psc.gov.au/standards/27-3042) — *What it measured:* National competency and ethics framework for Technical Writers
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (64 claims)
+- last30days declared sample: 64 items across github=9, grounding=0, hackernews=24, jobs=0, reddit=6, x=18, youtube=7.
+- Representative practitioner quotes:
+  - [github] Company v1 agent ops loop
+# Company v1 agent ops loop
 
-### Claim `27-3042-02` (L2 · scholarly)
+Operational coordination thread for `zeroslove-ai/company-v1`.
 
-> "Automation of routine transactional and analytical tasks in Technical Writers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
+-...
+  - [github] [ PARENT THREAD ] AI Agent Toolkit — Rolling Work Queue
+<!-- AI-AGENT-TOOLKIT:GITHUB-PROGRAM-PARENT:BEGIN v2 -->
+# Progr...
+  - [github] MongoDB outage survival for send + history load, and extract broadcast-worker's room-level writes into roomlist-worker
+>...
+  - [github] feat(debug): publish evidence-first Codex and Agents debug skill
+## Summary
 
-- **Scope:** Entry-level and senior Technical Writers roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Technical Writers](https://www.jobsandskills.gov.au/research/27-3042) — *What it measured:* Labour market analysis of automation resilience across Technical Writers in Australia
+- publish the verified 26-file `debug` sk...
+  - [github] fix(hooks): match lint-staged Prettier scope to the repo-wide format gate
+## Problem
 
----
+`lint-staged` ran Prettier over `{...

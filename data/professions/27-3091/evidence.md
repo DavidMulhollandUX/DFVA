@@ -1,29 +1,33 @@
-# Deep Research Evidence Log: Interpreters and Translators (27-3091)
+# Evidence log: Interpreters and Translators (27-3091)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `27-3091-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Interpreters and Translators] Professional Practice Framework and Digital Competency Guidelines for Interpreters and Translators — https://www.psc.gov.au/standards/27-3091 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Interpreters and Translators enforce non-delegable ethical accountability and human verific..."
 
-> "National peak professional bodies and statutory regulators governing Interpreters and Translators enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Interpreters and Translators — https://www.jobsandskills.gov.au/research/27-3091 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Interpreters and Translators heightens the demand for adaptive problem solving, interdisciplinary st..."
 
-- **Scope:** Australian practitioners in Interpreters and Translators across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Interpreters and Translators** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Interpreters and Translators](https://www.psc.gov.au/standards/27-3091) — *What it measured:* National competency and ethics framework for Interpreters and Translators
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (51 claims)
+- last30days declared sample: 51 items across github=2, grounding=0, hackernews=24, reddit=5, x=20, youtube=0.
+- Representative practitioner quotes:
+  - [github] 🌐 Official AI Content Report 2026-08-26
+# Official AI Content Report 2026-08-26
 
-### Claim `27-3091-02` (L2 · scholarly)
+> Today's update | New content: 27 arti...
+  - [github] feat: cmux sudo with TouchID approval
+## Summary
 
-> "Automation of routine transactional and analytical tasks in Interpreters and Translators heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Interpreters and Translators roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Interpreters and Translators](https://www.jobsandskills.gov.au/research/27-3091) — *What it measured:* Labour market analysis of automation resilience across Interpreters and Translators in Australia
-
----
+Adds a guarded `cmux sudo -- <command>` flow for agent terminals insid...
+  - [hackernews] Tell HN: Man, AI is killing my brain...
+  - [hackernews] What breaks in production AI workflows?...
+  - [hackernews] Flyte 2 is GA: durable distributed AI workflows using regular Python...
