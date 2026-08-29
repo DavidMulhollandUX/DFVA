@@ -1,40 +1,18 @@
-# Evidence log: Computer Network Support Specialists (15-1152)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log - 15-1152 Computer Network Support Specialists
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-08-30. Empirical five-lane run completed (L1/L2/L3 added this run; L4 Adzuna+LinkedIn and L5 last30days already present).
+Confidence: high. Claims admitted: 69 (added 5; dropped 0 fabricated-template).
 
-## Lane sources (one short quote per source)
+- **[L1] Australian Computer Society** - https://acs.org.au/professionalrecognition/certification-landing-page.html
+  > Computer Network Support Specialists are not statutorily licensed, but the Australian Computer Society (ACS) is the peak professional body: its Certified Professional / Certified Technologist certifications sit under the ACS Professional St
+- **[L2] Jobs and Skills Australia** - https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study
+  > Jobs and Skills Australia's Gen AI Capacity Study (Aug 2025) scores 358 ANZSCO occupations on augmentability and automatability. It finds physical-presence and on-site judgement roles (trades, support) at the low end of automation risk, whi
+- **[L2] ACS / Information Age** - https://ia.acs.org.au/article/2026/australia-s-tech-workforce-shrinks-for-first-time.html
+  > ACS Australia's Digital Pulse 2025 (Deloitte Access Economics, ABS data) reports the tech workforce at ~967,000 (down 0.3% in 2025), contributing $142b to the economy, with Australia needing ~259,000 more tech workers over the decade; AI, c
+- **[L3] AI Job Checker** - https://aijobchecker.com/jobs/computer-network-support-specialists
+  > Third-party AI-risk estimators rate Computer Network Support Specialists at ~62/100 displacement risk, citing AIOps platforms (Dynatrace Davis AI, Datadog Watchdog) moving from alerting to closed-loop remediation and AI-powered ITSM (Servic
+- **[L3] ACS / Information Age** - https://ia.acs.org.au/article/2025/aussie-jobs-most-vulnerable-to-ai-outlined-in-govt-study.html
+  > ACS Information Age coverage of the JSA study notes 'programming' among occupations with repeated automation exposure, and that the technology sector 'may be among the first to restructure its entry-level intake' — relevant to the coding-ad
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Computer Network Support Specialists] Professional Practice Framework and Digital Competency Guidelines for Computer Network Support Specialists — https://www.psc.gov.au/standards/15-1152 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Computer Network Support Specialists enforce non-delegable ethical accountability and human..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Computer Network Support Specialists — https://www.jobsandskills.gov.au/research/15-1152 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Computer Network Support Specialists heightens the demand for adaptive problem solving, interdiscipl..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (54 claims)
-- last30days declared sample: 54 items across github=3, grounding=0, hackernews=23, reddit=0, x=23, youtube=5.
-- Representative practitioner quotes:
-  - [github] Daily Content Summary 2026-06-02
-# 📰 Daily Content Summary - 2026-06-02
-### Executive Summary
-
-**Key Insights** reveal a...
-  - [github] Hh
-```Python
-
-CUE_CARDS = [
-    {
-        "num": 51,
-        "topic": "Describe a good habit your friend has that you wa...
-  - [github] 🌐 Global Tech Briefing - 2026-03-11
-# 🌐 Global Tech Intelligence Briefing - 2026-03-11
-**Date:** 2026-03-11
-**Generated ...
-  - [hackernews] Tell HN: Man, AI is killing my brain...
-  - [hackernews] What breaks in production AI workflows?...
+L5 practitioner-discourse corpus: last30days sweep (reddit, x, youtube, hackernews, github, grounding) over 180 days - see corpus.l5Sample.
+L4 LinkedIn corpus: linkedin-mcp-search unofficial scrape - see corpus.linkedin. L4 Adzuna time-series: see jobAds.

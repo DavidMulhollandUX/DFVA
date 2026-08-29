@@ -11,11 +11,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-30",
+    "to": "2026-08-30"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-03-01",
   "programs": [],
   "claims": [
     {
@@ -1508,6 +1508,118 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Computer Occupations, All Other (a residual O*NET group covering Cloud Solution Architects, QA Analysts, ICT Project Managers and similar) have no single statutory licence. ACS is the peak professional body (Certified Professional/Technologist under the Professional Standards Scheme, Code of Conduct + CPD). Cloud and security roles typically require vendor certs (e.g. AWS) and, where they handle Commonwealth data, adhere to the ASD Essential Eight.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Computer Society",
+          "title": "Get ACS Certified",
+          "url": "https://acs.org.au/professionalrecognition/certification-landing-page.html",
+          "date": "2026",
+          "whatItMeasured": "ACS certification under Professional Standards Scheme; Code of Professional Conduct + CPD."
+        }
+      ],
+      "scope": "Voluntary professional certification; residual group spans roles beyond any one regime. Population = AU computer occupations not elsewhere classified.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (acs.org.au); measures this population; in force.",
+      "id": "15-1199-empi72"
+    },
+    {
+      "text": "JSA's Gen AI Capacity Study (Aug 2025) places 'programming' among roles with repeated automation exposure and states the technology sector 'may be among the first to restructure its entry-level intake', while professionals and managers see high augmentation and low automation risk overall.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level ANZSCO exposure (augmentability/automatability) across 358 AU occupations; 79% of workers low/very low automation risk; augmentation > automation."
+        },
+        {
+          "publisher": "ACS / Information Age",
+          "title": "Aussie jobs most vulnerable to AI outlined in govt study",
+          "url": "https://ia.acs.org.au/article/2025/aussie-jobs-most-vulnerable-to-ai-outlined-in-govt-study.html",
+          "date": "2025",
+          "whatItMeasured": "ACS reporting on JSA study: programming among more-exposed; entry-level tech intake may restructure first."
+        }
+      ],
+      "scope": "Australian occupations; entry-level coding compression specifically, not the whole residual group.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (JSA + ACS); measures AU occupations; 2025.",
+      "id": "15-1199-empi73"
+    },
+    {
+      "text": "A longitudinal mixed-methods case study of GitHub Copilot at NAV IT (26,317 commits across 703 repos, 25 Copilot users vs 14 non-users over two years; arxiv 2509.20353) finds Copilot users spend less time typing and more time reviewing AI suggestions, but the tool lacks domain-specific context for large systems, so humans still do the problem-solving collaboration.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "Developer Productivity With and Without GitHub Copilot: A Longitudinal Mixed-Methods Case Study",
+          "url": "https://arxiv.org/abs/2509.20353",
+          "date": "2025",
+          "whatItMeasured": "NAV IT longitudinal study: 26,317 commits, 703 repos, 25 Copilot users vs 14 non-users, 2 years."
+        }
+      ],
+      "scope": "Single large public-sector org; Copilot users; not AU-specific but directly relevant to coding occupations.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (peer-reviewed arXiv); measures one org's developers; 2025.",
+      "id": "15-1199-empi74"
+    },
+    {
+      "text": "'AI-assisted Programming May Decrease the Productivity of Experienced Developers' (arxiv 2510.10165) finds productivity gains are driven mainly by less-experienced developers, while experienced developers review 6.5% more code and show a 19% drop in their own original-code productivity, with more rework and technical debt.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "AI-assisted Programming May Decrease the Productivity of Experienced Developers by Increasing Maintenance Burden",
+          "url": "https://arxiv.org/abs/2510.10165",
+          "date": "2025",
+          "whatItMeasured": "OSS developer-activity analysis post-Copilot: gains skew to peripheral devs; core devs review more, produce less."
+        }
+      ],
+      "scope": "Open-source developer activity; signals a junior/senior split in AI-coding impact.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (arXiv); measures OSS developers; 2025.",
+      "id": "15-1199-empi75"
+    },
+    {
+      "text": "Trade-press analysis of Stanford Digital Economy Lab data (seldo.com, 2026) reports software developers aged 22-25 down ~20% from their 2022 peak; the BLS 'computer programmers' category fell 16% in a year, web developers -11%, QA testers -6.5%, while data scientists +12% and systems analysts +4.4% - AI ate code-to-spec work, not judgment work.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "seldo.com",
+          "title": "AI has torched the market for junior programmers",
+          "url": "https://seldo.com/posts/ai-has-torched-the-market-for-junior-programmers/",
+          "date": "2026",
+          "whatItMeasured": "Trade-press analysis of Stanford Digital Economy Lab + BLS data on junior vs senior developer employment."
+        }
+      ],
+      "scope": "US BLS + Stanford data; applies to the coding subset of this residual occupation; junior compression, senior growth.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (seldo.com); measures US developers; 2026. US-scoped.",
+      "id": "15-1199-empi76"
     }
   ],
   "jobAds": {
@@ -1537,7 +1649,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-08-30",
+        "note": "OpenAthens session expired 2026-08-30; Factiva L3 trade-press lane unavailable. Gap logged, not evidence of quiet. Re-run factiva_reauth.py then factiva_backfill.py."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1587,5 +1707,8 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva trade-press lane unavailable this run (OpenAthens auth expired 2026-08-30; logged to factiva_backlog.json). L3 covered by web trade press / professional-body publications instead. L1/L2 sources are Australian regulatory/scholarly (ACS, Actuaries Institute, AMSI, JSA Gen AI Capacity Study) plus international scholarly (arXiv/Nature) scoped as such. L4 demand covered by Adzuna AU (time-series) + LinkedIn (live postings); last30days --hiring-signals not run separately. L5 practitioner corpus (last30days) was already present from a prior run and was verified, not re-swept. Confidence now rests on >=2 L1/L2 claims plus the declared L5 corpus."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

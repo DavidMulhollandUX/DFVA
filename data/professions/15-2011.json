@@ -11,11 +11,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-30",
+    "to": "2026-08-30"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-03-01",
   "programs": [
     "mc-mgmtfin"
   ],
@@ -1468,6 +1468,125 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Actuaries in Australia are regulated by the Actuaries Institute: Professional Standard 1 requires 100 CPD points per year (revised PS1 effective 1 Oct 2026) and the Institute's Code of Conduct; non-compliance is Actionable Conduct under the Disciplinary Scheme. In superannuation and insurance, actuaries are also overseen by APRA. The Institute's Professionalism Committee has refreshed Guidance to reference LLMs explicitly.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Actuaries Institute",
+          "title": "CPD Compliance",
+          "url": "https://actuaries.asn.au/professional-standards-and-regulation/cpd-compliance",
+          "date": "2026",
+          "whatItMeasured": "Actuaries Institute Professional Standard 1 (CPD, 100 pts/yr; revised PS1 effective 1 Oct 2026) + Code of Conduct."
+        },
+        {
+          "publisher": "Actuaries Institute",
+          "title": "Is AI Making it Easier or Harder to be a Professional?",
+          "url": "https://actuaries.asn.au/research-analysis/is-ai-making-it-easier-or-harder-to-be-a-professional",
+          "date": "2025",
+          "whatItMeasured": "Professionalism Committee refreshed Guidance referencing LLMs; responsibility for AI outputs unchanged."
+        }
+      ],
+      "scope": "Members of the Actuaries Institute; APRA overlay for regulated entities. Population = Australian actuaries.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (actuaries.asn.au); measures this population; in force (PS1 from 1 Oct 2026).",
+      "id": "15-2011-empi70"
+    },
+    {
+      "text": "JSA's Gen AI Capacity Study (Aug 2025) places professionals and managers (ANZSCO skill levels 1-2) in the high-augmentation, low-automation band; actuaries are skill-level-1 professionals, so the study implies augmentation of actuarial judgement rather than replacement.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level ANZSCO exposure (augmentability/automatability) across 358 AU occupations; 79% of workers low/very low automation risk; augmentation > automation."
+        }
+      ],
+      "scope": "Australian occupations; model-derived; actuaries inferred as skill-level-1 professionals.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (JSA); measures AU occupations; 2025.",
+      "id": "15-2011-empi71"
+    },
+    {
+      "text": "'Advanced Applications of Generative AI in Actuarial Science' (IAA AITF, arxiv 2506.18942) presents four implemented case studies - LLM feature derivation for claims-cost prediction, automated market comparisons from annual reports, image-based car-damage classification, and retrieval-augmented generation - concluding GenAI augments actuarial work while carrying dual-use risk.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "Advanced Applications of Generative AI in Actuarial Science: Case Studies Beyond ChatGPT",
+          "url": "https://arxiv.org/abs/2506.18942",
+          "date": "2025",
+          "whatItMeasured": "IAA AITF: four implemented actuarial GenAI case studies across the insurance value chain."
+        }
+      ],
+      "scope": "Implemented case studies; illustrates augmentation, not displacement, of actuarial tasks.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (arXiv); measures actuarial GenAI use cases; 2025.",
+      "id": "15-2011-empi72"
+    },
+    {
+      "text": "The Actuaries Institute is embedding GenAI into the Actuary Program from Semester 2 2026 via a new subject ('PCAI'): every General Member in the qualification pathway develops practical GenAI skills, covering the Code of Conduct's application to GenAI, bias evaluation, and responsible use.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Actuaries Institute",
+          "title": "Generative AI comes to the actuary program: Introducing PCAI",
+          "url": "https://actuaries.asn.au/research-analysis/generative-ai-comes-to-the-actuary-program-introducing-pcai",
+          "date": "2026",
+          "whatItMeasured": "Actuaries Institute education policy: GenAI embedded into Actuary Program from Sem 2 2026."
+        }
+      ],
+      "scope": "Actuaries Institute education policy; signals profession-wide AI adoption and governance focus.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (actuaries.asn.au); measures Institute policy; 2026.",
+      "id": "15-2011-empi73"
+    },
+    {
+      "text": "The Actuaries Institute's Data Science and AI practice area frames actuaries as 'strategic visionaries' in an AI-augmented world, and its professionalism guidance states the use of AI 'does not absolve you of responsibility for the outputs and advice' - governance, not replacement, is the Institute's line.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Actuaries Institute",
+          "title": "Actuaries in Data Science and AI",
+          "url": "https://actuaries.asn.au/practice-areas/data-science-ai",
+          "date": "2026",
+          "whatItMeasured": "Actuaries Institute Data Science and AI practice area: profession positioning in an AI-augmented world."
+        },
+        {
+          "publisher": "Institute and Faculty of Actuaries (UK)",
+          "title": "Did I write this blog post? Authorship, accountability, and AI",
+          "url": "https://blog.actuaries.org.uk/2026/7/did-i-write-this-blog-post-authorship-accountability-and-ai-in-the-actuarial-profession",
+          "date": "2026",
+          "whatItMeasured": "IFoA blog: AI use does not absolve actuaries of responsibility for outputs (Principle 3 Impartiality)."
+        }
+      ],
+      "scope": "Professional-body positioning; international (IFoA) commentary included for governance parallel.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (actuaries.asn.au + IFoA blog); measures profession guidance; 2026.",
+      "id": "15-2011-empi74"
     }
   ],
   "jobAds": {
@@ -1497,7 +1616,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-08-30",
+        "note": "OpenAthens session expired 2026-08-30; Factiva L3 trade-press lane unavailable. Gap logged, not evidence of quiet. Re-run factiva_reauth.py then factiva_backfill.py."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1535,5 +1662,8 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva trade-press lane unavailable this run (OpenAthens auth expired 2026-08-30; logged to factiva_backlog.json). L3 covered by web trade press / professional-body publications instead. L1/L2 sources are Australian regulatory/scholarly (ACS, Actuaries Institute, AMSI, JSA Gen AI Capacity Study) plus international scholarly (arXiv/Nature) scoped as such. L4 demand covered by Adzuna AU (time-series) + LinkedIn (live postings); last30days --hiring-signals not run separately. L5 practitioner corpus (last30days) was already present from a prior run and was verified, not re-swept. Confidence now rests on >=2 L1/L2 claims plus the declared L5 corpus."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

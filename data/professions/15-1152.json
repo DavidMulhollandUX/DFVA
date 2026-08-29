@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-30",
+    "to": "2026-08-30"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-03-01",
   "programs": [],
   "claims": [
     {
@@ -1356,6 +1356,111 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Computer Network Support Specialists are not statutorily licensed, but the Australian Computer Society (ACS) is the peak professional body: its Certified Professional / Certified Technologist certifications sit under the ACS Professional Standards Scheme and require adherence to the ACS Code of Professional Conduct and Continuing Professional Development (30 hrs/yr CP, 20 hrs/yr CT). Where the role touches cyber security or personal data, employers are bound by the ASD Essential Eight / Information Security Manual and the Privacy Act 1988.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Computer Society",
+          "title": "Get ACS Certified",
+          "url": "https://acs.org.au/professionalrecognition/certification-landing-page.html",
+          "date": "2026",
+          "whatItMeasured": "ACS certification under Professional Standards Scheme; Code of Professional Conduct + CPD requirements."
+        }
+      ],
+      "scope": "Voluntary professional certification for ICT; no statutory licence for network support. Cyber/Privacy obligations bind employers, not the individual licence. Population = AU ICT support professionals.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (acs.org.au); measures this population (ICT professionals); in force.",
+      "id": "15-1152-empi65"
+    },
+    {
+      "text": "Jobs and Skills Australia's Gen AI Capacity Study (Aug 2025) scores 358 ANZSCO occupations on augmentability and automatability. It finds physical-presence and on-site judgement roles (trades, support) at the low end of automation risk, while routine clerical/admin and 'programming' sit among the more-exposed. Network support is a hybrid: monitoring/documentation are automatable, but on-site hardware and legacy troubleshooting need humans.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level ANZSCO exposure (augmentability/automatability) across 358 AU occupations; 79% of workers low/very low automation risk; augmentation > automation."
+        }
+      ],
+      "scope": "Australian occupations nationally; model-derived task-level estimates, not employment forecasts.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (JSA gov); measures AU occupations; published Aug 2025.",
+      "id": "15-1152-empi66"
+    },
+    {
+      "text": "ACS Australia's Digital Pulse 2025 (Deloitte Access Economics, ABS data) reports the tech workforce at ~967,000 (down 0.3% in 2025), contributing $142b to the economy, with Australia needing ~259,000 more tech workers over the decade; AI, cybersecurity and data analytics are the top skills gaps.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "ACS / Information Age",
+          "title": "Australia's tech workforce shrinks for first time",
+          "url": "https://ia.acs.org.au/article/2026/australia-s-tech-workforce-shrinks-for-first-time.html",
+          "date": "2026",
+          "whatItMeasured": "ACS Digital Pulse 2025 (Deloitte Access Economics, ABS data): tech workforce size, contribution, skills gaps."
+        }
+      ],
+      "scope": "Australian tech workforce broadly; network support is a subset of the 1m+ tech workers.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (ia.acs.org.au / ACS); measures AU tech workforce; 2025-26.",
+      "id": "15-1152-empi67"
+    },
+    {
+      "text": "Third-party AI-risk estimators rate Computer Network Support Specialists at ~62/100 displacement risk, citing AIOps platforms (Dynatrace Davis AI, Datadog Watchdog) moving from alerting to closed-loop remediation and AI-powered ITSM (ServiceNow Now Assist, Freshservice Freddy AI) absorbing Tier-1/2 tickets.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "AI Job Checker",
+          "title": "Will AI Replace Network Support Specialists? 62/100 Risk",
+          "url": "https://aijobchecker.com/jobs/computer-network-support-specialists",
+          "date": "2025",
+          "whatItMeasured": "Third-party 0-100 AI displacement-risk estimate for the occupation (non-peer-reviewed)."
+        }
+      ],
+      "scope": "Third-party estimator, not a primary study; directional only. AI-exposed but on-site/hardware work remains human.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (site); measures estimate not study; 2025. Low weight as evidence.",
+      "id": "15-1152-empi68"
+    },
+    {
+      "text": "ACS Information Age coverage of the JSA study notes 'programming' among occupations with repeated automation exposure, and that the technology sector 'may be among the first to restructure its entry-level intake' — relevant to the coding-adjacent part of network-support work but not its on-site physical tasks.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "ACS / Information Age",
+          "title": "Aussie jobs most vulnerable to AI outlined in govt study",
+          "url": "https://ia.acs.org.au/article/2025/aussie-jobs-most-vulnerable-to-ai-outlined-in-govt-study.html",
+          "date": "2025",
+          "whatItMeasured": "ACS reporting on JSA Gen AI Capacity Study; programming among more-exposed roles."
+        }
+      ],
+      "scope": "Trade-press report of a government study; scope is the study's occupation-level findings, not this SOC alone.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (ia.acs.org.au); measures JSA findings; 2025.",
+      "id": "15-1152-empi69"
     }
   ],
   "jobAds": {
@@ -1385,7 +1490,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-08-30",
+        "note": "OpenAthens session expired 2026-08-30; Factiva L3 trade-press lane unavailable. Gap logged, not evidence of quiet. Re-run factiva_reauth.py then factiva_backfill.py."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1422,5 +1535,8 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva trade-press lane unavailable this run (OpenAthens auth expired 2026-08-30; logged to factiva_backlog.json). L3 covered by web trade press / professional-body publications instead. L1/L2 sources are Australian regulatory/scholarly (ACS, Actuaries Institute, AMSI, JSA Gen AI Capacity Study) plus international scholarly (arXiv/Nature) scoped as such. L4 demand covered by Adzuna AU (time-series) + LinkedIn (live postings); last30days --hiring-signals not run separately. L5 practitioner corpus (last30days) was already present from a prior run and was verified, not re-swept. Confidence now rests on >=2 L1/L2 claims plus the declared L5 corpus."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

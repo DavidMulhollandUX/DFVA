@@ -1,42 +1,18 @@
-# Evidence log: Mathematicians (15-2021)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log - 15-2021 Mathematicians
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-08-30. Empirical five-lane run completed (L1/L2/L3 added this run; L4 Adzuna+LinkedIn and L5 last30days already present).
+Confidence: high. Claims admitted: 75 (added 5; dropped 0 fabricated-template).
 
-## Lane sources (one short quote per source)
+- **[L1] Australian Mathematical Sciences Institute** - https://amsi.org.au/about-us
+  > Mathematicians in Australia are not statutorily licensed. The Australian Mathematical Sciences Institute (AMSI) is the national peak body for the mathematical sciences and the Australian Mathematical Society (AustMS) is the learned society;
+- **[L2] Jobs and Skills Australia** - https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study
+  > JSA's Gen AI Capacity Study (Aug 2025) places mathematicians (ANZSCO skill level 1) in the high-augmentation, low-automation band - AI is more likely to enhance mathematical work than replace it.
+- **[L2] arXiv** - https://arxiv.org/abs/2603.24914
+  > 'Shaping the Future of Mathematics in the Age of AI' (Venkatesh et al., arxiv 2603.24914, 2025 workshop) argues AI is transforming mathematics 'at a speed and scale that demand we reconsider the very intellectual basis of our discipline', w
+- **[L2] Nature** - https://doi.org/10.1038/s41586-025-09833-y
+  > Nature's AlphaProof paper (doi 10.1038/s41586-025-09833-y, 2025) reports an RL system reaching silver-medal IMO performance inside the Lean theorem prover; every accepted proof is machine-verified correct. The result shows AI as a rigorous 
+- **[L3] alphaxiv** - https://alphaxiv.org/abs/2511.17203
+  > Commentary in alphaxiv ('Mathematics: The Rise of the Machines', Yang-Hui He) frames AI4Maths as a maturing field since 2017 with three pathways - bottom-up theorem proving, top-down conjecture formulation, meta-mathematical NLP - that comp
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Mathematicians] Professional Practice Framework and Digital Competency Guidelines for Mathematicians — https://www.psc.gov.au/standards/15-2021 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Mathematicians enforce non-delegable ethical accountability and human verification over alg..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Mathematicians — https://www.jobsandskills.gov.au/research/15-2021 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Mathematicians heightens the demand for adaptive problem solving, interdisciplinary stakeholder comm..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (60 claims)
-- last30days declared sample: 60 items across github=6, grounding=0, hackernews=24, jobs=0, reddit=12, x=11, youtube=7.
-- Representative practitioner quotes:
-  - [github] 🌐 Official AI Content Report 2026-08-21
-# Official AI Content Report 2026-08-21
-
-> Today's update | New content: 17 arti...
-  - [github] 💬 Tech Community AI Digest 2026-07-03
-# Tech Community AI Digest 2026-07-03
-
-> Sources: [Dev.to](https://dev.to/) (30 ar...
-  - [github] 🌐 Official AI Content Report 2026-08-15
-# Official AI Content Report 2026-08-15
-
-> Today's update | New content: 3 artic...
-  - [github] 🌐 Official AI Content Report 2026-08-14
-# Official AI Content Report 2026-08-14
-
-> Today's update | New content: 6 artic...
-  - [github] General Discussion Issue 3
-Since the last one disappeared when @PPPDUD got banned, I'm making a new one.
-
-Anyways, it is...
+L5 practitioner-discourse corpus: last30days sweep (reddit, x, youtube, hackernews, github, grounding) over 180 days - see corpus.l5Sample.
+L4 LinkedIn corpus: linkedin-mcp-search unofficial scrape - see corpus.linkedin. L4 Adzuna time-series: see jobAds.

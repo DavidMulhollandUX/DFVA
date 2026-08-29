@@ -6,11 +6,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-30",
+    "to": "2026-08-30"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-03-01",
   "programs": [],
   "claims": [
     {
@@ -1482,6 +1482,111 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Mathematicians in Australia are not statutorily licensed. The Australian Mathematical Sciences Institute (AMSI) is the national peak body for the mathematical sciences and the Australian Mathematical Society (AustMS) is the learned society; professional standards are academic, not regulatory.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Mathematical Sciences Institute",
+          "title": "About AMSI",
+          "url": "https://amsi.org.au/about-us",
+          "date": "2026",
+          "whatItMeasured": "AMSI national peak body for mathematical sciences; membership of 40+ universities + gov agencies."
+        }
+      ],
+      "scope": "Peak body / learned society; no licensing regime. Population = AU mathematical scientists.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (amsi.org.au); measures the discipline's peak body; in force.",
+      "id": "15-2021-empi71"
+    },
+    {
+      "text": "JSA's Gen AI Capacity Study (Aug 2025) places mathematicians (ANZSCO skill level 1) in the high-augmentation, low-automation band - AI is more likely to enhance mathematical work than replace it.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Gen AI Capacity Study: task-level ANZSCO exposure (augmentability/automatability) across 358 AU occupations; 79% of workers low/very low automation risk; augmentation > automation."
+        }
+      ],
+      "scope": "Australian occupations; model-derived; mathematicians inferred as skill-level-1 professionals.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (JSA); measures AU occupations; 2025.",
+      "id": "15-2021-empi72"
+    },
+    {
+      "text": "'Shaping the Future of Mathematics in the Age of AI' (Venkatesh et al., arxiv 2603.24914, 2025 workshop) argues AI is transforming mathematics 'at a speed and scale that demand we reconsider the very intellectual basis of our discipline', with formal-proof assistants (Lean, Mathlib) changing publication standards - but human problem choice and rigour remain central.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "Shaping the Future of Mathematics in the Age of AI",
+          "url": "https://arxiv.org/abs/2603.24914",
+          "date": "2025",
+          "whatItMeasured": "Workshop paper (Venkatesh, Jamnik, Ochigame, Taelman): AI transforming mathematical research + verification."
+        }
+      ],
+      "scope": "Research-mathematics discipline commentary; signals augmentation of discovery/verification, not replacement.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (arXiv); measures the discipline; 2025.",
+      "id": "15-2021-empi73"
+    },
+    {
+      "text": "Nature's AlphaProof paper (doi 10.1038/s41586-025-09833-y, 2025) reports an RL system reaching silver-medal IMO performance inside the Lean theorem prover; every accepted proof is machine-verified correct. The result shows AI as a rigorous proof assistant, leaving research mathematicians' role - problem selection and judgement - intact.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Nature",
+          "title": "Olympiad-level formal mathematical reasoning with reinforcement learning",
+          "url": "https://doi.org/10.1038/s41586-025-09833-y",
+          "date": "2025",
+          "whatItMeasured": "AlphaProof (DeepMind): RL in Lean; silver-medal IMO 2024; machine-verified proofs."
+        }
+      ],
+      "scope": "Competition mathematics; illustrates AI as proof assistant; research mathematicians' judgement not automated.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (Nature); measures AI math capability; 2025.",
+      "id": "15-2021-empi74"
+    },
+    {
+      "text": "Commentary in alphaxiv ('Mathematics: The Rise of the Machines', Yang-Hui He) frames AI4Maths as a maturing field since 2017 with three pathways - bottom-up theorem proving, top-down conjecture formulation, meta-mathematical NLP - that complements, rather than replaces, rigorous axiomatic mathematics.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "alphaxiv",
+          "title": "Mathematics: the Rise of the Machines",
+          "url": "https://alphaxiv.org/abs/2511.17203",
+          "date": "2025",
+          "whatItMeasured": "Commentary/analysis: AI as complement to pure mathematics across three pathways."
+        }
+      ],
+      "scope": "Commentary/analysis piece; trade-press-adjacent for an academic discipline with little trade coverage.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3-lens: source real (alphaxiv); measures discipline commentary; 2025.",
+      "id": "15-2021-empi75"
     }
   ],
   "jobAds": {
@@ -1511,7 +1616,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired",
+        "date": "2026-08-30",
+        "note": "OpenAthens session expired 2026-08-30; Factiva L3 trade-press lane unavailable. Gap logged, not evidence of quiet. Re-run factiva_reauth.py then factiva_backfill.py."
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1549,5 +1662,8 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 Factiva trade-press lane unavailable this run (OpenAthens auth expired 2026-08-30; logged to factiva_backlog.json). L3 covered by web trade press / professional-body publications instead. L1/L2 sources are Australian regulatory/scholarly (ACS, Actuaries Institute, AMSI, JSA Gen AI Capacity Study) plus international scholarly (arXiv/Nature) scoped as such. L4 demand covered by Adzuna AU (time-series) + LinkedIn (live postings); last30days --hiring-signals not run separately. L5 practitioner corpus (last30days) was already present from a prior run and was verified, not re-swept. Confidence now rests on >=2 L1/L2 claims plus the declared L5 corpus."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

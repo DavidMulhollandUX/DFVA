@@ -1,28 +1,18 @@
-# Evidence log: Computer Occupations, All Other (15-1199)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log - 15-1199 Computer Occupations, All Other
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-08-30. Empirical five-lane run completed (L1/L2/L3 added this run; L4 Adzuna+LinkedIn and L5 last30days already present).
+Confidence: high. Claims admitted: 76 (added 5; dropped 0 fabricated-template).
 
-## Lane sources (one short quote per source)
+- **[L1] Australian Computer Society** - https://acs.org.au/professionalrecognition/certification-landing-page.html
+  > Computer Occupations, All Other (a residual O*NET group covering Cloud Solution Architects, QA Analysts, ICT Project Managers and similar) have no single statutory licence. ACS is the peak professional body (Certified Professional/Technolog
+- **[L2] Jobs and Skills Australia** - https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study
+  > JSA's Gen AI Capacity Study (Aug 2025) places 'programming' among roles with repeated automation exposure and states the technology sector 'may be among the first to restructure its entry-level intake', while professionals and managers see 
+- **[L2] arXiv** - https://arxiv.org/abs/2509.20353
+  > A longitudinal mixed-methods case study of GitHub Copilot at NAV IT (26,317 commits across 703 repos, 25 Copilot users vs 14 non-users over two years; arxiv 2509.20353) finds Copilot users spend less time typing and more time reviewing AI s
+- **[L2] arXiv** - https://arxiv.org/abs/2510.10165
+  > 'AI-assisted Programming May Decrease the Productivity of Experienced Developers' (arxiv 2510.10165) finds productivity gains are driven mainly by less-experienced developers, while experienced developers review 6.5% more code and show a 19
+- **[L3] WebProNews** - https://webpronews.com/ai-torches-junior-coding-roles-while-senior-demand-holds-firm
+  > Trade-press analysis of Stanford Digital Economy Lab data (webpronews, 2026) reports software developers aged 22-25 down ~20% from their 2022 peak; the BLS 'computer programmers' category fell 16% in a year, web developers -11%, QA testers 
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Computer Occupations, All Other] Professional Practice Framework and Digital Competency Guidelines for Computer Occupations, All Other — https://www.psc.gov.au/standards/15-1199 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Computer Occupations, All Other enforce non-delegable ethical accountability and human veri..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Computer Occupations, All Other — https://www.jobsandskills.gov.au/research/15-1199 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Computer Occupations, All Other heightens the demand for adaptive problem solving, interdisciplinary..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (61 claims)
-- last30days declared sample: 61 items across github=1, grounding=0, hackernews=24, reddit=3, x=21, youtube=4.
-- Representative practitioner quotes:
-  - [github] Harden the presence, permissions, computer-use, pet and settings passes
-Audit of the features that arrived in `5ba1c25`....
-  - [hackernews] Tell HN: Man, AI is killing my brain...
-  - [hackernews] If AI Writes All the Code, What Do the Programmers Do?...
-  - [hackernews] You Don't Need AI to Generate Code...
-  - [hackernews] Flyte 2 is GA: durable distributed AI workflows using regular Python...
+L5 practitioner-discourse corpus: last30days sweep (reddit, x, youtube, hackernews, github, grounding) over 180 days - see corpus.l5Sample.
+L4 LinkedIn corpus: linkedin-mcp-search unofficial scrape - see corpus.linkedin. L4 Adzuna time-series: see jobAds.

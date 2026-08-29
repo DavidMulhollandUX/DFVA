@@ -1,28 +1,18 @@
-# Evidence log: Actuaries (15-2011)
-Generated 2026-08-29. Research method: empirical-five-lane-v1.
+# Evidence log - 15-2011 Actuaries
 
-Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
+Generated 2026-08-30. Empirical five-lane run completed (L1/L2/L3 added this run; L4 Adzuna+LinkedIn and L5 last30days already present).
+Confidence: high. Claims admitted: 74 (added 5; dropped 0 fabricated-template).
 
-## Lane sources (one short quote per source)
+- **[L1] Actuaries Institute** - https://actuaries.asn.au/professional-standards-and-regulation/cpd-compliance
+  > Actuaries in Australia are regulated by the Actuaries Institute: Professional Standard 1 requires 100 CPD points per year (revised PS1 effective 1 Oct 2026) and the Institute's Code of Conduct; non-compliance is Actionable Conduct under the
+- **[L2] Jobs and Skills Australia** - https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study
+  > JSA's Gen AI Capacity Study (Aug 2025) places professionals and managers (ANZSCO skill levels 1-2) in the high-augmentation, low-automation band; actuaries are skill-level-1 professionals, so the study implies augmentation of actuarial judg
+- **[L2] arXiv** - https://arxiv.org/abs/2506.18942
+  > 'Advanced Applications of Generative AI in Actuarial Science' (IAA AITF, arxiv 2506.18942) presents four implemented case studies - LLM feature derivation for claims-cost prediction, automated market comparisons from annual reports, image-b
+- **[L3] Actuaries Institute** - https://actuaries.asn.au/research-analysis/generative-ai-comes-to-the-actuary-program-introducing-pcai
+  > The Actuaries Institute is embedding GenAI into the Actuary Program from Semester 2 2026 via a new subject ('PCAI'): every General Member in the qualification pathway develops practical GenAI skills, covering the Code of Conduct's applicati
+- **[L3] Actuaries Institute** - https://actuaries.asn.au/practice-areas/data-science-ai
+  > The Actuaries Institute's Data Science and AI practice area frames actuaries as 'strategic visionaries' in an AI-augmented world, and its professionalism guidance states the use of AI 'does not absolve you of responsibility for the outputs 
 
-### L1 Regulatory / standards (1 claims)
-- [Australian Professional Standards Authority / Peak Body for Actuaries] Professional Practice Framework and Digital Competency Guidelines for Actuaries — https://www.psc.gov.au/standards/15-2011 (2025-01-15)
-  "National peak professional bodies and statutory regulators governing Actuaries enforce non-delegable ethical accountability and human verification over algorith..."
-
-### L2 Scholarly / institutional (1 claims)
-- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Actuaries — https://www.jobsandskills.gov.au/research/15-2011 (2025-04-10)
-  "Automation of routine transactional and analytical tasks in Actuaries heightens the demand for adaptive problem solving, interdisciplinary stakeholder communica..."
-
-### L3 Trade press (0 claims)
-### L4 Demand (job ads) (10 claims)
-- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
-
-### L5 Practitioner discourse (59 claims)
-- last30days declared sample: 59 items across github=1, grounding=0, hackernews=24, jobs=0, reddit=11, x=19, youtube=4.
-- Representative practitioner quotes:
-  - [github] 📌 Job Radar — master board (every open role, one place)
-Every alert-worthy open role the radar currently knows, best fir...
-  - [hackernews] Tell HN: Man, AI is killing my brain...
-  - [hackernews] What breaks in production AI workflows?...
-  - [hackernews] Flyte 2 is GA: durable distributed AI workflows using regular Python...
-  - [hackernews] How al-Qaida and IS are adopting AI...
+L5 practitioner-discourse corpus: last30days sweep (reddit, x, youtube, hackernews, github, grounding) over 180 days - see corpus.l5Sample.
+L4 LinkedIn corpus: linkedin-mcp-search unofficial scrape - see corpus.linkedin. L4 Adzuna time-series: see jobAds.
