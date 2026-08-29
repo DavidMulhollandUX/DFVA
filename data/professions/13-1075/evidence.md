@@ -1,29 +1,41 @@
-# Deep Research Evidence Log: Labor Relations Specialists (13-1075)
+# Evidence log: Labor Relations Specialists (13-1075)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `13-1075-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Labor Relations Specialists] Professional Practice Framework and Digital Competency Guidelines for Labor Relations Specialists — https://www.psc.gov.au/standards/13-1075 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Labor Relations Specialists enforce non-delegable ethical accountability and human verifica..."
 
-> "National peak professional bodies and statutory regulators governing Labor Relations Specialists enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Labor Relations Specialists — https://www.jobsandskills.gov.au/research/13-1075 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Labor Relations Specialists heightens the demand for adaptive problem solving, interdisciplinary sta..."
 
-- **Scope:** Australian practitioners in Labor Relations Specialists across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Labor Relations Specialists** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Labor Relations Specialists](https://www.psc.gov.au/standards/13-1075) — *What it measured:* National competency and ethics framework for Labor Relations Specialists
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (55 claims)
+- last30days declared sample: 55 items across github=4, grounding=0, hackernews=24, reddit=9, x=15, youtube=3.
+- Representative practitioner quotes:
+  - [github] feat(templates): promote co-hr consulting variant - 12-agent HR/labor roster
+## Why
+`Projects/co-hr` — a Korean HR & lab...
+  - [github] Daily Theme Leadership News Intel - 2026-08-22
+## Executive Summary
 
-### Claim `13-1075-02` (L2 · scholarly)
+The last 24 hours produced one clean ticker-level l...
+  - [github] HN Top Stories Digest - June 23, 2026
+## HN Top Stories Digest — June 23, 2026
 
-> "Automation of routine transactional and analytical tasks in Labor Relations Specialists heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
+Scheduled daily `hn` run. Top 30 HN subm...
+  - [github] Hh
+```Python
 
-- **Scope:** Entry-level and senior Labor Relations Specialists roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Labor Relations Specialists](https://www.jobsandskills.gov.au/research/13-1075) — *What it measured:* Labour market analysis of automation resilience across Labor Relations Specialists in Australia
-
----
+CUE_CARDS = [
+    {
+        "num": 51,
+        "topic": "Describe a good habit your friend has that you wa...
+  - [hackernews] Tell HN: Man, AI is killing my brain...
