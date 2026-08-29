@@ -1,0 +1,129 @@
+{
+  "code": "mc-enrslaw",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Anchor L1: 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it.' The graduate attribute 'Capacity to value and participate in teamwork' claims teamwork is fostered by the teaching format, but no sampled subject's assessment table (16 subjects reviewed) lists an assessed group project, client/stakeholder work, or human-plus-tool coordination task. Program has no documented core unit at all (see G1), so no unit can satisfy L2's 'core unit assesses collaborative practice'.",
+      "evidenceLines": [
+        "Capacity to value and participate in teamwork",
+        "Small class sizes and an intensive teaching format are valuable in encouraging group dynamics and teamwork."
+      ]
+    },
+    "C2": {
+      "score": 0,
+      "rationale": "Anchor L0: 'No assessment requires students to appraise the quality of work.' No subject shows peer review, structured critique, or portfolio-against-standards. Indigenous Rights in Global Context assesses a 'Reflective / Research Essay' (60%) — ambiguous whether this is self-assessment/appraisal of work quality (supporting L1) or reflection on the subject's doctrinal content; the extract gives no criteria description either way. Per the ambiguity rule, resolved to the lower level, L0.",
+      "evidenceLines": [
+        "Reflective / Research Essay",
+        "Ability to investigate, evaluate, synthesise and apply existing knowledge in the relevant area(s) with creativity and initiative"
+      ]
+    },
+    "C3": {
+      "score": 0,
+      "rationale": "Anchor L0: 'No digital/AI content in any core unit or program-level outcome.' None of the 16 sampled subject overviews or outcomes mention AI, generative AI, or digital tools as content. The only technology-related graduate attribute, 'Advanced working skills in the use of new technology', is explained purely as IT-infrastructure access, not curriculum content, and is not assessed. Ambiguous whether this counts toward L1's 'tool operation/training'; resolved to the lower level, L0, per R4.",
+      "evidenceLines": [
+        "Advanced working skills in the use of new technology",
+        "The most advanced IT infrastructure is available to Melbourne Law Masters students in the Law Library, the Moot Court Room, classroom settings and for private study."
+      ]
+    },
+    "C4": {
+      "score": 1,
+      "rationale": "Anchor L1: 'Transfer is claimed in outcomes (\"apply knowledge in new settings\") but not assessed.' Program outcomes state graduates will have 'the capacity to identify new laws and/or apply existing law in the rapidly evolving legal context' and will 'demonstrate autonomy, expert judgment, adaptability and responsibility' — outcome statements, not shown assessed against L2's novel/unfamiliar-problem criteria in any subject's assessment table. No self-scoped capstone is evidenced; the Minor Thesis option is explicitly excluded from this course's subject list.",
+      "evidenceLines": [
+        "the capacity to identify new laws and/or apply existing law in the rapidly evolving legal context for energy and resources",
+        "Apply their knowledge and skills to demonstrate autonomy, expert judgment, adaptability and responsibility as a practitioner and learner in the field of energy and resources law.",
+        "may choose the remaining 12.5 credit points from the subjects available in the Master of Laws (excluding Fundamentals of the Common Law and the Minor Thesis)."
+      ]
+    },
+    "C5": {
+      "score": 1,
+      "rationale": "Anchor L1: 'Introductory methods unit; literature-review assessment.' Graduate attributes claim 'Advanced competencies in legal research and analysis' and that graduates 'plan, develop and execute substantial research-based project(s)'. Multiple subjects assess a substantial 'Research paper on a topic approved by the subject coordinator' (e.g. Environmental Law 75%, Climate Change Law 80%, International Petroleum Transactions 90%), but this is doctrinal/literature-based, not shown to require methodology selection and data collection (L2), and in several subjects is only one of two elective options (exam OR paper), never a required, defended (viva) primary-evidence project (L3). Ambiguous whether extended doctrinal papers satisfy L2's inquiry-design construct; resolved to the lower level, L1.",
+      "evidenceLines": [
+        "Advanced competencies in legal research and analysis",
+        "All graduates of an LLM will have demonstrated, through subject assessment, the ability to use their research skills to plan, develop and execute substantial research-based project(s) and/or piece(s) of scholarship.",
+        "Research paper on a topic approved by the subject coordinator"
+      ]
+    },
+    "adaptiveness": 3,
+    "W1": {
+      "score": 1,
+      "rationale": "Anchor L1: 'Communication or professional conduct appears in learning outcomes or graduate attributes; core assessment adds presentation to peers/staff, but no professional genre and no audience beyond the teaching team.' The graduate attribute on communicating 'to a variety of audiences' is explained as 'Classroom discussion and formal presentations' (to peers/staff). Assessed presentations recur (International Environmental Law 'Class Presentation' 20%; Climate Change Law in-class presentation; Indigenous Rights presentation), all in-class. Climate Law, Economics and Finance assesses 'Questions of guest speakers' (15%) — ambiguous whether guest speakers count as an external audience judging against professional criteria; the extract does not show they judge the work. Resolved to the lower level, L1.",
+      "evidenceLines": [
+        "Capacity to effectively communicate complex legal ideas and theories, orally and in writing, to a variety of audiences",
+        "Classroom discussion and formal presentations provide an opportunity to hone oral communication skills, and written assessment tasks are graded in part on written communication skills.",
+        "Class Presentation",
+        "Questions of guest speakers"
+      ]
+    },
+    "W2": {
+      "score": 1,
+      "rationale": "Anchor L1: 'Contextualised or scenario-framed tasks appear (case studies, worked scenarios), but the artefact produced and the criteria applied remain academic.' Several subjects assess a 'Case study assignment' / 'Case study activity' (Environmental Law, International Sustainable Finance, Impact Investing), scenario-framed but with no indication in the assessment tables that the artefact is one a practitioner would produce, judged by practice criteria. International Sustainable Finance's overview describes 'term sheet negotiations, and pitches' (a genuine practitioner artefact/genre), but this appears in the subject description, not confirmed as the graded 'Case study activity' item. Ambiguous; resolved to the lower level, L1.",
+      "evidenceLines": [
+        "Case study assignment (presentations & written assignment)",
+        "Case study activity",
+        "through term sheet negotiations, and pitches the students jointly develop the skills to assess, prioritise, challenge and negotiate these transactions."
+      ]
+    },
+    "W3": {
+      "score": 1,
+      "rationale": "Anchor L1: 'Work-situated learning exists only as an elective, an optional internship...' LAWS70067 International Legal Internship offers a real, supervised, assessed placement (minimum five weeks full-time work, Organisation report hurdle + 100%-weighted Legal writing), but the subject page states it 'is not available for self-enrolment but is an application-based enrichment subject, which means prospective students must apply to enrol' — an elective from the subject-options list, not a core unit. L2 requires 'A core unit places students in a real workplace'; the program documents no compulsory core unit of any kind (see G1), so L2/L3 cannot be reached. Scores L1.",
+      "evidenceLines": [
+        "International Legal Internship allows students to gain credit for undertaking advanced legal research and analysis on an approved international internship of at least five weeks of full-time work in an approved international institution or organisation.",
+        "This subject is not available for self-enrolment but is an application-based enrichment subject, which means prospective students must apply to enrol.",
+        "Organisation report",
+        "Legal writing, the form of which is to be discussed with the subject coordinators and/or the student's supervisor –"
+      ]
+    },
+    "workplace": 3,
+    "gates": {
+      "G1": {
+        "result": "FAIL",
+        "rationale": "PASS requires 'an all-compulsory specialist core, an accredited sequence, or a staged prerequisite chain.' This course requires only Fundamentals of the Common Law (conditionally) plus 87.5 credit points 'from the prescribed list' — a ~30-subject elective menu with no documented compulsory sequence or prerequisite chain. The prescribed list mixes energy/resources-specific subjects with generic law subjects also offered across other Melbourne Law Masters streams (e.g. International Commercial Arbitration, Indigenous Rights in Global Context), so students can satisfy the credit requirement without a fixed, progressive, discipline-specific core. No accreditation is mentioned.",
+        "evidenceLines": [
+          "Students who do not have a law degree from a common law jurisdiction must complete Fundamentals of the Common Law, as well as 87.5 credit points from the prescribed list.",
+          "Students with a law degree from a common law jurisdiction must complete at least 87.5 credit points from the prescribed list and may choose the remaining 12.5 credit points from the subjects available in the Master of Laws (excluding Fundamentals of the Common Law and the Minor Thesis).",
+          "LAWS70121\tInternational Commercial Arbitration",
+          "LAWS90127\tIndigenous Rights in Global Context"
+        ]
+      },
+      "G2": {
+        "result": "FAIL",
+        "rationale": "PASS requires assessments with 'defended trade-off decisions, or simulations/capstones/live projects with real uncertainty and accountability.' Sampled subjects are assessed almost entirely by take-home examination, research paper, or class participation. Two subjects gesture toward simulation: Energy Resources in Emerging Markets states 'There will be daily simulated negotiation exercises,' but that subject is 'Not available in 2026' and its graded items are only participation (10%) and a take-home exam (90%), with no documented link to the exercises; International Sustainable Finance describes 'term sheet negotiations, and pitches' in its overview, not confirmed against the graded 'Case study activity' item. Insufficient to pass; resolved to FAIL.",
+        "evidenceLines": [
+          "There will be daily simulated negotiation exercises.",
+          "through term sheet negotiations, and pitches the students jointly develop the skills to assess, prioritise, challenge and negotiate these transactions.",
+          "Research paper on a topic approved by the subject coordinator",
+          "Take-home examination"
+        ]
+      }
+    },
+    "ambiguities": [
+      "C2: Indigenous Rights in Global Context assesses a 'Reflective / Research Essay' (60%) — unclear whether this is self-assessment/appraisal of work quality (C2) or reflection on doctrinal subject matter; resolved to the lower level (C2=0).",
+      "C3: The graduate attribute 'Advanced working skills in the use of new technology' — unclear whether IT-infrastructure access counts as digital-content curriculum for L1; resolved to the lower level (C3=0).",
+      "C4/C5: 'Research paper on a topic approved by the subject coordinator' recurs across many subjects — unclear whether this doctrinal/literature-based task satisfies C4's 'novel or unfamiliar problems' (L2) or C5's 'methodology selection and data collection' (L2); resolved to the lower level for both (C4=1, C5=1).",
+      "W1: 'Questions of guest speakers' (15%, Climate Law/Economics/Finance) and guest-expert exposure in International Sustainable Finance — unclear whether this is an assessed 'audience beyond the teaching team' judging against professional criteria (L2); resolved to the lower level (W1=1).",
+      "W2: International Sustainable Finance's 'term sheet negotiations, and pitches' (overview text) — unclear whether this is the graded 'Case study activity' item or unassessed pedagogy; same ambiguity applies to Impact Investing's 'Case study activity'; resolved to the lower level (W2=1).",
+      "G2: 'daily simulated negotiation exercises' (Energy Resources in Emerging Markets, not offered in 2026) and 'term sheet negotiations, and pitches' (International Sustainable Finance) gesture toward simulation with real uncertainty, but neither is clearly linked to graded assessment criteria in the extract; resolved to FAIL."
+    ],
+    "notScoreable": [],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-30"
+      },
+      "mechanical": true,
+      "date": "2026-08-29"
+    }
+  }
+}
