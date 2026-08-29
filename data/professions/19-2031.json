@@ -8,14 +8,287 @@
   "anzsco": "220000",
   "window": {
     "from": "2025-08-01",
-    "to": "2026-08-24"
+    "to": "2026-08-30"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-02-28",
   "programs": [],
   "claims": [
     {
-      "id": "l503",
+      "id": "19-2031-L1-01",
+      "text": "In Australia, chemical testing and calibration laboratories operate under NATA accreditation to ISO/IEC 17025:2017 - the global benchmark for laboratory competence. NATA (National Association of Testing Authorities) is Australia's national accreditation body; regulatory authorities and suppliers will not accept test or calibration results from a non-accredited laboratory, so accreditation is the de facto quality gate on defensible chemical data.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "NATA",
+          "title": "Testing & Calibration (ISO / IEC 17025) Accreditation",
+          "url": "https://nata.com.au/accreditation/laboratory-accreditation-iso-iec-17025",
+          "date": "",
+          "whatItMeasured": "NATA ISO/IEC 17025:2017 accreditation scope; NATA as Australia's national accreditation body for testing labs."
+        }
+      ],
+      "scope": "Chemical testing/calibration labs in AU; binds producers of defensible accredited results. Does not cover R&D, formulation or academic research chemists who do not issue accredited results.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "NATA (official national accreditation body) page; population = AU testing labs; standard in force (17025:2017)."
+    },
+    {
+      "id": "19-2031-L2-01",
+      "text": "Jobs and Skills Australia's Generative AI Capacity Study (August 2025) scores 358 ANZSCO occupations on augmentability and automatability using an ILO/Felten-derived task-level framework. It finds that augmentation outweighs automation across the workforce: 79% of Australian workers face low or very low automation risk, while routine clerical and administrative roles carry the highest automation exposure. The study reports professionals and managers (ANZSCO skill levels 1-2) see the highest augmentation potential.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Australia's AI Transition: Jobs, Skills and the Future of Work (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Gen AI Capacity Study, task-level ANZSCO v1.3 exposure (augmentability/automatability), 358 occupations, Aug 2025."
+        }
+      ],
+      "scope": "Australian occupations nationally; model-derived task-level estimates, not employment forecasts.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Primary Australian government source; population = AU occupations; published Aug 2025."
+    },
+    {
+      "id": "19-2031-L2-02",
+      "text": "A 2025 review (arXiv:2510.16293, 'Synergizing chemical and AI communities for advancing laboratories of the future') describes how machine learning models and LLM-based AI agents accelerate chemistry through the design-build-test-learn loop, autonomous/self-driving laboratories, and materials characterisation - taking over repetitive, hazardous or high-throughput experimental and data-analysis tasks while leaving higher-level scientific reasoning to chemists.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "Synergizing chemical and AI communities for advancing laboratories of the future",
+          "url": "https://arxiv.org/abs/2510.16293",
+          "date": "2025-10-18",
+          "whatItMeasured": "arXiv preprint (Oct 2025) review of ML/AI agents in chemistry labs: design-build-test-learn, autonomous labs."
+        }
+      ],
+      "scope": "Chemistry research/lab automation globally; AU chemistry R&D context. Augmentation of experimentalists, not replacement.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "arXiv preprint (venue pending peer review); population = chemistry R&D; 2025."
+    },
+    {
+      "id": "l404",
+      "text": "Chemist (Organic) - Environmental Testing Laboratory — ADE Consulting Group (Williamstown North, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "ADE Consulting Group",
+          "title": "Chemist (Organic) - Environmental Testing Laboratory",
+          "url": "https://www.linkedin.com/jobs/view/4455270477",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l405",
+      "text": "Senior Quality Control (QC) Chemist — allnex (Wacol, Queensland, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "allnex",
+          "title": "Senior Quality Control (QC) Chemist",
+          "url": "https://www.linkedin.com/jobs/view/4448292377",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l406",
+      "text": "Field Specialist IV - UC (Offshore Chemist) — Baker Hughes (Jandakot, Western Australia, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Baker Hughes",
+          "title": "Field Specialist IV - UC (Offshore Chemist)",
+          "url": "https://www.linkedin.com/jobs/view/4459836238",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l407",
+      "text": "Senior Analytical Development Chemist — Opella (Brisbane, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Opella",
+          "title": "Senior Analytical Development Chemist",
+          "url": "https://www.linkedin.com/jobs/view/4432332628",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l408",
+      "text": "Chemist/Senior Chemist - Environmental Testing Laboratory — ADE Consulting Group (New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "ADE Consulting Group",
+          "title": "Chemist/Senior Chemist - Environmental Testing Laboratory",
+          "url": "https://www.linkedin.com/jobs/view/4454386709",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l409",
+      "text": "Chemist — Veolia | Australia & New Zealand (West Footscray, Victoria, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Veolia | Australia & New Zealand",
+          "title": "Chemist",
+          "url": "https://www.linkedin.com/jobs/view/4459673707",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l410",
+      "text": "Senior Chemist - Malaga — Bureau Veritas (Malaga, Western Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Bureau Veritas",
+          "title": "Senior Chemist - Malaga",
+          "url": "https://www.linkedin.com/jobs/view/4453579024",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l411",
+      "text": "Research & Development Chemist — DuluxGroup (Allenby Gardens, South Australia, Australia). Posted 4 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "DuluxGroup",
+          "title": "Research & Development Chemist",
+          "url": "https://www.linkedin.com/jobs/view/4458731452",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l412",
+      "text": "Senior R&D Chemist — Ultraceuticals (Sydney, New South Wales, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Ultraceuticals",
+          "title": "Senior R&D Chemist",
+          "url": "https://www.linkedin.com/jobs/view/4442278069",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l413",
+      "text": "Chemist — BCI Minerals (Mardie, Western Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "BCI Minerals",
+          "title": "Chemist",
+          "url": "https://www.linkedin.com/jobs/view/4455489721",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l514",
       "text": "🌐 Official AI Content Report 2026-08-26\n# Official AI Content Report 2026-08-26\n\n> Today's update | New content: 36 articles | Generated: 2026-08-26 00:40 UTC\n\nSources:\n- Anthropic: [anthropic.com](https://www.anthropic.com) — 28 new articles (sitemap total: 436)\n- OpenAI: [openai.com](https://openai.com) — 8 new articles (sitemap total:",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -25,238 +298,7 @@
           "title": "🌐 Official AI Content Report 2026-08-26\n# Official AI Content Report 2026-08-26\n…",
           "url": "https://github.com/Chestnuts-Sisyphus/gittok/issues/1097",
           "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l504",
-      "text": "🌐 Official AI Content Report 2026-06-13\n# Official AI Content Report 2026-06-13\n\n> Today's update | New content: 4 articles | Generated: 2026-06-13 02:03 UTC\n\nSources:\n- Anthropic: [anthropic.com](https://www.anthropic.com) — 4 new articles (sitemap total: 381)\n- OpenAI: [openai.com](https://openai.com) — 0 new articles (sitemap total: 84",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "github",
-          "title": "🌐 Official AI Content Report 2026-06-13\n# Official AI Content Report 2026-06-13\n…",
-          "url": "https://github.com/Augustrains/agents-radar/issues/104",
-          "date": "2026-06-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l505",
-      "text": "🌐 Official AI Content Report 2026-06-06\n# Official AI Content Report 2026-06-06\n\n> Today's update | New content: 39 articles | Generated: 2026-06-06 14:32 UTC\n\nSources:\n- Anthropic: [anthropic.com](https://www.anthropic.com) — 25 new articles (sitemap total: 374)\n- OpenAI: [openai.com](https://openai.com) — 14 new articles (sitemap total:\nThe pattern that usually hurts here is not the first failure. It's the quiet retry loop after the first failure, when the system still can't prove anything cha…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "github",
-          "title": "🌐 Official AI Content Report 2026-06-06\n# Official AI Content Report 2026-06-06\n…",
-          "url": "https://github.com/leisure3318/agents-radar/issues/18",
-          "date": "2026-06-06",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l506",
-      "text": "Tell HN: Man, AI is killing my brain",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Tell HN: Man, AI is killing my brain",
-          "url": "https://news.ycombinator.com/item?id=49468252",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l507",
-      "text": "What breaks in production AI workflows?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "What breaks in production AI workflows?",
-          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
-          "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l508",
-      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l509",
-      "text": "How al-Qaida and IS are adopting AI",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "How al-Qaida and IS are adopting AI",
-          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
-          "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l510",
-      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-          "url": "https://news.ycombinator.com/item?id=48672619",
-          "date": "2026-06-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l511",
-      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-          "url": "https://isaidumber.today/",
-          "date": "2026-08-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l512",
-      "text": "Structured Evaluation Pipelines to Improve Your AI Workflows",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Structured Evaluation Pipelines to Improve Your AI Workflows",
-          "url": "https://heltweg.org/posts/structured-evaluation-pipelines-to-improve-your-ai-workflows/",
-          "date": "2026-07-21",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l513",
-      "text": "Looking for developers with high-token AI workflows",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Looking for developers with high-token AI workflows",
-          "url": "https://canopywave.com/events/unlimited-token-plan-200m",
-          "date": "2026-07-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l514",
-      "text": "The death of AI workflow builders",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "The death of AI workflow builders",
-          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
-          "date": "2026-08-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -268,16 +310,16 @@
     },
     {
       "id": "l515",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+      "text": "🌐 Official AI Content Report 2026-06-13\n# Official AI Content Report 2026-06-13\n\n> Today's update | New content: 4 articles | Generated: 2026-06-13 02:03 UTC\n\nSources:\n- Anthropic: [anthropic.com](https://www.anthropic.com) — 4 new articles (sitemap total: 381)\n- OpenAI: [openai.com](https://openai.com) — 0 new articles (sitemap total: 84",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
-          "url": "https://www.contextvault.dev/",
-          "date": "2026-07-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "github",
+          "title": "🌐 Official AI Content Report 2026-06-13\n# Official AI Content Report 2026-06-13\n…",
+          "url": "https://github.com/Augustrains/agents-radar/issues/104",
+          "date": "2026-06-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -289,16 +331,16 @@
     },
     {
       "id": "l516",
-      "text": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
+      "text": "🌐 Official AI Content Report 2026-06-06\n# Official AI Content Report 2026-06-06\n\n> Today's update | New content: 39 articles | Generated: 2026-06-06 14:32 UTC\n\nSources:\n- Anthropic: [anthropic.com](https://www.anthropic.com) — 25 new articles (sitemap total: 374)\n- OpenAI: [openai.com](https://openai.com) — 14 new articles (sitemap total:\nThe pattern that usually hurts here is not the first failure. It's the quiet retry loop after the first failure, when the system still can't prove anything cha…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
-          "url": "https://latentdynamics.substack.com/p/semantic-transactions-securing-untrusted",
-          "date": "2026-07-16",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "github",
+          "title": "🌐 Official AI Content Report 2026-06-06\n# Official AI Content Report 2026-06-06\n…",
+          "url": "https://github.com/leisure3318/agents-radar/issues/18",
+          "date": "2026-06-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -310,16 +352,16 @@
     },
     {
       "id": "l517",
-      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+      "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
-          "url": "https://argonix.io/",
-          "date": "2026-08-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Tell HN: Man, AI is killing my brain",
+          "url": "https://news.ycombinator.com/item?id=49468252",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -331,16 +373,16 @@
     },
     {
       "id": "l518",
-      "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
+      "text": "What breaks in production AI workflows?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Adapting Fossil-scm as a platform for AI agentic workflow",
-          "url": "https://github.com/BenSiv/fossil-scm",
-          "date": "2026-08-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -352,16 +394,16 @@
     },
     {
       "id": "l519",
-      "text": "What is agentic AI today, and what do we want it to be?",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "What is agentic AI today, and what do we want it to be?",
-          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
-          "date": "2026-07-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -373,16 +415,16 @@
     },
     {
       "id": "l520",
-      "text": "My AI-Assisted Workflow",
+      "text": "How al-Qaida and IS are adopting AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "My AI-Assisted Workflow",
-          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
-          "date": "2026-04-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "How al-Qaida and IS are adopting AI",
+          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -394,16 +436,16 @@
     },
     {
       "id": "l521",
-      "text": "AI Workflows Need Topological Sort",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI Workflows Need Topological Sort",
-          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
-          "date": "2026-06-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -415,16 +457,16 @@
     },
     {
       "id": "l522",
-      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
-          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
-          "date": "2026-06-02",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -436,16 +478,16 @@
     },
     {
       "id": "l523",
-      "text": "AI workflows: an industry optimising the wrong variables",
+      "text": "Structured Evaluation Pipelines to Improve Your AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI workflows: an industry optimising the wrong variables",
-          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
-          "date": "2026-05-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Structured Evaluation Pipelines to Improve Your AI Workflows",
+          "url": "https://heltweg.org/posts/structured-evaluation-pipelines-to-improve-your-ai-workflows/",
+          "date": "2026-07-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -457,16 +499,16 @@
     },
     {
       "id": "l524",
-      "text": "Ask HK: How are you building AI apps today?",
+      "text": "Looking for developers with high-token AI workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HK: How are you building AI apps today?",
-          "url": "https://news.ycombinator.com/item?id=48323554",
-          "date": "2026-05-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Looking for developers with high-token AI workflows",
+          "url": "https://canopywave.com/events/unlimited-token-plan-200m",
+          "date": "2026-07-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -478,16 +520,16 @@
     },
     {
       "id": "l525",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "text": "The death of AI workflow builders",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
-          "url": "https://blocks.ai",
-          "date": "2026-07-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -499,16 +541,16 @@
     },
     {
       "id": "l526",
-      "text": "The Problem with AI Today",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "The Problem with AI Today",
-          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
-          "date": "2026-05-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -520,16 +562,16 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "text": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
-          "url": "https://github.com/kontext-dev/kontext-cli",
-          "date": "2026-04-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
+          "url": "https://latentdynamics.substack.com/p/semantic-transactions-securing-untrusted",
+          "date": "2026-07-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -541,16 +583,16 @@
     },
     {
       "id": "l528",
-      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
-          "url": "https://theincidentchallenge.com/",
-          "date": "2026-05-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -562,16 +604,16 @@
     },
     {
       "id": "l529",
-      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
-          "url": "https://news.ycombinator.com/item?id=47590261",
-          "date": "2026-03-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Adapting Fossil-scm as a platform for AI agentic workflow",
+          "url": "https://github.com/BenSiv/fossil-scm",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -583,16 +625,16 @@
     },
     {
       "id": "l530",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
+      "text": "What is agentic AI today, and what do we want it to be?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
-          "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -604,16 +646,16 @@
     },
     {
       "id": "l531",
-      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k…",
+      "text": "My AI-Assisted Workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A…",
-          "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
-          "date": "2026-08-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -625,16 +667,16 @@
     },
     {
       "id": "l532",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history\n&#32; submitted by &#32; /u/xuvayerpro101 &#32; to &#32; r/aiecosystem [link] &#32; [comments]\nWhy are we okay with this? Why are any of us okay with this? Hey Siri make me a picture of my cat riding a dolphin into the sunset. People out here still believin…",
+      "text": "AI Workflows Need Topological Sort",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
-          "url": "https://www.reddit.com/r/aiecosystem/comments/1w00i5d/bill_gates_warns_ai_will_soon_achieve_human/",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "AI Workflows Need Topological Sort",
+          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -646,16 +688,16 @@
     },
     {
       "id": "l533",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/chillinewman &#32; to &#32; r/ControlProblem [link] &#32; [comments]\nTech billionaires: Why do people not like data centers? Also tech billionaires: Best case scenario you are all unemployed in a permanent underclass, worst case…",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
-          "url": "https://www.reddit.com/r/ControlProblem/comments/1vzy4do/bill_gates_warns_ai_will_soon_achieve_human/",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -667,16 +709,16 @@
     },
     {
       "id": "l534",
-      "text": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]\nHow so? Are you talking about LLM hype? Or what is the revolution part? That it's not real business model? (if you have time to spend che…",
+      "text": "AI workflows: an industry optimising the wrong variables",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks …",
-          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_à_special/",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "AI workflows: an industry optimising the wrong variables",
+          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
+          "date": "2026-05-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -688,16 +730,16 @@
     },
     {
       "id": "l535",
-      "text": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]",
+      "text": "Ask HK: How are you building AI apps today?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&…",
-          "url": "https://www.reddit.com/r/technology/comments/1vzb4xo/ai_agents_meant_to_replace_meta_workers_made/",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -709,16 +751,16 @@
     },
     {
       "id": "l536",
-      "text": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecast to end of 2028\n&#32; submitted by &#32; /u/WebLinkr &#32; to &#32; r/SEO [link] &#32; [comments]",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecas…",
-          "url": "https://www.reddit.com/r/SEO/comments/1vxkjla/sam_altman_concedes_he_overestimated_ai/",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -730,16 +772,16 @@
     },
     {
       "id": "l537",
-      "text": "AI job disruption priced into man's compensation payout in first known case\n&#32; submitted by &#32; /u/nath1234 &#32; to &#32; r/australia [link] &#32; [comments]",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "AI job disruption priced into man's compensation payout in first known case\n&#32…",
-          "url": "https://www.reddit.com/r/australia/comments/1vv43m6/ai_job_disruption_priced_into_mans_compensation/",
-          "date": "2026-08-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -751,16 +793,16 @@
     },
     {
       "id": "l538",
-      "text": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32; /u/Silly-avocatoe &#32; to &#32; r/technology [link] &#32; [comments]",
+      "text": "The Problem with AI Today",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32…",
-          "url": "https://www.reddit.com/r/technology/comments/1voms55/onlyfans_investor_says_ai_cant_disrupt_adult/",
-          "date": "2026-08-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -772,16 +814,16 @@
     },
     {
       "id": "l539",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Fob0bqAd34 &#32; to &#32; r/pcgaming [link] &#32; [comments]",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
-          "url": "https://www.reddit.com/r/pcgaming/comments/1vfe3ru/motherboard_prices_set_to_rise_as_aifuelled_pc/",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -793,16 +835,16 @@
     },
     {
       "id": "l540",
-      "text": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let’s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market …",
-          "url": "https://www.reddit.com/r/Superstonk/comments/1vaxmve/for_my_dorito_loversyen_intervention_with_a/",
-          "date": "2026-07-30",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -814,16 +856,16 @@
     },
     {
       "id": "l541",
-      "text": "Seriously: AI isn’t an encyclopaedia. It’s not a consumer product. It’s not here to do your thinking for you. \n\nHuman judgement can be delusional and lazy too , you don’t need to think too hard for examples. It can hallucinate as well. It’s not going to make your kids stupid ( they probably already are ) .\n\nInstitutions have delusions too: statins for everyone, Covid vaccines for young folk, neoclassical economic theory, gender reassignment for tweens, decarbonisation will stop climate change. A",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Seriously: AI isn’t an encyclopaedia. It’s not a consumer product. It’s not here…",
-          "url": "https://x.com/ctindale/status/2093097578799956096",
+          "publisher": "reddit",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
+          "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
           "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -835,16 +877,16 @@
     },
     {
       "id": "l542",
-      "text": "Climate risk is a coupled physical system. \n\nOfficial policy treats it as a CO₂ curve you can bend with capital, renewables, forests and later magic machines. Yes, there are magic machines that remove carbon in all carbon-reduction models.\n\nThose machines haven't been invented yet: nor do we have energy, critical materials, or any of it; none of it has been figured out. \n\nThe fast energy transition has no demonstrated bill of materials. Copper leftover after ordinary demand and AI is already neg",
+      "text": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Climate risk is a coupled physical system. \n\nOfficial policy treats it as a CO₂ …",
-          "url": "https://x.com/ctindale/status/2093531667063615523",
-          "date": "2026-08-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&…",
+          "url": "https://www.reddit.com/r/technology/comments/1vzb4xo/ai_agents_meant_to_replace_meta_workers_made/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -856,16 +898,16 @@
     },
     {
       "id": "l543",
-      "text": "The Copper Residual",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "The Copper Residual",
-          "url": "https://x.com/ctindale/status/2087737786954912112",
-          "date": "2026-08-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
+          "url": "https://www.reddit.com/r/pcmasterrace/comments/1vfe28b/motherboard_prices_set_to_rise_as_aifuelled_pc/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -877,16 +919,16 @@
     },
     {
       "id": "l544",
-      "text": "The Unfolding Story of Artificial Intelligence: From Calculation to Cognition",
+      "text": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecast to end of 2028\n&#32; submitted by &#32; /u/WebLinkr &#32; to &#32; r/SEO [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "The Unfolding Story of Artificial Intelligence: From Calculation to Cognition",
-          "url": "https://x.com/SethiPoW/status/2053395434060538003",
-          "date": "2026-05-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecas…",
+          "url": "https://www.reddit.com/r/SEO/comments/1vxkjla/sam_altman_concedes_he_overestimated_ai/",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -898,16 +940,16 @@
     },
     {
       "id": "l545",
-      "text": "Homo Convivium",
+      "text": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32; /u/Silly-avocatoe &#32; to &#32; r/technology [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Homo Convivium",
-          "url": "https://x.com/ochyai/status/2089635959210226017",
-          "date": "2026-08-18",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32…",
+          "url": "https://www.reddit.com/r/technology/comments/1voms55/onlyfans_investor_says_ai_cant_disrupt_adult/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -919,16 +961,16 @@
     },
     {
       "id": "l546",
-      "text": "From Hierarchy to Intelligence",
+      "text": "AI job disruption priced into man's compensation payout in first known case\n&#32; submitted by &#32; /u/nath1234 &#32; to &#32; r/australia [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "From Hierarchy to Intelligence",
-          "url": "https://x.com/jack/status/2039003879841362278",
-          "date": "2026-03-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "AI job disruption priced into man's compensation payout in first known case\n&#32…",
+          "url": "https://www.reddit.com/r/australia/comments/1vv43m6/ai_job_disruption_priced_into_mans_compensation/",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -940,16 +982,16 @@
     },
     {
       "id": "l547",
-      "text": "The Scientist That Never Sleeps: The Lab Running 50,000 Experiments With Nobody There",
+      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "The Scientist That Never Sleeps: The Lab Running 50,000 Experiments With Nobody …",
-          "url": "https://x.com/FrontierSignal_/status/2074376354389426239",
-          "date": "2026-07-07",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A…",
+          "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -961,16 +1003,16 @@
     },
     {
       "id": "l548",
-      "text": "159 Years Of Canada: 159 Ways Canada Changed The World",
+      "text": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let’s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "159 Years Of Canada: 159 Ways Canada Changed The World",
-          "url": "https://x.com/wbnnsocial/status/2072358187383345519",
-          "date": "2026-07-01",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market …",
+          "url": "https://www.reddit.com/r/Superstonk/comments/1vaxmve/for_my_dorito_loversyen_intervention_with_a/",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -982,16 +1024,16 @@
     },
     {
       "id": "l549",
-      "text": "IonQ and the Quantum Transformation of Drug Discovery",
+      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c…",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "IonQ and the Quantum Transformation of Drug Discovery",
-          "url": "https://x.com/HannaSuds/status/2048378962712092772",
-          "date": "2026-04-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public …",
+          "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vnsz0y/jpmorgan_ceo_jamie_dimon_declares_ai_deployment/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1003,16 +1045,16 @@
     },
     {
       "id": "l550",
-      "text": "The Missing Middle of Industrialization: Everything is Chemicals",
+      "text": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "The Missing Middle of Industrialization: Everything is Chemicals",
-          "url": "https://x.com/AJA_Cortes/status/2028474826722001119",
-          "date": "2026-03-02",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks …",
+          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_à_special/",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1024,16 +1066,16 @@
     },
     {
       "id": "l551",
-      "text": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a Myth? - Steven Pinker\nProfessor Steven Pinker, one of the world’s most influential cognitive psychologists and public intellectuals, joins the podcast for a profound conversation about artificial intelligence, human consciousness, and the enduring power of Enlightenment values.\n\nFilmed at Harvard \n\nIn an era dominated by apocalyptic headlines, rapid technological disruption, and rising tribalism, Pinker dismantles mode…",
+      "text": "How are people buying homes and getting married in this age of AI disruption ?\nJob security across most white collar jobs has tanked and as AI gets integrated there will likely be a need for less people to do the same jobs. Yes if demand increases for tech (and other white collar services) then the same number of people can be employed but if that doesn&#39;t happen I see unemployment increasing over the next 5-7 years. In such an uncertain environment how are people trying to achieve big goals …",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "youtube",
-          "title": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a My…",
-          "url": "https://www.youtube.com/watch?v=eWC47agaKpk",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "How are people buying homes and getting married in this age of AI disruption ?\nJ…",
+          "url": "https://www.reddit.com/r/cscareerquestions/comments/1vqe677/how_are_people_buying_homes_and_getting_married/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1045,6 +1087,216 @@
     },
     {
       "id": "l552",
+      "text": "Climate risk is a coupled physical system. \n\nOfficial policy treats it as a CO₂ curve you can bend with capital, renewables, forests and later magic machines. Yes, there are magic machines that remove carbon in all carbon-reduction models.\n\nThose machines haven't been invented yet: nor do we have energy, critical materials, or any of it; none of it has been figured out. \n\nThe fast energy transition has no demonstrated bill of materials. Copper leftover after ordinary demand and AI is already neg",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Climate risk is a coupled physical system. \n\nOfficial policy treats it as a CO₂ …",
+          "url": "https://x.com/ctindale/status/2093531667063615523",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l553",
+      "text": "The chemistry, metals, and gases supply chain shortage issues ultimately affect all countries; these limits will likely create significant contention for supplies. AI and defence demand is overtaking renewable demand in both China and the West. If we go through every metal, there are supply constraints - for example, we need roughly 6 tier one copper mines a year, and we are opening one .  To mine this copper, we need 400% more sulfuric acid, which comes from fossil fuel refining (ironic); we ar",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The chemistry, metals, and gases supply chain shortage issues ultimately affect …",
+          "url": "https://x.com/ctindale/status/2093558786481148007",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "③ Crypto 的 UX 还没有达到 AI 的速度\n\n这是一个很大的矛盾。\n\nAI 正在把交互变成：\n\n一句话 → 完成任务\n\n但 Crypto 仍然经常是：\n\nConnect Wallet → Select Network → Approve → Sign → Switch Chain → Pay Gas → Wait → Confirm\n\n这与 AI 的体验完全相反。\n\n所以未来真正伟大的 Web3 产品，很可能不是“更复杂的 DeFi”。\n\n而是：\n\n让 Blockchain 消失在用户界面背后。\n\n用户只需要说：\n\n“帮我买 100 美元的 BTC。”\n\nAI 自动完成：\n\nIdentity → Wallet → Liquidity → Route → Payment → Settlement\n\n用户甚至不知道交易发生在哪条链。",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "③ Crypto 的 UX 还没有达到 AI 的速度\n\n这是一个很大的矛盾。\n\nAI 正在把交互变成：\n\n一句话 → 完成任务\n\n但 Crypto 仍然经常是：…",
+          "url": "https://x.com/SethiPoW/status/2093679239631650835",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "The Copper Residual",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Copper Residual",
+          "url": "https://x.com/ctindale/status/2087737786954912112",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "Homo Convivium",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Homo Convivium",
+          "url": "https://x.com/ochyai/status/2089635959210226017",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "From Hierarchy to Intelligence",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "From Hierarchy to Intelligence",
+          "url": "https://x.com/jack/status/2039003879841362278",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "The Unfolding Story of Artificial Intelligence: From Calculation to Cognition",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Unfolding Story of Artificial Intelligence: From Calculation to Cognition",
+          "url": "https://x.com/SethiPoW/status/2053395434060538003",
+          "date": "2026-05-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "The Scientist That Never Sleeps: The Lab Running 50,000 Experiments With Nobody There",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Scientist That Never Sleeps: The Lab Running 50,000 Experiments With Nobody …",
+          "url": "https://x.com/FrontierSignal_/status/2074376354389426239",
+          "date": "2026-07-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "159 Years Of Canada: 159 Ways Canada Changed The World",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "159 Years Of Canada: 159 Ways Canada Changed The World",
+          "url": "https://x.com/wbnnsocial/status/2072358187383345519",
+          "date": "2026-07-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "IonQ and the Quantum Transformation of Drug Discovery",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "IonQ and the Quantum Transformation of Drug Discovery",
+          "url": "https://x.com/HannaSuds/status/2048378962712092772",
+          "date": "2026-04-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
       "text": "Transcribed: Jacob Berlin on why chemistry is the last frontier for AI drug discovery\nJacob Berlin spent years perfecting a microarray chip the size of a fingernail before he thought about starting a company. Now, as cofounder and CEO of Terray Therapeutics, he's using that hardware to generate chemistry data at a scale the industry has never seen, and arguing that models without proprietary data aren't a moat at all.\n\nJacob joined Benchling CEO Sajith Wickramasekara to talk about why small mole…",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -1054,385 +1306,7 @@
           "title": "Transcribed: Jacob Berlin on why chemistry is the last frontier for AI drug disc…",
           "url": "https://www.youtube.com/watch?v=KqvjK1p8e8M",
           "date": "2026-04-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l453",
-      "text": "Laboratory Technician Chemist — Wood (Longford, Victoria, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Wood",
-          "title": "Laboratory Technician Chemist",
-          "url": "https://www.linkedin.com/jobs/view/4443082833",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l454",
-      "text": "Chemist — BCI Minerals (Mardie, Western Australia, Australia). Posted 6 days ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "BCI Minerals",
-          "title": "Chemist",
-          "url": "https://www.linkedin.com/jobs/view/4455489721",
-          "date": "6 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l455",
-      "text": "Laboratory Technician — Mackay Regional Council (Mackay, Queensland, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Mackay Regional Council",
-          "title": "Laboratory Technician",
-          "url": "https://www.linkedin.com/jobs/view/4453417539",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l456",
-      "text": "Quality Control Analyst (Chemist) — Arna Pharma (Frenchs Forest, New South Wales, Australia). Posted 1 month ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Arna Pharma",
-          "title": "Quality Control Analyst (Chemist)",
-          "url": "https://www.linkedin.com/jobs/view/4442952389",
-          "date": "1 month ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l457",
-      "text": "Chemist Team Lead — Santos Ltd (Brisbane, Queensland, Australia). Posted 21 hours ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Santos Ltd",
-          "title": "Chemist Team Lead",
-          "url": "https://www.linkedin.com/jobs/view/4457655866",
-          "date": "21 hours ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l458",
-      "text": "Industrial Chemist — Veolia | Australia & New Zealand (Oxley Park, New South Wales, Australia). Posted 2 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Veolia | Australia & New Zealand",
-          "title": "Industrial Chemist",
-          "url": "https://www.linkedin.com/jobs/view/4448748880",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l459",
-      "text": "Research & Development Chemist — DuluxGroup (Allenby Gardens, South Australia, Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "DuluxGroup",
-          "title": "Research & Development Chemist",
-          "url": "https://www.linkedin.com/jobs/view/4458731452",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l460",
-      "text": "Laboratory Technician — Haymes Paint (Lucas, Victoria, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Haymes Paint",
-          "title": "Laboratory Technician",
-          "url": "https://www.linkedin.com/jobs/view/4445875670",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l461",
-      "text": "Dangerous Goods Chemist — Blackbook Recruitment (Ingleburn, New South Wales, Australia). Posted 3 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Blackbook Recruitment",
-          "title": "Dangerous Goods Chemist",
-          "url": "https://www.linkedin.com/jobs/view/4447376130",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l462",
-      "text": "QC Scientist - QC Physiochemistry & Raw Material — Thermo Fisher Scientific (Brisbane, Queensland, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Thermo Fisher Scientific",
-          "title": "QC Scientist - QC Physiochemistry & Raw Material",
-          "url": "https://www.linkedin.com/jobs/view/4453505934",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l563",
-      "text": "🌐 Official AI Content Report 2026-06-06\n# Official AI Content Report 2026-06-06\n\n> Today's update | New content: 39 articles | Generated: 2026-06-06 14:32 UTC\n\nSources:\n- Anthropic: [anthropic.com](https://www.anthropic.com) — 25 new articles (sitemap total: 374)\n- OpenAI: [openai.com](https://openai.com) — 14 new articles (sitemap total:\nThe pattern that usually hurts here is not the first failure. It's the quiet retry loop after the first failure, when the system still can't prove anything cha…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "github",
-          "title": "🌐 Official AI Content Report 2026-06-06\n# Official AI Content Report 2026-06-06\n…",
-          "url": "https://github.com/leisure3318/agents-radar/issues/18",
-          "date": "2026-06-06",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l564",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nAnd yet, there is no meaningful societal or economic movement to prepare for this. The rich literally want millions of homeless and displaced people. The rich DO NOT CA…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
-          "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l565",
-      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A…",
-          "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
-          "date": "2026-08-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l566",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history\n&#32; submitted by &#32; /u/xuvayerpro101 &#32; to &#32; r/aiecosystem [link] &#32; [comments]\nWhy are we okay with this? Why are any of us okay with this? Hey Siri make me a picture of my cat riding a dolphin into the sunset. People out here still believin…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
-          "url": "https://www.reddit.com/r/aiecosystem/comments/1w00i5d/bill_gates_warns_ai_will_soon_achieve_human/",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l567",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/chillinewman &#32; to &#32; r/ControlProblem [link] &#32; [comments]\nTech billionaires: Why do people not like data centers? Also tech billionaires: Best case scenario you are all unemployed in a permanent underclass, worst case…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
-          "url": "https://www.reddit.com/r/ControlProblem/comments/1vzy4do/bill_gates_warns_ai_will_soon_achieve_human/",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l568",
-      "text": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]\nHow so? Are you talking about LLM hype? Or what is the revolution part? That it's not real business model? (if you have time to spend che…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "reddit",
-          "title": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks …",
-          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_à_special/",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l569",
-      "text": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a Myth? - Steven Pinker\nProfessor Steven Pinker, one of the world’s most influential cognitive psychologists and public intellectuals, joins the podcast for a profound conversation about artificial intelligence, human consciousness, and the enduring power of Enlightenment values.\n\nFilmed at Harvard \n\nIn an era dominated by apocalyptic headlines, rapid technological disruption, and rising tribalism, Pinker dismantles mode…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "Harvard Professor Exposes the Biggest Lie in Silicon Valley: Is AI Built On a My…",
-          "url": "https://www.youtube.com/watch?v=eWC47agaKpk",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l570",
-      "text": "Transcribed: Jacob Berlin on why chemistry is the last frontier for AI drug discovery\nJacob Berlin spent years perfecting a microarray chip the size of a fingernail before he thought about starting a company. Now, as cofounder and CEO of Terray Therapeutics, he's using that hardware to generate chemistry data at a scale the industry has never seen, and arguing that models without proprietary data aren't a moat at all.\n\nJacob joined Benchling CEO Sajith Wickramasekara to talk about why small mole…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "youtube",
-          "title": "Transcribed: Jacob Berlin on why chemistry is the last frontier for AI drug disc…",
-          "url": "https://www.youtube.com/watch?v=KqvjK1p8e8M",
-          "date": "2026-04-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1459,7 +1333,32 @@
       "Ethical reasoning",
       "Adaptive analysis",
       "Project governance"
-    ]
+    ],
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "chemist",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+      "count": 652,
+      "returned": 50,
+      "topEmployers": [
+        "Evolve Scientific",
+        "Macro Recruitment",
+        "Omnia Specialities Australia",
+        "DuluxGroup",
+        "BCI Minerals",
+        "Veolia",
+        "Crommelin",
+        "Dulux Group"
+      ],
+      "topSkills": [
+        "quality",
+        "laboratory",
+        "analytical",
+        "HPLC",
+        "compliance",
+        "sample"
+      ]
+    }
   },
   "corpus": {
     "platforms": [
@@ -1469,8 +1368,44 @@
         "items": 45
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "retrieved": "2026-08-30",
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "detail": "OpenAthens session expired (cookies 2026-08-26); re-run factiva_reauth.py. Logged to factiva_backlog.json.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L4",
+        "source": "seek",
+        "status": "not-sampled",
+        "detail": "Seek trend pages not queried this batch; Adzuna AU + LinkedIn cover L4 demand signal.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L4",
+        "source": "last30days-hiring-signals",
+        "status": "not-sampled",
+        "detail": "last30days --hiring-signals not run separately; Adzuna + LinkedIn cover L4 demand.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L5",
+        "source": "tiktok",
+        "status": "unavailable",
+        "detail": "has_scrapecreators: false (TikTok/Instagram unavailable on this host). Coverage gap, not a finding.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L5",
+        "source": "instagram",
+        "status": "unavailable",
+        "detail": "has_scrapecreators: false (TikTok/Instagram unavailable on this host). Coverage gap, not a finding.",
+        "date": "2026-08-30"
+      }
+    ],
     "linkedin": [
       {
         "status": "sampled",
@@ -1488,12 +1423,30 @@
         "returned": 10,
         "totalResults": 10,
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "soc": "19-2031",
+        "query": "Chemists",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      },
+      {
+        "date": "2026-08-30",
+        "soc": "19-2031",
+        "query": "Chemists",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
       }
     ],
     "l5Sample": [
       {
-        "date": "2026-08-29",
-        "added": 50,
+        "date": "2026-08-30",
+        "added": 49,
         "sources": {
           "github": 3,
           "grounding": 0,
@@ -1501,26 +1454,16 @@
           "jobs": 0,
           "reddit": 11,
           "x": 10,
-          "youtube": 2
-        },
-        "status": "sampled"
-      },
-      {
-        "date": "2026-08-29",
-        "added": 8,
-        "sources": {
-          "github": 3,
-          "grounding": 0,
-          "hackernews": 24,
-          "jobs": 0,
-          "reddit": 11,
-          "x": 10,
-          "youtube": 2
+          "youtube": 1
         },
         "status": "sampled"
       }
     ]
   },
+  "researchMethod": "empirical-five-lane-v1",
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L5 practitioner discourse is a self-selected sample (last30days: reddit/x/hackernews/github/youtube/polymarket); not a representative survey. TikTok/Instagram unavailable (has_scrapecreators:false).",
+    "3 L1/L2 claims + declared L5 corpus present; confidence=high."
+  ]
 }
