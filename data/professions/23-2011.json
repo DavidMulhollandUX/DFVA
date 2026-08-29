@@ -1112,6 +1112,426 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l453",
+      "text": "Paralegal/Legal Assistant Roles \u2013 Expression of Interest \u2014 QLD Estate Lawyers (Brisbane, Queensland, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "QLD Estate Lawyers",
+          "title": "Paralegal/Legal Assistant Roles \u2013 Expression of Interest",
+          "url": "https://www.linkedin.com/jobs/view/4443523719",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l454",
+      "text": "Paralegal \u2014 Gatehouse Legal Recruitment (Greater Melbourne Area). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Gatehouse Legal Recruitment",
+          "title": "Paralegal",
+          "url": "https://www.linkedin.com/jobs/view/4455835334",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l455",
+      "text": "Senior Paralegal \u2014 Cox Purtell Staffing Services (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Cox Purtell Staffing Services",
+          "title": "Senior Paralegal",
+          "url": "https://www.linkedin.com/jobs/view/4452878473",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l456",
+      "text": "Paralegal \u2014 Hicksons Lawyers (Barangaroo, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Hicksons Lawyers",
+          "title": "Paralegal",
+          "url": "https://www.linkedin.com/jobs/view/4454236545",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l457",
+      "text": "Paralegal / Legal Assistant (Personal Injury) - Join a Leading National Law Firm \u2014 Longton Blackwell (Sydney, New South Wales, Australia). Posted 6 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Longton Blackwell",
+          "title": "Paralegal / Legal Assistant (Personal Injury) - Join a Leading National Law Firm",
+          "url": "https://www.linkedin.com/jobs/view/4368598168",
+          "date": "6 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l458",
+      "text": "Estates Paralegal Role \u2014 QLD Estate Lawyers (Brisbane, Queensland, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "QLD Estate Lawyers",
+          "title": "Estates Paralegal Role",
+          "url": "https://www.linkedin.com/jobs/view/4443532543",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l459",
+      "text": "Paralegal \u2014 Tanner Menzies (Mascot, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Tanner Menzies",
+          "title": "Paralegal",
+          "url": "https://www.linkedin.com/jobs/view/4448258653",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l460",
+      "text": "Real Estate Paralegal \u2014 MJD Recruitment (Greater Brisbane Area). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "MJD Recruitment",
+          "title": "Real Estate Paralegal",
+          "url": "https://www.linkedin.com/jobs/view/4454913989",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l461",
+      "text": "Legal Assistant Paralegal \u2014 MJD Recruitment (Adelaide, South Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "MJD Recruitment",
+          "title": "Legal Assistant Paralegal",
+          "url": "https://www.linkedin.com/jobs/view/4449316794",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l462",
+      "text": "Legal Assistant / Senior Legal Assistant (Asbestos & Dust Diseases QLD) \u2014 Maurice Blackburn Lawyers (Brisbane, Queensland, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Maurice Blackburn Lawyers",
+          "title": "Legal Assistant / Senior Legal Assistant (Asbestos & Dust Diseases QLD)",
+          "url": "https://www.linkedin.com/jobs/view/4453859639",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l563",
+      "text": "[FEATURE] Vorlagenplatzhalter f\u00fcr Stammdaten des Aktenanwalts\n# Vorlagenplatzhalter f\u00fcr Stammdaten des Aktenanwalts\n\n## Ausgangslage\n\nIn Dokumentvorlagen stehen derzeit f\u00fcr den verantwortlichen Anwalt der Akte u.a. folgende Platzhalter zur Verf\u00fcgung:\n\n- `{{AKTE_ANWALT}}`\n- `{{AKTE_ANWALT_AN}}`\n- `{{AKTE_ANWALT_KRZ}}`\n\nF\u00fcr den angemeldeten Nutzer gibt es zus\u00e4tz\nL\u00f6st denn nicht {{AKTE_ANWALT}} genau das? Den Platzhalter haben wir in den Schrifts\u00e4tzen und das funktioniert tadellos in Kombination mi\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[FEATURE] Vorlagenplatzhalter f\u00fcr Stammdaten des Aktenanwalts\n# Vorlagenplatzhal\u2026",
+          "url": "https://github.com/jlawyerorg/j-lawyer-org/issues/3405",
+          "date": "2026-05-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "Me4g3 cook book\nFits. Here's the read:\r\n\r\nThis is a Claude Code plugin \u2014 CLAUDE.md is the behavior contract that tells Claude Code when to run tests, what the project structure is, and how to handle edge cases automatically. It's not a general-purpose tool, it's a session-start intelligence layer.\r\n\r\nFor SOL\u2122, this\nCheck out this pull request on&nbsp; <a href=\"https://app.reviewnb.com/google-gemini/cookbook/pull/1191\"><img align=\"absmiddle\"  alt=\"ReviewNB\" height=\"30\" class=\"BotMessageButtonImag\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Me4g3 cook book\nFits. Here's the read:\r\n\r\nThis is a Claude Code plugin \u2014 CLAUDE.\u2026",
+          "url": "https://github.com/google-gemini/cookbook/pull/1191",
+          "date": "2026-04-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "DoorDash AI refused to refund my misdelivered Taco Bell, but wrote a sad poem, drafted a legal complaint against itself, and told me to visit a food bank.\ndelivery driver dropped my food at a random house that was not my address. Door dash support denied my refund and dumped me on the AI. The Doordash AI chat bot didn&#39;t help me with my undelivered order, instead it Admitted dropping food at the wrong house is NOT a delivery Wrote a 4-line poem about my cold burrito offered to write me a movi\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "DoorDash AI refused to refund my misdelivered Taco Bell, but wrote a sad poem, d\u2026",
+          "url": "https://www.reddit.com/r/doordash/comments/1vhv0dk/doordash_ai_refused_to_refund_my_misdelivered/",
+          "date": "2026-08-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "what should an ai legal assistant include for deposition outline?\n2nd yr associate at a small litigation shop, about eight attorneys. My outlines have always just been a running list of questions loosely grouped by topic. I\u2019ve noticed a couple of partners here structure theirs pretty differently, more around what they need to establish with each witness rather than following a strict order. What\u2019s really in yours? &#32; submitted by &#32; /u/Fickle_Decision_3994 &#32; to &#32; r/LAW_abidingcitiz\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "what should an ai legal assistant include for deposition outline?\n2nd yr associa\u2026",
+          "url": "https://www.reddit.com/r/LAW_abidingcitizens/comments/1vsftgx/what_should_an_ai_legal_assistant_include_for/",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "For legal reasons, my meetings can't use cloud APIs, so I built a self-hosted Otter.ai alternative... and it got a little out of hand (open source, GPU, offline, speaker-labeled minutes)\nThe problem: meeting recordings that are not allowed anywhere near a cloud service. The market&#39;s answer is basically &quot;have you tried trusting us?&quot; So I started building TranscrIA, a web portal where you drop a meeting recording and get back speaker-labeled transcripts, a summary, and actual Word mi\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "For legal reasons, my meetings can't use cloud APIs, so I built a self-hosted Ot\u2026",
+          "url": "https://www.reddit.com/r/selfhosted/comments/1vp1t09/for_legal_reasons_my_meetings_cant_use_cloud_apis/",
+          "date": "2026-08-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Training, Jobs, Attorneys, Certification, AI & Getting Started\nLegal Nurse Consulting sounds straightforward when reduced to one sentence: A nurse uses clinical knowledge to assist attorneys with healthcare-related legal matters. But once someone seriously considers entering the field, the questions multiply quickly. How much legal knowledge do I need? Do I need to be an RN? Can an LPN/LVN become involved? Do I need certif\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Thinking About Becoming a Legal Nurse Consultant? Ask Your Questions Here\u2014Traini\u2026",
+          "url": "https://www.reddit.com/r/ClinicalLegalField/comments/1vkdimx/thinking_about_becoming_a_legal_nurse_consultant/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "Is an ai legal assistant worth it for deposition prep at small firms?\nThree attorneys, mostly PI. were at the volume now where manual outline building is genuinely slowing cases down, which is new for us. looked at a couple AI deposition prep tools but im hesitant about subscription pricing for something we&#39;d use unevenly month to month. some months weve got four depositions, some months none. anyone running one of these at a firm our size, and did the pricing actually make sense for you? &#\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Is an ai legal assistant worth it for deposition prep at small firms?\nThree atto\u2026",
+          "url": "https://www.reddit.com/r/LAW_abidingcitizens/comments/1vzwgdn/is_an_ai_legal_assistant_worth_it_for_deposition/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "How friendly are you with opposing counsel\u2019s paralegals/legal assistants?\nFor context, I live in the Southern United States, and those of you who also live here probably understand why that feels relevant, lol. Lately, I\u2019ve had several cases requiring a lot of communication with opposing counsel\u2019s support staff. One case involving multiple parties and attorneys has really shown me how differently paralegals and legal assistants treat each other. I understand keeping things strictly professional,\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "How friendly are you with opposing counsel\u2019s paralegals/legal assistants?\nFor co\u2026",
+          "url": "https://www.reddit.com/r/paralegal/comments/1vfnril/how_friendly_are_you_with_opposing_counsels/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "How AI is Replacing Attorney Jobs\nAI is replacing legal jobs at a breakneck pace. \n\nGet updated:  https://www.aiupdate.ai\n\nSweden\u2019s Legora just raised $550M at a $5.5B valuation to supercharge legal automation, and junior attorneys, paralegals, and even law students are directly in the crosshairs.\n\nToday i will expose how AI tools like Legora are automating everything from contract analysis and legal research to drafting memos and litigation support. \n\nI will break down why expensive degrees and\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "How AI is Replacing Attorney Jobs\nAI is replacing legal jobs at a breakneck pace\u2026",
+          "url": "https://www.youtube.com/watch?v=z7fC2z02d4c",
+          "date": "2026-03-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "Why AI Innovation Doesn\u2019t Work: And How Solo and Small Law Firms Will Succeed [Webinar]\nA decade ago, Klaus Schwab, executive director of the World Economic Forum, predicted that the pace of change would be our greatest innovation challenge. Safe to say he was right. While AI labs probably won\u2019t be slowing down any time soon, you can and should avoid self-inflicted problems.\n\nJoin us to discover:\n\n- What it means to innovate\n- What today\u2019s AI is and does\n- Why AI innovation doesn\u2019t work\n- How so\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Why AI Innovation Doesn\u2019t Work: And How Solo and Small Law Firms Will Succeed [W\u2026",
+          "url": "https://www.youtube.com/watch?v=_jFitvAKSNo",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1142,14 +1562,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Paralegals and Legal Assistants",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/23-2011/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Paralegals and Legal Assistants",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/23-2011/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "23-2011",
+        "query": "Paralegals and Legal Assistants",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1163,9 +1594,23 @@
           "youtube": 2
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 10,
+        "sources": {
+          "github": 2,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 6,
+          "x": 16,
+          "youtube": 2
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

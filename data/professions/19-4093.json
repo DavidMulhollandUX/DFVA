@@ -1112,6 +1112,342 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l453",
+      "text": "Ranger \u2014 Queensland Government (Bundaberg, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Government",
+          "title": "Ranger",
+          "url": "https://www.linkedin.com/jobs/view/4455311515",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l454",
+      "text": "Natural Area Officer \u2014 Mackay Regional Council (Mackay, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Mackay Regional Council",
+          "title": "Natural Area Officer",
+          "url": "https://www.linkedin.com/jobs/view/4448494960",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l455",
+      "text": "Wildlife Field Operative \u2014 Ecosure - Thriving global ecosystems (Rockhampton Area). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Ecosure - Thriving global ecosystems",
+          "title": "Wildlife Field Operative",
+          "url": "https://www.linkedin.com/jobs/view/4455552640",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l456",
+      "text": "Field Officer \u2014 Queensland Government (Brisbane, Queensland, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Government",
+          "title": "Field Officer",
+          "url": "https://www.linkedin.com/jobs/view/4442569444",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l457",
+      "text": "Senior Forest Ranger \u2014 Department of Primary Industries (Queensland) (Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Primary Industries (Queensland)",
+          "title": "Senior Forest Ranger",
+          "url": "https://www.linkedin.com/jobs/view/4451383053",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l458",
+      "text": "Vegetation Control Officer \u2014 Queensland Rail (Townsville, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Rail",
+          "title": "Vegetation Control Officer",
+          "url": "https://www.linkedin.com/jobs/view/4454958377",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l459",
+      "text": "Field Officer \u2014 Department of Primary Industries (Queensland) (Greater Brisbane Area). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Primary Industries (Queensland)",
+          "title": "Field Officer",
+          "url": "https://www.linkedin.com/jobs/view/4442557364",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l460",
+      "text": "Environment Technician | Oak Dam/Olympic Dam - Copper | FIFO 7/7 Roster \u2014 BHP (Adelaide, South Australia, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "BHP",
+          "title": "Environment Technician | Oak Dam/Olympic Dam - Copper | FIFO 7/7 Roster",
+          "url": "https://www.linkedin.com/jobs/view/4454187652",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l461",
+      "text": "Herbicide Technician \u2014 Downer (Port Pirie, South Australia, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Downer",
+          "title": "Herbicide Technician",
+          "url": "https://www.linkedin.com/jobs/view/4458589509",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l462",
+      "text": "Ranger x 2 \u2014 Department of Biodiversity, Conservation and Attractions (South Doodlakine, Western Australia, Australia). Posted 12 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Biodiversity, Conservation and Attractions",
+          "title": "Ranger x 2",
+          "url": "https://www.linkedin.com/jobs/view/4457055767",
+          "date": "12 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l563",
+      "text": "Cat Gallery - 2026-07\nAuto-generated cat images for 2026-07.\n## Cat #14 \u2014 \u4ed9\u8a9e\u5377\u908a\u7684\u767d\u9748\n**Time:** 2026-07-06 04:18 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**\u9748\u611f\u4f86\u6e90:** \ud83d\udcf0 \u79d1\u5b78\u5bb6\u6307\u51fa\uff0c\u5b78\u7fd2\u7b2c\u4e8c\u8a9e\u8a00\u4f3c\u4e4e\u80fd\u6709\u6548\u6e1b\u7de9\u5927\u8166\u8001\u5316\uff0c\u7814\u7a76\u986f\u793a\u96d9\u8a9e\u8005\u7684\u5927\u8166\u6bd4\u55ae\u8a9e\u8005\u5e74\u8f15\u7d04\u516d\u6b72\u3002\n**Idea:** \u4e00\u96bb\u767d\u8c93\u5728\u4e00\u500b\u53e4\u98a8\u4ed9\u4fe0\u98a8\u683c\u7684\u66f8\u9f4b\u4e2d\uff0c\u597d\u5947\u5730\u8f15\u6293\u8457\u4e00\u5f35\u92ea\u958b\u7684\u6731\u7d05\u58a8\u8de1\u5377\u8ef8\uff0c\u4e00\u4f4d\u8eab\u8457\u7acb\u9ad4\u82b1\u5349\u8cbc\u82b1\u6731\u7d05\u9577\u888d\u7684\u5b78\u8005\u4f38\u51fa\u624b\uff0c\u4ee5\u5f37\u5236\u900f\u8996\u7684\u69cb\u5716\u51dd\u8996\u5377\u8ef8\uff0c\u6574\u500b\u5834\u666f\u7531\u9583\u5149\u71c8\u76f4\u6253\u7684\u5149\u7dda\u52fe\u52d2\u51fa\u6731\u7d05\u8207\u7559\u767d\u7684\u9bae\u660e\u5c0d\u6bd4\u3002\n**Prompt:** \u4e00\u96bb\u767d\u8c93\u5728\u4e00\u500b\u53e4\u98a8\u4ed9\u4fe0\u98a8... ## Cat #15 \u2014 \u5927\u7406\u77f3\u7554\u6e05\u6dbc\n**Time:** 2026-07-06 05:05 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**\u9748\u611f\u4f86\u6e90:** \ud83c\udfa8 AI \u539f\u5275\n**Idea:\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Cat Gallery - 2026-07\nAuto-generated cat images for 2026-07.\n## Cat #14 \u2014 \u4ed9\u8a9e\u5377\u908a\u7684\u767d\u2026",
+          "url": "https://github.com/greenQQQ/catime/issues/2",
+          "date": "2026-07-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "Dog Gallery - 2026-07\nAuto-generated dog images for 2026-07.\n## Dog #1 \u2014 \u72d7\u72d7\u65e5\u5e38\n**Time:** 2026-07-06 06:26 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**\u9748\u611f\u4f86\u6e90:** \ud83c\udfa8 AI \u539f\u5275\n**Prompt:** A cute dog with the date and time '2026-07-06 06:26 UTC' displayed in the image, high quality, detailed\n**Story:** \u4e00\u96bb\u53ef\u611b\u7684\u72d7\u72d7\u6b63\u5728\u4eab\u53d7\u7f8e\u597d\u7684\u4e00\u5929\u3002\n\n![dog-1](https://github.com/g... ## Dog #3 \u2014 \u77ed\u817f\u8003\u53e4\u968a\n**Time:** 2026-07-06 08:35 UTC\n**Model:** `gpt-image-2 (codex-image-service / $imagegen)`\n**\u9748\u611f\u4f86\u6e90:** \ud83d\udcf0 \u8003\u53e4\u5b78\u5bb6\u5728\u57c3\u53ca\u897f\u90e8\u6c99\u6f20\u767c\u73fe\u4fdd\u5b58\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Dog Gallery - 2026-07\nAuto-generated dog images for 2026-07.\n## Dog #1 \u2014 \u72d7\u72d7\u65e5\u5e38\n**\u2026",
+          "url": "https://github.com/greenQQQ/dogtime/issues/1",
+          "date": "2026-07-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comments Are Available\nThe first round of Technical Review Committee (TRC) comments and Beacon/VoltaGrid responses for EIA 1663 are now public. The TRC is made up of government and agency reviewers who assess technical issues during the provincial EIA process. The TRC for EIA 1663 includes 5 federal reviewers/agencies, 22 GNB departmental reviewers/addresses, and 4 additional NB/local/regional reviewers, including the NB En\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Lorneville AI Data Centre Update: EIA Technical Review Committee Round 1 Comment\u2026",
+          "url": "https://www.reddit.com/r/newbrunswickcanada/comments/1vkm48r/lorneville_ai_data_centre_update_eia_technical/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "Unfortunatly, the ai situation just keeps going and it is getting worse, so for anyone who wants to quit the game or want some ai-free, I have suggestions.\nIn case some of you still don&#39;t know, Neteas has fired more than half of their art team in order to replace them with Ai generated crap. I&#39;m not going to make this longer than it has to be, but for those who, like me, want to quit the game and need something to distract themselves with, here&#39;s a list of movie/tv shows, books and g\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Unfortunatly, the ai situation just keeps going and it is getting worse, so for \u2026",
+          "url": "https://www.reddit.com/r/IdentityV/comments/1voxauj/unfortunatly_the_ai_situation_just_keeps_going/",
+          "date": "2026-08-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "Jacob Helberg - past senior advisor to Alex Karp (Palantir), whose wedding to Keith Rabois (\"PayPal Mafia\") was officiated by Sam Altman (OpenAI) - is taking Pax Silica, the Department of State's \"flagship effort on AI and supply chain security\", to universities nationwide via the Foundry School.\nThe national launch of the Foundry School is set in Cincinnati, &quot;to rebuild the nation&#39;s industrial base&quot; by having universities, &quot;translate this expertise into education.&quot; All t\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Jacob Helberg - past senior advisor to Alex Karp (Palantir), whose wedding to Ke\u2026",
+          "url": "https://www.reddit.com/r/cincinnati/comments/1vpwygd/jacob_helberg_past_senior_advisor_to_alex_karp/",
+          "date": "2026-08-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "Human vs. Wildlife: The Crisis Facing Pakistan's Ecosystem\nPakistan's wildlife, from snow leopards to marine turtles to one of the rarest pheasants on earth is disappearing fast, and climate change is speeding it up, even though the country barely contributes to the crisis causing it.\n\nOn this episode, we sat down with Rab Nawaz, Senior Director of Programmes at WWF Pakistan. In the field since 1993, he led the team that filmed the Western Tragopan pheasant for the first time in recorded history\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Human vs. Wildlife: The Crisis Facing Pakistan's Ecosystem\nPakistan's wildlife, \u2026",
+          "url": "https://www.youtube.com/watch?v=fedR7fjuKKw",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1142,14 +1478,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Forest and Conservation Technicians",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/19-4093/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Forest and Conservation Technicians",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/19-4093/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "19-4093",
+        "query": "Forest and Conservation Technicians",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1163,9 +1510,23 @@
           "youtube": 1
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 6,
+        "sources": {
+          "github": 3,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 3,
+          "x": 19,
+          "youtube": 1
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
