@@ -11,11 +11,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2024-08-29",
+    "to": "2026-08-29"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-29",
+  "expires": "2027-02-28",
   "programs": [
     "195aa",
     "mc-cm"
@@ -1406,6 +1406,209 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "In Australia cost estimators in construction are anchored by a voluntary professional body, the Australian Institute of Quantity Surveyors (AIQS), which awards the Certified Quantity Surveyor (CQS) credential, publishes the Australian Standard Method of Measurement (ASMM) and Best Practice Costing Manual, and enforces a mandatory Code of Professional Conduct with annual CPD.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "AIQS (via Cenex)",
+          "title": "Introduction to Quantity Surveying",
+          "url": "https://cenex.au/qs/introduction.html",
+          "date": "2026-08-29",
+          "whatItMeasured": "AIQS peak-body role, CQS credential, ASMM/BPCM standards, Code of Conduct + CPD"
+        },
+        {
+          "publisher": "Australian Institute of Quantity Surveyors",
+          "title": "AIQS Competency Standards for Quantity Surveyors, Construction Economists and Cost Engineers",
+          "url": "https://aiqs.com.au/wp-content/uploads/AIQS-Competency-Standards-for-Quantity-Surveyors-and-Construction-Economists-1.pdf",
+          "date": "2026-08-29",
+          "whatItMeasured": "AIQS competency standards covering cost estimators within the profession"
+        }
+      ],
+      "scope": "Construction cost estimators / quantity surveyors; voluntary professional accreditation, not a universal statutory licence.",
+      "refuteNotes": "3-lens: sources real (AIQS peak body + competency standards); measures the accredited cost-estimator population; current.",
+      "id": "13-1051-auto067",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "Cost-estimator roles carry statutory registration in some Australian jurisdictions: Victoria requires mandatory quantity-surveyor registration with the Victorian Building Authority, and Queensland requires RPEQ registration under the Professional Engineers Act 2002 for cost-engineering services - binding obligations absent in most other states.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Feasly (QS guide)",
+          "title": "Quantity Surveyors in Australian Property Development: Complete Cost Estimation Guide",
+          "url": "https://feasly.com.au/guides/quantity-surveyor-cost-estimation-guide-australia",
+          "date": "2026-08-29",
+          "whatItMeasured": "Victorian mandatory QS registration with VBA; AIQS CPD requirements"
+        },
+        {
+          "publisher": "Cenex (Engineers Australia)",
+          "title": "Chartered Cost Engineering | Engineers Australia Accreditation",
+          "url": "https://cenex.au/chartered-cost-engineering.html",
+          "date": "2026-08-29",
+          "whatItMeasured": "RPEQ statutory registration under Professional Engineers Act 2002 (Qld) for cost-engineers"
+        }
+      ],
+      "scope": "Victoria (VBA) and Queensland (RPEQ) only; other states have no equivalent statutory registration for cost estimators.",
+      "refuteNotes": "3-lens: sources real (industry guides citing VBA/RPEQ); measures state-registered cost-estimator sub-population; current.",
+      "id": "13-1051-auto068",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "AIQS also acts as the authorised skills-assessment authority for the Quantity Surveyor occupation (ANZSCO 233213) on the Migration Skills Assessment list, so the profession is formally assessed for migration purposes - a non-statutory but institutionally binding gate.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Visa Online",
+          "title": "Quantity Surveyor Visa Pathway Australia 2026 - ANZSCO 233213, AIQS",
+          "url": "https://australianvisaonline.com/occupations/quantity-surveyor-visa-pathway-australia",
+          "date": "2026-08-29",
+          "whatItMeasured": "AIQS as skills-assessment authority for ANZSCO 233213; occupation on MLTSSL/CSOL"
+        }
+      ],
+      "scope": "Migration-skills assessment population; not a licence to practise domestically.",
+      "refuteNotes": "3-lens: source real (visa-guide citing AIQS); measures the migration-assessed population; current.",
+      "id": "13-1051-auto069",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "A 2024 peer-reviewed systematic review (39 articles, 2016-2024) of AI in cost estimation finds deep-learning models achieve 85-90% accuracy, machine-learning 75-80% and regression 70-80% on cost-prediction tasks across construction, healthcare, manufacturing and real estate - evidence that AI is materially improving estimate accuracy.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "MDPI",
+          "title": "Advancement of Artificial Intelligence in Cost Estimation for Project Management Success: A Systematic Review",
+          "url": "https://mdpi.com/2673-3951/6/2/35",
+          "date": "2024-01-01",
+          "whatItMeasured": "Systematic review of 39 studies (2016-2024) on ML/DL/regression cost-estimation accuracy"
+        }
+      ],
+      "scope": "Multi-sector (construction, healthcare, manufacturing, real estate) literature review; not an AU employment study.",
+      "refuteNotes": "3-lens: source real (MDPI peer-reviewed); measures cost-estimation accuracy research; in window.",
+      "id": "13-1051-auto070",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "A 2026 peer-reviewed study (International Journal of Construction Management) of an AI-augmented Natural Language Processing model that aligns quantity take-offs with cost indexes achieved 82.96% agreement with QS estimates and only -2.05% total cost deviation, with the authors concluding the system 'complements QSs by serving as a notification tool' rather than replacing them.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "International Journal of Construction Management (Taylor & Francis)",
+          "title": "AI-augmented construction cost estimation: an ensemble NLP model to align quantity take-offs with cost indexes",
+          "url": "https://tandfonline.com/doi/pdf/10.1080/15623599.2025.2558070",
+          "date": "2026-01-01",
+          "whatItMeasured": "Ensemble NLP cost model tested on a high-rise; 82.96% agreement with QS estimates; augmentation framing"
+        }
+      ],
+      "scope": "Construction QS estimation; peer-reviewed but single-project validation. Augmentation, not substitution, finding.",
+      "refuteNotes": "3-lens: source real (peer-reviewed journal); measures QS estimation task; in window (2026).",
+      "id": "13-1051-auto071",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "A 2025 preprint (arXiv) of an AI-enabled 4D/5D digital-twin framework integrating NLP cost mapping and computer-vision progress measurement reports a 43% reduction in estimating labour on a nine-month US mid-rise project, illustrating tooling that compresses the estimating workload.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "arXiv (preprint)",
+          "title": "Simulation-Based Validation of an Integrated 4D/5D Digital-Twin Framework for Predictive Construction Control",
+          "url": "https://arxiv.org/pdf/2511.03684",
+          "date": "2025-11-01",
+          "whatItMeasured": "Digital-twin framework; 43% estimating-labour reduction on a DFW mid-rise case"
+        }
+      ],
+      "scope": "Single US project case; preprint (not peer-reviewed). Illustrative of labour compression, not an AU study.",
+      "refuteNotes": "3-lens: source real (arXiv preprint); measures one project's estimating-labour; in window. Preprint caveat.",
+      "id": "13-1051-auto072",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "Trade-press reality-check reporting finds the verified benefit of AI estimating is speed - contractors report 40-60% cuts in bid-prep time - while vendor 95-99% accuracy claims are overstated and the failure mode is systematic, so estimators who catch exceptions remain essential.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "constructionindustry.ai",
+          "title": "AI Estimating Is Claiming 99% Accuracy. Here's What Contractors Actually Find",
+          "url": "https://constructionindustry.ai/analysis/ai-takeoff-estimating-accuracy-reality-check",
+          "date": "2025-01-01",
+          "whatItMeasured": "AI estimating speed benefit real (40-60% bid-prep cut); accuracy claims overstated; augmentation"
+        }
+      ],
+      "scope": "Contractor adoption (largely US platforms); general pattern, not AU-specific. Vendor-claim scepticism noted.",
+      "refuteNotes": "3-lens: source real (trade analysis); measures contractor AI-estimating adoption; in window.",
+      "id": "13-1051-auto073",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "Industry reporting (citing the Associated General Contractors of America 2025 Outlook and BLS) states 44% of US firms plan to increase AI spending and 35% estimating-software investment, and that BLS projects cost-estimator employment to decline 4% from 2024-2034 'not because the work is going away, but because AI is making each estimator capable of doing more of it.'",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Azarian Growth Agency (citing AGC/BLS)",
+          "title": "How GCs Are Bidding on 2X the Jobs Without Hiring More Estimators",
+          "url": "https://azariangrowthagency.com/ai-construction-estimating-double-bid-volume",
+          "date": "2025-01-01",
+          "whatItMeasured": "AGC 2025: 44% raise AI spend, 35% estimating software; BLS -4% estimator employment 2024-2034 (augmentation)"
+        }
+      ],
+      "scope": "US construction firms and BLS projection; not an AU employment study. Signals augmentation-driven headcount compression.",
+      "refuteNotes": "3-lens: source real (trade piece citing AGC/BLS); measures US estimator employment trend; in window. US-scoped.",
+      "id": "13-1051-auto074",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "An accuracy audit of AI takeoff tools (2026) finds the only peer-reviewed measurement showed a tool within 5% of manual counts but concludes 'relying on the AI output alone is not advisable', with field reports of 60-95% accuracy depending on drawing quality - reinforcing human verification.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Bildrix Research",
+          "title": "AI Takeoff Accuracy: Advertised vs Measured (2026)",
+          "url": "https://bildrix.com/research/ai-takeoff-accuracy",
+          "date": "2026-01-01",
+          "whatItMeasured": "Audit of advertised vs measured AI takeoff accuracy; peer-reviewed study within 5% but not for sole reliance"
+        }
+      ],
+      "scope": "AI takeoff-tool accuracy generally; not AU-specific. Reinforces human-in-loop requirement.",
+      "refuteNotes": "3-lens: source real (research/analysis site); measures AI takeoff accuracy; in window (2026).",
+      "id": "13-1051-auto075",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
     }
   ],
   "jobAds": {
@@ -1435,7 +1638,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired_unattended",
+        "date": "2026-08-29",
+        "note": "OpenAthens/Factiva SSO not authenticated in unattended loop; L3 substituted with public trade-press. Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "date": "2026-08-29",
@@ -1465,5 +1676,12 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable this unattended run (OpenAthens SSO not authenticated); L3 rests on public trade-press / professional-body publications found via live web search. Gap logged in corpus.searchesReturningNothing, not evidence of quiet.",
+    "All L1/L2/L3 claims sourced from live web_search results (no constructed/templated URLs); quotes drawn from search-result excerpts with full-page fetch sampled for primary sources.",
+    "L4 LinkedIn and L5 last30days corpora were preserved from a prior automated pass and not re-run this run; they already carry real postings/items.",
+    "International L2 items (Nasdaq, Thomson Reuters, MDPI, International Trade Today) are scoped as global/US, not AU employment studies.",
+    "Adzuna jobAds count is an all-time live index size, not a 12-month time-series; treat as demand presence, not volume trend."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

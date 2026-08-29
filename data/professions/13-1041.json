@@ -11,11 +11,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2024-08-29",
+    "to": "2026-08-29"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-29",
+  "expires": "2027-02-28",
   "programs": [
     "274ab",
     "504aa"
@@ -1175,6 +1175,230 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Australia's AML/CTF Tranche 2 reforms (final Rules effective 29 August 2025, obligations commencing 1 July 2026) extend anti-money-laundering obligations to roughly 90,000 newly regulated professions - lawyers, accountants, conveyancers, real-estate agents and precious-metals dealers - each required to appoint an AML/CTF compliance officer, expanding the regulated compliance-officer population.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "AUSTRAC",
+          "title": "Your obligations (AML/CTF)",
+          "url": "https://austrac.gov.au/about-us/amlctf-reform/reforms-guidance/before-you-start/summary-obligations-reform",
+          "date": "2025-08-29",
+          "whatItMeasured": "AML/CTF Act 2006 obligations including the AML/CTF compliance officer role within reporting entities"
+        },
+        {
+          "publisher": "BellRocK Advisory",
+          "title": "AML/CTF reforms - a practical guide for newly regulated 'tranche two' entities",
+          "url": "https://bellrockadvisory.com/anti-money-laundering-and-counter-terrorism-financing-reforms-a-practical-guide-for-newly-regulated-tranche-two-entities",
+          "date": "2025-08-29",
+          "whatItMeasured": "Final AML/CTF Rules (29 Aug 2025) and the requirement to appoint an AML/CTF compliance officer across ~90,000 newly regulated entities"
+        }
+      ],
+      "scope": "AU reporting entities and the newly regulated Tranche 2 professions; the 90,000 figure is a reform-impact estimate reported by advisory/regulatory commentary, not the count of titled 'Compliance Officers'.",
+      "refuteNotes": "3-lens: sources real (austrac.gov.au primary; BellRocK advisory citing the Rules); measures the AU regulated compliance-officer population; in window (2025-2026 commencement).",
+      "id": "13-1041-auto056",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "In Australia the compliance profession is supported by voluntary professional accreditation rather than a single statutory licence: the GRC Institute (formerly ACI) delivers the nationally recognised 11418NAT Certificate IV in Compliance and Risk Management as a Registered Training Organisation, and the Governance Institute of Australia offers the Certified Compliance and Risk Professional (GRCI) designation.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "GRC Institute",
+          "title": "Compliance professional body Australia - ACI",
+          "url": "https://thegrcinstitute.org",
+          "date": "2026-08-29",
+          "whatItMeasured": "11418NAT Certificate IV in Compliance and Risk Management delivered by the peak compliance body"
+        },
+        {
+          "publisher": "Governance Institute of Australia",
+          "title": "Member application notes (GRCI designation)",
+          "url": "https://governanceinstitute.com.au/membership/member-application-notes",
+          "date": "2026-08-29",
+          "whatItMeasured": "Certified Compliance and Risk Professional (GRCI) eligibility and designation"
+        }
+      ],
+      "scope": "Voluntary professional accreditation; not a licensing regime. Many compliance officers hold no formal credential.",
+      "refuteNotes": "3-lens: sources real (professional-body sites); measures the accreditation population; current.",
+      "id": "13-1041-auto057",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "APRA's CPS 230 (operational risk, business continuity and third-party risk management) requires APRA-regulated entities to integrate risk and compliance into a unified framework, raising the compliance-officer remit in banking, superannuation and insurance.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Risk Management Institute of Australasia (RMIA)",
+          "title": "SAI360 Webinar: Bridging the Gap - Aligning Enterprise Risk and Compliance",
+          "url": "https://rmia.org.au/risk-management-events/sai360-webinar-bridging-the-gap",
+          "date": "2026-02-25",
+          "whatItMeasured": "CPS 230 integrated risk & compliance requirement for APRA-regulated entities"
+        }
+      ],
+      "scope": "APRA-regulated entities only (banks, insurers, super). Not the broader compliance population.",
+      "refuteNotes": "3-lens: source real (RMIA professional body); measures APRA-regulated compliance remit; in window (CPS 230 commencement 2025).",
+      "id": "13-1041-auto058",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "Nasdaq's 10th Global Compliance Survey (fielded May-July 2025, n=103 firms across Americas/EMEA/APAC) found 70% of compliance and regulatory-risk professionals expect to invest in AI over the next 12 months - nearly double the prior expected adoption rate - with operationalising AI the top challenge, ahead of regulatory change or fraud.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "RegTech Insight / Nasdaq",
+          "title": "AI Becomes Mainstream for Compliance - Nasdaq's 2025 Survey",
+          "url": "https://a-teaminsight.com/blog/ai-becomes-mainstream-for-compliance-nasdaqs-2025-survey?brand=rti",
+          "date": "2025-10-20",
+          "whatItMeasured": "n=103 regulated firms; 70% plan AI investment in 12 months; operationalising AI top challenge"
+        }
+      ],
+      "scope": "Global compliance professionals at regulated firms (103 respondents); not an AU-only employment study. Signals demand for AI skills in the role.",
+      "refuteNotes": "3-lens: source real (RegTech Insight reporting Nasdaq survey); measures global compliance practitioners; in window (2025).",
+      "id": "13-1041-auto059",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "Thomson Reuters' Future of Professionals 2025 report (survey of 2,275 legal, risk, compliance, tax and accounting professionals, Feb-Mar 2025) finds 80% expect AI to have a major impact within five years, and estimates ~$19,000 annual value per professional in US legal/tax-accounting - pointing to augmentation and productivity pressure on compliance work.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Thomson Reuters",
+          "title": "Future of Professionals Report 2025",
+          "url": "https://quantum.dk/future-of-professionals-report-2025-by-thomson-reuters",
+          "date": "2025-01-01",
+          "whatItMeasured": "n=2,275 professionals across legal/risk/compliance/tax/accounting; 80% expect major AI impact in 5 years"
+        }
+      ],
+      "scope": "Global professionals across legal/risk/compliance/tax/accounting; the $19k figure is US-scoped. Not an AU employment study.",
+      "refuteNotes": "3-lens: source real (Thomson Reuters survey); measures professional-services workforce; in window (2025). US $ figure scoped as US.",
+      "id": "13-1041-auto060",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "A 2025 peer-reviewed review (MDPI, Administrative Sciences) finds RegTech and SupTech are shifting compliance from manual, paper-based reporting toward automated, real-time oversight, noting institutions historically allocated 15-20% of operational budgets to compliance functions - a cost base AI tooling targets.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "MDPI (Administrative Sciences)",
+          "title": "Digital Regulatory Governance: The Role of RegTech and SupTech in Transforming Financial Oversight",
+          "url": "https://mdpi.com/2227-7072/13/4/217",
+          "date": "2025-01-01",
+          "whatItMeasured": "RegTech/SupTech literature review; institutions allocate 15-20% of budgets to compliance"
+        }
+      ],
+      "scope": "Financial oversight globally; literature review, not an AU employment study.",
+      "refuteNotes": "3-lens: source real (MDPI peer-reviewed); measures financial compliance function; in window (2025).",
+      "id": "13-1041-auto061",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "Coverage of the 2025 Western Cargo Conference reports trade-compliance experts arguing AI will not replace customs brokers because the work requires contextual judgement, with brokers shifting toward consultative work rather than paperwork - an augmentation rather than substitution signal for compliance-adjacent roles.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "International Trade Today",
+          "title": "Human Element Remains Critical as Companies Use AI for Trade Compliance, Experts Say",
+          "url": "https://internationaltradetoday.com/article/2025/10/14/human-element-remains-critical-as-companies-use-ai-for-trade-compliance-experts-say-2510140014",
+          "date": "2025-10-14",
+          "whatItMeasured": "Panel of trade-compliance experts; brokers augment not replace; more consultative work"
+        }
+      ],
+      "scope": "US trade/customs compliance; illustrative of an augmentation pattern, not an AU study.",
+      "refuteNotes": "3-lens: source real (trade publication); measures US customs-broker population; in window (2025).",
+      "id": "13-1041-auto062",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "Trade-press analysis (ETCISO, 2025) reports AI is absorbing the mechanical layers of GRC work - evidence collection, control checks, policy mapping and documentation - shifting compliance roles from hands-on execution toward review, interpretation and advising leadership, i.e. toward judgement and prioritisation.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "ETCISO / Economic Times",
+          "title": "How AI is Transforming Governance, Risk, and Compliance (GRC) Roles",
+          "url": "https://ciso.economictimes.indiatimes.com/news/corporate/ai-rebuilt-compliance-can-leadership-keep-up/133460173",
+          "date": "2025-01-01",
+          "whatItMeasured": "GRC roles shifting to review/advisory as AI absorbs mechanical tasks"
+        }
+      ],
+      "scope": "GRC roles broadly; India-based outlet but describes a general pattern. Not an AU employment count.",
+      "refuteNotes": "3-lens: source real (trade publication); measures GRC role evolution; in window (2025).",
+      "id": "13-1041-auto063",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "Corporate Compliance Insights' 2025 review places AI compliance expansion among the year's defining GRC stories, with compliance functions drawn into strategic conversations (e.g. tariff exposure, supply-chain risk) rather than confined to reactive monitoring.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Corporate Compliance Insights",
+          "title": "Top Stories of 2025",
+          "url": "https://corporatecomplianceinsights.com/top-grc-stories-2025",
+          "date": "2025-12-01",
+          "whatItMeasured": "AI compliance + the elevated strategic role of the compliance function in 2025"
+        }
+      ],
+      "scope": "US-centric GRC commentary; signals role elevation, not an AU hiring study.",
+      "refuteNotes": "3-lens: source real (trade publication); measures GRC discourse; in window (2025).",
+      "id": "13-1041-auto064",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "An Australia-focused advisory piece (CheckFile, 2026) describes compliance automation across AUSTRAC, ASIC and Privacy Act obligations as 'a fundamental operational requirement' for scaling regulatory compliance, indicating AU compliance teams are actively deploying AI-assisted workflows.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "CheckFile (GRC advisory)",
+          "title": "Compliance Automation in Australia: How AI Is Transforming Regulatory Workflows in 2026",
+          "url": "https://checkfile.ai/en-AU/blog/compliance-automation-regulatory-workflows",
+          "date": "2026-01-01",
+          "whatItMeasured": "AU compliance automation across AUSTRAC/ASIC/Privacy Act obligations"
+        }
+      ],
+      "scope": "Australian regulated entities; vendor advisory, not an independent study. One vendor viewpoint.",
+      "refuteNotes": "3-lens: source real (vendor blog); measures AU compliance-tooling narrative; in window (2026). Vendor bias noted.",
+      "id": "13-1041-auto065",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
     }
   ],
   "jobAds": {
@@ -1204,7 +1428,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired_unattended",
+        "date": "2026-08-29",
+        "note": "OpenAthens/Factiva SSO not authenticated in unattended loop; L3 substituted with public trade-press. Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "date": "2026-08-29",
@@ -1234,5 +1466,12 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable this unattended run (OpenAthens SSO not authenticated); L3 rests on public trade-press / professional-body publications found via live web search. Gap logged in corpus.searchesReturningNothing, not evidence of quiet.",
+    "All L1/L2/L3 claims sourced from live web_search results (no constructed/templated URLs); quotes drawn from search-result excerpts with full-page fetch sampled for primary sources.",
+    "L4 LinkedIn and L5 last30days corpora were preserved from a prior automated pass and not re-run this run; they already carry real postings/items.",
+    "International L2 items (Nasdaq, Thomson Reuters, MDPI, International Trade Today) are scoped as global/US, not AU employment studies.",
+    "Adzuna jobAds count is an all-time live index size, not a 12-month time-series; treat as demand presence, not volume trend."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

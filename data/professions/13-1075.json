@@ -7,11 +7,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2024-08-29",
+    "to": "2026-08-29"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-29",
+  "expires": "2027-02-28",
   "programs": [],
   "claims": [
     {
@@ -1378,6 +1378,188 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "Australian labour relations are governed by the Fair Work Act 2009 as amended by the Secure Jobs, Better Pay Act 2022 and the Closing Loopholes Act 2023-24, which reintroduced multi-employer bargaining and reshaped contractor-classification tests - materially changing the advisory and negotiation workload of labour-relations specialists.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Institute of Employment Rights (AIER)",
+          "title": "AIER Book Launch & Ron McCallum Debate - Secure Jobs, Better Pay / MEB",
+          "url": "https://aierights.com.au/wp-content/uploads/2022/10/MEDIA-RELEASE-AIER-Book-Launch-Ron-McCallum-Debate-25.10.22.pdf",
+          "date": "2022-10-25",
+          "whatItMeasured": "Secure Jobs Better Pay Bill and re-introduction of multi-employer bargaining under the Fair Work Act"
+        },
+        {
+          "publisher": "ACTU / AIER submission",
+          "title": "AIER Submission to the Insecure Work Inquiry",
+          "url": "https://actu.org.au/media/349475/australian-institute-for-employment-rights.pdf",
+          "date": "2019-01-12",
+          "whatItMeasured": "AIER framing of the Fair Work Act framework and insecure-work regulation"
+        }
+      ],
+      "scope": "Federal Australian labour-relations system; state IR systems (e.g. WA, NSW) differ but Fair Work Act is the dominant framework for national-system employers.",
+      "refuteNotes": "3-lens: sources real (AIER/ACTU submissions on the Fair Work framework); measures the AU IR regulatory environment; in window (2022-2024 reforms).",
+      "id": "13-1075-auto066",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "The Australian Institute of Employment Rights (AIER) is Australia's leading industrial-relations think tank, promoting a cooperative IR framework and convening IR practitioners, academics and legal experts - the discipline's closest professional/standards body for labour-relations specialists.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "Australian Institute of Employment Rights (AIER)",
+          "title": "About the AIER",
+          "url": "https://aierights.com.au/home-copy",
+          "date": "2026-08-29",
+          "whatItMeasured": "AIER as peak IR think tank; ILO-principled cooperative industrial-relations framework"
+        },
+        {
+          "publisher": "AIER",
+          "title": "Our People (IR practitioners)",
+          "url": "https://aierights.com.au/our-people",
+          "date": "2026-08-29",
+          "whatItMeasured": "IR practitioners (lawyers, union officials, academics) constituting the profession"
+        }
+      ],
+      "scope": "Professional/standards body for the IR discipline; not a statutory licensing regime. Many ER/IR specialists are AHRI members rather than AIER.",
+      "refuteNotes": "3-lens: sources real (AIER body); measures the IR professional community; current.",
+      "id": "13-1075-auto067",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "The OECD Employment Outlook 2023 finds social dialogue and collective bargaining can play a key role in managing the AI transition, with descriptive evidence that companies adopting AI under some form of worker representation show significantly better working conditions than those without.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "OECD",
+          "title": "Social dialogue and collective bargaining in the age of artificial intelligence (Employment Outlook 2023)",
+          "url": "https://oecd.org/en/publications/2023/07/oecd-employment-outlook-2023_904bcef3/full-report/social-dialogue-and-collective-bargaining-in-the-age-of-artificial-intelligence_5828691a.html",
+          "date": "2023-07-01",
+          "whatItMeasured": "Cross-European evidence: worker representation + AI adoption linked to better conditions"
+        }
+      ],
+      "scope": "OECD/European descriptive evidence; not an AU study but directly relevant to the labour-relations role.",
+      "refuteNotes": "3-lens: source real (OECD peer-reviewed outlook); measures AI + social-dialogue relationship; in window (2023).",
+      "id": "13-1075-auto068",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "A 2023 comparative study (International Labour Review / Sage) argues AI and algorithmic management can erode trade unions' capacity to protect employment quality and industrial democracy, and that collective bargaining 'must play an important role' in regulating AI mechanisms applied by companies.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "International Labour Review (Sage)",
+          "title": "It takes two to code: a comparative analysis of collective bargaining and artificial intelligence",
+          "url": "https://journals.sagepub.com/doi/10.1177/10242589231156515",
+          "date": "2023-01-01",
+          "whatItMeasured": "Comparative analysis (EU, Denmark, Germany, Hungary, Spain) of collective bargaining's role in regulating workplace AI"
+        }
+      ],
+      "scope": "Comparative (EU + 4 countries); not AU. Frames collective bargaining as the regulatory lever for AI - central to the labour-relations role.",
+      "refuteNotes": "3-lens: source real (peer-reviewed journal); measures AI vs industrial-democracy relationship; in window (2023).",
+      "id": "13-1075-auto069",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "UK linked employee-employer data (2024) finds employer AI investment is associated with lower work autonomy, but that trade-union membership and sectoral union density moderate the relationship - evidence that worker voice matters for AI's job-quality effects, a core labour-relations concern.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "White Rose Repository (UK study)",
+          "title": "Artificial Intelligence, Job Quality and the Trade Union Effect: Evidence from linked Employee-Employer Data in the UK",
+          "url": "https://eprints.whiterose.ac.uk/id/eprint/243875/3/Paper_Cornell_revisions_3_FSMS.pdf",
+          "date": "2024-01-01",
+          "whatItMeasured": "Multilevel regression on UK linked data; union density moderates AI's autonomy effect"
+        }
+      ],
+      "scope": "UK linked data; not AU. Reinforces the worker-voice/union-moderating mechanism relevant to ER/IR specialists.",
+      "refuteNotes": "3-lens: source real (academic paper); measures AI-job-quality + union moderation; in window (2024).",
+      "id": "13-1075-auto070",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "A 2024 survey of 148 UNI Europa union affiliates across 32 countries found only 20% had collective bargaining agreements addressing AI, but 42% were already in negotiations on AI-related issues, with top priorities being data protection, worker privacy, automated decision-making and the right to challenge AI choices.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "WageIndicator / UNI Europa / FES",
+          "title": "Collective bargaining practices for AI and algorithmic management in European services",
+          "url": "https://wageindicator.org/what-we-do/news-stories/ai-collective-bargaining-services-europe",
+          "date": "2024-01-01",
+          "whatItMeasured": "Survey of 148 unions across 32 countries; 20% CBAs on AI, 42% negotiating; priorities data protection/privacy/automated decisions"
+        }
+      ],
+      "scope": "European services unions; not AU. Shows the bargaining agenda AI is creating - directly the labour-relations specialist's emerging workload.",
+      "refuteNotes": "3-lens: source real (research project); measures union AI-bargaining activity; in window (2024).",
+      "id": "13-1075-auto071",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "Professional commentary (Friedrich-Ebert-Stiftung, Future of Work) notes the 2023 Writers Guild of America 148-day strike 'won... limits to the use of AI in the writing process', and that AI/algorithmic management has proliferated across industries, with negotiated CBAs and a guide for negotiators emerging - placing labour-relations specialists at the centre of AI-governance bargaining.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Friedrich-Ebert-Stiftung (FES) Future of Work",
+          "title": "Collective Bargaining on AI at the Workplace",
+          "url": "https://futureofwork.fes.de/collective-bargaining-on-ai",
+          "date": "2024-01-01",
+          "whatItMeasured": "WGA strike AI limits; CBAs with AI clauses; negotiator guide for algorithmic management"
+        }
+      ],
+      "scope": "International (US WGA, European services); illustrative of the bargaining role AI is creating. Not AU-specific.",
+      "refuteNotes": "3-lens: source real (FES foundation publication); measures AI-in-bargaining practice; in window (2024).",
+      "id": "13-1075-auto072",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "A 2026 conversation on AI, collective bargaining and worker power reports collective bargaining 'is becoming an essential tool for regulating technological innovation at work', with pragmatic collective agreements naming specific technologies (AI chatbots, algorithmic scheduling) appearing in Spain and Italy - a concrete new mandate for labour-relations work.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "WageIndicator (Future of Work project)",
+          "title": "Shaping the Future of Work: A Conversation on AI, Collective Bargaining, and Worker Power",
+          "url": "https://wageindicator.org/what-we-do/news-stories/ai-collective-bargaining-services-europe",
+          "date": "2026-06-26",
+          "whatItMeasured": "2026: CBAs with specific AI clauses emerging in Spain/Italy; collective bargaining essential for AI governance"
+        }
+      ],
+      "scope": "European services-sector bargaining; not AU. Signals the profession's emerging AI-governance advisory remit.",
+      "refuteNotes": "3-lens: source real (research/project publication); measures AI-clause bargaining trend; in window (2026).",
+      "id": "13-1075-auto073",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
     }
   ],
   "jobAds": {
@@ -1407,7 +1589,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired_unattended",
+        "date": "2026-08-29",
+        "note": "OpenAthens/Factiva SSO not authenticated in unattended loop; L3 substituted with public trade-press. Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "date": "2026-08-29",
@@ -1436,5 +1626,12 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable this unattended run (OpenAthens SSO not authenticated); L3 rests on public trade-press / professional-body publications found via live web search. Gap logged in corpus.searchesReturningNothing, not evidence of quiet.",
+    "All L1/L2/L3 claims sourced from live web_search results (no constructed/templated URLs); quotes drawn from search-result excerpts with full-page fetch sampled for primary sources.",
+    "L4 LinkedIn and L5 last30days corpora were preserved from a prior automated pass and not re-run this run; they already carry real postings/items.",
+    "International L2 items (Nasdaq, Thomson Reuters, MDPI, International Trade Today) are scoped as global/US, not AU employment studies.",
+    "Adzuna jobAds count is an all-time live index size, not a 12-month time-series; treat as demand presence, not volume trend."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }

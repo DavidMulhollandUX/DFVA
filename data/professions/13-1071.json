@@ -11,11 +11,11 @@
   ],
   "anzsco": "220000",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2024-08-29",
+    "to": "2026-08-29"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-29",
+  "expires": "2027-02-28",
   "programs": [],
   "claims": [
     {
@@ -1928,6 +1928,209 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "text": "In Australia the recruitment and staffing profession is self-regulated through the Recruitment, Consulting and Staffing Association (RCSA), whose ACCC-authorised Code for Professional Conduct sets standards for confidentiality, honest dealing and compliance, and whose Accredited Professional Recruiter (APRCSA) certification covers the Fair Work Act 2009, labour-hire licensing, contractor classification, privacy, WHS and anti-discrimination law.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "RCSA (peak body)",
+          "title": "RCSA - peak body for the recruitment and staffing industry",
+          "url": "https://rcsa.com.au",
+          "date": "2026-08-29",
+          "whatItMeasured": "RCSA peak body; ACCC-authorised Code for Professional Conduct; membership prerequisite"
+        },
+        {
+          "publisher": "Productivity Commission (RCSA submission)",
+          "title": "Submission 248 - Recruitment and Consulting Services Association - Workplace Relations Framework",
+          "url": "http://assets.pc.gov.au/__data/assets/pdf_file/0005/189869/sub0248-workplace-relations.pdf",
+          "date": "2026-08-29",
+          "whatItMeasured": "RCSA represents 60%+ of AU on-hire workers; ACCC-authorised Code binding on members"
+        },
+        {
+          "publisher": "RCSA APRCSA exam prep",
+          "title": "RCSA Accredited Professional Recruiter (APRCSA) - exam content",
+          "url": "https://open-exam-prep.com/practice/au-rcsa-recruitment-consulting-certificate",
+          "date": "2026-08-29",
+          "whatItMeasured": "APRCSA covers Fair Work Act 2009, NES, labour hire licensing, privacy, WHS, anti-discrimination"
+        }
+      ],
+      "scope": "Private recruitment/staffing/on-hire sector bound by the RCSA Code (members); not a statutory licence for all recruiters.",
+      "refuteNotes": "3-lens: sources real (RCSA peak body + PC submission + certification outline); measures the accredited recruitment-profession population; current.",
+      "id": "13-1071-auto092",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "Placement and on-hire recruitment firms are subject to state labour-hire licensing regimes - Victoria (Labour Hire Licensing Act 2018), Queensland, South Australia and the ACT require providers operating as labour hire to hold a licence, binding a subset of employment-placement specialists to a licensing obligation absent in other states.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "RCSA (SA Labour Hire Licensing submission)",
+          "title": "RCSA Submission to the Labour Hire Licensing Reforms Discussion Paper 2025",
+          "url": "https://rcsa.com.au/common/Uploaded%20files/RCSA%20Submissions/2025/2025_Aug_RCSA_Submission_SA_Labour_Hire_Licensing_Reforms.pdf",
+          "date": "2025-08-01",
+          "whatItMeasured": "State labour-hire licensing regimes (Vic 2018, Qld, SA, ACT) requiring provider licences"
+        }
+      ],
+      "scope": "On-hire/labour-hire placement activity in the four licensing states only; not recruitment generally.",
+      "refuteNotes": "3-lens: source real (RCSA submission on licensing); measures the licensed on-hire sub-population; in window (2025).",
+      "id": "13-1071-auto093",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "A peer-reviewed experiment (AAAI/AIES 2025) of biased LLM hiring recommendations finds people favor AI-favored candidates up to 90% of the time, though an implicit-association test before screening raised selection of stereotype-dissenting candidates by 13% - evidence that human-in-the-loop does not automatically correct AI bias.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "AAAI AIES (arXiv 2509.04404)",
+          "title": "No Thoughts Just AI: Biased LLM Hiring Recommendations Alter Human Decision Making and Limit Human Autonomy",
+          "url": "https://doi.org/10.48550/arxiv.2509.04404",
+          "date": "2025-09-01",
+          "whatItMeasured": "Large-scale human-subjects experiment on biased AI hiring recommendations and human autonomy"
+        }
+      ],
+      "scope": "Experimental study of AI-HITL hiring decisions; not an AU employment study but directly relevant to recruiter tooling.",
+      "refuteNotes": "3-lens: source real (peer-reviewed AIES); measures AI-in-the-loop hiring bias; in window (2025).",
+      "id": "13-1071-auto094",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "A 2026 empirical study of algorithmic hiring finds large language models systematically prefer resumes they generated themselves, giving candidates using the same AI as the screener a 23-60% higher shortlist likelihood, with self-preference bias of 67-82% across major models - a new bias class beyond demographic fairness.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "arXiv 2509.00462",
+          "title": "AI Self-preferencing in Algorithmic Hiring: Empirical Evidence and Insights",
+          "url": "https://arxiv.org/pdf/2509.00462v4",
+          "date": "2026-06-01",
+          "whatItMeasured": "2,245-resume controlled experiment; LLM self-preference bias 67-82%; 23-60% shortlist advantage"
+        }
+      ],
+      "scope": "Algorithmic screening with LLM evaluators; not AU-specific but directly shapes recruiter screening tools.",
+      "refuteNotes": "3-lens: source real (arXiv empirical study); measures LLM screening bias; in window (2026).",
+      "id": "13-1071-auto095",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "A 2025 audit of eight AI resume-screening platforms reports an 'Illusion of Neutrality': some models that appear unbiased are in fact incapable of substantive evaluation, relying on superficial keyword matching, while LinkedIn's 2025 Future of Recruiting report notes AI is freeing recruiters to focus on strategic work - pointing to augmentation with a competence caveat.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "arXiv 2507.11548",
+          "title": "Fairness Is Not Enough: Auditing Competence and Intersectional Bias in AI-powered Resume Screening",
+          "url": "https://arxiv.org/pdf/2507.11548v2",
+          "date": "2025-07-01",
+          "whatItMeasured": "Audit of 8 AI screening platforms; competence + demographic bias; cites LinkedIn 2025 Future of Recruiting"
+        }
+      ],
+      "scope": "AI screening-platform competence audit; general, not AU. Reinforces human-oversight need.",
+      "refuteNotes": "3-lens: source real (arXiv audit); measures AI screening competence; in window (2025).",
+      "id": "13-1071-auto096",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "A 2026 US Skills Data Dashboard (Bipartisan Policy Center) shows employment-placement agencies with the strongest growth in AI-skills job postings (+67-69% YoY, ~113,000 postings) and that 61% of staffing firms now use AI for candidate communication, matching, screening and sales outreach, up from 48% in 2024 - signalling rapid AI embedding in the placement role.",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Bipartisan Policy Center",
+          "title": "Industries with the Fastest Growth in Demand for AI Skills July 2026",
+          "url": "https://bipartisanpolicy.org/article/industries-with-the-fastest-growth-in-demand-for-ai-skills-july-2026",
+          "date": "2026-07-01",
+          "whatItMeasured": "Employment placement agencies +67-69% AI-skills posting growth; 61% staffing firms use AI (up from 48% 2024)"
+        }
+      ],
+      "scope": "US labour-market data; signals the direction of the placement role globally, not an AU employment count.",
+      "refuteNotes": "3-lens: source real (policy-centre dashboard); measures US staffing-firm AI adoption; in window (2026). US-scoped.",
+      "id": "13-1071-auto097",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "Trade-press commentary (LinkedIn, 2025) reports talent teams using agentic AI to draft job ads, summarise CVs, schedule interviews and nudge hiring managers, but argues 'the future isn't about replacing recruiters with AI, it's about augmenting them so they can spend more time where it matters: with people', with the EU AI Act classifying most recruitment tools as high-risk.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "LinkedIn (recruitment commentary)",
+          "title": "The Evolution of Recruitment in 2025: What's Next?",
+          "url": "https://linkedin.com/pulse/evolution-recruitment-2025-whats-next-collins-search-lituf",
+          "date": "2025-01-01",
+          "whatItMeasured": "Agentic AI in recruiting; EU AI Act high-risk classification; augmentation framing"
+        }
+      ],
+      "scope": "Recruitment-industry commentary; general, not AU-specific. Augmentation narrative.",
+      "refuteNotes": "3-lens: source real (LinkedIn commentary); measures recruiter-tooling discourse; in window (2025).",
+      "id": "13-1071-auto098",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "Industry reporting (citing SHRM 2025 and LinkedIn data) states 43% of organisations now use AI for HR tasks (up from 26% in 2024) and 37% are integrating generative AI in recruiting, while 18% of standard HR recruiter roles have been eliminated since 2023 and 71% of US adults oppose AI making final hiring decisions - a mixed augmentation-and-contraction picture.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "PreviewMe (citing SHRM/LinkedIn)",
+          "title": "AI Transforms Recruitment: What Mid-Market Leaders Must Know by 2026",
+          "url": "https://resources.previewme.com/reports/ai-transforms-recruitment",
+          "date": "2025-01-01",
+          "whatItMeasured": "SHRM 2025: 43% orgs use AI for HR (up from 26% 2024); 18% HR recruiter roles eliminated since 2023; 71% oppose AI final decisions"
+        }
+      ],
+      "scope": "US/global organisational AI-HR adoption; contraction figure is US. Not an AU employment count.",
+      "refuteNotes": "3-lens: source real (industry report citing SHRM/LinkedIn); measures HR-AI adoption trend; in window (2025). US-scoped.",
+      "id": "13-1071-auto099",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
+    },
+    {
+      "text": "Coverage of an ILO report (via AFP, 2025) finds around one in four workers worldwide are in an occupation with some degree of generative-AI exposure, but 'few jobs are currently at high risk of full automation', with employers instead seeking workers with different, evolving skills - an augmentation-over-substitution signal for placement work.",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Phys.org (AFP / ManpowerGroup)",
+          "title": "AI's arrival at work reshaping employers' hunt for talent",
+          "url": "https://phys.org/news/2025-06-ai-reshaping-employers-talent.pdf",
+          "date": "2025-06-14",
+          "whatItMeasured": "ILO May 2025 report: 1 in 4 workers GenAI-exposed; few at high risk of full automation"
+        }
+      ],
+      "scope": "Global (ILO) assessment; not AU-specific. Signals exposure without mass substitution.",
+      "refuteNotes": "3-lens: source real (news wire citing ILO); measures global occupational exposure; in window (2025).",
+      "id": "13-1071-auto100",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false
     }
   ],
   "jobAds": {
@@ -1957,7 +2160,15 @@
       }
     ],
     "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
+    "searchesReturningNothing": [
+      {
+        "lane": "L3",
+        "source": "factiva",
+        "reason": "auth_expired_unattended",
+        "date": "2026-08-29",
+        "note": "OpenAthens/Factiva SSO not authenticated in unattended loop; L3 substituted with public trade-press. Gap logged, not evidence of quiet."
+      }
+    ],
     "linkedin": [
       {
         "date": "2026-08-29",
@@ -1986,5 +2197,12 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 trade-press lane unavailable this unattended run (OpenAthens SSO not authenticated); L3 rests on public trade-press / professional-body publications found via live web search. Gap logged in corpus.searchesReturningNothing, not evidence of quiet.",
+    "All L1/L2/L3 claims sourced from live web_search results (no constructed/templated URLs); quotes drawn from search-result excerpts with full-page fetch sampled for primary sources.",
+    "L4 LinkedIn and L5 last30days corpora were preserved from a prior automated pass and not re-run this run; they already carry real postings/items.",
+    "International L2 items (Nasdaq, Thomson Reuters, MDPI, International Trade Today) are scoped as global/US, not AU employment studies.",
+    "Adzuna jobAds count is an all-time live index size, not a 12-month time-series; treat as demand presence, not volume trend."
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }
