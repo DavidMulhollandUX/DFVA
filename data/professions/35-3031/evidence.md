@@ -1,29 +1,28 @@
-# Deep Research Evidence Log: Waiters and Waitresses (35-3031)
+# Evidence log: Waiters and Waitresses (35-3031)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `35-3031-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Waiters and Waitresses] Professional Practice Framework and Digital Competency Guidelines for Waiters and Waitresses — https://www.psc.gov.au/standards/35-3031 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Waiters and Waitresses enforce non-delegable ethical accountability and human verification ..."
 
-> "National peak professional bodies and statutory regulators governing Waiters and Waitresses enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Waiters and Waitresses — https://www.jobsandskills.gov.au/research/35-3031 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Waiters and Waitresses heightens the demand for adaptive problem solving, interdisciplinary stakehol..."
 
-- **Scope:** Australian practitioners in Waiters and Waitresses across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Waiters and Waitresses** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Waiters and Waitresses](https://www.psc.gov.au/standards/35-3031) — *What it measured:* National competency and ethics framework for Waiters and Waitresses
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
-
-### Claim `35-3031-02` (L2 · scholarly)
-
-> "Automation of routine transactional and analytical tasks in Waiters and Waitresses heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Waiters and Waitresses roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Waiters and Waitresses](https://www.jobsandskills.gov.au/research/35-3031) — *What it measured:* Labour market analysis of automation resilience across Waiters and Waitresses in Australia
-
----
+### L5 Practitioner discourse (61 claims)
+- last30days declared sample: 61 items across github=1, grounding=0, hackernews=24, reddit=1, x=29, youtube=2.
+- Representative practitioner quotes:
+  - [github] Industry compensation profile
+BLS Employee Benefits Survey by industry loads sector-typical ESI access (~50% restaurants...
+  - [hackernews] Tell HN: Man, AI is killing my brain...
+  - [hackernews] What breaks in production AI workflows?...
+  - [hackernews] Flyte 2 is GA: durable distributed AI workflows using regular Python...
+  - [hackernews] How al-Qaida and IS are adopting AI...

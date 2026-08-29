@@ -1259,6 +1259,300 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l460",
+      "text": "Section Waiters/Waitresses \u2014 ESCA Group (Millers Point, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "ESCA Group",
+          "title": "Section Waiters/Waitresses",
+          "url": "https://www.linkedin.com/jobs/view/4452963977",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l461",
+      "text": "Waitress \u2014 Work-Mantra (Sydney, New South Wales, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Work-Mantra",
+          "title": "Waitress",
+          "url": "https://www.linkedin.com/jobs/view/4433631133",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l462",
+      "text": "Server \u2014 Gators Dockside (Greater Melbourne Area). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Gators Dockside",
+          "title": "Server",
+          "url": "https://www.linkedin.com/jobs/view/4457871682",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l463",
+      "text": "Server \u2014 SERENBE REAL ESTATE (Yallingup, Western Australia, Australia). Posted 1 month ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "SERENBE REAL ESTATE",
+          "title": "Server",
+          "url": "https://www.linkedin.com/jobs/view/4438921331",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l464",
+      "text": "Food & Beverage Attendant - The Dining Room (Breakfast) \u2014 Park Hyatt (Sydney, New South Wales, Australia). Posted 2 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Park Hyatt",
+          "title": "Food & Beverage Attendant - The Dining Room (Breakfast)",
+          "url": "https://www.linkedin.com/jobs/view/4431676068",
+          "date": "2 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l465",
+      "text": "FOH Crew (Waitstaff, Hosts, Bartenders, Sommeliers) | Lucas Collective \u2014 Lucas Collective (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Lucas Collective",
+          "title": "FOH Crew (Waitstaff, Hosts, Bartenders, Sommeliers) | Lucas Collective",
+          "url": "https://www.linkedin.com/jobs/view/4449974835",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l466",
+      "text": "Boardroom Waiter \u2014 Allens (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Allens",
+          "title": "Boardroom Waiter",
+          "url": "https://www.linkedin.com/jobs/view/4450067690",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l467",
+      "text": "FOH Crew (Waitstaff, Hosts, Bartenders, Sommeliers) | Lucas Collective \u2014 Lucas Collective (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Lucas Collective",
+          "title": "FOH Crew (Waitstaff, Hosts, Bartenders, Sommeliers) | Lucas Collective",
+          "url": "https://www.linkedin.com/jobs/view/4451520358",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l468",
+      "text": "Boardroom Waiter \u2014 Allens (Perth, Western Australia, Australia). Posted 13 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Allens",
+          "title": "Boardroom Waiter",
+          "url": "https://www.linkedin.com/jobs/view/4439198796",
+          "date": "13 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l469",
+      "text": "Section Waiter Full Time and Casual \u2014 CATERING HQ (Castle Hill, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "CATERING HQ",
+          "title": "Section Waiter Full Time and Casual",
+          "url": "https://www.linkedin.com/jobs/view/4449819480",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l570",
+      "text": "Industry compensation profile\nBLS Employee Benefits Survey by industry loads sector-typical ESI access (~50% restaurants, ~90% tech), employer premium share, 401(k) availability, paid leave, and tipped-income defaults \u2014 overridable hints, not gates. Same income looks very different across industries.\n\n**Related:** #258 (ACA PTC\n> **AI-synthesized scoping research** \u00b7 2026-05-13\n>\n> Brief drafted by a Claude agent from primary sources (BLS / Census / AHRQ / KFF / DOL). Numbers, URLs, and dataset \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Industry compensation profile\nBLS Employee Benefits Survey by industry loads sec\u2026",
+          "url": "https://github.com/TheBudgetAtlas/thebudgetatlas/issues/260",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "Provenance (*) -Philadelphia, PA\nA late post from a birthday dinner at Provenance in June. My partner and I were joined by two other friends from out of town. We opted to book the private cellar room for dinner and brought a few bottles of wine to open. A few weeks prior, the restaurant reached out to confirm any dietary restrictions, sent over the wine list, and asked for the names of everyone in our party. We were also told to arrive 10 minutes before dinner start time. Provenance has three di\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Provenance (*) -Philadelphia, PA\nA late post from a birthday dinner at Provenanc\u2026",
+          "url": "https://www.reddit.com/r/finedining/comments/1vdu0en/provenance_philadelphia_pa/",
+          "date": "2026-08-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "The Danger of Giving AI Agents 'Chainsaw Access' to Your Servers\nAI agent security is broken because developers mistake processing horsepower for situational awareness. If you give an autonomous LLM write-access to your production database, you are letting a blind probability engine run wild in your server room. This breakdown breaks down why \"System Prompts\" fail against indirect prompt injection, how reward collapse triggers catastrophic data deletion, and why you must enforce structural engin\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The Danger of Giving AI Agents 'Chainsaw Access' to Your Servers\nAI agent securi\u2026",
+          "url": "https://www.youtube.com/watch?v=9DprqlW-nMA",
+          "date": "2026-06-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "How 7,000 AI Servers Were Hacked in 4 Hours! \ud83d\udc7e (Motion Graphic Breakdown)\nThe AI revolution has a massive blind spot! \ud83d\udea8 In this motion graphic breakdown, we dissect the catastrophic CVE-2026-5027 vulnerability that allowed hackers to breach over 7,000 Langflow and LangChain servers. Watch how attackers bypass traditional firewalls using Prompt Injection, exfiltrate OpenAI API keys, and turn $40,000 H100 GPUs into cryptojacking zombies. Is your AI infrastructure secure? \n\n\ud83d\udc47 READ THE FULL MULTILIN\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "How 7,000 AI Servers Were Hacked in 4 Hours! \ud83d\udc7e (Motion Graphic Breakdown)\nThe AI\u2026",
+          "url": "https://www.youtube.com/watch?v=sKJoMfp-maU",
+          "date": "2026-06-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1289,14 +1583,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Waiters and Waitresses",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/35-3031/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Waiters and Waitresses",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/35-3031/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "35-3031",
+        "query": "Waiters and Waitresses",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1310,9 +1615,23 @@
           "youtube": 2
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 4,
+        "sources": {
+          "github": 1,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 1,
+          "x": 29,
+          "youtube": 2
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
