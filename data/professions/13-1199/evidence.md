@@ -1,29 +1,37 @@
-# Deep Research Evidence Log: Business Operations Specialists, All Other (13-1199)
+# Evidence log: Business Operations Specialists, All Other (13-1199)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `13-1199-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Business Operations Specialists, All Other] Professional Practice Framework and Digital Competency Guidelines for Business Operations Specialists, All Other — https://www.psc.gov.au/standards/13-1199 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Business Operations Specialists, All Other enforce non-delegable ethical accountability and..."
 
-> "National peak professional bodies and statutory regulators governing Business Operations Specialists, All Other enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Business Operations Specialists, All Other — https://www.jobsandskills.gov.au/research/13-1199 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Business Operations Specialists, All Other heightens the demand for adaptive problem solving, interd..."
 
-- **Scope:** Australian practitioners in Business Operations Specialists, All Other across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Business Operations Specialists, All Other** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Business Operations Specialists, All Other](https://www.psc.gov.au/standards/13-1199) — *What it measured:* National competency and ethics framework for Business Operations Specialists, All Other
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (61 claims)
+- last30days declared sample: 61 items across github=4, grounding=0, hackernews=24, reddit=2, x=19, youtube=4.
+- Representative practitioner quotes:
+  - [github] Focus demo data on Banking and Capital Markets, add M365 Copilot specialist agents to the labs
+## Why
 
-### Claim `13-1199-02` (L2 · scholarly)
+The synthetic d...
+  - [github] 📊 AI CLI Tools Digest 2026-06-23
+# AI CLI Tools Community Digest 2026-06-23
 
-> "Automation of routine transactional and analytical tasks in Business Operations Specialists, All Other heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
+> Generated: 2026-06-23 02:11 UTC | Tools c...
+  - [github] perf(copilot): reduce tool schema token cost by 34%
+## Summary
 
-- **Scope:** Entry-level and senior Business Operations Specialists, All Other roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Business Operations Specialists, All Other](https://www.jobsandskills.gov.au/research/13-1199) — *What it measured:* Labour market analysis of automation resilience across Business Operations Specialists, All Other in Australia
-
----
+Reduce CoPilot per-turn token overhead by systematically...
+  - [github] Feature Request: Enterprise Agent Operations Layer
+Love the architecture — Rust, 53 native tools, security layers, TOML/...
+  - [hackernews] Tell HN: Man, AI is killing my brain...
