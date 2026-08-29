@@ -1,29 +1,33 @@
-# Deep Research Evidence Log: Vocational Education Teachers, Postsecondary (25-1194)
+# Evidence log: Vocational Education Teachers, Postsecondary (25-1194)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `25-1194-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Vocational Education Teachers, Postsecondary] Professional Practice Framework and Digital Competency Guidelines for Vocational Education Teachers, Postsecondary — https://www.psc.gov.au/standards/25-1194 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Vocational Education Teachers, Postsecondary enforce non-delegable ethical accountability a..."
 
-> "National peak professional bodies and statutory regulators governing Vocational Education Teachers, Postsecondary enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Vocational Education Teachers, Postsecondary — https://www.jobsandskills.gov.au/research/25-1194 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Vocational Education Teachers, Postsecondary heightens the demand for adaptive problem solving, inte..."
 
-- **Scope:** Australian practitioners in Vocational Education Teachers, Postsecondary across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Vocational Education Teachers, Postsecondary** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Vocational Education Teachers, Postsecondary](https://www.psc.gov.au/standards/25-1194) — *What it measured:* National competency and ethics framework for Vocational Education Teachers, Postsecondary
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (34 claims)
+- last30days declared sample: 34 items across github=3, grounding=0, hackernews=24, reddit=2, x=5, youtube=0.
+- Representative practitioner quotes:
+  - [github] Add a 2013 curriculum reference for teachers (previous curriculum)
+## Why
 
-### Claim `25-1194-02` (L2 · scholarly)
-
-> "Automation of routine transactional and analytical tasks in Vocational Education Teachers, Postsecondary heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Vocational Education Teachers, Postsecondary roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Vocational Education Teachers, Postsecondary](https://www.jobsandskills.gov.au/research/25-1194) — *What it measured:* Labour market analysis of automation resilience across Vocational Education Teachers, Postsecondary in Australia
-
----
+Some grades are still taught on the **previou...
+  - [github] feat(data): add Kiribati — Oceania #2 (3 recognised tertiary institutions)
+## Summary
+- Adds 3 recognised tertiary insti...
+  - [github] docs: add multi-agent brainstorming simulation for vocational education mixed-reality sandbox system
+Adds a Chinese-lang...
+  - [hackernews] Tell HN: Man, AI is killing my brain...
+  - [hackernews] What breaks in production AI workflows?...
