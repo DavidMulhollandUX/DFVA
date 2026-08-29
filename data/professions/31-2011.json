@@ -1154,6 +1154,321 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l455",
+      "text": "Occupational Rehabilitation Assistant \u2014 WorkFocus Australia (Osborne Park, Western Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "WorkFocus Australia",
+          "title": "Occupational Rehabilitation Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4449951432",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l456",
+      "text": "Therapy Assistant OT \u2014 Metro South Health (South Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Metro South Health",
+          "title": "Therapy Assistant OT",
+          "url": "https://www.linkedin.com/jobs/view/4455233186",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l457",
+      "text": "Allied Health Assistant | Cessnock \u2014 Optimum Health Solutions (Cessnock, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Optimum Health Solutions",
+          "title": "Allied Health Assistant | Cessnock",
+          "url": "https://www.linkedin.com/jobs/view/4455560998",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l458",
+      "text": "Allied Health Assistant | Assistive Technology \u2014 Novita (Hindmarsh, South Australia, Australia). Posted 3 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Novita",
+          "title": "Allied Health Assistant | Assistive Technology",
+          "url": "https://www.linkedin.com/jobs/view/4455846380",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l459",
+      "text": "Allied Health Assistant | Assistive Technology \u2014 Novita (Adelaide, South Australia, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Novita",
+          "title": "Allied Health Assistant | Assistive Technology",
+          "url": "https://www.linkedin.com/jobs/view/4455827127",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l460",
+      "text": "Therapy Assistant \u2014 Southern Cross Care WA (Rivervale, Western Australia, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Southern Cross Care WA",
+          "title": "Therapy Assistant",
+          "url": "https://www.linkedin.com/jobs/view/4446605493",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l461",
+      "text": "Occupational Therapist - Graduate Program 2027 \u2014 Ability Action Australia (Wollongong, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Ability Action Australia",
+          "title": "Occupational Therapist - Graduate Program 2027",
+          "url": "https://www.linkedin.com/jobs/view/4453685242",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l462",
+      "text": "Allied Health Assistant - North Turramurra \u2014 Southern Cross Care (NSW & ACT) (Turramurra, New South Wales, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Southern Cross Care (NSW & ACT)",
+          "title": "Allied Health Assistant - North Turramurra",
+          "url": "https://www.linkedin.com/jobs/view/4456912660",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l463",
+      "text": "Occupational Therapist - Graduate Program 2027 \u2014 Ability Action Australia (Tamworth, New South Wales, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Ability Action Australia",
+          "title": "Occupational Therapist - Graduate Program 2027",
+          "url": "https://www.linkedin.com/jobs/view/4457054422",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l464",
+      "text": "Occupational Therapist \u2014 Back On Track Psychology | Melbourne Neuropsychologists (Kew, Victoria, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Back On Track Psychology | Melbourne Neuropsychologists",
+          "title": "Occupational Therapist",
+          "url": "https://www.linkedin.com/jobs/view/4455493342",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l565",
+      "text": "content: niche blog batch 9 \u2014 19 posts (dietitians, driving schools, ecommerce, fitness trainers, hair stylists, headshot photographers, immigration attorneys, jewelers, lactation consultants, makeup artists, midwives, notaries, speech therapists, tattoo artists, yoga instructors + 4 updates)\n## Niche Blog Batch 9\n\n19 testimonials-for-* blog posts completing the niche content campaign.\n\n### New posts (15):\n- testimonials-for-dietitians\n- testimonials-for-driving-schools\n- testimonials-for-ecomme\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "content: niche blog batch 9 \u2014 19 posts (dietitians, driving schools, ecommerce, \u2026",
+          "url": "https://github.com/rsdouglas/proof/pull/620",
+          "date": "2026-03-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "Ableist Antis Tell Person With Disabilities to Disregard Therapist And Not Use AI as an Assistive Technology\n&#32; submitted by &#32; /u/Angel-Kat &#32; to &#32; r/DefendingAI [link] &#32; [comments]\nYeah, anyone who tries to countermand a medical professional needs to shut the fuck up. Good therapist, though, I like them. You must keep in mind that these people do not have morals, they have objectives. The only reason an anti would appeal to your morality is because they're trying to use your m\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Ableist Antis Tell Person With Disabilities to Disregard Therapist And Not Use A\u2026",
+          "url": "https://www.reddit.com/r/DefendingAI/comments/1vnstlw/ableist_antis_tell_person_with_disabilities_to/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "AI job disruption priced into injured worker\u2019s compensation payout \u2014 \u2018Uncertainty of any occupation in today's workforce, especially with the advent of artificial intelligence\u2019 factored in future earnings loss of $400,000\n&#32; submitted by &#32; /u/marketrent &#32; to &#32; r/technology [link] &#32; [comments]\nOkay, I VERY MUCH misunderstood the title now that I have read the description below. I thought this meant \"we're going to pay you $400,000 less because we think that's how much your earn\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI job disruption priced into injured worker\u2019s compensation payout \u2014 \u2018Uncertaint\u2026",
+          "url": "https://www.reddit.com/r/technology/comments/1vuwlpl/ai_job_disruption_priced_into_injured_workers/",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "Ultimate Claude Guide 2026: How to Use Claude AI for Beginners\n#sponsored Start searching with Lessie for FREE https://bit.ly/4bYXfdC\n\n\ud83e\udde0 Learn how professionals actually use Claude with 10,000+ AI builders \u2192 https://aimaster.me/yt/claude_guide2026\n\ud83c\udfac This video was made inside AI Content Engine, get the same pipeline \u2192 https://aimaster.me/\n\nClaude 4.7 just dropped with game-changing features, but most people are using it wrong. This complete guide shows you exactly how to use Claude 4.6 like a pr\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Ultimate Claude Guide 2026: How to Use Claude AI for Beginners\n#sponsored Start \u2026",
+          "url": "https://www.youtube.com/watch?v=QANSKer6t3I",
+          "date": "2026-04-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "Therapist Review: Best AI Scribe for Therapists? Why I Use Twofold for Therapy Notes\nIn this video, therapist Kendra Seoane shares her experience using Twofold AI, one of the fastest-growing AI scribes for therapists and mental health professionals.\n\nIf you're searching for the best AI scribe for therapists, AI therapy notes generator, or a HIPAA-compliant AI note taker for mental health professionals, this testimonial explains why many clinicians are switching to Twofold to save time on documen\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Therapist Review: Best AI Scribe for Therapists? Why I Use Twofold for Therapy N\u2026",
+          "url": "https://www.youtube.com/watch?v=mfKn0ZBCV-U",
+          "date": "2026-03-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1184,14 +1499,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Occupational Therapist Assistants",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/31-2011/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Occupational Therapist Assistants",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/31-2011/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "31-2011",
+        "query": "Occupational Therapist Assistants",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1205,9 +1531,23 @@
           "youtube": 2
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 5,
+        "sources": {
+          "github": 1,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 5,
+          "x": 20,
+          "youtube": 2
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

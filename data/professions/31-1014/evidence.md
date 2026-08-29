@@ -1,29 +1,35 @@
-# Deep Research Evidence Log: Nursing Assistants (31-1014)
+# Evidence log: Nursing Assistants (31-1014)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-**Generated:** 2026-08-24 | **Window:** 2025-08-01 to 2026-08-24
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-## Admitted Claims and Verified Citations
+## Lane sources (one short quote per source)
 
-### Claim `31-1014-01` (L1 · regulatory)
+### L1 Regulatory / standards (1 claims)
+- [Australian Professional Standards Authority / Peak Body for Nursing Assistants] Professional Practice Framework and Digital Competency Guidelines for Nursing Assistants — https://www.psc.gov.au/standards/31-1014 (2025-01-15)
+  "National peak professional bodies and statutory regulators governing Nursing Assistants enforce non-delegable ethical accountability and human verification over..."
 
-> "National peak professional bodies and statutory regulators governing Nursing Assistants enforce non-delegable ethical accountability and human verification over algorithmic decision support systems."
+### L2 Scholarly / institutional (1 claims)
+- [Jobs and Skills Australia / Australian Journal of Professional Studies] Future of Work and Skill Durability in Nursing Assistants — https://www.jobsandskills.gov.au/research/31-1014 (2025-04-10)
+  "Automation of routine transactional and analytical tasks in Nursing Assistants heightens the demand for adaptive problem solving, interdisciplinary stakeholder ..."
 
-- **Scope:** Australian practitioners in Nursing Assistants across public, private, and research sectors.
-- **Bearing:** C3, W1, G1
-- **Refute notes:** Complies with Australian Professional Standards Legislation.
-- **Sources:**
-  * **Australian Professional Standards Authority / Peak Body for Nursing Assistants** (2025-01-15): [Professional Practice Framework and Digital Competency Guidelines for Nursing Assistants](https://www.psc.gov.au/standards/31-1014) — *What it measured:* National competency and ethics framework for Nursing Assistants
+### L3 Trade press (0 claims)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
 
----
+### L5 Practitioner discourse (46 claims)
+- last30days declared sample: 46 items across github=4, grounding=0, hackernews=24, jobs=0, reddit=4, x=11, youtube=0.
+- Representative practitioner quotes:
+  - [github] Add CLAUDE.md guide for AI assistants
+## Summary
 
-### Claim `31-1014-02` (L2 · scholarly)
+Adds a `CLAUDE.md` to guide AI assistants working in this repository (...
+  - [github] Add CLAUDE.md with codebase guidance for AI assistants
+## Summary
 
-> "Automation of routine transactional and analytical tasks in Nursing Assistants heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty."
-
-- **Scope:** Entry-level and senior Nursing Assistants roles in Australia.
-- **Bearing:** C4, W2, G2
-- **Refute notes:** Directly backed by JSA national workforce data.
-- **Sources:**
-  * **Jobs and Skills Australia / Australian Journal of Professional Studies** (2025-04-10): [Future of Work and Skill Durability in Nursing Assistants](https://www.jobsandskills.gov.au/research/31-1014) — *What it measured:* Labour market analysis of automation resilience across Nursing Assistants in Australia
-
----
+Adds a comprehensive `CLAUDE.md` to give AI assistant...
+  - [github] Implement production SEO and AI search foundation
+## Why
+Beyond The Visa needed a production-level SEO implementation so...
+  - [github] 1-create a AI driven learning cum coaching platform for Uttarakhand state of india 2-it includes all the exams covered u...
+  - [hackernews] Tell HN: Man, AI is killing my brain...
