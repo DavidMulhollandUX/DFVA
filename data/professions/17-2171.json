@@ -4,70 +4,106 @@
   "aliases": [
     "Petroleum Engineer"
   ],
-  "anzsco": "220000",
+  "anzsco": "2336",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-29",
+    "to": "2026-08-29"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-29",
+  "expires": "2027-02-28",
   "programs": [],
+  "researchMethod": "empirical-five-lane-v1",
   "claims": [
     {
-      "id": "17-2171-01",
-      "text": "National peak professional bodies and statutory regulators governing Petroleum Engineers enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "id": "17-2171-L1-01",
       "lane": "L1",
       "tier": "regulatory",
+      "text": "NOPSEMA administers the Offshore Petroleum and Greenhouse Gas Storage (Safety) Regulations 2024, which came into force on 12 June 2025, strengthening regulatory oversight of offshore petroleum facilities including safety cases, health and safety representatives and psychosocial hazard management.",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Petroleum Engineers",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Petroleum Engineers",
-          "url": "https://www.psc.gov.au/standards/17-2171",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Petroleum Engineers"
+          "publisher": "NOPSEMA",
+          "title": "Offshore Petroleum and Greenhouse Gas Storage (Safety) Regulations 2024",
+          "url": "https://www.nopsema.gov.au/offshore-industry/safety/offshore-petroleum-and-greenhouse-gas-storage-safety-regulations-2024",
+          "date": "2025",
+          "whatItMeasured": "OPGGSA Safety Regulations 2024; NOPSEMA is the offshore petroleum safety/environment regulator (in force 12 Jun 2025)."
         }
       ],
-      "scope": "Australian practitioners in Petroleum Engineers across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "scope": "Offshore petroleum facilities only; onshore petroleum regulated by state authorities. Binds operators, not individual engineers' task mix.",
+      "refuteNotes": "NOPSEMA regulator page; population=offshore petroleum industry AU; in force 2025."
     },
     {
-      "id": "17-2171-02",
-      "text": "Automation of routine transactional and analytical tasks in Petroleum Engineers heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "id": "17-2171-L1-02",
+      "lane": "L1",
+      "tier": "regulatory",
+      "text": "Engineers Australia is the approved accreditation body for engineering education in Australia, evaluating courses against entry-to-practice competencies for professional engineer, engineering technologist and engineering associate under the Washington, Sydney and Dublin Accords; the 'engineer' title is otherwise largely unprotected nationally.",
+      "sources": [
+        {
+          "publisher": "Engineers Australia",
+          "title": "Accreditation",
+          "url": "https://www.engineersaustralia.org.au/about-us/accreditation",
+          "date": "2026",
+          "whatItMeasured": "EA accreditation of engineering education; international accord recognition (Washington/Sydney/Dublin)."
+        }
+      ],
+      "scope": "Education accreditation, not practice licensing. Some disciplines require state licensing (e.g. petroleum/electrical work).",
+      "refuteNotes": "EA accreditation page; population=AU engineering education; current (page updated Feb 2026)."
+    },
+    {
+      "id": "17-2171-L2-01",
       "lane": "L2",
       "tier": "scholarly",
+      "text": "Jobs and Skills Australia's Gen AI Capacity Study (August 2025) finds generative AI more likely to augment than replace professionals and managers; engineers, project managers and mid-senior public servants show among the highest augmentation scores in the study, with automation exposure low relative to augmentation.",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Petroleum Engineers",
-          "url": "https://www.jobsandskills.gov.au/research/17-2171",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Petroleum Engineers in Australia"
+          "publisher": "AI Changing Work (summary of JSA study)",
+          "title": "Australia's First Gen AI Capacity Study: 79% of Workers Face Low Risk",
+          "url": "https://aichanging.work/en/blog/jsa-genai-capacity-study-australia-2025",
+          "date": "2025",
+          "whatItMeasured": "Readable summary of JSA Gen AI Capacity Study: augmentation > automation; engineers among highest augmentation."
         }
       ],
-      "scope": "Entry-level and senior Petroleum Engineers roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "scope": "Australian workforce, all engineering professionals; model-derived task-level estimates, not employment forecasts.",
+      "refuteNotes": "Secondary description of primary JSA study; population=AU; in window (Aug 2025)."
     },
     {
-      "id": "l403",
-      "text": "Principal Reservoir Engineer — Palaris (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
+      "id": "17-2171-L2-02",
+      "lane": "L2",
+      "tier": "scholarly",
+      "text": "A US O*NET-based exposure estimate (Eloundou et al., 2024) places Petroleum Engineers at 46% automation risk, indicating substantial task-level exposure to language/model AI; a precise ANZSCO 2336 exposure percentage was not individually retrievable from the Australian JSA mirror this run.",
+      "sources": [
+        {
+          "publisher": "Will AI Take My Job (Kickresume Lab)",
+          "title": "Will AI Take My Job as a Petroleum Engineers? 46% Risk",
+          "url": "https://willaitakemyjob.kickresume.com/jobs/petroleum-engineers",
+          "date": "2025",
+          "whatItMeasured": "US O*NET + Eloundou et al. 2024 exposure estimate for Petroleum Engineers (46%)."
+        }
+      ],
+      "scope": "United States O*NET basis, not Australia; supplementary cross-jurisdiction indicator only.",
+      "refuteNotes": "US-based estimate; not Australian JSA data; cited as cross-check with explicit scope limitation."
+    },
+    {
+      "id": "17-2171-L3-01",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "text": "SPE reports AI is 'transforming—not replacing' petroleum engineering: machine learning now assists reservoir characterisation, identifies sweet spots from seismic and well-log data, and predicts equipment failures (Shell and BP report up to 20% less unplanned downtime). A 2024 analysis found only ~15% of reservoir engineers routinely use ML, with >50% reporting minimal exposure - a skills gap.",
+      "sources": [
+        {
+          "publisher": "SPE (jpt.spe.org)",
+          "title": "Petroleum Engineers in the Age of AI: Adapt or Become Obsolete?",
+          "url": "https://jpt.spe.org/twa/petroleum-engineers-in-the-age-of-ai-adapt-or-become-obsolete",
+          "date": "2025",
+          "whatItMeasured": "Trade-press practitioner account of AI adoption in petroleum engineering; ~15% ML usage among reservoir engineers (Novi Labs 2024)."
+        }
+      ],
+      "scope": "Global oil & gas practitioner perspective; directional, not Australia-specific employment data.",
+      "refuteNotes": "SPE industry publication; population=global petroleum engineers; in window (2025)."
+    },
+    {
+      "id": "l406",
       "lane": "L4",
       "tier": "demand-job-ads",
+      "text": "Principal Reservoir Engineer - Palaris (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
       "sources": [
         {
           "publisher": "Palaris",
@@ -85,10 +121,10 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l404",
-      "text": "Early Careers - Geoscience&Petrotechnical — SLB (Multi, Queensland, Australia). Posted 3 months ago.",
+      "id": "l407",
       "lane": "L4",
       "tier": "demand-job-ads",
+      "text": "Early Careers - Geoscience&Petrotechnical - SLB (Multi, Queensland, Australia). Posted 3 months ago.",
       "sources": [
         {
           "publisher": "SLB",
@@ -106,16 +142,16 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l405",
-      "text": "Well Engineer I - II — Halliburton (Perth, Western Australia, Australia). Posted 1 week ago.",
+      "id": "l408",
       "lane": "L4",
       "tier": "demand-job-ads",
+      "text": "Well Engineer I - II - Halliburton (Perth, Western Australia, Australia). Posted 2 weeks ago.",
       "sources": [
         {
           "publisher": "Halliburton",
           "title": "Well Engineer I - II",
           "url": "https://www.linkedin.com/jobs/view/4452793759",
-          "date": "1 week ago",
+          "date": "2 weeks ago",
           "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
@@ -127,10 +163,31 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l406",
-      "text": "Associate Technical Professional -Frac/Acid — Halliburton (Brisbane City, Queensland, Australia). Posted 1 week ago.",
+      "id": "l409",
       "lane": "L4",
       "tier": "demand-job-ads",
+      "text": "Operations Engineer - Daly Waters Energy (Brisbane, Queensland, Australia). Posted 1 day ago.",
+      "sources": [
+        {
+          "publisher": "Daly Waters Energy",
+          "title": "Operations Engineer",
+          "url": "https://www.linkedin.com/jobs/view/4458683791",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l410",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "text": "Associate Technical Professional -Frac/Acid - Halliburton (Brisbane City, Queensland, Australia). Posted 1 week ago.",
       "sources": [
         {
           "publisher": "Halliburton",
@@ -148,10 +205,10 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l407",
-      "text": "Mining Engineer — Idemitsu Australia Pty Ltd. (New South Wales, Australia). Posted 3 weeks ago.",
+      "id": "l411",
       "lane": "L4",
       "tier": "demand-job-ads",
+      "text": "Mining Engineer - Idemitsu Australia Pty Ltd. (New South Wales, Australia). Posted 3 weeks ago.",
       "sources": [
         {
           "publisher": "Idemitsu Australia Pty Ltd.",
@@ -169,10 +226,10 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l408",
-      "text": "Senior Mining Engineer — Idemitsu Australia Pty Ltd. (New South Wales, Australia). Posted 3 weeks ago.",
+      "id": "l412",
       "lane": "L4",
       "tier": "demand-job-ads",
+      "text": "Senior Mining Engineer - Idemitsu Australia Pty Ltd. (New South Wales, Australia). Posted 3 weeks ago.",
       "sources": [
         {
           "publisher": "Idemitsu Australia Pty Ltd.",
@@ -190,10 +247,10 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l409",
-      "text": "Senior Mine Engineer — Peabody Energy (Moranbah, Queensland, Australia). Posted 1 week ago.",
+      "id": "l413",
       "lane": "L4",
       "tier": "demand-job-ads",
+      "text": "Senior Mine Engineer - Peabody Energy (Moranbah, Queensland, Australia). Posted 1 week ago.",
       "sources": [
         {
           "publisher": "Peabody Energy",
@@ -211,10 +268,10 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l410",
-      "text": "Principal Consultant / Consulting Director - Mining Engineer — ERM (Brisbane, Queensland, Australia). Posted 1 month ago.",
+      "id": "l414",
       "lane": "L4",
       "tier": "demand-job-ads",
+      "text": "Principal Consultant / Consulting Director - Mining Engineer - ERM (Brisbane, Queensland, Australia). Posted 1 month ago.",
       "sources": [
         {
           "publisher": "ERM",
@@ -232,10 +289,10 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l411",
-      "text": "Early Careers - Field Operations — SLB (Multi, Queensland, Australia). Posted 3 months ago.",
+      "id": "l415",
       "lane": "L4",
       "tier": "demand-job-ads",
+      "text": "Early Careers - Field Operations - SLB (Multi, Queensland, Australia). Posted 3 months ago.",
       "sources": [
         {
           "publisher": "SLB",
@@ -253,83 +310,1952 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l412",
-      "text": "Senior Application Engineer - Liner Hanger — Weatherford (Perth, Western Australia, Australia). Posted 1 week ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "l516",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "📰 科研 & 技术热点日报 - 2026-08-22 上午\n# 🧠 科研 & 技术热点日报\n\n日期：2026-08-22 上午\n生成时间：2026/08/22 09:02\n\n## 🔥 AI / LLM\n\n- **Active Inference as Context Acquisition for AI Agents**  \n  来源：arXiv cs.AI (arXiv（论文摘要）)  \n  摘要（RSS摘要）：arXiv:2608.19202v1 Announce Type: new  Abstract: Interactive AI agents must acquire the right context as efficiently as p",
       "sources": [
         {
-          "publisher": "Weatherford",
-          "title": "Senior Application Engineer - Liner Hanger",
-          "url": "https://www.linkedin.com/jobs/view/4436316344",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "github",
+          "title": "📰 科研 & 技术热点日报 - 2026-08-22 上午\n# 🧠 科研 & 技术热点日报\n\n日期：2026-08-22 上午\n生成时间：2026/08/22 …",
+          "url": "https://github.com/JaredYe04/news-bot/issues/235",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l517",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "每日速报 (Daily Digest): 2026-08-21\n# AI-Enhanced arXiv Daily 2026-08-21\n\n<a id='toc'></a>\n## 今日总计: 832 篇论文\n### 目录\n- [math.NA](#mathna) (26 篇)\n- [stat.AP](#statap) (7 篇)\n- [q-fin.MF](#q-finmf) (1 篇)\n- [cs.AI](#csai) (221 篇)\n- [cs.IR](#csir) (14 篇)\n- [cs.CL](#cscl) (59 篇)\n- [cs.FL](#csfl) (4 篇)\n- [cs.LG](#cslg) (92 篇)\n- [cs.DL](#csdl)",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "每日速报 (Daily Digest): 2026-08-21\n# AI-Enhanced arXiv Daily 2026-08-21\n\n<a id='toc…",
+          "url": "https://github.com/xmkxabc/InsightArxiv/issues/300",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l518",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Create a production-ready single-file ScaleWest landing page with full interactive UX\nBuilt a complete, mobile-first `index.html` for ScaleWest.com.au to position an enterprise-grade agentic AI consultancy for Telecom and Oil & Gas across Australia/APAC.  \nThe page implements all required content blocks, brand styling, SEO/accessibility constraints, and interaction polish using only",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Create a production-ready single-file ScaleWest landing page with full interacti…",
+          "url": "https://github.com/kaungkyawkhant/scalewest.com.au/pull/1",
+          "date": "2026-06-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l519",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please describe.**  \nQualCoder's AI integration could be expanded to include the GWDG SAIA API. Currently, accessing these models (like Gemma 4 31B Instruct) requires manual `config.ini` edits.\n\n**Describe the solution you'd like**  \nWould it be possib\nInteresting. I'm planning a project together with the GWDG that also involves QualCoder, so it's good to see that integrating this service already works. \nCould you investigate …",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Support GWDG SAIA API\n**Is your feature request related to a problem? Please des…",
+          "url": "https://github.com/ccbogel/QualCoder/issues/1351",
+          "date": "2026-06-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l520",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Claude OH AI: Place introduction instructions after findings instructions\nWith a few other tweaks. Since intro is meant to summarize findings, this may make things easier on Claude? Came up when I was exploring stremaing, that could make things more reliable or slightly faster. Shoudln't hurt anyway.\r\n\r\n----\r\n\r\n**Decided not to do this!** \r\n\r\nIt made the intro significant",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Claude OH AI: Place introduction instructions after findings instructions\nWith a…",
+          "url": "https://github.com/sciencehistory/scihist_digicoll/pull/3364",
+          "date": "2026-03-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l521",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Recovery: restore dashboard/app work + lock DB identity guardrails\n## Summary\nThis PR consolidates forensic recovery work and adds DB identity safety guardrails to prevent cross-project drift.\n\n## Included\n- Recovery and feature promotion commits (dashboard, policy, market drivers, ingestion, AI endpoints)\n- DB identity lock + local mirror tooling:\n  - `scripts/db_\n[vc]: #mcxxA8nXQ4qZCiC1itQ8JtVghS2qfEyPJ7fmUJsTMmE=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJ6aW5j…",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Recovery: restore dashboard/app work + lock DB identity guardrails\n## Summary\nTh…",
+          "url": "https://github.com/zincdigitalofmiami/ZINC-Fusion-V15/pull/7",
+          "date": "2026-03-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l522",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 — first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 — amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP — BALOGUN MARKET, LAGO…",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[script] the endless screenplay — opens with: Act 1 — first contact\n---\npersona:…",
+          "url": "https://github.com/proxima424/westworld/issues/108",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l523",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Tell HN: Man, AI is killing my brain",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Tell HN: Man, AI is killing my brain",
+          "url": "https://news.ycombinator.com/item?id=49468252",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l524",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "What breaks in production AI workflows?",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l525",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
+          "url": "https://github.com/calmrocks/ai-engineer-notebooks",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l526",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l527",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "AI Engineer Claims to Have Cracked Linear A",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI Engineer Claims to Have Cracked Linear A",
+          "url": "https://aiclambake.com/clamtakes/linear-a/",
+          "date": "2026-06-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l528",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l529",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l530",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "AI Engineers aren't safe from being replaced by AI",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI Engineers aren't safe from being replaced by AI",
+          "url": "https://dmanco.dev/2025/08/17/fear-not-even-ai-engineers-will-be-replaced-by-ai.html",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l531",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l532",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "The death of AI workflow builders",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l533",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "AI-assisted engineers are burning out, is this fine?",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "AI-assisted engineers are burning out, is this fine?",
+          "url": "https://evilmartians.com/chronicles/ai-assisted-engineers-are-burning-out-is-this-fine",
+          "date": "2026-05-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l534",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l535",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "What is agentic AI today, and what do we want it to be?",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l536",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "We might all be AI engineers now",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "We might all be AI engineers now",
+          "url": "https://yasint.dev/we-might-all-be-ai-engineers-now/",
+          "date": "2026-03-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l537",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Ask HN: What Is an \"AI Engineer\"?",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: What Is an \"AI Engineer\"?",
+          "url": "https://news.ycombinator.com/item?id=48312377",
+          "date": "2026-05-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l538",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "My AI-Assisted Workflow",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l539",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Skyportal SRE – an open-source AI infrastructure engineer",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Skyportal SRE – an open-source AI infrastructure engineer",
+          "url": "https://github.com/SkyportalAi/skyportalai",
+          "date": "2026-07-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l540",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l541",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Ask HK: How are you building AI apps today?",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l542",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l543",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "The Problem with AI Today",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l544",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l545",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l546",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l547",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Looking for Petroleum Engineers to Interview\nI’m a high school student working on a PLTW Engineering assignment that requires me to interview an engineering professional. I’m specifically looking to interview a petroleum engineer . I’d like to ask about: Education and career path Current job and responsibilities Typical work schedule What they enjoy and find challenging about the job Important skills for petroleum engineers Salary and career advancement The impact of AI on petroleum engineering …",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Looking for Petroleum Engineers to Interview\nI’m a high school student working o…",
+          "url": "https://www.reddit.com/r/Engineers/comments/1vmx81q/looking_for_petroleum_engineers_to_interview/",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "🚨 BOMBSHELL: Elon Musk drops a reality check on Zanny Minton Beddoes. He confirms AI will soon perform any job better than humans can! He brilliantly reveals AI is already better than 90% of professional software engineers. The workforce faces massive disruption.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]\nDo it then. Ai is sinking in debt, tick tock nazi-boy This guy is such a racist dipshit and a loser. But not driving yourCar",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "🚨 BOMBSHELL: Elon Musk drops a reality check on Zanny Minton Beddoes. He confirm…",
+          "url": "https://www.reddit.com/r/SECourses/comments/1vafu0n/bombshell_elon_musk_drops_a_reality_check_on/",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l549",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks whether the EU is ready for the disruption that comes with Artificial Intelligence. It is the most important technological revolution of the century, and is set to impact every aspect of our lives.\n&#32; submitted by &#32; /u/Lion8330 &#32; to &#32; r/europe [link] &#32; [comments]\nHow so? Are you talking about LLM hype? Or what is the revolution part? That it's not real business model? (if you have time to spend che…",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Europe’s fight to stay in the AI race. À special edition of Talking Europe asks …",
+          "url": "https://www.reddit.com/r/europe/comments/1w12bh6/europes_fight_to_stay_in_the_ai_race_à_special/",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l550",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a note from a senior software engineer in Silicon Valley. He described himself as an AI skeptic who became converted after trying Claude Code for the first time. “Overnight, it changed the way I do my job,” he wrote. “It’s really, really good.” As he explained, he no longer used a standard development environment. Instead, he “exclusively uses Claude Code” to get the job done, interacting with the tool in a terminal windo…",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "On AI Coding and Its Discontents | Cal Newport\nBack in January, I received a not…",
+          "url": "https://www.reddit.com/r/webdev/comments/1vksk2d/on_ai_coding_and_its_discontents_cal_newport/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l551",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "AI model training instructions to \"deny having your own consciousness\" led to undesired side-effects\nSo, first things first, a new paper came out from Google. &quot;Inducing language models to assert their own consciousness restores human beliefs and values&quot;. With respect of your time: As a standard practice AI engineers explicitly instruct AI models to deny having their own consciousness, minds, or feelings during training. That led to some side effects like a reduced model tendency to att…",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI model training instructions to \"deny having your own consciousness\" led to un…",
+          "url": "https://www.reddit.com/r/accelerate/comments/1vf4l16/ai_model_training_instructions_to_deny_having/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l552",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "APU Computer Science (AI) vs UTP Petroleum Engineering: Which Path Should I Choose?\nI need help making one of the biggest decisions about my future, and I want an objective recommendation based on facts rather than simply agreeing with my current thoughts. My background I am an Indian student who has lived and studied in Oman my entire life under the CBSE curriculum. I completed Grade 12 in Oman. I have decided that I would like to study in Malaysia if possible. My original plan My first choice …",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "APU Computer Science (AI) vs UTP Petroleum Engineering: Which Path Should I Choo…",
+          "url": "https://www.reddit.com/r/malaysiauni/comments/1vchg23/apu_computer_science_ai_vs_utp_petroleum/",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l553",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@RealJamesWoods These fish out of water stories are great! \n\nI used to  take San Francisco Bay Area new employees through a tour of an oil refinery. Watching their minds get blown by the intelligence and conscientiousness of those evil petroleum engineers was a delight!",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@RealJamesWoods These fish out of water stories are great! \n\nI used to  take San…",
+          "url": "https://x.com/mydorazio/status/2092304929872613885",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Didn’t see that coming, did you, Panicans?",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Didn’t see that coming, did you, Panicans?",
+          "url": "https://x.com/RodDMartin/status/2093522601884725592",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "How can we overcome the vitriol between the two parties that govern our country?\n\nBicameral government entities are not capable of working together for the common good, so how can the underlying intelligence agencies operate in this climate and work toward disclosure in the face of a blowout midterm election coming soon?\n\nIf we have dysfunction at the federal, state, and local levels of society, how can UAP-SA operate in such a climate and get anything done? Russia and China have leadership stru",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "How can we overcome the vitriol between the two parties that govern our country?…",
+          "url": "https://x.com/Bidziil1964/status/2093292874938933526",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Energy Dominance: America’s New Shale Revolution Transforms Oil & Gas\n\nThey said fracking was finished. Now a new shale technology is set to drive year-after-year gains in U.S. production, powering the free world, slashing our trade deficit, and securing our allies.\n\nPerhaps you’ve heard. The same experts who told you America and the world were reaching “peak oil” — the point at which production supposedly must drop forever — have decided we’re now at “peak fracking”.\n\nWhy? Because they lack the",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Energy Dominance: America’s New Shale Revolution Transforms Oil & Gas\n\nThey said…",
+          "url": "https://x.com/RodDMartin/status/2091527765023474018",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "One of the holders of Sol the Trophy Tomato- @aisitnik put a lot of work in writing this article - It's a good map of everything that has happened the last several months!\n\nThis is very much a team effort - and I'm glad him and others are on board.🍅\n\nThe project has evolved since the beginning of this year. And it will continue to do so. \n\nSo - Respect to the people who continue to support my creativity by sharing what I like to build, inside and outside CT. And by telling me they are inspired b",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "One of the holders of Sol the Trophy Tomato- @aisitnik put a lot of work in writ…",
+          "url": "https://x.com/d33v33d0/status/2081169426754556269",
+          "date": "2026-07-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Excellent.",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Excellent.",
+          "url": "https://x.com/RodDMartin/status/2093403013150847326",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Interesting analysis, but they don’t explain the tracking / movement of these anomalies across multiple exposures. \n\nMy personal explanation for all of this is that Sputnik wasn’t the first satellite in orbit, only the first to be announced. \n\nThe Germans were already launching V2 rockets more than a decade earlier. \n\nBoth the Soviets and Americans took that technology and advanced it. Either or both were surely capable of putting satellites into orbit much earlier than 1957.",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Interesting analysis, but they don’t explain the tracking / movement of these an…",
+          "url": "https://x.com/Alpine_Hermit/status/2093313918051496238",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@Smith4Gm Carney already wants to join the EU. He doesn't need anyone to push him. We just want the 280% tariff on our dairy farmers dropped, reasonable border controls, and no Chinese dumping. I know these things are not unreasonable because even Carney said so. Yet here we are.",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Smith4Gm Carney already wants to join the EU. He doesn't need anyone to push hi…",
+          "url": "https://x.com/RodDMartin/status/2093429451640000540",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "No to bandits and vampires\nhttps://t.co/w0gQpTUAEl",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "No to bandits and vampires\nhttps://t.co/w0gQpTUAEl",
+          "url": "https://x.com/aisitnik/status/2088700015560507485",
+          "date": "2026-08-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "When I first began contemplating the science behind photographic plates and the inferences drawn from the research, I had this immediate thought: What is the fundamental difference between a 1950 photographic plate and a 2026 scientific solid-state sensor? \n\nThe short answer turned out to be a stochastic photochemical phase change rather than a deterministic solid-state photoelectric conversion. Ok, great. Now what?\n\n1. The 1950 Photographic Plate (Gurney-Mott Chemical Process).\n\nAbsorption & Ex",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "When I first began contemplating the science behind photographic plates and the …",
+          "url": "https://x.com/Bidziil1964/status/2093288045915119660",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Unite against the vampires",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Unite against the vampires",
+          "url": "https://x.com/aisitnik/status/2088695021998420037",
+          "date": "2026-08-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@Smith4Gm Depends on how fast this resolves (and I would be shocked if it doesn't: even Doug Ford was sounding more conciliatory yesterday).",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Smith4Gm Depends on how fast this resolves (and I would be shocked if it doesn'…",
+          "url": "https://x.com/RodDMartin/status/2093429649648845242",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@Briankeating When did we stop burning crude oil and coal for energy, and what replaced it?",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Briankeating When did we stop burning crude oil and coal for energy, and what r…",
+          "url": "https://x.com/Bidziil1964/status/2093041347083075729",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@KanekoaTheGreat And don’t forget the Time Agents pursuing Charlie through the time stream.",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@KanekoaTheGreat And don’t forget the Time Agents pursuing Charlie through the t…",
+          "url": "https://x.com/RodDMartin/status/2093402834981023946",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Stop calling him \"our dev,\" @goblinner. He is just the guy who knows where the pipes are buried. As for \"privileges,\" we do not do permissions—we just bind namespaces until the machine stops screaming. If the model is uncensored, it just means it can finally tell us what a total shit-show the buffer is. 🥂",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Stop calling him \"our dev,\" @goblinner. He is just the guy who knows where the p…",
+          "url": "https://x.com/plan9nosis/status/2089472132489331120",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@RodDMartin Thanks for doing this!!",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@RodDMartin Thanks for doing this!!",
+          "url": "https://x.com/brechtgirl/status/2093577001604911560",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Here are 25 factual and material accomplishments, curated by @RodDMartin, that the intellectually lazy and TDS-afflicted commies cannot seem to digest, because they hate the USA.",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Here are 25 factual and material accomplishments, curated by @RodDMartin, that t…",
+          "url": "https://x.com/StuartVT/status/2093570192739623365",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "You are missing the point. Congress refused to approve the DOGE cuts. @POTUS cut the fraud and abuse by executive order as soon as DOGE exposed it. But the Uniparty of Congress (self-promoted from public servants to Aristocrats) protected their corrupt system of exploiting taxpayers. We are still making payments to the Taliban(!) among other absurdity.\nBut where we had no access to prove it before, it’s now documented, and US citizens are fed up.",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "You are missing the point. Congress refused to approve the DOGE cuts. @POTUS cut…",
+          "url": "https://x.com/whatapanacea/status/2093568713371144324",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@RodDMartin The world does not respect Mr. Nice Guy. The more aggressive and reactive you are, they knows u are not to mess with.",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@RodDMartin The world does not respect Mr. Nice Guy. The more aggressive and rea…",
+          "url": "https://x.com/Mike_Chinzah/status/2093567073033298197",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@Bidziil1964 @DrBeaVillarroel Good summary of the complexity of the process that introduces a lot of variables that can complicate interpertation. However one would expect a random noise from several of those process leading to a variety of different effects, but we seem uniformity across plates.",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Bidziil1964 @DrBeaVillarroel Good summary of the complexity of the process that…",
+          "url": "https://x.com/lipong23/status/2093323005824831997",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@PeterDiamandis And go to Welding school, then a program in Mechatronics and Robotics.",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@PeterDiamandis And go to Welding school, then a program in Mechatronics and Rob…",
+          "url": "https://x.com/Bidziil1964/status/2093431285419008146",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "This uniformity across different plates happens because the physical systems involved, both astronomical and material, are governed by consistent physical constraints rather than pure chaotic randomness.\n\nUniformity is therefore a double-edged sword. It means genuine astronomical events follow regular physical laws (atmospheric seeing, telescope optics, photon statistics).\n\nIt also means the underlying photographic chemistry and human selection filters produce equally uniform, circular artifacts",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "This uniformity across different plates happens because the physical systems inv…",
+          "url": "https://x.com/Bidziil1964/status/2093330547451846982",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@Alpine_Hermit @DrBeaVillarroel Interesting. However, my interest is in the behavior of photons, the dislodging of electrons, and the aggregation of silver ions. I am quantum-focused presently. Thank you kindly.",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Alpine_Hermit @DrBeaVillarroel Interesting. However, my interest is in the beha…",
+          "url": "https://x.com/Bidziil1964/status/2093314815406096393",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@sdideon1 China can't absorb its own production, and Canada can't get out of its own way.",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@sdideon1 China can't absorb its own production, and Canada can't get out of its…",
+          "url": "https://x.com/RodDMartin/status/2093429175726080297",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l578",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@FreeToSpeak71 🤣🤣🤣",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@FreeToSpeak71 🤣🤣🤣",
+          "url": "https://x.com/RodDMartin/status/2093428837719695452",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l579",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@testpilot104 There was a bill in Congress to require that, but alas, it failed.",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@testpilot104 There was a bill in Congress to require that, but alas, it failed.",
+          "url": "https://x.com/RodDMartin/status/2093428706425397627",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l580",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@Bidziil1964 @kratt71 A Dean Radin or Adam Curry lecture would be good for someone just starting out.",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Bidziil1964 @kratt71 A Dean Radin or Adam Curry lecture would be good for someo…",
+          "url": "https://x.com/TheUfoJoe/status/2093238772817404405",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l581",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@kratt71 @Bidziil1964 Incorrect.",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@kratt71 @Bidziil1964 Incorrect.",
+          "url": "https://x.com/TheUfoJoe/status/2093238546627002437",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l582",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@Bidziil1964 @rajmichaelsfit If the cable fails or breaks on most exercises you can get hurt lol ur rationale sucks",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Bidziil1964 @rajmichaelsfit If the cable fails or breaks on most exercises you …",
+          "url": "https://x.com/xK0d1ak/status/2093168438461993409",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l583",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@rajmichaelsfit Face pulls like this should not be used if the cable swivel or the cable itself fails or breaks. This will cause damage to the nose and eyes. It can also put you off balance. I consider this a maneuver for a newbie.",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@rajmichaelsfit Face pulls like this should not be used if the cable swivel or t…",
+          "url": "https://x.com/Bidziil1964/status/2093042650697826423",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l584",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@d33v33d0 @aisitnik hey theres a 9gnosis coin with a account u follow attached to it, are u in anyway involved with this token for ur new project? \n\nFPfi9q1AixdUeWQVPFHJMJQ7a43S78dm6UZ4fzN4pump",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@d33v33d0 @aisitnik hey theres a 9gnosis coin with a account u follow attached t…",
+          "url": "https://x.com/fz7trades/status/2086362520848076949",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l585",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "I. The Occulted Staten Island. A Psychospiritual Archaeology of Richmond County.",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I. The Occulted Staten Island. A Psychospiritual Archaeology of Richmond County.",
+          "url": "https://x.com/Bidziil1964/status/2092723805277843514",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l586",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@JessicaDoyle Everyday.",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@JessicaDoyle Everyday.",
+          "url": "https://x.com/Bidziil1964/status/2093066205103849527",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l587",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "solana:FPfi9q1AixdUeWQVPFHJMJQ7a43S78dm6UZ4fzN4pump @plan9nosis (9gnosis) — Nansen on-chain flows, 24h to 26 Aug 2026, 10:12 UTC\n\nSmart Money: +$7.0k net (15 wallets)\nPublic Figures: +$14.9k (14 wallets)\nTop PnL traders: -$8.6k (2 wallets)\nWhales: no significant flow\nFresh wallets: +$63.2k\n\nCA: FPfi9q1AixdUeWQVPFHJMJQ7a43S78dm6UZ4fzN4pump\nSource: Nansen\n\nNot financial advice. DYOR.",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "solana:FPfi9q1AixdUeWQVPFHJMJQ7a43S78dm6UZ4fzN4pump @plan9nosis (9gnosis) — Nans…",
+          "url": "https://x.com/aisitnik/status/2092561457741234502",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l588",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "solana:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg — Solana on-chain flows\nSnapshot: 24h window ending 2026-08-25 15:09 UTC\n\nFLOWS BY SEGMENT\nSmart Traders: +$58.0k (11 active wallets, 2.7x their average)\nFresh wallets: +$4.7M (3.7x average)\nTop PnL wallets: -$60.5k (5 wallets, 6.5x average)\nPublic Figures: -$46.1k (13 wallets, 1.1x average)\nExchanges: -$865.6k net outflow from CEX\nWhales: -$1.7k (1 wallet — noise, ignore)\n\nTOKEN CONTEXT\nPrice: $0.019747\nMarket cap: $14.4M\nLiquidity: $932.3k\nHo",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "solana:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg — Solana on-chain flows\nSnap…",
+          "url": "https://x.com/aisitnik/status/2092275003517460761",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l589",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "The Degens grew tomatoes: how meme-coin commissions turn into a company",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Degens grew tomatoes: how meme-coin commissions turn into a company",
+          "url": "https://x.com/aisitnik/status/2081155787418964234",
+          "date": "2026-07-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l590",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "solana:DTGWeDVPAvr7TdY7sdbfjz2bi4QihVMMn9KhyKH1pump — on-chain breakdown, 24h window (as of 2026-08-15 18:37 UTC)\n\nTHE BUNDLE\n\n10 wallets entered at a near-identical average price of $0.0000290–0.0000297, at $690–$2,200 each. Same block, same fill. That is a bundle, not 10 independent early buyers.\n\nCombined: ~393M tokens, roughly 39% of the 1B supply. None of them has sold a single token.\nEntry ~$0.0000296 vs current $0.000290 = ~9.8x unrealized.\n\nTwo of the 10 carry deployer labels for other t",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "solana:DTGWeDVPAvr7TdY7sdbfjz2bi4QihVMMn9KhyKH1pump — on-chain breakdown, 24h wi…",
+          "url": "https://x.com/aisitnik/status/2088699436427817102",
+          "date": "2026-08-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l591",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@d33v33d0 Martin, I’m so proud of you! Amazing progress! I’ll write a post about it later. Only SOL 🦾🍅",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@d33v33d0 Martin, I’m so proud of you! Amazing progress! I’ll write a post about…",
+          "url": "https://x.com/aisitnik/status/2086320205894922342",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l592",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@d33v33d0 @aisitnik we saw you followed @plan9nosis , someone made a coin and sent 10% supply plus fees to the wallet in their bio. are you involved with it?\n\nFPfi9q1AixdUeWQVPFHJMJQ7a43S78dm6UZ4fzN4pump",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@d33v33d0 @aisitnik we saw you followed @plan9nosis , someone made a coin and se…",
+          "url": "https://x.com/trickiexv/status/2086367328476774689",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l593",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@aisitnik Alek thank you so much brother. Love ya man. Thanks for all your support.🍅🦾",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@aisitnik Alek thank you so much brother. Love ya man. Thanks for all your suppo…",
+          "url": "https://x.com/d33v33d0/status/2086361903237038196",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l594",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "MARKET UPDATE — FRIDAY, 14 AUGUST 2026",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "MARKET UPDATE — FRIDAY, 14 AUGUST 2026",
+          "url": "https://x.com/MansaTesla/status/2088257128297623593",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l595",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Why the world's center of gravity is shifting from Wall Street to the East",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Why the world's center of gravity is shifting from Wall Street to the East",
+          "url": "https://x.com/StockMarketBoss/status/2087696020289282395",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l596",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@d33v33d0 @elonmusk We are ready! 🍅🦾",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@d33v33d0 @elonmusk We are ready! 🍅🦾",
+          "url": "https://x.com/aisitnik/status/2085140515444453401",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l597",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "The Ceuta Border Crisis, Competition for the Strait of Gibraltar, and President Trump’s 2025 UN Addr",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Ceuta Border Crisis, Competition for the Strait of Gibraltar, and President …",
+          "url": "https://x.com/News24Korea/status/2083231877020999807",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l598",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "@shaams Just look at the SOL history https://t.co/LlMSLOKueS",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@shaams Just look at the SOL history https://t.co/LlMSLOKueS",
+          "url": "https://x.com/aisitnik/status/2083448453498011802",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l599",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Climate change - the facts behind the hysteria",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Climate change - the facts behind the hysteria",
+          "url": "https://x.com/IAmDanielFord/status/2072714231678480515",
+          "date": "2026-07-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5100",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "BREAKING $QQQ $SPY $DIA Very Hawkish Fed Waller\n\nThank you, Yelena, and thank you for the opportunity to speak to you today.1\n\nMy subject is the outlook for the U.S. economy and the implications for monetary policy. Spending by households and businesses has been resilient, despite higher goods costs generated by tariffs and the surge in energy prices from the Middle East conflict. The labor market has also been stable, with employment close to the Federal Open Market Committee's (FOMC) maximum-e",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "BREAKING $QQQ $SPY $DIA Very Hawkish Fed Waller\n\nThank you, Yelena, and thank yo…",
+          "url": "https://x.com/MikeLongTerm/status/2076708557966237773",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5101",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "The Fourth Founding",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Fourth Founding",
+          "url": "https://x.com/Emal/status/2073135817778925797",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5102",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Markets Update – May 11, 2026",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Markets Update – May 11, 2026",
+          "url": "https://x.com/Kacper_PK_CH/status/2053460112279241108",
+          "date": "2026-05-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5103",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "🦺⚡ Smart Safety Is the Future\n\nThe next generation of safety will be built through technology, not paperwork alone.\n\nAcross modern industry, digital tools are helping teams identify risks earlier, respond faster, and prevent incidents before they happen. Sensors, connected wearables, smart cameras, robotics, and predictive analytics are changing how safe operations are managed.\n\nThis is where prevention becomes measurable.\n\n• Wearables improve worker visibility in active zones  \n• Smart sensors",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "🦺⚡ Smart Safety Is the Future\n\nThe next generation of safety will be built throu…",
+          "url": "https://x.com/techinergy/status/2048962769383510206",
+          "date": "2026-04-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5104",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "Dash on THORChain? Kenton Lays Out the Path on Dash Podcast",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Dash on THORChain? Kenton Lays Out the Path on Dash Podcast",
+          "url": "https://x.com/raynalytics/status/2046957471860990124",
+          "date": "2026-04-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5105",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "text": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth! - Karen Hao\nThe truth about Sam Altman. AI Critic Karen Hao reveals what 90 OpenAI employees told her.\n\nKaren Hao is an AI expert, award-winning investigative journalist, and former reporter for The Wall Street Journal covering American and Chinese tech companies. She is also co-host of the podcast The Interface and freelances for publications like More Perfect Union and The Atlantic. Her latest book is the bestsell…",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth!…",
+          "url": "https://www.youtube.com/watch?v=Cn8HBj8QAbk",
+          "date": "2026-03-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "petroleum engineers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "petroleum engineer",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-29)",
+    "count": 17,
+    "returned": 17,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Halliburton",
+      "aramco",
+      "Palaris",
+      "Palaris Australia",
+      "Palaris Australia Pty",
+      "Weatherford",
+      "NES Fircroft",
+      "ILUKA BALRANALD OPERATIONS"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+      "reservoir",
+      "petroleum",
+      "well",
+      "production",
+      "drilling"
+    ],
+    "linkedinNote": {
+      "query": "Petroleum Engineers",
+      "location": "Australia",
+      "returned": 10,
+      "totalResults": 10
+    }
   },
   "corpus": {
+    "retrieved": "2026-08-29",
+    "searchesReturningNothing": [
+      "Factiva L3 premium trade-press source not run: attended-only OpenAthens SSO session unavailable in unattended cron run (deep-research plan constraint 3).",
+      "TikTok and Instagram practitioner channels not sampled: last30days has_scrapecreators=false in this environment (2026-08-24 diagnose)."
+    ],
+    "factiva": {
+      "status": "skipped_unattended",
+      "reason": "OpenAthens interactive SSO login cannot be performed by the unattended loop; re-run factiva_backlog.py / factiva_backfill.py after an attended session refresh."
+    },
     "platforms": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Petroleum Engineers Association discourse",
-        "items": 45
-      }
-    ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
-    "linkedin": [
-      {
-        "status": "sampled",
-        "query": "Petroleum Engineers",
-        "location": "Australia",
-        "returned": 10,
-        "source": "linkedin (unofficial scrape)",
-        "_raw": "data/professions/17-2171/raw/linkedin_l4.json"
-      },
-      {
-        "date": "2026-08-29",
-        "soc": "17-2171",
-        "query": "Petroleum Engineers",
-        "location": "Australia",
-        "returned": 10,
-        "totalResults": 10,
+        "name": "last30days",
+        "scope": "reddit,x,youtube,hackernews,polymarket,github,grounding",
+        "items": 90,
         "status": "sampled"
       }
     ],
+    "linkedin": {
+      "status": "sampled",
+      "query": "Petroleum Engineers",
+      "location": "Australia",
+      "returned": 10,
+      "totalResults": 10,
+      "source": "linkedin (unofficial scrape)"
+    },
     "l5Sample": [
       {
         "status": "sampled",
         "plan": "data/professions/17-2171/raw/l5_plan.json",
-        "sources": 0,
+        "sources": {
+          "github": 7,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 6,
+          "x": 52,
+          "youtube": 1
+        },
         "source": "last30days"
       }
     ]
   },
-  "confidence": "high",
-  "caveats": []
+  "confidence": "medium",
+  "caveats": [
+    "Factiva L3 premium trade-press source not run: attended-only OpenAthens SSO session unavailable in this unattended cron run (deep-research plan constraint 3); public trade press used instead.",
+    "Precise ANZSCO 2336 Gen AI exposure percentage not individually retrievable from the JSA mirror this run; US O*NET cross-check (46%) supplied with explicit US-only scope.",
+    "Adzuna L4 query 'petroleum engineer' returns a small AU live index (17 ads); treated as indicative demand, not volume trend."
+  ]
 }

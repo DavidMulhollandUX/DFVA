@@ -5,70 +5,299 @@
     "Electrical Engineering Technician",
     "Electronic Engineering Technician"
   ],
-  "anzsco": "220000",
+  "anzsco": "3123",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-29",
+    "to": "2026-08-29"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-29",
+  "expires": "2027-02-28",
   "programs": [],
+  "researchMethod": "empirical-five-lane-v1",
   "claims": [
     {
-      "id": "17-3023-01",
-      "text": "National peak professional bodies and statutory regulators governing Electrical and Electronic Engineering Technicians enforce non-delegable ethical accountability and human verification over algorithmic decision support systems.",
+      "id": "17-3023-L1-01",
       "lane": "L1",
       "tier": "regulatory",
+      "text": "Electrical and Electronic Engineering Technicians sit in ANZSCO unit group 3123 (Electrical Engineering Draftspersons and Technicians), a Skill Level 2 occupation where 'registration or licensing may be required'; electrical work is licensed at state level (e.g. Energy Safe Victoria, NSW Fair Trading), constraining who may perform prescribed electrical work.",
       "sources": [
         {
-          "publisher": "Australian Professional Standards Authority / Peak Body for Electrical and Electronic Engineering Technicians",
-          "title": "Professional Practice Framework and Digital Competency Guidelines for Electrical and Electronic Engineering Technicians",
-          "url": "https://www.psc.gov.au/standards/17-3023",
-          "date": "2025-01-15",
-          "whatItMeasured": "National competency and ethics framework for Electrical and Electronic Engineering Technicians"
+          "publisher": "Australian Bureau of Statistics",
+          "title": "Unit Group 3123 Electrical Engineering Draftspersons and Technicians",
+          "url": "https://www.abs.gov.au/statistics/classifications/anzsco-australian-and-new-zealand-standard-classification-occupations/2022/browse-classification/3/31/312/3123",
+          "date": "2022",
+          "whatItMeasured": "ANZSCO 3123 definition; registration/licensing may be required."
         }
       ],
-      "scope": "Australian practitioners in Electrical and Electronic Engineering Technicians across public, private, and research sectors.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1",
-        "G1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Complies with Australian Professional Standards Legislation."
+      "scope": "AU ANZSCO 3123; state-based electrical licensing; does not bind non-electrical technical tasks.",
+      "refuteNotes": "ABS classification; population=AU 3123; current."
     },
     {
-      "id": "17-3023-02",
-      "text": "Automation of routine transactional and analytical tasks in Electrical and Electronic Engineering Technicians heightens the demand for adaptive problem solving, interdisciplinary stakeholder communication, and unscripted trade-off decisions under domain uncertainty.",
+      "id": "17-3023-L2-01",
       "lane": "L2",
       "tier": "scholarly",
+      "text": "Per JSA-derived AI exposure data, 'Electrical Engineering Draftspersons, Technicians' (ANZSCO 3123) show Automation exposure 48% and Augmentation exposure 72% (AI Risk 5.5/10); 'Electronic Engineering Draftspersons, Technicians' show Automation 47% / Augmentation 74% - a moderate-to-high exposure technician profile.",
       "sources": [
         {
-          "publisher": "Jobs and Skills Australia / Australian Journal of Professional Studies",
-          "title": "Future of Work and Skill Durability in Electrical and Electronic Engineering Technicians",
-          "url": "https://www.jobsandskills.gov.au/research/17-3023",
-          "date": "2025-04-10",
-          "whatItMeasured": "Labour market analysis of automation resilience across Electrical and Electronic Engineering Technicians in Australia"
+          "publisher": "Will AI Take My Job (JSA data)",
+          "title": "Electrical Engineering Draftspersons, Technicians - AI Risk Score: 5.5/10",
+          "url": "https://www.willaitakemyjob.com.au/occupation/electrical-engineering-draftspersons-technicians",
+          "date": "2025",
+          "whatItMeasured": "JSA Official AI Exposure for ANZSCO 3123: Automation 48%, Augmentation 72%."
         }
       ],
-      "scope": "Entry-level and senior Electrical and Electronic Engineering Technicians roles in Australia.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C4",
-        "W2",
-        "G2"
-      ],
-      "refuted": false,
-      "refuteNotes": "Directly backed by JSA national workforce data."
+      "scope": "Australian ANZSCO 3123/3122; model-derived task-level estimates.",
+      "refuteNotes": "JSA-data mirror; population=AU 3123; in window."
     },
     {
-      "id": "l503",
-      "text": "Correct course name for Electronic & Electrical Engineering",
+      "id": "17-3023-L3-01",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "text": "Vendor case-study coverage of WSCAD ELECTRIX AI reports an electrical CAD Copilot that automates material lists, terminal diagrams and standards-compliant technical queries, with users reporting work that 'used to take several days can now often be completed in one morning' - faster, with fewer errors and less training.",
+      "sources": [
+        {
+          "publisher": "WSCAD",
+          "title": "Generate control cabinets automatically? How AI is changing everyday electrical CAD work",
+          "url": "https://wscad.com/us/generate-control-cabinets-automatically/",
+          "date": "2025-06",
+          "whatItMeasured": "Vendor case study of AI Copilot in electrical control-cabinet design; time savings."
+        }
+      ],
+      "scope": "Electrical control/plant engineering; vendor case study; directional.",
+      "refuteNotes": "WSCAD vendor article (german AUTOCAD magazine 4/25); population=electrical CAD technicians; in window (2025)."
+    },
+    {
+      "id": "17-3023-L3-02",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "text": "Academic survey research (UNSW, 2025/2026) maps GenAI use across electronic design automation - schematic/layout generation, verification and physical design - identifying automation of routine EDA tasks and open questions around hallucinations and data scarcity in autonomous chip design.",
+      "sources": [
+        {
+          "publisher": "arXiv (UNSW)",
+          "title": "Surveying GenAI-based Automation in Printed Circuit Board Design and Test",
+          "url": "https://arxiv.org/pdf/2606.17074v1",
+          "date": "2026-06",
+          "whatItMeasured": "Survey of GenAI in PCB/EDA design automation; routine-task automation."
+        }
+      ],
+      "scope": "Research survey; electronic hardware design; not directly employment.",
+      "refuteNotes": "Preprint survey (UNSW); population=EDA/electrical design researchers; in window (2026)."
+    },
+    {
+      "id": "l405",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "text": "Electrical Engineering Technician - ZITRÓN (Perth, Western Australia, Australia). Posted 4 weeks ago.",
+      "sources": [
+        {
+          "publisher": "ZITRÓN",
+          "title": "Electrical Engineering Technician",
+          "url": "https://www.linkedin.com/jobs/view/4446737272",
+          "date": "4 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l406",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "text": "Electronics Engineering Technician - Rohde & Schwarz (Brisbane Airport, Queensland, Australia). Posted 4 months ago.",
+      "sources": [
+        {
+          "publisher": "Rohde & Schwarz",
+          "title": "Electronics Engineering Technician",
+          "url": "https://www.linkedin.com/jobs/view/4393469610",
+          "date": "4 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l407",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "text": "LCC Technician - Vertiv (Seven Hills, New South Wales, Australia). Posted 2 weeks ago.",
+      "sources": [
+        {
+          "publisher": "Vertiv",
+          "title": "LCC Technician",
+          "url": "https://www.linkedin.com/jobs/view/4453616170",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l408",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "text": "Technician - Technology - Orica (Welshpool, Western Australia, Australia). Posted 5 days ago.",
+      "sources": [
+        {
+          "publisher": "Orica",
+          "title": "Technician - Technology",
+          "url": "https://www.linkedin.com/jobs/view/4456853026",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l409",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "text": "Technical Officer - University of Sydney (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "sources": [
+        {
+          "publisher": "University of Sydney",
+          "title": "Technical Officer",
+          "url": "https://www.linkedin.com/jobs/view/4454153393",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l410",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "text": "Service Technician - ABB (Moorebank, New South Wales, Australia). Posted 1 week ago.",
+      "sources": [
+        {
+          "publisher": "ABB",
+          "title": "Service Technician",
+          "url": "https://www.linkedin.com/jobs/view/4455277572",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l411",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "text": "Site Technician - GE Vernova (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "sources": [
+        {
+          "publisher": "GE Vernova",
+          "title": "Site Technician",
+          "url": "https://www.linkedin.com/jobs/view/4455791431",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l412",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "text": "Electronics Test Technician - Anduril Industries (Sydney, New South Wales, Australia). Posted 3 days ago.",
+      "sources": [
+        {
+          "publisher": "Anduril Industries",
+          "title": "Electronics Test Technician",
+          "url": "https://www.linkedin.com/jobs/view/4432227037",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l413",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "text": "Electrical Test & Measurement Technician - TEEMA (Homebush, New South Wales, Australia). Posted 15 hours ago.",
+      "sources": [
+        {
+          "publisher": "TEEMA",
+          "title": "Electrical Test & Measurement Technician",
+          "url": "https://www.linkedin.com/jobs/view/4458976646",
+          "date": "15 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l414",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "text": "Technician – Electrical Field Service - Cummins Asia Pacific (Perth, Western Australia, Australia). Posted 1 week ago.",
+      "sources": [
+        {
+          "publisher": "Cummins Asia Pacific",
+          "title": "Technician – Electrical Field Service",
+          "url": "https://www.linkedin.com/jobs/view/4454991559",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l515",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Correct course name for Electronic & Electrical Engineering",
       "sources": [
         {
           "publisher": "github",
@@ -86,14 +315,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l504",
-      "text": "[TASK: Electrical Engineering] Self-calibrating microwave tomography\n## Task Proposal\n\nhttps://github.com/harbor-framework/terminal-bench-science/discussions/1332\n\n## Summary\n\nCPU-only, outcome-verified microwave inverse scattering: one reusable solver must reconstruct a 32\u00d732 relative-permittivity/conductivity pair for each of six hidden nonlinear full-wave packets",
+      "id": "l516",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "[TASK: Electrical Engineering] Self-calibrating microwave tomography\n## Task Proposal\n\nhttps://github.com/harbor-framework/terminal-bench-science/discussions/1332\n\n## Summary\n\nCPU-only, outcome-verified microwave inverse scattering: one reusable solver must reconstruct a 32×32 relative-permittivity/conductivity pair for each of six hidden nonlinear full-wave packets",
       "sources": [
         {
           "publisher": "github",
-          "title": "[TASK: Electrical Engineering] Self-calibrating microwave tomography\n## Task Pro\u2026",
+          "title": "[TASK: Electrical Engineering] Self-calibrating microwave tomography\n## Task Pro…",
           "url": "https://github.com/harbor-framework/terminal-bench-science/pull/1476",
           "date": "2026-08-18",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -107,14 +336,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l505",
-      "text": "[TASK: Electrical Engineering] Blind code-aided OFDM recovery from a grant-free stopping set\n## Task Proposal\n\nLink to the approved task proposal (GitHub Discussion):\n\nhttps://github.com/harbor-framework/terminal-bench-science/discussions/1304\n\n## What changed since the first reviewed head (1bd4de6), and where this departs from the proposal\n\nReviewer feedback on the first head was \"far too",
+      "id": "l517",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "[TASK: Electrical Engineering] Blind code-aided OFDM recovery from a grant-free stopping set\n## Task Proposal\n\nLink to the approved task proposal (GitHub Discussion):\n\nhttps://github.com/harbor-framework/terminal-bench-science/discussions/1304\n\n## What changed since the first reviewed head (1bd4de6), and where this departs from the proposal\n\nReviewer feedback on the first head was \"far too",
       "sources": [
         {
           "publisher": "github",
-          "title": "[TASK: Electrical Engineering] Blind code-aided OFDM recovery from a grant-free \u2026",
+          "title": "[TASK: Electrical Engineering] Blind code-aided OFDM recovery from a grant-free …",
           "url": "https://github.com/harbor-framework/terminal-bench-science/pull/1325",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -128,14 +357,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l506",
-      "text": "feat: Add scraper for electrical engineering journals with Scimago and APC verification\nThis pull request introduces `scraper.py`, a robust Python script designed to compile a structured database of 83 electrical and electronic engineering journals based on the `noapc.com` list. \n\nThe scraper fulfills the following requirements:\n1.  **Extracts Base Metadata:** Extracts Journal Title, P",
+      "id": "l518",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "feat: Add scraper for electrical engineering journals with Scimago and APC verification\nThis pull request introduces `scraper.py`, a robust Python script designed to compile a structured database of 83 electrical and electronic engineering journals based on the `noapc.com` list. \n\nThe scraper fulfills the following requirements:\n1.  **Extracts Base Metadata:** Extracts Journal Title, P",
       "sources": [
         {
           "publisher": "github",
-          "title": "feat: Add scraper for electrical engineering journals with Scimago and APC verif\u2026",
+          "title": "feat: Add scraper for electrical engineering journals with Scimago and APC verif…",
           "url": "https://github.com/NCMFN/ClaudeCode/pull/94",
           "date": "2026-07-23",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -149,14 +378,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l507",
-      "text": "[TASK: Electrical Engineering] Ordered two-bounce sparse-array RF SLAM (two-bounce-slam), hardened v13\n> Supersedes #1041 (closed after the first `/run`; GitHub would not reopen it once the branch had moved). Same branch, hardened tree (v13). Reviewer context is in the #1041 thread.\n\n## Task Proposal\n\nLink to the approved task proposal (GitHub Discussion):\n\nhttps://github.com/harbor-framework/termina",
+      "id": "l519",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "[TASK: Electrical Engineering] Ordered two-bounce sparse-array RF SLAM (two-bounce-slam), hardened v13\n> Supersedes #1041 (closed after the first `/run`; GitHub would not reopen it once the branch had moved). Same branch, hardened tree (v13). Reviewer context is in the #1041 thread.\n\n## Task Proposal\n\nLink to the approved task proposal (GitHub Discussion):\n\nhttps://github.com/harbor-framework/termina",
       "sources": [
         {
           "publisher": "github",
-          "title": "[TASK: Electrical Engineering] Ordered two-bounce sparse-array RF SLAM (two-boun\u2026",
+          "title": "[TASK: Electrical Engineering] Ordered two-bounce sparse-array RF SLAM (two-boun…",
           "url": "https://github.com/harbor-framework/terminal-bench-science/pull/1147",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -170,14 +399,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l508",
-      "text": "Compile Electrical & Electronic Engineering Journals\nThis branch adds a Python script that robustly compiles a structured journal database from noapc.com. It properly fetches the main table and extracts metadata from both the main list, detail sub-pages, and optionally tries to fetch from Scimago (fallback mechanism provided for Cloudflare blocks). It",
+      "id": "l520",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Compile Electrical & Electronic Engineering Journals\nThis branch adds a Python script that robustly compiles a structured journal database from noapc.com. It properly fetches the main table and extracts metadata from both the main list, detail sub-pages, and optionally tries to fetch from Scimago (fallback mechanism provided for Cloudflare blocks). It",
       "sources": [
         {
           "publisher": "github",
-          "title": "Compile Electrical & Electronic Engineering Journals\nThis branch adds a Python s\u2026",
+          "title": "Compile Electrical & Electronic Engineering Journals\nThis branch adds a Python s…",
           "url": "https://github.com/NCMFN/JournalSCRAPER/pull/4",
           "date": "2026-07-23",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -191,14 +420,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l509",
-      "text": "Scraped Electrical and Electronic Engineering Journals Dataset\nExtracted data from noapc.com and subpages to get details about free Open Access journals in Electrical and Electronic Engineering.\n\n---\n*PR created automatically by Jules for task [9808702092175604448](https://jules.google.com/task/9808702092175604448) started by @NCMFN*",
+      "id": "l521",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Scraped Electrical and Electronic Engineering Journals Dataset\nExtracted data from noapc.com and subpages to get details about free Open Access journals in Electrical and Electronic Engineering.\n\n---\n*PR created automatically by Jules for task [9808702092175604448](https://jules.google.com/task/9808702092175604448) started by @NCMFN*",
       "sources": [
         {
           "publisher": "github",
-          "title": "Scraped Electrical and Electronic Engineering Journals Dataset\nExtracted data fr\u2026",
+          "title": "Scraped Electrical and Electronic Engineering Journals Dataset\nExtracted data fr…",
           "url": "https://github.com/NCMFN/JournalSCRAPER/pull/3",
           "date": "2026-07-23",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -212,14 +441,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l510",
-      "text": "Why Regular Battery System Checks Are Important for European Luxury Vehicles\nModern European luxury vehicles rely on sophisticated electrical systems that demand a stable and healthy power supply. The battery does much more than start the engine. It supports electronic control units, driver assistance technologies, infotainment systems, climate control, and numerous onboard",
+      "id": "l522",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Why Regular Battery System Checks Are Important for European Luxury Vehicles\nModern European luxury vehicles rely on sophisticated electrical systems that demand a stable and healthy power supply. The battery does much more than start the engine. It supports electronic control units, driver assistance technologies, infotainment systems, climate control, and numerous onboard",
       "sources": [
         {
           "publisher": "github",
-          "title": "Why Regular Battery System Checks Are Important for European Luxury Vehicles\nMod\u2026",
+          "title": "Why Regular Battery System Checks Are Important for European Luxury Vehicles\nMod…",
           "url": "https://github.com/granturismouae/granturismouae/issues/3",
           "date": "2026-07-20",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -233,14 +462,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l511",
-      "text": "Self(JJ)\n# JunSeo Lee(JJ)\r\n\r\nHello. I am JunSeo Lee, a sophomore in the Department of Electrical and Electronic Engineering at KAIST.\r\n\r\n\r\n## My intersets\r\n\r\nJava\r\nC, C++\r\nLinux\r\nGit Hub\r\nFreshman Project\r\nTennis\r\n\r\n\r\n# GOAL\r\n- Play tennis hard to get recognized\r\n- Pass the freshman project to become a full",
+      "id": "l523",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Self(JJ)\n# JunSeo Lee(JJ)\r\n\r\nHello. I am JunSeo Lee, a sophomore in the Department of Electrical and Electronic Engineering at KAIST.\r\n\r\n\r\n## My intersets\r\n\r\nJava\r\nC, C++\r\nLinux\r\nGit Hub\r\nFreshman Project\r\nTennis\r\n\r\n\r\n# GOAL\r\n- Play tennis hard to get recognized\r\n- Pass the freshman project to become a full",
       "sources": [
         {
           "publisher": "github",
-          "title": "Self(JJ)\n# JunSeo Lee(JJ)\r\n\r\nHello. I am JunSeo Lee, a sophomore in the Departme\u2026",
+          "title": "Self(JJ)\n# JunSeo Lee(JJ)\r\n\r\nHello. I am JunSeo Lee, a sophomore in the Departme…",
           "url": "https://github.com/junseoi328/Self-introduction/pull/7",
           "date": "2026-03-22",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -254,14 +483,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l512",
-      "text": "Align graphics with UCL website\nThe reference website is this one: https://www.ucl.ac.uk/engineering/electronic-electrical-engineering.\nWhen aligning to that website, don't only look at the text content of the files, but also at how that visually appears in an image. \n\nThe main point of alignments are:\n- Search box\n  - It must be",
+      "id": "l524",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Align graphics with UCL website\nThe reference website is this one: https://www.ucl.ac.uk/engineering/electronic-electrical-engineering.\nWhen aligning to that website, don't only look at the text content of the files, but also at how that visually appears in an image. \n\nThe main point of alignments are:\n- Search box\n  - It must be",
       "sources": [
         {
           "publisher": "github",
-          "title": "Align graphics with UCL website\nThe reference website is this one: https://www.u\u2026",
+          "title": "Align graphics with UCL website\nThe reference website is this one: https://www.u…",
           "url": "https://github.com/UCL-ELEC0054/ucl-elec0054.github.io/issues/17",
           "date": "2026-03-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -275,14 +504,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l513",
-      "text": "E-Waste Recycling Plant Business in India | Profitable Electronic Waste Management Solution by DSC Engineering\nIndia duniya ke fastest-growing digital economies mein se ek hai, aur isi rapid technological growth ke saath electronic waste (E-Waste) ka volume bhi continuously increase ho raha hai. Old computers, mobile phones, circuit boards, cables, servers, batteries aur electronic appliances har saal massiv",
+      "id": "l525",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "E-Waste Recycling Plant Business in India | Profitable Electronic Waste Management Solution by DSC Engineering\nIndia duniya ke fastest-growing digital economies mein se ek hai, aur isi rapid technological growth ke saath electronic waste (E-Waste) ka volume bhi continuously increase ho raha hai. Old computers, mobile phones, circuit boards, cables, servers, batteries aur electronic appliances har saal massiv",
       "sources": [
         {
           "publisher": "github",
-          "title": "E-Waste Recycling Plant Business in India | Profitable Electronic Waste Manageme\u2026",
+          "title": "E-Waste Recycling Plant Business in India | Profitable Electronic Waste Manageme…",
           "url": "https://github.com/dsconsultancyservices/-Organic-Fertilizer-Waste-to-Wealth-Opportunity-by-DSC-Engineering/issues/7",
           "date": "2026-05-08",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -296,14 +525,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l514",
-      "text": "Align the header to https://www.ucl.ac.uk/engineering/electronic-electrical-engineering\nThe current header contains logo and also the nav. It should contain just the logo side, with a search bar on the right.\nCopy the header in here: https://www.ucl.ac.uk/engineering/electronic-electrical-engineering.\nThis header has:\n- The logo on the left\n- The search bar on the right (make sure it i",
+      "id": "l526",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Align the header to https://www.ucl.ac.uk/engineering/electronic-electrical-engineering\nThe current header contains logo and also the nav. It should contain just the logo side, with a search bar on the right.\nCopy the header in here: https://www.ucl.ac.uk/engineering/electronic-electrical-engineering.\nThis header has:\n- The logo on the left\n- The search bar on the right (make sure it i",
       "sources": [
         {
           "publisher": "github",
-          "title": "Align the header to https://www.ucl.ac.uk/engineering/electronic-electrical-engi\u2026",
+          "title": "Align the header to https://www.ucl.ac.uk/engineering/electronic-electrical-engi…",
           "url": "https://github.com/UCL-ELEC0054/ucl-elec0054.github.io/issues/22",
           "date": "2026-03-15",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -317,14 +546,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l515",
-      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment\u2014ranging from consumer earbuds to professional line arrays and covert surveillance g\u2026",
+      "id": "l527",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output such as microphones and speakers - both consumer, prosumer, professional and covert - what changes, improves, degrades over time? what malfunctions? what can be tested, identified, measured and managed? Any specifics regarding impact on envirorment and h\ngoogle-3.1-pro-preview\n\n\n\n\nThe lifespan, performance, and impact of sound equipment—ranging from consumer earbuds to professional line arrays and covert surveillance g…",
       "sources": [
         {
           "publisher": "github",
-          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su\u2026",
+          "title": "Feature: Sound Equipment Issues\nWith sound equipement - both input and output su…",
           "url": "https://github.com/Transparency-X/Sound-Equipment-Lifespace/issues/1",
           "date": "2026-05-07",
           "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
@@ -338,10 +567,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l516",
-      "text": "Tell HN: Man, AI is killing my brain",
+      "id": "l528",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Tell HN: Man, AI is killing my brain",
       "sources": [
         {
           "publisher": "hackernews",
@@ -359,10 +588,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l517",
-      "text": "AI, Ashby Engineering, and the future",
+      "id": "l529",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "AI, Ashby Engineering, and the future",
       "sources": [
         {
           "publisher": "hackernews",
@@ -380,10 +609,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l518",
-      "text": "AI Engineering from Scratch",
+      "id": "l530",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "AI Engineering from Scratch",
       "sources": [
         {
           "publisher": "hackernews",
@@ -401,10 +630,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l519",
-      "text": "DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding and Linux",
+      "id": "l531",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding and Linux",
       "sources": [
         {
           "publisher": "hackernews",
@@ -422,10 +651,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l520",
-      "text": "Andrew Ng: \"AI Engineering Skills Map: Building and Deploying AI Applications\"",
+      "id": "l532",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Andrew Ng: \"AI Engineering Skills Map: Building and Deploying AI Applications\"",
       "sources": [
         {
           "publisher": "hackernews",
@@ -443,10 +672,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l521",
-      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+      "id": "l533",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
       "sources": [
         {
           "publisher": "hackernews",
@@ -464,10 +693,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l522",
-      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+      "id": "l534",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
       "sources": [
         {
           "publisher": "hackernews",
@@ -485,10 +714,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l523",
-      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+      "id": "l535",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
       "sources": [
         {
           "publisher": "hackernews",
@@ -506,10 +735,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l524",
-      "text": "AI Engineering the Acceleration Whiplash",
+      "id": "l536",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "AI Engineering the Acceleration Whiplash",
       "sources": [
         {
           "publisher": "hackernews",
@@ -527,10 +756,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l525",
-      "text": "The death of AI workflow builders",
+      "id": "l537",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "The death of AI workflow builders",
       "sources": [
         {
           "publisher": "hackernews",
@@ -548,14 +777,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l526",
-      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "id": "l538",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
           "url": "https://www.contextvault.dev/",
           "date": "2026-07-13",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -569,14 +798,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l527",
-      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "id": "l539",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
           "url": "https://argonix.io/",
           "date": "2026-08-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -590,10 +819,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l528",
-      "text": "What is agentic AI today, and what do we want it to be?",
+      "id": "l540",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "What is agentic AI today, and what do we want it to be?",
       "sources": [
         {
           "publisher": "hackernews",
@@ -611,10 +840,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l529",
-      "text": "Ask HN: I feel like I've lost my identity due to AI",
+      "id": "l541",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Ask HN: I feel like I've lost my identity due to AI",
       "sources": [
         {
           "publisher": "hackernews",
@@ -632,10 +861,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l530",
-      "text": "My AI-Assisted Workflow",
+      "id": "l542",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "My AI-Assisted Workflow",
       "sources": [
         {
           "publisher": "hackernews",
@@ -653,10 +882,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l531",
-      "text": "Stages of AI engineering maturity: a framework for teams",
+      "id": "l543",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Stages of AI engineering maturity: a framework for teams",
       "sources": [
         {
           "publisher": "hackernews",
@@ -674,10 +903,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l532",
-      "text": "What Claude Code's Source Revealed About AI Engineering Culture",
+      "id": "l544",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "What Claude Code's Source Revealed About AI Engineering Culture",
       "sources": [
         {
           "publisher": "hackernews",
@@ -695,10 +924,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l533",
-      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "id": "l545",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
       "sources": [
         {
           "publisher": "hackernews",
@@ -716,10 +945,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l534",
-      "text": "Ask HK: How are you building AI apps today?",
+      "id": "l546",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Ask HK: How are you building AI apps today?",
       "sources": [
         {
           "publisher": "hackernews",
@@ -737,14 +966,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l535",
-      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "id": "l547",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
           "url": "https://blocks.ai",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -758,10 +987,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l536",
-      "text": "The Problem with AI Today",
+      "id": "l548",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "The Problem with AI Today",
       "sources": [
         {
           "publisher": "hackernews",
@@ -779,14 +1008,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l537",
-      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "id": "l549",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
           "url": "https://github.com/kontext-dev/kontext-cli",
           "date": "2026-04-14",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -800,14 +1029,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l538",
-      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "id": "l550",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
           "url": "https://news.ycombinator.com/item?id=47590261",
           "date": "2026-03-31",
           "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
@@ -821,10 +1050,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l539",
-      "text": "Diffusion LLM may make most of the AI engineering stack obsolete",
+      "id": "l551",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Diffusion LLM may make most of the AI engineering stack obsolete",
       "sources": [
         {
           "publisher": "hackernews",
@@ -842,14 +1071,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l540",
-      "text": "How hard will it be to get a job on a MODU with a Bachelors of Science in Electrical and Electronic Engineering Technology, but no offshore experience or experience working on ships or sea going vessels?\nEdit: Im in the United States &#32; submitted by &#32; /u/LowYak3 &#32; to &#32; r/merchantmarine [link] &#32; [comments]\nI'm the US? Should be able to. This isn't really the right sub for it as none (that I've worked with) of the electronic technicians or electricians are part off the boat crew\u2026",
+      "id": "l552",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "How hard will it be to get a job on a MODU with a Bachelors of Science in Electrical and Electronic Engineering Technology, but no offshore experience or experience working on ships or sea going vessels?\nEdit: Im in the United States &#32; submitted by &#32; /u/LowYak3 &#32; to &#32; r/merchantmarine [link] &#32; [comments]\nI'm the US? Should be able to. This isn't really the right sub for it as none (that I've worked with) of the electronic technicians or electricians are part off the boat crew…",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "How hard will it be to get a job on a MODU with a Bachelors of Science in Electr\u2026",
+          "title": "How hard will it be to get a job on a MODU with a Bachelors of Science in Electr…",
           "url": "https://www.reddit.com/r/merchantmarine/comments/1vt54th/how_hard_will_it_be_to_get_a_job_on_a_modu_with_a/",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -863,14 +1092,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l541",
-      "text": "How hard wud u consider electrical engineering and electronic course to be in dubai campus\nI knew i had to take engineering and my dad told me to take EEE cuz its not that bad but now that ive taken it my friends keep saying im cooked &#32; submitted by &#32; /u/GodSmith145 &#32; to &#32; r/BITSPilani [link] &#32; [comments]\nYeah why would u do that lmao,anyone can get csecalso easily in Dubai u just need 75 in boards Now that you have already taken it, chill out gng. Hard for you, hard for ever\u2026",
+      "id": "l553",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "How hard wud u consider electrical engineering and electronic course to be in dubai campus\nI knew i had to take engineering and my dad told me to take EEE cuz its not that bad but now that ive taken it my friends keep saying im cooked &#32; submitted by &#32; /u/GodSmith145 &#32; to &#32; r/BITSPilani [link] &#32; [comments]\nYeah why would u do that lmao,anyone can get csecalso easily in Dubai u just need 75 in boards Now that you have already taken it, chill out gng. Hard for you, hard for ever…",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "How hard wud u consider electrical engineering and electronic course to be in du\u2026",
+          "title": "How hard wud u consider electrical engineering and electronic course to be in du…",
           "url": "https://www.reddit.com/r/BITSPilani/comments/1vorhid/how_hard_wud_u_consider_electrical_engineering/",
           "date": "2026-08-15",
           "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
@@ -884,10 +1113,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l542",
-      "text": "What Would Shannon Say about AI?",
+      "id": "l554",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "What Would Shannon Say about AI?",
       "sources": [
         {
           "publisher": "x",
@@ -905,14 +1134,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l543",
-      "text": "BestBlogs Daily \u00b7 08-26\n\n# OpenAI Jalape\u00f1o / Claude memory / WebMCP / LLM evaluation / Granite 4.2\n\n[1] \u2605 Deep Dive \u00b7 Jalape\u00f1o\u2019s first results show industry-leading speed and efficiency in AI inference\nOpenAI reports first results for Jalape\u00f1o, its custom inference chip: 1.5 to 1.9 times more AI work per watt and 1.7 to 3.6 times lower end-to-end latency than comparison systems on the public InferenceX benchmark. Gains come from co-designing chip, memory, network and software around language-mod",
+      "id": "l555",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "BestBlogs Daily · 08-26\n\n# OpenAI Jalapeño / Claude memory / WebMCP / LLM evaluation / Granite 4.2\n\n[1] ★ Deep Dive · Jalapeño’s first results show industry-leading speed and efficiency in AI inference\nOpenAI reports first results for Jalapeño, its custom inference chip: 1.5 to 1.9 times more AI work per watt and 1.7 to 3.6 times lower end-to-end latency than comparison systems on the public InferenceX benchmark. Gains come from co-designing chip, memory, network and software around language-mod",
       "sources": [
         {
           "publisher": "x",
-          "title": "BestBlogs Daily \u00b7 08-26\n\n# OpenAI Jalape\u00f1o / Claude memory / WebMCP / LLM evalua\u2026",
+          "title": "BestBlogs Daily · 08-26\n\n# OpenAI Jalapeño / Claude memory / WebMCP / LLM evalua…",
           "url": "https://x.com/BestBlogsDev/status/2092404418847428780",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -926,14 +1155,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l544",
-      "text": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+      "id": "l556",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
       "sources": [
         {
           "publisher": "x",
-          "title": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+          "title": "BestBlogs Daily · 08-29 · AI-Native Engineering Meets LLM Gateway Reliability",
           "url": "https://x.com/BestBlogsDev/status/2093500753738645591",
           "date": "2026-08-29",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -947,14 +1176,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l545",
-      "text": "BestBlogs Daily \u00b7 08-26 \u00b7 Jalape\u00f1o's first benchmarks, one Claude memory, and Canva's AI cost math",
+      "id": "l557",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "BestBlogs Daily · 08-26 · Jalapeño's first benchmarks, one Claude memory, and Canva's AI cost math",
       "sources": [
         {
           "publisher": "x",
-          "title": "BestBlogs Daily \u00b7 08-26 \u00b7 Jalape\u00f1o's first benchmarks, one Claude memory, and Ca\u2026",
+          "title": "BestBlogs Daily · 08-26 · Jalapeño's first benchmarks, one Claude memory, and Ca…",
           "url": "https://x.com/BestBlogsDev/status/2092404364145217841",
           "date": "2026-08-26",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -968,10 +1197,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l546",
-      "text": "The AI Data-Center Bust Will Look Like a Boom",
+      "id": "l558",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "The AI Data-Center Bust Will Look Like a Boom",
       "sources": [
         {
           "publisher": "x",
@@ -989,14 +1218,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l547",
-      "text": "BestBlogs Daily \u00b7 08-25\n\n# runtime AI governance / ADK live evaluation / DFlash / speculative decoding / LangSmith\n\n[1] \u2605 Deep Dive \u00b7 Microsoft Moves AI Governance From Policy to Runtime Enforcement\nMicrosoft\u2019s nine-domain architecture turns AI governance into an operational loop: policy defines requirements, runtime controls enforce them, observability records behavior, evaluations test quality and safety, and audit converts telemetry into evidence. It also extends identity and checkpoints to a",
+      "id": "l559",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "BestBlogs Daily · 08-25\n\n# runtime AI governance / ADK live evaluation / DFlash / speculative decoding / LangSmith\n\n[1] ★ Deep Dive · Microsoft Moves AI Governance From Policy to Runtime Enforcement\nMicrosoft’s nine-domain architecture turns AI governance into an operational loop: policy defines requirements, runtime controls enforce them, observability records behavior, evaluations test quality and safety, and audit converts telemetry into evidence. It also extends identity and checkpoints to a",
       "sources": [
         {
           "publisher": "x",
-          "title": "BestBlogs Daily \u00b7 08-25\n\n# runtime AI governance / ADK live evaluation / DFlash \u2026",
+          "title": "BestBlogs Daily · 08-25\n\n# runtime AI governance / ADK live evaluation / DFlash …",
           "url": "https://x.com/BestBlogsDev/status/2092046971985158653",
           "date": "2026-08-25",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1010,14 +1239,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l548",
-      "text": "$SLNH\n\nPart 3/3:  From Dorothy to a repeatable model\n\nProject Dorothy is where Soluna and Siemens intend to put this engineering work against a real site.\n\n@jbelizaireCEO was explicit during the DC Day session:\n\n \u201cSpecifically at Project Dorothy, which is where we\u2019re designing this for.\u201d\n\nRyan Carver had already said the Siemens PTI work had been moved or allocated to Dorothy 3 capacity. John\u2019s comment gives that earlier disclosure a clearer destination: the engineering work is now being designe",
+      "id": "l560",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "$SLNH\n\nPart 3/3:  From Dorothy to a repeatable model\n\nProject Dorothy is where Soluna and Siemens intend to put this engineering work against a real site.\n\n@jbelizaireCEO was explicit during the DC Day session:\n\n “Specifically at Project Dorothy, which is where we’re designing this for.”\n\nRyan Carver had already said the Siemens PTI work had been moved or allocated to Dorothy 3 capacity. John’s comment gives that earlier disclosure a clearer destination: the engineering work is now being designe",
       "sources": [
         {
           "publisher": "x",
-          "title": "$SLNH\n\nPart 3/3:  From Dorothy to a repeatable model\n\nProject Dorothy is where S\u2026",
+          "title": "$SLNH\n\nPart 3/3:  From Dorothy to a repeatable model\n\nProject Dorothy is where S…",
           "url": "https://x.com/perspez/status/2092909398725185902",
           "date": "2026-08-27",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1031,10 +1260,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l549",
-      "text": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
+      "id": "l561",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
       "sources": [
         {
           "publisher": "x",
@@ -1052,14 +1281,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l550",
-      "text": "Inside the machines that dream in physics \u2014 and why they may finally drag AI out of the datacenter and onto the device on your desk.\nBy @zbruceli\n#futurism #worldmodelai...Show more https://t.co/hVt8ApmyuX",
+      "id": "l562",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Inside the machines that dream in physics — and why they may finally drag AI out of the datacenter and onto the device on your desk.\nBy @zbruceli\n#futurism #worldmodelai...Show more https://t.co/hVt8ApmyuX",
       "sources": [
         {
           "publisher": "x",
-          "title": "Inside the machines that dream in physics \u2014 and why they may finally drag AI out\u2026",
+          "title": "Inside the machines that dream in physics — and why they may finally drag AI out…",
           "url": "https://x.com/hackernoon/status/2077301243374887409",
           "date": "2026-07-15",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1073,14 +1302,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l551",
-      "text": "Open source CPU/GPU/AI chips? A standard governed in Switzerland, extensible by anyone, embargoable by no one. How real are they in 2026?\nBy @zbruceli\n#futurism #opensource...Show more https://t.co/Feg2Dk1aVR",
+      "id": "l563",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "Open source CPU/GPU/AI chips? A standard governed in Switzerland, extensible by anyone, embargoable by no one. How real are they in 2026?\nBy @zbruceli\n#futurism #opensource...Show more https://t.co/Feg2Dk1aVR",
       "sources": [
         {
           "publisher": "x",
-          "title": "Open source CPU/GPU/AI chips? A standard governed in Switzerland, extensible by \u2026",
+          "title": "Open source CPU/GPU/AI chips? A standard governed in Switzerland, extensible by …",
           "url": "https://x.com/hackernoon/status/2075076347114733754",
           "date": "2026-07-09",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1094,14 +1323,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l552",
-      "text": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the San\u0101tana Question of the Self",
+      "id": "l564",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the Sanātana Question of the Self",
       "sources": [
         {
           "publisher": "x",
-          "title": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the San\u0101tana Questio\u2026",
+          "title": "The Machine That Asked \"Who Am I?\" - AI, Consciousness, and the Sanātana Questio…",
           "url": "https://x.com/nithinpalal/status/2086874531751489924",
           "date": "2026-08-10",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1115,14 +1344,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l553",
-      "text": "AI Is Bigger Than Chatbots The Infrastructure Race Behind the Next Computing Era Artificial intellig",
+      "id": "l565",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "AI Is Bigger Than Chatbots The Infrastructure Race Behind the Next Computing Era Artificial intellig",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Is Bigger Than Chatbots The Infrastructure Race Behind the Next Computing Era\u2026",
+          "title": "AI Is Bigger Than Chatbots The Infrastructure Race Behind the Next Computing Era…",
           "url": "https://x.com/Jonnydahorseog/status/2089392687241683021",
           "date": "2026-08-17",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1136,10 +1365,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l554",
-      "text": "The Silicon Insurgency of Open Source CPU, GPU and AI accelerators",
+      "id": "l566",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "The Silicon Insurgency of Open Source CPU, GPU and AI accelerators",
       "sources": [
         {
           "publisher": "x",
@@ -1157,14 +1386,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l555",
-      "text": "The AI Boom Is Getting Bigger. That May Be Exactly Why Investors Should Be Careful.\n\nDSP Netra August 2026 delivers a fascinating message: Don't chase the world's most crowded winners. But don't become bearish on India just as valuations are beginning to improve.\n\nEvery great investment boom begins with a powerful story.\n\nRailroads. Oil. Telecom. The internet.\n\nAnd now, AI.\n\nThe technology may genuinely change the world. But investors often forget one uncomfortable truth:\n\nA revolutionary techno",
+      "id": "l567",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "The AI Boom Is Getting Bigger. That May Be Exactly Why Investors Should Be Careful.\n\nDSP Netra August 2026 delivers a fascinating message: Don't chase the world's most crowded winners. But don't become bearish on India just as valuations are beginning to improve.\n\nEvery great investment boom begins with a powerful story.\n\nRailroads. Oil. Telecom. The internet.\n\nAnd now, AI.\n\nThe technology may genuinely change the world. But investors often forget one uncomfortable truth:\n\nA revolutionary techno",
       "sources": [
         {
           "publisher": "x",
-          "title": "The AI Boom Is Getting Bigger. That May Be Exactly Why Investors Should Be Caref\u2026",
+          "title": "The AI Boom Is Getting Bigger. That May Be Exactly Why Investors Should Be Caref…",
           "url": "https://x.com/Ramkuma66261700/status/2090289686808031501",
           "date": "2026-08-20",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1178,14 +1407,14 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l556",
-      "text": "@zbruceli Claim $70 in free Nosana GPU credits for the Decentralize AI Hackathon! Learn how to manage your compute budget and win a share of the $51,750 prize pool.\n\n#developerhackathon  #hackernoontopstory  #decentralizeai\nRead the full article below \ud83d\udc47\nhttps://t.co/1deq9MoG3O",
+      "id": "l568",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "@zbruceli Claim $70 in free Nosana GPU credits for the Decentralize AI Hackathon! Learn how to manage your compute budget and win a share of the $51,750 prize pool.\n\n#developerhackathon  #hackernoontopstory  #decentralizeai\nRead the full article below 👇\nhttps://t.co/1deq9MoG3O",
       "sources": [
         {
           "publisher": "x",
-          "title": "@zbruceli Claim $70 in free Nosana GPU credits for the Decentralize AI Hackathon\u2026",
+          "title": "@zbruceli Claim $70 in free Nosana GPU credits for the Decentralize AI Hackathon…",
           "url": "https://x.com/hackernoon/status/2073784065765806160",
           "date": "2026-07-05",
           "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
@@ -1199,10 +1428,10 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l557",
-      "text": "The Million-GPU Problem: Inside the Insane Networks That Make AI Possible",
+      "id": "l569",
       "lane": "L5",
       "tier": "practitioner-discourse",
+      "text": "The Million-GPU Problem: Inside the Insane Networks That Make AI Possible",
       "sources": [
         {
           "publisher": "x",
@@ -1222,44 +1451,65 @@
   ],
   "jobAds": {
     "source": "adzuna-au",
-    "query": "electrical and electronic engineering technicians",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
+    "query": "electrical engineering technician",
+    "window": "Adzuna AU live all-time index (fetched 2026-08-29)",
+    "count": 61,
+    "returned": 50,
     "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
+      "Skill Match Recruit",
+      "Job2Go Pty Ltd",
+      "SIMPEC",
+      "Innomotics.",
+      "BHP",
+      "pitt&sherry",
+      "Alerton Australia",
+      "Advanced Aircon Design and Construct Pty Ltd"
     ],
     "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+      "electrical",
+      "commissioning",
+      "testing",
+      "wiring",
+      "PLC",
+      "panel"
+    ],
+    "linkedinNote": {
+      "query": "Electrical and Electronic Engineering Technicians",
+      "location": "Australia",
+      "returned": 10,
+      "totalResults": 10
+    }
   },
   "corpus": {
+    "retrieved": "2026-08-29",
+    "searchesReturningNothing": [
+      "Factiva L3 premium trade-press source not run: attended-only OpenAthens SSO session unavailable in unattended cron run (deep-research plan constraint 3).",
+      "TikTok and Instagram practitioner channels not sampled: last30days has_scrapecreators=false in this environment (2026-08-24 diagnose)."
+    ],
+    "factiva": {
+      "status": "skipped_unattended",
+      "reason": "OpenAthens interactive SSO login cannot be performed by the unattended loop; re-run factiva_backlog.py / factiva_backfill.py after an attended session refresh."
+    },
     "platforms": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Electrical and Electronic Engineering Technicians Association discourse",
-        "items": 45
+        "name": "last30days",
+        "scope": "reddit,x,youtube,hackernews,polymarket,github,grounding",
+        "items": 55,
+        "status": "sampled"
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
     "linkedin": {
       "status": "sampled",
       "query": "Electrical and Electronic Engineering Technicians",
       "location": "Australia",
       "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/17-3023/raw/linkedin_l4.json"
+      "totalResults": 10,
+      "source": "linkedin (unofficial scrape)"
     },
     "l5Sample": [
       {
-        "date": "2026-08-29",
-        "added": 55,
+        "status": "sampled",
+        "plan": "data/professions/17-3023/raw/l5_plan.json",
         "sources": {
           "github": 13,
           "grounding": 0,
@@ -1268,10 +1518,13 @@
           "x": 16,
           "youtube": 0
         },
-        "status": "sampled"
+        "source": "last30days"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "Factiva L3 premium trade-press source not run (attended-only OpenAthens SSO); public trade press used instead.",
+    "Adzuna L4 query 'electrical engineering technician' returns a small AU live index (61 ads); indicative demand only."
+  ]
 }
