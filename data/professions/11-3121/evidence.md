@@ -1,103 +1,68 @@
-# Evidence log — Human Resources Managers (11-3121)
+# Evidence log: Human Resources Managers (11-3121)
+Generated 2026-08-29. Research method: empirical-five-lane-v1.
 
-researchMethod: empirical-five-lane-v1  |  generated: 2026-08-27  |  window: {'from': '2025-08-27', 'to': '2026-08-27'}  |  confidence: medium
+Lanes: L1 regulatory, L2 scholarly, L3 trade press, L4 demand (Adzuna + LinkedIn), L5 practitioner discourse (last30days).
 
-One short quote per source, by claim. L5 items are practitioner-discourse leads from the last30days engine.
+## Lane sources (one short quote per source)
 
-## hr-l1 — LL1 (regulatory-privacy, sourced)
+### L1 Regulatory / standards (2 claims)
+- [Australian HR Institute (AHRI)] AHRI Certification Program Guide (Version 1.1) — https://www.ahri.com.au/wp-content/uploads/AHRI-Certification-Program-Guide-2025.pdf (Published May 2025 (© AHRI 2025); HTTP last-modified 2025-05-22)
+  "The Australian HR Institute (AHRI) — the peak professional body for HR in Australia — publishes and administers the Australian HR Capability Framework (AHRCF) and the AHRI Practisi..."
+  Scope: This is a voluntary industry/professional-body standard, not a statutory licence — Human Resources Managers in Australia are not legally required to hold AHRI certification to practise. It establishes a peak-body competency standard and certification pathway, not government regulation or licensing. Scope: Australia-wide, current as of the source's May 2025 publication date.
+- [Responsible AI Australia (summarising Privacy Act 1988 Cth, APP 1.7)] AI Rules for Australian Employers (2026): Hiring, Monitoring, WHS and Privacy — https://responsibleaiaustralia.com.au/industries/workplace (2026)
+  "From 10 December 2026, Australian Privacy Act amendments (APP 1.7) require organisations to disclose in their privacy policy where a computer program makes or materially helps make..."
+  Scope: National-system employers covered by the Privacy Act; binding from 10 December 2026. Does not itself create a right to human review (unlike EU GDPR).
 
-From 10 December 2026, Australian Privacy Act amendments (APP 1.7) require organisations to disclose in their privacy policy where a computer program makes or materially helps make decisions significantly affecting a person - directly capturing HR uses of AI in recruitment, rostering, performance management and monitoring.
+### L2 Scholarly / institutional (2 claims)
+- [Jobs and Skills Australia (Australian Government)] Our Gen AI Transition — Implications for Work and Skills (Final Overarching Report) — https://www.nationalskillsweek.com.au/wp-content/uploads/2025/08/our_gen_ai_transition.pdf (2025-08-14)
+  "In Jobs and Skills Australia's national Computable General Equilibrium (CGE) modelling of Australia's generative-AI transition (developed with Victoria University), Business Admini..."
+  Scope: Findings are at the ANZSCO 3-digit 'Business Administration Managers' group level, not Human Resource Managers in isolation, so they also reflect Corporate Services, Finance, Policy and Planning, and Procurement Managers within that group. The employment-gain result is a projection from an illustrative CGE scenario assuming full realisation of Gen AI's productivity potential by 2050, not an observed current-day effect, and it is specific to the Australian labour market — do not apply it to other countries or treat it as a per-occupation automation-risk score for Human Resource Managers alone.
+- [O*NET OnLine (US Department of Labor)] 11-3121.00 - Human Resources Managers — https://www.onetonline.org/link/summary/11-3121.00 (2026)
+  "O*NET lists Human Resources Managers' core tasks as administering compensation, benefits and performance systems, analysing statistical data to diagnose personnel problems, studyin..."
+  Scope: US O*NET occupational data; task composition is indicative of the role, not an Australian employment count or a legal statement.
 
-- Responsible AI Australia (summarising Privacy Act 1988 Cth, APP 1.7) — AI Rules for Australian Employers (2026): Hiring, Monitoring, WHS and Privacy (https://responsibleaiaustralia.com.au/industries/workplace) [http 200]
-  Quote: "From 10 December 2026, organisations covered by the Privacy Act must spell out in their privacy policy where they use computer programs to make (or substantially help make) decisions that could significantly affect a person - including the kinds of personal information used."
+### L3 Trade press (2 claims)
+- [HRD Australia (Human Resources Director Australia / hcamag.com)] HR leaders urged to co-lead AI shift in 2026 — https://www.hcamag.com/au/specialisation/hr-technology/hr-leaders-urged-to-co-lead-ai-shift-in-2026/561318 (2026-01-08)
+  "Trade press reporting (HRD Australia, 8 January 2026) on the AIHR HR Priorities 2026 Report found only 35% of HR professionals feel prepared to work with AI and 61% report minimal ..."
+  Scope: This is trade-press reporting on a third-party survey report (AIHR's HR Priorities 2026 Report), not an Australia-specific or HR-manager-specific primary study — the underlying report's respondent base and country mix were not confirmed by this search; treat this as attributable industry-press commentary on AI-readiness among HR practitioners, not a scoped Australian occupational statistic. If the underlying AIHR report is available and Australia-scoped, it should be cited directly as L2 rather than via this trade-press summary.
+- [HR Leader (reporting ELMO Software 2026 HR Industry Benchmark Report)] Where AI is and isn't helping workplaces — https://hrleader.com.au/tech/27966-where-ai-is-and-isn-t-helping-workplaces (2026)
+  "ELMO Software's 2026 HR Industry Benchmark Report (online survey of 904 Australian HR professionals, 6-15 January 2026) found 80% of Australian organisations use AI and 93% of HR t..."
+  Scope: Australian HR professionals (n=904, Jan 2026), self-reported survey; measures stated adoption and perceived impact, not productivity measured independently.
 
-## hr-l1b — LL1 (regulatory-industrial, sourced)
+### L4 Demand (job ads) (10 claims)
+- LinkedIn (unofficial scrape): 10 live AU postings folded as L4 claims.
+- Adzuna AU: 1116 live postings matching "human resources manager" (Adzuna AU live all-time index (fetched 2026-08-29)); top employers: Core Talent, Central Australian Aboriginal Congress, Marriott, Burger Urge, Marriott Hotels Resorts.
 
-The Fair Work Commission published an exposure draft of its generative-AI guidance note after an AI-driven surge in lodgements, with disclosure and verification requirements for AI-prepared documents - a constraint that lands on HR managers who draft, file or assess workplace documents.
+### L5 Practitioner discourse (66 claims)
+- last30days declared sample: 66 items across github=8, grounding=0, hackernews=24, reddit=10, x=20, youtube=4.
+- Representative practitioner quotes:
+  - [github] 💎 Knowledge Update & Optimization: 13 Jul 2026
+## 💎 Knowledge Update: 13 Jul 2026
 
-- Responsible AI Australia (summarising Fair Work Commission practice) — AI Rules for Australian Employers (2026): Hiring, Monitoring, WHS and Privacy (https://responsibleaiaustralia.com.au/industries/workplace) [http 200]
-  Quote: "The Fair Work Commission published an exposure draft of its generative AI guidance note after an unprecedented AI-driven surge in lodgements, with disclosure and verification requirements for AI-prepared documents."
+Processed **0** l...
+  - [github] Discussion: make the engineering change the unit of context, impact, verification, and routing
+> [!N...
+  - [github] Feature/add internal ai sue
+  - [github] feat: Add proxy media workflow
+## Description
+- Adds a proxy media workflow so preview playback can ...
+  - [github] Flet migration
+resolves #49
 
-## hr-l2 — LL2 (institutional-occupational-data, sourced)
+coolio flet
 
-O*NET lists Human Resources Managers' core tasks as administering compensation, benefits and performance systems, analysing statistical data to diagnose personnel problems, studying legislation, arbitration decisions and collective-bargaining contracts, and maintaining personnel records - a task mix where AI now drafts, screens and analyses, but where anti-discrimination and privacy law still bind the human decision.
+<!-- This is an auto-generated comment: release notes by c...
+  - [github] Feature/add internal ai sue
+## Unit Test Results
+347 tests  +72   347 ✅ +72   49s ⏱️ +7s
+ 83 suites ...
+  - [github] CONTRIBUTING.md: establish initial automation/AI/LLM policy
+The Nixpkgs core team feels it is overdu...
+  - [github] AI-Driven Jira Estimation and Assignment Agent
+# **Architectural and Algorithmic Design of an AI-Dri...
 
-- O*NET OnLine (US Department of Labor) — 11-3121.00 - Human Resources Managers (https://www.onetonline.org/link/summary/11-3121.00) [http 200]
-  Quote: "Analyze statistical data and reports to identify and determine causes of personnel problems and develop recommendations for improvement of organization's personnel policies and practices."
+## Searches that returned nothing
+- L2: "Human Resource Managers" OR "HR managers" AIOE OR Felten automation exposure index Australia study (no Australia-specific application of the Felten AIOE index to HR managers found)
+- L2: AHRI-RMIT Fourth Industrial Revolution Future Workforce report — accessible in search snippets but the PDF itself returned HTTP 403 Forbidden on fetch, so its content could not be confirmed and it was not used as a source
+- L2: Human Resources Managers AI automation exposure Australia study (direct HR-manager-specific occupation exposure study — no dedicated study found)
 
-## hr-l3 — LL3 (trade-press-survey, sourced)
-
-ELMO Software's 2026 HR Industry Benchmark Report (online survey of 904 Australian HR professionals, 6-15 January 2026) found 80% of Australian organisations use AI and 93% of HR teams use it, yet only 15% of HR leaders say it delivered transformational impact against 32% who expected it - a gap between adoption and realised outcomes.
-
-- HR Leader (reporting ELMO Software 2026 HR Industry Benchmark Report) — Where AI is and isn't helping workplaces (https://hrleader.com.au/tech/27966-where-ai-is-and-isn-t-helping-workplaces) [http 200]
-  Quote: "While 32 per cent of HR leaders anticipated organisational transformation from AI, only 15 per cent said it actually delivered."
-
-## l537 — LL5 (practitioner-discourse, sourced)
-
-How is AI actually being used in HR functions today? [N/A]
-I want to know how organizations are adopting AI across different HR functions and would love to hear from HR professionals, managers, and employees who have firsthand experience. &#32; submitted by &#32; /u/hornytiramisu [link] &#32; [comments]
-
-- reddit — How is AI actually being used in HR functions today? [N/A]
-I want to know how or… (https://www.reddit.com/r/humanresources/comments/1vx1m3o/how_is_ai_actually_being_used_in_hr_functions/) [http ]
-
-## l538 — LL5 (practitioner-discourse, sourced)
-
-Boss uses AI for EVERYTHING [N/A]
-
-- reddit — Boss uses AI for EVERYTHING [N/A] (https://www.reddit.com/r/humanresources/comments/1vlmxlv/boss_uses_ai_for_everything_na/) [http ]
-
-## l539 — LL5 (practitioner-discourse, sourced)
-
-Looking for AI search tools help
-
-- reddit — Looking for AI search tools help (https://www.reddit.com/r/recruiting/comments/1vqq9s6/looking_for_ai_search_tools_help/) [http ]
-
-## l540 — LL5 (practitioner-discourse, sourced)
-
-Expose AI Applications
-
-- reddit — Expose AI Applications (https://www.reddit.com/r/recruiting/comments/1vbkv4i/expose_ai_applications/) [http ]
-
-## l541 — LL5 (practitioner-discourse, sourced)
-
-Using AI for healthcare recruiting?
-
-- reddit — Using AI for healthcare recruiting? (https://www.reddit.com/r/recruiting/comments/1vr1qcu/using_ai_for_healthcare_recruiting/) [http ]
-
-## l542 — LL5 (practitioner-discourse, sourced)
-
-When using AI goes wrong [N/A]
-
-- reddit — When using AI goes wrong [N/A] (https://www.reddit.com/r/humanresources/comments/1v90qrn/when_using_ai_goes_wrong_na/) [http ]
-
-## l543 — LL5 (practitioner-discourse, sourced)
-
-Boss uses AI for EVERYTHING [N/A]
-I definitely work with some leaders that do this and I agree that it’s completely unnecessary and super annoying. At this point I’m just waiting for the following scenario will happen: I’ll ask for in Just to add some levity from a funny meme I saw: "To all the people who are anti-Al or want to slow Al progress, I have one question: If Al disappeared tomorrow, could you still get through an entire Your last paragraph is key. If your entire job could be replaced …
-
-- reddit — Boss uses AI for EVERYTHING [N/A]
-I definitely work with some leaders that do th… (https://www.reddit.com/r/humanresources/comments/1vlmxlv/boss_uses_ai_for_everything_na/) [http ]
-
-## l544 — LL5 (practitioner-discourse, sourced)
-
-Using AI for healthcare recruiting?
-What kind of Healthcare roles? Every AI tool I've seen is just some different version of scrapping data from LinkedIn. And most/all violate LinkedIn TOS unless they have partnered integration. LinkedIn is going hard into AI themsel traditional sourcing platforms meaning?
-
-- reddit — Using AI for healthcare recruiting?
-What kind of Healthcare roles? Every AI tool… (https://www.reddit.com/r/recruiting/comments/1vr1qcu/using_ai_for_healthcare_recruiting/) [http ]
-
-## l545 — LL5 (practitioner-discourse, sourced)
-
-When using AI goes wrong [N/A]
-And my HRIS thinks I’m insane for not wanting their AI bot available to employees 🤦🏻‍♂️ I realize that’s not the same thing but it’s the same kind of stupid lol Did you see Bill Oliver’s speech? He didn’t even catch the mistake as he was reading “his” speech Hadn't seen this but just watched it - comedy gold/political trash!
-
-- reddit — When using AI goes wrong [N/A]
-And my HRIS thinks I’m insane for not wanting the… (https://www.reddit.com/r/humanresources/comments/1v90qrn/when_using_ai_goes_wrong_na/) [http ]
-
-## l546 — LL5 (practitioner-discourse, sourced)
-
-Expose AI Applications
-For better or worse, I think job postings are just dead for now. They're legit a waste of time. You have to do sourcing - which as someone who is inhouse, that's not often as easy as it sounds; that's A lot of the noise we get are from scammers, so I wouldn't expect their systems to answer honestly. You can use a knockout question with something like "how many R's in strawberry"- that won't probabl Thanks. I couldn’t agree more. Right now we have a hiring spike and I am de…
-
-- reddit — Expose AI Applications
-For better or worse, I think job postings are just dead f… (https://www.reddit.com/r/recruiting/comments/1vbkv4i/expose_ai_applications/) [http ]

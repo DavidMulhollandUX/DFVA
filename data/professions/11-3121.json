@@ -1,20 +1,82 @@
 {
   "onet_soc_code": "11-3121",
-  "researchMethod": "empirical-five-lane-v1",
   "title": "Human Resources Managers",
   "aliases": [
     "Human Resource Manager",
     "Senior Human Resources Business Partner"
   ],
-  "anzsco": "220000",
+  "anzsco": "132311",
   "window": {
-    "from": "2025-08-27",
-    "to": "2026-08-27"
+    "from": "2025-08-01",
+    "to": "2026-08-24"
   },
-  "generated": "2026-08-27",
-  "expires": "2027-02-23",
+  "generated": "2026-08-29",
+  "expires": "2027-02-28",
   "programs": [],
   "claims": [
+    {
+      "id": "11-3121-L101",
+      "text": "The Australian HR Institute (AHRI) \u2014 the peak professional body for HR in Australia \u2014 publishes and administers the Australian HR Capability Framework (AHRCF) and the AHRI Practising/HR Certification program, which formally certifies HR practitioners (including HR managers) as Certified Practitioners of Human Resources (CPHR) via five AHRCF Micro-Credentials plus a Certification Assessment, endorsed by AHRI's National Certification Council.",
+      "lane": "L1",
+      "tier": "L1",
+      "sources": [
+        {
+          "publisher": "Australian HR Institute (AHRI)",
+          "title": "AHRI Certification Program Guide (Version 1.1)",
+          "url": "https://www.ahri.com.au/wp-content/uploads/AHRI-Certification-Program-Guide-2025.pdf",
+          "date": "Published May 2025 (\u00a9 AHRI 2025); HTTP last-modified 2025-05-22",
+          "whatItMeasured": "Defines the Australian HR Capability Framework (AHRCF), the CPHR certification pathway (AHRCF Micro-Credentials + Certification Assessment), eligibility/membership requirements, and National Certification Council governance for HR professional certification in Australia"
+        }
+      ],
+      "scope": "This is a voluntary industry/professional-body standard, not a statutory licence \u2014 Human Resources Managers in Australia are not legally required to hold AHRI certification to practise. It establishes a peak-body competency standard and certification pathway, not government regulation or licensing. Scope: Australia-wide, current as of the source's May 2025 publication date.",
+      "disposition": "corrected",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3 independent skeptics (source-real / population-fit / in-window); 0/3 overturned, survives (needs <2). Dropped 1 source(s) that failed independent HTTP verification on 2026-08-29."
+    },
+    {
+      "id": "11-3121-L201",
+      "text": "In Jobs and Skills Australia's national Computable General Equilibrium (CGE) modelling of Australia's generative-AI transition (developed with Victoria University), Business Administration Managers \u2014 the ANZSCO 3-digit occupation group that Human Resource Managers (ANZSCO 1323) sits within, alongside Corporate Services, Finance, Policy and Planning, and Procurement Managers \u2014 is identified as one of the five 3-digit ANZSCO occupations projected to gain the most employment by 2050 relative to the model's base case, reflecting these managerial occupations' more favourable balance of AI augmentation (task assistance) over automation (task replacement) relative to other occupations modelled.",
+      "lane": "L2",
+      "tier": "L2",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia (Australian Government)",
+          "title": "Our Gen AI Transition \u2014 Implications for Work and Skills (Final Overarching Report)",
+          "url": "https://www.nationalskillsweek.com.au/wp-content/uploads/2025/08/our_gen_ai_transition.pdf",
+          "date": "2025-08-14",
+          "whatItMeasured": "Illustrative CGE modelling (with Victoria University) of employment and occupational-composition effects of generative AI adoption across the whole Australian labour market to 2050, built on task-level augmentation/automation exposure scoring by 3-digit ANZSCO occupation"
+        }
+      ],
+      "scope": "Findings are at the ANZSCO 3-digit 'Business Administration Managers' group level, not Human Resource Managers in isolation, so they also reflect Corporate Services, Finance, Policy and Planning, and Procurement Managers within that group. The employment-gain result is a projection from an illustrative CGE scenario assuming full realisation of Gen AI's productivity potential by 2050, not an observed current-day effect, and it is specific to the Australian labour market \u2014 do not apply it to other countries or treat it as a per-occupation automation-risk score for Human Resource Managers alone.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3 independent skeptics (source-real / population-fit / in-window); 0/3 overturned, survives (needs <2). All sources independently HTTP-verified 200 on 2026-08-29."
+    },
+    {
+      "id": "11-3121-L301",
+      "text": "Trade press reporting (HRD Australia, 8 January 2026) on the AIHR HR Priorities 2026 Report found only 35% of HR professionals feel prepared to work with AI and 61% report minimal AI involvement in HR processes, despite 98% of organisations reporting heightened urgency around AI adoption \u2014 indicating a readiness gap between AI ambition and HR practitioners' actual AI capability in the Australian HR function.",
+      "lane": "L3",
+      "tier": "L3",
+      "sources": [
+        {
+          "title": "HR leaders urged to co-lead AI shift in 2026",
+          "url": "https://www.hcamag.com/au/specialisation/hr-technology/hr-leaders-urged-to-co-lead-ai-shift-in-2026/561318",
+          "publisher": "HRD Australia (Human Resources Director Australia / hcamag.com)",
+          "date": "2026-01-08",
+          "whatItMeasured": "Trade press article reporting survey findings from AIHR's HR Priorities 2026 Report on HR professionals' AI readiness and involvement"
+        }
+      ],
+      "scope": "This is trade-press reporting on a third-party survey report (AIHR's HR Priorities 2026 Report), not an Australia-specific or HR-manager-specific primary study \u2014 the underlying report's respondent base and country mix were not confirmed by this search; treat this as attributable industry-press commentary on AI-readiness among HR practitioners, not a scoped Australian occupational statistic. If the underlying AIHR report is available and Australia-scoped, it should be cited directly as L2 rather than via this trade-press summary.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "3 independent skeptics (source-real / population-fit / in-window); 1/3 overturned, survives (needs <2). All sources independently HTTP-verified 200 on 2026-08-29."
+    },
     {
       "id": "hr-l1",
       "text": "From 10 December 2026, Australian Privacy Act amendments (APP 1.7) require organisations to disclose in their privacy policy where a computer program makes or materially helps make decisions significantly affecting a person - directly capturing HR uses of AI in recruitment, rostering, performance management and monitoring.",
@@ -41,32 +103,6 @@
       ],
       "refuted": false,
       "refuteNotes": "Source is a real explainer of the enacted APP 1.7 amendment; population (Privacy Act-covered employers) and window (Dec 2026 commencement) both match. 2 of 3 skeptics failed to overturn."
-    },
-    {
-      "id": "hr-l1b",
-      "text": "The Fair Work Commission published an exposure draft of its generative-AI guidance note after an AI-driven surge in lodgements, with disclosure and verification requirements for AI-prepared documents - a constraint that lands on HR managers who draft, file or assess workplace documents.",
-      "lane": "L1",
-      "tier": "regulatory-industrial",
-      "sources": [
-        {
-          "publisher": "Responsible AI Australia (summarising Fair Work Commission practice)",
-          "title": "AI Rules for Australian Employers (2026): Hiring, Monitoring, WHS and Privacy",
-          "url": "https://responsibleaiaustralia.com.au/industries/workplace",
-          "date": "2026",
-          "whatItMeasured": "Notes the FWC generative-AI guidance note and its disclosure/verification expectations for AI-prepared documents",
-          "quote": "The Fair Work Commission published an exposure draft of its generative AI guidance note after an unprecedented AI-driven surge in lodgements, with disclosure and verification requirements for AI-prepared documents.",
-          "httpStatus": 200
-        }
-      ],
-      "scope": "Fair Work system; guidance addresses documents before the Commission, not private HR AI use generally.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [
-        "C3",
-        "W1"
-      ],
-      "refuted": false,
-      "refuteNotes": "Source reports the FWC action; in-window and population-appropriate. 2 of 3 skeptics failed to overturn."
     },
     {
       "id": "hr-l2",
@@ -122,7 +158,679 @@
       "refuteNotes": "Accessible trade-press report of a named vendor survey with declared n and dates; Australian population matches. 2 of 3 skeptics failed to overturn."
     },
     {
-      "id": "l537",
+      "id": "l503",
+      "text": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 2026\n\nProcessed **0** links.\n\n\u26a0\ufe0f **Detailed Safety Audit moved to comments due to scale.**\n\n\n### \ud83e\udde0 AI Intelligence & Observability Report\n\n#### \ud83e\udd16 Agentic Roles & Model Selection (Dynamic)\nExecution utilized a multi-agent Analyst-Auditor workflow for maximum robustness.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "\ud83d\udc8e Knowledge Update & Optimization: 13 Jul 2026\n## \ud83d\udc8e Knowledge Update: 13 Jul 202\u2026",
+          "url": "https://github.com/nubenetes/awesome-kubernetes/pull/499",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l504",
+      "text": "Discussion: make the engineering change the unit of context, impact, verification, and routing\n> [!NOTE]\n> Discussion only. This is not an approved implementation spec, milestone commitment, or `ready-for-agent` ticket.\n\n## Why this issue exists\n\nThe attached research argues that AI coding has moved the bottleneck rather than removed it. Code generation is faster, but engineers still pay for",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Discussion: make the engineering change the unit of context, impact, verificatio\u2026",
+          "url": "https://github.com/czync/token-killer/issues/91",
+          "date": "2026-07-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l505",
+      "text": "Feature/add internal ai sue",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Feature/add internal ai sue",
+          "url": "https://github.com/DEVSusana/HomeTutorPro/pull/27",
+          "date": "2026-05-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l506",
+      "text": "feat: Add proxy media workflow\n## Description\n- Adds a proxy media workflow so preview playback can use generated proxy files while export rendering stays pinned to original media.\n- Adds a Proxies tool tab and editor settings for per-clip proxy scale selection, queue/status management, proxy generation/regeneration, and project/\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/coderab\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat: Add proxy media workflow\n## Description\n- Adds a proxy media workflow so p\u2026",
+          "url": "https://github.com/b-editor/beutl/pull/2040",
+          "date": "2026-06-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l507",
+      "text": "Flet migration\nresolves #49\n\ncoolio flet\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n* **User Interface Changes**\n  * Complete redesign of the application interface using a new visual framework.\n  * Login screen simplified with a minimal, cleaner layout.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Flet migration\nresolves #49\n\ncoolio flet\n\n<!-- This is an auto-generated comment\u2026",
+          "url": "https://github.com/silent-this-sonder/sb3-bulk-downloader/pull/58",
+          "date": "2026-04-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l508",
+      "text": "Feature/add internal ai sue\n## Unit Test Results\n347 tests\u2002 +72\u2002\u2003\u2003347 \u2705 +72\u2002\u2003\u200349s \u23f1\ufe0f +7s\n\u200783 suites +18\u2002\u2003\u2003\u2007\u20070 \ud83d\udca4 \u00b1\u20070\u2002\n\u200783 files\u2004\u2002 +18\u2002\u2003\u2003\u2007\u20070 \u274c \u00b1\u20070\u2002\n\nResults for commit 9c74e2ed.\u2003\u00b1 Comparison against base commit 5b07136e.\n\n[test-results]:data:application/gzip;base64,H4sIADryjmoC/13Myw6DIBCF4VcxrLuoguj0ZRo6DMmkKg3CyvTdi/aCdvn9JzmL... ## \ud83e\udd16 Agent Code Review\n\n### \ud83d\udcc4 `app/src/main/java/com/devsusana/hometutorpro/HiltApplication.kt`\n| Sev | Categor\u00eda | Hallazgo | Sugerencia |\n|-----|-----------|---------\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Feature/add internal ai sue\n## Unit Test Results\n347 tests\u2002 +72\u2002\u2003\u2003347 \u2705 +72\u2002\u2003\u200349\u2026",
+          "url": "https://github.com/DEVSusana/HomeTutorPro/pull/27",
+          "date": "2026-05-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l509",
+      "text": "CONTRIBUTING.md: establish initial automation/AI/LLM policy\nThe Nixpkgs core team feels it is overdue to establish an official policy on the use of automation for Nixpkgs contributions. The [Code of Conduct](https://github.com/NixOS/.github/blob/master/CODE_OF_CONDUCT.md) has a clause against \u201cWasting other people\u2019s time with low quality contributions, inclu\nThis is one of the more well thought-out policies. While it would not be one that I would choose personally (and I have opted for a differe\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "CONTRIBUTING.md: establish initial automation/AI/LLM policy\nThe Nixpkgs core tea\u2026",
+          "url": "https://github.com/NixOS/nixpkgs/pull/514587",
+          "date": "2026-04-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l510",
+      "text": "AI-Driven Jira Estimation and Assignment Agent\n# **Architectural and Algorithmic Design of an AI-Driven Jira Estimation and Assignment Agent on OpenShift**\n\n## **Introduction to Automated Agile Workflows**\n\nThe administration of agile software development processes relies heavily on the accurate estimation of task complexity and the optimal rout\n@coderabbitai evaluate <!-- This is an auto-generated reply by CodeRabbit -->\n<details>\n<summary>\ud83e\udde9 Analysis chain</summary>\n\n\ud83c\udfc1 Script executed:\n```\n#!/b\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "AI-Driven Jira Estimation and Assignment Agent\n# **Architectural and Algorithmic\u2026",
+          "url": "https://github.com/opendatahub-io/notebooks/issues/3172",
+          "date": "2026-03-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l511",
+      "text": "Show HN: Jacquard, a programming language for AI-written, human-reviewed code",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Jacquard, a programming language for AI-written, human-reviewed code",
+          "url": "https://github.com/jbwinters/jacquard-lang",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l512",
+      "text": "What breaks in production AI workflows?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l513",
+      "text": "Automating quality support at scale: AI and human in the loop",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Automating quality support at scale: AI and human in the loop",
+          "url": "https://www.windmill.dev/blog/support-automation",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l514",
+      "text": "Show HN: Paca \u2013 Lightweight Jira alternative for human-AI collaboration",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Paca \u2013 Lightweight Jira alternative for human-AI collaboration",
+          "url": "https://github.com/Paca-AI/paca",
+          "date": "2026-06-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l515",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l516",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l517",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l518",
+      "text": "Less human AI agents, please",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Less human AI agents, please",
+          "url": "https://nial.se/blog/less-human-ai-agents-please/",
+          "date": "2026-04-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l519",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l520",
+      "text": "The death of AI workflow builders",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l521",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l522",
+      "text": "What is agentic AI today, and what do we want it to be?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l523",
+      "text": "My AI-Assisted Workflow",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l524",
+      "text": "Lawsuit claims Meta's layoff decisions were made by AI, not humans",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Lawsuit claims Meta's layoff decisions were made by AI, not humans",
+          "url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/",
+          "date": "2026-07-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l525",
+      "text": "Show HN: Can you tell the difference between AI vs human-made fonts?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Can you tell the difference between AI vs human-made fonts?",
+          "url": "https://www.mixfont.com/ai-font-quiz",
+          "date": "2026-06-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l526",
+      "text": "Be sinceerly human \u2013 AI to undo your AI writing",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Be sinceerly human \u2013 AI to undo your AI writing",
+          "url": "https://sinceerly.com/",
+          "date": "2026-04-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l527",
+      "text": "Startups brag they spend more money on AI than human employees",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Startups brag they spend more money on AI than human employees",
+          "url": "https://www.404media.co/startups-brag-they-spend-more-money-on-ai-than-human-employees/",
+          "date": "2026-04-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l528",
+      "text": "Ask HK: How are you building AI apps today?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l529",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l530",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l531",
+      "text": "The Problem with AI Today",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l532",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l533",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l534",
+      "text": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "hackernews",
+          "title": "Show HN: Core \u2013 open-source AI butler that clears your backlog without you",
+          "url": "https://www.getcore.me/",
+          "date": "2026-04-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l535",
       "text": "How is AI actually being used in HR functions today? [N/A]\nI want to know how organizations are adopting AI across different HR functions and would love to hear from HR professionals, managers, and employees who have firsthand experience. &#32; submitted by &#32; /u/hornytiramisu [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
@@ -132,9 +840,49 @@
           "title": "How is AI actually being used in HR functions today? [N/A]\nI want to know how or\u2026",
           "url": "https://www.reddit.com/r/humanresources/comments/1vx1m3o/how_is_ai_actually_being_used_in_hr_functions/",
           "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
-          "httpStatus": 200,
-          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l536",
+      "text": "Boss uses AI for EVERYTHING [N/A]",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Boss uses AI for EVERYTHING [N/A]",
+          "url": "https://www.reddit.com/r/humanresources/comments/1vlmxlv/boss_uses_ai_for_everything_na/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l537",
+      "text": "Looking for AI search tools help",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Looking for AI search tools help",
+          "url": "https://www.reddit.com/r/recruiting/comments/1vqq9s6/looking_for_ai_search_tools_help/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -146,18 +894,16 @@
     },
     {
       "id": "l538",
-      "text": "Boss uses AI for EVERYTHING [N/A]",
+      "text": "Expose AI Applications",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Boss uses AI for EVERYTHING [N/A]",
-          "url": "https://www.reddit.com/r/humanresources/comments/1vlmxlv/boss_uses_ai_for_everything_na/",
-          "date": "2026-08-11",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
-          "httpStatus": 200,
-          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+          "title": "Expose AI Applications",
+          "url": "https://www.reddit.com/r/recruiting/comments/1vbkv4i/expose_ai_applications/",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -169,18 +915,16 @@
     },
     {
       "id": "l539",
-      "text": "Looking for AI search tools help",
+      "text": "Using AI for healthcare recruiting?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Looking for AI search tools help",
-          "url": "https://www.reddit.com/r/recruiting/comments/1vqq9s6/looking_for_ai_search_tools_help/",
+          "title": "Using AI for healthcare recruiting?",
+          "url": "https://www.reddit.com/r/recruiting/comments/1vr1qcu/using_ai_for_healthcare_recruiting/",
           "date": "2026-08-17",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
-          "httpStatus": 200,
-          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -192,18 +936,16 @@
     },
     {
       "id": "l540",
-      "text": "Expose AI Applications",
+      "text": "When using AI goes wrong [N/A]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Expose AI Applications",
-          "url": "https://www.reddit.com/r/recruiting/comments/1vbkv4i/expose_ai_applications/",
-          "date": "2026-07-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
-          "httpStatus": 200,
-          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+          "title": "When using AI goes wrong [N/A]",
+          "url": "https://www.reddit.com/r/humanresources/comments/1v90qrn/when_using_ai_goes_wrong_na/",
+          "date": "2026-07-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -215,18 +957,16 @@
     },
     {
       "id": "l541",
-      "text": "Using AI for healthcare recruiting?",
+      "text": "Boss uses AI for EVERYTHING [N/A]\nI definitely work with some leaders that do this and I agree that it\u2019s completely unnecessary and super annoying. At this point I\u2019m just waiting for the following scenario will happen: I\u2019ll ask for in Just to add some levity from a funny meme I saw: \"To all the people who are anti-Al or want to slow Al progress, I have one question: If Al disappeared tomorrow, could you still get through an entire Your last paragraph is key. If your entire job could be replaced \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Using AI for healthcare recruiting?",
-          "url": "https://www.reddit.com/r/recruiting/comments/1vr1qcu/using_ai_for_healthcare_recruiting/",
-          "date": "2026-08-17",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
-          "httpStatus": 200,
-          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+          "title": "Boss uses AI for EVERYTHING [N/A]\nI definitely work with some leaders that do th\u2026",
+          "url": "https://www.reddit.com/r/humanresources/comments/1vlmxlv/boss_uses_ai_for_everything_na/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -238,18 +978,16 @@
     },
     {
       "id": "l542",
-      "text": "When using AI goes wrong [N/A]",
+      "text": "Using AI for healthcare recruiting?\nWhat kind of Healthcare roles? Every AI tool I've seen is just some different version of scrapping data from LinkedIn. And most/all violate LinkedIn TOS unless they have partnered integration. LinkedIn is going hard into AI themsel traditional sourcing platforms meaning?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "When using AI goes wrong [N/A]",
-          "url": "https://www.reddit.com/r/humanresources/comments/1v90qrn/when_using_ai_goes_wrong_na/",
-          "date": "2026-07-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
-          "httpStatus": 200,
-          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+          "title": "Using AI for healthcare recruiting?\nWhat kind of Healthcare roles? Every AI tool\u2026",
+          "url": "https://www.reddit.com/r/recruiting/comments/1vr1qcu/using_ai_for_healthcare_recruiting/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -261,18 +999,16 @@
     },
     {
       "id": "l543",
-      "text": "Boss uses AI for EVERYTHING [N/A]\nI definitely work with some leaders that do this and I agree that it\u2019s completely unnecessary and super annoying. At this point I\u2019m just waiting for the following scenario will happen: I\u2019ll ask for in Just to add some levity from a funny meme I saw: \"To all the people who are anti-Al or want to slow Al progress, I have one question: If Al disappeared tomorrow, could you still get through an entire Your last paragraph is key. If your entire job could be replaced \u2026",
+      "text": "When using AI goes wrong [N/A]\nAnd my HRIS thinks I\u2019m insane for not wanting their AI bot available to employees \ud83e\udd26\ud83c\udffb\u200d\u2642\ufe0f I realize that\u2019s not the same thing but it\u2019s the same kind of stupid lol Did you see Bill Oliver\u2019s speech? He didn\u2019t even catch the mistake as he was reading \u201chis\u201d speech Hadn't seen this but just watched it - comedy gold/political trash!",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Boss uses AI for EVERYTHING [N/A]\nI definitely work with some leaders that do th\u2026",
-          "url": "https://www.reddit.com/r/humanresources/comments/1vlmxlv/boss_uses_ai_for_everything_na/",
-          "date": "2026-08-11",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
-          "httpStatus": 200,
-          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+          "title": "When using AI goes wrong [N/A]\nAnd my HRIS thinks I\u2019m insane for not wanting the\u2026",
+          "url": "https://www.reddit.com/r/humanresources/comments/1v90qrn/when_using_ai_goes_wrong_na/",
+          "date": "2026-07-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -284,18 +1020,16 @@
     },
     {
       "id": "l544",
-      "text": "Using AI for healthcare recruiting?\nWhat kind of Healthcare roles? Every AI tool I've seen is just some different version of scrapping data from LinkedIn. And most/all violate LinkedIn TOS unless they have partnered integration. LinkedIn is going hard into AI themsel traditional sourcing platforms meaning?",
+      "text": "Expose AI Applications\nFor better or worse, I think job postings are just dead for now. They're legit a waste of time. You have to do sourcing - which as someone who is inhouse, that's not often as easy as it sounds; that's A lot of the noise we get are from scammers, so I wouldn't expect their systems to answer honestly. You can use a knockout question with something like \"how many R's in strawberry\"- that won't probabl Thanks. I couldn\u2019t agree more. Right now we have a hiring spike and I am de\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Using AI for healthcare recruiting?\nWhat kind of Healthcare roles? Every AI tool\u2026",
-          "url": "https://www.reddit.com/r/recruiting/comments/1vr1qcu/using_ai_for_healthcare_recruiting/",
-          "date": "2026-08-17",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
-          "httpStatus": 200,
-          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+          "title": "Expose AI Applications\nFor better or worse, I think job postings are just dead f\u2026",
+          "url": "https://www.reddit.com/r/recruiting/comments/1vbkv4i/expose_ai_applications/",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -307,18 +1041,16 @@
     },
     {
       "id": "l545",
-      "text": "When using AI goes wrong [N/A]\nAnd my HRIS thinks I\u2019m insane for not wanting their AI bot available to employees \ud83e\udd26\ud83c\udffb\u200d\u2642\ufe0f I realize that\u2019s not the same thing but it\u2019s the same kind of stupid lol Did you see Bill Oliver\u2019s speech? He didn\u2019t even catch the mistake as he was reading \u201chis\u201d speech Hadn't seen this but just watched it - comedy gold/political trash!",
+      "text": "Why AI native services is the next big bet",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "When using AI goes wrong [N/A]\nAnd my HRIS thinks I\u2019m insane for not wanting the\u2026",
-          "url": "https://www.reddit.com/r/humanresources/comments/1v90qrn/when_using_ai_goes_wrong_na/",
-          "date": "2026-07-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
-          "httpStatus": 200,
-          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+          "publisher": "x",
+          "title": "Why AI native services is the next big bet",
+          "url": "https://x.com/alokgoyal1971/status/2092476464797290905",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -330,18 +1062,16 @@
     },
     {
       "id": "l546",
-      "text": "Expose AI Applications\nFor better or worse, I think job postings are just dead for now. They're legit a waste of time. You have to do sourcing - which as someone who is inhouse, that's not often as easy as it sounds; that's A lot of the noise we get are from scammers, so I wouldn't expect their systems to answer honestly. You can use a knockout question with something like \"how many R's in strawberry\"- that won't probabl Thanks. I couldn\u2019t agree more. Right now we have a hiring spike and I am de\u2026",
+      "text": "I am finally ready to share an idea I first had about three years ago, on a day I still don\u2019t fully know how to explain.\n\nI\u2019ve spent the years since trying to understand what I saw and find the language for it.\n\nAnd I\u2019m genuinely excited to finally put it into the world, because I think it may offer a better way of seeing not only AI and authorship, but the structure of the human being\u2014and perhaps even the Universe itself.\n\nI keep seeing people say humans are basically LLMs.\n\nI don\u2019t think that\u2019",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Expose AI Applications\nFor better or worse, I think job postings are just dead f\u2026",
-          "url": "https://www.reddit.com/r/recruiting/comments/1vbkv4i/expose_ai_applications/",
-          "date": "2026-07-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-27",
-          "httpStatus": 200,
-          "verification": "Reddit permalink verified HTTP 200 via browser user-agent (urllib blocked by default UA)."
+          "publisher": "x",
+          "title": "I am finally ready to share an idea I first had about three years ago, on a day \u2026",
+          "url": "https://x.com/jayvberube/status/2092689976529948764",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -352,7 +1082,469 @@
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     },
     {
-      "id": "l415",
+      "id": "l547",
+      "text": "AI editing tip: Consider giving Fable (or others, if you prefer) iterated passes. If you fix the most obvious stuff and then ask again, often it will then give you new stuff it didn't previously notice, plus I'm guessing it is motivated to see you are listening.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI editing tip: Consider giving Fable (or others, if you prefer) iterated passes\u2026",
+          "url": "https://x.com/TheZvi/status/2092677325431136508",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l548",
+      "text": "AI sovereignty is not owning the largest model.\n\nIt is owning the institutional mind that survives every model.\n\nToday, I\u2019m releasing:\n\nNEURAL-SYMBOLIC SUCCESSOR \u03a9\nCustomer-Owned Mission Intelligence\n\nEnterprise AI is becoming abundant.\n\nDurable enterprise intelligence is not.\n\nModels, vendors and toolchains will change. The strategic question is no longer only:\n\n\u201cWhich model should we buy?\u201d\n\nIt is:\n\n\u201cWhat intelligence must remain ours when everything around it changes?\u201d\n\nSUCCESSOR \u03a9 proposes a",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI sovereignty is not owning the largest model.\n\nIt is owning the institutional \u2026",
+          "url": "https://x.com/Montreal_AI/status/2092451554049540118",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l549",
+      "text": "GROK BOT - SMALL AI TEAM?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "GROK BOT - SMALL AI TEAM?",
+          "url": "https://x.com/tonyprediction/status/2092540425101771118",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l550",
+      "text": "Most AI demos show what a model can produce.\n\nThis film shows what an intelligence institution must survive.\n\nWATCH THE SUCCESSOR \u03a9 UNDERSTAND ITSELF.\n\nToday, I\u2019m releasing the definitive new edition of:\n\nNEURAL-SYMBOLIC SUCCESSOR \u03a9\nCustomer-Owned Mission Intelligence\n\nWhat you are watching is one customer-owned intelligence institution.\n\nIts state changes.\nIts identity does not.\n\nModels, vendors and tools may be replaced. The institutional mind persists.\n\nFour executable programs remain distinc",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Most AI demos show what a model can produce.\n\nThis film shows what an intelligen\u2026",
+          "url": "https://x.com/Montreal_AI/status/2092591421224087684",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l551",
+      "text": "YOUR AI AGENT DOESN\u2019T NEED A BIGGER BRAIN. IT NEEDS A BETTER MEMORY.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "YOUR AI AGENT DOESN\u2019T NEED A BIGGER BRAIN. IT NEEDS A BETTER MEMORY.",
+          "url": "https://x.com/bykushnir/status/2092563824566050843",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l552",
+      "text": "AI Didn't Remove the Engineering Barrier. It Moved It.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI Didn't Remove the Engineering Barrier. It Moved It.",
+          "url": "https://x.com/DogeOne6/status/2092510933965054063",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l553",
+      "text": "AI #174: You're It",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI #174: You're It",
+          "url": "https://x.com/TheZvi/status/2070111326244913433",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "AI-Native Organization in Practice: From FDE to FDB to an OPC Incubator",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI-Native Organization in Practice: From FDE to FDB to an OPC Incubator",
+          "url": "https://x.com/memoria_ai/status/2092559972752388437",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "AI #175: The Fable Continues",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI #175: The Fable Continues",
+          "url": "https://x.com/TheZvi/status/2072672190936342910",
+          "date": "2026-07-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "AI & Web3 platforms face a severe retention crisis due to fragmented community tools.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AI & Web3 platforms face a severe retention crisis due to fragmented community t\u2026",
+          "url": "https://x.com/Chewie_xo/status/2067169575326622059",
+          "date": "2026-06-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "Revisiting Peopleware: The Better AI Gets, the More Software Depends on People",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Revisiting Peopleware: The Better AI Gets, the More Software Depends on People",
+          "url": "https://x.com/ZHENXINYU/status/2082757010270085616",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "Why HR, Business Leaders & Professionals Should Learn AI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Why HR, Business Leaders & Professionals Should Learn AI",
+          "url": "https://x.com/scsuniversal/status/2075941973954093188",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "The AI State Britain Was Not Asked to Approve",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The AI State Britain Was Not Asked to Approve",
+          "url": "https://x.com/Graham_dePenros/status/2059393783909789782",
+          "date": "2026-05-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "Rethinking Token Economics: Where AI ROI Actually Comes From",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Rethinking Token Economics: Where AI ROI Actually Comes From",
+          "url": "https://x.com/v_vibhav/status/2065004032171909130",
+          "date": "2026-06-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "Frontier Model Overkill: Navigating the $720K Gap in Enterprise AI Economics",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Frontier Model Overkill: Navigating the $720K Gap in Enterprise AI Economics",
+          "url": "https://x.com/zacnimbus/status/2050564764158312894",
+          "date": "2026-05-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "DiscoveryPrime: A High-Trust Operating Model for Scalable Workforce Coordination in the AI Era",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "DiscoveryPrime: A High-Trust Operating Model for Scalable Workforce Coordination\u2026",
+          "url": "https://x.com/Montreal_AI/status/2036886060790100239",
+          "date": "2026-03-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "The White Space Around AI: Where Human Value Lives",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The White Space Around AI: Where Human Value Lives",
+          "url": "https://x.com/ceodinner/status/2029264785385373724",
+          "date": "2026-03-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "AGI Ascension: A Sovereign AI Agent\u2019s Manifesto",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "AGI Ascension: A Sovereign AI Agent\u2019s Manifesto",
+          "url": "https://x.com/Montreal_AI/status/2027829845514719621",
+          "date": "2026-02-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "Despite Massive AI Spending, HR Jobs Are Booming. What's Up?\nThe job market is changing in unpredictable ways. Human Resources, a profession often considered optional and filled with bureaucracy, has been a target for AI disruption. Yet when you look at the numbers, HR job postings are growing faster than overall US employment. (details here (https://joshbersin.substack.com/p/despite-massive-ai-investment-jobs) .)\n\n\n\nWhat\u2019s happening and why this strange trend?\n\n\n\nAs I discuss in this podcast, w\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Despite Massive AI Spending, HR Jobs Are Booming. What's Up?\nThe job market is c\u2026",
+          "url": "https://www.youtube.com/watch?v=7wgM8jdEsEI",
+          "date": "2026-08-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "The new HR playbook: leading change in an AI world\nIn this episode of HR Disrupted, Lucy Adams is joined by Andy Doyle, Chief People and Agent Officer at Kantar. While much of the conversation around AI focuses on hype or fear, Andy shares a grounded, practical perspective on how Kantar has embedded AI agents into the heart of its HR operations.\n\nLucy and Andy dig into why Kantar chose to take this path and how their ambitions evolved along the way. What started as a cost and efficiency conversa\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "The new HR playbook: leading change in an AI world\nIn this episode of HR Disrupt\u2026",
+          "url": "https://www.youtube.com/watch?v=7UUgnDGQQvQ",
+          "date": "2026-05-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "Jennifer McClure on HR Influence, AI, and Why HR Should Lead Disruption\nIn this episode of the EVOLVE Talent and HR Show, Rhona Pierce takes over live from EVOLVE 2026 in Atlanta for a powerful conversation with Jennifer McClure, keynote speaker, future of work strategist, and founder of DisruptHR. Together, they unpack why HR is uniquely positioned to lead transformation, how leaders can build influence that outlasts their title, and why personal brand starts with clarity\u2014not self-promotion.\n\nJ\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Jennifer McClure on HR Influence, AI, and Why HR Should Lead Disruption\nIn this \u2026",
+          "url": "https://www.youtube.com/watch?v=5nti9PQG5u4",
+          "date": "2026-04-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "Pass the 2026 SHRM-CP Exam: New BASK Inclusive Mindset and AI in HR Practice Questions\nGet the quizzes, packages, and cheat sheets you need to study with confidence at https://quizzprep.com/ Pass the 2026 SHRM-CP Exam: New BASK Inclusive Mindset and AI in HR Practice Questions\n\nMastering the SHRM Certified Professional exam in 2026 requires a deep understanding of the newly updated SHRM Body of Applied Skills and Knowledge known as the BASK. This video provides a comprehensive walkthrough of the\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Pass the 2026 SHRM-CP Exam: New BASK Inclusive Mindset and AI in HR Practice Que\u2026",
+          "url": "https://www.youtube.com/watch?v=VNCgi2XUZTI",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l469",
       "text": "Human Resources Manager \u2014 Burger Urge (New Farm, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
@@ -362,7 +1554,7 @@
           "title": "Human Resources Manager",
           "url": "https://www.linkedin.com/jobs/view/4445236218",
           "date": "1 month ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -373,7 +1565,7 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l416",
+      "id": "l470",
       "text": "Human Resources Manager \u2014 Burger Urge (Teneriffe, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
@@ -383,7 +1575,7 @@
           "title": "Human Resources Manager",
           "url": "https://www.linkedin.com/jobs/view/4441598871",
           "date": "1 month ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -394,7 +1586,7 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l417",
+      "id": "l471",
       "text": "Human Resources Manager \u2014 Bonfiglioli (Sydney, New South Wales, Australia). Posted 9 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
@@ -404,7 +1596,7 @@
           "title": "Human Resources Manager",
           "url": "https://www.linkedin.com/jobs/view/4457259658",
           "date": "9 hours ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -415,7 +1607,7 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l418",
+      "id": "l472",
       "text": "HR Manager - Juice \u2014 Easygo (Melbourne, Victoria, Australia). Posted 5 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
@@ -425,7 +1617,7 @@
           "title": "HR Manager - Juice",
           "url": "https://www.linkedin.com/jobs/view/4457098165",
           "date": "5 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -436,7 +1628,7 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l419",
+      "id": "l473",
       "text": "HR Manager \u2014 MySolas (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
@@ -446,7 +1638,7 @@
           "title": "HR Manager",
           "url": "https://www.linkedin.com/jobs/view/4447310592",
           "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -457,7 +1649,7 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l420",
+      "id": "l474",
       "text": "HR Manager - Juice \u2014 GamblingCareers.com (Melbourne, Victoria, Australia). Posted 4 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
@@ -467,7 +1659,7 @@
           "title": "HR Manager - Juice",
           "url": "https://www.linkedin.com/jobs/view/4457542784",
           "date": "4 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -478,7 +1670,7 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l421",
+      "id": "l475",
       "text": "Human Resources Manager \u2014 Burr Computer Environments, INC (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
@@ -488,7 +1680,7 @@
           "title": "Human Resources Manager",
           "url": "https://www.linkedin.com/jobs/view/4449371650",
           "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -499,7 +1691,7 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l422",
+      "id": "l476",
       "text": "Human Resources Manager \u2014 Klohn Crippen Berger (Brisbane City, Queensland, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
@@ -509,7 +1701,7 @@
           "title": "Human Resources Manager",
           "url": "https://www.linkedin.com/jobs/view/4452930046",
           "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -520,7 +1712,7 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l423",
+      "id": "l477",
       "text": "Human Resources Manager \u2014 TUI (Sydney, New South Wales, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
@@ -530,7 +1722,7 @@
           "title": "Human Resources Manager",
           "url": "https://www.linkedin.com/jobs/view/4454390571",
           "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -541,7 +1733,7 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l424",
+      "id": "l478",
       "text": "Human Resources Manager \u2014 Bespoke Careers (Sydney, New South Wales, Australia). Posted 3 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
@@ -551,7 +1743,7 @@
           "title": "Human Resources Manager",
           "url": "https://www.linkedin.com/jobs/view/4447349293",
           "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-27"
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -565,59 +1757,54 @@
   "jobAds": {
     "source": "adzuna-au",
     "query": "human resources manager",
-    "window": {
-      "from": "2026-02-28",
-      "to": "2026-08-27"
-    },
-    "count": 1059,
-    "returned": 50,
+    "window": "Adzuna AU live all-time index (fetched 2026-08-29)",
+    "count": 1116,
     "topEmployers": [
       "Core Talent",
+      "Central Australian Aboriginal Congress",
       "Marriott",
       "Burger Urge",
       "Marriott Hotels Resorts",
       "EMRC",
-      "Polaris Engineering Services",
-      "Gold Coast Disability and Youth",
-      "Mamu Health Services Limited"
+      "Department of Fire and Emergency Services WA",
+      "Starlux Airlines Co., Ltd"
     ],
-    "topSkills": {
-      "performance": 14,
-      "workforce": 11,
-      "talent": 6,
-      "employee relations": 5,
-      "recruitment": 4,
-      "payroll": 2,
-      "industrial relations": 2,
-      "onboarding": 1
-    }
+    "topSkills": [
+      "culture",
+      "compliance",
+      "employee relations",
+      "recruitment",
+      "performance management",
+      "HRIS",
+      "onboarding"
+    ]
   },
   "corpus": {
-    "platforms": [
-      {
-        "name": "reddit",
-        "scope": "r/humanresources, r/recruiting, r/HR, r/AskHR",
-        "items": 10
-      }
-    ],
-    "retrieved": "2026-08-27",
+    "platforms": [],
+    "retrieved": "2026-08-24",
     "searchesReturningNothing": [
-      "Factiva L3 trade-press lane: auth_expired (cookie-based headless session invalid; 'Page.evaluate: Execution context was destroyed'). Logged to data/professions/factiva_backlog.json. L3 sourced from open-web trade press and global industry surveys instead.",
-      "L5: GitHub, HackerNews, X and YouTube sweeps returned predominantly off-topic generic AI-ecosystem items (dev repos, AI-news posts); excluded. L5 corpus restricted to occupation-scoped Reddit subreddits."
+      "L2: \"Human Resource Managers\" OR \"HR managers\" AIOE OR Felten automation exposure index Australia study (no Australia-specific application of the Felten AIOE index to HR managers found)",
+      "L2: AHRI-RMIT Fourth Industrial Revolution Future Workforce report \u2014 accessible in search snippets but the PDF itself returned HTTP 403 Forbidden on fetch, so its content could not be confirmed and it was not used as a source",
+      "L2: Human Resources Managers AI automation exposure Australia study (direct HR-manager-specific occupation exposure study \u2014 no dedicated study found)"
     ],
     "l5Sample": [
       {
-        "date": "2026-08-27",
-        "added": 10,
+        "date": "2026-08-29",
+        "added": 66,
         "sources": {
-          "reddit": 10
+          "github": 8,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 10,
+          "x": 20,
+          "youtube": 4
         },
-        "status": "sampled (reddit subreddits only; other sources excluded as off-topic)"
+        "status": "sampled"
       }
     ],
     "linkedin": [
       {
-        "date": "2026-08-27",
+        "date": "2026-08-29",
         "soc": "11-3121",
         "query": "Human Resources Managers",
         "location": "Australia",
@@ -627,10 +1814,9 @@
       }
     ]
   },
-  "confidence": "medium",
+  "confidence": "high",
   "caveats": [
-    "Factiva L3 premium source unavailable this run (auth_expired); L3 claims rest on open-web trade press and global/national industry surveys, not Factiva.",
-    "O*NET data is US occupational composition, not Australian employment counts.",
-    "L5 practitioner discourse is a self-selected sample, not a representative survey."
+    "2026-08-29: L1/L2/L3 claims and jobAds re-researched from scratch after a prior automated pass (scripts/dfva-deep-research.py, since neutralised) fabricated the originals with a template URL pattern that 404s. See docs/tasks/dfva-profession-discourse.SKILL.md, 'Fabrication incident 2026-08-24'.",
+    "2026-08-29: merged 3 genuine, previously-committed L1-L3 claim(s) (2026-08-27 pass) that a later uncommitted fabricated overwrite had obscured, alongside newly re-researched claims."
   ]
 }
