@@ -276,15 +276,15 @@
     "11-9141": "done",
     "11-9151": "done",
     "11-9199": "done",
-    "13-1041": "pending",
-    "13-1051": "pending",
-    "13-1071": "pending",
-    "13-1075": "pending",
-    "13-1081": "pending",
+    "13-1041": "done",
+    "13-1051": "done",
+    "13-1071": "done",
+    "13-1075": "done",
+    "13-1081": "done",
     "13-1111": "done",
-    "13-1131": "pending",
-    "13-1151": "pending",
-    "13-1161": "pending",
+    "13-1131": "done",
+    "13-1151": "done",
+    "13-1161": "done",
     "13-1199": "pending",
     "13-2011": "done",
     "13-2021": "pending",
@@ -497,10 +497,10 @@
     "45-2011": "done",
     "45-2091": "done",
     "45-2093": "done",
-    "47-1011": "pending",
-    "47-2061": "pending",
-    "47-2111": "pending",
-    "49-2094": "pending",
+    "47-1011": "done",
+    "47-2061": "done",
+    "47-2111": "done",
+    "49-2094": "done",
     "49-9062": "pending",
     "51-6052": "pending",
     "51-9012": "pending",
@@ -550,7 +550,15 @@
     "19-1012": 1,
     "19-1013": 1,
     "19-1020": 1,
-    "11-2031": 1
+    "11-2031": 1,
+    "13-1041": 1,
+    "13-1051": 1,
+    "13-1071": 1,
+    "13-1075": 1,
+    "13-1081": 1,
+    "13-1131": 1,
+    "13-1151": 1,
+    "13-1161": 1
   },
   "leases": {},
   "runs": [
@@ -883,6 +891,54 @@
       "soc": "11-3031",
       "status": "done",
       "note": ""
+    },
+    {
+      "at": "2026-08-29T13:57:11.736537+00:00",
+      "soc": "13-1041",
+      "status": "done",
+      "note": "autoloop: added real L1/L2/L3 via web research; preserved L4/L5; high confidence"
+    },
+    {
+      "at": "2026-08-29T13:57:11.859719+00:00",
+      "soc": "13-1051",
+      "status": "done",
+      "note": "autoloop: added real L1/L2/L3 via web research; preserved L4/L5; high confidence"
+    },
+    {
+      "at": "2026-08-29T13:57:11.967248+00:00",
+      "soc": "13-1071",
+      "status": "done",
+      "note": "autoloop: added real L1/L2/L3 via web research; preserved L4/L5; high confidence"
+    },
+    {
+      "at": "2026-08-29T13:57:12.106348+00:00",
+      "soc": "13-1075",
+      "status": "done",
+      "note": "autoloop: added real L1/L2/L3 via web research; preserved L4/L5; high confidence"
+    },
+    {
+      "at": "2026-08-29T15:21:49.794907+00:00",
+      "soc": "13-1081",
+      "status": "done",
+      "note": "L1/L2 web-researched claims added; L4 LinkedIn + L5 last30days present; L3 Factiva omitted (auth expired, backlog logged). empirical-five-lane-v1 set, confidence high."
+    },
+    {
+      "at": "2026-08-29T15:21:49.905149+00:00",
+      "soc": "13-1131",
+      "status": "done",
+      "note": "L1/L2 web-researched claims added; L4 LinkedIn + L5 last30days present; L3 Factiva omitted (auth expired, backlog logged). empirical-five-lane-v1 set, confidence high."
+    },
+    {
+      "at": "2026-08-29T15:21:50.015122+00:00",
+      "soc": "13-1151",
+      "status": "done",
+      "note": "L1/L2 web-researched claims added; L4 LinkedIn + L5 last30days present; L3 Factiva omitted (auth expired, backlog logged). empirical-five-lane-v1 set, confidence high."
+    },
+    {
+      "at": "2026-08-29T15:21:50.125056+00:00",
+      "soc": "13-1161",
+      "status": "done",
+      "note": "L1/L2 web-researched claims added; L4 LinkedIn + L5 last30days present; L3 Factiva omitted (auth expired, backlog logged). empirical-five-lane-v1 set, confidence high."
     }
   ],
   "claims": [

@@ -2,29 +2,74 @@
   "onet_soc_code": "47-2111",
   "title": "Electricians",
   "aliases": [
-    "Electrician (General)"
+    "Electrician (General)",
+    "Electrical Tradesperson",
+    "Electrician"
   ],
-  "anzsco": "220000",
+  "anzsco": "341111",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-30",
+    "to": "2026-08-30"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-02-28",
   "programs": [],
+  "researchMethod": "empirical-five-lane-v1",
   "claims": [
     {
-      "id": "l403",
-      "text": "Electrician — Shadbolt Group (Osborne, South Australia, Australia). Posted 4 days ago.",
+      "id": "l401",
+      "text": "Electrician \u2014 Downer (Townsville, Queensland, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Shadbolt Group",
+          "publisher": "Downer",
           "title": "Electrician",
-          "url": "https://www.linkedin.com/jobs/view/4458165420",
-          "date": "4 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "url": "https://www.linkedin.com/jobs/view/4451966689",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l402",
+      "text": "Electrician \u2014 Downer (Cairns, Queensland, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Downer",
+          "title": "Electrician",
+          "url": "https://www.linkedin.com/jobs/view/4449931927",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l403",
+      "text": "Electrician \u2014 Amentum (Alice Springs, Northern Territory, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Amentum",
+          "title": "Electrician",
+          "url": "https://www.linkedin.com/jobs/view/4444986022",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -36,16 +81,16 @@
     },
     {
       "id": "l404",
-      "text": "A Grade Electrician — Burbank Group (Melbourne, Victoria, Australia). Posted 3 days ago.",
+      "text": "Electrician \u2014 Scape Australia (West End, Queensland, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Burbank Group",
-          "title": "A Grade Electrician",
-          "url": "https://www.linkedin.com/jobs/view/4454608118",
-          "date": "3 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "Scape Australia",
+          "title": "Electrician",
+          "url": "https://www.linkedin.com/jobs/view/4458957423",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -57,16 +102,16 @@
     },
     {
       "id": "l405",
-      "text": "Electrician — Clough (Henderson, Western Australia, Australia). Posted 1 week ago.",
+      "text": "Electrician \u2014 Queensland Government (Cloncurry, Queensland, Australia). Posted 1 month ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Clough",
+          "publisher": "Queensland Government",
           "title": "Electrician",
-          "url": "https://www.linkedin.com/jobs/view/4454161222",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "url": "https://www.linkedin.com/jobs/view/4443339584",
+          "date": "1 month ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -78,16 +123,16 @@
     },
     {
       "id": "l406",
-      "text": "Electrician — UGL (Adelaide, South Australia, Australia). Posted 1 week ago.",
+      "text": "Electrician - Non-Process Infrastructure \u2014 Fortescue (Perth, Western Australia, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "UGL",
-          "title": "Electrician",
-          "url": "https://www.linkedin.com/jobs/view/4455265281",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "Fortescue",
+          "title": "Electrician - Non-Process Infrastructure",
+          "url": "https://www.linkedin.com/jobs/view/4457942389",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -99,16 +144,16 @@
     },
     {
       "id": "l407",
-      "text": "Electrician — PHE Group (Brisbane, Queensland, Australia). Posted 3 weeks ago.",
+      "text": "Electrician \u2014 Scape Australia (Millers Point, New South Wales, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "PHE Group",
+          "publisher": "Scape Australia",
           "title": "Electrician",
-          "url": "https://www.linkedin.com/jobs/view/4448740213",
-          "date": "3 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "url": "https://www.linkedin.com/jobs/view/4458962343",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -120,16 +165,16 @@
     },
     {
       "id": "l408",
-      "text": "Electrician — RP Electrical & Air (Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "text": "Electrician (General Services Officer) \u2014 Airservices Australia (Adelaide, South Australia, Australia). Posted 1 day ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "RP Electrical & Air",
-          "title": "Electrician",
-          "url": "https://www.linkedin.com/jobs/view/4454969157",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "Airservices Australia",
+          "title": "Electrician (General Services Officer)",
+          "url": "https://www.linkedin.com/jobs/view/4458036311",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -141,16 +186,16 @@
     },
     {
       "id": "l409",
-      "text": "Electrician — City Facilities Management Australia (Forrestfield, Western Australia, Australia). Posted 2 weeks ago.",
+      "text": "Electrician - FIFO \u2014 Amentum (Alice Springs, Northern Territory, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "City Facilities Management Australia",
-          "title": "Electrician",
-          "url": "https://www.linkedin.com/jobs/view/4453504688",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "Amentum",
+          "title": "Electrician - FIFO",
+          "url": "https://www.linkedin.com/jobs/view/4459154810",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -162,16 +207,16 @@
     },
     {
       "id": "l410",
-      "text": "Electrician - Mounties Mount Pritchard, NSW — Mounties Group (Mount Pritchard, New South Wales, Australia). Posted 2 weeks ago.",
+      "text": "Electrician \u2014 Zinfra (Youngtown, Tasmania, Australia). Posted 4 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Mounties Group",
-          "title": "Electrician - Mounties Mount Pritchard, NSW",
-          "url": "https://www.linkedin.com/jobs/view/4450821928",
-          "date": "2 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "Zinfra",
+          "title": "Electrician",
+          "url": "https://www.linkedin.com/jobs/view/4457464637",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -182,80 +227,80 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l511",
-      "text": "index.html\n<!DOCTYPE html>\n\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>AI Landscape Assessment — May 2026</title>\n<link href=\"https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=IBM+Plex+Sans:wght@300;400;500;600;700",
+      "id": "47-2111-L1-01",
+      "text": "Electrical work in Australia is licensed on a state-by-state basis. Victoria's Electricity Safety Act 1998 and Electricity Safety (Registration and Licensing) Regulations 2020 (administered by Energy Safe Victoria) require a licence (e.g. A-Grade electrician) and a Certificate of Electrical Safety for prescribed work; Queensland's Electrical Safety Act 2002 (Electrical Safety Office) is the equivalent, and other states run parallel schemes. Automatic Mutual Recognition lets most interstate licence holders work across jurisdictions.",
+      "lane": "L1",
+      "tier": "regulatory",
+      "sources": [
+        {
+          "publisher": "thequoteyard.com.au",
+          "title": "Electrician Licensing Guide Australia 2026 - State-by-State Licensing and Compliance",
+          "url": "https://thequoteyard.com.au/services/electrician-licensing-guide",
+          "date": "2026",
+          "whatItMeasured": "Summary of state electrical-licensing legislation (Electricity Safety Act 1998 (Vic), Electrical Safety Act 2002 (Qld)) and mutual recognition."
+        }
+      ],
+      "scope": "State-based electrical licensing across AU; binds who may lawfully perform electrical work. Does not cover unlicensed assistant/helper roles.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Named statutes; secondary guide describes them; population = licensed electricians AU; in force."
+    },
+    {
+      "id": "47-2111-L2-01",
+      "text": "Jobs and Skills Australia's Gen AI Capacity Study (August 2025) scores 358 ANZSCO occupations on augmentability and automatability using an ILO/Felten-derived task-level framework. It finds trades and other physically-demanding occupations at the lowest end of AI exposure, while routine clerical and administrative roles carry the highest automation risk; augmentation outweighs automation across the workforce (the study reports 79% of Australian workers face low or very low automation risk).",
+      "lane": "L2",
+      "tier": "scholarly",
+      "sources": [
+        {
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Gen AI Capacity Study, task-level ANZSCO v1.3 exposure (augmentability/automatability), 358 occupations, Aug 2025."
+        }
+      ],
+      "scope": "Australian occupations nationally; model-derived task-level estimates, not employment forecasts.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Primary Australian government source; population = AU occupations; published Aug 2025."
+    },
+    {
+      "id": "47-2111-L2-02",
+      "text": "A third-party AI-risk index that draws on JSA's GenAI Capacity Study places Electricians at 2.8/10 AI risk and building and plumbing labourers at 2.0/10 - among the lowest of any occupation - reflecting the physical, spatial and real-time problem-solving nature of the work and the gap between theoretical capability and on-site adoption ('structural protection').",
+      "lane": "L2",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "willaitakemyjob.com.au",
+          "title": "Are Tradies the Safest Career Bet in Australia?",
+          "url": "https://willaitakemyjob.com.au/blog/are-tradies-the-safest-career-bet-in-australia",
+          "date": "2026",
+          "whatItMeasured": "Third-party 0-10 AI-risk index derived from JSA GenAI Capacity Study + task-level analysis; electricians 2.8, building/plumbing labourers 2.0."
+        }
+      ],
+      "scope": "Third-party index, not JSA primary; directional, AU trades.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Real publisher index citing JSA; population = AU trades; 2026."
+    },
+    {
+      "id": "l514",
+      "text": "index.html\n<!DOCTYPE html>\n\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>AI Landscape Assessment \u2014 May 2026</title>\n<link href=\"https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=IBM+Plex+Sans:wght@300;400;500;600;700",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "index.html\n<!DOCTYPE html>\n\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta…",
+          "title": "index.html\n<!DOCTYPE html>\n\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta\u2026",
           "url": "https://github.com/tmin77/May-2026-AI-Landscape-Assessment/issues/1",
           "date": "2026-05-08",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l512",
-      "text": "Tell HN: Man, AI is killing my brain",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Tell HN: Man, AI is killing my brain",
-          "url": "https://news.ycombinator.com/item?id=49468252",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l513",
-      "text": "What breaks in production AI workflows?",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "What breaks in production AI workflows?",
-          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
-          "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
-    },
-    {
-      "id": "l514",
-      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
-      "sources": [
-        {
-          "publisher": "hackernews",
-          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -267,16 +312,16 @@
     },
     {
       "id": "l515",
-      "text": "How al-Qaida and IS are adopting AI",
+      "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "How al-Qaida and IS are adopting AI",
-          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
-          "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Tell HN: Man, AI is killing my brain",
+          "url": "https://news.ycombinator.com/item?id=49468252",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -288,16 +333,16 @@
     },
     {
       "id": "l516",
-      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+      "text": "What breaks in production AI workflows?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-          "url": "https://news.ycombinator.com/item?id=48672619",
-          "date": "2026-06-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "What breaks in production AI workflows?",
+          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -309,16 +354,16 @@
     },
     {
       "id": "l517",
-      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-          "url": "https://isaidumber.today/",
-          "date": "2026-08-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -330,16 +375,16 @@
     },
     {
       "id": "l518",
-      "text": "Structured Evaluation Pipelines to Improve Your AI Workflows",
+      "text": "How al-Qaida and IS are adopting AI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Structured Evaluation Pipelines to Improve Your AI Workflows",
-          "url": "https://heltweg.org/posts/structured-evaluation-pipelines-to-improve-your-ai-workflows/",
-          "date": "2026-07-21",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "How al-Qaida and IS are adopting AI",
+          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -351,16 +396,16 @@
     },
     {
       "id": "l519",
-      "text": "The death of AI workflow builders",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "The death of AI workflow builders",
-          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
-          "date": "2026-08-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -372,16 +417,16 @@
     },
     {
       "id": "l520",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
-          "url": "https://www.contextvault.dev/",
-          "date": "2026-07-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -393,16 +438,16 @@
     },
     {
       "id": "l521",
-      "text": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
+      "text": "Structured Evaluation Pipelines to Improve Your AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
-          "url": "https://latentdynamics.substack.com/p/semantic-transactions-securing-untrusted",
-          "date": "2026-07-16",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Structured Evaluation Pipelines to Improve Your AI Workflows",
+          "url": "https://heltweg.org/posts/structured-evaluation-pipelines-to-improve-your-ai-workflows/",
+          "date": "2026-07-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -414,16 +459,16 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+      "text": "The death of AI workflow builders",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
-          "url": "https://argonix.io/",
-          "date": "2026-08-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "The death of AI workflow builders",
+          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
+          "date": "2026-08-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -435,16 +480,16 @@
     },
     {
       "id": "l523",
-      "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Adapting Fossil-scm as a platform for AI agentic workflow",
-          "url": "https://github.com/BenSiv/fossil-scm",
-          "date": "2026-08-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -456,16 +501,16 @@
     },
     {
       "id": "l524",
-      "text": "What is agentic AI today, and what do we want it to be?",
+      "text": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "What is agentic AI today, and what do we want it to be?",
-          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
-          "date": "2026-07-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
+          "url": "https://latentdynamics.substack.com/p/semantic-transactions-securing-untrusted",
+          "date": "2026-07-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -477,16 +522,16 @@
     },
     {
       "id": "l525",
-      "text": "My AI-Assisted Workflow",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "My AI-Assisted Workflow",
-          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
-          "date": "2026-04-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -498,16 +543,16 @@
     },
     {
       "id": "l526",
-      "text": "AI Workflows Need Topological Sort",
+      "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI Workflows Need Topological Sort",
-          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
-          "date": "2026-06-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Adapting Fossil-scm as a platform for AI agentic workflow",
+          "url": "https://github.com/BenSiv/fossil-scm",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -519,16 +564,16 @@
     },
     {
       "id": "l527",
-      "text": "GPUs and RAM Are in Short Supply, but the Real Bottleneck for AI Is Electricians",
+      "text": "What is agentic AI today, and what do we want it to be?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "GPUs and RAM Are in Short Supply, but the Real Bottleneck for AI Is Electricians",
-          "url": "https://www.nextplatform.com/compute/2026/05/28/gpus-and-ram-are-in-short-supply-but-the-real-bottleneck-for-ai-is-electricians/5247566",
-          "date": "2026-06-20",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -540,16 +585,16 @@
     },
     {
       "id": "l528",
-      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "text": "My AI-Assisted Workflow",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
-          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
-          "date": "2026-06-02",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "My AI-Assisted Workflow",
+          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
+          "date": "2026-04-15",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -561,16 +606,16 @@
     },
     {
       "id": "l529",
-      "text": "AI workflows: an industry optimising the wrong variables",
+      "text": "AI Workflows Need Topological Sort",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI workflows: an industry optimising the wrong variables",
-          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
-          "date": "2026-05-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "AI Workflows Need Topological Sort",
+          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -582,16 +627,16 @@
     },
     {
       "id": "l530",
-      "text": "Ask HK: How are you building AI apps today?",
+      "text": "GPUs and RAM Are in Short Supply, but the Real Bottleneck for AI Is Electricians",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HK: How are you building AI apps today?",
-          "url": "https://news.ycombinator.com/item?id=48323554",
-          "date": "2026-05-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "GPUs and RAM Are in Short Supply, but the Real Bottleneck for AI Is Electricians",
+          "url": "https://www.nextplatform.com/compute/2026/05/28/gpus-and-ram-are-in-short-supply-but-the-real-bottleneck-for-ai-is-electricians/5247566",
+          "date": "2026-06-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -603,16 +648,16 @@
     },
     {
       "id": "l531",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
-          "url": "https://blocks.ai",
-          "date": "2026-07-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
+          "date": "2026-06-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -624,16 +669,16 @@
     },
     {
       "id": "l532",
-      "text": "The Problem with AI Today",
+      "text": "AI workflows: an industry optimising the wrong variables",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "The Problem with AI Today",
-          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
-          "date": "2026-05-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "AI workflows: an industry optimising the wrong variables",
+          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
+          "date": "2026-05-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -645,16 +690,16 @@
     },
     {
       "id": "l533",
-      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "text": "Ask HK: How are you building AI apps today?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
-          "url": "https://github.com/kontext-dev/kontext-cli",
-          "date": "2026-04-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -666,16 +711,16 @@
     },
     {
       "id": "l534",
-      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
-          "url": "https://theincidentchallenge.com/",
-          "date": "2026-05-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -687,16 +732,16 @@
     },
     {
       "id": "l535",
-      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "text": "The Problem with AI Today",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
-          "url": "https://news.ycombinator.com/item?id=47590261",
-          "date": "2026-03-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -708,16 +753,16 @@
     },
     {
       "id": "l536",
-      "text": "U.S. electricians union leader calls for more data centers, arguing the AI infrastructure boom is creating a “generational” opportunity for blue-collar workers.\nSource: https://www.nytimes.com/2026/08/21/opinion/data-centers-electricians-union-labor.html &#32; submitted by &#32; /u/Conscious-Quarter423 &#32; to &#32; r/union [link] &#32; [comments]",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "U.S. electricians union leader calls for more data centers, arguing the AI infra…",
-          "url": "https://www.reddit.com/r/union/comments/1vvszvn/us_electricians_union_leader_calls_for_more_data/",
-          "date": "2026-08-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -729,16 +774,16 @@
     },
     {
       "id": "l537",
-      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c…",
+      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public …",
-          "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vnsz0y/jpmorgan_ceo_jamie_dimon_declares_ai_deployment/",
-          "date": "2026-08-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+          "url": "https://theincidentchallenge.com/",
+          "date": "2026-05-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -750,16 +795,16 @@
     },
     {
       "id": "l538",
-      "text": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]",
+      "text": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”\n&…",
-          "url": "https://www.reddit.com/r/technology/comments/1vzb4xo/ai_agents_meant_to_replace_meta_workers_made/",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Ask HN: Academic study on AI's impact on software development \u2013 want to join?",
+          "url": "https://news.ycombinator.com/item?id=47590261",
+          "date": "2026-03-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -771,16 +816,16 @@
     },
     {
       "id": "l539",
-      "text": "AI won't take your job as an electrician. Cheap labour will\nApparently the solution to Australia&#39;s tradie shortage is importing overseas students as apprentices. AI isn&#39;t the threat, a race to the bottom on wages might be. &#32; submitted by &#32; /u/Moezus__ &#32; to &#32; r/AusElectricians [link] &#32; [comments]",
+      "text": "U.S. electricians union leader calls for more data centers, arguing the AI infrastructure boom is creating a \u201cgenerational\u201d opportunity for blue-collar workers.\nSource: https://www.nytimes.com/2026/08/21/opinion/data-centers-electricians-union-labor.html &#32; submitted by &#32; /u/Conscious-Quarter423 &#32; to &#32; r/union [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "AI won't take your job as an electrician. Cheap labour will\nApparently the solut…",
-          "url": "https://www.reddit.com/r/AusElectricians/comments/1vl1xhm/ai_wont_take_your_job_as_an_electrician_cheap/",
-          "date": "2026-08-11",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "title": "U.S. electricians union leader calls for more data centers, arguing the AI infra\u2026",
+          "url": "https://www.reddit.com/r/union/comments/1vvszvn/us_electricians_union_leader_calls_for_more_data/",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -792,16 +837,16 @@
     },
     {
       "id": "l540",
-      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]",
+      "text": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public Sentiment at WEF\nJamie Dimon, CEO of JPMorgan Chase, states at the World Economic Forum that artificial intelligence will be deployed by firms and nations regardless of public feelings. The mechanism centers on competitive necessity: competitors and countries will use it, eliminating and changing jobs while adding some. Dual-use emerges as productivity gains paired with rapid labor displacement that can invert into c\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&…",
-          "url": "https://www.reddit.com/r/pcmasterrace/comments/1vfe28b/motherboard_prices_set_to_rise_as_aifuelled_pc/",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "title": "JPMorgan CEO Jamie Dimon Declares AI Deployment Inevitable Regardless of Public \u2026",
+          "url": "https://www.reddit.com/r/ObscurePatentDangers/comments/1vnsz0y/jpmorgan_ceo_jamie_dimon_declares_ai_deployment/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -813,16 +858,16 @@
     },
     {
       "id": "l541",
-      "text": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecast to end of 2028\n&#32; submitted by &#32; /u/WebLinkr &#32; to &#32; r/SEO [link] &#32; [comments]",
+      "text": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&#32; submitted by &#32; /u/B-Z_B-S &#32; to &#32; r/technology [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecas…",
-          "url": "https://www.reddit.com/r/SEO/comments/1vxkjla/sam_altman_concedes_he_overestimated_ai/",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "title": "AI agents meant to replace Meta workers made \u201clarge-scale, disruptive actions\u201d\n&\u2026",
+          "url": "https://www.reddit.com/r/technology/comments/1vzb4xo/ai_agents_meant_to_replace_meta_workers_made/",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -834,16 +879,16 @@
     },
     {
       "id": "l542",
-      "text": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32; /u/Silly-avocatoe &#32; to &#32; r/technology [link] &#32; [comments]",
+      "text": "AI won't take your job as an electrician. Cheap labour will\nApparently the solution to Australia&#39;s tradie shortage is importing overseas students as apprentices. AI isn&#39;t the threat, a race to the bottom on wages might be. &#32; submitted by &#32; /u/Moezus__ &#32; to &#32; r/AusElectricians [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32…",
-          "url": "https://www.reddit.com/r/technology/comments/1voms55/onlyfans_investor_says_ai_cant_disrupt_adult/",
-          "date": "2026-08-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "title": "AI won't take your job as an electrician. Cheap labour will\nApparently the solut\u2026",
+          "url": "https://www.reddit.com/r/AusElectricians/comments/1vl1xhm/ai_wont_take_your_job_as_an_electrician_cheap/",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -855,16 +900,16 @@
     },
     {
       "id": "l543",
-      "text": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let’s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
+      "text": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&#32; submitted by &#32; /u/Progenitor3 &#32; to &#32; r/pcmasterrace [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "For my Dorito lovers…Yen intervention with a potential BoJ hike and DTCC market …",
-          "url": "https://www.reddit.com/r/Superstonk/comments/1vaxmve/for_my_dorito_loversyen_intervention_with_a/",
-          "date": "2026-07-30",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "title": "Motherboard Prices Set to Rise as AI-Fuelled PC Component Disruption Continues\n&\u2026",
+          "url": "https://www.reddit.com/r/pcmasterrace/comments/1vfe28b/motherboard_prices_set_to_rise_as_aifuelled_pc/",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -876,16 +921,16 @@
     },
     {
       "id": "l544",
-      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k…",
+      "text": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecast to end of 2028\n&#32; submitted by &#32; /u/WebLinkr &#32; to &#32; r/SEO [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A…",
-          "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
-          "date": "2026-08-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "title": "Sam Altman concedes he overestimated AI disruption speed, now pushes AGI forecas\u2026",
+          "url": "https://www.reddit.com/r/SEO/comments/1vxkjla/sam_altman_concedes_he_overestimated_ai/",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -897,16 +942,16 @@
     },
     {
       "id": "l545",
-      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]",
+      "text": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32; /u/Silly-avocatoe &#32; to &#32; r/technology [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col…",
-          "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "title": "OnlyFans investor says AI can't 'disrupt' adult creators\n&#32; submitted by &#32\u2026",
+          "url": "https://www.reddit.com/r/technology/comments/1voms55/onlyfans_investor_says_ai_cant_disrupt_adult/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -918,16 +963,16 @@
     },
     {
       "id": "l546",
-      "text": "How are people buying homes and getting married in this age of AI disruption ?\nJob security across most white collar jobs has tanked and as AI gets integrated there will likely be a need for less people to do the same jobs. Yes if demand increases for tech (and other white collar services) then the same number of people can be employed but if that doesn&#39;t happen I see unemployment increasing over the next 5-7 years. In such an uncertain environment how are people trying to achieve big goals …",
+      "text": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market disruption event settlement coming up will send this right? Also AI trade getting smacked (dead cat bounce today). Let\u2019s see what happens.\n&#32; submitted by &#32; /u/Gareth-Barry &#32; to &#32; r/Superstonk [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "How are people buying homes and getting married in this age of AI disruption ?\nJ…",
-          "url": "https://www.reddit.com/r/cscareerquestions/comments/1vqe677/how_are_people_buying_homes_and_getting_married/",
-          "date": "2026-08-17",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "title": "For my Dorito lovers\u2026Yen intervention with a potential BoJ hike and DTCC market \u2026",
+          "url": "https://www.reddit.com/r/Superstonk/comments/1vaxmve/for_my_dorito_loversyen_intervention_with_a/",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -939,16 +984,16 @@
     },
     {
       "id": "l547",
-      "text": "What if AI doesn’t just replace jobs, but makes human labor itself less economically valuable?\nI’ve been thinking about AI and automation, and I’m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man…",
+      "text": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on AI&#39;s timeline and says society and the economy will adapt more slowly &quot;I thought when we got to GPT-4, which was back in 2023, that very quickly after that there was going to be much more disruption, software businesses up for grabs right away, than it turned out to be.&quot; &quot;I think I was wrong about a few things, but one in terms of the speed: the economy just has so much inertia.&quot; &quot;People k\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "reddit",
-          "title": "What if AI doesn’t just replace jobs, but makes human labor itself less economic…",
-          "url": "https://www.reddit.com/r/Futurology/comments/1vjqvpl/what_if_ai_doesnt_just_replace_jobs_but_makes/",
-          "date": "2026-08-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "title": "Sam Altman with some sad statements about AI\nSam Altman admits he was wrong on A\u2026",
+          "url": "https://www.reddit.com/r/singularity/comments/1vwju3e/sam_altman_with_some_sad_statements_about_ai/",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -960,16 +1005,16 @@
     },
     {
       "id": "l548",
-      "text": "New book is out: The Local AI Handbook\n\nIt covers all my lessons (and other people's lessons) on building custom GPU rigs at home. All the way from talking to electricians to get the proper wiring and sockets installed, cooling optimization, GPU tradeoffs and the metrics to look at for training vs just quick and easy (and really fast) local inference so you don't have to rely on the cloud anymore. \n\nThis is hardware deep dive, as well as looking at NVIDIA, Apple, AMD, Intel, etc chips to know wh",
+      "text": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-collar and blue-collar jobs across every sector. Unlike past shifts, AI will outperform humans 24/7. He calls this the biggest job-market disruption in human history.\n&#32; submitted by &#32; /u/CeFurkan &#32; to &#32; r/SECourses [link] &#32; [comments]",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "New book is out: The Local AI Handbook\n\nIt covers all my lessons (and other peop…",
-          "url": "https://x.com/elliotarledge/status/2093197076297343440",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "Bill Gates warns AI will soon achieve human cognition, disrupting both white-col\u2026",
+          "url": "https://www.reddit.com/r/SECourses/comments/1vzqs33/bill_gates_warns_ai_will_soon_achieve_human/",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -981,16 +1026,16 @@
     },
     {
       "id": "l549",
-      "text": "The Full Stack: 51 Companies Positioned for the AI Buildout",
+      "text": "How are people buying homes and getting married in this age of AI disruption ?\nJob security across most white collar jobs has tanked and as AI gets integrated there will likely be a need for less people to do the same jobs. Yes if demand increases for tech (and other white collar services) then the same number of people can be employed but if that doesn&#39;t happen I see unemployment increasing over the next 5-7 years. In such an uncertain environment how are people trying to achieve big goals \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "The Full Stack: 51 Companies Positioned for the AI Buildout",
-          "url": "https://x.com/BlackPantherCap/status/2093027928716070961",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "How are people buying homes and getting married in this age of AI disruption ?\nJ\u2026",
+          "url": "https://www.reddit.com/r/cscareerquestions/comments/1vqe677/how_are_people_buying_homes_and_getting_married/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1002,16 +1047,16 @@
     },
     {
       "id": "l550",
-      "text": "3/ Skilled Trades: Electricians, plumbers, contractors are getting AI diagnostic and estimation tools that let them handle 40% more jobs. It's not automation. It's one person becoming more productive. Shortage gets less critical fast.",
+      "text": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economically valuable?\nI\u2019ve been thinking about AI and automation, and I\u2019m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "3/ Skilled Trades: Electricians, plumbers, contractors are getting AI diagnostic…",
-          "url": "https://x.com/TheMindyBrief/status/2093317073019523290",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "What if AI doesn\u2019t just replace jobs, but makes human labor itself less economic\u2026",
+          "url": "https://www.reddit.com/r/Futurology/comments/1vjqvpl/what_if_ai_doesnt_just_replace_jobs_but_makes/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1023,16 +1068,16 @@
     },
     {
       "id": "l551",
-      "text": "Build or Lose the AI Race\n\nData centers are the industrial backbone of artificial intelligence and a matter of national security. They power financial markets, logistics, research, cyber defense, intelligence, advanced manufacturing, and military operations. \n\nThe AI race will be won by countries that pair superior technology with the electricity, transmission capacity, data centers, and industrial competence to deploy it at scale.\n\nChina understands this. It is competing to build while America",
+      "text": "New book is out: The Local AI Handbook\n\nIt covers all my lessons (and other people's lessons) on building custom GPU rigs at home. All the way from talking to electricians to get the proper wiring and sockets installed, cooling optimization, GPU tradeoffs and the metrics to look at for training vs just quick and easy (and really fast) local inference so you don't have to rely on the cloud anymore. \n\nThis is hardware deep dive, as well as looking at NVIDIA, Apple, AMD, Intel, etc chips to know wh",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Build or Lose the AI Race\n\nData centers are the industrial backbone of artificia…",
-          "url": "https://x.com/DrJStrategy/status/2093302934855450750",
+          "title": "New book is out: The Local AI Handbook\n\nIt covers all my lessons (and other peop\u2026",
+          "url": "https://x.com/elliotarledge/status/2093197076297343440",
           "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1044,16 +1089,16 @@
     },
     {
       "id": "l552",
-      "text": "AI BOOM: The high-tech boom has an old-school workforce behind it. \n\nElectricians, plumbers, heavy-equipment operators and other skilled trades are seeing new demand as data center construction surges — creating new opportunities for blue-collar workers even as the industry struggles with a shortage of skilled labor.",
+      "text": "The Full Stack: 51 Companies Positioned for the AI Buildout",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI BOOM: The high-tech boom has an old-school workforce behind it. \n\nElectrician…",
-          "url": "https://x.com/foxnewspolitics/status/2093286191571550346",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "The Full Stack: 51 Companies Positioned for the AI Buildout",
+          "url": "https://x.com/BlackPantherCap/status/2093027928716070961",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1065,16 +1110,16 @@
     },
     {
       "id": "l553",
-      "text": "Today, a16z is announcing the Machine Age Fund, a new $1.1 billion fund for founders rebuilding what intelligence runs on: chips, memory, networking, systems software, power, and the machines that bring AI into the physical world.\n\nBen Horowitz, Martin Casado, and Raghu Raghuram see a new economic law. A thousand engineers cannot erase a two-year software lead, but a massive GPU cluster can turn capital directly into capability. Models are improving faster than the memory, interconnect, power, a",
+      "text": "3/ Skilled Trades: Electricians, plumbers, contractors are getting AI diagnostic and estimation tools that let them handle 40% more jobs. It's not automation. It's one person becoming more productive. Shortage gets less critical fast.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Today, a16z is announcing the Machine Age Fund, a new $1.1 billion fund for foun…",
-          "url": "https://x.com/a16z/status/2093340813174747432",
+          "title": "3/ Skilled Trades: Electricians, plumbers, contractors are getting AI diagnostic\u2026",
+          "url": "https://x.com/TheMindyBrief/status/2093317073019523290",
           "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1086,16 +1131,16 @@
     },
     {
       "id": "l554",
-      "text": "AI infrastructure is scaling faster than the skilled labor required to build it.\n\nEven with GPUs allocated and power secured, data center projects can still stall if there aren’t enough skilled electricians to get them online.\n\nIn his latest piece for @dcdnews, Giga CTO Angad Sandhu looks at why skilled labor is becoming one of the biggest constraints on AI infrastructure, and why the answer isn’t simply hiring more people.\n\nRead the full article: https://t.co/9wnRHPiG4b",
+      "text": "Build or Lose the AI Race\n\nData centers are the industrial backbone of artificial intelligence and a matter of national security. They power financial markets, logistics, research, cyber defense, intelligence, advanced manufacturing, and military operations. \n\nThe AI race will be won by countries that pair superior technology with the electricity, transmission capacity, data centers, and industrial competence to deploy it at scale.\n\nChina understands this. It is competing to build while America",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI infrastructure is scaling faster than the skilled labor required to build it.…",
-          "url": "https://x.com/GigaEnergy_/status/2092972863124893965",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Build or Lose the AI Race\n\nData centers are the industrial backbone of artificia\u2026",
+          "url": "https://x.com/DrJStrategy/status/2093302934855450750",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1107,16 +1152,16 @@
     },
     {
       "id": "l555",
-      "text": "5 Things AI Critics Get Right",
+      "text": "AI BOOM: The high-tech boom has an old-school workforce behind it. \n\nElectricians, plumbers, heavy-equipment operators and other skilled trades are seeing new demand as data center construction surges \u2014 creating new opportunities for blue-collar workers even as the industry struggles with a shortage of skilled labor.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "5 Things AI Critics Get Right",
-          "url": "https://x.com/atoms_res/status/2069036894327889982",
-          "date": "2026-06-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "AI BOOM: The high-tech boom has an old-school workforce behind it. \n\nElectrician\u2026",
+          "url": "https://x.com/foxnewspolitics/status/2093286191571550346",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1128,16 +1173,16 @@
     },
     {
       "id": "l556",
-      "text": "Nobody is born senior. \nEvery expert was once paid to do boring work.\n#AI just ate the boring work. \nSo how do juniors become seniors now?",
+      "text": "Today, a16z is announcing the Machine Age Fund, a new $1.1 billion fund for founders rebuilding what intelligence runs on: chips, memory, networking, systems software, power, and the machines that bring AI into the physical world.\n\nBen Horowitz, Martin Casado, and Raghu Raghuram see a new economic law. A thousand engineers cannot erase a two-year software lead, but a massive GPU cluster can turn capital directly into capability. Models are improving faster than the memory, interconnect, power, a",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Nobody is born senior. \nEvery expert was once paid to do boring work.\n#AI just a…",
-          "url": "https://x.com/sophiya82/status/2093323457173901459",
+          "title": "Today, a16z is announcing the Machine Age Fund, a new $1.1 billion fund for foun\u2026",
+          "url": "https://x.com/a16z/status/2093340813174747432",
           "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1149,16 +1194,16 @@
     },
     {
       "id": "l557",
-      "text": "@gregoryjon @JayWeber3 The HS student next door to me is going into an electrician program during his senior year. As much as AI needs coders, it needs electricians more to build the infrastructure. In a couple of years, he’ll be making 6 figures while those going to college will have 6 figure debt.",
+      "text": "AI infrastructure is scaling faster than the skilled labor required to build it.\n\nEven with GPUs allocated and power secured, data center projects can still stall if there aren\u2019t enough skilled electricians to get them online.\n\nIn his latest piece for @dcdnews, Giga CTO Angad Sandhu looks at why skilled labor is becoming one of the biggest constraints on AI infrastructure, and why the answer isn\u2019t simply hiring more people.\n\nRead the full article: https://t.co/9wnRHPiG4b",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@gregoryjon @JayWeber3 The HS student next door to me is going into an electrici…",
-          "url": "https://x.com/DonInBrookfield/status/2093307147702387169",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "AI infrastructure is scaling faster than the skilled labor required to build it.\u2026",
+          "url": "https://x.com/GigaEnergy_/status/2092972863124893965",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1170,16 +1215,16 @@
     },
     {
       "id": "l558",
-      "text": "@broodloper @elonmusk That’s not Precedent for AI replacing arospace welders, technicians, and electricians.",
+      "text": "5 Things AI Critics Get Right",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@broodloper @elonmusk That’s not Precedent for AI replacing arospace welders, te…",
-          "url": "https://x.com/Mackieangrybea2/status/2093026460558651609",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "5 Things AI Critics Get Right",
+          "url": "https://x.com/atoms_res/status/2069036894327889982",
+          "date": "2026-06-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1191,16 +1236,16 @@
     },
     {
       "id": "l559",
-      "text": "The AI data center buildout needs more than 300,000 electricians.\n\nAbout 20,000 retire every single year.\n\nThose projects pay well above residential and they are pulling licensed techs out of local markets right now.\n\nIf you run an electrical company, you're competing for labor against a construction budget you can't match.\n\nYou're not going to out-bid a data center on wages, and I wouldn't waste the money trying.\n\nBuilding your own pipeline is the move that's still on the table.\n\nTrain green hi",
+      "text": "Nobody is born senior. \nEvery expert was once paid to do boring work.\n#AI just ate the boring work. \nSo how do juniors become seniors now?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The AI data center buildout needs more than 300,000 electricians.\n\nAbout 20,000 …",
-          "url": "https://x.com/tradeschoolpro/status/2093026800595283995",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Nobody is born senior. \nEvery expert was once paid to do boring work.\n#AI just a\u2026",
+          "url": "https://x.com/sophiya82/status/2093323457173901459",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1212,16 +1257,16 @@
     },
     {
       "id": "l560",
-      "text": "@RuanBarnard84 Good morning, Voortrekker family!\n\nI was hearing on the news today that there is great need for electricians for the AI farms. Their pay and benefits (including health) will be excellent. If you have any inclination in that area, it may be the perfect occupation to pursue.",
+      "text": "@gregoryjon @JayWeber3 The HS student next door to me is going into an electrician program during his senior year. As much as AI needs coders, it needs electricians more to build the infrastructure. In a couple of years, he\u2019ll be making 6 figures while those going to college will have 6 figure debt.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "@RuanBarnard84 Good morning, Voortrekker family!\n\nI was hearing on the news toda…",
-          "url": "https://x.com/inspiredeagle5/status/2092986853679083703",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@gregoryjon @JayWeber3 The HS student next door to me is going into an electrici\u2026",
+          "url": "https://x.com/DonInBrookfield/status/2093307147702387169",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1233,16 +1278,16 @@
     },
     {
       "id": "l561",
-      "text": "The big AI bottleneck: skilled labor\n\n\"Sure there's memory, sure there's chip constraints\" says @MattPrusak\n\n\"But you can't roll electricians off an assembly line\" https://t.co/i7vVEqlvZe",
+      "text": "@broodloper @elonmusk That\u2019s not Precedent for AI replacing arospace welders, technicians, and electricians.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "The big AI bottleneck: skilled labor\n\n\"Sure there's memory, sure there's chip co…",
-          "url": "https://x.com/blockspace/status/2093342063093842272",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@broodloper @elonmusk That\u2019s not Precedent for AI replacing arospace welders, te\u2026",
+          "url": "https://x.com/Mackieangrybea2/status/2093026460558651609",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1254,16 +1299,16 @@
     },
     {
       "id": "l562",
-      "text": "AI Isn’t Replacing Everyone",
+      "text": "The AI data center buildout needs more than 300,000 electricians.\n\nAbout 20,000 retire every single year.\n\nThose projects pay well above residential and they are pulling licensed techs out of local markets right now.\n\nIf you run an electrical company, you're competing for labor against a construction budget you can't match.\n\nYou're not going to out-bid a data center on wages, and I wouldn't waste the money trying.\n\nBuilding your own pipeline is the move that's still on the table.\n\nTrain green hi",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Isn’t Replacing Everyone",
-          "url": "https://x.com/sophiya82/status/2085053213330272518",
-          "date": "2026-08-05",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "The AI data center buildout needs more than 300,000 electricians.\n\nAbout 20,000 \u2026",
+          "url": "https://x.com/tradeschoolpro/status/2093026800595283995",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1275,16 +1320,16 @@
     },
     {
       "id": "l563",
-      "text": "AI Is Exploding. Nobody's Talking About What Happens After the Flush.",
+      "text": "@RuanBarnard84 Good morning, Voortrekker family!\n\nI was hearing on the news today that there is great need for electricians for the AI farms. Their pay and benefits (including health) will be excellent. If you have any inclination in that area, it may be the perfect occupation to pursue.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Is Exploding. Nobody's Talking About What Happens After the Flush.",
-          "url": "https://x.com/RandyCoinAI/status/2046917835889250627",
-          "date": "2026-04-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "@RuanBarnard84 Good morning, Voortrekker family!\n\nI was hearing on the news toda\u2026",
+          "url": "https://x.com/inspiredeagle5/status/2092986853679083703",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1296,16 +1341,16 @@
     },
     {
       "id": "l564",
-      "text": "AI #162: Visions of Mythos",
+      "text": "The big AI bottleneck: skilled labor\n\n\"Sure there's memory, sure there's chip constraints\" says @MattPrusak\n\n\"But you can't roll electricians off an assembly line\" https://t.co/i7vVEqlvZe",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI #162: Visions of Mythos",
-          "url": "https://x.com/TheZvi/status/2039678433588895907",
-          "date": "2026-04-02",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "The big AI bottleneck: skilled labor\n\n\"Sure there's memory, sure there's chip co\u2026",
+          "url": "https://x.com/blockspace/status/2093342063093842272",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1317,16 +1362,16 @@
     },
     {
       "id": "l565",
-      "text": "A 19 year old with no degree, no experience, and no savings can quickly make $11,000/month selling AI websites to local businesses from his bedroom.\n\nNo need to run ads.\n\nNo need to build a personal brand.\n\nNo need to cold call hundreds of strangers.\n\nNo grind for two years before seeing a single dollar.\n\nJust a broken system that every local business in America is suffering from right now — and he built a dead simple solution that they happily pay him for every single month without fail.\n\nAnd t",
+      "text": "AI Isn\u2019t Replacing Everyone",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "A 19 year old with no degree, no experience, and no savings can quickly make $11…",
-          "url": "https://x.com/BirdVein/status/2065260203138752778",
-          "date": "2026-06-12",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "AI Isn\u2019t Replacing Everyone",
+          "url": "https://x.com/sophiya82/status/2085053213330272518",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1338,16 +1383,16 @@
     },
     {
       "id": "l566",
-      "text": "How the Electrical Grid Is Being Rebuilt for AI | Bloomberg Primer\nArtificial intelligence and electric vehicles are driving a surge in global energy demand, forcing electrical grids to double their power delivery by 2050. However, aging infrastructure and outdated technology threaten to hold them back. Now, companies from China to Nigeria are building next-generation grids to power AI, support electrification and potentially unlock massive economic growth.\n\n0:00 - 2:20 The Battle to Win the Fut…",
+      "text": "AI Is Exploding. Nobody's Talking About What Happens After the Flush.",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "youtube",
-          "title": "How the Electrical Grid Is Being Rebuilt for AI | Bloomberg Primer\nArtificial in…",
-          "url": "https://www.youtube.com/watch?v=8KOYyfZbPzo",
-          "date": "2026-05-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "AI Is Exploding. Nobody's Talking About What Happens After the Flush.",
+          "url": "https://x.com/RandyCoinAI/status/2046917835889250627",
+          "date": "2026-04-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1359,16 +1404,16 @@
     },
     {
       "id": "l567",
-      "text": "Daniel Priestley: AI Will Make Plumbers Earn More Than Lawyers! (2029 PREDICTION)\nWhat is financial freedom? The Business Strategist Daniel Priestley on why AI makes lifestyle businesses easy.\n\nDaniel Priestley is an award-winning serial entrepreneur and self-made multimillionaire. He is the co-founder of Dent Global and ScoreApp, and the author of several international bestsellers, including Oversubscribed and Key Person of Influence.\n\nHe explains:\n▪️How to build a personal brand that survives …",
+      "text": "AI #162: Visions of Mythos",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "youtube",
-          "title": "Daniel Priestley: AI Will Make Plumbers Earn More Than Lawyers! (2029 PREDICTION…",
-          "url": "https://www.youtube.com/watch?v=fpETS6q1Hww",
-          "date": "2026-03-16",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "AI #162: Visions of Mythos",
+          "url": "https://x.com/TheZvi/status/2039678433588895907",
+          "date": "2026-04-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1380,16 +1425,16 @@
     },
     {
       "id": "l568",
-      "text": "We Saw What AI Data Centers Don't Want You to See\nWe investigated one of the world’s largest AI data centers, using thermal drone footage to reveal the hidden pollution powering the AI boom. As companies race to build the future of artificial intelligence, residents and experts warn that fossil fuels, secrecy, and weak regulation may be putting communities at risk.\n\nYou can learn more about @floodlightnews  and its mission by visiting https://floodlightnews.org/\n\nSubscribe to Floodlight's YouTub…",
+      "text": "A 19 year old with no degree, no experience, and no savings can quickly make $11,000/month selling AI websites to local businesses from his bedroom.\n\nNo need to run ads.\n\nNo need to build a personal brand.\n\nNo need to cold call hundreds of strangers.\n\nNo grind for two years before seeing a single dollar.\n\nJust a broken system that every local business in America is suffering from right now \u2014 and he built a dead simple solution that they happily pay him for every single month without fail.\n\nAnd t",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "youtube",
-          "title": "We Saw What AI Data Centers Don't Want You to See\nWe investigated one of the wor…",
-          "url": "https://www.youtube.com/watch?v=5p426fSlYH4",
-          "date": "2026-05-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "A 19 year old with no degree, no experience, and no savings can quickly make $11\u2026",
+          "url": "https://x.com/BirdVein/status/2065260203138752778",
+          "date": "2026-06-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1401,16 +1446,16 @@
     },
     {
       "id": "l569",
-      "text": "If You Could Prepare for Only ONE Disaster... Choose This\nWhat if you could prepare for only ONE disaster?\n\nAn EMP, pandemic, economic collapse, nuclear war, or natural disaster? The problem is, preparing for one specific disaster can leave you dangerously exposed to another. In this video, we break down the most important survival strategy: preparing for an extended power grid failure.\n\nA long-term blackout can trigger a chain reaction—water systems lose pressure, gas stations stop pumping, gro…",
+      "text": "How the Electrical Grid Is Being Rebuilt for AI | Bloomberg Primer\nArtificial intelligence and electric vehicles are driving a surge in global energy demand, forcing electrical grids to double their power delivery by 2050. However, aging infrastructure and outdated technology threaten to hold them back. Now, companies from China to Nigeria are building next-generation grids to power AI, support electrification and potentially unlock massive economic growth.\n\n0:00 - 2:20 The Battle to Win the Fut\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "If You Could Prepare for Only ONE Disaster... Choose This\nWhat if you could prep…",
-          "url": "https://www.youtube.com/watch?v=F1FYXh3WkWU",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "title": "How the Electrical Grid Is Being Rebuilt for AI | Bloomberg Primer\nArtificial in\u2026",
+          "url": "https://www.youtube.com/watch?v=8KOYyfZbPzo",
+          "date": "2026-05-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1422,16 +1467,79 @@
     },
     {
       "id": "l570",
-      "text": "Austria's AI tool helping prevent blackouts and power grid disruptions\nWhat happens to Europe's power grid when the wind drops or a cloud blocks the sun?\n\nA Vienna startup is using AI to answer that question, predicting overload scenarios and rerouting electricity faster than any human operator can. In a potential blackout situation, its system buys operators 60% more time to intervene.\n\nAs Europe's energy mix shifts to renewables, the grid is getting harder to balance. \n\nAI Enlite, which has al…",
+      "text": "Daniel Priestley: AI Will Make Plumbers Earn More Than Lawyers! (2029 PREDICTION)\nWhat is financial freedom? The Business Strategist Daniel Priestley on why AI makes lifestyle businesses easy.\n\nDaniel Priestley is an award-winning serial entrepreneur and self-made multimillionaire. He is the co-founder of Dent Global and ScoreApp, and the author of several international bestsellers, including Oversubscribed and Key Person of Influence.\n\nHe explains:\n\u25aa\ufe0fHow to build a personal brand that survives \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "Austria's AI tool helping prevent blackouts and power grid disruptions\nWhat happ…",
+          "title": "Daniel Priestley: AI Will Make Plumbers Earn More Than Lawyers! (2029 PREDICTION\u2026",
+          "url": "https://www.youtube.com/watch?v=fpETS6q1Hww",
+          "date": "2026-03-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "We Saw What AI Data Centers Don't Want You to See\nWe investigated one of the world\u2019s largest AI data centers, using thermal drone footage to reveal the hidden pollution powering the AI boom. As companies race to build the future of artificial intelligence, residents and experts warn that fossil fuels, secrecy, and weak regulation may be putting communities at risk.\n\nYou can learn more about @floodlightnews  and its mission by visiting https://floodlightnews.org/\n\nSubscribe to Floodlight's YouTub\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "We Saw What AI Data Centers Don't Want You to See\nWe investigated one of the wor\u2026",
+          "url": "https://www.youtube.com/watch?v=5p426fSlYH4",
+          "date": "2026-05-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "If You Could Prepare for Only ONE Disaster... Choose This\nWhat if you could prepare for only ONE disaster?\n\nAn EMP, pandemic, economic collapse, nuclear war, or natural disaster? The problem is, preparing for one specific disaster can leave you dangerously exposed to another. In this video, we break down the most important survival strategy: preparing for an extended power grid failure.\n\nA long-term blackout can trigger a chain reaction\u2014water systems lose pressure, gas stations stop pumping, gro\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "If You Could Prepare for Only ONE Disaster... Choose This\nWhat if you could prep\u2026",
+          "url": "https://www.youtube.com/watch?v=F1FYXh3WkWU",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "Austria's AI tool helping prevent blackouts and power grid disruptions\nWhat happens to Europe's power grid when the wind drops or a cloud blocks the sun?\n\nA Vienna startup is using AI to answer that question, predicting overload scenarios and rerouting electricity faster than any human operator can. In a potential blackout situation, its system buys operators 60% more time to intervene.\n\nAs Europe's energy mix shifts to renewables, the grid is getting harder to balance. \n\nAI Enlite, which has al\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Austria's AI tool helping prevent blackouts and power grid disruptions\nWhat happ\u2026",
           "url": "https://www.youtube.com/watch?v=t-YOieJBQrQ",
           "date": "2026-07-21",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1443,47 +1551,74 @@
     }
   ],
   "jobAds": {
-    "source": "adzuna-au",
-    "query": "electricians",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "electrician",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+      "count": 16007,
+      "returned": 50,
+      "topEmployers": [
+        "Skill Match Recruit",
+        "AIR Recruitment",
+        "Konecranes",
+        "Engineering Trades Australia",
+        "2XM Recruit",
+        "Cranfield Group",
+        "CGC Recruitment",
+        "Techforce Personnel"
+      ],
+      "topSkills": [
+        "electrical",
+        "maintenance",
+        "wiring",
+        "solar",
+        "switchboard",
+        "compliance",
+        "license",
+        "fault finding"
+      ]
+    }
   },
   "corpus": {
-    "platforms": [
+    "platforms": [],
+    "retrieved": "2026-08-30",
+    "searchesReturningNothing": [
       {
-        "name": "practitioner_forums",
-        "scope": "National Electricians Association discourse",
-        "items": 45
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "detail": "OpenAthens session expired; re-run factiva_reauth.py. Logged to factiva_backlog.json.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L4",
+        "source": "seek",
+        "status": "not-sampled",
+        "detail": "Seek trend pages not queried this batch; Adzuna AU + LinkedIn used for L4 demand signal.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L4",
+        "source": "last30days-hiring-signals",
+        "status": "not-sampled",
+        "detail": "last30days --hiring-signals not run separately this batch (L5 last30days ran; Adzuna+LinkedIn cover L4 demand).",
+        "date": "2026-08-30"
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
     "linkedin": [
       {
-        "date": "2026-08-29",
+        "date": "2026-08-30",
         "soc": "47-2111",
-        "query": "Electricians",
+        "query": "Electrician",
         "location": "Australia",
-        "returned": 8,
-        "totalResults": 8,
+        "returned": 10,
+        "totalResults": 10,
         "status": "sampled"
       }
     ],
     "l5Sample": [
       {
-        "date": "2026-08-29",
+        "date": "2026-08-30",
         "added": 60,
         "sources": {
           "github": 1,
@@ -1499,5 +1634,7 @@
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 (Factiva trade press) not sampled this run: OpenAthens session expired, logged to factiva_backlog.json for attended backfill. L4 demand covered by Adzuna AU (time-series) + LinkedIn (live postings); Seek and last30days --hiring-signals not run separately. Confidence rests on L1 (regulatory instruments), L2 (JSA Gen AI Capacity Study + trade-risk index), L4 (Adzuna/LinkedIn), and L5 (declared last30days practitioner corpus)."
+  ]
 }

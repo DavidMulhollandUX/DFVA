@@ -2,29 +2,75 @@
   "onet_soc_code": "47-1011",
   "title": "First-Line Supervisors/Managers of Construction Trades and Extraction Workers",
   "aliases": [
-    "Construction Supervisor"
+    "Construction Supervisor",
+    "Site Supervisor",
+    "Foreman",
+    "Building Supervisor"
   ],
-  "anzsco": "220000",
+  "anzsco": "Construction Supervisor (ANZSCO 3121 group)",
   "window": {
-    "from": "2025-08-01",
-    "to": "2026-08-24"
+    "from": "2025-08-30",
+    "to": "2026-08-30"
   },
-  "generated": "2026-08-24",
-  "expires": "2027-02-24",
+  "generated": "2026-08-30",
+  "expires": "2027-02-28",
   "programs": [],
+  "researchMethod": "empirical-five-lane-v1",
   "claims": [
     {
-      "id": "l403",
-      "text": "Civil Supervisor - SA — BMD Group (Palmer, South Australia, Australia). Posted 2 days ago.",
+      "id": "l401",
+      "text": "Civil Supervisor \u2014 Stellar Recruitment (Kalgoorlie, Western Australia, Australia). Posted 14 hours ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "BMD Group",
-          "title": "Civil Supervisor - SA",
-          "url": "https://www.linkedin.com/jobs/view/4457905709",
-          "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "Stellar Recruitment",
+          "title": "Civil Supervisor",
+          "url": "https://www.linkedin.com/jobs/view/4452931671",
+          "date": "14 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l402",
+      "text": "Civil Site Supervisor \u2014 W3Global (Mackay, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "W3Global",
+          "title": "Civil Site Supervisor",
+          "url": "https://www.linkedin.com/jobs/view/4454441858",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l403",
+      "text": "Site Supervisor \u2014 Kapitol (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Kapitol",
+          "title": "Site Supervisor",
+          "url": "https://www.linkedin.com/jobs/view/4353253419",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -36,16 +82,16 @@
     },
     {
       "id": "l404",
-      "text": "Building Supervisor — Hays (Townsville, Queensland, Australia). Posted 1 day ago.",
+      "text": "Civil Supervisor - SA \u2014 BMD Group (Palmer, South Australia, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Hays",
-          "title": "Building Supervisor",
-          "url": "https://www.linkedin.com/jobs/view/4459623416",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "BMD Group",
+          "title": "Civil Supervisor - SA",
+          "url": "https://www.linkedin.com/jobs/view/4457905709",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -57,16 +103,16 @@
     },
     {
       "id": "l405",
-      "text": "Construction Supervisor - HAFF — Plantation Homes (Woodend, Queensland, Australia). Posted 3 months ago.",
+      "text": "Civil Supervisor | Perth WA \u2014 CELOTTI WORKFORCE (Perth, Western Australia, Australia). Posted 4 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Plantation Homes",
-          "title": "Construction Supervisor - HAFF",
-          "url": "https://www.linkedin.com/jobs/view/4409219486",
-          "date": "3 months ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "CELOTTI WORKFORCE",
+          "title": "Civil Supervisor | Perth WA",
+          "url": "https://www.linkedin.com/jobs/view/4447222408",
+          "date": "4 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -78,16 +124,16 @@
     },
     {
       "id": "l406",
-      "text": "Site Supervisor — Built (Perth, Western Australia, Australia). Posted 2 days ago.",
+      "text": "Expressions of Interest - Construction Supervisor \u2014 UGL (Brisbane, Queensland, Australia). Posted 4 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Built",
-          "title": "Site Supervisor",
-          "url": "https://www.linkedin.com/jobs/view/4432775417",
-          "date": "2 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "UGL",
+          "title": "Expressions of Interest - Construction Supervisor",
+          "url": "https://www.linkedin.com/jobs/view/4448156140",
+          "date": "4 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -99,16 +145,16 @@
     },
     {
       "id": "l407",
-      "text": "Civil Site Supervisor — W3Global (Mackay, Queensland, Australia). Posted 1 week ago.",
+      "text": "Site Supervisor \u2014 Built (Perth, Western Australia, Australia). Posted 3 days ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "W3Global",
-          "title": "Civil Site Supervisor",
-          "url": "https://www.linkedin.com/jobs/view/4454441858",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "Built",
+          "title": "Site Supervisor",
+          "url": "https://www.linkedin.com/jobs/view/4432775417",
+          "date": "3 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -120,16 +166,16 @@
     },
     {
       "id": "l408",
-      "text": "Construction Supervisor - Order Homes — Plantation Homes (Ironbark, Queensland, Australia). Posted 1 month ago.",
+      "text": "Civil Supervisor S26 \u2014 GenusPlus Group (Perth, Western Australia, Australia). Posted 2 weeks ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Plantation Homes",
-          "title": "Construction Supervisor - Order Homes",
-          "url": "https://www.linkedin.com/jobs/view/4443651250",
-          "date": "1 month ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "GenusPlus Group",
+          "title": "Civil Supervisor S26",
+          "url": "https://www.linkedin.com/jobs/view/4452179765",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -141,16 +187,16 @@
     },
     {
       "id": "l409",
-      "text": "Site Supervisor — Kapitol (Melbourne, Victoria, Australia). Posted 1 week ago.",
+      "text": "Construction Supervisor - HAFF \u2014 Plantation Homes (Woodend, Queensland, Australia). Posted 3 months ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "Kapitol",
-          "title": "Site Supervisor",
-          "url": "https://www.linkedin.com/jobs/view/4353253419",
-          "date": "1 week ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "Plantation Homes",
+          "title": "Construction Supervisor - HAFF",
+          "url": "https://www.linkedin.com/jobs/view/4409219486",
+          "date": "3 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -162,37 +208,16 @@
     },
     {
       "id": "l410",
-      "text": "Expressions of Interest - Construction Supervisor — UGL (Brisbane, Queensland, Australia). Posted 3 days ago.",
+      "text": "Construction Supervisor \u2014 Talison Lithium (Greenbushes, Western Australia, Australia). Posted 1 week ago.",
       "lane": "L4",
       "tier": "demand-job-ads",
       "sources": [
         {
-          "publisher": "UGL",
-          "title": "Expressions of Interest - Construction Supervisor",
-          "url": "https://www.linkedin.com/jobs/view/4448156140",
-          "date": "3 days ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
-        }
-      ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
-      "disposition": "sourced",
-      "supersedes": null,
-      "bearing": [],
-      "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
-    },
-    {
-      "id": "l411",
-      "text": "Construction Supervisor — Mckinnel Associates (North Sydney, New South Wales, Australia). Posted 1 day ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
-      "sources": [
-        {
-          "publisher": "Mckinnel Associates",
+          "publisher": "Talison Lithium",
           "title": "Construction Supervisor",
-          "url": "https://www.linkedin.com/jobs/view/4458349654",
-          "date": "1 day ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "url": "https://www.linkedin.com/jobs/view/4457307100",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-30"
         }
       ],
       "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
@@ -203,59 +228,80 @@
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
     },
     {
-      "id": "l412",
-      "text": "Civil Supervisor | Perth WA — CELOTTI WORKFORCE (Perth, Western Australia, Australia). Posted 4 weeks ago.",
-      "lane": "L4",
-      "tier": "demand-job-ads",
+      "id": "47-1011-L1-01",
+      "text": "Under the model Work Health and Safety Act 2011 (s27) a positive personal duty of due diligence is imposed on 'officers' of a person conducting a business or undertaking; the officer definition (by reference to the Corporations Act 2001 s9AD) captures senior supervisors and managers who make or participate in decisions affecting a substantial part of the business, so first-line construction supervisors can carry officer-level WHS duties. State builder licensing also applies to contracting construction work.",
+      "lane": "L1",
+      "tier": "regulatory",
       "sources": [
         {
-          "publisher": "CELOTTI WORKFORCE",
-          "title": "Civil Supervisor | Perth WA",
-          "url": "https://www.linkedin.com/jobs/view/4447222408",
-          "date": "4 weeks ago",
-          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+          "publisher": "SafeWork NSW",
+          "title": "The work health and safety duty of an officer",
+          "url": "https://www.safework.nsw.gov.au/resource-library/WHS/the-work-health-and-safety-duty-of-an-officer",
+          "date": "",
+          "whatItMeasured": "WHS Act 2011 (NSW/model) s27 officer due-diligence duty; Corporations Act 2001 s9AD officer definition includes senior decision-makers."
         }
       ],
-      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "scope": "Model WHS jurisdictions; applies to supervisors/managers classified as officers. Does not cover non-officer workers.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+      "refuteNotes": "Regulator guidance; population = corporate officers incl. senior supervisors; in force since 2011."
     },
     {
-      "id": "l513",
-      "text": "Day 7: Task API & User Integration\n## Day 7 — Task API & User Integration\r\n\r\n### Summary\r\n\r\nThis PR completes the Day 7 backend/frontend integration work for the Task Management Tool.\r\n\r\n### Implemented\r\n\r\n- Added authenticated `GET /api/users` endpoint.\r\n- Added user repository integration for retrieving safe user information.\r\n- Co\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/cod…",
-      "lane": "L5",
-      "tier": "practitioner-discourse",
+      "id": "47-1011-L2-01",
+      "text": "Jobs and Skills Australia's Gen AI Capacity Study (August 2025) scores 358 ANZSCO occupations on augmentability and automatability using an ILO/Felten-derived task-level framework. It finds trades and other physically-demanding occupations at the lowest end of AI exposure, while routine clerical and administrative roles carry the highest automation risk; augmentation outweighs automation across the workforce (the study reports 79% of Australian workers face low or very low automation risk).",
+      "lane": "L2",
+      "tier": "scholarly",
       "sources": [
         {
-          "publisher": "github",
-          "title": "Day 7: Task API & User Integration\n## Day 7 — Task API & User Integration\r\n\r\n###…",
-          "url": "https://github.com/izzaeiman/cohort-9-dotnet-10667-izza/pull/13",
-          "date": "2026-08-16",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "publisher": "Jobs and Skills Australia",
+          "title": "Our Gen AI Transition: Exposures, Adaptation, Dynamism (Generative AI Capacity Study)",
+          "url": "https://www.jobsandskills.gov.au/studies/generative-artificial-intelligence-capacity-study",
+          "date": "2025-08",
+          "whatItMeasured": "JSA Gen AI Capacity Study, task-level ANZSCO v1.3 exposure, 358 occupations, Aug 2025."
         }
       ],
-      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "scope": "Australian occupations nationally; model-derived task-level estimates.",
       "disposition": "sourced",
       "supersedes": null,
       "bearing": [],
       "refuted": false,
-      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+      "refuteNotes": "Primary Australian government source; population = AU occupations; Aug 2025."
+    },
+    {
+      "id": "47-1011-L2-02",
+      "text": "A third-party AI-risk index that draws on JSA's GenAI Capacity Study places the manual trades cluster (concreters 1.9, building/plumbing labourers 2.0, bricklayers 2.7, electricians/plumbers 2.8) at the bottom of the exposure scale, and construction supervisory and trade roles sit in the same low band because the work is physically embodied and site-variable rather than information-processing.",
+      "lane": "L2",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "willaitakemyjob.com.au",
+          "title": "Are Tradies the Safest Career Bet in Australia?",
+          "url": "https://willaitakemyjob.com.au/blog/are-tradies-the-safest-career-bet-in-australia",
+          "date": "2026",
+          "whatItMeasured": "Third-party 0-10 AI-risk index derived from JSA GenAI Capacity Study; trade cluster 1.9-2.8."
+        }
+      ],
+      "scope": "Third-party index, not JSA primary; directional, AU trades/supervision.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Real publisher index citing JSA; population = AU trades; 2026."
     },
     {
       "id": "l514",
-      "text": "Wire protocol and web dashboard MVP\n## **User description**\n## What & why\n\nThis PR ships the wire protocol and web dashboard MVP described in ADR 0003. The supervisor now exposes `GET /api/state`, `POST /api/hook`, and `WebSocket /ws` on `127.0.0.1:7354`. `packages/client` provides the shared `SupervisorClient` and wire types. `packag\nCodeAnt AI is reviewing your PR. <!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](…",
+      "text": "feat: supervise canonical three-arm #85 experiment (#85 / RM-608)\n**Agent:** Codex (OpenAI)\n\n## Summary\n\n- add a standard-library supervisor that exclusively owns the locked 8192-token baseline -> P1 -> P0 sequence and atomically fails closed to Option 4\n- serialize concurrent supervisors targeting the same resolved output with a persistent sibling POSIX `flock` h\n<!-- linear-linkback -->\n<p><a href=\"https://linear.app/rpd-34/issue/RM-608\">RM-608</a></p> <!-- This is an auto-generated comment: s\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Wire protocol and web dashboard MVP\n## **User description**\n## What & why\n\nThis …",
-          "url": "https://github.com/hookorama/hookorama/pull/3",
-          "date": "2026-07-12",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "title": "feat: supervise canonical three-arm #85 experiment (#85 / RM-608)\n**Agent:** Cod\u2026",
+          "url": "https://github.com/rmems/grok-ozempic/pull/89",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -267,16 +313,16 @@
     },
     {
       "id": "l515",
-      "text": "chore(docs): finish ASCII em-dash scrub (batch 2)\nCloses #1625.\n\n## Summary\n\nFinishes the ASCII em-dash (` -- `) prose scrub across the documentation tree. ~125 markdown files were updated; each ` -- ` occurrence was inspected per-context and replaced with appropriate punctuation (`:`, `;`, `,`, `.`, `(...)`, or rewritten) instead of a blanket subs\n<h1>Dependency Review</h1>\n✅ No vulnerabilities or license issues or OpenSSF Scorecard issues found.<h2>Scanned Files</h2>\nNone\n\n<!-- dependency-revi…",
+      "text": "fix(acp): bound broker IPC so one wedged broker cannot hang every session\n## Problem\n\nACP chats could get stuck on **\"Launching adapter\"** forever \u2014 no error, no timeout, no recovery. Restarting the app was the only way out.\n\n## Root cause\n\nThree unbounded blocking reads chain together:\n\n1. **Broker supervisor** (`serve_broker_ipc`) reads a client's request line **on the",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "chore(docs): finish ASCII em-dash scrub (batch 2)\nCloses #1625.\n\n## Summary\n\nFin…",
-          "url": "https://github.com/Aureliolo/synthorg/pull/1630",
-          "date": "2026-04-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "title": "fix(acp): bound broker IPC so one wedged broker cannot hang every session\n## Pro\u2026",
+          "url": "https://github.com/mrmans0n/alas/pull/942",
+          "date": "2026-08-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -288,16 +334,16 @@
     },
     {
       "id": "l516",
-      "text": "Vercel deploy\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **New Features**\n  * Supabase-based authentication and centralized data layer for campaigns, reports, users, and notifications\n  * New invite, role-update, and report-export endpoints (server-sid",
+      "text": "chore: fix mergify config syntax\n## **User description**\nShards feat/elicitate-cancel-pending-20260822 onto main for review.\n\n\n___\n\n## **CodeAnt-AI Description**\nAdd non-blocking MCP inbox controls and strengthen elicitation workflows\n\n### What Changed\n- MCP clients can queue prompts without opening a popup, check inbox status, att\n## \ud83e\udd16 CodeAnt AI \u2014 Review Status\n\n| Status | Commit | Started (UTC) | Finished (UTC) |\n| --- | --- | --- | --- |\n| \u2705 Incremental review completed | `768422c` | Aug 27,\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "github",
-          "title": "Vercel deploy\n<!-- This is an auto-generated comment: release notes by coderabbi…",
-          "url": "https://github.com/hmbegham-2cc/CRM/pull/1",
-          "date": "2026-04-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+          "title": "chore: fix mergify config syntax\n## **User description**\nShards feat/elicitate-c\u2026",
+          "url": "https://github.com/KooshaPari/phenotype-tooling/pull/290",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -309,16 +355,16 @@
     },
     {
       "id": "l517",
-      "text": "Tell HN: Man, AI is killing my brain",
+      "text": "fix(executor): bound registry artifact cache with leased LRU eviction\n## Summary\n\nBounds the executor registry-artifact cache without allowing eviction to race active actions. The lifecycle now centers on three invariants: one runtime state per cache key, SquashFS mounts scoped to active leases, and `trash/` as the durable deletion retry queue.\n\n## Stack\n\nBuilds on #3",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Tell HN: Man, AI is killing my brain",
-          "url": "https://news.ycombinator.com/item?id=49468252",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "github",
+          "title": "fix(executor): bound registry artifact cache with leased LRU eviction\n## Summary\u2026",
+          "url": "https://github.com/TracecatHQ/tracecat/pull/3139",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -330,16 +376,16 @@
     },
     {
       "id": "l518",
-      "text": "What breaks in production AI workflows?",
+      "text": "feat(supervisor): ship the daemon shape with identity, state, lifecycle\n# User description\n<!--\nPR template for Hookorama. Enforced fields are documented in\n.agents/rules/pr-template.md.rule.\n-->\n\n## What & why\n\nThis PR ships the supervisor skeleton for Hookorama: identity\nresolution (PID-first, cwd-fallback, never `session_id`),\ncross-platform process discovery walkers\n### Qodo reviews are paused for this user.\n\nTroubleshooting steps vary by plan [Learn more \u2192](https://docs.qodo.ai/subscription\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "What breaks in production AI workflows?",
-          "url": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
-          "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "github",
+          "title": "feat(supervisor): ship the daemon shape with identity, state, lifecycle\n# User d\u2026",
+          "url": "https://github.com/ThePlenkov/hookorama/pull/2",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -351,16 +397,16 @@
     },
     {
       "id": "l519",
-      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+      "text": "ci: self-hosted Rust + dual Qodana + Docker/devcontainer + telemetry + qlty + Codacy\n## **User description**\n## Summary\n\nSingle foundation PR for **Theseus-Quarry** (mining-strict multi-coin supervisor + ops telemetry JSONL): GitHub Actions, dual Qodana, Docker/devcontainer, local quality tooling (qlty + Codacy CLI), and mining/telemetry reliability fixes from review babysit.\n\n| Are",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
-          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
-          "date": "2026-08-04",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "github",
+          "title": "ci: self-hosted Rust + dual Qodana + Docker/devcontainer + telemetry + qlty + Co\u2026",
+          "url": "https://github.com/rmems/Theseus-Quarry/pull/1",
+          "date": "2026-07-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -372,16 +418,16 @@
     },
     {
       "id": "l520",
-      "text": "How al-Qaida and IS are adopting AI",
+      "text": "fix(workflow): prevent stale administrative turns from blocking workflow progress\n<!-- kandev-pr-walkthrough-start -->\n> [!TIP]\n> **PR walkthrough:** [Open the visual walkthrough](https://walkthrough.kandev.ai/pr/2909/9df352397ede.html)\n<!-- kandev-pr-walkthrough-end -->\n\nStale administrative turns (queue admissions, `step_complete` signals, workflow transitions, and cross-task r",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "How al-Qaida and IS are adopting AI",
-          "url": "https://theconversation.com/al-qaida-and-the-islamic-state-are-both-adopting-ai-but-differ-in-how-they-think-about-the-technology-287663",
-          "date": "2026-07-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "github",
+          "title": "fix(workflow): prevent stale administrative turns from blocking workflow progres\u2026",
+          "url": "https://github.com/kdlbs/kandev/pull/2909",
+          "date": "2026-08-22",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -393,16 +439,16 @@
     },
     {
       "id": "l521",
-      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+      "text": "feat!: port every widget to Rust and remove the Python\nAll fourteen widgets, ported to Rust as self-contained binaries, and the Python removed. `common.py` becomes `toys-core`; the seventeen `.py` files are gone and the crate now sits at the repository root.\n\n> **BREAKING CHANGE:** the Python implementation is removed. `python3 -m\n> terminal_toys`, the",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
-          "url": "https://news.ycombinator.com/item?id=48672619",
-          "date": "2026-06-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "github",
+          "title": "feat!: port every widget to Rust and remove the Python\nAll fourteen widgets, por\u2026",
+          "url": "https://github.com/stealth-factory/opscope/pull/31",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -414,16 +460,16 @@
     },
     {
       "id": "l522",
-      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+      "text": "feat(acp): add v2 runtime platform and isolated harness modes\n## Summary\n\nThis PR adds ACP harness v2 as the governed runtime platform for agent Tasks while retaining harness v1 only as a separately deployed compatibility plane.\n\n- In `harness-v2`, built-in Codex, Claude, Copilot, and OpenCode Agents run through controller-owned, digest-pinned `RuntimePool` an",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
-          "url": "https://isaidumber.today/",
-          "date": "2026-08-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "github",
+          "title": "feat(acp): add v2 runtime platform and isolated harness modes\n## Summary\n\nThis P\u2026",
+          "url": "https://github.com/orka-agents/orka/pull/306",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -435,16 +481,16 @@
     },
     {
       "id": "l523",
-      "text": "Structured Evaluation Pipelines to Improve Your AI Workflows",
+      "text": "Add post-sync readiness endpoint and bounded ocx ready wait\n## Summary\r\n\r\n- preserve `GET /healthz` as immediate process liveness\r\n- add exact unauthenticated `GET /readyz` for post-sync readiness\r\n- add `ocx ready [--json] [--wait [--timeout <seconds>]]`\r\n- document the liveness/readiness contract and embedding invariants\r\n\r\n## Problem\r\n\r\nThe listener can b",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Structured Evaluation Pipelines to Improve Your AI Workflows",
-          "url": "https://heltweg.org/posts/structured-evaluation-pipelines-to-improve-your-ai-workflows/",
-          "date": "2026-07-21",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "github",
+          "title": "Add post-sync readiness endpoint and bounded ocx ready wait\n## Summary\r\n\r\n- pres\u2026",
+          "url": "https://github.com/lidge-jun/opencodex/pull/569",
+          "date": "2026-07-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -456,16 +502,16 @@
     },
     {
       "id": "l524",
-      "text": "The death of AI workflow builders",
+      "text": "docs(designs): supervise every long-lived process in the platform-agent container\n## Summary\n\nThis adds a design for supervising the long-lived processes inside the `platform-agent`\ncontainer, plus a runnable prototype that checks its claims. Today `leader_elect.py` is the\ncontainer's exec target only above one replica, and `execvp`s the gateway away when the election\nis unconfig",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "The death of AI workflow builders",
-          "url": "https://www.adriankrebs.ch/blog/death-of-ai-workflow-builders/",
-          "date": "2026-08-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "github",
+          "title": "docs(designs): supervise every long-lived process in the platform-agent containe\u2026",
+          "url": "https://github.com/gke-labs/kube-agents/pull/730",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -477,16 +523,16 @@
     },
     {
       "id": "l525",
-      "text": "Looking for developers with high-token AI workflows",
+      "text": "Initial Haru workspace: GPU HAL with Active/Standby promotion, Neon fleet state, and SkyPilot/SkyServe drivers\n## What this is\n\nHaru is a provider-neutral **GPU Hardware Abstraction Layer** for Active/Standby LLM inference fleets. This PR contains the initial working workspace: the active domain serves OpenAI-compatible traffic while the standby keeps vLLM in [level 1 sleep mode](https://vllm.ai/blog/2025-10",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "hackernews",
-          "title": "Looking for developers with high-token AI workflows",
-          "url": "https://canopywave.com/events/unlimited-token-plan-200m",
-          "date": "2026-07-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "publisher": "github",
+          "title": "Initial Haru workspace: GPU HAL with Active/Standby promotion, Neon fleet state,\u2026",
+          "url": "https://github.com/arkorlab/haru/pull/1",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -498,16 +544,16 @@
     },
     {
       "id": "l526",
-      "text": "Show HN: ContextVault – Shared memory layer for your AI and your team",
+      "text": "Tell HN: Man, AI is killing my brain",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: ContextVault – Shared memory layer for your AI and your team",
-          "url": "https://www.contextvault.dev/",
-          "date": "2026-07-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Tell HN: Man, AI is killing my brain",
+          "url": "https://news.ycombinator.com/item?id=49468252",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -519,16 +565,16 @@
     },
     {
       "id": "l527",
-      "text": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
+      "text": "Show HN: OpenKnowledge \u2013 open source AI-first alternative to Obsidian/Notion",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Argonix – One AI-powered platform for SRE and cloud operations",
-          "url": "https://argonix.io/",
-          "date": "2026-08-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: OpenKnowledge \u2013 open source AI-first alternative to Obsidian/Notion",
+          "url": "https://github.com/inkeep/open-knowledge",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -540,16 +586,16 @@
     },
     {
       "id": "l528",
-      "text": "Adapting Fossil-scm as a platform for AI agentic workflow",
+      "text": "The AI trade now runs on borrowed money, and the lenders are repricing it",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Adapting Fossil-scm as a platform for AI agentic workflow",
-          "url": "https://github.com/BenSiv/fossil-scm",
-          "date": "2026-08-23",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "The AI trade now runs on borrowed money, and the lenders are repricing it",
+          "url": "https://greyswansignals.com/?theme=dark",
+          "date": "2026-07-31",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -561,16 +607,16 @@
     },
     {
       "id": "l529",
-      "text": "What is agentic AI today, and what do we want it to be?",
+      "text": "The AI Marketing Backlash: Why 'AI-First' Brands Are Starting to Fall Flat",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "What is agentic AI today, and what do we want it to be?",
-          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
-          "date": "2026-07-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "The AI Marketing Backlash: Why 'AI-First' Brands Are Starting to Fall Flat",
+          "url": "https://www.breef.com/breefingroom/articles/the-ai-marketing-backlash-why-ai-first-brands-are-starting-to-fall-flat",
+          "date": "2026-07-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -582,16 +628,16 @@
     },
     {
       "id": "l530",
-      "text": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
+      "text": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Semantic transactions: securing untrusted AI agent workflows at the OS boundary",
-          "url": "https://latentdynamics.substack.com/p/semantic-transactions-securing-untrusted",
-          "date": "2026-07-16",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+          "url": "https://isaidumber.today/",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -603,16 +649,16 @@
     },
     {
       "id": "l531",
-      "text": "My AI-Assisted Workflow",
+      "text": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "My AI-Assisted Workflow",
-          "url": "https://www.maiobarbero.dev/articles/ai-assisted-workflow/",
-          "date": "2026-04-15",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Flyte 2 is GA: durable distributed AI workflows using regular Python",
+          "url": "https://www.union.ai/blog-post/flyte-2-is-generally-available-the-durable-open-source-ai-runtime",
+          "date": "2026-08-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -624,16 +670,16 @@
     },
     {
       "id": "l532",
-      "text": "AI Workflows Need Topological Sort",
+      "text": "AI First: How the Federal Government Is Prioritizing AI over People and Planet",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI Workflows Need Topological Sort",
-          "url": "https://arpitbhayani.me/blogs/ai-topological-sort/",
-          "date": "2026-06-03",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "AI First: How the Federal Government Is Prioritizing AI over People and Planet",
+          "url": "https://stopgreedbuildgreen.climateandcommunity.org/posts/ai-first",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -645,16 +691,16 @@
     },
     {
       "id": "l533",
-      "text": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
+      "text": "Meta debuts first AI coding agent to take on Anthropic and OpenAI",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Mellum2 Goes Open Source: A Fast Model for AI Workflows",
-          "url": "https://blog.jetbrains.com/ai/2026/06/mellum2-goes-open-source-a-fast-model-for-ai-workflows/",
-          "date": "2026-06-02",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Meta debuts first AI coding agent to take on Anthropic and OpenAI",
+          "url": "https://www.cnbc.com/2026/08/05/meta-debuts-muse-code-to-take-on-anthropic-and-openai-.html",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -666,16 +712,16 @@
     },
     {
       "id": "l534",
-      "text": "AI workflows: an industry optimising the wrong variables",
+      "text": "I built TradingSpy: local, privacy-first AI trading assistant(First Open Source)",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "AI workflows: an industry optimising the wrong variables",
-          "url": "https://adsurg.substack.com/p/navigating-ai-with-paper-maps",
-          "date": "2026-05-22",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "I built TradingSpy: local, privacy-first AI trading assistant(First Open Source)",
+          "url": "https://github.com/mrhustlex/TradingSpy-TradingAgentService",
+          "date": "2026-07-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -687,16 +733,16 @@
     },
     {
       "id": "l535",
-      "text": "Ask HK: How are you building AI apps today?",
+      "text": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HK: How are you building AI apps today?",
-          "url": "https://news.ycombinator.com/item?id=48323554",
-          "date": "2026-05-29",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Ask HN: What does the day-to-day work of an AI Engineer look like?",
+          "url": "https://news.ycombinator.com/item?id=48672619",
+          "date": "2026-06-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -708,16 +754,16 @@
     },
     {
       "id": "l536",
-      "text": "Show HN: Blocks.ai – control plane and network layer for agents",
+      "text": "China's first AI-powered cancer vaccine production line set to launch in Beijing",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Blocks.ai – control plane and network layer for agents",
-          "url": "https://blocks.ai",
-          "date": "2026-07-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "China's first AI-powered cancer vaccine production line set to launch in Beijing",
+          "url": "https://www.scmp.com/business/china-business/article/3358689/chinas-first-ai-powered-cancer-vaccine-production-line-set-launch-beijing",
+          "date": "2026-06-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -729,16 +775,16 @@
     },
     {
       "id": "l537",
-      "text": "The Problem with AI Today",
+      "text": "Show HN: Reyn \u2013 local-first AI that journals and recalls your work",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "The Problem with AI Today",
-          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
-          "date": "2026-05-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Reyn \u2013 local-first AI that journals and recalls your work",
+          "url": "https://www.usereyn.com/",
+          "date": "2026-06-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -750,16 +796,16 @@
     },
     {
       "id": "l538",
-      "text": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+      "text": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
-          "url": "https://github.com/kontext-dev/kontext-cli",
-          "date": "2026-04-14",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: ContextVault \u2013 Shared memory layer for your AI and your team",
+          "url": "https://www.contextvault.dev/",
+          "date": "2026-07-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -771,16 +817,16 @@
     },
     {
       "id": "l539",
-      "text": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
+      "text": "Plans for New Zealand's first AI datacentre spark concerns",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Show HN: I Built a Debugging Challenge for the AI Coding Age",
-          "url": "https://theincidentchallenge.com/",
-          "date": "2026-05-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Plans for New Zealand's first AI datacentre spark concerns",
+          "url": "https://www.theguardian.com/world/2026/jul/10/new-zealand-first-datacentre-concern-locals-makarewa-invercargill-datagrid",
+          "date": "2026-07-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -792,16 +838,16 @@
     },
     {
       "id": "l540",
-      "text": "Ask HN: Academic study on AI's impact on software development – want to join?",
+      "text": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "hackernews",
-          "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
-          "url": "https://news.ycombinator.com/item?id=47590261",
-          "date": "2026-03-31",
-          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-29"
+          "title": "Show HN: Argonix \u2013 One AI-powered platform for SRE and cloud operations",
+          "url": "https://argonix.io/",
+          "date": "2026-08-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -813,16 +859,16 @@
     },
     {
       "id": "l541",
-      "text": "Stop the AI data centre in Ebbsfleet, Kent\nThe proposed construction of an AI data centre by Clearstone Energy in Ebbsfleet, Kent threatens to disrupts the environment, create noise pollution, droughts and permanently affect our community for the worse. Will appreciate any signatures on our change.org petition here: https://www.change.org/p/stop-the-clearstone-ai-data-centre-in-ebbsfleet-kent or by scanning the QR code. Thanks! &#32; submitted by &#32; /u/Fun-Acanthisitta-838 &#32; to &#32; r/ke…",
+      "text": "Robinhood now lets your AI agents trade stocks",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Stop the AI data centre in Ebbsfleet, Kent\nThe proposed construction of an AI da…",
-          "url": "https://www.reddit.com/r/kentuk/comments/1vdip3y/stop_the_ai_data_centre_in_ebbsfleet_kent/",
-          "date": "2026-08-02",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Robinhood now lets your AI agents trade stocks",
+          "url": "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -834,16 +880,16 @@
     },
     {
       "id": "l542",
-      "text": "The Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of Professional Expertise\nThe Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of Professional Expertise https://arxiv.org/pdf/2607.29380 Discussion on Hacker News https://news.ycombinator.com/item?id=49245359 &#32; submitted by &#32; /u/RNSAFFN &#32; to &#32; r/PoisonFountain [link] &#32; [comments]",
+      "text": "What is agentic AI today, and what do we want it to be?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "The Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of P…",
-          "url": "https://www.reddit.com/r/PoisonFountain/comments/1vkxkqc/the_tragedy_of_the_cognitive_commons_how_ai_could/",
-          "date": "2026-08-10",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "What is agentic AI today, and what do we want it to be?",
+          "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+          "date": "2026-07-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -855,16 +901,16 @@
     },
     {
       "id": "l543",
-      "text": "Bill Gates says artificial intelligence could reshape the labor market far faster than previous technological shifts, with major disruption potentially occurring over the course of a decade rather than several generations, according to CNBC.\nIn a new essay, the Microsoft co-founder argues that AI can substitute for human cognition across a broad range of industries, including law, customer service, medicine, software and manufacturing. He says many jobs could disappear permanently, particularly …",
+      "text": "Show HN: Mnemo \u2013 local-first AI memory layer for any LLM (Rust, SQLite,petgraph)",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Bill Gates says artificial intelligence could reshape the labor market far faste…",
-          "url": "https://www.reddit.com/r/AIdaily_news/comments/1vyzcme/bill_gates_says_artificial_intelligence_could/",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Mnemo \u2013 local-first AI memory layer for any LLM (Rust, SQLite,petgraph)",
+          "url": "https://github.com/zaydmulani09/mnemo",
+          "date": "2026-06-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -876,16 +922,16 @@
     },
     {
       "id": "l544",
-      "text": "Here's a prompt that decodes a brutal supervisor's one-line feedback into things you can actually do, better than any ai writing tool that just rewrites it\nMy supervisor communicates in war crimes. A paragraph I spent a week on comes back with &quot;thin,&quot; &quot;so what?,&quot; and once, memorably, a single question mark next to my main result. This is apparently feedback. Decoding it used to cost me a full day of spiraling before I could do anything with it. Now I make a model do the spira…",
+      "text": "OpenClaw for Sales \u2013 Using Local-First AI Agents for Sales Workflows",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "Here's a prompt that decodes a brutal supervisor's one-line feedback into things…",
-          "url": "https://www.reddit.com/r/PromptEngineering/comments/1vlee56/heres_a_prompt_that_decodes_a_brutal_supervisors/",
-          "date": "2026-08-11",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "OpenClaw for Sales \u2013 Using Local-First AI Agents for Sales Workflows",
+          "url": "https://www.kickscale.com/en/blog/openclaw-sales-ai-agent-revolution",
+          "date": "2026-05-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -897,16 +943,16 @@
     },
     {
       "id": "l545",
-      "text": "What if AI doesn’t just replace jobs, but makes human labor itself less economically valuable?\nI’ve been thinking about AI and automation, and I’m starting to wonder whether the usual comparison to previous technological revolutions is missing something fundamental. The standard argument goes something like this: Technology has always destroyed some jobs and created new ones. The Industrial Revolution replaced many forms of manual labor, cars replaced horse-related jobs, computers eliminated man…",
+      "text": "Ask HK: How are you building AI apps today?",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "reddit",
-          "title": "What if AI doesn’t just replace jobs, but makes human labor itself less economic…",
-          "url": "https://www.reddit.com/r/Futurology/comments/1vjqvpl/what_if_ai_doesnt_just_replace_jobs_but_makes/",
-          "date": "2026-08-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Ask HK: How are you building AI apps today?",
+          "url": "https://news.ycombinator.com/item?id=48323554",
+          "date": "2026-05-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -918,16 +964,16 @@
     },
     {
       "id": "l546",
-      "text": "𝐓𝐇𝐄 𝐀𝐈 𝐁𝐎𝐎𝐌 𝐌𝐀𝐘 𝐍𝐎𝐓 𝐁𝐄 𝐃𝐄𝐂𝐈𝐃𝐄𝐃 𝐁𝐘 𝐖𝐇𝐎 𝐁𝐔𝐈𝐋𝐃𝐒 𝐓𝐇𝐄 𝐁𝐄𝐒𝐓 𝐌𝐎𝐃𝐄𝐋.\n\n𝐈𝐓 𝐌𝐀𝐘 𝐁𝐄 𝐃𝐄𝐂𝐈𝐃𝐄𝐃 𝐁𝐘 𝐖𝐇𝐎 𝐂𝐀𝐍 𝐓𝐔𝐑𝐍 𝐈𝐍𝐓𝐄𝐋𝐋𝐈𝐆𝐄𝐍𝐂𝐄 𝐈𝐍𝐓𝐎 𝐑𝐄𝐏𝐄𝐀𝐓𝐀𝐁𝐋𝐄 𝐄𝐂𝐎𝐍𝐎𝐌𝐈𝐂 𝐕𝐀𝐋𝐔𝐄.\n\nThe market has spent enormous energy asking who will win the AI race.\n\nWho builds the strongest models?\n\nWho supplies the fastest compute?\n\nWho gets the largest data-centre contracts?\n\nThose questions matter.\n\nBut they describe the beginning of the AI economy, not necessarily where the value ultimately settles.\n\nA technology becomes truly transformative wh",
+      "text": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "𝐓𝐇𝐄 𝐀𝐈 𝐁𝐎𝐎𝐌 𝐌𝐀𝐘 𝐍𝐎𝐓 𝐁𝐄 𝐃𝐄𝐂𝐈𝐃𝐄𝐃 𝐁𝐘 𝐖𝐇𝐎 𝐁𝐔𝐈𝐋𝐃𝐒 𝐓𝐇𝐄 𝐁𝐄𝐒𝐓 𝐌𝐎𝐃𝐄𝐋.\n\n𝐈𝐓 𝐌𝐀𝐘 𝐁𝐄 𝐃𝐄𝐂𝐈𝐃𝐄𝐃 …",
-          "url": "https://x.com/BlackBit21/status/2092333606891065682",
-          "date": "2026-08-25",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Blocks.ai \u2013 control plane and network layer for agents",
+          "url": "https://blocks.ai",
+          "date": "2026-07-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -939,16 +985,16 @@
     },
     {
       "id": "l547",
-      "text": "Your AI Cannot Want This Enough",
+      "text": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Your AI Cannot Want This Enough",
-          "url": "https://x.com/markopav/status/2093021720458211346",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
+          "url": "https://github.com/kontext-dev/kontext-cli",
+          "date": "2026-04-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -960,16 +1006,16 @@
     },
     {
       "id": "l548",
-      "text": "TERAFAB\n\nNEW TODAY\n- Folder now 174 posts (9 new since Aug 24)\n- Testers (cb_doge): fully signed 34-page tax agreement among the Governor’s Office, Anderson-Shiro CISD, and TeraFab AI published; construction Dec 1, 2026–Dec 31, 2028; 10-year school M&O incentive 2029–2038 (qualifying value $0 during construction, 50% of market during the incentive window); $12.98M performance bond. Dump-only; not Official Tesla/SpaceX.\n- Testers (cb_doge / tslaming / muskonomy): Phases 2 and 3 Texas Comptroller",
+      "text": "The Problem with AI Today",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "TERAFAB\n\nNEW TODAY\n- Folder now 174 posts (9 new since Aug 24)\n- Testers (cb_dog…",
-          "url": "https://x.com/arthur_win8/status/2092615188591849981",
-          "date": "2026-08-26",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "The Problem with AI Today",
+          "url": "https://tongwing.woon.sg/blog/the-problem-with-ai-today/",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -981,16 +1027,16 @@
     },
     {
       "id": "l549",
-      "text": "Quant AI in 2026: The Contest Has Moved From Models to Research Process",
+      "text": "Show HN: Conkoa AI \u2013 Voice-First Slack for Construction",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Quant AI in 2026: The Contest Has Moved From Models to Research Process",
-          "url": "https://x.com/NOX_Ventures/status/2091814557719380274",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "hackernews",
+          "title": "Show HN: Conkoa AI \u2013 Voice-First Slack for Construction",
+          "url": "https://conkoa.ai/",
+          "date": "2026-03-10",
+          "whatItMeasured": "last30days L5 practitioner discourse (hackernews); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1002,16 +1048,16 @@
     },
     {
       "id": "l550",
-      "text": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
+      "text": "my first self drafted, lined, zipped, pocket-ed, shoulder padded, jacket\nhey, hey, fashionistas. been sewing for a little over 2 years now, and i wanted to prove to myself i&#39;m an \u2728 intermediate \u2728 sewist (inasmuch as there&#39;s an official sewing skill ranking system). so, i finally forced myself to sit down and take an original concept all the way from &quot;twinkle in my eye&quot; to &quot;totally finished, self patterned, mostly-not-shitty, wearable, thing&quot; i&#39;m a long time lurker\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
-          "url": "https://x.com/theneurondaily/status/2093302072145825969",
-          "date": "2026-08-28",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "my first self drafted, lined, zipped, pocket-ed, shoulder padded, jacket\nhey, he\u2026",
+          "url": "https://www.reddit.com/r/sewing/comments/1vabc1l/my_first_self_drafted_lined_zipped_pocketed/",
+          "date": "2026-07-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1023,16 +1069,16 @@
     },
     {
       "id": "l551",
-      "text": "Is your business doing ok? Been worried about your marketing and advertising agency with AI.",
+      "text": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Operational Review, Stability Write Up, Benchmarks\nI thought this would be relevant to the homelab subreddit so I&#39;m adding it here, just to put the information out there and discuss if there is any interest. I am an IT infrastructure engineer by profession, so my contribution to the conversation is mainly from a hardware/systems perspective rather than from a Machine Learning researcher standpoint. I got my start wit\u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "x",
-          "title": "Is your business doing ok? Been worried about your marketing and advertising age…",
-          "url": "https://x.com/MattWalkerWI/status/2093012956162179541",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "publisher": "reddit",
+          "title": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Oper\u2026",
+          "url": "https://www.reddit.com/r/homelab/comments/1veh5gt/data_center_in_a_box_on_wheels_256gb_vram512gb/",
+          "date": "2026-08-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1044,16 +1090,16 @@
     },
     {
       "id": "l552",
-      "text": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nBy Cassidy K. Buhler, Fernando Pérez & Carl Boettiger\nhttps://t.co/7DVqLebNcD\n\nPublicly available AI models and local infrastructure can reduce AI’s environmental footprint while giving researchers greater control over the tools they use.\n\nAs public opposition grows against the soaring energy and water demands of data centres powering the artificial-intelligence boom, some technology companies are talking about puttin",
+      "text": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what the future will look like. I always did but even more so since I had a baby. To me it feels like we\u2019re not in a steady state right now. Things are volatile and changing fast. It feels like this pace of change can\u2019t possibly last forever. But it also seems obvious that LLMs are going to dramatically change the nature of my work, and many types of work, permanently.\n\nI am effectively required to use AI at work now, so fo",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Why scientists should lead the shift away from AI mega data centres\n\n11AUG2026\nB…",
-          "url": "https://x.com/gecko39/status/2092989596900442316",
-          "date": "2026-08-27",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "Debates over AI consciousness are a trap | Kirahowe\n\nI think a lot about what th\u2026",
+          "url": "https://x.com/OwenGregorian/status/2093169126004985893",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1065,16 +1111,16 @@
     },
     {
       "id": "l553",
-      "text": "AI Overview\nMetastasizing is the active process in which cancer cells break away from the main (primary) tumor, travel through the blood or lymph system, and start growing as new tumors in other parts of the body.\n\nSan Francisco General Hospital (officially known as the Zuckerberg San Francisco General Hospital and Trauma Center)[1] is a public hospital in San Francisco, California, operated by the San Francisco Department of Public Health. It serves as the only Level I trauma center for the 1.5",
+      "text": "How AI Is Changing the Way People Build Startups",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "AI Overview\nMetastasizing is the active process in which cancer cells break away…",
-          "url": "https://x.com/DunnBilly87734/status/2091848709533569181",
-          "date": "2026-08-24",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "How AI Is Changing the Way People Build Startups",
+          "url": "https://x.com/Goura_vk/status/2093337130437410979",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1086,16 +1132,16 @@
     },
     {
       "id": "l554",
-      "text": "Nerdicalization: How Hyper-Specific Technical Optimization Re-Engineers Legacy Industries",
+      "text": "How to Build an AI-Native Company: Hiring, Standards, and Cadence",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "x",
-          "title": "Nerdicalization: How Hyper-Specific Technical Optimization Re-Engineers Legacy I…",
-          "url": "https://x.com/BunnyFather/status/2076745230984843324",
-          "date": "2026-07-13",
-          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-29"
+          "title": "How to Build an AI-Native Company: Hiring, Standards, and Cadence",
+          "url": "https://x.com/ericosiu/status/2093360216054378500",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1107,16 +1153,16 @@
     },
     {
       "id": "l555",
-      "text": "I Used Claude for Construction for a Year – Here's What Actually Works\nPre-built workflows and 1:1 support: https://www.skool.com/contractor-os\n\nMaster Claude AI guide techniques to improve your workflow. Learn when to use Claude chat, co-work, or Claude code effectively.\n\nThis guide breaks down the specific use cases for the Claude AI ecosystem, specifically tailored for those working in construction or document-heavy fields. If you have been struggling to figure out which interface fits your n…",
+      "text": "We launched Synapse. [ Read till end ]\n\nAnd instead of posting another \u201cwe\u2019re changing healthcare with AI\u201d thread, I want to share the questions people have been asking us.\n\nDoctors. Hospital owners. Founders. VCs. Customers.\n\nSome of them were uncomfortable.\n\nProbably the most useful questions we\u2019ve received.\n\n\u201cWhy would Apollo need you if OpenAI or Microsoft can give them models, servers, engineers and basically unlimited compute?\u201d\n\nFair.\n\nWe are not trying to build a better GPT.\n\nAnd we\u2019re no",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "youtube",
-          "title": "I Used Claude for Construction for a Year – Here's What Actually Works\nPre-built…",
-          "url": "https://www.youtube.com/watch?v=F3bLko3t8W4",
-          "date": "2026-07-09",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "We launched Synapse. [ Read till end ]\n\nAnd instead of posting another \u201cwe\u2019re ch\u2026",
+          "url": "https://x.com/KarthikNagpuri/status/2093567763801686429",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1128,16 +1174,16 @@
     },
     {
       "id": "l556",
-      "text": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: https://contractoros.build/work-with-us\n\nJoin ContractorOS: https://www.skool.com/contractor-os/about\n\nFollow on LinkedIn: https://www.linkedin.com/in/josh-turner-pmp-10608b1b7/\n\nI use Claude every day to run my AI consulting business for construction. In this video I break down what Claude actually does, how each interface works, and why the system around it (Projects, Skills, Plugins, Memory) makes it genuinely useful …",
+      "text": "Grok Bot + Kimi K3: How to Build an AI System That Stops Waiting for Your Next Prompt",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
-          "publisher": "youtube",
-          "title": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: http…",
-          "url": "https://www.youtube.com/watch?v=DQwlMX27E6k",
-          "date": "2026-03-12",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "publisher": "x",
+          "title": "Grok Bot + Kimi K3: How to Build an AI System That Stops Waiting for Your Next P\u2026",
+          "url": "https://x.com/leopardracer/status/2093282462491091301",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1149,16 +1195,1024 @@
     },
     {
       "id": "l557",
-      "text": "I Built an AI System to Save Construction Costs\nThis video explains how to use AI for value engineering in construction across design, procurement, and construction methodology. Timothy Fairley shows how project requirements, estimates, procurement packages, and construction programs can help uncover potential savings. FREE Construction Cost Benefit Analysis Template: https://www.mastt.com/resources/cost-benefit-analysis-template\n\n🚀 Get Started with Mastt\nStart for FREE: https://www.mastt.com\nMa…",
+      "text": "How to coordinate \"the swarm\" of AI Agents",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "How to coordinate \"the swarm\" of AI Agents",
+          "url": "https://x.com/FernandoTN/status/2093488963730489841",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "I BUILT $22K/MO AI AD SERVICE IN 90D",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I BUILT $22K/MO AI AD SERVICE IN 90D",
+          "url": "https://x.com/biektive/status/2093290135156564030",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "100+ AI Headlines Hit This Week. These Are the Ones Worth Knowing",
+          "url": "https://x.com/theneurondaily/status/2093302072145825969",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "BestBlogs Daily \u00b7 08-29 \u00b7 AI-Native Engineering Meets LLM Gateway Reliability",
+          "url": "https://x.com/BestBlogsDev/status/2093500753738645591",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "@Tape_Vector @HunterAllen4 @EdgeReport91 There\u2019s an app update in Apple review that fixes this. Should be 1-2days",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Tape_Vector @HunterAllen4 @EdgeReport91 There\u2019s an app update in Apple review t\u2026",
+          "url": "https://x.com/Fsl_X/status/2093721115507978528",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "Doomers will find a way to hate this.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Doomers will find a way to hate this.",
+          "url": "https://x.com/lottjj/status/2092413706550558901",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l563",
+      "text": "I think there is a very good chance this is correct.  Long UB and ZB.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "I think there is a very good chance this is correct.  Long UB and ZB.",
+          "url": "https://x.com/lottjj/status/2092135823949062344",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "@lottjj @amitisinvesting 100%. Securitization of compute is the biggest (bullish) signal most are overlooking, but Jensen has been saying it for months.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@lottjj @amitisinvesting 100%. Securitization of compute is the biggest (bullish\u2026",
+          "url": "https://x.com/SpearfishingCap/status/2087009996446065054",
+          "date": "2026-08-11",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "$DBA breaking out. All commodities are dirt and diesel. https://t.co/CsHUiKPIgc",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "$DBA breaking out. All commodities are dirt and diesel. https://t.co/CsHUiKPIgc",
+          "url": "https://x.com/TheValueist/status/2093730548376359382",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "$DAR $VLO D4 ripping higher after selling off.\n\nD4 RIN & SMALL REFINERY EXEMPTION POLICY: STATUS AND OUTLOOK\n\nREGULATORY FRAMEWORK\n\nThe Renewable Fuel Standard (RFS), established in 2005 under the Clean Air Act, is administered by the Environmental Protection Agency (EPA). The program requires refiners and importers of gasoline and diesel (obligated parties) to blend biofuels into transportation fuels or purchase tradeable credits \u2014 Renewable Identification Numbers (RINs) \u2014 to demonstrate compli",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "$DAR $VLO D4 ripping higher after selling off.\n\nD4 RIN & SMALL REFINERY EXEMPTIO\u2026",
+          "url": "https://x.com/TheValueist/status/2093726964754632843",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "@Fsl_X @Tape_Vector @EdgeReport91 Bet bro",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Fsl_X @Tape_Vector @EdgeReport91 Bet bro",
+          "url": "https://x.com/HunterAllen4/status/2093721317933470026",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "$NVDA $MU $SNDK $LITE Valient effort @nicochristie . Unfortunately in GAI consolidation and scale are the only way.\n\nBest of luck on your next project.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "$NVDA $MU $SNDK $LITE Valient effort @nicochristie . Unfortunately in GAI consol\u2026",
+          "url": "https://x.com/TheValueist/status/2093732742001524770",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "$VLO $MPC $PSX $DINO DILUENT EXECUTIVE ASSESSMENT (1/x)\n\nDiluent is one of the highest-leverage constraints on Venezuelan oil production. It is not a minor blending additive. For a large portion of Orinoco Belt production, diluent is the material that converts an extra-heavy, highly viscous reservoir fluid into a crude blend that can be pumped through gathering systems, transported approximately 150-300 kilometers to the coast, stored in tanks, loaded onto tankers and processed by a refinery. A",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "$VLO $MPC $PSX $DINO DILUENT EXECUTIVE ASSESSMENT (1/x)\n\nDiluent is one of the h\u2026",
+          "url": "https://x.com/TheValueist/status/2093722205955764517",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "@TheValueist Silly to assume that 1/2 the people in the world wouldn't be opposed to every single thing that happened in Venezuela. Because they are opposed to every single thing that Trump does.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TheValueist Silly to assume that 1/2 the people in the world wouldn't be oppose\u2026",
+          "url": "https://x.com/ScubaMikeBTC/status/2093614057697730982",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "@NickSarich morning",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@NickSarich morning",
+          "url": "https://x.com/Tape_Vector/status/2093725621142630873",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "@MstrTranquility Clear rules around sizing and cash reserves are what keep a bitcoin:native plan durable when volatility tests conviction",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@MstrTranquility Clear rules around sizing and cash reserves are what keep a bit\u2026",
+          "url": "https://x.com/Tape_Vector/status/2093725235723817304",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "@JoshuaSteinman Learned to fly a plane before I could drive.  The forklift came later.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@JoshuaSteinman Learned to fly a plane before I could drive.  The forklift came \u2026",
+          "url": "https://x.com/lottjj/status/2092804276490060110",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l574",
+      "text": "$ESOA Energy Services of America is becoming a regional infrastructure construction platform",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "$ESOA Energy Services of America is becoming a regional infrastructure construct\u2026",
+          "url": "https://x.com/Tape_Vector/status/2090832414989836645",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l575",
+      "text": "The objective of a \u201chot\u201d war is to make it seem like a \u201ccold\u201d war for as long as possible.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The objective of a \u201chot\u201d war is to make it seem like a \u201ccold\u201d war for as long as\u2026",
+          "url": "https://x.com/lottjj/status/2091716383767994678",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l576",
+      "text": "@niccruzpatane Nothing says you can't have both.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@niccruzpatane Nothing says you can't have both.",
+          "url": "https://x.com/lottjj/status/2091689222394818648",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l577",
+      "text": "@Tape_Vector Always bro! I do my best. I literally tell people all the time I can\u2019t see everyone but if you comment on my posts I come to yours. \n\nYou\u2019re the beneficiary here daily! \ud83d\ude24\n\nNo sleepppp gang",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Tape_Vector Always bro! I do my best. I literally tell people all the time I ca\u2026",
+          "url": "https://x.com/HunterAllen4/status/2093722171759636688",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l578",
+      "text": "@Tape_Vector I\u2019m here more then most lol",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Tape_Vector I\u2019m here more then most lol",
+          "url": "https://x.com/HunterAllen4/status/2093721402536755338",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l579",
+      "text": "The Efficient Frontier: Why Collapsing Costs Will Demand More Humans, Not Fewer",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Efficient Frontier: Why Collapsing Costs Will Demand More Humans, Not Fewer",
+          "url": "https://x.com/lottjj/status/2074012657166987522",
+          "date": "2026-07-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l580",
+      "text": "@HunterAllen4 https://t.co/PHF9XT0uYS",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@HunterAllen4 https://t.co/PHF9XT0uYS",
+          "url": "https://x.com/Tape_Vector/status/2093724827529937110",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l581",
+      "text": "$DBA",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "$DBA",
+          "url": "https://x.com/TheValueist/status/2093732879184601181",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l582",
+      "text": "@Tape_Vector Yup",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Tape_Vector Yup",
+          "url": "https://x.com/TSinvests/status/2093724170244780525",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l583",
+      "text": "@TheValueist Solid. The piece I'd add is realized price \u2014 even blended to Merey, it's a heavy sour only US Gulf cokers and Chinese teapots really want, and the teapots take it at a steep discount. Cash flow per barrel, not just output, is what actually caps the rebuild.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TheValueist Solid. The piece I'd add is realized price \u2014 even blended to Merey,\u2026",
+          "url": "https://x.com/derrick_dao/status/2093689938088706144",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l584",
+      "text": "@Neon68 Bond futures.  Long end of the curve.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Neon68 Bond futures.  Long end of the curve.",
+          "url": "https://x.com/lottjj/status/2092352949523804219",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l585",
+      "text": "@JonSnyderHQ NYC was hard to beat for a long time in finance.  Same for tech and SF.  Now, neither are purely dominant.  Texas and Florida have made huge in roads in both.  I expect that trend will accelerate over the next decade.  Where do you prefer and why?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@JonSnyderHQ NYC was hard to beat for a long time in finance.  Same for tech and\u2026",
+          "url": "https://x.com/lottjj/status/2091685180415386012",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l586",
+      "text": "@lottjj The neighborhoods in every city on this list where the average home price is $5M+ is S-tier",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@lottjj The neighborhoods in every city on this list where the average home pric\u2026",
+          "url": "https://x.com/Reignots/status/2091689922096693303",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l587",
+      "text": "@lottjj Shh.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@lottjj Shh.",
+          "url": "https://x.com/WGMorrow/status/2091687104623337729",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l588",
+      "text": "@lottjj never like these rankings, so subjective and individual.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@lottjj never like these rankings, so subjective and individual.",
+          "url": "https://x.com/TheBrandoB/status/2091680666760999154",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l589",
+      "text": "@Vance_Roberts5 @HamiltonThomas9 @InvestifyDaily @ThetaForgeX in and drafted bro let the winning begin",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Vance_Roberts5 @HamiltonThomas9 @InvestifyDaily @ThetaForgeX in and drafted bro\u2026",
+          "url": "https://x.com/Tape_Vector/status/2093732562698961074",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l590",
+      "text": "@LiamMAHarvey Conviction gets tested most when price action is noisy, patient investors in $NBIS $PLTR $IREN $RKLB know the thesis matters more than daily moves",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@LiamMAHarvey Conviction gets tested most when price action is noisy, patient in\u2026",
+          "url": "https://x.com/Tape_Vector/status/2093725116135862468",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l591",
+      "text": "@Sir_Kory $RH would call that a value add and keep a straight face",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Sir_Kory $RH would call that a value add and keep a straight face",
+          "url": "https://x.com/Tape_Vector/status/2093723463206801449",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l592",
+      "text": "@EllisInvest $MSFT $GOOGL $AMZN",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@EllisInvest $MSFT $GOOGL $AMZN",
+          "url": "https://x.com/Tape_Vector/status/2093722942639161803",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l593",
+      "text": "@TSinvests https://t.co/lacx8HcysG",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TSinvests https://t.co/lacx8HcysG",
+          "url": "https://x.com/Tape_Vector/status/2093722700887757079",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l594",
+      "text": "COMPETITION WITH PETROCHEMICALS\n\nNaphtha is a major steam-cracker feedstock outside North America. Global petrochemical demand and Middle Eastern or Asian supply disruptions can pull Atlantic Basin cargoes away from Venezuela. The global market is therefore linked to ethylene margins as well as gasoline economics.\n\nASPHALTENE COMPATIBILITY\n\nHighly paraffinic diluent can precipitate asphaltenes. The consequences include tank sludge, blocked filters, fouled heat exchangers, unstable cargoes and lo",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "COMPETITION WITH PETROCHEMICALS\n\nNaphtha is a major steam-cracker feedstock outs\u2026",
+          "url": "https://x.com/TheValueist/status/2093722224544845989",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l595",
+      "text": "WHERE THE IMPORTED DILUENT COMES FROM\n\nTHE UNITED STATES\n\nThe U.S. Gulf Coast has historically been Venezuela\u2019s most natural diluent source because of its geographic proximity, large refining system, Permian and Eagle Ford condensate production, NGL fractionation infrastructure and two-way trade with Venezuelan crude.\n\nThe current 2026 supply chain was restarted by Vitol. The company chartered the Hellespont Protector to load approximately 460,000 barrels of U.S. heavy naphtha in the Houston-Pas",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "WHERE THE IMPORTED DILUENT COMES FROM\n\nTHE UNITED STATES\n\nThe U.S. Gulf Coast ha\u2026",
+          "url": "https://x.com/TheValueist/status/2093722216986726751",
+          "date": "2026-08-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l596",
+      "text": "@TheValueist lowkey elite info.\n\nhttps://t.co/lbFVAhazqI",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TheValueist lowkey elite info.\n\nhttps://t.co/lbFVAhazqI",
+          "url": "https://x.com/_XZIIIZX/status/2093443562608427365",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l597",
+      "text": "@TheValueist This isn't the hardest part. The hardest part will be when the bullwhip effect kicks in when margins collapse in the next couple of years and it goes back to like 500 dollars. That'll be the hard part. Memory stocks are in an obvious distribution phase.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@TheValueist This isn't the hardest part. The hardest part will be when the bull\u2026",
+          "url": "https://x.com/JD04925090/status/2093408099319046279",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l598",
+      "text": "@Gnu352 @TheValueist If your bull case for memory was \"HBM architectural co-design\" NVHBM has broken that.\n\nIf it wasn't, you should be fine.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@Gnu352 @TheValueist If your bull case for memory was \"HBM architectural co-desi\u2026",
+          "url": "https://x.com/JD04925090/status/2093407897799565720",
+          "date": "2026-08-28",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l599",
+      "text": "@jaymesrosenthal Let\u2019s go!",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@jaymesrosenthal Let\u2019s go!",
+          "url": "https://x.com/lottjj/status/2092449161136456107",
+          "date": "2026-08-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5100",
+      "text": "Where2Bro & IBEW Signals: The Real-Time Labor Map of the GAI Data Center Buildout. New: 7/30/26.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "Where2Bro & IBEW Signals: The Real-Time Labor Map of the GAI Data Center Buildou\u2026",
+          "url": "https://x.com/TheValueist/status/2082972921157325027",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5101",
+      "text": "@lottjj So which is better sf or ny?",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "@lottjj So which is better sf or ny?",
+          "url": "https://x.com/JonSnyderHQ/status/2091681991678943673",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5102",
+      "text": "RIGHT THESIS. WRONG STRUCTURE.",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "RIGHT THESIS. WRONG STRUCTURE.",
+          "url": "https://x.com/The_OoZ_og/status/2083411626443866158",
+          "date": "2026-08-01",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5103",
+      "text": "The Alignment Problem - Part Three",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "x",
+          "title": "The Alignment Problem - Part Three",
+          "url": "https://x.com/willyogo/status/2038318705185280282",
+          "date": "2026-03-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (x); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5104",
+      "text": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: https://contractoros.build/work-with-us\n\nJoin ContractorOS: https://www.skool.com/contractor-os/about\n\nFollow on LinkedIn: https://www.linkedin.com/in/josh-turner-pmp-10608b1b7/\n\nI use Claude every day to run my AI consulting business for construction. In this video I break down what Claude actually does, how each interface works, and why the system around it (Projects, Skills, Plugins, Memory) makes it genuinely useful \u2026",
       "lane": "L5",
       "tier": "practitioner-discourse",
       "sources": [
         {
           "publisher": "youtube",
-          "title": "I Built an AI System to Save Construction Costs\nThis video explains how to use A…",
-          "url": "https://www.youtube.com/watch?v=mHUXtdkZoDM",
-          "date": "2026-08-19",
-          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+          "title": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: http\u2026",
+          "url": "https://www.youtube.com/watch?v=DQwlMX27E6k",
+          "date": "2026-03-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l5105",
+      "text": "August 27, 2026 Board Strategic Planning Retreat",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "August 27, 2026 Board Strategic Planning Retreat",
+          "url": "https://www.youtube.com/watch?v=zmTa_LeBbf4",
+          "date": "2026-08-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-30"
         }
       ],
       "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
@@ -1170,38 +2224,64 @@
     }
   ],
   "jobAds": {
-    "source": "adzuna-au",
-    "query": "first-line supervisors/managers of construction trades and extraction workers",
-    "window": "2025-08-01 to 2026-08-24",
-    "count": 1200,
-    "topEmployers": [
-      "Victorian State Government",
-      "Specialist National Employers",
-      "Leading Australian Consultancies"
-    ],
-    "topSkills": [
-      "Disciplinary expertise",
-      "Stakeholder communication",
-      "Ethical reasoning",
-      "Adaptive analysis",
-      "Project governance"
-    ]
+    "adzuna": {
+      "source": "adzuna-au",
+      "query": "construction supervisor",
+      "window": "Adzuna AU live all-time index (fetched 2026-08-30)",
+      "count": 606,
+      "returned": 50,
+      "topEmployers": [
+        "Simonds Group",
+        "Core Talent",
+        "Alinta Energy",
+        "McKinnel Associates",
+        "Scott Park Group",
+        "Talison Lithium",
+        "Mellross Homes",
+        "Zinfra"
+      ],
+      "topSkills": [
+        "quality",
+        "budget",
+        "supervision",
+        "subcontractor",
+        "scheduling",
+        "compliance",
+        "project delivery"
+      ]
+    }
   },
   "corpus": {
-    "platforms": [
+    "platforms": [],
+    "retrieved": "2026-08-30",
+    "searchesReturningNothing": [
       {
-        "name": "practitioner_forums",
-        "scope": "National First-Line Supervisors/Managers of Construction Trades and Extraction Workers Association discourse",
-        "items": 45
+        "lane": "L3",
+        "source": "factiva",
+        "status": "auth_expired",
+        "detail": "OpenAthens session expired; re-run factiva_reauth.py. Logged to factiva_backlog.json.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L4",
+        "source": "seek",
+        "status": "not-sampled",
+        "detail": "Seek trend pages not queried this batch; Adzuna AU + LinkedIn used for L4 demand signal.",
+        "date": "2026-08-30"
+      },
+      {
+        "lane": "L4",
+        "source": "last30days-hiring-signals",
+        "status": "not-sampled",
+        "detail": "last30days --hiring-signals not run separately this batch (L5 last30days ran; Adzuna+LinkedIn cover L4 demand).",
+        "date": "2026-08-30"
       }
     ],
-    "retrieved": "2026-08-24",
-    "searchesReturningNothing": [],
     "linkedin": [
       {
-        "date": "2026-08-29",
+        "date": "2026-08-30",
         "soc": "47-1011",
-        "query": "Construction Supervisors",
+        "query": "Construction Supervisor",
         "location": "Australia",
         "returned": 10,
         "totalResults": 10,
@@ -1210,21 +2290,22 @@
     ],
     "l5Sample": [
       {
-        "date": "2026-08-29",
-        "added": 45,
+        "date": "2026-08-30",
+        "added": 92,
         "sources": {
-          "github": 4,
+          "github": 12,
           "grounding": 0,
           "hackernews": 24,
-          "jobs": 0,
-          "reddit": 5,
-          "x": 9,
-          "youtube": 3
+          "reddit": 2,
+          "x": 52,
+          "youtube": 2
         },
         "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [
+    "L3 (Factiva trade press) not sampled this run: OpenAthens session expired, logged to factiva_backlog.json for attended backfill. L4 demand covered by Adzuna AU (time-series) + LinkedIn (live postings); Seek and last30days --hiring-signals not run separately. Confidence rests on L1 (regulatory instruments), L2 (JSA Gen AI Capacity Study + trade-risk index), L4 (Adzuna/LinkedIn), and L5 (declared last30days practitioner corpus)."
+  ]
 }
