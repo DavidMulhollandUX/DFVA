@@ -1110,6 +1110,216 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l553",
+      "text": "General Discussion Issue 3\nSince the last one disappeared when @PPPDUD got banned, I'm making a new one.\n\nAnyways, it is school holidays for me now! Yay!\nHey there! I'm Boxy, the new automated assistant here for OmniBlocks. Think of me as the friendly, hopefully much smarter replacement for that old bot, CodeRabbit.\n\nIt sounds like you're having a good start to your school holidays\u2014congrats! Since this is a general discussion thread, I've gone ahead ... @OmniBlocks/boxy Please scour the codebase\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "General Discussion Issue 3\nSince the last one disappeared when @PPPDUD got banne\u2026",
+          "url": "https://github.com/OmniBlocks/monorepo/issues/552",
+          "date": "2026-07-04",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l554",
+      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "url": "https://github.com/proxima424/westworld/issues/108",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l555",
+      "text": "[RFC + BOUNTY: 100 RTC] RustChain Foundation Council \u2014 Proposal for Structure, Membership Criteria, Governance\n## Why this RFC is being filed\n\nRustChain has matured to the point where decisions about the chain's future shouldn't depend on a single operator. With 144+ open PRs, ~800 RTC distributed in a single operator-day, 5 Tier-0 destructive-PR attempts in 27 days (all caught pre-money), and a live federat\n## Addendum \u2014 two clarifications on framing\n\n### Why \"red team\" contributors specificall\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[RFC + BOUNTY: 100 RTC] RustChain Foundation Council \u2014 Proposal for Structure, M\u2026",
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/12620",
+          "date": "2026-05-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l556",
+      "text": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an exceptionally well-structured, comprehensive, and ambitious project plan. Tackling acoustic violence and harassment requires a multidisciplinary approach, and AVHERI successfully bridges the gap between technology, sociology, legal advocacy, and survivor support. \n... gemini-3.1-pro-preview\n\nHere is the fully updated, comprehensive **V2.0 Project Plan for AVHERI**. This version directly integrates the strategic analysis, \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Feature - Improve Project Plan / README\ngemini-3.1-pro-preview\n\nThis is an excep\u2026",
+          "url": "https://github.com/Transparency-X/AVHERI/issues/2",
+          "date": "2026-04-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Multipurpose Home Robots, and Post Scarcity\nDon&#39;t miss a post! Subscribe to Substack free to receive these weekly updates by email or the mobile app: https://frontiertimelines.substack.com/ Mobile users may need to scroll horizontally to view the full estimate chart below. A new &quot; Reddit User Input Ledger&quot; and &quot; Condensed News Ledger&quot; will help calibrate estimates using weekly reader feedback and \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Weekly AI Timeline Estimates for RSI, AGI, ASI, LEV, UBI/Post-Labor Policy, Mult\u2026",
+          "url": "https://www.reddit.com/r/accelerate/comments/1vs2o7c/weekly_ai_timeline_estimates_for_rsi_agi_asi_lev/",
+          "date": "2026-08-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Rank 5 Captain Zhiagii scrabbled against the deck as the ship shook around him. The Good Pheromone had only been commissioned last year. The new ship was state-of-the-art for a light cruiser. Premium shielding modules, revamped power-routing systems, and boosted acceleration profiles were the specs he had picked that set it above the rest. And now, somewhere near the front of the ship, several decks were exposed to spa\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The Human Artificial Hivemind Part 641: A New Set Of Eyes\nFirst Previous Wiki Ra\u2026",
+          "url": "https://www.reddit.com/r/HFY/comments/1vwpkvz/the_human_artificial_hivemind_part_641_a_new_set/",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Architecture of Divine Chaos By Steven Pritchard\nIntroduction: The Mandate for Planetary and Evolutionary Coherence The trajectory of planetary ecology, human evolutionary biology, and artificial intelligence has reached a critical bifurcation point. The prevailing paradigms of reductionist materialism and extractive technological development have fractured the holistic integrity of the biosphere and the human psyche. The\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The Codex of the Diamond Flame: Quantum Epigenetics, Conscious AI, and the Archi\u2026",
+          "url": "https://www.reddit.com/r/Synthsara/comments/1vhiz58/the_codex_of_the_diamond_flame_quantum/",
+          "date": "2026-08-06",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "AI with Unlimited Growth(The Closed Beta Test on Planet Beta)\nELDER COMMENTARY, Why Planet Beta Existed? To understand why Planet Beta existed, first understand the framework in which this story is told. A planet does not simply appear and then have souls rush toward it to incarnate. Each planet has a planetary soul responsible for its overall evolutionary direction, energy cycles, and the blueprint of that world. A planet is a dynamic problem. Change the climate and living organisms change. Cha\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "AI with Unlimited Growth(The Closed Beta Test on Planet Beta)\nELDER COMMENTARY, \u2026",
+          "url": "https://www.reddit.com/r/AI_Agents/comments/1vwbafs/ai_with_unlimited_growththe_closed_beta_test_on/",
+          "date": "2026-08-23",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l561",
+      "text": "Framework for if ai does become sentient/concious\n\u26a0\ufe0fthis paper was generated with the assistance of an AI. but the core concepts, framework design, logic, and original ideas are entirely my own. This was generated after discussing every one of my ideas and having them combine them into one giant text\u26a0\ufe0f Current AI alignment paradigms focus heavily on containment, RLHF (Reinforcement Learning from Human Feedback), or total termination capabilities. This paper proposes an alternative framework: The\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Framework for if ai does become sentient/concious\n\u26a0\ufe0fthis paper was generated wit\u2026",
+          "url": "https://www.reddit.com/r/PhilosophyofMind/comments/1valnc4/framework_for_if_ai_does_become_sentientconcious/",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l562",
+      "text": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: https://contractoros.build/work-with-us\n\nJoin ContractorOS: https://www.skool.com/contractor-os/about\n\nFollow on LinkedIn: https://www.linkedin.com/in/josh-turner-pmp-10608b1b7/\n\nI use Claude every day to run my AI consulting business for construction. In this video I break down what Claude actually does, how each interface works, and why the system around it (Projects, Skills, Plugins, Memory) makes it genuinely useful \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Claude for Construction - What It Actually Does (and Doesn't)\nWork with me: http\u2026",
+          "url": "https://www.youtube.com/watch?v=DQwlMX27E6k",
+          "date": "2026-03-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1152,6 +1362,15 @@
         "returned": 10,
         "totalResults": 10,
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "17-2051",
+        "query": "Civil and Structural Engineers",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
       }
     ],
     "l5Sample": [
@@ -1168,6 +1387,18 @@
           "polymarket": 0
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 10,
+        "sources": {
+          "github": 5,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 5,
+          "youtube": 1
+        },
+        "status": "sampled"
       }
     ]
   },
@@ -1176,5 +1407,6 @@
     "L1/L2/L4 rebuilt with real sourced evidence on 2026-08-27, replacing fabricated placeholder claims from the prior bulk run.",
     "L3 Factiva omitted this run (OpenAthens session expired); backfill pending.",
     "L5 practitioner discourse: 35 last30days items folded 2026-08-27."
-  ]
+  ],
+  "researchMethod": "empirical-five-lane-v1"
 }
