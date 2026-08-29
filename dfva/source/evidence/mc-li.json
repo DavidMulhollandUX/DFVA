@@ -1,0 +1,142 @@
+{
+  "code": "mc-li",
+  "panelCv4": {
+    "instrument": "4.2-draft",
+    "C1": {
+      "score": 1,
+      "rationale": "Anchor 1: 'Collaboration/teamwork appears in learning outcomes, but no core unit assesses it.' Collaboration is named in the course-level ILOs and in the compulsory capstone subjects' ILOs, but no core (compulsory) assessment item is graded against collaboration/teamwork criteria. The only directly assessed group work (EDUC90194's group oral presentation) is in an elective subject (one of four options outside the specialisation), not a core unit, so per R2 it cannot lift the score to level 2. Placement/'team around the learner' evidence is excluded here and reserved for W3 per the one-construct-one-home rule.",
+      "evidenceLines": [
+        "Investigate a range of strategies for collaborating with colleagues, caregivers, external professionals and the wider community.",
+        "Teamwork and professional collaboration",
+        "Collaborate with the team around the learner.",
+        "Collaborate and draw on the expertise of the team around the learner.",
+        "Group oral presentation on numeracy learning and teaching (10 minutes per group)"
+      ]
+    },
+    "C2": {
+      "score": 1,
+      "rationale": "Anchor 1: 'Reflection or self-assessment appears in outcomes or graduate attributes, but no core unit assesses it against criteria.' Both capstone subjects list 'reflect on own practice' as an ILO, and EDUC90846's capstone report is explicitly framed as 'reflecting on their development as an evidence-based practitioner' and is graded (30%) — this is the program's strongest candidate for level 2 ('criterion-referenced appraisal of quality'), but the extract never states the report is judged against explicit quality-appraisal criteria rather than as a general reflective narrative — ambiguous between level 1 and 2, resolved to the lower level. No evidence of documented reliance/override decisions or process-focused strategy-adjustment assessment, so level 3 is not met.",
+      "evidenceLines": [
+        "Reflect on own practice to identify strengths and areas for growth.",
+        "Students will produce a capstone report in the style of a journal article reflecting on their development as an evidence-based practitioner.",
+        "Capstone report in the style of a journal article based on evidence based practice in education"
+      ]
+    },
+    "C3": {
+      "score": 0,
+      "rationale": "Anchor 0: 'No digital/AI content in any core unit or program-level outcome.' A full read of the captured extract — course overview, both ILO lists, both graduate-attribute/generic-skills lists, and all six subjects' overviews, ILOs, generic skills and assessment tables — contains no reference to AI, digital tools, or technology of any kind. The generic-skills and ILO lists below are quoted as representative absence evidence; none names digital or AI content.",
+      "evidenceLines": [
+        "Critical reasoning and thinking\nProblem solving\nCommunication\nEvidence based decision making\nCreativity and innovation\nTeamwork and professional collaboration\nSelf-reflection, career awareness and lifelong learning\nActive and participatory citizenship",
+        "Translate knowledge and understanding of contemporary intervention theory and practice for students with disabilities, learning difficulties, and those who are deaf or hard of hearing."
+      ]
+    },
+    "C4": {
+      "score": 2,
+      "rationale": "Anchor 2: 'At least one core assessment requires application to novel or unfamiliar problems.' Stream A's capstone case studies apply assessment/intervention methods to a real, unfamiliar individual learner encountered in placement, and are assessed (60% and 45%). Anchor 3 ('a self-scoped capstone or research project') is closely matched by Stream B's capstone, where 'students will design and describe a research project to address a research question related to their individual specialisation' — but this route is not universal: Stream A students instead complete supervised case-study practicum. Ambiguous between level 2 and 3 depending on stream; resolved to the lower level.",
+      "evidenceLines": [
+        "Students will complete a literature review and an extensive case study developed after a continuous process of assessment, data collection, intervention and evaluation with a learner with disabilities, learning difficulties or hearing loss in areas such as language, literacy, numeracy, mental health/well-being, thinking and learning, exceptionality, behaviour and audiology.",
+        "Case study based on a learner with disability, learning difficulties or hearing loss",
+        "students will design and describe a research project to address a research question related to their individual specialisation of disability, learning difficulties or deaf education.",
+        "A research proposal aimed at investigating an educational issue in disability, learning difficulties and/or deaf education",
+        "Carry out the planning for a substantial research-based project."
+      ]
+    },
+    "C5": {
+      "score": 2,
+      "rationale": "Anchor 2: 'Students design and conduct an inquiry with methodology selection and data collection, assessed.' Stream A's capstone case studies are built on 'a continuous process of assessment, data collection, intervention and evaluation with a learner,' assessed at 60% and 45% — clear primary-evidence generation with assessed methodology. Level 3 requires this be REQUIRED, 'not one route among several': Stream B's capstone is a literature review plus research proposal only (design, no data collection), so the requirement does not hold program-wide. Resolved to level 2; Stream B's weaker profile recorded as an ambiguity.",
+      "evidenceLines": [
+        "Students will complete a literature review and an extensive case study developed after a continuous process of assessment, data collection, intervention and evaluation with a learner with disabilities, learning difficulties or hearing loss in areas such as language, literacy, numeracy, mental health/well-being, thinking and learning, exceptionality, behaviour and audiology.",
+        "Students will produce an extensive case study and intervention plan developed after a continuous process of assessment, data collection, intervention and evaluation, with a learner with disability, learning difficulties or hearing loss in areas such as language, literacy, numeracy, mental health/well-being, thinking and learning, exceptionality, behaviour and/or audiology.",
+        "Case study focused on intervention for a learner with disability, learning difficulties or hearing loss",
+        "A research proposal aimed at investigating an educational issue in disability, learning difficulties and/or deaf education"
+      ]
+    },
+    "adaptiveness": 6,
+    "W1": {
+      "score": 1,
+      "rationale": "Anchor 1: 'core assessment adds presentation to peers/staff, but no professional genre and no audience beyond the teaching team.' The capstone's mini-conference presentations are graded core assessment (hurdle) but no audience beyond the teaching team is named. EDUC90846's capstone report 'in the style of a journal article' could be read as a professional genre (level 2), but the extract never states the audience is external or that grading criteria are drawn from professional practice — resolved to the lower level.",
+      "evidenceLines": [
+        "Present findings of literature review at mini conference",
+        "Present case study findings at mini conference",
+        "Capstone report in the style of a journal article based on evidence based practice in education",
+        "Explain and justify professional decision-making to a variety of audiences using the analysis and interpretation of assessment and intervention data."
+      ]
+    },
+    "W2": {
+      "score": 2,
+      "rationale": "Anchor 2: 'At least one core assessment reproduces a professional task end to end.' Stream A's capstone requires a continuous assess-plan-implement-evaluate cycle with a real learner, producing a case study/intervention plan judged via supervisor appraisal (hurdle) and graded marking. Level 3 needs this to be the program's assessment spine plus a genuine practice constraint; not corroborated across the uncaptured specialisation core, and Stream B's parallel capstone route does not reach the same authenticity — resolved to the lower level.",
+      "evidenceLines": [
+        "Students will apply their learnings when undertaking a 15 day practicum placement in an educational setting that includes learners with disability, learning difficulties or hearing loss. They will engage in directed observation and interaction with learners, refining skills in planning, implementing and evaluating educational interventions.",
+        "Case study based on a learner with disability, learning difficulties or hearing loss",
+        "Supervisor's appraisal of a minimum of 15 days of supervised practicum experience",
+        "A research proposal aimed at investigating an educational issue in disability, learning difficulties and/or deaf education"
+      ]
+    },
+    "W3": {
+      "score": 2,
+      "rationale": "Stream A delivers a REQUIRED sequence of two supervised, assessed 15-day practicums with a pass hurdle, 100% attendance hurdles, and accountability to a host supervisor, closely matching level 3's language. But Stream B explicitly 'replace[s] the professional experience' with two research-based minor projects, so a defined portion of the eligible cohort receives no placement or documented own-practice route at all. Because level 3 requires a program-wide required sequence, the split is resolved to the lower level.",
+      "evidenceLines": [
+        "The Learning Intervention Internship (Stream A) is suitable for teachers who are eligible for VIT registration and have two years of documented relevant teaching experience. Stream A requires students to design, implement and evaluate an educational intervention to support learners with disabilities, learning difficulties or hearing loss in educational settings. This stream involves 45 days of professional experience, including 30 days of placement in approved education settings.",
+        "In this stream two minor projects replace the professional experience.",
+        "Students will apply their learnings when undertaking their second 15 day practicum placement in an educational setting that includes learners with disability, learning difficulties or hearing loss.",
+        "Supervisor's appraisal of a minimum of 15 days of supervised practicum experience",
+        "Practicum Attendance"
+      ]
+    },
+    "workplace": 5,
+    "gates": {
+      "G1": {
+        "result": "PASS",
+        "rationale": "The program requires completion of one specialisation with all five of its core subjects compulsory (62.5 of 100 credit points), plus a staged, sequential compulsory capstone, and Stream A carries VIT professional-body endorsement — an all-compulsory specialist core with progressive structure.",
+        "evidenceLines": [
+          "62.5 credit points of all five core subjects from one specialisation",
+          "Completion of one specialisation is required.",
+          "The Master of Learning Intervention (Stream A) is endorsed by the Victorian Institute of Teaching (VIT) as a continuing education program in Special Education.",
+          "Capstone subjects must be completed in the final 50 credit points of the program."
+        ]
+      },
+      "G2": {
+        "result": "PASS",
+        "rationale": "Stream A's capstone is a live project with real uncertainty and accountability: students design, implement and evaluate an individualised intervention for a real learner encountered in placement, supervised and hurdle-assessed, matching the 'capstones/live projects with real uncertainty and accountability' criterion.",
+        "evidenceLines": [
+          "Students will apply their learnings when undertaking a 15 day practicum placement in an educational setting that includes learners with disability, learning difficulties or hearing loss. They will engage in directed observation and interaction with learners, refining skills in planning, implementing and evaluating educational interventions.",
+          "Implement and evaluate individualised intervention plans for students with disability.",
+          "Hurdle requirement: The supervised practicum experience must be passed",
+          "Apply evidence-based decision-making principles to assess, plan, monitor and evaluate interventions drawing on multiple sources of data including research, stakeholder voice and professional expertise."
+        ]
+      }
+    },
+    "ambiguities": [
+      "C1: EDUC90194's assessed group oral presentation demonstrates genuine collaborative assessment, but it is an elective (12.5cp choice among four) not a core unit, so it was not used to raise the score above level 1.",
+      "C2: EDUC90846's capstone report ('reflecting on their development as an evidence-based practitioner') is graded and could be read as assessed self-appraisal (level 2), but the extract does not show it is judged against explicit quality-appraisal criteria; resolved to level 1.",
+      "C4: Stream B's capstone (EDUC90334/90335) is a genuinely self-scoped research project matching the level-3 anchor, but this route is not taken by Stream A students, who instead do supervised case-study practicum; resolved to level 2.",
+      "C5: Stream A's case-study capstone clearly meets level 2 (real data collection, assessed methodology); Stream B's parallel capstone is a literature review plus research proposal only, with no primary data collection, closer to level 1; the program score follows Stream A's stronger route but is not lifted to level 3 because that route is not the only one.",
+      "W1: The capstone report 'in the style of a journal article' and the mini-conference presentations gesture toward a professional genre and an audience beyond the teaching team (level 2), but the extract never states the audience is external or that marking criteria are drawn from professional practice; resolved to level 1.",
+      "W2: Stream A's capstone practicum/case-study task is a strong, arguably level-3, authentic task (real learner, real resource/time limits, supervised, structured deadlines), but the uncaptured specialisation-core subjects and Stream B's weaker parallel route mean 'assessment spine across the program' cannot be confirmed from this extract; resolved to level 2.",
+      "W3: Stream A delivers a required, supervised, assessed 30-day practicum sequence matching level 3's language closely, but Stream B explicitly substitutes two research-based minor projects for the professional experience, so the requirement is not universal across the cohort; resolved to level 2."
+    ],
+    "notScoreable": [
+      "The five compulsory specialisation-core subjects (62.5 of 100 credit points, common to the Deaf Education / Disability / Learning Difficulties specialisations) are not present in this extract — the course-structure page defers to a 'specialisation page in Major, Minors and specialisations' that was not captured. All scores above rely only on the course-level overview/outcomes pages, the four listed elective subjects, and both capstone streams; item-level detail for the specialisation core itself is not scoreable from this extract.",
+      "C3's level-0 score depends on an absence of AI/digital content across the captured pages; if the uncaptured specialisation-core subjects contain such content, it is not reflected in this score."
+    ],
+    "verified": {
+      "adversarial": {
+        "reviewed": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "W1",
+          "W2",
+          "W3",
+          "G1",
+          "G2"
+        ],
+        "date": "2026-08-30"
+      },
+      "mechanical": true,
+      "date": "2026-08-29"
+    }
+  }
+}
