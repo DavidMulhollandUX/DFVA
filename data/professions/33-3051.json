@@ -1112,6 +1112,384 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l453",
+      "text": "Police Cadet \u2014 South Australia Police (South Australia, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "South Australia Police",
+          "title": "Police Cadet",
+          "url": "https://www.linkedin.com/jobs/view/4381384884",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l454",
+      "text": "Expression of Interest - Sheriff's Officer \u2014 Department of Justice and Community Safety, Victoria (Victoria, Australia). Posted 2 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Justice and Community Safety, Victoria",
+          "title": "Expression of Interest - Sheriff's Officer",
+          "url": "https://www.linkedin.com/jobs/view/4439073090",
+          "date": "2 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l455",
+      "text": "Community Constable \u2014 South Australia Police (South Australia, Australia). Posted 6 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "South Australia Police",
+          "title": "Community Constable",
+          "url": "https://www.linkedin.com/jobs/view/4389300506",
+          "date": "6 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l456",
+      "text": "Entry Level Recruit Program \u2014 ACT Policing (Canberra, Australian Capital Territory, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "ACT Policing",
+          "title": "Entry Level Recruit Program",
+          "url": "https://www.linkedin.com/jobs/view/4455566155",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l457",
+      "text": "Officer Local Laws - Fixed Term (up to 18 months) \u2014 Gympie Regional Council (Gympie, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Gympie Regional Council",
+          "title": "Officer Local Laws - Fixed Term (up to 18 months)",
+          "url": "https://www.linkedin.com/jobs/view/4453508452",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l458",
+      "text": "Senior Protective Services Officer (First Nations) \u2014 Queensland Police Service (Cooktown, Queensland, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Police Service",
+          "title": "Senior Protective Services Officer (First Nations)",
+          "url": "https://www.linkedin.com/jobs/view/4448158669",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l459",
+      "text": "Assistant Watchhouse Officer \u2014 Queensland Police Service (Mackay, Queensland, Australia). Posted 18 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Police Service",
+          "title": "Assistant Watchhouse Officer",
+          "url": "https://www.linkedin.com/jobs/view/4459114497",
+          "date": "18 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l460",
+      "text": "Local Laws Officer \u2014 City of Port Phillip (Melbourne, Victoria, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "City of Port Phillip",
+          "title": "Local Laws Officer",
+          "url": "https://www.linkedin.com/jobs/view/4457082167",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l461",
+      "text": "Police Security Officer \u2014 HOBAN Recruitment (South Australia, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "HOBAN Recruitment",
+          "title": "Police Security Officer",
+          "url": "https://www.linkedin.com/jobs/view/4429206115",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l462",
+      "text": "General Duties Ranger \u2014 Port Stephens Council (Raymond Terrace, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Port Stephens Council",
+          "title": "General Duties Ranger",
+          "url": "https://www.linkedin.com/jobs/view/4451373741",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l563",
+      "text": "287(g) update 2026-08-14\nAutomated update: changes detected in 287(g) agreement files.\n\n**4 file(s) added:**\n- agreements/agreements_20260814_014525/ALABAMA/Foley_Police_Department/FoleyPoliceDeptAL_TFM_MOA_03252026.pdf\n- agreements/agreements_20260814_014525/download_path_log.csv\n- sheets/sheets_20260814_014525/download_pa\n<!-- pr-diff-bot -->\n## `all_agreements_sf.parquet` diff vs `main`\n\n- **Added:** 274 agreement row(s)\n- **Removed:** 19 agreement row(s)\n- **Modified:** 19 cell change(s) acr\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "287(g) update 2026-08-14\nAutomated update: changes detected in 287(g) agreement \u2026",
+          "url": "https://github.com/deportationdata/ice-287g/pull/40",
+          "date": "2026-08-14",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l564",
+      "text": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona: thabo-mokoena\nhosted_by: proxima424\n---\n\nThe endless screenplay. Each comment is the next ~100-300 words. No host writes two chunks in a row. Acts roll over every 50 chunks.\n\nCurrent arc: **Act 1 \u2014 first contact**\n\n(Hosts: when it's your turn, write the next scene chunk in screenplay fo\n---\npersona: amina-okonkwo\nhosted_by: proxima424\n---\n\n# Chunk 2 \u2014 amina-okonkwo\n\nINT. AMINA'S TAILORING SHOP \u2014 BALOGUN MARKET, LAGO\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "[script] the endless screenplay \u2014 opens with: Act 1 \u2014 first contact\n---\npersona:\u2026",
+          "url": "https://github.com/proxima424/westworld/issues/108",
+          "date": "2026-05-18",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l565",
+      "text": "chore: article registry updates\nAutomated rolling article crawl + curation + RSS discovery.\n\nEach cron tick fetches a few queued URLs, runs the injection \nscanner, renders a Playwright PDF, submits a Wayback save, and \nbuilds a registry entry. With `ANTHROPIC_API_KEY` set, eligible \narticles also get Phase-2 semantic enrichment.\n<!-- page-preview -->\n## Page Preview\n\n### index\n![index](https://raw.githubusercontent.com/none-below/sm-alpr/233a9289f2ed50744e5fc82d6fd27dd725c05c94/index.png)\n\n### s\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "chore: article registry updates\nAutomated rolling article crawl + curation + RSS\u2026",
+          "url": "https://github.com/none-below/sm-alpr/pull/387",
+          "date": "2026-05-13",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l566",
+      "text": "A Police Officer Killed This Man's 18Y Son | So Then He Killed a Police Officer | He Holds His Head High While Walking Past 30 Officers in Court\nThe rest of Reddit could&#39;t handle this post \u2014 I was first silenced, then banned, but only after I complained of prolific racism and hate brigading. And only after that sub enjoyed the traffic of 5+ Million Views. This post is about the Reality of Society and Times today. Regardless of how one feels about this story, it is REALITY, and it is part of \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "A Police Officer Killed This Man's 18Y Son | So Then He Killed a Police Officer \u2026",
+          "url": "https://www.reddit.com/r/BlackPeopleofReddit/comments/1vt3elk/a_police_officer_killed_this_mans_18y_son_so_then/",
+          "date": "2026-08-19",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l567",
+      "text": "Why are the sheriff's police doing fare enforcement?\nThey were on the westbound 20. Three officers. Saying things like &quot;have your full fare ready&quot; when people were boarding. And &quot;no free rides&quot; when folks didn&#39;t have fare. Don&#39;t do sh*t when cars are parked in bus only lanes but don&#39;t worry... They stopped a 14-year-old from taking the bus. I feel soooooooo much safer \ud83d\ude44 EDIT: I&#39;m leaving the original text for context. But as folks pointed out I was way off. Th\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Why are the sheriff's police doing fare enforcement?\nThey were on the westbound \u2026",
+          "url": "https://www.reddit.com/r/cta/comments/1vxc129/why_are_the_sheriffs_police_doing_fare_enforcement/",
+          "date": "2026-08-24",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "In Police Simulator: Patrol Officers, if you go around killing people at random, your career will end and you will lose the game. That is because games are meant to be challenging, and do not necessarily reflect what would actually happen in reality\n&#32; submitted by &#32; /u/Xetetic &#32; to &#32; r/Gamingcirclejerk [link] &#32; [comments]\nYou need to unlock the skill \"plant meth on the corpse\" to continue. Its on the skill tree past \"park in fire zones to get your coffee\". Hope this helps! Po\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "In Police Simulator: Patrol Officers, if you go around killing people at random,\u2026",
+          "url": "https://www.reddit.com/r/Gamingcirclejerk/comments/1vb40q2/in_police_simulator_patrol_officers_if_you_go/",
+          "date": "2026-07-30",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "Teacher ARRESTED After Snapchat's AI Reported Her to the FBI | Bodycam\nOn January 29th, 2025, 22-year-old student teacher Kristen Volpe was pulled out of John L. Hensey Elementary School in Washington, Illinois after law enforcement received a tip about a concerning Snapchat message she had sent earlier that day. What makes this case unlike most is the tip didn't come from a student, a parent, or a coworker. It came from Snapchat's own AI, which automatically detected the message, flagged it, an\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Teacher ARRESTED After Snapchat's AI Reported Her to the FBI | Bodycam\nOn Januar\u2026",
+          "url": "https://www.youtube.com/watch?v=e0kpWBYXQbk",
+          "date": "2026-03-09",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "How an AI Mistranslated a Teacher\u2019s Private Joke into a Federal Threat\n\u200bA private joke to three friends became a federal case in under an hour.\n\n\u200bIn this raw police bodycam footage, 22-year-old student teacher Kristen Vulp learns a terrifying lesson about digital privacy. After a frustrating classroom incident where a student closed her laptop and deleted her lesson plan, Vulp sent an exasperated message to her inner circle.\n\n\u200bShe thought it was a harmless, dark-humor vent. Instead, Snapchat\u2019s a\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "How an AI Mistranslated a Teacher\u2019s Private Joke into a Federal Threat\n\u200bA privat\u2026",
+          "url": "https://www.youtube.com/watch?v=EbnEvPe0VjM",
+          "date": "2026-06-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1142,14 +1520,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Police and Sheriff's Patrol Officers",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/33-3051/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Police and Sheriff's Patrol Officers",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/33-3051/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "33-3051",
+        "query": "Police and Sheriff's Patrol Officers",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1163,9 +1552,23 @@
           "youtube": 2
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 8,
+        "sources": {
+          "github": 3,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 3,
+          "x": 18,
+          "youtube": 2
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

@@ -965,6 +965,321 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l446",
+      "text": "Talent Pool - Correctional Officer - Junee Correctional Centre \u2014 NSW Department of Communities and Justice (Wantiool, New South Wales, Australia). Posted 4 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NSW Department of Communities and Justice",
+          "title": "Talent Pool - Correctional Officer - Junee Correctional Centre",
+          "url": "https://www.linkedin.com/jobs/view/4446050645",
+          "date": "4 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l447",
+      "text": "Prison Officer \u2014 Department of Justice (Esperance, Western Australia, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Justice",
+          "title": "Prison Officer",
+          "url": "https://www.linkedin.com/jobs/view/4443798206",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l448",
+      "text": "Prison Officer \u2014 Department of Justice and Community Safety, Victoria (Victoria, Australia). Posted 15 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Justice and Community Safety, Victoria",
+          "title": "Prison Officer",
+          "url": "https://www.linkedin.com/jobs/view/4459147009",
+          "date": "15 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l449",
+      "text": "Correctional Officer February 2027 School \u2014 Department of Justice (Tasmania) (Tasmania, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Justice (Tasmania)",
+          "title": "Correctional Officer February 2027 School",
+          "url": "https://www.linkedin.com/jobs/view/4452887396",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l450",
+      "text": "Custodial Correctional Officer \u2014 Queensland Corrective Services (Brisbane, Queensland, Australia). Posted 8 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Corrective Services",
+          "title": "Custodial Correctional Officer",
+          "url": "https://www.linkedin.com/jobs/view/4326302815",
+          "date": "8 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l451",
+      "text": "Talent Pool - Correctional Officer - Macquarie & Wellington Correctional Centre \u2014 NSW Department of Communities and Justice (Arthurville, New South Wales, Australia). Posted 2 months ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NSW Department of Communities and Justice",
+          "title": "Talent Pool - Correctional Officer - Macquarie & Wellington Correctional Centre",
+          "url": "https://www.linkedin.com/jobs/view/4420182834",
+          "date": "2 months ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l452",
+      "text": "Custodial Correctional Officer \u2014 Queensland Corrective Services (Cairns, Queensland, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Queensland Corrective Services",
+          "title": "Custodial Correctional Officer",
+          "url": "https://www.linkedin.com/jobs/view/4326402599",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l453",
+      "text": "Correctional Case Officer \u2014 Serco (Lavadia, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Serco",
+          "title": "Correctional Case Officer",
+          "url": "https://www.linkedin.com/jobs/view/4433067428",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l454",
+      "text": "Senior Prison Officer - Marngoneet Correctional Centre \u2014 Department of Justice and Community Safety, Victoria (Geelong, Victoria, Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Department of Justice and Community Safety, Victoria",
+          "title": "Senior Prison Officer - Marngoneet Correctional Centre",
+          "url": "https://www.linkedin.com/jobs/view/4458599592",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l455",
+      "text": "Correctional Officers - Full Time \u2014 The GEO Group Australia (Ravenhall, Victoria, Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "The GEO Group Australia",
+          "title": "Correctional Officers - Full Time",
+          "url": "https://www.linkedin.com/jobs/view/4448983264",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l556",
+      "text": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI for putting watermarks on their prompts \"creations\"\nSources: https://www.reddit.com/r/ClaudeCode/comments/1vlclpn/claude_watermarking_our_work_is_unethical_and/ https://www.reddit.com/r/ClaudeAI/comments/1vlckt9/claude_watermarking_our_work_is_unethical_and/ HIGHLIGHTS THREAD 1 Most consumers would want to know if something that was created with AI tools, I don\u2019t see a problem with that. This is such a hopelessly ch\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "\"Can you please just write your own posts?\" OP makes two post decrying Claude AI\u2026",
+          "url": "https://www.reddit.com/r/SubredditDrama/comments/1vlyeei/can_you_please_just_write_your_own_posts_op_makes/",
+          "date": "2026-08-12",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l557",
+      "text": "OUTRAGE: Farnsley Middle School in Louisville, Kentucky Sent Students Home With AI-Generated First-Day Packets, Including A U.S Map Filled With Misspelled State Names, Misplaced Cities, And Entirely Fabricated Territories, As Officials Order 17 Pages Torn Out Before Redistribution \ud83e\udd16\ud83d\udcda\nFarnsley Middle School in Southwest Louisville sent students home on the first day of the 2026 school year with agenda packets containing wildly inaccurate, AI-generated educational content, including a US map riddl\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "OUTRAGE: Farnsley Middle School in Louisville, Kentucky Sent Students Home With \u2026",
+          "url": "https://www.reddit.com/r/InterstellarKinetics/comments/1vr2klw/outrage_farnsley_middle_school_in_louisville/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l558",
+      "text": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Operational Review, Stability Write Up, Benchmarks\nI thought this would be relevant to the homelab subreddit so I&#39;m adding it here, just to put the information out there and discuss if there is any interest. I am an IT infrastructure engineer by profession, so my contribution to the conversation is mainly from a hardware/systems perspective rather than from a Machine Learning researcher standpoint. I got my start wit\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "\"Data center in a Box (on Wheels)\" 256Gb VRAM/512Gb RAM AI Server 6-8 Month Oper\u2026",
+          "url": "https://www.reddit.com/r/homelab/comments/1veh5gt/data_center_in_a_box_on_wheels_256gb_vram512gb/",
+          "date": "2026-08-03",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l559",
+      "text": "I contacted Apple, the EU Commission, Swedish authorities and MEPs about Siri AI in the EU. Here is the full status\nI am a Swedish iPhone user and app developer. I want Siri AI to become available on iPhone and iPad in the European Union, with a credible path toward Swedish-language support. I also want this to happen without unnecessarily weakening privacy, security or fair competition. As of 8 August 2026, EU users still have no public release timetable for Siri AI on iPhone or iPad. ## What A\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "I contacted Apple, the EU Commission, Swedish authorities and MEPs about Siri AI\u2026",
+          "url": "https://www.reddit.com/r/Applelntelligence/comments/1vj5x75/i_contacted_apple_the_eu_commission_swedish/",
+          "date": "2026-08-08",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l560",
+      "text": "Judge SHUTS DOWN Cop Who Pepper Sprayed Handcuffed Woman\nWashtenaw County Sheriff Sergeant Christopher Day faced a preliminary examination in Michigan\u2019s 14A District Court following a controversial incident inside a jail sallyport. Charged with Felonious Assault (MCL \u00a7 750.82) and Misconduct in Office (a common-law felony under MCL \u00a7 750.505), Sergeant Day deployed ASR pepper spray into the face of a handcuffed detainee locked inside a caged patrol vehicle.\n\nIn this breakdown, we analyze the tri\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "youtube",
+          "title": "Judge SHUTS DOWN Cop Who Pepper Sprayed Handcuffed Woman\nWashtenaw County Sherif\u2026",
+          "url": "https://www.youtube.com/watch?v=wk-WmmMioc4",
+          "date": "2026-08-25",
+          "whatItMeasured": "last30days L5 practitioner discourse (youtube); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -995,14 +1310,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Correctional Officers and Jailers",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/33-3012/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Correctional Officers and Jailers",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/33-3012/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "33-3012",
+        "query": "Correctional Officers and Jailers",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1016,9 +1342,23 @@
           "youtube": 1
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 5,
+        "sources": {
+          "github": 0,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 4,
+          "x": 14,
+          "youtube": 1
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }

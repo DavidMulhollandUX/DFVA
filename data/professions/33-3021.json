@@ -1450,6 +1450,321 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l469",
+      "text": "Investigator \u2014 NSW ICAC \u2013 Independent Commission Against Corruption (Sydney, New South Wales, Australia). Posted 17 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "NSW ICAC \u2013 Independent Commission Against Corruption",
+          "title": "Investigator",
+          "url": "https://www.linkedin.com/jobs/view/4459114787",
+          "date": "17 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l470",
+      "text": "Investigator-NSW Point to Point Commission \u2014 Transport for NSW (Eveleigh, New South Wales, Australia). Posted 5 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Transport for NSW",
+          "title": "Investigator-NSW Point to Point Commission",
+          "url": "https://www.linkedin.com/jobs/view/4459328726",
+          "date": "5 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l471",
+      "text": "Vehicle Examiner \u2014 South Australia Police (Holden Hill, South Australia, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "South Australia Police",
+          "title": "Vehicle Examiner",
+          "url": "https://www.linkedin.com/jobs/view/4454450058",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l472",
+      "text": "Regional Threat Assessment Manager \u2014 Coinbase (Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Coinbase",
+          "title": "Regional Threat Assessment Manager",
+          "url": "https://www.linkedin.com/jobs/view/4432066950",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l473",
+      "text": "Threat Intelligence Specialist \u2013 APAC (Australia Applicants Only) \u2014 Kodex (Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Kodex",
+          "title": "Threat Intelligence Specialist \u2013 APAC (Australia Applicants Only)",
+          "url": "https://www.linkedin.com/jobs/view/4444196571",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l474",
+      "text": "Assistant Vice President, Global Financial Crimes Investigator \u2014 Bank of America (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Bank of America",
+          "title": "Assistant Vice President, Global Financial Crimes Investigator",
+          "url": "https://www.linkedin.com/jobs/view/4454558043",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l475",
+      "text": "Digital Forensic and Incident Response Investigator \u2014 Cognizant (Melbourne, Victoria, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Cognizant",
+          "title": "Digital Forensic and Incident Response Investigator",
+          "url": "https://www.linkedin.com/jobs/view/4452740743",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l476",
+      "text": "Threat Investigator - APAC \u2014 10a Labs (Sydney, New South Wales, Australia). Posted 5 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "10a Labs",
+          "title": "Threat Investigator - APAC",
+          "url": "https://www.linkedin.com/jobs/view/4435603134",
+          "date": "5 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l477",
+      "text": "Desktop Investigator \u2014 SCOUT Investigations & AML (Sydney, New South Wales, Australia). Posted 19 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "SCOUT Investigations & AML",
+          "title": "Desktop Investigator",
+          "url": "https://www.linkedin.com/jobs/view/4457678518",
+          "date": "19 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l478",
+      "text": "Fraud Manager \u2014 Troy Recruitment (Brisbane City, Queensland, Australia). Posted 2 days ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Troy Recruitment",
+          "title": "Fraud Manager",
+          "url": "https://www.linkedin.com/jobs/view/4455423375",
+          "date": "2 days ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l579",
+      "text": "Auto-Dig: Axon ALPR surveillance system\n## What happened\n\nSyracuse is leaving Flock and moving into Axon's ALPR/Fusus stack.\n\n> same surveillance category\n> different vendor\n> different sharing/audit model\n> still need the actual Syracuse config instead of vendor brochure theology\n\nThis request is the platform-level comparison: **what Axo\nAuto-Dig initial architecture finding, primary Axon docs: as of the July 30, 2026 Fusus rollout, Axon ALPR Sharing supports donor-initiated partner access with\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "Auto-Dig: Axon ALPR surveillance system\n## What happened\n\nSyracuse is leaving Fl\u2026",
+          "url": "https://github.com/lost-rob0t/starintel-gpt-auto-dig/issues/2100",
+          "date": "2026-08-20",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l580",
+      "text": "\"Comparing being banned from a video game discord with being repeatedly r*ped and burned at the stake for having skin tags or a mole? Go off, king. Say your truth. /s\" Some war criminals on r/rimworld get upset when the official discord server bans AI generated content\nSource: https://www.reddit.com/r/RimWorld/comments/1vpxw0i/official_rimworld_discord_server_bans_all_ai/ HIGHLIGHTS Stupid, atleast for the code part. 90% of devs use it anyway. Lol the fucking cope. Any moron claiming 90% percent\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "\"Comparing being banned from a video game discord with being repeatedly r*ped an\u2026",
+          "url": "https://www.reddit.com/r/SubredditDrama/comments/1vqd4m9/comparing_being_banned_from_a_video_game_discord/",
+          "date": "2026-08-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l581",
+      "text": "The Federal Trade Commission is being urged to investigate AI companies for buying, scanning and destroying books to train AI by more than a dozen civil society groups, as per a report by Axios.\n&#32; submitted by &#32; /u/Raj_Valiant3011 &#32; to &#32; r/books [link] &#32; [comments]\nThe FTC will suddenly get an influx of directives to not bother investigating any complaint about AI anywhere after several mysterious donations... What they really should do is fix copyright . The reason they're d\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "The Federal Trade Commission is being urged to investigate AI companies for buyi\u2026",
+          "url": "https://www.reddit.com/r/books/comments/1vugion/the_federal_trade_commission_is_being_urged_to/",
+          "date": "2026-08-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l582",
+      "text": "Like it or not, AI cameras catch criminals and prevent suffering. \"Yesterday, Flock cameras alerted on 4,144 sex offenders, 2,151 stolen cars, 1,687 wanted people, 158 missing persons/kids, and most importantly, an amber alert. Children were rescued. This is every day.\"\nhttps:// wyff4.com/article/flock- cameras-kidnapping-mother-child-search/73311002 \u2026 https:// yahoo.com/news/us/articl es/wake-cunty-woman-arrested-vance-204320886.html \u2026 https:// wrnjradio.com/flock-camera-a lert-leads-to-recover\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "Like it or not, AI cameras catch criminals and prevent suffering. \"Yesterday, Fl\u2026",
+          "url": "https://www.reddit.com/r/accelerate/comments/1vdvce3/like_it_or_not_ai_cameras_catch_criminals_and/",
+          "date": "2026-08-02",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l583",
+      "text": "What Would Actually Happen If Governments Confirmed That Non-Human Intelligence Is Already Here? (Do you agree with the AI?)\nSuggested Reddit Title What Would Actually Happen If Governments Confirmed That Non-Human Intelligence Is Already Here? Let us assume, for the sake of discussion, that an official announcement is made and supported by convincing evidence: Non-human intelligence exists, it has reached Earth, and some form of presence is already here. This would not be comparable to discover\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "What Would Actually Happen If Governments Confirmed That Non-Human Intelligence \u2026",
+          "url": "https://www.reddit.com/r/UFOs_Archive/comments/1vg5cdd/what_would_actually_happen_if_governments/",
+          "date": "2026-08-05",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1480,14 +1795,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Detectives and Criminal Investigators",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/33-3021/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Detectives and Criminal Investigators",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/33-3021/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "33-3021",
+        "query": "Detectives and Criminal Investigators",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1501,9 +1827,23 @@
           "youtube": 0
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 5,
+        "sources": {
+          "github": 1,
+          "grounding": 0,
+          "hackernews": 24,
+          "reddit": 4,
+          "x": 37,
+          "youtube": 0
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
