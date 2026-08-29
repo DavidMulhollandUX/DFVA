@@ -1198,6 +1198,363 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l457",
+      "text": "Nurse Practitioner, Remote Australia \u2014 Eucalyptus (Sydney, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Eucalyptus",
+          "title": "Nurse Practitioner, Remote Australia",
+          "url": "https://www.linkedin.com/jobs/view/4404285267",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l458",
+      "text": "Nurse Practitioner \u2014 UnitingCare Queensland (Brisbane, Queensland, Australia). Posted 9 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "UnitingCare Queensland",
+          "title": "Nurse Practitioner",
+          "url": "https://www.linkedin.com/jobs/view/4457258625",
+          "date": "9 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l459",
+      "text": "Nurse Practitioner - Bayside Emergency Department, Mental Health Team \u2014 Metro South Health (South Brisbane, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Metro South Health",
+          "title": "Nurse Practitioner - Bayside Emergency Department, Mental Health Team",
+          "url": "https://www.linkedin.com/jobs/view/4445673619",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l460",
+      "text": "Delirium Nurse Practitioner \u2014 The Royal Melbourne Hospital (Melbourne, Victoria, Australia). Posted 8 hours ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "The Royal Melbourne Hospital",
+          "title": "Delirium Nurse Practitioner",
+          "url": "https://www.linkedin.com/jobs/view/4459191715",
+          "date": "8 hours ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l461",
+      "text": "Nurse Practitioner (Women's Health) \u2014 Fresh Clinics (Australia). Posted 1 day ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Fresh Clinics",
+          "title": "Nurse Practitioner (Women's Health)",
+          "url": "https://www.linkedin.com/jobs/view/4457449407",
+          "date": "1 day ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l462",
+      "text": "Nurse Practitioner \u2014 Serco (Turner, Australian Capital Territory, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Serco",
+          "title": "Nurse Practitioner",
+          "url": "https://www.linkedin.com/jobs/view/4382926842",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l463",
+      "text": "Nurse Practitioner \u2014 Mosh | Moshy (Australia). Posted 3 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Mosh | Moshy",
+          "title": "Nurse Practitioner",
+          "url": "https://www.linkedin.com/jobs/view/4447228376",
+          "date": "3 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l464",
+      "text": "Nurse Practitioner \u2014 Serco (Townsville, Queensland, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Serco",
+          "title": "Nurse Practitioner",
+          "url": "https://www.linkedin.com/jobs/view/4428809352",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l465",
+      "text": "Nurse Practitioner (Orthopaedic) \u2014 Mantraraj Medical Centre (Sydney, New South Wales, Australia). Posted 1 week ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Mantraraj Medical Centre",
+          "title": "Nurse Practitioner (Orthopaedic)",
+          "url": "https://www.linkedin.com/jobs/view/4453504556",
+          "date": "1 week ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l466",
+      "text": "Nurse Practitioner - Nareen Gardens \u2014 Uniting (Manly, New South Wales, Australia). Posted 2 weeks ago.",
+      "lane": "L4",
+      "tier": "demand-job-ads",
+      "sources": [
+        {
+          "publisher": "Uniting",
+          "title": "Nurse Practitioner - Nareen Gardens",
+          "url": "https://www.linkedin.com/jobs/view/4451607252",
+          "date": "2 weeks ago",
+          "whatItMeasured": "LinkedIn job posting (unofficial scrape); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Live LinkedIn job ad; demand signal, not a graduate destination. Unofficial scrape provenance.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "Single posting; corroborate volume via Adzuna before quantitative claim. Provenance: linkedin (unofficial scrape)."
+    },
+    {
+      "id": "l567",
+      "text": "feat: add governed NP Community Preview funnel\n## Summary\n\n- Add a dedicated `/nurse-practitioner.html` conversion funnel for nurse practitioners who have already experimented with AI but need a safer, repeatable personal working method.\n- Add a browser-local four-control Personal AI Practice Card builder for focus, interaction style, evidence d\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.google\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat: add governed NP Community Preview funnel\n## Summary\n\n- Add a dedicated `/n\u2026",
+          "url": "https://github.com/AI-Nurse-Solutions/ai-operating-system-heart-of-a-nurse/pull/64",
+          "date": "2026-07-26",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l568",
+      "text": "feat: publish WINGS Nurse Practitioner build kit\n## Summary\n\nPublishes Lane 06 Nurse Practitioner WINGS as a governed, USA-only self-install Hermes build kit and synchronizes the branch with current `main`.\n\nExact candidate:\n\n- head: `4cbac7521ea03eb861a58ed7a3f3611a8866ac6e`\n- tree: `c53e53a442ee2754b776fc63c489a5a80ae8b052`\n- PR base / merge bas\n<!-- BUGBOT_FREE_TIER_DISABLED_UPSELL -->\nBugbot is not enabled for your account, so this pull request was not reviewed.\n\nEnable Bugbot in the [Cursor\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat: publish WINGS Nurse Practitioner build kit\n## Summary\n\nPublishes Lane 06 N\u2026",
+          "url": "https://github.com/AI-Nurse-Solutions/ai-operating-system-heart-of-a-nurse/pull/54",
+          "date": "2026-07-21",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l569",
+      "text": "feat: publish DISCOVER research innovation lane\n## Decision\n\nPublish DISCOVER as a standalone, interdisciplinary Healthcare Research & Innovation Leader Complete AI OS lane within Nurse AI OS.\n\n## What this adds\n\n- `/healthcare-research-innovation-leaders/` public route\n- privacy-enhanced YouTube Short embed (`o6fRkTt12zU`) on the lane and homepa\n<!-- BUGBOT_FREE_TIER_DISABLED_UPSELL -->\nBugbot is not enabled for your account, so this pull request was not reviewed.\n\nEnable Bugbot in the [Cursor \u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat: publish DISCOVER research innovation lane\n## Decision\n\nPublish DISCOVER as\u2026",
+          "url": "https://github.com/AI-Nurse-Solutions/ai-operating-system-heart-of-a-nurse/pull/39",
+          "date": "2026-07-17",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l570",
+      "text": "feat: add homepage role video series\n## Summary\n- add Nursing Student, Nurse Manager, and Nurse Practitioner videos immediately after the existing homepage Short\n- preserve the original Short at 9:16 and render the three new landscape videos at their native 16:9 ratio\n- display the role videos in one row on desktop and in the requested\n<!-- BUGBOT_FREE_TIER_DISABLED_UPSELL -->\nBugbot is not enabled for your account, so this pull request was not reviewed.\n\nEnable Bugbot in the [Cursor dashboard](\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "feat: add homepage role video series\n## Summary\n- add Nursing Student, Nurse Man\u2026",
+          "url": "https://github.com/AI-Nurse-Solutions/ai-operating-system-heart-of-a-nurse/pull/31",
+          "date": "2026-07-16",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l571",
+      "text": "nb: when-ai-breaks/epic-sepsis-model - Epic's sepsis alarm missed two-thirds of the patients it was built to catch\n```nb-meta\nseries: when-ai-breaks\nslug: epic-sepsis-model\nmode: open\ntemplate: lesson\ndate: '2026-07-29'\ntitle: Epic's sepsis alarm missed two-thirds of the patients it was built to catch\norder: null\n```\n\n## Task\n\n<details><summary>Full artifact</summary>\n\n````text\n# Commission: when-ai-breaks/epic-\n## The editor\n```\nBLOCK: 0\nWARN:  0\nverdict: PUBLISHABLE\nrender probe ok: 390px view\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "nb: when-ai-breaks/epic-sepsis-model - Epic's sepsis alarm missed two-thirds of \u2026",
+          "url": "https://github.com/the-nightly-build-example/the-nightly-build/pull/88",
+          "date": "2026-07-29",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l572",
+      "text": "fix: handle same-page sidebar clicks without navigation\n## Proposed Changes\n\n- Prevent sidebar items from re-navigating when the user clicks the link for the page they are already on.\n- Close the mobile sidebar sheet when the selected top-level page is tapped again, matching the expected appointments behavior.\n- Revert the unnecessary selected-link click\n<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: review paused by coderabbit.ai -\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "github",
+          "title": "fix: handle same-page sidebar clicks without navigation\n## Proposed Changes\n\n- P\u2026",
+          "url": "https://github.com/ohcnetwork/care_fe/pull/16314",
+          "date": "2026-04-27",
+          "whatItMeasured": "last30days L5 practitioner discourse (github); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l573",
+      "text": "What AI tools do nurse practitioners recommend?\nI&#39;m a family nurse practitioner, and I&#39;ve been asking a few physicians I work with if theyhave any recommendations for AI tools they actually use for charting or quick lookups.I&#39;ve gotten a handful of suggestions and have been reading up on them whenever Ihave some downtime between shifts. The thing is, despite the fact that I\u2019ve been seeing a lot about AI assistant tools for themedical field and I think they seem really promising and h\u2026",
+      "lane": "L5",
+      "tier": "practitioner-discourse",
+      "sources": [
+        {
+          "publisher": "reddit",
+          "title": "What AI tools do nurse practitioners recommend?\nI&#39;m a family nurse practitio\u2026",
+          "url": "https://www.reddit.com/r/nursepractitioner/comments/1vhz5jc/what_ai_tools_do_nurse_practitioners_recommend/",
+          "date": "2026-08-07",
+          "whatItMeasured": "last30days L5 practitioner discourse (reddit); retrieved 2026-08-29"
+        }
+      ],
+      "scope": "Practitioner discourse sample (self-selected); not a representative survey.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
     }
   ],
   "jobAds": {
@@ -1228,14 +1585,25 @@
     ],
     "retrieved": "2026-08-24",
     "searchesReturningNothing": [],
-    "linkedin": {
-      "status": "sampled",
-      "query": "Nurse Practitioners",
-      "location": "Australia",
-      "returned": 10,
-      "source": "linkedin (unofficial scrape)",
-      "_raw": "data/professions/29-1171/raw/linkedin_l4.json"
-    },
+    "linkedin": [
+      {
+        "status": "sampled",
+        "query": "Nurse Practitioners",
+        "location": "Australia",
+        "returned": 10,
+        "source": "linkedin (unofficial scrape)",
+        "_raw": "data/professions/29-1171/raw/linkedin_l4.json"
+      },
+      {
+        "date": "2026-08-29",
+        "soc": "29-1171",
+        "query": "Nurse Practitioners",
+        "location": "Australia",
+        "returned": 10,
+        "totalResults": 10,
+        "status": "sampled"
+      }
+    ],
     "l5Sample": [
       {
         "date": "2026-08-29",
@@ -1250,9 +1618,24 @@
           "youtube": 1
         },
         "status": "sampled"
+      },
+      {
+        "date": "2026-08-29",
+        "added": 7,
+        "sources": {
+          "github": 13,
+          "grounding": 0,
+          "hackernews": 24,
+          "jobs": 0,
+          "reddit": 3,
+          "x": 13,
+          "youtube": 1
+        },
+        "status": "sampled"
       }
     ]
   },
   "confidence": "high",
-  "caveats": []
+  "caveats": [],
+  "researchMethod": "empirical-five-lane-v1"
 }
