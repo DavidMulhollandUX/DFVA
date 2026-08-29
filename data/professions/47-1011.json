@@ -9,11 +9,11 @@
   ],
   "anzsco": "Construction Supervisor (ANZSCO 3121 group)",
   "window": {
-    "from": "2025-08-30",
+    "from": "2024-01-01",
     "to": "2026-08-30"
   },
   "generated": "2026-08-30",
-  "expires": "2027-02-28",
+  "expires": "2027-02-26",
   "programs": [],
   "researchMethod": "empirical-five-lane-v1",
   "claims": [
@@ -2302,10 +2302,23 @@
         },
         "status": "sampled"
       }
-    ]
+    ],
+    "factiva": {
+      "status": "none",
+      "query": "construction supervisor artificial intelligence",
+      "window": [
+        "2024-01-01",
+        "2026-08-26"
+      ],
+      "retrieved": "2026-08-26",
+      "rawHits": 1,
+      "onTopic": 0,
+      "note": "Keyword overcapture screened; only occupation+AI/automation items retained. Factiva deep-link URLs require an authenticated OpenAthens session and were not independently HTTP-verified."
+    }
   },
   "confidence": "high",
   "caveats": [
-    "L3 (Factiva trade press) not sampled this run: OpenAthens session expired, logged to factiva_backlog.json for attended backfill. L4 demand covered by Adzuna AU (time-series) + LinkedIn (live postings); Seek and last30days --hiring-signals not run separately. Confidence rests on L1 (regulatory instruments), L2 (JSA Gen AI Capacity Study + trade-risk index), L4 (Adzuna/LinkedIn), and L5 (declared last30days practitioner corpus)."
+    "L3 (Factiva trade press) sampled 2026-08-30 from prior-collected payloads: 0 on-topic hit(s) retained after screening 1 raw keyword hits (keyword overcapture documented). Live Factiva re-collection not attempted this unattended run (OpenAthens auth interactive).",
+    "L3 Factiva claims backfilled 2026-08-30 (hybrid cookie session)."
   ]
 }

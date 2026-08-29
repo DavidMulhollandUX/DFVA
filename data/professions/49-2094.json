@@ -8,11 +8,11 @@
   ],
   "anzsco": "342313",
   "window": {
-    "from": "2025-08-30",
+    "from": "2025-01-01",
     "to": "2026-08-30"
   },
   "generated": "2026-08-30",
-  "expires": "2027-02-28",
+  "expires": "2027-02-26",
   "programs": [],
   "researchMethod": "empirical-five-lane-v1",
   "claims": [
@@ -1044,6 +1044,48 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l3f01",
+      "text": "WhenAIJoins the Work: Five Hazards Hiding in the System",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "Industrial Safety & Hygiene News",
+          "title": "WhenAIJoins the Work: Five Hazards Hiding in the System",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=WC45866020260819em8j00001&fcpil=en&napc=S&sa_from=&cat=w&page_driver=searchBuilder_Search",
+          "date": "20 August 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
+    },
+    {
+      "id": "l3f02",
+      "text": "The Future Technician Will Need More Than Skilled Hands [opinion]",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "AllAfrica",
+          "title": "The Future Technician Will Need More Than Skilled Hands [opinion]",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=AFNWS00020260817em8h00136&drn=drn:archive.newsarticle.AFNWS00020260817em8h00136&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "17 August 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
     }
   ],
   "jobAds": {
@@ -1124,10 +1166,23 @@
         },
         "status": "sampled"
       }
-    ]
+    ],
+    "factiva": {
+      "status": "sampled",
+      "query": "industrial electronics repairer AI OR automation",
+      "window": [
+        "2025-01-01",
+        "2026-08-26"
+      ],
+      "retrieved": "2026-08-26",
+      "rawHits": 40,
+      "onTopic": 2,
+      "note": "Keyword overcapture screened; only occupation+AI/automation items retained. Factiva deep-link URLs require an authenticated OpenAthens session and were not independently HTTP-verified."
+    }
   },
   "confidence": "high",
   "caveats": [
-    "L3 (Factiva trade press) not sampled this run: OpenAthens session expired, logged to factiva_backlog.json for attended backfill. L4 demand covered by Adzuna AU (time-series) + LinkedIn (live postings); Seek and last30days --hiring-signals not run separately. Confidence rests on L1 (regulatory instruments), L2 (JSA Gen AI Capacity Study + trade-risk index), L4 (Adzuna/LinkedIn), and L5 (declared last30days practitioner corpus)."
+    "L3 (Factiva trade press) sampled 2026-08-30 from prior-collected payloads: 2 on-topic hit(s) retained after screening 40 raw keyword hits (keyword overcapture documented). Live Factiva re-collection not attempted this unattended run (OpenAthens auth interactive).",
+    "L3 Factiva claims backfilled 2026-08-30 (hybrid cookie session)."
   ]
 }

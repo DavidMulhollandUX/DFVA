@@ -1165,5 +1165,17 @@
         "status": "sampled"
       }
     ]
-  }
+  },
+  "batchesRun": [
+    {
+      "date": "2026-08-30",
+      "socs": [
+        "47-1011",
+        "47-2061",
+        "47-2111",
+        "49-2094"
+      ],
+      "note": "L1/L2/L4/L5 + Factiva L3 folded; L3 curated from prior-collected Factiva payloads"
+    }
+  ]
 }

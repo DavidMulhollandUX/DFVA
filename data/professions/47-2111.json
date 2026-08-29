@@ -8,11 +8,11 @@
   ],
   "anzsco": "341111",
   "window": {
-    "from": "2025-08-30",
+    "from": "2024-01-01",
     "to": "2026-08-30"
   },
   "generated": "2026-08-30",
-  "expires": "2027-02-28",
+  "expires": "2027-02-26",
   "programs": [],
   "researchMethod": "empirical-five-lane-v1",
   "claims": [
@@ -1548,6 +1548,27 @@
       "bearing": [],
       "refuted": false,
       "refuteNotes": "L5 single-source; corroborate before high-grade use. Declared sample replaces 'no platform sampled'."
+    },
+    {
+      "id": "l3f01",
+      "text": "Jos\u00e9 Luis Gil, an electrician since the age of 16: \u201cWe\u2019re not going to become millionaires, but being an electrician is a calling that...",
+      "lane": "L3",
+      "tier": "trade-press-dated",
+      "sources": [
+        {
+          "publisher": "CE NoticiasFinancieras",
+          "title": "Jos\u00e9 Luis Gil, an electrician since the age of 16: \u201cWe\u2019re not going to become millionaires, but being an electrician is a calling that...",
+          "url": "https://global-factiva-com.eu1.proxy.openathens.net/du/article.aspx/?accessionno=NFINCE0020260621em6l005sl&drn=drn:archive.newsarticle.NFINCE0020260621em6l005sl&fcpil=en&napc=S&sa_from=&cat=a&page_driver=searchBuilder_Search",
+          "date": "21 June 2026",
+          "whatItMeasured": "Factiva trade-press item, retrieved 2026-08-26"
+        }
+      ],
+      "scope": "Trade-press report; not a primary study.",
+      "disposition": "sourced",
+      "supersedes": null,
+      "bearing": [],
+      "refuted": false,
+      "refuteNotes": "L3 single-source; corroborate before high-grade use."
     }
   ],
   "jobAds": {
@@ -1631,10 +1652,23 @@
         },
         "status": "sampled"
       }
-    ]
+    ],
+    "factiva": {
+      "status": "sampled",
+      "query": "electrical trade automation",
+      "window": [
+        "2024-01-01",
+        "2026-08-26"
+      ],
+      "retrieved": "2026-08-26",
+      "rawHits": 2,
+      "onTopic": 1,
+      "note": "Keyword overcapture screened; only occupation+AI/automation items retained. Factiva deep-link URLs require an authenticated OpenAthens session and were not independently HTTP-verified."
+    }
   },
   "confidence": "high",
   "caveats": [
-    "L3 (Factiva trade press) not sampled this run: OpenAthens session expired, logged to factiva_backlog.json for attended backfill. L4 demand covered by Adzuna AU (time-series) + LinkedIn (live postings); Seek and last30days --hiring-signals not run separately. Confidence rests on L1 (regulatory instruments), L2 (JSA Gen AI Capacity Study + trade-risk index), L4 (Adzuna/LinkedIn), and L5 (declared last30days practitioner corpus)."
+    "L3 (Factiva trade press) sampled 2026-08-30 from prior-collected payloads: 1 on-topic hit(s) retained after screening 2 raw keyword hits (keyword overcapture documented). Live Factiva re-collection not attempted this unattended run (OpenAthens auth interactive).",
+    "L3 Factiva claims backfilled 2026-08-30 (hybrid cookie session)."
   ]
 }
